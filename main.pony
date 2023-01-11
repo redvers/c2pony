@@ -6,7 +6,7 @@ use "collections"
 use @exit[None](err: I32)
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 
-type CastXMLTag is (Typedef | Struct | Field | Function | Argument | ArrayType | CvQualifiedType | ElaboratedType | Enumeration | EnumValue | PointerType | FundamentalType | Unknown)
+type CastXMLTag is (Typedef | Struct | Field | Function | Argument | ArrayType | CvQualifiedType | ElaboratedType | Enumeration | EnumValue | PointerType | FundamentalType | Ellipsis | Unknown)
 
 
 actor Main
@@ -72,6 +72,11 @@ actor Main
       | let t: Function => t.create_argument() ; return None
       end
     end
+    if (b == "Ellipsis")then
+      match currentnode
+      | let t: Function => t.create_ellipses() ; return None
+      end
+    end
 
 	fun ref send_etag(b: String, c: String) => None
     match currentnode
@@ -116,6 +121,8 @@ actor Main
       t.currkey = ""
       t.print()
     | let t: Function if (b == "Argument") =>
+      t.end_argument()
+    | let t: Function if (b == "Ellipsis") =>
       t.end_argument()
     | let t: Enumeration if (b == "EnumValue") =>
       t.end_argument()
@@ -202,7 +209,7 @@ AttrVal
 <Comment
 ! <CvQualifiedType
 ! <ElaboratedType
-<Ellipsis/>
+! <Ellipsis/>
 ! <Enumeration
 ! <EnumValue
 ! <Field

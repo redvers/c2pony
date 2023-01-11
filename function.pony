@@ -6,8 +6,8 @@ class Function
   var location: String = ""
   var extern: String = ""
 
-  var arguments: Array[Argument] = []
-  var currarg: (Argument | None) = None
+  var arguments: Array[(Argument | Ellipsis)] = []
+  var currarg: (Argument | Ellipsis | None) = None
 
   var currkey: String = ""
 
@@ -38,6 +38,11 @@ class Function
 
   fun ref create_argument() =>
     currarg = Argument
+
+  fun ref create_ellipses() =>
+    let t: Ellipsis = Ellipsis
+    arguments.push(t)
+    t.print()
 
   fun ref end_argument() =>
     match currarg
