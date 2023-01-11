@@ -83,43 +83,43 @@ actor Main
     | let t: ArrayType if (b == "ArrayType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: Typedef if (b == "Typedef") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: Struct if (b == "Struct") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: Field if (b == "Field") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: Function if (b == "Function") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: CvQualifiedType if (b == "CvQualifiedType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: ElaboratedType if (b == "ElaboratedType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: Enumeration if (b == "Enumeration") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: PointerType if (b == "PointerType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: FundamentalType if (b == "FundamentalType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-      t.print()
+//      t.print()
     | let t: Function if (b == "Argument") =>
       t.end_argument()
     | let t: Function if (b == "Ellipsis") =>

@@ -42,11 +42,11 @@ class Function
   fun ref create_ellipses() =>
     let t: Ellipsis = Ellipsis
     arguments.push(t)
-    t.print()
+//    t.print()
 
   fun ref end_argument() =>
     match currarg
     | let t: Argument => arguments.push(t)
-                         t.print()
+                     //    t.print()
     end
     currarg = None

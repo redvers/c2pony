@@ -46,6 +46,6 @@ class Enumeration
   fun ref end_argument() =>
     match currarg
     | let t: EnumValue => arguments.push(t)
-                         t.print()
+//                         t.print()
     end
     currarg = None
