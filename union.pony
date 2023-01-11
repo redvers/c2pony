@@ -27,3 +27,5 @@ class Union
   fun print() =>
     let memberstr: String = ", ".join(members.values())
     @printf("Union: %s: %s %s [%s]\n".cstring(), name.cstring(), id.cstring(), location.cstring(), memberstr.cstring())
+
+  fun gen_use(str: String): String => "FIXME Union"

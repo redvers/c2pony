@@ -22,3 +22,5 @@ class ArrayType
 
   fun print() =>
     @printf("ArrayType: %s: %s %s %s\n".cstring(), id.cstring(), xtype.cstring(), min.cstring(), max.cstring())
+
+  fun gen_use(str: String): String => "Pointer[" + str + "]"

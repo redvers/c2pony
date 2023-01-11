@@ -29,3 +29,5 @@ class Struct
   fun print() =>
     let memberstr: String = ", ".join(members.values())
     @printf("Struct: %s: %s %s %s [%s]\n".cstring(), name.cstring(), id.cstring(), xtype.cstring(), location.cstring(), memberstr.cstring())
+
+  fun gen_use(str: String): String => name

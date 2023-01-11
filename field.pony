@@ -28,3 +28,5 @@ class Field
 
   fun print() =>
     @printf("Field: %s: %s %s %s\n".cstring(), name.cstring(), id.cstring(), xtype.cstring(), location.cstring())
+
+  fun gen_use(str: String): String => "FIXME Field"

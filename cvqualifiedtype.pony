@@ -24,3 +24,5 @@ class CvQualifiedType
 
   fun print() =>
     @printf("CvQualifiedType: %s: %s %s %s %s\n".cstring(), id.cstring(), xtype.cstring(), const.cstring(), restrict.cstring(), volatile.cstring())
+
+  fun gen_use(str: String): String => str

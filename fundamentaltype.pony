@@ -23,7 +23,7 @@ class FundamentalType
   fun print() =>
     @printf("FundamentalType: %s: %s %s %s\n".cstring(), id.cstring(), name.cstring(), size.cstring(), align.cstring())
 
-  fun resolve(): String =>
+  fun apply(): String =>
     match name
     | if (name == "signed char")            => return "I8"   // size="8" align="8"/>
     | if (name == "unsigned char")          => return "U8"   // size="8" align="8"/>
@@ -53,3 +53,6 @@ class FundamentalType
       "FIXME - Unknown FundamentalType"
     end
 
+  fun gen_use(str: String): String =>
+    @printf("%s => %s <= Fundamental.gen_use(%s)\n".cstring(), name.cstring(), apply().cstring(), str.cstring())
+    apply()

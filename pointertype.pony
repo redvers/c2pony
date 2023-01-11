@@ -22,3 +22,5 @@ class PointerType
 
   fun print() =>
     @printf("PointerType: %s: %s %s %s\n".cstring(), id.cstring(), xtype.cstring(), size.cstring(), align.cstring())
+
+  fun gen_use(str: String): String => "Pointer[" + str + "]"

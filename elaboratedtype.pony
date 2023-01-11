@@ -18,3 +18,7 @@ class ElaboratedType
 
   fun print() =>
     @printf("ElaboratedType: %s: %s\n".cstring(), id.cstring(), xtype.cstring())
+
+  fun gen_use(str: String): String =>
+    @printf("%s <= ElaboratedType.gen_use(%s)\n".cstring(), str.cstring(), str.cstring())
+    str

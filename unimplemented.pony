@@ -20,4 +20,4 @@ class Unimplemented
 
     currkey = ""
 
-
+  fun gen_use(str: String): String => "FIXME Unimplemented"

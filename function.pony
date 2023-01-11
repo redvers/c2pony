@@ -50,3 +50,5 @@ class Function
                      //    t.print()
     end
     currarg = None
+
+  fun gen_use(str: String): String => "FIXME Function"

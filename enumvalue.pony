@@ -18,3 +18,5 @@ class EnumValue
 
   fun print() =>
     @printf("EnumValue: %s: %s\n".cstring(), name.cstring(), init.cstring())
+
+  fun gen_use(str: String): String => "FIXME EnumValue"

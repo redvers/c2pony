@@ -49,3 +49,7 @@ class Enumeration
 //                         t.print()
     end
     currarg = None
+
+  fun gen_use(str: String): String =>
+    @printf("%s <= Enumeration.gen_use(%s)\n".cstring(), str.cstring(), str.cstring())
+    str

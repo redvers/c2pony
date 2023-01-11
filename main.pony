@@ -14,7 +14,7 @@ actor Main
   let _xml: Xml
   let _env: Env
 
-	var currentnode: CastXMLTag = Unknown
+  var currentnode: CastXMLTag = Unknown
 
   let tmap: Map[String, CastXMLTag] = Map[String, CastXMLTag]
 
@@ -40,19 +40,19 @@ actor Main
 
 
   be callback(a: XmlNode, b: String, c: String) => None
-		match a
-		| let t: XmlSTag => send_stag(b, c)
-		| let t: XmlETag => send_etag(b, c)
-		| let t: XmlAttrKey => send_attrkey(b, c)
-		| let t: XmlAttrVal => send_attrvalue(b, c)
-		| let t: XmlEndDoc => end_document()
-		else
-	    _env.out.print(a.apply())
+    match a
+    | let t: XmlSTag => send_stag(b, c)
+    | let t: XmlETag => send_etag(b, c)
+    | let t: XmlAttrKey => send_attrkey(b, c)
+    | let t: XmlAttrVal => send_attrvalue(b, c)
+    | let t: XmlEndDoc => end_document()
+    else
+      _env.out.print(a.apply())
       _env.out.print("  " + b)
       _env.out.print("    " + c)
-		end
+    end
 
-	fun ref send_stag(b: String, c: String) =>
+  fun ref send_stag(b: String, c: String) =>
     if (b == "Typedef") then currentnode = Typedef ; return None end
     if (b == "Struct")  then currentnode = Struct  ; return None end
     if (b == "Field")   then currentnode = Field   ; return None end
@@ -84,7 +84,7 @@ actor Main
       end
     end
 
-	fun ref send_etag(b: String, c: String) => None
+  fun ref send_etag(b: String, c: String) => None
     match currentnode
     | let t: ArrayType if (b == "ArrayType") =>
       tmap.insert(t.id, t)
@@ -147,7 +147,7 @@ actor Main
       None
     end
 
-	fun ref send_attrkey(b: String, c: String) =>
+  fun ref send_attrkey(b: String, c: String) =>
     match currentnode
     | let t: Typedef => t.recvkey(b)
     | let t: Struct => t.recvkey(b)
@@ -164,7 +164,7 @@ actor Main
     | let t: Union => t.recvkey(b)
     end
 
-	fun ref send_attrvalue(b: String, c: String) => None
+  fun ref send_attrvalue(b: String, c: String) => None
     match currentnode
     | let t: Typedef => t.recvval(b)
     | let t: Struct => t.recvval(b)
@@ -188,9 +188,26 @@ actor Main
 //      dump_function("gtk_window_new")?
       for f in tmap.values() do
         match f
-        | let t: Typedef => try resolve_type(t.id, Array[CastXMLTag])? else @printf("XXXX UNKNOWN XXXX %s\n".cstring(), t.id.cstring()) end
+        | let t: Typedef => try
+            let objpath: Array[CastXMLTag] = Array[CastXMLTag]
+            resolve_type(t.id, objpath)?
+            @printf("USE Typedef[%s]: %s\n".cstring(), t.name.cstring(), gen_use(objpath)?.cstring())
+          else
+            @printf("XXXX UNKNOWN XXXX %s\n".cstring(), t.id.cstring())
+          end
         end
       end
+
+  fun gen_use(objpath: Array[CastXMLTag]): String ? =>
+    gen_use_rec(objpath, "")?
+
+  fun gen_use_rec(objpath: Array[CastXMLTag], str: String): String ? =>
+    var txt: String = str
+    while (objpath.size() > 0) do
+      let t: CastXMLTag = objpath.pop()?
+      txt = t.gen_use(txt)
+    end
+    txt
 
 //    else
 //      @printf("dump_function is borked\n".cstring())
@@ -230,7 +247,7 @@ actor Main
     | let t: Struct => objectpath.push(t)
                             @printf("Struct: %s \n".cstring(), t.name.cstring())
     | let t: FundamentalType => objectpath.push(t)
-                            @printf("FundamentalType: %s => %s\n".cstring(), t.name.cstring(), t.resolve().cstring())
+                            @printf("FundamentalType: %s => %s\n".cstring(), t.name.cstring(), t().cstring())
     | let t: FunctionType => objectpath.push(t)
                             @printf("FunctionType\n".cstring())
     | let t: Unimplemented => objectpath.push(t)

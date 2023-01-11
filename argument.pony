@@ -20,3 +20,5 @@ class Argument
 
   fun print() =>
     @printf("Argument: %s: %s [%s]\n".cstring(), name.cstring(), xtype.cstring(), location.cstring())
+
+  fun gen_use(str: String): String => "FIXME Argument"
