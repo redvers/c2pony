@@ -6,7 +6,7 @@ use "collections"
 use @exit[None](err: I32)
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 
-type CastXMLTag is (Typedef | Struct | Field | Function | Argument | Unknown)
+type CastXMLTag is (Typedef | Struct | Field | Function | Argument | ArrayType | CvQualifiedType | ElaboratedType | Enumeration | EnumValue | PointerType | FundamentalType | Unknown)
 
 
 actor Main
@@ -56,6 +56,17 @@ actor Main
     if (b == "Struct")  then currentnode = Struct  ; return None end
     if (b == "Field")   then currentnode = Field   ; return None end
     if (b == "Function")then currentnode = Function; return None end
+    if (b == "ArrayType")then currentnode = ArrayType; return None end
+    if (b == "CvQualifiedType")then currentnode = CvQualifiedType; return None end
+    if (b == "ElaboratedType")then currentnode = ElaboratedType; return None end
+    if (b == "PointerType")then currentnode = PointerType; return None end
+    if (b == "FundamentalType")then currentnode = FundamentalType; return None end
+    if (b == "Enumeration")then currentnode = Enumeration; return None end
+    if (b == "EnumValue")then
+      match currentnode
+      | let t: Enumeration => t.create_argument() ; return None
+      end
+    end
     if (b == "Argument")then
       match currentnode
       | let t: Function => t.create_argument() ; return None
@@ -64,6 +75,10 @@ actor Main
 
 	fun ref send_etag(b: String, c: String) => None
     match currentnode
+    | let t: ArrayType if (b == "ArrayType") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+      t.print()
     | let t: Typedef if (b == "Typedef") =>
       tmap.insert(t.id, t)
       t.currkey = ""
@@ -80,7 +95,29 @@ actor Main
       tmap.insert(t.id, t)
       t.currkey = ""
       t.print()
+    | let t: CvQualifiedType if (b == "CvQualifiedType") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+      t.print()
+    | let t: ElaboratedType if (b == "ElaboratedType") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+      t.print()
+    | let t: Enumeration if (b == "Enumeration") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+      t.print()
+    | let t: PointerType if (b == "PointerType") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+      t.print()
+    | let t: FundamentalType if (b == "FundamentalType") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+      t.print()
     | let t: Function if (b == "Argument") =>
+      t.end_argument()
+    | let t: Enumeration if (b == "EnumValue") =>
       t.end_argument()
     else
       None
@@ -92,6 +129,12 @@ actor Main
     | let t: Struct => t.recvkey(b)
     | let t: Field => t.recvkey(b)
     | let t: Function => t.recvkey(b)
+    | let t: ArrayType => t.recvkey(b)
+    | let t: CvQualifiedType => t.recvkey(b)
+    | let t: ElaboratedType => t.recvkey(b)
+    | let t: Enumeration => t.recvkey(b)
+    | let t: PointerType => t.recvkey(b)
+    | let t: FundamentalType => t.recvkey(b)
     end
 
 	fun ref send_attrvalue(b: String, c: String) => None
@@ -100,6 +143,12 @@ actor Main
     | let t: Struct => t.recvval(b)
     | let t: Field => t.recvval(b)
     | let t: Function => t.recvval(b)
+    | let t: ArrayType => t.recvval(b)
+    | let t: CvQualifiedType => t.recvval(b)
+    | let t: ElaboratedType => t.recvval(b)
+    | let t: Enumeration => t.recvval(b)
+    | let t: PointerType => t.recvval(b)
+    | let t: FundamentalType => t.recvval(b)
 
     end
 
@@ -147,30 +196,25 @@ AttrVal
     @exit(1)
 
 /*
-<Argument
-<ArrayType
-</CastXML>
+! <Argument
+! <ArrayType
 <CastXML
 <Comment
-<CvQualifiedType
-<ElaboratedType
+! <CvQualifiedType
+! <ElaboratedType
 <Ellipsis/>
-</Enumeration>
-<Enumeration
-<EnumValue
-<Field
+! <Enumeration
+! <EnumValue
+! <Field
 <File
-</Function>
-<Function
-</FunctionType>
+! <Function
 <FunctionType
-<FundamentalType
+! <FundamentalType
 <Namespace
-<PointerType
-<Struct
-<Typedef
+! <PointerType
+! <Struct
+! <Typedef
 <Unimplemented
 <Union
 <Variable
-<?xml
 */
