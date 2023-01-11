@@ -6,7 +6,7 @@ use "collections"
 use @exit[None](err: I32)
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 
-type CastXMLTag is (Typedef | Struct | Field | Function | Argument | ArrayType | CvQualifiedType | ElaboratedType | Enumeration | EnumValue | PointerType | FundamentalType | Ellipsis | Unknown)
+type CastXMLTag is (Typedef | Struct | Field | Function | FunctionType | Argument | ArrayType | CvQualifiedType | ElaboratedType | Enumeration | EnumValue | PointerType | FundamentalType | Ellipsis | Unimplemented | Union | Unknown)
 
 
 actor Main
@@ -45,6 +45,7 @@ actor Main
 		| let t: XmlETag => send_etag(b, c)
 		| let t: XmlAttrKey => send_attrkey(b, c)
 		| let t: XmlAttrVal => send_attrvalue(b, c)
+		| let t: XmlEndDoc => end_document()
 		else
 	    _env.out.print(a.apply())
       _env.out.print("  " + b)
@@ -56,12 +57,15 @@ actor Main
     if (b == "Struct")  then currentnode = Struct  ; return None end
     if (b == "Field")   then currentnode = Field   ; return None end
     if (b == "Function")then currentnode = Function; return None end
+    if (b == "FunctionType")then currentnode = FunctionType; return None end
     if (b == "ArrayType")then currentnode = ArrayType; return None end
     if (b == "CvQualifiedType")then currentnode = CvQualifiedType; return None end
     if (b == "ElaboratedType")then currentnode = ElaboratedType; return None end
     if (b == "PointerType")then currentnode = PointerType; return None end
     if (b == "FundamentalType")then currentnode = FundamentalType; return None end
     if (b == "Enumeration")then currentnode = Enumeration; return None end
+    if (b == "Unimplemented")then currentnode = Unimplemented; return None end
+    if (b == "Union")then currentnode = Union; return None end
     if (b == "EnumValue")then
       match currentnode
       | let t: Enumeration => t.create_argument() ; return None
@@ -70,11 +74,13 @@ actor Main
     if (b == "Argument")then
       match currentnode
       | let t: Function => t.create_argument() ; return None
+      | let t: FunctionType => t.create_argument() ; return None
       end
     end
     if (b == "Ellipsis")then
       match currentnode
       | let t: Function => t.create_ellipses() ; return None
+      | let t: FunctionType => t.create_ellipses() ; return None
       end
     end
 
@@ -100,6 +106,10 @@ actor Main
       tmap.insert(t.id, t)
       t.currkey = ""
 //      t.print()
+    | let t: FunctionType if (b == "FunctionType") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+//      t.print()
     | let t: CvQualifiedType if (b == "CvQualifiedType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
@@ -120,12 +130,19 @@ actor Main
       tmap.insert(t.id, t)
       t.currkey = ""
 //      t.print()
-    | let t: Function if (b == "Argument") =>
-      t.end_argument()
-    | let t: Function if (b == "Ellipsis") =>
-      t.end_argument()
-    | let t: Enumeration if (b == "EnumValue") =>
-      t.end_argument()
+    | let t: Unimplemented if (b == "Unimplemented") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+//      t.print()
+    | let t: Union if (b == "Union") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+//      t.print()
+    | let t: Function     if (b == "Argument") => t.end_argument()
+    | let t: Function     if (b == "Ellipsis") => t.end_argument()
+    | let t: FunctionType if (b == "Argument") => t.end_argument()
+    | let t: FunctionType if (b == "Ellipsis") => t.end_argument()
+    | let t: Enumeration  if (b == "EnumValue") => t.end_argument()
     else
       None
     end
@@ -136,12 +153,15 @@ actor Main
     | let t: Struct => t.recvkey(b)
     | let t: Field => t.recvkey(b)
     | let t: Function => t.recvkey(b)
+    | let t: FunctionType => t.recvkey(b)
     | let t: ArrayType => t.recvkey(b)
     | let t: CvQualifiedType => t.recvkey(b)
     | let t: ElaboratedType => t.recvkey(b)
     | let t: Enumeration => t.recvkey(b)
     | let t: PointerType => t.recvkey(b)
     | let t: FundamentalType => t.recvkey(b)
+    | let t: Unimplemented => t.recvkey(b)
+    | let t: Union => t.recvkey(b)
     end
 
 	fun ref send_attrvalue(b: String, c: String) => None
@@ -150,14 +170,81 @@ actor Main
     | let t: Struct => t.recvval(b)
     | let t: Field => t.recvval(b)
     | let t: Function => t.recvval(b)
+    | let t: FunctionType => t.recvval(b)
     | let t: ArrayType => t.recvval(b)
     | let t: CvQualifiedType => t.recvval(b)
     | let t: ElaboratedType => t.recvval(b)
     | let t: Enumeration => t.recvval(b)
     | let t: PointerType => t.recvval(b)
     | let t: FundamentalType => t.recvval(b)
+    | let t: Unimplemented => t.recvval(b)
+    | let t: Union => t.recvval(b)
 
     end
+
+  fun ref end_document() =>
+    @printf("Time to process...\n".cstring())
+//    try
+//      dump_function("gtk_window_new")?
+      for f in tmap.values() do
+        match f
+        | let t: Typedef => try resolve_type(t.id, Array[CastXMLTag])? else @printf("XXXX UNKNOWN XXXX %s\n".cstring(), t.id.cstring()) end
+        end
+      end
+
+//    else
+//      @printf("dump_function is borked\n".cstring())
+//    end
+
+//  fun ref dump_function(a: String) ? =>
+//    resolve_type("_29414", Array[CastXMLTag]) ?
+//    for f in tmap.values() do
+//      match f
+//      | let t: Function if (t.name == a) => return t
+//      else
+//        error
+//      end
+//    end
+//    error
+
+  fun ref resolve_type(xtype: String, objectpath: Array[CastXMLTag]) ? =>
+    match tmap(xtype)?
+    | let t: PointerType => objectpath.push(t)
+                            @printf("PointerType => ".cstring())
+                            resolve_type(t.xtype, objectpath) ?
+    | let t: Typedef =>     objectpath.push(t)
+                            @printf("Typedef[%s]: ".cstring(), t.name.cstring())
+                            resolve_type(t.xtype, objectpath) ?
+    | let t: ElaboratedType => objectpath.push(t)
+                            @printf("ElaboratedType => ".cstring())
+                            resolve_type(t.xtype, objectpath) ?
+    | let t: Enumeration => objectpath.push(t)
+                            @printf("Enumeration[%s] => ".cstring(), t.name.cstring())
+                            resolve_type(t.xtype, objectpath) ?
+    | let t: ArrayType => objectpath.push(t)
+                            @printf("ArrayType =>".cstring())
+                            resolve_type(t.xtype, objectpath) ?
+    | let t: CvQualifiedType => objectpath.push(t)
+                            @printf("CvQualifiedType => ".cstring())
+                            resolve_type(t.xtype, objectpath) ?
+    | let t: Struct => objectpath.push(t)
+                            @printf("Struct: %s \n".cstring(), t.name.cstring())
+    | let t: FundamentalType => objectpath.push(t)
+                            @printf("FundamentalType: %s => %s\n".cstring(), t.name.cstring(), t.resolve().cstring())
+    | let t: FunctionType => objectpath.push(t)
+                            @printf("FunctionType\n".cstring())
+    | let t: Unimplemented => objectpath.push(t)
+                            @printf("Unimplemented[%s]\n".cstring(), t.type_class.cstring())
+    | let t: Union => objectpath.push(t)
+                            @printf("Union[%s] %s %s\n".cstring(), t.name.cstring(), t.size.cstring(), t.align.cstring())
+    else
+      die("humph resolve_type: " + xtype)
+    end
+
+
+
+
+
 
 /*
 ETag
@@ -215,7 +302,7 @@ AttrVal
 ! <Field
 <File
 ! <Function
-<FunctionType
+! <FunctionType
 ! <FundamentalType
 <Namespace
 ! <PointerType
