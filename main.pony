@@ -183,7 +183,7 @@ actor Main
     end
 
   fun ref end_document() =>
-    @printf("Time to process...\n".cstring())
+    Debug.err("Time to process...")
 
 	fun function_use(function_name: String) =>
 		None
@@ -199,7 +199,7 @@ actor Main
       | let t: Typedef => try
           let objpath: Array[CastXMLTag] = Array[CastXMLTag]
           resolve_type(t.id, objpath)?
-          @printf("USE Typedef[%s]: %s\n".cstring(), t.name.cstring(), gen_use(objpath)?.cstring())
+          Debug.err("USE Typedef[" + t.name + "]: " + gen_use(objpath)?)
         else
           @printf("XXXX UNKNOWN XXXX %s\n".cstring(), t.id.cstring())
         end

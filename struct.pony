@@ -1,3 +1,4 @@
+use "debug"
 class Struct
   var id: String = ""
   var name: String = ""
@@ -28,6 +29,6 @@ class Struct
 
   fun print() =>
     let memberstr: String = ", ".join(members.values())
-    @printf("Struct: %s: %s %s %s [%s]\n".cstring(), name.cstring(), id.cstring(), xtype.cstring(), location.cstring(), memberstr.cstring())
+    Debug.err("Struct: " + name + " " + id + " " + xtype + " " + location + " " + memberstr)
 
   fun gen_use(str: String): String => name

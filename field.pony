@@ -1,3 +1,4 @@
+use "debug"
 class Field
   var id: String = ""
   var name: String = ""
@@ -27,6 +28,6 @@ class Field
     currkey = ""
 
   fun print() =>
-    @printf("Field: %s: %s %s %s\n".cstring(), name.cstring(), id.cstring(), xtype.cstring(), location.cstring())
+    Debug.err("Field: " + name + " " + id + " " + xtype + " " + location)
 
   fun gen_use(str: String): String => "FIXME Field"

@@ -1,3 +1,4 @@
+use "debug"
 class PointerType
   var id: String = ""
   var xtype: String = ""
@@ -21,6 +22,6 @@ class PointerType
     currkey = ""
 
   fun print() =>
-    @printf("PointerType: %s: %s %s %s\n".cstring(), id.cstring(), xtype.cstring(), size.cstring(), align.cstring())
+    Debug.err("PointerType: " + " " + id + " " + xtype + " " + size + " " + align)
 
   fun gen_use(str: String): String => "Pointer[" + str + "]"

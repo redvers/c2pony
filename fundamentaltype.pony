@@ -1,3 +1,4 @@
+use "debug"
 class FundamentalType
   var id: String = ""
   var name: String = ""
@@ -21,7 +22,7 @@ class FundamentalType
     currkey = ""
 
   fun print() =>
-    @printf("FundamentalType: %s: %s %s %s\n".cstring(), id.cstring(), name.cstring(), size.cstring(), align.cstring())
+    Debug.err("FundamentalType: " + " " + id + " " + name + " " + size + " " + align)
 
   fun apply(): String =>
     match name
@@ -54,5 +55,5 @@ class FundamentalType
     end
 
   fun gen_use(str: String): String =>
-    @printf("%s => %s <= Fundamental.gen_use(%s)\n".cstring(), name.cstring(), apply().cstring(), str.cstring())
+    Debug.err(name + " => " + apply() + " <= Fundamental.gen_use(" + str + ")")
     apply()

@@ -1,3 +1,4 @@
+use "debug"
 class Union
   var id: String = ""
   var name: String = ""
@@ -26,6 +27,6 @@ class Union
 
   fun print() =>
     let memberstr: String = ", ".join(members.values())
-    @printf("Union: %s: %s %s [%s]\n".cstring(), name.cstring(), id.cstring(), location.cstring(), memberstr.cstring())
+    Debug.err("Union: " + name + " " + id + " " + location + " " + memberstr)
 
   fun gen_use(str: String): String => "FIXME Union"

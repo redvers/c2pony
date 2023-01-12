@@ -1,3 +1,4 @@
+use "debug"
 class EnumValue
   var name: String = ""
   var init: String = ""
@@ -17,6 +18,6 @@ class EnumValue
     currkey = ""
 
   fun print() =>
-    @printf("EnumValue: %s: %s\n".cstring(), name.cstring(), init.cstring())
+    Debug.err("EnumValue: " + name + " " + init)
 
   fun gen_use(str: String): String => "FIXME EnumValue"

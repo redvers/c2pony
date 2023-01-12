@@ -1,3 +1,4 @@
+use "debug"
 class Unimplemented
   var id: String = ""
   var type_class: String = ""
@@ -7,7 +8,7 @@ class Unimplemented
   new create() => None
 
   fun print() =>
-    @printf("Unimplemented: %s\n".cstring(), type_class.cstring())
+    Debug.err("Unimplemented: " + type_class)
 
   fun ref recvkey(b: String) =>
     currkey = b

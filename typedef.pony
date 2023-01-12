@@ -1,3 +1,4 @@
+use "debug"
 class Typedef
   var id: String = ""
   var name: String = ""
@@ -21,8 +22,8 @@ class Typedef
     currkey = ""
 
   fun print() =>
-    @printf("Typedef: %s: %s %s %s\n".cstring(), name.cstring(), id.cstring(), xtype.cstring(), location.cstring())
+    Debug.err("Typedef: " + name + " "  + id + " " + xtype + " " + location)
 
   fun gen_use(str: String): String =>
-    @printf("%s <= Typedef.gen_use(%s)\n".cstring(), str.cstring(), str.cstring())
+    Debug.err(str + " <= Typedef.gen_use(" + str + ")")
     str

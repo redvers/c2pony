@@ -1,3 +1,4 @@
+use "debug"
 class Function
   var id: String = ""
   var name: String = ""
@@ -34,7 +35,7 @@ class Function
     currkey = ""
 
   fun print() =>
-    @printf("Function: %s: %s %s %s [%s]\n".cstring(), name.cstring(), id.cstring(), returns.cstring(), location.cstring(), extern.cstring())
+    Debug.err("Function: " + name + " " + id + " " + returns + " " + location + " " + extern)
 
   fun ref create_argument() =>
     currarg = Argument

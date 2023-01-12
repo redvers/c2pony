@@ -1,9 +1,10 @@
+use "debug"
 class CvQualifiedType
   var id: String = ""
   var xtype: String = ""
-  var const: String = ""
-  var restrict: String = ""
-  var volatile: String = ""
+  var const: String = "0"
+  var restrict: String = "0"
+  var volatile: String = "0"
 
   var currkey: String = ""
 
@@ -23,6 +24,6 @@ class CvQualifiedType
     currkey = ""
 
   fun print() =>
-    @printf("CvQualifiedType: %s: %s %s %s %s\n".cstring(), id.cstring(), xtype.cstring(), const.cstring(), restrict.cstring(), volatile.cstring())
+    Debug.err("CvQualifiedType: " + id + " " + xtype + " " + const + restrict + volatile)
 
   fun gen_use(str: String): String => str

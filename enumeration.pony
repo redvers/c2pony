@@ -1,3 +1,4 @@
+use "debug"
 class Enumeration
   var id: String = ""
   var name: String = ""
@@ -38,7 +39,7 @@ class Enumeration
     currkey = ""
 
   fun print() =>
-    @printf("Enumeration: %s: %s %s %s %s %s %s %s\n".cstring(), name.cstring(), id.cstring(), xtype.cstring(), context.cstring(), location.cstring(), size.cstring(), align.cstring(), comment.cstring())
+    Debug.err("Enumeration: " + name + " " + id + " " + xtype + " " + context + " " + location + " " + size + " " + align)
 
   fun ref create_argument() =>
     currarg = EnumValue
@@ -51,5 +52,5 @@ class Enumeration
     currarg = None
 
   fun gen_use(str: String): String =>
-    @printf("%s <= Enumeration.gen_use(%s)\n".cstring(), str.cstring(), str.cstring())
+    Debug.err(str + " <= Enumeration.gen_use(" + str + ")")
     str

@@ -1,3 +1,4 @@
+use "debug"
 class ElaboratedType
   var id: String = ""
   var xtype: String = ""
@@ -17,8 +18,8 @@ class ElaboratedType
     currkey = ""
 
   fun print() =>
-    @printf("ElaboratedType: %s: %s\n".cstring(), id.cstring(), xtype.cstring())
+    Debug.err("ElaboratedType: " + id + " " + xtype)
 
   fun gen_use(str: String): String =>
-    @printf("%s <= ElaboratedType.gen_use(%s)\n".cstring(), str.cstring(), str.cstring())
+    Debug.err(str + " <= ElaboratedType.gen_use(" + str + ")")
     str

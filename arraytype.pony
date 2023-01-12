@@ -1,3 +1,4 @@
+use "debug"
 class ArrayType
   var id: String = ""
   var xtype: String = ""
@@ -21,6 +22,6 @@ class ArrayType
     currkey = ""
 
   fun print() =>
-    @printf("ArrayType: %s: %s %s %s\n".cstring(), id.cstring(), xtype.cstring(), min.cstring(), max.cstring())
+    Debug.err("ArrayType: " + id + " " + xtype + " " + min + " " + max)
 
   fun gen_use(str: String): String => "Pointer[" + str + "]"

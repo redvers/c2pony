@@ -1,3 +1,5 @@
+use "debug"
+
 class Argument
   var name: String = ""
   var xtype: String = ""
@@ -19,6 +21,6 @@ class Argument
     currkey = ""
 
   fun print() =>
-    @printf("Argument: %s: %s [%s]\n".cstring(), name.cstring(), xtype.cstring(), location.cstring())
+    Debug.err("Argument: " + name + " " + xtype + " " + location)
 
   fun gen_use(str: String): String => "FIXME Argument"

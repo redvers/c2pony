@@ -1,3 +1,4 @@
+use "debug"
 class FunctionType
   var id: String = ""
   var returns: String = ""
@@ -26,7 +27,7 @@ class FunctionType
     currkey = ""
 
   fun print() =>
-    @printf("FunctionType: %s: %s \n".cstring(), id.cstring(), returns.cstring())
+    Debug.err("FunctionType: " + id + " " + returns)
 
   fun ref create_argument() =>
     currarg = Argument
