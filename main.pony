@@ -25,6 +25,7 @@ actor Main
 
     _xml = Xml.create(this~callback())
 
+    Debug.err("STARTING PARSING ...")
     process_chunk()
 
 
@@ -46,11 +47,6 @@ actor Main
     | let t: XmlAttrKey => send_attrkey(b, c)
     | let t: XmlAttrVal => send_attrvalue(b, c)
     | let t: XmlEndDoc => end_document()
-    else
-      None
-//      _env.out.print(a.apply())
-//      _env.out.print("  " + b)
-//      _env.out.print("    " + c)
     end
 
   fun ref send_stag(b: String, c: String) =>
@@ -90,55 +86,55 @@ actor Main
     | let t: ArrayType if (b == "ArrayType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: Typedef if (b == "Typedef") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: Struct if (b == "Struct") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: Field if (b == "Field") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: Function if (b == "Function") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: FunctionType if (b == "FunctionType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: CvQualifiedType if (b == "CvQualifiedType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: ElaboratedType if (b == "ElaboratedType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: Enumeration if (b == "Enumeration") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: PointerType if (b == "PointerType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: FundamentalType if (b == "FundamentalType") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: Unimplemented if (b == "Unimplemented") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: Union if (b == "Union") =>
       tmap.insert(t.id, t)
       t.currkey = ""
-//      t.print()
+      t.print()
     | let t: Function     if (b == "Argument") => t.end_argument()
     | let t: Function     if (b == "Ellipsis") => t.end_argument()
     | let t: FunctionType if (b == "Argument") => t.end_argument()
@@ -148,51 +144,68 @@ actor Main
       None
     end
 
-  fun ref send_attrkey(b: String, c: String) =>
-    match currentnode
-    | let t: Typedef => t.recvkey(b)
-    | let t: Struct => t.recvkey(b)
-    | let t: Field => t.recvkey(b)
-    | let t: Function => t.recvkey(b)
-    | let t: FunctionType => t.recvkey(b)
-    | let t: ArrayType => t.recvkey(b)
-    | let t: CvQualifiedType => t.recvkey(b)
-    | let t: ElaboratedType => t.recvkey(b)
-    | let t: Enumeration => t.recvkey(b)
-    | let t: PointerType => t.recvkey(b)
-    | let t: FundamentalType => t.recvkey(b)
-    | let t: Unimplemented => t.recvkey(b)
-    | let t: Union => t.recvkey(b)
-    end
-
-  fun ref send_attrvalue(b: String, c: String) => None
-    match currentnode
-    | let t: Typedef => t.recvval(b)
-    | let t: Struct => t.recvval(b)
-    | let t: Field => t.recvval(b)
-    | let t: Function => t.recvval(b)
-    | let t: FunctionType => t.recvval(b)
-    | let t: ArrayType => t.recvval(b)
-    | let t: CvQualifiedType => t.recvval(b)
-    | let t: ElaboratedType => t.recvval(b)
-    | let t: Enumeration => t.recvval(b)
-    | let t: PointerType => t.recvval(b)
-    | let t: FundamentalType => t.recvval(b)
-    | let t: Unimplemented => t.recvval(b)
-    | let t: Union => t.recvval(b)
-
-    end
+  fun ref send_attrkey(b: String, c: String) => currentnode.recvkey(b)
+  fun ref send_attrvalue(b: String, c: String) => currentnode.recvval(b)
 
   fun ref end_document() =>
-    Debug.err("Time to process...")
+    Debug.err("FINISHED PARSING ...")
+    try
+      function_use("gtk_window_new")?
+    else
+      Debug.err("Failed to autogenerate")
+    end
 
-	fun function_use(function_name: String) =>
-		None
+	fun ref function_use(function_name: String) ? =>
+    Debug.err("Looking up function: " + function_name)
+    let function: Function =
+    try
+      lookup_function(function_name)?
+    else
+      Debug.err("Unable to locate function in XML")
+      error
+    end
+
+    let objpath: Array[CastXMLTag] = Array[CastXMLTag]
+    try
+      resolve_type(function.returns, objpath)?
+    else
+      Debug.err("Unable to resolve_type(returns): " + function.returns)
+      error
+    end
+
+    Debug.err("Validating ObjPath")
+    validate_objpath(objpath)
+
+    try
+      generate_use(objpath)?
+    else
+      Debug.err("generate_use failed")
+    end
+
+  fun ref validate_objpath(objpath: Array[CastXMLTag]) =>
+    Debug.err("Found " + objpath.size().string() + " steps in the path")
+    var debugstr: String trn = recover trn String end
+    for f in objpath.values() do
+      debugstr.append(" => " + DebugClasses.objtype(f))
+    end
+    Debug.err("Validate Objectpath: " + debugstr)
+
+  fun ref generate_use(objpath: Array[CastXMLTag]) ? =>
+    var text: String = ""
+
+    for index in Range(objpath.size(), 0, -1) do
+      Debug.err("Index#: " + index.string())
+      Debug.err("Before[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
+      text = objpath(index - 1)?.gen_use(text)
+      Debug.err("After[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
+    end
 
 
 
 
 
+
+/*
 
 	fun ref debug_types() =>
     for f in tmap.values() do
@@ -207,6 +220,7 @@ actor Main
       end
     end
 
+    */
   fun gen_use(objpath: Array[CastXMLTag]): String ? =>
     gen_use_rec(objpath, "")?
 
@@ -218,20 +232,6 @@ actor Main
     end
     txt
 
-//    else
-//      @printf("dump_function is borked\n".cstring())
-//    end
-
-//  fun ref dump_function(a: String) ? =>
-//    resolve_type("_29414", Array[CastXMLTag]) ?
-//    for f in tmap.values() do
-//      match f
-//      | let t: Function if (t.name == a) => return t
-//      else
-//        error
-//      end
-//    end
-//    error
 
   fun ref lookup_function(a: String): Function ? =>
     for f in tmap.values() do
@@ -349,3 +349,17 @@ AttrVal
 <Union
 <Variable
 */
+//    else
+//      @printf("dump_function is borked\n".cstring())
+//    end
+
+//  fun ref dump_function(a: String) ? =>
+//    resolve_type("_29414", Array[CastXMLTag]) ?
+//    for f in tmap.values() do
+//      match f
+//      | let t: Function if (t.name == a) => return t
+//      else
+//        error
+//      end
+//    end
+//    error
