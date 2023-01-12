@@ -47,9 +47,10 @@ actor Main
     | let t: XmlAttrVal => send_attrvalue(b, c)
     | let t: XmlEndDoc => end_document()
     else
-      _env.out.print(a.apply())
-      _env.out.print("  " + b)
-      _env.out.print("    " + c)
+      None
+//      _env.out.print(a.apply())
+//      _env.out.print("  " + b)
+//      _env.out.print("    " + c)
     end
 
   fun ref send_stag(b: String, c: String) =>
@@ -201,7 +202,7 @@ actor Main
           resolve_type(t.id, objpath)?
           Debug.err("USE Typedef[" + t.name + "]: " + gen_use(objpath)?)
         else
-          @printf("XXXX UNKNOWN XXXX %s\n".cstring(), t.id.cstring())
+          Debug.err("XXXX UNKNOWN XXXX " + t.id)
         end
       end
     end
@@ -246,33 +247,33 @@ actor Main
   fun ref resolve_type(xtype: String, objectpath: Array[CastXMLTag]) ? =>
     match tmap(xtype)?
     | let t: PointerType => objectpath.push(t)
-                            @printf("PointerType => ".cstring())
+                            Debug.err("PointerType => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: Typedef =>     objectpath.push(t)
-                            @printf("Typedef[%s]: ".cstring(), t.name.cstring())
+                            Debug.err("Typedef[" + t.name + "]: ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: ElaboratedType => objectpath.push(t)
-                            @printf("ElaboratedType => ".cstring())
+                            Debug.err("ElaboratedType => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: Enumeration => objectpath.push(t)
-                            @printf("Enumeration[%s] => ".cstring(), t.name.cstring())
+                            Debug.err("Enumeration[" + t.name + "] => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: ArrayType => objectpath.push(t)
-                            @printf("ArrayType =>".cstring())
+                            Debug.err("ArrayType => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: CvQualifiedType => objectpath.push(t)
-                            @printf("CvQualifiedType => ".cstring())
+                            Debug.err("CvQualifiedType => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: Struct => objectpath.push(t)
-                            @printf("Struct: %s \n".cstring(), t.name.cstring())
+                            Debug.err("Struct: " + t.name)
     | let t: FundamentalType => objectpath.push(t)
-                            @printf("FundamentalType: %s => %s\n".cstring(), t.name.cstring(), t().cstring())
+                            Debug.err("FundamentalType: " + t.name + " => " + t())
     | let t: FunctionType => objectpath.push(t)
-                            @printf("FunctionType\n".cstring())
+                            Debug.err("FunctionType")
     | let t: Unimplemented => objectpath.push(t)
-                            @printf("Unimplemented[%s]\n".cstring(), t.type_class.cstring())
+                            Debug.err("Unimplemented[" + t.type_class + "]")
     | let t: Union => objectpath.push(t)
-                            @printf("Union[%s] %s %s\n".cstring(), t.name.cstring(), t.size.cstring(), t.align.cstring())
+                            Debug.err("Union[" + t.name + "] " + t.size + " " + t.align)
     else
       die("humph resolve_type: " + xtype)
     end
