@@ -184,19 +184,27 @@ actor Main
 
   fun ref end_document() =>
     @printf("Time to process...\n".cstring())
-//    try
-//      dump_function("gtk_window_new")?
-      for f in tmap.values() do
-        match f
-        | let t: Typedef => try
-            let objpath: Array[CastXMLTag] = Array[CastXMLTag]
-            resolve_type(t.id, objpath)?
-            @printf("USE Typedef[%s]: %s\n".cstring(), t.name.cstring(), gen_use(objpath)?.cstring())
-          else
-            @printf("XXXX UNKNOWN XXXX %s\n".cstring(), t.id.cstring())
-          end
+
+	fun function_use(function_name: String) =>
+		None
+
+
+
+
+
+
+	fun ref debug_types() =>
+    for f in tmap.values() do
+      match f
+      | let t: Typedef => try
+          let objpath: Array[CastXMLTag] = Array[CastXMLTag]
+          resolve_type(t.id, objpath)?
+          @printf("USE Typedef[%s]: %s\n".cstring(), t.name.cstring(), gen_use(objpath)?.cstring())
+        else
+          @printf("XXXX UNKNOWN XXXX %s\n".cstring(), t.id.cstring())
         end
       end
+    end
 
   fun gen_use(objpath: Array[CastXMLTag]): String ? =>
     gen_use_rec(objpath, "")?
@@ -223,6 +231,17 @@ actor Main
 //      end
 //    end
 //    error
+
+  fun ref lookup_function(a: String): Function ? =>
+    for f in tmap.values() do
+      match f
+      | let t: Function if (t.name == a) =>
+        return t
+      else
+        None
+      end
+    end
+    error
 
   fun ref resolve_type(xtype: String, objectpath: Array[CastXMLTag]) ? =>
     match tmap(xtype)?
