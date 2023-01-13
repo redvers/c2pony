@@ -6,7 +6,7 @@ use "collections"
 use @exit[None](err: I32)
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 
-type CastXMLTag is (Typedef | Struct | Field | Function | FunctionType | Argument | ArrayType | CvQualifiedType | ElaboratedType | Enumeration | EnumValue | PointerType | FundamentalType | Ellipsis | Unimplemented | Union | Unknown)
+type CastXMLTag is (Typedef | Struct | Field | Function | FunctionType | Argument | ArrayType | CvQualifiedType | ElaboratedType | Enumeration | EnumValue | PointerType | FundamentalType | Ellipsis | Unimplemented | Union | FileType | Unknown)
 
 
 actor Main
@@ -63,6 +63,7 @@ actor Main
     if (b == "Enumeration")then currentnode = Enumeration; return None end
     if (b == "Unimplemented")then currentnode = Unimplemented; return None end
     if (b == "Union")then currentnode = Union; return None end
+    if (b == "File")then currentnode = FileType; return None end
     if (b == "EnumValue")then
       match currentnode
       | let t: Enumeration => t.create_argument() ; return None
@@ -135,6 +136,10 @@ actor Main
       tmap.insert(t.id, t)
       t.currkey = ""
       t.print()
+    | let t: FileType if (b == "File") =>
+      tmap.insert(t.id, t)
+      t.currkey = ""
+      t.print()
     | let t: Function     if (b == "Argument") => t.end_argument()
     | let t: Function     if (b == "Ellipsis") => t.end_argument()
     | let t: FunctionType if (b == "Argument") => t.end_argument()
@@ -150,13 +155,21 @@ actor Main
   fun ref end_document() =>
     Debug.err("FINISHED PARSING ...")
     try
-      function_use("gtk_window_new")?
+      function_use("printf")?
       function_use("gtk_window_set_title")?
+/*    for f in tmap.values() do
+      match f
+      | let t: Function => try
+                             function_use(t.name)?
+                           else
+                             _env.out.print("// " + t.name + " failed")
+                           end
+      end */
     else
       Debug.err("Failed to autogenerate")
     end
 
-	fun ref function_use(function_name: String) ? =>
+  fun ref function_use(function_name: String) ? =>
     Debug.err("Looking up function: " + function_name)
     let function: Function =
     try
@@ -166,14 +179,51 @@ actor Main
       error
     end
     let returnvalue: String = use_return_value(function)?
+    let functionlocation: String = DebugClasses.location(tmap, function.location)?
 
     Debug.err("Checking our args")
+    let args: String trn = recover trn String end
+    args.append("<use name=\"")
+    args.append(function_name)
+    args.append("\" returntype=\"")
+    args.append(returnvalue)
+    args.append("\" location=\"")
+    args.append(functionlocation)
+    args.append("\">\n")
     (let rnames: Array[String], let rtypes: Array[String]) = use_args(function)?
     if (rnames.size() == rtypes.size()) then
-      for index in Range(rnames.size(), 0) do
-        Debug.err(rnames(index - 1)? + ": " + rtypes(index - 1)?)
+      for index in Range(0, rnames.size()) do
+        Debug.err(rnames(index)? + ": " + rtypes(index)?)
+        args.append("  <argument name=\"")
+        if (rnames(index)? == "'") then
+          args.append("arg")
+          args.append(index.string())
+        else
+          args.append(rnames(index)?)
+        end
+        args.append("\" argtype=\"")
+        args.append(rtypes(index)?)
+        args.append("\"/>\n")
       end
+    else
+      for index in Range(0, rnames.size()) do
+        Debug.err(rnames(index)? + ": " + rtypes(index)?)
+        args.append("  <argument name=\"")
+        if (rnames(index)? == "'") then
+          args.append("arg")
+          args.append(index.string())
+        else
+          args.append(rnames(index)?)
+        end
+        args.append(rnames(index)?)
+        args.append("\" argtype=\"")
+        args.append(rtypes(index)?)
+        args.append("\"/>\n")
+      end
+      args.append("  <ellipsis/>\n")
     end
+    args.append("</use>")
+    _env.out.print(consume args)
     Debug.err("Arg checking complete")
 
 
@@ -190,7 +240,7 @@ actor Main
           resolve_type(t.xtype, objpath)?
           validate_objpath(objpath)
           rtypes.push(generate_use(objpath)?)
-          rnames.push(t.name)
+          rnames.push(t.name + "'")
 
         end
       else
@@ -226,7 +276,7 @@ actor Main
 
   fun ref validate_objpath(objpath: Array[CastXMLTag]) =>
     Debug.err("Found " + objpath.size().string() + " steps in the path")
-    var debugstr: String trn = recover trn String end
+    var debugstr: String trn = "VALIDATEPATH: ".clone()
     for f in objpath.values() do
       debugstr.append(" => " + DebugClasses.objtype(f))
     end
@@ -236,7 +286,7 @@ actor Main
     var text: String = ""
 
     for index in Range(objpath.size(), 0, -1) do
-      Debug.err("Index#: " + index.string())
+      Debug.err("Index#: " + (index - 1).string())
       Debug.err("Before[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
       text = objpath(index - 1)?.gen_use(text)
       Debug.err("After[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
@@ -250,7 +300,7 @@ actor Main
 
 /*
 
-	fun ref debug_types() =>
+  fun ref debug_types() =>
     for f in tmap.values() do
       match f
       | let t: Typedef => try
