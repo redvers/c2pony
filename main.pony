@@ -152,21 +152,19 @@ actor Main
   fun ref send_attrkey(b: String, c: String) => currentnode.recvkey(b)
   fun ref send_attrvalue(b: String, c: String) => currentnode.recvval(b)
 
+/* OUR TEST STUFF GOES HERE */
   fun ref end_document() =>
     Debug.err("FINISHED PARSING ...")
-    try
-      function_use("printf")?
-      function_use("gtk_window_set_title")?
-/*    for f in tmap.values() do
+//      function_use("printf")?
+//      function_use("gtk_window_set_title")?
+    for f in tmap.values() do
       match f
       | let t: Function => try
                              function_use(t.name)?
                            else
                              _env.out.print("// " + t.name + " failed")
                            end
-      end */
-    else
-      Debug.err("Failed to autogenerate")
+      end
     end
 
   fun ref function_use(function_name: String) ? =>
