@@ -17,6 +17,8 @@ actor Main
   var currentnode: CastXMLTag = Unknown
 
   let tmap: Map[String, CastXMLTag] = Map[String, CastXMLTag]
+  let nmap: Set[String] = Set[String]
+  let umap: Set[String] = Set[String]
 
   new create(env: Env) =>
     _env = env
@@ -159,15 +161,33 @@ actor Main
 //      function_use("gtk_window_set_title")?
     for f in tmap.values() do
       match f
-      | let t: Function => try
-                             function_use(t.name)?
-                           else
-                             _env.out.print("// " + t.name + " failed")
-                           end
+      | let t: Function => function_use(t.name)
       end
     end
+    list_fn_arg_names()
+    list_type_names()
 
-  fun ref function_use(function_name: String) ? =>
+  be list_type_names() =>
+    let sa: Array[String] = []
+    for f in umap.values() do
+      sa.push(f)
+    end
+    for g in Sort[Array[String], String](sa).values() do
+      _env.out.print("  <typename name=\"" + g + "\" rename=\"" + g + "\"/>")
+    end
+
+  be list_fn_arg_names() =>
+    let sa: Array[String] = []
+    for f in nmap.values() do
+      sa.push(f)
+    end
+    _env.out.print(sa.size().string())
+    for g in Sort[Array[String], String](sa).values() do
+      _env.out.print("  <argname name=\"" + g + "\" rename=\"" + g + "\"/>")
+    end
+
+  fun ref function_use(function_name: String) =>
+    try
     Debug.err("Looking up function: " + function_name)
     let function: Function =
     try
@@ -195,12 +215,15 @@ actor Main
         args.append("  <argument name=\"")
         if (rnames(index)? == "'") then
           args.append("arg")
+          nmap.set("arg" + index.string() + "'")
           args.append(index.string())
         else
           args.append(rnames(index)?)
+          nmap.set(rnames(index)?)
         end
         args.append("\" argtype=\"")
         args.append(rtypes(index)?)
+        umap.set(rtypes(index)?)
         args.append("\"/>\n")
       end
     else
@@ -210,12 +233,15 @@ actor Main
         if (rnames(index)? == "'") then
           args.append("arg")
           args.append(index.string())
+          nmap.set("arg" + index.string() + "'")
         else
           args.append(rnames(index)?)
+          nmap.set(rnames(index)?)
         end
         args.append(rnames(index)?)
         args.append("\" argtype=\"")
         args.append(rtypes(index)?)
+        umap.set(rtypes(index)?)
         args.append("\"/>\n")
       end
       args.append("  <ellipsis/>\n")
@@ -223,6 +249,7 @@ actor Main
     args.append("</use>")
     _env.out.print(consume args)
     Debug.err("Arg checking complete")
+    end
 
 
   fun ref use_args(function: Function): (Array[String], Array[String]) ? =>
@@ -238,7 +265,8 @@ actor Main
           resolve_type(t.xtype, objpath)?
           validate_objpath(objpath)
           rtypes.push(generate_use(objpath)?)
-          rnames.push(t.name + "'")
+          rnames.push(t.name)
+//          rnames.push(t.name + "'")
 
         end
       else

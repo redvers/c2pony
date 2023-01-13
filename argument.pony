@@ -14,7 +14,7 @@ class Argument
 
   fun ref recvval(b: String) =>
     match currkey
-    | if (currkey == "name") => name = b
+    | if (currkey == "name") => name = b + "'"
     | if (currkey == "type") => xtype = b
     | if (currkey == "location") => location = b
     end
