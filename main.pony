@@ -151,6 +151,7 @@ actor Main
     Debug.err("FINISHED PARSING ...")
     try
       function_use("gtk_window_new")?
+      function_use("gtk_window_set_title")?
     else
       Debug.err("Failed to autogenerate")
     end
@@ -164,7 +165,44 @@ actor Main
       Debug.err("Unable to locate function in XML")
       error
     end
+    let returnvalue: String = use_return_value(function)?
 
+    Debug.err("Checking our args")
+    (let rnames: Array[String], let rtypes: Array[String]) = use_args(function)?
+    if (rnames.size() == rtypes.size()) then
+      for index in Range(rnames.size(), 0) do
+        Debug.err(rnames(index - 1)? + ": " + rtypes(index - 1)?)
+      end
+    end
+    Debug.err("Arg checking complete")
+
+
+  fun ref use_args(function: Function): (Array[String], Array[String]) ? =>
+    let rtypes: Array[String] = []
+    let rnames: Array[String] = []
+    for arg in function.arguments.values() do
+      let objpath: Array[CastXMLTag] = Array[CastXMLTag]
+      try
+        match arg
+        | let t: Ellipsis => rtypes.push("...")
+        | let t: Argument =>
+
+          resolve_type(t.xtype, objpath)?
+          validate_objpath(objpath)
+          rtypes.push(generate_use(objpath)?)
+          rnames.push(t.name)
+
+        end
+      else
+        Debug.err("Unable to resolve_type(returns): ")
+        error
+      end
+    end
+    (rnames, rtypes)
+
+
+  fun ref use_return_value(function: Function): String ? =>
+    Debug.err("Starting with the return value")
     let objpath: Array[CastXMLTag] = Array[CastXMLTag]
     try
       resolve_type(function.returns, objpath)?
@@ -176,11 +214,15 @@ actor Main
     Debug.err("Validating ObjPath")
     validate_objpath(objpath)
 
+    let returnvalue: String =
     try
       generate_use(objpath)?
     else
       Debug.err("generate_use failed")
+      error
     end
+    Debug.err("Ended return value: " + returnvalue)
+    returnvalue
 
   fun ref validate_objpath(objpath: Array[CastXMLTag]) =>
     Debug.err("Found " + objpath.size().string() + " steps in the path")
@@ -190,7 +232,7 @@ actor Main
     end
     Debug.err("Validate Objectpath: " + debugstr)
 
-  fun ref generate_use(objpath: Array[CastXMLTag]) ? =>
+  fun ref generate_use(objpath: Array[CastXMLTag]): String ? =>
     var text: String = ""
 
     for index in Range(objpath.size(), 0, -1) do
@@ -199,6 +241,7 @@ actor Main
       text = objpath(index - 1)?.gen_use(text)
       Debug.err("After[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
     end
+    text
 
 
 
