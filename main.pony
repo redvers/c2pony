@@ -159,34 +159,50 @@ actor Main
 //    Debug.err("FINISHED PARSING ...")
 //      function_use("printf")?
 //      function_use("gtk_window_set_title")?
-    for f in tmap.values() do
-      match f
-      | let t: Function => function_use(t.name)
+    _env.out.print("<c2pony>")
+    _env.out.print("  <uses>")
+
+    let names: Array[String] = []
+    for i in tmap.values() do
+      match i
+      | let t: Function => names.push(t.name)
       end
+    end
+    for f in Sort[Array[String], String](names).values() do
+      function_use(f)
     end
     list_fn_arg_names()
     list_type_names()
+    close_c2pony()
+
+  be close_c2pony() =>
+    _env.out.print("</c2pony>")
+
 
   be list_type_names() =>
+    _env.out.print("  <typenames>")
     let sa: Array[String] = []
     for f in umap.values() do
       sa.push(f)
     end
     for g in Sort[Array[String], String](sa).values() do
-      _env.out.print("  <typename name=\"" + g + "\" rename=\"" + g + "\"/>")
+      _env.out.print("    <typename name=\"" + g + "\" rename=\"" + g + "\"/>")
     end
+    _env.out.print("  </typenames>")
 
   be list_fn_arg_names() =>
+    _env.out.print("  </uses>")
+    _env.out.print("  <argnames>")
     let sa: Array[String] = []
     for f in nmap.values() do
       sa.push(f)
     end
-    _env.out.print(sa.size().string())
     for g in Sort[Array[String], String](sa).values() do
-      _env.out.print("  <argname name=\"" + g + "\" rename=\"" + g + "\"/>")
+      _env.out.print("    <argname name=\"" + g + "\" rename=\"" + g + "\"/>")
     end
+    _env.out.print("  </argnames>")
 
-  fun ref function_use(function_name: String) =>
+  be function_use(function_name: String) =>
     try
 //    Debug.err("Looking up function: " + function_name)
     let function: Function =
@@ -201,7 +217,7 @@ actor Main
 
 //    Debug.err("Checking our args")
     let args: String trn = recover trn String end
-    args.append("<use name=\"")
+    args.append("    <use name=\"")
     args.append(function_name)
     args.append("\" returntype=\"")
     args.append(returnvalue)
@@ -212,7 +228,7 @@ actor Main
     if (rnames.size() == rtypes.size()) then
       for index in Range(0, rnames.size()) do
 //        Debug.err(rnames(index)? + ": " + rtypes(index)?)
-        args.append("  <argument name=\"")
+        args.append("      <argument name=\"")
         if (rnames(index)? == "'") then
           args.append("arg")
           nmap.set("arg" + index.string() + "'")
@@ -229,7 +245,7 @@ actor Main
     else
       for index in Range(0, rnames.size()) do
 //        Debug.err(rnames(index)? + ": " + rtypes(index)?)
-        args.append("  <argument name=\"")
+        args.append("      <argument name=\"")
         if (rnames(index)? == "'") then
           args.append("arg")
           args.append(index.string())
@@ -238,15 +254,15 @@ actor Main
           args.append(rnames(index)?)
           nmap.set(rnames(index)?)
         end
-        args.append(rnames(index)?)
+//        args.append(rnames(index)?)
         args.append("\" argtype=\"")
         args.append(rtypes(index)?)
         umap.set(rtypes(index)?)
         args.append("\"/>\n")
       end
-      args.append("  <ellipsis/>\n")
+      args.append("      <ellipsis/>\n")
     end
-    args.append("</use>")
+    args.append("    </use>")
     _env.out.print(consume args)
 //    Debug.err("Arg checking complete")
     end
