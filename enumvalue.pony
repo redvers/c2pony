@@ -17,7 +17,7 @@ class EnumValue
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("EnumValue: " + name + " " + init)
+  fun print() => None
+//    Debug.err("EnumValue: " + name + " " + init)
 
   fun gen_use(str: String): String => "FIXME EnumValue"

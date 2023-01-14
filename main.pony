@@ -27,7 +27,7 @@ actor Main
 
     _xml = Xml.create(this~callback())
 
-    Debug.err("STARTING PARSING ...")
+//    Debug.err("STARTING PARSING ...")
     process_chunk()
 
 
@@ -156,7 +156,7 @@ actor Main
 
 /* OUR TEST STUFF GOES HERE */
   fun ref end_document() =>
-    Debug.err("FINISHED PARSING ...")
+//    Debug.err("FINISHED PARSING ...")
 //      function_use("printf")?
 //      function_use("gtk_window_set_title")?
     for f in tmap.values() do
@@ -188,18 +188,18 @@ actor Main
 
   fun ref function_use(function_name: String) =>
     try
-    Debug.err("Looking up function: " + function_name)
+//    Debug.err("Looking up function: " + function_name)
     let function: Function =
     try
       lookup_function(function_name)?
     else
-      Debug.err("Unable to locate function in XML")
+//      Debug.err("Unable to locate function in XML")
       error
     end
     let returnvalue: String = use_return_value(function)?
     let functionlocation: String = DebugClasses.location(tmap, function.location)?
 
-    Debug.err("Checking our args")
+//    Debug.err("Checking our args")
     let args: String trn = recover trn String end
     args.append("<use name=\"")
     args.append(function_name)
@@ -211,7 +211,7 @@ actor Main
     (let rnames: Array[String], let rtypes: Array[String]) = use_args(function)?
     if (rnames.size() == rtypes.size()) then
       for index in Range(0, rnames.size()) do
-        Debug.err(rnames(index)? + ": " + rtypes(index)?)
+//        Debug.err(rnames(index)? + ": " + rtypes(index)?)
         args.append("  <argument name=\"")
         if (rnames(index)? == "'") then
           args.append("arg")
@@ -228,7 +228,7 @@ actor Main
       end
     else
       for index in Range(0, rnames.size()) do
-        Debug.err(rnames(index)? + ": " + rtypes(index)?)
+//        Debug.err(rnames(index)? + ": " + rtypes(index)?)
         args.append("  <argument name=\"")
         if (rnames(index)? == "'") then
           args.append("arg")
@@ -248,7 +248,7 @@ actor Main
     end
     args.append("</use>")
     _env.out.print(consume args)
-    Debug.err("Arg checking complete")
+//    Debug.err("Arg checking complete")
     end
 
 
@@ -270,7 +270,7 @@ actor Main
 
         end
       else
-        Debug.err("Unable to resolve_type(returns): ")
+//        Debug.err("Unable to resolve_type(returns): ")
         error
       end
     end
@@ -278,44 +278,44 @@ actor Main
 
 
   fun ref use_return_value(function: Function): String ? =>
-    Debug.err("Starting with the return value")
+//    Debug.err("Starting with the return value")
     let objpath: Array[CastXMLTag] = Array[CastXMLTag]
     try
       resolve_type(function.returns, objpath)?
     else
-      Debug.err("Unable to resolve_type(returns): " + function.returns)
+//      Debug.err("Unable to resolve_type(returns): " + function.returns)
       error
     end
 
-    Debug.err("Validating ObjPath")
+//    Debug.err("Validating ObjPath")
     validate_objpath(objpath)
 
     let returnvalue: String =
     try
       generate_use(objpath)?
     else
-      Debug.err("generate_use failed")
+//      Debug.err("generate_use failed")
       error
     end
-    Debug.err("Ended return value: " + returnvalue)
+//    Debug.err("Ended return value: " + returnvalue)
     returnvalue
 
-  fun ref validate_objpath(objpath: Array[CastXMLTag]) =>
-    Debug.err("Found " + objpath.size().string() + " steps in the path")
-    var debugstr: String trn = "VALIDATEPATH: ".clone()
-    for f in objpath.values() do
-      debugstr.append(" => " + DebugClasses.objtype(f))
-    end
-    Debug.err("Validate Objectpath: " + debugstr)
+  fun ref validate_objpath(objpath: Array[CastXMLTag]) => None
+//    Debug.err("Found " + objpath.size().string() + " steps in the path")
+//    var debugstr: String trn = "VALIDATEPATH: ".clone()
+//    for f in objpath.values() do
+//      debugstr.append(" => " + DebugClasses.objtype(f))
+//    end
+//    Debug.err("Validate Objectpath: " + debugstr)
 
   fun ref generate_use(objpath: Array[CastXMLTag]): String ? =>
     var text: String = ""
 
     for index in Range(objpath.size(), 0, -1) do
-      Debug.err("Index#: " + (index - 1).string())
-      Debug.err("Before[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
+//      Debug.err("Index#: " + (index - 1).string())
+//      Debug.err("Before[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
       text = objpath(index - 1)?.gen_use(text)
-      Debug.err("After[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
+//      Debug.err("After[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
     end
     text
 
@@ -366,33 +366,33 @@ actor Main
   fun ref resolve_type(xtype: String, objectpath: Array[CastXMLTag]) ? =>
     match tmap(xtype)?
     | let t: PointerType => objectpath.push(t)
-                            Debug.err("PointerType => ")
+//                            Debug.err("PointerType => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: Typedef =>     objectpath.push(t)
-                            Debug.err("Typedef[" + t.name + "]: ")
+//                            Debug.err("Typedef[" + t.name + "]: ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: ElaboratedType => objectpath.push(t)
-                            Debug.err("ElaboratedType => ")
+//                            Debug.err("ElaboratedType => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: Enumeration => objectpath.push(t)
-                            Debug.err("Enumeration[" + t.name + "] => ")
+//                            Debug.err("Enumeration[" + t.name + "] => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: ArrayType => objectpath.push(t)
-                            Debug.err("ArrayType => ")
+//                            Debug.err("ArrayType => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: CvQualifiedType => objectpath.push(t)
-                            Debug.err("CvQualifiedType => ")
+//                            Debug.err("CvQualifiedType => ")
                             resolve_type(t.xtype, objectpath) ?
     | let t: Struct => objectpath.push(t)
-                            Debug.err("Struct: " + t.name)
+//                            Debug.err("Struct: " + t.name)
     | let t: FundamentalType => objectpath.push(t)
-                            Debug.err("FundamentalType: " + t.name + " => " + t())
+//                            Debug.err("FundamentalType: " + t.name + " => " + t())
     | let t: FunctionType => objectpath.push(t)
-                            Debug.err("FunctionType")
+//                            Debug.err("FunctionType")
     | let t: Unimplemented => objectpath.push(t)
-                            Debug.err("Unimplemented[" + t.type_class + "]")
+//                            Debug.err("Unimplemented[" + t.type_class + "]")
     | let t: Union => objectpath.push(t)
-                            Debug.err("Union[" + t.name + "] " + t.size + " " + t.align)
+//                            Debug.err("Union[" + t.name + "] " + t.size + " " + t.align)
     else
       die("humph resolve_type: " + xtype)
     end

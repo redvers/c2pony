@@ -25,8 +25,8 @@ class Union
     end
     currkey = ""
 
-  fun print() =>
-    let memberstr: String = ", ".join(members.values())
-    Debug.err("Union: " + name + " " + id + " " + location + " " + memberstr)
+  fun print() => None
+//    let memberstr: String = ", ".join(members.values())
+//    Debug.err("Union: " + name + " " + id + " " + location + " " + memberstr)
 
   fun gen_use(str: String): String => "FIXME Union"

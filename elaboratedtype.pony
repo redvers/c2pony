@@ -17,9 +17,9 @@ class ElaboratedType
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("ElaboratedType: " + id + " " + xtype)
+  fun print() => None
+//    Debug.err("ElaboratedType: " + id + " " + xtype)
 
   fun gen_use(str: String): String =>
-    Debug.err(str + " <= ElaboratedType.gen_use(" + str + ")")
+//    Debug.err(str + " <= ElaboratedType.gen_use(" + str + ")")
     str

@@ -27,8 +27,8 @@ class Struct
     end
     currkey = ""
 
-  fun print() =>
-    let memberstr: String = ", ".join(members.values())
-    Debug.err("Struct: " + name + " " + id + " " + xtype + " " + location + " " + memberstr)
+  fun print() => None
+//    let memberstr: String = ", ".join(members.values())
+//    Debug.err("Struct: " + name + " " + id + " " + xtype + " " + location + " " + memberstr)
 
   fun gen_use(str: String): String => name

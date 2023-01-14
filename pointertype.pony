@@ -7,6 +7,8 @@ class PointerType
 
   var currkey: String = ""
 
+  var usecache: (String | None) = None
+
   new create() => None
 
   fun ref recvkey(b: String) =>
@@ -21,7 +23,17 @@ class PointerType
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("PointerType: " + " " + id + " " + xtype + " " + size + " " + align)
+  fun print() => None
+//    Debug.err("PointerType: " + " " + id + " " + xtype + " " + size + " " + align)
 
-  fun gen_use(str: String): String => "Pointer[" + str + "]"
+  fun ref gen_use(str: String): String =>
+    match usecache
+    | let t: String => return t
+    | let t: None =>
+//              Debug.err(str + " <= Typedef.gen_use(" + str + ")")
+							let s: String = "Pointer[" + str + "]"
+              usecache = s
+              return s
+    end
+    ""
+

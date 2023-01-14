@@ -34,8 +34,8 @@ class Function
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("Function: " + name + " " + id + " " + returns + " " + location + " " + extern)
+  fun print() => None
+//    Debug.err("Function: " + name + " " + id + " " + returns + " " + location + " " + extern)
 
   fun ref create_argument() =>
     currarg = Argument

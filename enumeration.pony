@@ -12,6 +12,8 @@ class Enumeration
   var arguments: Array[EnumValue] = []
   var currarg: (EnumValue | None) = None
 
+  var usecache: (String | None) = None
+
   var currkey: String = ""
 
   new create() => None
@@ -38,8 +40,8 @@ class Enumeration
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("Enumeration: " + name + " " + id + " " + xtype + " " + context + " " + location + " " + size + " " + align)
+  fun print() => None
+//    Debug.err("Enumeration: " + name + " " + id + " " + xtype + " " + context + " " + location + " " + size + " " + align)
 
   fun ref create_argument() =>
     currarg = EnumValue
@@ -51,6 +53,14 @@ class Enumeration
     end
     currarg = None
 
-  fun gen_use(str: String): String =>
-    Debug.err(str + " <= Enumeration.gen_use(" + str + ")")
-    str
+
+  fun ref gen_use(str: String): String =>
+    match usecache
+    | let t: String => return t
+    | let t: None =>
+//              Debug.err(str + " <= Enumeration.gen_use(" + str + ")")
+              usecache = str
+              return str
+    end
+    ""
+

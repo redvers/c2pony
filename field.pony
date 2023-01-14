@@ -27,7 +27,7 @@ class Field
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("Field: " + name + " " + id + " " + xtype + " " + location)
+  fun print() => None
+//    Debug.err("Field: " + name + " " + id + " " + xtype + " " + location)
 
   fun gen_use(str: String): String => "FIXME Field"

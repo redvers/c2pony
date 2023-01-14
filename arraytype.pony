@@ -7,6 +7,8 @@ class ArrayType
 
   var currkey: String = ""
 
+  var usecache: (String | None) = None
+
   new create() => None
 
   fun ref recvkey(b: String) =>
@@ -21,7 +23,19 @@ class ArrayType
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("ArrayType: " + id + " " + xtype + " " + min + " " + max)
+  fun print() => None
+//    Debug.err("ArrayType: " + id + " " + xtype + " " + min + " " + max)
 
-  fun gen_use(str: String): String => "Pointer[" + str + "]"
+
+
+  fun ref gen_use(str: String): String =>
+    match usecache
+    | let t: String => return t
+    | let t: None =>
+//              Debug.err(str + " <= ArrayType.gen_use(" + str + ")")
+							let s: String = "Pointer[" + str + "]"
+              usecache = s
+              return s
+    end
+    ""
+

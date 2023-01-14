@@ -17,7 +17,7 @@ class FileType
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("FileType: " + id + " " + name)
+  fun print() => None
+//    Debug.err("FileType: " + id + " " + name)
 
   fun gen_use(str: String): String => str

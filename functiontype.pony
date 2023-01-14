@@ -26,8 +26,8 @@ class FunctionType
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("FunctionType: " + id + " " + returns)
+  fun print() => None
+//    Debug.err("FunctionType: " + id + " " + returns)
 
   fun ref create_argument() =>
     currarg = Argument

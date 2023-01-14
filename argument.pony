@@ -20,7 +20,7 @@ class Argument
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("Argument: " + name + " " + xtype + " " + location)
+  fun print() => None
+//    Debug.err("Argument: " + name + " " + xtype + " " + location)
 
   fun gen_use(str: String): String => "FIXME Argument"

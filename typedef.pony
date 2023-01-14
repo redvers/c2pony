@@ -5,6 +5,8 @@ class Typedef
   var xtype: String = ""
   var location: String = ""
 
+  var usecache: (String | None) = None
+
   var currkey: String = ""
 
   new create() => None
@@ -21,9 +23,15 @@ class Typedef
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("Typedef: " + name + " "  + id + " " + xtype + " " + location)
+  fun print() => None
+//    Debug.err("Typedef: " + name + " "  + id + " " + xtype + " " + location)
 
-  fun gen_use(str: String): String =>
-    Debug.err(str + " <= Typedef.gen_use(" + str + ")")
-    str
+  fun ref gen_use(str: String): String =>
+    match usecache
+    | let t: String => return t
+    | let t: None =>
+//              Debug.err(str + " <= Typedef.gen_use(" + str + ")")
+              usecache = str
+              return str
+    end
+    ""

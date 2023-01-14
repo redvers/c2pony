@@ -21,8 +21,8 @@ class FundamentalType
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("FundamentalType: " + " " + id + " " + name + " " + size + " " + align)
+  fun print() => None
+//    Debug.err("FundamentalType: " + " " + id + " " + name + " " + size + " " + align)
 
   fun apply(): String =>
     match name
@@ -55,5 +55,5 @@ class FundamentalType
     end
 
   fun gen_use(str: String): String =>
-    Debug.err(name + " => " + apply() + " <= Fundamental.gen_use(" + str + ")")
+//    Debug.err(name + " => " + apply() + " <= Fundamental.gen_use(" + str + ")")
     apply()

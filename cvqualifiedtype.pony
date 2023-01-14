@@ -8,6 +8,8 @@ class CvQualifiedType
 
   var currkey: String = ""
 
+  var usecache: (String | None) = None
+
   new create() => None
 
   fun ref recvkey(b: String) =>
@@ -23,7 +25,16 @@ class CvQualifiedType
     end
     currkey = ""
 
-  fun print() =>
-    Debug.err("CvQualifiedType: " + id + " " + xtype + " " + const + restrict + volatile)
+  fun print() => None
+//    Debug.err("CvQualifiedType: " + id + " " + xtype + " " + const + restrict + volatile)
 
-  fun gen_use(str: String): String => str
+  fun ref gen_use(str: String): String =>
+    match usecache
+    | let t: String => return t
+    | let t: None =>
+//              Debug.err(str + " <= CvQualifiedType.gen_use(" + str + ")")
+              usecache = str
+              return str
+    end
+    ""
+

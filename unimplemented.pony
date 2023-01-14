@@ -7,8 +7,8 @@ class Unimplemented
 
   new create() => None
 
-  fun print() =>
-    Debug.err("Unimplemented: " + type_class)
+  fun print() => None
+//    Debug.err("Unimplemented: " + type_class)
 
   fun ref recvkey(b: String) =>
     currkey = b
