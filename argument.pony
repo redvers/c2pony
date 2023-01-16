@@ -2,7 +2,7 @@ use "debug"
 
 class Argument
   var name: String = ""
-  var xtype: String = ""
+  var xtype: String = "'"
   var location: String = ""
 
   var currkey: String = ""

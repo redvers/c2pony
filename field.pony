@@ -1,7 +1,7 @@
 use "debug"
 class Field
   var id: String = ""
-  var name: String = ""
+  var name: String = "'"
   var xtype: String = ""
   var context: String = ""
   var access: String = ""

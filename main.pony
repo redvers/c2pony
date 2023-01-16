@@ -212,6 +212,8 @@ actor Main
       structtxt.append(structobj.size)
       structtxt.append("\" align=\"")
       structtxt.append(structobj.align)
+      structtxt.append("\" location=\"")
+      structtxt.append(DebugClasses.location(tmap, structobj.location)?)
       structtxt.append("\">\n")
       try
         (let rnames: Array[String], let rtypes: Array[(Bool, String)]) = struct_args(structobj)?
@@ -221,7 +223,7 @@ actor Main
           else
             structtxt.append("      <argument decl=\"var\" name=\"")
           end
-          if (rnames(index)? == "'") then
+          if ((rnames(index)? == "'") or (rnames(index)? == "")) then
             structtxt.append("arg")
             nmap.set("arg" + index.string() + "'")
             structtxt.append(index.string())
@@ -363,7 +365,7 @@ actor Main
       for index in Range(0, rnames.size()) do
 //        Debug.err(rnames(index)? + ": " + rtypes(index)?)
         args.append("      <argument name=\"")
-        if (rnames(index)? == "'") then
+        if ((rnames(index)? == "'") or (rnames(index)? == "")) then
           args.append("arg")
           nmap.set("arg" + index.string() + "'")
           args.append(index.string())
@@ -380,7 +382,7 @@ actor Main
       for index in Range(0, rnames.size()) do
 //        Debug.err(rnames(index)? + ": " + rtypes(index)?)
         args.append("      <argument name=\"")
-        if (rnames(index)? == "'") then
+        if ((rnames(index)? == "'") or (rnames(index)? == "")) then
           args.append("arg")
           args.append(index.string())
           nmap.set("arg" + index.string() + "'")
