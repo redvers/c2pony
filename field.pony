@@ -18,7 +18,7 @@ class Field
   fun ref recvval(b: String) =>
     match currkey
     | if (currkey == "id") => id = b
-    | if (currkey == "name") => name = b
+    | if (currkey == "name") => name = b + "'"
     | if (currkey == "type") => xtype = b
     | if (currkey == "context") => context = b
     | if (currkey == "access") => access = b
