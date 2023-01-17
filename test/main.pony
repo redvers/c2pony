@@ -5,4 +5,5 @@ use "Gtk"
 
 actor Main
   new create(env: Env) => None
-//    @gtk_init()
+    GtkNSSys.init()
+    let resource = GResourceSys.load("demo.gresource".cstring(), Pointer[NullablePointer[GErrorT]])

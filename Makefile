@@ -2,21 +2,22 @@ all:
 	corral run -- ponyc
 
 structs:	glib_struct gobject_struct gio_struct gtk_struct
+use:	glib_use gobject_use gio_use gtk_use
 sys:	glib_sys gobject_sys gio_sys gtk_sys
 
 clean:
 	rm -rf test/G*
 
-glib_sys:
+glib_use:
 	saxon-he -xi main.xml makeuse.xsl namespace=GLib debug=1
 
-gobject_sys:
+gobject_use:
 	saxon-he -xi main.xml makeuse.xsl namespace=GObject debug=1
 
-gio_sys:
+gio_use:
 	saxon-he -xi main.xml makeuse.xsl namespace=Gio debug=1
 
-gtk_sys:
+gtk_use:
 	saxon-he -xi main.xml makeuse.xsl namespace=Gtk debug=1
 
 glib_struct:
@@ -30,3 +31,15 @@ gio_struct:
 
 gtk_struct:
 	saxon-he -xi main.xml makestruct.xsl namespace=Gtk debug=1
+
+glib_sys:
+	saxon-he -xi main.xml makesys.xsl namespace=GLib debug=1
+
+gobject_sys:
+	saxon-he -xi main.xml makesys.xsl namespace=GObject debug=1
+
+gio_sys:
+	saxon-he -xi main.xml makesys.xsl namespace=Gio debug=1
+
+gtk_sys:
+	saxon-he -xi main.xml makesys.xsl namespace=Gtk debug=1
