@@ -2,6 +2,9 @@
     xmlns:c="http://www.gtk.org/introspection/c/1.0"
     xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
    <ns namespace="GLib">
+<ponydep>
+use "lib:glib-2.0"
+</ponydep>
       <renderfunction name="g_access" render="" deprecated=""/>
       <renderfunction name="g_ascii_digit_value" render="" deprecated=""/>
       <renderfunction name="g_ascii_dtostr" render="" deprecated=""/>
@@ -678,7 +681,7 @@
          <rendermethod name="g_cond_wait" render="" deprecated=""/>
          <rendermethod name="g_cond_wait_until" render="" deprecated=""/>
       </renderstruct>
-      <renderstruct name="GData" render="0"/>
+      <renderstruct name="GData" render="1"/>
       <renderstruct name="GDate" render="">
          <renderconstructor name="g_date_new" render="" deprecated=""/>
          <renderconstructor name="g_date_new_dmy" render="" deprecated=""/>
@@ -5193,6 +5196,10 @@
       </renderstruct>
    </ns>
    <ns namespace="GObject">
+<ponydep>
+use "../GLib"
+use "lib:gobject-2.0"
+</ponydep>
       <renderfunction name="g_boxed_copy" render="" deprecated=""/>
       <renderfunction name="g_boxed_free" render="" deprecated=""/>
       <renderfunction name="g_boxed_type_register_static" render="" deprecated=""/>
