@@ -3,31 +3,43 @@
 <xsl:output method="text" omit-xml-declaration="yes" indent="no"/>
 <xsl:strip-space elements="*"/>
 <xsl:param name="namespace"/>
+<xsl:param name="debug"/>
 <xsl:variable name="newline"><xsl:text>&#xa;</xsl:text></xsl:variable>
 
 
 <xsl:template match="/main/rs/ns[@namespace=$namespace]">
-<!-- <xsl:result-document href="test/{$namespace}/{$t/@name}.pony" method="text"> -->
-<xsl:value-of select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
-<xsl:for-each select="./renderfunction[@render='1']">
-  <xsl:call-template name="mainfunction"><xsl:with-param name="n" select="./@name"/></xsl:call-template>
-</xsl:for-each>
-  <!-- </xsl:result-document> -->
+  <xsl:result-document href="test/{$namespace}/{$namespace}Sys.pony" method="text">
+    <xsl:value-of select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
+    <xsl:for-each select="./renderfunction[@render=$debug]">
+      <xsl:call-template name="mainfunction">
+        <xsl:with-param name="n" select="./@name"/>
+        <xsl:with-param name="render" select="./@render"/>
+      </xsl:call-template>
+    </xsl:for-each>
+  </xsl:result-document>
 </xsl:template>
 
 <xsl:template name="mainfunction">
   <xsl:param name="n"/>
+  <xsl:param name="render"/>
   <xsl:variable name="root" select="/main/c2pony/uses/use[@name=$n]"/>
-
-  <xsl:text>use @</xsl:text><xsl:value-of select="$root/@name"/>
-  <xsl:text>[</xsl:text>
-  <xsl:value-of select="$root/@returntype"/>
-  <xsl:text>](</xsl:text>
-	<xsl:for-each select="$root/*">
-    <xsl:call-template name="useargs"><xsl:with-param name="arg" select="."/></xsl:call-template>
-  </xsl:for-each>
-  <xsl:text>)</xsl:text>
-  <xsl:value-of select="$newline"/>
+  <xsl:choose>
+    <xsl:when test="name($root)='use'">
+      <xsl:if test="$render='0'">
+        <xsl:text>// </xsl:text>
+      </xsl:if>
+    
+      <xsl:text>use @</xsl:text><xsl:value-of select="$root/@name"/>
+      <xsl:text>[</xsl:text>
+      <xsl:value-of select="$root/@returntype"/>
+      <xsl:text>](</xsl:text>
+    	<xsl:for-each select="$root/*">
+        <xsl:call-template name="useargs"><xsl:with-param name="arg" select="."/></xsl:call-template>
+      </xsl:for-each>
+      <xsl:text>)</xsl:text>
+      <xsl:value-of select="$newline"/>
+    </xsl:when>
+  </xsl:choose>
 
 </xsl:template>
 
