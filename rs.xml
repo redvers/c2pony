@@ -7752,6 +7752,13 @@ use "lib:gobject-2.0"
       </renderclass>
    </ns>
    <ns namespace="Gtk">
+<ponydep>
+use "../GLib"
+use "../GObject"
+//  use "../Gdk"
+//  use "../Gsk"
+use "lib:gtk-4.0"
+</ponydep>
       <renderfunction name="gtk_accelerator_get_default_mod_mask" render="0" deprecated=""/>
       <renderfunction name="gtk_accelerator_get_label" render="0" deprecated=""/>
       <renderfunction name="gtk_accelerator_get_label_with_keycode"

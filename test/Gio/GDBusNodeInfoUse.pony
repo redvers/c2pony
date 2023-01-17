@@ -1,0 +1,11 @@
+
+// Static Functions
+
+// Constructors
+// use @g_dbus_node_info_new_for_xml[Pointer[GDBusNodeInfoT]](xml_data': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])
+
+// Methods
+// use @g_dbus_node_info_generate_xml[None](info': NullablePointer[GDBusNodeInfoT], indent': U32, string_builder': NullablePointer[GStringT])
+// use @g_dbus_node_info_lookup_interface[Pointer[GDBusInterfaceInfoT]](info': NullablePointer[GDBusNodeInfoT], name': Pointer[U8] tag)
+// use @g_dbus_node_info_ref[Pointer[GDBusNodeInfoT]](info': NullablePointer[GDBusNodeInfoT])
+// use @g_dbus_node_info_unref[None](info': NullablePointer[GDBusNodeInfoT])
