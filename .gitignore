@@ -5,3 +5,4 @@ corral.json
 lock.json
 mpfr.xml
 shell.nix
+*.swp

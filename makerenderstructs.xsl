@@ -66,20 +66,23 @@
 </xsl:template>
 
 <xsl:template name="constructors">
+  <xsl:variable name="ponyname" select="./@name"/>
   <xsl:variable name="cname" select="./@c:identifier"/>
   <xsl:variable name="rendernode" select="/mkrs/renderuses/renderuse[@name=$cname]"/>
   <xsl:variable name="renderval" select="$rendernode/@render"/>
-  <renderconstructor name="{$cname}" render="{$renderval}" deprecated="{./@deprecated}"/>
+  <renderconstructor name="{$cname}" ponyname="{$ponyname}" render="{$renderval}" deprecated="{./@deprecated}"/>
 </xsl:template>
 
 <xsl:template name="methods">
+  <xsl:variable name="ponyname" select="./@name"/>
   <xsl:variable name="cname" select="./@c:identifier"/>
   <xsl:variable name="rendernode" select="/mkrs/renderuses/renderuse[@name=$cname]"/>
   <xsl:variable name="renderval" select="$rendernode/@render"/>
-  <rendermethod name="{$cname}" render="{$renderval}" deprecated="{./@deprecated}"/>
+  <rendermethod name="{$cname}" ponyname="{$ponyname}" render="{$renderval}" deprecated="{./@deprecated}"/>
 </xsl:template>
 
 <xsl:template name="functions">
+  <xsl:variable name="ponyname" select="./@name"/>
   <xsl:variable name="cname" select="./@c:identifier"/>
   <xsl:variable name="rendernode" select="/mkrs/renderuses/renderuse[@name=$cname]"/>
   <xsl:variable name="renderval" select="$rendernode/@render"/>
@@ -87,7 +90,7 @@
     <xsl:when test="./@moved-to">
     </xsl:when>
     <xsl:otherwise>
-      <renderfunction name="{$cname}" render="{$renderval}" deprecated="{./@deprecated}"/>
+      <renderfunction name="{$cname}" ponyname="{$ponyname}" render="{$renderval}" deprecated="{./@deprecated}"/>
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>

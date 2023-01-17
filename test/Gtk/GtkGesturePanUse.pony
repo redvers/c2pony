@@ -1,0 +1,16 @@
+
+use "../GLib"
+use "../Gio"
+use "../GObject"
+//  use "../Gdk"
+//  use "../Gsk"
+use "lib:gtk-4"
+
+// Static Functions
+
+// Constructors
+// use @gtk_gesture_pan_new[NullablePointer[GtkGestureT]](orientation': U32)
+
+// Methods
+// use @gtk_gesture_pan_get_orientation[U32](gesture': NullablePointer[GtkGesturePanT])
+// use @gtk_gesture_pan_set_orientation[None](gesture': NullablePointer[GtkGesturePanT], orientation': U32)

@@ -6,14 +6,14 @@
 
 <xsl:template match="/main/rs/ns[@namespace=$namespace]/renderstruct[@render='1']">
 <xsl:variable name="t" select="."/>
-<xsl:result-document href="test/{$namespace}/{$t/@name}.pony" method="text">
+<xsl:result-document href="test/{$namespace}/{$t/@name}T.pony" method="text">
 <xsl:value-of select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
 <xsl:call-template name="mainstruct"><xsl:with-param name="n" select="$t/@name"/></xsl:call-template>
 </xsl:result-document>
 </xsl:template>
 <xsl:template match="/main/rs/ns[@namespace=$namespace]/renderclass[@render='1']">
 <xsl:variable name="t" select="."/>
-<xsl:result-document href="test/{$namespace}/{$t/@name}.pony" method="text">
+<xsl:result-document href="test/{$namespace}/{$t/@name}T.pony" method="text">
 <xsl:value-of select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
 <xsl:call-template name="mainstruct"><xsl:with-param name="n" select="$t/@name"/></xsl:call-template>
 </xsl:result-document>
