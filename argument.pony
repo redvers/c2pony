@@ -1,4 +1,5 @@
 use "debug"
+use "collections"
 
 class Argument
   var name: String = ""
@@ -16,6 +17,9 @@ class Argument
     match currkey
     | if (currkey == "name") => name = b + "'"
     | if (currkey == "type") => xtype = b
+                                if (name == "") then
+                                  name = "anon" + b
+                                end
     | if (currkey == "location") => location = b
     end
     currkey = ""
@@ -24,3 +28,13 @@ class Argument
 //    Debug.err("Argument: " + name + " " + xtype + " " + location)
 
   fun gen_use(str: String): String => "FIXME Argument"
+
+
+
+  fun ref recurseType(tmap: Map[String, CastXMLTag]) =>
+    try
+      let next: CastXMLTag = tmap(xtype)?
+      Debug.err("Argument =>  " + DebugClasses.objtype(next))
+    end
+
+
