@@ -1,0 +1,7 @@
+_corral/
+_repos/
+c2pony
+corral.json
+lock.json
+mpfr.xml
+shell.nix
