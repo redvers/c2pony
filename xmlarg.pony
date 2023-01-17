@@ -75,7 +75,7 @@ class XmlArg
     if (argtype == " => PointerType => FundamentalType") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
-      usetype = "Pointer[" + (args(1)? as FundamentalType)() + "]"
+      usetype = "Pointer[" + (args(1)? as FundamentalType)() + "] tag"
    structtype = "Pointer[" + (args(1)? as FundamentalType)() + "]"
    structinit = "Pointer[" + (args(1)? as FundamentalType)() + "]"
     end
@@ -83,7 +83,7 @@ class XmlArg
     if (argtype == " => PointerType => PointerType => FundamentalType") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
-      usetype = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
+      usetype = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]] tag"
    structtype = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
    structinit = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
     end
