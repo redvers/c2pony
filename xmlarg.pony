@@ -10,6 +10,7 @@ class XmlArg
   var usetype: String = ""
   var decltype: String = "var"
   var structtype: String = ""
+  var structinit: String = "FIXME"
 
   new create(env': Env, objpath: Array[CastXMLTag], nmap: Set[String], umap: Set[String]) ? =>
     env = env'
@@ -52,6 +53,7 @@ class XmlArg
       usetype = "FIXME - call by value: " + (args(0)? as Struct)()
      decltype = "embed"
    structtype = (args(0)? as Struct)()
+   structinit = (args(0)? as Struct)()
     end
 
     if (argtype == " => FundamentalType") then
@@ -59,6 +61,7 @@ class XmlArg
          size = (args(0)? as FundamentalType).size
       usetype = (args(0)? as FundamentalType)()
    structtype = (args(0)? as FundamentalType)()
+   structinit = (args(0)? as FundamentalType).structinit()
     end
 
     if (argtype == " => PointerType => Struct") then
@@ -66,6 +69,7 @@ class XmlArg
          size = (args(0)? as PointerType).size
       usetype = "NullablePointer[" + (args(1)? as Struct)() + "]"
    structtype = "NullablePointer[" + (args(1)? as Struct)() + "]"
+   structinit = "NullablePointer[" + (args(1)? as Struct)() + "].none()"
     end
 
     if (argtype == " => PointerType => FundamentalType") then
@@ -73,6 +77,7 @@ class XmlArg
          size = (args(0)? as PointerType).size
       usetype = "Pointer[" + (args(1)? as FundamentalType)() + "]"
    structtype = "Pointer[" + (args(1)? as FundamentalType)() + "]"
+   structinit = "Pointer[" + (args(1)? as FundamentalType)() + "]"
     end
 
     if (argtype == " => PointerType => PointerType => FundamentalType") then
@@ -80,6 +85,7 @@ class XmlArg
          size = (args(0)? as PointerType).size
       usetype = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
    structtype = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
+   structinit = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
     end
 
     if (argtype == " => PointerType => PointerType => Struct") then
@@ -87,6 +93,7 @@ class XmlArg
          size = (args(0)? as PointerType).size
       usetype = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
    structtype = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
+   structinit = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
     end
 
 

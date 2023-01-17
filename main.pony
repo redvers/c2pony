@@ -246,6 +246,8 @@ actor Main
                           args.append(xmlarg.size)
                           args.append("\" align=\"")
                           args.append(xmlarg.align)
+                          args.append("\" structinit=\"")
+                          args.append(xmlarg.structinit)
                           args.append("\"/>\n")
                           nmap.set(t.name)
                           umap.set(xmlarg.usetype)
@@ -465,6 +467,7 @@ actor Main
         end
       end
       main.append(consume args)
+      main.append("      </use>\n")
       consume main
     else
       "<!-- " + function_name + " -->\n"
