@@ -1,3 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
 // use @g_bus_get_finish[Pointer[GDBusConnectionT]](res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
 // use @g_bus_get_sync[Pointer[GDBusConnectionT]](bus_type': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
 // use @g_bus_own_name_on_connection_with_closures[U32](connection': NullablePointer[GDBusConnectionT], name': Pointer[U8] tag, flags': U32, name_acquired_closure': NullablePointer[GClosureT], name_lost_closure': NullablePointer[GClosureT])

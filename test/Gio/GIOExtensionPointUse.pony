@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_io_extension_point_implement[Pointer[GIOExtensionT]](extension_point_name': Pointer[U8] tag, type': U64, extension_name': Pointer[U8] tag, priority': I32)
 // use @g_io_extension_point_lookup[Pointer[GIOExtensionPointT]](name': Pointer[U8] tag)

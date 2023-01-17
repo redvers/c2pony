@@ -5,3 +5,4 @@ use "Gtk"
 
 actor Main
   new create(env: Env) => None
+//    @gtk_init()

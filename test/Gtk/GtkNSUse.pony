@@ -1,9 +1,10 @@
 
 use "../GLib"
+use "../Gio"
 use "../GObject"
 //  use "../Gdk"
 //  use "../Gsk"
-use "lib:gtk-4.0"
+use "lib:gtk-4"
 // use @gtk_accelerator_get_default_mod_mask[U32]()
 // use @gtk_accelerator_get_label[Pointer[U8]](accelerator_key': U32, accelerator_mods': U32)
 // use @gtk_accelerator_get_label_with_keycode[Pointer[U8]](display': NullablePointer[GdkDisplayT], accelerator_key': U32, keycode': U32, accelerator_mods': U32)
@@ -26,7 +27,7 @@ use "lib:gtk-4.0"
 // use @gtk_get_micro_version[U32]()
 // use @gtk_get_minor_version[U32]()
 // use @gtk_hsv_to_rgb[None](h': F32, s': F32, v': F32, r': Pointer[F32] tag, g': Pointer[F32] tag, b': Pointer[F32] tag)
-// use @gtk_init[None]()
+use @gtk_init[None]()
 // use @gtk_init_check[I32]()
 // use @gtk_is_initialized[I32]()
 // use @gtk_param_spec_expression[Pointer[GParamSpecT]](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, flags': I32)

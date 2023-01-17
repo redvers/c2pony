@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_io_stream_splice_finish[I32](result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
 

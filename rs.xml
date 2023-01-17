@@ -795,7 +795,7 @@ use "lib:glib-2.0"
          <renderfunction name="g_dir_make_tmp" render="0" deprecated=""/>
          <renderfunction name="g_dir_open" render="0" deprecated=""/>
       </renderstruct>
-      <renderstruct name="GError" render="0">
+      <renderstruct name="GError" render="1">
          <renderconstructor name="g_error_new" render="0" deprecated=""/>
          <renderconstructor name="g_error_new_literal" render="0" deprecated=""/>
          <renderconstructor name="g_error_new_valist" render="0" deprecated=""/>
@@ -1791,6 +1791,11 @@ use "lib:glib-2.0"
       </renderstruct>
    </ns>
    <ns namespace="Gio">
+<ponydep>
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+</ponydep>
       <renderfunction name="g_bus_get" render="0" deprecated=""/>
       <renderfunction name="g_bus_get_finish" render="0" deprecated=""/>
       <renderfunction name="g_bus_get_sync" render="0" deprecated=""/>
@@ -1907,7 +1912,7 @@ use "lib:glib-2.0"
       <renderstruct name="GApplicationClass" render="0"/>
       <renderstruct name="GApplicationCommandLineClass" render="0"/>
       <renderstruct name="GApplicationCommandLinePrivate" render="0"/>
-      <renderstruct name="GApplicationPrivate" render="0"/>
+      <renderstruct name="GApplicationPrivate" render="1"/>
       <renderstruct name="GAsyncInitableIface" render="0"/>
       <renderstruct name="GAsyncResultIface" render="0"/>
       <renderstruct name="GBufferedInputStreamClass" render="0"/>
@@ -2128,9 +2133,9 @@ use "lib:glib-2.0"
       <renderstruct name="GRemoteActionGroupInterface" render="0"/>
       <renderstruct name="GResolverClass" render="0"/>
       <renderstruct name="GResolverPrivate" render="0"/>
-      <renderstruct name="GResource" render="0">
+      <renderstruct name="GResource" render="1">
          <renderconstructor name="g_resource_new_from_data" render="0" deprecated=""/>
-         <rendermethod name="g_resources_register" render="0" deprecated=""/>
+         <rendermethod name="g_resources_register" render="1" deprecated=""/>
          <rendermethod name="g_resources_unregister" render="0" deprecated=""/>
          <rendermethod name="g_resource_enumerate_children" render="0" deprecated=""/>
          <rendermethod name="g_resource_get_info" render="0" deprecated=""/>
@@ -2138,7 +2143,7 @@ use "lib:glib-2.0"
          <rendermethod name="g_resource_open_stream" render="0" deprecated=""/>
          <rendermethod name="g_resource_ref" render="0" deprecated=""/>
          <rendermethod name="g_resource_unref" render="0" deprecated=""/>
-         <renderfunction name="g_resource_load" render="0" deprecated=""/>
+         <renderfunction name="g_resource_load" render="1" deprecated=""/>
       </renderstruct>
       <renderstruct name="GSeekableIface" render="0"/>
       <renderstruct name="GSettingsBackendClass" render="0"/>
@@ -2304,7 +2309,7 @@ use "lib:glib-2.0"
          <rendermethod name="g_app_launch_context_unsetenv" render="0" deprecated=""/>
       </renderclass>
       <renderclass name="GApplication"
-                   render="0"
+                   render="1"
                    parent="GObject.Object"
                    abstract=""
                    final=""
@@ -7754,10 +7759,11 @@ use "lib:gobject-2.0"
    <ns namespace="Gtk">
 <ponydep>
 use "../GLib"
+use "../Gio"
 use "../GObject"
 //  use "../Gdk"
 //  use "../Gsk"
-use "lib:gtk-4.0"
+use "lib:gtk-4"
 </ponydep>
       <renderfunction name="gtk_accelerator_get_default_mod_mask" render="0" deprecated=""/>
       <renderfunction name="gtk_accelerator_get_label" render="0" deprecated=""/>
@@ -7784,7 +7790,7 @@ use "lib:gtk-4.0"
       <renderfunction name="gtk_get_micro_version" render="0" deprecated=""/>
       <renderfunction name="gtk_get_minor_version" render="0" deprecated=""/>
       <renderfunction name="gtk_hsv_to_rgb" render="0" deprecated=""/>
-      <renderfunction name="gtk_init" render="0" deprecated=""/>
+      <renderfunction name="gtk_init" render="1" deprecated=""/>
       <renderfunction name="gtk_init_check" render="0" deprecated=""/>
       <renderfunction name="gtk_is_initialized" render="0" deprecated=""/>
       <renderfunction name="gtk_param_spec_expression" render="0" deprecated=""/>
@@ -8385,7 +8391,7 @@ use "lib:gtk-4.0"
       </renderstruct>
       <renderstruct name="GtkWidgetClassPrivate" render="0"/>
       <renderstruct name="GtkWidgetPaintableClass" render="0"/>
-      <renderstruct name="GtkWidgetPrivate" render="0"/>
+      <renderstruct name="GtkWidgetPrivate" render="1"/>
       <renderstruct name="GtkWindowClass" render="0"/>
       <renderstruct name="GtkWindowControlsClass" render="0"/>
       <renderstruct name="GtkWindowGroupClass" render="0"/>
@@ -8602,13 +8608,13 @@ use "lib:gtk-4.0"
                        deprecated=""/>
       </renderclass>
       <renderclass name="GtkApplication"
-                   render="0"
+                   render="1"
                    parent="Gio.Application"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_application_new" render="0" deprecated=""/>
-         <rendermethod name="gtk_application_add_window" render="0" deprecated=""/>
+         <renderconstructor name="gtk_application_new" render="1" deprecated=""/>
+         <rendermethod name="gtk_application_add_window" render="1" deprecated=""/>
          <rendermethod name="gtk_application_get_accels_for_action"
                        render="0"
                        deprecated=""/>
@@ -13319,7 +13325,7 @@ use "lib:gtk-4.0"
          <renderconstructor name="gtk_volume_button_new" render="0" deprecated=""/>
       </renderclass>
       <renderclass name="GtkWidget"
-                   render="0"
+                   render="1"
                    parent="GObject.InitiallyUnowned"
                    abstract="1"
                    final=""
@@ -13497,7 +13503,7 @@ use "lib:gtk-4.0"
          <rendermethod name="gtk_widget_paintable_set_widget" render="0" deprecated=""/>
       </renderclass>
       <renderclass name="GtkWindow"
-                   render="0"
+                   render="1"
                    parent="Widget"
                    abstract=""
                    final=""

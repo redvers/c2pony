@@ -1,9 +1,10 @@
 
 use "../GLib"
+use "../Gio"
 use "../GObject"
 //  use "../Gdk"
 //  use "../Gsk"
-use "lib:gtk-4.0"
+use "lib:gtk-4"
 
 // Static Functions
 // use @gtk_bitset_iter_init_at[I32](iter': NullablePointer[GtkBitsetIterT], set': NullablePointer[GtkBitsetT], target': U32, value': Pointer[U32] tag)

@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_dbus_annotation_info_lookup[Pointer[U8]](annotations': Pointer[NullablePointer[GDBusAnnotationInfoT]], name': Pointer[U8] tag)
 

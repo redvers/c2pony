@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_srv_target_list_sort[Pointer[GListT]](targets': NullablePointer[GListT])
 

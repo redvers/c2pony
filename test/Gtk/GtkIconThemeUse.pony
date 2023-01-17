@@ -1,9 +1,10 @@
 
 use "../GLib"
+use "../Gio"
 use "../GObject"
 //  use "../Gdk"
 //  use "../Gsk"
-use "lib:gtk-4.0"
+use "lib:gtk-4"
 
 // Static Functions
 // use @gtk_icon_theme_get_for_display[Pointer[GtkIconThemeT]](display': NullablePointer[GdkDisplayT])

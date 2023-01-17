@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_volume_monitor_adopt_orphan_mount[Pointer[GVolumeT]](mount': NullablePointer[GMountT])
 // use @g_volume_monitor_get[Pointer[GVolumeMonitorT]]()

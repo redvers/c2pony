@@ -1,17 +1,18 @@
 
 use "../GLib"
+use "../Gio"
 use "../GObject"
 //  use "../Gdk"
 //  use "../Gsk"
-use "lib:gtk-4.0"
+use "lib:gtk-4"
 
 // Static Functions
 
 // Constructors
-// use @gtk_application_new[Pointer[GtkApplicationT]](application_id': Pointer[U8] tag, flags': U32)
+use @gtk_application_new[Pointer[GtkApplicationT]](application_id': Pointer[U8] tag, flags': U32)
 
 // Methods
-// use @gtk_application_add_window[None](application': NullablePointer[GtkApplicationT], window': NullablePointer[GtkWindowT])
+use @gtk_application_add_window[None](application': NullablePointer[GtkApplicationT], window': NullablePointer[GtkWindowT])
 // use @gtk_application_get_accels_for_action[Pointer[Pointer[U8]]](application': NullablePointer[GtkApplicationT], detailed_action_name': Pointer[U8] tag)
 // use @gtk_application_get_actions_for_accel[Pointer[Pointer[U8]]](application': NullablePointer[GtkApplicationT], accel': Pointer[U8] tag)
 // use @gtk_application_get_active_window[Pointer[GtkWindowT]](application': NullablePointer[GtkApplicationT])

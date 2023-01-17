@@ -1,9 +1,10 @@
 
 use "../GLib"
+use "../Gio"
 use "../GObject"
 //  use "../Gdk"
 //  use "../Gsk"
-use "lib:gtk-4.0"
+use "lib:gtk-4"
 
 // Static Functions
 // use @gtk_window_get_default_icon_name[Pointer[U8]]()

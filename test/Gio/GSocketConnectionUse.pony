@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_socket_connection_factory_lookup_type[U64](family': U32, type': U32, protocol_id': I32)
 // use @g_socket_connection_factory_register_type[None](g_type': U64, family': U32, type': U32, protocol': I32)

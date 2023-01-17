@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_application_get_default[Pointer[GApplicationT]]()
 // use @g_application_id_is_valid[I32](application_id': Pointer[U8] tag)

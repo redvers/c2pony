@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_simple_async_result_is_valid[I32](result': NullablePointer[GAsyncResultT], source': NullablePointer[GObjectT], source_tag': Pointer[None] tag)
 

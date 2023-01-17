@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_resolver_free_addresses[None](addresses': NullablePointer[GListT])
 // use @g_resolver_free_targets[None](targets': NullablePointer[GListT])

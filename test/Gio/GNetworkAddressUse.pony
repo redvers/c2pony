@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_network_address_parse[Pointer[GSocketConnectableT]](host_and_port': Pointer[U8] tag, default_port': U16, error': Pointer[NullablePointer[GErrorT]])
 // use @g_network_address_parse_uri[Pointer[GSocketConnectableT]](uri': Pointer[U8] tag, default_port': U16, error': Pointer[NullablePointer[GErrorT]])

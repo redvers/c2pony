@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_settings_schema_source_get_default[Pointer[GSettingsSchemaSourceT]]()
 

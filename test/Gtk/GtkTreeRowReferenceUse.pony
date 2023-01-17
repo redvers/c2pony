@@ -1,9 +1,10 @@
 
 use "../GLib"
+use "../Gio"
 use "../GObject"
 //  use "../Gdk"
 //  use "../Gsk"
-use "lib:gtk-4.0"
+use "lib:gtk-4"
 
 // Static Functions
 // use @gtk_tree_row_reference_deleted[None](proxy': NullablePointer[GObjectT], path': NullablePointer[GtkTreePathT])

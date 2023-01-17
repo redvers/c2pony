@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_socket_control_message_deserialize[Pointer[GSocketControlMessageT]](level': I32, type': I32, size': U64, data': Pointer[None] tag)
 

@@ -1,9 +1,10 @@
 
 use "../GLib"
+use "../Gio"
 use "../GObject"
 //  use "../Gdk"
 //  use "../Gsk"
-use "lib:gtk-4.0"
+use "lib:gtk-4"
 
 // Static Functions
 // use @gtk_style_context_add_provider_for_display[None](display': NullablePointer[GdkDisplayT], provider': NullablePointer[GtkStyleProviderT], priority': U32)

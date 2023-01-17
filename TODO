@@ -1,0 +1,5 @@
+
+* Return value is calculated differently in c2pony
+* We are not honoring the mapping
+* We need to decide what to do wrt class/type changes.
+* We need to decide where to place overrides.

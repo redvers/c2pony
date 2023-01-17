@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_task_is_valid[I32](result': Pointer[None] tag, source_object': Pointer[None] tag)
 

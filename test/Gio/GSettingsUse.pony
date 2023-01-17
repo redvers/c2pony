@@ -1,4 +1,8 @@
 
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
 // Static Functions
 // use @g_settings_list_relocatable_schemas[Pointer[Pointer[U8]]]()
 // use @g_settings_list_schemas[Pointer[Pointer[U8]]]()
