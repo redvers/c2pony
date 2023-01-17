@@ -9,18 +9,18 @@ primitive GWeakRefSys
 
 // Methods
 /* 
-fun g_weak_ref_clear(weak_ref': NullablePointer[anon_3672]): None =>
+fun clear(weak_ref': NullablePointer[anon_3672]): None =>
     @g_weak_ref_clear(weak_ref')
 */
 /* 
-fun g_weak_ref_get(weak_ref': NullablePointer[anon_3672]): Pointer[None] =>
+fun get(weak_ref': NullablePointer[anon_3672]): Pointer[None] tag =>
     @g_weak_ref_get(weak_ref')
 */
 /* 
-fun g_weak_ref_init(weak_ref': NullablePointer[anon_3672], object': Pointer[None] tag): None =>
+fun init(weak_ref': NullablePointer[anon_3672], object': Pointer[None] tag): None =>
     @g_weak_ref_init(weak_ref', object')
 */
 /* 
-fun g_weak_ref_set(weak_ref': NullablePointer[anon_3672], object': Pointer[None] tag): None =>
+fun set(weak_ref': NullablePointer[anon_3672], object': Pointer[None] tag): None =>
     @g_weak_ref_set(weak_ref', object')
 */

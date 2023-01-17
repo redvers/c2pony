@@ -8,20 +8,20 @@ primitive GCharsetConverterSys
 
 // Constructors
 /* 
-fun create(to_charset': Pointer[U8] tag, from_charset': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[GCharsetConverterT] =>
+fun gnew(to_charset': Pointer[U8] tag, from_charset': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GCharsetConverterT] =>
     @g_charset_converter_new(to_charset', from_charset', error')
 */
 
 // Methods
 /* 
-fun g_charset_converter_get_num_fallbacks(converter': NullablePointer[GCharsetConverterT]): U32 =>
+fun get_num_fallbacks(converter': NullablePointer[GCharsetConverterT]): U32 =>
     @g_charset_converter_get_num_fallbacks(converter')
 */
 /* 
-fun g_charset_converter_get_use_fallback(converter': NullablePointer[GCharsetConverterT]): I32 =>
+fun get_use_fallback(converter': NullablePointer[GCharsetConverterT]): I32 =>
     @g_charset_converter_get_use_fallback(converter')
 */
 /* 
-fun g_charset_converter_set_use_fallback(converter': NullablePointer[GCharsetConverterT], use_fallback': I32): None =>
+fun set_use_fallback(converter': NullablePointer[GCharsetConverterT], use_fallback': I32): None =>
     @g_charset_converter_set_use_fallback(converter', use_fallback')
 */

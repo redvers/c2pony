@@ -9,13 +9,13 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_list_box_row_new[Pointer[GtkWidgetT]]()
+// use @gtk_list_box_row_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_list_box_row_changed[None](row': NullablePointer[GtkListBoxRowT])
 // use @gtk_list_box_row_get_activatable[I32](row': NullablePointer[GtkListBoxRowT])
-// use @gtk_list_box_row_get_child[Pointer[GtkWidgetT]](row': NullablePointer[GtkListBoxRowT])
-// use @gtk_list_box_row_get_header[Pointer[GtkWidgetT]](row': NullablePointer[GtkListBoxRowT])
+// use @gtk_list_box_row_get_child[NullablePointer[GtkWidgetT]](row': NullablePointer[GtkListBoxRowT])
+// use @gtk_list_box_row_get_header[NullablePointer[GtkWidgetT]](row': NullablePointer[GtkListBoxRowT])
 // use @gtk_list_box_row_get_index[I32](row': NullablePointer[GtkListBoxRowT])
 // use @gtk_list_box_row_get_selectable[I32](row': NullablePointer[GtkListBoxRowT])
 // use @gtk_list_box_row_is_selected[I32](row': NullablePointer[GtkListBoxRowT])

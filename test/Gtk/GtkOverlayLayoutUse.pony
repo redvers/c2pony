@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_overlay_layout_new[Pointer[GtkLayoutManagerT]]()
+// use @gtk_overlay_layout_new[NullablePointer[GtkLayoutManagerT]]()
 
 // Methods

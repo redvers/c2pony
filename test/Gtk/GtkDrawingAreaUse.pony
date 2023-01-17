@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_drawing_area_new[Pointer[GtkWidgetT]]()
+// use @gtk_drawing_area_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_drawing_area_get_content_height[I32](self': NullablePointer[GtkDrawingAreaT])

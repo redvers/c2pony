@@ -4,7 +4,7 @@ use "../GObject"
 use "lib:gio-2.0"
 
 // Static Functions
-// use @g_io_module_scope_new[Pointer[GIOModuleScopeT]](flags': U32)
+// use @g_io_module_scope_new[NullablePointer[GIOModuleScopeT]](flags': U32)
 
 // Constructors
 

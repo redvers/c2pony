@@ -6,11 +6,11 @@ use "lib:gio-2.0"
 primitive GVolumeMonitorSys
 // Static Functions
 /* 
-fun adopt_orphan_mount(mount': NullablePointer[GMountT]): Pointer[GVolumeT] =>
+fun adopt_orphan_mount(mount': NullablePointer[GMountT]): NullablePointer[GVolumeT] =>
     @g_volume_monitor_adopt_orphan_mount(mount')
 */
 /* 
-fun get(): Pointer[GVolumeMonitorT] =>
+fun get(): NullablePointer[GVolumeMonitorT] =>
     @g_volume_monitor_get()
 */
 
@@ -18,22 +18,22 @@ fun get(): Pointer[GVolumeMonitorT] =>
 
 // Methods
 /* 
-fun g_volume_monitor_get_connected_drives(volume_monitor': NullablePointer[GVolumeMonitorT]): Pointer[GListT] =>
+fun get_connected_drives(volume_monitor': NullablePointer[GVolumeMonitorT]): NullablePointer[GListT] =>
     @g_volume_monitor_get_connected_drives(volume_monitor')
 */
 /* 
-fun g_volume_monitor_get_mount_for_uuid(volume_monitor': NullablePointer[GVolumeMonitorT], uuid': Pointer[U8] tag): Pointer[GMountT] =>
+fun get_mount_for_uuid(volume_monitor': NullablePointer[GVolumeMonitorT], uuid': Pointer[U8] tag): NullablePointer[GMountT] =>
     @g_volume_monitor_get_mount_for_uuid(volume_monitor', uuid')
 */
 /* 
-fun g_volume_monitor_get_mounts(volume_monitor': NullablePointer[GVolumeMonitorT]): Pointer[GListT] =>
+fun get_mounts(volume_monitor': NullablePointer[GVolumeMonitorT]): NullablePointer[GListT] =>
     @g_volume_monitor_get_mounts(volume_monitor')
 */
 /* 
-fun g_volume_monitor_get_volume_for_uuid(volume_monitor': NullablePointer[GVolumeMonitorT], uuid': Pointer[U8] tag): Pointer[GVolumeT] =>
+fun get_volume_for_uuid(volume_monitor': NullablePointer[GVolumeMonitorT], uuid': Pointer[U8] tag): NullablePointer[GVolumeT] =>
     @g_volume_monitor_get_volume_for_uuid(volume_monitor', uuid')
 */
 /* 
-fun g_volume_monitor_get_volumes(volume_monitor': NullablePointer[GVolumeMonitorT]): Pointer[GListT] =>
+fun get_volumes(volume_monitor': NullablePointer[GVolumeMonitorT]): NullablePointer[GListT] =>
     @g_volume_monitor_get_volumes(volume_monitor')
 */

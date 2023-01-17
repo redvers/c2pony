@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
-// use @g_zlib_decompressor_new[Pointer[GZlibDecompressorT]](format': U32)
+// use @g_zlib_decompressor_new[NullablePointer[GZlibDecompressorT]](format': U32)
 
 // Methods
-// use @g_zlib_decompressor_get_file_info[Pointer[GFileInfoT]](decompressor': NullablePointer[GZlibDecompressorT])
+// use @g_zlib_decompressor_get_file_info[NullablePointer[GFileInfoT]](decompressor': NullablePointer[GZlibDecompressorT])

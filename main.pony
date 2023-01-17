@@ -261,137 +261,6 @@ actor Main
     main.append("    </struct>\n")
 
     consume main
-    /*
-
-    _env.out.print("  </uses>")
-    _env.out.print("  <structs>")
-    list_structs()
-    _env.out.print("  </structs>")
-
-
-*/
-/*
-  fun ref list_structs() =>
-    let names: Array[String] = []
-    var anoncnt: U64 = 0
-    for i in tmap.values() do
-      match i
-      | let t: Struct => if (t.name == "") then
-                           t.name = "AnonStruct" + anoncnt.string()
-                           anoncnt = anoncnt + 1
-                         end
-                         names.push(t.name)
-      end
-    end
-    for f in Sort[Array[String], String](names).values() do
-      struct_use(f)
-    end
-
-
-  fun ref struct_use(struct_name: String) =>
-    let structtxt: String trn = recover trn String end
-    try
-      let structobj: Struct =
-      try
-        lookup_struct(struct_name)?
-      else
-        error
-      end
-      structtxt.append("    <struct name=\"")
-      structtxt.append(structobj.name)
-      structtxt.append("\" size=\"")
-      structtxt.append(structobj.size)
-      structtxt.append("\" align=\"")
-      structtxt.append(structobj.align)
-      structtxt.append("\" location=\"")
-      structtxt.append(DebugClasses.location(tmap, structobj.location)?)
-      structtxt.append("\">\n")
-      try
-        (let rnames: Array[String], let rtypes: Array[(Bool, String)]) = struct_args(structobj)?
-        for index in Range(0, rnames.size()) do
-          if (rtypes(index)?._1) then
-            structtxt.append("      <argument decl=\"embed\" name=\"")
-          else
-            structtxt.append("      <argument decl=\"var\" name=\"")
-          end
-          if ((rnames(index)? == "'") or (rnames(index)? == "")) then
-            structtxt.append("arg")
-            nmap.set("arg" + index.string() + "'")
-            structtxt.append(index.string())
-          else
-            structtxt.append(rnames(index)?)
-            nmap.set(rnames(index)?)
-          end
-          structtxt.append("\" argtype=\"")
-          structtxt.append(rtypes(index)?._2)
-          umap.set(rtypes(index)?._2)
-          structtxt.append("\"/>\n")
-        end
-        structtxt.trim_in_place(0, structtxt.size()-1)
-        _env.out.print(structtxt.clone())
-      else
-        _env.out.print("/* Autogeneration Failed")
-        _env.out.print(consume structtxt)
-        _env.out.print("*/")
-      end
-      _env.out.print("    </struct>")
-    end
-
-  fun ref struct_args(strut: Struct): (Array[String], Array[(Bool, String)]) ? =>
-    if (false) then error end
-    let rnames: Array[String] = []
-    let rtypes: Array[(Bool, String)] = []
-
-    for arg in strut.members.values() do
-      let objpath: Array[CastXMLTag] = Array[CastXMLTag]
-      try
-        match tmap(arg)?
-        | let t: Field => (let emb: Bool, let rn: String, let rt: String) = generate_struct_field(t)?
-                          rnames.push(rn)
-                          rtypes.push((emb, rt))
-        else
-          Debug.err(strut.id + ": Unsupported datatype in struct: " + strut.name + ", " + DebugClasses.objtype(tmap(arg)?))
-          error
-        end
-      end
-
-    end
-    (rnames, rtypes)
-
-  fun ref generate_struct_field(t: Field): (Bool, String, String) ? =>
-    if (false) then error end
-    let objpath: Array[CastXMLTag] = Array[CastXMLTag]
-    try
-      resolve_type(t.xtype, objpath)?
-    else
-      error
-    end
-
-    validate_objpath(objpath)
-
-    var rbool: Bool = false
-    for f in objpath.values() do
-      match f
-      | let tt: Struct => rbool = true
-      end
-    end
-    for g in objpath.values() do
-      match g
-      | let tt: PointerType => rbool = false
-      | let tt: ArrayType => rbool = false
-      end
-    end
-
-    let returnvalue: String =
-    try
-      generate_use(objpath)?
-    else
-      error
-    end
-    (rbool, t.name, returnvalue)
-
-
-*/
 
   fun ref lookup_struct(a: String): Struct ? =>
     for f in tmap.values() do
@@ -473,35 +342,6 @@ actor Main
       "<!-- " + function_name + " -->\n"
     end
 
-
-
-
-/*
-  fun ref use_args(function: Function): (Array[String], Array[String]) ? =>
-    let rtypes: Array[String] = []
-    let rnames: Array[String] = []
-    for arg in function.arguments.values() do
-      let objpath: Array[CastXMLTag] = Array[CastXMLTag]
-      try
-        match arg
-        | let t: Ellipsis => rtypes.push("...")
-        | let t: Argument =>
-
-          resolve_type(t.xtype, objpath)?
-          validate_objpath(objpath)
-          rtypes.push(generate_use(objpath)?)
-          rnames.push(t.name)
-//          rnames.push(t.name + "'")
-
-        end
-      else
-//        Debug.err("Unable to resolve_type(returns): ")
-        error
-      end
-    end
-    (rnames, rtypes)
-*/
-
   fun ref use_return_value(function: Function): String ? =>
 //    Debug.err("Starting with the return value")
     let objpath: Array[CastXMLTag] = Array[CastXMLTag]
@@ -512,18 +352,8 @@ actor Main
       error
     end
 
-//    Debug.err("Validating ObjPath")
-    validate_objpath(objpath)
-
-    let returnvalue: String =
-    try
-      generate_use(objpath)?
-    else
-//      Debug.err("generate_use failed")
-      error
-    end
-//    Debug.err("Ended return value: " + returnvalue)
-    returnvalue
+    let xmlarg: XmlArg = XmlArg(_env, objpath, nmap, umap)?
+    xmlarg.usetype
 
   fun ref validate_objpath(objpath: Array[CastXMLTag]) => None
     /*
@@ -535,6 +365,7 @@ actor Main
     Debug.err("Validate Objectpath: " + debugstr)
     */
 
+    /*
   fun ref generate_use(objpath: Array[CastXMLTag]): String ? =>
     var text: String = ""
 
@@ -545,28 +376,9 @@ actor Main
 //      Debug.err("After[" + DebugClasses.objtype(objpath(index - 1)?) + "]: " + text)
     end
     text
+*/
 
 
-
-
-
-
-/*
-
-  fun ref debug_types() =>
-    for f in tmap.values() do
-      match f
-      | let t: Typedef => try
-          let objpath: Array[CastXMLTag] = Array[CastXMLTag]
-          resolve_type(t.id, objpath)?
-          Debug.err("USE Typedef[" + t.name + "]: " + gen_use(objpath)?)
-        else
-          Debug.err("XXXX UNKNOWN XXXX " + t.id)
-        end
-      end
-    end
-
-    */
   fun gen_use(objpath: Array[CastXMLTag]): String ? =>
     gen_use_rec(objpath, "")?
 

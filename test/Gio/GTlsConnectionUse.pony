@@ -9,12 +9,12 @@ use "lib:gio-2.0"
 
 // Methods
 // use @g_tls_connection_emit_accept_certificate[I32](conn': NullablePointer[GTlsConnectionT], peer_cert': NullablePointer[GTlsCertificateT], errors': U32)
-// use @g_tls_connection_get_certificate[Pointer[GTlsCertificateT]](conn': NullablePointer[GTlsConnectionT])
+// use @g_tls_connection_get_certificate[NullablePointer[GTlsCertificateT]](conn': NullablePointer[GTlsConnectionT])
 // use @g_tls_connection_get_channel_binding_data[I32](conn': NullablePointer[GTlsConnectionT], type': U32, data': NullablePointer[GByteArrayT], error': Pointer[NullablePointer[GErrorT]])
-// use @g_tls_connection_get_database[Pointer[GTlsDatabaseT]](conn': NullablePointer[GTlsConnectionT])
-// use @g_tls_connection_get_interaction[Pointer[GTlsInteractionT]](conn': NullablePointer[GTlsConnectionT])
-// use @g_tls_connection_get_negotiated_protocol[Pointer[U8]](conn': NullablePointer[GTlsConnectionT])
-// use @g_tls_connection_get_peer_certificate[Pointer[GTlsCertificateT]](conn': NullablePointer[GTlsConnectionT])
+// use @g_tls_connection_get_database[NullablePointer[GTlsDatabaseT]](conn': NullablePointer[GTlsConnectionT])
+// use @g_tls_connection_get_interaction[NullablePointer[GTlsInteractionT]](conn': NullablePointer[GTlsConnectionT])
+// use @g_tls_connection_get_negotiated_protocol[Pointer[U8] tag](conn': NullablePointer[GTlsConnectionT])
+// use @g_tls_connection_get_peer_certificate[NullablePointer[GTlsCertificateT]](conn': NullablePointer[GTlsConnectionT])
 // use @g_tls_connection_get_peer_certificate_errors[U32](conn': NullablePointer[GTlsConnectionT])
 // use @g_tls_connection_get_rehandshake_mode[U32](conn': NullablePointer[GTlsConnectionT])
 // use @g_tls_connection_get_require_close_notify[I32](conn': NullablePointer[GTlsConnectionT])

@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_tree_store_new[Pointer[GtkTreeStoreT]](n_columns': I32, ...)
-// use @gtk_tree_store_newv[Pointer[GtkTreeStoreT]](n_columns': I32, types': Pointer[U64] tag)
+// use @gtk_tree_store_new[NullablePointer[GtkTreeStoreT]](n_columns': I32, ...)
+// use @gtk_tree_store_newv[NullablePointer[GtkTreeStoreT]](n_columns': I32, types': Pointer[U64] tag)
 
 // Methods
 // use @gtk_tree_store_append[None](tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT])

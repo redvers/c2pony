@@ -16,15 +16,15 @@ fun destroy(hash_table': NullablePointer[GHashTableT]): None =>
     @g_hash_table_destroy(hash_table')
 */
 /* 
-fun get_keys(hash_table': NullablePointer[GHashTableT]): Pointer[GListT] =>
+fun get_keys(hash_table': NullablePointer[GHashTableT]): NullablePointer[GListT] =>
     @g_hash_table_get_keys(hash_table')
 */
 /* 
-fun get_keys_as_array(hash_table': NullablePointer[GHashTableT], length': Pointer[U32] tag): Pointer[Pointer[None]] =>
+fun get_keys_as_array(hash_table': NullablePointer[GHashTableT], length': Pointer[U32] tag): Pointer[Pointer[None]] tag =>
     @g_hash_table_get_keys_as_array(hash_table', length')
 */
 /* 
-fun get_values(hash_table': NullablePointer[GHashTableT]): Pointer[GListT] =>
+fun get_values(hash_table': NullablePointer[GHashTableT]): NullablePointer[GListT] =>
     @g_hash_table_get_values(hash_table')
 */
 /* 
@@ -32,7 +32,7 @@ fun insert(hash_table': NullablePointer[GHashTableT], key': Pointer[None] tag, v
     @g_hash_table_insert(hash_table', key', value')
 */
 /* 
-fun lookup(hash_table': NullablePointer[GHashTableT], key': Pointer[None] tag): Pointer[None] =>
+fun lookup(hash_table': NullablePointer[GHashTableT], key': Pointer[None] tag): Pointer[None] tag =>
     @g_hash_table_lookup(hash_table', key')
 */
 /* 
@@ -40,7 +40,7 @@ fun lookup_extended(hash_table': NullablePointer[GHashTableT], lookup_key': Poin
     @g_hash_table_lookup_extended(hash_table', lookup_key', orig_key', value')
 */
 /* 
-fun ref(hash_table': NullablePointer[GHashTableT]): Pointer[GHashTableT] =>
+fun ref(hash_table': NullablePointer[GHashTableT]): NullablePointer[GHashTableT] =>
     @g_hash_table_ref(hash_table')
 */
 /* 

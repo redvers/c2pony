@@ -9,7 +9,7 @@ use "lib:gtk-4"
 primitive GtkNeverTriggerSys
 // Static Functions
 /* 
-fun get(): Pointer[GtkShortcutTriggerT] =>
+fun get(): NullablePointer[GtkShortcutTriggerT] =>
     @gtk_never_trigger_get()
 */
 

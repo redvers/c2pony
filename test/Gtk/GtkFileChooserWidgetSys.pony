@@ -11,7 +11,7 @@ primitive GtkFileChooserWidgetSys
 
 // Constructors
 /* 
-fun create(action': U32): Pointer[GtkWidgetT] =>
+fun gnew(action': U32): NullablePointer[GtkWidgetT] =>
     @gtk_file_chooser_widget_new(action')
 */
 

@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_adjustment_new[Pointer[GtkAdjustmentT]](value': F64, lower': F64, upper': F64, step_increment': F64, page_increment': F64, page_size': F64)
+// use @gtk_adjustment_new[NullablePointer[GtkAdjustmentT]](value': F64, lower': F64, upper': F64, step_increment': F64, page_increment': F64, page_size': F64)
 
 // Methods
 // use @gtk_adjustment_clamp_page[None](adjustment': NullablePointer[GtkAdjustmentT], lower': F64, upper': F64)

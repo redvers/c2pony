@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
-// use @g_socket_address_new_from_native[Pointer[GSocketAddressT]](native': Pointer[None] tag, len': U64)
+// use @g_socket_address_new_from_native[NullablePointer[GSocketAddressT]](native': Pointer[None] tag, len': U64)
 
 // Methods
 // use @g_socket_address_get_family[U32](address': NullablePointer[GSocketAddressT])

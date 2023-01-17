@@ -8,20 +8,20 @@ primitive GSocketAddressSys
 
 // Constructors
 /* 
-fun new_from_native(native': Pointer[None] tag, len': U64): Pointer[GSocketAddressT] =>
+fun new_from_native(native': Pointer[None] tag, len': U64): NullablePointer[GSocketAddressT] =>
     @g_socket_address_new_from_native(native', len')
 */
 
 // Methods
 /* 
-fun g_socket_address_get_family(address': NullablePointer[GSocketAddressT]): U32 =>
+fun get_family(address': NullablePointer[GSocketAddressT]): U32 =>
     @g_socket_address_get_family(address')
 */
 /* 
-fun g_socket_address_get_native_size(address': NullablePointer[GSocketAddressT]): I64 =>
+fun get_native_size(address': NullablePointer[GSocketAddressT]): I64 =>
     @g_socket_address_get_native_size(address')
 */
 /* 
-fun g_socket_address_to_native(address': NullablePointer[GSocketAddressT], dest': Pointer[None] tag, destlen': U64, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun to_native(address': NullablePointer[GSocketAddressT], dest': Pointer[None] tag, destlen': U64, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_socket_address_to_native(address', dest', destlen', error')
 */

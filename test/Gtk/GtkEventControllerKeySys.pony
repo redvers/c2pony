@@ -11,24 +11,24 @@ primitive GtkEventControllerKeySys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkEventControllerT] =>
+fun gnew(): NullablePointer[GtkEventControllerT] =>
     @gtk_event_controller_key_new()
 */
 
 // Methods
 /* 
-fun gtk_event_controller_key_forward(controller': NullablePointer[GtkEventControllerKeyT], widget': NullablePointer[GtkWidgetT]): I32 =>
+fun forward(controller': NullablePointer[GtkEventControllerKeyT], widget': NullablePointer[GtkWidgetT]): I32 =>
     @gtk_event_controller_key_forward(controller', widget')
 */
 /* 
-fun gtk_event_controller_key_get_group(controller': NullablePointer[GtkEventControllerKeyT]): U32 =>
+fun get_group(controller': NullablePointer[GtkEventControllerKeyT]): U32 =>
     @gtk_event_controller_key_get_group(controller')
 */
 /* 
-fun gtk_event_controller_key_get_im_context(controller': NullablePointer[GtkEventControllerKeyT]): Pointer[GtkIMContextT] =>
+fun get_im_context(controller': NullablePointer[GtkEventControllerKeyT]): NullablePointer[GtkIMContextT] =>
     @gtk_event_controller_key_get_im_context(controller')
 */
 /* 
-fun gtk_event_controller_key_set_im_context(controller': NullablePointer[GtkEventControllerKeyT], im_context': NullablePointer[GtkIMContextT]): None =>
+fun set_im_context(controller': NullablePointer[GtkEventControllerKeyT], im_context': NullablePointer[GtkIMContextT]): None =>
     @gtk_event_controller_key_set_im_context(controller', im_context')
 */

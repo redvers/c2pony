@@ -10,54 +10,54 @@ primitive GDBusInterfaceSkeletonSys
 
 // Methods
 /* 
-fun g_dbus_interface_skeleton_export(interface_': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT], object_path': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun export(interface_': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT], object_path': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_dbus_interface_skeleton_export(interface_', connection', object_path', error')
 */
 /* 
-fun g_dbus_interface_skeleton_flush(interface_': NullablePointer[GDBusInterfaceSkeletonT]): None =>
+fun flush(interface_': NullablePointer[GDBusInterfaceSkeletonT]): None =>
     @g_dbus_interface_skeleton_flush(interface_')
 */
 /* 
-fun g_dbus_interface_skeleton_get_connection(interface_': NullablePointer[GDBusInterfaceSkeletonT]): Pointer[GDBusConnectionT] =>
+fun get_connection(interface_': NullablePointer[GDBusInterfaceSkeletonT]): NullablePointer[GDBusConnectionT] =>
     @g_dbus_interface_skeleton_get_connection(interface_')
 */
 /* 
-fun g_dbus_interface_skeleton_get_connections(interface_': NullablePointer[GDBusInterfaceSkeletonT]): Pointer[GListT] =>
+fun get_connections(interface_': NullablePointer[GDBusInterfaceSkeletonT]): NullablePointer[GListT] =>
     @g_dbus_interface_skeleton_get_connections(interface_')
 */
 /* 
-fun g_dbus_interface_skeleton_get_flags(interface_': NullablePointer[GDBusInterfaceSkeletonT]): U32 =>
+fun get_flags(interface_': NullablePointer[GDBusInterfaceSkeletonT]): U32 =>
     @g_dbus_interface_skeleton_get_flags(interface_')
 */
 /* 
-fun g_dbus_interface_skeleton_get_info(interface_': NullablePointer[GDBusInterfaceSkeletonT]): Pointer[GDBusInterfaceInfoT] =>
+fun get_info(interface_': NullablePointer[GDBusInterfaceSkeletonT]): NullablePointer[GDBusInterfaceInfoT] =>
     @g_dbus_interface_skeleton_get_info(interface_')
 */
 /* 
-fun g_dbus_interface_skeleton_get_object_path(interface_': NullablePointer[GDBusInterfaceSkeletonT]): Pointer[U8] =>
+fun get_object_path(interface_': NullablePointer[GDBusInterfaceSkeletonT]): Pointer[U8] tag =>
     @g_dbus_interface_skeleton_get_object_path(interface_')
 */
 /* 
-fun g_dbus_interface_skeleton_get_properties(interface_': NullablePointer[GDBusInterfaceSkeletonT]): Pointer[GVariantT] =>
+fun get_properties(interface_': NullablePointer[GDBusInterfaceSkeletonT]): NullablePointer[GVariantT] =>
     @g_dbus_interface_skeleton_get_properties(interface_')
 */
 /* 
-fun g_dbus_interface_skeleton_get_vtable(interface_': NullablePointer[GDBusInterfaceSkeletonT]): Pointer[GDBusInterfaceVTableT] =>
+fun get_vtable(interface_': NullablePointer[GDBusInterfaceSkeletonT]): NullablePointer[GDBusInterfaceVTableT] =>
     @g_dbus_interface_skeleton_get_vtable(interface_')
 */
 /* 
-fun g_dbus_interface_skeleton_has_connection(interface_': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT]): I32 =>
+fun has_connection(interface_': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT]): I32 =>
     @g_dbus_interface_skeleton_has_connection(interface_', connection')
 */
 /* 
-fun g_dbus_interface_skeleton_set_flags(interface_': NullablePointer[GDBusInterfaceSkeletonT], flags': U32): None =>
+fun set_flags(interface_': NullablePointer[GDBusInterfaceSkeletonT], flags': U32): None =>
     @g_dbus_interface_skeleton_set_flags(interface_', flags')
 */
 /* 
-fun g_dbus_interface_skeleton_unexport(interface_': NullablePointer[GDBusInterfaceSkeletonT]): None =>
+fun unexport(interface_': NullablePointer[GDBusInterfaceSkeletonT]): None =>
     @g_dbus_interface_skeleton_unexport(interface_')
 */
 /* 
-fun g_dbus_interface_skeleton_unexport_from_connection(interface_': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT]): None =>
+fun unexport_from_connection(interface_': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT]): None =>
     @g_dbus_interface_skeleton_unexport_from_connection(interface_', connection')
 */

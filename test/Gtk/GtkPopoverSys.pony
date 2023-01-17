@@ -11,88 +11,88 @@ primitive GtkPopoverSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkWidgetT] =>
+fun gnew(): NullablePointer[GtkWidgetT] =>
     @gtk_popover_new()
 */
 
 // Methods
 /* 
-fun gtk_popover_get_autohide(popover': NullablePointer[GtkPopoverT]): I32 =>
+fun get_autohide(popover': NullablePointer[GtkPopoverT]): I32 =>
     @gtk_popover_get_autohide(popover')
 */
 /* 
-fun gtk_popover_get_cascade_popdown(popover': NullablePointer[GtkPopoverT]): I32 =>
+fun get_cascade_popdown(popover': NullablePointer[GtkPopoverT]): I32 =>
     @gtk_popover_get_cascade_popdown(popover')
 */
 /* 
-fun gtk_popover_get_child(popover': NullablePointer[GtkPopoverT]): Pointer[GtkWidgetT] =>
+fun get_child(popover': NullablePointer[GtkPopoverT]): NullablePointer[GtkWidgetT] =>
     @gtk_popover_get_child(popover')
 */
 /* 
-fun gtk_popover_get_has_arrow(popover': NullablePointer[GtkPopoverT]): I32 =>
+fun get_has_arrow(popover': NullablePointer[GtkPopoverT]): I32 =>
     @gtk_popover_get_has_arrow(popover')
 */
 /* 
-fun gtk_popover_get_mnemonics_visible(popover': NullablePointer[GtkPopoverT]): I32 =>
+fun get_mnemonics_visible(popover': NullablePointer[GtkPopoverT]): I32 =>
     @gtk_popover_get_mnemonics_visible(popover')
 */
 /* 
-fun gtk_popover_get_offset(popover': NullablePointer[GtkPopoverT], x_offset': Pointer[I32] tag, y_offset': Pointer[I32] tag): None =>
+fun get_offset(popover': NullablePointer[GtkPopoverT], x_offset': Pointer[I32] tag, y_offset': Pointer[I32] tag): None =>
     @gtk_popover_get_offset(popover', x_offset', y_offset')
 */
 /* 
-fun gtk_popover_get_pointing_to(popover': NullablePointer[GtkPopoverT], rect': NullablePointer[cairorectangleintT]): I32 =>
+fun get_pointing_to(popover': NullablePointer[GtkPopoverT], rect': NullablePointer[cairorectangleintT]): I32 =>
     @gtk_popover_get_pointing_to(popover', rect')
 */
 /* 
-fun gtk_popover_get_position(popover': NullablePointer[GtkPopoverT]): U32 =>
+fun get_position(popover': NullablePointer[GtkPopoverT]): U32 =>
     @gtk_popover_get_position(popover')
 */
 /* 
-fun gtk_popover_popdown(popover': NullablePointer[GtkPopoverT]): None =>
+fun popdown(popover': NullablePointer[GtkPopoverT]): None =>
     @gtk_popover_popdown(popover')
 */
 /* 
-fun gtk_popover_popup(popover': NullablePointer[GtkPopoverT]): None =>
+fun popup(popover': NullablePointer[GtkPopoverT]): None =>
     @gtk_popover_popup(popover')
 */
 /* 
-fun gtk_popover_present(popover': NullablePointer[GtkPopoverT]): None =>
+fun present(popover': NullablePointer[GtkPopoverT]): None =>
     @gtk_popover_present(popover')
 */
 /* 
-fun gtk_popover_set_autohide(popover': NullablePointer[GtkPopoverT], autohide': I32): None =>
+fun set_autohide(popover': NullablePointer[GtkPopoverT], autohide': I32): None =>
     @gtk_popover_set_autohide(popover', autohide')
 */
 /* 
-fun gtk_popover_set_cascade_popdown(popover': NullablePointer[GtkPopoverT], cascade_popdown': I32): None =>
+fun set_cascade_popdown(popover': NullablePointer[GtkPopoverT], cascade_popdown': I32): None =>
     @gtk_popover_set_cascade_popdown(popover', cascade_popdown')
 */
 /* 
-fun gtk_popover_set_child(popover': NullablePointer[GtkPopoverT], child': NullablePointer[GtkWidgetT]): None =>
+fun set_child(popover': NullablePointer[GtkPopoverT], child': NullablePointer[GtkWidgetT]): None =>
     @gtk_popover_set_child(popover', child')
 */
 /* 
-fun gtk_popover_set_default_widget(popover': NullablePointer[GtkPopoverT], widget': NullablePointer[GtkWidgetT]): None =>
+fun set_default_widget(popover': NullablePointer[GtkPopoverT], widget': NullablePointer[GtkWidgetT]): None =>
     @gtk_popover_set_default_widget(popover', widget')
 */
 /* 
-fun gtk_popover_set_has_arrow(popover': NullablePointer[GtkPopoverT], has_arrow': I32): None =>
+fun set_has_arrow(popover': NullablePointer[GtkPopoverT], has_arrow': I32): None =>
     @gtk_popover_set_has_arrow(popover', has_arrow')
 */
 /* 
-fun gtk_popover_set_mnemonics_visible(popover': NullablePointer[GtkPopoverT], mnemonics_visible': I32): None =>
+fun set_mnemonics_visible(popover': NullablePointer[GtkPopoverT], mnemonics_visible': I32): None =>
     @gtk_popover_set_mnemonics_visible(popover', mnemonics_visible')
 */
 /* 
-fun gtk_popover_set_offset(popover': NullablePointer[GtkPopoverT], x_offset': I32, y_offset': I32): None =>
+fun set_offset(popover': NullablePointer[GtkPopoverT], x_offset': I32, y_offset': I32): None =>
     @gtk_popover_set_offset(popover', x_offset', y_offset')
 */
 /* 
-fun gtk_popover_set_pointing_to(popover': NullablePointer[GtkPopoverT], rect': NullablePointer[cairorectangleintT]): None =>
+fun set_pointing_to(popover': NullablePointer[GtkPopoverT], rect': NullablePointer[cairorectangleintT]): None =>
     @gtk_popover_set_pointing_to(popover', rect')
 */
 /* 
-fun gtk_popover_set_position(popover': NullablePointer[GtkPopoverT], position': U32): None =>
+fun set_position(popover': NullablePointer[GtkPopoverT], position': U32): None =>
     @gtk_popover_set_position(popover', position')
 */

@@ -11,16 +11,16 @@ primitive GtkLockButtonSys
 
 // Constructors
 /* 
-fun create(permission': NullablePointer[GPermissionT]): Pointer[GtkWidgetT] =>
+fun gnew(permission': NullablePointer[GPermissionT]): NullablePointer[GtkWidgetT] =>
     @gtk_lock_button_new(permission')
 */
 
 // Methods
 /* 
-fun gtk_lock_button_get_permission(button': NullablePointer[GtkLockButtonT]): Pointer[GPermissionT] =>
+fun get_permission(button': NullablePointer[GtkLockButtonT]): NullablePointer[GPermissionT] =>
     @gtk_lock_button_get_permission(button')
 */
 /* 
-fun gtk_lock_button_set_permission(button': NullablePointer[GtkLockButtonT], permission': NullablePointer[GPermissionT]): None =>
+fun set_permission(button': NullablePointer[GtkLockButtonT], permission': NullablePointer[GPermissionT]): None =>
     @gtk_lock_button_set_permission(button', permission')
 */

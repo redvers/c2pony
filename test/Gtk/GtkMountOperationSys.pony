@@ -11,28 +11,28 @@ primitive GtkMountOperationSys
 
 // Constructors
 /* 
-fun create(parent': NullablePointer[GtkWindowT]): Pointer[GMountOperationT] =>
+fun gnew(parent': NullablePointer[GtkWindowT]): NullablePointer[GMountOperationT] =>
     @gtk_mount_operation_new(parent')
 */
 
 // Methods
 /* 
-fun gtk_mount_operation_get_display(op': NullablePointer[GtkMountOperationT]): Pointer[GdkDisplayT] =>
+fun get_display(op': NullablePointer[GtkMountOperationT]): NullablePointer[GdkDisplayT] =>
     @gtk_mount_operation_get_display(op')
 */
 /* 
-fun gtk_mount_operation_get_parent(op': NullablePointer[GtkMountOperationT]): Pointer[GtkWindowT] =>
+fun get_parent(op': NullablePointer[GtkMountOperationT]): NullablePointer[GtkWindowT] =>
     @gtk_mount_operation_get_parent(op')
 */
 /* 
-fun gtk_mount_operation_is_showing(op': NullablePointer[GtkMountOperationT]): I32 =>
+fun is_showing(op': NullablePointer[GtkMountOperationT]): I32 =>
     @gtk_mount_operation_is_showing(op')
 */
 /* 
-fun gtk_mount_operation_set_display(op': NullablePointer[GtkMountOperationT], display': NullablePointer[GdkDisplayT]): None =>
+fun set_display(op': NullablePointer[GtkMountOperationT], display': NullablePointer[GdkDisplayT]): None =>
     @gtk_mount_operation_set_display(op', display')
 */
 /* 
-fun gtk_mount_operation_set_parent(op': NullablePointer[GtkMountOperationT], parent': NullablePointer[GtkWindowT]): None =>
+fun set_parent(op': NullablePointer[GtkMountOperationT], parent': NullablePointer[GtkWindowT]): None =>
     @gtk_mount_operation_set_parent(op', parent')
 */

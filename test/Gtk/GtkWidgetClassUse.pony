@@ -17,7 +17,7 @@ use "lib:gtk-4"
 // use @gtk_widget_class_bind_template_child_full[None](widget_class': NullablePointer[GtkWidgetClassT], name': Pointer[U8] tag, internal_child': I32, struct_offset': I64)
 // use @gtk_widget_class_get_accessible_role[U32](widget_class': NullablePointer[GtkWidgetClassT])
 // use @gtk_widget_class_get_activate_signal[U32](widget_class': NullablePointer[GtkWidgetClassT])
-// use @gtk_widget_class_get_css_name[Pointer[U8]](widget_class': NullablePointer[GtkWidgetClassT])
+// use @gtk_widget_class_get_css_name[Pointer[U8] tag](widget_class': NullablePointer[GtkWidgetClassT])
 // use @gtk_widget_class_get_layout_manager_type[U64](widget_class': NullablePointer[GtkWidgetClassT])
 // use @gtk_widget_class_install_property_action[None](widget_class': NullablePointer[GtkWidgetClassT], action_name': Pointer[U8] tag, property_name': Pointer[U8] tag)
 // use @gtk_widget_class_query_action[I32](widget_class': NullablePointer[GtkWidgetClassT], index_': U32, owner': Pointer[U64] tag, action_name': Pointer[Pointer[U8]] tag, parameter_type': Pointer[NullablePointer[GVariantTypeT]], property_name': Pointer[Pointer[U8]] tag)

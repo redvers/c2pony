@@ -11,7 +11,7 @@ primitive GtkCellRendererComboSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkCellRendererT] =>
+fun gnew(): NullablePointer[GtkCellRendererT] =>
     @gtk_cell_renderer_combo_new()
 */
 

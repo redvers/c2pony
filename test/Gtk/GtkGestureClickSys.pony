@@ -11,7 +11,7 @@ primitive GtkGestureClickSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkGestureT] =>
+fun gnew(): NullablePointer[GtkGestureT] =>
     @gtk_gesture_click_new()
 */
 

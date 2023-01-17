@@ -11,7 +11,7 @@ primitive GtkColorChooserDialogSys
 
 // Constructors
 /* 
-fun create(title': Pointer[U8] tag, parent': NullablePointer[GtkWindowT]): Pointer[GtkWidgetT] =>
+fun gnew(title': Pointer[U8] tag, parent': NullablePointer[GtkWindowT]): NullablePointer[GtkWidgetT] =>
     @gtk_color_chooser_dialog_new(title', parent')
 */
 

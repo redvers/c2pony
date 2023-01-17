@@ -13,6 +13,6 @@ primitive GtkAssistantPageSys
 
 // Methods
 /* 
-fun gtk_assistant_page_get_child(page': NullablePointer[GtkAssistantPageT]): Pointer[GtkWidgetT] =>
+fun get_child(page': NullablePointer[GtkAssistantPageT]): NullablePointer[GtkWidgetT] =>
     @gtk_assistant_page_get_child(page')
 */

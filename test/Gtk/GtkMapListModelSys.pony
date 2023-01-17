@@ -13,14 +13,14 @@ primitive GtkMapListModelSys
 
 // Methods
 /* 
-fun gtk_map_list_model_get_model(self': NullablePointer[GtkMapListModelT]): Pointer[GListModelT] =>
+fun get_model(self': NullablePointer[GtkMapListModelT]): NullablePointer[GListModelT] =>
     @gtk_map_list_model_get_model(self')
 */
 /* 
-fun gtk_map_list_model_has_map(self': NullablePointer[GtkMapListModelT]): I32 =>
+fun has_map(self': NullablePointer[GtkMapListModelT]): I32 =>
     @gtk_map_list_model_has_map(self')
 */
 /* 
-fun gtk_map_list_model_set_model(self': NullablePointer[GtkMapListModelT], model': NullablePointer[GListModelT]): None =>
+fun set_model(self': NullablePointer[GtkMapListModelT], model': NullablePointer[GListModelT]): None =>
     @gtk_map_list_model_set_model(self', model')
 */

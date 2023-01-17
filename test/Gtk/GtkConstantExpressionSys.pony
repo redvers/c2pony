@@ -11,16 +11,16 @@ primitive GtkConstantExpressionSys
 
 // Constructors
 /* 
-fun create(value_type': U64, ...): Pointer[GtkExpressionT] =>
+fun gnew(value_type': U64, ...): NullablePointer[GtkExpressionT] =>
     @gtk_constant_expression_new(value_type', ...)
 */
 /* 
-fun new_for_value(value': NullablePointer[GValueT]): Pointer[GtkExpressionT] =>
+fun new_for_value(value': NullablePointer[GValueT]): NullablePointer[GtkExpressionT] =>
     @gtk_constant_expression_new_for_value(value')
 */
 
 // Methods
 /* 
-fun gtk_constant_expression_get_value(expression': NullablePointer[GtkExpressionT]): Pointer[GValueT] =>
+fun get_value(expression': NullablePointer[GtkExpressionT]): NullablePointer[GValueT] =>
     @gtk_constant_expression_get_value(expression')
 */

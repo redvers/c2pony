@@ -13,10 +13,10 @@ primitive GtkFixedLayoutChildSys
 
 // Methods
 /* 
-fun gtk_fixed_layout_child_get_transform(child': NullablePointer[GtkFixedLayoutChildT]): Pointer[GskTransformT] =>
+fun get_transform(child': NullablePointer[GtkFixedLayoutChildT]): NullablePointer[GskTransformT] =>
     @gtk_fixed_layout_child_get_transform(child')
 */
 /* 
-fun gtk_fixed_layout_child_set_transform(child': NullablePointer[GtkFixedLayoutChildT], transform': NullablePointer[GskTransformT]): None =>
+fun set_transform(child': NullablePointer[GtkFixedLayoutChildT], transform': NullablePointer[GskTransformT]): None =>
     @gtk_fixed_layout_child_set_transform(child', transform')
 */

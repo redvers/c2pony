@@ -10,10 +10,10 @@ primitive GDBusPropertyInfoSys
 
 // Methods
 /* 
-fun g_dbus_property_info_ref(info': NullablePointer[GDBusPropertyInfoT]): Pointer[GDBusPropertyInfoT] =>
+fun ref(info': NullablePointer[GDBusPropertyInfoT]): NullablePointer[GDBusPropertyInfoT] =>
     @g_dbus_property_info_ref(info')
 */
 /* 
-fun g_dbus_property_info_unref(info': NullablePointer[GDBusPropertyInfoT]): None =>
+fun unref(info': NullablePointer[GDBusPropertyInfoT]): None =>
     @g_dbus_property_info_unref(info')
 */

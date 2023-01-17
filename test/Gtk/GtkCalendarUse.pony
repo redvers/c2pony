@@ -9,11 +9,11 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_calendar_new[Pointer[GtkWidgetT]]()
+// use @gtk_calendar_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_calendar_clear_marks[None](calendar': NullablePointer[GtkCalendarT])
-// use @gtk_calendar_get_date[Pointer[GDateTimeT]](self': NullablePointer[GtkCalendarT])
+// use @gtk_calendar_get_date[NullablePointer[GDateTimeT]](self': NullablePointer[GtkCalendarT])
 // use @gtk_calendar_get_day_is_marked[I32](calendar': NullablePointer[GtkCalendarT], day': U32)
 // use @gtk_calendar_get_show_day_names[I32](self': NullablePointer[GtkCalendarT])
 // use @gtk_calendar_get_show_heading[I32](self': NullablePointer[GtkCalendarT])

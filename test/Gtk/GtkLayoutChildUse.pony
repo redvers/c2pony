@@ -11,5 +11,5 @@ use "lib:gtk-4"
 // Constructors
 
 // Methods
-// use @gtk_layout_child_get_child_widget[Pointer[GtkWidgetT]](layout_child': NullablePointer[GtkLayoutChildT])
-// use @gtk_layout_child_get_layout_manager[Pointer[GtkLayoutManagerT]](layout_child': NullablePointer[GtkLayoutChildT])
+// use @gtk_layout_child_get_child_widget[NullablePointer[GtkWidgetT]](layout_child': NullablePointer[GtkLayoutChildT])
+// use @gtk_layout_child_get_layout_manager[NullablePointer[GtkLayoutManagerT]](layout_child': NullablePointer[GtkLayoutChildT])

@@ -8,7 +8,7 @@ primitive GPropertyActionSys
 
 // Constructors
 /* 
-fun create(name': Pointer[U8] tag, object': Pointer[None] tag, property_name': Pointer[U8] tag): Pointer[GPropertyActionT] =>
+fun gnew(name': Pointer[U8] tag, object': Pointer[None] tag, property_name': Pointer[U8] tag): NullablePointer[GPropertyActionT] =>
     @g_property_action_new(name', object', property_name')
 */
 

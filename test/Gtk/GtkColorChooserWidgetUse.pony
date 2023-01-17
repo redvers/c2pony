@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_color_chooser_widget_new[Pointer[GtkWidgetT]]()
+// use @gtk_color_chooser_widget_new[NullablePointer[GtkWidgetT]]()
 
 // Methods

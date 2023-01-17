@@ -13,38 +13,38 @@ primitive GtkTreeListRowSys
 
 // Methods
 /* 
-fun gtk_tree_list_row_get_child_row(self': NullablePointer[GtkTreeListRowT], position': U32): Pointer[GtkTreeListRowT] =>
+fun get_child_row(self': NullablePointer[GtkTreeListRowT], position': U32): NullablePointer[GtkTreeListRowT] =>
     @gtk_tree_list_row_get_child_row(self', position')
 */
 /* 
-fun gtk_tree_list_row_get_children(self': NullablePointer[GtkTreeListRowT]): Pointer[GListModelT] =>
+fun get_children(self': NullablePointer[GtkTreeListRowT]): NullablePointer[GListModelT] =>
     @gtk_tree_list_row_get_children(self')
 */
 /* 
-fun gtk_tree_list_row_get_depth(self': NullablePointer[GtkTreeListRowT]): U32 =>
+fun get_depth(self': NullablePointer[GtkTreeListRowT]): U32 =>
     @gtk_tree_list_row_get_depth(self')
 */
 /* 
-fun gtk_tree_list_row_get_expanded(self': NullablePointer[GtkTreeListRowT]): I32 =>
+fun get_expanded(self': NullablePointer[GtkTreeListRowT]): I32 =>
     @gtk_tree_list_row_get_expanded(self')
 */
 /* 
-fun gtk_tree_list_row_get_item(self': NullablePointer[GtkTreeListRowT]): Pointer[None] =>
+fun get_item(self': NullablePointer[GtkTreeListRowT]): Pointer[None] tag =>
     @gtk_tree_list_row_get_item(self')
 */
 /* 
-fun gtk_tree_list_row_get_parent(self': NullablePointer[GtkTreeListRowT]): Pointer[GtkTreeListRowT] =>
+fun get_parent(self': NullablePointer[GtkTreeListRowT]): NullablePointer[GtkTreeListRowT] =>
     @gtk_tree_list_row_get_parent(self')
 */
 /* 
-fun gtk_tree_list_row_get_position(self': NullablePointer[GtkTreeListRowT]): U32 =>
+fun get_position(self': NullablePointer[GtkTreeListRowT]): U32 =>
     @gtk_tree_list_row_get_position(self')
 */
 /* 
-fun gtk_tree_list_row_is_expandable(self': NullablePointer[GtkTreeListRowT]): I32 =>
+fun is_expandable(self': NullablePointer[GtkTreeListRowT]): I32 =>
     @gtk_tree_list_row_is_expandable(self')
 */
 /* 
-fun gtk_tree_list_row_set_expanded(self': NullablePointer[GtkTreeListRowT], expanded': I32): None =>
+fun set_expanded(self': NullablePointer[GtkTreeListRowT], expanded': I32): None =>
     @gtk_tree_list_row_set_expanded(self', expanded')
 */

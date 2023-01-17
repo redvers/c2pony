@@ -2,7 +2,7 @@
 use "lib:glib-2.0"
 
 // Static Functions
-// use @g_timer_new[Pointer[GTimerT]]()
+// use @g_timer_new[NullablePointer[GTimerT]]()
 
 // Constructors
 

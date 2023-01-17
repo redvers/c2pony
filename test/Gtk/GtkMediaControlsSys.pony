@@ -11,16 +11,16 @@ primitive GtkMediaControlsSys
 
 // Constructors
 /* 
-fun create(stream': NullablePointer[GtkMediaStreamT]): Pointer[GtkWidgetT] =>
+fun gnew(stream': NullablePointer[GtkMediaStreamT]): NullablePointer[GtkWidgetT] =>
     @gtk_media_controls_new(stream')
 */
 
 // Methods
 /* 
-fun gtk_media_controls_get_media_stream(controls': NullablePointer[GtkMediaControlsT]): Pointer[GtkMediaStreamT] =>
+fun get_media_stream(controls': NullablePointer[GtkMediaControlsT]): NullablePointer[GtkMediaStreamT] =>
     @gtk_media_controls_get_media_stream(controls')
 */
 /* 
-fun gtk_media_controls_set_media_stream(controls': NullablePointer[GtkMediaControlsT], stream': NullablePointer[GtkMediaStreamT]): None =>
+fun set_media_stream(controls': NullablePointer[GtkMediaControlsT], stream': NullablePointer[GtkMediaStreamT]): None =>
     @gtk_media_controls_set_media_stream(controls', stream')
 */

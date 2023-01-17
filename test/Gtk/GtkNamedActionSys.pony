@@ -11,12 +11,12 @@ primitive GtkNamedActionSys
 
 // Constructors
 /* 
-fun create(name': Pointer[U8] tag): Pointer[GtkShortcutActionT] =>
+fun gnew(name': Pointer[U8] tag): NullablePointer[GtkShortcutActionT] =>
     @gtk_named_action_new(name')
 */
 
 // Methods
 /* 
-fun gtk_named_action_get_action_name(self': NullablePointer[GtkNamedActionT]): Pointer[U8] =>
+fun get_action_name(self': NullablePointer[GtkNamedActionT]): Pointer[U8] tag =>
     @gtk_named_action_get_action_name(self')
 */

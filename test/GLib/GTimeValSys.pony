@@ -12,10 +12,10 @@ fun from_iso8601(iso_date': Pointer[U8] tag, time_': NullablePointer[GTimeValT])
 
 // Methods
 /* 
-fun g_time_val_add(time_': NullablePointer[GTimeValT], microseconds': I64): None =>
+fun add(time_': NullablePointer[GTimeValT], microseconds': I64): None =>
     @g_time_val_add(time_', microseconds')
 */
 /* 
-fun g_time_val_to_iso8601(time_': NullablePointer[GTimeValT]): Pointer[U8] =>
+fun to_iso8601(time_': NullablePointer[GTimeValT]): Pointer[U8] tag =>
     @g_time_val_to_iso8601(time_')
 */

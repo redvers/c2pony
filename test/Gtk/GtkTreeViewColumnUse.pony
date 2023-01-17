@@ -9,9 +9,9 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_tree_view_column_new[Pointer[GtkTreeViewColumnT]]()
-// use @gtk_tree_view_column_new_with_area[Pointer[GtkTreeViewColumnT]](area': NullablePointer[GtkCellAreaT])
-// use @gtk_tree_view_column_new_with_attributes[Pointer[GtkTreeViewColumnT]](title': Pointer[U8] tag, cell': NullablePointer[GtkCellRendererT], ...)
+// use @gtk_tree_view_column_new[NullablePointer[GtkTreeViewColumnT]]()
+// use @gtk_tree_view_column_new_with_area[NullablePointer[GtkTreeViewColumnT]](area': NullablePointer[GtkCellAreaT])
+// use @gtk_tree_view_column_new_with_attributes[NullablePointer[GtkTreeViewColumnT]](title': Pointer[U8] tag, cell': NullablePointer[GtkCellRendererT], ...)
 
 // Methods
 // use @gtk_tree_view_column_add_attribute[None](tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT], attribute': Pointer[U8] tag, column': I32)
@@ -24,7 +24,7 @@ use "lib:gtk-4"
 // use @gtk_tree_view_column_clicked[None](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_focus_cell[None](tree_column': NullablePointer[GtkTreeViewColumnT], cell': NullablePointer[GtkCellRendererT])
 // use @gtk_tree_view_column_get_alignment[F32](tree_column': NullablePointer[GtkTreeViewColumnT])
-// use @gtk_tree_view_column_get_button[Pointer[GtkWidgetT]](tree_column': NullablePointer[GtkTreeViewColumnT])
+// use @gtk_tree_view_column_get_button[NullablePointer[GtkWidgetT]](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_get_clickable[I32](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_get_expand[I32](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_get_fixed_width[I32](tree_column': NullablePointer[GtkTreeViewColumnT])
@@ -37,10 +37,10 @@ use "lib:gtk-4"
 // use @gtk_tree_view_column_get_sort_indicator[I32](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_get_sort_order[U32](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_get_spacing[I32](tree_column': NullablePointer[GtkTreeViewColumnT])
-// use @gtk_tree_view_column_get_title[Pointer[U8]](tree_column': NullablePointer[GtkTreeViewColumnT])
-// use @gtk_tree_view_column_get_tree_view[Pointer[GtkWidgetT]](tree_column': NullablePointer[GtkTreeViewColumnT])
+// use @gtk_tree_view_column_get_title[Pointer[U8] tag](tree_column': NullablePointer[GtkTreeViewColumnT])
+// use @gtk_tree_view_column_get_tree_view[NullablePointer[GtkWidgetT]](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_get_visible[I32](tree_column': NullablePointer[GtkTreeViewColumnT])
-// use @gtk_tree_view_column_get_widget[Pointer[GtkWidgetT]](tree_column': NullablePointer[GtkTreeViewColumnT])
+// use @gtk_tree_view_column_get_widget[NullablePointer[GtkWidgetT]](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_get_width[I32](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_get_x_offset[I32](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_pack_end[None](tree_column': NullablePointer[GtkTreeViewColumnT], cell': NullablePointer[GtkCellRendererT], expand': I32)

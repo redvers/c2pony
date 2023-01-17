@@ -12,7 +12,7 @@ fun exit(retval': Pointer[None] tag): None =>
     @g_thread_exit(retval')
 */
 /* 
-fun self(): Pointer[GThreadT] =>
+fun self(): NullablePointer[GThreadT] =>
     @g_thread_self()
 */
 /* 
@@ -24,14 +24,14 @@ fun yield(): None =>
 
 // Methods
 /* 
-fun g_thread_join(thread': NullablePointer[GThreadT]): Pointer[None] =>
+fun join(thread': NullablePointer[GThreadT]): Pointer[None] tag =>
     @g_thread_join(thread')
 */
 /* 
-fun g_thread_ref(thread': NullablePointer[GThreadT]): Pointer[GThreadT] =>
+fun ref(thread': NullablePointer[GThreadT]): NullablePointer[GThreadT] =>
     @g_thread_ref(thread')
 */
 /* 
-fun g_thread_unref(thread': NullablePointer[GThreadT]): None =>
+fun unref(thread': NullablePointer[GThreadT]): None =>
     @g_thread_unref(thread')
 */

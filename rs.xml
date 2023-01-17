@@ -1834,7 +1834,7 @@ use "lib:glib-2.0"
                          ponyname="insert_vals"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_array_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_array_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_array_prepend_vals"
                          ponyname="prepend_vals"
                          render="0"
@@ -1971,7 +1971,7 @@ use "lib:glib-2.0"
                        ponyname="unref_and_unlock"
                        render="0"
                        deprecated="1"/>
-         <renderfunction name="g_async_queue_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_async_queue_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_async_queue_new_full"
                          ponyname="new_full"
                          render="0"
@@ -2167,7 +2167,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
          <renderfunction name="g_bookmark_file_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
@@ -2184,7 +2184,7 @@ use "lib:glib-2.0"
                          ponyname="free_to_bytes"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_byte_array_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_byte_array_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_byte_array_new_take"
                          ponyname="new_take"
                          render="0"
@@ -2232,7 +2232,7 @@ use "lib:glib-2.0"
                          deprecated=""/>
       </renderstruct>
       <renderstruct name="GBytes" render="0">
-         <renderconstructor name="g_bytes_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_bytes_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_bytes_new_static"
                             ponyname="new_static"
                             render="0"
@@ -2275,7 +2275,7 @@ use "lib:glib-2.0"
                        deprecated=""/>
       </renderstruct>
       <renderstruct name="GChecksum" render="0">
-         <renderconstructor name="g_checksum_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_checksum_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_checksum_copy" ponyname="copy" render="0" deprecated=""/>
          <rendermethod name="g_checksum_free" ponyname="free" render="0" deprecated=""/>
          <rendermethod name="g_checksum_get_digest"
@@ -2315,7 +2315,7 @@ use "lib:glib-2.0"
       </renderstruct>
       <renderstruct name="GData" render="1"/>
       <renderstruct name="GDate" render="0">
-         <renderconstructor name="g_date_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_date_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_date_new_dmy"
                             ponyname="new_dmy"
                             render="0"
@@ -2492,7 +2492,7 @@ use "lib:glib-2.0"
                          deprecated=""/>
       </renderstruct>
       <renderstruct name="GDateTime" render="0">
-         <renderconstructor name="g_date_time_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_date_time_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_date_time_new_from_iso8601"
                             ponyname="new_from_iso8601"
                             render="0"
@@ -2696,7 +2696,7 @@ use "lib:glib-2.0"
          <renderfunction name="g_dir_open" ponyname="open" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GError" render="1">
-         <renderconstructor name="g_error_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_error_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_error_new_literal"
                             ponyname="new_literal"
                             render="0"
@@ -2762,7 +2762,7 @@ use "lib:glib-2.0"
                          ponyname="lookup_extended"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_hash_table_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_hash_table_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_hash_table_new_full"
                          ponyname="new_full"
                          render="0"
@@ -2840,7 +2840,7 @@ use "lib:glib-2.0"
          <rendermethod name="g_hmac_ref" ponyname="ref" render="0" deprecated=""/>
          <rendermethod name="g_hmac_unref" ponyname="unref" render="0" deprecated=""/>
          <rendermethod name="g_hmac_update" ponyname="update" render="0" deprecated=""/>
-         <renderfunction name="g_hmac_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_hmac_new" ponyname="gnew" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GHook" render="0">
          <rendermethod name="g_hook_compare_ids"
@@ -3063,7 +3063,7 @@ use "lib:glib-2.0"
       </renderstruct>
       <renderstruct name="GIOFuncs" render="0"/>
       <renderstruct name="GKeyFile" render="0">
-         <renderconstructor name="g_key_file_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_key_file_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_key_file_free" ponyname="free" render="0" deprecated=""/>
          <rendermethod name="g_key_file_get_boolean"
                        ponyname="get_boolean"
@@ -3343,7 +3343,7 @@ use "lib:glib-2.0"
       <renderstruct name="GLogField" render="0"/>
       <renderstruct name="GMainContext" render="0">
          <renderconstructor name="g_main_context_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_main_context_acquire"
@@ -3456,7 +3456,7 @@ use "lib:glib-2.0"
                          deprecated=""/>
       </renderstruct>
       <renderstruct name="GMainLoop" render="0">
-         <renderconstructor name="g_main_loop_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_main_loop_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_main_loop_get_context"
                        ponyname="get_context"
                        render="0"
@@ -3474,7 +3474,7 @@ use "lib:glib-2.0"
                        deprecated=""/>
       </renderstruct>
       <renderstruct name="GMappedFile" render="0">
-         <renderconstructor name="g_mapped_file_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_mapped_file_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_mapped_file_new_from_fd"
                             ponyname="new_from_fd"
                             render="0"
@@ -3503,7 +3503,7 @@ use "lib:glib-2.0"
       </renderstruct>
       <renderstruct name="GMarkupParseContext" render="0">
          <renderconstructor name="g_markup_parse_context_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_markup_parse_context_end_parse"
@@ -3698,7 +3698,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_node_unlink" ponyname="unlink" render="0" deprecated=""/>
-         <renderfunction name="g_node_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_node_new" ponyname="gnew" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GOnce" render="0">
          <rendermethod name="g_once_impl" ponyname="impl" render="0" deprecated=""/>
@@ -3793,14 +3793,14 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_option_context_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
       <renderstruct name="GOptionEntry" render="0"/>
       <renderstruct name="GOptionGroup" render="0">
          <renderconstructor name="g_option_group_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_option_group_add_entries"
@@ -3846,7 +3846,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_pattern_spec_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
@@ -3884,7 +3884,7 @@ use "lib:glib-2.0"
                          ponyname="insert"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_ptr_array_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_ptr_array_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_ptr_array_new_full"
                          ponyname="new_full"
                          render="0"
@@ -4090,7 +4090,7 @@ use "lib:glib-2.0"
                        deprecated=""/>
          <rendermethod name="g_queue_sort" ponyname="sort" render="0" deprecated=""/>
          <rendermethod name="g_queue_unlink" ponyname="unlink" render="0" deprecated=""/>
-         <renderfunction name="g_queue_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_queue_new" ponyname="gnew" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GRWLock" render="0">
          <rendermethod name="g_rw_lock_clear" ponyname="clear" render="0" deprecated=""/>
@@ -4141,7 +4141,7 @@ use "lib:glib-2.0"
                        ponyname="set_seed_array"
                        render="0"
                        deprecated=""/>
-         <renderfunction name="g_rand_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_rand_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_rand_new_with_seed"
                          ponyname="new_with_seed"
                          render="0"
@@ -4168,7 +4168,7 @@ use "lib:glib-2.0"
                        deprecated=""/>
       </renderstruct>
       <renderstruct name="GRegex" render="0">
-         <renderconstructor name="g_regex_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_regex_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_regex_get_capture_count"
                        ponyname="get_capture_count"
                        render="0"
@@ -4406,7 +4406,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_scanner_warn" ponyname="warn" render="0" deprecated=""/>
-         <renderfunction name="g_scanner_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_scanner_new" ponyname="gnew" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GScannerConfig" render="0"/>
       <renderstruct name="GSequence" render="0">
@@ -4486,7 +4486,7 @@ use "lib:glib-2.0"
                          ponyname="move_range"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_sequence_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_sequence_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_sequence_range_get_midpoint"
                          ponyname="range_get_midpoint"
                          render="0"
@@ -4545,7 +4545,7 @@ use "lib:glib-2.0"
                        deprecated=""/>
       </renderstruct>
       <renderstruct name="GSource" render="0">
-         <renderconstructor name="g_source_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_source_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_source_add_child_source"
                        ponyname="add_child_source"
                        render="0"
@@ -4807,7 +4807,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_string_chunk_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
@@ -4827,7 +4827,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_test_log_buffer_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
@@ -4845,7 +4845,7 @@ use "lib:glib-2.0"
                        deprecated=""/>
       </renderstruct>
       <renderstruct name="GThread" render="0">
-         <renderconstructor name="g_thread_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_thread_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_thread_try_new"
                             ponyname="try_new"
                             render="0"
@@ -4906,7 +4906,7 @@ use "lib:glib-2.0"
                          ponyname="get_num_unused_threads"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_thread_pool_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_thread_pool_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_thread_pool_set_max_idle_time"
                          ponyname="set_max_idle_time"
                          render="0"
@@ -4932,7 +4932,7 @@ use "lib:glib-2.0"
                          deprecated="1"/>
       </renderstruct>
       <renderstruct name="GTimeZone" render="0">
-         <renderconstructor name="g_time_zone_new" ponyname="create" render="0" deprecated="1"/>
+         <renderconstructor name="g_time_zone_new" ponyname="gnew" render="0" deprecated="1"/>
          <renderconstructor name="g_time_zone_new_local"
                             ponyname="new_local"
                             render="0"
@@ -4995,7 +4995,7 @@ use "lib:glib-2.0"
          <rendermethod name="g_timer_reset" ponyname="reset" render="0" deprecated=""/>
          <rendermethod name="g_timer_start" ponyname="start" render="0" deprecated=""/>
          <rendermethod name="g_timer_stop" ponyname="stop" render="0" deprecated=""/>
-         <renderfunction name="g_timer_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_timer_new" ponyname="gnew" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GTrashStack" render="0">
          <renderfunction name="g_trash_stack_height"
@@ -5045,7 +5045,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated="1"/>
          <rendermethod name="g_tree_unref" ponyname="unref" render="0" deprecated=""/>
-         <renderfunction name="g_tree_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_tree_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_tree_new_full"
                          ponyname="new_full"
                          render="0"
@@ -5194,7 +5194,7 @@ use "lib:glib-2.0"
                        deprecated=""/>
       </renderstruct>
       <renderstruct name="GVariant" render="0">
-         <renderconstructor name="g_variant_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_variant_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_variant_new_array"
                             ponyname="new_array"
                             render="0"
@@ -5534,7 +5534,7 @@ use "lib:glib-2.0"
       </renderstruct>
       <renderstruct name="GVariantBuilder" render="0">
          <renderconstructor name="g_variant_builder_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_variant_builder_add"
@@ -5580,7 +5580,7 @@ use "lib:glib-2.0"
       </renderstruct>
       <renderstruct name="GVariantDict" render="0">
          <renderconstructor name="g_variant_dict_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_variant_dict_clear"
@@ -5660,7 +5660,7 @@ use "lib:glib-2.0"
       </renderstruct>
       <renderstruct name="GVariantType" render="0">
          <renderconstructor name="g_variant_type_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_variant_type_new_array"
@@ -6050,7 +6050,7 @@ use "lib:gio-2.0"
                       deprecated=""/>
       <renderfunction name="g_resources_register"
                       ponyname="resources_register"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_resources_unregister"
                       ponyname="resources_unregister"
@@ -6335,7 +6335,7 @@ use "lib:gio-2.0"
       <renderstruct name="GFileAttributeInfo" render="0"/>
       <renderstruct name="GFileAttributeInfoList" render="0">
          <renderconstructor name="g_file_attribute_info_list_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_file_attribute_info_list_add"
@@ -6361,7 +6361,7 @@ use "lib:gio-2.0"
       </renderstruct>
       <renderstruct name="GFileAttributeMatcher" render="0">
          <renderconstructor name="g_file_attribute_matcher_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_file_attribute_matcher_enumerate_namespace"
@@ -6473,7 +6473,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_io_module_scope_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
@@ -6551,7 +6551,7 @@ use "lib:gio-2.0"
                             deprecated=""/>
          <rendermethod name="g_resources_register"
                        ponyname="_register"
-                       render="1"
+                       render="0"
                        deprecated=""/>
          <rendermethod name="g_resources_unregister"
                        ponyname="_unregister"
@@ -6704,7 +6704,7 @@ use "lib:gio-2.0"
       <renderstruct name="GSocketServiceClass" render="0"/>
       <renderstruct name="GSocketServicePrivate" render="0"/>
       <renderstruct name="GSrvTarget" render="0">
-         <renderconstructor name="g_srv_target_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_srv_target_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_srv_target_copy"
                        ponyname="copy"
                        render="0"
@@ -6871,7 +6871,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_app_launch_context_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_app_launch_context_get_display"
@@ -6905,7 +6905,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_application_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_application_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_application_activate"
                        ponyname="activate"
                        render="0"
@@ -6986,7 +6986,7 @@ use "lib:gio-2.0"
                        ponyname="release"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_application_run" ponyname="run" render="0" deprecated=""/>
+         <rendermethod name="g_application_run" ponyname="run" render="1" deprecated=""/>
          <rendermethod name="g_application_send_notification"
                        ponyname="send_notification"
                        render="0"
@@ -7114,7 +7114,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_buffered_input_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_buffered_input_stream_new_sized"
@@ -7165,7 +7165,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_buffered_output_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_buffered_output_stream_new_sized"
@@ -7195,7 +7195,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_bytes_icon_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_bytes_icon_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_bytes_icon_get_bytes"
                        ponyname="get_bytes"
                        render="0"
@@ -7207,7 +7207,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_cancellable_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_cancellable_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_cancellable_cancel"
                        ponyname="cancel"
                        render="0"
@@ -7268,7 +7268,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_charset_converter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_charset_converter_get_num_fallbacks"
@@ -7291,7 +7291,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_converter_input_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_converter_input_stream_get_converter"
@@ -7306,7 +7306,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_converter_output_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_converter_output_stream_get_converter"
@@ -7320,7 +7320,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_credentials_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_credentials_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_credentials_get_native"
                        ponyname="get_native"
                        render="0"
@@ -7368,7 +7368,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_dbus_auth_observer_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_dbus_auth_observer_allow_mechanism"
@@ -7567,7 +7567,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_dbus_connection_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
          <renderfunction name="g_dbus_connection_new_for_address"
@@ -7652,7 +7652,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_dbus_message_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_dbus_message_new_from_blob"
@@ -7966,7 +7966,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_dbus_object_manager_client_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
          <renderfunction name="g_dbus_object_manager_client_new_for_bus"
@@ -7981,7 +7981,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_dbus_object_manager_server_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_dbus_object_manager_server_export"
@@ -8016,7 +8016,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_dbus_object_proxy_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_dbus_object_proxy_get_connection"
@@ -8031,7 +8031,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_dbus_object_skeleton_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_dbus_object_skeleton_add_interface"
@@ -8153,7 +8153,7 @@ use "lib:gio-2.0"
                        ponyname="set_interface_info"
                        render="0"
                        deprecated=""/>
-         <renderfunction name="g_dbus_proxy_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_dbus_proxy_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_dbus_proxy_new_for_bus"
                          ponyname="new_for_bus"
                          render="0"
@@ -8201,7 +8201,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_data_input_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_data_input_stream_get_byte_order"
@@ -8300,7 +8300,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_data_output_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_data_output_stream_get_byte_order"
@@ -8351,7 +8351,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_desktop_app_info_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_desktop_app_info_new_from_filename"
@@ -8453,7 +8453,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_emblem_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_emblem_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_emblem_new_with_origin"
                             ponyname="new_with_origin"
                             render="0"
@@ -8474,7 +8474,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_emblemed_icon_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_emblemed_icon_add_emblem"
@@ -8578,7 +8578,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_file_icon_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_file_icon_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_file_icon_get_file"
                        ponyname="get_file"
                        render="0"
@@ -8590,7 +8590,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_file_info_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_file_info_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_file_info_clear_status"
                        ponyname="clear_status"
                        render="0"
@@ -8917,7 +8917,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_filename_completer_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_filename_completer_get_completion_suffix"
@@ -8977,7 +8977,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_io_module_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_io_module_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_io_module_load" ponyname="load" render="0" deprecated=""/>
          <rendermethod name="g_io_module_unload"
                        ponyname="unload"
@@ -9129,7 +9129,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_inet_address_mask_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_inet_address_mask_new_from_string"
@@ -9168,7 +9168,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_inet_socket_address_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_inet_socket_address_new_from_string"
@@ -9281,7 +9281,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_list_store_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_list_store_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_list_store_append"
                        ponyname="append"
                        render="0"
@@ -9326,7 +9326,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_memory_input_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_memory_input_stream_new_from_bytes"
@@ -9353,7 +9353,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_memory_output_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_memory_output_stream_new_resizable"
@@ -9387,7 +9387,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_menu_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_menu_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_menu_append" ponyname="append" render="0" deprecated=""/>
          <rendermethod name="g_menu_append_item"
                        ponyname="append_item"
@@ -9466,7 +9466,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_menu_item_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_menu_item_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_menu_item_new_from_model"
                             ponyname="new_from_model"
                             render="0"
@@ -9601,7 +9601,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_mount_operation_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_mount_operation_get_anonymous"
@@ -9688,7 +9688,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_native_socket_address_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -9705,7 +9705,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_network_address_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_network_address_new_loopback"
@@ -9740,7 +9740,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_network_service_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_network_service_get_domain"
@@ -9771,7 +9771,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_notification_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_notification_add_button"
@@ -10004,7 +10004,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_property_action_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -10015,7 +10015,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_proxy_address_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_proxy_address_get_destination_hostname"
@@ -10142,7 +10142,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_settings_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_settings_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_settings_new_full"
                             ponyname="new_full"
                             render="0"
@@ -10378,7 +10378,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_simple_action_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_simple_action_new_stateful"
@@ -10405,7 +10405,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_simple_action_group_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_simple_action_group_add_entries"
@@ -10432,7 +10432,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_simple_async_result_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated="1"/>
          <renderconstructor name="g_simple_async_result_new_error"
@@ -10527,7 +10527,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_simple_io_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -10538,7 +10538,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_simple_permission_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -10561,7 +10561,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_simple_proxy_resolver_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderclass>
@@ -10571,7 +10571,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_socket_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_socket_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_socket_new_from_fd"
                             ponyname="new_from_fd"
                             render="0"
@@ -10841,7 +10841,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_socket_client_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_socket_client_add_application_proxy"
@@ -11046,7 +11046,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_socket_listener_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_socket_listener_accept"
@@ -11105,7 +11105,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_socket_service_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_socket_service_is_active"
@@ -11127,7 +11127,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_subprocess_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_subprocess_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_subprocess_newv"
                             ponyname="newv"
                             render="0"
@@ -11236,7 +11236,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_subprocess_launcher_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_subprocess_launcher_getenv"
@@ -11310,7 +11310,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_task_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_task_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_task_attach_source"
                        ponyname="attach_source"
                        render="0"
@@ -11470,7 +11470,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_tcp_wrapper_connection_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_tcp_wrapper_connection_get_base_io_stream"
@@ -11484,7 +11484,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_test_dbus_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_test_dbus_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_test_dbus_add_service_dir"
                        ponyname="add_service_dir"
                        render="0"
@@ -11511,7 +11511,7 @@ use "lib:gio-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_themed_icon_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_themed_icon_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_themed_icon_new_from_names"
                             ponyname="new_from_names"
                             render="0"
@@ -11540,7 +11540,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_threaded_socket_service_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -11775,7 +11775,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_tls_password_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_tls_password_get_description"
@@ -11861,7 +11861,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_unix_credentials_message_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_unix_credentials_message_new_with_credentials"
@@ -11884,7 +11884,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_unix_fd_list_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_unix_fd_list_new_from_array"
@@ -11919,7 +11919,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_unix_fd_message_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_unix_fd_message_new_with_fd_list"
@@ -11946,7 +11946,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_unix_input_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_unix_input_stream_get_close_fd"
@@ -11969,7 +11969,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_unix_mount_monitor_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated="1"/>
          <rendermethod name="g_unix_mount_monitor_set_rate_limit"
@@ -11988,7 +11988,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_unix_output_stream_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_unix_output_stream_get_close_fd"
@@ -12011,7 +12011,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_unix_socket_address_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="g_unix_socket_address_new_abstract"
@@ -12128,7 +12128,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_zlib_compressor_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_zlib_compressor_get_file_info"
@@ -12147,7 +12147,7 @@ use "lib:gio-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="g_zlib_decompressor_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_zlib_decompressor_get_file_info"
@@ -12679,7 +12679,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_dtls_client_connection_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderinterface>
@@ -12787,7 +12787,7 @@ use "lib:gio-2.0"
       </renderinterface>
       <renderinterface name="GDtlsServerConnection" render="0">
          <renderfunction name="g_dtls_server_connection_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderinterface>
@@ -12817,7 +12817,7 @@ use "lib:gio-2.0"
                        ponyname="copy_finish"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_file_create" ponyname="create" render="0" deprecated=""/>
+         <rendermethod name="g_file_create" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="g_file_create_async"
                        ponyname="create_async"
                        render="0"
@@ -13318,7 +13318,7 @@ use "lib:gio-2.0"
       </renderinterface>
       <renderinterface name="GInitable" render="0">
          <rendermethod name="g_initable_init" ponyname="init" render="0" deprecated=""/>
-         <renderfunction name="g_initable_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_initable_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_initable_new_valist"
                          ponyname="new_valist"
                          render="0"
@@ -13705,19 +13705,19 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_tls_client_connection_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderinterface>
       <renderinterface name="GTlsFileDatabase" render="0">
          <renderfunction name="g_tls_file_database_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderinterface>
       <renderinterface name="GTlsServerConnection" render="0">
          <renderfunction name="g_tls_server_connection_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderinterface>
@@ -14053,7 +14053,7 @@ use "lib:gobject-2.0"
                       deprecated=""/>
       <renderfunction name="g_signal_connect_data"
                       ponyname="signal_connect_data"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_connect_object"
                       ponyname="signal_connect_object"
@@ -14574,7 +14574,7 @@ use "lib:gobject-2.0"
                          ponyname="marshal_generic_va"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_cclosure_new" ponyname="create" render="0" deprecated=""/>
+         <renderfunction name="g_cclosure_new" ponyname="gnew" render="0" deprecated=""/>
          <renderfunction name="g_cclosure_new_object"
                          ponyname="new_object"
                          render="0"
@@ -14690,7 +14690,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
          <renderfunction name="g_param_spec_pool_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
@@ -15052,7 +15052,7 @@ use "lib:gobject-2.0"
       </renderstruct>
       <renderstruct name="GValueArray" render="0">
          <renderconstructor name="g_value_array_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated="1"/>
          <rendermethod name="g_value_array_append"
@@ -15144,7 +15144,7 @@ use "lib:gobject-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="g_object_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="g_object_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_object_new_valist"
                             ponyname="new_valist"
                             render="0"
@@ -15720,7 +15720,7 @@ use "lib:gobject-2.0"
                       deprecated=""/>
       <renderstruct name="GdkContentFormats" render="0">
          <renderconstructor name="gdk_content_formats_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gdk_content_formats_new_for_gtype"
@@ -15798,7 +15798,7 @@ use "lib:gobject-2.0"
       </renderstruct>
       <renderstruct name="GdkContentFormatsBuilder" render="0">
          <renderconstructor name="gdk_content_formats_builder_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gdk_content_formats_builder_add_formats"
@@ -15884,7 +15884,7 @@ use "lib:gobject-2.0"
       <renderstruct name="GdkPopupInterface" render="0"/>
       <renderstruct name="GdkPopupLayout" render="0">
          <renderconstructor name="gdk_popup_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gdk_popup_layout_copy"
@@ -15996,7 +15996,7 @@ use "lib:gobject-2.0"
       <renderstruct name="GdkToplevelInterface" render="0"/>
       <renderstruct name="GdkToplevelLayout" render="0">
          <renderconstructor name="gdk_toplevel_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gdk_toplevel_layout_copy"
@@ -17021,7 +17021,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="gdk_gl_texture_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gdk_gl_texture_release"
@@ -17090,7 +17090,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="gdk_memory_texture_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -17674,7 +17674,7 @@ use "lib:gobject-2.0"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gdk_pixbuf_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gdk_pixbuf_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gdk_pixbuf_new_from_bytes"
                             ponyname="new_from_bytes"
                             render="0"
@@ -18002,7 +18002,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="gdk_pixbuf_loader_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gdk_pixbuf_loader_new_with_mime_type"
@@ -18049,7 +18049,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="gdk_pixbuf_non_anim_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -18060,7 +18060,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="gdk_pixbuf_simple_anim_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gdk_pixbuf_simple_anim_add_frame"
@@ -19677,7 +19677,7 @@ use "lib:gobject-2.0"
       </renderstruct>
       <renderstruct name="GskShaderArgsBuilder" render="0">
          <renderconstructor name="gsk_shader_args_builder_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_shader_args_builder_free_to_args"
@@ -19727,7 +19727,7 @@ use "lib:gobject-2.0"
       </renderstruct>
       <renderstruct name="GskShadow" render="0"/>
       <renderstruct name="GskTransform" render="0">
-         <renderconstructor name="gsk_transform_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gsk_transform_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gsk_transform_equal"
                        ponyname="equal"
                        render="0"
@@ -19833,7 +19833,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_blend_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_blend_node_get_blend_mode"
@@ -19855,7 +19855,7 @@ use "lib:gobject-2.0"
                    abstract=""
                    final=""
                    fundamental="1">
-         <renderconstructor name="gsk_blur_node_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gsk_blur_node_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gsk_blur_node_get_child"
                        ponyname="get_child"
                        render="0"
@@ -19872,7 +19872,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_border_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_border_node_get_colors"
@@ -19895,7 +19895,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="gsk_broadway_renderer_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -19906,7 +19906,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_cairo_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_cairo_node_get_draw_context"
@@ -19925,7 +19925,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="gsk_cairo_renderer_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -19935,7 +19935,7 @@ use "lib:gobject-2.0"
                    abstract=""
                    final=""
                    fundamental="1">
-         <renderconstructor name="gsk_clip_node_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gsk_clip_node_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gsk_clip_node_get_child"
                        ponyname="get_child"
                        render="0"
@@ -19952,7 +19952,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_color_matrix_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_color_matrix_node_get_child"
@@ -19975,7 +19975,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_color_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_color_node_get_color"
@@ -19990,7 +19990,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_conic_gradient_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_conic_gradient_node_get_angle"
@@ -20021,7 +20021,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_container_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_container_node_get_child"
@@ -20040,7 +20040,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_cross_fade_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_cross_fade_node_get_end_child"
@@ -20063,7 +20063,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_debug_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_debug_node_get_child"
@@ -20082,7 +20082,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="gsk_gl_renderer_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -20184,7 +20184,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_gl_shader_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_gl_shader_node_get_args"
@@ -20211,7 +20211,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_inset_shadow_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_inset_shadow_node_get_blur_radius"
@@ -20246,7 +20246,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_linear_gradient_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_linear_gradient_node_get_color_stops"
@@ -20273,7 +20273,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="">
          <renderconstructor name="gsk_ngl_renderer_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated="1"/>
       </renderclass>
@@ -20284,7 +20284,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_opacity_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_opacity_node_get_child"
@@ -20303,7 +20303,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_outset_shadow_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_outset_shadow_node_get_blur_radius"
@@ -20338,7 +20338,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_radial_gradient_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_radial_gradient_node_get_center"
@@ -20451,7 +20451,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_repeat_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_repeat_node_get_child"
@@ -20470,7 +20470,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_repeating_linear_gradient_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -20481,7 +20481,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_repeating_radial_gradient_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -20492,7 +20492,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_rounded_clip_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_rounded_clip_node_get_child"
@@ -20511,7 +20511,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_shadow_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_shadow_node_get_child"
@@ -20533,7 +20533,7 @@ use "lib:gobject-2.0"
                    abstract=""
                    final=""
                    fundamental="1">
-         <renderconstructor name="gsk_text_node_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gsk_text_node_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gsk_text_node_get_color"
                        ponyname="get_color"
                        render="0"
@@ -20566,7 +20566,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_texture_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_texture_node_get_texture"
@@ -20581,7 +20581,7 @@ use "lib:gobject-2.0"
                    final=""
                    fundamental="1">
          <renderconstructor name="gsk_transform_node_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gsk_transform_node_get_child"
@@ -21009,7 +21009,7 @@ use "lib:gtk-4"
       <renderstruct name="GtkBookmarkListClass" render="0"/>
       <renderstruct name="GtkBoolFilterClass" render="0"/>
       <renderstruct name="GtkBorder" render="0">
-         <renderconstructor name="gtk_border_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_border_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_border_copy" ponyname="copy" render="0" deprecated=""/>
          <rendermethod name="gtk_border_free" ponyname="free" render="0" deprecated=""/>
       </renderstruct>
@@ -21085,7 +21085,7 @@ use "lib:gtk-4"
       <renderstruct name="GtkCssProviderPrivate" render="0"/>
       <renderstruct name="GtkCssSection" render="0">
          <renderconstructor name="gtk_css_section_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_css_section_get_end_location"
@@ -21231,7 +21231,7 @@ use "lib:gtk-4"
       <renderstruct name="GtkPageRange" render="0"/>
       <renderstruct name="GtkPaperSize" render="0">
          <renderconstructor name="gtk_paper_size_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_paper_size_new_custom"
@@ -21444,7 +21444,7 @@ use "lib:gtk-4"
       <renderstruct name="GtkRequestedSize" render="0"/>
       <renderstruct name="GtkRequisition" render="0">
          <renderconstructor name="gtk_requisition_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_requisition_copy"
@@ -21877,7 +21877,7 @@ use "lib:gtk-4"
       <renderstruct name="GtkTreeModelSortClass" render="0"/>
       <renderstruct name="GtkTreeModelSortPrivate" render="0"/>
       <renderstruct name="GtkTreePath" render="0">
-         <renderconstructor name="gtk_tree_path_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_tree_path_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_tree_path_new_first"
                             ponyname="new_first"
                             render="0"
@@ -21954,7 +21954,7 @@ use "lib:gtk-4"
       </renderstruct>
       <renderstruct name="GtkTreeRowReference" render="0">
          <renderconstructor name="gtk_tree_row_reference_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_tree_row_reference_new_proxy"
@@ -22100,7 +22100,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_at_context_create"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_at_context_get_accessible"
@@ -22119,7 +22119,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_about_dialog_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_about_dialog_add_credit_section"
@@ -22262,7 +22262,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_action_bar_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_action_bar_get_center_widget"
@@ -22312,7 +22312,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_adjustment_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_adjustment_clamp_page"
@@ -22383,7 +22383,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_alternative_trigger_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_alternative_trigger_get_first"
@@ -22402,7 +22402,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_any_filter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -22413,7 +22413,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_app_chooser_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_app_chooser_button_append_custom_item"
@@ -22468,7 +22468,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_app_chooser_dialog_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_app_chooser_dialog_new_for_content_type"
@@ -22495,7 +22495,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_app_chooser_widget_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_app_chooser_widget_get_default_text"
@@ -22554,7 +22554,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_application_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="1"
                             deprecated=""/>
          <rendermethod name="gtk_application_add_window"
@@ -22621,7 +22621,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_application_window_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_application_window_get_help_overlay"
@@ -22652,7 +22652,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_aspect_frame_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_aspect_frame_get_child"
@@ -22702,7 +22702,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_assistant_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_assistant_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_assistant_add_action_widget"
                        ponyname="add_action_widget"
                        render="0"
@@ -22814,7 +22814,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_bin_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -22825,7 +22825,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_bookmark_list_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_bookmark_list_get_attributes"
@@ -22860,7 +22860,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_bool_filter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_bool_filter_get_expression"
@@ -22886,7 +22886,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_box_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_box_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_box_append" ponyname="append" render="0" deprecated=""/>
          <rendermethod name="gtk_box_get_baseline_position"
                        ponyname="get_baseline_position"
@@ -22933,7 +22933,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_box_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_box_layout_get_baseline_position"
@@ -22967,7 +22967,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_builder_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_builder_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_builder_new_from_file"
                             ponyname="new_from_file"
                             render="0"
@@ -23068,7 +23068,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_builder_cscope_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_builder_cscope_add_callback_symbol"
@@ -23117,7 +23117,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_button_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_button_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_button_new_from_icon_name"
                             ponyname="new_from_icon_name"
                             render="0"
@@ -23178,7 +23178,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="1">
          <renderconstructor name="gtk_cclosure_expression_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23188,7 +23188,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_calendar_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_calendar_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_calendar_clear_marks"
                        ponyname="clear_marks"
                        render="0"
@@ -23245,7 +23245,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_callback_action_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23436,7 +23436,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_cell_area_box_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_cell_area_box_get_spacing"
@@ -23625,7 +23625,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_cell_renderer_accel_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23636,7 +23636,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_cell_renderer_combo_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23647,7 +23647,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_cell_renderer_pixbuf_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23658,7 +23658,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_cell_renderer_progress_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23669,7 +23669,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_cell_renderer_spin_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23680,7 +23680,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_cell_renderer_spinner_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23691,7 +23691,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_cell_renderer_text_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_cell_renderer_text_set_fixed_height_from_font"
@@ -23706,7 +23706,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_cell_renderer_toggle_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_cell_renderer_toggle_get_activatable"
@@ -23740,7 +23740,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_cell_view_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_cell_view_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_cell_view_new_with_context"
                             ponyname="new_with_context"
                             render="0"
@@ -23797,7 +23797,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_center_box_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_center_box_get_baseline_position"
@@ -23840,7 +23840,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_center_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_center_layout_get_baseline_position"
@@ -23891,7 +23891,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_check_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_check_button_new_with_label"
@@ -23946,7 +23946,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="1">
          <renderconstructor name="gtk_closure_expression_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23957,7 +23957,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_color_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_color_button_new_with_rgba"
@@ -23988,7 +23988,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_color_chooser_dialog_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -23999,7 +23999,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_color_chooser_widget_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -24010,7 +24010,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_column_view_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_column_view_append_column"
@@ -24093,7 +24093,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_column_view_column_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_column_view_column_get_column_view"
@@ -24171,7 +24171,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_combo_box_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_combo_box_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_combo_box_new_with_entry"
                             ponyname="new_with_entry"
                             render="0"
@@ -24288,7 +24288,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_combo_box_text_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_combo_box_text_new_with_entry"
@@ -24339,7 +24339,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="1">
          <renderconstructor name="gtk_constant_expression_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_constant_expression_new_for_value"
@@ -24358,7 +24358,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_constraint_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_constraint_new_constant"
@@ -24417,7 +24417,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_constraint_guide_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_constraint_guide_get_max_size"
@@ -24468,7 +24468,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_constraint_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_constraint_layout_add_constraint"
@@ -24521,7 +24521,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_css_provider_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_css_provider_load_from_data"
@@ -24556,7 +24556,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_custom_filter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_custom_filter_set_filter_func"
@@ -24571,7 +24571,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_custom_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -24582,7 +24582,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_custom_sorter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_custom_sorter_set_sort_func"
@@ -24596,7 +24596,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_dialog_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_dialog_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_dialog_new_with_buttons"
                             ponyname="new_with_buttons"
                             render="0"
@@ -24649,7 +24649,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_directory_list_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_directory_list_get_attributes"
@@ -24727,7 +24727,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_drag_source_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_drag_source_drag_cancel"
@@ -24766,7 +24766,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_drawing_area_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_drawing_area_get_content_height"
@@ -24797,7 +24797,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_drop_controller_motion_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_drop_controller_motion_contains_pointer"
@@ -24819,7 +24819,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_drop_down_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_drop_down_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_drop_down_new_from_strings"
                             ponyname="new_from_strings"
                             render="0"
@@ -24892,7 +24892,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_drop_target_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_drop_target_get_actions"
@@ -24947,7 +24947,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_drop_target_async_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_drop_target_async_get_actions"
@@ -24978,7 +24978,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_editable_label_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_editable_label_get_editing"
@@ -25001,7 +25001,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_emoji_chooser_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -25011,7 +25011,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_entry_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_entry_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_entry_new_with_buffer"
                             ponyname="new_with_buffer"
                             render="0"
@@ -25256,7 +25256,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_entry_buffer_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_entry_buffer_delete_text"
@@ -25307,7 +25307,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_entry_completion_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_entry_completion_new_with_area"
@@ -25465,7 +25465,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_event_controller_focus_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_event_controller_focus_contains_focus"
@@ -25484,7 +25484,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_event_controller_key_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_event_controller_key_forward"
@@ -25511,7 +25511,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_event_controller_legacy_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -25522,7 +25522,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_event_controller_motion_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_event_controller_motion_contains_pointer"
@@ -25541,7 +25541,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_event_controller_scroll_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_event_controller_scroll_get_flags"
@@ -25560,7 +25560,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_every_filter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -25570,7 +25570,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_expander_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_expander_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_expander_new_with_mnemonic"
                             ponyname="new_with_mnemonic"
                             render="0"
@@ -25674,7 +25674,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_file_chooser_dialog_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -25685,7 +25685,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_file_chooser_native_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_file_chooser_native_get_accept_label"
@@ -25712,7 +25712,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_file_chooser_widget_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -25723,7 +25723,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_file_filter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_file_filter_new_from_gvariant"
@@ -25789,7 +25789,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_filter_list_model_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_filter_list_model_get_filter"
@@ -25827,7 +25827,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_fixed_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_fixed_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_fixed_get_child_position"
                        ponyname="get_child_position"
                        render="0"
@@ -25854,7 +25854,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_fixed_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -25880,7 +25880,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_flatten_list_model_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_flatten_list_model_get_model"
@@ -25902,7 +25902,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_flow_box_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_flow_box_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_flow_box_append"
                        ponyname="append"
                        render="0"
@@ -26043,7 +26043,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_flow_box_child_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_flow_box_child_changed"
@@ -26074,7 +26074,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_font_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_font_button_new_with_font"
@@ -26121,7 +26121,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_font_chooser_dialog_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -26132,7 +26132,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_font_chooser_widget_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -26142,7 +26142,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_frame_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_frame_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_frame_get_child"
                        ponyname="get_child"
                        render="0"
@@ -26182,7 +26182,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_gl_area_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_gl_area_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_gl_area_attach_buffers"
                        ponyname="attach_buffers"
                        render="0"
@@ -26330,7 +26330,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_gesture_click_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -26341,7 +26341,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_gesture_drag_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_gesture_drag_get_offset"
@@ -26360,7 +26360,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_gesture_long_press_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_gesture_long_press_get_delay_factor"
@@ -26379,7 +26379,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_gesture_pan_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_gesture_pan_get_orientation"
@@ -26398,7 +26398,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_gesture_rotate_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_gesture_rotate_get_angle_delta"
@@ -26452,7 +26452,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_gesture_stylus_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_gesture_stylus_get_axes"
@@ -26479,7 +26479,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_gesture_swipe_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_gesture_swipe_get_velocity"
@@ -26494,7 +26494,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_gesture_zoom_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_gesture_zoom_get_scale_delta"
@@ -26508,7 +26508,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_grid_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_grid_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_grid_attach"
                        ponyname="attach"
                        render="0"
@@ -26605,7 +26605,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_grid_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_grid_layout_get_baseline_row"
@@ -26702,7 +26702,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_grid_view_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_grid_view_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_grid_view_get_enable_rubberband"
                        ponyname="get_enable_rubberband"
                        render="0"
@@ -26759,7 +26759,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_header_bar_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_header_bar_get_decoration_layout"
@@ -26869,7 +26869,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_im_context_simple_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_im_context_simple_add_compose_file"
@@ -26888,7 +26888,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_im_multicontext_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_im_multicontext_get_context_id"
@@ -26930,7 +26930,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_icon_theme_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_icon_theme_add_resource_path"
@@ -27004,7 +27004,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_icon_view_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_icon_view_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_icon_view_new_with_area"
                             ponyname="new_with_area"
                             render="0"
@@ -27260,7 +27260,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_image_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_image_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_image_new_from_file"
                             ponyname="new_from_file"
                             render="0"
@@ -27349,7 +27349,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_info_bar_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_info_bar_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_info_bar_new_with_buttons"
                             ponyname="new_with_buttons"
                             render="0"
@@ -27422,7 +27422,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_keyval_trigger_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_keyval_trigger_get_keyval"
@@ -27440,7 +27440,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_label_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_label_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_label_new_with_mnemonic"
                             ponyname="new_with_mnemonic"
                             render="0"
@@ -27686,7 +27686,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_level_bar_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_level_bar_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_level_bar_new_for_interval"
                             ponyname="new_for_interval"
                             render="0"
@@ -27751,7 +27751,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_link_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_link_button_new_with_label"
@@ -27787,7 +27787,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_list_box_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_list_box_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_list_box_append"
                        ponyname="append"
                        render="0"
@@ -27920,7 +27920,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_list_box_row_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_list_box_row_changed"
@@ -28024,7 +28024,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_list_store_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_list_store_newv"
@@ -28114,7 +28114,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_list_view_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_list_view_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_list_view_get_enable_rubberband"
                        ponyname="get_enable_rubberband"
                        render="0"
@@ -28163,7 +28163,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_lock_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_lock_button_get_permission"
@@ -28182,7 +28182,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_map_list_model_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_map_list_model_get_model"
@@ -28209,7 +28209,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_media_controls_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_media_controls_get_media_stream"
@@ -28228,7 +28228,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_media_file_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_media_file_new_for_file"
@@ -28426,7 +28426,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_menu_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_menu_button_get_always_show_arrow"
@@ -28529,7 +28529,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_message_dialog_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_message_dialog_new_with_markup"
@@ -28571,7 +28571,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_mnemonic_trigger_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_mnemonic_trigger_get_keyval"
@@ -28586,7 +28586,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_mount_operation_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_mount_operation_get_display"
@@ -28632,7 +28632,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_multi_selection_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_multi_selection_get_model"
@@ -28651,7 +28651,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_multi_sorter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_multi_sorter_append"
@@ -28670,7 +28670,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_named_action_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_named_action_get_action_name"
@@ -28743,7 +28743,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_no_selection_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_no_selection_get_model"
@@ -28761,7 +28761,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_notebook_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_notebook_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_notebook_append_page"
                        ponyname="append_page"
                        render="0"
@@ -28968,7 +28968,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_numeric_sorter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_numeric_sorter_get_expression"
@@ -28995,7 +28995,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="1">
          <renderconstructor name="gtk_object_expression_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_object_expression_get_object"
@@ -29009,7 +29009,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_overlay_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_overlay_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_overlay_add_overlay"
                        ponyname="add_overlay"
                        render="0"
@@ -29050,7 +29050,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_overlay_layout_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -29084,7 +29084,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_pad_controller_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_pad_controller_set_action"
@@ -29103,7 +29103,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_page_setup_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_page_setup_new_from_file"
@@ -29218,7 +29218,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_page_setup_unix_dialog_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_page_setup_unix_dialog_get_page_setup"
@@ -29244,7 +29244,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_paned_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_paned_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_paned_get_end_child"
                        ponyname="get_end_child"
                        render="0"
@@ -29323,7 +29323,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_password_entry_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_password_entry_get_extra_menu"
@@ -29350,7 +29350,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_password_entry_buffer_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -29360,7 +29360,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_picture_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_picture_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_picture_new_for_file"
                             ponyname="new_for_file"
                             render="0"
@@ -29440,7 +29440,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_popover_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_popover_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_popover_get_autohide"
                        ponyname="get_autohide"
                        render="0"
@@ -29637,7 +29637,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_print_job_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_print_job_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_print_job_get_collate"
                        ponyname="get_collate"
                        render="0"
@@ -29766,7 +29766,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_print_operation_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_print_operation_cancel"
@@ -29893,7 +29893,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_print_settings_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_print_settings_new_from_file"
@@ -30204,7 +30204,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_print_unix_dialog_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_print_unix_dialog_add_custom_tab"
@@ -30282,7 +30282,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_printer_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_printer_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_printer_accepts_pdf"
                        ponyname="accepts_pdf"
                        render="0"
@@ -30379,7 +30379,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_progress_bar_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_progress_bar_get_ellipsize"
@@ -30442,7 +30442,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="1">
          <renderconstructor name="gtk_property_expression_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_property_expression_new_for_pspec"
@@ -30560,7 +30560,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_recent_manager_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_recent_manager_add_full"
@@ -30606,7 +30606,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_revealer_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_revealer_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_revealer_get_child"
                        ponyname="get_child"
                        render="0"
@@ -30650,7 +30650,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_scale_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_scale_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_scale_new_with_range"
                             ponyname="new_with_range"
                             render="0"
@@ -30715,7 +30715,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_scale_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_scale_button_get_adjustment"
@@ -30757,7 +30757,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_scrollbar_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_scrollbar_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_scrollbar_get_adjustment"
                        ponyname="get_adjustment"
                        render="0"
@@ -30774,7 +30774,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_scrolled_window_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_scrolled_window_get_child"
@@ -30909,7 +30909,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_search_bar_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_search_bar_connect_entry"
@@ -30956,7 +30956,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_search_entry_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_search_entry_get_key_capture_widget"
@@ -30975,7 +30975,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_selection_filter_model_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_selection_filter_model_get_model"
@@ -30993,7 +30993,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_separator_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_separator_new" ponyname="gnew" render="0" deprecated=""/>
       </renderclass>
       <renderclass name="GtkSettings"
                    render="0"
@@ -31020,7 +31020,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_shortcut_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_shortcut_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_shortcut_new_with_arguments"
                             ponyname="new_with_arguments"
                             render="0"
@@ -31080,7 +31080,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_shortcut_controller_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_shortcut_controller_new_for_model"
@@ -31119,7 +31119,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_shortcut_label_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_shortcut_label_get_accelerator"
@@ -31213,7 +31213,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_signal_action_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_signal_action_get_signal_name"
@@ -31228,7 +31228,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_signal_list_item_factory_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -31239,7 +31239,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_single_selection_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_single_selection_get_autoselect"
@@ -31286,7 +31286,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_size_group_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_size_group_add_widget"
@@ -31317,7 +31317,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_slice_list_model_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_slice_list_model_get_model"
@@ -31351,7 +31351,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_snapshot_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_snapshot_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_snapshot_append_border"
                        ponyname="append_border"
                        render="0"
@@ -31541,7 +31541,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_sort_list_model_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_sort_list_model_get_incremental"
@@ -31599,7 +31599,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_spin_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_spin_button_new_with_range"
@@ -31709,7 +31709,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_spinner_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_spinner_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_spinner_get_spinning"
                        ponyname="get_spinning"
                        render="0"
@@ -31730,7 +31730,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_stack_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_stack_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_stack_add_child"
                        ponyname="add_child"
                        render="0"
@@ -31890,7 +31890,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_stack_sidebar_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_stack_sidebar_get_stack"
@@ -31909,7 +31909,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_stack_switcher_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_stack_switcher_get_stack"
@@ -31927,7 +31927,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_statusbar_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_statusbar_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_statusbar_get_context_id"
                        ponyname="get_context_id"
                        render="0"
@@ -31953,7 +31953,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_string_filter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_string_filter_get_expression"
@@ -31996,7 +31996,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_string_list_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_string_list_append"
@@ -32027,7 +32027,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_string_object_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_string_object_get_string"
@@ -32042,7 +32042,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_string_sorter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_string_sorter_get_expression"
@@ -32159,7 +32159,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_switch_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_switch_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_switch_get_active"
                        ponyname="get_active"
                        render="0"
@@ -32183,7 +32183,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_text_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_text_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_text_new_with_buffer"
                             ponyname="new_with_buffer"
                             render="0"
@@ -32332,7 +32332,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_text_buffer_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_text_buffer_add_mark"
@@ -32623,7 +32623,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_text_child_anchor_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_text_child_anchor_new_with_replacement"
@@ -32645,7 +32645,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_text_mark_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_text_mark_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_text_mark_get_buffer"
                        ponyname="get_buffer"
                        render="0"
@@ -32677,7 +32677,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_text_tag_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_text_tag_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_text_tag_changed"
                        ponyname="changed"
                        render="0"
@@ -32698,7 +32698,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_text_tag_table_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_text_tag_table_add"
@@ -32728,7 +32728,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_text_view_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_text_view_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_text_view_new_with_buffer"
                             ponyname="new_with_buffer"
                             render="0"
@@ -33025,7 +33025,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_toggle_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_toggle_button_new_with_label"
@@ -33095,7 +33095,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_tree_expander_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_tree_expander_get_child"
@@ -33134,7 +33134,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_tree_list_model_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_tree_list_model_get_autoexpand"
@@ -33212,7 +33212,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_tree_list_row_sorter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_tree_list_row_sorter_get_sorter"
@@ -33408,7 +33408,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_tree_store_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_tree_store_newv"
@@ -33506,7 +33506,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_tree_view_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_tree_view_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_tree_view_new_with_model"
                             ponyname="new_with_model"
                             render="0"
@@ -33875,7 +33875,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_tree_view_column_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="gtk_tree_view_column_new_with_area"
@@ -34093,7 +34093,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_video_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_video_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_video_new_for_file"
                             ponyname="new_for_file"
                             render="0"
@@ -34157,7 +34157,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_viewport_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_viewport_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_viewport_get_child"
                        ponyname="get_child"
                        render="0"
@@ -34182,7 +34182,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_volume_button_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
       </renderclass>
@@ -34832,7 +34832,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_widget_paintable_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_widget_paintable_get_widget"
@@ -34850,7 +34850,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="gtk_window_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="gtk_window_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_window_close"
                        ponyname="close"
                        render="0"
@@ -35099,7 +35099,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_window_controls_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_window_controls_get_decoration_layout"
@@ -35130,7 +35130,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_window_group_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_window_group_add_window"
@@ -35153,7 +35153,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_window_handle_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_window_handle_get_child"
@@ -37785,13 +37785,13 @@ use "lib:gtk-4"
       <renderstruct name="PangoAttrFloat" render="0"/>
       <renderstruct name="PangoAttrFontDesc" render="0">
          <renderfunction name="pango_attr_font_desc_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
       <renderstruct name="PangoAttrFontFeatures" render="0">
          <renderfunction name="pango_attr_font_features_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
@@ -37828,13 +37828,13 @@ use "lib:gtk-4"
       </renderstruct>
       <renderstruct name="PangoAttrLanguage" render="0">
          <renderfunction name="pango_attr_language_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
       </renderstruct>
       <renderstruct name="PangoAttrList" render="0">
          <renderconstructor name="pango_attr_list_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="pango_attr_list_change"
@@ -37896,7 +37896,7 @@ use "lib:gtk-4"
       </renderstruct>
       <renderstruct name="PangoAttrShape" render="0">
          <renderfunction name="pango_attr_shape_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
          <renderfunction name="pango_attr_shape_new_with_data"
@@ -37906,7 +37906,7 @@ use "lib:gtk-4"
       </renderstruct>
       <renderstruct name="PangoAttrSize" render="0">
          <renderfunction name="pango_attr_size_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
          <renderfunction name="pango_attr_size_new_absolute"
@@ -37989,7 +37989,7 @@ use "lib:gtk-4"
       <renderstruct name="PangoFontClass" render="0"/>
       <renderstruct name="PangoFontDescription" render="0">
          <renderconstructor name="pango_font_description_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="pango_font_description_better_match"
@@ -38232,7 +38232,7 @@ use "lib:gtk-4"
       </renderstruct>
       <renderstruct name="PangoGlyphString" render="0">
          <renderconstructor name="pango_glyph_string_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="pango_glyph_string_copy"
@@ -38278,7 +38278,7 @@ use "lib:gtk-4"
       </renderstruct>
       <renderstruct name="PangoGlyphVisAttr" render="0"/>
       <renderstruct name="PangoItem" render="0">
-         <renderconstructor name="pango_item_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="pango_item_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="pango_item_apply_attrs"
                        ponyname="apply_attrs"
                        render="0"
@@ -38521,7 +38521,7 @@ use "lib:gtk-4"
       <renderstruct name="PangoRendererPrivate" render="0"/>
       <renderstruct name="PangoScriptIter" render="0">
          <renderconstructor name="pango_script_iter_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="pango_script_iter_free"
@@ -38539,7 +38539,7 @@ use "lib:gtk-4"
       </renderstruct>
       <renderstruct name="PangoTabArray" render="0">
          <renderconstructor name="pango_tab_array_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="pango_tab_array_new_with_positions"
@@ -38609,7 +38609,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="pango_context_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="pango_context_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="pango_context_changed"
                        ponyname="changed"
                        render="0"
@@ -38710,7 +38710,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="pango_coverage_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="pango_coverage_copy"
@@ -38924,7 +38924,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="pango_fontset_simple_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="pango_fontset_simple_append"
@@ -38942,7 +38942,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-         <renderconstructor name="pango_layout_new" ponyname="create" render="0" deprecated=""/>
+         <renderconstructor name="pango_layout_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="pango_layout_context_changed"
                        ponyname="context_changed"
                        render="0"
@@ -39397,7 +39397,7 @@ use "lib:gtk-4"
                          render="0"
                          deprecated=""/>
          <renderfunction name="pango_cairo_font_map_new"
-                         ponyname="create"
+                         ponyname="gnew"
                          render="0"
                          deprecated=""/>
          <renderfunction name="pango_cairo_font_map_new_for_font_type"
@@ -39441,7 +39441,7 @@ use "lib:gtk-4"
                       deprecated=""/>
       <renderstruct name="WebKitApplicationInfo" render="0">
          <renderconstructor name="webkit_application_info_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_application_info_get_name"
@@ -39487,7 +39487,7 @@ use "lib:gtk-4"
       <renderstruct name="WebKitCookieManagerPrivate" render="0"/>
       <renderstruct name="WebKitCredential" render="0">
          <renderconstructor name="webkit_credential_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_credential_new_for_certificate"
@@ -39547,7 +39547,7 @@ use "lib:gtk-4"
       <renderstruct name="WebKitGeolocationPermissionRequestPrivate" render="0"/>
       <renderstruct name="WebKitGeolocationPosition" render="0">
          <renderconstructor name="webkit_geolocation_position_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_geolocation_position_copy"
@@ -39625,7 +39625,7 @@ use "lib:gtk-4"
       <renderstruct name="WebKitInputMethodContextPrivate" render="0"/>
       <renderstruct name="WebKitInputMethodUnderline" render="0">
          <renderconstructor name="webkit_input_method_underline_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_input_method_underline_copy"
@@ -39670,7 +39670,7 @@ use "lib:gtk-4"
       <renderstruct name="WebKitMediaKeySystemPermissionRequestPrivate" render="0"/>
       <renderstruct name="WebKitMemoryPressureSettings" render="0">
          <renderconstructor name="webkit_memory_pressure_settings_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_memory_pressure_settings_copy"
@@ -39782,7 +39782,7 @@ use "lib:gtk-4"
       <renderstruct name="WebKitNavigationPolicyDecisionPrivate" render="0"/>
       <renderstruct name="WebKitNetworkProxySettings" render="0">
          <renderconstructor name="webkit_network_proxy_settings_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_network_proxy_settings_add_proxy_for_scheme"
@@ -39889,7 +39889,7 @@ use "lib:gtk-4"
       <renderstruct name="WebKitSecurityManagerPrivate" render="0"/>
       <renderstruct name="WebKitSecurityOrigin" render="0">
          <renderconstructor name="webkit_security_origin_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_security_origin_new_for_uri"
@@ -39957,7 +39957,7 @@ use "lib:gtk-4"
       <renderstruct name="WebKitUserMessagePrivate" render="0"/>
       <renderstruct name="WebKitUserScript" render="0">
          <renderconstructor name="webkit_user_script_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_user_script_new_for_world"
@@ -39975,7 +39975,7 @@ use "lib:gtk-4"
       </renderstruct>
       <renderstruct name="WebKitUserStyleSheet" render="0">
          <renderconstructor name="webkit_user_style_sheet_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_user_style_sheet_new_for_world"
@@ -40003,7 +40003,7 @@ use "lib:gtk-4"
       <renderstruct name="WebKitWebViewPrivate" render="0"/>
       <renderstruct name="WebKitWebViewSessionState" render="0">
          <renderconstructor name="webkit_web_view_session_state_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_web_view_session_state_ref"
@@ -40227,7 +40227,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_context_menu_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_context_menu_new_with_items"
@@ -40294,7 +40294,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_context_menu_item_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated="1"/>
          <renderconstructor name="webkit_context_menu_item_new_from_gaction"
@@ -40915,7 +40915,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_print_custom_widget_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_print_custom_widget_get_title"
@@ -40934,7 +40934,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_print_operation_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_print_operation_get_page_setup"
@@ -41043,7 +41043,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_settings_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_settings_new_with_settings"
@@ -41542,7 +41542,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_uri_request_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_uri_request_get_http_headers"
@@ -41631,7 +41631,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_user_content_filter_store_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_user_content_filter_store_fetch_identifiers"
@@ -41686,7 +41686,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_user_content_manager_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_user_content_manager_add_filter"
@@ -41759,7 +41759,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_user_message_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_user_message_new_with_fd_list"
@@ -41790,7 +41790,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_web_context_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_web_context_new_ephemeral"
@@ -42047,7 +42047,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_web_view_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_web_view_new_with_context"
@@ -42423,7 +42423,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_website_data_manager_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_website_data_manager_new_ephemeral"
@@ -42554,7 +42554,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_website_policies_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_website_policies_new_with_policies"
@@ -42783,7 +42783,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_context_menu_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_context_menu_new_with_items"
@@ -42850,7 +42850,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_context_menu_item_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated="1"/>
          <renderconstructor name="webkit_context_menu_item_new_from_gaction"
@@ -48511,7 +48511,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_script_world_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_script_world_new_with_name"
@@ -48534,7 +48534,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_uri_request_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_uri_request_get_http_headers"
@@ -48592,7 +48592,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="webkit_user_message_new"
-                            ponyname="create"
+                            ponyname="gnew"
                             render="0"
                             deprecated=""/>
          <renderconstructor name="webkit_user_message_new_with_fd_list"

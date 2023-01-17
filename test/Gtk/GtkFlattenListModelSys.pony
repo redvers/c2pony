@@ -11,20 +11,20 @@ primitive GtkFlattenListModelSys
 
 // Constructors
 /* 
-fun create(model': NullablePointer[GListModelT]): Pointer[GtkFlattenListModelT] =>
+fun gnew(model': NullablePointer[GListModelT]): NullablePointer[GtkFlattenListModelT] =>
     @gtk_flatten_list_model_new(model')
 */
 
 // Methods
 /* 
-fun gtk_flatten_list_model_get_model(self': NullablePointer[GtkFlattenListModelT]): Pointer[GListModelT] =>
+fun get_model(self': NullablePointer[GtkFlattenListModelT]): NullablePointer[GListModelT] =>
     @gtk_flatten_list_model_get_model(self')
 */
 /* 
-fun gtk_flatten_list_model_get_model_for_item(self': NullablePointer[GtkFlattenListModelT], position': U32): Pointer[GListModelT] =>
+fun get_model_for_item(self': NullablePointer[GtkFlattenListModelT], position': U32): NullablePointer[GListModelT] =>
     @gtk_flatten_list_model_get_model_for_item(self', position')
 */
 /* 
-fun gtk_flatten_list_model_set_model(self': NullablePointer[GtkFlattenListModelT], model': NullablePointer[GListModelT]): None =>
+fun set_model(self': NullablePointer[GtkFlattenListModelT], model': NullablePointer[GListModelT]): None =>
     @gtk_flatten_list_model_set_model(self', model')
 */

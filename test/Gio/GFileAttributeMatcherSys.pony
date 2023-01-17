@@ -8,40 +8,40 @@ primitive GFileAttributeMatcherSys
 
 // Constructors
 /* 
-fun create(attributes': Pointer[U8] tag): Pointer[GFileAttributeMatcherT] =>
+fun gnew(attributes': Pointer[U8] tag): NullablePointer[GFileAttributeMatcherT] =>
     @g_file_attribute_matcher_new(attributes')
 */
 
 // Methods
 /* 
-fun g_file_attribute_matcher_enumerate_namespace(matcher': NullablePointer[GFileAttributeMatcherT], ns': Pointer[U8] tag): I32 =>
+fun enumerate_namespace(matcher': NullablePointer[GFileAttributeMatcherT], ns': Pointer[U8] tag): I32 =>
     @g_file_attribute_matcher_enumerate_namespace(matcher', ns')
 */
 /* 
-fun g_file_attribute_matcher_enumerate_next(matcher': NullablePointer[GFileAttributeMatcherT]): Pointer[U8] =>
+fun enumerate_next(matcher': NullablePointer[GFileAttributeMatcherT]): Pointer[U8] tag =>
     @g_file_attribute_matcher_enumerate_next(matcher')
 */
 /* 
-fun g_file_attribute_matcher_matches(matcher': NullablePointer[GFileAttributeMatcherT], attribute': Pointer[U8] tag): I32 =>
+fun matches(matcher': NullablePointer[GFileAttributeMatcherT], attribute': Pointer[U8] tag): I32 =>
     @g_file_attribute_matcher_matches(matcher', attribute')
 */
 /* 
-fun g_file_attribute_matcher_matches_only(matcher': NullablePointer[GFileAttributeMatcherT], attribute': Pointer[U8] tag): I32 =>
+fun matches_only(matcher': NullablePointer[GFileAttributeMatcherT], attribute': Pointer[U8] tag): I32 =>
     @g_file_attribute_matcher_matches_only(matcher', attribute')
 */
 /* 
-fun g_file_attribute_matcher_ref(matcher': NullablePointer[GFileAttributeMatcherT]): Pointer[GFileAttributeMatcherT] =>
+fun ref(matcher': NullablePointer[GFileAttributeMatcherT]): NullablePointer[GFileAttributeMatcherT] =>
     @g_file_attribute_matcher_ref(matcher')
 */
 /* 
-fun g_file_attribute_matcher_subtract(matcher': NullablePointer[GFileAttributeMatcherT], subtract': NullablePointer[GFileAttributeMatcherT]): Pointer[GFileAttributeMatcherT] =>
+fun subtract(matcher': NullablePointer[GFileAttributeMatcherT], subtract': NullablePointer[GFileAttributeMatcherT]): NullablePointer[GFileAttributeMatcherT] =>
     @g_file_attribute_matcher_subtract(matcher', subtract')
 */
 /* 
-fun g_file_attribute_matcher_to_string(matcher': NullablePointer[GFileAttributeMatcherT]): Pointer[U8] =>
+fun to_string(matcher': NullablePointer[GFileAttributeMatcherT]): Pointer[U8] tag =>
     @g_file_attribute_matcher_to_string(matcher')
 */
 /* 
-fun g_file_attribute_matcher_unref(matcher': NullablePointer[GFileAttributeMatcherT]): None =>
+fun unref(matcher': NullablePointer[GFileAttributeMatcherT]): None =>
     @g_file_attribute_matcher_unref(matcher')
 */

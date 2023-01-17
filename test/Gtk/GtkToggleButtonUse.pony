@@ -9,9 +9,9 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_toggle_button_new[Pointer[GtkWidgetT]]()
-// use @gtk_toggle_button_new_with_label[Pointer[GtkWidgetT]](label': Pointer[U8] tag)
-// use @gtk_toggle_button_new_with_mnemonic[Pointer[GtkWidgetT]](label': Pointer[U8] tag)
+// use @gtk_toggle_button_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_toggle_button_new_with_label[NullablePointer[GtkWidgetT]](label': Pointer[U8] tag)
+// use @gtk_toggle_button_new_with_mnemonic[NullablePointer[GtkWidgetT]](label': Pointer[U8] tag)
 
 // Methods
 // use @gtk_toggle_button_get_active[I32](toggle_button': NullablePointer[GtkToggleButtonT])

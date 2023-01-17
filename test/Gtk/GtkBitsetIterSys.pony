@@ -25,18 +25,18 @@ fun init_last(iter': NullablePointer[GtkBitsetIterT], set': NullablePointer[GtkB
 
 // Methods
 /* 
-fun gtk_bitset_iter_get_value(iter': NullablePointer[GtkBitsetIterT]): U32 =>
+fun get_value(iter': NullablePointer[GtkBitsetIterT]): U32 =>
     @gtk_bitset_iter_get_value(iter')
 */
 /* 
-fun gtk_bitset_iter_is_valid(iter': NullablePointer[GtkBitsetIterT]): I32 =>
+fun is_valid(iter': NullablePointer[GtkBitsetIterT]): I32 =>
     @gtk_bitset_iter_is_valid(iter')
 */
 /* 
-fun gtk_bitset_iter_next(iter': NullablePointer[GtkBitsetIterT], value': Pointer[U32] tag): I32 =>
+fun next(iter': NullablePointer[GtkBitsetIterT], value': Pointer[U32] tag): I32 =>
     @gtk_bitset_iter_next(iter', value')
 */
 /* 
-fun gtk_bitset_iter_previous(iter': NullablePointer[GtkBitsetIterT], value': Pointer[U32] tag): I32 =>
+fun previous(iter': NullablePointer[GtkBitsetIterT], value': Pointer[U32] tag): I32 =>
     @gtk_bitset_iter_previous(iter', value')
 */

@@ -9,10 +9,10 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_action_bar_new[Pointer[GtkWidgetT]]()
+// use @gtk_action_bar_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
-// use @gtk_action_bar_get_center_widget[Pointer[GtkWidgetT]](action_bar': NullablePointer[GtkActionBarT])
+// use @gtk_action_bar_get_center_widget[NullablePointer[GtkWidgetT]](action_bar': NullablePointer[GtkActionBarT])
 // use @gtk_action_bar_get_revealed[I32](action_bar': NullablePointer[GtkActionBarT])
 // use @gtk_action_bar_pack_end[None](action_bar': NullablePointer[GtkActionBarT], child': NullablePointer[GtkWidgetT])
 // use @gtk_action_bar_pack_start[None](action_bar': NullablePointer[GtkActionBarT], child': NullablePointer[GtkWidgetT])

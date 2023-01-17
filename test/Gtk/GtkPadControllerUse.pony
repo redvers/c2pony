@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_pad_controller_new[Pointer[GtkPadControllerT]](group': NullablePointer[GActionGroupT], pad': NullablePointer[GdkDeviceT])
+// use @gtk_pad_controller_new[NullablePointer[GtkPadControllerT]](group': NullablePointer[GActionGroupT], pad': NullablePointer[GdkDeviceT])
 
 // Methods
 // use @gtk_pad_controller_set_action[None](controller': NullablePointer[GtkPadControllerT], type': U32, index': I32, mode': I32, label': Pointer[U8] tag, action_name': Pointer[U8] tag)

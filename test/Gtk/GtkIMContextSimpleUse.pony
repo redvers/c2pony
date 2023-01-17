@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_im_context_simple_new[Pointer[GtkIMContextT]]()
+// use @gtk_im_context_simple_new[NullablePointer[GtkIMContextT]]()
 
 // Methods
 // use @gtk_im_context_simple_add_compose_file[None](context_simple': NullablePointer[GtkIMContextSimpleT], compose_file': Pointer[U8] tag)

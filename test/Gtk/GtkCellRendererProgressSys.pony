@@ -11,7 +11,7 @@ primitive GtkCellRendererProgressSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkCellRendererT] =>
+fun gnew(): NullablePointer[GtkCellRendererT] =>
     @gtk_cell_renderer_progress_new()
 */
 

@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_box_layout_new[Pointer[GtkLayoutManagerT]](orientation': U32)
+// use @gtk_box_layout_new[NullablePointer[GtkLayoutManagerT]](orientation': U32)
 
 // Methods
 // use @gtk_box_layout_get_baseline_position[U32](box_layout': NullablePointer[GtkBoxLayoutT])

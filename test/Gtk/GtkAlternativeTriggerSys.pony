@@ -11,16 +11,16 @@ primitive GtkAlternativeTriggerSys
 
 // Constructors
 /* 
-fun create(first': NullablePointer[GtkShortcutTriggerT], second': NullablePointer[GtkShortcutTriggerT]): Pointer[GtkShortcutTriggerT] =>
+fun gnew(first': NullablePointer[GtkShortcutTriggerT], second': NullablePointer[GtkShortcutTriggerT]): NullablePointer[GtkShortcutTriggerT] =>
     @gtk_alternative_trigger_new(first', second')
 */
 
 // Methods
 /* 
-fun gtk_alternative_trigger_get_first(self': NullablePointer[GtkAlternativeTriggerT]): Pointer[GtkShortcutTriggerT] =>
+fun get_first(self': NullablePointer[GtkAlternativeTriggerT]): NullablePointer[GtkShortcutTriggerT] =>
     @gtk_alternative_trigger_get_first(self')
 */
 /* 
-fun gtk_alternative_trigger_get_second(self': NullablePointer[GtkAlternativeTriggerT]): Pointer[GtkShortcutTriggerT] =>
+fun get_second(self': NullablePointer[GtkAlternativeTriggerT]): NullablePointer[GtkShortcutTriggerT] =>
     @gtk_alternative_trigger_get_second(self')
 */

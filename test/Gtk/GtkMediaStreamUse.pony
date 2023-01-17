@@ -17,7 +17,7 @@ use "lib:gtk-4"
 // use @gtk_media_stream_gerror[None](self': NullablePointer[GtkMediaStreamT], error': NullablePointer[GErrorT])
 // use @gtk_media_stream_get_duration[I64](self': NullablePointer[GtkMediaStreamT])
 // use @gtk_media_stream_get_ended[I32](self': NullablePointer[GtkMediaStreamT])
-// use @gtk_media_stream_get_error[Pointer[GErrorT]](self': NullablePointer[GtkMediaStreamT])
+// use @gtk_media_stream_get_error[NullablePointer[GErrorT]](self': NullablePointer[GtkMediaStreamT])
 // use @gtk_media_stream_get_loop[I32](self': NullablePointer[GtkMediaStreamT])
 // use @gtk_media_stream_get_muted[I32](self': NullablePointer[GtkMediaStreamT])
 // use @gtk_media_stream_get_playing[I32](self': NullablePointer[GtkMediaStreamT])

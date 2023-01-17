@@ -11,12 +11,12 @@ primitive GtkMnemonicTriggerSys
 
 // Constructors
 /* 
-fun create(keyval': U32): Pointer[GtkShortcutTriggerT] =>
+fun gnew(keyval': U32): NullablePointer[GtkShortcutTriggerT] =>
     @gtk_mnemonic_trigger_new(keyval')
 */
 
 // Methods
 /* 
-fun gtk_mnemonic_trigger_get_keyval(self': NullablePointer[GtkMnemonicTriggerT]): U32 =>
+fun get_keyval(self': NullablePointer[GtkMnemonicTriggerT]): U32 =>
     @gtk_mnemonic_trigger_get_keyval(self')
 */

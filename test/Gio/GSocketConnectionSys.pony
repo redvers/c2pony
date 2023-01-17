@@ -18,26 +18,26 @@ fun factory_register_type(g_type': U64, family': U32, type': U32, protocol': I32
 
 // Methods
 /* 
-fun g_socket_connection_connect(connection': NullablePointer[GSocketConnectionT], address': NullablePointer[GSocketAddressT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun connect(connection': NullablePointer[GSocketConnectionT], address': NullablePointer[GSocketAddressT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_socket_connection_connect(connection', address', cancellable', error')
 */
 /* 
-fun g_socket_connection_connect_finish(connection': NullablePointer[GSocketConnectionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun connect_finish(connection': NullablePointer[GSocketConnectionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_socket_connection_connect_finish(connection', result', error')
 */
 /* 
-fun g_socket_connection_get_local_address(connection': NullablePointer[GSocketConnectionT], error': Pointer[NullablePointer[GErrorT]]): Pointer[GSocketAddressT] =>
+fun get_local_address(connection': NullablePointer[GSocketConnectionT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketAddressT] =>
     @g_socket_connection_get_local_address(connection', error')
 */
 /* 
-fun g_socket_connection_get_remote_address(connection': NullablePointer[GSocketConnectionT], error': Pointer[NullablePointer[GErrorT]]): Pointer[GSocketAddressT] =>
+fun get_remote_address(connection': NullablePointer[GSocketConnectionT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketAddressT] =>
     @g_socket_connection_get_remote_address(connection', error')
 */
 /* 
-fun g_socket_connection_get_socket(connection': NullablePointer[GSocketConnectionT]): Pointer[GSocketT] =>
+fun get_socket(connection': NullablePointer[GSocketConnectionT]): NullablePointer[GSocketT] =>
     @g_socket_connection_get_socket(connection')
 */
 /* 
-fun g_socket_connection_is_connected(connection': NullablePointer[GSocketConnectionT]): I32 =>
+fun is_connected(connection': NullablePointer[GSocketConnectionT]): I32 =>
     @g_socket_connection_is_connected(connection')
 */

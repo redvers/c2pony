@@ -11,7 +11,7 @@ use "lib:gtk-4"
 // Constructors
 
 // Methods
-// use @gtk_range_get_adjustment[Pointer[GtkAdjustmentT]](range': NullablePointer[GtkRangeT])
+// use @gtk_range_get_adjustment[NullablePointer[GtkAdjustmentT]](range': NullablePointer[GtkRangeT])
 // use @gtk_range_get_fill_level[F64](range': NullablePointer[GtkRangeT])
 // use @gtk_range_get_flippable[I32](range': NullablePointer[GtkRangeT])
 // use @gtk_range_get_inverted[I32](range': NullablePointer[GtkRangeT])

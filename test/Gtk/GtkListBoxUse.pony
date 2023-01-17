@@ -9,18 +9,18 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_list_box_new[Pointer[GtkWidgetT]]()
+// use @gtk_list_box_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_list_box_append[None](box': NullablePointer[GtkListBoxT], child': NullablePointer[GtkWidgetT])
 // use @gtk_list_box_drag_highlight_row[None](box': NullablePointer[GtkListBoxT], row': NullablePointer[GtkListBoxRowT])
 // use @gtk_list_box_drag_unhighlight_row[None](box': NullablePointer[GtkListBoxT])
 // use @gtk_list_box_get_activate_on_single_click[I32](box': NullablePointer[GtkListBoxT])
-// use @gtk_list_box_get_adjustment[Pointer[GtkAdjustmentT]](box': NullablePointer[GtkListBoxT])
-// use @gtk_list_box_get_row_at_index[Pointer[GtkListBoxRowT]](box': NullablePointer[GtkListBoxT], index_': I32)
-// use @gtk_list_box_get_row_at_y[Pointer[GtkListBoxRowT]](box': NullablePointer[GtkListBoxT], y': I32)
-// use @gtk_list_box_get_selected_row[Pointer[GtkListBoxRowT]](box': NullablePointer[GtkListBoxT])
-// use @gtk_list_box_get_selected_rows[Pointer[GListT]](box': NullablePointer[GtkListBoxT])
+// use @gtk_list_box_get_adjustment[NullablePointer[GtkAdjustmentT]](box': NullablePointer[GtkListBoxT])
+// use @gtk_list_box_get_row_at_index[NullablePointer[GtkListBoxRowT]](box': NullablePointer[GtkListBoxT], index_': I32)
+// use @gtk_list_box_get_row_at_y[NullablePointer[GtkListBoxRowT]](box': NullablePointer[GtkListBoxT], y': I32)
+// use @gtk_list_box_get_selected_row[NullablePointer[GtkListBoxRowT]](box': NullablePointer[GtkListBoxT])
+// use @gtk_list_box_get_selected_rows[NullablePointer[GListT]](box': NullablePointer[GtkListBoxT])
 // use @gtk_list_box_get_selection_mode[U32](box': NullablePointer[GtkListBoxT])
 // use @gtk_list_box_get_show_separators[I32](box': NullablePointer[GtkListBoxT])
 // use @gtk_list_box_insert[None](box': NullablePointer[GtkListBoxT], child': NullablePointer[GtkWidgetT], position': I32)

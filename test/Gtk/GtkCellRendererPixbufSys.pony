@@ -11,7 +11,7 @@ primitive GtkCellRendererPixbufSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkCellRendererT] =>
+fun gnew(): NullablePointer[GtkCellRendererT] =>
     @gtk_cell_renderer_pixbuf_new()
 */
 

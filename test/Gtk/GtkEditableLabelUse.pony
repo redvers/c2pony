@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_editable_label_new[Pointer[GtkWidgetT]](str': Pointer[U8] tag)
+// use @gtk_editable_label_new[NullablePointer[GtkWidgetT]](str': Pointer[U8] tag)
 
 // Methods
 // use @gtk_editable_label_get_editing[I32](self': NullablePointer[GtkEditableLabelT])

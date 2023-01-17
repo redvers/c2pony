@@ -11,20 +11,20 @@ primitive GtkTextChildAnchorSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkTextChildAnchorT] =>
+fun gnew(): NullablePointer[GtkTextChildAnchorT] =>
     @gtk_text_child_anchor_new()
 */
 /* 
-fun new_with_replacement(character': Pointer[U8] tag): Pointer[GtkTextChildAnchorT] =>
+fun new_with_replacement(character': Pointer[U8] tag): NullablePointer[GtkTextChildAnchorT] =>
     @gtk_text_child_anchor_new_with_replacement(character')
 */
 
 // Methods
 /* 
-fun gtk_text_child_anchor_get_deleted(anchor': NullablePointer[GtkTextChildAnchorT]): I32 =>
+fun get_deleted(anchor': NullablePointer[GtkTextChildAnchorT]): I32 =>
     @gtk_text_child_anchor_get_deleted(anchor')
 */
 /* 
-fun gtk_text_child_anchor_get_widgets(anchor': NullablePointer[GtkTextChildAnchorT], out_len': Pointer[U32] tag): Pointer[Pointer[GtkWidgetT]] =>
+fun get_widgets(anchor': NullablePointer[GtkTextChildAnchorT], out_len': Pointer[U32] tag): Pointer[NullablePointer[GtkWidgetT]] =>
     @gtk_text_child_anchor_get_widgets(anchor', out_len')
 */

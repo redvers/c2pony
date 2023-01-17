@@ -11,5 +11,5 @@ use "lib:gtk-4"
 // Constructors
 
 // Methods
-// use @gtk_fixed_layout_child_get_transform[Pointer[GskTransformT]](child': NullablePointer[GtkFixedLayoutChildT])
+// use @gtk_fixed_layout_child_get_transform[NullablePointer[GskTransformT]](child': NullablePointer[GtkFixedLayoutChildT])
 // use @gtk_fixed_layout_child_set_transform[None](child': NullablePointer[GtkFixedLayoutChildT], transform': NullablePointer[GskTransformT])

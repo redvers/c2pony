@@ -11,7 +11,7 @@ primitive GtkVolumeButtonSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkWidgetT] =>
+fun gnew(): NullablePointer[GtkWidgetT] =>
     @gtk_volume_button_new()
 */
 

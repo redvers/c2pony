@@ -8,28 +8,28 @@ primitive GMemoryOutputStreamSys
 
 // Constructors
 /* 
-fun new_resizable(): Pointer[GOutputStreamT] =>
+fun new_resizable(): NullablePointer[GOutputStreamT] =>
     @g_memory_output_stream_new_resizable()
 */
 
 // Methods
 /* 
-fun g_memory_output_stream_get_data(ostream': NullablePointer[GMemoryOutputStreamT]): Pointer[None] =>
+fun get_data(ostream': NullablePointer[GMemoryOutputStreamT]): Pointer[None] tag =>
     @g_memory_output_stream_get_data(ostream')
 */
 /* 
-fun g_memory_output_stream_get_data_size(ostream': NullablePointer[GMemoryOutputStreamT]): U64 =>
+fun get_data_size(ostream': NullablePointer[GMemoryOutputStreamT]): U64 =>
     @g_memory_output_stream_get_data_size(ostream')
 */
 /* 
-fun g_memory_output_stream_get_size(ostream': NullablePointer[GMemoryOutputStreamT]): U64 =>
+fun get_size(ostream': NullablePointer[GMemoryOutputStreamT]): U64 =>
     @g_memory_output_stream_get_size(ostream')
 */
 /* 
-fun g_memory_output_stream_steal_as_bytes(ostream': NullablePointer[GMemoryOutputStreamT]): Pointer[GBytesT] =>
+fun steal_as_bytes(ostream': NullablePointer[GMemoryOutputStreamT]): NullablePointer[GBytesT] =>
     @g_memory_output_stream_steal_as_bytes(ostream')
 */
 /* 
-fun g_memory_output_stream_steal_data(ostream': NullablePointer[GMemoryOutputStreamT]): Pointer[None] =>
+fun steal_data(ostream': NullablePointer[GMemoryOutputStreamT]): Pointer[None] tag =>
     @g_memory_output_stream_steal_data(ostream')
 */

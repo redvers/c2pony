@@ -11,24 +11,24 @@ primitive GtkNumericSorterSys
 
 // Constructors
 /* 
-fun create(expression': NullablePointer[GtkExpressionT]): Pointer[GtkNumericSorterT] =>
+fun gnew(expression': NullablePointer[GtkExpressionT]): NullablePointer[GtkNumericSorterT] =>
     @gtk_numeric_sorter_new(expression')
 */
 
 // Methods
 /* 
-fun gtk_numeric_sorter_get_expression(self': NullablePointer[GtkNumericSorterT]): Pointer[GtkExpressionT] =>
+fun get_expression(self': NullablePointer[GtkNumericSorterT]): NullablePointer[GtkExpressionT] =>
     @gtk_numeric_sorter_get_expression(self')
 */
 /* 
-fun gtk_numeric_sorter_get_sort_order(self': NullablePointer[GtkNumericSorterT]): U32 =>
+fun get_sort_order(self': NullablePointer[GtkNumericSorterT]): U32 =>
     @gtk_numeric_sorter_get_sort_order(self')
 */
 /* 
-fun gtk_numeric_sorter_set_expression(self': NullablePointer[GtkNumericSorterT], expression': NullablePointer[GtkExpressionT]): None =>
+fun set_expression(self': NullablePointer[GtkNumericSorterT], expression': NullablePointer[GtkExpressionT]): None =>
     @gtk_numeric_sorter_set_expression(self', expression')
 */
 /* 
-fun gtk_numeric_sorter_set_sort_order(self': NullablePointer[GtkNumericSorterT], sort_order': U32): None =>
+fun set_sort_order(self': NullablePointer[GtkNumericSorterT], sort_order': U32): None =>
     @gtk_numeric_sorter_set_sort_order(self', sort_order')
 */

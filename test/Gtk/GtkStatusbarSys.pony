@@ -11,28 +11,28 @@ primitive GtkStatusbarSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkWidgetT] =>
+fun gnew(): NullablePointer[GtkWidgetT] =>
     @gtk_statusbar_new()
 */
 
 // Methods
 /* 
-fun gtk_statusbar_get_context_id(statusbar': NullablePointer[GtkStatusbarT], context_description': Pointer[U8] tag): U32 =>
+fun get_context_id(statusbar': NullablePointer[GtkStatusbarT], context_description': Pointer[U8] tag): U32 =>
     @gtk_statusbar_get_context_id(statusbar', context_description')
 */
 /* 
-fun gtk_statusbar_pop(statusbar': NullablePointer[GtkStatusbarT], context_id': U32): None =>
+fun pop(statusbar': NullablePointer[GtkStatusbarT], context_id': U32): None =>
     @gtk_statusbar_pop(statusbar', context_id')
 */
 /* 
-fun gtk_statusbar_push(statusbar': NullablePointer[GtkStatusbarT], context_id': U32, text': Pointer[U8] tag): U32 =>
+fun push(statusbar': NullablePointer[GtkStatusbarT], context_id': U32, text': Pointer[U8] tag): U32 =>
     @gtk_statusbar_push(statusbar', context_id', text')
 */
 /* 
-fun gtk_statusbar_remove(statusbar': NullablePointer[GtkStatusbarT], context_id': U32, message_id': U32): None =>
+fun remove(statusbar': NullablePointer[GtkStatusbarT], context_id': U32, message_id': U32): None =>
     @gtk_statusbar_remove(statusbar', context_id', message_id')
 */
 /* 
-fun gtk_statusbar_remove_all(statusbar': NullablePointer[GtkStatusbarT], context_id': U32): None =>
+fun remove_all(statusbar': NullablePointer[GtkStatusbarT], context_id': U32): None =>
     @gtk_statusbar_remove_all(statusbar', context_id')
 */

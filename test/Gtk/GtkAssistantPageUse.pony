@@ -11,4 +11,4 @@ use "lib:gtk-4"
 // Constructors
 
 // Methods
-// use @gtk_assistant_page_get_child[Pointer[GtkWidgetT]](page': NullablePointer[GtkAssistantPageT])
+// use @gtk_assistant_page_get_child[NullablePointer[GtkWidgetT]](page': NullablePointer[GtkAssistantPageT])

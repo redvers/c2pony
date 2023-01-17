@@ -11,20 +11,20 @@ primitive GtkEditableLabelSys
 
 // Constructors
 /* 
-fun create(str': Pointer[U8] tag): Pointer[GtkWidgetT] =>
+fun gnew(str': Pointer[U8] tag): NullablePointer[GtkWidgetT] =>
     @gtk_editable_label_new(str')
 */
 
 // Methods
 /* 
-fun gtk_editable_label_get_editing(self': NullablePointer[GtkEditableLabelT]): I32 =>
+fun get_editing(self': NullablePointer[GtkEditableLabelT]): I32 =>
     @gtk_editable_label_get_editing(self')
 */
 /* 
-fun gtk_editable_label_start_editing(self': NullablePointer[GtkEditableLabelT]): None =>
+fun start_editing(self': NullablePointer[GtkEditableLabelT]): None =>
     @gtk_editable_label_start_editing(self')
 */
 /* 
-fun gtk_editable_label_stop_editing(self': NullablePointer[GtkEditableLabelT], commit': I32): None =>
+fun stop_editing(self': NullablePointer[GtkEditableLabelT], commit': I32): None =>
     @gtk_editable_label_stop_editing(self', commit')
 */

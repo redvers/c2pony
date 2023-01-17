@@ -9,12 +9,12 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_popover_new[Pointer[GtkWidgetT]]()
+// use @gtk_popover_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_popover_get_autohide[I32](popover': NullablePointer[GtkPopoverT])
 // use @gtk_popover_get_cascade_popdown[I32](popover': NullablePointer[GtkPopoverT])
-// use @gtk_popover_get_child[Pointer[GtkWidgetT]](popover': NullablePointer[GtkPopoverT])
+// use @gtk_popover_get_child[NullablePointer[GtkWidgetT]](popover': NullablePointer[GtkPopoverT])
 // use @gtk_popover_get_has_arrow[I32](popover': NullablePointer[GtkPopoverT])
 // use @gtk_popover_get_mnemonics_visible[I32](popover': NullablePointer[GtkPopoverT])
 // use @gtk_popover_get_offset[None](popover': NullablePointer[GtkPopoverT], x_offset': Pointer[I32] tag, y_offset': Pointer[I32] tag)

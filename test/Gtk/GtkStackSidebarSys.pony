@@ -11,16 +11,16 @@ primitive GtkStackSidebarSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkWidgetT] =>
+fun gnew(): NullablePointer[GtkWidgetT] =>
     @gtk_stack_sidebar_new()
 */
 
 // Methods
 /* 
-fun gtk_stack_sidebar_get_stack(self': NullablePointer[GtkStackSidebarT]): Pointer[GtkStackT] =>
+fun get_stack(self': NullablePointer[GtkStackSidebarT]): NullablePointer[GtkStackT] =>
     @gtk_stack_sidebar_get_stack(self')
 */
 /* 
-fun gtk_stack_sidebar_set_stack(self': NullablePointer[GtkStackSidebarT], stack': NullablePointer[GtkStackT]): None =>
+fun set_stack(self': NullablePointer[GtkStackSidebarT], stack': NullablePointer[GtkStackT]): None =>
     @gtk_stack_sidebar_set_stack(self', stack')
 */

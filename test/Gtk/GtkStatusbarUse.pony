@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_statusbar_new[Pointer[GtkWidgetT]]()
+// use @gtk_statusbar_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_statusbar_get_context_id[U32](statusbar': NullablePointer[GtkStatusbarT], context_description': Pointer[U8] tag)

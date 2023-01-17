@@ -11,7 +11,7 @@ primitive GtkSeparatorSys
 
 // Constructors
 /* 
-fun create(orientation': U32): Pointer[GtkWidgetT] =>
+fun gnew(orientation': U32): NullablePointer[GtkWidgetT] =>
     @gtk_separator_new(orientation')
 */
 

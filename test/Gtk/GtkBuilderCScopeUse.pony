@@ -9,7 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_builder_cscope_new[Pointer[GtkBuilderScopeT]]()
+// use @gtk_builder_cscope_new[NullablePointer[GtkBuilderScopeT]]()
 
 // Methods
-// use @gtk_builder_cscope_lookup_callback_symbol[Pointer[FIXME FunctionType]](self': NullablePointer[GtkBuilderCScopeT], callback_name': Pointer[U8] tag)

@@ -11,52 +11,52 @@ primitive GtkDropTargetSys
 
 // Constructors
 /* 
-fun create(type': U64, actions': U32): Pointer[GtkDropTargetT] =>
+fun gnew(type': U64, actions': U32): NullablePointer[GtkDropTargetT] =>
     @gtk_drop_target_new(type', actions')
 */
 
 // Methods
 /* 
-fun gtk_drop_target_get_actions(self': NullablePointer[GtkDropTargetT]): U32 =>
+fun get_actions(self': NullablePointer[GtkDropTargetT]): U32 =>
     @gtk_drop_target_get_actions(self')
 */
 /* 
-fun gtk_drop_target_get_current_drop(self': NullablePointer[GtkDropTargetT]): Pointer[GdkDropT] =>
+fun get_current_drop(self': NullablePointer[GtkDropTargetT]): NullablePointer[GdkDropT] =>
     @gtk_drop_target_get_current_drop(self')
 */
 /* 
-fun gtk_drop_target_get_drop(self': NullablePointer[GtkDropTargetT]): Pointer[GdkDropT] =>
+fun get_drop(self': NullablePointer[GtkDropTargetT]): NullablePointer[GdkDropT] =>
     @gtk_drop_target_get_drop(self')
 */
 /* 
-fun gtk_drop_target_get_formats(self': NullablePointer[GtkDropTargetT]): Pointer[GdkContentFormatsT] =>
+fun get_formats(self': NullablePointer[GtkDropTargetT]): NullablePointer[GdkContentFormatsT] =>
     @gtk_drop_target_get_formats(self')
 */
 /* 
-fun gtk_drop_target_get_gtypes(self': NullablePointer[GtkDropTargetT], n_types': Pointer[U64] tag): Pointer[U64] =>
+fun get_gtypes(self': NullablePointer[GtkDropTargetT], n_types': Pointer[U64] tag): Pointer[U64] tag =>
     @gtk_drop_target_get_gtypes(self', n_types')
 */
 /* 
-fun gtk_drop_target_get_preload(self': NullablePointer[GtkDropTargetT]): I32 =>
+fun get_preload(self': NullablePointer[GtkDropTargetT]): I32 =>
     @gtk_drop_target_get_preload(self')
 */
 /* 
-fun gtk_drop_target_get_value(self': NullablePointer[GtkDropTargetT]): Pointer[GValueT] =>
+fun get_value(self': NullablePointer[GtkDropTargetT]): NullablePointer[GValueT] =>
     @gtk_drop_target_get_value(self')
 */
 /* 
-fun gtk_drop_target_reject(self': NullablePointer[GtkDropTargetT]): None =>
+fun reject(self': NullablePointer[GtkDropTargetT]): None =>
     @gtk_drop_target_reject(self')
 */
 /* 
-fun gtk_drop_target_set_actions(self': NullablePointer[GtkDropTargetT], actions': U32): None =>
+fun set_actions(self': NullablePointer[GtkDropTargetT], actions': U32): None =>
     @gtk_drop_target_set_actions(self', actions')
 */
 /* 
-fun gtk_drop_target_set_gtypes(self': NullablePointer[GtkDropTargetT], types': Pointer[U64] tag, n_types': U64): None =>
+fun set_gtypes(self': NullablePointer[GtkDropTargetT], types': Pointer[U64] tag, n_types': U64): None =>
     @gtk_drop_target_set_gtypes(self', types', n_types')
 */
 /* 
-fun gtk_drop_target_set_preload(self': NullablePointer[GtkDropTargetT], preload': I32): None =>
+fun set_preload(self': NullablePointer[GtkDropTargetT], preload': I32): None =>
     @gtk_drop_target_set_preload(self', preload')
 */

@@ -13,10 +13,10 @@ primitive GtkLayoutChildSys
 
 // Methods
 /* 
-fun gtk_layout_child_get_child_widget(layout_child': NullablePointer[GtkLayoutChildT]): Pointer[GtkWidgetT] =>
+fun get_child_widget(layout_child': NullablePointer[GtkLayoutChildT]): NullablePointer[GtkWidgetT] =>
     @gtk_layout_child_get_child_widget(layout_child')
 */
 /* 
-fun gtk_layout_child_get_layout_manager(layout_child': NullablePointer[GtkLayoutChildT]): Pointer[GtkLayoutManagerT] =>
+fun get_layout_manager(layout_child': NullablePointer[GtkLayoutChildT]): NullablePointer[GtkLayoutManagerT] =>
     @gtk_layout_child_get_layout_manager(layout_child')
 */

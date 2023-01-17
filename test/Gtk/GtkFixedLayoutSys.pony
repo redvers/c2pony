@@ -11,7 +11,7 @@ primitive GtkFixedLayoutSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkLayoutManagerT] =>
+fun gnew(): NullablePointer[GtkLayoutManagerT] =>
     @gtk_fixed_layout_new()
 */
 

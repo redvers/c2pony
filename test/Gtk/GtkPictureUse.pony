@@ -9,19 +9,19 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_picture_new[Pointer[GtkWidgetT]]()
-// use @gtk_picture_new_for_file[Pointer[GtkWidgetT]](file': NullablePointer[GFileT])
-// use @gtk_picture_new_for_filename[Pointer[GtkWidgetT]](filename': Pointer[U8] tag)
-// use @gtk_picture_new_for_paintable[Pointer[GtkWidgetT]](paintable': NullablePointer[GdkPaintableT])
-// use @gtk_picture_new_for_pixbuf[Pointer[GtkWidgetT]](pixbuf': NullablePointer[GdkPixbufT])
-// use @gtk_picture_new_for_resource[Pointer[GtkWidgetT]](resource_path': Pointer[U8] tag)
+// use @gtk_picture_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_picture_new_for_file[NullablePointer[GtkWidgetT]](file': NullablePointer[GFileT])
+// use @gtk_picture_new_for_filename[NullablePointer[GtkWidgetT]](filename': Pointer[U8] tag)
+// use @gtk_picture_new_for_paintable[NullablePointer[GtkWidgetT]](paintable': NullablePointer[GdkPaintableT])
+// use @gtk_picture_new_for_pixbuf[NullablePointer[GtkWidgetT]](pixbuf': NullablePointer[GdkPixbufT])
+// use @gtk_picture_new_for_resource[NullablePointer[GtkWidgetT]](resource_path': Pointer[U8] tag)
 
 // Methods
-// use @gtk_picture_get_alternative_text[Pointer[U8]](self': NullablePointer[GtkPictureT])
+// use @gtk_picture_get_alternative_text[Pointer[U8] tag](self': NullablePointer[GtkPictureT])
 // use @gtk_picture_get_can_shrink[I32](self': NullablePointer[GtkPictureT])
-// use @gtk_picture_get_file[Pointer[GFileT]](self': NullablePointer[GtkPictureT])
+// use @gtk_picture_get_file[NullablePointer[GFileT]](self': NullablePointer[GtkPictureT])
 // use @gtk_picture_get_keep_aspect_ratio[I32](self': NullablePointer[GtkPictureT])
-// use @gtk_picture_get_paintable[Pointer[GdkPaintableT]](self': NullablePointer[GtkPictureT])
+// use @gtk_picture_get_paintable[NullablePointer[GdkPaintableT]](self': NullablePointer[GtkPictureT])
 // use @gtk_picture_set_alternative_text[None](self': NullablePointer[GtkPictureT], alternative_text': Pointer[U8] tag)
 // use @gtk_picture_set_can_shrink[None](self': NullablePointer[GtkPictureT], can_shrink': I32)
 // use @gtk_picture_set_file[None](self': NullablePointer[GtkPictureT], file': NullablePointer[GFileT])

@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
-// use @g_socket_service_new[Pointer[GSocketServiceT]]()
+// use @g_socket_service_new[NullablePointer[GSocketServiceT]]()
 
 // Methods
 // use @g_socket_service_is_active[I32](service': NullablePointer[GSocketServiceT])

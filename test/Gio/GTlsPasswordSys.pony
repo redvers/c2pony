@@ -8,40 +8,40 @@ primitive GTlsPasswordSys
 
 // Constructors
 /* 
-fun create(flags': U32, description': Pointer[U8] tag): Pointer[GTlsPasswordT] =>
+fun gnew(flags': U32, description': Pointer[U8] tag): NullablePointer[GTlsPasswordT] =>
     @g_tls_password_new(flags', description')
 */
 
 // Methods
 /* 
-fun g_tls_password_get_description(password': NullablePointer[GTlsPasswordT]): Pointer[U8] =>
+fun get_description(password': NullablePointer[GTlsPasswordT]): Pointer[U8] tag =>
     @g_tls_password_get_description(password')
 */
 /* 
-fun g_tls_password_get_flags(password': NullablePointer[GTlsPasswordT]): U32 =>
+fun get_flags(password': NullablePointer[GTlsPasswordT]): U32 =>
     @g_tls_password_get_flags(password')
 */
 /* 
-fun g_tls_password_get_value(password': NullablePointer[GTlsPasswordT], length': Pointer[U64] tag): Pointer[U8] =>
+fun get_value(password': NullablePointer[GTlsPasswordT], length': Pointer[U64] tag): Pointer[U8] tag =>
     @g_tls_password_get_value(password', length')
 */
 /* 
-fun g_tls_password_get_warning(password': NullablePointer[GTlsPasswordT]): Pointer[U8] =>
+fun get_warning(password': NullablePointer[GTlsPasswordT]): Pointer[U8] tag =>
     @g_tls_password_get_warning(password')
 */
 /* 
-fun g_tls_password_set_description(password': NullablePointer[GTlsPasswordT], description': Pointer[U8] tag): None =>
+fun set_description(password': NullablePointer[GTlsPasswordT], description': Pointer[U8] tag): None =>
     @g_tls_password_set_description(password', description')
 */
 /* 
-fun g_tls_password_set_flags(password': NullablePointer[GTlsPasswordT], flags': U32): None =>
+fun set_flags(password': NullablePointer[GTlsPasswordT], flags': U32): None =>
     @g_tls_password_set_flags(password', flags')
 */
 /* 
-fun g_tls_password_set_value(password': NullablePointer[GTlsPasswordT], value': Pointer[U8] tag, length': I64): None =>
+fun set_value(password': NullablePointer[GTlsPasswordT], value': Pointer[U8] tag, length': I64): None =>
     @g_tls_password_set_value(password', value', length')
 */
 /* 
-fun g_tls_password_set_warning(password': NullablePointer[GTlsPasswordT], warning': Pointer[U8] tag): None =>
+fun set_warning(password': NullablePointer[GTlsPasswordT], warning': Pointer[U8] tag): None =>
     @g_tls_password_set_warning(password', warning')
 */

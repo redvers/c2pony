@@ -4,7 +4,7 @@ use "lib:glib-2.0"
 primitive GAsyncQueueSys
 // Static Functions
 /* 
-fun create(): Pointer[GAsyncQueueT] =>
+fun gnew(): NullablePointer[GAsyncQueueT] =>
     @g_async_queue_new()
 */
 
@@ -12,90 +12,90 @@ fun create(): Pointer[GAsyncQueueT] =>
 
 // Methods
 /* 
-fun g_async_queue_length(queue': NullablePointer[GAsyncQueueT]): I32 =>
+fun length(queue': NullablePointer[GAsyncQueueT]): I32 =>
     @g_async_queue_length(queue')
 */
 /* 
-fun g_async_queue_length_unlocked(queue': NullablePointer[GAsyncQueueT]): I32 =>
+fun length_unlocked(queue': NullablePointer[GAsyncQueueT]): I32 =>
     @g_async_queue_length_unlocked(queue')
 */
 /* 
-fun g_async_queue_lock(queue': NullablePointer[GAsyncQueueT]): None =>
+fun lock(queue': NullablePointer[GAsyncQueueT]): None =>
     @g_async_queue_lock(queue')
 */
 /* 
-fun g_async_queue_pop(queue': NullablePointer[GAsyncQueueT]): Pointer[None] =>
+fun pop(queue': NullablePointer[GAsyncQueueT]): Pointer[None] tag =>
     @g_async_queue_pop(queue')
 */
 /* 
-fun g_async_queue_pop_unlocked(queue': NullablePointer[GAsyncQueueT]): Pointer[None] =>
+fun pop_unlocked(queue': NullablePointer[GAsyncQueueT]): Pointer[None] tag =>
     @g_async_queue_pop_unlocked(queue')
 */
 /* 
-fun g_async_queue_push(queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag): None =>
+fun push(queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag): None =>
     @g_async_queue_push(queue', data')
 */
 /* 
-fun g_async_queue_push_front(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): None =>
+fun push_front(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): None =>
     @g_async_queue_push_front(queue', item')
 */
 /* 
-fun g_async_queue_push_front_unlocked(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): None =>
+fun push_front_unlocked(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): None =>
     @g_async_queue_push_front_unlocked(queue', item')
 */
 /* 
-fun g_async_queue_push_unlocked(queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag): None =>
+fun push_unlocked(queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag): None =>
     @g_async_queue_push_unlocked(queue', data')
 */
 /* 
-fun g_async_queue_ref(queue': NullablePointer[GAsyncQueueT]): Pointer[GAsyncQueueT] =>
+fun ref(queue': NullablePointer[GAsyncQueueT]): NullablePointer[GAsyncQueueT] =>
     @g_async_queue_ref(queue')
 */
 /* 
-fun g_async_queue_ref_unlocked(queue': NullablePointer[GAsyncQueueT]): None =>
+fun ref_unlocked(queue': NullablePointer[GAsyncQueueT]): None =>
     @g_async_queue_ref_unlocked(queue')
 */
 /* 
-fun g_async_queue_remove(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): I32 =>
+fun remove(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): I32 =>
     @g_async_queue_remove(queue', item')
 */
 /* 
-fun g_async_queue_remove_unlocked(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): I32 =>
+fun remove_unlocked(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): I32 =>
     @g_async_queue_remove_unlocked(queue', item')
 */
 /* 
-fun g_async_queue_timed_pop(queue': NullablePointer[GAsyncQueueT], end_time': NullablePointer[GTimeValT]): Pointer[None] =>
+fun timed_pop(queue': NullablePointer[GAsyncQueueT], end_time': NullablePointer[GTimeValT]): Pointer[None] tag =>
     @g_async_queue_timed_pop(queue', end_time')
 */
 /* 
-fun g_async_queue_timed_pop_unlocked(queue': NullablePointer[GAsyncQueueT], end_time': NullablePointer[GTimeValT]): Pointer[None] =>
+fun timed_pop_unlocked(queue': NullablePointer[GAsyncQueueT], end_time': NullablePointer[GTimeValT]): Pointer[None] tag =>
     @g_async_queue_timed_pop_unlocked(queue', end_time')
 */
 /* 
-fun g_async_queue_timeout_pop(queue': NullablePointer[GAsyncQueueT], timeout': U64): Pointer[None] =>
+fun timeout_pop(queue': NullablePointer[GAsyncQueueT], timeout': U64): Pointer[None] tag =>
     @g_async_queue_timeout_pop(queue', timeout')
 */
 /* 
-fun g_async_queue_timeout_pop_unlocked(queue': NullablePointer[GAsyncQueueT], timeout': U64): Pointer[None] =>
+fun timeout_pop_unlocked(queue': NullablePointer[GAsyncQueueT], timeout': U64): Pointer[None] tag =>
     @g_async_queue_timeout_pop_unlocked(queue', timeout')
 */
 /* 
-fun g_async_queue_try_pop(queue': NullablePointer[GAsyncQueueT]): Pointer[None] =>
+fun try_pop(queue': NullablePointer[GAsyncQueueT]): Pointer[None] tag =>
     @g_async_queue_try_pop(queue')
 */
 /* 
-fun g_async_queue_try_pop_unlocked(queue': NullablePointer[GAsyncQueueT]): Pointer[None] =>
+fun try_pop_unlocked(queue': NullablePointer[GAsyncQueueT]): Pointer[None] tag =>
     @g_async_queue_try_pop_unlocked(queue')
 */
 /* 
-fun g_async_queue_unlock(queue': NullablePointer[GAsyncQueueT]): None =>
+fun unlock(queue': NullablePointer[GAsyncQueueT]): None =>
     @g_async_queue_unlock(queue')
 */
 /* 
-fun g_async_queue_unref(queue': NullablePointer[GAsyncQueueT]): None =>
+fun unref(queue': NullablePointer[GAsyncQueueT]): None =>
     @g_async_queue_unref(queue')
 */
 /* 
-fun g_async_queue_unref_and_unlock(queue': NullablePointer[GAsyncQueueT]): None =>
+fun unref_and_unlock(queue': NullablePointer[GAsyncQueueT]): None =>
     @g_async_queue_unref_and_unlock(queue')
 */

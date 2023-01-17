@@ -11,12 +11,12 @@ primitive GtkGestureZoomSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkGestureT] =>
+fun gnew(): NullablePointer[GtkGestureT] =>
     @gtk_gesture_zoom_new()
 */
 
 // Methods
 /* 
-fun gtk_gesture_zoom_get_scale_delta(gesture': NullablePointer[GtkGestureZoomT]): F64 =>
+fun get_scale_delta(gesture': NullablePointer[GtkGestureZoomT]): F64 =>
     @gtk_gesture_zoom_get_scale_delta(gesture')
 */

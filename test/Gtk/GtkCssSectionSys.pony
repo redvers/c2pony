@@ -11,40 +11,40 @@ primitive GtkCssSectionSys
 
 // Constructors
 /* 
-fun create(file': NullablePointer[GFileT], start': NullablePointer[GtkCssLocationT], end': NullablePointer[GtkCssLocationT]): Pointer[GtkCssSectionT] =>
+fun gnew(file': NullablePointer[GFileT], start': NullablePointer[GtkCssLocationT], end': NullablePointer[GtkCssLocationT]): NullablePointer[GtkCssSectionT] =>
     @gtk_css_section_new(file', start', end')
 */
 
 // Methods
 /* 
-fun gtk_css_section_get_end_location(section': NullablePointer[GtkCssSectionT]): Pointer[GtkCssLocationT] =>
+fun get_end_location(section': NullablePointer[GtkCssSectionT]): NullablePointer[GtkCssLocationT] =>
     @gtk_css_section_get_end_location(section')
 */
 /* 
-fun gtk_css_section_get_file(section': NullablePointer[GtkCssSectionT]): Pointer[GFileT] =>
+fun get_file(section': NullablePointer[GtkCssSectionT]): NullablePointer[GFileT] =>
     @gtk_css_section_get_file(section')
 */
 /* 
-fun gtk_css_section_get_parent(section': NullablePointer[GtkCssSectionT]): Pointer[GtkCssSectionT] =>
+fun get_parent(section': NullablePointer[GtkCssSectionT]): NullablePointer[GtkCssSectionT] =>
     @gtk_css_section_get_parent(section')
 */
 /* 
-fun gtk_css_section_get_start_location(section': NullablePointer[GtkCssSectionT]): Pointer[GtkCssLocationT] =>
+fun get_start_location(section': NullablePointer[GtkCssSectionT]): NullablePointer[GtkCssLocationT] =>
     @gtk_css_section_get_start_location(section')
 */
 /* 
-fun gtk_css_section_print(section': NullablePointer[GtkCssSectionT], string': NullablePointer[GStringT]): None =>
+fun print(section': NullablePointer[GtkCssSectionT], string': NullablePointer[GStringT]): None =>
     @gtk_css_section_print(section', string')
 */
 /* 
-fun gtk_css_section_ref(section': NullablePointer[GtkCssSectionT]): Pointer[GtkCssSectionT] =>
+fun ref(section': NullablePointer[GtkCssSectionT]): NullablePointer[GtkCssSectionT] =>
     @gtk_css_section_ref(section')
 */
 /* 
-fun gtk_css_section_to_string(section': NullablePointer[GtkCssSectionT]): Pointer[U8] =>
+fun to_string(section': NullablePointer[GtkCssSectionT]): Pointer[U8] tag =>
     @gtk_css_section_to_string(section')
 */
 /* 
-fun gtk_css_section_unref(section': NullablePointer[GtkCssSectionT]): None =>
+fun unref(section': NullablePointer[GtkCssSectionT]): None =>
     @gtk_css_section_unref(section')
 */

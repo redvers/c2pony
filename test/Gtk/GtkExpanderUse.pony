@@ -9,14 +9,14 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_expander_new[Pointer[GtkWidgetT]](label': Pointer[U8] tag)
-// use @gtk_expander_new_with_mnemonic[Pointer[GtkWidgetT]](label': Pointer[U8] tag)
+// use @gtk_expander_new[NullablePointer[GtkWidgetT]](label': Pointer[U8] tag)
+// use @gtk_expander_new_with_mnemonic[NullablePointer[GtkWidgetT]](label': Pointer[U8] tag)
 
 // Methods
-// use @gtk_expander_get_child[Pointer[GtkWidgetT]](expander': NullablePointer[GtkExpanderT])
+// use @gtk_expander_get_child[NullablePointer[GtkWidgetT]](expander': NullablePointer[GtkExpanderT])
 // use @gtk_expander_get_expanded[I32](expander': NullablePointer[GtkExpanderT])
-// use @gtk_expander_get_label[Pointer[U8]](expander': NullablePointer[GtkExpanderT])
-// use @gtk_expander_get_label_widget[Pointer[GtkWidgetT]](expander': NullablePointer[GtkExpanderT])
+// use @gtk_expander_get_label[Pointer[U8] tag](expander': NullablePointer[GtkExpanderT])
+// use @gtk_expander_get_label_widget[NullablePointer[GtkWidgetT]](expander': NullablePointer[GtkExpanderT])
 // use @gtk_expander_get_resize_toplevel[I32](expander': NullablePointer[GtkExpanderT])
 // use @gtk_expander_get_use_markup[I32](expander': NullablePointer[GtkExpanderT])
 // use @gtk_expander_get_use_underline[I32](expander': NullablePointer[GtkExpanderT])

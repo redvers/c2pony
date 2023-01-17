@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_gesture_long_press_new[Pointer[GtkGestureT]]()
+// use @gtk_gesture_long_press_new[NullablePointer[GtkGestureT]]()
 
 // Methods
 // use @gtk_gesture_long_press_get_delay_factor[F64](gesture': NullablePointer[GtkGestureLongPressT])

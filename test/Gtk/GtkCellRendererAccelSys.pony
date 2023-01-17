@@ -11,7 +11,7 @@ primitive GtkCellRendererAccelSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkCellRendererT] =>
+fun gnew(): NullablePointer[GtkCellRendererT] =>
     @gtk_cell_renderer_accel_new()
 */
 

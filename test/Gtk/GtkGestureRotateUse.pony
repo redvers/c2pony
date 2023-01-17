@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_gesture_rotate_new[Pointer[GtkGestureT]]()
+// use @gtk_gesture_rotate_new[NullablePointer[GtkGestureT]]()
 
 // Methods
 // use @gtk_gesture_rotate_get_angle_delta[F64](gesture': NullablePointer[GtkGestureRotateT])

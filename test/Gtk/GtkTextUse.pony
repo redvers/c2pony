@@ -9,24 +9,24 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_text_new[Pointer[GtkWidgetT]]()
-// use @gtk_text_new_with_buffer[Pointer[GtkWidgetT]](buffer': NullablePointer[GtkEntryBufferT])
+// use @gtk_text_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_text_new_with_buffer[NullablePointer[GtkWidgetT]](buffer': NullablePointer[GtkEntryBufferT])
 
 // Methods
 // use @gtk_text_compute_cursor_extents[None](self': NullablePointer[GtkTextT], position': U64, strong': NullablePointer[graphenerecttT], weak': NullablePointer[graphenerecttT])
 // use @gtk_text_get_activates_default[I32](self': NullablePointer[GtkTextT])
-// use @gtk_text_get_attributes[Pointer[PangoAttrListT]](self': NullablePointer[GtkTextT])
-// use @gtk_text_get_buffer[Pointer[GtkEntryBufferT]](self': NullablePointer[GtkTextT])
+// use @gtk_text_get_attributes[NullablePointer[PangoAttrListT]](self': NullablePointer[GtkTextT])
+// use @gtk_text_get_buffer[NullablePointer[GtkEntryBufferT]](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_enable_emoji_completion[I32](self': NullablePointer[GtkTextT])
-// use @gtk_text_get_extra_menu[Pointer[GMenuModelT]](self': NullablePointer[GtkTextT])
+// use @gtk_text_get_extra_menu[NullablePointer[GMenuModelT]](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_input_hints[U32](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_input_purpose[U32](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_invisible_char[U32](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_max_length[I32](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_overwrite_mode[I32](self': NullablePointer[GtkTextT])
-// use @gtk_text_get_placeholder_text[Pointer[U8]](self': NullablePointer[GtkTextT])
+// use @gtk_text_get_placeholder_text[Pointer[U8] tag](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_propagate_text_width[I32](self': NullablePointer[GtkTextT])
-// use @gtk_text_get_tabs[Pointer[PangoTabArrayT]](self': NullablePointer[GtkTextT])
+// use @gtk_text_get_tabs[NullablePointer[PangoTabArrayT]](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_text_length[U16](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_truncate_multiline[I32](self': NullablePointer[GtkTextT])
 // use @gtk_text_get_visibility[I32](self': NullablePointer[GtkTextT])

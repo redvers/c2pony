@@ -12,8 +12,8 @@ use "lib:gtk-4"
 
 // Methods
 // use @gtk_list_item_get_activatable[I32](self': NullablePointer[GtkListItemT])
-// use @gtk_list_item_get_child[Pointer[GtkWidgetT]](self': NullablePointer[GtkListItemT])
-// use @gtk_list_item_get_item[Pointer[None]](self': NullablePointer[GtkListItemT])
+// use @gtk_list_item_get_child[NullablePointer[GtkWidgetT]](self': NullablePointer[GtkListItemT])
+// use @gtk_list_item_get_item[Pointer[None] tag](self': NullablePointer[GtkListItemT])
 // use @gtk_list_item_get_position[U32](self': NullablePointer[GtkListItemT])
 // use @gtk_list_item_get_selectable[I32](self': NullablePointer[GtkListItemT])
 // use @gtk_list_item_get_selected[I32](self': NullablePointer[GtkListItemT])

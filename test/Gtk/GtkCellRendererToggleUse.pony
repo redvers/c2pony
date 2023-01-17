@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_cell_renderer_toggle_new[Pointer[GtkCellRendererT]]()
+// use @gtk_cell_renderer_toggle_new[NullablePointer[GtkCellRendererT]]()
 
 // Methods
 // use @gtk_cell_renderer_toggle_get_activatable[I32](toggle': NullablePointer[GtkCellRendererToggleT])

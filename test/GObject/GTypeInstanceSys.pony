@@ -9,6 +9,6 @@ primitive GTypeInstanceSys
 
 // Methods
 /* 
-fun g_type_instance_get_private(instance': NullablePointer[GTypeInstanceT], private_type': U64): Pointer[None] =>
+fun get_private(instance': NullablePointer[GTypeInstanceT], private_type': U64): Pointer[None] tag =>
     @g_type_instance_get_private(instance', private_type')
 */

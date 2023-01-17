@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
-// use @g_list_store_new[Pointer[GListStoreT]](item_type': U64)
+// use @g_list_store_new[NullablePointer[GListStoreT]](item_type': U64)
 
 // Methods
 // use @g_list_store_append[None](store': NullablePointer[GListStoreT], item': Pointer[None] tag)

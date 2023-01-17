@@ -9,20 +9,20 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_image_new[Pointer[GtkWidgetT]]()
-// use @gtk_image_new_from_file[Pointer[GtkWidgetT]](filename': Pointer[U8] tag)
-// use @gtk_image_new_from_gicon[Pointer[GtkWidgetT]](icon': NullablePointer[GIconT])
-// use @gtk_image_new_from_icon_name[Pointer[GtkWidgetT]](icon_name': Pointer[U8] tag)
-// use @gtk_image_new_from_paintable[Pointer[GtkWidgetT]](paintable': NullablePointer[GdkPaintableT])
-// use @gtk_image_new_from_pixbuf[Pointer[GtkWidgetT]](pixbuf': NullablePointer[GdkPixbufT])
-// use @gtk_image_new_from_resource[Pointer[GtkWidgetT]](resource_path': Pointer[U8] tag)
+// use @gtk_image_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_image_new_from_file[NullablePointer[GtkWidgetT]](filename': Pointer[U8] tag)
+// use @gtk_image_new_from_gicon[NullablePointer[GtkWidgetT]](icon': NullablePointer[GIconT])
+// use @gtk_image_new_from_icon_name[NullablePointer[GtkWidgetT]](icon_name': Pointer[U8] tag)
+// use @gtk_image_new_from_paintable[NullablePointer[GtkWidgetT]](paintable': NullablePointer[GdkPaintableT])
+// use @gtk_image_new_from_pixbuf[NullablePointer[GtkWidgetT]](pixbuf': NullablePointer[GdkPixbufT])
+// use @gtk_image_new_from_resource[NullablePointer[GtkWidgetT]](resource_path': Pointer[U8] tag)
 
 // Methods
 // use @gtk_image_clear[None](image': NullablePointer[GtkImageT])
-// use @gtk_image_get_gicon[Pointer[GIconT]](image': NullablePointer[GtkImageT])
-// use @gtk_image_get_icon_name[Pointer[U8]](image': NullablePointer[GtkImageT])
+// use @gtk_image_get_gicon[NullablePointer[GIconT]](image': NullablePointer[GtkImageT])
+// use @gtk_image_get_icon_name[Pointer[U8] tag](image': NullablePointer[GtkImageT])
 // use @gtk_image_get_icon_size[U32](image': NullablePointer[GtkImageT])
-// use @gtk_image_get_paintable[Pointer[GdkPaintableT]](image': NullablePointer[GtkImageT])
+// use @gtk_image_get_paintable[NullablePointer[GdkPaintableT]](image': NullablePointer[GtkImageT])
 // use @gtk_image_get_pixel_size[I32](image': NullablePointer[GtkImageT])
 // use @gtk_image_get_storage_type[U32](image': NullablePointer[GtkImageT])
 // use @gtk_image_set_from_file[None](image': NullablePointer[GtkImageT], filename': Pointer[U8] tag)

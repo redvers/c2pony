@@ -8,7 +8,7 @@ primitive GSimplePermissionSys
 
 // Constructors
 /* 
-fun create(allowed': I32): Pointer[GPermissionT] =>
+fun gnew(allowed': I32): NullablePointer[GPermissionT] =>
     @g_simple_permission_new(allowed')
 */
 

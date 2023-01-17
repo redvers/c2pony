@@ -11,28 +11,28 @@ primitive GtkColorButtonSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkWidgetT] =>
+fun gnew(): NullablePointer[GtkWidgetT] =>
     @gtk_color_button_new()
 */
 /* 
-fun new_with_rgba(rgba': NullablePointer[GdkRGBAT]): Pointer[GtkWidgetT] =>
+fun new_with_rgba(rgba': NullablePointer[GdkRGBAT]): NullablePointer[GtkWidgetT] =>
     @gtk_color_button_new_with_rgba(rgba')
 */
 
 // Methods
 /* 
-fun gtk_color_button_get_modal(button': NullablePointer[GtkColorButtonT]): I32 =>
+fun get_modal(button': NullablePointer[GtkColorButtonT]): I32 =>
     @gtk_color_button_get_modal(button')
 */
 /* 
-fun gtk_color_button_get_title(button': NullablePointer[GtkColorButtonT]): Pointer[U8] =>
+fun get_title(button': NullablePointer[GtkColorButtonT]): Pointer[U8] tag =>
     @gtk_color_button_get_title(button')
 */
 /* 
-fun gtk_color_button_set_modal(button': NullablePointer[GtkColorButtonT], modal': I32): None =>
+fun set_modal(button': NullablePointer[GtkColorButtonT], modal': I32): None =>
     @gtk_color_button_set_modal(button', modal')
 */
 /* 
-fun gtk_color_button_set_title(button': NullablePointer[GtkColorButtonT], title': Pointer[U8] tag): None =>
+fun set_title(button': NullablePointer[GtkColorButtonT], title': Pointer[U8] tag): None =>
     @gtk_color_button_set_title(button', title')
 */

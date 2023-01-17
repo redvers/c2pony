@@ -13,8 +13,8 @@ use "lib:gtk-4"
 // Methods
 // use @gtk_native_dialog_destroy[None](self': NullablePointer[GtkNativeDialogT])
 // use @gtk_native_dialog_get_modal[I32](self': NullablePointer[GtkNativeDialogT])
-// use @gtk_native_dialog_get_title[Pointer[U8]](self': NullablePointer[GtkNativeDialogT])
-// use @gtk_native_dialog_get_transient_for[Pointer[GtkWindowT]](self': NullablePointer[GtkNativeDialogT])
+// use @gtk_native_dialog_get_title[Pointer[U8] tag](self': NullablePointer[GtkNativeDialogT])
+// use @gtk_native_dialog_get_transient_for[NullablePointer[GtkWindowT]](self': NullablePointer[GtkNativeDialogT])
 // use @gtk_native_dialog_get_visible[I32](self': NullablePointer[GtkNativeDialogT])
 // use @gtk_native_dialog_hide[None](self': NullablePointer[GtkNativeDialogT])
 // use @gtk_native_dialog_set_modal[None](self': NullablePointer[GtkNativeDialogT], modal': I32)

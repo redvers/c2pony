@@ -10,32 +10,32 @@ fun type_get_length(checksum_type': U32): I64 =>
 
 // Constructors
 /* 
-fun create(checksum_type': U32): Pointer[GChecksumT] =>
+fun gnew(checksum_type': U32): NullablePointer[GChecksumT] =>
     @g_checksum_new(checksum_type')
 */
 
 // Methods
 /* 
-fun g_checksum_copy(checksum': NullablePointer[GChecksumT]): Pointer[GChecksumT] =>
+fun copy(checksum': NullablePointer[GChecksumT]): NullablePointer[GChecksumT] =>
     @g_checksum_copy(checksum')
 */
 /* 
-fun g_checksum_free(checksum': NullablePointer[GChecksumT]): None =>
+fun free(checksum': NullablePointer[GChecksumT]): None =>
     @g_checksum_free(checksum')
 */
 /* 
-fun g_checksum_get_digest(checksum': NullablePointer[GChecksumT], buffer': Pointer[U8] tag, digest_len': Pointer[U64] tag): None =>
+fun get_digest(checksum': NullablePointer[GChecksumT], buffer': Pointer[U8] tag, digest_len': Pointer[U64] tag): None =>
     @g_checksum_get_digest(checksum', buffer', digest_len')
 */
 /* 
-fun g_checksum_get_string(checksum': NullablePointer[GChecksumT]): Pointer[U8] =>
+fun get_string(checksum': NullablePointer[GChecksumT]): Pointer[U8] tag =>
     @g_checksum_get_string(checksum')
 */
 /* 
-fun g_checksum_reset(checksum': NullablePointer[GChecksumT]): None =>
+fun reset(checksum': NullablePointer[GChecksumT]): None =>
     @g_checksum_reset(checksum')
 */
 /* 
-fun g_checksum_update(checksum': NullablePointer[GChecksumT], data': Pointer[U8] tag, length': I64): None =>
+fun update(checksum': NullablePointer[GChecksumT], data': Pointer[U8] tag, length': I64): None =>
     @g_checksum_update(checksum', data', length')
 */

@@ -9,12 +9,12 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_spin_button_new[Pointer[GtkWidgetT]](adjustment': NullablePointer[GtkAdjustmentT], climb_rate': F64, digits': U32)
-// use @gtk_spin_button_new_with_range[Pointer[GtkWidgetT]](min': F64, max': F64, step': F64)
+// use @gtk_spin_button_new[NullablePointer[GtkWidgetT]](adjustment': NullablePointer[GtkAdjustmentT], climb_rate': F64, digits': U32)
+// use @gtk_spin_button_new_with_range[NullablePointer[GtkWidgetT]](min': F64, max': F64, step': F64)
 
 // Methods
 // use @gtk_spin_button_configure[None](spin_button': NullablePointer[GtkSpinButtonT], adjustment': NullablePointer[GtkAdjustmentT], climb_rate': F64, digits': U32)
-// use @gtk_spin_button_get_adjustment[Pointer[GtkAdjustmentT]](spin_button': NullablePointer[GtkSpinButtonT])
+// use @gtk_spin_button_get_adjustment[NullablePointer[GtkAdjustmentT]](spin_button': NullablePointer[GtkSpinButtonT])
 // use @gtk_spin_button_get_climb_rate[F64](spin_button': NullablePointer[GtkSpinButtonT])
 // use @gtk_spin_button_get_digits[U32](spin_button': NullablePointer[GtkSpinButtonT])
 // use @gtk_spin_button_get_increments[None](spin_button': NullablePointer[GtkSpinButtonT], step': Pointer[F64] tag, page': Pointer[F64] tag)

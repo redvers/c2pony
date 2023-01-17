@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_box_new[Pointer[GtkWidgetT]](orientation': U32, spacing': I32)
+// use @gtk_box_new[NullablePointer[GtkWidgetT]](orientation': U32, spacing': I32)
 
 // Methods
 // use @gtk_box_append[None](box': NullablePointer[GtkBoxT], child': NullablePointer[GtkWidgetT])

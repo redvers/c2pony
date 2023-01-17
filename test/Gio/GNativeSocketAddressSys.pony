@@ -8,7 +8,7 @@ primitive GNativeSocketAddressSys
 
 // Constructors
 /* 
-fun create(native': Pointer[None] tag, len': U64): Pointer[GSocketAddressT] =>
+fun gnew(native': Pointer[None] tag, len': U64): NullablePointer[GSocketAddressT] =>
     @g_native_socket_address_new(native', len')
 */
 

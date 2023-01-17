@@ -11,7 +11,7 @@ primitive GtkOverlayLayoutSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkLayoutManagerT] =>
+fun gnew(): NullablePointer[GtkLayoutManagerT] =>
     @gtk_overlay_layout_new()
 */
 

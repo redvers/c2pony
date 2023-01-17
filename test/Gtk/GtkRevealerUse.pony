@@ -9,10 +9,10 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_revealer_new[Pointer[GtkWidgetT]]()
+// use @gtk_revealer_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
-// use @gtk_revealer_get_child[Pointer[GtkWidgetT]](revealer': NullablePointer[GtkRevealerT])
+// use @gtk_revealer_get_child[NullablePointer[GtkWidgetT]](revealer': NullablePointer[GtkRevealerT])
 // use @gtk_revealer_get_child_revealed[I32](revealer': NullablePointer[GtkRevealerT])
 // use @gtk_revealer_get_reveal_child[I32](revealer': NullablePointer[GtkRevealerT])
 // use @gtk_revealer_get_transition_duration[U32](revealer': NullablePointer[GtkRevealerT])

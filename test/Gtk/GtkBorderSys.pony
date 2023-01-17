@@ -11,16 +11,16 @@ primitive GtkBorderSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkBorderT] =>
+fun gnew(): NullablePointer[GtkBorderT] =>
     @gtk_border_new()
 */
 
 // Methods
 /* 
-fun gtk_border_copy(border_': NullablePointer[GtkBorderT]): Pointer[GtkBorderT] =>
+fun copy(border_': NullablePointer[GtkBorderT]): NullablePointer[GtkBorderT] =>
     @gtk_border_copy(border_')
 */
 /* 
-fun gtk_border_free(border_': NullablePointer[GtkBorderT]): None =>
+fun free(border_': NullablePointer[GtkBorderT]): None =>
     @gtk_border_free(border_')
 */

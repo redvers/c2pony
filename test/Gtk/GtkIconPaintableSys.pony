@@ -11,20 +11,20 @@ primitive GtkIconPaintableSys
 
 // Constructors
 /* 
-fun new_for_file(file': NullablePointer[GFileT], size': I32, scale': I32): Pointer[GtkIconPaintableT] =>
+fun new_for_file(file': NullablePointer[GFileT], size': I32, scale': I32): NullablePointer[GtkIconPaintableT] =>
     @gtk_icon_paintable_new_for_file(file', size', scale')
 */
 
 // Methods
 /* 
-fun gtk_icon_paintable_get_file(self': NullablePointer[GtkIconPaintableT]): Pointer[GFileT] =>
+fun get_file(self': NullablePointer[GtkIconPaintableT]): NullablePointer[GFileT] =>
     @gtk_icon_paintable_get_file(self')
 */
 /* 
-fun gtk_icon_paintable_get_icon_name(self': NullablePointer[GtkIconPaintableT]): Pointer[U8] =>
+fun get_icon_name(self': NullablePointer[GtkIconPaintableT]): Pointer[U8] tag =>
     @gtk_icon_paintable_get_icon_name(self')
 */
 /* 
-fun gtk_icon_paintable_is_symbolic(self': NullablePointer[GtkIconPaintableT]): I32 =>
+fun is_symbolic(self': NullablePointer[GtkIconPaintableT]): I32 =>
     @gtk_icon_paintable_is_symbolic(self')
 */

@@ -9,11 +9,11 @@ use "lib:gtk-4"
 primitive GtkDragIconSys
 // Static Functions
 /* 
-fun create_widget_for_value(value': NullablePointer[GValueT]): Pointer[GtkWidgetT] =>
+fun create_widget_for_value(value': NullablePointer[GValueT]): NullablePointer[GtkWidgetT] =>
     @gtk_drag_icon_create_widget_for_value(value')
 */
 /* 
-fun get_for_drag(drag': NullablePointer[GdkDragT]): Pointer[GtkWidgetT] =>
+fun get_for_drag(drag': NullablePointer[GdkDragT]): NullablePointer[GtkWidgetT] =>
     @gtk_drag_icon_get_for_drag(drag')
 */
 /* 
@@ -25,10 +25,10 @@ fun set_from_paintable(drag': NullablePointer[GdkDragT], paintable': NullablePoi
 
 // Methods
 /* 
-fun gtk_drag_icon_get_child(self': NullablePointer[GtkDragIconT]): Pointer[GtkWidgetT] =>
+fun get_child(self': NullablePointer[GtkDragIconT]): NullablePointer[GtkWidgetT] =>
     @gtk_drag_icon_get_child(self')
 */
 /* 
-fun gtk_drag_icon_set_child(self': NullablePointer[GtkDragIconT], child': NullablePointer[GtkWidgetT]): None =>
+fun set_child(self': NullablePointer[GtkDragIconT], child': NullablePointer[GtkWidgetT]): None =>
     @gtk_drag_icon_set_child(self', child')
 */

@@ -9,12 +9,12 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_icon_view_new[Pointer[GtkWidgetT]]()
-// use @gtk_icon_view_new_with_area[Pointer[GtkWidgetT]](area': NullablePointer[GtkCellAreaT])
-// use @gtk_icon_view_new_with_model[Pointer[GtkWidgetT]](model': NullablePointer[GtkTreeModelT])
+// use @gtk_icon_view_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_icon_view_new_with_area[NullablePointer[GtkWidgetT]](area': NullablePointer[GtkCellAreaT])
+// use @gtk_icon_view_new_with_model[NullablePointer[GtkWidgetT]](model': NullablePointer[GtkTreeModelT])
 
 // Methods
-// use @gtk_icon_view_create_drag_icon[Pointer[GdkPaintableT]](icon_view': NullablePointer[GtkIconViewT], path': NullablePointer[GtkTreePathT])
+// use @gtk_icon_view_create_drag_icon[NullablePointer[GdkPaintableT]](icon_view': NullablePointer[GtkIconViewT], path': NullablePointer[GtkTreePathT])
 // use @gtk_icon_view_enable_model_drag_dest[None](icon_view': NullablePointer[GtkIconViewT], formats': NullablePointer[GdkContentFormatsT], actions': U32)
 // use @gtk_icon_view_enable_model_drag_source[None](icon_view': NullablePointer[GtkIconViewT], start_button_mask': U32, formats': NullablePointer[GdkContentFormatsT], actions': U32)
 // use @gtk_icon_view_get_activate_on_single_click[I32](icon_view': NullablePointer[GtkIconViewT])
@@ -32,12 +32,12 @@ use "lib:gtk-4"
 // use @gtk_icon_view_get_item_width[I32](icon_view': NullablePointer[GtkIconViewT])
 // use @gtk_icon_view_get_margin[I32](icon_view': NullablePointer[GtkIconViewT])
 // use @gtk_icon_view_get_markup_column[I32](icon_view': NullablePointer[GtkIconViewT])
-// use @gtk_icon_view_get_model[Pointer[GtkTreeModelT]](icon_view': NullablePointer[GtkIconViewT])
-// use @gtk_icon_view_get_path_at_pos[Pointer[GtkTreePathT]](icon_view': NullablePointer[GtkIconViewT], x': I32, y': I32)
+// use @gtk_icon_view_get_model[NullablePointer[GtkTreeModelT]](icon_view': NullablePointer[GtkIconViewT])
+// use @gtk_icon_view_get_path_at_pos[NullablePointer[GtkTreePathT]](icon_view': NullablePointer[GtkIconViewT], x': I32, y': I32)
 // use @gtk_icon_view_get_pixbuf_column[I32](icon_view': NullablePointer[GtkIconViewT])
 // use @gtk_icon_view_get_reorderable[I32](icon_view': NullablePointer[GtkIconViewT])
 // use @gtk_icon_view_get_row_spacing[I32](icon_view': NullablePointer[GtkIconViewT])
-// use @gtk_icon_view_get_selected_items[Pointer[GListT]](icon_view': NullablePointer[GtkIconViewT])
+// use @gtk_icon_view_get_selected_items[NullablePointer[GListT]](icon_view': NullablePointer[GtkIconViewT])
 // use @gtk_icon_view_get_selection_mode[U32](icon_view': NullablePointer[GtkIconViewT])
 // use @gtk_icon_view_get_spacing[I32](icon_view': NullablePointer[GtkIconViewT])
 // use @gtk_icon_view_get_text_column[I32](icon_view': NullablePointer[GtkIconViewT])

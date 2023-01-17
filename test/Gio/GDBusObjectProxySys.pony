@@ -8,12 +8,12 @@ primitive GDBusObjectProxySys
 
 // Constructors
 /* 
-fun create(connection': NullablePointer[GDBusConnectionT], object_path': Pointer[U8] tag): Pointer[GDBusObjectProxyT] =>
+fun gnew(connection': NullablePointer[GDBusConnectionT], object_path': Pointer[U8] tag): NullablePointer[GDBusObjectProxyT] =>
     @g_dbus_object_proxy_new(connection', object_path')
 */
 
 // Methods
 /* 
-fun g_dbus_object_proxy_get_connection(proxy': NullablePointer[GDBusObjectProxyT]): Pointer[GDBusConnectionT] =>
+fun get_connection(proxy': NullablePointer[GDBusObjectProxyT]): NullablePointer[GDBusConnectionT] =>
     @g_dbus_object_proxy_get_connection(proxy')
 */

@@ -10,10 +10,10 @@ primitive GDBusSignalInfoSys
 
 // Methods
 /* 
-fun g_dbus_signal_info_ref(info': NullablePointer[GDBusSignalInfoT]): Pointer[GDBusSignalInfoT] =>
+fun ref(info': NullablePointer[GDBusSignalInfoT]): NullablePointer[GDBusSignalInfoT] =>
     @g_dbus_signal_info_ref(info')
 */
 /* 
-fun g_dbus_signal_info_unref(info': NullablePointer[GDBusSignalInfoT]): None =>
+fun unref(info': NullablePointer[GDBusSignalInfoT]): None =>
     @g_dbus_signal_info_unref(info')
 */

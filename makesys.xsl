@@ -55,7 +55,7 @@
         <xsl:text>// Methods</xsl:text><xsl:value-of select="$newline"/>
         <xsl:for-each select="$root/rendermethod">
           <xsl:call-template name="mainfunction">
-            <xsl:with-param name="ponyname" select="./@name"/>
+            <xsl:with-param name="ponyname" select="./@ponyname"/>
             <xsl:with-param name="n" select="./@name"/>
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
@@ -95,7 +95,7 @@
         <xsl:text>// Methods</xsl:text><xsl:value-of select="$newline"/>
         <xsl:for-each select="$root/rendermethod">
           <xsl:call-template name="mainfunction">
-            <xsl:with-param name="ponyname" select="./@name"/>
+            <xsl:with-param name="ponyname" select="./@ponyname"/>
             <xsl:with-param name="n" select="./@name"/>
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>

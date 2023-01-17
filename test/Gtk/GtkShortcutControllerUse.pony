@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_shortcut_controller_new[Pointer[GtkEventControllerT]]()
-// use @gtk_shortcut_controller_new_for_model[Pointer[GtkEventControllerT]](model': NullablePointer[GListModelT])
+// use @gtk_shortcut_controller_new[NullablePointer[GtkEventControllerT]]()
+// use @gtk_shortcut_controller_new_for_model[NullablePointer[GtkEventControllerT]](model': NullablePointer[GListModelT])
 
 // Methods
 // use @gtk_shortcut_controller_add_shortcut[None](self': NullablePointer[GtkShortcutControllerT], shortcut': NullablePointer[GtkShortcutT])

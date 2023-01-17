@@ -8,24 +8,24 @@ primitive GEmblemedIconSys
 
 // Constructors
 /* 
-fun create(icon': NullablePointer[GIconT], emblem': NullablePointer[GEmblemT]): Pointer[GIconT] =>
+fun gnew(icon': NullablePointer[GIconT], emblem': NullablePointer[GEmblemT]): NullablePointer[GIconT] =>
     @g_emblemed_icon_new(icon', emblem')
 */
 
 // Methods
 /* 
-fun g_emblemed_icon_add_emblem(emblemed': NullablePointer[GEmblemedIconT], emblem': NullablePointer[GEmblemT]): None =>
+fun add_emblem(emblemed': NullablePointer[GEmblemedIconT], emblem': NullablePointer[GEmblemT]): None =>
     @g_emblemed_icon_add_emblem(emblemed', emblem')
 */
 /* 
-fun g_emblemed_icon_clear_emblems(emblemed': NullablePointer[GEmblemedIconT]): None =>
+fun clear_emblems(emblemed': NullablePointer[GEmblemedIconT]): None =>
     @g_emblemed_icon_clear_emblems(emblemed')
 */
 /* 
-fun g_emblemed_icon_get_emblems(emblemed': NullablePointer[GEmblemedIconT]): Pointer[GListT] =>
+fun get_emblems(emblemed': NullablePointer[GEmblemedIconT]): NullablePointer[GListT] =>
     @g_emblemed_icon_get_emblems(emblemed')
 */
 /* 
-fun g_emblemed_icon_get_icon(emblemed': NullablePointer[GEmblemedIconT]): Pointer[GIconT] =>
+fun get_icon(emblemed': NullablePointer[GEmblemedIconT]): NullablePointer[GIconT] =>
     @g_emblemed_icon_get_icon(emblemed')
 */

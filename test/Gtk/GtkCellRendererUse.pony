@@ -36,5 +36,5 @@ use "lib:gtk-4"
 // use @gtk_cell_renderer_set_sensitive[None](cell': NullablePointer[GtkCellRendererT], sensitive': I32)
 // use @gtk_cell_renderer_set_visible[None](cell': NullablePointer[GtkCellRendererT], visible': I32)
 // use @gtk_cell_renderer_snapshot[None](cell': NullablePointer[GtkCellRendererT], snapshot': NullablePointer[GdkSnapshotT], widget': NullablePointer[GtkWidgetT], background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32)
-// use @gtk_cell_renderer_start_editing[Pointer[GtkCellEditableT]](cell': NullablePointer[GtkCellRendererT], event': NullablePointer[GdkEventT], widget': NullablePointer[GtkWidgetT], path': Pointer[U8] tag, background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32)
+// use @gtk_cell_renderer_start_editing[NullablePointer[GtkCellEditableT]](cell': NullablePointer[GtkCellRendererT], event': NullablePointer[GdkEventT], widget': NullablePointer[GtkWidgetT], path': Pointer[U8] tag, background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32)
 // use @gtk_cell_renderer_stop_editing[None](cell': NullablePointer[GtkCellRendererT], canceled': I32)

@@ -13,6 +13,6 @@ primitive GtkNotebookPageSys
 
 // Methods
 /* 
-fun gtk_notebook_page_get_child(page': NullablePointer[GtkNotebookPageT]): Pointer[GtkWidgetT] =>
+fun get_child(page': NullablePointer[GtkNotebookPageT]): NullablePointer[GtkWidgetT] =>
     @gtk_notebook_page_get_child(page')
 */

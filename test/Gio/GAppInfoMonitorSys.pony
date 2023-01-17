@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 primitive GAppInfoMonitorSys
 // Static Functions
 /* 
-fun get(): Pointer[GAppInfoMonitorT] =>
+fun get(): NullablePointer[GAppInfoMonitorT] =>
     @g_app_info_monitor_get()
 */
 

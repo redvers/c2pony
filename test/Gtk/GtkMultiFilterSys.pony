@@ -13,10 +13,10 @@ primitive GtkMultiFilterSys
 
 // Methods
 /* 
-fun gtk_multi_filter_append(self': NullablePointer[GtkMultiFilterT], filter': NullablePointer[GtkFilterT]): None =>
+fun append(self': NullablePointer[GtkMultiFilterT], filter': NullablePointer[GtkFilterT]): None =>
     @gtk_multi_filter_append(self', filter')
 */
 /* 
-fun gtk_multi_filter_remove(self': NullablePointer[GtkMultiFilterT], position': U32): None =>
+fun remove(self': NullablePointer[GtkMultiFilterT], position': U32): None =>
     @gtk_multi_filter_remove(self', position')
 */

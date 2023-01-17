@@ -10,14 +10,14 @@ primitive GFileOutputStreamSys
 
 // Methods
 /* 
-fun g_file_output_stream_get_etag(stream': NullablePointer[GFileOutputStreamT]): Pointer[U8] =>
+fun get_etag(stream': NullablePointer[GFileOutputStreamT]): Pointer[U8] tag =>
     @g_file_output_stream_get_etag(stream')
 */
 /* 
-fun g_file_output_stream_query_info(stream': NullablePointer[GFileOutputStreamT], attributes': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): Pointer[GFileInfoT] =>
+fun query_info(stream': NullablePointer[GFileOutputStreamT], attributes': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileInfoT] =>
     @g_file_output_stream_query_info(stream', attributes', cancellable', error')
 */
 /* 
-fun g_file_output_stream_query_info_finish(stream': NullablePointer[GFileOutputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): Pointer[GFileInfoT] =>
+fun query_info_finish(stream': NullablePointer[GFileOutputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileInfoT] =>
     @g_file_output_stream_query_info_finish(stream', result', error')
 */

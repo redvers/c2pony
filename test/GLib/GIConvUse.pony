@@ -2,7 +2,7 @@
 use "lib:glib-2.0"
 
 // Static Functions
-// use @g_iconv_open[Pointer[GIConvT]](to_codeset': Pointer[U8] tag, from_codeset': Pointer[U8] tag)
+// use @g_iconv_open[NullablePointer[GIConvT]](to_codeset': Pointer[U8] tag, from_codeset': Pointer[U8] tag)
 
 // Constructors
 

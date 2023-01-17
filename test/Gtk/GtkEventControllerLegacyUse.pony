@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_event_controller_legacy_new[Pointer[GtkEventControllerT]]()
+// use @gtk_event_controller_legacy_new[NullablePointer[GtkEventControllerT]]()
 
 // Methods

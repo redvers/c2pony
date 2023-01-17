@@ -11,12 +11,12 @@ primitive GtkStringObjectSys
 
 // Constructors
 /* 
-fun create(string': Pointer[U8] tag): Pointer[GtkStringObjectT] =>
+fun gnew(string': Pointer[U8] tag): NullablePointer[GtkStringObjectT] =>
     @gtk_string_object_new(string')
 */
 
 // Methods
 /* 
-fun gtk_string_object_get_string(self': NullablePointer[GtkStringObjectT]): Pointer[U8] =>
+fun get_string(self': NullablePointer[GtkStringObjectT]): Pointer[U8] tag =>
     @gtk_string_object_get_string(self')
 */

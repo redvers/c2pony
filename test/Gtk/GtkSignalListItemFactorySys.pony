@@ -11,7 +11,7 @@ primitive GtkSignalListItemFactorySys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkListItemFactoryT] =>
+fun gnew(): NullablePointer[GtkListItemFactoryT] =>
     @gtk_signal_list_item_factory_new()
 */
 

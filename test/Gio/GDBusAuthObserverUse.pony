@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
-// use @g_dbus_auth_observer_new[Pointer[GDBusAuthObserverT]]()
+// use @g_dbus_auth_observer_new[NullablePointer[GDBusAuthObserverT]]()
 
 // Methods
 // use @g_dbus_auth_observer_allow_mechanism[I32](observer': NullablePointer[GDBusAuthObserverT], mechanism': Pointer[U8] tag)

@@ -11,28 +11,28 @@ primitive GtkFlowBoxChildSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkWidgetT] =>
+fun gnew(): NullablePointer[GtkWidgetT] =>
     @gtk_flow_box_child_new()
 */
 
 // Methods
 /* 
-fun gtk_flow_box_child_changed(child': NullablePointer[GtkFlowBoxChildT]): None =>
+fun changed(child': NullablePointer[GtkFlowBoxChildT]): None =>
     @gtk_flow_box_child_changed(child')
 */
 /* 
-fun gtk_flow_box_child_get_child(self': NullablePointer[GtkFlowBoxChildT]): Pointer[GtkWidgetT] =>
+fun get_child(self': NullablePointer[GtkFlowBoxChildT]): NullablePointer[GtkWidgetT] =>
     @gtk_flow_box_child_get_child(self')
 */
 /* 
-fun gtk_flow_box_child_get_index(child': NullablePointer[GtkFlowBoxChildT]): I32 =>
+fun get_index(child': NullablePointer[GtkFlowBoxChildT]): I32 =>
     @gtk_flow_box_child_get_index(child')
 */
 /* 
-fun gtk_flow_box_child_is_selected(child': NullablePointer[GtkFlowBoxChildT]): I32 =>
+fun is_selected(child': NullablePointer[GtkFlowBoxChildT]): I32 =>
     @gtk_flow_box_child_is_selected(child')
 */
 /* 
-fun gtk_flow_box_child_set_child(self': NullablePointer[GtkFlowBoxChildT], child': NullablePointer[GtkWidgetT]): None =>
+fun set_child(self': NullablePointer[GtkFlowBoxChildT], child': NullablePointer[GtkWidgetT]): None =>
     @gtk_flow_box_child_set_child(self', child')
 */

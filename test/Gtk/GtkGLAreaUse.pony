@@ -9,13 +9,13 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_gl_area_new[Pointer[GtkWidgetT]]()
+// use @gtk_gl_area_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_gl_area_attach_buffers[None](area': NullablePointer[GtkGLAreaT])
 // use @gtk_gl_area_get_auto_render[I32](area': NullablePointer[GtkGLAreaT])
-// use @gtk_gl_area_get_context[Pointer[GdkGLContextT]](area': NullablePointer[GtkGLAreaT])
-// use @gtk_gl_area_get_error[Pointer[GErrorT]](area': NullablePointer[GtkGLAreaT])
+// use @gtk_gl_area_get_context[NullablePointer[GdkGLContextT]](area': NullablePointer[GtkGLAreaT])
+// use @gtk_gl_area_get_error[NullablePointer[GErrorT]](area': NullablePointer[GtkGLAreaT])
 // use @gtk_gl_area_get_has_depth_buffer[I32](area': NullablePointer[GtkGLAreaT])
 // use @gtk_gl_area_get_has_stencil_buffer[I32](area': NullablePointer[GtkGLAreaT])
 // use @gtk_gl_area_get_required_version[None](area': NullablePointer[GtkGLAreaT], major': Pointer[I32] tag, minor': Pointer[I32] tag)

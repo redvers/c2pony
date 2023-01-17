@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_cell_renderer_text_new[Pointer[GtkCellRendererT]]()
+// use @gtk_cell_renderer_text_new[NullablePointer[GtkCellRendererT]]()
 
 // Methods
 // use @gtk_cell_renderer_text_set_fixed_height_from_font[None](renderer': NullablePointer[GtkCellRendererTextT], number_of_rows': I32)

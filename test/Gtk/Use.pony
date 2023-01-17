@@ -9,11 +9,11 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_snapshot_new[Pointer[GdkSnapshotT]]()
+// use @gtk_snapshot_new[NullablePointer[GdkSnapshotT]]()
 
 // Methods
 // use @gtk_snapshot_append_border[None](snapshot': NullablePointer[GdkSnapshotT], outline': NullablePointer[GskRoundedRectT], border_width': Pointer[F32] tag, border_color': NullablePointer[GdkRGBAT])
-// use @gtk_snapshot_append_cairo[Pointer[cairoT]](snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT])
+// use @gtk_snapshot_append_cairo[NullablePointer[cairoT]](snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT])
 // use @gtk_snapshot_append_color[None](snapshot': NullablePointer[GdkSnapshotT], color': NullablePointer[GdkRGBAT], bounds': NullablePointer[graphenerecttT])
 // use @gtk_snapshot_append_conic_gradient[None](snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT], center': NullablePointer[graphenepointtT], rotation': F32, stops': NullablePointer[GskColorStopT], n_stops': U64)
 // use @gtk_snapshot_append_inset_shadow[None](snapshot': NullablePointer[GdkSnapshotT], outline': NullablePointer[GskRoundedRectT], color': NullablePointer[GdkRGBAT], dx': F32, dy': F32, spread': F32, blur_radius': F32)
@@ -25,8 +25,8 @@ use "lib:gtk-4"
 // use @gtk_snapshot_append_repeating_linear_gradient[None](snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT], start_point': NullablePointer[graphenepointtT], end_point': NullablePointer[graphenepointtT], stops': NullablePointer[GskColorStopT], n_stops': U64)
 // use @gtk_snapshot_append_repeating_radial_gradient[None](snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT], center': NullablePointer[graphenepointtT], hradius': F32, vradius': F32, start': F32, end': F32, stops': NullablePointer[GskColorStopT], n_stops': U64)
 // use @gtk_snapshot_append_texture[None](snapshot': NullablePointer[GdkSnapshotT], texture': NullablePointer[GdkTextureT], bounds': NullablePointer[graphenerecttT])
-// use @gtk_snapshot_free_to_node[Pointer[GskRenderNodeT]](snapshot': NullablePointer[GdkSnapshotT])
-// use @gtk_snapshot_free_to_paintable[Pointer[GdkPaintableT]](snapshot': NullablePointer[GdkSnapshotT], size': NullablePointer[graphenesizetT])
+// use @gtk_snapshot_free_to_node[NullablePointer[GskRenderNodeT]](snapshot': NullablePointer[GdkSnapshotT])
+// use @gtk_snapshot_free_to_paintable[NullablePointer[GdkPaintableT]](snapshot': NullablePointer[GdkSnapshotT], size': NullablePointer[graphenesizetT])
 // use @gtk_snapshot_gl_shader_pop_texture[None](snapshot': NullablePointer[GdkSnapshotT])
 // use @gtk_snapshot_perspective[None](snapshot': NullablePointer[GdkSnapshotT], depth': F32)
 // use @gtk_snapshot_pop[None](snapshot': NullablePointer[GdkSnapshotT])
@@ -52,8 +52,8 @@ use "lib:gtk-4"
 // use @gtk_snapshot_save[None](snapshot': NullablePointer[GdkSnapshotT])
 // use @gtk_snapshot_scale[None](snapshot': NullablePointer[GdkSnapshotT], factor_x': F32, factor_y': F32)
 // use @gtk_snapshot_scale_3d[None](snapshot': NullablePointer[GdkSnapshotT], factor_x': F32, factor_y': F32, factor_z': F32)
-// use @gtk_snapshot_to_node[Pointer[GskRenderNodeT]](snapshot': NullablePointer[GdkSnapshotT])
-// use @gtk_snapshot_to_paintable[Pointer[GdkPaintableT]](snapshot': NullablePointer[GdkSnapshotT], size': NullablePointer[graphenesizetT])
+// use @gtk_snapshot_to_node[NullablePointer[GskRenderNodeT]](snapshot': NullablePointer[GdkSnapshotT])
+// use @gtk_snapshot_to_paintable[NullablePointer[GdkPaintableT]](snapshot': NullablePointer[GdkSnapshotT], size': NullablePointer[graphenesizetT])
 // use @gtk_snapshot_transform[None](snapshot': NullablePointer[GdkSnapshotT], transform': NullablePointer[GskTransformT])
 // use @gtk_snapshot_transform_matrix[None](snapshot': NullablePointer[GdkSnapshotT], matrix': NullablePointer[graphenematrixtT])
 // use @gtk_snapshot_translate[None](snapshot': NullablePointer[GdkSnapshotT], point': NullablePointer[graphenepointtT])

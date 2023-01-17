@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_gesture_pan_new[Pointer[GtkGestureT]](orientation': U32)
+// use @gtk_gesture_pan_new[NullablePointer[GtkGestureT]](orientation': U32)
 
 // Methods
 // use @gtk_gesture_pan_get_orientation[U32](gesture': NullablePointer[GtkGesturePanT])

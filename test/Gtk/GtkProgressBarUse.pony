@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_progress_bar_new[Pointer[GtkWidgetT]]()
+// use @gtk_progress_bar_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_progress_bar_get_ellipsize[U32](pbar': NullablePointer[GtkProgressBarT])
@@ -17,7 +17,7 @@ use "lib:gtk-4"
 // use @gtk_progress_bar_get_inverted[I32](pbar': NullablePointer[GtkProgressBarT])
 // use @gtk_progress_bar_get_pulse_step[F64](pbar': NullablePointer[GtkProgressBarT])
 // use @gtk_progress_bar_get_show_text[I32](pbar': NullablePointer[GtkProgressBarT])
-// use @gtk_progress_bar_get_text[Pointer[U8]](pbar': NullablePointer[GtkProgressBarT])
+// use @gtk_progress_bar_get_text[Pointer[U8] tag](pbar': NullablePointer[GtkProgressBarT])
 // use @gtk_progress_bar_pulse[None](pbar': NullablePointer[GtkProgressBarT])
 // use @gtk_progress_bar_set_ellipsize[None](pbar': NullablePointer[GtkProgressBarT], mode': U32)
 // use @gtk_progress_bar_set_fraction[None](pbar': NullablePointer[GtkProgressBarT], fraction': F64)

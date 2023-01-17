@@ -13,74 +13,70 @@ primitive GtkTreeSelectionSys
 
 // Methods
 /* 
-fun gtk_tree_selection_count_selected_rows(selection': NullablePointer[GtkTreeSelectionT]): I32 =>
+fun count_selected_rows(selection': NullablePointer[GtkTreeSelectionT]): I32 =>
     @gtk_tree_selection_count_selected_rows(selection')
 */
 /* 
-fun gtk_tree_selection_get_mode(selection': NullablePointer[GtkTreeSelectionT]): U32 =>
+fun get_mode(selection': NullablePointer[GtkTreeSelectionT]): U32 =>
     @gtk_tree_selection_get_mode(selection')
 */
 /* 
-fun gtk_tree_selection_get_select_function(selection': NullablePointer[GtkTreeSelectionT]): Pointer[FIXME FunctionType] =>
-    @gtk_tree_selection_get_select_function(selection')
-*/
-/* 
-fun gtk_tree_selection_get_selected(selection': NullablePointer[GtkTreeSelectionT], model': Pointer[NullablePointer[GtkTreeModelT]], iter': NullablePointer[GtkTreeIterT]): I32 =>
+fun get_selected(selection': NullablePointer[GtkTreeSelectionT], model': Pointer[NullablePointer[GtkTreeModelT]], iter': NullablePointer[GtkTreeIterT]): I32 =>
     @gtk_tree_selection_get_selected(selection', model', iter')
 */
 /* 
-fun gtk_tree_selection_get_selected_rows(selection': NullablePointer[GtkTreeSelectionT], model': Pointer[NullablePointer[GtkTreeModelT]]): Pointer[GListT] =>
+fun get_selected_rows(selection': NullablePointer[GtkTreeSelectionT], model': Pointer[NullablePointer[GtkTreeModelT]]): NullablePointer[GListT] =>
     @gtk_tree_selection_get_selected_rows(selection', model')
 */
 /* 
-fun gtk_tree_selection_get_tree_view(selection': NullablePointer[GtkTreeSelectionT]): Pointer[GtkTreeViewT] =>
+fun get_tree_view(selection': NullablePointer[GtkTreeSelectionT]): NullablePointer[GtkTreeViewT] =>
     @gtk_tree_selection_get_tree_view(selection')
 */
 /* 
-fun gtk_tree_selection_get_user_data(selection': NullablePointer[GtkTreeSelectionT]): Pointer[None] =>
+fun get_user_data(selection': NullablePointer[GtkTreeSelectionT]): Pointer[None] tag =>
     @gtk_tree_selection_get_user_data(selection')
 */
 /* 
-fun gtk_tree_selection_iter_is_selected(selection': NullablePointer[GtkTreeSelectionT], iter': NullablePointer[GtkTreeIterT]): I32 =>
+fun iter_is_selected(selection': NullablePointer[GtkTreeSelectionT], iter': NullablePointer[GtkTreeIterT]): I32 =>
     @gtk_tree_selection_iter_is_selected(selection', iter')
 */
 /* 
-fun gtk_tree_selection_path_is_selected(selection': NullablePointer[GtkTreeSelectionT], path': NullablePointer[GtkTreePathT]): I32 =>
+fun path_is_selected(selection': NullablePointer[GtkTreeSelectionT], path': NullablePointer[GtkTreePathT]): I32 =>
     @gtk_tree_selection_path_is_selected(selection', path')
 */
 /* 
-fun gtk_tree_selection_select_all(selection': NullablePointer[GtkTreeSelectionT]): None =>
+fun select_all(selection': NullablePointer[GtkTreeSelectionT]): None =>
     @gtk_tree_selection_select_all(selection')
 */
 /* 
-fun gtk_tree_selection_select_iter(selection': NullablePointer[GtkTreeSelectionT], iter': NullablePointer[GtkTreeIterT]): None =>
+fun select_iter(selection': NullablePointer[GtkTreeSelectionT], iter': NullablePointer[GtkTreeIterT]): None =>
     @gtk_tree_selection_select_iter(selection', iter')
 */
 /* 
-fun gtk_tree_selection_select_path(selection': NullablePointer[GtkTreeSelectionT], path': NullablePointer[GtkTreePathT]): None =>
+fun select_path(selection': NullablePointer[GtkTreeSelectionT], path': NullablePointer[GtkTreePathT]): None =>
     @gtk_tree_selection_select_path(selection', path')
 */
 /* 
-fun gtk_tree_selection_select_range(selection': NullablePointer[GtkTreeSelectionT], start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT]): None =>
+fun select_range(selection': NullablePointer[GtkTreeSelectionT], start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT]): None =>
     @gtk_tree_selection_select_range(selection', start_path', end_path')
 */
 /* 
-fun gtk_tree_selection_set_mode(selection': NullablePointer[GtkTreeSelectionT], type': U32): None =>
+fun set_mode(selection': NullablePointer[GtkTreeSelectionT], type': U32): None =>
     @gtk_tree_selection_set_mode(selection', type')
 */
 /* 
-fun gtk_tree_selection_unselect_all(selection': NullablePointer[GtkTreeSelectionT]): None =>
+fun unselect_all(selection': NullablePointer[GtkTreeSelectionT]): None =>
     @gtk_tree_selection_unselect_all(selection')
 */
 /* 
-fun gtk_tree_selection_unselect_iter(selection': NullablePointer[GtkTreeSelectionT], iter': NullablePointer[GtkTreeIterT]): None =>
+fun unselect_iter(selection': NullablePointer[GtkTreeSelectionT], iter': NullablePointer[GtkTreeIterT]): None =>
     @gtk_tree_selection_unselect_iter(selection', iter')
 */
 /* 
-fun gtk_tree_selection_unselect_path(selection': NullablePointer[GtkTreeSelectionT], path': NullablePointer[GtkTreePathT]): None =>
+fun unselect_path(selection': NullablePointer[GtkTreeSelectionT], path': NullablePointer[GtkTreePathT]): None =>
     @gtk_tree_selection_unselect_path(selection', path')
 */
 /* 
-fun gtk_tree_selection_unselect_range(selection': NullablePointer[GtkTreeSelectionT], start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT]): None =>
+fun unselect_range(selection': NullablePointer[GtkTreeSelectionT], start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT]): None =>
     @gtk_tree_selection_unselect_range(selection', start_path', end_path')
 */

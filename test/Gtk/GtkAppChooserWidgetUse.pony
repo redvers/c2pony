@@ -9,10 +9,10 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_app_chooser_widget_new[Pointer[GtkWidgetT]](content_type': Pointer[U8] tag)
+// use @gtk_app_chooser_widget_new[NullablePointer[GtkWidgetT]](content_type': Pointer[U8] tag)
 
 // Methods
-// use @gtk_app_chooser_widget_get_default_text[Pointer[U8]](self': NullablePointer[GtkAppChooserWidgetT])
+// use @gtk_app_chooser_widget_get_default_text[Pointer[U8] tag](self': NullablePointer[GtkAppChooserWidgetT])
 // use @gtk_app_chooser_widget_get_show_all[I32](self': NullablePointer[GtkAppChooserWidgetT])
 // use @gtk_app_chooser_widget_get_show_default[I32](self': NullablePointer[GtkAppChooserWidgetT])
 // use @gtk_app_chooser_widget_get_show_fallback[I32](self': NullablePointer[GtkAppChooserWidgetT])

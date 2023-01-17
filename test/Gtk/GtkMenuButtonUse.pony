@@ -9,17 +9,17 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_menu_button_new[Pointer[GtkWidgetT]]()
+// use @gtk_menu_button_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_menu_button_get_always_show_arrow[I32](menu_button': NullablePointer[GtkMenuButtonT])
-// use @gtk_menu_button_get_child[Pointer[GtkWidgetT]](menu_button': NullablePointer[GtkMenuButtonT])
+// use @gtk_menu_button_get_child[NullablePointer[GtkWidgetT]](menu_button': NullablePointer[GtkMenuButtonT])
 // use @gtk_menu_button_get_direction[U32](menu_button': NullablePointer[GtkMenuButtonT])
 // use @gtk_menu_button_get_has_frame[I32](menu_button': NullablePointer[GtkMenuButtonT])
-// use @gtk_menu_button_get_icon_name[Pointer[U8]](menu_button': NullablePointer[GtkMenuButtonT])
-// use @gtk_menu_button_get_label[Pointer[U8]](menu_button': NullablePointer[GtkMenuButtonT])
-// use @gtk_menu_button_get_menu_model[Pointer[GMenuModelT]](menu_button': NullablePointer[GtkMenuButtonT])
-// use @gtk_menu_button_get_popover[Pointer[GtkPopoverT]](menu_button': NullablePointer[GtkMenuButtonT])
+// use @gtk_menu_button_get_icon_name[Pointer[U8] tag](menu_button': NullablePointer[GtkMenuButtonT])
+// use @gtk_menu_button_get_label[Pointer[U8] tag](menu_button': NullablePointer[GtkMenuButtonT])
+// use @gtk_menu_button_get_menu_model[NullablePointer[GMenuModelT]](menu_button': NullablePointer[GtkMenuButtonT])
+// use @gtk_menu_button_get_popover[NullablePointer[GtkPopoverT]](menu_button': NullablePointer[GtkMenuButtonT])
 // use @gtk_menu_button_get_primary[I32](menu_button': NullablePointer[GtkMenuButtonT])
 // use @gtk_menu_button_get_use_underline[I32](menu_button': NullablePointer[GtkMenuButtonT])
 // use @gtk_menu_button_popdown[None](menu_button': NullablePointer[GtkMenuButtonT])

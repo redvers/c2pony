@@ -7,36 +7,36 @@ primitive GValueArraySys
 
 // Constructors
 /* 
-fun create(n_prealloced': U32): Pointer[GValueArrayT] =>
+fun gnew(n_prealloced': U32): NullablePointer[GValueArrayT] =>
     @g_value_array_new(n_prealloced')
 */
 
 // Methods
 /* 
-fun g_value_array_append(value_array': NullablePointer[GValueArrayT], value': NullablePointer[GValueT]): Pointer[GValueArrayT] =>
+fun append(value_array': NullablePointer[GValueArrayT], value': NullablePointer[GValueT]): NullablePointer[GValueArrayT] =>
     @g_value_array_append(value_array', value')
 */
 /* 
-fun g_value_array_copy(value_array': NullablePointer[GValueArrayT]): Pointer[GValueArrayT] =>
+fun copy(value_array': NullablePointer[GValueArrayT]): NullablePointer[GValueArrayT] =>
     @g_value_array_copy(value_array')
 */
 /* 
-fun g_value_array_free(value_array': NullablePointer[GValueArrayT]): None =>
+fun free(value_array': NullablePointer[GValueArrayT]): None =>
     @g_value_array_free(value_array')
 */
 /* 
-fun g_value_array_get_nth(value_array': NullablePointer[GValueArrayT], index_': U32): Pointer[GValueT] =>
+fun get_nth(value_array': NullablePointer[GValueArrayT], index_': U32): NullablePointer[GValueT] =>
     @g_value_array_get_nth(value_array', index_')
 */
 /* 
-fun g_value_array_insert(value_array': NullablePointer[GValueArrayT], index_': U32, value': NullablePointer[GValueT]): Pointer[GValueArrayT] =>
+fun insert(value_array': NullablePointer[GValueArrayT], index_': U32, value': NullablePointer[GValueT]): NullablePointer[GValueArrayT] =>
     @g_value_array_insert(value_array', index_', value')
 */
 /* 
-fun g_value_array_prepend(value_array': NullablePointer[GValueArrayT], value': NullablePointer[GValueT]): Pointer[GValueArrayT] =>
+fun prepend(value_array': NullablePointer[GValueArrayT], value': NullablePointer[GValueT]): NullablePointer[GValueArrayT] =>
     @g_value_array_prepend(value_array', value')
 */
 /* 
-fun g_value_array_remove(value_array': NullablePointer[GValueArrayT], index_': U32): Pointer[GValueArrayT] =>
+fun remove(value_array': NullablePointer[GValueArrayT], index_': U32): NullablePointer[GValueArrayT] =>
     @g_value_array_remove(value_array', index_')
 */

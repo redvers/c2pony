@@ -9,13 +9,13 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_scrolled_window_new[Pointer[GtkWidgetT]]()
+// use @gtk_scrolled_window_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
-// use @gtk_scrolled_window_get_child[Pointer[GtkWidgetT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
-// use @gtk_scrolled_window_get_hadjustment[Pointer[GtkAdjustmentT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
+// use @gtk_scrolled_window_get_child[NullablePointer[GtkWidgetT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
+// use @gtk_scrolled_window_get_hadjustment[NullablePointer[GtkAdjustmentT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
 // use @gtk_scrolled_window_get_has_frame[I32](scrolled_window': NullablePointer[GtkScrolledWindowT])
-// use @gtk_scrolled_window_get_hscrollbar[Pointer[GtkWidgetT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
+// use @gtk_scrolled_window_get_hscrollbar[NullablePointer[GtkWidgetT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
 // use @gtk_scrolled_window_get_kinetic_scrolling[I32](scrolled_window': NullablePointer[GtkScrolledWindowT])
 // use @gtk_scrolled_window_get_max_content_height[I32](scrolled_window': NullablePointer[GtkScrolledWindowT])
 // use @gtk_scrolled_window_get_max_content_width[I32](scrolled_window': NullablePointer[GtkScrolledWindowT])
@@ -26,8 +26,8 @@ use "lib:gtk-4"
 // use @gtk_scrolled_window_get_policy[None](scrolled_window': NullablePointer[GtkScrolledWindowT], hscrollbar_policy': Pointer[U32] tag, vscrollbar_policy': Pointer[U32] tag)
 // use @gtk_scrolled_window_get_propagate_natural_height[I32](scrolled_window': NullablePointer[GtkScrolledWindowT])
 // use @gtk_scrolled_window_get_propagate_natural_width[I32](scrolled_window': NullablePointer[GtkScrolledWindowT])
-// use @gtk_scrolled_window_get_vadjustment[Pointer[GtkAdjustmentT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
-// use @gtk_scrolled_window_get_vscrollbar[Pointer[GtkWidgetT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
+// use @gtk_scrolled_window_get_vadjustment[NullablePointer[GtkAdjustmentT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
+// use @gtk_scrolled_window_get_vscrollbar[NullablePointer[GtkWidgetT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
 // use @gtk_scrolled_window_set_child[None](scrolled_window': NullablePointer[GtkScrolledWindowT], child': NullablePointer[GtkWidgetT])
 // use @gtk_scrolled_window_set_hadjustment[None](scrolled_window': NullablePointer[GtkScrolledWindowT], hadjustment': NullablePointer[GtkAdjustmentT])
 // use @gtk_scrolled_window_set_has_frame[None](scrolled_window': NullablePointer[GtkScrolledWindowT], has_frame': I32)

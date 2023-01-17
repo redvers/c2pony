@@ -11,12 +11,12 @@ primitive GtkSignalActionSys
 
 // Constructors
 /* 
-fun create(signal_name': Pointer[U8] tag): Pointer[GtkShortcutActionT] =>
+fun gnew(signal_name': Pointer[U8] tag): NullablePointer[GtkShortcutActionT] =>
     @gtk_signal_action_new(signal_name')
 */
 
 // Methods
 /* 
-fun gtk_signal_action_get_signal_name(self': NullablePointer[GtkSignalActionT]): Pointer[U8] =>
+fun get_signal_name(self': NullablePointer[GtkSignalActionT]): Pointer[U8] tag =>
     @gtk_signal_action_get_signal_name(self')
 */

@@ -8,16 +8,16 @@ primitive GMemoryInputStreamSys
 
 // Constructors
 /* 
-fun create(): Pointer[GInputStreamT] =>
+fun gnew(): NullablePointer[GInputStreamT] =>
     @g_memory_input_stream_new()
 */
 /* 
-fun new_from_bytes(bytes': NullablePointer[GBytesT]): Pointer[GInputStreamT] =>
+fun new_from_bytes(bytes': NullablePointer[GBytesT]): NullablePointer[GInputStreamT] =>
     @g_memory_input_stream_new_from_bytes(bytes')
 */
 
 // Methods
 /* 
-fun g_memory_input_stream_add_bytes(stream': NullablePointer[GMemoryInputStreamT], bytes': NullablePointer[GBytesT]): None =>
+fun add_bytes(stream': NullablePointer[GMemoryInputStreamT], bytes': NullablePointer[GBytesT]): None =>
     @g_memory_input_stream_add_bytes(stream', bytes')
 */

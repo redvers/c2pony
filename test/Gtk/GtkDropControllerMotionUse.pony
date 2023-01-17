@@ -9,9 +9,9 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_drop_controller_motion_new[Pointer[GtkEventControllerT]]()
+// use @gtk_drop_controller_motion_new[NullablePointer[GtkEventControllerT]]()
 
 // Methods
 // use @gtk_drop_controller_motion_contains_pointer[I32](self': NullablePointer[GtkDropControllerMotionT])
-// use @gtk_drop_controller_motion_get_drop[Pointer[GdkDropT]](self': NullablePointer[GtkDropControllerMotionT])
+// use @gtk_drop_controller_motion_get_drop[NullablePointer[GdkDropT]](self': NullablePointer[GtkDropControllerMotionT])
 // use @gtk_drop_controller_motion_is_pointer[I32](self': NullablePointer[GtkDropControllerMotionT])

@@ -10,18 +10,18 @@ primitive GIOExtensionSys
 
 // Methods
 /* 
-fun g_io_extension_get_name(extension': NullablePointer[GIOExtensionT]): Pointer[U8] =>
+fun get_name(extension': NullablePointer[GIOExtensionT]): Pointer[U8] tag =>
     @g_io_extension_get_name(extension')
 */
 /* 
-fun g_io_extension_get_priority(extension': NullablePointer[GIOExtensionT]): I32 =>
+fun get_priority(extension': NullablePointer[GIOExtensionT]): I32 =>
     @g_io_extension_get_priority(extension')
 */
 /* 
-fun g_io_extension_get_type(extension': NullablePointer[GIOExtensionT]): U64 =>
+fun get_type(extension': NullablePointer[GIOExtensionT]): U64 =>
     @g_io_extension_get_type(extension')
 */
 /* 
-fun g_io_extension_ref_class(extension': NullablePointer[GIOExtensionT]): Pointer[GTypeClassT] =>
+fun ref_class(extension': NullablePointer[GIOExtensionT]): NullablePointer[GTypeClassT] =>
     @g_io_extension_ref_class(extension')
 */

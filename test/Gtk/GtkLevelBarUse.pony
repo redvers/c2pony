@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_level_bar_new[Pointer[GtkWidgetT]]()
-// use @gtk_level_bar_new_for_interval[Pointer[GtkWidgetT]](min_value': F64, max_value': F64)
+// use @gtk_level_bar_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_level_bar_new_for_interval[NullablePointer[GtkWidgetT]](min_value': F64, max_value': F64)
 
 // Methods
 // use @gtk_level_bar_add_offset_value[None](self': NullablePointer[GtkLevelBarT], name': Pointer[U8] tag, value': F64)

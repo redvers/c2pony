@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_file_chooser_widget_new[Pointer[GtkWidgetT]](action': U32)
+// use @gtk_file_chooser_widget_new[NullablePointer[GtkWidgetT]](action': U32)
 
 // Methods

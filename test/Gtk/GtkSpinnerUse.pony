@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_spinner_new[Pointer[GtkWidgetT]]()
+// use @gtk_spinner_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_spinner_get_spinning[I32](spinner': NullablePointer[GtkSpinnerT])

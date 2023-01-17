@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_text_tag_new[Pointer[GtkTextTagT]](name': Pointer[U8] tag)
+// use @gtk_text_tag_new[NullablePointer[GtkTextTagT]](name': Pointer[U8] tag)
 
 // Methods
 // use @gtk_text_tag_changed[None](tag': NullablePointer[GtkTextTagT], size_changed': I32)

@@ -11,16 +11,16 @@ primitive GtkIMContextSimpleSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkIMContextT] =>
+fun gnew(): NullablePointer[GtkIMContextT] =>
     @gtk_im_context_simple_new()
 */
 
 // Methods
 /* 
-fun gtk_im_context_simple_add_compose_file(context_simple': NullablePointer[GtkIMContextSimpleT], compose_file': Pointer[U8] tag): None =>
+fun add_compose_file(context_simple': NullablePointer[GtkIMContextSimpleT], compose_file': Pointer[U8] tag): None =>
     @gtk_im_context_simple_add_compose_file(context_simple', compose_file')
 */
 /* 
-fun gtk_im_context_simple_add_table(context_simple': NullablePointer[GtkIMContextSimpleT], data': Pointer[U16] tag, max_seq_len': I32, n_seqs': I32): None =>
+fun add_table(context_simple': NullablePointer[GtkIMContextSimpleT], data': Pointer[U16] tag, max_seq_len': I32, n_seqs': I32): None =>
     @gtk_im_context_simple_add_table(context_simple', data', max_seq_len', n_seqs')
 */

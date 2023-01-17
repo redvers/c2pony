@@ -9,12 +9,12 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_search_bar_new[Pointer[GtkWidgetT]]()
+// use @gtk_search_bar_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_search_bar_connect_entry[None](bar': NullablePointer[GtkSearchBarT], entry': NullablePointer[GtkEditableT])
-// use @gtk_search_bar_get_child[Pointer[GtkWidgetT]](bar': NullablePointer[GtkSearchBarT])
-// use @gtk_search_bar_get_key_capture_widget[Pointer[GtkWidgetT]](bar': NullablePointer[GtkSearchBarT])
+// use @gtk_search_bar_get_child[NullablePointer[GtkWidgetT]](bar': NullablePointer[GtkSearchBarT])
+// use @gtk_search_bar_get_key_capture_widget[NullablePointer[GtkWidgetT]](bar': NullablePointer[GtkSearchBarT])
 // use @gtk_search_bar_get_search_mode[I32](bar': NullablePointer[GtkSearchBarT])
 // use @gtk_search_bar_get_show_close_button[I32](bar': NullablePointer[GtkSearchBarT])
 // use @gtk_search_bar_set_child[None](bar': NullablePointer[GtkSearchBarT], child': NullablePointer[GtkWidgetT])

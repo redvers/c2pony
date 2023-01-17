@@ -13,22 +13,22 @@ primitive GtkBuildableParseContextSys
 
 // Methods
 /* 
-fun gtk_buildable_parse_context_get_element(context': NullablePointer[GtkBuildableParseContextT]): Pointer[U8] =>
+fun get_element(context': NullablePointer[GtkBuildableParseContextT]): Pointer[U8] tag =>
     @gtk_buildable_parse_context_get_element(context')
 */
 /* 
-fun gtk_buildable_parse_context_get_element_stack(context': NullablePointer[GtkBuildableParseContextT]): Pointer[GPtrArrayT] =>
+fun get_element_stack(context': NullablePointer[GtkBuildableParseContextT]): NullablePointer[GPtrArrayT] =>
     @gtk_buildable_parse_context_get_element_stack(context')
 */
 /* 
-fun gtk_buildable_parse_context_get_position(context': NullablePointer[GtkBuildableParseContextT], line_number': Pointer[I32] tag, char_number': Pointer[I32] tag): None =>
+fun get_position(context': NullablePointer[GtkBuildableParseContextT], line_number': Pointer[I32] tag, char_number': Pointer[I32] tag): None =>
     @gtk_buildable_parse_context_get_position(context', line_number', char_number')
 */
 /* 
-fun gtk_buildable_parse_context_pop(context': NullablePointer[GtkBuildableParseContextT]): Pointer[None] =>
+fun pop(context': NullablePointer[GtkBuildableParseContextT]): Pointer[None] tag =>
     @gtk_buildable_parse_context_pop(context')
 */
 /* 
-fun gtk_buildable_parse_context_push(context': NullablePointer[GtkBuildableParseContextT], parser': NullablePointer[GtkBuildableParserT], user_data': Pointer[None] tag): None =>
+fun push(context': NullablePointer[GtkBuildableParseContextT], parser': NullablePointer[GtkBuildableParserT], user_data': Pointer[None] tag): None =>
     @gtk_buildable_parse_context_push(context', parser', user_data')
 */

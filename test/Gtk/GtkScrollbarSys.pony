@@ -11,16 +11,16 @@ primitive GtkScrollbarSys
 
 // Constructors
 /* 
-fun create(orientation': U32, adjustment': NullablePointer[GtkAdjustmentT]): Pointer[GtkWidgetT] =>
+fun gnew(orientation': U32, adjustment': NullablePointer[GtkAdjustmentT]): NullablePointer[GtkWidgetT] =>
     @gtk_scrollbar_new(orientation', adjustment')
 */
 
 // Methods
 /* 
-fun gtk_scrollbar_get_adjustment(self': NullablePointer[GtkScrollbarT]): Pointer[GtkAdjustmentT] =>
+fun get_adjustment(self': NullablePointer[GtkScrollbarT]): NullablePointer[GtkAdjustmentT] =>
     @gtk_scrollbar_get_adjustment(self')
 */
 /* 
-fun gtk_scrollbar_set_adjustment(self': NullablePointer[GtkScrollbarT], adjustment': NullablePointer[GtkAdjustmentT]): None =>
+fun set_adjustment(self': NullablePointer[GtkScrollbarT], adjustment': NullablePointer[GtkAdjustmentT]): None =>
     @gtk_scrollbar_set_adjustment(self', adjustment')
 */

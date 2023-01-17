@@ -9,7 +9,7 @@ use "lib:gtk-4"
 primitive GtkMnemonicActionSys
 // Static Functions
 /* 
-fun get(): Pointer[GtkShortcutActionT] =>
+fun get(): NullablePointer[GtkShortcutActionT] =>
     @gtk_mnemonic_action_get()
 */
 

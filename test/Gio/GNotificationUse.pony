@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
-// use @g_notification_new[Pointer[GNotificationT]](title': Pointer[U8] tag)
+// use @g_notification_new[NullablePointer[GNotificationT]](title': Pointer[U8] tag)
 
 // Methods
 // use @g_notification_add_button[None](notification': NullablePointer[GNotificationT], label': Pointer[U8] tag, detailed_action': Pointer[U8] tag)

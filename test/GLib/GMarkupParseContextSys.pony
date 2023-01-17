@@ -8,46 +8,46 @@ primitive GMarkupParseContextSys
 
 // Methods
 /* 
-fun g_markup_parse_context_end_parse(context': NullablePointer[GMarkupParseContextT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun end_parse(context': NullablePointer[GMarkupParseContextT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_markup_parse_context_end_parse(context', error')
 */
 /* 
-fun g_markup_parse_context_free(context': NullablePointer[GMarkupParseContextT]): None =>
+fun free(context': NullablePointer[GMarkupParseContextT]): None =>
     @g_markup_parse_context_free(context')
 */
 /* 
-fun g_markup_parse_context_get_element(context': NullablePointer[GMarkupParseContextT]): Pointer[U8] =>
+fun get_element(context': NullablePointer[GMarkupParseContextT]): Pointer[U8] tag =>
     @g_markup_parse_context_get_element(context')
 */
 /* 
-fun g_markup_parse_context_get_element_stack(context': NullablePointer[GMarkupParseContextT]): Pointer[GSListT] =>
+fun get_element_stack(context': NullablePointer[GMarkupParseContextT]): NullablePointer[GSListT] =>
     @g_markup_parse_context_get_element_stack(context')
 */
 /* 
-fun g_markup_parse_context_get_position(context': NullablePointer[GMarkupParseContextT], line_number': Pointer[I32] tag, char_number': Pointer[I32] tag): None =>
+fun get_position(context': NullablePointer[GMarkupParseContextT], line_number': Pointer[I32] tag, char_number': Pointer[I32] tag): None =>
     @g_markup_parse_context_get_position(context', line_number', char_number')
 */
 /* 
-fun g_markup_parse_context_get_user_data(context': NullablePointer[GMarkupParseContextT]): Pointer[None] =>
+fun get_user_data(context': NullablePointer[GMarkupParseContextT]): Pointer[None] tag =>
     @g_markup_parse_context_get_user_data(context')
 */
 /* 
-fun g_markup_parse_context_parse(context': NullablePointer[GMarkupParseContextT], text': Pointer[U8] tag, text_len': I64, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun parse(context': NullablePointer[GMarkupParseContextT], text': Pointer[U8] tag, text_len': I64, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_markup_parse_context_parse(context', text', text_len', error')
 */
 /* 
-fun g_markup_parse_context_pop(context': NullablePointer[GMarkupParseContextT]): Pointer[None] =>
+fun pop(context': NullablePointer[GMarkupParseContextT]): Pointer[None] tag =>
     @g_markup_parse_context_pop(context')
 */
 /* 
-fun g_markup_parse_context_push(context': NullablePointer[GMarkupParseContextT], parser': NullablePointer[GMarkupParserT], user_data': Pointer[None] tag): None =>
+fun push(context': NullablePointer[GMarkupParseContextT], parser': NullablePointer[GMarkupParserT], user_data': Pointer[None] tag): None =>
     @g_markup_parse_context_push(context', parser', user_data')
 */
 /* 
-fun g_markup_parse_context_ref(context': NullablePointer[GMarkupParseContextT]): Pointer[GMarkupParseContextT] =>
+fun ref(context': NullablePointer[GMarkupParseContextT]): NullablePointer[GMarkupParseContextT] =>
     @g_markup_parse_context_ref(context')
 */
 /* 
-fun g_markup_parse_context_unref(context': NullablePointer[GMarkupParseContextT]): None =>
+fun unref(context': NullablePointer[GMarkupParseContextT]): None =>
     @g_markup_parse_context_unref(context')
 */

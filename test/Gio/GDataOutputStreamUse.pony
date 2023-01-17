@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
-// use @g_data_output_stream_new[Pointer[GDataOutputStreamT]](base_stream': NullablePointer[GOutputStreamT])
+// use @g_data_output_stream_new[NullablePointer[GDataOutputStreamT]](base_stream': NullablePointer[GOutputStreamT])
 
 // Methods
 // use @g_data_output_stream_get_byte_order[U32](stream': NullablePointer[GDataOutputStreamT])

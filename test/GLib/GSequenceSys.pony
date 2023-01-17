@@ -4,11 +4,11 @@ use "lib:glib-2.0"
 primitive GSequenceSys
 // Static Functions
 /* 
-fun get(iter': NullablePointer[GSequenceNodeT]): Pointer[None] =>
+fun get(iter': NullablePointer[GSequenceNodeT]): Pointer[None] tag =>
     @g_sequence_get(iter')
 */
 /* 
-fun insert_before(iter': NullablePointer[GSequenceNodeT], data': Pointer[None] tag): Pointer[GSequenceNodeT] =>
+fun insert_before(iter': NullablePointer[GSequenceNodeT], data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
     @g_sequence_insert_before(iter', data')
 */
 /* 
@@ -20,7 +20,7 @@ fun move_range(dest': NullablePointer[GSequenceNodeT], begin': NullablePointer[G
     @g_sequence_move_range(dest', begin', end')
 */
 /* 
-fun range_get_midpoint(begin': NullablePointer[GSequenceNodeT], end': NullablePointer[GSequenceNodeT]): Pointer[GSequenceNodeT] =>
+fun range_get_midpoint(begin': NullablePointer[GSequenceNodeT], end': NullablePointer[GSequenceNodeT]): NullablePointer[GSequenceNodeT] =>
     @g_sequence_range_get_midpoint(begin', end')
 */
 /* 
@@ -44,34 +44,34 @@ fun swap(a': NullablePointer[GSequenceNodeT], b': NullablePointer[GSequenceNodeT
 
 // Methods
 /* 
-fun g_sequence_append(seq': NullablePointer[GSequenceT], data': Pointer[None] tag): Pointer[GSequenceNodeT] =>
+fun append(seq': NullablePointer[GSequenceT], data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
     @g_sequence_append(seq', data')
 */
 /* 
-fun g_sequence_free(seq': NullablePointer[GSequenceT]): None =>
+fun free(seq': NullablePointer[GSequenceT]): None =>
     @g_sequence_free(seq')
 */
 /* 
-fun g_sequence_get_begin_iter(seq': NullablePointer[GSequenceT]): Pointer[GSequenceNodeT] =>
+fun get_begin_iter(seq': NullablePointer[GSequenceT]): NullablePointer[GSequenceNodeT] =>
     @g_sequence_get_begin_iter(seq')
 */
 /* 
-fun g_sequence_get_end_iter(seq': NullablePointer[GSequenceT]): Pointer[GSequenceNodeT] =>
+fun get_end_iter(seq': NullablePointer[GSequenceT]): NullablePointer[GSequenceNodeT] =>
     @g_sequence_get_end_iter(seq')
 */
 /* 
-fun g_sequence_get_iter_at_pos(seq': NullablePointer[GSequenceT], pos': I32): Pointer[GSequenceNodeT] =>
+fun get_iter_at_pos(seq': NullablePointer[GSequenceT], pos': I32): NullablePointer[GSequenceNodeT] =>
     @g_sequence_get_iter_at_pos(seq', pos')
 */
 /* 
-fun g_sequence_get_length(seq': NullablePointer[GSequenceT]): I32 =>
+fun get_length(seq': NullablePointer[GSequenceT]): I32 =>
     @g_sequence_get_length(seq')
 */
 /* 
-fun g_sequence_is_empty(seq': NullablePointer[GSequenceT]): I32 =>
+fun is_empty(seq': NullablePointer[GSequenceT]): I32 =>
     @g_sequence_is_empty(seq')
 */
 /* 
-fun g_sequence_prepend(seq': NullablePointer[GSequenceT], data': Pointer[None] tag): Pointer[GSequenceNodeT] =>
+fun prepend(seq': NullablePointer[GSequenceT], data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
     @g_sequence_prepend(seq', data')
 */

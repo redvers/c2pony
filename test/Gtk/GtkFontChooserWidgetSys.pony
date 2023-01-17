@@ -11,7 +11,7 @@ primitive GtkFontChooserWidgetSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkWidgetT] =>
+fun gnew(): NullablePointer[GtkWidgetT] =>
     @gtk_font_chooser_widget_new()
 */
 

@@ -11,36 +11,36 @@ primitive GtkActionBarSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkWidgetT] =>
+fun gnew(): NullablePointer[GtkWidgetT] =>
     @gtk_action_bar_new()
 */
 
 // Methods
 /* 
-fun gtk_action_bar_get_center_widget(action_bar': NullablePointer[GtkActionBarT]): Pointer[GtkWidgetT] =>
+fun get_center_widget(action_bar': NullablePointer[GtkActionBarT]): NullablePointer[GtkWidgetT] =>
     @gtk_action_bar_get_center_widget(action_bar')
 */
 /* 
-fun gtk_action_bar_get_revealed(action_bar': NullablePointer[GtkActionBarT]): I32 =>
+fun get_revealed(action_bar': NullablePointer[GtkActionBarT]): I32 =>
     @gtk_action_bar_get_revealed(action_bar')
 */
 /* 
-fun gtk_action_bar_pack_end(action_bar': NullablePointer[GtkActionBarT], child': NullablePointer[GtkWidgetT]): None =>
+fun pack_end(action_bar': NullablePointer[GtkActionBarT], child': NullablePointer[GtkWidgetT]): None =>
     @gtk_action_bar_pack_end(action_bar', child')
 */
 /* 
-fun gtk_action_bar_pack_start(action_bar': NullablePointer[GtkActionBarT], child': NullablePointer[GtkWidgetT]): None =>
+fun pack_start(action_bar': NullablePointer[GtkActionBarT], child': NullablePointer[GtkWidgetT]): None =>
     @gtk_action_bar_pack_start(action_bar', child')
 */
 /* 
-fun gtk_action_bar_remove(action_bar': NullablePointer[GtkActionBarT], child': NullablePointer[GtkWidgetT]): None =>
+fun remove(action_bar': NullablePointer[GtkActionBarT], child': NullablePointer[GtkWidgetT]): None =>
     @gtk_action_bar_remove(action_bar', child')
 */
 /* 
-fun gtk_action_bar_set_center_widget(action_bar': NullablePointer[GtkActionBarT], center_widget': NullablePointer[GtkWidgetT]): None =>
+fun set_center_widget(action_bar': NullablePointer[GtkActionBarT], center_widget': NullablePointer[GtkWidgetT]): None =>
     @gtk_action_bar_set_center_widget(action_bar', center_widget')
 */
 /* 
-fun gtk_action_bar_set_revealed(action_bar': NullablePointer[GtkActionBarT], revealed': I32): None =>
+fun set_revealed(action_bar': NullablePointer[GtkActionBarT], revealed': I32): None =>
     @gtk_action_bar_set_revealed(action_bar', revealed')
 */

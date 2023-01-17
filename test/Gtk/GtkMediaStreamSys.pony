@@ -13,138 +13,138 @@ primitive GtkMediaStreamSys
 
 // Methods
 /* 
-fun gtk_media_stream_ended(self': NullablePointer[GtkMediaStreamT]): None =>
+fun ended(self': NullablePointer[GtkMediaStreamT]): None =>
     @gtk_media_stream_ended(self')
 */
 /* 
-fun gtk_media_stream_error(self': NullablePointer[GtkMediaStreamT], domain': U32, code': I32, format': Pointer[U8] tag, ...): None =>
+fun error(self': NullablePointer[GtkMediaStreamT], domain': U32, code': I32, format': Pointer[U8] tag, ...): None =>
     @gtk_media_stream_error(self', domain', code', format', ...)
 */
 /* 
-fun gtk_media_stream_error_valist(self': NullablePointer[GtkMediaStreamT], domain': U32, code': I32, format': Pointer[U8] tag, args': NullablePointer[valisttagT]): None =>
+fun error_valist(self': NullablePointer[GtkMediaStreamT], domain': U32, code': I32, format': Pointer[U8] tag, args': NullablePointer[valisttagT]): None =>
     @gtk_media_stream_error_valist(self', domain', code', format', args')
 */
 /* 
-fun gtk_media_stream_gerror(self': NullablePointer[GtkMediaStreamT], error': NullablePointer[GErrorT]): None =>
+fun gerror(self': NullablePointer[GtkMediaStreamT], error': NullablePointer[GErrorT]): None =>
     @gtk_media_stream_gerror(self', error')
 */
 /* 
-fun gtk_media_stream_get_duration(self': NullablePointer[GtkMediaStreamT]): I64 =>
+fun get_duration(self': NullablePointer[GtkMediaStreamT]): I64 =>
     @gtk_media_stream_get_duration(self')
 */
 /* 
-fun gtk_media_stream_get_ended(self': NullablePointer[GtkMediaStreamT]): I32 =>
+fun get_ended(self': NullablePointer[GtkMediaStreamT]): I32 =>
     @gtk_media_stream_get_ended(self')
 */
 /* 
-fun gtk_media_stream_get_error(self': NullablePointer[GtkMediaStreamT]): Pointer[GErrorT] =>
+fun get_error(self': NullablePointer[GtkMediaStreamT]): NullablePointer[GErrorT] =>
     @gtk_media_stream_get_error(self')
 */
 /* 
-fun gtk_media_stream_get_loop(self': NullablePointer[GtkMediaStreamT]): I32 =>
+fun get_loop(self': NullablePointer[GtkMediaStreamT]): I32 =>
     @gtk_media_stream_get_loop(self')
 */
 /* 
-fun gtk_media_stream_get_muted(self': NullablePointer[GtkMediaStreamT]): I32 =>
+fun get_muted(self': NullablePointer[GtkMediaStreamT]): I32 =>
     @gtk_media_stream_get_muted(self')
 */
 /* 
-fun gtk_media_stream_get_playing(self': NullablePointer[GtkMediaStreamT]): I32 =>
+fun get_playing(self': NullablePointer[GtkMediaStreamT]): I32 =>
     @gtk_media_stream_get_playing(self')
 */
 /* 
-fun gtk_media_stream_get_timestamp(self': NullablePointer[GtkMediaStreamT]): I64 =>
+fun get_timestamp(self': NullablePointer[GtkMediaStreamT]): I64 =>
     @gtk_media_stream_get_timestamp(self')
 */
 /* 
-fun gtk_media_stream_get_volume(self': NullablePointer[GtkMediaStreamT]): F64 =>
+fun get_volume(self': NullablePointer[GtkMediaStreamT]): F64 =>
     @gtk_media_stream_get_volume(self')
 */
 /* 
-fun gtk_media_stream_has_audio(self': NullablePointer[GtkMediaStreamT]): I32 =>
+fun has_audio(self': NullablePointer[GtkMediaStreamT]): I32 =>
     @gtk_media_stream_has_audio(self')
 */
 /* 
-fun gtk_media_stream_has_video(self': NullablePointer[GtkMediaStreamT]): I32 =>
+fun has_video(self': NullablePointer[GtkMediaStreamT]): I32 =>
     @gtk_media_stream_has_video(self')
 */
 /* 
-fun gtk_media_stream_is_prepared(self': NullablePointer[GtkMediaStreamT]): I32 =>
+fun is_prepared(self': NullablePointer[GtkMediaStreamT]): I32 =>
     @gtk_media_stream_is_prepared(self')
 */
 /* 
-fun gtk_media_stream_is_seekable(self': NullablePointer[GtkMediaStreamT]): I32 =>
+fun is_seekable(self': NullablePointer[GtkMediaStreamT]): I32 =>
     @gtk_media_stream_is_seekable(self')
 */
 /* 
-fun gtk_media_stream_is_seeking(self': NullablePointer[GtkMediaStreamT]): I32 =>
+fun is_seeking(self': NullablePointer[GtkMediaStreamT]): I32 =>
     @gtk_media_stream_is_seeking(self')
 */
 /* 
-fun gtk_media_stream_pause(self': NullablePointer[GtkMediaStreamT]): None =>
+fun pause(self': NullablePointer[GtkMediaStreamT]): None =>
     @gtk_media_stream_pause(self')
 */
 /* 
-fun gtk_media_stream_play(self': NullablePointer[GtkMediaStreamT]): None =>
+fun play(self': NullablePointer[GtkMediaStreamT]): None =>
     @gtk_media_stream_play(self')
 */
 /* 
-fun gtk_media_stream_prepared(self': NullablePointer[GtkMediaStreamT], has_audio': I32, has_video': I32, seekable': I32, duration': I64): None =>
+fun prepared(self': NullablePointer[GtkMediaStreamT], has_audio': I32, has_video': I32, seekable': I32, duration': I64): None =>
     @gtk_media_stream_prepared(self', has_audio', has_video', seekable', duration')
 */
 /* 
-fun gtk_media_stream_realize(self': NullablePointer[GtkMediaStreamT], surface': NullablePointer[GdkSurfaceT]): None =>
+fun realize(self': NullablePointer[GtkMediaStreamT], surface': NullablePointer[GdkSurfaceT]): None =>
     @gtk_media_stream_realize(self', surface')
 */
 /* 
-fun gtk_media_stream_seek(self': NullablePointer[GtkMediaStreamT], timestamp': I64): None =>
+fun seek(self': NullablePointer[GtkMediaStreamT], timestamp': I64): None =>
     @gtk_media_stream_seek(self', timestamp')
 */
 /* 
-fun gtk_media_stream_seek_failed(self': NullablePointer[GtkMediaStreamT]): None =>
+fun seek_failed(self': NullablePointer[GtkMediaStreamT]): None =>
     @gtk_media_stream_seek_failed(self')
 */
 /* 
-fun gtk_media_stream_seek_success(self': NullablePointer[GtkMediaStreamT]): None =>
+fun seek_success(self': NullablePointer[GtkMediaStreamT]): None =>
     @gtk_media_stream_seek_success(self')
 */
 /* 
-fun gtk_media_stream_set_loop(self': NullablePointer[GtkMediaStreamT], loop': I32): None =>
+fun set_loop(self': NullablePointer[GtkMediaStreamT], loop': I32): None =>
     @gtk_media_stream_set_loop(self', loop')
 */
 /* 
-fun gtk_media_stream_set_muted(self': NullablePointer[GtkMediaStreamT], muted': I32): None =>
+fun set_muted(self': NullablePointer[GtkMediaStreamT], muted': I32): None =>
     @gtk_media_stream_set_muted(self', muted')
 */
 /* 
-fun gtk_media_stream_set_playing(self': NullablePointer[GtkMediaStreamT], playing': I32): None =>
+fun set_playing(self': NullablePointer[GtkMediaStreamT], playing': I32): None =>
     @gtk_media_stream_set_playing(self', playing')
 */
 /* 
-fun gtk_media_stream_set_volume(self': NullablePointer[GtkMediaStreamT], volume': F64): None =>
+fun set_volume(self': NullablePointer[GtkMediaStreamT], volume': F64): None =>
     @gtk_media_stream_set_volume(self', volume')
 */
 /* 
-fun gtk_media_stream_stream_ended(self': NullablePointer[GtkMediaStreamT]): None =>
+fun stream_ended(self': NullablePointer[GtkMediaStreamT]): None =>
     @gtk_media_stream_stream_ended(self')
 */
 /* 
-fun gtk_media_stream_stream_prepared(self': NullablePointer[GtkMediaStreamT], has_audio': I32, has_video': I32, seekable': I32, duration': I64): None =>
+fun stream_prepared(self': NullablePointer[GtkMediaStreamT], has_audio': I32, has_video': I32, seekable': I32, duration': I64): None =>
     @gtk_media_stream_stream_prepared(self', has_audio', has_video', seekable', duration')
 */
 /* 
-fun gtk_media_stream_stream_unprepared(self': NullablePointer[GtkMediaStreamT]): None =>
+fun stream_unprepared(self': NullablePointer[GtkMediaStreamT]): None =>
     @gtk_media_stream_stream_unprepared(self')
 */
 /* 
-fun gtk_media_stream_unprepared(self': NullablePointer[GtkMediaStreamT]): None =>
+fun unprepared(self': NullablePointer[GtkMediaStreamT]): None =>
     @gtk_media_stream_unprepared(self')
 */
 /* 
-fun gtk_media_stream_unrealize(self': NullablePointer[GtkMediaStreamT], surface': NullablePointer[GdkSurfaceT]): None =>
+fun unrealize(self': NullablePointer[GtkMediaStreamT], surface': NullablePointer[GdkSurfaceT]): None =>
     @gtk_media_stream_unrealize(self', surface')
 */
 /* 
-fun gtk_media_stream_update(self': NullablePointer[GtkMediaStreamT], timestamp': I64): None =>
+fun update(self': NullablePointer[GtkMediaStreamT], timestamp': I64): None =>
     @gtk_media_stream_update(self', timestamp')
 */

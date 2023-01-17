@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 primitive GDBusAnnotationInfoSys
 // Static Functions
 /* 
-fun lookup(annotations': Pointer[NullablePointer[GDBusAnnotationInfoT]], name': Pointer[U8] tag): Pointer[U8] =>
+fun lookup(annotations': Pointer[NullablePointer[GDBusAnnotationInfoT]], name': Pointer[U8] tag): Pointer[U8] tag =>
     @g_dbus_annotation_info_lookup(annotations', name')
 */
 
@@ -14,10 +14,10 @@ fun lookup(annotations': Pointer[NullablePointer[GDBusAnnotationInfoT]], name': 
 
 // Methods
 /* 
-fun g_dbus_annotation_info_ref(info': NullablePointer[GDBusAnnotationInfoT]): Pointer[GDBusAnnotationInfoT] =>
+fun ref(info': NullablePointer[GDBusAnnotationInfoT]): NullablePointer[GDBusAnnotationInfoT] =>
     @g_dbus_annotation_info_ref(info')
 */
 /* 
-fun g_dbus_annotation_info_unref(info': NullablePointer[GDBusAnnotationInfoT]): None =>
+fun unref(info': NullablePointer[GDBusAnnotationInfoT]): None =>
     @g_dbus_annotation_info_unref(info')
 */

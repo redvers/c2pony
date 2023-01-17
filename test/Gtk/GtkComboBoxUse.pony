@@ -9,23 +9,22 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_combo_box_new[Pointer[GtkWidgetT]]()
-// use @gtk_combo_box_new_with_entry[Pointer[GtkWidgetT]]()
-// use @gtk_combo_box_new_with_model[Pointer[GtkWidgetT]](model': NullablePointer[GtkTreeModelT])
-// use @gtk_combo_box_new_with_model_and_entry[Pointer[GtkWidgetT]](model': NullablePointer[GtkTreeModelT])
+// use @gtk_combo_box_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_combo_box_new_with_entry[NullablePointer[GtkWidgetT]]()
+// use @gtk_combo_box_new_with_model[NullablePointer[GtkWidgetT]](model': NullablePointer[GtkTreeModelT])
+// use @gtk_combo_box_new_with_model_and_entry[NullablePointer[GtkWidgetT]](model': NullablePointer[GtkTreeModelT])
 
 // Methods
 // use @gtk_combo_box_get_active[I32](combo_box': NullablePointer[GtkComboBoxT])
-// use @gtk_combo_box_get_active_id[Pointer[U8]](combo_box': NullablePointer[GtkComboBoxT])
+// use @gtk_combo_box_get_active_id[Pointer[U8] tag](combo_box': NullablePointer[GtkComboBoxT])
 // use @gtk_combo_box_get_active_iter[I32](combo_box': NullablePointer[GtkComboBoxT], iter': NullablePointer[GtkTreeIterT])
 // use @gtk_combo_box_get_button_sensitivity[U32](combo_box': NullablePointer[GtkComboBoxT])
-// use @gtk_combo_box_get_child[Pointer[GtkWidgetT]](combo_box': NullablePointer[GtkComboBoxT])
+// use @gtk_combo_box_get_child[NullablePointer[GtkWidgetT]](combo_box': NullablePointer[GtkComboBoxT])
 // use @gtk_combo_box_get_entry_text_column[I32](combo_box': NullablePointer[GtkComboBoxT])
 // use @gtk_combo_box_get_has_entry[I32](combo_box': NullablePointer[GtkComboBoxT])
 // use @gtk_combo_box_get_id_column[I32](combo_box': NullablePointer[GtkComboBoxT])
-// use @gtk_combo_box_get_model[Pointer[GtkTreeModelT]](combo_box': NullablePointer[GtkComboBoxT])
+// use @gtk_combo_box_get_model[NullablePointer[GtkTreeModelT]](combo_box': NullablePointer[GtkComboBoxT])
 // use @gtk_combo_box_get_popup_fixed_width[I32](combo_box': NullablePointer[GtkComboBoxT])
-// use @gtk_combo_box_get_row_separator_func[Pointer[FIXME FunctionType]](combo_box': NullablePointer[GtkComboBoxT])
 // use @gtk_combo_box_popdown[None](combo_box': NullablePointer[GtkComboBoxT])
 // use @gtk_combo_box_popup[None](combo_box': NullablePointer[GtkComboBoxT])
 // use @gtk_combo_box_popup_for_device[None](combo_box': NullablePointer[GtkComboBoxT], device': NullablePointer[GdkDeviceT])

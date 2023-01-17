@@ -9,18 +9,18 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_column_view_new[Pointer[GtkWidgetT]](model': NullablePointer[GtkSelectionModelT])
+// use @gtk_column_view_new[NullablePointer[GtkWidgetT]](model': NullablePointer[GtkSelectionModelT])
 
 // Methods
 // use @gtk_column_view_append_column[None](self': NullablePointer[GtkColumnViewT], column': NullablePointer[GtkColumnViewColumnT])
-// use @gtk_column_view_get_columns[Pointer[GListModelT]](self': NullablePointer[GtkColumnViewT])
+// use @gtk_column_view_get_columns[NullablePointer[GListModelT]](self': NullablePointer[GtkColumnViewT])
 // use @gtk_column_view_get_enable_rubberband[I32](self': NullablePointer[GtkColumnViewT])
-// use @gtk_column_view_get_model[Pointer[GtkSelectionModelT]](self': NullablePointer[GtkColumnViewT])
+// use @gtk_column_view_get_model[NullablePointer[GtkSelectionModelT]](self': NullablePointer[GtkColumnViewT])
 // use @gtk_column_view_get_reorderable[I32](self': NullablePointer[GtkColumnViewT])
 // use @gtk_column_view_get_show_column_separators[I32](self': NullablePointer[GtkColumnViewT])
 // use @gtk_column_view_get_show_row_separators[I32](self': NullablePointer[GtkColumnViewT])
 // use @gtk_column_view_get_single_click_activate[I32](self': NullablePointer[GtkColumnViewT])
-// use @gtk_column_view_get_sorter[Pointer[GtkSorterT]](self': NullablePointer[GtkColumnViewT])
+// use @gtk_column_view_get_sorter[NullablePointer[GtkSorterT]](self': NullablePointer[GtkColumnViewT])
 // use @gtk_column_view_insert_column[None](self': NullablePointer[GtkColumnViewT], position': U32, column': NullablePointer[GtkColumnViewColumnT])
 // use @gtk_column_view_remove_column[None](self': NullablePointer[GtkColumnViewT], column': NullablePointer[GtkColumnViewColumnT])
 // use @gtk_column_view_set_enable_rubberband[None](self': NullablePointer[GtkColumnViewT], enable_rubberband': I32)

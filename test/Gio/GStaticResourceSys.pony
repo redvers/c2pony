@@ -10,14 +10,14 @@ primitive GStaticResourceSys
 
 // Methods
 /* 
-fun g_static_resource_fini(static_resource': NullablePointer[GStaticResourceT]): None =>
+fun fini(static_resource': NullablePointer[GStaticResourceT]): None =>
     @g_static_resource_fini(static_resource')
 */
 /* 
-fun g_static_resource_get_resource(static_resource': NullablePointer[GStaticResourceT]): Pointer[GResourceT] =>
+fun get_resource(static_resource': NullablePointer[GStaticResourceT]): NullablePointer[GResourceT] =>
     @g_static_resource_get_resource(static_resource')
 */
 /* 
-fun g_static_resource_init(static_resource': NullablePointer[GStaticResourceT]): None =>
+fun init(static_resource': NullablePointer[GStaticResourceT]): None =>
     @g_static_resource_init(static_resource')
 */

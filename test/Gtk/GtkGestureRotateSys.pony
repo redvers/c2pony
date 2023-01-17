@@ -11,12 +11,12 @@ primitive GtkGestureRotateSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkGestureT] =>
+fun gnew(): NullablePointer[GtkGestureT] =>
     @gtk_gesture_rotate_new()
 */
 
 // Methods
 /* 
-fun gtk_gesture_rotate_get_angle_delta(gesture': NullablePointer[GtkGestureRotateT]): F64 =>
+fun get_angle_delta(gesture': NullablePointer[GtkGestureRotateT]): F64 =>
     @gtk_gesture_rotate_get_angle_delta(gesture')
 */

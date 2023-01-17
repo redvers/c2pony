@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_assistant_new[Pointer[GtkWidgetT]]()
+// use @gtk_assistant_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_assistant_add_action_widget[None](assistant': NullablePointer[GtkAssistantT], child': NullablePointer[GtkWidgetT])
@@ -17,12 +17,12 @@ use "lib:gtk-4"
 // use @gtk_assistant_commit[None](assistant': NullablePointer[GtkAssistantT])
 // use @gtk_assistant_get_current_page[I32](assistant': NullablePointer[GtkAssistantT])
 // use @gtk_assistant_get_n_pages[I32](assistant': NullablePointer[GtkAssistantT])
-// use @gtk_assistant_get_nth_page[Pointer[GtkWidgetT]](assistant': NullablePointer[GtkAssistantT], page_num': I32)
-// use @gtk_assistant_get_page[Pointer[GtkAssistantPageT]](assistant': NullablePointer[GtkAssistantT], child': NullablePointer[GtkWidgetT])
+// use @gtk_assistant_get_nth_page[NullablePointer[GtkWidgetT]](assistant': NullablePointer[GtkAssistantT], page_num': I32)
+// use @gtk_assistant_get_page[NullablePointer[GtkAssistantPageT]](assistant': NullablePointer[GtkAssistantT], child': NullablePointer[GtkWidgetT])
 // use @gtk_assistant_get_page_complete[I32](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT])
-// use @gtk_assistant_get_page_title[Pointer[U8]](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT])
+// use @gtk_assistant_get_page_title[Pointer[U8] tag](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT])
 // use @gtk_assistant_get_page_type[U32](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT])
-// use @gtk_assistant_get_pages[Pointer[GListModelT]](assistant': NullablePointer[GtkAssistantT])
+// use @gtk_assistant_get_pages[NullablePointer[GListModelT]](assistant': NullablePointer[GtkAssistantT])
 // use @gtk_assistant_insert_page[I32](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT], position': I32)
 // use @gtk_assistant_next_page[None](assistant': NullablePointer[GtkAssistantT])
 // use @gtk_assistant_prepend_page[I32](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT])

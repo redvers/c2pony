@@ -11,11 +11,11 @@ use "lib:gtk-4"
 // Constructors
 
 // Methods
-// use @gtk_stack_page_get_child[Pointer[GtkWidgetT]](self': NullablePointer[GtkStackPageT])
-// use @gtk_stack_page_get_icon_name[Pointer[U8]](self': NullablePointer[GtkStackPageT])
-// use @gtk_stack_page_get_name[Pointer[U8]](self': NullablePointer[GtkStackPageT])
+// use @gtk_stack_page_get_child[NullablePointer[GtkWidgetT]](self': NullablePointer[GtkStackPageT])
+// use @gtk_stack_page_get_icon_name[Pointer[U8] tag](self': NullablePointer[GtkStackPageT])
+// use @gtk_stack_page_get_name[Pointer[U8] tag](self': NullablePointer[GtkStackPageT])
 // use @gtk_stack_page_get_needs_attention[I32](self': NullablePointer[GtkStackPageT])
-// use @gtk_stack_page_get_title[Pointer[U8]](self': NullablePointer[GtkStackPageT])
+// use @gtk_stack_page_get_title[Pointer[U8] tag](self': NullablePointer[GtkStackPageT])
 // use @gtk_stack_page_get_use_underline[I32](self': NullablePointer[GtkStackPageT])
 // use @gtk_stack_page_get_visible[I32](self': NullablePointer[GtkStackPageT])
 // use @gtk_stack_page_set_icon_name[None](self': NullablePointer[GtkStackPageT], setting': Pointer[U8] tag)

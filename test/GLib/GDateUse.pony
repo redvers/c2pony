@@ -15,9 +15,9 @@ use "lib:glib-2.0"
 // use @g_date_valid_year[I32](year': U16)
 
 // Constructors
-// use @g_date_new[Pointer[GDateT]]()
-// use @g_date_new_dmy[Pointer[GDateT]](day': U8, month': U32, year': U16)
-// use @g_date_new_julian[Pointer[GDateT]](julian_day': U32)
+// use @g_date_new[NullablePointer[GDateT]]()
+// use @g_date_new_dmy[NullablePointer[GDateT]](day': U8, month': U32, year': U16)
+// use @g_date_new_julian[NullablePointer[GDateT]](julian_day': U32)
 
 // Methods
 // use @g_date_add_days[None](date': NullablePointer[GDateT], n_days': U32)
@@ -26,7 +26,7 @@ use "lib:glib-2.0"
 // use @g_date_clamp[None](date': NullablePointer[GDateT], min_date': NullablePointer[GDateT], max_date': NullablePointer[GDateT])
 // use @g_date_clear[None](date': NullablePointer[GDateT], n_dates': U32)
 // use @g_date_compare[I32](lhs': NullablePointer[GDateT], rhs': NullablePointer[GDateT])
-// use @g_date_copy[Pointer[GDateT]](date': NullablePointer[GDateT])
+// use @g_date_copy[NullablePointer[GDateT]](date': NullablePointer[GDateT])
 // use @g_date_days_between[I32](date1': NullablePointer[GDateT], date2': NullablePointer[GDateT])
 // use @g_date_free[None](date': NullablePointer[GDateT])
 // use @g_date_get_day[U8](date': NullablePointer[GDateT])

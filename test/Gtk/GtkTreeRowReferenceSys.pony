@@ -23,32 +23,32 @@ fun reordered(proxy': NullablePointer[GObjectT], path': NullablePointer[GtkTreeP
 
 // Constructors
 /* 
-fun create(model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT]): Pointer[GtkTreeRowReferenceT] =>
+fun gnew(model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT]): NullablePointer[GtkTreeRowReferenceT] =>
     @gtk_tree_row_reference_new(model', path')
 */
 /* 
-fun new_proxy(proxy': NullablePointer[GObjectT], model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT]): Pointer[GtkTreeRowReferenceT] =>
+fun new_proxy(proxy': NullablePointer[GObjectT], model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT]): NullablePointer[GtkTreeRowReferenceT] =>
     @gtk_tree_row_reference_new_proxy(proxy', model', path')
 */
 
 // Methods
 /* 
-fun gtk_tree_row_reference_copy(reference': NullablePointer[GtkTreeRowReferenceT]): Pointer[GtkTreeRowReferenceT] =>
+fun copy(reference': NullablePointer[GtkTreeRowReferenceT]): NullablePointer[GtkTreeRowReferenceT] =>
     @gtk_tree_row_reference_copy(reference')
 */
 /* 
-fun gtk_tree_row_reference_free(reference': NullablePointer[GtkTreeRowReferenceT]): None =>
+fun free(reference': NullablePointer[GtkTreeRowReferenceT]): None =>
     @gtk_tree_row_reference_free(reference')
 */
 /* 
-fun gtk_tree_row_reference_get_model(reference': NullablePointer[GtkTreeRowReferenceT]): Pointer[GtkTreeModelT] =>
+fun get_model(reference': NullablePointer[GtkTreeRowReferenceT]): NullablePointer[GtkTreeModelT] =>
     @gtk_tree_row_reference_get_model(reference')
 */
 /* 
-fun gtk_tree_row_reference_get_path(reference': NullablePointer[GtkTreeRowReferenceT]): Pointer[GtkTreePathT] =>
+fun get_path(reference': NullablePointer[GtkTreeRowReferenceT]): NullablePointer[GtkTreePathT] =>
     @gtk_tree_row_reference_get_path(reference')
 */
 /* 
-fun gtk_tree_row_reference_valid(reference': NullablePointer[GtkTreeRowReferenceT]): I32 =>
+fun valid(reference': NullablePointer[GtkTreeRowReferenceT]): I32 =>
     @gtk_tree_row_reference_valid(reference')
 */

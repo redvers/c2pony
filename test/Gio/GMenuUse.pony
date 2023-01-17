@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
-// use @g_menu_new[Pointer[GMenuT]]()
+// use @g_menu_new[NullablePointer[GMenuT]]()
 
 // Methods
 // use @g_menu_append[None](menu': NullablePointer[GMenuT], label': Pointer[U8] tag, detailed_action': Pointer[U8] tag)

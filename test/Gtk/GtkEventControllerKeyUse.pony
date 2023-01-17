@@ -9,10 +9,10 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_event_controller_key_new[Pointer[GtkEventControllerT]]()
+// use @gtk_event_controller_key_new[NullablePointer[GtkEventControllerT]]()
 
 // Methods
 // use @gtk_event_controller_key_forward[I32](controller': NullablePointer[GtkEventControllerKeyT], widget': NullablePointer[GtkWidgetT])
 // use @gtk_event_controller_key_get_group[U32](controller': NullablePointer[GtkEventControllerKeyT])
-// use @gtk_event_controller_key_get_im_context[Pointer[GtkIMContextT]](controller': NullablePointer[GtkEventControllerKeyT])
+// use @gtk_event_controller_key_get_im_context[NullablePointer[GtkIMContextT]](controller': NullablePointer[GtkEventControllerKeyT])
 // use @gtk_event_controller_key_set_im_context[None](controller': NullablePointer[GtkEventControllerKeyT], im_context': NullablePointer[GtkIMContextT])

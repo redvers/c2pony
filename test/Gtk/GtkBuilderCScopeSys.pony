@@ -11,12 +11,8 @@ primitive GtkBuilderCScopeSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkBuilderScopeT] =>
+fun gnew(): NullablePointer[GtkBuilderScopeT] =>
     @gtk_builder_cscope_new()
 */
 
 // Methods
-/* 
-fun gtk_builder_cscope_lookup_callback_symbol(self': NullablePointer[GtkBuilderCScopeT], callback_name': Pointer[U8] tag): Pointer[FIXME FunctionType] =>
-    @gtk_builder_cscope_lookup_callback_symbol(self', callback_name')
-*/

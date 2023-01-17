@@ -9,11 +9,11 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_overlay_new[Pointer[GtkWidgetT]]()
+// use @gtk_overlay_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_overlay_add_overlay[None](overlay': NullablePointer[GtkOverlayT], widget': NullablePointer[GtkWidgetT])
-// use @gtk_overlay_get_child[Pointer[GtkWidgetT]](overlay': NullablePointer[GtkOverlayT])
+// use @gtk_overlay_get_child[NullablePointer[GtkWidgetT]](overlay': NullablePointer[GtkOverlayT])
 // use @gtk_overlay_get_clip_overlay[I32](overlay': NullablePointer[GtkOverlayT], widget': NullablePointer[GtkWidgetT])
 // use @gtk_overlay_get_measure_overlay[I32](overlay': NullablePointer[GtkOverlayT], widget': NullablePointer[GtkWidgetT])
 // use @gtk_overlay_remove_overlay[None](overlay': NullablePointer[GtkOverlayT], widget': NullablePointer[GtkWidgetT])

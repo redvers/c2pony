@@ -8,16 +8,16 @@ primitive GDBusAuthObserverSys
 
 // Constructors
 /* 
-fun create(): Pointer[GDBusAuthObserverT] =>
+fun gnew(): NullablePointer[GDBusAuthObserverT] =>
     @g_dbus_auth_observer_new()
 */
 
 // Methods
 /* 
-fun g_dbus_auth_observer_allow_mechanism(observer': NullablePointer[GDBusAuthObserverT], mechanism': Pointer[U8] tag): I32 =>
+fun allow_mechanism(observer': NullablePointer[GDBusAuthObserverT], mechanism': Pointer[U8] tag): I32 =>
     @g_dbus_auth_observer_allow_mechanism(observer', mechanism')
 */
 /* 
-fun g_dbus_auth_observer_authorize_authenticated_peer(observer': NullablePointer[GDBusAuthObserverT], stream': NullablePointer[GIOStreamT], credentials': NullablePointer[GCredentialsT]): I32 =>
+fun authorize_authenticated_peer(observer': NullablePointer[GDBusAuthObserverT], stream': NullablePointer[GIOStreamT], credentials': NullablePointer[GCredentialsT]): I32 =>
     @g_dbus_auth_observer_authorize_authenticated_peer(observer', stream', credentials')
 */

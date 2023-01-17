@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_grid_layout_new[Pointer[GtkLayoutManagerT]]()
+// use @gtk_grid_layout_new[NullablePointer[GtkLayoutManagerT]]()
 
 // Methods
 // use @gtk_grid_layout_get_baseline_row[I32](grid': NullablePointer[GtkGridLayoutT])

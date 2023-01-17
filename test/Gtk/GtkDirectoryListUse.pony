@@ -9,12 +9,12 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_directory_list_new[Pointer[GtkDirectoryListT]](attributes': Pointer[U8] tag, file': NullablePointer[GFileT])
+// use @gtk_directory_list_new[NullablePointer[GtkDirectoryListT]](attributes': Pointer[U8] tag, file': NullablePointer[GFileT])
 
 // Methods
-// use @gtk_directory_list_get_attributes[Pointer[U8]](self': NullablePointer[GtkDirectoryListT])
-// use @gtk_directory_list_get_error[Pointer[GErrorT]](self': NullablePointer[GtkDirectoryListT])
-// use @gtk_directory_list_get_file[Pointer[GFileT]](self': NullablePointer[GtkDirectoryListT])
+// use @gtk_directory_list_get_attributes[Pointer[U8] tag](self': NullablePointer[GtkDirectoryListT])
+// use @gtk_directory_list_get_error[NullablePointer[GErrorT]](self': NullablePointer[GtkDirectoryListT])
+// use @gtk_directory_list_get_file[NullablePointer[GFileT]](self': NullablePointer[GtkDirectoryListT])
 // use @gtk_directory_list_get_io_priority[I32](self': NullablePointer[GtkDirectoryListT])
 // use @gtk_directory_list_get_monitored[I32](self': NullablePointer[GtkDirectoryListT])
 // use @gtk_directory_list_is_loading[I32](self': NullablePointer[GtkDirectoryListT])

@@ -9,19 +9,19 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_print_operation_new[Pointer[GtkPrintOperationT]]()
+// use @gtk_print_operation_new[NullablePointer[GtkPrintOperationT]]()
 
 // Methods
 // use @gtk_print_operation_cancel[None](op': NullablePointer[GtkPrintOperationT])
 // use @gtk_print_operation_draw_page_finish[None](op': NullablePointer[GtkPrintOperationT])
-// use @gtk_print_operation_get_default_page_setup[Pointer[GtkPageSetupT]](op': NullablePointer[GtkPrintOperationT])
+// use @gtk_print_operation_get_default_page_setup[NullablePointer[GtkPageSetupT]](op': NullablePointer[GtkPrintOperationT])
 // use @gtk_print_operation_get_embed_page_setup[I32](op': NullablePointer[GtkPrintOperationT])
 // use @gtk_print_operation_get_error[None](op': NullablePointer[GtkPrintOperationT], error': Pointer[NullablePointer[GErrorT]])
 // use @gtk_print_operation_get_has_selection[I32](op': NullablePointer[GtkPrintOperationT])
 // use @gtk_print_operation_get_n_pages_to_print[I32](op': NullablePointer[GtkPrintOperationT])
-// use @gtk_print_operation_get_print_settings[Pointer[GtkPrintSettingsT]](op': NullablePointer[GtkPrintOperationT])
+// use @gtk_print_operation_get_print_settings[NullablePointer[GtkPrintSettingsT]](op': NullablePointer[GtkPrintOperationT])
 // use @gtk_print_operation_get_status[U32](op': NullablePointer[GtkPrintOperationT])
-// use @gtk_print_operation_get_status_string[Pointer[U8]](op': NullablePointer[GtkPrintOperationT])
+// use @gtk_print_operation_get_status_string[Pointer[U8] tag](op': NullablePointer[GtkPrintOperationT])
 // use @gtk_print_operation_get_support_selection[I32](op': NullablePointer[GtkPrintOperationT])
 // use @gtk_print_operation_is_finished[I32](op': NullablePointer[GtkPrintOperationT])
 // use @gtk_print_operation_run[U32](op': NullablePointer[GtkPrintOperationT], action': U32, parent': NullablePointer[GtkWindowT], error': Pointer[NullablePointer[GErrorT]])

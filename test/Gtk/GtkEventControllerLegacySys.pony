@@ -11,7 +11,7 @@ primitive GtkEventControllerLegacySys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkEventControllerT] =>
+fun gnew(): NullablePointer[GtkEventControllerT] =>
     @gtk_event_controller_legacy_new()
 */
 

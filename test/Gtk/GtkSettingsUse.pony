@@ -7,8 +7,8 @@ use "../GObject"
 use "lib:gtk-4"
 
 // Static Functions
-// use @gtk_settings_get_default[Pointer[GtkSettingsT]]()
-// use @gtk_settings_get_for_display[Pointer[GtkSettingsT]](display': NullablePointer[GdkDisplayT])
+// use @gtk_settings_get_default[NullablePointer[GtkSettingsT]]()
+// use @gtk_settings_get_for_display[NullablePointer[GtkSettingsT]](display': NullablePointer[GdkDisplayT])
 
 // Constructors
 

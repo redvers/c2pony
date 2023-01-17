@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_cell_area_box_new[Pointer[GtkCellAreaT]]()
+// use @gtk_cell_area_box_new[NullablePointer[GtkCellAreaT]]()
 
 // Methods
 // use @gtk_cell_area_box_get_spacing[I32](box': NullablePointer[GtkCellAreaBoxT])

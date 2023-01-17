@@ -2,7 +2,7 @@
 use "lib:glib-2.0"
 
 // Static Functions
-// use @g_pattern_spec_new[Pointer[GPatternSpecT]](pattern': Pointer[U8] tag)
+// use @g_pattern_spec_new[NullablePointer[GPatternSpecT]](pattern': Pointer[U8] tag)
 
 // Constructors
 

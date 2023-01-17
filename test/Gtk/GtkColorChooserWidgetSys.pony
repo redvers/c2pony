@@ -11,7 +11,7 @@ primitive GtkColorChooserWidgetSys
 
 // Constructors
 /* 
-fun create(): Pointer[GtkWidgetT] =>
+fun gnew(): NullablePointer[GtkWidgetT] =>
     @gtk_color_chooser_widget_new()
 */
 

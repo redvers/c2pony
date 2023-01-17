@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_switch_new[Pointer[GtkWidgetT]]()
+// use @gtk_switch_new[NullablePointer[GtkWidgetT]]()
 
 // Methods
 // use @gtk_switch_get_active[I32](self': NullablePointer[GtkSwitchT])
