@@ -8,6 +8,8 @@ class XmlArg
   var size: String = ""
   var align: String = ""
   var usetype: String = ""
+  var decltype: String = "var"
+  var structtype: String = ""
 
   new create(env': Env, objpath: Array[CastXMLTag], nmap: Set[String], umap: Set[String]) ? =>
     env = env'
@@ -44,36 +46,48 @@ class XmlArg
     let argtype: String = consume tstr
 //    env.out.print(argtype)
 
+    if (argtype == " => Struct") then
+        align = (args(0)? as Struct).align
+         size = (args(0)? as Struct).size
+      usetype = "FIXME - call by value: " + (args(0)? as Struct)()
+     decltype = "embed"
+   structtype = (args(0)? as Struct)()
+    end
+
     if (argtype == " => FundamentalType") then
         align = (args(0)? as FundamentalType).align
          size = (args(0)? as FundamentalType).size
       usetype = (args(0)? as FundamentalType)()
+   structtype = (args(0)? as FundamentalType)()
     end
 
     if (argtype == " => PointerType => Struct") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
       usetype = "NullablePointer[" + (args(1)? as Struct)() + "]"
+   structtype = "NullablePointer[" + (args(1)? as Struct)() + "]"
     end
 
     if (argtype == " => PointerType => FundamentalType") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
       usetype = "Pointer[" + (args(1)? as FundamentalType)() + "]"
+   structtype = "Pointer[" + (args(1)? as FundamentalType)() + "]"
     end
 
     if (argtype == " => PointerType => PointerType => FundamentalType") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
       usetype = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
+   structtype = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
     end
 
     if (argtype == " => PointerType => PointerType => Struct") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
       usetype = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
+   structtype = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
     end
-
 
 
 

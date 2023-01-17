@@ -156,9 +156,43 @@ actor Main
 
 /* OUR TEST STUFF GOES HERE */
   fun ref end_document() =>
-//    _env.out.print("<c2pony>")
-//    _env.out.print("  <uses>")
+    _env.out.print("<c2pony>")
+    _env.out.print("  <structs>")
+    generate_struct_xml()
+    _env.out.print("  </structs>")
+    _env.out.print("  <uses>")
+    generate_use_xml()
+    _env.out.print("  </uses>")
+    _env.out.print("  <typenames>")
+    list_type_names()
+    _env.out.print("  </typenames>")
+    _env.out.print("  <argnames>")
+    list_fn_arg_names()
+    _env.out.print("  </argnames>")
+    _env.out.print("</c2pony>")
 
+  fun ref generate_struct_xml() =>
+    let names: Array[String] = []
+    for i in tmap.values() do
+      match i
+      | let t: Struct => names.push(t.name)
+      end
+    end
+    for f in Sort[Array[String], String](names).values() do
+      try
+        let str: String = struct_use(f)?
+        _env.out.print(str)
+      else
+        _env.out.print("/* " + f + " */")
+      end
+    end
+
+
+
+
+
+
+  fun ref generate_use_xml() =>
     let names: Array[String] = []
     for i in tmap.values() do
       match i
@@ -174,8 +208,57 @@ actor Main
       end
     end
 
-    list_fn_arg_names()
+  fun ref struct_use(struct_name: String): String ? =>
+    let main: String trn = recover trn String end
+    let args: String trn = recover trn String end
+    let strut: Struct =
+    try
+      lookup_struct(struct_name)?
+    else
+      error
+    end
 
+    let structlocation: String = DebugClasses.location(tmap, strut.location)?
+
+    main.append("    <struct name=\"")
+    main.append(strut.name)
+    main.append("\" size=\"")
+    main.append(strut.size)
+    main.append("\" align=\"")
+    main.append(strut.align)
+    main.append("\" location=\"")
+    main.append(structlocation)
+    main.append("\">\n")
+
+    try // If any of the fields fail. We go abstract
+      for arg in strut.members.values() do
+        var objpath: Array[CastXMLTag] = []
+        match tmap(arg)?
+        | let t: Field => resolve_type(t.xtype, objpath)?
+                          let xmlarg: XmlArg = XmlArg(_env, objpath, nmap, umap)?
+                          args.append("      <field name=\"")
+                          args.append(t.name)
+                          args.append("\" decl=\"")
+                          args.append(xmlarg.decltype)
+                          args.append("\" structtype=\"")
+                          args.append(xmlarg.structtype)
+                          args.append("\" size=\"")
+                          args.append(xmlarg.size)
+                          args.append("\" align=\"")
+                          args.append(xmlarg.align)
+                          args.append("\"/>\n")
+                          nmap.set(t.name)
+                          umap.set(xmlarg.usetype)
+        else
+          error
+  //      | let t: Ellipsis => args.append("      <ellipsis/>\n")
+        end
+      end
+      main.append(consume args)
+    end
+    main.append("    </struct>\n")
+
+    consume main
     /*
 
     _env.out.print("  </uses>")
@@ -184,10 +267,8 @@ actor Main
     _env.out.print("  </structs>")
 
 
-    list_type_names()
-    close_c2pony()
 */
-
+/*
   fun ref list_structs() =>
     let names: Array[String] = []
     var anoncnt: U64 = 0
@@ -308,6 +389,7 @@ actor Main
     (rbool, t.name, returnvalue)
 
 
+*/
 
   fun ref lookup_struct(a: String): Struct ? =>
     for f in tmap.values() do
@@ -323,9 +405,7 @@ actor Main
   fun ref close_c2pony() =>
     _env.out.print("</c2pony>")
 
-
   fun ref list_type_names() =>
-    _env.out.print("  <typenames>")
     let sa: Array[String] = []
     for f in umap.values() do
       sa.push(f)
@@ -333,10 +413,8 @@ actor Main
     for g in Sort[Array[String], String](sa).values() do
       _env.out.print("    <typename name=\"" + g + "\" rename=\"" + g + "\"/>")
     end
-    _env.out.print("  </typenames>")
 
   fun ref list_fn_arg_names() =>
-    _env.out.print("  <argnames>")
     let sa: Array[String] = []
     for f in nmap.values() do
       sa.push(f)
@@ -344,7 +422,6 @@ actor Main
     for g in Sort[Array[String], String](sa).values() do
       _env.out.print("    <argname name=\"" + g + "\" rename=\"" + g + "\"/>")
     end
-    _env.out.print("  </argnames>")
 
   fun ref function_use(function_name: String): String ? =>
     let function: Function =
@@ -356,38 +433,44 @@ actor Main
     let returnvalue: String = use_return_value(function)?
     let functionlocation: String = DebugClasses.location(tmap, function.location)?
 
+    let main: String trn = recover trn String end
     let args: String trn = recover trn String end
-    args.append("    <use name=\"")
-    args.append(function_name)
-    args.append("\" returntype=\"")
-    args.append(returnvalue)
-    args.append("\" location=\"")
-    args.append(functionlocation)
-    args.append("\">\n")
+    main.append("    <use name=\"")
+    main.append(function_name)
+    main.append("\" returntype=\"")
+    main.append(returnvalue)
+    main.append("\" location=\"")
+    main.append(functionlocation)
+    main.append("\">\n")
 
-    for arg in function.arguments.values() do
-      var objpath: Array[CastXMLTag] = []
-      match arg
-      | let t: Argument =>
-          resolve_type(t.xtype, objpath)?
-          let xmlarg: XmlArg = XmlArg(_env, objpath, nmap, umap)?
-          args.append("      <arg name=\"")
-          args.append(t.name)
-          args.append("\" usetype=\"")
-          args.append(xmlarg.usetype)
-          args.append("\" size=\"")
-          args.append(xmlarg.size)
-          args.append("\" align=\"")
-          args.append(xmlarg.align)
-          args.append("\"/>\n")
-          nmap.set(t.name)
-          umap.set(xmlarg.usetype)
-      | let t: Ellipsis => args.append("      <ellipsis/>\n")
+    try
+      for arg in function.arguments.values() do
+        var objpath: Array[CastXMLTag] = []
+        match arg
+        | let t: Argument =>
+            resolve_type(t.xtype, objpath)?
+            let xmlarg: XmlArg = XmlArg(_env, objpath, nmap, umap)?
+            args.append("      <arg name=\"")
+            args.append(t.name)
+            args.append("\" usetype=\"")
+            args.append(xmlarg.usetype)
+            args.append("\" size=\"")
+            args.append(xmlarg.size)
+            args.append("\" align=\"")
+            args.append(xmlarg.align)
+            args.append("\"/>\n")
+            nmap.set(t.name)
+            umap.set(xmlarg.usetype)
+        | let t: Ellipsis => args.append("      <ellipsis/>\n")
+        end
       end
+      main.append(consume args)
+      consume main
+    else
+      "<!-- " + function_name + " -->\n"
     end
-    args.append("    </use>\n")
 
-    consume args
+
 
 
 /*

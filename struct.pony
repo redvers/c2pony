@@ -20,7 +20,10 @@ class Struct
     | if (currkey == "id") => id = b
     | if (currkey == "name") => name = b
     | if (currkey == "type") => xtype = b
-    | if (currkey == "location") => location = b
+    | if (currkey == "location") => if (name == "") then
+                                      name = "anon" + id
+                                    end
+                                    location = b
     | if (currkey == "size") => size = b
     | if (currkey == "align") => align = b
     | if (currkey == "members") => members = b.split(" ")
