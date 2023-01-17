@@ -156,8 +156,8 @@ actor Main
 
 /* OUR TEST STUFF GOES HERE */
   fun ref end_document() =>
-    _env.out.print("<c2pony>")
-    _env.out.print("  <uses>")
+//    _env.out.print("<c2pony>")
+//    _env.out.print("  <uses>")
 
     let names: Array[String] = []
     for i in tmap.values() do
@@ -166,8 +166,17 @@ actor Main
       end
     end
     for f in Sort[Array[String], String](names).values() do
-      function_use(f)
+      try
+        let str: String = function_use(f)?
+        _env.out.print(str)
+      else
+        _env.out.print("/* " + f + " */")
+      end
     end
+
+    list_fn_arg_names()
+
+    /*
 
     _env.out.print("  </uses>")
     _env.out.print("  <structs>")
@@ -175,10 +184,9 @@ actor Main
     _env.out.print("  </structs>")
 
 
-    list_fn_arg_names()
     list_type_names()
     close_c2pony()
-
+*/
 
   fun ref list_structs() =>
     let names: Array[String] = []
@@ -338,20 +346,16 @@ actor Main
     end
     _env.out.print("  </argnames>")
 
-  fun ref function_use(function_name: String) =>
+  fun ref function_use(function_name: String): String ? =>
+    let function: Function =
     try
-//    Debug.err("Looking up function: " + function_name)
-      let function: Function =
-      try
-        lookup_function(function_name)?
-      else
-//      Debug.err("Unable to locate function in XML")
-        error
-      end
+      lookup_function(function_name)?
+    else
+      error
+    end
     let returnvalue: String = use_return_value(function)?
     let functionlocation: String = DebugClasses.location(tmap, function.location)?
 
-//    Debug.err("Checking our args")
     let args: String trn = recover trn String end
     args.append("    <use name=\"")
     args.append(function_name)
@@ -360,50 +364,33 @@ actor Main
     args.append("\" location=\"")
     args.append(functionlocation)
     args.append("\">\n")
-    (let rnames: Array[String], let rtypes: Array[String]) = use_args(function)?
-    if (rnames.size() == rtypes.size()) then
-      for index in Range(0, rnames.size()) do
-//        Debug.err(rnames(index)? + ": " + rtypes(index)?)
-        args.append("      <argument name=\"")
-        if ((rnames(index)? == "'") or (rnames(index)? == "")) then
-          args.append("arg")
-          nmap.set("arg" + index.string() + "'")
-          args.append(index.string())
-        else
-          args.append(rnames(index)?)
-          nmap.set(rnames(index)?)
-        end
-        args.append("\" argtype=\"")
-        args.append(rtypes(index)?)
-        umap.set(rtypes(index)?)
-        args.append("\"/>\n")
+
+    for arg in function.arguments.values() do
+      var objpath: Array[CastXMLTag] = []
+      match arg
+      | let t: Argument =>
+          resolve_type(t.xtype, objpath)?
+          let xmlarg: XmlArg = XmlArg(_env, objpath, nmap, umap)?
+          args.append("      <arg name=\"")
+          args.append(t.name)
+          args.append("\" usetype=\"")
+          args.append(xmlarg.usetype)
+          args.append("\" size=\"")
+          args.append(xmlarg.size)
+          args.append("\" align=\"")
+          args.append(xmlarg.align)
+          args.append("\"/>\n")
+          nmap.set(t.name)
+          umap.set(xmlarg.usetype)
+      | let t: Ellipsis => args.append("      <ellipsis/>\n")
       end
-    else
-      for index in Range(0, rnames.size()) do
-//        Debug.err(rnames(index)? + ": " + rtypes(index)?)
-        args.append("      <argument name=\"")
-        if ((rnames(index)? == "'") or (rnames(index)? == "")) then
-          args.append("arg")
-          args.append(index.string())
-          nmap.set("arg" + index.string() + "'")
-        else
-          args.append(rnames(index)?)
-          nmap.set(rnames(index)?)
-        end
-//        args.append(rnames(index)?)
-        args.append("\" argtype=\"")
-        args.append(rtypes(index)?)
-        umap.set(rtypes(index)?)
-        args.append("\"/>\n")
-      end
-      args.append("      <ellipsis/>\n")
     end
-    args.append("    </use>")
-    _env.out.print(consume args)
-//    Debug.err("Arg checking complete")
-    end
+    args.append("    </use>\n")
+
+    consume args
 
 
+/*
   fun ref use_args(function: Function): (Array[String], Array[String]) ? =>
     let rtypes: Array[String] = []
     let rnames: Array[String] = []
@@ -427,7 +414,7 @@ actor Main
       end
     end
     (rnames, rtypes)
-
+*/
 
   fun ref use_return_value(function: Function): String ? =>
 //    Debug.err("Starting with the return value")

@@ -32,3 +32,5 @@ class Struct
 //    Debug.err("Struct: " + name + " " + id + " " + xtype + " " + location + " " + memberstr)
 
   fun gen_use(str: String): String => name
+
+  fun apply(): String => name

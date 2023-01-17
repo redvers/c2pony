@@ -1,2 +1,2 @@
 all:
-	corral run -- ponyc -d
+	corral run -- ponyc
