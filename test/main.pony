@@ -30,11 +30,6 @@ actor Main is P
     GtkApplicationSys.add_window(gtkapp, window)
     @gtk_widget_show(window.parent_instance')
 
-  fun @destroy_data(a: Pointer[None] tag, b: GClosureT): None =>
-    @printf("destroy_data called\n".cstring())
-    None
-
-
 
 
 
