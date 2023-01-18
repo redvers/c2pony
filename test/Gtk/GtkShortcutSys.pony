@@ -11,36 +11,36 @@ primitive GtkShortcutSys
 
 // Constructors
 /* 
-fun gnew(trigger': NullablePointer[GtkShortcutTriggerT], action': NullablePointer[GtkShortcutActionT]): NullablePointer[GtkShortcutT] =>
+fun gnew(trigger': GtkShortcutTriggerT, action': GtkShortcutActionT): GtkShortcutT =>
     @gtk_shortcut_new(trigger', action')
 */
 /* 
-fun new_with_arguments(trigger': NullablePointer[GtkShortcutTriggerT], action': NullablePointer[GtkShortcutActionT], format_string': Pointer[U8] tag, ...): NullablePointer[GtkShortcutT] =>
+fun new_with_arguments(trigger': GtkShortcutTriggerT, action': GtkShortcutActionT, format_string': Pointer[U8] tag, ...): GtkShortcutT =>
     @gtk_shortcut_new_with_arguments(trigger', action', format_string', ...)
 */
 
 // Methods
 /* 
-fun get_action(self': NullablePointer[GtkShortcutT]): NullablePointer[GtkShortcutActionT] =>
+fun get_action(self': GtkShortcutT): GtkShortcutActionT =>
     @gtk_shortcut_get_action(self')
 */
 /* 
-fun get_arguments(self': NullablePointer[GtkShortcutT]): NullablePointer[GVariantT] =>
+fun get_arguments(self': GtkShortcutT): GVariantT =>
     @gtk_shortcut_get_arguments(self')
 */
 /* 
-fun get_trigger(self': NullablePointer[GtkShortcutT]): NullablePointer[GtkShortcutTriggerT] =>
+fun get_trigger(self': GtkShortcutT): GtkShortcutTriggerT =>
     @gtk_shortcut_get_trigger(self')
 */
 /* 
-fun set_action(self': NullablePointer[GtkShortcutT], action': NullablePointer[GtkShortcutActionT]): None =>
+fun set_action(self': GtkShortcutT, action': GtkShortcutActionT): None =>
     @gtk_shortcut_set_action(self', action')
 */
 /* 
-fun set_arguments(self': NullablePointer[GtkShortcutT], args': NullablePointer[GVariantT]): None =>
+fun set_arguments(self': GtkShortcutT, args': GVariantT): None =>
     @gtk_shortcut_set_arguments(self', args')
 */
 /* 
-fun set_trigger(self': NullablePointer[GtkShortcutT], trigger': NullablePointer[GtkShortcutTriggerT]): None =>
+fun set_trigger(self': GtkShortcutT, trigger': GtkShortcutTriggerT): None =>
     @gtk_shortcut_set_trigger(self', trigger')
 */

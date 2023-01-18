@@ -8,34 +8,34 @@ primitive GSequenceIterSys
 
 // Methods
 /* 
-fun compare(a': NullablePointer[GSequenceNodeT], b': NullablePointer[GSequenceNodeT]): I32 =>
+fun compare(a': GSequenceNodeT, b': GSequenceNodeT): I32 =>
     @g_sequence_iter_compare(a', b')
 */
 /* 
-fun get_position(iter': NullablePointer[GSequenceNodeT]): I32 =>
+fun get_position(iter': GSequenceNodeT): I32 =>
     @g_sequence_iter_get_position(iter')
 */
 /* 
-fun get_sequence(iter': NullablePointer[GSequenceNodeT]): NullablePointer[GSequenceT] =>
+fun get_sequence(iter': GSequenceNodeT): GSequenceT =>
     @g_sequence_iter_get_sequence(iter')
 */
 /* 
-fun is_begin(iter': NullablePointer[GSequenceNodeT]): I32 =>
+fun is_begin(iter': GSequenceNodeT): I32 =>
     @g_sequence_iter_is_begin(iter')
 */
 /* 
-fun is_end(iter': NullablePointer[GSequenceNodeT]): I32 =>
+fun is_end(iter': GSequenceNodeT): I32 =>
     @g_sequence_iter_is_end(iter')
 */
 /* 
-fun move(iter': NullablePointer[GSequenceNodeT], delta': I32): NullablePointer[GSequenceNodeT] =>
+fun move(iter': GSequenceNodeT, delta': I32): GSequenceNodeT =>
     @g_sequence_iter_move(iter', delta')
 */
 /* 
-fun next(iter': NullablePointer[GSequenceNodeT]): NullablePointer[GSequenceNodeT] =>
+fun next(iter': GSequenceNodeT): GSequenceNodeT =>
     @g_sequence_iter_next(iter')
 */
 /* 
-fun prev(iter': NullablePointer[GSequenceNodeT]): NullablePointer[GSequenceNodeT] =>
+fun prev(iter': GSequenceNodeT): GSequenceNodeT =>
     @g_sequence_iter_prev(iter')
 */

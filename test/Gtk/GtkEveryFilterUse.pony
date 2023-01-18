@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_every_filter_new[NullablePointer[GtkEveryFilterT]]()
+// use @gtk_every_filter_new[GtkEveryFilterT]()
 
 // Methods

@@ -12,16 +12,16 @@ fun query(): Pointer[Pointer[U8]] tag =>
 
 // Constructors
 /* 
-fun gnew(filename': Pointer[U8] tag): NullablePointer[GIOModuleT] =>
+fun gnew(filename': Pointer[U8] tag): GIOModuleT =>
     @g_io_module_new(filename')
 */
 
 // Methods
 /* 
-fun load(module': NullablePointer[GIOModuleT]): None =>
+fun load(module': GIOModuleT): None =>
     @g_io_module_load(module')
 */
 /* 
-fun unload(module': NullablePointer[GIOModuleT]): None =>
+fun unload(module': GIOModuleT): None =>
     @g_io_module_unload(module')
 */

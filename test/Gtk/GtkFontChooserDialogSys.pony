@@ -11,7 +11,7 @@ primitive GtkFontChooserDialogSys
 
 // Constructors
 /* 
-fun gnew(title': Pointer[U8] tag, parent': NullablePointer[GtkWindowT]): NullablePointer[GtkWidgetT] =>
+fun gnew(title': Pointer[U8] tag, parent': GtkWindowT): GtkWidgetT =>
     @gtk_font_chooser_dialog_new(title', parent')
 */
 

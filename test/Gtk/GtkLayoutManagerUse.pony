@@ -11,9 +11,9 @@ use "lib:gtk-4"
 // Constructors
 
 // Methods
-// use @gtk_layout_manager_allocate[None](manager': NullablePointer[GtkLayoutManagerT], widget': NullablePointer[GtkWidgetT], width': I32, height': I32, baseline': I32)
-// use @gtk_layout_manager_get_layout_child[NullablePointer[GtkLayoutChildT]](manager': NullablePointer[GtkLayoutManagerT], child': NullablePointer[GtkWidgetT])
-// use @gtk_layout_manager_get_request_mode[U32](manager': NullablePointer[GtkLayoutManagerT])
-// use @gtk_layout_manager_get_widget[NullablePointer[GtkWidgetT]](manager': NullablePointer[GtkLayoutManagerT])
-// use @gtk_layout_manager_layout_changed[None](manager': NullablePointer[GtkLayoutManagerT])
-// use @gtk_layout_manager_measure[None](manager': NullablePointer[GtkLayoutManagerT], widget': NullablePointer[GtkWidgetT], orientation': U32, for_size': I32, minimum': Pointer[I32] tag, natural': Pointer[I32] tag, minimum_baseline': Pointer[I32] tag, natural_baseline': Pointer[I32] tag)
+// use @gtk_layout_manager_allocate[None](manager': GtkLayoutManagerT, widget': GtkWidgetT, width': I32, height': I32, baseline': I32)
+// use @gtk_layout_manager_get_layout_child[GtkLayoutChildT](manager': GtkLayoutManagerT, child': GtkWidgetT)
+// use @gtk_layout_manager_get_request_mode[U32](manager': GtkLayoutManagerT)
+// use @gtk_layout_manager_get_widget[GtkWidgetT](manager': GtkLayoutManagerT)
+// use @gtk_layout_manager_layout_changed[None](manager': GtkLayoutManagerT)
+// use @gtk_layout_manager_measure[None](manager': GtkLayoutManagerT, widget': GtkWidgetT, orientation': U32, for_size': I32, minimum': Pointer[I32] tag, natural': Pointer[I32] tag, minimum_baseline': Pointer[I32] tag, natural_baseline': Pointer[I32] tag)

@@ -11,16 +11,16 @@ primitive GtkWindowHandleSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkWidgetT] =>
+fun gnew(): GtkWidgetT =>
     @gtk_window_handle_new()
 */
 
 // Methods
 /* 
-fun get_child(self': NullablePointer[GtkWindowHandleT]): NullablePointer[GtkWidgetT] =>
+fun get_child(self': GtkWindowHandleT): GtkWidgetT =>
     @gtk_window_handle_get_child(self')
 */
 /* 
-fun set_child(self': NullablePointer[GtkWindowHandleT], child': NullablePointer[GtkWidgetT]): None =>
+fun set_child(self': GtkWindowHandleT, child': GtkWidgetT): None =>
     @gtk_window_handle_set_child(self', child')
 */

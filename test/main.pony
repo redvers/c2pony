@@ -4,29 +4,28 @@ use "Gio"
 use "Gtk"
 
 use @printf[I32](fmt: Pointer[U8] tag, ...)
+use @gtk_widget_show[None](widget: GtkWidgetT)
 
 actor Main
   new create(env: Env) => None
     GtkNSSys.init()
-    let resource: NullablePointer[GResourceT] = GResourceSys.load("demo.gresource".cstring(), Pointer[NullablePointer[GErrorT]])
+    let resource: GResourceT = GResourceSys.load("demo.gresource".cstring(), Pointer[GErrorT])
     GioNSSys.resources_register(resource)
-    var app: NullablePointer[GtkApplicationT] = GtkApplicationSys.gnew("me.infect.red".cstring(), 0)
-    try
-      let app2: GtkApplicationT = app.apply()?
-      let gapp: GApplicationT = app2.parent_instance'
-      let app3: NullablePointer[GApplicationT] = NullablePointer[GApplicationT](gapp)
-      let gobject: NullablePointer[GObjectT] = NullablePointer[GObjectT](gapp.parent_instance')
-      if (gobject.is_none()) then env.out.print("is nullptr") end
-      let cb: GCallback = @{(): None => @printf("Callback called\n".cstring()) ; None}
-      GObjectNSSys.signal_connect_data(gobject, "activate".cstring(), CB~cb(), Pointer[None], cb, U32(0))
-      GApplicationSys.run(app3, 0, Pointer[Pointer[U8]])
-    else
-      env.out.print("Borked")
-    end
+    var app: GtkApplicationT = GtkApplicationSys.gnew("me.infect.red".cstring(), 0)
 
-primitive CB
-  fun @cb(): None =>
+    GObjectNSSys.signal_connect_data(app.parent_instance'.parent_instance', "activate".cstring(), this~cb(), Pointer[None], this~destroy_data(), U32(0))
+    GApplicationSys.run(app.parent_instance', 0, Pointer[Pointer[U8]])
+
+  fun @cb(gtkapp: GtkApplicationT): None =>
     @printf("Callback called\n".cstring())
+    let builder: GtkBuilderT = GtkBuilderSys.new_from_resource("/ui/main.ui".cstring())
+    let window: GtkWindowT = GtkBuilderSys.get_object(builder, "window".cstring())
+    GtkApplicationSys.add_window(gtkapp, window)
+    @gtk_widget_show(window.parent_instance')
+
+  fun @destroy_data(a: Pointer[None] tag, b: GClosureT): None =>
+    @printf("destroy_data called\n".cstring())
+    None
 
 
 

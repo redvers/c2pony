@@ -8,10 +8,10 @@ primitive GTestSuiteSys
 
 // Methods
 /* 
-fun add(suite': NullablePointer[GTestSuiteT], test_case': NullablePointer[GTestCaseT]): None =>
+fun add(suite': GTestSuiteT, test_case': GTestCaseT): None =>
     @g_test_suite_add(suite', test_case')
 */
 /* 
-fun add_suite(suite': NullablePointer[GTestSuiteT], nestedsuite': NullablePointer[GTestSuiteT]): None =>
+fun add_suite(suite': GTestSuiteT, nestedsuite': GTestSuiteT): None =>
     @g_test_suite_add_suite(suite', nestedsuite')
 */

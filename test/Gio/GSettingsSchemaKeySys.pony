@@ -10,38 +10,38 @@ primitive GSettingsSchemaKeySys
 
 // Methods
 /* 
-fun get_default_value(key': NullablePointer[GSettingsSchemaKeyT]): NullablePointer[GVariantT] =>
+fun get_default_value(key': GSettingsSchemaKeyT): GVariantT =>
     @g_settings_schema_key_get_default_value(key')
 */
 /* 
-fun get_description(key': NullablePointer[GSettingsSchemaKeyT]): Pointer[U8] tag =>
+fun get_description(key': GSettingsSchemaKeyT): Pointer[U8] tag =>
     @g_settings_schema_key_get_description(key')
 */
 /* 
-fun get_name(key': NullablePointer[GSettingsSchemaKeyT]): Pointer[U8] tag =>
+fun get_name(key': GSettingsSchemaKeyT): Pointer[U8] tag =>
     @g_settings_schema_key_get_name(key')
 */
 /* 
-fun get_range(key': NullablePointer[GSettingsSchemaKeyT]): NullablePointer[GVariantT] =>
+fun get_range(key': GSettingsSchemaKeyT): GVariantT =>
     @g_settings_schema_key_get_range(key')
 */
 /* 
-fun get_summary(key': NullablePointer[GSettingsSchemaKeyT]): Pointer[U8] tag =>
+fun get_summary(key': GSettingsSchemaKeyT): Pointer[U8] tag =>
     @g_settings_schema_key_get_summary(key')
 */
 /* 
-fun get_value_type(key': NullablePointer[GSettingsSchemaKeyT]): NullablePointer[GVariantTypeT] =>
+fun get_value_type(key': GSettingsSchemaKeyT): GVariantTypeT =>
     @g_settings_schema_key_get_value_type(key')
 */
 /* 
-fun range_check(key': NullablePointer[GSettingsSchemaKeyT], value': NullablePointer[GVariantT]): I32 =>
+fun range_check(key': GSettingsSchemaKeyT, value': GVariantT): I32 =>
     @g_settings_schema_key_range_check(key', value')
 */
 /* 
-fun ref(key': NullablePointer[GSettingsSchemaKeyT]): NullablePointer[GSettingsSchemaKeyT] =>
+fun ref(key': GSettingsSchemaKeyT): GSettingsSchemaKeyT =>
     @g_settings_schema_key_ref(key')
 */
 /* 
-fun unref(key': NullablePointer[GSettingsSchemaKeyT]): None =>
+fun unref(key': GSettingsSchemaKeyT): None =>
     @g_settings_schema_key_unref(key')
 */

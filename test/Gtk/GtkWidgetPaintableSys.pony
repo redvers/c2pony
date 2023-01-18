@@ -11,16 +11,16 @@ primitive GtkWidgetPaintableSys
 
 // Constructors
 /* 
-fun gnew(widget': NullablePointer[GtkWidgetT]): NullablePointer[GdkPaintableT] =>
+fun gnew(widget': GtkWidgetT): GdkPaintableT =>
     @gtk_widget_paintable_new(widget')
 */
 
 // Methods
 /* 
-fun get_widget(self': NullablePointer[GtkWidgetPaintableT]): NullablePointer[GtkWidgetT] =>
+fun get_widget(self': GtkWidgetPaintableT): GtkWidgetT =>
     @gtk_widget_paintable_get_widget(self')
 */
 /* 
-fun set_widget(self': NullablePointer[GtkWidgetPaintableT], widget': NullablePointer[GtkWidgetT]): None =>
+fun set_widget(self': GtkWidgetPaintableT, widget': GtkWidgetT): None =>
     @gtk_widget_paintable_set_widget(self', widget')
 */

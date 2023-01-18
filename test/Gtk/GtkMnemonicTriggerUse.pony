@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_mnemonic_trigger_new[NullablePointer[GtkShortcutTriggerT]](keyval': U32)
+// use @gtk_mnemonic_trigger_new[GtkShortcutTriggerT](keyval': U32)
 
 // Methods
-// use @gtk_mnemonic_trigger_get_keyval[U32](self': NullablePointer[GtkMnemonicTriggerT])
+// use @gtk_mnemonic_trigger_get_keyval[U32](self': GtkMnemonicTriggerT)

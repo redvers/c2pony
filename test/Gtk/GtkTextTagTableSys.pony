@@ -11,28 +11,28 @@ primitive GtkTextTagTableSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkTextTagTableT] =>
+fun gnew(): GtkTextTagTableT =>
     @gtk_text_tag_table_new()
 */
 
 // Methods
 /* 
-fun add(table': NullablePointer[GtkTextTagTableT], tag': NullablePointer[GtkTextTagT]): I32 =>
+fun add(table': GtkTextTagTableT, tag': GtkTextTagT): I32 =>
     @gtk_text_tag_table_add(table', tag')
 */
 /* 
-fun foreach(table': NullablePointer[GtkTextTagTableT], func': GtkTextTagTableForeach, data': Pointer[None] tag): None =>
+fun foreach(table': GtkTextTagTableT, func': GtkTextTagTableForeach, data': Pointer[None] tag): None =>
     @gtk_text_tag_table_foreach(table', func', data')
 */
 /* 
-fun get_size(table': NullablePointer[GtkTextTagTableT]): I32 =>
+fun get_size(table': GtkTextTagTableT): I32 =>
     @gtk_text_tag_table_get_size(table')
 */
 /* 
-fun lookup(table': NullablePointer[GtkTextTagTableT], name': Pointer[U8] tag): NullablePointer[GtkTextTagT] =>
+fun lookup(table': GtkTextTagTableT, name': Pointer[U8] tag): GtkTextTagT =>
     @gtk_text_tag_table_lookup(table', name')
 */
 /* 
-fun remove(table': NullablePointer[GtkTextTagTableT], tag': NullablePointer[GtkTextTagT]): None =>
+fun remove(table': GtkTextTagTableT, tag': GtkTextTagT): None =>
     @gtk_text_tag_table_remove(table', tag')
 */

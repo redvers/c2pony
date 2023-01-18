@@ -11,7 +11,7 @@ primitive GtkClosureExpressionSys
 
 // Constructors
 /* 
-fun gnew(value_type': U64, closure': NullablePointer[GClosureT], n_params': U32, params': Pointer[NullablePointer[GtkExpressionT]]): NullablePointer[GtkExpressionT] =>
+fun gnew(value_type': U64, closure': GClosureT, n_params': U32, params': Pointer[GtkExpressionT]): GtkExpressionT =>
     @gtk_closure_expression_new(value_type', closure', n_params', params')
 */
 

@@ -33,7 +33,7 @@ fun get_instance_private_offset(g_class': Pointer[None] tag): I32 =>
     @g_type_class_get_instance_private_offset(g_class')
 */
 /* 
-fun get_private(klass': NullablePointer[GTypeClassT], private_type': U64): Pointer[None] tag =>
+fun get_private(klass': GTypeClassT, private_type': U64): Pointer[None] tag =>
     @g_type_class_get_private(klass', private_type')
 */
 /* 

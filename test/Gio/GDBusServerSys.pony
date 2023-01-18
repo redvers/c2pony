@@ -8,32 +8,32 @@ primitive GDBusServerSys
 
 // Constructors
 /* 
-fun new_sync(address': Pointer[U8] tag, flags': U32, guid': Pointer[U8] tag, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDBusServerT] =>
+fun new_sync(address': Pointer[U8] tag, flags': U32, guid': Pointer[U8] tag, observer': GDBusAuthObserverT, cancellable': GCancellableT, error': Pointer[GErrorT]): GDBusServerT =>
     @g_dbus_server_new_sync(address', flags', guid', observer', cancellable', error')
 */
 
 // Methods
 /* 
-fun get_client_address(server': NullablePointer[GDBusServerT]): Pointer[U8] tag =>
+fun get_client_address(server': GDBusServerT): Pointer[U8] tag =>
     @g_dbus_server_get_client_address(server')
 */
 /* 
-fun get_flags(server': NullablePointer[GDBusServerT]): U32 =>
+fun get_flags(server': GDBusServerT): U32 =>
     @g_dbus_server_get_flags(server')
 */
 /* 
-fun get_guid(server': NullablePointer[GDBusServerT]): Pointer[U8] tag =>
+fun get_guid(server': GDBusServerT): Pointer[U8] tag =>
     @g_dbus_server_get_guid(server')
 */
 /* 
-fun is_active(server': NullablePointer[GDBusServerT]): I32 =>
+fun is_active(server': GDBusServerT): I32 =>
     @g_dbus_server_is_active(server')
 */
 /* 
-fun start(server': NullablePointer[GDBusServerT]): None =>
+fun start(server': GDBusServerT): None =>
     @g_dbus_server_start(server')
 */
 /* 
-fun stop(server': NullablePointer[GDBusServerT]): None =>
+fun stop(server': GDBusServerT): None =>
     @g_dbus_server_stop(server')
 */

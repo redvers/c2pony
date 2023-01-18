@@ -10,14 +10,14 @@ primitive GFilterOutputStreamSys
 
 // Methods
 /* 
-fun get_base_stream(stream': NullablePointer[GFilterOutputStreamT]): NullablePointer[GOutputStreamT] =>
+fun get_base_stream(stream': GFilterOutputStreamT): GOutputStreamT =>
     @g_filter_output_stream_get_base_stream(stream')
 */
 /* 
-fun get_close_base_stream(stream': NullablePointer[GFilterOutputStreamT]): I32 =>
+fun get_close_base_stream(stream': GFilterOutputStreamT): I32 =>
     @g_filter_output_stream_get_close_base_stream(stream')
 */
 /* 
-fun set_close_base_stream(stream': NullablePointer[GFilterOutputStreamT], close_base': I32): None =>
+fun set_close_base_stream(stream': GFilterOutputStreamT, close_base': I32): None =>
     @g_filter_output_stream_set_close_base_stream(stream', close_base')
 */

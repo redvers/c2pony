@@ -6,5 +6,5 @@ use "lib:glib-2.0"
 // Constructors
 
 // Methods
-// use @g_test_suite_add[None](suite': NullablePointer[GTestSuiteT], test_case': NullablePointer[GTestCaseT])
-// use @g_test_suite_add_suite[None](suite': NullablePointer[GTestSuiteT], nestedsuite': NullablePointer[GTestSuiteT])
+// use @g_test_suite_add[None](suite': GTestSuiteT, test_case': GTestCaseT)
+// use @g_test_suite_add_suite[None](suite': GTestSuiteT, nestedsuite': GTestSuiteT)

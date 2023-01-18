@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_custom_layout_new[NullablePointer[GtkLayoutManagerT]](request_mode': GtkCustomRequestModeFunc, measure': GtkCustomMeasureFunc, allocate': GtkCustomAllocateFunc)
+// use @gtk_custom_layout_new[GtkLayoutManagerT](request_mode': GtkCustomRequestModeFunc, measure': GtkCustomMeasureFunc, allocate': GtkCustomAllocateFunc)
 
 // Methods

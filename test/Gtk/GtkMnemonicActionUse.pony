@@ -7,7 +7,7 @@ use "../GObject"
 use "lib:gtk-4"
 
 // Static Functions
-// use @gtk_mnemonic_action_get[NullablePointer[GtkShortcutActionT]]()
+// use @gtk_mnemonic_action_get[GtkShortcutActionT]()
 
 // Constructors
 

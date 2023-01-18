@@ -11,7 +11,7 @@ primitive GtkCellRendererSpinnerSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkCellRendererT] =>
+fun gnew(): GtkCellRendererT =>
     @gtk_cell_renderer_spinner_new()
 */
 

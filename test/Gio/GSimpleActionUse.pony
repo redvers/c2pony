@@ -6,10 +6,10 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
-// use @g_simple_action_new[NullablePointer[GSimpleActionT]](name': Pointer[U8] tag, parameter_type': NullablePointer[GVariantTypeT])
-// use @g_simple_action_new_stateful[NullablePointer[GSimpleActionT]](name': Pointer[U8] tag, parameter_type': NullablePointer[GVariantTypeT], state': NullablePointer[GVariantT])
+// use @g_simple_action_new[GSimpleActionT](name': Pointer[U8] tag, parameter_type': GVariantTypeT)
+// use @g_simple_action_new_stateful[GSimpleActionT](name': Pointer[U8] tag, parameter_type': GVariantTypeT, state': GVariantT)
 
 // Methods
-// use @g_simple_action_set_enabled[None](simple': NullablePointer[GSimpleActionT], enabled': I32)
-// use @g_simple_action_set_state[None](simple': NullablePointer[GSimpleActionT], value': NullablePointer[GVariantT])
-// use @g_simple_action_set_state_hint[None](simple': NullablePointer[GSimpleActionT], state_hint': NullablePointer[GVariantT])
+// use @g_simple_action_set_enabled[None](simple': GSimpleActionT, enabled': I32)
+// use @g_simple_action_set_state[None](simple': GSimpleActionT, value': GVariantT)
+// use @g_simple_action_set_state_hint[None](simple': GSimpleActionT, state_hint': GVariantT)

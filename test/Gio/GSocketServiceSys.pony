@@ -8,20 +8,20 @@ primitive GSocketServiceSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GSocketServiceT] =>
+fun gnew(): GSocketServiceT =>
     @g_socket_service_new()
 */
 
 // Methods
 /* 
-fun is_active(service': NullablePointer[GSocketServiceT]): I32 =>
+fun is_active(service': GSocketServiceT): I32 =>
     @g_socket_service_is_active(service')
 */
 /* 
-fun start(service': NullablePointer[GSocketServiceT]): None =>
+fun start(service': GSocketServiceT): None =>
     @g_socket_service_start(service')
 */
 /* 
-fun stop(service': NullablePointer[GSocketServiceT]): None =>
+fun stop(service': GSocketServiceT): None =>
     @g_socket_service_stop(service')
 */

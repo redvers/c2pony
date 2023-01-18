@@ -11,16 +11,16 @@ primitive GtkIMMulticontextSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkIMContextT] =>
+fun gnew(): GtkIMContextT =>
     @gtk_im_multicontext_new()
 */
 
 // Methods
 /* 
-fun get_context_id(context': NullablePointer[GtkIMMulticontextT]): Pointer[U8] tag =>
+fun get_context_id(context': GtkIMMulticontextT): Pointer[U8] tag =>
     @gtk_im_multicontext_get_context_id(context')
 */
 /* 
-fun set_context_id(context': NullablePointer[GtkIMMulticontextT], context_id': Pointer[U8] tag): None =>
+fun set_context_id(context': GtkIMMulticontextT, context_id': Pointer[U8] tag): None =>
     @gtk_im_multicontext_set_context_id(context', context_id')
 */

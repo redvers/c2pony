@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_im_context_simple_new[NullablePointer[GtkIMContextT]]()
+// use @gtk_im_context_simple_new[GtkIMContextT]()
 
 // Methods
-// use @gtk_im_context_simple_add_compose_file[None](context_simple': NullablePointer[GtkIMContextSimpleT], compose_file': Pointer[U8] tag)
-// use @gtk_im_context_simple_add_table[None](context_simple': NullablePointer[GtkIMContextSimpleT], data': Pointer[U16] tag, max_seq_len': I32, n_seqs': I32)
+// use @gtk_im_context_simple_add_compose_file[None](context_simple': GtkIMContextSimpleT, compose_file': Pointer[U8] tag)
+// use @gtk_im_context_simple_add_table[None](context_simple': GtkIMContextSimpleT, data': Pointer[U16] tag, max_seq_len': I32, n_seqs': I32)

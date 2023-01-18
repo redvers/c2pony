@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_cell_renderer_accel_new[NullablePointer[GtkCellRendererT]]()
+// use @gtk_cell_renderer_accel_new[GtkCellRendererT]()
 
 // Methods

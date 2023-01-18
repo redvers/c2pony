@@ -11,7 +11,7 @@ primitive GtkBinLayoutSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkLayoutManagerT] =>
+fun gnew(): GtkLayoutManagerT =>
     @gtk_bin_layout_new()
 */
 

@@ -11,7 +11,7 @@ primitive GtkCallbackActionSys
 
 // Constructors
 /* 
-fun gnew(callback': GtkShortcutFunc, data': Pointer[None] tag, destroy': GDestroyNotify): NullablePointer[GtkShortcutActionT] =>
+fun gnew(callback': GtkShortcutFunc, data': Pointer[None] tag, destroy': GDestroyNotify): GtkShortcutActionT =>
     @gtk_callback_action_new(callback', data', destroy')
 */
 

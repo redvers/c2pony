@@ -11,12 +11,12 @@ primitive GtkGestureSwipeSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkGestureT] =>
+fun gnew(): GtkGestureT =>
     @gtk_gesture_swipe_new()
 */
 
 // Methods
 /* 
-fun get_velocity(gesture': NullablePointer[GtkGestureSwipeT], velocity_x': Pointer[F64] tag, velocity_y': Pointer[F64] tag): I32 =>
+fun get_velocity(gesture': GtkGestureSwipeT, velocity_x': Pointer[F64] tag, velocity_y': Pointer[F64] tag): I32 =>
     @gtk_gesture_swipe_get_velocity(gesture', velocity_x', velocity_y')
 */

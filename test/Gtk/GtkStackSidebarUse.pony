@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_stack_sidebar_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_stack_sidebar_new[GtkWidgetT]()
 
 // Methods
-// use @gtk_stack_sidebar_get_stack[NullablePointer[GtkStackT]](self': NullablePointer[GtkStackSidebarT])
-// use @gtk_stack_sidebar_set_stack[None](self': NullablePointer[GtkStackSidebarT], stack': NullablePointer[GtkStackT])
+// use @gtk_stack_sidebar_get_stack[GtkStackT](self': GtkStackSidebarT)
+// use @gtk_stack_sidebar_set_stack[None](self': GtkStackSidebarT, stack': GtkStackT)

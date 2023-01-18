@@ -74,9 +74,9 @@ class XmlArg
     if (argtype == " => PointerType => Struct") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
-      usetype = "NullablePointer[" + (args(1)? as Struct)() + "]"
-   structtype = "NullablePointer[" + (args(1)? as Struct)() + "]"
-   structinit = "NullablePointer[" + (args(1)? as Struct)() + "].none()"
+      usetype = (args(1)? as Struct)()
+   structtype = (args(1)? as Struct)()
+   structinit = (args(1)? as Struct)()
       return
     end
 
@@ -121,18 +121,18 @@ class XmlArg
     if (argtype == " => PointerType => PointerType => Struct") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
-      usetype = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
-   structtype = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
-   structinit = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
+      usetype = "Pointer[" + (args(2)? as Struct)() + "]"
+   structtype = "Pointer[" + (args(2)? as Struct)() + "]"
+   structinit = "Pointer[" + (args(2)? as Struct)() + "]"
       return
     end
 
     if (argtype == " => PointerType => PointerType => PointerType => Struct") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
-      usetype = "Pointer[Pointer[NullablePointer[" + (args(3)? as Struct)() + "]]]"
-   structtype = "Pointer[Pointer[NullablePointer[" + (args(3)? as Struct)() + "]]]"
-   structinit = "Pointer[Pointer[NullablePointer[" + (args(3)? as Struct)() + "]]]"
+      usetype = "Pointer[Pointer[" + (args(3)? as Struct)() + "]]"
+   structtype = "Pointer[Pointer[" + (args(3)? as Struct)() + "]]"
+   structinit = "Pointer[Pointer[" + (args(3)? as Struct)() + "]]"
       return
     end
 

@@ -11,16 +11,16 @@ primitive GtkEventControllerMotionSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkEventControllerT] =>
+fun gnew(): GtkEventControllerT =>
     @gtk_event_controller_motion_new()
 */
 
 // Methods
 /* 
-fun contains_pointer(self': NullablePointer[GtkEventControllerMotionT]): I32 =>
+fun contains_pointer(self': GtkEventControllerMotionT): I32 =>
     @gtk_event_controller_motion_contains_pointer(self')
 */
 /* 
-fun is_pointer(self': NullablePointer[GtkEventControllerMotionT]): I32 =>
+fun is_pointer(self': GtkEventControllerMotionT): I32 =>
     @gtk_event_controller_motion_is_pointer(self')
 */

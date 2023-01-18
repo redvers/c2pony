@@ -11,16 +11,16 @@ primitive GtkSearchEntrySys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkWidgetT] =>
+fun gnew(): GtkWidgetT =>
     @gtk_search_entry_new()
 */
 
 // Methods
 /* 
-fun get_key_capture_widget(entry': NullablePointer[GtkSearchEntryT]): NullablePointer[GtkWidgetT] =>
+fun get_key_capture_widget(entry': GtkSearchEntryT): GtkWidgetT =>
     @gtk_search_entry_get_key_capture_widget(entry')
 */
 /* 
-fun set_key_capture_widget(entry': NullablePointer[GtkSearchEntryT], widget': NullablePointer[GtkWidgetT]): None =>
+fun set_key_capture_widget(entry': GtkSearchEntryT, widget': GtkWidgetT): None =>
     @gtk_search_entry_set_key_capture_widget(entry', widget')
 */

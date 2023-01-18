@@ -13,50 +13,50 @@ primitive GtkEventControllerSys
 
 // Methods
 /* 
-fun get_current_event(controller': NullablePointer[GtkEventControllerT]): NullablePointer[GdkEventT] =>
+fun get_current_event(controller': GtkEventControllerT): GdkEventT =>
     @gtk_event_controller_get_current_event(controller')
 */
 /* 
-fun get_current_event_device(controller': NullablePointer[GtkEventControllerT]): NullablePointer[GdkDeviceT] =>
+fun get_current_event_device(controller': GtkEventControllerT): GdkDeviceT =>
     @gtk_event_controller_get_current_event_device(controller')
 */
 /* 
-fun get_current_event_state(controller': NullablePointer[GtkEventControllerT]): U32 =>
+fun get_current_event_state(controller': GtkEventControllerT): U32 =>
     @gtk_event_controller_get_current_event_state(controller')
 */
 /* 
-fun get_current_event_time(controller': NullablePointer[GtkEventControllerT]): U32 =>
+fun get_current_event_time(controller': GtkEventControllerT): U32 =>
     @gtk_event_controller_get_current_event_time(controller')
 */
 /* 
-fun get_name(controller': NullablePointer[GtkEventControllerT]): Pointer[U8] tag =>
+fun get_name(controller': GtkEventControllerT): Pointer[U8] tag =>
     @gtk_event_controller_get_name(controller')
 */
 /* 
-fun get_propagation_limit(controller': NullablePointer[GtkEventControllerT]): U32 =>
+fun get_propagation_limit(controller': GtkEventControllerT): U32 =>
     @gtk_event_controller_get_propagation_limit(controller')
 */
 /* 
-fun get_propagation_phase(controller': NullablePointer[GtkEventControllerT]): U32 =>
+fun get_propagation_phase(controller': GtkEventControllerT): U32 =>
     @gtk_event_controller_get_propagation_phase(controller')
 */
 /* 
-fun get_widget(controller': NullablePointer[GtkEventControllerT]): NullablePointer[GtkWidgetT] =>
+fun get_widget(controller': GtkEventControllerT): GtkWidgetT =>
     @gtk_event_controller_get_widget(controller')
 */
 /* 
-fun reset(controller': NullablePointer[GtkEventControllerT]): None =>
+fun reset(controller': GtkEventControllerT): None =>
     @gtk_event_controller_reset(controller')
 */
 /* 
-fun set_name(controller': NullablePointer[GtkEventControllerT], name': Pointer[U8] tag): None =>
+fun set_name(controller': GtkEventControllerT, name': Pointer[U8] tag): None =>
     @gtk_event_controller_set_name(controller', name')
 */
 /* 
-fun set_propagation_limit(controller': NullablePointer[GtkEventControllerT], limit': U32): None =>
+fun set_propagation_limit(controller': GtkEventControllerT, limit': U32): None =>
     @gtk_event_controller_set_propagation_limit(controller', limit')
 */
 /* 
-fun set_propagation_phase(controller': NullablePointer[GtkEventControllerT], phase': U32): None =>
+fun set_propagation_phase(controller': GtkEventControllerT, phase': U32): None =>
     @gtk_event_controller_set_propagation_phase(controller', phase')
 */

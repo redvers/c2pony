@@ -7,7 +7,7 @@ use "../GObject"
 use "lib:gtk-4"
 
 // Static Functions
-// use @gtk_never_trigger_get[NullablePointer[GtkShortcutTriggerT]]()
+// use @gtk_never_trigger_get[GtkShortcutTriggerT]()
 
 // Constructors
 

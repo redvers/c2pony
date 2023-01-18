@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_widget_paintable_new[NullablePointer[GdkPaintableT]](widget': NullablePointer[GtkWidgetT])
+// use @gtk_widget_paintable_new[GdkPaintableT](widget': GtkWidgetT)
 
 // Methods
-// use @gtk_widget_paintable_get_widget[NullablePointer[GtkWidgetT]](self': NullablePointer[GtkWidgetPaintableT])
-// use @gtk_widget_paintable_set_widget[None](self': NullablePointer[GtkWidgetPaintableT], widget': NullablePointer[GtkWidgetT])
+// use @gtk_widget_paintable_get_widget[GtkWidgetT](self': GtkWidgetPaintableT)
+// use @gtk_widget_paintable_set_widget[None](self': GtkWidgetPaintableT, widget': GtkWidgetT)

@@ -11,7 +11,7 @@ primitive GtkPasswordEntryBufferSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkEntryBufferT] =>
+fun gnew(): GtkEntryBufferT =>
     @gtk_password_entry_buffer_new()
 */
 

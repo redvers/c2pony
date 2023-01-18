@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_emoji_chooser_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_emoji_chooser_new[GtkWidgetT]()
 
 // Methods

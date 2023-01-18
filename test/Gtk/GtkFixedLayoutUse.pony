@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_fixed_layout_new[NullablePointer[GtkLayoutManagerT]]()
+// use @gtk_fixed_layout_new[GtkLayoutManagerT]()
 
 // Methods

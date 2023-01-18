@@ -8,12 +8,12 @@ primitive GConverterInputStreamSys
 
 // Constructors
 /* 
-fun gnew(base_stream': NullablePointer[GInputStreamT], converter': NullablePointer[GConverterT]): NullablePointer[GInputStreamT] =>
+fun gnew(base_stream': GInputStreamT, converter': GConverterT): GInputStreamT =>
     @g_converter_input_stream_new(base_stream', converter')
 */
 
 // Methods
 /* 
-fun get_converter(converter_stream': NullablePointer[GConverterInputStreamT]): NullablePointer[GConverterT] =>
+fun get_converter(converter_stream': GConverterInputStreamT): GConverterT =>
     @g_converter_input_stream_get_converter(converter_stream')
 */

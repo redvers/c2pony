@@ -8,22 +8,22 @@ primitive GRecMutexSys
 
 // Methods
 /* 
-fun clear(rec_mutex': NullablePointer[GRecMutexT]): None =>
+fun clear(rec_mutex': GRecMutexT): None =>
     @g_rec_mutex_clear(rec_mutex')
 */
 /* 
-fun init(rec_mutex': NullablePointer[GRecMutexT]): None =>
+fun init(rec_mutex': GRecMutexT): None =>
     @g_rec_mutex_init(rec_mutex')
 */
 /* 
-fun lock(rec_mutex': NullablePointer[GRecMutexT]): None =>
+fun lock(rec_mutex': GRecMutexT): None =>
     @g_rec_mutex_lock(rec_mutex')
 */
 /* 
-fun trylock(rec_mutex': NullablePointer[GRecMutexT]): I32 =>
+fun trylock(rec_mutex': GRecMutexT): I32 =>
     @g_rec_mutex_trylock(rec_mutex')
 */
 /* 
-fun unlock(rec_mutex': NullablePointer[GRecMutexT]): None =>
+fun unlock(rec_mutex': GRecMutexT): None =>
     @g_rec_mutex_unlock(rec_mutex')
 */
