@@ -13,10 +13,9 @@ actor Main
     GioNSSys.resources_register(resource)
     var app: GtkApplicationT = GtkApplicationSys.gnew("me.infect.red".cstring(), 0)
 
-    GObjectNSSys.signal_connect_data(app.parent_instance'.parent_instance', "activate".cstring(), CB~cb(), Pointer[None], CB~destroy_data(), U32(0))
+    GObjectNSSys.signal_connect_data(app.parent_instance'.parent_instance', "activate".cstring(), this~cb(), Pointer[None], this~destroy_data(), U32(0))
     GApplicationSys.run(app.parent_instance', 0, Pointer[Pointer[U8]])
 
-primitive CB
   fun @cb(gtkapp: GtkApplicationT): None =>
     @printf("Callback called\n".cstring())
     let builder: GtkBuilderT = GtkBuilderSys.new_from_resource("/ui/main.ui".cstring())
