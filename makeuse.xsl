@@ -4,7 +4,6 @@
 <xsl:strip-space elements="*"/>
 <xsl:param name="namespace"/>
 <xsl:param name="debug"/>
-<xsl:variable name="newline"><xsl:text>&#xa;</xsl:text></xsl:variable>
 
 <xsl:include href="common.xsl"/>
 
@@ -121,31 +120,5 @@
   </xsl:choose>
 
 </xsl:template>
-
-<xsl:template name="useargs">
-  <xsl:param name="arg"/>
-  <xsl:if test="position() > 1">
-    <xsl:text>, </xsl:text>
-  </xsl:if>
-  <xsl:choose>
-    <xsl:when test="name()='arg'">
-      <xsl:variable name="argname" select="$arg/@name"/>
-      <xsl:variable name="newname" select="/main/c2pony/argnames/argname[@name=$argname]/@rename"/>
-      <xsl:value-of select="$newname"/>
-      <xsl:text>: </xsl:text>
-      <xsl:variable name="typename" select="$arg/@usetype"/>
-      <xsl:variable name="newtype" select="/main/c2pony/typenames/typename[@name=$typename]/@rename"/>
-      <xsl:value-of select="$newtype"/>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:text>...</xsl:text>
-    </xsl:otherwise>
-  </xsl:choose>
-</xsl:template>
-
-
-<xsl:template match="prefix"></xsl:template>
-<xsl:template match="suffix"></xsl:template>
-<xsl:template match="text()"></xsl:template>
 
 </xsl:stylesheet>

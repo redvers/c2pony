@@ -4,8 +4,7 @@
 <xsl:strip-space elements="*"/>
 <xsl:param name="namespace"/>
 <xsl:param name="debug"/>
-<xsl:variable name="newline"><xsl:text>&#xa;</xsl:text></xsl:variable>
-
+<xsl:include href="common.xsl"/>
 
 <xsl:template match="/main/rs/ns[@namespace=$namespace]">
   <!-- Namespace "static" functions -->
@@ -21,9 +20,11 @@
         <xsl:with-param name="n" select="./@name"/>
         <xsl:with-param name="render" select="./@render"/>
       </xsl:call-template>
+      <xsl:value-of select="$newline"/>
     </xsl:for-each>
     <xsl:for-each select="./fnoverride">
       <xsl:value-of select="."/>
+      <xsl:value-of select="$newline"/>
     </xsl:for-each>
   </xsl:result-document>
   
@@ -44,6 +45,7 @@
             <xsl:with-param name="n" select="./@name"/>
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
+          <xsl:value-of select="$newline"/>
         </xsl:for-each>
         <xsl:value-of select="$newline"/>
         <xsl:text>// Constructors</xsl:text><xsl:value-of select="$newline"/>
@@ -53,8 +55,9 @@
             <xsl:with-param name="n" select="./@name"/>
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
+          <xsl:value-of select="$newline"/>
         </xsl:for-each>
-        <xsl:value-of select="$newline"/>
+          <xsl:value-of select="$newline"/>
         <xsl:text>// Methods</xsl:text><xsl:value-of select="$newline"/>
         <xsl:for-each select="$root/rendermethod[@render=$debug]">
           <xsl:call-template name="mainfunction">
@@ -62,9 +65,11 @@
             <xsl:with-param name="n" select="./@name"/>
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
+          <xsl:value-of select="$newline"/>
         </xsl:for-each>
     <xsl:for-each select="$root/fnoverride">
       <xsl:value-of select="."/>
+      <xsl:value-of select="$newline"/>
     </xsl:for-each>
     </xsl:result-document>
       <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
@@ -87,6 +92,7 @@
             <xsl:with-param name="n" select="./@name"/>
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
+          <xsl:value-of select="$newline"/>
         </xsl:for-each>
         <xsl:value-of select="$newline"/>
         <xsl:text>// Constructors</xsl:text><xsl:value-of select="$newline"/>
@@ -96,6 +102,7 @@
             <xsl:with-param name="n" select="./@name"/>
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
+          <xsl:value-of select="$newline"/>
         </xsl:for-each>
         <xsl:value-of select="$newline"/>
         <xsl:text>// Methods</xsl:text><xsl:value-of select="$newline"/>
@@ -105,9 +112,11 @@
             <xsl:with-param name="n" select="./@name"/>
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
+          <xsl:value-of select="$newline"/>
         </xsl:for-each>
         <xsl:for-each select="$root/fnoverride">
           <xsl:value-of select="."/>
+          <xsl:value-of select="$newline"/>
         </xsl:for-each>
         </xsl:result-document>
     </xsl:for-each>
@@ -124,7 +133,7 @@
         <xsl:text>/* </xsl:text><xsl:value-of select="$newline"/>
       </xsl:if>
     
-      <xsl:text>fun </xsl:text><xsl:value-of select="$ponyname"/>
+      <xsl:text>  fun </xsl:text><xsl:value-of select="$ponyname"/>
       <xsl:text>(</xsl:text>
       <xsl:for-each select="$root/*">
         <xsl:call-template name="useargs"><xsl:with-param name="arg" select="."/></xsl:call-template>
@@ -149,25 +158,6 @@
 
 </xsl:template>
 
-<xsl:template name="useargs">
-  <xsl:param name="arg"/>
-  <xsl:if test="position() > 1">
-    <xsl:text>, </xsl:text>
-  </xsl:if>
-  <xsl:choose>
-    <xsl:when test="name()='arg'">
-      <xsl:variable name="argname" select="$arg/@name"/>
-      <xsl:variable name="newname" select="/main/c2pony/argnames/argname[@name=$argname]/@rename"/>
-      <xsl:value-of select="$newname"/>
-      <xsl:text>: </xsl:text>
-      <xsl:value-of select="$arg/@usetype"/>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:text>...</xsl:text>
-    </xsl:otherwise>
-  </xsl:choose>
-</xsl:template>
-
 <xsl:template name="usearg">
   <xsl:param name="arg"/>
   <xsl:if test="position() > 1">
@@ -184,9 +174,5 @@
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
-
-<xsl:template match="prefix"></xsl:template>
-<xsl:template match="suffix"></xsl:template>
-<xsl:template match="text()"></xsl:template>
 
 </xsl:stylesheet>
