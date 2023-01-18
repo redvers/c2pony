@@ -9,7 +9,7 @@
 
 <xsl:template match="/main/rs/ns[@namespace=$namespace]">
   <!-- Namespace "static" functions -->
-  <xsl:result-document href="test/{$namespace}/{$namespace}NSSys.pony" method="text"> 
+  <xsl:result-document href="test/{$namespace}/{$namespace}NSSys.pony" method="text">
     <xsl:value-of select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
     <xsl:value-of select="$newline"/>
     <xsl:text>primitive </xsl:text>
@@ -31,7 +31,7 @@
     <xsl:for-each select="./renderclass[@render=$debug]">
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, 'Sys')"/>
-      <xsl:result-document href="test/{$namespace}/{$filename}.pony" method="text"> 
+      <xsl:result-document href="test/{$namespace}/{$filename}.pony" method="text">
         <xsl:value-of select="$preamble"/>
         <xsl:value-of select="$newline"/>
         <xsl:text>primitive </xsl:text>
@@ -66,7 +66,7 @@
     <xsl:for-each select="$root/fnoverride">
       <xsl:value-of select="."/>
     </xsl:for-each>
-      </xsl:result-document>
+    </xsl:result-document>
       <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
       <xsl:value-of select="$newline"/>
     </xsl:for-each>
@@ -74,7 +74,7 @@
     <xsl:for-each select="./renderstruct[@render=$debug]">
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, 'Sys')"/>
-      <xsl:result-document href="test/{$namespace}/{$filename}.pony" method="text"> 
+      <xsl:result-document href="test/{$namespace}/{$filename}.pony" method="text">
         <xsl:value-of select="$preamble"/>
         <xsl:value-of select="$newline"/>
         <xsl:text>primitive </xsl:text>
@@ -106,12 +106,10 @@
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
         </xsl:for-each>
-    <xsl:for-each select="$root/fnoverride">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
-      </xsl:result-document>
-      <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
-      <xsl:value-of select="$newline"/>
+        <xsl:for-each select="$root/fnoverride">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+        </xsl:result-document>
     </xsl:for-each>
 </xsl:template>
 
@@ -158,7 +156,9 @@
   </xsl:if>
   <xsl:choose>
     <xsl:when test="name()='arg'">
-      <xsl:value-of select="$arg/@name"/>
+      <xsl:variable name="argname" select="$arg/@name"/>
+      <xsl:variable name="newname" select="/main/c2pony/argnames/argname[@name=$argname]/@rename"/>
+      <xsl:value-of select="$newname"/>
       <xsl:text>: </xsl:text>
       <xsl:value-of select="$arg/@usetype"/>
     </xsl:when>
@@ -175,7 +175,9 @@
   </xsl:if>
   <xsl:choose>
     <xsl:when test="name()='arg'">
-      <xsl:value-of select="$arg/@name"/>
+      <xsl:variable name="argname" select="$arg/@name"/>
+      <xsl:variable name="newname" select="/main/c2pony/argnames/argname[@name=$argname]/@rename"/>
+      <xsl:value-of select="$newname"/>
     </xsl:when>
     <xsl:otherwise>
       <xsl:text>...</xsl:text>

@@ -6,6 +6,7 @@
 <xsl:param name="debug"/>
 <xsl:variable name="newline"><xsl:text>&#xa;</xsl:text></xsl:variable>
 
+<xsl:include href="common.xsl"/>
 
 <xsl:template match="/main/rs/ns[@namespace=$namespace]">
   <!-- Namespace "static" functions -->
@@ -54,12 +55,11 @@
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
         </xsl:for-each>
-    <xsl:for-each select="./useoverride">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
+        <xsl:for-each select="./useoverride">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
       </xsl:result-document>
-      <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
-      <xsl:value-of select="$newline"/>
+
     </xsl:for-each>
   <!-- By Class -->
     <xsl:for-each select="./renderstruct[@render=$debug]">
@@ -91,12 +91,10 @@
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
         </xsl:for-each>
-    <xsl:for-each select="./useoverride">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
+        <xsl:for-each select="./useoverride">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
       </xsl:result-document>
-      <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
-      <xsl:value-of select="$newline"/>
     </xsl:for-each>
 </xsl:template>
 
@@ -131,9 +129,13 @@
   </xsl:if>
   <xsl:choose>
     <xsl:when test="name()='arg'">
-      <xsl:value-of select="$arg/@name"/>
+      <xsl:variable name="argname" select="$arg/@name"/>
+      <xsl:variable name="newname" select="/main/c2pony/argnames/argname[@name=$argname]/@rename"/>
+      <xsl:value-of select="$newname"/>
       <xsl:text>: </xsl:text>
-      <xsl:value-of select="$arg/@usetype"/>
+      <xsl:variable name="typename" select="$arg/@usetype"/>
+      <xsl:variable name="newtype" select="/main/c2pony/typenames/typename[@name=$typename]/@rename"/>
+      <xsl:value-of select="$newtype"/>
     </xsl:when>
     <xsl:otherwise>
       <xsl:text>...</xsl:text>

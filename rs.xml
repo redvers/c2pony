@@ -3,7 +3,6 @@
     xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
    <ns namespace="GLib">
 <ponydep>
-use "../P"
 use "lib:glib-2.0"
 </ponydep>
       <renderfunction name="g_access" ponyname="access" render="0" deprecated=""/>
@@ -1816,42 +1815,42 @@ use "lib:glib-2.0"
                       ponyname="warn_message"
                       render="0"
                       deprecated=""/>
-      <renderstruct name="GArray" render="0">
+      <renderstruct name="GArray" render="1">
          <renderfunction name="g_array_append_vals"
                          ponyname="append_vals"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_array_binary_search"
                          ponyname="binary_search"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_array_copy" ponyname="copy" render="0" deprecated=""/>
-         <renderfunction name="g_array_free" ponyname="free" render="0" deprecated=""/>
+         <renderfunction name="g_array_copy" ponyname="copy" render="1" deprecated=""/>
+         <renderfunction name="g_array_free" ponyname="free" render="1" deprecated=""/>
          <renderfunction name="g_array_get_element_size"
                          ponyname="get_element_size"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_array_insert_vals"
                          ponyname="insert_vals"
-                         render="0"
+                         render="1"
                          deprecated=""/>
-         <renderfunction name="g_array_new" ponyname="gnew" render="0" deprecated=""/>
+         <renderfunction name="g_array_new" ponyname="gnew" render="1" deprecated=""/>
          <renderfunction name="g_array_prepend_vals"
                          ponyname="prepend_vals"
-                         render="0"
+                         render="1"
                          deprecated=""/>
-         <renderfunction name="g_array_ref" ponyname="ref" render="0" deprecated=""/>
+         <renderfunction name="g_array_ref" ponyname="gref" render="1" deprecated=""/>
          <renderfunction name="g_array_remove_index"
                          ponyname="remove_index"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_array_remove_index_fast"
                          ponyname="remove_index_fast"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_array_remove_range"
                          ponyname="remove_range"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_array_set_clear_func"
                          ponyname="set_clear_func"
@@ -1859,21 +1858,21 @@ use "lib:glib-2.0"
                          deprecated=""/>
          <renderfunction name="g_array_set_size"
                          ponyname="set_size"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_array_sized_new"
                          ponyname="sized_new"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_array_sort" ponyname="sort" render="0" deprecated=""/>
          <renderfunction name="g_array_sort_with_data"
                          ponyname="sort_with_data"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_array_steal" ponyname="steal" render="0" deprecated=""/>
-         <renderfunction name="g_array_unref" ponyname="unref" render="0" deprecated=""/>
+         <renderfunction name="g_array_steal" ponyname="steal" render="1" deprecated=""/>
+         <renderfunction name="g_array_unref" ponyname="unref" render="1" deprecated=""/>
       </renderstruct>
-      <renderstruct name="GAsyncQueue" render="0">
+      <renderstruct name="GAsyncQueue" render="1">
          <rendermethod name="g_async_queue_length"
                        ponyname="length"
                        render="0"
@@ -1915,7 +1914,7 @@ use "lib:glib-2.0"
                        ponyname="push_unlocked"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_async_queue_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_async_queue_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_async_queue_ref_unlocked"
                        ponyname="ref_unlocked"
                        render="0"
@@ -1978,7 +1977,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GBookmarkFile" render="0">
+      <renderstruct name="GBookmarkFile" render="1">
          <rendermethod name="g_bookmark_file_add_application"
                        ponyname="add_application"
                        render="0"
@@ -2172,7 +2171,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GByteArray" render="0">
+      <renderstruct name="GByteArray" render="1">
          <renderfunction name="g_byte_array_append"
                          ponyname="append"
                          render="0"
@@ -2194,7 +2193,7 @@ use "lib:glib-2.0"
                          ponyname="prepend"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_byte_array_ref" ponyname="ref" render="0" deprecated=""/>
+         <renderfunction name="g_byte_array_ref" ponyname="gref" render="0" deprecated=""/>
          <renderfunction name="g_byte_array_remove_index"
                          ponyname="remove_index"
                          render="0"
@@ -2232,7 +2231,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GBytes" render="0">
+      <renderstruct name="GBytes" render="1">
          <renderconstructor name="g_bytes_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_bytes_new_static"
                             ponyname="new_static"
@@ -2264,7 +2263,7 @@ use "lib:glib-2.0"
                        ponyname="new_from_bytes"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_bytes_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_bytes_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_bytes_unref" ponyname="unref" render="0" deprecated=""/>
          <rendermethod name="g_bytes_unref_to_array"
                        ponyname="unref_to_array"
@@ -2315,7 +2314,7 @@ use "lib:glib-2.0"
                        deprecated=""/>
       </renderstruct>
       <renderstruct name="GData" render="1"/>
-      <renderstruct name="GDate" render="0">
+      <renderstruct name="GDate" render="1">
          <renderconstructor name="g_date_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_date_new_dmy"
                             ponyname="new_dmy"
@@ -2492,7 +2491,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GDateTime" render="0">
+      <renderstruct name="GDateTime" render="1">
          <renderconstructor name="g_date_time_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_date_time_new_from_iso8601"
                             ponyname="new_from_iso8601"
@@ -2656,7 +2655,7 @@ use "lib:glib-2.0"
                        ponyname="is_daylight_savings"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_date_time_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_date_time_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_date_time_to_local"
                        ponyname="to_local"
                        render="0"
@@ -2682,8 +2681,8 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GDebugKey" render="0"/>
-      <renderstruct name="GDir" render="0">
+      <renderstruct name="GDebugKey" render="1"/>
+      <renderstruct name="GDir" render="1">
          <rendermethod name="g_dir_close" ponyname="close" render="0" deprecated=""/>
          <rendermethod name="g_dir_read_name"
                        ponyname="read_name"
@@ -2713,7 +2712,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GHashTable" render="0">
+      <renderstruct name="GHashTable" render="1">
          <renderfunction name="g_hash_table_add" ponyname="add" render="0" deprecated=""/>
          <renderfunction name="g_hash_table_contains"
                          ponyname="contains"
@@ -2768,7 +2767,7 @@ use "lib:glib-2.0"
                          ponyname="new_full"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_hash_table_ref" ponyname="ref" render="0" deprecated=""/>
+         <renderfunction name="g_hash_table_ref" ponyname="gref" render="0" deprecated=""/>
          <renderfunction name="g_hash_table_remove"
                          ponyname="remove"
                          render="0"
@@ -2802,7 +2801,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GHashTableIter" render="0">
+      <renderstruct name="GHashTableIter" render="1">
          <rendermethod name="g_hash_table_iter_get_hash_table"
                        ponyname="get_hash_table"
                        render="0"
@@ -2828,7 +2827,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GHmac" render="0">
+      <renderstruct name="GHmac" render="1">
          <rendermethod name="g_hmac_copy" ponyname="copy" render="0" deprecated=""/>
          <rendermethod name="g_hmac_get_digest"
                        ponyname="get_digest"
@@ -2838,7 +2837,7 @@ use "lib:glib-2.0"
                        ponyname="get_string"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_hmac_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_hmac_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_hmac_unref" ponyname="unref" render="0" deprecated=""/>
          <rendermethod name="g_hmac_update" ponyname="update" render="0" deprecated=""/>
          <renderfunction name="g_hmac_new" ponyname="gnew" render="0" deprecated=""/>
@@ -2892,7 +2891,7 @@ use "lib:glib-2.0"
                          ponyname="prepend"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_hook_ref" ponyname="ref" render="0" deprecated=""/>
+         <renderfunction name="g_hook_ref" ponyname="gref" render="0" deprecated=""/>
          <renderfunction name="g_hook_unref" ponyname="unref" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GHookList" render="0">
@@ -2996,7 +2995,7 @@ use "lib:glib-2.0"
                        ponyname="read_unichar"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_io_channel_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_io_channel_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_io_channel_seek"
                        ponyname="seek"
                        render="0"
@@ -3166,7 +3165,7 @@ use "lib:glib-2.0"
                        ponyname="load_from_file"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_key_file_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_key_file_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_key_file_remove_comment"
                        ponyname="remove_comment"
                        render="0"
@@ -3256,7 +3255,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GList" render="0">
+      <renderstruct name="GList" render="1">
          <renderfunction name="g_list_alloc" ponyname="alloc" render="0" deprecated=""/>
          <renderfunction name="g_list_append" ponyname="append" render="0" deprecated=""/>
          <renderfunction name="g_list_concat" ponyname="concat" render="0" deprecated=""/>
@@ -3341,8 +3340,8 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GLogField" render="0"/>
-      <renderstruct name="GMainContext" render="0">
+      <renderstruct name="GLogField" render="1"/>
+      <renderstruct name="GMainContext" render="1">
          <renderconstructor name="g_main_context_new"
                             ponyname="gnew"
                             render="0"
@@ -3416,7 +3415,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_main_context_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_main_context_release"
@@ -3467,7 +3466,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_main_loop_quit" ponyname="quit" render="0" deprecated=""/>
-         <rendermethod name="g_main_loop_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_main_loop_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_main_loop_run" ponyname="run" render="0" deprecated=""/>
          <rendermethod name="g_main_loop_unref"
                        ponyname="unref"
@@ -3496,7 +3495,7 @@ use "lib:glib-2.0"
                        ponyname="get_length"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_mapped_file_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_mapped_file_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_mapped_file_unref"
                        ponyname="unref"
                        render="0"
@@ -3544,7 +3543,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_markup_parse_context_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_markup_parse_context_unref"
@@ -3606,14 +3605,14 @@ use "lib:glib-2.0"
                        ponyname="next"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_match_info_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_match_info_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_match_info_unref"
                        ponyname="unref"
                        render="0"
                        deprecated=""/>
       </renderstruct>
       <renderstruct name="GMemVTable" render="0"/>
-      <renderstruct name="GNode" render="0">
+      <renderstruct name="GNode" render="1">
          <rendermethod name="g_node_child_index"
                        ponyname="child_index"
                        render="0"
@@ -3813,7 +3812,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated="1"/>
          <rendermethod name="g_option_group_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_option_group_set_error_hook"
@@ -3860,7 +3859,7 @@ use "lib:glib-2.0"
                        deprecated=""/>
          <rendermethod name="g_private_set" ponyname="set" render="0" deprecated=""/>
       </renderstruct>
-      <renderstruct name="GPtrArray" render="0">
+      <renderstruct name="GPtrArray" render="1">
          <renderfunction name="g_ptr_array_add" ponyname="add" render="0" deprecated=""/>
          <renderfunction name="g_ptr_array_copy" ponyname="copy" render="0" deprecated=""/>
          <renderfunction name="g_ptr_array_extend"
@@ -3894,7 +3893,7 @@ use "lib:glib-2.0"
                          ponyname="new_with_free_func"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_ptr_array_ref" ponyname="ref" render="0" deprecated=""/>
+         <renderfunction name="g_ptr_array_ref" ponyname="gref" render="0" deprecated=""/>
          <renderfunction name="g_ptr_array_remove"
                          ponyname="remove"
                          render="0"
@@ -3949,7 +3948,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GQueue" render="0">
+      <renderstruct name="GQueue" render="1">
          <rendermethod name="g_queue_clear" ponyname="clear" render="0" deprecated=""/>
          <rendermethod name="g_queue_clear_full"
                        ponyname="clear_full"
@@ -4215,7 +4214,7 @@ use "lib:glib-2.0"
                        ponyname="match_full"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_regex_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_regex_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_regex_replace"
                        ponyname="replace"
                        render="0"
@@ -4259,7 +4258,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GSList" render="0">
+      <renderstruct name="GSList" render="1">
          <renderfunction name="g_slist_alloc" ponyname="alloc" render="0" deprecated=""/>
          <renderfunction name="g_slist_append" ponyname="append" render="0" deprecated=""/>
          <renderfunction name="g_slist_concat" ponyname="concat" render="0" deprecated=""/>
@@ -4410,7 +4409,7 @@ use "lib:glib-2.0"
          <renderfunction name="g_scanner_new" ponyname="gnew" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GScannerConfig" render="0"/>
-      <renderstruct name="GSequence" render="0">
+      <renderstruct name="GSequence" render="1">
          <rendermethod name="g_sequence_append"
                        ponyname="append"
                        render="0"
@@ -4611,7 +4610,7 @@ use "lib:glib-2.0"
                        ponyname="query_unix_fd"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_source_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_source_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_source_remove_child_source"
                        ponyname="remove_child_source"
                        render="0"
@@ -4678,7 +4677,7 @@ use "lib:glib-2.0"
       <renderstruct name="GSourceFuncs" render="0"/>
       <renderstruct name="GSourcePrivate" render="0"/>
       <renderstruct name="GStatBuf" render="0"/>
-      <renderstruct name="GString" render="0">
+      <renderstruct name="GString" render="1">
          <rendermethod name="g_string_append"
                        ponyname="append"
                        render="0"
@@ -4786,7 +4785,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GStringChunk" render="0">
+      <renderstruct name="GStringChunk" render="1">
          <rendermethod name="g_string_chunk_clear"
                        ponyname="clear"
                        render="0"
@@ -4852,7 +4851,7 @@ use "lib:glib-2.0"
                             render="0"
                             deprecated=""/>
          <rendermethod name="g_thread_join" ponyname="join" render="0" deprecated=""/>
-         <rendermethod name="g_thread_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_thread_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_thread_unref" ponyname="unref" render="0" deprecated=""/>
          <renderfunction name="g_thread_error_quark"
                          ponyname="error_quark"
@@ -4932,7 +4931,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated="1"/>
       </renderstruct>
-      <renderstruct name="GTimeZone" render="0">
+      <renderstruct name="GTimeZone" render="1">
          <renderconstructor name="g_time_zone_new" ponyname="gnew" render="0" deprecated="1"/>
          <renderconstructor name="g_time_zone_new_local"
                             ponyname="new_local"
@@ -4970,13 +4969,13 @@ use "lib:glib-2.0"
                        ponyname="is_dst"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_time_zone_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_time_zone_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_time_zone_unref"
                        ponyname="unref"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GTimer" render="0">
+      <renderstruct name="GTimer" render="1">
          <rendermethod name="g_timer_continue"
                        ponyname="continue"
                        render="0"
@@ -5016,7 +5015,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated="1"/>
       </renderstruct>
-      <renderstruct name="GTree" render="0">
+      <renderstruct name="GTree" render="1">
          <rendermethod name="g_tree_destroy"
                        ponyname="destroy"
                        render="0"
@@ -5033,7 +5032,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_tree_nnodes" ponyname="nnodes" render="0" deprecated=""/>
-         <rendermethod name="g_tree_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_tree_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_tree_remove" ponyname="remove" render="0" deprecated=""/>
          <rendermethod name="g_tree_replace"
                        ponyname="replace"
@@ -5056,7 +5055,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GUri" render="0">
+      <renderstruct name="GUri" render="1">
          <rendermethod name="g_uri_get_auth_params"
                        ponyname="get_auth_params"
                        render="0"
@@ -5105,7 +5104,7 @@ use "lib:glib-2.0"
                        ponyname="parse_relative"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_uri_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_uri_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_uri_to_string"
                        ponyname="to_string"
                        render="0"
@@ -5184,7 +5183,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GUriParamsIter" render="0">
+      <renderstruct name="GUriParamsIter" render="1">
          <rendermethod name="g_uri_params_iter_init"
                        ponyname="init"
                        render="0"
@@ -5194,7 +5193,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GVariant" render="0">
+      <renderstruct name="GVariant" render="1">
          <renderconstructor name="g_variant_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="g_variant_new_array"
                             ponyname="new_array"
@@ -5500,7 +5499,7 @@ use "lib:glib-2.0"
                        ponyname="print_string"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_variant_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_variant_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_variant_ref_sink"
                        ponyname="ref_sink"
                        render="0"
@@ -5533,7 +5532,7 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated="1"/>
       </renderstruct>
-      <renderstruct name="GVariantBuilder" render="0">
+      <renderstruct name="GVariantBuilder" render="1">
          <renderconstructor name="g_variant_builder_new"
                             ponyname="gnew"
                             render="0"
@@ -5571,7 +5570,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_variant_builder_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_variant_builder_unref"
@@ -5579,7 +5578,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GVariantDict" render="0">
+      <renderstruct name="GVariantDict" render="1">
          <renderconstructor name="g_variant_dict_new"
                             ponyname="gnew"
                             render="0"
@@ -5617,7 +5616,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_variant_dict_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_variant_dict_remove"
@@ -5629,7 +5628,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GVariantIter" render="0">
+      <renderstruct name="GVariantIter" render="1">
          <rendermethod name="g_variant_iter_copy"
                        ponyname="copy"
                        render="0"
@@ -5659,7 +5658,7 @@ use "lib:glib-2.0"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GVariantType" render="0">
+      <renderstruct name="GVariantType" render="1">
          <renderconstructor name="g_variant_type_new"
                             ponyname="gnew"
                             render="0"
@@ -6241,7 +6240,7 @@ use "lib:gio-2.0"
       <renderstruct name="GCredentialsClass" render="0"/>
       <renderstruct name="GDBusAnnotationInfo" render="0">
          <rendermethod name="g_dbus_annotation_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_dbus_annotation_info_unref"
@@ -6255,7 +6254,7 @@ use "lib:gio-2.0"
       </renderstruct>
       <renderstruct name="GDBusArgInfo" render="0">
          <rendermethod name="g_dbus_arg_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_dbus_arg_info_unref"
@@ -6291,7 +6290,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_dbus_interface_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_dbus_interface_info_unref"
@@ -6304,7 +6303,7 @@ use "lib:gio-2.0"
       <renderstruct name="GDBusInterfaceVTable" render="0"/>
       <renderstruct name="GDBusMethodInfo" render="0">
          <rendermethod name="g_dbus_method_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_dbus_method_info_unref"
@@ -6326,7 +6325,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_dbus_node_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_dbus_node_info_unref"
@@ -6346,7 +6345,7 @@ use "lib:gio-2.0"
       <renderstruct name="GDBusObjectSkeletonPrivate" render="0"/>
       <renderstruct name="GDBusPropertyInfo" render="0">
          <rendermethod name="g_dbus_property_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_dbus_property_info_unref"
@@ -6358,7 +6357,7 @@ use "lib:gio-2.0"
       <renderstruct name="GDBusProxyPrivate" render="0"/>
       <renderstruct name="GDBusSignalInfo" render="0">
          <rendermethod name="g_dbus_signal_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_dbus_signal_info_unref"
@@ -6400,7 +6399,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_file_attribute_info_list_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_file_attribute_info_list_unref"
@@ -6430,7 +6429,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_file_attribute_matcher_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_file_attribute_matcher_subtract"
@@ -6622,7 +6621,7 @@ use "lib:gio-2.0"
                        ponyname="open_stream"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_resource_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_resource_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_resource_unref"
                        ponyname="unref"
                        render="0"
@@ -6660,7 +6659,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_settings_schema_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_settings_schema_unref"
@@ -6698,7 +6697,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_settings_schema_key_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_settings_schema_key_unref"
@@ -6720,7 +6719,7 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_settings_schema_source_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="g_settings_schema_source_unref"
@@ -14703,7 +14702,7 @@ use "lib:gobject-2.0"
                        ponyname="invoke"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_closure_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_closure_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_closure_remove_finalize_notifier"
                        ponyname="remove_finalize_notifier"
                        render="0"
@@ -14821,7 +14820,7 @@ use "lib:gobject-2.0"
                          ponyname="peek_static"
                          render="0"
                          deprecated=""/>
-         <renderfunction name="g_type_class_ref" ponyname="ref" render="0" deprecated=""/>
+         <renderfunction name="g_type_class_ref" ponyname="gref" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GTypeFundamentalInfo" render="0"/>
       <renderstruct name="GTypeInfo" render="0"/>
@@ -15314,7 +15313,7 @@ use "lib:gobject-2.0"
                        ponyname="notify_by_pspec"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_object_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_object_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_object_ref_sink"
                        ponyname="ref_sink"
                        render="0"
@@ -15441,7 +15440,7 @@ use "lib:gobject-2.0"
                        ponyname="get_redirect_target"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_param_spec_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="g_param_spec_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="g_param_spec_ref_sink"
                        ponyname="ref_sink"
                        render="0"
@@ -15874,7 +15873,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_content_formats_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_content_formats_to_string"
@@ -15932,7 +15931,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_content_formats_builder_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_content_formats_builder_to_formats"
@@ -15982,7 +15981,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_frame_timings_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_frame_timings_unref"
@@ -16034,7 +16033,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_popup_layout_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_popup_layout_set_anchor_hints"
@@ -16138,7 +16137,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_toplevel_layout_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_toplevel_layout_set_fullscreen"
@@ -16972,7 +16971,7 @@ use "lib:gobject-2.0"
                        ponyname="get_time"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="gdk_event_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="gdk_event_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="gdk_event_triggers_context_menu"
                        ponyname="triggers_context_menu"
                        render="0"
@@ -17930,7 +17929,7 @@ use "lib:gobject-2.0"
                        ponyname="read_pixels"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="gdk_pixbuf_ref" ponyname="ref" render="0" deprecated="1"/>
+         <rendermethod name="gdk_pixbuf_ref" ponyname="gref" render="0" deprecated="1"/>
          <rendermethod name="gdk_pixbuf_remove_option"
                        ponyname="remove_option"
                        render="0"
@@ -18076,7 +18075,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gdk_pixbuf_animation_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated="1"/>
          <rendermethod name="gdk_pixbuf_animation_unref"
@@ -19817,7 +19816,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gsk_shader_args_builder_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gsk_shader_args_builder_set_bool"
@@ -19884,7 +19883,7 @@ use "lib:gobject-2.0"
                        ponyname="print"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="gsk_transform_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="gsk_transform_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="gsk_transform_rotate"
                        ponyname="rotate"
                        render="0"
@@ -20521,7 +20520,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gsk_render_node_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gsk_render_node_serialize"
@@ -21064,7 +21063,7 @@ use "lib:gtk-4"
                        ponyname="is_empty"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="gtk_bitset_ref" ponyname="ref" render="0" deprecated=""/>
+         <rendermethod name="gtk_bitset_ref" ponyname="gref" render="0" deprecated=""/>
          <rendermethod name="gtk_bitset_remove"
                        ponyname="remove"
                        render="0"
@@ -21243,7 +21242,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gtk_css_section_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gtk_css_section_to_string"
@@ -21286,7 +21285,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gtk_expression_watch_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gtk_expression_watch_unref"
@@ -21565,7 +21564,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gtk_recent_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gtk_recent_info_unref"
@@ -25790,7 +25789,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gtk_expression_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="gtk_expression_unref"
@@ -38078,7 +38077,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="pango_attr_list_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="pango_attr_list_splice"
@@ -38374,7 +38373,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="pango_font_metrics_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="pango_font_metrics_unref"
@@ -38657,7 +38656,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="pango_layout_line_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="pango_layout_line_unref"
@@ -38934,7 +38933,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated="1"/>
          <rendermethod name="pango_coverage_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated="1"/>
          <rendermethod name="pango_coverage_set"
@@ -39665,7 +39664,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_application_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_application_info_set_name"
@@ -39807,7 +39806,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_itp_first_party_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_itp_first_party_unref"
@@ -39825,7 +39824,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_itp_third_party_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_itp_third_party_unref"
@@ -39870,7 +39869,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated="1"/>
          <rendermethod name="webkit_javascript_result_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_javascript_result_unref"
@@ -39948,7 +39947,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated="1"/>
          <rendermethod name="webkit_mime_info_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated="1"/>
          <rendermethod name="webkit_mime_info_unref"
@@ -40089,7 +40088,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_script_dialog_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_script_dialog_unref"
@@ -40125,7 +40124,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated="1"/>
          <rendermethod name="webkit_security_origin_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_security_origin_to_string"
@@ -40151,7 +40150,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_user_content_filter_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_user_content_filter_unref"
@@ -40177,7 +40176,7 @@ use "lib:gtk-4"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_user_script_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_user_script_unref"
@@ -40195,7 +40194,7 @@ use "lib:gtk-4"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_user_style_sheet_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_user_style_sheet_unref"
@@ -40219,7 +40218,7 @@ use "lib:gtk-4"
                             render="0"
                             deprecated=""/>
          <rendermethod name="webkit_web_view_session_state_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_web_view_session_state_serialize"
@@ -40245,7 +40244,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_website_data_ref"
-                       ponyname="ref"
+                       ponyname="gref"
                        render="0"
                        deprecated=""/>
          <rendermethod name="webkit_website_data_unref"
