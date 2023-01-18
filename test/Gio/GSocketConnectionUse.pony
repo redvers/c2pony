@@ -10,10 +10,10 @@ use "lib:gio-2.0"
 // Constructors
 
 // Methods
-// use @g_socket_connection_connect[I32](connection': NullablePointer[GSocketConnectionT], address': NullablePointer[GSocketAddressT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
-// use @g_socket_connection_connect_async[None](connection': NullablePointer[GSocketConnectionT], address': NullablePointer[GSocketAddressT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
-// use @g_socket_connection_connect_finish[I32](connection': NullablePointer[GSocketConnectionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
-// use @g_socket_connection_get_local_address[NullablePointer[GSocketAddressT]](connection': NullablePointer[GSocketConnectionT], error': Pointer[NullablePointer[GErrorT]])
-// use @g_socket_connection_get_remote_address[NullablePointer[GSocketAddressT]](connection': NullablePointer[GSocketConnectionT], error': Pointer[NullablePointer[GErrorT]])
-// use @g_socket_connection_get_socket[NullablePointer[GSocketT]](connection': NullablePointer[GSocketConnectionT])
-// use @g_socket_connection_is_connected[I32](connection': NullablePointer[GSocketConnectionT])
+// use @g_socket_connection_connect[I32](connection': GSocketConnectionT, address': GSocketAddressT, cancellable': GCancellableT, error': Pointer[GErrorT])
+// use @g_socket_connection_connect_async[None](connection': GSocketConnectionT, address': GSocketAddressT, cancellable': GCancellableT, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+// use @g_socket_connection_connect_finish[I32](connection': GSocketConnectionT, result': GAsyncResultT, error': Pointer[GErrorT])
+// use @g_socket_connection_get_local_address[GSocketAddressT](connection': GSocketConnectionT, error': Pointer[GErrorT])
+// use @g_socket_connection_get_remote_address[GSocketAddressT](connection': GSocketConnectionT, error': Pointer[GErrorT])
+// use @g_socket_connection_get_socket[GSocketT](connection': GSocketConnectionT)
+// use @g_socket_connection_is_connected[I32](connection': GSocketConnectionT)

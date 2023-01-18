@@ -11,36 +11,36 @@ primitive GtkShortcutControllerSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkEventControllerT] =>
+fun gnew(): GtkEventControllerT =>
     @gtk_shortcut_controller_new()
 */
 /* 
-fun new_for_model(model': NullablePointer[GListModelT]): NullablePointer[GtkEventControllerT] =>
+fun new_for_model(model': GListModelT): GtkEventControllerT =>
     @gtk_shortcut_controller_new_for_model(model')
 */
 
 // Methods
 /* 
-fun add_shortcut(self': NullablePointer[GtkShortcutControllerT], shortcut': NullablePointer[GtkShortcutT]): None =>
+fun add_shortcut(self': GtkShortcutControllerT, shortcut': GtkShortcutT): None =>
     @gtk_shortcut_controller_add_shortcut(self', shortcut')
 */
 /* 
-fun get_mnemonics_modifiers(self': NullablePointer[GtkShortcutControllerT]): U32 =>
+fun get_mnemonics_modifiers(self': GtkShortcutControllerT): U32 =>
     @gtk_shortcut_controller_get_mnemonics_modifiers(self')
 */
 /* 
-fun get_scope(self': NullablePointer[GtkShortcutControllerT]): U32 =>
+fun get_scope(self': GtkShortcutControllerT): U32 =>
     @gtk_shortcut_controller_get_scope(self')
 */
 /* 
-fun remove_shortcut(self': NullablePointer[GtkShortcutControllerT], shortcut': NullablePointer[GtkShortcutT]): None =>
+fun remove_shortcut(self': GtkShortcutControllerT, shortcut': GtkShortcutT): None =>
     @gtk_shortcut_controller_remove_shortcut(self', shortcut')
 */
 /* 
-fun set_mnemonics_modifiers(self': NullablePointer[GtkShortcutControllerT], modifiers': U32): None =>
+fun set_mnemonics_modifiers(self': GtkShortcutControllerT, modifiers': U32): None =>
     @gtk_shortcut_controller_set_mnemonics_modifiers(self', modifiers')
 */
 /* 
-fun set_scope(self': NullablePointer[GtkShortcutControllerT], scope': U32): None =>
+fun set_scope(self': GtkShortcutControllerT, scope': U32): None =>
     @gtk_shortcut_controller_set_scope(self', scope')
 */

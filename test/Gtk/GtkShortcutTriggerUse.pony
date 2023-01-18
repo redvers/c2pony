@@ -9,14 +9,14 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_shortcut_trigger_parse_string[NullablePointer[GtkShortcutTriggerT]](string': Pointer[U8] tag)
+// use @gtk_shortcut_trigger_parse_string[GtkShortcutTriggerT](string': Pointer[U8] tag)
 
 // Methods
 // use @gtk_shortcut_trigger_compare[I32](trigger1': Pointer[None] tag, trigger2': Pointer[None] tag)
 // use @gtk_shortcut_trigger_equal[I32](trigger1': Pointer[None] tag, trigger2': Pointer[None] tag)
 // use @gtk_shortcut_trigger_hash[U32](trigger': Pointer[None] tag)
-// use @gtk_shortcut_trigger_print[None](self': NullablePointer[GtkShortcutTriggerT], string': NullablePointer[GStringT])
-// use @gtk_shortcut_trigger_print_label[I32](self': NullablePointer[GtkShortcutTriggerT], display': NullablePointer[GdkDisplayT], string': NullablePointer[GStringT])
-// use @gtk_shortcut_trigger_to_label[Pointer[U8] tag](self': NullablePointer[GtkShortcutTriggerT], display': NullablePointer[GdkDisplayT])
-// use @gtk_shortcut_trigger_to_string[Pointer[U8] tag](self': NullablePointer[GtkShortcutTriggerT])
-// use @gtk_shortcut_trigger_trigger[U32](self': NullablePointer[GtkShortcutTriggerT], event': NullablePointer[GdkEventT], enable_mnemonics': I32)
+// use @gtk_shortcut_trigger_print[None](self': GtkShortcutTriggerT, string': GStringT)
+// use @gtk_shortcut_trigger_print_label[I32](self': GtkShortcutTriggerT, display': GdkDisplayT, string': GStringT)
+// use @gtk_shortcut_trigger_to_label[Pointer[U8] tag](self': GtkShortcutTriggerT, display': GdkDisplayT)
+// use @gtk_shortcut_trigger_to_string[Pointer[U8] tag](self': GtkShortcutTriggerT)
+// use @gtk_shortcut_trigger_trigger[U32](self': GtkShortcutTriggerT, event': GdkEventT, enable_mnemonics': I32)

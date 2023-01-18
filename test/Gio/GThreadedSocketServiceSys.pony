@@ -8,7 +8,7 @@ primitive GThreadedSocketServiceSys
 
 // Constructors
 /* 
-fun gnew(max_threads': I32): NullablePointer[GSocketServiceT] =>
+fun gnew(max_threads': I32): GSocketServiceT =>
     @g_threaded_socket_service_new(max_threads')
 */
 

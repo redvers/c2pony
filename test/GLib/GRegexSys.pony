@@ -4,7 +4,7 @@ use "lib:glib-2.0"
 primitive GRegexSys
 // Static Functions
 /* 
-fun check_replacement(replacement': Pointer[U8] tag, has_references': Pointer[I32] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun check_replacement(replacement': Pointer[U8] tag, has_references': Pointer[I32] tag, error': Pointer[GErrorT]): I32 =>
     @g_regex_check_replacement(replacement', has_references', error')
 */
 /* 
@@ -30,84 +30,84 @@ fun split_simple(pattern': Pointer[U8] tag, string': Pointer[U8] tag, compile_op
 
 // Constructors
 /* 
-fun gnew(pattern': Pointer[U8] tag, compile_options': U32, match_options': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GRegexT] =>
+fun gnew(pattern': Pointer[U8] tag, compile_options': U32, match_options': U32, error': Pointer[GErrorT]): GRegexT =>
     @g_regex_new(pattern', compile_options', match_options', error')
 */
 
 // Methods
 /* 
-fun get_capture_count(regex': NullablePointer[GRegexT]): I32 =>
+fun get_capture_count(regex': GRegexT): I32 =>
     @g_regex_get_capture_count(regex')
 */
 /* 
-fun get_compile_flags(regex': NullablePointer[GRegexT]): U32 =>
+fun get_compile_flags(regex': GRegexT): U32 =>
     @g_regex_get_compile_flags(regex')
 */
 /* 
-fun get_has_cr_or_lf(regex': NullablePointer[GRegexT]): I32 =>
+fun get_has_cr_or_lf(regex': GRegexT): I32 =>
     @g_regex_get_has_cr_or_lf(regex')
 */
 /* 
-fun get_match_flags(regex': NullablePointer[GRegexT]): U32 =>
+fun get_match_flags(regex': GRegexT): U32 =>
     @g_regex_get_match_flags(regex')
 */
 /* 
-fun get_max_backref(regex': NullablePointer[GRegexT]): I32 =>
+fun get_max_backref(regex': GRegexT): I32 =>
     @g_regex_get_max_backref(regex')
 */
 /* 
-fun get_max_lookbehind(regex': NullablePointer[GRegexT]): I32 =>
+fun get_max_lookbehind(regex': GRegexT): I32 =>
     @g_regex_get_max_lookbehind(regex')
 */
 /* 
-fun get_pattern(regex': NullablePointer[GRegexT]): Pointer[U8] tag =>
+fun get_pattern(regex': GRegexT): Pointer[U8] tag =>
     @g_regex_get_pattern(regex')
 */
 /* 
-fun get_string_number(regex': NullablePointer[GRegexT], name': Pointer[U8] tag): I32 =>
+fun get_string_number(regex': GRegexT, name': Pointer[U8] tag): I32 =>
     @g_regex_get_string_number(regex', name')
 */
 /* 
-fun match(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, match_options': U32, match_info': Pointer[NullablePointer[GMatchInfoT]]): I32 =>
+fun match(regex': GRegexT, string': Pointer[U8] tag, match_options': U32, match_info': Pointer[GMatchInfoT]): I32 =>
     @g_regex_match(regex', string', match_options', match_info')
 */
 /* 
-fun match_all(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, match_options': U32, match_info': Pointer[NullablePointer[GMatchInfoT]]): I32 =>
+fun match_all(regex': GRegexT, string': Pointer[U8] tag, match_options': U32, match_info': Pointer[GMatchInfoT]): I32 =>
     @g_regex_match_all(regex', string', match_options', match_info')
 */
 /* 
-fun match_all_full(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[NullablePointer[GMatchInfoT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun match_all_full(regex': GRegexT, string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[GMatchInfoT], error': Pointer[GErrorT]): I32 =>
     @g_regex_match_all_full(regex', string', string_len', start_position', match_options', match_info', error')
 */
 /* 
-fun match_full(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[NullablePointer[GMatchInfoT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun match_full(regex': GRegexT, string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[GMatchInfoT], error': Pointer[GErrorT]): I32 =>
     @g_regex_match_full(regex', string', string_len', start_position', match_options', match_info', error')
 */
 /* 
-fun ref(regex': NullablePointer[GRegexT]): NullablePointer[GRegexT] =>
+fun ref(regex': GRegexT): GRegexT =>
     @g_regex_ref(regex')
 */
 /* 
-fun replace(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, replacement': Pointer[U8] tag, match_options': U32, error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
+fun replace(regex': GRegexT, string': Pointer[U8] tag, string_len': I64, start_position': I32, replacement': Pointer[U8] tag, match_options': U32, error': Pointer[GErrorT]): Pointer[U8] tag =>
     @g_regex_replace(regex', string', string_len', start_position', replacement', match_options', error')
 */
 /* 
-fun replace_eval(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, eval': GRegexEvalCallback, user_data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
+fun replace_eval(regex': GRegexT, string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, eval': GRegexEvalCallback, user_data': Pointer[None] tag, error': Pointer[GErrorT]): Pointer[U8] tag =>
     @g_regex_replace_eval(regex', string', string_len', start_position', match_options', eval', user_data', error')
 */
 /* 
-fun replace_literal(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, replacement': Pointer[U8] tag, match_options': U32, error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
+fun replace_literal(regex': GRegexT, string': Pointer[U8] tag, string_len': I64, start_position': I32, replacement': Pointer[U8] tag, match_options': U32, error': Pointer[GErrorT]): Pointer[U8] tag =>
     @g_regex_replace_literal(regex', string', string_len', start_position', replacement', match_options', error')
 */
 /* 
-fun split(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, match_options': U32): Pointer[Pointer[U8]] tag =>
+fun split(regex': GRegexT, string': Pointer[U8] tag, match_options': U32): Pointer[Pointer[U8]] tag =>
     @g_regex_split(regex', string', match_options')
 */
 /* 
-fun split_full(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, max_tokens': I32, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
+fun split_full(regex': GRegexT, string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, max_tokens': I32, error': Pointer[GErrorT]): Pointer[Pointer[U8]] tag =>
     @g_regex_split_full(regex', string', string_len', start_position', match_options', max_tokens', error')
 */
 /* 
-fun unref(regex': NullablePointer[GRegexT]): None =>
+fun unref(regex': GRegexT): None =>
     @g_regex_unref(regex')
 */

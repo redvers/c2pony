@@ -11,7 +11,7 @@ primitive GtkFileChooserDialogSys
 
 // Constructors
 /* 
-fun gnew(title': Pointer[U8] tag, parent': NullablePointer[GtkWindowT], action': U32, first_button_text': Pointer[U8] tag, ...): NullablePointer[GtkWidgetT] =>
+fun gnew(title': Pointer[U8] tag, parent': GtkWindowT, action': U32, first_button_text': Pointer[U8] tag, ...): GtkWidgetT =>
     @gtk_file_chooser_dialog_new(title', parent', action', first_button_text', ...)
 */
 

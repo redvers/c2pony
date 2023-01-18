@@ -11,24 +11,24 @@ primitive GtkSpinnerSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkWidgetT] =>
+fun gnew(): GtkWidgetT =>
     @gtk_spinner_new()
 */
 
 // Methods
 /* 
-fun get_spinning(spinner': NullablePointer[GtkSpinnerT]): I32 =>
+fun get_spinning(spinner': GtkSpinnerT): I32 =>
     @gtk_spinner_get_spinning(spinner')
 */
 /* 
-fun set_spinning(spinner': NullablePointer[GtkSpinnerT], spinning': I32): None =>
+fun set_spinning(spinner': GtkSpinnerT, spinning': I32): None =>
     @gtk_spinner_set_spinning(spinner', spinning')
 */
 /* 
-fun start(spinner': NullablePointer[GtkSpinnerT]): None =>
+fun start(spinner': GtkSpinnerT): None =>
     @gtk_spinner_start(spinner')
 */
 /* 
-fun stop(spinner': NullablePointer[GtkSpinnerT]): None =>
+fun stop(spinner': GtkSpinnerT): None =>
     @gtk_spinner_stop(spinner')
 */

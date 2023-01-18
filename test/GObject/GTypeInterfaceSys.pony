@@ -9,7 +9,7 @@ fun add_prerequisite(interface_type': U64, prerequisite_type': U64): None =>
     @g_type_interface_add_prerequisite(interface_type', prerequisite_type')
 */
 /* 
-fun get_plugin(instance_type': U64, interface_type': U64): NullablePointer[GTypePluginT] =>
+fun get_plugin(instance_type': U64, interface_type': U64): GTypePluginT =>
     @g_type_interface_get_plugin(instance_type', interface_type')
 */
 /* 

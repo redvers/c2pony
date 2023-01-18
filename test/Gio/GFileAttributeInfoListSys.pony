@@ -8,28 +8,28 @@ primitive GFileAttributeInfoListSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GFileAttributeInfoListT] =>
+fun gnew(): GFileAttributeInfoListT =>
     @g_file_attribute_info_list_new()
 */
 
 // Methods
 /* 
-fun add(list': NullablePointer[GFileAttributeInfoListT], name': Pointer[U8] tag, type': U32, flags': U32): None =>
+fun add(list': GFileAttributeInfoListT, name': Pointer[U8] tag, type': U32, flags': U32): None =>
     @g_file_attribute_info_list_add(list', name', type', flags')
 */
 /* 
-fun dup(list': NullablePointer[GFileAttributeInfoListT]): NullablePointer[GFileAttributeInfoListT] =>
+fun dup(list': GFileAttributeInfoListT): GFileAttributeInfoListT =>
     @g_file_attribute_info_list_dup(list')
 */
 /* 
-fun lookup(list': NullablePointer[GFileAttributeInfoListT], name': Pointer[U8] tag): NullablePointer[GFileAttributeInfoT] =>
+fun lookup(list': GFileAttributeInfoListT, name': Pointer[U8] tag): GFileAttributeInfoT =>
     @g_file_attribute_info_list_lookup(list', name')
 */
 /* 
-fun ref(list': NullablePointer[GFileAttributeInfoListT]): NullablePointer[GFileAttributeInfoListT] =>
+fun ref(list': GFileAttributeInfoListT): GFileAttributeInfoListT =>
     @g_file_attribute_info_list_ref(list')
 */
 /* 
-fun unref(list': NullablePointer[GFileAttributeInfoListT]): None =>
+fun unref(list': GFileAttributeInfoListT): None =>
     @g_file_attribute_info_list_unref(list')
 */

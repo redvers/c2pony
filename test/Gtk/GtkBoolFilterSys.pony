@@ -11,24 +11,24 @@ primitive GtkBoolFilterSys
 
 // Constructors
 /* 
-fun gnew(expression': NullablePointer[GtkExpressionT]): NullablePointer[GtkBoolFilterT] =>
+fun gnew(expression': GtkExpressionT): GtkBoolFilterT =>
     @gtk_bool_filter_new(expression')
 */
 
 // Methods
 /* 
-fun get_expression(self': NullablePointer[GtkBoolFilterT]): NullablePointer[GtkExpressionT] =>
+fun get_expression(self': GtkBoolFilterT): GtkExpressionT =>
     @gtk_bool_filter_get_expression(self')
 */
 /* 
-fun get_invert(self': NullablePointer[GtkBoolFilterT]): I32 =>
+fun get_invert(self': GtkBoolFilterT): I32 =>
     @gtk_bool_filter_get_invert(self')
 */
 /* 
-fun set_expression(self': NullablePointer[GtkBoolFilterT], expression': NullablePointer[GtkExpressionT]): None =>
+fun set_expression(self': GtkBoolFilterT, expression': GtkExpressionT): None =>
     @gtk_bool_filter_set_expression(self', expression')
 */
 /* 
-fun set_invert(self': NullablePointer[GtkBoolFilterT], invert': I32): None =>
+fun set_invert(self': GtkBoolFilterT, invert': I32): None =>
     @gtk_bool_filter_set_invert(self', invert')
 */

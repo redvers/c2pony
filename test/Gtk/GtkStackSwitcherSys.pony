@@ -11,16 +11,16 @@ primitive GtkStackSwitcherSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkWidgetT] =>
+fun gnew(): GtkWidgetT =>
     @gtk_stack_switcher_new()
 */
 
 // Methods
 /* 
-fun get_stack(switcher': NullablePointer[GtkStackSwitcherT]): NullablePointer[GtkStackT] =>
+fun get_stack(switcher': GtkStackSwitcherT): GtkStackT =>
     @gtk_stack_switcher_get_stack(switcher')
 */
 /* 
-fun set_stack(switcher': NullablePointer[GtkStackSwitcherT], stack': NullablePointer[GtkStackT]): None =>
+fun set_stack(switcher': GtkStackSwitcherT, stack': GtkStackT): None =>
     @gtk_stack_switcher_set_stack(switcher', stack')
 */

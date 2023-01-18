@@ -4,11 +4,11 @@ use "lib:glib-2.0"
 primitive GDirSys
 // Static Functions
 /* 
-fun make_tmp(tmpl': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
+fun make_tmp(tmpl': Pointer[U8] tag, error': Pointer[GErrorT]): Pointer[U8] tag =>
     @g_dir_make_tmp(tmpl', error')
 */
 /* 
-fun open(path': Pointer[U8] tag, flags': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDirT] =>
+fun open(path': Pointer[U8] tag, flags': U32, error': Pointer[GErrorT]): GDirT =>
     @g_dir_open(path', flags', error')
 */
 
@@ -16,14 +16,14 @@ fun open(path': Pointer[U8] tag, flags': U32, error': Pointer[NullablePointer[GE
 
 // Methods
 /* 
-fun close(dir': NullablePointer[GDirT]): None =>
+fun close(dir': GDirT): None =>
     @g_dir_close(dir')
 */
 /* 
-fun read_name(dir': NullablePointer[GDirT]): Pointer[U8] tag =>
+fun read_name(dir': GDirT): Pointer[U8] tag =>
     @g_dir_read_name(dir')
 */
 /* 
-fun rewind(dir': NullablePointer[GDirT]): None =>
+fun rewind(dir': GDirT): None =>
     @g_dir_rewind(dir')
 */

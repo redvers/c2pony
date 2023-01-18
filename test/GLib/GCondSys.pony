@@ -8,18 +8,18 @@ primitive GCondSys
 
 // Methods
 /* 
-fun broadcast(cond': NullablePointer[GCondT]): None =>
+fun broadcast(cond': GCondT): None =>
     @g_cond_broadcast(cond')
 */
 /* 
-fun clear(cond': NullablePointer[GCondT]): None =>
+fun clear(cond': GCondT): None =>
     @g_cond_clear(cond')
 */
 /* 
-fun init(cond': NullablePointer[GCondT]): None =>
+fun init(cond': GCondT): None =>
     @g_cond_init(cond')
 */
 /* 
-fun signal(cond': NullablePointer[GCondT]): None =>
+fun signal(cond': GCondT): None =>
     @g_cond_signal(cond')
 */

@@ -12,16 +12,16 @@ fun is_supported(): I32 =>
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GSocketControlMessageT] =>
+fun gnew(): GSocketControlMessageT =>
     @g_unix_credentials_message_new()
 */
 /* 
-fun new_with_credentials(credentials': NullablePointer[GCredentialsT]): NullablePointer[GSocketControlMessageT] =>
+fun new_with_credentials(credentials': GCredentialsT): GSocketControlMessageT =>
     @g_unix_credentials_message_new_with_credentials(credentials')
 */
 
 // Methods
 /* 
-fun get_credentials(message': NullablePointer[GUnixCredentialsMessageT]): NullablePointer[GCredentialsT] =>
+fun get_credentials(message': GUnixCredentialsMessageT): GCredentialsT =>
     @g_unix_credentials_message_get_credentials(message')
 */

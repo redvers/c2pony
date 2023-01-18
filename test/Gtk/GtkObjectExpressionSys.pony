@@ -11,12 +11,12 @@ primitive GtkObjectExpressionSys
 
 // Constructors
 /* 
-fun gnew(object': NullablePointer[GObjectT]): NullablePointer[GtkExpressionT] =>
+fun gnew(object': GObjectT): GtkExpressionT =>
     @gtk_object_expression_new(object')
 */
 
 // Methods
 /* 
-fun get_object(expression': NullablePointer[GtkExpressionT]): NullablePointer[GObjectT] =>
+fun get_object(expression': GtkExpressionT): GObjectT =>
     @gtk_object_expression_get_object(expression')
 */

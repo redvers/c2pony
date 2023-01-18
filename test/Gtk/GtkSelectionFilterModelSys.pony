@@ -11,16 +11,16 @@ primitive GtkSelectionFilterModelSys
 
 // Constructors
 /* 
-fun gnew(model': NullablePointer[GtkSelectionModelT]): NullablePointer[GtkSelectionFilterModelT] =>
+fun gnew(model': GtkSelectionModelT): GtkSelectionFilterModelT =>
     @gtk_selection_filter_model_new(model')
 */
 
 // Methods
 /* 
-fun get_model(self': NullablePointer[GtkSelectionFilterModelT]): NullablePointer[GtkSelectionModelT] =>
+fun get_model(self': GtkSelectionFilterModelT): GtkSelectionModelT =>
     @gtk_selection_filter_model_get_model(self')
 */
 /* 
-fun set_model(self': NullablePointer[GtkSelectionFilterModelT], model': NullablePointer[GtkSelectionModelT]): None =>
+fun set_model(self': GtkSelectionFilterModelT, model': GtkSelectionModelT): None =>
     @gtk_selection_filter_model_set_model(self', model')
 */

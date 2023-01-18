@@ -8,28 +8,28 @@ primitive GThemedIconSys
 
 // Constructors
 /* 
-fun gnew(iconname': Pointer[U8] tag): NullablePointer[GIconT] =>
+fun gnew(iconname': Pointer[U8] tag): GIconT =>
     @g_themed_icon_new(iconname')
 */
 /* 
-fun new_from_names(iconnames': Pointer[Pointer[U8]] tag, len': I32): NullablePointer[GIconT] =>
+fun new_from_names(iconnames': Pointer[Pointer[U8]] tag, len': I32): GIconT =>
     @g_themed_icon_new_from_names(iconnames', len')
 */
 /* 
-fun new_with_default_fallbacks(iconname': Pointer[U8] tag): NullablePointer[GIconT] =>
+fun new_with_default_fallbacks(iconname': Pointer[U8] tag): GIconT =>
     @g_themed_icon_new_with_default_fallbacks(iconname')
 */
 
 // Methods
 /* 
-fun append_name(icon': NullablePointer[GThemedIconT], iconname': Pointer[U8] tag): None =>
+fun append_name(icon': GThemedIconT, iconname': Pointer[U8] tag): None =>
     @g_themed_icon_append_name(icon', iconname')
 */
 /* 
-fun get_names(icon': NullablePointer[GThemedIconT]): Pointer[Pointer[U8]] tag =>
+fun get_names(icon': GThemedIconT): Pointer[Pointer[U8]] tag =>
     @g_themed_icon_get_names(icon')
 */
 /* 
-fun prepend_name(icon': NullablePointer[GThemedIconT], iconname': Pointer[U8] tag): None =>
+fun prepend_name(icon': GThemedIconT, iconname': Pointer[U8] tag): None =>
     @g_themed_icon_prepend_name(icon', iconname')
 */

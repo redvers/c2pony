@@ -11,6 +11,6 @@ use "lib:gtk-4"
 // Constructors
 
 // Methods
-// use @gtk_sorter_changed[None](self': NullablePointer[GtkSorterT], change': U32)
-// use @gtk_sorter_compare[I32](self': NullablePointer[GtkSorterT], item1': Pointer[None] tag, item2': Pointer[None] tag)
-// use @gtk_sorter_get_order[U32](self': NullablePointer[GtkSorterT])
+// use @gtk_sorter_changed[None](self': GtkSorterT, change': U32)
+// use @gtk_sorter_compare[I32](self': GtkSorterT, item1': Pointer[None] tag, item2': Pointer[None] tag)
+// use @gtk_sorter_get_order[U32](self': GtkSorterT)

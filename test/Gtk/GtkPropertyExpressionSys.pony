@@ -11,20 +11,20 @@ primitive GtkPropertyExpressionSys
 
 // Constructors
 /* 
-fun gnew(this_type': U64, expression': NullablePointer[GtkExpressionT], property_name': Pointer[U8] tag): NullablePointer[GtkExpressionT] =>
+fun gnew(this_type': U64, expression': GtkExpressionT, property_name': Pointer[U8] tag): GtkExpressionT =>
     @gtk_property_expression_new(this_type', expression', property_name')
 */
 /* 
-fun new_for_pspec(expression': NullablePointer[GtkExpressionT], pspec': NullablePointer[GParamSpecT]): NullablePointer[GtkExpressionT] =>
+fun new_for_pspec(expression': GtkExpressionT, pspec': GParamSpecT): GtkExpressionT =>
     @gtk_property_expression_new_for_pspec(expression', pspec')
 */
 
 // Methods
 /* 
-fun get_expression(expression': NullablePointer[GtkExpressionT]): NullablePointer[GtkExpressionT] =>
+fun get_expression(expression': GtkExpressionT): GtkExpressionT =>
     @gtk_property_expression_get_expression(expression')
 */
 /* 
-fun get_pspec(expression': NullablePointer[GtkExpressionT]): NullablePointer[GParamSpecT] =>
+fun get_pspec(expression': GtkExpressionT): GParamSpecT =>
     @gtk_property_expression_get_pspec(expression')
 */

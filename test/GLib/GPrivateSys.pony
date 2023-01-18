@@ -8,14 +8,14 @@ primitive GPrivateSys
 
 // Methods
 /* 
-fun get(key': NullablePointer[GPrivateT]): Pointer[None] tag =>
+fun get(key': GPrivateT): Pointer[None] tag =>
     @g_private_get(key')
 */
 /* 
-fun replace(key': NullablePointer[GPrivateT], value': Pointer[None] tag): None =>
+fun replace(key': GPrivateT, value': Pointer[None] tag): None =>
     @g_private_replace(key', value')
 */
 /* 
-fun set(key': NullablePointer[GPrivateT], value': Pointer[None] tag): None =>
+fun set(key': GPrivateT, value': Pointer[None] tag): None =>
     @g_private_set(key', value')
 */

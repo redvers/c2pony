@@ -11,7 +11,7 @@ primitive GtkAnyFilterSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkAnyFilterT] =>
+fun gnew(): GtkAnyFilterT =>
     @gtk_any_filter_new()
 */
 

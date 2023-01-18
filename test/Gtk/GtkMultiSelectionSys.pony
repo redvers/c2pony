@@ -11,16 +11,16 @@ primitive GtkMultiSelectionSys
 
 // Constructors
 /* 
-fun gnew(model': NullablePointer[GListModelT]): NullablePointer[GtkMultiSelectionT] =>
+fun gnew(model': GListModelT): GtkMultiSelectionT =>
     @gtk_multi_selection_new(model')
 */
 
 // Methods
 /* 
-fun get_model(self': NullablePointer[GtkMultiSelectionT]): NullablePointer[GListModelT] =>
+fun get_model(self': GtkMultiSelectionT): GListModelT =>
     @gtk_multi_selection_get_model(self')
 */
 /* 
-fun set_model(self': NullablePointer[GtkMultiSelectionT], model': NullablePointer[GListModelT]): None =>
+fun set_model(self': GtkMultiSelectionT, model': GListModelT): None =>
     @gtk_multi_selection_set_model(self', model')
 */

@@ -11,16 +11,16 @@ primitive GtkTreeListRowSorterSys
 
 // Constructors
 /* 
-fun gnew(sorter': NullablePointer[GtkSorterT]): NullablePointer[GtkTreeListRowSorterT] =>
+fun gnew(sorter': GtkSorterT): GtkTreeListRowSorterT =>
     @gtk_tree_list_row_sorter_new(sorter')
 */
 
 // Methods
 /* 
-fun get_sorter(self': NullablePointer[GtkTreeListRowSorterT]): NullablePointer[GtkSorterT] =>
+fun get_sorter(self': GtkTreeListRowSorterT): GtkSorterT =>
     @gtk_tree_list_row_sorter_get_sorter(self')
 */
 /* 
-fun set_sorter(self': NullablePointer[GtkTreeListRowSorterT], sorter': NullablePointer[GtkSorterT]): None =>
+fun set_sorter(self': GtkTreeListRowSorterT, sorter': GtkSorterT): None =>
     @gtk_tree_list_row_sorter_set_sorter(self', sorter')
 */

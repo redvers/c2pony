@@ -9,17 +9,17 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_media_file_new[NullablePointer[GtkMediaStreamT]]()
-// use @gtk_media_file_new_for_file[NullablePointer[GtkMediaStreamT]](file': NullablePointer[GFileT])
-// use @gtk_media_file_new_for_filename[NullablePointer[GtkMediaStreamT]](filename': Pointer[U8] tag)
-// use @gtk_media_file_new_for_input_stream[NullablePointer[GtkMediaStreamT]](stream': NullablePointer[GInputStreamT])
-// use @gtk_media_file_new_for_resource[NullablePointer[GtkMediaStreamT]](resource_path': Pointer[U8] tag)
+// use @gtk_media_file_new[GtkMediaStreamT]()
+// use @gtk_media_file_new_for_file[GtkMediaStreamT](file': GFileT)
+// use @gtk_media_file_new_for_filename[GtkMediaStreamT](filename': Pointer[U8] tag)
+// use @gtk_media_file_new_for_input_stream[GtkMediaStreamT](stream': GInputStreamT)
+// use @gtk_media_file_new_for_resource[GtkMediaStreamT](resource_path': Pointer[U8] tag)
 
 // Methods
-// use @gtk_media_file_clear[None](self': NullablePointer[GtkMediaFileT])
-// use @gtk_media_file_get_file[NullablePointer[GFileT]](self': NullablePointer[GtkMediaFileT])
-// use @gtk_media_file_get_input_stream[NullablePointer[GInputStreamT]](self': NullablePointer[GtkMediaFileT])
-// use @gtk_media_file_set_file[None](self': NullablePointer[GtkMediaFileT], file': NullablePointer[GFileT])
-// use @gtk_media_file_set_filename[None](self': NullablePointer[GtkMediaFileT], filename': Pointer[U8] tag)
-// use @gtk_media_file_set_input_stream[None](self': NullablePointer[GtkMediaFileT], stream': NullablePointer[GInputStreamT])
-// use @gtk_media_file_set_resource[None](self': NullablePointer[GtkMediaFileT], resource_path': Pointer[U8] tag)
+// use @gtk_media_file_clear[None](self': GtkMediaFileT)
+// use @gtk_media_file_get_file[GFileT](self': GtkMediaFileT)
+// use @gtk_media_file_get_input_stream[GInputStreamT](self': GtkMediaFileT)
+// use @gtk_media_file_set_file[None](self': GtkMediaFileT, file': GFileT)
+// use @gtk_media_file_set_filename[None](self': GtkMediaFileT, filename': Pointer[U8] tag)
+// use @gtk_media_file_set_input_stream[None](self': GtkMediaFileT, stream': GInputStreamT)
+// use @gtk_media_file_set_resource[None](self': GtkMediaFileT, resource_path': Pointer[U8] tag)

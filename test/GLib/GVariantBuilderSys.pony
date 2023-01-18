@@ -6,48 +6,48 @@ primitive GVariantBuilderSys
 
 // Constructors
 /* 
-fun gnew(type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantBuilderT] =>
+fun gnew(type': GVariantTypeT): GVariantBuilderT =>
     @g_variant_builder_new(type')
 */
 
 // Methods
 /* 
-fun add(builder': NullablePointer[GVariantBuilderT], format_string': Pointer[U8] tag, ...): None =>
+fun add(builder': GVariantBuilderT, format_string': Pointer[U8] tag, ...): None =>
     @g_variant_builder_add(builder', format_string', ...)
 */
 /* 
-fun add_parsed(builder': NullablePointer[GVariantBuilderT], format': Pointer[U8] tag, ...): None =>
+fun add_parsed(builder': GVariantBuilderT, format': Pointer[U8] tag, ...): None =>
     @g_variant_builder_add_parsed(builder', format', ...)
 */
 /* 
-fun add_value(builder': NullablePointer[GVariantBuilderT], value': NullablePointer[GVariantT]): None =>
+fun add_value(builder': GVariantBuilderT, value': GVariantT): None =>
     @g_variant_builder_add_value(builder', value')
 */
 /* 
-fun clear(builder': NullablePointer[GVariantBuilderT]): None =>
+fun clear(builder': GVariantBuilderT): None =>
     @g_variant_builder_clear(builder')
 */
 /* 
-fun close(builder': NullablePointer[GVariantBuilderT]): None =>
+fun close(builder': GVariantBuilderT): None =>
     @g_variant_builder_close(builder')
 */
 /* 
-fun end(builder': NullablePointer[GVariantBuilderT]): NullablePointer[GVariantT] =>
+fun end(builder': GVariantBuilderT): GVariantT =>
     @g_variant_builder_end(builder')
 */
 /* 
-fun init(builder': NullablePointer[GVariantBuilderT], type': NullablePointer[GVariantTypeT]): None =>
+fun init(builder': GVariantBuilderT, type': GVariantTypeT): None =>
     @g_variant_builder_init(builder', type')
 */
 /* 
-fun open(builder': NullablePointer[GVariantBuilderT], type': NullablePointer[GVariantTypeT]): None =>
+fun open(builder': GVariantBuilderT, type': GVariantTypeT): None =>
     @g_variant_builder_open(builder', type')
 */
 /* 
-fun ref(builder': NullablePointer[GVariantBuilderT]): NullablePointer[GVariantBuilderT] =>
+fun ref(builder': GVariantBuilderT): GVariantBuilderT =>
     @g_variant_builder_ref(builder')
 */
 /* 
-fun unref(builder': NullablePointer[GVariantBuilderT]): None =>
+fun unref(builder': GVariantBuilderT): None =>
     @g_variant_builder_unref(builder')
 */

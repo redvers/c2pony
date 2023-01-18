@@ -10,42 +10,42 @@ primitive GPermissionSys
 
 // Methods
 /* 
-fun acquire(permission': NullablePointer[GPermissionT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun acquire(permission': GPermissionT, cancellable': GCancellableT, error': Pointer[GErrorT]): I32 =>
     @g_permission_acquire(permission', cancellable', error')
 */
 /* 
-fun acquire_async(permission': NullablePointer[GPermissionT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+fun acquire_async(permission': GPermissionT, cancellable': GCancellableT, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     @g_permission_acquire_async(permission', cancellable', callback', user_data')
 */
 /* 
-fun acquire_finish(permission': NullablePointer[GPermissionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun acquire_finish(permission': GPermissionT, result': GAsyncResultT, error': Pointer[GErrorT]): I32 =>
     @g_permission_acquire_finish(permission', result', error')
 */
 /* 
-fun get_allowed(permission': NullablePointer[GPermissionT]): I32 =>
+fun get_allowed(permission': GPermissionT): I32 =>
     @g_permission_get_allowed(permission')
 */
 /* 
-fun get_can_acquire(permission': NullablePointer[GPermissionT]): I32 =>
+fun get_can_acquire(permission': GPermissionT): I32 =>
     @g_permission_get_can_acquire(permission')
 */
 /* 
-fun get_can_release(permission': NullablePointer[GPermissionT]): I32 =>
+fun get_can_release(permission': GPermissionT): I32 =>
     @g_permission_get_can_release(permission')
 */
 /* 
-fun impl_update(permission': NullablePointer[GPermissionT], allowed': I32, can_acquire': I32, can_release': I32): None =>
+fun impl_update(permission': GPermissionT, allowed': I32, can_acquire': I32, can_release': I32): None =>
     @g_permission_impl_update(permission', allowed', can_acquire', can_release')
 */
 /* 
-fun release(permission': NullablePointer[GPermissionT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun release(permission': GPermissionT, cancellable': GCancellableT, error': Pointer[GErrorT]): I32 =>
     @g_permission_release(permission', cancellable', error')
 */
 /* 
-fun release_async(permission': NullablePointer[GPermissionT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+fun release_async(permission': GPermissionT, cancellable': GCancellableT, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     @g_permission_release_async(permission', cancellable', callback', user_data')
 */
 /* 
-fun release_finish(permission': NullablePointer[GPermissionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun release_finish(permission': GPermissionT, result': GAsyncResultT, error': Pointer[GErrorT]): I32 =>
     @g_permission_release_finish(permission', result', error')
 */

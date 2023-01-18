@@ -8,12 +8,12 @@ primitive GZlibDecompressorSys
 
 // Constructors
 /* 
-fun gnew(format': U32): NullablePointer[GZlibDecompressorT] =>
+fun gnew(format': U32): GZlibDecompressorT =>
     @g_zlib_decompressor_new(format')
 */
 
 // Methods
 /* 
-fun get_file_info(decompressor': NullablePointer[GZlibDecompressorT]): NullablePointer[GFileInfoT] =>
+fun get_file_info(decompressor': GZlibDecompressorT): GFileInfoT =>
     @g_zlib_decompressor_get_file_info(decompressor')
 */

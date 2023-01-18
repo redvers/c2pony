@@ -11,24 +11,24 @@ primitive GtkSwitchSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkWidgetT] =>
+fun gnew(): GtkWidgetT =>
     @gtk_switch_new()
 */
 
 // Methods
 /* 
-fun get_active(self': NullablePointer[GtkSwitchT]): I32 =>
+fun get_active(self': GtkSwitchT): I32 =>
     @gtk_switch_get_active(self')
 */
 /* 
-fun get_state(self': NullablePointer[GtkSwitchT]): I32 =>
+fun get_state(self': GtkSwitchT): I32 =>
     @gtk_switch_get_state(self')
 */
 /* 
-fun set_active(self': NullablePointer[GtkSwitchT], is_active': I32): None =>
+fun set_active(self': GtkSwitchT, is_active': I32): None =>
     @gtk_switch_set_active(self', is_active')
 */
 /* 
-fun set_state(self': NullablePointer[GtkSwitchT], state': I32): None =>
+fun set_state(self': GtkSwitchT, state': I32): None =>
     @gtk_switch_set_state(self', state')
 */

@@ -11,16 +11,16 @@ primitive GtkMultiSorterSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkMultiSorterT] =>
+fun gnew(): GtkMultiSorterT =>
     @gtk_multi_sorter_new()
 */
 
 // Methods
 /* 
-fun append(self': NullablePointer[GtkMultiSorterT], sorter': NullablePointer[GtkSorterT]): None =>
+fun append(self': GtkMultiSorterT, sorter': GtkSorterT): None =>
     @gtk_multi_sorter_append(self', sorter')
 */
 /* 
-fun remove(self': NullablePointer[GtkMultiSorterT], position': U32): None =>
+fun remove(self': GtkMultiSorterT, position': U32): None =>
     @gtk_multi_sorter_remove(self', position')
 */

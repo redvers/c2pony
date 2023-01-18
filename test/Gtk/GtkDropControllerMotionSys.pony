@@ -11,20 +11,20 @@ primitive GtkDropControllerMotionSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkEventControllerT] =>
+fun gnew(): GtkEventControllerT =>
     @gtk_drop_controller_motion_new()
 */
 
 // Methods
 /* 
-fun contains_pointer(self': NullablePointer[GtkDropControllerMotionT]): I32 =>
+fun contains_pointer(self': GtkDropControllerMotionT): I32 =>
     @gtk_drop_controller_motion_contains_pointer(self')
 */
 /* 
-fun get_drop(self': NullablePointer[GtkDropControllerMotionT]): NullablePointer[GdkDropT] =>
+fun get_drop(self': GtkDropControllerMotionT): GdkDropT =>
     @gtk_drop_controller_motion_get_drop(self')
 */
 /* 
-fun is_pointer(self': NullablePointer[GtkDropControllerMotionT]): I32 =>
+fun is_pointer(self': GtkDropControllerMotionT): I32 =>
     @gtk_drop_controller_motion_is_pointer(self')
 */

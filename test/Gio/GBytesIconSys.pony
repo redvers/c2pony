@@ -8,12 +8,12 @@ primitive GBytesIconSys
 
 // Constructors
 /* 
-fun gnew(bytes': NullablePointer[GBytesT]): NullablePointer[GIconT] =>
+fun gnew(bytes': GBytesT): GIconT =>
     @g_bytes_icon_new(bytes')
 */
 
 // Methods
 /* 
-fun get_bytes(icon': NullablePointer[GBytesIconT]): NullablePointer[GBytesT] =>
+fun get_bytes(icon': GBytesIconT): GBytesT =>
     @g_bytes_icon_get_bytes(icon')
 */

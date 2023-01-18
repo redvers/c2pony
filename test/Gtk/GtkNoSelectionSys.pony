@@ -11,16 +11,16 @@ primitive GtkNoSelectionSys
 
 // Constructors
 /* 
-fun gnew(model': NullablePointer[GListModelT]): NullablePointer[GtkNoSelectionT] =>
+fun gnew(model': GListModelT): GtkNoSelectionT =>
     @gtk_no_selection_new(model')
 */
 
 // Methods
 /* 
-fun get_model(self': NullablePointer[GtkNoSelectionT]): NullablePointer[GListModelT] =>
+fun get_model(self': GtkNoSelectionT): GListModelT =>
     @gtk_no_selection_get_model(self')
 */
 /* 
-fun set_model(self': NullablePointer[GtkNoSelectionT], model': NullablePointer[GListModelT]): None =>
+fun set_model(self': GtkNoSelectionT, model': GListModelT): None =>
     @gtk_no_selection_set_model(self', model')
 */

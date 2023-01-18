@@ -8,5 +8,5 @@ use "lib:gio-2.0"
 // Constructors
 
 // Methods
-// use @g_dbus_arg_info_ref[NullablePointer[GDBusArgInfoT]](info': NullablePointer[GDBusArgInfoT])
-// use @g_dbus_arg_info_unref[None](info': NullablePointer[GDBusArgInfoT])
+// use @g_dbus_arg_info_ref[GDBusArgInfoT](info': GDBusArgInfoT)
+// use @g_dbus_arg_info_unref[None](info': GDBusArgInfoT)

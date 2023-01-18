@@ -10,18 +10,18 @@ primitive GMenuLinkIterSys
 
 // Methods
 /* 
-fun get_name(iter': NullablePointer[GMenuLinkIterT]): Pointer[U8] tag =>
+fun get_name(iter': GMenuLinkIterT): Pointer[U8] tag =>
     @g_menu_link_iter_get_name(iter')
 */
 /* 
-fun get_next(iter': NullablePointer[GMenuLinkIterT], out_link': Pointer[Pointer[U8]] tag, value': Pointer[NullablePointer[GMenuModelT]]): I32 =>
+fun get_next(iter': GMenuLinkIterT, out_link': Pointer[Pointer[U8]] tag, value': Pointer[GMenuModelT]): I32 =>
     @g_menu_link_iter_get_next(iter', out_link', value')
 */
 /* 
-fun get_value(iter': NullablePointer[GMenuLinkIterT]): NullablePointer[GMenuModelT] =>
+fun get_value(iter': GMenuLinkIterT): GMenuModelT =>
     @g_menu_link_iter_get_value(iter')
 */
 /* 
-fun next(iter': NullablePointer[GMenuLinkIterT]): I32 =>
+fun next(iter': GMenuLinkIterT): I32 =>
     @g_menu_link_iter_next(iter')
 */

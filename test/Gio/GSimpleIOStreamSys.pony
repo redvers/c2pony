@@ -8,7 +8,7 @@ primitive GSimpleIOStreamSys
 
 // Constructors
 /* 
-fun gnew(input_stream': NullablePointer[GInputStreamT], output_stream': NullablePointer[GOutputStreamT]): NullablePointer[GIOStreamT] =>
+fun gnew(input_stream': GInputStreamT, output_stream': GOutputStreamT): GIOStreamT =>
     @g_simple_io_stream_new(input_stream', output_stream')
 */
 

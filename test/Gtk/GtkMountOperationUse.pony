@@ -9,11 +9,11 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_mount_operation_new[NullablePointer[GMountOperationT]](parent': NullablePointer[GtkWindowT])
+// use @gtk_mount_operation_new[GMountOperationT](parent': GtkWindowT)
 
 // Methods
-// use @gtk_mount_operation_get_display[NullablePointer[GdkDisplayT]](op': NullablePointer[GtkMountOperationT])
-// use @gtk_mount_operation_get_parent[NullablePointer[GtkWindowT]](op': NullablePointer[GtkMountOperationT])
-// use @gtk_mount_operation_is_showing[I32](op': NullablePointer[GtkMountOperationT])
-// use @gtk_mount_operation_set_display[None](op': NullablePointer[GtkMountOperationT], display': NullablePointer[GdkDisplayT])
-// use @gtk_mount_operation_set_parent[None](op': NullablePointer[GtkMountOperationT], parent': NullablePointer[GtkWindowT])
+// use @gtk_mount_operation_get_display[GdkDisplayT](op': GtkMountOperationT)
+// use @gtk_mount_operation_get_parent[GtkWindowT](op': GtkMountOperationT)
+// use @gtk_mount_operation_is_showing[I32](op': GtkMountOperationT)
+// use @gtk_mount_operation_set_display[None](op': GtkMountOperationT, display': GdkDisplayT)
+// use @gtk_mount_operation_set_parent[None](op': GtkMountOperationT, parent': GtkWindowT)

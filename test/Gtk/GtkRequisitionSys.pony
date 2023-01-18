@@ -11,16 +11,16 @@ primitive GtkRequisitionSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkRequisitionT] =>
+fun gnew(): GtkRequisitionT =>
     @gtk_requisition_new()
 */
 
 // Methods
 /* 
-fun copy(requisition': NullablePointer[GtkRequisitionT]): NullablePointer[GtkRequisitionT] =>
+fun copy(requisition': GtkRequisitionT): GtkRequisitionT =>
     @gtk_requisition_copy(requisition')
 */
 /* 
-fun free(requisition': NullablePointer[GtkRequisitionT]): None =>
+fun free(requisition': GtkRequisitionT): None =>
     @gtk_requisition_free(requisition')
 */

@@ -11,5 +11,5 @@ use "lib:gtk-4"
 // Constructors
 
 // Methods
-// use @gtk_multi_filter_append[None](self': NullablePointer[GtkMultiFilterT], filter': NullablePointer[GtkFilterT])
-// use @gtk_multi_filter_remove[None](self': NullablePointer[GtkMultiFilterT], position': U32)
+// use @gtk_multi_filter_append[None](self': GtkMultiFilterT, filter': GtkFilterT)
+// use @gtk_multi_filter_remove[None](self': GtkMultiFilterT, position': U32)

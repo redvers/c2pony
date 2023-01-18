@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_signal_list_item_factory_new[NullablePointer[GtkListItemFactoryT]]()
+// use @gtk_signal_list_item_factory_new[GtkListItemFactoryT]()
 
 // Methods

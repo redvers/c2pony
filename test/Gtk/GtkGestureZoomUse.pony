@@ -9,7 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_gesture_zoom_new[NullablePointer[GtkGestureT]]()
+// use @gtk_gesture_zoom_new[GtkGestureT]()
 
 // Methods
-// use @gtk_gesture_zoom_get_scale_delta[F64](gesture': NullablePointer[GtkGestureZoomT])
+// use @gtk_gesture_zoom_get_scale_delta[F64](gesture': GtkGestureZoomT)

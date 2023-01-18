@@ -11,6 +11,6 @@ use "lib:gtk-4"
 // Constructors
 
 // Methods
-// use @gtk_filter_changed[None](self': NullablePointer[GtkFilterT], change': U32)
-// use @gtk_filter_get_strictness[U32](self': NullablePointer[GtkFilterT])
-// use @gtk_filter_match[I32](self': NullablePointer[GtkFilterT], item': Pointer[None] tag)
+// use @gtk_filter_changed[None](self': GtkFilterT, change': U32)
+// use @gtk_filter_get_strictness[U32](self': GtkFilterT)
+// use @gtk_filter_match[I32](self': GtkFilterT, item': Pointer[None] tag)

@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_volume_button_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_volume_button_new[GtkWidgetT]()
 
 // Methods

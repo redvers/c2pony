@@ -6,7 +6,7 @@ use "lib:gio-2.0"
 primitive GIOModuleScopeSys
 // Static Functions
 /* 
-fun gnew(flags': U32): NullablePointer[GIOModuleScopeT] =>
+fun gnew(flags': U32): GIOModuleScopeT =>
     @g_io_module_scope_new(flags')
 */
 
@@ -14,10 +14,10 @@ fun gnew(flags': U32): NullablePointer[GIOModuleScopeT] =>
 
 // Methods
 /* 
-fun block(scope': NullablePointer[GIOModuleScopeT], basename': Pointer[U8] tag): None =>
+fun block(scope': GIOModuleScopeT, basename': Pointer[U8] tag): None =>
     @g_io_module_scope_block(scope', basename')
 */
 /* 
-fun free(scope': NullablePointer[GIOModuleScopeT]): None =>
+fun free(scope': GIOModuleScopeT): None =>
     @g_io_module_scope_free(scope')
 */

@@ -10,86 +10,86 @@ primitive GTlsConnectionSys
 
 // Methods
 /* 
-fun emit_accept_certificate(conn': NullablePointer[GTlsConnectionT], peer_cert': NullablePointer[GTlsCertificateT], errors': U32): I32 =>
+fun emit_accept_certificate(conn': GTlsConnectionT, peer_cert': GTlsCertificateT, errors': U32): I32 =>
     @g_tls_connection_emit_accept_certificate(conn', peer_cert', errors')
 */
 /* 
-fun get_certificate(conn': NullablePointer[GTlsConnectionT]): NullablePointer[GTlsCertificateT] =>
+fun get_certificate(conn': GTlsConnectionT): GTlsCertificateT =>
     @g_tls_connection_get_certificate(conn')
 */
 /* 
-fun get_channel_binding_data(conn': NullablePointer[GTlsConnectionT], type': U32, data': NullablePointer[GByteArrayT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun get_channel_binding_data(conn': GTlsConnectionT, type': U32, data': GByteArrayT, error': Pointer[GErrorT]): I32 =>
     @g_tls_connection_get_channel_binding_data(conn', type', data', error')
 */
 /* 
-fun get_database(conn': NullablePointer[GTlsConnectionT]): NullablePointer[GTlsDatabaseT] =>
+fun get_database(conn': GTlsConnectionT): GTlsDatabaseT =>
     @g_tls_connection_get_database(conn')
 */
 /* 
-fun get_interaction(conn': NullablePointer[GTlsConnectionT]): NullablePointer[GTlsInteractionT] =>
+fun get_interaction(conn': GTlsConnectionT): GTlsInteractionT =>
     @g_tls_connection_get_interaction(conn')
 */
 /* 
-fun get_negotiated_protocol(conn': NullablePointer[GTlsConnectionT]): Pointer[U8] tag =>
+fun get_negotiated_protocol(conn': GTlsConnectionT): Pointer[U8] tag =>
     @g_tls_connection_get_negotiated_protocol(conn')
 */
 /* 
-fun get_peer_certificate(conn': NullablePointer[GTlsConnectionT]): NullablePointer[GTlsCertificateT] =>
+fun get_peer_certificate(conn': GTlsConnectionT): GTlsCertificateT =>
     @g_tls_connection_get_peer_certificate(conn')
 */
 /* 
-fun get_peer_certificate_errors(conn': NullablePointer[GTlsConnectionT]): U32 =>
+fun get_peer_certificate_errors(conn': GTlsConnectionT): U32 =>
     @g_tls_connection_get_peer_certificate_errors(conn')
 */
 /* 
-fun get_rehandshake_mode(conn': NullablePointer[GTlsConnectionT]): U32 =>
+fun get_rehandshake_mode(conn': GTlsConnectionT): U32 =>
     @g_tls_connection_get_rehandshake_mode(conn')
 */
 /* 
-fun get_require_close_notify(conn': NullablePointer[GTlsConnectionT]): I32 =>
+fun get_require_close_notify(conn': GTlsConnectionT): I32 =>
     @g_tls_connection_get_require_close_notify(conn')
 */
 /* 
-fun get_use_system_certdb(conn': NullablePointer[GTlsConnectionT]): I32 =>
+fun get_use_system_certdb(conn': GTlsConnectionT): I32 =>
     @g_tls_connection_get_use_system_certdb(conn')
 */
 /* 
-fun handshake(conn': NullablePointer[GTlsConnectionT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun handshake(conn': GTlsConnectionT, cancellable': GCancellableT, error': Pointer[GErrorT]): I32 =>
     @g_tls_connection_handshake(conn', cancellable', error')
 */
 /* 
-fun handshake_async(conn': NullablePointer[GTlsConnectionT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+fun handshake_async(conn': GTlsConnectionT, io_priority': I32, cancellable': GCancellableT, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     @g_tls_connection_handshake_async(conn', io_priority', cancellable', callback', user_data')
 */
 /* 
-fun handshake_finish(conn': NullablePointer[GTlsConnectionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun handshake_finish(conn': GTlsConnectionT, result': GAsyncResultT, error': Pointer[GErrorT]): I32 =>
     @g_tls_connection_handshake_finish(conn', result', error')
 */
 /* 
-fun set_advertised_protocols(conn': NullablePointer[GTlsConnectionT], protocols': Pointer[Pointer[U8]] tag): None =>
+fun set_advertised_protocols(conn': GTlsConnectionT, protocols': Pointer[Pointer[U8]] tag): None =>
     @g_tls_connection_set_advertised_protocols(conn', protocols')
 */
 /* 
-fun set_certificate(conn': NullablePointer[GTlsConnectionT], certificate': NullablePointer[GTlsCertificateT]): None =>
+fun set_certificate(conn': GTlsConnectionT, certificate': GTlsCertificateT): None =>
     @g_tls_connection_set_certificate(conn', certificate')
 */
 /* 
-fun set_database(conn': NullablePointer[GTlsConnectionT], database': NullablePointer[GTlsDatabaseT]): None =>
+fun set_database(conn': GTlsConnectionT, database': GTlsDatabaseT): None =>
     @g_tls_connection_set_database(conn', database')
 */
 /* 
-fun set_interaction(conn': NullablePointer[GTlsConnectionT], interaction': NullablePointer[GTlsInteractionT]): None =>
+fun set_interaction(conn': GTlsConnectionT, interaction': GTlsInteractionT): None =>
     @g_tls_connection_set_interaction(conn', interaction')
 */
 /* 
-fun set_rehandshake_mode(conn': NullablePointer[GTlsConnectionT], mode': U32): None =>
+fun set_rehandshake_mode(conn': GTlsConnectionT, mode': U32): None =>
     @g_tls_connection_set_rehandshake_mode(conn', mode')
 */
 /* 
-fun set_require_close_notify(conn': NullablePointer[GTlsConnectionT], require_close_notify': I32): None =>
+fun set_require_close_notify(conn': GTlsConnectionT, require_close_notify': I32): None =>
     @g_tls_connection_set_require_close_notify(conn', require_close_notify')
 */
 /* 
-fun set_use_system_certdb(conn': NullablePointer[GTlsConnectionT], use_system_certdb': I32): None =>
+fun set_use_system_certdb(conn': GTlsConnectionT, use_system_certdb': I32): None =>
     @g_tls_connection_set_use_system_certdb(conn', use_system_certdb')
 */

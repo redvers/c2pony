@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_lock_button_new[NullablePointer[GtkWidgetT]](permission': NullablePointer[GPermissionT])
+// use @gtk_lock_button_new[GtkWidgetT](permission': GPermissionT)
 
 // Methods
-// use @gtk_lock_button_get_permission[NullablePointer[GPermissionT]](button': NullablePointer[GtkLockButtonT])
-// use @gtk_lock_button_set_permission[None](button': NullablePointer[GtkLockButtonT], permission': NullablePointer[GPermissionT])
+// use @gtk_lock_button_get_permission[GPermissionT](button': GtkLockButtonT)
+// use @gtk_lock_button_set_permission[None](button': GtkLockButtonT, permission': GPermissionT)

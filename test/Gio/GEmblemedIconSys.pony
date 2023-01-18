@@ -8,24 +8,24 @@ primitive GEmblemedIconSys
 
 // Constructors
 /* 
-fun gnew(icon': NullablePointer[GIconT], emblem': NullablePointer[GEmblemT]): NullablePointer[GIconT] =>
+fun gnew(icon': GIconT, emblem': GEmblemT): GIconT =>
     @g_emblemed_icon_new(icon', emblem')
 */
 
 // Methods
 /* 
-fun add_emblem(emblemed': NullablePointer[GEmblemedIconT], emblem': NullablePointer[GEmblemT]): None =>
+fun add_emblem(emblemed': GEmblemedIconT, emblem': GEmblemT): None =>
     @g_emblemed_icon_add_emblem(emblemed', emblem')
 */
 /* 
-fun clear_emblems(emblemed': NullablePointer[GEmblemedIconT]): None =>
+fun clear_emblems(emblemed': GEmblemedIconT): None =>
     @g_emblemed_icon_clear_emblems(emblemed')
 */
 /* 
-fun get_emblems(emblemed': NullablePointer[GEmblemedIconT]): NullablePointer[GListT] =>
+fun get_emblems(emblemed': GEmblemedIconT): GListT =>
     @g_emblemed_icon_get_emblems(emblemed')
 */
 /* 
-fun get_icon(emblemed': NullablePointer[GEmblemedIconT]): NullablePointer[GIconT] =>
+fun get_icon(emblemed': GEmblemedIconT): GIconT =>
     @g_emblemed_icon_get_icon(emblemed')
 */

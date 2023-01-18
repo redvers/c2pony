@@ -8,6 +8,6 @@ primitive GTestLogMsgSys
 
 // Methods
 /* 
-fun free(tmsg': NullablePointer[anon_2387]): None =>
+fun free(tmsg': anon_2387): None =>
     @g_test_log_msg_free(tmsg')
 */

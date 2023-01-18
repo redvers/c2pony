@@ -9,12 +9,12 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_slice_list_model_new[NullablePointer[GtkSliceListModelT]](model': NullablePointer[GListModelT], offset': U32, size': U32)
+// use @gtk_slice_list_model_new[GtkSliceListModelT](model': GListModelT, offset': U32, size': U32)
 
 // Methods
-// use @gtk_slice_list_model_get_model[NullablePointer[GListModelT]](self': NullablePointer[GtkSliceListModelT])
-// use @gtk_slice_list_model_get_offset[U32](self': NullablePointer[GtkSliceListModelT])
-// use @gtk_slice_list_model_get_size[U32](self': NullablePointer[GtkSliceListModelT])
-// use @gtk_slice_list_model_set_model[None](self': NullablePointer[GtkSliceListModelT], model': NullablePointer[GListModelT])
-// use @gtk_slice_list_model_set_offset[None](self': NullablePointer[GtkSliceListModelT], offset': U32)
-// use @gtk_slice_list_model_set_size[None](self': NullablePointer[GtkSliceListModelT], size': U32)
+// use @gtk_slice_list_model_get_model[GListModelT](self': GtkSliceListModelT)
+// use @gtk_slice_list_model_get_offset[U32](self': GtkSliceListModelT)
+// use @gtk_slice_list_model_get_size[U32](self': GtkSliceListModelT)
+// use @gtk_slice_list_model_set_model[None](self': GtkSliceListModelT, model': GListModelT)
+// use @gtk_slice_list_model_set_offset[None](self': GtkSliceListModelT, offset': U32)
+// use @gtk_slice_list_model_set_size[None](self': GtkSliceListModelT, size': U32)

@@ -10,10 +10,10 @@ primitive GDBusArgInfoSys
 
 // Methods
 /* 
-fun ref(info': NullablePointer[GDBusArgInfoT]): NullablePointer[GDBusArgInfoT] =>
+fun ref(info': GDBusArgInfoT): GDBusArgInfoT =>
     @g_dbus_arg_info_ref(info')
 */
 /* 
-fun unref(info': NullablePointer[GDBusArgInfoT]): None =>
+fun unref(info': GDBusArgInfoT): None =>
     @g_dbus_arg_info_unref(info')
 */

@@ -11,32 +11,32 @@ primitive GtkSliceListModelSys
 
 // Constructors
 /* 
-fun gnew(model': NullablePointer[GListModelT], offset': U32, size': U32): NullablePointer[GtkSliceListModelT] =>
+fun gnew(model': GListModelT, offset': U32, size': U32): GtkSliceListModelT =>
     @gtk_slice_list_model_new(model', offset', size')
 */
 
 // Methods
 /* 
-fun get_model(self': NullablePointer[GtkSliceListModelT]): NullablePointer[GListModelT] =>
+fun get_model(self': GtkSliceListModelT): GListModelT =>
     @gtk_slice_list_model_get_model(self')
 */
 /* 
-fun get_offset(self': NullablePointer[GtkSliceListModelT]): U32 =>
+fun get_offset(self': GtkSliceListModelT): U32 =>
     @gtk_slice_list_model_get_offset(self')
 */
 /* 
-fun get_size(self': NullablePointer[GtkSliceListModelT]): U32 =>
+fun get_size(self': GtkSliceListModelT): U32 =>
     @gtk_slice_list_model_get_size(self')
 */
 /* 
-fun set_model(self': NullablePointer[GtkSliceListModelT], model': NullablePointer[GListModelT]): None =>
+fun set_model(self': GtkSliceListModelT, model': GListModelT): None =>
     @gtk_slice_list_model_set_model(self', model')
 */
 /* 
-fun set_offset(self': NullablePointer[GtkSliceListModelT], offset': U32): None =>
+fun set_offset(self': GtkSliceListModelT, offset': U32): None =>
     @gtk_slice_list_model_set_offset(self', offset')
 */
 /* 
-fun set_size(self': NullablePointer[GtkSliceListModelT], size': U32): None =>
+fun set_size(self': GtkSliceListModelT, size': U32): None =>
     @gtk_slice_list_model_set_size(self', size')
 */

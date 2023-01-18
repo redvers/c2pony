@@ -11,16 +11,16 @@ primitive GtkEventControllerFocusSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkEventControllerT] =>
+fun gnew(): GtkEventControllerT =>
     @gtk_event_controller_focus_new()
 */
 
 // Methods
 /* 
-fun contains_focus(self': NullablePointer[GtkEventControllerFocusT]): I32 =>
+fun contains_focus(self': GtkEventControllerFocusT): I32 =>
     @gtk_event_controller_focus_contains_focus(self')
 */
 /* 
-fun is_focus(self': NullablePointer[GtkEventControllerFocusT]): I32 =>
+fun is_focus(self': GtkEventControllerFocusT): I32 =>
     @gtk_event_controller_focus_is_focus(self')
 */

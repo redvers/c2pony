@@ -8,12 +8,12 @@ primitive GFileIconSys
 
 // Constructors
 /* 
-fun gnew(file': NullablePointer[GFileT]): NullablePointer[GIconT] =>
+fun gnew(file': GFileT): GIconT =>
     @g_file_icon_new(file')
 */
 
 // Methods
 /* 
-fun get_file(icon': NullablePointer[GFileIconT]): NullablePointer[GFileT] =>
+fun get_file(icon': GFileIconT): GFileT =>
     @g_file_icon_get_file(icon')
 */

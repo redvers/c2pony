@@ -9,6 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_gesture_click_new[NullablePointer[GtkGestureT]]()
+// use @gtk_gesture_click_new[GtkGestureT]()
 
 // Methods

@@ -11,24 +11,24 @@ primitive GtkGestureStylusSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkGestureT] =>
+fun gnew(): GtkGestureT =>
     @gtk_gesture_stylus_new()
 */
 
 // Methods
 /* 
-fun get_axes(gesture': NullablePointer[GtkGestureStylusT], axes': Pointer[U32] tag, values': Pointer[Pointer[F64]] tag): I32 =>
+fun get_axes(gesture': GtkGestureStylusT, axes': Pointer[U32] tag, values': Pointer[Pointer[F64]] tag): I32 =>
     @gtk_gesture_stylus_get_axes(gesture', axes', values')
 */
 /* 
-fun get_axis(gesture': NullablePointer[GtkGestureStylusT], axis': U32, value': Pointer[F64] tag): I32 =>
+fun get_axis(gesture': GtkGestureStylusT, axis': U32, value': Pointer[F64] tag): I32 =>
     @gtk_gesture_stylus_get_axis(gesture', axis', value')
 */
 /* 
-fun get_backlog(gesture': NullablePointer[GtkGestureStylusT], backlog': Pointer[NullablePointer[GdkTimeCoordT]], n_elems': Pointer[U32] tag): I32 =>
+fun get_backlog(gesture': GtkGestureStylusT, backlog': Pointer[GdkTimeCoordT], n_elems': Pointer[U32] tag): I32 =>
     @gtk_gesture_stylus_get_backlog(gesture', backlog', n_elems')
 */
 /* 
-fun get_device_tool(gesture': NullablePointer[GtkGestureStylusT]): NullablePointer[GdkDeviceToolT] =>
+fun get_device_tool(gesture': GtkGestureStylusT): GdkDeviceToolT =>
     @gtk_gesture_stylus_get_device_tool(gesture')
 */

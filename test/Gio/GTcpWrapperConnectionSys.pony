@@ -8,12 +8,12 @@ primitive GTcpWrapperConnectionSys
 
 // Constructors
 /* 
-fun gnew(base_io_stream': NullablePointer[GIOStreamT], socket': NullablePointer[GSocketT]): NullablePointer[GSocketConnectionT] =>
+fun gnew(base_io_stream': GIOStreamT, socket': GSocketT): GSocketConnectionT =>
     @g_tcp_wrapper_connection_new(base_io_stream', socket')
 */
 
 // Methods
 /* 
-fun get_base_io_stream(conn': NullablePointer[GTcpWrapperConnectionT]): NullablePointer[GIOStreamT] =>
+fun get_base_io_stream(conn': GTcpWrapperConnectionT): GIOStreamT =>
     @g_tcp_wrapper_connection_get_base_io_stream(conn')
 */

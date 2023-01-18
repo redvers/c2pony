@@ -11,7 +11,7 @@ primitive GtkEmojiChooserSys
 
 // Constructors
 /* 
-fun gnew(): NullablePointer[GtkWidgetT] =>
+fun gnew(): GtkWidgetT =>
     @gtk_emoji_chooser_new()
 */
 

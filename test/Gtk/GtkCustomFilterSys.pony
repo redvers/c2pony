@@ -11,12 +11,12 @@ primitive GtkCustomFilterSys
 
 // Constructors
 /* 
-fun gnew(match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): NullablePointer[GtkCustomFilterT] =>
+fun gnew(match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): GtkCustomFilterT =>
     @gtk_custom_filter_new(match_func', user_data', user_destroy')
 */
 
 // Methods
 /* 
-fun set_filter_func(self': NullablePointer[GtkCustomFilterT], match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): None =>
+fun set_filter_func(self': GtkCustomFilterT, match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): None =>
     @gtk_custom_filter_set_filter_func(self', match_func', user_data', user_destroy')
 */

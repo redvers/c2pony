@@ -9,11 +9,11 @@ use "lib:gtk-4"
 primitive GtkSettingsSys
 // Static Functions
 /* 
-fun get_default(): NullablePointer[GtkSettingsT] =>
+fun get_default(): GtkSettingsT =>
     @gtk_settings_get_default()
 */
 /* 
-fun get_for_display(display': NullablePointer[GdkDisplayT]): NullablePointer[GtkSettingsT] =>
+fun get_for_display(display': GdkDisplayT): GtkSettingsT =>
     @gtk_settings_get_for_display(display')
 */
 
@@ -21,6 +21,6 @@ fun get_for_display(display': NullablePointer[GdkDisplayT]): NullablePointer[Gtk
 
 // Methods
 /* 
-fun reset_property(settings': NullablePointer[GtkSettingsT], name': Pointer[U8] tag): None =>
+fun reset_property(settings': GtkSettingsT, name': Pointer[U8] tag): None =>
     @gtk_settings_reset_property(settings', name')
 */

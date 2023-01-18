@@ -12,32 +12,32 @@ fun unset(): None =>
 
 // Constructors
 /* 
-fun gnew(flags': U32): NullablePointer[GTestDBusT] =>
+fun gnew(flags': U32): GTestDBusT =>
     @g_test_dbus_new(flags')
 */
 
 // Methods
 /* 
-fun add_service_dir(self': NullablePointer[GTestDBusT], path': Pointer[U8] tag): None =>
+fun add_service_dir(self': GTestDBusT, path': Pointer[U8] tag): None =>
     @g_test_dbus_add_service_dir(self', path')
 */
 /* 
-fun down(self': NullablePointer[GTestDBusT]): None =>
+fun down(self': GTestDBusT): None =>
     @g_test_dbus_down(self')
 */
 /* 
-fun get_bus_address(self': NullablePointer[GTestDBusT]): Pointer[U8] tag =>
+fun get_bus_address(self': GTestDBusT): Pointer[U8] tag =>
     @g_test_dbus_get_bus_address(self')
 */
 /* 
-fun get_flags(self': NullablePointer[GTestDBusT]): U32 =>
+fun get_flags(self': GTestDBusT): U32 =>
     @g_test_dbus_get_flags(self')
 */
 /* 
-fun stop(self': NullablePointer[GTestDBusT]): None =>
+fun stop(self': GTestDBusT): None =>
     @g_test_dbus_stop(self')
 */
 /* 
-fun up(self': NullablePointer[GTestDBusT]): None =>
+fun up(self': GTestDBusT): None =>
     @g_test_dbus_up(self')
 */

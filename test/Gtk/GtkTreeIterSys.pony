@@ -13,10 +13,10 @@ primitive GtkTreeIterSys
 
 // Methods
 /* 
-fun copy(iter': NullablePointer[GtkTreeIterT]): NullablePointer[GtkTreeIterT] =>
+fun copy(iter': GtkTreeIterT): GtkTreeIterT =>
     @gtk_tree_iter_copy(iter')
 */
 /* 
-fun free(iter': NullablePointer[GtkTreeIterT]): None =>
+fun free(iter': GtkTreeIterT): None =>
     @gtk_tree_iter_free(iter')
 */

@@ -13,18 +13,18 @@ primitive GtkExpressionWatchSys
 
 // Methods
 /* 
-fun evaluate(watch': NullablePointer[GtkExpressionWatchT], value': NullablePointer[GValueT]): I32 =>
+fun evaluate(watch': GtkExpressionWatchT, value': GValueT): I32 =>
     @gtk_expression_watch_evaluate(watch', value')
 */
 /* 
-fun ref(watch': NullablePointer[GtkExpressionWatchT]): NullablePointer[GtkExpressionWatchT] =>
+fun ref(watch': GtkExpressionWatchT): GtkExpressionWatchT =>
     @gtk_expression_watch_ref(watch')
 */
 /* 
-fun unref(watch': NullablePointer[GtkExpressionWatchT]): None =>
+fun unref(watch': GtkExpressionWatchT): None =>
     @gtk_expression_watch_unref(watch')
 */
 /* 
-fun unwatch(watch': NullablePointer[GtkExpressionWatchT]): None =>
+fun unwatch(watch': GtkExpressionWatchT): None =>
     @gtk_expression_watch_unwatch(watch')
 */

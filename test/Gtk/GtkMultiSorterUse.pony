@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_multi_sorter_new[NullablePointer[GtkMultiSorterT]]()
+// use @gtk_multi_sorter_new[GtkMultiSorterT]()
 
 // Methods
-// use @gtk_multi_sorter_append[None](self': NullablePointer[GtkMultiSorterT], sorter': NullablePointer[GtkSorterT])
-// use @gtk_multi_sorter_remove[None](self': NullablePointer[GtkMultiSorterT], position': U32)
+// use @gtk_multi_sorter_append[None](self': GtkMultiSorterT, sorter': GtkSorterT)
+// use @gtk_multi_sorter_remove[None](self': GtkMultiSorterT, position': U32)

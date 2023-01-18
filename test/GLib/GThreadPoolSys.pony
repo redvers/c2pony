@@ -16,7 +16,7 @@ fun get_num_unused_threads(): U32 =>
     @g_thread_pool_get_num_unused_threads()
 */
 /* 
-fun gnew(func': GFunc, user_data': Pointer[None] tag, max_threads': I32, exclusive': I32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GThreadPoolT] =>
+fun gnew(func': GFunc, user_data': Pointer[None] tag, max_threads': I32, exclusive': I32, error': Pointer[GErrorT]): GThreadPoolT =>
     @g_thread_pool_new(func', user_data', max_threads', exclusive', error')
 */
 /* 
@@ -36,34 +36,34 @@ fun stop_unused_threads(): None =>
 
 // Methods
 /* 
-fun free(pool': NullablePointer[GThreadPoolT], immediate': I32, wait_': I32): None =>
+fun free(pool': GThreadPoolT, immediate': I32, wait_': I32): None =>
     @g_thread_pool_free(pool', immediate', wait_')
 */
 /* 
-fun get_max_threads(pool': NullablePointer[GThreadPoolT]): I32 =>
+fun get_max_threads(pool': GThreadPoolT): I32 =>
     @g_thread_pool_get_max_threads(pool')
 */
 /* 
-fun get_num_threads(pool': NullablePointer[GThreadPoolT]): U32 =>
+fun get_num_threads(pool': GThreadPoolT): U32 =>
     @g_thread_pool_get_num_threads(pool')
 */
 /* 
-fun move_to_front(pool': NullablePointer[GThreadPoolT], data': Pointer[None] tag): I32 =>
+fun move_to_front(pool': GThreadPoolT, data': Pointer[None] tag): I32 =>
     @g_thread_pool_move_to_front(pool', data')
 */
 /* 
-fun push(pool': NullablePointer[GThreadPoolT], data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun push(pool': GThreadPoolT, data': Pointer[None] tag, error': Pointer[GErrorT]): I32 =>
     @g_thread_pool_push(pool', data', error')
 */
 /* 
-fun set_max_threads(pool': NullablePointer[GThreadPoolT], max_threads': I32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+fun set_max_threads(pool': GThreadPoolT, max_threads': I32, error': Pointer[GErrorT]): I32 =>
     @g_thread_pool_set_max_threads(pool', max_threads', error')
 */
 /* 
-fun set_sort_function(pool': NullablePointer[GThreadPoolT], func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+fun set_sort_function(pool': GThreadPoolT, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
     @g_thread_pool_set_sort_function(pool', func', user_data')
 */
 /* 
-fun unprocessed(pool': NullablePointer[GThreadPoolT]): U32 =>
+fun unprocessed(pool': GThreadPoolT): U32 =>
     @g_thread_pool_unprocessed(pool')
 */

@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_stack_switcher_new[NullablePointer[GtkWidgetT]]()
+// use @gtk_stack_switcher_new[GtkWidgetT]()
 
 // Methods
-// use @gtk_stack_switcher_get_stack[NullablePointer[GtkStackT]](switcher': NullablePointer[GtkStackSwitcherT])
-// use @gtk_stack_switcher_set_stack[None](switcher': NullablePointer[GtkStackSwitcherT], stack': NullablePointer[GtkStackT])
+// use @gtk_stack_switcher_get_stack[GtkStackT](switcher': GtkStackSwitcherT)
+// use @gtk_stack_switcher_set_stack[None](switcher': GtkStackSwitcherT, stack': GtkStackT)

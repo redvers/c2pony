@@ -9,8 +9,8 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
-// use @gtk_constant_expression_new[NullablePointer[GtkExpressionT]](value_type': U64, ...)
-// use @gtk_constant_expression_new_for_value[NullablePointer[GtkExpressionT]](value': NullablePointer[GValueT])
+// use @gtk_constant_expression_new[GtkExpressionT](value_type': U64, ...)
+// use @gtk_constant_expression_new_for_value[GtkExpressionT](value': GValueT)
 
 // Methods
-// use @gtk_constant_expression_get_value[NullablePointer[GValueT]](expression': NullablePointer[GtkExpressionT])
+// use @gtk_constant_expression_get_value[GValueT](expression': GtkExpressionT)
