@@ -1,4 +1,5 @@
 
+use "../P"
 use "../GLib"
 use "../Gio"
 use "../GObject"

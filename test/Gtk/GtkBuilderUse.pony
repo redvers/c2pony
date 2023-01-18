@@ -1,4 +1,5 @@
 
+use "../P"
 use "../GLib"
 use "../Gio"
 use "../GObject"
@@ -25,7 +26,7 @@ use @gtk_builder_new_from_resource[GtkBuilderT](resource_path': Pointer[U8] tag)
 // use @gtk_builder_expose_object[None](builder': GtkBuilderT, name': Pointer[U8] tag, object': GObjectT)
 // use @gtk_builder_extend_with_template[I32](builder': GtkBuilderT, object': GObjectT, template_type': U64, buffer': Pointer[U8] tag, length': I64, error': Pointer[GErrorT])
 // use @gtk_builder_get_current_object[GObjectT](builder': GtkBuilderT)
-use @gtk_builder_get_object[GObjectT](builder': GtkBuilderT, name': Pointer[U8] tag)
+// use @gtk_builder_get_object[GObjectT](builder': GtkBuilderT, name': Pointer[U8] tag)
 // use @gtk_builder_get_objects[GSListT](builder': GtkBuilderT)
 // use @gtk_builder_get_scope[GtkBuilderScopeT](builder': GtkBuilderT)
 // use @gtk_builder_get_translation_domain[Pointer[U8] tag](builder': GtkBuilderT)
@@ -35,3 +36,4 @@ use @gtk_builder_get_object[GObjectT](builder': GtkBuilderT, name': Pointer[U8] 
 // use @gtk_builder_set_translation_domain[None](builder': GtkBuilderT, domain': Pointer[U8] tag)
 // use @gtk_builder_value_from_string[I32](builder': GtkBuilderT, pspec': GParamSpecT, string': Pointer[U8] tag, value': GValueT, error': Pointer[GErrorT])
 // use @gtk_builder_value_from_string_type[I32](builder': GtkBuilderT, type': U64, string': Pointer[U8] tag, value': GValueT, error': Pointer[GErrorT])
+use @gtk_builder_get_object[GObjectT](builder': GtkBuilderT, name': Pointer[U8] tag)

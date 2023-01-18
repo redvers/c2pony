@@ -1,5 +1,5 @@
+
 use "../P"
-use "../Gtk"
 use "../GLib"
 use "lib:gobject-2.0"
 // use @g_boxed_copy[Pointer[None] tag](boxed_type': U64, src_boxed': Pointer[None] tag)
@@ -56,7 +56,7 @@ use "lib:gobject-2.0"
 // use @g_signal_chain_from_overridden_handler[None](instance': Pointer[None] tag, ...)
 // use @g_signal_connect_closure[U64](instance': Pointer[None] tag, detailed_signal': Pointer[U8] tag, closure': GClosureT, after': I32)
 // use @g_signal_connect_closure_by_id[U64](instance': Pointer[None] tag, signal_id': U32, detail': U32, closure': GClosureT, after': I32)
-use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], data': P, destroy_data': GClosureNotify, connect_flags': U32)
+// use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': GCallback, data': Pointer[None] tag, destroy_data': GClosureNotify, connect_flags': U32)
 // use @g_signal_connect_object[U64](instance': Pointer[None] tag, detailed_signal': Pointer[U8] tag, c_handler': GCallback, gobject': Pointer[None] tag, connect_flags': U32)
 // use @g_signal_emit[None](instance': Pointer[None] tag, signal_id': U32, detail': U32, ...)
 // use @g_signal_emit_by_name[None](instance': Pointer[None] tag, detailed_signal': Pointer[U8] tag, ...)
