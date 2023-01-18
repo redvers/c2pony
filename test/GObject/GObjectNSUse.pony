@@ -137,3 +137,4 @@ use "lib:gobject-2.0"
 // use @g_type_remove_interface_check[None](check_data': Pointer[None] tag, check_func': GTypeInterfaceCheckFunc)
 // use @g_type_set_qdata[None](type': U64, quark': U32, data': Pointer[None] tag)
 // use @g_type_test_flags[I32](type': U64, flags': U32)
+use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], data': Any tag, destroy_data': Pointer[None] tag, connect_flags': U32)

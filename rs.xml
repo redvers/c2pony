@@ -13914,6 +13914,9 @@ use "../P"
 use "../GLib"
 use "lib:gobject-2.0"
 </ponydep>
+<useoverride>use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], data': Any tag, destroy_data': Pointer[None] tag, connect_flags': U32)</useoverride>
+<fnoverride>  fun signal_connect_data[A: Any](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None] tag, data': A, destroy_data': Pointer[None] tag, connect_flags': U32): U64 =>
+    @g_signal_connect_data(instance', detailed_signal', c_handler', data', destroy_data', connect_flags')</fnoverride>
       <renderfunction name="g_boxed_copy"
                       ponyname="boxed_copy"
                       render="0"
@@ -22684,9 +22687,6 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
-<useoverride>use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], data': P, destroy_data': GClosureNotify, connect_flags': U32)</useoverride>
-<fnoverride>  fun signal_connect_data(instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': @{(GtkApplicationT, P): None}, data': P, destroy_data': GClosureNotify, connect_flags': U32): U64 =>
-    @g_signal_connect_data(instance', detailed_signal', c_handler', data', destroy_data', connect_flags')</fnoverride>
          <renderconstructor name="gtk_application_new"
                             ponyname="gnew"
                             render="1"

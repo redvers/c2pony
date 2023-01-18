@@ -69,5 +69,3 @@ fun set_menubar(application': GtkApplicationT, menubar': GMenuModelT): None =>
 fun uninhibit(application': GtkApplicationT, cookie': U32): None =>
     @gtk_application_uninhibit(application', cookie')
 */
-  fun signal_connect_data(instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': @{(GtkApplicationT, P): None}, data': P, destroy_data': GClosureNotify, connect_flags': U32): U64 =>
-    @g_signal_connect_data(instance', detailed_signal', c_handler', data', destroy_data', connect_flags')
