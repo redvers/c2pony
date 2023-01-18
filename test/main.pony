@@ -4,7 +4,6 @@ use "Gio"
 use "Gtk"
 use "P"
 
-use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], data': Any ref, destroy_data': GClosureNotify, connect_flags': U32)
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 use @gtk_widget_show[None](widget: GtkWidgetT)
 
@@ -12,7 +11,7 @@ actor Main
   let env: Env
   new create(env': Env) => None
     env = env'
-    GtkNSSys.init()
+//    GtkNSSys.init()
     let resource: GResourceT = GResourceSys.load("demo.gresource".cstring(), Pointer[GErrorT])
     GioNSSys.resources_register(resource)
     var app: GtkApplicationT = GtkApplicationSys.gnew("me.infect.red".cstring(), 0)
