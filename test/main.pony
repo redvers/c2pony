@@ -17,7 +17,7 @@ actor Main is P
     var app: GtkApplicationT = GtkApplicationSys.gnew("me.infect.red".cstring(), 0)
 
     let mref: Main ref = this
-    GObjectNSSys.signal_connect_data(app.parent_instance'.parent_instance', "activate".cstring(), this~cb(), this, this~destroy_data(), U32(0))
+    GtkApplicationSys.signal_connect_data(app.parent_instance'.parent_instance', "activate".cstring(), this~cb(), this, this~destroy_data(), U32(0))
     GApplicationSys.run(app.parent_instance', 0, Pointer[Pointer[U8]])
 
   fun @cb(gtkapp: GtkApplicationT, main: P): None =>
@@ -26,7 +26,7 @@ actor Main is P
     end
     @printf("Callback called\n".cstring())
     let builder: GtkBuilderT = GtkBuilderSys.new_from_resource("/ui/main.ui".cstring())
-    let window: GtkWindowT = GtkBuilderSys.get_object(builder, "window".cstring())
+    let window: GtkWindowT = GtkWindowSys.get_object(builder, "window".cstring())
     GtkApplicationSys.add_window(gtkapp, window)
     @gtk_widget_show(window.parent_instance')
 

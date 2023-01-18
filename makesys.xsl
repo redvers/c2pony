@@ -22,6 +22,9 @@
         <xsl:with-param name="render" select="./@render"/>
       </xsl:call-template>
     </xsl:for-each>
+    <xsl:for-each select="./fnoverride">
+      <xsl:value-of select="."/>
+    </xsl:for-each>
   </xsl:result-document>
   
     <xsl:variable name="preamble" select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
@@ -60,6 +63,9 @@
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
         </xsl:for-each>
+    <xsl:for-each select="$root/fnoverride">
+      <xsl:value-of select="."/>
+    </xsl:for-each>
       </xsl:result-document>
       <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
       <xsl:value-of select="$newline"/>
@@ -100,6 +106,9 @@
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
         </xsl:for-each>
+    <xsl:for-each select="$root/fnoverride">
+      <xsl:value-of select="."/>
+    </xsl:for-each>
       </xsl:result-document>
       <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
       <xsl:value-of select="$newline"/>

@@ -1,4 +1,5 @@
 
+use "../P"
 use "../GLib"
 use "../Gio"
 use "../GObject"
@@ -26,3 +27,4 @@ use @gtk_application_add_window[None](application': GtkApplicationT, window': Gt
 // use @gtk_application_set_accels_for_action[None](application': GtkApplicationT, detailed_action_name': Pointer[U8] tag, accels': Pointer[Pointer[U8]] tag)
 // use @gtk_application_set_menubar[None](application': GtkApplicationT, menubar': GMenuModelT)
 // use @gtk_application_uninhibit[None](application': GtkApplicationT, cookie': U32)
+use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], data': P, destroy_data': GClosureNotify, connect_flags': U32)

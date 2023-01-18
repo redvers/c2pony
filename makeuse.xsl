@@ -17,6 +17,9 @@
         <xsl:with-param name="render" select="./@render"/>
       </xsl:call-template>
     </xsl:for-each>
+    <xsl:for-each select="./useoverride">
+      <xsl:value-of select="."/>
+    </xsl:for-each>
   </xsl:result-document>
 
   <!-- By Struct -->
@@ -51,6 +54,9 @@
             <xsl:with-param name="render" select="./@render"/>
           </xsl:call-template>
         </xsl:for-each>
+    <xsl:for-each select="./useoverride">
+      <xsl:value-of select="."/>
+    </xsl:for-each>
       </xsl:result-document>
       <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
       <xsl:value-of select="$newline"/>
@@ -89,6 +95,9 @@
       </xsl:result-document>
       <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
       <xsl:value-of select="$newline"/>
+    </xsl:for-each>
+    <xsl:for-each select="./useoverride">
+      <xsl:value-of select="."/>
     </xsl:for-each>
 </xsl:template>
 

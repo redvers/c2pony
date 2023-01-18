@@ -1,4 +1,5 @@
 
+use "../P"
 use "lib:glib-2.0"
 struct GErrorT
   var domain': U32 = U32(0)

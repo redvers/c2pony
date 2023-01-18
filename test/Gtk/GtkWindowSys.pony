@@ -1,4 +1,5 @@
 
+use "../P"
 use "../GLib"
 use "../Gio"
 use "../GObject"
@@ -256,3 +257,5 @@ fun unmaximize(window': GtkWindowT): None =>
 fun unminimize(window': GtkWindowT): None =>
     @gtk_window_unminimize(window')
 */
+  fun get_object(builder': GtkBuilderT, name': Pointer[U8] tag): GtkWindowT =>
+    @gtk_builder_get_object[GtkWindowT](builder', name')

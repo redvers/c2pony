@@ -3,6 +3,7 @@
     xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
    <ns namespace="GLib">
 <ponydep>
+use "../P"
 use "lib:glib-2.0"
 </ponydep>
       <renderfunction name="g_access" ponyname="access" render="0" deprecated=""/>
@@ -5834,6 +5835,7 @@ use "lib:glib-2.0"
    </ns>
    <ns namespace="Gio">
 <ponydep>
+use "../P"
 use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
@@ -13908,6 +13910,7 @@ use "lib:gio-2.0"
    </ns>
    <ns namespace="GObject">
 <ponydep>
+use "../P"
 use "../GLib"
 use "lib:gobject-2.0"
 </ponydep>
@@ -14133,7 +14136,7 @@ use "lib:gobject-2.0"
                       deprecated=""/>
       <renderfunction name="g_signal_connect_data"
                       ponyname="signal_connect_data"
-                      render="1"
+                      render="0"
                       deprecated=""/>
       <renderfunction name="g_signal_connect_object"
                       ponyname="signal_connect_object"
@@ -20723,6 +20726,7 @@ use "lib:gobject-2.0"
    </ns>
    <ns namespace="Gtk">
 <ponydep>
+use "../P"
 use "../GLib"
 use "../Gio"
 use "../GObject"
@@ -22680,6 +22684,9 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
+<useoverride>use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], data': P, destroy_data': GClosureNotify, connect_flags': U32)</useoverride>
+<fnoverride>  fun signal_connect_data(instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': @{(GtkApplicationT, P): None}, data': P, destroy_data': GClosureNotify, connect_flags': U32): U64 =>
+    @g_signal_connect_data(instance', detailed_signal', c_handler', data', destroy_data', connect_flags')</fnoverride>
          <renderconstructor name="gtk_application_new"
                             ponyname="gnew"
                             render="1"
@@ -23094,6 +23101,7 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
+<useoverride>use @gtk_builder_get_object[GObjectT](builder': GtkBuilderT, name': Pointer[U8] tag)</useoverride>
          <renderconstructor name="gtk_builder_new" ponyname="gnew" render="0" deprecated=""/>
          <renderconstructor name="gtk_builder_new_from_file"
                             ponyname="new_from_file"
@@ -23149,7 +23157,7 @@ use "lib:gtk-4"
                        deprecated=""/>
          <rendermethod name="gtk_builder_get_object"
                        ponyname="get_object"
-                       render="1"
+                       render="0"
                        deprecated=""/>
          <rendermethod name="gtk_builder_get_objects"
                        ponyname="get_objects"
@@ -34977,6 +34985,9 @@ use "lib:gtk-4"
                    abstract=""
                    final=""
                    fundamental="">
+<fnoverride>  fun get_object(builder': GtkBuilderT, name': Pointer[U8] tag): GtkWindowT =>
+    @gtk_builder_get_object[GtkWindowT](builder', name')
+</fnoverride>
          <renderconstructor name="gtk_window_new" ponyname="gnew" render="0" deprecated=""/>
          <rendermethod name="gtk_window_close"
                        ponyname="close"
