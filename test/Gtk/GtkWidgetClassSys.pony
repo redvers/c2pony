@@ -13,6 +13,10 @@ primitive GtkWidgetClassSys
 
 // Methods
 /* 
+fun add_binding(widget_class': NullablePointer[GtkWidgetClassT], keyval': U32, mods': U32, callback': GtkShortcutFunc, format_string': Pointer[U8] tag, ...): None =>
+    @gtk_widget_class_add_binding(widget_class', keyval', mods', callback', format_string', ...)
+*/
+/* 
 fun add_binding_action(widget_class': NullablePointer[GtkWidgetClassT], keyval': U32, mods': U32, action_name': Pointer[U8] tag, format_string': Pointer[U8] tag, ...): None =>
     @gtk_widget_class_add_binding_action(widget_class', keyval', mods', action_name', format_string', ...)
 */
@@ -23,6 +27,10 @@ fun add_binding_signal(widget_class': NullablePointer[GtkWidgetClassT], keyval':
 /* 
 fun add_shortcut(widget_class': NullablePointer[GtkWidgetClassT], shortcut': NullablePointer[GtkShortcutT]): None =>
     @gtk_widget_class_add_shortcut(widget_class', shortcut')
+*/
+/* 
+fun bind_template_callback_full(widget_class': NullablePointer[GtkWidgetClassT], callback_name': Pointer[U8] tag, callback_symbol': GCallback): None =>
+    @gtk_widget_class_bind_template_callback_full(widget_class', callback_name', callback_symbol')
 */
 /* 
 fun bind_template_child_full(widget_class': NullablePointer[GtkWidgetClassT], name': Pointer[U8] tag, internal_child': I32, struct_offset': I64): None =>
@@ -43,6 +51,10 @@ fun get_css_name(widget_class': NullablePointer[GtkWidgetClassT]): Pointer[U8] t
 /* 
 fun get_layout_manager_type(widget_class': NullablePointer[GtkWidgetClassT]): U64 =>
     @gtk_widget_class_get_layout_manager_type(widget_class')
+*/
+/* 
+fun install_action(widget_class': NullablePointer[GtkWidgetClassT], action_name': Pointer[U8] tag, parameter_type': Pointer[U8] tag, activate': GtkWidgetActionActivateFunc): None =>
+    @gtk_widget_class_install_action(widget_class', action_name', parameter_type', activate')
 */
 /* 
 fun install_property_action(widget_class': NullablePointer[GtkWidgetClassT], action_name': Pointer[U8] tag, property_name': Pointer[U8] tag): None =>

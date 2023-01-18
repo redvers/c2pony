@@ -21,6 +21,10 @@ fun get_mode(selection': NullablePointer[GtkTreeSelectionT]): U32 =>
     @gtk_tree_selection_get_mode(selection')
 */
 /* 
+fun get_select_function(selection': NullablePointer[GtkTreeSelectionT]): GtkTreeSelectionFunc =>
+    @gtk_tree_selection_get_select_function(selection')
+*/
+/* 
 fun get_selected(selection': NullablePointer[GtkTreeSelectionT], model': Pointer[NullablePointer[GtkTreeModelT]], iter': NullablePointer[GtkTreeIterT]): I32 =>
     @gtk_tree_selection_get_selected(selection', model', iter')
 */
@@ -61,8 +65,16 @@ fun select_range(selection': NullablePointer[GtkTreeSelectionT], start_path': Nu
     @gtk_tree_selection_select_range(selection', start_path', end_path')
 */
 /* 
+fun selected_foreach(selection': NullablePointer[GtkTreeSelectionT], func': GtkTreeSelectionForeachFunc, data': Pointer[None] tag): None =>
+    @gtk_tree_selection_selected_foreach(selection', func', data')
+*/
+/* 
 fun set_mode(selection': NullablePointer[GtkTreeSelectionT], type': U32): None =>
     @gtk_tree_selection_set_mode(selection', type')
+*/
+/* 
+fun set_select_function(selection': NullablePointer[GtkTreeSelectionT], func': GtkTreeSelectionFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_tree_selection_set_select_function(selection', func', data', destroy')
 */
 /* 
 fun unselect_all(selection': NullablePointer[GtkTreeSelectionT]): None =>

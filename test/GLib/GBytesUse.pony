@@ -7,6 +7,7 @@ use "lib:glib-2.0"
 // use @g_bytes_new[NullablePointer[GBytesT]](data': Pointer[None] tag, size': U64)
 // use @g_bytes_new_static[NullablePointer[GBytesT]](data': Pointer[None] tag, size': U64)
 // use @g_bytes_new_take[NullablePointer[GBytesT]](data': Pointer[None] tag, size': U64)
+// use @g_bytes_new_with_free_func[NullablePointer[GBytesT]](data': Pointer[None] tag, size': U64, free_func': GDestroyNotify, user_data': Pointer[None] tag)
 
 // Methods
 // use @g_bytes_compare[I32](bytes1': Pointer[None] tag, bytes2': Pointer[None] tag)

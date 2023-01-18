@@ -89,6 +89,14 @@ fun focus(area': NullablePointer[GtkCellAreaT], direction': U32): I32 =>
     @gtk_cell_area_focus(area', direction')
 */
 /* 
+fun foreach(area': NullablePointer[GtkCellAreaT], callback': GtkCellCallback, callback_data': Pointer[None] tag): None =>
+    @gtk_cell_area_foreach(area', callback', callback_data')
+*/
+/* 
+fun foreach_alloc(area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': NullablePointer[GtkWidgetT], cell_area': NullablePointer[cairorectangleintT], background_area': NullablePointer[cairorectangleintT], callback': GtkCellAllocCallback, callback_data': Pointer[None] tag): None =>
+    @gtk_cell_area_foreach_alloc(area', context', widget', cell_area', background_area', callback', callback_data')
+*/
+/* 
 fun get_cell_allocation(area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': NullablePointer[GtkWidgetT], renderer': NullablePointer[GtkCellRendererT], cell_area': NullablePointer[cairorectangleintT], allocation': NullablePointer[cairorectangleintT]): None =>
     @gtk_cell_area_get_cell_allocation(area', context', widget', renderer', cell_area', allocation')
 */

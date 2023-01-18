@@ -20,6 +20,7 @@ use "lib:gio-2.0"
 // use @g_tls_connection_get_require_close_notify[I32](conn': NullablePointer[GTlsConnectionT])
 // use @g_tls_connection_get_use_system_certdb[I32](conn': NullablePointer[GTlsConnectionT])
 // use @g_tls_connection_handshake[I32](conn': NullablePointer[GTlsConnectionT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+// use @g_tls_connection_handshake_async[None](conn': NullablePointer[GTlsConnectionT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
 // use @g_tls_connection_handshake_finish[I32](conn': NullablePointer[GTlsConnectionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
 // use @g_tls_connection_set_advertised_protocols[None](conn': NullablePointer[GTlsConnectionT], protocols': Pointer[Pointer[U8]] tag)
 // use @g_tls_connection_set_certificate[None](conn': NullablePointer[GTlsConnectionT], certificate': NullablePointer[GTlsCertificateT])

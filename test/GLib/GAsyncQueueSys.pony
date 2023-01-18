@@ -7,6 +7,10 @@ primitive GAsyncQueueSys
 fun gnew(): NullablePointer[GAsyncQueueT] =>
     @g_async_queue_new()
 */
+/* 
+fun new_full(item_free_func': GDestroyNotify): NullablePointer[GAsyncQueueT] =>
+    @g_async_queue_new_full(item_free_func')
+*/
 
 // Constructors
 
@@ -44,6 +48,14 @@ fun push_front_unlocked(queue': NullablePointer[GAsyncQueueT], item': Pointer[No
     @g_async_queue_push_front_unlocked(queue', item')
 */
 /* 
+fun push_sorted(queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_async_queue_push_sorted(queue', data', func', user_data')
+*/
+/* 
+fun push_sorted_unlocked(queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_async_queue_push_sorted_unlocked(queue', data', func', user_data')
+*/
+/* 
 fun push_unlocked(queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag): None =>
     @g_async_queue_push_unlocked(queue', data')
 */
@@ -62,6 +74,14 @@ fun remove(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): I32
 /* 
 fun remove_unlocked(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): I32 =>
     @g_async_queue_remove_unlocked(queue', item')
+*/
+/* 
+fun sort(queue': NullablePointer[GAsyncQueueT], func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_async_queue_sort(queue', func', user_data')
+*/
+/* 
+fun sort_unlocked(queue': NullablePointer[GAsyncQueueT], func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_async_queue_sort_unlocked(queue', func', user_data')
 */
 /* 
 fun timed_pop(queue': NullablePointer[GAsyncQueueT], end_time': NullablePointer[GTimeValT]): Pointer[None] tag =>

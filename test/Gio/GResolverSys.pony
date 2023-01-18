@@ -26,12 +26,20 @@ fun lookup_by_address(resolver': NullablePointer[GResolverT], address': Nullable
     @g_resolver_lookup_by_address(resolver', address', cancellable', error')
 */
 /* 
+fun lookup_by_address_async(resolver': NullablePointer[GResolverT], address': NullablePointer[GInetAddressT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_resolver_lookup_by_address_async(resolver', address', cancellable', callback', user_data')
+*/
+/* 
 fun lookup_by_address_finish(resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
     @g_resolver_lookup_by_address_finish(resolver', result', error')
 */
 /* 
 fun lookup_by_name(resolver': NullablePointer[GResolverT], hostname': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
     @g_resolver_lookup_by_name(resolver', hostname', cancellable', error')
+*/
+/* 
+fun lookup_by_name_async(resolver': NullablePointer[GResolverT], hostname': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_resolver_lookup_by_name_async(resolver', hostname', cancellable', callback', user_data')
 */
 /* 
 fun lookup_by_name_finish(resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
@@ -42,6 +50,10 @@ fun lookup_by_name_with_flags(resolver': NullablePointer[GResolverT], hostname':
     @g_resolver_lookup_by_name_with_flags(resolver', hostname', flags', cancellable', error')
 */
 /* 
+fun lookup_by_name_with_flags_async(resolver': NullablePointer[GResolverT], hostname': Pointer[U8] tag, flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_resolver_lookup_by_name_with_flags_async(resolver', hostname', flags', cancellable', callback', user_data')
+*/
+/* 
 fun lookup_by_name_with_flags_finish(resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
     @g_resolver_lookup_by_name_with_flags_finish(resolver', result', error')
 */
@@ -50,12 +62,20 @@ fun lookup_records(resolver': NullablePointer[GResolverT], rrname': Pointer[U8] 
     @g_resolver_lookup_records(resolver', rrname', record_type', cancellable', error')
 */
 /* 
+fun lookup_records_async(resolver': NullablePointer[GResolverT], rrname': Pointer[U8] tag, record_type': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_resolver_lookup_records_async(resolver', rrname', record_type', cancellable', callback', user_data')
+*/
+/* 
 fun lookup_records_finish(resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
     @g_resolver_lookup_records_finish(resolver', result', error')
 */
 /* 
 fun lookup_service(resolver': NullablePointer[GResolverT], service': Pointer[U8] tag, protocol': Pointer[U8] tag, domain': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
     @g_resolver_lookup_service(resolver', service', protocol', domain', cancellable', error')
+*/
+/* 
+fun lookup_service_async(resolver': NullablePointer[GResolverT], service': Pointer[U8] tag, protocol': Pointer[U8] tag, domain': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_resolver_lookup_service_async(resolver', service', protocol', domain', cancellable', callback', user_data')
 */
 /* 
 fun lookup_service_finish(resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>

@@ -33,6 +33,10 @@ fun backward_cursor_positions(iter': NullablePointer[GtkTextIterT], count': I32)
     @gtk_text_iter_backward_cursor_positions(iter', count')
 */
 /* 
+fun backward_find_char(iter': NullablePointer[GtkTextIterT], pred': GtkTextCharPredicate, user_data': Pointer[None] tag, limit': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_backward_find_char(iter', pred', user_data', limit')
+*/
+/* 
 fun backward_line(iter': NullablePointer[GtkTextIterT]): I32 =>
     @gtk_text_iter_backward_line(iter')
 */
@@ -139,6 +143,10 @@ fun forward_cursor_position(iter': NullablePointer[GtkTextIterT]): I32 =>
 /* 
 fun forward_cursor_positions(iter': NullablePointer[GtkTextIterT], count': I32): I32 =>
     @gtk_text_iter_forward_cursor_positions(iter', count')
+*/
+/* 
+fun forward_find_char(iter': NullablePointer[GtkTextIterT], pred': GtkTextCharPredicate, user_data': Pointer[None] tag, limit': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_forward_find_char(iter', pred', user_data', limit')
 */
 /* 
 fun forward_line(iter': NullablePointer[GtkTextIterT]): I32 =>

@@ -32,3 +32,7 @@ fun set_content_height(self': NullablePointer[GtkDrawingAreaT], height': I32): N
 fun set_content_width(self': NullablePointer[GtkDrawingAreaT], width': I32): None =>
     @gtk_drawing_area_set_content_width(self', width')
 */
+/* 
+fun set_draw_func(self': NullablePointer[GtkDrawingAreaT], draw_func': GtkDrawingAreaDrawFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_drawing_area_set_draw_func(self', draw_func', user_data', destroy')
+*/

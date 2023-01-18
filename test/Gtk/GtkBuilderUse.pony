@@ -11,7 +11,7 @@ use "lib:gtk-4"
 // Constructors
 // use @gtk_builder_new[NullablePointer[GtkBuilderT]]()
 // use @gtk_builder_new_from_file[NullablePointer[GtkBuilderT]](filename': Pointer[U8] tag)
-// use @gtk_builder_new_from_resource[NullablePointer[GtkBuilderT]](resource_path': Pointer[U8] tag)
+use @gtk_builder_new_from_resource[NullablePointer[GtkBuilderT]](resource_path': Pointer[U8] tag)
 // use @gtk_builder_new_from_string[NullablePointer[GtkBuilderT]](string': Pointer[U8] tag, length': I64)
 
 // Methods
@@ -25,7 +25,7 @@ use "lib:gtk-4"
 // use @gtk_builder_expose_object[None](builder': NullablePointer[GtkBuilderT], name': Pointer[U8] tag, object': NullablePointer[GObjectT])
 // use @gtk_builder_extend_with_template[I32](builder': NullablePointer[GtkBuilderT], object': NullablePointer[GObjectT], template_type': U64, buffer': Pointer[U8] tag, length': I64, error': Pointer[NullablePointer[GErrorT]])
 // use @gtk_builder_get_current_object[NullablePointer[GObjectT]](builder': NullablePointer[GtkBuilderT])
-// use @gtk_builder_get_object[NullablePointer[GObjectT]](builder': NullablePointer[GtkBuilderT], name': Pointer[U8] tag)
+use @gtk_builder_get_object[NullablePointer[GObjectT]](builder': NullablePointer[GtkBuilderT], name': Pointer[U8] tag)
 // use @gtk_builder_get_objects[NullablePointer[GSListT]](builder': NullablePointer[GtkBuilderT])
 // use @gtk_builder_get_scope[NullablePointer[GtkBuilderScopeT]](builder': NullablePointer[GtkBuilderT])
 // use @gtk_builder_get_translation_domain[Pointer[U8] tag](builder': NullablePointer[GtkBuilderT])

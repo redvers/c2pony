@@ -52,6 +52,14 @@ fun sized_new(reserved_size': U32): NullablePointer[GByteArrayT] =>
     @g_byte_array_sized_new(reserved_size')
 */
 /* 
+fun sort(array': NullablePointer[GByteArrayT], compare_func': GCompareFunc): None =>
+    @g_byte_array_sort(array', compare_func')
+*/
+/* 
+fun sort_with_data(array': NullablePointer[GByteArrayT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_byte_array_sort_with_data(array', compare_func', user_data')
+*/
+/* 
 fun steal(array': NullablePointer[GByteArrayT], len': Pointer[U64] tag): Pointer[U8] tag =>
     @g_byte_array_steal(array', len')
 */

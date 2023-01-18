@@ -5,6 +5,10 @@ use "lib:gobject-2.0"
 primitive GValueSys
 // Static Functions
 /* 
+fun register_transform_func(src_type': U64, dest_type': U64, transform_func': GValueTransform): None =>
+    @g_value_register_transform_func(src_type', dest_type', transform_func')
+*/
+/* 
 fun type_compatible(src_type': U64, dest_type': U64): I32 =>
     @g_value_type_compatible(src_type', dest_type')
 */

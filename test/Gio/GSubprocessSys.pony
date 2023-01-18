@@ -22,12 +22,20 @@ fun communicate(subprocess': NullablePointer[GSubprocessT], stdin_buf': Nullable
     @g_subprocess_communicate(subprocess', stdin_buf', cancellable', stdout_buf', stderr_buf', error')
 */
 /* 
+fun communicate_async(subprocess': NullablePointer[GSubprocessT], stdin_buf': NullablePointer[GBytesT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_subprocess_communicate_async(subprocess', stdin_buf', cancellable', callback', user_data')
+*/
+/* 
 fun communicate_finish(subprocess': NullablePointer[GSubprocessT], result': NullablePointer[GAsyncResultT], stdout_buf': Pointer[NullablePointer[GBytesT]], stderr_buf': Pointer[NullablePointer[GBytesT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_subprocess_communicate_finish(subprocess', result', stdout_buf', stderr_buf', error')
 */
 /* 
 fun communicate_utf8(subprocess': NullablePointer[GSubprocessT], stdin_buf': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_subprocess_communicate_utf8(subprocess', stdin_buf', cancellable', stdout_buf', stderr_buf', error')
+*/
+/* 
+fun communicate_utf8_async(subprocess': NullablePointer[GSubprocessT], stdin_buf': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_subprocess_communicate_utf8_async(subprocess', stdin_buf', cancellable', callback', user_data')
 */
 /* 
 fun communicate_utf8_finish(subprocess': NullablePointer[GSubprocessT], result': NullablePointer[GAsyncResultT], stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
@@ -86,8 +94,16 @@ fun wait(subprocess': NullablePointer[GSubprocessT], cancellable': NullablePoint
     @g_subprocess_wait(subprocess', cancellable', error')
 */
 /* 
+fun wait_async(subprocess': NullablePointer[GSubprocessT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_subprocess_wait_async(subprocess', cancellable', callback', user_data')
+*/
+/* 
 fun wait_check(subprocess': NullablePointer[GSubprocessT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_subprocess_wait_check(subprocess', cancellable', error')
+*/
+/* 
+fun wait_check_async(subprocess': NullablePointer[GSubprocessT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_subprocess_wait_check_async(subprocess', cancellable', callback', user_data')
 */
 /* 
 fun wait_check_finish(subprocess': NullablePointer[GSubprocessT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>

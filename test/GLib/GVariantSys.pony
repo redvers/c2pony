@@ -70,6 +70,10 @@ fun new_from_bytes(type': NullablePointer[GVariantTypeT], bytes': NullablePointe
     @g_variant_new_from_bytes(type', bytes', trusted')
 */
 /* 
+fun new_from_data(type': NullablePointer[GVariantTypeT], data': Pointer[None] tag, size': U64, trusted': I32, notify': GDestroyNotify, user_data': Pointer[None] tag): NullablePointer[GVariantT] =>
+    @g_variant_new_from_data(type', data', size', trusted', notify', user_data')
+*/
+/* 
 fun new_handle(value': I32): NullablePointer[GVariantT] =>
     @g_variant_new_handle(value')
 */

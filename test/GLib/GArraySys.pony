@@ -8,6 +8,10 @@ fun append_vals(array': NullablePointer[GArrayT], data': Pointer[None] tag, len'
     @g_array_append_vals(array', data', len')
 */
 /* 
+fun binary_search(array': NullablePointer[GArrayT], target': Pointer[None] tag, compare_func': GCompareFunc, out_match_index': Pointer[U32] tag): I32 =>
+    @g_array_binary_search(array', target', compare_func', out_match_index')
+*/
+/* 
 fun copy(array': NullablePointer[GArrayT]): NullablePointer[GArrayT] =>
     @g_array_copy(array')
 */
@@ -48,12 +52,24 @@ fun remove_range(array': NullablePointer[GArrayT], index_': U32, length': U32): 
     @g_array_remove_range(array', index_', length')
 */
 /* 
+fun set_clear_func(array': NullablePointer[GArrayT], clear_func': GDestroyNotify): None =>
+    @g_array_set_clear_func(array', clear_func')
+*/
+/* 
 fun set_size(array': NullablePointer[GArrayT], length': U32): NullablePointer[GArrayT] =>
     @g_array_set_size(array', length')
 */
 /* 
 fun sized_new(zero_terminated': I32, clear_': I32, element_size': U32, reserved_size': U32): NullablePointer[GArrayT] =>
     @g_array_sized_new(zero_terminated', clear_', element_size', reserved_size')
+*/
+/* 
+fun sort(array': NullablePointer[GArrayT], compare_func': GCompareFunc): None =>
+    @g_array_sort(array', compare_func')
+*/
+/* 
+fun sort_with_data(array': NullablePointer[GArrayT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_array_sort_with_data(array', compare_func', user_data')
 */
 /* 
 fun steal(array': NullablePointer[GArrayT], len': Pointer[U64] tag): Pointer[None] tag =>

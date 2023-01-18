@@ -30,6 +30,8 @@ use "lib:gtk-4"
 // use @gtk_cell_area_create_context[NullablePointer[GtkCellAreaContextT]](area': NullablePointer[GtkCellAreaT])
 // use @gtk_cell_area_event[I32](area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': NullablePointer[GtkWidgetT], event': NullablePointer[GdkEventT], cell_area': NullablePointer[cairorectangleintT], flags': U32)
 // use @gtk_cell_area_focus[I32](area': NullablePointer[GtkCellAreaT], direction': U32)
+// use @gtk_cell_area_foreach[None](area': NullablePointer[GtkCellAreaT], callback': GtkCellCallback, callback_data': Pointer[None] tag)
+// use @gtk_cell_area_foreach_alloc[None](area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': NullablePointer[GtkWidgetT], cell_area': NullablePointer[cairorectangleintT], background_area': NullablePointer[cairorectangleintT], callback': GtkCellAllocCallback, callback_data': Pointer[None] tag)
 // use @gtk_cell_area_get_cell_allocation[None](area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': NullablePointer[GtkWidgetT], renderer': NullablePointer[GtkCellRendererT], cell_area': NullablePointer[cairorectangleintT], allocation': NullablePointer[cairorectangleintT])
 // use @gtk_cell_area_get_cell_at_position[NullablePointer[GtkCellRendererT]](area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': NullablePointer[GtkWidgetT], cell_area': NullablePointer[cairorectangleintT], x': I32, y': I32, alloc_area': NullablePointer[cairorectangleintT])
 // use @gtk_cell_area_get_current_path_string[Pointer[U8] tag](area': NullablePointer[GtkCellAreaT])

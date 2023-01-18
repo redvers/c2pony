@@ -81,6 +81,10 @@ fun set_inline_selection(completion': NullablePointer[GtkEntryCompletionT], inli
     @gtk_entry_completion_set_inline_selection(completion', inline_selection')
 */
 /* 
+fun set_match_func(completion': NullablePointer[GtkEntryCompletionT], func': GtkEntryCompletionMatchFunc, func_data': Pointer[None] tag, func_notify': GDestroyNotify): None =>
+    @gtk_entry_completion_set_match_func(completion', func', func_data', func_notify')
+*/
+/* 
 fun set_minimum_key_length(completion': NullablePointer[GtkEntryCompletionT], length': I32): None =>
     @gtk_entry_completion_set_minimum_key_length(completion', length')
 */

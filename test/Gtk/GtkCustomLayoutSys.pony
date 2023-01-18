@@ -10,5 +10,9 @@ primitive GtkCustomLayoutSys
 // Static Functions
 
 // Constructors
+/* 
+fun gnew(request_mode': GtkCustomRequestModeFunc, measure': GtkCustomMeasureFunc, allocate': GtkCustomAllocateFunc): NullablePointer[GtkLayoutManagerT] =>
+    @gtk_custom_layout_new(request_mode', measure', allocate')
+*/
 
 // Methods

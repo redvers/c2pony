@@ -21,6 +21,14 @@ fun yield(): None =>
 */
 
 // Constructors
+/* 
+fun gnew(name': Pointer[U8] tag, func': GThreadFunc, data': Pointer[None] tag): NullablePointer[GThreadT] =>
+    @g_thread_new(name', func', data')
+*/
+/* 
+fun try_new(name': Pointer[U8] tag, func': GThreadFunc, data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GThreadT] =>
+    @g_thread_try_new(name', func', data', error')
+*/
 
 // Methods
 /* 

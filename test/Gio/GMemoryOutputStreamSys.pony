@@ -8,6 +8,10 @@ primitive GMemoryOutputStreamSys
 
 // Constructors
 /* 
+fun gnew(data': Pointer[None] tag, size': U64, realloc_function': GReallocFunc, destroy_function': GDestroyNotify): NullablePointer[GOutputStreamT] =>
+    @g_memory_output_stream_new(data', size', realloc_function', destroy_function')
+*/
+/* 
 fun new_resizable(): NullablePointer[GOutputStreamT] =>
     @g_memory_output_stream_new_resizable()
 */

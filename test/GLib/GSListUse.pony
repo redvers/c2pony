@@ -6,13 +6,19 @@ use "lib:glib-2.0"
 // use @g_slist_append[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag)
 // use @g_slist_concat[NullablePointer[GSListT]](list1': NullablePointer[GSListT], list2': NullablePointer[GSListT])
 // use @g_slist_copy[NullablePointer[GSListT]](list': NullablePointer[GSListT])
+// use @g_slist_copy_deep[NullablePointer[GSListT]](list': NullablePointer[GSListT], func': GCopyFunc, user_data': Pointer[None] tag)
 // use @g_slist_delete_link[NullablePointer[GSListT]](list': NullablePointer[GSListT], link_': NullablePointer[GSListT])
 // use @g_slist_find[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag)
+// use @g_slist_find_custom[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag, func': GCompareFunc)
+// use @g_slist_foreach[None](list': NullablePointer[GSListT], func': GFunc, user_data': Pointer[None] tag)
 // use @g_slist_free[None](list': NullablePointer[GSListT])
 // use @g_slist_free_1[None](list': NullablePointer[GSListT])
+// use @g_slist_free_full[None](list': NullablePointer[GSListT], free_func': GDestroyNotify)
 // use @g_slist_index[I32](list': NullablePointer[GSListT], data': Pointer[None] tag)
 // use @g_slist_insert[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag, position': I32)
 // use @g_slist_insert_before[NullablePointer[GSListT]](slist': NullablePointer[GSListT], sibling': NullablePointer[GSListT], data': Pointer[None] tag)
+// use @g_slist_insert_sorted[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag, func': GCompareFunc)
+// use @g_slist_insert_sorted_with_data[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag)
 // use @g_slist_last[NullablePointer[GSListT]](list': NullablePointer[GSListT])
 // use @g_slist_length[U32](list': NullablePointer[GSListT])
 // use @g_slist_nth[NullablePointer[GSListT]](list': NullablePointer[GSListT], n': U32)
@@ -23,6 +29,8 @@ use "lib:glib-2.0"
 // use @g_slist_remove_all[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag)
 // use @g_slist_remove_link[NullablePointer[GSListT]](list': NullablePointer[GSListT], link_': NullablePointer[GSListT])
 // use @g_slist_reverse[NullablePointer[GSListT]](list': NullablePointer[GSListT])
+// use @g_slist_sort[NullablePointer[GSListT]](list': NullablePointer[GSListT], compare_func': GCompareFunc)
+// use @g_slist_sort_with_data[NullablePointer[GSListT]](list': NullablePointer[GSListT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag)
 
 // Constructors
 

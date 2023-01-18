@@ -92,6 +92,10 @@ fun replace(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_l
     @g_regex_replace(regex', string', string_len', start_position', replacement', match_options', error')
 */
 /* 
+fun replace_eval(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, eval': GRegexEvalCallback, user_data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
+    @g_regex_replace_eval(regex', string', string_len', start_position', match_options', eval', user_data', error')
+*/
+/* 
 fun replace_literal(regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, replacement': Pointer[U8] tag, match_options': U32, error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
     @g_regex_replace_literal(regex', string', string_len', start_position', replacement', match_options', error')
 */

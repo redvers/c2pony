@@ -61,6 +61,10 @@ fun set_draw_value(scale': NullablePointer[GtkScaleT], draw_value': I32): None =
     @gtk_scale_set_draw_value(scale', draw_value')
 */
 /* 
+fun set_format_value_func(scale': NullablePointer[GtkScaleT], func': GtkScaleFormatValueFunc, user_data': Pointer[None] tag, destroy_notify': GDestroyNotify): None =>
+    @gtk_scale_set_format_value_func(scale', func', user_data', destroy_notify')
+*/
+/* 
 fun set_has_origin(scale': NullablePointer[GtkScaleT], has_origin': I32): None =>
     @gtk_scale_set_has_origin(scale', has_origin')
 */

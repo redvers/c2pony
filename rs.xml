@@ -8,7 +8,7 @@ use "lib:glib-2.0"
       <renderfunction name="g_access" ponyname="access" render="0" deprecated=""/>
       <renderfunction name="g_ascii_digit_value"
                       ponyname="ascii_digit_value"
-                      render="1"
+                      render="0"
                       deprecated=""/>
       <renderfunction name="g_ascii_dtostr"
                       ponyname="ascii_dtostr"
@@ -1815,7 +1815,7 @@ use "lib:glib-2.0"
                       ponyname="warn_message"
                       render="0"
                       deprecated=""/>
-      <renderstruct name="GArray" render="1">
+      <renderstruct name="GArray" render="0">
          <renderfunction name="g_array_append_vals"
                          ponyname="append_vals"
                          render="0"
@@ -5784,6 +5784,53 @@ use "lib:glib-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
+      <rendercallback name="GChildWatchFunc" render="0"/>
+      <rendercallback name="GClearHandleFunc" render="0"/>
+      <rendercallback name="GCompareDataFunc" render="0"/>
+      <rendercallback name="GCompareFunc" render="0"/>
+      <rendercallback name="GCopyFunc" render="0"/>
+      <rendercallback name="GDataForeachFunc" render="0"/>
+      <rendercallback name="GDestroyNotify" render="0"/>
+      <rendercallback name="GDuplicateFunc" render="0"/>
+      <rendercallback name="GEqualFunc" render="0"/>
+      <rendercallback name="GFreeFunc" render="0"/>
+      <rendercallback name="GFunc" render="0"/>
+      <rendercallback name="GHFunc" render="0"/>
+      <rendercallback name="GHRFunc" render="0"/>
+      <rendercallback name="GHashFunc" render="0"/>
+      <rendercallback name="GHookCheckFunc" render="0"/>
+      <rendercallback name="GHookCheckMarshaller" render="0"/>
+      <rendercallback name="GHookCompareFunc" render="0"/>
+      <rendercallback name="GHookFinalizeFunc" render="0"/>
+      <rendercallback name="GHookFindFunc" render="0"/>
+      <rendercallback name="GHookFunc" render="0"/>
+      <rendercallback name="GHookMarshaller" render="0"/>
+      <rendercallback name="GIOFunc" render="0"/>
+      <rendercallback name="GLogFunc" render="0"/>
+      <rendercallback name="GLogWriterFunc" render="0"/>
+      <rendercallback name="GNodeForeachFunc" render="0"/>
+      <rendercallback name="GNodeTraverseFunc" render="0"/>
+      <rendercallback name="GOptionArgFunc" render="0"/>
+      <rendercallback name="GOptionErrorFunc" render="0"/>
+      <rendercallback name="GOptionParseFunc" render="0"/>
+      <rendercallback name="GPollFunc" render="0"/>
+      <rendercallback name="GPrintFunc" render="0"/>
+      <rendercallback name="GRegexEvalCallback" render="0"/>
+      <rendercallback name="GScannerMsgFunc" render="0"/>
+      <rendercallback name="GSequenceIterCompareFunc" render="0"/>
+      <rendercallback name="GSourceDisposeFunc" render="0"/>
+      <rendercallback name="GSourceDummyMarshal" render="0"/>
+      <rendercallback name="GSourceFunc" render="0"/>
+      <rendercallback name="GSpawnChildSetupFunc" render="0"/>
+      <rendercallback name="GTestDataFunc" render="0"/>
+      <rendercallback name="GTestFixtureFunc" render="0"/>
+      <rendercallback name="GTestFunc" render="0"/>
+      <rendercallback name="GTestLogFatalFunc" render="0"/>
+      <rendercallback name="GThreadFunc" render="0"/>
+      <rendercallback name="GTranslateFunc" render="0"/>
+      <rendercallback name="GTraverseFunc" render="0"/>
+      <rendercallback name="GUnixFDSourceFunc" render="0"/>
+      <rendercallback name="GVoidFunc" render="0"/>
    </ns>
    <ns namespace="Gio">
 <ponydep>
@@ -12817,7 +12864,7 @@ use "lib:gio-2.0"
                        ponyname="copy_finish"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_file_create" ponyname="gnew" render="0" deprecated=""/>
+         <rendermethod name="g_file_create" ponyname="create" render="0" deprecated=""/>
          <rendermethod name="g_file_create_async"
                        ponyname="create_async"
                        render="0"
@@ -13793,6 +13840,37 @@ use "lib:gio-2.0"
                        render="0"
                        deprecated=""/>
       </renderinterface>
+      <rendercallback name="GAsyncReadyCallback" render="0"/>
+      <rendercallback name="GBusAcquiredCallback" render="0"/>
+      <rendercallback name="GBusNameAcquiredCallback" render="0"/>
+      <rendercallback name="GBusNameAppearedCallback" render="0"/>
+      <rendercallback name="GBusNameLostCallback" render="0"/>
+      <rendercallback name="GBusNameVanishedCallback" render="0"/>
+      <rendercallback name="GCancellableSourceFunc" render="0"/>
+      <rendercallback name="GDBusInterfaceGetPropertyFunc" render="0"/>
+      <rendercallback name="GDBusInterfaceMethodCallFunc" render="0"/>
+      <rendercallback name="GDBusInterfaceSetPropertyFunc" render="0"/>
+      <rendercallback name="GDBusMessageFilterFunction" render="0"/>
+      <rendercallback name="GDBusProxyTypeFunc" render="0"/>
+      <rendercallback name="GDBusSignalCallback" render="0"/>
+      <rendercallback name="GDBusSubtreeDispatchFunc" render="0"/>
+      <rendercallback name="GDBusSubtreeEnumerateFunc" render="0"/>
+      <rendercallback name="GDBusSubtreeIntrospectFunc" render="0"/>
+      <rendercallback name="GDatagramBasedSourceFunc" render="0"/>
+      <rendercallback name="GDesktopAppLaunchCallback" render="0"/>
+      <rendercallback name="GFileMeasureProgressCallback" render="0"/>
+      <rendercallback name="GFileProgressCallback" render="0"/>
+      <rendercallback name="GFileReadMoreCallback" render="0"/>
+      <rendercallback name="GIOSchedulerJobFunc" render="0"/>
+      <rendercallback name="GPollableSourceFunc" render="0"/>
+      <rendercallback name="GReallocFunc" render="0"/>
+      <rendercallback name="GSettingsBindGetMapping" render="0"/>
+      <rendercallback name="GSettingsBindSetMapping" render="0"/>
+      <rendercallback name="GSettingsGetMapping" render="0"/>
+      <rendercallback name="GSimpleAsyncThreadFunc" render="0"/>
+      <rendercallback name="GSocketSourceFunc" render="0"/>
+      <rendercallback name="GTaskThreadFunc" render="0"/>
+      <rendercallback name="GVfsFileLookupFunc" render="0"/>
    </ns>
    <ns namespace="GModule">
       <renderstruct name="GModule" render="0">
@@ -13825,6 +13903,8 @@ use "lib:gio-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
+      <rendercallback name="GModuleCheckInit" render="0"/>
+      <rendercallback name="GModuleUnload" render="0"/>
    </ns>
    <ns namespace="GObject">
 <ponydep>
@@ -14588,7 +14668,7 @@ use "lib:gobject-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GClosure" render="0">
+      <renderstruct name="GClosure" render="1">
          <renderconstructor name="g_closure_new_object"
                             ponyname="new_object"
                             render="0"
@@ -15574,6 +15654,34 @@ use "lib:gobject-2.0"
                        deprecated=""/>
          <rendermethod name="g_type_plugin_use" ponyname="use" render="0" deprecated=""/>
       </renderinterface>
+      <rendercallback name="GBaseFinalizeFunc" render="0"/>
+      <rendercallback name="GBaseInitFunc" render="0"/>
+      <rendercallback name="GBindingTransformFunc" render="0"/>
+      <rendercallback name="GBoxedCopyFunc" render="0"/>
+      <rendercallback name="GBoxedFreeFunc" render="0"/>
+      <rendercallback name="GCallback" render="1"/>
+      <rendercallback name="GClassFinalizeFunc" render="0"/>
+      <rendercallback name="GClassInitFunc" render="0"/>
+      <rendercallback name="GClosureMarshal" render="0"/>
+      <rendercallback name="GClosureNotify" render="1"/>
+      <rendercallback name="GInstanceInitFunc" render="0"/>
+      <rendercallback name="GInterfaceFinalizeFunc" render="0"/>
+      <rendercallback name="GInterfaceInitFunc" render="0"/>
+      <rendercallback name="GObjectFinalizeFunc" render="0"/>
+      <rendercallback name="GObjectGetPropertyFunc" render="0"/>
+      <rendercallback name="GObjectSetPropertyFunc" render="0"/>
+      <rendercallback name="GSignalAccumulator" render="0"/>
+      <rendercallback name="GSignalEmissionHook" render="0"/>
+      <rendercallback name="GToggleNotify" render="0"/>
+      <rendercallback name="GTypeClassCacheFunc" render="0"/>
+      <rendercallback name="GTypeInterfaceCheckFunc" render="0"/>
+      <rendercallback name="GTypePluginCompleteInterfaceInfo" render="0"/>
+      <rendercallback name="GTypePluginCompleteTypeInfo" render="0"/>
+      <rendercallback name="GTypePluginUnuse" render="0"/>
+      <rendercallback name="GTypePluginUse" render="0"/>
+      <rendercallback name="GVaClosureMarshal" render="0"/>
+      <rendercallback name="GValueTransform" render="0"/>
+      <rendercallback name="GWeakNotify" render="0"/>
    </ns>
    <ns namespace="cairo">
       <renderfunction name="cairo_image_surface_create"
@@ -17610,6 +17718,8 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
       </renderinterface>
+      <rendercallback name="GdkContentDeserializeFunc" render="0"/>
+      <rendercallback name="GdkContentSerializeFunc" render="0"/>
    </ns>
    <ns namespace="GdkPixbuf">
       <renderstruct name="GdkPixbufAnimationClass" render="0"/>
@@ -18082,6 +18192,22 @@ use "lib:gobject-2.0"
                    abstract=""
                    final=""
                    fundamental=""/>
+      <rendercallback name="GdkPixbufDestroyNotify" render="0"/>
+      <rendercallback name="GdkPixbufModuleBeginLoadFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleFillInfoFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleFillVtableFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleIncrementLoadFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleLoadAnimationFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleLoadFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleLoadXpmDataFunc" render="0"/>
+      <rendercallback name="GdkPixbufModulePreparedFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleSaveCallbackFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleSaveFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleSaveOptionSupportedFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleSizeFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleStopLoadFunc" render="0"/>
+      <rendercallback name="GdkPixbufModuleUpdatedFunc" render="0"/>
+      <rendercallback name="GdkPixbufSaveFunc" render="0"/>
    </ns>
    <ns namespace="Graphene">
       <renderstruct name="graphene_box_t" render="0">
@@ -20593,6 +20719,7 @@ use "lib:gobject-2.0"
                        render="0"
                        deprecated=""/>
       </renderclass>
+      <rendercallback name="GskParseErrorFunc" render="0"/>
    </ns>
    <ns namespace="Gtk">
 <ponydep>
@@ -22100,7 +22227,7 @@ use "lib:gtk-4"
                    final=""
                    fundamental="">
          <renderconstructor name="gtk_at_context_create"
-                            ponyname="gnew"
+                            ponyname="create"
                             render="0"
                             deprecated=""/>
          <rendermethod name="gtk_at_context_get_accessible"
@@ -22962,7 +23089,7 @@ use "lib:gtk-4"
                        deprecated=""/>
       </renderclass>
       <renderclass name="GtkBuilder"
-                   render="0"
+                   render="1"
                    parent="GObject.Object"
                    abstract=""
                    final=""
@@ -22974,7 +23101,7 @@ use "lib:gtk-4"
                             deprecated=""/>
          <renderconstructor name="gtk_builder_new_from_resource"
                             ponyname="new_from_resource"
-                            render="0"
+                            render="1"
                             deprecated=""/>
          <renderconstructor name="gtk_builder_new_from_string"
                             ponyname="new_from_string"
@@ -23022,7 +23149,7 @@ use "lib:gtk-4"
                        deprecated=""/>
          <rendermethod name="gtk_builder_get_object"
                        ponyname="get_object"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="gtk_builder_get_objects"
                        ponyname="get_objects"
@@ -35939,6 +36066,52 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
       </renderinterface>
+      <rendercallback name="GtkAssistantPageFunc" render="0"/>
+      <rendercallback name="GtkCellAllocCallback" render="0"/>
+      <rendercallback name="GtkCellCallback" render="0"/>
+      <rendercallback name="GtkCellLayoutDataFunc" render="0"/>
+      <rendercallback name="GtkCustomAllocateFunc" render="0"/>
+      <rendercallback name="GtkCustomFilterFunc" render="0"/>
+      <rendercallback name="GtkCustomMeasureFunc" render="0"/>
+      <rendercallback name="GtkCustomRequestModeFunc" render="0"/>
+      <rendercallback name="GtkDrawingAreaDrawFunc" render="0"/>
+      <rendercallback name="GtkEntryCompletionMatchFunc" render="0"/>
+      <rendercallback name="GtkExpressionNotify" render="0"/>
+      <rendercallback name="GtkFlowBoxCreateWidgetFunc" render="0"/>
+      <rendercallback name="GtkFlowBoxFilterFunc" render="0"/>
+      <rendercallback name="GtkFlowBoxForeachFunc" render="0"/>
+      <rendercallback name="GtkFlowBoxSortFunc" render="0"/>
+      <rendercallback name="GtkFontFilterFunc" render="0"/>
+      <rendercallback name="GtkIconViewForeachFunc" render="0"/>
+      <rendercallback name="GtkListBoxCreateWidgetFunc" render="0"/>
+      <rendercallback name="GtkListBoxFilterFunc" render="0"/>
+      <rendercallback name="GtkListBoxForeachFunc" render="0"/>
+      <rendercallback name="GtkListBoxSortFunc" render="0"/>
+      <rendercallback name="GtkListBoxUpdateHeaderFunc" render="0"/>
+      <rendercallback name="GtkMapListModelMapFunc" render="0"/>
+      <rendercallback name="GtkMenuButtonCreatePopupFunc" render="0"/>
+      <rendercallback name="GtkPageSetupDoneFunc" render="0"/>
+      <rendercallback name="GtkPrintJobCompleteFunc" render="0"/>
+      <rendercallback name="GtkPrintSettingsFunc" render="0"/>
+      <rendercallback name="GtkPrinterFunc" render="0"/>
+      <rendercallback name="GtkScaleFormatValueFunc" render="0"/>
+      <rendercallback name="GtkShortcutFunc" render="0"/>
+      <rendercallback name="GtkTextCharPredicate" render="0"/>
+      <rendercallback name="GtkTextTagTableForeach" render="0"/>
+      <rendercallback name="GtkTickCallback" render="0"/>
+      <rendercallback name="GtkTreeCellDataFunc" render="0"/>
+      <rendercallback name="GtkTreeIterCompareFunc" render="0"/>
+      <rendercallback name="GtkTreeListModelCreateModelFunc" render="0"/>
+      <rendercallback name="GtkTreeModelFilterModifyFunc" render="0"/>
+      <rendercallback name="GtkTreeModelFilterVisibleFunc" render="0"/>
+      <rendercallback name="GtkTreeModelForeachFunc" render="0"/>
+      <rendercallback name="GtkTreeSelectionForeachFunc" render="0"/>
+      <rendercallback name="GtkTreeSelectionFunc" render="0"/>
+      <rendercallback name="GtkTreeViewColumnDropFunc" render="0"/>
+      <rendercallback name="GtkTreeViewMappingFunc" render="0"/>
+      <rendercallback name="GtkTreeViewRowSeparatorFunc" render="0"/>
+      <rendercallback name="GtkTreeViewSearchEqualFunc" render="0"/>
+      <rendercallback name="GtkWidgetActionActivateFunc" render="0"/>
    </ns>
    <ns namespace="HarfBuzz">
       <renderfunction name="hb_aat_layout_feature_type_get_name_id"
@@ -37505,6 +37678,30 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
       </renderstruct>
+      <rendercallback name="hb_buffer_message_func_t" render="0"/>
+      <rendercallback name="hb_destroy_func_t" render="0"/>
+      <rendercallback name="hb_font_get_font_extents_func_t" render="0"/>
+      <rendercallback name="hb_font_get_glyph_advance_func_t" render="0"/>
+      <rendercallback name="hb_font_get_glyph_advances_func_t" render="0"/>
+      <rendercallback name="hb_font_get_glyph_contour_point_func_t" render="0"/>
+      <rendercallback name="hb_font_get_glyph_extents_func_t" render="0"/>
+      <rendercallback name="hb_font_get_glyph_from_name_func_t" render="0"/>
+      <rendercallback name="hb_font_get_glyph_func_t" render="0"/>
+      <rendercallback name="hb_font_get_glyph_kerning_func_t" render="0"/>
+      <rendercallback name="hb_font_get_glyph_name_func_t" render="0"/>
+      <rendercallback name="hb_font_get_glyph_origin_func_t" render="0"/>
+      <rendercallback name="hb_font_get_nominal_glyph_func_t" render="0"/>
+      <rendercallback name="hb_font_get_nominal_glyphs_func_t" render="0"/>
+      <rendercallback name="hb_font_get_variation_glyph_func_t" render="0"/>
+      <rendercallback name="hb_reference_table_func_t" render="0"/>
+      <rendercallback name="hb_unicode_combining_class_func_t" render="0"/>
+      <rendercallback name="hb_unicode_compose_func_t" render="0"/>
+      <rendercallback name="hb_unicode_decompose_compatibility_func_t" render="0"/>
+      <rendercallback name="hb_unicode_decompose_func_t" render="0"/>
+      <rendercallback name="hb_unicode_eastasian_width_func_t" render="0"/>
+      <rendercallback name="hb_unicode_general_category_func_t" render="0"/>
+      <rendercallback name="hb_unicode_mirroring_func_t" render="0"/>
+      <rendercallback name="hb_unicode_script_func_t" render="0"/>
    </ns>
    <ns namespace="Pango">
       <renderfunction name="pango_attr_allow_breaks_new"
@@ -39287,6 +39484,9 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
       </renderclass>
+      <rendercallback name="PangoAttrDataCopyFunc" render="0"/>
+      <rendercallback name="PangoAttrFilterFunc" render="0"/>
+      <rendercallback name="PangoFontsetForeachFunc" render="0"/>
    </ns>
    <ns namespace="PangoCairo">
       <renderfunction name="pango_cairo_context_get_font_options"
@@ -39405,6 +39605,7 @@ use "lib:gtk-4"
                          render="0"
                          deprecated=""/>
       </renderinterface>
+      <rendercallback name="PangoCairoShapeRendererFunc" render="0"/>
    </ns>
    <ns namespace="WebKit2">
       <renderfunction name="webkit_get_major_version"
@@ -42615,6 +42816,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated=""/>
       </renderinterface>
+      <rendercallback name="WebKitURISchemeRequestCallback" render="0"/>
    </ns>
    <ns namespace="WebKit2WebExtension">
       <renderstruct name="WebKitConsoleMessage" render="0">
@@ -48730,5 +48932,7 @@ use "lib:gtk-4"
                        render="0"
                        deprecated="1"/>
       </renderinterface>
+      <rendercallback name="WebKitWebExtensionInitializeFunction" render="0"/>
+      <rendercallback name="WebKitWebExtensionInitializeWithUserDataFunction" render="0"/>
    </ns>
 </rs>

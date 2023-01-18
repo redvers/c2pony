@@ -49,6 +49,10 @@ use "lib:gobject-2.0"
 // use @g_cclosure_marshal_VOID__VOIDv[None](closure': NullablePointer[GClosureT], return_value': NullablePointer[GValueT], instance': Pointer[None] tag, args': NullablePointer[valisttagT], marshal_data': Pointer[None] tag, n_params': I32, param_types': Pointer[U64] tag)
 // use @g_cclosure_marshal_generic[None](closure': NullablePointer[GClosureT], return_gvalue': NullablePointer[GValueT], n_param_values': U32, param_values': NullablePointer[GValueT], invocation_hint': Pointer[None] tag, marshal_data': Pointer[None] tag)
 // use @g_cclosure_marshal_generic_va[None](closure': NullablePointer[GClosureT], return_value': NullablePointer[GValueT], instance': Pointer[None] tag, args_list': NullablePointer[valisttagT], marshal_data': Pointer[None] tag, n_params': I32, param_types': Pointer[U64] tag)
+// use @g_cclosure_new[NullablePointer[GClosureT]](callback_func': GCallback, user_data': Pointer[None] tag, destroy_data': GClosureNotify)
+// use @g_cclosure_new_object[NullablePointer[GClosureT]](callback_func': GCallback, object': NullablePointer[GObjectT])
+// use @g_cclosure_new_object_swap[NullablePointer[GClosureT]](callback_func': GCallback, object': NullablePointer[GObjectT])
+// use @g_cclosure_new_swap[NullablePointer[GClosureT]](callback_func': GCallback, user_data': Pointer[None] tag, destroy_data': GClosureNotify)
 
 // Constructors
 

@@ -58,6 +58,10 @@ fun handshake(conn': NullablePointer[GTlsConnectionT], cancellable': NullablePoi
     @g_tls_connection_handshake(conn', cancellable', error')
 */
 /* 
+fun handshake_async(conn': NullablePointer[GTlsConnectionT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_tls_connection_handshake_async(conn', io_priority', cancellable', callback', user_data')
+*/
+/* 
 fun handshake_finish(conn': NullablePointer[GTlsConnectionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_tls_connection_handshake_finish(conn', result', error')
 */

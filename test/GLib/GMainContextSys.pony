@@ -52,6 +52,18 @@ fun find_source_by_user_data(context': NullablePointer[GMainContextT], user_data
     @g_main_context_find_source_by_user_data(context', user_data')
 */
 /* 
+fun get_poll_func(context': NullablePointer[GMainContextT]): GPollFunc =>
+    @g_main_context_get_poll_func(context')
+*/
+/* 
+fun invoke(context': NullablePointer[GMainContextT], function': GSourceFunc, data': Pointer[None] tag): None =>
+    @g_main_context_invoke(context', function', data')
+*/
+/* 
+fun invoke_full(context': NullablePointer[GMainContextT], priority': I32, function': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify): None =>
+    @g_main_context_invoke_full(context', priority', function', data', notify')
+*/
+/* 
 fun is_owner(context': NullablePointer[GMainContextT]): I32 =>
     @g_main_context_is_owner(context')
 */
@@ -90,6 +102,10 @@ fun release(context': NullablePointer[GMainContextT]): None =>
 /* 
 fun remove_poll(context': NullablePointer[GMainContextT], fd': NullablePointer[GPollFDT]): None =>
     @g_main_context_remove_poll(context', fd')
+*/
+/* 
+fun set_poll_func(context': NullablePointer[GMainContextT], func': GPollFunc): None =>
+    @g_main_context_set_poll_func(context', func')
 */
 /* 
 fun unref(context': NullablePointer[GMainContextT]): None =>

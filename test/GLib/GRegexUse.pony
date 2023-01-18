@@ -27,6 +27,7 @@ use "lib:glib-2.0"
 // use @g_regex_match_full[I32](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[NullablePointer[GMatchInfoT]], error': Pointer[NullablePointer[GErrorT]])
 // use @g_regex_ref[NullablePointer[GRegexT]](regex': NullablePointer[GRegexT])
 // use @g_regex_replace[Pointer[U8] tag](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, replacement': Pointer[U8] tag, match_options': U32, error': Pointer[NullablePointer[GErrorT]])
+// use @g_regex_replace_eval[Pointer[U8] tag](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, eval': GRegexEvalCallback, user_data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]])
 // use @g_regex_replace_literal[Pointer[U8] tag](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, replacement': Pointer[U8] tag, match_options': U32, error': Pointer[NullablePointer[GErrorT]])
 // use @g_regex_split[Pointer[Pointer[U8]] tag](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, match_options': U32)
 // use @g_regex_split_full[Pointer[Pointer[U8]] tag](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, max_tokens': I32, error': Pointer[NullablePointer[GErrorT]])

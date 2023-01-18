@@ -16,6 +16,10 @@ fun clear(queue': NullablePointer[GQueueT]): None =>
     @g_queue_clear(queue')
 */
 /* 
+fun clear_full(queue': NullablePointer[GQueueT], free_func': GDestroyNotify): None =>
+    @g_queue_clear_full(queue', free_func')
+*/
+/* 
 fun copy(queue': NullablePointer[GQueueT]): NullablePointer[GQueueT] =>
     @g_queue_copy(queue')
 */
@@ -28,8 +32,20 @@ fun find(queue': NullablePointer[GQueueT], data': Pointer[None] tag): NullablePo
     @g_queue_find(queue', data')
 */
 /* 
+fun find_custom(queue': NullablePointer[GQueueT], data': Pointer[None] tag, func': GCompareFunc): NullablePointer[GListT] =>
+    @g_queue_find_custom(queue', data', func')
+*/
+/* 
+fun foreach(queue': NullablePointer[GQueueT], func': GFunc, user_data': Pointer[None] tag): None =>
+    @g_queue_foreach(queue', func', user_data')
+*/
+/* 
 fun free(queue': NullablePointer[GQueueT]): None =>
     @g_queue_free(queue')
+*/
+/* 
+fun free_full(queue': NullablePointer[GQueueT], free_func': GDestroyNotify): None =>
+    @g_queue_free_full(queue', free_func')
 */
 /* 
 fun get_length(queue': NullablePointer[GQueueT]): U32 =>
@@ -58,6 +74,10 @@ fun insert_before(queue': NullablePointer[GQueueT], sibling': NullablePointer[GL
 /* 
 fun insert_before_link(queue': NullablePointer[GQueueT], sibling': NullablePointer[GListT], link_': NullablePointer[GListT]): None =>
     @g_queue_insert_before_link(queue', sibling', link_')
+*/
+/* 
+fun insert_sorted(queue': NullablePointer[GQueueT], data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_queue_insert_sorted(queue', data', func', user_data')
 */
 /* 
 fun is_empty(queue': NullablePointer[GQueueT]): I32 =>
@@ -150,6 +170,10 @@ fun remove_all(queue': NullablePointer[GQueueT], data': Pointer[None] tag): U32 
 /* 
 fun reverse(queue': NullablePointer[GQueueT]): None =>
     @g_queue_reverse(queue')
+*/
+/* 
+fun sort(queue': NullablePointer[GQueueT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_queue_sort(queue', compare_func', user_data')
 */
 /* 
 fun unlink(queue': NullablePointer[GQueueT], link_': NullablePointer[GListT]): None =>

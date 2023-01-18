@@ -21,6 +21,7 @@ use "lib:gtk-4"
 // use @gtk_widget_add_controller[None](widget': NullablePointer[GtkWidgetT], controller': NullablePointer[GtkEventControllerT])
 // use @gtk_widget_add_css_class[None](widget': NullablePointer[GtkWidgetT], css_class': Pointer[U8] tag)
 // use @gtk_widget_add_mnemonic_label[None](widget': NullablePointer[GtkWidgetT], label': NullablePointer[GtkWidgetT])
+// use @gtk_widget_add_tick_callback[U32](widget': NullablePointer[GtkWidgetT], callback': GtkTickCallback, user_data': Pointer[None] tag, notify': GDestroyNotify)
 // use @gtk_widget_allocate[None](widget': NullablePointer[GtkWidgetT], width': I32, height': I32, baseline': I32, transform': NullablePointer[GskTransformT])
 // use @gtk_widget_child_focus[I32](widget': NullablePointer[GtkWidgetT], direction': U32)
 // use @gtk_widget_compute_bounds[I32](widget': NullablePointer[GtkWidgetT], target': NullablePointer[GtkWidgetT], out_bounds': NullablePointer[graphenerecttT])

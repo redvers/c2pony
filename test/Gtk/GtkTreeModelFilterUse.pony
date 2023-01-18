@@ -18,4 +18,6 @@ use "lib:gtk-4"
 // use @gtk_tree_model_filter_convert_path_to_child_path[NullablePointer[GtkTreePathT]](filter': NullablePointer[GtkTreeModelFilterT], filter_path': NullablePointer[GtkTreePathT])
 // use @gtk_tree_model_filter_get_model[NullablePointer[GtkTreeModelT]](filter': NullablePointer[GtkTreeModelFilterT])
 // use @gtk_tree_model_filter_refilter[None](filter': NullablePointer[GtkTreeModelFilterT])
+// use @gtk_tree_model_filter_set_modify_func[None](filter': NullablePointer[GtkTreeModelFilterT], n_columns': I32, types': Pointer[U64] tag, func': GtkTreeModelFilterModifyFunc, data': Pointer[None] tag, destroy': GDestroyNotify)
 // use @gtk_tree_model_filter_set_visible_column[None](filter': NullablePointer[GtkTreeModelFilterT], column': I32)
+// use @gtk_tree_model_filter_set_visible_func[None](filter': NullablePointer[GtkTreeModelFilterT], func': GtkTreeModelFilterVisibleFunc, data': Pointer[None] tag, destroy': GDestroyNotify)

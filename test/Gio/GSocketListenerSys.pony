@@ -18,12 +18,20 @@ fun accept(listener': NullablePointer[GSocketListenerT], source_object': Pointer
     @g_socket_listener_accept(listener', source_object', cancellable', error')
 */
 /* 
+fun accept_async(listener': NullablePointer[GSocketListenerT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_listener_accept_async(listener', cancellable', callback', user_data')
+*/
+/* 
 fun accept_finish(listener': NullablePointer[GSocketListenerT], result': NullablePointer[GAsyncResultT], source_object': Pointer[NullablePointer[GObjectT]], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
     @g_socket_listener_accept_finish(listener', result', source_object', error')
 */
 /* 
 fun accept_socket(listener': NullablePointer[GSocketListenerT], source_object': Pointer[NullablePointer[GObjectT]], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketT] =>
     @g_socket_listener_accept_socket(listener', source_object', cancellable', error')
+*/
+/* 
+fun accept_socket_async(listener': NullablePointer[GSocketListenerT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_listener_accept_socket_async(listener', cancellable', callback', user_data')
 */
 /* 
 fun accept_socket_finish(listener': NullablePointer[GSocketListenerT], result': NullablePointer[GAsyncResultT], source_object': Pointer[NullablePointer[GObjectT]], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketT] =>

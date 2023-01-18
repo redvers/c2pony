@@ -9,7 +9,9 @@ use "lib:glib-2.0"
 // Methods
 // use @g_node_child_index[I32](node': NullablePointer[GNodeT], data': Pointer[None] tag)
 // use @g_node_child_position[I32](node': NullablePointer[GNodeT], child': NullablePointer[GNodeT])
+// use @g_node_children_foreach[None](node': NullablePointer[GNodeT], flags': U32, func': GNodeForeachFunc, data': Pointer[None] tag)
 // use @g_node_copy[NullablePointer[GNodeT]](node': NullablePointer[GNodeT])
+// use @g_node_copy_deep[NullablePointer[GNodeT]](node': NullablePointer[GNodeT], copy_func': GCopyFunc, data': Pointer[None] tag)
 // use @g_node_depth[U32](node': NullablePointer[GNodeT])
 // use @g_node_destroy[None](root': NullablePointer[GNodeT])
 // use @g_node_find[NullablePointer[GNodeT]](root': NullablePointer[GNodeT], order': U32, flags': U32, data': Pointer[None] tag)
@@ -28,4 +30,5 @@ use "lib:glib-2.0"
 // use @g_node_nth_child[NullablePointer[GNodeT]](node': NullablePointer[GNodeT], n': U32)
 // use @g_node_prepend[NullablePointer[GNodeT]](parent': NullablePointer[GNodeT], node': NullablePointer[GNodeT])
 // use @g_node_reverse_children[None](node': NullablePointer[GNodeT])
+// use @g_node_traverse[None](root': NullablePointer[GNodeT], order': U32, flags': U32, max_depth': I32, func': GNodeTraverseFunc, data': Pointer[None] tag)
 // use @g_node_unlink[None](node': NullablePointer[GNodeT])

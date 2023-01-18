@@ -18,10 +18,8 @@ fun gnew(): NullablePointer[GtkBuilderT] =>
 fun new_from_file(filename': Pointer[U8] tag): NullablePointer[GtkBuilderT] =>
     @gtk_builder_new_from_file(filename')
 */
-/* 
 fun new_from_resource(resource_path': Pointer[U8] tag): NullablePointer[GtkBuilderT] =>
     @gtk_builder_new_from_resource(resource_path')
-*/
 /* 
 fun new_from_string(string': Pointer[U8] tag, length': I64): NullablePointer[GtkBuilderT] =>
     @gtk_builder_new_from_string(string', length')
@@ -68,10 +66,8 @@ fun extend_with_template(builder': NullablePointer[GtkBuilderT], object': Nullab
 fun get_current_object(builder': NullablePointer[GtkBuilderT]): NullablePointer[GObjectT] =>
     @gtk_builder_get_current_object(builder')
 */
-/* 
 fun get_object(builder': NullablePointer[GtkBuilderT], name': Pointer[U8] tag): NullablePointer[GObjectT] =>
     @gtk_builder_get_object(builder', name')
-*/
 /* 
 fun get_objects(builder': NullablePointer[GtkBuilderT]): NullablePointer[GSListT] =>
     @gtk_builder_get_objects(builder')

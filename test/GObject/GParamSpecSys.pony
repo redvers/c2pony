@@ -57,6 +57,10 @@ fun set_qdata(pspec': NullablePointer[GParamSpecT], quark': U32, data': Pointer[
     @g_param_spec_set_qdata(pspec', quark', data')
 */
 /* 
+fun set_qdata_full(pspec': NullablePointer[GParamSpecT], quark': U32, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @g_param_spec_set_qdata_full(pspec', quark', data', destroy')
+*/
+/* 
 fun sink(pspec': NullablePointer[GParamSpecT]): None =>
     @g_param_spec_sink(pspec')
 */

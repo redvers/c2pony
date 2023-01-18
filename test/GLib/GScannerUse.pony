@@ -19,6 +19,7 @@ use "lib:glib-2.0"
 // use @g_scanner_lookup_symbol[Pointer[None] tag](scanner': NullablePointer[GScannerT], symbol': Pointer[U8] tag)
 // use @g_scanner_peek_next_token[U32](scanner': NullablePointer[GScannerT])
 // use @g_scanner_scope_add_symbol[None](scanner': NullablePointer[GScannerT], scope_id': U32, symbol': Pointer[U8] tag, value': Pointer[None] tag)
+// use @g_scanner_scope_foreach_symbol[None](scanner': NullablePointer[GScannerT], scope_id': U32, func': GHFunc, user_data': Pointer[None] tag)
 // use @g_scanner_scope_lookup_symbol[Pointer[None] tag](scanner': NullablePointer[GScannerT], scope_id': U32, symbol': Pointer[U8] tag)
 // use @g_scanner_scope_remove_symbol[None](scanner': NullablePointer[GScannerT], scope_id': U32, symbol': Pointer[U8] tag)
 // use @g_scanner_set_scope[U32](scanner': NullablePointer[GScannerT], scope_id': U32)

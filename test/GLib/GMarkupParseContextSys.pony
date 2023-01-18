@@ -5,6 +5,10 @@ primitive GMarkupParseContextSys
 // Static Functions
 
 // Constructors
+/* 
+fun gnew(parser': NullablePointer[GMarkupParserT], flags': U32, user_data': Pointer[None] tag, user_data_dnotify': GDestroyNotify): NullablePointer[GMarkupParseContextT] =>
+    @g_markup_parse_context_new(parser', flags', user_data', user_data_dnotify')
+*/
 
 // Methods
 /* 

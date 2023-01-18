@@ -26,6 +26,7 @@ use "lib:gtk-4"
 // use @gtk_menu_button_popup[None](menu_button': NullablePointer[GtkMenuButtonT])
 // use @gtk_menu_button_set_always_show_arrow[None](menu_button': NullablePointer[GtkMenuButtonT], always_show_arrow': I32)
 // use @gtk_menu_button_set_child[None](menu_button': NullablePointer[GtkMenuButtonT], child': NullablePointer[GtkWidgetT])
+// use @gtk_menu_button_set_create_popup_func[None](menu_button': NullablePointer[GtkMenuButtonT], func': GtkMenuButtonCreatePopupFunc, user_data': Pointer[None] tag, destroy_notify': GDestroyNotify)
 // use @gtk_menu_button_set_direction[None](menu_button': NullablePointer[GtkMenuButtonT], direction': U32)
 // use @gtk_menu_button_set_has_frame[None](menu_button': NullablePointer[GtkMenuButtonT], has_frame': I32)
 // use @gtk_menu_button_set_icon_name[None](menu_button': NullablePointer[GtkMenuButtonT], icon_name': Pointer[U8] tag)

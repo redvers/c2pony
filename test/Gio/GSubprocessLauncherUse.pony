@@ -10,6 +10,7 @@ use "lib:gio-2.0"
 
 // Methods
 // use @g_subprocess_launcher_getenv[Pointer[U8] tag](self': NullablePointer[GSubprocessLauncherT], variable': Pointer[U8] tag)
+// use @g_subprocess_launcher_set_child_setup[None](self': NullablePointer[GSubprocessLauncherT], child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, destroy_notify': GDestroyNotify)
 // use @g_subprocess_launcher_set_cwd[None](self': NullablePointer[GSubprocessLauncherT], cwd': Pointer[U8] tag)
 // use @g_subprocess_launcher_set_environ[None](self': NullablePointer[GSubprocessLauncherT], env': Pointer[Pointer[U8]] tag)
 // use @g_subprocess_launcher_set_flags[None](self': NullablePointer[GSubprocessLauncherT], flags': U32)

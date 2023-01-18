@@ -36,3 +36,7 @@ fun ref(self': NullablePointer[GtkExpressionT]): NullablePointer[GtkExpressionT]
 fun unref(self': NullablePointer[GtkExpressionT]): None =>
     @gtk_expression_unref(self')
 */
+/* 
+fun watch(self': NullablePointer[GtkExpressionT], this_': Pointer[None] tag, notify': GtkExpressionNotify, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): NullablePointer[GtkExpressionWatchT] =>
+    @gtk_expression_watch(self', this_', notify', user_data', user_destroy')
+*/

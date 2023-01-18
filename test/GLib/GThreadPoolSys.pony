@@ -16,6 +16,10 @@ fun get_num_unused_threads(): U32 =>
     @g_thread_pool_get_num_unused_threads()
 */
 /* 
+fun gnew(func': GFunc, user_data': Pointer[None] tag, max_threads': I32, exclusive': I32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GThreadPoolT] =>
+    @g_thread_pool_new(func', user_data', max_threads', exclusive', error')
+*/
+/* 
 fun set_max_idle_time(interval': U32): None =>
     @g_thread_pool_set_max_idle_time(interval')
 */
@@ -54,6 +58,10 @@ fun push(pool': NullablePointer[GThreadPoolT], data': Pointer[None] tag, error':
 /* 
 fun set_max_threads(pool': NullablePointer[GThreadPoolT], max_threads': I32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_thread_pool_set_max_threads(pool', max_threads', error')
+*/
+/* 
+fun set_sort_function(pool': NullablePointer[GThreadPoolT], func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_thread_pool_set_sort_function(pool', func', user_data')
 */
 /* 
 fun unprocessed(pool': NullablePointer[GThreadPoolT]): U32 =>

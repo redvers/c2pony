@@ -162,6 +162,10 @@ fun receive_from(socket': NullablePointer[GSocketT], address': Pointer[NullableP
     @g_socket_receive_from(socket', address', buffer', size', cancellable', error')
 */
 /* 
+fun receive_message(socket': NullablePointer[GSocketT], address': Pointer[NullablePointer[GSocketAddressT]], vectors': NullablePointer[GInputVectorT], num_vectors': I32, messages': Pointer[Pointer[NullablePointer[GSocketControlMessageT]]], num_messages': Pointer[I32] tag, flags': Pointer[I32] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_socket_receive_message(socket', address', vectors', num_vectors', messages', num_messages', flags', cancellable', error')
+*/
+/* 
 fun receive_messages(socket': NullablePointer[GSocketT], messages': NullablePointer[GInputMessageT], num_messages': U32, flags': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_socket_receive_messages(socket', messages', num_messages', flags', cancellable', error')
 */

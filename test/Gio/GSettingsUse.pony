@@ -19,6 +19,7 @@ use "lib:gio-2.0"
 // Methods
 // use @g_settings_apply[None](settings': NullablePointer[GSettingsT])
 // use @g_settings_bind[None](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, flags': U32)
+// use @g_settings_bind_with_mapping[None](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, flags': U32, get_mapping': GSettingsBindGetMapping, set_mapping': GSettingsBindSetMapping, user_data': Pointer[None] tag, destroy': GDestroyNotify)
 // use @g_settings_bind_writable[None](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, inverted': I32)
 // use @g_settings_create_action[NullablePointer[GActionT]](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)
 // use @g_settings_delay[None](settings': NullablePointer[GSettingsT])
@@ -32,6 +33,7 @@ use "lib:gio-2.0"
 // use @g_settings_get_has_unapplied[I32](settings': NullablePointer[GSettingsT])
 // use @g_settings_get_int[I32](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)
 // use @g_settings_get_int64[I64](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)
+// use @g_settings_get_mapped[Pointer[None] tag](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, mapping': GSettingsGetMapping, user_data': Pointer[None] tag)
 // use @g_settings_get_range[NullablePointer[GVariantT]](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)
 // use @g_settings_get_string[Pointer[U8] tag](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)
 // use @g_settings_get_strv[Pointer[Pointer[U8]] tag](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)

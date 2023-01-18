@@ -9,5 +9,6 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
+// use @gtk_callback_action_new[NullablePointer[GtkShortcutActionT]](callback': GtkShortcutFunc, data': Pointer[None] tag, destroy': GDestroyNotify)
 
 // Methods

@@ -60,6 +60,10 @@ fun scope_add_symbol(scanner': NullablePointer[GScannerT], scope_id': U32, symbo
     @g_scanner_scope_add_symbol(scanner', scope_id', symbol', value')
 */
 /* 
+fun scope_foreach_symbol(scanner': NullablePointer[GScannerT], scope_id': U32, func': GHFunc, user_data': Pointer[None] tag): None =>
+    @g_scanner_scope_foreach_symbol(scanner', scope_id', func', user_data')
+*/
+/* 
 fun scope_lookup_symbol(scanner': NullablePointer[GScannerT], scope_id': U32, symbol': Pointer[U8] tag): Pointer[None] tag =>
     @g_scanner_scope_lookup_symbol(scanner', scope_id', symbol')
 */

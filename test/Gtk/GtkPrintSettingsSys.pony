@@ -33,6 +33,10 @@ fun copy(other': NullablePointer[GtkPrintSettingsT]): NullablePointer[GtkPrintSe
     @gtk_print_settings_copy(other')
 */
 /* 
+fun foreach(settings': NullablePointer[GtkPrintSettingsT], func': GtkPrintSettingsFunc, user_data': Pointer[None] tag): None =>
+    @gtk_print_settings_foreach(settings', func', user_data')
+*/
+/* 
 fun get(settings': NullablePointer[GtkPrintSettingsT], key': Pointer[U8] tag): Pointer[U8] tag =>
     @gtk_print_settings_get(settings', key')
 */

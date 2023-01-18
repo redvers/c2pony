@@ -22,6 +22,10 @@ fun fill(stream': NullablePointer[GBufferedInputStreamT], count': I64, cancellab
     @g_buffered_input_stream_fill(stream', count', cancellable', error')
 */
 /* 
+fun fill_async(stream': NullablePointer[GBufferedInputStreamT], count': I64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_buffered_input_stream_fill_async(stream', count', io_priority', cancellable', callback', user_data')
+*/
+/* 
 fun fill_finish(stream': NullablePointer[GBufferedInputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
     @g_buffered_input_stream_fill_finish(stream', result', error')
 */

@@ -40,3 +40,11 @@ fun prepend(value_array': NullablePointer[GValueArrayT], value': NullablePointer
 fun remove(value_array': NullablePointer[GValueArrayT], index_': U32): NullablePointer[GValueArrayT] =>
     @g_value_array_remove(value_array', index_')
 */
+/* 
+fun sort(value_array': NullablePointer[GValueArrayT], compare_func': GCompareFunc): NullablePointer[GValueArrayT] =>
+    @g_value_array_sort(value_array', compare_func')
+*/
+/* 
+fun sort_with_data(value_array': NullablePointer[GValueArrayT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag): NullablePointer[GValueArrayT] =>
+    @g_value_array_sort_with_data(value_array', compare_func', user_data')
+*/

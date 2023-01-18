@@ -21,6 +21,10 @@ fun add(table': NullablePointer[GtkTextTagTableT], tag': NullablePointer[GtkText
     @gtk_text_tag_table_add(table', tag')
 */
 /* 
+fun foreach(table': NullablePointer[GtkTextTagTableT], func': GtkTextTagTableForeach, data': Pointer[None] tag): None =>
+    @gtk_text_tag_table_foreach(table', func', data')
+*/
+/* 
 fun get_size(table': NullablePointer[GtkTextTagTableT]): I32 =>
     @gtk_text_tag_table_get_size(table')
 */

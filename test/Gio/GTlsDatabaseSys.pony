@@ -18,12 +18,20 @@ fun lookup_certificate_for_handle(self': NullablePointer[GTlsDatabaseT], handle'
     @g_tls_database_lookup_certificate_for_handle(self', handle', interaction', flags', cancellable', error')
 */
 /* 
+fun lookup_certificate_for_handle_async(self': NullablePointer[GTlsDatabaseT], handle': Pointer[U8] tag, interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_tls_database_lookup_certificate_for_handle_async(self', handle', interaction', flags', cancellable', callback', user_data')
+*/
+/* 
 fun lookup_certificate_for_handle_finish(self': NullablePointer[GTlsDatabaseT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GTlsCertificateT] =>
     @g_tls_database_lookup_certificate_for_handle_finish(self', result', error')
 */
 /* 
 fun lookup_certificate_issuer(self': NullablePointer[GTlsDatabaseT], certificate': NullablePointer[GTlsCertificateT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GTlsCertificateT] =>
     @g_tls_database_lookup_certificate_issuer(self', certificate', interaction', flags', cancellable', error')
+*/
+/* 
+fun lookup_certificate_issuer_async(self': NullablePointer[GTlsDatabaseT], certificate': NullablePointer[GTlsCertificateT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_tls_database_lookup_certificate_issuer_async(self', certificate', interaction', flags', cancellable', callback', user_data')
 */
 /* 
 fun lookup_certificate_issuer_finish(self': NullablePointer[GTlsDatabaseT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GTlsCertificateT] =>
@@ -34,12 +42,20 @@ fun lookup_certificates_issued_by(self': NullablePointer[GTlsDatabaseT], issuer_
     @g_tls_database_lookup_certificates_issued_by(self', issuer_raw_dn', interaction', flags', cancellable', error')
 */
 /* 
+fun lookup_certificates_issued_by_async(self': NullablePointer[GTlsDatabaseT], issuer_raw_dn': NullablePointer[GByteArrayT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_tls_database_lookup_certificates_issued_by_async(self', issuer_raw_dn', interaction', flags', cancellable', callback', user_data')
+*/
+/* 
 fun lookup_certificates_issued_by_finish(self': NullablePointer[GTlsDatabaseT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
     @g_tls_database_lookup_certificates_issued_by_finish(self', result', error')
 */
 /* 
 fun verify_chain(self': NullablePointer[GTlsDatabaseT], chain': NullablePointer[GTlsCertificateT], purpose': Pointer[U8] tag, identity': NullablePointer[GSocketConnectableT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): U32 =>
     @g_tls_database_verify_chain(self', chain', purpose', identity', interaction', flags', cancellable', error')
+*/
+/* 
+fun verify_chain_async(self': NullablePointer[GTlsDatabaseT], chain': NullablePointer[GTlsCertificateT], purpose': Pointer[U8] tag, identity': NullablePointer[GSocketConnectableT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_tls_database_verify_chain_async(self', chain', purpose', identity', interaction', flags', cancellable', callback', user_data')
 */
 /* 
 fun verify_chain_finish(self': NullablePointer[GTlsDatabaseT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): U32 =>

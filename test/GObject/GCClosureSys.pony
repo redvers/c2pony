@@ -188,6 +188,22 @@ fun marshal_generic(closure': NullablePointer[GClosureT], return_gvalue': Nullab
 fun marshal_generic_va(closure': NullablePointer[GClosureT], return_value': NullablePointer[GValueT], instance': Pointer[None] tag, args_list': NullablePointer[valisttagT], marshal_data': Pointer[None] tag, n_params': I32, param_types': Pointer[U64] tag): None =>
     @g_cclosure_marshal_generic_va(closure', return_value', instance', args_list', marshal_data', n_params', param_types')
 */
+/* 
+fun gnew(callback_func': GCallback, user_data': Pointer[None] tag, destroy_data': GClosureNotify): NullablePointer[GClosureT] =>
+    @g_cclosure_new(callback_func', user_data', destroy_data')
+*/
+/* 
+fun new_object(callback_func': GCallback, object': NullablePointer[GObjectT]): NullablePointer[GClosureT] =>
+    @g_cclosure_new_object(callback_func', object')
+*/
+/* 
+fun new_object_swap(callback_func': GCallback, object': NullablePointer[GObjectT]): NullablePointer[GClosureT] =>
+    @g_cclosure_new_object_swap(callback_func', object')
+*/
+/* 
+fun new_swap(callback_func': GCallback, user_data': Pointer[None] tag, destroy_data': GClosureNotify): NullablePointer[GClosureT] =>
+    @g_cclosure_new_swap(callback_func', user_data', destroy_data')
+*/
 
 // Constructors
 

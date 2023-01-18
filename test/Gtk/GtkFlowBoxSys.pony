@@ -21,6 +21,10 @@ fun append(self': NullablePointer[GtkFlowBoxT], child': NullablePointer[GtkWidge
     @gtk_flow_box_append(self', child')
 */
 /* 
+fun bind_model(box': NullablePointer[GtkFlowBoxT], model': NullablePointer[GListModelT], create_widget_func': GtkFlowBoxCreateWidgetFunc, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify): None =>
+    @gtk_flow_box_bind_model(box', model', create_widget_func', user_data', user_data_free_func')
+*/
+/* 
 fun get_activate_on_single_click(box': NullablePointer[GtkFlowBoxT]): I32 =>
     @gtk_flow_box_get_activate_on_single_click(box')
 */
@@ -89,12 +93,20 @@ fun select_child(box': NullablePointer[GtkFlowBoxT], child': NullablePointer[Gtk
     @gtk_flow_box_select_child(box', child')
 */
 /* 
+fun selected_foreach(box': NullablePointer[GtkFlowBoxT], func': GtkFlowBoxForeachFunc, data': Pointer[None] tag): None =>
+    @gtk_flow_box_selected_foreach(box', func', data')
+*/
+/* 
 fun set_activate_on_single_click(box': NullablePointer[GtkFlowBoxT], single': I32): None =>
     @gtk_flow_box_set_activate_on_single_click(box', single')
 */
 /* 
 fun set_column_spacing(box': NullablePointer[GtkFlowBoxT], spacing': U32): None =>
     @gtk_flow_box_set_column_spacing(box', spacing')
+*/
+/* 
+fun set_filter_func(box': NullablePointer[GtkFlowBoxT], filter_func': GtkFlowBoxFilterFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_flow_box_set_filter_func(box', filter_func', user_data', destroy')
 */
 /* 
 fun set_hadjustment(box': NullablePointer[GtkFlowBoxT], adjustment': NullablePointer[GtkAdjustmentT]): None =>
@@ -119,6 +131,10 @@ fun set_row_spacing(box': NullablePointer[GtkFlowBoxT], spacing': U32): None =>
 /* 
 fun set_selection_mode(box': NullablePointer[GtkFlowBoxT], mode': U32): None =>
     @gtk_flow_box_set_selection_mode(box', mode')
+*/
+/* 
+fun set_sort_func(box': NullablePointer[GtkFlowBoxT], sort_func': GtkFlowBoxSortFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_flow_box_set_sort_func(box', sort_func', user_data', destroy')
 */
 /* 
 fun set_vadjustment(box': NullablePointer[GtkFlowBoxT], adjustment': NullablePointer[GtkAdjustmentT]): None =>

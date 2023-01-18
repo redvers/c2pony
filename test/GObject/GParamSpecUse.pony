@@ -19,6 +19,7 @@ use "lib:gobject-2.0"
 // use @g_param_spec_ref[NullablePointer[GParamSpecT]](pspec': NullablePointer[GParamSpecT])
 // use @g_param_spec_ref_sink[NullablePointer[GParamSpecT]](pspec': NullablePointer[GParamSpecT])
 // use @g_param_spec_set_qdata[None](pspec': NullablePointer[GParamSpecT], quark': U32, data': Pointer[None] tag)
+// use @g_param_spec_set_qdata_full[None](pspec': NullablePointer[GParamSpecT], quark': U32, data': Pointer[None] tag, destroy': GDestroyNotify)
 // use @g_param_spec_sink[None](pspec': NullablePointer[GParamSpecT])
 // use @g_param_spec_steal_qdata[Pointer[None] tag](pspec': NullablePointer[GParamSpecT], quark': U32)
 // use @g_param_spec_unref[None](pspec': NullablePointer[GParamSpecT])

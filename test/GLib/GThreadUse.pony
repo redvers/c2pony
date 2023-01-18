@@ -8,6 +8,8 @@ use "lib:glib-2.0"
 // use @g_thread_yield[None]()
 
 // Constructors
+// use @g_thread_new[NullablePointer[GThreadT]](name': Pointer[U8] tag, func': GThreadFunc, data': Pointer[None] tag)
+// use @g_thread_try_new[NullablePointer[GThreadT]](name': Pointer[U8] tag, func': GThreadFunc, data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]])
 
 // Methods
 // use @g_thread_join[Pointer[None] tag](thread': NullablePointer[GThreadT])

@@ -16,6 +16,10 @@ fun destroy_link(hook_list': NullablePointer[GHookListT], hook': NullablePointer
     @g_hook_destroy_link(hook_list', hook')
 */
 /* 
+fun find(hook_list': NullablePointer[GHookListT], need_valids': I32, func': GHookFindFunc, data': Pointer[None] tag): NullablePointer[GHookT] =>
+    @g_hook_find(hook_list', need_valids', func', data')
+*/
+/* 
 fun find_data(hook_list': NullablePointer[GHookListT], need_valids': I32, data': Pointer[None] tag): NullablePointer[GHookT] =>
     @g_hook_find_data(hook_list', need_valids', data')
 */
@@ -42,6 +46,10 @@ fun get(hook_list': NullablePointer[GHookListT], hook_id': U64): NullablePointer
 /* 
 fun insert_before(hook_list': NullablePointer[GHookListT], sibling': NullablePointer[GHookT], hook': NullablePointer[GHookT]): None =>
     @g_hook_insert_before(hook_list', sibling', hook')
+*/
+/* 
+fun insert_sorted(hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT], func': GHookCompareFunc): None =>
+    @g_hook_insert_sorted(hook_list', hook', func')
 */
 /* 
 fun next_valid(hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT], may_be_in_call': I32): NullablePointer[GHookT] =>

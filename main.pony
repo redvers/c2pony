@@ -169,7 +169,26 @@ actor Main
     _env.out.print("  <argnames>")
     list_fn_arg_names()
     _env.out.print("  </argnames>")
+    _env.out.print("  <callbacks>")
+    generate_callback_xml()
+    _env.out.print("  </callbacks>")
     _env.out.print("</c2pony>")
+
+  fun ref generate_callback_xml() =>
+    let names: Array[String] = []
+    for i in tmap.values() do
+      match i
+      | let t: FunctionType => if (t.name != "") then names.push(t.name) end
+      end
+    end
+    for f in Sort[Array[String], String](names).values() do
+      try
+        let str: String = callback_use(f)?
+        _env.out.print(str)
+      else
+        _env.out.print("/* " + f + " */")
+      end
+    end
 
   fun ref generate_struct_xml() =>
     let names: Array[String] = []
@@ -186,9 +205,6 @@ actor Main
         _env.out.print("/* " + f + " */")
       end
     end
-
-
-
 
 
 
@@ -294,6 +310,42 @@ actor Main
       _env.out.print("    <argname name=\"" + g + "\" rename=\"" + g + "\"/>")
     end
 
+  fun ref callback_use(callback_name: String): String ? =>
+    let cb: FunctionType =
+    try
+      lookup_callback(callback_name)?
+    else
+      error
+    end
+
+    let main: String trn = recover trn String end
+    main.append("      <callback name=\"")
+    main.append(cb.name)
+    main.append("\" rvval=\"")
+
+    var objpath: Array[CastXMLTag] = []
+    resolve_type(cb.returns, objpath)?
+
+    let xmlrv: XmlArg = XmlArg(_env, objpath, nmap, umap)?
+    main.append(xmlrv.usetype)
+    main.append("\">\n")
+
+    let args: String trn = recover trn String end
+    for arg in cb.arguments.values() do
+      match arg
+      | let t: Ellipsis => error
+      | let t: Argument => objpath = []
+                           resolve_type(t.xtype, objpath)?
+                           let xmlarg: XmlArg = XmlArg(_env, objpath, nmap, umap)?
+                           args.append("        <arg type=\"")
+                           args.append(xmlarg.usetype)
+                           args.append("\"/>\n")
+      end
+    end
+    main.append(consume args)
+    main.append("      </callback>\n")
+    consume main
+
   fun ref function_use(function_name: String): String ? =>
     let function: Function =
     try
@@ -395,6 +447,17 @@ actor Main
     for f in tmap.values() do
       match f
       | let t: Function if (t.name == a) =>
+        return t
+      else
+        None
+      end
+    end
+    error
+
+  fun ref lookup_callback(a: String): FunctionType ? =>
+    for f in tmap.values() do
+      match f
+      | let t: FunctionType if (t.name == a) =>
         return t
       else
         None

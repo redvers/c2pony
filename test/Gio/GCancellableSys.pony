@@ -22,6 +22,10 @@ fun cancel(cancellable': NullablePointer[GCancellableT]): None =>
     @g_cancellable_cancel(cancellable')
 */
 /* 
+fun connect(cancellable': NullablePointer[GCancellableT], callback': GCallback, data': Pointer[None] tag, data_destroy_func': GDestroyNotify): U64 =>
+    @g_cancellable_connect(cancellable', callback', data', data_destroy_func')
+*/
+/* 
 fun disconnect(cancellable': NullablePointer[GCancellableT], handler_id': U64): None =>
     @g_cancellable_disconnect(cancellable', handler_id')
 */

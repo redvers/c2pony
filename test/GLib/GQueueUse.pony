@@ -8,10 +8,14 @@ use "lib:glib-2.0"
 
 // Methods
 // use @g_queue_clear[None](queue': NullablePointer[GQueueT])
+// use @g_queue_clear_full[None](queue': NullablePointer[GQueueT], free_func': GDestroyNotify)
 // use @g_queue_copy[NullablePointer[GQueueT]](queue': NullablePointer[GQueueT])
 // use @g_queue_delete_link[None](queue': NullablePointer[GQueueT], link_': NullablePointer[GListT])
 // use @g_queue_find[NullablePointer[GListT]](queue': NullablePointer[GQueueT], data': Pointer[None] tag)
+// use @g_queue_find_custom[NullablePointer[GListT]](queue': NullablePointer[GQueueT], data': Pointer[None] tag, func': GCompareFunc)
+// use @g_queue_foreach[None](queue': NullablePointer[GQueueT], func': GFunc, user_data': Pointer[None] tag)
 // use @g_queue_free[None](queue': NullablePointer[GQueueT])
+// use @g_queue_free_full[None](queue': NullablePointer[GQueueT], free_func': GDestroyNotify)
 // use @g_queue_get_length[U32](queue': NullablePointer[GQueueT])
 // use @g_queue_index[I32](queue': NullablePointer[GQueueT], data': Pointer[None] tag)
 // use @g_queue_init[None](queue': NullablePointer[GQueueT])
@@ -19,6 +23,7 @@ use "lib:glib-2.0"
 // use @g_queue_insert_after_link[None](queue': NullablePointer[GQueueT], sibling': NullablePointer[GListT], link_': NullablePointer[GListT])
 // use @g_queue_insert_before[None](queue': NullablePointer[GQueueT], sibling': NullablePointer[GListT], data': Pointer[None] tag)
 // use @g_queue_insert_before_link[None](queue': NullablePointer[GQueueT], sibling': NullablePointer[GListT], link_': NullablePointer[GListT])
+// use @g_queue_insert_sorted[None](queue': NullablePointer[GQueueT], data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag)
 // use @g_queue_is_empty[I32](queue': NullablePointer[GQueueT])
 // use @g_queue_link_index[I32](queue': NullablePointer[GQueueT], link_': NullablePointer[GListT])
 // use @g_queue_peek_head[Pointer[None] tag](queue': NullablePointer[GQueueT])
@@ -42,4 +47,5 @@ use "lib:glib-2.0"
 // use @g_queue_remove[I32](queue': NullablePointer[GQueueT], data': Pointer[None] tag)
 // use @g_queue_remove_all[U32](queue': NullablePointer[GQueueT], data': Pointer[None] tag)
 // use @g_queue_reverse[None](queue': NullablePointer[GQueueT])
+// use @g_queue_sort[None](queue': NullablePointer[GQueueT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag)
 // use @g_queue_unlink[None](queue': NullablePointer[GQueueT], link_': NullablePointer[GListT])

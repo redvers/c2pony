@@ -11,7 +11,7 @@ primitive GtkATContextSys
 
 // Constructors
 /* 
-fun gnew(accessible_role': U32, accessible': NullablePointer[GtkAccessibleT], display': NullablePointer[GdkDisplayT]): NullablePointer[GtkATContextT] =>
+fun create(accessible_role': U32, accessible': NullablePointer[GtkAccessibleT], display': NullablePointer[GdkDisplayT]): NullablePointer[GtkATContextT] =>
     @gtk_at_context_create(accessible_role', accessible', display')
 */
 

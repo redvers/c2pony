@@ -6,6 +6,7 @@ use "lib:gio-2.0"
 // Static Functions
 
 // Constructors
+// use @g_memory_output_stream_new[NullablePointer[GOutputStreamT]](data': Pointer[None] tag, size': U64, realloc_function': GReallocFunc, destroy_function': GDestroyNotify)
 // use @g_memory_output_stream_new_resizable[NullablePointer[GOutputStreamT]]()
 
 // Methods

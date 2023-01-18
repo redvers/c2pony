@@ -165,6 +165,10 @@ fun select_path(icon_view': NullablePointer[GtkIconViewT], path': NullablePointe
     @gtk_icon_view_select_path(icon_view', path')
 */
 /* 
+fun selected_foreach(icon_view': NullablePointer[GtkIconViewT], func': GtkIconViewForeachFunc, data': Pointer[None] tag): None =>
+    @gtk_icon_view_selected_foreach(icon_view', func', data')
+*/
+/* 
 fun set_activate_on_single_click(icon_view': NullablePointer[GtkIconViewT], single': I32): None =>
     @gtk_icon_view_set_activate_on_single_click(icon_view', single')
 */

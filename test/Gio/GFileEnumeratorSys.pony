@@ -14,6 +14,10 @@ fun close(enumerator': NullablePointer[GFileEnumeratorT], cancellable': Nullable
     @g_file_enumerator_close(enumerator', cancellable', error')
 */
 /* 
+fun close_async(enumerator': NullablePointer[GFileEnumeratorT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_enumerator_close_async(enumerator', io_priority', cancellable', callback', user_data')
+*/
+/* 
 fun close_finish(enumerator': NullablePointer[GFileEnumeratorT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_file_enumerator_close_finish(enumerator', result', error')
 */
@@ -40,6 +44,10 @@ fun iterate(direnum': NullablePointer[GFileEnumeratorT], out_info': Pointer[Null
 /* 
 fun next_file(enumerator': NullablePointer[GFileEnumeratorT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileInfoT] =>
     @g_file_enumerator_next_file(enumerator', cancellable', error')
+*/
+/* 
+fun next_files_async(enumerator': NullablePointer[GFileEnumeratorT], num_files': I32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_enumerator_next_files_async(enumerator', num_files', io_priority', cancellable', callback', user_data')
 */
 /* 
 fun next_files_finish(enumerator': NullablePointer[GFileEnumeratorT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>

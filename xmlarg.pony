@@ -20,7 +20,7 @@ class XmlArg
       | let t: Struct => args.push(arg)
       | let t: Field => die("Will never happen 0")
       | let t: Function => die("Will never happen 1")
-      | let t: FunctionType => args.push(arg) ; error
+      | let t: FunctionType => args.push(arg)
       | let t: Argument => die("Will never happen 2")
       | let t: ArrayType => args.push(arg) ; error
       | let t: CvQualifiedType => None
@@ -37,15 +37,20 @@ class XmlArg
       end
     end
 
-    if (args.size() > 3) then error end // Let's start easy
+//    if (args.size() > 3) then error end // Let's start easy
 
     let tstr: String trn = recover trn String end
     for f in args.values() do
       tstr.append(" => ")
       tstr.append(DebugClasses.objtype(f))
     end
+    let ttstr: String trn = recover trn String end
+    for ff in objpath.values() do
+      ttstr.append(" ~> ")
+      ttstr.append(DebugClasses.objtype(ff))
+    end
     let argtype: String = consume tstr
-//    env.out.print(argtype)
+    let oargtype: String = consume ttstr
 
     if (argtype == " => Struct") then
         align = (args(0)? as Struct).align
@@ -54,6 +59,7 @@ class XmlArg
      decltype = "embed"
    structtype = (args(0)? as Struct)()
    structinit = (args(0)? as Struct)()
+      return
     end
 
     if (argtype == " => FundamentalType") then
@@ -62,6 +68,7 @@ class XmlArg
       usetype = (args(0)? as FundamentalType)()
    structtype = (args(0)? as FundamentalType)()
    structinit = (args(0)? as FundamentalType).structinit()
+      return
     end
 
     if (argtype == " => PointerType => Struct") then
@@ -70,7 +77,19 @@ class XmlArg
       usetype = "NullablePointer[" + (args(1)? as Struct)() + "]"
    structtype = "NullablePointer[" + (args(1)? as Struct)() + "]"
    structinit = "NullablePointer[" + (args(1)? as Struct)() + "].none()"
+      return
     end
+
+    /*
+    if (argtype == " => PointerType => FunctionType") then
+        align = (args(0)? as PointerType).align
+         size = (args(0)? as PointerType).size
+      usetype = "NullablePointer[" + (args(1)? as Struct)() + "]"
+   structtype = "NullablePointer[" + (args(1)? as Struct)() + "]"
+   structinit = "NullablePointer[" + (args(1)? as Struct)() + "].none()"
+      return
+    end
+    */
 
     if (argtype == " => PointerType => FundamentalType") then
         align = (args(0)? as PointerType).align
@@ -78,6 +97,7 @@ class XmlArg
       usetype = "Pointer[" + (args(1)? as FundamentalType)() + "] tag"
    structtype = "Pointer[" + (args(1)? as FundamentalType)() + "]"
    structinit = "Pointer[" + (args(1)? as FundamentalType)() + "]"
+      return
     end
 
     if (argtype == " => PointerType => PointerType => FundamentalType") then
@@ -86,6 +106,16 @@ class XmlArg
       usetype = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]] tag"
    structtype = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
    structinit = "Pointer[Pointer[" + (args(2)? as FundamentalType)() + "]]"
+      return
+    end
+
+    if (argtype == " => PointerType => PointerType => PointerType => FundamentalType") then
+        align = (args(0)? as PointerType).align
+         size = (args(0)? as PointerType).size
+      usetype = "Pointer[Pointer[Pointer[" + (args(3)? as FundamentalType)() + "]]] tag"
+   structtype = "Pointer[Pointer[Pointer[" + (args(3)? as FundamentalType)() + "]]]"
+   structinit = "Pointer[Pointer[Pointer[" + (args(3)? as FundamentalType)() + "]]]"
+      return
     end
 
     if (argtype == " => PointerType => PointerType => Struct") then
@@ -94,7 +124,31 @@ class XmlArg
       usetype = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
    structtype = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
    structinit = "Pointer[NullablePointer[" + (args(2)? as Struct)() + "]]"
+      return
     end
+
+    if (argtype == " => PointerType => PointerType => PointerType => Struct") then
+        align = (args(0)? as PointerType).align
+         size = (args(0)? as PointerType).size
+      usetype = "Pointer[Pointer[NullablePointer[" + (args(3)? as Struct)() + "]]]"
+   structtype = "Pointer[Pointer[NullablePointer[" + (args(3)? as Struct)() + "]]]"
+   structinit = "Pointer[Pointer[NullablePointer[" + (args(3)? as Struct)() + "]]]"
+      return
+    end
+
+    if (oargtype == " ~> Typedef ~> PointerType ~> FunctionType") then
+      usetype = (objpath(0)? as Typedef).name
+      (objpath(2)? as FunctionType).name = (objpath(0)? as Typedef).name
+        align = (objpath(1)? as PointerType).align
+         size = (objpath(1)? as PointerType).size
+   structtype = (objpath(0)? as Typedef).name
+   structinit = (objpath(0)? as Typedef).name
+      return
+    end
+
+    env.out.print(argtype)
+    env.out.print(oargtype)
+    error
 
 
 

@@ -14,6 +14,8 @@ use "lib:glib-2.0"
 // use @g_byte_array_remove_range[NullablePointer[GByteArrayT]](array': NullablePointer[GByteArrayT], index_': U32, length': U32)
 // use @g_byte_array_set_size[NullablePointer[GByteArrayT]](array': NullablePointer[GByteArrayT], length': U32)
 // use @g_byte_array_sized_new[NullablePointer[GByteArrayT]](reserved_size': U32)
+// use @g_byte_array_sort[None](array': NullablePointer[GByteArrayT], compare_func': GCompareFunc)
+// use @g_byte_array_sort_with_data[None](array': NullablePointer[GByteArrayT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag)
 // use @g_byte_array_steal[Pointer[U8] tag](array': NullablePointer[GByteArrayT], len': Pointer[U64] tag)
 // use @g_byte_array_unref[None](array': NullablePointer[GByteArrayT])
 

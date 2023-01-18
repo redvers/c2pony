@@ -73,6 +73,10 @@ fun set_child(menu_button': NullablePointer[GtkMenuButtonT], child': NullablePoi
     @gtk_menu_button_set_child(menu_button', child')
 */
 /* 
+fun set_create_popup_func(menu_button': NullablePointer[GtkMenuButtonT], func': GtkMenuButtonCreatePopupFunc, user_data': Pointer[None] tag, destroy_notify': GDestroyNotify): None =>
+    @gtk_menu_button_set_create_popup_func(menu_button', func', user_data', destroy_notify')
+*/
+/* 
 fun set_direction(menu_button': NullablePointer[GtkMenuButtonT], direction': U32): None =>
     @gtk_menu_button_set_direction(menu_button', direction')
 */

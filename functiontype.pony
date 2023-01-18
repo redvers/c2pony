@@ -1,6 +1,7 @@
 use "debug"
 class FunctionType
   var id: String = ""
+  var name: String = ""
   var returns: String = ""
 
   var arguments: Array[(Argument | Ellipsis)] = []

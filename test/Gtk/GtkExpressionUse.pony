@@ -17,3 +17,4 @@ use "lib:gtk-4"
 // use @gtk_expression_is_static[I32](self': NullablePointer[GtkExpressionT])
 // use @gtk_expression_ref[NullablePointer[GtkExpressionT]](self': NullablePointer[GtkExpressionT])
 // use @gtk_expression_unref[None](self': NullablePointer[GtkExpressionT])
+// use @gtk_expression_watch[NullablePointer[GtkExpressionWatchT]](self': NullablePointer[GtkExpressionT], this_': Pointer[None] tag, notify': GtkExpressionNotify, user_data': Pointer[None] tag, user_destroy': GDestroyNotify)

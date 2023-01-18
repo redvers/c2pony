@@ -30,6 +30,7 @@ use "lib:gtk-4"
 // use @gtk_assistant_remove_action_widget[None](assistant': NullablePointer[GtkAssistantT], child': NullablePointer[GtkWidgetT])
 // use @gtk_assistant_remove_page[None](assistant': NullablePointer[GtkAssistantT], page_num': I32)
 // use @gtk_assistant_set_current_page[None](assistant': NullablePointer[GtkAssistantT], page_num': I32)
+// use @gtk_assistant_set_forward_page_func[None](assistant': NullablePointer[GtkAssistantT], page_func': GtkAssistantPageFunc, data': Pointer[None] tag, destroy': GDestroyNotify)
 // use @gtk_assistant_set_page_complete[None](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT], complete': I32)
 // use @gtk_assistant_set_page_title[None](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT], title': Pointer[U8] tag)
 // use @gtk_assistant_set_page_type[None](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT], type': U32)

@@ -173,6 +173,10 @@ fun get_reorderable(tree_view': NullablePointer[GtkTreeViewT]): I32 =>
     @gtk_tree_view_get_reorderable(tree_view')
 */
 /* 
+fun get_row_separator_func(tree_view': NullablePointer[GtkTreeViewT]): GtkTreeViewRowSeparatorFunc =>
+    @gtk_tree_view_get_row_separator_func(tree_view')
+*/
+/* 
 fun get_rubber_banding(tree_view': NullablePointer[GtkTreeViewT]): I32 =>
     @gtk_tree_view_get_rubber_banding(tree_view')
 */
@@ -183,6 +187,10 @@ fun get_search_column(tree_view': NullablePointer[GtkTreeViewT]): I32 =>
 /* 
 fun get_search_entry(tree_view': NullablePointer[GtkTreeViewT]): NullablePointer[GtkEditableT] =>
     @gtk_tree_view_get_search_entry(tree_view')
+*/
+/* 
+fun get_search_equal_func(tree_view': NullablePointer[GtkTreeViewT]): GtkTreeViewSearchEqualFunc =>
+    @gtk_tree_view_get_search_equal_func(tree_view')
 */
 /* 
 fun get_selection(tree_view': NullablePointer[GtkTreeViewT]): NullablePointer[GtkTreeSelectionT] =>
@@ -217,12 +225,20 @@ fun insert_column_with_attributes(tree_view': NullablePointer[GtkTreeViewT], pos
     @gtk_tree_view_insert_column_with_attributes(tree_view', position', title', cell', ...)
 */
 /* 
+fun insert_column_with_data_func(tree_view': NullablePointer[GtkTreeViewT], position': I32, title': Pointer[U8] tag, cell': NullablePointer[GtkCellRendererT], func': GtkTreeCellDataFunc, data': Pointer[None] tag, dnotify': GDestroyNotify): I32 =>
+    @gtk_tree_view_insert_column_with_data_func(tree_view', position', title', cell', func', data', dnotify')
+*/
+/* 
 fun is_blank_at_pos(tree_view': NullablePointer[GtkTreeViewT], x': I32, y': I32, path': Pointer[NullablePointer[GtkTreePathT]], column': Pointer[NullablePointer[GtkTreeViewColumnT]], cell_x': Pointer[I32] tag, cell_y': Pointer[I32] tag): I32 =>
     @gtk_tree_view_is_blank_at_pos(tree_view', x', y', path', column', cell_x', cell_y')
 */
 /* 
 fun is_rubber_banding_active(tree_view': NullablePointer[GtkTreeViewT]): I32 =>
     @gtk_tree_view_is_rubber_banding_active(tree_view')
+*/
+/* 
+fun map_expanded_rows(tree_view': NullablePointer[GtkTreeViewT], func': GtkTreeViewMappingFunc, data': Pointer[None] tag): None =>
+    @gtk_tree_view_map_expanded_rows(tree_view', func', data')
 */
 /* 
 fun move_column_after(tree_view': NullablePointer[GtkTreeViewT], column': NullablePointer[GtkTreeViewColumnT], base_column': NullablePointer[GtkTreeViewColumnT]): None =>
@@ -251,6 +267,10 @@ fun scroll_to_point(tree_view': NullablePointer[GtkTreeViewT], tree_x': I32, tre
 /* 
 fun set_activate_on_single_click(tree_view': NullablePointer[GtkTreeViewT], single': I32): None =>
     @gtk_tree_view_set_activate_on_single_click(tree_view', single')
+*/
+/* 
+fun set_column_drag_function(tree_view': NullablePointer[GtkTreeViewT], func': GtkTreeViewColumnDropFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_tree_view_set_column_drag_function(tree_view', func', user_data', destroy')
 */
 /* 
 fun set_cursor(tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], focus_column': NullablePointer[GtkTreeViewColumnT], start_editing': I32): None =>
@@ -313,6 +333,10 @@ fun set_reorderable(tree_view': NullablePointer[GtkTreeViewT], reorderable': I32
     @gtk_tree_view_set_reorderable(tree_view', reorderable')
 */
 /* 
+fun set_row_separator_func(tree_view': NullablePointer[GtkTreeViewT], func': GtkTreeViewRowSeparatorFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_tree_view_set_row_separator_func(tree_view', func', data', destroy')
+*/
+/* 
 fun set_rubber_banding(tree_view': NullablePointer[GtkTreeViewT], enable': I32): None =>
     @gtk_tree_view_set_rubber_banding(tree_view', enable')
 */
@@ -323,6 +347,10 @@ fun set_search_column(tree_view': NullablePointer[GtkTreeViewT], column': I32): 
 /* 
 fun set_search_entry(tree_view': NullablePointer[GtkTreeViewT], entry': NullablePointer[GtkEditableT]): None =>
     @gtk_tree_view_set_search_entry(tree_view', entry')
+*/
+/* 
+fun set_search_equal_func(tree_view': NullablePointer[GtkTreeViewT], search_equal_func': GtkTreeViewSearchEqualFunc, search_user_data': Pointer[None] tag, search_destroy': GDestroyNotify): None =>
+    @gtk_tree_view_set_search_equal_func(tree_view', search_equal_func', search_user_data', search_destroy')
 */
 /* 
 fun set_show_expanders(tree_view': NullablePointer[GtkTreeViewT], enabled': I32): None =>

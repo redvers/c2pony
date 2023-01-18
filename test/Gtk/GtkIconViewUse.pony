@@ -49,6 +49,7 @@ use "lib:gtk-4"
 // use @gtk_icon_view_scroll_to_path[None](icon_view': NullablePointer[GtkIconViewT], path': NullablePointer[GtkTreePathT], use_align': I32, row_align': F32, col_align': F32)
 // use @gtk_icon_view_select_all[None](icon_view': NullablePointer[GtkIconViewT])
 // use @gtk_icon_view_select_path[None](icon_view': NullablePointer[GtkIconViewT], path': NullablePointer[GtkTreePathT])
+// use @gtk_icon_view_selected_foreach[None](icon_view': NullablePointer[GtkIconViewT], func': GtkIconViewForeachFunc, data': Pointer[None] tag)
 // use @gtk_icon_view_set_activate_on_single_click[None](icon_view': NullablePointer[GtkIconViewT], single': I32)
 // use @gtk_icon_view_set_column_spacing[None](icon_view': NullablePointer[GtkIconViewT], column_spacing': I32)
 // use @gtk_icon_view_set_columns[None](icon_view': NullablePointer[GtkIconViewT], columns': I32)

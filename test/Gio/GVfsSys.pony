@@ -38,6 +38,10 @@ fun parse_name(vfs': NullablePointer[GVfsT], parse_name': Pointer[U8] tag): Null
     @g_vfs_parse_name(vfs', parse_name')
 */
 /* 
+fun register_uri_scheme(vfs': NullablePointer[GVfsT], scheme': Pointer[U8] tag, uri_func': GVfsFileLookupFunc, uri_data': Pointer[None] tag, uri_destroy': GDestroyNotify, parse_name_func': GVfsFileLookupFunc, parse_name_data': Pointer[None] tag, parse_name_destroy': GDestroyNotify): I32 =>
+    @g_vfs_register_uri_scheme(vfs', scheme', uri_func', uri_data', uri_destroy', parse_name_func', parse_name_data', parse_name_destroy')
+*/
+/* 
 fun unregister_uri_scheme(vfs': NullablePointer[GVfsT], scheme': Pointer[U8] tag): I32 =>
     @g_vfs_unregister_uri_scheme(vfs', scheme')
 */

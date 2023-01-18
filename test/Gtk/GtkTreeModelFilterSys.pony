@@ -41,6 +41,14 @@ fun refilter(filter': NullablePointer[GtkTreeModelFilterT]): None =>
     @gtk_tree_model_filter_refilter(filter')
 */
 /* 
+fun set_modify_func(filter': NullablePointer[GtkTreeModelFilterT], n_columns': I32, types': Pointer[U64] tag, func': GtkTreeModelFilterModifyFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_tree_model_filter_set_modify_func(filter', n_columns', types', func', data', destroy')
+*/
+/* 
 fun set_visible_column(filter': NullablePointer[GtkTreeModelFilterT], column': I32): None =>
     @gtk_tree_model_filter_set_visible_column(filter', column')
+*/
+/* 
+fun set_visible_func(filter': NullablePointer[GtkTreeModelFilterT], func': GtkTreeModelFilterVisibleFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_tree_model_filter_set_visible_func(filter', func', data', destroy')
 */

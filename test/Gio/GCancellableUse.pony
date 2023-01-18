@@ -11,6 +11,7 @@ use "lib:gio-2.0"
 
 // Methods
 // use @g_cancellable_cancel[None](cancellable': NullablePointer[GCancellableT])
+// use @g_cancellable_connect[U64](cancellable': NullablePointer[GCancellableT], callback': GCallback, data': Pointer[None] tag, data_destroy_func': GDestroyNotify)
 // use @g_cancellable_disconnect[None](cancellable': NullablePointer[GCancellableT], handler_id': U64)
 // use @g_cancellable_get_fd[I32](cancellable': NullablePointer[GCancellableT])
 // use @g_cancellable_is_cancelled[I32](cancellable': NullablePointer[GCancellableT])

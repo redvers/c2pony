@@ -42,6 +42,10 @@ fun read_line(stream': NullablePointer[GDataInputStreamT], length': Pointer[U64]
     @g_data_input_stream_read_line(stream', length', cancellable', error')
 */
 /* 
+fun read_line_async(stream': NullablePointer[GDataInputStreamT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_data_input_stream_read_line_async(stream', io_priority', cancellable', callback', user_data')
+*/
+/* 
 fun read_line_finish(stream': NullablePointer[GDataInputStreamT], result': NullablePointer[GAsyncResultT], length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
     @g_data_input_stream_read_line_finish(stream', result', length', error')
 */
@@ -70,12 +74,20 @@ fun read_until(stream': NullablePointer[GDataInputStreamT], stop_chars': Pointer
     @g_data_input_stream_read_until(stream', stop_chars', length', cancellable', error')
 */
 /* 
+fun read_until_async(stream': NullablePointer[GDataInputStreamT], stop_chars': Pointer[U8] tag, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_data_input_stream_read_until_async(stream', stop_chars', io_priority', cancellable', callback', user_data')
+*/
+/* 
 fun read_until_finish(stream': NullablePointer[GDataInputStreamT], result': NullablePointer[GAsyncResultT], length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
     @g_data_input_stream_read_until_finish(stream', result', length', error')
 */
 /* 
 fun read_upto(stream': NullablePointer[GDataInputStreamT], stop_chars': Pointer[U8] tag, stop_chars_len': I64, length': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>
     @g_data_input_stream_read_upto(stream', stop_chars', stop_chars_len', length', cancellable', error')
+*/
+/* 
+fun read_upto_async(stream': NullablePointer[GDataInputStreamT], stop_chars': Pointer[U8] tag, stop_chars_len': I64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_data_input_stream_read_upto_async(stream', stop_chars', stop_chars_len', io_priority', cancellable', callback', user_data')
 */
 /* 
 fun read_upto_finish(stream': NullablePointer[GDataInputStreamT], result': NullablePointer[GAsyncResultT], length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[U8] tag =>

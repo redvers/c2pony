@@ -54,6 +54,10 @@ fun bind(settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, object':
     @g_settings_bind(settings', key', object', property', flags')
 */
 /* 
+fun bind_with_mapping(settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, flags': U32, get_mapping': GSettingsBindGetMapping, set_mapping': GSettingsBindSetMapping, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @g_settings_bind_with_mapping(settings', key', object', property', flags', get_mapping', set_mapping', user_data', destroy')
+*/
+/* 
 fun bind_writable(settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, inverted': I32): None =>
     @g_settings_bind_writable(settings', key', object', property', inverted')
 */
@@ -104,6 +108,10 @@ fun get_int(settings': NullablePointer[GSettingsT], key': Pointer[U8] tag): I32 
 /* 
 fun get_int64(settings': NullablePointer[GSettingsT], key': Pointer[U8] tag): I64 =>
     @g_settings_get_int64(settings', key')
+*/
+/* 
+fun get_mapped(settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, mapping': GSettingsGetMapping, user_data': Pointer[None] tag): Pointer[None] tag =>
+    @g_settings_get_mapped(settings', key', mapping', user_data')
 */
 /* 
 fun get_range(settings': NullablePointer[GSettingsT], key': Pointer[U8] tag): NullablePointer[GVariantT] =>

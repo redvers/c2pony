@@ -21,6 +21,10 @@ fun append(box': NullablePointer[GtkListBoxT], child': NullablePointer[GtkWidget
     @gtk_list_box_append(box', child')
 */
 /* 
+fun bind_model(box': NullablePointer[GtkListBoxT], model': NullablePointer[GListModelT], create_widget_func': GtkListBoxCreateWidgetFunc, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify): None =>
+    @gtk_list_box_bind_model(box', model', create_widget_func', user_data', user_data_free_func')
+*/
+/* 
 fun drag_highlight_row(box': NullablePointer[GtkListBoxT], row': NullablePointer[GtkListBoxRowT]): None =>
     @gtk_list_box_drag_highlight_row(box', row')
 */
@@ -93,12 +97,24 @@ fun select_row(box': NullablePointer[GtkListBoxT], row': NullablePointer[GtkList
     @gtk_list_box_select_row(box', row')
 */
 /* 
+fun selected_foreach(box': NullablePointer[GtkListBoxT], func': GtkListBoxForeachFunc, data': Pointer[None] tag): None =>
+    @gtk_list_box_selected_foreach(box', func', data')
+*/
+/* 
 fun set_activate_on_single_click(box': NullablePointer[GtkListBoxT], single': I32): None =>
     @gtk_list_box_set_activate_on_single_click(box', single')
 */
 /* 
 fun set_adjustment(box': NullablePointer[GtkListBoxT], adjustment': NullablePointer[GtkAdjustmentT]): None =>
     @gtk_list_box_set_adjustment(box', adjustment')
+*/
+/* 
+fun set_filter_func(box': NullablePointer[GtkListBoxT], filter_func': GtkListBoxFilterFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_list_box_set_filter_func(box', filter_func', user_data', destroy')
+*/
+/* 
+fun set_header_func(box': NullablePointer[GtkListBoxT], update_header': GtkListBoxUpdateHeaderFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_list_box_set_header_func(box', update_header', user_data', destroy')
 */
 /* 
 fun set_placeholder(box': NullablePointer[GtkListBoxT], placeholder': NullablePointer[GtkWidgetT]): None =>
@@ -111,6 +127,10 @@ fun set_selection_mode(box': NullablePointer[GtkListBoxT], mode': U32): None =>
 /* 
 fun set_show_separators(box': NullablePointer[GtkListBoxT], show_separators': I32): None =>
     @gtk_list_box_set_show_separators(box', show_separators')
+*/
+/* 
+fun set_sort_func(box': NullablePointer[GtkListBoxT], sort_func': GtkListBoxSortFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_list_box_set_sort_func(box', sort_func', user_data', destroy')
 */
 /* 
 fun unselect_all(box': NullablePointer[GtkListBoxT]): None =>

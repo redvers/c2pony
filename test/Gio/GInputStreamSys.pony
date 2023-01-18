@@ -18,6 +18,10 @@ fun close(stream': NullablePointer[GInputStreamT], cancellable': NullablePointer
     @g_input_stream_close(stream', cancellable', error')
 */
 /* 
+fun close_async(stream': NullablePointer[GInputStreamT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_input_stream_close_async(stream', io_priority', cancellable', callback', user_data')
+*/
+/* 
 fun close_finish(stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_input_stream_close_finish(stream', result', error')
 */
@@ -38,12 +42,24 @@ fun read_all(stream': NullablePointer[GInputStreamT], buffer': Pointer[None] tag
     @g_input_stream_read_all(stream', buffer', count', bytes_read', cancellable', error')
 */
 /* 
+fun read_all_async(stream': NullablePointer[GInputStreamT], buffer': Pointer[None] tag, count': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_input_stream_read_all_async(stream', buffer', count', io_priority', cancellable', callback', user_data')
+*/
+/* 
 fun read_all_finish(stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], bytes_read': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_input_stream_read_all_finish(stream', result', bytes_read', error')
 */
 /* 
+fun read_async(stream': NullablePointer[GInputStreamT], buffer': Pointer[None] tag, count': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_input_stream_read_async(stream', buffer', count', io_priority', cancellable', callback', user_data')
+*/
+/* 
 fun read_bytes(stream': NullablePointer[GInputStreamT], count': U64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GBytesT] =>
     @g_input_stream_read_bytes(stream', count', cancellable', error')
+*/
+/* 
+fun read_bytes_async(stream': NullablePointer[GInputStreamT], count': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_input_stream_read_bytes_async(stream', count', io_priority', cancellable', callback', user_data')
 */
 /* 
 fun read_bytes_finish(stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GBytesT] =>
@@ -60,6 +76,10 @@ fun set_pending(stream': NullablePointer[GInputStreamT], error': Pointer[Nullabl
 /* 
 fun skip(stream': NullablePointer[GInputStreamT], count': U64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
     @g_input_stream_skip(stream', count', cancellable', error')
+*/
+/* 
+fun skip_async(stream': NullablePointer[GInputStreamT], count': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_input_stream_skip_async(stream', count', io_priority', cancellable', callback', user_data')
 */
 /* 
 fun skip_finish(stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I64 =>

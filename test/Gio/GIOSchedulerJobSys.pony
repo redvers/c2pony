@@ -9,3 +9,11 @@ primitive GIOSchedulerJobSys
 // Constructors
 
 // Methods
+/* 
+fun send_to_mainloop(job': NullablePointer[GIOSchedulerJobT], func': GSourceFunc, user_data': Pointer[None] tag, notify': GDestroyNotify): I32 =>
+    @g_io_scheduler_job_send_to_mainloop(job', func', user_data', notify')
+*/
+/* 
+fun send_to_mainloop_async(job': NullablePointer[GIOSchedulerJobT], func': GSourceFunc, user_data': Pointer[None] tag, notify': GDestroyNotify): None =>
+    @g_io_scheduler_job_send_to_mainloop_async(job', func', user_data', notify')
+*/

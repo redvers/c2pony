@@ -5,6 +5,14 @@ use "lib:gio-2.0"
 
 primitive GDBusProxySys
 // Static Functions
+/* 
+fun gnew(connection': NullablePointer[GDBusConnectionT], flags': U32, info': NullablePointer[GDBusInterfaceInfoT], name': Pointer[U8] tag, object_path': Pointer[U8] tag, interface_name': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_proxy_new(connection', flags', info', name', object_path', interface_name', cancellable', callback', user_data')
+*/
+/* 
+fun new_for_bus(bus_type': I32, flags': U32, info': NullablePointer[GDBusInterfaceInfoT], name': Pointer[U8] tag, object_path': Pointer[U8] tag, interface_name': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_proxy_new_for_bus(bus_type', flags', info', name', object_path', interface_name', cancellable', callback', user_data')
+*/
 
 // Constructors
 /* 
@@ -26,12 +34,20 @@ fun new_sync(connection': NullablePointer[GDBusConnectionT], flags': U32, info':
 
 // Methods
 /* 
+fun call(proxy': NullablePointer[GDBusProxyT], method_name': Pointer[U8] tag, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_proxy_call(proxy', method_name', parameters', flags', timeout_msec', cancellable', callback', user_data')
+*/
+/* 
 fun call_finish(proxy': NullablePointer[GDBusProxyT], res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GVariantT] =>
     @g_dbus_proxy_call_finish(proxy', res', error')
 */
 /* 
 fun call_sync(proxy': NullablePointer[GDBusProxyT], method_name': Pointer[U8] tag, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GVariantT] =>
     @g_dbus_proxy_call_sync(proxy', method_name', parameters', flags', timeout_msec', cancellable', error')
+*/
+/* 
+fun call_with_unix_fd_list(proxy': NullablePointer[GDBusProxyT], method_name': Pointer[U8] tag, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, fd_list': NullablePointer[GUnixFDListT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_proxy_call_with_unix_fd_list(proxy', method_name', parameters', flags', timeout_msec', fd_list', cancellable', callback', user_data')
 */
 /* 
 fun call_with_unix_fd_list_finish(proxy': NullablePointer[GDBusProxyT], out_fd_list': Pointer[NullablePointer[GUnixFDListT]], res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GVariantT] =>

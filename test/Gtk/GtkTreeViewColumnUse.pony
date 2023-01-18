@@ -48,6 +48,7 @@ use "lib:gtk-4"
 // use @gtk_tree_view_column_queue_resize[None](tree_column': NullablePointer[GtkTreeViewColumnT])
 // use @gtk_tree_view_column_set_alignment[None](tree_column': NullablePointer[GtkTreeViewColumnT], xalign': F32)
 // use @gtk_tree_view_column_set_attributes[None](tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT], ...)
+// use @gtk_tree_view_column_set_cell_data_func[None](tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT], func': GtkTreeCellDataFunc, func_data': Pointer[None] tag, destroy': GDestroyNotify)
 // use @gtk_tree_view_column_set_clickable[None](tree_column': NullablePointer[GtkTreeViewColumnT], clickable': I32)
 // use @gtk_tree_view_column_set_expand[None](tree_column': NullablePointer[GtkTreeViewColumnT], expand': I32)
 // use @gtk_tree_view_column_set_fixed_width[None](tree_column': NullablePointer[GtkTreeViewColumnT], fixed_width': I32)

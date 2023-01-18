@@ -8,3 +8,4 @@ use "lib:glib-2.0"
 // Constructors
 
 // Methods
+// use @g_once_impl[Pointer[None] tag](once': NullablePointer[GOnceT], func': GThreadFunc, arg': Pointer[None] tag)

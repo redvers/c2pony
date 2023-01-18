@@ -53,6 +53,10 @@ fun add_mnemonic_label(widget': NullablePointer[GtkWidgetT], label': NullablePoi
     @gtk_widget_add_mnemonic_label(widget', label')
 */
 /* 
+fun add_tick_callback(widget': NullablePointer[GtkWidgetT], callback': GtkTickCallback, user_data': Pointer[None] tag, notify': GDestroyNotify): U32 =>
+    @gtk_widget_add_tick_callback(widget', callback', user_data', notify')
+*/
+/* 
 fun allocate(widget': NullablePointer[GtkWidgetT], width': I32, height': I32, baseline': I32, transform': NullablePointer[GskTransformT]): None =>
     @gtk_widget_allocate(widget', width', height', baseline', transform')
 */

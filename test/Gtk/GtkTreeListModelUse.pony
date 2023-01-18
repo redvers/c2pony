@@ -9,6 +9,7 @@ use "lib:gtk-4"
 // Static Functions
 
 // Constructors
+// use @gtk_tree_list_model_new[NullablePointer[GtkTreeListModelT]](root': NullablePointer[GListModelT], passthrough': I32, autoexpand': I32, create_func': GtkTreeListModelCreateModelFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify)
 
 // Methods
 // use @gtk_tree_list_model_get_autoexpand[I32](self': NullablePointer[GtkTreeListModelT])

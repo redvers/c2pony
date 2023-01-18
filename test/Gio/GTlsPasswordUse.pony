@@ -16,4 +16,5 @@ use "lib:gio-2.0"
 // use @g_tls_password_set_description[None](password': NullablePointer[GTlsPasswordT], description': Pointer[U8] tag)
 // use @g_tls_password_set_flags[None](password': NullablePointer[GTlsPasswordT], flags': U32)
 // use @g_tls_password_set_value[None](password': NullablePointer[GTlsPasswordT], value': Pointer[U8] tag, length': I64)
+// use @g_tls_password_set_value_full[None](password': NullablePointer[GTlsPasswordT], value': Pointer[U8] tag, length': I64, destroy': GDestroyNotify)
 // use @g_tls_password_set_warning[None](password': NullablePointer[GTlsPasswordT], warning': Pointer[U8] tag)

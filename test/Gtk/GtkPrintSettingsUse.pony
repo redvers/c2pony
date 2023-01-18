@@ -16,6 +16,7 @@ use "lib:gtk-4"
 
 // Methods
 // use @gtk_print_settings_copy[NullablePointer[GtkPrintSettingsT]](other': NullablePointer[GtkPrintSettingsT])
+// use @gtk_print_settings_foreach[None](settings': NullablePointer[GtkPrintSettingsT], func': GtkPrintSettingsFunc, user_data': Pointer[None] tag)
 // use @gtk_print_settings_get[Pointer[U8] tag](settings': NullablePointer[GtkPrintSettingsT], key': Pointer[U8] tag)
 // use @gtk_print_settings_get_bool[I32](settings': NullablePointer[GtkPrintSettingsT], key': Pointer[U8] tag)
 // use @gtk_print_settings_get_collate[I32](settings': NullablePointer[GtkPrintSettingsT])

@@ -28,6 +28,7 @@ use "lib:gtk-4"
 // use @gtk_entry_completion_insert_prefix[None](completion': NullablePointer[GtkEntryCompletionT])
 // use @gtk_entry_completion_set_inline_completion[None](completion': NullablePointer[GtkEntryCompletionT], inline_completion': I32)
 // use @gtk_entry_completion_set_inline_selection[None](completion': NullablePointer[GtkEntryCompletionT], inline_selection': I32)
+// use @gtk_entry_completion_set_match_func[None](completion': NullablePointer[GtkEntryCompletionT], func': GtkEntryCompletionMatchFunc, func_data': Pointer[None] tag, func_notify': GDestroyNotify)
 // use @gtk_entry_completion_set_minimum_key_length[None](completion': NullablePointer[GtkEntryCompletionT], length': I32)
 // use @gtk_entry_completion_set_model[None](completion': NullablePointer[GtkEntryCompletionT], model': NullablePointer[GtkTreeModelT])
 // use @gtk_entry_completion_set_popup_completion[None](completion': NullablePointer[GtkEntryCompletionT], popup_completion': I32)

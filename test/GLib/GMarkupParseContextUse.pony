@@ -4,6 +4,7 @@ use "lib:glib-2.0"
 // Static Functions
 
 // Constructors
+// use @g_markup_parse_context_new[NullablePointer[GMarkupParseContextT]](parser': NullablePointer[GMarkupParserT], flags': U32, user_data': Pointer[None] tag, user_data_dnotify': GDestroyNotify)
 
 // Methods
 // use @g_markup_parse_context_end_parse[I32](context': NullablePointer[GMarkupParseContextT], error': Pointer[NullablePointer[GErrorT]])

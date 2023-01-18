@@ -22,6 +22,10 @@ fun connect(connection': NullablePointer[GSocketConnectionT], address': Nullable
     @g_socket_connection_connect(connection', address', cancellable', error')
 */
 /* 
+fun connect_async(connection': NullablePointer[GSocketConnectionT], address': NullablePointer[GSocketAddressT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_connection_connect_async(connection', address', cancellable', callback', user_data')
+*/
+/* 
 fun connect_finish(connection': NullablePointer[GSocketConnectionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     @g_socket_connection_connect_finish(connection', result', error')
 */

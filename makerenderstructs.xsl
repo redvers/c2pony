@@ -27,6 +27,9 @@
     <xsl:for-each select="./t:interface">
       <xsl:call-template name="interface"><xsl:with-param name="n" select="."/></xsl:call-template> 
     </xsl:for-each>
+    <xsl:for-each select="./t:callback">
+      <xsl:call-template name="callback"><xsl:with-param name="n" select="."/></xsl:call-template> 
+    </xsl:for-each>
   </ns>
   <!-- <xsl:call-template name="mainstruct"><xsl:with-param name="n" select="/castxml2pony/structs/struct[@id=$iid]"/><xsl:with-param name="renderfields" select="@render"/></xsl:call-template> -->
 </xsl:template>
@@ -93,6 +96,11 @@
       <renderfunction name="{$cname}" ponyname="{$ponyname}" render="{$renderval}" deprecated="{./@deprecated}"/>
     </xsl:otherwise>
   </xsl:choose>
+</xsl:template>
+
+<xsl:template name="callback">
+  <xsl:variable name="cname" select="./@c:type"/>
+  <rendercallback name="{$cname}" render="0"/>
 </xsl:template>
 
 

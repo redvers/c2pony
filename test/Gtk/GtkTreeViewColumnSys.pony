@@ -161,6 +161,10 @@ fun set_attributes(tree_column': NullablePointer[GtkTreeViewColumnT], cell_rende
     @gtk_tree_view_column_set_attributes(tree_column', cell_renderer', ...)
 */
 /* 
+fun set_cell_data_func(tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT], func': GtkTreeCellDataFunc, func_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_tree_view_column_set_cell_data_func(tree_column', cell_renderer', func', func_data', destroy')
+*/
+/* 
 fun set_clickable(tree_column': NullablePointer[GtkTreeViewColumnT], clickable': I32): None =>
     @gtk_tree_view_column_set_clickable(tree_column', clickable')
 */

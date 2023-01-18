@@ -20,8 +20,16 @@ fun child_position(node': NullablePointer[GNodeT], child': NullablePointer[GNode
     @g_node_child_position(node', child')
 */
 /* 
+fun children_foreach(node': NullablePointer[GNodeT], flags': U32, func': GNodeForeachFunc, data': Pointer[None] tag): None =>
+    @g_node_children_foreach(node', flags', func', data')
+*/
+/* 
 fun copy(node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
     @g_node_copy(node')
+*/
+/* 
+fun copy_deep(node': NullablePointer[GNodeT], copy_func': GCopyFunc, data': Pointer[None] tag): NullablePointer[GNodeT] =>
+    @g_node_copy_deep(node', copy_func', data')
 */
 /* 
 fun depth(node': NullablePointer[GNodeT]): U32 =>
@@ -94,6 +102,10 @@ fun prepend(parent': NullablePointer[GNodeT], node': NullablePointer[GNodeT]): N
 /* 
 fun reverse_children(node': NullablePointer[GNodeT]): None =>
     @g_node_reverse_children(node')
+*/
+/* 
+fun traverse(root': NullablePointer[GNodeT], order': U32, flags': U32, max_depth': I32, func': GNodeTraverseFunc, data': Pointer[None] tag): None =>
+    @g_node_traverse(root', order', flags', max_depth', func', data')
 */
 /* 
 fun unlink(node': NullablePointer[GNodeT]): None =>

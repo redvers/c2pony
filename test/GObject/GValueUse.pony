@@ -3,6 +3,7 @@ use "../GLib"
 use "lib:gobject-2.0"
 
 // Static Functions
+// use @g_value_register_transform_func[None](src_type': U64, dest_type': U64, transform_func': GValueTransform)
 // use @g_value_type_compatible[I32](src_type': U64, dest_type': U64)
 // use @g_value_type_transformable[I32](src_type': U64, dest_type': U64)
 

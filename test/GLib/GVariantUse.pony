@@ -20,6 +20,7 @@ use "lib:glib-2.0"
 // use @g_variant_new_double[NullablePointer[GVariantT]](value': F64)
 // use @g_variant_new_fixed_array[NullablePointer[GVariantT]](element_type': NullablePointer[GVariantTypeT], elements': Pointer[None] tag, n_elements': U64, element_size': U64)
 // use @g_variant_new_from_bytes[NullablePointer[GVariantT]](type': NullablePointer[GVariantTypeT], bytes': NullablePointer[GBytesT], trusted': I32)
+// use @g_variant_new_from_data[NullablePointer[GVariantT]](type': NullablePointer[GVariantTypeT], data': Pointer[None] tag, size': U64, trusted': I32, notify': GDestroyNotify, user_data': Pointer[None] tag)
 // use @g_variant_new_handle[NullablePointer[GVariantT]](value': I32)
 // use @g_variant_new_int16[NullablePointer[GVariantT]](value': I16)
 // use @g_variant_new_int32[NullablePointer[GVariantT]](value': I32)

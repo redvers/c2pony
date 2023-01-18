@@ -15,3 +15,7 @@ fun init_leave(location': Pointer[None] tag, result': U64): None =>
 // Constructors
 
 // Methods
+/* 
+fun impl(once': NullablePointer[GOnceT], func': GThreadFunc, arg': Pointer[None] tag): Pointer[None] tag =>
+    @g_once_impl(once', func', arg')
+*/

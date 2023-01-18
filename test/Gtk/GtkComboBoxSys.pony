@@ -69,6 +69,10 @@ fun get_popup_fixed_width(combo_box': NullablePointer[GtkComboBoxT]): I32 =>
     @gtk_combo_box_get_popup_fixed_width(combo_box')
 */
 /* 
+fun get_row_separator_func(combo_box': NullablePointer[GtkComboBoxT]): GtkTreeViewRowSeparatorFunc =>
+    @gtk_combo_box_get_row_separator_func(combo_box')
+*/
+/* 
 fun popdown(combo_box': NullablePointer[GtkComboBoxT]): None =>
     @gtk_combo_box_popdown(combo_box')
 */
@@ -115,4 +119,8 @@ fun set_model(combo_box': NullablePointer[GtkComboBoxT], model': NullablePointer
 /* 
 fun set_popup_fixed_width(combo_box': NullablePointer[GtkComboBoxT], fixed': I32): None =>
     @gtk_combo_box_set_popup_fixed_width(combo_box', fixed')
+*/
+/* 
+fun set_row_separator_func(combo_box': NullablePointer[GtkComboBoxT], func': GtkTreeViewRowSeparatorFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_combo_box_set_row_separator_func(combo_box', func', data', destroy')
 */

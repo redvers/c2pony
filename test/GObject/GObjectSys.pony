@@ -41,12 +41,20 @@ fun newv(object_type': U64, n_parameters': U32, parameters': NullablePointer[GPa
 
 // Methods
 /* 
+fun add_toggle_ref(object': NullablePointer[GObjectT], notify': GToggleNotify, data': Pointer[None] tag): None =>
+    @g_object_add_toggle_ref(object', notify', data')
+*/
+/* 
 fun add_weak_pointer(object': NullablePointer[GObjectT], weak_pointer_location': Pointer[Pointer[None]] tag): None =>
     @g_object_add_weak_pointer(object', weak_pointer_location')
 */
 /* 
 fun bind_property(source': Pointer[None] tag, source_property': Pointer[U8] tag, target': Pointer[None] tag, target_property': Pointer[U8] tag, flags': U32): NullablePointer[GBindingT] =>
     @g_object_bind_property(source', source_property', target', target_property', flags')
+*/
+/* 
+fun bind_property_full(source': Pointer[None] tag, source_property': Pointer[U8] tag, target': Pointer[None] tag, target_property': Pointer[U8] tag, flags': U32, transform_to': GBindingTransformFunc, transform_from': GBindingTransformFunc, user_data': Pointer[None] tag, notify': GDestroyNotify): NullablePointer[GBindingT] =>
+    @g_object_bind_property_full(source', source_property', target', target_property', flags', transform_to', transform_from', user_data', notify')
 */
 /* 
 fun bind_property_with_closures(source': Pointer[None] tag, source_property': Pointer[U8] tag, target': Pointer[None] tag, target_property': Pointer[U8] tag, flags': U32, transform_to': NullablePointer[GClosureT], transform_from': NullablePointer[GClosureT]): NullablePointer[GBindingT] =>
@@ -59,6 +67,14 @@ fun connect(object': Pointer[None] tag, signal_spec': Pointer[U8] tag, ...): Poi
 /* 
 fun disconnect(object': Pointer[None] tag, signal_spec': Pointer[U8] tag, ...): None =>
     @g_object_disconnect(object', signal_spec', ...)
+*/
+/* 
+fun dup_data(object': NullablePointer[GObjectT], key': Pointer[U8] tag, dup_func': GDuplicateFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
+    @g_object_dup_data(object', key', dup_func', user_data')
+*/
+/* 
+fun dup_qdata(object': NullablePointer[GObjectT], quark': U32, dup_func': GDuplicateFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
+    @g_object_dup_qdata(object', quark', dup_func', user_data')
 */
 /* 
 fun force_floating(object': NullablePointer[GObjectT]): None =>
@@ -113,6 +129,10 @@ fun ref_sink(object': Pointer[None] tag): Pointer[None] tag =>
     @g_object_ref_sink(object')
 */
 /* 
+fun remove_toggle_ref(object': NullablePointer[GObjectT], notify': GToggleNotify, data': Pointer[None] tag): None =>
+    @g_object_remove_toggle_ref(object', notify', data')
+*/
+/* 
 fun remove_weak_pointer(object': NullablePointer[GObjectT], weak_pointer_location': Pointer[Pointer[None]] tag): None =>
     @g_object_remove_weak_pointer(object', weak_pointer_location')
 */
@@ -129,12 +149,20 @@ fun set_data(object': NullablePointer[GObjectT], key': Pointer[U8] tag, data': P
     @g_object_set_data(object', key', data')
 */
 /* 
+fun set_data_full(object': NullablePointer[GObjectT], key': Pointer[U8] tag, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @g_object_set_data_full(object', key', data', destroy')
+*/
+/* 
 fun set_property(object': NullablePointer[GObjectT], property_name': Pointer[U8] tag, value': NullablePointer[GValueT]): None =>
     @g_object_set_property(object', property_name', value')
 */
 /* 
 fun set_qdata(object': NullablePointer[GObjectT], quark': U32, data': Pointer[None] tag): None =>
     @g_object_set_qdata(object', quark', data')
+*/
+/* 
+fun set_qdata_full(object': NullablePointer[GObjectT], quark': U32, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @g_object_set_qdata_full(object', quark', data', destroy')
 */
 /* 
 fun set_valist(object': NullablePointer[GObjectT], first_property_name': Pointer[U8] tag, var_args': NullablePointer[valisttagT]): None =>
@@ -163,4 +191,12 @@ fun unref(object': Pointer[None] tag): None =>
 /* 
 fun watch_closure(object': NullablePointer[GObjectT], closure': NullablePointer[GClosureT]): None =>
     @g_object_watch_closure(object', closure')
+*/
+/* 
+fun weak_ref(object': NullablePointer[GObjectT], notify': GWeakNotify, data': Pointer[None] tag): None =>
+    @g_object_weak_ref(object', notify', data')
+*/
+/* 
+fun weak_unref(object': NullablePointer[GObjectT], notify': GWeakNotify, data': Pointer[None] tag): None =>
+    @g_object_weak_unref(object', notify', data')
 */

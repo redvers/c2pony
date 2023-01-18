@@ -52,6 +52,14 @@ fun get_summary(context': NullablePointer[GOptionContextT]): Pointer[U8] tag =>
     @g_option_context_get_summary(context')
 */
 /* 
+fun parse(context': NullablePointer[GOptionContextT], argc': Pointer[I32] tag, argv': Pointer[Pointer[Pointer[U8]]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_option_context_parse(context', argc', argv', error')
+*/
+/* 
+fun parse_strv(context': NullablePointer[GOptionContextT], arguments': Pointer[Pointer[Pointer[U8]]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_option_context_parse_strv(context', arguments', error')
+*/
+/* 
 fun set_description(context': NullablePointer[GOptionContextT], description': Pointer[U8] tag): None =>
     @g_option_context_set_description(context', description')
 */
@@ -74,6 +82,10 @@ fun set_strict_posix(context': NullablePointer[GOptionContextT], strict_posix': 
 /* 
 fun set_summary(context': NullablePointer[GOptionContextT], summary': Pointer[U8] tag): None =>
     @g_option_context_set_summary(context', summary')
+*/
+/* 
+fun set_translate_func(context': NullablePointer[GOptionContextT], func': GTranslateFunc, data': Pointer[None] tag, destroy_notify': GDestroyNotify): None =>
+    @g_option_context_set_translate_func(context', func', data', destroy_notify')
 */
 /* 
 fun set_translation_domain(context': NullablePointer[GOptionContextT], domain': Pointer[U8] tag): None =>

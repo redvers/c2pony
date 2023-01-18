@@ -9,10 +9,26 @@ primitive GTaskSys
 fun is_valid(result': Pointer[None] tag, source_object': Pointer[None] tag): I32 =>
     @g_task_is_valid(result', source_object')
 */
+/* 
+fun report_error(source_object': Pointer[None] tag, callback': GAsyncReadyCallback, callback_data': Pointer[None] tag, source_tag': Pointer[None] tag, error': NullablePointer[GErrorT]): None =>
+    @g_task_report_error(source_object', callback', callback_data', source_tag', error')
+*/
+/* 
+fun report_new_error(source_object': Pointer[None] tag, callback': GAsyncReadyCallback, callback_data': Pointer[None] tag, source_tag': Pointer[None] tag, domain': U32, code': I32, format': Pointer[U8] tag, ...): None =>
+    @g_task_report_new_error(source_object', callback', callback_data', source_tag', domain', code', format', ...)
+*/
 
 // Constructors
+/* 
+fun gnew(source_object': Pointer[None] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, callback_data': Pointer[None] tag): NullablePointer[GTaskT] =>
+    @g_task_new(source_object', cancellable', callback', callback_data')
+*/
 
 // Methods
+/* 
+fun attach_source(task': NullablePointer[GTaskT], source': NullablePointer[GSourceT], callback': GSourceFunc): None =>
+    @g_task_attach_source(task', source', callback')
+*/
 /* 
 fun get_cancellable(task': NullablePointer[GTaskT]): NullablePointer[GCancellableT] =>
     @g_task_get_cancellable(task')
@@ -94,8 +110,20 @@ fun return_new_error(task': NullablePointer[GTaskT], domain': U32, code': I32, f
     @g_task_return_new_error(task', domain', code', format', ...)
 */
 /* 
+fun return_pointer(task': NullablePointer[GTaskT], result': Pointer[None] tag, result_destroy': GDestroyNotify): None =>
+    @g_task_return_pointer(task', result', result_destroy')
+*/
+/* 
 fun return_value(task': NullablePointer[GTaskT], result': NullablePointer[GValueT]): None =>
     @g_task_return_value(task', result')
+*/
+/* 
+fun run_in_thread(task': NullablePointer[GTaskT], task_func': GTaskThreadFunc): None =>
+    @g_task_run_in_thread(task', task_func')
+*/
+/* 
+fun run_in_thread_sync(task': NullablePointer[GTaskT], task_func': GTaskThreadFunc): None =>
+    @g_task_run_in_thread_sync(task', task_func')
 */
 /* 
 fun set_check_cancellable(task': NullablePointer[GTaskT], check_cancellable': I32): None =>
@@ -116,4 +144,8 @@ fun set_return_on_cancel(task': NullablePointer[GTaskT], return_on_cancel': I32)
 /* 
 fun set_source_tag(task': NullablePointer[GTaskT], source_tag': Pointer[None] tag): None =>
     @g_task_set_source_tag(task', source_tag')
+*/
+/* 
+fun set_task_data(task': NullablePointer[GTaskT], task_data': Pointer[None] tag, task_data_destroy': GDestroyNotify): None =>
+    @g_task_set_task_data(task', task_data', task_data_destroy')
 */

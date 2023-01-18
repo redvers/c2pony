@@ -18,6 +18,10 @@ fun getenv(self': NullablePointer[GSubprocessLauncherT], variable': Pointer[U8] 
     @g_subprocess_launcher_getenv(self', variable')
 */
 /* 
+fun set_child_setup(self': NullablePointer[GSubprocessLauncherT], child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, destroy_notify': GDestroyNotify): None =>
+    @g_subprocess_launcher_set_child_setup(self', child_setup', user_data', destroy_notify')
+*/
+/* 
 fun set_cwd(self': NullablePointer[GSubprocessLauncherT], cwd': Pointer[U8] tag): None =>
     @g_subprocess_launcher_set_cwd(self', cwd')
 */

@@ -10,8 +10,10 @@ use "lib:gio-2.0"
 
 // Methods
 // use @g_socket_listener_accept[NullablePointer[GSocketConnectionT]](listener': NullablePointer[GSocketListenerT], source_object': Pointer[NullablePointer[GObjectT]], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+// use @g_socket_listener_accept_async[None](listener': NullablePointer[GSocketListenerT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
 // use @g_socket_listener_accept_finish[NullablePointer[GSocketConnectionT]](listener': NullablePointer[GSocketListenerT], result': NullablePointer[GAsyncResultT], source_object': Pointer[NullablePointer[GObjectT]], error': Pointer[NullablePointer[GErrorT]])
 // use @g_socket_listener_accept_socket[NullablePointer[GSocketT]](listener': NullablePointer[GSocketListenerT], source_object': Pointer[NullablePointer[GObjectT]], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+// use @g_socket_listener_accept_socket_async[None](listener': NullablePointer[GSocketListenerT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
 // use @g_socket_listener_accept_socket_finish[NullablePointer[GSocketT]](listener': NullablePointer[GSocketListenerT], result': NullablePointer[GAsyncResultT], source_object': Pointer[NullablePointer[GObjectT]], error': Pointer[NullablePointer[GErrorT]])
 // use @g_socket_listener_add_address[I32](listener': NullablePointer[GSocketListenerT], address': NullablePointer[GSocketAddressT], type': U32, protocol': I32, source_object': NullablePointer[GObjectT], effective_address': Pointer[NullablePointer[GSocketAddressT]], error': Pointer[NullablePointer[GErrorT]])
 // use @g_socket_listener_add_any_inet_port[U16](listener': NullablePointer[GSocketListenerT], source_object': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

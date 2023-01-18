@@ -23,5 +23,6 @@ use "lib:gtk-4"
 // use @gtk_scale_get_value_pos[U32](scale': NullablePointer[GtkScaleT])
 // use @gtk_scale_set_digits[None](scale': NullablePointer[GtkScaleT], digits': I32)
 // use @gtk_scale_set_draw_value[None](scale': NullablePointer[GtkScaleT], draw_value': I32)
+// use @gtk_scale_set_format_value_func[None](scale': NullablePointer[GtkScaleT], func': GtkScaleFormatValueFunc, user_data': Pointer[None] tag, destroy_notify': GDestroyNotify)
 // use @gtk_scale_set_has_origin[None](scale': NullablePointer[GtkScaleT], has_origin': I32)
 // use @gtk_scale_set_value_pos[None](scale': NullablePointer[GtkScaleT], pos': U32)

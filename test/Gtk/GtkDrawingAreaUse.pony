@@ -16,3 +16,4 @@ use "lib:gtk-4"
 // use @gtk_drawing_area_get_content_width[I32](self': NullablePointer[GtkDrawingAreaT])
 // use @gtk_drawing_area_set_content_height[None](self': NullablePointer[GtkDrawingAreaT], height': I32)
 // use @gtk_drawing_area_set_content_width[None](self': NullablePointer[GtkDrawingAreaT], width': I32)
+// use @gtk_drawing_area_set_draw_func[None](self': NullablePointer[GtkDrawingAreaT], draw_func': GtkDrawingAreaDrawFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify)

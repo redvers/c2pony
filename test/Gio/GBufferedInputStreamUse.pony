@@ -11,6 +11,7 @@ use "lib:gio-2.0"
 
 // Methods
 // use @g_buffered_input_stream_fill[I64](stream': NullablePointer[GBufferedInputStreamT], count': I64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+// use @g_buffered_input_stream_fill_async[None](stream': NullablePointer[GBufferedInputStreamT], count': I64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
 // use @g_buffered_input_stream_fill_finish[I64](stream': NullablePointer[GBufferedInputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
 // use @g_buffered_input_stream_get_available[U64](stream': NullablePointer[GBufferedInputStreamT])
 // use @g_buffered_input_stream_get_buffer_size[U64](stream': NullablePointer[GBufferedInputStreamT])

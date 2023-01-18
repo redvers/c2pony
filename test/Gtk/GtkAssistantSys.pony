@@ -89,6 +89,10 @@ fun set_current_page(assistant': NullablePointer[GtkAssistantT], page_num': I32)
     @gtk_assistant_set_current_page(assistant', page_num')
 */
 /* 
+fun set_forward_page_func(assistant': NullablePointer[GtkAssistantT], page_func': GtkAssistantPageFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_assistant_set_forward_page_func(assistant', page_func', data', destroy')
+*/
+/* 
 fun set_page_complete(assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GtkWidgetT], complete': I32): None =>
     @gtk_assistant_set_page_complete(assistant', page', complete')
 */

@@ -3,6 +3,7 @@ use "lib:glib-2.0"
 
 // Static Functions
 // use @g_async_queue_new[NullablePointer[GAsyncQueueT]]()
+// use @g_async_queue_new_full[NullablePointer[GAsyncQueueT]](item_free_func': GDestroyNotify)
 
 // Constructors
 
@@ -15,11 +16,15 @@ use "lib:glib-2.0"
 // use @g_async_queue_push[None](queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag)
 // use @g_async_queue_push_front[None](queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag)
 // use @g_async_queue_push_front_unlocked[None](queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag)
+// use @g_async_queue_push_sorted[None](queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag)
+// use @g_async_queue_push_sorted_unlocked[None](queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag)
 // use @g_async_queue_push_unlocked[None](queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag)
 // use @g_async_queue_ref[NullablePointer[GAsyncQueueT]](queue': NullablePointer[GAsyncQueueT])
 // use @g_async_queue_ref_unlocked[None](queue': NullablePointer[GAsyncQueueT])
 // use @g_async_queue_remove[I32](queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag)
 // use @g_async_queue_remove_unlocked[I32](queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag)
+// use @g_async_queue_sort[None](queue': NullablePointer[GAsyncQueueT], func': GCompareDataFunc, user_data': Pointer[None] tag)
+// use @g_async_queue_sort_unlocked[None](queue': NullablePointer[GAsyncQueueT], func': GCompareDataFunc, user_data': Pointer[None] tag)
 // use @g_async_queue_timed_pop[Pointer[None] tag](queue': NullablePointer[GAsyncQueueT], end_time': NullablePointer[GTimeValT])
 // use @g_async_queue_timed_pop_unlocked[Pointer[None] tag](queue': NullablePointer[GAsyncQueueT], end_time': NullablePointer[GTimeValT])
 // use @g_async_queue_timeout_pop[Pointer[None] tag](queue': NullablePointer[GAsyncQueueT], timeout': U64)

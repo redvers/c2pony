@@ -108,12 +108,20 @@ fun remove_unix_fd(source': NullablePointer[GSourceT], tag': Pointer[None] tag):
     @g_source_remove_unix_fd(source', tag')
 */
 /* 
+fun set_callback(source': NullablePointer[GSourceT], func': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify): None =>
+    @g_source_set_callback(source', func', data', notify')
+*/
+/* 
 fun set_callback_indirect(source': NullablePointer[GSourceT], callback_data': Pointer[None] tag, callback_funcs': NullablePointer[GSourceCallbackFuncsT]): None =>
     @g_source_set_callback_indirect(source', callback_data', callback_funcs')
 */
 /* 
 fun set_can_recurse(source': NullablePointer[GSourceT], can_recurse': I32): None =>
     @g_source_set_can_recurse(source', can_recurse')
+*/
+/* 
+fun set_dispose_function(source': NullablePointer[GSourceT], dispose': GSourceDisposeFunc): None =>
+    @g_source_set_dispose_function(source', dispose')
 */
 /* 
 fun set_funcs(source': NullablePointer[GSourceT], funcs': NullablePointer[GSourceFuncsT]): None =>

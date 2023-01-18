@@ -12,13 +12,18 @@ use "lib:gio-2.0"
 
 // Methods
 // use @g_resolver_lookup_by_address[Pointer[U8] tag](resolver': NullablePointer[GResolverT], address': NullablePointer[GInetAddressT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+// use @g_resolver_lookup_by_address_async[None](resolver': NullablePointer[GResolverT], address': NullablePointer[GInetAddressT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
 // use @g_resolver_lookup_by_address_finish[Pointer[U8] tag](resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
 // use @g_resolver_lookup_by_name[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], hostname': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+// use @g_resolver_lookup_by_name_async[None](resolver': NullablePointer[GResolverT], hostname': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
 // use @g_resolver_lookup_by_name_finish[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
 // use @g_resolver_lookup_by_name_with_flags[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], hostname': Pointer[U8] tag, flags': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+// use @g_resolver_lookup_by_name_with_flags_async[None](resolver': NullablePointer[GResolverT], hostname': Pointer[U8] tag, flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
 // use @g_resolver_lookup_by_name_with_flags_finish[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
 // use @g_resolver_lookup_records[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], rrname': Pointer[U8] tag, record_type': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+// use @g_resolver_lookup_records_async[None](resolver': NullablePointer[GResolverT], rrname': Pointer[U8] tag, record_type': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
 // use @g_resolver_lookup_records_finish[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
 // use @g_resolver_lookup_service[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], service': Pointer[U8] tag, protocol': Pointer[U8] tag, domain': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+// use @g_resolver_lookup_service_async[None](resolver': NullablePointer[GResolverT], service': Pointer[U8] tag, protocol': Pointer[U8] tag, domain': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
 // use @g_resolver_lookup_service_finish[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
 // use @g_resolver_set_default[None](resolver': NullablePointer[GResolverT])

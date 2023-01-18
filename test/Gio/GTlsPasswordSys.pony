@@ -42,6 +42,10 @@ fun set_value(password': NullablePointer[GTlsPasswordT], value': Pointer[U8] tag
     @g_tls_password_set_value(password', value', length')
 */
 /* 
+fun set_value_full(password': NullablePointer[GTlsPasswordT], value': Pointer[U8] tag, length': I64, destroy': GDestroyNotify): None =>
+    @g_tls_password_set_value_full(password', value', length', destroy')
+*/
+/* 
 fun set_warning(password': NullablePointer[GTlsPasswordT], warning': Pointer[U8] tag): None =>
     @g_tls_password_set_warning(password', warning')
 */

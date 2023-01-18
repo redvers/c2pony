@@ -20,6 +20,10 @@ fun copy(list': NullablePointer[GListT]): NullablePointer[GListT] =>
     @g_list_copy(list')
 */
 /* 
+fun copy_deep(list': NullablePointer[GListT], func': GCopyFunc, user_data': Pointer[None] tag): NullablePointer[GListT] =>
+    @g_list_copy_deep(list', func', user_data')
+*/
+/* 
 fun delete_link(list': NullablePointer[GListT], link_': NullablePointer[GListT]): NullablePointer[GListT] =>
     @g_list_delete_link(list', link_')
 */
@@ -28,8 +32,16 @@ fun find(list': NullablePointer[GListT], data': Pointer[None] tag): NullablePoin
     @g_list_find(list', data')
 */
 /* 
+fun find_custom(list': NullablePointer[GListT], data': Pointer[None] tag, func': GCompareFunc): NullablePointer[GListT] =>
+    @g_list_find_custom(list', data', func')
+*/
+/* 
 fun first(list': NullablePointer[GListT]): NullablePointer[GListT] =>
     @g_list_first(list')
+*/
+/* 
+fun foreach(list': NullablePointer[GListT], func': GFunc, user_data': Pointer[None] tag): None =>
+    @g_list_foreach(list', func', user_data')
 */
 /* 
 fun free(list': NullablePointer[GListT]): None =>
@@ -38,6 +50,10 @@ fun free(list': NullablePointer[GListT]): None =>
 /* 
 fun free_1(list': NullablePointer[GListT]): None =>
     @g_list_free_1(list')
+*/
+/* 
+fun free_full(list': NullablePointer[GListT], free_func': GDestroyNotify): None =>
+    @g_list_free_full(list', free_func')
 */
 /* 
 fun index(list': NullablePointer[GListT], data': Pointer[None] tag): I32 =>
@@ -54,6 +70,14 @@ fun insert_before(list': NullablePointer[GListT], sibling': NullablePointer[GLis
 /* 
 fun insert_before_link(list': NullablePointer[GListT], sibling': NullablePointer[GListT], link_': NullablePointer[GListT]): NullablePointer[GListT] =>
     @g_list_insert_before_link(list', sibling', link_')
+*/
+/* 
+fun insert_sorted(list': NullablePointer[GListT], data': Pointer[None] tag, func': GCompareFunc): NullablePointer[GListT] =>
+    @g_list_insert_sorted(list', data', func')
+*/
+/* 
+fun insert_sorted_with_data(list': NullablePointer[GListT], data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): NullablePointer[GListT] =>
+    @g_list_insert_sorted_with_data(list', data', func', user_data')
 */
 /* 
 fun last(list': NullablePointer[GListT]): NullablePointer[GListT] =>
@@ -98,6 +122,14 @@ fun remove_link(list': NullablePointer[GListT], llink': NullablePointer[GListT])
 /* 
 fun reverse(list': NullablePointer[GListT]): NullablePointer[GListT] =>
     @g_list_reverse(list')
+*/
+/* 
+fun sort(list': NullablePointer[GListT], compare_func': GCompareFunc): NullablePointer[GListT] =>
+    @g_list_sort(list', compare_func')
+*/
+/* 
+fun sort_with_data(list': NullablePointer[GListT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag): NullablePointer[GListT] =>
+    @g_list_sort_with_data(list', compare_func', user_data')
 */
 
 // Constructors

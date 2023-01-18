@@ -22,12 +22,20 @@ fun connect(client': NullablePointer[GSocketClientT], connectable': NullablePoin
     @g_socket_client_connect(client', connectable', cancellable', error')
 */
 /* 
+fun connect_async(client': NullablePointer[GSocketClientT], connectable': NullablePointer[GSocketConnectableT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_client_connect_async(client', connectable', cancellable', callback', user_data')
+*/
+/* 
 fun connect_finish(client': NullablePointer[GSocketClientT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
     @g_socket_client_connect_finish(client', result', error')
 */
 /* 
 fun connect_to_host(client': NullablePointer[GSocketClientT], host_and_port': Pointer[U8] tag, default_port': U16, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
     @g_socket_client_connect_to_host(client', host_and_port', default_port', cancellable', error')
+*/
+/* 
+fun connect_to_host_async(client': NullablePointer[GSocketClientT], host_and_port': Pointer[U8] tag, default_port': U16, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_client_connect_to_host_async(client', host_and_port', default_port', cancellable', callback', user_data')
 */
 /* 
 fun connect_to_host_finish(client': NullablePointer[GSocketClientT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
@@ -38,12 +46,20 @@ fun connect_to_service(client': NullablePointer[GSocketClientT], domain': Pointe
     @g_socket_client_connect_to_service(client', domain', service', cancellable', error')
 */
 /* 
+fun connect_to_service_async(client': NullablePointer[GSocketClientT], domain': Pointer[U8] tag, service': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_client_connect_to_service_async(client', domain', service', cancellable', callback', user_data')
+*/
+/* 
 fun connect_to_service_finish(client': NullablePointer[GSocketClientT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
     @g_socket_client_connect_to_service_finish(client', result', error')
 */
 /* 
 fun connect_to_uri(client': NullablePointer[GSocketClientT], uri': Pointer[U8] tag, default_port': U16, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
     @g_socket_client_connect_to_uri(client', uri', default_port', cancellable', error')
+*/
+/* 
+fun connect_to_uri_async(client': NullablePointer[GSocketClientT], uri': Pointer[U8] tag, default_port': U16, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_client_connect_to_uri_async(client', uri', default_port', cancellable', callback', user_data')
 */
 /* 
 fun connect_to_uri_finish(client': NullablePointer[GSocketClientT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>

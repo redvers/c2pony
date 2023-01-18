@@ -16,6 +16,22 @@ fun destroy(hash_table': NullablePointer[GHashTableT]): None =>
     @g_hash_table_destroy(hash_table')
 */
 /* 
+fun find(hash_table': NullablePointer[GHashTableT], predicate': GHRFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
+    @g_hash_table_find(hash_table', predicate', user_data')
+*/
+/* 
+fun foreach(hash_table': NullablePointer[GHashTableT], func': GHFunc, user_data': Pointer[None] tag): None =>
+    @g_hash_table_foreach(hash_table', func', user_data')
+*/
+/* 
+fun foreach_remove(hash_table': NullablePointer[GHashTableT], func': GHRFunc, user_data': Pointer[None] tag): U32 =>
+    @g_hash_table_foreach_remove(hash_table', func', user_data')
+*/
+/* 
+fun foreach_steal(hash_table': NullablePointer[GHashTableT], func': GHRFunc, user_data': Pointer[None] tag): U32 =>
+    @g_hash_table_foreach_steal(hash_table', func', user_data')
+*/
+/* 
 fun get_keys(hash_table': NullablePointer[GHashTableT]): NullablePointer[GListT] =>
     @g_hash_table_get_keys(hash_table')
 */
@@ -38,6 +54,14 @@ fun lookup(hash_table': NullablePointer[GHashTableT], key': Pointer[None] tag): 
 /* 
 fun lookup_extended(hash_table': NullablePointer[GHashTableT], lookup_key': Pointer[None] tag, orig_key': Pointer[Pointer[None]] tag, value': Pointer[Pointer[None]] tag): I32 =>
     @g_hash_table_lookup_extended(hash_table', lookup_key', orig_key', value')
+*/
+/* 
+fun gnew(hash_func': GHashFunc, key_equal_func': GEqualFunc): NullablePointer[GHashTableT] =>
+    @g_hash_table_new(hash_func', key_equal_func')
+*/
+/* 
+fun new_full(hash_func': GHashFunc, key_equal_func': GEqualFunc, key_destroy_func': GDestroyNotify, value_destroy_func': GDestroyNotify): NullablePointer[GHashTableT] =>
+    @g_hash_table_new_full(hash_func', key_equal_func', key_destroy_func', value_destroy_func')
 */
 /* 
 fun ref(hash_table': NullablePointer[GHashTableT]): NullablePointer[GHashTableT] =>

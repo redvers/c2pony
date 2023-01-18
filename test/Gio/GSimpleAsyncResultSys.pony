@@ -11,6 +11,22 @@ fun is_valid(result': NullablePointer[GAsyncResultT], source': NullablePointer[G
 */
 
 // Constructors
+/* 
+fun gnew(source_object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, source_tag': Pointer[None] tag): NullablePointer[GSimpleAsyncResultT] =>
+    @g_simple_async_result_new(source_object', callback', user_data', source_tag')
+*/
+/* 
+fun new_error(source_object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, domain': U32, code': I32, format': Pointer[U8] tag, ...): NullablePointer[GSimpleAsyncResultT] =>
+    @g_simple_async_result_new_error(source_object', callback', user_data', domain', code', format', ...)
+*/
+/* 
+fun new_from_error(source_object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, error': NullablePointer[GErrorT]): NullablePointer[GSimpleAsyncResultT] =>
+    @g_simple_async_result_new_from_error(source_object', callback', user_data', error')
+*/
+/* 
+fun new_take_error(source_object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, error': NullablePointer[GErrorT]): NullablePointer[GSimpleAsyncResultT] =>
+    @g_simple_async_result_new_take_error(source_object', callback', user_data', error')
+*/
 
 // Methods
 /* 
@@ -42,6 +58,10 @@ fun propagate_error(simple': NullablePointer[GSimpleAsyncResultT], dest': Pointe
     @g_simple_async_result_propagate_error(simple', dest')
 */
 /* 
+fun run_in_thread(simple': NullablePointer[GSimpleAsyncResultT], func': GSimpleAsyncThreadFunc, io_priority': I32, cancellable': NullablePointer[GCancellableT]): None =>
+    @g_simple_async_result_run_in_thread(simple', func', io_priority', cancellable')
+*/
+/* 
 fun set_check_cancellable(simple': NullablePointer[GSimpleAsyncResultT], check_cancellable': NullablePointer[GCancellableT]): None =>
     @g_simple_async_result_set_check_cancellable(simple', check_cancellable')
 */
@@ -64,6 +84,10 @@ fun set_handle_cancellation(simple': NullablePointer[GSimpleAsyncResultT], handl
 /* 
 fun set_op_res_gboolean(simple': NullablePointer[GSimpleAsyncResultT], op_res': I32): None =>
     @g_simple_async_result_set_op_res_gboolean(simple', op_res')
+*/
+/* 
+fun set_op_res_gpointer(simple': NullablePointer[GSimpleAsyncResultT], op_res': Pointer[None] tag, destroy_op_res': GDestroyNotify): None =>
+    @g_simple_async_result_set_op_res_gpointer(simple', op_res', destroy_op_res')
 */
 /* 
 fun set_op_res_gssize(simple': NullablePointer[GSimpleAsyncResultT], op_res': I64): None =>

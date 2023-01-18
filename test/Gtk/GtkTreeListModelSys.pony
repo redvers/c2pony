@@ -10,6 +10,10 @@ primitive GtkTreeListModelSys
 // Static Functions
 
 // Constructors
+/* 
+fun gnew(root': NullablePointer[GListModelT], passthrough': I32, autoexpand': I32, create_func': GtkTreeListModelCreateModelFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): NullablePointer[GtkTreeListModelT] =>
+    @gtk_tree_list_model_new(root', passthrough', autoexpand', create_func', user_data', user_destroy')
+*/
 
 // Methods
 /* 

@@ -17,6 +17,10 @@ fun new_static(data': Pointer[None] tag, size': U64): NullablePointer[GBytesT] =
 fun new_take(data': Pointer[None] tag, size': U64): NullablePointer[GBytesT] =>
     @g_bytes_new_take(data', size')
 */
+/* 
+fun new_with_free_func(data': Pointer[None] tag, size': U64, free_func': GDestroyNotify, user_data': Pointer[None] tag): NullablePointer[GBytesT] =>
+    @g_bytes_new_with_free_func(data', size', free_func', user_data')
+*/
 
 // Methods
 /* 

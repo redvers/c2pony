@@ -18,6 +18,10 @@ fun new_from_directory(directory': Pointer[U8] tag, parent': NullablePointer[GSe
 
 // Methods
 /* 
+fun list_schemas(source': NullablePointer[GSettingsSchemaSourceT], recursive': I32, non_relocatable': Pointer[Pointer[Pointer[U8]]] tag, relocatable': Pointer[Pointer[Pointer[U8]]] tag): None =>
+    @g_settings_schema_source_list_schemas(source', recursive', non_relocatable', relocatable')
+*/
+/* 
 fun lookup(source': NullablePointer[GSettingsSchemaSourceT], schema_id': Pointer[U8] tag, recursive': I32): NullablePointer[GSettingsSchemaT] =>
     @g_settings_schema_source_lookup(source', schema_id', recursive')
 */
