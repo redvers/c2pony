@@ -28,7 +28,7 @@
   </xsl:result-document>
   
     <xsl:variable name="preamble" select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
-    <xsl:for-each select="./renderclass">
+    <xsl:for-each select="./renderclass[@render=$debug]">
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, 'Sys')"/>
       <xsl:result-document href="test/{$namespace}/{$filename}.pony" method="text"> 
@@ -38,7 +38,7 @@
         <xsl:value-of select="$filename"/>
         <xsl:value-of select="$newline"/>
         <xsl:text>// Static Functions</xsl:text><xsl:value-of select="$newline"/>
-        <xsl:for-each select="$root/renderfunction">
+        <xsl:for-each select="$root/renderfunction[@render=$debug]">
           <xsl:call-template name="mainfunction">
             <xsl:with-param name="ponyname" select="./@ponyname"/>
             <xsl:with-param name="n" select="./@name"/>
@@ -47,7 +47,7 @@
         </xsl:for-each>
         <xsl:value-of select="$newline"/>
         <xsl:text>// Constructors</xsl:text><xsl:value-of select="$newline"/>
-        <xsl:for-each select="$root/renderconstructor">
+        <xsl:for-each select="$root/renderconstructor[@render=$debug]">
           <xsl:call-template name="mainfunction">
             <xsl:with-param name="ponyname" select="./@ponyname"/>
             <xsl:with-param name="n" select="./@name"/>
@@ -56,7 +56,7 @@
         </xsl:for-each>
         <xsl:value-of select="$newline"/>
         <xsl:text>// Methods</xsl:text><xsl:value-of select="$newline"/>
-        <xsl:for-each select="$root/rendermethod">
+        <xsl:for-each select="$root/rendermethod[@render=$debug]">
           <xsl:call-template name="mainfunction">
             <xsl:with-param name="ponyname" select="./@ponyname"/>
             <xsl:with-param name="n" select="./@name"/>
@@ -71,7 +71,7 @@
       <xsl:value-of select="$newline"/>
     </xsl:for-each>
 
-    <xsl:for-each select="./renderstruct">
+    <xsl:for-each select="./renderstruct[@render=$debug]">
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, 'Sys')"/>
       <xsl:result-document href="test/{$namespace}/{$filename}.pony" method="text"> 
@@ -81,7 +81,7 @@
         <xsl:value-of select="$filename"/>
         <xsl:value-of select="$newline"/>
         <xsl:text>// Static Functions</xsl:text><xsl:value-of select="$newline"/>
-        <xsl:for-each select="$root/renderfunction">
+        <xsl:for-each select="$root/renderfunction[@render=$debug]">
           <xsl:call-template name="mainfunction">
             <xsl:with-param name="ponyname" select="./@ponyname"/>
             <xsl:with-param name="n" select="./@name"/>
@@ -90,7 +90,7 @@
         </xsl:for-each>
         <xsl:value-of select="$newline"/>
         <xsl:text>// Constructors</xsl:text><xsl:value-of select="$newline"/>
-        <xsl:for-each select="$root/renderconstructor">
+        <xsl:for-each select="$root/renderconstructor[@render=$debug]">
           <xsl:call-template name="mainfunction">
             <xsl:with-param name="ponyname" select="./@ponyname"/>
             <xsl:with-param name="n" select="./@name"/>
@@ -99,7 +99,7 @@
         </xsl:for-each>
         <xsl:value-of select="$newline"/>
         <xsl:text>// Methods</xsl:text><xsl:value-of select="$newline"/>
-        <xsl:for-each select="$root/rendermethod">
+        <xsl:for-each select="$root/rendermethod[@render=$debug]">
           <xsl:call-template name="mainfunction">
             <xsl:with-param name="ponyname" select="./@ponyname"/>
             <xsl:with-param name="n" select="./@name"/>
