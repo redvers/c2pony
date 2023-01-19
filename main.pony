@@ -307,7 +307,14 @@ actor Main
       sa.push(f)
     end
     for g in Sort[Array[String], String](sa).values() do
-      _env.out.print("    <argname name=\"" + g + "\" rename=\"" + g + "\"/>")
+      let m: String val = recover val
+        let gg: String ref = g.clone()
+        gg.strip("_'")
+        gg.append("'")
+        gg.lower_in_place()
+        gg
+      end
+      _env.out.print("    <argname name=\"" + g + "\" rename=\"" + m + "\"/>")
     end
 
   fun ref callback_use(callback_name: String): String ? =>
