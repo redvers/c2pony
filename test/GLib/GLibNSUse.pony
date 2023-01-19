@@ -65,3 +65,4 @@ type GDestroyNotify is @{(Pointer[None] tag): None}
 type GDataForeachFunc is @{(U32, Pointer[None], Pointer[None]): None}
 type GDuplicateFunc is @{(Pointer[None], Pointer[None]): Pointer[None]}
 type GLogFunc is @{(Pointer[U8], U32, Pointer[U8], Pointer[None]): None}
+type GCallback is @{(): None}

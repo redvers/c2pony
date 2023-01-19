@@ -1,8 +1,6 @@
 all:
 	corral run -- ponyc
 
-glib: clean glib_struct glib_use glib_sys
-
 rebuild: clean structs use sys
 structs:	glib_struct gobject_struct gio_struct gtk_struct
 use:	glib_use gobject_use gio_use gtk_use

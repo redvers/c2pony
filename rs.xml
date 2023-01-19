@@ -10,6 +10,7 @@ type GDestroyNotify is @{(Pointer[None] tag): None}
 type GDataForeachFunc is @{(U32, Pointer[None], Pointer[None]): None}
 type GDuplicateFunc is @{(Pointer[None], Pointer[None]): Pointer[None]}
 type GLogFunc is @{(Pointer[U8], U32, Pointer[U8], Pointer[None]): None}
+type GCallback is @{(): None}
 </useoverride>
       <renderfunction name="g_access" ponyname="access" render="0" deprecated=""/>
       <renderfunction name="g_ascii_digit_value"
@@ -5840,7 +5841,6 @@ type GLogFunc is @{(Pointer[U8], U32, Pointer[U8], Pointer[None]): None}
    </ns>
    <ns namespace="Gio">
 <ponydep>
-use "../P"
 use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
@@ -13915,216 +13915,253 @@ use "lib:gio-2.0"
    </ns>
    <ns namespace="GObject">
 <ponydep>
-use "../P"
 use "../GLib"
 use "lib:gobject-2.0"
 </ponydep>
-<useoverride>use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], data': Any tag, destroy_data': Pointer[None] tag, connect_flags': U32)</useoverride>
+<useoverride>
+use @g_signal_connect_data[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], data': Any tag, destroy_data': Pointer[None] tag, connect_flags': U32)
+use @g_signal_connect_object[U64](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None], gobject': GObjectT, connect_flags': U32)
+</useoverride>
 <fnoverride>  fun signal_connect_data[A: Any](instance': GObjectT tag, detailed_signal': Pointer[U8] tag, c_handler': Pointer[None] tag, data': A, destroy_data': Pointer[None] tag, connect_flags': U32): U64 =>
     @g_signal_connect_data(instance', detailed_signal', c_handler', data', destroy_data', connect_flags')</fnoverride>
+  <!--
+<useoverride>
+type GToggleNotify is @{(Pointer[None], GObjectT, Bool): None}
+type GWeakNotify is @{(Pointer[None], GObjectT): None}
+type GBoxedCopyFunc is @{(Pointer[None]): Pointer[None]}
+type GBoxedFreeFunc is @{(Pointer[None]): None}
+type GBaseInitFunc is @{(GTypeClassT): None}
+type GBaseFinalizeFunc is @{(GTypeClassT): None}
+type GClassInitFunc is @{(GTypeClassT, Pointer[None]): None}
+type GClassFinalizeFunc is @{(GTypeClassT, Pointer[None]): None}
+type GInstanceInitFunc is @{(GTypeInstanceT, GTypeClassT): None}
+type GSignalEmissionHook is @{(GSignalInvocationHintT, U32, GValueT, Pointer[None]): None}
+type GTypeClassCacheFunc is @{(Pointer[None], GTypeClassT): Bool}
+type GTypeInterfaceCheckFunc is @{(Pointer[None], GTypeInterfaceT): None}
+type GInterfaceInitFunc is @{(GTypeInterfaceT, Pointer[None]): None}
+type GInterfaceFinalizeFunc is @{(GTypeInterfaceT, Pointer[None]): None}
+</useoverride>
+  -->
+<useoverride>
+type GToggleNotify is Pointer[None]
+type GWeakNotify is Pointer[None]
+type GBoxedCopyFunc is Pointer[None]
+type GBoxedFreeFunc is Pointer[None]
+type GBaseInitFunc is Pointer[None]
+type GBaseFinalizeFunc is Pointer[None]
+type GClassInitFunc is Pointer[None]
+type GClassFinalizeFunc is Pointer[None]
+type GInstanceInitFunc is Pointer[None]
+type GSignalEmissionHook is Pointer[None]
+type GTypeClassCacheFunc is Pointer[None]
+type GTypeInterfaceCheckFunc is Pointer[None]
+type GInterfaceInitFunc is Pointer[None]
+type GInterfaceFinalizeFunc is Pointer[None]
+</useoverride>
+
       <renderfunction name="g_boxed_copy"
                       ponyname="boxed_copy"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_boxed_free"
                       ponyname="boxed_free"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_boxed_type_register_static"
                       ponyname="boxed_type_register_static"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_clear_object"
                       ponyname="clear_object"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_clear_signal_handler"
                       ponyname="clear_signal_handler"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_enum_complete_type_info"
                       ponyname="enum_complete_type_info"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_enum_get_value"
                       ponyname="enum_get_value"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_enum_get_value_by_name"
                       ponyname="enum_get_value_by_name"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_enum_get_value_by_nick"
                       ponyname="enum_get_value_by_nick"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_enum_register_static"
                       ponyname="enum_register_static"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_enum_to_string"
                       ponyname="enum_to_string"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_flags_complete_type_info"
                       ponyname="flags_complete_type_info"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_flags_get_first_value"
                       ponyname="flags_get_first_value"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_flags_get_value_by_name"
                       ponyname="flags_get_value_by_name"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_flags_get_value_by_nick"
                       ponyname="flags_get_value_by_nick"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_flags_register_static"
                       ponyname="flags_register_static"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_flags_to_string"
                       ponyname="flags_to_string"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_gtype_get_type"
                       ponyname="gtype_get_type"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_boolean"
                       ponyname="param_spec_boolean"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_boxed"
                       ponyname="param_spec_boxed"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_char"
                       ponyname="param_spec_char"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_double"
                       ponyname="param_spec_double"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_enum"
                       ponyname="param_spec_enum"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_flags"
                       ponyname="param_spec_flags"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_float"
                       ponyname="param_spec_float"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_gtype"
                       ponyname="param_spec_gtype"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_int"
                       ponyname="param_spec_int"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_int64"
                       ponyname="param_spec_int64"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_long"
                       ponyname="param_spec_long"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_object"
                       ponyname="param_spec_object"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_override"
                       ponyname="param_spec_override"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_param"
                       ponyname="param_spec_param"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_pointer"
                       ponyname="param_spec_pointer"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_string"
                       ponyname="param_spec_string"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_uchar"
                       ponyname="param_spec_uchar"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_uint"
                       ponyname="param_spec_uint"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_uint64"
                       ponyname="param_spec_uint64"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_ulong"
                       ponyname="param_spec_ulong"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_unichar"
                       ponyname="param_spec_unichar"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_value_array"
                       ponyname="param_spec_value_array"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_spec_variant"
                       ponyname="param_spec_variant"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_type_register_static"
                       ponyname="param_type_register_static"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_value_convert"
                       ponyname="param_value_convert"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_value_defaults"
                       ponyname="param_value_defaults"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_value_set_default"
                       ponyname="param_value_set_default"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_value_validate"
                       ponyname="param_value_validate"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_param_values_cmp"
                       ponyname="param_values_cmp"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_pointer_type_register_static"
                       ponyname="pointer_type_register_static"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_accumulator_first_wins"
                       ponyname="signal_accumulator_first_wins"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_accumulator_true_handled"
                       ponyname="signal_accumulator_true_handled"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_add_emission_hook"
                       ponyname="signal_add_emission_hook"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_chain_from_overridden"
                       ponyname="signal_chain_from_overridden"
@@ -14136,11 +14173,11 @@ use "lib:gobject-2.0"
                       deprecated=""/>
       <renderfunction name="g_signal_connect_closure"
                       ponyname="signal_connect_closure"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_connect_closure_by_id"
                       ponyname="signal_connect_closure_by_id"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_connect_data"
                       ponyname="signal_connect_data"
@@ -14164,321 +14201,321 @@ use "lib:gobject-2.0"
                       deprecated=""/>
       <renderfunction name="g_signal_emitv"
                       ponyname="signal_emitv"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_get_invocation_hint"
                       ponyname="signal_get_invocation_hint"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_handler_block"
                       ponyname="signal_handler_block"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_handler_disconnect"
                       ponyname="signal_handler_disconnect"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_handler_find"
                       ponyname="signal_handler_find"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_handler_is_connected"
                       ponyname="signal_handler_is_connected"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_handler_unblock"
                       ponyname="signal_handler_unblock"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_handlers_block_matched"
                       ponyname="signal_handlers_block_matched"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_handlers_destroy"
                       ponyname="signal_handlers_destroy"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_handlers_disconnect_matched"
                       ponyname="signal_handlers_disconnect_matched"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_handlers_unblock_matched"
                       ponyname="signal_handlers_unblock_matched"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_has_handler_pending"
                       ponyname="signal_has_handler_pending"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_is_valid_name"
                       ponyname="signal_is_valid_name"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_list_ids"
                       ponyname="signal_list_ids"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_lookup"
                       ponyname="signal_lookup"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_name"
                       ponyname="signal_name"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_new"
                       ponyname="signal_new"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_new_class_handler"
                       ponyname="signal_new_class_handler"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_new_valist"
                       ponyname="signal_new_valist"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_newv"
                       ponyname="signal_newv"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_override_class_closure"
                       ponyname="signal_override_class_closure"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_override_class_handler"
                       ponyname="signal_override_class_handler"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_parse_name"
                       ponyname="signal_parse_name"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_query"
                       ponyname="signal_query"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_remove_emission_hook"
                       ponyname="signal_remove_emission_hook"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_set_va_marshaller"
                       ponyname="signal_set_va_marshaller"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_stop_emission"
                       ponyname="signal_stop_emission"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_stop_emission_by_name"
                       ponyname="signal_stop_emission_by_name"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_signal_type_cclosure_new"
                       ponyname="signal_type_cclosure_new"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_source_set_closure"
                       ponyname="source_set_closure"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_source_set_dummy_callback"
                       ponyname="source_set_dummy_callback"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_strdup_value_contents"
                       ponyname="strdup_value_contents"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_add_class_cache_func"
                       ponyname="type_add_class_cache_func"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_add_class_private"
                       ponyname="type_add_class_private"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_add_instance_private"
                       ponyname="type_add_instance_private"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_add_interface_check"
                       ponyname="type_add_interface_check"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_add_interface_dynamic"
                       ponyname="type_add_interface_dynamic"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_add_interface_static"
                       ponyname="type_add_interface_static"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_check_class_cast"
                       ponyname="type_check_class_cast"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_check_class_is_a"
                       ponyname="type_check_class_is_a"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_check_instance"
                       ponyname="type_check_instance"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_check_instance_cast"
                       ponyname="type_check_instance_cast"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_check_instance_is_a"
                       ponyname="type_check_instance_is_a"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_check_instance_is_fundamentally_a"
                       ponyname="type_check_instance_is_fundamentally_a"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_check_is_value_type"
                       ponyname="type_check_is_value_type"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_check_value"
                       ponyname="type_check_value"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_check_value_holds"
                       ponyname="type_check_value_holds"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_children"
                       ponyname="type_children"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_create_instance"
                       ponyname="type_create_instance"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_default_interface_peek"
                       ponyname="type_default_interface_peek"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_default_interface_ref"
                       ponyname="type_default_interface_ref"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_default_interface_unref"
                       ponyname="type_default_interface_unref"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_depth"
                       ponyname="type_depth"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_ensure"
                       ponyname="type_ensure"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_free_instance"
                       ponyname="type_free_instance"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_from_name"
                       ponyname="type_from_name"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_fundamental"
                       ponyname="type_fundamental"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_fundamental_next"
                       ponyname="type_fundamental_next"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_get_instance_count"
                       ponyname="type_get_instance_count"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_get_plugin"
                       ponyname="type_get_plugin"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_get_qdata"
                       ponyname="type_get_qdata"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_get_type_registration_serial"
                       ponyname="type_get_type_registration_serial"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_init"
                       ponyname="type_init"
-                      render="0"
+                      render="1"
                       deprecated="1"/>
       <renderfunction name="g_type_init_with_debug_flags"
                       ponyname="type_init_with_debug_flags"
-                      render="0"
+                      render="1"
                       deprecated="1"/>
       <renderfunction name="g_type_interfaces"
                       ponyname="type_interfaces"
-                      render="0"
+                      render="1"
                       deprecated=""/>
-      <renderfunction name="g_type_is_a" ponyname="type_is_a" render="0" deprecated=""/>
-      <renderfunction name="g_type_name" ponyname="type_name" render="0" deprecated=""/>
+      <renderfunction name="g_type_is_a" ponyname="type_is_a" render="1" deprecated=""/>
+      <renderfunction name="g_type_name" ponyname="type_name" render="1" deprecated=""/>
       <renderfunction name="g_type_name_from_class"
                       ponyname="type_name_from_class"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_name_from_instance"
                       ponyname="type_name_from_instance"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_next_base"
                       ponyname="type_next_base"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_parent"
                       ponyname="type_parent"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_qname"
                       ponyname="type_qname"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_query"
                       ponyname="type_query"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_register_dynamic"
                       ponyname="type_register_dynamic"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_register_fundamental"
                       ponyname="type_register_fundamental"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_register_static"
                       ponyname="type_register_static"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_register_static_simple"
                       ponyname="type_register_static_simple"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_remove_class_cache_func"
                       ponyname="type_remove_class_cache_func"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_remove_interface_check"
                       ponyname="type_remove_interface_check"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_set_qdata"
                       ponyname="type_set_qdata"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderfunction name="g_type_test_flags"
                       ponyname="type_test_flags"
-                      render="0"
+                      render="1"
                       deprecated=""/>
       <renderstruct name="GCClosure" render="0">
          <renderfunction name="g_cclosure_marshal_BOOLEAN__BOXED_BOXED"
@@ -14729,12 +14766,12 @@ use "lib:gobject-2.0"
          <rendermethod name="g_closure_unref" ponyname="unref" render="0" deprecated=""/>
       </renderstruct>
       <renderstruct name="GClosureNotifyData" render="0"/>
-      <renderstruct name="GEnumClass" render="0"/>
-      <renderstruct name="GEnumValue" render="0"/>
-      <renderstruct name="GFlagsClass" render="0"/>
-      <renderstruct name="GFlagsValue" render="0"/>
+      <renderstruct name="GEnumClass" render="1"/>
+      <renderstruct name="GEnumValue" render="1"/>
+      <renderstruct name="GFlagsClass" render="1"/>
+      <renderstruct name="GFlagsValue" render="1"/>
       <renderstruct name="GInitiallyUnownedClass" render="0"/>
-      <renderstruct name="GInterfaceInfo" render="0"/>
+      <renderstruct name="GInterfaceInfo" render="1"/>
       <renderstruct name="GObjectClass" render="0">
          <rendermethod name="g_object_class_find_property"
                        ponyname="find_property"
@@ -14785,10 +14822,10 @@ use "lib:gobject-2.0"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GParamSpecTypeInfo" render="0"/>
-      <renderstruct name="GParameter" render="0"/>
-      <renderstruct name="GSignalInvocationHint" render="0"/>
-      <renderstruct name="GSignalQuery" render="0"/>
+      <renderstruct name="GParamSpecTypeInfo" render="1"/>
+      <renderstruct name="GParameter" render="1"/>
+      <renderstruct name="GSignalInvocationHint" render="1"/>
+      <renderstruct name="GSignalQuery" render="1"/>
       <renderstruct name="GTypeClass" render="1">
          <rendermethod name="g_type_class_add_private"
                        ponyname="add_private"
@@ -14828,15 +14865,15 @@ use "lib:gobject-2.0"
                          deprecated=""/>
          <renderfunction name="g_type_class_ref" ponyname="gref" render="0" deprecated=""/>
       </renderstruct>
-      <renderstruct name="GTypeFundamentalInfo" render="0"/>
-      <renderstruct name="GTypeInfo" render="0"/>
+      <renderstruct name="GTypeFundamentalInfo" render="1"/>
+      <renderstruct name="GTypeInfo" render="1"/>
       <renderstruct name="GTypeInstance" render="1">
          <rendermethod name="g_type_instance_get_private"
                        ponyname="get_private"
                        render="0"
                        deprecated=""/>
       </renderstruct>
-      <renderstruct name="GTypeInterface" render="0">
+      <renderstruct name="GTypeInterface" render="1">
          <rendermethod name="g_type_interface_peek_parent"
                        ponyname="peek_parent"
                        render="0"
@@ -14860,14 +14897,14 @@ use "lib:gobject-2.0"
       </renderstruct>
       <renderstruct name="GTypeModuleClass" render="0"/>
       <renderstruct name="GTypePluginClass" render="0"/>
-      <renderstruct name="GTypeQuery" render="0"/>
-      <renderstruct name="GTypeValueTable" render="0">
+      <renderstruct name="GTypeQuery" render="1"/>
+      <renderstruct name="GTypeValueTable" render="1">
          <renderfunction name="g_type_value_table_peek"
                          ponyname="peek"
                          render="0"
                          deprecated=""/>
       </renderstruct>
-      <renderstruct name="GValue" render="0">
+      <renderstruct name="GValue" render="1">
          <rendermethod name="g_value_copy" ponyname="copy" render="0" deprecated=""/>
          <rendermethod name="g_value_dup_boxed"
                        ponyname="dup_boxed"
@@ -15242,16 +15279,16 @@ use "lib:gobject-2.0"
                             deprecated=""/>
          <renderconstructor name="g_object_new_with_properties"
                             ponyname="new_with_properties"
-                            render="0"
+                            render="1"
                             deprecated=""/>
-         <renderconstructor name="g_object_newv" ponyname="newv" render="0" deprecated="1"/>
+         <renderconstructor name="g_object_newv" ponyname="newv" render="1" deprecated="1"/>
          <rendermethod name="g_object_add_toggle_ref"
                        ponyname="add_toggle_ref"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_add_weak_pointer"
                        ponyname="add_weak_pointer"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_bind_property"
                        ponyname="bind_property"
@@ -15275,145 +15312,145 @@ use "lib:gobject-2.0"
                        deprecated=""/>
          <rendermethod name="g_object_dup_data"
                        ponyname="dup_data"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_dup_qdata"
                        ponyname="dup_qdata"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_force_floating"
                        ponyname="force_floating"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_freeze_notify"
                        ponyname="freeze_notify"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_get" ponyname="get" render="0" deprecated=""/>
          <rendermethod name="g_object_get_data"
                        ponyname="get_data"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_get_property"
                        ponyname="get_property"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_get_qdata"
                        ponyname="get_qdata"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_get_valist"
                        ponyname="get_valist"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_object_getv" ponyname="getv" render="0" deprecated=""/>
+         <rendermethod name="g_object_getv" ponyname="getv" render="1" deprecated=""/>
          <rendermethod name="g_object_is_floating"
                        ponyname="is_floating"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_notify"
                        ponyname="notify"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_notify_by_pspec"
                        ponyname="notify_by_pspec"
-                       render="0"
+                       render="1"
                        deprecated=""/>
-         <rendermethod name="g_object_ref" ponyname="gref" render="0" deprecated=""/>
+         <rendermethod name="g_object_ref" ponyname="gref" render="1" deprecated=""/>
          <rendermethod name="g_object_ref_sink"
                        ponyname="ref_sink"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_remove_toggle_ref"
                        ponyname="remove_toggle_ref"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_remove_weak_pointer"
                        ponyname="remove_weak_pointer"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_replace_data"
                        ponyname="replace_data"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_replace_qdata"
                        ponyname="replace_qdata"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_run_dispose"
                        ponyname="run_dispose"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_set" ponyname="set" render="0" deprecated=""/>
          <rendermethod name="g_object_set_data"
                        ponyname="set_data"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_set_data_full"
                        ponyname="set_data_full"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_set_property"
                        ponyname="set_property"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_set_qdata"
                        ponyname="set_qdata"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_set_qdata_full"
                        ponyname="set_qdata_full"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_set_valist"
                        ponyname="set_valist"
                        render="0"
                        deprecated=""/>
-         <rendermethod name="g_object_setv" ponyname="setv" render="0" deprecated=""/>
+         <rendermethod name="g_object_setv" ponyname="setv" render="1" deprecated=""/>
          <rendermethod name="g_object_steal_data"
                        ponyname="steal_data"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_steal_qdata"
                        ponyname="steal_qdata"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_thaw_notify"
                        ponyname="thaw_notify"
-                       render="0"
+                       render="1"
                        deprecated=""/>
-         <rendermethod name="g_object_unref" ponyname="unref" render="0" deprecated=""/>
+         <rendermethod name="g_object_unref" ponyname="unref" render="1" deprecated=""/>
          <rendermethod name="g_object_watch_closure"
                        ponyname="watch_closure"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_weak_ref"
                        ponyname="weak_ref"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <rendermethod name="g_object_weak_unref"
                        ponyname="weak_unref"
-                       render="0"
+                       render="1"
                        deprecated=""/>
          <renderfunction name="g_object_compat_control"
                          ponyname="compat_control"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_object_interface_find_property"
                          ponyname="interface_find_property"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_object_interface_install_property"
                          ponyname="interface_install_property"
-                         render="0"
+                         render="1"
                          deprecated=""/>
          <renderfunction name="g_object_interface_list_properties"
                          ponyname="interface_list_properties"
-                         render="0"
+                         render="1"
                          deprecated=""/>
       </renderclass>
       <renderclass name="GParamSpec"
-                   render="0"
+                   render="1"
                    parent=""
                    abstract="1"
                    final=""
@@ -15481,145 +15518,145 @@ use "lib:gobject-2.0"
                          deprecated=""/>
       </renderclass>
       <renderclass name="GParamSpecBoolean"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecBoxed"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecChar"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecDouble"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecEnum"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecFlags"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecFloat"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecGType"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecInt"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecInt64"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecLong"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecObject"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecOverride"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecParam"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecPointer"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecString"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecUChar"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecUInt"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecUInt64"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecULong"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecUnichar"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecValueArray"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GParamSpecVariant"
-                   render="0"
+                   render="1"
                    parent="ParamSpec"
                    abstract=""
                    final=""
                    fundamental="1"/>
       <renderclass name="GTypeModule"
-                   render="0"
+                   render="1"
                    parent="Object"
                    abstract="1"
                    final=""
@@ -15650,7 +15687,7 @@ use "lib:gobject-2.0"
                        deprecated=""/>
          <rendermethod name="g_type_module_use" ponyname="use" render="0" deprecated=""/>
       </renderclass>
-      <renderinterface name="GTypePlugin" render="0">
+      <renderinterface name="GTypePlugin" render="1">
          <rendermethod name="g_type_plugin_complete_interface_info"
                        ponyname="complete_interface_info"
                        render="0"
@@ -20734,7 +20771,6 @@ use "lib:gobject-2.0"
    </ns>
    <ns namespace="Gtk">
 <ponydep>
-use "../P"
 use "../GLib"
 use "../Gio"
 use "../GObject"
