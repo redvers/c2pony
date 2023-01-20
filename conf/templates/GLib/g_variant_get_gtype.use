@@ -1,0 +1,1 @@
+use @g_variant_get_gtype[U64]()

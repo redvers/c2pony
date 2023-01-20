@@ -1,0 +1,1 @@
+use @g_once_init_enter[I32](location': Pointer[None] tag)

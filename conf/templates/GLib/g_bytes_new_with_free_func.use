@@ -1,0 +1,1 @@
+use @g_bytes_new_with_free_func[GBytesT](data': Pointer[None] tag, size': U64, free_func': GDestroyNotify, user_data': Pointer[None] tag)

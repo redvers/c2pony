@@ -1,0 +1,1 @@
+use @g_hook_list_init[None](hook_list': GHookListT, hook_size': U32)

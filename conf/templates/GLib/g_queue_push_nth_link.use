@@ -1,0 +1,1 @@
+use @g_queue_push_nth_link[None](queue': GQueueT, n': I32, link': GListT)

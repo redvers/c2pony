@@ -1,0 +1,1 @@
+use @g_date_strftime[U64](s': Pointer[U8] tag, slen': U64, format': Pointer[U8] tag, date': GDateT)

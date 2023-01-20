@@ -1,0 +1,1 @@
+use @g_date_clear[None](date': GDateT, n_dates': U32)

@@ -1,0 +1,1 @@
+use @g_set_error[None](err': Pointer[GErrorT], domain': U32, code': I32, format': Pointer[U8] tag, ...)

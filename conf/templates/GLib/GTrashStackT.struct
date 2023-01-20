@@ -1,0 +1,2 @@
+struct GTrashStackT
+  var next': GTrashStackT = GTrashStackT

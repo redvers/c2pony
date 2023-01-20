@@ -1,0 +1,1 @@
+use @g_bookmark_file_get_applications[Pointer[Pointer[U8]] tag](bookmark': GBookmarkFileT, uri': Pointer[U8] tag, length': Pointer[U64] tag, error': Pointer[GErrorT])

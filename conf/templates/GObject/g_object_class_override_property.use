@@ -1,0 +1,1 @@
+use @g_object_class_override_property[None](oclass': GObjectClassT, property_id': U32, name': Pointer[U8] tag)

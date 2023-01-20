@@ -1,0 +1,1 @@
+use @g_source_remove_by_funcs_user_data[I32](funcs': GSourceFuncsT, user_data': Pointer[None] tag)

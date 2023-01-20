@@ -1,0 +1,1 @@
+use @g_type_check_value_holds[I32](value': GValueT, type': U64)

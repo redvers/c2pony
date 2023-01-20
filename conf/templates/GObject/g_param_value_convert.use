@@ -1,0 +1,1 @@
+use @g_param_value_convert[I32](pspec': GParamSpecT, src_value': GValueT, dest_value': GValueT, strict_validation': I32)

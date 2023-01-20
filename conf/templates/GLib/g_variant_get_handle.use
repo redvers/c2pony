@@ -1,0 +1,1 @@
+use @g_variant_get_handle[I32](value': GVariantT)

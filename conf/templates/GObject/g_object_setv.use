@@ -1,0 +1,1 @@
+use @g_object_setv[None](object': GObjectT, n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValueT)

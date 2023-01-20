@@ -1,0 +1,1 @@
+use @g_array_insert_vals[GArrayT](array': GArrayT, index': U32, data': Pointer[None] tag, len': U32)

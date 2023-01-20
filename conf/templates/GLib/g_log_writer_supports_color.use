@@ -1,0 +1,1 @@
+use @g_log_writer_supports_color[I32](output_fd': I32)

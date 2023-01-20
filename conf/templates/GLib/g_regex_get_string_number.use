@@ -1,0 +1,1 @@
+use @g_regex_get_string_number[I32](regex': GRegexT, name': Pointer[U8] tag)

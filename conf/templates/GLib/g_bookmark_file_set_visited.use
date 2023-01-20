@@ -1,0 +1,1 @@
+use @g_bookmark_file_set_visited[None](bookmark': GBookmarkFileT, uri': Pointer[U8] tag, visited': I64)

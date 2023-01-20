@@ -1,0 +1,1 @@
+use @g_tree_nnodes[I32](tree': GTreeT)

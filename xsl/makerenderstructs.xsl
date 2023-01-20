@@ -2,19 +2,23 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
 <xsl:output method="xml" omit-xml-declaration="yes" indent="yes"/>
 <xsl:strip-space elements="*"/>
+<xsl:variable name="newline"><xsl:text>&#xa;</xsl:text></xsl:variable>
 
 <xsl:template match="/mkrs">
     <!--  <xsl:result-document href="rs.xml" method="xml" indent="yes"> -->
-<rs>
   <xsl:for-each select="./t:repository/t:namespace">
-    <xsl:call-template name="ns"><xsl:with-param name="n" select="."/></xsl:call-template> 
+    <xsl:variable name="namesp" select="./@name"/>
+    <xsl:result-document href="{$namesp}-render.xml" method="xml" indent="no">
+      <rs>
+        <xsl:call-template name="ns"><xsl:with-param name="n" select="."/></xsl:call-template> 
+      </rs>
+    </xsl:result-document>
   </xsl:for-each>
-</rs>
       <!--  </xsl:result-document> -->
 </xsl:template>
 
 <xsl:template name="ns">
-  <ns namespace="{./@name}">
+  <ns namespace="{./@name}"><xsl:value-of select="$newline"/>
     <xsl:for-each select="./t:function">
       <xsl:call-template name="functions"><xsl:with-param name="n" select="."/></xsl:call-template>
     </xsl:for-each>
@@ -56,6 +60,7 @@
   <xsl:variable name="rendernode" select="/mkrs/renderstructs/renderstruct[@name=$cname]"/>
   <xsl:variable name="renderval" select="$rendernode/@render"/>
   <renderstruct name="{$cname}" render="{$renderval}">
+  <xsl:value-of select="$newline"/>
   <xsl:for-each select="./t:constructor">
     <xsl:call-template name="constructors"><xsl:with-param name="n" select="."/></xsl:call-template>
   </xsl:for-each>
@@ -66,6 +71,7 @@
     <xsl:call-template name="functions"><xsl:with-param name="n" select="."/></xsl:call-template>
   </xsl:for-each>
   </renderstruct>
+  <xsl:value-of select="$newline"/>
 </xsl:template>
 
 <xsl:template name="constructors">
@@ -74,6 +80,7 @@
   <xsl:variable name="rendernode" select="/mkrs/renderuses/renderuse[@name=$cname]"/>
   <xsl:variable name="renderval" select="$rendernode/@render"/>
   <renderconstructor name="{$cname}" ponyname="{$ponyname}" render="{$renderval}" deprecated="{./@deprecated}"/>
+  <xsl:value-of select="$newline"/>
 </xsl:template>
 
 <xsl:template name="methods">
@@ -82,6 +89,7 @@
   <xsl:variable name="rendernode" select="/mkrs/renderuses/renderuse[@name=$cname]"/>
   <xsl:variable name="renderval" select="$rendernode/@render"/>
   <rendermethod name="{$cname}" ponyname="{$ponyname}" render="{$renderval}" deprecated="{./@deprecated}"/>
+  <xsl:value-of select="$newline"/>
 </xsl:template>
 
 <xsl:template name="functions">
@@ -94,6 +102,7 @@
     </xsl:when>
     <xsl:otherwise>
       <renderfunction name="{$cname}" ponyname="{$ponyname}" render="{$renderval}" deprecated="{./@deprecated}"/>
+  <xsl:value-of select="$newline"/>
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
@@ -101,6 +110,7 @@
 <xsl:template name="callback">
   <xsl:variable name="cname" select="./@c:type"/>
   <rendercallback name="{$cname}" render="0"/>
+  <xsl:value-of select="$newline"/>
 </xsl:template>
 
 
@@ -109,6 +119,7 @@
   <xsl:variable name="rendernode" select="/mkrs/renderstructs/renderstruct[@name=$cname]"/>
   <xsl:variable name="renderval" select="$rendernode/@render"/>
   <renderclass name="{$cname}" render="{$renderval}" parent="{./@parent}" abstract="{./@abstract}" final="{./@final}" fundamental="{./@glib:fundamental}">
+  <xsl:value-of select="$newline"/>
   <xsl:for-each select="./t:constructor">
     <xsl:call-template name="constructors"><xsl:with-param name="n" select="."/></xsl:call-template>
   </xsl:for-each>

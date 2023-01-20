@@ -1,0 +1,1 @@
+use @g_dpgettext[Pointer[U8] tag](domain': Pointer[U8] tag, msgctxtid': Pointer[U8] tag, msgidoffset': U64)

@@ -1,0 +1,1 @@
+use @g_hash_table_new[GHashTableT](hash_func': GHashFunc, key_equal_func': GEqualFunc)

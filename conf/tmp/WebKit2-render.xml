@@ -1,0 +1,1025 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="WebKit2">
+    <renderfunction name="webkit_get_major_version" ponyname="get_major_version" render="" deprecated=""/>
+    <renderfunction name="webkit_get_micro_version" ponyname="get_micro_version" render="" deprecated=""/>
+    <renderfunction name="webkit_get_minor_version" ponyname="get_minor_version" render="" deprecated=""/>
+    <renderfunction name="webkit_media_key_system_permission_get_name" ponyname="media_key_system_permission_get_name" render="" deprecated=""/>
+    <renderfunction name="webkit_uri_for_display" ponyname="uri_for_display" render="" deprecated=""/>
+    <renderfunction name="webkit_user_media_permission_is_for_audio_device" ponyname="user_media_permission_is_for_audio_device" render="" deprecated=""/>
+    <renderfunction name="webkit_user_media_permission_is_for_display_device" ponyname="user_media_permission_is_for_display_device" render="" deprecated=""/>
+    <renderfunction name="webkit_user_media_permission_is_for_video_device" ponyname="user_media_permission_is_for_video_device" render="" deprecated=""/>
+    <renderstruct name="WebKitApplicationInfo" render="">
+      <renderconstructor name="webkit_application_info_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_application_info_get_name" ponyname="get_name" render="" deprecated=""/>
+      <rendermethod name="webkit_application_info_get_version" ponyname="get_version" render="" deprecated=""/>
+      <rendermethod name="webkit_application_info_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_application_info_set_name" ponyname="set_name" render="" deprecated=""/>
+      <rendermethod name="webkit_application_info_set_version" ponyname="set_version" render="" deprecated=""/>
+      <rendermethod name="webkit_application_info_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitAuthenticationRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitAuthenticationRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitAutomationSessionClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitAutomationSessionPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitBackForwardListClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitBackForwardListItemClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitBackForwardListItemPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitBackForwardListPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitColorChooserRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitColorChooserRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitContextMenuClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitContextMenuItemClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitContextMenuItemPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitContextMenuPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitCookieManagerClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitCookieManagerPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitCredential" render="">
+      <renderconstructor name="webkit_credential_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_credential_new_for_certificate" ponyname="new_for_certificate" render="" deprecated=""/>
+      <renderconstructor name="webkit_credential_new_for_certificate_pin" ponyname="new_for_certificate_pin" render="" deprecated=""/>
+      <rendermethod name="webkit_credential_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="webkit_credential_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="webkit_credential_get_certificate" ponyname="get_certificate" render="" deprecated=""/>
+      <rendermethod name="webkit_credential_get_password" ponyname="get_password" render="" deprecated=""/>
+      <rendermethod name="webkit_credential_get_persistence" ponyname="get_persistence" render="" deprecated=""/>
+      <rendermethod name="webkit_credential_get_username" ponyname="get_username" render="" deprecated=""/>
+      <rendermethod name="webkit_credential_has_password" ponyname="has_password" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitDeviceInfoPermissionRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitDeviceInfoPermissionRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitDownloadClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitDownloadPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitEditorStateClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitEditorStatePrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitFaviconDatabaseClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitFaviconDatabasePrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitFileChooserRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitFileChooserRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitFindControllerClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitFindControllerPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitFormSubmissionRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitFormSubmissionRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitGeolocationManagerClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitGeolocationManagerPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitGeolocationPermissionRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitGeolocationPermissionRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitGeolocationPosition" render="">
+      <renderconstructor name="webkit_geolocation_position_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_geolocation_position_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="webkit_geolocation_position_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="webkit_geolocation_position_set_altitude" ponyname="set_altitude" render="" deprecated=""/>
+      <rendermethod name="webkit_geolocation_position_set_altitude_accuracy" ponyname="set_altitude_accuracy" render="" deprecated=""/>
+      <rendermethod name="webkit_geolocation_position_set_heading" ponyname="set_heading" render="" deprecated=""/>
+      <rendermethod name="webkit_geolocation_position_set_speed" ponyname="set_speed" render="" deprecated=""/>
+      <rendermethod name="webkit_geolocation_position_set_timestamp" ponyname="set_timestamp" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitHitTestResultClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitHitTestResultPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitITPFirstParty" render="">
+      <rendermethod name="webkit_itp_first_party_get_domain" ponyname="get_domain" render="" deprecated=""/>
+      <rendermethod name="webkit_itp_first_party_get_last_update_time" ponyname="get_last_update_time" render="" deprecated=""/>
+      <rendermethod name="webkit_itp_first_party_get_website_data_access_allowed" ponyname="get_website_data_access_allowed" render="" deprecated=""/>
+      <rendermethod name="webkit_itp_first_party_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_itp_first_party_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitITPThirdParty" render="">
+      <rendermethod name="webkit_itp_third_party_get_domain" ponyname="get_domain" render="" deprecated=""/>
+      <rendermethod name="webkit_itp_third_party_get_first_parties" ponyname="get_first_parties" render="" deprecated=""/>
+      <rendermethod name="webkit_itp_third_party_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_itp_third_party_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitInputMethodContextClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitInputMethodContextPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitInputMethodUnderline" render="">
+      <renderconstructor name="webkit_input_method_underline_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_underline_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_underline_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_underline_set_color" ponyname="set_color" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitInstallMissingMediaPluginsPermissionRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitInstallMissingMediaPluginsPermissionRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitJavascriptResult" render="">
+      <rendermethod name="webkit_javascript_result_get_global_context" ponyname="get_global_context" render="" deprecated="1"/>
+      <rendermethod name="webkit_javascript_result_get_js_value" ponyname="get_js_value" render="" deprecated=""/>
+      <rendermethod name="webkit_javascript_result_get_value" ponyname="get_value" render="" deprecated="1"/>
+      <rendermethod name="webkit_javascript_result_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_javascript_result_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitMediaKeySystemPermissionRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitMediaKeySystemPermissionRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitMemoryPressureSettings" render="">
+      <renderconstructor name="webkit_memory_pressure_settings_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_get_conservative_threshold" ponyname="get_conservative_threshold" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_get_kill_threshold" ponyname="get_kill_threshold" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_get_memory_limit" ponyname="get_memory_limit" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_get_poll_interval" ponyname="get_poll_interval" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_get_strict_threshold" ponyname="get_strict_threshold" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_set_conservative_threshold" ponyname="set_conservative_threshold" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_set_kill_threshold" ponyname="set_kill_threshold" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_set_memory_limit" ponyname="set_memory_limit" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_set_poll_interval" ponyname="set_poll_interval" render="" deprecated=""/>
+      <rendermethod name="webkit_memory_pressure_settings_set_strict_threshold" ponyname="set_strict_threshold" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitMimeInfo" render="">
+      <rendermethod name="webkit_mime_info_get_description" ponyname="get_description" render="" deprecated="1"/>
+      <rendermethod name="webkit_mime_info_get_extensions" ponyname="get_extensions" render="" deprecated="1"/>
+      <rendermethod name="webkit_mime_info_get_mime_type" ponyname="get_mime_type" render="" deprecated="1"/>
+      <rendermethod name="webkit_mime_info_ref" ponyname="ref" render="" deprecated="1"/>
+      <rendermethod name="webkit_mime_info_unref" ponyname="unref" render="" deprecated="1"/>
+    </renderstruct>
+    <renderstruct name="WebKitNavigationAction" render="">
+      <rendermethod name="webkit_navigation_action_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="webkit_navigation_action_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="webkit_navigation_action_get_modifiers" ponyname="get_modifiers" render="" deprecated=""/>
+      <rendermethod name="webkit_navigation_action_get_mouse_button" ponyname="get_mouse_button" render="" deprecated=""/>
+      <rendermethod name="webkit_navigation_action_get_navigation_type" ponyname="get_navigation_type" render="" deprecated=""/>
+      <rendermethod name="webkit_navigation_action_get_request" ponyname="get_request" render="" deprecated=""/>
+      <rendermethod name="webkit_navigation_action_is_redirect" ponyname="is_redirect" render="" deprecated=""/>
+      <rendermethod name="webkit_navigation_action_is_user_gesture" ponyname="is_user_gesture" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitNavigationPolicyDecisionClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitNavigationPolicyDecisionPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitNetworkProxySettings" render="">
+      <renderconstructor name="webkit_network_proxy_settings_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_network_proxy_settings_add_proxy_for_scheme" ponyname="add_proxy_for_scheme" render="" deprecated=""/>
+      <rendermethod name="webkit_network_proxy_settings_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="webkit_network_proxy_settings_free" ponyname="free" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitNotificationClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitNotificationPermissionRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitNotificationPermissionRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitNotificationPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitOptionMenuClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitOptionMenuItem" render="">
+      <rendermethod name="webkit_option_menu_item_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_item_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_item_get_label" ponyname="get_label" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_item_get_tooltip" ponyname="get_tooltip" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_item_is_enabled" ponyname="is_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_item_is_group_child" ponyname="is_group_child" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_item_is_group_label" ponyname="is_group_label" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_item_is_selected" ponyname="is_selected" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitOptionMenuPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitPermissionRequestIface" render="">
+</renderstruct>
+    <renderstruct name="WebKitPluginClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitPluginPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitPointerLockPermissionRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitPointerLockPermissionRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitPolicyDecisionClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitPolicyDecisionPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitPrintCustomWidgetClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitPrintCustomWidgetPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitPrintOperationClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitPrintOperationPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitResponsePolicyDecisionClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitResponsePolicyDecisionPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitScriptDialog" render="">
+      <rendermethod name="webkit_script_dialog_close" ponyname="close" render="" deprecated=""/>
+      <rendermethod name="webkit_script_dialog_confirm_set_confirmed" ponyname="confirm_set_confirmed" render="" deprecated=""/>
+      <rendermethod name="webkit_script_dialog_get_dialog_type" ponyname="get_dialog_type" render="" deprecated=""/>
+      <rendermethod name="webkit_script_dialog_get_message" ponyname="get_message" render="" deprecated=""/>
+      <rendermethod name="webkit_script_dialog_prompt_get_default_text" ponyname="prompt_get_default_text" render="" deprecated=""/>
+      <rendermethod name="webkit_script_dialog_prompt_set_text" ponyname="prompt_set_text" render="" deprecated=""/>
+      <rendermethod name="webkit_script_dialog_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_script_dialog_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitSecurityManagerClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitSecurityManagerPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitSecurityOrigin" render="">
+      <renderconstructor name="webkit_security_origin_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_security_origin_new_for_uri" ponyname="new_for_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_security_origin_get_host" ponyname="get_host" render="" deprecated=""/>
+      <rendermethod name="webkit_security_origin_get_port" ponyname="get_port" render="" deprecated=""/>
+      <rendermethod name="webkit_security_origin_get_protocol" ponyname="get_protocol" render="" deprecated=""/>
+      <rendermethod name="webkit_security_origin_is_opaque" ponyname="is_opaque" render="" deprecated="1"/>
+      <rendermethod name="webkit_security_origin_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_security_origin_to_string" ponyname="to_string" render="" deprecated=""/>
+      <rendermethod name="webkit_security_origin_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitSettingsClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitSettingsPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitURIRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitURIRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitURIResponseClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitURIResponsePrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitURISchemeRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitURISchemeRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitUserContentFilter" render="">
+      <rendermethod name="webkit_user_content_filter_get_identifier" ponyname="get_identifier" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitUserContentFilterStoreClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitUserContentFilterStorePrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitUserContentManagerClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitUserContentManagerPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitUserMediaPermissionRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitUserMediaPermissionRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitUserMessageClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitUserMessagePrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitUserScript" render="">
+      <renderconstructor name="webkit_user_script_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_user_script_new_for_world" ponyname="new_for_world" render="" deprecated=""/>
+      <rendermethod name="webkit_user_script_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_user_script_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitUserStyleSheet" render="">
+      <renderconstructor name="webkit_user_style_sheet_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_user_style_sheet_new_for_world" ponyname="new_for_world" render="" deprecated=""/>
+      <rendermethod name="webkit_user_style_sheet_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_user_style_sheet_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitWebContextClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebContextPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebInspectorClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebInspectorPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebResourceClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebResourcePrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebViewBaseClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebViewBasePrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebViewClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebViewPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebViewSessionState" render="">
+      <renderconstructor name="webkit_web_view_session_state_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_session_state_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_session_state_serialize" ponyname="serialize" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_session_state_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitWebsiteData" render="">
+      <rendermethod name="webkit_website_data_get_name" ponyname="get_name" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_get_size" ponyname="get_size" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_get_types" ponyname="get_types" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="WebKitWebsiteDataAccessPermissionRequestClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebsiteDataAccessPermissionRequestPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebsiteDataManagerClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebsiteDataManagerPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebsitePoliciesClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitWebsitePoliciesPrivate" render="">
+</renderstruct>
+    <renderstruct name="WebKitWindowPropertiesClass" render="">
+</renderstruct>
+    <renderstruct name="WebKitWindowPropertiesPrivate" render="">
+</renderstruct>
+    <renderclass name="WebKitAuthenticationRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_authentication_request_authenticate" ponyname="authenticate" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_can_save_credentials" ponyname="can_save_credentials" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_cancel" ponyname="cancel" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_get_certificate_pin_flags" ponyname="get_certificate_pin_flags" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_get_host" ponyname="get_host" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_get_port" ponyname="get_port" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_get_proposed_credential" ponyname="get_proposed_credential" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_get_realm" ponyname="get_realm" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_get_scheme" ponyname="get_scheme" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_get_security_origin" ponyname="get_security_origin" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_is_for_proxy" ponyname="is_for_proxy" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_is_retry" ponyname="is_retry" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_set_can_save_credentials" ponyname="set_can_save_credentials" render="" deprecated=""/>
+      <rendermethod name="webkit_authentication_request_set_proposed_credential" ponyname="set_proposed_credential" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitAutomationSession" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_automation_session_get_application_info" ponyname="get_application_info" render="" deprecated=""/>
+      <rendermethod name="webkit_automation_session_get_id" ponyname="get_id" render="" deprecated=""/>
+      <rendermethod name="webkit_automation_session_set_application_info" ponyname="set_application_info" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitBackForwardList" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_back_forward_list_get_back_item" ponyname="get_back_item" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_get_back_list" ponyname="get_back_list" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_get_back_list_with_limit" ponyname="get_back_list_with_limit" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_get_current_item" ponyname="get_current_item" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_get_forward_item" ponyname="get_forward_item" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_get_forward_list" ponyname="get_forward_list" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_get_forward_list_with_limit" ponyname="get_forward_list_with_limit" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_get_length" ponyname="get_length" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_get_nth_item" ponyname="get_nth_item" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitBackForwardListItem" render="" parent="GObject.InitiallyUnowned" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_back_forward_list_item_get_original_uri" ponyname="get_original_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_item_get_title" ponyname="get_title" render="" deprecated=""/>
+      <rendermethod name="webkit_back_forward_list_item_get_uri" ponyname="get_uri" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitColorChooserRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_color_chooser_request_cancel" ponyname="cancel" render="" deprecated=""/>
+      <rendermethod name="webkit_color_chooser_request_finish" ponyname="finish" render="" deprecated=""/>
+      <rendermethod name="webkit_color_chooser_request_get_element_rectangle" ponyname="get_element_rectangle" render="" deprecated=""/>
+      <rendermethod name="webkit_color_chooser_request_get_rgba" ponyname="get_rgba" render="" deprecated=""/>
+      <rendermethod name="webkit_color_chooser_request_set_rgba" ponyname="set_rgba" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitContextMenu" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_context_menu_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_context_menu_new_with_items" ponyname="new_with_items" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_append" ponyname="append" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_first" ponyname="first" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_get_item_at_position" ponyname="get_item_at_position" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_get_items" ponyname="get_items" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_get_n_items" ponyname="get_n_items" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_get_user_data" ponyname="get_user_data" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_insert" ponyname="insert" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_last" ponyname="last" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_move_item" ponyname="move_item" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_prepend" ponyname="prepend" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_remove" ponyname="remove" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_remove_all" ponyname="remove_all" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_set_user_data" ponyname="set_user_data" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitContextMenuItem" render="" parent="GObject.InitiallyUnowned" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_context_menu_item_new" ponyname="new" render="" deprecated="1"/>
+      <renderconstructor name="webkit_context_menu_item_new_from_gaction" ponyname="new_from_gaction" render="" deprecated=""/>
+      <renderconstructor name="webkit_context_menu_item_new_from_stock_action" ponyname="new_from_stock_action" render="" deprecated=""/>
+      <renderconstructor name="webkit_context_menu_item_new_from_stock_action_with_label" ponyname="new_from_stock_action_with_label" render="" deprecated=""/>
+      <renderconstructor name="webkit_context_menu_item_new_separator" ponyname="new_separator" render="" deprecated=""/>
+      <renderconstructor name="webkit_context_menu_item_new_with_submenu" ponyname="new_with_submenu" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_item_get_action" ponyname="get_action" render="" deprecated="1"/>
+      <rendermethod name="webkit_context_menu_item_get_gaction" ponyname="get_gaction" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_item_get_stock_action" ponyname="get_stock_action" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_item_get_submenu" ponyname="get_submenu" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_item_is_separator" ponyname="is_separator" render="" deprecated=""/>
+      <rendermethod name="webkit_context_menu_item_set_submenu" ponyname="set_submenu" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitCookieManager" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_cookie_manager_add_cookie" ponyname="add_cookie" render="" deprecated=""/>
+      <rendermethod name="webkit_cookie_manager_add_cookie_finish" ponyname="add_cookie_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_cookie_manager_delete_all_cookies" ponyname="delete_all_cookies" render="" deprecated="1"/>
+      <rendermethod name="webkit_cookie_manager_delete_cookie" ponyname="delete_cookie" render="" deprecated=""/>
+      <rendermethod name="webkit_cookie_manager_delete_cookie_finish" ponyname="delete_cookie_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_cookie_manager_delete_cookies_for_domain" ponyname="delete_cookies_for_domain" render="" deprecated="1"/>
+      <rendermethod name="webkit_cookie_manager_get_accept_policy" ponyname="get_accept_policy" render="" deprecated=""/>
+      <rendermethod name="webkit_cookie_manager_get_accept_policy_finish" ponyname="get_accept_policy_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_cookie_manager_get_cookies" ponyname="get_cookies" render="" deprecated=""/>
+      <rendermethod name="webkit_cookie_manager_get_cookies_finish" ponyname="get_cookies_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_cookie_manager_get_domains_with_cookies" ponyname="get_domains_with_cookies" render="" deprecated="1"/>
+      <rendermethod name="webkit_cookie_manager_get_domains_with_cookies_finish" ponyname="get_domains_with_cookies_finish" render="" deprecated="1"/>
+      <rendermethod name="webkit_cookie_manager_set_accept_policy" ponyname="set_accept_policy" render="" deprecated=""/>
+      <rendermethod name="webkit_cookie_manager_set_persistent_storage" ponyname="set_persistent_storage" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitDeviceInfoPermissionRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+</renderclass>
+    <renderclass name="WebKitDownload" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_download_cancel" ponyname="cancel" render="" deprecated=""/>
+      <rendermethod name="webkit_download_get_allow_overwrite" ponyname="get_allow_overwrite" render="" deprecated=""/>
+      <rendermethod name="webkit_download_get_destination" ponyname="get_destination" render="" deprecated=""/>
+      <rendermethod name="webkit_download_get_elapsed_time" ponyname="get_elapsed_time" render="" deprecated=""/>
+      <rendermethod name="webkit_download_get_estimated_progress" ponyname="get_estimated_progress" render="" deprecated=""/>
+      <rendermethod name="webkit_download_get_received_data_length" ponyname="get_received_data_length" render="" deprecated=""/>
+      <rendermethod name="webkit_download_get_request" ponyname="get_request" render="" deprecated=""/>
+      <rendermethod name="webkit_download_get_response" ponyname="get_response" render="" deprecated=""/>
+      <rendermethod name="webkit_download_get_web_view" ponyname="get_web_view" render="" deprecated=""/>
+      <rendermethod name="webkit_download_set_allow_overwrite" ponyname="set_allow_overwrite" render="" deprecated=""/>
+      <rendermethod name="webkit_download_set_destination" ponyname="set_destination" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitEditorState" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_editor_state_get_typing_attributes" ponyname="get_typing_attributes" render="" deprecated=""/>
+      <rendermethod name="webkit_editor_state_is_copy_available" ponyname="is_copy_available" render="" deprecated=""/>
+      <rendermethod name="webkit_editor_state_is_cut_available" ponyname="is_cut_available" render="" deprecated=""/>
+      <rendermethod name="webkit_editor_state_is_paste_available" ponyname="is_paste_available" render="" deprecated=""/>
+      <rendermethod name="webkit_editor_state_is_redo_available" ponyname="is_redo_available" render="" deprecated=""/>
+      <rendermethod name="webkit_editor_state_is_undo_available" ponyname="is_undo_available" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitFaviconDatabase" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_favicon_database_clear" ponyname="clear" render="" deprecated=""/>
+      <rendermethod name="webkit_favicon_database_get_favicon" ponyname="get_favicon" render="" deprecated=""/>
+      <rendermethod name="webkit_favicon_database_get_favicon_finish" ponyname="get_favicon_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_favicon_database_get_favicon_uri" ponyname="get_favicon_uri" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitFileChooserRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_file_chooser_request_cancel" ponyname="cancel" render="" deprecated=""/>
+      <rendermethod name="webkit_file_chooser_request_get_mime_types" ponyname="get_mime_types" render="" deprecated=""/>
+      <rendermethod name="webkit_file_chooser_request_get_mime_types_filter" ponyname="get_mime_types_filter" render="" deprecated=""/>
+      <rendermethod name="webkit_file_chooser_request_get_select_multiple" ponyname="get_select_multiple" render="" deprecated=""/>
+      <rendermethod name="webkit_file_chooser_request_get_selected_files" ponyname="get_selected_files" render="" deprecated=""/>
+      <rendermethod name="webkit_file_chooser_request_select_files" ponyname="select_files" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitFindController" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_find_controller_count_matches" ponyname="count_matches" render="" deprecated=""/>
+      <rendermethod name="webkit_find_controller_get_max_match_count" ponyname="get_max_match_count" render="" deprecated=""/>
+      <rendermethod name="webkit_find_controller_get_options" ponyname="get_options" render="" deprecated=""/>
+      <rendermethod name="webkit_find_controller_get_search_text" ponyname="get_search_text" render="" deprecated=""/>
+      <rendermethod name="webkit_find_controller_get_web_view" ponyname="get_web_view" render="" deprecated=""/>
+      <rendermethod name="webkit_find_controller_search" ponyname="search" render="" deprecated=""/>
+      <rendermethod name="webkit_find_controller_search_finish" ponyname="search_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_find_controller_search_next" ponyname="search_next" render="" deprecated=""/>
+      <rendermethod name="webkit_find_controller_search_previous" ponyname="search_previous" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitFormSubmissionRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_form_submission_request_get_text_fields" ponyname="get_text_fields" render="" deprecated="1"/>
+      <rendermethod name="webkit_form_submission_request_list_text_fields" ponyname="list_text_fields" render="" deprecated=""/>
+      <rendermethod name="webkit_form_submission_request_submit" ponyname="submit" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitGeolocationManager" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_geolocation_manager_failed" ponyname="failed" render="" deprecated=""/>
+      <rendermethod name="webkit_geolocation_manager_get_enable_high_accuracy" ponyname="get_enable_high_accuracy" render="" deprecated=""/>
+      <rendermethod name="webkit_geolocation_manager_update_position" ponyname="update_position" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitGeolocationPermissionRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+</renderclass>
+    <renderclass name="WebKitHitTestResult" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_hit_test_result_context_is_editable" ponyname="context_is_editable" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_context_is_image" ponyname="context_is_image" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_context_is_link" ponyname="context_is_link" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_context_is_media" ponyname="context_is_media" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_context_is_scrollbar" ponyname="context_is_scrollbar" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_context_is_selection" ponyname="context_is_selection" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_get_context" ponyname="get_context" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_get_image_uri" ponyname="get_image_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_get_link_label" ponyname="get_link_label" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_get_link_title" ponyname="get_link_title" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_get_link_uri" ponyname="get_link_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_hit_test_result_get_media_uri" ponyname="get_media_uri" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitInputMethodContext" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="webkit_input_method_context_filter_key_event" ponyname="filter_key_event" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_get_input_hints" ponyname="get_input_hints" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_get_input_purpose" ponyname="get_input_purpose" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_get_preedit" ponyname="get_preedit" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_notify_cursor_area" ponyname="notify_cursor_area" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_notify_focus_in" ponyname="notify_focus_in" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_notify_focus_out" ponyname="notify_focus_out" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_notify_surrounding" ponyname="notify_surrounding" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_reset" ponyname="reset" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_set_enable_preedit" ponyname="set_enable_preedit" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_set_input_hints" ponyname="set_input_hints" render="" deprecated=""/>
+      <rendermethod name="webkit_input_method_context_set_input_purpose" ponyname="set_input_purpose" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitInstallMissingMediaPluginsPermissionRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_install_missing_media_plugins_permission_request_get_description" ponyname="get_description" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitMediaKeySystemPermissionRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+</renderclass>
+    <renderclass name="WebKitNavigationPolicyDecision" render="" parent="PolicyDecision" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_navigation_policy_decision_get_frame_name" ponyname="get_frame_name" render="" deprecated=""/>
+      <rendermethod name="webkit_navigation_policy_decision_get_modifiers" ponyname="get_modifiers" render="" deprecated="1"/>
+      <rendermethod name="webkit_navigation_policy_decision_get_mouse_button" ponyname="get_mouse_button" render="" deprecated="1"/>
+      <rendermethod name="webkit_navigation_policy_decision_get_navigation_action" ponyname="get_navigation_action" render="" deprecated=""/>
+      <rendermethod name="webkit_navigation_policy_decision_get_navigation_type" ponyname="get_navigation_type" render="" deprecated="1"/>
+      <rendermethod name="webkit_navigation_policy_decision_get_request" ponyname="get_request" render="" deprecated="1"/>
+    </renderclass>
+    <renderclass name="WebKitNotification" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_notification_clicked" ponyname="clicked" render="" deprecated=""/>
+      <rendermethod name="webkit_notification_close" ponyname="close" render="" deprecated=""/>
+      <rendermethod name="webkit_notification_get_body" ponyname="get_body" render="" deprecated=""/>
+      <rendermethod name="webkit_notification_get_id" ponyname="get_id" render="" deprecated=""/>
+      <rendermethod name="webkit_notification_get_tag" ponyname="get_tag" render="" deprecated=""/>
+      <rendermethod name="webkit_notification_get_title" ponyname="get_title" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitNotificationPermissionRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+</renderclass>
+    <renderclass name="WebKitOptionMenu" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_option_menu_activate_item" ponyname="activate_item" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_close" ponyname="close" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_get_item" ponyname="get_item" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_get_n_items" ponyname="get_n_items" render="" deprecated=""/>
+      <rendermethod name="webkit_option_menu_select_item" ponyname="select_item" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitPlugin" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_plugin_get_description" ponyname="get_description" render="" deprecated="1"/>
+      <rendermethod name="webkit_plugin_get_mime_info_list" ponyname="get_mime_info_list" render="" deprecated="1"/>
+      <rendermethod name="webkit_plugin_get_name" ponyname="get_name" render="" deprecated="1"/>
+      <rendermethod name="webkit_plugin_get_path" ponyname="get_path" render="" deprecated="1"/>
+    </renderclass>
+    <renderclass name="WebKitPointerLockPermissionRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+</renderclass>
+    <renderclass name="WebKitPolicyDecision" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="webkit_policy_decision_download" ponyname="download" render="" deprecated=""/>
+      <rendermethod name="webkit_policy_decision_ignore" ponyname="ignore" render="" deprecated=""/>
+      <rendermethod name="webkit_policy_decision_use" ponyname="use" render="" deprecated=""/>
+      <rendermethod name="webkit_policy_decision_use_with_policies" ponyname="use_with_policies" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitPrintCustomWidget" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_print_custom_widget_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_print_custom_widget_get_title" ponyname="get_title" render="" deprecated=""/>
+      <rendermethod name="webkit_print_custom_widget_get_widget" ponyname="get_widget" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitPrintOperation" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_print_operation_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_print_operation_get_page_setup" ponyname="get_page_setup" render="" deprecated=""/>
+      <rendermethod name="webkit_print_operation_get_print_settings" ponyname="get_print_settings" render="" deprecated=""/>
+      <rendermethod name="webkit_print_operation_print" ponyname="print" render="" deprecated=""/>
+      <rendermethod name="webkit_print_operation_run_dialog" ponyname="run_dialog" render="" deprecated=""/>
+      <rendermethod name="webkit_print_operation_set_page_setup" ponyname="set_page_setup" render="" deprecated=""/>
+      <rendermethod name="webkit_print_operation_set_print_settings" ponyname="set_print_settings" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitResponsePolicyDecision" render="" parent="PolicyDecision" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_response_policy_decision_get_request" ponyname="get_request" render="" deprecated=""/>
+      <rendermethod name="webkit_response_policy_decision_get_response" ponyname="get_response" render="" deprecated=""/>
+      <rendermethod name="webkit_response_policy_decision_is_mime_type_supported" ponyname="is_mime_type_supported" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitSecurityManager" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_security_manager_register_uri_scheme_as_cors_enabled" ponyname="register_uri_scheme_as_cors_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_register_uri_scheme_as_display_isolated" ponyname="register_uri_scheme_as_display_isolated" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_register_uri_scheme_as_empty_document" ponyname="register_uri_scheme_as_empty_document" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_register_uri_scheme_as_local" ponyname="register_uri_scheme_as_local" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_register_uri_scheme_as_no_access" ponyname="register_uri_scheme_as_no_access" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_register_uri_scheme_as_secure" ponyname="register_uri_scheme_as_secure" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_uri_scheme_is_cors_enabled" ponyname="uri_scheme_is_cors_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_uri_scheme_is_display_isolated" ponyname="uri_scheme_is_display_isolated" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_uri_scheme_is_empty_document" ponyname="uri_scheme_is_empty_document" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_uri_scheme_is_local" ponyname="uri_scheme_is_local" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_uri_scheme_is_no_access" ponyname="uri_scheme_is_no_access" render="" deprecated=""/>
+      <rendermethod name="webkit_security_manager_uri_scheme_is_secure" ponyname="uri_scheme_is_secure" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitSettings" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_settings_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_settings_new_with_settings" ponyname="new_with_settings" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_allow_file_access_from_file_urls" ponyname="get_allow_file_access_from_file_urls" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_allow_modal_dialogs" ponyname="get_allow_modal_dialogs" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_allow_top_navigation_to_data_urls" ponyname="get_allow_top_navigation_to_data_urls" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_allow_universal_access_from_file_urls" ponyname="get_allow_universal_access_from_file_urls" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_auto_load_images" ponyname="get_auto_load_images" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_cursive_font_family" ponyname="get_cursive_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_default_charset" ponyname="get_default_charset" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_default_font_family" ponyname="get_default_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_default_font_size" ponyname="get_default_font_size" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_default_monospace_font_size" ponyname="get_default_monospace_font_size" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_draw_compositing_indicators" ponyname="get_draw_compositing_indicators" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_accelerated_2d_canvas" ponyname="get_enable_accelerated_2d_canvas" render="" deprecated="1"/>
+      <rendermethod name="webkit_settings_get_enable_back_forward_navigation_gestures" ponyname="get_enable_back_forward_navigation_gestures" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_caret_browsing" ponyname="get_enable_caret_browsing" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_developer_extras" ponyname="get_enable_developer_extras" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_dns_prefetching" ponyname="get_enable_dns_prefetching" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_encrypted_media" ponyname="get_enable_encrypted_media" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_frame_flattening" ponyname="get_enable_frame_flattening" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_fullscreen" ponyname="get_enable_fullscreen" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_html5_database" ponyname="get_enable_html5_database" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_html5_local_storage" ponyname="get_enable_html5_local_storage" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_hyperlink_auditing" ponyname="get_enable_hyperlink_auditing" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_java" ponyname="get_enable_java" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_javascript" ponyname="get_enable_javascript" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_javascript_markup" ponyname="get_enable_javascript_markup" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_media" ponyname="get_enable_media" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_media_capabilities" ponyname="get_enable_media_capabilities" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_media_stream" ponyname="get_enable_media_stream" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_mediasource" ponyname="get_enable_mediasource" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_mock_capture_devices" ponyname="get_enable_mock_capture_devices" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_offline_web_application_cache" ponyname="get_enable_offline_web_application_cache" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_page_cache" ponyname="get_enable_page_cache" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_plugins" ponyname="get_enable_plugins" render="" deprecated="1"/>
+      <rendermethod name="webkit_settings_get_enable_private_browsing" ponyname="get_enable_private_browsing" render="" deprecated="1"/>
+      <rendermethod name="webkit_settings_get_enable_resizable_text_areas" ponyname="get_enable_resizable_text_areas" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_site_specific_quirks" ponyname="get_enable_site_specific_quirks" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_smooth_scrolling" ponyname="get_enable_smooth_scrolling" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_spatial_navigation" ponyname="get_enable_spatial_navigation" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_tabs_to_links" ponyname="get_enable_tabs_to_links" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_webaudio" ponyname="get_enable_webaudio" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_webgl" ponyname="get_enable_webgl" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_write_console_messages_to_stdout" ponyname="get_enable_write_console_messages_to_stdout" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_enable_xss_auditor" ponyname="get_enable_xss_auditor" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_fantasy_font_family" ponyname="get_fantasy_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_hardware_acceleration_policy" ponyname="get_hardware_acceleration_policy" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_javascript_can_access_clipboard" ponyname="get_javascript_can_access_clipboard" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_javascript_can_open_windows_automatically" ponyname="get_javascript_can_open_windows_automatically" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_load_icons_ignoring_image_load_setting" ponyname="get_load_icons_ignoring_image_load_setting" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_media_content_types_requiring_hardware_support" ponyname="get_media_content_types_requiring_hardware_support" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_media_playback_allows_inline" ponyname="get_media_playback_allows_inline" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_media_playback_requires_user_gesture" ponyname="get_media_playback_requires_user_gesture" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_minimum_font_size" ponyname="get_minimum_font_size" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_monospace_font_family" ponyname="get_monospace_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_pictograph_font_family" ponyname="get_pictograph_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_print_backgrounds" ponyname="get_print_backgrounds" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_sans_serif_font_family" ponyname="get_sans_serif_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_serif_font_family" ponyname="get_serif_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_user_agent" ponyname="get_user_agent" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_get_zoom_text_only" ponyname="get_zoom_text_only" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_allow_file_access_from_file_urls" ponyname="set_allow_file_access_from_file_urls" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_allow_modal_dialogs" ponyname="set_allow_modal_dialogs" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_allow_top_navigation_to_data_urls" ponyname="set_allow_top_navigation_to_data_urls" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_allow_universal_access_from_file_urls" ponyname="set_allow_universal_access_from_file_urls" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_auto_load_images" ponyname="set_auto_load_images" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_cursive_font_family" ponyname="set_cursive_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_default_charset" ponyname="set_default_charset" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_default_font_family" ponyname="set_default_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_default_font_size" ponyname="set_default_font_size" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_default_monospace_font_size" ponyname="set_default_monospace_font_size" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_draw_compositing_indicators" ponyname="set_draw_compositing_indicators" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_accelerated_2d_canvas" ponyname="set_enable_accelerated_2d_canvas" render="" deprecated="1"/>
+      <rendermethod name="webkit_settings_set_enable_back_forward_navigation_gestures" ponyname="set_enable_back_forward_navigation_gestures" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_caret_browsing" ponyname="set_enable_caret_browsing" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_developer_extras" ponyname="set_enable_developer_extras" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_dns_prefetching" ponyname="set_enable_dns_prefetching" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_encrypted_media" ponyname="set_enable_encrypted_media" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_frame_flattening" ponyname="set_enable_frame_flattening" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_fullscreen" ponyname="set_enable_fullscreen" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_html5_database" ponyname="set_enable_html5_database" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_html5_local_storage" ponyname="set_enable_html5_local_storage" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_hyperlink_auditing" ponyname="set_enable_hyperlink_auditing" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_java" ponyname="set_enable_java" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_javascript" ponyname="set_enable_javascript" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_javascript_markup" ponyname="set_enable_javascript_markup" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_media" ponyname="set_enable_media" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_media_capabilities" ponyname="set_enable_media_capabilities" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_media_stream" ponyname="set_enable_media_stream" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_mediasource" ponyname="set_enable_mediasource" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_mock_capture_devices" ponyname="set_enable_mock_capture_devices" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_offline_web_application_cache" ponyname="set_enable_offline_web_application_cache" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_page_cache" ponyname="set_enable_page_cache" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_plugins" ponyname="set_enable_plugins" render="" deprecated="1"/>
+      <rendermethod name="webkit_settings_set_enable_private_browsing" ponyname="set_enable_private_browsing" render="" deprecated="1"/>
+      <rendermethod name="webkit_settings_set_enable_resizable_text_areas" ponyname="set_enable_resizable_text_areas" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_site_specific_quirks" ponyname="set_enable_site_specific_quirks" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_smooth_scrolling" ponyname="set_enable_smooth_scrolling" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_spatial_navigation" ponyname="set_enable_spatial_navigation" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_tabs_to_links" ponyname="set_enable_tabs_to_links" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_webaudio" ponyname="set_enable_webaudio" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_webgl" ponyname="set_enable_webgl" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_write_console_messages_to_stdout" ponyname="set_enable_write_console_messages_to_stdout" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_enable_xss_auditor" ponyname="set_enable_xss_auditor" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_fantasy_font_family" ponyname="set_fantasy_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_hardware_acceleration_policy" ponyname="set_hardware_acceleration_policy" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_javascript_can_access_clipboard" ponyname="set_javascript_can_access_clipboard" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_javascript_can_open_windows_automatically" ponyname="set_javascript_can_open_windows_automatically" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_load_icons_ignoring_image_load_setting" ponyname="set_load_icons_ignoring_image_load_setting" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_media_content_types_requiring_hardware_support" ponyname="set_media_content_types_requiring_hardware_support" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_media_playback_allows_inline" ponyname="set_media_playback_allows_inline" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_media_playback_requires_user_gesture" ponyname="set_media_playback_requires_user_gesture" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_minimum_font_size" ponyname="set_minimum_font_size" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_monospace_font_family" ponyname="set_monospace_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_pictograph_font_family" ponyname="set_pictograph_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_print_backgrounds" ponyname="set_print_backgrounds" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_sans_serif_font_family" ponyname="set_sans_serif_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_serif_font_family" ponyname="set_serif_font_family" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_user_agent" ponyname="set_user_agent" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_user_agent_with_application_details" ponyname="set_user_agent_with_application_details" render="" deprecated=""/>
+      <rendermethod name="webkit_settings_set_zoom_text_only" ponyname="set_zoom_text_only" render="" deprecated=""/>
+      <renderfunction name="webkit_settings_font_size_to_pixels" ponyname="font_size_to_pixels" render="" deprecated=""/>
+      <renderfunction name="webkit_settings_font_size_to_points" ponyname="font_size_to_points" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitURIRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_uri_request_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_request_get_http_headers" ponyname="get_http_headers" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_request_get_http_method" ponyname="get_http_method" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_request_get_uri" ponyname="get_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_request_set_uri" ponyname="set_uri" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitURIResponse" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_uri_response_get_content_length" ponyname="get_content_length" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_response_get_http_headers" ponyname="get_http_headers" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_response_get_mime_type" ponyname="get_mime_type" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_response_get_status_code" ponyname="get_status_code" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_response_get_suggested_filename" ponyname="get_suggested_filename" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_response_get_uri" ponyname="get_uri" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitURISchemeRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_uri_scheme_request_finish" ponyname="finish" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_scheme_request_finish_error" ponyname="finish_error" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_scheme_request_get_path" ponyname="get_path" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_scheme_request_get_scheme" ponyname="get_scheme" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_scheme_request_get_uri" ponyname="get_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_uri_scheme_request_get_web_view" ponyname="get_web_view" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitUserContentFilterStore" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_user_content_filter_store_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_fetch_identifiers" ponyname="fetch_identifiers" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_fetch_identifiers_finish" ponyname="fetch_identifiers_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_get_path" ponyname="get_path" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_load" ponyname="load" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_load_finish" ponyname="load_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_remove" ponyname="remove" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_remove_finish" ponyname="remove_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_save" ponyname="save" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_save_finish" ponyname="save_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_save_from_file" ponyname="save_from_file" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_filter_store_save_from_file_finish" ponyname="save_from_file_finish" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitUserContentManager" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_user_content_manager_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_add_filter" ponyname="add_filter" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_add_script" ponyname="add_script" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_add_style_sheet" ponyname="add_style_sheet" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_register_script_message_handler" ponyname="register_script_message_handler" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_register_script_message_handler_in_world" ponyname="register_script_message_handler_in_world" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_remove_all_filters" ponyname="remove_all_filters" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_remove_all_scripts" ponyname="remove_all_scripts" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_remove_all_style_sheets" ponyname="remove_all_style_sheets" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_remove_filter" ponyname="remove_filter" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_remove_filter_by_id" ponyname="remove_filter_by_id" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_remove_script" ponyname="remove_script" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_remove_style_sheet" ponyname="remove_style_sheet" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_unregister_script_message_handler" ponyname="unregister_script_message_handler" render="" deprecated=""/>
+      <rendermethod name="webkit_user_content_manager_unregister_script_message_handler_in_world" ponyname="unregister_script_message_handler_in_world" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitUserMediaPermissionRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+</renderclass>
+    <renderclass name="WebKitUserMessage" render="" parent="GObject.InitiallyUnowned" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_user_message_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_user_message_new_with_fd_list" ponyname="new_with_fd_list" render="" deprecated=""/>
+      <rendermethod name="webkit_user_message_get_fd_list" ponyname="get_fd_list" render="" deprecated=""/>
+      <rendermethod name="webkit_user_message_get_name" ponyname="get_name" render="" deprecated=""/>
+      <rendermethod name="webkit_user_message_get_parameters" ponyname="get_parameters" render="" deprecated=""/>
+      <rendermethod name="webkit_user_message_send_reply" ponyname="send_reply" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitWebContext" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_web_context_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_web_context_new_ephemeral" ponyname="new_ephemeral" render="" deprecated=""/>
+      <renderconstructor name="webkit_web_context_new_with_website_data_manager" ponyname="new_with_website_data_manager" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_add_path_to_sandbox" ponyname="add_path_to_sandbox" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_allow_tls_certificate_for_host" ponyname="allow_tls_certificate_for_host" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_clear_cache" ponyname="clear_cache" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_download_uri" ponyname="download_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_cache_model" ponyname="get_cache_model" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_cookie_manager" ponyname="get_cookie_manager" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_favicon_database" ponyname="get_favicon_database" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_favicon_database_directory" ponyname="get_favicon_database_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_geolocation_manager" ponyname="get_geolocation_manager" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_plugins" ponyname="get_plugins" render="" deprecated="1"/>
+      <rendermethod name="webkit_web_context_get_plugins_finish" ponyname="get_plugins_finish" render="" deprecated="1"/>
+      <rendermethod name="webkit_web_context_get_process_model" ponyname="get_process_model" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_sandbox_enabled" ponyname="get_sandbox_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_security_manager" ponyname="get_security_manager" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_spell_checking_enabled" ponyname="get_spell_checking_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_spell_checking_languages" ponyname="get_spell_checking_languages" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_tls_errors_policy" ponyname="get_tls_errors_policy" render="" deprecated="1"/>
+      <rendermethod name="webkit_web_context_get_use_system_appearance_for_scrollbars" ponyname="get_use_system_appearance_for_scrollbars" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_get_web_process_count_limit" ponyname="get_web_process_count_limit" render="" deprecated="1"/>
+      <rendermethod name="webkit_web_context_get_website_data_manager" ponyname="get_website_data_manager" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_initialize_notification_permissions" ponyname="initialize_notification_permissions" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_is_automation_allowed" ponyname="is_automation_allowed" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_is_ephemeral" ponyname="is_ephemeral" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_prefetch_dns" ponyname="prefetch_dns" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_register_uri_scheme" ponyname="register_uri_scheme" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_send_message_to_all_extensions" ponyname="send_message_to_all_extensions" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_additional_plugins_directory" ponyname="set_additional_plugins_directory" render="" deprecated="1"/>
+      <rendermethod name="webkit_web_context_set_automation_allowed" ponyname="set_automation_allowed" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_cache_model" ponyname="set_cache_model" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_disk_cache_directory" ponyname="set_disk_cache_directory" render="" deprecated="1"/>
+      <rendermethod name="webkit_web_context_set_favicon_database_directory" ponyname="set_favicon_database_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_network_proxy_settings" ponyname="set_network_proxy_settings" render="" deprecated="1"/>
+      <rendermethod name="webkit_web_context_set_preferred_languages" ponyname="set_preferred_languages" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_process_model" ponyname="set_process_model" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_sandbox_enabled" ponyname="set_sandbox_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_spell_checking_enabled" ponyname="set_spell_checking_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_spell_checking_languages" ponyname="set_spell_checking_languages" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_tls_errors_policy" ponyname="set_tls_errors_policy" render="" deprecated="1"/>
+      <rendermethod name="webkit_web_context_set_use_system_appearance_for_scrollbars" ponyname="set_use_system_appearance_for_scrollbars" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_web_extensions_directory" ponyname="set_web_extensions_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_web_extensions_initialization_user_data" ponyname="set_web_extensions_initialization_user_data" render="" deprecated=""/>
+      <rendermethod name="webkit_web_context_set_web_process_count_limit" ponyname="set_web_process_count_limit" render="" deprecated="1"/>
+      <renderfunction name="webkit_web_context_get_default" ponyname="get_default" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitWebInspector" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_web_inspector_attach" ponyname="attach" render="" deprecated=""/>
+      <rendermethod name="webkit_web_inspector_close" ponyname="close" render="" deprecated=""/>
+      <rendermethod name="webkit_web_inspector_detach" ponyname="detach" render="" deprecated=""/>
+      <rendermethod name="webkit_web_inspector_get_attached_height" ponyname="get_attached_height" render="" deprecated=""/>
+      <rendermethod name="webkit_web_inspector_get_can_attach" ponyname="get_can_attach" render="" deprecated=""/>
+      <rendermethod name="webkit_web_inspector_get_inspected_uri" ponyname="get_inspected_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_web_inspector_get_web_view" ponyname="get_web_view" render="" deprecated=""/>
+      <rendermethod name="webkit_web_inspector_is_attached" ponyname="is_attached" render="" deprecated=""/>
+      <rendermethod name="webkit_web_inspector_show" ponyname="show" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitWebResource" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_web_resource_get_data" ponyname="get_data" render="" deprecated=""/>
+      <rendermethod name="webkit_web_resource_get_data_finish" ponyname="get_data_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_web_resource_get_response" ponyname="get_response" render="" deprecated=""/>
+      <rendermethod name="webkit_web_resource_get_uri" ponyname="get_uri" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitWebView" render="" parent="WebViewBase" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_web_view_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_web_view_new_with_context" ponyname="new_with_context" render="" deprecated=""/>
+      <renderconstructor name="webkit_web_view_new_with_related_view" ponyname="new_with_related_view" render="" deprecated=""/>
+      <renderconstructor name="webkit_web_view_new_with_settings" ponyname="new_with_settings" render="" deprecated=""/>
+      <renderconstructor name="webkit_web_view_new_with_user_content_manager" ponyname="new_with_user_content_manager" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_can_execute_editing_command" ponyname="can_execute_editing_command" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_can_execute_editing_command_finish" ponyname="can_execute_editing_command_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_can_go_back" ponyname="can_go_back" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_can_go_forward" ponyname="can_go_forward" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_can_show_mime_type" ponyname="can_show_mime_type" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_download_uri" ponyname="download_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_execute_editing_command" ponyname="execute_editing_command" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_execute_editing_command_with_argument" ponyname="execute_editing_command_with_argument" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_automation_presentation_type" ponyname="get_automation_presentation_type" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_back_forward_list" ponyname="get_back_forward_list" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_background_color" ponyname="get_background_color" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_camera_capture_state" ponyname="get_camera_capture_state" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_context" ponyname="get_context" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_custom_charset" ponyname="get_custom_charset" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_display_capture_state" ponyname="get_display_capture_state" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_editor_state" ponyname="get_editor_state" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_estimated_load_progress" ponyname="get_estimated_load_progress" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_favicon" ponyname="get_favicon" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_find_controller" ponyname="get_find_controller" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_input_method_context" ponyname="get_input_method_context" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_inspector" ponyname="get_inspector" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_is_muted" ponyname="get_is_muted" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_is_web_process_responsive" ponyname="get_is_web_process_responsive" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_javascript_global_context" ponyname="get_javascript_global_context" render="" deprecated="1"/>
+      <rendermethod name="webkit_web_view_get_main_resource" ponyname="get_main_resource" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_microphone_capture_state" ponyname="get_microphone_capture_state" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_page_id" ponyname="get_page_id" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_session_state" ponyname="get_session_state" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_settings" ponyname="get_settings" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_snapshot" ponyname="get_snapshot" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_snapshot_finish" ponyname="get_snapshot_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_title" ponyname="get_title" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_tls_info" ponyname="get_tls_info" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_uri" ponyname="get_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_user_content_manager" ponyname="get_user_content_manager" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_website_data_manager" ponyname="get_website_data_manager" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_website_policies" ponyname="get_website_policies" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_window_properties" ponyname="get_window_properties" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_get_zoom_level" ponyname="get_zoom_level" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_go_back" ponyname="go_back" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_go_forward" ponyname="go_forward" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_go_to_back_forward_list_item" ponyname="go_to_back_forward_list_item" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_is_controlled_by_automation" ponyname="is_controlled_by_automation" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_is_editable" ponyname="is_editable" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_is_ephemeral" ponyname="is_ephemeral" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_is_loading" ponyname="is_loading" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_is_playing_audio" ponyname="is_playing_audio" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_load_alternate_html" ponyname="load_alternate_html" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_load_bytes" ponyname="load_bytes" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_load_html" ponyname="load_html" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_load_plain_text" ponyname="load_plain_text" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_load_request" ponyname="load_request" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_load_uri" ponyname="load_uri" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_reload" ponyname="reload" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_reload_bypass_cache" ponyname="reload_bypass_cache" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_restore_session_state" ponyname="restore_session_state" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_run_javascript" ponyname="run_javascript" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_run_javascript_finish" ponyname="run_javascript_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_run_javascript_from_gresource" ponyname="run_javascript_from_gresource" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_run_javascript_from_gresource_finish" ponyname="run_javascript_from_gresource_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_run_javascript_in_world" ponyname="run_javascript_in_world" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_run_javascript_in_world_finish" ponyname="run_javascript_in_world_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_save" ponyname="save" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_save_finish" ponyname="save_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_save_to_file" ponyname="save_to_file" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_save_to_file_finish" ponyname="save_to_file_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_send_message_to_page" ponyname="send_message_to_page" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_send_message_to_page_finish" ponyname="send_message_to_page_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_background_color" ponyname="set_background_color" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_camera_capture_state" ponyname="set_camera_capture_state" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_cors_allowlist" ponyname="set_cors_allowlist" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_custom_charset" ponyname="set_custom_charset" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_display_capture_state" ponyname="set_display_capture_state" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_editable" ponyname="set_editable" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_input_method_context" ponyname="set_input_method_context" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_is_muted" ponyname="set_is_muted" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_microphone_capture_state" ponyname="set_microphone_capture_state" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_settings" ponyname="set_settings" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_set_zoom_level" ponyname="set_zoom_level" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_stop_loading" ponyname="stop_loading" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_terminate_web_process" ponyname="terminate_web_process" render="" deprecated=""/>
+      <rendermethod name="webkit_web_view_try_close" ponyname="try_close" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitWebViewBase" render="" parent="Gtk.Container" abstract="" final="" fundamental="">
+</renderclass>
+    <renderclass name="WebKitWebsiteDataAccessPermissionRequest" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_website_data_access_permission_request_get_current_domain" ponyname="get_current_domain" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_access_permission_request_get_requesting_domain" ponyname="get_requesting_domain" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitWebsiteDataManager" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_website_data_manager_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_website_data_manager_new_ephemeral" ponyname="new_ephemeral" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_clear" ponyname="clear" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_clear_finish" ponyname="clear_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_fetch" ponyname="fetch" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_fetch_finish" ponyname="fetch_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_base_cache_directory" ponyname="get_base_cache_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_base_data_directory" ponyname="get_base_data_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_cookie_manager" ponyname="get_cookie_manager" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_disk_cache_directory" ponyname="get_disk_cache_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_dom_cache_directory" ponyname="get_dom_cache_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_hsts_cache_directory" ponyname="get_hsts_cache_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_indexeddb_directory" ponyname="get_indexeddb_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_itp_directory" ponyname="get_itp_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_itp_enabled" ponyname="get_itp_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_itp_summary" ponyname="get_itp_summary" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_itp_summary_finish" ponyname="get_itp_summary_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_local_storage_directory" ponyname="get_local_storage_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_offline_application_cache_directory" ponyname="get_offline_application_cache_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_persistent_credential_storage_enabled" ponyname="get_persistent_credential_storage_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_service_worker_registrations_directory" ponyname="get_service_worker_registrations_directory" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_tls_errors_policy" ponyname="get_tls_errors_policy" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_get_websql_directory" ponyname="get_websql_directory" render="" deprecated="1"/>
+      <rendermethod name="webkit_website_data_manager_is_ephemeral" ponyname="is_ephemeral" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_remove" ponyname="remove" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_remove_finish" ponyname="remove_finish" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_set_itp_enabled" ponyname="set_itp_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_set_network_proxy_settings" ponyname="set_network_proxy_settings" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_set_persistent_credential_storage_enabled" ponyname="set_persistent_credential_storage_enabled" render="" deprecated=""/>
+      <rendermethod name="webkit_website_data_manager_set_tls_errors_policy" ponyname="set_tls_errors_policy" render="" deprecated=""/>
+      <renderfunction name="webkit_website_data_manager_set_memory_pressure_settings" ponyname="set_memory_pressure_settings" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitWebsitePolicies" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="webkit_website_policies_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="webkit_website_policies_new_with_policies" ponyname="new_with_policies" render="" deprecated=""/>
+      <rendermethod name="webkit_website_policies_get_autoplay_policy" ponyname="get_autoplay_policy" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="WebKitWindowProperties" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="webkit_window_properties_get_fullscreen" ponyname="get_fullscreen" render="" deprecated=""/>
+      <rendermethod name="webkit_window_properties_get_geometry" ponyname="get_geometry" render="" deprecated=""/>
+      <rendermethod name="webkit_window_properties_get_locationbar_visible" ponyname="get_locationbar_visible" render="" deprecated=""/>
+      <rendermethod name="webkit_window_properties_get_menubar_visible" ponyname="get_menubar_visible" render="" deprecated=""/>
+      <rendermethod name="webkit_window_properties_get_resizable" ponyname="get_resizable" render="" deprecated=""/>
+      <rendermethod name="webkit_window_properties_get_scrollbars_visible" ponyname="get_scrollbars_visible" render="" deprecated=""/>
+      <rendermethod name="webkit_window_properties_get_statusbar_visible" ponyname="get_statusbar_visible" render="" deprecated=""/>
+      <rendermethod name="webkit_window_properties_get_toolbar_visible" ponyname="get_toolbar_visible" render="" deprecated=""/>
+    </renderclass>
+    <renderinterface name="WebKitPermissionRequest" render="">
+      <rendermethod name="webkit_permission_request_allow" ponyname="allow" render="" deprecated=""/>
+      <rendermethod name="webkit_permission_request_deny" ponyname="deny" render="" deprecated=""/>
+    </renderinterface>
+    <rendercallback name="WebKitURISchemeRequestCallback" render="0"/>
+  </ns>
+</rs>

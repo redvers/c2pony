@@ -1,0 +1,1 @@
+use @g_unichar_isspace[I32](c': U32)

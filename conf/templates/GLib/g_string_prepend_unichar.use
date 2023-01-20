@@ -1,0 +1,1 @@
+use @g_string_prepend_unichar[GStringT](string': GStringT, wc': U32)

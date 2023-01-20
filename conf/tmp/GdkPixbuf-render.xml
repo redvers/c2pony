@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="GdkPixbuf">
+    <renderstruct name="GdkPixbufAnimationClass" render="">
+</renderstruct>
+    <renderstruct name="GdkPixbufAnimationIterClass" render="">
+</renderstruct>
+    <renderstruct name="GdkPixbufFormat" render="">
+      <rendermethod name="gdk_pixbuf_format_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_get_description" ponyname="get_description" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_get_extensions" ponyname="get_extensions" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_get_license" ponyname="get_license" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_get_mime_types" ponyname="get_mime_types" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_get_name" ponyname="get_name" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_is_disabled" ponyname="is_disabled" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_is_save_option_supported" ponyname="is_save_option_supported" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_is_scalable" ponyname="is_scalable" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_is_writable" ponyname="is_writable" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_format_set_disabled" ponyname="set_disabled" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GdkPixbufLoaderClass" render="">
+</renderstruct>
+    <renderstruct name="GdkPixbufModule" render="">
+</renderstruct>
+    <renderstruct name="GdkPixbufModulePattern" render="">
+</renderstruct>
+    <renderstruct name="GdkPixbufSimpleAnimClass" render="">
+</renderstruct>
+    <renderclass name="GdkPixbuf" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="gdk_pixbuf_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_bytes" ponyname="new_from_bytes" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_data" ponyname="new_from_data" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_file" ponyname="new_from_file" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_file_at_scale" ponyname="new_from_file_at_scale" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_file_at_size" ponyname="new_from_file_at_size" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_inline" ponyname="new_from_inline" render="" deprecated="1"/>
+      <renderconstructor name="gdk_pixbuf_new_from_resource" ponyname="new_from_resource" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_resource_at_scale" ponyname="new_from_resource_at_scale" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_stream" ponyname="new_from_stream" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_stream_at_scale" ponyname="new_from_stream_at_scale" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_stream_finish" ponyname="new_from_stream_finish" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_new_from_xpm_data" ponyname="new_from_xpm_data" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_add_alpha" ponyname="add_alpha" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_apply_embedded_orientation" ponyname="apply_embedded_orientation" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_composite" ponyname="composite" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_composite_color" ponyname="composite_color" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_composite_color_simple" ponyname="composite_color_simple" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_copy_area" ponyname="copy_area" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_copy_options" ponyname="copy_options" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_fill" ponyname="fill" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_flip" ponyname="flip" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_bits_per_sample" ponyname="get_bits_per_sample" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_byte_length" ponyname="get_byte_length" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_colorspace" ponyname="get_colorspace" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_has_alpha" ponyname="get_has_alpha" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_height" ponyname="get_height" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_n_channels" ponyname="get_n_channels" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_option" ponyname="get_option" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_options" ponyname="get_options" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_pixels" ponyname="get_pixels" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_pixels_with_length" ponyname="get_pixels_with_length" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_rowstride" ponyname="get_rowstride" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_get_width" ponyname="get_width" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_new_subpixbuf" ponyname="new_subpixbuf" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_read_pixel_bytes" ponyname="read_pixel_bytes" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_read_pixels" ponyname="read_pixels" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_ref" ponyname="ref" render="" deprecated="1"/>
+      <rendermethod name="gdk_pixbuf_remove_option" ponyname="remove_option" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_rotate_simple" ponyname="rotate_simple" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_saturate_and_pixelate" ponyname="saturate_and_pixelate" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_save" ponyname="save" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_save_to_buffer" ponyname="save_to_buffer" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_save_to_bufferv" ponyname="save_to_bufferv" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_save_to_callback" ponyname="save_to_callback" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_save_to_callbackv" ponyname="save_to_callbackv" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_save_to_stream" ponyname="save_to_stream" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_save_to_stream_async" ponyname="save_to_stream_async" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_save_to_streamv" ponyname="save_to_streamv" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_save_to_streamv_async" ponyname="save_to_streamv_async" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_savev" ponyname="savev" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_scale" ponyname="scale" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_scale_simple" ponyname="scale_simple" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_set_option" ponyname="set_option" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_unref" ponyname="unref" render="" deprecated="1"/>
+      <renderfunction name="gdk_pixbuf_calculate_rowstride" ponyname="calculate_rowstride" render="" deprecated=""/>
+      <renderfunction name="gdk_pixbuf_get_file_info" ponyname="get_file_info" render="" deprecated=""/>
+      <renderfunction name="gdk_pixbuf_get_file_info_async" ponyname="get_file_info_async" render="" deprecated=""/>
+      <renderfunction name="gdk_pixbuf_get_file_info_finish" ponyname="get_file_info_finish" render="" deprecated=""/>
+      <renderfunction name="gdk_pixbuf_get_formats" ponyname="get_formats" render="" deprecated=""/>
+      <renderfunction name="gdk_pixbuf_init_modules" ponyname="init_modules" render="" deprecated=""/>
+      <renderfunction name="gdk_pixbuf_new_from_stream_async" ponyname="new_from_stream_async" render="" deprecated=""/>
+      <renderfunction name="gdk_pixbuf_new_from_stream_at_scale_async" ponyname="new_from_stream_at_scale_async" render="" deprecated=""/>
+      <renderfunction name="gdk_pixbuf_save_to_stream_finish" ponyname="save_to_stream_finish" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkPixbufAnimation" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="gdk_pixbuf_animation_new_from_file" ponyname="new_from_file" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_animation_new_from_resource" ponyname="new_from_resource" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_animation_new_from_stream" ponyname="new_from_stream" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_animation_new_from_stream_finish" ponyname="new_from_stream_finish" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_animation_get_height" ponyname="get_height" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_animation_get_iter" ponyname="get_iter" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_animation_get_static_image" ponyname="get_static_image" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_animation_get_width" ponyname="get_width" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_animation_is_static_image" ponyname="is_static_image" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_animation_ref" ponyname="ref" render="" deprecated="1"/>
+      <rendermethod name="gdk_pixbuf_animation_unref" ponyname="unref" render="" deprecated="1"/>
+      <renderfunction name="gdk_pixbuf_animation_new_from_stream_async" ponyname="new_from_stream_async" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkPixbufAnimationIter" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="gdk_pixbuf_animation_iter_advance" ponyname="advance" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_animation_iter_get_delay_time" ponyname="get_delay_time" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_animation_iter_get_pixbuf" ponyname="get_pixbuf" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_animation_iter_on_currently_loading_frame" ponyname="on_currently_loading_frame" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkPixbufLoader" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="gdk_pixbuf_loader_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_loader_new_with_mime_type" ponyname="new_with_mime_type" render="" deprecated=""/>
+      <renderconstructor name="gdk_pixbuf_loader_new_with_type" ponyname="new_with_type" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_loader_close" ponyname="close" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_loader_get_animation" ponyname="get_animation" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_loader_get_format" ponyname="get_format" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_loader_get_pixbuf" ponyname="get_pixbuf" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_loader_set_size" ponyname="set_size" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_loader_write" ponyname="write" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_loader_write_bytes" ponyname="write_bytes" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="" render="" parent="PixbufAnimation" abstract="" final="" fundamental="">
+      <renderconstructor name="gdk_pixbuf_non_anim_new" ponyname="new" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkPixbufSimpleAnim" render="" parent="PixbufAnimation" abstract="" final="" fundamental="">
+      <renderconstructor name="gdk_pixbuf_simple_anim_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_simple_anim_add_frame" ponyname="add_frame" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_simple_anim_get_loop" ponyname="get_loop" render="" deprecated=""/>
+      <rendermethod name="gdk_pixbuf_simple_anim_set_loop" ponyname="set_loop" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="" render="" parent="PixbufAnimationIter" abstract="" final="" fundamental="">
+</renderclass>
+    <rendercallback name="GdkPixbufDestroyNotify" render="0"/>
+    <rendercallback name="GdkPixbufModuleBeginLoadFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleFillInfoFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleFillVtableFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleIncrementLoadFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleLoadAnimationFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleLoadFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleLoadXpmDataFunc" render="0"/>
+    <rendercallback name="GdkPixbufModulePreparedFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleSaveCallbackFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleSaveFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleSaveOptionSupportedFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleSizeFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleStopLoadFunc" render="0"/>
+    <rendercallback name="GdkPixbufModuleUpdatedFunc" render="0"/>
+    <rendercallback name="GdkPixbufSaveFunc" render="0"/>
+  </ns>
+</rs>

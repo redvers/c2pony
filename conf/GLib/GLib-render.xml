@@ -1,0 +1,1823 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="GLib">
+    <renderfunction name="g_access" ponyname="access" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_digit_value" ponyname="ascii_digit_value" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_dtostr" ponyname="ascii_dtostr" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_formatd" ponyname="ascii_formatd" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_strcasecmp" ponyname="ascii_strcasecmp" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_strdown" ponyname="ascii_strdown" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_string_to_signed" ponyname="ascii_string_to_signed" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_string_to_unsigned" ponyname="ascii_string_to_unsigned" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_strncasecmp" ponyname="ascii_strncasecmp" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_strtod" ponyname="ascii_strtod" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_strtoll" ponyname="ascii_strtoll" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_strtoull" ponyname="ascii_strtoull" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_strup" ponyname="ascii_strup" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_tolower" ponyname="ascii_tolower" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_toupper" ponyname="ascii_toupper" render="1" deprecated=""/>
+    <renderfunction name="g_ascii_xdigit_value" ponyname="ascii_xdigit_value" render="1" deprecated=""/>
+    <renderfunction name="g_assert_warning" ponyname="assert_warning" render="1" deprecated=""/>
+    <renderfunction name="g_assertion_message" ponyname="assertion_message" render="1" deprecated=""/>
+    <renderfunction name="g_assertion_message_cmpnum" ponyname="assertion_message_cmpnum" render="1" deprecated=""/>
+    <renderfunction name="g_assertion_message_cmpstr" ponyname="assertion_message_cmpstr" render="1" deprecated=""/>
+    <renderfunction name="g_assertion_message_error" ponyname="assertion_message_error" render="1" deprecated=""/>
+    <renderfunction name="g_assertion_message_expr" ponyname="assertion_message_expr" render="1" deprecated=""/>
+    <renderfunction name="g_atexit" ponyname="atexit" render="1" deprecated="1"/>
+    <renderfunction name="g_atomic_int_add" ponyname="atomic_int_add" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_int_and" ponyname="atomic_int_and" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_int_compare_and_exchange" ponyname="atomic_int_compare_and_exchange" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_int_dec_and_test" ponyname="atomic_int_dec_and_test" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_int_exchange_and_add" ponyname="atomic_int_exchange_and_add" render="1" deprecated="1"/>
+    <renderfunction name="g_atomic_int_get" ponyname="atomic_int_get" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_int_inc" ponyname="atomic_int_inc" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_int_or" ponyname="atomic_int_or" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_int_set" ponyname="atomic_int_set" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_int_xor" ponyname="atomic_int_xor" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_pointer_add" ponyname="atomic_pointer_add" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_pointer_and" ponyname="atomic_pointer_and" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_pointer_compare_and_exchange" ponyname="atomic_pointer_compare_and_exchange" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_pointer_get" ponyname="atomic_pointer_get" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_pointer_or" ponyname="atomic_pointer_or" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_pointer_set" ponyname="atomic_pointer_set" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_pointer_xor" ponyname="atomic_pointer_xor" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_rc_box_acquire" ponyname="atomic_rc_box_acquire" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_rc_box_alloc" ponyname="atomic_rc_box_alloc" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_rc_box_alloc0" ponyname="atomic_rc_box_alloc0" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_rc_box_dup" ponyname="atomic_rc_box_dup" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_rc_box_get_size" ponyname="atomic_rc_box_get_size" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_rc_box_release" ponyname="atomic_rc_box_release" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_rc_box_release_full" ponyname="atomic_rc_box_release_full" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_ref_count_compare" ponyname="atomic_ref_count_compare" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_ref_count_dec" ponyname="atomic_ref_count_dec" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_ref_count_inc" ponyname="atomic_ref_count_inc" render="1" deprecated=""/>
+    <renderfunction name="g_atomic_ref_count_init" ponyname="atomic_ref_count_init" render="1" deprecated=""/>
+    <renderfunction name="g_base64_decode" ponyname="base64_decode" render="1" deprecated=""/>
+    <renderfunction name="g_base64_decode_inplace" ponyname="base64_decode_inplace" render="1" deprecated=""/>
+    <renderfunction name="g_base64_decode_step" ponyname="base64_decode_step" render="1" deprecated=""/>
+    <renderfunction name="g_base64_encode" ponyname="base64_encode" render="1" deprecated=""/>
+    <renderfunction name="g_base64_encode_close" ponyname="base64_encode_close" render="1" deprecated=""/>
+    <renderfunction name="g_base64_encode_step" ponyname="base64_encode_step" render="1" deprecated=""/>
+    <renderfunction name="g_basename" ponyname="basename" render="1" deprecated="1"/>
+    <renderfunction name="g_bit_lock" ponyname="bit_lock" render="1" deprecated=""/>
+    <renderfunction name="g_bit_nth_lsf" ponyname="bit_nth_lsf" render="1" deprecated=""/>
+    <renderfunction name="g_bit_nth_msf" ponyname="bit_nth_msf" render="1" deprecated=""/>
+    <renderfunction name="g_bit_storage" ponyname="bit_storage" render="1" deprecated=""/>
+    <renderfunction name="g_bit_trylock" ponyname="bit_trylock" render="1" deprecated=""/>
+    <renderfunction name="g_bit_unlock" ponyname="bit_unlock" render="1" deprecated=""/>
+    <renderfunction name="g_build_filename" ponyname="build_filename" render="1" deprecated=""/>
+    <renderfunction name="g_build_filename_valist" ponyname="build_filename_valist" render="1" deprecated=""/>
+    <renderfunction name="g_build_filenamev" ponyname="build_filenamev" render="1" deprecated=""/>
+    <renderfunction name="g_build_path" ponyname="build_path" render="1" deprecated=""/>
+    <renderfunction name="g_build_pathv" ponyname="build_pathv" render="1" deprecated=""/>
+    <renderfunction name="g_canonicalize_filename" ponyname="canonicalize_filename" render="1" deprecated=""/>
+    <renderfunction name="g_chdir" ponyname="chdir" render="1" deprecated=""/>
+    <renderfunction name="glib_check_version" ponyname="check_version" render="1" deprecated=""/>
+    <renderfunction name="g_child_watch_add" ponyname="child_watch_add" render="1" deprecated=""/>
+    <renderfunction name="g_child_watch_add_full" ponyname="child_watch_add_full" render="1" deprecated=""/>
+    <renderfunction name="g_child_watch_source_new" ponyname="child_watch_source_new" render="1" deprecated=""/>
+    <renderfunction name="g_clear_error" ponyname="clear_error" render="1" deprecated=""/>
+    <renderfunction name="g_clear_handle_id" ponyname="clear_handle_id" render="1" deprecated=""/>
+    <renderfunction name="g_clear_list" ponyname="clear_list" render="1" deprecated=""/>
+    <renderfunction name="g_clear_pointer" ponyname="clear_pointer" render="1" deprecated=""/>
+    <renderfunction name="g_clear_slist" ponyname="clear_slist" render="1" deprecated=""/>
+    <renderfunction name="g_close" ponyname="close" render="1" deprecated=""/>
+    <renderfunction name="g_compute_checksum_for_bytes" ponyname="compute_checksum_for_bytes" render="1" deprecated=""/>
+    <renderfunction name="g_compute_checksum_for_data" ponyname="compute_checksum_for_data" render="1" deprecated=""/>
+    <renderfunction name="g_compute_checksum_for_string" ponyname="compute_checksum_for_string" render="1" deprecated=""/>
+    <renderfunction name="g_compute_hmac_for_bytes" ponyname="compute_hmac_for_bytes" render="1" deprecated=""/>
+    <renderfunction name="g_compute_hmac_for_data" ponyname="compute_hmac_for_data" render="1" deprecated=""/>
+    <renderfunction name="g_compute_hmac_for_string" ponyname="compute_hmac_for_string" render="1" deprecated=""/>
+    <renderfunction name="g_convert" ponyname="convert" render="1" deprecated=""/>
+    <renderfunction name="g_convert_error_quark" ponyname="convert_error_quark" render="1" deprecated=""/>
+    <renderfunction name="g_convert_with_fallback" ponyname="convert_with_fallback" render="1" deprecated=""/>
+    <renderfunction name="g_convert_with_iconv" ponyname="convert_with_iconv" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_clear" ponyname="datalist_clear" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_foreach" ponyname="datalist_foreach" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_get_data" ponyname="datalist_get_data" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_get_flags" ponyname="datalist_get_flags" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_id_dup_data" ponyname="datalist_id_dup_data" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_id_get_data" ponyname="datalist_id_get_data" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_id_remove_no_notify" ponyname="datalist_id_remove_no_notify" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_id_replace_data" ponyname="datalist_id_replace_data" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_id_set_data_full" ponyname="datalist_id_set_data_full" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_init" ponyname="datalist_init" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_set_flags" ponyname="datalist_set_flags" render="1" deprecated=""/>
+    <renderfunction name="g_datalist_unset_flags" ponyname="datalist_unset_flags" render="1" deprecated=""/>
+    <renderfunction name="g_dataset_destroy" ponyname="dataset_destroy" render="1" deprecated=""/>
+    <renderfunction name="g_dataset_foreach" ponyname="dataset_foreach" render="1" deprecated=""/>
+    <renderfunction name="g_dataset_id_get_data" ponyname="dataset_id_get_data" render="1" deprecated=""/>
+    <renderfunction name="g_dataset_id_remove_no_notify" ponyname="dataset_id_remove_no_notify" render="1" deprecated=""/>
+    <renderfunction name="g_dataset_id_set_data_full" ponyname="dataset_id_set_data_full" render="1" deprecated=""/>
+    <renderfunction name="g_dcgettext" ponyname="dcgettext" render="1" deprecated=""/>
+    <renderfunction name="g_dgettext" ponyname="dgettext" render="1" deprecated=""/>
+    <renderfunction name="g_direct_equal" ponyname="direct_equal" render="1" deprecated=""/>
+    <renderfunction name="g_direct_hash" ponyname="direct_hash" render="1" deprecated=""/>
+    <renderfunction name="g_dngettext" ponyname="dngettext" render="1" deprecated=""/>
+    <renderfunction name="g_double_equal" ponyname="double_equal" render="1" deprecated=""/>
+    <renderfunction name="g_double_hash" ponyname="double_hash" render="1" deprecated=""/>
+    <renderfunction name="g_dpgettext" ponyname="dpgettext" render="1" deprecated=""/>
+    <renderfunction name="g_dpgettext2" ponyname="dpgettext2" render="1" deprecated=""/>
+    <renderfunction name="g_environ_getenv" ponyname="environ_getenv" render="1" deprecated=""/>
+    <renderfunction name="g_environ_setenv" ponyname="environ_setenv" render="1" deprecated=""/>
+    <renderfunction name="g_environ_unsetenv" ponyname="environ_unsetenv" render="1" deprecated=""/>
+    <renderfunction name="g_file_error_from_errno" ponyname="file_error_from_errno" render="1" deprecated=""/>
+    <renderfunction name="g_file_error_quark" ponyname="file_error_quark" render="1" deprecated=""/>
+    <renderfunction name="g_file_get_contents" ponyname="file_get_contents" render="1" deprecated=""/>
+    <renderfunction name="g_file_open_tmp" ponyname="file_open_tmp" render="1" deprecated=""/>
+    <renderfunction name="g_file_read_link" ponyname="file_read_link" render="1" deprecated=""/>
+    <renderfunction name="g_file_set_contents" ponyname="file_set_contents" render="1" deprecated=""/>
+    <renderfunction name="g_file_set_contents_full" ponyname="file_set_contents_full" render="1" deprecated=""/>
+    <renderfunction name="g_file_test" ponyname="file_test" render="1" deprecated=""/>
+    <renderfunction name="g_filename_display_basename" ponyname="filename_display_basename" render="1" deprecated=""/>
+    <renderfunction name="g_filename_display_name" ponyname="filename_display_name" render="1" deprecated=""/>
+    <renderfunction name="g_filename_from_uri" ponyname="filename_from_uri" render="1" deprecated=""/>
+    <renderfunction name="g_filename_from_utf8" ponyname="filename_from_utf8" render="1" deprecated=""/>
+    <renderfunction name="g_filename_to_uri" ponyname="filename_to_uri" render="1" deprecated=""/>
+    <renderfunction name="g_filename_to_utf8" ponyname="filename_to_utf8" render="1" deprecated=""/>
+    <renderfunction name="g_find_program_in_path" ponyname="find_program_in_path" render="1" deprecated=""/>
+    <renderfunction name="g_format_size" ponyname="format_size" render="1" deprecated=""/>
+    <renderfunction name="g_format_size_for_display" ponyname="format_size_for_display" render="1" deprecated="1"/>
+    <renderfunction name="g_format_size_full" ponyname="format_size_full" render="1" deprecated=""/>
+    <renderfunction name="g_fprintf" ponyname="fprintf" render="1" deprecated=""/>
+    <renderfunction name="g_free" ponyname="free" render="1" deprecated=""/>
+    <renderfunction name="g_get_application_name" ponyname="get_application_name" render="1" deprecated=""/>
+    <renderfunction name="g_get_charset" ponyname="get_charset" render="1" deprecated=""/>
+    <renderfunction name="g_get_codeset" ponyname="get_codeset" render="1" deprecated=""/>
+    <renderfunction name="g_get_console_charset" ponyname="get_console_charset" render="1" deprecated=""/>
+    <renderfunction name="g_get_current_dir" ponyname="get_current_dir" render="1" deprecated=""/>
+    <renderfunction name="g_get_current_time" ponyname="get_current_time" render="1" deprecated="1"/>
+    <renderfunction name="g_get_environ" ponyname="get_environ" render="1" deprecated=""/>
+    <renderfunction name="g_get_filename_charsets" ponyname="get_filename_charsets" render="1" deprecated=""/>
+    <renderfunction name="g_get_home_dir" ponyname="get_home_dir" render="1" deprecated=""/>
+    <renderfunction name="g_get_host_name" ponyname="get_host_name" render="1" deprecated=""/>
+    <renderfunction name="g_get_language_names" ponyname="get_language_names" render="1" deprecated=""/>
+    <renderfunction name="g_get_language_names_with_category" ponyname="get_language_names_with_category" render="1" deprecated=""/>
+    <renderfunction name="g_get_locale_variants" ponyname="get_locale_variants" render="1" deprecated=""/>
+    <renderfunction name="g_get_monotonic_time" ponyname="get_monotonic_time" render="1" deprecated=""/>
+    <renderfunction name="g_get_num_processors" ponyname="get_num_processors" render="1" deprecated=""/>
+    <renderfunction name="g_get_os_info" ponyname="get_os_info" render="1" deprecated=""/>
+    <renderfunction name="g_get_prgname" ponyname="get_prgname" render="1" deprecated=""/>
+    <renderfunction name="g_get_real_name" ponyname="get_real_name" render="1" deprecated=""/>
+    <renderfunction name="g_get_real_time" ponyname="get_real_time" render="1" deprecated=""/>
+    <renderfunction name="g_get_system_config_dirs" ponyname="get_system_config_dirs" render="1" deprecated=""/>
+    <renderfunction name="g_get_system_data_dirs" ponyname="get_system_data_dirs" render="1" deprecated=""/>
+    <renderfunction name="g_get_tmp_dir" ponyname="get_tmp_dir" render="1" deprecated=""/>
+    <renderfunction name="g_get_user_cache_dir" ponyname="get_user_cache_dir" render="1" deprecated=""/>
+    <renderfunction name="g_get_user_config_dir" ponyname="get_user_config_dir" render="1" deprecated=""/>
+    <renderfunction name="g_get_user_data_dir" ponyname="get_user_data_dir" render="1" deprecated=""/>
+    <renderfunction name="g_get_user_name" ponyname="get_user_name" render="1" deprecated=""/>
+    <renderfunction name="g_get_user_runtime_dir" ponyname="get_user_runtime_dir" render="1" deprecated=""/>
+    <renderfunction name="g_get_user_special_dir" ponyname="get_user_special_dir" render="1" deprecated=""/>
+    <renderfunction name="g_getenv" ponyname="getenv" render="1" deprecated=""/>
+    <renderfunction name="g_hostname_is_ascii_encoded" ponyname="hostname_is_ascii_encoded" render="1" deprecated=""/>
+    <renderfunction name="g_hostname_is_ip_address" ponyname="hostname_is_ip_address" render="1" deprecated=""/>
+    <renderfunction name="g_hostname_is_non_ascii" ponyname="hostname_is_non_ascii" render="1" deprecated=""/>
+    <renderfunction name="g_hostname_to_ascii" ponyname="hostname_to_ascii" render="1" deprecated=""/>
+    <renderfunction name="g_hostname_to_unicode" ponyname="hostname_to_unicode" render="1" deprecated=""/>
+    <renderfunction name="g_iconv" ponyname="iconv" render="1" deprecated=""/>
+    <renderfunction name="g_idle_add" ponyname="idle_add" render="1" deprecated=""/>
+    <renderfunction name="g_idle_add_full" ponyname="idle_add_full" render="1" deprecated=""/>
+    <renderfunction name="g_idle_remove_by_data" ponyname="idle_remove_by_data" render="1" deprecated=""/>
+    <renderfunction name="g_idle_source_new" ponyname="idle_source_new" render="1" deprecated=""/>
+    <renderfunction name="g_int64_equal" ponyname="int64_equal" render="1" deprecated=""/>
+    <renderfunction name="g_int64_hash" ponyname="int64_hash" render="1" deprecated=""/>
+    <renderfunction name="g_int_equal" ponyname="int_equal" render="1" deprecated=""/>
+    <renderfunction name="g_int_hash" ponyname="int_hash" render="1" deprecated=""/>
+    <renderfunction name="g_intern_static_string" ponyname="intern_static_string" render="1" deprecated=""/>
+    <renderfunction name="g_intern_string" ponyname="intern_string" render="1" deprecated=""/>
+    <renderfunction name="g_io_add_watch" ponyname="io_add_watch" render="1" deprecated=""/>
+    <renderfunction name="g_io_add_watch_full" ponyname="io_add_watch_full" render="1" deprecated=""/>
+    <renderfunction name="g_io_create_watch" ponyname="io_create_watch" render="1" deprecated=""/>
+    <renderfunction name="g_listenv" ponyname="listenv" render="1" deprecated=""/>
+    <renderfunction name="g_locale_from_utf8" ponyname="locale_from_utf8" render="1" deprecated=""/>
+    <renderfunction name="g_locale_to_utf8" ponyname="locale_to_utf8" render="1" deprecated=""/>
+    <renderfunction name="g_log" ponyname="log" render="1" deprecated=""/>
+    <renderfunction name="g_log_default_handler" ponyname="log_default_handler" render="1" deprecated=""/>
+    <renderfunction name="g_log_remove_handler" ponyname="log_remove_handler" render="1" deprecated=""/>
+    <renderfunction name="g_log_set_always_fatal" ponyname="log_set_always_fatal" render="1" deprecated=""/>
+    <renderfunction name="g_log_set_default_handler" ponyname="log_set_default_handler" render="1" deprecated=""/>
+    <renderfunction name="g_log_set_fatal_mask" ponyname="log_set_fatal_mask" render="1" deprecated=""/>
+    <renderfunction name="g_log_set_handler" ponyname="log_set_handler" render="1" deprecated=""/>
+    <renderfunction name="g_log_set_handler_full" ponyname="log_set_handler_full" render="1" deprecated=""/>
+    <renderfunction name="g_log_set_writer_func" ponyname="log_set_writer_func" render="1" deprecated=""/>
+    <renderfunction name="g_log_structured" ponyname="log_structured" render="1" deprecated=""/>
+    <renderfunction name="g_log_structured_array" ponyname="log_structured_array" render="1" deprecated=""/>
+    <renderfunction name="g_log_structured_standard" ponyname="log_structured_standard" render="1" deprecated=""/>
+    <renderfunction name="g_log_variant" ponyname="log_variant" render="1" deprecated=""/>
+    <renderfunction name="g_log_writer_default" ponyname="log_writer_default" render="1" deprecated=""/>
+    <renderfunction name="g_log_writer_format_fields" ponyname="log_writer_format_fields" render="1" deprecated=""/>
+    <renderfunction name="g_log_writer_is_journald" ponyname="log_writer_is_journald" render="1" deprecated=""/>
+    <renderfunction name="g_log_writer_journald" ponyname="log_writer_journald" render="1" deprecated=""/>
+    <renderfunction name="g_log_writer_standard_streams" ponyname="log_writer_standard_streams" render="1" deprecated=""/>
+    <renderfunction name="g_log_writer_supports_color" ponyname="log_writer_supports_color" render="1" deprecated=""/>
+    <renderfunction name="g_logv" ponyname="logv" render="1" deprecated=""/>
+    <renderfunction name="g_main_current_source" ponyname="main_current_source" render="1" deprecated=""/>
+    <renderfunction name="g_main_depth" ponyname="main_depth" render="1" deprecated=""/>
+    <renderfunction name="g_malloc" ponyname="malloc" render="1" deprecated=""/>
+    <renderfunction name="g_malloc0" ponyname="malloc0" render="1" deprecated=""/>
+    <renderfunction name="g_malloc0_n" ponyname="malloc0_n" render="1" deprecated=""/>
+    <renderfunction name="g_malloc_n" ponyname="malloc_n" render="1" deprecated=""/>
+    <renderfunction name="g_markup_collect_attributes" ponyname="markup_collect_attributes" render="1" deprecated=""/>
+    <renderfunction name="g_markup_error_quark" ponyname="markup_error_quark" render="1" deprecated=""/>
+    <renderfunction name="g_markup_escape_text" ponyname="markup_escape_text" render="1" deprecated=""/>
+    <renderfunction name="g_markup_printf_escaped" ponyname="markup_printf_escaped" render="1" deprecated=""/>
+    <renderfunction name="g_markup_vprintf_escaped" ponyname="markup_vprintf_escaped" render="1" deprecated=""/>
+    <renderfunction name="g_mem_is_system_malloc" ponyname="mem_is_system_malloc" render="1" deprecated="1"/>
+    <renderfunction name="g_mem_profile" ponyname="mem_profile" render="1" deprecated="1"/>
+    <renderfunction name="g_mem_set_vtable" ponyname="mem_set_vtable" render="1" deprecated="1"/>
+    <renderfunction name="g_memdup" ponyname="memdup" render="1" deprecated="1"/>
+    <renderfunction name="g_mkdir_with_parents" ponyname="mkdir_with_parents" render="1" deprecated=""/>
+    <renderfunction name="g_mkdtemp" ponyname="mkdtemp" render="1" deprecated=""/>
+    <renderfunction name="g_mkdtemp_full" ponyname="mkdtemp_full" render="1" deprecated=""/>
+    <renderfunction name="g_mkstemp" ponyname="mkstemp" render="1" deprecated=""/>
+    <renderfunction name="g_mkstemp_full" ponyname="mkstemp_full" render="1" deprecated=""/>
+    <renderfunction name="g_nullify_pointer" ponyname="nullify_pointer" render="1" deprecated=""/>
+    <renderfunction name="g_number_parser_error_quark" ponyname="number_parser_error_quark" render="1" deprecated=""/>
+    <renderfunction name="g_on_error_query" ponyname="on_error_query" render="1" deprecated=""/>
+    <renderfunction name="g_on_error_stack_trace" ponyname="on_error_stack_trace" render="1" deprecated=""/>
+    <renderfunction name="g_option_error_quark" ponyname="option_error_quark" render="1" deprecated=""/>
+    <renderfunction name="g_parse_debug_string" ponyname="parse_debug_string" render="1" deprecated=""/>
+    <renderfunction name="g_path_get_basename" ponyname="path_get_basename" render="1" deprecated=""/>
+    <renderfunction name="g_path_get_dirname" ponyname="path_get_dirname" render="1" deprecated=""/>
+    <renderfunction name="g_path_is_absolute" ponyname="path_is_absolute" render="1" deprecated=""/>
+    <renderfunction name="g_path_skip_root" ponyname="path_skip_root" render="1" deprecated=""/>
+    <renderfunction name="g_pattern_match" ponyname="pattern_match" render="1" deprecated=""/>
+    <renderfunction name="g_pattern_match_simple" ponyname="pattern_match_simple" render="1" deprecated=""/>
+    <renderfunction name="g_pattern_match_string" ponyname="pattern_match_string" render="1" deprecated=""/>
+    <renderfunction name="g_pointer_bit_lock" ponyname="pointer_bit_lock" render="1" deprecated=""/>
+    <renderfunction name="g_pointer_bit_trylock" ponyname="pointer_bit_trylock" render="1" deprecated=""/>
+    <renderfunction name="g_pointer_bit_unlock" ponyname="pointer_bit_unlock" render="1" deprecated=""/>
+    <renderfunction name="g_poll" ponyname="poll" render="1" deprecated=""/>
+    <renderfunction name="g_prefix_error" ponyname="prefix_error" render="1" deprecated=""/>
+    <renderfunction name="g_print" ponyname="print" render="1" deprecated=""/>
+    <renderfunction name="g_printerr" ponyname="printerr" render="1" deprecated=""/>
+    <renderfunction name="g_printf" ponyname="printf" render="1" deprecated=""/>
+    <renderfunction name="g_printf_string_upper_bound" ponyname="printf_string_upper_bound" render="1" deprecated=""/>
+    <renderfunction name="g_propagate_error" ponyname="propagate_error" render="1" deprecated=""/>
+    <renderfunction name="g_propagate_prefixed_error" ponyname="propagate_prefixed_error" render="1" deprecated=""/>
+    <renderfunction name="g_qsort_with_data" ponyname="qsort_with_data" render="1" deprecated=""/>
+    <renderfunction name="g_quark_from_static_string" ponyname="quark_from_static_string" render="1" deprecated=""/>
+    <renderfunction name="g_quark_from_string" ponyname="quark_from_string" render="1" deprecated=""/>
+    <renderfunction name="g_quark_to_string" ponyname="quark_to_string" render="1" deprecated=""/>
+    <renderfunction name="g_quark_try_string" ponyname="quark_try_string" render="1" deprecated=""/>
+    <renderfunction name="g_random_double" ponyname="random_double" render="1" deprecated=""/>
+    <renderfunction name="g_random_double_range" ponyname="random_double_range" render="1" deprecated=""/>
+    <renderfunction name="g_random_int" ponyname="random_int" render="1" deprecated=""/>
+    <renderfunction name="g_random_int_range" ponyname="random_int_range" render="1" deprecated=""/>
+    <renderfunction name="g_random_set_seed" ponyname="random_set_seed" render="1" deprecated=""/>
+    <renderfunction name="g_rc_box_acquire" ponyname="rc_box_acquire" render="1" deprecated=""/>
+    <renderfunction name="g_rc_box_alloc" ponyname="rc_box_alloc" render="1" deprecated=""/>
+    <renderfunction name="g_rc_box_alloc0" ponyname="rc_box_alloc0" render="1" deprecated=""/>
+    <renderfunction name="g_rc_box_dup" ponyname="rc_box_dup" render="1" deprecated=""/>
+    <renderfunction name="g_rc_box_get_size" ponyname="rc_box_get_size" render="1" deprecated=""/>
+    <renderfunction name="g_rc_box_release" ponyname="rc_box_release" render="1" deprecated=""/>
+    <renderfunction name="g_rc_box_release_full" ponyname="rc_box_release_full" render="1" deprecated=""/>
+    <renderfunction name="g_realloc" ponyname="realloc" render="1" deprecated=""/>
+    <renderfunction name="g_realloc_n" ponyname="realloc_n" render="1" deprecated=""/>
+    <renderfunction name="g_ref_count_compare" ponyname="ref_count_compare" render="1" deprecated=""/>
+    <renderfunction name="g_ref_count_dec" ponyname="ref_count_dec" render="1" deprecated=""/>
+    <renderfunction name="g_ref_count_inc" ponyname="ref_count_inc" render="1" deprecated=""/>
+    <renderfunction name="g_ref_count_init" ponyname="ref_count_init" render="1" deprecated=""/>
+    <renderfunction name="g_ref_string_acquire" ponyname="ref_string_acquire" render="1" deprecated=""/>
+    <renderfunction name="g_ref_string_length" ponyname="ref_string_length" render="1" deprecated=""/>
+    <renderfunction name="g_ref_string_new" ponyname="ref_string_new" render="1" deprecated=""/>
+    <renderfunction name="g_ref_string_new_intern" ponyname="ref_string_new_intern" render="1" deprecated=""/>
+    <renderfunction name="g_ref_string_new_len" ponyname="ref_string_new_len" render="1" deprecated=""/>
+    <renderfunction name="g_ref_string_release" ponyname="ref_string_release" render="1" deprecated=""/>
+    <renderfunction name="g_reload_user_special_dirs_cache" ponyname="reload_user_special_dirs_cache" render="1" deprecated=""/>
+    <renderfunction name="g_return_if_fail_warning" ponyname="return_if_fail_warning" render="1" deprecated=""/>
+    <renderfunction name="g_rmdir" ponyname="rmdir" render="1" deprecated=""/>
+    <renderfunction name="g_set_application_name" ponyname="set_application_name" render="1" deprecated=""/>
+    <renderfunction name="g_set_error" ponyname="set_error" render="1" deprecated=""/>
+    <renderfunction name="g_set_error_literal" ponyname="set_error_literal" render="1" deprecated=""/>
+    <renderfunction name="g_set_prgname" ponyname="set_prgname" render="1" deprecated=""/>
+    <renderfunction name="g_set_print_handler" ponyname="set_print_handler" render="1" deprecated=""/>
+    <renderfunction name="g_set_printerr_handler" ponyname="set_printerr_handler" render="1" deprecated=""/>
+    <renderfunction name="g_setenv" ponyname="setenv" render="1" deprecated=""/>
+    <renderfunction name="g_shell_error_quark" ponyname="shell_error_quark" render="1" deprecated=""/>
+    <renderfunction name="g_shell_parse_argv" ponyname="shell_parse_argv" render="1" deprecated=""/>
+    <renderfunction name="g_shell_quote" ponyname="shell_quote" render="1" deprecated=""/>
+    <renderfunction name="g_shell_unquote" ponyname="shell_unquote" render="1" deprecated=""/>
+    <renderfunction name="g_slice_alloc" ponyname="slice_alloc" render="1" deprecated=""/>
+    <renderfunction name="g_slice_alloc0" ponyname="slice_alloc0" render="1" deprecated=""/>
+    <renderfunction name="g_slice_copy" ponyname="slice_copy" render="1" deprecated=""/>
+    <renderfunction name="g_slice_free1" ponyname="slice_free1" render="1" deprecated=""/>
+    <renderfunction name="g_slice_free_chain_with_offset" ponyname="slice_free_chain_with_offset" render="1" deprecated=""/>
+    <renderfunction name="g_slice_get_config" ponyname="slice_get_config" render="1" deprecated=""/>
+    <renderfunction name="g_slice_get_config_state" ponyname="slice_get_config_state" render="1" deprecated=""/>
+    <renderfunction name="g_slice_set_config" ponyname="slice_set_config" render="1" deprecated=""/>
+    <renderfunction name="g_snprintf" ponyname="snprintf" render="1" deprecated=""/>
+    <renderfunction name="g_spaced_primes_closest" ponyname="spaced_primes_closest" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_async" ponyname="spawn_async" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_async_with_fds" ponyname="spawn_async_with_fds" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_async_with_pipes" ponyname="spawn_async_with_pipes" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_check_exit_status" ponyname="spawn_check_exit_status" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_close_pid" ponyname="spawn_close_pid" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_command_line_async" ponyname="spawn_command_line_async" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_command_line_sync" ponyname="spawn_command_line_sync" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_error_quark" ponyname="spawn_error_quark" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_exit_error_quark" ponyname="spawn_exit_error_quark" render="1" deprecated=""/>
+    <renderfunction name="g_spawn_sync" ponyname="spawn_sync" render="1" deprecated=""/>
+    <renderfunction name="g_sprintf" ponyname="sprintf" render="1" deprecated=""/>
+    <renderfunction name="g_stpcpy" ponyname="stpcpy" render="1" deprecated=""/>
+    <renderfunction name="g_str_equal" ponyname="str_equal" render="1" deprecated=""/>
+    <renderfunction name="g_str_has_prefix" ponyname="str_has_prefix" render="1" deprecated=""/>
+    <renderfunction name="g_str_has_suffix" ponyname="str_has_suffix" render="1" deprecated=""/>
+    <renderfunction name="g_str_hash" ponyname="str_hash" render="1" deprecated=""/>
+    <renderfunction name="g_str_is_ascii" ponyname="str_is_ascii" render="1" deprecated=""/>
+    <renderfunction name="g_str_match_string" ponyname="str_match_string" render="1" deprecated=""/>
+    <renderfunction name="g_str_to_ascii" ponyname="str_to_ascii" render="1" deprecated=""/>
+    <renderfunction name="g_str_tokenize_and_fold" ponyname="str_tokenize_and_fold" render="1" deprecated=""/>
+    <renderfunction name="g_strcanon" ponyname="strcanon" render="1" deprecated=""/>
+    <renderfunction name="g_strcasecmp" ponyname="strcasecmp" render="1" deprecated="1"/>
+    <renderfunction name="g_strchomp" ponyname="strchomp" render="1" deprecated=""/>
+    <renderfunction name="g_strchug" ponyname="strchug" render="1" deprecated=""/>
+    <renderfunction name="g_strcmp0" ponyname="strcmp0" render="1" deprecated=""/>
+    <renderfunction name="g_strcompress" ponyname="strcompress" render="1" deprecated=""/>
+    <renderfunction name="g_strconcat" ponyname="strconcat" render="1" deprecated=""/>
+    <renderfunction name="g_strdelimit" ponyname="strdelimit" render="1" deprecated=""/>
+    <renderfunction name="g_strdown" ponyname="strdown" render="1" deprecated="1"/>
+    <renderfunction name="g_strdup" ponyname="strdup" render="1" deprecated=""/>
+    <renderfunction name="g_strdup_printf" ponyname="strdup_printf" render="1" deprecated=""/>
+    <renderfunction name="g_strdup_vprintf" ponyname="strdup_vprintf" render="1" deprecated=""/>
+    <renderfunction name="g_strdupv" ponyname="strdupv" render="1" deprecated=""/>
+    <renderfunction name="g_strerror" ponyname="strerror" render="1" deprecated=""/>
+    <renderfunction name="g_strescape" ponyname="strescape" render="1" deprecated=""/>
+    <renderfunction name="g_strfreev" ponyname="strfreev" render="1" deprecated=""/>
+    <renderfunction name="g_string_new" ponyname="string_new" render="1" deprecated=""/>
+    <renderfunction name="g_string_new_len" ponyname="string_new_len" render="1" deprecated=""/>
+    <renderfunction name="g_string_sized_new" ponyname="string_sized_new" render="1" deprecated=""/>
+    <renderfunction name="g_strip_context" ponyname="strip_context" render="1" deprecated=""/>
+    <renderfunction name="g_strjoin" ponyname="strjoin" render="1" deprecated=""/>
+    <renderfunction name="g_strjoinv" ponyname="strjoinv" render="1" deprecated=""/>
+    <renderfunction name="g_strlcat" ponyname="strlcat" render="1" deprecated=""/>
+    <renderfunction name="g_strlcpy" ponyname="strlcpy" render="1" deprecated=""/>
+    <renderfunction name="g_strncasecmp" ponyname="strncasecmp" render="1" deprecated="1"/>
+    <renderfunction name="g_strndup" ponyname="strndup" render="1" deprecated=""/>
+    <renderfunction name="g_strnfill" ponyname="strnfill" render="1" deprecated=""/>
+    <renderfunction name="g_strreverse" ponyname="strreverse" render="1" deprecated=""/>
+    <renderfunction name="g_strrstr" ponyname="strrstr" render="1" deprecated=""/>
+    <renderfunction name="g_strrstr_len" ponyname="strrstr_len" render="1" deprecated=""/>
+    <renderfunction name="g_strsignal" ponyname="strsignal" render="1" deprecated=""/>
+    <renderfunction name="g_strsplit" ponyname="strsplit" render="1" deprecated=""/>
+    <renderfunction name="g_strsplit_set" ponyname="strsplit_set" render="1" deprecated=""/>
+    <renderfunction name="g_strstr_len" ponyname="strstr_len" render="1" deprecated=""/>
+    <renderfunction name="g_strtod" ponyname="strtod" render="1" deprecated=""/>
+    <renderfunction name="g_strup" ponyname="strup" render="1" deprecated="1"/>
+    <renderfunction name="g_strv_contains" ponyname="strv_contains" render="1" deprecated=""/>
+    <renderfunction name="g_strv_equal" ponyname="strv_equal" render="1" deprecated=""/>
+    <renderfunction name="g_strv_get_type" ponyname="strv_get_type" render="1" deprecated=""/>
+    <renderfunction name="g_strv_length" ponyname="strv_length" render="1" deprecated=""/>
+    <renderfunction name="g_test_add_data_func" ponyname="test_add_data_func" render="1" deprecated=""/>
+    <renderfunction name="g_test_add_data_func_full" ponyname="test_add_data_func_full" render="1" deprecated=""/>
+    <renderfunction name="g_test_add_func" ponyname="test_add_func" render="1" deprecated=""/>
+    <renderfunction name="g_test_add_vtable" ponyname="test_add_vtable" render="1" deprecated=""/>
+    <renderfunction name="g_test_assert_expected_messages_internal" ponyname="test_assert_expected_messages_internal" render="1" deprecated=""/>
+    <renderfunction name="g_test_bug" ponyname="test_bug" render="1" deprecated=""/>
+    <renderfunction name="g_test_bug_base" ponyname="test_bug_base" render="1" deprecated=""/>
+    <renderfunction name="g_test_build_filename" ponyname="test_build_filename" render="1" deprecated=""/>
+    <renderfunction name="g_test_create_case" ponyname="test_create_case" render="1" deprecated=""/>
+    <renderfunction name="g_test_create_suite" ponyname="test_create_suite" render="1" deprecated=""/>
+    <renderfunction name="g_test_expect_message" ponyname="test_expect_message" render="1" deprecated=""/>
+    <renderfunction name="g_test_fail" ponyname="test_fail" render="1" deprecated=""/>
+    <renderfunction name="g_test_failed" ponyname="test_failed" render="1" deprecated=""/>
+    <renderfunction name="g_test_get_dir" ponyname="test_get_dir" render="1" deprecated=""/>
+    <renderfunction name="g_test_get_filename" ponyname="test_get_filename" render="1" deprecated=""/>
+    <renderfunction name="g_test_get_root" ponyname="test_get_root" render="1" deprecated=""/>
+    <renderfunction name="g_test_incomplete" ponyname="test_incomplete" render="1" deprecated=""/>
+    <renderfunction name="g_test_init" ponyname="test_init" render="1" deprecated=""/>
+    <renderfunction name="g_test_log_set_fatal_handler" ponyname="test_log_set_fatal_handler" render="1" deprecated=""/>
+    <renderfunction name="g_test_log_type_name" ponyname="test_log_type_name" render="1" deprecated=""/>
+    <renderfunction name="g_test_maximized_result" ponyname="test_maximized_result" render="1" deprecated=""/>
+    <renderfunction name="g_test_message" ponyname="test_message" render="1" deprecated=""/>
+    <renderfunction name="g_test_minimized_result" ponyname="test_minimized_result" render="1" deprecated=""/>
+    <renderfunction name="g_test_queue_destroy" ponyname="test_queue_destroy" render="1" deprecated=""/>
+    <renderfunction name="g_test_queue_free" ponyname="test_queue_free" render="1" deprecated=""/>
+    <renderfunction name="g_test_rand_double" ponyname="test_rand_double" render="1" deprecated=""/>
+    <renderfunction name="g_test_rand_double_range" ponyname="test_rand_double_range" render="1" deprecated=""/>
+    <renderfunction name="g_test_rand_int" ponyname="test_rand_int" render="1" deprecated=""/>
+    <renderfunction name="g_test_rand_int_range" ponyname="test_rand_int_range" render="1" deprecated=""/>
+    <renderfunction name="g_test_run" ponyname="test_run" render="1" deprecated=""/>
+    <renderfunction name="g_test_run_suite" ponyname="test_run_suite" render="1" deprecated=""/>
+    <renderfunction name="g_test_set_nonfatal_assertions" ponyname="test_set_nonfatal_assertions" render="1" deprecated=""/>
+    <renderfunction name="g_test_skip" ponyname="test_skip" render="1" deprecated=""/>
+    <renderfunction name="g_test_subprocess" ponyname="test_subprocess" render="1" deprecated=""/>
+    <renderfunction name="g_test_summary" ponyname="test_summary" render="1" deprecated=""/>
+    <renderfunction name="g_test_timer_elapsed" ponyname="test_timer_elapsed" render="1" deprecated=""/>
+    <renderfunction name="g_test_timer_last" ponyname="test_timer_last" render="1" deprecated=""/>
+    <renderfunction name="g_test_timer_start" ponyname="test_timer_start" render="1" deprecated=""/>
+    <renderfunction name="g_test_trap_assertions" ponyname="test_trap_assertions" render="1" deprecated=""/>
+    <renderfunction name="g_test_trap_fork" ponyname="test_trap_fork" render="1" deprecated="1"/>
+    <renderfunction name="g_test_trap_has_passed" ponyname="test_trap_has_passed" render="1" deprecated=""/>
+    <renderfunction name="g_test_trap_reached_timeout" ponyname="test_trap_reached_timeout" render="1" deprecated=""/>
+    <renderfunction name="g_test_trap_subprocess" ponyname="test_trap_subprocess" render="1" deprecated=""/>
+    <renderfunction name="g_timeout_add" ponyname="timeout_add" render="1" deprecated=""/>
+    <renderfunction name="g_timeout_add_full" ponyname="timeout_add_full" render="1" deprecated=""/>
+    <renderfunction name="g_timeout_add_seconds" ponyname="timeout_add_seconds" render="1" deprecated=""/>
+    <renderfunction name="g_timeout_add_seconds_full" ponyname="timeout_add_seconds_full" render="1" deprecated=""/>
+    <renderfunction name="g_timeout_source_new" ponyname="timeout_source_new" render="1" deprecated=""/>
+    <renderfunction name="g_timeout_source_new_seconds" ponyname="timeout_source_new_seconds" render="1" deprecated=""/>
+    <renderfunction name="g_try_malloc" ponyname="try_malloc" render="1" deprecated=""/>
+    <renderfunction name="g_try_malloc0" ponyname="try_malloc0" render="1" deprecated=""/>
+    <renderfunction name="g_try_malloc0_n" ponyname="try_malloc0_n" render="1" deprecated=""/>
+    <renderfunction name="g_try_malloc_n" ponyname="try_malloc_n" render="1" deprecated=""/>
+    <renderfunction name="g_try_realloc" ponyname="try_realloc" render="1" deprecated=""/>
+    <renderfunction name="g_try_realloc_n" ponyname="try_realloc_n" render="1" deprecated=""/>
+    <renderfunction name="g_ucs4_to_utf16" ponyname="ucs4_to_utf16" render="1" deprecated=""/>
+    <renderfunction name="g_ucs4_to_utf8" ponyname="ucs4_to_utf8" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_break_type" ponyname="unichar_break_type" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_combining_class" ponyname="unichar_combining_class" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_compose" ponyname="unichar_compose" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_decompose" ponyname="unichar_decompose" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_digit_value" ponyname="unichar_digit_value" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_fully_decompose" ponyname="unichar_fully_decompose" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_get_mirror_char" ponyname="unichar_get_mirror_char" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_get_script" ponyname="unichar_get_script" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_isalnum" ponyname="unichar_isalnum" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_isalpha" ponyname="unichar_isalpha" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_iscntrl" ponyname="unichar_iscntrl" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_isdefined" ponyname="unichar_isdefined" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_isdigit" ponyname="unichar_isdigit" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_isgraph" ponyname="unichar_isgraph" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_islower" ponyname="unichar_islower" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_ismark" ponyname="unichar_ismark" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_isprint" ponyname="unichar_isprint" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_ispunct" ponyname="unichar_ispunct" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_isspace" ponyname="unichar_isspace" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_istitle" ponyname="unichar_istitle" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_isupper" ponyname="unichar_isupper" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_iswide" ponyname="unichar_iswide" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_iswide_cjk" ponyname="unichar_iswide_cjk" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_isxdigit" ponyname="unichar_isxdigit" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_iszerowidth" ponyname="unichar_iszerowidth" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_to_utf8" ponyname="unichar_to_utf8" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_tolower" ponyname="unichar_tolower" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_totitle" ponyname="unichar_totitle" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_toupper" ponyname="unichar_toupper" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_type" ponyname="unichar_type" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_validate" ponyname="unichar_validate" render="1" deprecated=""/>
+    <renderfunction name="g_unichar_xdigit_value" ponyname="unichar_xdigit_value" render="1" deprecated=""/>
+    <renderfunction name="g_unicode_canonical_decomposition" ponyname="unicode_canonical_decomposition" render="1" deprecated="1"/>
+    <renderfunction name="g_unicode_canonical_ordering" ponyname="unicode_canonical_ordering" render="1" deprecated=""/>
+    <renderfunction name="g_unicode_script_from_iso15924" ponyname="unicode_script_from_iso15924" render="1" deprecated=""/>
+    <renderfunction name="g_unicode_script_to_iso15924" ponyname="unicode_script_to_iso15924" render="1" deprecated=""/>
+    <renderfunction name="g_unix_error_quark" ponyname="unix_error_quark" render="1" deprecated=""/>
+    <renderfunction name="g_unix_fd_add" ponyname="unix_fd_add" render="1" deprecated=""/>
+    <renderfunction name="g_unix_fd_add_full" ponyname="unix_fd_add_full" render="1" deprecated=""/>
+    <renderfunction name="g_unix_fd_source_new" ponyname="unix_fd_source_new" render="1" deprecated=""/>
+    <renderfunction name="g_unix_get_passwd_entry" ponyname="unix_get_passwd_entry" render="1" deprecated=""/>
+    <renderfunction name="g_unix_open_pipe" ponyname="unix_open_pipe" render="1" deprecated=""/>
+    <renderfunction name="g_unix_set_fd_nonblocking" ponyname="unix_set_fd_nonblocking" render="1" deprecated=""/>
+    <renderfunction name="g_unix_signal_add" ponyname="unix_signal_add" render="1" deprecated=""/>
+    <renderfunction name="g_unix_signal_add_full" ponyname="unix_signal_add_full" render="1" deprecated=""/>
+    <renderfunction name="g_unix_signal_source_new" ponyname="unix_signal_source_new" render="1" deprecated=""/>
+    <renderfunction name="g_unlink" ponyname="unlink" render="1" deprecated=""/>
+    <renderfunction name="g_unsetenv" ponyname="unsetenv" render="1" deprecated=""/>
+    <renderfunction name="g_usleep" ponyname="usleep" render="1" deprecated=""/>
+    <renderfunction name="g_utf16_to_ucs4" ponyname="utf16_to_ucs4" render="1" deprecated=""/>
+    <renderfunction name="g_utf16_to_utf8" ponyname="utf16_to_utf8" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_casefold" ponyname="utf8_casefold" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_collate" ponyname="utf8_collate" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_collate_key" ponyname="utf8_collate_key" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_collate_key_for_filename" ponyname="utf8_collate_key_for_filename" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_find_next_char" ponyname="utf8_find_next_char" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_find_prev_char" ponyname="utf8_find_prev_char" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_get_char" ponyname="utf8_get_char" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_get_char_validated" ponyname="utf8_get_char_validated" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_make_valid" ponyname="utf8_make_valid" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_normalize" ponyname="utf8_normalize" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_offset_to_pointer" ponyname="utf8_offset_to_pointer" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_pointer_to_offset" ponyname="utf8_pointer_to_offset" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_prev_char" ponyname="utf8_prev_char" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_strchr" ponyname="utf8_strchr" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_strdown" ponyname="utf8_strdown" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_strlen" ponyname="utf8_strlen" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_strncpy" ponyname="utf8_strncpy" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_strrchr" ponyname="utf8_strrchr" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_strreverse" ponyname="utf8_strreverse" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_strup" ponyname="utf8_strup" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_substring" ponyname="utf8_substring" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_to_ucs4" ponyname="utf8_to_ucs4" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_to_ucs4_fast" ponyname="utf8_to_ucs4_fast" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_to_utf16" ponyname="utf8_to_utf16" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_validate" ponyname="utf8_validate" render="1" deprecated=""/>
+    <renderfunction name="g_utf8_validate_len" ponyname="utf8_validate_len" render="1" deprecated=""/>
+    <renderfunction name="g_uuid_string_is_valid" ponyname="uuid_string_is_valid" render="1" deprecated=""/>
+    <renderfunction name="g_uuid_string_random" ponyname="uuid_string_random" render="1" deprecated=""/>
+    <renderfunction name="g_variant_get_gtype" ponyname="variant_get_gtype" render="1" deprecated=""/>
+    <renderfunction name="g_vasprintf" ponyname="vasprintf" render="1" deprecated=""/>
+    <renderfunction name="g_vfprintf" ponyname="vfprintf" render="1" deprecated=""/>
+    <renderfunction name="g_vprintf" ponyname="vprintf" render="1" deprecated=""/>
+    <renderfunction name="g_vsnprintf" ponyname="vsnprintf" render="1" deprecated=""/>
+    <renderfunction name="g_vsprintf" ponyname="vsprintf" render="1" deprecated=""/>
+    <renderfunction name="g_warn_message" ponyname="warn_message" render="1" deprecated=""/>
+    <renderstruct name="GArray" render="1">
+      <renderfunction name="g_array_append_vals" ponyname="append_vals" render="1" deprecated=""/>
+      <renderfunction name="g_array_binary_search" ponyname="binary_search" render="1" deprecated=""/>
+      <renderfunction name="g_array_copy" ponyname="copy" render="1" deprecated=""/>
+      <renderfunction name="g_array_free" ponyname="free" render="1" deprecated=""/>
+      <renderfunction name="g_array_get_element_size" ponyname="get_element_size" render="1" deprecated=""/>
+      <renderfunction name="g_array_insert_vals" ponyname="insert_vals" render="1" deprecated=""/>
+      <renderfunction name="g_array_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_array_prepend_vals" ponyname="prepend_vals" render="1" deprecated=""/>
+      <renderfunction name="g_array_ref" ponyname="ref" render="1" deprecated=""/>
+      <renderfunction name="g_array_remove_index" ponyname="remove_index" render="1" deprecated=""/>
+      <renderfunction name="g_array_remove_index_fast" ponyname="remove_index_fast" render="1" deprecated=""/>
+      <renderfunction name="g_array_remove_range" ponyname="remove_range" render="1" deprecated=""/>
+      <renderfunction name="g_array_set_clear_func" ponyname="set_clear_func" render="1" deprecated=""/>
+      <renderfunction name="g_array_set_size" ponyname="set_size" render="1" deprecated=""/>
+      <renderfunction name="g_array_sized_new" ponyname="sized_new" render="1" deprecated=""/>
+      <renderfunction name="g_array_sort" ponyname="sort" render="1" deprecated=""/>
+      <renderfunction name="g_array_sort_with_data" ponyname="sort_with_data" render="1" deprecated=""/>
+      <renderfunction name="g_array_steal" ponyname="steal" render="1" deprecated=""/>
+      <renderfunction name="g_array_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GAsyncQueue" render="1">
+      <rendermethod name="g_async_queue_length" ponyname="length" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_length_unlocked" ponyname="length_unlocked" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_lock" ponyname="lock" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_pop" ponyname="pop" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_pop_unlocked" ponyname="pop_unlocked" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_push" ponyname="push" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_push_front" ponyname="push_front" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_push_front_unlocked" ponyname="push_front_unlocked" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_push_sorted" ponyname="push_sorted" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_push_sorted_unlocked" ponyname="push_sorted_unlocked" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_push_unlocked" ponyname="push_unlocked" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_ref_unlocked" ponyname="ref_unlocked" render="1" deprecated="1"/>
+      <rendermethod name="g_async_queue_remove" ponyname="remove" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_remove_unlocked" ponyname="remove_unlocked" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_sort" ponyname="sort" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_sort_unlocked" ponyname="sort_unlocked" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_timed_pop" ponyname="timed_pop" render="1" deprecated="1"/>
+      <rendermethod name="g_async_queue_timed_pop_unlocked" ponyname="timed_pop_unlocked" render="1" deprecated="1"/>
+      <rendermethod name="g_async_queue_timeout_pop" ponyname="timeout_pop" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_timeout_pop_unlocked" ponyname="timeout_pop_unlocked" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_try_pop" ponyname="try_pop" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_try_pop_unlocked" ponyname="try_pop_unlocked" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_unlock" ponyname="unlock" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_unref" ponyname="unref" render="1" deprecated=""/>
+      <rendermethod name="g_async_queue_unref_and_unlock" ponyname="unref_and_unlock" render="1" deprecated="1"/>
+      <renderfunction name="g_async_queue_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_async_queue_new_full" ponyname="new_full" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GBookmarkFile" render="1">
+      <rendermethod name="g_bookmark_file_add_application" ponyname="add_application" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_add_group" ponyname="add_group" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_added" ponyname="get_added" render="1" deprecated="1"/>
+      <rendermethod name="g_bookmark_file_get_added_date_time" ponyname="get_added_date_time" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_app_info" ponyname="get_app_info" render="1" deprecated="1"/>
+      <rendermethod name="g_bookmark_file_get_application_info" ponyname="get_application_info" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_applications" ponyname="get_applications" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_description" ponyname="get_description" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_groups" ponyname="get_groups" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_icon" ponyname="get_icon" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_is_private" ponyname="get_is_private" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_mime_type" ponyname="get_mime_type" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_modified" ponyname="get_modified" render="1" deprecated="1"/>
+      <rendermethod name="g_bookmark_file_get_modified_date_time" ponyname="get_modified_date_time" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_size" ponyname="get_size" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_title" ponyname="get_title" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_uris" ponyname="get_uris" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_get_visited" ponyname="get_visited" render="1" deprecated="1"/>
+      <rendermethod name="g_bookmark_file_get_visited_date_time" ponyname="get_visited_date_time" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_has_application" ponyname="has_application" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_has_group" ponyname="has_group" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_has_item" ponyname="has_item" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_load_from_data" ponyname="load_from_data" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_load_from_data_dirs" ponyname="load_from_data_dirs" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_load_from_file" ponyname="load_from_file" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_move_item" ponyname="move_item" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_remove_application" ponyname="remove_application" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_remove_group" ponyname="remove_group" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_remove_item" ponyname="remove_item" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_added" ponyname="set_added" render="1" deprecated="1"/>
+      <rendermethod name="g_bookmark_file_set_added_date_time" ponyname="set_added_date_time" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_app_info" ponyname="set_app_info" render="1" deprecated="1"/>
+      <rendermethod name="g_bookmark_file_set_application_info" ponyname="set_application_info" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_description" ponyname="set_description" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_groups" ponyname="set_groups" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_icon" ponyname="set_icon" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_is_private" ponyname="set_is_private" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_mime_type" ponyname="set_mime_type" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_modified" ponyname="set_modified" render="1" deprecated="1"/>
+      <rendermethod name="g_bookmark_file_set_modified_date_time" ponyname="set_modified_date_time" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_title" ponyname="set_title" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_set_visited" ponyname="set_visited" render="1" deprecated="1"/>
+      <rendermethod name="g_bookmark_file_set_visited_date_time" ponyname="set_visited_date_time" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_to_data" ponyname="to_data" render="1" deprecated=""/>
+      <rendermethod name="g_bookmark_file_to_file" ponyname="to_file" render="1" deprecated=""/>
+      <renderfunction name="g_bookmark_file_error_quark" ponyname="error_quark" render="1" deprecated=""/>
+      <renderfunction name="g_bookmark_file_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GByteArray" render="1">
+      <renderfunction name="g_byte_array_append" ponyname="append" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_free" ponyname="free" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_free_to_bytes" ponyname="free_to_bytes" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_new_take" ponyname="new_take" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_prepend" ponyname="prepend" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_ref" ponyname="ref" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_remove_index" ponyname="remove_index" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_remove_index_fast" ponyname="remove_index_fast" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_remove_range" ponyname="remove_range" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_set_size" ponyname="set_size" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_sized_new" ponyname="sized_new" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_sort" ponyname="sort" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_sort_with_data" ponyname="sort_with_data" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_steal" ponyname="steal" render="1" deprecated=""/>
+      <renderfunction name="g_byte_array_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GBytes" render="1">
+      <renderconstructor name="g_bytes_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_bytes_new_static" ponyname="new_static" render="1" deprecated=""/>
+      <renderconstructor name="g_bytes_new_take" ponyname="new_take" render="1" deprecated=""/>
+      <renderconstructor name="g_bytes_new_with_free_func" ponyname="new_with_free_func" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_compare" ponyname="compare" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_equal" ponyname="equal" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_get_data" ponyname="get_data" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_get_size" ponyname="get_size" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_hash" ponyname="hash" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_new_from_bytes" ponyname="new_from_bytes" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_unref" ponyname="unref" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_unref_to_array" ponyname="unref_to_array" render="1" deprecated=""/>
+      <rendermethod name="g_bytes_unref_to_data" ponyname="unref_to_data" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GChecksum" render="1">
+      <renderconstructor name="g_checksum_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_checksum_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_checksum_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_checksum_get_digest" ponyname="get_digest" render="1" deprecated=""/>
+      <rendermethod name="g_checksum_get_string" ponyname="get_string" render="1" deprecated=""/>
+      <rendermethod name="g_checksum_reset" ponyname="reset" render="1" deprecated=""/>
+      <rendermethod name="g_checksum_update" ponyname="update" render="1" deprecated=""/>
+      <renderfunction name="g_checksum_type_get_length" ponyname="type_get_length" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GCond" render="1">
+      <rendermethod name="g_cond_broadcast" ponyname="broadcast" render="1" deprecated=""/>
+      <rendermethod name="g_cond_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_cond_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_cond_signal" ponyname="signal" render="1" deprecated=""/>
+      <rendermethod name="g_cond_wait" ponyname="wait" render="1" deprecated=""/>
+      <rendermethod name="g_cond_wait_until" ponyname="wait_until" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GData" render="1">
+</renderstruct>
+    <renderstruct name="GDate" render="1">
+      <renderconstructor name="g_date_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_date_new_dmy" ponyname="new_dmy" render="1" deprecated=""/>
+      <renderconstructor name="g_date_new_julian" ponyname="new_julian" render="1" deprecated=""/>
+      <rendermethod name="g_date_add_days" ponyname="add_days" render="1" deprecated=""/>
+      <rendermethod name="g_date_add_months" ponyname="add_months" render="1" deprecated=""/>
+      <rendermethod name="g_date_add_years" ponyname="add_years" render="1" deprecated=""/>
+      <rendermethod name="g_date_clamp" ponyname="clamp" render="1" deprecated=""/>
+      <rendermethod name="g_date_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_date_compare" ponyname="compare" render="1" deprecated=""/>
+      <rendermethod name="g_date_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_date_days_between" ponyname="days_between" render="1" deprecated=""/>
+      <rendermethod name="g_date_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_date_get_day" ponyname="get_day" render="1" deprecated=""/>
+      <rendermethod name="g_date_get_day_of_year" ponyname="get_day_of_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_get_iso8601_week_of_year" ponyname="get_iso8601_week_of_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_get_julian" ponyname="get_julian" render="1" deprecated=""/>
+      <rendermethod name="g_date_get_monday_week_of_year" ponyname="get_monday_week_of_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_get_month" ponyname="get_month" render="1" deprecated=""/>
+      <rendermethod name="g_date_get_sunday_week_of_year" ponyname="get_sunday_week_of_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_get_weekday" ponyname="get_weekday" render="1" deprecated=""/>
+      <rendermethod name="g_date_get_year" ponyname="get_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_is_first_of_month" ponyname="is_first_of_month" render="1" deprecated=""/>
+      <rendermethod name="g_date_is_last_of_month" ponyname="is_last_of_month" render="1" deprecated=""/>
+      <rendermethod name="g_date_order" ponyname="order" render="1" deprecated=""/>
+      <rendermethod name="g_date_set_day" ponyname="set_day" render="1" deprecated=""/>
+      <rendermethod name="g_date_set_dmy" ponyname="set_dmy" render="1" deprecated=""/>
+      <rendermethod name="g_date_set_julian" ponyname="set_julian" render="1" deprecated=""/>
+      <rendermethod name="g_date_set_month" ponyname="set_month" render="1" deprecated=""/>
+      <rendermethod name="g_date_set_parse" ponyname="set_parse" render="1" deprecated=""/>
+      <rendermethod name="g_date_set_time" ponyname="set_time" render="1" deprecated="1"/>
+      <rendermethod name="g_date_set_time_t" ponyname="set_time_t" render="1" deprecated=""/>
+      <rendermethod name="g_date_set_time_val" ponyname="set_time_val" render="1" deprecated="1"/>
+      <rendermethod name="g_date_set_year" ponyname="set_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_subtract_days" ponyname="subtract_days" render="1" deprecated=""/>
+      <rendermethod name="g_date_subtract_months" ponyname="subtract_months" render="1" deprecated=""/>
+      <rendermethod name="g_date_subtract_years" ponyname="subtract_years" render="1" deprecated=""/>
+      <rendermethod name="g_date_to_struct_tm" ponyname="to_struct_tm" render="1" deprecated=""/>
+      <rendermethod name="g_date_valid" ponyname="valid" render="1" deprecated=""/>
+      <renderfunction name="g_date_get_days_in_month" ponyname="get_days_in_month" render="1" deprecated=""/>
+      <renderfunction name="g_date_get_monday_weeks_in_year" ponyname="get_monday_weeks_in_year" render="1" deprecated=""/>
+      <renderfunction name="g_date_get_sunday_weeks_in_year" ponyname="get_sunday_weeks_in_year" render="1" deprecated=""/>
+      <renderfunction name="g_date_is_leap_year" ponyname="is_leap_year" render="1" deprecated=""/>
+      <renderfunction name="g_date_strftime" ponyname="strftime" render="1" deprecated=""/>
+      <renderfunction name="g_date_valid_day" ponyname="valid_day" render="1" deprecated=""/>
+      <renderfunction name="g_date_valid_dmy" ponyname="valid_dmy" render="1" deprecated=""/>
+      <renderfunction name="g_date_valid_julian" ponyname="valid_julian" render="1" deprecated=""/>
+      <renderfunction name="g_date_valid_month" ponyname="valid_month" render="1" deprecated=""/>
+      <renderfunction name="g_date_valid_weekday" ponyname="valid_weekday" render="1" deprecated=""/>
+      <renderfunction name="g_date_valid_year" ponyname="valid_year" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GDateTime" render="1">
+      <renderconstructor name="g_date_time_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_date_time_new_from_iso8601" ponyname="new_from_iso8601" render="1" deprecated=""/>
+      <renderconstructor name="g_date_time_new_from_timeval_local" ponyname="new_from_timeval_local" render="1" deprecated="1"/>
+      <renderconstructor name="g_date_time_new_from_timeval_utc" ponyname="new_from_timeval_utc" render="1" deprecated="1"/>
+      <renderconstructor name="g_date_time_new_from_unix_local" ponyname="new_from_unix_local" render="1" deprecated=""/>
+      <renderconstructor name="g_date_time_new_from_unix_utc" ponyname="new_from_unix_utc" render="1" deprecated=""/>
+      <renderconstructor name="g_date_time_new_local" ponyname="new_local" render="1" deprecated=""/>
+      <renderconstructor name="g_date_time_new_now" ponyname="new_now" render="1" deprecated=""/>
+      <renderconstructor name="g_date_time_new_now_local" ponyname="new_now_local" render="1" deprecated=""/>
+      <renderconstructor name="g_date_time_new_now_utc" ponyname="new_now_utc" render="1" deprecated=""/>
+      <renderconstructor name="g_date_time_new_utc" ponyname="new_utc" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_add" ponyname="add" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_add_days" ponyname="add_days" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_add_full" ponyname="add_full" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_add_hours" ponyname="add_hours" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_add_minutes" ponyname="add_minutes" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_add_months" ponyname="add_months" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_add_seconds" ponyname="add_seconds" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_add_weeks" ponyname="add_weeks" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_add_years" ponyname="add_years" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_compare" ponyname="compare" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_difference" ponyname="difference" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_equal" ponyname="equal" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_format" ponyname="format" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_format_iso8601" ponyname="format_iso8601" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_day_of_month" ponyname="get_day_of_month" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_day_of_week" ponyname="get_day_of_week" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_day_of_year" ponyname="get_day_of_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_hour" ponyname="get_hour" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_microsecond" ponyname="get_microsecond" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_minute" ponyname="get_minute" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_month" ponyname="get_month" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_second" ponyname="get_second" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_seconds" ponyname="get_seconds" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_timezone" ponyname="get_timezone" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_timezone_abbreviation" ponyname="get_timezone_abbreviation" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_utc_offset" ponyname="get_utc_offset" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_week_numbering_year" ponyname="get_week_numbering_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_week_of_year" ponyname="get_week_of_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_year" ponyname="get_year" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_get_ymd" ponyname="get_ymd" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_hash" ponyname="hash" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_is_daylight_savings" ponyname="is_daylight_savings" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_to_local" ponyname="to_local" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_to_timeval" ponyname="to_timeval" render="1" deprecated="1"/>
+      <rendermethod name="g_date_time_to_timezone" ponyname="to_timezone" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_to_unix" ponyname="to_unix" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_to_utc" ponyname="to_utc" render="1" deprecated=""/>
+      <rendermethod name="g_date_time_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GDebugKey" render="1">
+</renderstruct>
+    <renderstruct name="GDir" render="1">
+      <rendermethod name="g_dir_close" ponyname="close" render="1" deprecated=""/>
+      <rendermethod name="g_dir_read_name" ponyname="read_name" render="1" deprecated=""/>
+      <rendermethod name="g_dir_rewind" ponyname="rewind" render="1" deprecated=""/>
+      <renderfunction name="g_dir_make_tmp" ponyname="make_tmp" render="1" deprecated=""/>
+      <renderfunction name="g_dir_open" ponyname="open" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GError" render="1">
+      <renderconstructor name="g_error_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_error_new_literal" ponyname="new_literal" render="1" deprecated=""/>
+      <renderconstructor name="g_error_new_valist" ponyname="new_valist" render="1" deprecated=""/>
+      <rendermethod name="g_error_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_error_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_error_matches" ponyname="matches" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GHashTable" render="1">
+      <renderfunction name="g_hash_table_add" ponyname="add" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_contains" ponyname="contains" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_destroy" ponyname="destroy" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_find" ponyname="find" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_foreach" ponyname="foreach" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_foreach_remove" ponyname="foreach_remove" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_foreach_steal" ponyname="foreach_steal" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_get_keys" ponyname="get_keys" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_get_keys_as_array" ponyname="get_keys_as_array" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_get_values" ponyname="get_values" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_insert" ponyname="insert" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_lookup" ponyname="lookup" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_lookup_extended" ponyname="lookup_extended" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_new_full" ponyname="new_full" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_ref" ponyname="ref" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_remove" ponyname="remove" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_remove_all" ponyname="remove_all" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_replace" ponyname="replace" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_size" ponyname="size" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_steal" ponyname="steal" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_steal_all" ponyname="steal_all" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_steal_extended" ponyname="steal_extended" render="1" deprecated=""/>
+      <renderfunction name="g_hash_table_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GHashTableIter" render="1">
+      <rendermethod name="g_hash_table_iter_get_hash_table" ponyname="get_hash_table" render="1" deprecated=""/>
+      <rendermethod name="g_hash_table_iter_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_hash_table_iter_next" ponyname="next" render="1" deprecated=""/>
+      <rendermethod name="g_hash_table_iter_remove" ponyname="remove" render="1" deprecated=""/>
+      <rendermethod name="g_hash_table_iter_replace" ponyname="replace" render="1" deprecated=""/>
+      <rendermethod name="g_hash_table_iter_steal" ponyname="steal" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GHmac" render="1">
+      <rendermethod name="g_hmac_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_hmac_get_digest" ponyname="get_digest" render="1" deprecated=""/>
+      <rendermethod name="g_hmac_get_string" ponyname="get_string" render="1" deprecated=""/>
+      <rendermethod name="g_hmac_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_hmac_unref" ponyname="unref" render="1" deprecated=""/>
+      <rendermethod name="g_hmac_update" ponyname="update" render="1" deprecated=""/>
+      <renderfunction name="g_hmac_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GHook" render="1">
+      <rendermethod name="g_hook_compare_ids" ponyname="compare_ids" render="1" deprecated=""/>
+      <renderfunction name="g_hook_alloc" ponyname="alloc" render="1" deprecated=""/>
+      <renderfunction name="g_hook_destroy" ponyname="destroy" render="1" deprecated=""/>
+      <renderfunction name="g_hook_destroy_link" ponyname="destroy_link" render="1" deprecated=""/>
+      <renderfunction name="g_hook_find" ponyname="find" render="1" deprecated=""/>
+      <renderfunction name="g_hook_find_data" ponyname="find_data" render="1" deprecated=""/>
+      <renderfunction name="g_hook_find_func" ponyname="find_func" render="1" deprecated=""/>
+      <renderfunction name="g_hook_find_func_data" ponyname="find_func_data" render="1" deprecated=""/>
+      <renderfunction name="g_hook_first_valid" ponyname="first_valid" render="1" deprecated=""/>
+      <renderfunction name="g_hook_free" ponyname="free" render="1" deprecated=""/>
+      <renderfunction name="g_hook_get" ponyname="get" render="1" deprecated=""/>
+      <renderfunction name="g_hook_insert_before" ponyname="insert_before" render="1" deprecated=""/>
+      <renderfunction name="g_hook_insert_sorted" ponyname="insert_sorted" render="1" deprecated=""/>
+      <renderfunction name="g_hook_next_valid" ponyname="next_valid" render="1" deprecated=""/>
+      <renderfunction name="g_hook_prepend" ponyname="prepend" render="1" deprecated=""/>
+      <renderfunction name="g_hook_ref" ponyname="ref" render="1" deprecated=""/>
+      <renderfunction name="g_hook_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GHookList" render="1">
+      <rendermethod name="g_hook_list_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_hook_list_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_hook_list_invoke" ponyname="invoke" render="1" deprecated=""/>
+      <rendermethod name="g_hook_list_invoke_check" ponyname="invoke_check" render="1" deprecated=""/>
+      <rendermethod name="g_hook_list_marshal" ponyname="marshal" render="1" deprecated=""/>
+      <rendermethod name="g_hook_list_marshal_check" ponyname="marshal_check" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GIConv" render="1">
+      <rendermethod name="g_iconv" ponyname="" render="0" deprecated=""/>
+      <rendermethod name="g_iconv_close" ponyname="close" render="1" deprecated=""/>
+      <renderfunction name="g_iconv_open" ponyname="open" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GIOChannel" render="1">
+      <renderconstructor name="g_io_channel_new_file" ponyname="new_file" render="1" deprecated=""/>
+      <renderconstructor name="g_io_channel_unix_new" ponyname="unix_new" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_close" ponyname="close" render="1" deprecated="1"/>
+      <rendermethod name="g_io_channel_flush" ponyname="flush" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_get_buffer_condition" ponyname="get_buffer_condition" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_get_buffer_size" ponyname="get_buffer_size" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_get_buffered" ponyname="get_buffered" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_get_close_on_unref" ponyname="get_close_on_unref" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_get_encoding" ponyname="get_encoding" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_get_flags" ponyname="get_flags" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_get_line_term" ponyname="get_line_term" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_read" ponyname="read" render="1" deprecated="1"/>
+      <rendermethod name="g_io_channel_read_chars" ponyname="read_chars" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_read_line" ponyname="read_line" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_read_line_string" ponyname="read_line_string" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_read_to_end" ponyname="read_to_end" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_read_unichar" ponyname="read_unichar" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_seek" ponyname="seek" render="1" deprecated="1"/>
+      <rendermethod name="g_io_channel_seek_position" ponyname="seek_position" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_set_buffer_size" ponyname="set_buffer_size" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_set_buffered" ponyname="set_buffered" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_set_close_on_unref" ponyname="set_close_on_unref" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_set_encoding" ponyname="set_encoding" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_set_flags" ponyname="set_flags" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_set_line_term" ponyname="set_line_term" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_shutdown" ponyname="shutdown" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_unix_get_fd" ponyname="unix_get_fd" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_unref" ponyname="unref" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_write" ponyname="write" render="1" deprecated="1"/>
+      <rendermethod name="g_io_channel_write_chars" ponyname="write_chars" render="1" deprecated=""/>
+      <rendermethod name="g_io_channel_write_unichar" ponyname="write_unichar" render="1" deprecated=""/>
+      <renderfunction name="g_io_channel_error_from_errno" ponyname="error_from_errno" render="1" deprecated=""/>
+      <renderfunction name="g_io_channel_error_quark" ponyname="error_quark" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GIOFuncs" render="1">
+</renderstruct>
+    <renderstruct name="GKeyFile" render="1">
+      <renderconstructor name="g_key_file_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_boolean" ponyname="get_boolean" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_boolean_list" ponyname="get_boolean_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_comment" ponyname="get_comment" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_double" ponyname="get_double" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_double_list" ponyname="get_double_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_groups" ponyname="get_groups" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_int64" ponyname="get_int64" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_integer" ponyname="get_integer" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_integer_list" ponyname="get_integer_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_keys" ponyname="get_keys" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_locale_for_key" ponyname="get_locale_for_key" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_locale_string" ponyname="get_locale_string" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_locale_string_list" ponyname="get_locale_string_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_start_group" ponyname="get_start_group" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_string" ponyname="get_string" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_string_list" ponyname="get_string_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_uint64" ponyname="get_uint64" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_get_value" ponyname="get_value" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_has_group" ponyname="has_group" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_has_key" ponyname="has_key" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_load_from_bytes" ponyname="load_from_bytes" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_load_from_data" ponyname="load_from_data" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_load_from_data_dirs" ponyname="load_from_data_dirs" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_load_from_dirs" ponyname="load_from_dirs" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_load_from_file" ponyname="load_from_file" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_remove_comment" ponyname="remove_comment" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_remove_group" ponyname="remove_group" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_remove_key" ponyname="remove_key" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_save_to_file" ponyname="save_to_file" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_boolean" ponyname="set_boolean" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_boolean_list" ponyname="set_boolean_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_comment" ponyname="set_comment" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_double" ponyname="set_double" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_double_list" ponyname="set_double_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_int64" ponyname="set_int64" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_integer" ponyname="set_integer" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_integer_list" ponyname="set_integer_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_list_separator" ponyname="set_list_separator" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_locale_string" ponyname="set_locale_string" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_locale_string_list" ponyname="set_locale_string_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_string" ponyname="set_string" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_string_list" ponyname="set_string_list" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_uint64" ponyname="set_uint64" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_set_value" ponyname="set_value" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_to_data" ponyname="to_data" render="1" deprecated=""/>
+      <rendermethod name="g_key_file_unref" ponyname="unref" render="1" deprecated=""/>
+      <renderfunction name="g_key_file_error_quark" ponyname="error_quark" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GList" render="1">
+      <renderfunction name="g_list_alloc" ponyname="alloc" render="1" deprecated=""/>
+      <renderfunction name="g_list_append" ponyname="append" render="1" deprecated=""/>
+      <renderfunction name="g_list_concat" ponyname="concat" render="1" deprecated=""/>
+      <renderfunction name="g_list_copy" ponyname="copy" render="1" deprecated=""/>
+      <renderfunction name="g_list_copy_deep" ponyname="copy_deep" render="1" deprecated=""/>
+      <renderfunction name="g_list_delete_link" ponyname="delete_link" render="1" deprecated=""/>
+      <renderfunction name="g_list_find" ponyname="find" render="1" deprecated=""/>
+      <renderfunction name="g_list_find_custom" ponyname="find_custom" render="1" deprecated=""/>
+      <renderfunction name="g_list_first" ponyname="first" render="1" deprecated=""/>
+      <renderfunction name="g_list_foreach" ponyname="foreach" render="1" deprecated=""/>
+      <renderfunction name="g_list_free" ponyname="free" render="1" deprecated=""/>
+      <renderfunction name="g_list_free_1" ponyname="free_1" render="1" deprecated=""/>
+      <renderfunction name="g_list_free_full" ponyname="free_full" render="1" deprecated=""/>
+      <renderfunction name="g_list_index" ponyname="index" render="1" deprecated=""/>
+      <renderfunction name="g_list_insert" ponyname="insert" render="1" deprecated=""/>
+      <renderfunction name="g_list_insert_before" ponyname="insert_before" render="1" deprecated=""/>
+      <renderfunction name="g_list_insert_before_link" ponyname="insert_before_link" render="1" deprecated=""/>
+      <renderfunction name="g_list_insert_sorted" ponyname="insert_sorted" render="1" deprecated=""/>
+      <renderfunction name="g_list_insert_sorted_with_data" ponyname="insert_sorted_with_data" render="1" deprecated=""/>
+      <renderfunction name="g_list_last" ponyname="last" render="1" deprecated=""/>
+      <renderfunction name="g_list_length" ponyname="length" render="1" deprecated=""/>
+      <renderfunction name="g_list_nth" ponyname="nth" render="1" deprecated=""/>
+      <renderfunction name="g_list_nth_data" ponyname="nth_data" render="1" deprecated=""/>
+      <renderfunction name="g_list_nth_prev" ponyname="nth_prev" render="1" deprecated=""/>
+      <renderfunction name="g_list_position" ponyname="position" render="1" deprecated=""/>
+      <renderfunction name="g_list_prepend" ponyname="prepend" render="1" deprecated=""/>
+      <renderfunction name="g_list_remove" ponyname="remove" render="1" deprecated=""/>
+      <renderfunction name="g_list_remove_all" ponyname="remove_all" render="1" deprecated=""/>
+      <renderfunction name="g_list_remove_link" ponyname="remove_link" render="1" deprecated=""/>
+      <renderfunction name="g_list_reverse" ponyname="reverse" render="1" deprecated=""/>
+      <renderfunction name="g_list_sort" ponyname="sort" render="1" deprecated=""/>
+      <renderfunction name="g_list_sort_with_data" ponyname="sort_with_data" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GLogField" render="1">
+</renderstruct>
+    <renderstruct name="GMainContext" render="1">
+      <renderconstructor name="g_main_context_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_acquire" ponyname="acquire" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_add_poll" ponyname="add_poll" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_check" ponyname="check" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_dispatch" ponyname="dispatch" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_find_source_by_funcs_user_data" ponyname="find_source_by_funcs_user_data" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_find_source_by_id" ponyname="find_source_by_id" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_find_source_by_user_data" ponyname="find_source_by_user_data" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_get_poll_func" ponyname="get_poll_func" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_invoke" ponyname="invoke" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_invoke_full" ponyname="invoke_full" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_is_owner" ponyname="is_owner" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_iteration" ponyname="iteration" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_pending" ponyname="pending" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_pop_thread_default" ponyname="pop_thread_default" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_prepare" ponyname="prepare" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_push_thread_default" ponyname="push_thread_default" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_query" ponyname="query" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_release" ponyname="release" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_remove_poll" ponyname="remove_poll" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_set_poll_func" ponyname="set_poll_func" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_unref" ponyname="unref" render="1" deprecated=""/>
+      <rendermethod name="g_main_context_wait" ponyname="wait" render="1" deprecated="1"/>
+      <rendermethod name="g_main_context_wakeup" ponyname="wakeup" render="1" deprecated=""/>
+      <renderfunction name="g_main_context_default" ponyname="default" render="1" deprecated=""/>
+      <renderfunction name="g_main_context_get_thread_default" ponyname="get_thread_default" render="1" deprecated=""/>
+      <renderfunction name="g_main_context_ref_thread_default" ponyname="ref_thread_default" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GMainLoop" render="1">
+      <renderconstructor name="g_main_loop_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_main_loop_get_context" ponyname="get_context" render="1" deprecated=""/>
+      <rendermethod name="g_main_loop_is_running" ponyname="is_running" render="1" deprecated=""/>
+      <rendermethod name="g_main_loop_quit" ponyname="quit" render="1" deprecated=""/>
+      <rendermethod name="g_main_loop_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_main_loop_run" ponyname="run" render="1" deprecated=""/>
+      <rendermethod name="g_main_loop_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GMappedFile" render="1">
+      <renderconstructor name="g_mapped_file_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_mapped_file_new_from_fd" ponyname="new_from_fd" render="1" deprecated=""/>
+      <rendermethod name="g_mapped_file_free" ponyname="free" render="1" deprecated="1"/>
+      <rendermethod name="g_mapped_file_get_bytes" ponyname="get_bytes" render="1" deprecated=""/>
+      <rendermethod name="g_mapped_file_get_contents" ponyname="get_contents" render="1" deprecated=""/>
+      <rendermethod name="g_mapped_file_get_length" ponyname="get_length" render="1" deprecated=""/>
+      <rendermethod name="g_mapped_file_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_mapped_file_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GMarkupParseContext" render="1">
+      <renderconstructor name="g_markup_parse_context_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_end_parse" ponyname="end_parse" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_get_element" ponyname="get_element" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_get_element_stack" ponyname="get_element_stack" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_get_position" ponyname="get_position" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_get_user_data" ponyname="get_user_data" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_parse" ponyname="parse" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_pop" ponyname="pop" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_push" ponyname="push" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_markup_parse_context_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GMarkupParser" render="1">
+</renderstruct>
+    <renderstruct name="GMatchInfo" render="1">
+      <rendermethod name="g_match_info_expand_references" ponyname="expand_references" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_fetch" ponyname="fetch" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_fetch_all" ponyname="fetch_all" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_fetch_named" ponyname="fetch_named" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_fetch_named_pos" ponyname="fetch_named_pos" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_fetch_pos" ponyname="fetch_pos" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_get_match_count" ponyname="get_match_count" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_get_regex" ponyname="get_regex" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_get_string" ponyname="get_string" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_is_partial_match" ponyname="is_partial_match" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_matches" ponyname="matches" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_next" ponyname="next" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_match_info_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GMemVTable" render="1">
+</renderstruct>
+    <renderstruct name="GNode" render="1">
+      <rendermethod name="g_node_child_index" ponyname="child_index" render="1" deprecated=""/>
+      <rendermethod name="g_node_child_position" ponyname="child_position" render="1" deprecated=""/>
+      <rendermethod name="g_node_children_foreach" ponyname="children_foreach" render="1" deprecated=""/>
+      <rendermethod name="g_node_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_node_copy_deep" ponyname="copy_deep" render="1" deprecated=""/>
+      <rendermethod name="g_node_depth" ponyname="depth" render="1" deprecated=""/>
+      <rendermethod name="g_node_destroy" ponyname="destroy" render="1" deprecated=""/>
+      <rendermethod name="g_node_find" ponyname="find" render="1" deprecated=""/>
+      <rendermethod name="g_node_find_child" ponyname="find_child" render="1" deprecated=""/>
+      <rendermethod name="g_node_first_sibling" ponyname="first_sibling" render="1" deprecated=""/>
+      <rendermethod name="g_node_get_root" ponyname="get_root" render="1" deprecated=""/>
+      <rendermethod name="g_node_insert" ponyname="insert" render="1" deprecated=""/>
+      <rendermethod name="g_node_insert_after" ponyname="insert_after" render="1" deprecated=""/>
+      <rendermethod name="g_node_insert_before" ponyname="insert_before" render="1" deprecated=""/>
+      <rendermethod name="g_node_is_ancestor" ponyname="is_ancestor" render="1" deprecated=""/>
+      <rendermethod name="g_node_last_child" ponyname="last_child" render="1" deprecated=""/>
+      <rendermethod name="g_node_last_sibling" ponyname="last_sibling" render="1" deprecated=""/>
+      <rendermethod name="g_node_max_height" ponyname="max_height" render="1" deprecated=""/>
+      <rendermethod name="g_node_n_children" ponyname="n_children" render="1" deprecated=""/>
+      <rendermethod name="g_node_n_nodes" ponyname="n_nodes" render="1" deprecated=""/>
+      <rendermethod name="g_node_nth_child" ponyname="nth_child" render="1" deprecated=""/>
+      <rendermethod name="g_node_prepend" ponyname="prepend" render="1" deprecated=""/>
+      <rendermethod name="g_node_reverse_children" ponyname="reverse_children" render="1" deprecated=""/>
+      <rendermethod name="g_node_traverse" ponyname="traverse" render="1" deprecated=""/>
+      <rendermethod name="g_node_unlink" ponyname="unlink" render="1" deprecated=""/>
+      <renderfunction name="g_node_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GOnce" render="1">
+      <rendermethod name="g_once_impl" ponyname="impl" render="1" deprecated=""/>
+      <renderfunction name="g_once_init_enter" ponyname="init_enter" render="1" deprecated=""/>
+      <renderfunction name="g_once_init_leave" ponyname="init_leave" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GOptionContext" render="1">
+      <rendermethod name="g_option_context_add_group" ponyname="add_group" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_add_main_entries" ponyname="add_main_entries" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_get_description" ponyname="get_description" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_get_help" ponyname="get_help" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_get_help_enabled" ponyname="get_help_enabled" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_get_ignore_unknown_options" ponyname="get_ignore_unknown_options" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_get_main_group" ponyname="get_main_group" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_get_strict_posix" ponyname="get_strict_posix" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_get_summary" ponyname="get_summary" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_parse" ponyname="parse" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_parse_strv" ponyname="parse_strv" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_set_description" ponyname="set_description" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_set_help_enabled" ponyname="set_help_enabled" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_set_ignore_unknown_options" ponyname="set_ignore_unknown_options" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_set_main_group" ponyname="set_main_group" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_set_strict_posix" ponyname="set_strict_posix" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_set_summary" ponyname="set_summary" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_set_translate_func" ponyname="set_translate_func" render="1" deprecated=""/>
+      <rendermethod name="g_option_context_set_translation_domain" ponyname="set_translation_domain" render="1" deprecated=""/>
+      <renderfunction name="g_option_context_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GOptionEntry" render="1">
+</renderstruct>
+    <renderstruct name="GOptionGroup" render="1">
+      <renderconstructor name="g_option_group_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_option_group_add_entries" ponyname="add_entries" render="1" deprecated=""/>
+      <rendermethod name="g_option_group_free" ponyname="free" render="1" deprecated="1"/>
+      <rendermethod name="g_option_group_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_option_group_set_error_hook" ponyname="set_error_hook" render="1" deprecated=""/>
+      <rendermethod name="g_option_group_set_parse_hooks" ponyname="set_parse_hooks" render="1" deprecated=""/>
+      <rendermethod name="g_option_group_set_translate_func" ponyname="set_translate_func" render="1" deprecated=""/>
+      <rendermethod name="g_option_group_set_translation_domain" ponyname="set_translation_domain" render="1" deprecated=""/>
+      <rendermethod name="g_option_group_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GPatternSpec" render="1">
+      <rendermethod name="g_pattern_spec_equal" ponyname="equal" render="1" deprecated=""/>
+      <rendermethod name="g_pattern_spec_free" ponyname="free" render="1" deprecated=""/>
+      <renderfunction name="g_pattern_spec_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GPollFD" render="1">
+</renderstruct>
+    <renderstruct name="GPrivate" render="1">
+      <rendermethod name="g_private_get" ponyname="get" render="1" deprecated=""/>
+      <rendermethod name="g_private_replace" ponyname="replace" render="1" deprecated=""/>
+      <rendermethod name="g_private_set" ponyname="set" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GPtrArray" render="1">
+      <renderfunction name="g_ptr_array_add" ponyname="add" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_copy" ponyname="copy" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_extend" ponyname="extend" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_extend_and_steal" ponyname="extend_and_steal" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_find" ponyname="find" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_find_with_equal_func" ponyname="find_with_equal_func" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_foreach" ponyname="foreach" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_free" ponyname="free" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_insert" ponyname="insert" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_new_full" ponyname="new_full" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_new_with_free_func" ponyname="new_with_free_func" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_ref" ponyname="ref" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_remove" ponyname="remove" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_remove_fast" ponyname="remove_fast" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_remove_index" ponyname="remove_index" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_remove_index_fast" ponyname="remove_index_fast" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_remove_range" ponyname="remove_range" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_set_free_func" ponyname="set_free_func" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_set_size" ponyname="set_size" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_sized_new" ponyname="sized_new" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_sort" ponyname="sort" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_sort_with_data" ponyname="sort_with_data" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_steal" ponyname="steal" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_steal_index" ponyname="steal_index" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_steal_index_fast" ponyname="steal_index_fast" render="1" deprecated=""/>
+      <renderfunction name="g_ptr_array_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GQueue" render="1">
+      <rendermethod name="g_queue_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_queue_clear_full" ponyname="clear_full" render="1" deprecated=""/>
+      <rendermethod name="g_queue_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_queue_delete_link" ponyname="delete_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_find" ponyname="find" render="1" deprecated=""/>
+      <rendermethod name="g_queue_find_custom" ponyname="find_custom" render="1" deprecated=""/>
+      <rendermethod name="g_queue_foreach" ponyname="foreach" render="1" deprecated=""/>
+      <rendermethod name="g_queue_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_queue_free_full" ponyname="free_full" render="1" deprecated=""/>
+      <rendermethod name="g_queue_get_length" ponyname="get_length" render="1" deprecated=""/>
+      <rendermethod name="g_queue_index" ponyname="index" render="1" deprecated=""/>
+      <rendermethod name="g_queue_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_queue_insert_after" ponyname="insert_after" render="1" deprecated=""/>
+      <rendermethod name="g_queue_insert_after_link" ponyname="insert_after_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_insert_before" ponyname="insert_before" render="1" deprecated=""/>
+      <rendermethod name="g_queue_insert_before_link" ponyname="insert_before_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_insert_sorted" ponyname="insert_sorted" render="1" deprecated=""/>
+      <rendermethod name="g_queue_is_empty" ponyname="is_empty" render="1" deprecated=""/>
+      <rendermethod name="g_queue_link_index" ponyname="link_index" render="1" deprecated=""/>
+      <rendermethod name="g_queue_peek_head" ponyname="peek_head" render="1" deprecated=""/>
+      <rendermethod name="g_queue_peek_head_link" ponyname="peek_head_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_peek_nth" ponyname="peek_nth" render="1" deprecated=""/>
+      <rendermethod name="g_queue_peek_nth_link" ponyname="peek_nth_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_peek_tail" ponyname="peek_tail" render="1" deprecated=""/>
+      <rendermethod name="g_queue_peek_tail_link" ponyname="peek_tail_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_pop_head" ponyname="pop_head" render="1" deprecated=""/>
+      <rendermethod name="g_queue_pop_head_link" ponyname="pop_head_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_pop_nth" ponyname="pop_nth" render="1" deprecated=""/>
+      <rendermethod name="g_queue_pop_nth_link" ponyname="pop_nth_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_pop_tail" ponyname="pop_tail" render="1" deprecated=""/>
+      <rendermethod name="g_queue_pop_tail_link" ponyname="pop_tail_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_push_head" ponyname="push_head" render="1" deprecated=""/>
+      <rendermethod name="g_queue_push_head_link" ponyname="push_head_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_push_nth" ponyname="push_nth" render="1" deprecated=""/>
+      <rendermethod name="g_queue_push_nth_link" ponyname="push_nth_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_push_tail" ponyname="push_tail" render="1" deprecated=""/>
+      <rendermethod name="g_queue_push_tail_link" ponyname="push_tail_link" render="1" deprecated=""/>
+      <rendermethod name="g_queue_remove" ponyname="remove" render="1" deprecated=""/>
+      <rendermethod name="g_queue_remove_all" ponyname="remove_all" render="1" deprecated=""/>
+      <rendermethod name="g_queue_reverse" ponyname="reverse" render="1" deprecated=""/>
+      <rendermethod name="g_queue_sort" ponyname="sort" render="1" deprecated=""/>
+      <rendermethod name="g_queue_unlink" ponyname="unlink" render="1" deprecated=""/>
+      <renderfunction name="g_queue_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GRWLock" render="1">
+      <rendermethod name="g_rw_lock_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_rw_lock_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_rw_lock_reader_lock" ponyname="reader_lock" render="1" deprecated=""/>
+      <rendermethod name="g_rw_lock_reader_trylock" ponyname="reader_trylock" render="1" deprecated=""/>
+      <rendermethod name="g_rw_lock_reader_unlock" ponyname="reader_unlock" render="1" deprecated=""/>
+      <rendermethod name="g_rw_lock_writer_lock" ponyname="writer_lock" render="1" deprecated=""/>
+      <rendermethod name="g_rw_lock_writer_trylock" ponyname="writer_trylock" render="1" deprecated=""/>
+      <rendermethod name="g_rw_lock_writer_unlock" ponyname="writer_unlock" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GRand" render="1">
+      <rendermethod name="g_rand_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_rand_double" ponyname="double" render="1" deprecated=""/>
+      <rendermethod name="g_rand_double_range" ponyname="double_range" render="1" deprecated=""/>
+      <rendermethod name="g_rand_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_rand_int" ponyname="int" render="1" deprecated=""/>
+      <rendermethod name="g_rand_int_range" ponyname="int_range" render="1" deprecated=""/>
+      <rendermethod name="g_rand_set_seed" ponyname="set_seed" render="1" deprecated=""/>
+      <rendermethod name="g_rand_set_seed_array" ponyname="set_seed_array" render="1" deprecated=""/>
+      <renderfunction name="g_rand_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_rand_new_with_seed" ponyname="new_with_seed" render="1" deprecated=""/>
+      <renderfunction name="g_rand_new_with_seed_array" ponyname="new_with_seed_array" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GRecMutex" render="1">
+      <rendermethod name="g_rec_mutex_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_rec_mutex_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_rec_mutex_lock" ponyname="lock" render="1" deprecated=""/>
+      <rendermethod name="g_rec_mutex_trylock" ponyname="trylock" render="1" deprecated=""/>
+      <rendermethod name="g_rec_mutex_unlock" ponyname="unlock" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GRegex" render="1">
+      <renderconstructor name="g_regex_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_regex_get_capture_count" ponyname="get_capture_count" render="1" deprecated=""/>
+      <rendermethod name="g_regex_get_compile_flags" ponyname="get_compile_flags" render="1" deprecated=""/>
+      <rendermethod name="g_regex_get_has_cr_or_lf" ponyname="get_has_cr_or_lf" render="1" deprecated=""/>
+      <rendermethod name="g_regex_get_match_flags" ponyname="get_match_flags" render="1" deprecated=""/>
+      <rendermethod name="g_regex_get_max_backref" ponyname="get_max_backref" render="1" deprecated=""/>
+      <rendermethod name="g_regex_get_max_lookbehind" ponyname="get_max_lookbehind" render="1" deprecated=""/>
+      <rendermethod name="g_regex_get_pattern" ponyname="get_pattern" render="1" deprecated=""/>
+      <rendermethod name="g_regex_get_string_number" ponyname="get_string_number" render="1" deprecated=""/>
+      <rendermethod name="g_regex_match" ponyname="match" render="1" deprecated=""/>
+      <rendermethod name="g_regex_match_all" ponyname="match_all" render="1" deprecated=""/>
+      <rendermethod name="g_regex_match_all_full" ponyname="match_all_full" render="1" deprecated=""/>
+      <rendermethod name="g_regex_match_full" ponyname="match_full" render="1" deprecated=""/>
+      <rendermethod name="g_regex_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_regex_replace" ponyname="replace" render="1" deprecated=""/>
+      <rendermethod name="g_regex_replace_eval" ponyname="replace_eval" render="1" deprecated=""/>
+      <rendermethod name="g_regex_replace_literal" ponyname="replace_literal" render="1" deprecated=""/>
+      <rendermethod name="g_regex_split" ponyname="split" render="1" deprecated=""/>
+      <rendermethod name="g_regex_split_full" ponyname="split_full" render="1" deprecated=""/>
+      <rendermethod name="g_regex_unref" ponyname="unref" render="1" deprecated=""/>
+      <renderfunction name="g_regex_check_replacement" ponyname="check_replacement" render="1" deprecated=""/>
+      <renderfunction name="g_regex_error_quark" ponyname="error_quark" render="1" deprecated=""/>
+      <renderfunction name="g_regex_escape_nul" ponyname="escape_nul" render="1" deprecated=""/>
+      <renderfunction name="g_regex_escape_string" ponyname="escape_string" render="1" deprecated=""/>
+      <renderfunction name="g_regex_match_simple" ponyname="match_simple" render="1" deprecated=""/>
+      <renderfunction name="g_regex_split_simple" ponyname="split_simple" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GSList" render="1">
+      <renderfunction name="g_slist_alloc" ponyname="alloc" render="1" deprecated=""/>
+      <renderfunction name="g_slist_append" ponyname="append" render="1" deprecated=""/>
+      <renderfunction name="g_slist_concat" ponyname="concat" render="1" deprecated=""/>
+      <renderfunction name="g_slist_copy" ponyname="copy" render="1" deprecated=""/>
+      <renderfunction name="g_slist_copy_deep" ponyname="copy_deep" render="1" deprecated=""/>
+      <renderfunction name="g_slist_delete_link" ponyname="delete_link" render="1" deprecated=""/>
+      <renderfunction name="g_slist_find" ponyname="find" render="1" deprecated=""/>
+      <renderfunction name="g_slist_find_custom" ponyname="find_custom" render="1" deprecated=""/>
+      <renderfunction name="g_slist_foreach" ponyname="foreach" render="1" deprecated=""/>
+      <renderfunction name="g_slist_free" ponyname="free" render="1" deprecated=""/>
+      <renderfunction name="g_slist_free_1" ponyname="free_1" render="1" deprecated=""/>
+      <renderfunction name="g_slist_free_full" ponyname="free_full" render="1" deprecated=""/>
+      <renderfunction name="g_slist_index" ponyname="index" render="1" deprecated=""/>
+      <renderfunction name="g_slist_insert" ponyname="insert" render="1" deprecated=""/>
+      <renderfunction name="g_slist_insert_before" ponyname="insert_before" render="1" deprecated=""/>
+      <renderfunction name="g_slist_insert_sorted" ponyname="insert_sorted" render="1" deprecated=""/>
+      <renderfunction name="g_slist_insert_sorted_with_data" ponyname="insert_sorted_with_data" render="1" deprecated=""/>
+      <renderfunction name="g_slist_last" ponyname="last" render="1" deprecated=""/>
+      <renderfunction name="g_slist_length" ponyname="length" render="1" deprecated=""/>
+      <renderfunction name="g_slist_nth" ponyname="nth" render="1" deprecated=""/>
+      <renderfunction name="g_slist_nth_data" ponyname="nth_data" render="1" deprecated=""/>
+      <renderfunction name="g_slist_position" ponyname="position" render="1" deprecated=""/>
+      <renderfunction name="g_slist_prepend" ponyname="prepend" render="1" deprecated=""/>
+      <renderfunction name="g_slist_remove" ponyname="remove" render="1" deprecated=""/>
+      <renderfunction name="g_slist_remove_all" ponyname="remove_all" render="1" deprecated=""/>
+      <renderfunction name="g_slist_remove_link" ponyname="remove_link" render="1" deprecated=""/>
+      <renderfunction name="g_slist_reverse" ponyname="reverse" render="1" deprecated=""/>
+      <renderfunction name="g_slist_sort" ponyname="sort" render="1" deprecated=""/>
+      <renderfunction name="g_slist_sort_with_data" ponyname="sort_with_data" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GScanner" render="1">
+      <rendermethod name="g_scanner_cur_line" ponyname="cur_line" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_cur_position" ponyname="cur_position" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_cur_token" ponyname="cur_token" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_cur_value" ponyname="cur_value" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_destroy" ponyname="destroy" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_eof" ponyname="eof" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_error" ponyname="error" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_get_next_token" ponyname="get_next_token" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_input_file" ponyname="input_file" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_input_text" ponyname="input_text" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_lookup_symbol" ponyname="lookup_symbol" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_peek_next_token" ponyname="peek_next_token" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_scope_add_symbol" ponyname="scope_add_symbol" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_scope_foreach_symbol" ponyname="scope_foreach_symbol" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_scope_lookup_symbol" ponyname="scope_lookup_symbol" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_scope_remove_symbol" ponyname="scope_remove_symbol" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_set_scope" ponyname="set_scope" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_sync_file_offset" ponyname="sync_file_offset" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_unexp_token" ponyname="unexp_token" render="1" deprecated=""/>
+      <rendermethod name="g_scanner_warn" ponyname="warn" render="1" deprecated=""/>
+      <renderfunction name="g_scanner_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GScannerConfig" render="1">
+</renderstruct>
+    <renderstruct name="GSequence" render="1">
+      <rendermethod name="g_sequence_append" ponyname="append" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_foreach" ponyname="foreach" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_get_begin_iter" ponyname="get_begin_iter" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_get_end_iter" ponyname="get_end_iter" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_get_iter_at_pos" ponyname="get_iter_at_pos" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_get_length" ponyname="get_length" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_insert_sorted" ponyname="insert_sorted" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_insert_sorted_iter" ponyname="insert_sorted_iter" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_is_empty" ponyname="is_empty" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_lookup" ponyname="lookup" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_lookup_iter" ponyname="lookup_iter" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_prepend" ponyname="prepend" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_search" ponyname="search" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_search_iter" ponyname="search_iter" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_sort" ponyname="sort" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_sort_iter" ponyname="sort_iter" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_foreach_range" ponyname="foreach_range" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_get" ponyname="get" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_insert_before" ponyname="insert_before" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_move" ponyname="move" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_move_range" ponyname="move_range" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_range_get_midpoint" ponyname="range_get_midpoint" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_remove" ponyname="remove" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_remove_range" ponyname="remove_range" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_set" ponyname="set" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_sort_changed" ponyname="sort_changed" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_sort_changed_iter" ponyname="sort_changed_iter" render="1" deprecated=""/>
+      <renderfunction name="g_sequence_swap" ponyname="swap" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GSequenceIter" render="1">
+      <rendermethod name="g_sequence_iter_compare" ponyname="compare" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_iter_get_position" ponyname="get_position" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_iter_get_sequence" ponyname="get_sequence" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_iter_is_begin" ponyname="is_begin" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_iter_is_end" ponyname="is_end" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_iter_move" ponyname="move" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_iter_next" ponyname="next" render="1" deprecated=""/>
+      <rendermethod name="g_sequence_iter_prev" ponyname="prev" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GSource" render="1">
+      <renderconstructor name="g_source_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_source_add_child_source" ponyname="add_child_source" render="1" deprecated=""/>
+      <rendermethod name="g_source_add_poll" ponyname="add_poll" render="1" deprecated=""/>
+      <rendermethod name="g_source_add_unix_fd" ponyname="add_unix_fd" render="1" deprecated=""/>
+      <rendermethod name="g_source_attach" ponyname="attach" render="1" deprecated=""/>
+      <rendermethod name="g_source_destroy" ponyname="destroy" render="1" deprecated=""/>
+      <rendermethod name="g_source_get_can_recurse" ponyname="get_can_recurse" render="1" deprecated=""/>
+      <rendermethod name="g_source_get_context" ponyname="get_context" render="1" deprecated=""/>
+      <rendermethod name="g_source_get_current_time" ponyname="get_current_time" render="1" deprecated="1"/>
+      <rendermethod name="g_source_get_id" ponyname="get_id" render="1" deprecated=""/>
+      <rendermethod name="g_source_get_name" ponyname="get_name" render="1" deprecated=""/>
+      <rendermethod name="g_source_get_priority" ponyname="get_priority" render="1" deprecated=""/>
+      <rendermethod name="g_source_get_ready_time" ponyname="get_ready_time" render="1" deprecated=""/>
+      <rendermethod name="g_source_get_time" ponyname="get_time" render="1" deprecated=""/>
+      <rendermethod name="g_source_is_destroyed" ponyname="is_destroyed" render="1" deprecated=""/>
+      <rendermethod name="g_source_modify_unix_fd" ponyname="modify_unix_fd" render="1" deprecated=""/>
+      <rendermethod name="g_source_query_unix_fd" ponyname="query_unix_fd" render="1" deprecated=""/>
+      <rendermethod name="g_source_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_source_remove_child_source" ponyname="remove_child_source" render="1" deprecated=""/>
+      <rendermethod name="g_source_remove_poll" ponyname="remove_poll" render="1" deprecated=""/>
+      <rendermethod name="g_source_remove_unix_fd" ponyname="remove_unix_fd" render="1" deprecated=""/>
+      <rendermethod name="g_source_set_callback" ponyname="set_callback" render="1" deprecated=""/>
+      <rendermethod name="g_source_set_callback_indirect" ponyname="set_callback_indirect" render="1" deprecated=""/>
+      <rendermethod name="g_source_set_can_recurse" ponyname="set_can_recurse" render="1" deprecated=""/>
+      <rendermethod name="g_source_set_dispose_function" ponyname="set_dispose_function" render="1" deprecated=""/>
+      <rendermethod name="g_source_set_funcs" ponyname="set_funcs" render="1" deprecated=""/>
+      <rendermethod name="g_source_set_name" ponyname="set_name" render="1" deprecated=""/>
+      <rendermethod name="g_source_set_priority" ponyname="set_priority" render="1" deprecated=""/>
+      <rendermethod name="g_source_set_ready_time" ponyname="set_ready_time" render="1" deprecated=""/>
+      <rendermethod name="g_source_unref" ponyname="unref" render="1" deprecated=""/>
+      <renderfunction name="g_source_remove" ponyname="remove" render="1" deprecated=""/>
+      <renderfunction name="g_source_remove_by_funcs_user_data" ponyname="remove_by_funcs_user_data" render="1" deprecated=""/>
+      <renderfunction name="g_source_remove_by_user_data" ponyname="remove_by_user_data" render="1" deprecated=""/>
+      <renderfunction name="g_source_set_name_by_id" ponyname="set_name_by_id" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GSourceCallbackFuncs" render="1">
+</renderstruct>
+    <renderstruct name="GSourceFuncs" render="1">
+</renderstruct>
+    <renderstruct name="GSourcePrivate" render="1">
+</renderstruct>
+    <renderstruct name="GStatBuf" render="1">
+</renderstruct>
+    <renderstruct name="GString" render="1">
+      <rendermethod name="g_string_append" ponyname="append" render="1" deprecated=""/>
+      <rendermethod name="g_string_append_c" ponyname="append_c" render="1" deprecated=""/>
+      <rendermethod name="g_string_append_len" ponyname="append_len" render="1" deprecated=""/>
+      <rendermethod name="g_string_append_printf" ponyname="append_printf" render="1" deprecated=""/>
+      <rendermethod name="g_string_append_unichar" ponyname="append_unichar" render="1" deprecated=""/>
+      <rendermethod name="g_string_append_uri_escaped" ponyname="append_uri_escaped" render="1" deprecated=""/>
+      <rendermethod name="g_string_append_vprintf" ponyname="append_vprintf" render="1" deprecated=""/>
+      <rendermethod name="g_string_ascii_down" ponyname="ascii_down" render="1" deprecated=""/>
+      <rendermethod name="g_string_ascii_up" ponyname="ascii_up" render="1" deprecated=""/>
+      <rendermethod name="g_string_assign" ponyname="assign" render="1" deprecated=""/>
+      <rendermethod name="g_string_down" ponyname="down" render="1" deprecated="1"/>
+      <rendermethod name="g_string_equal" ponyname="equal" render="1" deprecated=""/>
+      <rendermethod name="g_string_erase" ponyname="erase" render="1" deprecated=""/>
+      <rendermethod name="g_string_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_string_free_to_bytes" ponyname="free_to_bytes" render="1" deprecated=""/>
+      <rendermethod name="g_string_hash" ponyname="hash" render="1" deprecated=""/>
+      <rendermethod name="g_string_insert" ponyname="insert" render="1" deprecated=""/>
+      <rendermethod name="g_string_insert_c" ponyname="insert_c" render="1" deprecated=""/>
+      <rendermethod name="g_string_insert_len" ponyname="insert_len" render="1" deprecated=""/>
+      <rendermethod name="g_string_insert_unichar" ponyname="insert_unichar" render="1" deprecated=""/>
+      <rendermethod name="g_string_overwrite" ponyname="overwrite" render="1" deprecated=""/>
+      <rendermethod name="g_string_overwrite_len" ponyname="overwrite_len" render="1" deprecated=""/>
+      <rendermethod name="g_string_prepend" ponyname="prepend" render="1" deprecated=""/>
+      <rendermethod name="g_string_prepend_c" ponyname="prepend_c" render="1" deprecated=""/>
+      <rendermethod name="g_string_prepend_len" ponyname="prepend_len" render="1" deprecated=""/>
+      <rendermethod name="g_string_prepend_unichar" ponyname="prepend_unichar" render="1" deprecated=""/>
+      <rendermethod name="g_string_printf" ponyname="printf" render="1" deprecated=""/>
+      <rendermethod name="g_string_set_size" ponyname="set_size" render="1" deprecated=""/>
+      <rendermethod name="g_string_truncate" ponyname="truncate" render="1" deprecated=""/>
+      <rendermethod name="g_string_up" ponyname="up" render="1" deprecated="1"/>
+      <rendermethod name="g_string_vprintf" ponyname="vprintf" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GStringChunk" render="1">
+      <rendermethod name="g_string_chunk_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_string_chunk_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_string_chunk_insert" ponyname="insert" render="1" deprecated=""/>
+      <rendermethod name="g_string_chunk_insert_const" ponyname="insert_const" render="1" deprecated=""/>
+      <rendermethod name="g_string_chunk_insert_len" ponyname="insert_len" render="1" deprecated=""/>
+      <renderfunction name="g_string_chunk_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GTestCase" render="1">
+</renderstruct>
+    <renderstruct name="GTestConfig" render="1">
+</renderstruct>
+    <renderstruct name="GTestLogBuffer" render="1">
+      <rendermethod name="g_test_log_buffer_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_test_log_buffer_pop" ponyname="pop" render="1" deprecated=""/>
+      <rendermethod name="g_test_log_buffer_push" ponyname="push" render="1" deprecated=""/>
+      <renderfunction name="g_test_log_buffer_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GTestLogMsg" render="1">
+      <rendermethod name="g_test_log_msg_free" ponyname="free" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GTestSuite" render="1">
+      <rendermethod name="g_test_suite_add" ponyname="add" render="1" deprecated=""/>
+      <rendermethod name="g_test_suite_add_suite" ponyname="add_suite" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GThread" render="1">
+      <renderconstructor name="g_thread_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_thread_try_new" ponyname="try_new" render="1" deprecated=""/>
+      <rendermethod name="g_thread_join" ponyname="join" render="1" deprecated=""/>
+      <rendermethod name="g_thread_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_thread_unref" ponyname="unref" render="1" deprecated=""/>
+      <renderfunction name="g_thread_error_quark" ponyname="error_quark" render="1" deprecated=""/>
+      <renderfunction name="g_thread_exit" ponyname="exit" render="1" deprecated=""/>
+      <renderfunction name="g_thread_self" ponyname="self" render="1" deprecated=""/>
+      <renderfunction name="g_thread_yield" ponyname="yield" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GThreadPool" render="1">
+      <rendermethod name="g_thread_pool_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_thread_pool_get_max_threads" ponyname="get_max_threads" render="1" deprecated=""/>
+      <rendermethod name="g_thread_pool_get_num_threads" ponyname="get_num_threads" render="1" deprecated=""/>
+      <rendermethod name="g_thread_pool_move_to_front" ponyname="move_to_front" render="1" deprecated=""/>
+      <rendermethod name="g_thread_pool_push" ponyname="push" render="1" deprecated=""/>
+      <rendermethod name="g_thread_pool_set_max_threads" ponyname="set_max_threads" render="1" deprecated=""/>
+      <rendermethod name="g_thread_pool_set_sort_function" ponyname="set_sort_function" render="1" deprecated=""/>
+      <rendermethod name="g_thread_pool_unprocessed" ponyname="unprocessed" render="1" deprecated=""/>
+      <renderfunction name="g_thread_pool_get_max_idle_time" ponyname="get_max_idle_time" render="1" deprecated=""/>
+      <renderfunction name="g_thread_pool_get_max_unused_threads" ponyname="get_max_unused_threads" render="1" deprecated=""/>
+      <renderfunction name="g_thread_pool_get_num_unused_threads" ponyname="get_num_unused_threads" render="1" deprecated=""/>
+      <renderfunction name="g_thread_pool_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_thread_pool_set_max_idle_time" ponyname="set_max_idle_time" render="1" deprecated=""/>
+      <renderfunction name="g_thread_pool_set_max_unused_threads" ponyname="set_max_unused_threads" render="1" deprecated=""/>
+      <renderfunction name="g_thread_pool_stop_unused_threads" ponyname="stop_unused_threads" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GTimeVal" render="1">
+      <rendermethod name="g_time_val_add" ponyname="add" render="1" deprecated="1"/>
+      <rendermethod name="g_time_val_to_iso8601" ponyname="to_iso8601" render="1" deprecated="1"/>
+      <renderfunction name="g_time_val_from_iso8601" ponyname="from_iso8601" render="1" deprecated="1"/>
+    </renderstruct>
+    <renderstruct name="GTimeZone" render="1">
+      <renderconstructor name="g_time_zone_new" ponyname="new" render="1" deprecated="1"/>
+      <renderconstructor name="g_time_zone_new_local" ponyname="new_local" render="1" deprecated=""/>
+      <renderconstructor name="g_time_zone_new_offset" ponyname="new_offset" render="1" deprecated=""/>
+      <renderconstructor name="g_time_zone_new_utc" ponyname="new_utc" render="1" deprecated=""/>
+      <rendermethod name="g_time_zone_adjust_time" ponyname="adjust_time" render="1" deprecated=""/>
+      <rendermethod name="g_time_zone_find_interval" ponyname="find_interval" render="1" deprecated=""/>
+      <rendermethod name="g_time_zone_get_abbreviation" ponyname="get_abbreviation" render="1" deprecated=""/>
+      <rendermethod name="g_time_zone_get_identifier" ponyname="get_identifier" render="1" deprecated=""/>
+      <rendermethod name="g_time_zone_get_offset" ponyname="get_offset" render="1" deprecated=""/>
+      <rendermethod name="g_time_zone_is_dst" ponyname="is_dst" render="1" deprecated=""/>
+      <rendermethod name="g_time_zone_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_time_zone_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GTimer" render="1">
+      <rendermethod name="g_timer_continue" ponyname="continue" render="1" deprecated=""/>
+      <rendermethod name="g_timer_destroy" ponyname="destroy" render="1" deprecated=""/>
+      <rendermethod name="g_timer_elapsed" ponyname="elapsed" render="1" deprecated=""/>
+      <rendermethod name="g_timer_is_active" ponyname="is_active" render="1" deprecated=""/>
+      <rendermethod name="g_timer_reset" ponyname="reset" render="1" deprecated=""/>
+      <rendermethod name="g_timer_start" ponyname="start" render="1" deprecated=""/>
+      <rendermethod name="g_timer_stop" ponyname="stop" render="1" deprecated=""/>
+      <renderfunction name="g_timer_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GTrashStack" render="1">
+      <renderfunction name="g_trash_stack_height" ponyname="height" render="1" deprecated="1"/>
+      <renderfunction name="g_trash_stack_peek" ponyname="peek" render="1" deprecated="1"/>
+      <renderfunction name="g_trash_stack_pop" ponyname="pop" render="1" deprecated="1"/>
+      <renderfunction name="g_trash_stack_push" ponyname="push" render="1" deprecated="1"/>
+    </renderstruct>
+    <renderstruct name="GTree" render="1">
+      <rendermethod name="g_tree_destroy" ponyname="destroy" render="1" deprecated=""/>
+      <rendermethod name="g_tree_foreach" ponyname="foreach" render="1" deprecated=""/>
+      <rendermethod name="g_tree_height" ponyname="height" render="1" deprecated=""/>
+      <rendermethod name="g_tree_insert" ponyname="insert" render="1" deprecated=""/>
+      <rendermethod name="g_tree_lookup" ponyname="lookup" render="1" deprecated=""/>
+      <rendermethod name="g_tree_lookup_extended" ponyname="lookup_extended" render="1" deprecated=""/>
+      <rendermethod name="g_tree_nnodes" ponyname="nnodes" render="1" deprecated=""/>
+      <rendermethod name="g_tree_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_tree_remove" ponyname="remove" render="1" deprecated=""/>
+      <rendermethod name="g_tree_replace" ponyname="replace" render="1" deprecated=""/>
+      <rendermethod name="g_tree_search" ponyname="search" render="1" deprecated=""/>
+      <rendermethod name="g_tree_steal" ponyname="steal" render="1" deprecated=""/>
+      <rendermethod name="g_tree_traverse" ponyname="traverse" render="1" deprecated="1"/>
+      <rendermethod name="g_tree_unref" ponyname="unref" render="1" deprecated=""/>
+      <renderfunction name="g_tree_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_tree_new_full" ponyname="new_full" render="1" deprecated=""/>
+      <renderfunction name="g_tree_new_with_data" ponyname="new_with_data" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GUri" render="1">
+      <rendermethod name="g_uri_get_auth_params" ponyname="get_auth_params" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_flags" ponyname="get_flags" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_fragment" ponyname="get_fragment" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_host" ponyname="get_host" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_password" ponyname="get_password" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_path" ponyname="get_path" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_port" ponyname="get_port" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_query" ponyname="get_query" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_scheme" ponyname="get_scheme" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_user" ponyname="get_user" render="1" deprecated=""/>
+      <rendermethod name="g_uri_get_userinfo" ponyname="get_userinfo" render="1" deprecated=""/>
+      <rendermethod name="g_uri_parse_relative" ponyname="parse_relative" render="1" deprecated=""/>
+      <rendermethod name="g_uri_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_uri_to_string" ponyname="to_string" render="1" deprecated=""/>
+      <rendermethod name="g_uri_to_string_partial" ponyname="to_string_partial" render="1" deprecated=""/>
+      <rendermethod name="g_uri_unref" ponyname="unref" render="1" deprecated=""/>
+      <renderfunction name="g_uri_build" ponyname="build" render="1" deprecated=""/>
+      <renderfunction name="g_uri_build_with_user" ponyname="build_with_user" render="1" deprecated=""/>
+      <renderfunction name="g_uri_error_quark" ponyname="error_quark" render="1" deprecated=""/>
+      <renderfunction name="g_uri_escape_bytes" ponyname="escape_bytes" render="1" deprecated=""/>
+      <renderfunction name="g_uri_escape_string" ponyname="escape_string" render="1" deprecated=""/>
+      <renderfunction name="g_uri_is_valid" ponyname="is_valid" render="1" deprecated=""/>
+      <renderfunction name="g_uri_join" ponyname="join" render="1" deprecated=""/>
+      <renderfunction name="g_uri_join_with_user" ponyname="join_with_user" render="1" deprecated=""/>
+      <renderfunction name="g_uri_list_extract_uris" ponyname="list_extract_uris" render="1" deprecated=""/>
+      <renderfunction name="g_uri_parse" ponyname="parse" render="1" deprecated=""/>
+      <renderfunction name="g_uri_parse_params" ponyname="parse_params" render="1" deprecated=""/>
+      <renderfunction name="g_uri_parse_scheme" ponyname="parse_scheme" render="1" deprecated=""/>
+      <renderfunction name="g_uri_peek_scheme" ponyname="peek_scheme" render="1" deprecated=""/>
+      <renderfunction name="g_uri_resolve_relative" ponyname="resolve_relative" render="1" deprecated=""/>
+      <renderfunction name="g_uri_split" ponyname="split" render="1" deprecated=""/>
+      <renderfunction name="g_uri_split_network" ponyname="split_network" render="1" deprecated=""/>
+      <renderfunction name="g_uri_split_with_user" ponyname="split_with_user" render="1" deprecated=""/>
+      <renderfunction name="g_uri_unescape_bytes" ponyname="unescape_bytes" render="1" deprecated=""/>
+      <renderfunction name="g_uri_unescape_segment" ponyname="unescape_segment" render="1" deprecated=""/>
+      <renderfunction name="g_uri_unescape_string" ponyname="unescape_string" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GUriParamsIter" render="1">
+      <rendermethod name="g_uri_params_iter_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_uri_params_iter_next" ponyname="next" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GVariant" render="1">
+      <renderconstructor name="g_variant_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_array" ponyname="new_array" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_boolean" ponyname="new_boolean" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_byte" ponyname="new_byte" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_bytestring" ponyname="new_bytestring" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_bytestring_array" ponyname="new_bytestring_array" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_dict_entry" ponyname="new_dict_entry" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_double" ponyname="new_double" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_fixed_array" ponyname="new_fixed_array" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_from_bytes" ponyname="new_from_bytes" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_from_data" ponyname="new_from_data" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_handle" ponyname="new_handle" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_int16" ponyname="new_int16" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_int32" ponyname="new_int32" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_int64" ponyname="new_int64" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_maybe" ponyname="new_maybe" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_object_path" ponyname="new_object_path" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_objv" ponyname="new_objv" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_parsed" ponyname="new_parsed" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_parsed_va" ponyname="new_parsed_va" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_printf" ponyname="new_printf" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_signature" ponyname="new_signature" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_string" ponyname="new_string" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_strv" ponyname="new_strv" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_take_string" ponyname="new_take_string" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_tuple" ponyname="new_tuple" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_uint16" ponyname="new_uint16" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_uint32" ponyname="new_uint32" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_uint64" ponyname="new_uint64" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_va" ponyname="new_va" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_variant" ponyname="new_variant" render="1" deprecated=""/>
+      <rendermethod name="g_variant_byteswap" ponyname="byteswap" render="1" deprecated=""/>
+      <rendermethod name="g_variant_check_format_string" ponyname="check_format_string" render="1" deprecated=""/>
+      <rendermethod name="g_variant_classify" ponyname="classify" render="1" deprecated=""/>
+      <rendermethod name="g_variant_compare" ponyname="compare" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dup_bytestring" ponyname="dup_bytestring" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dup_bytestring_array" ponyname="dup_bytestring_array" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dup_objv" ponyname="dup_objv" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dup_string" ponyname="dup_string" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dup_strv" ponyname="dup_strv" render="1" deprecated=""/>
+      <rendermethod name="g_variant_equal" ponyname="equal" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get" ponyname="get" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_boolean" ponyname="get_boolean" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_byte" ponyname="get_byte" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_bytestring" ponyname="get_bytestring" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_bytestring_array" ponyname="get_bytestring_array" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_child" ponyname="get_child" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_child_value" ponyname="get_child_value" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_data" ponyname="get_data" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_data_as_bytes" ponyname="get_data_as_bytes" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_double" ponyname="get_double" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_fixed_array" ponyname="get_fixed_array" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_handle" ponyname="get_handle" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_int16" ponyname="get_int16" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_int32" ponyname="get_int32" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_int64" ponyname="get_int64" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_maybe" ponyname="get_maybe" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_normal_form" ponyname="get_normal_form" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_objv" ponyname="get_objv" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_size" ponyname="get_size" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_string" ponyname="get_string" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_strv" ponyname="get_strv" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_type" ponyname="get_type" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_type_string" ponyname="get_type_string" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_uint16" ponyname="get_uint16" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_uint32" ponyname="get_uint32" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_uint64" ponyname="get_uint64" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_va" ponyname="get_va" render="1" deprecated=""/>
+      <rendermethod name="g_variant_get_variant" ponyname="get_variant" render="1" deprecated=""/>
+      <rendermethod name="g_variant_hash" ponyname="hash" render="1" deprecated=""/>
+      <rendermethod name="g_variant_is_container" ponyname="is_container" render="1" deprecated=""/>
+      <rendermethod name="g_variant_is_floating" ponyname="is_floating" render="1" deprecated=""/>
+      <rendermethod name="g_variant_is_normal_form" ponyname="is_normal_form" render="1" deprecated=""/>
+      <rendermethod name="g_variant_is_of_type" ponyname="is_of_type" render="1" deprecated=""/>
+      <rendermethod name="g_variant_iter_new" ponyname="iter_new" render="1" deprecated=""/>
+      <rendermethod name="g_variant_lookup" ponyname="lookup" render="1" deprecated=""/>
+      <rendermethod name="g_variant_lookup_value" ponyname="lookup_value" render="1" deprecated=""/>
+      <rendermethod name="g_variant_n_children" ponyname="n_children" render="1" deprecated=""/>
+      <rendermethod name="g_variant_print" ponyname="print" render="1" deprecated=""/>
+      <rendermethod name="g_variant_print_string" ponyname="print_string" render="1" deprecated=""/>
+      <rendermethod name="g_variant_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_variant_ref_sink" ponyname="ref_sink" render="1" deprecated=""/>
+      <rendermethod name="g_variant_store" ponyname="store" render="1" deprecated=""/>
+      <rendermethod name="g_variant_take_ref" ponyname="take_ref" render="1" deprecated=""/>
+      <rendermethod name="g_variant_unref" ponyname="unref" render="1" deprecated=""/>
+      <renderfunction name="g_variant_is_object_path" ponyname="is_object_path" render="1" deprecated=""/>
+      <renderfunction name="g_variant_is_signature" ponyname="is_signature" render="1" deprecated=""/>
+      <renderfunction name="g_variant_parse" ponyname="parse" render="1" deprecated=""/>
+      <renderfunction name="g_variant_parse_error_print_context" ponyname="parse_error_print_context" render="1" deprecated=""/>
+      <renderfunction name="g_variant_parse_error_quark" ponyname="parse_error_quark" render="1" deprecated=""/>
+      <renderfunction name="g_variant_parser_get_error_quark" ponyname="parser_get_error_quark" render="1" deprecated="1"/>
+    </renderstruct>
+    <renderstruct name="GVariantBuilder" render="1">
+      <renderconstructor name="g_variant_builder_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_add" ponyname="add" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_add_parsed" ponyname="add_parsed" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_add_value" ponyname="add_value" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_close" ponyname="close" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_end" ponyname="end" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_open" ponyname="open" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_variant_builder_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GVariantDict" render="1">
+      <renderconstructor name="g_variant_dict_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_contains" ponyname="contains" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_end" ponyname="end" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_insert" ponyname="insert" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_insert_value" ponyname="insert_value" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_lookup" ponyname="lookup" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_lookup_value" ponyname="lookup_value" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_remove" ponyname="remove" render="1" deprecated=""/>
+      <rendermethod name="g_variant_dict_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GVariantIter" render="1">
+      <rendermethod name="g_variant_iter_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_variant_iter_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_variant_iter_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_variant_iter_loop" ponyname="loop" render="1" deprecated=""/>
+      <rendermethod name="g_variant_iter_n_children" ponyname="n_children" render="1" deprecated=""/>
+      <rendermethod name="g_variant_iter_next" ponyname="next" render="1" deprecated=""/>
+      <rendermethod name="g_variant_iter_next_value" ponyname="next_value" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GVariantType" render="1">
+      <renderconstructor name="g_variant_type_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_type_new_array" ponyname="new_array" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_type_new_dict_entry" ponyname="new_dict_entry" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_type_new_maybe" ponyname="new_maybe" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_type_new_tuple" ponyname="new_tuple" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_dup_string" ponyname="dup_string" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_element" ponyname="element" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_equal" ponyname="equal" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_first" ponyname="first" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_get_string_length" ponyname="get_string_length" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_hash" ponyname="hash" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_is_array" ponyname="is_array" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_is_basic" ponyname="is_basic" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_is_container" ponyname="is_container" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_is_definite" ponyname="is_definite" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_is_dict_entry" ponyname="is_dict_entry" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_is_maybe" ponyname="is_maybe" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_is_subtype_of" ponyname="is_subtype_of" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_is_tuple" ponyname="is_tuple" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_is_variant" ponyname="is_variant" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_key" ponyname="key" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_n_items" ponyname="n_items" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_next" ponyname="next" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_peek_string" ponyname="peek_string" render="1" deprecated=""/>
+      <rendermethod name="g_variant_type_value" ponyname="value" render="1" deprecated=""/>
+      <renderfunction name="g_variant_type_checked_" ponyname="checked_" render="1" deprecated=""/>
+      <renderfunction name="g_variant_type_string_get_depth_" ponyname="string_get_depth_" render="1" deprecated=""/>
+      <renderfunction name="g_variant_type_string_is_valid" ponyname="string_is_valid" render="1" deprecated=""/>
+      <renderfunction name="g_variant_type_string_scan" ponyname="string_scan" render="1" deprecated=""/>
+    </renderstruct>
+    <rendercallback name="GChildWatchFunc" render="1"/>
+    <rendercallback name="GClearHandleFunc" render="1"/>
+    <rendercallback name="GCompareDataFunc" render="1"/>
+    <rendercallback name="GCompareFunc" render="1"/>
+    <rendercallback name="GCopyFunc" render="1"/>
+    <rendercallback name="GDataForeachFunc" render="1"/>
+    <rendercallback name="GDestroyNotify" render="1"/>
+    <rendercallback name="GDuplicateFunc" render="1"/>
+    <rendercallback name="GEqualFunc" render="1"/>
+    <rendercallback name="GFreeFunc" render="1"/>
+    <rendercallback name="GFunc" render="1"/>
+    <rendercallback name="GHFunc" render="1"/>
+    <rendercallback name="GHRFunc" render="1"/>
+    <rendercallback name="GHashFunc" render="1"/>
+    <rendercallback name="GHookCheckFunc" render="1"/>
+    <rendercallback name="GHookCheckMarshaller" render="1"/>
+    <rendercallback name="GHookCompareFunc" render="1"/>
+    <rendercallback name="GHookFinalizeFunc" render="1"/>
+    <rendercallback name="GHookFindFunc" render="1"/>
+    <rendercallback name="GHookFunc" render="1"/>
+    <rendercallback name="GHookMarshaller" render="1"/>
+    <rendercallback name="GIOFunc" render="1"/>
+    <rendercallback name="GLogFunc" render="1"/>
+    <rendercallback name="GLogWriterFunc" render="1"/>
+    <rendercallback name="GNodeForeachFunc" render="1"/>
+    <rendercallback name="GNodeTraverseFunc" render="1"/>
+    <rendercallback name="GOptionArgFunc" render="1"/>
+    <rendercallback name="GOptionErrorFunc" render="1"/>
+    <rendercallback name="GOptionParseFunc" render="1"/>
+    <rendercallback name="GPollFunc" render="1"/>
+    <rendercallback name="GPrintFunc" render="1"/>
+    <rendercallback name="GRegexEvalCallback" render="1"/>
+    <rendercallback name="GScannerMsgFunc" render="1"/>
+    <rendercallback name="GSequenceIterCompareFunc" render="1"/>
+    <rendercallback name="GSourceDisposeFunc" render="1"/>
+    <rendercallback name="GSourceDummyMarshal" render="1"/>
+    <rendercallback name="GSourceFunc" render="1"/>
+    <rendercallback name="GSpawnChildSetupFunc" render="1"/>
+    <rendercallback name="GTestDataFunc" render="1"/>
+    <rendercallback name="GTestFixtureFunc" render="1"/>
+    <rendercallback name="GTestFunc" render="1"/>
+    <rendercallback name="GTestLogFatalFunc" render="1"/>
+    <rendercallback name="GThreadFunc" render="1"/>
+    <rendercallback name="GTranslateFunc" render="1"/>
+    <rendercallback name="GTraverseFunc" render="1"/>
+    <rendercallback name="GUnixFDSourceFunc" render="1"/>
+    <rendercallback name="GVoidFunc" render="1"/>
+  </ns>
+</rs>

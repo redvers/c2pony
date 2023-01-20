@@ -1,0 +1,1 @@
+use @g_object_add_toggle_ref[None](object': GObjectT, notify': GToggleNotify, data': Pointer[None] tag)

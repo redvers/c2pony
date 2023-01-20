@@ -1,0 +1,1 @@
+use @g_str_is_ascii[I32](str': Pointer[U8] tag)

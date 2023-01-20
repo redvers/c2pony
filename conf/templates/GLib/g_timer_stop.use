@@ -1,0 +1,1 @@
+use @g_timer_stop[None](timer': GTimerT)

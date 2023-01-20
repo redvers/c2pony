@@ -1,0 +1,1 @@
+use @g_sequence_move_range[None](dest': GSequenceNodeT, begin': GSequenceNodeT, end': GSequenceNodeT)

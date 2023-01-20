@@ -1,0 +1,1 @@
+use @g_type_module_register_enum[U64](module': GTypeModuleT, name': Pointer[U8] tag, const_static_values': GEnumValueT)

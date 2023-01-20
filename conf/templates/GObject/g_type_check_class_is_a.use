@@ -1,0 +1,1 @@
+use @g_type_check_class_is_a[I32](g_class': GTypeClassT, is_a_type': U64)

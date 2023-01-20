@@ -1,0 +1,1 @@
+use @g_variant_type_is_dict_entry[I32](type': GVariantTypeT)

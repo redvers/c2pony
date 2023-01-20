@@ -1,0 +1,5 @@
+struct GThreadT
+  var func': GThreadFunc = GThreadFunc
+  var data': Pointer[None] = Pointer[None]
+  var joinable': I32 = I32(0)
+  var priority': U32 = U32(0)

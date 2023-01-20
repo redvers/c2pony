@@ -1,0 +1,1 @@
+use @g_queue_free_full[None](queue': GQueueT, free_func': GDestroyNotify)

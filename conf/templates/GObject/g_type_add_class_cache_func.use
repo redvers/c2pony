@@ -1,0 +1,1 @@
+use @g_type_add_class_cache_func[None](cache_data': Pointer[None] tag, cache_func': GTypeClassCacheFunc)

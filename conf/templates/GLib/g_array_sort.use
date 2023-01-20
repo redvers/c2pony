@@ -1,0 +1,1 @@
+use @g_array_sort[None](array': GArrayT, compare_func': GCompareFunc)

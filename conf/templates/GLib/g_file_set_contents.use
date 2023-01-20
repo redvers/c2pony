@@ -1,0 +1,1 @@
+use @g_file_set_contents[I32](filename': Pointer[U8] tag, contents': Pointer[U8] tag, length': I64, error': Pointer[GErrorT])

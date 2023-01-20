@@ -1,0 +1,1 @@
+use @g_type_name_from_instance[Pointer[U8] tag](instance': GTypeInstanceT)

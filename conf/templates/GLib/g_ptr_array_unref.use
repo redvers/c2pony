@@ -1,0 +1,1 @@
+use @g_ptr_array_unref[None](array': GPtrArrayT)

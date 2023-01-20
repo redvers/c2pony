@@ -1,0 +1,1 @@
+use @g_dngettext[Pointer[U8] tag](domain': Pointer[U8] tag, msgid': Pointer[U8] tag, msgid_plural': Pointer[U8] tag, n': U64)

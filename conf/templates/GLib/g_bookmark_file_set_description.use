@@ -1,0 +1,1 @@
+use @g_bookmark_file_set_description[None](bookmark': GBookmarkFileT, uri': Pointer[U8] tag, description': Pointer[U8] tag)

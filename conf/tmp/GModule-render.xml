@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="GModule">
+    <renderstruct name="GModule" render="">
+      <rendermethod name="g_module_close" ponyname="close" render="" deprecated=""/>
+      <rendermethod name="g_module_make_resident" ponyname="make_resident" render="" deprecated=""/>
+      <rendermethod name="g_module_name" ponyname="name" render="" deprecated=""/>
+      <rendermethod name="g_module_symbol" ponyname="symbol" render="" deprecated=""/>
+      <renderfunction name="g_module_build_path" ponyname="build_path" render="" deprecated=""/>
+      <renderfunction name="g_module_error" ponyname="error" render="" deprecated=""/>
+      <renderfunction name="g_module_error_quark" ponyname="error_quark" render="" deprecated=""/>
+      <renderfunction name="g_module_open" ponyname="open" render="" deprecated=""/>
+      <renderfunction name="g_module_open_full" ponyname="open_full" render="" deprecated=""/>
+      <renderfunction name="g_module_supported" ponyname="supported" render="" deprecated=""/>
+    </renderstruct>
+    <rendercallback name="GModuleCheckInit" render="0"/>
+    <rendercallback name="GModuleUnload" render="0"/>
+  </ns>
+</rs>

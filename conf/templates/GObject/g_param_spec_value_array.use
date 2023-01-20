@@ -1,0 +1,1 @@
+use @g_param_spec_value_array[GParamSpecT](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, element_spec': GParamSpecT, flags': I32)

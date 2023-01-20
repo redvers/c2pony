@@ -1,0 +1,1 @@
+use @g_strrstr[Pointer[U8] tag](haystack': Pointer[U8] tag, needle': Pointer[U8] tag)

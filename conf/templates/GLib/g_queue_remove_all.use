@@ -1,0 +1,1 @@
+use @g_queue_remove_all[U32](queue': GQueueT, data': Pointer[None] tag)

@@ -1,0 +1,1 @@
+use @g_regex_get_pattern[Pointer[U8] tag](regex': GRegexT)

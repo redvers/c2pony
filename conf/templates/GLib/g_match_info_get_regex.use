@@ -1,0 +1,1 @@
+use @g_match_info_get_regex[GRegexT](match_info': GMatchInfoT)

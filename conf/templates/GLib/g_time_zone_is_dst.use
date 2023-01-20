@@ -1,0 +1,1 @@
+use @g_time_zone_is_dst[I32](tz': GTimeZoneT, interval': I32)

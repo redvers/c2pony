@@ -1,0 +1,1 @@
+use @g_cclosure_marshal_generic_va[None](closure': GClosureT, return_value': GValueT, instance': Pointer[None] tag, args_list': valisttagT, marshal_data': Pointer[None] tag, n_params': I32, param_types': Pointer[U64] tag)

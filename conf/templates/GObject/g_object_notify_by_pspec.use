@@ -1,0 +1,1 @@
+use @g_object_notify_by_pspec[None](object': GObjectT, pspec': GParamSpecT)

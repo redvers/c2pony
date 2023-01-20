@@ -1,0 +1,1 @@
+use @g_variant_parse[GVariantT](type': GVariantTypeT, text': Pointer[U8] tag, limit': Pointer[U8] tag, endptr': Pointer[Pointer[U8]] tag, error': Pointer[GErrorT])

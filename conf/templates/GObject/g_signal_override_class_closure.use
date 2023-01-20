@@ -1,0 +1,1 @@
+use @g_signal_override_class_closure[None](signal_id': U32, instance_type': U64, class_closure': GClosureT)

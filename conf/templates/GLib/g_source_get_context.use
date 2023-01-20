@@ -1,0 +1,1 @@
+use @g_source_get_context[GMainContextT](source': GSourceT)

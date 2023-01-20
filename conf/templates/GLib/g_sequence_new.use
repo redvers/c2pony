@@ -1,0 +1,1 @@
+use @g_sequence_new[GSequenceT](data_destroy': GDestroyNotify)

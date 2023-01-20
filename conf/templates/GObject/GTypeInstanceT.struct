@@ -1,0 +1,2 @@
+struct GTypeInstanceT
+  var g_class': GTypeClassT = GTypeClassT

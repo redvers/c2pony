@@ -1,0 +1,1 @@
+use @g_dataset_foreach[None](dataset_location': Pointer[None] tag, func': GDataForeachFunc, user_data': Pointer[None] tag)

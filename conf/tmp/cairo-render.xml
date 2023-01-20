@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="cairo">
+    <renderfunction name="cairo_image_surface_create" ponyname="image_surface_create" render="" deprecated=""/>
+    <renderstruct name="cairo_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_device_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_surface_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_matrix_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_pattern_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_region_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_font_options_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_font_face_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_scaled_font_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_path_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_rectangle_t" render="">
+</renderstruct>
+    <renderstruct name="cairo_rectangle_int_t" render="">
+</renderstruct>
+  </ns>
+</rs>

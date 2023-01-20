@@ -1,0 +1,1 @@
+use @g_object_set_qdata[None](object': GObjectT, quark': U32, data': Pointer[None] tag)

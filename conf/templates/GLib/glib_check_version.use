@@ -1,0 +1,1 @@
+use @glib_check_version[Pointer[U8] tag](required_major': U32, required_minor': U32, required_micro': U32)

@@ -1,0 +1,1 @@
+use @g_unichar_isdefined[I32](c': U32)

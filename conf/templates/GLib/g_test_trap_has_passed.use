@@ -1,0 +1,1 @@
+use @g_test_trap_has_passed[I32]()

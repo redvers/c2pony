@@ -1,0 +1,1 @@
+use @g_ref_string_new[Pointer[U8] tag](str': Pointer[U8] tag)

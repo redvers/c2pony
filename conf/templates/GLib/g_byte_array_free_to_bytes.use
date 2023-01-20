@@ -1,0 +1,1 @@
+use @g_byte_array_free_to_bytes[GBytesT](array': GByteArrayT)

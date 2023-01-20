@@ -1,0 +1,1 @@
+use @g_variant_dict_clear[None](dict': GVariantDictT)

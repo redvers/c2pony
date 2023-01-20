@@ -1,0 +1,1 @@
+use @g_quark_to_string[Pointer[U8] tag](quark': U32)

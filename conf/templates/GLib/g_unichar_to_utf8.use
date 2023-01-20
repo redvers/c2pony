@@ -1,0 +1,1 @@
+use @g_unichar_to_utf8[I32](c': U32, outbuf': Pointer[U8] tag)

@@ -1,0 +1,4 @@
+struct GPollFDT
+  var fd': I32 = I32(0)
+  var events': U16 = U16(0)
+  var revents': U16 = U16(0)

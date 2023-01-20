@@ -1,0 +1,1 @@
+use @g_type_default_interface_unref[None](g_iface': Pointer[None] tag)

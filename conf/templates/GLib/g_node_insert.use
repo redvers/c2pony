@@ -1,0 +1,1 @@
+use @g_node_insert[GNodeT](parent': GNodeT, position': I32, node': GNodeT)

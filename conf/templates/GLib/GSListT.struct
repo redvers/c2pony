@@ -1,0 +1,3 @@
+struct GSListT
+  var data': Pointer[None] = Pointer[None]
+  var next': GSListT = GSListT

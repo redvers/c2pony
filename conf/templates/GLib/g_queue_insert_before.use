@@ -1,0 +1,1 @@
+use @g_queue_insert_before[None](queue': GQueueT, sibling': GListT, data': Pointer[None] tag)

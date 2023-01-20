@@ -1,0 +1,1 @@
+use @g_queue_is_empty[I32](queue': GQueueT)

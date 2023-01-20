@@ -1,0 +1,1 @@
+use @g_ptr_array_new_full[GPtrArrayT](reserved_size': U32, element_free_func': GDestroyNotify)

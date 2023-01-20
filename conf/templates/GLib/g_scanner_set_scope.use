@@ -1,0 +1,1 @@
+use @g_scanner_set_scope[U32](scanner': GScannerT, scope_id': U32)

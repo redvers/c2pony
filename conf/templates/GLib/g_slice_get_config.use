@@ -1,0 +1,1 @@
+use @g_slice_get_config[I64](ckey': U32)

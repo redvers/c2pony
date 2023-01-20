@@ -1,0 +1,1 @@
+use @g_flags_get_first_value[GFlagsValueT](flags_class': GFlagsClassT, value': U32)

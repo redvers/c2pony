@@ -1,0 +1,1 @@
+use @g_variant_new_tuple[GVariantT](children': Pointer[GVariantT], n_children': U64)

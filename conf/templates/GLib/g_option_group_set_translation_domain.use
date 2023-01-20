@@ -1,0 +1,1 @@
+use @g_option_group_set_translation_domain[None](group': GOptionGroupT, domain': Pointer[U8] tag)

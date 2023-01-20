@@ -1,0 +1,1 @@
+use @g_closure_add_finalize_notifier[None](closure': GClosureT, notify_data': Pointer[None] tag, notify_func': GClosureNotify)

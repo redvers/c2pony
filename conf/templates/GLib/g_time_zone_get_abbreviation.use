@@ -1,0 +1,1 @@
+use @g_time_zone_get_abbreviation[Pointer[U8] tag](tz': GTimeZoneT, interval': I32)

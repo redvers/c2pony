@@ -1,0 +1,1 @@
+use @g_byte_array_set_size[GByteArrayT](array': GByteArrayT, length': U32)

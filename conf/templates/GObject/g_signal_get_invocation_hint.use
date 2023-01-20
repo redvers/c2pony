@@ -1,0 +1,1 @@
+use @g_signal_get_invocation_hint[GSignalInvocationHintT](instance': Pointer[None] tag)

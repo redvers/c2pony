@@ -1,0 +1,1 @@
+use @g_string_append_c[GStringT](string': GStringT, c': U8)

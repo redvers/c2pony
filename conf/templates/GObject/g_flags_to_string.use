@@ -1,0 +1,1 @@
+use @g_flags_to_string[Pointer[U8] tag](flags_type': U64, value': U32)

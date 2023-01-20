@@ -1,0 +1,1 @@
+use @g_malloc0[Pointer[None] tag](n_bytes': U64)

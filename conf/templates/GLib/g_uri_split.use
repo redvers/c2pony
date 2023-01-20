@@ -1,0 +1,1 @@
+use @g_uri_split[I32](uri_ref': Pointer[U8] tag, flags': U32, scheme': Pointer[Pointer[U8]] tag, userinfo': Pointer[Pointer[U8]] tag, host': Pointer[Pointer[U8]] tag, port': Pointer[I32] tag, path': Pointer[Pointer[U8]] tag, query': Pointer[Pointer[U8]] tag, fragment': Pointer[Pointer[U8]] tag, error': Pointer[GErrorT])

@@ -1,0 +1,1 @@
+use @g_atomic_pointer_and[U64](atomic': Pointer[None] tag, val': U64)

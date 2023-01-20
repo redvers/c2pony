@@ -1,0 +1,8 @@
+struct GOptionEntryT
+  var long_name': Pointer[U8] = Pointer[U8]
+  var short_name': U8 = U8(0)
+  var flags': I32 = I32(0)
+  var arg': U32 = U32(0)
+  var arg_data': Pointer[None] = Pointer[None]
+  var description': Pointer[U8] = Pointer[U8]
+  var arg_description': Pointer[U8] = Pointer[U8]

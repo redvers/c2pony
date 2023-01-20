@@ -1,0 +1,1 @@
+use @g_io_channel_read_unichar[U32](channel': GIOChannelT, thechar': Pointer[U32] tag, error': Pointer[GErrorT])

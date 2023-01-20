@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="PangoCairo">
+    <renderfunction name="pango_cairo_context_get_font_options" ponyname="context_get_font_options" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_context_get_resolution" ponyname="context_get_resolution" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_context_get_shape_renderer" ponyname="context_get_shape_renderer" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_context_set_font_options" ponyname="context_set_font_options" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_context_set_resolution" ponyname="context_set_resolution" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_context_set_shape_renderer" ponyname="context_set_shape_renderer" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_create_context" ponyname="create_context" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_create_layout" ponyname="create_layout" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_error_underline_path" ponyname="error_underline_path" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_glyph_string_path" ponyname="glyph_string_path" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_layout_line_path" ponyname="layout_line_path" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_layout_path" ponyname="layout_path" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_show_error_underline" ponyname="show_error_underline" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_show_glyph_item" ponyname="show_glyph_item" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_show_glyph_string" ponyname="show_glyph_string" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_show_layout" ponyname="show_layout" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_show_layout_line" ponyname="show_layout_line" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_update_context" ponyname="update_context" render="" deprecated=""/>
+    <renderfunction name="pango_cairo_update_layout" ponyname="update_layout" render="" deprecated=""/>
+    <renderinterface name="PangoCairoFont" render="">
+      <rendermethod name="pango_cairo_font_get_scaled_font" ponyname="get_scaled_font" render="" deprecated=""/>
+    </renderinterface>
+    <renderinterface name="PangoCairoFontMap" render="">
+      <rendermethod name="pango_cairo_font_map_create_context" ponyname="create_context" render="" deprecated="1"/>
+      <rendermethod name="pango_cairo_font_map_get_font_type" ponyname="get_font_type" render="" deprecated=""/>
+      <rendermethod name="pango_cairo_font_map_get_resolution" ponyname="get_resolution" render="" deprecated=""/>
+      <rendermethod name="pango_cairo_font_map_set_default" ponyname="set_default" render="" deprecated=""/>
+      <rendermethod name="pango_cairo_font_map_set_resolution" ponyname="set_resolution" render="" deprecated=""/>
+      <renderfunction name="pango_cairo_font_map_get_default" ponyname="get_default" render="" deprecated=""/>
+      <renderfunction name="pango_cairo_font_map_new" ponyname="new" render="" deprecated=""/>
+      <renderfunction name="pango_cairo_font_map_new_for_font_type" ponyname="new_for_font_type" render="" deprecated=""/>
+    </renderinterface>
+    <rendercallback name="PangoCairoShapeRendererFunc" render="0"/>
+  </ns>
+</rs>

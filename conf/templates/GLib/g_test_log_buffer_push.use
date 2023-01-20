@@ -1,0 +1,1 @@
+use @g_test_log_buffer_push[None](tbuffer': anon_2389, n_bytes': U32, bytes': Pointer[U8] tag)

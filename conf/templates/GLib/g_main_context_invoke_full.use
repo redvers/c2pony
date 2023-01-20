@@ -1,0 +1,1 @@
+use @g_main_context_invoke_full[None](context': GMainContextT, priority': I32, function': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify)

@@ -1,0 +1,532 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="Pango">
+    <renderfunction name="pango_attr_allow_breaks_new" ponyname="attr_allow_breaks_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_background_alpha_new" ponyname="attr_background_alpha_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_background_new" ponyname="attr_background_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_baseline_shift_new" ponyname="attr_baseline_shift_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_break" ponyname="attr_break" render="" deprecated=""/>
+    <renderfunction name="pango_attr_fallback_new" ponyname="attr_fallback_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_family_new" ponyname="attr_family_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_font_scale_new" ponyname="attr_font_scale_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_foreground_alpha_new" ponyname="attr_foreground_alpha_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_foreground_new" ponyname="attr_foreground_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_gravity_hint_new" ponyname="attr_gravity_hint_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_gravity_new" ponyname="attr_gravity_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_insert_hyphens_new" ponyname="attr_insert_hyphens_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_letter_spacing_new" ponyname="attr_letter_spacing_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_line_height_new" ponyname="attr_line_height_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_line_height_new_absolute" ponyname="attr_line_height_new_absolute" render="" deprecated=""/>
+    <renderfunction name="pango_attr_overline_color_new" ponyname="attr_overline_color_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_overline_new" ponyname="attr_overline_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_rise_new" ponyname="attr_rise_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_scale_new" ponyname="attr_scale_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_sentence_new" ponyname="attr_sentence_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_show_new" ponyname="attr_show_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_stretch_new" ponyname="attr_stretch_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_strikethrough_color_new" ponyname="attr_strikethrough_color_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_strikethrough_new" ponyname="attr_strikethrough_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_style_new" ponyname="attr_style_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_text_transform_new" ponyname="attr_text_transform_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_underline_color_new" ponyname="attr_underline_color_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_underline_new" ponyname="attr_underline_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_variant_new" ponyname="attr_variant_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_weight_new" ponyname="attr_weight_new" render="" deprecated=""/>
+    <renderfunction name="pango_attr_word_new" ponyname="attr_word_new" render="" deprecated=""/>
+    <renderfunction name="pango_break" ponyname="break" render="" deprecated="1"/>
+    <renderfunction name="pango_default_break" ponyname="default_break" render="" deprecated=""/>
+    <renderfunction name="pango_extents_to_pixels" ponyname="extents_to_pixels" render="" deprecated=""/>
+    <renderfunction name="pango_find_base_dir" ponyname="find_base_dir" render="" deprecated=""/>
+    <renderfunction name="pango_find_paragraph_boundary" ponyname="find_paragraph_boundary" render="" deprecated=""/>
+    <renderfunction name="pango_get_log_attrs" ponyname="get_log_attrs" render="" deprecated=""/>
+    <renderfunction name="pango_get_mirror_char" ponyname="get_mirror_char" render="" deprecated="1"/>
+    <renderfunction name="pango_is_zero_width" ponyname="is_zero_width" render="" deprecated=""/>
+    <renderfunction name="pango_itemize" ponyname="itemize" render="" deprecated=""/>
+    <renderfunction name="pango_itemize_with_base_dir" ponyname="itemize_with_base_dir" render="" deprecated=""/>
+    <renderfunction name="pango_log2vis_get_embedding_levels" ponyname="log2vis_get_embedding_levels" render="" deprecated=""/>
+    <renderfunction name="pango_markup_parser_finish" ponyname="markup_parser_finish" render="" deprecated=""/>
+    <renderfunction name="pango_markup_parser_new" ponyname="markup_parser_new" render="" deprecated=""/>
+    <renderfunction name="pango_parse_enum" ponyname="parse_enum" render="" deprecated="1"/>
+    <renderfunction name="pango_parse_markup" ponyname="parse_markup" render="" deprecated=""/>
+    <renderfunction name="pango_parse_stretch" ponyname="parse_stretch" render="" deprecated=""/>
+    <renderfunction name="pango_parse_style" ponyname="parse_style" render="" deprecated=""/>
+    <renderfunction name="pango_parse_variant" ponyname="parse_variant" render="" deprecated=""/>
+    <renderfunction name="pango_parse_weight" ponyname="parse_weight" render="" deprecated=""/>
+    <renderfunction name="pango_quantize_line_geometry" ponyname="quantize_line_geometry" render="" deprecated=""/>
+    <renderfunction name="pango_read_line" ponyname="read_line" render="" deprecated="1"/>
+    <renderfunction name="pango_reorder_items" ponyname="reorder_items" render="" deprecated=""/>
+    <renderfunction name="pango_scan_int" ponyname="scan_int" render="" deprecated="1"/>
+    <renderfunction name="pango_scan_string" ponyname="scan_string" render="" deprecated="1"/>
+    <renderfunction name="pango_scan_word" ponyname="scan_word" render="" deprecated="1"/>
+    <renderfunction name="pango_shape" ponyname="shape" render="" deprecated=""/>
+    <renderfunction name="pango_shape_full" ponyname="shape_full" render="" deprecated=""/>
+    <renderfunction name="pango_shape_item" ponyname="shape_item" render="" deprecated=""/>
+    <renderfunction name="pango_shape_with_flags" ponyname="shape_with_flags" render="" deprecated=""/>
+    <renderfunction name="pango_skip_space" ponyname="skip_space" render="" deprecated="1"/>
+    <renderfunction name="pango_split_file_list" ponyname="split_file_list" render="" deprecated="1"/>
+    <renderfunction name="pango_tailor_break" ponyname="tailor_break" render="" deprecated=""/>
+    <renderfunction name="pango_trim_string" ponyname="trim_string" render="" deprecated="1"/>
+    <renderfunction name="pango_unichar_direction" ponyname="unichar_direction" render="" deprecated=""/>
+    <renderfunction name="pango_units_from_double" ponyname="units_from_double" render="" deprecated=""/>
+    <renderfunction name="pango_units_to_double" ponyname="units_to_double" render="" deprecated=""/>
+    <renderfunction name="pango_version" ponyname="version" render="" deprecated=""/>
+    <renderfunction name="pango_version_check" ponyname="version_check" render="" deprecated=""/>
+    <renderfunction name="pango_version_string" ponyname="version_string" render="" deprecated=""/>
+    <renderstruct name="PangoAnalysis" render="">
+</renderstruct>
+    <renderstruct name="PangoAttrClass" render="">
+</renderstruct>
+    <renderstruct name="PangoAttrColor" render="">
+</renderstruct>
+    <renderstruct name="PangoAttrFloat" render="">
+</renderstruct>
+    <renderstruct name="PangoAttrFontDesc" render="">
+      <renderfunction name="pango_attr_font_desc_new" ponyname="new" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoAttrFontFeatures" render="">
+      <renderfunction name="pango_attr_font_features_new" ponyname="new" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoAttrInt" render="">
+</renderstruct>
+    <renderstruct name="PangoAttrIterator" render="">
+      <rendermethod name="pango_attr_iterator_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_attr_iterator_destroy" ponyname="destroy" render="" deprecated=""/>
+      <rendermethod name="pango_attr_iterator_get" ponyname="get" render="" deprecated=""/>
+      <rendermethod name="pango_attr_iterator_get_attrs" ponyname="get_attrs" render="" deprecated=""/>
+      <rendermethod name="pango_attr_iterator_get_font" ponyname="get_font" render="" deprecated=""/>
+      <rendermethod name="pango_attr_iterator_next" ponyname="next" render="" deprecated=""/>
+      <rendermethod name="pango_attr_iterator_range" ponyname="range" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoAttrLanguage" render="">
+      <renderfunction name="pango_attr_language_new" ponyname="new" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoAttrList" render="">
+      <renderconstructor name="pango_attr_list_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_change" ponyname="change" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_filter" ponyname="filter" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_get_attributes" ponyname="get_attributes" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_get_iterator" ponyname="get_iterator" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_insert" ponyname="insert" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_insert_before" ponyname="insert_before" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_splice" ponyname="splice" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_to_string" ponyname="to_string" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_unref" ponyname="unref" render="" deprecated=""/>
+      <rendermethod name="pango_attr_list_update" ponyname="update" render="" deprecated=""/>
+      <renderfunction name="pango_attr_list_from_string" ponyname="from_string" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoAttrShape" render="">
+      <renderfunction name="pango_attr_shape_new" ponyname="new" render="" deprecated=""/>
+      <renderfunction name="pango_attr_shape_new_with_data" ponyname="new_with_data" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoAttrSize" render="">
+      <renderfunction name="pango_attr_size_new" ponyname="new" render="" deprecated=""/>
+      <renderfunction name="pango_attr_size_new_absolute" ponyname="new_absolute" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoAttrString" render="">
+</renderstruct>
+    <renderstruct name="PangoAttribute" render="">
+      <rendermethod name="pango_attribute_as_color" ponyname="as_color" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_as_float" ponyname="as_float" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_as_font_desc" ponyname="as_font_desc" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_as_font_features" ponyname="as_font_features" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_as_int" ponyname="as_int" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_as_language" ponyname="as_language" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_as_shape" ponyname="as_shape" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_as_size" ponyname="as_size" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_as_string" ponyname="as_string" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_destroy" ponyname="destroy" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="pango_attribute_init" ponyname="init" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoColor" render="">
+      <rendermethod name="pango_color_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_color_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_color_parse" ponyname="parse" render="" deprecated=""/>
+      <rendermethod name="pango_color_parse_with_alpha" ponyname="parse_with_alpha" render="" deprecated=""/>
+      <rendermethod name="pango_color_to_string" ponyname="to_string" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoContextClass" render="">
+</renderstruct>
+    <renderstruct name="PangoFontClass" render="">
+</renderstruct>
+    <renderstruct name="PangoFontDescription" render="">
+      <renderconstructor name="pango_font_description_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_better_match" ponyname="better_match" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_copy_static" ponyname="copy_static" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_family" ponyname="get_family" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_gravity" ponyname="get_gravity" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_set_fields" ponyname="get_set_fields" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_size" ponyname="get_size" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_size_is_absolute" ponyname="get_size_is_absolute" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_stretch" ponyname="get_stretch" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_style" ponyname="get_style" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_variant" ponyname="get_variant" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_variations" ponyname="get_variations" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_get_weight" ponyname="get_weight" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_hash" ponyname="hash" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_merge" ponyname="merge" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_merge_static" ponyname="merge_static" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_absolute_size" ponyname="set_absolute_size" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_family" ponyname="set_family" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_family_static" ponyname="set_family_static" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_gravity" ponyname="set_gravity" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_size" ponyname="set_size" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_stretch" ponyname="set_stretch" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_style" ponyname="set_style" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_variant" ponyname="set_variant" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_variations" ponyname="set_variations" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_variations_static" ponyname="set_variations_static" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_set_weight" ponyname="set_weight" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_to_filename" ponyname="to_filename" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_to_string" ponyname="to_string" render="" deprecated=""/>
+      <rendermethod name="pango_font_description_unset_fields" ponyname="unset_fields" render="" deprecated=""/>
+      <renderfunction name="pango_font_description_from_string" ponyname="from_string" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoFontFaceClass" render="">
+</renderstruct>
+    <renderstruct name="PangoFontFamilyClass" render="">
+</renderstruct>
+    <renderstruct name="PangoFontMapClass" render="">
+</renderstruct>
+    <renderstruct name="PangoFontMetrics" render="">
+      <rendermethod name="pango_font_metrics_get_approximate_char_width" ponyname="get_approximate_char_width" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_get_approximate_digit_width" ponyname="get_approximate_digit_width" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_get_ascent" ponyname="get_ascent" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_get_descent" ponyname="get_descent" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_get_height" ponyname="get_height" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_get_strikethrough_position" ponyname="get_strikethrough_position" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_get_strikethrough_thickness" ponyname="get_strikethrough_thickness" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_get_underline_position" ponyname="get_underline_position" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_get_underline_thickness" ponyname="get_underline_thickness" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="pango_font_metrics_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoFontsetClass" render="">
+</renderstruct>
+    <renderstruct name="PangoFontsetSimpleClass" render="">
+</renderstruct>
+    <renderstruct name="PangoGlyphGeometry" render="">
+</renderstruct>
+    <renderstruct name="PangoGlyphInfo" render="">
+</renderstruct>
+    <renderstruct name="PangoGlyphItem" render="">
+      <rendermethod name="pango_glyph_item_apply_attrs" ponyname="apply_attrs" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_get_logical_widths" ponyname="get_logical_widths" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_letter_space" ponyname="letter_space" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_split" ponyname="split" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoGlyphItemIter" render="">
+      <rendermethod name="pango_glyph_item_iter_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_iter_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_iter_init_end" ponyname="init_end" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_iter_init_start" ponyname="init_start" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_iter_next_cluster" ponyname="next_cluster" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_item_iter_prev_cluster" ponyname="prev_cluster" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoGlyphString" render="">
+      <renderconstructor name="pango_glyph_string_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_extents" ponyname="extents" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_extents_range" ponyname="extents_range" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_get_logical_widths" ponyname="get_logical_widths" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_get_width" ponyname="get_width" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_index_to_x" ponyname="index_to_x" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_index_to_x_full" ponyname="index_to_x_full" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_set_size" ponyname="set_size" render="" deprecated=""/>
+      <rendermethod name="pango_glyph_string_x_to_index" ponyname="x_to_index" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoGlyphVisAttr" render="">
+</renderstruct>
+    <renderstruct name="PangoItem" render="">
+      <renderconstructor name="pango_item_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="pango_item_apply_attrs" ponyname="apply_attrs" render="" deprecated=""/>
+      <rendermethod name="pango_item_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_item_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_item_split" ponyname="split" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoLanguage" render="">
+      <rendermethod name="pango_language_get_sample_string" ponyname="get_sample_string" render="" deprecated=""/>
+      <rendermethod name="pango_language_get_scripts" ponyname="get_scripts" render="" deprecated=""/>
+      <rendermethod name="pango_language_includes_script" ponyname="includes_script" render="" deprecated=""/>
+      <rendermethod name="pango_language_matches" ponyname="matches" render="" deprecated=""/>
+      <rendermethod name="pango_language_to_string" ponyname="to_string" render="" deprecated=""/>
+      <renderfunction name="pango_language_from_string" ponyname="from_string" render="" deprecated=""/>
+      <renderfunction name="pango_language_get_default" ponyname="get_default" render="" deprecated=""/>
+      <renderfunction name="pango_language_get_preferred" ponyname="get_preferred" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoLayoutClass" render="">
+</renderstruct>
+    <renderstruct name="PangoLayoutIter" render="">
+      <rendermethod name="pango_layout_iter_at_last_line" ponyname="at_last_line" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_baseline" ponyname="get_baseline" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_char_extents" ponyname="get_char_extents" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_cluster_extents" ponyname="get_cluster_extents" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_index" ponyname="get_index" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_layout" ponyname="get_layout" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_layout_extents" ponyname="get_layout_extents" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_line" ponyname="get_line" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_line_extents" ponyname="get_line_extents" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_line_readonly" ponyname="get_line_readonly" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_line_yrange" ponyname="get_line_yrange" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_run" ponyname="get_run" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_run_baseline" ponyname="get_run_baseline" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_run_extents" ponyname="get_run_extents" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_get_run_readonly" ponyname="get_run_readonly" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_next_char" ponyname="next_char" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_next_cluster" ponyname="next_cluster" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_next_line" ponyname="next_line" render="" deprecated=""/>
+      <rendermethod name="pango_layout_iter_next_run" ponyname="next_run" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoLayoutLine" render="">
+      <rendermethod name="pango_layout_line_get_extents" ponyname="get_extents" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_get_height" ponyname="get_height" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_get_length" ponyname="get_length" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_get_pixel_extents" ponyname="get_pixel_extents" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_get_resolved_direction" ponyname="get_resolved_direction" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_get_start_index" ponyname="get_start_index" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_get_x_ranges" ponyname="get_x_ranges" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_index_to_x" ponyname="index_to_x" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_is_paragraph_start" ponyname="is_paragraph_start" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_unref" ponyname="unref" render="" deprecated=""/>
+      <rendermethod name="pango_layout_line_x_to_index" ponyname="x_to_index" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoLogAttr" render="">
+</renderstruct>
+    <renderstruct name="PangoMatrix" render="">
+      <rendermethod name="pango_matrix_concat" ponyname="concat" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_get_font_scale_factor" ponyname="get_font_scale_factor" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_get_font_scale_factors" ponyname="get_font_scale_factors" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_get_slant_ratio" ponyname="get_slant_ratio" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_rotate" ponyname="rotate" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_scale" ponyname="scale" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_transform_distance" ponyname="transform_distance" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_transform_pixel_rectangle" ponyname="transform_pixel_rectangle" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_transform_point" ponyname="transform_point" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_transform_rectangle" ponyname="transform_rectangle" render="" deprecated=""/>
+      <rendermethod name="pango_matrix_translate" ponyname="translate" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoRectangle" render="">
+</renderstruct>
+    <renderstruct name="PangoRendererClass" render="">
+</renderstruct>
+    <renderstruct name="PangoRendererPrivate" render="">
+</renderstruct>
+    <renderstruct name="PangoScriptIter" render="">
+      <renderconstructor name="pango_script_iter_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="pango_script_iter_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_script_iter_get_range" ponyname="get_range" render="" deprecated=""/>
+      <rendermethod name="pango_script_iter_next" ponyname="next" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="PangoTabArray" render="">
+      <renderconstructor name="pango_tab_array_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="pango_tab_array_new_with_positions" ponyname="new_with_positions" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_get_decimal_point" ponyname="get_decimal_point" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_get_positions_in_pixels" ponyname="get_positions_in_pixels" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_get_size" ponyname="get_size" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_get_tab" ponyname="get_tab" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_get_tabs" ponyname="get_tabs" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_resize" ponyname="resize" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_set_decimal_point" ponyname="set_decimal_point" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_set_positions_in_pixels" ponyname="set_positions_in_pixels" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_set_tab" ponyname="set_tab" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_sort" ponyname="sort" render="" deprecated=""/>
+      <rendermethod name="pango_tab_array_to_string" ponyname="to_string" render="" deprecated=""/>
+      <renderfunction name="pango_tab_array_from_string" ponyname="from_string" render="" deprecated=""/>
+    </renderstruct>
+    <renderclass name="PangoContext" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="pango_context_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="pango_context_changed" ponyname="changed" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_base_dir" ponyname="get_base_dir" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_base_gravity" ponyname="get_base_gravity" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_font_description" ponyname="get_font_description" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_font_map" ponyname="get_font_map" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_gravity" ponyname="get_gravity" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_gravity_hint" ponyname="get_gravity_hint" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_language" ponyname="get_language" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_matrix" ponyname="get_matrix" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_metrics" ponyname="get_metrics" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_round_glyph_positions" ponyname="get_round_glyph_positions" render="" deprecated=""/>
+      <rendermethod name="pango_context_get_serial" ponyname="get_serial" render="" deprecated=""/>
+      <rendermethod name="pango_context_list_families" ponyname="list_families" render="" deprecated=""/>
+      <rendermethod name="pango_context_load_font" ponyname="load_font" render="" deprecated=""/>
+      <rendermethod name="pango_context_load_fontset" ponyname="load_fontset" render="" deprecated=""/>
+      <rendermethod name="pango_context_set_base_dir" ponyname="set_base_dir" render="" deprecated=""/>
+      <rendermethod name="pango_context_set_base_gravity" ponyname="set_base_gravity" render="" deprecated=""/>
+      <rendermethod name="pango_context_set_font_description" ponyname="set_font_description" render="" deprecated=""/>
+      <rendermethod name="pango_context_set_font_map" ponyname="set_font_map" render="" deprecated=""/>
+      <rendermethod name="pango_context_set_gravity_hint" ponyname="set_gravity_hint" render="" deprecated=""/>
+      <rendermethod name="pango_context_set_language" ponyname="set_language" render="" deprecated=""/>
+      <rendermethod name="pango_context_set_matrix" ponyname="set_matrix" render="" deprecated=""/>
+      <rendermethod name="pango_context_set_round_glyph_positions" ponyname="set_round_glyph_positions" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="PangoCoverage" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="pango_coverage_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="pango_coverage_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_coverage_get" ponyname="get" render="" deprecated=""/>
+      <rendermethod name="pango_coverage_max" ponyname="max" render="" deprecated="1"/>
+      <rendermethod name="pango_coverage_ref" ponyname="ref" render="" deprecated="1"/>
+      <rendermethod name="pango_coverage_set" ponyname="set" render="" deprecated=""/>
+      <rendermethod name="pango_coverage_to_bytes" ponyname="to_bytes" render="" deprecated="1"/>
+      <rendermethod name="pango_coverage_unref" ponyname="unref" render="" deprecated="1"/>
+      <renderfunction name="pango_coverage_from_bytes" ponyname="from_bytes" render="" deprecated="1"/>
+    </renderclass>
+    <renderclass name="PangoFont" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="pango_font_describe" ponyname="describe" render="" deprecated=""/>
+      <rendermethod name="pango_font_describe_with_absolute_size" ponyname="describe_with_absolute_size" render="" deprecated=""/>
+      <rendermethod name="pango_font_get_coverage" ponyname="get_coverage" render="" deprecated=""/>
+      <rendermethod name="pango_font_get_face" ponyname="get_face" render="" deprecated=""/>
+      <rendermethod name="pango_font_get_features" ponyname="get_features" render="" deprecated=""/>
+      <rendermethod name="pango_font_get_font_map" ponyname="get_font_map" render="" deprecated=""/>
+      <rendermethod name="pango_font_get_glyph_extents" ponyname="get_glyph_extents" render="" deprecated=""/>
+      <rendermethod name="pango_font_get_hb_font" ponyname="get_hb_font" render="" deprecated=""/>
+      <rendermethod name="pango_font_get_languages" ponyname="get_languages" render="" deprecated=""/>
+      <rendermethod name="pango_font_get_metrics" ponyname="get_metrics" render="" deprecated=""/>
+      <rendermethod name="pango_font_has_char" ponyname="has_char" render="" deprecated=""/>
+      <rendermethod name="pango_font_serialize" ponyname="serialize" render="" deprecated=""/>
+      <renderfunction name="pango_font_descriptions_free" ponyname="descriptions_free" render="" deprecated=""/>
+      <renderfunction name="pango_font_deserialize" ponyname="deserialize" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="PangoFontFace" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="pango_font_face_describe" ponyname="describe" render="" deprecated=""/>
+      <rendermethod name="pango_font_face_get_face_name" ponyname="get_face_name" render="" deprecated=""/>
+      <rendermethod name="pango_font_face_get_family" ponyname="get_family" render="" deprecated=""/>
+      <rendermethod name="pango_font_face_is_synthesized" ponyname="is_synthesized" render="" deprecated=""/>
+      <rendermethod name="pango_font_face_list_sizes" ponyname="list_sizes" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="PangoFontFamily" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="pango_font_family_get_face" ponyname="get_face" render="" deprecated=""/>
+      <rendermethod name="pango_font_family_get_name" ponyname="get_name" render="" deprecated=""/>
+      <rendermethod name="pango_font_family_is_monospace" ponyname="is_monospace" render="" deprecated=""/>
+      <rendermethod name="pango_font_family_is_variable" ponyname="is_variable" render="" deprecated=""/>
+      <rendermethod name="pango_font_family_list_faces" ponyname="list_faces" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="PangoFontMap" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="pango_font_map_changed" ponyname="changed" render="" deprecated=""/>
+      <rendermethod name="pango_font_map_create_context" ponyname="create_context" render="" deprecated=""/>
+      <rendermethod name="pango_font_map_get_family" ponyname="get_family" render="" deprecated=""/>
+      <rendermethod name="pango_font_map_get_serial" ponyname="get_serial" render="" deprecated=""/>
+      <rendermethod name="pango_font_map_list_families" ponyname="list_families" render="" deprecated=""/>
+      <rendermethod name="pango_font_map_load_font" ponyname="load_font" render="" deprecated=""/>
+      <rendermethod name="pango_font_map_load_fontset" ponyname="load_fontset" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="PangoFontset" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="pango_fontset_foreach" ponyname="foreach" render="" deprecated=""/>
+      <rendermethod name="pango_fontset_get_font" ponyname="get_font" render="" deprecated=""/>
+      <rendermethod name="pango_fontset_get_metrics" ponyname="get_metrics" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="PangoFontsetSimple" render="" parent="Fontset" abstract="" final="" fundamental="">
+      <renderconstructor name="pango_fontset_simple_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="pango_fontset_simple_append" ponyname="append" render="" deprecated=""/>
+      <rendermethod name="pango_fontset_simple_size" ponyname="size" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="PangoLayout" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="pango_layout_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="pango_layout_context_changed" ponyname="context_changed" render="" deprecated=""/>
+      <rendermethod name="pango_layout_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_alignment" ponyname="get_alignment" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_attributes" ponyname="get_attributes" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_auto_dir" ponyname="get_auto_dir" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_baseline" ponyname="get_baseline" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_caret_pos" ponyname="get_caret_pos" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_character_count" ponyname="get_character_count" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_context" ponyname="get_context" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_cursor_pos" ponyname="get_cursor_pos" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_direction" ponyname="get_direction" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_ellipsize" ponyname="get_ellipsize" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_extents" ponyname="get_extents" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_font_description" ponyname="get_font_description" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_height" ponyname="get_height" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_indent" ponyname="get_indent" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_iter" ponyname="get_iter" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_justify" ponyname="get_justify" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_justify_last_line" ponyname="get_justify_last_line" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_line" ponyname="get_line" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_line_count" ponyname="get_line_count" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_line_readonly" ponyname="get_line_readonly" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_line_spacing" ponyname="get_line_spacing" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_lines" ponyname="get_lines" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_lines_readonly" ponyname="get_lines_readonly" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_log_attrs" ponyname="get_log_attrs" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_log_attrs_readonly" ponyname="get_log_attrs_readonly" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_pixel_extents" ponyname="get_pixel_extents" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_pixel_size" ponyname="get_pixel_size" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_serial" ponyname="get_serial" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_single_paragraph_mode" ponyname="get_single_paragraph_mode" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_size" ponyname="get_size" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_spacing" ponyname="get_spacing" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_tabs" ponyname="get_tabs" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_text" ponyname="get_text" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_unknown_glyphs_count" ponyname="get_unknown_glyphs_count" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_width" ponyname="get_width" render="" deprecated=""/>
+      <rendermethod name="pango_layout_get_wrap" ponyname="get_wrap" render="" deprecated=""/>
+      <rendermethod name="pango_layout_index_to_line_x" ponyname="index_to_line_x" render="" deprecated=""/>
+      <rendermethod name="pango_layout_index_to_pos" ponyname="index_to_pos" render="" deprecated=""/>
+      <rendermethod name="pango_layout_is_ellipsized" ponyname="is_ellipsized" render="" deprecated=""/>
+      <rendermethod name="pango_layout_is_wrapped" ponyname="is_wrapped" render="" deprecated=""/>
+      <rendermethod name="pango_layout_move_cursor_visually" ponyname="move_cursor_visually" render="" deprecated=""/>
+      <rendermethod name="pango_layout_serialize" ponyname="serialize" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_alignment" ponyname="set_alignment" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_attributes" ponyname="set_attributes" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_auto_dir" ponyname="set_auto_dir" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_ellipsize" ponyname="set_ellipsize" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_font_description" ponyname="set_font_description" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_height" ponyname="set_height" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_indent" ponyname="set_indent" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_justify" ponyname="set_justify" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_justify_last_line" ponyname="set_justify_last_line" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_line_spacing" ponyname="set_line_spacing" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_markup" ponyname="set_markup" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_markup_with_accel" ponyname="set_markup_with_accel" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_single_paragraph_mode" ponyname="set_single_paragraph_mode" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_spacing" ponyname="set_spacing" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_tabs" ponyname="set_tabs" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_text" ponyname="set_text" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_width" ponyname="set_width" render="" deprecated=""/>
+      <rendermethod name="pango_layout_set_wrap" ponyname="set_wrap" render="" deprecated=""/>
+      <rendermethod name="pango_layout_write_to_file" ponyname="write_to_file" render="" deprecated=""/>
+      <rendermethod name="pango_layout_xy_to_index" ponyname="xy_to_index" render="" deprecated=""/>
+      <renderfunction name="pango_layout_deserialize" ponyname="deserialize" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="PangoRenderer" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="pango_renderer_activate" ponyname="activate" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_deactivate" ponyname="deactivate" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_draw_error_underline" ponyname="draw_error_underline" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_draw_glyph" ponyname="draw_glyph" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_draw_glyph_item" ponyname="draw_glyph_item" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_draw_glyphs" ponyname="draw_glyphs" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_draw_layout" ponyname="draw_layout" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_draw_layout_line" ponyname="draw_layout_line" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_draw_rectangle" ponyname="draw_rectangle" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_draw_trapezoid" ponyname="draw_trapezoid" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_get_alpha" ponyname="get_alpha" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_get_color" ponyname="get_color" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_get_layout" ponyname="get_layout" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_get_layout_line" ponyname="get_layout_line" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_get_matrix" ponyname="get_matrix" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_part_changed" ponyname="part_changed" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_set_alpha" ponyname="set_alpha" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_set_color" ponyname="set_color" render="" deprecated=""/>
+      <rendermethod name="pango_renderer_set_matrix" ponyname="set_matrix" render="" deprecated=""/>
+    </renderclass>
+    <rendercallback name="PangoAttrDataCopyFunc" render="0"/>
+    <rendercallback name="PangoAttrFilterFunc" render="0"/>
+    <rendercallback name="PangoFontsetForeachFunc" render="0"/>
+  </ns>
+</rs>

@@ -1,0 +1,1 @@
+use @g_byte_array_append[GByteArrayT](array': GByteArrayT, data': Pointer[U8] tag, len': U32)

@@ -1,0 +1,1 @@
+use @g_value_set_interned_string[None](value': GValueT, v_string': Pointer[U8] tag)

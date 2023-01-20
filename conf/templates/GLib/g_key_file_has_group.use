@@ -1,0 +1,1 @@
+use @g_key_file_has_group[I32](key_file': GKeyFileT, group_name': Pointer[U8] tag)

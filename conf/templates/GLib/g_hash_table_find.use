@@ -1,0 +1,1 @@
+use @g_hash_table_find[Pointer[None] tag](hash_table': GHashTableT, predicate': GHRFunc, user_data': Pointer[None] tag)

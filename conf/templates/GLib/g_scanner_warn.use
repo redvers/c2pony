@@ -1,0 +1,1 @@
+use @g_scanner_warn[None](scanner': GScannerT, format': Pointer[U8] tag, ...)

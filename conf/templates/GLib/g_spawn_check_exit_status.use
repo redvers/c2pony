@@ -1,0 +1,1 @@
+use @g_spawn_check_exit_status[I32](wait_status': I32, error': Pointer[GErrorT])

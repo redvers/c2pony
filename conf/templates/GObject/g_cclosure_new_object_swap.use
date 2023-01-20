@@ -1,0 +1,1 @@
+use @g_cclosure_new_object_swap[GClosureT](callback_func': GCallback, object': GObjectT)

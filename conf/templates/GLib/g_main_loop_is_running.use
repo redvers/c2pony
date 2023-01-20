@@ -1,0 +1,1 @@
+use @g_main_loop_is_running[I32](loop': GMainLoopT)

@@ -1,0 +1,1 @@
+use @g_hook_find_func_data[GHookT](hook_list': GHookListT, need_valids': I32, func': Pointer[None] tag, data': Pointer[None] tag)

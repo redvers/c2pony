@@ -1,0 +1,1 @@
+use @g_array_remove_range[GArrayT](array': GArrayT, index': U32, length': U32)

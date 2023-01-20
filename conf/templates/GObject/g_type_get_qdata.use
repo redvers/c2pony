@@ -1,0 +1,1 @@
+use @g_type_get_qdata[Pointer[None] tag](type': U64, quark': U32)

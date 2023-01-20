@@ -1,0 +1,1 @@
+use @g_hook_list_marshal[None](hook_list': GHookListT, may_recurse': I32, marshaller': GHookMarshaller, marshal_data': Pointer[None] tag)

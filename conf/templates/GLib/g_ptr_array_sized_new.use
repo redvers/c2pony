@@ -1,0 +1,1 @@
+use @g_ptr_array_sized_new[GPtrArrayT](reserved_size': U32)

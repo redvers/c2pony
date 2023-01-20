@@ -1,0 +1,3 @@
+struct GObjectConstructParamT
+  var pspec': GParamSpecT = GParamSpecT
+  var value': GValueT = GValueT

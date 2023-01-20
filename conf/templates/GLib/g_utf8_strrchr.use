@@ -1,0 +1,1 @@
+use @g_utf8_strrchr[Pointer[U8] tag](p': Pointer[U8] tag, len': I64, c': U32)

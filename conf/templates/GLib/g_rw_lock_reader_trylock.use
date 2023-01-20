@@ -1,0 +1,1 @@
+use @g_rw_lock_reader_trylock[I32](rw_lock': GRWLockT)

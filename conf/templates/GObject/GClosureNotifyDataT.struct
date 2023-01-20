@@ -1,0 +1,3 @@
+struct GClosureNotifyDataT
+  var data': Pointer[None] = Pointer[None]
+  var notify': GClosureNotify = GClosureNotify

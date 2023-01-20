@@ -1,0 +1,1 @@
+use @g_ptr_array_steal_index[Pointer[None] tag](array': GPtrArrayT, index': U32)

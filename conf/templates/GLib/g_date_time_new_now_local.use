@@ -1,0 +1,1 @@
+use @g_date_time_new_now_local[GDateTimeT]()

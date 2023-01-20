@@ -1,0 +1,1 @@
+use @g_sequence_iter_move[GSequenceNodeT](iter': GSequenceNodeT, delta': I32)

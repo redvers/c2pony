@@ -1,0 +1,1 @@
+use @g_value_array_get_nth[GValueT](value_array': GValueArrayT, index': U32)

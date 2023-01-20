@@ -1,0 +1,1 @@
+use @g_string_insert_unichar[GStringT](string': GStringT, pos': I64, wc': U32)

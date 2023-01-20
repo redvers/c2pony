@@ -1,0 +1,1 @@
+use @g_string_chunk_insert_const[Pointer[U8] tag](chunk': GStringChunkT, string': Pointer[U8] tag)

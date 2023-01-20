@@ -1,0 +1,1 @@
+use @g_propagate_prefixed_error[None](dest': Pointer[GErrorT], src': GErrorT, format': Pointer[U8] tag, ...)

@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="Graphene">
+    <renderstruct name="graphene_box_t" render="">
+      <renderconstructor name="graphene_box_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_box_contains_box" ponyname="contains_box" render="" deprecated=""/>
+      <rendermethod name="graphene_box_contains_point" ponyname="contains_point" render="" deprecated=""/>
+      <rendermethod name="graphene_box_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_box_expand" ponyname="expand" render="" deprecated=""/>
+      <rendermethod name="graphene_box_expand_scalar" ponyname="expand_scalar" render="" deprecated=""/>
+      <rendermethod name="graphene_box_expand_vec3" ponyname="expand_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_box_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_box_get_bounding_sphere" ponyname="get_bounding_sphere" render="" deprecated=""/>
+      <rendermethod name="graphene_box_get_center" ponyname="get_center" render="" deprecated=""/>
+      <rendermethod name="graphene_box_get_depth" ponyname="get_depth" render="" deprecated=""/>
+      <rendermethod name="graphene_box_get_height" ponyname="get_height" render="" deprecated=""/>
+      <rendermethod name="graphene_box_get_max" ponyname="get_max" render="" deprecated=""/>
+      <rendermethod name="graphene_box_get_min" ponyname="get_min" render="" deprecated=""/>
+      <rendermethod name="graphene_box_get_size" ponyname="get_size" render="" deprecated=""/>
+      <rendermethod name="graphene_box_get_vertices" ponyname="get_vertices" render="" deprecated=""/>
+      <rendermethod name="graphene_box_get_width" ponyname="get_width" render="" deprecated=""/>
+      <rendermethod name="graphene_box_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_box_init_from_box" ponyname="init_from_box" render="" deprecated=""/>
+      <rendermethod name="graphene_box_init_from_points" ponyname="init_from_points" render="" deprecated=""/>
+      <rendermethod name="graphene_box_init_from_vec3" ponyname="init_from_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_box_init_from_vectors" ponyname="init_from_vectors" render="" deprecated=""/>
+      <rendermethod name="graphene_box_intersection" ponyname="intersection" render="" deprecated=""/>
+      <rendermethod name="graphene_box_union" ponyname="union" render="" deprecated=""/>
+      <renderfunction name="graphene_box_empty" ponyname="empty" render="" deprecated=""/>
+      <renderfunction name="graphene_box_infinite" ponyname="infinite" render="" deprecated=""/>
+      <renderfunction name="graphene_box_minus_one" ponyname="minus_one" render="" deprecated=""/>
+      <renderfunction name="graphene_box_one" ponyname="one" render="" deprecated=""/>
+      <renderfunction name="graphene_box_one_minus_one" ponyname="one_minus_one" render="" deprecated=""/>
+      <renderfunction name="graphene_box_zero" ponyname="zero" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_euler_t" render="">
+      <renderconstructor name="graphene_euler_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_get_alpha" ponyname="get_alpha" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_get_beta" ponyname="get_beta" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_get_gamma" ponyname="get_gamma" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_get_order" ponyname="get_order" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_get_x" ponyname="get_x" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_get_y" ponyname="get_y" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_get_z" ponyname="get_z" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_init_from_euler" ponyname="init_from_euler" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_init_from_matrix" ponyname="init_from_matrix" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_init_from_quaternion" ponyname="init_from_quaternion" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_init_from_radians" ponyname="init_from_radians" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_init_from_vec3" ponyname="init_from_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_init_with_order" ponyname="init_with_order" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_reorder" ponyname="reorder" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_to_matrix" ponyname="to_matrix" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_to_quaternion" ponyname="to_quaternion" render="" deprecated=""/>
+      <rendermethod name="graphene_euler_to_vec3" ponyname="to_vec3" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_frustum_t" render="">
+      <renderconstructor name="graphene_frustum_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_frustum_contains_point" ponyname="contains_point" render="" deprecated=""/>
+      <rendermethod name="graphene_frustum_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_frustum_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_frustum_get_planes" ponyname="get_planes" render="" deprecated=""/>
+      <rendermethod name="graphene_frustum_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_frustum_init_from_frustum" ponyname="init_from_frustum" render="" deprecated=""/>
+      <rendermethod name="graphene_frustum_init_from_matrix" ponyname="init_from_matrix" render="" deprecated=""/>
+      <rendermethod name="graphene_frustum_intersects_box" ponyname="intersects_box" render="" deprecated=""/>
+      <rendermethod name="graphene_frustum_intersects_sphere" ponyname="intersects_sphere" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_matrix_t" render="">
+      <renderconstructor name="graphene_matrix_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_decompose" ponyname="decompose" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_determinant" ponyname="determinant" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_equal_fast" ponyname="equal_fast" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_get_row" ponyname="get_row" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_get_value" ponyname="get_value" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_get_x_scale" ponyname="get_x_scale" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_get_x_translation" ponyname="get_x_translation" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_get_y_scale" ponyname="get_y_scale" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_get_y_translation" ponyname="get_y_translation" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_get_z_scale" ponyname="get_z_scale" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_get_z_translation" ponyname="get_z_translation" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_from_2d" ponyname="init_from_2d" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_from_float" ponyname="init_from_float" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_from_matrix" ponyname="init_from_matrix" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_from_vec4" ponyname="init_from_vec4" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_frustum" ponyname="init_frustum" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_identity" ponyname="init_identity" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_look_at" ponyname="init_look_at" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_ortho" ponyname="init_ortho" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_perspective" ponyname="init_perspective" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_rotate" ponyname="init_rotate" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_scale" ponyname="init_scale" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_skew" ponyname="init_skew" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_init_translate" ponyname="init_translate" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_interpolate" ponyname="interpolate" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_inverse" ponyname="inverse" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_is_2d" ponyname="is_2d" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_is_backface_visible" ponyname="is_backface_visible" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_is_identity" ponyname="is_identity" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_is_singular" ponyname="is_singular" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_multiply" ponyname="multiply" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_near" ponyname="near" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_normalize" ponyname="normalize" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_perspective" ponyname="perspective" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_print" ponyname="print" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_project_point" ponyname="project_point" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_project_rect" ponyname="project_rect" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_project_rect_bounds" ponyname="project_rect_bounds" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_rotate" ponyname="rotate" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_rotate_euler" ponyname="rotate_euler" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_rotate_quaternion" ponyname="rotate_quaternion" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_rotate_x" ponyname="rotate_x" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_rotate_y" ponyname="rotate_y" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_rotate_z" ponyname="rotate_z" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_scale" ponyname="scale" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_skew_xy" ponyname="skew_xy" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_skew_xz" ponyname="skew_xz" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_skew_yz" ponyname="skew_yz" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_to_2d" ponyname="to_2d" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_to_float" ponyname="to_float" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transform_bounds" ponyname="transform_bounds" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transform_box" ponyname="transform_box" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transform_point" ponyname="transform_point" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transform_point3d" ponyname="transform_point3d" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transform_ray" ponyname="transform_ray" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transform_rect" ponyname="transform_rect" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transform_sphere" ponyname="transform_sphere" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transform_vec3" ponyname="transform_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transform_vec4" ponyname="transform_vec4" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_translate" ponyname="translate" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_transpose" ponyname="transpose" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_unproject_point3d" ponyname="unproject_point3d" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_untransform_bounds" ponyname="untransform_bounds" render="" deprecated=""/>
+      <rendermethod name="graphene_matrix_untransform_point" ponyname="untransform_point" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_plane_t" render="">
+      <renderconstructor name="graphene_plane_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_distance" ponyname="distance" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_get_constant" ponyname="get_constant" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_get_normal" ponyname="get_normal" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_init_from_plane" ponyname="init_from_plane" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_init_from_point" ponyname="init_from_point" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_init_from_points" ponyname="init_from_points" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_init_from_vec4" ponyname="init_from_vec4" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_negate" ponyname="negate" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_normalize" ponyname="normalize" render="" deprecated=""/>
+      <rendermethod name="graphene_plane_transform" ponyname="transform" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_point_t" render="">
+      <renderconstructor name="graphene_point_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_point_distance" ponyname="distance" render="" deprecated=""/>
+      <rendermethod name="graphene_point_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_point_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_point_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_point_init_from_point" ponyname="init_from_point" render="" deprecated=""/>
+      <rendermethod name="graphene_point_init_from_vec2" ponyname="init_from_vec2" render="" deprecated=""/>
+      <rendermethod name="graphene_point_interpolate" ponyname="interpolate" render="" deprecated=""/>
+      <rendermethod name="graphene_point_near" ponyname="near" render="" deprecated=""/>
+      <rendermethod name="graphene_point_to_vec2" ponyname="to_vec2" render="" deprecated=""/>
+      <renderfunction name="graphene_point_zero" ponyname="zero" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_point3d_t" render="">
+      <renderconstructor name="graphene_point3d_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_cross" ponyname="cross" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_distance" ponyname="distance" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_dot" ponyname="dot" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_init_from_point" ponyname="init_from_point" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_init_from_vec3" ponyname="init_from_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_interpolate" ponyname="interpolate" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_length" ponyname="length" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_near" ponyname="near" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_normalize" ponyname="normalize" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_normalize_viewport" ponyname="normalize_viewport" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_scale" ponyname="scale" render="" deprecated=""/>
+      <rendermethod name="graphene_point3d_to_vec3" ponyname="to_vec3" render="" deprecated=""/>
+      <renderfunction name="graphene_point3d_zero" ponyname="zero" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_quad_t" render="">
+      <renderconstructor name="graphene_quad_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_quad_bounds" ponyname="bounds" render="" deprecated=""/>
+      <rendermethod name="graphene_quad_contains" ponyname="contains" render="" deprecated=""/>
+      <rendermethod name="graphene_quad_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_quad_get_point" ponyname="get_point" render="" deprecated=""/>
+      <rendermethod name="graphene_quad_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_quad_init_from_points" ponyname="init_from_points" render="" deprecated=""/>
+      <rendermethod name="graphene_quad_init_from_rect" ponyname="init_from_rect" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_quaternion_t" render="">
+      <renderconstructor name="graphene_quaternion_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_add" ponyname="add" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_dot" ponyname="dot" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_init_from_angle_vec3" ponyname="init_from_angle_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_init_from_angles" ponyname="init_from_angles" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_init_from_euler" ponyname="init_from_euler" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_init_from_matrix" ponyname="init_from_matrix" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_init_from_quaternion" ponyname="init_from_quaternion" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_init_from_radians" ponyname="init_from_radians" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_init_from_vec4" ponyname="init_from_vec4" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_init_identity" ponyname="init_identity" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_invert" ponyname="invert" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_multiply" ponyname="multiply" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_normalize" ponyname="normalize" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_scale" ponyname="scale" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_slerp" ponyname="slerp" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_to_angle_vec3" ponyname="to_angle_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_to_angles" ponyname="to_angles" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_to_matrix" ponyname="to_matrix" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_to_radians" ponyname="to_radians" render="" deprecated=""/>
+      <rendermethod name="graphene_quaternion_to_vec4" ponyname="to_vec4" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_ray_t" render="">
+      <renderconstructor name="graphene_ray_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_get_closest_point_to_point" ponyname="get_closest_point_to_point" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_get_direction" ponyname="get_direction" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_get_distance_to_plane" ponyname="get_distance_to_plane" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_get_distance_to_point" ponyname="get_distance_to_point" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_get_origin" ponyname="get_origin" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_get_position_at" ponyname="get_position_at" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_init_from_ray" ponyname="init_from_ray" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_init_from_vec3" ponyname="init_from_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_intersect_box" ponyname="intersect_box" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_intersect_sphere" ponyname="intersect_sphere" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_intersect_triangle" ponyname="intersect_triangle" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_intersects_box" ponyname="intersects_box" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_intersects_sphere" ponyname="intersects_sphere" render="" deprecated=""/>
+      <rendermethod name="graphene_ray_intersects_triangle" ponyname="intersects_triangle" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_rect_t" render="">
+      <rendermethod name="graphene_rect_contains_point" ponyname="contains_point" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_contains_rect" ponyname="contains_rect" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_expand" ponyname="expand" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_area" ponyname="get_area" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_bottom_left" ponyname="get_bottom_left" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_bottom_right" ponyname="get_bottom_right" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_center" ponyname="get_center" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_height" ponyname="get_height" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_top_left" ponyname="get_top_left" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_top_right" ponyname="get_top_right" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_vertices" ponyname="get_vertices" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_width" ponyname="get_width" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_x" ponyname="get_x" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_get_y" ponyname="get_y" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_init_from_rect" ponyname="init_from_rect" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_inset" ponyname="inset" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_inset_r" ponyname="inset_r" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_interpolate" ponyname="interpolate" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_intersection" ponyname="intersection" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_normalize" ponyname="normalize" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_normalize_r" ponyname="normalize_r" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_offset" ponyname="offset" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_offset_r" ponyname="offset_r" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_round" ponyname="round" render="" deprecated="1"/>
+      <rendermethod name="graphene_rect_round_extents" ponyname="round_extents" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_round_to_pixel" ponyname="round_to_pixel" render="" deprecated="1"/>
+      <rendermethod name="graphene_rect_scale" ponyname="scale" render="" deprecated=""/>
+      <rendermethod name="graphene_rect_union" ponyname="union" render="" deprecated=""/>
+      <renderfunction name="graphene_rect_alloc" ponyname="alloc" render="" deprecated=""/>
+      <renderfunction name="graphene_rect_zero" ponyname="zero" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_simd4f_t" render="">
+</renderstruct>
+    <renderstruct name="graphene_simd4x4f_t" render="">
+</renderstruct>
+    <renderstruct name="graphene_size_t" render="">
+      <renderconstructor name="graphene_size_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_size_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_size_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_size_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_size_init_from_size" ponyname="init_from_size" render="" deprecated=""/>
+      <rendermethod name="graphene_size_interpolate" ponyname="interpolate" render="" deprecated=""/>
+      <rendermethod name="graphene_size_scale" ponyname="scale" render="" deprecated=""/>
+      <renderfunction name="graphene_size_zero" ponyname="zero" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_sphere_t" render="">
+      <renderconstructor name="graphene_sphere_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_contains_point" ponyname="contains_point" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_distance" ponyname="distance" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_get_bounding_box" ponyname="get_bounding_box" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_get_center" ponyname="get_center" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_get_radius" ponyname="get_radius" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_init_from_points" ponyname="init_from_points" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_init_from_vectors" ponyname="init_from_vectors" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_is_empty" ponyname="is_empty" render="" deprecated=""/>
+      <rendermethod name="graphene_sphere_translate" ponyname="translate" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_triangle_t" render="">
+      <renderconstructor name="graphene_triangle_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_contains_point" ponyname="contains_point" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_get_area" ponyname="get_area" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_get_barycoords" ponyname="get_barycoords" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_get_bounding_box" ponyname="get_bounding_box" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_get_midpoint" ponyname="get_midpoint" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_get_normal" ponyname="get_normal" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_get_plane" ponyname="get_plane" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_get_points" ponyname="get_points" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_get_uv" ponyname="get_uv" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_get_vertices" ponyname="get_vertices" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_init_from_float" ponyname="init_from_float" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_init_from_point3d" ponyname="init_from_point3d" render="" deprecated=""/>
+      <rendermethod name="graphene_triangle_init_from_vec3" ponyname="init_from_vec3" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_vec2_t" render="">
+      <renderconstructor name="graphene_vec2_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_add" ponyname="add" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_divide" ponyname="divide" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_dot" ponyname="dot" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_get_x" ponyname="get_x" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_get_y" ponyname="get_y" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_init_from_float" ponyname="init_from_float" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_init_from_vec2" ponyname="init_from_vec2" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_interpolate" ponyname="interpolate" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_length" ponyname="length" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_max" ponyname="max" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_min" ponyname="min" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_multiply" ponyname="multiply" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_near" ponyname="near" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_negate" ponyname="negate" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_normalize" ponyname="normalize" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_scale" ponyname="scale" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_subtract" ponyname="subtract" render="" deprecated=""/>
+      <rendermethod name="graphene_vec2_to_float" ponyname="to_float" render="" deprecated=""/>
+      <renderfunction name="graphene_vec2_one" ponyname="one" render="" deprecated=""/>
+      <renderfunction name="graphene_vec2_x_axis" ponyname="x_axis" render="" deprecated=""/>
+      <renderfunction name="graphene_vec2_y_axis" ponyname="y_axis" render="" deprecated=""/>
+      <renderfunction name="graphene_vec2_zero" ponyname="zero" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_vec3_t" render="">
+      <renderconstructor name="graphene_vec3_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_add" ponyname="add" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_cross" ponyname="cross" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_divide" ponyname="divide" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_dot" ponyname="dot" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_get_x" ponyname="get_x" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_get_xy" ponyname="get_xy" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_get_xy0" ponyname="get_xy0" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_get_xyz0" ponyname="get_xyz0" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_get_xyz1" ponyname="get_xyz1" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_get_xyzw" ponyname="get_xyzw" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_get_y" ponyname="get_y" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_get_z" ponyname="get_z" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_init_from_float" ponyname="init_from_float" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_init_from_vec3" ponyname="init_from_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_interpolate" ponyname="interpolate" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_length" ponyname="length" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_max" ponyname="max" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_min" ponyname="min" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_multiply" ponyname="multiply" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_near" ponyname="near" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_negate" ponyname="negate" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_normalize" ponyname="normalize" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_scale" ponyname="scale" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_subtract" ponyname="subtract" render="" deprecated=""/>
+      <rendermethod name="graphene_vec3_to_float" ponyname="to_float" render="" deprecated=""/>
+      <renderfunction name="graphene_vec3_one" ponyname="one" render="" deprecated=""/>
+      <renderfunction name="graphene_vec3_x_axis" ponyname="x_axis" render="" deprecated=""/>
+      <renderfunction name="graphene_vec3_y_axis" ponyname="y_axis" render="" deprecated=""/>
+      <renderfunction name="graphene_vec3_z_axis" ponyname="z_axis" render="" deprecated=""/>
+      <renderfunction name="graphene_vec3_zero" ponyname="zero" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="graphene_vec4_t" render="">
+      <renderconstructor name="graphene_vec4_alloc" ponyname="alloc" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_add" ponyname="add" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_divide" ponyname="divide" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_dot" ponyname="dot" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_get_w" ponyname="get_w" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_get_x" ponyname="get_x" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_get_xy" ponyname="get_xy" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_get_xyz" ponyname="get_xyz" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_get_y" ponyname="get_y" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_get_z" ponyname="get_z" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_init" ponyname="init" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_init_from_float" ponyname="init_from_float" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_init_from_vec2" ponyname="init_from_vec2" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_init_from_vec3" ponyname="init_from_vec3" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_init_from_vec4" ponyname="init_from_vec4" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_interpolate" ponyname="interpolate" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_length" ponyname="length" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_max" ponyname="max" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_min" ponyname="min" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_multiply" ponyname="multiply" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_near" ponyname="near" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_negate" ponyname="negate" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_normalize" ponyname="normalize" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_scale" ponyname="scale" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_subtract" ponyname="subtract" render="" deprecated=""/>
+      <rendermethod name="graphene_vec4_to_float" ponyname="to_float" render="" deprecated=""/>
+      <renderfunction name="graphene_vec4_one" ponyname="one" render="" deprecated=""/>
+      <renderfunction name="graphene_vec4_w_axis" ponyname="w_axis" render="" deprecated=""/>
+      <renderfunction name="graphene_vec4_x_axis" ponyname="x_axis" render="" deprecated=""/>
+      <renderfunction name="graphene_vec4_y_axis" ponyname="y_axis" render="" deprecated=""/>
+      <renderfunction name="graphene_vec4_z_axis" ponyname="z_axis" render="" deprecated=""/>
+      <renderfunction name="graphene_vec4_zero" ponyname="zero" render="" deprecated=""/>
+    </renderstruct>
+  </ns>
+</rs>

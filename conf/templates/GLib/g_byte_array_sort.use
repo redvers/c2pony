@@ -1,0 +1,1 @@
+use @g_byte_array_sort[None](array': GByteArrayT, compare_func': GCompareFunc)

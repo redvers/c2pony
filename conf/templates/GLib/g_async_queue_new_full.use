@@ -1,0 +1,1 @@
+use @g_async_queue_new_full[GAsyncQueueT](item_free_func': GDestroyNotify)

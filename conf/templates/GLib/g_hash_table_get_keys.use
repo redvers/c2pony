@@ -1,0 +1,1 @@
+use @g_hash_table_get_keys[GListT](hash_table': GHashTableT)

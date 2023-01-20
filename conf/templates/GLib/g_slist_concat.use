@@ -1,0 +1,1 @@
+use @g_slist_concat[GSListT](list1': GSListT, list2': GSListT)

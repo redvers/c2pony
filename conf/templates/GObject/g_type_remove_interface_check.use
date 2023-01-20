@@ -1,0 +1,1 @@
+use @g_type_remove_interface_check[None](check_data': Pointer[None] tag, check_func': GTypeInterfaceCheckFunc)

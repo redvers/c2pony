@@ -1,0 +1,1 @@
+use @g_bookmark_file_set_icon[None](bookmark': GBookmarkFileT, uri': Pointer[U8] tag, href': Pointer[U8] tag, mime_type': Pointer[U8] tag)

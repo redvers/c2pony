@@ -1,0 +1,1 @@
+use @g_datalist_get_flags[U32](datalist': Pointer[GDataT])

@@ -1,0 +1,1 @@
+use @g_sequence_get_end_iter[GSequenceNodeT](seq': GSequenceT)

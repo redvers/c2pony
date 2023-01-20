@@ -1,0 +1,1 @@
+use @g_datalist_id_remove_no_notify[Pointer[None] tag](datalist': Pointer[GDataT], key_id': U32)

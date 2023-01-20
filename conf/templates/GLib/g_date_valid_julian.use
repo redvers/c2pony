@@ -1,0 +1,1 @@
+use @g_date_valid_julian[I32](julian_date': U32)

@@ -1,0 +1,1 @@
+use @g_object_run_dispose[None](object': GObjectT)

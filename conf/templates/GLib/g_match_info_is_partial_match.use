@@ -1,0 +1,1 @@
+use @g_match_info_is_partial_match[I32](match_info': GMatchInfoT)

@@ -1,0 +1,1 @@
+use @g_type_add_interface_check[None](check_data': Pointer[None] tag, check_func': GTypeInterfaceCheckFunc)

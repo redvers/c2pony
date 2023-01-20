@@ -1,0 +1,1 @@
+use @g_variant_new_object_path[GVariantT](object_path': Pointer[U8] tag)

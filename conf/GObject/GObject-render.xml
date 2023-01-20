@@ -1,0 +1,550 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="GObject">
+    <renderfunction name="g_boxed_copy" ponyname="boxed_copy" render="1" deprecated=""/>
+    <renderfunction name="g_boxed_free" ponyname="boxed_free" render="1" deprecated=""/>
+    <renderfunction name="g_boxed_type_register_static" ponyname="boxed_type_register_static" render="1" deprecated=""/>
+    <renderfunction name="g_clear_object" ponyname="clear_object" render="1" deprecated=""/>
+    <renderfunction name="g_clear_signal_handler" ponyname="clear_signal_handler" render="1" deprecated=""/>
+    <renderfunction name="g_enum_complete_type_info" ponyname="enum_complete_type_info" render="1" deprecated=""/>
+    <renderfunction name="g_enum_get_value" ponyname="enum_get_value" render="1" deprecated=""/>
+    <renderfunction name="g_enum_get_value_by_name" ponyname="enum_get_value_by_name" render="1" deprecated=""/>
+    <renderfunction name="g_enum_get_value_by_nick" ponyname="enum_get_value_by_nick" render="1" deprecated=""/>
+    <renderfunction name="g_enum_register_static" ponyname="enum_register_static" render="1" deprecated=""/>
+    <renderfunction name="g_enum_to_string" ponyname="enum_to_string" render="1" deprecated=""/>
+    <renderfunction name="g_flags_complete_type_info" ponyname="flags_complete_type_info" render="1" deprecated=""/>
+    <renderfunction name="g_flags_get_first_value" ponyname="flags_get_first_value" render="1" deprecated=""/>
+    <renderfunction name="g_flags_get_value_by_name" ponyname="flags_get_value_by_name" render="1" deprecated=""/>
+    <renderfunction name="g_flags_get_value_by_nick" ponyname="flags_get_value_by_nick" render="1" deprecated=""/>
+    <renderfunction name="g_flags_register_static" ponyname="flags_register_static" render="1" deprecated=""/>
+    <renderfunction name="g_flags_to_string" ponyname="flags_to_string" render="1" deprecated=""/>
+    <renderfunction name="g_gtype_get_type" ponyname="gtype_get_type" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_boolean" ponyname="param_spec_boolean" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_boxed" ponyname="param_spec_boxed" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_char" ponyname="param_spec_char" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_double" ponyname="param_spec_double" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_enum" ponyname="param_spec_enum" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_flags" ponyname="param_spec_flags" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_float" ponyname="param_spec_float" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_gtype" ponyname="param_spec_gtype" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_int" ponyname="param_spec_int" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_int64" ponyname="param_spec_int64" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_long" ponyname="param_spec_long" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_object" ponyname="param_spec_object" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_override" ponyname="param_spec_override" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_param" ponyname="param_spec_param" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_pointer" ponyname="param_spec_pointer" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_string" ponyname="param_spec_string" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_uchar" ponyname="param_spec_uchar" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_uint" ponyname="param_spec_uint" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_uint64" ponyname="param_spec_uint64" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_ulong" ponyname="param_spec_ulong" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_unichar" ponyname="param_spec_unichar" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_value_array" ponyname="param_spec_value_array" render="1" deprecated=""/>
+    <renderfunction name="g_param_spec_variant" ponyname="param_spec_variant" render="1" deprecated=""/>
+    <renderfunction name="g_param_type_register_static" ponyname="param_type_register_static" render="1" deprecated=""/>
+    <renderfunction name="g_param_value_convert" ponyname="param_value_convert" render="1" deprecated=""/>
+    <renderfunction name="g_param_value_defaults" ponyname="param_value_defaults" render="1" deprecated=""/>
+    <renderfunction name="g_param_value_set_default" ponyname="param_value_set_default" render="1" deprecated=""/>
+    <renderfunction name="g_param_value_validate" ponyname="param_value_validate" render="1" deprecated=""/>
+    <renderfunction name="g_param_values_cmp" ponyname="param_values_cmp" render="1" deprecated=""/>
+    <renderfunction name="g_pointer_type_register_static" ponyname="pointer_type_register_static" render="1" deprecated=""/>
+    <renderfunction name="g_signal_accumulator_first_wins" ponyname="signal_accumulator_first_wins" render="1" deprecated=""/>
+    <renderfunction name="g_signal_accumulator_true_handled" ponyname="signal_accumulator_true_handled" render="1" deprecated=""/>
+    <renderfunction name="g_signal_add_emission_hook" ponyname="signal_add_emission_hook" render="1" deprecated=""/>
+    <renderfunction name="g_signal_chain_from_overridden" ponyname="signal_chain_from_overridden" render="1" deprecated=""/>
+    <renderfunction name="g_signal_chain_from_overridden_handler" ponyname="signal_chain_from_overridden_handler" render="1" deprecated=""/>
+    <renderfunction name="g_signal_connect_closure" ponyname="signal_connect_closure" render="1" deprecated=""/>
+    <renderfunction name="g_signal_connect_closure_by_id" ponyname="signal_connect_closure_by_id" render="1" deprecated=""/>
+    <renderfunction name="g_signal_connect_data" ponyname="signal_connect_data" render="1" deprecated=""/>
+    <renderfunction name="g_signal_connect_object" ponyname="signal_connect_object" render="1" deprecated=""/>
+    <renderfunction name="g_signal_emit" ponyname="signal_emit" render="1" deprecated=""/>
+    <renderfunction name="g_signal_emit_by_name" ponyname="signal_emit_by_name" render="1" deprecated=""/>
+    <renderfunction name="g_signal_emit_valist" ponyname="signal_emit_valist" render="1" deprecated=""/>
+    <renderfunction name="g_signal_emitv" ponyname="signal_emitv" render="1" deprecated=""/>
+    <renderfunction name="g_signal_get_invocation_hint" ponyname="signal_get_invocation_hint" render="1" deprecated=""/>
+    <renderfunction name="g_signal_handler_block" ponyname="signal_handler_block" render="1" deprecated=""/>
+    <renderfunction name="g_signal_handler_disconnect" ponyname="signal_handler_disconnect" render="1" deprecated=""/>
+    <renderfunction name="g_signal_handler_find" ponyname="signal_handler_find" render="1" deprecated=""/>
+    <renderfunction name="g_signal_handler_is_connected" ponyname="signal_handler_is_connected" render="1" deprecated=""/>
+    <renderfunction name="g_signal_handler_unblock" ponyname="signal_handler_unblock" render="1" deprecated=""/>
+    <renderfunction name="g_signal_handlers_block_matched" ponyname="signal_handlers_block_matched" render="1" deprecated=""/>
+    <renderfunction name="g_signal_handlers_destroy" ponyname="signal_handlers_destroy" render="1" deprecated=""/>
+    <renderfunction name="g_signal_handlers_disconnect_matched" ponyname="signal_handlers_disconnect_matched" render="1" deprecated=""/>
+    <renderfunction name="g_signal_handlers_unblock_matched" ponyname="signal_handlers_unblock_matched" render="1" deprecated=""/>
+    <renderfunction name="g_signal_has_handler_pending" ponyname="signal_has_handler_pending" render="1" deprecated=""/>
+    <renderfunction name="g_signal_is_valid_name" ponyname="signal_is_valid_name" render="1" deprecated=""/>
+    <renderfunction name="g_signal_list_ids" ponyname="signal_list_ids" render="1" deprecated=""/>
+    <renderfunction name="g_signal_lookup" ponyname="signal_lookup" render="1" deprecated=""/>
+    <renderfunction name="g_signal_name" ponyname="signal_name" render="1" deprecated=""/>
+    <renderfunction name="g_signal_new" ponyname="signal_new" render="1" deprecated=""/>
+    <renderfunction name="g_signal_new_class_handler" ponyname="signal_new_class_handler" render="1" deprecated=""/>
+    <renderfunction name="g_signal_new_valist" ponyname="signal_new_valist" render="1" deprecated=""/>
+    <renderfunction name="g_signal_newv" ponyname="signal_newv" render="1" deprecated=""/>
+    <renderfunction name="g_signal_override_class_closure" ponyname="signal_override_class_closure" render="1" deprecated=""/>
+    <renderfunction name="g_signal_override_class_handler" ponyname="signal_override_class_handler" render="1" deprecated=""/>
+    <renderfunction name="g_signal_parse_name" ponyname="signal_parse_name" render="1" deprecated=""/>
+    <renderfunction name="g_signal_query" ponyname="signal_query" render="1" deprecated=""/>
+    <renderfunction name="g_signal_remove_emission_hook" ponyname="signal_remove_emission_hook" render="1" deprecated=""/>
+    <renderfunction name="g_signal_set_va_marshaller" ponyname="signal_set_va_marshaller" render="1" deprecated=""/>
+    <renderfunction name="g_signal_stop_emission" ponyname="signal_stop_emission" render="1" deprecated=""/>
+    <renderfunction name="g_signal_stop_emission_by_name" ponyname="signal_stop_emission_by_name" render="1" deprecated=""/>
+    <renderfunction name="g_signal_type_cclosure_new" ponyname="signal_type_cclosure_new" render="1" deprecated=""/>
+    <renderfunction name="g_source_set_closure" ponyname="source_set_closure" render="1" deprecated=""/>
+    <renderfunction name="g_source_set_dummy_callback" ponyname="source_set_dummy_callback" render="1" deprecated=""/>
+    <renderfunction name="g_strdup_value_contents" ponyname="strdup_value_contents" render="1" deprecated=""/>
+    <renderfunction name="g_type_add_class_cache_func" ponyname="type_add_class_cache_func" render="1" deprecated=""/>
+    <renderfunction name="g_type_add_class_private" ponyname="type_add_class_private" render="1" deprecated=""/>
+    <renderfunction name="g_type_add_instance_private" ponyname="type_add_instance_private" render="1" deprecated=""/>
+    <renderfunction name="g_type_add_interface_check" ponyname="type_add_interface_check" render="1" deprecated=""/>
+    <renderfunction name="g_type_add_interface_dynamic" ponyname="type_add_interface_dynamic" render="1" deprecated=""/>
+    <renderfunction name="g_type_add_interface_static" ponyname="type_add_interface_static" render="1" deprecated=""/>
+    <renderfunction name="g_type_check_class_cast" ponyname="type_check_class_cast" render="1" deprecated=""/>
+    <renderfunction name="g_type_check_class_is_a" ponyname="type_check_class_is_a" render="1" deprecated=""/>
+    <renderfunction name="g_type_check_instance" ponyname="type_check_instance" render="1" deprecated=""/>
+    <renderfunction name="g_type_check_instance_cast" ponyname="type_check_instance_cast" render="1" deprecated=""/>
+    <renderfunction name="g_type_check_instance_is_a" ponyname="type_check_instance_is_a" render="1" deprecated=""/>
+    <renderfunction name="g_type_check_instance_is_fundamentally_a" ponyname="type_check_instance_is_fundamentally_a" render="1" deprecated=""/>
+    <renderfunction name="g_type_check_is_value_type" ponyname="type_check_is_value_type" render="1" deprecated=""/>
+    <renderfunction name="g_type_check_value" ponyname="type_check_value" render="1" deprecated=""/>
+    <renderfunction name="g_type_check_value_holds" ponyname="type_check_value_holds" render="1" deprecated=""/>
+    <renderfunction name="g_type_children" ponyname="type_children" render="1" deprecated=""/>
+    <renderfunction name="g_type_create_instance" ponyname="type_create_instance" render="1" deprecated=""/>
+    <renderfunction name="g_type_default_interface_peek" ponyname="type_default_interface_peek" render="1" deprecated=""/>
+    <renderfunction name="g_type_default_interface_ref" ponyname="type_default_interface_ref" render="1" deprecated=""/>
+    <renderfunction name="g_type_default_interface_unref" ponyname="type_default_interface_unref" render="1" deprecated=""/>
+    <renderfunction name="g_type_depth" ponyname="type_depth" render="1" deprecated=""/>
+    <renderfunction name="g_type_ensure" ponyname="type_ensure" render="1" deprecated=""/>
+    <renderfunction name="g_type_free_instance" ponyname="type_free_instance" render="1" deprecated=""/>
+    <renderfunction name="g_type_from_name" ponyname="type_from_name" render="1" deprecated=""/>
+    <renderfunction name="g_type_fundamental" ponyname="type_fundamental" render="1" deprecated=""/>
+    <renderfunction name="g_type_fundamental_next" ponyname="type_fundamental_next" render="1" deprecated=""/>
+    <renderfunction name="g_type_get_instance_count" ponyname="type_get_instance_count" render="1" deprecated=""/>
+    <renderfunction name="g_type_get_plugin" ponyname="type_get_plugin" render="1" deprecated=""/>
+    <renderfunction name="g_type_get_qdata" ponyname="type_get_qdata" render="1" deprecated=""/>
+    <renderfunction name="g_type_get_type_registration_serial" ponyname="type_get_type_registration_serial" render="1" deprecated=""/>
+    <renderfunction name="g_type_init" ponyname="type_init" render="1" deprecated="1"/>
+    <renderfunction name="g_type_init_with_debug_flags" ponyname="type_init_with_debug_flags" render="1" deprecated="1"/>
+    <renderfunction name="g_type_interfaces" ponyname="type_interfaces" render="1" deprecated=""/>
+    <renderfunction name="g_type_is_a" ponyname="type_is_a" render="1" deprecated=""/>
+    <renderfunction name="g_type_name" ponyname="type_name" render="1" deprecated=""/>
+    <renderfunction name="g_type_name_from_class" ponyname="type_name_from_class" render="1" deprecated=""/>
+    <renderfunction name="g_type_name_from_instance" ponyname="type_name_from_instance" render="1" deprecated=""/>
+    <renderfunction name="g_type_next_base" ponyname="type_next_base" render="1" deprecated=""/>
+    <renderfunction name="g_type_parent" ponyname="type_parent" render="1" deprecated=""/>
+    <renderfunction name="g_type_qname" ponyname="type_qname" render="1" deprecated=""/>
+    <renderfunction name="g_type_query" ponyname="type_query" render="1" deprecated=""/>
+    <renderfunction name="g_type_register_dynamic" ponyname="type_register_dynamic" render="1" deprecated=""/>
+    <renderfunction name="g_type_register_fundamental" ponyname="type_register_fundamental" render="1" deprecated=""/>
+    <renderfunction name="g_type_register_static" ponyname="type_register_static" render="1" deprecated=""/>
+    <renderfunction name="g_type_register_static_simple" ponyname="type_register_static_simple" render="1" deprecated=""/>
+    <renderfunction name="g_type_remove_class_cache_func" ponyname="type_remove_class_cache_func" render="1" deprecated=""/>
+    <renderfunction name="g_type_remove_interface_check" ponyname="type_remove_interface_check" render="1" deprecated=""/>
+    <renderfunction name="g_type_set_qdata" ponyname="type_set_qdata" render="1" deprecated=""/>
+    <renderfunction name="g_type_test_flags" ponyname="type_test_flags" render="1" deprecated=""/>
+    <renderstruct name="GCClosure" render="1">
+      <renderfunction name="g_cclosure_marshal_BOOLEAN__BOXED_BOXED" ponyname="marshal_BOOLEAN__BOXED_BOXED" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_BOOLEAN__BOXED_BOXEDv" ponyname="marshal_BOOLEAN__BOXED_BOXEDv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_BOOLEAN__FLAGS" ponyname="marshal_BOOLEAN__FLAGS" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_BOOLEAN__FLAGSv" ponyname="marshal_BOOLEAN__FLAGSv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_STRING__OBJECT_POINTER" ponyname="marshal_STRING__OBJECT_POINTER" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_STRING__OBJECT_POINTERv" ponyname="marshal_STRING__OBJECT_POINTERv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__BOOLEAN" ponyname="marshal_VOID__BOOLEAN" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__BOOLEANv" ponyname="marshal_VOID__BOOLEANv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__BOXED" ponyname="marshal_VOID__BOXED" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__BOXEDv" ponyname="marshal_VOID__BOXEDv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__CHAR" ponyname="marshal_VOID__CHAR" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__CHARv" ponyname="marshal_VOID__CHARv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__DOUBLE" ponyname="marshal_VOID__DOUBLE" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__DOUBLEv" ponyname="marshal_VOID__DOUBLEv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__ENUM" ponyname="marshal_VOID__ENUM" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__ENUMv" ponyname="marshal_VOID__ENUMv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__FLAGS" ponyname="marshal_VOID__FLAGS" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__FLAGSv" ponyname="marshal_VOID__FLAGSv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__FLOAT" ponyname="marshal_VOID__FLOAT" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__FLOATv" ponyname="marshal_VOID__FLOATv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__INT" ponyname="marshal_VOID__INT" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__INTv" ponyname="marshal_VOID__INTv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__LONG" ponyname="marshal_VOID__LONG" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__LONGv" ponyname="marshal_VOID__LONGv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__OBJECT" ponyname="marshal_VOID__OBJECT" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__OBJECTv" ponyname="marshal_VOID__OBJECTv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__PARAM" ponyname="marshal_VOID__PARAM" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__PARAMv" ponyname="marshal_VOID__PARAMv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__POINTER" ponyname="marshal_VOID__POINTER" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__POINTERv" ponyname="marshal_VOID__POINTERv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__STRING" ponyname="marshal_VOID__STRING" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__STRINGv" ponyname="marshal_VOID__STRINGv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__UCHAR" ponyname="marshal_VOID__UCHAR" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__UCHARv" ponyname="marshal_VOID__UCHARv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__UINT" ponyname="marshal_VOID__UINT" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__UINT_POINTER" ponyname="marshal_VOID__UINT_POINTER" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__UINT_POINTERv" ponyname="marshal_VOID__UINT_POINTERv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__UINTv" ponyname="marshal_VOID__UINTv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__ULONG" ponyname="marshal_VOID__ULONG" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__ULONGv" ponyname="marshal_VOID__ULONGv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__VARIANT" ponyname="marshal_VOID__VARIANT" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__VARIANTv" ponyname="marshal_VOID__VARIANTv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__VOID" ponyname="marshal_VOID__VOID" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_VOID__VOIDv" ponyname="marshal_VOID__VOIDv" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_generic" ponyname="marshal_generic" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_marshal_generic_va" ponyname="marshal_generic_va" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_new_object" ponyname="new_object" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_new_object_swap" ponyname="new_object_swap" render="1" deprecated=""/>
+      <renderfunction name="g_cclosure_new_swap" ponyname="new_swap" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GClosure" render="1">
+      <renderconstructor name="g_closure_new_object" ponyname="new_object" render="1" deprecated=""/>
+      <renderconstructor name="g_closure_new_simple" ponyname="new_simple" render="1" deprecated=""/>
+      <rendermethod name="g_closure_add_finalize_notifier" ponyname="add_finalize_notifier" render="1" deprecated=""/>
+      <rendermethod name="g_closure_add_invalidate_notifier" ponyname="add_invalidate_notifier" render="1" deprecated=""/>
+      <rendermethod name="g_closure_add_marshal_guards" ponyname="add_marshal_guards" render="1" deprecated=""/>
+      <rendermethod name="g_closure_invalidate" ponyname="invalidate" render="1" deprecated=""/>
+      <rendermethod name="g_closure_invoke" ponyname="invoke" render="1" deprecated=""/>
+      <rendermethod name="g_closure_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_closure_remove_finalize_notifier" ponyname="remove_finalize_notifier" render="1" deprecated=""/>
+      <rendermethod name="g_closure_remove_invalidate_notifier" ponyname="remove_invalidate_notifier" render="1" deprecated=""/>
+      <rendermethod name="g_closure_set_marshal" ponyname="set_marshal" render="1" deprecated=""/>
+      <rendermethod name="g_closure_set_meta_marshal" ponyname="set_meta_marshal" render="1" deprecated=""/>
+      <rendermethod name="g_closure_sink" ponyname="sink" render="1" deprecated=""/>
+      <rendermethod name="g_closure_unref" ponyname="unref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GClosureNotifyData" render="1">
+</renderstruct>
+    <renderstruct name="GEnumClass" render="1">
+</renderstruct>
+    <renderstruct name="GEnumValue" render="1">
+</renderstruct>
+    <renderstruct name="GFlagsClass" render="1">
+</renderstruct>
+    <renderstruct name="GFlagsValue" render="1">
+</renderstruct>
+    <renderstruct name="GInitiallyUnownedClass" render="1">
+</renderstruct>
+    <renderstruct name="GInterfaceInfo" render="1">
+</renderstruct>
+    <renderstruct name="GObjectClass" render="1">
+      <rendermethod name="g_object_class_find_property" ponyname="find_property" render="1" deprecated=""/>
+      <rendermethod name="g_object_class_install_properties" ponyname="install_properties" render="1" deprecated=""/>
+      <rendermethod name="g_object_class_install_property" ponyname="install_property" render="1" deprecated=""/>
+      <rendermethod name="g_object_class_list_properties" ponyname="list_properties" render="1" deprecated=""/>
+      <rendermethod name="g_object_class_override_property" ponyname="override_property" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GObjectConstructParam" render="1">
+</renderstruct>
+    <renderstruct name="GParamSpecClass" render="1">
+</renderstruct>
+    <renderstruct name="GParamSpecPool" render="1">
+      <rendermethod name="g_param_spec_pool_insert" ponyname="insert" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_pool_list" ponyname="list" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_pool_list_owned" ponyname="list_owned" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_pool_lookup" ponyname="lookup" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_pool_remove" ponyname="remove" render="1" deprecated=""/>
+      <renderfunction name="g_param_spec_pool_new" ponyname="new" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GParamSpecTypeInfo" render="1">
+</renderstruct>
+    <renderstruct name="GParameter" render="1">
+</renderstruct>
+    <renderstruct name="GSignalInvocationHint" render="1">
+</renderstruct>
+    <renderstruct name="GSignalQuery" render="1">
+</renderstruct>
+    <renderstruct name="GTypeClass" render="1">
+      <rendermethod name="g_type_class_add_private" ponyname="add_private" render="1" deprecated="1"/>
+      <rendermethod name="g_type_class_get_instance_private_offset" ponyname="get_instance_private_offset" render="1" deprecated=""/>
+      <rendermethod name="g_type_class_get_private" ponyname="get_private" render="1" deprecated=""/>
+      <rendermethod name="g_type_class_peek_parent" ponyname="peek_parent" render="1" deprecated=""/>
+      <rendermethod name="g_type_class_unref" ponyname="unref" render="1" deprecated=""/>
+      <rendermethod name="g_type_class_unref_uncached" ponyname="unref_uncached" render="1" deprecated=""/>
+      <renderfunction name="g_type_class_adjust_private_offset" ponyname="adjust_private_offset" render="1" deprecated=""/>
+      <renderfunction name="g_type_class_peek" ponyname="peek" render="1" deprecated=""/>
+      <renderfunction name="g_type_class_peek_static" ponyname="peek_static" render="1" deprecated=""/>
+      <renderfunction name="g_type_class_ref" ponyname="ref" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GTypeFundamentalInfo" render="1">
+</renderstruct>
+    <renderstruct name="GTypeInfo" render="1">
+</renderstruct>
+    <renderstruct name="GTypeInstance" render="1">
+      <rendermethod name="g_type_instance_get_private" ponyname="get_private" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GTypeInterface" render="1">
+      <rendermethod name="g_type_interface_peek_parent" ponyname="peek_parent" render="1" deprecated=""/>
+      <renderfunction name="g_type_interface_add_prerequisite" ponyname="add_prerequisite" render="1" deprecated=""/>
+      <renderfunction name="g_type_interface_get_plugin" ponyname="get_plugin" render="1" deprecated=""/>
+      <renderfunction name="g_type_interface_peek" ponyname="peek" render="1" deprecated=""/>
+      <renderfunction name="g_type_interface_prerequisites" ponyname="prerequisites" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GTypeModuleClass" render="1">
+</renderstruct>
+    <renderstruct name="GTypePluginClass" render="1">
+</renderstruct>
+    <renderstruct name="GTypeQuery" render="1">
+</renderstruct>
+    <renderstruct name="GTypeValueTable" render="1">
+      <renderfunction name="g_type_value_table_peek" ponyname="peek" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GValue" render="1">
+      <rendermethod name="g_value_copy" ponyname="copy" render="1" deprecated=""/>
+      <rendermethod name="g_value_dup_boxed" ponyname="dup_boxed" render="1" deprecated=""/>
+      <rendermethod name="g_value_dup_object" ponyname="dup_object" render="1" deprecated=""/>
+      <rendermethod name="g_value_dup_param" ponyname="dup_param" render="1" deprecated=""/>
+      <rendermethod name="g_value_dup_string" ponyname="dup_string" render="1" deprecated=""/>
+      <rendermethod name="g_value_dup_variant" ponyname="dup_variant" render="1" deprecated=""/>
+      <rendermethod name="g_value_fits_pointer" ponyname="fits_pointer" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_boolean" ponyname="get_boolean" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_boxed" ponyname="get_boxed" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_char" ponyname="get_char" render="1" deprecated="1"/>
+      <rendermethod name="g_value_get_double" ponyname="get_double" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_enum" ponyname="get_enum" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_flags" ponyname="get_flags" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_float" ponyname="get_float" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_gtype" ponyname="get_gtype" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_int" ponyname="get_int" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_int64" ponyname="get_int64" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_long" ponyname="get_long" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_object" ponyname="get_object" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_param" ponyname="get_param" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_pointer" ponyname="get_pointer" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_schar" ponyname="get_schar" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_string" ponyname="get_string" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_uchar" ponyname="get_uchar" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_uint" ponyname="get_uint" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_uint64" ponyname="get_uint64" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_ulong" ponyname="get_ulong" render="1" deprecated=""/>
+      <rendermethod name="g_value_get_variant" ponyname="get_variant" render="1" deprecated=""/>
+      <rendermethod name="g_value_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_value_init_from_instance" ponyname="init_from_instance" render="1" deprecated=""/>
+      <rendermethod name="g_value_peek_pointer" ponyname="peek_pointer" render="1" deprecated=""/>
+      <rendermethod name="g_value_reset" ponyname="reset" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_boolean" ponyname="set_boolean" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_boxed" ponyname="set_boxed" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_boxed_take_ownership" ponyname="set_boxed_take_ownership" render="1" deprecated="1"/>
+      <rendermethod name="g_value_set_char" ponyname="set_char" render="1" deprecated="1"/>
+      <rendermethod name="g_value_set_double" ponyname="set_double" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_enum" ponyname="set_enum" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_flags" ponyname="set_flags" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_float" ponyname="set_float" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_gtype" ponyname="set_gtype" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_instance" ponyname="set_instance" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_int" ponyname="set_int" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_int64" ponyname="set_int64" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_interned_string" ponyname="set_interned_string" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_long" ponyname="set_long" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_object" ponyname="set_object" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_object_take_ownership" ponyname="set_object_take_ownership" render="1" deprecated="1"/>
+      <rendermethod name="g_value_set_param" ponyname="set_param" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_param_take_ownership" ponyname="set_param_take_ownership" render="1" deprecated="1"/>
+      <rendermethod name="g_value_set_pointer" ponyname="set_pointer" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_schar" ponyname="set_schar" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_static_boxed" ponyname="set_static_boxed" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_static_string" ponyname="set_static_string" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_string" ponyname="set_string" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_string_take_ownership" ponyname="set_string_take_ownership" render="1" deprecated="1"/>
+      <rendermethod name="g_value_set_uchar" ponyname="set_uchar" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_uint" ponyname="set_uint" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_uint64" ponyname="set_uint64" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_ulong" ponyname="set_ulong" render="1" deprecated=""/>
+      <rendermethod name="g_value_set_variant" ponyname="set_variant" render="1" deprecated=""/>
+      <rendermethod name="g_value_take_boxed" ponyname="take_boxed" render="1" deprecated=""/>
+      <rendermethod name="g_value_take_object" ponyname="take_object" render="1" deprecated=""/>
+      <rendermethod name="g_value_take_param" ponyname="take_param" render="1" deprecated=""/>
+      <rendermethod name="g_value_take_string" ponyname="take_string" render="1" deprecated=""/>
+      <rendermethod name="g_value_take_variant" ponyname="take_variant" render="1" deprecated=""/>
+      <rendermethod name="g_value_transform" ponyname="transform" render="1" deprecated=""/>
+      <rendermethod name="g_value_unset" ponyname="unset" render="1" deprecated=""/>
+      <renderfunction name="g_value_register_transform_func" ponyname="register_transform_func" render="1" deprecated=""/>
+      <renderfunction name="g_value_type_compatible" ponyname="type_compatible" render="1" deprecated=""/>
+      <renderfunction name="g_value_type_transformable" ponyname="type_transformable" render="1" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GValueArray" render="1">
+      <renderconstructor name="g_value_array_new" ponyname="new" render="1" deprecated="1"/>
+      <rendermethod name="g_value_array_append" ponyname="append" render="1" deprecated="1"/>
+      <rendermethod name="g_value_array_copy" ponyname="copy" render="1" deprecated="1"/>
+      <rendermethod name="g_value_array_free" ponyname="free" render="1" deprecated="1"/>
+      <rendermethod name="g_value_array_get_nth" ponyname="get_nth" render="1" deprecated="1"/>
+      <rendermethod name="g_value_array_insert" ponyname="insert" render="1" deprecated="1"/>
+      <rendermethod name="g_value_array_prepend" ponyname="prepend" render="1" deprecated="1"/>
+      <rendermethod name="g_value_array_remove" ponyname="remove" render="1" deprecated="1"/>
+      <rendermethod name="g_value_array_sort" ponyname="sort" render="1" deprecated="1"/>
+      <rendermethod name="g_value_array_sort_with_data" ponyname="sort_with_data" render="1" deprecated="1"/>
+    </renderstruct>
+    <renderstruct name="GWeakRef" render="1">
+      <rendermethod name="g_weak_ref_clear" ponyname="clear" render="1" deprecated=""/>
+      <rendermethod name="g_weak_ref_get" ponyname="get" render="1" deprecated=""/>
+      <rendermethod name="g_weak_ref_init" ponyname="init" render="1" deprecated=""/>
+      <rendermethod name="g_weak_ref_set" ponyname="set" render="1" deprecated=""/>
+    </renderstruct>
+    <renderclass name="GBinding" render="1" parent="Object" abstract="" final="" fundamental="">
+      <rendermethod name="g_binding_get_flags" ponyname="get_flags" render="1" deprecated=""/>
+      <rendermethod name="g_binding_get_source" ponyname="get_source" render="1" deprecated="1"/>
+      <rendermethod name="g_binding_get_source_property" ponyname="get_source_property" render="1" deprecated=""/>
+      <rendermethod name="g_binding_get_target" ponyname="get_target" render="1" deprecated="1"/>
+      <rendermethod name="g_binding_get_target_property" ponyname="get_target_property" render="1" deprecated=""/>
+      <rendermethod name="g_binding_unbind" ponyname="unbind" render="1" deprecated=""/>
+    </renderclass>
+    <renderclass name="GInitiallyUnowned" render="1" parent="Object" abstract="" final="" fundamental="">
+</renderclass>
+    <renderclass name="GObject" render="1" parent="" abstract="" final="" fundamental="">
+      <renderconstructor name="g_object_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_object_new_valist" ponyname="new_valist" render="1" deprecated=""/>
+      <renderconstructor name="g_object_new_with_properties" ponyname="new_with_properties" render="1" deprecated=""/>
+      <renderconstructor name="g_object_newv" ponyname="newv" render="1" deprecated="1"/>
+      <rendermethod name="g_object_add_toggle_ref" ponyname="add_toggle_ref" render="1" deprecated=""/>
+      <rendermethod name="g_object_add_weak_pointer" ponyname="add_weak_pointer" render="1" deprecated=""/>
+      <rendermethod name="g_object_bind_property" ponyname="bind_property" render="1" deprecated=""/>
+      <rendermethod name="g_object_bind_property_full" ponyname="bind_property_full" render="1" deprecated=""/>
+      <rendermethod name="g_object_bind_property_with_closures" ponyname="bind_property_with_closures" render="1" deprecated=""/>
+      <rendermethod name="g_object_connect" ponyname="connect" render="1" deprecated=""/>
+      <rendermethod name="g_object_disconnect" ponyname="disconnect" render="1" deprecated=""/>
+      <rendermethod name="g_object_dup_data" ponyname="dup_data" render="1" deprecated=""/>
+      <rendermethod name="g_object_dup_qdata" ponyname="dup_qdata" render="1" deprecated=""/>
+      <rendermethod name="g_object_force_floating" ponyname="force_floating" render="1" deprecated=""/>
+      <rendermethod name="g_object_freeze_notify" ponyname="freeze_notify" render="1" deprecated=""/>
+      <rendermethod name="g_object_get" ponyname="get" render="1" deprecated=""/>
+      <rendermethod name="g_object_get_data" ponyname="get_data" render="1" deprecated=""/>
+      <rendermethod name="g_object_get_property" ponyname="get_property" render="1" deprecated=""/>
+      <rendermethod name="g_object_get_qdata" ponyname="get_qdata" render="1" deprecated=""/>
+      <rendermethod name="g_object_get_valist" ponyname="get_valist" render="1" deprecated=""/>
+      <rendermethod name="g_object_getv" ponyname="getv" render="1" deprecated=""/>
+      <rendermethod name="g_object_is_floating" ponyname="is_floating" render="1" deprecated=""/>
+      <rendermethod name="g_object_notify" ponyname="notify" render="1" deprecated=""/>
+      <rendermethod name="g_object_notify_by_pspec" ponyname="notify_by_pspec" render="1" deprecated=""/>
+      <rendermethod name="g_object_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_object_ref_sink" ponyname="ref_sink" render="1" deprecated=""/>
+      <rendermethod name="g_object_remove_toggle_ref" ponyname="remove_toggle_ref" render="1" deprecated=""/>
+      <rendermethod name="g_object_remove_weak_pointer" ponyname="remove_weak_pointer" render="1" deprecated=""/>
+      <rendermethod name="g_object_replace_data" ponyname="replace_data" render="1" deprecated=""/>
+      <rendermethod name="g_object_replace_qdata" ponyname="replace_qdata" render="1" deprecated=""/>
+      <rendermethod name="g_object_run_dispose" ponyname="run_dispose" render="1" deprecated=""/>
+      <rendermethod name="g_object_set" ponyname="set" render="1" deprecated=""/>
+      <rendermethod name="g_object_set_data" ponyname="set_data" render="1" deprecated=""/>
+      <rendermethod name="g_object_set_data_full" ponyname="set_data_full" render="1" deprecated=""/>
+      <rendermethod name="g_object_set_property" ponyname="set_property" render="1" deprecated=""/>
+      <rendermethod name="g_object_set_qdata" ponyname="set_qdata" render="1" deprecated=""/>
+      <rendermethod name="g_object_set_qdata_full" ponyname="set_qdata_full" render="1" deprecated=""/>
+      <rendermethod name="g_object_set_valist" ponyname="set_valist" render="1" deprecated=""/>
+      <rendermethod name="g_object_setv" ponyname="setv" render="1" deprecated=""/>
+      <rendermethod name="g_object_steal_data" ponyname="steal_data" render="1" deprecated=""/>
+      <rendermethod name="g_object_steal_qdata" ponyname="steal_qdata" render="1" deprecated=""/>
+      <rendermethod name="g_object_thaw_notify" ponyname="thaw_notify" render="1" deprecated=""/>
+      <rendermethod name="g_object_unref" ponyname="unref" render="1" deprecated=""/>
+      <rendermethod name="g_object_watch_closure" ponyname="watch_closure" render="1" deprecated=""/>
+      <rendermethod name="g_object_weak_ref" ponyname="weak_ref" render="1" deprecated=""/>
+      <rendermethod name="g_object_weak_unref" ponyname="weak_unref" render="1" deprecated=""/>
+      <renderfunction name="g_object_compat_control" ponyname="compat_control" render="1" deprecated=""/>
+      <renderfunction name="g_object_interface_find_property" ponyname="interface_find_property" render="1" deprecated=""/>
+      <renderfunction name="g_object_interface_install_property" ponyname="interface_install_property" render="1" deprecated=""/>
+      <renderfunction name="g_object_interface_list_properties" ponyname="interface_list_properties" render="1" deprecated=""/>
+    </renderclass>
+    <renderclass name="GParamSpec" render="1" parent="" abstract="1" final="" fundamental="1">
+      <rendermethod name="g_param_spec_get_blurb" ponyname="get_blurb" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_get_default_value" ponyname="get_default_value" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_get_name" ponyname="get_name" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_get_name_quark" ponyname="get_name_quark" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_get_nick" ponyname="get_nick" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_get_qdata" ponyname="get_qdata" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_get_redirect_target" ponyname="get_redirect_target" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_ref" ponyname="ref" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_ref_sink" ponyname="ref_sink" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_set_qdata" ponyname="set_qdata" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_set_qdata_full" ponyname="set_qdata_full" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_sink" ponyname="sink" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_steal_qdata" ponyname="steal_qdata" render="1" deprecated=""/>
+      <rendermethod name="g_param_spec_unref" ponyname="unref" render="1" deprecated=""/>
+      <renderfunction name="g_param_spec_internal" ponyname="internal" render="1" deprecated=""/>
+      <renderfunction name="g_param_spec_is_valid_name" ponyname="is_valid_name" render="1" deprecated=""/>
+    </renderclass>
+    <renderclass name="GParamSpecBoolean" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecBoxed" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecChar" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecDouble" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecEnum" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecFlags" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecFloat" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecGType" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecInt" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecInt64" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecLong" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecObject" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecOverride" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecParam" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecPointer" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecString" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecUChar" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecUInt" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecUInt64" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecULong" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecUnichar" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecValueArray" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GParamSpecVariant" render="1" parent="ParamSpec" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GTypeModule" render="1" parent="Object" abstract="1" final="" fundamental="">
+      <rendermethod name="g_type_module_add_interface" ponyname="add_interface" render="1" deprecated=""/>
+      <rendermethod name="g_type_module_register_enum" ponyname="register_enum" render="1" deprecated=""/>
+      <rendermethod name="g_type_module_register_flags" ponyname="register_flags" render="1" deprecated=""/>
+      <rendermethod name="g_type_module_register_type" ponyname="register_type" render="1" deprecated=""/>
+      <rendermethod name="g_type_module_set_name" ponyname="set_name" render="1" deprecated=""/>
+      <rendermethod name="g_type_module_unuse" ponyname="unuse" render="1" deprecated=""/>
+      <rendermethod name="g_type_module_use" ponyname="use" render="1" deprecated=""/>
+    </renderclass>
+    <renderinterface name="GTypePlugin" render="1">
+      <rendermethod name="g_type_plugin_complete_interface_info" ponyname="complete_interface_info" render="1" deprecated=""/>
+      <rendermethod name="g_type_plugin_complete_type_info" ponyname="complete_type_info" render="1" deprecated=""/>
+      <rendermethod name="g_type_plugin_unuse" ponyname="unuse" render="1" deprecated=""/>
+      <rendermethod name="g_type_plugin_use" ponyname="use" render="1" deprecated=""/>
+    </renderinterface>
+    <rendercallback name="GBaseFinalizeFunc" render="0"/>
+    <rendercallback name="GBaseInitFunc" render="0"/>
+    <rendercallback name="GBindingTransformFunc" render="0"/>
+    <rendercallback name="GBoxedCopyFunc" render="0"/>
+    <rendercallback name="GBoxedFreeFunc" render="0"/>
+    <rendercallback name="GCallback" render="0"/>
+    <rendercallback name="GClassFinalizeFunc" render="0"/>
+    <rendercallback name="GClassInitFunc" render="0"/>
+    <rendercallback name="GClosureMarshal" render="0"/>
+    <rendercallback name="GClosureNotify" render="0"/>
+    <rendercallback name="GInstanceInitFunc" render="0"/>
+    <rendercallback name="GInterfaceFinalizeFunc" render="0"/>
+    <rendercallback name="GInterfaceInitFunc" render="0"/>
+    <rendercallback name="GObjectFinalizeFunc" render="0"/>
+    <rendercallback name="GObjectGetPropertyFunc" render="0"/>
+    <rendercallback name="GObjectSetPropertyFunc" render="0"/>
+    <rendercallback name="GSignalAccumulator" render="0"/>
+    <rendercallback name="GSignalEmissionHook" render="0"/>
+    <rendercallback name="GToggleNotify" render="0"/>
+    <rendercallback name="GTypeClassCacheFunc" render="0"/>
+    <rendercallback name="GTypeInterfaceCheckFunc" render="0"/>
+    <rendercallback name="GTypePluginCompleteInterfaceInfo" render="0"/>
+    <rendercallback name="GTypePluginCompleteTypeInfo" render="0"/>
+    <rendercallback name="GTypePluginUnuse" render="0"/>
+    <rendercallback name="GTypePluginUse" render="0"/>
+    <rendercallback name="GVaClosureMarshal" render="0"/>
+    <rendercallback name="GValueTransform" render="0"/>
+    <rendercallback name="GWeakNotify" render="0"/>
+  </ns>
+</rs>

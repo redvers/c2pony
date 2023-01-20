@@ -1,0 +1,6 @@
+struct GTypePluginClassT
+  embed base_iface': GTypeInterfaceT = GTypeInterfaceT
+  var use_plugin': GTypePluginUse = GTypePluginUse
+  var unuse_plugin': GTypePluginUnuse = GTypePluginUnuse
+  var complete_type_info': GTypePluginCompleteTypeInfo = GTypePluginCompleteTypeInfo
+  var complete_interface_info': GTypePluginCompleteInterfaceInfo = GTypePluginCompleteInterfaceInfo

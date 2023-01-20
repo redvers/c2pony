@@ -1,0 +1,1 @@
+use @g_type_module_use[I32](module': GTypeModuleT)

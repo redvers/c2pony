@@ -1,0 +1,1 @@
+use @g_utf8_get_char[U32](p': Pointer[U8] tag)

@@ -1,0 +1,1 @@
+use @g_source_attach[U32](source': GSourceT, context': GMainContextT)

@@ -1,0 +1,1 @@
+use @g_sequence_lookup_iter[GSequenceNodeT](seq': GSequenceT, data': Pointer[None] tag, iter_cmp': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag)

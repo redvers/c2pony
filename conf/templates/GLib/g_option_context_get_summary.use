@@ -1,0 +1,1 @@
+use @g_option_context_get_summary[Pointer[U8] tag](context': GOptionContextT)

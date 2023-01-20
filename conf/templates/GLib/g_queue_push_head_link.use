@@ -1,0 +1,1 @@
+use @g_queue_push_head_link[None](queue': GQueueT, link': GListT)

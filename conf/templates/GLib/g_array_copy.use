@@ -1,0 +1,1 @@
+use @g_array_copy[GArrayT](array': GArrayT)

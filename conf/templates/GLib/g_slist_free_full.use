@@ -1,0 +1,1 @@
+use @g_slist_free_full[None](list': GSListT, free_func': GDestroyNotify)

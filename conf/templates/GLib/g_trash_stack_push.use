@@ -1,0 +1,1 @@
+use @g_trash_stack_push[None](stack_p': Pointer[GTrashStackT], data_p': Pointer[None] tag)

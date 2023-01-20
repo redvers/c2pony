@@ -1,0 +1,1 @@
+use @g_type_get_type_registration_serial[U32]()

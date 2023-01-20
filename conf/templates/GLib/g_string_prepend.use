@@ -1,0 +1,1 @@
+use @g_string_prepend[GStringT](string': GStringT, val': Pointer[U8] tag)
