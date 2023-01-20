@@ -1,0 +1,2 @@
+  fun param_spec_flags(name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, flags_type': U64, default_value': U32, flags': I32): GParamSpecT =>
+    @g_param_spec_flags(name', nick', blurb', flags_type', default_value', flags')

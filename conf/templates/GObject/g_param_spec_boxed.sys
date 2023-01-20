@@ -1,0 +1,2 @@
+  fun param_spec_boxed(name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, boxed_type': U64, flags': I32): GParamSpecT =>
+    @g_param_spec_boxed(name', nick', blurb', boxed_type', flags')

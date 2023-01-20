@@ -1,0 +1,2 @@
+  fun init(value': GValueT, g_type': U64): GValueT =>
+    @g_value_init(value', g_type')

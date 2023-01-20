@@ -1,0 +1,2 @@
+  fun param_spec_boolean(name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, default_value': I32, flags': I32): GParamSpecT =>
+    @g_param_spec_boolean(name', nick', blurb', default_value', flags')

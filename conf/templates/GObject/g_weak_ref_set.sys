@@ -1,0 +1,2 @@
+  fun set(weak_ref': anon_3672, object': Pointer[None] tag): None =>
+    @g_weak_ref_set(weak_ref', object')

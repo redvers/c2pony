@@ -1,0 +1,2 @@
+  fun invalidate(closure': GClosureT): None =>
+    @g_closure_invalidate(closure')

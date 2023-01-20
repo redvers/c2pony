@@ -1,0 +1,2 @@
+  fun type_get_plugin(type': U64): GTypePluginT =>
+    @g_type_get_plugin(type')

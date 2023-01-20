@@ -1,0 +1,2 @@
+  fun clear_signal_handler(handler_id_ptr': Pointer[U64] tag, instance': Pointer[None] tag): None =>
+    @g_clear_signal_handler(handler_id_ptr', instance')

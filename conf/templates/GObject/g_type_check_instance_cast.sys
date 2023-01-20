@@ -1,0 +1,2 @@
+  fun type_check_instance_cast(instance': GTypeInstanceT, iface_type': U64): GTypeInstanceT =>
+    @g_type_check_instance_cast(instance', iface_type')

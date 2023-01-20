@@ -1,0 +1,2 @@
+  fun set_int64(value': GValueT, v_int64': I64): None =>
+    @g_value_set_int64(value', v_int64')

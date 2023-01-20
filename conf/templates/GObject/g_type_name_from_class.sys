@@ -1,0 +1,2 @@
+  fun type_name_from_class(g_class': GTypeClassT): Pointer[U8] tag =>
+    @g_type_name_from_class(g_class')

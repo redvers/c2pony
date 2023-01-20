@@ -1,0 +1,2 @@
+  fun install_property(oclass': GObjectClassT, property_id': U32, pspec': GParamSpecT): None =>
+    @g_object_class_install_property(oclass', property_id', pspec')

@@ -1,0 +1,2 @@
+  fun get_default_value(pspec': GParamSpecT): GValueT =>
+    @g_param_spec_get_default_value(pspec')

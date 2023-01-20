@@ -1,0 +1,2 @@
+  fun new(type_prefixing': I32): GParamSpecPoolT =>
+    @g_param_spec_pool_new(type_prefixing')

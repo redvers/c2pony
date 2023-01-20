@@ -1,0 +1,2 @@
+  fun sink(pspec': GParamSpecT): None =>
+    @g_param_spec_sink(pspec')

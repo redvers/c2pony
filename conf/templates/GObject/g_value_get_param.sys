@@ -1,0 +1,2 @@
+  fun get_param(value': GValueT): GParamSpecT =>
+    @g_value_get_param(value')

@@ -1,0 +1,2 @@
+  fun get_schar(value': GValueT): I8 =>
+    @g_value_get_schar(value')

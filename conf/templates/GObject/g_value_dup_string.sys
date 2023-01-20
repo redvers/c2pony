@@ -1,0 +1,2 @@
+  fun dup_string(value': GValueT): Pointer[U8] tag =>
+    @g_value_dup_string(value')

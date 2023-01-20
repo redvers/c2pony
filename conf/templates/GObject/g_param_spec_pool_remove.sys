@@ -1,0 +1,2 @@
+  fun remove(pool': GParamSpecPoolT, pspec': GParamSpecT): None =>
+    @g_param_spec_pool_remove(pool', pspec')

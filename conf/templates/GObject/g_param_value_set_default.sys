@@ -1,0 +1,2 @@
+  fun param_value_set_default(pspec': GParamSpecT, value': GValueT): None =>
+    @g_param_value_set_default(pspec', value')

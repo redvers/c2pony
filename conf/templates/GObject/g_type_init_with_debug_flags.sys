@@ -1,0 +1,2 @@
+  fun type_init_with_debug_flags(debug_flags': U32): None =>
+    @g_type_init_with_debug_flags(debug_flags')

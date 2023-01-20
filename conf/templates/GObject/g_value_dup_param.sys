@@ -1,0 +1,2 @@
+  fun dup_param(value': GValueT): GParamSpecT =>
+    @g_value_dup_param(value')

@@ -1,0 +1,2 @@
+  fun signal_lookup(name': Pointer[U8] tag, itype': U64): U32 =>
+    @g_signal_lookup(name', itype')

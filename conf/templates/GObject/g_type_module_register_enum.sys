@@ -1,0 +1,2 @@
+  fun register_enum(module': GTypeModuleT, name': Pointer[U8] tag, const_static_values': GEnumValueT): U64 =>
+    @g_type_module_register_enum(module', name', const_static_values')

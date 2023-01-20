@@ -1,0 +1,2 @@
+  fun type_init(): None =>
+    @g_type_init()

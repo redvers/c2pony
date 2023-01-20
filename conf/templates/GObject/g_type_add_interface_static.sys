@@ -1,0 +1,2 @@
+  fun type_add_interface_static(instance_type': U64, interface_type': U64, info': GInterfaceInfoT): None =>
+    @g_type_add_interface_static(instance_type', interface_type', info')

@@ -1,0 +1,2 @@
+  fun get_property(object': GObjectT, property_name': Pointer[U8] tag, value': GValueT): None =>
+    @g_object_get_property(object', property_name', value')

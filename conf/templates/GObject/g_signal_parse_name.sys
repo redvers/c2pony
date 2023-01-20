@@ -1,0 +1,2 @@
+  fun signal_parse_name(detailed_signal': Pointer[U8] tag, itype': U64, signal_id_p': Pointer[U32] tag, detail_p': Pointer[U32] tag, force_detail_quark': I32): I32 =>
+    @g_signal_parse_name(detailed_signal', itype', signal_id_p', detail_p', force_detail_quark')

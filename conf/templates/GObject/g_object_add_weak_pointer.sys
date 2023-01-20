@@ -1,0 +1,2 @@
+  fun add_weak_pointer(object': GObjectT, weak_pointer_location': Pointer[Pointer[None]] tag): None =>
+    @g_object_add_weak_pointer(object', weak_pointer_location')

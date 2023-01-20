@@ -1,0 +1,2 @@
+  fun type_register_fundamental(type_id': U64, type_name': Pointer[U8] tag, info': GTypeInfoT, finfo': GTypeFundamentalInfoT, flags': U32): U64 =>
+    @g_type_register_fundamental(type_id', type_name', info', finfo', flags')

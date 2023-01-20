@@ -1,0 +1,2 @@
+  fun type_from_name(name': Pointer[U8] tag): U64 =>
+    @g_type_from_name(name')

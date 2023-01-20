@@ -1,0 +1,2 @@
+  fun get_private(klass': GTypeClassT, private_type': U64): Pointer[None] tag =>
+    @g_type_class_get_private(klass', private_type')

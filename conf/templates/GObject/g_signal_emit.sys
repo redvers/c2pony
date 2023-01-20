@@ -1,0 +1,2 @@
+  fun signal_emit(instance': Pointer[None] tag, signal_id': U32, detail': U32, ...): None =>
+    @g_signal_emit(instance', signal_id', detail', ...)

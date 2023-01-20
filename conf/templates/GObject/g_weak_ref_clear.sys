@@ -1,0 +1,2 @@
+  fun clear(weak_ref': anon_3672): None =>
+    @g_weak_ref_clear(weak_ref')

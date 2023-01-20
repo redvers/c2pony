@@ -1,0 +1,2 @@
+  fun enum_complete_type_info(g_enum_type': U64, info': GTypeInfoT, const_values': GEnumValueT): None =>
+    @g_enum_complete_type_info(g_enum_type', info', const_values')

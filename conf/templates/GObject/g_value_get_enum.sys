@@ -1,0 +1,2 @@
+  fun get_enum(value': GValueT): I32 =>
+    @g_value_get_enum(value')

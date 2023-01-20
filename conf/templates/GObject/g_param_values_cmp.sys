@@ -1,0 +1,2 @@
+  fun param_values_cmp(pspec': GParamSpecT, value1': GValueT, value2': GValueT): I32 =>
+    @g_param_values_cmp(pspec', value1', value2')

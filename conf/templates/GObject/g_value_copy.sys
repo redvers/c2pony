@@ -1,0 +1,2 @@
+  fun copy(src_value': GValueT, dest_value': GValueT): None =>
+    @g_value_copy(src_value', dest_value')

@@ -1,0 +1,2 @@
+  fun new_simple(sizeof_closure': U32, data': Pointer[None] tag): GClosureT =>
+    @g_closure_new_simple(sizeof_closure', data')

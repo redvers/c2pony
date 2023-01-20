@@ -1,0 +1,2 @@
+  fun take_boxed(value': GValueT, v_boxed': Pointer[None] tag): None =>
+    @g_value_take_boxed(value', v_boxed')

@@ -1,0 +1,2 @@
+  fun register_type(module': GTypeModuleT, parent_type': U64, type_name': Pointer[U8] tag, type_info': GTypeInfoT, flags': U32): U64 =>
+    @g_type_module_register_type(module', parent_type', type_name', type_info', flags')

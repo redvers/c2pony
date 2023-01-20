@@ -1,0 +1,2 @@
+  fun get_data(object': GObjectT, key': Pointer[U8] tag): Pointer[None] tag =>
+    @g_object_get_data(object', key')

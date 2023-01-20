@@ -1,0 +1,2 @@
+  fun new_valist(object_type': U64, first_property_name': Pointer[U8] tag, var_args': valisttagT): GObjectT =>
+    @g_object_new_valist(object_type', first_property_name', var_args')

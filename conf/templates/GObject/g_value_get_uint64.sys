@@ -1,0 +1,2 @@
+  fun get_uint64(value': GValueT): U64 =>
+    @g_value_get_uint64(value')

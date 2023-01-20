@@ -1,0 +1,2 @@
+  fun get_target(binding': GBindingT): GObjectT =>
+    @g_binding_get_target(binding')

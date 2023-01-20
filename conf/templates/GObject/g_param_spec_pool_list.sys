@@ -1,0 +1,2 @@
+  fun list(pool': GParamSpecPoolT, owner_type': U64, n_pspecs_p': Pointer[U32] tag): Pointer[GParamSpecT] =>
+    @g_param_spec_pool_list(pool', owner_type', n_pspecs_p')

@@ -1,0 +1,2 @@
+  fun take_string(value': GValueT, v_string': Pointer[U8] tag): None =>
+    @g_value_take_string(value', v_string')

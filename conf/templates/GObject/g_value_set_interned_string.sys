@@ -1,0 +1,2 @@
+  fun set_interned_string(value': GValueT, v_string': Pointer[U8] tag): None =>
+    @g_value_set_interned_string(value', v_string')

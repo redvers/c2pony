@@ -1,0 +1,2 @@
+  fun set_char(value': GValueT, v_char': U8): None =>
+    @g_value_set_char(value', v_char')

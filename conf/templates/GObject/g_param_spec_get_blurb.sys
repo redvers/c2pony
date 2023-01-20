@@ -1,0 +1,2 @@
+  fun get_blurb(pspec': GParamSpecT): Pointer[U8] tag =>
+    @g_param_spec_get_blurb(pspec')

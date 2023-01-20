@@ -1,0 +1,2 @@
+  fun signal_name(signal_id': U32): Pointer[U8] tag =>
+    @g_signal_name(signal_id')

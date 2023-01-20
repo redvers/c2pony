@@ -1,0 +1,2 @@
+  fun setv(object': GObjectT, n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValueT): None =>
+    @g_object_setv(object', n_properties', names', values')

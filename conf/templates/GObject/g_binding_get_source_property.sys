@@ -1,0 +1,2 @@
+  fun get_source_property(binding': GBindingT): Pointer[U8] tag =>
+    @g_binding_get_source_property(binding')

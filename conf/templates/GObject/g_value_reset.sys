@@ -1,0 +1,2 @@
+  fun reset(value': GValueT): GValueT =>
+    @g_value_reset(value')

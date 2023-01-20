@@ -1,0 +1,2 @@
+  fun unset(value': GValueT): None =>
+    @g_value_unset(value')

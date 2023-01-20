@@ -1,0 +1,2 @@
+  fun prepend(value_array': GValueArrayT, value': GValueT): GValueArrayT =>
+    @g_value_array_prepend(value_array', value')

@@ -1,0 +1,2 @@
+  fun param_type_register_static(name': Pointer[U8] tag, pspec_info': GParamSpecTypeInfoT): U64 =>
+    @g_param_type_register_static(name', pspec_info')

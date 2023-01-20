@@ -1,0 +1,2 @@
+  fun connect(object': Pointer[None] tag, signal_spec': Pointer[U8] tag, ...): Pointer[None] tag =>
+    @g_object_connect(object', signal_spec', ...)

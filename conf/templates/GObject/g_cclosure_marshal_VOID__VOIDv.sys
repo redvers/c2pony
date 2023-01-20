@@ -1,0 +1,2 @@
+  fun marshal_VOID__VOIDv(closure': GClosureT, return_value': GValueT, instance': Pointer[None] tag, args': valisttagT, marshal_data': Pointer[None] tag, n_params': I32, param_types': Pointer[U64] tag): None =>
+    @g_cclosure_marshal_VOID__VOIDv(closure', return_value', instance', args', marshal_data', n_params', param_types')

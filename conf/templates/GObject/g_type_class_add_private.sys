@@ -1,0 +1,2 @@
+  fun add_private(g_class': Pointer[None] tag, private_size': U64): None =>
+    @g_type_class_add_private(g_class', private_size')

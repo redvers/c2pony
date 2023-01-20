@@ -1,0 +1,2 @@
+  fun free(value_array': GValueArrayT): None =>
+    @g_value_array_free(value_array')

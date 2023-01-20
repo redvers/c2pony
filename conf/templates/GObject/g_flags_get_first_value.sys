@@ -1,0 +1,2 @@
+  fun flags_get_first_value(flags_class': GFlagsClassT, value': U32): GFlagsValueT =>
+    @g_flags_get_first_value(flags_class', value')

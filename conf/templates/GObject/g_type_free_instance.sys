@@ -1,0 +1,2 @@
+  fun type_free_instance(instance': GTypeInstanceT): None =>
+    @g_type_free_instance(instance')

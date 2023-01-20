@@ -1,0 +1,2 @@
+  fun enum_get_value_by_nick(enum_class': GEnumClassT, nick': Pointer[U8] tag): GEnumValueT =>
+    @g_enum_get_value_by_nick(enum_class', nick')

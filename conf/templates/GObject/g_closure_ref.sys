@@ -1,0 +1,2 @@
+  fun ref(closure': GClosureT): GClosureT =>
+    @g_closure_ref(closure')

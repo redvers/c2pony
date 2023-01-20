@@ -1,0 +1,2 @@
+  fun bind_property(source': Pointer[None] tag, source_property': Pointer[U8] tag, target': Pointer[None] tag, target_property': Pointer[U8] tag, flags': U32): GBindingT =>
+    @g_object_bind_property(source', source_property', target', target_property', flags')

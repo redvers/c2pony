@@ -1,0 +1,2 @@
+  fun signal_override_class_handler(signal_name': Pointer[U8] tag, instance_type': U64, class_handler': GCallback): None =>
+    @g_signal_override_class_handler(signal_name', instance_type', class_handler')

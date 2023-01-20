@@ -1,0 +1,2 @@
+  fun type_register_dynamic(parent_type': U64, type_name': Pointer[U8] tag, plugin': GTypePluginT, flags': U32): U64 =>
+    @g_type_register_dynamic(parent_type', type_name', plugin', flags')

@@ -1,0 +1,2 @@
+  fun lookup(pool': GParamSpecPoolT, param_name': Pointer[U8] tag, owner_type': U64, walk_ancestors': I32): GParamSpecT =>
+    @g_param_spec_pool_lookup(pool', param_name', owner_type', walk_ancestors')

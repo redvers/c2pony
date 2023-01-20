@@ -1,0 +1,2 @@
+  fun set_param(value': GValueT, param': GParamSpecT): None =>
+    @g_value_set_param(value', param')

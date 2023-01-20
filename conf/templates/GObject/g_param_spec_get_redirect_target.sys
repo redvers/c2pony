@@ -1,0 +1,2 @@
+  fun get_redirect_target(pspec': GParamSpecT): GParamSpecT =>
+    @g_param_spec_get_redirect_target(pspec')

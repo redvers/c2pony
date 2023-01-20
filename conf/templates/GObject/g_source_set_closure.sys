@@ -1,0 +1,2 @@
+  fun source_set_closure(source': GSourceT, closure': GClosureT): None =>
+    @g_source_set_closure(source', closure')

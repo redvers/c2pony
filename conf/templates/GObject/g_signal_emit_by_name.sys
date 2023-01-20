@@ -1,0 +1,2 @@
+  fun signal_emit_by_name(instance': Pointer[None] tag, detailed_signal': Pointer[U8] tag, ...): None =>
+    @g_signal_emit_by_name(instance', detailed_signal', ...)

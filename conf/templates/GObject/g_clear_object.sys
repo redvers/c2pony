@@ -1,0 +1,2 @@
+  fun clear_object(object_ptr': Pointer[GObjectT]): None =>
+    @g_clear_object(object_ptr')
