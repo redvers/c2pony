@@ -1,0 +1,2 @@
+  fun unuse(): None =>
+    GTypeModuleP.unuse(getptr())

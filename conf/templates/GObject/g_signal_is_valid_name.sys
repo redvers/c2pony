@@ -1,2 +1,2 @@
   fun signal_is_valid_name(name': String): I32 =>
-    @g_signal_is_valid_name(name')
+    @g_signal_is_valid_name(name'.cstring())

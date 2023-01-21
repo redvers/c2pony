@@ -1,0 +1,2 @@
+  fun setv(n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValue): None =>
+    GObjectP.setv(getptr(), n_properties', names', values')

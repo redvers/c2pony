@@ -1,2 +1,2 @@
   fun param_spec_boxed(name': String, nick': String, blurb': String, boxed_type': U64, flags': I32): GParamSpec =>
-    @g_param_spec_boxed(name', nick', blurb', boxed_type', flags')
+    @g_param_spec_boxed(name'.cstring(), nick'.cstring(), blurb'.cstring(), boxed_type', flags')

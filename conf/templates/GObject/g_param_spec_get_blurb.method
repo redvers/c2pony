@@ -1,0 +1,2 @@
+  fun get_blurb(): String iso^ =>
+    String.from_cstring(GParamSpecP.get_blurb(getptr())).clone()

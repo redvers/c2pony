@@ -32,7 +32,7 @@
       <xsl:when test="concat($root/@name, '.sys')='.sys'">
       </xsl:when>
       <xsl:otherwise>
-        <!--        <xsl:result-document href="../templates/{$namespace}/{$root/@name}.sys" method="text"> -->
+        <xsl:result-document href="../templates/{$namespace}/{$root/@name}.method" method="text">
           <xsl:choose>
             <xsl:when test="name($root)='use'">
               <xsl:if test="$render='0'">
@@ -105,10 +105,9 @@
               </xsl:if>
             </xsl:when>
           </xsl:choose>
-                  <!--        </xsl:result-document> -->
+        </xsl:result-document>
       </xsl:otherwise>
     </xsl:choose>
-              <xsl:value-of select="$newline"/>
   </xsl:template>
 
 

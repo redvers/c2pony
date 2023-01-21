@@ -1,2 +1,2 @@
   fun param_spec_object(name': String, nick': String, blurb': String, object_type': U64, flags': I32): GParamSpec =>
-    @g_param_spec_object(name', nick', blurb', object_type', flags')
+    @g_param_spec_object(name'.cstring(), nick'.cstring(), blurb'.cstring(), object_type', flags')

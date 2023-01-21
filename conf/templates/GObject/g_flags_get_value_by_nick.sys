@@ -1,2 +1,2 @@
   fun flags_get_value_by_nick(flags_class': GFlagsClass, nick': String): GFlagsValue =>
-    @g_flags_get_value_by_nick(flags_class', nick')
+    @g_flags_get_value_by_nick(flags_class', nick'.cstring())

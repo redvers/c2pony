@@ -1,0 +1,2 @@
+  fun get_data(key': String): Pointer[None] tag =>
+    GObjectP.get_data(getptr(), key'.cstring())

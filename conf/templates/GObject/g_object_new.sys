@@ -1,2 +1,2 @@
   fun new(object_type': U64, first_property_name': String, ...): Pointer[None] tag =>
-    @g_object_new(object_type', first_property_name', ...)
+    @g_object_new(object_type', first_property_name'.cstring(), ...)

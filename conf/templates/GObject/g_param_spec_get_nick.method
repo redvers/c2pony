@@ -1,0 +1,2 @@
+  fun get_nick(): String iso^ =>
+    String.from_cstring(GParamSpecP.get_nick(getptr())).clone()

@@ -1,2 +1,2 @@
   fun dup_data(object': GObject, key': String, dup_func': GDuplicateFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
-    @g_object_dup_data(object', key', dup_func', user_data')
+    @g_object_dup_data(object', key'.cstring(), dup_func', user_data')

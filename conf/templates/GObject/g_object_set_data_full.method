@@ -1,0 +1,2 @@
+  fun set_data_full(key': String, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    GObjectP.set_data_full(getptr(), key'.cstring(), data', destroy')

@@ -1,2 +1,2 @@
   fun param_spec_enum(name': String, nick': String, blurb': String, enum_type': U64, default_value': I32, flags': I32): GParamSpec =>
-    @g_param_spec_enum(name', nick', blurb', enum_type', default_value', flags')
+    @g_param_spec_enum(name'.cstring(), nick'.cstring(), blurb'.cstring(), enum_type', default_value', flags')

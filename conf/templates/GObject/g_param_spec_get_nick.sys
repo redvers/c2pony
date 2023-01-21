@@ -1,2 +1,2 @@
-  fun get_nick(pspec': GParamSpec): Pointer[U8] tag =>
-    @g_param_spec_get_nick(pspec')
+  fun get_nick(pspec': GParamSpec): String iso^ =>
+    String.from_cstring(@g_param_spec_get_nick(pspec')).clone()

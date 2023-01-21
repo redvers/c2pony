@@ -1,0 +1,2 @@
+  fun set_data(key': String, data': Pointer[None] tag): None =>
+    GObjectP.set_data(getptr(), key'.cstring(), data')

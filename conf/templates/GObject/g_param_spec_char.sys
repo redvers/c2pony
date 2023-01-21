@@ -1,2 +1,2 @@
   fun param_spec_char(name': String, nick': String, blurb': String, minimum': I8, maximum': I8, default_value': I8, flags': I32): GParamSpec =>
-    @g_param_spec_char(name', nick', blurb', minimum', maximum', default_value', flags')
+    @g_param_spec_char(name'.cstring(), nick'.cstring(), blurb'.cstring(), minimum', maximum', default_value', flags')

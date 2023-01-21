@@ -1,2 +1,2 @@
   fun signal_connect_object(instance': Pointer[None] tag, detailed_signal': String, c_handler': GCallback, gobject': Pointer[None] tag, connect_flags': U32): U64 =>
-    @g_signal_connect_object(instance', detailed_signal', c_handler', gobject', connect_flags')
+    @g_signal_connect_object(instance', detailed_signal'.cstring(), c_handler', gobject', connect_flags')

@@ -1,0 +1,2 @@
+  fun unbind(): None =>
+    GBindingP.unbind(getptr())

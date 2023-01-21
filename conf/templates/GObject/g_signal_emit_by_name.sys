@@ -1,2 +1,2 @@
   fun signal_emit_by_name(instance': Pointer[None] tag, detailed_signal': String, ...): None =>
-    @g_signal_emit_by_name(instance', detailed_signal', ...)
+    @g_signal_emit_by_name(instance', detailed_signal'.cstring(), ...)

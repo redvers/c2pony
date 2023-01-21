@@ -1,0 +1,2 @@
+  fun ref(): Pointer[None] tag =>
+    GObjectP.ref(getptr())

@@ -1,0 +1,2 @@
+  fun dup_data(key': String, dup_func': GDuplicateFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
+    GObjectP.dup_data(getptr(), key'.cstring(), dup_func', user_data')

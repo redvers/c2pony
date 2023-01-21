@@ -1,0 +1,2 @@
+  fun get_source(): GObject =>
+    GBindingP.get_source(getptr())

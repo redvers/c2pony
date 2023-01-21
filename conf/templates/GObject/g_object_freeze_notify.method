@@ -1,0 +1,2 @@
+  fun freeze_notify(): None =>
+    GObjectP.freeze_notify(getptr())

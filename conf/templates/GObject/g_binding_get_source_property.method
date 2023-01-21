@@ -1,0 +1,2 @@
+  fun get_source_property(): String iso^ =>
+    String.from_cstring(GBindingP.get_source_property(getptr())).clone()

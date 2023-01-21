@@ -1,0 +1,2 @@
+  fun get_qdata(quark': U32): Pointer[None] tag =>
+    GParamSpecP.get_qdata(getptr(), quark')

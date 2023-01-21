@@ -1,0 +1,2 @@
+  fun set(first_property_name': String, ...): None =>
+    GObjectP.set(getptr(), first_property_name'.cstring(), ...)

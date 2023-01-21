@@ -1,0 +1,2 @@
+  fun weak_unref(notify': GWeakNotify, data': Pointer[None] tag): None =>
+    GObjectP.weak_unref(getptr(), notify', data')

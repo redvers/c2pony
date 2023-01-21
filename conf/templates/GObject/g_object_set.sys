@@ -1,2 +1,2 @@
   fun set(object': Pointer[None] tag, first_property_name': String, ...): None =>
-    @g_object_set(object', first_property_name', ...)
+    @g_object_set(object', first_property_name'.cstring(), ...)

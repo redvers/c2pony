@@ -1,0 +1,2 @@
+  fun get_target(): GObject =>
+    GBindingP.get_target(getptr())

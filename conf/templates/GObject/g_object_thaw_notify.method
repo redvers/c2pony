@@ -1,0 +1,2 @@
+  fun thaw_notify(): None =>
+    GObjectP.thaw_notify(getptr())

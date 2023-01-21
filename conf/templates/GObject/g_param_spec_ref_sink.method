@@ -1,0 +1,2 @@
+  fun ref_sink(): GParamSpec =>
+    GParamSpecP.ref_sink(getptr())

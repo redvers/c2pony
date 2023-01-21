@@ -1,2 +1,2 @@
-  fun dup_string(value': GValue): Pointer[U8] tag =>
-    @g_value_dup_string(value')
+  fun dup_string(value': GValue): String iso^ =>
+    String.from_cstring(@g_value_dup_string(value')).clone()

@@ -1,2 +1,2 @@
   fun flags_register_static(name': String, const_static_values': GFlagsValue): U64 =>
-    @g_flags_register_static(name', const_static_values')
+    @g_flags_register_static(name'.cstring(), const_static_values')

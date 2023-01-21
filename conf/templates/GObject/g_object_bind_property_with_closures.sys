@@ -1,2 +1,2 @@
   fun bind_property_with_closures(source': Pointer[None] tag, source_property': String, target': Pointer[None] tag, target_property': String, flags': U32, transform_to': GClosure, transform_from': GClosure): GBinding =>
-    @g_object_bind_property_with_closures(source', source_property', target', target_property', flags', transform_to', transform_from')
+    @g_object_bind_property_with_closures(source', source_property'.cstring(), target', target_property'.cstring(), flags', transform_to', transform_from')

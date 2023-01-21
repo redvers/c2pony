@@ -1,0 +1,2 @@
+  fun register_flags(name': String, const_static_values': GFlagsValue): U64 =>
+    GTypeModuleP.register_flags(getptr(), name'.cstring(), const_static_values')

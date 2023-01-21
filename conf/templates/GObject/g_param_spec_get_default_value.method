@@ -1,0 +1,2 @@
+  fun get_default_value(): GValue =>
+    GParamSpecP.get_default_value(getptr())

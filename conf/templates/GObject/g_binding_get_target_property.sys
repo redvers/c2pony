@@ -1,2 +1,2 @@
-  fun get_target_property(binding': GBinding): Pointer[U8] tag =>
-    @g_binding_get_target_property(binding')
+  fun get_target_property(binding': GBinding): String iso^ =>
+    String.from_cstring(@g_binding_get_target_property(binding')).clone()

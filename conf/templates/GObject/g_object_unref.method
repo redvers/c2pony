@@ -1,0 +1,2 @@
+  fun unref(): None =>
+    GObjectP.unref(getptr())

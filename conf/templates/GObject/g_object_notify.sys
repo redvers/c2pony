@@ -1,2 +1,2 @@
   fun notify(object': GObject, property_name': String): None =>
-    @g_object_notify(object', property_name')
+    @g_object_notify(object', property_name'.cstring())

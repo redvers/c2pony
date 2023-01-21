@@ -1,0 +1,2 @@
+  fun steal_qdata(quark': U32): Pointer[None] tag =>
+    GObjectP.steal_qdata(getptr(), quark')

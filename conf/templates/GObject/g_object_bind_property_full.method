@@ -1,0 +1,2 @@
+  fun bind_property_full(source_property': String, target': Pointer[None] tag, target_property': String, flags': U32, transform_to': GBindingTransformFunc, transform_from': GBindingTransformFunc, user_data': Pointer[None] tag, notify': GDestroyNotify): GBinding =>
+    GObjectP.bind_property_full(getptr(), source_property'.cstring(), target', target_property'.cstring(), flags', transform_to', transform_from', user_data', notify')

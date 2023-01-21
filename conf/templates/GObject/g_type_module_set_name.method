@@ -1,0 +1,2 @@
+  fun set_name(name': String): None =>
+    GTypeModuleP.set_name(getptr(), name'.cstring())

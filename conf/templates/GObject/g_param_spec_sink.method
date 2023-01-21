@@ -1,0 +1,2 @@
+  fun sink(): None =>
+    GParamSpecP.sink(getptr())

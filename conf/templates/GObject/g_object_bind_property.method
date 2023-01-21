@@ -1,0 +1,2 @@
+  fun bind_property(source_property': String, target': Pointer[None] tag, target_property': String, flags': U32): GBinding =>
+    GObjectP.bind_property(getptr(), source_property'.cstring(), target', target_property'.cstring(), flags')

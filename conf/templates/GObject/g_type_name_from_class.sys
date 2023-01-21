@@ -1,2 +1,2 @@
-  fun type_name_from_class(g_class': GTypeClass): Pointer[U8] tag =>
-    @g_type_name_from_class(g_class')
+  fun type_name_from_class(g_class': GTypeClass): String iso^ =>
+    String.from_cstring(@g_type_name_from_class(g_class')).clone()

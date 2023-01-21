@@ -1,0 +1,2 @@
+  fun is_floating(): I32 =>
+    GObjectP.is_floating(getptr())

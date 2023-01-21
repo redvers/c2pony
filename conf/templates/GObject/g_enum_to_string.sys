@@ -1,2 +1,2 @@
-  fun enum_to_string(g_enum_type': U64, value': I32): Pointer[U8] tag =>
-    @g_enum_to_string(g_enum_type', value')
+  fun enum_to_string(g_enum_type': U64, value': I32): String iso^ =>
+    String.from_cstring(@g_enum_to_string(g_enum_type', value')).clone()

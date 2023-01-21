@@ -1,2 +1,2 @@
   fun get_property(object': GObject, property_name': String, value': GValue): None =>
-    @g_object_get_property(object', property_name', value')
+    @g_object_get_property(object', property_name'.cstring(), value')

@@ -1,0 +1,2 @@
+  fun force_floating(): None =>
+    GObjectP.force_floating(getptr())
