@@ -31,9 +31,7 @@ actor Main
                                       "flags".cstring(), U32(0),
                                       Pointer[None]))
 
-    let window: GtkWindow = GtkWindow(GObjectG.gnew(@gtk_window_get_type(), [], []))
-    app.add_window(window)
-    window.show()
+    GObjectG.connect_object(app, "activate", Erk~cb(), app, U32(0))
     app.run(0, Pointer[Pointer[U8]])
     /*
     var gerror: NullablePointer[GErrorT] = NullablePointer[GErrorT].none()
@@ -46,10 +44,15 @@ actor Main
     app.signal_connect_object("activate", Erk~cb(), app)
     app.run()
 
-
+*/
 
 primitive Erk
   fun @cb(app': Pointer[GObjectP], data: Pointer[GObjectP]) =>
+    @printf("Wassup\n".cstring())
+    let window: GtkWindow = GtkWindow(GObjectG.gnew(@gtk_window_get_type(), [], []))
+    GtkApplication(app').add_window(window)
+    window.show()
+    /*
     let builder: GtkBuilder = GtkBuilder(@g_object_new(@gtk_builder_get_type(), Pointer[None]))
     if (not builder.add_from_resource("/ui/main.ui")) then
       @printf("Is bad yo…\n".cstring())

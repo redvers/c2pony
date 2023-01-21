@@ -60,7 +60,7 @@
     <renderfunction name="g_signal_connect_closure" ponyname="signal_connect_closure" render="0" deprecated=""/>
     <renderfunction name="g_signal_connect_closure_by_id" ponyname="signal_connect_closure_by_id" render="0" deprecated=""/>
     <renderfunction name="g_signal_connect_data" ponyname="signal_connect_data" render="0" deprecated=""/>
-    <renderfunction name="g_signal_connect_object" ponyname="signal_connect_object" render="0" deprecated=""/>
+    <renderfunction name="g_signal_connect_object" ponyname="signal_connect_object" render="1" deprecated=""/>
     <renderfunction name="g_signal_emit" ponyname="signal_emit" render="0" deprecated=""/>
     <renderfunction name="g_signal_emit_by_name" ponyname="signal_emit_by_name" render="0" deprecated=""/>
     <renderfunction name="g_signal_emit_valist" ponyname="signal_emit_valist" render="0" deprecated=""/>

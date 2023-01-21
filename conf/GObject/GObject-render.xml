@@ -62,7 +62,17 @@ use "lib:gobject-2.0"
     <renderfunction name="g_signal_connect_closure" ponyname="signal_connect_closure" render="1" deprecated=""/>
     <renderfunction name="g_signal_connect_closure_by_id" ponyname="signal_connect_closure_by_id" render="1" deprecated=""/>
     <renderfunction name="g_signal_connect_data" ponyname="signal_connect_data" render="1" deprecated=""/>
-    <renderfunction name="g_signal_connect_object" ponyname="signal_connect_object" render="1" deprecated=""/>
+    <renderfunction name="g_signal_connect_object" ponyname="signal_connect_object" render="0" deprecated=""/>
+<useoverride name="g_signal_connect_object" render="1">
+use @g_signal_connect_object[U64](gobj0: Pointer[GObjectP], sig: Pointer[U8] tag, cb: Pointer[None], gobj1: Pointer[GObjectP], flags: U32)
+</useoverride>
+<sysoverride name="g_signal_connect_object" render="1">
+  fun connect_object(gobj0: GObjectI, sig: String, cb: Pointer[None], gobj1: GObjectI, flags: U32): U64 =>
+    @g_signal_connect_object(gobj0.getptr(), sig.cstring(), cb, gobj1.getptr(), flags)
+</sysoverride>
+
+
+
     <renderfunction name="g_signal_emit" ponyname="signal_emit" render="1" deprecated=""/>
     <renderfunction name="g_signal_emit_by_name" ponyname="signal_emit_by_name" render="1" deprecated=""/>
     <renderfunction name="g_signal_emit_valist" ponyname="signal_emit_valist" render="1" deprecated=""/>
