@@ -1,1 +1,1 @@
-use @g_object_remove_weak_pointer[None](object': GObjectT, weak_pointer_location': Pointer[Pointer[None]] tag)
+use @g_object_remove_weak_pointer[None](object': GObject, weak_pointer_location': Pointer[Pointer[None]] tag)

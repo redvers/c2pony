@@ -1,2 +1,2 @@
-  fun param_spec_override(name': Pointer[U8] tag, overridden': GParamSpecT): GParamSpecT =>
+  fun param_spec_override(name': String, overridden': GParamSpec): GParamSpec =>
     @g_param_spec_override(name', overridden')

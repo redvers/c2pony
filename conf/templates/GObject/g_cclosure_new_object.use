@@ -1,1 +1,1 @@
-use @g_cclosure_new_object[GClosureT](callback_func': GCallback, object': GObjectT)
+use @g_cclosure_new_object[GClosure](callback_func': GCallback, object': GObject)

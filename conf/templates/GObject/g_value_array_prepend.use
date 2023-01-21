@@ -1,1 +1,1 @@
-use @g_value_array_prepend[GValueArrayT](value_array': GValueArrayT, value': GValueT)
+use @g_value_array_prepend[GValueArray](value_array': GValueArray, value': GValue)

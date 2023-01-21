@@ -1,2 +1,2 @@
-  fun internal(param_type': U64, name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, flags': I32): Pointer[None] tag =>
+  fun internal(param_type': U64, name': String, nick': String, blurb': String, flags': I32): Pointer[None] tag =>
     @g_param_spec_internal(param_type', name', nick', blurb', flags')

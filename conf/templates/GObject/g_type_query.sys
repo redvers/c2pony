@@ -1,2 +1,2 @@
-  fun type_query(type': U64, query': GTypeQueryT): None =>
+  fun type_query(type': U64, query': GTypeQuery): None =>
     @g_type_query(type', query')

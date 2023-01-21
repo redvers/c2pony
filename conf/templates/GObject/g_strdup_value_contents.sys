@@ -1,2 +1,2 @@
-  fun strdup_value_contents(value': GValueT): Pointer[U8] tag =>
+  fun strdup_value_contents(value': GValue): Pointer[U8] tag =>
     @g_strdup_value_contents(value')

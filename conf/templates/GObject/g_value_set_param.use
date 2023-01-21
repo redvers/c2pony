@@ -1,1 +1,1 @@
-use @g_value_set_param[None](value': GValueT, param': GParamSpecT)
+use @g_value_set_param[None](value': GValue, param': GParamSpec)

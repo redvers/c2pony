@@ -1,1 +1,1 @@
-use @g_closure_add_invalidate_notifier[None](closure': GClosureT, notify_data': Pointer[None] tag, notify_func': GClosureNotify)
+use @g_closure_add_invalidate_notifier[None](closure': GClosure, notify_data': Pointer[None] tag, notify_func': GClosureNotify)

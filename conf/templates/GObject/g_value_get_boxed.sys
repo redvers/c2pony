@@ -1,2 +1,2 @@
-  fun get_boxed(value': GValueT): Pointer[None] tag =>
+  fun get_boxed(value': GValue): Pointer[None] tag =>
     @g_value_get_boxed(value')

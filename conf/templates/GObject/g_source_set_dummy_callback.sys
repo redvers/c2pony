@@ -1,2 +1,2 @@
-  fun source_set_dummy_callback(source': GSourceT): None =>
+  fun source_set_dummy_callback(source': GSource): None =>
     @g_source_set_dummy_callback(source')

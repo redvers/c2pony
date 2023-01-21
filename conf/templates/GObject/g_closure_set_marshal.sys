@@ -1,2 +1,2 @@
-  fun set_marshal(closure': GClosureT, marshal': GClosureMarshal): None =>
+  fun set_marshal(closure': GClosure, marshal': GClosureMarshal): None =>
     @g_closure_set_marshal(closure', marshal')

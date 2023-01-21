@@ -1,1 +1,1 @@
-use @g_value_set_static_string[None](value': GValueT, v_string': Pointer[U8] tag)
+use @g_value_set_static_string[None](value': GValue, v_string': String)

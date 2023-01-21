@@ -1,2 +1,2 @@
-  fun set_uchar(value': GValueT, v_uchar': U8): None =>
+  fun set_uchar(value': GValue, v_uchar': U8): None =>
     @g_value_set_uchar(value', v_uchar')

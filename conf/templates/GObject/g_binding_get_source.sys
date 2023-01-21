@@ -1,2 +1,2 @@
-  fun get_source(binding': GBindingT): GObjectT =>
+  fun get_source(binding': GBinding): GObject =>
     @g_binding_get_source(binding')

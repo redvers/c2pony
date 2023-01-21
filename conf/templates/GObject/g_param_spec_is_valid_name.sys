@@ -1,2 +1,2 @@
-  fun is_valid_name(name': Pointer[U8] tag): I32 =>
+  fun is_valid_name(name': String): I32 =>
     @g_param_spec_is_valid_name(name')

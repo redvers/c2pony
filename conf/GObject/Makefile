@@ -1,7 +1,7 @@
 all:
 	date
 
-build: clean use sys struct classes
+build: clean use sys struct classes methods
 
 use:
 	saxon-he -xi main.xml ../../xsl/makeuse.xsl namespace=GObject debug=1

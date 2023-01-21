@@ -1,2 +1,2 @@
-  fun get_uchar(value': GValueT): U8 =>
+  fun get_uchar(value': GValue): U8 =>
     @g_value_get_uchar(value')

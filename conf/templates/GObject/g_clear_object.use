@@ -1,1 +1,1 @@
-use @g_clear_object[None](object_ptr': Pointer[GObjectT])
+use @g_clear_object[None](object_ptr': Pointer[GObject])

@@ -1,1 +1,1 @@
-use @g_value_dup_string[Pointer[U8] tag](value': GValueT)
+use @g_value_dup_string[Pointer[U8] tag](value': GValue)

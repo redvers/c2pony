@@ -1,1 +1,1 @@
-use @g_closure_ref[GClosureT](closure': GClosureT)
+use @g_closure_ref[GClosure](closure': GClosure)

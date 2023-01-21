@@ -1,2 +1,2 @@
-  fun set_valist(object': GObjectT, first_property_name': Pointer[U8] tag, var_args': valisttagT): None =>
+  fun set_valist(object': GObject, first_property_name': String, var_args': valisttag): None =>
     @g_object_set_valist(object', first_property_name', var_args')

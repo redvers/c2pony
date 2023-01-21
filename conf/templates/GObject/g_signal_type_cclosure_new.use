@@ -1,1 +1,1 @@
-use @g_signal_type_cclosure_new[GClosureT](itype': U64, struct_offset': U32)
+use @g_signal_type_cclosure_new[GClosure](itype': U64, struct_offset': U32)

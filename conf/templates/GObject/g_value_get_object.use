@@ -1,1 +1,1 @@
-use @g_value_get_object[Pointer[None] tag](value': GValueT)
+use @g_value_get_object[Pointer[None] tag](value': GValue)

@@ -1,1 +1,1 @@
-use @g_object_thaw_notify[None](object': GObjectT)
+use @g_object_thaw_notify[None](object': GObject)

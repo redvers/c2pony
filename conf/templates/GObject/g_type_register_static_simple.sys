@@ -1,2 +1,2 @@
-  fun type_register_static_simple(parent_type': U64, type_name': Pointer[U8] tag, class_size': U32, class_init': GClassInitFunc, instance_size': U32, instance_init': GInstanceInitFunc, flags': U32): U64 =>
+  fun type_register_static_simple(parent_type': U64, type_name': String, class_size': U32, class_init': GClassInitFunc, instance_size': U32, instance_init': GInstanceInitFunc, flags': U32): U64 =>
     @g_type_register_static_simple(parent_type', type_name', class_size', class_init', instance_size', instance_init', flags')

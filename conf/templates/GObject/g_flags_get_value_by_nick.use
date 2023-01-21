@@ -1,1 +1,1 @@
-use @g_flags_get_value_by_nick[GFlagsValueT](flags_class': GFlagsClassT, nick': Pointer[U8] tag)
+use @g_flags_get_value_by_nick[GFlagsValue](flags_class': GFlagsClass, nick': String)

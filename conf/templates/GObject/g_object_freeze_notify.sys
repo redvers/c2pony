@@ -1,2 +1,2 @@
-  fun freeze_notify(object': GObjectT): None =>
+  fun freeze_notify(object': GObject): None =>
     @g_object_freeze_notify(object')

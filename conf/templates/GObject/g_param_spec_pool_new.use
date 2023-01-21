@@ -1,1 +1,1 @@
-use @g_param_spec_pool_new[GParamSpecPoolT](type_prefixing': I32)
+use @g_param_spec_pool_new[GParamSpecPool](type_prefixing': I32)

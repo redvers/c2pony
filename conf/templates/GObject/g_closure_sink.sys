@@ -1,2 +1,2 @@
-  fun sink(closure': GClosureT): None =>
+  fun sink(closure': GClosure): None =>
     @g_closure_sink(closure')

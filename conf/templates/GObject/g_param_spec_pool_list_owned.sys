@@ -1,2 +1,2 @@
-  fun list_owned(pool': GParamSpecPoolT, owner_type': U64): GListT =>
+  fun list_owned(pool': GParamSpecPool, owner_type': U64): GList =>
     @g_param_spec_pool_list_owned(pool', owner_type')

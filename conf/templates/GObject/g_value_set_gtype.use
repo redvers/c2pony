@@ -1,1 +1,1 @@
-use @g_value_set_gtype[None](value': GValueT, v_gtype': U64)
+use @g_value_set_gtype[None](value': GValue, v_gtype': U64)

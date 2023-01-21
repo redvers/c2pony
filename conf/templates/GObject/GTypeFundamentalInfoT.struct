@@ -1,2 +1,1 @@
-struct GTypeFundamentalInfoT
-  var type_flags': U32 = U32(0)
+struct 

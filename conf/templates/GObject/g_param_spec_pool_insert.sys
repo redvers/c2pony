@@ -1,2 +1,2 @@
-  fun insert(pool': GParamSpecPoolT, pspec': GParamSpecT, owner_type': U64): None =>
+  fun insert(pool': GParamSpecPool, pspec': GParamSpec, owner_type': U64): None =>
     @g_param_spec_pool_insert(pool', pspec', owner_type')

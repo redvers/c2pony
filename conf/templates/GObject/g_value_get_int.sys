@@ -1,2 +1,2 @@
-  fun get_int(value': GValueT): I32 =>
+  fun get_int(value': GValue): I32 =>
     @g_value_get_int(value')

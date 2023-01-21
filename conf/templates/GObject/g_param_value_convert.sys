@@ -1,2 +1,2 @@
-  fun param_value_convert(pspec': GParamSpecT, src_value': GValueT, dest_value': GValueT, strict_validation': I32): I32 =>
+  fun param_value_convert(pspec': GParamSpec, src_value': GValue, dest_value': GValue, strict_validation': I32): I32 =>
     @g_param_value_convert(pspec', src_value', dest_value', strict_validation')

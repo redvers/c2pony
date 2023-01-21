@@ -1,2 +1,2 @@
-  fun get_ulong(value': GValueT): U64 =>
+  fun get_ulong(value': GValue): U64 =>
     @g_value_get_ulong(value')

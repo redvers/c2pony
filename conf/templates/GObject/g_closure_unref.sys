@@ -1,2 +1,2 @@
-  fun unref(closure': GClosureT): None =>
+  fun unref(closure': GClosure): None =>
     @g_closure_unref(closure')

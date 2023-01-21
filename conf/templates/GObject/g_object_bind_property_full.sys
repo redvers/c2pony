@@ -1,2 +1,2 @@
-  fun bind_property_full(source': Pointer[None] tag, source_property': Pointer[U8] tag, target': Pointer[None] tag, target_property': Pointer[U8] tag, flags': U32, transform_to': GBindingTransformFunc, transform_from': GBindingTransformFunc, user_data': Pointer[None] tag, notify': GDestroyNotify): GBindingT =>
+  fun bind_property_full(source': Pointer[None] tag, source_property': String, target': Pointer[None] tag, target_property': String, flags': U32, transform_to': GBindingTransformFunc, transform_from': GBindingTransformFunc, user_data': Pointer[None] tag, notify': GDestroyNotify): GBinding =>
     @g_object_bind_property_full(source', source_property', target', target_property', flags', transform_to', transform_from', user_data', notify')

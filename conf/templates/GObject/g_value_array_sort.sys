@@ -1,2 +1,2 @@
-  fun sort(value_array': GValueArrayT, compare_func': GCompareFunc): GValueArrayT =>
+  fun sort(value_array': GValueArray, compare_func': GCompareFunc): GValueArray =>
     @g_value_array_sort(value_array', compare_func')

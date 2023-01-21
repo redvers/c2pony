@@ -1,2 +1,2 @@
-  fun find_property(oclass': GObjectClassT, property_name': Pointer[U8] tag): GParamSpecT =>
+  fun find_property(oclass': GObjectClass, property_name': String): GParamSpec =>
     @g_object_class_find_property(oclass', property_name')

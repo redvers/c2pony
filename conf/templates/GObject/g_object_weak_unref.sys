@@ -1,2 +1,2 @@
-  fun weak_unref(object': GObjectT, notify': GWeakNotify, data': Pointer[None] tag): None =>
+  fun weak_unref(object': GObject, notify': GWeakNotify, data': Pointer[None] tag): None =>
     @g_object_weak_unref(object', notify', data')

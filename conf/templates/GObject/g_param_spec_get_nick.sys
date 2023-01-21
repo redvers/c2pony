@@ -1,2 +1,2 @@
-  fun get_nick(pspec': GParamSpecT): Pointer[U8] tag =>
+  fun get_nick(pspec': GParamSpec): Pointer[U8] tag =>
     @g_param_spec_get_nick(pspec')

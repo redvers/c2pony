@@ -1,1 +1,1 @@
-use @g_value_array_insert[GValueArrayT](value_array': GValueArrayT, index': U32, value': GValueT)
+use @g_value_array_insert[GValueArray](value_array': GValueArray, index': U32, value': GValue)

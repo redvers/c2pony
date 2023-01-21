@@ -1,2 +1,2 @@
-  fun take_param(value': GValueT, param': GParamSpecT): None =>
+  fun take_param(value': GValue, param': GParamSpec): None =>
     @g_value_take_param(value', param')

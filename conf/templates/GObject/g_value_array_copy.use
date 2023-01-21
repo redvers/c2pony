@@ -1,1 +1,1 @@
-use @g_value_array_copy[GValueArrayT](value_array': GValueArrayT)
+use @g_value_array_copy[GValueArray](value_array': GValueArray)

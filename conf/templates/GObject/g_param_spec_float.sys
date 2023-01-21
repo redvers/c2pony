@@ -1,2 +1,2 @@
-  fun param_spec_float(name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, minimum': F32, maximum': F32, default_value': F32, flags': I32): GParamSpecT =>
+  fun param_spec_float(name': String, nick': String, blurb': String, minimum': F32, maximum': F32, default_value': F32, flags': I32): GParamSpec =>
     @g_param_spec_float(name', nick', blurb', minimum', maximum', default_value', flags')

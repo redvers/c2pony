@@ -1,1 +1,1 @@
-use @g_value_set_double[None](value': GValueT, v_double': F64)
+use @g_value_set_double[None](value': GValue, v_double': F64)

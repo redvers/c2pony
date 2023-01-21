@@ -1,1 +1,1 @@
-use @g_value_get_uint64[U64](value': GValueT)
+use @g_value_get_uint64[U64](value': GValue)

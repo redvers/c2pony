@@ -1,2 +1,2 @@
-  fun enum_register_static(name': Pointer[U8] tag, const_static_values': GEnumValueT): U64 =>
+  fun enum_register_static(name': String, const_static_values': GEnumValue): U64 =>
     @g_enum_register_static(name', const_static_values')

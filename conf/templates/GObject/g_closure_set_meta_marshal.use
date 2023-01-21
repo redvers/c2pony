@@ -1,1 +1,1 @@
-use @g_closure_set_meta_marshal[None](closure': GClosureT, marshal_data': Pointer[None] tag, meta_marshal': GClosureMarshal)
+use @g_closure_set_meta_marshal[None](closure': GClosure, marshal_data': Pointer[None] tag, meta_marshal': GClosureMarshal)

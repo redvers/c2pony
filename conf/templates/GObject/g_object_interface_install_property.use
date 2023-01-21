@@ -1,1 +1,1 @@
-use @g_object_interface_install_property[None](g_iface': Pointer[None] tag, pspec': GParamSpecT)
+use @g_object_interface_install_property[None](g_iface': Pointer[None] tag, pspec': GParamSpec)

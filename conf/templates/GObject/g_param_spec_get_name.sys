@@ -1,2 +1,2 @@
-  fun get_name(pspec': GParamSpecT): Pointer[U8] tag =>
+  fun get_name(pspec': GParamSpec): Pointer[U8] tag =>
     @g_param_spec_get_name(pspec')

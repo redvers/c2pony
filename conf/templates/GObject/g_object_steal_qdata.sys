@@ -1,2 +1,2 @@
-  fun steal_qdata(object': GObjectT, quark': U32): Pointer[None] tag =>
+  fun steal_qdata(object': GObject, quark': U32): Pointer[None] tag =>
     @g_object_steal_qdata(object', quark')

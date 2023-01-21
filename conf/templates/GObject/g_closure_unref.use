@@ -1,1 +1,1 @@
-use @g_closure_unref[None](closure': GClosureT)
+use @g_closure_unref[None](closure': GClosure)

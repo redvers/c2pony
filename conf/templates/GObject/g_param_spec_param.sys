@@ -1,2 +1,2 @@
-  fun param_spec_param(name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, param_type': U64, flags': I32): GParamSpecT =>
+  fun param_spec_param(name': String, nick': String, blurb': String, param_type': U64, flags': I32): GParamSpec =>
     @g_param_spec_param(name', nick', blurb', param_type', flags')

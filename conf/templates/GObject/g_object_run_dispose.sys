@@ -1,2 +1,2 @@
-  fun run_dispose(object': GObjectT): None =>
+  fun run_dispose(object': GObject): None =>
     @g_object_run_dispose(object')

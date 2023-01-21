@@ -1,1 +1,1 @@
-use @g_type_value_table_peek[GTypeValueTableT](type': U64)
+use @g_type_value_table_peek[GTypeValueTable](type': U64)

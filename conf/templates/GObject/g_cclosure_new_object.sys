@@ -1,2 +1,2 @@
-  fun new_object(callback_func': GCallback, object': GObjectT): GClosureT =>
+  fun new_object(callback_func': GCallback, object': GObject): GClosure =>
     @g_cclosure_new_object(callback_func', object')

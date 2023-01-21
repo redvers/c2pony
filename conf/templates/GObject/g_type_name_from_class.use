@@ -1,1 +1,1 @@
-use @g_type_name_from_class[Pointer[U8] tag](g_class': GTypeClassT)
+use @g_type_name_from_class[Pointer[U8] tag](g_class': GTypeClass)

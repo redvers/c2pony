@@ -1,2 +1,2 @@
-  fun append(value_array': GValueArrayT, value': GValueT): GValueArrayT =>
+  fun append(value_array': GValueArray, value': GValue): GValueArray =>
     @g_value_array_append(value_array', value')

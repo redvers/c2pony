@@ -1,2 +1,2 @@
-  fun unref(pspec': GParamSpecT): None =>
+  fun unref(pspec': GParamSpec): None =>
     @g_param_spec_unref(pspec')

@@ -1,1 +1,1 @@
-use @g_value_copy[None](src_value': GValueT, dest_value': GValueT)
+use @g_value_copy[None](src_value': GValue, dest_value': GValue)

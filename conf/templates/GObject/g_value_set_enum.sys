@@ -1,2 +1,2 @@
-  fun set_enum(value': GValueT, v_enum': I32): None =>
+  fun set_enum(value': GValue, v_enum': I32): None =>
     @g_value_set_enum(value', v_enum')

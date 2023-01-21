@@ -1,2 +1,2 @@
-  fun flags_complete_type_info(g_flags_type': U64, info': GTypeInfoT, const_values': GFlagsValueT): None =>
+  fun flags_complete_type_info(g_flags_type': U64, info': GTypeInfo, const_values': GFlagsValue): None =>
     @g_flags_complete_type_info(g_flags_type', info', const_values')

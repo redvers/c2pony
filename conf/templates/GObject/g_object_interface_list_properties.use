@@ -1,1 +1,1 @@
-use @g_object_interface_list_properties[Pointer[GParamSpecT]](g_iface': Pointer[None] tag, n_properties_p': Pointer[U32] tag)
+use @g_object_interface_list_properties[Pointer[GParamSpec]](g_iface': Pointer[None] tag, n_properties_p': Pointer[U32] tag)

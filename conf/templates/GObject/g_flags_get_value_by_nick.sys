@@ -1,2 +1,2 @@
-  fun flags_get_value_by_nick(flags_class': GFlagsClassT, nick': Pointer[U8] tag): GFlagsValueT =>
+  fun flags_get_value_by_nick(flags_class': GFlagsClass, nick': String): GFlagsValue =>
     @g_flags_get_value_by_nick(flags_class', nick')

@@ -1,2 +1,2 @@
-  fun unuse(module': GTypeModuleT): None =>
+  fun unuse(module': GTypeModule): None =>
     @g_type_module_unuse(module')

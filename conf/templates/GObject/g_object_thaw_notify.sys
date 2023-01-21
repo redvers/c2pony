@@ -1,2 +1,2 @@
-  fun thaw_notify(object': GObjectT): None =>
+  fun thaw_notify(object': GObject): None =>
     @g_object_thaw_notify(object')

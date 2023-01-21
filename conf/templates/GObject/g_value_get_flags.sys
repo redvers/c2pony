@@ -1,2 +1,2 @@
-  fun get_flags(value': GValueT): U32 =>
+  fun get_flags(value': GValue): U32 =>
     @g_value_get_flags(value')

@@ -1,1 +1,1 @@
-use @g_value_set_char[None](value': GValueT, v_char': U8)
+use @g_value_set_char[None](value': GValue, v_char': U8)

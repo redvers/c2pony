@@ -1,2 +1,2 @@
-  fun signal_handlers_block_matched(instance': Pointer[None] tag, mask': U32, signal_id': U32, detail': U32, closure': GClosureT, func': Pointer[None] tag, data': Pointer[None] tag): U32 =>
+  fun signal_handlers_block_matched(instance': Pointer[None] tag, mask': U32, signal_id': U32, detail': U32, closure': GClosure, func': Pointer[None] tag, data': Pointer[None] tag): U32 =>
     @g_signal_handlers_block_matched(instance', mask', signal_id', detail', closure', func', data')

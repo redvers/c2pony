@@ -1,2 +1,2 @@
-  fun type_get_plugin(type': U64): GTypePluginT =>
+  fun type_get_plugin(type': U64): GTypePlugin =>
     @g_type_get_plugin(type')

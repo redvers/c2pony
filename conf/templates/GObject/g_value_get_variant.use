@@ -1,1 +1,1 @@
-use @g_value_get_variant[GVariantT](value': GValueT)
+use @g_value_get_variant[GVariant](value': GValue)

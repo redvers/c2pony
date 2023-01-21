@@ -1,1 +1,1 @@
-use @g_value_array_get_nth[GValueT](value_array': GValueArrayT, index': U32)
+use @g_value_array_get_nth[GValue](value_array': GValueArray, index': U32)

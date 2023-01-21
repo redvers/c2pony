@@ -1,2 +1,2 @@
-  fun flags_register_static(name': Pointer[U8] tag, const_static_values': GFlagsValueT): U64 =>
+  fun flags_register_static(name': String, const_static_values': GFlagsValue): U64 =>
     @g_flags_register_static(name', const_static_values')

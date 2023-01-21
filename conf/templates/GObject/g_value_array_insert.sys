@@ -1,2 +1,2 @@
-  fun insert(value_array': GValueArrayT, index': U32, value': GValueT): GValueArrayT =>
+  fun insert(value_array': GValueArray, index': U32, value': GValue): GValueArray =>
     @g_value_array_insert(value_array', index', value')

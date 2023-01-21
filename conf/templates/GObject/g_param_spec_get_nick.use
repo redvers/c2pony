@@ -1,1 +1,1 @@
-use @g_param_spec_get_nick[Pointer[U8] tag](pspec': GParamSpecT)
+use @g_param_spec_get_nick[Pointer[U8] tag](pspec': GParamSpec)

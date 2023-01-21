@@ -1,2 +1,2 @@
-  fun get_string(value': GValueT): Pointer[U8] tag =>
+  fun get_string(value': GValue): Pointer[U8] tag =>
     @g_value_get_string(value')

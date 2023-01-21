@@ -1,1 +1,1 @@
-use @g_type_create_instance[GTypeInstanceT](type': U64)
+use @g_type_create_instance[GTypeInstance](type': U64)

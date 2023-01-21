@@ -1,2 +1,2 @@
-  fun set_property(object': GObjectT, property_name': Pointer[U8] tag, value': GValueT): None =>
+  fun set_property(object': GObject, property_name': String, value': GValue): None =>
     @g_object_set_property(object', property_name', value')

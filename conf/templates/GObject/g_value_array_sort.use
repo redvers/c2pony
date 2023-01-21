@@ -1,1 +1,1 @@
-use @g_value_array_sort[GValueArrayT](value_array': GValueArrayT, compare_func': GCompareFunc)
+use @g_value_array_sort[GValueArray](value_array': GValueArray, compare_func': GCompareFunc)

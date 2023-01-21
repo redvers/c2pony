@@ -1,2 +1,2 @@
-  fun set_long(value': GValueT, v_long': I64): None =>
+  fun set_long(value': GValue, v_long': I64): None =>
     @g_value_set_long(value', v_long')

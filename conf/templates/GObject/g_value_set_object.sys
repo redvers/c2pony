@@ -1,2 +1,2 @@
-  fun set_object(value': GValueT, v_object': Pointer[None] tag): None =>
+  fun set_object(value': GValue, v_object': Pointer[None] tag): None =>
     @g_value_set_object(value', v_object')

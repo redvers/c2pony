@@ -1,2 +1,2 @@
-  fun init_from_instance(value': GValueT, instance': Pointer[None] tag): None =>
+  fun init_from_instance(value': GValue, instance': Pointer[None] tag): None =>
     @g_value_init_from_instance(value', instance')

@@ -1,2 +1,2 @@
-  fun ref(pspec': GParamSpecT): GParamSpecT =>
+  fun ref(pspec': GParamSpec): GParamSpec =>
     @g_param_spec_ref(pspec')

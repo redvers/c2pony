@@ -1,2 +1,2 @@
-  fun new_object(sizeof_closure': U32, object': GObjectT): GClosureT =>
+  fun new_object(sizeof_closure': U32, object': GObject): GClosure =>
     @g_closure_new_object(sizeof_closure', object')

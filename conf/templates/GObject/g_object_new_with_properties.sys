@@ -1,2 +1,2 @@
-  fun new_with_properties(object_type': U64, n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValueT): GObjectT =>
+  fun new_with_properties(object_type': U64, n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValue): GObject =>
     @g_object_new_with_properties(object_type', n_properties', names', values')

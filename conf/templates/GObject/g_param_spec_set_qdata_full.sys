@@ -1,2 +1,2 @@
-  fun set_qdata_full(pspec': GParamSpecT, quark': U32, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+  fun set_qdata_full(pspec': GParamSpec, quark': U32, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
     @g_param_spec_set_qdata_full(pspec', quark', data', destroy')

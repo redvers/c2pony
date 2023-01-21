@@ -1,1 +1,1 @@
-use @g_type_check_instance_cast[GTypeInstanceT](instance': GTypeInstanceT, iface_type': U64)
+use @g_type_check_instance_cast[GTypeInstance](instance': GTypeInstance, iface_type': U64)

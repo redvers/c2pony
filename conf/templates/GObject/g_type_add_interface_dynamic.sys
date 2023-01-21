@@ -1,2 +1,2 @@
-  fun type_add_interface_dynamic(instance_type': U64, interface_type': U64, plugin': GTypePluginT): None =>
+  fun type_add_interface_dynamic(instance_type': U64, interface_type': U64, plugin': GTypePlugin): None =>
     @g_type_add_interface_dynamic(instance_type', interface_type', plugin')

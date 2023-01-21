@@ -1,1 +1,1 @@
-use @g_value_set_ulong[None](value': GValueT, v_ulong': U64)
+use @g_value_set_ulong[None](value': GValue, v_ulong': U64)
