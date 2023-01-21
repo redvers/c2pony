@@ -1,0 +1,2 @@
+  fun ref set(value': Pointer[None] tag): None =>
+    GPrivateP.set(this, value')

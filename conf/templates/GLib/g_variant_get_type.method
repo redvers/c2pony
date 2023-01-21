@@ -1,0 +1,2 @@
+  fun ref get_type(): GVariantType =>
+    GVariantP.get_type(this)

@@ -1,0 +1,2 @@
+  fun ref get_added(uri': String, error': Pointer[GError]): I64 =>
+    GBookmarkFileP.get_added(this, uri', error')

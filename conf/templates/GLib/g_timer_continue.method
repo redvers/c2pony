@@ -1,0 +1,2 @@
+  fun ref continue(): None =>
+    GTimerP.continue(this)

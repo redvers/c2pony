@@ -1,0 +1,2 @@
+  fun ref get_pattern(): String =>
+    GRegexP.get_pattern(this)

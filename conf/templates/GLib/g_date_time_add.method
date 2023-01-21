@@ -1,0 +1,2 @@
+  fun ref add(timespan': I64): GDateTime =>
+    GDateTimeP.add(this, timespan')

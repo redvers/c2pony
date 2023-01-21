@@ -1,0 +1,2 @@
+  fun ref get_data_as_bytes(): GBytes =>
+    GVariantP.get_data_as_bytes(this)

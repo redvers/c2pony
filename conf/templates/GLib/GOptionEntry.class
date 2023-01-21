@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GOptionEntry
+  var ptr: NullablePointer[GOptionEntryT]
+
+  new create(ptr': NullablePointer[GOptionEntryT]) => ptr = ptr'

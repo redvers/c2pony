@@ -1,0 +1,2 @@
+  fun ref ref(): GIOChannel =>
+    GIOChannelP.ref(this)

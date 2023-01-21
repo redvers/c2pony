@@ -1,0 +1,2 @@
+  fun ref add_poll(fd': GPollFD, priority': I32): None =>
+    GMainContextP.add_poll(this, fd', priority')

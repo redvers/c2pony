@@ -1,0 +1,2 @@
+  fun ref get_description(uri': String, error': Pointer[GError]): String =>
+    GBookmarkFileP.get_description(this, uri', error')

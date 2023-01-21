@@ -1,0 +1,2 @@
+  fun ref unlink(link': GList): None =>
+    GQueueP.unlink(this, link')

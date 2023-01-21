@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GTestConfig
+  var ptr: NullablePointer[GTestConfigT]
+
+  new create(ptr': NullablePointer[GTestConfigT]) => ptr = ptr'

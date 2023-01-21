@@ -1,0 +1,2 @@
+  fun ref ref(): GDateTime =>
+    GDateTimeP.ref(this)

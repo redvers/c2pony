@@ -1,0 +1,2 @@
+  fun ref input_file(input_fd': I32): None =>
+    GScannerP.input_file(this, input_fd')

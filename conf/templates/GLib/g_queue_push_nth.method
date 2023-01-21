@@ -1,0 +1,2 @@
+  fun ref push_nth(data': Pointer[None] tag, n': I32): None =>
+    GQueueP.push_nth(this, data', n')

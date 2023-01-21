@@ -1,0 +1,2 @@
+  fun ref get_string(): String =>
+    GHmacP.get_string(this)

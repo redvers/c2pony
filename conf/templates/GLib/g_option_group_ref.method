@@ -1,0 +1,2 @@
+  fun ref ref(): GOptionGroup =>
+    GOptionGroupP.ref(this)

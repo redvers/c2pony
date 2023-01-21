@@ -1,0 +1,2 @@
+  fun ref ref(): GTree =>
+    GTreeP.ref(this)

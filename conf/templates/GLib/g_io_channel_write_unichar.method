@@ -1,0 +1,2 @@
+  fun ref write_unichar(thechar': U32, error': Pointer[GError]): U32 =>
+    GIOChannelP.write_unichar(this, thechar', error')

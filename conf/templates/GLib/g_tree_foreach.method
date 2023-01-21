@@ -1,0 +1,2 @@
+  fun ref foreach(func': GTraverseFunc, user_data': Pointer[None] tag): None =>
+    GTreeP.foreach(this, func', user_data')

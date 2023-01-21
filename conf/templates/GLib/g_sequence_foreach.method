@@ -1,0 +1,2 @@
+  fun ref foreach(func': GFunc, user_data': Pointer[None] tag): None =>
+    GSequenceP.foreach(this, func', user_data')

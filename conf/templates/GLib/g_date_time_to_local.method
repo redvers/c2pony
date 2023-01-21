@@ -1,0 +1,2 @@
+  fun ref to_local(): GDateTime =>
+    GDateTimeP.to_local(this)

@@ -1,0 +1,2 @@
+  fun ref peek_string(): String =>
+    GVariantTypeP.peek_string(this)

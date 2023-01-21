@@ -1,0 +1,2 @@
+  fun ref set_max_threads(max_threads': I32, error': Pointer[GError]): I32 =>
+    GThreadPoolP.set_max_threads(this, max_threads', error')

@@ -1,0 +1,2 @@
+  fun ref insert(pos': I64, val': String): GString =>
+    GStringP.insert(this, pos', val')

@@ -1,0 +1,2 @@
+  fun ref get_abbreviation(interval': I32): String =>
+    GTimeZoneP.get_abbreviation(this, interval')

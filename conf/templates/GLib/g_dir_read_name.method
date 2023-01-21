@@ -1,0 +1,2 @@
+  fun ref read_name(): String =>
+    GDirP.read_name(this)

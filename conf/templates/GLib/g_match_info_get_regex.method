@@ -1,0 +1,2 @@
+  fun ref get_regex(): GRegex =>
+    GMatchInfoP.get_regex(this)

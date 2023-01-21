@@ -1,0 +1,2 @@
+  fun ref children_foreach(flags': U32, func': GNodeForeachFunc, data': Pointer[None] tag): None =>
+    GNodeP.children_foreach(this, flags', func', data')

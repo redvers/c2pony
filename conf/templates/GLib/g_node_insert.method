@@ -1,0 +1,2 @@
+  fun ref insert(position': I32, node': GNode): GNode =>
+    GNodeP.insert(this, position', node')

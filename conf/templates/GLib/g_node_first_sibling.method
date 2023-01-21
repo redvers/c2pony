@@ -1,0 +1,2 @@
+  fun ref first_sibling(): GNode =>
+    GNodeP.first_sibling(this)

@@ -16,6 +16,7 @@
       </suffixes>
     </ponytypeconvout>
   </typedef>
+  <typedef name="GError" ponytypein="GError" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GErrorT]" structtype="NullablePointer[GErrorT]" structdef="NullablePointer[GErrorT]" argtype="NullablePointer[GErrorT]" rvtype="NullablePointer[GErrorT]"/>
   <typedef name="GObject" ponytypein="GObjectI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
   <typedef name="GApplication" ponytypein="GApplicationI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
   <typedef name="GtkApplication" ponytypein="GtkApplicationI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>

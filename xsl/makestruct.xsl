@@ -30,8 +30,8 @@
 
 <xsl:template name="mainstruct">
   <xsl:param name="n"/>
-  <xsl:variable name="root" select="/main/c2pony/structs/struct[@name=concat($n, 'T')]"/>
-  <xsl:text>struct </xsl:text><xsl:value-of select="$root/@name"/><xsl:text>
+  <xsl:variable name="root" select="/main/c2pony/structs/struct[@name=$n]"/>
+  <xsl:text>struct </xsl:text><xsl:value-of select="$root/@name"/><xsl:text>T
 </xsl:text>
     <xsl:for-each select="$root/field">
       <xsl:text>  </xsl:text><xsl:value-of select="./@decl"/><xsl:text> </xsl:text><xsl:value-of select="./@name"/>: <xsl:value-of select="./@structtype"/><xsl:text> = </xsl:text><xsl:value-of select="./@structinit"/><xsl:text>

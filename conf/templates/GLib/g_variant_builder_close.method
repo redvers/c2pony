@@ -1,0 +1,2 @@
+  fun ref close(): None =>
+    GVariantBuilderP.close(this)

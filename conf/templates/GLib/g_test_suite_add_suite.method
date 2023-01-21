@@ -1,0 +1,2 @@
+  fun ref add_suite(nestedsuite': GTestSuite): None =>
+    GTestSuiteP.add_suite(this, nestedsuite')

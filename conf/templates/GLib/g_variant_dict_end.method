@@ -1,0 +1,2 @@
+  fun ref end(): GVariant =>
+    GVariantDictP.end(this)

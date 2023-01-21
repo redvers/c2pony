@@ -1,0 +1,2 @@
+  fun ref get_end_iter(): GSequenceNode =>
+    GSequenceP.get_end_iter(this)

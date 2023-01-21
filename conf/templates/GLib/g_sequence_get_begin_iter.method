@@ -1,0 +1,2 @@
+  fun ref get_begin_iter(): GSequenceNode =>
+    GSequenceP.get_begin_iter(this)

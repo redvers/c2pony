@@ -1,0 +1,2 @@
+  fun ref next(format_string': String, ...): I32 =>
+    GVariantIterP.next(this, format_string', ...)

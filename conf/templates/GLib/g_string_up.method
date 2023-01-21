@@ -1,0 +1,2 @@
+  fun ref up(): GString =>
+    GStringP.up(this)

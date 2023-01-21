@@ -1,0 +1,2 @@
+  fun ref print(type_annotate': I32): String =>
+    GVariantP.print(this, type_annotate')

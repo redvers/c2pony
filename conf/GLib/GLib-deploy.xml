@@ -512,7 +512,7 @@
     <renderfunction name="g_vsnprintf" ponyname="vsnprintf" render="0" deprecated=""/>
     <renderfunction name="g_vsprintf" ponyname="vsprintf" render="0" deprecated=""/>
     <renderfunction name="g_warn_message" ponyname="warn_message" render="0" deprecated=""/>
-    <renderstruct name="GArray" render="1">
+    <renderstruct name="GArray" render="0">
       <renderfunction name="g_array_append_vals" ponyname="append_vals" render="0" deprecated=""/>
       <renderfunction name="g_array_binary_search" ponyname="binary_search" render="0" deprecated=""/>
       <renderfunction name="g_array_copy" ponyname="copy" render="0" deprecated=""/>
@@ -784,8 +784,8 @@
       <renderconstructor name="g_error_new_literal" ponyname="new_literal" render="0" deprecated=""/>
       <renderconstructor name="g_error_new_valist" ponyname="new_valist" render="0" deprecated=""/>
       <rendermethod name="g_error_copy" ponyname="copy" render="0" deprecated=""/>
-      <rendermethod name="g_error_free" ponyname="free" render="0" deprecated=""/>
-      <rendermethod name="g_error_matches" ponyname="matches" render="0" deprecated=""/>
+      <rendermethod name="g_error_free" ponyname="free" render="1" deprecated=""/>
+      <rendermethod name="g_error_matches" ponyname="matches" render="1" deprecated=""/>
     </renderstruct>
     <renderstruct name="GHashTable" render="0">
       <renderfunction name="g_hash_table_add" ponyname="add" render="0" deprecated=""/>

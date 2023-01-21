@@ -1,7 +1,7 @@
 all:
 	date
 
-build: clean use sys struct classes assemble
+build: clean use sys struct methods classes assemble
 
 use:
 	saxon-he -xi main.xml ../../xsl/makeuse.xsl namespace=GLib debug=1
@@ -11,6 +11,9 @@ sys:
 
 classes:
 	saxon-he -xi main.xml ../../xsl/makeclasses.xsl namespace=GLib debug=1
+
+methods:
+	saxon-he -xi main.xml ../../xsl/makemethods.xsl namespace=GLib debug=1
 
 struct:
 	saxon-he -xi main.xml ../../xsl/makestruct.xsl namespace=GLib debug=1

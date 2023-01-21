@@ -1,0 +1,2 @@
+  fun ref copy(): GError =>
+    GErrorP.copy(this)

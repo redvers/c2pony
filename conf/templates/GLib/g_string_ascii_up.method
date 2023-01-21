@@ -1,0 +1,2 @@
+  fun ref ascii_up(): GString =>
+    GStringP.ascii_up(this)

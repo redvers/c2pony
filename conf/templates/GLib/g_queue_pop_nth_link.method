@@ -1,0 +1,2 @@
+  fun ref pop_nth_link(n': U32): GList =>
+    GQueueP.pop_nth_link(this, n')

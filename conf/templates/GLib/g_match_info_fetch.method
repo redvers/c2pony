@@ -1,0 +1,2 @@
+  fun ref fetch(match_num': I32): String =>
+    GMatchInfoP.fetch(this, match_num')

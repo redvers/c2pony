@@ -1,0 +1,2 @@
+  fun ref set_translate_func(func': GTranslateFunc, data': Pointer[None] tag, destroy_notify': GDestroyNotify): None =>
+    GOptionGroupP.set_translate_func(this, func', data', destroy_notify')

@@ -1,0 +1,2 @@
+  fun ref get_type_string(): String =>
+    GVariantP.get_type_string(this)

@@ -1,0 +1,2 @@
+  fun ref add_months(months': I32): GDateTime =>
+    GDateTimeP.add_months(this, months')

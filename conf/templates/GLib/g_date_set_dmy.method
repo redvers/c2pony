@@ -1,0 +1,2 @@
+  fun ref set_dmy(day': U8, month': U32, y': U16): None =>
+    GDateP.set_dmy(this, day', month', y')

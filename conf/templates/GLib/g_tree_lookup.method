@@ -1,0 +1,2 @@
+  fun ref lookup(key': Pointer[None] tag): Pointer[None] tag =>
+    GTreeP.lookup(this, key')

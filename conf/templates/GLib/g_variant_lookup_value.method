@@ -1,0 +1,2 @@
+  fun ref lookup_value(key': String, expected_type': GVariantType): GVariant =>
+    GVariantP.lookup_value(this, key', expected_type')

@@ -1,0 +1,2 @@
+  fun ref get_user_data(): Pointer[None] tag =>
+    GMarkupParseContextP.get_user_data(this)

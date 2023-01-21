@@ -1,0 +1,2 @@
+  fun ref free(free_segment': I32): String =>
+    GStringP.free(this, free_segment')

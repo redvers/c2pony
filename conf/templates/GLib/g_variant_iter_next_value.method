@@ -1,0 +1,2 @@
+  fun ref next_value(): GVariant =>
+    GVariantIterP.next_value(this)

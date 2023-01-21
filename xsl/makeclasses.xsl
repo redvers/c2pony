@@ -94,5 +94,36 @@
         <xsl:value-of select="$newline"/>
       </xsl:result-document>
     </xsl:for-each>
+
+    <xsl:for-each select="./renderstruct[@render=$debug]">
+      <xsl:variable name="root" select="."/>
+      <xsl:variable name="filename" select="concat($root/@name, '')"/>
+
+      <xsl:result-document href="../templates/{$namespace}/{$filename}P.primitive" method="text">
+        <xsl:value-of select="$preamble"/>
+        <xsl:value-of select="$newline"/>
+        <xsl:text>primitive </xsl:text>
+        <xsl:value-of select="$filename"/>
+        <xsl:text>P</xsl:text>
+        <xsl:value-of select="$newline"/>
+      </xsl:result-document>
+
+      <xsl:result-document href="../templates/{$namespace}/{$filename}.class" method="text">
+        <xsl:value-of select="$preamble"/>
+        <xsl:value-of select="$newline"/>
+        <xsl:text>class </xsl:text>
+        <xsl:value-of select="$filename"/>
+        <xsl:value-of select="$newline"/>
+        <xsl:text>  var ptr: NullablePointer[</xsl:text>
+        <xsl:value-of select="$filename"/>
+        <xsl:text>T]</xsl:text>
+        <xsl:value-of select="$newline"/>
+        <xsl:value-of select="$newline"/>
+        <xsl:text>  new create(ptr': NullablePointer[</xsl:text>
+        <xsl:value-of select="$filename"/>
+        <xsl:text>T]) =&gt; ptr = ptr'</xsl:text>
+        <xsl:value-of select="$newline"/>
+      </xsl:result-document>
+    </xsl:for-each>
   </xsl:template>
 </xsl:stylesheet>

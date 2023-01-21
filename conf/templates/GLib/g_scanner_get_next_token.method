@@ -1,0 +1,2 @@
+  fun ref get_next_token(): U32 =>
+    GScannerP.get_next_token(this)

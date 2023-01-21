@@ -1,0 +1,2 @@
+  fun ref get_comment(group_name': String, key': String, error': Pointer[GError]): String =>
+    GKeyFileP.get_comment(this, group_name', key', error')

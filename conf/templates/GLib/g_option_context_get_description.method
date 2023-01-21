@@ -1,0 +1,2 @@
+  fun ref get_description(): String =>
+    GOptionContextP.get_description(this)

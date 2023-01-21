@@ -1,0 +1,2 @@
+  fun ref free(): None =>
+    GPatternSpecP.free(this)

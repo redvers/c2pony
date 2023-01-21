@@ -1,0 +1,2 @@
+  fun ref compare_ids(sibling': GHook): I32 =>
+    GHookP.compare_ids(this, sibling')

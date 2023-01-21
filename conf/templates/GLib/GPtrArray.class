@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GPtrArray
+  var ptr: NullablePointer[GPtrArrayT]
+
+  new create(ptr': NullablePointer[GPtrArrayT]) => ptr = ptr'

@@ -1,0 +1,2 @@
+  fun ref get_locale_for_key(group_name': String, key': String, locale': String): String =>
+    GKeyFileP.get_locale_for_key(this, group_name', key', locale')

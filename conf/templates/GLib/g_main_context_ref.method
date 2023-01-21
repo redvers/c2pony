@@ -1,0 +1,2 @@
+  fun ref ref(): GMainContext =>
+    GMainContextP.ref(this)

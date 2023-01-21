@@ -1,0 +1,2 @@
+  fun ref byteswap(): GVariant =>
+    GVariantP.byteswap(this)

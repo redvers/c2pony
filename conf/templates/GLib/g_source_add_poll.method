@@ -1,0 +1,2 @@
+  fun ref add_poll(fd': GPollFD): None =>
+    GSourceP.add_poll(this, fd')

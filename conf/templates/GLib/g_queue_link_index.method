@@ -1,0 +1,2 @@
+  fun ref link_index(link': GList): I32 =>
+    GQueueP.link_index(this, link')

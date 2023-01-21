@@ -1,0 +1,2 @@
+  fun ref printf(format': String, ...): None =>
+    GStringP.printf(this, format', ...)

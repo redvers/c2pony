@@ -1,0 +1,2 @@
+  fun ref get_digest(buffer': String, digest_len': Pointer[U64] tag): None =>
+    GHmacP.get_digest(this, buffer', digest_len')

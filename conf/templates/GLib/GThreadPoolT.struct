@@ -1,3 +1,6 @@
 
 use "lib:glib-2.0"
-struct 
+struct GThreadPoolT
+  var func': GFunc = GFunc
+  var user_data': Pointer[None] = Pointer[None]
+  var exclusive': I32 = I32(0)

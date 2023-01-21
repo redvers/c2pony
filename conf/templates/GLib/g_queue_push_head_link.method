@@ -1,0 +1,2 @@
+  fun ref push_head_link(link': GList): None =>
+    GQueueP.push_head_link(this, link')

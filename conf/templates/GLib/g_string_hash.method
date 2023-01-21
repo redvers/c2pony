@@ -1,0 +1,2 @@
+  fun ref hash(): U32 =>
+    GStringP.hash(this)

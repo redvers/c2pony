@@ -1,0 +1,2 @@
+  fun ref push(parser': GMarkupParser, user_data': Pointer[None] tag): None =>
+    GMarkupParseContextP.push(this, parser', user_data')

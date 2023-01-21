@@ -1,0 +1,2 @@
+  fun ref get_double_list(group_name': String, key': String, length': Pointer[U64] tag, error': Pointer[GError]): Pointer[F64] tag =>
+    GKeyFileP.get_double_list(this, group_name', key', length', error')

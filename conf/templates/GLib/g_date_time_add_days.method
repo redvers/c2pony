@@ -1,0 +1,2 @@
+  fun ref add_days(days': I32): GDateTime =>
+    GDateTimeP.add_days(this, days')

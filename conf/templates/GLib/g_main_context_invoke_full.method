@@ -1,0 +1,2 @@
+  fun ref invoke_full(priority': I32, function': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify): None =>
+    GMainContextP.invoke_full(this, priority', function', data', notify')

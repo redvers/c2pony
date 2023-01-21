@@ -1,0 +1,2 @@
+  fun ref get_identifier(): String =>
+    GTimeZoneP.get_identifier(this)

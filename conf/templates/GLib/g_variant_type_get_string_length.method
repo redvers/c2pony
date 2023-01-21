@@ -1,0 +1,2 @@
+  fun ref get_string_length(): U64 =>
+    GVariantTypeP.get_string_length(this)

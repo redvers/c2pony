@@ -1,0 +1,2 @@
+  fun ref sort(cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag): None =>
+    GSequenceP.sort(this, cmp_func', cmp_data')

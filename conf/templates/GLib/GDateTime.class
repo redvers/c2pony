@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GDateTime
+  var ptr: NullablePointer[GDateTimeT]
+
+  new create(ptr': NullablePointer[GDateTimeT]) => ptr = ptr'

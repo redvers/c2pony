@@ -1,0 +1,2 @@
+  fun ref get_bytestring(): String =>
+    GVariantP.get_bytestring(this)

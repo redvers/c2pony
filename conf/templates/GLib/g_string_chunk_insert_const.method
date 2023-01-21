@@ -1,0 +1,2 @@
+  fun ref insert_const(string': String): String =>
+    GStringChunkP.insert_const(this, string')

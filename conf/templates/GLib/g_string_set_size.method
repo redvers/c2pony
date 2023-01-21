@@ -1,0 +1,2 @@
+  fun ref set_size(len': U64): GString =>
+    GStringP.set_size(this, len')

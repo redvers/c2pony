@@ -1,0 +1,2 @@
+  fun ref format(format': String): String =>
+    GDateTimeP.format(this, format')

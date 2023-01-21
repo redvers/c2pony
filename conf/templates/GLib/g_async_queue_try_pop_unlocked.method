@@ -1,0 +1,2 @@
+  fun ref try_pop_unlocked(): Pointer[None] tag =>
+    GAsyncQueueP.try_pop_unlocked(this)

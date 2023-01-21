@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GAsyncQueue
+  var ptr: NullablePointer[GAsyncQueueT]
+
+  new create(ptr': NullablePointer[GAsyncQueueT]) => ptr = ptr'

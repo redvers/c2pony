@@ -1,0 +1,2 @@
+  fun ref get_user(): String =>
+    GUriP.get_user(this)

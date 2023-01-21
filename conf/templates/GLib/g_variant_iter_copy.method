@@ -1,0 +1,2 @@
+  fun ref copy(): GVariantIter =>
+    GVariantIterP.copy(this)

@@ -1,0 +1,2 @@
+  fun ref pop_head_link(): GList =>
+    GQueueP.pop_head_link(this)

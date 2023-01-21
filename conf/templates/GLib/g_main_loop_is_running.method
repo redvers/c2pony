@@ -1,0 +1,2 @@
+  fun ref is_running(): I32 =>
+    GMainLoopP.is_running(this)

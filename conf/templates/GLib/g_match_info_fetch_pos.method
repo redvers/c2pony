@@ -1,0 +1,2 @@
+  fun ref fetch_pos(match_num': I32, start_pos': Pointer[I32] tag, end_pos': Pointer[I32] tag): I32 =>
+    GMatchInfoP.fetch_pos(this, match_num', start_pos', end_pos')

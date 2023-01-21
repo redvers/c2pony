@@ -1,0 +1,2 @@
+  fun ref get_mime_type(uri': String, error': Pointer[GError]): String =>
+    GBookmarkFileP.get_mime_type(this, uri', error')

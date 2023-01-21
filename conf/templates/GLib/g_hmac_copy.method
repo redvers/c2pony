@@ -1,0 +1,2 @@
+  fun ref copy(): GHmac =>
+    GHmacP.copy(this)

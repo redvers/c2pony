@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GVariantBuilder
+  var ptr: NullablePointer[GVariantBuilderT]
+
+  new create(ptr': NullablePointer[GVariantBuilderT]) => ptr = ptr'

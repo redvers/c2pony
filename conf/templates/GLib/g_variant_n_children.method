@@ -1,0 +1,2 @@
+  fun ref n_children(): U64 =>
+    GVariantP.n_children(this)

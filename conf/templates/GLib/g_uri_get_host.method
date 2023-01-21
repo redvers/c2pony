@@ -1,0 +1,2 @@
+  fun ref get_host(): String =>
+    GUriP.get_host(this)
