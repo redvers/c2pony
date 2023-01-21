@@ -1,1 +1,1 @@
-use @g_signal_emit_by_name[None](instance': Pointer[None] tag, detailed_signal': String, ...)
+use @g_signal_emit_by_name[None](instance': Pointer[None] tag, detailed_signal': Pointer[U8] tag, ...)

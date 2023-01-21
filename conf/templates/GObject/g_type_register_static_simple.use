@@ -1,1 +1,1 @@
-use @g_type_register_static_simple[U64](parent_type': U64, type_name': String, class_size': U32, class_init': GClassInitFunc, instance_size': U32, instance_init': GInstanceInitFunc, flags': U32)
+use @g_type_register_static_simple[U64](parent_type': U64, type_name': Pointer[U8] tag, class_size': U32, class_init': GClassInitFunc, instance_size': U32, instance_init': GInstanceInitFunc, flags': U32)

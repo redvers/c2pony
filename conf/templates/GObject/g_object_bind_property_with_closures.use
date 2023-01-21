@@ -1,1 +1,1 @@
-use @g_object_bind_property_with_closures[GBinding](source': Pointer[None] tag, source_property': String, target': Pointer[None] tag, target_property': String, flags': U32, transform_to': GClosure, transform_from': GClosure)
+use @g_object_bind_property_with_closures[GBinding](source': Pointer[None] tag, source_property': Pointer[U8] tag, target': Pointer[None] tag, target_property': Pointer[U8] tag, flags': U32, transform_to': GClosure, transform_from': GClosure)

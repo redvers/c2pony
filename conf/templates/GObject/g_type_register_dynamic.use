@@ -1,1 +1,1 @@
-use @g_type_register_dynamic[U64](parent_type': U64, type_name': String, plugin': GTypePlugin, flags': U32)
+use @g_type_register_dynamic[U64](parent_type': U64, type_name': Pointer[U8] tag, plugin': GTypePlugin, flags': U32)

@@ -76,10 +76,33 @@
         <xsl:text>use @</xsl:text>
         <xsl:value-of select="$root/@name"/>
         <xsl:text>[</xsl:text>
-        <xsl:value-of select="$root/@returntype"/>
+
+        <xsl:variable name="typename" select="$root/@returntype"/>
+        <xsl:variable name="newtype" select="/main/c2pony/typenames/typename[@name=$typename]/@rename"/>
+        <xsl:variable name="muttype" select="/main/typedefs/typedef[@name=$newtype]"/>
+
+              <xsl:choose>
+                <xsl:when test="$muttype/@name = $newtype">
+                  <xsl:value-of select="$muttype/@rvtype"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:choose>
+                    <xsl:when test="concat($newtype, 'test') = 'test'">
+                      <xsl:value-of select="$typename"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="$newtype"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:otherwise>
+              </xsl:choose>
+
+
+
+
         <xsl:text>](</xsl:text>
         <xsl:for-each select="$root/*">
-          <xsl:call-template name="useargs">
+          <xsl:call-template name="uargs">
             <xsl:with-param name="arg" select="."/>
           </xsl:call-template>
         </xsl:for-each>
@@ -91,4 +114,41 @@
   </xsl:otherwise>
 </xsl:choose>
   </xsl:template>
+
+<xsl:template name="uargs">
+  <xsl:param name="arg"/>
+  <xsl:if test="position() > 1">
+    <xsl:text>, </xsl:text>
+  </xsl:if>
+  <xsl:choose>
+    <xsl:when test="name()='arg'">
+      <xsl:variable name="argname" select="$arg/@name"/>
+      <xsl:variable name="newname" select="/main/c2pony/argnames/argname[@name=$argname]/@rename"/>
+      <xsl:value-of select="$newname"/>
+      <xsl:text>: </xsl:text>
+      <xsl:variable name="typename" select="$arg/@usetype"/>
+      <xsl:variable name="newtype" select="/main/c2pony/typenames/typename[@name=$typename]/@rename"/>
+
+      <xsl:variable name="muttype" select="/main/typedefs/typedef[@name=$newtype]"/>
+      <xsl:choose>
+        <xsl:when test="$muttype/@name = $newtype">
+          <xsl:value-of select="$muttype/@argtype"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$newtype"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:text>...</xsl:text>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
+
+
+
+
+
+
 </xsl:stylesheet>

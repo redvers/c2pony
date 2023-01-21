@@ -71,16 +71,7 @@
 
               <xsl:text> =&gt;</xsl:text>
               <xsl:value-of select="$newline"/>
-              <xsl:choose>
-                <xsl:when test="$muttype/@name = $newtype">
-                  <xsl:for-each select="$muttype/ponytypeconvout/prefixs">
-                    <xsl:value-of select="."/>
-                  </xsl:for-each>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:text>    </xsl:text>
-                </xsl:otherwise>
-              </xsl:choose>
+              <xsl:text>    </xsl:text>
               <xsl:value-of select="$classname"/>
               <xsl:text>P.</xsl:text>
               <xsl:value-of select="$ponyname"/>
@@ -91,13 +82,6 @@
                 </xsl:call-template>
               </xsl:for-each>
               <xsl:text>)</xsl:text>
-              <xsl:choose>
-                <xsl:when test="$muttype/@name = $newtype">
-                  <xsl:for-each select="$muttype/ponytypeconvout/suffixes">
-                    <xsl:value-of select="."/>
-                  </xsl:for-each>
-                </xsl:when>
-              </xsl:choose>
               <xsl:value-of select="$newline"/>
               <xsl:if test="$render='0'">
                 <xsl:text>*/</xsl:text>

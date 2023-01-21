@@ -1,1 +1,1 @@
-use @g_signal_name[Pointer[U8] tag](signal_id': U32)
+use @g_signal_name[Pointer[U8]](signal_id': U32)

@@ -1,1 +1,1 @@
-use @g_param_spec_int64[GParamSpec](name': String, nick': String, blurb': String, minimum': I64, maximum': I64, default_value': I64, flags': I32)
+use @g_param_spec_int64[GParamSpec](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, minimum': I64, maximum': I64, default_value': I64, flags': I32)

@@ -1,1 +1,1 @@
-use @g_param_spec_get_blurb[Pointer[U8] tag](pspec': GParamSpec)
+use @g_param_spec_get_blurb[Pointer[U8]](pspec': GParamSpec)

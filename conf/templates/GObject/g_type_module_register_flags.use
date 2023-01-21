@@ -1,1 +1,1 @@
-use @g_type_module_register_flags[U64](module': GTypeModule, name': String, const_static_values': GFlagsValue)
+use @g_type_module_register_flags[U64](module': GTypeModule, name': Pointer[U8] tag, const_static_values': GFlagsValue)

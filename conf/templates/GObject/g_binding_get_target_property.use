@@ -1,1 +1,1 @@
-use @g_binding_get_target_property[Pointer[U8] tag](binding': GBinding)
+use @g_binding_get_target_property[Pointer[U8]](binding': GBinding)

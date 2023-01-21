@@ -1,1 +1,1 @@
-use @g_enum_get_value_by_nick[GEnumValue](enum_class': GEnumClass, nick': String)
+use @g_enum_get_value_by_nick[GEnumValue](enum_class': GEnumClass, nick': Pointer[U8] tag)

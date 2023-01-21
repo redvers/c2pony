@@ -1,1 +1,1 @@
-use @g_type_module_register_type[U64](module': GTypeModule, parent_type': U64, type_name': String, type_info': GTypeInfo, flags': U32)
+use @g_type_module_register_type[U64](module': GTypeModule, parent_type': U64, type_name': Pointer[U8] tag, type_info': GTypeInfo, flags': U32)

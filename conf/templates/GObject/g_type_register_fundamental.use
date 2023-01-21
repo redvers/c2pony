@@ -1,1 +1,1 @@
-use @g_type_register_fundamental[U64](type_id': U64, type_name': String, info': GTypeInfo, finfo': GTypeFundamentalInfo, flags': U32)
+use @g_type_register_fundamental[U64](type_id': U64, type_name': Pointer[U8] tag, info': GTypeInfo, finfo': GTypeFundamentalInfo, flags': U32)
