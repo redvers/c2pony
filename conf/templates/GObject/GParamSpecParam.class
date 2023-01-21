@@ -3,4 +3,4 @@ class GParamSpecParam is GParamSpecParamI
   var ptr: Pointer[GParamSpecP]
 
   new create(ptr': Pointer[GParamSpecP]) => ptr = ptr'
-  fun ref getptr(): Pointer[GParamSpecP]) => ptr
+  fun ref getptr(): Pointer[GParamSpecP] => ptr

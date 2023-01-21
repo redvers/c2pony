@@ -8,9 +8,27 @@
   <xsl:template match="/main/rs/ns[@namespace=$namespace]">
     <xsl:variable name="classprefix" select="/main/t:repository/t:namespace/@c:identifier-prefixes"/>
     <xsl:variable name="preamble" select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
+
+    <xsl:result-document href="../templates/{$namespace}/{$namespace}.primitive" method="text">
+      <xsl:value-of select="$preamble"/>
+      <xsl:value-of select="$newline"/>
+      <xsl:text>primitive </xsl:text>
+      <xsl:value-of select="$namespace"/>
+      <xsl:value-of select="$newline"/>
+    </xsl:result-document>
+
     <xsl:for-each select="./renderclass[@render=$debug]">
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, '')"/>
+
+      <xsl:result-document href="../templates/{$namespace}/{$filename}P.primitive" method="text">
+        <xsl:value-of select="$preamble"/>
+        <xsl:value-of select="$newline"/>
+        <xsl:text>primitive </xsl:text>
+        <xsl:value-of select="$filename"/>
+        <xsl:text>P</xsl:text>
+        <xsl:value-of select="$newline"/>
+      </xsl:result-document>
 
       <xsl:result-document href="../templates/{$namespace}/{$filename}.class" method="text">
         <xsl:value-of select="$preamble"/>
@@ -32,7 +50,7 @@
         <xsl:value-of select="$newline"/>
         <xsl:text>  fun ref getptr(): Pointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>
-        <xsl:text>P]) =&gt; ptr</xsl:text>
+        <xsl:text>P] =&gt; ptr</xsl:text>
         <xsl:value-of select="$newline"/>
       </xsl:result-document>
 

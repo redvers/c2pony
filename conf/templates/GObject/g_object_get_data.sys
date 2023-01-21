@@ -1,2 +1,2 @@
-  fun get_data(object': GObject, key': String): Pointer[None] tag =>
-    @g_object_get_data(object', key'.cstring())
+  fun get_data(object': GObjectI, key': String): Pointer[None] tag =>
+    @g_object_get_data(object'.getptr(), key'.cstring())

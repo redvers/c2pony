@@ -1,2 +1,2 @@
-  fun get_target(): GObject =>
-    GBindingP.get_target(getptr())
+  fun ref get_target():  =>
+    GBindingP.get_target(this)

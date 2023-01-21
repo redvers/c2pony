@@ -1,1 +1,1 @@
-use @g_binding_get_target[GObject](binding': GBinding)
+use @g_binding_get_target[Pointer[GObjectP]](binding': GBinding)

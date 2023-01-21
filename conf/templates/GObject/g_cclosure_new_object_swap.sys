@@ -1,2 +1,2 @@
-  fun new_object_swap(callback_func': GCallback, object': GObject): GClosure =>
-    @g_cclosure_new_object_swap(callback_func', object')
+  fun new_object_swap(callback_func': GCallback, object': GObjectI): GClosure =>
+    @g_cclosure_new_object_swap(callback_func', object'.getptr())

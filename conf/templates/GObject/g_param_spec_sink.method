@@ -1,2 +1,2 @@
-  fun sink(): None =>
-    GParamSpecP.sink(getptr())
+  fun ref sink(): None =>
+    GParamSpecP.sink(this)

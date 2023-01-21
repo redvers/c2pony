@@ -1,2 +1,2 @@
-  fun set_qdata(quark': U32, data': Pointer[None] tag): None =>
-    GParamSpecP.set_qdata(getptr(), quark', data')
+  fun ref set_qdata(quark': U32, data': Pointer[None] tag): None =>
+    GParamSpecP.set_qdata(this, quark', data')

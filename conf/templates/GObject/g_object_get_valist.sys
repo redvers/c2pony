@@ -1,2 +1,2 @@
-  fun get_valist(object': GObject, first_property_name': String, var_args': valisttag): None =>
-    @g_object_get_valist(object', first_property_name'.cstring(), var_args')
+  fun get_valist(object': GObjectI, first_property_name': String, var_args': valisttag): None =>
+    @g_object_get_valist(object'.getptr(), first_property_name'.cstring(), var_args')

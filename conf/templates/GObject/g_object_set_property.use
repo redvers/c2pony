@@ -1,1 +1,1 @@
-use @g_object_set_property[None](object': GObject, property_name': Pointer[U8] tag, value': GValue)
+use @g_object_set_property[None](object': Pointer[GObjectP], property_name': Pointer[U8] tag, value': GValue)

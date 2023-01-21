@@ -39,7 +39,7 @@
                 <xsl:text>/* </xsl:text>
                 <xsl:value-of select="$newline"/>
               </xsl:if>
-              <xsl:text>  fun </xsl:text>
+              <xsl:text>  fun ref </xsl:text>
               <xsl:value-of select="$ponyname"/>
               <xsl:text>(</xsl:text>
               <xsl:for-each select="$root/*">
@@ -100,7 +100,7 @@
     <xsl:param name="arg"/>
     <xsl:choose>
       <xsl:when test="position() = 1">
-        <xsl:text>getptr()</xsl:text>
+        <xsl:text>this</xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:if test="position() &gt; 1">
@@ -116,13 +116,13 @@
             <xsl:variable name="newtype" select="/main/c2pony/typenames/typename[@name=$typename]/@rename"/>
       
             <xsl:variable name="muttype" select="/main/typedefs/typedef[@name=$newtype]"/>
-            <xsl:choose>
+            <!--            <xsl:choose>
               <xsl:when test="$muttype/@name = $newtype">
                 <xsl:value-of select="$muttype/@ponytypeinconv"/>
               </xsl:when>
               <xsl:otherwise>
               </xsl:otherwise>
-            </xsl:choose>
+            </xsl:choose> -->
 
 
           </xsl:when>

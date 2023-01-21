@@ -1,1 +1,1 @@
-use @g_object_get_qdata[Pointer[None] tag](object': GObject, quark': U32)
+use @g_object_get_qdata[Pointer[None] tag](object': Pointer[GObjectP], quark': U32)

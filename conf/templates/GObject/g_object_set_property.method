@@ -1,2 +1,2 @@
-  fun set_property(property_name': String, value': GValue): None =>
-    GObjectP.set_property(getptr(), property_name'.cstring(), value')
+  fun ref set_property(property_name': String, value': GValue): None =>
+    GObjectP.set_property(this, property_name', value')

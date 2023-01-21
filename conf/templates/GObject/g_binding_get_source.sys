@@ -1,2 +1,2 @@
-  fun get_source(binding': GBinding): GObject =>
-    @g_binding_get_source(binding')
+  fun get_source(binding': GBinding):  =>
+    String.from_cstring(@g_binding_get_source(binding')).clone()

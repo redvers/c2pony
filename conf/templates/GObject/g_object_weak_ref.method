@@ -1,2 +1,2 @@
-  fun weak_ref(notify': GWeakNotify, data': Pointer[None] tag): None =>
-    GObjectP.weak_ref(getptr(), notify', data')
+  fun ref weak_ref(notify': GWeakNotify, data': Pointer[None] tag): None =>
+    GObjectP.weak_ref(this, notify', data')

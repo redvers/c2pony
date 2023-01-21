@@ -1,2 +1,2 @@
-  fun disconnect(signal_spec': String, ...): None =>
-    GObjectP.disconnect(getptr(), signal_spec'.cstring(), ...)
+  fun ref disconnect(signal_spec': String, ...): None =>
+    GObjectP.disconnect(this, signal_spec', ...)

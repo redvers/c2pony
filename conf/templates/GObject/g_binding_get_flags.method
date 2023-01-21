@@ -1,2 +1,2 @@
-  fun get_flags(): U32 =>
-    GBindingP.get_flags(getptr())
+  fun ref get_flags(): U32 =>
+    GBindingP.get_flags(this)

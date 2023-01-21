@@ -1,2 +1,2 @@
-  fun get_property(property_name': String, value': GValue): None =>
-    GObjectP.get_property(getptr(), property_name'.cstring(), value')
+  fun ref get_property(property_name': String, value': GValue): None =>
+    GObjectP.get_property(this, property_name', value')

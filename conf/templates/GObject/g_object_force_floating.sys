@@ -1,2 +1,2 @@
-  fun force_floating(object': GObject): None =>
-    @g_object_force_floating(object')
+  fun force_floating(object': GObjectI): None =>
+    @g_object_force_floating(object'.getptr())

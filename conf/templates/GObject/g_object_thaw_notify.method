@@ -1,2 +1,2 @@
-  fun thaw_notify(): None =>
-    GObjectP.thaw_notify(getptr())
+  fun ref thaw_notify(): None =>
+    GObjectP.thaw_notify(this)

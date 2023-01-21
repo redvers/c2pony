@@ -1,2 +1,2 @@
-  fun ref(): GParamSpec =>
-    GParamSpecP.ref(getptr())
+  fun ref ref(): GParamSpec =>
+    GParamSpecP.ref(this)

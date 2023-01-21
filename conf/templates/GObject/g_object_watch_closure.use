@@ -1,1 +1,1 @@
-use @g_object_watch_closure[None](object': GObject, closure': GClosure)
+use @g_object_watch_closure[None](object': Pointer[GObjectP], closure': GClosure)

@@ -1,2 +1,2 @@
-  fun unref(): None =>
-    GParamSpecP.unref(getptr())
+  fun ref unref(): None =>
+    GParamSpecP.unref(this)

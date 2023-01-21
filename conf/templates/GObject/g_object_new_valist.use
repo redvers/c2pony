@@ -1,1 +1,1 @@
-use @g_object_new_valist[GObject](object_type': U64, first_property_name': Pointer[U8] tag, var_args': valisttag)
+use @g_object_new_valist[Pointer[GObjectP]](object_type': U64, first_property_name': Pointer[U8] tag, var_args': valisttag)

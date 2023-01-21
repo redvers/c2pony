@@ -1,2 +1,2 @@
-  fun get_source(): GObject =>
-    GBindingP.get_source(getptr())
+  fun ref get_source():  =>
+    GBindingP.get_source(this)
