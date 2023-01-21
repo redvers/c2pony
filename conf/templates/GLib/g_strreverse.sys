@@ -1,2 +1,2 @@
-  fun strreverse(string': String): String =>
-    @g_strreverse(string')
+  fun strreverse(string': String): String iso^ =>
+    String.from_cstring(@g_strreverse(string'.cstring())).clone()

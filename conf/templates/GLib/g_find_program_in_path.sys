@@ -1,2 +1,2 @@
-  fun find_program_in_path(program': String): String =>
-    @g_find_program_in_path(program')
+  fun find_program_in_path(program': String): String iso^ =>
+    String.from_cstring(@g_find_program_in_path(program'.cstring())).clone()

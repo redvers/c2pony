@@ -1,1 +1,1 @@
-use @g_regex_replace_eval[String](regex': GRegex, string': String, string_len': I64, start_position': I32, match_options': U32, eval': GRegexEvalCallback, user_data': Pointer[None] tag, error': Pointer[GError])
+use @g_regex_replace_eval[Pointer[U8]](regex': GRegex, string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, eval': GRegexEvalCallback, user_data': Pointer[None] tag, error': Pointer[GError])

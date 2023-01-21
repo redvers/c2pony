@@ -1,2 +1,2 @@
-  fun get_codeset(): String =>
-    @g_get_codeset()
+  fun get_codeset(): String iso^ =>
+    String.from_cstring(@g_get_codeset()).clone()

@@ -1,2 +1,2 @@
   fun new(filename': String, writable': I32, error': Pointer[GError]): GMappedFile =>
-    @g_mapped_file_new(filename', writable', error')
+    @g_mapped_file_new(filename'.cstring(), writable', error')

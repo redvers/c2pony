@@ -1,1 +1,1 @@
-use @g_ascii_strup[String](str': String, len': I64)
+use @g_ascii_strup[Pointer[U8]](str': Pointer[U8] tag, len': I64)

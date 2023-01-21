@@ -1,2 +1,2 @@
   fun new(type_string': String): GVariantType =>
-    @g_variant_type_new(type_string')
+    @g_variant_type_new(type_string'.cstring())

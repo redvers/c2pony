@@ -1,1 +1,1 @@
-use @g_get_user_name[String]()
+use @g_get_user_name[Pointer[U8]]()

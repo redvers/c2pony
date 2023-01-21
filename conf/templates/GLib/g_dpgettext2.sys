@@ -1,2 +1,2 @@
-  fun dpgettext2(domain': String, context': String, msgid': String): String =>
-    @g_dpgettext2(domain', context', msgid')
+  fun dpgettext2(domain': String, context': String, msgid': String): String iso^ =>
+    String.from_cstring(@g_dpgettext2(domain'.cstring(), context'.cstring(), msgid'.cstring())).clone()

@@ -1,2 +1,2 @@
-  fun utf8_collate_key(str': String, len': I64): String =>
-    @g_utf8_collate_key(str', len')
+  fun utf8_collate_key(str': String, len': I64): String iso^ =>
+    String.from_cstring(@g_utf8_collate_key(str'.cstring(), len')).clone()

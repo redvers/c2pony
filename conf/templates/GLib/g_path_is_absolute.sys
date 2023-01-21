@@ -1,2 +1,2 @@
   fun path_is_absolute(file_name': String): I32 =>
-    @g_path_is_absolute(file_name')
+    @g_path_is_absolute(file_name'.cstring())

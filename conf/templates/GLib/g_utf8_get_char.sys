@@ -1,2 +1,2 @@
   fun utf8_get_char(p': String): U32 =>
-    @g_utf8_get_char(p')
+    @g_utf8_get_char(p'.cstring())

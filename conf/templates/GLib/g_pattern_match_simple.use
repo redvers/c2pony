@@ -1,1 +1,1 @@
-use @g_pattern_match_simple[I32](pattern': String, string': String)
+use @g_pattern_match_simple[I32](pattern': Pointer[U8] tag, string': Pointer[U8] tag)

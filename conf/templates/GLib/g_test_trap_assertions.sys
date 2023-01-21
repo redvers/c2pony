@@ -1,2 +1,2 @@
   fun test_trap_assertions(domain': String, file': String, line': I32, func': String, assertion_flags': U64, pattern': String): None =>
-    @g_test_trap_assertions(domain', file', line', func', assertion_flags', pattern')
+    @g_test_trap_assertions(domain'.cstring(), file'.cstring(), line', func'.cstring(), assertion_flags', pattern'.cstring())

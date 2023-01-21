@@ -1,2 +1,2 @@
-  fun format_size_for_display(size': I64): String =>
-    @g_format_size_for_display(size')
+  fun format_size_for_display(size': I64): String iso^ =>
+    String.from_cstring(@g_format_size_for_display(size')).clone()

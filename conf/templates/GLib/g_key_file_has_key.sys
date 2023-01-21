@@ -1,2 +1,2 @@
   fun has_key(key_file': GKeyFile, group_name': String, key': String, error': Pointer[GError]): I32 =>
-    @g_key_file_has_key(key_file', group_name', key', error')
+    @g_key_file_has_key(key_file', group_name'.cstring(), key'.cstring(), error')

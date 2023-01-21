@@ -1,1 +1,1 @@
-use @g_time_zone_get_abbreviation[String](tz': GTimeZone, interval': I32)
+use @g_time_zone_get_abbreviation[Pointer[U8]](tz': GTimeZone, interval': I32)

@@ -1,2 +1,2 @@
   fun set_name(source': GSource, name': String): None =>
-    @g_source_set_name(source', name')
+    @g_source_set_name(source', name'.cstring())

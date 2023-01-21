@@ -1,2 +1,2 @@
   fun uuid_string_is_valid(str': String): I32 =>
-    @g_uuid_string_is_valid(str')
+    @g_uuid_string_is_valid(str'.cstring())

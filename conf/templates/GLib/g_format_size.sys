@@ -1,2 +1,2 @@
-  fun format_size(size': U64): String =>
-    @g_format_size(size')
+  fun format_size(size': U64): String iso^ =>
+    String.from_cstring(@g_format_size(size')).clone()

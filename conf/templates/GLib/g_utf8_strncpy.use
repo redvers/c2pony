@@ -1,1 +1,1 @@
-use @g_utf8_strncpy[String](dest': String, src': String, n': U64)
+use @g_utf8_strncpy[Pointer[U8]](dest': Pointer[U8] tag, src': Pointer[U8] tag, n': U64)

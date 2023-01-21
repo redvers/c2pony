@@ -1,2 +1,2 @@
   fun environ_setenv(envp': Pointer[Pointer[U8]] tag, variable': String, value': String, overwrite': I32): Pointer[Pointer[U8]] tag =>
-    @g_environ_setenv(envp', variable', value', overwrite')
+    @g_environ_setenv(envp', variable'.cstring(), value'.cstring(), overwrite')

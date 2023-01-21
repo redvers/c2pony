@@ -1,2 +1,2 @@
-  fun get_summary(context': GOptionContext): String =>
-    @g_option_context_get_summary(context')
+  fun get_summary(context': GOptionContext): String iso^ =>
+    String.from_cstring(@g_option_context_get_summary(context')).clone()

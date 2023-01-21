@@ -1,1 +1,1 @@
-use @g_dir_make_tmp[String](tmpl': String, error': Pointer[GError])
+use @g_dir_make_tmp[Pointer[U8]](tmpl': Pointer[U8] tag, error': Pointer[GError])

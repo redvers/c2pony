@@ -1,1 +1,1 @@
-use @g_uri_get_host[String](uri': GUri)
+use @g_uri_get_host[Pointer[U8]](uri': GUri)

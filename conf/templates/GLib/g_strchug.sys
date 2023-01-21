@@ -1,2 +1,2 @@
-  fun strchug(string': String): String =>
-    @g_strchug(string')
+  fun strchug(string': String): String iso^ =>
+    String.from_cstring(@g_strchug(string'.cstring())).clone()

@@ -1,2 +1,2 @@
-  fun ascii_formatd(buffer': String, buf_len': I32, format': String, d': F64): String =>
-    @g_ascii_formatd(buffer', buf_len', format', d')
+  fun ascii_formatd(buffer': String, buf_len': I32, format': String, d': F64): String iso^ =>
+    String.from_cstring(@g_ascii_formatd(buffer'.cstring(), buf_len', format'.cstring(), d')).clone()

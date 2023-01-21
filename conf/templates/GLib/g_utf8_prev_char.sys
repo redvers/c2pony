@@ -1,2 +1,2 @@
-  fun utf8_prev_char(p': String): String =>
-    @g_utf8_prev_char(p')
+  fun utf8_prev_char(p': String): String iso^ =>
+    String.from_cstring(@g_utf8_prev_char(p'.cstring())).clone()

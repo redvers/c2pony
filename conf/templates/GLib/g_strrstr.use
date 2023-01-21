@@ -1,1 +1,1 @@
-use @g_strrstr[String](haystack': String, needle': String)
+use @g_strrstr[Pointer[U8]](haystack': Pointer[U8] tag, needle': Pointer[U8] tag)

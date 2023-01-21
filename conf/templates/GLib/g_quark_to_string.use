@@ -1,1 +1,1 @@
-use @g_quark_to_string[String](quark': U32)
+use @g_quark_to_string[Pointer[U8]](quark': U32)

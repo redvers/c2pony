@@ -1,2 +1,2 @@
-  fun check_version(required_major': U32, required_minor': U32, required_micro': U32): String =>
-    @glib_check_version(required_major', required_minor', required_micro')
+  fun check_version(required_major': U32, required_minor': U32, required_micro': U32): String iso^ =>
+    String.from_cstring(@glib_check_version(required_major', required_minor', required_micro')).clone()

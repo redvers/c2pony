@@ -1,1 +1,1 @@
-use @g_test_expect_message[None](log_domain': String, log_level': I32, pattern': String)
+use @g_test_expect_message[None](log_domain': Pointer[U8] tag, log_level': I32, pattern': Pointer[U8] tag)

@@ -1,1 +1,1 @@
-use @g_get_home_dir[String]()
+use @g_get_home_dir[Pointer[U8]]()

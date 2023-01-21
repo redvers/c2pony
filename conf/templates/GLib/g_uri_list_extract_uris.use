@@ -1,1 +1,1 @@
-use @g_uri_list_extract_uris[Pointer[Pointer[U8]] tag](uri_list': String)
+use @g_uri_list_extract_uris[Pointer[Pointer[U8]] tag](uri_list': Pointer[U8] tag)

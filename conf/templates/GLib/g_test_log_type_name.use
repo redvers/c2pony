@@ -1,1 +1,1 @@
-use @g_test_log_type_name[String](log_type': U32)
+use @g_test_log_type_name[Pointer[U8]](log_type': U32)

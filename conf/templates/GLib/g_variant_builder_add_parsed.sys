@@ -1,2 +1,2 @@
   fun add_parsed(builder': GVariantBuilder, format': String, ...): None =>
-    @g_variant_builder_add_parsed(builder', format', ...)
+    @g_variant_builder_add_parsed(builder', format'.cstring(), ...)

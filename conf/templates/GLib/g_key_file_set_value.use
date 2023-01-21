@@ -1,1 +1,1 @@
-use @g_key_file_set_value[None](key_file': GKeyFile, group_name': String, key': String, value': String)
+use @g_key_file_set_value[None](key_file': GKeyFile, group_name': Pointer[U8] tag, key': Pointer[U8] tag, value': Pointer[U8] tag)

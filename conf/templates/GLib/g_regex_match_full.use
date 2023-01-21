@@ -1,1 +1,1 @@
-use @g_regex_match_full[I32](regex': GRegex, string': String, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[GMatchInfo], error': Pointer[GError])
+use @g_regex_match_full[I32](regex': GRegex, string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[GMatchInfo], error': Pointer[GError])

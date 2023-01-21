@@ -1,1 +1,1 @@
-use @g_mapped_file_get_contents[String](file': GMappedFile)
+use @g_mapped_file_get_contents[Pointer[U8]](file': GMappedFile)

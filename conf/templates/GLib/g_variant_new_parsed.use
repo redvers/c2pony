@@ -1,1 +1,1 @@
-use @g_variant_new_parsed[GVariant](format': String, ...)
+use @g_variant_new_parsed[GVariant](format': Pointer[U8] tag, ...)

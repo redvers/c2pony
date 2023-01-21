@@ -1,2 +1,2 @@
   fun match_simple(pattern': String, string': String, compile_options': U32, match_options': U32): I32 =>
-    @g_regex_match_simple(pattern', string', compile_options', match_options')
+    @g_regex_match_simple(pattern'.cstring(), string'.cstring(), compile_options', match_options')

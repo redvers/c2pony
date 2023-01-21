@@ -1,2 +1,2 @@
-  fun str_to_ascii(str': String, from_locale': String): String =>
-    @g_str_to_ascii(str', from_locale')
+  fun str_to_ascii(str': String, from_locale': String): String iso^ =>
+    String.from_cstring(@g_str_to_ascii(str'.cstring(), from_locale'.cstring())).clone()

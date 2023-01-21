@@ -1,1 +1,1 @@
-use @g_string_new[GString](init': String)
+use @g_string_new[GString](init': Pointer[U8] tag)

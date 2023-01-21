@@ -1,1 +1,1 @@
-use @g_strchomp[String](string': String)
+use @g_strchomp[Pointer[U8]](string': Pointer[U8] tag)

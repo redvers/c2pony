@@ -1,1 +1,1 @@
-use @g_error_new[GError](domain': U32, code': I32, format': String, ...)
+use @g_error_new[NullablePointer[GErrorT]](domain': U32, code': I32, format': Pointer[U8] tag, ...)

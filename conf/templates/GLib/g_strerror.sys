@@ -1,2 +1,2 @@
-  fun strerror(errnum': I32): String =>
-    @g_strerror(errnum')
+  fun strerror(errnum': I32): String iso^ =>
+    String.from_cstring(@g_strerror(errnum')).clone()

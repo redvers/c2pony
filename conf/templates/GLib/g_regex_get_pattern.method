@@ -1,2 +1,2 @@
-  fun ref get_pattern(): String =>
+  fun ref get_pattern(): String iso^ =>
     GRegexP.get_pattern(this)

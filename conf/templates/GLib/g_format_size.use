@@ -1,1 +1,1 @@
-use @g_format_size[String](size': U64)
+use @g_format_size[Pointer[U8]](size': U64)

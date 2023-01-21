@@ -1,2 +1,2 @@
   fun get_added(bookmark': GBookmarkFile, uri': String, error': Pointer[GError]): I64 =>
-    @g_bookmark_file_get_added(bookmark', uri', error')
+    @g_bookmark_file_get_added(bookmark', uri'.cstring(), error')

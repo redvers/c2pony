@@ -1,1 +1,1 @@
-use @g_uuid_string_is_valid[I32](str': String)
+use @g_uuid_string_is_valid[I32](str': Pointer[U8] tag)

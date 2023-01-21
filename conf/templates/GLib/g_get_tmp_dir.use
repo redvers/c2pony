@@ -1,1 +1,1 @@
-use @g_get_tmp_dir[String]()
+use @g_get_tmp_dir[Pointer[U8]]()

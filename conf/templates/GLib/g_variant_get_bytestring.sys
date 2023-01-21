@@ -1,2 +1,2 @@
-  fun get_bytestring(value': GVariant): String =>
-    @g_variant_get_bytestring(value')
+  fun get_bytestring(value': GVariant): String iso^ =>
+    String.from_cstring(@g_variant_get_bytestring(value')).clone()

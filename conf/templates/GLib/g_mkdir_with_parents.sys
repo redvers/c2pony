@@ -1,2 +1,2 @@
   fun mkdir_with_parents(pathname': String, mode': I32): I32 =>
-    @g_mkdir_with_parents(pathname', mode')
+    @g_mkdir_with_parents(pathname'.cstring(), mode')

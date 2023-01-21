@@ -1,2 +1,2 @@
   fun test_skip(msg': String): None =>
-    @g_test_skip(msg')
+    @g_test_skip(msg'.cstring())

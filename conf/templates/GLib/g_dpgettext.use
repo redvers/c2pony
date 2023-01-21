@@ -1,1 +1,1 @@
-use @g_dpgettext[String](domain': String, msgctxtid': String, msgidoffset': U64)
+use @g_dpgettext[Pointer[U8]](domain': Pointer[U8] tag, msgctxtid': Pointer[U8] tag, msgidoffset': U64)

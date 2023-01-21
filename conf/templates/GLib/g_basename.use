@@ -1,1 +1,1 @@
-use @g_basename[String](file_name': String)
+use @g_basename[Pointer[U8]](file_name': Pointer[U8] tag)

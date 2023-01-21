@@ -1,2 +1,2 @@
-  fun get_userinfo(uri': GUri): String =>
-    @g_uri_get_userinfo(uri')
+  fun get_userinfo(uri': GUri): String iso^ =>
+    String.from_cstring(@g_uri_get_userinfo(uri')).clone()

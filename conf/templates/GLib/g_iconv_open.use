@@ -1,1 +1,1 @@
-use @g_iconv_open[GIConv](to_codeset': String, from_codeset': String)
+use @g_iconv_open[GIConv](to_codeset': Pointer[U8] tag, from_codeset': Pointer[U8] tag)

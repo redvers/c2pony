@@ -1,2 +1,2 @@
   fun base64_encode_close(break_lines': I32, out': String, state': Pointer[I32] tag, save': Pointer[I32] tag): U64 =>
-    @g_base64_encode_close(break_lines', out', state', save')
+    @g_base64_encode_close(break_lines', out'.cstring(), state', save')

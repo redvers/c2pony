@@ -1,1 +1,1 @@
-use @g_utf8_strlen[I64](p': String, max': I64)
+use @g_utf8_strlen[I64](p': Pointer[U8] tag, max': I64)

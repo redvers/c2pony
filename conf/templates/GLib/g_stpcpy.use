@@ -1,1 +1,1 @@
-use @g_stpcpy[String](dest': String, src': String)
+use @g_stpcpy[Pointer[U8]](dest': Pointer[U8] tag, src': Pointer[U8] tag)

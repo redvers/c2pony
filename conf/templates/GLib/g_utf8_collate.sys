@@ -1,2 +1,2 @@
   fun utf8_collate(str1': String, str2': String): I32 =>
-    @g_utf8_collate(str1', str2')
+    @g_utf8_collate(str1'.cstring(), str2'.cstring())

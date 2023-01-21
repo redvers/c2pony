@@ -1,1 +1,1 @@
-use @g_utf8_collate_key_for_filename[String](str': String, len': I64)
+use @g_utf8_collate_key_for_filename[Pointer[U8]](str': Pointer[U8] tag, len': I64)

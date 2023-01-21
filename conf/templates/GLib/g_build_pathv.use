@@ -1,1 +1,1 @@
-use @g_build_pathv[String](separator': String, args': Pointer[Pointer[U8]] tag)
+use @g_build_pathv[Pointer[U8]](separator': Pointer[U8] tag, args': Pointer[Pointer[U8]] tag)

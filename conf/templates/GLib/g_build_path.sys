@@ -1,2 +1,2 @@
-  fun build_path(separator': String, first_element': String, ...): String =>
-    @g_build_path(separator', first_element', ...)
+  fun build_path(separator': String, first_element': String, ...): String iso^ =>
+    String.from_cstring(@g_build_path(separator'.cstring(), first_element'.cstring(), ...)).clone()

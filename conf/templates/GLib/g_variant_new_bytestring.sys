@@ -1,2 +1,2 @@
   fun new_bytestring(string': String): GVariant =>
-    @g_variant_new_bytestring(string')
+    @g_variant_new_bytestring(string'.cstring())

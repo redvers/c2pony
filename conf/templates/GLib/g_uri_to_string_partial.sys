@@ -1,2 +1,2 @@
-  fun to_string_partial(uri': GUri, flags': U32): String =>
-    @g_uri_to_string_partial(uri', flags')
+  fun to_string_partial(uri': GUri, flags': U32): String iso^ =>
+    String.from_cstring(@g_uri_to_string_partial(uri', flags')).clone()

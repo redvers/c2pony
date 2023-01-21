@@ -1,1 +1,1 @@
-use @g_hostname_is_ascii_encoded[I32](hostname': String)
+use @g_hostname_is_ascii_encoded[I32](hostname': Pointer[U8] tag)

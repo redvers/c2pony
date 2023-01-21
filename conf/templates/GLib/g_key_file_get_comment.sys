@@ -1,2 +1,2 @@
-  fun get_comment(key_file': GKeyFile, group_name': String, key': String, error': Pointer[GError]): String =>
-    @g_key_file_get_comment(key_file', group_name', key', error')
+  fun get_comment(key_file': GKeyFile, group_name': String, key': String, error': Pointer[GError]): String iso^ =>
+    String.from_cstring(@g_key_file_get_comment(key_file', group_name'.cstring(), key'.cstring(), error')).clone()

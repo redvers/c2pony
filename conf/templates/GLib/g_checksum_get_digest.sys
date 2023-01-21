@@ -1,2 +1,2 @@
   fun get_digest(checksum': GChecksum, buffer': String, digest_len': Pointer[U64] tag): None =>
-    @g_checksum_get_digest(checksum', buffer', digest_len')
+    @g_checksum_get_digest(checksum', buffer'.cstring(), digest_len')

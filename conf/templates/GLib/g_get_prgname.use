@@ -1,1 +1,1 @@
-use @g_get_prgname[String]()
+use @g_get_prgname[Pointer[U8]]()

@@ -1,2 +1,2 @@
-  fun get_timezone_abbreviation(datetime': GDateTime): String =>
-    @g_date_time_get_timezone_abbreviation(datetime')
+  fun get_timezone_abbreviation(datetime': GDateTime): String iso^ =>
+    String.from_cstring(@g_date_time_get_timezone_abbreviation(datetime')).clone()

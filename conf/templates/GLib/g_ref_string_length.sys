@@ -1,2 +1,2 @@
   fun ref_string_length(str': String): U64 =>
-    @g_ref_string_length(str')
+    @g_ref_string_length(str'.cstring())

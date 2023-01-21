@@ -1,2 +1,2 @@
-  fun file_read_link(filename': String, error': Pointer[GError]): String =>
-    @g_file_read_link(filename', error')
+  fun file_read_link(filename': String, error': Pointer[GError]): String iso^ =>
+    String.from_cstring(@g_file_read_link(filename'.cstring(), error')).clone()

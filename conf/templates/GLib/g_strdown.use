@@ -1,1 +1,1 @@
-use @g_strdown[String](string': String)
+use @g_strdown[Pointer[U8]](string': Pointer[U8] tag)

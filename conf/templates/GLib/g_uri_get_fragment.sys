@@ -1,2 +1,2 @@
-  fun get_fragment(uri': GUri): String =>
-    @g_uri_get_fragment(uri')
+  fun get_fragment(uri': GUri): String iso^ =>
+    String.from_cstring(@g_uri_get_fragment(uri')).clone()

@@ -1,2 +1,2 @@
   fun get_string_number(regex': GRegex, name': String): I32 =>
-    @g_regex_get_string_number(regex', name')
+    @g_regex_get_string_number(regex', name'.cstring())

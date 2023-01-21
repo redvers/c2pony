@@ -1,2 +1,2 @@
-  fun ref dup_string(): String =>
+  fun ref dup_string(): String iso^ =>
     GVariantTypeP.dup_string(this)

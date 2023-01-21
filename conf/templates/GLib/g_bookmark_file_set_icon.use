@@ -1,1 +1,1 @@
-use @g_bookmark_file_set_icon[None](bookmark': GBookmarkFile, uri': String, href': String, mime_type': String)
+use @g_bookmark_file_set_icon[None](bookmark': GBookmarkFile, uri': Pointer[U8] tag, href': Pointer[U8] tag, mime_type': Pointer[U8] tag)

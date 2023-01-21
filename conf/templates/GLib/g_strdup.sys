@@ -1,2 +1,2 @@
-  fun strdup(str': String): String =>
-    @g_strdup(str')
+  fun strdup(str': String): String iso^ =>
+    String.from_cstring(@g_strdup(str'.cstring())).clone()

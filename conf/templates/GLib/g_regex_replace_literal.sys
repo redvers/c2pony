@@ -1,2 +1,2 @@
-  fun replace_literal(regex': GRegex, string': String, string_len': I64, start_position': I32, replacement': String, match_options': U32, error': Pointer[GError]): String =>
-    @g_regex_replace_literal(regex', string', string_len', start_position', replacement', match_options', error')
+  fun replace_literal(regex': GRegex, string': String, string_len': I64, start_position': I32, replacement': String, match_options': U32, error': Pointer[GError]): String iso^ =>
+    String.from_cstring(@g_regex_replace_literal(regex', string'.cstring(), string_len', start_position', replacement'.cstring(), match_options', error')).clone()

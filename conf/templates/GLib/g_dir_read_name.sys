@@ -1,2 +1,2 @@
-  fun read_name(dir': GDir): String =>
-    @g_dir_read_name(dir')
+  fun read_name(dir': GDir): String iso^ =>
+    String.from_cstring(@g_dir_read_name(dir')).clone()

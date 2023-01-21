@@ -1,2 +1,2 @@
-  fun dup_bytestring(value': GVariant, length': Pointer[U64] tag): String =>
-    @g_variant_dup_bytestring(value', length')
+  fun dup_bytestring(value': GVariant, length': Pointer[U64] tag): String iso^ =>
+    String.from_cstring(@g_variant_dup_bytestring(value', length')).clone()

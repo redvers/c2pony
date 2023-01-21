@@ -1,1 +1,1 @@
-use @g_strescape[String](source': String, exceptions': String)
+use @g_strescape[Pointer[U8]](source': Pointer[U8] tag, exceptions': Pointer[U8] tag)

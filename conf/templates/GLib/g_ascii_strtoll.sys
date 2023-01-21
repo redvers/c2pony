@@ -1,2 +1,2 @@
   fun ascii_strtoll(nptr': String, endptr': Pointer[Pointer[U8]] tag, base': U32): I64 =>
-    @g_ascii_strtoll(nptr', endptr', base')
+    @g_ascii_strtoll(nptr'.cstring(), endptr', base')

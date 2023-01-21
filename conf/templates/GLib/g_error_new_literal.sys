@@ -1,2 +1,2 @@
-  fun new_literal(domain': U32, code': I32, message': String): GError =>
-    @g_error_new_literal(domain', code', message')
+  fun new_literal(domain': U32, code': I32, message': String): NullablePointer[GErrorT] =>
+@g_error_new_literal(domain', code', message'.cstring())

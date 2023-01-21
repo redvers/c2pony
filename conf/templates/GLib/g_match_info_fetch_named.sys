@@ -1,2 +1,2 @@
-  fun fetch_named(match_info': GMatchInfo, name': String): String =>
-    @g_match_info_fetch_named(match_info', name')
+  fun fetch_named(match_info': GMatchInfo, name': String): String iso^ =>
+    String.from_cstring(@g_match_info_fetch_named(match_info', name'.cstring())).clone()

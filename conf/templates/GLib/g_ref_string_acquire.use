@@ -1,1 +1,1 @@
-use @g_ref_string_acquire[String](str': String)
+use @g_ref_string_acquire[Pointer[U8]](str': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun escape_nul(string': String, length': I32): String =>
-    @g_regex_escape_nul(string', length')
+  fun escape_nul(string': String, length': I32): String iso^ =>
+    String.from_cstring(@g_regex_escape_nul(string'.cstring(), length')).clone()

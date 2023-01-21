@@ -1,2 +1,2 @@
-  fun get_user_cache_dir(): String =>
-    @g_get_user_cache_dir()
+  fun get_user_cache_dir(): String iso^ =>
+    String.from_cstring(@g_get_user_cache_dir()).clone()

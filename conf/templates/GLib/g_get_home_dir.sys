@@ -1,2 +1,2 @@
-  fun get_home_dir(): String =>
-    @g_get_home_dir()
+  fun get_home_dir(): String iso^ =>
+    String.from_cstring(@g_get_home_dir()).clone()

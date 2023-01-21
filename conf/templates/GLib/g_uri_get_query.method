@@ -1,2 +1,2 @@
-  fun ref get_query(): String =>
+  fun ref get_query(): String iso^ =>
     GUriP.get_query(this)

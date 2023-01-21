@@ -1,2 +1,2 @@
-  fun intern_string(string': String): String =>
-    @g_intern_string(string')
+  fun intern_string(string': String): String iso^ =>
+    String.from_cstring(@g_intern_string(string'.cstring())).clone()

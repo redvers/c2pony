@@ -1,1 +1,1 @@
-use @g_uri_escape_string[String](unescaped': String, reserved_chars_allowed': String, allow_utf8': I32)
+use @g_uri_escape_string[Pointer[U8]](unescaped': Pointer[U8] tag, reserved_chars_allowed': Pointer[U8] tag, allow_utf8': I32)

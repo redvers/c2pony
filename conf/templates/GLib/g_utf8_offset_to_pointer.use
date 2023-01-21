@@ -1,1 +1,1 @@
-use @g_utf8_offset_to_pointer[String](str': String, offset': I64)
+use @g_utf8_offset_to_pointer[Pointer[U8]](str': Pointer[U8] tag, offset': I64)

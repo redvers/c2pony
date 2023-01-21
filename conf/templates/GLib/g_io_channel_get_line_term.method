@@ -1,2 +1,2 @@
-  fun ref get_line_term(length': Pointer[I32] tag): String =>
+  fun ref get_line_term(length': Pointer[I32] tag): String iso^ =>
     GIOChannelP.get_line_term(this, length')

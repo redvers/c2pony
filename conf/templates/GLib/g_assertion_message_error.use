@@ -1,1 +1,1 @@
-use @g_assertion_message_error[None](domain': String, file': String, line': I32, func': String, expr': String, error': GError, error_domain': U32, error_code': I32)
+use @g_assertion_message_error[None](domain': Pointer[U8] tag, file': Pointer[U8] tag, line': I32, func': Pointer[U8] tag, expr': Pointer[U8] tag, error': NullablePointer[GErrorT], error_domain': U32, error_code': I32)

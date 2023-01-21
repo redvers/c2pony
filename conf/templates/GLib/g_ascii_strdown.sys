@@ -1,2 +1,2 @@
-  fun ascii_strdown(str': String, len': I64): String =>
-    @g_ascii_strdown(str', len')
+  fun ascii_strdown(str': String, len': I64): String iso^ =>
+    String.from_cstring(@g_ascii_strdown(str'.cstring(), len')).clone()

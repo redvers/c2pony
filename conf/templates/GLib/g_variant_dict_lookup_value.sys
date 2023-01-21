@@ -1,2 +1,2 @@
   fun lookup_value(dict': GVariantDict, key': String, expected_type': GVariantType): GVariant =>
-    @g_variant_dict_lookup_value(dict', key', expected_type')
+    @g_variant_dict_lookup_value(dict', key'.cstring(), expected_type')

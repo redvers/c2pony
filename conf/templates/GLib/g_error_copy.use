@@ -1,1 +1,1 @@
-use @g_error_copy[GError](error': GError)
+use @g_error_copy[NullablePointer[GErrorT]](error': NullablePointer[GErrorT])

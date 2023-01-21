@@ -1,2 +1,2 @@
-  fun get_application_name(): String =>
-    @g_get_application_name()
+  fun get_application_name(): String iso^ =>
+    String.from_cstring(@g_get_application_name()).clone()

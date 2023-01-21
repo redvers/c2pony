@@ -1,1 +1,1 @@
-use @g_uri_unescape_segment[String](escaped_string': String, escaped_string_end': String, illegal_characters': String)
+use @g_uri_unescape_segment[Pointer[U8]](escaped_string': Pointer[U8] tag, escaped_string_end': Pointer[U8] tag, illegal_characters': Pointer[U8] tag)

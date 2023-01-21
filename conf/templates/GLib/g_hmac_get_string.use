@@ -1,1 +1,1 @@
-use @g_hmac_get_string[String](hmac': GHmac)
+use @g_hmac_get_string[Pointer[U8]](hmac': GHmac)

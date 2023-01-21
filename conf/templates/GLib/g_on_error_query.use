@@ -1,1 +1,1 @@
-use @g_on_error_query[None](prg_name': String)
+use @g_on_error_query[None](prg_name': Pointer[U8] tag)

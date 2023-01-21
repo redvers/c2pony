@@ -1,2 +1,2 @@
   fun string_new(init': String): GString =>
-    @g_string_new(init')
+    @g_string_new(init'.cstring())

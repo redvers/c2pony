@@ -1,1 +1,1 @@
-use @g_test_incomplete[None](msg': String)
+use @g_test_incomplete[None](msg': Pointer[U8] tag)

@@ -1,1 +1,1 @@
-use @g_test_get_filename[String](file_type': U32, first_path': String, ...)
+use @g_test_get_filename[Pointer[U8]](file_type': U32, first_path': Pointer[U8] tag, ...)

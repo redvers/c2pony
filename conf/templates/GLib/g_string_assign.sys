@@ -1,2 +1,2 @@
   fun assign(string': GString, rval': String): GString =>
-    @g_string_assign(string', rval')
+    @g_string_assign(string', rval'.cstring())

@@ -1,1 +1,1 @@
-use @g_get_locale_variants[Pointer[Pointer[U8]] tag](locale': String)
+use @g_get_locale_variants[Pointer[Pointer[U8]] tag](locale': Pointer[U8] tag)

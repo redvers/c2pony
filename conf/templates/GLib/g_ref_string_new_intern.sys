@@ -1,2 +1,2 @@
-  fun ref_string_new_intern(str': String): String =>
-    @g_ref_string_new_intern(str')
+  fun ref_string_new_intern(str': String): String iso^ =>
+    String.from_cstring(@g_ref_string_new_intern(str'.cstring())).clone()

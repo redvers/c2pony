@@ -1,1 +1,1 @@
-use @g_strconcat[String](string1': String, ...)
+use @g_strconcat[Pointer[U8]](string1': Pointer[U8] tag, ...)

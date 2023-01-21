@@ -1,2 +1,2 @@
   fun return_if_fail_warning(log_domain': String, pretty_function': String, expression': String): None =>
-    @g_return_if_fail_warning(log_domain', pretty_function', expression')
+    @g_return_if_fail_warning(log_domain'.cstring(), pretty_function'.cstring(), expression'.cstring())

@@ -1,2 +1,2 @@
   fun utf8_pointer_to_offset(str': String, pos': String): I64 =>
-    @g_utf8_pointer_to_offset(str', pos')
+    @g_utf8_pointer_to_offset(str'.cstring(), pos'.cstring())

@@ -1,2 +1,2 @@
   fun new(identifier': String): GTimeZone =>
-    @g_time_zone_new(identifier')
+    @g_time_zone_new(identifier'.cstring())

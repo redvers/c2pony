@@ -1,2 +1,2 @@
   fun utf8_strlen(p': String, max': I64): I64 =>
-    @g_utf8_strlen(p', max')
+    @g_utf8_strlen(p'.cstring(), max')

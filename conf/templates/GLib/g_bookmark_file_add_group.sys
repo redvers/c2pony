@@ -1,2 +1,2 @@
   fun add_group(bookmark': GBookmarkFile, uri': String, group': String): None =>
-    @g_bookmark_file_add_group(bookmark', uri', group')
+    @g_bookmark_file_add_group(bookmark', uri'.cstring(), group'.cstring())

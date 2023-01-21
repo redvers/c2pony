@@ -1,1 +1,1 @@
-use @g_convert[String](str': String, len': I64, to_codeset': String, from_codeset': String, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[GError])
+use @g_convert[Pointer[U8]](str': Pointer[U8] tag, len': I64, to_codeset': Pointer[U8] tag, from_codeset': Pointer[U8] tag, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[GError])

@@ -1,1 +1,1 @@
-use @g_variant_is_object_path[I32](string': String)
+use @g_variant_is_object_path[I32](string': Pointer[U8] tag)

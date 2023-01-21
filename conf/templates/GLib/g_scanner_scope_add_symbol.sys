@@ -1,2 +1,2 @@
   fun scope_add_symbol(scanner': GScanner, scope_id': U32, symbol': String, value': Pointer[None] tag): None =>
-    @g_scanner_scope_add_symbol(scanner', scope_id', symbol', value')
+    @g_scanner_scope_add_symbol(scanner', scope_id', symbol'.cstring(), value')

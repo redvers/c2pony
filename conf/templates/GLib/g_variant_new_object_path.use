@@ -1,1 +1,1 @@
-use @g_variant_new_object_path[GVariant](object_path': String)
+use @g_variant_new_object_path[GVariant](object_path': Pointer[U8] tag)

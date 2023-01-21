@@ -1,1 +1,1 @@
-use @g_test_summary[None](summary': String)
+use @g_test_summary[None](summary': Pointer[U8] tag)

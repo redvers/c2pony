@@ -1,2 +1,2 @@
-  fun basename(file_name': String): String =>
-    @g_basename(file_name')
+  fun basename(file_name': String): String iso^ =>
+    String.from_cstring(@g_basename(file_name'.cstring())).clone()

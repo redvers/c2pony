@@ -178,7 +178,7 @@ use "lib:glib-2.0"
     <renderfunction name="g_hostname_is_non_ascii" ponyname="hostname_is_non_ascii" render="1" deprecated=""/>
     <renderfunction name="g_hostname_to_ascii" ponyname="hostname_to_ascii" render="1" deprecated=""/>
     <renderfunction name="g_hostname_to_unicode" ponyname="hostname_to_unicode" render="1" deprecated=""/>
-    <renderfunction name="g_iconv" ponyname="iconv" render="1" deprecated=""/>
+    <renderfunction name="g_iconv" ponyname="iconv" render="0" deprecated=""/>
     <renderfunction name="g_idle_add" ponyname="idle_add" render="1" deprecated=""/>
     <renderfunction name="g_idle_add_full" ponyname="idle_add_full" render="1" deprecated=""/>
     <renderfunction name="g_idle_remove_by_data" ponyname="idle_remove_by_data" render="1" deprecated=""/>
@@ -861,7 +861,7 @@ use "lib:glib-2.0"
       <rendermethod name="g_hook_list_marshal_check" ponyname="marshal_check" render="1" deprecated=""/>
     </renderstruct>
     <renderstruct name="GIConv" render="1">
-      <rendermethod name="g_iconv" ponyname="" render="0" deprecated=""/>
+      <rendermethod name="g_iconv" ponyname="" render="1" deprecated=""/>
       <rendermethod name="g_iconv_close" ponyname="close" render="1" deprecated=""/>
       <renderfunction name="g_iconv_open" ponyname="open" render="1" deprecated=""/>
     </renderstruct>

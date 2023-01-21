@@ -1,2 +1,2 @@
-  fun get_contents(file': GMappedFile): String =>
-    @g_mapped_file_get_contents(file')
+  fun get_contents(file': GMappedFile): String iso^ =>
+    String.from_cstring(@g_mapped_file_get_contents(file')).clone()

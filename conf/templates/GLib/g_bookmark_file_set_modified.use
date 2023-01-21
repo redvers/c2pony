@@ -1,1 +1,1 @@
-use @g_bookmark_file_set_modified[None](bookmark': GBookmarkFile, uri': String, modified': I64)
+use @g_bookmark_file_set_modified[None](bookmark': GBookmarkFile, uri': Pointer[U8] tag, modified': I64)

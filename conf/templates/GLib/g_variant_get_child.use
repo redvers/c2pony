@@ -1,1 +1,1 @@
-use @g_variant_get_child[None](value': GVariant, index': U64, format_string': String, ...)
+use @g_variant_get_child[None](value': GVariant, index': U64, format_string': Pointer[U8] tag, ...)

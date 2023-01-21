@@ -1,2 +1,2 @@
   fun new(parameter_string': String): GOptionContext =>
-    @g_option_context_new(parameter_string')
+    @g_option_context_new(parameter_string'.cstring())

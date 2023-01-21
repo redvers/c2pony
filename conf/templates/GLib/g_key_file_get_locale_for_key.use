@@ -1,1 +1,1 @@
-use @g_key_file_get_locale_for_key[String](key_file': GKeyFile, group_name': String, key': String, locale': String)
+use @g_key_file_get_locale_for_key[Pointer[U8]](key_file': GKeyFile, group_name': Pointer[U8] tag, key': Pointer[U8] tag, locale': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun get_string(checksum': GChecksum): String =>
-    @g_checksum_get_string(checksum')
+  fun get_string(checksum': GChecksum): String iso^ =>
+    String.from_cstring(@g_checksum_get_string(checksum')).clone()

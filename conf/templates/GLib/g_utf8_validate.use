@@ -1,1 +1,1 @@
-use @g_utf8_validate[I32](str': String, max_len': I64, end': Pointer[Pointer[U8]] tag)
+use @g_utf8_validate[I32](str': Pointer[U8] tag, max_len': I64, end': Pointer[Pointer[U8]] tag)

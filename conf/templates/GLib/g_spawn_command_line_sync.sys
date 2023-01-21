@@ -1,2 +1,2 @@
   fun spawn_command_line_sync(command_line': String, standard_output': Pointer[Pointer[U8]] tag, standard_error': Pointer[Pointer[U8]] tag, wait_status': Pointer[I32] tag, error': Pointer[GError]): I32 =>
-    @g_spawn_command_line_sync(command_line', standard_output', standard_error', wait_status', error')
+    @g_spawn_command_line_sync(command_line'.cstring(), standard_output', standard_error', wait_status', error')

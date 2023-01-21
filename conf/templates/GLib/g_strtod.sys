@@ -1,2 +1,2 @@
   fun strtod(nptr': String, endptr': Pointer[Pointer[U8]] tag): F64 =>
-    @g_strtod(nptr', endptr')
+    @g_strtod(nptr'.cstring(), endptr')

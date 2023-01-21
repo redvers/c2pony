@@ -1,1 +1,1 @@
-use @g_date_time_format[String](datetime': GDateTime, format': String)
+use @g_date_time_format[Pointer[U8]](datetime': GDateTime, format': Pointer[U8] tag)

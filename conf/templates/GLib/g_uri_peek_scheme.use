@@ -1,1 +1,1 @@
-use @g_uri_peek_scheme[String](uri': String)
+use @g_uri_peek_scheme[Pointer[U8]](uri': Pointer[U8] tag)

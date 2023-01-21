@@ -1,2 +1,2 @@
   fun new(format_string': String, ...): GVariant =>
-    @g_variant_new(format_string', ...)
+    @g_variant_new(format_string'.cstring(), ...)

@@ -1,2 +1,2 @@
   fun utf8_validate(str': String, max_len': I64, end': Pointer[Pointer[U8]] tag): I32 =>
-    @g_utf8_validate(str', max_len', end')
+    @g_utf8_validate(str'.cstring(), max_len', end')

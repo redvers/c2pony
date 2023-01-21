@@ -1,2 +1,2 @@
-  fun ascii_strup(str': String, len': I64): String =>
-    @g_ascii_strup(str', len')
+  fun ascii_strup(str': String, len': I64): String iso^ =>
+    String.from_cstring(@g_ascii_strup(str'.cstring(), len')).clone()

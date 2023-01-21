@@ -1,1 +1,1 @@
-use @g_get_application_name[String]()
+use @g_get_application_name[Pointer[U8]]()

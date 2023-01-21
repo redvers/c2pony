@@ -1,2 +1,2 @@
-  fun ref get_start_group(): String =>
+  fun ref get_start_group(): String iso^ =>
     GKeyFileP.get_start_group(this)

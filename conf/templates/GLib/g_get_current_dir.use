@@ -1,1 +1,1 @@
-use @g_get_current_dir[String]()
+use @g_get_current_dir[Pointer[U8]]()

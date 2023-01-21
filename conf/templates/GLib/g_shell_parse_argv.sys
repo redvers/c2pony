@@ -1,2 +1,2 @@
   fun shell_parse_argv(command_line': String, argcp': Pointer[I32] tag, argvp': Pointer[Pointer[Pointer[U8]]] tag, error': Pointer[GError]): I32 =>
-    @g_shell_parse_argv(command_line', argcp', argvp', error')
+    @g_shell_parse_argv(command_line'.cstring(), argcp', argvp', error')

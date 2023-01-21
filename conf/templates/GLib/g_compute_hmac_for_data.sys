@@ -1,2 +1,2 @@
-  fun compute_hmac_for_data(digest_type': U32, key': String, key_len': U64, data': String, length': U64): String =>
-    @g_compute_hmac_for_data(digest_type', key', key_len', data', length')
+  fun compute_hmac_for_data(digest_type': U32, key': String, key_len': U64, data': String, length': U64): String iso^ =>
+    String.from_cstring(@g_compute_hmac_for_data(digest_type', key'.cstring(), key_len', data'.cstring(), length')).clone()

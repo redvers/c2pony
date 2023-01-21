@@ -1,2 +1,2 @@
-  fun format(datetime': GDateTime, format': String): String =>
-    @g_date_time_format(datetime', format')
+  fun format(datetime': GDateTime, format': String): String iso^ =>
+    String.from_cstring(@g_date_time_format(datetime', format'.cstring())).clone()

@@ -1,2 +1,2 @@
-  fun utf8_casefold(str': String, len': I64): String =>
-    @g_utf8_casefold(str', len')
+  fun utf8_casefold(str': String, len': I64): String iso^ =>
+    String.from_cstring(@g_utf8_casefold(str'.cstring(), len')).clone()

@@ -1,2 +1,2 @@
   fun set_double_list(key_file': GKeyFile, group_name': String, key': String, list': Pointer[F64] tag, length': U64): None =>
-    @g_key_file_set_double_list(key_file', group_name', key', list', length')
+    @g_key_file_set_double_list(key_file', group_name'.cstring(), key'.cstring(), list', length')

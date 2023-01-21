@@ -1,2 +1,2 @@
-  fun strrstr_len(haystack': String, haystack_len': I64, needle': String): String =>
-    @g_strrstr_len(haystack', haystack_len', needle')
+  fun strrstr_len(haystack': String, haystack_len': I64, needle': String): String iso^ =>
+    String.from_cstring(@g_strrstr_len(haystack'.cstring(), haystack_len', needle'.cstring())).clone()

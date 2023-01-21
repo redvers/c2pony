@@ -1,1 +1,1 @@
-use @g_source_get_name[String](source': GSource)
+use @g_source_get_name[Pointer[U8]](source': GSource)

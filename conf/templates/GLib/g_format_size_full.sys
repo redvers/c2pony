@@ -1,2 +1,2 @@
-  fun format_size_full(size': U64, flags': U32): String =>
-    @g_format_size_full(size', flags')
+  fun format_size_full(size': U64, flags': U32): String iso^ =>
+    String.from_cstring(@g_format_size_full(size', flags')).clone()

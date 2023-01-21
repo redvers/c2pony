@@ -1,1 +1,1 @@
-use @g_environ_unsetenv[Pointer[Pointer[U8]] tag](envp': Pointer[Pointer[U8]] tag, variable': String)
+use @g_environ_unsetenv[Pointer[Pointer[U8]] tag](envp': Pointer[Pointer[U8]] tag, variable': Pointer[U8] tag)

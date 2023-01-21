@@ -1,2 +1,2 @@
   fun split(regex': GRegex, string': String, match_options': U32): Pointer[Pointer[U8]] tag =>
-    @g_regex_split(regex', string', match_options')
+    @g_regex_split(regex', string'.cstring(), match_options')

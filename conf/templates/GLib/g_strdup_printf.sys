@@ -1,2 +1,2 @@
-  fun strdup_printf(format': String, ...): String =>
-    @g_strdup_printf(format', ...)
+  fun strdup_printf(format': String, ...): String iso^ =>
+    String.from_cstring(@g_strdup_printf(format'.cstring(), ...)).clone()

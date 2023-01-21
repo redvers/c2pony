@@ -1,2 +1,2 @@
   fun add_main_entries(context': GOptionContext, entries': GOptionEntry, translation_domain': String): None =>
-    @g_option_context_add_main_entries(context', entries', translation_domain')
+    @g_option_context_add_main_entries(context', entries', translation_domain'.cstring())

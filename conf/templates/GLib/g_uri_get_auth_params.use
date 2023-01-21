@@ -1,1 +1,1 @@
-use @g_uri_get_auth_params[String](uri': GUri)
+use @g_uri_get_auth_params[Pointer[U8]](uri': GUri)

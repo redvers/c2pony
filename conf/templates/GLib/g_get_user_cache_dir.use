@@ -1,1 +1,1 @@
-use @g_get_user_cache_dir[String]()
+use @g_get_user_cache_dir[Pointer[U8]]()

@@ -1,1 +1,1 @@
-use @g_variant_iter_next[I32](iter': GVariantIter, format_string': String, ...)
+use @g_variant_iter_next[I32](iter': GVariantIter, format_string': Pointer[U8] tag, ...)

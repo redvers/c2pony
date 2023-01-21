@@ -1,2 +1,2 @@
   fun set_added(bookmark': GBookmarkFile, uri': String, added': I64): None =>
-    @g_bookmark_file_set_added(bookmark', uri', added')
+    @g_bookmark_file_set_added(bookmark', uri'.cstring(), added')

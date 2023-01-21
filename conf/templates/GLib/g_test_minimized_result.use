@@ -1,1 +1,1 @@
-use @g_test_minimized_result[None](minimized_quantity': F64, format': String, ...)
+use @g_test_minimized_result[None](minimized_quantity': F64, format': Pointer[U8] tag, ...)

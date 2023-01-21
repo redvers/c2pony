@@ -1,2 +1,2 @@
   fun get_added_date_time(bookmark': GBookmarkFile, uri': String, error': Pointer[GError]): GDateTime =>
-    @g_bookmark_file_get_added_date_time(bookmark', uri', error')
+    @g_bookmark_file_get_added_date_time(bookmark', uri'.cstring(), error')

@@ -1,2 +1,2 @@
-  fun unescape_segment(escaped_string': String, escaped_string_end': String, illegal_characters': String): String =>
-    @g_uri_unescape_segment(escaped_string', escaped_string_end', illegal_characters')
+  fun unescape_segment(escaped_string': String, escaped_string_end': String, illegal_characters': String): String iso^ =>
+    String.from_cstring(@g_uri_unescape_segment(escaped_string'.cstring(), escaped_string_end'.cstring(), illegal_characters'.cstring())).clone()

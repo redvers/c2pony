@@ -1,1 +1,1 @@
-use @g_string_assign[GString](string': GString, rval': String)
+use @g_string_assign[GString](string': GString, rval': Pointer[U8] tag)

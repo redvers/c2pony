@@ -1,1 +1,1 @@
-use @g_error_free[None](error': GError)
+use @g_error_free[None](error': NullablePointer[GErrorT])

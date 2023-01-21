@@ -1,2 +1,2 @@
   fun test_add_vtable(testpath': String, data_size': U64, test_data': Pointer[None] tag, data_setup': GTestFixtureFunc, data_test': GTestFixtureFunc, data_teardown': GTestFixtureFunc): None =>
-    @g_test_add_vtable(testpath', data_size', test_data', data_setup', data_test', data_teardown')
+    @g_test_add_vtable(testpath'.cstring(), data_size', test_data', data_setup', data_test', data_teardown')

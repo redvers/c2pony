@@ -1,1 +1,1 @@
-use @g_variant_dup_string[String](value': GVariant, length': Pointer[U64] tag)
+use @g_variant_dup_string[Pointer[U8]](value': GVariant, length': Pointer[U64] tag)

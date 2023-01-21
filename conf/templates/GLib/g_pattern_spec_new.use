@@ -1,1 +1,1 @@
-use @g_pattern_spec_new[GPatternSpec](pattern': String)
+use @g_pattern_spec_new[GPatternSpec](pattern': Pointer[U8] tag)

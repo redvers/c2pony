@@ -1,2 +1,2 @@
-  fun strjoin(separator': String, ...): String =>
-    @g_strjoin(separator', ...)
+  fun strjoin(separator': String, ...): String iso^ =>
+    String.from_cstring(@g_strjoin(separator'.cstring(), ...)).clone()

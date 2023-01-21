@@ -1,1 +1,1 @@
-use @g_key_file_get_comment[String](key_file': GKeyFile, group_name': String, key': String, error': Pointer[GError])
+use @g_key_file_get_comment[Pointer[U8]](key_file': GKeyFile, group_name': Pointer[U8] tag, key': Pointer[U8] tag, error': Pointer[GError])

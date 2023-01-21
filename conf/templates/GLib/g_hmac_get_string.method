@@ -1,2 +1,2 @@
-  fun ref get_string(): String =>
+  fun ref get_string(): String iso^ =>
     GHmacP.get_string(this)

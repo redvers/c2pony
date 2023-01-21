@@ -1,1 +1,1 @@
-use @g_getenv[String](variable': String)
+use @g_getenv[Pointer[U8]](variable': Pointer[U8] tag)

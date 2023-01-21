@@ -1,1 +1,1 @@
-use @g_string_prepend[GString](string': GString, val': String)
+use @g_string_prepend[GString](string': GString, val': Pointer[U8] tag)

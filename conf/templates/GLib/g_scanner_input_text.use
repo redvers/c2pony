@@ -1,1 +1,1 @@
-use @g_scanner_input_text[None](scanner': GScanner, text': String, text_len': U32)
+use @g_scanner_input_text[None](scanner': GScanner, text': Pointer[U8] tag, text_len': U32)

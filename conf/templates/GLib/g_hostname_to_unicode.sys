@@ -1,2 +1,2 @@
-  fun hostname_to_unicode(hostname': String): String =>
-    @g_hostname_to_unicode(hostname')
+  fun hostname_to_unicode(hostname': String): String iso^ =>
+    String.from_cstring(@g_hostname_to_unicode(hostname'.cstring())).clone()

@@ -1,2 +1,2 @@
-  fun filename_to_uri(filename': String, hostname': String, error': Pointer[GError]): String =>
-    @g_filename_to_uri(filename', hostname', error')
+  fun filename_to_uri(filename': String, hostname': String, error': Pointer[GError]): String iso^ =>
+    String.from_cstring(@g_filename_to_uri(filename'.cstring(), hostname'.cstring(), error')).clone()

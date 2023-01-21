@@ -1,1 +1,1 @@
-use @g_format_size_for_display[String](size': I64)
+use @g_format_size_for_display[Pointer[U8]](size': I64)

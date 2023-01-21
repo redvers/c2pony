@@ -1,2 +1,2 @@
   fun file_set_contents(filename': String, contents': String, length': I64, error': Pointer[GError]): I32 =>
-    @g_file_set_contents(filename', contents', length', error')
+    @g_file_set_contents(filename'.cstring(), contents'.cstring(), length', error')

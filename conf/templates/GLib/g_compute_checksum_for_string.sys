@@ -1,2 +1,2 @@
-  fun compute_checksum_for_string(checksum_type': U32, str': String, length': I64): String =>
-    @g_compute_checksum_for_string(checksum_type', str', length')
+  fun compute_checksum_for_string(checksum_type': U32, str': String, length': I64): String iso^ =>
+    String.from_cstring(@g_compute_checksum_for_string(checksum_type', str'.cstring(), length')).clone()

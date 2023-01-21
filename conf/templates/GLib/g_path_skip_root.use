@@ -1,1 +1,1 @@
-use @g_path_skip_root[String](file_name': String)
+use @g_path_skip_root[Pointer[U8]](file_name': Pointer[U8] tag)

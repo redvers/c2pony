@@ -1,2 +1,2 @@
-  fun join(flags': U32, scheme': String, userinfo': String, host': String, port': I32, path': String, query': String, fragment': String): String =>
-    @g_uri_join(flags', scheme', userinfo', host', port', path', query', fragment')
+  fun join(flags': U32, scheme': String, userinfo': String, host': String, port': I32, path': String, query': String, fragment': String): String iso^ =>
+    String.from_cstring(@g_uri_join(flags', scheme'.cstring(), userinfo'.cstring(), host'.cstring(), port', path'.cstring(), query'.cstring(), fragment'.cstring())).clone()

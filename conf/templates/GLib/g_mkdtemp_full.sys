@@ -1,2 +1,2 @@
-  fun mkdtemp_full(tmpl': String, mode': I32): String =>
-    @g_mkdtemp_full(tmpl', mode')
+  fun mkdtemp_full(tmpl': String, mode': I32): String iso^ =>
+    String.from_cstring(@g_mkdtemp_full(tmpl'.cstring(), mode')).clone()

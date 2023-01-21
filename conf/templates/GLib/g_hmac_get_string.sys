@@ -1,2 +1,2 @@
-  fun get_string(hmac': GHmac): String =>
-    @g_hmac_get_string(hmac')
+  fun get_string(hmac': GHmac): String iso^ =>
+    String.from_cstring(@g_hmac_get_string(hmac')).clone()

@@ -1,2 +1,2 @@
   fun init(iter': GUriParamsIter, params': String, length': I64, separators': String, flags': U32): None =>
-    @g_uri_params_iter_init(iter', params', length', separators', flags')
+    @g_uri_params_iter_init(iter', params'.cstring(), length', separators'.cstring(), flags')

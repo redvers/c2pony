@@ -1,1 +1,1 @@
-use @g_get_user_runtime_dir[String]()
+use @g_get_user_runtime_dir[Pointer[U8]]()

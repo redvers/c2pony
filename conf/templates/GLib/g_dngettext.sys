@@ -1,2 +1,2 @@
-  fun dngettext(domain': String, msgid': String, msgid_plural': String, n': U64): String =>
-    @g_dngettext(domain', msgid', msgid_plural', n')
+  fun dngettext(domain': String, msgid': String, msgid_plural': String, n': U64): String iso^ =>
+    String.from_cstring(@g_dngettext(domain'.cstring(), msgid'.cstring(), msgid_plural'.cstring(), n')).clone()

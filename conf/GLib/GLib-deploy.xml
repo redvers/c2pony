@@ -140,7 +140,7 @@
     <renderfunction name="g_format_size_for_display" ponyname="format_size_for_display" render="0" deprecated="1"/>
     <renderfunction name="g_format_size_full" ponyname="format_size_full" render="0" deprecated=""/>
     <renderfunction name="g_fprintf" ponyname="fprintf" render="0" deprecated=""/>
-    <renderfunction name="g_free" ponyname="free" render="1" deprecated=""/>
+    <renderfunction name="g_free" ponyname="free" render="0" deprecated=""/>
     <renderfunction name="g_get_application_name" ponyname="get_application_name" render="0" deprecated=""/>
     <renderfunction name="g_get_charset" ponyname="get_charset" render="0" deprecated=""/>
     <renderfunction name="g_get_codeset" ponyname="get_codeset" render="0" deprecated=""/>
