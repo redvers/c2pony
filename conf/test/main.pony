@@ -26,12 +26,13 @@ actor Main
     env = env'
 
     GtkG.init()
-    let app: GtkApplication = GtkApplication(@g_object_new(@gtk_application_get_type(),
+/*    let app: GtkApplication = GtkApplication(@g_object_new(@gtk_application_get_type(),
                                       "application-id".cstring(), "me.infect.red".cstring(),
                                       "flags".cstring(), U32(0),
                                       Pointer[None]))
-
-    GObjectG.connect_object(app, "activate", Erk~cb(), app, U32(0))
+                                      */
+    let app: GtkApplication = GtkApplication.gnew()
+    app.connect_object("activate", Erk~cb(), app, U32(0))
     app.run(0, Pointer[Pointer[U8]])
     /*
     var gerror: NullablePointer[GErrorT] = NullablePointer[GErrorT].none()

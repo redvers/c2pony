@@ -32,6 +32,22 @@
       </xsl:result-document>
 
       <xsl:result-document href="../templates/{$namespace}/{$filename}.class" method="text">
+      <xsl:variable name="gettype" select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@glib:get-type"/>
+        <xsl:value-of select="$newline"/>
+        <xsl:choose>
+          <xsl:when test="ends-with($gettype, 'get_type')">
+            <xsl:text>use @</xsl:text>
+            <xsl:value-of select="$gettype"/>
+            <xsl:text>[U64]()</xsl:text>
+            <xsl:value-of select="$newline"/>
+          </xsl:when>
+        </xsl:choose>
+ 
+
+
+
+
+
         <xsl:value-of select="$preamble"/>
         <xsl:value-of select="$newline"/>
         <xsl:text>class </xsl:text>
@@ -48,6 +64,20 @@
         <xsl:text>  new create(ptr': Pointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>
         <xsl:text>P]) =&gt; ptr = ptr'</xsl:text>
+        <xsl:value-of select="$newline"/>
+        <xsl:variable name="gettype" select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@glib:get-type"/>
+        <xsl:text>// </xsl:text><xsl:value-of select="$gettype"/>
+        <xsl:value-of select="$newline"/>
+        <xsl:choose>
+          <xsl:when test="ends-with($gettype, 'get_type')">
+            <xsl:text>  new gnew() =></xsl:text>
+            <xsl:value-of select="$newline"/>
+            <xsl:text>    ptr = GObjectG.gnew(@</xsl:text>
+            <xsl:value-of select="$gettype"/>
+            <xsl:text>(), [], [])</xsl:text>
+            <xsl:value-of select="$newline"/>
+          </xsl:when>
+        </xsl:choose>
         <xsl:value-of select="$newline"/>
         <xsl:text>  fun ref getptr(): Pointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>

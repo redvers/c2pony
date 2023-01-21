@@ -20,6 +20,13 @@
         </xsl:call-template>
       </xsl:for-each>
     </xsl:for-each>
+    <xsl:for-each select=".//methodoverride[@render=$debug]">
+      <xsl:result-document href="../templates/{$namespace}/{./@name}.method" method="text">
+        <xsl:value-of select="."/>
+      </xsl:result-document>
+    </xsl:for-each>
+ 
+
   </xsl:template>
 
 

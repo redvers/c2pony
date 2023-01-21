@@ -63,13 +63,6 @@ use "lib:gobject-2.0"
     <renderfunction name="g_signal_connect_closure_by_id" ponyname="signal_connect_closure_by_id" render="1" deprecated=""/>
     <renderfunction name="g_signal_connect_data" ponyname="signal_connect_data" render="1" deprecated=""/>
     <renderfunction name="g_signal_connect_object" ponyname="signal_connect_object" render="0" deprecated=""/>
-<useoverride name="g_signal_connect_object" render="1">
-use @g_signal_connect_object[U64](gobj0: Pointer[GObjectP], sig: Pointer[U8] tag, cb: Pointer[None], gobj1: Pointer[GObjectP], flags: U32)
-</useoverride>
-<sysoverride name="g_signal_connect_object" render="1">
-  fun connect_object(gobj0: GObjectI, sig: String, cb: Pointer[None], gobj1: GObjectI, flags: U32): U64 =>
-    @g_signal_connect_object(gobj0.getptr(), sig.cstring(), cb, gobj1.getptr(), flags)
-</sysoverride>
 
 
 
@@ -413,6 +406,17 @@ use @g_object_new[Pointer[GObjectP]](object_type': U64, ...)
   fun gnew(objtype: U64, propertynames: Array[String], propertyvalues: Array[String] /* will likely expand */): Pointer[GObjectP] =>
     @g_object_new(objtype, Pointer[None])
 </sysoverride>
+<useoverride name="g_signal_connect_object" render="1">
+use @g_signal_connect_object[U64](gobj0: Pointer[GObjectP], sig: Pointer[U8] tag, cb: Pointer[None], gobj1: Pointer[GObjectP], flags: U32)
+</useoverride>
+<sysoverride name="g_signal_connect_object" render="1">
+  fun connect_object(gobj0: GObjectI, sig: String, cb: Pointer[None], gobj1: GObjectI, flags: U32): U64 =>
+    @g_signal_connect_object(gobj0.getptr(), sig.cstring(), cb, gobj1.getptr(), flags)
+</sysoverride>
+<methodoverride name="g_signal_connect_object" render="1">
+  fun ref connect_object(sig: String, cb: Pointer[None], gobj1: GObjectI, flags: U32): U64 =>
+    GObjectP.connect_object(this, sig, cb, gobj1, flags)
+</methodoverride>
 
       <renderconstructor name="g_object_new_valist" ponyname="new_valist" render="0" deprecated=""/>
       <renderconstructor name="g_object_new_with_properties" ponyname="new_with_properties" render="0" deprecated=""/>

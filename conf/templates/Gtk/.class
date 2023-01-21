@@ -1,4 +1,5 @@
 
+
 use "../GLib"
 use "../GObject"
 use "../Gio"
@@ -8,4 +9,6 @@ class  is I
   var ptr: Pointer[GObjectP]
 
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
+// 
+
   fun ref getptr(): Pointer[GObjectP] => ptr

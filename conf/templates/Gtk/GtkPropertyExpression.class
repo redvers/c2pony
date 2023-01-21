@@ -1,4 +1,6 @@
 
+use @gtk_property_expression_get_type[U64]()
+
 use "../GLib"
 use "../GObject"
 use "../Gio"
@@ -8,4 +10,8 @@ class GtkPropertyExpression is GtkPropertyExpressionI
   var ptr: Pointer[GtkExpressionP]
 
   new create(ptr': Pointer[GtkExpressionP]) => ptr = ptr'
+// gtk_property_expression_get_type
+  new gnew() =>
+    ptr = GObjectG.gnew(@gtk_property_expression_get_type(), [], [])
+
   fun ref getptr(): Pointer[GtkExpressionP] => ptr
