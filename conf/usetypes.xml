@@ -9,11 +9,10 @@
     rvtype="Pointer[U8]">
     <ponytypeconvout>
       <prefixs>
-        <prefix>var pcstring: Pointer[U8] = </prefix>
+        <prefix>    String.from_cstring(</prefix>
       </prefixs>
       <suffixes>
-        <suffix>let p: String iso = String.from_cstring(pcstring).clone()</suffix>
-        <suffix>consume p</suffix>
+        <suffix>).clone()</suffix>
       </suffixes>
     </ponytypeconvout>
   </typedef>
