@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
   <ns namespace="GObject">
+<ponydep>
+use "lib:gobject-2.0"
+</ponydep>
     <renderfunction name="g_boxed_copy" ponyname="boxed_copy" render="1" deprecated=""/>
     <renderfunction name="g_boxed_free" ponyname="boxed_free" render="1" deprecated=""/>
     <renderfunction name="g_boxed_type_register_static" ponyname="boxed_type_register_static" render="1" deprecated=""/>

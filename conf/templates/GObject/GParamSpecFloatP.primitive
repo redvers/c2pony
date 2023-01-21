@@ -1,2 +1,4 @@
 
+use "lib:gobject-2.0"
+
 primitive GParamSpecFloatP

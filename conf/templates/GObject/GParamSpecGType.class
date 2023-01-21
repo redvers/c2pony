@@ -1,4 +1,6 @@
 
+use "lib:gobject-2.0"
+
 class GParamSpecGType is GParamSpecGTypeI
   var ptr: Pointer[GParamSpecP]
 

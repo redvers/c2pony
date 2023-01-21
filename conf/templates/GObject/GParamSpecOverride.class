@@ -1,4 +1,6 @@
 
+use "lib:gobject-2.0"
+
 class GParamSpecOverride is GParamSpecOverrideI
   var ptr: Pointer[GParamSpecP]
 

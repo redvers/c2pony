@@ -1,4 +1,6 @@
 
+use "lib:gobject-2.0"
+
 class GParamSpecULong is GParamSpecULongI
   var ptr: Pointer[GParamSpecP]
 

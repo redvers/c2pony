@@ -1,5 +1,7 @@
 
 
+use "lib:gobject-2.0"
+
 class GObject is GObjectI
   var ptr: Pointer[GObjectP]
 

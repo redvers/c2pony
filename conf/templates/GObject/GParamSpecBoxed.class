@@ -1,4 +1,6 @@
 
+use "lib:gobject-2.0"
+
 class GParamSpecBoxed is GParamSpecBoxedI
   var ptr: Pointer[GParamSpecP]
 

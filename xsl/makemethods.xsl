@@ -112,11 +112,11 @@
             <xsl:variable name="newname" select="/main/c2pony/argnames/argname[@name=$argname]/@rename"/>
             <xsl:value-of select="$newname"/>
 
+            <!-- 
             <xsl:variable name="typename" select="$arg/@usetype"/>
             <xsl:variable name="newtype" select="/main/c2pony/typenames/typename[@name=$typename]/@rename"/>
-      
             <xsl:variable name="muttype" select="/main/typedefs/typedef[@name=$newtype]"/>
-            <!--            <xsl:choose>
+            <xsl:choose>
               <xsl:when test="$muttype/@name = $newtype">
                 <xsl:value-of select="$muttype/@ponytypeinconv"/>
               </xsl:when>
