@@ -298,7 +298,11 @@ actor Main
       sa.push(f)
     end
     for g in Sort[Array[String], String](sa).values() do
-      _env.out.print("    <typename name=\"" + g + "\" rename=\"" + g + "\"/>")
+      if (g == "Pointer[U8] tag") then
+        _env.out.print("    <typename name=\"" + g + "\" rename=\"String\"/>")
+      else
+        _env.out.print("    <typename name=\"" + g + "\" rename=\"" + g + "\"/>")
+      end
     end
 
   fun ref list_fn_arg_names() =>

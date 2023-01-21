@@ -18,7 +18,7 @@ class Struct
   fun ref recvval(b: String) =>
     match currkey
     | if (currkey == "id") => id = b
-    | if (currkey == "name") => name = ((recover ref b.clone() end).>remove("_")).clone() + "T"
+    | if (currkey == "name") => name = ((recover ref b.clone() end).>remove("_")).clone()
     | if (currkey == "type") => xtype = b
     | if (currkey == "location") => if (name == "") then
                                       name = "anon" + id

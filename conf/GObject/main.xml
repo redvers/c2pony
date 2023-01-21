@@ -5,6 +5,7 @@
 <xi:include href="./GObject-render.xml"/>
 <xi:include href="./GObject-basetype.xml"/>
 <xi:include href="../c2p.xml"/>
+<xi:include href="../usetypes.xml"/>
 <xi:include href="../../mkrs.xml"/>
 <xi:include href="../../gir/GObject-2.0.gir"/>
 </main>

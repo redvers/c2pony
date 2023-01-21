@@ -15,5 +15,8 @@ struct:
 classes:
 	saxon-he -xi main.xml ../../xsl/makeclasses.xsl namespace=GObject debug=1
 
+methods:
+	saxon-he -xi main.xml ../../xsl/makemethods.xsl namespace=GObject debug=1
+
 clean:
 	rm -rf ../templates/GObject
