@@ -1,0 +1,1 @@
+use @gtk_text_set_truncate_multiline[None](self': GtkText, truncate_multiline': I32)

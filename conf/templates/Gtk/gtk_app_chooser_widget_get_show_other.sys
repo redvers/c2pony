@@ -1,0 +1,2 @@
+  fun get_show_other(self': GtkAppChooserWidget): I32 =>
+    @gtk_app_chooser_widget_get_show_other(self')

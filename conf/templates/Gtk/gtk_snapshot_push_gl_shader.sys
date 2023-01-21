@@ -1,0 +1,2 @@
+  fun push_gl_shader(snapshot': GdkSnapshot, shader': GskGLShader, bounds': graphenerectt, take_args': GBytes): None =>
+    @gtk_snapshot_push_gl_shader(snapshot', shader', bounds', take_args')

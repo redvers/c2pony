@@ -1,0 +1,2 @@
+  fun get_displayed_row(cell_view': GtkCellView): GtkTreePath =>
+    @gtk_cell_view_get_displayed_row(cell_view')

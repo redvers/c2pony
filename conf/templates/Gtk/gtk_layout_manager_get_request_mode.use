@@ -1,0 +1,1 @@
+use @gtk_layout_manager_get_request_mode[U32](manager': GtkLayoutManager)

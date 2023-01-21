@@ -1,0 +1,1 @@
+use @gtk_cell_area_get_edit_widget[GtkCellEditable](area': GtkCellArea)

@@ -1,0 +1,2 @@
+  fun accelerator_get_default_mod_mask(): U32 =>
+    @gtk_accelerator_get_default_mod_mask()

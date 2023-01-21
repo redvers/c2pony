@@ -1,0 +1,2 @@
+  fun push_preferred_height(context': GtkCellAreaContext, minimum_height': I32, natural_height': I32): None =>
+    @gtk_cell_area_context_push_preferred_height(context', minimum_height', natural_height')

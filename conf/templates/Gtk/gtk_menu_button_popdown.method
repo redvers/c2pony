@@ -1,0 +1,2 @@
+  fun ref popdown(): None =>
+    GtkMenuButtonP.popdown(this)

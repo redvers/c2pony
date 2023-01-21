@@ -1,0 +1,2 @@
+  fun set_propagation_limit(controller': GtkEventController, limit': U32): None =>
+    @gtk_event_controller_set_propagation_limit(controller', limit')

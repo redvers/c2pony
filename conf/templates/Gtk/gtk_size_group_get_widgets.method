@@ -1,0 +1,2 @@
+  fun ref get_widgets(): GSList =>
+    GtkSizeGroupP.get_widgets(this)

@@ -1,0 +1,2 @@
+  fun ref hide(): None =>
+    GtkWidgetP.hide(this)

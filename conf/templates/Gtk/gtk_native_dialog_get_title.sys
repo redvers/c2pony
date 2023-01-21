@@ -1,0 +1,2 @@
+  fun get_title(self': GtkNativeDialog): String iso^ =>
+    String.from_cstring(@gtk_native_dialog_get_title(self')).clone()

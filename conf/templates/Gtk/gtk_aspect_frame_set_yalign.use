@@ -1,0 +1,1 @@
+use @gtk_aspect_frame_set_yalign[None](self': GtkAspectFrame, yalign': F32)

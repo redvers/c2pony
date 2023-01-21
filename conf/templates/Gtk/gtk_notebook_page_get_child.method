@@ -1,0 +1,2 @@
+  fun ref get_child(): Pointer[GObjectP] =>
+    GtkNotebookPageP.get_child(this)

@@ -1,0 +1,2 @@
+  fun splice(self': GtkStringList, position': U32, n_removals': U32, additions': Pointer[Pointer[U8]] tag): None =>
+    @gtk_string_list_splice(self', position', n_removals', additions')

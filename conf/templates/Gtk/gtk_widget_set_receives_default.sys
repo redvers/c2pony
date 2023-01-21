@@ -1,0 +1,2 @@
+  fun set_receives_default(widget': GtkWidgetI, receives_default': I32): None =>
+    @gtk_widget_set_receives_default(widget'.getptr(), receives_default')

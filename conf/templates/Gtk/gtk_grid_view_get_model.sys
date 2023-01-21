@@ -1,0 +1,2 @@
+  fun get_model(self': GtkGridView): GtkSelectionModel =>
+    @gtk_grid_view_get_model(self')

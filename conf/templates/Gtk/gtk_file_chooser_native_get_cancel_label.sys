@@ -1,0 +1,2 @@
+  fun get_cancel_label(self': GtkFileChooserNative): String iso^ =>
+    String.from_cstring(@gtk_file_chooser_native_get_cancel_label(self')).clone()

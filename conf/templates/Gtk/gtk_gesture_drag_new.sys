@@ -1,0 +1,2 @@
+  fun new(): GtkGesture =>
+    @gtk_gesture_drag_new()

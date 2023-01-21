@@ -1,0 +1,2 @@
+  fun ref get_preferred_size(widget': GtkWidgetI, minimum_size': GtkRequisition, natural_size': GtkRequisition): None =>
+    GtkCellRendererP.get_preferred_size(this, widget', minimum_size', natural_size')

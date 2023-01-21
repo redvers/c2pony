@@ -1,0 +1,2 @@
+  fun set_model(self': GtkSingleSelection, model': GListModel): None =>
+    @gtk_single_selection_set_model(self', model')

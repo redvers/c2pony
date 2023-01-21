@@ -1,0 +1,2 @@
+  fun ref set_show_close_button(setting': I32): None =>
+    GtkInfoBarP.set_show_close_button(this, setting')

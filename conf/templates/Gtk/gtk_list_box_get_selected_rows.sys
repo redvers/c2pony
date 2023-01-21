@@ -1,0 +1,2 @@
+  fun get_selected_rows(box': GtkListBox): GList =>
+    @gtk_list_box_get_selected_rows(box')

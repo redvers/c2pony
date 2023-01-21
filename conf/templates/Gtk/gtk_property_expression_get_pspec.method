@@ -1,0 +1,2 @@
+  fun ref get_pspec(): GParamSpec =>
+    GtkPropertyExpressionP.get_pspec(this)

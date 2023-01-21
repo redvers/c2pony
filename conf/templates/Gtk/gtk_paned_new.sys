@@ -1,0 +1,2 @@
+  fun new(orientation': U32): Pointer[GObjectP] =>
+@gtk_paned_new(orientation')

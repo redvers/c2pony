@@ -1,0 +1,2 @@
+  fun get_selection_bounds(buffer': GtkTextBuffer, start': GtkTextIter, end': GtkTextIter): I32 =>
+    @gtk_text_buffer_get_selection_bounds(buffer', start', end')

@@ -1,0 +1,1 @@
+use @gtk_calendar_clear_marks[None](calendar': GtkCalendar)

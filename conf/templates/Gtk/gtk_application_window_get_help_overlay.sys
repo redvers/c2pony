@@ -1,0 +1,2 @@
+  fun get_help_overlay(window': GtkApplicationWindow): GtkShortcutsWindow =>
+    @gtk_application_window_get_help_overlay(window')

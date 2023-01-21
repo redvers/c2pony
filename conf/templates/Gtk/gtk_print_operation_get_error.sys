@@ -1,0 +1,2 @@
+  fun get_error(op': GtkPrintOperation, error': Pointer[GError]): None =>
+    @gtk_print_operation_get_error(op', error')

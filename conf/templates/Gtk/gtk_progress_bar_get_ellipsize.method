@@ -1,0 +1,2 @@
+  fun ref get_ellipsize(): U32 =>
+    GtkProgressBarP.get_ellipsize(this)

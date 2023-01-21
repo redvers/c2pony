@@ -1,0 +1,1 @@
+use @gtk_search_bar_get_child[Pointer[GObjectP]](bar': GtkSearchBar)

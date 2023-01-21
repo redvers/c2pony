@@ -1,0 +1,1 @@
+use @gtk_icon_view_item_activated[None](icon_view': GtkIconView, path': GtkTreePath)

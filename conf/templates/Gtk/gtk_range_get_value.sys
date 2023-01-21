@@ -1,0 +1,2 @@
+  fun get_value(range': GtkRange): F64 =>
+    @gtk_range_get_value(range')

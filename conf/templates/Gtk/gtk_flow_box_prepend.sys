@@ -1,0 +1,2 @@
+  fun prepend(self': GtkFlowBox, child': GtkWidgetI): None =>
+    @gtk_flow_box_prepend(self', child'.getptr())

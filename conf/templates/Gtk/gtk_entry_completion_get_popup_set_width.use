@@ -1,0 +1,1 @@
+use @gtk_entry_completion_get_popup_set_width[I32](completion': GtkEntryCompletion)

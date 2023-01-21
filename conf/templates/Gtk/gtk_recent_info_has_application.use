@@ -1,0 +1,1 @@
+use @gtk_recent_info_has_application[I32](info': GtkRecentInfo, app_name': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun test_widget_wait_for_draw(widget': GtkWidgetI): None =>
+    @gtk_test_widget_wait_for_draw(widget'.getptr())

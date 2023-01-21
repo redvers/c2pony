@@ -1,0 +1,2 @@
+  fun ref set_scope(scope': GtkBuilderScope): None =>
+    GtkBuilderP.set_scope(this, scope')

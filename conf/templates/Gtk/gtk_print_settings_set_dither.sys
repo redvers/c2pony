@@ -1,0 +1,2 @@
+  fun set_dither(settings': GtkPrintSettings, dither': String): None =>
+    @gtk_print_settings_set_dither(settings', dither'.cstring())

@@ -1,0 +1,2 @@
+  fun ref get_model(): GtkSelectionModel =>
+    GtkColumnViewP.get_model(this)

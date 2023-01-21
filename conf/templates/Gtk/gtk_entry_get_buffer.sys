@@ -1,0 +1,2 @@
+  fun get_buffer(entry': GtkEntry): GtkEntryBuffer =>
+    @gtk_entry_get_buffer(entry')

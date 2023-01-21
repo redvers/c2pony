@@ -1,0 +1,2 @@
+  fun remove(self': GtkMultiFilter, position': U32): None =>
+    @gtk_multi_filter_remove(self', position')

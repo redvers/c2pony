@@ -1,0 +1,2 @@
+  fun attribute_get_column(area': GtkCellArea, renderer': GtkCellRenderer, attribute': String): I32 =>
+    @gtk_cell_area_attribute_get_column(area', renderer', attribute'.cstring())

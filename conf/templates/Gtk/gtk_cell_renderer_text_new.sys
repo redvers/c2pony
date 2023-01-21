@@ -1,0 +1,2 @@
+  fun new(): GtkCellRenderer =>
+    @gtk_cell_renderer_text_new()

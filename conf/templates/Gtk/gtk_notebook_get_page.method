@@ -1,0 +1,2 @@
+  fun ref get_page(child': GtkWidgetI): GtkNotebookPage =>
+    GtkNotebookP.get_page(this, child')

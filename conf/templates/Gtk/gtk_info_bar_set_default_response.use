@@ -1,0 +1,1 @@
+use @gtk_info_bar_set_default_response[None](info_bar': GtkInfoBar, response_id': I32)

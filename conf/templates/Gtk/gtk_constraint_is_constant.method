@@ -1,0 +1,2 @@
+  fun ref is_constant(): I32 =>
+    GtkConstraintP.is_constant(this)

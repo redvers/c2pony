@@ -1,0 +1,2 @@
+  fun ref set_cursor_from_name(name': String): None =>
+    GtkWidgetP.set_cursor_from_name(this, name')

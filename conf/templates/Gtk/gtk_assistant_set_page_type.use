@@ -1,0 +1,1 @@
+use @gtk_assistant_set_page_type[None](assistant': GtkAssistant, page': Pointer[GObjectP], type': U32)

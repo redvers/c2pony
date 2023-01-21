@@ -1,0 +1,2 @@
+  fun new(): GtkLayoutManager =>
+    @gtk_fixed_layout_new()

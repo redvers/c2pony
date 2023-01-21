@@ -1,0 +1,2 @@
+  fun ref set_digits(digits': I32): None =>
+    GtkScaleP.set_digits(this, digits')

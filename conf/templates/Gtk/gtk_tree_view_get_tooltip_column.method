@@ -1,0 +1,2 @@
+  fun ref get_tooltip_column(): I32 =>
+    GtkTreeViewP.get_tooltip_column(this)

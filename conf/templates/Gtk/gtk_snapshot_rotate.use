@@ -1,0 +1,1 @@
+use @gtk_snapshot_rotate[None](snapshot': GdkSnapshot, angle': F32)

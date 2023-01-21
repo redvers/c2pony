@@ -1,0 +1,2 @@
+  fun set_icon_activatable(entry': GtkEntry, icon_pos': U32, activatable': I32): None =>
+    @gtk_entry_set_icon_activatable(entry', icon_pos', activatable')

@@ -1,0 +1,1 @@
+use @gtk_widget_is_visible[I32](widget': Pointer[GObjectP])

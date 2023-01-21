@@ -1,0 +1,2 @@
+  fun get_selected_rows(selection': GtkTreeSelection, model': Pointer[GtkTreeModel]): GList =>
+    @gtk_tree_selection_get_selected_rows(selection', model')

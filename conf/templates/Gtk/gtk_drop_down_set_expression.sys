@@ -1,0 +1,2 @@
+  fun set_expression(self': GtkDropDown, expression': GtkExpression): None =>
+    @gtk_drop_down_set_expression(self', expression')

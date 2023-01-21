@@ -1,0 +1,2 @@
+  fun ref get_current_path_string(): String iso^ =>
+    GtkCellAreaP.get_current_path_string(this)

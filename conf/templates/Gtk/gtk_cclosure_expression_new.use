@@ -1,0 +1,1 @@
+use @gtk_cclosure_expression_new[GtkExpression](value_type': U64, marshal': GClosureMarshal, n_params': U32, params': Pointer[GtkExpression], callback_func': GCallback, user_data': Pointer[None] tag, user_destroy': GClosureNotify)

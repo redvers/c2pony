@@ -1,0 +1,2 @@
+  fun add(self': GtkBitset, value': U32): I32 =>
+    @gtk_bitset_add(self', value')

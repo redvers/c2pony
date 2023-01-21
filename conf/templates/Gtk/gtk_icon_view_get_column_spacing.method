@@ -1,0 +1,2 @@
+  fun ref get_column_spacing(): I32 =>
+    GtkIconViewP.get_column_spacing(this)

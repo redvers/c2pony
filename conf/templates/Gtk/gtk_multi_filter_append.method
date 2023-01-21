@@ -1,0 +1,2 @@
+  fun ref append(filter': GtkFilter): None =>
+    GtkMultiFilterP.append(this, filter')

@@ -1,0 +1,1 @@
+use @gtk_cell_renderer_snapshot[None](cell': GtkCellRenderer, snapshot': GdkSnapshot, widget': Pointer[GObjectP], background_area': cairorectangleint, cell_area': cairorectangleint, flags': U32)

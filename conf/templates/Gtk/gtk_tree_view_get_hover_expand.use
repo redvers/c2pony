@@ -1,0 +1,1 @@
+use @gtk_tree_view_get_hover_expand[I32](tree_view': GtkTreeView)

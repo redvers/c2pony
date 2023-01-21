@@ -1,0 +1,2 @@
+  fun ref ungroup(): None =>
+    GtkGestureP.ungroup(this)

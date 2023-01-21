@@ -1,0 +1,2 @@
+  fun set_value_pos(scale': GtkScale, pos': U32): None =>
+    @gtk_scale_set_value_pos(scale', pos')

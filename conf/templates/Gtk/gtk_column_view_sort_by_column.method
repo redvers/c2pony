@@ -1,0 +1,2 @@
+  fun ref sort_by_column(column': GtkColumnViewColumn, direction': U32): None =>
+    GtkColumnViewP.sort_by_column(this, column', direction')

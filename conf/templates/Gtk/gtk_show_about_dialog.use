@@ -1,0 +1,1 @@
+use @gtk_show_about_dialog[None](parent': Pointer[GObjectP], first_property_name': Pointer[U8] tag, ...)

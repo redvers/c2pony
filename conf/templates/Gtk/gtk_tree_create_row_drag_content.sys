@@ -1,0 +1,2 @@
+  fun tree_create_row_drag_content(tree_model': GtkTreeModel, path': GtkTreePath): GdkContentProvider =>
+    @gtk_tree_create_row_drag_content(tree_model', path')

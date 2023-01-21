@@ -1,0 +1,2 @@
+  fun ref changed(change': U32): None =>
+    GtkSorterP.changed(this, change')

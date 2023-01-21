@@ -1,0 +1,2 @@
+  fun set_current_page(notebook': GtkNotebook, page_num': I32): None =>
+    @gtk_notebook_set_current_page(notebook', page_num')

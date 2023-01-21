@@ -1,0 +1,2 @@
+  fun ref set_pixels_inside_wrap(pixels_inside_wrap': I32): None =>
+    GtkTextViewP.set_pixels_inside_wrap(this, pixels_inside_wrap')

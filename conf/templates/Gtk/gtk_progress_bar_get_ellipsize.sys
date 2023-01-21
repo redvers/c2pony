@@ -1,0 +1,2 @@
+  fun get_ellipsize(pbar': GtkProgressBar): U32 =>
+    @gtk_progress_bar_get_ellipsize(pbar')

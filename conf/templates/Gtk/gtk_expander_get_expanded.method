@@ -1,0 +1,2 @@
+  fun ref get_expanded(): I32 =>
+    GtkExpanderP.get_expanded(this)

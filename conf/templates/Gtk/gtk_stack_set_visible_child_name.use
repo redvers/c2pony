@@ -1,0 +1,1 @@
+use @gtk_stack_set_visible_child_name[None](stack': GtkStack, name': Pointer[U8] tag)

@@ -1,0 +1,1 @@
+use @gtk_print_context_set_cairo_context[None](context': GtkPrintContext, cr': cairo, dpi_x': F64, dpi_y': F64)

@@ -1,0 +1,2 @@
+  fun new(): GtkPageSetup =>
+    @gtk_page_setup_new()

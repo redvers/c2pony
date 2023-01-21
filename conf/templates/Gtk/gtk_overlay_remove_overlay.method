@@ -1,0 +1,2 @@
+  fun ref remove_overlay(widget': GtkWidgetI): None =>
+    GtkOverlayP.remove_overlay(this, widget')

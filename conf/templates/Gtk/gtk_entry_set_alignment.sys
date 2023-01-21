@@ -1,0 +1,2 @@
+  fun set_alignment(entry': GtkEntry, xalign': F32): None =>
+    @gtk_entry_set_alignment(entry', xalign')

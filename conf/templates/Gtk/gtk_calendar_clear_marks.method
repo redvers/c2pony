@@ -1,0 +1,2 @@
+  fun ref clear_marks(): None =>
+    GtkCalendarP.clear_marks(this)

@@ -1,0 +1,2 @@
+  fun ref set_column_types(n_columns': I32, types': Pointer[U64] tag): None =>
+    GtkTreeStoreP.set_column_types(this, n_columns', types')

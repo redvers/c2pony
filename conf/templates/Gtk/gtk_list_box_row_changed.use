@@ -1,0 +1,1 @@
+use @gtk_list_box_row_changed[None](row': GtkListBoxRow)

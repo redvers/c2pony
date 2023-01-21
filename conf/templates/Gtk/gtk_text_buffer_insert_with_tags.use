@@ -1,0 +1,1 @@
+use @gtk_text_buffer_insert_with_tags[None](buffer': GtkTextBuffer, iter': GtkTextIter, text': Pointer[U8] tag, len': I32, first_tag': GtkTextTag, ...)

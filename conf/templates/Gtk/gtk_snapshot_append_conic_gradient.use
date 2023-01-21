@@ -1,0 +1,1 @@
+use @gtk_snapshot_append_conic_gradient[None](snapshot': GdkSnapshot, bounds': graphenerectt, center': graphenepointt, rotation': F32, stops': GskColorStop, n_stops': U64)

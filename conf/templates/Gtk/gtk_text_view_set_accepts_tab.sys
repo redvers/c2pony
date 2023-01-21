@@ -1,0 +1,2 @@
+  fun set_accepts_tab(text_view': GtkTextView, accepts_tab': I32): None =>
+    @gtk_text_view_set_accepts_tab(text_view', accepts_tab')

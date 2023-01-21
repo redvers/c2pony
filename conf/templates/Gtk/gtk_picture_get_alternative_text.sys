@@ -1,0 +1,2 @@
+  fun get_alternative_text(self': GtkPicture): String iso^ =>
+    String.from_cstring(@gtk_picture_get_alternative_text(self')).clone()

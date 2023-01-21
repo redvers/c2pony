@@ -1,0 +1,1 @@
+use @gtk_text_view_forward_display_line[I32](text_view': GtkTextView, iter': GtkTextIter)

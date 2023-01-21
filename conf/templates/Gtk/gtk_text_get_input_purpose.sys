@@ -1,0 +1,2 @@
+  fun get_input_purpose(self': GtkText): U32 =>
+    @gtk_text_get_input_purpose(self')

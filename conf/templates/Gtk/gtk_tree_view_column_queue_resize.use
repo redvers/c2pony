@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_queue_resize[None](tree_column': GtkTreeViewColumn)

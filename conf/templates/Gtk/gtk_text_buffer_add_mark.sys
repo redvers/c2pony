@@ -1,0 +1,2 @@
+  fun add_mark(buffer': GtkTextBuffer, mark': GtkTextMark, where': GtkTextIter): None =>
+    @gtk_text_buffer_add_mark(buffer', mark', where')

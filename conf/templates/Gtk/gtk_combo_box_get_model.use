@@ -1,0 +1,1 @@
+use @gtk_combo_box_get_model[GtkTreeModel](combo_box': GtkComboBox)

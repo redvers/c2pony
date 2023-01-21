@@ -1,0 +1,2 @@
+  fun ref add_window(window': GtkWindowI): None =>
+    GtkWindowGroupP.add_window(this, window')

@@ -1,0 +1,2 @@
+  fun get_source(constraint': GtkConstraint): GtkConstraintTarget =>
+    @gtk_constraint_get_source(constraint')

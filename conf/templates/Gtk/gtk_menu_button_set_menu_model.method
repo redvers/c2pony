@@ -1,0 +1,2 @@
+  fun ref set_menu_model(menu_model': GMenuModel): None =>
+    GtkMenuButtonP.set_menu_model(this, menu_model')

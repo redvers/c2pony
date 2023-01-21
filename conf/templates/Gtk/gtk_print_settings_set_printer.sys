@@ -1,0 +1,2 @@
+  fun set_printer(settings': GtkPrintSettings, printer': String): None =>
+    @gtk_print_settings_set_printer(settings', printer'.cstring())

@@ -1,0 +1,2 @@
+  fun ref get_attributes(): String iso^ =>
+    GtkDirectoryListP.get_attributes(this)

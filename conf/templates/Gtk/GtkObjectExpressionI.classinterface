@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gtk-4"
+    
+interface GtkObjectExpressionI is GtkExpressionI
+  fun ref getptr(): Pointer[GtkExpressionP]

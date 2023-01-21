@@ -1,0 +1,1 @@
+use @gtk_gesture_long_press_set_delay_factor[None](gesture': GtkGestureLongPress, delay_factor': F64)

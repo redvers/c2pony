@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gtk-4"
+    
+interface GtkSelectionFilterModelI is GObjectI
+  fun ref getptr(): Pointer[GObjectP]

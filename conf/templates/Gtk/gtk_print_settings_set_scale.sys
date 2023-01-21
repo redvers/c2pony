@@ -1,0 +1,2 @@
+  fun set_scale(settings': GtkPrintSettings, scale': F64): None =>
+    @gtk_print_settings_set_scale(settings', scale')

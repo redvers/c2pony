@@ -1,0 +1,2 @@
+  fun get_selection_content(buffer': GtkTextBuffer): GdkContentProvider =>
+    @gtk_text_buffer_get_selection_content(buffer')

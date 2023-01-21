@@ -1,0 +1,2 @@
+  fun ref add_mnemonic_label(label': GtkWidgetI): None =>
+    GtkWidgetP.add_mnemonic_label(this, label')

@@ -1,0 +1,2 @@
+  fun ends_word(iter': GtkTextIter): I32 =>
+    @gtk_text_iter_ends_word(iter')

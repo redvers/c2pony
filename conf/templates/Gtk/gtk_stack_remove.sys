@@ -1,0 +1,2 @@
+  fun remove(stack': GtkStack, child': GtkWidgetI): None =>
+    @gtk_stack_remove(stack', child'.getptr())

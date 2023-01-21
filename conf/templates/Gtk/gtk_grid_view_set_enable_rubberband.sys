@@ -1,0 +1,2 @@
+  fun set_enable_rubberband(self': GtkGridView, enable_rubberband': I32): None =>
+    @gtk_grid_view_set_enable_rubberband(self', enable_rubberband')

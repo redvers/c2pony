@@ -1,0 +1,1 @@
+use @gtk_builder_get_translation_domain[Pointer[U8]](builder': GtkBuilder)

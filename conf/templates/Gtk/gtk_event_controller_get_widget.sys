@@ -1,0 +1,2 @@
+  fun get_widget(controller': GtkEventController): Pointer[GObjectP] =>
+@gtk_event_controller_get_widget(controller')

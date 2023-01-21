@@ -1,0 +1,1 @@
+use @gtk_widget_paintable_new[GdkPaintable](widget': Pointer[GObjectP])

@@ -1,0 +1,2 @@
+  fun new_from_bytes(scope': GtkBuilderScope, bytes': GBytes): GtkListItemFactory =>
+    @gtk_builder_list_item_factory_new_from_bytes(scope', bytes')

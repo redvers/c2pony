@@ -1,0 +1,1 @@
+use @gtk_entry_get_has_frame[I32](entry': GtkEntry)

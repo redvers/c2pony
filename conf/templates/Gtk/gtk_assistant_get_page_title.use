@@ -1,0 +1,1 @@
+use @gtk_assistant_get_page_title[Pointer[U8]](assistant': GtkAssistant, page': Pointer[GObjectP])

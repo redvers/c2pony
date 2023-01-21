@@ -1,0 +1,1 @@
+use @gtk_tree_path_new_from_string[GtkTreePath](path': Pointer[U8] tag)

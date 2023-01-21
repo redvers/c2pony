@@ -1,0 +1,1 @@
+use @gtk_header_bar_get_title_widget[Pointer[GObjectP]](bar': GtkHeaderBar)

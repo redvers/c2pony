@@ -1,0 +1,2 @@
+  fun next(path': GtkTreePath): None =>
+    @gtk_tree_path_next(path')

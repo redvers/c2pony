@@ -1,0 +1,2 @@
+  fun get_second(self': GtkAlternativeTrigger): GtkShortcutTrigger =>
+    @gtk_alternative_trigger_get_second(self')

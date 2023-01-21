@@ -1,0 +1,2 @@
+  fun get_nth(self': GtkBitset, nth': U32): U32 =>
+    @gtk_bitset_get_nth(self', nth')

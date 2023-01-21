@@ -1,0 +1,2 @@
+  fun set_child(window': GtkWindowI, child': GtkWidgetI): None =>
+    @gtk_window_set_child(window'.getptr(), child'.getptr())

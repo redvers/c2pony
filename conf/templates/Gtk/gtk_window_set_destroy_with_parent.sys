@@ -1,0 +1,2 @@
+  fun set_destroy_with_parent(window': GtkWindowI, setting': I32): None =>
+    @gtk_window_set_destroy_with_parent(window'.getptr(), setting')

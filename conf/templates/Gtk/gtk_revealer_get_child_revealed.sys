@@ -1,0 +1,2 @@
+  fun get_child_revealed(revealer': GtkRevealer): I32 =>
+    @gtk_revealer_get_child_revealed(revealer')

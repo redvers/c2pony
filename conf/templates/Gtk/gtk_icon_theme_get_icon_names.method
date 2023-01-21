@@ -1,0 +1,2 @@
+  fun ref get_icon_names(): Pointer[Pointer[U8]] tag =>
+    GtkIconThemeP.get_icon_names(this)

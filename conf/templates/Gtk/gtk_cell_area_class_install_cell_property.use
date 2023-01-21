@@ -1,0 +1,1 @@
+use @gtk_cell_area_class_install_cell_property[None](aclass': GtkCellAreaClass, property_id': U32, pspec': GParamSpec)

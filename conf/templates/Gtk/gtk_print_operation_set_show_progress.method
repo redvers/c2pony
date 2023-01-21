@@ -1,0 +1,2 @@
+  fun ref set_show_progress(show_progress': I32): None =>
+    GtkPrintOperationP.set_show_progress(this, show_progress')

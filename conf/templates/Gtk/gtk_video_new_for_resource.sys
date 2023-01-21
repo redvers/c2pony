@@ -1,0 +1,2 @@
+  fun new_for_resource(resource_path': String): Pointer[GObjectP] =>
+@gtk_video_new_for_resource(resource_path'.cstring())

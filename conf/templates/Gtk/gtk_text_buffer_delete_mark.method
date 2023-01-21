@@ -1,0 +1,2 @@
+  fun ref delete_mark(mark': GtkTextMark): None =>
+    GtkTextBufferP.delete_mark(this, mark')

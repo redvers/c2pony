@@ -1,0 +1,2 @@
+  fun get_round_digits(range': GtkRange): I32 =>
+    @gtk_range_get_round_digits(range')

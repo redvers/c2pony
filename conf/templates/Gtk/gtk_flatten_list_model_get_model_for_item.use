@@ -1,0 +1,1 @@
+use @gtk_flatten_list_model_get_model_for_item[GListModel](self': GtkFlattenListModel, position': U32)

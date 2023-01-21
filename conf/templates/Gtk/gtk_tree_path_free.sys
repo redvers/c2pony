@@ -1,0 +1,2 @@
+  fun free(path': GtkTreePath): None =>
+    @gtk_tree_path_free(path')

@@ -1,0 +1,2 @@
+  fun inner_cell_area(area': GtkCellArea, widget': GtkWidgetI, cell_area': cairorectangleint, inner_area': cairorectangleint): None =>
+    @gtk_cell_area_inner_cell_area(area', widget'.getptr(), cell_area', inner_area')

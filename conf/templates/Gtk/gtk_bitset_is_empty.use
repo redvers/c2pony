@@ -1,0 +1,1 @@
+use @gtk_bitset_is_empty[I32](self': GtkBitset)

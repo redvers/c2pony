@@ -1,0 +1,2 @@
+  fun ref get_destroy_with_parent(): I32 =>
+    GtkWindowP.get_destroy_with_parent(this)

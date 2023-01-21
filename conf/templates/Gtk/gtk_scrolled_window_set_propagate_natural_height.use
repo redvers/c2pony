@@ -1,0 +1,1 @@
+use @gtk_scrolled_window_set_propagate_natural_height[None](scrolled_window': GtkScrolledWindow, propagate': I32)

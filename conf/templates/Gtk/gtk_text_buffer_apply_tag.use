@@ -1,0 +1,1 @@
+use @gtk_text_buffer_apply_tag[None](buffer': GtkTextBuffer, tag': GtkTextTag, start': GtkTextIter, end': GtkTextIter)

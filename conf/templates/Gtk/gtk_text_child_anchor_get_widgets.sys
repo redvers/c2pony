@@ -1,0 +1,2 @@
+  fun get_widgets(anchor': GtkTextChildAnchor, out_len': Pointer[U32] tag): Pointer[GtkWidget] =>
+    @gtk_text_child_anchor_get_widgets(anchor', out_len')

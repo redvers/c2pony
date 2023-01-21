@@ -1,0 +1,2 @@
+  fun ref get_playing(): I32 =>
+    GtkMediaStreamP.get_playing(this)

@@ -1,0 +1,2 @@
+  fun cell_get(area': GtkCellArea, renderer': GtkCellRenderer, first_prop_name': String, ...): None =>
+    @gtk_cell_area_cell_get(area', renderer', first_prop_name'.cstring(), ...)

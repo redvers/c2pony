@@ -1,0 +1,2 @@
+  fun ref scale(factor_x': F32, factor_y': F32): None =>
+    P.scale(this, factor_x', factor_y')

@@ -1,0 +1,2 @@
+  fun get_model(self': GtkMapListModel): GListModel =>
+    @gtk_map_list_model_get_model(self')

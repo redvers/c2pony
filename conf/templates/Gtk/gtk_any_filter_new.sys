@@ -1,0 +1,2 @@
+  fun new(): GtkAnyFilter =>
+    @gtk_any_filter_new()

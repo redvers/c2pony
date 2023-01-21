@@ -1,0 +1,2 @@
+  fun get_device_tool(gesture': GtkGestureStylus): GdkDeviceTool =>
+    @gtk_gesture_stylus_get_device_tool(gesture')

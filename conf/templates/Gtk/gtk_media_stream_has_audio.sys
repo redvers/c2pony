@@ -1,0 +1,2 @@
+  fun has_audio(self': GtkMediaStream): I32 =>
+    @gtk_media_stream_has_audio(self')

@@ -1,0 +1,2 @@
+  fun ref get_io_priority(): I32 =>
+    GtkDirectoryListP.get_io_priority(this)

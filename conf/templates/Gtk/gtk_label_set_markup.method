@@ -1,0 +1,2 @@
+  fun ref set_markup(str': String): None =>
+    GtkLabelP.set_markup(this, str')

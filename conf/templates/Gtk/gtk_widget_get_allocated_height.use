@@ -1,0 +1,1 @@
+use @gtk_widget_get_allocated_height[I32](widget': Pointer[GObjectP])

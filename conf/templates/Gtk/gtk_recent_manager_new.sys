@@ -1,0 +1,2 @@
+  fun new(): GtkRecentManager =>
+    @gtk_recent_manager_new()

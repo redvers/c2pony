@@ -1,0 +1,1 @@
+use @gtk_window_get_default_size[None](window': Pointer[GObjectP], width': Pointer[I32] tag, height': Pointer[I32] tag)

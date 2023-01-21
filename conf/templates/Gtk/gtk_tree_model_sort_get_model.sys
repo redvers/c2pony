@@ -1,0 +1,2 @@
+  fun get_model(tree_model': GtkTreeModelSort): GtkTreeModel =>
+    @gtk_tree_model_sort_get_model(tree_model')

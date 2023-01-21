@@ -1,0 +1,2 @@
+  fun ref set_incremental(incremental': I32): None =>
+    GtkFilterListModelP.set_incremental(this, incremental')

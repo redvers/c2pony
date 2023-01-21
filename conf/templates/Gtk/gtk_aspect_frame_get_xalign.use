@@ -1,0 +1,1 @@
+use @gtk_aspect_frame_get_xalign[F32](self': GtkAspectFrame)

@@ -1,0 +1,1 @@
+use @gtk_im_context_simple_add_table[None](context_simple': GtkIMContextSimple, data': Pointer[U16] tag, max_seq_len': I32, n_seqs': I32)

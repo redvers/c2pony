@@ -1,0 +1,1 @@
+use @gtk_gesture_single_set_exclusive[None](gesture': GtkGestureSingle, exclusive': I32)

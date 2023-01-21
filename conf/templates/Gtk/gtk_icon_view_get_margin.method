@@ -1,0 +1,2 @@
+  fun ref get_margin(): I32 =>
+    GtkIconViewP.get_margin(this)

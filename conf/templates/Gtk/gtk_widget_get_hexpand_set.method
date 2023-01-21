@@ -1,0 +1,2 @@
+  fun ref get_hexpand_set(): I32 =>
+    GtkWidgetP.get_hexpand_set(this)

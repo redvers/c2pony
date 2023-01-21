@@ -1,0 +1,2 @@
+  fun add_window(application': GtkApplication, window': GtkWindowI): None =>
+    @gtk_application_add_window(application', window'.getptr())

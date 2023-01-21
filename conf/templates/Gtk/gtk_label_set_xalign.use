@@ -1,0 +1,1 @@
+use @gtk_label_set_xalign[None](self': GtkLabel, xalign': F32)

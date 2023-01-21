@@ -1,0 +1,2 @@
+  fun ref get_opacity(): F64 =>
+    GtkWidgetP.get_opacity(this)

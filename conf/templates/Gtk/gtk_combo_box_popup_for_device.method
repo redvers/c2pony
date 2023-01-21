@@ -1,0 +1,2 @@
+  fun ref popup_for_device(device': GdkDevice): None =>
+    GtkComboBoxP.popup_for_device(this, device')

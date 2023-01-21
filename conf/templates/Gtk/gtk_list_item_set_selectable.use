@@ -1,0 +1,1 @@
+use @gtk_list_item_set_selectable[None](self': GtkListItem, selectable': I32)

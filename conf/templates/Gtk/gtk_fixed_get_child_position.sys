@@ -1,0 +1,2 @@
+  fun get_child_position(fixed': GtkFixed, widget': GtkWidgetI, x': Pointer[F64] tag, y': Pointer[F64] tag): None =>
+    @gtk_fixed_get_child_position(fixed', widget'.getptr(), x', y')

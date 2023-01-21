@@ -1,0 +1,2 @@
+  fun ref set_draw_func(draw_func': GtkDrawingAreaDrawFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    GtkDrawingAreaP.set_draw_func(this, draw_func', user_data', destroy')

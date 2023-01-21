@@ -1,0 +1,2 @@
+  fun pop(statusbar': GtkStatusbar, context_id': U32): None =>
+    @gtk_statusbar_pop(statusbar', context_id')

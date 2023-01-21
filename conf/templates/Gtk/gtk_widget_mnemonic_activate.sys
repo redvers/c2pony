@@ -1,0 +1,2 @@
+  fun mnemonic_activate(widget': GtkWidgetI, group_cycling': I32): I32 =>
+    @gtk_widget_mnemonic_activate(widget'.getptr(), group_cycling')

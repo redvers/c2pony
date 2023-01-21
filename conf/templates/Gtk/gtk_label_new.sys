@@ -1,0 +1,2 @@
+  fun new(str': String): Pointer[GObjectP] =>
+@gtk_label_new(str'.cstring())

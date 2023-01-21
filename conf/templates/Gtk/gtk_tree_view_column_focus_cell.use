@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_focus_cell[None](tree_column': GtkTreeViewColumn, cell': GtkCellRenderer)

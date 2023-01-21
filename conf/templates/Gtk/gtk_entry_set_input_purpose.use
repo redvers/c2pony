@@ -1,0 +1,1 @@
+use @gtk_entry_set_input_purpose[None](entry': GtkEntry, purpose': U32)

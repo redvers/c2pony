@@ -1,0 +1,1 @@
+use @gtk_text_buffer_get_can_redo[I32](buffer': GtkTextBuffer)

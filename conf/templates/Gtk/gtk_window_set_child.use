@@ -1,0 +1,1 @@
+use @gtk_window_set_child[None](window': Pointer[GObjectP], child': Pointer[GObjectP])

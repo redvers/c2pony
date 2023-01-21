@@ -1,0 +1,2 @@
+  fun get_license_type(about': GtkAboutDialog): U32 =>
+    @gtk_about_dialog_get_license_type(about')

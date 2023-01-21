@@ -1,0 +1,2 @@
+  fun set_show_title_buttons(bar': GtkHeaderBar, setting': I32): None =>
+    @gtk_header_bar_set_show_title_buttons(bar', setting')

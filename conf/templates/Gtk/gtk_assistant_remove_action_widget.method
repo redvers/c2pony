@@ -1,0 +1,2 @@
+  fun ref remove_action_widget(child': GtkWidgetI): None =>
+    GtkAssistantP.remove_action_widget(this, child')

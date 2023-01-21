@@ -1,0 +1,2 @@
+  fun ref get_default_size(width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
+    GtkWindowP.get_default_size(this, width', height')

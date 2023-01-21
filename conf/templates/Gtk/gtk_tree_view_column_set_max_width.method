@@ -1,0 +1,2 @@
+  fun ref set_max_width(max_width': I32): None =>
+    GtkTreeViewColumnP.set_max_width(this, max_width')

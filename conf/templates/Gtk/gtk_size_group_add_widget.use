@@ -1,0 +1,1 @@
+use @gtk_size_group_add_widget[None](size_group': GtkSizeGroup, widget': Pointer[GObjectP])

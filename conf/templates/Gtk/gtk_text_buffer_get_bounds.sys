@@ -1,0 +1,2 @@
+  fun get_bounds(buffer': GtkTextBuffer, start': GtkTextIter, end': GtkTextIter): None =>
+    @gtk_text_buffer_get_bounds(buffer', start', end')

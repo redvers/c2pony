@@ -1,0 +1,2 @@
+  fun insert_prefix(completion': GtkEntryCompletion): None =>
+    @gtk_entry_completion_insert_prefix(completion')

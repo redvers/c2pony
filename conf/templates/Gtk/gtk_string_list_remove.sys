@@ -1,0 +1,2 @@
+  fun remove(self': GtkStringList, position': U32): None =>
+    @gtk_string_list_remove(self', position')

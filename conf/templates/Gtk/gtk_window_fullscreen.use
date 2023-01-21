@@ -1,0 +1,1 @@
+use @gtk_window_fullscreen[None](window': Pointer[GObjectP])

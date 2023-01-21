@@ -1,0 +1,2 @@
+  fun ref get_show_day_names(): I32 =>
+    GtkCalendarP.get_show_day_names(this)

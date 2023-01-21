@@ -1,0 +1,2 @@
+  fun ref get_finishings(): String iso^ =>
+    GtkPrintSettingsP.get_finishings(this)

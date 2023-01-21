@@ -1,0 +1,2 @@
+  fun ref set_default_size(width': I32, height': I32): None =>
+    GtkWindowP.set_default_size(this, width', height')

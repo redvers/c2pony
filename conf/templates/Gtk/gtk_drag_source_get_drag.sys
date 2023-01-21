@@ -1,0 +1,2 @@
+  fun get_drag(source': GtkDragSource): GdkDrag =>
+    @gtk_drag_source_get_drag(source')

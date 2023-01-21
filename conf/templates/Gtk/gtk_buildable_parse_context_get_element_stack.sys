@@ -1,0 +1,2 @@
+  fun get_element_stack(context': GtkBuildableParseContext): GPtrArray =>
+    @gtk_buildable_parse_context_get_element_stack(context')

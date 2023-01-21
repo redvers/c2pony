@@ -1,0 +1,2 @@
+  fun new_for_input_stream(stream': GInputStream): GtkMediaStream =>
+    @gtk_media_file_new_for_input_stream(stream')

@@ -1,0 +1,1 @@
+use @gtk_widget_get_template_child[Pointer[GObjectP]](widget': Pointer[GObjectP], widget_type': U64, name': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun activate(cell': GtkCellRenderer, event': GdkEvent, widget': GtkWidgetI, path': String, background_area': cairorectangleint, cell_area': cairorectangleint, flags': U32): I32 =>
+    @gtk_cell_renderer_activate(cell', event', widget'.getptr(), path'.cstring(), background_area', cell_area', flags')

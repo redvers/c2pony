@@ -1,0 +1,1 @@
+use @gtk_print_settings_get_use_color[I32](settings': GtkPrintSettings)

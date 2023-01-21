@@ -1,0 +1,2 @@
+  fun new(orientation': U32, adjustment': GtkAdjustment): Pointer[GObjectP] =>
+@gtk_scale_new(orientation', adjustment')

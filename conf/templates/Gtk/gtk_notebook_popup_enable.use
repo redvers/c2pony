@@ -1,0 +1,1 @@
+use @gtk_notebook_popup_enable[None](notebook': GtkNotebook)

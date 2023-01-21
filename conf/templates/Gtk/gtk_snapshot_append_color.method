@@ -1,0 +1,2 @@
+  fun ref append_color(color': GdkRGBA, bounds': graphenerectt): None =>
+    P.append_color(this, color', bounds')

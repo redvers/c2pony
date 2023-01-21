@@ -1,0 +1,2 @@
+  fun get_widget(manager': GtkLayoutManager): Pointer[GObjectP] =>
+@gtk_layout_manager_get_widget(manager')

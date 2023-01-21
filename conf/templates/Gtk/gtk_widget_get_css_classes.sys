@@ -1,0 +1,2 @@
+  fun get_css_classes(widget': GtkWidgetI): Pointer[Pointer[U8]] tag =>
+    @gtk_widget_get_css_classes(widget'.getptr())

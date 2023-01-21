@@ -1,0 +1,1 @@
+use @gtk_drop_down_set_model[None](self': GtkDropDown, model': GListModel)

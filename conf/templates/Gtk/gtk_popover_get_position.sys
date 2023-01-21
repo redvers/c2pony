@@ -1,0 +1,2 @@
+  fun get_position(popover': GtkPopover): U32 =>
+    @gtk_popover_get_position(popover')

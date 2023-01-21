@@ -1,0 +1,2 @@
+  fun ref set_buffer(buffer': GtkTextBuffer): None =>
+    GtkTextViewP.set_buffer(this, buffer')

@@ -1,0 +1,2 @@
+  fun ref columns_autosize(): None =>
+    GtkTreeViewP.columns_autosize(this)

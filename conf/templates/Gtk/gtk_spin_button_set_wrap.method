@@ -1,0 +1,2 @@
+  fun ref set_wrap(wrap': I32): None =>
+    GtkSpinButtonP.set_wrap(this, wrap')

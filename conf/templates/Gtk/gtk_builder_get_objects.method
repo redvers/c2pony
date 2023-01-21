@@ -1,0 +1,2 @@
+  fun ref get_objects(): GSList =>
+    GtkBuilderP.get_objects(this)

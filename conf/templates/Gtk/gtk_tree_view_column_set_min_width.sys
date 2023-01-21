@@ -1,0 +1,2 @@
+  fun set_min_width(tree_column': GtkTreeViewColumn, min_width': I32): None =>
+    @gtk_tree_view_column_set_min_width(tree_column', min_width')

@@ -1,0 +1,1 @@
+use @gtk_notebook_next_page[None](notebook': GtkNotebook)

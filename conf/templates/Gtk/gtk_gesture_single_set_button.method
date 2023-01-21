@@ -1,0 +1,2 @@
+  fun ref set_button(button': U32): None =>
+    GtkGestureSingleP.set_button(this, button')

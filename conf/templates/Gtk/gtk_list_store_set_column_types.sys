@@ -1,0 +1,2 @@
+  fun set_column_types(list_store': GtkListStore, n_columns': I32, types': Pointer[U64] tag): None =>
+    @gtk_list_store_set_column_types(list_store', n_columns', types')

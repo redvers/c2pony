@@ -1,0 +1,2 @@
+  fun can_insert(iter': GtkTextIter, default_editability': I32): I32 =>
+    @gtk_text_iter_can_insert(iter', default_editability')

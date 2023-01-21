@@ -1,0 +1,2 @@
+  fun contains_focus(self': GtkEventControllerFocus): I32 =>
+    @gtk_event_controller_focus_contains_focus(self')

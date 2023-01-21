@@ -1,0 +1,2 @@
+  fun ref get_message_area(): Pointer[GObjectP] =>
+    GtkMessageDialogP.get_message_area(this)

@@ -1,0 +1,2 @@
+  fun set_hexpand_set(widget': GtkWidgetI, set': I32): None =>
+    @gtk_widget_set_hexpand_set(widget'.getptr(), set')

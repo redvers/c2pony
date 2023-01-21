@@ -1,0 +1,2 @@
+  fun set_surrounding(context': GtkIMContext, text': String, len': I32, cursor_index': I32): None =>
+    @gtk_im_context_set_surrounding(context', text'.cstring(), len', cursor_index')

@@ -1,0 +1,2 @@
+  fun ref set_truncate_multiline(truncate_multiline': I32): None =>
+    GtkTextP.set_truncate_multiline(this, truncate_multiline')

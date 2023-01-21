@@ -1,0 +1,2 @@
+  fun ref get_show_heading(): I32 =>
+    GtkCalendarP.get_show_heading(this)

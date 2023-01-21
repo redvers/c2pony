@@ -1,0 +1,2 @@
+  fun insert_next_to(grid': GtkGrid, sibling': GtkWidgetI, side': U32): None =>
+    @gtk_grid_insert_next_to(grid', sibling'.getptr(), side')

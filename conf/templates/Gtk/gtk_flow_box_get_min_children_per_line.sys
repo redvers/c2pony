@@ -1,0 +1,2 @@
+  fun get_min_children_per_line(box': GtkFlowBox): U32 =>
+    @gtk_flow_box_get_min_children_per_line(box')

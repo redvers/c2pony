@@ -1,0 +1,2 @@
+  fun ref get_primary_clipboard(): GdkClipboard =>
+    GtkWidgetP.get_primary_clipboard(this)

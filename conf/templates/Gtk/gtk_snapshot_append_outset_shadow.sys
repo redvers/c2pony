@@ -1,0 +1,2 @@
+  fun append_outset_shadow(snapshot': GdkSnapshot, outline': GskRoundedRect, color': GdkRGBA, dx': F32, dy': F32, spread': F32, blur_radius': F32): None =>
+    @gtk_snapshot_append_outset_shadow(snapshot', outline', color', dx', dy', spread', blur_radius')

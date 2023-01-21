@@ -1,0 +1,2 @@
+  fun ref cell_get_valist(renderer': GtkCellRenderer, first_property_name': String, var_args': valisttag): None =>
+    GtkCellAreaP.cell_get_valist(this, renderer', first_property_name', var_args')

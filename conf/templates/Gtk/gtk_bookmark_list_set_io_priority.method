@@ -1,0 +1,2 @@
+  fun ref set_io_priority(io_priority': I32): None =>
+    GtkBookmarkListP.set_io_priority(this, io_priority')

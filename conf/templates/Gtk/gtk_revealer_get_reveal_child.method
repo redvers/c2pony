@@ -1,0 +1,2 @@
+  fun ref get_reveal_child(): I32 =>
+    GtkRevealerP.get_reveal_child(this)

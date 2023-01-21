@@ -1,0 +1,2 @@
+  fun to_label(self': GtkShortcutTrigger, display': GdkDisplay): String iso^ =>
+    String.from_cstring(@gtk_shortcut_trigger_to_label(self', display')).clone()

@@ -1,0 +1,2 @@
+  fun ref get_icon_storage_type(icon_pos': U32): U32 =>
+    GtkEntryP.get_icon_storage_type(this, icon_pos')

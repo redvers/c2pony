@@ -1,0 +1,2 @@
+  fun get_active_window(application': GtkApplication): Pointer[GObjectP] =>
+@gtk_application_get_active_window(application')

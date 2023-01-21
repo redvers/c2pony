@@ -1,0 +1,2 @@
+  fun ref get_accessible_role(): U32 =>
+    GtkATContextP.get_accessible_role(this)

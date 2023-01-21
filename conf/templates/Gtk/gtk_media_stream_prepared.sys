@@ -1,0 +1,2 @@
+  fun prepared(self': GtkMediaStream, has_audio': I32, has_video': I32, seekable': I32, duration': I64): None =>
+    @gtk_media_stream_prepared(self', has_audio', has_video', seekable', duration')

@@ -1,0 +1,2 @@
+  fun ref set_collate(collate': I32): None =>
+    GtkPrintSettingsP.set_collate(this, collate')

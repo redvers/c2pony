@@ -1,0 +1,1 @@
+use @gtk_gesture_set_state[I32](gesture': GtkGesture, state': U32)

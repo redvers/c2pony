@@ -1,0 +1,2 @@
+  fun insert_markup(buffer': GtkTextBuffer, iter': GtkTextIter, markup': String, len': I32): None =>
+    @gtk_text_buffer_insert_markup(buffer', iter', markup'.cstring(), len')

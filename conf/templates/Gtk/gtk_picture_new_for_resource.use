@@ -1,0 +1,1 @@
+use @gtk_picture_new_for_resource[Pointer[GObjectP]](resource_path': Pointer[U8] tag)

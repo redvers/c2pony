@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gtk-4"
+    
+interface GtkSliceListModelI is GObjectI
+  fun ref getptr(): Pointer[GObjectP]

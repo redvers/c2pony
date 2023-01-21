@@ -1,0 +1,2 @@
+  fun get_current_event(controller': GtkEventController): GdkEvent =>
+    @gtk_event_controller_get_current_event(controller')

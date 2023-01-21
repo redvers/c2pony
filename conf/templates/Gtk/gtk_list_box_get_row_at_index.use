@@ -1,0 +1,1 @@
+use @gtk_list_box_get_row_at_index[GtkListBoxRow](box': GtkListBox, index': I32)

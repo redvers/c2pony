@@ -1,0 +1,2 @@
+  fun set_current_object(builder': GtkBuilder, current_object': GObjectI): None =>
+    @gtk_builder_set_current_object(builder', current_object'.getptr())

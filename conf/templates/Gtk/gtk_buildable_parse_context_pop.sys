@@ -1,0 +1,2 @@
+  fun pop(context': GtkBuildableParseContext): Pointer[None] tag =>
+    @gtk_buildable_parse_context_pop(context')

@@ -1,0 +1,2 @@
+  fun select_row(box': GtkListBox, row': GtkListBoxRow): None =>
+    @gtk_list_box_select_row(box', row')

@@ -1,0 +1,2 @@
+  fun transform(snapshot': GdkSnapshot, transform': GskTransform): None =>
+    @gtk_snapshot_transform(snapshot', transform')

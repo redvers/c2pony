@@ -1,0 +1,1 @@
+use @gtk_icon_view_get_drag_dest_item[None](icon_view': GtkIconView, path': Pointer[GtkTreePath], pos': Pointer[U32] tag)

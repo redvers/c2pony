@@ -1,0 +1,1 @@
+use @gtk_drop_down_get_show_arrow[I32](self': GtkDropDown)

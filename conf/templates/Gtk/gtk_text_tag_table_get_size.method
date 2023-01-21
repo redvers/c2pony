@@ -1,0 +1,2 @@
+  fun ref get_size(): I32 =>
+    GtkTextTagTableP.get_size(this)

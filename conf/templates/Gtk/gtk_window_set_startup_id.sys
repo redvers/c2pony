@@ -1,0 +1,2 @@
+  fun set_startup_id(window': GtkWindowI, startup_id': String): None =>
+    @gtk_window_set_startup_id(window'.getptr(), startup_id'.cstring())

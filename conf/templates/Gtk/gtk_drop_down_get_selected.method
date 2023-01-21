@@ -1,0 +1,2 @@
+  fun ref get_selected(): U32 =>
+    GtkDropDownP.get_selected(this)

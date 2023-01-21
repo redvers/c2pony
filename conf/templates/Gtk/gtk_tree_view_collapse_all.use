@@ -1,0 +1,1 @@
+use @gtk_tree_view_collapse_all[None](tree_view': GtkTreeView)

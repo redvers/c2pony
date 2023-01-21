@@ -1,0 +1,2 @@
+  fun get_value(button': GtkScaleButton): F64 =>
+    @gtk_scale_button_get_value(button')

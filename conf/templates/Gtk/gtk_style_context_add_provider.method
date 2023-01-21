@@ -1,0 +1,2 @@
+  fun ref add_provider(provider': GtkStyleProvider, priority': U32): None =>
+    GtkStyleContextP.add_provider(this, provider', priority')

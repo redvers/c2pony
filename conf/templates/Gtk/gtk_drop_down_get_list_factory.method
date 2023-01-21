@@ -1,0 +1,2 @@
+  fun ref get_list_factory(): GtkListItemFactory =>
+    GtkDropDownP.get_list_factory(this)

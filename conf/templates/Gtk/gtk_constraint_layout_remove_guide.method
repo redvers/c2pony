@@ -1,0 +1,2 @@
+  fun ref remove_guide(guide': GtkConstraintGuide): None =>
+    GtkConstraintLayoutP.remove_guide(this, guide')

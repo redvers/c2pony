@@ -1,0 +1,2 @@
+  fun get_action(self': GtkShortcut): GtkShortcutAction =>
+    @gtk_shortcut_get_action(self')

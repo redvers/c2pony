@@ -1,0 +1,2 @@
+  fun ref set_copyright(copyright': String): None =>
+    GtkAboutDialogP.set_copyright(this, copyright')

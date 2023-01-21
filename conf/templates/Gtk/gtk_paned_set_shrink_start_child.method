@@ -1,0 +1,2 @@
+  fun ref set_shrink_start_child(resize': I32): None =>
+    GtkPanedP.set_shrink_start_child(this, resize')

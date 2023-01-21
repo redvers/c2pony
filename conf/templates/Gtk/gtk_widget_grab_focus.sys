@@ -1,0 +1,2 @@
+  fun grab_focus(widget': GtkWidgetI): I32 =>
+    @gtk_widget_grab_focus(widget'.getptr())

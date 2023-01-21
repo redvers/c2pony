@@ -1,0 +1,2 @@
+  fun ref set_text(text': String): None =>
+    GtkProgressBarP.set_text(this, text')

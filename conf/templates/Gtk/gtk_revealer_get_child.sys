@@ -1,0 +1,2 @@
+  fun get_child(revealer': GtkRevealer): Pointer[GObjectP] =>
+@gtk_revealer_get_child(revealer')

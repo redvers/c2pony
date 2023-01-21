@@ -1,0 +1,2 @@
+  fun ref set_autoplay(autoplay': I32): None =>
+    GtkVideoP.set_autoplay(this, autoplay')

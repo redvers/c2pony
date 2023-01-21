@@ -1,0 +1,1 @@
+use @gtk_recent_info_match[I32](info_a': GtkRecentInfo, info_b': GtkRecentInfo)

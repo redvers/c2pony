@@ -1,0 +1,2 @@
+  fun get_accelerator(self': GtkShortcutLabel): String iso^ =>
+    String.from_cstring(@gtk_shortcut_label_get_accelerator(self')).clone()

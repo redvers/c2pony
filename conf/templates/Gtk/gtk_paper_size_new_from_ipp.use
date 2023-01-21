@@ -1,0 +1,1 @@
+use @gtk_paper_size_new_from_ipp[GtkPaperSize](ipp_name': Pointer[U8] tag, width': F64, height': F64)

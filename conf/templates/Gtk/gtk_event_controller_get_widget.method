@@ -1,0 +1,2 @@
+  fun ref get_widget(): Pointer[GObjectP] =>
+    GtkEventControllerP.get_widget(this)

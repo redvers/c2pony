@@ -1,0 +1,1 @@
+use @gtk_list_box_append[None](box': GtkListBox, child': Pointer[GObjectP])

@@ -1,0 +1,1 @@
+use @gtk_widget_get_primary_clipboard[GdkClipboard](widget': Pointer[GObjectP])

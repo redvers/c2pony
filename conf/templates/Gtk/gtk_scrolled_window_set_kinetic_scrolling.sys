@@ -1,0 +1,2 @@
+  fun set_kinetic_scrolling(scrolled_window': GtkScrolledWindow, kinetic_scrolling': I32): None =>
+    @gtk_scrolled_window_set_kinetic_scrolling(scrolled_window', kinetic_scrolling')

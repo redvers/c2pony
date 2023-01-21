@@ -1,0 +1,2 @@
+  fun ref value_from_string_type(type': U64, string': String, value': GValue, error': Pointer[GError]): I32 =>
+    GtkBuilderP.value_from_string_type(this, type', string', value', error')

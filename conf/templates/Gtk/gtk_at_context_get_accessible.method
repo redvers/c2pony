@@ -1,0 +1,2 @@
+  fun ref get_accessible(): GtkAccessible =>
+    GtkATContextP.get_accessible(this)

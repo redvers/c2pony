@@ -1,0 +1,2 @@
+  fun new_from_pixbuf(pixbuf': GdkPixbuf): Pointer[GObjectP] =>
+@gtk_image_new_from_pixbuf(pixbuf')

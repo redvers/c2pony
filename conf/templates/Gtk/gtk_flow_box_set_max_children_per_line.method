@@ -1,0 +1,2 @@
+  fun ref set_max_children_per_line(n_children': U32): None =>
+    GtkFlowBoxP.set_max_children_per_line(this, n_children')

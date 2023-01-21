@@ -1,0 +1,2 @@
+  fun get_title(self': GtkColumnViewColumn): String iso^ =>
+    String.from_cstring(@gtk_column_view_column_get_title(self')).clone()

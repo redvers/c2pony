@@ -1,0 +1,2 @@
+  fun ref set_autoexpand(autoexpand': I32): None =>
+    GtkTreeListModelP.set_autoexpand(this, autoexpand')

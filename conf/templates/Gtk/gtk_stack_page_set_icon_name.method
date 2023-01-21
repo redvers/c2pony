@@ -1,0 +1,2 @@
+  fun ref set_icon_name(setting': String): None =>
+    GtkStackPageP.set_icon_name(this, setting')

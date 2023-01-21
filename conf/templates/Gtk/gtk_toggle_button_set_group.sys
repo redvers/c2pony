@@ -1,0 +1,2 @@
+  fun set_group(toggle_button': GtkToggleButton, group': GtkToggleButton): None =>
+    @gtk_toggle_button_set_group(toggle_button', group')

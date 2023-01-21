@@ -1,0 +1,2 @@
+  fun get_use_font(font_button': GtkFontButton): I32 =>
+    @gtk_font_button_get_use_font(font_button')

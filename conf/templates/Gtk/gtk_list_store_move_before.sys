@@ -1,0 +1,2 @@
+  fun move_before(store': GtkListStore, iter': GtkTreeIter, position': GtkTreeIter): None =>
+    @gtk_list_store_move_before(store', iter', position')

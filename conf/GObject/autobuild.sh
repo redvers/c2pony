@@ -4,6 +4,12 @@ echo > ../test/GObject/GObject.pony
 cat ../templates/GObject/g_boxed_free.use >> ../test/GObject/GObject.pony
 cat ../templates/GObject/GObject.primitive >> ../test/GObject/GObject.pony
 cat ../templates/GObject/g_boxed_free.sys >> ../test/GObject/GObject.pony
+echo > ../test/GObject/GInitiallyUnowned.pony
+cat ../templates/GObject/GInitiallyUnowned.class >> ../test/GObject/GInitiallyUnowned.pony
+echo > ../test/GObject/GInitiallyUnownedI.pony
+cat ../templates/GObject/GInitiallyUnownedI.classinterface >> ../test/GObject/GInitiallyUnownedI.pony
+echo > ../test/GObject/GInitiallyUnownedP.pony
+cat ../templates/GObject/GInitiallyUnownedP.primitive >> ../test/GObject/GInitiallyUnownedP.pony
 echo > ../test/GObject/GObject.pony
 cat ../templates/GObject/GObject.class >> ../test/GObject/GObject.pony
 echo > ../test/GObject/GObjectI.pony

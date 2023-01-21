@@ -1,0 +1,2 @@
+  fun ref get_has_frame(): I32 =>
+    GtkMenuButtonP.get_has_frame(this)

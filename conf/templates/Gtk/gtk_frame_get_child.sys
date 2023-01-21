@@ -1,0 +1,2 @@
+  fun get_child(frame': GtkFrame): Pointer[GObjectP] =>
+@gtk_frame_get_child(frame')

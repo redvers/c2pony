@@ -1,0 +1,1 @@
+use @gtk_cell_area_get_focus_from_sibling[GtkCellRenderer](area': GtkCellArea, renderer': GtkCellRenderer)

@@ -1,0 +1,1 @@
+use @gtk_widget_set_halign[None](widget': Pointer[GObjectP], align': U32)

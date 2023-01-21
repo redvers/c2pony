@@ -1,0 +1,2 @@
+  fun ref has_default(): I32 =>
+    GtkWidgetP.has_default(this)

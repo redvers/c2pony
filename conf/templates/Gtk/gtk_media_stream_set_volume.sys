@@ -1,0 +1,2 @@
+  fun set_volume(self': GtkMediaStream, volume': F64): None =>
+    @gtk_media_stream_set_volume(self', volume')

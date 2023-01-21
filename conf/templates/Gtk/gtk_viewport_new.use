@@ -1,0 +1,1 @@
+use @gtk_viewport_new[Pointer[GObjectP]](hadjustment': GtkAdjustment, vadjustment': GtkAdjustment)

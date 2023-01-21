@@ -1,0 +1,1 @@
+use @gtk_app_chooser_button_get_show_dialog_item[I32](self': GtkAppChooserButton)

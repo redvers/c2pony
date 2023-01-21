@@ -1,0 +1,2 @@
+  fun new_from_ipp(ipp_name': String, width': F64, height': F64): GtkPaperSize =>
+    @gtk_paper_size_new_from_ipp(ipp_name'.cstring(), width', height')

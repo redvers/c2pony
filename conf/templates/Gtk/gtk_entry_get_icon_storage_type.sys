@@ -1,0 +1,2 @@
+  fun get_icon_storage_type(entry': GtkEntry, icon_pos': U32): U32 =>
+    @gtk_entry_get_icon_storage_type(entry', icon_pos')

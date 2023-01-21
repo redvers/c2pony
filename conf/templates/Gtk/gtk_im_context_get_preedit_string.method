@@ -1,0 +1,2 @@
+  fun ref get_preedit_string(str': Pointer[Pointer[U8]] tag, attrs': Pointer[PangoAttrList], cursor_pos': Pointer[I32] tag): None =>
+    GtkIMContextP.get_preedit_string(this, str', attrs', cursor_pos')

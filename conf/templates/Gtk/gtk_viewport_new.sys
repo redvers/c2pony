@@ -1,0 +1,2 @@
+  fun new(hadjustment': GtkAdjustment, vadjustment': GtkAdjustment): Pointer[GObjectP] =>
+@gtk_viewport_new(hadjustment', vadjustment')

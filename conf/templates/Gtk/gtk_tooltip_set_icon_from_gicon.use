@@ -1,0 +1,1 @@
+use @gtk_tooltip_set_icon_from_gicon[None](tooltip': GtkTooltip, gicon': GIcon)

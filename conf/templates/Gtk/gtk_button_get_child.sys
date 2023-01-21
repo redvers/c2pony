@@ -1,0 +1,2 @@
+  fun get_child(button': GtkButton): Pointer[GObjectP] =>
+@gtk_button_get_child(button')

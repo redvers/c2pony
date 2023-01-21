@@ -16,23 +16,9 @@
       </suffixes>
     </ponytypeconvout>
   </typedef>
-  <typedef name="GObject"
-    ponytypein="GObjectI"
-    ponytypeinconv=".getptr()"
-    ponytypeout=""
-    structtype="Pointer[GObjectP]"
-    structdef="Pointer[GObjectP]"
-    argtype="Pointer[GObjectP]"
-    rvtype="Pointer[GObjectP]">
-    <ponytypeconvout>
-      <prefixs>
-        <prefix>    String.from_cstring(</prefix>
-      </prefixs>
-      <suffixes>
-        <suffix>).clone()</suffix>
-      </suffixes>
-    </ponytypeconvout>
-  </typedef>
+  <typedef name="GObject" ponytypein="GObjectI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GtkWidget" ponytypein="GtkWidgetI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GtkWindow" ponytypein="GtkWindowI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
 
 </typedefs>
 

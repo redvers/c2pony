@@ -1,0 +1,2 @@
+  fun get_placeholder_text(self': GtkText): String iso^ =>
+    String.from_cstring(@gtk_text_get_placeholder_text(self')).clone()

@@ -1,0 +1,2 @@
+  fun ref get_can_unselect(): I32 =>
+    GtkSingleSelectionP.get_can_unselect(this)

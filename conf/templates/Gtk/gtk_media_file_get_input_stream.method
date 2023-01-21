@@ -1,0 +1,2 @@
+  fun ref get_input_stream(): GInputStream =>
+    GtkMediaFileP.get_input_stream(this)

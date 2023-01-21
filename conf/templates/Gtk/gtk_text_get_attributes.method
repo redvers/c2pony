@@ -1,0 +1,2 @@
+  fun ref get_attributes(): PangoAttrList =>
+    GtkTextP.get_attributes(this)

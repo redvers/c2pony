@@ -1,0 +1,2 @@
+  fun ref compute_cursor_extents(position': U64, strong': graphenerectt, weak': graphenerectt): None =>
+    GtkTextP.compute_cursor_extents(this, position', strong', weak')

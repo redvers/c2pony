@@ -1,0 +1,2 @@
+  fun set_digits(spin_button': GtkSpinButton, digits': U32): None =>
+    @gtk_spin_button_set_digits(spin_button', digits')

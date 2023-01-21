@@ -1,0 +1,2 @@
+  fun new_with_model_and_entry(model': GtkTreeModel): Pointer[GObjectP] =>
+@gtk_combo_box_new_with_model_and_entry(model')

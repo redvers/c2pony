@@ -1,0 +1,2 @@
+  fun ref place_cursor_onscreen(): I32 =>
+    GtkTextViewP.place_cursor_onscreen(this)

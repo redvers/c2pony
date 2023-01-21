@@ -1,0 +1,2 @@
+  fun set_editable(text_view': GtkTextView, setting': I32): None =>
+    @gtk_text_view_set_editable(text_view', setting')

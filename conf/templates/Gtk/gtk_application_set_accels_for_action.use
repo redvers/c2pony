@@ -1,0 +1,1 @@
+use @gtk_application_set_accels_for_action[None](application': GtkApplication, detailed_action_name': Pointer[U8] tag, accels': Pointer[Pointer[U8]] tag)

@@ -1,0 +1,2 @@
+  fun render_icon(context': GtkStyleContext, cr': cairo, texture': GdkTexture, x': F64, y': F64): None =>
+    @gtk_render_icon(context', cr', texture', x', y')

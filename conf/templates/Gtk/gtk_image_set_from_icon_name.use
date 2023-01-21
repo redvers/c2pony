@@ -1,0 +1,1 @@
+use @gtk_image_set_from_icon_name[None](image': GtkImage, icon_name': Pointer[U8] tag)

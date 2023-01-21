@@ -385,7 +385,7 @@
       <rendermethod name="g_binding_get_target_property" ponyname="get_target_property" render="0" deprecated=""/>
       <rendermethod name="g_binding_unbind" ponyname="unbind" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GInitiallyUnowned" render="0" parent="Object" abstract="" final="" fundamental="">
+    <renderclass name="GInitiallyUnowned" render="1" parent="Object" abstract="" final="" fundamental="">
 </renderclass>
     <renderclass name="GObject" render="1" parent="" abstract="" final="" fundamental="">
       <renderconstructor name="g_object_new" ponyname="new" render="0" deprecated=""/>

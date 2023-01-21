@@ -1,0 +1,2 @@
+  fun get_actions(self': GtkDropTargetAsync): U32 =>
+    @gtk_drop_target_async_get_actions(self')

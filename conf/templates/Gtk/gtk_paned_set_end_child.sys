@@ -1,0 +1,2 @@
+  fun set_end_child(paned': GtkPaned, child': GtkWidgetI): None =>
+    @gtk_paned_set_end_child(paned', child'.getptr())

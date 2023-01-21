@@ -1,0 +1,2 @@
+  fun ref get_page(child': GtkWidgetI): GtkAssistantPage =>
+    GtkAssistantP.get_page(this, child')

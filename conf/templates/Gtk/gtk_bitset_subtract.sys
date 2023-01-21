@@ -1,0 +1,2 @@
+  fun subtract(self': GtkBitset, other': GtkBitset): None =>
+    @gtk_bitset_subtract(self', other')

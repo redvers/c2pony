@@ -1,0 +1,2 @@
+  fun compare(a': GtkTreePath, b': GtkTreePath): I32 =>
+    @gtk_tree_path_compare(a', b')

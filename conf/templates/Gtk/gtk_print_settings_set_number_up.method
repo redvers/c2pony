@@ -1,0 +1,2 @@
+  fun ref set_number_up(number_up': I32): None =>
+    GtkPrintSettingsP.set_number_up(this, number_up')

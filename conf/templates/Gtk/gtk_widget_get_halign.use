@@ -1,0 +1,1 @@
+use @gtk_widget_get_halign[U32](widget': Pointer[GObjectP])

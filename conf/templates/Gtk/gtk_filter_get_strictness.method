@@ -1,0 +1,2 @@
+  fun ref get_strictness(): U32 =>
+    GtkFilterP.get_strictness(this)

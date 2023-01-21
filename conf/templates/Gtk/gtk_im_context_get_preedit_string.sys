@@ -1,0 +1,2 @@
+  fun get_preedit_string(context': GtkIMContext, str': Pointer[Pointer[U8]] tag, attrs': Pointer[PangoAttrList], cursor_pos': Pointer[I32] tag): None =>
+    @gtk_im_context_get_preedit_string(context', str', attrs', cursor_pos')

@@ -1,0 +1,2 @@
+  fun ref is_focus_sibling(renderer': GtkCellRenderer, sibling': GtkCellRenderer): I32 =>
+    GtkCellAreaP.is_focus_sibling(this, renderer', sibling')

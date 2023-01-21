@@ -1,0 +1,2 @@
+  fun present_with_time(window': GtkWindowI, timestamp': U32): None =>
+    @gtk_window_present_with_time(window'.getptr(), timestamp')

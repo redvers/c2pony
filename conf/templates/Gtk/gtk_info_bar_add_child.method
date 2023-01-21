@@ -1,0 +1,2 @@
+  fun ref add_child(widget': GtkWidgetI): None =>
+    GtkInfoBarP.add_child(this, widget')

@@ -1,0 +1,2 @@
+  fun ref load_file(file_name': String, error': Pointer[GError]): I32 =>
+    GtkPrintSettingsP.load_file(this, file_name', error')

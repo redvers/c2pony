@@ -1,0 +1,2 @@
+  fun ref complete(): None =>
+    GtkEntryCompletionP.complete(this)

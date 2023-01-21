@@ -1,0 +1,2 @@
+  fun ref get_group_name(): String iso^ =>
+    GtkNotebookP.get_group_name(this)

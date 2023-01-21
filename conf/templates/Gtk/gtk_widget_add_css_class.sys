@@ -1,0 +1,2 @@
+  fun add_css_class(widget': GtkWidgetI, css_class': String): None =>
+    @gtk_widget_add_css_class(widget'.getptr(), css_class'.cstring())

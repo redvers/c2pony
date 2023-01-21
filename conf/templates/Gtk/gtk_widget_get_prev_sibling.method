@@ -1,0 +1,2 @@
+  fun ref get_prev_sibling(): Pointer[GObjectP] =>
+    GtkWidgetP.get_prev_sibling(this)

@@ -1,0 +1,2 @@
+  fun get_max_width(tree_column': GtkTreeViewColumn): I32 =>
+    @gtk_tree_view_column_get_max_width(tree_column')

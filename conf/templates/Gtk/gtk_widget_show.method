@@ -1,0 +1,2 @@
+  fun ref show(): None =>
+    GtkWidgetP.show(this)

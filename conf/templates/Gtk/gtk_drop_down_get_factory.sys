@@ -1,0 +1,2 @@
+  fun get_factory(self': GtkDropDown): GtkListItemFactory =>
+    @gtk_drop_down_get_factory(self')

@@ -1,0 +1,2 @@
+  fun ref set_primary(primary': I32): None =>
+    GtkMenuButtonP.set_primary(this, primary')

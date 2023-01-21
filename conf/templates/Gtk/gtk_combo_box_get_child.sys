@@ -1,0 +1,2 @@
+  fun get_child(combo_box': GtkComboBox): Pointer[GObjectP] =>
+@gtk_combo_box_get_child(combo_box')

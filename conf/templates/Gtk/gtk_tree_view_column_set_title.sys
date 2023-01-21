@@ -1,0 +1,2 @@
+  fun set_title(tree_column': GtkTreeViewColumn, title': String): None =>
+    @gtk_tree_view_column_set_title(tree_column', title'.cstring())

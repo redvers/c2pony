@@ -1,0 +1,2 @@
+  fun ref add(renderer': GtkCellRenderer): None =>
+    GtkCellAreaP.add(this, renderer')

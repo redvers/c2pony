@@ -1,0 +1,2 @@
+  fun is_pointer(self': GtkEventControllerMotion): I32 =>
+    @gtk_event_controller_motion_is_pointer(self')

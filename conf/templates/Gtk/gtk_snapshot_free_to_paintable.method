@@ -1,0 +1,2 @@
+  fun ref free_to_paintable(size': graphenesizet): GdkPaintable =>
+    P.free_to_paintable(this, size')

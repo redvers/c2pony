@@ -1,0 +1,1 @@
+use @gtk_widget_class_get_activate_signal[U32](widget_class': GtkWidgetClass)

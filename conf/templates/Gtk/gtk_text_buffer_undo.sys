@@ -1,0 +1,2 @@
+  fun undo(buffer': GtkTextBuffer): None =>
+    @gtk_text_buffer_undo(buffer')

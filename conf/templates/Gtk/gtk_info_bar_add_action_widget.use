@@ -1,0 +1,1 @@
+use @gtk_info_bar_add_action_widget[None](info_bar': GtkInfoBar, child': Pointer[GObjectP], response_id': I32)

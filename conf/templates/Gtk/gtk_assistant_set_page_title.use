@@ -1,0 +1,1 @@
+use @gtk_assistant_set_page_title[None](assistant': GtkAssistant, page': Pointer[GObjectP], title': Pointer[U8] tag)

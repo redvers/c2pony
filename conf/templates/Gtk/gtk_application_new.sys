@@ -1,0 +1,2 @@
+  fun new(application_id': String, flags': U32): GtkApplication =>
+    @gtk_application_new(application_id'.cstring(), flags')

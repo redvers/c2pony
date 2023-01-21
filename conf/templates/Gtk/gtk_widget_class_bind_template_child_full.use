@@ -1,0 +1,1 @@
+use @gtk_widget_class_bind_template_child_full[None](widget_class': GtkWidgetClass, name': Pointer[U8] tag, internal_child': I32, struct_offset': I64)

@@ -1,0 +1,1 @@
+use @gtk_dialog_get_response_for_widget[I32](dialog': GtkDialog, widget': Pointer[GObjectP])

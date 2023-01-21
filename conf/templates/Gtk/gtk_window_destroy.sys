@@ -1,0 +1,2 @@
+  fun destroy(window': GtkWindowI): None =>
+    @gtk_window_destroy(window'.getptr())

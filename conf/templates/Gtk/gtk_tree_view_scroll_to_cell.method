@@ -1,0 +1,2 @@
+  fun ref scroll_to_cell(path': GtkTreePath, column': GtkTreeViewColumn, use_align': I32, row_align': F32, col_align': F32): None =>
+    GtkTreeViewP.scroll_to_cell(this, path', column', use_align', row_align', col_align')

@@ -69,8 +69,17 @@
             <xsl:text>interface </xsl:text>
             <xsl:value-of select="$filename"/>
             <xsl:text>I is </xsl:text>
-            <xsl:value-of select="$classprefix"/>
-            <xsl:value-of select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@parent"/>
+            <xsl:variable name="parent" select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@parent"/>
+            <xsl:choose>
+              <xsl:when test="starts-with($parent, 'GObject.')">
+                <xsl:text>G</xsl:text>
+                <xsl:value-of select="substring-after($parent, 'GObject.')"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$classprefix"/>
+                <xsl:value-of select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@parent"/>
+              </xsl:otherwise>
+            </xsl:choose>
             <xsl:text>I</xsl:text>
           </xsl:otherwise>
         </xsl:choose>

@@ -1,0 +1,2 @@
+  fun ref set_size_request(width': I32, height': I32): None =>
+    GtkWidgetP.set_size_request(this, width', height')

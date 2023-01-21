@@ -1,0 +1,2 @@
+  fun ref set_ignore_case(ignore_case': I32): None =>
+    GtkStringSorterP.set_ignore_case(this, ignore_case')

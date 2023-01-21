@@ -1,0 +1,2 @@
+  fun add_from_file(builder': GtkBuilder, filename': String, error': Pointer[GError]): I32 =>
+    @gtk_builder_add_from_file(builder', filename'.cstring(), error')

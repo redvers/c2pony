@@ -1,0 +1,2 @@
+  fun set_uri(link_button': GtkLinkButton, uri': String): None =>
+    @gtk_link_button_set_uri(link_button', uri'.cstring())

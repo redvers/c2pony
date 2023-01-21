@@ -1,0 +1,2 @@
+  fun previous(iter': GtkBitsetIter, value': Pointer[U32] tag): I32 =>
+    @gtk_bitset_iter_previous(iter', value')

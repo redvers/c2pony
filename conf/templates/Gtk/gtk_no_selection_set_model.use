@@ -1,0 +1,1 @@
+use @gtk_no_selection_set_model[None](self': GtkNoSelection, model': GListModel)

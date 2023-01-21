@@ -1,0 +1,2 @@
+  fun get_child_at_index(box': GtkFlowBox, idx': I32): GtkFlowBoxChild =>
+    @gtk_flow_box_get_child_at_index(box', idx')

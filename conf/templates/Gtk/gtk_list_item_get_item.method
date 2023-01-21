@@ -1,0 +1,2 @@
+  fun ref get_item(): Pointer[None] tag =>
+    GtkListItemP.get_item(this)

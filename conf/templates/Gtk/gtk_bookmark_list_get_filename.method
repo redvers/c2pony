@@ -1,0 +1,2 @@
+  fun ref get_filename(): String iso^ =>
+    GtkBookmarkListP.get_filename(this)

@@ -1,0 +1,1 @@
+use @gtk_print_settings_set_resolution_xy[None](settings': GtkPrintSettings, resolution_x': I32, resolution_y': I32)

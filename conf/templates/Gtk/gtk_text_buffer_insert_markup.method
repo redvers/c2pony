@@ -1,0 +1,2 @@
+  fun ref insert_markup(iter': GtkTextIter, markup': String, len': I32): None =>
+    GtkTextBufferP.insert_markup(this, iter', markup', len')

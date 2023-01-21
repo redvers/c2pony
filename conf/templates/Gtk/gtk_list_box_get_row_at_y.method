@@ -1,0 +1,2 @@
+  fun ref get_row_at_y(y': I32): GtkListBoxRow =>
+    GtkListBoxP.get_row_at_y(this, y')

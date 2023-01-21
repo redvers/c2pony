@@ -1,0 +1,2 @@
+  fun set_program_name(about': GtkAboutDialog, name': String): None =>
+    @gtk_about_dialog_set_program_name(about', name'.cstring())

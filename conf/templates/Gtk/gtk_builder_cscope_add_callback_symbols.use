@@ -1,0 +1,1 @@
+use @gtk_builder_cscope_add_callback_symbols[None](self': GtkBuilderCScope, first_callback_name': Pointer[U8] tag, first_callback_symbol': GCallback, ...)

@@ -1,0 +1,1 @@
+use @gtk_application_inhibit[U32](application': GtkApplication, window': Pointer[GObjectP], flags': U32, reason': Pointer[U8] tag)

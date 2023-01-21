@@ -1,0 +1,1 @@
+use @gtk_cell_area_foreach[None](area': GtkCellArea, callback': GtkCellCallback, callback_data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun ref get_expression(): GtkExpression =>
+    GtkPropertyExpressionP.get_expression(this)

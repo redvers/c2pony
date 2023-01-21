@@ -1,0 +1,2 @@
+  fun ref set_is_expander(is_expander': I32): None =>
+    GtkCellRendererP.set_is_expander(this, is_expander')

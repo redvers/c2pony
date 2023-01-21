@@ -1,0 +1,2 @@
+  fun get_alignment(tree_column': GtkTreeViewColumn): F32 =>
+    @gtk_tree_view_column_get_alignment(tree_column')

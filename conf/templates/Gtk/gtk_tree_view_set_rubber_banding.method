@@ -1,0 +1,2 @@
+  fun ref set_rubber_banding(enable': I32): None =>
+    GtkTreeViewP.set_rubber_banding(this, enable')

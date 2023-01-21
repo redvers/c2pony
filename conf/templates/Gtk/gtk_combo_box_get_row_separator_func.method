@@ -1,0 +1,2 @@
+  fun ref get_row_separator_func(): GtkTreeViewRowSeparatorFunc =>
+    GtkComboBoxP.get_row_separator_func(this)

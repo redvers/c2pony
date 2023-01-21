@@ -1,0 +1,1 @@
+use @gtk_gesture_single_get_current_sequence[GdkEventSequence](gesture': GtkGestureSingle)

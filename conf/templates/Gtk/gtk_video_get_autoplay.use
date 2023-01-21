@@ -1,0 +1,1 @@
+use @gtk_video_get_autoplay[I32](self': GtkVideo)

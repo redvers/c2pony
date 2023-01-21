@@ -1,0 +1,2 @@
+  fun ref get_hadjustment(): GtkAdjustment =>
+    GtkScrolledWindowP.get_hadjustment(this)

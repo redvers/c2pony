@@ -1,0 +1,1 @@
+use @gtk_tree_view_get_path_at_pos[I32](tree_view': GtkTreeView, x': I32, y': I32, path': Pointer[GtkTreePath], column': Pointer[GtkTreeViewColumn], cell_x': Pointer[I32] tag, cell_y': Pointer[I32] tag)

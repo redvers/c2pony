@@ -1,0 +1,1 @@
+use @gtk_signal_action_get_signal_name[Pointer[U8]](self': GtkSignalAction)

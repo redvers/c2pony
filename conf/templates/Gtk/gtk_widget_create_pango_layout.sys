@@ -1,0 +1,2 @@
+  fun create_pango_layout(widget': GtkWidgetI, text': String): PangoLayout =>
+    @gtk_widget_create_pango_layout(widget'.getptr(), text'.cstring())

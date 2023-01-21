@@ -1,0 +1,2 @@
+  fun set_track_print_status(op': GtkPrintOperation, track_status': I32): None =>
+    @gtk_print_operation_set_track_print_status(op', track_status')

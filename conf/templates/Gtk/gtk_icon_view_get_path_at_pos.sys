@@ -1,0 +1,2 @@
+  fun get_path_at_pos(icon_view': GtkIconView, x': I32, y': I32): GtkTreePath =>
+    @gtk_icon_view_get_path_at_pos(icon_view', x', y')

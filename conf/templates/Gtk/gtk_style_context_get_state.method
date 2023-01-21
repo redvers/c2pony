@@ -1,0 +1,2 @@
+  fun ref get_state(): U32 =>
+    GtkStyleContextP.get_state(this)

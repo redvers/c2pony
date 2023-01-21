@@ -1,0 +1,2 @@
+  fun ref set_sizing(type': U32): None =>
+    GtkTreeViewColumnP.set_sizing(this, type')

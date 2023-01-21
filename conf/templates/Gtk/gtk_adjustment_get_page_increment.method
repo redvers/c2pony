@@ -1,0 +1,2 @@
+  fun ref get_page_increment(): F64 =>
+    GtkAdjustmentP.get_page_increment(this)

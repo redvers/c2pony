@@ -1,0 +1,2 @@
+  fun new(): Pointer[GObjectP] =>
+@gtk_level_bar_new()

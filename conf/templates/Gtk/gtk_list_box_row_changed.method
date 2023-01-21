@@ -1,0 +1,2 @@
+  fun ref changed(): None =>
+    GtkListBoxRowP.changed(this)

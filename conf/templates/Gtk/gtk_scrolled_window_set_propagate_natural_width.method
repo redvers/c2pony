@@ -1,0 +1,2 @@
+  fun ref set_propagate_natural_width(propagate': I32): None =>
+    GtkScrolledWindowP.set_propagate_natural_width(this, propagate')

@@ -1,0 +1,1 @@
+use @gtk_grid_view_get_enable_rubberband[I32](self': GtkGridView)

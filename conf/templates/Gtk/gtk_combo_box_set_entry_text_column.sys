@@ -1,0 +1,2 @@
+  fun set_entry_text_column(combo_box': GtkComboBox, text_column': I32): None =>
+    @gtk_combo_box_set_entry_text_column(combo_box', text_column')

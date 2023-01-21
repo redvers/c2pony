@@ -1,0 +1,2 @@
+  fun ref set_pixbuf_column(column': I32): None =>
+    GtkIconViewP.set_pixbuf_column(this, column')

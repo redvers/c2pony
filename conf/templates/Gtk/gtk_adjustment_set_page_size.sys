@@ -1,0 +1,2 @@
+  fun set_page_size(adjustment': GtkAdjustment, page_size': F64): None =>
+    @gtk_adjustment_set_page_size(adjustment', page_size')

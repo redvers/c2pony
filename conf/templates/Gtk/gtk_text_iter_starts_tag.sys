@@ -1,0 +1,2 @@
+  fun starts_tag(iter': GtkTextIter, tag': GtkTextTag): I32 =>
+    @gtk_text_iter_starts_tag(iter', tag')

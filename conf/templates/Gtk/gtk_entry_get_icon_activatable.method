@@ -1,0 +1,2 @@
+  fun ref get_icon_activatable(icon_pos': U32): I32 =>
+    GtkEntryP.get_icon_activatable(this, icon_pos')

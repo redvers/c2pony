@@ -1,0 +1,2 @@
+  fun get_modal(self': GtkNativeDialog): I32 =>
+    @gtk_native_dialog_get_modal(self')

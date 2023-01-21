@@ -1,0 +1,2 @@
+  fun ref move_item(uri': String, new_uri': String, error': Pointer[GError]): I32 =>
+    GtkRecentManagerP.move_item(this, uri', new_uri', error')

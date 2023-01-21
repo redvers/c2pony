@@ -1,0 +1,2 @@
+  fun ref set_preload(preload': I32): None =>
+    GtkDropTargetP.set_preload(this, preload')

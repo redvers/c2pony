@@ -1,0 +1,2 @@
+  fun set_valuesv(list_store': GtkListStore, iter': GtkTreeIter, columns': Pointer[I32] tag, values': GValue, n_values': I32): None =>
+    @gtk_list_store_set_valuesv(list_store', iter', columns', values', n_values')

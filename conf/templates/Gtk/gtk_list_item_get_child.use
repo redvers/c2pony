@@ -1,0 +1,1 @@
+use @gtk_list_item_get_child[Pointer[GObjectP]](self': GtkListItem)

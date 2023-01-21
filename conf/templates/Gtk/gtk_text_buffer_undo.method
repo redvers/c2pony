@@ -1,0 +1,2 @@
+  fun ref undo(): None =>
+    GtkTextBufferP.undo(this)

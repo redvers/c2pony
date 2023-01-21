@@ -1,0 +1,1 @@
+use @gtk_print_operation_get_status_string[Pointer[U8]](op': GtkPrintOperation)

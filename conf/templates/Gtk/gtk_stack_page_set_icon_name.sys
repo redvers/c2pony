@@ -1,0 +1,2 @@
+  fun set_icon_name(self': GtkStackPage, setting': String): None =>
+    @gtk_stack_page_set_icon_name(self', setting'.cstring())

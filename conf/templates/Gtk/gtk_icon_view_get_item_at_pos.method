@@ -1,0 +1,2 @@
+  fun ref get_item_at_pos(x': I32, y': I32, path': Pointer[GtkTreePath], cell': Pointer[GtkCellRenderer]): I32 =>
+    GtkIconViewP.get_item_at_pos(this, x', y', path', cell')

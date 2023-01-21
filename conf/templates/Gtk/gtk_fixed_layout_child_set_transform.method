@@ -1,0 +1,2 @@
+  fun ref set_transform(transform': GskTransform): None =>
+    GtkFixedLayoutChildP.set_transform(this, transform')

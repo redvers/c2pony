@@ -1,0 +1,2 @@
+  fun get_font_options(widget': GtkWidgetI): cairofontoptions =>
+    @gtk_widget_get_font_options(widget'.getptr())

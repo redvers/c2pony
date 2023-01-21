@@ -1,0 +1,1 @@
+use @gtk_image_clear[None](image': GtkImage)

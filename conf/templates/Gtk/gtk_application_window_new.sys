@@ -1,0 +1,2 @@
+  fun new(application': GtkApplication): Pointer[GObjectP] =>
+@gtk_application_window_new(application')

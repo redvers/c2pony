@@ -1,0 +1,1 @@
+use @gtk_combo_box_get_child[Pointer[GObjectP]](combo_box': GtkComboBox)

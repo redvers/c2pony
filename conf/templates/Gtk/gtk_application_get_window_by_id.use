@@ -1,0 +1,1 @@
+use @gtk_application_get_window_by_id[Pointer[GObjectP]](application': GtkApplication, id': U32)

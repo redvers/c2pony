@@ -1,0 +1,2 @@
+  fun new(request_mode': GtkCustomRequestModeFunc, measure': GtkCustomMeasureFunc, allocate': GtkCustomAllocateFunc): GtkLayoutManager =>
+    @gtk_custom_layout_new(request_mode', measure', allocate')

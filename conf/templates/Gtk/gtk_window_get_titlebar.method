@@ -1,0 +1,2 @@
+  fun ref get_titlebar(): Pointer[GObjectP] =>
+    GtkWindowP.get_titlebar(this)

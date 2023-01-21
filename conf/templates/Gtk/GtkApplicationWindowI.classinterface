@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gtk-4"
+    
+interface GtkApplicationWindowI is GtkWindowI
+  fun ref getptr(): Pointer[GObjectP]

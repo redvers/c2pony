@@ -1,0 +1,2 @@
+  fun ref get_mode(): U32 =>
+    GtkTreeSelectionP.get_mode(this)

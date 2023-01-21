@@ -1,0 +1,2 @@
+  fun ref set_focus_visible(setting': I32): None =>
+    GtkWindowP.set_focus_visible(this, setting')

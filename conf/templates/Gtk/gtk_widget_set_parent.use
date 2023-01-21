@@ -1,0 +1,1 @@
+use @gtk_widget_set_parent[None](widget': Pointer[GObjectP], parent': Pointer[GObjectP])

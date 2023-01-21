@@ -1,0 +1,1 @@
+use @gtk_adjustment_get_value[F64](adjustment': GtkAdjustment)

@@ -1,0 +1,2 @@
+  fun get_preferred_size(cell': GtkCellRenderer, widget': GtkWidgetI, minimum_size': GtkRequisition, natural_size': GtkRequisition): None =>
+    @gtk_cell_renderer_get_preferred_size(cell', widget'.getptr(), minimum_size', natural_size')

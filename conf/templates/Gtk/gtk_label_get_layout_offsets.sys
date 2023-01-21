@@ -1,0 +1,2 @@
+  fun get_layout_offsets(self': GtkLabel, x': Pointer[I32] tag, y': Pointer[I32] tag): None =>
+    @gtk_label_get_layout_offsets(self', x', y')

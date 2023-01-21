@@ -1,0 +1,2 @@
+  fun unselect_path(icon_view': GtkIconView, path': GtkTreePath): None =>
+    @gtk_icon_view_unselect_path(icon_view', path')

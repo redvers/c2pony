@@ -1,0 +1,1 @@
+use @gtk_cell_renderer_get_aligned_area[None](cell': GtkCellRenderer, widget': Pointer[GObjectP], flags': U32, cell_area': cairorectangleint, aligned_area': cairorectangleint)

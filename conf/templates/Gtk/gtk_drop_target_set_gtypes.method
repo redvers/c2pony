@@ -1,0 +1,2 @@
+  fun ref set_gtypes(types': Pointer[U64] tag, n_types': U64): None =>
+    GtkDropTargetP.set_gtypes(this, types', n_types')

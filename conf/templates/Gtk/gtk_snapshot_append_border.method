@@ -1,0 +1,2 @@
+  fun ref append_border(outline': GskRoundedRect, border_width': Pointer[F32] tag, border_color': GdkRGBA): None =>
+    P.append_border(this, outline', border_width', border_color')

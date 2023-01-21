@@ -1,0 +1,1 @@
+use @gtk_scrolled_window_set_has_frame[None](scrolled_window': GtkScrolledWindow, has_frame': I32)

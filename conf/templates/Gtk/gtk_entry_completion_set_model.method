@@ -1,0 +1,2 @@
+  fun ref set_model(model': GtkTreeModel): None =>
+    GtkEntryCompletionP.set_model(this, model')

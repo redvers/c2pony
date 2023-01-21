@@ -1,0 +1,2 @@
+  fun ref set_cancel_label(cancel_label': String): None =>
+    GtkFileChooserNativeP.set_cancel_label(this, cancel_label')

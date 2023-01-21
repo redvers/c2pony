@@ -1,0 +1,2 @@
+  fun ref append_conic_gradient(bounds': graphenerectt, center': graphenepointt, rotation': F32, stops': GskColorStop, n_stops': U64): None =>
+    P.append_conic_gradient(this, bounds', center', rotation', stops', n_stops')

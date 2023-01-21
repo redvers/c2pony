@@ -1,0 +1,1 @@
+use @gtk_progress_bar_set_show_text[None](pbar': GtkProgressBar, show_text': I32)

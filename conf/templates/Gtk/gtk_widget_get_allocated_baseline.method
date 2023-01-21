@@ -1,0 +1,2 @@
+  fun ref get_allocated_baseline(): I32 =>
+    GtkWidgetP.get_allocated_baseline(this)

@@ -1,0 +1,1 @@
+use @gtk_widget_set_child_visible[None](widget': Pointer[GObjectP], child_visible': I32)

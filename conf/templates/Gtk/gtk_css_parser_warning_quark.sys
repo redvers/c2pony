@@ -1,0 +1,2 @@
+  fun css_parser_warning_quark(): U32 =>
+    @gtk_css_parser_warning_quark()

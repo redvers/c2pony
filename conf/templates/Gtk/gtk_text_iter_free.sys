@@ -1,0 +1,2 @@
+  fun free(iter': GtkTextIter): None =>
+    @gtk_text_iter_free(iter')

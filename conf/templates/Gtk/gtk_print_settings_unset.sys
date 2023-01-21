@@ -1,0 +1,2 @@
+  fun unset(settings': GtkPrintSettings, key': String): None =>
+    @gtk_print_settings_unset(settings', key'.cstring())

@@ -1,0 +1,2 @@
+  fun ref get_show_column_separators(): I32 =>
+    GtkColumnViewP.get_show_column_separators(this)

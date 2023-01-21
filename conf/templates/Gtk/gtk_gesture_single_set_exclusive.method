@@ -1,0 +1,2 @@
+  fun ref set_exclusive(exclusive': I32): None =>
+    GtkGestureSingleP.set_exclusive(this, exclusive')

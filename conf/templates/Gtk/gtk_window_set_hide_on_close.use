@@ -1,0 +1,1 @@
+use @gtk_window_set_hide_on_close[None](window': Pointer[GObjectP], setting': I32)

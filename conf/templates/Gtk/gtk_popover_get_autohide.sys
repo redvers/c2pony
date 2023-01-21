@@ -1,0 +1,2 @@
+  fun get_autohide(popover': GtkPopover): I32 =>
+    @gtk_popover_get_autohide(popover')

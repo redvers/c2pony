@@ -1,0 +1,2 @@
+  fun ref get_sensitive(): I32 =>
+    GtkCellRendererP.get_sensitive(this)

@@ -1,0 +1,2 @@
+  fun get_handle_menubar_accel(window': GtkWindowI): I32 =>
+    @gtk_window_get_handle_menubar_accel(window'.getptr())

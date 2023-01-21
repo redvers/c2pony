@@ -1,0 +1,2 @@
+  fun ref add_table(data': Pointer[U16] tag, max_seq_len': I32, n_seqs': I32): None =>
+    GtkIMContextSimpleP.add_table(this, data', max_seq_len', n_seqs')

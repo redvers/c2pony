@@ -1,0 +1,2 @@
+  fun ref transform_matrix(matrix': graphenematrixt): None =>
+    P.transform_matrix(this, matrix')

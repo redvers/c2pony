@@ -1,0 +1,2 @@
+  fun ref set_ellipsize(mode': U32): None =>
+    GtkLabelP.set_ellipsize(this, mode')

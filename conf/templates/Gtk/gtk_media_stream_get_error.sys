@@ -1,0 +1,2 @@
+  fun get_error(self': GtkMediaStream): GError =>
+    @gtk_media_stream_get_error(self')

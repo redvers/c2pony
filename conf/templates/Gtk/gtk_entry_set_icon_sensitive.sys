@@ -1,0 +1,2 @@
+  fun set_icon_sensitive(entry': GtkEntry, icon_pos': U32, sensitive': I32): None =>
+    @gtk_entry_set_icon_sensitive(entry', icon_pos', sensitive')

@@ -1,0 +1,1 @@
+use @gtk_notebook_get_tab_pos[U32](notebook': GtkNotebook)

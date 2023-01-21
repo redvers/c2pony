@@ -1,0 +1,2 @@
+  fun ref set_sensitive(sensitive': I32): None =>
+    GtkWidgetP.set_sensitive(this, sensitive')

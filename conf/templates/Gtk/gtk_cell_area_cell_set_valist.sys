@@ -1,0 +1,2 @@
+  fun cell_set_valist(area': GtkCellArea, renderer': GtkCellRenderer, first_property_name': String, var_args': valisttag): None =>
+    @gtk_cell_area_cell_set_valist(area', renderer', first_property_name'.cstring(), var_args')

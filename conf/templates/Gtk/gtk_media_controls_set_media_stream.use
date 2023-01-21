@@ -1,0 +1,1 @@
+use @gtk_media_controls_set_media_stream[None](controls': GtkMediaControls, stream': GtkMediaStream)

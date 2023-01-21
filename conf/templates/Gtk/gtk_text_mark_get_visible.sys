@@ -1,0 +1,2 @@
+  fun get_visible(mark': GtkTextMark): I32 =>
+    @gtk_text_mark_get_visible(mark')

@@ -1,0 +1,2 @@
+  fun get_output_bin(settings': GtkPrintSettings): String iso^ =>
+    String.from_cstring(@gtk_print_settings_get_output_bin(settings')).clone()

@@ -1,0 +1,2 @@
+  fun get_search_entry(tree_view': GtkTreeView): GtkEditable =>
+    @gtk_tree_view_get_search_entry(tree_view')

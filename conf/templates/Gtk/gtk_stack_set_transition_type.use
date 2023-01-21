@@ -1,0 +1,1 @@
+use @gtk_stack_set_transition_type[None](stack': GtkStack, transition': U32)

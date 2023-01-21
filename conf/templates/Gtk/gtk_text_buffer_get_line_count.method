@@ -1,0 +1,2 @@
+  fun ref get_line_count(): I32 =>
+    GtkTextBufferP.get_line_count(this)

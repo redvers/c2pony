@@ -1,0 +1,1 @@
+use @gtk_list_box_unselect_all[None](box': GtkListBox)

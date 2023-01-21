@@ -1,0 +1,2 @@
+  fun ref set_side(side': U32): None =>
+    GtkWindowControlsP.set_side(this, side')

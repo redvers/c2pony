@@ -1,0 +1,2 @@
+  fun reset(controller': GtkEventController): None =>
+    @gtk_event_controller_reset(controller')

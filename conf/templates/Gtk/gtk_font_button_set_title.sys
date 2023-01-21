@@ -1,0 +1,2 @@
+  fun set_title(font_button': GtkFontButton, title': String): None =>
+    @gtk_font_button_set_title(font_button', title'.cstring())

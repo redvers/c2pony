@@ -1,0 +1,2 @@
+  fun get_parent(self': GtkTreeListRow): GtkTreeListRow =>
+    @gtk_tree_list_row_get_parent(self')

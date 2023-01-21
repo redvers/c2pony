@@ -1,0 +1,2 @@
+  fun get_justification(text_view': GtkTextView): U32 =>
+    @gtk_text_view_get_justification(text_view')

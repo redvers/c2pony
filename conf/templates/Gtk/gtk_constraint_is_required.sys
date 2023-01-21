@@ -1,0 +1,2 @@
+  fun is_required(constraint': GtkConstraint): I32 =>
+    @gtk_constraint_is_required(constraint')

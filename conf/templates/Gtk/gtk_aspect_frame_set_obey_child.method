@@ -1,0 +1,2 @@
+  fun ref set_obey_child(obey_child': I32): None =>
+    GtkAspectFrameP.set_obey_child(this, obey_child')

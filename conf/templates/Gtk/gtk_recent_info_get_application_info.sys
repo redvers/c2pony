@@ -1,0 +1,2 @@
+  fun get_application_info(info': GtkRecentInfo, app_name': String, app_exec': Pointer[Pointer[U8]] tag, count': Pointer[U32] tag, stamp': Pointer[GDateTime]): I32 =>
+    @gtk_recent_info_get_application_info(info', app_name'.cstring(), app_exec', count', stamp')

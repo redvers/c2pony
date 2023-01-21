@@ -1,0 +1,2 @@
+  fun set_context_id(context': GtkIMMulticontext, context_id': String): None =>
+    @gtk_im_multicontext_set_context_id(context', context_id'.cstring())

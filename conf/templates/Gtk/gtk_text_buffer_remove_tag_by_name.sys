@@ -1,0 +1,2 @@
+  fun remove_tag_by_name(buffer': GtkTextBuffer, name': String, start': GtkTextIter, end': GtkTextIter): None =>
+    @gtk_text_buffer_remove_tag_by_name(buffer', name'.cstring(), start', end')

@@ -1,0 +1,2 @@
+  fun get_title(button': GtkColorButton): String iso^ =>
+    String.from_cstring(@gtk_color_button_get_title(button')).clone()

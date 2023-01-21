@@ -1,0 +1,1 @@
+use @gtk_tree_selection_get_user_data[Pointer[None] tag](selection': GtkTreeSelection)

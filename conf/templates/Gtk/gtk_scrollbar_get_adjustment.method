@@ -1,0 +1,2 @@
+  fun ref get_adjustment(): GtkAdjustment =>
+    GtkScrollbarP.get_adjustment(this)

@@ -1,0 +1,2 @@
+  fun unrealize(widget': GtkWidgetI): None =>
+    @gtk_widget_unrealize(widget'.getptr())

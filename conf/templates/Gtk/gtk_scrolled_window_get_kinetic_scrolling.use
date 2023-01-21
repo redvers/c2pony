@@ -1,0 +1,1 @@
+use @gtk_scrolled_window_get_kinetic_scrolling[I32](scrolled_window': GtkScrolledWindow)

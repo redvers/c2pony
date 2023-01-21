@@ -1,0 +1,2 @@
+  fun set_selected(self': GtkSingleSelection, position': U32): None =>
+    @gtk_single_selection_set_selected(self', position')

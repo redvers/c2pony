@@ -1,0 +1,2 @@
+  fun get_pango_context(widget': GtkWidgetI): PangoContext =>
+    @gtk_widget_get_pango_context(widget'.getptr())

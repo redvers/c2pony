@@ -1,0 +1,2 @@
+  fun ref set_strength(strength': U32): None =>
+    GtkConstraintGuideP.set_strength(this, strength')

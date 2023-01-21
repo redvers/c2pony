@@ -1,0 +1,2 @@
+  fun ref get_use_underline(): I32 =>
+    GtkStackPageP.get_use_underline(this)

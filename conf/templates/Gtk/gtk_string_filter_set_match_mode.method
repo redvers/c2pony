@@ -1,0 +1,2 @@
+  fun ref set_match_mode(mode': U32): None =>
+    GtkStringFilterP.set_match_mode(this, mode')

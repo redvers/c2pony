@@ -1,0 +1,2 @@
+  fun ref add_child(child': GtkWidgetI, id': String): I32 =>
+    GtkPopoverMenuP.add_child(this, child', id')

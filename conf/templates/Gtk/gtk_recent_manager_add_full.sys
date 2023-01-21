@@ -1,0 +1,2 @@
+  fun add_full(manager': GtkRecentManager, uri': String, recent_data': GtkRecentData): I32 =>
+    @gtk_recent_manager_add_full(manager', uri'.cstring(), recent_data')

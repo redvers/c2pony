@@ -1,0 +1,2 @@
+  fun ref get_column_spacing(): U32 =>
+    GtkFlowBoxP.get_column_spacing(this)

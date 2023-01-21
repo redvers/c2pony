@@ -1,0 +1,2 @@
+  fun ref pack_start(cell': GtkCellRenderer, expand': I32): None =>
+    GtkTreeViewColumnP.pack_start(this, cell', expand')

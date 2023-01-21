@@ -1,0 +1,2 @@
+  fun ref foreach(func': GtkPrintSettingsFunc, user_data': Pointer[None] tag): None =>
+    GtkPrintSettingsP.foreach(this, func', user_data')

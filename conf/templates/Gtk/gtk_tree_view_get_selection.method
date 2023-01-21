@@ -1,0 +1,2 @@
+  fun ref get_selection(): GtkTreeSelection =>
+    GtkTreeViewP.get_selection(this)

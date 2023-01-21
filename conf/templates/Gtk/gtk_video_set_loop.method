@@ -1,0 +1,2 @@
+  fun ref set_loop(loop': I32): None =>
+    GtkVideoP.set_loop(this, loop')

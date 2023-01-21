@@ -1,0 +1,1 @@
+use @gtk_tree_view_map_expanded_rows[None](tree_view': GtkTreeView, func': GtkTreeViewMappingFunc, data': Pointer[None] tag)

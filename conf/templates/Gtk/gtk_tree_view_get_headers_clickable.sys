@@ -1,0 +1,2 @@
+  fun get_headers_clickable(tree_view': GtkTreeView): I32 =>
+    @gtk_tree_view_get_headers_clickable(tree_view')

@@ -1,0 +1,2 @@
+  fun expose_object(builder': GtkBuilder, name': String, object': GObjectI): None =>
+    @gtk_builder_expose_object(builder', name'.cstring(), object'.getptr())

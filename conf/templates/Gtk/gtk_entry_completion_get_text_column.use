@@ -1,0 +1,1 @@
+use @gtk_entry_completion_get_text_column[I32](completion': GtkEntryCompletion)

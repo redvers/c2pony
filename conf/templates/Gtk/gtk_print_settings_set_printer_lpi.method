@@ -1,0 +1,2 @@
+  fun ref set_printer_lpi(lpi': F64): None =>
+    GtkPrintSettingsP.set_printer_lpi(this, lpi')

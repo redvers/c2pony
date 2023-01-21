@@ -1,0 +1,2 @@
+  fun get_menubar(application': GtkApplication): GMenuModel =>
+    @gtk_application_get_menubar(application')

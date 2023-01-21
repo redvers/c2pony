@@ -1,0 +1,2 @@
+  fun evaluate(watch': GtkExpressionWatch, value': GValue): I32 =>
+    @gtk_expression_watch_evaluate(watch', value')

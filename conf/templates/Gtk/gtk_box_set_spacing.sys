@@ -1,0 +1,2 @@
+  fun set_spacing(box': GtkBox, spacing': I32): None =>
+    @gtk_box_set_spacing(box', spacing')

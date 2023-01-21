@@ -1,0 +1,1 @@
+use @gtk_text_view_add_child_at_anchor[None](text_view': GtkTextView, child': Pointer[GObjectP], anchor': GtkTextChildAnchor)

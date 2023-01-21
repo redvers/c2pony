@@ -1,0 +1,2 @@
+  fun ref reset(): None =>
+    GtkIMContextP.reset(this)

@@ -1,0 +1,2 @@
+  fun ref get_attributes(): PangoAttrList =>
+    GtkLabelP.get_attributes(this)

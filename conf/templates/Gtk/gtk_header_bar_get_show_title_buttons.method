@@ -1,0 +1,2 @@
+  fun ref get_show_title_buttons(): I32 =>
+    GtkHeaderBarP.get_show_title_buttons(this)

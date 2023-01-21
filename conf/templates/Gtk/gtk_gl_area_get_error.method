@@ -1,0 +1,2 @@
+  fun ref get_error(): GError =>
+    GtkGLAreaP.get_error(this)

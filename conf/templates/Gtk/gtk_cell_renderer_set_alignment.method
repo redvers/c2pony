@@ -1,0 +1,2 @@
+  fun ref set_alignment(xalign': F32, yalign': F32): None =>
+    GtkCellRendererP.set_alignment(this, xalign', yalign')

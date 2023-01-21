@@ -1,0 +1,2 @@
+  fun start_editing(cell': GtkCellRenderer, event': GdkEvent, widget': GtkWidgetI, path': String, background_area': cairorectangleint, cell_area': cairorectangleint, flags': U32): GtkCellEditable =>
+    @gtk_cell_renderer_start_editing(cell', event', widget'.getptr(), path'.cstring(), background_area', cell_area', flags')

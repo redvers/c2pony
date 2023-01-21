@@ -1,0 +1,2 @@
+  fun ref get_disabled_text(): String iso^ =>
+    GtkShortcutLabelP.get_disabled_text(this)

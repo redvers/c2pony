@@ -1,0 +1,2 @@
+  fun ref get_step_increment(): F64 =>
+    GtkAdjustmentP.get_step_increment(this)

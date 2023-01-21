@@ -1,0 +1,2 @@
+  fun unref(info': GtkRecentInfo): None =>
+    @gtk_recent_info_unref(info')

@@ -1,0 +1,2 @@
+  fun set_adjustment(range': GtkRange, adjustment': GtkAdjustment): None =>
+    @gtk_range_set_adjustment(range', adjustment')

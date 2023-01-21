@@ -1,0 +1,2 @@
+  fun ref get_menu_by_id(id': String): GMenu =>
+    GtkApplicationP.get_menu_by_id(this, id')

@@ -1,0 +1,2 @@
+  fun ref set_activate_on_single_click(single': I32): None =>
+    GtkListBoxP.set_activate_on_single_click(this, single')

@@ -1,0 +1,2 @@
+  fun new(): Pointer[GObjectP] =>
+@gtk_cell_view_new()

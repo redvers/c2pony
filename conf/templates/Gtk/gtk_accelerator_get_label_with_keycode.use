@@ -1,0 +1,1 @@
+use @gtk_accelerator_get_label_with_keycode[Pointer[U8]](display': GdkDisplay, accelerator_key': U32, keycode': U32, accelerator_mods': U32)

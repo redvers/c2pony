@@ -1,0 +1,2 @@
+  fun set_translator_credits(about': GtkAboutDialog, translator_credits': String): None =>
+    @gtk_about_dialog_set_translator_credits(about', translator_credits'.cstring())

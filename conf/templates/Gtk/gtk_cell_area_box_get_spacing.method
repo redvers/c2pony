@@ -1,0 +1,2 @@
+  fun ref get_spacing(): I32 =>
+    GtkCellAreaBoxP.get_spacing(this)

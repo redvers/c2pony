@@ -1,0 +1,1 @@
+use @gtk_cell_renderer_set_visible[None](cell': GtkCellRenderer, visible': I32)

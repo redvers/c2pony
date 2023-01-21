@@ -1,0 +1,1 @@
+use @gtk_dialog_add_buttons[None](dialog': GtkDialog, first_button_text': Pointer[U8] tag, ...)

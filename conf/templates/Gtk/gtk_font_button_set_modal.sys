@@ -1,0 +1,2 @@
+  fun set_modal(font_button': GtkFontButton, modal': I32): None =>
+    @gtk_font_button_set_modal(font_button', modal')

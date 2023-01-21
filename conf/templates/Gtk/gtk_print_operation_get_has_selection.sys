@@ -1,0 +1,2 @@
+  fun get_has_selection(op': GtkPrintOperation): I32 =>
+    @gtk_print_operation_get_has_selection(op')

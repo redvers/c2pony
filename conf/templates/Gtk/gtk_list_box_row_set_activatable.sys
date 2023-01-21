@@ -1,0 +1,2 @@
+  fun set_activatable(row': GtkListBoxRow, activatable': I32): None =>
+    @gtk_list_box_row_set_activatable(row', activatable')

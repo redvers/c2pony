@@ -1,0 +1,2 @@
+  fun forward_char(iter': GtkTextIter): I32 =>
+    @gtk_text_iter_forward_char(iter')

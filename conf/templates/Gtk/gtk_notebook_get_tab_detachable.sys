@@ -1,0 +1,2 @@
+  fun get_tab_detachable(notebook': GtkNotebook, child': GtkWidgetI): I32 =>
+    @gtk_notebook_get_tab_detachable(notebook', child'.getptr())

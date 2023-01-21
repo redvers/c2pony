@@ -1,0 +1,1 @@
+use @gtk_text_view_new[Pointer[GObjectP]]()

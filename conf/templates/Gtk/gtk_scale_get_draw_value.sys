@@ -1,0 +1,2 @@
+  fun get_draw_value(scale': GtkScale): I32 =>
+    @gtk_scale_get_draw_value(scale')

@@ -1,0 +1,2 @@
+  fun ref set_show_fallback(setting': I32): None =>
+    GtkAppChooserWidgetP.set_show_fallback(this, setting')

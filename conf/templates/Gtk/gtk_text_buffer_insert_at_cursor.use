@@ -1,0 +1,1 @@
+use @gtk_text_buffer_insert_at_cursor[None](buffer': GtkTextBuffer, text': Pointer[U8] tag, len': I32)

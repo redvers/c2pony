@@ -1,0 +1,2 @@
+  fun get_center_widget(self': GtkCenterLayout): Pointer[GObjectP] =>
+@gtk_center_layout_get_center_widget(self')

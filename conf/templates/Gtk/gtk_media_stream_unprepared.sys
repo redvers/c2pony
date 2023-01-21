@@ -1,0 +1,2 @@
+  fun unprepared(self': GtkMediaStream): None =>
+    @gtk_media_stream_unprepared(self')

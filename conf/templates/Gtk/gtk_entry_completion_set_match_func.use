@@ -1,0 +1,1 @@
+use @gtk_entry_completion_set_match_func[None](completion': GtkEntryCompletion, func': GtkEntryCompletionMatchFunc, func_data': Pointer[None] tag, func_notify': GDestroyNotify)

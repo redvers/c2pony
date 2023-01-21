@@ -1,0 +1,2 @@
+  fun set_inline_selection(completion': GtkEntryCompletion, inline_selection': I32): None =>
+    @gtk_entry_completion_set_inline_selection(completion', inline_selection')

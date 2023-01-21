@@ -1,0 +1,1 @@
+use @gtk_cell_area_attribute_connect[None](area': GtkCellArea, renderer': GtkCellRenderer, attribute': Pointer[U8] tag, column': I32)

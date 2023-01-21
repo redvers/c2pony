@@ -1,0 +1,2 @@
+  fun ref get_invert(): I32 =>
+    GtkBoolFilterP.get_invert(this)

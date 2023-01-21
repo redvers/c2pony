@@ -1,0 +1,2 @@
+  fun get_page(assistant': GtkAssistant, child': GtkWidgetI): GtkAssistantPage =>
+    @gtk_assistant_get_page(assistant', child'.getptr())

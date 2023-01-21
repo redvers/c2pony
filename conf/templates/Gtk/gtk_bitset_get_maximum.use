@@ -1,0 +1,1 @@
+use @gtk_bitset_get_maximum[U32](self': GtkBitset)

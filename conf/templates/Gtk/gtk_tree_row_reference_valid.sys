@@ -1,0 +1,2 @@
+  fun valid(reference': GtkTreeRowReference): I32 =>
+    @gtk_tree_row_reference_valid(reference')

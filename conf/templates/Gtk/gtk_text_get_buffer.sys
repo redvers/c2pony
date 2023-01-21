@@ -1,0 +1,2 @@
+  fun get_buffer(self': GtkText): GtkEntryBuffer =>
+    @gtk_text_get_buffer(self')

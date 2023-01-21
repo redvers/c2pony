@@ -1,0 +1,2 @@
+  fun run(op': GtkPrintOperation, action': U32, parent': GtkWindowI, error': Pointer[GError]): U32 =>
+    @gtk_print_operation_run(op', action', parent'.getptr(), error')

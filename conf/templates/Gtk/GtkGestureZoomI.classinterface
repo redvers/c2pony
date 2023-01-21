@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gtk-4"
+    
+interface GtkGestureZoomI is GtkGestureI
+  fun ref getptr(): Pointer[GObjectP]

@@ -1,0 +1,2 @@
+  fun get_progress_fraction(entry': GtkEntry): F64 =>
+    @gtk_entry_get_progress_fraction(entry')

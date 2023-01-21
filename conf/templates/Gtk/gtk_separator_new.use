@@ -1,0 +1,1 @@
+use @gtk_separator_new[Pointer[GObjectP]](orientation': U32)

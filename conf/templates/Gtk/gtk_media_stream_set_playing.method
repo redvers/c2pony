@@ -1,0 +1,2 @@
+  fun ref set_playing(playing': I32): None =>
+    GtkMediaStreamP.set_playing(this, playing')

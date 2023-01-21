@@ -1,0 +1,2 @@
+  fun get_max_undo_levels(buffer': GtkTextBuffer): U32 =>
+    @gtk_text_buffer_get_max_undo_levels(buffer')

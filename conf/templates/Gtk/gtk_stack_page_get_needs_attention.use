@@ -1,0 +1,1 @@
+use @gtk_stack_page_get_needs_attention[I32](self': GtkStackPage)

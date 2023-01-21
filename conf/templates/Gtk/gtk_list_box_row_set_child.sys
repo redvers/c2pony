@@ -1,0 +1,2 @@
+  fun set_child(row': GtkListBoxRow, child': GtkWidgetI): None =>
+    @gtk_list_box_row_set_child(row', child'.getptr())

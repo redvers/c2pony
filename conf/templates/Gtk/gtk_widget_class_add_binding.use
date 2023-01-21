@@ -1,0 +1,1 @@
+use @gtk_widget_class_add_binding[None](widget_class': GtkWidgetClass, keyval': U32, mods': U32, callback': GtkShortcutFunc, format_string': Pointer[U8] tag, ...)

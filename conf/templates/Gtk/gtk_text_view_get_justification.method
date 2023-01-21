@@ -1,0 +1,2 @@
+  fun ref get_justification(): U32 =>
+    GtkTextViewP.get_justification(this)

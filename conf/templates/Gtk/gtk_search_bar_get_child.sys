@@ -1,0 +1,2 @@
+  fun get_child(bar': GtkSearchBar): Pointer[GObjectP] =>
+@gtk_search_bar_get_child(bar')

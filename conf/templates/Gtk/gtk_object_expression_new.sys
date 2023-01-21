@@ -1,0 +1,2 @@
+  fun new(object': GObjectI): GtkExpression =>
+    @gtk_object_expression_new(object'.getptr())

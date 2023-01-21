@@ -1,0 +1,2 @@
+  fun get_step_increment(adjustment': GtkAdjustment): F64 =>
+    @gtk_adjustment_get_step_increment(adjustment')

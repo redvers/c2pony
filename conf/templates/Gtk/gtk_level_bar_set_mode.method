@@ -1,0 +1,2 @@
+  fun ref set_mode(mode': U32): None =>
+    GtkLevelBarP.set_mode(this, mode')

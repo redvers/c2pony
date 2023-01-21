@@ -1,0 +1,1 @@
+use @gtk_text_tag_table_lookup[GtkTextTag](table': GtkTextTagTable, name': Pointer[U8] tag)

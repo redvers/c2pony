@@ -1,0 +1,2 @@
+  fun convert_child_iter_to_iter(tree_model_sort': GtkTreeModelSort, sort_iter': GtkTreeIter, child_iter': GtkTreeIter): I32 =>
+    @gtk_tree_model_sort_convert_child_iter_to_iter(tree_model_sort', sort_iter', child_iter')

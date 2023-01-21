@@ -1,0 +1,2 @@
+  fun commit(assistant': GtkAssistant): None =>
+    @gtk_assistant_commit(assistant')

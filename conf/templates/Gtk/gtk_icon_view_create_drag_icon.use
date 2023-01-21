@@ -1,0 +1,1 @@
+use @gtk_icon_view_create_drag_icon[GdkPaintable](icon_view': GtkIconView, path': GtkTreePath)

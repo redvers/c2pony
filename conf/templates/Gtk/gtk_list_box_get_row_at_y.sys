@@ -1,0 +1,2 @@
+  fun get_row_at_y(box': GtkListBox, y': I32): GtkListBoxRow =>
+    @gtk_list_box_get_row_at_y(box', y')

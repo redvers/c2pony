@@ -1,0 +1,1 @@
+use @gtk_gesture_get_bounding_box[I32](gesture': GtkGesture, rect': cairorectangleint)

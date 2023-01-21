@@ -1,0 +1,2 @@
+  fun is_activatable(cell': GtkCellRenderer): I32 =>
+    @gtk_cell_renderer_is_activatable(cell')

@@ -1,0 +1,2 @@
+  fun ref set_overflow(overflow': U32): None =>
+    GtkWidgetP.set_overflow(this, overflow')

@@ -1,0 +1,2 @@
+  fun ref set_homogeneous(homogeneous': I32): None =>
+    GtkFlowBoxP.set_homogeneous(this, homogeneous')

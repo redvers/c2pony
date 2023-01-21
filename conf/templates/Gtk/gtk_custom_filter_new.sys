@@ -1,0 +1,2 @@
+  fun new(match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): GtkCustomFilter =>
+    @gtk_custom_filter_new(match_func', user_data', user_destroy')

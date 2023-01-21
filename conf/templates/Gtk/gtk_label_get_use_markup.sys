@@ -1,0 +1,2 @@
+  fun get_use_markup(self': GtkLabel): I32 =>
+    @gtk_label_get_use_markup(self')

@@ -1,0 +1,1 @@
+use @gtk_application_window_set_show_menubar[None](window': GtkApplicationWindow, show_menubar': I32)

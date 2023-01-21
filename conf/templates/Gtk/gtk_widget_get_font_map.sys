@@ -1,0 +1,2 @@
+  fun get_font_map(widget': GtkWidgetI): PangoFontMap =>
+    @gtk_widget_get_font_map(widget'.getptr())

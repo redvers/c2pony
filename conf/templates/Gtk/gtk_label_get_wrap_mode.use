@@ -1,0 +1,1 @@
+use @gtk_label_get_wrap_mode[U32](self': GtkLabel)

@@ -1,0 +1,1 @@
+use @gtk_size_group_set_mode[None](size_group': GtkSizeGroup, mode': U32)

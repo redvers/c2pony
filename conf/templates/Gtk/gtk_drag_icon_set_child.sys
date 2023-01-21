@@ -1,0 +1,2 @@
+  fun set_child(self': GtkDragIcon, child': GtkWidgetI): None =>
+    @gtk_drag_icon_set_child(self', child'.getptr())

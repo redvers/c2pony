@@ -1,0 +1,2 @@
+  fun ref get_wrap(): I32 =>
+    GtkLabelP.get_wrap(this)

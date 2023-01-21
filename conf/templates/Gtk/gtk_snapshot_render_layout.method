@@ -1,0 +1,2 @@
+  fun ref render_layout(context': GtkStyleContext, x': F64, y': F64, layout': PangoLayout): None =>
+    P.render_layout(this, context', x', y', layout')

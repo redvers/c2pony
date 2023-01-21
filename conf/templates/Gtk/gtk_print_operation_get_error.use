@@ -1,0 +1,1 @@
+use @gtk_print_operation_get_error[None](op': GtkPrintOperation, error': Pointer[GError])

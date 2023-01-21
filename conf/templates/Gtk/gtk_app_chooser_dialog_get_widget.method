@@ -1,0 +1,2 @@
+  fun ref get_widget(): Pointer[GObjectP] =>
+    GtkAppChooserDialogP.get_widget(this)

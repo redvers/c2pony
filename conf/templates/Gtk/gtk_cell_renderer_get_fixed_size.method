@@ -1,0 +1,2 @@
+  fun ref get_fixed_size(width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
+    GtkCellRendererP.get_fixed_size(this, width', height')

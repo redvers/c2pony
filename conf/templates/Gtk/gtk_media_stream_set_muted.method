@@ -1,0 +1,2 @@
+  fun ref set_muted(muted': I32): None =>
+    GtkMediaStreamP.set_muted(this, muted')

@@ -1,0 +1,2 @@
+  fun activate_default(widget': GtkWidgetI): None =>
+    @gtk_widget_activate_default(widget'.getptr())

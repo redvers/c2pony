@@ -1,0 +1,1 @@
+use @gtk_shortcut_label_set_accelerator[None](self': GtkShortcutLabel, accelerator': Pointer[U8] tag)

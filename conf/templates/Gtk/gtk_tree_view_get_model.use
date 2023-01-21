@@ -1,0 +1,1 @@
+use @gtk_tree_view_get_model[GtkTreeModel](tree_view': GtkTreeView)

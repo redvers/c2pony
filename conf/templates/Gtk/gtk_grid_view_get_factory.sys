@@ -1,0 +1,2 @@
+  fun get_factory(self': GtkGridView): GtkListItemFactory =>
+    @gtk_grid_view_get_factory(self')

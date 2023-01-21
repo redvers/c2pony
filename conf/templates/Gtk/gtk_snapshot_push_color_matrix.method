@@ -1,0 +1,2 @@
+  fun ref push_color_matrix(color_matrix': graphenematrixt, color_offset': graphenevec4t): None =>
+    P.push_color_matrix(this, color_matrix', color_offset')

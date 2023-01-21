@@ -1,0 +1,2 @@
+  fun get_side(self': GtkWindowControls): U32 =>
+    @gtk_window_controls_get_side(self')

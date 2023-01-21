@@ -1,0 +1,2 @@
+  fun ref get_border(border': GtkBorder): None =>
+    GtkStyleContextP.get_border(this, border')

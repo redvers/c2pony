@@ -1,0 +1,2 @@
+  fun to_string(self': GtkShortcutAction): String iso^ =>
+    String.from_cstring(@gtk_shortcut_action_to_string(self')).clone()

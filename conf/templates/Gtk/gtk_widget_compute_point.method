@@ -1,0 +1,2 @@
+  fun ref compute_point(target': GtkWidgetI, point': graphenepointt, out_point': graphenepointt): I32 =>
+    GtkWidgetP.compute_point(this, target', point', out_point')

@@ -1,0 +1,1 @@
+use @gtk_menu_button_set_has_frame[None](menu_button': GtkMenuButton, has_frame': I32)

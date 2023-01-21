@@ -1,0 +1,2 @@
+  fun ref get_resource(): String iso^ =>
+    GtkBuilderListItemFactoryP.get_resource(this)

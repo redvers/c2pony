@@ -1,0 +1,2 @@
+  fun changed(child': GtkFlowBoxChild): None =>
+    @gtk_flow_box_child_changed(child')

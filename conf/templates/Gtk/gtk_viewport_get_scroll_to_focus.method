@@ -1,0 +1,2 @@
+  fun ref get_scroll_to_focus(): I32 =>
+    GtkViewportP.get_scroll_to_focus(this)

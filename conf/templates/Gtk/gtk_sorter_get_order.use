@@ -1,0 +1,1 @@
+use @gtk_sorter_get_order[U32](self': GtkSorter)

@@ -1,0 +1,2 @@
+  fun ref get_dpi_y(): F64 =>
+    GtkPrintContextP.get_dpi_y(this)

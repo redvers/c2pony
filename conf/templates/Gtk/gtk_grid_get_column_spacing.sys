@@ -1,0 +1,2 @@
+  fun get_column_spacing(grid': GtkGrid): U32 =>
+    @gtk_grid_get_column_spacing(grid')

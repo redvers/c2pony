@@ -1,0 +1,2 @@
+  fun ref get_group(): GtkWindowGroup =>
+    GtkWindowP.get_group(this)

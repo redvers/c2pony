@@ -1,0 +1,2 @@
+  fun new_from_file(file_name': String, error': Pointer[GError]): GtkPageSetup =>
+    @gtk_page_setup_new_from_file(file_name'.cstring(), error')

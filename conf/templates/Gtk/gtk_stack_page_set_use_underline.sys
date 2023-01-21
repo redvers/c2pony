@@ -1,0 +1,2 @@
+  fun set_use_underline(self': GtkStackPage, setting': I32): None =>
+    @gtk_stack_page_set_use_underline(self', setting')

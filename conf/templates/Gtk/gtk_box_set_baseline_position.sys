@@ -1,0 +1,2 @@
+  fun set_baseline_position(box': GtkBox, position': U32): None =>
+    @gtk_box_set_baseline_position(box', position')

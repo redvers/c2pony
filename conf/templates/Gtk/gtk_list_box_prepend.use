@@ -1,0 +1,1 @@
+use @gtk_list_box_prepend[None](box': GtkListBox, child': Pointer[GObjectP])

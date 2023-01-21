@@ -1,0 +1,1 @@
+use @gtk_about_dialog_set_version[None](about': GtkAboutDialog, version': Pointer[U8] tag)

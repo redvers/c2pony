@@ -1,0 +1,2 @@
+  fun set_wrap_mode(text_view': GtkTextView, wrap_mode': U32): None =>
+    @gtk_text_view_set_wrap_mode(text_view', wrap_mode')

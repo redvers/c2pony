@@ -1,0 +1,2 @@
+  fun ref set_show_default_item(setting': I32): None =>
+    GtkAppChooserButtonP.set_show_default_item(this, setting')

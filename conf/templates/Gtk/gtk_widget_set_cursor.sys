@@ -1,0 +1,2 @@
+  fun set_cursor(widget': GtkWidgetI, cursor': GdkCursor): None =>
+    @gtk_widget_set_cursor(widget'.getptr(), cursor')

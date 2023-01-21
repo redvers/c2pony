@@ -1,0 +1,1 @@
+use @gtk_widget_get_pango_context[PangoContext](widget': Pointer[GObjectP])

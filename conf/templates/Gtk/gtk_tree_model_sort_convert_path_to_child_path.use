@@ -1,0 +1,1 @@
+use @gtk_tree_model_sort_convert_path_to_child_path[GtkTreePath](tree_model_sort': GtkTreeModelSort, sorted_path': GtkTreePath)

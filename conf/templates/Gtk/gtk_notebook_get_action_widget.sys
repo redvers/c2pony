@@ -1,0 +1,2 @@
+  fun get_action_widget(notebook': GtkNotebook, pack_type': U32): Pointer[GObjectP] =>
+@gtk_notebook_get_action_widget(notebook', pack_type')

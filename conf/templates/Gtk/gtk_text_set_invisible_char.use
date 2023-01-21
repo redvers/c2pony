@@ -1,0 +1,1 @@
+use @gtk_text_set_invisible_char[None](self': GtkText, ch': U32)

@@ -1,0 +1,1 @@
+use @gtk_snapshot_push_shadow[None](snapshot': GdkSnapshot, shadow': GskShadow, n_shadows': U64)

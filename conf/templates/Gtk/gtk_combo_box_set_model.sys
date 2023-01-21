@@ -1,0 +1,2 @@
+  fun set_model(combo_box': GtkComboBox, model': GtkTreeModel): None =>
+    @gtk_combo_box_set_model(combo_box', model')

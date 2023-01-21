@@ -1,0 +1,2 @@
+  fun get_child(self': GtkTreeExpander): Pointer[GObjectP] =>
+@gtk_tree_expander_get_child(self')

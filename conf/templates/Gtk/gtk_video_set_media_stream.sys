@@ -1,0 +1,2 @@
+  fun set_media_stream(self': GtkVideo, stream': GtkMediaStream): None =>
+    @gtk_video_set_media_stream(self', stream')

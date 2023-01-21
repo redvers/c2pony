@@ -1,0 +1,2 @@
+  fun add_suffix(filter': GtkFileFilter, suffix': String): None =>
+    @gtk_file_filter_add_suffix(filter', suffix'.cstring())

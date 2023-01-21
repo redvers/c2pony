@@ -1,0 +1,2 @@
+  fun get_model(self': GtkTreeListModel): GListModel =>
+    @gtk_tree_list_model_get_model(self')

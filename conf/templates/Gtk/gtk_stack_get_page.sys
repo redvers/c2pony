@@ -1,0 +1,2 @@
+  fun get_page(stack': GtkStack, child': GtkWidgetI): GtkStackPage =>
+    @gtk_stack_get_page(stack', child'.getptr())

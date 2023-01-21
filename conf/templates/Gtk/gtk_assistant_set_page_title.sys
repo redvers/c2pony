@@ -1,0 +1,2 @@
+  fun set_page_title(assistant': GtkAssistant, page': GtkWidgetI, title': String): None =>
+    @gtk_assistant_set_page_title(assistant', page'.getptr(), title'.cstring())

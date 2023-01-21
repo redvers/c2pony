@@ -1,0 +1,2 @@
+  fun match(self': GtkFilter, item': Pointer[None] tag): I32 =>
+    @gtk_filter_match(self', item')

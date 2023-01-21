@@ -1,0 +1,2 @@
+  fun ref get_n_pages_to_print(): I32 =>
+    GtkPrintOperationP.get_n_pages_to_print(this)

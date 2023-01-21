@@ -1,0 +1,2 @@
+  fun ref add_constraints_from_description(lines': Pointer[Pointer[U8]] tag, n_lines': U64, hspacing': I32, vspacing': I32, error': Pointer[GError], first_view': String, ...): GList =>
+    GtkConstraintLayoutP.add_constraints_from_description(this, lines', n_lines', hspacing', vspacing', error', first_view', ...)

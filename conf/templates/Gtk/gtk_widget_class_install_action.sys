@@ -1,0 +1,2 @@
+  fun install_action(widget_class': GtkWidgetClass, action_name': String, parameter_type': String, activate': GtkWidgetActionActivateFunc): None =>
+    @gtk_widget_class_install_action(widget_class', action_name'.cstring(), parameter_type'.cstring(), activate')

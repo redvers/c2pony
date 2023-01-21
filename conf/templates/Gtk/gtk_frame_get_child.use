@@ -1,0 +1,1 @@
+use @gtk_frame_get_child[Pointer[GObjectP]](frame': GtkFrame)

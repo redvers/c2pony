@@ -1,0 +1,2 @@
+  fun new_for_value(value': GValue): GtkExpression =>
+    @gtk_constant_expression_new_for_value(value')

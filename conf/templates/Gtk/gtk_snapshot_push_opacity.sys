@@ -1,0 +1,2 @@
+  fun push_opacity(snapshot': GdkSnapshot, opacity': F64): None =>
+    @gtk_snapshot_push_opacity(snapshot', opacity')

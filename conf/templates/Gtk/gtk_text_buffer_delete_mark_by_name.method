@@ -1,0 +1,2 @@
+  fun ref delete_mark_by_name(name': String): None =>
+    GtkTextBufferP.delete_mark_by_name(this, name')

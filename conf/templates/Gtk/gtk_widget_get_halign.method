@@ -1,0 +1,2 @@
+  fun ref get_halign(): U32 =>
+    GtkWidgetP.get_halign(this)

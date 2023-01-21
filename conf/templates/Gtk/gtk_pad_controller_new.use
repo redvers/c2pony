@@ -1,0 +1,1 @@
+use @gtk_pad_controller_new[GtkPadController](group': GActionGroup, pad': GdkDevice)

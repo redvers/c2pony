@@ -1,0 +1,2 @@
+  fun ref remove_window(window': GtkWindowI): None =>
+    GtkWindowGroupP.remove_window(this, window')

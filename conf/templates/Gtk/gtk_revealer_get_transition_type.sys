@@ -1,0 +1,2 @@
+  fun get_transition_type(revealer': GtkRevealer): U32 =>
+    @gtk_revealer_get_transition_type(revealer')

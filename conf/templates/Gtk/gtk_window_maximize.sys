@@ -1,0 +1,2 @@
+  fun maximize(window': GtkWindowI): None =>
+    @gtk_window_maximize(window'.getptr())

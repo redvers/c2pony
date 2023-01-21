@@ -1,0 +1,1 @@
+use @gtk_application_window_new[Pointer[GObjectP]](application': GtkApplication)

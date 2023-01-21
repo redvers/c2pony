@@ -1,0 +1,2 @@
+  fun set_has_selection(op': GtkPrintOperation, has_selection': I32): None =>
+    @gtk_print_operation_set_has_selection(op', has_selection')

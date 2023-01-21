@@ -1,0 +1,2 @@
+  fun ref get_child_at(column': I32, row': I32): Pointer[GObjectP] =>
+    GtkGridP.get_child_at(this, column', row')

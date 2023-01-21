@@ -1,0 +1,2 @@
+  fun add_button(dialog': GtkDialog, button_text': String, response_id': I32): Pointer[GObjectP] =>
+@gtk_dialog_add_button(dialog', button_text'.cstring(), response_id')

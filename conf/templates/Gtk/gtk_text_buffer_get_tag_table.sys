@@ -1,0 +1,2 @@
+  fun get_tag_table(buffer': GtkTextBuffer): GtkTextTagTable =>
+    @gtk_text_buffer_get_tag_table(buffer')

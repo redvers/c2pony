@@ -1,0 +1,1 @@
+use @gtk_calendar_select_day[None](self': GtkCalendar, date': GDateTime)

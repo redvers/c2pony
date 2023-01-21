@@ -1,0 +1,2 @@
+  fun ref get_object(): Pointer[GObjectP] =>
+    GtkObjectExpressionP.get_object(this)

@@ -1,0 +1,2 @@
+  fun ref equal(trigger2': Pointer[None] tag): I32 =>
+    GtkShortcutTriggerP.equal(this, trigger2')

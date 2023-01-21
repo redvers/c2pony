@@ -1,0 +1,1 @@
+use @gtk_list_view_set_single_click_activate[None](self': GtkListView, single_click_activate': I32)

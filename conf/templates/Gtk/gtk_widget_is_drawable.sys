@@ -1,0 +1,2 @@
+  fun is_drawable(widget': GtkWidgetI): I32 =>
+    @gtk_widget_is_drawable(widget'.getptr())

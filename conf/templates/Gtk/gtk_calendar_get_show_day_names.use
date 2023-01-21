@@ -1,0 +1,1 @@
+use @gtk_calendar_get_show_day_names[I32](self': GtkCalendar)

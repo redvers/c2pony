@@ -1,0 +1,2 @@
+  fun ref end_user_action(): None =>
+    GtkTextBufferP.end_user_action(this)

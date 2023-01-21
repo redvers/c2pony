@@ -1,0 +1,2 @@
+  fun get_draw_sensitive(cell_view': GtkCellView): I32 =>
+    @gtk_cell_view_get_draw_sensitive(cell_view')

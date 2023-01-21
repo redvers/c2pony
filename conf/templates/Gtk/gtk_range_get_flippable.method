@@ -1,0 +1,2 @@
+  fun ref get_flippable(): I32 =>
+    GtkRangeP.get_flippable(this)

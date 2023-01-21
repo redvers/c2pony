@@ -1,0 +1,2 @@
+  fun get_popup_single_match(completion': GtkEntryCompletion): I32 =>
+    @gtk_entry_completion_get_popup_single_match(completion')

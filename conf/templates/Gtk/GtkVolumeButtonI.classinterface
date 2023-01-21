@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gtk-4"
+    
+interface GtkVolumeButtonI is GtkScaleButtonI
+  fun ref getptr(): Pointer[GObjectP]

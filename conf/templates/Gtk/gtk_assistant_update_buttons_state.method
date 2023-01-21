@@ -1,0 +1,2 @@
+  fun ref update_buttons_state(): None =>
+    GtkAssistantP.update_buttons_state(this)

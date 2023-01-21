@@ -1,0 +1,2 @@
+  fun ref attach(child': GtkWidgetI, column': I32, row': I32, width': I32, height': I32): None =>
+    GtkGridP.attach(this, child', column', row', width', height')

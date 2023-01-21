@@ -1,0 +1,1 @@
+use @gtk_map_list_model_set_map_func[None](self': GtkMapListModel, map_func': GtkMapListModelMapFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify)

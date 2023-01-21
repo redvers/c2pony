@@ -1,0 +1,2 @@
+  fun get_child(popover': GtkPopover): Pointer[GObjectP] =>
+@gtk_popover_get_child(popover')

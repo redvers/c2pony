@@ -1,0 +1,1 @@
+use @gtk_range_get_value[F64](range': GtkRange)

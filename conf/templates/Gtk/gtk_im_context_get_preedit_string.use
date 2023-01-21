@@ -1,0 +1,1 @@
+use @gtk_im_context_get_preedit_string[None](context': GtkIMContext, str': Pointer[Pointer[U8]] tag, attrs': Pointer[PangoAttrList], cursor_pos': Pointer[I32] tag)

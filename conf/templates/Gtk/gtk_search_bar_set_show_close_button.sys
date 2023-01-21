@@ -1,0 +1,2 @@
+  fun set_show_close_button(bar': GtkSearchBar, visible': I32): None =>
+    @gtk_search_bar_set_show_close_button(bar', visible')

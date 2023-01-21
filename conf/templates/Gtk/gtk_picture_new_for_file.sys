@@ -1,0 +1,2 @@
+  fun new_for_file(file': GFile): Pointer[GObjectP] =>
+@gtk_picture_new_for_file(file')

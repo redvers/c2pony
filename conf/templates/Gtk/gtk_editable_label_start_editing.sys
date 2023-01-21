@@ -1,0 +1,2 @@
+  fun start_editing(self': GtkEditableLabel): None =>
+    @gtk_editable_label_start_editing(self')

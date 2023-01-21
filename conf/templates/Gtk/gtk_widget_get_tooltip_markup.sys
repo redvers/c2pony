@@ -1,0 +1,2 @@
+  fun get_tooltip_markup(widget': GtkWidgetI): String iso^ =>
+    String.from_cstring(@gtk_widget_get_tooltip_markup(widget'.getptr())).clone()

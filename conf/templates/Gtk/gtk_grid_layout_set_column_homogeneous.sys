@@ -1,0 +1,2 @@
+  fun set_column_homogeneous(grid': GtkGridLayout, homogeneous': I32): None =>
+    @gtk_grid_layout_set_column_homogeneous(grid', homogeneous')

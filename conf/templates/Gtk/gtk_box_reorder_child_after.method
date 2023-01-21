@@ -1,0 +1,2 @@
+  fun ref reorder_child_after(child': GtkWidgetI, sibling': GtkWidgetI): None =>
+    GtkBoxP.reorder_child_after(this, child', sibling')

@@ -1,0 +1,2 @@
+  fun ref get_active(): I32 =>
+    GtkCellRendererToggleP.get_active(this)

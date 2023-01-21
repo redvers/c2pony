@@ -1,0 +1,1 @@
+use @gtk_widget_realize[None](widget': Pointer[GObjectP])

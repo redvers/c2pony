@@ -1,0 +1,2 @@
+  fun push_clip(snapshot': GdkSnapshot, bounds': graphenerectt): None =>
+    @gtk_snapshot_push_clip(snapshot', bounds')

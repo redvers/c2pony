@@ -1,0 +1,2 @@
+  fun set_deletable(window': GtkWindowI, setting': I32): None =>
+    @gtk_window_set_deletable(window'.getptr(), setting')

@@ -1,0 +1,2 @@
+  fun ref forward(widget': GtkWidgetI): I32 =>
+    GtkEventControllerKeyP.forward(this, widget')

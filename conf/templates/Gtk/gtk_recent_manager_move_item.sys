@@ -1,0 +1,2 @@
+  fun move_item(manager': GtkRecentManager, uri': String, new_uri': String, error': Pointer[GError]): I32 =>
+    @gtk_recent_manager_move_item(manager', uri'.cstring(), new_uri'.cstring(), error')

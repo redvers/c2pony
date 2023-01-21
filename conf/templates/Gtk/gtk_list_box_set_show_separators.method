@@ -1,0 +1,2 @@
+  fun ref set_show_separators(show_separators': I32): None =>
+    GtkListBoxP.set_show_separators(this, show_separators')

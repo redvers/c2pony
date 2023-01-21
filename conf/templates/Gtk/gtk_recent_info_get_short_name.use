@@ -1,0 +1,1 @@
+use @gtk_recent_info_get_short_name[Pointer[U8]](info': GtkRecentInfo)

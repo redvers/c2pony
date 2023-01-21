@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gtk-4"
+    
+interface GtkListViewI is GtkListBaseI
+  fun ref getptr(): Pointer[GObjectP]

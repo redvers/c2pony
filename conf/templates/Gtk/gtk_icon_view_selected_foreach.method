@@ -1,0 +1,2 @@
+  fun ref selected_foreach(func': GtkIconViewForeachFunc, data': Pointer[None] tag): None =>
+    GtkIconViewP.selected_foreach(this, func', data')

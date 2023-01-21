@@ -1,0 +1,2 @@
+  fun push(statusbar': GtkStatusbar, context_id': U32, text': String): U32 =>
+    @gtk_statusbar_push(statusbar', context_id', text'.cstring())

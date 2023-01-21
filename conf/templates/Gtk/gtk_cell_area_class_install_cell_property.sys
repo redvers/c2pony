@@ -1,0 +1,2 @@
+  fun install_cell_property(aclass': GtkCellAreaClass, property_id': U32, pspec': GParamSpec): None =>
+    @gtk_cell_area_class_install_cell_property(aclass', property_id', pspec')

@@ -1,0 +1,1 @@
+use @gtk_text_buffer_get_iter_at_offset[None](buffer': GtkTextBuffer, iter': GtkTextIter, char_offset': I32)

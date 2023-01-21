@@ -1,0 +1,1 @@
+use @gtk_never_trigger_get[GtkShortcutTrigger]()

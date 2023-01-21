@@ -1,0 +1,1 @@
+use @gtk_media_file_new_for_input_stream[GtkMediaStream](stream': GInputStream)

@@ -1,0 +1,1 @@
+use @gtk_notebook_get_action_widget[Pointer[GObjectP]](notebook': GtkNotebook, pack_type': U32)

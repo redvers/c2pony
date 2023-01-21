@@ -1,0 +1,2 @@
+  fun new(file': GFile, start': GtkCssLocation, end': GtkCssLocation): GtkCssSection =>
+    @gtk_css_section_new(file', start', end')

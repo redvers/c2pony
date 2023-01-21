@@ -1,0 +1,2 @@
+  fun observe_controllers(widget': GtkWidgetI): GListModel =>
+    @gtk_widget_observe_controllers(widget'.getptr())

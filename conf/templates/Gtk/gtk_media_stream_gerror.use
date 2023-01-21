@@ -1,0 +1,1 @@
+use @gtk_media_stream_gerror[None](self': GtkMediaStream, error': GError)

@@ -1,0 +1,2 @@
+  fun get_use_underline(self': GtkCheckButton): I32 =>
+    @gtk_check_button_get_use_underline(self')

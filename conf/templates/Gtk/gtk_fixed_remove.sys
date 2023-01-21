@@ -1,0 +1,2 @@
+  fun remove(fixed': GtkFixed, widget': GtkWidgetI): None =>
+    @gtk_fixed_remove(fixed', widget'.getptr())

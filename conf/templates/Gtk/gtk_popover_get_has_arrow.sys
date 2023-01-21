@@ -1,0 +1,2 @@
+  fun get_has_arrow(popover': GtkPopover): I32 =>
+    @gtk_popover_get_has_arrow(popover')

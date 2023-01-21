@@ -1,0 +1,2 @@
+  fun ref pack_end(child': GtkWidgetI): None =>
+    GtkHeaderBarP.pack_end(this, child')

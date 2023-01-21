@@ -1,0 +1,2 @@
+  fun ref set_icon_name(name': String): None =>
+    GtkWindowP.set_icon_name(this, name')

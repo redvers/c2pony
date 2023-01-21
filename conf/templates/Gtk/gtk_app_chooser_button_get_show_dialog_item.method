@@ -1,0 +1,2 @@
+  fun ref get_show_dialog_item(): I32 =>
+    GtkAppChooserButtonP.get_show_dialog_item(this)

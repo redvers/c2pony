@@ -1,0 +1,1 @@
+use @gtk_widget_class_set_activate_signal[None](widget_class': GtkWidgetClass, signal_id': U32)

@@ -1,0 +1,2 @@
+  fun new(): GtkEventController =>
+    @gtk_shortcut_controller_new()

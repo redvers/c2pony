@@ -1,0 +1,2 @@
+  fun insert_with_valuesv(list_store': GtkListStore, iter': GtkTreeIter, position': I32, columns': Pointer[I32] tag, values': GValue, n_values': I32): None =>
+    @gtk_list_store_insert_with_valuesv(list_store', iter', position', columns', values', n_values')

@@ -1,0 +1,2 @@
+  fun get_child(self': GtkWindowHandle): Pointer[GObjectP] =>
+@gtk_window_handle_get_child(self')

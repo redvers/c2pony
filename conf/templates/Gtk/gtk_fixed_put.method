@@ -1,0 +1,2 @@
+  fun ref put(widget': GtkWidgetI, x': F64, y': F64): None =>
+    GtkFixedP.put(this, widget', x', y')

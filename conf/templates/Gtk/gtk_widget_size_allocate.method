@@ -1,0 +1,2 @@
+  fun ref size_allocate(allocation': cairorectangleint, baseline': I32): None =>
+    GtkWidgetP.size_allocate(this, allocation', baseline')

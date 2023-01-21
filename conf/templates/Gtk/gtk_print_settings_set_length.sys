@@ -1,0 +1,2 @@
+  fun set_length(settings': GtkPrintSettings, key': String, value': F64, unit': U32): None =>
+    @gtk_print_settings_set_length(settings', key'.cstring(), value', unit')

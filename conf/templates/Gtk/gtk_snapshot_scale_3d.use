@@ -1,0 +1,1 @@
+use @gtk_snapshot_scale_3d[None](snapshot': GdkSnapshot, factor_x': F32, factor_y': F32, factor_z': F32)

@@ -1,0 +1,2 @@
+  fun ref get_vscrollbar(): Pointer[GObjectP] =>
+    GtkScrolledWindowP.get_vscrollbar(this)

@@ -1,0 +1,2 @@
+  fun ref get_preferred_size(minimum_size': GtkRequisition, natural_size': GtkRequisition): None =>
+    GtkWidgetP.get_preferred_size(this, minimum_size', natural_size')

@@ -1,0 +1,2 @@
+  fun is_sensitive(widget': GtkWidgetI): I32 =>
+    @gtk_widget_is_sensitive(widget'.getptr())

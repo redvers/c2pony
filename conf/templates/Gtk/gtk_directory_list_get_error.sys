@@ -1,0 +1,2 @@
+  fun get_error(self': GtkDirectoryList): GError =>
+    @gtk_directory_list_get_error(self')

@@ -1,0 +1,2 @@
+  fun get_model(combo_box': GtkComboBox): GtkTreeModel =>
+    @gtk_combo_box_get_model(combo_box')

@@ -1,0 +1,2 @@
+  fun ref get_surrounding(text': Pointer[Pointer[U8]] tag, cursor_index': Pointer[I32] tag): I32 =>
+    GtkIMContextP.get_surrounding(this, text', cursor_index')

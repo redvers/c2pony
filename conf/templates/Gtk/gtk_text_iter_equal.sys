@@ -1,0 +1,2 @@
+  fun equal(lhs': GtkTextIter, rhs': GtkTextIter): I32 =>
+    @gtk_text_iter_equal(lhs', rhs')

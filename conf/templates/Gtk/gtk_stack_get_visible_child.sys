@@ -1,0 +1,2 @@
+  fun get_visible_child(stack': GtkStack): Pointer[GObjectP] =>
+@gtk_stack_get_visible_child(stack')

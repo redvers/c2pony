@@ -1,0 +1,2 @@
+  fun set_expression(self': GtkStringFilter, expression': GtkExpression): None =>
+    @gtk_string_filter_set_expression(self', expression')

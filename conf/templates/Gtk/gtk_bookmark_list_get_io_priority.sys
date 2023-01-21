@@ -1,0 +1,2 @@
+  fun get_io_priority(self': GtkBookmarkList): I32 =>
+    @gtk_bookmark_list_get_io_priority(self')

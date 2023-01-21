@@ -1,0 +1,2 @@
+  fun get_selection_bound(buffer': GtkTextBuffer): GtkTextMark =>
+    @gtk_text_buffer_get_selection_bound(buffer')

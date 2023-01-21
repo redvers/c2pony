@@ -1,0 +1,2 @@
+  fun ref get_bounds(start': GtkTextIter, end': GtkTextIter): None =>
+    GtkTextBufferP.get_bounds(this, start', end')

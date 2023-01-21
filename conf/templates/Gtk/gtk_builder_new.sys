@@ -1,0 +1,2 @@
+  fun new(): GtkBuilder =>
+    @gtk_builder_new()

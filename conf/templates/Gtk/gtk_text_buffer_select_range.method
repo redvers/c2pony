@@ -1,0 +1,2 @@
+  fun ref select_range(ins': GtkTextIter, bound': GtkTextIter): None =>
+    GtkTextBufferP.select_range(this, ins', bound')

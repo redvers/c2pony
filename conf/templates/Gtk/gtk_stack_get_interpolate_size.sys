@@ -1,0 +1,2 @@
+  fun get_interpolate_size(stack': GtkStack): I32 =>
+    @gtk_stack_get_interpolate_size(stack')

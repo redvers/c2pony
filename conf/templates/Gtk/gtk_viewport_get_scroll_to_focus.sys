@@ -1,0 +1,2 @@
+  fun get_scroll_to_focus(viewport': GtkViewport): I32 =>
+    @gtk_viewport_get_scroll_to_focus(viewport')

@@ -1,0 +1,2 @@
+  fun ref get_system_information(): String iso^ =>
+    GtkAboutDialogP.get_system_information(this)

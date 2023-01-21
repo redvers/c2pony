@@ -1,0 +1,2 @@
+  fun ref get_application(): GtkApplication =>
+    GtkWindowP.get_application(this)

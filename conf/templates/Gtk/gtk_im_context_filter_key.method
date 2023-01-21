@@ -1,0 +1,2 @@
+  fun ref filter_key(press': I32, surface': GdkSurface, device': GdkDevice, time': U32, keycode': U32, state': U32, group': I32): I32 =>
+    GtkIMContextP.filter_key(this, press', surface', device', time', keycode', state', group')

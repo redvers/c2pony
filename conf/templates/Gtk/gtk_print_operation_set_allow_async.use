@@ -1,0 +1,1 @@
+use @gtk_print_operation_set_allow_async[None](op': GtkPrintOperation, allow_async': I32)

@@ -1,0 +1,2 @@
+  fun get_menu_model(menu_button': GtkMenuButton): GMenuModel =>
+    @gtk_menu_button_get_menu_model(menu_button')

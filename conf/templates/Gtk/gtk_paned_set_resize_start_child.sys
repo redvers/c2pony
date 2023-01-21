@@ -1,0 +1,2 @@
+  fun set_resize_start_child(paned': GtkPaned, resize': I32): None =>
+    @gtk_paned_set_resize_start_child(paned', resize')

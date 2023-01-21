@@ -1,0 +1,2 @@
+  fun ref iter_is_valid(iter': GtkTreeIter): I32 =>
+    GtkListStoreP.iter_is_valid(this, iter')

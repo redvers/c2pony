@@ -1,0 +1,2 @@
+  fun ref get_number_up_layout(): U32 =>
+    GtkPrintSettingsP.get_number_up_layout(this)

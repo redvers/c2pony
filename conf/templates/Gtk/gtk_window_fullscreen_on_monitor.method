@@ -1,0 +1,2 @@
+  fun ref fullscreen_on_monitor(monitor': GdkMonitor): None =>
+    GtkWindowP.fullscreen_on_monitor(this, monitor')

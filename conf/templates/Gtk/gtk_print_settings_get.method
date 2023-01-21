@@ -1,0 +1,2 @@
+  fun ref get(key': String): String iso^ =>
+    GtkPrintSettingsP.get(this, key')

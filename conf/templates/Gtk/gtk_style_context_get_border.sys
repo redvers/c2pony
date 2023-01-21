@@ -1,0 +1,2 @@
+  fun get_border(context': GtkStyleContext, border': GtkBorder): None =>
+    @gtk_style_context_get_border(context', border')

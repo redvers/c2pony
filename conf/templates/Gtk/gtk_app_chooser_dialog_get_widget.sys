@@ -1,0 +1,2 @@
+  fun get_widget(self': GtkAppChooserDialog): Pointer[GObjectP] =>
+@gtk_app_chooser_dialog_get_widget(self')

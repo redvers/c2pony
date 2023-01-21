@@ -1,0 +1,2 @@
+  fun get_object(builder': GtkBuilder, name': String): Pointer[GObjectP] =>
+@gtk_builder_get_object(builder', name'.cstring())

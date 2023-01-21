@@ -1,0 +1,2 @@
+  fun new_first(): GtkTreePath =>
+    @gtk_tree_path_new_first()

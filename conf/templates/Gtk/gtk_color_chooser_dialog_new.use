@@ -1,0 +1,1 @@
+use @gtk_color_chooser_dialog_new[Pointer[GObjectP]](title': Pointer[U8] tag, parent': Pointer[GObjectP])

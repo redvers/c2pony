@@ -1,0 +1,2 @@
+  fun get_invisible_char(entry': GtkEntry): U32 =>
+    @gtk_entry_get_invisible_char(entry')

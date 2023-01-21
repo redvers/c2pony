@@ -1,0 +1,2 @@
+  fun selected_foreach(box': GtkFlowBox, func': GtkFlowBoxForeachFunc, data': Pointer[None] tag): None =>
+    @gtk_flow_box_selected_foreach(box', func', data')

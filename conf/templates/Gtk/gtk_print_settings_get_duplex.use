@@ -1,0 +1,1 @@
+use @gtk_print_settings_get_duplex[U32](settings': GtkPrintSettings)

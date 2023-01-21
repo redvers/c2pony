@@ -1,0 +1,2 @@
+  fun set_duplex(settings': GtkPrintSettings, duplex': U32): None =>
+    @gtk_print_settings_set_duplex(settings', duplex')

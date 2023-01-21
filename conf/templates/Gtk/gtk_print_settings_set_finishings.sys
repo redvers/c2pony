@@ -1,0 +1,2 @@
+  fun set_finishings(settings': GtkPrintSettings, finishings': String): None =>
+    @gtk_print_settings_set_finishings(settings', finishings'.cstring())

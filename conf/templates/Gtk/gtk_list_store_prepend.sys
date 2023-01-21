@@ -1,0 +1,2 @@
+  fun prepend(list_store': GtkListStore, iter': GtkTreeIter): None =>
+    @gtk_list_store_prepend(list_store', iter')

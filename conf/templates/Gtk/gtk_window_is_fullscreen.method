@@ -1,0 +1,2 @@
+  fun ref is_fullscreen(): I32 =>
+    GtkWindowP.is_fullscreen(this)

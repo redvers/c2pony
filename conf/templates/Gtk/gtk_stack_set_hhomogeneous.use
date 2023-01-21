@@ -1,0 +1,1 @@
+use @gtk_stack_set_hhomogeneous[None](stack': GtkStack, hhomogeneous': I32)

@@ -1,0 +1,2 @@
+  fun clear(tree_store': GtkTreeStore): None =>
+    @gtk_tree_store_clear(tree_store')

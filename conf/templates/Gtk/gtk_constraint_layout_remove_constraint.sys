@@ -1,0 +1,2 @@
+  fun remove_constraint(layout': GtkConstraintLayout, constraint': GtkConstraint): None =>
+    @gtk_constraint_layout_remove_constraint(layout', constraint')

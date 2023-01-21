@@ -1,0 +1,2 @@
+  fun get_error(area': GtkGLArea): GError =>
+    @gtk_gl_area_get_error(area')

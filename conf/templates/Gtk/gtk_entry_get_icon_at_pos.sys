@@ -1,0 +1,2 @@
+  fun get_icon_at_pos(entry': GtkEntry, x': I32, y': I32): I32 =>
+    @gtk_entry_get_icon_at_pos(entry', x', y')

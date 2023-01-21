@@ -1,0 +1,2 @@
+  fun ref get_value(): GValue =>
+    GtkDropTargetP.get_value(this)

@@ -1,0 +1,2 @@
+  fun ref get_model(): GListModel =>
+    GtkMapListModelP.get_model(this)

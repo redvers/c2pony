@@ -1,0 +1,2 @@
+  fun compute_prefix(completion': GtkEntryCompletion, key': String): String iso^ =>
+    String.from_cstring(@gtk_entry_completion_compute_prefix(completion', key'.cstring())).clone()

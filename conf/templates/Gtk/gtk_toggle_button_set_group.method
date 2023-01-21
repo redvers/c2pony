@@ -1,0 +1,2 @@
+  fun ref set_group(group': GtkToggleButton): None =>
+    GtkToggleButtonP.set_group(this, group')

@@ -1,0 +1,2 @@
+  fun ref set_popup_set_width(popup_set_width': I32): None =>
+    GtkEntryCompletionP.set_popup_set_width(this, popup_set_width')

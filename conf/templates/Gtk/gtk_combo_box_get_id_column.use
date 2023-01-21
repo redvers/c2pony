@@ -1,0 +1,1 @@
+use @gtk_combo_box_get_id_column[I32](combo_box': GtkComboBox)

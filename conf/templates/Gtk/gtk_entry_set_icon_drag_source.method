@@ -1,0 +1,2 @@
+  fun ref set_icon_drag_source(icon_pos': U32, provider': GdkContentProvider, actions': U32): None =>
+    GtkEntryP.set_icon_drag_source(this, icon_pos', provider', actions')

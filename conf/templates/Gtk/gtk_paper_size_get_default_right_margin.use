@@ -1,0 +1,1 @@
+use @gtk_paper_size_get_default_right_margin[F64](size': GtkPaperSize, unit': U32)

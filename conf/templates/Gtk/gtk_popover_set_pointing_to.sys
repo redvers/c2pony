@@ -1,0 +1,2 @@
+  fun set_pointing_to(popover': GtkPopover, rect': cairorectangleint): None =>
+    @gtk_popover_set_pointing_to(popover', rect')

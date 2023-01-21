@@ -1,0 +1,2 @@
+  fun get_text(pbar': GtkProgressBar): String iso^ =>
+    String.from_cstring(@gtk_progress_bar_get_text(pbar')).clone()

@@ -1,0 +1,2 @@
+  fun ref get_label(): String iso^ =>
+    GtkLabelP.get_label(this)

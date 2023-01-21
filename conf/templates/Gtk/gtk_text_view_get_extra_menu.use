@@ -1,0 +1,1 @@
+use @gtk_text_view_get_extra_menu[GMenuModel](text_view': GtkTextView)

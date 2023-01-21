@@ -1,0 +1,2 @@
+  fun ref get_gicon(): GIcon =>
+    GtkImageP.get_gicon(this)

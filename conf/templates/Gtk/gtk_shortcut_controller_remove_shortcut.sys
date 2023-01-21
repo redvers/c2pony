@@ -1,0 +1,2 @@
+  fun remove_shortcut(self': GtkShortcutController, shortcut': GtkShortcut): None =>
+    @gtk_shortcut_controller_remove_shortcut(self', shortcut')

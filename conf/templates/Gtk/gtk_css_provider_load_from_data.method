@@ -1,0 +1,2 @@
+  fun ref load_from_data(data': String, length': I64): None =>
+    GtkCssProviderP.load_from_data(this, data', length')

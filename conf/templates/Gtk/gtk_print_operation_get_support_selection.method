@@ -1,0 +1,2 @@
+  fun ref get_support_selection(): I32 =>
+    GtkPrintOperationP.get_support_selection(this)

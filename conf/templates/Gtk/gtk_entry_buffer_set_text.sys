@@ -1,0 +1,2 @@
+  fun set_text(buffer': GtkEntryBuffer, chars': String, n_chars': I32): None =>
+    @gtk_entry_buffer_set_text(buffer', chars'.cstring(), n_chars')

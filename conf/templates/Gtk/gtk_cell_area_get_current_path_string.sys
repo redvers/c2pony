@@ -1,0 +1,2 @@
+  fun get_current_path_string(area': GtkCellArea): String iso^ =>
+    String.from_cstring(@gtk_cell_area_get_current_path_string(area')).clone()

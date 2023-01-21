@@ -1,0 +1,2 @@
+  fun get_entry(completion': GtkEntryCompletion): Pointer[GObjectP] =>
+@gtk_entry_completion_get_entry(completion')

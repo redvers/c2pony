@@ -1,0 +1,2 @@
+  fun ref get_expression(): GtkExpression =>
+    GtkBoolFilterP.get_expression(this)

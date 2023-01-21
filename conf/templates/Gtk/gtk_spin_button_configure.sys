@@ -1,0 +1,2 @@
+  fun configure(spin_button': GtkSpinButton, adjustment': GtkAdjustment, climb_rate': F64, digits': U32): None =>
+    @gtk_spin_button_configure(spin_button', adjustment', climb_rate', digits')

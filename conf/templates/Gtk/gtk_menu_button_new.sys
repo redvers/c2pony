@@ -1,0 +1,2 @@
+  fun new(): Pointer[GObjectP] =>
+@gtk_menu_button_new()

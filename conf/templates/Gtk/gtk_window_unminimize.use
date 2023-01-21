@@ -1,0 +1,1 @@
+use @gtk_window_unminimize[None](window': Pointer[GObjectP])

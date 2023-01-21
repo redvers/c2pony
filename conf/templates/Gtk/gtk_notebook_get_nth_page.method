@@ -1,0 +1,2 @@
+  fun ref get_nth_page(page_num': I32): Pointer[GObjectP] =>
+    GtkNotebookP.get_nth_page(this, page_num')

@@ -1,0 +1,2 @@
+  fun set_tabs(entry': GtkEntry, tabs': PangoTabArray): None =>
+    @gtk_entry_set_tabs(entry', tabs')

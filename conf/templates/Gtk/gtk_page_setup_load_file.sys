@@ -1,0 +1,2 @@
+  fun load_file(setup': GtkPageSetup, file_name': String, error': Pointer[GError]): I32 =>
+    @gtk_page_setup_load_file(setup', file_name'.cstring(), error')

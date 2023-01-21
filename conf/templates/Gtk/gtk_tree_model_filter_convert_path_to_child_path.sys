@@ -1,0 +1,2 @@
+  fun convert_path_to_child_path(filter': GtkTreeModelFilter, filter_path': GtkTreePath): GtkTreePath =>
+    @gtk_tree_model_filter_convert_path_to_child_path(filter', filter_path')

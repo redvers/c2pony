@@ -1,0 +1,1 @@
+use @gtk_search_bar_connect_entry[None](bar': GtkSearchBar, entry': GtkEditable)

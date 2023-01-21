@@ -1,0 +1,2 @@
+  fun ref queue_render(): None =>
+    GtkGLAreaP.queue_render(this)

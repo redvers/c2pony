@@ -1,0 +1,2 @@
+  fun get_quality(settings': GtkPrintSettings): U32 =>
+    @gtk_print_settings_get_quality(settings')

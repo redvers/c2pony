@@ -1,0 +1,2 @@
+  fun ref add_class(class_name': String): None =>
+    GtkStyleContextP.add_class(this, class_name')

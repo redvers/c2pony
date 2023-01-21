@@ -1,0 +1,2 @@
+  fun set_text_column(completion': GtkEntryCompletion, column': I32): None =>
+    @gtk_entry_completion_set_text_column(completion', column')

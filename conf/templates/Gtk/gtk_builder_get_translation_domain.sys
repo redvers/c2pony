@@ -1,0 +1,2 @@
+  fun get_translation_domain(builder': GtkBuilder): String iso^ =>
+    String.from_cstring(@gtk_builder_get_translation_domain(builder')).clone()

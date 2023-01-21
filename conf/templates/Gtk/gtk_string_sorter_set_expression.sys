@@ -1,0 +1,2 @@
+  fun set_expression(self': GtkStringSorter, expression': GtkExpression): None =>
+    @gtk_string_sorter_set_expression(self', expression')

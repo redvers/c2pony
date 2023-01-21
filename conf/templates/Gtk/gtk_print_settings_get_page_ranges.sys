@@ -1,0 +1,2 @@
+  fun get_page_ranges(settings': GtkPrintSettings, num_ranges': Pointer[I32] tag): GtkPageRange =>
+    @gtk_print_settings_get_page_ranges(settings', num_ranges')

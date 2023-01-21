@@ -1,0 +1,2 @@
+  fun get_justify(self': GtkLabel): U32 =>
+    @gtk_label_get_justify(self')

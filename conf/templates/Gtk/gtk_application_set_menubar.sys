@@ -1,0 +1,2 @@
+  fun set_menubar(application': GtkApplication, menubar': GMenuModel): None =>
+    @gtk_application_set_menubar(application', menubar')

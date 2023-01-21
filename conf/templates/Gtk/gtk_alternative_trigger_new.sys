@@ -1,0 +1,2 @@
+  fun new(first': GtkShortcutTrigger, second': GtkShortcutTrigger): GtkShortcutTrigger =>
+    @gtk_alternative_trigger_new(first', second')

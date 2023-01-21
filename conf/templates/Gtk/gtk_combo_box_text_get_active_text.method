@@ -1,0 +1,2 @@
+  fun ref get_active_text(): String iso^ =>
+    GtkComboBoxTextP.get_active_text(this)

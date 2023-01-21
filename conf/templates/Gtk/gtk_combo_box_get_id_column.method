@@ -1,0 +1,2 @@
+  fun ref get_id_column(): I32 =>
+    GtkComboBoxP.get_id_column(this)

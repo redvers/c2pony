@@ -1,0 +1,2 @@
+  fun ref get_end_child(): Pointer[GObjectP] =>
+    GtkPanedP.get_end_child(this)

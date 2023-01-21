@@ -1,0 +1,2 @@
+  fun get_selectable(self': GtkLabel): I32 =>
+    @gtk_label_get_selectable(self')

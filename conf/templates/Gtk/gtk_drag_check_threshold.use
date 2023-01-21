@@ -1,0 +1,1 @@
+use @gtk_drag_check_threshold[I32](widget': Pointer[GObjectP], start_x': I32, start_y': I32, current_x': I32, current_y': I32)

@@ -1,0 +1,1 @@
+use @gtk_label_get_layout_offsets[None](self': GtkLabel, x': Pointer[I32] tag, y': Pointer[I32] tag)

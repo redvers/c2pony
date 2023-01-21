@@ -1,0 +1,2 @@
+  fun new(orientation': U32, spacing': I32): Pointer[GObjectP] =>
+@gtk_box_new(orientation', spacing')

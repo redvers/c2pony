@@ -1,0 +1,2 @@
+  fun copy(border': GtkBorder): GtkBorder =>
+    @gtk_border_copy(border')

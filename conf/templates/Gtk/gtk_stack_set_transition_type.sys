@@ -1,0 +1,2 @@
+  fun set_transition_type(stack': GtkStack, transition': U32): None =>
+    @gtk_stack_set_transition_type(stack', transition')

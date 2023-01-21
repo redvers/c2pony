@@ -1,0 +1,2 @@
+  fun reset_im_context(entry': GtkEntry): None =>
+    @gtk_entry_reset_im_context(entry')

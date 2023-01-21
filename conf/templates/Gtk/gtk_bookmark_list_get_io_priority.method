@@ -1,0 +1,2 @@
+  fun ref get_io_priority(): I32 =>
+    GtkBookmarkListP.get_io_priority(this)

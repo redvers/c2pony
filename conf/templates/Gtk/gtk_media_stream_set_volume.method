@@ -1,0 +1,2 @@
+  fun ref set_volume(volume': F64): None =>
+    GtkMediaStreamP.set_volume(this, volume')

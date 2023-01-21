@@ -1,0 +1,2 @@
+  fun ref get_visible(): I32 =>
+    GtkTreeViewColumnP.get_visible(this)

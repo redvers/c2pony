@@ -1,0 +1,2 @@
+  fun new_for_media_stream(stream': GtkMediaStream): Pointer[GObjectP] =>
+@gtk_video_new_for_media_stream(stream')

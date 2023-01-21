@@ -1,0 +1,2 @@
+  fun ref get_progress_pulse_step(): F64 =>
+    GtkEntryP.get_progress_pulse_step(this)

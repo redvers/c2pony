@@ -1,0 +1,2 @@
+  fun get_can_focus(widget': GtkWidgetI): I32 =>
+    @gtk_widget_get_can_focus(widget'.getptr())

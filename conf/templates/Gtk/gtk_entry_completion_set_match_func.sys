@@ -1,0 +1,2 @@
+  fun set_match_func(completion': GtkEntryCompletion, func': GtkEntryCompletionMatchFunc, func_data': Pointer[None] tag, func_notify': GDestroyNotify): None =>
+    @gtk_entry_completion_set_match_func(completion', func', func_data', func_notify')

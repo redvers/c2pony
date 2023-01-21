@@ -1,0 +1,2 @@
+  fun set_modified(buffer': GtkTextBuffer, setting': I32): None =>
+    @gtk_text_buffer_set_modified(buffer', setting')

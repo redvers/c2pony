@@ -1,0 +1,2 @@
+  fun ref get_iter_at_line_offset(iter': GtkTextIter, line_number': I32, char_offset': I32): I32 =>
+    GtkTextBufferP.get_iter_at_line_offset(this, iter', line_number', char_offset')

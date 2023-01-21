@@ -1,0 +1,1 @@
+use @gtk_stack_page_get_child[Pointer[GObjectP]](self': GtkStackPage)

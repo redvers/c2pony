@@ -1,0 +1,2 @@
+  fun get_climb_rate(spin_button': GtkSpinButton): F64 =>
+    @gtk_spin_button_get_climb_rate(spin_button')

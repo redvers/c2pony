@@ -1,0 +1,2 @@
+  fun ref set_xalign(xalign': F32): None =>
+    GtkLabelP.set_xalign(this, xalign')

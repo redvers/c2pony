@@ -1,0 +1,1 @@
+use @gtk_stack_set_transition_duration[None](stack': GtkStack, duration': U32)

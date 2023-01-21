@@ -1,0 +1,2 @@
+  fun push_rounded_clip(snapshot': GdkSnapshot, bounds': GskRoundedRect): None =>
+    @gtk_snapshot_push_rounded_clip(snapshot', bounds')

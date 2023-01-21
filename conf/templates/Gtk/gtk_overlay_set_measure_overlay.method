@@ -1,0 +1,2 @@
+  fun ref set_measure_overlay(widget': GtkWidgetI, measure': I32): None =>
+    GtkOverlayP.set_measure_overlay(this, widget', measure')

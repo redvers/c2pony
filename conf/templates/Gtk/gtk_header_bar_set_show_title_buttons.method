@@ -1,0 +1,2 @@
+  fun ref set_show_title_buttons(setting': I32): None =>
+    GtkHeaderBarP.set_show_title_buttons(this, setting')

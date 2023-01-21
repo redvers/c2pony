@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_set_max_width[None](tree_column': GtkTreeViewColumn, max_width': I32)

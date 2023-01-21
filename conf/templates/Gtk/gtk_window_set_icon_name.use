@@ -1,0 +1,1 @@
+use @gtk_window_set_icon_name[None](window': Pointer[GObjectP], name': Pointer[U8] tag)

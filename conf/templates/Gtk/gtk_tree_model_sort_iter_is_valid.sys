@@ -1,0 +1,2 @@
+  fun iter_is_valid(tree_model_sort': GtkTreeModelSort, iter': GtkTreeIter): I32 =>
+    @gtk_tree_model_sort_iter_is_valid(tree_model_sort', iter')

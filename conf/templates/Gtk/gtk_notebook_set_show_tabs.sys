@@ -1,0 +1,2 @@
+  fun set_show_tabs(notebook': GtkNotebook, show_tabs': I32): None =>
+    @gtk_notebook_set_show_tabs(notebook', show_tabs')

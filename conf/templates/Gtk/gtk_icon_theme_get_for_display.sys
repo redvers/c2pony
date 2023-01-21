@@ -1,0 +1,2 @@
+  fun get_for_display(display': GdkDisplay): GtkIconTheme =>
+    @gtk_icon_theme_get_for_display(display')

@@ -1,0 +1,2 @@
+  fun get_settings(widget': GtkWidgetI): GtkSettings =>
+    @gtk_widget_get_settings(widget'.getptr())

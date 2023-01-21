@@ -1,0 +1,1 @@
+use @gtk_text_iter_ends_tag[I32](iter': GtkTextIter, tag': GtkTextTag)

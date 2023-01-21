@@ -1,0 +1,2 @@
+  fun translate_coordinates(src_widget': GtkWidgetI, dest_widget': GtkWidgetI, src_x': F64, src_y': F64, dest_x': Pointer[F64] tag, dest_y': Pointer[F64] tag): I32 =>
+    @gtk_widget_translate_coordinates(src_widget'.getptr(), dest_widget'.getptr(), src_x', src_y', dest_x', dest_y')

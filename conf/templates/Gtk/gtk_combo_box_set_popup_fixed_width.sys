@@ -1,0 +1,2 @@
+  fun set_popup_fixed_width(combo_box': GtkComboBox, fixed': I32): None =>
+    @gtk_combo_box_set_popup_fixed_width(combo_box', fixed')

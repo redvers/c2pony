@@ -1,0 +1,2 @@
+  fun set_single_click_activate(self': GtkGridView, single_click_activate': I32): None =>
+    @gtk_grid_view_set_single_click_activate(self', single_click_activate')

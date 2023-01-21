@@ -1,0 +1,2 @@
+  fun get_overwrite_mode(self': GtkText): I32 =>
+    @gtk_text_get_overwrite_mode(self')

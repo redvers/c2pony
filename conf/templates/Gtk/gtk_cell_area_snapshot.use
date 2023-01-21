@@ -1,0 +1,1 @@
+use @gtk_cell_area_snapshot[None](area': GtkCellArea, context': GtkCellAreaContext, widget': Pointer[GObjectP], snapshot': GdkSnapshot, background_area': cairorectangleint, cell_area': cairorectangleint, flags': U32, paint_focus': I32)

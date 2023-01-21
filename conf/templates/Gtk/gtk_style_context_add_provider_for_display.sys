@@ -1,0 +1,2 @@
+  fun add_provider_for_display(display': GdkDisplay, provider': GtkStyleProvider, priority': U32): None =>
+    @gtk_style_context_add_provider_for_display(display', provider', priority')

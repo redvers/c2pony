@@ -1,0 +1,2 @@
+  fun ref lookup_by_gicon(icon': GIcon, size': I32, scale': I32, direction': U32, flags': U32): GtkIconPaintable =>
+    GtkIconThemeP.lookup_by_gicon(this, icon', size', scale', direction', flags')

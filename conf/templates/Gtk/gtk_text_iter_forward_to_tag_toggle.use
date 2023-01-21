@@ -1,0 +1,1 @@
+use @gtk_text_iter_forward_to_tag_toggle[I32](iter': GtkTextIter, tag': GtkTextTag)

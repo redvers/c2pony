@@ -1,0 +1,2 @@
+  fun unselect_all(box': GtkListBox): None =>
+    @gtk_list_box_unselect_all(box')

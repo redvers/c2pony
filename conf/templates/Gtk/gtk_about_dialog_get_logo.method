@@ -1,0 +1,2 @@
+  fun ref get_logo(): GdkPaintable =>
+    GtkAboutDialogP.get_logo(this)

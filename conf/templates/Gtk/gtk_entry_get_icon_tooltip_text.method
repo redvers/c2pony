@@ -1,0 +1,2 @@
+  fun ref get_icon_tooltip_text(icon_pos': U32): String iso^ =>
+    GtkEntryP.get_icon_tooltip_text(this, icon_pos')

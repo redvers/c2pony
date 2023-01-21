@@ -1,0 +1,1 @@
+use @gtk_widget_get_receives_default[I32](widget': Pointer[GObjectP])

@@ -1,0 +1,2 @@
+  fun unwatch(watch': GtkExpressionWatch): None =>
+    @gtk_expression_watch_unwatch(watch')

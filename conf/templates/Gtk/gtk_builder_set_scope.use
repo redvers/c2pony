@@ -1,0 +1,1 @@
+use @gtk_builder_set_scope[None](builder': GtkBuilder, scope': GtkBuilderScope)

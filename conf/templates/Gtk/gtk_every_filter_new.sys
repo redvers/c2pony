@@ -1,0 +1,2 @@
+  fun new(): GtkEveryFilter =>
+    @gtk_every_filter_new()

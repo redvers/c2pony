@@ -1,0 +1,2 @@
+  fun ref set_map_func(map_func': GtkMapListModelMapFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): None =>
+    GtkMapListModelP.set_map_func(this, map_func', user_data', user_destroy')

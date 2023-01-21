@@ -1,0 +1,2 @@
+  fun new(sort_func': GCompareDataFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): GtkCustomSorter =>
+    @gtk_custom_sorter_new(sort_func', user_data', user_destroy')

@@ -1,0 +1,2 @@
+  fun ref insert_paintable(iter': GtkTextIter, paintable': GdkPaintable): None =>
+    GtkTextBufferP.insert_paintable(this, iter', paintable')

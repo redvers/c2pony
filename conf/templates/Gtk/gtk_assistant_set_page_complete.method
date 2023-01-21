@@ -1,0 +1,2 @@
+  fun ref set_page_complete(page': GtkWidgetI, complete': I32): None =>
+    GtkAssistantP.set_page_complete(this, page', complete')

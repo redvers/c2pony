@@ -1,0 +1,1 @@
+use @gtk_label_get_justify[U32](self': GtkLabel)

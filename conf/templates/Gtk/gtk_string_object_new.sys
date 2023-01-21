@@ -1,0 +1,2 @@
+  fun new(string': String): GtkStringObject =>
+    @gtk_string_object_new(string'.cstring())

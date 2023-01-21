@@ -1,0 +1,1 @@
+use @gtk_application_get_active_window[Pointer[GObjectP]](application': GtkApplication)

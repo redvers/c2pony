@@ -1,0 +1,1 @@
+use @gtk_grid_remove[None](grid': GtkGrid, child': Pointer[GObjectP])

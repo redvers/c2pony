@@ -1,0 +1,2 @@
+  fun set_visible_child_full(stack': GtkStack, name': String, transition': U32): None =>
+    @gtk_stack_set_visible_child_full(stack', name'.cstring(), transition')

@@ -1,0 +1,2 @@
+  fun get_style_context(widget': GtkWidgetI): GtkStyleContext =>
+    @gtk_widget_get_style_context(widget'.getptr())

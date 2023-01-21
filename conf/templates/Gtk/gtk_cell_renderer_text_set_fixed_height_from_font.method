@@ -1,0 +1,2 @@
+  fun ref set_fixed_height_from_font(number_of_rows': I32): None =>
+    GtkCellRendererTextP.set_fixed_height_from_font(this, number_of_rows')

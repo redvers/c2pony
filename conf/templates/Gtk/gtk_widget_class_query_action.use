@@ -1,0 +1,1 @@
+use @gtk_widget_class_query_action[I32](widget_class': GtkWidgetClass, index': U32, owner': Pointer[U64] tag, action_name': Pointer[Pointer[U8]] tag, parameter_type': Pointer[GVariantType], property_name': Pointer[Pointer[U8]] tag)

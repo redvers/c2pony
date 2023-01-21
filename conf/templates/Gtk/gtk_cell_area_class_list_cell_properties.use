@@ -1,0 +1,1 @@
+use @gtk_cell_area_class_list_cell_properties[Pointer[GParamSpec]](aclass': GtkCellAreaClass, n_properties': Pointer[U32] tag)

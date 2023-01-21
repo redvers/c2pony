@@ -1,0 +1,2 @@
+  fun ref set_keep_aspect_ratio(keep_aspect_ratio': I32): None =>
+    GtkPictureP.set_keep_aspect_ratio(this, keep_aspect_ratio')

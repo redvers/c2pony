@@ -1,0 +1,2 @@
+  fun new_with_text(text': String): Pointer[GObjectP] =>
+@gtk_cell_view_new_with_text(text'.cstring())

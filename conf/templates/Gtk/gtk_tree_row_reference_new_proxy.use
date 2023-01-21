@@ -1,0 +1,1 @@
+use @gtk_tree_row_reference_new_proxy[GtkTreeRowReference](proxy': Pointer[GObjectP], model': GtkTreeModel, path': GtkTreePath)

@@ -1,0 +1,2 @@
+  fun ref cell_get_property(renderer': GtkCellRenderer, property_name': String, value': GValue): None =>
+    GtkCellAreaP.cell_get_property(this, renderer', property_name', value')

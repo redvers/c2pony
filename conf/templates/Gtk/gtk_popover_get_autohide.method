@@ -1,0 +1,2 @@
+  fun ref get_autohide(): I32 =>
+    GtkPopoverP.get_autohide(this)

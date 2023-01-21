@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_get_tree_view[Pointer[GObjectP]](tree_column': GtkTreeViewColumn)

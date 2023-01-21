@@ -1,0 +1,1 @@
+use @gtk_widget_queue_resize[None](widget': Pointer[GObjectP])

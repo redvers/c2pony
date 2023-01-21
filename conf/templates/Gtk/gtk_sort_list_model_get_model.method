@@ -1,0 +1,2 @@
+  fun ref get_model(): GListModel =>
+    GtkSortListModelP.get_model(this)

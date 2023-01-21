@@ -1,0 +1,2 @@
+  fun collapse_all(tree_view': GtkTreeView): None =>
+    @gtk_tree_view_collapse_all(tree_view')

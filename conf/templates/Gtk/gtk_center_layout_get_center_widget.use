@@ -1,0 +1,1 @@
+use @gtk_center_layout_get_center_widget[Pointer[GObjectP]](self': GtkCenterLayout)

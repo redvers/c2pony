@@ -1,0 +1,1 @@
+use @gtk_flow_box_bind_model[None](box': GtkFlowBox, model': GListModel, create_widget_func': GtkFlowBoxCreateWidgetFunc, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify)

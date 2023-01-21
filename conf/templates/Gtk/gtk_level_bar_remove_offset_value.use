@@ -1,0 +1,1 @@
+use @gtk_level_bar_remove_offset_value[None](self': GtkLevelBar, name': Pointer[U8] tag)

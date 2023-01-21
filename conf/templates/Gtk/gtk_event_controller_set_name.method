@@ -1,0 +1,2 @@
+  fun ref set_name(name': String): None =>
+    GtkEventControllerP.set_name(this, name')

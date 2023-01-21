@@ -1,0 +1,2 @@
+  fun ref remove_column(column': GtkColumnViewColumn): None =>
+    GtkColumnViewP.remove_column(this, column')

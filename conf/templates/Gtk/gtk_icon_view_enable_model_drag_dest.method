@@ -1,0 +1,2 @@
+  fun ref enable_model_drag_dest(formats': GdkContentFormats, actions': U32): None =>
+    GtkIconViewP.enable_model_drag_dest(this, formats', actions')

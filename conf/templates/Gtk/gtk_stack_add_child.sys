@@ -1,0 +1,2 @@
+  fun add_child(stack': GtkStack, child': GtkWidgetI): GtkStackPage =>
+    @gtk_stack_add_child(stack', child'.getptr())

@@ -1,0 +1,2 @@
+  fun get_default_direction(): U32 =>
+    @gtk_widget_get_default_direction()

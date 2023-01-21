@@ -1,0 +1,2 @@
+  fun ref set_label(label': String): None =>
+    GtkExpanderP.set_label(this, label')

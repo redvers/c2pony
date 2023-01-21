@@ -1,0 +1,2 @@
+  fun append_custom_item(self': GtkAppChooserButton, name': String, label': String, icon': GIcon): None =>
+    @gtk_app_chooser_button_append_custom_item(self', name'.cstring(), label'.cstring(), icon')

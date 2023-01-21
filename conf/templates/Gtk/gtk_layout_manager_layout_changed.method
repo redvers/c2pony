@@ -1,0 +1,2 @@
+  fun ref layout_changed(): None =>
+    GtkLayoutManagerP.layout_changed(this)

@@ -1,0 +1,2 @@
+  fun set_child(button': GtkButton, child': GtkWidgetI): None =>
+    @gtk_button_set_child(button', child'.getptr())

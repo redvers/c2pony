@@ -1,0 +1,2 @@
+  fun ref prepared(has_audio': I32, has_video': I32, seekable': I32, duration': I64): None =>
+    GtkMediaStreamP.prepared(this, has_audio', has_video', seekable', duration')

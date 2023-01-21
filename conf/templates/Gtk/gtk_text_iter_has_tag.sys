@@ -1,0 +1,2 @@
+  fun has_tag(iter': GtkTextIter, tag': GtkTextTag): I32 =>
+    @gtk_text_iter_has_tag(iter', tag')

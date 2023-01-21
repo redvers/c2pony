@@ -1,0 +1,2 @@
+  fun clear_attributes(tree_column': GtkTreeViewColumn, cell_renderer': GtkCellRenderer): None =>
+    @gtk_tree_view_column_clear_attributes(tree_column', cell_renderer')

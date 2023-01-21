@@ -1,0 +1,1 @@
+use @gtk_tree_model_filter_set_modify_func[None](filter': GtkTreeModelFilter, n_columns': I32, types': Pointer[U64] tag, func': GtkTreeModelFilterModifyFunc, data': Pointer[None] tag, destroy': GDestroyNotify)

@@ -1,0 +1,2 @@
+  fun get_start_widget(self': GtkCenterBox): Pointer[GObjectP] =>
+@gtk_center_box_get_start_widget(self')

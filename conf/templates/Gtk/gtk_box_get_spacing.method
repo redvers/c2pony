@@ -1,0 +1,2 @@
+  fun ref get_spacing(): I32 =>
+    GtkBoxP.get_spacing(this)

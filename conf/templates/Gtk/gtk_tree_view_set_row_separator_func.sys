@@ -1,0 +1,2 @@
+  fun set_row_separator_func(tree_view': GtkTreeView, func': GtkTreeViewRowSeparatorFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_tree_view_set_row_separator_func(tree_view', func', data', destroy')

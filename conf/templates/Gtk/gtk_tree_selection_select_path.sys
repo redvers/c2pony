@@ -1,0 +1,2 @@
+  fun select_path(selection': GtkTreeSelection, path': GtkTreePath): None =>
+    @gtk_tree_selection_select_path(selection', path')

@@ -1,0 +1,2 @@
+  fun get_line_offset(iter': GtkTextIter): I32 =>
+    @gtk_text_iter_get_line_offset(iter')

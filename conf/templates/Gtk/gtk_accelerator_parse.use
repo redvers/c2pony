@@ -1,0 +1,1 @@
+use @gtk_accelerator_parse[I32](accelerator': Pointer[U8] tag, accelerator_key': Pointer[U32] tag, accelerator_mods': Pointer[U32] tag)

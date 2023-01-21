@@ -1,0 +1,1 @@
+use @gtk_test_widget_wait_for_draw[None](widget': Pointer[GObjectP])

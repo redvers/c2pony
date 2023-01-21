@@ -1,0 +1,2 @@
+  fun ref get_use_color(): I32 =>
+    GtkPrintSettingsP.get_use_color(this)

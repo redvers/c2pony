@@ -1,0 +1,1 @@
+use @gtk_string_object_new[GtkStringObject](string': Pointer[U8] tag)

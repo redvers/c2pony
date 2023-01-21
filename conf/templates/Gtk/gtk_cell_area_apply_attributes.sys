@@ -1,0 +1,2 @@
+  fun apply_attributes(area': GtkCellArea, tree_model': GtkTreeModel, iter': GtkTreeIter, is_expander': I32, is_expanded': I32): None =>
+    @gtk_cell_area_apply_attributes(area', tree_model', iter', is_expander', is_expanded')

@@ -1,0 +1,2 @@
+  fun select_range(selection': GtkTreeSelection, start_path': GtkTreePath, end_path': GtkTreePath): None =>
+    @gtk_tree_selection_select_range(selection', start_path', end_path')

@@ -1,0 +1,1 @@
+use @gtk_application_get_menubar[GMenuModel](application': GtkApplication)

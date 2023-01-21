@@ -1,0 +1,2 @@
+  fun ref get_date(): GDateTime =>
+    GtkCalendarP.get_date(this)

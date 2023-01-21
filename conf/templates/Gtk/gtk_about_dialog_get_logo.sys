@@ -1,0 +1,2 @@
+  fun get_logo(about': GtkAboutDialog): GdkPaintable =>
+    @gtk_about_dialog_get_logo(about')

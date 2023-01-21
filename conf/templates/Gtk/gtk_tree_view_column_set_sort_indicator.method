@@ -1,0 +1,2 @@
+  fun ref set_sort_indicator(setting': I32): None =>
+    GtkTreeViewColumnP.set_sort_indicator(this, setting')

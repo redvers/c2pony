@@ -1,0 +1,1 @@
+use @gtk_cell_view_set_fit_model[None](cell_view': GtkCellView, fit_model': I32)

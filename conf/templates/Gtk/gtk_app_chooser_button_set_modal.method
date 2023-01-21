@@ -1,0 +1,2 @@
+  fun ref set_modal(modal': I32): None =>
+    GtkAppChooserButtonP.set_modal(this, modal')

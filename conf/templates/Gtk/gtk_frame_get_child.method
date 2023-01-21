@@ -1,0 +1,2 @@
+  fun ref get_child(): Pointer[GObjectP] =>
+    GtkFrameP.get_child(this)
