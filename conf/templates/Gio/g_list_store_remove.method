@@ -1,0 +1,2 @@
+  fun ref remove(position': U32): None =>
+    GListStoreP.remove(this, position')

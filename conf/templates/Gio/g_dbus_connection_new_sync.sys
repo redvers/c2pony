@@ -1,0 +1,2 @@
+  fun new_sync(stream': GIOStream, guid': String, flags': U32, observer': GDBusAuthObserver, cancellable': GCancellable, error': Pointer[GError]): GDBusConnection =>
+    @g_dbus_connection_new_sync(stream', guid'.cstring(), flags', observer', cancellable', error')

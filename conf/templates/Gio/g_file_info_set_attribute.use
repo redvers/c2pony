@@ -1,0 +1,1 @@
+use @g_file_info_set_attribute[None](info': GFileInfo, attribute': Pointer[U8] tag, type': U32, value_p': Pointer[None] tag)

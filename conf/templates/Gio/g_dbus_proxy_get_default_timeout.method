@@ -1,0 +1,2 @@
+  fun ref get_default_timeout(): I32 =>
+    GDBusProxyP.get_default_timeout(this)

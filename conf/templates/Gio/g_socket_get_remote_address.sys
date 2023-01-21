@@ -1,0 +1,2 @@
+  fun get_remote_address(socket': GSocket, error': Pointer[GError]): GSocketAddress =>
+    @g_socket_get_remote_address(socket', error')

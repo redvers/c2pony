@@ -1,1 +1,1 @@
-use @gtk_builder_add_objects_from_string[I32](builder': GtkBuilder, buffer': Pointer[U8] tag, length': I64, object_ids': Pointer[Pointer[U8]] tag, error': Pointer[GError])
+use @gtk_builder_add_objects_from_string[I32](builder': Pointer[GObjectP], buffer': Pointer[U8] tag, length': I64, object_ids': Pointer[Pointer[U8]] tag, error': Pointer[GError])

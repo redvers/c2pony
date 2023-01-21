@@ -1,0 +1,2 @@
+  fun get_local_address(client': GSocketClient): GSocketAddress =>
+    @g_socket_client_get_local_address(client')

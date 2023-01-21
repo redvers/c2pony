@@ -1,0 +1,2 @@
+  fun verify(cert': GTlsCertificate, identity': GSocketConnectable, trusted_ca': GTlsCertificate): U32 =>
+    @g_tls_certificate_verify(cert', identity', trusted_ca')

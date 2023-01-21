@@ -1,0 +1,2 @@
+  fun ref set_op_res_gpointer(op_res': Pointer[None] tag, destroy_op_res': GDestroyNotify): None =>
+    GSimpleAsyncResultP.set_op_res_gpointer(this, op_res', destroy_op_res')

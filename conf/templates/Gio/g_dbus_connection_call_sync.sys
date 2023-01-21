@@ -1,0 +1,2 @@
+  fun call_sync(connection': GDBusConnection, bus_name': String, object_path': String, interface_name': String, method_name': String, parameters': GVariant, reply_type': GVariantType, flags': U32, timeout_msec': I32, cancellable': GCancellable, error': Pointer[GError]): GVariant =>
+    @g_dbus_connection_call_sync(connection', bus_name'.cstring(), object_path'.cstring(), interface_name'.cstring(), method_name'.cstring(), parameters', reply_type', flags', timeout_msec', cancellable', error')

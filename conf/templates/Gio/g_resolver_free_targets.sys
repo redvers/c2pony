@@ -1,0 +1,2 @@
+  fun free_targets(targets': GList): None =>
+    @g_resolver_free_targets(targets')

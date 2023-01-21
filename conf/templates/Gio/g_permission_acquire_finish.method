@@ -1,0 +1,2 @@
+  fun ref acquire_finish(result': GAsyncResult, error': Pointer[GError]): I32 =>
+    GPermissionP.acquire_finish(this, result', error')

@@ -1,0 +1,1 @@
+use @g_output_stream_flush[I32](stream': GOutputStream, cancellable': GCancellable, error': Pointer[GError])

@@ -1,0 +1,2 @@
+  fun get_emblems(emblemed': GEmblemedIcon): GList =>
+    @g_emblemed_icon_get_emblems(emblemed')

@@ -1,0 +1,2 @@
+  fun ref set_use_fallback(use_fallback': I32): None =>
+    GCharsetConverterP.set_use_fallback(this, use_fallback')

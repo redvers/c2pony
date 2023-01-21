@@ -1,0 +1,1 @@
+use @g_dbus_message_print[Pointer[U8]](message': GDBusMessage, indent': U32)

@@ -1,2 +1,2 @@
-  fun uninhibit(application': GtkApplication, cookie': U32): None =>
-    @gtk_application_uninhibit(application', cookie')
+  fun uninhibit(application': GtkApplicationI, cookie': U32): None =>
+    @gtk_application_uninhibit(application'.getptr(), cookie')

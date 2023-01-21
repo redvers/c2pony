@@ -1,0 +1,2 @@
+  fun ref get_local_address(): GSocketAddress =>
+    GSocketClientP.get_local_address(this)

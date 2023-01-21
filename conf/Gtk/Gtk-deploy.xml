@@ -892,9 +892,9 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_app_chooser_widget_set_show_other" ponyname="set_show_other" render="0" deprecated=""/>
       <rendermethod name="gtk_app_chooser_widget_set_show_recommended" ponyname="set_show_recommended" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkApplication" render="0" parent="Gio.Application" abstract="" final="" fundamental="">
+    <renderclass name="GtkApplication" render="1" parent="Gio.Application" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_application_new" ponyname="new" render="0" deprecated=""/>
-      <rendermethod name="gtk_application_add_window" ponyname="add_window" render="0" deprecated=""/>
+      <rendermethod name="gtk_application_add_window" ponyname="add_window" render="1" deprecated=""/>
       <rendermethod name="gtk_application_get_accels_for_action" ponyname="get_accels_for_action" render="0" deprecated=""/>
       <rendermethod name="gtk_application_get_actions_for_accel" ponyname="get_actions_for_accel" render="0" deprecated=""/>
       <rendermethod name="gtk_application_get_active_window" ponyname="get_active_window" render="0" deprecated=""/>
@@ -1001,10 +1001,10 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_box_layout_set_homogeneous" ponyname="set_homogeneous" render="0" deprecated=""/>
       <rendermethod name="gtk_box_layout_set_spacing" ponyname="set_spacing" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkBuilder" render="0" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="gtk_builder_new" ponyname="new" render="0" deprecated=""/>
+    <renderclass name="GtkBuilder" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="gtk_builder_new" ponyname="new" render="1" deprecated=""/>
       <renderconstructor name="gtk_builder_new_from_file" ponyname="new_from_file" render="0" deprecated=""/>
-      <renderconstructor name="gtk_builder_new_from_resource" ponyname="new_from_resource" render="0" deprecated=""/>
+      <renderconstructor name="gtk_builder_new_from_resource" ponyname="new_from_resource" render="1" deprecated=""/>
       <renderconstructor name="gtk_builder_new_from_string" ponyname="new_from_string" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_add_from_file" ponyname="add_from_file" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_add_from_resource" ponyname="add_from_resource" render="0" deprecated=""/>

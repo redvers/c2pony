@@ -1,0 +1,2 @@
+  fun ref(list': GFileAttributeInfoList): GFileAttributeInfoList =>
+    @g_file_attribute_info_list_ref(list')

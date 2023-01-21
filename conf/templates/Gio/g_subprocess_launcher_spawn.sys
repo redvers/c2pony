@@ -1,0 +1,2 @@
+  fun spawn(self': GSubprocessLauncher, error': Pointer[GError], argv0': String, ...): GSubprocess =>
+    @g_subprocess_launcher_spawn(self', error', argv0'.cstring(), ...)

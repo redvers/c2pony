@@ -1,0 +1,2 @@
+  fun get_flags(connection': GDBusConnection): U32 =>
+    @g_dbus_connection_get_flags(connection')

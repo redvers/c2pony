@@ -1,0 +1,1 @@
+use @g_application_set_resource_base_path[None](application': Pointer[GObjectP], resource_path': Pointer[U8] tag)

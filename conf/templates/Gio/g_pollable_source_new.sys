@@ -1,0 +1,2 @@
+  fun pollable_source_new(pollable_stream': GObjectI): GSource =>
+    @g_pollable_source_new(pollable_stream'.getptr())

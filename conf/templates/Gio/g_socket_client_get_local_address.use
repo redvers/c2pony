@@ -1,0 +1,1 @@
+use @g_socket_client_get_local_address[GSocketAddress](client': GSocketClient)

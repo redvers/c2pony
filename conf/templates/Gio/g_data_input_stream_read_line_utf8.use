@@ -1,0 +1,1 @@
+use @g_data_input_stream_read_line_utf8[Pointer[U8]](stream': GDataInputStream, length': Pointer[U64] tag, cancellable': GCancellable, error': Pointer[GError])

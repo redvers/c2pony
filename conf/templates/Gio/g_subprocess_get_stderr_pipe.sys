@@ -1,0 +1,2 @@
+  fun get_stderr_pipe(subprocess': GSubprocess): GInputStream =>
+    @g_subprocess_get_stderr_pipe(subprocess')

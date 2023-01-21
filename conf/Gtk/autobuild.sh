@@ -4,6 +4,21 @@ echo > ../test/Gtk/Gtk.pony
 cat ../templates/Gtk/gtk_init.use >> ../test/Gtk/Gtk.pony
 cat ../templates/Gtk/Gtk.primitive >> ../test/Gtk/Gtk.pony
 cat ../templates/Gtk/gtk_init.sys >> ../test/Gtk/Gtk.pony
+echo > ../test/Gtk/GtkApplication.pony
+cat ../templates/Gtk/GtkApplication.class >> ../test/Gtk/GtkApplication.pony
+echo > ../test/Gtk/GtkApplicationI.pony
+cat ../templates/Gtk/GtkApplicationI.classinterface >> ../test/Gtk/GtkApplicationI.pony
+cat ../templates/Gtk/gtk_application_add_window.method >> ../test/Gtk/GtkApplicationI.pony
+echo > ../test/Gtk/GtkApplicationP.pony
+cat ../templates/Gtk/gtk_application_add_window.use >> ../test/Gtk/GtkApplicationP.pony
+cat ../templates/Gtk/GtkApplicationP.primitive >> ../test/Gtk/GtkApplicationP.pony
+cat ../templates/Gtk/gtk_application_add_window.sys >> ../test/Gtk/GtkApplicationP.pony
+echo > ../test/Gtk/GtkBuilder.pony
+cat ../templates/Gtk/GtkBuilder.class >> ../test/Gtk/GtkBuilder.pony
+echo > ../test/Gtk/GtkBuilderI.pony
+cat ../templates/Gtk/GtkBuilderI.classinterface >> ../test/Gtk/GtkBuilderI.pony
+echo > ../test/Gtk/GtkBuilderP.pony
+cat ../templates/Gtk/GtkBuilderP.primitive >> ../test/Gtk/GtkBuilderP.pony
 echo > ../test/Gtk/GtkWidget.pony
 cat ../templates/Gtk/GtkWidget.class >> ../test/Gtk/GtkWidget.pony
 echo > ../test/Gtk/GtkWidgetI.pony

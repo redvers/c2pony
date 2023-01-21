@@ -1,0 +1,2 @@
+  fun ref get_next(out_name': Pointer[Pointer[U8]] tag, value': Pointer[GVariant]): I32 =>
+    GMenuAttributeIterP.get_next(this, out_name', value')

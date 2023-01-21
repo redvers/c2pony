@@ -1,1 +1,1 @@
-use @gtk_application_set_menubar[None](application': GtkApplication, menubar': GMenuModel)
+use @gtk_application_set_menubar[None](application': Pointer[GObjectP], menubar': GMenuModel)

@@ -1,0 +1,2 @@
+  fun list_relocatable_schemas(): Pointer[Pointer[U8]] tag =>
+    @g_settings_list_relocatable_schemas()

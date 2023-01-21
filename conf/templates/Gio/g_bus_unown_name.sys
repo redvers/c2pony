@@ -1,0 +1,2 @@
+  fun bus_unown_name(owner_id': U32): None =>
+    @g_bus_unown_name(owner_id')

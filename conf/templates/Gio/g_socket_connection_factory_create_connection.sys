@@ -1,0 +1,2 @@
+  fun connection_factory_create_connection(socket': GSocket): GSocketConnection =>
+    @g_socket_connection_factory_create_connection(socket')

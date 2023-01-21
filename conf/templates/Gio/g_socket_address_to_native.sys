@@ -1,0 +1,2 @@
+  fun to_native(address': GSocketAddress, dest': Pointer[None] tag, destlen': U64, error': Pointer[GError]): I32 =>
+    @g_socket_address_to_native(address', dest', destlen', error')

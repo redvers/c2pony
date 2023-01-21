@@ -1,0 +1,1 @@
+use @g_simple_action_group_remove[None](simple': GSimpleActionGroup, action_name': Pointer[U8] tag)

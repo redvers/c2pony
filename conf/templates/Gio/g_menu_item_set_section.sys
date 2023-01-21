@@ -1,0 +1,2 @@
+  fun set_section(menu_item': GMenuItem, section': GMenuModel): None =>
+    @g_menu_item_set_section(menu_item', section')

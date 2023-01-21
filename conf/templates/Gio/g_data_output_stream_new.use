@@ -1,0 +1,1 @@
+use @g_data_output_stream_new[GDataOutputStream](base_stream': GOutputStream)

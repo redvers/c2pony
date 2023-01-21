@@ -1,0 +1,2 @@
+  fun set_multicast_ttl(socket': GSocket, ttl': U32): None =>
+    @g_socket_set_multicast_ttl(socket', ttl')

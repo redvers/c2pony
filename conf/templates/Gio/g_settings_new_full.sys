@@ -1,0 +1,2 @@
+  fun new_full(schema': GSettingsSchema, backend': GSettingsBackend, path': String): GSettings =>
+    @g_settings_new_full(schema', backend', path'.cstring())

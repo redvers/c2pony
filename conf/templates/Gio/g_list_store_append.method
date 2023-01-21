@@ -1,0 +1,2 @@
+  fun ref append(item': Pointer[None] tag): None =>
+    GListStoreP.append(this, item')

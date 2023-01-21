@@ -1,0 +1,2 @@
+  fun ref get_deletion_date(): GDateTime =>
+    GFileInfoP.get_deletion_date(this)

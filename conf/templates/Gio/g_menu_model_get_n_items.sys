@@ -1,0 +1,2 @@
+  fun get_n_items(model': GMenuModel): I32 =>
+    @g_menu_model_get_n_items(model')

@@ -1,2 +1,2 @@
-  fun ref get_application(): GtkApplication =>
+  fun ref get_application(): Pointer[GObjectP] =>
     GtkWindowP.get_application(this)

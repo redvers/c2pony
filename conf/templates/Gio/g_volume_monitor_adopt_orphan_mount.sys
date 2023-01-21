@@ -1,0 +1,2 @@
+  fun adopt_orphan_mount(mount': GMount): GVolume =>
+    @g_volume_monitor_adopt_orphan_mount(mount')

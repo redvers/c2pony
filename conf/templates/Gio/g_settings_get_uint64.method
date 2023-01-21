@@ -1,0 +1,2 @@
+  fun ref get_uint64(key': String): U64 =>
+    GSettingsP.get_uint64(this, key')

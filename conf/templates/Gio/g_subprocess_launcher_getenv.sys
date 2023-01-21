@@ -1,0 +1,2 @@
+  fun getenv(self': GSubprocessLauncher, variable': String): String iso^ =>
+    String.from_cstring(@g_subprocess_launcher_getenv(self', variable'.cstring())).clone()

@@ -1,0 +1,2 @@
+  fun ref withdraw_notification(id': String): None =>
+    GApplicationP.withdraw_notification(this, id')

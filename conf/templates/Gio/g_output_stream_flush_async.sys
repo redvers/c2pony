@@ -1,0 +1,2 @@
+  fun flush_async(stream': GOutputStream, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_output_stream_flush_async(stream', io_priority', cancellable', callback', user_data')

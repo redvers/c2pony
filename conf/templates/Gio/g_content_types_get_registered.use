@@ -1,0 +1,1 @@
+use @g_content_types_get_registered[GList]()

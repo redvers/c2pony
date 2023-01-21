@@ -1,0 +1,2 @@
+  fun ref set_option_context_description(description': String): None =>
+    GApplicationP.set_option_context_description(this, description')

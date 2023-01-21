@@ -1,0 +1,2 @@
+  fun set_default_action_and_target(notification': GNotification, action': String, target_format': String, ...): None =>
+    @g_notification_set_default_action_and_target(notification', action'.cstring(), target_format'.cstring(), ...)

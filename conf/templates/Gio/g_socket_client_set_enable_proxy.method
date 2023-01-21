@@ -1,0 +1,2 @@
+  fun ref set_enable_proxy(enable': I32): None =>
+    GSocketClientP.set_enable_proxy(this, enable')

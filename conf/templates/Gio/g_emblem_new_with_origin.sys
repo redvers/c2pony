@@ -1,0 +1,2 @@
+  fun new_with_origin(icon': GIcon, origin': U32): GEmblem =>
+    @g_emblem_new_with_origin(icon', origin')

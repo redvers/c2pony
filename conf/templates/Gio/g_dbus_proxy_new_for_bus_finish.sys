@@ -1,0 +1,2 @@
+  fun new_for_bus_finish(res': GAsyncResult, error': Pointer[GError]): GDBusProxy =>
+    @g_dbus_proxy_new_for_bus_finish(res', error')

@@ -1,0 +1,2 @@
+  fun wait_finish(subprocess': GSubprocess, result': GAsyncResult, error': Pointer[GError]): I32 =>
+    @g_subprocess_wait_finish(subprocess', result', error')

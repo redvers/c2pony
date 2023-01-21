@@ -1,0 +1,2 @@
+  fun ref take_fd(source_fd': I32, target_fd': I32): None =>
+    GSubprocessLauncherP.take_fd(this, source_fd', target_fd')

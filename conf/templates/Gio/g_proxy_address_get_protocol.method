@@ -1,0 +1,2 @@
+  fun ref get_protocol(): String iso^ =>
+    GProxyAddressP.get_protocol(this)

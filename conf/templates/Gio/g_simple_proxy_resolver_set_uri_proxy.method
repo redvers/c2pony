@@ -1,0 +1,2 @@
+  fun ref set_uri_proxy(uri_scheme': String, proxy': String): None =>
+    GSimpleProxyResolverP.set_uri_proxy(this, uri_scheme', proxy')

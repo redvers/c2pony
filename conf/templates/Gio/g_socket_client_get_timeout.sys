@@ -1,0 +1,2 @@
+  fun get_timeout(client': GSocketClient): U32 =>
+    @g_socket_client_get_timeout(client')

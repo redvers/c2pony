@@ -1,0 +1,2 @@
+  fun unregister_object(connection': GDBusConnection, registration_id': U32): I32 =>
+    @g_dbus_connection_unregister_object(connection', registration_id')

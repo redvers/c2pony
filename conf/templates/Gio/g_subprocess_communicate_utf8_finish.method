@@ -1,0 +1,2 @@
+  fun ref communicate_utf8_finish(result': GAsyncResult, stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': Pointer[GError]): I32 =>
+    GSubprocessP.communicate_utf8_finish(this, result', stdout_buf', stderr_buf', error')

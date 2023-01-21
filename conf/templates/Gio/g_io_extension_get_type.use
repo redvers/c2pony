@@ -1,0 +1,1 @@
+use @g_io_extension_get_type[U64](extension': GIOExtension)

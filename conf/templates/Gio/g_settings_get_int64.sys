@@ -1,0 +1,2 @@
+  fun get_int64(settings': GSettings, key': String): I64 =>
+    @g_settings_get_int64(settings', key'.cstring())

@@ -1,0 +1,1 @@
+use @g_subprocess_launcher_spawn[GSubprocess](self': GSubprocessLauncher, error': Pointer[GError], argv0': Pointer[U8] tag, ...)

@@ -1,0 +1,2 @@
+  fun ref listen(error': Pointer[GError]): I32 =>
+    GSocketP.listen(this, error')

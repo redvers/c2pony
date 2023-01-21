@@ -1,0 +1,2 @@
+  fun equal(mask': GInetAddressMask, mask2': GInetAddressMask): I32 =>
+    @g_inet_address_mask_equal(mask', mask2')

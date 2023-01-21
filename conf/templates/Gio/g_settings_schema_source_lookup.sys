@@ -1,0 +1,2 @@
+  fun lookup(source': GSettingsSchemaSource, schema_id': String, recursive': I32): GSettingsSchema =>
+    @g_settings_schema_source_lookup(source', schema_id'.cstring(), recursive')

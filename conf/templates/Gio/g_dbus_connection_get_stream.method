@@ -1,0 +1,2 @@
+  fun ref get_stream(): GIOStream =>
+    GDBusConnectionP.get_stream(this)

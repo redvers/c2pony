@@ -1,0 +1,2 @@
+  fun ref set_environ(env': Pointer[Pointer[U8]] tag): None =>
+    GSubprocessLauncherP.set_environ(this, env')

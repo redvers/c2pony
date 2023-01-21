@@ -1,1 +1,1 @@
-use @gtk_builder_add_objects_from_file[I32](builder': GtkBuilder, filename': Pointer[U8] tag, object_ids': Pointer[Pointer[U8]] tag, error': Pointer[GError])
+use @gtk_builder_add_objects_from_file[I32](builder': Pointer[GObjectP], filename': Pointer[U8] tag, object_ids': Pointer[Pointer[U8]] tag, error': Pointer[GError])

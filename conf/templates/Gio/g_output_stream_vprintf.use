@@ -1,0 +1,1 @@
+use @g_output_stream_vprintf[I32](stream': GOutputStream, bytes_written': Pointer[U64] tag, cancellable': GCancellable, error': Pointer[GError], format': Pointer[U8] tag, args': valisttag)

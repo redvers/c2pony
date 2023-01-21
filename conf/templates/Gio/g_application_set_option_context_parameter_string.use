@@ -1,0 +1,1 @@
+use @g_application_set_option_context_parameter_string[None](application': Pointer[GObjectP], parameter_string': Pointer[U8] tag)

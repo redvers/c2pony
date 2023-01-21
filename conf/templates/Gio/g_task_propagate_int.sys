@@ -1,0 +1,2 @@
+  fun propagate_int(task': GTask, error': Pointer[GError]): I64 =>
+    @g_task_propagate_int(task', error')

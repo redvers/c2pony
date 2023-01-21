@@ -1,0 +1,2 @@
+  fun ref bind(address': GSocketAddress, allow_reuse': I32, error': Pointer[GError]): I32 =>
+    GSocketP.bind(this, address', allow_reuse', error')

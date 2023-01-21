@@ -1,0 +1,2 @@
+  fun new_from_string(mask_string': String, error': Pointer[GError]): GInetAddressMask =>
+    @g_inet_address_mask_new_from_string(mask_string'.cstring(), error')

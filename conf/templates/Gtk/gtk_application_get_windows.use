@@ -1,1 +1,1 @@
-use @gtk_application_get_windows[GList](application': GtkApplication)
+use @gtk_application_get_windows[GList](application': Pointer[GObjectP])

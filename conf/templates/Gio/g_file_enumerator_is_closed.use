@@ -1,0 +1,1 @@
+use @g_file_enumerator_is_closed[I32](enumerator': GFileEnumerator)

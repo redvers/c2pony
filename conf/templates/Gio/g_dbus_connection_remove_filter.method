@@ -1,0 +1,2 @@
+  fun ref remove_filter(filter_id': U32): None =>
+    GDBusConnectionP.remove_filter(this, filter_id')

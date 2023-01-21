@@ -1,0 +1,2 @@
+  fun copy(message': GDBusMessage, error': Pointer[GError]): GDBusMessage =>
+    @g_dbus_message_copy(message', error')

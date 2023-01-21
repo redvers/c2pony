@@ -1,0 +1,2 @@
+  fun get_fd(cancellable': GCancellable): I32 =>
+    @g_cancellable_get_fd(cancellable')

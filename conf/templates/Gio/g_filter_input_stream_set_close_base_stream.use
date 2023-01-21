@@ -1,0 +1,1 @@
+use @g_filter_input_stream_set_close_base_stream[None](stream': GFilterInputStream, close_base': I32)

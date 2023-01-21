@@ -1,0 +1,2 @@
+  fun ref query_info(attributes': String, cancellable': GCancellable, error': Pointer[GError]): GFileInfo =>
+    GFileInputStreamP.query_info(this, attributes', cancellable', error')

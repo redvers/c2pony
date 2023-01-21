@@ -1,0 +1,2 @@
+  fun new(name': String, object': Pointer[None] tag, property_name': String): GPropertyAction =>
+    @g_property_action_new(name'.cstring(), object', property_name'.cstring())

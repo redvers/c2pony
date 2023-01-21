@@ -1,0 +1,2 @@
+  fun emit_signal(connection': GDBusConnection, destination_bus_name': String, object_path': String, interface_name': String, signal_name': String, parameters': GVariant, error': Pointer[GError]): I32 =>
+    @g_dbus_connection_emit_signal(connection', destination_bus_name'.cstring(), object_path'.cstring(), interface_name'.cstring(), signal_name'.cstring(), parameters', error')

@@ -1,0 +1,2 @@
+  fun new_for_xml(xml_data': String, error': Pointer[GError]): GDBusNodeInfo =>
+    @g_dbus_node_info_new_for_xml(xml_data'.cstring(), error')

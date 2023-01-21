@@ -1,0 +1,2 @@
+  fun ref set_attribute(attribute': String, format_string': String, ...): None =>
+    GMenuItemP.set_attribute(this, attribute', format_string', ...)

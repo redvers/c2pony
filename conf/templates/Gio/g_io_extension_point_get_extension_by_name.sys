@@ -1,0 +1,2 @@
+  fun get_extension_by_name(extension_point': GIOExtensionPoint, name': String): GIOExtension =>
+    @g_io_extension_point_get_extension_by_name(extension_point', name'.cstring())

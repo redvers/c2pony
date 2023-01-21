@@ -1,0 +1,2 @@
+  fun remove_attribute(info': GFileInfo, attribute': String): None =>
+    @g_file_info_remove_attribute(info', attribute'.cstring())

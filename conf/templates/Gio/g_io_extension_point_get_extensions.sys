@@ -1,0 +1,2 @@
+  fun get_extensions(extension_point': GIOExtensionPoint): GList =>
+    @g_io_extension_point_get_extensions(extension_point')

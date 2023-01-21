@@ -1,0 +1,2 @@
+  fun unref(info': GDBusSignalInfo): None =>
+    @g_dbus_signal_info_unref(info')

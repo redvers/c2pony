@@ -1,0 +1,2 @@
+  fun ref connect_to_host(host_and_port': String, default_port': U16, cancellable': GCancellable, error': Pointer[GError]): GSocketConnection =>
+    GSocketClientP.connect_to_host(this, host_and_port', default_port', cancellable', error')

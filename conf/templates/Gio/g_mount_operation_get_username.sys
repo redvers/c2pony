@@ -1,0 +1,2 @@
+  fun get_username(op': GMountOperation): String iso^ =>
+    String.from_cstring(@g_mount_operation_get_username(op')).clone()

@@ -1,0 +1,2 @@
+  fun has_namespace(info': GFileInfo, name_space': String): I32 =>
+    @g_file_info_has_namespace(info', name_space'.cstring())

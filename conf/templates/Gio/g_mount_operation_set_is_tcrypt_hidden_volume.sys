@@ -1,0 +1,2 @@
+  fun set_is_tcrypt_hidden_volume(op': GMountOperation, hidden_volume': I32): None =>
+    @g_mount_operation_set_is_tcrypt_hidden_volume(op', hidden_volume')

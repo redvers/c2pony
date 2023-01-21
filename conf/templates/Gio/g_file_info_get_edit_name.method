@@ -1,0 +1,2 @@
+  fun ref get_edit_name(): String iso^ =>
+    GFileInfoP.get_edit_name(this)

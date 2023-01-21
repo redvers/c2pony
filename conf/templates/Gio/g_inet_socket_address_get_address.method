@@ -1,0 +1,2 @@
+  fun ref get_address(): GInetAddress =>
+    GInetSocketAddressP.get_address(this)

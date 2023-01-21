@@ -1,0 +1,2 @@
+  fun ref get_display(info': GAppInfo, files': GList): String iso^ =>
+    GAppLaunchContextP.get_display(this, info', files')

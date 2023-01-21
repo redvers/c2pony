@@ -1,0 +1,2 @@
+  fun set_boolean(settings': GSettings, key': String, value': I32): I32 =>
+    @g_settings_set_boolean(settings', key'.cstring(), value')

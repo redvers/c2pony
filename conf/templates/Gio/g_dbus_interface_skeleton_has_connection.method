@@ -1,0 +1,2 @@
+  fun ref has_connection(connection': GDBusConnection): I32 =>
+    GDBusInterfaceSkeletonP.has_connection(this, connection')

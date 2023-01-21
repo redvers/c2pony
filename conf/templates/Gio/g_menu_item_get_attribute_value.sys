@@ -1,0 +1,2 @@
+  fun get_attribute_value(menu_item': GMenuItem, attribute': String, expected_type': GVariantType): GVariant =>
+    @g_menu_item_get_attribute_value(menu_item', attribute'.cstring(), expected_type')

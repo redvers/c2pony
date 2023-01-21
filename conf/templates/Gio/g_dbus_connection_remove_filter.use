@@ -1,0 +1,1 @@
+use @g_dbus_connection_remove_filter[None](connection': GDBusConnection, filter_id': U32)

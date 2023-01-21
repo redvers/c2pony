@@ -1,0 +1,2 @@
+  fun ref get_sort_order(): I32 =>
+    GFileInfoP.get_sort_order(this)

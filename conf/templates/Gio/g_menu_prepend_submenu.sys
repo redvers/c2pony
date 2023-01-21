@@ -1,0 +1,2 @@
+  fun prepend_submenu(menu': GMenu, label': String, submenu': GMenuModel): None =>
+    @g_menu_prepend_submenu(menu', label'.cstring(), submenu')

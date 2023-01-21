@@ -1,0 +1,1 @@
+use @g_resources_open_stream[GInputStream](path': Pointer[U8] tag, lookup_flags': U32, error': Pointer[GError])

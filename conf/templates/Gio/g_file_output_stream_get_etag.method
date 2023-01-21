@@ -1,0 +1,2 @@
+  fun ref get_etag(): String iso^ =>
+    GFileOutputStreamP.get_etag(this)

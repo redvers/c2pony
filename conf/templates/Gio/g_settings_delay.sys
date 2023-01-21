@@ -1,0 +1,2 @@
+  fun delay(settings': GSettings): None =>
+    @g_settings_delay(settings')

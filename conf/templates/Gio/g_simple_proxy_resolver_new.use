@@ -1,0 +1,1 @@
+use @g_simple_proxy_resolver_new[GProxyResolver](default_proxy': Pointer[U8] tag, ignore_hosts': Pointer[Pointer[U8]] tag)

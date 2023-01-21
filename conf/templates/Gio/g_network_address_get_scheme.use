@@ -1,0 +1,1 @@
+use @g_network_address_get_scheme[Pointer[U8]](addr': GNetworkAddress)

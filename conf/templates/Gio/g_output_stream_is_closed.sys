@@ -1,0 +1,2 @@
+  fun is_closed(stream': GOutputStream): I32 =>
+    @g_output_stream_is_closed(stream')

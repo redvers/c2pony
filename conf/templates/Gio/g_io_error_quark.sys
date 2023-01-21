@@ -1,0 +1,2 @@
+  fun io_error_quark(): U32 =>
+    @g_io_error_quark()

@@ -1,0 +1,2 @@
+  fun ref set_enabled(enabled': I32): None =>
+    GSimpleActionP.set_enabled(this, enabled')

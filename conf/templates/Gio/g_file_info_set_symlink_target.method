@@ -1,0 +1,2 @@
+  fun ref set_symlink_target(symlink_target': String): None =>
+    GFileInfoP.set_symlink_target(this, symlink_target')

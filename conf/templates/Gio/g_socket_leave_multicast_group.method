@@ -1,0 +1,2 @@
+  fun ref leave_multicast_group(group': GInetAddress, source_specific': I32, iface': String, error': Pointer[GError]): I32 =>
+    GSocketP.leave_multicast_group(this, group', source_specific', iface', error')

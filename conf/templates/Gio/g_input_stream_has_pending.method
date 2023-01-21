@@ -1,0 +1,2 @@
+  fun ref has_pending(): I32 =>
+    GInputStreamP.has_pending(this)

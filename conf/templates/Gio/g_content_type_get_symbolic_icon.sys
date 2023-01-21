@@ -1,0 +1,2 @@
+  fun content_type_get_symbolic_icon(type': String): GIcon =>
+    @g_content_type_get_symbolic_icon(type'.cstring())

@@ -1,0 +1,1 @@
+use @g_dbus_object_skeleton_remove_interface[None](object': GDBusObjectSkeleton, interface': GDBusInterfaceSkeleton)

@@ -1,0 +1,2 @@
+  fun steal_as_bytes(ostream': GMemoryOutputStream): GBytes =>
+    @g_memory_output_stream_steal_as_bytes(ostream')

@@ -1,0 +1,1 @@
+use @g_bus_get_finish[GDBusConnection](res': GAsyncResult, error': Pointer[GError])

@@ -1,0 +1,2 @@
+  fun ref close_finish(result': GAsyncResult, error': Pointer[GError]): I32 =>
+    GIOStreamP.close_finish(this, result', error')

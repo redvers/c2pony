@@ -1,0 +1,2 @@
+  fun unload(module': GIOModule): None =>
+    @g_io_module_unload(module')

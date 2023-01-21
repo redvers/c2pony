@@ -1,0 +1,2 @@
+  fun ref get_item_attribute_value(item_index': I32, attribute': String, expected_type': GVariantType): GVariant =>
+    GMenuModelP.get_item_attribute_value(this, item_index', attribute', expected_type')

@@ -1,0 +1,2 @@
+  fun ref shutdown(shutdown_read': I32, shutdown_write': I32, error': Pointer[GError]): I32 =>
+    GSocketP.shutdown(this, shutdown_read', shutdown_write', error')

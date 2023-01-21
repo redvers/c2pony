@@ -1,0 +1,1 @@
+use @g_dbus_proxy_new_for_bus_sync[GDBusProxy](bus_type': I32, flags': U32, info': GDBusInterfaceInfo, name': Pointer[U8] tag, object_path': Pointer[U8] tag, interface_name': Pointer[U8] tag, cancellable': GCancellable, error': Pointer[GError])

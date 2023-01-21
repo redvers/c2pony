@@ -1,0 +1,2 @@
+  fun new_for_address_finish(res': GAsyncResult, error': Pointer[GError]): GDBusConnection =>
+    @g_dbus_connection_new_for_address_finish(res', error')

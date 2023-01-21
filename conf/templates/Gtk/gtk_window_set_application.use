@@ -1,1 +1,1 @@
-use @gtk_window_set_application[None](window': Pointer[GObjectP], application': GtkApplication)
+use @gtk_window_set_application[None](window': Pointer[GObjectP], application': Pointer[GObjectP])

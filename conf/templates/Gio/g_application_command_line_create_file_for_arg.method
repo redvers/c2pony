@@ -1,0 +1,2 @@
+  fun ref create_file_for_arg(arg': String): GFile =>
+    GApplicationCommandLineP.create_file_for_arg(this, arg')

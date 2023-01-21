@@ -1,0 +1,1 @@
+use @g_file_enumerator_iterate[I32](direnum': GFileEnumerator, out_info': Pointer[GFileInfo], out_child': Pointer[GFile], cancellable': GCancellable, error': Pointer[GError])

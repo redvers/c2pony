@@ -1,0 +1,2 @@
+  fun io_modules_load_all_in_directory(dirname': String): GList =>
+    @g_io_modules_load_all_in_directory(dirname'.cstring())

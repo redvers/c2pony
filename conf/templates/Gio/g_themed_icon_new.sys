@@ -1,0 +1,2 @@
+  fun new(iconname': String): GIcon =>
+    @g_themed_icon_new(iconname'.cstring())

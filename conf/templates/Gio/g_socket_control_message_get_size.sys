@@ -1,0 +1,2 @@
+  fun get_size(message': GSocketControlMessage): U64 =>
+    @g_socket_control_message_get_size(message')

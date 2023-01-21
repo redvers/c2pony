@@ -1,0 +1,2 @@
+  fun read_uint16(stream': GDataInputStream, cancellable': GCancellable, error': Pointer[GError]): U16 =>
+    @g_data_input_stream_read_uint16(stream', cancellable', error')

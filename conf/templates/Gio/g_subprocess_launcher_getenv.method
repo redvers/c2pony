@@ -1,0 +1,2 @@
+  fun ref getenv(variable': String): String iso^ =>
+    GSubprocessLauncherP.getenv(this, variable')

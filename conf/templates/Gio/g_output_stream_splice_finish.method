@@ -1,0 +1,2 @@
+  fun ref splice_finish(result': GAsyncResult, error': Pointer[GError]): I64 =>
+    GOutputStreamP.splice_finish(this, result', error')

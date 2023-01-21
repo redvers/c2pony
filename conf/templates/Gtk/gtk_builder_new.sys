@@ -1,2 +1,2 @@
-  fun new(): GtkBuilder =>
-    @gtk_builder_new()
+  fun new(): Pointer[GObjectP] =>
+@gtk_builder_new()

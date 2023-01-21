@@ -1,0 +1,1 @@
+use @g_dbus_node_info_generate_xml[None](info': GDBusNodeInfo, indent': U32, string_builder': GString)

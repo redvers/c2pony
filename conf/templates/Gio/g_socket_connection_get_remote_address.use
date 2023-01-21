@@ -1,0 +1,1 @@
+use @g_socket_connection_get_remote_address[GSocketAddress](connection': GSocketConnection, error': Pointer[GError])

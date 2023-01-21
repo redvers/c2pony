@@ -1,0 +1,2 @@
+  fun new_for_bus_finish(res': GAsyncResult, error': Pointer[GError]): GDBusObjectManager =>
+    @g_dbus_object_manager_client_new_for_bus_finish(res', error')

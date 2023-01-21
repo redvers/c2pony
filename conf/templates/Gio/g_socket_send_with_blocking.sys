@@ -1,0 +1,2 @@
+  fun send_with_blocking(socket': GSocket, buffer': String, size': U64, blocking': I32, cancellable': GCancellable, error': Pointer[GError]): I64 =>
+    @g_socket_send_with_blocking(socket', buffer'.cstring(), size', blocking', cancellable', error')

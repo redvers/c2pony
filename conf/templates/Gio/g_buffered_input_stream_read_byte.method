@@ -1,0 +1,2 @@
+  fun ref read_byte(cancellable': GCancellable, error': Pointer[GError]): I32 =>
+    GBufferedInputStreamP.read_byte(this, cancellable', error')

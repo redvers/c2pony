@@ -1,0 +1,2 @@
+  fun ref get_header(header_field': U32): GVariant =>
+    GDBusMessageP.get_header(this, header_field')

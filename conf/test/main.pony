@@ -1,4 +1,5 @@
 use "Gtk"
+use "Gio"
 use "GLib"
 use "GObject"
 

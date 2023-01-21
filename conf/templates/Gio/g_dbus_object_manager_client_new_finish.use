@@ -1,0 +1,1 @@
+use @g_dbus_object_manager_client_new_finish[GDBusObjectManager](res': GAsyncResult, error': Pointer[GError])

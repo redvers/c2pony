@@ -1,0 +1,2 @@
+  fun ref_class(extension': GIOExtension): GTypeClass =>
+    @g_io_extension_ref_class(extension')

@@ -1,0 +1,2 @@
+  fun get_use_system_certdb(conn': GTlsConnection): I32 =>
+    @g_tls_connection_get_use_system_certdb(conn')

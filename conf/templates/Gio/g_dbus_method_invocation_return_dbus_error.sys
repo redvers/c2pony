@@ -1,0 +1,2 @@
+  fun return_dbus_error(invocation': GDBusMethodInvocation, error_name': String, error_message': String): None =>
+    @g_dbus_method_invocation_return_dbus_error(invocation', error_name'.cstring(), error_message'.cstring())

@@ -1,0 +1,2 @@
+  fun get_flags(server': GDBusServer): U32 =>
+    @g_dbus_server_get_flags(server')

@@ -1,0 +1,1 @@
+use @g_inet_address_mask_get_family[U32](mask': GInetAddressMask)

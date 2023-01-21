@@ -1,0 +1,2 @@
+  fun set_body(message': GDBusMessage, body': GVariant): None =>
+    @g_dbus_message_set_body(message', body')

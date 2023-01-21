@@ -1,0 +1,2 @@
+  fun get_port(addr': GNetworkAddress): U16 =>
+    @g_network_address_get_port(addr')

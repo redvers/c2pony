@@ -1,0 +1,2 @@
+  fun query_info(stream': GFileInputStream, attributes': String, cancellable': GCancellable, error': Pointer[GError]): GFileInfo =>
+    @g_file_input_stream_query_info(stream', attributes'.cstring(), cancellable', error')

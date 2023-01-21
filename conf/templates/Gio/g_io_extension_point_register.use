@@ -1,0 +1,1 @@
+use @g_io_extension_point_register[GIOExtensionPoint](name': Pointer[U8] tag)

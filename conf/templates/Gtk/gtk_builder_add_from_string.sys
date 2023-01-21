@@ -1,2 +1,2 @@
-  fun add_from_string(builder': GtkBuilder, buffer': String, length': I64, error': Pointer[GError]): I32 =>
-    @gtk_builder_add_from_string(builder', buffer'.cstring(), length', error')
+  fun add_from_string(builder': GtkBuilderI, buffer': String, length': I64, error': Pointer[GError]): I32 =>
+    @gtk_builder_add_from_string(builder'.getptr(), buffer'.cstring(), length', error')

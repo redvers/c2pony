@@ -1,0 +1,1 @@
+use @g_file_attribute_info_list_add[None](list': GFileAttributeInfoList, name': Pointer[U8] tag, type': U32, flags': U32)

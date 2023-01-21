@@ -1,0 +1,2 @@
+  fun ref get_level(): I32 =>
+    GSocketControlMessageP.get_level(this)

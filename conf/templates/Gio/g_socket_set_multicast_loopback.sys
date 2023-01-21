@@ -1,0 +1,2 @@
+  fun set_multicast_loopback(socket': GSocket, loopback': I32): None =>
+    @g_socket_set_multicast_loopback(socket', loopback')

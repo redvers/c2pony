@@ -1,0 +1,2 @@
+  fun start_message_processing(connection': GDBusConnection): None =>
+    @g_dbus_connection_start_message_processing(connection')

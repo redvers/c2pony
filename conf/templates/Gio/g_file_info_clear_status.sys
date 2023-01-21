@@ -1,0 +1,2 @@
+  fun clear_status(info': GFileInfo): None =>
+    @g_file_info_clear_status(info')

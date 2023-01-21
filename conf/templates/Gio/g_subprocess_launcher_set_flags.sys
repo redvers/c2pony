@@ -1,0 +1,2 @@
+  fun set_flags(self': GSubprocessLauncher, flags': U32): None =>
+    @g_subprocess_launcher_set_flags(self', flags')

@@ -1,0 +1,2 @@
+  fun ref send_message_with_reply_finish(res': GAsyncResult, error': Pointer[GError]): GDBusMessage =>
+    GDBusConnectionP.send_message_with_reply_finish(this, res', error')

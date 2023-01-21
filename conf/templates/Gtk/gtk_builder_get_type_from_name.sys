@@ -1,2 +1,2 @@
-  fun get_type_from_name(builder': GtkBuilder, type_name': String): U64 =>
-    @gtk_builder_get_type_from_name(builder', type_name'.cstring())
+  fun get_type_from_name(builder': GtkBuilderI, type_name': String): U64 =>
+    @gtk_builder_get_type_from_name(builder'.getptr(), type_name'.cstring())

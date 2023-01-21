@@ -1,0 +1,1 @@
+use @g_memory_output_stream_new_resizable[GOutputStream]()

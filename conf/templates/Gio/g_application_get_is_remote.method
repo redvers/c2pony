@@ -1,0 +1,2 @@
+  fun ref get_is_remote(): I32 =>
+    GApplicationP.get_is_remote(this)

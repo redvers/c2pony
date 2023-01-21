@@ -1,0 +1,2 @@
+  fun ref iterate(out_info': Pointer[GFileInfo], out_child': Pointer[GFile], cancellable': GCancellable, error': Pointer[GError]): I32 =>
+    GFileEnumeratorP.iterate(this, out_info', out_child', cancellable', error')

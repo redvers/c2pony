@@ -1,0 +1,2 @@
+  fun ref call_with_unix_fd_list_finish(out_fd_list': Pointer[GUnixFDList], res': GAsyncResult, error': Pointer[GError]): GVariant =>
+    GDBusProxyP.call_with_unix_fd_list_finish(this, out_fd_list', res', error')

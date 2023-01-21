@@ -1,0 +1,2 @@
+  fun ref get_negotiated_protocol(): String iso^ =>
+    GTlsConnectionP.get_negotiated_protocol(this)

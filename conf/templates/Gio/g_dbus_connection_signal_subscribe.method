@@ -1,0 +1,2 @@
+  fun ref signal_subscribe(sender': String, interface_name': String, member': String, object_path': String, arg0': String, flags': U32, callback': GDBusSignalCallback, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify): U32 =>
+    GDBusConnectionP.signal_subscribe(this, sender', interface_name', member', object_path', arg0', flags', callback', user_data', user_data_free_func')

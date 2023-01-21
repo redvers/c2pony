@@ -1,0 +1,1 @@
+use @g_task_propagate_pointer[Pointer[None] tag](task': GTask, error': Pointer[GError])

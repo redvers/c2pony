@@ -1,0 +1,2 @@
+  fun ref get_interface_name(): String iso^ =>
+    GDBusProxyP.get_interface_name(this)

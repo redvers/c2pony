@@ -1,0 +1,2 @@
+  fun get_resource(static_resource': GStaticResource): GResource =>
+    @g_static_resource_get_resource(static_resource')

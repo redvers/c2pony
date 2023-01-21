@@ -1,0 +1,2 @@
+  fun ref get_proxy_resolver(): GProxyResolver =>
+    GSocketClientP.get_proxy_resolver(this)

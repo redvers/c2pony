@@ -1,0 +1,2 @@
+  fun ref set_interface(value': String): None =>
+    GDBusMessageP.set_interface(this, value')

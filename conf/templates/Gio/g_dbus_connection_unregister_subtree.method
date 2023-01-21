@@ -1,0 +1,2 @@
+  fun ref unregister_subtree(registration_id': U32): I32 =>
+    GDBusConnectionP.unregister_subtree(this, registration_id')

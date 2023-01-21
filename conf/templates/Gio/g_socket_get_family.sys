@@ -1,0 +1,2 @@
+  fun get_family(socket': GSocket): U32 =>
+    @g_socket_get_family(socket')

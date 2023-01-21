@@ -1,0 +1,1 @@
+use @g_volume_monitor_get_connected_drives[GList](volume_monitor': GVolumeMonitor)

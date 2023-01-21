@@ -1,0 +1,1 @@
+use @g_subprocess_communicate_async[None](subprocess': GSubprocess, stdin_buf': GBytes, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

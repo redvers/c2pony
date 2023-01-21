@@ -1,0 +1,2 @@
+  fun subtract(matcher': GFileAttributeMatcher, subtract': GFileAttributeMatcher): GFileAttributeMatcher =>
+    @g_file_attribute_matcher_subtract(matcher', subtract')

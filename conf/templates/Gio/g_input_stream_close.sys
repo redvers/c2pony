@@ -1,0 +1,2 @@
+  fun close(stream': GInputStream, cancellable': GCancellable, error': Pointer[GError]): I32 =>
+    @g_input_stream_close(stream', cancellable', error')

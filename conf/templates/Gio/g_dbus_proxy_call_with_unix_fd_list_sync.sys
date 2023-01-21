@@ -1,0 +1,2 @@
+  fun call_with_unix_fd_list_sync(proxy': GDBusProxy, method_name': String, parameters': GVariant, flags': U32, timeout_msec': I32, fd_list': GUnixFDList, out_fd_list': Pointer[GUnixFDList], cancellable': GCancellable, error': Pointer[GError]): GVariant =>
+    @g_dbus_proxy_call_with_unix_fd_list_sync(proxy', method_name'.cstring(), parameters', flags', timeout_msec', fd_list', out_fd_list', cancellable', error')

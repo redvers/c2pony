@@ -1,0 +1,1 @@
+use @g_file_info_set_symlink_target[None](info': GFileInfo, symlink_target': Pointer[U8] tag)

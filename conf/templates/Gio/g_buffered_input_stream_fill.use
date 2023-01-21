@@ -1,0 +1,1 @@
+use @g_buffered_input_stream_fill[I64](stream': GBufferedInputStream, count': I64, cancellable': GCancellable, error': Pointer[GError])

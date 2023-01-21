@@ -1,0 +1,1 @@
+use @g_task_get_cancellable[GCancellable](task': GTask)

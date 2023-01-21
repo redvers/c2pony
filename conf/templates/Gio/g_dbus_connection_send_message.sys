@@ -1,0 +1,2 @@
+  fun send_message(connection': GDBusConnection, message': GDBusMessage, flags': U32, out_serial': Pointer[U32] tag, error': Pointer[GError]): I32 =>
+    @g_dbus_connection_send_message(connection', message', flags', out_serial', error')

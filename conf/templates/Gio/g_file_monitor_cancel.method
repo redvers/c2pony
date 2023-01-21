@@ -1,0 +1,2 @@
+  fun ref cancel(): I32 =>
+    GFileMonitorP.cancel(this)

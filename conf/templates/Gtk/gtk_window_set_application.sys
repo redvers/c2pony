@@ -1,2 +1,2 @@
-  fun set_application(window': GtkWindowI, application': GtkApplication): None =>
-    @gtk_window_set_application(window'.getptr(), application')
+  fun set_application(window': GtkWindowI, application': GtkApplicationI): None =>
+    @gtk_window_set_application(window'.getptr(), application'.getptr())

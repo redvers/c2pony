@@ -1,0 +1,2 @@
+  fun ref get_properties(): GVariant =>
+    GDBusInterfaceSkeletonP.get_properties(this)

@@ -1,0 +1,2 @@
+  fun ref get(index': I32, error': Pointer[GError]): I32 =>
+    GUnixFDListP.get(this, index', error')

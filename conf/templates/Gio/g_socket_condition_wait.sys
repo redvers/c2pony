@@ -1,0 +1,2 @@
+  fun condition_wait(socket': GSocket, condition': U32, cancellable': GCancellable, error': Pointer[GError]): I32 =>
+    @g_socket_condition_wait(socket', condition', cancellable', error')

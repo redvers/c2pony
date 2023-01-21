@@ -1,0 +1,2 @@
+  fun ref read_bytes_finish(result': GAsyncResult, error': Pointer[GError]): GBytes =>
+    GInputStreamP.read_bytes_finish(this, result', error')

@@ -1,0 +1,2 @@
+  fun ref speaks_ipv4(): I32 =>
+    GSocketP.speaks_ipv4(this)

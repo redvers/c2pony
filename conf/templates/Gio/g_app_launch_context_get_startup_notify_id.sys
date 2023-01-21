@@ -1,0 +1,2 @@
+  fun get_startup_notify_id(context': GAppLaunchContext, info': GAppInfo, files': GList): String iso^ =>
+    String.from_cstring(@g_app_launch_context_get_startup_notify_id(context', info', files')).clone()

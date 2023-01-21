@@ -1,0 +1,2 @@
+  fun get_inactivity_timeout(application': GApplicationI): U32 =>
+    @g_application_get_inactivity_timeout(application'.getptr())

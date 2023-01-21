@@ -1,0 +1,2 @@
+  fun skip_async(stream': GInputStream, count': U64, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_input_stream_skip_async(stream', count', io_priority', cancellable', callback', user_data')

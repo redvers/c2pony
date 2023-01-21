@@ -1,0 +1,2 @@
+  fun ref stop(): None =>
+    GSocketServiceP.stop(this)

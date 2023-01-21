@@ -1,0 +1,2 @@
+  fun receive(socket': GSocket, buffer': String, size': U64, cancellable': GCancellable, error': Pointer[GError]): I64 =>
+    @g_socket_receive(socket', buffer'.cstring(), size', cancellable', error')

@@ -1,0 +1,2 @@
+  fun get_body(message': GDBusMessage): GVariant =>
+    @g_dbus_message_get_body(message')

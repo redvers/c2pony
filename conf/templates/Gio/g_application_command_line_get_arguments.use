@@ -1,0 +1,1 @@
+use @g_application_command_line_get_arguments[Pointer[Pointer[U8]] tag](cmdline': GApplicationCommandLine, argc': Pointer[I32] tag)

@@ -1,0 +1,2 @@
+  fun ref close(error': Pointer[GError]): I32 =>
+    GSocketP.close(this, error')

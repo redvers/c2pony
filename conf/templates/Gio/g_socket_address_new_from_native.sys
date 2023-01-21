@@ -1,0 +1,2 @@
+  fun new_from_native(native': Pointer[None] tag, len': U64): GSocketAddress =>
+    @g_socket_address_new_from_native(native', len')

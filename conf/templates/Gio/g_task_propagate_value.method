@@ -1,0 +1,2 @@
+  fun ref propagate_value(value': GValue, error': Pointer[GError]): I32 =>
+    GTaskP.propagate_value(this, value', error')

@@ -1,0 +1,2 @@
+  fun ref equal(other_address': GInetAddress): I32 =>
+    GInetAddressP.equal(this, other_address')

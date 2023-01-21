@@ -1,0 +1,2 @@
+  fun ref get_modification_time(result': GTimeVal): None =>
+    GFileInfoP.get_modification_time(this, result')

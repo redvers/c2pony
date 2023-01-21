@@ -1,0 +1,2 @@
+  fun ref create_source(condition': U32, cancellable': GCancellable): GSource =>
+    GSocketP.create_source(this, condition', cancellable')

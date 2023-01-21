@@ -1,0 +1,1 @@
+use @g_notification_set_body[None](notification': GNotification, body': Pointer[U8] tag)

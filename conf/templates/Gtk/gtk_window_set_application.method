@@ -1,2 +1,2 @@
-  fun ref set_application(application': GtkApplication): None =>
+  fun ref set_application(application': GtkApplicationI): None =>
     GtkWindowP.set_application(this, application')

@@ -1,2 +1,2 @@
-  fun inhibit(application': GtkApplication, window': GtkWindowI, flags': U32, reason': String): U32 =>
-    @gtk_application_inhibit(application', window'.getptr(), flags', reason'.cstring())
+  fun inhibit(application': GtkApplicationI, window': GtkWindowI, flags': U32, reason': String): U32 =>
+    @gtk_application_inhibit(application'.getptr(), window'.getptr(), flags', reason'.cstring())

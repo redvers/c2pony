@@ -1,0 +1,1 @@
+use @g_dbus_connection_flush[None](connection': GDBusConnection, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

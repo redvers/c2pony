@@ -75,6 +75,10 @@
                 <xsl:text>G</xsl:text>
                 <xsl:value-of select="substring-after($parent, 'GObject.')"/>
               </xsl:when>
+              <xsl:when test="starts-with($parent, 'Gio.')">
+                <xsl:text>G</xsl:text>
+                <xsl:value-of select="substring-after($parent, 'Gio.')"/>
+              </xsl:when>
               <xsl:otherwise>
                 <xsl:value-of select="$classprefix"/>
                 <xsl:value-of select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@parent"/>

@@ -1,0 +1,1 @@
+use @g_menu_model_get_item_link[GMenuModel](model': GMenuModel, item_index': I32, link': Pointer[U8] tag)

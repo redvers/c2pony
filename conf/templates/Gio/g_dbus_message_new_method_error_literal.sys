@@ -1,0 +1,2 @@
+  fun new_method_error_literal(method_call_message': GDBusMessage, error_name': String, error_message': String): GDBusMessage =>
+    @g_dbus_message_new_method_error_literal(method_call_message', error_name'.cstring(), error_message'.cstring())

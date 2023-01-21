@@ -1,0 +1,2 @@
+  fun ref get_error_name(): String iso^ =>
+    GDBusMessageP.get_error_name(this)

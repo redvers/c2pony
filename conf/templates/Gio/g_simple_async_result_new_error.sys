@@ -1,0 +1,2 @@
+  fun new_error(source_object': GObjectI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag, domain': U32, code': I32, format': String, ...): GSimpleAsyncResult =>
+    @g_simple_async_result_new_error(source_object'.getptr(), callback', user_data', domain', code', format'.cstring(), ...)

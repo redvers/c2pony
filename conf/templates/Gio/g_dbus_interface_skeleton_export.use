@@ -1,0 +1,1 @@
+use @g_dbus_interface_skeleton_export[I32](interface': GDBusInterfaceSkeleton, connection': GDBusConnection, object_path': Pointer[U8] tag, error': Pointer[GError])

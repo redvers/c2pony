@@ -1,0 +1,2 @@
+  fun ref check_connect_result(error': Pointer[GError]): I32 =>
+    GSocketP.check_connect_result(this, error')

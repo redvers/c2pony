@@ -1,0 +1,2 @@
+  fun ref set_action_and_target(action': String, format_string': String, ...): None =>
+    GMenuItemP.set_action_and_target(this, action', format_string', ...)

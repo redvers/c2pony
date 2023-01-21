@@ -1,0 +1,2 @@
+  fun ref add_data(data': Pointer[None] tag, len': I64, destroy': GDestroyNotify): None =>
+    GMemoryInputStreamP.add_data(this, data', len', destroy')

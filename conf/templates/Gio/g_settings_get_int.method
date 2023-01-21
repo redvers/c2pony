@@ -1,0 +1,2 @@
+  fun ref get_int(key': String): I32 =>
+    GSettingsP.get_int(this, key')

@@ -1,0 +1,2 @@
+  fun ref copy(error': Pointer[GError]): GDBusMessage =>
+    GDBusMessageP.copy(this, error')

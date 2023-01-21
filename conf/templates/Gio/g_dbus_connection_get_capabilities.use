@@ -1,0 +1,1 @@
+use @g_dbus_connection_get_capabilities[U32](connection': GDBusConnection)

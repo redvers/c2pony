@@ -1,0 +1,2 @@
+  fun get_service(srv': GNetworkService): String iso^ =>
+    String.from_cstring(@g_network_service_get_service(srv')).clone()

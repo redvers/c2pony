@@ -1,0 +1,1 @@
+use @g_task_propagate_value[I32](task': GTask, value': GValue, error': Pointer[GError])

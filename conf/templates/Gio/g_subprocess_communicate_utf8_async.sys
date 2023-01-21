@@ -1,0 +1,2 @@
+  fun communicate_utf8_async(subprocess': GSubprocess, stdin_buf': String, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_subprocess_communicate_utf8_async(subprocess', stdin_buf'.cstring(), cancellable', callback', user_data')

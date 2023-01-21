@@ -1,0 +1,2 @@
+  fun lookup_records(resolver': GResolver, rrname': String, record_type': U32, cancellable': GCancellable, error': Pointer[GError]): GList =>
+    @g_resolver_lookup_records(resolver', rrname'.cstring(), record_type', cancellable', error')

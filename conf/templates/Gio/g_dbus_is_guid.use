@@ -1,0 +1,1 @@
+use @g_dbus_is_guid[I32](string': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun get_byte_order(message': GDBusMessage): U32 =>
+    @g_dbus_message_get_byte_order(message')

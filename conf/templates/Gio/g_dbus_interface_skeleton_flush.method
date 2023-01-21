@@ -1,0 +1,2 @@
+  fun ref flush(): None =>
+    GDBusInterfaceSkeletonP.flush(this)

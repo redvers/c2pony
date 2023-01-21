@@ -1,0 +1,1 @@
+use @g_notification_set_default_action_and_target_value[None](notification': GNotification, action': Pointer[U8] tag, target': GVariant)

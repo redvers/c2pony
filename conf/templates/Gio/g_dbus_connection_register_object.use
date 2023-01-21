@@ -1,0 +1,1 @@
+use @g_dbus_connection_register_object[U32](connection': GDBusConnection, object_path': Pointer[U8] tag, interface_info': GDBusInterfaceInfo, vtable': GDBusInterfaceVTable, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify, error': Pointer[GError])

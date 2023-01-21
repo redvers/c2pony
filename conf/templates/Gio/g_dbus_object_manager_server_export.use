@@ -1,0 +1,1 @@
+use @g_dbus_object_manager_server_export[None](manager': GDBusObjectManagerServer, object': GDBusObjectSkeleton)

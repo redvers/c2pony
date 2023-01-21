@@ -1,2 +1,2 @@
-  fun new_from_resource(resource_path': String): GtkBuilder =>
-    @gtk_builder_new_from_resource(resource_path'.cstring())
+  fun new_from_resource(resource_path': String): Pointer[GObjectP] =>
+@gtk_builder_new_from_resource(resource_path'.cstring())

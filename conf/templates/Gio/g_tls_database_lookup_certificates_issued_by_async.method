@@ -1,0 +1,2 @@
+  fun ref lookup_certificates_issued_by_async(issuer_raw_dn': GByteArray, interaction': GTlsInteraction, flags': U32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GTlsDatabaseP.lookup_certificates_issued_by_async(this, issuer_raw_dn', interaction', flags', cancellable', callback', user_data')

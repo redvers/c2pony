@@ -1,0 +1,2 @@
+  fun ref add_main_option(long_name': String, short_name': U8, flags': U32, arg': U32, description': String, arg_description': String): None =>
+    GApplicationP.add_main_option(this, long_name', short_name', flags', arg', description', arg_description')

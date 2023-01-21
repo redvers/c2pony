@@ -1,0 +1,2 @@
+  fun stop(self': GTestDBus): None =>
+    @g_test_dbus_stop(self')

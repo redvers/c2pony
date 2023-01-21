@@ -1,0 +1,1 @@
+use @g_tcp_connection_get_graceful_disconnect[I32](connection': GTcpConnection)

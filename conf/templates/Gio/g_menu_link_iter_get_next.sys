@@ -1,0 +1,2 @@
+  fun get_next(iter': GMenuLinkIter, out_link': Pointer[Pointer[U8]] tag, value': Pointer[GMenuModel]): I32 =>
+    @g_menu_link_iter_get_next(iter', out_link', value')

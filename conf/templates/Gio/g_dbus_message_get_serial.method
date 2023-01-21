@@ -1,0 +1,2 @@
+  fun ref get_serial(): U32 =>
+    GDBusMessageP.get_serial(this)

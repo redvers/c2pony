@@ -1,0 +1,2 @@
+  fun ref get_converter(): GConverter =>
+    GConverterInputStreamP.get_converter(this)

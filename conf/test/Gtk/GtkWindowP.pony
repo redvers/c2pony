@@ -7,6 +7,7 @@ use @gtk_window_set_title[None](window': Pointer[GObjectP], title': Pointer[U8] 
 
 use "../GLib"
 use "../GObject"
+use "../Gio"
 use "lib:gtk-4"
     
 primitive GtkWindowP

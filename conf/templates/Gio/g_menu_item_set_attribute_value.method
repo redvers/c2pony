@@ -1,0 +1,2 @@
+  fun ref set_attribute_value(attribute': String, value': GVariant): None =>
+    GMenuItemP.set_attribute_value(this, attribute', value')

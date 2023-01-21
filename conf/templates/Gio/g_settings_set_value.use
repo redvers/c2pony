@@ -1,0 +1,1 @@
+use @g_settings_set_value[I32](settings': GSettings, key': Pointer[U8] tag, value': GVariant)

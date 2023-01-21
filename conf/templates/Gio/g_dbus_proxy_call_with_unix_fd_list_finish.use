@@ -1,0 +1,1 @@
+use @g_dbus_proxy_call_with_unix_fd_list_finish[GVariant](proxy': GDBusProxy, out_fd_list': Pointer[GUnixFDList], res': GAsyncResult, error': Pointer[GError])

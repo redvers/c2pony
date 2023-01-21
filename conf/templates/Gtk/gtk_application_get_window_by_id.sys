@@ -1,2 +1,2 @@
-  fun get_window_by_id(application': GtkApplication, id': U32): Pointer[GObjectP] =>
-@gtk_application_get_window_by_id(application', id')
+  fun get_window_by_id(application': GtkApplicationI, id': U32): Pointer[GObjectP] =>
+@gtk_application_get_window_by_id(application'.getptr(), id')

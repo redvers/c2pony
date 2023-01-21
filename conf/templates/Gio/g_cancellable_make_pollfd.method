@@ -1,0 +1,2 @@
+  fun ref make_pollfd(pollfd': GPollFD): I32 =>
+    GCancellableP.make_pollfd(this, pollfd')

@@ -1,0 +1,2 @@
+  fun ref receive(buffer': String, size': U64, cancellable': GCancellable, error': Pointer[GError]): I64 =>
+    GSocketP.receive(this, buffer', size', cancellable', error')

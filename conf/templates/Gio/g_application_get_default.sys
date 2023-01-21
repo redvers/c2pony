@@ -1,0 +1,2 @@
+  fun get_default(): Pointer[GObjectP] =>
+@g_application_get_default()

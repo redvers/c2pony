@@ -1,0 +1,1 @@
+use @g_dbus_proxy_get_cached_property[GVariant](proxy': GDBusProxy, property_name': Pointer[U8] tag)

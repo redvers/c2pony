@@ -1,0 +1,2 @@
+  fun dbus_address_get_stream_finish(res': GAsyncResult, out_guid': Pointer[Pointer[U8]] tag, error': Pointer[GError]): GIOStream =>
+    @g_dbus_address_get_stream_finish(res', out_guid', error')

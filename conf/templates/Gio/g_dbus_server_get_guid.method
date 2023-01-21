@@ -1,0 +1,2 @@
+  fun ref get_guid(): String iso^ =>
+    GDBusServerP.get_guid(this)

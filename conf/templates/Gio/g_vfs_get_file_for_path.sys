@@ -1,0 +1,2 @@
+  fun get_file_for_path(vfs': GVfs, path': String): GFile =>
+    @g_vfs_get_file_for_path(vfs', path'.cstring())

@@ -1,0 +1,2 @@
+  fun ref equal(mask2': GInetAddressMask): I32 =>
+    GInetAddressMaskP.equal(this, mask2')

@@ -1,0 +1,2 @@
+  fun ref prepend(label': String, detailed_action': String): None =>
+    GMenuP.prepend(this, label', detailed_action')

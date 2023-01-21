@@ -1,0 +1,1 @@
+use @g_dbus_proxy_call_finish[GVariant](proxy': GDBusProxy, res': GAsyncResult, error': Pointer[GError])

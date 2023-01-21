@@ -1,0 +1,2 @@
+  fun new(name': String, parameter_type': GVariantType): GSimpleAction =>
+    @g_simple_action_new(name'.cstring(), parameter_type')

@@ -1,0 +1,2 @@
+  fun ref register_object(object_path': String, interface_info': GDBusInterfaceInfo, vtable': GDBusInterfaceVTable, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify, error': Pointer[GError]): U32 =>
+    GDBusConnectionP.register_object(this, object_path', interface_info', vtable', user_data', user_data_free_func', error')

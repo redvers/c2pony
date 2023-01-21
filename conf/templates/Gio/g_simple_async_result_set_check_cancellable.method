@@ -1,0 +1,2 @@
+  fun ref set_check_cancellable(check_cancellable': GCancellable): None =>
+    GSimpleAsyncResultP.set_check_cancellable(this, check_cancellable')

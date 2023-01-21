@@ -1,0 +1,2 @@
+  fun ref wait_check(cancellable': GCancellable, error': Pointer[GError]): I32 =>
+    GSubprocessP.wait_check(this, cancellable', error')

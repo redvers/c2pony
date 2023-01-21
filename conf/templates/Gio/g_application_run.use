@@ -1,0 +1,1 @@
+use @g_application_run[I32](application': Pointer[GObjectP], argc': I32, argv': Pointer[Pointer[U8]] tag)

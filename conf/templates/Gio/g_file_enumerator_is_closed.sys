@@ -1,0 +1,2 @@
+  fun is_closed(enumerator': GFileEnumerator): I32 =>
+    @g_file_enumerator_is_closed(enumerator')

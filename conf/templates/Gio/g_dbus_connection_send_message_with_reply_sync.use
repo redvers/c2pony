@@ -1,0 +1,1 @@
+use @g_dbus_connection_send_message_with_reply_sync[GDBusMessage](connection': GDBusConnection, message': GDBusMessage, flags': U32, timeout_msec': I32, out_serial': Pointer[U32] tag, cancellable': GCancellable, error': Pointer[GError])

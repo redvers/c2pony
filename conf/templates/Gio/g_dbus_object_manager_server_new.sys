@@ -1,0 +1,2 @@
+  fun new(object_path': String): GDBusObjectManagerServer =>
+    @g_dbus_object_manager_server_new(object_path'.cstring())

@@ -1,0 +1,2 @@
+  fun remove(store': GListStore, position': U32): None =>
+    @g_list_store_remove(store', position')

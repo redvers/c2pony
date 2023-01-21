@@ -1,0 +1,2 @@
+  fun to_string(matcher': GFileAttributeMatcher): String iso^ =>
+    String.from_cstring(@g_file_attribute_matcher_to_string(matcher')).clone()

@@ -1,0 +1,2 @@
+  fun make_pollfd(cancellable': GCancellable, pollfd': GPollFD): I32 =>
+    @g_cancellable_make_pollfd(cancellable', pollfd')

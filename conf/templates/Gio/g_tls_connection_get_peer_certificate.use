@@ -1,0 +1,1 @@
+use @g_tls_connection_get_peer_certificate[GTlsCertificate](conn': GTlsConnection)

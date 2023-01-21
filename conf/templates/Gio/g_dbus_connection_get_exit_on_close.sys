@@ -1,0 +1,2 @@
+  fun get_exit_on_close(connection': GDBusConnection): I32 =>
+    @g_dbus_connection_get_exit_on_close(connection')

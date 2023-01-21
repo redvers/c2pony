@@ -1,0 +1,1 @@
+use @g_dbus_action_group_get[GDBusActionGroup](connection': GDBusConnection, bus_name': Pointer[U8] tag, object_path': Pointer[U8] tag)

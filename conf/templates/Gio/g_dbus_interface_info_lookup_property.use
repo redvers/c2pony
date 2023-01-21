@@ -1,0 +1,1 @@
+use @g_dbus_interface_info_lookup_property[GDBusPropertyInfo](info': GDBusInterfaceInfo, name': Pointer[U8] tag)

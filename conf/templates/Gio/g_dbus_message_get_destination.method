@@ -1,0 +1,2 @@
+  fun ref get_destination(): String iso^ =>
+    GDBusMessageP.get_destination(this)

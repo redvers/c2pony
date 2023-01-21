@@ -1,0 +1,2 @@
+  fun get_interface_info(proxy': GDBusProxy): GDBusInterfaceInfo =>
+    @g_dbus_proxy_get_interface_info(proxy')

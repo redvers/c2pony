@@ -1,0 +1,1 @@
+use @g_input_stream_skip[I64](stream': GInputStream, count': U64, cancellable': GCancellable, error': Pointer[GError])

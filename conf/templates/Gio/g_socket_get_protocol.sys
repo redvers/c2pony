@@ -1,0 +1,2 @@
+  fun get_protocol(socket': GSocket): I32 =>
+    @g_socket_get_protocol(socket')

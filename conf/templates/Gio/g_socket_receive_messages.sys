@@ -1,0 +1,2 @@
+  fun receive_messages(socket': GSocket, messages': GInputMessage, num_messages': U32, flags': I32, cancellable': GCancellable, error': Pointer[GError]): I32 =>
+    @g_socket_receive_messages(socket', messages', num_messages', flags', cancellable', error')

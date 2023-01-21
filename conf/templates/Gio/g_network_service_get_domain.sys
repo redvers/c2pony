@@ -1,0 +1,2 @@
+  fun get_domain(srv': GNetworkService): String iso^ =>
+    String.from_cstring(@g_network_service_get_domain(srv')).clone()

@@ -1,0 +1,2 @@
+  fun take_error(simple': GSimpleAsyncResult, error': GError): None =>
+    @g_simple_async_result_take_error(simple', error')

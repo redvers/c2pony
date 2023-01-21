@@ -1,0 +1,1 @@
+use @g_file_info_set_attribute_status[I32](info': GFileInfo, attribute': Pointer[U8] tag, status': U32)

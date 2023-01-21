@@ -1,0 +1,2 @@
+  fun ref run_in_thread(task_func': GTaskThreadFunc): None =>
+    GTaskP.run_in_thread(this, task_func')

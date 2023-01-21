@@ -1,0 +1,1 @@
+use @g_file_info_get_is_symlink[I32](info': GFileInfo)

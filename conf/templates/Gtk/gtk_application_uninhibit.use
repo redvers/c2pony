@@ -1,1 +1,1 @@
-use @gtk_application_uninhibit[None](application': GtkApplication, cookie': U32)
+use @gtk_application_uninhibit[None](application': Pointer[GObjectP], cookie': U32)

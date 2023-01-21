@@ -1,0 +1,1 @@
+use @g_buffered_input_stream_fill_finish[I64](stream': GBufferedInputStream, result': GAsyncResult, error': Pointer[GError])

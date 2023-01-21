@@ -1,0 +1,1 @@
+use @g_dbus_connection_new_sync[GDBusConnection](stream': GIOStream, guid': Pointer[U8] tag, flags': U32, observer': GDBusAuthObserver, cancellable': GCancellable, error': Pointer[GError])

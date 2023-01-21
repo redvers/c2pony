@@ -1,0 +1,2 @@
+  fun ref set_error_name(value': String): None =>
+    GDBusMessageP.set_error_name(this, value')

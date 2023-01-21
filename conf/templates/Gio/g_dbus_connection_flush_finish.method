@@ -1,0 +1,2 @@
+  fun ref flush_finish(res': GAsyncResult, error': Pointer[GError]): I32 =>
+    GDBusConnectionP.flush_finish(this, res', error')

@@ -1,0 +1,1 @@
+use @g_task_return_boolean[None](task': GTask, result': I32)

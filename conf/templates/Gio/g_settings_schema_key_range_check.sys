@@ -1,0 +1,2 @@
+  fun range_check(key': GSettingsSchemaKey, value': GVariant): I32 =>
+    @g_settings_schema_key_range_check(key', value')

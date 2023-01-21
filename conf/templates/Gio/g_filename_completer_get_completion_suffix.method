@@ -1,0 +1,2 @@
+  fun ref get_completion_suffix(initial_text': String): String iso^ =>
+    GFilenameCompleterP.get_completion_suffix(this, initial_text')

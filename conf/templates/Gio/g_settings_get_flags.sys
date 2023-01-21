@@ -1,0 +1,2 @@
+  fun get_flags(settings': GSettings, key': String): U32 =>
+    @g_settings_get_flags(settings', key'.cstring())

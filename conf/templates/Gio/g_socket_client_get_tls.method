@@ -1,0 +1,2 @@
+  fun ref get_tls(): I32 =>
+    GSocketClientP.get_tls(this)

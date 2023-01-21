@@ -1,0 +1,2 @@
+  fun serialize(message': GSocketControlMessage, data': Pointer[None] tag): None =>
+    @g_socket_control_message_serialize(message', data')

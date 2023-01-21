@@ -1,0 +1,2 @@
+  fun revert(settings': GSettings): None =>
+    @g_settings_revert(settings')

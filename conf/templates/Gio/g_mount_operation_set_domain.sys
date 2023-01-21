@@ -1,0 +1,2 @@
+  fun set_domain(op': GMountOperation, domain': String): None =>
+    @g_mount_operation_set_domain(op', domain'.cstring())

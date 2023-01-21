@@ -1,0 +1,2 @@
+  fun ref set_proxy_resolver(proxy_resolver': GProxyResolver): None =>
+    GSocketClientP.set_proxy_resolver(this, proxy_resolver')

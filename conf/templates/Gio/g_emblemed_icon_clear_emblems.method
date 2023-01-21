@@ -1,0 +1,2 @@
+  fun ref clear_emblems(): None =>
+    GEmblemedIconP.clear_emblems(this)

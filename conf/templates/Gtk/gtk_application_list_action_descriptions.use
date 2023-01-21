@@ -1,1 +1,1 @@
-use @gtk_application_list_action_descriptions[Pointer[Pointer[U8]] tag](application': GtkApplication)
+use @gtk_application_list_action_descriptions[Pointer[Pointer[U8]] tag](application': Pointer[GObjectP])

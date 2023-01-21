@@ -1,1 +1,1 @@
-use @gtk_builder_value_from_string_type[I32](builder': GtkBuilder, type': U64, string': Pointer[U8] tag, value': GValue, error': Pointer[GError])
+use @gtk_builder_value_from_string_type[I32](builder': Pointer[GObjectP], type': U64, string': Pointer[U8] tag, value': GValue, error': Pointer[GError])

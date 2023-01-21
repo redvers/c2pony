@@ -1,0 +1,2 @@
+  fun ref lock(): None =>
+    GDBusMessageP.lock(this)

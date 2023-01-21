@@ -1,2 +1,2 @@
-  fun value_from_string(builder': GtkBuilder, pspec': GParamSpec, string': String, value': GValue, error': Pointer[GError]): I32 =>
-    @gtk_builder_value_from_string(builder', pspec', string'.cstring(), value', error')
+  fun value_from_string(builder': GtkBuilderI, pspec': GParamSpec, string': String, value': GValue, error': Pointer[GError]): I32 =>
+    @gtk_builder_value_from_string(builder'.getptr(), pspec', string'.cstring(), value', error')

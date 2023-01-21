@@ -1,0 +1,2 @@
+  fun fini(static_resource': GStaticResource): None =>
+    @g_static_resource_fini(static_resource')

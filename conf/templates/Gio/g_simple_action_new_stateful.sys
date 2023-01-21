@@ -1,0 +1,2 @@
+  fun new_stateful(name': String, parameter_type': GVariantType, state': GVariant): GSimpleAction =>
+    @g_simple_action_new_stateful(name'.cstring(), parameter_type', state')

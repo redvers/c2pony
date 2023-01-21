@@ -1,0 +1,1 @@
+use @g_permission_acquire_finish[I32](permission': GPermission, result': GAsyncResult, error': Pointer[GError])

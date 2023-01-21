@@ -1,0 +1,2 @@
+  fun activate(application': GApplicationI): None =>
+    @g_application_activate(application'.getptr())

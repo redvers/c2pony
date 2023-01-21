@@ -1,1 +1,1 @@
-use @gtk_builder_get_object[Pointer[GObjectP]](builder': GtkBuilder, name': Pointer[U8] tag)
+use @gtk_builder_get_object[Pointer[GObjectP]](builder': Pointer[GObjectP], name': Pointer[U8] tag)

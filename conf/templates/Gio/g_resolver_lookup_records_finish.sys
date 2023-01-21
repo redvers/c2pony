@@ -1,0 +1,2 @@
+  fun lookup_records_finish(resolver': GResolver, result': GAsyncResult, error': Pointer[GError]): GList =>
+    @g_resolver_lookup_records_finish(resolver', result', error')

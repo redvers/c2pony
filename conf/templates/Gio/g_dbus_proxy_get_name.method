@@ -1,0 +1,2 @@
+  fun ref get_name(): String iso^ =>
+    GDBusProxyP.get_name(this)

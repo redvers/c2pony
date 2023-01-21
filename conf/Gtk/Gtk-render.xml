@@ -4,6 +4,7 @@
 <ponydep>
 use "../GLib"
 use "../GObject"
+use "../Gio"
 use "lib:gtk-4"
     </ponydep>
     <renderfunction name="gtk_accelerator_get_default_mod_mask" ponyname="accelerator_get_default_mod_mask" render="1" deprecated=""/>

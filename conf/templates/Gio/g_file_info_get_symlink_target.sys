@@ -1,0 +1,2 @@
+  fun get_symlink_target(info': GFileInfo): String iso^ =>
+    String.from_cstring(@g_file_info_get_symlink_target(info')).clone()

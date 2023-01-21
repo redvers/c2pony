@@ -1,0 +1,2 @@
+  fun ref put_int64(data': I64, cancellable': GCancellable, error': Pointer[GError]): I32 =>
+    GDataOutputStreamP.put_int64(this, data', cancellable', error')

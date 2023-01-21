@@ -1,0 +1,1 @@
+use @g_dbus_connection_set_exit_on_close[None](connection': GDBusConnection, exit_on_close': I32)

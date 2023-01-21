@@ -1,0 +1,2 @@
+  fun source_new(cancellable': GCancellable): GSource =>
+    @g_cancellable_source_new(cancellable')

@@ -1,0 +1,2 @@
+  fun equal(address': GInetAddress, other_address': GInetAddress): I32 =>
+    @g_inet_address_equal(address', other_address')

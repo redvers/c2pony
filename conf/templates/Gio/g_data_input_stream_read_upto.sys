@@ -1,0 +1,2 @@
+  fun read_upto(stream': GDataInputStream, stop_chars': String, stop_chars_len': I64, length': Pointer[U64] tag, cancellable': GCancellable, error': Pointer[GError]): String iso^ =>
+    String.from_cstring(@g_data_input_stream_read_upto(stream', stop_chars'.cstring(), stop_chars_len', length', cancellable', error')).clone()

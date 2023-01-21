@@ -1,0 +1,2 @@
+  fun get_port(target': GSrvTarget): U16 =>
+    @g_srv_target_get_port(target')

@@ -1,0 +1,2 @@
+  fun get_info(interface': GDBusInterfaceSkeleton): GDBusInterfaceInfo =>
+    @g_dbus_interface_skeleton_get_info(interface')

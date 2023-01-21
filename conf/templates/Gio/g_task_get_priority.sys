@@ -1,0 +1,2 @@
+  fun get_priority(task': GTask): I32 =>
+    @g_task_get_priority(task')

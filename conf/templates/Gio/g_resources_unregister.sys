@@ -1,0 +1,2 @@
+  fun resources_unregister(resource': GResource): None =>
+    @g_resources_unregister(resource')

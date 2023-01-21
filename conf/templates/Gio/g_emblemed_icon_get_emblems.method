@@ -1,0 +1,2 @@
+  fun ref get_emblems(): GList =>
+    GEmblemedIconP.get_emblems(this)

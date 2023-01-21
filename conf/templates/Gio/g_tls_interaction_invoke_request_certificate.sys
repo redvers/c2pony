@@ -1,0 +1,2 @@
+  fun invoke_request_certificate(interaction': GTlsInteraction, connection': GTlsConnection, flags': U32, cancellable': GCancellable, error': Pointer[GError]): U32 =>
+    @g_tls_interaction_invoke_request_certificate(interaction', connection', flags', cancellable', error')

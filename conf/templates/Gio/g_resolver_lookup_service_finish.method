@@ -1,0 +1,2 @@
+  fun ref lookup_service_finish(result': GAsyncResult, error': Pointer[GError]): GList =>
+    GResolverP.lookup_service_finish(this, result', error')

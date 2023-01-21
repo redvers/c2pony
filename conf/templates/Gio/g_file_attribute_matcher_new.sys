@@ -1,0 +1,2 @@
+  fun new(attributes': String): GFileAttributeMatcher =>
+    @g_file_attribute_matcher_new(attributes'.cstring())

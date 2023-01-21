@@ -1,0 +1,1 @@
+use @g_data_input_stream_get_newline_type[U32](stream': GDataInputStream)

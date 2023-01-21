@@ -1,0 +1,2 @@
+  fun unset(): None =>
+    @g_test_dbus_unset()

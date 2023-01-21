@@ -17,6 +17,9 @@
     </ponytypeconvout>
   </typedef>
   <typedef name="GObject" ponytypein="GObjectI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GApplication" ponytypein="GApplicationI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GtkApplication" ponytypein="GtkApplicationI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GtkBuilder" ponytypein="GtkBuilderI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
   <typedef name="GtkWidget" ponytypein="GtkWidgetI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
   <typedef name="GtkWindow" ponytypein="GtkWindowI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
 

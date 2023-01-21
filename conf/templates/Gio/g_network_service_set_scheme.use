@@ -1,0 +1,1 @@
+use @g_network_service_set_scheme[None](srv': GNetworkService, scheme': Pointer[U8] tag)

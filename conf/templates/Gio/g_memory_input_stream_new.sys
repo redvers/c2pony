@@ -1,0 +1,2 @@
+  fun new(): GInputStream =>
+    @g_memory_input_stream_new()

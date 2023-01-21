@@ -1,0 +1,2 @@
+  fun get_child(settings': GSettings, name': String): GSettings =>
+    @g_settings_get_child(settings', name'.cstring())

@@ -1,0 +1,2 @@
+  fun get_string(settings': GSettings, key': String): String iso^ =>
+    String.from_cstring(@g_settings_get_string(settings', key'.cstring())).clone()

@@ -1,0 +1,2 @@
+  fun ref get_auto_grow(): I32 =>
+    GBufferedOutputStreamP.get_auto_grow(this)

@@ -1,0 +1,2 @@
+  fun set(settings': GSettings, key': String, format': String, ...): I32 =>
+    @g_settings_set(settings', key'.cstring(), format'.cstring(), ...)

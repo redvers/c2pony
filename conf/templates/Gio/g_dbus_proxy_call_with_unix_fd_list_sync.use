@@ -1,0 +1,1 @@
+use @g_dbus_proxy_call_with_unix_fd_list_sync[GVariant](proxy': GDBusProxy, method_name': Pointer[U8] tag, parameters': GVariant, flags': U32, timeout_msec': I32, fd_list': GUnixFDList, out_fd_list': Pointer[GUnixFDList], cancellable': GCancellable, error': Pointer[GError])

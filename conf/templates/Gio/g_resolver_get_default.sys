@@ -1,0 +1,2 @@
+  fun get_default(): GResolver =>
+    @g_resolver_get_default()

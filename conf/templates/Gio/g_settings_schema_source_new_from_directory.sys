@@ -1,0 +1,2 @@
+  fun new_from_directory(directory': String, parent': GSettingsSchemaSource, trusted': I32, error': Pointer[GError]): GSettingsSchemaSource =>
+    @g_settings_schema_source_new_from_directory(directory'.cstring(), parent', trusted', error')

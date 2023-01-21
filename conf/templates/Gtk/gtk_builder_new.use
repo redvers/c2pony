@@ -1,1 +1,1 @@
-use @gtk_builder_new[GtkBuilder]()
+use @gtk_builder_new[Pointer[GObjectP]]()

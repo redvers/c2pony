@@ -1,0 +1,2 @@
+  fun ref start_message_processing(): None =>
+    GDBusConnectionP.start_message_processing(this)

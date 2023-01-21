@@ -1,0 +1,2 @@
+  fun ref get_mapped(key': String, mapping': GSettingsGetMapping, user_data': Pointer[None] tag): Pointer[None] tag =>
+    GSettingsP.get_mapped(this, key', mapping', user_data')

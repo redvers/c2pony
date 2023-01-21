@@ -1,0 +1,2 @@
+  fun get_properties(interface': GDBusInterfaceSkeleton): GVariant =>
+    @g_dbus_interface_skeleton_get_properties(interface')

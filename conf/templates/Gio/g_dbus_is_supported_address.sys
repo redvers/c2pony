@@ -1,0 +1,2 @@
+  fun dbus_is_supported_address(string': String, error': Pointer[GError]): I32 =>
+    @g_dbus_is_supported_address(string'.cstring(), error')

@@ -1,0 +1,1 @@
+use @g_dbus_connection_send_message_with_reply_finish[GDBusMessage](connection': GDBusConnection, res': GAsyncResult, error': Pointer[GError])

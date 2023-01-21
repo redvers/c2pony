@@ -1,0 +1,2 @@
+  fun ref unexport(): None =>
+    GDBusInterfaceSkeletonP.unexport(this)

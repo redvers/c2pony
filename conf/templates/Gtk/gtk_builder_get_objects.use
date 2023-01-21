@@ -1,1 +1,1 @@
-use @gtk_builder_get_objects[GSList](builder': GtkBuilder)
+use @gtk_builder_get_objects[GSList](builder': Pointer[GObjectP])

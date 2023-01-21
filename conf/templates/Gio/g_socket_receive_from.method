@@ -1,0 +1,2 @@
+  fun ref receive_from(address': Pointer[GSocketAddress], buffer': String, size': U64, cancellable': GCancellable, error': Pointer[GError]): I64 =>
+    GSocketP.receive_from(this, address', buffer', size', cancellable', error')

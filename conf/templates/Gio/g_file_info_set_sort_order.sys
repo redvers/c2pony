@@ -1,0 +1,2 @@
+  fun set_sort_order(info': GFileInfo, sort_order': I32): None =>
+    @g_file_info_set_sort_order(info', sort_order')

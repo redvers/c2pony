@@ -1,0 +1,2 @@
+  fun set_action_group(application': GApplicationI, action_group': GActionGroup): None =>
+    @g_application_set_action_group(application'.getptr(), action_group')

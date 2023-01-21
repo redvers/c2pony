@@ -1,0 +1,2 @@
+  fun ref get_ttl(): U32 =>
+    GSocketP.get_ttl(this)

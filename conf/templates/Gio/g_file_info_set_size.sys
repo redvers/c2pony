@@ -1,0 +1,2 @@
+  fun set_size(info': GFileInfo, size': I64): None =>
+    @g_file_info_set_size(info', size')

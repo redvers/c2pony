@@ -1,0 +1,1 @@
+use @g_dbus_object_manager_server_new[GDBusObjectManagerServer](object_path': Pointer[U8] tag)

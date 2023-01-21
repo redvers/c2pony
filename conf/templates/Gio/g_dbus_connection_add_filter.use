@@ -1,0 +1,1 @@
+use @g_dbus_connection_add_filter[U32](connection': GDBusConnection, filter_function': GDBusMessageFilterFunction, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify)

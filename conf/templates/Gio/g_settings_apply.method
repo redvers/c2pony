@@ -1,0 +1,2 @@
+  fun ref apply(): None =>
+    GSettingsP.apply(this)

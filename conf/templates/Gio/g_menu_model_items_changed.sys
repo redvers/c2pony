@@ -1,0 +1,2 @@
+  fun items_changed(model': GMenuModel, position': I32, removed': I32, added': I32): None =>
+    @g_menu_model_items_changed(model', position', removed', added')

@@ -1,0 +1,2 @@
+  fun set_priority(notification': GNotification, priority': U32): None =>
+    @g_notification_set_priority(notification', priority')

@@ -1,0 +1,2 @@
+  fun cancel(monitor': GFileMonitor): I32 =>
+    @g_file_monitor_cancel(monitor')

@@ -1,0 +1,2 @@
+  fun ref get_method_info(): GDBusMethodInfo =>
+    GDBusMethodInvocationP.get_method_info(this)

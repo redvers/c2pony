@@ -1,0 +1,2 @@
+  fun ref get_icon(): GIcon =>
+    GEmblemP.get_icon(this)

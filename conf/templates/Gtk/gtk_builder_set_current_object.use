@@ -1,1 +1,1 @@
-use @gtk_builder_set_current_object[None](builder': GtkBuilder, current_object': Pointer[GObjectP])
+use @gtk_builder_set_current_object[None](builder': Pointer[GObjectP], current_object': Pointer[GObjectP])

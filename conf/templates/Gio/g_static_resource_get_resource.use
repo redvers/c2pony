@@ -1,0 +1,1 @@
+use @g_static_resource_get_resource[GResource](static_resource': GStaticResource)

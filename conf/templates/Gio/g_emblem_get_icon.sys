@@ -1,0 +1,2 @@
+  fun get_icon(emblem': GEmblem): GIcon =>
+    @g_emblem_get_icon(emblem')

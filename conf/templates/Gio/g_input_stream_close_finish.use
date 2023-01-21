@@ -1,0 +1,1 @@
+use @g_input_stream_close_finish[I32](stream': GInputStream, result': GAsyncResult, error': Pointer[GError])

@@ -1,0 +1,2 @@
+  fun up(self': GTestDBus): None =>
+    @g_test_dbus_up(self')

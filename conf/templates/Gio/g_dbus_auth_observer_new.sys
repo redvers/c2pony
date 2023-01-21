@@ -1,0 +1,2 @@
+  fun new(): GDBusAuthObserver =>
+    @g_dbus_auth_observer_new()

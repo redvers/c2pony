@@ -1,0 +1,2 @@
+  fun ref set_default_timeout(timeout_msec': I32): None =>
+    GDBusProxyP.set_default_timeout(this, timeout_msec')

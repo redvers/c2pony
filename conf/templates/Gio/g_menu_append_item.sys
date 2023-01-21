@@ -1,0 +1,2 @@
+  fun append_item(menu': GMenu, item': GMenuItem): None =>
+    @g_menu_append_item(menu', item')

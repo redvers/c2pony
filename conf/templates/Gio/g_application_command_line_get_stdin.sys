@@ -1,0 +1,2 @@
+  fun get_stdin(cmdline': GApplicationCommandLine): GInputStream =>
+    @g_application_command_line_get_stdin(cmdline')

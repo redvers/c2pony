@@ -1,0 +1,2 @@
+  fun ref get_names(): Pointer[Pointer[U8]] tag =>
+    GThemedIconP.get_names(this)

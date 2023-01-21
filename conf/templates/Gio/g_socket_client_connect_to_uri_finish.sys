@@ -1,0 +1,2 @@
+  fun connect_to_uri_finish(client': GSocketClient, result': GAsyncResult, error': Pointer[GError]): GSocketConnection =>
+    @g_socket_client_connect_to_uri_finish(client', result', error')

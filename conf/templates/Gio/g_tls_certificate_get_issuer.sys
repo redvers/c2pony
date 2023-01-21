@@ -1,0 +1,2 @@
+  fun get_issuer(cert': GTlsCertificate): GTlsCertificate =>
+    @g_tls_certificate_get_issuer(cert')

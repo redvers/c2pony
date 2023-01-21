@@ -1,1 +1,1 @@
-use @gtk_builder_set_translation_domain[None](builder': GtkBuilder, domain': Pointer[U8] tag)
+use @gtk_builder_set_translation_domain[None](builder': Pointer[GObjectP], domain': Pointer[U8] tag)

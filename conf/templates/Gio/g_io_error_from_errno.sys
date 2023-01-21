@@ -1,0 +1,2 @@
+  fun io_error_from_errno(err_no': I32): U32 =>
+    @g_io_error_from_errno(err_no')

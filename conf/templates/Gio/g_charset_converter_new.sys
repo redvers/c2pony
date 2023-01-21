@@ -1,0 +1,2 @@
+  fun new(to_charset': String, from_charset': String, error': Pointer[GError]): GCharsetConverter =>
+    @g_charset_converter_new(to_charset'.cstring(), from_charset'.cstring(), error')

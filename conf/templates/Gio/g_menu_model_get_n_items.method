@@ -1,0 +1,2 @@
+  fun ref get_n_items(): I32 =>
+    GMenuModelP.get_n_items(this)

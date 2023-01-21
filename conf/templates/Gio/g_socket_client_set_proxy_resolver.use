@@ -1,0 +1,1 @@
+use @g_socket_client_set_proxy_resolver[None](client': GSocketClient, proxy_resolver': GProxyResolver)

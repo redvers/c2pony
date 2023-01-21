@@ -1,1 +1,1 @@
-use @gtk_application_remove_window[None](application': GtkApplication, window': Pointer[GObjectP])
+use @gtk_application_remove_window[None](application': Pointer[GObjectP], window': Pointer[GObjectP])

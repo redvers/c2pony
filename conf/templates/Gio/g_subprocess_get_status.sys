@@ -1,0 +1,2 @@
+  fun get_status(subprocess': GSubprocess): I32 =>
+    @g_subprocess_get_status(subprocess')

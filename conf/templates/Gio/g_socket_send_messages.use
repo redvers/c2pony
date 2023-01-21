@@ -1,0 +1,1 @@
+use @g_socket_send_messages[I32](socket': GSocket, messages': GOutputMessage, num_messages': U32, flags': I32, cancellable': GCancellable, error': Pointer[GError])

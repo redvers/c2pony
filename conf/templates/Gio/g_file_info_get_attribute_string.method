@@ -1,0 +1,2 @@
+  fun ref get_attribute_string(attribute': String): String iso^ =>
+    GFileInfoP.get_attribute_string(this, attribute')

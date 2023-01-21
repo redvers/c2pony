@@ -1,0 +1,1 @@
+use @g_output_stream_splice_finish[I64](stream': GOutputStream, result': GAsyncResult, error': Pointer[GError])

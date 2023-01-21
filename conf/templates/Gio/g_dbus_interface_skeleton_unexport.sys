@@ -1,0 +1,2 @@
+  fun unexport(interface': GDBusInterfaceSkeleton): None =>
+    @g_dbus_interface_skeleton_unexport(interface')

@@ -1,0 +1,2 @@
+  fun get_file_type(info': GFileInfo): U32 =>
+    @g_file_info_get_file_type(info')

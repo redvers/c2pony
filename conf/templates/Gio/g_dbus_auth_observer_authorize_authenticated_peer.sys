@@ -1,0 +1,2 @@
+  fun authorize_authenticated_peer(observer': GDBusAuthObserver, stream': GIOStream, credentials': GCredentials): I32 =>
+    @g_dbus_auth_observer_authorize_authenticated_peer(observer', stream', credentials')

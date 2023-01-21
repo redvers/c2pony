@@ -1,0 +1,2 @@
+  fun cancel(cancellable': GCancellable): None =>
+    @g_cancellable_cancel(cancellable')

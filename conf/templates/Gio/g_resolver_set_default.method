@@ -1,0 +1,2 @@
+  fun ref set_default(): None =>
+    GResolverP.set_default(this)

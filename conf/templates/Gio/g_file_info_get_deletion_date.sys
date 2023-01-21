@@ -1,0 +1,2 @@
+  fun get_deletion_date(info': GFileInfo): GDateTime =>
+    @g_file_info_get_deletion_date(info')

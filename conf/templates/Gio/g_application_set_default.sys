@@ -1,0 +1,2 @@
+  fun set_default(application': GApplicationI): None =>
+    @g_application_set_default(application'.getptr())

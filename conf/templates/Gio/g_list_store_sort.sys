@@ -1,0 +1,2 @@
+  fun sort(store': GListStore, compare_func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_list_store_sort(store', compare_func', user_data')

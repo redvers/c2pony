@@ -1,0 +1,2 @@
+  fun ref connect_finish(result': GAsyncResult, error': Pointer[GError]): GSocketConnection =>
+    GSocketClientP.connect_finish(this, result', error')

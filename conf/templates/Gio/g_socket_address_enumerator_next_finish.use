@@ -1,0 +1,1 @@
+use @g_socket_address_enumerator_next_finish[GSocketAddress](enumerator': GSocketAddressEnumerator, result': GAsyncResult, error': Pointer[GError])

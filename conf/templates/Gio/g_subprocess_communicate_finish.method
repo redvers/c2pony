@@ -1,0 +1,2 @@
+  fun ref communicate_finish(result': GAsyncResult, stdout_buf': Pointer[GBytes], stderr_buf': Pointer[GBytes], error': Pointer[GError]): I32 =>
+    GSubprocessP.communicate_finish(this, result', stdout_buf', stderr_buf', error')

@@ -1,0 +1,2 @@
+  fun set_submenu(menu_item': GMenuItem, submenu': GMenuModel): None =>
+    @g_menu_item_set_submenu(menu_item', submenu')
