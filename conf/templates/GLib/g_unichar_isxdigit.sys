@@ -1,0 +1,2 @@
+  fun unichar_isxdigit(c': U32): I32 =>
+    @g_unichar_isxdigit(c')

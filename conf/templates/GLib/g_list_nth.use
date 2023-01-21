@@ -1,1 +1,1 @@
-use @g_list_nth[GListT](list': GListT, n': U32)
+use @g_list_nth[GList](list': GList, n': U32)

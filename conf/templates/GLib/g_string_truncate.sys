@@ -1,0 +1,2 @@
+  fun truncate(string': GString, len': U64): GString =>
+    @g_string_truncate(string', len')

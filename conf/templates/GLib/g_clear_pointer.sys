@@ -1,0 +1,2 @@
+  fun clear_pointer(pp': Pointer[Pointer[None]] tag, destroy': GDestroyNotify): None =>
+    @g_clear_pointer(pp', destroy')

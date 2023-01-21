@@ -1,0 +1,2 @@
+  fun find_func(hook_list': GHookList, need_valids': I32, func': Pointer[None] tag): GHook =>
+    @g_hook_find_func(hook_list', need_valids', func')

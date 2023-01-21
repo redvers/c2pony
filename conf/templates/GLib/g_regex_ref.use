@@ -1,1 +1,1 @@
-use @g_regex_ref[GRegexT](regex': GRegexT)
+use @g_regex_ref[GRegex](regex': GRegex)

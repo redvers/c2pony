@@ -1,0 +1,2 @@
+  fun is_end(iter': GSequenceNode): I32 =>
+    @g_sequence_iter_is_end(iter')

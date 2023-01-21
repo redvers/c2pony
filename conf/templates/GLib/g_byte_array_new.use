@@ -1,1 +1,1 @@
-use @g_byte_array_new[GByteArrayT]()
+use @g_byte_array_new[GByteArray]()

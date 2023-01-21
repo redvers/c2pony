@@ -1,1 +1,1 @@
-use @g_strstr_len[Pointer[U8] tag](haystack': Pointer[U8] tag, haystack_len': I64, needle': Pointer[U8] tag)
+use @g_strstr_len[String](haystack': String, haystack_len': I64, needle': String)

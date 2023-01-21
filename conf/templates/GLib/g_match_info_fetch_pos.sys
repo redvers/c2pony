@@ -1,0 +1,2 @@
+  fun fetch_pos(match_info': GMatchInfo, match_num': I32, start_pos': Pointer[I32] tag, end_pos': Pointer[I32] tag): I32 =>
+    @g_match_info_fetch_pos(match_info', match_num', start_pos', end_pos')

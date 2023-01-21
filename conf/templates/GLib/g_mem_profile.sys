@@ -1,0 +1,2 @@
+  fun mem_profile(): None =>
+    @g_mem_profile()

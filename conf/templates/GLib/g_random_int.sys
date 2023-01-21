@@ -1,0 +1,2 @@
+  fun random_int(): U32 =>
+    @g_random_int()

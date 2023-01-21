@@ -1,0 +1,2 @@
+  fun get_contents(file': GMappedFile): String =>
+    @g_mapped_file_get_contents(file')

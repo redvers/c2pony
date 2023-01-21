@@ -1,0 +1,2 @@
+  fun n_children(iter': GVariantIter): U64 =>
+    @g_variant_iter_n_children(iter')

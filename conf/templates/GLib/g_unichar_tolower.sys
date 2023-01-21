@@ -1,0 +1,2 @@
+  fun unichar_tolower(c': U32): U32 =>
+    @g_unichar_tolower(c')

@@ -1,0 +1,2 @@
+  fun clear(dict': GVariantDict): None =>
+    @g_variant_dict_clear(dict')

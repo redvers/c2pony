@@ -1,0 +1,2 @@
+  fun get(iter': GSequenceNode): Pointer[None] tag =>
+    @g_sequence_get(iter')

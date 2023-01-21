@@ -1,0 +1,2 @@
+  fun start(timer': GTimer): None =>
+    @g_timer_start(timer')

@@ -1,0 +1,2 @@
+  fun append_unichar(string': GString, wc': U32): GString =>
+    @g_string_append_unichar(string', wc')

@@ -1,0 +1,2 @@
+  fun length_unlocked(queue': GAsyncQueue): I32 =>
+    @g_async_queue_length_unlocked(queue')

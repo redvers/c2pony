@@ -1,0 +1,2 @@
+  fun new_variant(value': GVariant): GVariant =>
+    @g_variant_new_variant(value')

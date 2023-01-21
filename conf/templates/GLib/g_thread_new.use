@@ -1,1 +1,1 @@
-use @g_thread_new[GThreadT](name': Pointer[U8] tag, func': GThreadFunc, data': Pointer[None] tag)
+use @g_thread_new[GThread](name': String, func': GThreadFunc, data': Pointer[None] tag)

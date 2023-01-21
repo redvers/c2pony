@@ -1,0 +1,2 @@
+  fun new(pattern': String, compile_options': U32, match_options': U32, error': Pointer[GError]): GRegex =>
+    @g_regex_new(pattern', compile_options', match_options', error')

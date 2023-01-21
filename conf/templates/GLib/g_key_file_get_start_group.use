@@ -1,1 +1,1 @@
-use @g_key_file_get_start_group[Pointer[U8] tag](key_file': GKeyFileT)
+use @g_key_file_get_start_group[String](key_file': GKeyFile)

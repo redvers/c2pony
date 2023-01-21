@@ -1,1 +1,1 @@
-use @g_variant_new_variant[GVariantT](value': GVariantT)
+use @g_variant_new_variant[GVariant](value': GVariant)

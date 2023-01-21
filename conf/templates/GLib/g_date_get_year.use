@@ -1,1 +1,1 @@
-use @g_date_get_year[U16](date': GDateT)
+use @g_date_get_year[U16](date': GDate)

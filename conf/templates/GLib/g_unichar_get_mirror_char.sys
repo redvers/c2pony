@@ -1,0 +1,2 @@
+  fun unichar_get_mirror_char(ch': U32, mirrored_ch': Pointer[U32] tag): I32 =>
+    @g_unichar_get_mirror_char(ch', mirrored_ch')

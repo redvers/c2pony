@@ -1,1 +1,1 @@
-use @g_strv_contains[I32](strv': Pointer[Pointer[U8]] tag, str': Pointer[U8] tag)
+use @g_strv_contains[I32](strv': Pointer[Pointer[U8]] tag, str': String)

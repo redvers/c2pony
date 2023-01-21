@@ -1,0 +1,2 @@
+  fun assertion_message_expr(domain': String, file': String, line': I32, func': String, expr': String): None =>
+    @g_assertion_message_expr(domain', file', line', func', expr')

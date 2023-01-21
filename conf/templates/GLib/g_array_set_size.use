@@ -1,1 +1,1 @@
-use @g_array_set_size[GArrayT](array': GArrayT, length': U32)
+use @g_array_set_size[GArray](array': GArray, length': U32)

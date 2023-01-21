@@ -1,0 +1,2 @@
+  fun find_custom(queue': GQueue, data': Pointer[None] tag, func': GCompareFunc): GList =>
+    @g_queue_find_custom(queue', data', func')

@@ -1,0 +1,2 @@
+  fun log_structured(log_domain': String, log_level': I32, ...): None =>
+    @g_log_structured(log_domain', log_level', ...)

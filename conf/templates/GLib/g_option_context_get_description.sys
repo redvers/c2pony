@@ -1,0 +1,2 @@
+  fun get_description(context': GOptionContext): String =>
+    @g_option_context_get_description(context')

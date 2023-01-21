@@ -1,0 +1,2 @@
+  fun get_start_group(key_file': GKeyFile): String =>
+    @g_key_file_get_start_group(key_file')

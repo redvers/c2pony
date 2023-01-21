@@ -1,0 +1,2 @@
+  fun set_string(key_file': GKeyFile, group_name': String, key': String, string': String): None =>
+    @g_key_file_set_string(key_file', group_name', key', string')

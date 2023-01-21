@@ -1,0 +1,2 @@
+  fun make_tmp(tmpl': String, error': Pointer[GError]): String =>
+    @g_dir_make_tmp(tmpl', error')

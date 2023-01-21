@@ -1,0 +1,2 @@
+  fun get_abbreviation(tz': GTimeZone, interval': I32): String =>
+    @g_time_zone_get_abbreviation(tz', interval')

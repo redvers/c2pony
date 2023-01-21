@@ -1,0 +1,2 @@
+  fun find(queue': GQueue, data': Pointer[None] tag): GList =>
+    @g_queue_find(queue', data')

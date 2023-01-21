@@ -1,0 +1,2 @@
+  fun utf8_find_prev_char(str': String, p': String): String =>
+    @g_utf8_find_prev_char(str', p')

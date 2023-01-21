@@ -1,0 +1,2 @@
+  fun set_size(array': GPtrArray, length': I32): None =>
+    @g_ptr_array_set_size(array', length')

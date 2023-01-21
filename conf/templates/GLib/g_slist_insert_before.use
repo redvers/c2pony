@@ -1,1 +1,1 @@
-use @g_slist_insert_before[GSListT](slist': GSListT, sibling': GSListT, data': Pointer[None] tag)
+use @g_slist_insert_before[GSList](slist': GSList, sibling': GSList, data': Pointer[None] tag)

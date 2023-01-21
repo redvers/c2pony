@@ -1,1 +1,1 @@
-use @g_strcanon[Pointer[U8] tag](string': Pointer[U8] tag, valid_chars': Pointer[U8] tag, substitutor': U8)
+use @g_strcanon[String](string': String, valid_chars': String, substitutor': U8)

@@ -1,1 +1,1 @@
-use @g_compute_hmac_for_data[Pointer[U8] tag](digest_type': U32, key': Pointer[U8] tag, key_len': U64, data': Pointer[U8] tag, length': U64)
+use @g_compute_hmac_for_data[String](digest_type': U32, key': String, key_len': U64, data': String, length': U64)

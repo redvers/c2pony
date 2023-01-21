@@ -1,0 +1,2 @@
+  fun new(data': Pointer[None] tag): GNode =>
+    @g_node_new(data')

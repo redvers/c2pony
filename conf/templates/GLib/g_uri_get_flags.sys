@@ -1,0 +1,2 @@
+  fun get_flags(uri': GUri): U32 =>
+    @g_uri_get_flags(uri')

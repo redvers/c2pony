@@ -1,0 +1,2 @@
+  fun get_host_name(): String =>
+    @g_get_host_name()

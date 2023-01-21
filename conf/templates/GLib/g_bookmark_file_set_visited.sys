@@ -1,0 +1,2 @@
+  fun set_visited(bookmark': GBookmarkFile, uri': String, visited': I64): None =>
+    @g_bookmark_file_set_visited(bookmark', uri', visited')

@@ -1,1 +1,1 @@
-use @g_rw_lock_writer_lock[None](rw_lock': GRWLockT)
+use @g_rw_lock_writer_lock[None](rw_lock': GRWLock)

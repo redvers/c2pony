@@ -1,1 +1,1 @@
-use @g_string_free[Pointer[U8] tag](string': GStringT, free_segment': I32)
+use @g_string_free[String](string': GString, free_segment': I32)

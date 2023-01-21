@@ -1,0 +1,2 @@
+  fun set_line_term(channel': GIOChannel, line_term': String, length': I32): None =>
+    @g_io_channel_set_line_term(channel', line_term', length')

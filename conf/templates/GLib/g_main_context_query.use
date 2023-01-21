@@ -1,1 +1,1 @@
-use @g_main_context_query[I32](context': GMainContextT, max_priority': I32, timeout': Pointer[I32] tag, fds': GPollFDT, n_fds': I32)
+use @g_main_context_query[I32](context': GMainContext, max_priority': I32, timeout': Pointer[I32] tag, fds': GPollFD, n_fds': I32)

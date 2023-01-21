@@ -1,1 +1,1 @@
-use @g_filename_to_uri[Pointer[U8] tag](filename': Pointer[U8] tag, hostname': Pointer[U8] tag, error': Pointer[GErrorT])
+use @g_filename_to_uri[String](filename': String, hostname': String, error': Pointer[GError])

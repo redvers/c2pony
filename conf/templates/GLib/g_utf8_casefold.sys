@@ -1,0 +1,2 @@
+  fun utf8_casefold(str': String, len': I64): String =>
+    @g_utf8_casefold(str', len')

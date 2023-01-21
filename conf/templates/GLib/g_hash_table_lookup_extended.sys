@@ -1,0 +1,2 @@
+  fun lookup_extended(hash_table': GHashTable, lookup_key': Pointer[None] tag, orig_key': Pointer[Pointer[None]] tag, value': Pointer[Pointer[None]] tag): I32 =>
+    @g_hash_table_lookup_extended(hash_table', lookup_key', orig_key', value')

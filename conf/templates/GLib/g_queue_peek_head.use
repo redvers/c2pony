@@ -1,1 +1,1 @@
-use @g_queue_peek_head[Pointer[None] tag](queue': GQueueT)
+use @g_queue_peek_head[Pointer[None] tag](queue': GQueue)

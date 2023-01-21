@@ -1,1 +1,1 @@
-use @g_uri_unescape_bytes[GBytesT](escaped_string': Pointer[U8] tag, length': I64, illegal_characters': Pointer[U8] tag, error': Pointer[GErrorT])
+use @g_uri_unescape_bytes[GBytes](escaped_string': String, length': I64, illegal_characters': String, error': Pointer[GError])

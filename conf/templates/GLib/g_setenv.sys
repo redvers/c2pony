@@ -1,0 +1,2 @@
+  fun setenv(variable': String, value': String, overwrite': I32): I32 =>
+    @g_setenv(variable', value', overwrite')

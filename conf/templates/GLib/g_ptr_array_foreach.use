@@ -1,1 +1,1 @@
-use @g_ptr_array_foreach[None](array': GPtrArrayT, func': GFunc, user_data': Pointer[None] tag)
+use @g_ptr_array_foreach[None](array': GPtrArray, func': GFunc, user_data': Pointer[None] tag)

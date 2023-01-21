@@ -1,0 +1,2 @@
+  fun quit(loop': GMainLoop): None =>
+    @g_main_loop_quit(loop')

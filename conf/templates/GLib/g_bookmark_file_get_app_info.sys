@@ -1,0 +1,2 @@
+  fun get_app_info(bookmark': GBookmarkFile, uri': String, name': String, exec': Pointer[Pointer[U8]] tag, count': Pointer[U32] tag, stamp': Pointer[I64] tag, error': Pointer[GError]): I32 =>
+    @g_bookmark_file_get_app_info(bookmark', uri', name', exec', count', stamp', error')

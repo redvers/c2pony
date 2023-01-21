@@ -1,0 +1,2 @@
+  fun add_seconds(datetime': GDateTime, seconds': F64): GDateTime =>
+    @g_date_time_add_seconds(datetime', seconds')

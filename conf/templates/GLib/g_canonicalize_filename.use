@@ -1,1 +1,1 @@
-use @g_canonicalize_filename[Pointer[U8] tag](filename': Pointer[U8] tag, relative_to': Pointer[U8] tag)
+use @g_canonicalize_filename[String](filename': String, relative_to': String)

@@ -1,0 +1,2 @@
+  fun get_begin_iter(seq': GSequence): GSequenceNode =>
+    @g_sequence_get_begin_iter(seq')

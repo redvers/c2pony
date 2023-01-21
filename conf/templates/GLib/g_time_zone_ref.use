@@ -1,1 +1,1 @@
-use @g_time_zone_ref[GTimeZoneT](tz': GTimeZoneT)
+use @g_time_zone_ref[GTimeZone](tz': GTimeZone)

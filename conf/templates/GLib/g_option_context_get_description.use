@@ -1,1 +1,1 @@
-use @g_option_context_get_description[Pointer[U8] tag](context': GOptionContextT)
+use @g_option_context_get_description[String](context': GOptionContext)

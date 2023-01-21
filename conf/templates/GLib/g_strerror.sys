@@ -1,0 +1,2 @@
+  fun strerror(errnum': I32): String =>
+    @g_strerror(errnum')

@@ -1,0 +1,2 @@
+  fun contains(dict': GVariantDict, key': String): I32 =>
+    @g_variant_dict_contains(dict', key')

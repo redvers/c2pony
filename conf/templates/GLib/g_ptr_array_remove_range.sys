@@ -1,0 +1,2 @@
+  fun remove_range(array': GPtrArray, index': U32, length': U32): GPtrArray =>
+    @g_ptr_array_remove_range(array', index', length')

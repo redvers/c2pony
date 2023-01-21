@@ -1,5 +1,3 @@
-struct GThreadT
-  var func': GThreadFunc = GThreadFunc
-  var data': Pointer[None] = Pointer[None]
-  var joinable': I32 = I32(0)
-  var priority': U32 = U32(0)
+
+use "lib:glib-2.0"
+struct 

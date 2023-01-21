@@ -1,1 +1,1 @@
-use @g_mkdtemp_full[Pointer[U8] tag](tmpl': Pointer[U8] tag, mode': I32)
+use @g_mkdtemp_full[String](tmpl': String, mode': I32)

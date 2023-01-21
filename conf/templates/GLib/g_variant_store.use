@@ -1,1 +1,1 @@
-use @g_variant_store[None](value': GVariantT, data': Pointer[None] tag)
+use @g_variant_store[None](value': GVariant, data': Pointer[None] tag)

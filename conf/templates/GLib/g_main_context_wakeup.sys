@@ -1,0 +1,2 @@
+  fun wakeup(context': GMainContext): None =>
+    @g_main_context_wakeup(context')

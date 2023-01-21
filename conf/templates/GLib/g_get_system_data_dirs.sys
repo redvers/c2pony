@@ -1,0 +1,2 @@
+  fun get_system_data_dirs(): Pointer[Pointer[U8]] tag =>
+    @g_get_system_data_dirs()

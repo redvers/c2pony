@@ -1,1 +1,1 @@
-use @g_async_queue_try_pop_unlocked[Pointer[None] tag](queue': GAsyncQueueT)
+use @g_async_queue_try_pop_unlocked[Pointer[None] tag](queue': GAsyncQueue)

@@ -1,1 +1,1 @@
-use @g_hmac_get_digest[None](hmac': GHmacT, buffer': Pointer[U8] tag, digest_len': Pointer[U64] tag)
+use @g_hmac_get_digest[None](hmac': GHmac, buffer': String, digest_len': Pointer[U64] tag)

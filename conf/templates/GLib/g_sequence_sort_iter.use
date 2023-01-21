@@ -1,1 +1,1 @@
-use @g_sequence_sort_iter[None](seq': GSequenceT, cmp_func': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag)
+use @g_sequence_sort_iter[None](seq': GSequence, cmp_func': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag)

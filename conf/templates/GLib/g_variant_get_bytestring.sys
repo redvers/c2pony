@@ -1,0 +1,2 @@
+  fun get_bytestring(value': GVariant): String =>
+    @g_variant_get_bytestring(value')

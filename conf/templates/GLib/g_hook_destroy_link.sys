@@ -1,0 +1,2 @@
+  fun destroy_link(hook_list': GHookList, hook': GHook): None =>
+    @g_hook_destroy_link(hook_list', hook')

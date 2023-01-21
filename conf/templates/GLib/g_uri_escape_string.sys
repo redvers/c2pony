@@ -1,0 +1,2 @@
+  fun escape_string(unescaped': String, reserved_chars_allowed': String, allow_utf8': I32): String =>
+    @g_uri_escape_string(unescaped', reserved_chars_allowed', allow_utf8')

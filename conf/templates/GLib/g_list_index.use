@@ -1,1 +1,1 @@
-use @g_list_index[I32](list': GListT, data': Pointer[None] tag)
+use @g_list_index[I32](list': GList, data': Pointer[None] tag)

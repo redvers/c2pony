@@ -1,1 +1,1 @@
-use @g_key_file_ref[GKeyFileT](key_file': GKeyFileT)
+use @g_key_file_ref[GKeyFile](key_file': GKeyFile)

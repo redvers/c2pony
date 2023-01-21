@@ -1,1 +1,1 @@
-use @g_bookmark_file_remove_application[I32](bookmark': GBookmarkFileT, uri': Pointer[U8] tag, name': Pointer[U8] tag, error': Pointer[GErrorT])
+use @g_bookmark_file_remove_application[I32](bookmark': GBookmarkFile, uri': String, name': String, error': Pointer[GError])

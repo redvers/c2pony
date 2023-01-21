@@ -1,1 +1,1 @@
-use @g_queue_push_tail_link[None](queue': GQueueT, link': GListT)
+use @g_queue_push_tail_link[None](queue': GQueue, link': GList)

@@ -1,1 +1,1 @@
-use @g_hash_table_unref[None](hash_table': GHashTableT)
+use @g_hash_table_unref[None](hash_table': GHashTable)

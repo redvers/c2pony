@@ -1,1 +1,1 @@
-use @g_iconv_close[I32](converter': GIConvT)
+use @g_iconv_close[I32](converter': GIConv)

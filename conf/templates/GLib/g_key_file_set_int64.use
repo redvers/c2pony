@@ -1,1 +1,1 @@
-use @g_key_file_set_int64[None](key_file': GKeyFileT, group_name': Pointer[U8] tag, key': Pointer[U8] tag, value': I64)
+use @g_key_file_set_int64[None](key_file': GKeyFile, group_name': String, key': String, value': I64)

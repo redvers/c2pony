@@ -1,0 +1,2 @@
+  fun add_days(datetime': GDateTime, days': I32): GDateTime =>
+    @g_date_time_add_days(datetime', days')

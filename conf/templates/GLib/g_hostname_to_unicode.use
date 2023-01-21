@@ -1,1 +1,1 @@
-use @g_hostname_to_unicode[Pointer[U8] tag](hostname': Pointer[U8] tag)
+use @g_hostname_to_unicode[String](hostname': String)

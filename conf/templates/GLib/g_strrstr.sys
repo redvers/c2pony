@@ -1,0 +1,2 @@
+  fun strrstr(haystack': String, needle': String): String =>
+    @g_strrstr(haystack', needle')

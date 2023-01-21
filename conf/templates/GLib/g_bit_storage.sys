@@ -1,0 +1,2 @@
+  fun bit_storage(number': U64): U32 =>
+    @g_bit_storage(number')

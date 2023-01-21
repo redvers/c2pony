@@ -1,1 +1,1 @@
-use @g_ascii_strtoll[I64](nptr': Pointer[U8] tag, endptr': Pointer[Pointer[U8]] tag, base': U32)
+use @g_ascii_strtoll[I64](nptr': String, endptr': Pointer[Pointer[U8]] tag, base': U32)

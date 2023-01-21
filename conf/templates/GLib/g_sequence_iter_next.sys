@@ -1,0 +1,2 @@
+  fun next(iter': GSequenceNode): GSequenceNode =>
+    @g_sequence_iter_next(iter')

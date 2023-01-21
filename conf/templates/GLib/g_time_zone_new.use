@@ -1,1 +1,1 @@
-use @g_time_zone_new[GTimeZoneT](identifier': Pointer[U8] tag)
+use @g_time_zone_new[GTimeZone](identifier': String)

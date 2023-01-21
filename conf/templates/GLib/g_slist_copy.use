@@ -1,1 +1,1 @@
-use @g_slist_copy[GSListT](list': GSListT)
+use @g_slist_copy[GSList](list': GSList)

@@ -1,0 +1,2 @@
+  fun path_get_basename(file_name': String): String =>
+    @g_path_get_basename(file_name')

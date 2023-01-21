@@ -1,0 +1,2 @@
+  fun dngettext(domain': String, msgid': String, msgid_plural': String, n': U64): String =>
+    @g_dngettext(domain', msgid', msgid_plural', n')

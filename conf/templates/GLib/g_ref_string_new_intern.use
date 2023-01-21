@@ -1,1 +1,1 @@
-use @g_ref_string_new_intern[Pointer[U8] tag](str': Pointer[U8] tag)
+use @g_ref_string_new_intern[String](str': String)

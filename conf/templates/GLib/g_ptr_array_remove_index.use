@@ -1,1 +1,1 @@
-use @g_ptr_array_remove_index[Pointer[None] tag](array': GPtrArrayT, index': U32)
+use @g_ptr_array_remove_index[Pointer[None] tag](array': GPtrArray, index': U32)

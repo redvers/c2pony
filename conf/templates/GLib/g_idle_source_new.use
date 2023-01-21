@@ -1,1 +1,1 @@
-use @g_idle_source_new[GSourceT]()
+use @g_idle_source_new[GSource]()

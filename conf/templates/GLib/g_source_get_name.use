@@ -1,1 +1,1 @@
-use @g_source_get_name[Pointer[U8] tag](source': GSourceT)
+use @g_source_get_name[String](source': GSource)

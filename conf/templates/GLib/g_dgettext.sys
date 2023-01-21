@@ -1,0 +1,2 @@
+  fun dgettext(domain': String, msgid': String): String =>
+    @g_dgettext(domain', msgid')

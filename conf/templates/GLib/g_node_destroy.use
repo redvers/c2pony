@@ -1,1 +1,1 @@
-use @g_node_destroy[None](root': GNodeT)
+use @g_node_destroy[None](root': GNode)

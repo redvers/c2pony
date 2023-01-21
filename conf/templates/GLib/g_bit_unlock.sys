@@ -1,0 +1,2 @@
+  fun bit_unlock(address': Pointer[I32] tag, lock_bit': I32): None =>
+    @g_bit_unlock(address', lock_bit')

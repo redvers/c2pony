@@ -1,0 +1,2 @@
+  fun free(checksum': GChecksum): None =>
+    @g_checksum_free(checksum')

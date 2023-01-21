@@ -1,1 +1,1 @@
-use @g_queue_pop_nth[Pointer[None] tag](queue': GQueueT, n': U32)
+use @g_queue_pop_nth[Pointer[None] tag](queue': GQueue, n': U32)

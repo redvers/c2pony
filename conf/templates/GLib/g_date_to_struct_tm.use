@@ -1,1 +1,1 @@
-use @g_date_to_struct_tm[None](date': GDateT, tm': tmT)
+use @g_date_to_struct_tm[None](date': GDate, tm': tm)

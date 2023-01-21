@@ -1,0 +1,2 @@
+  fun new(checksum_type': U32): GChecksum =>
+    @g_checksum_new(checksum_type')

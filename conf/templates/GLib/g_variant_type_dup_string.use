@@ -1,1 +1,1 @@
-use @g_variant_type_dup_string[Pointer[U8] tag](type': GVariantTypeT)
+use @g_variant_type_dup_string[String](type': GVariantType)

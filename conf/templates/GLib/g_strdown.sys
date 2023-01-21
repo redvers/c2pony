@@ -1,0 +1,2 @@
+  fun strdown(string': String): String =>
+    @g_strdown(string')

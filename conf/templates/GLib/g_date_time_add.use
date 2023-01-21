@@ -1,1 +1,1 @@
-use @g_date_time_add[GDateTimeT](datetime': GDateTimeT, timespan': I64)
+use @g_date_time_add[GDateTime](datetime': GDateTime, timespan': I64)

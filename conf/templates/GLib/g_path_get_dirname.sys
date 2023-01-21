@@ -1,0 +1,2 @@
+  fun path_get_dirname(file_name': String): String =>
+    @g_path_get_dirname(file_name')

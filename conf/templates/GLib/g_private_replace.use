@@ -1,1 +1,1 @@
-use @g_private_replace[None](key': GPrivateT, value': Pointer[None] tag)
+use @g_private_replace[None](key': GPrivate, value': Pointer[None] tag)

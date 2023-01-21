@@ -1,0 +1,2 @@
+  fun ascii_strdown(str': String, len': I64): String =>
+    @g_ascii_strdown(str', len')

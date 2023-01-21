@@ -1,1 +1,1 @@
-use @g_list_foreach[None](list': GListT, func': GFunc, user_data': Pointer[None] tag)
+use @g_list_foreach[None](list': GList, func': GFunc, user_data': Pointer[None] tag)

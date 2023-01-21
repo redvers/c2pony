@@ -1,1 +1,1 @@
-use @g_date_add_days[None](date': GDateT, n_days': U32)
+use @g_date_add_days[None](date': GDate, n_days': U32)

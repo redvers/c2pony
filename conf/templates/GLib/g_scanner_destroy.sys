@@ -1,0 +1,2 @@
+  fun destroy(scanner': GScanner): None =>
+    @g_scanner_destroy(scanner')

@@ -1,0 +1,2 @@
+  fun get_identifier(tz': GTimeZone): String =>
+    @g_time_zone_get_identifier(tz')

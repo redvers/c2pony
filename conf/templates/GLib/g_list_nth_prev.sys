@@ -1,0 +1,2 @@
+  fun nth_prev(list': GList, n': U32): GList =>
+    @g_list_nth_prev(list', n')

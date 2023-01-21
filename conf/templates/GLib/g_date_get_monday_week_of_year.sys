@@ -1,0 +1,2 @@
+  fun get_monday_week_of_year(date': GDate): U32 =>
+    @g_date_get_monday_week_of_year(date')

@@ -1,1 +1,1 @@
-use @g_source_is_destroyed[I32](source': GSourceT)
+use @g_source_is_destroyed[I32](source': GSource)

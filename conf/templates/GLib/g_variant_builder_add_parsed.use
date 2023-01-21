@@ -1,1 +1,1 @@
-use @g_variant_builder_add_parsed[None](builder': GVariantBuilderT, format': Pointer[U8] tag, ...)
+use @g_variant_builder_add_parsed[None](builder': GVariantBuilder, format': String, ...)

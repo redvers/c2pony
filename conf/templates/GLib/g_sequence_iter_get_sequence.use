@@ -1,1 +1,1 @@
-use @g_sequence_iter_get_sequence[GSequenceT](iter': GSequenceNodeT)
+use @g_sequence_iter_get_sequence[GSequence](iter': GSequenceNode)

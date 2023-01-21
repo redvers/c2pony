@@ -1,0 +1,2 @@
+  fun ascii_toupper(c': U8): U8 =>
+    @g_ascii_toupper(c')

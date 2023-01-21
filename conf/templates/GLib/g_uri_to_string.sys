@@ -1,0 +1,2 @@
+  fun to_string(uri': GUri): String =>
+    @g_uri_to_string(uri')

@@ -1,0 +1,2 @@
+  fun ref(match_info': GMatchInfo): GMatchInfo =>
+    @g_match_info_ref(match_info')

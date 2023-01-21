@@ -1,1 +1,1 @@
-use @g_tree_search[Pointer[None] tag](tree': GTreeT, search_func': GCompareFunc, user_data': Pointer[None] tag)
+use @g_tree_search[Pointer[None] tag](tree': GTree, search_func': GCompareFunc, user_data': Pointer[None] tag)

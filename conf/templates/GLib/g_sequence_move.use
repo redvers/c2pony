@@ -1,1 +1,1 @@
-use @g_sequence_move[None](src': GSequenceNodeT, dest': GSequenceNodeT)
+use @g_sequence_move[None](src': GSequenceNode, dest': GSequenceNode)

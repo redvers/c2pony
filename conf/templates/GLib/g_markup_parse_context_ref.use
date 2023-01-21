@@ -1,1 +1,1 @@
-use @g_markup_parse_context_ref[GMarkupParseContextT](context': GMarkupParseContextT)
+use @g_markup_parse_context_ref[GMarkupParseContext](context': GMarkupParseContext)

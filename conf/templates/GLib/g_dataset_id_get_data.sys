@@ -1,0 +1,2 @@
+  fun dataset_id_get_data(dataset_location': Pointer[None] tag, key_id': U32): Pointer[None] tag =>
+    @g_dataset_id_get_data(dataset_location', key_id')

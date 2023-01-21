@@ -1,1 +1,1 @@
-use @g_byte_array_free[Pointer[U8] tag](array': GByteArrayT, free_segment': I32)
+use @g_byte_array_free[String](array': GByteArray, free_segment': I32)

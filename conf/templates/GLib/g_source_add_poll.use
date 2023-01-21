@@ -1,1 +1,1 @@
-use @g_source_add_poll[None](source': GSourceT, fd': GPollFDT)
+use @g_source_add_poll[None](source': GSource, fd': GPollFD)

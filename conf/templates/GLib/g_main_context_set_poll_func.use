@@ -1,1 +1,1 @@
-use @g_main_context_set_poll_func[None](context': GMainContextT, func': GPollFunc)
+use @g_main_context_set_poll_func[None](context': GMainContext, func': GPollFunc)

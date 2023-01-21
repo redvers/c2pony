@@ -1,1 +1,1 @@
-use @g_source_set_callback[None](source': GSourceT, func': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify)
+use @g_source_set_callback[None](source': GSource, func': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify)

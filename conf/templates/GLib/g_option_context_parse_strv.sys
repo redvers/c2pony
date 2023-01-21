@@ -1,0 +1,2 @@
+  fun parse_strv(context': GOptionContext, arguments': Pointer[Pointer[Pointer[U8]]] tag, error': Pointer[GError]): I32 =>
+    @g_option_context_parse_strv(context', arguments', error')

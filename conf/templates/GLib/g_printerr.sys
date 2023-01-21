@@ -1,0 +1,2 @@
+  fun printerr(format': String, ...): None =>
+    @g_printerr(format', ...)

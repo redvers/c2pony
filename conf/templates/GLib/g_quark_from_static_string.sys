@@ -1,0 +1,2 @@
+  fun quark_from_static_string(string': String): U32 =>
+    @g_quark_from_static_string(string')

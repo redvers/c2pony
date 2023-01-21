@@ -1,1 +1,1 @@
-use @g_date_time_to_timezone[GDateTimeT](datetime': GDateTimeT, tz': GTimeZoneT)
+use @g_date_time_to_timezone[GDateTime](datetime': GDateTime, tz': GTimeZone)

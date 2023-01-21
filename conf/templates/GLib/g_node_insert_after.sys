@@ -1,0 +1,2 @@
+  fun insert_after(parent': GNode, sibling': GNode, node': GNode): GNode =>
+    @g_node_insert_after(parent', sibling', node')

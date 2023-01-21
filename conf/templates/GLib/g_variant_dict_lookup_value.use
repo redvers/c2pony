@@ -1,1 +1,1 @@
-use @g_variant_dict_lookup_value[GVariantT](dict': GVariantDictT, key': Pointer[U8] tag, expected_type': GVariantTypeT)
+use @g_variant_dict_lookup_value[GVariant](dict': GVariantDict, key': String, expected_type': GVariantType)

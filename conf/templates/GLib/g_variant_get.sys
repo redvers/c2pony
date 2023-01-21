@@ -1,0 +1,2 @@
+  fun get(value': GVariant, format_string': String, ...): None =>
+    @g_variant_get(value', format_string', ...)

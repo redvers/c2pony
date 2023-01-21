@@ -1,0 +1,2 @@
+  fun atomic_rc_box_release(mem_block': Pointer[None] tag): None =>
+    @g_atomic_rc_box_release(mem_block')

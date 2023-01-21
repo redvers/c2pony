@@ -1,1 +1,1 @@
-use @g_strerror[Pointer[U8] tag](errnum': I32)
+use @g_strerror[String](errnum': I32)

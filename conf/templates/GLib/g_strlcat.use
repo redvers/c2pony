@@ -1,1 +1,1 @@
-use @g_strlcat[U64](dest': Pointer[U8] tag, src': Pointer[U8] tag, dest_size': U64)
+use @g_strlcat[U64](dest': String, src': String, dest_size': U64)

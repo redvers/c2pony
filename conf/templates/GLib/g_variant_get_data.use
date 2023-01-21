@@ -1,1 +1,1 @@
-use @g_variant_get_data[Pointer[None] tag](value': GVariantT)
+use @g_variant_get_data[Pointer[None] tag](value': GVariant)

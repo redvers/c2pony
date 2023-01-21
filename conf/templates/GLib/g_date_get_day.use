@@ -1,1 +1,1 @@
-use @g_date_get_day[U8](date': GDateT)
+use @g_date_get_day[U8](date': GDate)

@@ -1,1 +1,1 @@
-use @g_mapped_file_get_bytes[GBytesT](file': GMappedFileT)
+use @g_mapped_file_get_bytes[GBytes](file': GMappedFile)

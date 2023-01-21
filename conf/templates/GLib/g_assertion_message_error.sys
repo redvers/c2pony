@@ -1,0 +1,2 @@
+  fun assertion_message_error(domain': String, file': String, line': I32, func': String, expr': String, error': GError, error_domain': U32, error_code': I32): None =>
+    @g_assertion_message_error(domain', file', line', func', expr', error', error_domain', error_code')

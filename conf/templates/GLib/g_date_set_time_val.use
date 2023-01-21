@@ -1,1 +1,1 @@
-use @g_date_set_time_val[None](date': GDateT, timeval': GTimeValT)
+use @g_date_set_time_val[None](date': GDate, timeval': GTimeVal)

@@ -1,0 +1,2 @@
+  fun copy(error': GError): GError =>
+    @g_error_copy(error')

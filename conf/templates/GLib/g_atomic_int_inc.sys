@@ -1,0 +1,2 @@
+  fun atomic_int_inc(atomic': Pointer[I32] tag): None =>
+    @g_atomic_int_inc(atomic')

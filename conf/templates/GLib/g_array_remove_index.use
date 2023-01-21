@@ -1,1 +1,1 @@
-use @g_array_remove_index[GArrayT](array': GArrayT, index': U32)
+use @g_array_remove_index[GArray](array': GArray, index': U32)

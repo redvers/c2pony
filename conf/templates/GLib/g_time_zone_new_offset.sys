@@ -1,0 +1,2 @@
+  fun new_offset(seconds': I32): GTimeZone =>
+    @g_time_zone_new_offset(seconds')

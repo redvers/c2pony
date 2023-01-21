@@ -1,1 +1,1 @@
-use @g_slist_last[GSListT](list': GSListT)
+use @g_slist_last[GSList](list': GSList)

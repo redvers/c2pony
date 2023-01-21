@@ -1,1 +1,1 @@
-use @g_variant_new_boolean[GVariantT](value': I32)
+use @g_variant_new_boolean[GVariant](value': I32)

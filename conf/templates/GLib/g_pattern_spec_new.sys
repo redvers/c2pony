@@ -1,0 +1,2 @@
+  fun new(pattern': String): GPatternSpec =>
+    @g_pattern_spec_new(pattern')

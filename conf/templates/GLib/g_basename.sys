@@ -1,0 +1,2 @@
+  fun basename(file_name': String): String =>
+    @g_basename(file_name')

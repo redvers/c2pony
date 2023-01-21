@@ -1,0 +1,2 @@
+  fun unicode_canonical_ordering(string': Pointer[U32] tag, len': U64): None =>
+    @g_unicode_canonical_ordering(string', len')

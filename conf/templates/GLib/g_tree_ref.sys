@@ -1,0 +1,2 @@
+  fun ref(tree': GTree): GTree =>
+    @g_tree_ref(tree')

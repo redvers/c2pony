@@ -1,1 +1,1 @@
-use @g_uri_escape_bytes[Pointer[U8] tag](unescaped': Pointer[U8] tag, length': U64, reserved_chars_allowed': Pointer[U8] tag)
+use @g_uri_escape_bytes[String](unescaped': String, length': U64, reserved_chars_allowed': String)

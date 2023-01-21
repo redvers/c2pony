@@ -1,0 +1,2 @@
+  fun get_prgname(): String =>
+    @g_get_prgname()

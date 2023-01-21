@@ -1,1 +1,1 @@
-use @g_slist_nth[GSListT](list': GSListT, n': U32)
+use @g_slist_nth[GSList](list': GSList, n': U32)

@@ -1,1 +1,1 @@
-use @g_base64_decode_step[U64](in': Pointer[U8] tag, len': U64, out': Pointer[U8] tag, state': Pointer[I32] tag, save': Pointer[U32] tag)
+use @g_base64_decode_step[U64](in': String, len': U64, out': String, state': Pointer[I32] tag, save': Pointer[U32] tag)

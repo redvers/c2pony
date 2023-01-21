@@ -1,0 +1,2 @@
+  fun add_months(date': GDate, n_months': U32): None =>
+    @g_date_add_months(date', n_months')

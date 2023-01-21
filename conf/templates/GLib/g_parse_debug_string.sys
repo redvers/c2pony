@@ -1,0 +1,2 @@
+  fun parse_debug_string(string': String, keys': GDebugKey, nkeys': U32): U32 =>
+    @g_parse_debug_string(string', keys', nkeys')

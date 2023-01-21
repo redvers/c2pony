@@ -1,1 +1,1 @@
-use @g_bytes_unref_to_array[GByteArrayT](bytes': GBytesT)
+use @g_bytes_unref_to_array[GByteArray](bytes': GBytes)

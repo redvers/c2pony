@@ -1,1 +1,1 @@
-use @g_date_time_add_hours[GDateTimeT](datetime': GDateTimeT, hours': I32)
+use @g_date_time_add_hours[GDateTime](datetime': GDateTime, hours': I32)

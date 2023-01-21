@@ -1,0 +1,2 @@
+  fun init(rec_mutex': GRecMutex): None =>
+    @g_rec_mutex_init(rec_mutex')

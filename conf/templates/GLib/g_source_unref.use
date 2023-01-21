@@ -1,1 +1,1 @@
-use @g_source_unref[None](source': GSourceT)
+use @g_source_unref[None](source': GSource)

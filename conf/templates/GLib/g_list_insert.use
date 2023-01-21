@@ -1,1 +1,1 @@
-use @g_list_insert[GListT](list': GListT, data': Pointer[None] tag, position': I32)
+use @g_list_insert[GList](list': GList, data': Pointer[None] tag, position': I32)

@@ -1,0 +1,2 @@
+  fun parse_scheme(uri': String): String =>
+    @g_uri_parse_scheme(uri')

@@ -1,0 +1,2 @@
+  fun hostname_is_ip_address(hostname': String): I32 =>
+    @g_hostname_is_ip_address(hostname')

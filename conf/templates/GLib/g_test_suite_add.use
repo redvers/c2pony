@@ -1,1 +1,1 @@
-use @g_test_suite_add[None](suite': GTestSuiteT, test_case': GTestCaseT)
+use @g_test_suite_add[None](suite': GTestSuite, test_case': GTestCase)

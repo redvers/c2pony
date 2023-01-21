@@ -1,1 +1,1 @@
-use @g_str_to_ascii[Pointer[U8] tag](str': Pointer[U8] tag, from_locale': Pointer[U8] tag)
+use @g_str_to_ascii[String](str': String, from_locale': String)

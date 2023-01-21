@@ -1,1 +1,3 @@
-struct GRecMutexT
+
+use "lib:glib-2.0"
+struct 

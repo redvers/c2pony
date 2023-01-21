@@ -1,1 +1,1 @@
-use @g_utf8_strdown[Pointer[U8] tag](str': Pointer[U8] tag, len': I64)
+use @g_utf8_strdown[String](str': String, len': I64)

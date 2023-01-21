@@ -1,0 +1,2 @@
+  fun to_data(key_file': GKeyFile, length': Pointer[U64] tag, error': Pointer[GError]): String =>
+    @g_key_file_to_data(key_file', length', error')

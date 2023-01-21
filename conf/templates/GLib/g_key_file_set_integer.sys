@@ -1,0 +1,2 @@
+  fun set_integer(key_file': GKeyFile, group_name': String, key': String, value': I32): None =>
+    @g_key_file_set_integer(key_file', group_name', key', value')

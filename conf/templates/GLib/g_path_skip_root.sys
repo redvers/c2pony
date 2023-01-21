@@ -1,0 +1,2 @@
+  fun path_skip_root(file_name': String): String =>
+    @g_path_skip_root(file_name')

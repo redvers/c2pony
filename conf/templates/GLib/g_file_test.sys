@@ -1,0 +1,2 @@
+  fun file_test(filename': String, test': U32): I32 =>
+    @g_file_test(filename', test')

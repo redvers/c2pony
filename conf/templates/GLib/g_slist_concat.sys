@@ -1,0 +1,2 @@
+  fun concat(list1': GSList, list2': GSList): GSList =>
+    @g_slist_concat(list1', list2')

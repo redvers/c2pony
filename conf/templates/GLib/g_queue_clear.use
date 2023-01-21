@@ -1,1 +1,1 @@
-use @g_queue_clear[None](queue': GQueueT)
+use @g_queue_clear[None](queue': GQueue)

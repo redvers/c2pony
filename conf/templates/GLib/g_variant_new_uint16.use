@@ -1,1 +1,1 @@
-use @g_variant_new_uint16[GVariantT](value': U16)
+use @g_variant_new_uint16[GVariant](value': U16)

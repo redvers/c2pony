@@ -1,1 +1,1 @@
-use @g_hmac_copy[GHmacT](hmac': GHmacT)
+use @g_hmac_copy[GHmac](hmac': GHmac)

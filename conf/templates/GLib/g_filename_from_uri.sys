@@ -1,0 +1,2 @@
+  fun filename_from_uri(uri': String, hostname': Pointer[Pointer[U8]] tag, error': Pointer[GError]): String =>
+    @g_filename_from_uri(uri', hostname', error')

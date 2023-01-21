@@ -1,1 +1,1 @@
-use @g_date_set_year[None](date': GDateT, year': U16)
+use @g_date_set_year[None](date': GDate, year': U16)

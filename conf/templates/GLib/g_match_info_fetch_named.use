@@ -1,1 +1,1 @@
-use @g_match_info_fetch_named[Pointer[U8] tag](match_info': GMatchInfoT, name': Pointer[U8] tag)
+use @g_match_info_fetch_named[String](match_info': GMatchInfo, name': String)

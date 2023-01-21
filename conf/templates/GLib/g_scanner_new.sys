@@ -1,0 +1,2 @@
+  fun new(config_templ': GScannerConfig): GScanner =>
+    @g_scanner_new(config_templ')

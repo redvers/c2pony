@@ -1,0 +1,2 @@
+  fun get_string(hmac': GHmac): String =>
+    @g_hmac_get_string(hmac')

@@ -1,0 +1,2 @@
+  fun strup(string': String): String =>
+    @g_strup(string')

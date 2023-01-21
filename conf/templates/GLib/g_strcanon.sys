@@ -1,0 +1,2 @@
+  fun strcanon(string': String, valid_chars': String, substitutor': U8): String =>
+    @g_strcanon(string', valid_chars', substitutor')

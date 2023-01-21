@@ -1,0 +1,2 @@
+  fun init(queue': GQueue): None =>
+    @g_queue_init(queue')

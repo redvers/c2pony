@@ -1,0 +1,2 @@
+  fun to_iso8601(time': GTimeVal): String =>
+    @g_time_val_to_iso8601(time')

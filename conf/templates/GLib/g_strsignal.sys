@@ -1,0 +1,2 @@
+  fun strsignal(signum': I32): String =>
+    @g_strsignal(signum')

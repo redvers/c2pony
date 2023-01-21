@@ -1,0 +1,2 @@
+  fun get_uint16(value': GVariant): U16 =>
+    @g_variant_get_uint16(value')

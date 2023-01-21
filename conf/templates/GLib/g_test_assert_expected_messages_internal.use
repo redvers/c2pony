@@ -1,1 +1,1 @@
-use @g_test_assert_expected_messages_internal[None](domain': Pointer[U8] tag, file': Pointer[U8] tag, line': I32, func': Pointer[U8] tag)
+use @g_test_assert_expected_messages_internal[None](domain': String, file': String, line': I32, func': String)

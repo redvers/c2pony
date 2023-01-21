@@ -1,0 +1,2 @@
+  fun free(iter': GVariantIter): None =>
+    @g_variant_iter_free(iter')

@@ -1,1 +1,1 @@
-use @g_date_add_months[None](date': GDateT, n_months': U32)
+use @g_date_add_months[None](date': GDate, n_months': U32)

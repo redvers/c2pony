@@ -1,1 +1,1 @@
-use @g_filename_to_utf8[Pointer[U8] tag](opsysstring': Pointer[U8] tag, len': I64, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[GErrorT])
+use @g_filename_to_utf8[String](opsysstring': String, len': I64, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[GError])

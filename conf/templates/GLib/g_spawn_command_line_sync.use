@@ -1,1 +1,1 @@
-use @g_spawn_command_line_sync[I32](command_line': Pointer[U8] tag, standard_output': Pointer[Pointer[U8]] tag, standard_error': Pointer[Pointer[U8]] tag, wait_status': Pointer[I32] tag, error': Pointer[GErrorT])
+use @g_spawn_command_line_sync[I32](command_line': String, standard_output': Pointer[Pointer[U8]] tag, standard_error': Pointer[Pointer[U8]] tag, wait_status': Pointer[I32] tag, error': Pointer[GError])

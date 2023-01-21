@@ -1,1 +1,1 @@
-use @g_scanner_error[None](scanner': GScannerT, format': Pointer[U8] tag, ...)
+use @g_scanner_error[None](scanner': GScanner, format': String, ...)

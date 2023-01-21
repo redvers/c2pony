@@ -1,0 +1,2 @@
+  fun compute_hmac_for_string(digest_type': U32, key': String, key_len': U64, str': String, length': I64): String =>
+    @g_compute_hmac_for_string(digest_type', key', key_len', str', length')

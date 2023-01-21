@@ -1,1 +1,1 @@
-use @g_strdelimit[Pointer[U8] tag](string': Pointer[U8] tag, delimiters': Pointer[U8] tag, new_delimiter': U8)
+use @g_strdelimit[String](string': String, delimiters': String, new_delimiter': U8)

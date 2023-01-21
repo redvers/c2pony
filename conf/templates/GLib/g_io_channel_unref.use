@@ -1,1 +1,1 @@
-use @g_io_channel_unref[None](channel': GIOChannelT)
+use @g_io_channel_unref[None](channel': GIOChannel)

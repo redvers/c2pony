@@ -1,0 +1,2 @@
+  fun set_clear_func(array': GArray, clear_func': GDestroyNotify): None =>
+    @g_array_set_clear_func(array', clear_func')

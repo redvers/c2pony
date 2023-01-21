@@ -1,0 +1,2 @@
+  fun strrstr_len(haystack': String, haystack_len': I64, needle': String): String =>
+    @g_strrstr_len(haystack', haystack_len', needle')

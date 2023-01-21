@@ -1,1 +1,1 @@
-use @g_uri_ref[GUriT](uri': GUriT)
+use @g_uri_ref[GUri](uri': GUri)

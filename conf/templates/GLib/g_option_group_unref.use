@@ -1,1 +1,1 @@
-use @g_option_group_unref[None](group': GOptionGroupT)
+use @g_option_group_unref[None](group': GOptionGroup)

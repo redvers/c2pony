@@ -1,1 +1,1 @@
-use @g_io_channel_shutdown[U32](channel': GIOChannelT, flush': I32, err': Pointer[GErrorT])
+use @g_io_channel_shutdown[U32](channel': GIOChannel, flush': I32, err': Pointer[GError])

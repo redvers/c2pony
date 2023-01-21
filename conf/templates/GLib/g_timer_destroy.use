@@ -1,1 +1,1 @@
-use @g_timer_destroy[None](timer': GTimerT)
+use @g_timer_destroy[None](timer': GTimer)

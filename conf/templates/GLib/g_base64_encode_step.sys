@@ -1,0 +1,2 @@
+  fun base64_encode_step(in': String, len': U64, break_lines': I32, out': String, state': Pointer[I32] tag, save': Pointer[I32] tag): U64 =>
+    @g_base64_encode_step(in', len', break_lines', out', state', save')

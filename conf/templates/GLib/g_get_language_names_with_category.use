@@ -1,1 +1,1 @@
-use @g_get_language_names_with_category[Pointer[Pointer[U8]] tag](category_name': Pointer[U8] tag)
+use @g_get_language_names_with_category[Pointer[Pointer[U8]] tag](category_name': String)

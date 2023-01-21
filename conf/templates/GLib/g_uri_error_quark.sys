@@ -1,0 +1,2 @@
+  fun error_quark(): U32 =>
+    @g_uri_error_quark()

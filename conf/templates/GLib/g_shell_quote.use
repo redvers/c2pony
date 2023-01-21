@@ -1,1 +1,1 @@
-use @g_shell_quote[Pointer[U8] tag](unquoted_string': Pointer[U8] tag)
+use @g_shell_quote[String](unquoted_string': String)

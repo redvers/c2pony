@@ -1,0 +1,2 @@
+  fun datalist_get_flags(datalist': Pointer[GData]): U32 =>
+    @g_datalist_get_flags(datalist')

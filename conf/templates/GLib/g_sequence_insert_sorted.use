@@ -1,1 +1,1 @@
-use @g_sequence_insert_sorted[GSequenceNodeT](seq': GSequenceT, data': Pointer[None] tag, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag)
+use @g_sequence_insert_sorted[GSequenceNode](seq': GSequence, data': Pointer[None] tag, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun insert_const(chunk': GStringChunk, string': String): String =>
+    @g_string_chunk_insert_const(chunk', string')

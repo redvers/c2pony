@@ -1,0 +1,2 @@
+  fun strchug(string': String): String =>
+    @g_strchug(string')

@@ -1,0 +1,2 @@
+  fun strescape(source': String, exceptions': String): String =>
+    @g_strescape(source', exceptions')

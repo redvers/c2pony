@@ -1,0 +1,2 @@
+  fun get_home_dir(): String =>
+    @g_get_home_dir()

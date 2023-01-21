@@ -1,1 +1,1 @@
-use @g_byte_array_remove_range[GByteArrayT](array': GByteArrayT, index': U32, length': U32)
+use @g_byte_array_remove_range[GByteArray](array': GByteArray, index': U32, length': U32)

@@ -1,1 +1,1 @@
-use @g_date_time_add_full[GDateTimeT](datetime': GDateTimeT, years': I32, months': I32, days': I32, hours': I32, minutes': I32, seconds': F64)
+use @g_date_time_add_full[GDateTime](datetime': GDateTime, years': I32, months': I32, days': I32, hours': I32, minutes': I32, seconds': F64)

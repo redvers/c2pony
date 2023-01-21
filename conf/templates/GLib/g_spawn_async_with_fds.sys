@@ -1,0 +1,2 @@
+  fun spawn_async_with_fds(working_directory': String, argv': Pointer[Pointer[U8]] tag, envp': Pointer[Pointer[U8]] tag, flags': U32, child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, child_pid': Pointer[I32] tag, stdin_fd': I32, stdout_fd': I32, stderr_fd': I32, error': Pointer[GError]): I32 =>
+    @g_spawn_async_with_fds(working_directory', argv', envp', flags', child_setup', user_data', child_pid', stdin_fd', stdout_fd', stderr_fd', error')

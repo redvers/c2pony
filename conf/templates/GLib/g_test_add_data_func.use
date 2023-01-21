@@ -1,1 +1,1 @@
-use @g_test_add_data_func[None](testpath': Pointer[U8] tag, test_data': Pointer[None] tag, test_func': GTestDataFunc)
+use @g_test_add_data_func[None](testpath': String, test_data': Pointer[None] tag, test_func': GTestDataFunc)

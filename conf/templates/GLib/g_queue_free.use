@@ -1,1 +1,1 @@
-use @g_queue_free[None](queue': GQueueT)
+use @g_queue_free[None](queue': GQueue)

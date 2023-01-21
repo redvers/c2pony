@@ -1,0 +1,2 @@
+  fun set_list_separator(key_file': GKeyFile, separator': U8): None =>
+    @g_key_file_set_list_separator(key_file', separator')

@@ -1,1 +1,1 @@
-use @g_queue_copy[GQueueT](queue': GQueueT)
+use @g_queue_copy[GQueue](queue': GQueue)

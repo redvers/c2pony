@@ -1,0 +1,2 @@
+  fun strip_context(msgid': String, msgval': String): String =>
+    @g_strip_context(msgid', msgval')

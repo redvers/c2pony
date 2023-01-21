@@ -1,0 +1,2 @@
+  fun new_uint16(value': U16): GVariant =>
+    @g_variant_new_uint16(value')

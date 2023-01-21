@@ -1,1 +1,1 @@
-use @g_quark_from_static_string[U32](string': Pointer[U8] tag)
+use @g_quark_from_static_string[U32](string': String)

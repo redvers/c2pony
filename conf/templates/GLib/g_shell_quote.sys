@@ -1,0 +1,2 @@
+  fun shell_quote(unquoted_string': String): String =>
+    @g_shell_quote(unquoted_string')

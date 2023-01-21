@@ -1,1 +1,1 @@
-use @g_date_new[GDateT]()
+use @g_date_new[GDate]()

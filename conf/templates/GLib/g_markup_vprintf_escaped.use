@@ -1,1 +1,1 @@
-use @g_markup_vprintf_escaped[Pointer[U8] tag](format': Pointer[U8] tag, args': valisttagT)
+use @g_markup_vprintf_escaped[String](format': String, args': valisttag)

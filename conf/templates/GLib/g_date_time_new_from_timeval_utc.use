@@ -1,1 +1,1 @@
-use @g_date_time_new_from_timeval_utc[GDateTimeT](tv': GTimeValT)
+use @g_date_time_new_from_timeval_utc[GDateTime](tv': GTimeVal)

@@ -1,1 +1,1 @@
-use @g_date_set_time[None](date': GDateT, time': I32)
+use @g_date_set_time[None](date': GDate, time': I32)

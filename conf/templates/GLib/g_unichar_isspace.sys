@@ -1,0 +1,2 @@
+  fun unichar_isspace(c': U32): I32 =>
+    @g_unichar_isspace(c')

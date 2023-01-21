@@ -1,0 +1,2 @@
+  fun test_run(): I32 =>
+    @g_test_run()

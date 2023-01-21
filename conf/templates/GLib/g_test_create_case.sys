@@ -1,0 +1,2 @@
+  fun test_create_case(test_name': String, data_size': U64, test_data': Pointer[None] tag, data_setup': GTestFixtureFunc, data_test': GTestFixtureFunc, data_teardown': GTestFixtureFunc): GTestCase =>
+    @g_test_create_case(test_name', data_size', test_data', data_setup', data_test', data_teardown')

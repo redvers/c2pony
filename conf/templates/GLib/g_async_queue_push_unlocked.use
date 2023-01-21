@@ -1,1 +1,1 @@
-use @g_async_queue_push_unlocked[None](queue': GAsyncQueueT, data': Pointer[None] tag)
+use @g_async_queue_push_unlocked[None](queue': GAsyncQueue, data': Pointer[None] tag)

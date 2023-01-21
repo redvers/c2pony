@@ -1,1 +1,1 @@
-use @g_date_clamp[None](date': GDateT, min_date': GDateT, max_date': GDateT)
+use @g_date_clamp[None](date': GDate, min_date': GDate, max_date': GDate)

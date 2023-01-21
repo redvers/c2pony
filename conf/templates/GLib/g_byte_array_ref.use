@@ -1,1 +1,1 @@
-use @g_byte_array_ref[GByteArrayT](array': GByteArrayT)
+use @g_byte_array_ref[GByteArray](array': GByteArray)

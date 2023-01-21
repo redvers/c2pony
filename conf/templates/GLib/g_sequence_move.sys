@@ -1,0 +1,2 @@
+  fun move(src': GSequenceNode, dest': GSequenceNode): None =>
+    @g_sequence_move(src', dest')

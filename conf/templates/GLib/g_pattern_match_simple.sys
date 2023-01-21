@@ -1,0 +1,2 @@
+  fun pattern_match_simple(pattern': String, string': String): I32 =>
+    @g_pattern_match_simple(pattern', string')

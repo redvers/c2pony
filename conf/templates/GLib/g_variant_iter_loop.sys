@@ -1,0 +1,2 @@
+  fun loop(iter': GVariantIter, format_string': String, ...): I32 =>
+    @g_variant_iter_loop(iter', format_string', ...)

@@ -1,1 +1,1 @@
-use @g_date_time_unref[None](datetime': GDateTimeT)
+use @g_date_time_unref[None](datetime': GDateTime)

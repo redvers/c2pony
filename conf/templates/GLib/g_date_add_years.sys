@@ -1,0 +1,2 @@
+  fun add_years(date': GDate, n_years': U32): None =>
+    @g_date_add_years(date', n_years')

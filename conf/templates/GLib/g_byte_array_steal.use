@@ -1,1 +1,1 @@
-use @g_byte_array_steal[Pointer[U8] tag](array': GByteArrayT, len': Pointer[U64] tag)
+use @g_byte_array_steal[String](array': GByteArray, len': Pointer[U64] tag)

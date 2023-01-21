@@ -1,1 +1,1 @@
-use @g_uri_to_string_partial[Pointer[U8] tag](uri': GUriT, flags': U32)
+use @g_uri_to_string_partial[String](uri': GUri, flags': U32)

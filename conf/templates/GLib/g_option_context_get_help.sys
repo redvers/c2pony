@@ -1,0 +1,2 @@
+  fun get_help(context': GOptionContext, main_help': I32, group': GOptionGroup): String =>
+    @g_option_context_get_help(context', main_help', group')

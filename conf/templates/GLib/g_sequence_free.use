@@ -1,1 +1,1 @@
-use @g_sequence_free[None](seq': GSequenceT)
+use @g_sequence_free[None](seq': GSequence)

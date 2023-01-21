@@ -1,1 +1,1 @@
-use @g_scanner_new[GScannerT](config_templ': GScannerConfigT)
+use @g_scanner_new[GScanner](config_templ': GScannerConfig)

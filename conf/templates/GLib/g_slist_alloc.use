@@ -1,1 +1,1 @@
-use @g_slist_alloc[GSListT]()
+use @g_slist_alloc[GSList]()

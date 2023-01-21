@@ -1,0 +1,2 @@
+  fun ref(value': GVariant): GVariant =>
+    @g_variant_ref(value')

@@ -1,1 +1,1 @@
-use @g_source_add_child_source[None](source': GSourceT, child_source': GSourceT)
+use @g_source_add_child_source[None](source': GSource, child_source': GSource)

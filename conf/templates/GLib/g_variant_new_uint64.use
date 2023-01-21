@@ -1,1 +1,1 @@
-use @g_variant_new_uint64[GVariantT](value': U64)
+use @g_variant_new_uint64[GVariant](value': U64)

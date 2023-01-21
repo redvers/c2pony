@@ -1,0 +1,2 @@
+  fun random_set_seed(seed': U32): None =>
+    @g_random_set_seed(seed')

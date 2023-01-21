@@ -1,1 +1,1 @@
-use @g_match_info_fetch[Pointer[U8] tag](match_info': GMatchInfoT, match_num': I32)
+use @g_match_info_fetch[String](match_info': GMatchInfo, match_num': I32)

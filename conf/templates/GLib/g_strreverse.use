@@ -1,1 +1,1 @@
-use @g_strreverse[Pointer[U8] tag](string': Pointer[U8] tag)
+use @g_strreverse[String](string': String)

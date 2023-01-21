@@ -1,0 +1,2 @@
+  fun sync_file_offset(scanner': GScanner): None =>
+    @g_scanner_sync_file_offset(scanner')

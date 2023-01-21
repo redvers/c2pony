@@ -1,0 +1,2 @@
+  fun pop_tail(queue': GQueue): Pointer[None] tag =>
+    @g_queue_pop_tail(queue')

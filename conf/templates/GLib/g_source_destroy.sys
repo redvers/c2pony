@@ -1,0 +1,2 @@
+  fun destroy(source': GSource): None =>
+    @g_source_destroy(source')

@@ -1,0 +1,2 @@
+  fun position(list': GSList, llink': GSList): I32 =>
+    @g_slist_position(list', llink')

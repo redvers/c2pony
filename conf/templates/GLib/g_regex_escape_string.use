@@ -1,1 +1,1 @@
-use @g_regex_escape_string[Pointer[U8] tag](string': Pointer[U8] tag, length': I32)
+use @g_regex_escape_string[String](string': String, length': I32)

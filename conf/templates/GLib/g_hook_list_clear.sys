@@ -1,0 +1,2 @@
+  fun clear(hook_list': GHookList): None =>
+    @g_hook_list_clear(hook_list')

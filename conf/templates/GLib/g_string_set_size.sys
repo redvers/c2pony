@@ -1,0 +1,2 @@
+  fun set_size(string': GString, len': U64): GString =>
+    @g_string_set_size(string', len')

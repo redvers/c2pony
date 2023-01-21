@@ -1,1 +1,1 @@
-use @g_hash_table_iter_steal[None](iter': GHashTableIterT)
+use @g_hash_table_iter_steal[None](iter': GHashTableIter)

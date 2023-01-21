@@ -1,1 +1,1 @@
-use @g_get_codeset[Pointer[U8] tag]()
+use @g_get_codeset[String]()

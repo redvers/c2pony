@@ -1,1 +1,1 @@
-use @g_queue_push_nth[None](queue': GQueueT, data': Pointer[None] tag, n': I32)
+use @g_queue_push_nth[None](queue': GQueue, data': Pointer[None] tag, n': I32)

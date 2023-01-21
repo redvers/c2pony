@@ -1,1 +1,1 @@
-use @g_time_zone_get_identifier[Pointer[U8] tag](tz': GTimeZoneT)
+use @g_time_zone_get_identifier[String](tz': GTimeZone)

@@ -1,1 +1,1 @@
-use @g_queue_peek_tail_link[GListT](queue': GQueueT)
+use @g_queue_peek_tail_link[GList](queue': GQueue)

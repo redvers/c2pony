@@ -1,0 +1,2 @@
+  fun child_position(node': GNode, child': GNode): I32 =>
+    @g_node_child_position(node', child')

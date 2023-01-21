@@ -1,0 +1,2 @@
+  fun escape_nul(string': String, length': I32): String =>
+    @g_regex_escape_nul(string', length')

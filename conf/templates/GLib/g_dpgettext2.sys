@@ -1,0 +1,2 @@
+  fun dpgettext2(domain': String, context': String, msgid': String): String =>
+    @g_dpgettext2(domain', context', msgid')

@@ -1,0 +1,2 @@
+  fun free(array': GByteArray, free_segment': I32): String =>
+    @g_byte_array_free(array', free_segment')

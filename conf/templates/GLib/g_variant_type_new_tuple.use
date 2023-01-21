@@ -1,1 +1,1 @@
-use @g_variant_type_new_tuple[GVariantTypeT](items': Pointer[GVariantTypeT], length': I32)
+use @g_variant_type_new_tuple[GVariantType](items': Pointer[GVariantType], length': I32)

@@ -1,0 +1,2 @@
+  fun filename_to_uri(filename': String, hostname': String, error': Pointer[GError]): String =>
+    @g_filename_to_uri(filename', hostname', error')

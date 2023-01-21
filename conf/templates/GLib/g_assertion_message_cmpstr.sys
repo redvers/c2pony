@@ -1,0 +1,2 @@
+  fun assertion_message_cmpstr(domain': String, file': String, line': I32, func': String, expr': String, arg1': String, cmp': String, arg2': String): None =>
+    @g_assertion_message_cmpstr(domain', file', line', func', expr', arg1', cmp', arg2')

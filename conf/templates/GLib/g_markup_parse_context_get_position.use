@@ -1,1 +1,1 @@
-use @g_markup_parse_context_get_position[None](context': GMarkupParseContextT, line_number': Pointer[I32] tag, char_number': Pointer[I32] tag)
+use @g_markup_parse_context_get_position[None](context': GMarkupParseContext, line_number': Pointer[I32] tag, char_number': Pointer[I32] tag)

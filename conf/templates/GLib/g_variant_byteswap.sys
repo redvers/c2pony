@@ -1,0 +1,2 @@
+  fun byteswap(value': GVariant): GVariant =>
+    @g_variant_byteswap(value')

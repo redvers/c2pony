@@ -1,1 +1,1 @@
-use @g_variant_type_key[GVariantTypeT](type': GVariantTypeT)
+use @g_variant_type_key[GVariantType](type': GVariantType)

@@ -1,0 +1,2 @@
+  fun get_day_of_week(datetime': GDateTime): I32 =>
+    @g_date_time_get_day_of_week(datetime')

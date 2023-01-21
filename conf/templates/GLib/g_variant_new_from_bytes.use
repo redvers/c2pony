@@ -1,1 +1,1 @@
-use @g_variant_new_from_bytes[GVariantT](type': GVariantTypeT, bytes': GBytesT, trusted': I32)
+use @g_variant_new_from_bytes[GVariant](type': GVariantType, bytes': GBytes, trusted': I32)

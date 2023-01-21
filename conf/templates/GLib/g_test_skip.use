@@ -1,1 +1,1 @@
-use @g_test_skip[None](msg': Pointer[U8] tag)
+use @g_test_skip[None](msg': String)

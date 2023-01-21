@@ -1,1 +1,1 @@
-use @g_scanner_scope_remove_symbol[None](scanner': GScannerT, scope_id': U32, symbol': Pointer[U8] tag)
+use @g_scanner_scope_remove_symbol[None](scanner': GScanner, scope_id': U32, symbol': String)

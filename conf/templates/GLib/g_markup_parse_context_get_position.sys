@@ -1,0 +1,2 @@
+  fun get_position(context': GMarkupParseContext, line_number': Pointer[I32] tag, char_number': Pointer[I32] tag): None =>
+    @g_markup_parse_context_get_position(context', line_number', char_number')

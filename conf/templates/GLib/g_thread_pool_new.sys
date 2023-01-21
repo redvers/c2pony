@@ -1,0 +1,2 @@
+  fun new(func': GFunc, user_data': Pointer[None] tag, max_threads': I32, exclusive': I32, error': Pointer[GError]): GThreadPool =>
+    @g_thread_pool_new(func', user_data', max_threads', exclusive', error')

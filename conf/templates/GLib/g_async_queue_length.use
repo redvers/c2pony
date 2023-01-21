@@ -1,1 +1,1 @@
-use @g_async_queue_length[I32](queue': GAsyncQueueT)
+use @g_async_queue_length[I32](queue': GAsyncQueue)

@@ -1,1 +1,1 @@
-use @g_thread_ref[GThreadT](thread': GThreadT)
+use @g_thread_ref[GThread](thread': GThread)

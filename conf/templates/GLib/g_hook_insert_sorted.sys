@@ -1,0 +1,2 @@
+  fun insert_sorted(hook_list': GHookList, hook': GHook, func': GHookCompareFunc): None =>
+    @g_hook_insert_sorted(hook_list', hook', func')

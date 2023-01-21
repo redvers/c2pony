@@ -1,1 +1,1 @@
-use @g_date_free[None](date': GDateT)
+use @g_date_free[None](date': GDate)

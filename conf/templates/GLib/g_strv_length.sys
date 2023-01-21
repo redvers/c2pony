@@ -1,0 +1,2 @@
+  fun strv_length(str_array': Pointer[Pointer[U8]] tag): U32 =>
+    @g_strv_length(str_array')

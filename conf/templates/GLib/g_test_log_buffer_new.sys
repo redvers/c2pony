@@ -1,0 +1,2 @@
+  fun new(): anon_2389 =>
+    @g_test_log_buffer_new()

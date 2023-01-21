@@ -1,1 +1,1 @@
-use @g_bookmark_file_move_item[I32](bookmark': GBookmarkFileT, old_uri': Pointer[U8] tag, new_uri': Pointer[U8] tag, error': Pointer[GErrorT])
+use @g_bookmark_file_move_item[I32](bookmark': GBookmarkFile, old_uri': String, new_uri': String, error': Pointer[GError])

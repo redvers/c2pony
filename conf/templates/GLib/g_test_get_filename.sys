@@ -1,0 +1,2 @@
+  fun test_get_filename(file_type': U32, first_path': String, ...): String =>
+    @g_test_get_filename(file_type', first_path', ...)

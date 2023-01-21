@@ -1,1 +1,1 @@
-use @g_variant_iter_next_value[GVariantT](iter': GVariantIterT)
+use @g_variant_iter_next_value[GVariant](iter': GVariantIter)

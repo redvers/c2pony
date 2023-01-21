@@ -1,0 +1,2 @@
+  fun ref_count_compare(rc': Pointer[I32] tag, val': I32): I32 =>
+    @g_ref_count_compare(rc', val')

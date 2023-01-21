@@ -1,1 +1,1 @@
-use @g_variant_type_is_subtype_of[I32](type': GVariantTypeT, supertype': GVariantTypeT)
+use @g_variant_type_is_subtype_of[I32](type': GVariantType, supertype': GVariantType)

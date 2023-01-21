@@ -1,1 +1,1 @@
-use @g_async_queue_ref[GAsyncQueueT](queue': GAsyncQueueT)
+use @g_async_queue_ref[GAsyncQueue](queue': GAsyncQueue)

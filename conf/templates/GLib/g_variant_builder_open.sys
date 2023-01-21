@@ -1,0 +1,2 @@
+  fun open(builder': GVariantBuilder, type': GVariantType): None =>
+    @g_variant_builder_open(builder', type')

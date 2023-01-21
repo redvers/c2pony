@@ -1,1 +1,1 @@
-use @g_node_last_sibling[GNodeT](node': GNodeT)
+use @g_node_last_sibling[GNode](node': GNode)

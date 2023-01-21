@@ -1,1 +1,1 @@
-use @g_parse_debug_string[U32](string': Pointer[U8] tag, keys': GDebugKeyT, nkeys': U32)
+use @g_parse_debug_string[U32](string': String, keys': GDebugKey, nkeys': U32)

@@ -1,0 +1,2 @@
+  fun compare(a': GSequenceNode, b': GSequenceNode): I32 =>
+    @g_sequence_iter_compare(a', b')

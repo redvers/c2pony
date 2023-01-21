@@ -1,0 +1,2 @@
+  fun shell_unquote(quoted_string': String, error': Pointer[GError]): String =>
+    @g_shell_unquote(quoted_string', error')

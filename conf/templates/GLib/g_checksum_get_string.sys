@@ -1,0 +1,2 @@
+  fun get_string(checksum': GChecksum): String =>
+    @g_checksum_get_string(checksum')

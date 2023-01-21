@@ -1,1 +1,1 @@
-use @g_get_os_info[Pointer[U8] tag](key_name': Pointer[U8] tag)
+use @g_get_os_info[String](key_name': String)

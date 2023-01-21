@@ -1,1 +1,1 @@
-use @g_option_context_set_summary[None](context': GOptionContextT, summary': Pointer[U8] tag)
+use @g_option_context_set_summary[None](context': GOptionContext, summary': String)

@@ -1,1 +1,1 @@
-use @g_uri_unref[None](uri': GUriT)
+use @g_uri_unref[None](uri': GUri)

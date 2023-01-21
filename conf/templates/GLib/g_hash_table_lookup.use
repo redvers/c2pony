@@ -1,1 +1,1 @@
-use @g_hash_table_lookup[Pointer[None] tag](hash_table': GHashTableT, key': Pointer[None] tag)
+use @g_hash_table_lookup[Pointer[None] tag](hash_table': GHashTable, key': Pointer[None] tag)

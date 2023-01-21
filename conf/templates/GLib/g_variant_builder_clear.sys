@@ -1,0 +1,2 @@
+  fun clear(builder': GVariantBuilder): None =>
+    @g_variant_builder_clear(builder')

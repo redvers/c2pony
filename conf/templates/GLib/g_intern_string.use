@@ -1,1 +1,1 @@
-use @g_intern_string[Pointer[U8] tag](string': Pointer[U8] tag)
+use @g_intern_string[String](string': String)

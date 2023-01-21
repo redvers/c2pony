@@ -1,0 +1,2 @@
+  fun ref_string_new_len(str': String, len': I64): String =>
+    @g_ref_string_new_len(str', len')

@@ -1,0 +1,2 @@
+  fun remove(iter': GSequenceNode): None =>
+    @g_sequence_remove(iter')

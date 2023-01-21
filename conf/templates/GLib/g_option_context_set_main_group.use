@@ -1,1 +1,1 @@
-use @g_option_context_set_main_group[None](context': GOptionContextT, group': GOptionGroupT)
+use @g_option_context_set_main_group[None](context': GOptionContext, group': GOptionGroup)

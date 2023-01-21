@@ -1,1 +1,1 @@
-use @g_option_context_add_main_entries[None](context': GOptionContextT, entries': GOptionEntryT, translation_domain': Pointer[U8] tag)
+use @g_option_context_add_main_entries[None](context': GOptionContext, entries': GOptionEntry, translation_domain': String)

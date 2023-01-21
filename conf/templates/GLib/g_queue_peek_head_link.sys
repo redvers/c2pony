@@ -1,0 +1,2 @@
+  fun peek_head_link(queue': GQueue): GList =>
+    @g_queue_peek_head_link(queue')

@@ -1,0 +1,2 @@
+  fun insert_value(dict': GVariantDict, key': String, value': GVariant): None =>
+    @g_variant_dict_insert_value(dict', key', value')

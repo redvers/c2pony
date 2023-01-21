@@ -1,1 +1,1 @@
-use @g_variant_type_peek_string[Pointer[U8] tag](type': GVariantTypeT)
+use @g_variant_type_peek_string[String](type': GVariantType)

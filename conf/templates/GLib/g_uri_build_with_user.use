@@ -1,1 +1,1 @@
-use @g_uri_build_with_user[GUriT](flags': U32, scheme': Pointer[U8] tag, user': Pointer[U8] tag, password': Pointer[U8] tag, auth_params': Pointer[U8] tag, host': Pointer[U8] tag, port': I32, path': Pointer[U8] tag, query': Pointer[U8] tag, fragment': Pointer[U8] tag)
+use @g_uri_build_with_user[GUri](flags': U32, scheme': String, user': String, password': String, auth_params': String, host': String, port': I32, path': String, query': String, fragment': String)

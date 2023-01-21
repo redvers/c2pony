@@ -1,1 +1,1 @@
-use @g_queue_insert_after[None](queue': GQueueT, sibling': GListT, data': Pointer[None] tag)
+use @g_queue_insert_after[None](queue': GQueue, sibling': GList, data': Pointer[None] tag)

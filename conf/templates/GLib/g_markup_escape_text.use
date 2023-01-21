@@ -1,1 +1,1 @@
-use @g_markup_escape_text[Pointer[U8] tag](text': Pointer[U8] tag, length': I64)
+use @g_markup_escape_text[String](text': String, length': I64)

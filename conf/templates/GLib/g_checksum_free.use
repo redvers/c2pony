@@ -1,1 +1,1 @@
-use @g_checksum_free[None](checksum': GChecksumT)
+use @g_checksum_free[None](checksum': GChecksum)

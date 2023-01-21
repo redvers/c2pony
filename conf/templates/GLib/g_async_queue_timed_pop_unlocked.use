@@ -1,1 +1,1 @@
-use @g_async_queue_timed_pop_unlocked[Pointer[None] tag](queue': GAsyncQueueT, end_time': GTimeValT)
+use @g_async_queue_timed_pop_unlocked[Pointer[None] tag](queue': GAsyncQueue, end_time': GTimeVal)

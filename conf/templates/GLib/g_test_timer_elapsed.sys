@@ -1,0 +1,2 @@
+  fun test_timer_elapsed(): F64 =>
+    @g_test_timer_elapsed()

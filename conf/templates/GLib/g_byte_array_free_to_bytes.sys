@@ -1,0 +1,2 @@
+  fun free_to_bytes(array': GByteArray): GBytes =>
+    @g_byte_array_free_to_bytes(array')

@@ -1,1 +1,1 @@
-use @g_list_free_1[None](list': GListT)
+use @g_list_free_1[None](list': GList)

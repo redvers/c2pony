@@ -1,0 +1,2 @@
+  fun filename_display_name(filename': String): String =>
+    @g_filename_display_name(filename')

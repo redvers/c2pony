@@ -1,0 +1,2 @@
+  fun strreverse(string': String): String =>
+    @g_strreverse(string')

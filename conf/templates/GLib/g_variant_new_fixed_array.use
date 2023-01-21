@@ -1,1 +1,1 @@
-use @g_variant_new_fixed_array[GVariantT](element_type': GVariantTypeT, elements': Pointer[None] tag, n_elements': U64, element_size': U64)
+use @g_variant_new_fixed_array[GVariant](element_type': GVariantType, elements': Pointer[None] tag, n_elements': U64, element_size': U64)

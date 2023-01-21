@@ -1,0 +1,2 @@
+  fun copy(checksum': GChecksum): GChecksum =>
+    @g_checksum_copy(checksum')

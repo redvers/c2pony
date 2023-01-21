@@ -1,0 +1,2 @@
+  fun utf8_find_next_char(p': String, end': String): String =>
+    @g_utf8_find_next_char(p', end')

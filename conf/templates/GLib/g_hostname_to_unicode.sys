@@ -1,0 +1,2 @@
+  fun hostname_to_unicode(hostname': String): String =>
+    @g_hostname_to_unicode(hostname')

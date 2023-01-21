@@ -1,1 +1,1 @@
-use @g_date_time_get_utc_offset[I64](datetime': GDateTimeT)
+use @g_date_time_get_utc_offset[I64](datetime': GDateTime)

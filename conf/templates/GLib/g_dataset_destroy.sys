@@ -1,0 +1,2 @@
+  fun dataset_destroy(dataset_location': Pointer[None] tag): None =>
+    @g_dataset_destroy(dataset_location')

@@ -1,0 +1,2 @@
+  fun usleep(microseconds': U64): None =>
+    @g_usleep(microseconds')

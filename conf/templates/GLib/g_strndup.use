@@ -1,1 +1,1 @@
-use @g_strndup[Pointer[U8] tag](str': Pointer[U8] tag, n': U64)
+use @g_strndup[String](str': String, n': U64)

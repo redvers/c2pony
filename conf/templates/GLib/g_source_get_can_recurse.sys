@@ -1,0 +1,2 @@
+  fun get_can_recurse(source': GSource): I32 =>
+    @g_source_get_can_recurse(source')

@@ -1,1 +1,1 @@
-use @g_string_up[GStringT](string': GStringT)
+use @g_string_up[GString](string': GString)

@@ -1,1 +1,1 @@
-use @g_bookmark_file_add_application[None](bookmark': GBookmarkFileT, uri': Pointer[U8] tag, name': Pointer[U8] tag, exec': Pointer[U8] tag)
+use @g_bookmark_file_add_application[None](bookmark': GBookmarkFile, uri': String, name': String, exec': String)

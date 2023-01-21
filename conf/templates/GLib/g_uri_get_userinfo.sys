@@ -1,0 +1,2 @@
+  fun get_userinfo(uri': GUri): String =>
+    @g_uri_get_userinfo(uri')

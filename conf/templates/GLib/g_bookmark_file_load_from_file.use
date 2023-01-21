@@ -1,1 +1,1 @@
-use @g_bookmark_file_load_from_file[I32](bookmark': GBookmarkFileT, filename': Pointer[U8] tag, error': Pointer[GErrorT])
+use @g_bookmark_file_load_from_file[I32](bookmark': GBookmarkFile, filename': String, error': Pointer[GError])

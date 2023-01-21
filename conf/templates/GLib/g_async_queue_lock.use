@@ -1,1 +1,1 @@
-use @g_async_queue_lock[None](queue': GAsyncQueueT)
+use @g_async_queue_lock[None](queue': GAsyncQueue)

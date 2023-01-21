@@ -1,1 +1,1 @@
-use @g_sequence_insert_before[GSequenceNodeT](iter': GSequenceNodeT, data': Pointer[None] tag)
+use @g_sequence_insert_before[GSequenceNode](iter': GSequenceNode, data': Pointer[None] tag)

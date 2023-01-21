@@ -1,1 +1,1 @@
-use @g_mapped_file_free[None](file': GMappedFileT)
+use @g_mapped_file_free[None](file': GMappedFile)

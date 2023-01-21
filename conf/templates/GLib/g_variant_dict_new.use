@@ -1,1 +1,1 @@
-use @g_variant_dict_new[GVariantDictT](from_asv': GVariantT)
+use @g_variant_dict_new[GVariantDict](from_asv': GVariant)

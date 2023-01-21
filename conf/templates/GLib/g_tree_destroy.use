@@ -1,1 +1,1 @@
-use @g_tree_destroy[None](tree': GTreeT)
+use @g_tree_destroy[None](tree': GTree)

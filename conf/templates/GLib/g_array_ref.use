@@ -1,1 +1,1 @@
-use @g_array_ref[GArrayT](array': GArrayT)
+use @g_array_ref[GArray](array': GArray)

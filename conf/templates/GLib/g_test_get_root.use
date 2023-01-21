@@ -1,1 +1,1 @@
-use @g_test_get_root[GTestSuiteT]()
+use @g_test_get_root[GTestSuite]()

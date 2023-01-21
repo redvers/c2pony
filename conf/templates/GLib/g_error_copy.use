@@ -1,1 +1,1 @@
-use @g_error_copy[GErrorT](error': GErrorT)
+use @g_error_copy[GError](error': GError)

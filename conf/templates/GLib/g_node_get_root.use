@@ -1,1 +1,1 @@
-use @g_node_get_root[GNodeT](node': GNodeT)
+use @g_node_get_root[GNode](node': GNode)

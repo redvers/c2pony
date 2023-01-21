@@ -1,1 +1,1 @@
-use @g_source_set_dispose_function[None](source': GSourceT, dispose': GSourceDisposeFunc)
+use @g_source_set_dispose_function[None](source': GSource, dispose': GSourceDisposeFunc)

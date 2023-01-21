@@ -1,0 +1,2 @@
+  fun build_path(separator': String, first_element': String, ...): String =>
+    @g_build_path(separator', first_element', ...)

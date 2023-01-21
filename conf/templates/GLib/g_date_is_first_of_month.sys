@@ -1,0 +1,2 @@
+  fun is_first_of_month(date': GDate): I32 =>
+    @g_date_is_first_of_month(date')

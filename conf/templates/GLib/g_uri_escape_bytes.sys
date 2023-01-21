@@ -1,0 +1,2 @@
+  fun escape_bytes(unescaped': String, length': U64, reserved_chars_allowed': String): String =>
+    @g_uri_escape_bytes(unescaped', length', reserved_chars_allowed')

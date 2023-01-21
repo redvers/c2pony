@@ -1,0 +1,2 @@
+  fun environ_unsetenv(envp': Pointer[Pointer[U8]] tag, variable': String): Pointer[Pointer[U8]] tag =>
+    @g_environ_unsetenv(envp', variable')

@@ -1,0 +1,2 @@
+  fun extend_and_steal(array_to_extend': GPtrArray, array': GPtrArray): None =>
+    @g_ptr_array_extend_and_steal(array_to_extend', array')

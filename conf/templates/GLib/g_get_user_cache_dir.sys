@@ -1,0 +1,2 @@
+  fun get_user_cache_dir(): String =>
+    @g_get_user_cache_dir()

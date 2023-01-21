@@ -1,0 +1,2 @@
+  fun prepend_len(string': GString, val': String, len': I64): GString =>
+    @g_string_prepend_len(string', val', len')

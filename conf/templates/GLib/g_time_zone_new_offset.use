@@ -1,1 +1,1 @@
-use @g_time_zone_new_offset[GTimeZoneT](seconds': I32)
+use @g_time_zone_new_offset[GTimeZone](seconds': I32)

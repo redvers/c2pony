@@ -1,1 +1,1 @@
-use @g_queue_new[GQueueT]()
+use @g_queue_new[GQueue]()

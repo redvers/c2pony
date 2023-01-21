@@ -1,1 +1,1 @@
-use @g_format_size_full[Pointer[U8] tag](size': U64, flags': U32)
+use @g_format_size_full[String](size': U64, flags': U32)

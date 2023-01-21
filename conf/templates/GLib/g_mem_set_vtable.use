@@ -1,1 +1,1 @@
-use @g_mem_set_vtable[None](vtable': GMemVTableT)
+use @g_mem_set_vtable[None](vtable': GMemVTable)

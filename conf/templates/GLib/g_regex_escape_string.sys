@@ -1,0 +1,2 @@
+  fun escape_string(string': String, length': I32): String =>
+    @g_regex_escape_string(string', length')

@@ -1,0 +1,2 @@
+  fun on_error_query(prg_name': String): None =>
+    @g_on_error_query(prg_name')

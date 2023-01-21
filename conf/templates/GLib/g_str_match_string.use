@@ -1,1 +1,1 @@
-use @g_str_match_string[I32](search_term': Pointer[U8] tag, potential_hit': Pointer[U8] tag, accept_alternates': I32)
+use @g_str_match_string[I32](search_term': String, potential_hit': String, accept_alternates': I32)

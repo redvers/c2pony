@@ -1,1 +1,1 @@
-use @g_main_loop_quit[None](loop': GMainLoopT)
+use @g_main_loop_quit[None](loop': GMainLoop)

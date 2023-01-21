@@ -1,1 +1,1 @@
-use @g_ptr_array_find[I32](haystack': GPtrArrayT, needle': Pointer[None] tag, index': Pointer[U32] tag)
+use @g_ptr_array_find[I32](haystack': GPtrArray, needle': Pointer[None] tag, index': Pointer[U32] tag)

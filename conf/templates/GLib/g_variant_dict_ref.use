@@ -1,1 +1,1 @@
-use @g_variant_dict_ref[GVariantDictT](dict': GVariantDictT)
+use @g_variant_dict_ref[GVariantDict](dict': GVariantDict)

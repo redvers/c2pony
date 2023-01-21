@@ -1,1 +1,1 @@
-use @g_timer_reset[None](timer': GTimerT)
+use @g_timer_reset[None](timer': GTimer)

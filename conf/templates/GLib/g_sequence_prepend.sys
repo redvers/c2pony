@@ -1,0 +1,2 @@
+  fun prepend(seq': GSequence, data': Pointer[None] tag): GSequenceNode =>
+    @g_sequence_prepend(seq', data')

@@ -1,1 +1,1 @@
-use @g_node_max_height[U32](root': GNodeT)
+use @g_node_max_height[U32](root': GNode)

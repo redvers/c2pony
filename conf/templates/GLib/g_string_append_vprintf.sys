@@ -1,0 +1,2 @@
+  fun append_vprintf(string': GString, format': String, args': valisttag): None =>
+    @g_string_append_vprintf(string', format', args')

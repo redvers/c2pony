@@ -1,0 +1,2 @@
+  fun new(): GPtrArray =>
+    @g_ptr_array_new()

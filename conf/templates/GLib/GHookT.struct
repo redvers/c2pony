@@ -1,9 +1,3 @@
-struct GHookT
-  var data': Pointer[None] = Pointer[None]
-  var next': GHookT = GHookT
-  var prev': GHookT = GHookT
-  var ref_count': U32 = U32(0)
-  var hook_id': U64 = U64(0)
-  var flags': U32 = U32(0)
-  var func': Pointer[None] = Pointer[None]
-  var destroy': GDestroyNotify = GDestroyNotify
+
+use "lib:glib-2.0"
+struct 

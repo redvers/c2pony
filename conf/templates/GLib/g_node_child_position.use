@@ -1,1 +1,1 @@
-use @g_node_child_position[I32](node': GNodeT, child': GNodeT)
+use @g_node_child_position[I32](node': GNode, child': GNode)

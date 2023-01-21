@@ -1,1 +1,1 @@
-use @g_utf8_find_prev_char[Pointer[U8] tag](str': Pointer[U8] tag, p': Pointer[U8] tag)
+use @g_utf8_find_prev_char[String](str': String, p': String)

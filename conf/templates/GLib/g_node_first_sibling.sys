@@ -1,0 +1,2 @@
+  fun first_sibling(node': GNode): GNode =>
+    @g_node_first_sibling(node')

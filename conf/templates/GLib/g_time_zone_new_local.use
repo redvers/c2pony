@@ -1,1 +1,1 @@
-use @g_time_zone_new_local[GTimeZoneT]()
+use @g_time_zone_new_local[GTimeZone]()

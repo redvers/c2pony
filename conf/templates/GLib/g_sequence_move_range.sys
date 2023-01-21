@@ -1,0 +1,2 @@
+  fun move_range(dest': GSequenceNode, begin': GSequenceNode, end': GSequenceNode): None =>
+    @g_sequence_move_range(dest', begin', end')

@@ -1,0 +1,2 @@
+  fun ascii_string_to_signed(str': String, base': U32, min': I64, max': I64, out_num': Pointer[I64] tag, error': Pointer[GError]): I32 =>
+    @g_ascii_string_to_signed(str', base', min', max', out_num', error')

@@ -1,1 +1,1 @@
-use @g_dcgettext[Pointer[U8] tag](domain': Pointer[U8] tag, msgid': Pointer[U8] tag, category': I32)
+use @g_dcgettext[String](domain': String, msgid': String, category': I32)

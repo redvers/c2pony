@@ -1,0 +1,2 @@
+  fun new(): GTimer =>
+    @g_timer_new()

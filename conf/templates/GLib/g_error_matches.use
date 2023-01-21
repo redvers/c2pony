@@ -1,1 +1,1 @@
-use @g_error_matches[I32](error': GErrorT, domain': U32, code': I32)
+use @g_error_matches[I32](error': GError, domain': U32, code': I32)

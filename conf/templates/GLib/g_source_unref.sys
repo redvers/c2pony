@@ -1,0 +1,2 @@
+  fun unref(source': GSource): None =>
+    @g_source_unref(source')

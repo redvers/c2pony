@@ -1,0 +1,2 @@
+  fun base64_decode_inplace(text': String, out_len': Pointer[U64] tag): String =>
+    @g_base64_decode_inplace(text', out_len')

@@ -1,0 +1,2 @@
+  fun canonicalize_filename(filename': String, relative_to': String): String =>
+    @g_canonicalize_filename(filename', relative_to')

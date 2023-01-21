@@ -1,0 +1,2 @@
+  fun read(channel': GIOChannel, buf': String, count': U64, bytes_read': Pointer[U64] tag): U32 =>
+    @g_io_channel_read(channel', buf', count', bytes_read')

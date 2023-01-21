@@ -1,0 +1,2 @@
+  fun get_type(value': GVariant): GVariantType =>
+    @g_variant_get_type(value')

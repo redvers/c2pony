@@ -1,0 +1,2 @@
+  fun get_ignore_unknown_options(context': GOptionContext): I32 =>
+    @g_option_context_get_ignore_unknown_options(context')

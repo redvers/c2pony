@@ -1,1 +1,1 @@
-use @g_key_file_remove_group[I32](key_file': GKeyFileT, group_name': Pointer[U8] tag, error': Pointer[GErrorT])
+use @g_key_file_remove_group[I32](key_file': GKeyFile, group_name': String, error': Pointer[GError])

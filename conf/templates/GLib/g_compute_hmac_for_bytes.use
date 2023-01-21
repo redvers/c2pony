@@ -1,1 +1,1 @@
-use @g_compute_hmac_for_bytes[Pointer[U8] tag](digest_type': U32, key': GBytesT, data': GBytesT)
+use @g_compute_hmac_for_bytes[String](digest_type': U32, key': GBytes, data': GBytes)

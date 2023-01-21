@@ -1,1 +1,1 @@
-use @g_hmac_unref[None](hmac': GHmacT)
+use @g_hmac_unref[None](hmac': GHmac)

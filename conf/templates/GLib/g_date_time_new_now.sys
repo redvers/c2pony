@@ -1,0 +1,2 @@
+  fun new_now(tz': GTimeZone): GDateTime =>
+    @g_date_time_new_now(tz')

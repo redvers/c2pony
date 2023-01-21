@@ -1,1 +1,1 @@
-use @g_environ_setenv[Pointer[Pointer[U8]] tag](envp': Pointer[Pointer[U8]] tag, variable': Pointer[U8] tag, value': Pointer[U8] tag, overwrite': I32)
+use @g_environ_setenv[Pointer[Pointer[U8]] tag](envp': Pointer[Pointer[U8]] tag, variable': String, value': String, overwrite': I32)

@@ -1,0 +1,2 @@
+  fun strdup(str': String): String =>
+    @g_strdup(str')

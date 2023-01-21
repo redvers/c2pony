@@ -1,0 +1,2 @@
+  fun get_host(uri': GUri): String =>
+    @g_uri_get_host(uri')

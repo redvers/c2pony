@@ -1,1 +1,1 @@
-use @g_bookmark_file_set_added_date_time[None](bookmark': GBookmarkFileT, uri': Pointer[U8] tag, added': GDateTimeT)
+use @g_bookmark_file_set_added_date_time[None](bookmark': GBookmarkFile, uri': String, added': GDateTime)

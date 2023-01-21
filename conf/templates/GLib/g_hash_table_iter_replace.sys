@@ -1,0 +1,2 @@
+  fun replace(iter': GHashTableIter, value': Pointer[None] tag): None =>
+    @g_hash_table_iter_replace(iter', value')

@@ -1,1 +1,1 @@
-use @g_set_prgname[None](prgname': Pointer[U8] tag)
+use @g_set_prgname[None](prgname': String)

@@ -1,0 +1,2 @@
+  fun delete_link(queue': GQueue, link': GList): None =>
+    @g_queue_delete_link(queue', link')

@@ -1,0 +1,2 @@
+  fun to_local(datetime': GDateTime): GDateTime =>
+    @g_date_time_to_local(datetime')

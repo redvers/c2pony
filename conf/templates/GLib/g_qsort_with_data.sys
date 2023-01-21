@@ -1,0 +1,2 @@
+  fun qsort_with_data(pbase': Pointer[None] tag, total_elems': I32, size': U64, compare_func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_qsort_with_data(pbase', total_elems', size', compare_func', user_data')

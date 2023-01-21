@@ -1,0 +1,2 @@
+  fun set_max_idle_time(interval': U32): None =>
+    @g_thread_pool_set_max_idle_time(interval')

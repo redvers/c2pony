@@ -1,1 +1,1 @@
-use @g_variant_dict_insert_value[None](dict': GVariantDictT, key': Pointer[U8] tag, value': GVariantT)
+use @g_variant_dict_insert_value[None](dict': GVariantDict, key': String, value': GVariant)

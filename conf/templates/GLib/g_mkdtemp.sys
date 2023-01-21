@@ -1,0 +1,2 @@
+  fun mkdtemp(tmpl': String): String =>
+    @g_mkdtemp(tmpl')

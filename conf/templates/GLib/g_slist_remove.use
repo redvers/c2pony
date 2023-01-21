@@ -1,1 +1,1 @@
-use @g_slist_remove[GSListT](list': GSListT, data': Pointer[None] tag)
+use @g_slist_remove[GSList](list': GSList, data': Pointer[None] tag)

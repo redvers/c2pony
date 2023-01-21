@@ -1,1 +1,1 @@
-use @g_queue_get_length[U32](queue': GQueueT)
+use @g_queue_get_length[U32](queue': GQueue)

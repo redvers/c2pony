@@ -1,1 +1,1 @@
-use @g_strjoin[Pointer[U8] tag](separator': Pointer[U8] tag, ...)
+use @g_strjoin[String](separator': String, ...)

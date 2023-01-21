@@ -2,6 +2,7 @@
 <rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
   <ns namespace="GObject">
 <ponydep>
+use "../GLib"
 use "lib:gobject-2.0"
 </ponydep>
     <renderfunction name="g_boxed_copy" ponyname="boxed_copy" render="1" deprecated=""/>

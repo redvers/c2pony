@@ -1,1 +1,1 @@
-use @g_regex_match_simple[I32](pattern': Pointer[U8] tag, string': Pointer[U8] tag, compile_options': U32, match_options': U32)
+use @g_regex_match_simple[I32](pattern': String, string': String, compile_options': U32, match_options': U32)

@@ -1,1 +1,1 @@
-use @g_sequence_foreach_range[None](begin': GSequenceNodeT, end': GSequenceNodeT, func': GFunc, user_data': Pointer[None] tag)
+use @g_sequence_foreach_range[None](begin': GSequenceNode, end': GSequenceNode, func': GFunc, user_data': Pointer[None] tag)

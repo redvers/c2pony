@@ -1,0 +1,2 @@
+  fun get_application_name(): String =>
+    @g_get_application_name()

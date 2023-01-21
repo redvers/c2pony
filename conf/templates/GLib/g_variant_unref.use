@@ -1,1 +1,1 @@
-use @g_variant_unref[None](value': GVariantT)
+use @g_variant_unref[None](value': GVariant)

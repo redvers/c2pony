@@ -1,1 +1,1 @@
-use @g_bookmark_file_new[GBookmarkFileT]()
+use @g_bookmark_file_new[GBookmarkFile]()

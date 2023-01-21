@@ -1,1 +1,1 @@
-use @g_datalist_set_flags[None](datalist': Pointer[GDataT], flags': U32)
+use @g_datalist_set_flags[None](datalist': Pointer[GData], flags': U32)

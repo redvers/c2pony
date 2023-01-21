@@ -1,0 +1,2 @@
+  fun get_codeset(): String =>
+    @g_get_codeset()

@@ -1,1 +1,1 @@
-use @g_key_file_set_list_separator[None](key_file': GKeyFileT, separator': U8)
+use @g_key_file_set_list_separator[None](key_file': GKeyFile, separator': U8)

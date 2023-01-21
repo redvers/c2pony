@@ -1,0 +1,2 @@
+  fun build(flags': U32, scheme': String, userinfo': String, host': String, port': I32, path': String, query': String, fragment': String): GUri =>
+    @g_uri_build(flags', scheme', userinfo', host', port', path', query', fragment')

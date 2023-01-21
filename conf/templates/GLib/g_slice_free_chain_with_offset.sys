@@ -1,0 +1,2 @@
+  fun slice_free_chain_with_offset(block_size': U64, mem_chain': Pointer[None] tag, next_offset': U64): None =>
+    @g_slice_free_chain_with_offset(block_size', mem_chain', next_offset')

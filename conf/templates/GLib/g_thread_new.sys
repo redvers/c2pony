@@ -1,0 +1,2 @@
+  fun new(name': String, func': GThreadFunc, data': Pointer[None] tag): GThread =>
+    @g_thread_new(name', func', data')

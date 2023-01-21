@@ -1,1 +1,1 @@
-use @g_variant_builder_new[GVariantBuilderT](type': GVariantTypeT)
+use @g_variant_builder_new[GVariantBuilder](type': GVariantType)

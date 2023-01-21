@@ -1,1 +1,1 @@
-use @g_sequence_remove[None](iter': GSequenceNodeT)
+use @g_sequence_remove[None](iter': GSequenceNode)

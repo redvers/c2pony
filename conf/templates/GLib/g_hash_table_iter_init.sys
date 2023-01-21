@@ -1,0 +1,2 @@
+  fun init(iter': GHashTableIter, hash_table': GHashTable): None =>
+    @g_hash_table_iter_init(iter', hash_table')

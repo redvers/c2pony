@@ -1,0 +1,2 @@
+  fun get_user_special_dir(directory': U32): String =>
+    @g_get_user_special_dir(directory')

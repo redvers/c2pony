@@ -1,0 +1,2 @@
+  fun load_from_file(key_file': GKeyFile, file': String, flags': U32, error': Pointer[GError]): I32 =>
+    @g_key_file_load_from_file(key_file', file', flags', error')

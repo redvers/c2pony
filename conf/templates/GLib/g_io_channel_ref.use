@@ -1,1 +1,1 @@
-use @g_io_channel_ref[GIOChannelT](channel': GIOChannelT)
+use @g_io_channel_ref[GIOChannel](channel': GIOChannel)

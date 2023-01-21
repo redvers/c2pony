@@ -1,1 +1,1 @@
-use @g_variant_byteswap[GVariantT](value': GVariantT)
+use @g_variant_byteswap[GVariant](value': GVariant)

@@ -1,0 +1,2 @@
+  fun format_size(size': U64): String =>
+    @g_format_size(size')

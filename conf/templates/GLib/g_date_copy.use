@@ -1,1 +1,1 @@
-use @g_date_copy[GDateT](date': GDateT)
+use @g_date_copy[GDate](date': GDate)

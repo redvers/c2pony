@@ -1,0 +1,2 @@
+  fun build_pathv(separator': String, args': Pointer[Pointer[U8]] tag): String =>
+    @g_build_pathv(separator', args')

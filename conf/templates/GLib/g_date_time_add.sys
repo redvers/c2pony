@@ -1,0 +1,2 @@
+  fun add(datetime': GDateTime, timespan': I64): GDateTime =>
+    @g_date_time_add(datetime', timespan')

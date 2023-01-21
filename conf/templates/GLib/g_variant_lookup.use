@@ -1,1 +1,1 @@
-use @g_variant_lookup[I32](dictionary': GVariantT, key': Pointer[U8] tag, format_string': Pointer[U8] tag, ...)
+use @g_variant_lookup[I32](dictionary': GVariant, key': String, format_string': String, ...)

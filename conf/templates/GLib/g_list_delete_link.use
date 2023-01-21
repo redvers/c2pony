@@ -1,1 +1,1 @@
-use @g_list_delete_link[GListT](list': GListT, link': GListT)
+use @g_list_delete_link[GList](list': GList, link': GList)

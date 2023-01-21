@@ -1,1 +1,1 @@
-use @g_timeout_source_new[GSourceT](interval': U32)
+use @g_timeout_source_new[GSource](interval': U32)

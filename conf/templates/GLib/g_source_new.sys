@@ -1,0 +1,2 @@
+  fun new(source_funcs': GSourceFuncs, struct_size': U32): GSource =>
+    @g_source_new(source_funcs', struct_size')

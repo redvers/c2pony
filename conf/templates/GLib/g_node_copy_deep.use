@@ -1,1 +1,1 @@
-use @g_node_copy_deep[GNodeT](node': GNodeT, copy_func': GCopyFunc, data': Pointer[None] tag)
+use @g_node_copy_deep[GNode](node': GNode, copy_func': GCopyFunc, data': Pointer[None] tag)

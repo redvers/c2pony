@@ -1,0 +1,2 @@
+  fun set_description(bookmark': GBookmarkFile, uri': String, description': String): None =>
+    @g_bookmark_file_set_description(bookmark', uri', description')

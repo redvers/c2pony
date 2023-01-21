@@ -1,1 +1,1 @@
-use @g_tree_ref[GTreeT](tree': GTreeT)
+use @g_tree_ref[GTree](tree': GTree)

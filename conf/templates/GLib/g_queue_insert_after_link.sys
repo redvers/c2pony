@@ -1,0 +1,2 @@
+  fun insert_after_link(queue': GQueue, sibling': GList, link': GList): None =>
+    @g_queue_insert_after_link(queue', sibling', link')

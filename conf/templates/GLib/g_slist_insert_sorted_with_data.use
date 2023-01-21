@@ -1,1 +1,1 @@
-use @g_slist_insert_sorted_with_data[GSListT](list': GSListT, data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag)
+use @g_slist_insert_sorted_with_data[GSList](list': GSList, data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag)

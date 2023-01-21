@@ -1,0 +1,2 @@
+  fun markup_printf_escaped(format': String, ...): String =>
+    @g_markup_printf_escaped(format', ...)

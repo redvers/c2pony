@@ -1,1 +1,1 @@
-use @g_main_context_acquire[I32](context': GMainContextT)
+use @g_main_context_acquire[I32](context': GMainContext)

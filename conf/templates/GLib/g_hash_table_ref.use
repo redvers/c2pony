@@ -1,1 +1,1 @@
-use @g_hash_table_ref[GHashTableT](hash_table': GHashTableT)
+use @g_hash_table_ref[GHashTable](hash_table': GHashTable)

@@ -1,1 +1,1 @@
-use @g_variant_get_data_as_bytes[GBytesT](value': GVariantT)
+use @g_variant_get_data_as_bytes[GBytes](value': GVariant)

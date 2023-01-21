@@ -1,1 +1,1 @@
-use @g_uri_to_string[Pointer[U8] tag](uri': GUriT)
+use @g_uri_to_string[String](uri': GUri)

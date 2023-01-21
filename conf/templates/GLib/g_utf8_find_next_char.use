@@ -1,1 +1,1 @@
-use @g_utf8_find_next_char[Pointer[U8] tag](p': Pointer[U8] tag, end': Pointer[U8] tag)
+use @g_utf8_find_next_char[String](p': String, end': String)

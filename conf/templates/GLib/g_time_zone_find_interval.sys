@@ -1,0 +1,2 @@
+  fun find_interval(tz': GTimeZone, type': U32, time': I64): I32 =>
+    @g_time_zone_find_interval(tz', type', time')

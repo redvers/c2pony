@@ -1,0 +1,2 @@
+  fun str_match_string(search_term': String, potential_hit': String, accept_alternates': I32): I32 =>
+    @g_str_match_string(search_term', potential_hit', accept_alternates')

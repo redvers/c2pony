@@ -1,0 +1,2 @@
+  fun str_to_ascii(str': String, from_locale': String): String =>
+    @g_str_to_ascii(str', from_locale')

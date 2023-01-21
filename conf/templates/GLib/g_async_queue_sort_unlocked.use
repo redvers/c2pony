@@ -1,1 +1,1 @@
-use @g_async_queue_sort_unlocked[None](queue': GAsyncQueueT, func': GCompareDataFunc, user_data': Pointer[None] tag)
+use @g_async_queue_sort_unlocked[None](queue': GAsyncQueue, func': GCompareDataFunc, user_data': Pointer[None] tag)

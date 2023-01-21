@@ -1,0 +1,2 @@
+  fun test_get_root(): GTestSuite =>
+    @g_test_get_root()

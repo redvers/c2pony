@@ -1,1 +1,1 @@
-use @g_variant_builder_close[None](builder': GVariantBuilderT)
+use @g_variant_builder_close[None](builder': GVariantBuilder)

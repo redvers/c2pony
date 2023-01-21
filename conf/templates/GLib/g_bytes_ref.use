@@ -1,1 +1,1 @@
-use @g_bytes_ref[GBytesT](bytes': GBytesT)
+use @g_bytes_ref[GBytes](bytes': GBytes)

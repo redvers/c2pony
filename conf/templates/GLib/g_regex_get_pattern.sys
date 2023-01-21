@@ -1,0 +1,2 @@
+  fun get_pattern(regex': GRegex): String =>
+    @g_regex_get_pattern(regex')

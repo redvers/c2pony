@@ -1,1 +1,1 @@
-use @g_clear_error[None](err': Pointer[GErrorT])
+use @g_clear_error[None](err': Pointer[GError])

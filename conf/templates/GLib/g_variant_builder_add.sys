@@ -1,0 +1,2 @@
+  fun add(builder': GVariantBuilder, format_string': String, ...): None =>
+    @g_variant_builder_add(builder', format_string', ...)

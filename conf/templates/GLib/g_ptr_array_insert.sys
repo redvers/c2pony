@@ -1,0 +1,2 @@
+  fun insert(array': GPtrArray, index': I32, data': Pointer[None] tag): None =>
+    @g_ptr_array_insert(array', index', data')

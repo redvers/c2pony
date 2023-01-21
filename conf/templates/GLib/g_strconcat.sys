@@ -1,0 +1,2 @@
+  fun strconcat(string1': String, ...): String =>
+    @g_strconcat(string1', ...)

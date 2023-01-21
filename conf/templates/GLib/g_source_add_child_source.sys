@@ -1,0 +1,2 @@
+  fun add_child_source(source': GSource, child_source': GSource): None =>
+    @g_source_add_child_source(source', child_source')

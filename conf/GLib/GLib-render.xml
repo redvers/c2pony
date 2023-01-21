@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
   <ns namespace="GLib">
+<ponydep>
+use "lib:glib-2.0"
+</ponydep>
     <renderfunction name="g_access" ponyname="access" render="1" deprecated=""/>
     <renderfunction name="g_ascii_digit_value" ponyname="ascii_digit_value" render="1" deprecated=""/>
     <renderfunction name="g_ascii_dtostr" ponyname="ascii_dtostr" render="1" deprecated=""/>

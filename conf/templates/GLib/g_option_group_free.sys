@@ -1,0 +1,2 @@
+  fun free(group': GOptionGroup): None =>
+    @g_option_group_free(group')

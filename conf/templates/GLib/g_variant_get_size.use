@@ -1,1 +1,1 @@
-use @g_variant_get_size[U64](value': GVariantT)
+use @g_variant_get_size[U64](value': GVariant)

@@ -1,0 +1,2 @@
+  fun quark_to_string(quark': U32): String =>
+    @g_quark_to_string(quark')

@@ -1,0 +1,2 @@
+  fun str_has_suffix(str': String, suffix': String): I32 =>
+    @g_str_has_suffix(str', suffix')

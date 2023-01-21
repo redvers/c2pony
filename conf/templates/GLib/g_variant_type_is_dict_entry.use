@@ -1,1 +1,1 @@
-use @g_variant_type_is_dict_entry[I32](type': GVariantTypeT)
+use @g_variant_type_is_dict_entry[I32](type': GVariantType)

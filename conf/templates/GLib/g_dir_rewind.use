@@ -1,1 +1,1 @@
-use @g_dir_rewind[None](dir': GDirT)
+use @g_dir_rewind[None](dir': GDir)

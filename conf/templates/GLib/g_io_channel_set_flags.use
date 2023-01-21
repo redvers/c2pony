@@ -1,1 +1,1 @@
-use @g_io_channel_set_flags[U32](channel': GIOChannelT, flags': U32, error': Pointer[GErrorT])
+use @g_io_channel_set_flags[U32](channel': GIOChannel, flags': U32, error': Pointer[GError])

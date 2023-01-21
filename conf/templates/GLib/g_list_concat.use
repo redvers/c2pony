@@ -1,1 +1,1 @@
-use @g_list_concat[GListT](list1': GListT, list2': GListT)
+use @g_list_concat[GList](list1': GList, list2': GList)

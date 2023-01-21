@@ -1,0 +1,2 @@
+  fun test_assert_expected_messages_internal(domain': String, file': String, line': I32, func': String): None =>
+    @g_test_assert_expected_messages_internal(domain', file', line', func')

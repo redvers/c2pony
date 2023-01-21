@@ -1,0 +1,2 @@
+  fun spawn_close_pid(pid': I32): None =>
+    @g_spawn_close_pid(pid')

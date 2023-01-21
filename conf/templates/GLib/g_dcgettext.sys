@@ -1,0 +1,2 @@
+  fun dcgettext(domain': String, msgid': String, category': I32): String =>
+    @g_dcgettext(domain', msgid', category')

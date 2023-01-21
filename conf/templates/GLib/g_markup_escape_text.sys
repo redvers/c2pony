@@ -1,0 +1,2 @@
+  fun markup_escape_text(text': String, length': I64): String =>
+    @g_markup_escape_text(text', length')

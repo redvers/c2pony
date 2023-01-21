@@ -1,0 +1,2 @@
+  fun test_get_dir(file_type': U32): String =>
+    @g_test_get_dir(file_type')

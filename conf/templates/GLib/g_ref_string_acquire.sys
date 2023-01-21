@@ -1,0 +1,2 @@
+  fun ref_string_acquire(str': String): String =>
+    @g_ref_string_acquire(str')

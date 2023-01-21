@@ -1,0 +1,2 @@
+  fun free_full(queue': GQueue, free_func': GDestroyNotify): None =>
+    @g_queue_free_full(queue', free_func')

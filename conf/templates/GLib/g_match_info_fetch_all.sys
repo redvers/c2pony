@@ -1,0 +1,2 @@
+  fun fetch_all(match_info': GMatchInfo): Pointer[Pointer[U8]] tag =>
+    @g_match_info_fetch_all(match_info')

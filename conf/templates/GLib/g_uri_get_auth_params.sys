@@ -1,0 +1,2 @@
+  fun get_auth_params(uri': GUri): String =>
+    @g_uri_get_auth_params(uri')

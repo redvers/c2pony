@@ -1,1 +1,1 @@
-use @g_path_get_basename[Pointer[U8] tag](file_name': Pointer[U8] tag)
+use @g_path_get_basename[String](file_name': String)

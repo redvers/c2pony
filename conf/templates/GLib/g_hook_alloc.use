@@ -1,1 +1,1 @@
-use @g_hook_alloc[GHookT](hook_list': GHookListT)
+use @g_hook_alloc[GHook](hook_list': GHookList)

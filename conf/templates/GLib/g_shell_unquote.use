@@ -1,1 +1,1 @@
-use @g_shell_unquote[Pointer[U8] tag](quoted_string': Pointer[U8] tag, error': Pointer[GErrorT])
+use @g_shell_unquote[String](quoted_string': String, error': Pointer[GError])

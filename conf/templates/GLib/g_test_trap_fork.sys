@@ -1,0 +1,2 @@
+  fun test_trap_fork(usec_timeout': U64, test_trap_flags': U32): I32 =>
+    @g_test_trap_fork(usec_timeout', test_trap_flags')

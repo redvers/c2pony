@@ -1,0 +1,2 @@
+  fun get_timezone_abbreviation(datetime': GDateTime): String =>
+    @g_date_time_get_timezone_abbreviation(datetime')

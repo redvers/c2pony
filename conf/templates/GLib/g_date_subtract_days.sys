@@ -1,0 +1,2 @@
+  fun subtract_days(date': GDate, n_days': U32): None =>
+    @g_date_subtract_days(date', n_days')

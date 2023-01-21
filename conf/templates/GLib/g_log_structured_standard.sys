@@ -1,0 +1,2 @@
+  fun log_structured_standard(log_domain': String, log_level': I32, file': String, line': String, func': String, message_format': String, ...): None =>
+    @g_log_structured_standard(log_domain', log_level', file', line', func', message_format', ...)

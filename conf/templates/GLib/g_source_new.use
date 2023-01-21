@@ -1,1 +1,1 @@
-use @g_source_new[GSourceT](source_funcs': GSourceFuncsT, struct_size': U32)
+use @g_source_new[GSource](source_funcs': GSourceFuncs, struct_size': U32)

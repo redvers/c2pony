@@ -1,1 +1,1 @@
-use @g_date_time_get_day_of_week[I32](datetime': GDateTimeT)
+use @g_date_time_get_day_of_week[I32](datetime': GDateTime)

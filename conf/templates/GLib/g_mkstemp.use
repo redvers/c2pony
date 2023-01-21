@@ -1,1 +1,1 @@
-use @g_mkstemp[I32](tmpl': Pointer[U8] tag)
+use @g_mkstemp[I32](tmpl': String)

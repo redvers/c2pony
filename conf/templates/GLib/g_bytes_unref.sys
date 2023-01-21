@@ -1,0 +1,2 @@
+  fun unref(bytes': GBytes): None =>
+    @g_bytes_unref(bytes')

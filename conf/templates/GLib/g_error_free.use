@@ -1,1 +1,1 @@
-use @g_error_free[None](error': GErrorT)
+use @g_error_free[None](error': GError)

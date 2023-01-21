@@ -1,0 +1,2 @@
+  fun str_is_ascii(str': String): I32 =>
+    @g_str_is_ascii(str')

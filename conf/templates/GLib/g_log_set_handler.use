@@ -1,1 +1,1 @@
-use @g_log_set_handler[U32](log_domain': Pointer[U8] tag, log_levels': I32, log_func': GLogFunc, user_data': Pointer[None] tag)
+use @g_log_set_handler[U32](log_domain': String, log_levels': I32, log_func': GLogFunc, user_data': Pointer[None] tag)

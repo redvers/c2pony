@@ -1,0 +1,2 @@
+  fun string_scan(string': String, limit': String, endptr': Pointer[Pointer[U8]] tag): I32 =>
+    @g_variant_type_string_scan(string', limit', endptr')

@@ -1,1 +1,1 @@
-use @g_node_last_child[GNodeT](node': GNodeT)
+use @g_node_last_child[GNode](node': GNode)

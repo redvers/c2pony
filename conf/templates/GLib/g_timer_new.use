@@ -1,1 +1,1 @@
-use @g_timer_new[GTimerT]()
+use @g_timer_new[GTimer]()

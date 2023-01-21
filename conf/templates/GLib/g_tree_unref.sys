@@ -1,0 +1,2 @@
+  fun unref(tree': GTree): None =>
+    @g_tree_unref(tree')

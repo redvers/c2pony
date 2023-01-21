@@ -1,0 +1,2 @@
+  fun log_default_handler(log_domain': String, log_level': I32, message': String, unused_data': Pointer[None] tag): None =>
+    @g_log_default_handler(log_domain', log_level', message', unused_data')

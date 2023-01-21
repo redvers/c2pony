@@ -1,0 +1,2 @@
+  fun get_data_as_bytes(value': GVariant): GBytes =>
+    @g_variant_get_data_as_bytes(value')

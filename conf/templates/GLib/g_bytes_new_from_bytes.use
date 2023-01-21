@@ -1,1 +1,1 @@
-use @g_bytes_new_from_bytes[GBytesT](bytes': GBytesT, offset': U64, length': U64)
+use @g_bytes_new_from_bytes[GBytes](bytes': GBytes, offset': U64, length': U64)

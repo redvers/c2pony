@@ -1,0 +1,2 @@
+  fun remove(dict': GVariantDict, key': String): I32 =>
+    @g_variant_dict_remove(dict', key')

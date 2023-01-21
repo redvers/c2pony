@@ -1,0 +1,2 @@
+  fun get_tmp_dir(): String =>
+    @g_get_tmp_dir()

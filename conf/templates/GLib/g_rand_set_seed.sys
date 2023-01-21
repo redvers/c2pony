@@ -1,0 +1,2 @@
+  fun set_seed(rand': GRand, seed': U32): None =>
+    @g_rand_set_seed(rand', seed')

@@ -1,1 +1,1 @@
-use @g_hook_prepend[None](hook_list': GHookListT, hook': GHookT)
+use @g_hook_prepend[None](hook_list': GHookList, hook': GHook)

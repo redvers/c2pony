@@ -1,1 +1,1 @@
-use @g_node_copy[GNodeT](node': GNodeT)
+use @g_node_copy[GNode](node': GNode)

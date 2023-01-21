@@ -1,1 +1,1 @@
-use @g_source_get_current_time[None](source': GSourceT, timeval': GTimeValT)
+use @g_source_get_current_time[None](source': GSource, timeval': GTimeVal)

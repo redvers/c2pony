@@ -1,0 +1,2 @@
+  fun join_with_user(flags': U32, scheme': String, user': String, password': String, auth_params': String, host': String, port': I32, path': String, query': String, fragment': String): String =>
+    @g_uri_join_with_user(flags', scheme', user', password', auth_params', host', port', path', query', fragment')

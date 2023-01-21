@@ -1,1 +1,1 @@
-use @g_dgettext[Pointer[U8] tag](domain': Pointer[U8] tag, msgid': Pointer[U8] tag)
+use @g_dgettext[String](domain': String, msgid': String)

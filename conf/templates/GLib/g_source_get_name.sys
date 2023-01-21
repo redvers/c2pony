@@ -1,0 +1,2 @@
+  fun get_name(source': GSource): String =>
+    @g_source_get_name(source')

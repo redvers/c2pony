@@ -1,0 +1,2 @@
+  fun set_error_hook(group': GOptionGroup, error_func': GOptionErrorFunc): None =>
+    @g_option_group_set_error_hook(group', error_func')

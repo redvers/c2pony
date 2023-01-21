@@ -1,0 +1,2 @@
+  fun intern_string(string': String): String =>
+    @g_intern_string(string')

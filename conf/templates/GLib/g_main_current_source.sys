@@ -1,0 +1,2 @@
+  fun main_current_source(): GSource =>
+    @g_main_current_source()

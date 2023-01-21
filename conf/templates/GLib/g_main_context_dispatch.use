@@ -1,1 +1,1 @@
-use @g_main_context_dispatch[None](context': GMainContextT)
+use @g_main_context_dispatch[None](context': GMainContext)

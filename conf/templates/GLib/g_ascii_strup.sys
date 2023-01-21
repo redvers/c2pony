@@ -1,0 +1,2 @@
+  fun ascii_strup(str': String, len': I64): String =>
+    @g_ascii_strup(str', len')

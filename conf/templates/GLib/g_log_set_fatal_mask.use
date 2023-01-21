@@ -1,1 +1,1 @@
-use @g_log_set_fatal_mask[I32](log_domain': Pointer[U8] tag, fatal_mask': I32)
+use @g_log_set_fatal_mask[I32](log_domain': String, fatal_mask': I32)

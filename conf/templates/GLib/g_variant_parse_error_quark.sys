@@ -1,0 +1,2 @@
+  fun parse_error_quark(): U32 =>
+    @g_variant_parse_error_quark()

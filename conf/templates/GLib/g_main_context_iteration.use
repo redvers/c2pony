@@ -1,1 +1,1 @@
-use @g_main_context_iteration[I32](context': GMainContextT, may_block': I32)
+use @g_main_context_iteration[I32](context': GMainContext, may_block': I32)

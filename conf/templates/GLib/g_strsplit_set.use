@@ -1,1 +1,1 @@
-use @g_strsplit_set[Pointer[Pointer[U8]] tag](string': Pointer[U8] tag, delimiters': Pointer[U8] tag, max_tokens': I32)
+use @g_strsplit_set[Pointer[Pointer[U8]] tag](string': String, delimiters': String, max_tokens': I32)

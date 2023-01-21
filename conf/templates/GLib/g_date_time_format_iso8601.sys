@@ -1,0 +1,2 @@
+  fun format_iso8601(datetime': GDateTime): String =>
+    @g_date_time_format_iso8601(datetime')

@@ -1,0 +1,2 @@
+  fun add_hours(datetime': GDateTime, hours': I32): GDateTime =>
+    @g_date_time_add_hours(datetime', hours')

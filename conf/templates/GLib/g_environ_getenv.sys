@@ -1,0 +1,2 @@
+  fun environ_getenv(envp': Pointer[Pointer[U8]] tag, variable': String): String =>
+    @g_environ_getenv(envp', variable')

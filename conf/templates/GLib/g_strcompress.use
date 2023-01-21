@@ -1,1 +1,1 @@
-use @g_strcompress[Pointer[U8] tag](source': Pointer[U8] tag)
+use @g_strcompress[String](source': String)

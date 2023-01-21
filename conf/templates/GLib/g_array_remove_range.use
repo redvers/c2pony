@@ -1,1 +1,1 @@
-use @g_array_remove_range[GArrayT](array': GArrayT, index': U32, length': U32)
+use @g_array_remove_range[GArray](array': GArray, index': U32, length': U32)

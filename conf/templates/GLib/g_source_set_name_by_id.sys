@@ -1,0 +1,2 @@
+  fun set_name_by_id(tag': U32, name': String): None =>
+    @g_source_set_name_by_id(tag', name')

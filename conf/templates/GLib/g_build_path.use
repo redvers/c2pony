@@ -1,1 +1,1 @@
-use @g_build_path[Pointer[U8] tag](separator': Pointer[U8] tag, first_element': Pointer[U8] tag, ...)
+use @g_build_path[String](separator': String, first_element': String, ...)

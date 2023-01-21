@@ -1,0 +1,2 @@
+  fun mkdtemp_full(tmpl': String, mode': I32): String =>
+    @g_mkdtemp_full(tmpl', mode')

@@ -1,1 +1,1 @@
-use @g_array_set_clear_func[None](array': GArrayT, clear_func': GDestroyNotify)
+use @g_array_set_clear_func[None](array': GArray, clear_func': GDestroyNotify)

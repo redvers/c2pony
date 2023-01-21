@@ -1,1 +1,1 @@
-use @g_main_context_wakeup[None](context': GMainContextT)
+use @g_main_context_wakeup[None](context': GMainContext)

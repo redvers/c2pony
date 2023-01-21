@@ -1,0 +1,2 @@
+  fun strdelimit(string': String, delimiters': String, new_delimiter': U8): String =>
+    @g_strdelimit(string', delimiters', new_delimiter')

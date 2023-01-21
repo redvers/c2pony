@@ -1,0 +1,2 @@
+  fun timeout_add(interval': U32, function': GSourceFunc, data': Pointer[None] tag): U32 =>
+    @g_timeout_add(interval', function', data')

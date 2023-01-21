@@ -1,0 +1,2 @@
+  fun checked_(anon_24962': String): GVariantType =>
+    @g_variant_type_checked_(anon_24962')

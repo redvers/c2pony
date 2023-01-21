@@ -1,0 +1,2 @@
+  fun error(scanner': GScanner, format': String, ...): None =>
+    @g_scanner_error(scanner', format', ...)

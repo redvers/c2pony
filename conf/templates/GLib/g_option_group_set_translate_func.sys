@@ -1,0 +1,2 @@
+  fun set_translate_func(group': GOptionGroup, func': GTranslateFunc, data': Pointer[None] tag, destroy_notify': GDestroyNotify): None =>
+    @g_option_group_set_translate_func(group', func', data', destroy_notify')

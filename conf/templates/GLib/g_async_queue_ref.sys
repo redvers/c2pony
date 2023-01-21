@@ -1,0 +1,2 @@
+  fun ref(queue': GAsyncQueue): GAsyncQueue =>
+    @g_async_queue_ref(queue')

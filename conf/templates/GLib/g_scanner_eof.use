@@ -1,1 +1,1 @@
-use @g_scanner_eof[I32](scanner': GScannerT)
+use @g_scanner_eof[I32](scanner': GScanner)

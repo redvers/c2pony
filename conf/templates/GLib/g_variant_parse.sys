@@ -1,0 +1,2 @@
+  fun parse(type': GVariantType, text': String, limit': String, endptr': Pointer[Pointer[U8]] tag, error': Pointer[GError]): GVariant =>
+    @g_variant_parse(type', text', limit', endptr', error')

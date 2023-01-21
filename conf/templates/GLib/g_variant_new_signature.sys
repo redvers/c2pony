@@ -1,0 +1,2 @@
+  fun new_signature(signature': String): GVariant =>
+    @g_variant_new_signature(signature')

@@ -1,1 +1,1 @@
-use @g_test_create_suite[GTestSuiteT](suite_name': Pointer[U8] tag)
+use @g_test_create_suite[GTestSuite](suite_name': String)

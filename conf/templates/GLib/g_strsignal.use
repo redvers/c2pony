@@ -1,1 +1,1 @@
-use @g_strsignal[Pointer[U8] tag](signum': I32)
+use @g_strsignal[String](signum': I32)

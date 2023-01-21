@@ -1,0 +1,2 @@
+  fun iter_new(value': GVariant): GVariantIter =>
+    @g_variant_iter_new(value')

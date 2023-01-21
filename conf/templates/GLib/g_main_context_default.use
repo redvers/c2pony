@@ -1,1 +1,1 @@
-use @g_main_context_default[GMainContextT]()
+use @g_main_context_default[GMainContext]()

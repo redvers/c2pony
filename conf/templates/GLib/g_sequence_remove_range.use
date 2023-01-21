@@ -1,1 +1,1 @@
-use @g_sequence_remove_range[None](begin': GSequenceNodeT, end': GSequenceNodeT)
+use @g_sequence_remove_range[None](begin': GSequenceNode, end': GSequenceNode)

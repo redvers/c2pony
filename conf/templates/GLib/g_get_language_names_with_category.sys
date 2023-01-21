@@ -1,0 +1,2 @@
+  fun get_language_names_with_category(category_name': String): Pointer[Pointer[U8]] tag =>
+    @g_get_language_names_with_category(category_name')

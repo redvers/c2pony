@@ -1,0 +1,2 @@
+  fun add_years(datetime': GDateTime, years': I32): GDateTime =>
+    @g_date_time_add_years(datetime', years')

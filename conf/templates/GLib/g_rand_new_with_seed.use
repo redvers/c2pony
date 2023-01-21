@@ -1,1 +1,1 @@
-use @g_rand_new_with_seed[GRandT](seed': U32)
+use @g_rand_new_with_seed[GRand](seed': U32)

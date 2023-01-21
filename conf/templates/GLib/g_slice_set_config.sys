@@ -1,0 +1,2 @@
+  fun slice_set_config(ckey': U32, value': I64): None =>
+    @g_slice_set_config(ckey', value')

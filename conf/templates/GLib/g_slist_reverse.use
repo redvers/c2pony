@@ -1,1 +1,1 @@
-use @g_slist_reverse[GSListT](list': GSListT)
+use @g_slist_reverse[GSList](list': GSList)

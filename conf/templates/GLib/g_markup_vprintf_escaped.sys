@@ -1,0 +1,2 @@
+  fun markup_vprintf_escaped(format': String, args': valisttag): String =>
+    @g_markup_vprintf_escaped(format', args')

@@ -1,0 +1,2 @@
+  fun new(name': String, description': String, help_description': String, user_data': Pointer[None] tag, destroy': GDestroyNotify): GOptionGroup =>
+    @g_option_group_new(name', description', help_description', user_data', destroy')

@@ -1,0 +1,2 @@
+  fun convert(str': String, len': I64, to_codeset': String, from_codeset': String, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[GError]): String =>
+    @g_convert(str', len', to_codeset', from_codeset', bytes_read', bytes_written', error')

@@ -1,0 +1,2 @@
+  fun insert_sorted(seq': GSequence, data': Pointer[None] tag, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag): GSequenceNode =>
+    @g_sequence_insert_sorted(seq', data', cmp_func', cmp_data')

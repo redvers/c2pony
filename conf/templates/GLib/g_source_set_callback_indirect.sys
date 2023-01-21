@@ -1,0 +1,2 @@
+  fun set_callback_indirect(source': GSource, callback_data': Pointer[None] tag, callback_funcs': GSourceCallbackFuncs): None =>
+    @g_source_set_callback_indirect(source', callback_data', callback_funcs')

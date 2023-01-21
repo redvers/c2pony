@@ -1,0 +1,2 @@
+  fun foreach_range(begin': GSequenceNode, end': GSequenceNode, func': GFunc, user_data': Pointer[None] tag): None =>
+    @g_sequence_foreach_range(begin', end', func', user_data')
