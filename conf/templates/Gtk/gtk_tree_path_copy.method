@@ -1,0 +1,2 @@
+  fun ref copy(): GtkTreePath =>
+    GtkTreePathP.copy(this)

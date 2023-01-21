@@ -1,1 +1,1 @@
-use @gtk_media_stream_get_error[GError](self': GtkMediaStream)
+use @gtk_media_stream_get_error[NullablePointer[GErrorT]](self': GtkMediaStream)

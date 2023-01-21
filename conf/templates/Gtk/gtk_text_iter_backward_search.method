@@ -1,0 +1,2 @@
+  fun ref backward_search(str': String, flags': U32, match_start': GtkTextIter, match_end': GtkTextIter, limit': GtkTextIter): I32 =>
+    GtkTextIterP.backward_search(this, str', flags', match_start', match_end', limit')

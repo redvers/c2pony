@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GMenuAttributeIterClass
+  var ptr: NullablePointer[GMenuAttributeIterClassT]
+
+  new create(ptr': NullablePointer[GMenuAttributeIterClassT]) => ptr = ptr'

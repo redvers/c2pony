@@ -1,0 +1,2 @@
+  fun ref equals(other': GtkBitset): I32 =>
+    GtkBitsetP.equals(this, other')

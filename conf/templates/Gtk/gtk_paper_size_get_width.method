@@ -1,0 +1,2 @@
+  fun ref get_width(unit': U32): F64 =>
+    GtkPaperSizeP.get_width(this, unit')

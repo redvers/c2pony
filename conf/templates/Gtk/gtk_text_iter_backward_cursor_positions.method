@@ -1,0 +1,2 @@
+  fun ref backward_cursor_positions(count': I32): I32 =>
+    GtkTextIterP.backward_cursor_positions(this, count')

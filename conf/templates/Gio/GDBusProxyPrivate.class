@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GDBusProxyPrivate
+  var ptr: NullablePointer[GDBusProxyPrivateT]
+
+  new create(ptr': NullablePointer[GDBusProxyPrivateT]) => ptr = ptr'

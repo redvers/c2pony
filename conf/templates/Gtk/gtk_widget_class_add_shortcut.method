@@ -1,0 +1,2 @@
+  fun ref add_shortcut(shortcut': GtkShortcut): None =>
+    GtkWidgetClassP.add_shortcut(this, shortcut')

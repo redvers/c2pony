@@ -1,0 +1,2 @@
+  fun ref ref(): GSettingsSchemaKey =>
+    GSettingsSchemaKeyP.ref(this)

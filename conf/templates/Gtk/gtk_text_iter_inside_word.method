@@ -1,0 +1,2 @@
+  fun ref inside_word(): I32 =>
+    GtkTextIterP.inside_word(this)

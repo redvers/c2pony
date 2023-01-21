@@ -1,0 +1,2 @@
+  fun ref unref(): None =>
+    GSettingsSchemaSourceP.unref(this)

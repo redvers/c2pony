@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkShortcutTriggerClass
+  var ptr: NullablePointer[GtkShortcutTriggerClassT]
+
+  new create(ptr': NullablePointer[GtkShortcutTriggerClassT]) => ptr = ptr'

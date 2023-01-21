@@ -1,1 +1,1 @@
-use @g_resources_register[None](resource': GResource)
+use @g_resources_register[None](resource': NullablePointer[GResourceT])

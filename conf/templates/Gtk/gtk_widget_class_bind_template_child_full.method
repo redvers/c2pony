@@ -1,0 +1,2 @@
+  fun ref bind_template_child_full(name': String, internal_child': I32, struct_offset': I64): None =>
+    GtkWidgetClassP.bind_template_child_full(this, name', internal_child', struct_offset')

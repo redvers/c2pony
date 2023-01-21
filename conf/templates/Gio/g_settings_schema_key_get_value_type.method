@@ -1,0 +1,2 @@
+  fun ref get_value_type(): GVariantType =>
+    GSettingsSchemaKeyP.get_value_type(this)

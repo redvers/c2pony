@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkIMMulticontextClass
+  var ptr: NullablePointer[GtkIMMulticontextClassT]
+
+  new create(ptr': NullablePointer[GtkIMMulticontextClassT]) => ptr = ptr'

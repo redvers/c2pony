@@ -1,0 +1,2 @@
+  fun ref subtract(subtract': GFileAttributeMatcher): GFileAttributeMatcher =>
+    GFileAttributeMatcherP.subtract(this, subtract')

@@ -1010,7 +1010,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_builder_add_from_resource" ponyname="add_from_resource" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_add_from_string" ponyname="add_from_string" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_add_objects_from_file" ponyname="add_objects_from_file" render="0" deprecated=""/>
-      <rendermethod name="gtk_builder_add_objects_from_resource" ponyname="add_objects_from_resource" render="0" deprecated=""/>
+      <rendermethod name="gtk_builder_add_objects_from_resource" ponyname="add_objects_from_resource" render="1" deprecated=""/>
       <rendermethod name="gtk_builder_add_objects_from_string" ponyname="add_objects_from_string" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_create_closure" ponyname="create_closure" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_expose_object" ponyname="expose_object" render="0" deprecated=""/>

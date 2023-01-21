@@ -1,0 +1,2 @@
+  fun ref compare(rhs': GtkTextIter): I32 =>
+    GtkTextIterP.compare(this, rhs')

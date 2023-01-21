@@ -1,0 +1,2 @@
+  fun ref get_start_location(): GtkCssLocation =>
+    GtkCssSectionP.get_start_location(this)

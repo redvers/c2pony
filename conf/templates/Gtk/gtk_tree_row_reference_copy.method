@@ -1,0 +1,2 @@
+  fun ref copy(): GtkTreeRowReference =>
+    GtkTreeRowReferenceP.copy(this)

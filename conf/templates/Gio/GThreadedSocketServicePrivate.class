@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GThreadedSocketServicePrivate
+  var ptr: NullablePointer[GThreadedSocketServicePrivateT]
+
+  new create(ptr': NullablePointer[GThreadedSocketServicePrivateT]) => ptr = ptr'

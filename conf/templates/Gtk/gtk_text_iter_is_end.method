@@ -1,0 +1,2 @@
+  fun ref is_end(): I32 =>
+    GtkTextIterP.is_end(this)

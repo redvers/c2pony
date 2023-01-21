@@ -66,7 +66,7 @@
     <renderfunction name="g_resources_get_info" ponyname="resources_get_info" render="" deprecated=""/>
     <renderfunction name="g_resources_lookup_data" ponyname="resources_lookup_data" render="" deprecated=""/>
     <renderfunction name="g_resources_open_stream" ponyname="resources_open_stream" render="" deprecated=""/>
-    <renderfunction name="g_resources_register" ponyname="resources_register" render="" deprecated=""/>
+    <renderfunction name="g_resources_register" ponyname="resources_register" render="0" deprecated=""/>
     <renderfunction name="g_resources_unregister" ponyname="resources_unregister" render="" deprecated=""/>
     <renderfunction name="g_simple_async_report_error_in_idle" ponyname="simple_async_report_error_in_idle" render="" deprecated="1"/>
     <renderfunction name="g_simple_async_report_gerror_in_idle" ponyname="simple_async_report_gerror_in_idle" render="" deprecated="1"/>
@@ -444,9 +444,9 @@
 </renderstruct>
     <renderstruct name="GResolverPrivate" render="">
 </renderstruct>
-    <renderstruct name="GResource" render="">
+    <renderstruct name="GResource" render="1">
       <renderconstructor name="g_resource_new_from_data" ponyname="new_from_data" render="" deprecated=""/>
-      <rendermethod name="g_resources_register" ponyname="_register" render="" deprecated=""/>
+      <rendermethod name="g_resources_register" ponyname="_register" render="1" deprecated=""/>
       <rendermethod name="g_resources_unregister" ponyname="_unregister" render="" deprecated=""/>
       <rendermethod name="g_resource_enumerate_children" ponyname="enumerate_children" render="" deprecated=""/>
       <rendermethod name="g_resource_get_info" ponyname="get_info" render="" deprecated=""/>

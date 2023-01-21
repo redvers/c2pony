@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GTcpWrapperConnectionClass
+  var ptr: NullablePointer[GTcpWrapperConnectionClassT]
+
+  new create(ptr': NullablePointer[GTcpWrapperConnectionClassT]) => ptr = ptr'

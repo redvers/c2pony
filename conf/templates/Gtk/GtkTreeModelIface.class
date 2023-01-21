@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkTreeModelIface
+  var ptr: NullablePointer[GtkTreeModelIfaceT]
+
+  new create(ptr': NullablePointer[GtkTreeModelIfaceT]) => ptr = ptr'

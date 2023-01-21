@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GDBusArgInfo
+  var ptr: NullablePointer[GDBusArgInfoT]
+
+  new create(ptr': NullablePointer[GDBusArgInfoT]) => ptr = ptr'

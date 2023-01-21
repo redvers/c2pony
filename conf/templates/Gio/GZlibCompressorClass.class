@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GZlibCompressorClass
+  var ptr: NullablePointer[GZlibCompressorClassT]
+
+  new create(ptr': NullablePointer[GZlibCompressorClassT]) => ptr = ptr'

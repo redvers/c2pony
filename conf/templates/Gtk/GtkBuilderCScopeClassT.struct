@@ -3,4 +3,5 @@ use "../GLib"
 use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
-    struct 
+    struct GtkBuilderCScopeClassT
+  embed parent_class': GObjectClass = GObjectClass

@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkAdjustmentClass
+  var ptr: NullablePointer[GtkAdjustmentClassT]
+
+  new create(ptr': NullablePointer[GtkAdjustmentClassT]) => ptr = ptr'

@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkCssProviderClass
+  var ptr: NullablePointer[GtkCssProviderClassT]
+
+  new create(ptr': NullablePointer[GtkCssProviderClassT]) => ptr = ptr'

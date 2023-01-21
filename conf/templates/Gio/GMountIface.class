@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GMountIface
+  var ptr: NullablePointer[GMountIfaceT]
+
+  new create(ptr': NullablePointer[GMountIfaceT]) => ptr = ptr'

@@ -1,0 +1,2 @@
+  fun ref get_key(name': String): GSettingsSchemaKey =>
+    GSettingsSchemaP.get_key(this, name')

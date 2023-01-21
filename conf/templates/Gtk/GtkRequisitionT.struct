@@ -3,4 +3,6 @@ use "../GLib"
 use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
-    struct 
+    struct GtkRequisitionT
+  var width': I32 = I32(0)
+  var height': I32 = I32(0)

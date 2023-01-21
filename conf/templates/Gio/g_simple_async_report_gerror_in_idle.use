@@ -1,1 +1,1 @@
-use @g_simple_async_report_gerror_in_idle[None](object': Pointer[GObjectP], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, error': GError)
+use @g_simple_async_report_gerror_in_idle[None](object': Pointer[GObjectP], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, error': NullablePointer[GErrorT])

@@ -1,2 +1,2 @@
-  fun ref get_error(): GError =>
+  fun ref get_error(): NullablePointer[GErrorT] =>
     GtkMediaStreamP.get_error(this)

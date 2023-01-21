@@ -1,0 +1,2 @@
+  fun ref get_size_in_range(first': U32, last': U32): U64 =>
+    GtkBitsetP.get_size_in_range(this, first', last')

@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GBufferedOutputStreamClass
+  var ptr: NullablePointer[GBufferedOutputStreamClassT]
+
+  new create(ptr': NullablePointer[GBufferedOutputStreamClassT]) => ptr = ptr'

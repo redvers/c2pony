@@ -1,0 +1,2 @@
+  fun ref ref(): GDBusMethodInfo =>
+    GDBusMethodInfoP.ref(this)

@@ -1,0 +1,2 @@
+  fun ref equal(rhs': GtkTextIter): I32 =>
+    GtkTextIterP.equal(this, rhs')

@@ -1,0 +1,2 @@
+  fun ref to_gvariant(): GVariant =>
+    GtkPaperSizeP.to_gvariant(this)

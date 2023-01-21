@@ -2,4 +2,8 @@
 use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
-struct 
+struct GDBusSignalInfoT
+  var ref_count': I32 = I32(0)
+  var name': Pointer[U8] = Pointer[U8]
+  var args': Pointer[GDBusArgInfo] = Pointer[GDBusArgInfo]
+  var annotations': Pointer[GDBusAnnotationInfo] = Pointer[GDBusAnnotationInfo]

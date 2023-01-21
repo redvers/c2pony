@@ -1,0 +1,2 @@
+  fun ref get_path(): GtkTreePath =>
+    GtkTreeRowReferenceP.get_path(this)

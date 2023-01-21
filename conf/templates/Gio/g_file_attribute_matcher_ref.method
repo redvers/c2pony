@@ -1,0 +1,2 @@
+  fun ref ref(): GFileAttributeMatcher =>
+    GFileAttributeMatcherP.ref(this)

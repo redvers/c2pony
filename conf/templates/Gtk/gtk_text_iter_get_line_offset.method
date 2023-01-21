@@ -1,0 +1,2 @@
+  fun ref get_line_offset(): I32 =>
+    GtkTextIterP.get_line_offset(this)

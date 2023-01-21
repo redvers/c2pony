@@ -1,0 +1,2 @@
+  fun ref register(): None =>
+    GResourceP.register(this)

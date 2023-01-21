@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkCustomFilterClass
+  var ptr: NullablePointer[GtkCustomFilterClassT]
+
+  new create(ptr': NullablePointer[GtkCustomFilterClassT]) => ptr = ptr'

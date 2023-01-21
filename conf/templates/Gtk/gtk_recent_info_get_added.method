@@ -1,0 +1,2 @@
+  fun ref get_added(): GDateTime =>
+    GtkRecentInfoP.get_added(this)

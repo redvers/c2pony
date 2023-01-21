@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkShortcutControllerClass
+  var ptr: NullablePointer[GtkShortcutControllerClassT]
+
+  new create(ptr': NullablePointer[GtkShortcutControllerClassT]) => ptr = ptr'

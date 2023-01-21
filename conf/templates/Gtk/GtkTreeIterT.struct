@@ -3,4 +3,8 @@ use "../GLib"
 use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
-    struct 
+    struct GtkTreeIterT
+  var stamp': I32 = I32(0)
+  var user_data': Pointer[None] = Pointer[None]
+  var user_data2': Pointer[None] = Pointer[None]
+  var user_data3': Pointer[None] = Pointer[None]

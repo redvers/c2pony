@@ -1,0 +1,2 @@
+  fun ref get_range(): GVariant =>
+    GSettingsSchemaKeyP.get_range(this)

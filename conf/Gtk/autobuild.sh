@@ -17,8 +17,11 @@ echo > ../test/Gtk/GtkBuilder.pony
 cat ../templates/Gtk/GtkBuilder.class >> ../test/Gtk/GtkBuilder.pony
 echo > ../test/Gtk/GtkBuilderI.pony
 cat ../templates/Gtk/GtkBuilderI.classinterface >> ../test/Gtk/GtkBuilderI.pony
+cat ../templates/Gtk/gtk_builder_add_objects_from_resource.method >> ../test/Gtk/GtkBuilderI.pony
 echo > ../test/Gtk/GtkBuilderP.pony
+cat ../templates/Gtk/gtk_builder_add_objects_from_resource.use >> ../test/Gtk/GtkBuilderP.pony
 cat ../templates/Gtk/GtkBuilderP.primitive >> ../test/Gtk/GtkBuilderP.pony
+cat ../templates/Gtk/gtk_builder_add_objects_from_resource.sys >> ../test/Gtk/GtkBuilderP.pony
 echo > ../test/Gtk/GtkWidget.pony
 cat ../templates/Gtk/GtkWidget.class >> ../test/Gtk/GtkWidget.pony
 echo > ../test/Gtk/GtkWidgetI.pony

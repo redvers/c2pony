@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GSimpleProxyResolverPrivate
+  var ptr: NullablePointer[GSimpleProxyResolverPrivateT]
+
+  new create(ptr': NullablePointer[GSimpleProxyResolverPrivateT]) => ptr = ptr'

@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GIOExtensionPoint
+  var ptr: NullablePointer[GIOExtensionPointT]
+
+  new create(ptr': NullablePointer[GIOExtensionPointT]) => ptr = ptr'

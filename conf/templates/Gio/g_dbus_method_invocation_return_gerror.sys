@@ -1,2 +1,2 @@
   fun return_gerror(invocation': GDBusMethodInvocation, error': GError): None =>
-    @g_dbus_method_invocation_return_gerror(invocation', error')
+    @g_dbus_method_invocation_return_gerror(invocation', error'.ptr)

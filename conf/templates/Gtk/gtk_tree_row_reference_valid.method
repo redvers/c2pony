@@ -1,0 +1,2 @@
+  fun ref valid(): I32 =>
+    GtkTreeRowReferenceP.valid(this)

@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GSocketConnectionPrivate
+  var ptr: NullablePointer[GSocketConnectionPrivateT]
+
+  new create(ptr': NullablePointer[GSocketConnectionPrivateT]) => ptr = ptr'

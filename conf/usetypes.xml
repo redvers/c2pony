@@ -23,5 +23,6 @@
   <typedef name="GtkWidget" ponytypein="GtkWidgetI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
   <typedef name="GtkWindow" ponytypein="GtkWindowI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
   <typedef name="GError" ponytypein="GError" ponytypeinconv=".ptr" ponytypeout="NullablePointer[GErrorT]" structtype="NullablePointer[GErrorT]" structdef="NullablePointer[GErrorT]" argtype="NullablePointer[GErrorT]" rvtype="NullablePointer[GErrorT]"/>
+  <typedef name="GResource" ponytypein="GResource" ponytypeinconv=".ptr" ponytypeout="NullablePointer[GResourceT]" structtype="NullablePointer[GResourceT]" structdef="NullablePointer[GResourceT]" argtype="NullablePointer[GResourceT]" rvtype="NullablePointer[GResourceT]"/>
 </typedefs>
 

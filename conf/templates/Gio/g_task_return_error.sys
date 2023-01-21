@@ -1,2 +1,2 @@
   fun return_error(task': GTask, error': GError): None =>
-    @g_task_return_error(task', error')
+    @g_task_return_error(task', error'.ptr)

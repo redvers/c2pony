@@ -1,0 +1,2 @@
+  fun ref to_string(): String iso^ =>
+    GFileAttributeMatcherP.to_string(this)

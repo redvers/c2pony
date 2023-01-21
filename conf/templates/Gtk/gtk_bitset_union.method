@@ -1,0 +1,2 @@
+  fun ref union(other': GtkBitset): None =>
+    GtkBitsetP.union(this, other')

@@ -1,0 +1,2 @@
+  fun ref get_path(): String iso^ =>
+    GSettingsSchemaP.get_path(this)

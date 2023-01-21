@@ -1,1 +1,1 @@
-use @gtk_directory_list_get_error[GError](self': GtkDirectoryList)
+use @gtk_directory_list_get_error[NullablePointer[GErrorT]](self': GtkDirectoryList)

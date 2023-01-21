@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GDBusObjectManagerServerPrivate
+  var ptr: NullablePointer[GDBusObjectManagerServerPrivateT]
+
+  new create(ptr': NullablePointer[GDBusObjectManagerServerPrivateT]) => ptr = ptr'

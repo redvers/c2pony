@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GMenuModelPrivate
+  var ptr: NullablePointer[GMenuModelPrivateT]
+
+  new create(ptr': NullablePointer[GMenuModelPrivateT]) => ptr = ptr'

@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GConverterOutputStreamPrivate
+  var ptr: NullablePointer[GConverterOutputStreamPrivateT]
+
+  new create(ptr': NullablePointer[GConverterOutputStreamPrivateT]) => ptr = ptr'

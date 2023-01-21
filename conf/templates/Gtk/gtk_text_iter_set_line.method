@@ -1,0 +1,2 @@
+  fun ref set_line(line_number': I32): None =>
+    GtkTextIterP.set_line(this, line_number')

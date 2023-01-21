@@ -71,7 +71,7 @@ use "lib:gio-2.0"
     <renderfunction name="g_resources_get_info" ponyname="resources_get_info" render="1" deprecated=""/>
     <renderfunction name="g_resources_lookup_data" ponyname="resources_lookup_data" render="1" deprecated=""/>
     <renderfunction name="g_resources_open_stream" ponyname="resources_open_stream" render="1" deprecated=""/>
-    <renderfunction name="g_resources_register" ponyname="resources_register" render="1" deprecated=""/>
+    <renderfunction name="g_resources_register" ponyname="resources_register" render="0" deprecated=""/>
     <renderfunction name="g_resources_unregister" ponyname="resources_unregister" render="1" deprecated=""/>
     <renderfunction name="g_simple_async_report_error_in_idle" ponyname="simple_async_report_error_in_idle" render="1" deprecated="1"/>
     <renderfunction name="g_simple_async_report_gerror_in_idle" ponyname="simple_async_report_gerror_in_idle" render="1" deprecated="1"/>
@@ -451,13 +451,13 @@ use "lib:gio-2.0"
 </renderstruct>
     <renderstruct name="GResource" render="1">
       <renderconstructor name="g_resource_new_from_data" ponyname="new_from_data" render="1" deprecated=""/>
-      <rendermethod name="g_resources_register" ponyname="_register" render="0" deprecated=""/>
-      <rendermethod name="g_resources_unregister" ponyname="_unregister" render="0" deprecated=""/>
+      <rendermethod name="g_resources_register" ponyname="register" render="1" deprecated=""/>
+      <rendermethod name="g_resources_unregister" ponyname="unregister" render="0" deprecated=""/>
       <rendermethod name="g_resource_enumerate_children" ponyname="enumerate_children" render="0" deprecated=""/>
       <rendermethod name="g_resource_get_info" ponyname="get_info" render="0" deprecated=""/>
       <rendermethod name="g_resource_lookup_data" ponyname="lookup_data" render="0" deprecated=""/>
       <rendermethod name="g_resource_open_stream" ponyname="open_stream" render="0" deprecated=""/>
-      <rendermethod name="g_resource_ref" ponyname="ref" render="0" deprecated=""/>
+      <rendermethod name="g_resource_ref" ponyname="gref" render="0" deprecated=""/>
       <rendermethod name="g_resource_unref" ponyname="unref" render="0" deprecated=""/>
       <renderfunction name="g_resource_load" ponyname="load" render="0" deprecated=""/>
     </renderstruct>

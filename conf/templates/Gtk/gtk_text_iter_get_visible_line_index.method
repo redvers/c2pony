@@ -1,0 +1,2 @@
+  fun ref get_visible_line_index(): I32 =>
+    GtkTextIterP.get_visible_line_index(this)

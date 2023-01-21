@@ -1,0 +1,2 @@
+  fun ref add_binding_action(keyval': U32, mods': U32, action_name': String, format_string': String, ...): None =>
+    GtkWidgetClassP.add_binding_action(this, keyval', mods', action_name', format_string', ...)

@@ -1,0 +1,2 @@
+  fun ref ref_class(): GTypeClass =>
+    GIOExtensionP.ref_class(this)

@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GTlsServerConnectionInterface
+  var ptr: NullablePointer[GTlsServerConnectionInterfaceT]
+
+  new create(ptr': NullablePointer[GTlsServerConnectionInterfaceT]) => ptr = ptr'

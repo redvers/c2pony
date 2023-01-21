@@ -1,0 +1,2 @@
+  fun ref inside_sentence(): I32 =>
+    GtkTextIterP.inside_sentence(this)
