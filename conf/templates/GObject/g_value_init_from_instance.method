@@ -1,0 +1,2 @@
+  fun ref init_from_instance(instance': Pointer[None] tag): None =>
+    GValueP.init_from_instance(this, instance')

@@ -1,0 +1,2 @@
+  fun ref set_boxed_take_ownership(v_boxed': Pointer[None] tag): None =>
+    GValueP.set_boxed_take_ownership(this, v_boxed')

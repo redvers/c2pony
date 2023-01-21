@@ -14,6 +14,7 @@
       <xsl:value-of select="$newline"/>
       <xsl:text>primitive </xsl:text>
       <xsl:value-of select="$namespace"/>
+      <xsl:text>G</xsl:text>
       <xsl:value-of select="$newline"/>
     </xsl:result-document>
 

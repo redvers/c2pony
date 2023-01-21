@@ -5,6 +5,7 @@
 use "../GLib"
 use "lib:gobject-2.0"
 </ponydep>
+
     <renderfunction name="g_boxed_copy" ponyname="boxed_copy" render="1" deprecated=""/>
     <renderfunction name="g_boxed_free" ponyname="boxed_free" render="1" deprecated=""/>
     <renderfunction name="g_boxed_type_register_static" ponyname="boxed_type_register_static" render="1" deprecated=""/>
@@ -392,10 +393,20 @@ use "lib:gobject-2.0"
     <renderclass name="GInitiallyUnowned" render="1" parent="Object" abstract="" final="" fundamental="">
 </renderclass>
     <renderclass name="GObject" render="1" parent="" abstract="" final="" fundamental="">
-      <renderconstructor name="g_object_new" ponyname="new" render="1" deprecated=""/>
-      <renderconstructor name="g_object_new_valist" ponyname="new_valist" render="1" deprecated=""/>
-      <renderconstructor name="g_object_new_with_properties" ponyname="new_with_properties" render="1" deprecated=""/>
-      <renderconstructor name="g_object_newv" ponyname="newv" render="1" deprecated="1"/>
+      <renderconstructor name="g_object_new" ponyname="new" render="0" deprecated=""/>
+
+<useoverride name="g_object_new" render="1">
+// use @g_object_new[Pointer[GObjectP]](object_type': U64, first_property_name': Pointer[U8] tag, ...)
+use @g_object_new[Pointer[GObjectP]](object_type': U64, ...)
+</useoverride>
+<sysoverride name="g_object_new" render="1">
+  fun gnew(objtype: U64, propertynames: Array[String], propertyvalues: Array[String] /* will likely expand */): Pointer[GObjectP] =>
+    @g_object_new(objtype, Pointer[None])
+</sysoverride>
+
+      <renderconstructor name="g_object_new_valist" ponyname="new_valist" render="0" deprecated=""/>
+      <renderconstructor name="g_object_new_with_properties" ponyname="new_with_properties" render="0" deprecated=""/>
+      <renderconstructor name="g_object_newv" ponyname="newv" render="0" deprecated="1"/>
       <rendermethod name="g_object_add_toggle_ref" ponyname="add_toggle_ref" render="1" deprecated=""/>
       <rendermethod name="g_object_add_weak_pointer" ponyname="add_weak_pointer" render="1" deprecated=""/>
       <rendermethod name="g_object_bind_property" ponyname="bind_property" render="1" deprecated=""/>

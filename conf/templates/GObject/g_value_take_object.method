@@ -1,0 +1,2 @@
+  fun ref take_object(v_object': Pointer[None] tag): None =>
+    GValueP.take_object(this, v_object')

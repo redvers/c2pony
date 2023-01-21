@@ -6,6 +6,11 @@
   <xsl:param name="debug"/>
   <xsl:include href="common.xsl"/>
   <xsl:template match="/main/rs/ns[@namespace=$namespace]">
+    <xsl:for-each select=".//sysoverride[@render=$debug]">
+      <xsl:result-document href="../templates/{$namespace}/{./@name}.sys" method="text">
+        <xsl:value-of select="."/>
+      </xsl:result-document>
+    </xsl:for-each>
     <xsl:for-each select="./renderfunction[@render='1']">
       <xsl:call-template name="mainfunction">
         <xsl:with-param name="ponyname" select="./@ponyname"/>

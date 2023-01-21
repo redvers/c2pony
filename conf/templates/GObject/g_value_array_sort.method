@@ -1,0 +1,2 @@
+  fun ref sort(compare_func': GCompareFunc): GValueArray =>
+    GValueArrayP.sort(this, compare_func')

@@ -1,0 +1,8 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GClosure
+  var ptr: NullablePointer[GClosureT]
+
+  new create(ptr': NullablePointer[GClosureT]) => ptr = ptr'

@@ -1,2 +1,2 @@
-  fun get_target(binding': GBinding):  =>
-    String.from_cstring(@g_binding_get_target(binding')).clone()
+  fun get_target(binding': GBinding): Pointer[GObjectP] =>
+@g_binding_get_target(binding')

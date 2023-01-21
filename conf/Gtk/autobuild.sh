@@ -1,9 +1,9 @@
 mkdir -p ../test/Gtk
 
-echo > ../test/Gtk/Gtk.pony
-cat ../templates/Gtk/gtk_init.use >> ../test/Gtk/Gtk.pony
-cat ../templates/Gtk/Gtk.primitive >> ../test/Gtk/Gtk.pony
-cat ../templates/Gtk/gtk_init.sys >> ../test/Gtk/Gtk.pony
+echo > ../test/Gtk/GtkG.pony
+cat ../templates/Gtk/gtk_init.use >> ../test/Gtk/GtkG.pony
+cat ../templates/Gtk/Gtk.primitive >> ../test/Gtk/GtkG.pony
+cat ../templates/Gtk/gtk_init.sys >> ../test/Gtk/GtkG.pony
 echo > ../test/Gtk/GtkApplication.pony
 cat ../templates/Gtk/GtkApplication.class >> ../test/Gtk/GtkApplication.pony
 echo > ../test/Gtk/GtkApplicationI.pony
@@ -26,8 +26,11 @@ echo > ../test/Gtk/GtkWidget.pony
 cat ../templates/Gtk/GtkWidget.class >> ../test/Gtk/GtkWidget.pony
 echo > ../test/Gtk/GtkWidgetI.pony
 cat ../templates/Gtk/GtkWidgetI.classinterface >> ../test/Gtk/GtkWidgetI.pony
+cat ../templates/Gtk/gtk_widget_show.method >> ../test/Gtk/GtkWidgetI.pony
 echo > ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_show.use >> ../test/Gtk/GtkWidgetP.pony
 cat ../templates/Gtk/GtkWidgetP.primitive >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_show.sys >> ../test/Gtk/GtkWidgetP.pony
 echo > ../test/Gtk/GtkWindow.pony
 cat ../templates/Gtk/GtkWindow.class >> ../test/Gtk/GtkWindow.pony
 echo > ../test/Gtk/GtkWindowI.pony

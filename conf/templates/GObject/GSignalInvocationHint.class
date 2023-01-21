@@ -1,0 +1,8 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GSignalInvocationHint
+  var ptr: NullablePointer[GSignalInvocationHintT]
+
+  new create(ptr': NullablePointer[GSignalInvocationHintT]) => ptr = ptr'

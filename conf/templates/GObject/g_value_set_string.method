@@ -1,0 +1,2 @@
+  fun ref set_string(v_string': String): None =>
+    GValueP.set_string(this, v_string')

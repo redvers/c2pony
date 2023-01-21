@@ -1,1 +1,0 @@
-use @g_object_new_with_properties[Pointer[GObjectP]](object_type': U64, n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValue)

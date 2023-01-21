@@ -1,1 +1,0 @@
-use @g_object_newv[Pointer[None] tag](object_type': U64, n_parameters': U32, parameters': GParameter)

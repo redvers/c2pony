@@ -1,0 +1,8 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GValueArray
+  var ptr: NullablePointer[GValueArrayT]
+
+  new create(ptr': NullablePointer[GValueArrayT]) => ptr = ptr'

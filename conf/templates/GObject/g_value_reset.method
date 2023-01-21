@@ -1,0 +1,2 @@
+  fun ref reset(): GValue =>
+    GValueP.reset(this)

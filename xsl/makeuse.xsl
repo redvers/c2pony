@@ -14,8 +14,10 @@
           <xsl:with-param name="render" select="./@render"/>
         </xsl:call-template>
       </xsl:for-each>
-      <xsl:for-each select="./useoverride">
-        <xsl:value-of select="."/>
+      <xsl:for-each select=".//useoverride[@render=$debug]">
+        <xsl:result-document href="../templates/{$namespace}/{./@name}.use" method="text">
+          <xsl:value-of select="."/>
+        </xsl:result-document>
       </xsl:for-each>
           <!--    </xsl:result-document> -->
     <xsl:variable name="preamble" select="/main/rs/ns[@namespace=$namespace]/ponydep"/>

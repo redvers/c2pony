@@ -12,17 +12,17 @@
     <xsl:value-of select="concat('mkdir -p ../test/', $namespace, $newline)"/>
     <xsl:value-of select="$newline"/>
 
-    <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $namespace, '.pony', $newline)"/>
+    <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $namespace, 'G.pony', $newline)"/>
     <xsl:for-each select="./renderfunction[@render='1']">
       <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.use >> ')"/>
-      <xsl:value-of select="concat('../test/', $namespace, '/', $namespace, '.pony', $newline)"/>
+      <xsl:value-of select="concat('../test/', $namespace, '/', $namespace, 'G.pony', $newline)"/>
     </xsl:for-each>
 
     <xsl:value-of select="concat('cat ../templates/', $namespace, '/', $namespace, '.primitive')"/>
-    <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $namespace, '.pony', $newline)"/>
+    <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $namespace, 'G.pony', $newline)"/>
     <xsl:for-each select="./renderfunction[@render='1']">
       <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.sys')"/>
-      <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $namespace, '.pony', $newline)"/>
+      <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $namespace, 'G.pony', $newline)"/>
     </xsl:for-each>
 
     <xsl:for-each select="./renderclass[@render=$debug]">

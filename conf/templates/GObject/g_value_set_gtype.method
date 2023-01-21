@@ -1,0 +1,2 @@
+  fun ref set_gtype(v_gtype': U64): None =>
+    GValueP.set_gtype(this, v_gtype')

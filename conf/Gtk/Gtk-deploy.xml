@@ -4056,7 +4056,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_widget_set_vexpand_set" ponyname="set_vexpand_set" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_set_visible" ponyname="set_visible" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_should_layout" ponyname="should_layout" render="0" deprecated=""/>
-      <rendermethod name="gtk_widget_show" ponyname="show" render="0" deprecated=""/>
+      <rendermethod name="gtk_widget_show" ponyname="show" render="1" deprecated=""/>
       <rendermethod name="gtk_widget_size_allocate" ponyname="size_allocate" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_snapshot_child" ponyname="snapshot_child" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_translate_coordinates" ponyname="translate_coordinates" render="0" deprecated=""/>

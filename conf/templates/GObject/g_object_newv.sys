@@ -1,2 +1,0 @@
-  fun newv(object_type': U64, n_parameters': U32, parameters': GParameter): Pointer[None] tag =>
-    @g_object_newv(object_type', n_parameters', parameters')

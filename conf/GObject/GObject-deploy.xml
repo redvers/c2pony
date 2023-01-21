@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
   <ns namespace="GObject">
+    /* Overrides */
+    <renderfunction name="g_object_new" ponyname="gnew" render="1" deprecated=""/>
+    /* Overrides */
     <renderfunction name="g_boxed_copy" ponyname="boxed_copy" render="0" deprecated=""/>
     <renderfunction name="g_boxed_free" ponyname="boxed_free" render="1" deprecated=""/>
     <renderfunction name="g_boxed_type_register_static" ponyname="boxed_type_register_static" render="0" deprecated=""/>
@@ -388,7 +391,7 @@
     <renderclass name="GInitiallyUnowned" render="1" parent="Object" abstract="" final="" fundamental="">
 </renderclass>
     <renderclass name="GObject" render="1" parent="" abstract="" final="" fundamental="">
-      <renderconstructor name="g_object_new" ponyname="new" render="0" deprecated=""/>
+      <renderconstructor name="g_object_new" ponyname="gnew" render="0" deprecated=""/>
       <renderconstructor name="g_object_new_valist" ponyname="new_valist" render="0" deprecated=""/>
       <renderconstructor name="g_object_new_with_properties" ponyname="new_with_properties" render="0" deprecated=""/>
       <renderconstructor name="g_object_newv" ponyname="newv" render="0" deprecated="1"/>

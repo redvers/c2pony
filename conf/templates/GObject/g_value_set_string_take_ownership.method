@@ -1,0 +1,2 @@
+  fun ref set_string_take_ownership(v_string': String): None =>
+    GValueP.set_string_take_ownership(this, v_string')

@@ -1,2 +1,3 @@
-  fun new(object_type': U64, first_property_name': String, ...): Pointer[None] tag =>
-    @g_object_new(object_type', first_property_name'.cstring(), ...)
+
+  fun gnew(objtype: U64, propertynames: Array[String], propertyvalues: Array[String] /* will likely expand */): Pointer[GObjectP] =>
+    @g_object_new(objtype, Pointer[None])

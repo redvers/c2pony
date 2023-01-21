@@ -1,0 +1,2 @@
+  fun ref list_properties(n_properties': Pointer[U32] tag): Pointer[GParamSpec] =>
+    GObjectClassP.list_properties(this, n_properties')

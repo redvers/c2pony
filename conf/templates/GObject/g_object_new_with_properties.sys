@@ -1,2 +1,0 @@
-  fun new_with_properties(object_type': U64, n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValue):  =>
-    String.from_cstring(@g_object_new_with_properties(object_type', n_properties', names', values')).clone()

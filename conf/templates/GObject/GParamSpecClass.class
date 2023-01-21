@@ -1,0 +1,8 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GParamSpecClass
+  var ptr: NullablePointer[GParamSpecClassT]
+
+  new create(ptr': NullablePointer[GParamSpecClassT]) => ptr = ptr'

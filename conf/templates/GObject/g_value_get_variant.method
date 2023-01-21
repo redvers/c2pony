@@ -1,0 +1,2 @@
+  fun ref get_variant(): GVariant =>
+    GValueP.get_variant(this)

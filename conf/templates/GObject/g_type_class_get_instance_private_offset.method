@@ -1,0 +1,2 @@
+  fun ref get_instance_private_offset(): I32 =>
+    GTypeClassP.get_instance_private_offset(this)

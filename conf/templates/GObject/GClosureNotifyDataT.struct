@@ -1,4 +1,6 @@
 
 use "../GLib"
 use "lib:gobject-2.0"
-struct 
+struct GClosureNotifyDataT
+  var data': Pointer[None] = Pointer[None]
+  var notify': GClosureNotify = GClosureNotify

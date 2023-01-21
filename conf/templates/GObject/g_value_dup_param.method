@@ -1,0 +1,2 @@
+  fun ref dup_param(): GParamSpec =>
+    GValueP.dup_param(this)

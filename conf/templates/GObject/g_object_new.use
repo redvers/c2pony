@@ -1,1 +1,3 @@
-use @g_object_new[Pointer[None] tag](object_type': U64, first_property_name': Pointer[U8] tag, ...)
+
+// use @g_object_new[Pointer[GObjectP]](object_type': U64, first_property_name': Pointer[U8] tag, ...)
+use @g_object_new[Pointer[GObjectP]](object_type': U64, ...)
