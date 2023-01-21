@@ -1,0 +1,6 @@
+
+class GParamSpecInt64 is GParamSpecInt64I
+  var ptr: Pointer[GParamSpecP]
+
+  new create(ptr': Pointer[GParamSpecP]) => ptr = ptr'
+  fun ref getptr(): Pointer[GParamSpecP]) => ptr

@@ -1,0 +1,3 @@
+
+interface GParamSpecFlagsI is GParamSpecI
+  fun ref getptr(): Pointer[GParamSpecP]

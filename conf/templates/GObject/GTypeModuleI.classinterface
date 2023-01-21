@@ -1,0 +1,3 @@
+
+interface GTypeModuleI is GObjectI
+  fun ref getptr(): Pointer[GObjectP]

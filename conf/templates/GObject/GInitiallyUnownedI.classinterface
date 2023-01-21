@@ -1,0 +1,3 @@
+
+interface GInitiallyUnownedI is GObjectI
+  fun ref getptr(): Pointer[GObjectP]

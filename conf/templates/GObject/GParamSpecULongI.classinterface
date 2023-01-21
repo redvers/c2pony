@@ -1,0 +1,3 @@
+
+interface GParamSpecULongI is GParamSpecI
+  fun ref getptr(): Pointer[GParamSpecP]

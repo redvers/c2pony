@@ -1,0 +1,3 @@
+
+interface GObjectI
+  fun ref getptr(): Pointer[GObjectP]

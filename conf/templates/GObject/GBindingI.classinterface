@@ -1,0 +1,3 @@
+
+interface GBindingI is GObjectI
+  fun ref getptr(): Pointer[GObjectP]
