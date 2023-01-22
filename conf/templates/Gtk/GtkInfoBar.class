@@ -12,6 +12,6 @@ class GtkInfoBar is GtkInfoBarI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_info_bar_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_info_bar_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_info_bar_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

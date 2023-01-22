@@ -12,6 +12,6 @@ class GtkActivateAction is GtkActivateActionI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_activate_action_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_activate_action_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_activate_action_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

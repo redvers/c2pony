@@ -1,2 +1,2 @@
-  fun extend_with_template(builder': GtkBuilderI, object': GObjectI, template_type': U64, buffer': String, length': I64, error': Pointer[GError]): I32 =>
-    @gtk_builder_extend_with_template(builder'.getptr(), object'.getptr(), template_type', buffer'.cstring(), length', error')
+  fun extend_with_template(builder': GtkBuilderI, object': GObjectI, template_type': U64, buffer': String, length': I64, error': GError): I32 =>
+    @gtk_builder_extend_with_template(builder'.getptr(), object'.getptr(), template_type', buffer'.cstring(), length', error'.ptr)

@@ -12,6 +12,6 @@ class GtkAboutDialog is GtkAboutDialogI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_about_dialog_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_about_dialog_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_about_dialog_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

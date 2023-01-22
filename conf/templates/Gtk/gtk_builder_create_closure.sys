@@ -1,2 +1,2 @@
-  fun create_closure(builder': GtkBuilderI, function_name': String, flags': U32, object': GObjectI, error': Pointer[GError]): GClosure =>
-    @gtk_builder_create_closure(builder'.getptr(), function_name'.cstring(), flags', object'.getptr(), error')
+  fun create_closure(builder': GtkBuilderI, function_name': String, flags': U32, object': GObjectI, error': GError): GClosure =>
+    @gtk_builder_create_closure(builder'.getptr(), function_name'.cstring(), flags', object'.getptr(), error'.ptr)

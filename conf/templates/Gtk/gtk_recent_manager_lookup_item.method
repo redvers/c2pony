@@ -1,2 +1,2 @@
-  fun ref lookup_item(uri': String, error': Pointer[GError]): GtkRecentInfo =>
+  fun ref lookup_item(uri': String, error': GError): GtkRecentInfo =>
     GtkRecentManagerP.lookup_item(this, uri', error')

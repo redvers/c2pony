@@ -1,2 +1,2 @@
-  fun ref value_from_string(pspec': GParamSpec, string': String, value': GValue, error': Pointer[GError]): I32 =>
+  fun ref value_from_string(pspec': GParamSpec, string': String, value': GValue, error': GError): I32 =>
     GtkBuilderP.value_from_string(this, pspec', string', value', error')

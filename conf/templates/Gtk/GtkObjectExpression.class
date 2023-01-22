@@ -12,6 +12,6 @@ class GtkObjectExpression is GtkObjectExpressionI
   new create(ptr': Pointer[GtkExpressionP]) => ptr = ptr'
 // gtk_object_expression_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_object_expression_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_object_expression_get_type())
 
   fun ref getptr(): Pointer[GtkExpressionP] => ptr

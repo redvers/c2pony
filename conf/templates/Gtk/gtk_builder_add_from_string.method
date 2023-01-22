@@ -1,2 +1,2 @@
-  fun ref add_from_string(buffer': String, length': I64, error': Pointer[GError]): I32 =>
+  fun ref add_from_string(buffer': String, length': I64, error': GError): I32 =>
     GtkBuilderP.add_from_string(this, buffer', length', error')

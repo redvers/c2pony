@@ -12,6 +12,6 @@ class GtkCellRenderer is GtkCellRendererI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_cell_renderer_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_cell_renderer_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_cell_renderer_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

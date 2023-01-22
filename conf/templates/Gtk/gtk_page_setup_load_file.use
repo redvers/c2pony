@@ -1,1 +1,1 @@
-use @gtk_page_setup_load_file[I32](setup': GtkPageSetup, file_name': Pointer[U8] tag, error': Pointer[GError])
+use @gtk_page_setup_load_file[I32](setup': GtkPageSetup, file_name': Pointer[U8] tag, error': NullablePointer[GErrorT])

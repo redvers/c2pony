@@ -12,6 +12,6 @@ class GtkClosureExpression is GtkClosureExpressionI
   new create(ptr': Pointer[GtkExpressionP]) => ptr = ptr'
 // gtk_closure_expression_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_closure_expression_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_closure_expression_get_type())
 
   fun ref getptr(): Pointer[GtkExpressionP] => ptr

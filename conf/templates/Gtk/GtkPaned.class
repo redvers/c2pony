@@ -12,6 +12,6 @@ class GtkPaned is GtkPanedI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_paned_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_paned_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_paned_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

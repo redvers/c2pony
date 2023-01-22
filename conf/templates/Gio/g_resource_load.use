@@ -1,0 +1,2 @@
+
+use @g_resource_load[NullablePointer[GResourceT](filename: String, gerror: Pointer[Pointer[GErrorT]])

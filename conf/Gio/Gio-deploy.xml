@@ -1366,7 +1366,7 @@
       <rendermethod name="g_menu_model_iterate_item_attributes" ponyname="iterate_item_attributes" render="" deprecated=""/>
       <rendermethod name="g_menu_model_iterate_item_links" ponyname="iterate_item_links" render="" deprecated=""/>
     </renderclass>
-    <renderclass name="GMountOperation" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+    <renderclass name="GMountOperation" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
       <renderconstructor name="g_mount_operation_new" ponyname="new" render="" deprecated=""/>
       <rendermethod name="g_mount_operation_get_anonymous" ponyname="get_anonymous" render="" deprecated=""/>
       <rendermethod name="g_mount_operation_get_choice" ponyname="get_choice" render="" deprecated=""/>

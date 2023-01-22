@@ -1,0 +1,3 @@
+
+    // sysoverride  fun g_resource_load(filename: String, gerror: GError): NullablePointer[GResourceT] =>
+  // sysoverride@g_resource_load(filename.cstring(), addressof gerror.ptr)

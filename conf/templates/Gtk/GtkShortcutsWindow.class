@@ -12,6 +12,6 @@ class GtkShortcutsWindow is GtkShortcutsWindowI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_shortcuts_window_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_shortcuts_window_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_shortcuts_window_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

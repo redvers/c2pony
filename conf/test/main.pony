@@ -50,14 +50,16 @@ actor Main
 primitive Erk
   fun @cb(app': Pointer[GObjectP], data: Pointer[GObjectP]) =>
     @printf("Wassup\n".cstring())
-    let window: GtkWindow = GtkWindow(GObjectG.gnew(@gtk_window_get_type(), [], []))
-    GtkApplication(app').add_window(window)
-    window.show()
-    /*
-    let builder: GtkBuilder = GtkBuilder(@g_object_new(@gtk_builder_get_type(), Pointer[None]))
-    if (not builder.add_from_resource("/ui/main.ui")) then
-      @printf("Is bad yo…\n".cstring())
+    let builder: GtkBuilder = GtkBuilder.gnew()
+    let gerror: GError = GError(NullablePointer[GErrorT].none())
+    if (builder.add_from_resource("/ui/main.ui", gerror) == 0) then
+      try
+        @printf("Is bad yo…: %s\n".cstring(), gerror.ptr.apply()?.message')
+      else
+        @printf("Apparently a null ptr\n".cstring())
+      end
     end
+    /*
     let app: GtkApplication = GtkApplication(app')
     let appwindow: GtkApplicationWindow = GtkApplicationWindow(builder.get_object("window"))
     @printf("buildid: %s\n".cstring(), appwindow.get_id().cstring())
@@ -66,3 +68,5 @@ primitive Erk
 
     None
     */
+ //   GtkApplication(app').add_window(window)
+//    window.show()

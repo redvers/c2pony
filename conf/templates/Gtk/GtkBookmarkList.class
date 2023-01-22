@@ -12,6 +12,6 @@ class GtkBookmarkList is GtkBookmarkListI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_bookmark_list_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_bookmark_list_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_bookmark_list_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

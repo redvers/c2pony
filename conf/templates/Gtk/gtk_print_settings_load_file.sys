@@ -1,2 +1,2 @@
-  fun load_file(settings': GtkPrintSettings, file_name': String, error': Pointer[GError]): I32 =>
-    @gtk_print_settings_load_file(settings', file_name'.cstring(), error')
+  fun load_file(settings': GtkPrintSettings, file_name': String, error': GError): I32 =>
+    @gtk_print_settings_load_file(settings', file_name'.cstring(), error'.ptr)

@@ -12,6 +12,6 @@ class GtkFilterListModel is GtkFilterListModelI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_filter_list_model_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_filter_list_model_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_filter_list_model_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

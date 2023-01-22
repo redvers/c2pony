@@ -1,2 +1,2 @@
-  fun ref get_error(error': Pointer[GError]): None =>
+  fun ref get_error(error': GError): None =>
     GtkPrintOperationP.get_error(this, error')

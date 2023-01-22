@@ -12,6 +12,6 @@ class GtkPrintUnixDialog is GtkPrintUnixDialogI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_print_unix_dialog_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_print_unix_dialog_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_print_unix_dialog_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

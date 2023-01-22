@@ -1,2 +1,2 @@
-  fun show_uri_full_finish(parent': GtkWindowI, result': GAsyncResult, error': Pointer[GError]): I32 =>
-    @gtk_show_uri_full_finish(parent'.getptr(), result', error')
+  fun show_uri_full_finish(parent': GtkWindowI, result': GAsyncResult, error': GError): I32 =>
+    @gtk_show_uri_full_finish(parent'.getptr(), result', error'.ptr)

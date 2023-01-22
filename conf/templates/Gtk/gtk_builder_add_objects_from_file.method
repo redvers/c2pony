@@ -1,2 +1,2 @@
-  fun ref add_objects_from_file(filename': String, object_ids': Pointer[Pointer[U8]] tag, error': Pointer[GError]): I32 =>
+  fun ref add_objects_from_file(filename': String, object_ids': Pointer[Pointer[U8]] tag, error': GError): I32 =>
     GtkBuilderP.add_objects_from_file(this, filename', object_ids', error')

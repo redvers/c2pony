@@ -12,6 +12,6 @@ class GtkDragIcon is GtkDragIconI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_drag_icon_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_drag_icon_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_drag_icon_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

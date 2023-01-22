@@ -74,7 +74,7 @@
             <xsl:value-of select="$newline"/>
             <xsl:text>    ptr = GObjectG.gnew(@</xsl:text>
             <xsl:value-of select="$gettype"/>
-            <xsl:text>(), [], [])</xsl:text>
+            <xsl:text>())</xsl:text>
             <xsl:value-of select="$newline"/>
           </xsl:when>
         </xsl:choose>

@@ -12,6 +12,6 @@ class GtkListBase is GtkListBaseI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_list_base_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_list_base_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_list_base_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

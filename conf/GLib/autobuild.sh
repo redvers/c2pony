@@ -1,7 +1,7 @@
 mkdir -p ../test/GLib
 
-echo > ../test/GLib/GLib.pony
-cat ../templates/GLib/GLib.primitive >> ../test/GLib/GLib.pony
+echo > ../test/GLib/GLibG.pony
+cat ../templates/GLib/GLib.primitive >> ../test/GLib/GLibG.pony
 echo > ../test/GLib/GError.pony
 cat ../templates/GLib/GError.class >> ../test/GLib/GError.pony
 echo > ../test/GLib/GErrorT.pony

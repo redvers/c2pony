@@ -3,6 +3,8 @@
   <ns namespace="GObject">
     /* Overrides */
     <renderfunction name="g_object_new" ponyname="gnew" render="1" deprecated=""/>
+    <renderfunction name="g_object_new_s" ponyname="gnew" render="1" deprecated=""/>
+    <renderfunction name="g_object_new_s_u32" ponyname="gnew" render="1" deprecated=""/>
     /* Overrides */
     <renderfunction name="g_boxed_copy" ponyname="boxed_copy" render="0" deprecated=""/>
     <renderfunction name="g_boxed_free" ponyname="boxed_free" render="1" deprecated=""/>
@@ -442,7 +444,7 @@
       <renderfunction name="g_object_interface_install_property" ponyname="interface_install_property" render="0" deprecated=""/>
       <renderfunction name="g_object_interface_list_properties" ponyname="interface_list_properties" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GParamSpec" render="0" parent="" abstract="1" final="" fundamental="1">
+    <renderclass name="GParamSpec" render="1" parent="" abstract="1" final="" fundamental="1">
       <rendermethod name="g_param_spec_get_blurb" ponyname="get_blurb" render="0" deprecated=""/>
       <rendermethod name="g_param_spec_get_default_value" ponyname="get_default_value" render="0" deprecated=""/>
       <rendermethod name="g_param_spec_get_name" ponyname="get_name" render="0" deprecated=""/>

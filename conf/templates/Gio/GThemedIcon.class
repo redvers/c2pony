@@ -1,4 +1,6 @@
 
+use @g_themed_icon_get_type[U64]()
+
 use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
@@ -7,4 +9,8 @@ class GThemedIcon is GThemedIconI
   var ptr: Pointer[GObjectP]
 
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
+// g_themed_icon_get_type
+  new gnew() =>
+    ptr = GObjectG.gnew(@g_themed_icon_get_type())
+
   fun ref getptr(): Pointer[GObjectP] => ptr

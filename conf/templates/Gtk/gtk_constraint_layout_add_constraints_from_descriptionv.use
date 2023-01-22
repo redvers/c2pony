@@ -1,1 +1,1 @@
-use @gtk_constraint_layout_add_constraints_from_descriptionv[GList](layout': GtkConstraintLayout, lines': Pointer[Pointer[U8]] tag, n_lines': U64, hspacing': I32, vspacing': I32, views': GHashTable, error': Pointer[GError])
+use @gtk_constraint_layout_add_constraints_from_descriptionv[GList](layout': GtkConstraintLayout, lines': Pointer[Pointer[U8]] tag, n_lines': U64, hspacing': I32, vspacing': I32, views': GHashTable, error': NullablePointer[GErrorT])

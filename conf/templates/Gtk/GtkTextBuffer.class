@@ -12,6 +12,6 @@ class GtkTextBuffer is GtkTextBufferI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_text_buffer_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_text_buffer_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_text_buffer_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

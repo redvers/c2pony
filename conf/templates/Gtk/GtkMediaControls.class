@@ -12,6 +12,6 @@ class GtkMediaControls is GtkMediaControlsI
   new create(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_media_controls_get_type
   new gnew() =>
-    ptr = GObjectG.gnew(@gtk_media_controls_get_type(), [], [])
+    ptr = GObjectG.gnew(@gtk_media_controls_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr
