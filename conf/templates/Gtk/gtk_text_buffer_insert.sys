@@ -1,0 +1,2 @@
+  fun insert(buffer': GtkTextBuffer, iter': GtkTextIter, text': String, len': I32): None =>
+    @gtk_text_buffer_insert(buffer', iter', text'.cstring(), len')

@@ -1,0 +1,2 @@
+  fun set_meta_marshal(closure': GClosure, marshal_data': Pointer[None] tag, meta_marshal': GClosureMarshal): None =>
+    @g_closure_set_meta_marshal(closure', marshal_data', meta_marshal')

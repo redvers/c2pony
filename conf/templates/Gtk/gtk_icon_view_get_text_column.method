@@ -1,0 +1,2 @@
+  fun ref get_text_column(): I32 =>
+    GtkIconViewP.get_text_column(this)

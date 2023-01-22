@@ -1,0 +1,1 @@
+use @g_log_writer_journald[U32](log_level': I32, fields': GLogField, n_fields': U64, user_data': Pointer[None] tag)

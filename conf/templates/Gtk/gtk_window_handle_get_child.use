@@ -1,0 +1,1 @@
+use @gtk_window_handle_get_child[Pointer[GObjectP]](self': GtkWindowHandle)

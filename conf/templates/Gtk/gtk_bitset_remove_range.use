@@ -1,0 +1,1 @@
+use @gtk_bitset_remove_range[None](self': GtkBitset, start': U32, n_items': U32)

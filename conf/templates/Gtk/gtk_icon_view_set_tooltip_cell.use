@@ -1,0 +1,1 @@
+use @gtk_icon_view_set_tooltip_cell[None](icon_view': GtkIconView, tooltip': GtkTooltip, path': GtkTreePath, cell': GtkCellRenderer)

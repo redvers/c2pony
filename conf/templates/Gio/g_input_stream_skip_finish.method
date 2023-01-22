@@ -1,0 +1,2 @@
+  fun ref skip_finish(result': GAsyncResult, error': GError): I64 =>
+    GInputStreamP.skip_finish(this, result', error')

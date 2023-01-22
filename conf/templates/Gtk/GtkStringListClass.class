@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkStringListClass
+  var ptr: NullablePointer[GtkStringListClassT]
+
+  new create(ptr': NullablePointer[GtkStringListClassT]) => ptr = ptr'

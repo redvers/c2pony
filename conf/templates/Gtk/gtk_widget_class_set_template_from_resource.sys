@@ -1,0 +1,2 @@
+  fun set_template_from_resource(widget_class': GtkWidgetClass, resource_name': String): None =>
+    @gtk_widget_class_set_template_from_resource(widget_class', resource_name'.cstring())

@@ -1,0 +1,2 @@
+  fun ref set_content_height(height': I32): None =>
+    GtkDrawingAreaP.set_content_height(this, height')

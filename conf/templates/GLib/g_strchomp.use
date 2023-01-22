@@ -1,0 +1,1 @@
+use @g_strchomp[Pointer[U8]](string': Pointer[U8] tag)

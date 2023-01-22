@@ -1,0 +1,2 @@
+  fun new(title': String, factory': GtkListItemFactory): GtkColumnViewColumn =>
+    @gtk_column_view_column_new(title'.cstring(), factory')

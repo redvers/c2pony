@@ -1,0 +1,2 @@
+  fun set_selectable(self': GtkListItem, selectable': I32): None =>
+    @gtk_list_item_set_selectable(self', selectable')

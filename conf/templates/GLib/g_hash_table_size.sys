@@ -1,0 +1,2 @@
+  fun size(hash_table': GHashTable): U32 =>
+    @g_hash_table_size(hash_table')

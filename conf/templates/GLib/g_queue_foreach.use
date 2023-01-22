@@ -1,0 +1,1 @@
+use @g_queue_foreach[None](queue': GQueue, func': GFunc, user_data': Pointer[None] tag)

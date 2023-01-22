@@ -1,0 +1,2 @@
+  fun ref get_translation_domain(): String iso^ =>
+    GtkBuilderP.get_translation_domain(this)

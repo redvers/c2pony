@@ -1,0 +1,2 @@
+  fun ref remove(action_name': String): None =>
+    GSimpleActionGroupP.remove(this, action_name')

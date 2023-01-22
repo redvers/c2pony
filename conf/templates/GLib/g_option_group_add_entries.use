@@ -1,0 +1,1 @@
+use @g_option_group_add_entries[None](group': GOptionGroup, entries': GOptionEntry)

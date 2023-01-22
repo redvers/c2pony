@@ -1,0 +1,1 @@
+use @g_io_stream_splice_async[None](stream1': GIOStream, stream2': GIOStream, flags': U32, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

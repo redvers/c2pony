@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GCancellableClass
+  var ptr: NullablePointer[GCancellableClassT]
+
+  new create(ptr': NullablePointer[GCancellableClassT]) => ptr = ptr'

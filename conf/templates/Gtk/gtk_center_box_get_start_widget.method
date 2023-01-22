@@ -1,0 +1,2 @@
+  fun ref get_start_widget(): Pointer[GObjectP] =>
+    GtkCenterBoxP.get_start_widget(this)

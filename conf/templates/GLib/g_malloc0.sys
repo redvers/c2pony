@@ -1,0 +1,2 @@
+  fun malloc0(n_bytes': U64): Pointer[None] tag =>
+    @g_malloc0(n_bytes')

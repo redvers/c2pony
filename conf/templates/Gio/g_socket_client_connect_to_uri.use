@@ -1,0 +1,1 @@
+use @g_socket_client_connect_to_uri[GSocketConnection](client': GSocketClient, uri': Pointer[U8] tag, default_port': U16, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

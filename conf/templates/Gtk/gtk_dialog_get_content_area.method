@@ -1,0 +1,2 @@
+  fun ref get_content_area(): Pointer[GObjectP] =>
+    GtkDialogP.get_content_area(this)

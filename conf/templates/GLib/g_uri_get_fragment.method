@@ -1,0 +1,2 @@
+  fun ref get_fragment(): String iso^ =>
+    GUriP.get_fragment(this)

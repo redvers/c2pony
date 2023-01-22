@@ -1,0 +1,2 @@
+  fun ref get_editing(): I32 =>
+    GtkEditableLabelP.get_editing(this)

@@ -1,0 +1,1 @@
+use @gtk_assistant_page_get_child[Pointer[GObjectP]](page': GtkAssistantPage)

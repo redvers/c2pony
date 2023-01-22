@@ -1,0 +1,2 @@
+  fun ref get_label_align(): F32 =>
+    GtkFrameP.get_label_align(this)

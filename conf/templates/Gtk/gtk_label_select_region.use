@@ -1,0 +1,1 @@
+use @gtk_label_select_region[None](self': GtkLabel, start_offset': I32, end_offset': I32)

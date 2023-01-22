@@ -1,0 +1,2 @@
+  fun ref lookup_records_finish(result': GAsyncResult, error': GError): GList =>
+    GResolverP.lookup_records_finish(this, result', error')

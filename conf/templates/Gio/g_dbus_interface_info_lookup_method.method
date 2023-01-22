@@ -1,0 +1,2 @@
+  fun ref lookup_method(name': String): GDBusMethodInfo =>
+    GDBusInterfaceInfoP.lookup_method(this, name')

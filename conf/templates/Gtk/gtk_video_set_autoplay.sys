@@ -1,0 +1,2 @@
+  fun set_autoplay(self': GtkVideo, autoplay': I32): None =>
+    @gtk_video_set_autoplay(self', autoplay')

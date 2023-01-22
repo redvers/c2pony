@@ -1,0 +1,1 @@
+use @gtk_gl_area_set_error[None](area': GtkGLArea, error': NullablePointer[GErrorT])

@@ -1,0 +1,2 @@
+  fun ref get_drop(): GdkDrop =>
+    GtkDropControllerMotionP.get_drop(this)

@@ -1,0 +1,2 @@
+  fun get_is_symlink(info': GFileInfo): I32 =>
+    @g_file_info_get_is_symlink(info')

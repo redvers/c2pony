@@ -1,0 +1,2 @@
+  fun ref set_startup_id(startup_id': String): None =>
+    GtkWindowP.set_startup_id(this, startup_id')

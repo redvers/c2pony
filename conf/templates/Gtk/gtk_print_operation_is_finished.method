@@ -1,0 +1,2 @@
+  fun ref is_finished(): I32 =>
+    GtkPrintOperationP.is_finished(this)

@@ -1,0 +1,2 @@
+  fun param_spec_unichar(name': String, nick': String, blurb': String, default_value': U32, flags': I32): GParamSpec =>
+    @g_param_spec_unichar(name'.cstring(), nick'.cstring(), blurb'.cstring(), default_value', flags')

@@ -1,0 +1,1 @@
+use @g_closure_set_marshal[None](closure': GClosure, marshal': GClosureMarshal)

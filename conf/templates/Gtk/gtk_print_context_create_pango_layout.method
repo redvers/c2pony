@@ -1,0 +1,2 @@
+  fun ref create_pango_layout(): PangoLayout =>
+    GtkPrintContextP.create_pango_layout(this)

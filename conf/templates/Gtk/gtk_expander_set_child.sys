@@ -1,0 +1,2 @@
+  fun set_child(expander': GtkExpander, child': GtkWidgetI): None =>
+    @gtk_expander_set_child(expander', child'.getptr())

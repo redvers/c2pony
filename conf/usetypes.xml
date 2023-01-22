@@ -1,0 +1,29 @@
+<typedefs>
+  <typedef name="String"
+    ponytypein="String"
+    ponytypeinconv=".cstring()"
+    ponytypeout="String iso^"
+    structtype="Pointer[U8]"
+    structdef="Pointer[U8]"
+    argtype="Pointer[U8] tag"
+    rvtype="Pointer[U8]">
+    <ponytypeconvout>
+      <prefixs>
+        <prefix>    String.from_cstring(</prefix>
+      </prefixs>
+      <suffixes>
+        <suffix>).clone()</suffix>
+      </suffixes>
+    </ponytypeconvout>
+  </typedef>
+  <typedef name="GObject" ponytypein="GObjectI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GApplication" ponytypein="GApplicationI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GtkApplication" ponytypein="GtkApplicationI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GtkBuilder" ponytypein="GtkBuilderI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GtkWidget" ponytypein="GtkWidgetI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GtkWindow" ponytypein="GtkWindowI" ponytypeinconv=".getptr()" ponytypeout="Pointer[GObjectP]" structtype="Pointer[GObjectP]" structdef="Pointer[GObjectP]" argtype="Pointer[GObjectP]" rvtype="Pointer[GObjectP]"/>
+  <typedef name="GError" ponytypein="GError" ponytypeinconv=".ptr" ponytypeout="NullablePointer[GErrorT]" structtype="NullablePointer[GErrorT]" structdef="NullablePointer[GErrorT]" argtype="NullablePointer[GErrorT]" rvtype="NullablePointer[GErrorT]"/>
+  <typedef name="Pointer[GError]" ponytypein="GError" ponytypeinconv=".ptr" ponytypeout="NullablePointer[GErrorT]" structtype="NullablePointer[GErrorT]" structdef="NullablePointer[GErrorT]" argtype="Pointer[NullablePointer[GErrorT]]" rvtype="NullablePointer[GErrorT]" addressof="1"/>
+  <typedef name="GResource" ponytypein="GResource" ponytypeinconv=".ptr" ponytypeout="NullablePointer[GResourceT]" structtype="NullablePointer[GResourceT]" structdef="NullablePointer[GResourceT]" argtype="NullablePointer[GResourceT]" rvtype="NullablePointer[GResourceT]"/>
+</typedefs>
+

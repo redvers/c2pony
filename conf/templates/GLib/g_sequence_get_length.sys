@@ -1,0 +1,2 @@
+  fun get_length(seq': GSequence): I32 =>
+    @g_sequence_get_length(seq')

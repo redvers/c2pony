@@ -1,0 +1,1 @@
+use @gtk_picture_set_paintable[None](self': GtkPicture, paintable': GdkPaintable)

@@ -1,0 +1,2 @@
+  fun get_adjustment(spin_button': GtkSpinButton): GtkAdjustment =>
+    @gtk_spin_button_get_adjustment(spin_button')

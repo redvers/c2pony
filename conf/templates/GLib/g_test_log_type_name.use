@@ -1,0 +1,1 @@
+use @g_test_log_type_name[Pointer[U8]](log_type': U32)

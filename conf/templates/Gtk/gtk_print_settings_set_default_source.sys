@@ -1,0 +1,2 @@
+  fun set_default_source(settings': GtkPrintSettings, default_source': String): None =>
+    @gtk_print_settings_set_default_source(settings', default_source'.cstring())

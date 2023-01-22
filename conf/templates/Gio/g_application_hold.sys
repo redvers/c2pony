@@ -1,0 +1,2 @@
+  fun hold(application': GApplicationI): None =>
+    @g_application_hold(application'.getptr())

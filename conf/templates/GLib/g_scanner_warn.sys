@@ -1,0 +1,2 @@
+  fun warn(scanner': GScanner, format': String, ...): None =>
+    @g_scanner_warn(scanner', format'.cstring(), ...)

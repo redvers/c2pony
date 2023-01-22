@@ -1,0 +1,2 @@
+  fun item_activated(icon_view': GtkIconView, path': GtkTreePath): None =>
+    @gtk_icon_view_item_activated(icon_view', path')

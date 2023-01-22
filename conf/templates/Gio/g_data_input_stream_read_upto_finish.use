@@ -1,0 +1,1 @@
+use @g_data_input_stream_read_upto_finish[Pointer[U8]](stream': GDataInputStream, result': GAsyncResult, length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]])

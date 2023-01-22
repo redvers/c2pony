@@ -1,0 +1,2 @@
+  fun show_about_dialog(parent': GtkWindowI, first_property_name': String, ...): None =>
+    @gtk_show_about_dialog(parent'.getptr(), first_property_name'.cstring(), ...)

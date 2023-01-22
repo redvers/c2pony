@@ -1,0 +1,1 @@
+use @g_queue_delete_link[None](queue': GQueue, link': GList)

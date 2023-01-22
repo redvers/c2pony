@@ -1,0 +1,1 @@
+use @gtk_image_get_gicon[GIcon](image': GtkImage)

@@ -1,0 +1,2 @@
+  fun filename_from_uri(uri': String, hostname': Pointer[Pointer[U8]] tag, error': Pointer[GError]): String iso^ =>
+    String.from_cstring(@g_filename_from_uri(uri'.cstring(), hostname', error')).clone()

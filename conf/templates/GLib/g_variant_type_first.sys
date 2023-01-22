@@ -1,0 +1,2 @@
+  fun first(type': GVariantType): GVariantType =>
+    @g_variant_type_first(type')

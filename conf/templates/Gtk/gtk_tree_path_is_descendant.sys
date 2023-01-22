@@ -1,0 +1,2 @@
+  fun is_descendant(path': GtkTreePath, ancestor': GtkTreePath): I32 =>
+    @gtk_tree_path_is_descendant(path', ancestor')

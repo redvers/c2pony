@@ -1,0 +1,1 @@
+use @gtk_widget_translate_coordinates[I32](src_widget': Pointer[GObjectP], dest_widget': Pointer[GObjectP], src_x': F64, src_y': F64, dest_x': Pointer[F64] tag, dest_y': Pointer[F64] tag)

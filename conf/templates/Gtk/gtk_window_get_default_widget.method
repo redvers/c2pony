@@ -1,0 +1,2 @@
+  fun ref get_default_widget(): Pointer[GObjectP] =>
+    GtkWindowP.get_default_widget(this)

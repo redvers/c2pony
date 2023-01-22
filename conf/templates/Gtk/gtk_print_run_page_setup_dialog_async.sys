@@ -1,0 +1,2 @@
+  fun print_run_page_setup_dialog_async(parent': GtkWindowI, page_setup': GtkPageSetup, settings': GtkPrintSettings, done_cb': GtkPageSetupDoneFunc, data': Pointer[None] tag): None =>
+    @gtk_print_run_page_setup_dialog_async(parent'.getptr(), page_setup', settings', done_cb', data')

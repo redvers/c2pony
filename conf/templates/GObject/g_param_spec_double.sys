@@ -1,0 +1,2 @@
+  fun param_spec_double(name': String, nick': String, blurb': String, minimum': F64, maximum': F64, default_value': F64, flags': I32): GParamSpec =>
+    @g_param_spec_double(name'.cstring(), nick'.cstring(), blurb'.cstring(), minimum', maximum', default_value', flags')

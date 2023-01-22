@@ -1,0 +1,2 @@
+  fun ref get_tooltip_text(): String iso^ =>
+    GtkWidgetP.get_tooltip_text(this)

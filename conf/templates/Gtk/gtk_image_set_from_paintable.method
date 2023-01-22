@@ -1,0 +1,2 @@
+  fun ref set_from_paintable(paintable': GdkPaintable): None =>
+    GtkImageP.set_from_paintable(this, paintable')

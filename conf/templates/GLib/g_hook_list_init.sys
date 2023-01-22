@@ -1,0 +1,2 @@
+  fun init(hook_list': GHookList, hook_size': U32): None =>
+    @g_hook_list_init(hook_list', hook_size')

@@ -1,0 +1,2 @@
+  fun ref get_etag(): String iso^ =>
+    GFileInfoP.get_etag(this)

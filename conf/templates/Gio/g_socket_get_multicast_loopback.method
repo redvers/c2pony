@@ -1,0 +1,2 @@
+  fun ref get_multicast_loopback(): I32 =>
+    GSocketP.get_multicast_loopback(this)

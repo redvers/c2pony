@@ -1,0 +1,2 @@
+  fun set_fixed_height_mode(tree_view': GtkTreeView, enable': I32): None =>
+    @gtk_tree_view_set_fixed_height_mode(tree_view', enable')

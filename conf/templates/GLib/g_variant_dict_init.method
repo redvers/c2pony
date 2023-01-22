@@ -1,0 +1,2 @@
+  fun ref init(from_asv': GVariant): None =>
+    GVariantDictP.init(this, from_asv')

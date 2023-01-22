@@ -1,0 +1,1 @@
+use @g_bus_watch_name_with_closures[U32](bus_type': I32, name': Pointer[U8] tag, flags': U32, name_appeared_closure': GClosure, name_vanished_closure': GClosure)

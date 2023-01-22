@@ -1,0 +1,2 @@
+  fun signal_query(signal_id': U32, query': GSignalQuery): None =>
+    @g_signal_query(signal_id', query')

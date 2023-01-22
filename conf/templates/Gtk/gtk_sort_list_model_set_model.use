@@ -1,0 +1,1 @@
+use @gtk_sort_list_model_set_model[None](self': GtkSortListModel, model': GListModel)

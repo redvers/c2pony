@@ -1,0 +1,2 @@
+  fun lookup_method(info': GDBusInterfaceInfo, name': String): GDBusMethodInfo =>
+    @g_dbus_interface_info_lookup_method(info', name'.cstring())

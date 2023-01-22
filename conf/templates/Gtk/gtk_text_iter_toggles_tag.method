@@ -1,0 +1,2 @@
+  fun ref toggles_tag(tag': GtkTextTag): I32 =>
+    GtkTextIterP.toggles_tag(this, tag')

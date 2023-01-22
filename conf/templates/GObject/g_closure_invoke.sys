@@ -1,0 +1,2 @@
+  fun invoke(closure': GClosure, return_value': GValue, n_param_values': U32, param_values': GValue, invocation_hint': Pointer[None] tag): None =>
+    @g_closure_invoke(closure', return_value', n_param_values', param_values', invocation_hint')

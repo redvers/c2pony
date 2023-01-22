@@ -1,0 +1,2 @@
+  fun get_sort_order(info': GFileInfo): I32 =>
+    @g_file_info_get_sort_order(info')

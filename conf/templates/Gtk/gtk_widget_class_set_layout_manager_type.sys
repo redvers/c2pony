@@ -1,0 +1,2 @@
+  fun set_layout_manager_type(widget_class': GtkWidgetClass, type': U64): None =>
+    @gtk_widget_class_set_layout_manager_type(widget_class', type')

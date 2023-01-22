@@ -1,0 +1,2 @@
+  fun ref set_use_underline(setting': I32): None =>
+    GtkStackPageP.set_use_underline(this, setting')

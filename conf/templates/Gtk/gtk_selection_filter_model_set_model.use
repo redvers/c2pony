@@ -1,0 +1,1 @@
+use @gtk_selection_filter_model_set_model[None](self': GtkSelectionFilterModel, model': GtkSelectionModel)

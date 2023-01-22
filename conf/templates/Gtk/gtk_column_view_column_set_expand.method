@@ -1,0 +1,2 @@
+  fun ref set_expand(expand': I32): None =>
+    GtkColumnViewColumnP.set_expand(this, expand')

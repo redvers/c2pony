@@ -1,0 +1,2 @@
+  fun get_name(info': GFileInfo): String iso^ =>
+    String.from_cstring(@g_file_info_get_name(info')).clone()

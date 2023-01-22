@@ -1,0 +1,2 @@
+  fun prepend_name(icon': GThemedIcon, iconname': String): None =>
+    @g_themed_icon_prepend_name(icon', iconname'.cstring())

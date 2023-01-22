@@ -1,0 +1,1 @@
+use @gtk_message_dialog_format_secondary_text[None](message_dialog': GtkMessageDialog, message_format': Pointer[U8] tag, ...)

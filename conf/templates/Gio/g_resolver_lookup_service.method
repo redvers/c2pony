@@ -1,0 +1,2 @@
+  fun ref lookup_service(service': String, protocol': String, domain': String, cancellable': GCancellable, error': GError): GList =>
+    GResolverP.lookup_service(this, service', protocol', domain', cancellable', error')

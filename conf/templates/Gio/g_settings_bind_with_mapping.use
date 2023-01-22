@@ -1,0 +1,1 @@
+use @g_settings_bind_with_mapping[None](settings': GSettings, key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, flags': U32, get_mapping': GSettingsBindGetMapping, set_mapping': GSettingsBindSetMapping, user_data': Pointer[None] tag, destroy': GDestroyNotify)

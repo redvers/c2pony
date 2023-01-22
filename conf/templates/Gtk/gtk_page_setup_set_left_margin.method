@@ -1,0 +1,2 @@
+  fun ref set_left_margin(margin': F64, unit': U32): None =>
+    GtkPageSetupP.set_left_margin(this, margin', unit')

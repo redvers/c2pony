@@ -1,0 +1,2 @@
+  fun splice(self': GtkBitset, position': U32, removed': U32, added': U32): None =>
+    @gtk_bitset_splice(self', position', removed', added')

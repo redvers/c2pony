@@ -1,0 +1,2 @@
+  fun set_overwrite(text_view': GtkTextView, overwrite': I32): None =>
+    @gtk_text_view_set_overwrite(text_view', overwrite')

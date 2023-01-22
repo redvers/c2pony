@@ -1,0 +1,2 @@
+  fun ref trigger_tooltip_query(): None =>
+    GtkWidgetP.trigger_tooltip_query(this)

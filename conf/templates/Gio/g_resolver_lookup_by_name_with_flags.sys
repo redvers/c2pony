@@ -1,0 +1,2 @@
+  fun lookup_by_name_with_flags(resolver': GResolver, hostname': String, flags': U32, cancellable': GCancellable, error': GError): GList =>
+    @g_resolver_lookup_by_name_with_flags(resolver', hostname'.cstring(), flags', cancellable', addressof error'.ptr)

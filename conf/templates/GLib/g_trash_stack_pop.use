@@ -1,0 +1,1 @@
+use @g_trash_stack_pop[Pointer[None] tag](stack_p': Pointer[GTrashStack])

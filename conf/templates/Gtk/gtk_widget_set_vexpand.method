@@ -1,0 +1,2 @@
+  fun ref set_vexpand(expand': I32): None =>
+    GtkWidgetP.set_vexpand(this, expand')

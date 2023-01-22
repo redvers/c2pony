@@ -1,0 +1,2 @@
+  fun insert_interactive(buffer': GtkTextBuffer, iter': GtkTextIter, text': String, len': I32, default_editable': I32): I32 =>
+    @gtk_text_buffer_insert_interactive(buffer', iter', text'.cstring(), len', default_editable')

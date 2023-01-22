@@ -1,0 +1,2 @@
+  fun ref remove_invalidate_notifier(notify_data': Pointer[None] tag, notify_func': GClosureNotify): None =>
+    GClosureP.remove_invalidate_notifier(this, notify_data', notify_func')

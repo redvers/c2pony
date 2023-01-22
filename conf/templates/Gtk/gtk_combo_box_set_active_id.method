@@ -1,0 +1,2 @@
+  fun ref set_active_id(active_id': String): I32 =>
+    GtkComboBoxP.set_active_id(this, active_id')

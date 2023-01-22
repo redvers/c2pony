@@ -1,0 +1,2 @@
+  fun shutdown(socket': GSocket, shutdown_read': I32, shutdown_write': I32, error': GError): I32 =>
+    @g_socket_shutdown(socket', shutdown_read', shutdown_write', addressof error'.ptr)

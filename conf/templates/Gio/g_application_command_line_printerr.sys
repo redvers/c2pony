@@ -1,0 +1,2 @@
+  fun printerr(cmdline': GApplicationCommandLine, format': String, ...): None =>
+    @g_application_command_line_printerr(cmdline', format'.cstring(), ...)

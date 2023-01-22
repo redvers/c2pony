@@ -1,0 +1,1 @@
+use @g_str_tokenize_and_fold[Pointer[Pointer[U8]] tag](string': Pointer[U8] tag, translit_locale': Pointer[U8] tag, ascii_alternates': Pointer[Pointer[Pointer[U8]]] tag)

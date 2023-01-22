@@ -1,0 +1,1 @@
+use @gtk_no_selection_get_model[GListModel](self': GtkNoSelection)

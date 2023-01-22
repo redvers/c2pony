@@ -1,0 +1,2 @@
+  fun new_from_pem(data': String, length': I64, error': GError): GTlsCertificate =>
+    @g_tls_certificate_new_from_pem(data'.cstring(), length', addressof error'.ptr)

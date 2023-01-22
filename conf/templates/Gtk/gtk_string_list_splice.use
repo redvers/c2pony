@@ -1,0 +1,1 @@
+use @gtk_string_list_splice[None](self': GtkStringList, position': U32, n_removals': U32, additions': Pointer[Pointer[U8]] tag)

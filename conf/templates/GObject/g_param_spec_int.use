@@ -1,0 +1,1 @@
+use @g_param_spec_int[GParamSpec](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, minimum': I32, maximum': I32, default_value': I32, flags': I32)

@@ -1,0 +1,2 @@
+  fun ref query_child(child': GtkWidgetI, column': Pointer[I32] tag, row': Pointer[I32] tag, width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
+    GtkGridP.query_child(this, child', column', row', width', height')

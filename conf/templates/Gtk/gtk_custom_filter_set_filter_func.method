@@ -1,0 +1,2 @@
+  fun ref set_filter_func(match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): None =>
+    GtkCustomFilterP.set_filter_func(this, match_func', user_data', user_destroy')

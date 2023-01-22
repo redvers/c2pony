@@ -1,0 +1,2 @@
+  fun new(model': GListModel, map_func': GtkMapListModelMapFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): GtkMapListModel =>
+    @gtk_map_list_model_new(model', map_func', user_data', user_destroy')

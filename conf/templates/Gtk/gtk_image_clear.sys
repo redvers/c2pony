@@ -1,0 +1,2 @@
+  fun clear(image': GtkImage): None =>
+    @gtk_image_clear(image')

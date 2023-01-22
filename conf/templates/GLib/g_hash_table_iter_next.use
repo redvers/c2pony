@@ -1,0 +1,1 @@
+use @g_hash_table_iter_next[I32](iter': GHashTableIter, key': Pointer[Pointer[None]] tag, value': Pointer[Pointer[None]] tag)

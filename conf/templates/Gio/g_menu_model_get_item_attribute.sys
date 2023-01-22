@@ -1,0 +1,2 @@
+  fun get_item_attribute(model': GMenuModel, item_index': I32, attribute': String, format_string': String, ...): I32 =>
+    @g_menu_model_get_item_attribute(model', item_index', attribute'.cstring(), format_string'.cstring(), ...)

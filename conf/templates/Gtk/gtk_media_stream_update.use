@@ -1,0 +1,1 @@
+use @gtk_media_stream_update[None](self': GtkMediaStream, timestamp': I64)

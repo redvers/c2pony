@@ -1,0 +1,2 @@
+  fun ref get_fixed_width(): I32 =>
+    GtkColumnViewColumnP.get_fixed_width(this)

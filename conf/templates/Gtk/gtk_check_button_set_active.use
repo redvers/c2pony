@@ -1,0 +1,1 @@
+use @gtk_check_button_set_active[None](self': GtkCheckButton, setting': I32)

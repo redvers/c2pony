@@ -1,0 +1,2 @@
+  fun ref get_child_visible(): I32 =>
+    GtkWidgetP.get_child_visible(this)

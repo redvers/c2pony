@@ -1,0 +1,2 @@
+  fun set_data(object': GObjectI, key': String, data': Pointer[None] tag): None =>
+    @g_object_set_data(object'.getptr(), key'.cstring(), data')

@@ -1,0 +1,1 @@
+use @gtk_tree_list_model_get_child_row[GtkTreeListRow](self': GtkTreeListModel, position': U32)

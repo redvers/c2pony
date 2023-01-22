@@ -1,0 +1,1 @@
+use @g_ptr_array_extend_and_steal[None](array_to_extend': GPtrArray, array': GPtrArray)

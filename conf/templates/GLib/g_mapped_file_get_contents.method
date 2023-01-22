@@ -1,0 +1,2 @@
+  fun ref get_contents(): String iso^ =>
+    GMappedFileP.get_contents(this)

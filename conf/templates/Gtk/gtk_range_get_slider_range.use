@@ -1,0 +1,1 @@
+use @gtk_range_get_slider_range[None](range': GtkRange, slider_start': Pointer[I32] tag, slider_end': Pointer[I32] tag)

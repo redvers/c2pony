@@ -1,0 +1,2 @@
+  fun get_menu_label(notebook': GtkNotebook, child': GtkWidgetI): Pointer[GObjectP] =>
+@gtk_notebook_get_menu_label(notebook', child'.getptr())

@@ -1,0 +1,2 @@
+  fun ref take_param(param': GParamSpec): None =>
+    GValueP.take_param(this, param')

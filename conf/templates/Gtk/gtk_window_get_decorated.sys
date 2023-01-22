@@ -1,0 +1,2 @@
+  fun get_decorated(window': GtkWindowI): I32 =>
+    @gtk_window_get_decorated(window'.getptr())

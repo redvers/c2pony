@@ -1,0 +1,2 @@
+  fun ref get_media_stream(): GtkMediaStream =>
+    GtkMediaControlsP.get_media_stream(this)

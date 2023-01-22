@@ -1,0 +1,2 @@
+  fun get_max_lookbehind(regex': GRegex): I32 =>
+    @g_regex_get_max_lookbehind(regex')

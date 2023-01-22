@@ -1,0 +1,2 @@
+  fun ref flush(cancellable': GCancellable, error': GError): I32 =>
+    GOutputStreamP.flush(this, cancellable', error')

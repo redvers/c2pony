@@ -1,0 +1,2 @@
+  fun get_indices_with_depth(path': GtkTreePath, depth': Pointer[I32] tag): Pointer[I32] tag =>
+    @gtk_tree_path_get_indices_with_depth(path', depth')

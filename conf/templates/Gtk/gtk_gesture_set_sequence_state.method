@@ -1,0 +1,2 @@
+  fun ref set_sequence_state(sequence': GdkEventSequence, state': U32): I32 =>
+    GtkGestureP.set_sequence_state(this, sequence', state')

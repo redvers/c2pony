@@ -1,0 +1,1 @@
+use @gtk_image_get_pixel_size[I32](image': GtkImage)

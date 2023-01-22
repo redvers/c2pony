@@ -1,0 +1,2 @@
+  fun get_level_indentation(tree_view': GtkTreeView): I32 =>
+    @gtk_tree_view_get_level_indentation(tree_view')

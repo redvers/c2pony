@@ -1,0 +1,2 @@
+  fun send_to(socket': GSocket, address': GSocketAddress, buffer': String, size': U64, cancellable': GCancellable, error': GError): I64 =>
+    @g_socket_send_to(socket', address', buffer'.cstring(), size', cancellable', addressof error'.ptr)

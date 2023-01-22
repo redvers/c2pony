@@ -1,0 +1,2 @@
+  fun timed_pop(queue': GAsyncQueue, end_time': GTimeVal): Pointer[None] tag =>
+    @g_async_queue_timed_pop(queue', end_time')

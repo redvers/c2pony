@@ -1,0 +1,1 @@
+use @g_variant_get_fixed_array[Pointer[None] tag](value': GVariant, n_elements': Pointer[U64] tag, element_size': U64)

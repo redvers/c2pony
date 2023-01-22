@@ -1,0 +1,2 @@
+  fun clear_pending(stream': GInputStream): None =>
+    @g_input_stream_clear_pending(stream')

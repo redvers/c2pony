@@ -1,0 +1,2 @@
+  fun get_permission(button': GtkLockButton): GPermission =>
+    @gtk_lock_button_get_permission(button')

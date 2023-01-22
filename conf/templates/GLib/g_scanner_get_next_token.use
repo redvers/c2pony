@@ -1,0 +1,1 @@
+use @g_scanner_get_next_token[U32](scanner': GScanner)

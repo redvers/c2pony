@@ -1,0 +1,2 @@
+  fun ref ref(): GtkCssSection =>
+    GtkCssSectionP.ref(this)

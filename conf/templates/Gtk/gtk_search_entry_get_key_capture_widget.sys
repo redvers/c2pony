@@ -1,0 +1,2 @@
+  fun get_key_capture_widget(entry': GtkSearchEntry): Pointer[GObjectP] =>
+@gtk_search_entry_get_key_capture_widget(entry')

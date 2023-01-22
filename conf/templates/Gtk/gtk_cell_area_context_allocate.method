@@ -1,0 +1,2 @@
+  fun ref allocate(width': I32, height': I32): None =>
+    GtkCellAreaContextP.allocate(this, width', height')

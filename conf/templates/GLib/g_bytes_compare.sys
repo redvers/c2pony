@@ -1,0 +1,2 @@
+  fun compare(bytes1': Pointer[None] tag, bytes2': Pointer[None] tag): I32 =>
+    @g_bytes_compare(bytes1', bytes2')

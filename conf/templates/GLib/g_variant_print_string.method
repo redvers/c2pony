@@ -1,0 +1,2 @@
+  fun ref print_string(string': GString, type_annotate': I32): GString =>
+    GVariantP.print_string(this, string', type_annotate')

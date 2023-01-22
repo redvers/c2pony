@@ -1,0 +1,2 @@
+  fun new(): GtkCellArea =>
+    @gtk_cell_area_box_new()

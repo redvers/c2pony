@@ -1,0 +1,2 @@
+  fun set_defer_drawing(op': GtkPrintOperation): None =>
+    @gtk_print_operation_set_defer_drawing(op')

@@ -1,0 +1,2 @@
+  fun ref grab_focus_without_selecting(): I32 =>
+    GtkEntryP.grab_focus_without_selecting(this)

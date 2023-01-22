@@ -1,0 +1,2 @@
+  fun prepend_unichar(string': GString, wc': U32): GString =>
+    @g_string_prepend_unichar(string', wc')

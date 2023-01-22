@@ -1,0 +1,2 @@
+  fun new(expression': GtkExpression): GtkBoolFilter =>
+    @gtk_bool_filter_new(expression')

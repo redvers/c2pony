@@ -1,0 +1,2 @@
+  fun set_indent_for_icon(self': GtkTreeExpander, indent_for_icon': I32): None =>
+    @gtk_tree_expander_set_indent_for_icon(self', indent_for_icon')

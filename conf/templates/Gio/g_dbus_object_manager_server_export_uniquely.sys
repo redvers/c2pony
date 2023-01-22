@@ -1,0 +1,2 @@
+  fun export_uniquely(manager': GDBusObjectManagerServer, object': GDBusObjectSkeleton): None =>
+    @g_dbus_object_manager_server_export_uniquely(manager', object')

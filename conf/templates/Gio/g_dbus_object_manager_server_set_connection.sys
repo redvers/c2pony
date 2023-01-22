@@ -1,0 +1,2 @@
+  fun set_connection(manager': GDBusObjectManagerServer, connection': GDBusConnection): None =>
+    @g_dbus_object_manager_server_set_connection(manager', connection')

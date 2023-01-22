@@ -1,0 +1,2 @@
+  fun resources_lookup_data(path': String, lookup_flags': U32, error': GError): GBytes =>
+    @g_resources_lookup_data(path'.cstring(), lookup_flags', addressof error'.ptr)

@@ -1,0 +1,2 @@
+  fun get_clip_overlay(child': GtkOverlayLayoutChild): I32 =>
+    @gtk_overlay_layout_child_get_clip_overlay(child')

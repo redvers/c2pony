@@ -1,0 +1,2 @@
+  fun ref get_pixels_below_lines(): I32 =>
+    GtkTextViewP.get_pixels_below_lines(this)

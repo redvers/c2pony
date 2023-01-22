@@ -1,0 +1,2 @@
+  fun ref scroll_to_path(path': GtkTreePath, use_align': I32, row_align': F32, col_align': F32): None =>
+    GtkIconViewP.scroll_to_path(this, path', use_align', row_align', col_align')

@@ -1,0 +1,2 @@
+  fun scale(snapshot': GdkSnapshot, factor_x': F32, factor_y': F32): None =>
+    @gtk_snapshot_scale(snapshot', factor_x', factor_y')

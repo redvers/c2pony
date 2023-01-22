@@ -1,0 +1,2 @@
+  fun is_initialized(): I32 =>
+    @gtk_is_initialized()

@@ -1,0 +1,2 @@
+  fun ref copy(error': GError): GDBusMessage =>
+    GDBusMessageP.copy(this, error')

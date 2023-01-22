@@ -1,0 +1,1 @@
+use @gtk_file_chooser_native_new[GtkFileChooserNative](title': Pointer[U8] tag, parent': Pointer[GObjectP], action': U32, accept_label': Pointer[U8] tag, cancel_label': Pointer[U8] tag)

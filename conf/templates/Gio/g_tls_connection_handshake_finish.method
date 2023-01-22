@@ -1,0 +1,2 @@
+  fun ref handshake_finish(result': GAsyncResult, error': GError): I32 =>
+    GTlsConnectionP.handshake_finish(this, result', error')

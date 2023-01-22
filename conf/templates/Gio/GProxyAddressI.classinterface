@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+interface GProxyAddressI is GInetSocketAddressI
+  fun ref getptr(): Pointer[GObjectP]

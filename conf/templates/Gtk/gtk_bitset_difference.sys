@@ -1,0 +1,2 @@
+  fun difference(self': GtkBitset, other': GtkBitset): None =>
+    @gtk_bitset_difference(self', other')

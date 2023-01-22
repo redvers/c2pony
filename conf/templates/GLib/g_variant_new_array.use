@@ -1,0 +1,1 @@
+use @g_variant_new_array[GVariant](child_type': GVariantType, children': Pointer[GVariant], n_children': U64)

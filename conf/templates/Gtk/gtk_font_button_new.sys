@@ -1,0 +1,2 @@
+  fun new(): Pointer[GObjectP] =>
+@gtk_font_button_new()

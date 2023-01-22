@@ -1,0 +1,2 @@
+  fun set_visible_func(filter': GtkTreeModelFilter, func': GtkTreeModelFilterVisibleFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_tree_model_filter_set_visible_func(filter', func', data', destroy')

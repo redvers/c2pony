@@ -1,0 +1,2 @@
+  fun get_file_for_uri(vfs': GVfs, uri': String): GFile =>
+    @g_vfs_get_file_for_uri(vfs', uri'.cstring())

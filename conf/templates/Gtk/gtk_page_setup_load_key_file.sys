@@ -1,0 +1,2 @@
+  fun load_key_file(setup': GtkPageSetup, key_file': GKeyFile, group_name': String, error': GError): I32 =>
+    @gtk_page_setup_load_key_file(setup', key_file', group_name'.cstring(), addressof error'.ptr)

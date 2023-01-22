@@ -1,0 +1,1 @@
+use @g_application_register[I32](application': Pointer[GObjectP], cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

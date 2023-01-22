@@ -1,0 +1,2 @@
+  fun to_gvariant(setup': GtkPageSetup): GVariant =>
+    @gtk_page_setup_to_gvariant(setup')

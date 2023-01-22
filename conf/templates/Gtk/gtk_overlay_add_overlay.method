@@ -1,0 +1,2 @@
+  fun ref add_overlay(widget': GtkWidgetI): None =>
+    GtkOverlayP.add_overlay(this, widget')

@@ -1,0 +1,472 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="HarfBuzz">
+    <renderfunction name="hb_aat_layout_feature_type_get_name_id" ponyname="aat_layout_feature_type_get_name_id" render="" deprecated=""/>
+    <renderfunction name="hb_aat_layout_feature_type_get_selector_infos" ponyname="aat_layout_feature_type_get_selector_infos" render="" deprecated=""/>
+    <renderfunction name="hb_aat_layout_get_feature_types" ponyname="aat_layout_get_feature_types" render="" deprecated=""/>
+    <renderfunction name="hb_aat_layout_has_positioning" ponyname="aat_layout_has_positioning" render="" deprecated=""/>
+    <renderfunction name="hb_aat_layout_has_substitution" ponyname="aat_layout_has_substitution" render="" deprecated=""/>
+    <renderfunction name="hb_aat_layout_has_tracking" ponyname="aat_layout_has_tracking" render="" deprecated=""/>
+    <renderfunction name="hb_blob_copy_writable_or_fail" ponyname="blob_copy_writable_or_fail" render="" deprecated=""/>
+    <renderfunction name="hb_blob_create" ponyname="blob_create" render="" deprecated=""/>
+    <renderfunction name="hb_blob_create_from_file" ponyname="blob_create_from_file" render="" deprecated=""/>
+    <renderfunction name="hb_blob_create_from_file_or_fail" ponyname="blob_create_from_file_or_fail" render="" deprecated=""/>
+    <renderfunction name="hb_blob_create_or_fail" ponyname="blob_create_or_fail" render="" deprecated=""/>
+    <renderfunction name="hb_blob_create_sub_blob" ponyname="blob_create_sub_blob" render="" deprecated=""/>
+    <renderfunction name="hb_blob_destroy" ponyname="blob_destroy" render="" deprecated=""/>
+    <renderfunction name="hb_blob_get_data" ponyname="blob_get_data" render="" deprecated=""/>
+    <renderfunction name="hb_blob_get_data_writable" ponyname="blob_get_data_writable" render="" deprecated=""/>
+    <renderfunction name="hb_blob_get_empty" ponyname="blob_get_empty" render="" deprecated=""/>
+    <renderfunction name="hb_blob_get_length" ponyname="blob_get_length" render="" deprecated=""/>
+    <renderfunction name="hb_blob_get_user_data" ponyname="blob_get_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_blob_is_immutable" ponyname="blob_is_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_blob_make_immutable" ponyname="blob_make_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_blob_reference" ponyname="blob_reference" render="" deprecated=""/>
+    <renderfunction name="hb_blob_set_user_data" ponyname="blob_set_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_add" ponyname="buffer_add" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_add_codepoints" ponyname="buffer_add_codepoints" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_add_latin1" ponyname="buffer_add_latin1" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_add_utf16" ponyname="buffer_add_utf16" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_add_utf32" ponyname="buffer_add_utf32" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_add_utf8" ponyname="buffer_add_utf8" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_allocation_successful" ponyname="buffer_allocation_successful" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_append" ponyname="buffer_append" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_clear_contents" ponyname="buffer_clear_contents" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_create" ponyname="buffer_create" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_deserialize_glyphs" ponyname="buffer_deserialize_glyphs" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_deserialize_unicode" ponyname="buffer_deserialize_unicode" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_destroy" ponyname="buffer_destroy" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_diff" ponyname="buffer_diff" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_cluster_level" ponyname="buffer_get_cluster_level" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_content_type" ponyname="buffer_get_content_type" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_direction" ponyname="buffer_get_direction" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_empty" ponyname="buffer_get_empty" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_flags" ponyname="buffer_get_flags" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_glyph_infos" ponyname="buffer_get_glyph_infos" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_glyph_positions" ponyname="buffer_get_glyph_positions" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_invisible_glyph" ponyname="buffer_get_invisible_glyph" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_language" ponyname="buffer_get_language" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_length" ponyname="buffer_get_length" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_replacement_codepoint" ponyname="buffer_get_replacement_codepoint" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_script" ponyname="buffer_get_script" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_segment_properties" ponyname="buffer_get_segment_properties" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_unicode_funcs" ponyname="buffer_get_unicode_funcs" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_get_user_data" ponyname="buffer_get_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_guess_segment_properties" ponyname="buffer_guess_segment_properties" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_has_positions" ponyname="buffer_has_positions" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_normalize_glyphs" ponyname="buffer_normalize_glyphs" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_pre_allocate" ponyname="buffer_pre_allocate" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_reference" ponyname="buffer_reference" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_reset" ponyname="buffer_reset" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_reverse" ponyname="buffer_reverse" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_reverse_clusters" ponyname="buffer_reverse_clusters" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_reverse_range" ponyname="buffer_reverse_range" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_serialize" ponyname="buffer_serialize" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_serialize_format_from_string" ponyname="buffer_serialize_format_from_string" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_serialize_format_to_string" ponyname="buffer_serialize_format_to_string" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_serialize_glyphs" ponyname="buffer_serialize_glyphs" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_serialize_list_formats" ponyname="buffer_serialize_list_formats" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_serialize_unicode" ponyname="buffer_serialize_unicode" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_cluster_level" ponyname="buffer_set_cluster_level" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_content_type" ponyname="buffer_set_content_type" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_direction" ponyname="buffer_set_direction" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_flags" ponyname="buffer_set_flags" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_invisible_glyph" ponyname="buffer_set_invisible_glyph" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_language" ponyname="buffer_set_language" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_length" ponyname="buffer_set_length" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_message_func" ponyname="buffer_set_message_func" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_replacement_codepoint" ponyname="buffer_set_replacement_codepoint" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_script" ponyname="buffer_set_script" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_segment_properties" ponyname="buffer_set_segment_properties" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_unicode_funcs" ponyname="buffer_set_unicode_funcs" render="" deprecated=""/>
+    <renderfunction name="hb_buffer_set_user_data" ponyname="buffer_set_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_color_get_alpha" ponyname="color_get_alpha" render="" deprecated=""/>
+    <renderfunction name="hb_color_get_blue" ponyname="color_get_blue" render="" deprecated=""/>
+    <renderfunction name="hb_color_get_green" ponyname="color_get_green" render="" deprecated=""/>
+    <renderfunction name="hb_color_get_red" ponyname="color_get_red" render="" deprecated=""/>
+    <renderfunction name="hb_direction_from_string" ponyname="direction_from_string" render="" deprecated=""/>
+    <renderfunction name="hb_direction_to_string" ponyname="direction_to_string" render="" deprecated=""/>
+    <renderfunction name="hb_face_builder_add_table" ponyname="face_builder_add_table" render="" deprecated=""/>
+    <renderfunction name="hb_face_builder_create" ponyname="face_builder_create" render="" deprecated=""/>
+    <renderfunction name="hb_face_collect_unicodes" ponyname="face_collect_unicodes" render="" deprecated=""/>
+    <renderfunction name="hb_face_collect_variation_selectors" ponyname="face_collect_variation_selectors" render="" deprecated=""/>
+    <renderfunction name="hb_face_collect_variation_unicodes" ponyname="face_collect_variation_unicodes" render="" deprecated=""/>
+    <renderfunction name="hb_face_count" ponyname="face_count" render="" deprecated=""/>
+    <renderfunction name="hb_face_create" ponyname="face_create" render="" deprecated=""/>
+    <renderfunction name="hb_face_create_for_tables" ponyname="face_create_for_tables" render="" deprecated=""/>
+    <renderfunction name="hb_face_destroy" ponyname="face_destroy" render="" deprecated=""/>
+    <renderfunction name="hb_face_get_empty" ponyname="face_get_empty" render="" deprecated=""/>
+    <renderfunction name="hb_face_get_glyph_count" ponyname="face_get_glyph_count" render="" deprecated=""/>
+    <renderfunction name="hb_face_get_index" ponyname="face_get_index" render="" deprecated=""/>
+    <renderfunction name="hb_face_get_table_tags" ponyname="face_get_table_tags" render="" deprecated=""/>
+    <renderfunction name="hb_face_get_upem" ponyname="face_get_upem" render="" deprecated=""/>
+    <renderfunction name="hb_face_get_user_data" ponyname="face_get_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_face_is_immutable" ponyname="face_is_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_face_make_immutable" ponyname="face_make_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_face_reference" ponyname="face_reference" render="" deprecated=""/>
+    <renderfunction name="hb_face_reference_blob" ponyname="face_reference_blob" render="" deprecated=""/>
+    <renderfunction name="hb_face_reference_table" ponyname="face_reference_table" render="" deprecated=""/>
+    <renderfunction name="hb_face_set_glyph_count" ponyname="face_set_glyph_count" render="" deprecated=""/>
+    <renderfunction name="hb_face_set_index" ponyname="face_set_index" render="" deprecated=""/>
+    <renderfunction name="hb_face_set_upem" ponyname="face_set_upem" render="" deprecated=""/>
+    <renderfunction name="hb_face_set_user_data" ponyname="face_set_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_feature_from_string" ponyname="feature_from_string" render="" deprecated=""/>
+    <renderfunction name="hb_feature_to_string" ponyname="feature_to_string" render="" deprecated=""/>
+    <renderfunction name="hb_font_add_glyph_origin_for_direction" ponyname="font_add_glyph_origin_for_direction" render="" deprecated=""/>
+    <renderfunction name="hb_font_create" ponyname="font_create" render="" deprecated=""/>
+    <renderfunction name="hb_font_create_sub_font" ponyname="font_create_sub_font" render="" deprecated=""/>
+    <renderfunction name="hb_font_destroy" ponyname="font_destroy" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_create" ponyname="font_funcs_create" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_destroy" ponyname="font_funcs_destroy" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_get_empty" ponyname="font_funcs_get_empty" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_get_user_data" ponyname="font_funcs_get_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_is_immutable" ponyname="font_funcs_is_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_make_immutable" ponyname="font_funcs_make_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_reference" ponyname="font_funcs_reference" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_font_h_extents_func" ponyname="font_funcs_set_font_h_extents_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_font_v_extents_func" ponyname="font_funcs_set_font_v_extents_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_contour_point_func" ponyname="font_funcs_set_glyph_contour_point_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_extents_func" ponyname="font_funcs_set_glyph_extents_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_from_name_func" ponyname="font_funcs_set_glyph_from_name_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_func" ponyname="font_funcs_set_glyph_func" render="" deprecated="1"/>
+    <renderfunction name="hb_font_funcs_set_glyph_h_advance_func" ponyname="font_funcs_set_glyph_h_advance_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_h_advances_func" ponyname="font_funcs_set_glyph_h_advances_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_h_kerning_func" ponyname="font_funcs_set_glyph_h_kerning_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_h_origin_func" ponyname="font_funcs_set_glyph_h_origin_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_name_func" ponyname="font_funcs_set_glyph_name_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_v_advance_func" ponyname="font_funcs_set_glyph_v_advance_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_v_advances_func" ponyname="font_funcs_set_glyph_v_advances_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_glyph_v_kerning_func" ponyname="font_funcs_set_glyph_v_kerning_func" render="" deprecated="1"/>
+    <renderfunction name="hb_font_funcs_set_glyph_v_origin_func" ponyname="font_funcs_set_glyph_v_origin_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_nominal_glyph_func" ponyname="font_funcs_set_nominal_glyph_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_nominal_glyphs_func" ponyname="font_funcs_set_nominal_glyphs_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_user_data" ponyname="font_funcs_set_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_font_funcs_set_variation_glyph_func" ponyname="font_funcs_set_variation_glyph_func" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_empty" ponyname="font_get_empty" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_extents_for_direction" ponyname="font_get_extents_for_direction" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_face" ponyname="font_get_face" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph" ponyname="font_get_glyph" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_advance_for_direction" ponyname="font_get_glyph_advance_for_direction" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_advances_for_direction" ponyname="font_get_glyph_advances_for_direction" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_contour_point" ponyname="font_get_glyph_contour_point" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_contour_point_for_origin" ponyname="font_get_glyph_contour_point_for_origin" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_extents" ponyname="font_get_glyph_extents" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_extents_for_origin" ponyname="font_get_glyph_extents_for_origin" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_from_name" ponyname="font_get_glyph_from_name" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_h_advance" ponyname="font_get_glyph_h_advance" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_h_advances" ponyname="font_get_glyph_h_advances" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_h_kerning" ponyname="font_get_glyph_h_kerning" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_h_origin" ponyname="font_get_glyph_h_origin" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_kerning_for_direction" ponyname="font_get_glyph_kerning_for_direction" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_name" ponyname="font_get_glyph_name" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_origin_for_direction" ponyname="font_get_glyph_origin_for_direction" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_v_advance" ponyname="font_get_glyph_v_advance" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_v_advances" ponyname="font_get_glyph_v_advances" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_glyph_v_kerning" ponyname="font_get_glyph_v_kerning" render="" deprecated="1"/>
+    <renderfunction name="hb_font_get_glyph_v_origin" ponyname="font_get_glyph_v_origin" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_h_extents" ponyname="font_get_h_extents" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_nominal_glyph" ponyname="font_get_nominal_glyph" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_nominal_glyphs" ponyname="font_get_nominal_glyphs" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_parent" ponyname="font_get_parent" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_ppem" ponyname="font_get_ppem" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_ptem" ponyname="font_get_ptem" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_scale" ponyname="font_get_scale" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_user_data" ponyname="font_get_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_v_extents" ponyname="font_get_v_extents" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_var_coords_normalized" ponyname="font_get_var_coords_normalized" render="" deprecated=""/>
+    <renderfunction name="hb_font_get_variation_glyph" ponyname="font_get_variation_glyph" render="" deprecated=""/>
+    <renderfunction name="hb_font_glyph_from_string" ponyname="font_glyph_from_string" render="" deprecated=""/>
+    <renderfunction name="hb_font_glyph_to_string" ponyname="font_glyph_to_string" render="" deprecated=""/>
+    <renderfunction name="hb_font_is_immutable" ponyname="font_is_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_font_make_immutable" ponyname="font_make_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_font_reference" ponyname="font_reference" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_face" ponyname="font_set_face" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_funcs" ponyname="font_set_funcs" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_funcs_data" ponyname="font_set_funcs_data" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_parent" ponyname="font_set_parent" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_ppem" ponyname="font_set_ppem" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_ptem" ponyname="font_set_ptem" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_scale" ponyname="font_set_scale" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_user_data" ponyname="font_set_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_var_coords_design" ponyname="font_set_var_coords_design" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_var_coords_normalized" ponyname="font_set_var_coords_normalized" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_var_named_instance" ponyname="font_set_var_named_instance" render="" deprecated=""/>
+    <renderfunction name="hb_font_set_variations" ponyname="font_set_variations" render="" deprecated=""/>
+    <renderfunction name="hb_font_subtract_glyph_origin_for_direction" ponyname="font_subtract_glyph_origin_for_direction" render="" deprecated=""/>
+    <renderfunction name="hb_ft_font_changed" ponyname="ft_font_changed" render="" deprecated=""/>
+    <renderfunction name="hb_ft_font_get_load_flags" ponyname="ft_font_get_load_flags" render="" deprecated=""/>
+    <renderfunction name="hb_ft_font_set_funcs" ponyname="ft_font_set_funcs" render="" deprecated=""/>
+    <renderfunction name="hb_ft_font_set_load_flags" ponyname="ft_font_set_load_flags" render="" deprecated=""/>
+    <renderfunction name="hb_ft_font_unlock_face" ponyname="ft_font_unlock_face" render="" deprecated=""/>
+    <renderfunction name="hb_glib_blob_create" ponyname="glib_blob_create" render="" deprecated=""/>
+    <renderfunction name="hb_glib_get_unicode_funcs" ponyname="glib_get_unicode_funcs" render="" deprecated=""/>
+    <renderfunction name="hb_glib_script_from_script" ponyname="glib_script_from_script" render="" deprecated=""/>
+    <renderfunction name="hb_glib_script_to_script" ponyname="glib_script_to_script" render="" deprecated=""/>
+    <renderfunction name="hb_glyph_info_get_glyph_flags" ponyname="glyph_info_get_glyph_flags" render="" deprecated=""/>
+    <renderfunction name="hb_language_from_string" ponyname="language_from_string" render="" deprecated=""/>
+    <renderfunction name="hb_language_get_default" ponyname="language_get_default" render="" deprecated=""/>
+    <renderfunction name="hb_language_to_string" ponyname="language_to_string" render="" deprecated=""/>
+    <renderfunction name="hb_map_allocation_successful" ponyname="map_allocation_successful" render="" deprecated=""/>
+    <renderfunction name="hb_map_clear" ponyname="map_clear" render="" deprecated=""/>
+    <renderfunction name="hb_map_create" ponyname="map_create" render="" deprecated=""/>
+    <renderfunction name="hb_map_del" ponyname="map_del" render="" deprecated=""/>
+    <renderfunction name="hb_map_destroy" ponyname="map_destroy" render="" deprecated=""/>
+    <renderfunction name="hb_map_get" ponyname="map_get" render="" deprecated=""/>
+    <renderfunction name="hb_map_get_empty" ponyname="map_get_empty" render="" deprecated=""/>
+    <renderfunction name="hb_map_get_population" ponyname="map_get_population" render="" deprecated=""/>
+    <renderfunction name="hb_map_get_user_data" ponyname="map_get_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_map_has" ponyname="map_has" render="" deprecated=""/>
+    <renderfunction name="hb_map_is_empty" ponyname="map_is_empty" render="" deprecated=""/>
+    <renderfunction name="hb_map_reference" ponyname="map_reference" render="" deprecated=""/>
+    <renderfunction name="hb_map_set" ponyname="map_set" render="" deprecated=""/>
+    <renderfunction name="hb_map_set_user_data" ponyname="map_set_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_glyph_get_layers" ponyname="ot_color_glyph_get_layers" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_glyph_reference_png" ponyname="ot_color_glyph_reference_png" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_glyph_reference_svg" ponyname="ot_color_glyph_reference_svg" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_has_layers" ponyname="ot_color_has_layers" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_has_palettes" ponyname="ot_color_has_palettes" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_has_png" ponyname="ot_color_has_png" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_has_svg" ponyname="ot_color_has_svg" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_palette_color_get_name_id" ponyname="ot_color_palette_color_get_name_id" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_palette_get_colors" ponyname="ot_color_palette_get_colors" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_palette_get_count" ponyname="ot_color_palette_get_count" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_palette_get_flags" ponyname="ot_color_palette_get_flags" render="" deprecated=""/>
+    <renderfunction name="hb_ot_color_palette_get_name_id" ponyname="ot_color_palette_get_name_id" render="" deprecated=""/>
+    <renderfunction name="hb_ot_font_set_funcs" ponyname="ot_font_set_funcs" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_collect_features" ponyname="ot_layout_collect_features" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_collect_lookups" ponyname="ot_layout_collect_lookups" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_feature_get_characters" ponyname="ot_layout_feature_get_characters" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_feature_get_lookups" ponyname="ot_layout_feature_get_lookups" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_feature_get_name_ids" ponyname="ot_layout_feature_get_name_ids" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_feature_with_variations_get_lookups" ponyname="ot_layout_feature_with_variations_get_lookups" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_get_attach_points" ponyname="ot_layout_get_attach_points" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_get_baseline" ponyname="ot_layout_get_baseline" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_get_glyph_class" ponyname="ot_layout_get_glyph_class" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_get_glyphs_in_class" ponyname="ot_layout_get_glyphs_in_class" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_get_ligature_carets" ponyname="ot_layout_get_ligature_carets" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_get_size_params" ponyname="ot_layout_get_size_params" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_has_glyph_classes" ponyname="ot_layout_has_glyph_classes" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_has_positioning" ponyname="ot_layout_has_positioning" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_has_substitution" ponyname="ot_layout_has_substitution" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_language_find_feature" ponyname="ot_layout_language_find_feature" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_language_get_feature_indexes" ponyname="ot_layout_language_get_feature_indexes" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_language_get_feature_tags" ponyname="ot_layout_language_get_feature_tags" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_language_get_required_feature" ponyname="ot_layout_language_get_required_feature" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_language_get_required_feature_index" ponyname="ot_layout_language_get_required_feature_index" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_lookup_collect_glyphs" ponyname="ot_layout_lookup_collect_glyphs" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_lookup_get_glyph_alternates" ponyname="ot_layout_lookup_get_glyph_alternates" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_lookup_substitute_closure" ponyname="ot_layout_lookup_substitute_closure" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_lookup_would_substitute" ponyname="ot_layout_lookup_would_substitute" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_lookups_substitute_closure" ponyname="ot_layout_lookups_substitute_closure" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_script_find_language" ponyname="ot_layout_script_find_language" render="" deprecated="1"/>
+    <renderfunction name="hb_ot_layout_script_get_language_tags" ponyname="ot_layout_script_get_language_tags" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_script_select_language" ponyname="ot_layout_script_select_language" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_table_choose_script" ponyname="ot_layout_table_choose_script" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_table_find_feature_variations" ponyname="ot_layout_table_find_feature_variations" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_table_find_script" ponyname="ot_layout_table_find_script" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_table_get_feature_tags" ponyname="ot_layout_table_get_feature_tags" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_table_get_lookup_count" ponyname="ot_layout_table_get_lookup_count" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_table_get_script_tags" ponyname="ot_layout_table_get_script_tags" render="" deprecated=""/>
+    <renderfunction name="hb_ot_layout_table_select_script" ponyname="ot_layout_table_select_script" render="" deprecated=""/>
+    <renderfunction name="hb_ot_math_get_constant" ponyname="ot_math_get_constant" render="" deprecated=""/>
+    <renderfunction name="hb_ot_math_get_glyph_assembly" ponyname="ot_math_get_glyph_assembly" render="" deprecated=""/>
+    <renderfunction name="hb_ot_math_get_glyph_italics_correction" ponyname="ot_math_get_glyph_italics_correction" render="" deprecated=""/>
+    <renderfunction name="hb_ot_math_get_glyph_kerning" ponyname="ot_math_get_glyph_kerning" render="" deprecated=""/>
+    <renderfunction name="hb_ot_math_get_glyph_top_accent_attachment" ponyname="ot_math_get_glyph_top_accent_attachment" render="" deprecated=""/>
+    <renderfunction name="hb_ot_math_get_glyph_variants" ponyname="ot_math_get_glyph_variants" render="" deprecated=""/>
+    <renderfunction name="hb_ot_math_get_min_connector_overlap" ponyname="ot_math_get_min_connector_overlap" render="" deprecated=""/>
+    <renderfunction name="hb_ot_math_has_data" ponyname="ot_math_has_data" render="" deprecated=""/>
+    <renderfunction name="hb_ot_math_is_glyph_extended_shape" ponyname="ot_math_is_glyph_extended_shape" render="" deprecated=""/>
+    <renderfunction name="hb_ot_meta_get_entry_tags" ponyname="ot_meta_get_entry_tags" render="" deprecated=""/>
+    <renderfunction name="hb_ot_meta_reference_entry" ponyname="ot_meta_reference_entry" render="" deprecated=""/>
+    <renderfunction name="hb_ot_metrics_get_position" ponyname="ot_metrics_get_position" render="" deprecated=""/>
+    <renderfunction name="hb_ot_metrics_get_variation" ponyname="ot_metrics_get_variation" render="" deprecated=""/>
+    <renderfunction name="hb_ot_metrics_get_x_variation" ponyname="ot_metrics_get_x_variation" render="" deprecated=""/>
+    <renderfunction name="hb_ot_metrics_get_y_variation" ponyname="ot_metrics_get_y_variation" render="" deprecated=""/>
+    <renderfunction name="hb_ot_name_get_utf16" ponyname="ot_name_get_utf16" render="" deprecated=""/>
+    <renderfunction name="hb_ot_name_get_utf32" ponyname="ot_name_get_utf32" render="" deprecated=""/>
+    <renderfunction name="hb_ot_name_get_utf8" ponyname="ot_name_get_utf8" render="" deprecated=""/>
+    <renderfunction name="hb_ot_name_list_names" ponyname="ot_name_list_names" render="" deprecated=""/>
+    <renderfunction name="hb_ot_shape_glyphs_closure" ponyname="ot_shape_glyphs_closure" render="" deprecated=""/>
+    <renderfunction name="hb_ot_shape_plan_collect_lookups" ponyname="ot_shape_plan_collect_lookups" render="" deprecated=""/>
+    <renderfunction name="hb_ot_tag_from_language" ponyname="ot_tag_from_language" render="" deprecated=""/>
+    <renderfunction name="hb_ot_tag_to_language" ponyname="ot_tag_to_language" render="" deprecated=""/>
+    <renderfunction name="hb_ot_tag_to_script" ponyname="ot_tag_to_script" render="" deprecated=""/>
+    <renderfunction name="hb_ot_tags_from_script" ponyname="ot_tags_from_script" render="" deprecated=""/>
+    <renderfunction name="hb_ot_tags_from_script_and_language" ponyname="ot_tags_from_script_and_language" render="" deprecated=""/>
+    <renderfunction name="hb_ot_tags_to_script_and_language" ponyname="ot_tags_to_script_and_language" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_find_axis" ponyname="ot_var_find_axis" render="" deprecated="1"/>
+    <renderfunction name="hb_ot_var_find_axis_info" ponyname="ot_var_find_axis_info" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_get_axes" ponyname="ot_var_get_axes" render="" deprecated="1"/>
+    <renderfunction name="hb_ot_var_get_axis_count" ponyname="ot_var_get_axis_count" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_get_axis_infos" ponyname="ot_var_get_axis_infos" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_get_named_instance_count" ponyname="ot_var_get_named_instance_count" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_has_data" ponyname="ot_var_has_data" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_named_instance_get_design_coords" ponyname="ot_var_named_instance_get_design_coords" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_named_instance_get_postscript_name_id" ponyname="ot_var_named_instance_get_postscript_name_id" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_named_instance_get_subfamily_name_id" ponyname="ot_var_named_instance_get_subfamily_name_id" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_normalize_coords" ponyname="ot_var_normalize_coords" render="" deprecated=""/>
+    <renderfunction name="hb_ot_var_normalize_variations" ponyname="ot_var_normalize_variations" render="" deprecated=""/>
+    <renderfunction name="hb_script_from_iso15924_tag" ponyname="script_from_iso15924_tag" render="" deprecated=""/>
+    <renderfunction name="hb_script_from_string" ponyname="script_from_string" render="" deprecated=""/>
+    <renderfunction name="hb_script_get_horizontal_direction" ponyname="script_get_horizontal_direction" render="" deprecated=""/>
+    <renderfunction name="hb_script_to_iso15924_tag" ponyname="script_to_iso15924_tag" render="" deprecated=""/>
+    <renderfunction name="hb_segment_properties_equal" ponyname="segment_properties_equal" render="" deprecated=""/>
+    <renderfunction name="hb_segment_properties_hash" ponyname="segment_properties_hash" render="" deprecated=""/>
+    <renderfunction name="hb_set_add" ponyname="set_add" render="" deprecated=""/>
+    <renderfunction name="hb_set_add_range" ponyname="set_add_range" render="" deprecated=""/>
+    <renderfunction name="hb_set_allocation_successful" ponyname="set_allocation_successful" render="" deprecated=""/>
+    <renderfunction name="hb_set_clear" ponyname="set_clear" render="" deprecated=""/>
+    <renderfunction name="hb_set_copy" ponyname="set_copy" render="" deprecated=""/>
+    <renderfunction name="hb_set_create" ponyname="set_create" render="" deprecated=""/>
+    <renderfunction name="hb_set_del" ponyname="set_del" render="" deprecated=""/>
+    <renderfunction name="hb_set_del_range" ponyname="set_del_range" render="" deprecated=""/>
+    <renderfunction name="hb_set_destroy" ponyname="set_destroy" render="" deprecated=""/>
+    <renderfunction name="hb_set_get_empty" ponyname="set_get_empty" render="" deprecated=""/>
+    <renderfunction name="hb_set_get_max" ponyname="set_get_max" render="" deprecated=""/>
+    <renderfunction name="hb_set_get_min" ponyname="set_get_min" render="" deprecated=""/>
+    <renderfunction name="hb_set_get_population" ponyname="set_get_population" render="" deprecated=""/>
+    <renderfunction name="hb_set_get_user_data" ponyname="set_get_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_set_has" ponyname="set_has" render="" deprecated=""/>
+    <renderfunction name="hb_set_intersect" ponyname="set_intersect" render="" deprecated=""/>
+    <renderfunction name="hb_set_invert" ponyname="set_invert" render="" deprecated=""/>
+    <renderfunction name="hb_set_is_empty" ponyname="set_is_empty" render="" deprecated=""/>
+    <renderfunction name="hb_set_is_equal" ponyname="set_is_equal" render="" deprecated=""/>
+    <renderfunction name="hb_set_is_subset" ponyname="set_is_subset" render="" deprecated=""/>
+    <renderfunction name="hb_set_next" ponyname="set_next" render="" deprecated=""/>
+    <renderfunction name="hb_set_next_range" ponyname="set_next_range" render="" deprecated=""/>
+    <renderfunction name="hb_set_previous" ponyname="set_previous" render="" deprecated=""/>
+    <renderfunction name="hb_set_previous_range" ponyname="set_previous_range" render="" deprecated=""/>
+    <renderfunction name="hb_set_reference" ponyname="set_reference" render="" deprecated=""/>
+    <renderfunction name="hb_set_set" ponyname="set_set" render="" deprecated=""/>
+    <renderfunction name="hb_set_set_user_data" ponyname="set_set_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_set_subtract" ponyname="set_subtract" render="" deprecated=""/>
+    <renderfunction name="hb_set_symmetric_difference" ponyname="set_symmetric_difference" render="" deprecated=""/>
+    <renderfunction name="hb_set_union" ponyname="set_union" render="" deprecated=""/>
+    <renderfunction name="hb_shape" ponyname="shape" render="" deprecated=""/>
+    <renderfunction name="hb_shape_full" ponyname="shape_full" render="" deprecated=""/>
+    <renderfunction name="hb_shape_list_shapers" ponyname="shape_list_shapers" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_create" ponyname="shape_plan_create" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_create2" ponyname="shape_plan_create2" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_create_cached" ponyname="shape_plan_create_cached" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_create_cached2" ponyname="shape_plan_create_cached2" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_destroy" ponyname="shape_plan_destroy" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_execute" ponyname="shape_plan_execute" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_get_empty" ponyname="shape_plan_get_empty" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_get_shaper" ponyname="shape_plan_get_shaper" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_get_user_data" ponyname="shape_plan_get_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_reference" ponyname="shape_plan_reference" render="" deprecated=""/>
+    <renderfunction name="hb_shape_plan_set_user_data" ponyname="shape_plan_set_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_style_get_value" ponyname="style_get_value" render="" deprecated=""/>
+    <renderfunction name="hb_tag_from_string" ponyname="tag_from_string" render="" deprecated=""/>
+    <renderfunction name="hb_tag_to_string" ponyname="tag_to_string" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_combining_class" ponyname="unicode_combining_class" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_compose" ponyname="unicode_compose" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_decompose" ponyname="unicode_decompose" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_decompose_compatibility" ponyname="unicode_decompose_compatibility" render="" deprecated="1"/>
+    <renderfunction name="hb_unicode_eastasian_width" ponyname="unicode_eastasian_width" render="" deprecated="1"/>
+    <renderfunction name="hb_unicode_funcs_create" ponyname="unicode_funcs_create" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_destroy" ponyname="unicode_funcs_destroy" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_get_default" ponyname="unicode_funcs_get_default" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_get_empty" ponyname="unicode_funcs_get_empty" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_get_parent" ponyname="unicode_funcs_get_parent" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_get_user_data" ponyname="unicode_funcs_get_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_is_immutable" ponyname="unicode_funcs_is_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_make_immutable" ponyname="unicode_funcs_make_immutable" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_reference" ponyname="unicode_funcs_reference" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_set_combining_class_func" ponyname="unicode_funcs_set_combining_class_func" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_set_compose_func" ponyname="unicode_funcs_set_compose_func" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_set_decompose_compatibility_func" ponyname="unicode_funcs_set_decompose_compatibility_func" render="" deprecated="1"/>
+    <renderfunction name="hb_unicode_funcs_set_decompose_func" ponyname="unicode_funcs_set_decompose_func" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_set_eastasian_width_func" ponyname="unicode_funcs_set_eastasian_width_func" render="" deprecated="1"/>
+    <renderfunction name="hb_unicode_funcs_set_general_category_func" ponyname="unicode_funcs_set_general_category_func" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_set_mirroring_func" ponyname="unicode_funcs_set_mirroring_func" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_set_script_func" ponyname="unicode_funcs_set_script_func" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_funcs_set_user_data" ponyname="unicode_funcs_set_user_data" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_general_category" ponyname="unicode_general_category" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_mirroring" ponyname="unicode_mirroring" render="" deprecated=""/>
+    <renderfunction name="hb_unicode_script" ponyname="unicode_script" render="" deprecated=""/>
+    <renderfunction name="hb_variation_from_string" ponyname="variation_from_string" render="" deprecated=""/>
+    <renderfunction name="hb_variation_to_string" ponyname="variation_to_string" render="" deprecated=""/>
+    <renderfunction name="hb_version" ponyname="version" render="" deprecated=""/>
+    <renderfunction name="hb_version_atleast" ponyname="version_atleast" render="" deprecated=""/>
+    <renderfunction name="hb_version_string" ponyname="version_string" render="" deprecated=""/>
+    <renderstruct name="hb_aat_layout_feature_selector_info_t" render="">
+</renderstruct>
+    <renderstruct name="hb_blob_t" render="">
+</renderstruct>
+    <renderstruct name="hb_buffer_t" render="">
+</renderstruct>
+    <renderstruct name="hb_face_t" render="">
+</renderstruct>
+    <renderstruct name="hb_feature_t" render="">
+      <rendermethod name="hb_feature_to_string" ponyname="_string" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="hb_font_extents_t" render="">
+</renderstruct>
+    <renderstruct name="hb_font_funcs_t" render="">
+</renderstruct>
+    <renderstruct name="hb_font_t" render="">
+</renderstruct>
+    <renderstruct name="hb_glyph_extents_t" render="">
+</renderstruct>
+    <renderstruct name="hb_glyph_info_t" render="">
+</renderstruct>
+    <renderstruct name="hb_glyph_position_t" render="">
+</renderstruct>
+    <renderstruct name="hb_language_t" render="">
+      <rendermethod name="hb_language_to_string" ponyname="_string" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="hb_map_t" render="">
+</renderstruct>
+    <renderstruct name="hb_ot_color_layer_t" render="">
+</renderstruct>
+    <renderstruct name="hb_ot_math_glyph_part_t" render="">
+</renderstruct>
+    <renderstruct name="hb_ot_math_glyph_variant_t" render="">
+</renderstruct>
+    <renderstruct name="hb_ot_name_entry_t" render="">
+</renderstruct>
+    <renderstruct name="hb_ot_var_axis_info_t" render="">
+</renderstruct>
+    <renderstruct name="hb_ot_var_axis_t" render="">
+</renderstruct>
+    <renderstruct name="hb_segment_properties_t" render="">
+</renderstruct>
+    <renderstruct name="hb_set_t" render="">
+</renderstruct>
+    <renderstruct name="hb_shape_plan_t" render="">
+</renderstruct>
+    <renderstruct name="hb_unicode_funcs_t" render="">
+</renderstruct>
+    <renderstruct name="hb_user_data_key_t" render="">
+</renderstruct>
+    <renderstruct name="hb_variation_t" render="">
+      <rendermethod name="hb_variation_to_string" ponyname="_string" render="" deprecated=""/>
+    </renderstruct>
+    <rendercallback name="hb_buffer_message_func_t" render="0"/>
+    <rendercallback name="hb_destroy_func_t" render="0"/>
+    <rendercallback name="hb_font_get_font_extents_func_t" render="0"/>
+    <rendercallback name="hb_font_get_glyph_advance_func_t" render="0"/>
+    <rendercallback name="hb_font_get_glyph_advances_func_t" render="0"/>
+    <rendercallback name="hb_font_get_glyph_contour_point_func_t" render="0"/>
+    <rendercallback name="hb_font_get_glyph_extents_func_t" render="0"/>
+    <rendercallback name="hb_font_get_glyph_from_name_func_t" render="0"/>
+    <rendercallback name="hb_font_get_glyph_func_t" render="0"/>
+    <rendercallback name="hb_font_get_glyph_kerning_func_t" render="0"/>
+    <rendercallback name="hb_font_get_glyph_name_func_t" render="0"/>
+    <rendercallback name="hb_font_get_glyph_origin_func_t" render="0"/>
+    <rendercallback name="hb_font_get_nominal_glyph_func_t" render="0"/>
+    <rendercallback name="hb_font_get_nominal_glyphs_func_t" render="0"/>
+    <rendercallback name="hb_font_get_variation_glyph_func_t" render="0"/>
+    <rendercallback name="hb_reference_table_func_t" render="0"/>
+    <rendercallback name="hb_unicode_combining_class_func_t" render="0"/>
+    <rendercallback name="hb_unicode_compose_func_t" render="0"/>
+    <rendercallback name="hb_unicode_decompose_compatibility_func_t" render="0"/>
+    <rendercallback name="hb_unicode_decompose_func_t" render="0"/>
+    <rendercallback name="hb_unicode_eastasian_width_func_t" render="0"/>
+    <rendercallback name="hb_unicode_general_category_func_t" render="0"/>
+    <rendercallback name="hb_unicode_mirroring_func_t" render="0"/>
+    <rendercallback name="hb_unicode_script_func_t" render="0"/>
+  </ns>
+</rs>

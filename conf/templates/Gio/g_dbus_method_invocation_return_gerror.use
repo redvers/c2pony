@@ -1,0 +1,1 @@
+use @g_dbus_method_invocation_return_gerror[None](invocation': GDBusMethodInvocation, error': NullablePointer[GErrorT])

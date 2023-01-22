@@ -1,0 +1,2 @@
+  fun flush(interface': GDBusInterfaceSkeleton): None =>
+    @g_dbus_interface_skeleton_flush(interface')

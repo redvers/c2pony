@@ -1,0 +1,1 @@
+use @g_tls_database_lookup_certificates_issued_by_finish[GList](self': GTlsDatabase, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

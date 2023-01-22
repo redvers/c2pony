@@ -1,0 +1,1 @@
+use @gtk_switch_set_active[None](self': GtkSwitch, is_active': I32)

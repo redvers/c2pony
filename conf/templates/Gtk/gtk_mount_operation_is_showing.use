@@ -1,0 +1,1 @@
+use @gtk_mount_operation_is_showing[I32](op': GtkMountOperation)

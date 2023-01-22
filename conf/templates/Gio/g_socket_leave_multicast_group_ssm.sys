@@ -1,0 +1,2 @@
+  fun leave_multicast_group_ssm(socket': GSocket, group': GInetAddress, source_specific': GInetAddress, iface': String, error': GError): I32 =>
+    @g_socket_leave_multicast_group_ssm(socket', group', source_specific', iface'.cstring(), addressof error'.ptr)

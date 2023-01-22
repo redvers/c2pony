@@ -1,0 +1,2 @@
+  fun markup_escape_text(text': String, length': I64): String iso^ =>
+    String.from_cstring(@g_markup_escape_text(text'.cstring(), length')).clone()

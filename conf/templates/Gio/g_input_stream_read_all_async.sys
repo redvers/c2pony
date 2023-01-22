@@ -1,0 +1,2 @@
+  fun read_all_async(stream': GInputStream, buffer': Pointer[None] tag, count': U64, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_input_stream_read_all_async(stream', buffer', count', io_priority', cancellable', callback', user_data')

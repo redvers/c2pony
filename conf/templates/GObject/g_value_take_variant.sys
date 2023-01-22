@@ -1,0 +1,2 @@
+  fun take_variant(value': GValue, variant': GVariant): None =>
+    @g_value_take_variant(value', variant')

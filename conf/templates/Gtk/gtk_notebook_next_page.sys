@@ -1,0 +1,2 @@
+  fun next_page(notebook': GtkNotebook): None =>
+    @gtk_notebook_next_page(notebook')

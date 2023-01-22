@@ -1,0 +1,2 @@
+  fun ref get_param(): GParamSpec =>
+    GValueP.get_param(this)

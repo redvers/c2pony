@@ -1,0 +1,1 @@
+use @g_byte_array_free[Pointer[U8]](array': GByteArray, free_segment': I32)

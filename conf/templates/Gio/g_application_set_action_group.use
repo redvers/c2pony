@@ -1,0 +1,1 @@
+use @g_application_set_action_group[None](application': Pointer[GObjectP], action_group': GActionGroup)

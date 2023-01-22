@@ -1,0 +1,1 @@
+use @gtk_window_set_deletable[None](window': Pointer[GObjectP], setting': I32)

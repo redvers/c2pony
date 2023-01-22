@@ -1,0 +1,2 @@
+  fun set_baseline_position(self': GtkCenterBox, position': U32): None =>
+    @gtk_center_box_set_baseline_position(self', position')

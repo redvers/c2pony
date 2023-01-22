@@ -1,0 +1,2 @@
+  fun popup_for_device(combo_box': GtkComboBox, device': GdkDevice): None =>
+    @gtk_combo_box_popup_for_device(combo_box', device')

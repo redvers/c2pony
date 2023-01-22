@@ -1,0 +1,1 @@
+use @gtk_is_initialized[I32]()

@@ -1,0 +1,2 @@
+  fun set_yalign(self': GtkAspectFrame, yalign': F32): None =>
+    @gtk_aspect_frame_set_yalign(self', yalign')

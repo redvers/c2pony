@@ -1,0 +1,2 @@
+  fun get_sorter(self': GtkColumnViewColumn): GtkSorter =>
+    @gtk_column_view_column_get_sorter(self')

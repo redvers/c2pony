@@ -1,0 +1,1 @@
+use @gtk_combo_box_get_button_sensitivity[U32](combo_box': GtkComboBox)

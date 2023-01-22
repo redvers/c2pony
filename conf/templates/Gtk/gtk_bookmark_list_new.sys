@@ -1,0 +1,2 @@
+  fun new(filename': String, attributes': String): GtkBookmarkList =>
+    @gtk_bookmark_list_new(filename'.cstring(), attributes'.cstring())

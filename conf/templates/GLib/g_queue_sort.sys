@@ -1,0 +1,2 @@
+  fun sort(queue': GQueue, compare_func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    @g_queue_sort(queue', compare_func', user_data')

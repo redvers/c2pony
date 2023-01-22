@@ -1,0 +1,2 @@
+  fun new(): GtkBorder =>
+    @gtk_border_new()

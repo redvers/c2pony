@@ -1,0 +1,2 @@
+  fun set_is_private(bookmark': GBookmarkFile, uri': String, is_private': I32): None =>
+    @g_bookmark_file_set_is_private(bookmark', uri'.cstring(), is_private')

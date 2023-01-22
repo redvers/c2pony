@@ -1,0 +1,1 @@
+use @gtk_app_chooser_button_set_show_default_item[None](self': GtkAppChooserButton, setting': I32)

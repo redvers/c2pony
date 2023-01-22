@@ -1,0 +1,2 @@
+  fun ref convert_iter_to_child_iter(child_iter': GtkTreeIter, sorted_iter': GtkTreeIter): None =>
+    GtkTreeModelSortP.convert_iter_to_child_iter(this, child_iter', sorted_iter')

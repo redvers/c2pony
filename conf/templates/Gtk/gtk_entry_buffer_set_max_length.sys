@@ -1,0 +1,2 @@
+  fun set_max_length(buffer': GtkEntryBuffer, max_length': I32): None =>
+    @gtk_entry_buffer_set_max_length(buffer', max_length')

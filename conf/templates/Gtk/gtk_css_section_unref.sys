@@ -1,0 +1,2 @@
+  fun unref(section': GtkCssSection): None =>
+    @gtk_css_section_unref(section')

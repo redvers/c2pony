@@ -1,0 +1,1 @@
+use @gtk_entry_completion_insert_prefix[None](completion': GtkEntryCompletion)

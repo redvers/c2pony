@@ -1,0 +1,2 @@
+  fun ref remove_interface_by_name(interface_name': String): None =>
+    GDBusObjectSkeletonP.remove_interface_by_name(this, interface_name')

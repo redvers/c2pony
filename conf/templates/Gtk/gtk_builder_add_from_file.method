@@ -1,0 +1,2 @@
+  fun ref add_from_file(filename': String, error': GError): I32 =>
+    GtkBuilderP.add_from_file(this, filename', error')

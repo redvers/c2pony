@@ -1,0 +1,1 @@
+use @gtk_link_button_new_with_label[Pointer[GObjectP]](uri': Pointer[U8] tag, label': Pointer[U8] tag)

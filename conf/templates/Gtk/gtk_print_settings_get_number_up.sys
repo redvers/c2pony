@@ -1,0 +1,2 @@
+  fun get_number_up(settings': GtkPrintSettings): I32 =>
+    @gtk_print_settings_get_number_up(settings')

@@ -1,0 +1,1 @@
+use @g_variant_get_normal_form[GVariant](value': GVariant)

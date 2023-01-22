@@ -1,0 +1,1 @@
+use @g_unichar_isdigit[I32](c': U32)

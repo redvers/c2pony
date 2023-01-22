@@ -1,0 +1,2 @@
+  fun ref set_default_proxy(default_proxy': String): None =>
+    GSimpleProxyResolverP.set_default_proxy(this, default_proxy')

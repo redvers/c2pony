@@ -1,0 +1,2 @@
+  fun set_inverted(range': GtkRange, setting': I32): None =>
+    @gtk_range_set_inverted(range', setting')

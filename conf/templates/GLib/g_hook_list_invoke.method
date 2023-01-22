@@ -1,0 +1,2 @@
+  fun ref invoke(may_recurse': I32): None =>
+    GHookListP.invoke(this, may_recurse')

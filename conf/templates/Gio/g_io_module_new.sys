@@ -1,0 +1,2 @@
+  fun new(filename': String): GIOModule =>
+    @g_io_module_new(filename'.cstring())

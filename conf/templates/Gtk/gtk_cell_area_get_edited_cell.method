@@ -1,0 +1,2 @@
+  fun ref get_edited_cell(): GtkCellRenderer =>
+    GtkCellAreaP.get_edited_cell(this)

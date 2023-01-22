@@ -1,0 +1,2 @@
+  fun print(section': GtkCssSection, string': GString): None =>
+    @gtk_css_section_print(section', string')

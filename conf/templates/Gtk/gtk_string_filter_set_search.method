@@ -1,0 +1,2 @@
+  fun ref set_search(search': String): None =>
+    GtkStringFilterP.set_search(this, search')

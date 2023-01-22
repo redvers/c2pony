@@ -1,0 +1,2 @@
+  fun ref prepend(value': GValue): GValueArray =>
+    GValueArrayP.prepend(this, value')

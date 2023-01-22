@@ -1,0 +1,2 @@
+  fun ref get_placement(): U32 =>
+    GtkScrolledWindowP.get_placement(this)

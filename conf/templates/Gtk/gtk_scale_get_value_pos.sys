@@ -1,0 +1,2 @@
+  fun get_value_pos(scale': GtkScale): U32 =>
+    @gtk_scale_get_value_pos(scale')

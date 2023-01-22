@@ -1,0 +1,2 @@
+  fun match_full(regex': GRegex, string': String, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[GMatchInfo], error': Pointer[GError]): I32 =>
+    @g_regex_match_full(regex', string'.cstring(), string_len', start_position', match_options', match_info', error')

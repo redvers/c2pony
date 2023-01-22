@@ -1,0 +1,2 @@
+  fun ref insert(iter': GtkTextIter, text': String, len': I32): None =>
+    GtkTextBufferP.insert(this, iter', text', len')

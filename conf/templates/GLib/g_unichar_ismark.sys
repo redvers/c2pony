@@ -1,0 +1,2 @@
+  fun unichar_ismark(c': U32): I32 =>
+    @g_unichar_ismark(c')

@@ -1,0 +1,2 @@
+  fun focus_cell(tree_column': GtkTreeViewColumn, cell': GtkCellRenderer): None =>
+    @gtk_tree_view_column_focus_cell(tree_column', cell')

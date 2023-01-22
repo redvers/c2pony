@@ -1,0 +1,1 @@
+use @g_scanner_cur_token[U32](scanner': GScanner)

@@ -1,0 +1,2 @@
+  fun ref get_pointer(): Pointer[None] tag =>
+    GValueP.get_pointer(this)

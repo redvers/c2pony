@@ -1,0 +1,2 @@
+  fun drag_cancel(source': GtkDragSource): None =>
+    @gtk_drag_source_drag_cancel(source')

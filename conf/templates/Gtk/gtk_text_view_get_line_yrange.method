@@ -1,0 +1,2 @@
+  fun ref get_line_yrange(iter': GtkTextIter, y': Pointer[I32] tag, height': Pointer[I32] tag): None =>
+    GtkTextViewP.get_line_yrange(this, iter', y', height')

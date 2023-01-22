@@ -1,0 +1,1 @@
+use @gtk_scrolled_window_get_policy[None](scrolled_window': GtkScrolledWindow, hscrollbar_policy': Pointer[U32] tag, vscrollbar_policy': Pointer[U32] tag)

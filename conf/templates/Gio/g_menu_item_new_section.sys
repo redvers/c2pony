@@ -1,0 +1,2 @@
+  fun new_section(label': String, section': GMenuModel): GMenuItem =>
+    @g_menu_item_new_section(label'.cstring(), section')

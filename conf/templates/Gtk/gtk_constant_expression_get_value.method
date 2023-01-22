@@ -1,0 +1,2 @@
+  fun ref get_value(): GValue =>
+    GtkConstantExpressionP.get_value(this)

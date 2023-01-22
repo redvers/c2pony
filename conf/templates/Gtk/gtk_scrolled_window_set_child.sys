@@ -1,0 +1,2 @@
+  fun set_child(scrolled_window': GtkScrolledWindow, child': GtkWidgetI): None =>
+    @gtk_scrolled_window_set_child(scrolled_window', child'.getptr())

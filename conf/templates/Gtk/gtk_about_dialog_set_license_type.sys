@@ -1,0 +1,2 @@
+  fun set_license_type(about': GtkAboutDialog, license_type': U32): None =>
+    @gtk_about_dialog_set_license_type(about', license_type')

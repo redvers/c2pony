@@ -1,0 +1,2 @@
+  fun ref unref_to_array(): GByteArray =>
+    GBytesP.unref_to_array(this)

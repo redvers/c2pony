@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_cell_get_size[None](tree_column': GtkTreeViewColumn, x_offset': Pointer[I32] tag, y_offset': Pointer[I32] tag, width': Pointer[I32] tag, height': Pointer[I32] tag)

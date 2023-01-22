@@ -1,0 +1,2 @@
+  fun get_stack(self': GtkStackSidebar): GtkStack =>
+    @gtk_stack_sidebar_get_stack(self')

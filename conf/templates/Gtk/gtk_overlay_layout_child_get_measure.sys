@@ -1,0 +1,2 @@
+  fun get_measure(child': GtkOverlayLayoutChild): I32 =>
+    @gtk_overlay_layout_child_get_measure(child')

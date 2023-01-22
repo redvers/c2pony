@@ -1,0 +1,2 @@
+  fun ref append(label': String, detailed_action': String): None =>
+    GMenuP.append(this, label', detailed_action')

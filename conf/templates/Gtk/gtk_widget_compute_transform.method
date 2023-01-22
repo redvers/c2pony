@@ -1,0 +1,2 @@
+  fun ref compute_transform(target': GtkWidgetI, out_transform': graphenematrixt): I32 =>
+    GtkWidgetP.compute_transform(this, target', out_transform')

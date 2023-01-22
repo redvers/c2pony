@@ -1,0 +1,2 @@
+  fun ref prepend(child': GtkWidgetI): None =>
+    GtkListBoxP.prepend(this, child')

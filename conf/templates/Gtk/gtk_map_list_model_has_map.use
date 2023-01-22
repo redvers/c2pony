@@ -1,0 +1,1 @@
+use @gtk_map_list_model_has_map[I32](self': GtkMapListModel)

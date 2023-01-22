@@ -1,0 +1,2 @@
+  fun add_pixbuf_formats(filter': GtkFileFilter): None =>
+    @gtk_file_filter_add_pixbuf_formats(filter')

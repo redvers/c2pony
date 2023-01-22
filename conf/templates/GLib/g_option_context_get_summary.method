@@ -1,0 +1,2 @@
+  fun ref get_summary(): String iso^ =>
+    GOptionContextP.get_summary(this)

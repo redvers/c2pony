@@ -1,0 +1,2 @@
+  fun new_for_file(file': GFile, size': I32, scale': I32): GtkIconPaintable =>
+    @gtk_icon_paintable_new_for_file(file', size', scale')

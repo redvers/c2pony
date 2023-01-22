@@ -1,0 +1,2 @@
+  fun ref set_icon_from_icon_name(icon_name': String): None =>
+    GtkTooltipP.set_icon_from_icon_name(this, icon_name')

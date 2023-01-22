@@ -1,0 +1,2 @@
+  fun create_widget_for_value(value': GValue): Pointer[GObjectP] =>
+@gtk_drag_icon_create_widget_for_value(value')

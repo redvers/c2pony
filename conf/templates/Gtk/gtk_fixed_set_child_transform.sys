@@ -1,0 +1,2 @@
+  fun set_child_transform(fixed': GtkFixed, widget': GtkWidgetI, transform': GskTransform): None =>
+    @gtk_fixed_set_child_transform(fixed', widget'.getptr(), transform')

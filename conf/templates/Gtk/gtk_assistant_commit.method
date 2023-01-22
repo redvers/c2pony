@@ -1,0 +1,2 @@
+  fun ref commit(): None =>
+    GtkAssistantP.commit(this)

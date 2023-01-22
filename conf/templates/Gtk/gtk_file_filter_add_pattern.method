@@ -1,0 +1,2 @@
+  fun ref add_pattern(pattern': String): None =>
+    GtkFileFilterP.add_pattern(this, pattern')

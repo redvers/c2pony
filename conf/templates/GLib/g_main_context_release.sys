@@ -1,0 +1,2 @@
+  fun release(context': GMainContext): None =>
+    @g_main_context_release(context')

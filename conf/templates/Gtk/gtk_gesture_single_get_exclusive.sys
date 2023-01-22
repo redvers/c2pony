@@ -1,0 +1,2 @@
+  fun get_exclusive(gesture': GtkGestureSingle): I32 =>
+    @gtk_gesture_single_get_exclusive(gesture')

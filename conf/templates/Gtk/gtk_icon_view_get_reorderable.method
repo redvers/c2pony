@@ -1,0 +1,2 @@
+  fun ref get_reorderable(): I32 =>
+    GtkIconViewP.get_reorderable(this)

@@ -1,0 +1,2 @@
+  fun get_abbreviation(tz': GTimeZone, interval': I32): String iso^ =>
+    String.from_cstring(@g_time_zone_get_abbreviation(tz', interval')).clone()

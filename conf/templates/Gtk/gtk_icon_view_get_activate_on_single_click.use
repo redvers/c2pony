@@ -1,0 +1,1 @@
+use @gtk_icon_view_get_activate_on_single_click[I32](icon_view': GtkIconView)

@@ -1,0 +1,2 @@
+  fun get_buffered(channel': GIOChannel): I32 =>
+    @g_io_channel_get_buffered(channel')

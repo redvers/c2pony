@@ -1,0 +1,2 @@
+  fun ref select_region(start_offset': I32, end_offset': I32): None =>
+    GtkLabelP.select_region(this, start_offset', end_offset')

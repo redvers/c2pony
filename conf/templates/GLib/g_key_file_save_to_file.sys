@@ -1,0 +1,2 @@
+  fun save_to_file(key_file': GKeyFile, filename': String, error': Pointer[GError]): I32 =>
+    @g_key_file_save_to_file(key_file', filename'.cstring(), error')

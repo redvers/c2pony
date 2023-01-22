@@ -1,0 +1,1 @@
+use @gtk_drawing_area_set_content_width[None](self': GtkDrawingArea, width': I32)

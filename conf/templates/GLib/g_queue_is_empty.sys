@@ -1,0 +1,2 @@
+  fun is_empty(queue': GQueue): I32 =>
+    @g_queue_is_empty(queue')

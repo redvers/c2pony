@@ -1,0 +1,2 @@
+  fun get_message_type(info_bar': GtkInfoBar): U32 =>
+    @gtk_info_bar_get_message_type(info_bar')

@@ -1,0 +1,2 @@
+  fun ref should_layout(): I32 =>
+    GtkWidgetP.should_layout(this)

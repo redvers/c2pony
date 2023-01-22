@@ -1,0 +1,2 @@
+  fun ref set_stdout_file_path(path': String): None =>
+    GSubprocessLauncherP.set_stdout_file_path(this, path')

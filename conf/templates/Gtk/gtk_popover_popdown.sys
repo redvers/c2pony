@@ -1,0 +1,2 @@
+  fun popdown(popover': GtkPopover): None =>
+    @gtk_popover_popdown(popover')

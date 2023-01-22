@@ -1,0 +1,2 @@
+  fun set_adjustment(button': GtkScaleButton, adjustment': GtkAdjustment): None =>
+    @gtk_scale_button_set_adjustment(button', adjustment')

@@ -1,0 +1,2 @@
+  fun ref get_member(): String iso^ =>
+    GDBusMessageP.get_member(this)

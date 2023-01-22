@@ -1,0 +1,2 @@
+  fun add_tick_callback(widget': GtkWidgetI, callback': GtkTickCallback, user_data': Pointer[None] tag, notify': GDestroyNotify): U32 =>
+    @gtk_widget_add_tick_callback(widget'.getptr(), callback', user_data', notify')

@@ -1,0 +1,2 @@
+  fun new(): GtkMultiSorter =>
+    @gtk_multi_sorter_new()

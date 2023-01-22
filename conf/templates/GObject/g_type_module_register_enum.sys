@@ -1,0 +1,2 @@
+  fun register_enum(module': GTypeModule, name': String, const_static_values': GEnumValue): U64 =>
+    @g_type_module_register_enum(module', name'.cstring(), const_static_values')

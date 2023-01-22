@@ -1,0 +1,2 @@
+  fun ref insert_interactive_at_cursor(text': String, len': I32, default_editable': I32): I32 =>
+    GtkTextBufferP.insert_interactive_at_cursor(this, text', len', default_editable')

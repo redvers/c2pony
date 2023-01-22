@@ -1,0 +1,2 @@
+  fun append_cairo(snapshot': GdkSnapshot, bounds': graphenerectt): cairo =>
+    @gtk_snapshot_append_cairo(snapshot', bounds')

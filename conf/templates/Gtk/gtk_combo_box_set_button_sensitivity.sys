@@ -1,0 +1,2 @@
+  fun set_button_sensitivity(combo_box': GtkComboBox, sensitivity': U32): None =>
+    @gtk_combo_box_set_button_sensitivity(combo_box', sensitivity')

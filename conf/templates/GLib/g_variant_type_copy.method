@@ -1,0 +1,2 @@
+  fun ref copy(): GVariantType =>
+    GVariantTypeP.copy(this)

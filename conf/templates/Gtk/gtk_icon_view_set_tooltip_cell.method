@@ -1,0 +1,2 @@
+  fun ref set_tooltip_cell(tooltip': GtkTooltip, path': GtkTreePath, cell': GtkCellRenderer): None =>
+    GtkIconViewP.set_tooltip_cell(this, tooltip', path', cell')

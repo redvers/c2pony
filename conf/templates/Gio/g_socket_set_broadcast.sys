@@ -1,0 +1,2 @@
+  fun set_broadcast(socket': GSocket, broadcast': I32): None =>
+    @g_socket_set_broadcast(socket', broadcast')

@@ -1,0 +1,2 @@
+  fun ref set_time_t(timet': I64): None =>
+    GDateP.set_time_t(this, timet')

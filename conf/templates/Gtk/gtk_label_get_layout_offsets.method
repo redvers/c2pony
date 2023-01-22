@@ -1,0 +1,2 @@
+  fun ref get_layout_offsets(x': Pointer[I32] tag, y': Pointer[I32] tag): None =>
+    GtkLabelP.get_layout_offsets(this, x', y')

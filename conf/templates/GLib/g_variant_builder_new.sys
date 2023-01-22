@@ -1,0 +1,2 @@
+  fun new(type': GVariantType): GVariantBuilder =>
+    @g_variant_builder_new(type')

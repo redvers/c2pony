@@ -1,0 +1,2 @@
+  fun set_data_full(object': GObjectI, key': String, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @g_object_set_data_full(object'.getptr(), key'.cstring(), data', destroy')

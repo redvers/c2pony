@@ -1,0 +1,1 @@
+use @gtk_text_iter_get_toggled_tags[GSList](iter': GtkTextIter, toggled_on': I32)

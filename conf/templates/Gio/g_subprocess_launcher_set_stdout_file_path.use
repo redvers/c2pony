@@ -1,0 +1,1 @@
+use @g_subprocess_launcher_set_stdout_file_path[None](self': GSubprocessLauncher, path': Pointer[U8] tag)

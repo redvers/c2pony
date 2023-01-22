@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkLayoutManagerClass
+  var ptr: NullablePointer[GtkLayoutManagerClassT]
+
+  new create(ptr': NullablePointer[GtkLayoutManagerClassT]) => ptr = ptr'

@@ -1,0 +1,2 @@
+  fun set_direction(widget': GtkWidgetI, dir': U32): None =>
+    @gtk_widget_set_direction(widget'.getptr(), dir')

@@ -1,0 +1,2 @@
+  fun ref acquire_async(cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GPermissionP.acquire_async(this, cancellable', callback', user_data')

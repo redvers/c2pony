@@ -1,0 +1,2 @@
+  fun ref set_row_baseline_position(row': I32, pos': U32): None =>
+    GtkGridLayoutP.set_row_baseline_position(this, row', pos')

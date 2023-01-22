@@ -1,0 +1,1 @@
+use @gtk_widget_get_font_options[cairofontoptions](widget': Pointer[GObjectP])

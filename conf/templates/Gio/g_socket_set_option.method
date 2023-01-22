@@ -1,0 +1,2 @@
+  fun ref set_option(level': I32, optname': I32, value': I32, error': GError): I32 =>
+    GSocketP.set_option(this, level', optname', value', error')

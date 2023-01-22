@@ -1,0 +1,2 @@
+  fun ref add_group(group': GOptionGroup): None =>
+    GOptionContextP.add_group(this, group')

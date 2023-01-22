@@ -1,0 +1,1 @@
+use @gtk_drop_target_reject[None](self': GtkDropTarget)

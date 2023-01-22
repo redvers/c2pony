@@ -1,0 +1,2 @@
+  fun ref get_gtype(): U64 =>
+    GValueP.get_gtype(this)

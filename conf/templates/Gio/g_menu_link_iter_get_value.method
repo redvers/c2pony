@@ -1,0 +1,2 @@
+  fun ref get_value(): GMenuModel =>
+    GMenuLinkIterP.get_value(this)

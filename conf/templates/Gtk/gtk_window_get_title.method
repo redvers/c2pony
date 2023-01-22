@@ -1,0 +1,2 @@
+  fun ref get_title(): String iso^ =>
+    GtkWindowP.get_title(this)

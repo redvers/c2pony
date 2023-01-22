@@ -1,0 +1,2 @@
+  fun unref(self': GtkExpression): None =>
+    @gtk_expression_unref(self')

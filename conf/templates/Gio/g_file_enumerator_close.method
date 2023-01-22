@@ -1,0 +1,2 @@
+  fun ref close(cancellable': GCancellable, error': GError): I32 =>
+    GFileEnumeratorP.close(this, cancellable', error')

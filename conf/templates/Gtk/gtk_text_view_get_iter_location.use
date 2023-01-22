@@ -1,0 +1,1 @@
+use @gtk_text_view_get_iter_location[None](text_view': GtkTextView, iter': GtkTextIter, location': cairorectangleint)

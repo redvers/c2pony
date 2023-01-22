@@ -1,0 +1,1 @@
+use @gtk_bitset_add_range_closed[None](self': GtkBitset, first': U32, last': U32)

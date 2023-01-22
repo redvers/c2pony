@@ -1,0 +1,2 @@
+  fun ref get_overwrite(): I32 =>
+    GtkTextViewP.get_overwrite(this)

@@ -1,0 +1,2 @@
+  fun ref set_max_length(length': I32): None =>
+    GtkTextP.set_max_length(this, length')

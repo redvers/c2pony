@@ -1,0 +1,1 @@
+use @gtk_assistant_commit[None](assistant': GtkAssistant)

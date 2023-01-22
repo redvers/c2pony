@@ -1,0 +1,2 @@
+  fun ref set_submenu(submenu': GMenuModel): None =>
+    GMenuItemP.set_submenu(this, submenu')

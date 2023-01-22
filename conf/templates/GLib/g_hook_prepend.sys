@@ -1,0 +1,2 @@
+  fun prepend(hook_list': GHookList, hook': GHook): None =>
+    @g_hook_prepend(hook_list', hook')

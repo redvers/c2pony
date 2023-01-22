@@ -1,0 +1,2 @@
+  fun ref get_database(): GTlsDatabase =>
+    GTlsConnectionP.get_database(this)

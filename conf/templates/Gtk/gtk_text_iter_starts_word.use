@@ -1,0 +1,1 @@
+use @gtk_text_iter_starts_word[I32](iter': GtkTextIter)

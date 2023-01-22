@@ -1,0 +1,1 @@
+use @g_scanner_scope_lookup_symbol[Pointer[None] tag](scanner': GScanner, scope_id': U32, symbol': Pointer[U8] tag)

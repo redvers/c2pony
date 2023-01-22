@@ -1,0 +1,1 @@
+use @g_datalist_id_dup_data[Pointer[None] tag](datalist': Pointer[GData], key_id': U32, dup_func': GDuplicateFunc, user_data': Pointer[None] tag)

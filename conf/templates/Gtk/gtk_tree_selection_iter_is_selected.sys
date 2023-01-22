@@ -1,0 +1,2 @@
+  fun iter_is_selected(selection': GtkTreeSelection, iter': GtkTreeIter): I32 =>
+    @gtk_tree_selection_iter_is_selected(selection', iter')

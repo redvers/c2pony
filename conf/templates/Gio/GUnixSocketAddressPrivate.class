@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GUnixSocketAddressPrivate
+  var ptr: NullablePointer[GUnixSocketAddressPrivateT]
+
+  new create(ptr': NullablePointer[GUnixSocketAddressPrivateT]) => ptr = ptr'

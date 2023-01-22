@@ -1,0 +1,2 @@
+  fun ref has_focus(): I32 =>
+    GtkWidgetP.has_focus(this)

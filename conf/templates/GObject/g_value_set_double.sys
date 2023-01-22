@@ -1,0 +1,2 @@
+  fun set_double(value': GValue, v_double': F64): None =>
+    @g_value_set_double(value', v_double')

@@ -1,0 +1,2 @@
+  fun new_file(filename': String, mode': String, error': Pointer[GError]): GIOChannel =>
+    @g_io_channel_new_file(filename'.cstring(), mode'.cstring(), error')

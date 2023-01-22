@@ -1,0 +1,1 @@
+use @gtk_im_context_filter_key[I32](context': GtkIMContext, press': I32, surface': GdkSurface, device': GdkDevice, time': U32, keycode': U32, state': U32, group': I32)

@@ -1,0 +1,2 @@
+  fun ref set_minimum_key_length(length': I32): None =>
+    GtkEntryCompletionP.set_minimum_key_length(this, length')

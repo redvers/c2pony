@@ -1,0 +1,2 @@
+  fun type_fundamental_next(): U64 =>
+    @g_type_fundamental_next()

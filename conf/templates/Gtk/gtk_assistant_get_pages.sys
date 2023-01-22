@@ -1,0 +1,2 @@
+  fun get_pages(assistant': GtkAssistant): GListModel =>
+    @gtk_assistant_get_pages(assistant')

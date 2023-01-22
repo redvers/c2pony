@@ -1,0 +1,2 @@
+  fun get_ratio(self': GtkAspectFrame): F32 =>
+    @gtk_aspect_frame_get_ratio(self')

@@ -1,0 +1,1 @@
+use @gtk_tree_selection_get_selected_rows[GList](selection': GtkTreeSelection, model': Pointer[GtkTreeModel])

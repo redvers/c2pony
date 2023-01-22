@@ -1,0 +1,2 @@
+  fun get_match_flags(regex': GRegex): U32 =>
+    @g_regex_get_match_flags(regex')

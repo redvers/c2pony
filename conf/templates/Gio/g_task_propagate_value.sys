@@ -1,0 +1,2 @@
+  fun propagate_value(task': GTask, value': GValue, error': GError): I32 =>
+    @g_task_propagate_value(task', value', addressof error'.ptr)

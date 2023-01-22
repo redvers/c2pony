@@ -1,0 +1,2 @@
+  fun ref remove(position': I32): None =>
+    GMenuP.remove(this, position')

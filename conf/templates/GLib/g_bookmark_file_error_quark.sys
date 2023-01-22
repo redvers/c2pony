@@ -1,0 +1,2 @@
+  fun error_quark(): U32 =>
+    @g_bookmark_file_error_quark()

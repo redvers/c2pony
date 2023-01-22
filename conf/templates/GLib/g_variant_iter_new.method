@@ -1,0 +1,2 @@
+  fun ref iter_new(): GVariantIter =>
+    GVariantP.iter_new(this)

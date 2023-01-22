@@ -1,0 +1,2 @@
+  fun ref get_target(): GtkConstraintTarget =>
+    GtkConstraintP.get_target(this)

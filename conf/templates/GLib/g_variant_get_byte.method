@@ -1,0 +1,2 @@
+  fun ref get_byte(): U8 =>
+    GVariantP.get_byte(this)

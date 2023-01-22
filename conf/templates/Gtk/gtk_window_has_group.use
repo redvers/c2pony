@@ -1,0 +1,1 @@
+use @gtk_window_has_group[I32](window': Pointer[GObjectP])

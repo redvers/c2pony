@@ -1,0 +1,2 @@
+  fun get_flowinfo(address': GInetSocketAddress): U32 =>
+    @g_inet_socket_address_get_flowinfo(address')

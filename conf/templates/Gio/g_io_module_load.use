@@ -1,0 +1,1 @@
+use @g_io_module_load[None](module': GIOModule)

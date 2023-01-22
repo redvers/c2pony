@@ -1,0 +1,2 @@
+  fun ref set_opacity(opacity': F64): None =>
+    GtkWidgetP.set_opacity(this, opacity')

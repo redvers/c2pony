@@ -1,0 +1,2 @@
+  fun new(group': GActionGroup, pad': GdkDevice): GtkPadController =>
+    @gtk_pad_controller_new(group', pad')

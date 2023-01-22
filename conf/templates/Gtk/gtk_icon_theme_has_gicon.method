@@ -1,0 +1,2 @@
+  fun ref has_gicon(gicon': GIcon): I32 =>
+    GtkIconThemeP.has_gicon(this, gicon')

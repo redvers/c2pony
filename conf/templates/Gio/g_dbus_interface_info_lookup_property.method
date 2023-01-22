@@ -1,0 +1,2 @@
+  fun ref lookup_property(name': String): GDBusPropertyInfo =>
+    GDBusInterfaceInfoP.lookup_property(this, name')

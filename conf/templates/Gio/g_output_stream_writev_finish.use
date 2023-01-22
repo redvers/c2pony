@@ -1,0 +1,1 @@
+use @g_output_stream_writev_finish[I32](stream': GOutputStream, result': GAsyncResult, bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]])

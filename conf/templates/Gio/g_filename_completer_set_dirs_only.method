@@ -1,0 +1,2 @@
+  fun ref set_dirs_only(dirs_only': I32): None =>
+    GFilenameCompleterP.set_dirs_only(this, dirs_only')

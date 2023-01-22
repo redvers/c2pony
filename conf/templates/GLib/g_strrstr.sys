@@ -1,0 +1,2 @@
+  fun strrstr(haystack': String, needle': String): String iso^ =>
+    String.from_cstring(@g_strrstr(haystack'.cstring(), needle'.cstring())).clone()

@@ -1,0 +1,2 @@
+  fun focus_in(context': GtkIMContext): None =>
+    @gtk_im_context_focus_in(context')

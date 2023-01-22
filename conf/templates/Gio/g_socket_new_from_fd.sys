@@ -1,0 +1,2 @@
+  fun new_from_fd(fd': I32, error': GError): GSocket =>
+    @g_socket_new_from_fd(fd', addressof error'.ptr)

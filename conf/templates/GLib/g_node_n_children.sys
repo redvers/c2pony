@@ -1,0 +1,2 @@
+  fun n_children(node': GNode): U32 =>
+    @g_node_n_children(node')

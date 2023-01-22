@@ -1,0 +1,2 @@
+  fun add_child_at_anchor(text_view': GtkTextView, child': GtkWidgetI, anchor': GtkTextChildAnchor): None =>
+    @gtk_text_view_add_child_at_anchor(text_view', child'.getptr(), anchor')

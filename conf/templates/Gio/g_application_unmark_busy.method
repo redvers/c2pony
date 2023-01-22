@@ -1,0 +1,2 @@
+  fun ref unmark_busy(): None =>
+    GApplicationP.unmark_busy(this)

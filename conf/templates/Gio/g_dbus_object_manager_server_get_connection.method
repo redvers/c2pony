@@ -1,0 +1,2 @@
+  fun ref get_connection(): GDBusConnection =>
+    GDBusObjectManagerServerP.get_connection(this)

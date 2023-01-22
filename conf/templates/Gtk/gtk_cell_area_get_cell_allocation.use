@@ -1,0 +1,1 @@
+use @gtk_cell_area_get_cell_allocation[None](area': GtkCellArea, context': GtkCellAreaContext, widget': Pointer[GObjectP], renderer': GtkCellRenderer, cell_area': cairorectangleint, allocation': cairorectangleint)

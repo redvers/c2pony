@@ -1,0 +1,2 @@
+  fun get_encoding(channel': GIOChannel): String iso^ =>
+    String.from_cstring(@g_io_channel_get_encoding(channel')).clone()

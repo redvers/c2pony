@@ -1,0 +1,1 @@
+use @g_object_get_data[Pointer[None] tag](object': Pointer[GObjectP], key': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun set_resizable(window': GtkWindowI, resizable': I32): None =>
+    @gtk_window_set_resizable(window'.getptr(), resizable')

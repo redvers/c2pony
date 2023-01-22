@@ -1,0 +1,1 @@
+use @g_io_extension_point_set_required_type[None](extension_point': GIOExtensionPoint, type': U64)

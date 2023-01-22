@@ -1,0 +1,2 @@
+  fun set_pending(stream': GInputStream, error': GError): I32 =>
+    @g_input_stream_set_pending(stream', addressof error'.ptr)

@@ -1,0 +1,2 @@
+  fun matches_only(matcher': GFileAttributeMatcher, attribute': String): I32 =>
+    @g_file_attribute_matcher_matches_only(matcher', attribute'.cstring())

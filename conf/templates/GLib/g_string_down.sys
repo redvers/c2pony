@@ -1,0 +1,2 @@
+  fun down(string': GString): GString =>
+    @g_string_down(string')

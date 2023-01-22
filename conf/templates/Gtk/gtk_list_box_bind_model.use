@@ -1,0 +1,1 @@
+use @gtk_list_box_bind_model[None](box': GtkListBox, model': GListModel, create_widget_func': GtkListBoxCreateWidgetFunc, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify)

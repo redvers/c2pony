@@ -1,0 +1,2 @@
+  fun reorder_child(notebook': GtkNotebook, child': GtkWidgetI, position': I32): None =>
+    @gtk_notebook_reorder_child(notebook', child'.getptr(), position')

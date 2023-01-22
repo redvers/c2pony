@@ -1,0 +1,1 @@
+use @gtk_tree_selection_select_range[None](selection': GtkTreeSelection, start_path': GtkTreePath, end_path': GtkTreePath)

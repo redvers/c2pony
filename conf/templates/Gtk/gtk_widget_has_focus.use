@@ -1,0 +1,1 @@
+use @gtk_widget_has_focus[I32](widget': Pointer[GObjectP])

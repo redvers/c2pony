@@ -1,0 +1,2 @@
+  fun get_socket(connection': GSocketConnection): GSocket =>
+    @g_socket_connection_get_socket(connection')

@@ -1,0 +1,1 @@
+use @g_get_current_dir[Pointer[U8]]()

@@ -1,0 +1,2 @@
+  fun dup_string(value': GVariant, length': Pointer[U64] tag): String iso^ =>
+    String.from_cstring(@g_variant_dup_string(value', length')).clone()

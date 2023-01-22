@@ -1,0 +1,2 @@
+  fun scope_remove_symbol(scanner': GScanner, scope_id': U32, symbol': String): None =>
+    @g_scanner_scope_remove_symbol(scanner', scope_id', symbol'.cstring())

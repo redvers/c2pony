@@ -1,0 +1,1 @@
+use @gtk_file_filter_add_pixbuf_formats[None](filter': GtkFileFilter)

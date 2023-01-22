@@ -1,0 +1,2 @@
+  fun ref get_context(): GMainContext =>
+    GTaskP.get_context(this)

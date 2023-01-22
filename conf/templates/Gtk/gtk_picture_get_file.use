@@ -1,0 +1,1 @@
+use @gtk_picture_get_file[GFile](self': GtkPicture)

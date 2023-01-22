@@ -1,0 +1,1 @@
+use @g_simple_action_set_state_hint[None](simple': GSimpleAction, state_hint': GVariant)

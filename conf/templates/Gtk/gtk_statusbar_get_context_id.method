@@ -1,0 +1,2 @@
+  fun ref get_context_id(context_description': String): U32 =>
+    GtkStatusbarP.get_context_id(this, context_description')

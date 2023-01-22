@@ -1,0 +1,2 @@
+  fun ref get_application_info(app_name': String, app_exec': Pointer[Pointer[U8]] tag, count': Pointer[U32] tag, stamp': Pointer[GDateTime]): I32 =>
+    GtkRecentInfoP.get_application_info(this, app_name', app_exec', count', stamp')

@@ -1,0 +1,2 @@
+  fun unicode_script_from_iso15924(iso15924': U32): I32 =>
+    @g_unicode_script_from_iso15924(iso15924')

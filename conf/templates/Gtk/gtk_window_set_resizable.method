@@ -1,0 +1,2 @@
+  fun ref set_resizable(resizable': I32): None =>
+    GtkWindowP.set_resizable(this, resizable')

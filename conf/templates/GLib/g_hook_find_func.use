@@ -1,0 +1,1 @@
+use @g_hook_find_func[GHook](hook_list': GHookList, need_valids': I32, func': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun start(server': GDBusServer): None =>
+    @g_dbus_server_start(server')

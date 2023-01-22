@@ -1,0 +1,2 @@
+  fun ref lookup_certificate_issuer_finish(result': GAsyncResult, error': GError): GTlsCertificate =>
+    GTlsDatabaseP.lookup_certificate_issuer_finish(this, result', error')

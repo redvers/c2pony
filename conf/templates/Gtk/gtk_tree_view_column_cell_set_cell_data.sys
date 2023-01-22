@@ -1,0 +1,2 @@
+  fun cell_set_cell_data(tree_column': GtkTreeViewColumn, tree_model': GtkTreeModel, iter': GtkTreeIter, is_expander': I32, is_expanded': I32): None =>
+    @gtk_tree_view_column_cell_set_cell_data(tree_column', tree_model', iter', is_expander', is_expanded')

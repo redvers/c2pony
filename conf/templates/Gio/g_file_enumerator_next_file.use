@@ -1,0 +1,1 @@
+use @g_file_enumerator_next_file[GFileInfo](enumerator': GFileEnumerator, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

@@ -1,0 +1,2 @@
+  fun get_xalign(self': GtkLabel): F32 =>
+    @gtk_label_get_xalign(self')

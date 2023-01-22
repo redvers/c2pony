@@ -1,0 +1,2 @@
+  fun get_invisible_char(self': GtkText): U32 =>
+    @gtk_text_get_invisible_char(self')

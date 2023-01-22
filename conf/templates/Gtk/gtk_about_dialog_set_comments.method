@@ -1,0 +1,2 @@
+  fun ref set_comments(comments': String): None =>
+    GtkAboutDialogP.set_comments(this, comments')

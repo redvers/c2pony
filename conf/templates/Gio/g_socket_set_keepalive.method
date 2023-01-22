@@ -1,0 +1,2 @@
+  fun ref set_keepalive(keepalive': I32): None =>
+    GSocketP.set_keepalive(this, keepalive')

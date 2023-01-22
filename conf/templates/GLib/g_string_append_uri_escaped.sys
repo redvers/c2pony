@@ -1,0 +1,2 @@
+  fun append_uri_escaped(string': GString, unescaped': String, reserved_chars_allowed': String, allow_utf8': I32): GString =>
+    @g_string_append_uri_escaped(string', unescaped'.cstring(), reserved_chars_allowed'.cstring(), allow_utf8')

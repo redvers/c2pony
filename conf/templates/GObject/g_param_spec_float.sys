@@ -1,0 +1,2 @@
+  fun param_spec_float(name': String, nick': String, blurb': String, minimum': F32, maximum': F32, default_value': F32, flags': I32): GParamSpec =>
+    @g_param_spec_float(name'.cstring(), nick'.cstring(), blurb'.cstring(), minimum', maximum', default_value', flags')

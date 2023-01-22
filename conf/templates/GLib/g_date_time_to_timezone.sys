@@ -1,0 +1,2 @@
+  fun to_timezone(datetime': GDateTime, tz': GTimeZone): GDateTime =>
+    @g_date_time_to_timezone(datetime', tz')

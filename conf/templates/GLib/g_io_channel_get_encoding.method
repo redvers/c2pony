@@ -1,0 +1,2 @@
+  fun ref get_encoding(): String iso^ =>
+    GIOChannelP.get_encoding(this)

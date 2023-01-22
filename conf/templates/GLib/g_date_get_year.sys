@@ -1,0 +1,2 @@
+  fun get_year(date': GDate): U16 =>
+    @g_date_get_year(date')

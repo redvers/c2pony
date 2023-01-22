@@ -1,0 +1,2 @@
+  fun set_response_sensitive(info_bar': GtkInfoBar, response_id': I32, setting': I32): None =>
+    @gtk_info_bar_set_response_sensitive(info_bar', response_id', setting')

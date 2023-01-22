@@ -1,0 +1,2 @@
+  fun get_cancellable(task': GTask): GCancellable =>
+    @g_task_get_cancellable(task')

@@ -1,0 +1,2 @@
+  fun factory_lookup_type(family': U32, type': U32, protocol_id': I32): U64 =>
+    @g_socket_connection_factory_lookup_type(family', type', protocol_id')

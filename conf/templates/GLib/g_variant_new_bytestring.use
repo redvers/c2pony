@@ -1,0 +1,1 @@
+use @g_variant_new_bytestring[GVariant](string': Pointer[U8] tag)

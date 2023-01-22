@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GDir
+  var ptr: NullablePointer[GDirT]
+
+  new create(ptr': NullablePointer[GDirT]) => ptr = ptr'

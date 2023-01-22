@@ -1,0 +1,2 @@
+  fun new_from_file(file': String, error': GError): GTlsCertificate =>
+    @g_tls_certificate_new_from_file(file'.cstring(), addressof error'.ptr)

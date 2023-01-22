@@ -1,0 +1,2 @@
+  fun insert_page(assistant': GtkAssistant, page': GtkWidgetI, position': I32): I32 =>
+    @gtk_assistant_insert_page(assistant', page'.getptr(), position')

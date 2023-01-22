@@ -1,0 +1,2 @@
+  fun broadcast(cond': GCond): None =>
+    @g_cond_broadcast(cond')

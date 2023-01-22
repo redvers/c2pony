@@ -1,0 +1,2 @@
+  fun get_last_updated_sequence(gesture': GtkGesture): GdkEventSequence =>
+    @gtk_gesture_get_last_updated_sequence(gesture')

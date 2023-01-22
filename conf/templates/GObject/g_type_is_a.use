@@ -1,0 +1,1 @@
+use @g_type_is_a[I32](type': U64, is_a_type': U64)

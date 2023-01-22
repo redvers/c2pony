@@ -1,0 +1,2 @@
+  fun send_signal(subprocess': GSubprocess, signal_num': I32): None =>
+    @g_subprocess_send_signal(subprocess', signal_num')

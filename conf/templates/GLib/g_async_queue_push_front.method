@@ -1,0 +1,2 @@
+  fun ref push_front(item': Pointer[None] tag): None =>
+    GAsyncQueueP.push_front(this, item')

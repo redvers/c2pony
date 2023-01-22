@@ -1,0 +1,1 @@
+use @g_object_class_list_properties[Pointer[GParamSpec]](oclass': GObjectClass, n_properties': Pointer[U32] tag)

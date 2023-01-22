@@ -1,0 +1,2 @@
+  fun ref get_element(): String iso^ =>
+    GtkBuildableParseContextP.get_element(this)

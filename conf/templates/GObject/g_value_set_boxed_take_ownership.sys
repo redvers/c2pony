@@ -1,0 +1,2 @@
+  fun set_boxed_take_ownership(value': GValue, v_boxed': Pointer[None] tag): None =>
+    @g_value_set_boxed_take_ownership(value', v_boxed')

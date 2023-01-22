@@ -1,0 +1,2 @@
+  fun ref get_pages(): GtkSelectionModel =>
+    GtkStackP.get_pages(this)

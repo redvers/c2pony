@@ -1,0 +1,1 @@
+use @g_match_info_fetch_all[Pointer[Pointer[U8]] tag](match_info': GMatchInfo)

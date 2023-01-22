@@ -1,0 +1,2 @@
+  fun get_editing(self': GtkEditableLabel): I32 =>
+    @gtk_editable_label_get_editing(self')

@@ -1,0 +1,2 @@
+  fun is_empty(seq': GSequence): I32 =>
+    @g_sequence_is_empty(seq')

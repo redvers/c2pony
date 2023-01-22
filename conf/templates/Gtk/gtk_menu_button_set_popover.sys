@@ -1,0 +1,2 @@
+  fun set_popover(menu_button': GtkMenuButton, popover': GtkWidgetI): None =>
+    @gtk_menu_button_set_popover(menu_button', popover'.getptr())

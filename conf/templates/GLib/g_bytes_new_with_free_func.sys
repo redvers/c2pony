@@ -1,0 +1,2 @@
+  fun new_with_free_func(data': Pointer[None] tag, size': U64, free_func': GDestroyNotify, user_data': Pointer[None] tag): GBytes =>
+    @g_bytes_new_with_free_func(data', size', free_func', user_data')

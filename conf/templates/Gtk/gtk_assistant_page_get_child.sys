@@ -1,0 +1,2 @@
+  fun get_child(page': GtkAssistantPage): Pointer[GObjectP] =>
+@gtk_assistant_page_get_child(page')

@@ -1,0 +1,2 @@
+  fun set_invert(self': GtkBoolFilter, invert': I32): None =>
+    @gtk_bool_filter_set_invert(self', invert')

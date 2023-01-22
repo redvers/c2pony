@@ -1,0 +1,2 @@
+  fun ref get_license(): String iso^ =>
+    GtkAboutDialogP.get_license(this)

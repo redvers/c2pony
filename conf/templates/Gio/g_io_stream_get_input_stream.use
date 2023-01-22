@@ -1,0 +1,1 @@
+use @g_io_stream_get_input_stream[GInputStream](stream': GIOStream)

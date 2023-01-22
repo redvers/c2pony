@@ -1,0 +1,2 @@
+  fun set_title(button': GtkColorButton, title': String): None =>
+    @gtk_color_button_set_title(button', title'.cstring())

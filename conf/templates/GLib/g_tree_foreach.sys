@@ -1,0 +1,2 @@
+  fun foreach(tree': GTree, func': GTraverseFunc, user_data': Pointer[None] tag): None =>
+    @g_tree_foreach(tree', func', user_data')

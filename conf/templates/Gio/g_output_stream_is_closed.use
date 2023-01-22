@@ -1,0 +1,1 @@
+use @g_output_stream_is_closed[I32](stream': GOutputStream)

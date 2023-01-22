@@ -1,0 +1,1 @@
+use @g_data_output_stream_set_byte_order[None](stream': GDataOutputStream, order': U32)

@@ -1,0 +1,2 @@
+  fun ref evaluate(value': GValue): I32 =>
+    GtkExpressionWatchP.evaluate(this, value')

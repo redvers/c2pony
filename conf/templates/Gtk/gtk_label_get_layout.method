@@ -1,0 +1,2 @@
+  fun ref get_layout(): PangoLayout =>
+    GtkLabelP.get_layout(this)

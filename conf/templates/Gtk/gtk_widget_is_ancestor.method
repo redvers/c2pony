@@ -1,0 +1,2 @@
+  fun ref is_ancestor(ancestor': GtkWidgetI): I32 =>
+    GtkWidgetP.is_ancestor(this, ancestor')

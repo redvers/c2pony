@@ -1,0 +1,2 @@
+  fun get_is_mc_org_local(address': GInetAddress): I32 =>
+    @g_inet_address_get_is_mc_org_local(address')

@@ -1,0 +1,2 @@
+  fun set_groups(bookmark': GBookmarkFile, uri': String, groups': Pointer[Pointer[U8]] tag, length': U64): None =>
+    @g_bookmark_file_set_groups(bookmark', uri'.cstring(), groups', length')

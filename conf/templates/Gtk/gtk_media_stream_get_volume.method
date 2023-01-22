@@ -1,0 +1,2 @@
+  fun ref get_volume(): F64 =>
+    GtkMediaStreamP.get_volume(this)

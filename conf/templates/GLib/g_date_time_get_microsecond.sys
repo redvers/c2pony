@@ -1,0 +1,2 @@
+  fun get_microsecond(datetime': GDateTime): I32 =>
+    @g_date_time_get_microsecond(datetime')

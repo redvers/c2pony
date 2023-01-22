@@ -1,0 +1,2 @@
+  fun get_pointing_to(popover': GtkPopover, rect': cairorectangleint): I32 =>
+    @gtk_popover_get_pointing_to(popover', rect')

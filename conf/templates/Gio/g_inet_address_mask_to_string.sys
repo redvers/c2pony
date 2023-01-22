@@ -1,0 +1,2 @@
+  fun to_string(mask': GInetAddressMask): String iso^ =>
+    String.from_cstring(@g_inet_address_mask_to_string(mask')).clone()

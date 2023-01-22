@@ -1,0 +1,2 @@
+  fun ref query_action(index': U32, owner': Pointer[U64] tag, action_name': Pointer[Pointer[U8]] tag, parameter_type': Pointer[GVariantType], property_name': Pointer[Pointer[U8]] tag): I32 =>
+    GtkWidgetClassP.query_action(this, index', owner', action_name', parameter_type', property_name')

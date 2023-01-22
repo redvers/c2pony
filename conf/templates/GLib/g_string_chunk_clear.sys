@@ -1,0 +1,2 @@
+  fun clear(chunk': GStringChunk): None =>
+    @g_string_chunk_clear(chunk')

@@ -1,0 +1,2 @@
+  fun ref set_day(day': U8): None =>
+    GDateP.set_day(this, day')

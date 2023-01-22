@@ -1,0 +1,1 @@
+use @gtk_expression_bind[GtkExpressionWatch](self': GtkExpression, target': Pointer[None] tag, property': Pointer[U8] tag, this': Pointer[None] tag)

@@ -1,0 +1,1 @@
+use @g_type_module_set_name[None](module': GTypeModule, name': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun ref key(): GVariantType =>
+    GVariantTypeP.key(this)

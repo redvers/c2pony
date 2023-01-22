@@ -1,0 +1,2 @@
+  fun get_output_stream(stream': GIOStream): GOutputStream =>
+    @g_io_stream_get_output_stream(stream')

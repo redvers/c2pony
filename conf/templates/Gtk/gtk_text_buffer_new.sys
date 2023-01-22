@@ -1,0 +1,2 @@
+  fun new(table': GtkTextTagTable): GtkTextBuffer =>
+    @gtk_text_buffer_new(table')

@@ -1,0 +1,2 @@
+  fun ref get_menu_model(): GMenuModel =>
+    GtkPopoverMenuP.get_menu_model(this)

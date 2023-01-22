@@ -1,0 +1,2 @@
+  fun ref get_default_left_margin(unit': U32): F64 =>
+    GtkPaperSizeP.get_default_left_margin(this, unit')

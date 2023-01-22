@@ -1,0 +1,1 @@
+use @gtk_print_run_page_setup_dialog[GtkPageSetup](parent': Pointer[GObjectP], page_setup': GtkPageSetup, settings': GtkPrintSettings)

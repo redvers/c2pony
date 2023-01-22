@@ -1,0 +1,2 @@
+  fun union(self': GtkBitset, other': GtkBitset): None =>
+    @gtk_bitset_union(self', other')

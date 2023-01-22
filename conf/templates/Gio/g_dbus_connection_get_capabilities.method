@@ -1,0 +1,2 @@
+  fun ref get_capabilities(): U32 =>
+    GDBusConnectionP.get_capabilities(this)

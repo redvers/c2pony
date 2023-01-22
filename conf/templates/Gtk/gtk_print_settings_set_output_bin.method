@@ -1,0 +1,2 @@
+  fun ref set_output_bin(output_bin': String): None =>
+    GtkPrintSettingsP.set_output_bin(this, output_bin')

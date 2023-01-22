@@ -1,0 +1,2 @@
+  fun ref get_selected_children(): GList =>
+    GtkFlowBoxP.get_selected_children(this)

@@ -1,0 +1,2 @@
+  fun move(fixed': GtkFixed, widget': GtkWidgetI, x': F64, y': F64): None =>
+    @gtk_fixed_move(fixed', widget'.getptr(), x', y')

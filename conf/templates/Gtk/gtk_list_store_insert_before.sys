@@ -1,0 +1,2 @@
+  fun insert_before(list_store': GtkListStore, iter': GtkTreeIter, sibling': GtkTreeIter): None =>
+    @gtk_list_store_insert_before(list_store', iter', sibling')

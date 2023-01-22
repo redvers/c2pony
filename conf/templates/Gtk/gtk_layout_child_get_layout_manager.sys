@@ -1,0 +1,2 @@
+  fun get_layout_manager(layout_child': GtkLayoutChild): GtkLayoutManager =>
+    @gtk_layout_child_get_layout_manager(layout_child')

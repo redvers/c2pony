@@ -1,0 +1,2 @@
+  fun rewind(dir': GDir): None =>
+    @g_dir_rewind(dir')

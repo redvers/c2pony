@@ -1,0 +1,2 @@
+  fun set_urgent(notification': GNotification, urgent': I32): None =>
+    @g_notification_set_urgent(notification', urgent')

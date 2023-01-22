@@ -1,0 +1,1 @@
+use @g_ascii_strtod[F64](nptr': Pointer[U8] tag, endptr': Pointer[Pointer[U8]] tag)

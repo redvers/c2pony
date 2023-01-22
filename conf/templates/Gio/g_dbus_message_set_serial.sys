@@ -1,0 +1,2 @@
+  fun set_serial(message': GDBusMessage, serial': U32): None =>
+    @g_dbus_message_set_serial(message', serial')

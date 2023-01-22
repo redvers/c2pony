@@ -1,0 +1,2 @@
+  fun ref set_propagation_limit(limit': U32): None =>
+    GtkEventControllerP.set_propagation_limit(this, limit')

@@ -1,0 +1,2 @@
+  fun ref set_visibility(visible': I32): None =>
+    GtkTextP.set_visibility(this, visible')

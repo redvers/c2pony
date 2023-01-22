@@ -1,0 +1,1 @@
+use @gtk_notebook_reorder_child[None](notebook': GtkNotebook, child': Pointer[GObjectP], position': I32)

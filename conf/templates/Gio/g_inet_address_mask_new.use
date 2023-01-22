@@ -1,0 +1,1 @@
+use @g_inet_address_mask_new[GInetAddressMask](addr': GInetAddress, length': U32, error': Pointer[NullablePointer[GErrorT]])

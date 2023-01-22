@@ -1,0 +1,2 @@
+  fun ref add_weeks(weeks': I32): GDateTime =>
+    GDateTimeP.add_weeks(this, weeks')

@@ -1,0 +1,1 @@
+use @gtk_frame_set_child[None](frame': GtkFrame, child': Pointer[GObjectP])

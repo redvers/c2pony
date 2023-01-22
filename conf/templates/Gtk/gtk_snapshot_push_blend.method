@@ -1,0 +1,2 @@
+  fun ref push_blend(blend_mode': U32): None =>
+    P.push_blend(this, blend_mode')

@@ -1,0 +1,2 @@
+  fun signal_get_invocation_hint(instance': Pointer[None] tag): GSignalInvocationHint =>
+    @g_signal_get_invocation_hint(instance')

@@ -1,0 +1,1 @@
+use @gtk_entry_set_progress_pulse_step[None](entry': GtkEntry, fraction': F64)

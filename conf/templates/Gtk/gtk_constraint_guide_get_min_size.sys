@@ -1,0 +1,2 @@
+  fun get_min_size(guide': GtkConstraintGuide, width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
+    @gtk_constraint_guide_get_min_size(guide', width', height')

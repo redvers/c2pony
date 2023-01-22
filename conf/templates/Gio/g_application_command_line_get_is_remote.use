@@ -1,0 +1,1 @@
+use @g_application_command_line_get_is_remote[I32](cmdline': GApplicationCommandLine)

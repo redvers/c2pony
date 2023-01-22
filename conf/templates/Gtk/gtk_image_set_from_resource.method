@@ -1,0 +1,2 @@
+  fun ref set_from_resource(resource_path': String): None =>
+    GtkImageP.set_from_resource(this, resource_path')

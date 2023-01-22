@@ -1,0 +1,1 @@
+use @gtk_popover_menu_bar_add_child[I32](bar': GtkPopoverMenuBar, child': Pointer[GObjectP], id': Pointer[U8] tag)

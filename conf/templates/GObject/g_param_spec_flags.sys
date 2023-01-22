@@ -1,0 +1,2 @@
+  fun param_spec_flags(name': String, nick': String, blurb': String, flags_type': U64, default_value': U32, flags': I32): GParamSpec =>
+    @g_param_spec_flags(name'.cstring(), nick'.cstring(), blurb'.cstring(), flags_type', default_value', flags')

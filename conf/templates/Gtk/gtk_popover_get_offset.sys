@@ -1,0 +1,2 @@
+  fun get_offset(popover': GtkPopover, x_offset': Pointer[I32] tag, y_offset': Pointer[I32] tag): None =>
+    @gtk_popover_get_offset(popover', x_offset', y_offset')

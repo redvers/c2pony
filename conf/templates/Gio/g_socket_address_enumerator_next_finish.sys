@@ -1,0 +1,2 @@
+  fun next_finish(enumerator': GSocketAddressEnumerator, result': GAsyncResult, error': GError): GSocketAddress =>
+    @g_socket_address_enumerator_next_finish(enumerator', result', addressof error'.ptr)

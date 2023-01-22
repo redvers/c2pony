@@ -1,0 +1,2 @@
+  fun ref unprepared(): None =>
+    GtkMediaStreamP.unprepared(this)

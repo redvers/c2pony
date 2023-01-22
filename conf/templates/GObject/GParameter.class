@@ -1,0 +1,8 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GParameter
+  var ptr: NullablePointer[GParameterT]
+
+  new create(ptr': NullablePointer[GParameterT]) => ptr = ptr'

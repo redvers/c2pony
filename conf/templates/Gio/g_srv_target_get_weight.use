@@ -1,0 +1,1 @@
+use @g_srv_target_get_weight[U16](target': GSrvTarget)

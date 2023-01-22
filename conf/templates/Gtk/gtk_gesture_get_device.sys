@@ -1,0 +1,2 @@
+  fun get_device(gesture': GtkGesture): GdkDevice =>
+    @gtk_gesture_get_device(gesture')

@@ -1,0 +1,2 @@
+  fun type_get_type_registration_serial(): U32 =>
+    @g_type_get_type_registration_serial()

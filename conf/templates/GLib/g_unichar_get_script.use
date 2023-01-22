@@ -1,0 +1,1 @@
+use @g_unichar_get_script[I32](ch': U32)

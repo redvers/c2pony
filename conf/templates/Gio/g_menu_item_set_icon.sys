@@ -1,0 +1,2 @@
+  fun set_icon(menu_item': GMenuItem, icon': GIcon): None =>
+    @g_menu_item_set_icon(menu_item', icon')

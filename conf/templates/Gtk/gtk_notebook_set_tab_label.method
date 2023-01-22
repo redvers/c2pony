@@ -1,0 +1,2 @@
+  fun ref set_tab_label(child': GtkWidgetI, tab_label': GtkWidgetI): None =>
+    GtkNotebookP.set_tab_label(this, child', tab_label')

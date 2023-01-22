@@ -1,0 +1,2 @@
+  fun ref register_type(parent_type': U64, type_name': String, type_info': GTypeInfo, flags': U32): U64 =>
+    GTypeModuleP.register_type(this, parent_type', type_name', type_info', flags')

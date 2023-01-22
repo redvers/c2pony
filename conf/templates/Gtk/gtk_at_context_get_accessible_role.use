@@ -1,0 +1,1 @@
+use @gtk_at_context_get_accessible_role[U32](self': GtkATContext)

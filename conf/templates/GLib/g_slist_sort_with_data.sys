@@ -1,0 +1,2 @@
+  fun sort_with_data(list': GSList, compare_func': GCompareDataFunc, user_data': Pointer[None] tag): GSList =>
+    @g_slist_sort_with_data(list', compare_func', user_data')

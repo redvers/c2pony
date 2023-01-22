@@ -1,0 +1,2 @@
+  fun ref(context': GMainContext): GMainContext =>
+    @g_main_context_ref(context')

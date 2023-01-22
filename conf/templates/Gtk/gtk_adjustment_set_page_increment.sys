@@ -1,0 +1,2 @@
+  fun set_page_increment(adjustment': GtkAdjustment, page_increment': F64): None =>
+    @gtk_adjustment_set_page_increment(adjustment', page_increment')

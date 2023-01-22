@@ -1,0 +1,1 @@
+use @g_pollable_source_new[GSource](pollable_stream': Pointer[GObjectP])

@@ -1,0 +1,2 @@
+  fun get_background_area(tree_view': GtkTreeView, path': GtkTreePath, column': GtkTreeViewColumn, rect': cairorectangleint): None =>
+    @gtk_tree_view_get_background_area(tree_view', path', column', rect')

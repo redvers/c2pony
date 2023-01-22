@@ -1,0 +1,2 @@
+  fun is_visible(widget': GtkWidgetI): I32 =>
+    @gtk_widget_is_visible(widget'.getptr())

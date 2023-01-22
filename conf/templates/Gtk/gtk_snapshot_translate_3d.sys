@@ -1,0 +1,2 @@
+  fun translate_3d(snapshot': GdkSnapshot, point': graphenepoint3dt): None =>
+    @gtk_snapshot_translate_3d(snapshot', point')

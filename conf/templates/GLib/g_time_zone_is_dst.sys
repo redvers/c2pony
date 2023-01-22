@@ -1,0 +1,2 @@
+  fun is_dst(tz': GTimeZone, interval': I32): I32 =>
+    @g_time_zone_is_dst(tz', interval')

@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    struct GtkRequestedSizeT
+  var data': Pointer[None] = Pointer[None]
+  var minimum_size': I32 = I32(0)
+  var natural_size': I32 = I32(0)

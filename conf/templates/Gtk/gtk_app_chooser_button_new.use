@@ -1,0 +1,1 @@
+use @gtk_app_chooser_button_new[Pointer[GObjectP]](content_type': Pointer[U8] tag)

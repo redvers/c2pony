@@ -1,0 +1,2 @@
+  fun is_exported(manager': GDBusObjectManagerServer, object': GDBusObjectSkeleton): I32 =>
+    @g_dbus_object_manager_server_is_exported(manager', object')

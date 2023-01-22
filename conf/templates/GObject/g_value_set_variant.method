@@ -1,0 +1,2 @@
+  fun ref set_variant(variant': GVariant): None =>
+    GValueP.set_variant(this, variant')

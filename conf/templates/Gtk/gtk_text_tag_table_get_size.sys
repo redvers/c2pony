@@ -1,0 +1,2 @@
+  fun get_size(table': GtkTextTagTable): I32 =>
+    @gtk_text_tag_table_get_size(table')

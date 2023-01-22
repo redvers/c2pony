@@ -1,0 +1,2 @@
+  fun ref get_show_expanders(): I32 =>
+    GtkTreeViewP.get_show_expanders(this)

@@ -1,0 +1,2 @@
+  fun ref set_clip_overlay(widget': GtkWidgetI, clip_overlay': I32): None =>
+    GtkOverlayP.set_clip_overlay(this, widget', clip_overlay')

@@ -1,0 +1,2 @@
+  fun get_cached_property_names(proxy': GDBusProxy): Pointer[Pointer[U8]] tag =>
+    @g_dbus_proxy_get_cached_property_names(proxy')

@@ -1,0 +1,2 @@
+  fun emit_accept_certificate(conn': GTlsConnection, peer_cert': GTlsCertificate, errors': U32): I32 =>
+    @g_tls_connection_emit_accept_certificate(conn', peer_cert', errors')

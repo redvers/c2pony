@@ -1,0 +1,1 @@
+use @gtk_tree_store_insert_with_valuesv[None](tree_store': GtkTreeStore, iter': GtkTreeIter, parent': GtkTreeIter, position': I32, columns': Pointer[I32] tag, values': GValue, n_values': I32)

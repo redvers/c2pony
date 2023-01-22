@@ -1,0 +1,2 @@
+  fun set_adjustment(self': GtkScrollbar, adjustment': GtkAdjustment): None =>
+    @gtk_scrollbar_set_adjustment(self', adjustment')

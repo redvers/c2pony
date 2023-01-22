@@ -1,0 +1,1 @@
+use @gtk_grid_layout_child_get_column_span[I32](child': GtkGridLayoutChild)

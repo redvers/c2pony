@@ -1,0 +1,1 @@
+use @gtk_lock_button_new[Pointer[GObjectP]](permission': GPermission)

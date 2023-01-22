@@ -1,0 +1,2 @@
+  fun speaks_ipv4(socket': GSocket): I32 =>
+    @g_socket_speaks_ipv4(socket')

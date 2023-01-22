@@ -1,0 +1,2 @@
+  fun get_connected_drives(volume_monitor': GVolumeMonitor): GList =>
+    @g_volume_monitor_get_connected_drives(volume_monitor')

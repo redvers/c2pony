@@ -1,0 +1,2 @@
+  fun ref get_connection(): GDBusConnection =>
+    GDBusProxyP.get_connection(this)

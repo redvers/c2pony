@@ -1,0 +1,1 @@
+use @g_thread_exit[None](retval': Pointer[None] tag)

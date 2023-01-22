@@ -1,0 +1,2 @@
+  fun get_host_name(): String iso^ =>
+    String.from_cstring(@g_get_host_name()).clone()

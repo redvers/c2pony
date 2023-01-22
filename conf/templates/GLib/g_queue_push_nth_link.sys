@@ -1,0 +1,2 @@
+  fun push_nth_link(queue': GQueue, n': I32, link': GList): None =>
+    @g_queue_push_nth_link(queue', n', link')

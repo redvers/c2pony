@@ -1,0 +1,2 @@
+  fun ref get_baseline_position(): U32 =>
+    GtkCenterLayoutP.get_baseline_position(this)

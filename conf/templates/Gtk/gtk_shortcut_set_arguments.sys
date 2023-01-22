@@ -1,0 +1,2 @@
+  fun set_arguments(self': GtkShortcut, args': GVariant): None =>
+    @gtk_shortcut_set_arguments(self', args')

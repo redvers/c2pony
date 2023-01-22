@@ -1,0 +1,2 @@
+  fun set_state(self': GtkSwitch, state': I32): None =>
+    @gtk_switch_set_state(self', state')

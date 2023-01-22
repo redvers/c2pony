@@ -1,0 +1,1 @@
+use @gtk_mount_operation_new[GMountOperation](parent': Pointer[GObjectP])

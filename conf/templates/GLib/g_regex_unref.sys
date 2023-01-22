@@ -1,0 +1,2 @@
+  fun unref(regex': GRegex): None =>
+    @g_regex_unref(regex')

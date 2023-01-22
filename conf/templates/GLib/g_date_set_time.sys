@@ -1,0 +1,2 @@
+  fun set_time(date': GDate, time': I32): None =>
+    @g_date_set_time(date', time')

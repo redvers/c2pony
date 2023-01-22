@@ -1,0 +1,2 @@
+  fun load_from_data(key_file': GKeyFile, data': String, length': U64, flags': U32, error': Pointer[GError]): I32 =>
+    @g_key_file_load_from_data(key_file', data'.cstring(), length', flags', error')

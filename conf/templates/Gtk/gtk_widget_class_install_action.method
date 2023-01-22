@@ -1,0 +1,2 @@
+  fun ref install_action(action_name': String, parameter_type': String, activate': GtkWidgetActionActivateFunc): None =>
+    GtkWidgetClassP.install_action(this, action_name', parameter_type', activate')

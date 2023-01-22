@@ -1,0 +1,2 @@
+  fun new(schema_id': String): GSettings =>
+    @g_settings_new(schema_id'.cstring())

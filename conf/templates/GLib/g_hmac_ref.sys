@@ -1,0 +1,2 @@
+  fun ref(hmac': GHmac): GHmac =>
+    @g_hmac_ref(hmac')

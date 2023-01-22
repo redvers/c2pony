@@ -1,0 +1,1 @@
+use @g_socket_receive_message[I64](socket': GSocket, address': Pointer[GSocketAddress], vectors': GInputVector, num_vectors': I32, messages': Pointer[Pointer[GSocketControlMessage]], num_messages': Pointer[I32] tag, flags': Pointer[I32] tag, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

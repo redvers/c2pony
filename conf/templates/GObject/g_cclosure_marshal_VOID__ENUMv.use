@@ -1,0 +1,1 @@
+use @g_cclosure_marshal_VOID__ENUMv[None](closure': GClosure, return_value': GValue, instance': Pointer[None] tag, args': valisttag, marshal_data': Pointer[None] tag, n_params': I32, param_types': Pointer[U64] tag)

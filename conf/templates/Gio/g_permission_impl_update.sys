@@ -1,0 +1,2 @@
+  fun impl_update(permission': GPermission, allowed': I32, can_acquire': I32, can_release': I32): None =>
+    @g_permission_impl_update(permission', allowed', can_acquire', can_release')

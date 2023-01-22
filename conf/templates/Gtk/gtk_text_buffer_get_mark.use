@@ -1,0 +1,1 @@
+use @gtk_text_buffer_get_mark[GtkTextMark](buffer': GtkTextBuffer, name': Pointer[U8] tag)

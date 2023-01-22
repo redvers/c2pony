@@ -1,0 +1,2 @@
+  fun ref set_visited_date_time(uri': String, visited': GDateTime): None =>
+    GBookmarkFileP.set_visited_date_time(this, uri', visited')

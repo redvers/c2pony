@@ -1,0 +1,2 @@
+  fun ref get_child(): Pointer[GObjectP] =>
+    GtkTreeExpanderP.get_child(this)

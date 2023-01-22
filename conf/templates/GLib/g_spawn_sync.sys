@@ -1,0 +1,2 @@
+  fun spawn_sync(working_directory': String, argv': Pointer[Pointer[U8]] tag, envp': Pointer[Pointer[U8]] tag, flags': U32, child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, standard_output': Pointer[Pointer[U8]] tag, standard_error': Pointer[Pointer[U8]] tag, wait_status': Pointer[I32] tag, error': Pointer[GError]): I32 =>
+    @g_spawn_sync(working_directory'.cstring(), argv', envp', flags', child_setup', user_data', standard_output', standard_error', wait_status', error')

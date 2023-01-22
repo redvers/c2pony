@@ -1,0 +1,2 @@
+  fun signal_handler_find(instance': Pointer[None] tag, mask': U32, signal_id': U32, detail': U32, closure': GClosure, func': Pointer[None] tag, data': Pointer[None] tag): U64 =>
+    @g_signal_handler_find(instance', mask', signal_id', detail', closure', func', data')

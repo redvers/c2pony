@@ -1,0 +1,2 @@
+  fun set_close_base_stream(stream': GFilterOutputStream, close_base': I32): None =>
+    @g_filter_output_stream_set_close_base_stream(stream', close_base')

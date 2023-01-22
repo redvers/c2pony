@@ -1,0 +1,2 @@
+  fun set_cached_property(proxy': GDBusProxy, property_name': String, value': GVariant): None =>
+    @g_dbus_proxy_set_cached_property(proxy', property_name'.cstring(), value')

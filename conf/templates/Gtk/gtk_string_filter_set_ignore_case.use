@@ -1,0 +1,1 @@
+use @gtk_string_filter_set_ignore_case[None](self': GtkStringFilter, ignore_case': I32)

@@ -1,0 +1,2 @@
+  fun ref create_context(): GtkCellAreaContext =>
+    GtkCellAreaP.create_context(this)

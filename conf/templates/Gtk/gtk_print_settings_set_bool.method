@@ -1,0 +1,2 @@
+  fun ref set_bool(key': String, value': I32): None =>
+    GtkPrintSettingsP.set_bool(this, key', value')

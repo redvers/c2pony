@@ -1,0 +1,2 @@
+  fun call(proxy': GDBusProxy, method_name': String, parameters': GVariant, flags': U32, timeout_msec': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_proxy_call(proxy', method_name'.cstring(), parameters', flags', timeout_msec', cancellable', callback', user_data')

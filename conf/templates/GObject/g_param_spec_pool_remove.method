@@ -1,0 +1,2 @@
+  fun ref remove(pspec': GParamSpec): None =>
+    GParamSpecPoolP.remove(this, pspec')

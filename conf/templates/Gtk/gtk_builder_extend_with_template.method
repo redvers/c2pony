@@ -1,0 +1,2 @@
+  fun ref extend_with_template(object': GObjectI, template_type': U64, buffer': String, length': I64, error': GError): I32 =>
+    GtkBuilderP.extend_with_template(this, object', template_type', buffer', length', error')

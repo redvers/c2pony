@@ -1,0 +1,1 @@
+use @g_dbus_message_to_blob[Pointer[U8]](message': GDBusMessage, out_size': Pointer[U64] tag, capabilities': U32, error': Pointer[NullablePointer[GErrorT]])

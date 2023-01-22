@@ -1,0 +1,2 @@
+  fun handshake(conn': GTlsConnection, cancellable': GCancellable, error': GError): I32 =>
+    @g_tls_connection_handshake(conn', cancellable', addressof error'.ptr)

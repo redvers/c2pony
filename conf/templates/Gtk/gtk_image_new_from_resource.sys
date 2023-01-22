@@ -1,0 +1,2 @@
+  fun new_from_resource(resource_path': String): Pointer[GObjectP] =>
+@gtk_image_new_from_resource(resource_path'.cstring())

@@ -1,0 +1,1 @@
+use @gtk_text_view_set_wrap_mode[None](text_view': GtkTextView, wrap_mode': U32)

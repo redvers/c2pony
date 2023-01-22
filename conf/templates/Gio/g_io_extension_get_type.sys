@@ -1,0 +1,2 @@
+  fun get_type(extension': GIOExtension): U64 =>
+    @g_io_extension_get_type(extension')

@@ -1,0 +1,2 @@
+  fun ref set_state_flags(flags': U32, clear': I32): None =>
+    GtkWidgetP.set_state_flags(this, flags', clear')

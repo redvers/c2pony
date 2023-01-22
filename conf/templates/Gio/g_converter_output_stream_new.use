@@ -1,0 +1,1 @@
+use @g_converter_output_stream_new[GOutputStream](base_stream': GOutputStream, converter': GConverter)

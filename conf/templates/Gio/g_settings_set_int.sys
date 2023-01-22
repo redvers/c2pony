@@ -1,0 +1,2 @@
+  fun set_int(settings': GSettings, key': String, value': I32): I32 =>
+    @g_settings_set_int(settings', key'.cstring(), value')

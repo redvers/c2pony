@@ -1,0 +1,2 @@
+  fun new_handle(value': I32): GVariant =>
+    @g_variant_new_handle(value')

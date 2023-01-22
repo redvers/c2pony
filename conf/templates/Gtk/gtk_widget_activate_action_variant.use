@@ -1,0 +1,1 @@
+use @gtk_widget_activate_action_variant[I32](widget': Pointer[GObjectP], name': Pointer[U8] tag, args': GVariant)

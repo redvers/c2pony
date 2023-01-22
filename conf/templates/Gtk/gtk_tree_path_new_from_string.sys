@@ -1,0 +1,2 @@
+  fun new_from_string(path': String): GtkTreePath =>
+    @gtk_tree_path_new_from_string(path'.cstring())

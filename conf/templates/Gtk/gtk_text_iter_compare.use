@@ -1,0 +1,1 @@
+use @gtk_text_iter_compare[I32](lhs': GtkTextIter, rhs': GtkTextIter)

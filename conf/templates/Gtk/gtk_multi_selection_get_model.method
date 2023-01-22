@@ -1,0 +1,2 @@
+  fun ref get_model(): GListModel =>
+    GtkMultiSelectionP.get_model(this)

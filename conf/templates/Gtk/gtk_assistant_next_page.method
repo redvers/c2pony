@@ -1,0 +1,2 @@
+  fun ref next_page(): None =>
+    GtkAssistantP.next_page(this)

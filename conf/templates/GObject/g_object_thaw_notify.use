@@ -1,0 +1,1 @@
+use @g_object_thaw_notify[None](object': Pointer[GObjectP])

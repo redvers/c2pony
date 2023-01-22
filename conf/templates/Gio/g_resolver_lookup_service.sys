@@ -1,0 +1,2 @@
+  fun lookup_service(resolver': GResolver, service': String, protocol': String, domain': String, cancellable': GCancellable, error': GError): GList =>
+    @g_resolver_lookup_service(resolver', service'.cstring(), protocol'.cstring(), domain'.cstring(), cancellable', addressof error'.ptr)

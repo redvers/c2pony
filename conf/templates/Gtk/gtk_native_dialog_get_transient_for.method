@@ -1,0 +1,2 @@
+  fun ref get_transient_for(): Pointer[GObjectP] =>
+    GtkNativeDialogP.get_transient_for(this)

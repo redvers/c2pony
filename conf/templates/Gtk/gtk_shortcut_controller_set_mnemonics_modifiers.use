@@ -1,0 +1,1 @@
+use @gtk_shortcut_controller_set_mnemonics_modifiers[None](self': GtkShortcutController, modifiers': U32)

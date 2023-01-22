@@ -1,0 +1,2 @@
+  fun get_transition_running(stack': GtkStack): I32 =>
+    @gtk_stack_get_transition_running(stack')

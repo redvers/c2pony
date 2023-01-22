@@ -1,0 +1,2 @@
+  fun ref insert(position': I32, id': String, text': String): None =>
+    GtkComboBoxTextP.insert(this, position', id', text')

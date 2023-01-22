@@ -1,0 +1,2 @@
+  fun swap(a': GSequenceNode, b': GSequenceNode): None =>
+    @g_sequence_swap(a', b')

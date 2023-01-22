@@ -1,0 +1,2 @@
+  fun new(): GtkIconTheme =>
+    @gtk_icon_theme_new()

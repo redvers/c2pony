@@ -1,0 +1,1 @@
+use @gtk_text_compute_cursor_extents[None](self': GtkText, position': U64, strong': graphenerectt, weak': graphenerectt)

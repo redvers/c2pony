@@ -1,0 +1,1 @@
+use @gtk_center_layout_get_orientation[U32](self': GtkCenterLayout)

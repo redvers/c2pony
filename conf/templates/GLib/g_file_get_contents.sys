@@ -1,0 +1,2 @@
+  fun file_get_contents(filename': String, contents': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, error': Pointer[GError]): I32 =>
+    @g_file_get_contents(filename'.cstring(), contents', length', error')

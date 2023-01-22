@@ -1,0 +1,2 @@
+  fun ref get_timezone_abbreviation(): String iso^ =>
+    GDateTimeP.get_timezone_abbreviation(this)

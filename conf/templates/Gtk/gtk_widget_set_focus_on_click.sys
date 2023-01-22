@@ -1,0 +1,2 @@
+  fun set_focus_on_click(widget': GtkWidgetI, focus_on_click': I32): None =>
+    @gtk_widget_set_focus_on_click(widget'.getptr(), focus_on_click')

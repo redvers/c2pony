@@ -1,0 +1,2 @@
+  fun ref set_message_type(message_type': U32): None =>
+    GtkInfoBarP.set_message_type(this, message_type')

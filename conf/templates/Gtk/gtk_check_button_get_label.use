@@ -1,0 +1,1 @@
+use @gtk_check_button_get_label[Pointer[U8]](self': GtkCheckButton)

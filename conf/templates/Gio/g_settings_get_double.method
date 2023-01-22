@@ -1,0 +1,2 @@
+  fun ref get_double(key': String): F64 =>
+    GSettingsP.get_double(this, key')

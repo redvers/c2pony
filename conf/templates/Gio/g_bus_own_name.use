@@ -1,0 +1,1 @@
+use @g_bus_own_name[U32](bus_type': I32, name': Pointer[U8] tag, flags': U32, bus_acquired_handler': GBusAcquiredCallback, name_acquired_handler': GBusNameAcquiredCallback, name_lost_handler': GBusNameLostCallback, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify)

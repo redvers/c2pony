@@ -1,0 +1,2 @@
+  fun ref set_max_undo_levels(max_undo_levels': U32): None =>
+    GtkTextBufferP.set_max_undo_levels(this, max_undo_levels')

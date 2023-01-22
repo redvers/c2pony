@@ -1,0 +1,2 @@
+  fun ref set_connection(connection': GDBusConnection): None =>
+    GDBusObjectManagerServerP.set_connection(this, connection')

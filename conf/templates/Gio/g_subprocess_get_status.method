@@ -1,0 +1,2 @@
+  fun ref get_status(): I32 =>
+    GSubprocessP.get_status(this)

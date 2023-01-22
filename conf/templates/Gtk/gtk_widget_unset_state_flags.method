@@ -1,0 +1,2 @@
+  fun ref unset_state_flags(flags': U32): None =>
+    GtkWidgetP.unset_state_flags(this, flags')

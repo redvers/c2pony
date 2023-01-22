@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GDBusObjectSkeletonPrivate
+  var ptr: NullablePointer[GDBusObjectSkeletonPrivateT]
+
+  new create(ptr': NullablePointer[GDBusObjectSkeletonPrivateT]) => ptr = ptr'

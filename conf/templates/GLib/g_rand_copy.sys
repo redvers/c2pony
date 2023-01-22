@@ -1,0 +1,2 @@
+  fun copy(rand': GRand): GRand =>
+    @g_rand_copy(rand')

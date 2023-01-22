@@ -1,0 +1,2 @@
+  fun parse_string(string': String): GtkShortcutTrigger =>
+    @gtk_shortcut_trigger_parse_string(string'.cstring())

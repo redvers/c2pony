@@ -1,0 +1,2 @@
+  fun ref propagate_error(dest': GError): I32 =>
+    GSimpleAsyncResultP.propagate_error(this, dest')

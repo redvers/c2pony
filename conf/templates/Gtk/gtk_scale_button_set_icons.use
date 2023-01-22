@@ -1,0 +1,1 @@
+use @gtk_scale_button_set_icons[None](button': GtkScaleButton, icons': Pointer[Pointer[U8]] tag)

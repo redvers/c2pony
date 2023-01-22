@@ -1,0 +1,2 @@
+  fun copy(iter': GtkTreeIter): GtkTreeIter =>
+    @gtk_tree_iter_copy(iter')

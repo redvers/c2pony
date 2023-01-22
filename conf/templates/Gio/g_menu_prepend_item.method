@@ -1,0 +1,2 @@
+  fun ref prepend_item(item': GMenuItem): None =>
+    GMenuP.prepend_item(this, item')

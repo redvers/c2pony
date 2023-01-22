@@ -1,0 +1,2 @@
+  fun append(string': GString, val': String): GString =>
+    @g_string_append(string', val'.cstring())

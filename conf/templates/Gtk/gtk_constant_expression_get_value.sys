@@ -1,0 +1,2 @@
+  fun get_value(expression': GtkExpression): GValue =>
+    @gtk_constant_expression_get_value(expression')

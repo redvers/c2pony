@@ -1,0 +1,1 @@
+use @gtk_media_stream_ended[None](self': GtkMediaStream)

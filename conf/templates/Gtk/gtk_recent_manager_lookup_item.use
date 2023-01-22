@@ -1,0 +1,1 @@
+use @gtk_recent_manager_lookup_item[GtkRecentInfo](manager': GtkRecentManager, uri': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

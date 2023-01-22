@@ -1,0 +1,1 @@
+use @g_settings_new_full[GSettings](schema': GSettingsSchema, backend': GSettingsBackend, path': Pointer[U8] tag)

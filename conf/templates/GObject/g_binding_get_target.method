@@ -1,0 +1,2 @@
+  fun ref get_target(): Pointer[GObjectP] =>
+    GBindingP.get_target(this)

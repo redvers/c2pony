@@ -1,0 +1,2 @@
+  fun new(model': GtkTreeModel, path': GtkTreePath): GtkTreeRowReference =>
+    @gtk_tree_row_reference_new(model', path')

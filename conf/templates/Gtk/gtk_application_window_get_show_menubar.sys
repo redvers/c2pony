@@ -1,0 +1,2 @@
+  fun get_show_menubar(window': GtkApplicationWindow): I32 =>
+    @gtk_application_window_get_show_menubar(window')

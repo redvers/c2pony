@@ -1,0 +1,2 @@
+  fun ref add_buttons(first_button_text': String, ...): None =>
+    GtkInfoBarP.add_buttons(this, first_button_text', ...)

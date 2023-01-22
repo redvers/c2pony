@@ -1,0 +1,2 @@
+  fun get_default_source(settings': GtkPrintSettings): String iso^ =>
+    String.from_cstring(@gtk_print_settings_get_default_source(settings')).clone()

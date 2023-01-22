@@ -1,0 +1,2 @@
+  fun ref get_file(): GFile =>
+    GtkVideoP.get_file(this)

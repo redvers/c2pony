@@ -1,0 +1,2 @@
+  fun ref remove(child': GtkWidgetI): None =>
+    GtkStackP.remove(this, child')

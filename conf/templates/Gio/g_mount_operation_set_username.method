@@ -1,0 +1,2 @@
+  fun ref set_username(username': String): None =>
+    GMountOperationP.set_username(this, username')

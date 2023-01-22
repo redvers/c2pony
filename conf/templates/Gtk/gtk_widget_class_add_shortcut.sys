@@ -1,0 +1,2 @@
+  fun add_shortcut(widget_class': GtkWidgetClass, shortcut': GtkShortcut): None =>
+    @gtk_widget_class_add_shortcut(widget_class', shortcut')

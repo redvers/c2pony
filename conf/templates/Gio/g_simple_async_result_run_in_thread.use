@@ -1,0 +1,1 @@
+use @g_simple_async_result_run_in_thread[None](simple': GSimpleAsyncResult, func': GSimpleAsyncThreadFunc, io_priority': I32, cancellable': GCancellable)

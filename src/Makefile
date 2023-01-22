@@ -1,3 +1,3 @@
 all:
-	corral run -- ponyc -o c2pony
+	corral run -- ponyc -b c2pony
 

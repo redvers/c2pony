@@ -1,0 +1,2 @@
+  fun ref add_main_option_entries(entries': GOptionEntry): None =>
+    GApplicationP.add_main_option_entries(this, entries')

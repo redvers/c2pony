@@ -1,0 +1,1 @@
+use @g_checksum_new[GChecksum](checksum_type': U32)

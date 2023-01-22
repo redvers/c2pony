@@ -1,0 +1,2 @@
+  fun ref get_visited_date_time(uri': String, error': Pointer[GError]): GDateTime =>
+    GBookmarkFileP.get_visited_date_time(this, uri', error')

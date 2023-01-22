@@ -1,0 +1,2 @@
+  fun ref close(): None =>
+    GSocketListenerP.close(this)

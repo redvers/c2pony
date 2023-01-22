@@ -1,0 +1,2 @@
+  fun set_text_column(icon_view': GtkIconView, column': I32): None =>
+    @gtk_icon_view_set_text_column(icon_view', column')

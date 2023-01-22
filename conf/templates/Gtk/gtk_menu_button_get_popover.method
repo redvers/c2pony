@@ -1,0 +1,2 @@
+  fun ref get_popover(): GtkPopover =>
+    GtkMenuButtonP.get_popover(this)

@@ -1,0 +1,2 @@
+  fun set_increments(range': GtkRange, step': F64, page': F64): None =>
+    @gtk_range_set_increments(range', step', page')

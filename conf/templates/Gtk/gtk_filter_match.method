@@ -1,0 +1,2 @@
+  fun ref match(item': Pointer[None] tag): I32 =>
+    GtkFilterP.match(this, item')

@@ -1,0 +1,2 @@
+  fun type_check_class_cast(g_class': GTypeClass, is_a_type': U64): GTypeClass =>
+    @g_type_check_class_cast(g_class', is_a_type')

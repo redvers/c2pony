@@ -1,0 +1,2 @@
+  fun get_flags(self': GTestDBus): U32 =>
+    @g_test_dbus_get_flags(self')

@@ -1,0 +1,2 @@
+  fun set_show_week_numbers(self': GtkCalendar, value': I32): None =>
+    @gtk_calendar_set_show_week_numbers(self', value')

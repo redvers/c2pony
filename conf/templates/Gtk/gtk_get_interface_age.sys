@@ -1,0 +1,2 @@
+  fun get_interface_age(): U32 =>
+    @gtk_get_interface_age()

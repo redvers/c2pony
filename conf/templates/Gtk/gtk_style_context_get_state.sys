@@ -1,0 +1,2 @@
+  fun get_state(context': GtkStyleContext): U32 =>
+    @gtk_style_context_get_state(context')

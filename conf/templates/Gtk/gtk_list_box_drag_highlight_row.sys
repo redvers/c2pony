@@ -1,0 +1,2 @@
+  fun drag_highlight_row(box': GtkListBox, row': GtkListBoxRow): None =>
+    @gtk_list_box_drag_highlight_row(box', row')

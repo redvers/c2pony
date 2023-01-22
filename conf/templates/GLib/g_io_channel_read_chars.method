@@ -1,0 +1,2 @@
+  fun ref read_chars(buf': String, count': U64, bytes_read': Pointer[U64] tag, error': Pointer[GError]): U32 =>
+    GIOChannelP.read_chars(this, buf', count', bytes_read', error')

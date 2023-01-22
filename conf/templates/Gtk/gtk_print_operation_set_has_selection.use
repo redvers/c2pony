@@ -1,0 +1,1 @@
+use @gtk_print_operation_set_has_selection[None](op': GtkPrintOperation, has_selection': I32)

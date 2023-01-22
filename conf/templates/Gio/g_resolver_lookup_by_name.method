@@ -1,0 +1,2 @@
+  fun ref lookup_by_name(hostname': String, cancellable': GCancellable, error': GError): GList =>
+    GResolverP.lookup_by_name(this, hostname', cancellable', error')

@@ -1,0 +1,2 @@
+  fun swap(store': GtkListStore, a': GtkTreeIter, b': GtkTreeIter): None =>
+    @gtk_list_store_swap(store', a', b')

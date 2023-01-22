@@ -1,0 +1,1 @@
+use @gtk_cell_area_remove[None](area': GtkCellArea, renderer': GtkCellRenderer)

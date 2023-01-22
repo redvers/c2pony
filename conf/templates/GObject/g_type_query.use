@@ -1,0 +1,1 @@
+use @g_type_query[None](type': U64, query': GTypeQuery)

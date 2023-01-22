@@ -1,0 +1,2 @@
+  fun add_constraints_from_descriptionv(layout': GtkConstraintLayout, lines': Pointer[Pointer[U8]] tag, n_lines': U64, hspacing': I32, vspacing': I32, views': GHashTable, error': GError): GList =>
+    @gtk_constraint_layout_add_constraints_from_descriptionv(layout', lines', n_lines', hspacing', vspacing', views', addressof error'.ptr)

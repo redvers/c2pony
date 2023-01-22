@@ -1,0 +1,2 @@
+  fun ref set_expanded(expanded': I32): None =>
+    GtkExpanderP.set_expanded(this, expanded')

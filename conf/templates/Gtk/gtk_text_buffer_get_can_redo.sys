@@ -1,0 +1,2 @@
+  fun get_can_redo(buffer': GtkTextBuffer): I32 =>
+    @gtk_text_buffer_get_can_redo(buffer')

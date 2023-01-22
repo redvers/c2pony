@@ -1,0 +1,2 @@
+  fun ref get_help_overlay(): GtkShortcutsWindow =>
+    GtkApplicationWindowP.get_help_overlay(this)

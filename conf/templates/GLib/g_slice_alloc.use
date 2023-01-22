@@ -1,0 +1,1 @@
+use @g_slice_alloc[Pointer[None] tag](block_size': U64)

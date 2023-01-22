@@ -1,0 +1,2 @@
+  fun ref activate_action(name': String, format_string': String, ...): I32 =>
+    GtkWidgetP.activate_action(this, name', format_string', ...)

@@ -1,0 +1,2 @@
+  fun new(model': GListModel, sorter': GtkSorter): GtkSortListModel =>
+    @gtk_sort_list_model_new(model', sorter')

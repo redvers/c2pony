@@ -1,0 +1,2 @@
+  fun ref set_transient_for(parent': GtkWindowI): None =>
+    GtkWindowP.set_transient_for(this, parent')

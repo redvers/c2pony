@@ -1,0 +1,1 @@
+use @g_unichar_iswide_cjk[I32](c': U32)

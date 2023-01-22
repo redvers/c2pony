@@ -1,0 +1,1 @@
+use @g_cclosure_marshal_VOID__CHAR[None](closure': GClosure, return_value': GValue, n_param_values': U32, param_values': GValue, invocation_hint': Pointer[None] tag, marshal_data': Pointer[None] tag)

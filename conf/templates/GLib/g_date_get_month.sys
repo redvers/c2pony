@@ -1,0 +1,2 @@
+  fun get_month(date': GDate): U32 =>
+    @g_date_get_month(date')

@@ -1,0 +1,2 @@
+  fun set_display(op': GtkMountOperation, display': GdkDisplay): None =>
+    @gtk_mount_operation_set_display(op', display')

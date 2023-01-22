@@ -1,0 +1,2 @@
+  fun ref get_indent(): I32 =>
+    GtkTextViewP.get_indent(this)

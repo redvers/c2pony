@@ -1,0 +1,2 @@
+  fun ref compute_prefix(key': String): String iso^ =>
+    GtkEntryCompletionP.compute_prefix(this, key')

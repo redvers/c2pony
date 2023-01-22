@@ -1,0 +1,2 @@
+  fun get_sequences(gesture': GtkGesture): GList =>
+    @gtk_gesture_get_sequences(gesture')

@@ -1,0 +1,2 @@
+  fun ref insert_child_after(child': GtkWidgetI, sibling': GtkWidgetI): None =>
+    GtkBoxP.insert_child_after(this, child', sibling')

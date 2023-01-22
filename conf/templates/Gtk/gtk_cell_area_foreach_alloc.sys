@@ -1,0 +1,2 @@
+  fun foreach_alloc(area': GtkCellArea, context': GtkCellAreaContext, widget': GtkWidgetI, cell_area': cairorectangleint, background_area': cairorectangleint, callback': GtkCellAllocCallback, callback_data': Pointer[None] tag): None =>
+    @gtk_cell_area_foreach_alloc(area', context', widget'.getptr(), cell_area', background_area', callback', callback_data')

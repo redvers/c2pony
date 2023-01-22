@@ -1,0 +1,2 @@
+  fun forward_to_end(iter': GtkTextIter): None =>
+    @gtk_text_iter_forward_to_end(iter')

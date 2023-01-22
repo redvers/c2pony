@@ -1,0 +1,2 @@
+  fun activate_action(widget': GtkWidgetI, name': String, format_string': String, ...): I32 =>
+    @gtk_widget_activate_action(widget'.getptr(), name'.cstring(), format_string'.cstring(), ...)

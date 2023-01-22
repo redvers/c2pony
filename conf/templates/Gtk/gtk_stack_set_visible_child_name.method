@@ -1,0 +1,2 @@
+  fun ref set_visible_child_name(name': String): None =>
+    GtkStackP.set_visible_child_name(this, name')

@@ -1,0 +1,2 @@
+  fun clear_pending(stream': GIOStream): None =>
+    @g_io_stream_clear_pending(stream')

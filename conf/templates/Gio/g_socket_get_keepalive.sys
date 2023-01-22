@@ -1,0 +1,2 @@
+  fun get_keepalive(socket': GSocket): I32 =>
+    @g_socket_get_keepalive(socket')

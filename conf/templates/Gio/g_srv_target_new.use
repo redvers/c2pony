@@ -1,0 +1,1 @@
+use @g_srv_target_new[GSrvTarget](hostname': Pointer[U8] tag, port': U16, priority': U16, weight': U16)

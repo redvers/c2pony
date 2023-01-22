@@ -1,0 +1,2 @@
+  fun new_with_markup(parent': GtkWindowI, flags': U32, type': U32, buttons': U32, message_format': String, ...): Pointer[GObjectP] =>
+@gtk_message_dialog_new_with_markup(parent'.getptr(), flags', type', buttons', message_format'.cstring(), ...)

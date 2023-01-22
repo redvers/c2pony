@@ -1,0 +1,2 @@
+  fun ref next(value': Pointer[U32] tag): I32 =>
+    GtkBitsetIterP.next(this, value')

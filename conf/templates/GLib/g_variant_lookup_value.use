@@ -1,0 +1,1 @@
+use @g_variant_lookup_value[GVariant](dictionary': GVariant, key': Pointer[U8] tag, expected_type': GVariantType)

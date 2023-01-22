@@ -1,0 +1,2 @@
+  fun ref create_app_info(app_name': String, error': GError): GAppInfo =>
+    GtkRecentInfoP.create_app_info(this, app_name', error')

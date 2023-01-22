@@ -1,0 +1,1 @@
+use @gtk_widget_set_has_tooltip[None](widget': Pointer[GObjectP], has_tooltip': I32)

@@ -1,0 +1,2 @@
+  fun add_any_inet_port(listener': GSocketListener, source_object': GObjectI, error': GError): U16 =>
+    @g_socket_listener_add_any_inet_port(listener', source_object'.getptr(), addressof error'.ptr)

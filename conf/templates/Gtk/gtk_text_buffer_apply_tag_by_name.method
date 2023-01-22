@@ -1,0 +1,2 @@
+  fun ref apply_tag_by_name(name': String, start': GtkTextIter, end': GtkTextIter): None =>
+    GtkTextBufferP.apply_tag_by_name(this, name', start', end')

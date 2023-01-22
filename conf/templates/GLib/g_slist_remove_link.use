@@ -1,0 +1,1 @@
+use @g_slist_remove_link[GSList](list': GSList, link': GSList)

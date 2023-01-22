@@ -1,0 +1,1 @@
+use @g_task_return_pointer[None](task': GTask, result': Pointer[None] tag, result_destroy': GDestroyNotify)

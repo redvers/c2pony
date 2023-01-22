@@ -1,0 +1,1 @@
+use @gtk_cell_area_remove_focus_sibling[None](area': GtkCellArea, renderer': GtkCellRenderer, sibling': GtkCellRenderer)

@@ -1,0 +1,2 @@
+  fun get_exit_status(cmdline': GApplicationCommandLine): I32 =>
+    @g_application_command_line_get_exit_status(cmdline')

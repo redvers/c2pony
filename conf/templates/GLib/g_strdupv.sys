@@ -1,0 +1,2 @@
+  fun strdupv(str_array': Pointer[Pointer[U8]] tag): Pointer[Pointer[U8]] tag =>
+    @g_strdupv(str_array')

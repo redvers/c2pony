@@ -1,0 +1,2 @@
+  fun peek(type': U64): Pointer[None] tag =>
+    @g_type_class_peek(type')

@@ -1,0 +1,1 @@
+use @g_uri_get_fragment[Pointer[U8]](uri': GUri)

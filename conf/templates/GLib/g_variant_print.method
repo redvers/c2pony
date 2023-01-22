@@ -1,0 +1,2 @@
+  fun ref print(type_annotate': I32): String iso^ =>
+    GVariantP.print(this, type_annotate')

@@ -1,0 +1,2 @@
+  fun ref is_container(): I32 =>
+    GVariantP.is_container(this)

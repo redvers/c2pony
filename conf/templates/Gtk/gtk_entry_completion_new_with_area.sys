@@ -1,0 +1,2 @@
+  fun new_with_area(area': GtkCellArea): GtkEntryCompletion =>
+    @gtk_entry_completion_new_with_area(area')

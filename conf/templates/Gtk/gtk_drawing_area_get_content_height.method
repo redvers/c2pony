@@ -1,0 +1,2 @@
+  fun ref get_content_height(): I32 =>
+    GtkDrawingAreaP.get_content_height(this)

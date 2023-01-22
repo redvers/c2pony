@@ -1,0 +1,2 @@
+  fun set_tooltip_row(tree_view': GtkTreeView, tooltip': GtkTooltip, path': GtkTreePath): None =>
+    @gtk_tree_view_set_tooltip_row(tree_view', tooltip', path')

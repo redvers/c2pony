@@ -1,0 +1,1 @@
+use @gtk_text_view_set_left_margin[None](text_view': GtkTextView, left_margin': I32)

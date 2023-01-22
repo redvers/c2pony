@@ -1,0 +1,2 @@
+  fun ref move_mark_onscreen(mark': GtkTextMark): I32 =>
+    GtkTextViewP.move_mark_onscreen(this, mark')

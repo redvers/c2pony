@@ -1,0 +1,2 @@
+  fun set_child(menu_button': GtkMenuButton, child': GtkWidgetI): None =>
+    @gtk_menu_button_set_child(menu_button', child'.getptr())

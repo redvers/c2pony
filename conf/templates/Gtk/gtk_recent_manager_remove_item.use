@@ -1,0 +1,1 @@
+use @gtk_recent_manager_remove_item[I32](manager': GtkRecentManager, uri': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

@@ -1,0 +1,2 @@
+  fun ref get_child_row(position': U32): GtkTreeListRow =>
+    GtkTreeListModelP.get_child_row(this, position')

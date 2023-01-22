@@ -1,0 +1,1 @@
+use @g_memory_input_stream_new_from_data[GInputStream](data': Pointer[None] tag, len': I64, destroy': GDestroyNotify)

@@ -1,0 +1,2 @@
+  fun set_buffer(entry': GtkEntry, buffer': GtkEntryBuffer): None =>
+    @gtk_entry_set_buffer(entry', buffer')

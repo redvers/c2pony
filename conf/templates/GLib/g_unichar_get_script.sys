@@ -1,0 +1,2 @@
+  fun unichar_get_script(ch': U32): I32 =>
+    @g_unichar_get_script(ch')

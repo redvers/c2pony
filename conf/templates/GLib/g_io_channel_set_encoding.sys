@@ -1,0 +1,2 @@
+  fun set_encoding(channel': GIOChannel, encoding': String, error': Pointer[GError]): U32 =>
+    @g_io_channel_set_encoding(channel', encoding'.cstring(), error')

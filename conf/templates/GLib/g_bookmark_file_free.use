@@ -1,0 +1,1 @@
+use @g_bookmark_file_free[None](bookmark': GBookmarkFile)

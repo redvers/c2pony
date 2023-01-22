@@ -1,0 +1,2 @@
+  fun pack_end(tree_column': GtkTreeViewColumn, cell': GtkCellRenderer, expand': I32): None =>
+    @gtk_tree_view_column_pack_end(tree_column', cell', expand')

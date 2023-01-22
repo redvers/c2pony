@@ -1,0 +1,1 @@
+use @g_slist_nth_data[Pointer[None] tag](list': GSList, n': U32)

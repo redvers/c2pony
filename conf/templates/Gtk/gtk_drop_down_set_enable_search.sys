@@ -1,0 +1,2 @@
+  fun set_enable_search(self': GtkDropDown, enable_search': I32): None =>
+    @gtk_drop_down_set_enable_search(self', enable_search')

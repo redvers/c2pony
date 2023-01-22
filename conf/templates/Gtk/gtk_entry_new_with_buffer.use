@@ -1,0 +1,1 @@
+use @gtk_entry_new_with_buffer[Pointer[GObjectP]](buffer': GtkEntryBuffer)

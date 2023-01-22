@@ -1,0 +1,2 @@
+  fun end(builder': GVariantBuilder): GVariant =>
+    @g_variant_builder_end(builder')

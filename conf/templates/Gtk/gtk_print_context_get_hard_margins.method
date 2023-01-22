@@ -1,0 +1,2 @@
+  fun ref get_hard_margins(top': Pointer[F64] tag, bottom': Pointer[F64] tag, left': Pointer[F64] tag, right': Pointer[F64] tag): I32 =>
+    GtkPrintContextP.get_hard_margins(this, top', bottom', left', right')

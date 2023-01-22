@@ -1,0 +1,2 @@
+  fun spawn_error_quark(): U32 =>
+    @g_spawn_error_quark()

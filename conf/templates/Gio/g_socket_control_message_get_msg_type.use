@@ -1,0 +1,1 @@
+use @g_socket_control_message_get_msg_type[I32](message': GSocketControlMessage)

@@ -1,0 +1,1 @@
+use @g_value_get_boolean[I32](value': GValue)

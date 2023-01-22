@@ -1,0 +1,2 @@
+  fun ref get_string(): String iso^ =>
+    GChecksumP.get_string(this)

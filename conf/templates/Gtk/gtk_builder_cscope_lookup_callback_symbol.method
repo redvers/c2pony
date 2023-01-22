@@ -1,0 +1,2 @@
+  fun ref lookup_callback_symbol(callback_name': String): GCallback =>
+    GtkBuilderCScopeP.lookup_callback_symbol(this, callback_name')

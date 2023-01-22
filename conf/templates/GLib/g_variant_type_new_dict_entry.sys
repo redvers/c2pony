@@ -1,0 +1,2 @@
+  fun new_dict_entry(key': GVariantType, value': GVariantType): GVariantType =>
+    @g_variant_type_new_dict_entry(key', value')

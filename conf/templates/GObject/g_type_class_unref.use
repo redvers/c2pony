@@ -1,0 +1,1 @@
+use @g_type_class_unref[None](g_class': Pointer[None] tag)

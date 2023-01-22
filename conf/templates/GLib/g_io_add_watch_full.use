@@ -1,0 +1,1 @@
+use @g_io_add_watch_full[U32](channel': GIOChannel, priority': I32, condition': U32, func': GIOFunc, user_data': Pointer[None] tag, notify': GDestroyNotify)

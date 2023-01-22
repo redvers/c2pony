@@ -1,0 +1,2 @@
+  fun reject(self': GtkDropTarget): None =>
+    @gtk_drop_target_reject(self')

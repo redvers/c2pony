@@ -1,0 +1,2 @@
+  fun push(stack_p': Pointer[GTrashStack], data_p': Pointer[None] tag): None =>
+    @g_trash_stack_push(stack_p', data_p')

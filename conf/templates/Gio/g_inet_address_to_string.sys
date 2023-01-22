@@ -1,0 +1,2 @@
+  fun to_string(address': GInetAddress): String iso^ =>
+    String.from_cstring(@g_inet_address_to_string(address')).clone()

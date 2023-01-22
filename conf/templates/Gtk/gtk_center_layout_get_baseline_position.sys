@@ -1,0 +1,2 @@
+  fun get_baseline_position(self': GtkCenterLayout): U32 =>
+    @gtk_center_layout_get_baseline_position(self')

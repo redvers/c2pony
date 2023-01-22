@@ -1,0 +1,1 @@
+use @gtk_gesture_single_set_button[None](gesture': GtkGestureSingle, button': U32)

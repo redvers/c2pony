@@ -1,0 +1,2 @@
+  fun ref is_maximized(): I32 =>
+    GtkWindowP.is_maximized(this)

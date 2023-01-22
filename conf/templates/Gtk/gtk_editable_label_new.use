@@ -1,0 +1,1 @@
+use @gtk_editable_label_new[Pointer[GObjectP]](str': Pointer[U8] tag)

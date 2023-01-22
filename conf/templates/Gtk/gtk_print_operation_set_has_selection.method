@@ -1,0 +1,2 @@
+  fun ref set_has_selection(has_selection': I32): None =>
+    GtkPrintOperationP.set_has_selection(this, has_selection')

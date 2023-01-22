@@ -1,0 +1,2 @@
+  fun ref uninhibit(cookie': U32): None =>
+    GtkApplicationP.uninhibit(this, cookie')

@@ -1,0 +1,2 @@
+  fun set(iter': GSequenceNode, data': Pointer[None] tag): None =>
+    @g_sequence_set(iter', data')

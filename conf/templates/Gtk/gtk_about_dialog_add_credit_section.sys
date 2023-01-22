@@ -1,0 +1,2 @@
+  fun add_credit_section(about': GtkAboutDialog, section_name': String, people': Pointer[Pointer[U8]] tag): None =>
+    @gtk_about_dialog_add_credit_section(about', section_name'.cstring(), people')

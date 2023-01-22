@@ -1,0 +1,2 @@
+  fun ref set_title(title': String): None =>
+    GtkWindowP.set_title(this, title')

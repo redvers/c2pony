@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkConstraintTargetInterface
+  var ptr: NullablePointer[GtkConstraintTargetInterfaceT]
+
+  new create(ptr': NullablePointer[GtkConstraintTargetInterfaceT]) => ptr = ptr'

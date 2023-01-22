@@ -1,0 +1,1 @@
+use @gtk_init_check[I32]()

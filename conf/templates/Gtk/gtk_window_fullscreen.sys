@@ -1,0 +1,2 @@
+  fun fullscreen(window': GtkWindowI): None =>
+    @gtk_window_fullscreen(window'.getptr())

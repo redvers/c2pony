@@ -1,0 +1,2 @@
+  fun ref set_model(model': GtkSelectionModel): None =>
+    GtkListViewP.set_model(this, model')

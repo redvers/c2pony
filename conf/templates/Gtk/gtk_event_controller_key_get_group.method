@@ -1,0 +1,2 @@
+  fun ref get_group(): U32 =>
+    GtkEventControllerKeyP.get_group(this)

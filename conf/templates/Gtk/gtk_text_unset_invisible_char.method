@@ -1,0 +1,2 @@
+  fun ref unset_invisible_char(): None =>
+    GtkTextP.unset_invisible_char(this)

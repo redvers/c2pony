@@ -1,0 +1,1 @@
+use @gtk_calendar_unmark_day[None](calendar': GtkCalendar, day': U32)

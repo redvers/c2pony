@@ -1,0 +1,1 @@
+use @g_variant_print_string[GString](value': GVariant, string': GString, type_annotate': I32)

@@ -1,0 +1,2 @@
+  fun bus_get_sync(bus_type': I32, cancellable': GCancellable, error': GError): GDBusConnection =>
+    @g_bus_get_sync(bus_type', cancellable', addressof error'.ptr)

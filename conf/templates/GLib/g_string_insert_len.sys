@@ -1,0 +1,2 @@
+  fun insert_len(string': GString, pos': I64, val': String, len': I64): GString =>
+    @g_string_insert_len(string', pos', val'.cstring(), len')

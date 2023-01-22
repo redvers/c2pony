@@ -1,0 +1,2 @@
+  fun ref connect_to_uri_async(uri': String, default_port': U16, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GSocketClientP.connect_to_uri_async(this, uri', default_port', cancellable', callback', user_data')

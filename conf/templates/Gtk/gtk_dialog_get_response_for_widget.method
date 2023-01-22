@@ -1,0 +1,2 @@
+  fun ref get_response_for_widget(widget': GtkWidgetI): I32 =>
+    GtkDialogP.get_response_for_widget(this, widget')

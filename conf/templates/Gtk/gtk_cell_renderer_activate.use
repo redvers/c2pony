@@ -1,0 +1,1 @@
+use @gtk_cell_renderer_activate[I32](cell': GtkCellRenderer, event': GdkEvent, widget': Pointer[GObjectP], path': Pointer[U8] tag, background_area': cairorectangleint, cell_area': cairorectangleint, flags': U32)

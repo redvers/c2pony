@@ -1,0 +1,2 @@
+  fun ref remove(iter': GtkTreeIter): I32 =>
+    GtkListStoreP.remove(this, iter')

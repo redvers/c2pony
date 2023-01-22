@@ -1,0 +1,2 @@
+  fun append_node(snapshot': GdkSnapshot, node': GskRenderNode): None =>
+    @gtk_snapshot_append_node(snapshot', node')

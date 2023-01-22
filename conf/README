@@ -1,0 +1,4 @@
+
+To make the <TEMPL>-baseclasses.xml
+cat GObject-render.xml  | grep renderclass  | grep name | sed -e 's/renderclass/classbase/g' | sed -e 's/render.*/baseclass="GObject"\/>/g'
+(if needed)

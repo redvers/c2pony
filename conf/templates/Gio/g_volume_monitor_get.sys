@@ -1,0 +1,2 @@
+  fun get(): GVolumeMonitor =>
+    @g_volume_monitor_get()

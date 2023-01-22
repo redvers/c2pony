@@ -1,0 +1,1 @@
+use @gtk_assistant_remove_action_widget[None](assistant': GtkAssistant, child': Pointer[GObjectP])

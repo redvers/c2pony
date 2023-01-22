@@ -1,0 +1,2 @@
+  fun ref get_focusable(): I32 =>
+    GtkWidgetP.get_focusable(this)

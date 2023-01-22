@@ -1,0 +1,1 @@
+use @gtk_stack_page_set_name[None](self': GtkStackPage, setting': Pointer[U8] tag)

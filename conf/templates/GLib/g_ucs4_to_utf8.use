@@ -1,0 +1,1 @@
+use @g_ucs4_to_utf8[Pointer[U8]](str': Pointer[U32] tag, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': Pointer[GError])

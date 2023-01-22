@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_cell_get_position[I32](tree_column': GtkTreeViewColumn, cell_renderer': GtkCellRenderer, x_offset': Pointer[I32] tag, width': Pointer[I32] tag)

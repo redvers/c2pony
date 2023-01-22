@@ -1,0 +1,1 @@
+use @gtk_bitset_add_rectangle[None](self': GtkBitset, start': U32, width': U32, height': U32, stride': U32)

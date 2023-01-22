@@ -1,0 +1,2 @@
+  fun get_decoration_layout(bar': GtkHeaderBar): String iso^ =>
+    String.from_cstring(@gtk_header_bar_get_decoration_layout(bar')).clone()

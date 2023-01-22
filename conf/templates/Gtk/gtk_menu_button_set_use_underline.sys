@@ -1,0 +1,2 @@
+  fun set_use_underline(menu_button': GtkMenuButton, use_underline': I32): None =>
+    @gtk_menu_button_set_use_underline(menu_button', use_underline')

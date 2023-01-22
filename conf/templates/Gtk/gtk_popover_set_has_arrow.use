@@ -1,0 +1,1 @@
+use @gtk_popover_set_has_arrow[None](popover': GtkPopover, has_arrow': I32)

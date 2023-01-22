@@ -1,0 +1,2 @@
+  fun get_child(menu_button': GtkMenuButton): Pointer[GObjectP] =>
+@gtk_menu_button_get_child(menu_button')

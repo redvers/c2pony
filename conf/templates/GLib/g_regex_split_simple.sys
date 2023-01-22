@@ -1,0 +1,2 @@
+  fun split_simple(pattern': String, string': String, compile_options': U32, match_options': U32): Pointer[Pointer[U8]] tag =>
+    @g_regex_split_simple(pattern'.cstring(), string'.cstring(), compile_options', match_options')

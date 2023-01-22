@@ -1,0 +1,2 @@
+  fun ref get_template_child(widget_type': U64, name': String): Pointer[GObjectP] =>
+    GtkWidgetP.get_template_child(this, widget_type', name')

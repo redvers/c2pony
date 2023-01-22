@@ -1,0 +1,2 @@
+  fun get_mark(buffer': GtkTextBuffer, name': String): GtkTextMark =>
+    @gtk_text_buffer_get_mark(buffer', name'.cstring())

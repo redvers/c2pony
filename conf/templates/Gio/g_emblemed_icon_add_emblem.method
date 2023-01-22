@@ -1,0 +1,2 @@
+  fun ref add_emblem(emblem': GEmblem): None =>
+    GEmblemedIconP.add_emblem(this, emblem')

@@ -1,0 +1,2 @@
+  fun invalidate_sort(box': GtkFlowBox): None =>
+    @gtk_flow_box_invalidate_sort(box')

@@ -1,0 +1,1 @@
+use @g_io_stream_get_output_stream[GOutputStream](stream': GIOStream)

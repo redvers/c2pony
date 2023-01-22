@@ -1,0 +1,2 @@
+  fun ref matches(attribute': String): I32 =>
+    GFileAttributeMatcherP.matches(this, attribute')

@@ -1,0 +1,2 @@
+  fun ref set_needs_attention(setting': I32): None =>
+    GtkStackPageP.set_needs_attention(this, setting')

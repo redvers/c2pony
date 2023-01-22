@@ -1,0 +1,2 @@
+  fun close(socket': GSocket, error': GError): I32 =>
+    @g_socket_close(socket', addressof error'.ptr)

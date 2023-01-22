@@ -1,0 +1,2 @@
+  fun get_visited(info': GtkRecentInfo): GDateTime =>
+    @gtk_recent_info_get_visited(info')

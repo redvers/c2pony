@@ -1,0 +1,2 @@
+  fun ref get_max_value(): F64 =>
+    GtkLevelBarP.get_max_value(this)

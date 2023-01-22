@@ -1,0 +1,2 @@
+  fun get_revealed(action_bar': GtkActionBar): I32 =>
+    @gtk_action_bar_get_revealed(action_bar')

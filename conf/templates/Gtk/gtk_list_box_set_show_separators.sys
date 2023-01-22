@@ -1,0 +1,2 @@
+  fun set_show_separators(box': GtkListBox, show_separators': I32): None =>
+    @gtk_list_box_set_show_separators(box', show_separators')

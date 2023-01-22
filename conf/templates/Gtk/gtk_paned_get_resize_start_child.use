@@ -1,0 +1,1 @@
+use @gtk_paned_get_resize_start_child[I32](paned': GtkPaned)

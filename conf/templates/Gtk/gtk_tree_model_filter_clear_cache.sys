@@ -1,0 +1,2 @@
+  fun clear_cache(filter': GtkTreeModelFilter): None =>
+    @gtk_tree_model_filter_clear_cache(filter')

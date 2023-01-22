@@ -1,0 +1,2 @@
+  fun get_state(self': GtkSwitch): I32 =>
+    @gtk_switch_get_state(self')

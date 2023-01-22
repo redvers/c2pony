@@ -1,0 +1,1 @@
+use @g_option_context_set_translate_func[None](context': GOptionContext, func': GTranslateFunc, data': Pointer[None] tag, destroy_notify': GDestroyNotify)

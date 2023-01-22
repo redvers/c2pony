@@ -1,0 +1,2 @@
+  fun put_uint64(stream': GDataOutputStream, data': U64, cancellable': GCancellable, error': GError): I32 =>
+    @g_data_output_stream_put_uint64(stream', data', cancellable', addressof error'.ptr)

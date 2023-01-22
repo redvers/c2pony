@@ -1,0 +1,2 @@
+  fun ref get_source_attribute(): U32 =>
+    GtkConstraintP.get_source_attribute(this)

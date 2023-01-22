@@ -1,0 +1,2 @@
+  fun add_button_with_target(notification': GNotification, label': String, action': String, target_format': String, ...): None =>
+    @g_notification_add_button_with_target(notification', label'.cstring(), action'.cstring(), target_format'.cstring(), ...)

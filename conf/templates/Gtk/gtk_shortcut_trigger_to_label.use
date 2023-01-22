@@ -1,0 +1,1 @@
+use @gtk_shortcut_trigger_to_label[Pointer[U8]](self': GtkShortcutTrigger, display': GdkDisplay)

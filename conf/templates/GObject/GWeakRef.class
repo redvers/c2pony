@@ -1,0 +1,8 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GWeakRef
+  var ptr: NullablePointer[GWeakRefT]
+
+  new create(ptr': NullablePointer[GWeakRefT]) => ptr = ptr'

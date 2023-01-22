@@ -1,0 +1,1 @@
+use @g_task_attach_source[None](task': GTask, source': GSource, callback': GSourceFunc)

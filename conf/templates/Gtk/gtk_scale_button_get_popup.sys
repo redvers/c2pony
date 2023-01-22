@@ -1,0 +1,2 @@
+  fun get_popup(button': GtkScaleButton): Pointer[GObjectP] =>
+@gtk_scale_button_get_popup(button')

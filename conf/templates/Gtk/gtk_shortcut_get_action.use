@@ -1,0 +1,1 @@
+use @gtk_shortcut_get_action[GtkShortcutAction](self': GtkShortcut)

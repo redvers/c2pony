@@ -1,0 +1,2 @@
+  fun ref append_repeating_linear_gradient(bounds': graphenerectt, start_point': graphenepointt, end_point': graphenepointt, stops': GskColorStop, n_stops': U64): None =>
+    P.append_repeating_linear_gradient(this, bounds', start_point', end_point', stops', n_stops')

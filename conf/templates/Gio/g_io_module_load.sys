@@ -1,0 +1,2 @@
+  fun load(module': GIOModule): None =>
+    @g_io_module_load(module')

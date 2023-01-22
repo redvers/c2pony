@@ -1,0 +1,2 @@
+  fun ref get_locale_string(group_name': String, key': String, locale': String, error': Pointer[GError]): String iso^ =>
+    GKeyFileP.get_locale_string(this, group_name', key', locale', error')

@@ -1,0 +1,2 @@
+  fun ref ends_tag(tag': GtkTextTag): I32 =>
+    GtkTextIterP.ends_tag(this, tag')

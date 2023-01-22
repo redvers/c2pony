@@ -1,0 +1,2 @@
+  fun ref list_windows(): GList =>
+    GtkWindowGroupP.list_windows(this)

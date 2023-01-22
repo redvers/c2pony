@@ -1,0 +1,2 @@
+  fun get_filter(self': GtkFilterListModel): GtkFilter =>
+    @gtk_filter_list_model_get_filter(self')

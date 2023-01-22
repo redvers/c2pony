@@ -1,0 +1,2 @@
+  fun new(n_prealloced': U32): GValueArray =>
+    @g_value_array_new(n_prealloced')

@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GAppInfoIface
+  var ptr: NullablePointer[GAppInfoIfaceT]
+
+  new create(ptr': NullablePointer[GAppInfoIfaceT]) => ptr = ptr'

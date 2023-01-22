@@ -1,0 +1,2 @@
+  fun ref connect(signal_spec': String, ...): Pointer[None] tag =>
+    GObjectP.connect(this, signal_spec', ...)

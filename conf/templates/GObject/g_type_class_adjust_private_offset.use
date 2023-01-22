@@ -1,0 +1,1 @@
+use @g_type_class_adjust_private_offset[None](g_class': Pointer[None] tag, private_size_or_offset': Pointer[I32] tag)

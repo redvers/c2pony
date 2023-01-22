@@ -1,0 +1,2 @@
+  fun get_response_for_widget(dialog': GtkDialog, widget': GtkWidgetI): I32 =>
+    @gtk_dialog_get_response_for_widget(dialog', widget'.getptr())

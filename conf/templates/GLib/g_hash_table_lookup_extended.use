@@ -1,0 +1,1 @@
+use @g_hash_table_lookup_extended[I32](hash_table': GHashTable, lookup_key': Pointer[None] tag, orig_key': Pointer[Pointer[None]] tag, value': Pointer[Pointer[None]] tag)

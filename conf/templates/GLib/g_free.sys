@@ -1,0 +1,2 @@
+  fun free(mem': Pointer[None] tag): None =>
+    @g_free(mem')

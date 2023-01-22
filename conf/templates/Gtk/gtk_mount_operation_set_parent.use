@@ -1,0 +1,1 @@
+use @gtk_mount_operation_set_parent[None](op': GtkMountOperation, parent': Pointer[GObjectP])

@@ -1,0 +1,2 @@
+  fun ref set_cairo_context(cr': cairo, dpi_x': F64, dpi_y': F64): None =>
+    GtkPrintContextP.set_cairo_context(this, cr', dpi_x', dpi_y')

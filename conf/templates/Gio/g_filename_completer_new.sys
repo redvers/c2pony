@@ -1,0 +1,2 @@
+  fun new(): GFilenameCompleter =>
+    @g_filename_completer_new()

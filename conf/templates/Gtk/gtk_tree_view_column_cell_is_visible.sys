@@ -1,0 +1,2 @@
+  fun cell_is_visible(tree_column': GtkTreeViewColumn): I32 =>
+    @gtk_tree_view_column_cell_is_visible(tree_column')

@@ -1,0 +1,2 @@
+  fun ref set_show_close_button(visible': I32): None =>
+    GtkSearchBarP.set_show_close_button(this, visible')

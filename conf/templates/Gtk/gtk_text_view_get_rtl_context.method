@@ -1,0 +1,2 @@
+  fun ref get_rtl_context(): PangoContext =>
+    GtkTextViewP.get_rtl_context(this)

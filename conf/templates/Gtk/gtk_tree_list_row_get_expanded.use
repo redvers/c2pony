@@ -1,0 +1,1 @@
+use @gtk_tree_list_row_get_expanded[I32](self': GtkTreeListRow)

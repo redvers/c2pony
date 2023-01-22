@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GProxyAddressPrivate
+  var ptr: NullablePointer[GProxyAddressPrivateT]
+
+  new create(ptr': NullablePointer[GProxyAddressPrivateT]) => ptr = ptr'

@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <ns namespace="Gdk">
+    <renderfunction name="gdk_cairo_draw_from_gl" ponyname="cairo_draw_from_gl" render="" deprecated="1"/>
+    <renderfunction name="gdk_cairo_rectangle" ponyname="cairo_rectangle" render="" deprecated=""/>
+    <renderfunction name="gdk_cairo_region" ponyname="cairo_region" render="" deprecated=""/>
+    <renderfunction name="gdk_cairo_region_create_from_surface" ponyname="cairo_region_create_from_surface" render="" deprecated=""/>
+    <renderfunction name="gdk_cairo_set_source_pixbuf" ponyname="cairo_set_source_pixbuf" render="" deprecated=""/>
+    <renderfunction name="gdk_cairo_set_source_rgba" ponyname="cairo_set_source_rgba" render="" deprecated=""/>
+    <renderfunction name="gdk_content_deserialize_async" ponyname="content_deserialize_async" render="" deprecated=""/>
+    <renderfunction name="gdk_content_deserialize_finish" ponyname="content_deserialize_finish" render="" deprecated=""/>
+    <renderfunction name="gdk_content_register_deserializer" ponyname="content_register_deserializer" render="" deprecated=""/>
+    <renderfunction name="gdk_content_register_serializer" ponyname="content_register_serializer" render="" deprecated=""/>
+    <renderfunction name="gdk_content_serialize_async" ponyname="content_serialize_async" render="" deprecated=""/>
+    <renderfunction name="gdk_content_serialize_finish" ponyname="content_serialize_finish" render="" deprecated=""/>
+    <renderfunction name="gdk_events_get_angle" ponyname="events_get_angle" render="" deprecated=""/>
+    <renderfunction name="gdk_events_get_center" ponyname="events_get_center" render="" deprecated=""/>
+    <renderfunction name="gdk_events_get_distance" ponyname="events_get_distance" render="" deprecated=""/>
+    <renderfunction name="gdk_intern_mime_type" ponyname="intern_mime_type" render="" deprecated=""/>
+    <renderfunction name="gdk_keyval_convert_case" ponyname="keyval_convert_case" render="" deprecated=""/>
+    <renderfunction name="gdk_keyval_from_name" ponyname="keyval_from_name" render="" deprecated=""/>
+    <renderfunction name="gdk_keyval_is_lower" ponyname="keyval_is_lower" render="" deprecated=""/>
+    <renderfunction name="gdk_keyval_is_upper" ponyname="keyval_is_upper" render="" deprecated=""/>
+    <renderfunction name="gdk_keyval_name" ponyname="keyval_name" render="" deprecated=""/>
+    <renderfunction name="gdk_keyval_to_lower" ponyname="keyval_to_lower" render="" deprecated=""/>
+    <renderfunction name="gdk_keyval_to_unicode" ponyname="keyval_to_unicode" render="" deprecated=""/>
+    <renderfunction name="gdk_keyval_to_upper" ponyname="keyval_to_upper" render="" deprecated=""/>
+    <renderfunction name="gdk_pango_layout_get_clip_region" ponyname="pango_layout_get_clip_region" render="" deprecated=""/>
+    <renderfunction name="gdk_pango_layout_line_get_clip_region" ponyname="pango_layout_line_get_clip_region" render="" deprecated=""/>
+    <renderfunction name="gdk_pixbuf_get_from_surface" ponyname="pixbuf_get_from_surface" render="" deprecated=""/>
+    <renderfunction name="gdk_pixbuf_get_from_texture" ponyname="pixbuf_get_from_texture" render="" deprecated=""/>
+    <renderfunction name="gdk_set_allowed_backends" ponyname="set_allowed_backends" render="" deprecated=""/>
+    <renderfunction name="gdk_toplevel_size_get_type" ponyname="toplevel_size_get_type" render="" deprecated=""/>
+    <renderfunction name="gdk_unicode_to_keyval" ponyname="unicode_to_keyval" render="" deprecated=""/>
+    <renderstruct name="GdkContentFormats" render="">
+      <renderconstructor name="gdk_content_formats_new" ponyname="new" render="" deprecated=""/>
+      <renderconstructor name="gdk_content_formats_new_for_gtype" ponyname="new_for_gtype" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_contain_gtype" ponyname="contain_gtype" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_contain_mime_type" ponyname="contain_mime_type" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_get_gtypes" ponyname="get_gtypes" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_get_mime_types" ponyname="get_mime_types" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_match" ponyname="match" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_match_gtype" ponyname="match_gtype" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_match_mime_type" ponyname="match_mime_type" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_print" ponyname="print" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_to_string" ponyname="to_string" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_union" ponyname="union" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_union_deserialize_gtypes" ponyname="union_deserialize_gtypes" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_union_deserialize_mime_types" ponyname="union_deserialize_mime_types" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_union_serialize_gtypes" ponyname="union_serialize_gtypes" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_union_serialize_mime_types" ponyname="union_serialize_mime_types" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_unref" ponyname="unref" render="" deprecated=""/>
+      <renderfunction name="gdk_content_formats_parse" ponyname="parse" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GdkContentFormatsBuilder" render="">
+      <renderconstructor name="gdk_content_formats_builder_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_builder_add_formats" ponyname="add_formats" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_builder_add_gtype" ponyname="add_gtype" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_builder_add_mime_type" ponyname="add_mime_type" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_builder_free_to_formats" ponyname="free_to_formats" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_builder_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_builder_to_formats" ponyname="to_formats" render="" deprecated=""/>
+      <rendermethod name="gdk_content_formats_builder_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GdkContentProviderClass" render="">
+</renderstruct>
+    <renderstruct name="GdkDevicePadInterface" render="">
+</renderstruct>
+    <renderstruct name="GdkDragSurfaceInterface" render="">
+</renderstruct>
+    <renderstruct name="GdkEventSequence" render="">
+</renderstruct>
+    <renderstruct name="GdkFileList" render="">
+      <rendermethod name="gdk_file_list_get_files" ponyname="get_files" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GdkFrameClockClass" render="">
+</renderstruct>
+    <renderstruct name="GdkFrameClockPrivate" render="">
+</renderstruct>
+    <renderstruct name="GdkFrameTimings" render="">
+      <rendermethod name="gdk_frame_timings_get_complete" ponyname="get_complete" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_timings_get_frame_counter" ponyname="get_frame_counter" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_timings_get_frame_time" ponyname="get_frame_time" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_timings_get_predicted_presentation_time" ponyname="get_predicted_presentation_time" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_timings_get_presentation_time" ponyname="get_presentation_time" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_timings_get_refresh_interval" ponyname="get_refresh_interval" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_timings_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_timings_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GdkGLTextureClass" render="">
+</renderstruct>
+    <renderstruct name="GdkKeymapKey" render="">
+</renderstruct>
+    <renderstruct name="GdkMemoryTextureClass" render="">
+</renderstruct>
+    <renderstruct name="GdkMonitorClass" render="">
+</renderstruct>
+    <renderstruct name="GdkPaintableInterface" render="">
+</renderstruct>
+    <renderstruct name="GdkPopupInterface" render="">
+</renderstruct>
+    <renderstruct name="GdkPopupLayout" render="">
+      <renderconstructor name="gdk_popup_layout_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_get_anchor_hints" ponyname="get_anchor_hints" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_get_anchor_rect" ponyname="get_anchor_rect" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_get_offset" ponyname="get_offset" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_get_rect_anchor" ponyname="get_rect_anchor" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_get_shadow_width" ponyname="get_shadow_width" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_get_surface_anchor" ponyname="get_surface_anchor" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_set_anchor_hints" ponyname="set_anchor_hints" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_set_anchor_rect" ponyname="set_anchor_rect" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_set_offset" ponyname="set_offset" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_set_rect_anchor" ponyname="set_rect_anchor" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_set_shadow_width" ponyname="set_shadow_width" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_set_surface_anchor" ponyname="set_surface_anchor" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_layout_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GdkRGBA" render="">
+      <rendermethod name="gdk_rgba_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="gdk_rgba_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="gdk_rgba_free" ponyname="free" render="" deprecated=""/>
+      <rendermethod name="gdk_rgba_hash" ponyname="hash" render="" deprecated=""/>
+      <rendermethod name="gdk_rgba_is_clear" ponyname="is_clear" render="" deprecated=""/>
+      <rendermethod name="gdk_rgba_is_opaque" ponyname="is_opaque" render="" deprecated=""/>
+      <rendermethod name="gdk_rgba_parse" ponyname="parse" render="" deprecated=""/>
+      <rendermethod name="gdk_rgba_to_string" ponyname="to_string" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GdkRectangle" render="">
+      <rendermethod name="gdk_rectangle_contains_point" ponyname="contains_point" render="" deprecated=""/>
+      <rendermethod name="gdk_rectangle_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="gdk_rectangle_intersect" ponyname="intersect" render="" deprecated=""/>
+      <rendermethod name="gdk_rectangle_union" ponyname="union" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GdkSnapshotClass" render="">
+</renderstruct>
+    <renderstruct name="GdkSurfaceClass" render="">
+</renderstruct>
+    <renderstruct name="GdkTextureClass" render="">
+</renderstruct>
+    <renderstruct name="GdkTimeCoord" render="">
+</renderstruct>
+    <renderstruct name="GdkToplevelInterface" render="">
+</renderstruct>
+    <renderstruct name="GdkToplevelLayout" render="">
+      <renderconstructor name="gdk_toplevel_layout_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_copy" ponyname="copy" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_equal" ponyname="equal" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_get_fullscreen" ponyname="get_fullscreen" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_get_fullscreen_monitor" ponyname="get_fullscreen_monitor" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_get_maximized" ponyname="get_maximized" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_get_resizable" ponyname="get_resizable" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_set_fullscreen" ponyname="set_fullscreen" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_set_maximized" ponyname="set_maximized" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_set_resizable" ponyname="set_resizable" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_layout_unref" ponyname="unref" render="" deprecated=""/>
+    </renderstruct>
+    <renderstruct name="GdkToplevelSize" render="">
+      <rendermethod name="gdk_toplevel_size_get_bounds" ponyname="get_bounds" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_size_set_min_size" ponyname="set_min_size" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_size_set_shadow_width" ponyname="set_shadow_width" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_size_set_size" ponyname="set_size" render="" deprecated=""/>
+    </renderstruct>
+    <renderclass name="GdkAppLaunchContext" render="" parent="Gio.AppLaunchContext" abstract="" final="" fundamental="">
+      <rendermethod name="gdk_app_launch_context_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_app_launch_context_set_desktop" ponyname="set_desktop" render="" deprecated=""/>
+      <rendermethod name="gdk_app_launch_context_set_icon" ponyname="set_icon" render="" deprecated=""/>
+      <rendermethod name="gdk_app_launch_context_set_icon_name" ponyname="set_icon_name" render="" deprecated=""/>
+      <rendermethod name="gdk_app_launch_context_set_timestamp" ponyname="set_timestamp" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkButtonEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_button_event_get_button" ponyname="get_button" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkCairoContext" render="" parent="DrawContext" abstract="1" final="" fundamental="">
+      <rendermethod name="gdk_cairo_context_cairo_create" ponyname="cairo_create" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkClipboard" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="gdk_clipboard_get_content" ponyname="get_content" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_get_formats" ponyname="get_formats" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_is_local" ponyname="is_local" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_read_async" ponyname="read_async" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_read_finish" ponyname="read_finish" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_read_text_async" ponyname="read_text_async" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_read_text_finish" ponyname="read_text_finish" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_read_texture_async" ponyname="read_texture_async" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_read_texture_finish" ponyname="read_texture_finish" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_read_value_async" ponyname="read_value_async" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_read_value_finish" ponyname="read_value_finish" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_set" ponyname="set" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_set_content" ponyname="set_content" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_set_text" ponyname="set_text" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_set_texture" ponyname="set_texture" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_set_valist" ponyname="set_valist" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_set_value" ponyname="set_value" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_store_async" ponyname="store_async" render="" deprecated=""/>
+      <rendermethod name="gdk_clipboard_store_finish" ponyname="store_finish" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkContentDeserializer" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="gdk_content_deserializer_get_cancellable" ponyname="get_cancellable" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_get_gtype" ponyname="get_gtype" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_get_input_stream" ponyname="get_input_stream" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_get_mime_type" ponyname="get_mime_type" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_get_priority" ponyname="get_priority" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_get_task_data" ponyname="get_task_data" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_get_user_data" ponyname="get_user_data" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_get_value" ponyname="get_value" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_return_error" ponyname="return_error" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_return_success" ponyname="return_success" render="" deprecated=""/>
+      <rendermethod name="gdk_content_deserializer_set_task_data" ponyname="set_task_data" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkContentProvider" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="gdk_content_provider_new_for_bytes" ponyname="new_for_bytes" render="" deprecated=""/>
+      <renderconstructor name="gdk_content_provider_new_for_value" ponyname="new_for_value" render="" deprecated=""/>
+      <renderconstructor name="gdk_content_provider_new_typed" ponyname="new_typed" render="" deprecated=""/>
+      <renderconstructor name="gdk_content_provider_new_union" ponyname="new_union" render="" deprecated=""/>
+      <rendermethod name="gdk_content_provider_content_changed" ponyname="content_changed" render="" deprecated=""/>
+      <rendermethod name="gdk_content_provider_get_value" ponyname="get_value" render="" deprecated=""/>
+      <rendermethod name="gdk_content_provider_ref_formats" ponyname="ref_formats" render="" deprecated=""/>
+      <rendermethod name="gdk_content_provider_ref_storable_formats" ponyname="ref_storable_formats" render="" deprecated=""/>
+      <rendermethod name="gdk_content_provider_write_mime_type_async" ponyname="write_mime_type_async" render="" deprecated=""/>
+      <rendermethod name="gdk_content_provider_write_mime_type_finish" ponyname="write_mime_type_finish" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkContentSerializer" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="gdk_content_serializer_get_cancellable" ponyname="get_cancellable" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_get_gtype" ponyname="get_gtype" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_get_mime_type" ponyname="get_mime_type" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_get_output_stream" ponyname="get_output_stream" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_get_priority" ponyname="get_priority" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_get_task_data" ponyname="get_task_data" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_get_user_data" ponyname="get_user_data" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_get_value" ponyname="get_value" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_return_error" ponyname="return_error" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_return_success" ponyname="return_success" render="" deprecated=""/>
+      <rendermethod name="gdk_content_serializer_set_task_data" ponyname="set_task_data" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkCrossingEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_crossing_event_get_detail" ponyname="get_detail" render="" deprecated=""/>
+      <rendermethod name="gdk_crossing_event_get_focus" ponyname="get_focus" render="" deprecated=""/>
+      <rendermethod name="gdk_crossing_event_get_mode" ponyname="get_mode" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkCursor" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="gdk_cursor_new_from_name" ponyname="new_from_name" render="" deprecated=""/>
+      <renderconstructor name="gdk_cursor_new_from_texture" ponyname="new_from_texture" render="" deprecated=""/>
+      <rendermethod name="gdk_cursor_get_fallback" ponyname="get_fallback" render="" deprecated=""/>
+      <rendermethod name="gdk_cursor_get_hotspot_x" ponyname="get_hotspot_x" render="" deprecated=""/>
+      <rendermethod name="gdk_cursor_get_hotspot_y" ponyname="get_hotspot_y" render="" deprecated=""/>
+      <rendermethod name="gdk_cursor_get_name" ponyname="get_name" render="" deprecated=""/>
+      <rendermethod name="gdk_cursor_get_texture" ponyname="get_texture" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkDNDEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_dnd_event_get_drop" ponyname="get_drop" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkDeleteEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GdkDevice" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="gdk_device_get_caps_lock_state" ponyname="get_caps_lock_state" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_device_tool" ponyname="get_device_tool" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_direction" ponyname="get_direction" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_has_cursor" ponyname="get_has_cursor" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_modifier_state" ponyname="get_modifier_state" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_name" ponyname="get_name" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_num_lock_state" ponyname="get_num_lock_state" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_num_touches" ponyname="get_num_touches" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_product_id" ponyname="get_product_id" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_scroll_lock_state" ponyname="get_scroll_lock_state" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_seat" ponyname="get_seat" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_source" ponyname="get_source" render="" deprecated="1"/>
+      <rendermethod name="gdk_device_get_surface_at_position" ponyname="get_surface_at_position" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_timestamp" ponyname="get_timestamp" render="" deprecated=""/>
+      <rendermethod name="gdk_device_get_vendor_id" ponyname="get_vendor_id" render="" deprecated=""/>
+      <rendermethod name="gdk_device_has_bidi_layouts" ponyname="has_bidi_layouts" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkDeviceTool" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="gdk_device_tool_get_axes" ponyname="get_axes" render="" deprecated=""/>
+      <rendermethod name="gdk_device_tool_get_hardware_id" ponyname="get_hardware_id" render="" deprecated=""/>
+      <rendermethod name="gdk_device_tool_get_serial" ponyname="get_serial" render="" deprecated=""/>
+      <rendermethod name="gdk_device_tool_get_tool_type" ponyname="get_tool_type" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkDisplay" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="gdk_display_beep" ponyname="beep" render="" deprecated=""/>
+      <rendermethod name="gdk_display_close" ponyname="close" render="" deprecated=""/>
+      <rendermethod name="gdk_display_create_gl_context" ponyname="create_gl_context" render="" deprecated=""/>
+      <rendermethod name="gdk_display_device_is_grabbed" ponyname="device_is_grabbed" render="" deprecated=""/>
+      <rendermethod name="gdk_display_flush" ponyname="flush" render="" deprecated=""/>
+      <rendermethod name="gdk_display_get_app_launch_context" ponyname="get_app_launch_context" render="" deprecated=""/>
+      <rendermethod name="gdk_display_get_clipboard" ponyname="get_clipboard" render="" deprecated=""/>
+      <rendermethod name="gdk_display_get_default_seat" ponyname="get_default_seat" render="" deprecated=""/>
+      <rendermethod name="gdk_display_get_monitor_at_surface" ponyname="get_monitor_at_surface" render="" deprecated=""/>
+      <rendermethod name="gdk_display_get_monitors" ponyname="get_monitors" render="" deprecated=""/>
+      <rendermethod name="gdk_display_get_name" ponyname="get_name" render="" deprecated=""/>
+      <rendermethod name="gdk_display_get_primary_clipboard" ponyname="get_primary_clipboard" render="" deprecated=""/>
+      <rendermethod name="gdk_display_get_setting" ponyname="get_setting" render="" deprecated=""/>
+      <rendermethod name="gdk_display_get_startup_notification_id" ponyname="get_startup_notification_id" render="" deprecated=""/>
+      <rendermethod name="gdk_display_is_closed" ponyname="is_closed" render="" deprecated=""/>
+      <rendermethod name="gdk_display_is_composited" ponyname="is_composited" render="" deprecated=""/>
+      <rendermethod name="gdk_display_is_rgba" ponyname="is_rgba" render="" deprecated=""/>
+      <rendermethod name="gdk_display_list_seats" ponyname="list_seats" render="" deprecated=""/>
+      <rendermethod name="gdk_display_map_keycode" ponyname="map_keycode" render="" deprecated=""/>
+      <rendermethod name="gdk_display_map_keyval" ponyname="map_keyval" render="" deprecated=""/>
+      <rendermethod name="gdk_display_notify_startup_complete" ponyname="notify_startup_complete" render="" deprecated=""/>
+      <rendermethod name="gdk_display_prepare_gl" ponyname="prepare_gl" render="" deprecated=""/>
+      <rendermethod name="gdk_display_put_event" ponyname="put_event" render="" deprecated=""/>
+      <rendermethod name="gdk_display_supports_input_shapes" ponyname="supports_input_shapes" render="" deprecated=""/>
+      <rendermethod name="gdk_display_sync" ponyname="sync" render="" deprecated=""/>
+      <rendermethod name="gdk_display_translate_key" ponyname="translate_key" render="" deprecated=""/>
+      <renderfunction name="gdk_display_get_default" ponyname="get_default" render="" deprecated=""/>
+      <renderfunction name="gdk_display_open" ponyname="open" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkDisplayManager" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="gdk_display_manager_get_default_display" ponyname="get_default_display" render="" deprecated=""/>
+      <rendermethod name="gdk_display_manager_list_displays" ponyname="list_displays" render="" deprecated=""/>
+      <rendermethod name="gdk_display_manager_open_display" ponyname="open_display" render="" deprecated=""/>
+      <rendermethod name="gdk_display_manager_set_default_display" ponyname="set_default_display" render="" deprecated=""/>
+      <renderfunction name="gdk_display_manager_get" ponyname="get" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkDrag" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="gdk_drag_drop_done" ponyname="drop_done" render="" deprecated=""/>
+      <rendermethod name="gdk_drag_get_actions" ponyname="get_actions" render="" deprecated=""/>
+      <rendermethod name="gdk_drag_get_content" ponyname="get_content" render="" deprecated=""/>
+      <rendermethod name="gdk_drag_get_device" ponyname="get_device" render="" deprecated=""/>
+      <rendermethod name="gdk_drag_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_drag_get_drag_surface" ponyname="get_drag_surface" render="" deprecated=""/>
+      <rendermethod name="gdk_drag_get_formats" ponyname="get_formats" render="" deprecated=""/>
+      <rendermethod name="gdk_drag_get_selected_action" ponyname="get_selected_action" render="" deprecated=""/>
+      <rendermethod name="gdk_drag_get_surface" ponyname="get_surface" render="" deprecated=""/>
+      <rendermethod name="gdk_drag_set_hotspot" ponyname="set_hotspot" render="" deprecated=""/>
+      <renderfunction name="gdk_drag_begin" ponyname="begin" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkDrawContext" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="gdk_draw_context_begin_frame" ponyname="begin_frame" render="" deprecated=""/>
+      <rendermethod name="gdk_draw_context_end_frame" ponyname="end_frame" render="" deprecated=""/>
+      <rendermethod name="gdk_draw_context_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_draw_context_get_frame_region" ponyname="get_frame_region" render="" deprecated=""/>
+      <rendermethod name="gdk_draw_context_get_surface" ponyname="get_surface" render="" deprecated=""/>
+      <rendermethod name="gdk_draw_context_is_in_frame" ponyname="is_in_frame" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkDrop" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="gdk_drop_finish" ponyname="finish" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_get_actions" ponyname="get_actions" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_get_device" ponyname="get_device" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_get_drag" ponyname="get_drag" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_get_formats" ponyname="get_formats" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_get_surface" ponyname="get_surface" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_read_async" ponyname="read_async" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_read_finish" ponyname="read_finish" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_read_value_async" ponyname="read_value_async" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_read_value_finish" ponyname="read_value_finish" render="" deprecated=""/>
+      <rendermethod name="gdk_drop_status" ponyname="status" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkEvent" render="" parent="" abstract="1" final="" fundamental="1">
+      <rendermethod name="gdk_events_get_angle" ponyname="_get_angle" render="" deprecated=""/>
+      <rendermethod name="gdk_events_get_center" ponyname="_get_center" render="" deprecated=""/>
+      <rendermethod name="gdk_events_get_distance" ponyname="_get_distance" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_axes" ponyname="get_axes" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_axis" ponyname="get_axis" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_device" ponyname="get_device" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_device_tool" ponyname="get_device_tool" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_event_sequence" ponyname="get_event_sequence" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_event_type" ponyname="get_event_type" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_history" ponyname="get_history" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_modifier_state" ponyname="get_modifier_state" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_pointer_emulated" ponyname="get_pointer_emulated" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_position" ponyname="get_position" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_seat" ponyname="get_seat" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_surface" ponyname="get_surface" render="" deprecated=""/>
+      <rendermethod name="gdk_event_get_time" ponyname="get_time" render="" deprecated=""/>
+      <rendermethod name="gdk_event_ref" ponyname="ref" render="" deprecated=""/>
+      <rendermethod name="gdk_event_triggers_context_menu" ponyname="triggers_context_menu" render="" deprecated=""/>
+      <rendermethod name="gdk_event_unref" ponyname="unref" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkFocusEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_focus_event_get_in" ponyname="get_in" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkFrameClock" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="gdk_frame_clock_begin_updating" ponyname="begin_updating" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_clock_end_updating" ponyname="end_updating" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_clock_get_current_timings" ponyname="get_current_timings" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_clock_get_fps" ponyname="get_fps" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_clock_get_frame_counter" ponyname="get_frame_counter" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_clock_get_frame_time" ponyname="get_frame_time" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_clock_get_history_start" ponyname="get_history_start" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_clock_get_refresh_info" ponyname="get_refresh_info" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_clock_get_timings" ponyname="get_timings" render="" deprecated=""/>
+      <rendermethod name="gdk_frame_clock_request_phase" ponyname="request_phase" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkGLContext" render="" parent="DrawContext" abstract="1" final="" fundamental="">
+      <rendermethod name="gdk_gl_context_get_allowed_apis" ponyname="get_allowed_apis" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_get_api" ponyname="get_api" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_get_debug_enabled" ponyname="get_debug_enabled" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_get_forward_compatible" ponyname="get_forward_compatible" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_get_required_version" ponyname="get_required_version" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_get_shared_context" ponyname="get_shared_context" render="" deprecated="1"/>
+      <rendermethod name="gdk_gl_context_get_surface" ponyname="get_surface" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_get_use_es" ponyname="get_use_es" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_get_version" ponyname="get_version" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_is_legacy" ponyname="is_legacy" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_is_shared" ponyname="is_shared" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_make_current" ponyname="make_current" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_realize" ponyname="realize" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_set_allowed_apis" ponyname="set_allowed_apis" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_set_debug_enabled" ponyname="set_debug_enabled" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_set_forward_compatible" ponyname="set_forward_compatible" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_set_required_version" ponyname="set_required_version" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_context_set_use_es" ponyname="set_use_es" render="" deprecated=""/>
+      <renderfunction name="gdk_gl_context_clear_current" ponyname="clear_current" render="" deprecated=""/>
+      <renderfunction name="gdk_gl_context_get_current" ponyname="get_current" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkGLTexture" render="" parent="Texture" abstract="" final="" fundamental="">
+      <renderconstructor name="gdk_gl_texture_new" ponyname="new" render="" deprecated=""/>
+      <rendermethod name="gdk_gl_texture_release" ponyname="release" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkGrabBrokenEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_grab_broken_event_get_grab_surface" ponyname="get_grab_surface" render="" deprecated=""/>
+      <rendermethod name="gdk_grab_broken_event_get_implicit" ponyname="get_implicit" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkKeyEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_key_event_get_consumed_modifiers" ponyname="get_consumed_modifiers" render="" deprecated=""/>
+      <rendermethod name="gdk_key_event_get_keycode" ponyname="get_keycode" render="" deprecated=""/>
+      <rendermethod name="gdk_key_event_get_keyval" ponyname="get_keyval" render="" deprecated=""/>
+      <rendermethod name="gdk_key_event_get_layout" ponyname="get_layout" render="" deprecated=""/>
+      <rendermethod name="gdk_key_event_get_level" ponyname="get_level" render="" deprecated=""/>
+      <rendermethod name="gdk_key_event_get_match" ponyname="get_match" render="" deprecated=""/>
+      <rendermethod name="gdk_key_event_is_modifier" ponyname="is_modifier" render="" deprecated=""/>
+      <rendermethod name="gdk_key_event_matches" ponyname="matches" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkMemoryTexture" render="" parent="Texture" abstract="" final="" fundamental="">
+      <renderconstructor name="gdk_memory_texture_new" ponyname="new" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkMonitor" render="" parent="GObject.Object" abstract="" final="" fundamental="">
+      <rendermethod name="gdk_monitor_get_connector" ponyname="get_connector" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_get_geometry" ponyname="get_geometry" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_get_height_mm" ponyname="get_height_mm" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_get_manufacturer" ponyname="get_manufacturer" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_get_model" ponyname="get_model" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_get_refresh_rate" ponyname="get_refresh_rate" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_get_scale_factor" ponyname="get_scale_factor" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_get_subpixel_layout" ponyname="get_subpixel_layout" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_get_width_mm" ponyname="get_width_mm" render="" deprecated=""/>
+      <rendermethod name="gdk_monitor_is_valid" ponyname="is_valid" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkMotionEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GdkPadEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_pad_event_get_axis_value" ponyname="get_axis_value" render="" deprecated=""/>
+      <rendermethod name="gdk_pad_event_get_button" ponyname="get_button" render="" deprecated=""/>
+      <rendermethod name="gdk_pad_event_get_group_mode" ponyname="get_group_mode" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkProximityEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+</renderclass>
+    <renderclass name="GdkScrollEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_scroll_event_get_deltas" ponyname="get_deltas" render="" deprecated=""/>
+      <rendermethod name="gdk_scroll_event_get_direction" ponyname="get_direction" render="" deprecated=""/>
+      <rendermethod name="gdk_scroll_event_is_stop" ponyname="is_stop" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkSeat" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <rendermethod name="gdk_seat_get_capabilities" ponyname="get_capabilities" render="" deprecated=""/>
+      <rendermethod name="gdk_seat_get_devices" ponyname="get_devices" render="" deprecated=""/>
+      <rendermethod name="gdk_seat_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_seat_get_keyboard" ponyname="get_keyboard" render="" deprecated=""/>
+      <rendermethod name="gdk_seat_get_pointer" ponyname="get_pointer" render="" deprecated=""/>
+      <rendermethod name="gdk_seat_get_tools" ponyname="get_tools" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkSnapshot" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+</renderclass>
+    <renderclass name="GdkSurface" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <renderconstructor name="gdk_surface_new_popup" ponyname="new_popup" render="" deprecated=""/>
+      <renderconstructor name="gdk_surface_new_toplevel" ponyname="new_toplevel" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_beep" ponyname="beep" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_create_cairo_context" ponyname="create_cairo_context" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_create_gl_context" ponyname="create_gl_context" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_create_similar_surface" ponyname="create_similar_surface" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_create_vulkan_context" ponyname="create_vulkan_context" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_destroy" ponyname="destroy" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_get_cursor" ponyname="get_cursor" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_get_device_cursor" ponyname="get_device_cursor" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_get_device_position" ponyname="get_device_position" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_get_display" ponyname="get_display" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_get_frame_clock" ponyname="get_frame_clock" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_get_height" ponyname="get_height" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_get_mapped" ponyname="get_mapped" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_get_scale_factor" ponyname="get_scale_factor" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_get_width" ponyname="get_width" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_hide" ponyname="hide" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_is_destroyed" ponyname="is_destroyed" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_queue_render" ponyname="queue_render" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_request_layout" ponyname="request_layout" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_set_cursor" ponyname="set_cursor" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_set_device_cursor" ponyname="set_device_cursor" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_set_input_region" ponyname="set_input_region" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_set_opaque_region" ponyname="set_opaque_region" render="" deprecated=""/>
+      <rendermethod name="gdk_surface_translate_coordinates" ponyname="translate_coordinates" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkTexture" render="" parent="GObject.Object" abstract="1" final="" fundamental="">
+      <renderconstructor name="gdk_texture_new_for_pixbuf" ponyname="new_for_pixbuf" render="" deprecated=""/>
+      <renderconstructor name="gdk_texture_new_from_bytes" ponyname="new_from_bytes" render="" deprecated=""/>
+      <renderconstructor name="gdk_texture_new_from_file" ponyname="new_from_file" render="" deprecated=""/>
+      <renderconstructor name="gdk_texture_new_from_filename" ponyname="new_from_filename" render="" deprecated=""/>
+      <renderconstructor name="gdk_texture_new_from_resource" ponyname="new_from_resource" render="" deprecated=""/>
+      <rendermethod name="gdk_texture_download" ponyname="download" render="" deprecated=""/>
+      <rendermethod name="gdk_texture_get_height" ponyname="get_height" render="" deprecated=""/>
+      <rendermethod name="gdk_texture_get_width" ponyname="get_width" render="" deprecated=""/>
+      <rendermethod name="gdk_texture_save_to_png" ponyname="save_to_png" render="" deprecated=""/>
+      <rendermethod name="gdk_texture_save_to_png_bytes" ponyname="save_to_png_bytes" render="" deprecated=""/>
+      <rendermethod name="gdk_texture_save_to_tiff" ponyname="save_to_tiff" render="" deprecated=""/>
+      <rendermethod name="gdk_texture_save_to_tiff_bytes" ponyname="save_to_tiff_bytes" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkTouchEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_touch_event_get_emulating_pointer" ponyname="get_emulating_pointer" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkTouchpadEvent" render="" parent="Event" abstract="" final="" fundamental="1">
+      <rendermethod name="gdk_touchpad_event_get_deltas" ponyname="get_deltas" render="" deprecated=""/>
+      <rendermethod name="gdk_touchpad_event_get_gesture_phase" ponyname="get_gesture_phase" render="" deprecated=""/>
+      <rendermethod name="gdk_touchpad_event_get_n_fingers" ponyname="get_n_fingers" render="" deprecated=""/>
+      <rendermethod name="gdk_touchpad_event_get_pinch_angle_delta" ponyname="get_pinch_angle_delta" render="" deprecated=""/>
+      <rendermethod name="gdk_touchpad_event_get_pinch_scale" ponyname="get_pinch_scale" render="" deprecated=""/>
+    </renderclass>
+    <renderclass name="GdkVulkanContext" render="" parent="DrawContext" abstract="1" final="" fundamental="">
+</renderclass>
+    <renderinterface name="GdkDevicePad" render="">
+      <rendermethod name="gdk_device_pad_get_feature_group" ponyname="get_feature_group" render="" deprecated=""/>
+      <rendermethod name="gdk_device_pad_get_group_n_modes" ponyname="get_group_n_modes" render="" deprecated=""/>
+      <rendermethod name="gdk_device_pad_get_n_features" ponyname="get_n_features" render="" deprecated=""/>
+      <rendermethod name="gdk_device_pad_get_n_groups" ponyname="get_n_groups" render="" deprecated=""/>
+    </renderinterface>
+    <renderinterface name="GdkDragSurface" render="">
+      <rendermethod name="gdk_drag_surface_present" ponyname="present" render="" deprecated=""/>
+    </renderinterface>
+    <renderinterface name="GdkPaintable" render="">
+      <rendermethod name="gdk_paintable_compute_concrete_size" ponyname="compute_concrete_size" render="" deprecated=""/>
+      <rendermethod name="gdk_paintable_get_current_image" ponyname="get_current_image" render="" deprecated=""/>
+      <rendermethod name="gdk_paintable_get_flags" ponyname="get_flags" render="" deprecated=""/>
+      <rendermethod name="gdk_paintable_get_intrinsic_aspect_ratio" ponyname="get_intrinsic_aspect_ratio" render="" deprecated=""/>
+      <rendermethod name="gdk_paintable_get_intrinsic_height" ponyname="get_intrinsic_height" render="" deprecated=""/>
+      <rendermethod name="gdk_paintable_get_intrinsic_width" ponyname="get_intrinsic_width" render="" deprecated=""/>
+      <rendermethod name="gdk_paintable_invalidate_contents" ponyname="invalidate_contents" render="" deprecated=""/>
+      <rendermethod name="gdk_paintable_invalidate_size" ponyname="invalidate_size" render="" deprecated=""/>
+      <rendermethod name="gdk_paintable_snapshot" ponyname="snapshot" render="" deprecated=""/>
+      <renderfunction name="gdk_paintable_new_empty" ponyname="new_empty" render="" deprecated=""/>
+    </renderinterface>
+    <renderinterface name="GdkPopup" render="">
+      <rendermethod name="gdk_popup_get_autohide" ponyname="get_autohide" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_get_parent" ponyname="get_parent" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_get_position_x" ponyname="get_position_x" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_get_position_y" ponyname="get_position_y" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_get_rect_anchor" ponyname="get_rect_anchor" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_get_surface_anchor" ponyname="get_surface_anchor" render="" deprecated=""/>
+      <rendermethod name="gdk_popup_present" ponyname="present" render="" deprecated=""/>
+    </renderinterface>
+    <renderinterface name="GdkToplevel" render="">
+      <rendermethod name="gdk_toplevel_begin_move" ponyname="begin_move" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_begin_resize" ponyname="begin_resize" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_focus" ponyname="focus" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_get_state" ponyname="get_state" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_inhibit_system_shortcuts" ponyname="inhibit_system_shortcuts" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_lower" ponyname="lower" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_minimize" ponyname="minimize" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_present" ponyname="present" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_restore_system_shortcuts" ponyname="restore_system_shortcuts" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_set_decorated" ponyname="set_decorated" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_set_deletable" ponyname="set_deletable" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_set_icon_list" ponyname="set_icon_list" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_set_modal" ponyname="set_modal" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_set_startup_id" ponyname="set_startup_id" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_set_title" ponyname="set_title" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_set_transient_for" ponyname="set_transient_for" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_show_window_menu" ponyname="show_window_menu" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_supports_edge_constraints" ponyname="supports_edge_constraints" render="" deprecated=""/>
+      <rendermethod name="gdk_toplevel_titlebar_gesture" ponyname="titlebar_gesture" render="" deprecated=""/>
+    </renderinterface>
+    <rendercallback name="GdkContentDeserializeFunc" render="0"/>
+    <rendercallback name="GdkContentSerializeFunc" render="0"/>
+  </ns>
+</rs>

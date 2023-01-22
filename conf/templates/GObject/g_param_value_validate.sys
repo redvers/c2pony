@@ -1,0 +1,2 @@
+  fun param_value_validate(pspec': GParamSpec, value': GValue): I32 =>
+    @g_param_value_validate(pspec', value')

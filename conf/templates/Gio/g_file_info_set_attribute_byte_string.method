@@ -1,0 +1,2 @@
+  fun ref set_attribute_byte_string(attribute': String, attr_value': String): None =>
+    GFileInfoP.set_attribute_byte_string(this, attribute', attr_value')

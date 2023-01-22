@@ -1,0 +1,2 @@
+  fun get_strength(constraint': GtkConstraint): I32 =>
+    @gtk_constraint_get_strength(constraint')

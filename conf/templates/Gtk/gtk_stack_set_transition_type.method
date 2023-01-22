@@ -1,0 +1,2 @@
+  fun ref set_transition_type(transition': U32): None =>
+    GtkStackP.set_transition_type(this, transition')

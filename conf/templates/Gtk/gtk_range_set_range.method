@@ -1,0 +1,2 @@
+  fun ref set_range(min': F64, max': F64): None =>
+    GtkRangeP.set_range(this, min', max')

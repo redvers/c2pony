@@ -1,0 +1,2 @@
+  fun remove_application(bookmark': GBookmarkFile, uri': String, name': String, error': Pointer[GError]): I32 =>
+    @g_bookmark_file_remove_application(bookmark', uri'.cstring(), name'.cstring(), error')

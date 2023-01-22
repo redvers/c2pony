@@ -1,0 +1,2 @@
+  fun remove_interface_by_name(object': GDBusObjectSkeleton, interface_name': String): None =>
+    @g_dbus_object_skeleton_remove_interface_by_name(object', interface_name'.cstring())

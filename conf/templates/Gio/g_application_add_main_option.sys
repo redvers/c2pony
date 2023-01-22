@@ -1,0 +1,2 @@
+  fun add_main_option(application': GApplicationI, long_name': String, short_name': U8, flags': U32, arg': U32, description': String, arg_description': String): None =>
+    @g_application_add_main_option(application'.getptr(), long_name'.cstring(), short_name', flags', arg', description'.cstring(), arg_description'.cstring())

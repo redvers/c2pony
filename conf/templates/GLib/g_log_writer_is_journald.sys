@@ -1,0 +1,2 @@
+  fun log_writer_is_journald(output_fd': I32): I32 =>
+    @g_log_writer_is_journald(output_fd')

@@ -1,0 +1,2 @@
+  fun set_state_hint(simple': GSimpleAction, state_hint': GVariant): None =>
+    @g_simple_action_set_state_hint(simple', state_hint')

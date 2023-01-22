@@ -1,0 +1,1 @@
+use @gtk_column_view_column_get_resizable[I32](self': GtkColumnViewColumn)

@@ -1,0 +1,2 @@
+  fun set_local_address(client': GSocketClient, address': GSocketAddress): None =>
+    @g_socket_client_set_local_address(client', address')

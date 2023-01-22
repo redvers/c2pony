@@ -1,0 +1,2 @@
+  fun ref set_vadjustment(adjustment': GtkAdjustment): None =>
+    GtkFlowBoxP.set_vadjustment(this, adjustment')

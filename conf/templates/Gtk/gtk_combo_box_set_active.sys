@@ -1,0 +1,2 @@
+  fun set_active(combo_box': GtkComboBox, index': I32): None =>
+    @gtk_combo_box_set_active(combo_box', index')

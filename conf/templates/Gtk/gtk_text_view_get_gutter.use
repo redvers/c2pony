@@ -1,0 +1,1 @@
+use @gtk_text_view_get_gutter[Pointer[GObjectP]](text_view': GtkTextView, win': U32)

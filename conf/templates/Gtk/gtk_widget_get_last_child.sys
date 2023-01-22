@@ -1,0 +1,2 @@
+  fun get_last_child(widget': GtkWidgetI): Pointer[GObjectP] =>
+@gtk_widget_get_last_child(widget'.getptr())

@@ -1,0 +1,2 @@
+  fun ref set_required_type(type': U64): None =>
+    GIOExtensionPointP.set_required_type(this, type')

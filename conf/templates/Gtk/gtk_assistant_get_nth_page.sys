@@ -1,0 +1,2 @@
+  fun get_nth_page(assistant': GtkAssistant, page_num': I32): Pointer[GObjectP] =>
+@gtk_assistant_get_nth_page(assistant', page_num')

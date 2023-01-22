@@ -1,0 +1,1 @@
+use @g_type_get_plugin[GTypePlugin](type': U64)

@@ -1,0 +1,2 @@
+  fun ref set_auto_render(auto_render': I32): None =>
+    GtkGLAreaP.set_auto_render(this, auto_render')

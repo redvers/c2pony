@@ -1,0 +1,2 @@
+  fun random_double_range(begin': F64, end': F64): F64 =>
+    @g_random_double_range(begin', end')

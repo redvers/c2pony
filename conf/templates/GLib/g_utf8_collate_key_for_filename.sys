@@ -1,0 +1,2 @@
+  fun utf8_collate_key_for_filename(str': String, len': I64): String iso^ =>
+    String.from_cstring(@g_utf8_collate_key_for_filename(str'.cstring(), len')).clone()

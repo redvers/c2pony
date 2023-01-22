@@ -1,0 +1,2 @@
+  fun get_model(self': GtkColumnView): GtkSelectionModel =>
+    @gtk_column_view_get_model(self')

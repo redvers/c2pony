@@ -1,0 +1,2 @@
+  fun ref error_bell(): None =>
+    GtkWidgetP.error_bell(this)

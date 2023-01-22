@@ -1,0 +1,2 @@
+  fun ref get_can_acquire(): I32 =>
+    GPermissionP.get_can_acquire(this)

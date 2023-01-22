@@ -1,0 +1,2 @@
+  fun ref get_rubber_banding(): I32 =>
+    GtkTreeViewP.get_rubber_banding(this)

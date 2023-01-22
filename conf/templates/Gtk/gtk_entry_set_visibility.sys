@@ -1,0 +1,2 @@
+  fun set_visibility(entry': GtkEntry, visible': I32): None =>
+    @gtk_entry_set_visibility(entry', visible')

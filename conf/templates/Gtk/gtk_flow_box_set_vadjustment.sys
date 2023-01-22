@@ -1,0 +1,2 @@
+  fun set_vadjustment(box': GtkFlowBox, adjustment': GtkAdjustment): None =>
+    @gtk_flow_box_set_vadjustment(box', adjustment')

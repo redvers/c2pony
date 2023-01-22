@@ -1,0 +1,1 @@
+use @gtk_single_selection_get_selected_item[Pointer[None] tag](self': GtkSingleSelection)

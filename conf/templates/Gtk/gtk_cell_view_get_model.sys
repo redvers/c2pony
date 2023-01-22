@@ -1,0 +1,2 @@
+  fun get_model(cell_view': GtkCellView): GtkTreeModel =>
+    @gtk_cell_view_get_model(cell_view')

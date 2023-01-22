@@ -1,0 +1,2 @@
+  fun find_child(node': GNode, flags': U32, data': Pointer[None] tag): GNode =>
+    @g_node_find_child(node', flags', data')

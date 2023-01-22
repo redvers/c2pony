@@ -1,0 +1,1 @@
+use @gtk_flow_box_child_is_selected[I32](child': GtkFlowBoxChild)

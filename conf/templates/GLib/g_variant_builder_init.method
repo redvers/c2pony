@@ -1,0 +1,2 @@
+  fun ref init(type': GVariantType): None =>
+    GVariantBuilderP.init(this, type')

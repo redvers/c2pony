@@ -1,0 +1,2 @@
+  fun ref reorder_child(child': GtkWidgetI, position': I32): None =>
+    GtkNotebookP.reorder_child(this, child', position')

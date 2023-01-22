@@ -1,0 +1,2 @@
+  fun ref get_mount_for_uuid(uuid': String): GMount =>
+    GVolumeMonitorP.get_mount_for_uuid(this, uuid')

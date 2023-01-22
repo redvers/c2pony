@@ -1,0 +1,2 @@
+  fun is_same(cert_one': GTlsCertificate, cert_two': GTlsCertificate): I32 =>
+    @g_tls_certificate_is_same(cert_one', cert_two')

@@ -1,0 +1,2 @@
+  fun ref steal_as_bytes(): GBytes =>
+    GMemoryOutputStreamP.steal_as_bytes(this)

@@ -1,0 +1,2 @@
+  fun set_file(self': GtkVideo, file': GFile): None =>
+    @gtk_video_set_file(self', file')

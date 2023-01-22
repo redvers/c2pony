@@ -1,0 +1,1 @@
+use @g_subprocess_communicate[I32](subprocess': GSubprocess, stdin_buf': GBytes, cancellable': GCancellable, stdout_buf': Pointer[GBytes], stderr_buf': Pointer[GBytes], error': Pointer[NullablePointer[GErrorT]])

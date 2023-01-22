@@ -1,0 +1,2 @@
+  fun new(digest_type': U32, key': String, key_len': U64): GHmac =>
+    @g_hmac_new(digest_type', key'.cstring(), key_len')

@@ -1,0 +1,2 @@
+  fun ref get_tooltip_context(x': I32, y': I32, keyboard_tip': I32, model': Pointer[GtkTreeModel], path': Pointer[GtkTreePath], iter': GtkTreeIter): I32 =>
+    GtkIconViewP.get_tooltip_context(this, x', y', keyboard_tip', model', path', iter')

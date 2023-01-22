@@ -1,0 +1,1 @@
+use @gtk_revealer_get_reveal_child[I32](revealer': GtkRevealer)

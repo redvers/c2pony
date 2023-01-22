@@ -1,0 +1,2 @@
+  fun set_use_full_page(op': GtkPrintOperation, full_page': I32): None =>
+    @gtk_print_operation_set_use_full_page(op', full_page')

@@ -1,0 +1,2 @@
+  fun unsetenv(variable': String): None =>
+    @g_unsetenv(variable'.cstring())

@@ -1,0 +1,2 @@
+  fun ref seek(timestamp': I64): None =>
+    GtkMediaStreamP.seek(this, timestamp')

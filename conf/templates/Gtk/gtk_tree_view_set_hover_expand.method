@@ -1,0 +1,2 @@
+  fun ref set_hover_expand(expand': I32): None =>
+    GtkTreeViewP.set_hover_expand(this, expand')

@@ -1,0 +1,2 @@
+  fun get_completed(task': GTask): I32 =>
+    @g_task_get_completed(task')

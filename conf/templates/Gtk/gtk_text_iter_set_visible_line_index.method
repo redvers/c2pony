@@ -1,0 +1,2 @@
+  fun ref set_visible_line_index(byte_on_line': I32): None =>
+    GtkTextIterP.set_visible_line_index(this, byte_on_line')

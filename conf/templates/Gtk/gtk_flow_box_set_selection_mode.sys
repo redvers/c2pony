@@ -1,0 +1,2 @@
+  fun set_selection_mode(box': GtkFlowBox, mode': U32): None =>
+    @gtk_flow_box_set_selection_mode(box', mode')

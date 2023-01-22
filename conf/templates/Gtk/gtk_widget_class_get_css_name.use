@@ -1,0 +1,1 @@
+use @gtk_widget_class_get_css_name[Pointer[U8]](widget_class': GtkWidgetClass)

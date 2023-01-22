@@ -1,0 +1,1 @@
+use @g_dbus_proxy_get_default_timeout[I32](proxy': GDBusProxy)

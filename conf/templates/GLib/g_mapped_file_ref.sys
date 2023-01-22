@@ -1,0 +1,2 @@
+  fun ref(file': GMappedFile): GMappedFile =>
+    @g_mapped_file_ref(file')

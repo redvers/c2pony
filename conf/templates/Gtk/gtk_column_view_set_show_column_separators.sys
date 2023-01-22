@@ -1,0 +1,2 @@
+  fun set_show_column_separators(self': GtkColumnView, show_column_separators': I32): None =>
+    @gtk_column_view_set_show_column_separators(self', show_column_separators')

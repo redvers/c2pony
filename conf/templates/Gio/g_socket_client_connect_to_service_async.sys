@@ -1,0 +1,2 @@
+  fun connect_to_service_async(client': GSocketClient, domain': String, service': String, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_client_connect_to_service_async(client', domain'.cstring(), service'.cstring(), cancellable', callback', user_data')

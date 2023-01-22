@@ -1,0 +1,2 @@
+  fun end_parse(context': GMarkupParseContext, error': Pointer[GError]): I32 =>
+    @g_markup_parse_context_end_parse(context', error')

@@ -1,0 +1,2 @@
+  fun connect(cancellable': GCancellable, callback': GCallback, data': Pointer[None] tag, data_destroy_func': GDestroyNotify): U64 =>
+    @g_cancellable_connect(cancellable', callback', data', data_destroy_func')

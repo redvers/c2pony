@@ -1,0 +1,2 @@
+  fun ref set_export_filename(filename': String): None =>
+    GtkPrintOperationP.set_export_filename(this, filename')

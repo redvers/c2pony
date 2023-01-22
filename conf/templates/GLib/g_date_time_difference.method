@@ -1,0 +1,2 @@
+  fun ref difference(begin': GDateTime): I64 =>
+    GDateTimeP.difference(this, begin')

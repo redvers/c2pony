@@ -1,0 +1,2 @@
+  fun ref nnodes(): I32 =>
+    GTreeP.nnodes(this)

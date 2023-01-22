@@ -1,0 +1,2 @@
+  fun set_restrict_to_fill_level(range': GtkRange, restrict_to_fill_level': I32): None =>
+    @gtk_range_set_restrict_to_fill_level(range', restrict_to_fill_level')

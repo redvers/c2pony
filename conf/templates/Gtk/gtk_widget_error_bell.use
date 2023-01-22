@@ -1,0 +1,1 @@
+use @gtk_widget_error_bell[None](widget': Pointer[GObjectP])

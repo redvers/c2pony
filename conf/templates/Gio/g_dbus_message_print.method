@@ -1,0 +1,2 @@
+  fun ref print(indent': U32): String iso^ =>
+    GDBusMessageP.print(this, indent')

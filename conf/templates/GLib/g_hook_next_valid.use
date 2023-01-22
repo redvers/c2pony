@@ -1,0 +1,1 @@
+use @g_hook_next_valid[GHook](hook_list': GHookList, hook': GHook, may_be_in_call': I32)

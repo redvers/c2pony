@@ -1,0 +1,2 @@
+  fun strsignal(signum': I32): String iso^ =>
+    String.from_cstring(@g_strsignal(signum')).clone()

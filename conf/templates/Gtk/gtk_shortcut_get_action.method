@@ -1,0 +1,2 @@
+  fun ref get_action(): GtkShortcutAction =>
+    GtkShortcutP.get_action(this)

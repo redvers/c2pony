@@ -1,0 +1,2 @@
+  fun prepend(string': GString, val': String): GString =>
+    @g_string_prepend(string', val'.cstring())

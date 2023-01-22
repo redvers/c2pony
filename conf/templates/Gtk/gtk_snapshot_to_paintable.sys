@@ -1,0 +1,2 @@
+  fun to_paintable(snapshot': GdkSnapshot, size': graphenesizet): GdkPaintable =>
+    @gtk_snapshot_to_paintable(snapshot', size')

@@ -1,0 +1,2 @@
+  fun ref get_strength(): I32 =>
+    GtkConstraintP.get_strength(this)

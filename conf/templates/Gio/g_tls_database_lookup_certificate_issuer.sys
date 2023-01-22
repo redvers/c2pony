@@ -1,0 +1,2 @@
+  fun lookup_certificate_issuer(self': GTlsDatabase, certificate': GTlsCertificate, interaction': GTlsInteraction, flags': U32, cancellable': GCancellable, error': GError): GTlsCertificate =>
+    @g_tls_database_lookup_certificate_issuer(self', certificate', interaction', flags', cancellable', addressof error'.ptr)

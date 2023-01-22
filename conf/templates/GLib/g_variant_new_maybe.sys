@@ -1,0 +1,2 @@
+  fun new_maybe(child_type': GVariantType, child': GVariant): GVariant =>
+    @g_variant_new_maybe(child_type', child')

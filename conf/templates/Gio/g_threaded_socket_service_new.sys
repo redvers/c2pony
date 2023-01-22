@@ -1,0 +1,2 @@
+  fun new(max_threads': I32): GSocketService =>
+    @g_threaded_socket_service_new(max_threads')

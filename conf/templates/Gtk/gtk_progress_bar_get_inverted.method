@@ -1,0 +1,2 @@
+  fun ref get_inverted(): I32 =>
+    GtkProgressBarP.get_inverted(this)

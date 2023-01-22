@@ -1,0 +1,2 @@
+  fun set(key': GPrivate, value': Pointer[None] tag): None =>
+    @g_private_set(key', value')

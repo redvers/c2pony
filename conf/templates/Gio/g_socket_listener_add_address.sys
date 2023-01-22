@@ -1,0 +1,2 @@
+  fun add_address(listener': GSocketListener, address': GSocketAddress, type': U32, protocol': I32, source_object': GObjectI, effective_address': Pointer[GSocketAddress], error': GError): I32 =>
+    @g_socket_listener_add_address(listener', address', type', protocol', source_object'.getptr(), effective_address', addressof error'.ptr)

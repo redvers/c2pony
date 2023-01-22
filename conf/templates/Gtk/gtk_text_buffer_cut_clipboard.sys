@@ -1,0 +1,2 @@
+  fun cut_clipboard(buffer': GtkTextBuffer, clipboard': GdkClipboard, default_editable': I32): None =>
+    @gtk_text_buffer_cut_clipboard(buffer', clipboard', default_editable')

@@ -1,0 +1,2 @@
+  fun get_signature(message': GDBusMessage): String iso^ =>
+    String.from_cstring(@g_dbus_message_get_signature(message')).clone()

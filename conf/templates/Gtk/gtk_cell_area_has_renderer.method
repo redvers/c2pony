@@ -1,0 +1,2 @@
+  fun ref has_renderer(renderer': GtkCellRenderer): I32 =>
+    GtkCellAreaP.has_renderer(this, renderer')

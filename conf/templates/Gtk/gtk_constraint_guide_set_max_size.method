@@ -1,0 +1,2 @@
+  fun ref set_max_size(width': I32, height': I32): None =>
+    GtkConstraintGuideP.set_max_size(this, width', height')

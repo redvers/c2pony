@@ -1,0 +1,1 @@
+use @gtk_stack_sidebar_new[Pointer[GObjectP]]()

@@ -1,0 +1,2 @@
+  fun ref set_can_unselect(can_unselect': I32): None =>
+    GtkSingleSelectionP.set_can_unselect(this, can_unselect')

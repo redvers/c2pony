@@ -1,0 +1,2 @@
+  fun new_from_paintable(paintable': GdkPaintable): Pointer[GObjectP] =>
+@gtk_image_new_from_paintable(paintable')

@@ -1,0 +1,2 @@
+  fun ref get_alignment(xalign': Pointer[F32] tag, yalign': Pointer[F32] tag): None =>
+    GtkCellRendererP.get_alignment(this, xalign', yalign')

@@ -1,0 +1,2 @@
+  fun ref add_action_widget(child': GtkWidgetI, response_id': I32): None =>
+    GtkDialogP.add_action_widget(this, child', response_id')

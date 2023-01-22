@@ -1,0 +1,2 @@
+  fun ref set_alternative_text(alternative_text': String): None =>
+    GtkPictureP.set_alternative_text(this, alternative_text')

@@ -1,0 +1,2 @@
+  fun get_child_at(grid': GtkGrid, column': I32, row': I32): Pointer[GObjectP] =>
+@gtk_grid_get_child_at(grid', column', row')

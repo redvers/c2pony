@@ -1,0 +1,2 @@
+  fun new(item_type': U64): GListStore =>
+    @g_list_store_new(item_type')

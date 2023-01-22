@@ -1,0 +1,2 @@
+  fun add_emblem(emblemed': GEmblemedIcon, emblem': GEmblem): None =>
+    @g_emblemed_icon_add_emblem(emblemed', emblem')

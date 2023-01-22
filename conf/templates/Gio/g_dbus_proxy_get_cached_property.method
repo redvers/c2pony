@@ -1,0 +1,2 @@
+  fun ref get_cached_property(property_name': String): GVariant =>
+    GDBusProxyP.get_cached_property(this, property_name')

@@ -1,0 +1,2 @@
+  fun get_attribute_object(info': GFileInfo, attribute': String): Pointer[GObjectP] =>
+@g_file_info_get_attribute_object(info', attribute'.cstring())

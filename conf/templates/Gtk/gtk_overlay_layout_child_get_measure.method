@@ -1,0 +1,2 @@
+  fun ref get_measure(): I32 =>
+    GtkOverlayLayoutChildP.get_measure(this)

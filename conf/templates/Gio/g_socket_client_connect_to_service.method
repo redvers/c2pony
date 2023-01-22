@@ -1,0 +1,2 @@
+  fun ref connect_to_service(domain': String, service': String, cancellable': GCancellable, error': GError): GSocketConnection =>
+    GSocketClientP.connect_to_service(this, domain', service', cancellable', error')

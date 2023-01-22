@@ -1,0 +1,2 @@
+  fun get_connections(interface': GDBusInterfaceSkeleton): GList =>
+    @g_dbus_interface_skeleton_get_connections(interface')

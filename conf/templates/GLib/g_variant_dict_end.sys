@@ -1,0 +1,2 @@
+  fun end(dict': GVariantDict): GVariant =>
+    @g_variant_dict_end(dict')

@@ -1,0 +1,1 @@
+use @gtk_tree_selection_get_select_function[GtkTreeSelectionFunc](selection': GtkTreeSelection)

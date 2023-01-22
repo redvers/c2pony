@@ -1,0 +1,2 @@
+  fun splice(stream': GOutputStream, source': GInputStream, flags': U32, cancellable': GCancellable, error': GError): I64 =>
+    @g_output_stream_splice(stream', source', flags', cancellable', addressof error'.ptr)

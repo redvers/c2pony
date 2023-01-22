@@ -1,0 +1,1 @@
+use @g_resolver_lookup_service[GList](resolver': GResolver, service': Pointer[U8] tag, protocol': Pointer[U8] tag, domain': Pointer[U8] tag, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

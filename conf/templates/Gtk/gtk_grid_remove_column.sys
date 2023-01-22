@@ -1,0 +1,2 @@
+  fun remove_column(grid': GtkGrid, position': I32): None =>
+    @gtk_grid_remove_column(grid', position')

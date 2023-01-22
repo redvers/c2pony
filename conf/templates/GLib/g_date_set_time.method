@@ -1,0 +1,2 @@
+  fun ref set_time(time': I32): None =>
+    GDateP.set_time(this, time')

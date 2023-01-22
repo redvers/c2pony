@@ -1,0 +1,1 @@
+use @g_tls_connection_get_channel_binding_data[I32](conn': GTlsConnection, type': U32, data': GByteArray, error': Pointer[NullablePointer[GErrorT]])

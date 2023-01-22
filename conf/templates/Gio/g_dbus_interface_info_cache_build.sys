@@ -1,0 +1,2 @@
+  fun cache_build(info': GDBusInterfaceInfo): None =>
+    @g_dbus_interface_info_cache_build(info')

@@ -1,0 +1,2 @@
+  fun ref starts_word(): I32 =>
+    GtkTextIterP.starts_word(this)

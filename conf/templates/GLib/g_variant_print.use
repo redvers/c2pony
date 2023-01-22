@@ -1,0 +1,1 @@
+use @g_variant_print[Pointer[U8]](value': GVariant, type_annotate': I32)

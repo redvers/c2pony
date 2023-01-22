@@ -1,0 +1,2 @@
+  fun ref observe_controllers(): GListModel =>
+    GtkWidgetP.observe_controllers(this)

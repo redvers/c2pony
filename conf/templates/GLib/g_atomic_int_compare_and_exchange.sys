@@ -1,0 +1,2 @@
+  fun atomic_int_compare_and_exchange(atomic': Pointer[I32] tag, oldval': I32, newval': I32): I32 =>
+    @g_atomic_int_compare_and_exchange(atomic', oldval', newval')

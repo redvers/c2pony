@@ -1,0 +1,2 @@
+  fun ref read_line(length': Pointer[U64] tag, cancellable': GCancellable, error': GError): String iso^ =>
+    GDataInputStreamP.read_line(this, length', cancellable', error')

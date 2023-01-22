@@ -1,0 +1,1 @@
+use @gtk_shortcut_trigger_trigger[U32](self': GtkShortcutTrigger, event': GdkEvent, enable_mnemonics': I32)

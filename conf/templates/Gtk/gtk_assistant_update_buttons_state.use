@@ -1,0 +1,1 @@
+use @gtk_assistant_update_buttons_state[None](assistant': GtkAssistant)

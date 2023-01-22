@@ -1,0 +1,2 @@
+  fun set_error_literal(err': Pointer[GError], domain': U32, code': I32, message': String): None =>
+    @g_set_error_literal(err', domain', code', message'.cstring())

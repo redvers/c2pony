@@ -1,0 +1,2 @@
+  fun flush_finish(connection': GDBusConnection, res': GAsyncResult, error': GError): I32 =>
+    @g_dbus_connection_flush_finish(connection', res', addressof error'.ptr)

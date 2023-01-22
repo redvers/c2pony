@@ -1,0 +1,1 @@
+use @gtk_tree_list_row_get_parent[GtkTreeListRow](self': GtkTreeListRow)

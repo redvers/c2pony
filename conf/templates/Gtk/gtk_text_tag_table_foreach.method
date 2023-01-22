@@ -1,0 +1,2 @@
+  fun ref foreach(func': GtkTextTagTableForeach, data': Pointer[None] tag): None =>
+    GtkTextTagTableP.foreach(this, func', data')

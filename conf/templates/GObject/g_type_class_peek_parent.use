@@ -1,0 +1,1 @@
+use @g_type_class_peek_parent[Pointer[None] tag](g_class': Pointer[None] tag)

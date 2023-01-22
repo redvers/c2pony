@@ -1,0 +1,2 @@
+  fun ref get_stack(): GtkStack =>
+    GtkStackSwitcherP.get_stack(this)

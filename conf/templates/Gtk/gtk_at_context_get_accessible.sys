@@ -1,0 +1,2 @@
+  fun get_accessible(self': GtkATContext): GtkAccessible =>
+    @gtk_at_context_get_accessible(self')

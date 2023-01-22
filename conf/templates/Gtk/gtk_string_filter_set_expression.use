@@ -1,0 +1,1 @@
+use @gtk_string_filter_set_expression[None](self': GtkStringFilter, expression': GtkExpression)

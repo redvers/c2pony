@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GSocketAddressClass
+  var ptr: NullablePointer[GSocketAddressClassT]
+
+  new create(ptr': NullablePointer[GSocketAddressClassT]) => ptr = ptr'

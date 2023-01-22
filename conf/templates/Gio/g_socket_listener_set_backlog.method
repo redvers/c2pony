@@ -1,0 +1,2 @@
+  fun ref set_backlog(listen_backlog': I32): None =>
+    GSocketListenerP.set_backlog(this, listen_backlog')

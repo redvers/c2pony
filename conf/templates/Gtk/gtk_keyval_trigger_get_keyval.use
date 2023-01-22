@@ -1,0 +1,1 @@
+use @gtk_keyval_trigger_get_keyval[U32](self': GtkKeyvalTrigger)

@@ -1,0 +1,2 @@
+  fun open(application': GApplicationI, files': Pointer[GFile], n_files': I32, hint': String): None =>
+    @g_application_open(application'.getptr(), files', n_files', hint'.cstring())

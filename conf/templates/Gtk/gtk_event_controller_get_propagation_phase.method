@@ -1,0 +1,2 @@
+  fun ref get_propagation_phase(): U32 =>
+    GtkEventControllerP.get_propagation_phase(this)

@@ -1,0 +1,2 @@
+  fun string_get_depth_(type_string': String): U64 =>
+    @g_variant_type_string_get_depth_(type_string'.cstring())

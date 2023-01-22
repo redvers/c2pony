@@ -1,0 +1,1 @@
+use @g_date_get_day_of_year[U32](date': GDate)

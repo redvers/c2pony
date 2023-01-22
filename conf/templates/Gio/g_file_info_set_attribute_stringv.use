@@ -1,0 +1,1 @@
+use @g_file_info_set_attribute_stringv[None](info': GFileInfo, attribute': Pointer[U8] tag, attr_value': Pointer[Pointer[U8]] tag)

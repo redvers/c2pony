@@ -1,0 +1,2 @@
+  fun get_dpi_y(context': GtkPrintContext): F64 =>
+    @gtk_print_context_get_dpi_y(context')

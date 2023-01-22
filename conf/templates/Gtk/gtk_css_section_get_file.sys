@@ -1,0 +1,2 @@
+  fun get_file(section': GtkCssSection): GFile =>
+    @gtk_css_section_get_file(section')

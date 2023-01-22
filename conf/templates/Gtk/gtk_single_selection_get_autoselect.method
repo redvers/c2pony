@@ -1,0 +1,2 @@
+  fun ref get_autoselect(): I32 =>
+    GtkSingleSelectionP.get_autoselect(this)

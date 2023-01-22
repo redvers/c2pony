@@ -1,0 +1,2 @@
+  fun get_model(self': GtkMultiSelection): GListModel =>
+    @gtk_multi_selection_get_model(self')

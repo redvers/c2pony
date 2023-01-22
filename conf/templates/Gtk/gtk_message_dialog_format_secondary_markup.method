@@ -1,0 +1,2 @@
+  fun ref format_secondary_markup(message_format': String, ...): None =>
+    GtkMessageDialogP.format_secondary_markup(this, message_format', ...)

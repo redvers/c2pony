@@ -1,0 +1,2 @@
+  fun get_artists(about': GtkAboutDialog): Pointer[Pointer[U8]] tag =>
+    @gtk_about_dialog_get_artists(about')

@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GIOChannel
+  var ptr: NullablePointer[GIOChannelT]
+
+  new create(ptr': NullablePointer[GIOChannelT]) => ptr = ptr'

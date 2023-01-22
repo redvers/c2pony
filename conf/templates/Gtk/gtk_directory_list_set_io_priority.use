@@ -1,0 +1,1 @@
+use @gtk_directory_list_set_io_priority[None](self': GtkDirectoryList, io_priority': I32)

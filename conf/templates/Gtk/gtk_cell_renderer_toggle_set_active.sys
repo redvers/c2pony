@@ -1,0 +1,2 @@
+  fun set_active(toggle': GtkCellRendererToggle, setting': I32): None =>
+    @gtk_cell_renderer_toggle_set_active(toggle', setting')

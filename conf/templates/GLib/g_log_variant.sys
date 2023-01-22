@@ -1,0 +1,2 @@
+  fun log_variant(log_domain': String, log_level': I32, fields': GVariant): None =>
+    @g_log_variant(log_domain'.cstring(), log_level', fields')

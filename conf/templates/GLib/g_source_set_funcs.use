@@ -1,0 +1,1 @@
+use @g_source_set_funcs[None](source': GSource, funcs': GSourceFuncs)

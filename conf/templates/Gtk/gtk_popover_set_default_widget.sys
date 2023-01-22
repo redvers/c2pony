@@ -1,0 +1,2 @@
+  fun set_default_widget(popover': GtkPopover, widget': GtkWidgetI): None =>
+    @gtk_popover_set_default_widget(popover', widget'.getptr())

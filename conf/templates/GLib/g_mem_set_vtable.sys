@@ -1,0 +1,2 @@
+  fun mem_set_vtable(vtable': GMemVTable): None =>
+    @g_mem_set_vtable(vtable')

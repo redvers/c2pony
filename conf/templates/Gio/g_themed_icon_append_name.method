@@ -1,0 +1,2 @@
+  fun ref append_name(iconname': String): None =>
+    GThemedIconP.append_name(this, iconname')

@@ -1,0 +1,1 @@
+use @gtk_entry_get_icon_gicon[GIcon](entry': GtkEntry, icon_pos': U32)

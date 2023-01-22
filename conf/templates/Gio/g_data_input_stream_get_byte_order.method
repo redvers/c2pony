@@ -1,0 +1,2 @@
+  fun ref get_byte_order(): U32 =>
+    GDataInputStreamP.get_byte_order(this)

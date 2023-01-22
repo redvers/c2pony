@@ -1,0 +1,2 @@
+  fun ref set_finishings(finishings': String): None =>
+    GtkPrintSettingsP.set_finishings(this, finishings')

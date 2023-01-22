@@ -1,0 +1,2 @@
+  fun list_toplevels(): GList =>
+    @gtk_window_list_toplevels()

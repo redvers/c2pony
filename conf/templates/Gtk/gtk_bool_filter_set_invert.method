@@ -1,0 +1,2 @@
+  fun ref set_invert(invert': I32): None =>
+    GtkBoolFilterP.set_invert(this, invert')

@@ -1,0 +1,1 @@
+use @g_dbus_interface_skeleton_get_connections[GList](interface': GDBusInterfaceSkeleton)

@@ -1,0 +1,2 @@
+  fun ref emit_inserted_text(position': U32, chars': String, n_chars': U32): None =>
+    GtkEntryBufferP.emit_inserted_text(this, position', chars', n_chars')

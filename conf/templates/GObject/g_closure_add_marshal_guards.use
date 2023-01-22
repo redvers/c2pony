@@ -1,0 +1,1 @@
+use @g_closure_add_marshal_guards[None](closure': GClosure, pre_marshal_data': Pointer[None] tag, pre_marshal_notify': GClosureNotify, post_marshal_data': Pointer[None] tag, post_marshal_notify': GClosureNotify)

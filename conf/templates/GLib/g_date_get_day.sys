@@ -1,0 +1,2 @@
+  fun get_day(date': GDate): U8 =>
+    @g_date_get_day(date')

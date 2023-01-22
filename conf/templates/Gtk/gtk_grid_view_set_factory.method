@@ -1,0 +1,2 @@
+  fun ref set_factory(factory': GtkListItemFactory): None =>
+    GtkGridViewP.set_factory(this, factory')

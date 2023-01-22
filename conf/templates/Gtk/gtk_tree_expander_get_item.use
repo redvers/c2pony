@@ -1,0 +1,1 @@
+use @gtk_tree_expander_get_item[Pointer[None] tag](self': GtkTreeExpander)

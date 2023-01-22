@@ -1,0 +1,2 @@
+  fun copy(iter': GtkTextIter): GtkTextIter =>
+    @gtk_text_iter_copy(iter')

@@ -1,0 +1,2 @@
+  fun ref(self': GtkExpression): GtkExpression =>
+    @gtk_expression_ref(self')

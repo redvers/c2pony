@@ -1,0 +1,2 @@
+  fun ref get_incremental(): I32 =>
+    GtkSortListModelP.get_incremental(this)

@@ -1,0 +1,2 @@
+  fun ref copy(): GtkRequisition =>
+    GtkRequisitionP.copy(this)

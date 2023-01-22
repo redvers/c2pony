@@ -1,0 +1,2 @@
+  fun ref connect_to_service_async(domain': String, service': String, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GSocketClientP.connect_to_service_async(this, domain', service', cancellable', callback', user_data')

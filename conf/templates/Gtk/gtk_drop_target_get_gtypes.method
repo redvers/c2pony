@@ -1,0 +1,2 @@
+  fun ref get_gtypes(n_types': Pointer[U64] tag): Pointer[U64] tag =>
+    GtkDropTargetP.get_gtypes(this, n_types')

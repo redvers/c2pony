@@ -1,0 +1,2 @@
+  fun get_element(context': GMarkupParseContext): String iso^ =>
+    String.from_cstring(@g_markup_parse_context_get_element(context')).clone()

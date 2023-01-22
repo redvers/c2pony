@@ -1,0 +1,2 @@
+  fun free(file': GMappedFile): None =>
+    @g_mapped_file_free(file')

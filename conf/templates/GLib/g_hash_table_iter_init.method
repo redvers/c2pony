@@ -1,0 +1,2 @@
+  fun ref init(hash_table': GHashTable): None =>
+    GHashTableIterP.init(this, hash_table')

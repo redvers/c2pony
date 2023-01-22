@@ -1,0 +1,1 @@
+use @gtk_tree_view_remove_column[I32](tree_view': GtkTreeView, column': GtkTreeViewColumn)

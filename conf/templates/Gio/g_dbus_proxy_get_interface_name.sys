@@ -1,0 +1,2 @@
+  fun get_interface_name(proxy': GDBusProxy): String iso^ =>
+    String.from_cstring(@g_dbus_proxy_get_interface_name(proxy')).clone()

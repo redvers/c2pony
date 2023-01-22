@@ -1,0 +1,2 @@
+  fun ref get_visibility(): I32 =>
+    GtkEntryP.get_visibility(this)

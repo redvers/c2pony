@@ -1,0 +1,2 @@
+  fun in_range(iter': GtkTextIter, start': GtkTextIter, end': GtkTextIter): I32 =>
+    @gtk_text_iter_in_range(iter', start', end')

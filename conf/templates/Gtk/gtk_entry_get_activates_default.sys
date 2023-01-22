@@ -1,0 +1,2 @@
+  fun get_activates_default(entry': GtkEntry): I32 =>
+    @gtk_entry_get_activates_default(entry')

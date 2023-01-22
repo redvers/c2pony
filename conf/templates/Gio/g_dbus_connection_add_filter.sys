@@ -1,0 +1,2 @@
+  fun add_filter(connection': GDBusConnection, filter_function': GDBusMessageFilterFunction, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify): U32 =>
+    @g_dbus_connection_add_filter(connection', filter_function', user_data', user_data_free_func')

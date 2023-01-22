@@ -1,0 +1,2 @@
+  fun ref set_inverted(inverted': I32): None =>
+    GtkLevelBarP.set_inverted(this, inverted')

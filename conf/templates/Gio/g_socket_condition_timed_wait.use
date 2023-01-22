@@ -1,0 +1,1 @@
+use @g_socket_condition_timed_wait[I32](socket': GSocket, condition': U32, timeout_us': I64, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

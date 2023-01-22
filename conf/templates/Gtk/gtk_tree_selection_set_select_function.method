@@ -1,0 +1,2 @@
+  fun ref set_select_function(func': GtkTreeSelectionFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    GtkTreeSelectionP.set_select_function(this, func', data', destroy')

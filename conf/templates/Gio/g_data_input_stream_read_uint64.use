@@ -1,0 +1,1 @@
+use @g_data_input_stream_read_uint64[U64](stream': GDataInputStream, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

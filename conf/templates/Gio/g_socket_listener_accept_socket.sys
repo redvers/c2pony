@@ -1,0 +1,2 @@
+  fun accept_socket(listener': GSocketListener, source_object': Pointer[GObject], cancellable': GCancellable, error': GError): GSocket =>
+    @g_socket_listener_accept_socket(listener', source_object', cancellable', addressof error'.ptr)

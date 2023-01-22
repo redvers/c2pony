@@ -1,0 +1,2 @@
+  fun ref get_min_children_per_line(): U32 =>
+    GtkFlowBoxP.get_min_children_per_line(this)

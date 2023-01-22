@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GIOStreamClass
+  var ptr: NullablePointer[GIOStreamClassT]
+
+  new create(ptr': NullablePointer[GIOStreamClassT]) => ptr = ptr'

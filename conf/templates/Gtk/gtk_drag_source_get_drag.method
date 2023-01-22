@@ -1,0 +1,2 @@
+  fun ref get_drag(): GdkDrag =>
+    GtkDragSourceP.get_drag(this)

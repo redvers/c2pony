@@ -1,0 +1,2 @@
+  fun register_transform_func(src_type': U64, dest_type': U64, transform_func': GValueTransform): None =>
+    @g_value_register_transform_func(src_type', dest_type', transform_func')

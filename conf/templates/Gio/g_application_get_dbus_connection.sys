@@ -1,0 +1,2 @@
+  fun get_dbus_connection(application': GApplicationI): GDBusConnection =>
+    @g_application_get_dbus_connection(application'.getptr())

@@ -1,0 +1,2 @@
+  fun new(side': U32): Pointer[GObjectP] =>
+@gtk_window_controls_new(side')

@@ -1,0 +1,2 @@
+  fun ref get_mnemonics_modifiers(): U32 =>
+    GtkShortcutControllerP.get_mnemonics_modifiers(this)

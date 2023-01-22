@@ -1,0 +1,2 @@
+  fun ref get_symlink_target(): String iso^ =>
+    GFileInfoP.get_symlink_target(this)

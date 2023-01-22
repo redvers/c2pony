@@ -1,0 +1,1 @@
+use @g_array_get_element_size[U32](array': GArray)

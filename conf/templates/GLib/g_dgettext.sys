@@ -1,0 +1,2 @@
+  fun dgettext(domain': String, msgid': String): String iso^ =>
+    String.from_cstring(@g_dgettext(domain'.cstring(), msgid'.cstring())).clone()

@@ -1,0 +1,2 @@
+  fun ref set_inverted(setting': I32): None =>
+    GtkRangeP.set_inverted(this, setting')

@@ -1,0 +1,1 @@
+use @g_file_icon_new[GIcon](file': GFile)

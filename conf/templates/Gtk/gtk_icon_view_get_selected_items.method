@@ -1,0 +1,2 @@
+  fun ref get_selected_items(): GList =>
+    GtkIconViewP.get_selected_items(this)

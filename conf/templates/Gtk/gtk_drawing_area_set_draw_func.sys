@@ -1,0 +1,2 @@
+  fun set_draw_func(self': GtkDrawingArea, draw_func': GtkDrawingAreaDrawFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
+    @gtk_drawing_area_set_draw_func(self', draw_func', user_data', destroy')

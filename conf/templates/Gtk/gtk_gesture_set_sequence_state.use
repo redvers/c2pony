@@ -1,0 +1,1 @@
+use @gtk_gesture_set_sequence_state[I32](gesture': GtkGesture, sequence': GdkEventSequence, state': U32)

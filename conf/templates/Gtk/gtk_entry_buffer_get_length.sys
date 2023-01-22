@@ -1,0 +1,2 @@
+  fun get_length(buffer': GtkEntryBuffer): U32 =>
+    @gtk_entry_buffer_get_length(buffer')

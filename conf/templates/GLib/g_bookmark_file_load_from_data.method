@@ -1,0 +1,2 @@
+  fun ref load_from_data(data': String, length': U64, error': Pointer[GError]): I32 =>
+    GBookmarkFileP.load_from_data(this, data', length', error')

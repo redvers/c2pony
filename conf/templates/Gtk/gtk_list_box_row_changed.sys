@@ -1,0 +1,2 @@
+  fun changed(row': GtkListBoxRow): None =>
+    @gtk_list_box_row_changed(row')

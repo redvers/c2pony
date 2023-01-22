@@ -1,0 +1,2 @@
+  fun ref get_has_origin(): I32 =>
+    GtkScaleP.get_has_origin(this)

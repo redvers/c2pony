@@ -1,0 +1,2 @@
+  fun str_tokenize_and_fold(string': String, translit_locale': String, ascii_alternates': Pointer[Pointer[Pointer[U8]]] tag): Pointer[Pointer[U8]] tag =>
+    @g_str_tokenize_and_fold(string'.cstring(), translit_locale'.cstring(), ascii_alternates')

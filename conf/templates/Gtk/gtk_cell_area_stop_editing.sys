@@ -1,0 +1,2 @@
+  fun stop_editing(area': GtkCellArea, canceled': I32): None =>
+    @gtk_cell_area_stop_editing(area', canceled')

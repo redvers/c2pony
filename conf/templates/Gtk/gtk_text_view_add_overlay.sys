@@ -1,0 +1,2 @@
+  fun add_overlay(text_view': GtkTextView, child': GtkWidgetI, xpos': I32, ypos': I32): None =>
+    @gtk_text_view_add_overlay(text_view', child'.getptr(), xpos', ypos')

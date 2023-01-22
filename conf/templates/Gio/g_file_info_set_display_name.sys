@@ -1,0 +1,2 @@
+  fun set_display_name(info': GFileInfo, display_name': String): None =>
+    @g_file_info_set_display_name(info', display_name'.cstring())

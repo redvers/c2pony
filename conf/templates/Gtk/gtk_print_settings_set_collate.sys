@@ -1,0 +1,2 @@
+  fun set_collate(settings': GtkPrintSettings, collate': I32): None =>
+    @gtk_print_settings_set_collate(settings', collate')

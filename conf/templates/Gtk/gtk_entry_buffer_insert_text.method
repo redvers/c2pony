@@ -1,0 +1,2 @@
+  fun ref insert_text(position': U32, chars': String, n_chars': I32): U32 =>
+    GtkEntryBufferP.insert_text(this, position', chars', n_chars')

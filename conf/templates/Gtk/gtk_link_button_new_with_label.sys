@@ -1,0 +1,2 @@
+  fun new_with_label(uri': String, label': String): Pointer[GObjectP] =>
+@gtk_link_button_new_with_label(uri'.cstring(), label'.cstring())

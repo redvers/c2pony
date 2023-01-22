@@ -1,0 +1,2 @@
+  fun ref get_formats(): GdkContentFormats =>
+    GtkDropTargetAsyncP.get_formats(this)

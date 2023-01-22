@@ -1,0 +1,2 @@
+  fun set_min_content_height(scrolled_window': GtkScrolledWindow, height': I32): None =>
+    @gtk_scrolled_window_set_min_content_height(scrolled_window', height')

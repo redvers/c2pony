@@ -1,0 +1,1 @@
+use @g_file_info_get_attribute_int32[I32](info': GFileInfo, attribute': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun ref drag_cancel(): None =>
+    GtkDragSourceP.drag_cancel(this)

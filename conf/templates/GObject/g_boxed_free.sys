@@ -1,0 +1,2 @@
+  fun boxed_free(boxed_type': U64, boxed': Pointer[None] tag): None =>
+    @g_boxed_free(boxed_type', boxed')

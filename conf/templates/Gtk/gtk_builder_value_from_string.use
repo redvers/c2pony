@@ -1,0 +1,1 @@
+use @gtk_builder_value_from_string[I32](builder': Pointer[GObjectP], pspec': GParamSpec, string': Pointer[U8] tag, value': GValue, error': Pointer[NullablePointer[GErrorT]])

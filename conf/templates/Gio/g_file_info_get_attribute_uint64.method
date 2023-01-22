@@ -1,0 +1,2 @@
+  fun ref get_attribute_uint64(attribute': String): U64 =>
+    GFileInfoP.get_attribute_uint64(this, attribute')

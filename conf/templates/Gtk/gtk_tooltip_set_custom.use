@@ -1,0 +1,1 @@
+use @gtk_tooltip_set_custom[None](tooltip': GtkTooltip, custom_widget': Pointer[GObjectP])

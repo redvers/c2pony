@@ -1,0 +1,2 @@
+  fun peek_string(type': GVariantType): String iso^ =>
+    String.from_cstring(@g_variant_type_peek_string(type')).clone()

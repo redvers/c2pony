@@ -1,0 +1,1 @@
+use @gtk_range_set_flippable[None](range': GtkRange, flippable': I32)

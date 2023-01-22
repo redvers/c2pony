@@ -1,0 +1,2 @@
+  fun get_language(iter': GtkTextIter): PangoLanguage =>
+    @gtk_text_iter_get_language(iter')

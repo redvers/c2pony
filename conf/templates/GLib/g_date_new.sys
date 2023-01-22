@@ -1,0 +1,2 @@
+  fun new(): GDate =>
+    @g_date_new()

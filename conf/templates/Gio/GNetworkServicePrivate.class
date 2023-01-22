@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GNetworkServicePrivate
+  var ptr: NullablePointer[GNetworkServicePrivateT]
+
+  new create(ptr': NullablePointer[GNetworkServicePrivateT]) => ptr = ptr'

@@ -1,0 +1,2 @@
+  fun return_value_with_unix_fd_list(invocation': GDBusMethodInvocation, parameters': GVariant, fd_list': GUnixFDList): None =>
+    @g_dbus_method_invocation_return_value_with_unix_fd_list(invocation', parameters', fd_list')

@@ -1,0 +1,2 @@
+  fun ref get_model(): GListModel =>
+    GtkFlattenListModelP.get_model(this)

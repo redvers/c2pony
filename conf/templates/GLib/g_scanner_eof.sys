@@ -1,0 +1,2 @@
+  fun eof(scanner': GScanner): I32 =>
+    @g_scanner_eof(scanner')

@@ -1,0 +1,2 @@
+  fun format_secondary_markup(message_dialog': GtkMessageDialog, message_format': String, ...): None =>
+    @gtk_message_dialog_format_secondary_markup(message_dialog', message_format'.cstring(), ...)

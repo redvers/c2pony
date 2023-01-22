@@ -1,0 +1,2 @@
+  fun lookup_extended(tree': GTree, lookup_key': Pointer[None] tag, orig_key': Pointer[Pointer[None]] tag, value': Pointer[Pointer[None]] tag): I32 =>
+    @g_tree_lookup_extended(tree', lookup_key', orig_key', value')

@@ -1,0 +1,2 @@
+  fun ref add_range(start': U32, n_items': U32): None =>
+    GtkBitsetP.add_range(this, start', n_items')

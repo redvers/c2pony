@@ -1,0 +1,1 @@
+use @g_variant_check_format_string[I32](value': GVariant, format_string': Pointer[U8] tag, copy_only': I32)

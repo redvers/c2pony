@@ -1,0 +1,2 @@
+  fun get_strength(guide': GtkConstraintGuide): U32 =>
+    @gtk_constraint_guide_get_strength(guide')

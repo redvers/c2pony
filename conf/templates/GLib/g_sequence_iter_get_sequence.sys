@@ -1,0 +1,2 @@
+  fun get_sequence(iter': GSequenceNode): GSequence =>
+    @g_sequence_iter_get_sequence(iter')

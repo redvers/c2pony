@@ -1,0 +1,1 @@
+use @gtk_tree_row_reference_new[GtkTreeRowReference](model': GtkTreeModel, path': GtkTreePath)

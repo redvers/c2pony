@@ -1,0 +1,1 @@
+use @g_key_file_load_from_bytes[I32](key_file': GKeyFile, bytes': GBytes, flags': U32, error': Pointer[GError])

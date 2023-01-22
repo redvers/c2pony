@@ -1,0 +1,2 @@
+  fun get(connection': GDBusConnection, bus_name': String, object_path': String): GDBusActionGroup =>
+    @g_dbus_action_group_get(connection', bus_name'.cstring(), object_path'.cstring())

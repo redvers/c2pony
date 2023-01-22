@@ -1,0 +1,1 @@
+use @gtk_widget_compute_point[I32](widget': Pointer[GObjectP], target': Pointer[GObjectP], point': graphenepointt, out_point': graphenepointt)

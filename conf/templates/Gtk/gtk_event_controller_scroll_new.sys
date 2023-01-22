@@ -1,0 +1,2 @@
+  fun new(flags': U32): GtkEventController =>
+    @gtk_event_controller_scroll_new(flags')

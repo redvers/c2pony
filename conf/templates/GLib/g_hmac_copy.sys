@@ -1,0 +1,2 @@
+  fun copy(hmac': GHmac): GHmac =>
+    @g_hmac_copy(hmac')

@@ -1,0 +1,2 @@
+  fun start(spinner': GtkSpinner): None =>
+    @gtk_spinner_start(spinner')

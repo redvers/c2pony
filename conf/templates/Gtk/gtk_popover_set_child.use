@@ -1,0 +1,1 @@
+use @gtk_popover_set_child[None](popover': GtkPopover, child': Pointer[GObjectP])

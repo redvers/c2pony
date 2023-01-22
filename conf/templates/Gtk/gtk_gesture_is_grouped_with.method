@@ -1,0 +1,2 @@
+  fun ref is_grouped_with(other': GtkGesture): I32 =>
+    GtkGestureP.is_grouped_with(this, other')

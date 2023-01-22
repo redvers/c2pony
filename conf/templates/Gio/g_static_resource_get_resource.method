@@ -1,0 +1,2 @@
+  fun ref get_resource(): NullablePointer[GResourceT] =>
+    GStaticResourceP.get_resource(this)

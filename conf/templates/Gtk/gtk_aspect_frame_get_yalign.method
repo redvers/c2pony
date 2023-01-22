@@ -1,0 +1,2 @@
+  fun ref get_yalign(): F32 =>
+    GtkAspectFrameP.get_yalign(this)

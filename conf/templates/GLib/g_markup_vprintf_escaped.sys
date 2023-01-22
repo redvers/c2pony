@@ -1,0 +1,2 @@
+  fun markup_vprintf_escaped(format': String, args': valisttag): String iso^ =>
+    String.from_cstring(@g_markup_vprintf_escaped(format'.cstring(), args')).clone()

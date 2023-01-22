@@ -1,0 +1,2 @@
+  fun ref get_entry(): Pointer[GObjectP] =>
+    GtkEntryCompletionP.get_entry(this)

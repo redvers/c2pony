@@ -1,0 +1,2 @@
+  fun remove_all(list': GList, data': Pointer[None] tag): GList =>
+    @g_list_remove_all(list', data')

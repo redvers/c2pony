@@ -1,0 +1,2 @@
+  fun get_string_length(type': GVariantType): U64 =>
+    @g_variant_type_get_string_length(type')

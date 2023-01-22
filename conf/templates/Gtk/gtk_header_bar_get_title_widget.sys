@@ -1,0 +1,2 @@
+  fun get_title_widget(bar': GtkHeaderBar): Pointer[GObjectP] =>
+@gtk_header_bar_get_title_widget(bar')

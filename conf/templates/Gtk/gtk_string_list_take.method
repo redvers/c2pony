@@ -1,0 +1,2 @@
+  fun ref take(string': String): None =>
+    GtkStringListP.take(this, string')

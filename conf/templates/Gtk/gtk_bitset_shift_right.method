@@ -1,0 +1,2 @@
+  fun ref shift_right(amount': U32): None =>
+    GtkBitsetP.shift_right(this, amount')

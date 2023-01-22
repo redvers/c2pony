@@ -1,0 +1,2 @@
+  fun set_margin_end(widget': GtkWidgetI, margin': I32): None =>
+    @gtk_widget_set_margin_end(widget'.getptr(), margin')

@@ -1,0 +1,2 @@
+  fun expand_to_path(tree_view': GtkTreeView, path': GtkTreePath): None =>
+    @gtk_tree_view_expand_to_path(tree_view', path')

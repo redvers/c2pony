@@ -1,0 +1,1 @@
+use @gtk_fixed_get_child_transform[GskTransform](fixed': GtkFixed, widget': Pointer[GObjectP])

@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GOutputVectorT
+  var buffer': Pointer[None] = Pointer[None]
+  var size': U64 = U64(0)

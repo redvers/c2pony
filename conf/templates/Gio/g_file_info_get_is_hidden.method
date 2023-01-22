@@ -1,0 +1,2 @@
+  fun ref get_is_hidden(): I32 =>
+    GFileInfoP.get_is_hidden(this)

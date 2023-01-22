@@ -1,0 +1,2 @@
+  fun new(): GFileAttributeInfoList =>
+    @g_file_attribute_info_list_new()

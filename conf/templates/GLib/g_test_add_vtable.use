@@ -1,0 +1,1 @@
+use @g_test_add_vtable[None](testpath': Pointer[U8] tag, data_size': U64, test_data': Pointer[None] tag, data_setup': GTestFixtureFunc, data_test': GTestFixtureFunc, data_teardown': GTestFixtureFunc)

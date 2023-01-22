@@ -1,0 +1,2 @@
+  fun set_valist(list_store': GtkListStore, iter': GtkTreeIter, var_args': valisttag): None =>
+    @gtk_list_store_set_valist(list_store', iter', var_args')

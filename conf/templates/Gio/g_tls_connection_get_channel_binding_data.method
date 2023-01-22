@@ -1,0 +1,2 @@
+  fun ref get_channel_binding_data(type': U32, data': GByteArray, error': GError): I32 =>
+    GTlsConnectionP.get_channel_binding_data(this, type', data', error')

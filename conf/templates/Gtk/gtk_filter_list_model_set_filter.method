@@ -1,0 +1,2 @@
+  fun ref set_filter(filter': GtkFilter): None =>
+    GtkFilterListModelP.set_filter(this, filter')

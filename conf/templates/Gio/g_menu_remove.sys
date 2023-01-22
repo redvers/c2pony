@@ -1,0 +1,2 @@
+  fun remove(menu': GMenu, position': I32): None =>
+    @g_menu_remove(menu', position')

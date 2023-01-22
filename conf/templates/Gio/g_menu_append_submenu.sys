@@ -1,0 +1,2 @@
+  fun append_submenu(menu': GMenu, label': String, submenu': GMenuModel): None =>
+    @g_menu_append_submenu(menu', label'.cstring(), submenu')

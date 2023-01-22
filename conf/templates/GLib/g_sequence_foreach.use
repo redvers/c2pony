@@ -1,0 +1,1 @@
+use @g_sequence_foreach[None](seq': GSequence, func': GFunc, user_data': Pointer[None] tag)

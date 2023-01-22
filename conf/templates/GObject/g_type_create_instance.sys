@@ -1,0 +1,2 @@
+  fun type_create_instance(type': U64): GTypeInstance =>
+    @g_type_create_instance(type')

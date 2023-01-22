@@ -1,0 +1,2 @@
+  fun log_set_writer_func(func': GLogWriterFunc, user_data': Pointer[None] tag, user_data_free': GDestroyNotify): None =>
+    @g_log_set_writer_func(func', user_data', user_data_free')

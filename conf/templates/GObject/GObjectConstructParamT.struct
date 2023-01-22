@@ -1,0 +1,6 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+struct GObjectConstructParamT
+  var pspec': GParamSpec = GParamSpec
+  var value': GValue = GValue

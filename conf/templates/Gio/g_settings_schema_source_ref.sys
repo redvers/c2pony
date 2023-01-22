@@ -1,0 +1,2 @@
+  fun ref(source': GSettingsSchemaSource): GSettingsSchemaSource =>
+    @g_settings_schema_source_ref(source')

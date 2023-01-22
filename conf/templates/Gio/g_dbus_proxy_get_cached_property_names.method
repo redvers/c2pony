@@ -1,0 +1,2 @@
+  fun ref get_cached_property_names(): Pointer[Pointer[U8]] tag =>
+    GDBusProxyP.get_cached_property_names(this)

@@ -1,0 +1,1 @@
+use @g_application_command_line_print[None](cmdline': GApplicationCommandLine, format': Pointer[U8] tag, ...)

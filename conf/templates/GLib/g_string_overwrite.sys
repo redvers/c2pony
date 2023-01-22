@@ -1,0 +1,2 @@
+  fun overwrite(string': GString, pos': U64, val': String): GString =>
+    @g_string_overwrite(string', pos', val'.cstring())

@@ -1,0 +1,2 @@
+  fun get_next(iter': GMenuAttributeIter, out_name': Pointer[Pointer[U8]] tag, value': Pointer[GVariant]): I32 =>
+    @g_menu_attribute_iter_get_next(iter', out_name', value')

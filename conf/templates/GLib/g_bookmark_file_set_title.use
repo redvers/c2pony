@@ -1,0 +1,1 @@
+use @g_bookmark_file_set_title[None](bookmark': GBookmarkFile, uri': Pointer[U8] tag, title': Pointer[U8] tag)

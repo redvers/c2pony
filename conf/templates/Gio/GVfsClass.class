@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GVfsClass
+  var ptr: NullablePointer[GVfsClassT]
+
+  new create(ptr': NullablePointer[GVfsClassT]) => ptr = ptr'

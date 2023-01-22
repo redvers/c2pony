@@ -1,0 +1,2 @@
+  fun get_regex(match_info': GMatchInfo): GRegex =>
+    @g_match_info_get_regex(match_info')

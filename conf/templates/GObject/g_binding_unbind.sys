@@ -1,0 +1,2 @@
+  fun unbind(binding': GBinding): None =>
+    @g_binding_unbind(binding')

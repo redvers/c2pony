@@ -1,0 +1,2 @@
+  fun ref popup_enable(): None =>
+    GtkNotebookP.popup_enable(this)

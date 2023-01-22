@@ -1,0 +1,1 @@
+use @gtk_dialog_add_action_widget[None](dialog': GtkDialog, child': Pointer[GObjectP], response_id': I32)

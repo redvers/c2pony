@@ -1,0 +1,2 @@
+  fun ref get_attribute_object(attribute': String): Pointer[GObjectP] =>
+    GFileInfoP.get_attribute_object(this, attribute')

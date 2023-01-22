@@ -1,0 +1,2 @@
+  fun ref get_service(): String iso^ =>
+    GNetworkServiceP.get_service(this)

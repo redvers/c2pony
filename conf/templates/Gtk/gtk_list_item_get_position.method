@@ -1,0 +1,2 @@
+  fun ref get_position(): U32 =>
+    GtkListItemP.get_position(this)

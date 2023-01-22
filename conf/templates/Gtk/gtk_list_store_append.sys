@@ -1,0 +1,2 @@
+  fun append(list_store': GtkListStore, iter': GtkTreeIter): None =>
+    @gtk_list_store_append(list_store', iter')

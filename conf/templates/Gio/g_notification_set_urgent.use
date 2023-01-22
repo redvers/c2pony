@@ -1,0 +1,1 @@
+use @g_notification_set_urgent[None](notification': GNotification, urgent': I32)

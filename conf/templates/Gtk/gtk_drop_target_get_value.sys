@@ -1,0 +1,2 @@
+  fun get_value(self': GtkDropTarget): GValue =>
+    @gtk_drop_target_get_value(self')

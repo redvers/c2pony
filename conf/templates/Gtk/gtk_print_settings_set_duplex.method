@@ -1,0 +1,2 @@
+  fun ref set_duplex(duplex': U32): None =>
+    GtkPrintSettingsP.set_duplex(this, duplex')

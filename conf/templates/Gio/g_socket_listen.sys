@@ -1,0 +1,2 @@
+  fun listen(socket': GSocket, error': GError): I32 =>
+    @g_socket_listen(socket', addressof error'.ptr)

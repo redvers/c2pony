@@ -1,0 +1,2 @@
+  fun set_model(self': GtkGridView, model': GtkSelectionModel): None =>
+    @gtk_grid_view_set_model(self', model')

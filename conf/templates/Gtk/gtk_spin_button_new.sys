@@ -1,0 +1,2 @@
+  fun new(adjustment': GtkAdjustment, climb_rate': F64, digits': U32): Pointer[GObjectP] =>
+@gtk_spin_button_new(adjustment', climb_rate', digits')

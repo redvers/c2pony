@@ -1,0 +1,1 @@
+use @gtk_about_dialog_add_credit_section[None](about': GtkAboutDialog, section_name': Pointer[U8] tag, people': Pointer[Pointer[U8]] tag)

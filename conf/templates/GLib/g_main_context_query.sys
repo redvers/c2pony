@@ -1,0 +1,2 @@
+  fun query(context': GMainContext, max_priority': I32, timeout': Pointer[I32] tag, fds': GPollFD, n_fds': I32): I32 =>
+    @g_main_context_query(context', max_priority', timeout', fds', n_fds')

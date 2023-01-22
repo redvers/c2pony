@@ -1,0 +1,2 @@
+  fun ref prepend_section(label': String, section': GMenuModel): None =>
+    GMenuP.prepend_section(this, label', section')

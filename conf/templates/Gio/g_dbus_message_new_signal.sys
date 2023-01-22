@@ -1,0 +1,2 @@
+  fun new_signal(path': String, interface': String, signal': String): GDBusMessage =>
+    @g_dbus_message_new_signal(path'.cstring(), interface'.cstring(), signal'.cstring())

@@ -1,0 +1,2 @@
+  fun ref get_input_purpose(): U32 =>
+    GtkEntryP.get_input_purpose(this)

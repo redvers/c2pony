@@ -1,0 +1,2 @@
+  fun is_floating(object': Pointer[None] tag): I32 =>
+    @g_object_is_floating(object')

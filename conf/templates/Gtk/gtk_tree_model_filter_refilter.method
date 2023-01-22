@@ -1,0 +1,2 @@
+  fun ref refilter(): None =>
+    GtkTreeModelFilterP.refilter(this)

@@ -1,0 +1,2 @@
+  fun marshal(hook_list': GHookList, may_recurse': I32, marshaller': GHookMarshaller, marshal_data': Pointer[None] tag): None =>
+    @g_hook_list_marshal(hook_list', may_recurse', marshaller', marshal_data')

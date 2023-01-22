@@ -1,0 +1,2 @@
+  fun push_front(queue': GAsyncQueue, item': Pointer[None] tag): None =>
+    @g_async_queue_push_front(queue', item')

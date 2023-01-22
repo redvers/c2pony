@@ -1,0 +1,2 @@
+  fun ref prepend(val': String): GString =>
+    GStringP.prepend(this, val')

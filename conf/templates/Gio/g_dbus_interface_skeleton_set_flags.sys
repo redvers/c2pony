@@ -1,0 +1,2 @@
+  fun set_flags(interface': GDBusInterfaceSkeleton, flags': U32): None =>
+    @g_dbus_interface_skeleton_set_flags(interface', flags')

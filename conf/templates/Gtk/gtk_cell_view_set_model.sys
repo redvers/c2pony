@@ -1,0 +1,2 @@
+  fun set_model(cell_view': GtkCellView, model': GtkTreeModel): None =>
+    @gtk_cell_view_set_model(cell_view', model')

@@ -1,0 +1,2 @@
+  fun ref create_pango_layout(text': String): PangoLayout =>
+    GtkWidgetP.create_pango_layout(this, text')

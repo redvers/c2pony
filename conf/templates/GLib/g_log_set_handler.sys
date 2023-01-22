@@ -1,0 +1,2 @@
+  fun log_set_handler(log_domain': String, log_levels': I32, log_func': GLogFunc, user_data': Pointer[None] tag): U32 =>
+    @g_log_set_handler(log_domain'.cstring(), log_levels', log_func', user_data')

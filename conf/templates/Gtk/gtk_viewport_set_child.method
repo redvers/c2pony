@@ -1,0 +1,2 @@
+  fun ref set_child(child': GtkWidgetI): None =>
+    GtkViewportP.set_child(this, child')

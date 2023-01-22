@@ -1,0 +1,2 @@
+  fun ref read_until_finish(result': GAsyncResult, length': Pointer[U64] tag, error': GError): String iso^ =>
+    GDataInputStreamP.read_until_finish(this, result', length', error')

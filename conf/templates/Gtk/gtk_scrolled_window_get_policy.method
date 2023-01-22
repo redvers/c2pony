@@ -1,0 +1,2 @@
+  fun ref get_policy(hscrollbar_policy': Pointer[U32] tag, vscrollbar_policy': Pointer[U32] tag): None =>
+    GtkScrolledWindowP.get_policy(this, hscrollbar_policy', vscrollbar_policy')

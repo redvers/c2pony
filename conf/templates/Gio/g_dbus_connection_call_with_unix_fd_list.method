@@ -1,0 +1,2 @@
+  fun ref call_with_unix_fd_list(bus_name': String, object_path': String, interface_name': String, method_name': String, parameters': GVariant, reply_type': GVariantType, flags': U32, timeout_msec': I32, fd_list': GUnixFDList, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GDBusConnectionP.call_with_unix_fd_list(this, bus_name', object_path', interface_name', method_name', parameters', reply_type', flags', timeout_msec', fd_list', cancellable', callback', user_data')

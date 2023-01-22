@@ -1,0 +1,2 @@
+  fun ref get_display(): GdkDisplay =>
+    GtkWidgetP.get_display(this)

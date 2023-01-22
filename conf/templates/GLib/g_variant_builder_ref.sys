@@ -1,0 +1,2 @@
+  fun ref(builder': GVariantBuilder): GVariantBuilder =>
+    @g_variant_builder_ref(builder')

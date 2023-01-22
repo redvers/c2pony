@@ -1,0 +1,2 @@
+  fun get_flags(application': GApplicationI): U32 =>
+    @g_application_get_flags(application'.getptr())

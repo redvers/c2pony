@@ -1,0 +1,2 @@
+  fun ref add_focus_sibling(renderer': GtkCellRenderer, sibling': GtkCellRenderer): None =>
+    GtkCellAreaP.add_focus_sibling(this, renderer', sibling')

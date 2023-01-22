@@ -1,0 +1,2 @@
+  fun accelerator_parse(accelerator': String, accelerator_key': Pointer[U32] tag, accelerator_mods': Pointer[U32] tag): I32 =>
+    @gtk_accelerator_parse(accelerator'.cstring(), accelerator_key', accelerator_mods')

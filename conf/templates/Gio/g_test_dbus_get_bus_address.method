@@ -1,0 +1,2 @@
+  fun ref get_bus_address(): String iso^ =>
+    GTestDBusP.get_bus_address(this)

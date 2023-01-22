@@ -1,0 +1,2 @@
+  fun get_pending(self': GtkSortListModel): U32 =>
+    @gtk_sort_list_model_get_pending(self')

@@ -1,0 +1,2 @@
+  fun clamp_page(adjustment': GtkAdjustment, lower': F64, upper': F64): None =>
+    @gtk_adjustment_clamp_page(adjustment', lower', upper')

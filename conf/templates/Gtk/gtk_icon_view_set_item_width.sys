@@ -1,0 +1,2 @@
+  fun set_item_width(icon_view': GtkIconView, item_width': I32): None =>
+    @gtk_icon_view_set_item_width(icon_view', item_width')

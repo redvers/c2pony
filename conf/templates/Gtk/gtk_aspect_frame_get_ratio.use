@@ -1,0 +1,1 @@
+use @gtk_aspect_frame_get_ratio[F32](self': GtkAspectFrame)

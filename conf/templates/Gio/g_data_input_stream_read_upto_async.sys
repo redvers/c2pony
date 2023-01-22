@@ -1,0 +1,2 @@
+  fun read_upto_async(stream': GDataInputStream, stop_chars': String, stop_chars_len': I64, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_data_input_stream_read_upto_async(stream', stop_chars'.cstring(), stop_chars_len', io_priority', cancellable', callback', user_data')

@@ -1,0 +1,2 @@
+  fun ref(matcher': GFileAttributeMatcher): GFileAttributeMatcher =>
+    @g_file_attribute_matcher_ref(matcher')

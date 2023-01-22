@@ -1,0 +1,1 @@
+use @gtk_cell_area_inner_cell_area[None](area': GtkCellArea, widget': Pointer[GObjectP], cell_area': cairorectangleint, inner_area': cairorectangleint)

@@ -1,0 +1,2 @@
+  fun get_minus_button(button': GtkScaleButton): Pointer[GObjectP] =>
+@gtk_scale_button_get_minus_button(button')

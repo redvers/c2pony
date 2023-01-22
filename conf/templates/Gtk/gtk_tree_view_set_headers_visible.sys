@@ -1,0 +1,2 @@
+  fun set_headers_visible(tree_view': GtkTreeView, headers_visible': I32): None =>
+    @gtk_tree_view_set_headers_visible(tree_view', headers_visible')

@@ -1,0 +1,2 @@
+  fun ref close(): None =>
+    GtkWindowP.close(this)

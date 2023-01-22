@@ -1,0 +1,1 @@
+use @g_socket_accept[GSocket](socket': GSocket, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

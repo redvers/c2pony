@@ -1,0 +1,2 @@
+  fun force_exit(subprocess': GSubprocess): None =>
+    @g_subprocess_force_exit(subprocess')

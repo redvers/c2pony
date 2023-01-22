@@ -1,0 +1,2 @@
+  fun ref get_show_border(): I32 =>
+    GtkNotebookP.get_show_border(this)

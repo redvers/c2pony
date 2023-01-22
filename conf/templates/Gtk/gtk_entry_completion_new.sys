@@ -1,0 +1,2 @@
+  fun new(): GtkEntryCompletion =>
+    @gtk_entry_completion_new()

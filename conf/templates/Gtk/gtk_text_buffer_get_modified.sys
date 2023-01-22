@@ -1,0 +1,2 @@
+  fun get_modified(buffer': GtkTextBuffer): I32 =>
+    @gtk_text_buffer_get_modified(buffer')

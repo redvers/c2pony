@@ -1,0 +1,1 @@
+use @g_io_stream_has_pending[I32](stream': GIOStream)

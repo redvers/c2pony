@@ -1,0 +1,2 @@
+  fun ref set_icon(icon': GIcon): None =>
+    GFileInfoP.set_icon(this, icon')

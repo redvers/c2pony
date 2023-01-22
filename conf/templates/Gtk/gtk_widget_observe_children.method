@@ -1,0 +1,2 @@
+  fun ref observe_children(): GListModel =>
+    GtkWidgetP.observe_children(this)

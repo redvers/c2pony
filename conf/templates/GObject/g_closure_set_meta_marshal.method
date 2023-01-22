@@ -1,0 +1,2 @@
+  fun ref set_meta_marshal(marshal_data': Pointer[None] tag, meta_marshal': GClosureMarshal): None =>
+    GClosureP.set_meta_marshal(this, marshal_data', meta_marshal')

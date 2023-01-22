@@ -1,0 +1,2 @@
+  fun dbus_is_name(string': String): I32 =>
+    @g_dbus_is_name(string'.cstring())

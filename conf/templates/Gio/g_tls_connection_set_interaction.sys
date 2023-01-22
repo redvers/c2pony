@@ -1,0 +1,2 @@
+  fun set_interaction(conn': GTlsConnection, interaction': GTlsInteraction): None =>
+    @g_tls_connection_set_interaction(conn', interaction')

@@ -1,0 +1,1 @@
+use @g_data_input_stream_get_byte_order[U32](stream': GDataInputStream)

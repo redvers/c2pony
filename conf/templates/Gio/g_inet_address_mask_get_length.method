@@ -1,0 +1,2 @@
+  fun ref get_length(): U32 =>
+    GInetAddressMaskP.get_length(this)

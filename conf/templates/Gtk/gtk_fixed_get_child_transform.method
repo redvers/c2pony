@@ -1,0 +1,2 @@
+  fun ref get_child_transform(widget': GtkWidgetI): GskTransform =>
+    GtkFixedP.get_child_transform(this, widget')

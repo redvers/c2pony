@@ -1,0 +1,2 @@
+  fun foreach_remove(hash_table': GHashTable, func': GHRFunc, user_data': Pointer[None] tag): U32 =>
+    @g_hash_table_foreach_remove(hash_table', func', user_data')

@@ -1,0 +1,2 @@
+  fun ref init(hook_size': U32): None =>
+    GHookListP.init(this, hook_size')

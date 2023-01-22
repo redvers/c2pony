@@ -1,0 +1,1 @@
+use @g_value_get_uint[U32](value': GValue)

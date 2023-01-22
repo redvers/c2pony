@@ -1,0 +1,2 @@
+  fun ref redo(): None =>
+    GtkTextBufferP.redo(this)

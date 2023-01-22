@@ -1,0 +1,2 @@
+  fun exists(info': GtkRecentInfo): I32 =>
+    @gtk_recent_info_exists(info')

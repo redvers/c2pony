@@ -1,0 +1,2 @@
+  fun ref init(): None =>
+    GRWLockP.init(this)

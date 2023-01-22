@@ -1,0 +1,2 @@
+  fun ref get_label(): String iso^ =>
+    GtkFrameP.get_label(this)

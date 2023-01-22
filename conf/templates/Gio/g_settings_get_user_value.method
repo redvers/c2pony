@@ -1,0 +1,2 @@
+  fun ref get_user_value(key': String): GVariant =>
+    GSettingsP.get_user_value(this, key')

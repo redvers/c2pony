@@ -1,0 +1,2 @@
+  fun get_platform_data(cmdline': GApplicationCommandLine): GVariant =>
+    @g_application_command_line_get_platform_data(cmdline')

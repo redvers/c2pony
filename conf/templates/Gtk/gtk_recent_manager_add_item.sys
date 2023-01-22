@@ -1,0 +1,2 @@
+  fun add_item(manager': GtkRecentManager, uri': String): I32 =>
+    @gtk_recent_manager_add_item(manager', uri'.cstring())

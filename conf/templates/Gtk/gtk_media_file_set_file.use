@@ -1,0 +1,1 @@
+use @gtk_media_file_set_file[None](self': GtkMediaFile, file': GFile)

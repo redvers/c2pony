@@ -1,0 +1,2 @@
+  fun ref set_header(header_field': U32, value': GVariant): None =>
+    GDBusMessageP.set_header(this, header_field', value')

@@ -1,0 +1,2 @@
+  fun ref get_data(): Pointer[None] tag =>
+    GMemoryOutputStreamP.get_data(this)

@@ -1,0 +1,1 @@
+use @gtk_window_is_fullscreen[I32](window': Pointer[GObjectP])

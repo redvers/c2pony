@@ -1,0 +1,1 @@
+use @gtk_test_init[None](argcp': Pointer[I32] tag, argvp': Pointer[Pointer[Pointer[U8]]] tag, ...)

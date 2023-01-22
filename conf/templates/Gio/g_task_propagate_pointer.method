@@ -1,0 +1,2 @@
+  fun ref propagate_pointer(error': GError): Pointer[None] tag =>
+    GTaskP.propagate_pointer(this, error')

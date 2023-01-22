@@ -1,0 +1,2 @@
+  fun ref pack_start(child': GtkWidgetI): None =>
+    GtkActionBarP.pack_start(this, child')

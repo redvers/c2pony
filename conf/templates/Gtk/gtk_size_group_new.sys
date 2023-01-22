@@ -1,0 +1,2 @@
+  fun new(mode': U32): GtkSizeGroup =>
+    @gtk_size_group_new(mode')

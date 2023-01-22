@@ -1,0 +1,2 @@
+  fun ref get_child(): Pointer[GObjectP] =>
+    GtkWindowHandleP.get_child(this)

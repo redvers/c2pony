@@ -1,0 +1,2 @@
+  fun ref get_pixels_inside_wrap(): I32 =>
+    GtkTextViewP.get_pixels_inside_wrap(this)

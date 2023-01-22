@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GOutputMessageT
+  var address': GSocketAddress = GSocketAddress
+  var vectors': GOutputVector = GOutputVector
+  var num_vectors': U32 = U32(0)
+  var bytes_sent': U32 = U32(0)
+  var control_messages': Pointer[GSocketControlMessage] = Pointer[GSocketControlMessage]
+  var num_control_messages': U32 = U32(0)

@@ -1,0 +1,2 @@
+  fun ref select_iter(iter': GtkTreeIter): None =>
+    GtkTreeSelectionP.select_iter(this, iter')

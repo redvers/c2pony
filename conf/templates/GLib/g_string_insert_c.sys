@@ -1,0 +1,2 @@
+  fun insert_c(string': GString, pos': I64, c': U8): GString =>
+    @g_string_insert_c(string', pos', c')

@@ -1,0 +1,2 @@
+  fun get_text_length(self': GtkText): U16 =>
+    @gtk_text_get_text_length(self')

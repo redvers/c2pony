@@ -1,0 +1,1 @@
+use @g_type_init_with_debug_flags[None](debug_flags': U32)

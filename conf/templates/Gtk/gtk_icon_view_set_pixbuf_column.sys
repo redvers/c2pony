@@ -1,0 +1,2 @@
+  fun set_pixbuf_column(icon_view': GtkIconView, column': I32): None =>
+    @gtk_icon_view_set_pixbuf_column(icon_view', column')

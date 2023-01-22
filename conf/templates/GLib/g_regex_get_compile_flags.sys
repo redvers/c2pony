@@ -1,0 +1,2 @@
+  fun get_compile_flags(regex': GRegex): U32 =>
+    @g_regex_get_compile_flags(regex')

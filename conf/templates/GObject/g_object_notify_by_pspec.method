@@ -1,0 +1,2 @@
+  fun ref notify_by_pspec(pspec': GParamSpec): None =>
+    GObjectP.notify_by_pspec(this, pspec')

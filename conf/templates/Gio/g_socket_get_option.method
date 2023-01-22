@@ -1,0 +1,2 @@
+  fun ref get_option(level': I32, optname': I32, value': Pointer[I32] tag, error': GError): I32 =>
+    GSocketP.get_option(this, level', optname', value', error')

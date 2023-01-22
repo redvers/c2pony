@@ -1,0 +1,2 @@
+  fun reverse(list': GList): GList =>
+    @g_list_reverse(list')

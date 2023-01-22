@@ -1,0 +1,1 @@
+use @g_variant_dup_strv[Pointer[Pointer[U8]] tag](value': GVariant, length': Pointer[U64] tag)

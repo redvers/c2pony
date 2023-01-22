@@ -1,0 +1,1 @@
+use @gtk_text_view_get_bottom_margin[I32](text_view': GtkTextView)

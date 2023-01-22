@@ -1,0 +1,2 @@
+  fun ref set_sort_order(order': U32): None =>
+    GtkTreeViewColumnP.set_sort_order(this, order')

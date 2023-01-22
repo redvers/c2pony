@@ -1,0 +1,2 @@
+  fun set_selection_mode(box': GtkListBox, mode': U32): None =>
+    @gtk_list_box_set_selection_mode(box', mode')

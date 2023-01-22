@@ -1,0 +1,2 @@
+  fun get_long(value': GValue): I64 =>
+    @g_value_get_long(value')

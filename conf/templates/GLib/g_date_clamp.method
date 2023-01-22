@@ -1,0 +1,2 @@
+  fun ref clamp(min_date': GDate, max_date': GDate): None =>
+    GDateP.clamp(this, min_date', max_date')

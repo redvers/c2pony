@@ -1,0 +1,2 @@
+  fun is_floating(value': GVariant): I32 =>
+    @g_variant_is_floating(value')

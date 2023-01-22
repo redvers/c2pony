@@ -1,0 +1,1 @@
+use @gtk_cell_area_context_reset[None](context': GtkCellAreaContext)

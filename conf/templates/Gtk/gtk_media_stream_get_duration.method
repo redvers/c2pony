@@ -1,0 +1,2 @@
+  fun ref get_duration(): I64 =>
+    GtkMediaStreamP.get_duration(this)

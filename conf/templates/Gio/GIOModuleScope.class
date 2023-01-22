@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GIOModuleScope
+  var ptr: NullablePointer[GIOModuleScopeT]
+
+  new create(ptr': NullablePointer[GIOModuleScopeT]) => ptr = ptr'

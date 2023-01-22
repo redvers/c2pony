@@ -1,0 +1,2 @@
+  fun replace(tree': GTree, key': Pointer[None] tag, value': Pointer[None] tag): None =>
+    @g_tree_replace(tree', key', value')

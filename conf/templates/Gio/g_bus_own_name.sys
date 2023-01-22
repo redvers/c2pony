@@ -1,0 +1,2 @@
+  fun bus_own_name(bus_type': I32, name': String, flags': U32, bus_acquired_handler': GBusAcquiredCallback, name_acquired_handler': GBusNameAcquiredCallback, name_lost_handler': GBusNameLostCallback, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify): U32 =>
+    @g_bus_own_name(bus_type', name'.cstring(), flags', bus_acquired_handler', name_acquired_handler', name_lost_handler', user_data', user_data_free_func')

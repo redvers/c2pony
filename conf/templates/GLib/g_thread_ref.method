@@ -1,0 +1,2 @@
+  fun ref ref(): GThread =>
+    GThreadP.ref(this)

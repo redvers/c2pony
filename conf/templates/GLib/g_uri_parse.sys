@@ -1,0 +1,2 @@
+  fun parse(uri_string': String, flags': U32, error': Pointer[GError]): GUri =>
+    @g_uri_parse(uri_string'.cstring(), flags', error')

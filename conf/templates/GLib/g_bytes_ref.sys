@@ -1,0 +1,2 @@
+  fun ref(bytes': GBytes): GBytes =>
+    @g_bytes_ref(bytes')

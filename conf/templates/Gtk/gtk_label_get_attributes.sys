@@ -1,0 +1,2 @@
+  fun get_attributes(self': GtkLabel): PangoAttrList =>
+    @gtk_label_get_attributes(self')

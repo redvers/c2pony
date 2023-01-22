@@ -1,0 +1,2 @@
+  fun free(type': GVariantType): None =>
+    @g_variant_type_free(type')

@@ -1,0 +1,2 @@
+  fun ref generate_xml(indent': U32, string_builder': GString): None =>
+    GDBusInterfaceInfoP.generate_xml(this, indent', string_builder')

@@ -1,0 +1,2 @@
+  fun ref get_sender(): String iso^ =>
+    GDBusMethodInvocationP.get_sender(this)

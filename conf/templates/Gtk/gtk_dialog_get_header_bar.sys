@@ -1,0 +1,2 @@
+  fun get_header_bar(dialog': GtkDialog): Pointer[GObjectP] =>
+@gtk_dialog_get_header_bar(dialog')

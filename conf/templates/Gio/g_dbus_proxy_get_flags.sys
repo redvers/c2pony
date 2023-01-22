@@ -1,0 +1,2 @@
+  fun get_flags(proxy': GDBusProxy): U32 =>
+    @g_dbus_proxy_get_flags(proxy')

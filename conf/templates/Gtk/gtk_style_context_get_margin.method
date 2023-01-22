@@ -1,0 +1,2 @@
+  fun ref get_margin(margin': GtkBorder): None =>
+    GtkStyleContextP.get_margin(this, margin')

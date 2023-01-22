@@ -1,0 +1,2 @@
+  fun get_child_anchor(iter': GtkTextIter): GtkTextChildAnchor =>
+    @gtk_text_iter_get_child_anchor(iter')

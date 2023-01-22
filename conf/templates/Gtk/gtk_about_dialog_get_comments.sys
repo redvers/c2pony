@@ -1,0 +1,2 @@
+  fun get_comments(about': GtkAboutDialog): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_comments(about')).clone()

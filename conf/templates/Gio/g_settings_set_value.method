@@ -1,0 +1,2 @@
+  fun ref set_value(key': String, value': GVariant): I32 =>
+    GSettingsP.set_value(this, key', value')

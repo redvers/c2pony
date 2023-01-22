@@ -1,0 +1,2 @@
+  fun ref get_media_type(): String iso^ =>
+    GtkPrintSettingsP.get_media_type(this)

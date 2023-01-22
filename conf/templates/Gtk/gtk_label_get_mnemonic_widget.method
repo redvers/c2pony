@@ -1,0 +1,2 @@
+  fun ref get_mnemonic_widget(): Pointer[GObjectP] =>
+    GtkLabelP.get_mnemonic_widget(this)

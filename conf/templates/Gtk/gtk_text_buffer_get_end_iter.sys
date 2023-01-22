@@ -1,0 +1,2 @@
+  fun get_end_iter(buffer': GtkTextBuffer, iter': GtkTextIter): None =>
+    @gtk_text_buffer_get_end_iter(buffer', iter')

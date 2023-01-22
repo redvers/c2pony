@@ -1,0 +1,1 @@
+use @g_bookmark_file_remove_item[I32](bookmark': GBookmarkFile, uri': Pointer[U8] tag, error': Pointer[GError])

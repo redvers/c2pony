@@ -1,0 +1,2 @@
+  fun is_selected(row': GtkListBoxRow): I32 =>
+    @gtk_list_box_row_is_selected(row')

@@ -1,0 +1,1 @@
+use @gtk_text_child_anchor_get_widgets[Pointer[GtkWidget]](anchor': GtkTextChildAnchor, out_len': Pointer[U32] tag)

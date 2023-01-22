@@ -1,0 +1,2 @@
+  fun get_value(key_file': GKeyFile, group_name': String, key': String, error': Pointer[GError]): String iso^ =>
+    String.from_cstring(@g_key_file_get_value(key_file', group_name'.cstring(), key'.cstring(), error')).clone()

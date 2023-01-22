@@ -1,0 +1,2 @@
+  fun ascii_dtostr(buffer': String, buf_len': I32, d': F64): String iso^ =>
+    String.from_cstring(@g_ascii_dtostr(buffer'.cstring(), buf_len', d')).clone()

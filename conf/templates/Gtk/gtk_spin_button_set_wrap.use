@@ -1,0 +1,1 @@
+use @gtk_spin_button_set_wrap[None](spin_button': GtkSpinButton, wrap': I32)

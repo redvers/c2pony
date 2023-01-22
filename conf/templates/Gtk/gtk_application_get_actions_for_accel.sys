@@ -1,0 +1,2 @@
+  fun get_actions_for_accel(application': GtkApplicationI, accel': String): Pointer[Pointer[U8]] tag =>
+    @gtk_application_get_actions_for_accel(application'.getptr(), accel'.cstring())

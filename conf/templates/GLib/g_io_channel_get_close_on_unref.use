@@ -1,0 +1,1 @@
+use @g_io_channel_get_close_on_unref[I32](channel': GIOChannel)

@@ -1,0 +1,2 @@
+  fun backward_chars(iter': GtkTextIter, count': I32): I32 =>
+    @gtk_text_iter_backward_chars(iter', count')

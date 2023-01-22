@@ -1,0 +1,2 @@
+  fun append(self': GtkMultiFilter, filter': GtkFilter): None =>
+    @gtk_multi_filter_append(self', filter')

@@ -1,0 +1,2 @@
+  fun ref(dict': GVariantDict): GVariantDict =>
+    @g_variant_dict_ref(dict')

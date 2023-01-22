@@ -1,0 +1,2 @@
+  fun new(): GRand =>
+    @g_rand_new()

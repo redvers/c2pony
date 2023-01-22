@@ -1,0 +1,1 @@
+use @g_utf8_collate[I32](str1': Pointer[U8] tag, str2': Pointer[U8] tag)

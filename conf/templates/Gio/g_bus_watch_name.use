@@ -1,0 +1,1 @@
+use @g_bus_watch_name[U32](bus_type': I32, name': Pointer[U8] tag, flags': U32, name_appeared_handler': GBusNameAppearedCallback, name_vanished_handler': GBusNameVanishedCallback, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify)

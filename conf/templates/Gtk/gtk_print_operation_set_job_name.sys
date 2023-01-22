@@ -1,0 +1,2 @@
+  fun set_job_name(op': GtkPrintOperation, job_name': String): None =>
+    @gtk_print_operation_set_job_name(op', job_name'.cstring())

@@ -1,0 +1,2 @@
+  fun is_ancestor(path': GtkTreePath, descendant': GtkTreePath): I32 =>
+    @gtk_tree_path_is_ancestor(path', descendant')

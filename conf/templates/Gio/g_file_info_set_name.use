@@ -1,0 +1,1 @@
+use @g_file_info_set_name[None](info': GFileInfo, name': Pointer[U8] tag)

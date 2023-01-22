@@ -1,0 +1,1 @@
+use @gtk_about_dialog_set_system_information[None](about': GtkAboutDialog, system_information': Pointer[U8] tag)

@@ -1,0 +1,1 @@
+use @gtk_notebook_set_tab_reorderable[None](notebook': GtkNotebook, child': Pointer[GObjectP], reorderable': I32)

@@ -1,0 +1,2 @@
+  fun has_group(info': GtkRecentInfo, group_name': String): I32 =>
+    @gtk_recent_info_has_group(info', group_name'.cstring())

@@ -1,0 +1,2 @@
+  fun call_with_unix_fd_list_finish(proxy': GDBusProxy, out_fd_list': Pointer[GUnixFDList], res': GAsyncResult, error': GError): GVariant =>
+    @g_dbus_proxy_call_with_unix_fd_list_finish(proxy', out_fd_list', res', addressof error'.ptr)

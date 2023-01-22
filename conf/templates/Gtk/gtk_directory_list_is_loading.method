@@ -1,0 +1,2 @@
+  fun ref is_loading(): I32 =>
+    GtkDirectoryListP.is_loading(this)

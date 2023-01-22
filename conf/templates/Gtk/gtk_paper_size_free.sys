@@ -1,0 +1,2 @@
+  fun free(size': GtkPaperSize): None =>
+    @gtk_paper_size_free(size')

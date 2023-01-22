@@ -1,0 +1,2 @@
+  fun ref set_file(file': GFile): None =>
+    GtkVideoP.set_file(this, file')

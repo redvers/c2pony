@@ -1,0 +1,2 @@
+  fun ref get_input_stream(): GInputStream =>
+    GIOStreamP.get_input_stream(this)

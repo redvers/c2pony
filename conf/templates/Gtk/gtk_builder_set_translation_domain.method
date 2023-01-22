@@ -1,0 +1,2 @@
+  fun ref set_translation_domain(domain': String): None =>
+    GtkBuilderP.set_translation_domain(this, domain')

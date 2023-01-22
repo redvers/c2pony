@@ -1,0 +1,2 @@
+  fun new(): GtkTextChildAnchor =>
+    @gtk_text_child_anchor_new()

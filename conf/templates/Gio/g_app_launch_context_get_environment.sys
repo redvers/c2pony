@@ -1,0 +1,2 @@
+  fun get_environment(context': GAppLaunchContext): Pointer[Pointer[U8]] tag =>
+    @g_app_launch_context_get_environment(context')

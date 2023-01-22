@@ -1,0 +1,2 @@
+  fun get_use_underline(expander': GtkExpander): I32 =>
+    @gtk_expander_get_use_underline(expander')

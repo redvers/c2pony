@@ -1,0 +1,17 @@
+
+use @gtk_cclosure_expression_get_type[U64]()
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkCClosureExpression is GtkCClosureExpressionI
+  var ptr: Pointer[GtkExpressionP]
+
+  new create(ptr': Pointer[GtkExpressionP]) => ptr = ptr'
+// gtk_cclosure_expression_get_type
+  new gnew() =>
+    ptr = GObjectG.gnew(@gtk_cclosure_expression_get_type())
+
+  fun ref getptr(): Pointer[GtkExpressionP] => ptr

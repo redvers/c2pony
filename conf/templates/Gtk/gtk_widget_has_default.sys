@@ -1,0 +1,2 @@
+  fun has_default(widget': GtkWidgetI): I32 =>
+    @gtk_widget_has_default(widget'.getptr())

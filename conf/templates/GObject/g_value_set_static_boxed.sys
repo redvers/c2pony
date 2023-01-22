@@ -1,0 +1,2 @@
+  fun set_static_boxed(value': GValue, v_boxed': Pointer[None] tag): None =>
+    @g_value_set_static_boxed(value', v_boxed')

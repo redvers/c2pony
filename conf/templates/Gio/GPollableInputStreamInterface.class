@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GPollableInputStreamInterface
+  var ptr: NullablePointer[GPollableInputStreamInterfaceT]
+
+  new create(ptr': NullablePointer[GPollableInputStreamInterfaceT]) => ptr = ptr'

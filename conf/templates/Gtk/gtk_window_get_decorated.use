@@ -1,0 +1,1 @@
+use @gtk_window_get_decorated[I32](window': Pointer[GObjectP])

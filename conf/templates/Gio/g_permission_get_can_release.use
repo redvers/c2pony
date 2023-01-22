@@ -1,0 +1,1 @@
+use @g_permission_get_can_release[I32](permission': GPermission)

@@ -1,0 +1,2 @@
+  fun ref set_width_chars(n_chars': I32): None =>
+    GtkLabelP.set_width_chars(this, n_chars')

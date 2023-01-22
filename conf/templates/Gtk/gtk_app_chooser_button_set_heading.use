@@ -1,0 +1,1 @@
+use @gtk_app_chooser_button_set_heading[None](self': GtkAppChooserButton, heading': Pointer[U8] tag)

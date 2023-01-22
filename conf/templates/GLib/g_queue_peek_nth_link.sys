@@ -1,0 +1,2 @@
+  fun peek_nth_link(queue': GQueue, n': U32): GList =>
+    @g_queue_peek_nth_link(queue', n')

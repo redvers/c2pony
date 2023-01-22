@@ -1,0 +1,2 @@
+  fun ref get_connection(): GDBusConnection =>
+    GDBusInterfaceSkeletonP.get_connection(this)

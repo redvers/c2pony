@@ -1,0 +1,1 @@
+use @gtk_icon_view_set_drag_dest_item[None](icon_view': GtkIconView, path': GtkTreePath, pos': U32)

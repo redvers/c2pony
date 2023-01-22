@@ -1,0 +1,2 @@
+  fun ref copy(): GRand =>
+    GRandP.copy(this)

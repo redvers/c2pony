@@ -1,0 +1,2 @@
+  fun new_with_rgba(rgba': GdkRGBA): Pointer[GObjectP] =>
+@gtk_color_button_new_with_rgba(rgba')

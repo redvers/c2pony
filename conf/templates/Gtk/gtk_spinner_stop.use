@@ -1,0 +1,1 @@
+use @gtk_spinner_stop[None](spinner': GtkSpinner)

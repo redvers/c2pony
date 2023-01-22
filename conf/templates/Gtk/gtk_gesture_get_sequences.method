@@ -1,0 +1,2 @@
+  fun ref get_sequences(): GList =>
+    GtkGestureP.get_sequences(this)

@@ -1,0 +1,1 @@
+use @g_array_sized_new[GArray](zero_terminated': I32, clear': I32, element_size': U32, reserved_size': U32)

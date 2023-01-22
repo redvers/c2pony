@@ -1,0 +1,2 @@
+  fun ref send_to_mainloop(func': GSourceFunc, user_data': Pointer[None] tag, notify': GDestroyNotify): I32 =>
+    GIOSchedulerJobP.send_to_mainloop(this, func', user_data', notify')

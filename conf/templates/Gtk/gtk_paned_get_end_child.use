@@ -1,0 +1,1 @@
+use @gtk_paned_get_end_child[Pointer[GObjectP]](paned': GtkPaned)

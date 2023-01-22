@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_new_with_attributes[GtkTreeViewColumn](title': Pointer[U8] tag, cell': GtkCellRenderer, ...)

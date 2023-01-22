@@ -1,0 +1,2 @@
+  fun set_tab_reorderable(notebook': GtkNotebook, child': GtkWidgetI, reorderable': I32): None =>
+    @gtk_notebook_set_tab_reorderable(notebook', child'.getptr(), reorderable')

@@ -1,0 +1,2 @@
+  fun print_string(value': GVariant, string': GString, type_annotate': I32): GString =>
+    @g_variant_print_string(value', string', type_annotate')

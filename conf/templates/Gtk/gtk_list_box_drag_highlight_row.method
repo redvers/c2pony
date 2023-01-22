@@ -1,0 +1,2 @@
+  fun ref drag_highlight_row(row': GtkListBoxRow): None =>
+    GtkListBoxP.drag_highlight_row(this, row')

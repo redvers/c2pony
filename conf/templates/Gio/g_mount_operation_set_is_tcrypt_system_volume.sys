@@ -1,0 +1,2 @@
+  fun set_is_tcrypt_system_volume(op': GMountOperation, system_volume': I32): None =>
+    @g_mount_operation_set_is_tcrypt_system_volume(op', system_volume')

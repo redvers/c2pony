@@ -1,0 +1,2 @@
+  fun map(widget': GtkWidgetI): None =>
+    @gtk_widget_map(widget'.getptr())

@@ -1,0 +1,2 @@
+  fun set_rubber_banding(tree_view': GtkTreeView, enable': I32): None =>
+    @gtk_tree_view_set_rubber_banding(tree_view', enable')

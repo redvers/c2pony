@@ -1,0 +1,2 @@
+  fun set_modified_date_time(bookmark': GBookmarkFile, uri': String, modified': GDateTime): None =>
+    @g_bookmark_file_set_modified_date_time(bookmark', uri'.cstring(), modified')

@@ -1,0 +1,2 @@
+  fun ref get_decoration_layout(): String iso^ =>
+    GtkWindowControlsP.get_decoration_layout(this)

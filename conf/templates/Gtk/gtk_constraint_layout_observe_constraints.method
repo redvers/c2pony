@@ -1,0 +1,2 @@
+  fun ref observe_constraints(): GListModel =>
+    GtkConstraintLayoutP.observe_constraints(this)

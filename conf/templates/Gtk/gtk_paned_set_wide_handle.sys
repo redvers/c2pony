@@ -1,0 +1,2 @@
+  fun set_wide_handle(paned': GtkPaned, wide': I32): None =>
+    @gtk_paned_set_wide_handle(paned', wide')

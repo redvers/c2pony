@@ -1,0 +1,1 @@
+use @gtk_cell_area_event[I32](area': GtkCellArea, context': GtkCellAreaContext, widget': Pointer[GObjectP], event': GdkEvent, cell_area': cairorectangleint, flags': U32)

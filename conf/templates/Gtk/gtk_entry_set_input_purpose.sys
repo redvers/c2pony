@@ -1,0 +1,2 @@
+  fun set_input_purpose(entry': GtkEntry, purpose': U32): None =>
+    @gtk_entry_set_input_purpose(entry', purpose')

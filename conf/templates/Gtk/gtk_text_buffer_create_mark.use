@@ -1,0 +1,1 @@
+use @gtk_text_buffer_create_mark[GtkTextMark](buffer': GtkTextBuffer, mark_name': Pointer[U8] tag, where': GtkTextIter, left_gravity': I32)

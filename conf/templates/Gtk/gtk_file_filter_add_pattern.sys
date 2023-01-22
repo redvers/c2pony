@@ -1,0 +1,2 @@
+  fun add_pattern(filter': GtkFileFilter, pattern': String): None =>
+    @gtk_file_filter_add_pattern(filter', pattern'.cstring())

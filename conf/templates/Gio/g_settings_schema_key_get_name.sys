@@ -1,0 +1,2 @@
+  fun get_name(key': GSettingsSchemaKey): String iso^ =>
+    String.from_cstring(@g_settings_schema_key_get_name(key')).clone()

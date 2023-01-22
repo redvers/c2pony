@@ -1,0 +1,1 @@
+use @g_input_stream_clear_pending[None](stream': GInputStream)

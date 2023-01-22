@@ -1,0 +1,2 @@
+  fun ref get_bytes(): U64 =>
+    GtkEntryBufferP.get_bytes(this)

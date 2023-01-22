@@ -1,0 +1,1 @@
+use @g_source_get_ready_time[I64](source': GSource)

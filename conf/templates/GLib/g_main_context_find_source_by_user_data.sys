@@ -1,0 +1,2 @@
+  fun find_source_by_user_data(context': GMainContext, user_data': Pointer[None] tag): GSource =>
+    @g_main_context_find_source_by_user_data(context', user_data')

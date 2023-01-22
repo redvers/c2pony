@@ -1,0 +1,1 @@
+use @gtk_list_box_row_set_selectable[None](row': GtkListBoxRow, selectable': I32)

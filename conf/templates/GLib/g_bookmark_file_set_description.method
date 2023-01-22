@@ -1,0 +1,2 @@
+  fun ref set_description(uri': String, description': String): None =>
+    GBookmarkFileP.set_description(this, uri', description')

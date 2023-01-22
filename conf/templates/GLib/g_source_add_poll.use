@@ -1,0 +1,1 @@
+use @g_source_add_poll[None](source': GSource, fd': GPollFD)

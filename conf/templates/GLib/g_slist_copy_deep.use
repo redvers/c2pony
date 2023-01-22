@@ -1,0 +1,1 @@
+use @g_slist_copy_deep[GSList](list': GSList, func': GCopyFunc, user_data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun set_sensitive(cell': GtkCellRenderer, sensitive': I32): None =>
+    @gtk_cell_renderer_set_sensitive(cell', sensitive')

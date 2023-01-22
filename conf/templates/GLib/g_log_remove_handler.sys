@@ -1,0 +1,2 @@
+  fun log_remove_handler(log_domain': String, handler_id': U32): None =>
+    @g_log_remove_handler(log_domain'.cstring(), handler_id')

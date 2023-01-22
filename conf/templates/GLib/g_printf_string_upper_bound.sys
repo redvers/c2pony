@@ -1,0 +1,2 @@
+  fun printf_string_upper_bound(format': String, args': valisttag): U64 =>
+    @g_printf_string_upper_bound(format'.cstring(), args')

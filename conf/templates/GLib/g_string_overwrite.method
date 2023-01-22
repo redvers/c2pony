@@ -1,0 +1,2 @@
+  fun ref overwrite(pos': U64, val': String): GString =>
+    GStringP.overwrite(this, pos', val')

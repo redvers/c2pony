@@ -1,0 +1,1 @@
+use @g_settings_bind_writable[None](settings': GSettings, key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, inverted': I32)

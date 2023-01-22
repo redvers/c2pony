@@ -1,0 +1,2 @@
+  fun is_equal(size1': GtkPaperSize, size2': GtkPaperSize): I32 =>
+    @gtk_paper_size_is_equal(size1', size2')

@@ -1,0 +1,2 @@
+  fun remove(self': GtkBitset, value': U32): I32 =>
+    @gtk_bitset_remove(self', value')

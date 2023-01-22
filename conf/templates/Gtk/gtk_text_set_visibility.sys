@@ -1,0 +1,2 @@
+  fun set_visibility(self': GtkText, visible': I32): None =>
+    @gtk_text_set_visibility(self', visible')

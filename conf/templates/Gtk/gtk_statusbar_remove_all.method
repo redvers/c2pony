@@ -1,0 +1,2 @@
+  fun ref remove_all(context_id': U32): None =>
+    GtkStatusbarP.remove_all(this, context_id')

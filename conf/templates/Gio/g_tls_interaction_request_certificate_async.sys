@@ -1,0 +1,2 @@
+  fun request_certificate_async(interaction': GTlsInteraction, connection': GTlsConnection, flags': U32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_tls_interaction_request_certificate_async(interaction', connection', flags', cancellable', callback', user_data')

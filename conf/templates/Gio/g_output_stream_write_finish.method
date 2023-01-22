@@ -1,0 +1,2 @@
+  fun ref write_finish(result': GAsyncResult, error': GError): I64 =>
+    GOutputStreamP.write_finish(this, result', error')

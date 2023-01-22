@@ -1,0 +1,2 @@
+  fun ref row_activated(path': GtkTreePath, column': GtkTreeViewColumn): None =>
+    GtkTreeViewP.row_activated(this, path', column')

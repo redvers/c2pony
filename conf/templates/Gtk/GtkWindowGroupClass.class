@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkWindowGroupClass
+  var ptr: NullablePointer[GtkWindowGroupClassT]
+
+  new create(ptr': NullablePointer[GtkWindowGroupClassT]) => ptr = ptr'

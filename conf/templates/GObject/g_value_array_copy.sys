@@ -1,0 +1,2 @@
+  fun copy(value_array': GValueArray): GValueArray =>
+    @g_value_array_copy(value_array')

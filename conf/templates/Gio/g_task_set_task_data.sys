@@ -1,0 +1,2 @@
+  fun set_task_data(task': GTask, task_data': Pointer[None] tag, task_data_destroy': GDestroyNotify): None =>
+    @g_task_set_task_data(task', task_data', task_data_destroy')

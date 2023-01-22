@@ -1,0 +1,2 @@
+  fun ref get_ppd_name(): String iso^ =>
+    GtkPaperSizeP.get_ppd_name(this)

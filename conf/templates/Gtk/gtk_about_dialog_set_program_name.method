@@ -1,0 +1,2 @@
+  fun ref set_program_name(name': String): None =>
+    GtkAboutDialogP.set_program_name(this, name')

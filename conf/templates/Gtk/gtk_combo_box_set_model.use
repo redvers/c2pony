@@ -1,0 +1,1 @@
+use @gtk_combo_box_set_model[None](combo_box': GtkComboBox, model': GtkTreeModel)

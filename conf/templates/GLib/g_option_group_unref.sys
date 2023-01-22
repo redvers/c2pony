@@ -1,0 +1,2 @@
+  fun unref(group': GOptionGroup): None =>
+    @g_option_group_unref(group')

@@ -1,0 +1,2 @@
+  fun ref cache_build(): None =>
+    GDBusInterfaceInfoP.cache_build(this)

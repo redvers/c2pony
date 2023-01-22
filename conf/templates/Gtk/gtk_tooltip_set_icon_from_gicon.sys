@@ -1,0 +1,2 @@
+  fun set_icon_from_gicon(tooltip': GtkTooltip, gicon': GIcon): None =>
+    @gtk_tooltip_set_icon_from_gicon(tooltip', gicon')

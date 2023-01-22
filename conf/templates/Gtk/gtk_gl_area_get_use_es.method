@@ -1,0 +1,2 @@
+  fun ref get_use_es(): I32 =>
+    GtkGLAreaP.get_use_es(this)

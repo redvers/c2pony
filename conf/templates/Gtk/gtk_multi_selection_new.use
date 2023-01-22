@@ -1,0 +1,1 @@
+use @gtk_multi_selection_new[GtkMultiSelection](model': GListModel)

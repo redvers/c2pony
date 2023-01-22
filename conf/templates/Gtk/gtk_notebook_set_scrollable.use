@@ -1,0 +1,1 @@
+use @gtk_notebook_set_scrollable[None](notebook': GtkNotebook, scrollable': I32)

@@ -1,0 +1,2 @@
+  fun ref get_has_stencil_buffer(): I32 =>
+    GtkGLAreaP.get_has_stencil_buffer(this)

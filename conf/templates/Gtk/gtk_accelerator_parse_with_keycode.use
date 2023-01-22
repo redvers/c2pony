@@ -1,0 +1,1 @@
+use @gtk_accelerator_parse_with_keycode[I32](accelerator': Pointer[U8] tag, display': GdkDisplay, accelerator_key': Pointer[U32] tag, accelerator_codes': Pointer[Pointer[U32]] tag, accelerator_mods': Pointer[U32] tag)

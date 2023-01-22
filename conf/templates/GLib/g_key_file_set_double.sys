@@ -1,0 +1,2 @@
+  fun set_double(key_file': GKeyFile, group_name': String, key': String, value': F64): None =>
+    @g_key_file_set_double(key_file', group_name'.cstring(), key'.cstring(), value')

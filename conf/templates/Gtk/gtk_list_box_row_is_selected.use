@@ -1,0 +1,1 @@
+use @gtk_list_box_row_is_selected[I32](row': GtkListBoxRow)

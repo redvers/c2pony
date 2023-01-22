@@ -1,0 +1,2 @@
+  fun ref set_scope(scope': U32): None =>
+    GtkShortcutControllerP.set_scope(this, scope')

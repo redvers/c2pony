@@ -1,0 +1,2 @@
+  fun remove_controller(widget': GtkWidgetI, controller': GtkEventController): None =>
+    @gtk_widget_remove_controller(widget'.getptr(), controller')

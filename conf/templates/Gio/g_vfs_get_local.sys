@@ -1,0 +1,2 @@
+  fun get_local(): GVfs =>
+    @g_vfs_get_local()

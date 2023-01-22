@@ -1,0 +1,2 @@
+  fun ref copy(): GtkBitset =>
+    GtkBitsetP.copy(this)

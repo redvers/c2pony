@@ -1,0 +1,2 @@
+  fun ref find(item': Pointer[None] tag, position': Pointer[U32] tag): I32 =>
+    GListStoreP.find(this, item', position')

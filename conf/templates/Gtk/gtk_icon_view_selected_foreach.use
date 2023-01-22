@@ -1,0 +1,1 @@
+use @gtk_icon_view_selected_foreach[None](icon_view': GtkIconView, func': GtkIconViewForeachFunc, data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun free(scope': GIOModuleScope): None =>
+    @g_io_module_scope_free(scope')

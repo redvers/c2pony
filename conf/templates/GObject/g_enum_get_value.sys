@@ -1,0 +1,2 @@
+  fun enum_get_value(enum_class': GEnumClass, value': I32): GEnumValue =>
+    @g_enum_get_value(enum_class', value')

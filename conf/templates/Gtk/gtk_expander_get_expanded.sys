@@ -1,0 +1,2 @@
+  fun get_expanded(expander': GtkExpander): I32 =>
+    @gtk_expander_get_expanded(expander')

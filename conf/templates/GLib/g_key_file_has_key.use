@@ -1,0 +1,1 @@
+use @g_key_file_has_key[I32](key_file': GKeyFile, group_name': Pointer[U8] tag, key': Pointer[U8] tag, error': Pointer[GError])

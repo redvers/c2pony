@@ -1,0 +1,2 @@
+  fun append_c(string': GString, c': U8): GString =>
+    @g_string_append_c(string', c')

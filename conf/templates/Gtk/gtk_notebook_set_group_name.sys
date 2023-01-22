@@ -1,0 +1,2 @@
+  fun set_group_name(notebook': GtkNotebook, group_name': String): None =>
+    @gtk_notebook_set_group_name(notebook', group_name'.cstring())

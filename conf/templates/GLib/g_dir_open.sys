@@ -1,0 +1,2 @@
+  fun open(path': String, flags': U32, error': Pointer[GError]): GDir =>
+    @g_dir_open(path'.cstring(), flags', error')

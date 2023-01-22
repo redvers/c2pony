@@ -1,0 +1,2 @@
+  fun get_label_widget(frame': GtkFrame): Pointer[GObjectP] =>
+@gtk_frame_get_label_widget(frame')

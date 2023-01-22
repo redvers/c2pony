@@ -1,0 +1,1 @@
+use @g_buffered_input_stream_set_buffer_size[None](stream': GBufferedInputStream, size': U64)

@@ -1,0 +1,1 @@
+use @g_dbus_method_invocation_return_dbus_error[None](invocation': GDBusMethodInvocation, error_name': Pointer[U8] tag, error_message': Pointer[U8] tag)

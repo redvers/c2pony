@@ -1,0 +1,2 @@
+  fun ref set_input_purpose(purpose': U32): None =>
+    GtkTextViewP.set_input_purpose(this, purpose')

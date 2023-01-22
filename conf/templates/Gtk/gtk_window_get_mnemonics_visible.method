@@ -1,0 +1,2 @@
+  fun ref get_mnemonics_visible(): I32 =>
+    GtkWindowP.get_mnemonics_visible(this)

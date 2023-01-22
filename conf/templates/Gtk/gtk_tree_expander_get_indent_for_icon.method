@@ -1,0 +1,2 @@
+  fun ref get_indent_for_icon(): I32 =>
+    GtkTreeExpanderP.get_indent_for_icon(this)

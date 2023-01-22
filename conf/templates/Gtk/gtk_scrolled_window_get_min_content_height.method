@@ -1,0 +1,2 @@
+  fun ref get_min_content_height(): I32 =>
+    GtkScrolledWindowP.get_min_content_height(this)

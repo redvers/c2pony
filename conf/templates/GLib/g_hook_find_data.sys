@@ -1,0 +1,2 @@
+  fun find_data(hook_list': GHookList, need_valids': I32, data': Pointer[None] tag): GHook =>
+    @g_hook_find_data(hook_list', need_valids', data')

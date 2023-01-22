@@ -1,0 +1,2 @@
+  fun set_double(settings': GSettings, key': String, value': F64): I32 =>
+    @g_settings_set_double(settings', key'.cstring(), value')

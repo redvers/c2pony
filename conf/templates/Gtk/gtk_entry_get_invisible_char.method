@@ -1,0 +1,2 @@
+  fun ref get_invisible_char(): U32 =>
+    GtkEntryP.get_invisible_char(this)

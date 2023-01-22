@@ -1,0 +1,2 @@
+  fun add_interface(object': GDBusObjectSkeleton, interface': GDBusInterfaceSkeleton): None =>
+    @g_dbus_object_skeleton_add_interface(object', interface')

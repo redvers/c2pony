@@ -1,0 +1,1 @@
+use @gtk_text_buffer_delete[None](buffer': GtkTextBuffer, start': GtkTextIter, end': GtkTextIter)

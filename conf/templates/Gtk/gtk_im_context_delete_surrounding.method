@@ -1,0 +1,2 @@
+  fun ref delete_surrounding(offset': I32, n_chars': I32): I32 =>
+    GtkIMContextP.delete_surrounding(this, offset', n_chars')

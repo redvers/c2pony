@@ -1,0 +1,2 @@
+  fun ref set_focus_child(child': GtkWidgetI): None =>
+    GtkWidgetP.set_focus_child(this, child')

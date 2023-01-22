@@ -1,0 +1,2 @@
+  fun new(model': GtkSelectionModel, factory': GtkListItemFactory): Pointer[GObjectP] =>
+@gtk_list_view_new(model', factory')

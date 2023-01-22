@@ -1,0 +1,2 @@
+  fun ref get_show_menubar(): I32 =>
+    GtkApplicationWindowP.get_show_menubar(this)

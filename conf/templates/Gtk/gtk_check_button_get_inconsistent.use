@@ -1,0 +1,1 @@
+use @gtk_check_button_get_inconsistent[I32](check_button': GtkCheckButton)

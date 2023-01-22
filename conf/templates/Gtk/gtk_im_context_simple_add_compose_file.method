@@ -1,0 +1,2 @@
+  fun ref add_compose_file(compose_file': String): None =>
+    GtkIMContextSimpleP.add_compose_file(this, compose_file')

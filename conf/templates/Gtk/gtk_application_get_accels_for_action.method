@@ -1,0 +1,2 @@
+  fun ref get_accels_for_action(detailed_action_name': String): Pointer[Pointer[U8]] tag =>
+    GtkApplicationP.get_accels_for_action(this, detailed_action_name')

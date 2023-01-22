@@ -1,0 +1,2 @@
+  fun ref set_visible_child_full(name': String, transition': U32): None =>
+    GtkStackP.set_visible_child_full(this, name', transition')

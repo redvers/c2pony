@@ -1,0 +1,2 @@
+  fun add_offset_value(self': GtkLevelBar, name': String, value': F64): None =>
+    @gtk_level_bar_add_offset_value(self', name'.cstring(), value')

@@ -1,0 +1,2 @@
+  fun layout_changed(manager': GtkLayoutManager): None =>
+    @gtk_layout_manager_layout_changed(manager')

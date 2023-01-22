@@ -1,0 +1,2 @@
+  fun ref get_shrink_start_child(): I32 =>
+    GtkPanedP.get_shrink_start_child(this)

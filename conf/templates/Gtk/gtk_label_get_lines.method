@@ -1,0 +1,2 @@
+  fun ref get_lines(): I32 =>
+    GtkLabelP.get_lines(this)

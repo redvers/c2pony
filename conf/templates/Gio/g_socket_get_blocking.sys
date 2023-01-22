@@ -1,0 +1,2 @@
+  fun get_blocking(socket': GSocket): I32 =>
+    @g_socket_get_blocking(socket')

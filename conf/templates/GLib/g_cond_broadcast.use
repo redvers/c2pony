@@ -1,0 +1,1 @@
+use @g_cond_broadcast[None](cond': GCond)

@@ -1,0 +1,2 @@
+  fun put_byte(stream': GDataOutputStream, data': U8, cancellable': GCancellable, error': GError): I32 =>
+    @g_data_output_stream_put_byte(stream', data', cancellable', addressof error'.ptr)

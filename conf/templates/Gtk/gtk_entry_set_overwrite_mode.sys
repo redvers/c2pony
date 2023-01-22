@@ -1,0 +1,2 @@
+  fun set_overwrite_mode(entry': GtkEntry, overwrite': I32): None =>
+    @gtk_entry_set_overwrite_mode(entry', overwrite')

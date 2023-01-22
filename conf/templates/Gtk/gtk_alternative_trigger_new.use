@@ -1,0 +1,1 @@
+use @gtk_alternative_trigger_new[GtkShortcutTrigger](first': GtkShortcutTrigger, second': GtkShortcutTrigger)

@@ -1,0 +1,2 @@
+  fun remove(area': GtkCellArea, renderer': GtkCellRenderer): None =>
+    @gtk_cell_area_remove(area', renderer')

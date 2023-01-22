@@ -1,0 +1,2 @@
+  fun get_file(self': GtkDirectoryList): GFile =>
+    @gtk_directory_list_get_file(self')

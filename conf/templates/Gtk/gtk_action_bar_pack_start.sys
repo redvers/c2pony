@@ -1,0 +1,2 @@
+  fun pack_start(action_bar': GtkActionBar, child': GtkWidgetI): None =>
+    @gtk_action_bar_pack_start(action_bar', child'.getptr())

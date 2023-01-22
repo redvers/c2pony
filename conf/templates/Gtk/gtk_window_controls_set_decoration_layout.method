@@ -1,0 +1,2 @@
+  fun ref set_decoration_layout(layout': String): None =>
+    GtkWindowControlsP.set_decoration_layout(this, layout')

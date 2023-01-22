@@ -1,0 +1,2 @@
+  fun ref get_constant(): F64 =>
+    GtkConstraintP.get_constant(this)

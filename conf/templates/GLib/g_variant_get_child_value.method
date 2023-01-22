@@ -1,0 +1,2 @@
+  fun ref get_child_value(index': U64): GVariant =>
+    GVariantP.get_child_value(this, index')

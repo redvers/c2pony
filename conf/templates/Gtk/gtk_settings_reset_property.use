@@ -1,0 +1,1 @@
+use @gtk_settings_reset_property[None](settings': GtkSettings, name': Pointer[U8] tag)

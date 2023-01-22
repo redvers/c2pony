@@ -1,0 +1,2 @@
+  fun get(object': Pointer[None] tag, first_property_name': String, ...): None =>
+    @g_object_get(object', first_property_name'.cstring(), ...)

@@ -1,0 +1,2 @@
+  fun get_applications(info': GtkRecentInfo, length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+    @gtk_recent_info_get_applications(info', length')

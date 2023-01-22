@@ -1,0 +1,1 @@
+use @gtk_progress_bar_get_show_text[I32](pbar': GtkProgressBar)

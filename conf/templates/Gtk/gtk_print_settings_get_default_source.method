@@ -1,0 +1,2 @@
+  fun ref get_default_source(): String iso^ =>
+    GtkPrintSettingsP.get_default_source(this)

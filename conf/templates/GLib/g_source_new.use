@@ -1,0 +1,1 @@
+use @g_source_new[GSource](source_funcs': GSourceFuncs, struct_size': U32)

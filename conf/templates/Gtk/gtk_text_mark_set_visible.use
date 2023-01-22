@@ -1,0 +1,1 @@
+use @gtk_text_mark_set_visible[None](mark': GtkTextMark, setting': I32)

@@ -1,0 +1,1 @@
+use @gtk_drag_icon_get_child[Pointer[GObjectP]](self': GtkDragIcon)

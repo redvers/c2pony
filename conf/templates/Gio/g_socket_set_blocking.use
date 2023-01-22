@@ -1,0 +1,1 @@
+use @g_socket_set_blocking[None](socket': GSocket, blocking': I32)

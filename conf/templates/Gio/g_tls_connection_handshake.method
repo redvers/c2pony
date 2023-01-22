@@ -1,0 +1,2 @@
+  fun ref handshake(cancellable': GCancellable, error': GError): I32 =>
+    GTlsConnectionP.handshake(this, cancellable', error')

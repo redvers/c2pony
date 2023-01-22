@@ -1,0 +1,2 @@
+  fun ref set_priority(priority': I32): None =>
+    GtkTextTagP.set_priority(this, priority')

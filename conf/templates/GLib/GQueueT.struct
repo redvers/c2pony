@@ -1,0 +1,6 @@
+
+use "lib:glib-2.0"
+struct GQueueT
+  var head': GList = GList
+  var tail': GList = GList
+  var length': U32 = U32(0)

@@ -1,0 +1,1 @@
+use @g_inet_address_mask_matches[I32](mask': GInetAddressMask, address': GInetAddress)

@@ -1,0 +1,2 @@
+  fun is_prepared(self': GtkMediaStream): I32 =>
+    @gtk_media_stream_is_prepared(self')

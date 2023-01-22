@@ -1,0 +1,2 @@
+  fun ref forward_visible_word_ends(count': I32): I32 =>
+    GtkTextIterP.forward_visible_word_ends(this, count')

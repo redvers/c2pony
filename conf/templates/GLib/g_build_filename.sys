@@ -1,0 +1,2 @@
+  fun build_filename(first_element': String, ...): String iso^ =>
+    String.from_cstring(@g_build_filename(first_element'.cstring(), ...)).clone()

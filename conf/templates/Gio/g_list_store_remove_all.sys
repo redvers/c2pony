@@ -1,0 +1,2 @@
+  fun remove_all(store': GListStore): None =>
+    @g_list_store_remove_all(store')

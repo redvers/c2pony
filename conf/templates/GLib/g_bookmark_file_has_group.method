@@ -1,0 +1,2 @@
+  fun ref has_group(uri': String, group': String, error': Pointer[GError]): I32 =>
+    GBookmarkFileP.has_group(this, uri', group', error')

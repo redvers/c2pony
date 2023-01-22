@@ -1,0 +1,2 @@
+  fun ref remove_all(): None =>
+    GtkComboBoxTextP.remove_all(this)

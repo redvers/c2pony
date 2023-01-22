@@ -1,0 +1,2 @@
+  fun unregister_uri_scheme(vfs': GVfs, scheme': String): I32 =>
+    @g_vfs_unregister_uri_scheme(vfs', scheme'.cstring())

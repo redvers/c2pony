@@ -1,0 +1,1 @@
+use @g_vfs_is_active[I32](vfs': GVfs)

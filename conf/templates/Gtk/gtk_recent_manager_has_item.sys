@@ -1,0 +1,2 @@
+  fun has_item(manager': GtkRecentManager, uri': String): I32 =>
+    @gtk_recent_manager_has_item(manager', uri'.cstring())

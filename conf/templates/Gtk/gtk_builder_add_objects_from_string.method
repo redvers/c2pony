@@ -1,0 +1,2 @@
+  fun ref add_objects_from_string(buffer': String, length': I64, object_ids': Pointer[Pointer[U8]] tag, error': GError): I32 =>
+    GtkBuilderP.add_objects_from_string(this, buffer', length', object_ids', error')

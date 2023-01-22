@@ -1,0 +1,2 @@
+  fun ref get_text(end': GtkTextIter): String iso^ =>
+    GtkTextIterP.get_text(this, end')

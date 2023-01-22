@@ -1,0 +1,2 @@
+  fun get_display(op': GtkMountOperation): GdkDisplay =>
+    @gtk_mount_operation_get_display(op')

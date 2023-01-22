@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GHashTableIter
+  var ptr: NullablePointer[GHashTableIterT]
+
+  new create(ptr': NullablePointer[GHashTableIterT]) => ptr = ptr'

@@ -1,0 +1,2 @@
+  fun ref get_multiplier(): F64 =>
+    GtkConstraintP.get_multiplier(this)

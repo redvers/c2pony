@@ -1,0 +1,2 @@
+  fun get_path(reference': GtkTreeRowReference): GtkTreePath =>
+    @gtk_tree_row_reference_get_path(reference')

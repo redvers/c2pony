@@ -1,0 +1,2 @@
+  fun ref get_iter_location(iter': GtkTextIter, location': cairorectangleint): None =>
+    GtkTextViewP.get_iter_location(this, iter', location')

@@ -1,0 +1,2 @@
+  fun test_set_nonfatal_assertions(): None =>
+    @g_test_set_nonfatal_assertions()

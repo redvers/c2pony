@@ -1,0 +1,1 @@
+use @g_variant_ref_sink[GVariant](value': GVariant)

@@ -1,0 +1,2 @@
+  fun ref free_to_node(): GskRenderNode =>
+    P.free_to_node(this)

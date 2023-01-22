@@ -1,0 +1,1 @@
+use @g_dbus_object_skeleton_remove_interface_by_name[None](object': GDBusObjectSkeleton, interface_name': Pointer[U8] tag)

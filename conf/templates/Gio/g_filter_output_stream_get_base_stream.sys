@@ -1,0 +1,2 @@
+  fun get_base_stream(stream': GFilterOutputStream): GOutputStream =>
+    @g_filter_output_stream_get_base_stream(stream')

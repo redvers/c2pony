@@ -1,0 +1,2 @@
+  fun ref get_cursor(): GdkCursor =>
+    GtkWidgetP.get_cursor(this)

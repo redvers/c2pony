@@ -1,0 +1,2 @@
+  fun get_top_margin(setup': GtkPageSetup, unit': U32): F64 =>
+    @gtk_page_setup_get_top_margin(setup', unit')

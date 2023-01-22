@@ -1,0 +1,2 @@
+  fun ref open(type': GVariantType): None =>
+    GVariantBuilderP.open(this, type')

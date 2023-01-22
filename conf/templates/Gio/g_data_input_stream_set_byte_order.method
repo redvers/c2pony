@@ -1,0 +1,2 @@
+  fun ref set_byte_order(order': U32): None =>
+    GDataInputStreamP.set_byte_order(this, order')

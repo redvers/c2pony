@@ -1,0 +1,2 @@
+  fun new(allowed': I32): GPermission =>
+    @g_simple_permission_new(allowed')

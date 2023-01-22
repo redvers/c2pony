@@ -1,0 +1,1 @@
+use @gtk_grid_attach_next_to[None](grid': GtkGrid, child': Pointer[GObjectP], sibling': Pointer[GObjectP], side': U32, width': I32, height': I32)

@@ -1,0 +1,2 @@
+  fun ref create_pango_context(): PangoContext =>
+    GtkPrintContextP.create_pango_context(this)

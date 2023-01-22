@@ -1,0 +1,1 @@
+use @g_async_queue_remove[I32](queue': GAsyncQueue, item': Pointer[None] tag)

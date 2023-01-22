@@ -1,0 +1,2 @@
+  fun ref get_next(out_link': Pointer[Pointer[U8]] tag, value': Pointer[GMenuModel]): I32 =>
+    GMenuLinkIterP.get_next(this, out_link', value')

@@ -1,0 +1,2 @@
+  fun ref get_is_abstract(): I32 =>
+    GUnixSocketAddressP.get_is_abstract(this)

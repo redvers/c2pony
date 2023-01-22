@@ -1,0 +1,1 @@
+use @gtk_about_dialog_set_authors[None](about': GtkAboutDialog, authors': Pointer[Pointer[U8]] tag)

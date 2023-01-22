@@ -1,0 +1,2 @@
+  fun set_visited_date_time(bookmark': GBookmarkFile, uri': String, visited': GDateTime): None =>
+    @g_bookmark_file_set_visited_date_time(bookmark', uri'.cstring(), visited')

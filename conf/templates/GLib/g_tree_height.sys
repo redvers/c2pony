@@ -1,0 +1,2 @@
+  fun height(tree': GTree): I32 =>
+    @g_tree_height(tree')

@@ -1,0 +1,2 @@
+  fun get_actions(source': GtkDragSource): U32 =>
+    @gtk_drag_source_get_actions(source')

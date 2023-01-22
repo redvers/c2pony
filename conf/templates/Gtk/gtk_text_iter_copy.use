@@ -1,0 +1,1 @@
+use @gtk_text_iter_copy[GtkTextIter](iter': GtkTextIter)

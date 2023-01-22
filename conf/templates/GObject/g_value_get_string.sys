@@ -1,0 +1,2 @@
+  fun get_string(value': GValue): String iso^ =>
+    String.from_cstring(@g_value_get_string(value')).clone()

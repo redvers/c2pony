@@ -1,0 +1,2 @@
+  fun get_pixel_size(image': GtkImage): I32 =>
+    @gtk_image_get_pixel_size(image')

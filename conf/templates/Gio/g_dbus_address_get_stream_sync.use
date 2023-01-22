@@ -1,0 +1,1 @@
+use @g_dbus_address_get_stream_sync[GIOStream](address': Pointer[U8] tag, out_guid': Pointer[Pointer[U8]] tag, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

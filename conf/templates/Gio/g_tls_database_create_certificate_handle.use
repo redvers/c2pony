@@ -1,0 +1,1 @@
+use @g_tls_database_create_certificate_handle[Pointer[U8]](self': GTlsDatabase, certificate': GTlsCertificate)

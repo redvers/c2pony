@@ -1,0 +1,1 @@
+use @gtk_cell_area_attribute_get_column[I32](area': GtkCellArea, renderer': GtkCellRenderer, attribute': Pointer[U8] tag)

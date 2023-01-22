@@ -1,0 +1,2 @@
+  fun add_rectangle(self': GtkBitset, start': U32, width': U32, height': U32, stride': U32): None =>
+    @gtk_bitset_add_rectangle(self', start', width', height', stride')

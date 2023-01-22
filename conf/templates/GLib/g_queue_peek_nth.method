@@ -1,0 +1,2 @@
+  fun ref peek_nth(n': U32): Pointer[None] tag =>
+    GQueueP.peek_nth(this, n')

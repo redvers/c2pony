@@ -1,0 +1,2 @@
+  fun set_poll_func(context': GMainContext, func': GPollFunc): None =>
+    @g_main_context_set_poll_func(context', func')

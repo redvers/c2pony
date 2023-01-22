@@ -1,0 +1,2 @@
+  fun get_arguments(cmdline': GApplicationCommandLine, argc': Pointer[I32] tag): Pointer[Pointer[U8]] tag =>
+    @g_application_command_line_get_arguments(cmdline', argc')

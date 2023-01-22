@@ -1,0 +1,2 @@
+  fun io_add_watch_full(channel': GIOChannel, priority': I32, condition': U32, func': GIOFunc, user_data': Pointer[None] tag, notify': GDestroyNotify): U32 =>
+    @g_io_add_watch_full(channel', priority', condition', func', user_data', notify')

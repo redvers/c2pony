@@ -1,0 +1,2 @@
+  fun add_constraint(layout': GtkConstraintLayout, constraint': GtkConstraint): None =>
+    @gtk_constraint_layout_add_constraint(layout', constraint')

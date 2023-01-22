@@ -1,0 +1,1 @@
+use @gtk_scale_get_layout_offsets[None](scale': GtkScale, x': Pointer[I32] tag, y': Pointer[I32] tag)

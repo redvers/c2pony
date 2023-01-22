@@ -1,0 +1,2 @@
+  fun ref get_display(): GdkDisplay =>
+    GtkStyleContextP.get_display(this)

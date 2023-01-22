@@ -1,0 +1,2 @@
+  fun signal_connect_closure_by_id(instance': Pointer[None] tag, signal_id': U32, detail': U32, closure': GClosure, after': I32): U64 =>
+    @g_signal_connect_closure_by_id(instance', signal_id', detail', closure', after')

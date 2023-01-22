@@ -1,0 +1,2 @@
+  fun get_direction(menu_button': GtkMenuButton): U32 =>
+    @gtk_menu_button_get_direction(menu_button')

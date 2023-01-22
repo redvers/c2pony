@@ -1,0 +1,1 @@
+use @gtk_css_section_print[None](section': GtkCssSection, string': GString)

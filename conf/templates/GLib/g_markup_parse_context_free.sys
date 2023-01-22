@@ -1,0 +1,2 @@
+  fun free(context': GMarkupParseContext): None =>
+    @g_markup_parse_context_free(context')

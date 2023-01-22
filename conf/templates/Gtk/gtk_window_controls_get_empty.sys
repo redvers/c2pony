@@ -1,0 +1,2 @@
+  fun get_empty(self': GtkWindowControls): I32 =>
+    @gtk_window_controls_get_empty(self')

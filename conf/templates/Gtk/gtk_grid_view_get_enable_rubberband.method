@@ -1,0 +1,2 @@
+  fun ref get_enable_rubberband(): I32 =>
+    GtkGridViewP.get_enable_rubberband(this)

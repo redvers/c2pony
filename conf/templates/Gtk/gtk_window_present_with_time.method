@@ -1,0 +1,2 @@
+  fun ref present_with_time(timestamp': U32): None =>
+    GtkWindowP.present_with_time(this, timestamp')

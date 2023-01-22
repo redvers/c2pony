@@ -1,0 +1,2 @@
+  fun ref get_content_width(): I32 =>
+    GtkDrawingAreaP.get_content_width(this)

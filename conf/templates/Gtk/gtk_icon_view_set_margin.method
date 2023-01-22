@@ -1,0 +1,2 @@
+  fun ref set_margin(margin': I32): None =>
+    GtkIconViewP.set_margin(this, margin')

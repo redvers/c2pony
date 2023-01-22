@@ -1,0 +1,2 @@
+  fun set_mime_type(bookmark': GBookmarkFile, uri': String, mime_type': String): None =>
+    @g_bookmark_file_set_mime_type(bookmark', uri'.cstring(), mime_type'.cstring())

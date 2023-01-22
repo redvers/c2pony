@@ -1,0 +1,2 @@
+  fun param_spec_pointer(name': String, nick': String, blurb': String, flags': I32): GParamSpec =>
+    @g_param_spec_pointer(name'.cstring(), nick'.cstring(), blurb'.cstring(), flags')

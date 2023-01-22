@@ -1,0 +1,2 @@
+  fun insert_unichar(string': GString, pos': I64, wc': U32): GString =>
+    @g_string_insert_unichar(string', pos', wc')

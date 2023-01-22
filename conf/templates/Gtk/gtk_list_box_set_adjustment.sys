@@ -1,0 +1,2 @@
+  fun set_adjustment(box': GtkListBox, adjustment': GtkAdjustment): None =>
+    @gtk_list_box_set_adjustment(box', adjustment')

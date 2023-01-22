@@ -1,0 +1,2 @@
+  fun ref pop_current(): None =>
+    GCancellableP.pop_current(this)

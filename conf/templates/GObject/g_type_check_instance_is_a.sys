@@ -1,0 +1,2 @@
+  fun type_check_instance_is_a(instance': GTypeInstance, iface_type': U64): I32 =>
+    @g_type_check_instance_is_a(instance', iface_type')

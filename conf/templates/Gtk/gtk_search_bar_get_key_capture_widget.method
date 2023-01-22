@@ -1,0 +1,2 @@
+  fun ref get_key_capture_widget(): Pointer[GObjectP] =>
+    GtkSearchBarP.get_key_capture_widget(this)

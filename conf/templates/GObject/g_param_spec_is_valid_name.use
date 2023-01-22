@@ -1,0 +1,1 @@
+use @g_param_spec_is_valid_name[I32](name': Pointer[U8] tag)

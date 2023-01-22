@@ -1,0 +1,1 @@
+use @g_tls_interaction_invoke_request_certificate[U32](interaction': GTlsInteraction, connection': GTlsConnection, flags': U32, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

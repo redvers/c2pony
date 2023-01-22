@@ -1,0 +1,2 @@
+  fun get_columns(tree_view': GtkTreeView): GList =>
+    @gtk_tree_view_get_columns(tree_view')

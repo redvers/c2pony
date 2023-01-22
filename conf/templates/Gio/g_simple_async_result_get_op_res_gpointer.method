@@ -1,0 +1,2 @@
+  fun ref get_op_res_gpointer(): Pointer[None] tag =>
+    GSimpleAsyncResultP.get_op_res_gpointer(this)

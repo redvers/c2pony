@@ -1,0 +1,2 @@
+  fun ref set_icon_from_gicon(icon_pos': U32, icon': GIcon): None =>
+    GtkEntryP.set_icon_from_gicon(this, icon_pos', icon')

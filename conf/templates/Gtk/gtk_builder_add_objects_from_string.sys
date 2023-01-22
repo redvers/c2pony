@@ -1,0 +1,2 @@
+  fun add_objects_from_string(builder': GtkBuilderI, buffer': String, length': I64, object_ids': Pointer[Pointer[U8]] tag, error': GError): I32 =>
+    @gtk_builder_add_objects_from_string(builder'.getptr(), buffer'.cstring(), length', object_ids', addressof error'.ptr)

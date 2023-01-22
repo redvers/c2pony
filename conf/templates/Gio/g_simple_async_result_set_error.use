@@ -1,0 +1,1 @@
+use @g_simple_async_result_set_error[None](simple': GSimpleAsyncResult, domain': U32, code': I32, format': Pointer[U8] tag, ...)

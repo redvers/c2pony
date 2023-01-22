@@ -1,0 +1,2 @@
+  fun to_string(path': GtkTreePath): String iso^ =>
+    String.from_cstring(@gtk_tree_path_to_string(path')).clone()

@@ -1,0 +1,2 @@
+  fun get_inverted(pbar': GtkProgressBar): I32 =>
+    @gtk_progress_bar_get_inverted(pbar')

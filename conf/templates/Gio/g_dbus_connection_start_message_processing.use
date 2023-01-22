@@ -1,0 +1,1 @@
+use @g_dbus_connection_start_message_processing[None](connection': GDBusConnection)

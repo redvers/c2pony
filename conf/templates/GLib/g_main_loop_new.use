@@ -1,0 +1,1 @@
+use @g_main_loop_new[GMainLoop](context': GMainContext, is_running': I32)

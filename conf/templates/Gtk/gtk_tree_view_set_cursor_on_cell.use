@@ -1,0 +1,1 @@
+use @gtk_tree_view_set_cursor_on_cell[None](tree_view': GtkTreeView, path': GtkTreePath, focus_column': GtkTreeViewColumn, focus_cell': GtkCellRenderer, start_editing': I32)

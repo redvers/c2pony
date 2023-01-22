@@ -1,0 +1,2 @@
+  fun ref get_body(): GVariant =>
+    GDBusMessageP.get_body(this)

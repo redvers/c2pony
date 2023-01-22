@@ -1,0 +1,2 @@
+  fun set_keep_aspect_ratio(self': GtkPicture, keep_aspect_ratio': I32): None =>
+    @gtk_picture_set_keep_aspect_ratio(self', keep_aspect_ratio')

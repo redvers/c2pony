@@ -1,0 +1,2 @@
+  fun observe_constraints(layout': GtkConstraintLayout): GListModel =>
+    @gtk_constraint_layout_observe_constraints(layout')

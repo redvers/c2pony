@@ -1,0 +1,2 @@
+  fun ref get_slider_range(slider_start': Pointer[I32] tag, slider_end': Pointer[I32] tag): None =>
+    GtkRangeP.get_slider_range(this, slider_start', slider_end')

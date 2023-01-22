@@ -1,0 +1,2 @@
+  fun get_collate(settings': GtkPrintSettings): I32 =>
+    @gtk_print_settings_get_collate(settings')

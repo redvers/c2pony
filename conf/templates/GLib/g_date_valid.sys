@@ -1,0 +1,2 @@
+  fun valid(date': GDate): I32 =>
+    @g_date_valid(date')

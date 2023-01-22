@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GTimeZone
+  var ptr: NullablePointer[GTimeZoneT]
+
+  new create(ptr': NullablePointer[GTimeZoneT]) => ptr = ptr'

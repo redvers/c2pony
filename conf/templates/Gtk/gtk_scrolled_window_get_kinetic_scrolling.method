@@ -1,0 +1,2 @@
+  fun ref get_kinetic_scrolling(): I32 =>
+    GtkScrolledWindowP.get_kinetic_scrolling(this)

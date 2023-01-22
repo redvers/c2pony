@@ -1,0 +1,2 @@
+  fun ref get_current_button(): U32 =>
+    GtkGestureSingleP.get_current_button(this)

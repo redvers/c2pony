@@ -1,0 +1,2 @@
+  fun handles_sequence(gesture': GtkGesture, sequence': GdkEventSequence): I32 =>
+    @gtk_gesture_handles_sequence(gesture', sequence')

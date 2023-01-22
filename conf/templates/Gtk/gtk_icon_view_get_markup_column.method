@@ -1,0 +1,2 @@
+  fun ref get_markup_column(): I32 =>
+    GtkIconViewP.get_markup_column(this)

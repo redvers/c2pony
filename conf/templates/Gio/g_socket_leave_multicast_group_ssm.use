@@ -1,0 +1,1 @@
+use @g_socket_leave_multicast_group_ssm[I32](socket': GSocket, group': GInetAddress, source_specific': GInetAddress, iface': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

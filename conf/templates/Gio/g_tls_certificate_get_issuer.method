@@ -1,0 +1,2 @@
+  fun ref get_issuer(): GTlsCertificate =>
+    GTlsCertificateP.get_issuer(this)

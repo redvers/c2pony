@@ -1,0 +1,2 @@
+  fun get_use_underline(self': GtkStackPage): I32 =>
+    @gtk_stack_page_get_use_underline(self')

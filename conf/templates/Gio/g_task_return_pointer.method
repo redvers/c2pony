@@ -1,0 +1,2 @@
+  fun ref return_pointer(result': Pointer[None] tag, result_destroy': GDestroyNotify): None =>
+    GTaskP.return_pointer(this, result', result_destroy')

@@ -1,0 +1,2 @@
+  fun set_match_mode(self': GtkStringFilter, mode': U32): None =>
+    @gtk_string_filter_set_match_mode(self', mode')

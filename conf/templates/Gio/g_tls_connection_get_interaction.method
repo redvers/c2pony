@@ -1,0 +1,2 @@
+  fun ref get_interaction(): GTlsInteraction =>
+    GTlsConnectionP.get_interaction(this)

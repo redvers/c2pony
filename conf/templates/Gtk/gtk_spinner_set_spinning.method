@@ -1,0 +1,2 @@
+  fun ref set_spinning(spinning': I32): None =>
+    GtkSpinnerP.set_spinning(this, spinning')

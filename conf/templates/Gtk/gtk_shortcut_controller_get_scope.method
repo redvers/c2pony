@@ -1,0 +1,2 @@
+  fun ref get_scope(): U32 =>
+    GtkShortcutControllerP.get_scope(this)

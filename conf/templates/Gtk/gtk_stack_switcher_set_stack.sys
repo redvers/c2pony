@@ -1,0 +1,2 @@
+  fun set_stack(switcher': GtkStackSwitcher, stack': GtkStack): None =>
+    @gtk_stack_switcher_set_stack(switcher', stack')

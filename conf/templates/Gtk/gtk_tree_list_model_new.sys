@@ -1,0 +1,2 @@
+  fun new(root': GListModel, passthrough': I32, autoexpand': I32, create_func': GtkTreeListModelCreateModelFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): GtkTreeListModel =>
+    @gtk_tree_list_model_new(root', passthrough', autoexpand', create_func', user_data', user_destroy')

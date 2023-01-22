@@ -1,0 +1,2 @@
+  fun ref get_iter_at_line(iter': GtkTextIter, line_number': I32): I32 =>
+    GtkTextBufferP.get_iter_at_line(this, iter', line_number')

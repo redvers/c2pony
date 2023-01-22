@@ -1,0 +1,1 @@
+use @g_dbus_object_proxy_new[GDBusObjectProxy](connection': GDBusConnection, object_path': Pointer[U8] tag)

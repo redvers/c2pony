@@ -1,0 +1,2 @@
+  fun ref move_column_after(column': GtkTreeViewColumn, base_column': GtkTreeViewColumn): None =>
+    GtkTreeViewP.move_column_after(this, column', base_column')

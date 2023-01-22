@@ -1,0 +1,2 @@
+  fun ref get_container(): GFile =>
+    GFileEnumeratorP.get_container(this)

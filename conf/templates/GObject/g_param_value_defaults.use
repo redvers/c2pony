@@ -1,0 +1,1 @@
+use @g_param_value_defaults[I32](pspec': GParamSpec, value': GValue)

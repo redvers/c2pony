@@ -1,0 +1,2 @@
+  fun ref set_headers_visible(headers_visible': I32): None =>
+    GtkTreeViewP.set_headers_visible(this, headers_visible')

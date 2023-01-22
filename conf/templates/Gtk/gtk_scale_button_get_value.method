@@ -1,0 +1,2 @@
+  fun ref get_value(): F64 =>
+    GtkScaleButtonP.get_value(this)

@@ -1,0 +1,2 @@
+  fun get_column_spacing(box': GtkFlowBox): U32 =>
+    @gtk_flow_box_get_column_spacing(box')

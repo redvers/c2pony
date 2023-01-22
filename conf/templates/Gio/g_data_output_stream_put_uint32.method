@@ -1,0 +1,2 @@
+  fun ref put_uint32(data': U32, cancellable': GCancellable, error': GError): I32 =>
+    GDataOutputStreamP.put_uint32(this, data', cancellable', error')

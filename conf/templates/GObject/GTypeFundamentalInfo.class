@@ -1,0 +1,8 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GTypeFundamentalInfo
+  var ptr: NullablePointer[GTypeFundamentalInfoT]
+
+  new create(ptr': NullablePointer[GTypeFundamentalInfoT]) => ptr = ptr'

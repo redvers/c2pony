@@ -1,0 +1,2 @@
+  fun ref get_next_sibling(): Pointer[GObjectP] =>
+    GtkWidgetP.get_next_sibling(this)

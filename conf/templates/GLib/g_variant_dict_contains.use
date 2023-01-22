@@ -1,0 +1,1 @@
+use @g_variant_dict_contains[I32](dict': GVariantDict, key': Pointer[U8] tag)

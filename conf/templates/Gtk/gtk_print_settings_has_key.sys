@@ -1,0 +1,2 @@
+  fun has_key(settings': GtkPrintSettings, key': String): I32 =>
+    @gtk_print_settings_has_key(settings', key'.cstring())

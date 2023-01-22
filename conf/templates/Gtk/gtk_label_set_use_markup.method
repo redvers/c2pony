@@ -1,0 +1,2 @@
+  fun ref set_use_markup(setting': I32): None =>
+    GtkLabelP.set_use_markup(this, setting')

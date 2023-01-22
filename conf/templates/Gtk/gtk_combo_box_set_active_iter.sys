@@ -1,0 +1,2 @@
+  fun set_active_iter(combo_box': GtkComboBox, iter': GtkTreeIter): None =>
+    @gtk_combo_box_set_active_iter(combo_box', iter')

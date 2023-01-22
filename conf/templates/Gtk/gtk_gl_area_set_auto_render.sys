@@ -1,0 +1,2 @@
+  fun set_auto_render(area': GtkGLArea, auto_render': I32): None =>
+    @gtk_gl_area_set_auto_render(area', auto_render')

@@ -1,0 +1,2 @@
+  fun get_page(notebook': GtkNotebook, child': GtkWidgetI): GtkNotebookPage =>
+    @gtk_notebook_get_page(notebook', child'.getptr())

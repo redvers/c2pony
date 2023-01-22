@@ -1,0 +1,2 @@
+  fun up(string': GString): GString =>
+    @g_string_up(string')

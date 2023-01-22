@@ -1,0 +1,2 @@
+  fun get_uint(settings': GSettings, key': String): U32 =>
+    @g_settings_get_uint(settings', key'.cstring())

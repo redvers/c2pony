@@ -1,0 +1,2 @@
+  fun strjoinv(separator': String, str_array': Pointer[Pointer[U8]] tag): String iso^ =>
+    String.from_cstring(@g_strjoinv(separator'.cstring(), str_array')).clone()

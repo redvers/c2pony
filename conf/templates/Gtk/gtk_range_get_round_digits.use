@@ -1,0 +1,1 @@
+use @gtk_range_get_round_digits[I32](range': GtkRange)

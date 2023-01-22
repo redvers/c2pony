@@ -1,0 +1,2 @@
+  fun clicked(tree_column': GtkTreeViewColumn): None =>
+    @gtk_tree_view_column_clicked(tree_column')

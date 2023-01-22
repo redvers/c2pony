@@ -1,0 +1,2 @@
+  fun ref set_system_information(system_information': String): None =>
+    GtkAboutDialogP.set_system_information(this, system_information')

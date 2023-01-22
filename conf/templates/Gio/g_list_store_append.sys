@@ -1,0 +1,2 @@
+  fun append(store': GListStore, item': Pointer[None] tag): None =>
+    @g_list_store_append(store', item')

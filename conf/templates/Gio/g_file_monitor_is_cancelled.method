@@ -1,0 +1,2 @@
+  fun ref is_cancelled(): I32 =>
+    GFileMonitorP.is_cancelled(this)

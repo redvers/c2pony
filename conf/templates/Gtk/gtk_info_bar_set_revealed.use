@@ -1,0 +1,1 @@
+use @gtk_info_bar_set_revealed[None](info_bar': GtkInfoBar, revealed': I32)

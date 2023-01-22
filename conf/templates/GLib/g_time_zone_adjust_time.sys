@@ -1,0 +1,2 @@
+  fun adjust_time(tz': GTimeZone, type': U32, time': Pointer[I64] tag): I32 =>
+    @g_time_zone_adjust_time(tz', type', time')

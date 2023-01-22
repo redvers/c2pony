@@ -1,0 +1,2 @@
+  fun complete_in_idle(simple': GSimpleAsyncResult): None =>
+    @g_simple_async_result_complete_in_idle(simple')

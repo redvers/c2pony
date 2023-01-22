@@ -1,0 +1,2 @@
+  fun set_has_origin(scale': GtkScale, has_origin': I32): None =>
+    @gtk_scale_set_has_origin(scale', has_origin')

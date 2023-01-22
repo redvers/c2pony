@@ -1,0 +1,2 @@
+  fun get_modifiers(self': GtkKeyvalTrigger): U32 =>
+    @gtk_keyval_trigger_get_modifiers(self')

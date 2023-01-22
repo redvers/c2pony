@@ -1,0 +1,2 @@
+  fun new(): GQueue =>
+    @g_queue_new()

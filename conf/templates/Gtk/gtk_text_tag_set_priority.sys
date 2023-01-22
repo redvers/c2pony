@@ -1,0 +1,2 @@
+  fun set_priority(tag': GtkTextTag, priority': I32): None =>
+    @gtk_text_tag_set_priority(tag', priority')

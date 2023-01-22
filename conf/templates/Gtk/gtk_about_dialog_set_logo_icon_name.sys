@@ -1,0 +1,2 @@
+  fun set_logo_icon_name(about': GtkAboutDialog, icon_name': String): None =>
+    @gtk_about_dialog_set_logo_icon_name(about', icon_name'.cstring())

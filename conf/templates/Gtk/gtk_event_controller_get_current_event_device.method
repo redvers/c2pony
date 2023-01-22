@@ -1,0 +1,2 @@
+  fun ref get_current_event_device(): GdkDevice =>
+    GtkEventControllerP.get_current_event_device(this)

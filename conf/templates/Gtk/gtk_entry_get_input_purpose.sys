@@ -1,0 +1,2 @@
+  fun get_input_purpose(entry': GtkEntry): U32 =>
+    @gtk_entry_get_input_purpose(entry')

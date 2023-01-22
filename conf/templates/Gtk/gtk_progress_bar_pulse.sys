@@ -1,0 +1,2 @@
+  fun pulse(pbar': GtkProgressBar): None =>
+    @gtk_progress_bar_pulse(pbar')

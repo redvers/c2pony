@@ -1,0 +1,2 @@
+  fun add_group(context': GOptionContext, group': GOptionGroup): None =>
+    @g_option_context_add_group(context', group')

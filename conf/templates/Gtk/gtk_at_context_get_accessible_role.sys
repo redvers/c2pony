@@ -1,0 +1,2 @@
+  fun get_accessible_role(self': GtkATContext): U32 =>
+    @gtk_at_context_get_accessible_role(self')

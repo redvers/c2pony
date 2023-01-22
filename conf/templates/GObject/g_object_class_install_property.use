@@ -1,0 +1,1 @@
+use @g_object_class_install_property[None](oclass': GObjectClass, property_id': U32, pspec': GParamSpec)

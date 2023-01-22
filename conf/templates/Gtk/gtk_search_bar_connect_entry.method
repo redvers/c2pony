@@ -1,0 +1,2 @@
+  fun ref connect_entry(entry': GtkEditable): None =>
+    GtkSearchBarP.connect_entry(this, entry')

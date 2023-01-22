@@ -1,0 +1,1 @@
+use @gtk_cell_area_request_renderer[None](area': GtkCellArea, renderer': GtkCellRenderer, orientation': U32, widget': Pointer[GObjectP], for_size': I32, minimum_size': Pointer[I32] tag, natural_size': Pointer[I32] tag)

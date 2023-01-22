@@ -1,0 +1,2 @@
+  fun ref(context': GMarkupParseContext): GMarkupParseContext =>
+    @g_markup_parse_context_ref(context')

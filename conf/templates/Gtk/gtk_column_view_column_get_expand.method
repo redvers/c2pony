@@ -1,0 +1,2 @@
+  fun ref get_expand(): I32 =>
+    GtkColumnViewColumnP.get_expand(this)

@@ -1,0 +1,2 @@
+  fun set_enable_proxy(client': GSocketClient, enable': I32): None =>
+    @g_socket_client_set_enable_proxy(client', enable')

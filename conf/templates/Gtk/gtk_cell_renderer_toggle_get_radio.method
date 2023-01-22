@@ -1,0 +1,2 @@
+  fun ref get_radio(): I32 =>
+    GtkCellRendererToggleP.get_radio(this)

@@ -1,0 +1,2 @@
+  fun ref get_int32(): I32 =>
+    GVariantP.get_int32(this)

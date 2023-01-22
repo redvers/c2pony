@@ -1,0 +1,1 @@
+use @gtk_builder_get_current_object[Pointer[GObjectP]](builder': Pointer[GObjectP])

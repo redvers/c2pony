@@ -1,0 +1,2 @@
+  fun ref reset_property(name': String): None =>
+    GtkSettingsP.reset_property(this, name')

@@ -1,0 +1,2 @@
+  fun return_error_literal(invocation': GDBusMethodInvocation, domain': U32, code': I32, message': String): None =>
+    @g_dbus_method_invocation_return_error_literal(invocation', domain', code', message'.cstring())

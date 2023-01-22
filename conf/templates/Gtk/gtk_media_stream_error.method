@@ -1,0 +1,2 @@
+  fun ref error(domain': U32, code': I32, format': String, ...): None =>
+    GtkMediaStreamP.error(this, domain', code', format', ...)

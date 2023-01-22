@@ -1,0 +1,2 @@
+  fun acquire(permission': GPermission, cancellable': GCancellable, error': GError): I32 =>
+    @g_permission_acquire(permission', cancellable', addressof error'.ptr)

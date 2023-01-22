@@ -1,0 +1,1 @@
+use @g_tls_connection_set_advertised_protocols[None](conn': GTlsConnection, protocols': Pointer[Pointer[U8]] tag)

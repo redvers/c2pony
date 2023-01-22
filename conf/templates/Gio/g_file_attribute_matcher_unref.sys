@@ -1,0 +1,2 @@
+  fun unref(matcher': GFileAttributeMatcher): None =>
+    @g_file_attribute_matcher_unref(matcher')

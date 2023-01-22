@@ -1,0 +1,2 @@
+  fun ref set_parent(parent': GtkWidgetI): None =>
+    GtkWidgetP.set_parent(this, parent')

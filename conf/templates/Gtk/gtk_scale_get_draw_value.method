@@ -1,0 +1,2 @@
+  fun ref get_draw_value(): I32 =>
+    GtkScaleP.get_draw_value(this)

@@ -1,0 +1,2 @@
+  fun ref set_flags(flags': U32): None =>
+    GDBusInterfaceSkeletonP.set_flags(this, flags')

@@ -1,0 +1,2 @@
+  fun get_bool(settings': GtkPrintSettings, key': String): I32 =>
+    @gtk_print_settings_get_bool(settings', key'.cstring())

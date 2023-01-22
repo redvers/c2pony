@@ -1,0 +1,2 @@
+  fun set_needs_attention(self': GtkStackPage, setting': I32): None =>
+    @gtk_stack_page_set_needs_attention(self', setting')

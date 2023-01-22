@@ -1,0 +1,1 @@
+use @g_menu_prepend[None](menu': GMenu, label': Pointer[U8] tag, detailed_action': Pointer[U8] tag)

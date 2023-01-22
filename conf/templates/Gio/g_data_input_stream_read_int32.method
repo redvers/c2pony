@@ -1,0 +1,2 @@
+  fun ref read_int32(cancellable': GCancellable, error': GError): I32 =>
+    GDataInputStreamP.read_int32(this, cancellable', error')

@@ -1,0 +1,9 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GAsyncInitableIface
+  var ptr: NullablePointer[GAsyncInitableIfaceT]
+
+  new create(ptr': NullablePointer[GAsyncInitableIfaceT]) => ptr = ptr'

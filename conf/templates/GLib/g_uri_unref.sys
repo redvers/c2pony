@@ -1,0 +1,2 @@
+  fun unref(uri': GUri): None =>
+    @g_uri_unref(uri')

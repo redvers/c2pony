@@ -1,0 +1,1 @@
+use @g_set_printerr_handler[GPrintFunc](func': GPrintFunc)

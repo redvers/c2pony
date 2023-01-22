@@ -1,0 +1,2 @@
+  fun free_to_bytes(string': GString): GBytes =>
+    @g_string_free_to_bytes(string')

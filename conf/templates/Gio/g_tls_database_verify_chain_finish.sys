@@ -1,0 +1,2 @@
+  fun verify_chain_finish(self': GTlsDatabase, result': GAsyncResult, error': GError): U32 =>
+    @g_tls_database_verify_chain_finish(self', result', addressof error'.ptr)

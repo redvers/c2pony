@@ -1,0 +1,2 @@
+  fun group(group_gesture': GtkGesture, gesture': GtkGesture): None =>
+    @gtk_gesture_group(group_gesture', gesture')

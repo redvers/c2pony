@@ -1,0 +1,2 @@
+  fun ref pulse(): None =>
+    GtkProgressBarP.pulse(this)

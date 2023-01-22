@@ -1,0 +1,2 @@
+  fun ref(info': GDBusInterfaceInfo): GDBusInterfaceInfo =>
+    @g_dbus_interface_info_ref(info')

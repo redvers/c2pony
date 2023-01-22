@@ -1,0 +1,1 @@
+use @g_gtype_get_type[U64]()

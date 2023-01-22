@@ -1,0 +1,2 @@
+  fun ref set_markup_column(column': I32): None =>
+    GtkIconViewP.set_markup_column(this, column')

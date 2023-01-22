@@ -1,0 +1,2 @@
+  fun set_from_file(image': GtkImage, filename': String): None =>
+    @gtk_image_set_from_file(image', filename'.cstring())

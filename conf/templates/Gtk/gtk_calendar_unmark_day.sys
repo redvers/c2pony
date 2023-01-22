@@ -1,0 +1,2 @@
+  fun unmark_day(calendar': GtkCalendar, day': U32): None =>
+    @gtk_calendar_unmark_day(calendar', day')

@@ -1,0 +1,2 @@
+  fun get_column(child': GtkGridLayoutChild): I32 =>
+    @gtk_grid_layout_child_get_column(child')

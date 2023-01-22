@@ -1,0 +1,1 @@
+use @gtk_menu_button_get_label[Pointer[U8]](menu_button': GtkMenuButton)

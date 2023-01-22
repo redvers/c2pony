@@ -1,0 +1,2 @@
+  fun set_has_frame(button': GtkButton, has_frame': I32): None =>
+    @gtk_button_set_has_frame(button', has_frame')

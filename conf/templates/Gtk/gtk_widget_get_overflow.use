@@ -1,0 +1,1 @@
+use @gtk_widget_get_overflow[U32](widget': Pointer[GObjectP])

@@ -1,0 +1,2 @@
+  fun ref get_uint(): U32 =>
+    GValueP.get_uint(this)

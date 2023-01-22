@@ -1,0 +1,2 @@
+  fun get_name(task': GTask): String iso^ =>
+    String.from_cstring(@g_task_get_name(task')).clone()

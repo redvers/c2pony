@@ -1,0 +1,2 @@
+  fun ref is_drawable(): I32 =>
+    GtkWidgetP.is_drawable(this)

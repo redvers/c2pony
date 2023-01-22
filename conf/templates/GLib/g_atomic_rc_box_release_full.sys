@@ -1,0 +1,2 @@
+  fun atomic_rc_box_release_full(mem_block': Pointer[None] tag, clear_func': GDestroyNotify): None =>
+    @g_atomic_rc_box_release_full(mem_block', clear_func')

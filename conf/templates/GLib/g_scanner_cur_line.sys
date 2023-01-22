@@ -1,0 +1,2 @@
+  fun cur_line(scanner': GScanner): U32 =>
+    @g_scanner_cur_line(scanner')

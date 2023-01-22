@@ -1,0 +1,2 @@
+  fun ref is_empty(): I32 =>
+    GtkBitsetP.is_empty(this)

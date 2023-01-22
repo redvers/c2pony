@@ -1,0 +1,2 @@
+  fun add_from_file(builder': GtkBuilderI, filename': String, error': GError): I32 =>
+    @gtk_builder_add_from_file(builder'.getptr(), filename'.cstring(), addressof error'.ptr)

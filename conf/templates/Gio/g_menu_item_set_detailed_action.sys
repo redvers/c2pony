@@ -1,0 +1,2 @@
+  fun set_detailed_action(menu_item': GMenuItem, detailed_action': String): None =>
+    @g_menu_item_set_detailed_action(menu_item', detailed_action'.cstring())

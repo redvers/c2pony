@@ -1,0 +1,2 @@
+  fun add_guide(layout': GtkConstraintLayout, guide': GtkConstraintGuide): None =>
+    @gtk_constraint_layout_add_guide(layout', guide')

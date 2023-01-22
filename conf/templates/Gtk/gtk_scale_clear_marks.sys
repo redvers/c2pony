@@ -1,0 +1,2 @@
+  fun clear_marks(scale': GtkScale): None =>
+    @gtk_scale_clear_marks(scale')

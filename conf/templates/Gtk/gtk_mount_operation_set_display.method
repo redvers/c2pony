@@ -1,0 +1,2 @@
+  fun ref set_display(display': GdkDisplay): None =>
+    GtkMountOperationP.set_display(this, display')

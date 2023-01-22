@@ -1,0 +1,2 @@
+  fun ref get_environment(): Pointer[Pointer[U8]] tag =>
+    GAppLaunchContextP.get_environment(this)

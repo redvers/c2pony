@@ -1,0 +1,2 @@
+  fun reset_im_context(text_view': GtkTextView): None =>
+    @gtk_text_view_reset_im_context(text_view')

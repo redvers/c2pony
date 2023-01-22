@@ -1,0 +1,1 @@
+use @gtk_info_bar_get_revealed[I32](info_bar': GtkInfoBar)

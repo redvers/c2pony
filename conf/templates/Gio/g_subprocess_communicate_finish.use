@@ -1,0 +1,1 @@
+use @g_subprocess_communicate_finish[I32](subprocess': GSubprocess, result': GAsyncResult, stdout_buf': Pointer[GBytes], stderr_buf': Pointer[GBytes], error': Pointer[NullablePointer[GErrorT]])

@@ -1,0 +1,2 @@
+  fun get_minor_version(): U32 =>
+    @gtk_get_minor_version()

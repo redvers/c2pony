@@ -1,0 +1,1 @@
+use @gtk_statusbar_get_context_id[U32](statusbar': GtkStatusbar, context_description': Pointer[U8] tag)

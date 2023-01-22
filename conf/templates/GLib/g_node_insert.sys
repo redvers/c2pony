@@ -1,0 +1,2 @@
+  fun insert(parent': GNode, position': I32, node': GNode): GNode =>
+    @g_node_insert(parent', position', node')

@@ -1,0 +1,2 @@
+  fun set_locale_string(key_file': GKeyFile, group_name': String, key': String, locale': String, string': String): None =>
+    @g_key_file_set_locale_string(key_file', group_name'.cstring(), key'.cstring(), locale'.cstring(), string'.cstring())

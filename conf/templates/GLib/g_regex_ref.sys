@@ -1,0 +1,2 @@
+  fun ref(regex': GRegex): GRegex =>
+    @g_regex_ref(regex')

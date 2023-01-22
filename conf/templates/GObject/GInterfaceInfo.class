@@ -1,0 +1,8 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GInterfaceInfo
+  var ptr: NullablePointer[GInterfaceInfoT]
+
+  new create(ptr': NullablePointer[GInterfaceInfoT]) => ptr = ptr'

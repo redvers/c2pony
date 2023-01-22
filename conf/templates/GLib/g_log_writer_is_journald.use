@@ -1,0 +1,1 @@
+use @g_log_writer_is_journald[I32](output_fd': I32)

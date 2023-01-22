@@ -1,0 +1,2 @@
+  fun get_factory(self': GtkColumnViewColumn): GtkListItemFactory =>
+    @gtk_column_view_column_get_factory(self')

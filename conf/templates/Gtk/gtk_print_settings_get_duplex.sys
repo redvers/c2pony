@@ -1,0 +1,2 @@
+  fun get_duplex(settings': GtkPrintSettings): U32 =>
+    @gtk_print_settings_get_duplex(settings')

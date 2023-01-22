@@ -1,0 +1,2 @@
+  fun copy(date': GDate): GDate =>
+    @g_date_copy(date')

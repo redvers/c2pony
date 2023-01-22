@@ -1,0 +1,2 @@
+  fun set_actions(self': GtkDropTarget, actions': U32): None =>
+    @gtk_drop_target_set_actions(self', actions')

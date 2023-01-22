@@ -1,0 +1,2 @@
+  fun insert_column_with_attributes(tree_view': GtkTreeView, position': I32, title': String, cell': GtkCellRenderer, ...): I32 =>
+    @gtk_tree_view_insert_column_with_attributes(tree_view', position', title'.cstring(), cell', ...)

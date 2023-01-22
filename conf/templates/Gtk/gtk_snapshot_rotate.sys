@@ -1,0 +1,2 @@
+  fun rotate(snapshot': GdkSnapshot, angle': F32): None =>
+    @gtk_snapshot_rotate(snapshot', angle')

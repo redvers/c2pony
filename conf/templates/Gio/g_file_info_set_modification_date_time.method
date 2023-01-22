@@ -1,0 +1,2 @@
+  fun ref set_modification_date_time(mtime': GDateTime): None =>
+    GFileInfoP.set_modification_date_time(this, mtime')

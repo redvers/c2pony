@@ -1,0 +1,2 @@
+  fun ref set_check_cancellable(check_cancellable': I32): None =>
+    GTaskP.set_check_cancellable(this, check_cancellable')

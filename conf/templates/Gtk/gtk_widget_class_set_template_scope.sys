@@ -1,0 +1,2 @@
+  fun set_template_scope(widget_class': GtkWidgetClass, scope': GtkBuilderScope): None =>
+    @gtk_widget_class_set_template_scope(widget_class', scope')

@@ -1,0 +1,2 @@
+  fun ref lookup_interface(name': String): GDBusInterfaceInfo =>
+    GDBusNodeInfoP.lookup_interface(this, name')

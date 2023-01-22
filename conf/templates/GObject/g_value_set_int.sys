@@ -1,0 +1,2 @@
+  fun set_int(value': GValue, v_int': I32): None =>
+    @g_value_set_int(value', v_int')

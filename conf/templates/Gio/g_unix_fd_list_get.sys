@@ -1,0 +1,2 @@
+  fun get(list': GUnixFDList, index': I32, error': GError): I32 =>
+    @g_unix_fd_list_get(list', index', addressof error'.ptr)

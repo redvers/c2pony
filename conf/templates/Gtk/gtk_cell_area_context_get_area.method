@@ -1,0 +1,2 @@
+  fun ref get_area(): GtkCellArea =>
+    GtkCellAreaContextP.get_area(this)

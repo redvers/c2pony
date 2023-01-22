@@ -1,0 +1,2 @@
+  fun ref get_tabs(): PangoTabArray =>
+    GtkEntryP.get_tabs(this)

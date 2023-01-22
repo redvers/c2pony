@@ -1,0 +1,2 @@
+  fun set_dirs_only(completer': GFilenameCompleter, dirs_only': I32): None =>
+    @g_filename_completer_set_dirs_only(completer', dirs_only')

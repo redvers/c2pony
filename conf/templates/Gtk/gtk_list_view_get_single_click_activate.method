@@ -1,0 +1,2 @@
+  fun ref get_single_click_activate(): I32 =>
+    GtkListViewP.get_single_click_activate(this)

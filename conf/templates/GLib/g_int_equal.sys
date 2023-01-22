@@ -1,0 +1,2 @@
+  fun int_equal(v1': Pointer[None] tag, v2': Pointer[None] tag): I32 =>
+    @g_int_equal(v1', v2')

@@ -1,0 +1,2 @@
+  fun ref get_source_property(): String iso^ =>
+    GBindingP.get_source_property(this)

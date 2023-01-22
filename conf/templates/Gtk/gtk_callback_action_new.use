@@ -1,0 +1,1 @@
+use @gtk_callback_action_new[GtkShortcutAction](callback': GtkShortcutFunc, data': Pointer[None] tag, destroy': GDestroyNotify)

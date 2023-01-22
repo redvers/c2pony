@@ -1,0 +1,2 @@
+  fun ref get_style_context(): GtkStyleContext =>
+    GtkWidgetP.get_style_context(this)

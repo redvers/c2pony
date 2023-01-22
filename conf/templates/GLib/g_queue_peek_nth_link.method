@@ -1,0 +1,2 @@
+  fun ref peek_nth_link(n': U32): GList =>
+    GQueueP.peek_nth_link(this, n')

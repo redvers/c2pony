@@ -1,0 +1,2 @@
+  fun get_use_fallback(converter': GCharsetConverter): I32 =>
+    @g_charset_converter_get_use_fallback(converter')

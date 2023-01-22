@@ -1,0 +1,1 @@
+use @gtk_cell_renderer_get_preferred_width_for_height[None](cell': GtkCellRenderer, widget': Pointer[GObjectP], height': I32, minimum_width': Pointer[I32] tag, natural_width': Pointer[I32] tag)

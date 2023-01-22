@@ -1,0 +1,2 @@
+  fun close(channel': GIOChannel): None =>
+    @g_io_channel_close(channel')

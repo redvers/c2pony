@@ -1,0 +1,2 @@
+  fun ref set_clickable(clickable': I32): None =>
+    GtkTreeViewColumnP.set_clickable(this, clickable')

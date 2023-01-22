@@ -1,0 +1,2 @@
+  fun ref set_position(position': I32): None =>
+    GtkPanedP.set_position(this, position')

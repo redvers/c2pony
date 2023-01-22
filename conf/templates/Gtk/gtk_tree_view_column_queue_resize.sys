@@ -1,0 +1,2 @@
+  fun queue_resize(tree_column': GtkTreeViewColumn): None =>
+    @gtk_tree_view_column_queue_resize(tree_column')

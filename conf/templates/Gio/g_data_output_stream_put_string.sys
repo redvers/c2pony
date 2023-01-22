@@ -1,0 +1,2 @@
+  fun put_string(stream': GDataOutputStream, str': String, cancellable': GCancellable, error': GError): I32 =>
+    @g_data_output_stream_put_string(stream', str'.cstring(), cancellable', addressof error'.ptr)

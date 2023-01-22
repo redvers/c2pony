@@ -1,0 +1,2 @@
+  fun ref lookup(name': String): GFileAttributeInfo =>
+    GFileAttributeInfoListP.lookup(this, name')

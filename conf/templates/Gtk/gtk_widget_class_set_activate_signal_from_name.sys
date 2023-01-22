@@ -1,0 +1,2 @@
+  fun set_activate_signal_from_name(widget_class': GtkWidgetClass, signal_name': String): None =>
+    @gtk_widget_class_set_activate_signal_from_name(widget_class', signal_name'.cstring())

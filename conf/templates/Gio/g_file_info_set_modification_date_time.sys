@@ -1,0 +1,2 @@
+  fun set_modification_date_time(info': GFileInfo, mtime': GDateTime): None =>
+    @g_file_info_set_modification_date_time(info', mtime')

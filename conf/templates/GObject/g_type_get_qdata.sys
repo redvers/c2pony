@@ -1,0 +1,2 @@
+  fun type_get_qdata(type': U64, quark': U32): Pointer[None] tag =>
+    @g_type_get_qdata(type', quark')

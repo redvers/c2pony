@@ -1,0 +1,2 @@
+  fun ref ref(): GSettingsSchemaSource =>
+    GSettingsSchemaSourceP.ref(this)

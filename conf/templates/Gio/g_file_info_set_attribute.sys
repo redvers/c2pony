@@ -1,0 +1,2 @@
+  fun set_attribute(info': GFileInfo, attribute': String, type': U32, value_p': Pointer[None] tag): None =>
+    @g_file_info_set_attribute(info', attribute'.cstring(), type', value_p')

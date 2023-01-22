@@ -1,0 +1,1 @@
+use @gtk_widget_unmap[None](widget': Pointer[GObjectP])

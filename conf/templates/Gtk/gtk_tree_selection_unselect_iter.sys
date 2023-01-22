@@ -1,0 +1,2 @@
+  fun unselect_iter(selection': GtkTreeSelection, iter': GtkTreeIter): None =>
+    @gtk_tree_selection_unselect_iter(selection', iter')

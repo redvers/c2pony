@@ -1,0 +1,1 @@
+use @gtk_cell_view_get_displayed_row[GtkTreePath](cell_view': GtkCellView)

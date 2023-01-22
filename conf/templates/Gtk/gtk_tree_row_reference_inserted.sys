@@ -1,0 +1,2 @@
+  fun inserted(proxy': GObjectI, path': GtkTreePath): None =>
+    @gtk_tree_row_reference_inserted(proxy'.getptr(), path')

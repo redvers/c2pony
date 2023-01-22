@@ -1,0 +1,2 @@
+  fun set_logo(about': GtkAboutDialog, logo': GdkPaintable): None =>
+    @gtk_about_dialog_set_logo(about', logo')

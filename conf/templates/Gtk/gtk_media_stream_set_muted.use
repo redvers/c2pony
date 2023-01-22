@@ -1,0 +1,1 @@
+use @gtk_media_stream_set_muted[None](self': GtkMediaStream, muted': I32)

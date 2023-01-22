@@ -1,0 +1,2 @@
+  fun ref set_socket_type(type': U32): None =>
+    GSocketClientP.set_socket_type(this, type')

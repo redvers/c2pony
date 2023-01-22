@@ -1,0 +1,1 @@
+use @g_bookmark_file_load_from_data_dirs[I32](bookmark': GBookmarkFile, file': Pointer[U8] tag, full_path': Pointer[Pointer[U8]] tag, error': Pointer[GError])

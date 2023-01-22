@@ -1,0 +1,2 @@
+  fun build_with_user(flags': U32, scheme': String, user': String, password': String, auth_params': String, host': String, port': I32, path': String, query': String, fragment': String): GUri =>
+    @g_uri_build_with_user(flags', scheme'.cstring(), user'.cstring(), password'.cstring(), auth_params'.cstring(), host'.cstring(), port', path'.cstring(), query'.cstring(), fragment'.cstring())

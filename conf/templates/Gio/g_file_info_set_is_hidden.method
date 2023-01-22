@@ -1,0 +1,2 @@
+  fun ref set_is_hidden(is_hidden': I32): None =>
+    GFileInfoP.set_is_hidden(this, is_hidden')

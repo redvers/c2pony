@@ -1,0 +1,2 @@
+  fun get_available(stream': GBufferedInputStream): U64 =>
+    @g_buffered_input_stream_get_available(stream')

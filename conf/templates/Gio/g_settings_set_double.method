@@ -1,0 +1,2 @@
+  fun ref set_double(key': String, value': F64): I32 =>
+    GSettingsP.set_double(this, key', value')

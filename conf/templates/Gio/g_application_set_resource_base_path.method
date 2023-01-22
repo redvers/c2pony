@@ -1,0 +1,2 @@
+  fun ref set_resource_base_path(resource_path': String): None =>
+    GApplicationP.set_resource_base_path(this, resource_path')

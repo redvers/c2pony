@@ -1,0 +1,2 @@
+  fun send_message_with_reply_finish(connection': GDBusConnection, res': GAsyncResult, error': GError): GDBusMessage =>
+    @g_dbus_connection_send_message_with_reply_finish(connection', res', addressof error'.ptr)

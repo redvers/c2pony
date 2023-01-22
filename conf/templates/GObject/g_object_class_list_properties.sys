@@ -1,0 +1,2 @@
+  fun list_properties(oclass': GObjectClass, n_properties': Pointer[U32] tag): Pointer[GParamSpec] =>
+    @g_object_class_list_properties(oclass', n_properties')

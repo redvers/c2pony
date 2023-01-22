@@ -1,0 +1,2 @@
+  fun set_button(gesture': GtkGestureSingle, button': U32): None =>
+    @gtk_gesture_single_set_button(gesture', button')

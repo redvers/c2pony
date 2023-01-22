@@ -1,0 +1,2 @@
+  fun set_tooltip_text(widget': GtkWidgetI, text': String): None =>
+    @gtk_widget_set_tooltip_text(widget'.getptr(), text'.cstring())

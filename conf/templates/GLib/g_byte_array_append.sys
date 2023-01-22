@@ -1,0 +1,2 @@
+  fun append(array': GByteArray, data': String, len': U32): GByteArray =>
+    @g_byte_array_append(array', data'.cstring(), len')

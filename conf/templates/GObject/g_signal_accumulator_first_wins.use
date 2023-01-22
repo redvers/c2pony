@@ -1,0 +1,1 @@
+use @g_signal_accumulator_first_wins[I32](ihint': GSignalInvocationHint, return_accu': GValue, handler_return': GValue, dummy': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun set_model(self': GtkFlattenListModel, model': GListModel): None =>
+    @gtk_flatten_list_model_set_model(self', model')

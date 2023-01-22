@@ -1,0 +1,2 @@
+  fun get_message_area(message_dialog': GtkMessageDialog): Pointer[GObjectP] =>
+@gtk_message_dialog_get_message_area(message_dialog')

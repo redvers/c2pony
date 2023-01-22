@@ -1,0 +1,1 @@
+use @gtk_tree_path_prepend_index[None](path': GtkTreePath, index': I32)

@@ -1,0 +1,2 @@
+  fun get_anonymous(op': GMountOperation): I32 =>
+    @g_mount_operation_get_anonymous(op')

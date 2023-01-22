@@ -1,0 +1,2 @@
+  fun new_with_backend(schema_id': String, backend': GSettingsBackend): GSettings =>
+    @g_settings_new_with_backend(schema_id'.cstring(), backend')

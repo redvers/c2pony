@@ -1,0 +1,2 @@
+  fun get_file_info(decompressor': GZlibDecompressor): GFileInfo =>
+    @g_zlib_decompressor_get_file_info(decompressor')

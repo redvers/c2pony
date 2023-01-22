@@ -1,0 +1,2 @@
+  fun ref get_display(): GdkDisplay =>
+    GtkMountOperationP.get_display(this)

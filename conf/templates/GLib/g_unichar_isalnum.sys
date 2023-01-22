@@ -1,0 +1,2 @@
+  fun unichar_isalnum(c': U32): I32 =>
+    @g_unichar_isalnum(c')

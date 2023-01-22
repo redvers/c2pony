@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GRegex
+  var ptr: NullablePointer[GRegexT]
+
+  new create(ptr': NullablePointer[GRegexT]) => ptr = ptr'

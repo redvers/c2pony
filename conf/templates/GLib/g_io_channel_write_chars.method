@@ -1,0 +1,2 @@
+  fun ref write_chars(buf': String, count': I64, bytes_written': Pointer[U64] tag, error': Pointer[GError]): U32 =>
+    GIOChannelP.write_chars(this, buf', count', bytes_written', error')

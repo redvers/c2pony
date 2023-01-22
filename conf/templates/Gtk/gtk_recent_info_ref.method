@@ -1,0 +1,2 @@
+  fun ref ref(): GtkRecentInfo =>
+    GtkRecentInfoP.ref(this)

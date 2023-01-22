@@ -1,0 +1,2 @@
+  fun ref update(data': String, length': I64): None =>
+    GChecksumP.update(this, data', length')

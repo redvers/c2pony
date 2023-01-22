@@ -1,0 +1,2 @@
+  fun ref get_paintable(): GdkPaintable =>
+    GtkImageP.get_paintable(this)

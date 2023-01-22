@@ -1,0 +1,2 @@
+  fun ref add_entries(entries': GActionEntry, n_entries': I32, user_data': Pointer[None] tag): None =>
+    GSimpleActionGroupP.add_entries(this, entries', n_entries', user_data')

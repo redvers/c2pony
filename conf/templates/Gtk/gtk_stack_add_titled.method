@@ -1,0 +1,2 @@
+  fun ref add_titled(child': GtkWidgetI, name': String, title': String): GtkStackPage =>
+    GtkStackP.add_titled(this, child', name', title')

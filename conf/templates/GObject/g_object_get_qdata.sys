@@ -1,0 +1,2 @@
+  fun get_qdata(object': GObjectI, quark': U32): Pointer[None] tag =>
+    @g_object_get_qdata(object'.getptr(), quark')

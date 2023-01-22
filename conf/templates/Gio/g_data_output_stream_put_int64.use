@@ -1,0 +1,1 @@
+use @g_data_output_stream_put_int64[I32](stream': GDataOutputStream, data': I64, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

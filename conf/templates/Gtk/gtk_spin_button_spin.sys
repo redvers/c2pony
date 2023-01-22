@@ -1,0 +1,2 @@
+  fun spin(spin_button': GtkSpinButton, direction': U32, increment': F64): None =>
+    @gtk_spin_button_spin(spin_button', direction', increment')

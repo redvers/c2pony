@@ -1,0 +1,2 @@
+  fun set_measure(child': GtkOverlayLayoutChild, measure': I32): None =>
+    @gtk_overlay_layout_child_set_measure(child', measure')

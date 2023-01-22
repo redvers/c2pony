@@ -1,0 +1,1 @@
+use @gtk_spin_button_get_climb_rate[F64](spin_button': GtkSpinButton)

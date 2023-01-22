@@ -1,0 +1,2 @@
+  fun get_tabs(entry': GtkEntry): PangoTabArray =>
+    @gtk_entry_get_tabs(entry')

@@ -1,0 +1,2 @@
+  fun ref get_last_serial(): U32 =>
+    GDBusConnectionP.get_last_serial(this)

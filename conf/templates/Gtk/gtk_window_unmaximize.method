@@ -1,0 +1,2 @@
+  fun ref unmaximize(): None =>
+    GtkWindowP.unmaximize(this)

@@ -1,0 +1,2 @@
+  fun register_object(connection': GDBusConnection, object_path': String, interface_info': GDBusInterfaceInfo, vtable': GDBusInterfaceVTable, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify, error': GError): U32 =>
+    @g_dbus_connection_register_object(connection', object_path'.cstring(), interface_info', vtable', user_data', user_data_free_func', addressof error'.ptr)

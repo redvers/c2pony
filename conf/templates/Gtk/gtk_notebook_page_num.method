@@ -1,0 +1,2 @@
+  fun ref page_num(child': GtkWidgetI): I32 =>
+    GtkNotebookP.page_num(this, child')

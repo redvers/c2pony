@@ -1,0 +1,2 @@
+  fun ref get_right_margin(): I32 =>
+    GtkTextViewP.get_right_margin(this)

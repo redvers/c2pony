@@ -1,0 +1,2 @@
+  fun hostname_to_ascii(hostname': String): String iso^ =>
+    String.from_cstring(@g_hostname_to_ascii(hostname'.cstring())).clone()

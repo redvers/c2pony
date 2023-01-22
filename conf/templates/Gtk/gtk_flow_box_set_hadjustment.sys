@@ -1,0 +1,2 @@
+  fun set_hadjustment(box': GtkFlowBox, adjustment': GtkAdjustment): None =>
+    @gtk_flow_box_set_hadjustment(box', adjustment')

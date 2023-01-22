@@ -1,0 +1,2 @@
+  fun ref format(format': String): String iso^ =>
+    GDateTimeP.format(this, format')

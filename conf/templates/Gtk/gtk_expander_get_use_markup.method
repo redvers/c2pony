@@ -1,0 +1,2 @@
+  fun ref get_use_markup(): I32 =>
+    GtkExpanderP.get_use_markup(this)

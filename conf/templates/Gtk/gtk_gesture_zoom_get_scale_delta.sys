@@ -1,0 +1,2 @@
+  fun get_scale_delta(gesture': GtkGestureZoom): F64 =>
+    @gtk_gesture_zoom_get_scale_delta(gesture')

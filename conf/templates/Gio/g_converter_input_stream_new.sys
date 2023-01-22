@@ -1,0 +1,2 @@
+  fun new(base_stream': GInputStream, converter': GConverter): GInputStream =>
+    @g_converter_input_stream_new(base_stream', converter')

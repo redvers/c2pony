@@ -1,0 +1,2 @@
+  fun ref get_file(): GFile =>
+    GtkMediaFileP.get_file(this)

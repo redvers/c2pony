@@ -1,0 +1,2 @@
+  fun new(): GByteArray =>
+    @g_byte_array_new()

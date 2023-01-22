@@ -1,0 +1,2 @@
+  fun new(data_destroy': GDestroyNotify): GSequence =>
+    @g_sequence_new(data_destroy')

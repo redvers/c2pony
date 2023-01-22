@@ -1,0 +1,2 @@
+  fun accept(socket': GSocket, cancellable': GCancellable, error': GError): GSocket =>
+    @g_socket_accept(socket', cancellable', addressof error'.ptr)

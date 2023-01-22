@@ -1,0 +1,2 @@
+  fun set_application_info(bookmark': GBookmarkFile, uri': String, name': String, exec': String, count': I32, stamp': GDateTime, error': Pointer[GError]): I32 =>
+    @g_bookmark_file_set_application_info(bookmark', uri'.cstring(), name'.cstring(), exec'.cstring(), count', stamp', error')

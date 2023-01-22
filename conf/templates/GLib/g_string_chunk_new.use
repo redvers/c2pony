@@ -1,0 +1,1 @@
+use @g_string_chunk_new[GStringChunk](size': U64)

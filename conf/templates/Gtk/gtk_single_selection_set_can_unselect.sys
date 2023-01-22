@@ -1,0 +1,2 @@
+  fun set_can_unselect(self': GtkSingleSelection, can_unselect': I32): None =>
+    @gtk_single_selection_set_can_unselect(self', can_unselect')

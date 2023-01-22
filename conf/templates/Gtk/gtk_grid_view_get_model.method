@@ -1,0 +1,2 @@
+  fun ref get_model(): GtkSelectionModel =>
+    GtkGridViewP.get_model(this)

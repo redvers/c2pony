@@ -1,0 +1,1 @@
+use @g_dbus_proxy_new[None](connection': GDBusConnection, flags': U32, info': GDBusInterfaceInfo, name': Pointer[U8] tag, object_path': Pointer[U8] tag, interface_name': Pointer[U8] tag, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

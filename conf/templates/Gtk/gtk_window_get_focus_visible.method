@@ -1,0 +1,2 @@
+  fun ref get_focus_visible(): I32 =>
+    GtkWindowP.get_focus_visible(this)

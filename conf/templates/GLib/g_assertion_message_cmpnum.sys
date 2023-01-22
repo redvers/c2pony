@@ -1,0 +1,2 @@
+  fun assertion_message_cmpnum(domain': String, file': String, line': I32, func': String, expr': String, arg1': I128, cmp': String, arg2': I128, numtype': U8): None =>
+    @g_assertion_message_cmpnum(domain'.cstring(), file'.cstring(), line', func'.cstring(), expr'.cstring(), arg1', cmp'.cstring(), arg2', numtype')

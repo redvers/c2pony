@@ -1,0 +1,2 @@
+  fun get_children(self': GtkTreeListRow): GListModel =>
+    @gtk_tree_list_row_get_children(self')

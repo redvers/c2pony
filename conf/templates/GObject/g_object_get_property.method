@@ -1,0 +1,2 @@
+  fun ref get_property(property_name': String, value': GValue): None =>
+    GObjectP.get_property(this, property_name', value')

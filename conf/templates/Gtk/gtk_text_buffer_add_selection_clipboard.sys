@@ -1,0 +1,2 @@
+  fun add_selection_clipboard(buffer': GtkTextBuffer, clipboard': GdkClipboard): None =>
+    @gtk_text_buffer_add_selection_clipboard(buffer', clipboard')

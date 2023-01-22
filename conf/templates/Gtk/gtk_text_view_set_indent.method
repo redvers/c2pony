@@ -1,0 +1,2 @@
+  fun ref set_indent(indent': I32): None =>
+    GtkTextViewP.set_indent(this, indent')

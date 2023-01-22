@@ -1,0 +1,2 @@
+  fun ref get_permission(): GPermission =>
+    GtkLockButtonP.get_permission(this)

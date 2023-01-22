@@ -1,0 +1,2 @@
+  fun ref set_int64(key': String, value': I64): I32 =>
+    GSettingsP.set_int64(this, key', value')

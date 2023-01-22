@@ -1,0 +1,2 @@
+  fun ref activate(): I32 =>
+    GtkWidgetP.activate(this)

@@ -1,0 +1,2 @@
+  fun set_propagate_text_width(self': GtkText, propagate_text_width': I32): None =>
+    @gtk_text_set_propagate_text_width(self', propagate_text_width')

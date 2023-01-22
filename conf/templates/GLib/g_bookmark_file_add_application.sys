@@ -1,0 +1,2 @@
+  fun add_application(bookmark': GBookmarkFile, uri': String, name': String, exec': String): None =>
+    @g_bookmark_file_add_application(bookmark', uri'.cstring(), name'.cstring(), exec'.cstring())

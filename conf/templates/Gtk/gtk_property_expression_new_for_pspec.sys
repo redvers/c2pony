@@ -1,0 +1,2 @@
+  fun new_for_pspec(expression': GtkExpression, pspec': GParamSpec): GtkExpression =>
+    @gtk_property_expression_new_for_pspec(expression', pspec')

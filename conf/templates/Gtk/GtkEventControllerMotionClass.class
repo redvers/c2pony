@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkEventControllerMotionClass
+  var ptr: NullablePointer[GtkEventControllerMotionClassT]
+
+  new create(ptr': NullablePointer[GtkEventControllerMotionClassT]) => ptr = ptr'

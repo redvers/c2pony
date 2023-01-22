@@ -1,0 +1,2 @@
+  fun type_children(type': U64, n_children': Pointer[U32] tag): Pointer[U64] tag =>
+    @g_type_children(type', n_children')

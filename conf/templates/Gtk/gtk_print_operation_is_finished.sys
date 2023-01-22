@@ -1,0 +1,2 @@
+  fun is_finished(op': GtkPrintOperation): I32 =>
+    @gtk_print_operation_is_finished(op')

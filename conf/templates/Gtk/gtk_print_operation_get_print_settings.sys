@@ -1,0 +1,2 @@
+  fun get_print_settings(op': GtkPrintOperation): GtkPrintSettings =>
+    @gtk_print_operation_get_print_settings(op')

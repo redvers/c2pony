@@ -1,0 +1,2 @@
+  fun get(): GtkShortcutAction =>
+    @gtk_nothing_action_get()

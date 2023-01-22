@@ -1,0 +1,2 @@
+  fun connect_finish(connection': GSocketConnection, result': GAsyncResult, error': GError): I32 =>
+    @g_socket_connection_connect_finish(connection', result', addressof error'.ptr)

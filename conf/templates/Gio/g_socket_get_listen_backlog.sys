@@ -1,0 +1,2 @@
+  fun get_listen_backlog(socket': GSocket): I32 =>
+    @g_socket_get_listen_backlog(socket')

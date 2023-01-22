@@ -1,0 +1,1 @@
+use @gtk_color_button_new_with_rgba[Pointer[GObjectP]](rgba': GdkRGBA)

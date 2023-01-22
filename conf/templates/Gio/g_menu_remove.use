@@ -1,0 +1,1 @@
+use @g_menu_remove[None](menu': GMenu, position': I32)

@@ -1,0 +1,2 @@
+  fun get_website_label(about': GtkAboutDialog): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_website_label(about')).clone()

@@ -1,0 +1,1 @@
+use @gtk_text_view_get_justification[U32](text_view': GtkTextView)

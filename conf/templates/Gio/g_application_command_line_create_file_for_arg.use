@@ -1,0 +1,1 @@
+use @g_application_command_line_create_file_for_arg[GFile](cmdline': GApplicationCommandLine, arg': Pointer[U8] tag)

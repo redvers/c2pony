@@ -1,0 +1,2 @@
+  fun reset(timer': GTimer): None =>
+    @g_timer_reset(timer')

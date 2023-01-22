@@ -1,0 +1,2 @@
+  fun ref add_value(value': GVariant): None =>
+    GVariantBuilderP.add_value(this, value')

@@ -1,0 +1,2 @@
+  fun ref bind_property(source_property': String, target': Pointer[None] tag, target_property': String, flags': U32): GBinding =>
+    GObjectP.bind_property(this, source_property', target', target_property', flags')

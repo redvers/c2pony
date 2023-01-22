@@ -1,0 +1,2 @@
+  fun ref get_bytes_in_line(): I32 =>
+    GtkTextIterP.get_bytes_in_line(this)

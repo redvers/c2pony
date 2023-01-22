@@ -1,0 +1,2 @@
+  fun get_always_show_arrow(menu_button': GtkMenuButton): I32 =>
+    @gtk_menu_button_get_always_show_arrow(menu_button')

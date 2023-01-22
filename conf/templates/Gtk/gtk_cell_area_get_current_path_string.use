@@ -1,0 +1,1 @@
+use @gtk_cell_area_get_current_path_string[Pointer[U8]](area': GtkCellArea)

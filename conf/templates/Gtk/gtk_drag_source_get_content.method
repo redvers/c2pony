@@ -1,0 +1,2 @@
+  fun ref get_content(): GdkContentProvider =>
+    GtkDragSourceP.get_content(this)

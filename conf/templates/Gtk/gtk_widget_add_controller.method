@@ -1,0 +1,2 @@
+  fun ref add_controller(controller': GtkEventController): None =>
+    GtkWidgetP.add_controller(this, controller')

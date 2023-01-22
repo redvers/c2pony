@@ -1,0 +1,2 @@
+  fun ref set_flags(v_flags': U32): None =>
+    GValueP.set_flags(this, v_flags')

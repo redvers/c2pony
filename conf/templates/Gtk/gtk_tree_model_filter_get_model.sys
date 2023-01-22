@@ -1,0 +1,2 @@
+  fun get_model(filter': GtkTreeModelFilter): GtkTreeModel =>
+    @gtk_tree_model_filter_get_model(filter')

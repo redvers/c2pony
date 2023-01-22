@@ -1,0 +1,2 @@
+  fun ref get_timezone(): GTimeZone =>
+    GDateTimeP.get_timezone(this)

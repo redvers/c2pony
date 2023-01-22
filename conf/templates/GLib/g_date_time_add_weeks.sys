@@ -1,0 +1,2 @@
+  fun add_weeks(datetime': GDateTime, weeks': I32): GDateTime =>
+    @g_date_time_add_weeks(datetime', weeks')

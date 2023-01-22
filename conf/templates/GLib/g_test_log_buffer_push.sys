@@ -1,0 +1,2 @@
+  fun push(tbuffer': anon_2389, n_bytes': U32, bytes': String): None =>
+    @g_test_log_buffer_push(tbuffer', n_bytes', bytes'.cstring())

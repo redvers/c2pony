@@ -1,0 +1,2 @@
+  fun get_embed_page_setup(op': GtkPrintOperation): I32 =>
+    @gtk_print_operation_get_embed_page_setup(op')

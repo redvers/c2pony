@@ -1,0 +1,2 @@
+  fun get_column_view(self': GtkColumnViewColumn): GtkColumnView =>
+    @gtk_column_view_column_get_column_view(self')

@@ -1,0 +1,2 @@
+  fun invalidate_sort(box': GtkListBox): None =>
+    @gtk_list_box_invalidate_sort(box')

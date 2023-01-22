@@ -1,0 +1,2 @@
+  fun set_translation_domain(builder': GtkBuilderI, domain': String): None =>
+    @gtk_builder_set_translation_domain(builder'.getptr(), domain'.cstring())

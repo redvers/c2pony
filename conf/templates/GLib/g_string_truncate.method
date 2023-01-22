@@ -1,0 +1,2 @@
+  fun ref truncate(len': U64): GString =>
+    GStringP.truncate(this, len')

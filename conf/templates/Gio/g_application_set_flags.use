@@ -1,0 +1,1 @@
+use @g_application_set_flags[None](application': Pointer[GObjectP], flags': U32)

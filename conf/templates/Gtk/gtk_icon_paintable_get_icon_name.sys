@@ -1,0 +1,2 @@
+  fun get_icon_name(self': GtkIconPaintable): String iso^ =>
+    String.from_cstring(@gtk_icon_paintable_get_icon_name(self')).clone()

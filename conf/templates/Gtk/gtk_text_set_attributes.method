@@ -1,0 +1,2 @@
+  fun ref set_attributes(attrs': PangoAttrList): None =>
+    GtkTextP.set_attributes(this, attrs')

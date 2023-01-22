@@ -1,0 +1,2 @@
+  fun get_object_path(interface': GDBusInterfaceSkeleton): String iso^ =>
+    String.from_cstring(@g_dbus_interface_skeleton_get_object_path(interface')).clone()

@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_get_x_offset[I32](tree_column': GtkTreeViewColumn)

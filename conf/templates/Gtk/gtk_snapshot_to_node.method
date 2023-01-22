@@ -1,0 +1,2 @@
+  fun ref to_node(): GskRenderNode =>
+    P.to_node(this)

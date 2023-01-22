@@ -1,0 +1,2 @@
+  fun get_port(uri': GUri): I32 =>
+    @g_uri_get_port(uri')

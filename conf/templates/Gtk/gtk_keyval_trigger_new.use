@@ -1,0 +1,1 @@
+use @gtk_keyval_trigger_new[GtkShortcutTrigger](keyval': U32, modifiers': U32)

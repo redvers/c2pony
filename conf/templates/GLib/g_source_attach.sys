@@ -1,0 +1,2 @@
+  fun attach(source': GSource, context': GMainContext): U32 =>
+    @g_source_attach(source', context')

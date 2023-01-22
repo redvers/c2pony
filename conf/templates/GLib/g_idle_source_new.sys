@@ -1,0 +1,2 @@
+  fun idle_source_new(): GSource =>
+    @g_idle_source_new()

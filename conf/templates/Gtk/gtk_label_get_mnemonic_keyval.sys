@@ -1,0 +1,2 @@
+  fun get_mnemonic_keyval(self': GtkLabel): U32 =>
+    @gtk_label_get_mnemonic_keyval(self')

@@ -1,0 +1,2 @@
+  fun set_system_information(about': GtkAboutDialog, system_information': String): None =>
+    @gtk_about_dialog_set_system_information(about', system_information'.cstring())

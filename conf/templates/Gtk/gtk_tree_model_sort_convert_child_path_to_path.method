@@ -1,0 +1,2 @@
+  fun ref convert_child_path_to_path(child_path': GtkTreePath): GtkTreePath =>
+    GtkTreeModelSortP.convert_child_path_to_path(this, child_path')

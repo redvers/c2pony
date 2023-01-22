@@ -1,0 +1,2 @@
+  fun get_float(value': GValue): F32 =>
+    @g_value_get_float(value')

@@ -1,0 +1,2 @@
+  fun get_marks(iter': GtkTextIter): GSList =>
+    @gtk_text_iter_get_marks(iter')

@@ -1,0 +1,1 @@
+use @gtk_widget_get_margin_bottom[I32](widget': Pointer[GObjectP])

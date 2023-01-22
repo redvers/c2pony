@@ -1,0 +1,2 @@
+  fun unref(source': GSettingsSchemaSource): None =>
+    @g_settings_schema_source_unref(source')

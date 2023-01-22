@@ -1,0 +1,2 @@
+  fun compare(lhs': GtkTextIter, rhs': GtkTextIter): I32 =>
+    @gtk_text_iter_compare(lhs', rhs')

@@ -1,0 +1,2 @@
+  fun ref set_byte_order(byte_order': U32): None =>
+    GDBusMessageP.set_byte_order(this, byte_order')

@@ -1,0 +1,1 @@
+use @gtk_application_get_accels_for_action[Pointer[Pointer[U8]] tag](application': Pointer[GObjectP], detailed_action_name': Pointer[U8] tag)

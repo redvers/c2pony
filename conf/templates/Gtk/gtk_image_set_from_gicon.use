@@ -1,0 +1,1 @@
+use @gtk_image_set_from_gicon[None](image': GtkImage, icon': GIcon)

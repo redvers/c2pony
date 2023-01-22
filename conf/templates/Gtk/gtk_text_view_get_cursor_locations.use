@@ -1,0 +1,1 @@
+use @gtk_text_view_get_cursor_locations[None](text_view': GtkTextView, iter': GtkTextIter, strong': cairorectangleint, weak': cairorectangleint)

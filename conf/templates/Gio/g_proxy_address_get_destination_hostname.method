@@ -1,0 +1,2 @@
+  fun ref get_destination_hostname(): String iso^ =>
+    GProxyAddressP.get_destination_hostname(this)

@@ -1,0 +1,2 @@
+  fun ref set_extra_menu(model': GMenuModel): None =>
+    GtkEntryP.set_extra_menu(this, model')

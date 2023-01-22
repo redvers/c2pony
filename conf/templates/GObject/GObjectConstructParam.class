@@ -1,0 +1,8 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GObjectConstructParam
+  var ptr: NullablePointer[GObjectConstructParamT]
+
+  new create(ptr': NullablePointer[GObjectConstructParamT]) => ptr = ptr'

@@ -1,0 +1,2 @@
+  fun ref set(iter': GtkTreeIter, ...): None =>
+    GtkTreeStoreP.set(this, iter', ...)

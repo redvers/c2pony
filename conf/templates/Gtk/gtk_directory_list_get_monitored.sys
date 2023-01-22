@@ -1,0 +1,2 @@
+  fun get_monitored(self': GtkDirectoryList): I32 =>
+    @gtk_directory_list_get_monitored(self')

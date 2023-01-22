@@ -1,0 +1,2 @@
+  fun ref get_lower(): F64 =>
+    GtkAdjustmentP.get_lower(this)

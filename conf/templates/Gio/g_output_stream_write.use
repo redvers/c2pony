@@ -1,0 +1,1 @@
+use @g_output_stream_write[I64](stream': GOutputStream, buffer': Pointer[None] tag, count': U64, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

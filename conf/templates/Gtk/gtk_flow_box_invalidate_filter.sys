@@ -1,0 +1,2 @@
+  fun invalidate_filter(box': GtkFlowBox): None =>
+    @gtk_flow_box_invalidate_filter(box')

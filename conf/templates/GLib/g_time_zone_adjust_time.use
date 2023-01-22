@@ -1,0 +1,1 @@
+use @g_time_zone_adjust_time[I32](tz': GTimeZone, type': U32, time': Pointer[I64] tag)

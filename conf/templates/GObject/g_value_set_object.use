@@ -1,0 +1,1 @@
+use @g_value_set_object[None](value': GValue, v_object': Pointer[None] tag)

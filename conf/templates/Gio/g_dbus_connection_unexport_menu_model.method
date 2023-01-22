@@ -1,0 +1,2 @@
+  fun ref unexport_menu_model(export_id': U32): None =>
+    GDBusConnectionP.unexport_menu_model(this, export_id')

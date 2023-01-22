@@ -1,0 +1,1 @@
+use @gtk_action_bar_remove[None](action_bar': GtkActionBar, child': Pointer[GObjectP])

@@ -1,0 +1,2 @@
+  fun set_filename(self': GtkMediaFile, filename': String): None =>
+    @gtk_media_file_set_filename(self', filename'.cstring())

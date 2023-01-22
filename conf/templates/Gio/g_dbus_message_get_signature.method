@@ -1,0 +1,2 @@
+  fun ref get_signature(): String iso^ =>
+    GDBusMessageP.get_signature(this)

@@ -1,0 +1,1 @@
+use @gtk_icon_view_new_with_model[Pointer[GObjectP]](model': GtkTreeModel)

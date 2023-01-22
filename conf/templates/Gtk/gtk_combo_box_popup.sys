@@ -1,0 +1,2 @@
+  fun popup(combo_box': GtkComboBox): None =>
+    @gtk_combo_box_popup(combo_box')

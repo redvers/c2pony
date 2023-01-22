@@ -1,0 +1,1 @@
+use @g_test_dbus_new[GTestDBus](flags': U32)

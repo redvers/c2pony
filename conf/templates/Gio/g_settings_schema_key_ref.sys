@@ -1,0 +1,2 @@
+  fun ref(key': GSettingsSchemaKey): GSettingsSchemaKey =>
+    @g_settings_schema_key_ref(key')

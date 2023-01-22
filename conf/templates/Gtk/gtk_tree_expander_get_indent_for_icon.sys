@@ -1,0 +1,2 @@
+  fun get_indent_for_icon(self': GtkTreeExpander): I32 =>
+    @gtk_tree_expander_get_indent_for_icon(self')

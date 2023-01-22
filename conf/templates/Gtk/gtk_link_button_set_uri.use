@@ -1,0 +1,1 @@
+use @gtk_link_button_set_uri[None](link_button': GtkLinkButton, uri': Pointer[U8] tag)

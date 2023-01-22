@@ -1,0 +1,1 @@
+use @gtk_entry_buffer_set_max_length[None](buffer': GtkEntryBuffer, max_length': I32)

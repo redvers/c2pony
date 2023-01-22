@@ -1,0 +1,1 @@
+use @g_thread_pool_set_sort_function[None](pool': GThreadPool, func': GCompareDataFunc, user_data': Pointer[None] tag)

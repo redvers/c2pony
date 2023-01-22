@@ -1,0 +1,2 @@
+  fun get_ended(self': GtkMediaStream): I32 =>
+    @gtk_media_stream_get_ended(self')

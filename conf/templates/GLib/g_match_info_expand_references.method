@@ -1,0 +1,2 @@
+  fun ref expand_references(string_to_expand': String, error': Pointer[GError]): String iso^ =>
+    GMatchInfoP.expand_references(this, string_to_expand', error')

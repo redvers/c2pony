@@ -1,0 +1,2 @@
+  fun ref get_use_underline(): I32 =>
+    GtkExpanderP.get_use_underline(this)

@@ -1,0 +1,2 @@
+  fun ref get_wrap_mode(): U32 =>
+    GtkLabelP.get_wrap_mode(this)

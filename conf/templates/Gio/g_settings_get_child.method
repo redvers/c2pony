@@ -1,0 +1,2 @@
+  fun ref get_child(name': String): GSettings =>
+    GSettingsP.get_child(this, name')

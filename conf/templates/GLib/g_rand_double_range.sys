@@ -1,0 +1,2 @@
+  fun double_range(rand': GRand, begin': F64, end': F64): F64 =>
+    @g_rand_double_range(rand', begin', end')

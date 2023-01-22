@@ -1,0 +1,2 @@
+  fun get_scheme(uri': GUri): String iso^ =>
+    String.from_cstring(@g_uri_get_scheme(uri')).clone()

@@ -1,0 +1,1 @@
+use @g_subprocess_get_if_exited[I32](subprocess': GSubprocess)

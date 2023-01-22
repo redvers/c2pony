@@ -1,0 +1,2 @@
+  fun ref push_nth_link(n': I32, link': GList): None =>
+    GQueueP.push_nth_link(this, n', link')

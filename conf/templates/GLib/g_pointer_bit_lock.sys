@@ -1,0 +1,2 @@
+  fun pointer_bit_lock(address': Pointer[None] tag, lock_bit': I32): None =>
+    @g_pointer_bit_lock(address', lock_bit')

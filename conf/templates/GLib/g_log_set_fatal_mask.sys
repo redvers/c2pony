@@ -1,0 +1,2 @@
+  fun log_set_fatal_mask(log_domain': String, fatal_mask': I32): I32 =>
+    @g_log_set_fatal_mask(log_domain'.cstring(), fatal_mask')

@@ -1,0 +1,2 @@
+  fun ref get_tabs(): PangoTabArray =>
+    GtkTextP.get_tabs(this)

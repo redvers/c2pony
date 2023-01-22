@@ -1,0 +1,2 @@
+  fun get_completion(entry': GtkEntry): GtkEntryCompletion =>
+    @gtk_entry_get_completion(entry')

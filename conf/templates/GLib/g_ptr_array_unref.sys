@@ -1,0 +1,2 @@
+  fun unref(array': GPtrArray): None =>
+    @g_ptr_array_unref(array')

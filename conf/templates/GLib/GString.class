@@ -1,0 +1,7 @@
+
+use "lib:glib-2.0"
+
+class GString
+  var ptr: NullablePointer[GStringT]
+
+  new create(ptr': NullablePointer[GStringT]) => ptr = ptr'

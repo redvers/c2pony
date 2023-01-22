@@ -1,0 +1,2 @@
+  fun ref(uri': GUri): GUri =>
+    @g_uri_ref(uri')

@@ -1,0 +1,2 @@
+  fun get_description(bookmark': GBookmarkFile, uri': String, error': Pointer[GError]): String iso^ =>
+    String.from_cstring(@g_bookmark_file_get_description(bookmark', uri'.cstring(), error')).clone()

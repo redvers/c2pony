@@ -1,0 +1,2 @@
+  fun ref get_hide_on_close(): I32 =>
+    GtkWindowP.get_hide_on_close(this)

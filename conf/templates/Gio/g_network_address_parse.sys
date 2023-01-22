@@ -1,0 +1,2 @@
+  fun parse(host_and_port': String, default_port': U16, error': GError): GSocketConnectable =>
+    @g_network_address_parse(host_and_port'.cstring(), default_port', addressof error'.ptr)

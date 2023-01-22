@@ -1,0 +1,2 @@
+  fun send_message(socket': GSocket, address': GSocketAddress, vectors': GOutputVector, num_vectors': I32, messages': Pointer[GSocketControlMessage], num_messages': I32, flags': I32, cancellable': GCancellable, error': GError): I64 =>
+    @g_socket_send_message(socket', address', vectors', num_vectors', messages', num_messages', flags', cancellable', addressof error'.ptr)

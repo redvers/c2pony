@@ -1,0 +1,2 @@
+  fun delete_interactive(buffer': GtkTextBuffer, start_iter': GtkTextIter, end_iter': GtkTextIter, default_editable': I32): I32 =>
+    @gtk_text_buffer_delete_interactive(buffer', start_iter', end_iter', default_editable')

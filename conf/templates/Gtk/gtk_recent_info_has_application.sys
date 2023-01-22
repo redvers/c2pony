@@ -1,0 +1,2 @@
+  fun has_application(info': GtkRecentInfo, app_name': String): I32 =>
+    @gtk_recent_info_has_application(info', app_name'.cstring())

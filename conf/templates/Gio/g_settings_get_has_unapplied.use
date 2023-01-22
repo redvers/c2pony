@@ -1,0 +1,1 @@
+use @g_settings_get_has_unapplied[I32](settings': GSettings)

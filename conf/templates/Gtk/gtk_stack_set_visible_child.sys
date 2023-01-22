@@ -1,0 +1,2 @@
+  fun set_visible_child(stack': GtkStack, child': GtkWidgetI): None =>
+    @gtk_stack_set_visible_child(stack', child'.getptr())

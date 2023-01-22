@@ -1,0 +1,2 @@
+  fun ref set_action(type': U32, index': I32, mode': I32, label': String, action_name': String): None =>
+    GtkPadControllerP.set_action(this, type', index', mode', label', action_name')

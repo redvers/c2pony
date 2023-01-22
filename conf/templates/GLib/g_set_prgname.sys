@@ -1,0 +1,2 @@
+  fun set_prgname(prgname': String): None =>
+    @g_set_prgname(prgname'.cstring())

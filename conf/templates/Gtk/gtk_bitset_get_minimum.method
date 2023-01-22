@@ -1,0 +1,2 @@
+  fun ref get_minimum(): U32 =>
+    GtkBitsetP.get_minimum(this)

@@ -1,0 +1,2 @@
+  fun get_media_stream(controls': GtkMediaControls): GtkMediaStream =>
+    @gtk_media_controls_get_media_stream(controls')

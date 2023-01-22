@@ -1,0 +1,2 @@
+  fun ref set_page_size(page_size': F64): None =>
+    GtkAdjustmentP.set_page_size(this, page_size')

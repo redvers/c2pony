@@ -1,0 +1,2 @@
+  fun gerror(self': GtkMediaStream, error': GError): None =>
+    @gtk_media_stream_gerror(self', error'.ptr)

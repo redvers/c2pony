@@ -1,0 +1,2 @@
+  fun ref push_preferred_height(minimum_height': I32, natural_height': I32): None =>
+    GtkCellAreaContextP.push_preferred_height(this, minimum_height', natural_height')

@@ -1,0 +1,2 @@
+  fun ref get_ulong(): U64 =>
+    GValueP.get_ulong(this)

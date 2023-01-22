@@ -1,0 +1,2 @@
+  fun ref set_pixbuf(pixbuf': GdkPixbuf): None =>
+    GtkPictureP.set_pixbuf(this, pixbuf')

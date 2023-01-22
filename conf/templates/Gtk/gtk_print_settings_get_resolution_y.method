@@ -1,0 +1,2 @@
+  fun ref get_resolution_y(): I32 =>
+    GtkPrintSettingsP.get_resolution_y(this)

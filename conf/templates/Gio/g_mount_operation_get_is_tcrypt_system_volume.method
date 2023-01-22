@@ -1,0 +1,2 @@
+  fun ref get_is_tcrypt_system_volume(): I32 =>
+    GMountOperationP.get_is_tcrypt_system_volume(this)

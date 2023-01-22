@@ -1,0 +1,2 @@
+  fun ref get_max_size(width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
+    GtkConstraintGuideP.get_max_size(this, width', height')

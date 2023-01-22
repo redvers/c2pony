@@ -1,0 +1,2 @@
+  fun notify(object': GObjectI, property_name': String): None =>
+    @g_object_notify(object'.getptr(), property_name'.cstring())

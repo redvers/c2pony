@@ -1,0 +1,2 @@
+  fun ref set_surrounding_with_selection(text': String, len': I32, cursor_index': I32, anchor_index': I32): None =>
+    GtkIMContextP.set_surrounding_with_selection(this, text', len', cursor_index', anchor_index')

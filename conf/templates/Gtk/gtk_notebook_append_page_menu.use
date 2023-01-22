@@ -1,0 +1,1 @@
+use @gtk_notebook_append_page_menu[I32](notebook': GtkNotebook, child': Pointer[GObjectP], tab_label': Pointer[GObjectP], menu_label': Pointer[GObjectP])

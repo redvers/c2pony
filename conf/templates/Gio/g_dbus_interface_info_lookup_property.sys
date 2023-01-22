@@ -1,0 +1,2 @@
+  fun lookup_property(info': GDBusInterfaceInfo, name': String): GDBusPropertyInfo =>
+    @g_dbus_interface_info_lookup_property(info', name'.cstring())

@@ -1,0 +1,2 @@
+  fun set_embed_page_setup(op': GtkPrintOperation, embed': I32): None =>
+    @gtk_print_operation_set_embed_page_setup(op', embed')

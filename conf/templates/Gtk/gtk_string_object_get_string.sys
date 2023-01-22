@@ -1,0 +1,2 @@
+  fun get_string(self': GtkStringObject): String iso^ =>
+    String.from_cstring(@gtk_string_object_get_string(self')).clone()

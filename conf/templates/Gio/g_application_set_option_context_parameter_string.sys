@@ -1,0 +1,2 @@
+  fun set_option_context_parameter_string(application': GApplicationI, parameter_string': String): None =>
+    @g_application_set_option_context_parameter_string(application'.getptr(), parameter_string'.cstring())

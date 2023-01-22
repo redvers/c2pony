@@ -1,0 +1,2 @@
+  fun set_layout_manager(widget': GtkWidgetI, layout_manager': GtkLayoutManager): None =>
+    @gtk_widget_set_layout_manager(widget'.getptr(), layout_manager')

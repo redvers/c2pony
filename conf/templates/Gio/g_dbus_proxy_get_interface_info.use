@@ -1,0 +1,1 @@
+use @g_dbus_proxy_get_interface_info[GDBusInterfaceInfo](proxy': GDBusProxy)

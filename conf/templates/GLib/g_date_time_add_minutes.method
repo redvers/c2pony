@@ -1,0 +1,2 @@
+  fun ref add_minutes(minutes': I32): GDateTime =>
+    GDateTimeP.add_minutes(this, minutes')

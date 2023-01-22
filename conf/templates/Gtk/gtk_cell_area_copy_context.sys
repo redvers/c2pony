@@ -1,0 +1,2 @@
+  fun copy_context(area': GtkCellArea, context': GtkCellAreaContext): GtkCellAreaContext =>
+    @gtk_cell_area_copy_context(area', context')

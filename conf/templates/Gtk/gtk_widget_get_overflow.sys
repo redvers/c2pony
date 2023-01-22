@@ -1,0 +1,2 @@
+  fun get_overflow(widget': GtkWidgetI): U32 =>
+    @gtk_widget_get_overflow(widget'.getptr())

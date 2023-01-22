@@ -1,0 +1,2 @@
+  fun convert_iter_to_child_iter(filter': GtkTreeModelFilter, child_iter': GtkTreeIter, filter_iter': GtkTreeIter): None =>
+    @gtk_tree_model_filter_convert_iter_to_child_iter(filter', child_iter', filter_iter')

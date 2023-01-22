@@ -1,0 +1,2 @@
+  fun set_protocol(client': GSocketClient, protocol': I32): None =>
+    @g_socket_client_set_protocol(client', protocol')

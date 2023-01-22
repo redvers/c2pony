@@ -1,0 +1,2 @@
+  fun set_stack(self': GtkStackSidebar, stack': GtkStack): None =>
+    @gtk_stack_sidebar_set_stack(self', stack')

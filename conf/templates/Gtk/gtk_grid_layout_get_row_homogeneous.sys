@@ -1,0 +1,2 @@
+  fun get_row_homogeneous(grid': GtkGridLayout): I32 =>
+    @gtk_grid_layout_get_row_homogeneous(grid')

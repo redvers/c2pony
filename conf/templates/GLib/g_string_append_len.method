@@ -1,0 +1,2 @@
+  fun ref append_len(val': String, len': I64): GString =>
+    GStringP.append_len(this, val', len')

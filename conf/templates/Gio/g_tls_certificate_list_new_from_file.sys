@@ -1,0 +1,2 @@
+  fun list_new_from_file(file': String, error': GError): GList =>
+    @g_tls_certificate_list_new_from_file(file'.cstring(), addressof error'.ptr)

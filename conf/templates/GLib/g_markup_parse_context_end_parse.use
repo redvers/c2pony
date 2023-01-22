@@ -1,0 +1,1 @@
+use @g_markup_parse_context_end_parse[I32](context': GMarkupParseContext, error': Pointer[GError])

@@ -1,0 +1,2 @@
+  fun ref timeout_pop(timeout': U64): Pointer[None] tag =>
+    GAsyncQueueP.timeout_pop(this, timeout')

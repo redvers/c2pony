@@ -1,0 +1,2 @@
+  fun ref set_font_map(font_map': PangoFontMap): None =>
+    GtkWidgetP.set_font_map(this, font_map')

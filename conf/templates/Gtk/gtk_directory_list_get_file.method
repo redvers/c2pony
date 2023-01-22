@@ -1,0 +1,2 @@
+  fun ref get_file(): GFile =>
+    GtkDirectoryListP.get_file(this)

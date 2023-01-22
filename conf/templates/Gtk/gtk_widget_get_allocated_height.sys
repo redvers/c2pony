@@ -1,0 +1,2 @@
+  fun get_allocated_height(widget': GtkWidgetI): I32 =>
+    @gtk_widget_get_allocated_height(widget'.getptr())

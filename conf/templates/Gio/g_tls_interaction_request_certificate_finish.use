@@ -1,0 +1,1 @@
+use @g_tls_interaction_request_certificate_finish[U32](interaction': GTlsInteraction, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

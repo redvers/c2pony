@@ -1,0 +1,2 @@
+  fun ref nth_child(n': U32): GNode =>
+    GNodeP.nth_child(this, n')

@@ -1,0 +1,2 @@
+  fun list_keys(settings': GSettings): Pointer[Pointer[U8]] tag =>
+    @g_settings_list_keys(settings')

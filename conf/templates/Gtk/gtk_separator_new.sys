@@ -1,0 +1,2 @@
+  fun new(orientation': U32): Pointer[GObjectP] =>
+@gtk_separator_new(orientation')

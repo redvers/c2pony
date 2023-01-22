@@ -1,0 +1,1 @@
+use @gtk_recent_info_has_group[I32](info': GtkRecentInfo, group_name': Pointer[U8] tag)

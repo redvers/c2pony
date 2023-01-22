@@ -1,0 +1,2 @@
+  fun param_spec_param(name': String, nick': String, blurb': String, param_type': U64, flags': I32): GParamSpec =>
+    @g_param_spec_param(name'.cstring(), nick'.cstring(), blurb'.cstring(), param_type', flags')

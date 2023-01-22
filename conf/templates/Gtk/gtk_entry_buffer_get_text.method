@@ -1,0 +1,2 @@
+  fun ref get_text(): String iso^ =>
+    GtkEntryBufferP.get_text(this)

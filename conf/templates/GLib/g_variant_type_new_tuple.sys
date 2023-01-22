@@ -1,0 +1,2 @@
+  fun new_tuple(items': Pointer[GVariantType], length': I32): GVariantType =>
+    @g_variant_type_new_tuple(items', length')

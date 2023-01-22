@@ -1,0 +1,2 @@
+  fun ref check_format_string(format_string': String, copy_only': I32): I32 =>
+    GVariantP.check_format_string(this, format_string', copy_only')

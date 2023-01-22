@@ -1,0 +1,1 @@
+use @g_file_enumerator_next_files_async[None](enumerator': GFileEnumerator, num_files': I32, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

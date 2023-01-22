@@ -1,0 +1,2 @@
+  fun ref prepend_index(index': I32): None =>
+    GtkTreePathP.prepend_index(this, index')

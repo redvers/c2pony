@@ -1,0 +1,2 @@
+  fun set_center_widget(self': GtkCenterLayout, widget': GtkWidgetI): None =>
+    @gtk_center_layout_set_center_widget(self', widget'.getptr())

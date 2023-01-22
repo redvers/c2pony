@@ -1,0 +1,1 @@
+use @gtk_grid_remove_column[None](grid': GtkGrid, position': I32)

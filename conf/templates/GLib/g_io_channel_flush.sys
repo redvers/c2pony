@@ -1,0 +1,2 @@
+  fun flush(channel': GIOChannel, error': Pointer[GError]): U32 =>
+    @g_io_channel_flush(channel', error')

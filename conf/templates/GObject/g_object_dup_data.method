@@ -1,0 +1,2 @@
+  fun ref dup_data(key': String, dup_func': GDuplicateFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
+    GObjectP.dup_data(this, key', dup_func', user_data')

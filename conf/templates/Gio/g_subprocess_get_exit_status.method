@@ -1,0 +1,2 @@
+  fun ref get_exit_status(): I32 =>
+    GSubprocessP.get_exit_status(this)

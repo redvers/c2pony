@@ -1,0 +1,2 @@
+  fun interface_find_property(g_iface': Pointer[None] tag, property_name': String): GParamSpec =>
+    @g_object_interface_find_property(g_iface', property_name'.cstring())

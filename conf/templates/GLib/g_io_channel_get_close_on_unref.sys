@@ -1,0 +1,2 @@
+  fun get_close_on_unref(channel': GIOChannel): I32 =>
+    @g_io_channel_get_close_on_unref(channel')

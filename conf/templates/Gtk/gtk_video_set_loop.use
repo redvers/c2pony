@@ -1,0 +1,1 @@
+use @gtk_video_set_loop[None](self': GtkVideo, loop': I32)

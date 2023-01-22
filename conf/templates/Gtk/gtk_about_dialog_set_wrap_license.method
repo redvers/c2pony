@@ -1,0 +1,2 @@
+  fun ref set_wrap_license(wrap_license': I32): None =>
+    GtkAboutDialogP.set_wrap_license(this, wrap_license')

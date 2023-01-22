@@ -1,0 +1,2 @@
+  fun ref get_output_stream(): GOutputStream =>
+    GIOStreamP.get_output_stream(this)

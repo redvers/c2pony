@@ -1,0 +1,2 @@
+  fun new(base_stream': GOutputStream, converter': GConverter): GOutputStream =>
+    @g_converter_output_stream_new(base_stream', converter')

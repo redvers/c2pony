@@ -1,0 +1,2 @@
+  fun ref to_gvariant(): GVariant =>
+    GtkPrintSettingsP.to_gvariant(this)

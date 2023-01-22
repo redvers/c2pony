@@ -1,0 +1,2 @@
+  fun ref set_columns(columns': I32): None =>
+    GtkIconViewP.set_columns(this, columns')

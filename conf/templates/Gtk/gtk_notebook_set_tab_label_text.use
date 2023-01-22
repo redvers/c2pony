@@ -1,0 +1,1 @@
+use @gtk_notebook_set_tab_label_text[None](notebook': GtkNotebook, child': Pointer[GObjectP], tab_text': Pointer[U8] tag)

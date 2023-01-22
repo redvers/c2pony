@@ -1,0 +1,2 @@
+  fun redo(buffer': GtkTextBuffer): None =>
+    @gtk_text_buffer_redo(buffer')

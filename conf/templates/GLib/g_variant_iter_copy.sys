@@ -1,0 +1,2 @@
+  fun copy(iter': GVariantIter): GVariantIter =>
+    @g_variant_iter_copy(iter')

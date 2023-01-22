@@ -1,0 +1,2 @@
+  fun had_error(task': GTask): I32 =>
+    @g_task_had_error(task')

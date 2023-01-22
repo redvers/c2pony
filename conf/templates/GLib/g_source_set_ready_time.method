@@ -1,0 +1,2 @@
+  fun ref set_ready_time(ready_time': I64): None =>
+    GSourceP.set_ready_time(this, ready_time')

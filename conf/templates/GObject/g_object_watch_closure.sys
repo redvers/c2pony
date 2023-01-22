@@ -1,0 +1,2 @@
+  fun watch_closure(object': GObjectI, closure': GClosure): None =>
+    @g_object_watch_closure(object'.getptr(), closure')

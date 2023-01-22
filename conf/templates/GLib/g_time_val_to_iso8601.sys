@@ -1,0 +1,2 @@
+  fun to_iso8601(time': GTimeVal): String iso^ =>
+    String.from_cstring(@g_time_val_to_iso8601(time')).clone()

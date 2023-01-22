@@ -1,0 +1,2 @@
+  fun ref get_stdin(): GInputStream =>
+    GApplicationCommandLineP.get_stdin(this)

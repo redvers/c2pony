@@ -1,0 +1,1 @@
+use @gtk_cell_area_has_renderer[I32](area': GtkCellArea, renderer': GtkCellRenderer)

@@ -1,0 +1,2 @@
+  fun test_log_type_name(log_type': U32): String iso^ =>
+    String.from_cstring(@g_test_log_type_name(log_type')).clone()

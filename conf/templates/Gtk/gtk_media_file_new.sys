@@ -1,0 +1,2 @@
+  fun new(): GtkMediaStream =>
+    @gtk_media_file_new()

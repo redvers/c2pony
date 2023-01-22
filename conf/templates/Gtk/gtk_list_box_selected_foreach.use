@@ -1,0 +1,1 @@
+use @gtk_list_box_selected_foreach[None](box': GtkListBox, func': GtkListBoxForeachFunc, data': Pointer[None] tag)

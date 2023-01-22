@@ -1,0 +1,2 @@
+  fun render_handle(context': GtkStyleContext, cr': cairo, x': F64, y': F64, width': F64, height': F64): None =>
+    @gtk_render_handle(context', cr', x', y', width', height')

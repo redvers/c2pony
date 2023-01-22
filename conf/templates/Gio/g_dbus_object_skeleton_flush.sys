@@ -1,0 +1,2 @@
+  fun flush(object': GDBusObjectSkeleton): None =>
+    @g_dbus_object_skeleton_flush(object')

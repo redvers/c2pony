@@ -1,0 +1,2 @@
+  fun set_object_path(object': GDBusObjectSkeleton, object_path': String): None =>
+    @g_dbus_object_skeleton_set_object_path(object', object_path'.cstring())

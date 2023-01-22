@@ -1,0 +1,2 @@
+  fun write_bytes(stream': GOutputStream, bytes': GBytes, cancellable': GCancellable, error': GError): I64 =>
+    @g_output_stream_write_bytes(stream', bytes', cancellable', addressof error'.ptr)

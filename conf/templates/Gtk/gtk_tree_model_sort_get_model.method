@@ -1,0 +1,2 @@
+  fun ref get_model(): GtkTreeModel =>
+    GtkTreeModelSortP.get_model(this)

@@ -1,0 +1,2 @@
+  fun has_group(window': GtkWindowI): I32 =>
+    @gtk_window_has_group(window'.getptr())

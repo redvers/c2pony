@@ -1,0 +1,1 @@
+use @g_param_spec_sink[None](pspec': GParamSpec)

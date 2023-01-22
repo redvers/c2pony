@@ -1,0 +1,2 @@
+  fun is_valid(result': Pointer[None] tag, source_object': Pointer[None] tag): I32 =>
+    @g_task_is_valid(result', source_object')

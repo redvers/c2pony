@@ -1,0 +1,2 @@
+  fun ref get_flags(key': String): U32 =>
+    GSettingsP.get_flags(this, key')
