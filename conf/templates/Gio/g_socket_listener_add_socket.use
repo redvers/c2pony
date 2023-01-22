@@ -1,1 +1,1 @@
-use @g_socket_listener_add_socket[I32](listener': GSocketListener, socket': GSocket, source_object': Pointer[GObjectP], error': Pointer[GError])
+use @g_socket_listener_add_socket[I32](listener': GSocketListener, socket': GSocket, source_object': Pointer[GObjectP], error': Pointer[NullablePointer[GErrorT]])

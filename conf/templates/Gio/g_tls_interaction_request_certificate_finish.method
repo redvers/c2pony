@@ -1,2 +1,2 @@
-  fun ref request_certificate_finish(result': GAsyncResult, error': Pointer[GError]): U32 =>
+  fun ref request_certificate_finish(result': GAsyncResult, error': GError): U32 =>
     GTlsInteractionP.request_certificate_finish(this, result', error')

@@ -1,1 +1,1 @@
-use @g_dbus_connection_close_finish[I32](connection': GDBusConnection, res': GAsyncResult, error': Pointer[GError])
+use @g_dbus_connection_close_finish[I32](connection': GDBusConnection, res': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

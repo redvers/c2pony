@@ -1,2 +1,2 @@
-  fun ref close_finish(res': GAsyncResult, error': Pointer[GError]): I32 =>
+  fun ref close_finish(res': GAsyncResult, error': GError): I32 =>
     GDBusConnectionP.close_finish(this, res', error')

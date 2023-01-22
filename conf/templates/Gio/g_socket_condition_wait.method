@@ -1,2 +1,2 @@
-  fun ref condition_wait(condition': U32, cancellable': GCancellable, error': Pointer[GError]): I32 =>
+  fun ref condition_wait(condition': U32, cancellable': GCancellable, error': GError): I32 =>
     GSocketP.condition_wait(this, condition', cancellable', error')

@@ -1,2 +1,2 @@
-  fun ref accept_finish(result': GAsyncResult, source_object': Pointer[GObject], error': Pointer[GError]): GSocketConnection =>
+  fun ref accept_finish(result': GAsyncResult, source_object': Pointer[GObject], error': GError): GSocketConnection =>
     GSocketListenerP.accept_finish(this, result', source_object', error')

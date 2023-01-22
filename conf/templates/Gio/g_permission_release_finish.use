@@ -1,1 +1,1 @@
-use @g_permission_release_finish[I32](permission': GPermission, result': GAsyncResult, error': Pointer[GError])
+use @g_permission_release_finish[I32](permission': GPermission, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @g_io_stream_set_pending[I32](stream': GIOStream, error': Pointer[GError])
+use @g_io_stream_set_pending[I32](stream': GIOStream, error': Pointer[NullablePointer[GErrorT]])

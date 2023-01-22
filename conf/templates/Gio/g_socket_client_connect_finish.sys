@@ -1,2 +1,2 @@
-  fun connect_finish(client': GSocketClient, result': GAsyncResult, error': Pointer[GError]): GSocketConnection =>
-    @g_socket_client_connect_finish(client', result', error')
+  fun connect_finish(client': GSocketClient, result': GAsyncResult, error': GError): GSocketConnection =>
+    @g_socket_client_connect_finish(client', result', addressof error'.ptr)

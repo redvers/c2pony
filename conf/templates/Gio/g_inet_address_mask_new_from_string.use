@@ -1,1 +1,1 @@
-use @g_inet_address_mask_new_from_string[GInetAddressMask](mask_string': Pointer[U8] tag, error': Pointer[GError])
+use @g_inet_address_mask_new_from_string[GInetAddressMask](mask_string': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

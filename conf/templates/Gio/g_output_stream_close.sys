@@ -1,2 +1,2 @@
-  fun close(stream': GOutputStream, cancellable': GCancellable, error': Pointer[GError]): I32 =>
-    @g_output_stream_close(stream', cancellable', error')
+  fun close(stream': GOutputStream, cancellable': GCancellable, error': GError): I32 =>
+    @g_output_stream_close(stream', cancellable', addressof error'.ptr)

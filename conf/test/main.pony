@@ -16,6 +16,7 @@ use @gtk_builder_add_from_resource[Bool](builder: Pointer[GObjectP], path: Point
 use @gtk_builder_get_object[Pointer[GObjectP]](builder: Pointer[GObjectP], name: Pointer[U8] tag)
 use @gtk_application_add_window[None](app: Pointer[GObjectP], window: Pointer[GObjectP])
 use @gtk_widget_show[None](widget: Pointer[GObjectP])
+use @g_type_name_from_instance[Pointer[U8]](instance': Pointer[None] tag)
 
 
 type GType is U64
@@ -49,9 +50,12 @@ actor Main
 
 primitive Erk
   fun @cb(app': Pointer[GObjectP], data: Pointer[GObjectP]) =>
+    let app: GtkApplication = GtkApplication(app')
     @printf("Wassup\n".cstring())
     let builder: GtkBuilder = GtkBuilder.gnew()
     let gerror: GError = GError(NullablePointer[GErrorT].none())
+    let gresource: GResource = GioG.g_resource_load("demo.gresource", gerror)
+    gresource.register() // This needs to check for nullptr before execution
     if (builder.add_from_resource("/ui/main.ui", gerror) == 0) then
       try
         @printf("Is bad yo…: %s\n".cstring(), gerror.ptr.apply()?.message')
@@ -59,14 +63,7 @@ primitive Erk
         @printf("Apparently a null ptr\n".cstring())
       end
     end
-    /*
-    let app: GtkApplication = GtkApplication(app')
     let appwindow: GtkApplicationWindow = GtkApplicationWindow(builder.get_object("window"))
-    @printf("buildid: %s\n".cstring(), appwindow.get_id().cstring())
     app.add_window(appwindow)
     appwindow.show()
 
-    None
-    */
- //   GtkApplication(app').add_window(window)
-//    window.show()

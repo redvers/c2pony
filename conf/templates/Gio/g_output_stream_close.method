@@ -1,2 +1,2 @@
-  fun ref close(cancellable': GCancellable, error': Pointer[GError]): I32 =>
+  fun ref close(cancellable': GCancellable, error': GError): I32 =>
     GOutputStreamP.close(this, cancellable', error')

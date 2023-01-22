@@ -1,2 +1,2 @@
-  fun lookup_by_name_finish(resolver': GResolver, result': GAsyncResult, error': Pointer[GError]): GList =>
-    @g_resolver_lookup_by_name_finish(resolver', result', error')
+  fun lookup_by_name_finish(resolver': GResolver, result': GAsyncResult, error': GError): GList =>
+    @g_resolver_lookup_by_name_finish(resolver', result', addressof error'.ptr)

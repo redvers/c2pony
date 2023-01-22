@@ -1,2 +1,2 @@
-  fun write(stream': GOutputStream, buffer': Pointer[None] tag, count': U64, cancellable': GCancellable, error': Pointer[GError]): I64 =>
-    @g_output_stream_write(stream', buffer', count', cancellable', error')
+  fun write(stream': GOutputStream, buffer': Pointer[None] tag, count': U64, cancellable': GCancellable, error': GError): I64 =>
+    @g_output_stream_write(stream', buffer', count', cancellable', addressof error'.ptr)

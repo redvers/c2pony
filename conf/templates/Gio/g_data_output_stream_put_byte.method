@@ -1,2 +1,2 @@
-  fun ref put_byte(data': U8, cancellable': GCancellable, error': Pointer[GError]): I32 =>
+  fun ref put_byte(data': U8, cancellable': GCancellable, error': GError): I32 =>
     GDataOutputStreamP.put_byte(this, data', cancellable', error')

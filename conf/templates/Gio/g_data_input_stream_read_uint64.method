@@ -1,2 +1,2 @@
-  fun ref read_uint64(cancellable': GCancellable, error': Pointer[GError]): U64 =>
+  fun ref read_uint64(cancellable': GCancellable, error': GError): U64 =>
     GDataInputStreamP.read_uint64(this, cancellable', error')

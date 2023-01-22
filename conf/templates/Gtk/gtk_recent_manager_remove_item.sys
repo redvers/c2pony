@@ -1,2 +1,2 @@
   fun remove_item(manager': GtkRecentManager, uri': String, error': GError): I32 =>
-    @gtk_recent_manager_remove_item(manager', uri'.cstring(), error'.ptr)
+    @gtk_recent_manager_remove_item(manager', uri'.cstring(), addressof error'.ptr)

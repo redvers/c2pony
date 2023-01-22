@@ -1,1 +1,1 @@
-use @g_socket_listener_add_any_inet_port[U16](listener': GSocketListener, source_object': Pointer[GObjectP], error': Pointer[GError])
+use @g_socket_listener_add_any_inet_port[U16](listener': GSocketListener, source_object': Pointer[GObjectP], error': Pointer[NullablePointer[GErrorT]])

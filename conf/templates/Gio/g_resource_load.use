@@ -1,2 +1,2 @@
 
-use @g_resource_load[NullablePointer[GResourceT](filename: String, gerror: Pointer[Pointer[GErrorT]])
+use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, gerror: Pointer[NullablePointer[GErrorT]])

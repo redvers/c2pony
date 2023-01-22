@@ -1,2 +1,2 @@
-  fun ref write_bytes_finish(result': GAsyncResult, error': Pointer[GError]): I64 =>
+  fun ref write_bytes_finish(result': GAsyncResult, error': GError): I64 =>
     GOutputStreamP.write_bytes_finish(this, result', error')

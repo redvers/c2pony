@@ -1,2 +1,2 @@
-  fun dbus_address_get_for_bus_sync(bus_type': I32, cancellable': GCancellable, error': Pointer[GError]): String iso^ =>
-    String.from_cstring(@g_dbus_address_get_for_bus_sync(bus_type', cancellable', error')).clone()
+  fun dbus_address_get_for_bus_sync(bus_type': I32, cancellable': GCancellable, error': GError): String iso^ =>
+    String.from_cstring(@g_dbus_address_get_for_bus_sync(bus_type', cancellable', addressof error'.ptr)).clone()

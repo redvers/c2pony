@@ -1,2 +1,2 @@
-  fun flush_finish(stream': GOutputStream, result': GAsyncResult, error': Pointer[GError]): I32 =>
-    @g_output_stream_flush_finish(stream', result', error')
+  fun flush_finish(stream': GOutputStream, result': GAsyncResult, error': GError): I32 =>
+    @g_output_stream_flush_finish(stream', result', addressof error'.ptr)

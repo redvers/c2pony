@@ -1,2 +1,2 @@
-  fun register_object_with_closures(connection': GDBusConnection, object_path': String, interface_info': GDBusInterfaceInfo, method_call_closure': GClosure, get_property_closure': GClosure, set_property_closure': GClosure, error': Pointer[GError]): U32 =>
-    @g_dbus_connection_register_object_with_closures(connection', object_path'.cstring(), interface_info', method_call_closure', get_property_closure', set_property_closure', error')
+  fun register_object_with_closures(connection': GDBusConnection, object_path': String, interface_info': GDBusInterfaceInfo, method_call_closure': GClosure, get_property_closure': GClosure, set_property_closure': GClosure, error': GError): U32 =>
+    @g_dbus_connection_register_object_with_closures(connection', object_path'.cstring(), interface_info', method_call_closure', get_property_closure', set_property_closure', addressof error'.ptr)

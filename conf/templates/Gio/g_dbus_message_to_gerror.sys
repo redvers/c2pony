@@ -1,2 +1,2 @@
-  fun to_gerror(message': GDBusMessage, error': Pointer[GError]): I32 =>
-    @g_dbus_message_to_gerror(message', error')
+  fun to_gerror(message': GDBusMessage, error': GError): I32 =>
+    @g_dbus_message_to_gerror(message', addressof error'.ptr)

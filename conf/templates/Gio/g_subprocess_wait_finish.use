@@ -1,1 +1,1 @@
-use @g_subprocess_wait_finish[I32](subprocess': GSubprocess, result': GAsyncResult, error': Pointer[GError])
+use @g_subprocess_wait_finish[I32](subprocess': GSubprocess, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

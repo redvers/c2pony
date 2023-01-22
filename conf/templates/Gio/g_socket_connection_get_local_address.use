@@ -1,1 +1,1 @@
-use @g_socket_connection_get_local_address[GSocketAddress](connection': GSocketConnection, error': Pointer[GError])
+use @g_socket_connection_get_local_address[GSocketAddress](connection': GSocketConnection, error': Pointer[NullablePointer[GErrorT]])

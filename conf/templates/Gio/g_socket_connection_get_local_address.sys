@@ -1,2 +1,2 @@
-  fun get_local_address(connection': GSocketConnection, error': Pointer[GError]): GSocketAddress =>
-    @g_socket_connection_get_local_address(connection', error')
+  fun get_local_address(connection': GSocketConnection, error': GError): GSocketAddress =>
+    @g_socket_connection_get_local_address(connection', addressof error'.ptr)

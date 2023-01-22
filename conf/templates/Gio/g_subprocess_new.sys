@@ -1,2 +1,2 @@
-  fun new(flags': U32, error': Pointer[GError], argv0': String, ...): GSubprocess =>
-    @g_subprocess_new(flags', error', argv0'.cstring(), ...)
+  fun new(flags': U32, error': GError, argv0': String, ...): GSubprocess =>
+    @g_subprocess_new(flags', addressof error'.ptr, argv0'.cstring(), ...)

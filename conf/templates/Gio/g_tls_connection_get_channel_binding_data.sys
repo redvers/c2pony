@@ -1,2 +1,2 @@
-  fun get_channel_binding_data(conn': GTlsConnection, type': U32, data': GByteArray, error': Pointer[GError]): I32 =>
-    @g_tls_connection_get_channel_binding_data(conn', type', data', error')
+  fun get_channel_binding_data(conn': GTlsConnection, type': U32, data': GByteArray, error': GError): I32 =>
+    @g_tls_connection_get_channel_binding_data(conn', type', data', addressof error'.ptr)

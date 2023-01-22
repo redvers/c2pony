@@ -1,2 +1,2 @@
-  fun communicate_finish(subprocess': GSubprocess, result': GAsyncResult, stdout_buf': Pointer[GBytes], stderr_buf': Pointer[GBytes], error': Pointer[GError]): I32 =>
-    @g_subprocess_communicate_finish(subprocess', result', stdout_buf', stderr_buf', error')
+  fun communicate_finish(subprocess': GSubprocess, result': GAsyncResult, stdout_buf': Pointer[GBytes], stderr_buf': Pointer[GBytes], error': GError): I32 =>
+    @g_subprocess_communicate_finish(subprocess', result', stdout_buf', stderr_buf', addressof error'.ptr)

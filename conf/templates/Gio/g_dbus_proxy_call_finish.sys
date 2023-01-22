@@ -1,2 +1,2 @@
-  fun call_finish(proxy': GDBusProxy, res': GAsyncResult, error': Pointer[GError]): GVariant =>
-    @g_dbus_proxy_call_finish(proxy', res', error')
+  fun call_finish(proxy': GDBusProxy, res': GAsyncResult, error': GError): GVariant =>
+    @g_dbus_proxy_call_finish(proxy', res', addressof error'.ptr)

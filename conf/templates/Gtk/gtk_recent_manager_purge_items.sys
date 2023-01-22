@@ -1,2 +1,2 @@
   fun purge_items(manager': GtkRecentManager, error': GError): I32 =>
-    @gtk_recent_manager_purge_items(manager', error'.ptr)
+    @gtk_recent_manager_purge_items(manager', addressof error'.ptr)

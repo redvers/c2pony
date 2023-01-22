@@ -1,2 +1,2 @@
-  fun ref release(cancellable': GCancellable, error': Pointer[GError]): I32 =>
+  fun ref release(cancellable': GCancellable, error': GError): I32 =>
     GPermissionP.release(this, cancellable', error')

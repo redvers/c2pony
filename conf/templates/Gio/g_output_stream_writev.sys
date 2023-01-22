@@ -1,2 +1,2 @@
-  fun writev(stream': GOutputStream, vectors': GOutputVector, n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': GCancellable, error': Pointer[GError]): I32 =>
-    @g_output_stream_writev(stream', vectors', n_vectors', bytes_written', cancellable', error')
+  fun writev(stream': GOutputStream, vectors': GOutputVector, n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': GCancellable, error': GError): I32 =>
+    @g_output_stream_writev(stream', vectors', n_vectors', bytes_written', cancellable', addressof error'.ptr)

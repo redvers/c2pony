@@ -1,1 +1,1 @@
-use @g_input_stream_read_bytes_finish[GBytes](stream': GInputStream, result': GAsyncResult, error': Pointer[GError])
+use @g_input_stream_read_bytes_finish[GBytes](stream': GInputStream, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

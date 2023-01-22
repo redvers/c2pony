@@ -1,2 +1,2 @@
-  fun read_until(stream': GDataInputStream, stop_chars': String, length': Pointer[U64] tag, cancellable': GCancellable, error': Pointer[GError]): String iso^ =>
-    String.from_cstring(@g_data_input_stream_read_until(stream', stop_chars'.cstring(), length', cancellable', error')).clone()
+  fun read_until(stream': GDataInputStream, stop_chars': String, length': Pointer[U64] tag, cancellable': GCancellable, error': GError): String iso^ =>
+    String.from_cstring(@g_data_input_stream_read_until(stream', stop_chars'.cstring(), length', cancellable', addressof error'.ptr)).clone()

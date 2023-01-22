@@ -1,1 +1,1 @@
-use @g_dbus_connection_export_action_group[U32](connection': GDBusConnection, object_path': Pointer[U8] tag, action_group': GActionGroup, error': Pointer[GError])
+use @g_dbus_connection_export_action_group[U32](connection': GDBusConnection, object_path': Pointer[U8] tag, action_group': GActionGroup, error': Pointer[NullablePointer[GErrorT]])

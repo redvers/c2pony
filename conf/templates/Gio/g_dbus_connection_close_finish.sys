@@ -1,2 +1,2 @@
-  fun close_finish(connection': GDBusConnection, res': GAsyncResult, error': Pointer[GError]): I32 =>
-    @g_dbus_connection_close_finish(connection', res', error')
+  fun close_finish(connection': GDBusConnection, res': GAsyncResult, error': GError): I32 =>
+    @g_dbus_connection_close_finish(connection', res', addressof error'.ptr)

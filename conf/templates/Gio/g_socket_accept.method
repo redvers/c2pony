@@ -1,2 +1,2 @@
-  fun ref accept(cancellable': GCancellable, error': Pointer[GError]): GSocket =>
+  fun ref accept(cancellable': GCancellable, error': GError): GSocket =>
     GSocketP.accept(this, cancellable', error')

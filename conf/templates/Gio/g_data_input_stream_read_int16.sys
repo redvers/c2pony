@@ -1,2 +1,2 @@
-  fun read_int16(stream': GDataInputStream, cancellable': GCancellable, error': Pointer[GError]): I16 =>
-    @g_data_input_stream_read_int16(stream', cancellable', error')
+  fun read_int16(stream': GDataInputStream, cancellable': GCancellable, error': GError): I16 =>
+    @g_data_input_stream_read_int16(stream', cancellable', addressof error'.ptr)

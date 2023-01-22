@@ -1,2 +1,2 @@
-  fun ref get_remote_address(error': Pointer[GError]): GSocketAddress =>
+  fun ref get_remote_address(error': GError): GSocketAddress =>
     GSocketP.get_remote_address(this, error')

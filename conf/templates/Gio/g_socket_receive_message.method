@@ -1,2 +1,2 @@
-  fun ref receive_message(address': Pointer[GSocketAddress], vectors': GInputVector, num_vectors': I32, messages': Pointer[Pointer[GSocketControlMessage]], num_messages': Pointer[I32] tag, flags': Pointer[I32] tag, cancellable': GCancellable, error': Pointer[GError]): I64 =>
+  fun ref receive_message(address': Pointer[GSocketAddress], vectors': GInputVector, num_vectors': I32, messages': Pointer[Pointer[GSocketControlMessage]], num_messages': Pointer[I32] tag, flags': Pointer[I32] tag, cancellable': GCancellable, error': GError): I64 =>
     GSocketP.receive_message(this, address', vectors', num_vectors', messages', num_messages', flags', cancellable', error')

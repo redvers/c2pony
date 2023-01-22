@@ -1016,7 +1016,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_builder_expose_object" ponyname="expose_object" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_extend_with_template" ponyname="extend_with_template" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_get_current_object" ponyname="get_current_object" render="0" deprecated=""/>
-      <rendermethod name="gtk_builder_get_object" ponyname="get_object" render="0" deprecated=""/>
+      <rendermethod name="gtk_builder_get_object" ponyname="get_object" render="1" deprecated=""/>
       <rendermethod name="gtk_builder_get_objects" ponyname="get_objects" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_get_scope" ponyname="get_scope" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_get_translation_domain" ponyname="get_translation_domain" render="0" deprecated=""/>

@@ -1,2 +1,2 @@
-  fun ref wait_check_finish(result': GAsyncResult, error': Pointer[GError]): I32 =>
+  fun ref wait_check_finish(result': GAsyncResult, error': GError): I32 =>
     GSubprocessP.wait_check_finish(this, result', error')

@@ -1,2 +1,2 @@
-  fun read_byte(stream': GBufferedInputStream, cancellable': GCancellable, error': Pointer[GError]): I32 =>
-    @g_buffered_input_stream_read_byte(stream', cancellable', error')
+  fun read_byte(stream': GBufferedInputStream, cancellable': GCancellable, error': GError): I32 =>
+    @g_buffered_input_stream_read_byte(stream', cancellable', addressof error'.ptr)

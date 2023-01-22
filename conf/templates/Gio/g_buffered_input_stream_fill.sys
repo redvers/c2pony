@@ -1,2 +1,2 @@
-  fun fill(stream': GBufferedInputStream, count': I64, cancellable': GCancellable, error': Pointer[GError]): I64 =>
-    @g_buffered_input_stream_fill(stream', count', cancellable', error')
+  fun fill(stream': GBufferedInputStream, count': I64, cancellable': GCancellable, error': GError): I64 =>
+    @g_buffered_input_stream_fill(stream', count', cancellable', addressof error'.ptr)

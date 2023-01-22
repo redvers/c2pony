@@ -1,2 +1,2 @@
   fun new_from_key_file(key_file': GKeyFile, group_name': String, error': GError): GtkPrintSettings =>
-    @gtk_print_settings_new_from_key_file(key_file', group_name'.cstring(), error'.ptr)
+    @gtk_print_settings_new_from_key_file(key_file', group_name'.cstring(), addressof error'.ptr)

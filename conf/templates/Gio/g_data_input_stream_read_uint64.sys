@@ -1,2 +1,2 @@
-  fun read_uint64(stream': GDataInputStream, cancellable': GCancellable, error': Pointer[GError]): U64 =>
-    @g_data_input_stream_read_uint64(stream', cancellable', error')
+  fun read_uint64(stream': GDataInputStream, cancellable': GCancellable, error': GError): U64 =>
+    @g_data_input_stream_read_uint64(stream', cancellable', addressof error'.ptr)

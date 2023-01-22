@@ -1,1 +1,1 @@
-use @g_dbus_message_to_gerror[I32](message': GDBusMessage, error': Pointer[GError])
+use @g_dbus_message_to_gerror[I32](message': GDBusMessage, error': Pointer[NullablePointer[GErrorT]])

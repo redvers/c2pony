@@ -1,1 +1,1 @@
-use @g_resolver_lookup_by_address_finish[Pointer[U8]](resolver': GResolver, result': GAsyncResult, error': Pointer[GError])
+use @g_resolver_lookup_by_address_finish[Pointer[U8]](resolver': GResolver, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

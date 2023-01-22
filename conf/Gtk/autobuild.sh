@@ -133,12 +133,15 @@ echo > ../test/Gtk/GtkBuilderI.pony
 cat ../templates/Gtk/GtkBuilderI.classinterface >> ../test/Gtk/GtkBuilderI.pony
 cat ../templates/Gtk/gtk_builder_add_from_resource.method >> ../test/Gtk/GtkBuilderI.pony
 cat ../templates/Gtk/gtk_builder_add_objects_from_resource.method >> ../test/Gtk/GtkBuilderI.pony
+cat ../templates/Gtk/gtk_builder_get_object.method >> ../test/Gtk/GtkBuilderI.pony
 echo > ../test/Gtk/GtkBuilderP.pony
 cat ../templates/Gtk/gtk_builder_add_from_resource.use >> ../test/Gtk/GtkBuilderP.pony
 cat ../templates/Gtk/gtk_builder_add_objects_from_resource.use >> ../test/Gtk/GtkBuilderP.pony
+cat ../templates/Gtk/gtk_builder_get_object.use >> ../test/Gtk/GtkBuilderP.pony
 cat ../templates/Gtk/GtkBuilderP.primitive >> ../test/Gtk/GtkBuilderP.pony
 cat ../templates/Gtk/gtk_builder_add_from_resource.sys >> ../test/Gtk/GtkBuilderP.pony
 cat ../templates/Gtk/gtk_builder_add_objects_from_resource.sys >> ../test/Gtk/GtkBuilderP.pony
+cat ../templates/Gtk/gtk_builder_get_object.sys >> ../test/Gtk/GtkBuilderP.pony
 echo > ../test/Gtk/GtkBuilderCScope.pony
 cat ../templates/Gtk/GtkBuilderCScope.class >> ../test/Gtk/GtkBuilderCScope.pony
 echo > ../test/Gtk/GtkBuilderCScopeI.pony

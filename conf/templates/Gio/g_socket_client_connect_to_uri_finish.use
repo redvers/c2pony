@@ -1,1 +1,1 @@
-use @g_socket_client_connect_to_uri_finish[GSocketConnection](client': GSocketClient, result': GAsyncResult, error': Pointer[GError])
+use @g_socket_client_connect_to_uri_finish[GSocketConnection](client': GSocketClient, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,2 @@
-  fun new_sync(connection': GDBusConnection, flags': U32, info': GDBusInterfaceInfo, name': String, object_path': String, interface_name': String, cancellable': GCancellable, error': Pointer[GError]): GDBusProxy =>
-    @g_dbus_proxy_new_sync(connection', flags', info', name'.cstring(), object_path'.cstring(), interface_name'.cstring(), cancellable', error')
+  fun new_sync(connection': GDBusConnection, flags': U32, info': GDBusInterfaceInfo, name': String, object_path': String, interface_name': String, cancellable': GCancellable, error': GError): GDBusProxy =>
+    @g_dbus_proxy_new_sync(connection', flags', info', name'.cstring(), object_path'.cstring(), interface_name'.cstring(), cancellable', addressof error'.ptr)

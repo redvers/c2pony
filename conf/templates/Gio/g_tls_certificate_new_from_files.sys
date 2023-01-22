@@ -1,2 +1,2 @@
-  fun new_from_files(cert_file': String, key_file': String, error': Pointer[GError]): GTlsCertificate =>
-    @g_tls_certificate_new_from_files(cert_file'.cstring(), key_file'.cstring(), error')
+  fun new_from_files(cert_file': String, key_file': String, error': GError): GTlsCertificate =>
+    @g_tls_certificate_new_from_files(cert_file'.cstring(), key_file'.cstring(), addressof error'.ptr)

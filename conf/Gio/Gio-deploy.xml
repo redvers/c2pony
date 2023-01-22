@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
   <ns namespace="Gio">
+    <renderfunction name="g_resource_load" ponyname="load" render="1" deprecated=""/>
     <renderfunction name="g_bus_get" ponyname="bus_get" render="" deprecated=""/>
     <renderfunction name="g_bus_get_finish" ponyname="bus_get_finish" render="" deprecated=""/>
     <renderfunction name="g_bus_get_sync" ponyname="bus_get_sync" render="" deprecated=""/>
@@ -454,7 +455,6 @@
       <rendermethod name="g_resource_open_stream" ponyname="open_stream" render="" deprecated=""/>
       <rendermethod name="g_resource_ref" ponyname="ref" render="" deprecated=""/>
       <rendermethod name="g_resource_unref" ponyname="unref" render="" deprecated=""/>
-      <renderfunction name="g_resource_load" ponyname="load" render="" deprecated=""/>
     </renderstruct>
     <renderstruct name="GSeekableIface" render="">
 </renderstruct>

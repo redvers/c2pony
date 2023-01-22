@@ -1,2 +1,2 @@
-  fun flush_sync(connection': GDBusConnection, cancellable': GCancellable, error': Pointer[GError]): I32 =>
-    @g_dbus_connection_flush_sync(connection', cancellable', error')
+  fun flush_sync(connection': GDBusConnection, cancellable': GCancellable, error': GError): I32 =>
+    @g_dbus_connection_flush_sync(connection', cancellable', addressof error'.ptr)

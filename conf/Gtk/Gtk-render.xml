@@ -1008,7 +1008,8 @@ use "lib:gtk-4"
       <renderconstructor name="gtk_builder_new_from_resource" ponyname="new_from_resource" render="1" deprecated=""/>
       <renderconstructor name="gtk_builder_new_from_string" ponyname="new_from_string" render="1" deprecated=""/>
       <rendermethod name="gtk_builder_add_from_file" ponyname="add_from_file" render="1" deprecated=""/>
-      <rendermethod name="gtk_builder_add_from_resource" ponyname="add_from_resource" render="0" deprecated=""/>
+      <rendermethod name="gtk_builder_add_from_resource" ponyname="add_from_resource" render="1" deprecated=""/>
+      <!--
 <useoverride name="gtk_builder_add_from_resource" render="1">
 use @gtk_builder_add_from_resource[I32](builder': Pointer[GObjectP], resource_path': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])
 </useoverride>
@@ -1020,7 +1021,7 @@ use @gtk_builder_add_from_resource[I32](builder': Pointer[GObjectP], resource_pa
   fun ref add_from_resource(resource_path': String, error': GError): I32 =>
     GtkBuilderP.add_from_resource(this, resource_path', error')
 </methodoverride>
-
+      -->
       <rendermethod name="gtk_builder_add_from_string" ponyname="add_from_string" render="1" deprecated=""/>
       <rendermethod name="gtk_builder_add_objects_from_file" ponyname="add_objects_from_file" render="1" deprecated=""/>
       <rendermethod name="gtk_builder_add_objects_from_resource" ponyname="add_objects_from_resource" render="1" deprecated=""/>

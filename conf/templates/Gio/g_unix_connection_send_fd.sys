@@ -1,2 +1,2 @@
-  fun send_fd(connection': GUnixConnection, fd': I32, cancellable': GCancellable, error': Pointer[GError]): I32 =>
-    @g_unix_connection_send_fd(connection', fd', cancellable', error')
+  fun send_fd(connection': GUnixConnection, fd': I32, cancellable': GCancellable, error': GError): I32 =>
+    @g_unix_connection_send_fd(connection', fd', cancellable', addressof error'.ptr)

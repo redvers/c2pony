@@ -1,2 +1,2 @@
-  fun skip(stream': GInputStream, count': U64, cancellable': GCancellable, error': Pointer[GError]): I64 =>
-    @g_input_stream_skip(stream', count', cancellable', error')
+  fun skip(stream': GInputStream, count': U64, cancellable': GCancellable, error': GError): I64 =>
+    @g_input_stream_skip(stream', count', cancellable', addressof error'.ptr)

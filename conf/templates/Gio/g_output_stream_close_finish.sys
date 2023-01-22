@@ -1,2 +1,2 @@
-  fun close_finish(stream': GOutputStream, result': GAsyncResult, error': Pointer[GError]): I32 =>
-    @g_output_stream_close_finish(stream', result', error')
+  fun close_finish(stream': GOutputStream, result': GAsyncResult, error': GError): I32 =>
+    @g_output_stream_close_finish(stream', result', addressof error'.ptr)

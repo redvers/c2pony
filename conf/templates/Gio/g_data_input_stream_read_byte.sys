@@ -1,2 +1,2 @@
-  fun read_byte(stream': GDataInputStream, cancellable': GCancellable, error': Pointer[GError]): U8 =>
-    @g_data_input_stream_read_byte(stream', cancellable', error')
+  fun read_byte(stream': GDataInputStream, cancellable': GCancellable, error': GError): U8 =>
+    @g_data_input_stream_read_byte(stream', cancellable', addressof error'.ptr)

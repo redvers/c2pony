@@ -1,2 +1,2 @@
-  fun ref add_socket(socket': GSocket, source_object': GObjectI, error': Pointer[GError]): I32 =>
+  fun ref add_socket(socket': GSocket, source_object': GObjectI, error': GError): I32 =>
     GSocketListenerP.add_socket(this, socket', source_object', error')

@@ -1,7 +1,9 @@
 mkdir -p ../test/Gio
 
 echo > ../test/Gio/GioG.pony
+cat ../templates/Gio/g_resource_load.use >> ../test/Gio/GioG.pony
 cat ../templates/Gio/Gio.primitive >> ../test/Gio/GioG.pony
+cat ../templates/Gio/g_resource_load.sys >> ../test/Gio/GioG.pony
 echo > ../test/Gio/GApplication.pony
 cat ../templates/Gio/GApplication.class >> ../test/Gio/GApplication.pony
 echo > ../test/Gio/GApplicationI.pony

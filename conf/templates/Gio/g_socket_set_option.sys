@@ -1,2 +1,2 @@
-  fun set_option(socket': GSocket, level': I32, optname': I32, value': I32, error': Pointer[GError]): I32 =>
-    @g_socket_set_option(socket', level', optname', value', error')
+  fun set_option(socket': GSocket, level': I32, optname': I32, value': I32, error': GError): I32 =>
+    @g_socket_set_option(socket', level', optname', value', addressof error'.ptr)

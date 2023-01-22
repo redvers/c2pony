@@ -1,1 +1,1 @@
-use @g_permission_acquire[I32](permission': GPermission, cancellable': GCancellable, error': Pointer[GError])
+use @g_permission_acquire[I32](permission': GPermission, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

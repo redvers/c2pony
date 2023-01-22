@@ -1,2 +1,2 @@
-  fun ref connect(address': GSocketAddress, cancellable': GCancellable, error': Pointer[GError]): I32 =>
+  fun ref connect(address': GSocketAddress, cancellable': GCancellable, error': GError): I32 =>
     GSocketConnectionP.connect(this, address', cancellable', error')

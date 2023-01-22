@@ -1,1 +1,1 @@
-use @g_socket_listener_accept_socket_finish[GSocket](listener': GSocketListener, result': GAsyncResult, source_object': Pointer[GObject], error': Pointer[GError])
+use @g_socket_listener_accept_socket_finish[GSocket](listener': GSocketListener, result': GAsyncResult, source_object': Pointer[GObject], error': Pointer[NullablePointer[GErrorT]])

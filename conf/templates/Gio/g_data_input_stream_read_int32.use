@@ -1,1 +1,1 @@
-use @g_data_input_stream_read_int32[I32](stream': GDataInputStream, cancellable': GCancellable, error': Pointer[GError])
+use @g_data_input_stream_read_int32[I32](stream': GDataInputStream, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

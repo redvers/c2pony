@@ -1,2 +1,2 @@
-  fun ref add_any_inet_port(source_object': GObjectI, error': Pointer[GError]): U16 =>
+  fun ref add_any_inet_port(source_object': GObjectI, error': GError): U16 =>
     GSocketListenerP.add_any_inet_port(this, source_object', error')

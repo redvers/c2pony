@@ -1,2 +1,2 @@
-  fun append(list': GUnixFDList, fd': I32, error': Pointer[GError]): I32 =>
-    @g_unix_fd_list_append(list', fd', error')
+  fun append(list': GUnixFDList, fd': I32, error': GError): I32 =>
+    @g_unix_fd_list_append(list', fd', addressof error'.ptr)

@@ -1,2 +1,2 @@
-  fun ref release_finish(result': GAsyncResult, error': Pointer[GError]): I32 =>
+  fun ref release_finish(result': GAsyncResult, error': GError): I32 =>
     GPermissionP.release_finish(this, result', error')

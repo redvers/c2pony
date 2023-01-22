@@ -1,1 +1,1 @@
-use @g_resources_get_info[I32](path': Pointer[U8] tag, lookup_flags': U32, size': Pointer[U64] tag, flags': Pointer[U32] tag, error': Pointer[GError])
+use @g_resources_get_info[I32](path': Pointer[U8] tag, lookup_flags': U32, size': Pointer[U64] tag, flags': Pointer[U32] tag, error': Pointer[NullablePointer[GErrorT]])

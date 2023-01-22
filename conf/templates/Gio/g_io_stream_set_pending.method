@@ -1,2 +1,2 @@
-  fun ref set_pending(error': Pointer[GError]): I32 =>
+  fun ref set_pending(error': GError): I32 =>
     GIOStreamP.set_pending(this, error')

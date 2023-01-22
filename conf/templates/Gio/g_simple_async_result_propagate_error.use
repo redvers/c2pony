@@ -1,1 +1,1 @@
-use @g_simple_async_result_propagate_error[I32](simple': GSimpleAsyncResult, dest': Pointer[GError])
+use @g_simple_async_result_propagate_error[I32](simple': GSimpleAsyncResult, dest': Pointer[NullablePointer[GErrorT]])

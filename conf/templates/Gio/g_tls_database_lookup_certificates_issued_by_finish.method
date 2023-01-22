@@ -1,2 +1,2 @@
-  fun ref lookup_certificates_issued_by_finish(result': GAsyncResult, error': Pointer[GError]): GList =>
+  fun ref lookup_certificates_issued_by_finish(result': GAsyncResult, error': GError): GList =>
     GTlsDatabaseP.lookup_certificates_issued_by_finish(this, result', error')

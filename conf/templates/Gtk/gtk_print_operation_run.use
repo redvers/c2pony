@@ -1,1 +1,1 @@
-use @gtk_print_operation_run[U32](op': GtkPrintOperation, action': U32, parent': Pointer[GObjectP], error': NullablePointer[GErrorT])
+use @gtk_print_operation_run[U32](op': GtkPrintOperation, action': U32, parent': Pointer[GObjectP], error': Pointer[NullablePointer[GErrorT]])

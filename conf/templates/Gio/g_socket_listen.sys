@@ -1,2 +1,2 @@
-  fun listen(socket': GSocket, error': Pointer[GError]): I32 =>
-    @g_socket_listen(socket', error')
+  fun listen(socket': GSocket, error': GError): I32 =>
+    @g_socket_listen(socket', addressof error'.ptr)

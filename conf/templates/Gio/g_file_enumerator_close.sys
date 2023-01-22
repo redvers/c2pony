@@ -1,2 +1,2 @@
-  fun close(enumerator': GFileEnumerator, cancellable': GCancellable, error': Pointer[GError]): I32 =>
-    @g_file_enumerator_close(enumerator', cancellable', error')
+  fun close(enumerator': GFileEnumerator, cancellable': GCancellable, error': GError): I32 =>
+    @g_file_enumerator_close(enumerator', cancellable', addressof error'.ptr)

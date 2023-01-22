@@ -1,2 +1,2 @@
-  fun ref set_error_if_cancelled(error': Pointer[GError]): I32 =>
+  fun ref set_error_if_cancelled(error': GError): I32 =>
     GCancellableP.set_error_if_cancelled(this, error')

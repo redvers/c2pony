@@ -1,2 +1,2 @@
-  fun ref register_subtree(object_path': String, vtable': GDBusSubtreeVTable, flags': U32, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify, error': Pointer[GError]): U32 =>
+  fun ref register_subtree(object_path': String, vtable': GDBusSubtreeVTable, flags': U32, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify, error': GError): U32 =>
     GDBusConnectionP.register_subtree(this, object_path', vtable', flags', user_data', user_data_free_func', error')

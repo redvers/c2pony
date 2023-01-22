@@ -1,2 +1,0 @@
-
- // methodoverride  fun resource_load(filename: String, gerror: GError): NullablePointer[GResource

@@ -1,2 +1,2 @@
-  fun set_error_if_cancelled(cancellable': GCancellable, error': Pointer[GError]): I32 =>
-    @g_cancellable_set_error_if_cancelled(cancellable', error')
+  fun set_error_if_cancelled(cancellable': GCancellable, error': GError): I32 =>
+    @g_cancellable_set_error_if_cancelled(cancellable', addressof error'.ptr)

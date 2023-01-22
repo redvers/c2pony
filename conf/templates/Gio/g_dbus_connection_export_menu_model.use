@@ -1,1 +1,1 @@
-use @g_dbus_connection_export_menu_model[U32](connection': GDBusConnection, object_path': Pointer[U8] tag, menu': GMenuModel, error': Pointer[GError])
+use @g_dbus_connection_export_menu_model[U32](connection': GDBusConnection, object_path': Pointer[U8] tag, menu': GMenuModel, error': Pointer[NullablePointer[GErrorT]])

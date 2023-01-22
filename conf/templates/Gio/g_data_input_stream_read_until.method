@@ -1,2 +1,2 @@
-  fun ref read_until(stop_chars': String, length': Pointer[U64] tag, cancellable': GCancellable, error': Pointer[GError]): String iso^ =>
+  fun ref read_until(stop_chars': String, length': Pointer[U64] tag, cancellable': GCancellable, error': GError): String iso^ =>
     GDataInputStreamP.read_until(this, stop_chars', length', cancellable', error')

@@ -1,2 +1,2 @@
-  fun set_pending(stream': GIOStream, error': Pointer[GError]): I32 =>
-    @g_io_stream_set_pending(stream', error')
+  fun set_pending(stream': GIOStream, error': GError): I32 =>
+    @g_io_stream_set_pending(stream', addressof error'.ptr)

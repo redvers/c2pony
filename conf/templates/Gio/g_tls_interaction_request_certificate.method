@@ -1,2 +1,2 @@
-  fun ref request_certificate(connection': GTlsConnection, flags': U32, cancellable': GCancellable, error': Pointer[GError]): U32 =>
+  fun ref request_certificate(connection': GTlsConnection, flags': U32, cancellable': GCancellable, error': GError): U32 =>
     GTlsInteractionP.request_certificate(this, connection', flags', cancellable', error')

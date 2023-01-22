@@ -1,2 +1,2 @@
-  fun close_sync(connection': GDBusConnection, cancellable': GCancellable, error': Pointer[GError]): I32 =>
-    @g_dbus_connection_close_sync(connection', cancellable', error')
+  fun close_sync(connection': GDBusConnection, cancellable': GCancellable, error': GError): I32 =>
+    @g_dbus_connection_close_sync(connection', cancellable', addressof error'.ptr)

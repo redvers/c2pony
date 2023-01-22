@@ -1,2 +1,2 @@
-  fun bus_get_finish(res': GAsyncResult, error': Pointer[GError]): GDBusConnection =>
-    @g_bus_get_finish(res', error')
+  fun bus_get_finish(res': GAsyncResult, error': GError): GDBusConnection =>
+    @g_bus_get_finish(res', addressof error'.ptr)

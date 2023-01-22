@@ -1,2 +1,2 @@
-  fun write_bytes_finish(stream': GOutputStream, result': GAsyncResult, error': Pointer[GError]): I64 =>
-    @g_output_stream_write_bytes_finish(stream', result', error')
+  fun write_bytes_finish(stream': GOutputStream, result': GAsyncResult, error': GError): I64 =>
+    @g_output_stream_write_bytes_finish(stream', result', addressof error'.ptr)

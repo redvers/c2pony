@@ -1,2 +1,2 @@
   fun lookup_item(manager': GtkRecentManager, uri': String, error': GError): GtkRecentInfo =>
-    @gtk_recent_manager_lookup_item(manager', uri'.cstring(), error'.ptr)
+    @gtk_recent_manager_lookup_item(manager', uri'.cstring(), addressof error'.ptr)

@@ -1,2 +1,2 @@
-  fun ref export_action_group(object_path': String, action_group': GActionGroup, error': Pointer[GError]): U32 =>
+  fun ref export_action_group(object_path': String, action_group': GActionGroup, error': GError): U32 =>
     GDBusConnectionP.export_action_group(this, object_path', action_group', error')

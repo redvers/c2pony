@@ -1,1 +1,1 @@
-use @g_socket_close[I32](socket': GSocket, error': Pointer[GError])
+use @g_socket_close[I32](socket': GSocket, error': Pointer[NullablePointer[GErrorT]])

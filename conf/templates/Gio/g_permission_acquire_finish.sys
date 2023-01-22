@@ -1,2 +1,2 @@
-  fun acquire_finish(permission': GPermission, result': GAsyncResult, error': Pointer[GError]): I32 =>
-    @g_permission_acquire_finish(permission', result', error')
+  fun acquire_finish(permission': GPermission, result': GAsyncResult, error': GError): I32 =>
+    @g_permission_acquire_finish(permission', result', addressof error'.ptr)

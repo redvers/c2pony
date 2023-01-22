@@ -1,2 +1,2 @@
-  fun put_int16(stream': GDataOutputStream, data': I16, cancellable': GCancellable, error': Pointer[GError]): I32 =>
-    @g_data_output_stream_put_int16(stream', data', cancellable', error')
+  fun put_int16(stream': GDataOutputStream, data': I16, cancellable': GCancellable, error': GError): I32 =>
+    @g_data_output_stream_put_int16(stream', data', cancellable', addressof error'.ptr)

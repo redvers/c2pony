@@ -1,2 +1,2 @@
-  fun new_finish(res': GAsyncResult, error': Pointer[GError]): GDBusObjectManager =>
-    @g_dbus_object_manager_client_new_finish(res', error')
+  fun new_finish(res': GAsyncResult, error': GError): GDBusObjectManager =>
+    @g_dbus_object_manager_client_new_finish(res', addressof error'.ptr)

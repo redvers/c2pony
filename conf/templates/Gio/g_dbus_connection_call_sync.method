@@ -1,2 +1,2 @@
-  fun ref call_sync(bus_name': String, object_path': String, interface_name': String, method_name': String, parameters': GVariant, reply_type': GVariantType, flags': U32, timeout_msec': I32, cancellable': GCancellable, error': Pointer[GError]): GVariant =>
+  fun ref call_sync(bus_name': String, object_path': String, interface_name': String, method_name': String, parameters': GVariant, reply_type': GVariantType, flags': U32, timeout_msec': I32, cancellable': GCancellable, error': GError): GVariant =>
     GDBusConnectionP.call_sync(this, bus_name', object_path', interface_name', method_name', parameters', reply_type', flags', timeout_msec', cancellable', error')

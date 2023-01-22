@@ -1,2 +1,2 @@
   fun to_file(settings': GtkPrintSettings, file_name': String, error': GError): I32 =>
-    @gtk_print_settings_to_file(settings', file_name'.cstring(), error'.ptr)
+    @gtk_print_settings_to_file(settings', file_name'.cstring(), addressof error'.ptr)

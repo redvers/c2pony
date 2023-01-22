@@ -1,2 +1,2 @@
-  fun write_all_finish(stream': GOutputStream, result': GAsyncResult, bytes_written': Pointer[U64] tag, error': Pointer[GError]): I32 =>
-    @g_output_stream_write_all_finish(stream', result', bytes_written', error')
+  fun write_all_finish(stream': GOutputStream, result': GAsyncResult, bytes_written': Pointer[U64] tag, error': GError): I32 =>
+    @g_output_stream_write_all_finish(stream', result', bytes_written', addressof error'.ptr)

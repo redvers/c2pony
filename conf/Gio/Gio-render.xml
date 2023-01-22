@@ -461,15 +461,12 @@ use "lib:gio-2.0"
       <rendermethod name="g_resource_unref" ponyname="unref" render="0" deprecated=""/>
       <renderfunction name="g_resource_load" ponyname="load" render="0" deprecated=""/>
 <useoverride name="g_resource_load" render="1">
-use @g_resource_load[NullablePointer[GResourceT](filename: String, gerror: Pointer[Pointer[GErrorT]])
+use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, gerror: Pointer[NullablePointer[GErrorT]])
 </useoverride>
 <sysoverride name="g_resource_load" render="1">
-    // sysoverride  fun g_resource_load(filename: String, gerror: GError): NullablePointer[GResourceT] =>
-  // sysoverride@g_resource_load(filename.cstring(), addressof gerror.ptr)
+  fun g_resource_load(filename: String, gerror: GError): GResource =>
+    GResource(@g_resource_load(filename.cstring(), addressof gerror.ptr))
 </sysoverride>
-<methodoverride name="g_resource_load" render="1">
- // methodoverride  fun resource_load(filename: String, gerror: GError): NullablePointer[GResource
-</methodoverride>
     </renderstruct>
     <renderstruct name="GSeekableIface" render="1">
 </renderstruct>

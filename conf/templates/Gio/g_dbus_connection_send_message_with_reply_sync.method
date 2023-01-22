@@ -1,2 +1,2 @@
-  fun ref send_message_with_reply_sync(message': GDBusMessage, flags': U32, timeout_msec': I32, out_serial': Pointer[U32] tag, cancellable': GCancellable, error': Pointer[GError]): GDBusMessage =>
+  fun ref send_message_with_reply_sync(message': GDBusMessage, flags': U32, timeout_msec': I32, out_serial': Pointer[U32] tag, cancellable': GCancellable, error': GError): GDBusMessage =>
     GDBusConnectionP.send_message_with_reply_sync(this, message', flags', timeout_msec', out_serial', cancellable', error')

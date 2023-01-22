@@ -1,2 +1,2 @@
-  fun ref call_finish(res': GAsyncResult, error': Pointer[GError]): GVariant =>
+  fun ref call_finish(res': GAsyncResult, error': GError): GVariant =>
     GDBusProxyP.call_finish(this, res', error')

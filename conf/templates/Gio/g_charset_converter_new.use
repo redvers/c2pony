@@ -1,1 +1,1 @@
-use @g_charset_converter_new[GCharsetConverter](to_charset': Pointer[U8] tag, from_charset': Pointer[U8] tag, error': Pointer[GError])
+use @g_charset_converter_new[GCharsetConverter](to_charset': Pointer[U8] tag, from_charset': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])
