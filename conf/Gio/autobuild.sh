@@ -19,6 +19,12 @@ echo > ../test/Gio/GMountOperationI.pony
 cat ../templates/Gio/GMountOperationI.classinterface >> ../test/Gio/GMountOperationI.pony
 echo > ../test/Gio/GMountOperationP.pony
 cat ../templates/Gio/GMountOperationP.primitive >> ../test/Gio/GMountOperationP.pony
+echo > ../test/Gio/GActionEntry.pony
+cat ../templates/Gio/GActionEntry.class >> ../test/Gio/GActionEntry.pony
+echo > ../test/Gio/GActionEntryT.pony
+cat ../templates/Gio/GActionEntryT.struct >> ../test/Gio/GActionEntryT.pony
+echo > ../test/Gio/GActionEntryP.pony
+cat ../templates/Gio/GActionEntryP.primitive >> ../test/Gio/GActionEntryP.pony
 echo > ../test/Gio/GResource.pony
 cat ../templates/Gio/GResource.class >> ../test/Gio/GResource.pony
 echo > ../test/Gio/GResourceT.pony

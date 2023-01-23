@@ -290,7 +290,7 @@
     <renderstruct name="GTypeValueTable" render="0">
       <renderfunction name="g_type_value_table_peek" ponyname="peek" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GValue" render="0">
+    <renderstruct name="GValue" render="1">
       <rendermethod name="g_value_copy" ponyname="copy" render="0" deprecated=""/>
       <rendermethod name="g_value_dup_boxed" ponyname="dup_boxed" render="0" deprecated=""/>
       <rendermethod name="g_value_dup_object" ponyname="dup_object" render="0" deprecated=""/>

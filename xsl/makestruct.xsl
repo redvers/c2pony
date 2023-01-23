@@ -28,6 +28,12 @@
 </xsl:template>
 -->
 
+<xsl:template match="/main/rs/ns[@namespace=$namespace]/structoverride[@render='1']">
+  <xsl:result-document href="../templates/{$namespace}/{./@name}T.struct" method="text">
+    <xsl:value-of select="."/>
+  </xsl:result-document>
+</xsl:template>
+
 <xsl:template name="mainstruct">
   <xsl:param name="n"/>
   <xsl:variable name="root" select="/main/c2pony/structs/struct[@name=$n]"/>

@@ -11,7 +11,6 @@
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, 'Sys')"/>
       <xsl:for-each select="$root/rendermethod[@render=$debug]">
-        <xsl:message><xsl:value-of select="./@ponyname"/></xsl:message>
         <xsl:call-template name="mainfunction">
           <xsl:with-param name="ponyname" select="./@ponyname"/>
           <xsl:with-param name="n" select="./@name"/>
