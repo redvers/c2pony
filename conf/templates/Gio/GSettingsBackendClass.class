@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSettingsBackendClass
   var ptr: NullablePointer[GSettingsBackendClassT]
 
-  new create(ptr': NullablePointer[GSettingsBackendClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GSettingsBackendClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GSettingsBackendClassT]) => ptr = ptr'

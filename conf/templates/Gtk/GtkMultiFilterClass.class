@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkMultiFilterClass
   var ptr: NullablePointer[GtkMultiFilterClassT]
 
-  new create(ptr': NullablePointer[GtkMultiFilterClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkMultiFilterClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkMultiFilterClassT]) => ptr = ptr'

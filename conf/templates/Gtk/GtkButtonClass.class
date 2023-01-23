@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkButtonClass
   var ptr: NullablePointer[GtkButtonClassT]
 
-  new create(ptr': NullablePointer[GtkButtonClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkButtonClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkButtonClassT]) => ptr = ptr'

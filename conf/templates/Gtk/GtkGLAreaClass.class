@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkGLAreaClass
   var ptr: NullablePointer[GtkGLAreaClassT]
 
-  new create(ptr': NullablePointer[GtkGLAreaClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkGLAreaClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkGLAreaClassT]) => ptr = ptr'

@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkSingleSelectionClass
   var ptr: NullablePointer[GtkSingleSelectionClassT]
 
-  new create(ptr': NullablePointer[GtkSingleSelectionClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkSingleSelectionClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkSingleSelectionClassT]) => ptr = ptr'

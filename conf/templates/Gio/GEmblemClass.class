@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GEmblemClass
   var ptr: NullablePointer[GEmblemClassT]
 
-  new create(ptr': NullablePointer[GEmblemClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GEmblemClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GEmblemClassT]) => ptr = ptr'

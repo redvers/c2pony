@@ -1,1 +1,1 @@
-use @g_match_info_expand_references[Pointer[U8]](match_info': GMatchInfo, string_to_expand': Pointer[U8] tag, error': Pointer[GError])
+use @g_match_info_expand_references[Pointer[U8]](match_info': GMatchInfo, string_to_expand': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

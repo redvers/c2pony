@@ -1,1 +1,1 @@
-use @g_match_info_next[I32](match_info': GMatchInfo, error': Pointer[GError])
+use @g_match_info_next[I32](match_info': GMatchInfo, error': Pointer[NullablePointer[GErrorT]])

@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkCellRendererClass
   var ptr: NullablePointer[GtkCellRendererClassT]
 
-  new create(ptr': NullablePointer[GtkCellRendererClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkCellRendererClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkCellRendererClassT]) => ptr = ptr'

@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkLayoutManagerClass
   var ptr: NullablePointer[GtkLayoutManagerClassT]
 
-  new create(ptr': NullablePointer[GtkLayoutManagerClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkLayoutManagerClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkLayoutManagerClassT]) => ptr = ptr'

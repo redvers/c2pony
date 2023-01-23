@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GMenuModelClass
   var ptr: NullablePointer[GMenuModelClassT]
 
-  new create(ptr': NullablePointer[GMenuModelClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GMenuModelClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GMenuModelClassT]) => ptr = ptr'

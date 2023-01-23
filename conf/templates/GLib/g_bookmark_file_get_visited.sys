@@ -1,2 +1,2 @@
-  fun get_visited(bookmark': GBookmarkFile, uri': String, error': Pointer[GError]): I64 =>
-    @g_bookmark_file_get_visited(bookmark', uri'.cstring(), error')
+  fun get_visited(bookmark': GBookmarkFile, uri': String, error': GError): I64 =>
+    @g_bookmark_file_get_visited(bookmark', uri'.cstring(), addressof error'.ptr)

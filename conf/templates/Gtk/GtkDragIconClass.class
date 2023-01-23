@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkDragIconClass
   var ptr: NullablePointer[GtkDragIconClassT]
 
-  new create(ptr': NullablePointer[GtkDragIconClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkDragIconClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkDragIconClassT]) => ptr = ptr'

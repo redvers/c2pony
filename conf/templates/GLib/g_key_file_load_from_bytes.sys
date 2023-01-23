@@ -1,2 +1,2 @@
-  fun load_from_bytes(key_file': GKeyFile, bytes': GBytes, flags': U32, error': Pointer[GError]): I32 =>
-    @g_key_file_load_from_bytes(key_file', bytes', flags', error')
+  fun load_from_bytes(key_file': GKeyFile, bytes': GBytes, flags': U32, error': GError): I32 =>
+    @g_key_file_load_from_bytes(key_file', bytes', flags', addressof error'.ptr)

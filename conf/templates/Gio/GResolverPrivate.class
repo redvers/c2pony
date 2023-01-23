@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GResolverPrivate
   var ptr: NullablePointer[GResolverPrivateT]
 
-  new create(ptr': NullablePointer[GResolverPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GResolverPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GResolverPrivateT]) => ptr = ptr'

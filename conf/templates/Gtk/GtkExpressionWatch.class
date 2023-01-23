@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkExpressionWatch
   var ptr: NullablePointer[GtkExpressionWatchT]
 
-  new create(ptr': NullablePointer[GtkExpressionWatchT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkExpressionWatchT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkExpressionWatchT]) => ptr = ptr'

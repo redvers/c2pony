@@ -1,2 +1,2 @@
-  fun ref set_comment(group_name': String, key': String, comment': String, error': Pointer[GError]): I32 =>
+  fun ref set_comment(group_name': String, key': String, comment': String, error': GError): I32 =>
     GKeyFileP.set_comment(this, group_name', key', comment', error')

@@ -1,2 +1,2 @@
-  fun set_flags(channel': GIOChannel, flags': U32, error': Pointer[GError]): U32 =>
-    @g_io_channel_set_flags(channel', flags', error')
+  fun set_flags(channel': GIOChannel, flags': U32, error': GError): U32 =>
+    @g_io_channel_set_flags(channel', flags', addressof error'.ptr)

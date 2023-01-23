@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkMessageDialogClass
   var ptr: NullablePointer[GtkMessageDialogClassT]
 
-  new create(ptr': NullablePointer[GtkMessageDialogClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkMessageDialogClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkMessageDialogClassT]) => ptr = ptr'

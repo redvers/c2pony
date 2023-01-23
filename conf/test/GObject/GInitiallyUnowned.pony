@@ -8,9 +8,9 @@ use "lib:gobject-2.0"
 class GInitiallyUnowned is GInitiallyUnownedI
   var ptr: Pointer[GObjectP]
 
-  new create(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
 // g_initially_unowned_get_type
-  new gnew() =>
+  new create() =>
     ptr = GObjectG.gnew(@g_initially_unowned_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

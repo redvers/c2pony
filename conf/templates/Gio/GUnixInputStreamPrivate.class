@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GUnixInputStreamPrivate
   var ptr: NullablePointer[GUnixInputStreamPrivateT]
 
-  new create(ptr': NullablePointer[GUnixInputStreamPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GUnixInputStreamPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GUnixInputStreamPrivateT]) => ptr = ptr'

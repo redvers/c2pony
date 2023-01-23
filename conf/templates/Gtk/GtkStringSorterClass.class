@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkStringSorterClass
   var ptr: NullablePointer[GtkStringSorterClassT]
 
-  new create(ptr': NullablePointer[GtkStringSorterClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkStringSorterClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkStringSorterClassT]) => ptr = ptr'

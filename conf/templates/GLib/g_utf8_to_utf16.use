@@ -1,1 +1,1 @@
-use @g_utf8_to_utf16[Pointer[U16] tag](str': Pointer[U8] tag, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': Pointer[GError])
+use @g_utf8_to_utf16[Pointer[U16] tag](str': Pointer[U8] tag, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': Pointer[NullablePointer[GErrorT]])

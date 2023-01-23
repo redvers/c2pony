@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GIOModuleScope
   var ptr: NullablePointer[GIOModuleScopeT]
 
-  new create(ptr': NullablePointer[GIOModuleScopeT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GIOModuleScopeT].none()
+  new create_from_ptr(ptr': NullablePointer[GIOModuleScopeT]) => ptr = ptr'

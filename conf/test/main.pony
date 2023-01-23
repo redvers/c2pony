@@ -3,21 +3,7 @@ use "GObject"
 use "Gio"
 use "Gtk"
 
-use @printf[I32](fmt: Pointer[U8] tag, ...)
-use @g_object_new[Pointer[GObjectP]](gtype: GType, ...)
-use @gtk_application_get_type[GType]()
-use @gtk_builder_get_type[GType]()
-use @gtk_window_get_type[GType]()
-use @g_resource_load[Pointer[GResourceP]](filename: Pointer[U8] tag, gerror: Pointer[NullablePointer[GErrorT]])
-use @g_resources_register[None](gre: Pointer[GResourceP])
-use @g_application_run[I32](app: Pointer[GObjectP], argc: I32, argv: Pointer[Pointer[U8]])
-use @g_signal_connect_object[U64](app: Pointer[GObjectP], sig: Pointer[U8] tag, cb: Pointer[None], gobj: Pointer[GObjectP], flags: U32)
-use @gtk_builder_add_from_resource[Bool](builder: Pointer[GObjectP], path: Pointer[U8] tag, err: Pointer[NullablePointer[GErrorT]])
-use @gtk_builder_get_object[Pointer[GObjectP]](builder: Pointer[GObjectP], name: Pointer[U8] tag)
-use @gtk_application_add_window[None](app: Pointer[GObjectP], window: Pointer[GObjectP])
-use @gtk_widget_show[None](widget: Pointer[GObjectP])
-use @g_type_name_from_instance[Pointer[U8]](instance': Pointer[None] tag)
-
+use "debug"
 
 type GType is U64
 
@@ -26,44 +12,37 @@ actor Main
   new create(env': Env) =>
     env = env'
 
-    GtkG.init()
-/*    let app: GtkApplication = GtkApplication(@g_object_new(@gtk_application_get_type(),
-                                      "application-id".cstring(), "me.infect.red".cstring(),
-                                      "flags".cstring(), U32(0),
-                                      Pointer[None]))
-                                      */
-    let app: GtkApplication = GtkApplication.gnew()
-    app.connect_object("activate", Erk~cb(), app, U32(0))
+    let myapp: MyApp = MyApp(env)
+    let app: GtkApplication = GtkApplication
+    app.connect[MyApp]("activate", myapp~cb(), myapp, U32(0))
+//    app.connect_object("activate", Erk~cb(), Erk, U32(0))
     app.run(0, Pointer[Pointer[U8]])
-    /*
-    var gerror: NullablePointer[GErrorT] = NullablePointer[GErrorT].none()
-    let gresource: Pointer[GResourceP] = @g_resource_load("demo.gresource".cstring(), addressof gerror)
-    if (gresource.is_null()) then
-      env.out.print("We failed")
-    end
 
-    @g_resources_register(gresource)
-    app.signal_connect_object("activate", Erk~cb(), app)
-    app.run()
+class MyApp
+  let env: Env
 
-*/
+  new create(env': Env) => env = env'
 
-primitive Erk
-  fun @cb(app': Pointer[GObjectP], data: Pointer[GObjectP]) =>
-    let app: GtkApplication = GtkApplication(app')
-    @printf("Wassup\n".cstring())
-    let builder: GtkBuilder = GtkBuilder.gnew()
-    let gerror: GError = GError(NullablePointer[GErrorT].none())
+  fun @cb(app': Pointer[GObjectP], myapp: MyApp) =>
+    myapp.activate(GtkApplication.create_from_ptr(app'))
+
+  fun activate(app: GtkApplication) => None
+    let builder: GtkBuilder = GtkBuilder
+    let gerror: GError = GError
     let gresource: GResource = GioG.g_resource_load("demo.gresource", gerror)
-    gresource.register() // This needs to check for nullptr before execution
+    gresource.register()
     if (builder.add_from_resource("/ui/main.ui", gerror) == 0) then
       try
-        @printf("Is bad yo…: %s\n".cstring(), gerror.ptr.apply()?.message')
+        Debug.err("Is bad yo…: "  + String.from_cstring(gerror.ptr.apply()?.message').clone())
       else
-        @printf("Apparently a null ptr\n".cstring())
+        Debug.err("Apparently a null ptr")
       end
     end
-    let appwindow: GtkApplicationWindow = GtkApplicationWindow(builder.get_object("window"))
+
+    let appwindow: GtkApplicationWindow = GtkApplicationWindow.create_from_ptr(builder.get_object("window"))
     app.add_window(appwindow)
     appwindow.show()
+    test()
+
+  fun test() => env.out.print("Hello World")
 

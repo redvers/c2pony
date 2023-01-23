@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTreeRowReference
   var ptr: NullablePointer[GtkTreeRowReferenceT]
 
-  new create(ptr': NullablePointer[GtkTreeRowReferenceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkTreeRowReferenceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkTreeRowReferenceT]) => ptr = ptr'

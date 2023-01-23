@@ -1,2 +1,2 @@
-  fun ref load_from_file(file': String, flags': U32, error': Pointer[GError]): I32 =>
+  fun ref load_from_file(file': String, flags': U32, error': GError): I32 =>
     GKeyFileP.load_from_file(this, file', flags', error')

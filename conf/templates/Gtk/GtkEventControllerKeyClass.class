@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkEventControllerKeyClass
   var ptr: NullablePointer[GtkEventControllerKeyClassT]
 
-  new create(ptr': NullablePointer[GtkEventControllerKeyClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkEventControllerKeyClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkEventControllerKeyClassT]) => ptr = ptr'

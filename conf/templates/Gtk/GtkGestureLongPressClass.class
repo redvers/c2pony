@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkGestureLongPressClass
   var ptr: NullablePointer[GtkGestureLongPressClassT]
 
-  new create(ptr': NullablePointer[GtkGestureLongPressClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkGestureLongPressClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkGestureLongPressClassT]) => ptr = ptr'

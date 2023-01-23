@@ -465,7 +465,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
 </useoverride>
 <sysoverride name="g_resource_load" render="1">
   fun g_resource_load(filename: String, gerror: GError): GResource =>
-    GResource(@g_resource_load(filename.cstring(), addressof gerror.ptr))
+    GResource.create_from_ptr(@g_resource_load(filename.cstring(), addressof gerror.ptr))
 </sysoverride>
     </renderstruct>
     <renderstruct name="GSeekableIface" render="1">

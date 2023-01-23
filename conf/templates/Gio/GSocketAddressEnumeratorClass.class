@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSocketAddressEnumeratorClass
   var ptr: NullablePointer[GSocketAddressEnumeratorClassT]
 
-  new create(ptr': NullablePointer[GSocketAddressEnumeratorClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GSocketAddressEnumeratorClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GSocketAddressEnumeratorClassT]) => ptr = ptr'

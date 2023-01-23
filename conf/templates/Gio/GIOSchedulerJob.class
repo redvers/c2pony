@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GIOSchedulerJob
   var ptr: NullablePointer[GIOSchedulerJobT]
 
-  new create(ptr': NullablePointer[GIOSchedulerJobT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GIOSchedulerJobT].none()
+  new create_from_ptr(ptr': NullablePointer[GIOSchedulerJobT]) => ptr = ptr'

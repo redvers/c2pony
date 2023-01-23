@@ -1,1 +1,1 @@
-use @g_utf16_to_ucs4[Pointer[U32] tag](str': Pointer[U16] tag, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': Pointer[GError])
+use @g_utf16_to_ucs4[Pointer[U32] tag](str': Pointer[U16] tag, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': Pointer[NullablePointer[GErrorT]])

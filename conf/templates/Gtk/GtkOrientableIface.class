@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkOrientableIface
   var ptr: NullablePointer[GtkOrientableIfaceT]
 
-  new create(ptr': NullablePointer[GtkOrientableIfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkOrientableIfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkOrientableIfaceT]) => ptr = ptr'

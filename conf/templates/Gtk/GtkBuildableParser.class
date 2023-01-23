@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkBuildableParser
   var ptr: NullablePointer[GtkBuildableParserT]
 
-  new create(ptr': NullablePointer[GtkBuildableParserT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkBuildableParserT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkBuildableParserT]) => ptr = ptr'

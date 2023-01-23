@@ -9,4 +9,4 @@ use "lib:gio-2.0"
 primitive GioG
 
   fun g_resource_load(filename: String, gerror: GError): GResource =>
-    GResource(@g_resource_load(filename.cstring(), addressof gerror.ptr))
+    GResource.create_from_ptr(@g_resource_load(filename.cstring(), addressof gerror.ptr))

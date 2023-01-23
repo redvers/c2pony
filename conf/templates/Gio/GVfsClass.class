@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GVfsClass
   var ptr: NullablePointer[GVfsClassT]
 
-  new create(ptr': NullablePointer[GVfsClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GVfsClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GVfsClassT]) => ptr = ptr'

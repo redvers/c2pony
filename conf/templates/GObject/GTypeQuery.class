@@ -5,4 +5,6 @@ use "lib:gobject-2.0"
 class GTypeQuery
   var ptr: NullablePointer[GTypeQueryT]
 
-  new create(ptr': NullablePointer[GTypeQueryT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GTypeQueryT].none()
+  new create_from_ptr(ptr': NullablePointer[GTypeQueryT]) => ptr = ptr'

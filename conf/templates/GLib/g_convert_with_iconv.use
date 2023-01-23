@@ -1,1 +1,1 @@
-use @g_convert_with_iconv[Pointer[U8]](str': Pointer[U8] tag, len': I64, converter': GIConv, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[GError])
+use @g_convert_with_iconv[Pointer[U8]](str': Pointer[U8] tag, len': I64, converter': GIConv, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]])

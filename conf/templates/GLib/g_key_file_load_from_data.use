@@ -1,1 +1,1 @@
-use @g_key_file_load_from_data[I32](key_file': GKeyFile, data': Pointer[U8] tag, length': U64, flags': U32, error': Pointer[GError])
+use @g_key_file_load_from_data[I32](key_file': GKeyFile, data': Pointer[U8] tag, length': U64, flags': U32, error': Pointer[NullablePointer[GErrorT]])

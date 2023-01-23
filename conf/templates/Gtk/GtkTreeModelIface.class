@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTreeModelIface
   var ptr: NullablePointer[GtkTreeModelIfaceT]
 
-  new create(ptr': NullablePointer[GtkTreeModelIfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkTreeModelIfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkTreeModelIfaceT]) => ptr = ptr'

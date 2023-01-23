@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkMnemonicTriggerClass
   var ptr: NullablePointer[GtkMnemonicTriggerClassT]
 
-  new create(ptr': NullablePointer[GtkMnemonicTriggerClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkMnemonicTriggerClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkMnemonicTriggerClassT]) => ptr = ptr'

@@ -5,4 +5,6 @@ use "lib:gobject-2.0"
 class GParameter
   var ptr: NullablePointer[GParameterT]
 
-  new create(ptr': NullablePointer[GParameterT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GParameterT].none()
+  new create_from_ptr(ptr': NullablePointer[GParameterT]) => ptr = ptr'

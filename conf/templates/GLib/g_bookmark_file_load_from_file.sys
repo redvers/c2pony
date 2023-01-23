@@ -1,2 +1,2 @@
-  fun load_from_file(bookmark': GBookmarkFile, filename': String, error': Pointer[GError]): I32 =>
-    @g_bookmark_file_load_from_file(bookmark', filename'.cstring(), error')
+  fun load_from_file(bookmark': GBookmarkFile, filename': String, error': GError): I32 =>
+    @g_bookmark_file_load_from_file(bookmark', filename'.cstring(), addressof error'.ptr)

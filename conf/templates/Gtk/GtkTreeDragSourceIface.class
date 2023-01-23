@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTreeDragSourceIface
   var ptr: NullablePointer[GtkTreeDragSourceIfaceT]
 
-  new create(ptr': NullablePointer[GtkTreeDragSourceIfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkTreeDragSourceIfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkTreeDragSourceIfaceT]) => ptr = ptr'

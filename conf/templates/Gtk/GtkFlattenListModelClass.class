@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkFlattenListModelClass
   var ptr: NullablePointer[GtkFlattenListModelClassT]
 
-  new create(ptr': NullablePointer[GtkFlattenListModelClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkFlattenListModelClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkFlattenListModelClassT]) => ptr = ptr'

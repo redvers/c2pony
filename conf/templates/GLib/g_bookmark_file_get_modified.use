@@ -1,1 +1,1 @@
-use @g_bookmark_file_get_modified[I64](bookmark': GBookmarkFile, uri': Pointer[U8] tag, error': Pointer[GError])
+use @g_bookmark_file_get_modified[I64](bookmark': GBookmarkFile, uri': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

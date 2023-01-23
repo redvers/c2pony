@@ -1,2 +1,2 @@
-  fun spawn_check_exit_status(wait_status': I32, error': Pointer[GError]): I32 =>
-    @g_spawn_check_exit_status(wait_status', error')
+  fun spawn_check_exit_status(wait_status': I32, error': GError): I32 =>
+    @g_spawn_check_exit_status(wait_status', addressof error'.ptr)

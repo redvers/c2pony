@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDBusInterfaceSkeletonPrivate
   var ptr: NullablePointer[GDBusInterfaceSkeletonPrivateT]
 
-  new create(ptr': NullablePointer[GDBusInterfaceSkeletonPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GDBusInterfaceSkeletonPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GDBusInterfaceSkeletonPrivateT]) => ptr = ptr'

@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkPictureClass
   var ptr: NullablePointer[GtkPictureClassT]
 
-  new create(ptr': NullablePointer[GtkPictureClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkPictureClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkPictureClassT]) => ptr = ptr'

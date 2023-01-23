@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GBufferedOutputStreamPrivate
   var ptr: NullablePointer[GBufferedOutputStreamPrivateT]
 
-  new create(ptr': NullablePointer[GBufferedOutputStreamPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GBufferedOutputStreamPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GBufferedOutputStreamPrivateT]) => ptr = ptr'

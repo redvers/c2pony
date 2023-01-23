@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GMountOperationPrivate
   var ptr: NullablePointer[GMountOperationPrivateT]
 
-  new create(ptr': NullablePointer[GMountOperationPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GMountOperationPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GMountOperationPrivateT]) => ptr = ptr'

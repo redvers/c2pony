@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GTlsCertificateClass
   var ptr: NullablePointer[GTlsCertificateClassT]
 
-  new create(ptr': NullablePointer[GTlsCertificateClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GTlsCertificateClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GTlsCertificateClassT]) => ptr = ptr'

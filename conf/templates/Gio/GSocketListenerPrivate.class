@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSocketListenerPrivate
   var ptr: NullablePointer[GSocketListenerPrivateT]
 
-  new create(ptr': NullablePointer[GSocketListenerPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GSocketListenerPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GSocketListenerPrivateT]) => ptr = ptr'

@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkPaperSize
   var ptr: NullablePointer[GtkPaperSizeT]
 
-  new create(ptr': NullablePointer[GtkPaperSizeT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkPaperSizeT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkPaperSizeT]) => ptr = ptr'

@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GRecMutex
   var ptr: NullablePointer[GRecMutexT]
 
-  new create(ptr': NullablePointer[GRecMutexT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GRecMutexT].none()
+  new create_from_ptr(ptr': NullablePointer[GRecMutexT]) => ptr = ptr'

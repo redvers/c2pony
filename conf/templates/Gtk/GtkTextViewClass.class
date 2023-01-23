@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTextViewClass
   var ptr: NullablePointer[GtkTextViewClassT]
 
-  new create(ptr': NullablePointer[GtkTextViewClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkTextViewClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkTextViewClassT]) => ptr = ptr'

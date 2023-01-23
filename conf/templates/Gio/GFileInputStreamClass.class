@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GFileInputStreamClass
   var ptr: NullablePointer[GFileInputStreamClassT]
 
-  new create(ptr': NullablePointer[GFileInputStreamClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GFileInputStreamClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GFileInputStreamClassT]) => ptr = ptr'

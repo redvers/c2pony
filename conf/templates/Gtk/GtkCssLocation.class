@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkCssLocation
   var ptr: NullablePointer[GtkCssLocationT]
 
-  new create(ptr': NullablePointer[GtkCssLocationT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkCssLocationT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkCssLocationT]) => ptr = ptr'

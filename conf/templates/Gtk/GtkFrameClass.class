@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkFrameClass
   var ptr: NullablePointer[GtkFrameClassT]
 
-  new create(ptr': NullablePointer[GtkFrameClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkFrameClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkFrameClassT]) => ptr = ptr'

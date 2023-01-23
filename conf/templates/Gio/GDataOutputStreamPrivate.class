@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDataOutputStreamPrivate
   var ptr: NullablePointer[GDataOutputStreamPrivateT]
 
-  new create(ptr': NullablePointer[GDataOutputStreamPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GDataOutputStreamPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GDataOutputStreamPrivateT]) => ptr = ptr'

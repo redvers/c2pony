@@ -1,2 +1,2 @@
-  fun ref set_encoding(encoding': String, error': Pointer[GError]): U32 =>
+  fun ref set_encoding(encoding': String, error': GError): U32 =>
     GIOChannelP.set_encoding(this, encoding', error')

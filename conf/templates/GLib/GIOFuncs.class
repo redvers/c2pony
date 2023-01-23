@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GIOFuncs
   var ptr: NullablePointer[GIOFuncsT]
 
-  new create(ptr': NullablePointer[GIOFuncsT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GIOFuncsT].none()
+  new create_from_ptr(ptr': NullablePointer[GIOFuncsT]) => ptr = ptr'

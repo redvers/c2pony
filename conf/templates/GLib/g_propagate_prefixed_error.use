@@ -1,1 +1,1 @@
-use @g_propagate_prefixed_error[None](dest': Pointer[GError], src': NullablePointer[GErrorT], format': Pointer[U8] tag, ...)
+use @g_propagate_prefixed_error[None](dest': Pointer[NullablePointer[GErrorT]], src': NullablePointer[GErrorT], format': Pointer[U8] tag, ...)

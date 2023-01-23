@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GProxyAddressEnumeratorPrivate
   var ptr: NullablePointer[GProxyAddressEnumeratorPrivateT]
 
-  new create(ptr': NullablePointer[GProxyAddressEnumeratorPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GProxyAddressEnumeratorPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GProxyAddressEnumeratorPrivateT]) => ptr = ptr'

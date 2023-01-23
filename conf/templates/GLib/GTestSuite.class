@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GTestSuite
   var ptr: NullablePointer[GTestSuiteT]
 
-  new create(ptr': NullablePointer[GTestSuiteT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GTestSuiteT].none()
+  new create_from_ptr(ptr': NullablePointer[GTestSuiteT]) => ptr = ptr'

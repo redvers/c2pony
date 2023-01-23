@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkSelectionModelInterface
   var ptr: NullablePointer[GtkSelectionModelInterfaceT]
 
-  new create(ptr': NullablePointer[GtkSelectionModelInterfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkSelectionModelInterfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkSelectionModelInterfaceT]) => ptr = ptr'

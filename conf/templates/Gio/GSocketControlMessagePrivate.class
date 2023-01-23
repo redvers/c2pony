@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSocketControlMessagePrivate
   var ptr: NullablePointer[GSocketControlMessagePrivateT]
 
-  new create(ptr': NullablePointer[GSocketControlMessagePrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GSocketControlMessagePrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GSocketControlMessagePrivateT]) => ptr = ptr'

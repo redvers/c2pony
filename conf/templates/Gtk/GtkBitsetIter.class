@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkBitsetIter
   var ptr: NullablePointer[GtkBitsetIterT]
 
-  new create(ptr': NullablePointer[GtkBitsetIterT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkBitsetIterT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkBitsetIterT]) => ptr = ptr'

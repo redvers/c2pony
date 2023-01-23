@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkToggleButtonClass
   var ptr: NullablePointer[GtkToggleButtonClassT]
 
-  new create(ptr': NullablePointer[GtkToggleButtonClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkToggleButtonClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkToggleButtonClassT]) => ptr = ptr'

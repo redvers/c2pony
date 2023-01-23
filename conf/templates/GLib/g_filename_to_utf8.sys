@@ -1,2 +1,2 @@
-  fun filename_to_utf8(opsysstring': String, len': I64, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[GError]): String iso^ =>
-    String.from_cstring(@g_filename_to_utf8(opsysstring'.cstring(), len', bytes_read', bytes_written', error')).clone()
+  fun filename_to_utf8(opsysstring': String, len': I64, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': GError): String iso^ =>
+    String.from_cstring(@g_filename_to_utf8(opsysstring'.cstring(), len', bytes_read', bytes_written', addressof error'.ptr)).clone()

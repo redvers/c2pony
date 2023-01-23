@@ -1,2 +1,2 @@
-  fun ref get_added_date_time(uri': String, error': Pointer[GError]): GDateTime =>
+  fun ref get_added_date_time(uri': String, error': GError): GDateTime =>
     GBookmarkFileP.get_added_date_time(this, uri', error')

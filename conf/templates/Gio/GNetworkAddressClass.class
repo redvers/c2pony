@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GNetworkAddressClass
   var ptr: NullablePointer[GNetworkAddressClassT]
 
-  new create(ptr': NullablePointer[GNetworkAddressClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GNetworkAddressClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GNetworkAddressClassT]) => ptr = ptr'

@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkPadControllerClass
   var ptr: NullablePointer[GtkPadControllerClassT]
 
-  new create(ptr': NullablePointer[GtkPadControllerClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkPadControllerClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkPadControllerClassT]) => ptr = ptr'

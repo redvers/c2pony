@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkMountOperationClass
   var ptr: NullablePointer[GtkMountOperationClassT]
 
-  new create(ptr': NullablePointer[GtkMountOperationClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkMountOperationClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkMountOperationClassT]) => ptr = ptr'

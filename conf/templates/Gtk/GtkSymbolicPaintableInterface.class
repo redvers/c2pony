@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkSymbolicPaintableInterface
   var ptr: NullablePointer[GtkSymbolicPaintableInterfaceT]
 
-  new create(ptr': NullablePointer[GtkSymbolicPaintableInterfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkSymbolicPaintableInterfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkSymbolicPaintableInterfaceT]) => ptr = ptr'

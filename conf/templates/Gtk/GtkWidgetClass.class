@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkWidgetClass
   var ptr: NullablePointer[GtkWidgetClassT]
 
-  new create(ptr': NullablePointer[GtkWidgetClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkWidgetClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkWidgetClassT]) => ptr = ptr'

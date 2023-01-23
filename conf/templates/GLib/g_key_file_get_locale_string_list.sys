@@ -1,2 +1,2 @@
-  fun get_locale_string_list(key_file': GKeyFile, group_name': String, key': String, locale': String, length': Pointer[U64] tag, error': Pointer[GError]): Pointer[Pointer[U8]] tag =>
-    @g_key_file_get_locale_string_list(key_file', group_name'.cstring(), key'.cstring(), locale'.cstring(), length', error')
+  fun get_locale_string_list(key_file': GKeyFile, group_name': String, key': String, locale': String, length': Pointer[U64] tag, error': GError): Pointer[Pointer[U8]] tag =>
+    @g_key_file_get_locale_string_list(key_file', group_name'.cstring(), key'.cstring(), locale'.cstring(), length', addressof error'.ptr)

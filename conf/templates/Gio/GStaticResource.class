@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GStaticResource
   var ptr: NullablePointer[GStaticResourceT]
 
-  new create(ptr': NullablePointer[GStaticResourceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GStaticResourceT].none()
+  new create_from_ptr(ptr': NullablePointer[GStaticResourceT]) => ptr = ptr'

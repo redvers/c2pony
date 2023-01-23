@@ -1,2 +1,2 @@
-  fun utf8_to_utf16(str': String, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': Pointer[GError]): Pointer[U16] tag =>
-    @g_utf8_to_utf16(str'.cstring(), len', items_read', items_written', error')
+  fun utf8_to_utf16(str': String, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': GError): Pointer[U16] tag =>
+    @g_utf8_to_utf16(str'.cstring(), len', items_read', items_written', addressof error'.ptr)

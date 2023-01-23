@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkBinLayoutClass
   var ptr: NullablePointer[GtkBinLayoutClassT]
 
-  new create(ptr': NullablePointer[GtkBinLayoutClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkBinLayoutClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkBinLayoutClassT]) => ptr = ptr'

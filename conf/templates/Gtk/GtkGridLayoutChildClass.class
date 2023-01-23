@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkGridLayoutChildClass
   var ptr: NullablePointer[GtkGridLayoutChildClassT]
 
-  new create(ptr': NullablePointer[GtkGridLayoutChildClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkGridLayoutChildClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkGridLayoutChildClassT]) => ptr = ptr'

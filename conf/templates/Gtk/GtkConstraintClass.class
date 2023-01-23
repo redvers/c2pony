@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkConstraintClass
   var ptr: NullablePointer[GtkConstraintClassT]
 
-  new create(ptr': NullablePointer[GtkConstraintClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkConstraintClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkConstraintClassT]) => ptr = ptr'

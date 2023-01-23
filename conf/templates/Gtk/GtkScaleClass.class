@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkScaleClass
   var ptr: NullablePointer[GtkScaleClassT]
 
-  new create(ptr': NullablePointer[GtkScaleClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkScaleClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkScaleClassT]) => ptr = ptr'

@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GTcpConnectionClass
   var ptr: NullablePointer[GTcpConnectionClassT]
 
-  new create(ptr': NullablePointer[GTcpConnectionClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GTcpConnectionClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GTcpConnectionClassT]) => ptr = ptr'

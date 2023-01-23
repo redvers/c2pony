@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSocketConnectableIface
   var ptr: NullablePointer[GSocketConnectableIfaceT]
 
-  new create(ptr': NullablePointer[GSocketConnectableIfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GSocketConnectableIfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GSocketConnectableIfaceT]) => ptr = ptr'

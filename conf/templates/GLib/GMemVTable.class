@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GMemVTable
   var ptr: NullablePointer[GMemVTableT]
 
-  new create(ptr': NullablePointer[GMemVTableT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GMemVTableT].none()
+  new create_from_ptr(ptr': NullablePointer[GMemVTableT]) => ptr = ptr'

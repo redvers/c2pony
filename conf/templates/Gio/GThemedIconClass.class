@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GThemedIconClass
   var ptr: NullablePointer[GThemedIconClassT]
 
-  new create(ptr': NullablePointer[GThemedIconClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GThemedIconClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GThemedIconClassT]) => ptr = ptr'

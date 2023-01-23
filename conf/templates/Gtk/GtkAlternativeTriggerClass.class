@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkAlternativeTriggerClass
   var ptr: NullablePointer[GtkAlternativeTriggerClassT]
 
-  new create(ptr': NullablePointer[GtkAlternativeTriggerClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkAlternativeTriggerClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkAlternativeTriggerClassT]) => ptr = ptr'

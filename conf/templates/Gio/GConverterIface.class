@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GConverterIface
   var ptr: NullablePointer[GConverterIfaceT]
 
-  new create(ptr': NullablePointer[GConverterIfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GConverterIfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GConverterIfaceT]) => ptr = ptr'

@@ -1,2 +1,2 @@
-  fun try_new(name': String, func': GThreadFunc, data': Pointer[None] tag, error': Pointer[GError]): GThread =>
-    @g_thread_try_new(name'.cstring(), func', data', error')
+  fun try_new(name': String, func': GThreadFunc, data': Pointer[None] tag, error': GError): GThread =>
+    @g_thread_try_new(name'.cstring(), func', data', addressof error'.ptr)

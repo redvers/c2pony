@@ -10,9 +10,9 @@ use "lib:gtk-4"
 class GtkScaleButton is GtkScaleButtonI
   var ptr: Pointer[GObjectP]
 
-  new create(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
 // gtk_scale_button_get_type
-  new gnew() =>
+  new create() =>
     ptr = GObjectG.gnew(@gtk_scale_button_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

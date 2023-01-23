@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkDropTargetClass
   var ptr: NullablePointer[GtkDropTargetClassT]
 
-  new create(ptr': NullablePointer[GtkDropTargetClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkDropTargetClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkDropTargetClassT]) => ptr = ptr'

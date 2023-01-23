@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSimpleProxyResolverPrivate
   var ptr: NullablePointer[GSimpleProxyResolverPrivateT]
 
-  new create(ptr': NullablePointer[GSimpleProxyResolverPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GSimpleProxyResolverPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GSimpleProxyResolverPrivateT]) => ptr = ptr'

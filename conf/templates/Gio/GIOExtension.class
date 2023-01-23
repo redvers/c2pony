@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GIOExtension
   var ptr: NullablePointer[GIOExtensionT]
 
-  new create(ptr': NullablePointer[GIOExtensionT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GIOExtensionT].none()
+  new create_from_ptr(ptr': NullablePointer[GIOExtensionT]) => ptr = ptr'

@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GArray
   var ptr: NullablePointer[GArrayT]
 
-  new create(ptr': NullablePointer[GArrayT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GArrayT].none()
+  new create_from_ptr(ptr': NullablePointer[GArrayT]) => ptr = ptr'

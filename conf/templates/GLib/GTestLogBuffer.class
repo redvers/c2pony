@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GTestLogBuffer
   var ptr: NullablePointer[GTestLogBufferT]
 
-  new create(ptr': NullablePointer[GTestLogBufferT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GTestLogBufferT].none()
+  new create_from_ptr(ptr': NullablePointer[GTestLogBufferT]) => ptr = ptr'

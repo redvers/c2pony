@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GMainLoop
   var ptr: NullablePointer[GMainLoopT]
 
-  new create(ptr': NullablePointer[GMainLoopT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GMainLoopT].none()
+  new create_from_ptr(ptr': NullablePointer[GMainLoopT]) => ptr = ptr'

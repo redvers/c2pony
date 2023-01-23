@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GVolumeMonitorClass
   var ptr: NullablePointer[GVolumeMonitorClassT]
 
-  new create(ptr': NullablePointer[GVolumeMonitorClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GVolumeMonitorClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GVolumeMonitorClassT]) => ptr = ptr'

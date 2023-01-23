@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkPrintOperationClass
   var ptr: NullablePointer[GtkPrintOperationClassT]
 
-  new create(ptr': NullablePointer[GtkPrintOperationClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkPrintOperationClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkPrintOperationClassT]) => ptr = ptr'

@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GTlsFileDatabaseInterface
   var ptr: NullablePointer[GTlsFileDatabaseInterfaceT]
 
-  new create(ptr': NullablePointer[GTlsFileDatabaseInterfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GTlsFileDatabaseInterfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GTlsFileDatabaseInterfaceT]) => ptr = ptr'

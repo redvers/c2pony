@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GTlsInteractionPrivate
   var ptr: NullablePointer[GTlsInteractionPrivateT]
 
-  new create(ptr': NullablePointer[GTlsInteractionPrivateT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GTlsInteractionPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GTlsInteractionPrivateT]) => ptr = ptr'

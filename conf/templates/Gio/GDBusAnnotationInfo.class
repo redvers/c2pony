@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDBusAnnotationInfo
   var ptr: NullablePointer[GDBusAnnotationInfoT]
 
-  new create(ptr': NullablePointer[GDBusAnnotationInfoT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GDBusAnnotationInfoT].none()
+  new create_from_ptr(ptr': NullablePointer[GDBusAnnotationInfoT]) => ptr = ptr'

@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GMemoryMonitorInterface
   var ptr: NullablePointer[GMemoryMonitorInterfaceT]
 
-  new create(ptr': NullablePointer[GMemoryMonitorInterfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GMemoryMonitorInterfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GMemoryMonitorInterfaceT]) => ptr = ptr'

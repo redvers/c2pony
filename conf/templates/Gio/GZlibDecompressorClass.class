@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GZlibDecompressorClass
   var ptr: NullablePointer[GZlibDecompressorClassT]
 
-  new create(ptr': NullablePointer[GZlibDecompressorClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GZlibDecompressorClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GZlibDecompressorClassT]) => ptr = ptr'

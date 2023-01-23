@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkConstraintLayoutChildClass
   var ptr: NullablePointer[GtkConstraintLayoutChildClassT]
 
-  new create(ptr': NullablePointer[GtkConstraintLayoutChildClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkConstraintLayoutChildClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkConstraintLayoutChildClassT]) => ptr = ptr'

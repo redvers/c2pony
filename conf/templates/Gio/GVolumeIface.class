@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GVolumeIface
   var ptr: NullablePointer[GVolumeIfaceT]
 
-  new create(ptr': NullablePointer[GVolumeIfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GVolumeIfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GVolumeIfaceT]) => ptr = ptr'

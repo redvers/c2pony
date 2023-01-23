@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkKeyvalTriggerClass
   var ptr: NullablePointer[GtkKeyvalTriggerClassT]
 
-  new create(ptr': NullablePointer[GtkKeyvalTriggerClassT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkKeyvalTriggerClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkKeyvalTriggerClassT]) => ptr = ptr'

@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkColorChooserInterface
   var ptr: NullablePointer[GtkColorChooserInterfaceT]
 
-  new create(ptr': NullablePointer[GtkColorChooserInterfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkColorChooserInterfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkColorChooserInterfaceT]) => ptr = ptr'

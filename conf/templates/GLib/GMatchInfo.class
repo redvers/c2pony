@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GMatchInfo
   var ptr: NullablePointer[GMatchInfoT]
 
-  new create(ptr': NullablePointer[GMatchInfoT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GMatchInfoT].none()
+  new create_from_ptr(ptr': NullablePointer[GMatchInfoT]) => ptr = ptr'

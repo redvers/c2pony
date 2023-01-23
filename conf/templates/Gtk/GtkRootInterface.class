@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkRootInterface
   var ptr: NullablePointer[GtkRootInterfaceT]
 
-  new create(ptr': NullablePointer[GtkRootInterfaceT]) => ptr = ptr'
+  new create() =>
+    ptr = NullablePointer[GtkRootInterfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkRootInterfaceT]) => ptr = ptr'
