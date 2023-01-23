@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkFixedLayoutClass
   var ptr: NullablePointer[GtkFixedLayoutClassT]
 
-  new create(ptr': NullablePointer[GtkFixedLayoutClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkFixedLayoutClassT]) => ptr = ptr'

@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkWidgetClassPrivate
   var ptr: NullablePointer[GtkWidgetClassPrivateT]
 
-  new create(ptr': NullablePointer[GtkWidgetClassPrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkWidgetClassPrivateT]) => ptr = ptr'

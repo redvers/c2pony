@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkGridViewClass
   var ptr: NullablePointer[GtkGridViewClassT]
 
-  new create(ptr': NullablePointer[GtkGridViewClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkGridViewClassT]) => ptr = ptr'

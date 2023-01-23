@@ -1,2 +1,2 @@
-  fun ref match_all_full(string': String, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[GMatchInfo], error': Pointer[GError]): I32 =>
+  fun ref match_all_full(string': String, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[GMatchInfo], error': GError): I32 =>
     GRegexP.match_all_full(this, string', string_len', start_position', match_options', match_info', error')

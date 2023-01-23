@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GApplicationClass
   var ptr: NullablePointer[GApplicationClassT]
 
-  new create(ptr': NullablePointer[GApplicationClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GApplicationClassT]) => ptr = ptr'

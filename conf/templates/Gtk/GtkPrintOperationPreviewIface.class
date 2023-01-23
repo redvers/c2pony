@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkPrintOperationPreviewIface
   var ptr: NullablePointer[GtkPrintOperationPreviewIfaceT]
 
-  new create(ptr': NullablePointer[GtkPrintOperationPreviewIfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkPrintOperationPreviewIfaceT]) => ptr = ptr'

@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GMenuAttributeIterClass
   var ptr: NullablePointer[GMenuAttributeIterClassT]
 
-  new create(ptr': NullablePointer[GMenuAttributeIterClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GMenuAttributeIterClassT]) => ptr = ptr'

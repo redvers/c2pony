@@ -1,1 +1,1 @@
-use @g_io_channel_flush[U32](channel': GIOChannel, error': Pointer[GError])
+use @g_io_channel_flush[U32](channel': GIOChannel, error': Pointer[NullablePointer[GErrorT]])

@@ -4,4 +4,4 @@ use "lib:glib-2.0"
 class GDate
   var ptr: NullablePointer[GDateT]
 
-  new create(ptr': NullablePointer[GDateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GDateT]) => ptr = ptr'

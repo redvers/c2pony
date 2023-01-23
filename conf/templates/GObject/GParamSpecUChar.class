@@ -6,7 +6,7 @@ use "lib:gobject-2.0"
 class GParamSpecUChar is GParamSpecUCharI
   var ptr: Pointer[GParamSpecP]
 
-  new create(ptr': Pointer[GParamSpecP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GParamSpecP]) => ptr = ptr'
 // intern
 
   fun ref getptr(): Pointer[GParamSpecP] => ptr

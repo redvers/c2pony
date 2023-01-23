@@ -5,4 +5,4 @@ use "lib:gobject-2.0"
 class GTypeFundamentalInfo
   var ptr: NullablePointer[GTypeFundamentalInfoT]
 
-  new create(ptr': NullablePointer[GTypeFundamentalInfoT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GTypeFundamentalInfoT]) => ptr = ptr'

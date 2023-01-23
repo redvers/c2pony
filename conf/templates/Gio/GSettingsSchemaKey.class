@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GSettingsSchemaKey
   var ptr: NullablePointer[GSettingsSchemaKeyT]
 
-  new create(ptr': NullablePointer[GSettingsSchemaKeyT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GSettingsSchemaKeyT]) => ptr = ptr'

@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GPermissionPrivate
   var ptr: NullablePointer[GPermissionPrivateT]
 
-  new create(ptr': NullablePointer[GPermissionPrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GPermissionPrivateT]) => ptr = ptr'

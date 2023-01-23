@@ -9,9 +9,9 @@ use "lib:gtk-4"
 class GtkObjectExpression is GtkObjectExpressionI
   var ptr: Pointer[GtkExpressionP]
 
-  new create(ptr': Pointer[GtkExpressionP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GtkExpressionP]) => ptr = ptr'
 // gtk_object_expression_get_type
-  new gnew() =>
+  new create() =>
     ptr = GObjectG.gnew(@gtk_object_expression_get_type())
 
   fun ref getptr(): Pointer[GtkExpressionP] => ptr

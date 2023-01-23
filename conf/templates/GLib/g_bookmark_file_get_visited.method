@@ -1,2 +1,2 @@
-  fun ref get_visited(uri': String, error': Pointer[GError]): I64 =>
+  fun ref get_visited(uri': String, error': GError): I64 =>
     GBookmarkFileP.get_visited(this, uri', error')

@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkRequestedSize
   var ptr: NullablePointer[GtkRequestedSizeT]
 
-  new create(ptr': NullablePointer[GtkRequestedSizeT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkRequestedSizeT]) => ptr = ptr'

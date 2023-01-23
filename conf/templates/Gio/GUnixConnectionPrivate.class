@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GUnixConnectionPrivate
   var ptr: NullablePointer[GUnixConnectionPrivateT]
 
-  new create(ptr': NullablePointer[GUnixConnectionPrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GUnixConnectionPrivateT]) => ptr = ptr'

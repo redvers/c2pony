@@ -1,2 +1,2 @@
-  fun get_is_private(bookmark': GBookmarkFile, uri': String, error': Pointer[GError]): I32 =>
-    @g_bookmark_file_get_is_private(bookmark', uri'.cstring(), error')
+  fun get_is_private(bookmark': GBookmarkFile, uri': String, error': GError): I32 =>
+    @g_bookmark_file_get_is_private(bookmark', uri'.cstring(), addressof error'.ptr)

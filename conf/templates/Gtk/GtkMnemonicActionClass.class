@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkMnemonicActionClass
   var ptr: NullablePointer[GtkMnemonicActionClassT]
 
-  new create(ptr': NullablePointer[GtkMnemonicActionClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkMnemonicActionClassT]) => ptr = ptr'

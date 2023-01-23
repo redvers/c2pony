@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkEveryFilterClass
   var ptr: NullablePointer[GtkEveryFilterClassT]
 
-  new create(ptr': NullablePointer[GtkEveryFilterClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkEveryFilterClassT]) => ptr = ptr'

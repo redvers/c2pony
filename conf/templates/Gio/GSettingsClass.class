@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GSettingsClass
   var ptr: NullablePointer[GSettingsClassT]
 
-  new create(ptr': NullablePointer[GSettingsClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GSettingsClassT]) => ptr = ptr'

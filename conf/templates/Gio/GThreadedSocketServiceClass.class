@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GThreadedSocketServiceClass
   var ptr: NullablePointer[GThreadedSocketServiceClassT]
 
-  new create(ptr': NullablePointer[GThreadedSocketServiceClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GThreadedSocketServiceClassT]) => ptr = ptr'

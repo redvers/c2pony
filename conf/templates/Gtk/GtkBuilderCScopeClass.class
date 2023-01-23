@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkBuilderCScopeClass
   var ptr: NullablePointer[GtkBuilderCScopeClassT]
 
-  new create(ptr': NullablePointer[GtkBuilderCScopeClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkBuilderCScopeClassT]) => ptr = ptr'

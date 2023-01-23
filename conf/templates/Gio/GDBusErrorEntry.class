@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GDBusErrorEntry
   var ptr: NullablePointer[GDBusErrorEntryT]
 
-  new create(ptr': NullablePointer[GDBusErrorEntryT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GDBusErrorEntryT]) => ptr = ptr'

@@ -1,2 +1,2 @@
-  fun ref end_parse(error': Pointer[GError]): I32 =>
+  fun ref end_parse(error': GError): I32 =>
     GMarkupParseContextP.end_parse(this, error')

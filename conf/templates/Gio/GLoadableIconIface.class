@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GLoadableIconIface
   var ptr: NullablePointer[GLoadableIconIfaceT]
 
-  new create(ptr': NullablePointer[GLoadableIconIfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GLoadableIconIfaceT]) => ptr = ptr'

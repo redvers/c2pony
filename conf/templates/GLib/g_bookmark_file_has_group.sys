@@ -1,2 +1,2 @@
-  fun has_group(bookmark': GBookmarkFile, uri': String, group': String, error': Pointer[GError]): I32 =>
-    @g_bookmark_file_has_group(bookmark', uri'.cstring(), group'.cstring(), error')
+  fun has_group(bookmark': GBookmarkFile, uri': String, group': String, error': GError): I32 =>
+    @g_bookmark_file_has_group(bookmark', uri'.cstring(), group'.cstring(), addressof error'.ptr)

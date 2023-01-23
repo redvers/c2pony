@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GListStoreClass
   var ptr: NullablePointer[GListStoreClassT]
 
-  new create(ptr': NullablePointer[GListStoreClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GListStoreClassT]) => ptr = ptr'

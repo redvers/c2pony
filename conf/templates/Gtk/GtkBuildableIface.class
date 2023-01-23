@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkBuildableIface
   var ptr: NullablePointer[GtkBuildableIfaceT]
 
-  new create(ptr': NullablePointer[GtkBuildableIfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkBuildableIfaceT]) => ptr = ptr'

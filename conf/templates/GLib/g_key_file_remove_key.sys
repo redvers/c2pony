@@ -1,2 +1,2 @@
-  fun remove_key(key_file': GKeyFile, group_name': String, key': String, error': Pointer[GError]): I32 =>
-    @g_key_file_remove_key(key_file', group_name'.cstring(), key'.cstring(), error')
+  fun remove_key(key_file': GKeyFile, group_name': String, key': String, error': GError): I32 =>
+    @g_key_file_remove_key(key_file', group_name'.cstring(), key'.cstring(), addressof error'.ptr)

@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkRecentData
   var ptr: NullablePointer[GtkRecentDataT]
 
-  new create(ptr': NullablePointer[GtkRecentDataT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkRecentDataT]) => ptr = ptr'

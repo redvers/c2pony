@@ -8,9 +8,9 @@ use "lib:gio-2.0"
 class GUnixSocketAddress is GUnixSocketAddressI
   var ptr: Pointer[GObjectP]
 
-  new create(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
 // g_unix_socket_address_get_type
-  new gnew() =>
+  new create() =>
     ptr = GObjectG.gnew(@g_unix_socket_address_get_type())
 
   fun ref getptr(): Pointer[GObjectP] => ptr

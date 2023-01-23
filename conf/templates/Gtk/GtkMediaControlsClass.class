@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkMediaControlsClass
   var ptr: NullablePointer[GtkMediaControlsClassT]
 
-  new create(ptr': NullablePointer[GtkMediaControlsClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkMediaControlsClassT]) => ptr = ptr'

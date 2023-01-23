@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GInputStreamClass
   var ptr: NullablePointer[GInputStreamClassT]
 
-  new create(ptr': NullablePointer[GInputStreamClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GInputStreamClassT]) => ptr = ptr'

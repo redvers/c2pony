@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkNeverTriggerClass
   var ptr: NullablePointer[GtkNeverTriggerClassT]
 
-  new create(ptr': NullablePointer[GtkNeverTriggerClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkNeverTriggerClassT]) => ptr = ptr'

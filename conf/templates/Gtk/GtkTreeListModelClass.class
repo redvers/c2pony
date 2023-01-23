@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkTreeListModelClass
   var ptr: NullablePointer[GtkTreeListModelClassT]
 
-  new create(ptr': NullablePointer[GtkTreeListModelClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkTreeListModelClassT]) => ptr = ptr'

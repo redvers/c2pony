@@ -1,2 +1,2 @@
-  fun load_from_data_dirs(key_file': GKeyFile, file': String, full_path': Pointer[Pointer[U8]] tag, flags': U32, error': Pointer[GError]): I32 =>
-    @g_key_file_load_from_data_dirs(key_file', file'.cstring(), full_path', flags', error')
+  fun load_from_data_dirs(key_file': GKeyFile, file': String, full_path': Pointer[Pointer[U8]] tag, flags': U32, error': GError): I32 =>
+    @g_key_file_load_from_data_dirs(key_file', file'.cstring(), full_path', flags', addressof error'.ptr)

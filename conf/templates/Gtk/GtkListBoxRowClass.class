@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkListBoxRowClass
   var ptr: NullablePointer[GtkListBoxRowClassT]
 
-  new create(ptr': NullablePointer[GtkListBoxRowClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkListBoxRowClassT]) => ptr = ptr'

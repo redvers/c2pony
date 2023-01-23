@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkFixedClass
   var ptr: NullablePointer[GtkFixedClassT]
 
-  new create(ptr': NullablePointer[GtkFixedClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkFixedClassT]) => ptr = ptr'

@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GTlsClientConnectionInterface
   var ptr: NullablePointer[GTlsClientConnectionInterfaceT]
 
-  new create(ptr': NullablePointer[GTlsClientConnectionInterfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GTlsClientConnectionInterfaceT]) => ptr = ptr'

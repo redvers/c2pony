@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkGestureZoomClass
   var ptr: NullablePointer[GtkGestureZoomClassT]
 
-  new create(ptr': NullablePointer[GtkGestureZoomClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkGestureZoomClassT]) => ptr = ptr'

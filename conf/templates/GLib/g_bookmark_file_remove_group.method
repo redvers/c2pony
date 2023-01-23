@@ -1,2 +1,2 @@
-  fun ref remove_group(uri': String, group': String, error': Pointer[GError]): I32 =>
+  fun ref remove_group(uri': String, group': String, error': GError): I32 =>
     GBookmarkFileP.remove_group(this, uri', group', error')

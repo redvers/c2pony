@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GMenuModelPrivate
   var ptr: NullablePointer[GMenuModelPrivateT]
 
-  new create(ptr': NullablePointer[GMenuModelPrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GMenuModelPrivateT]) => ptr = ptr'

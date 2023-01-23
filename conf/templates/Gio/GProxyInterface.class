@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GProxyInterface
   var ptr: NullablePointer[GProxyInterfaceT]
 
-  new create(ptr': NullablePointer[GProxyInterfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GProxyInterfaceT]) => ptr = ptr'

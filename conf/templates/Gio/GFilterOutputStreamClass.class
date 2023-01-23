@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GFilterOutputStreamClass
   var ptr: NullablePointer[GFilterOutputStreamClassT]
 
-  new create(ptr': NullablePointer[GFilterOutputStreamClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GFilterOutputStreamClassT]) => ptr = ptr'

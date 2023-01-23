@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkVideoClass
   var ptr: NullablePointer[GtkVideoClassT]
 
-  new create(ptr': NullablePointer[GtkVideoClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkVideoClassT]) => ptr = ptr'

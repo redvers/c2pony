@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GDatagramBasedInterface
   var ptr: NullablePointer[GDatagramBasedInterfaceT]
 
-  new create(ptr': NullablePointer[GDatagramBasedInterfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GDatagramBasedInterfaceT]) => ptr = ptr'

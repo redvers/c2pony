@@ -4,4 +4,4 @@ use "lib:glib-2.0"
 class GPrivate
   var ptr: NullablePointer[GPrivateT]
 
-  new create(ptr': NullablePointer[GPrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GPrivateT]) => ptr = ptr'

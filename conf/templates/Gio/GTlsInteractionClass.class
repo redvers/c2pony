@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GTlsInteractionClass
   var ptr: NullablePointer[GTlsInteractionClassT]
 
-  new create(ptr': NullablePointer[GTlsInteractionClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GTlsInteractionClassT]) => ptr = ptr'

@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkTreeModelSortClass
   var ptr: NullablePointer[GtkTreeModelSortClassT]
 
-  new create(ptr': NullablePointer[GtkTreeModelSortClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkTreeModelSortClassT]) => ptr = ptr'

@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkActionableInterface
   var ptr: NullablePointer[GtkActionableInterfaceT]
 
-  new create(ptr': NullablePointer[GtkActionableInterfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkActionableInterfaceT]) => ptr = ptr'

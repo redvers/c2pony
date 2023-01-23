@@ -4,4 +4,4 @@ use "lib:glib-2.0"
 class GMarkupParser
   var ptr: NullablePointer[GMarkupParserT]
 
-  new create(ptr': NullablePointer[GMarkupParserT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GMarkupParserT]) => ptr = ptr'

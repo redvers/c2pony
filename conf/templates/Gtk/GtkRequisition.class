@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkRequisition
   var ptr: NullablePointer[GtkRequisitionT]
 
-  new create(ptr': NullablePointer[GtkRequisitionT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkRequisitionT]) => ptr = ptr'

@@ -1,2 +1,2 @@
-  fun get_mime_type(bookmark': GBookmarkFile, uri': String, error': Pointer[GError]): String iso^ =>
-    String.from_cstring(@g_bookmark_file_get_mime_type(bookmark', uri'.cstring(), error')).clone()
+  fun get_mime_type(bookmark': GBookmarkFile, uri': String, error': GError): String iso^ =>
+    String.from_cstring(@g_bookmark_file_get_mime_type(bookmark', uri'.cstring(), addressof error'.ptr)).clone()

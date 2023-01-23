@@ -5,4 +5,4 @@ use "lib:gobject-2.0"
 class GTypePluginClass
   var ptr: NullablePointer[GTypePluginClassT]
 
-  new create(ptr': NullablePointer[GTypePluginClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GTypePluginClassT]) => ptr = ptr'

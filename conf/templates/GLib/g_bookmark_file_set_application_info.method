@@ -1,2 +1,2 @@
-  fun ref set_application_info(uri': String, name': String, exec': String, count': I32, stamp': GDateTime, error': Pointer[GError]): I32 =>
+  fun ref set_application_info(uri': String, name': String, exec': String, count': I32, stamp': GDateTime, error': GError): I32 =>
     GBookmarkFileP.set_application_info(this, uri', name', exec', count', stamp', error')

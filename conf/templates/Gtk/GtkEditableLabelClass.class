@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkEditableLabelClass
   var ptr: NullablePointer[GtkEditableLabelClassT]
 
-  new create(ptr': NullablePointer[GtkEditableLabelClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkEditableLabelClassT]) => ptr = ptr'

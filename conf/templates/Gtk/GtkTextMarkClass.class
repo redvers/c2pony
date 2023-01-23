@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkTextMarkClass
   var ptr: NullablePointer[GtkTextMarkClassT]
 
-  new create(ptr': NullablePointer[GtkTextMarkClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkTextMarkClassT]) => ptr = ptr'

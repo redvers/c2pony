@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkTreeIter
   var ptr: NullablePointer[GtkTreeIterT]
 
-  new create(ptr': NullablePointer[GtkTreeIterT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkTreeIterT]) => ptr = ptr'

@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GInitableIface
   var ptr: NullablePointer[GInitableIfaceT]
 
-  new create(ptr': NullablePointer[GInitableIfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GInitableIfaceT]) => ptr = ptr'

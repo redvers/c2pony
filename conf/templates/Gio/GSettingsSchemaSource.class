@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GSettingsSchemaSource
   var ptr: NullablePointer[GSettingsSchemaSourceT]
 
-  new create(ptr': NullablePointer[GSettingsSchemaSourceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GSettingsSchemaSourceT]) => ptr = ptr'

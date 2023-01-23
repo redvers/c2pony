@@ -1,1 +1,1 @@
-use @g_variant_parse[GVariant](type': GVariantType, text': Pointer[U8] tag, limit': Pointer[U8] tag, endptr': Pointer[Pointer[U8]] tag, error': Pointer[GError])
+use @g_variant_parse[GVariant](type': GVariantType, text': Pointer[U8] tag, limit': Pointer[U8] tag, endptr': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]])

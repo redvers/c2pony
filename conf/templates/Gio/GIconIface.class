@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GIconIface
   var ptr: NullablePointer[GIconIfaceT]
 
-  new create(ptr': NullablePointer[GIconIfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GIconIfaceT]) => ptr = ptr'

@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GDriveIface
   var ptr: NullablePointer[GDriveIfaceT]
 
-  new create(ptr': NullablePointer[GDriveIfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GDriveIfaceT]) => ptr = ptr'

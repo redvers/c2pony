@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkCheckButtonClass
   var ptr: NullablePointer[GtkCheckButtonClassT]
 
-  new create(ptr': NullablePointer[GtkCheckButtonClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkCheckButtonClassT]) => ptr = ptr'

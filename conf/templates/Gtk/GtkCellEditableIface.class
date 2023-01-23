@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkCellEditableIface
   var ptr: NullablePointer[GtkCellEditableIfaceT]
 
-  new create(ptr': NullablePointer[GtkCellEditableIfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkCellEditableIfaceT]) => ptr = ptr'

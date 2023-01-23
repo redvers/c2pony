@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkComboBoxClass
   var ptr: NullablePointer[GtkComboBoxClassT]
 
-  new create(ptr': NullablePointer[GtkComboBoxClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkComboBoxClassT]) => ptr = ptr'

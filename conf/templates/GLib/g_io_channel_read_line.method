@@ -1,2 +1,2 @@
-  fun ref read_line(str_return': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, terminator_pos': Pointer[U64] tag, error': Pointer[GError]): U32 =>
+  fun ref read_line(str_return': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, terminator_pos': Pointer[U64] tag, error': GError): U32 =>
     GIOChannelP.read_line(this, str_return', length', terminator_pos', error')

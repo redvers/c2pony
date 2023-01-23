@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkColumnViewColumnClass
   var ptr: NullablePointer[GtkColumnViewColumnClassT]
 
-  new create(ptr': NullablePointer[GtkColumnViewColumnClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkColumnViewColumnClassT]) => ptr = ptr'

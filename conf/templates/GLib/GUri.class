@@ -4,4 +4,4 @@ use "lib:glib-2.0"
 class GUri
   var ptr: NullablePointer[GUriT]
 
-  new create(ptr': NullablePointer[GUriT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GUriT]) => ptr = ptr'

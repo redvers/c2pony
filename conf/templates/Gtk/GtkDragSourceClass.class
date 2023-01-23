@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkDragSourceClass
   var ptr: NullablePointer[GtkDragSourceClassT]
 
-  new create(ptr': NullablePointer[GtkDragSourceClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkDragSourceClassT]) => ptr = ptr'

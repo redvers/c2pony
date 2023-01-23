@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkSliceListModelClass
   var ptr: NullablePointer[GtkSliceListModelClassT]
 
-  new create(ptr': NullablePointer[GtkSliceListModelClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkSliceListModelClassT]) => ptr = ptr'

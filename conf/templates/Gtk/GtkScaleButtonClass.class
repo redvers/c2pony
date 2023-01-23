@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkScaleButtonClass
   var ptr: NullablePointer[GtkScaleButtonClassT]
 
-  new create(ptr': NullablePointer[GtkScaleButtonClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkScaleButtonClassT]) => ptr = ptr'

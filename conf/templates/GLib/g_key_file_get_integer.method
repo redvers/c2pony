@@ -1,2 +1,2 @@
-  fun ref get_integer(group_name': String, key': String, error': Pointer[GError]): I32 =>
+  fun ref get_integer(group_name': String, key': String, error': GError): I32 =>
     GKeyFileP.get_integer(this, group_name', key', error')

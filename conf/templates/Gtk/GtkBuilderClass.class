@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkBuilderClass
   var ptr: NullablePointer[GtkBuilderClassT]
 
-  new create(ptr': NullablePointer[GtkBuilderClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkBuilderClassT]) => ptr = ptr'

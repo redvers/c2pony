@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkNumericSorterClass
   var ptr: NullablePointer[GtkNumericSorterClassT]
 
-  new create(ptr': NullablePointer[GtkNumericSorterClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkNumericSorterClassT]) => ptr = ptr'

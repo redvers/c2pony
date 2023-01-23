@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GFileMonitorPrivate
   var ptr: NullablePointer[GFileMonitorPrivateT]
 
-  new create(ptr': NullablePointer[GFileMonitorPrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GFileMonitorPrivateT]) => ptr = ptr'

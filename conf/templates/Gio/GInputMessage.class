@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GInputMessage
   var ptr: NullablePointer[GInputMessageT]
 
-  new create(ptr': NullablePointer[GInputMessageT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GInputMessageT]) => ptr = ptr'

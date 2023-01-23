@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GTlsBackendInterface
   var ptr: NullablePointer[GTlsBackendInterfaceT]
 
-  new create(ptr': NullablePointer[GTlsBackendInterfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GTlsBackendInterfaceT]) => ptr = ptr'

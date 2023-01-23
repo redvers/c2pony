@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkBoolFilterClass
   var ptr: NullablePointer[GtkBoolFilterClassT]
 
-  new create(ptr': NullablePointer[GtkBoolFilterClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkBoolFilterClassT]) => ptr = ptr'

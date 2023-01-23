@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkWindowControlsClass
   var ptr: NullablePointer[GtkWindowControlsClassT]
 
-  new create(ptr': NullablePointer[GtkWindowControlsClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkWindowControlsClassT]) => ptr = ptr'

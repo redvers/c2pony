@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GPollableInputStreamInterface
   var ptr: NullablePointer[GPollableInputStreamInterfaceT]
 
-  new create(ptr': NullablePointer[GPollableInputStreamInterfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GPollableInputStreamInterfaceT]) => ptr = ptr'

@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GUnixMountMonitorClass
   var ptr: NullablePointer[GUnixMountMonitorClassT]
 
-  new create(ptr': NullablePointer[GUnixMountMonitorClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GUnixMountMonitorClassT]) => ptr = ptr'

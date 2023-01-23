@@ -1,2 +1,2 @@
-  fun expand_references(match_info': GMatchInfo, string_to_expand': String, error': Pointer[GError]): String iso^ =>
-    String.from_cstring(@g_match_info_expand_references(match_info', string_to_expand'.cstring(), error')).clone()
+  fun expand_references(match_info': GMatchInfo, string_to_expand': String, error': GError): String iso^ =>
+    String.from_cstring(@g_match_info_expand_references(match_info', string_to_expand'.cstring(), addressof error'.ptr)).clone()

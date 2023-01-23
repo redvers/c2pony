@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkCellAreaContextClass
   var ptr: NullablePointer[GtkCellAreaContextClassT]
 
-  new create(ptr': NullablePointer[GtkCellAreaContextClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkCellAreaContextClassT]) => ptr = ptr'

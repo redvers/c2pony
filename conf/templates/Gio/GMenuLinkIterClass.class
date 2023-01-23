@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GMenuLinkIterClass
   var ptr: NullablePointer[GMenuLinkIterClassT]
 
-  new create(ptr': NullablePointer[GMenuLinkIterClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GMenuLinkIterClassT]) => ptr = ptr'

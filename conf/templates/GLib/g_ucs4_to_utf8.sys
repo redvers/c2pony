@@ -1,2 +1,2 @@
-  fun ucs4_to_utf8(str': Pointer[U32] tag, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': Pointer[GError]): String iso^ =>
-    String.from_cstring(@g_ucs4_to_utf8(str', len', items_read', items_written', error')).clone()
+  fun ucs4_to_utf8(str': Pointer[U32] tag, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': GError): String iso^ =>
+    String.from_cstring(@g_ucs4_to_utf8(str', len', items_read', items_written', addressof error'.ptr)).clone()

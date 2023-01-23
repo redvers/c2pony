@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkEventControllerMotionClass
   var ptr: NullablePointer[GtkEventControllerMotionClassT]
 
-  new create(ptr': NullablePointer[GtkEventControllerMotionClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkEventControllerMotionClassT]) => ptr = ptr'

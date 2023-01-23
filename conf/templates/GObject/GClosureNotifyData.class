@@ -5,4 +5,4 @@ use "lib:gobject-2.0"
 class GClosureNotifyData
   var ptr: NullablePointer[GClosureNotifyDataT]
 
-  new create(ptr': NullablePointer[GClosureNotifyDataT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GClosureNotifyDataT]) => ptr = ptr'

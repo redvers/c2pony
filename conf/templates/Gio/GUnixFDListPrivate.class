@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GUnixFDListPrivate
   var ptr: NullablePointer[GUnixFDListPrivateT]
 
-  new create(ptr': NullablePointer[GUnixFDListPrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GUnixFDListPrivateT]) => ptr = ptr'

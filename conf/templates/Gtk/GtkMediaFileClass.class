@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkMediaFileClass
   var ptr: NullablePointer[GtkMediaFileClassT]
 
-  new create(ptr': NullablePointer[GtkMediaFileClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkMediaFileClassT]) => ptr = ptr'

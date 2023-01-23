@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GFileAttributeInfoList
   var ptr: NullablePointer[GFileAttributeInfoListT]
 
-  new create(ptr': NullablePointer[GFileAttributeInfoListT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GFileAttributeInfoListT]) => ptr = ptr'

@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GMountOperationClass
   var ptr: NullablePointer[GMountOperationClassT]
 
-  new create(ptr': NullablePointer[GMountOperationClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GMountOperationClassT]) => ptr = ptr'

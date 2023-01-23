@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GUnixMountPoint
   var ptr: NullablePointer[GUnixMountPointT]
 
-  new create(ptr': NullablePointer[GUnixMountPointT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GUnixMountPointT]) => ptr = ptr'

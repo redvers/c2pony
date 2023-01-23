@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkBookmarkListClass
   var ptr: NullablePointer[GtkBookmarkListClassT]
 
-  new create(ptr': NullablePointer[GtkBookmarkListClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkBookmarkListClassT]) => ptr = ptr'

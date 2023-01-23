@@ -1,1 +1,1 @@
-use @g_key_file_load_from_dirs[I32](key_file': GKeyFile, file': Pointer[U8] tag, search_dirs': Pointer[Pointer[U8]] tag, full_path': Pointer[Pointer[U8]] tag, flags': U32, error': Pointer[GError])
+use @g_key_file_load_from_dirs[I32](key_file': GKeyFile, file': Pointer[U8] tag, search_dirs': Pointer[Pointer[U8]] tag, full_path': Pointer[Pointer[U8]] tag, flags': U32, error': Pointer[NullablePointer[GErrorT]])

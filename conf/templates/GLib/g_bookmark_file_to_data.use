@@ -1,1 +1,1 @@
-use @g_bookmark_file_to_data[Pointer[U8]](bookmark': GBookmarkFile, length': Pointer[U64] tag, error': Pointer[GError])
+use @g_bookmark_file_to_data[Pointer[U8]](bookmark': GBookmarkFile, length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]])

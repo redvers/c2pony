@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GAsyncInitableIface
   var ptr: NullablePointer[GAsyncInitableIfaceT]
 
-  new create(ptr': NullablePointer[GAsyncInitableIfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GAsyncInitableIfaceT]) => ptr = ptr'

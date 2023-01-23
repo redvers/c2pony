@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GAppLaunchContextClass
   var ptr: NullablePointer[GAppLaunchContextClassT]
 
-  new create(ptr': NullablePointer[GAppLaunchContextClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GAppLaunchContextClassT]) => ptr = ptr'

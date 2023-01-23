@@ -1,1 +1,1 @@
-use @g_propagate_error[None](dest': Pointer[GError], src': NullablePointer[GErrorT])
+use @g_propagate_error[None](dest': Pointer[NullablePointer[GErrorT]], src': NullablePointer[GErrorT])

@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkBoxLayoutClass
   var ptr: NullablePointer[GtkBoxLayoutClassT]
 
-  new create(ptr': NullablePointer[GtkBoxLayoutClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkBoxLayoutClassT]) => ptr = ptr'

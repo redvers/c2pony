@@ -4,4 +4,4 @@ use "lib:glib-2.0"
 class GHmac
   var ptr: NullablePointer[GHmacT]
 
-  new create(ptr': NullablePointer[GHmacT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GHmacT]) => ptr = ptr'

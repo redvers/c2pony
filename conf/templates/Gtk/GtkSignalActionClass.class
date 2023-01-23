@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkSignalActionClass
   var ptr: NullablePointer[GtkSignalActionClassT]
 
-  new create(ptr': NullablePointer[GtkSignalActionClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkSignalActionClassT]) => ptr = ptr'

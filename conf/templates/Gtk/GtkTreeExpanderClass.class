@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkTreeExpanderClass
   var ptr: NullablePointer[GtkTreeExpanderClassT]
 
-  new create(ptr': NullablePointer[GtkTreeExpanderClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkTreeExpanderClassT]) => ptr = ptr'

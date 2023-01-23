@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkGestureSwipeClass
   var ptr: NullablePointer[GtkGestureSwipeClassT]
 
-  new create(ptr': NullablePointer[GtkGestureSwipeClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkGestureSwipeClassT]) => ptr = ptr'

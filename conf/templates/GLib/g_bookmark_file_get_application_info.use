@@ -1,1 +1,1 @@
-use @g_bookmark_file_get_application_info[I32](bookmark': GBookmarkFile, uri': Pointer[U8] tag, name': Pointer[U8] tag, exec': Pointer[Pointer[U8]] tag, count': Pointer[U32] tag, stamp': Pointer[GDateTime], error': Pointer[GError])
+use @g_bookmark_file_get_application_info[I32](bookmark': GBookmarkFile, uri': Pointer[U8] tag, name': Pointer[U8] tag, exec': Pointer[Pointer[U8]] tag, count': Pointer[U32] tag, stamp': Pointer[GDateTime], error': Pointer[NullablePointer[GErrorT]])

@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkCssProviderPrivate
   var ptr: NullablePointer[GtkCssProviderPrivateT]
 
-  new create(ptr': NullablePointer[GtkCssProviderPrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkCssProviderPrivateT]) => ptr = ptr'

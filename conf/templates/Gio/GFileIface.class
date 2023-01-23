@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GFileIface
   var ptr: NullablePointer[GFileIfaceT]
 
-  new create(ptr': NullablePointer[GFileIfaceT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GFileIfaceT]) => ptr = ptr'

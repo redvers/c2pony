@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkDropControllerMotionClass
   var ptr: NullablePointer[GtkDropControllerMotionClassT]
 
-  new create(ptr': NullablePointer[GtkDropControllerMotionClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkDropControllerMotionClassT]) => ptr = ptr'

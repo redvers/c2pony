@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GTlsCertificatePrivate
   var ptr: NullablePointer[GTlsCertificatePrivateT]
 
-  new create(ptr': NullablePointer[GTlsCertificatePrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GTlsCertificatePrivateT]) => ptr = ptr'

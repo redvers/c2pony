@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkFileChooserNativeClass
   var ptr: NullablePointer[GtkFileChooserNativeClassT]
 
-  new create(ptr': NullablePointer[GtkFileChooserNativeClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkFileChooserNativeClassT]) => ptr = ptr'

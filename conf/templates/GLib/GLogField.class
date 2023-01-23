@@ -4,4 +4,4 @@ use "lib:glib-2.0"
 class GLogField
   var ptr: NullablePointer[GLogFieldT]
 
-  new create(ptr': NullablePointer[GLogFieldT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GLogFieldT]) => ptr = ptr'

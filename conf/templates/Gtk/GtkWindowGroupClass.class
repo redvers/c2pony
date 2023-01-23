@@ -7,4 +7,4 @@ use "lib:gtk-4"
 class GtkWindowGroupClass
   var ptr: NullablePointer[GtkWindowGroupClassT]
 
-  new create(ptr': NullablePointer[GtkWindowGroupClassT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GtkWindowGroupClassT]) => ptr = ptr'

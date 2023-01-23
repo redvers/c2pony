@@ -6,4 +6,4 @@ use "lib:gio-2.0"
 class GTlsDatabasePrivate
   var ptr: NullablePointer[GTlsDatabasePrivateT]
 
-  new create(ptr': NullablePointer[GTlsDatabasePrivateT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GTlsDatabasePrivateT]) => ptr = ptr'

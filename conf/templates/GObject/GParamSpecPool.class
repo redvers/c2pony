@@ -5,4 +5,4 @@ use "lib:gobject-2.0"
 class GParamSpecPool
   var ptr: NullablePointer[GParamSpecPoolT]
 
-  new create(ptr': NullablePointer[GParamSpecPoolT]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GParamSpecPoolT]) => ptr = ptr'
