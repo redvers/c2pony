@@ -40,3 +40,9 @@ echo > ../test/GObject/GParamSpecI.pony
 cat ../templates/GObject/GParamSpecI.classinterface >> ../test/GObject/GParamSpecI.pony
 echo > ../test/GObject/GParamSpecP.pony
 cat ../templates/GObject/GParamSpecP.primitive >> ../test/GObject/GParamSpecP.pony
+echo > ../test/GObject/GValue.pony
+cat ../templates/GObject/GValue.class >> ../test/GObject/GValue.pony
+echo > ../test/GObject/GValueT.pony
+cat ../templates/GObject/GValueT.struct >> ../test/GObject/GValueT.pony
+echo > ../test/GObject/GValueP.pony
+cat ../templates/GObject/GValueP.primitive >> ../test/GObject/GValueP.pony

@@ -6,6 +6,9 @@ use "../GLib"
 use "../GObject"
 use "lib:gtk-4.0"
     </ponydep>
+      /* OVERRIDES */
+      <renderfunction name="gtk_window_set_interactive_debugging" ponyname="set_interactive_debugging" render="1" deprecated=""/>
+      /* OVERRIDES */
     <renderfunction name="gtk_accelerator_get_default_mod_mask" ponyname="accelerator_get_default_mod_mask" render="0" deprecated=""/>
     <renderfunction name="gtk_accelerator_get_label" ponyname="accelerator_get_label" render="0" deprecated=""/>
     <renderfunction name="gtk_accelerator_get_label_with_keycode" ponyname="accelerator_get_label_with_keycode" render="0" deprecated=""/>
@@ -3949,7 +3952,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_widget_get_frame_clock" ponyname="get_frame_clock" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_halign" ponyname="get_halign" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_has_tooltip" ponyname="get_has_tooltip" render="0" deprecated=""/>
-      <rendermethod name="gtk_widget_get_height" ponyname="get_height" render="0" deprecated=""/>
+      <rendermethod name="gtk_widget_get_height" ponyname="get_height" render="1" deprecated=""/>
       <rendermethod name="gtk_widget_get_hexpand" ponyname="get_hexpand" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_hexpand_set" ponyname="get_hexpand_set" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_last_child" ponyname="get_last_child" render="0" deprecated=""/>
@@ -3959,13 +3962,13 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_widget_get_margin_end" ponyname="get_margin_end" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_margin_start" ponyname="get_margin_start" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_margin_top" ponyname="get_margin_top" render="0" deprecated=""/>
-      <rendermethod name="gtk_widget_get_name" ponyname="get_name" render="0" deprecated=""/>
+      <rendermethod name="gtk_widget_get_name" ponyname="get_name" render="1" deprecated=""/>
       <rendermethod name="gtk_widget_get_native" ponyname="get_native" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_next_sibling" ponyname="get_next_sibling" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_opacity" ponyname="get_opacity" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_overflow" ponyname="get_overflow" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_pango_context" ponyname="get_pango_context" render="0" deprecated=""/>
-      <rendermethod name="gtk_widget_get_parent" ponyname="get_parent" render="0" deprecated=""/>
+      <rendermethod name="gtk_widget_get_parent" ponyname="get_parent" render="1" deprecated=""/>
       <rendermethod name="gtk_widget_get_preferred_size" ponyname="get_preferred_size" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_prev_sibling" ponyname="get_prev_sibling" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_primary_clipboard" ponyname="get_primary_clipboard" render="0" deprecated=""/>
@@ -3982,12 +3985,12 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_widget_get_style_context" ponyname="get_style_context" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_template_child" ponyname="get_template_child" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_tooltip_markup" ponyname="get_tooltip_markup" render="0" deprecated=""/>
-      <rendermethod name="gtk_widget_get_tooltip_text" ponyname="get_tooltip_text" render="0" deprecated=""/>
+      <rendermethod name="gtk_widget_get_tooltip_text" ponyname="get_tooltip_text" render="1" deprecated=""/>
       <rendermethod name="gtk_widget_get_valign" ponyname="get_valign" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_vexpand" ponyname="get_vexpand" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_vexpand_set" ponyname="get_vexpand_set" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_get_visible" ponyname="get_visible" render="0" deprecated=""/>
-      <rendermethod name="gtk_widget_get_width" ponyname="get_width" render="0" deprecated=""/>
+      <rendermethod name="gtk_widget_get_width" ponyname="get_width" render="1" deprecated=""/>
       <rendermethod name="gtk_widget_grab_focus" ponyname="grab_focus" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_has_css_class" ponyname="has_css_class" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_has_default" ponyname="has_default" render="0" deprecated=""/>
@@ -4054,15 +4057,15 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_widget_set_valign" ponyname="set_valign" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_set_vexpand" ponyname="set_vexpand" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_set_vexpand_set" ponyname="set_vexpand_set" render="0" deprecated=""/>
-      <rendermethod name="gtk_widget_set_visible" ponyname="set_visible" render="0" deprecated=""/>
+      <rendermethod name="gtk_widget_set_visible" ponyname="set_visible" render="1" deprecated=""/>
       <rendermethod name="gtk_widget_should_layout" ponyname="should_layout" render="0" deprecated=""/>
-      <rendermethod name="gtk_widget_show" ponyname="show" render="1" deprecated=""/>
+      <rendermethod name="gtk_widget_show" ponyname="show" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_size_allocate" ponyname="size_allocate" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_snapshot_child" ponyname="snapshot_child" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_translate_coordinates" ponyname="translate_coordinates" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_trigger_tooltip_query" ponyname="trigger_tooltip_query" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_unmap" ponyname="unmap" render="0" deprecated=""/>
-      <rendermethod name="gtk_widget_unparent" ponyname="unparent" render="0" deprecated=""/>
+      <rendermethod name="gtk_widget_unparent" ponyname="unparent" render="1" deprecated=""/>
       <rendermethod name="gtk_widget_unrealize" ponyname="unrealize" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_unset_state_flags" ponyname="unset_state_flags" render="0" deprecated=""/>
       <renderfunction name="gtk_widget_get_default_direction" ponyname="get_default_direction" render="0" deprecated=""/>
@@ -4077,9 +4080,9 @@ use "lib:gtk-4.0"
       <renderconstructor name="gtk_window_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="gtk_window_close" ponyname="close" render="1" deprecated=""/>
       <rendermethod name="gtk_window_destroy" ponyname="destroy" render="1" deprecated=""/>
-      <rendermethod name="gtk_window_fullscreen" ponyname="fullscreen" render="0" deprecated=""/>
+      <rendermethod name="gtk_window_fullscreen" ponyname="fullscreen" render="1" deprecated=""/>
       <rendermethod name="gtk_window_fullscreen_on_monitor" ponyname="fullscreen_on_monitor" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_get_application" ponyname="get_application" render="0" deprecated=""/>
+      <rendermethod name="gtk_window_get_application" ponyname="get_application" render="1" deprecated=""/>
       <rendermethod name="gtk_window_get_child" ponyname="get_child" render="1" deprecated=""/>
       <rendermethod name="gtk_window_get_decorated" ponyname="get_decorated" render="0" deprecated=""/>
       <rendermethod name="gtk_window_get_default_size" ponyname="get_default_size" render="0" deprecated=""/>
@@ -4091,7 +4094,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_window_get_group" ponyname="get_group" render="0" deprecated=""/>
       <rendermethod name="gtk_window_get_handle_menubar_accel" ponyname="get_handle_menubar_accel" render="0" deprecated=""/>
       <rendermethod name="gtk_window_get_hide_on_close" ponyname="get_hide_on_close" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_get_icon_name" ponyname="get_icon_name" render="0" deprecated=""/>
+      <rendermethod name="gtk_window_get_icon_name" ponyname="get_icon_name" render="1" deprecated=""/>
       <rendermethod name="gtk_window_get_mnemonics_visible" ponyname="get_mnemonics_visible" render="0" deprecated=""/>
       <rendermethod name="gtk_window_get_modal" ponyname="get_modal" render="0" deprecated=""/>
       <rendermethod name="gtk_window_get_resizable" ponyname="get_resizable" render="0" deprecated=""/>
@@ -4100,14 +4103,14 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_window_get_transient_for" ponyname="get_transient_for" render="0" deprecated=""/>
       <rendermethod name="gtk_window_has_group" ponyname="has_group" render="0" deprecated=""/>
       <rendermethod name="gtk_window_is_active" ponyname="is_active" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_is_fullscreen" ponyname="is_fullscreen" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_is_maximized" ponyname="is_maximized" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_maximize" ponyname="maximize" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_minimize" ponyname="minimize" render="0" deprecated=""/>
+      <rendermethod name="gtk_window_is_fullscreen" ponyname="is_fullscreen" render="1" deprecated=""/>
+      <rendermethod name="gtk_window_is_maximized" ponyname="is_maximized" render="1" deprecated=""/>
+      <rendermethod name="gtk_window_maximize" ponyname="maximize" render="1" deprecated=""/>
+      <rendermethod name="gtk_window_minimize" ponyname="minimize" render="1" deprecated=""/>
       <rendermethod name="gtk_window_present" ponyname="present" render="0" deprecated=""/>
       <rendermethod name="gtk_window_present_with_time" ponyname="present_with_time" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_set_application" ponyname="set_application" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_set_child" ponyname="set_child" render="0" deprecated=""/>
+      <rendermethod name="gtk_window_set_application" ponyname="set_application" render="1" deprecated=""/>
+      <rendermethod name="gtk_window_set_child" ponyname="set_child" render="1" deprecated=""/>
       <rendermethod name="gtk_window_set_decorated" ponyname="set_decorated" render="0" deprecated=""/>
       <rendermethod name="gtk_window_set_default_size" ponyname="set_default_size" render="0" deprecated=""/>
       <rendermethod name="gtk_window_set_default_widget" ponyname="set_default_widget" render="0" deprecated=""/>
@@ -4118,7 +4121,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_window_set_focus_visible" ponyname="set_focus_visible" render="0" deprecated=""/>
       <rendermethod name="gtk_window_set_handle_menubar_accel" ponyname="set_handle_menubar_accel" render="0" deprecated=""/>
       <rendermethod name="gtk_window_set_hide_on_close" ponyname="set_hide_on_close" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_set_icon_name" ponyname="set_icon_name" render="0" deprecated=""/>
+      <rendermethod name="gtk_window_set_icon_name" ponyname="set_icon_name" render="1" deprecated=""/>
       <rendermethod name="gtk_window_set_mnemonics_visible" ponyname="set_mnemonics_visible" render="0" deprecated=""/>
       <rendermethod name="gtk_window_set_modal" ponyname="set_modal" render="0" deprecated=""/>
       <rendermethod name="gtk_window_set_resizable" ponyname="set_resizable" render="0" deprecated=""/>
@@ -4126,15 +4129,14 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_window_set_title" ponyname="set_title" render="1" deprecated=""/>
       <rendermethod name="gtk_window_set_titlebar" ponyname="set_titlebar" render="0" deprecated=""/>
       <rendermethod name="gtk_window_set_transient_for" ponyname="set_transient_for" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_unfullscreen" ponyname="unfullscreen" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_unmaximize" ponyname="unmaximize" render="0" deprecated=""/>
-      <rendermethod name="gtk_window_unminimize" ponyname="unminimize" render="0" deprecated=""/>
+      <rendermethod name="gtk_window_unfullscreen" ponyname="unfullscreen" render="1" deprecated=""/>
+      <rendermethod name="gtk_window_unmaximize" ponyname="unmaximize" render="1" deprecated=""/>
+      <rendermethod name="gtk_window_unminimize" ponyname="unminimize" render="1" deprecated=""/>
       <renderfunction name="gtk_window_get_default_icon_name" ponyname="get_default_icon_name" render="0" deprecated=""/>
       <renderfunction name="gtk_window_get_toplevels" ponyname="get_toplevels" render="0" deprecated=""/>
       <renderfunction name="gtk_window_list_toplevels" ponyname="list_toplevels" render="0" deprecated=""/>
       <renderfunction name="gtk_window_set_auto_startup_notification" ponyname="set_auto_startup_notification" render="0" deprecated=""/>
       <renderfunction name="gtk_window_set_default_icon_name" ponyname="set_default_icon_name" render="0" deprecated=""/>
-      <renderfunction name="gtk_window_set_interactive_debugging" ponyname="set_interactive_debugging" render="0" deprecated=""/>
     </renderclass>
     <renderclass name="GtkWindowControls" render="1" parent="Widget" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_window_controls_new" ponyname="new" render="0" deprecated=""/>

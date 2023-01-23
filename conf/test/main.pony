@@ -41,7 +41,7 @@ class MyApp
 
     let appwindow: GtkApplicationWindow = GtkApplicationWindow.create_from_ptr(builder.get_object("window"))
     app.add_window(appwindow)
-    appwindow.show()
+    appwindow.set_visible(1)
     test()
 
   fun test() => env.out.print("Hello World")

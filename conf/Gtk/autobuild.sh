@@ -1,8 +1,10 @@
 mkdir -p ../test/Gtk
 
 echo > ../test/Gtk/GtkG.pony
+cat ../templates/Gtk/gtk_window_set_interactive_debugging.use >> ../test/Gtk/GtkG.pony
 cat ../templates/Gtk/gtk_init.use >> ../test/Gtk/GtkG.pony
 cat ../templates/Gtk/Gtk.primitive >> ../test/Gtk/GtkG.pony
+cat ../templates/Gtk/gtk_window_set_interactive_debugging.sys >> ../test/Gtk/GtkG.pony
 cat ../templates/Gtk/gtk_init.sys >> ../test/Gtk/GtkG.pony
 echo > ../test/Gtk/GtkATContext.pony
 cat ../templates/Gtk/GtkATContext.class >> ../test/Gtk/GtkATContext.pony
@@ -1442,11 +1444,29 @@ echo > ../test/Gtk/GtkWidget.pony
 cat ../templates/Gtk/GtkWidget.class >> ../test/Gtk/GtkWidget.pony
 echo > ../test/Gtk/GtkWidgetI.pony
 cat ../templates/Gtk/GtkWidgetI.classinterface >> ../test/Gtk/GtkWidgetI.pony
-cat ../templates/Gtk/gtk_widget_show.method >> ../test/Gtk/GtkWidgetI.pony
+cat ../templates/Gtk/gtk_widget_get_height.method >> ../test/Gtk/GtkWidgetI.pony
+cat ../templates/Gtk/gtk_widget_get_name.method >> ../test/Gtk/GtkWidgetI.pony
+cat ../templates/Gtk/gtk_widget_get_parent.method >> ../test/Gtk/GtkWidgetI.pony
+cat ../templates/Gtk/gtk_widget_get_tooltip_text.method >> ../test/Gtk/GtkWidgetI.pony
+cat ../templates/Gtk/gtk_widget_get_width.method >> ../test/Gtk/GtkWidgetI.pony
+cat ../templates/Gtk/gtk_widget_set_visible.method >> ../test/Gtk/GtkWidgetI.pony
+cat ../templates/Gtk/gtk_widget_unparent.method >> ../test/Gtk/GtkWidgetI.pony
 echo > ../test/Gtk/GtkWidgetP.pony
-cat ../templates/Gtk/gtk_widget_show.use >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_height.use >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_name.use >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_parent.use >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_tooltip_text.use >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_width.use >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_set_visible.use >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_unparent.use >> ../test/Gtk/GtkWidgetP.pony
 cat ../templates/Gtk/GtkWidgetP.primitive >> ../test/Gtk/GtkWidgetP.pony
-cat ../templates/Gtk/gtk_widget_show.sys >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_height.sys >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_name.sys >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_parent.sys >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_tooltip_text.sys >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_get_width.sys >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_set_visible.sys >> ../test/Gtk/GtkWidgetP.pony
+cat ../templates/Gtk/gtk_widget_unparent.sys >> ../test/Gtk/GtkWidgetP.pony
 echo > ../test/Gtk/GtkWidgetPaintable.pony
 cat ../templates/Gtk/GtkWidgetPaintable.class >> ../test/Gtk/GtkWidgetPaintable.pony
 echo > ../test/Gtk/GtkWidgetPaintableI.pony
@@ -1459,21 +1479,60 @@ echo > ../test/Gtk/GtkWindowI.pony
 cat ../templates/Gtk/GtkWindowI.classinterface >> ../test/Gtk/GtkWindowI.pony
 cat ../templates/Gtk/gtk_window_close.method >> ../test/Gtk/GtkWindowI.pony
 cat ../templates/Gtk/gtk_window_destroy.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_fullscreen.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_get_application.method >> ../test/Gtk/GtkWindowI.pony
 cat ../templates/Gtk/gtk_window_get_child.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_get_icon_name.method >> ../test/Gtk/GtkWindowI.pony
 cat ../templates/Gtk/gtk_window_get_title.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_is_fullscreen.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_is_maximized.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_maximize.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_minimize.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_set_application.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_set_child.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_set_icon_name.method >> ../test/Gtk/GtkWindowI.pony
 cat ../templates/Gtk/gtk_window_set_title.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_unfullscreen.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_unmaximize.method >> ../test/Gtk/GtkWindowI.pony
+cat ../templates/Gtk/gtk_window_unminimize.method >> ../test/Gtk/GtkWindowI.pony
 echo > ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_close.use >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_destroy.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_fullscreen.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_get_application.use >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_get_child.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_get_icon_name.use >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_get_title.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_is_fullscreen.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_is_maximized.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_maximize.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_minimize.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_set_application.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_set_child.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_set_icon_name.use >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_set_title.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_unfullscreen.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_unmaximize.use >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_unminimize.use >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/GtkWindowP.primitive >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_close.sys >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_destroy.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_fullscreen.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_get_application.sys >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_get_child.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_get_icon_name.sys >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_get_title.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_is_fullscreen.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_is_maximized.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_maximize.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_minimize.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_set_application.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_set_child.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_set_icon_name.sys >> ../test/Gtk/GtkWindowP.pony
 cat ../templates/Gtk/gtk_window_set_title.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_unfullscreen.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_unmaximize.sys >> ../test/Gtk/GtkWindowP.pony
+cat ../templates/Gtk/gtk_window_unminimize.sys >> ../test/Gtk/GtkWindowP.pony
 echo > ../test/Gtk/GtkWindowControls.pony
 cat ../templates/Gtk/GtkWindowControls.class >> ../test/Gtk/GtkWindowControls.pony
 echo > ../test/Gtk/GtkWindowControlsI.pony
