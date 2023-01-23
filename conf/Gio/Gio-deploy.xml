@@ -96,7 +96,7 @@
     <renderfunction name="g_unix_mount_points_get" ponyname="unix_mount_points_get" render="" deprecated=""/>
     <renderfunction name="g_unix_mounts_changed_since" ponyname="unix_mounts_changed_since" render="" deprecated=""/>
     <renderfunction name="g_unix_mounts_get" ponyname="unix_mounts_get" render="" deprecated=""/>
-    <renderstruct name="GActionEntry" render="">
+    <renderstruct name="GActionEntry" render="1">
 </renderstruct>
     <renderstruct name="GActionGroupInterface" render="">
 </renderstruct>
@@ -2061,9 +2061,9 @@
       <rendermethod name="g_action_group_list_actions" ponyname="list_actions" render="" deprecated=""/>
       <rendermethod name="g_action_group_query_action" ponyname="query_action" render="" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GActionMap" render="">
-      <rendermethod name="g_action_map_add_action" ponyname="add_action" render="" deprecated=""/>
-      <rendermethod name="g_action_map_add_action_entries" ponyname="add_action_entries" render="" deprecated=""/>
+    <renderinterface name="GActionMap" render="1">
+      <rendermethod name="g_action_map_add_action" ponyname="add_action" render="1" deprecated=""/>
+      <rendermethod name="g_action_map_add_action_entries" ponyname="add_action_entries" render="1" deprecated=""/>
       <rendermethod name="g_action_map_lookup_action" ponyname="lookup_action" render="" deprecated=""/>
       <rendermethod name="g_action_map_remove_action" ponyname="remove_action" render="" deprecated=""/>
     </renderinterface>
