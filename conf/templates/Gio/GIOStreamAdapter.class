@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GIOStreamAdapter
   var ptr: NullablePointer[GIOStreamAdapterT]
 
+  new create() =>
+    ptr = NullablePointer[GIOStreamAdapterT].none()
   new create_from_ptr(ptr': NullablePointer[GIOStreamAdapterT]) => ptr = ptr'

@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GEmblemedIconPrivate
   var ptr: NullablePointer[GEmblemedIconPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GEmblemedIconPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GEmblemedIconPrivateT]) => ptr = ptr'

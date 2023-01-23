@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkFlowBoxChildClass
   var ptr: NullablePointer[GtkFlowBoxChildClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkFlowBoxChildClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkFlowBoxChildClassT]) => ptr = ptr'

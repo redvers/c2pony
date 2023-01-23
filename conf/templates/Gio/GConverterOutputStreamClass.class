@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GConverterOutputStreamClass
   var ptr: NullablePointer[GConverterOutputStreamClassT]
 
+  new create() =>
+    ptr = NullablePointer[GConverterOutputStreamClassT].none()
   new create_from_ptr(ptr': NullablePointer[GConverterOutputStreamClassT]) => ptr = ptr'

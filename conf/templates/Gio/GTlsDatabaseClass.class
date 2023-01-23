@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GTlsDatabaseClass
   var ptr: NullablePointer[GTlsDatabaseClassT]
 
+  new create() =>
+    ptr = NullablePointer[GTlsDatabaseClassT].none()
   new create_from_ptr(ptr': NullablePointer[GTlsDatabaseClassT]) => ptr = ptr'

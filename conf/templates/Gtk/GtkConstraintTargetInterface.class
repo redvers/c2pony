@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkConstraintTargetInterface
   var ptr: NullablePointer[GtkConstraintTargetInterfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GtkConstraintTargetInterfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GtkConstraintTargetInterfaceT]) => ptr = ptr'

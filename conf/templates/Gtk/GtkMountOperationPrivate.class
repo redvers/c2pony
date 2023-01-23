@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkMountOperationPrivate
   var ptr: NullablePointer[GtkMountOperationPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GtkMountOperationPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GtkMountOperationPrivateT]) => ptr = ptr'

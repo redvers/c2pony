@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkCssStyleChange
   var ptr: NullablePointer[GtkCssStyleChangeT]
 
+  new create() =>
+    ptr = NullablePointer[GtkCssStyleChangeT].none()
   new create_from_ptr(ptr': NullablePointer[GtkCssStyleChangeT]) => ptr = ptr'

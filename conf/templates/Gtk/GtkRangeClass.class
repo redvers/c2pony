@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkRangeClass
   var ptr: NullablePointer[GtkRangeClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkRangeClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkRangeClassT]) => ptr = ptr'

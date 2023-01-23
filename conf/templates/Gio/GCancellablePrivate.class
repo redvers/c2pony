@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GCancellablePrivate
   var ptr: NullablePointer[GCancellablePrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GCancellablePrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GCancellablePrivateT]) => ptr = ptr'

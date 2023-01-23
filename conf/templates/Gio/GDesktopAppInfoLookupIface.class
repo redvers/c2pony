@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDesktopAppInfoLookupIface
   var ptr: NullablePointer[GDesktopAppInfoLookupIfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GDesktopAppInfoLookupIfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GDesktopAppInfoLookupIfaceT]) => ptr = ptr'

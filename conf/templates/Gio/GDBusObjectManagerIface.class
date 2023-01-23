@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDBusObjectManagerIface
   var ptr: NullablePointer[GDBusObjectManagerIfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GDBusObjectManagerIfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GDBusObjectManagerIfaceT]) => ptr = ptr'

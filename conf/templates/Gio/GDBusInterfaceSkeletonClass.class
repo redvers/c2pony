@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDBusInterfaceSkeletonClass
   var ptr: NullablePointer[GDBusInterfaceSkeletonClassT]
 
+  new create() =>
+    ptr = NullablePointer[GDBusInterfaceSkeletonClassT].none()
   new create_from_ptr(ptr': NullablePointer[GDBusInterfaceSkeletonClassT]) => ptr = ptr'

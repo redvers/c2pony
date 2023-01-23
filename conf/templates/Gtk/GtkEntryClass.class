@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkEntryClass
   var ptr: NullablePointer[GtkEntryClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkEntryClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkEntryClassT]) => ptr = ptr'

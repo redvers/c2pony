@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkGridClass
   var ptr: NullablePointer[GtkGridClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkGridClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkGridClassT]) => ptr = ptr'

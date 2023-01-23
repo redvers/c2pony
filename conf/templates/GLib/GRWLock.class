@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GRWLock
   var ptr: NullablePointer[GRWLockT]
 
+  new create() =>
+    ptr = NullablePointer[GRWLockT].none()
   new create_from_ptr(ptr': NullablePointer[GRWLockT]) => ptr = ptr'

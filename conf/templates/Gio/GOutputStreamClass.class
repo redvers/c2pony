@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GOutputStreamClass
   var ptr: NullablePointer[GOutputStreamClassT]
 
+  new create() =>
+    ptr = NullablePointer[GOutputStreamClassT].none()
   new create_from_ptr(ptr': NullablePointer[GOutputStreamClassT]) => ptr = ptr'

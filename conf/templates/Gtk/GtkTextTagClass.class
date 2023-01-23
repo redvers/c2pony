@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTextTagClass
   var ptr: NullablePointer[GtkTextTagClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkTextTagClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkTextTagClassT]) => ptr = ptr'

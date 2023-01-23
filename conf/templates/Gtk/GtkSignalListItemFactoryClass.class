@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkSignalListItemFactoryClass
   var ptr: NullablePointer[GtkSignalListItemFactoryClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkSignalListItemFactoryClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkSignalListItemFactoryClassT]) => ptr = ptr'

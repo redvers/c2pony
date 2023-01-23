@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTreeListRowClass
   var ptr: NullablePointer[GtkTreeListRowClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkTreeListRowClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkTreeListRowClassT]) => ptr = ptr'

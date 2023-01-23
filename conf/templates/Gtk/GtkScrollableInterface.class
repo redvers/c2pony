@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkScrollableInterface
   var ptr: NullablePointer[GtkScrollableInterfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GtkScrollableInterfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GtkScrollableInterfaceT]) => ptr = ptr'

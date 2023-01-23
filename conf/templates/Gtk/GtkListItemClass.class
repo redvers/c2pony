@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkListItemClass
   var ptr: NullablePointer[GtkListItemClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkListItemClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkListItemClassT]) => ptr = ptr'

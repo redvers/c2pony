@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GUnixFDListClass
   var ptr: NullablePointer[GUnixFDListClassT]
 
+  new create() =>
+    ptr = NullablePointer[GUnixFDListClassT].none()
   new create_from_ptr(ptr': NullablePointer[GUnixFDListClassT]) => ptr = ptr'

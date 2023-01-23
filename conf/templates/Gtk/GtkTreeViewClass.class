@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTreeViewClass
   var ptr: NullablePointer[GtkTreeViewClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkTreeViewClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkTreeViewClassT]) => ptr = ptr'

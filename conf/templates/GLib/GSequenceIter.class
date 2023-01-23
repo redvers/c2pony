@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GSequenceIter
   var ptr: NullablePointer[GSequenceIterT]
 
+  new create() =>
+    ptr = NullablePointer[GSequenceIterT].none()
   new create_from_ptr(ptr': NullablePointer[GSequenceIterT]) => ptr = ptr'

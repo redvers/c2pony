@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GTaskClass
   var ptr: NullablePointer[GTaskClassT]
 
+  new create() =>
+    ptr = NullablePointer[GTaskClassT].none()
   new create_from_ptr(ptr': NullablePointer[GTaskClassT]) => ptr = ptr'

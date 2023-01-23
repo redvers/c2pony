@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkCellLayoutIface
   var ptr: NullablePointer[GtkCellLayoutIfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GtkCellLayoutIfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GtkCellLayoutIfaceT]) => ptr = ptr'

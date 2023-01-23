@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDataInputStreamClass
   var ptr: NullablePointer[GDataInputStreamClassT]
 
+  new create() =>
+    ptr = NullablePointer[GDataInputStreamClassT].none()
   new create_from_ptr(ptr': NullablePointer[GDataInputStreamClassT]) => ptr = ptr'

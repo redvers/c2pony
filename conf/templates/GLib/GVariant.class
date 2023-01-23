@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GVariant
   var ptr: NullablePointer[GVariantT]
 
+  new create() =>
+    ptr = NullablePointer[GVariantT].none()
   new create_from_ptr(ptr': NullablePointer[GVariantT]) => ptr = ptr'

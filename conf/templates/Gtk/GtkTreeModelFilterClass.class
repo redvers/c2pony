@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTreeModelFilterClass
   var ptr: NullablePointer[GtkTreeModelFilterClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkTreeModelFilterClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkTreeModelFilterClassT]) => ptr = ptr'

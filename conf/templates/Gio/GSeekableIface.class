@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSeekableIface
   var ptr: NullablePointer[GSeekableIfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GSeekableIfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GSeekableIfaceT]) => ptr = ptr'

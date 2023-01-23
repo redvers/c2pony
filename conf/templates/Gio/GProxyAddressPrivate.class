@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GProxyAddressPrivate
   var ptr: NullablePointer[GProxyAddressPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GProxyAddressPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GProxyAddressPrivateT]) => ptr = ptr'

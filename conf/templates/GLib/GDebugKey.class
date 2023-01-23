@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GDebugKey
   var ptr: NullablePointer[GDebugKeyT]
 
+  new create() =>
+    ptr = NullablePointer[GDebugKeyT].none()
   new create_from_ptr(ptr': NullablePointer[GDebugKeyT]) => ptr = ptr'

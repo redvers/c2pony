@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTextBufferClass
   var ptr: NullablePointer[GtkTextBufferClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkTextBufferClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkTextBufferClassT]) => ptr = ptr'

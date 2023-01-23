@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkShortcutLabelClass
   var ptr: NullablePointer[GtkShortcutLabelClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkShortcutLabelClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkShortcutLabelClassT]) => ptr = ptr'

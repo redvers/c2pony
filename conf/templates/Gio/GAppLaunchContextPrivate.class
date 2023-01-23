@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GAppLaunchContextPrivate
   var ptr: NullablePointer[GAppLaunchContextPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GAppLaunchContextPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GAppLaunchContextPrivateT]) => ptr = ptr'

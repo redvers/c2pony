@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GMemoryInputStreamPrivate
   var ptr: NullablePointer[GMemoryInputStreamPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GMemoryInputStreamPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GMemoryInputStreamPrivateT]) => ptr = ptr'

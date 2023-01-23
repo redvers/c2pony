@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDBusPropertyInfo
   var ptr: NullablePointer[GDBusPropertyInfoT]
 
+  new create() =>
+    ptr = NullablePointer[GDBusPropertyInfoT].none()
   new create_from_ptr(ptr': NullablePointer[GDBusPropertyInfoT]) => ptr = ptr'

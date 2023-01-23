@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GFileEnumeratorPrivate
   var ptr: NullablePointer[GFileEnumeratorPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GFileEnumeratorPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GFileEnumeratorPrivateT]) => ptr = ptr'

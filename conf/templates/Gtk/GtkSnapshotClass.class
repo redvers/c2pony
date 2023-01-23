@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkSnapshotClass
   var ptr: NullablePointer[GtkSnapshotClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkSnapshotClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkSnapshotClassT]) => ptr = ptr'

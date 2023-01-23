@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkGesturePanClass
   var ptr: NullablePointer[GtkGesturePanClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkGesturePanClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkGesturePanClassT]) => ptr = ptr'

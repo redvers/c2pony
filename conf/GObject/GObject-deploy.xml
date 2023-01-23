@@ -393,6 +393,7 @@
 </renderclass>
     <renderclass name="GObject" render="1" parent="" abstract="" final="" fundamental="">
       <rendermethod name="g_signal_connect_object" ponyname="signal_connect_object" render="1" deprecated=""/>
+      <rendermethod name="g_signal_connect" ponyname="signal_connect" render="1" deprecated=""/>
       <renderconstructor name="g_object_new" ponyname="gnew" render="0" deprecated=""/>
       <renderconstructor name="g_object_new_valist" ponyname="new_valist" render="0" deprecated=""/>
       <renderconstructor name="g_object_new_with_properties" ponyname="new_with_properties" render="0" deprecated=""/>
@@ -425,7 +426,7 @@
       <rendermethod name="g_object_replace_qdata" ponyname="replace_qdata" render="0" deprecated=""/>
       <rendermethod name="g_object_run_dispose" ponyname="run_dispose" render="0" deprecated=""/>
       <rendermethod name="g_object_set" ponyname="set" render="0" deprecated=""/>
-      <rendermethod name="g_object_set_data" ponyname="set_data" render="0" deprecated=""/>
+      <rendermethod name="g_object_set_data" ponyname="set_data" render="1" deprecated=""/>
       <rendermethod name="g_object_set_data_full" ponyname="set_data_full" render="0" deprecated=""/>
       <rendermethod name="g_object_set_property" ponyname="set_property" render="0" deprecated=""/>
       <rendermethod name="g_object_set_qdata" ponyname="set_qdata" render="0" deprecated=""/>

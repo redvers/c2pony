@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDBusProxyPrivate
   var ptr: NullablePointer[GDBusProxyPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GDBusProxyPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GDBusProxyPrivateT]) => ptr = ptr'

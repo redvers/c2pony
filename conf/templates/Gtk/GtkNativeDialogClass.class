@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkNativeDialogClass
   var ptr: NullablePointer[GtkNativeDialogClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkNativeDialogClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkNativeDialogClassT]) => ptr = ptr'

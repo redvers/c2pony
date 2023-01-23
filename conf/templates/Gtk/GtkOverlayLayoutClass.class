@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkOverlayLayoutClass
   var ptr: NullablePointer[GtkOverlayLayoutClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkOverlayLayoutClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkOverlayLayoutClassT]) => ptr = ptr'

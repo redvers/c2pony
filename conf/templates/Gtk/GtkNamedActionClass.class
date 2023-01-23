@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkNamedActionClass
   var ptr: NullablePointer[GtkNamedActionClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkNamedActionClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkNamedActionClassT]) => ptr = ptr'

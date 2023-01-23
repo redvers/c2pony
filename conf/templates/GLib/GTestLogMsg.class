@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GTestLogMsg
   var ptr: NullablePointer[GTestLogMsgT]
 
+  new create() =>
+    ptr = NullablePointer[GTestLogMsgT].none()
   new create_from_ptr(ptr': NullablePointer[GTestLogMsgT]) => ptr = ptr'

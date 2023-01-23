@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkDropDownClass
   var ptr: NullablePointer[GtkDropDownClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkDropDownClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkDropDownClassT]) => ptr = ptr'

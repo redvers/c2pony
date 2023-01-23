@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GInputVector
   var ptr: NullablePointer[GInputVectorT]
 
+  new create() =>
+    ptr = NullablePointer[GInputVectorT].none()
   new create_from_ptr(ptr': NullablePointer[GInputVectorT]) => ptr = ptr'

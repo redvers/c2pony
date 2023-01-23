@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkShortcutClass
   var ptr: NullablePointer[GtkShortcutClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkShortcutClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkShortcutClassT]) => ptr = ptr'

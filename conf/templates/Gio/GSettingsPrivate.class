@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSettingsPrivate
   var ptr: NullablePointer[GSettingsPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GSettingsPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GSettingsPrivateT]) => ptr = ptr'

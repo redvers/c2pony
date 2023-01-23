@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GUnixSocketAddressClass
   var ptr: NullablePointer[GUnixSocketAddressClassT]
 
+  new create() =>
+    ptr = NullablePointer[GUnixSocketAddressClassT].none()
   new create_from_ptr(ptr': NullablePointer[GUnixSocketAddressClassT]) => ptr = ptr'

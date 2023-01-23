@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GRand
   var ptr: NullablePointer[GRandT]
 
+  new create() =>
+    ptr = NullablePointer[GRandT].none()
   new create_from_ptr(ptr': NullablePointer[GRandT]) => ptr = ptr'

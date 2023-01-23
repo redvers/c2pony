@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GMarkupParseContext
   var ptr: NullablePointer[GMarkupParseContextT]
 
+  new create() =>
+    ptr = NullablePointer[GMarkupParseContextT].none()
   new create_from_ptr(ptr': NullablePointer[GMarkupParseContextT]) => ptr = ptr'

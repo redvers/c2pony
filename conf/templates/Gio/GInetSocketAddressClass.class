@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GInetSocketAddressClass
   var ptr: NullablePointer[GInetSocketAddressClassT]
 
+  new create() =>
+    ptr = NullablePointer[GInetSocketAddressClassT].none()
   new create_from_ptr(ptr': NullablePointer[GInetSocketAddressClassT]) => ptr = ptr'

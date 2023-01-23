@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkAdjustmentClass
   var ptr: NullablePointer[GtkAdjustmentClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkAdjustmentClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkAdjustmentClassT]) => ptr = ptr'

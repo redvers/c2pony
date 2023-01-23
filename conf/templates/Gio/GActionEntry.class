@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GActionEntry
   var ptr: NullablePointer[GActionEntryT]
 
+  new create() =>
+    ptr = NullablePointer[GActionEntryT].none()
   new create_from_ptr(ptr': NullablePointer[GActionEntryT]) => ptr = ptr'

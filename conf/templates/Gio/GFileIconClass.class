@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GFileIconClass
   var ptr: NullablePointer[GFileIconClassT]
 
+  new create() =>
+    ptr = NullablePointer[GFileIconClassT].none()
   new create_from_ptr(ptr': NullablePointer[GFileIconClassT]) => ptr = ptr'

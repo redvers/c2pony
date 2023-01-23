@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkEventControllerScrollClass
   var ptr: NullablePointer[GtkEventControllerScrollClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkEventControllerScrollClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkEventControllerScrollClassT]) => ptr = ptr'

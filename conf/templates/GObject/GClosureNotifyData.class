@@ -5,4 +5,6 @@ use "lib:gobject-2.0"
 class GClosureNotifyData
   var ptr: NullablePointer[GClosureNotifyDataT]
 
+  new create() =>
+    ptr = NullablePointer[GClosureNotifyDataT].none()
   new create_from_ptr(ptr': NullablePointer[GClosureNotifyDataT]) => ptr = ptr'

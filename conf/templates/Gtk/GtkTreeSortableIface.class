@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTreeSortableIface
   var ptr: NullablePointer[GtkTreeSortableIfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GtkTreeSortableIfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GtkTreeSortableIfaceT]) => ptr = ptr'

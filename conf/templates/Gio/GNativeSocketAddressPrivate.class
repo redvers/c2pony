@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GNativeSocketAddressPrivate
   var ptr: NullablePointer[GNativeSocketAddressPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GNativeSocketAddressPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GNativeSocketAddressPrivateT]) => ptr = ptr'

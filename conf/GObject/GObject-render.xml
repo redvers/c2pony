@@ -61,7 +61,7 @@ use "lib:gobject-2.0"
     <renderfunction name="g_signal_chain_from_overridden_handler" ponyname="signal_chain_from_overridden_handler" render="1" deprecated=""/>
     <renderfunction name="g_signal_connect_closure" ponyname="signal_connect_closure" render="1" deprecated=""/>
     <renderfunction name="g_signal_connect_closure_by_id" ponyname="signal_connect_closure_by_id" render="1" deprecated=""/>
-    <renderfunction name="g_signal_connect_data" ponyname="signal_connect_data" render="1" deprecated=""/>
+    <renderfunction name="g_signal_connect_data" ponyname="signal_connect_data" render="0" deprecated=""/>
     <renderfunction name="g_signal_connect_object" ponyname="signal_connect_object" render="0" deprecated=""/>
 
 
@@ -419,7 +419,7 @@ use @g_object_new[Pointer[GObjectP]](object_type': U64, ...)
 
 
 <useoverride name="g_signal_connect_object" render="1">
-use @g_signal_connect_object[U64](gobj0: Pointer[GObjectP], sig: Pointer[U8] tag, cb: Pointer[None], gobj1: Pointer[GObjectP], flags: U32)
+use @g_signal_connect_object[U64](gobj0: Pointer[GObjectP], sig: Pointer[U8] tag, cb: Pointer[None], gobj1: Pointer[None] tag, flags: U32)
 </useoverride>
 <sysoverride name="g_signal_connect_object" render="1">
   fun connect_object(gobj0: GObjectI, sig: String, cb: Pointer[None], gobj1: GObjectI, flags: U32): U64 =>
@@ -428,6 +428,30 @@ use @g_signal_connect_object[U64](gobj0: Pointer[GObjectP], sig: Pointer[U8] tag
 <methodoverride name="g_signal_connect_object" render="1">
   fun ref connect_object(sig: String, cb: Pointer[None], gobj1: GObjectI, flags: U32): U64 =>
     GObjectP.connect_object(this, sig, cb, gobj1, flags)
+</methodoverride>
+
+<useoverride name="g_signal_connect" render="1">
+  use @g_signal_connect_data[U64](instance: Pointer[GObjectP], detailedsignal: Pointer[U8] tag, chandler: Pointer[None] tag, data: Any tag, destroydata: Pointer[None] tag, connectflags: U32)
+</useoverride>
+<sysoverride name="g_signal_connect" render="1">
+  fun connect[A: Any](gobj0: GObjectI, sig: String, cb: Pointer[None], data: A, flags: U32): U64 =>
+    @g_signal_connect_data(gobj0.getptr(), sig.cstring(), cb, data, Pointer[None], flags)
+</sysoverride>
+<methodoverride name="g_signal_connect" render="1">
+  fun ref connect[A: Any](sig: String, cb: Pointer[None], data: A, flags: U32): U64 =>
+    GObjectP.connect[A](this, sig, cb, consume data, flags)
+</methodoverride>
+
+<useoverride name="g_object_set_data" render="1">
+use @g_object_set_data[None](object': Pointer[GObjectP], key': Pointer[U8] tag, data': Any tag)
+</useoverride>
+<sysoverride name="g_object_set_data" render="1">
+  fun set_data[A: Any](gobj0: GObjectI, sig: String, data: A) =>
+    @g_object_set_data(gobj0.getptr(), sig.cstring(), data)
+</sysoverride>
+<methodoverride name="g_object_set_data" render="1">
+  fun ref set_data[A: Any](sig: String, data: A) =>
+    GObjectP.set_data[A](this, sig, consume data)
 </methodoverride>
 
       <renderconstructor name="g_object_new_valist" ponyname="new_valist" render="0" deprecated=""/>
@@ -445,7 +469,24 @@ use @g_signal_connect_object[U64](gobj0: Pointer[GObjectP], sig: Pointer[U8] tag
       <rendermethod name="g_object_force_floating" ponyname="force_floating" render="1" deprecated=""/>
       <rendermethod name="g_object_freeze_notify" ponyname="freeze_notify" render="1" deprecated=""/>
       <rendermethod name="g_object_get" ponyname="get" render="1" deprecated=""/>
-      <rendermethod name="g_object_get_data" ponyname="get_data" render="1" deprecated=""/>
+      <rendermethod name="g_object_get_data" ponyname="get_data" render="0" deprecated=""/>
+<useoverride name="g_object_get_data" render="1">
+use @g_object_get_data[Pointer[None] tag](object': Pointer[GObjectP], key': Pointer[U8] tag)
+</useoverride>
+<sysoverride name="g_object_get_data" render="1">
+  fun get_data[A: Any](object': GObjectI, key': String): A =>
+    @g_object_get_data[A](object'.getptr(), key'.cstring())
+
+  fun get_data_p[A: Any](object': Pointer[GObjectP], key': String): A =>
+    @g_object_get_data[A](object', key'.cstring())
+</sysoverride>
+<methodoverride name="g_object_get_data" render="1">
+  fun ref get_data[A: Any](key': String): A =>
+    GObjectP.get_data[A](this, key')
+</methodoverride>
+
+
+
       <rendermethod name="g_object_get_property" ponyname="get_property" render="1" deprecated=""/>
       <rendermethod name="g_object_get_qdata" ponyname="get_qdata" render="1" deprecated=""/>
       <rendermethod name="g_object_get_valist" ponyname="get_valist" render="1" deprecated=""/>
@@ -461,7 +502,7 @@ use @g_signal_connect_object[U64](gobj0: Pointer[GObjectP], sig: Pointer[U8] tag
       <rendermethod name="g_object_replace_qdata" ponyname="replace_qdata" render="1" deprecated=""/>
       <rendermethod name="g_object_run_dispose" ponyname="run_dispose" render="1" deprecated=""/>
       <rendermethod name="g_object_set" ponyname="set" render="1" deprecated=""/>
-      <rendermethod name="g_object_set_data" ponyname="set_data" render="1" deprecated=""/>
+      <rendermethod name="g_object_set_data" ponyname="set_data" render="0" deprecated=""/>
       <rendermethod name="g_object_set_data_full" ponyname="set_data_full" render="1" deprecated=""/>
       <rendermethod name="g_object_set_property" ponyname="set_property" render="1" deprecated=""/>
       <rendermethod name="g_object_set_qdata" ponyname="set_qdata" render="1" deprecated=""/>

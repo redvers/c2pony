@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GHashTableIter
   var ptr: NullablePointer[GHashTableIterT]
 
+  new create() =>
+    ptr = NullablePointer[GHashTableIterT].none()
   new create_from_ptr(ptr': NullablePointer[GHashTableIterT]) => ptr = ptr'

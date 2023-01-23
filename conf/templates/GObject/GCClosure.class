@@ -5,4 +5,6 @@ use "lib:gobject-2.0"
 class GCClosure
   var ptr: NullablePointer[GCClosureT]
 
+  new create() =>
+    ptr = NullablePointer[GCClosureT].none()
   new create_from_ptr(ptr': NullablePointer[GCClosureT]) => ptr = ptr'

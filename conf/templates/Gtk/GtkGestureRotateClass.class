@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkGestureRotateClass
   var ptr: NullablePointer[GtkGestureRotateClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkGestureRotateClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkGestureRotateClassT]) => ptr = ptr'

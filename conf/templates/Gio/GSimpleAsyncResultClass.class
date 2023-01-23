@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSimpleAsyncResultClass
   var ptr: NullablePointer[GSimpleAsyncResultClassT]
 
+  new create() =>
+    ptr = NullablePointer[GSimpleAsyncResultClassT].none()
   new create_from_ptr(ptr': NullablePointer[GSimpleAsyncResultClassT]) => ptr = ptr'

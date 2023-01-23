@@ -76,6 +76,12 @@
             <xsl:value-of select="$gettype"/>
             <xsl:text>())</xsl:text>
             <xsl:value-of select="$newline"/>
+            <!--
+            <xsl:value-of select="$newline"/>
+            <xsl:text>  new create_from_builder(builder: GtkBuilder, nodename: String) =></xsl:text>
+            <xsl:value-of select="$newline"/>
+            <xsl:text>    ptr = builder.get_object(nodename)</xsl:text>
+            -->
           </xsl:when>
         </xsl:choose>
         <xsl:value-of select="$newline"/>
@@ -149,6 +155,12 @@
         <xsl:value-of select="$filename"/>
         <xsl:text>T]</xsl:text>
         <xsl:value-of select="$newline"/>
+        <xsl:value-of select="$newline"/>
+        <xsl:text>  new create() =&gt;</xsl:text>
+        <xsl:value-of select="$newline"/>
+        <xsl:text>    ptr = NullablePointer[</xsl:text>
+        <xsl:value-of select="$filename"/>
+        <xsl:text>T].none()</xsl:text>
         <xsl:value-of select="$newline"/>
         <xsl:text>  new create_from_ptr(ptr': NullablePointer[</xsl:text>
         <xsl:value-of select="$filename"/>

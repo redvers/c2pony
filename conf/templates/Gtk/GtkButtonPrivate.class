@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkButtonPrivate
   var ptr: NullablePointer[GtkButtonPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GtkButtonPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GtkButtonPrivateT]) => ptr = ptr'

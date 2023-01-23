@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkDropTargetAsyncClass
   var ptr: NullablePointer[GtkDropTargetAsyncClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkDropTargetAsyncClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkDropTargetAsyncClassT]) => ptr = ptr'

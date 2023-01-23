@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GSimpleActionGroupClass
   var ptr: NullablePointer[GSimpleActionGroupClassT]
 
+  new create() =>
+    ptr = NullablePointer[GSimpleActionGroupClassT].none()
   new create_from_ptr(ptr': NullablePointer[GSimpleActionGroupClassT]) => ptr = ptr'

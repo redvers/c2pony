@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GFilterInputStreamClass
   var ptr: NullablePointer[GFilterInputStreamClassT]
 
+  new create() =>
+    ptr = NullablePointer[GFilterInputStreamClassT].none()
   new create_from_ptr(ptr': NullablePointer[GFilterInputStreamClassT]) => ptr = ptr'

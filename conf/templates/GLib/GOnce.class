@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GOnce
   var ptr: NullablePointer[GOnceT]
 
+  new create() =>
+    ptr = NullablePointer[GOnceT].none()
   new create_from_ptr(ptr': NullablePointer[GOnceT]) => ptr = ptr'

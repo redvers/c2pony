@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GThread
   var ptr: NullablePointer[GThreadT]
 
+  new create() =>
+    ptr = NullablePointer[GThreadT].none()
   new create_from_ptr(ptr': NullablePointer[GThreadT]) => ptr = ptr'

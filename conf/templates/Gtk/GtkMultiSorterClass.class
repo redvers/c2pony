@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkMultiSorterClass
   var ptr: NullablePointer[GtkMultiSorterClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkMultiSorterClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkMultiSorterClassT]) => ptr = ptr'

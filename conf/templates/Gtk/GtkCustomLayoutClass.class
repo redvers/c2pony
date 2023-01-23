@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkCustomLayoutClass
   var ptr: NullablePointer[GtkCustomLayoutClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkCustomLayoutClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkCustomLayoutClassT]) => ptr = ptr'

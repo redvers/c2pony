@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GCond
   var ptr: NullablePointer[GCondT]
 
+  new create() =>
+    ptr = NullablePointer[GCondT].none()
   new create_from_ptr(ptr': NullablePointer[GCondT]) => ptr = ptr'

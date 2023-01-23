@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GOptionGroup
   var ptr: NullablePointer[GOptionGroupT]
 
+  new create() =>
+    ptr = NullablePointer[GOptionGroupT].none()
   new create_from_ptr(ptr': NullablePointer[GOptionGroupT]) => ptr = ptr'

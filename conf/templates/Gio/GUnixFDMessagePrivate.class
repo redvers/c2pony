@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GUnixFDMessagePrivate
   var ptr: NullablePointer[GUnixFDMessagePrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GUnixFDMessagePrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GUnixFDMessagePrivateT]) => ptr = ptr'

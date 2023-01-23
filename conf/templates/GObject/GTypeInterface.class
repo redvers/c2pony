@@ -5,4 +5,6 @@ use "lib:gobject-2.0"
 class GTypeInterface
   var ptr: NullablePointer[GTypeInterfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GTypeInterfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GTypeInterfaceT]) => ptr = ptr'

@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GIOStreamPrivate
   var ptr: NullablePointer[GIOStreamPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GIOStreamPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GIOStreamPrivateT]) => ptr = ptr'

@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GOutputMessage
   var ptr: NullablePointer[GOutputMessageT]
 
+  new create() =>
+    ptr = NullablePointer[GOutputMessageT].none()
   new create_from_ptr(ptr': NullablePointer[GOutputMessageT]) => ptr = ptr'

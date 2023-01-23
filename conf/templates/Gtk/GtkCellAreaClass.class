@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkCellAreaClass
   var ptr: NullablePointer[GtkCellAreaClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkCellAreaClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkCellAreaClassT]) => ptr = ptr'

@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkEventControllerFocusClass
   var ptr: NullablePointer[GtkEventControllerFocusClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkEventControllerFocusClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkEventControllerFocusClassT]) => ptr = ptr'

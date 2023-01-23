@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDesktopAppInfoClass
   var ptr: NullablePointer[GDesktopAppInfoClassT]
 
+  new create() =>
+    ptr = NullablePointer[GDesktopAppInfoClassT].none()
   new create_from_ptr(ptr': NullablePointer[GDesktopAppInfoClassT]) => ptr = ptr'

@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkGestureStylusClass
   var ptr: NullablePointer[GtkGestureStylusClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkGestureStylusClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkGestureStylusClassT]) => ptr = ptr'

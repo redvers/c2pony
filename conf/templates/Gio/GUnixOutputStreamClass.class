@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GUnixOutputStreamClass
   var ptr: NullablePointer[GUnixOutputStreamClassT]
 
+  new create() =>
+    ptr = NullablePointer[GUnixOutputStreamClassT].none()
   new create_from_ptr(ptr': NullablePointer[GUnixOutputStreamClassT]) => ptr = ptr'

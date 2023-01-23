@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkEditableInterface
   var ptr: NullablePointer[GtkEditableInterfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GtkEditableInterfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GtkEditableInterfaceT]) => ptr = ptr'

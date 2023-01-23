@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GDBusObjectManagerClientClass
   var ptr: NullablePointer[GDBusObjectManagerClientClassT]
 
+  new create() =>
+    ptr = NullablePointer[GDBusObjectManagerClientClassT].none()
   new create_from_ptr(ptr': NullablePointer[GDBusObjectManagerClientClassT]) => ptr = ptr'

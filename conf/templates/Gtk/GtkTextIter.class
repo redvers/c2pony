@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkTextIter
   var ptr: NullablePointer[GtkTextIterT]
 
+  new create() =>
+    ptr = NullablePointer[GtkTextIterT].none()
   new create_from_ptr(ptr': NullablePointer[GtkTextIterT]) => ptr = ptr'

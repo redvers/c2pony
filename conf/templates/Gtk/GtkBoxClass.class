@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkBoxClass
   var ptr: NullablePointer[GtkBoxClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkBoxClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkBoxClassT]) => ptr = ptr'

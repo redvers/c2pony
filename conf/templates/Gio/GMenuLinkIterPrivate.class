@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GMenuLinkIterPrivate
   var ptr: NullablePointer[GMenuLinkIterPrivateT]
 
+  new create() =>
+    ptr = NullablePointer[GMenuLinkIterPrivateT].none()
   new create_from_ptr(ptr': NullablePointer[GMenuLinkIterPrivateT]) => ptr = ptr'

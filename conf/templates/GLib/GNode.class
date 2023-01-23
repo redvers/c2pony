@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GNode
   var ptr: NullablePointer[GNodeT]
 
+  new create() =>
+    ptr = NullablePointer[GNodeT].none()
   new create_from_ptr(ptr': NullablePointer[GNodeT]) => ptr = ptr'

@@ -6,4 +6,6 @@ use "lib:gio-2.0"
 class GAsyncResultIface
   var ptr: NullablePointer[GAsyncResultIfaceT]
 
+  new create() =>
+    ptr = NullablePointer[GAsyncResultIfaceT].none()
   new create_from_ptr(ptr': NullablePointer[GAsyncResultIfaceT]) => ptr = ptr'

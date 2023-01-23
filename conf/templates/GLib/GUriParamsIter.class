@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GUriParamsIter
   var ptr: NullablePointer[GUriParamsIterT]
 
+  new create() =>
+    ptr = NullablePointer[GUriParamsIterT].none()
   new create_from_ptr(ptr': NullablePointer[GUriParamsIterT]) => ptr = ptr'

@@ -4,4 +4,6 @@ use "lib:glib-2.0"
 class GTimer
   var ptr: NullablePointer[GTimerT]
 
+  new create() =>
+    ptr = NullablePointer[GTimerT].none()
   new create_from_ptr(ptr': NullablePointer[GTimerT]) => ptr = ptr'

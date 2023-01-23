@@ -7,4 +7,6 @@ use "lib:gtk-4"
 class GtkShortcutControllerClass
   var ptr: NullablePointer[GtkShortcutControllerClassT]
 
+  new create() =>
+    ptr = NullablePointer[GtkShortcutControllerClassT].none()
   new create_from_ptr(ptr': NullablePointer[GtkShortcutControllerClassT]) => ptr = ptr'
