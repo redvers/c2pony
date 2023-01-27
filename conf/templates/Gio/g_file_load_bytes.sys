@@ -1,0 +1,2 @@
+  fun load_bytes(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], etag_out': Pointer[Pointer[U8]] tag, error': GError): NullablePointer[GBytesT] =>
+    @g_file_load_bytes(file', cancellable', etag_out', error'.ptr)

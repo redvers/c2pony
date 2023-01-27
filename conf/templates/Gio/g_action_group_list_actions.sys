@@ -1,0 +1,2 @@
+  fun list_actions(action_group': GActionGroupI): Pointer[Pointer[U8]] tag =>
+    @g_action_group_list_actions(action_group'.getptr())

@@ -18,7 +18,7 @@
       <xsl:value-of select="$newline"/>
     </xsl:result-document>
 
-    <xsl:for-each select="./renderclass[@render=$debug]">
+    <xsl:for-each select="(./renderclass[@render=$debug]|./renderinterface[@render=$debug])">
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, '')"/>
 
@@ -95,16 +95,19 @@
         <xsl:value-of select="$newline"/>
         <xsl:variable name="par" select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@parent"/>
         <xsl:variable name="parent" select="concat($classprefix, $par)"/>
+
         <xsl:choose>
           <xsl:when test="concat($par, 'test') = 'test'">
             <xsl:text>interface </xsl:text>
             <xsl:value-of select="$filename"/>
             <xsl:text>I</xsl:text>
           </xsl:when>
+
           <xsl:otherwise>
             <xsl:text>interface </xsl:text>
             <xsl:value-of select="$filename"/>
-            <xsl:text>I is </xsl:text>
+            <xsl:text>I is (</xsl:text>
+
             <xsl:variable name="parent" select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@parent"/>
             <xsl:choose>
               <xsl:when test="ends-with($parent, 'InitiallyUnowned')">
@@ -124,8 +127,17 @@
               </xsl:otherwise>
             </xsl:choose>
             <xsl:text>I</xsl:text>
+            <xsl:for-each select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/t:implements">
+              <xsl:text> &amp; </xsl:text>
+              <xsl:value-of select="$classprefix"/>
+              <xsl:variable name="interfacen" select="concat(./@name, 'I')"/>
+              <xsl:value-of select="$interfacen"/>
+            </xsl:for-each>
+            <xsl:text>)</xsl:text>
           </xsl:otherwise>
+
         </xsl:choose>
+
         <xsl:value-of select="$newline"/>
         <xsl:text>  fun ref getptr(): NullablePointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>

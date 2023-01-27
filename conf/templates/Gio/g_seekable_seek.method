@@ -1,0 +1,2 @@
+  fun ref seek(offset': I64, type': U32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    GSeekableP.seek(this, offset', type', cancellable', error')

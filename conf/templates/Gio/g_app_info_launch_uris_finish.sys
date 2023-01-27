@@ -1,0 +1,2 @@
+  fun launch_uris_finish(appinfo': NullablePointer[GAppInfoT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_app_info_launch_uris_finish(appinfo', result', error'.ptr)

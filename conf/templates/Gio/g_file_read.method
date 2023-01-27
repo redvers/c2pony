@@ -1,0 +1,2 @@
+  fun ref read(cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileInputStreamT] =>
+    GFileP.read(this, cancellable', error')

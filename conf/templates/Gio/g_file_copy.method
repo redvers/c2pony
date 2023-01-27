@@ -1,0 +1,2 @@
+  fun ref copy(destination': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], progress_callback': GFileProgressCallback, progress_callback_data': Pointer[None] tag, error': GError): I32 =>
+    GFileP.copy(this, destination', flags', cancellable', progress_callback', progress_callback_data', error')

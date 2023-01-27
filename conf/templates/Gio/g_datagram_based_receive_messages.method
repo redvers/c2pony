@@ -1,0 +1,2 @@
+  fun ref receive_messages(messages': NullablePointer[GInputMessageT], num_messages': U32, flags': I32, timeout': I64, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    GDatagramBasedP.receive_messages(this, messages', num_messages', flags', timeout', cancellable', error')

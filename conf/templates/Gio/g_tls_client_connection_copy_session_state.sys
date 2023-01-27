@@ -1,0 +1,2 @@
+  fun copy_session_state(conn': NullablePointer[GTlsClientConnectionT], source': NullablePointer[GTlsClientConnectionT]): None =>
+    @g_tls_client_connection_copy_session_state(conn', source')

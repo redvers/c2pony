@@ -1,0 +1,2 @@
+  fun set_require_close_notify(conn': NullablePointer[GDtlsConnectionT], require_close_notify': I32): None =>
+    @g_dtls_connection_set_require_close_notify(conn', require_close_notify')

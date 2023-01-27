@@ -1,0 +1,2 @@
+  fun ref get_symbolic_icon(): NullablePointer[GIconT] =>
+    GDriveP.get_symbolic_icon(this)

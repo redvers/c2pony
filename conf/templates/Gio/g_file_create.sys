@@ -1,0 +1,2 @@
+  fun create(file': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileOutputStreamT] =>
+    @g_file_create(file', flags', cancellable', error'.ptr)

@@ -1,0 +1,2 @@
+  fun poll_mountable(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_poll_mountable(file', cancellable', callback', user_data')

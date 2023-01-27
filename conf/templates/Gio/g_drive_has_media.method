@@ -1,0 +1,2 @@
+  fun ref has_media(): I32 =>
+    GDriveP.has_media(this)

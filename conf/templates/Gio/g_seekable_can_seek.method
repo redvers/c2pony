@@ -1,0 +1,2 @@
+  fun ref can_seek(): I32 =>
+    GSeekableP.can_seek(this)

@@ -1,0 +1,1 @@
+use @g_app_info_should_show[I32](appinfo': NullablePointer[GAppInfoT])

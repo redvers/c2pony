@@ -1,0 +1,2 @@
+  fun items_changed(list': NullablePointer[GListModelT], position': U32, removed': U32, added': U32): None =>
+    @g_list_model_items_changed(list', position', removed', added')

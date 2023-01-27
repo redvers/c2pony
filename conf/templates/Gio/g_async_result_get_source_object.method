@@ -1,0 +1,2 @@
+  fun ref get_source_object(): NullablePointer[GObjectT] =>
+    GAsyncResultP.get_source_object(this)

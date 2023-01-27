@@ -1,0 +1,2 @@
+  fun ref is_supported(): I32 =>
+    GProxyResolverP.is_supported(this)

@@ -1,0 +1,2 @@
+  fun ref should_show(): I32 =>
+    GAppInfoP.should_show(this)

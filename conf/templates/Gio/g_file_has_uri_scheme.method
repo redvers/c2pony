@@ -1,0 +1,2 @@
+  fun ref has_uri_scheme(uri_scheme': String): I32 =>
+    GFileP.has_uri_scheme(this, uri_scheme')

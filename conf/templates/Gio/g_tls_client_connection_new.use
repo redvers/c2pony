@@ -1,0 +1,1 @@
+use @g_tls_client_connection_new[NullablePointer[GIOStreamT]](base_io_stream': NullablePointer[GIOStreamT], server_identity': NullablePointer[GSocketConnectableT], error': NullablePointer[GErrorT])

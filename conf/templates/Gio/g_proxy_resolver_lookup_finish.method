@@ -1,0 +1,2 @@
+  fun ref lookup_finish(result': NullablePointer[GAsyncResultT], error': GError): Pointer[Pointer[U8]] tag =>
+    GProxyResolverP.lookup_finish(this, result', error')

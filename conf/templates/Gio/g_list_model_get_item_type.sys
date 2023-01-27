@@ -1,0 +1,2 @@
+  fun get_item_type(list': NullablePointer[GListModelT]): U64 =>
+    @g_list_model_get_item_type(list')

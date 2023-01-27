@@ -1,0 +1,2 @@
+  fun remove_action(action_map': GActionMapI, action_name': String): None =>
+    @g_action_map_remove_action(action_map'.getptr(), action_name'.cstring())

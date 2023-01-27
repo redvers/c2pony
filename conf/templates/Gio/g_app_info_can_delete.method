@@ -1,0 +1,2 @@
+  fun ref can_delete(): I32 =>
+    GAppInfoP.can_delete(this)

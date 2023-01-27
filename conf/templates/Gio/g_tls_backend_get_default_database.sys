@@ -1,0 +1,2 @@
+  fun get_default_database(backend': NullablePointer[GTlsBackendT]): NullablePointer[GTlsDatabaseT] =>
+    @g_tls_backend_get_default_database(backend')

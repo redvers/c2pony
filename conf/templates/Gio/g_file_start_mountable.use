@@ -1,0 +1,1 @@
+use @g_file_start_mountable[None](file': NullablePointer[GFileT], flags': U32, start_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,0 +1,1 @@
+use @g_pollable_input_stream_create_source[NullablePointer[GSourceT]](stream': NullablePointer[GPollableInputStreamT], cancellable': NullablePointer[GCancellableT])

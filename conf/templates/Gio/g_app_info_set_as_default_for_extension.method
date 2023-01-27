@@ -1,0 +1,2 @@
+  fun ref set_as_default_for_extension(extension': String, error': GError): I32 =>
+    GAppInfoP.set_as_default_for_extension(this, extension', error')

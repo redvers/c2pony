@@ -1,0 +1,2 @@
+  fun ref is_removable(): I32 =>
+    GDriveP.is_removable(this)

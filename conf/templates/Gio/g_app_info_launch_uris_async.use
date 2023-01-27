@@ -1,0 +1,1 @@
+use @g_app_info_launch_uris_async[None](appinfo': NullablePointer[GAppInfoT], uris': NullablePointer[GListT], context': NullablePointer[GAppLaunchContextT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

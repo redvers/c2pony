@@ -1,0 +1,1 @@
+use @g_proxy_supports_hostname[I32](proxy': NullablePointer[GProxyT])

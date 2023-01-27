@@ -1,0 +1,2 @@
+  fun ref get_identifier(kind': String): String iso^ =>
+    GDriveP.get_identifier(this, kind')

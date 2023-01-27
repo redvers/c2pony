@@ -1,0 +1,2 @@
+  fun ref load_contents_async(cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GFileP.load_contents_async(this, cancellable', callback', user_data')

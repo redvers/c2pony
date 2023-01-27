@@ -1,0 +1,2 @@
+  fun ref launch_uris_async(uris': NullablePointer[GListT], context': NullablePointer[GAppLaunchContextT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GAppInfoP.launch_uris_async(this, uris', context', cancellable', callback', user_data')

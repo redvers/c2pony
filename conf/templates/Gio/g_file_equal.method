@@ -1,0 +1,2 @@
+  fun ref equal(file2': NullablePointer[GFileT]): I32 =>
+    GFileP.equal(this, file2')

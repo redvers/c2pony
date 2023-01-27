@@ -1,0 +1,2 @@
+  fun equal(file1': NullablePointer[GFileT], file2': NullablePointer[GFileT]): I32 =>
+    @g_file_equal(file1', file2')

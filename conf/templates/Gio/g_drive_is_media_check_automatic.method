@@ -1,0 +1,2 @@
+  fun ref is_media_check_automatic(): I32 =>
+    GDriveP.is_media_check_automatic(this)

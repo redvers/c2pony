@@ -1,0 +1,2 @@
+  fun new_for_commandline_arg_and_cwd(arg': String, cwd': String): NullablePointer[GFileT] =>
+    @g_file_new_for_commandline_arg_and_cwd(arg'.cstring(), cwd'.cstring())

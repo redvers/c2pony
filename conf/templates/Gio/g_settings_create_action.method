@@ -1,2 +1,2 @@
-  fun ref create_action(key': String): NullablePointer[GActionT] =>
+  fun ref create_action(key': String): NullablePointer[GObjectT] =>
     GSettingsP.create_action(this, key')

@@ -1,0 +1,13 @@
+
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GAction is GActionI
+  var ptr: NullablePointer[GObjectT]
+
+  new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
+
+
+  fun ref getptr(): NullablePointer[GObjectT] => ptr

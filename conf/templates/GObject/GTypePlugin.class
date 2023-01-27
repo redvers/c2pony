@@ -1,0 +1,12 @@
+
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GTypePlugin is GTypePluginI
+  var ptr: NullablePointer[GObjectT]
+
+  new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
+
+
+  fun ref getptr(): NullablePointer[GObjectT] => ptr

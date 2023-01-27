@@ -1,0 +1,2 @@
+  fun get_name(action': GActionI): String iso^ =>
+    String.from_cstring(@g_action_get_name(action'.getptr())).clone()

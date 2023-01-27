@@ -1,0 +1,2 @@
+  fun ref close_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    GDtlsConnectionP.close_finish(this, result', error')

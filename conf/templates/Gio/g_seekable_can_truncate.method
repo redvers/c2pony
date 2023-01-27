@@ -1,0 +1,2 @@
+  fun ref can_truncate(): I32 =>
+    GSeekableP.can_truncate(this)

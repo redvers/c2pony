@@ -1,0 +1,2 @@
+  fun is_removable(drive': NullablePointer[GDriveT]): I32 =>
+    @g_drive_is_removable(drive')

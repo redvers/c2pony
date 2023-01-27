@@ -1,0 +1,1 @@
+use @g_async_result_get_user_data[Pointer[None] tag](res': NullablePointer[GAsyncResultT])

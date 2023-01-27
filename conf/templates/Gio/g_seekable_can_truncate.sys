@@ -1,0 +1,2 @@
+  fun can_truncate(seekable': NullablePointer[GSeekableT]): I32 =>
+    @g_seekable_can_truncate(seekable')

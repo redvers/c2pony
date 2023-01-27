@@ -1,0 +1,2 @@
+  fun ref supports_files(): I32 =>
+    GAppInfoP.supports_files(this)

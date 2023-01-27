@@ -1,0 +1,2 @@
+  fun ref get_mount(): NullablePointer[GMountT] =>
+    GVolumeP.get_mount(this)

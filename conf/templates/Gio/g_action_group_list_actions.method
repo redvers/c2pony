@@ -1,0 +1,2 @@
+  fun ref list_actions(): Pointer[Pointer[U8]] tag =>
+    GActionGroupP.list_actions(this)

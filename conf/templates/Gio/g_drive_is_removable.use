@@ -1,0 +1,1 @@
+use @g_drive_is_removable[I32](drive': NullablePointer[GDriveT])

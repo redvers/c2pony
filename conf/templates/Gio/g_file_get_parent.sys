@@ -1,0 +1,2 @@
+  fun get_parent(file': NullablePointer[GFileT]): NullablePointer[GFileT] =>
+    @g_file_get_parent(file')

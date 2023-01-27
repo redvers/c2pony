@@ -6,7 +6,7 @@
   <xsl:param name="debug"/>
   <xsl:include href="common.xsl"/>
   <xsl:template match="/main/rs/ns[@namespace=$namespace]">
-    <xsl:for-each select="(./renderclass[@render=$debug] | ./renderstruct[@render=$debug])">
+    <xsl:for-each select="(./renderclass[@render=$debug] | ./renderstruct[@render=$debug]| ./renderinterface[@render=$debug])">
       <xsl:variable name="classname" select="./@name"/>
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, 'Sys')"/>

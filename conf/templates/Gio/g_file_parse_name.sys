@@ -1,0 +1,2 @@
+  fun parse_name(parse_name': String): NullablePointer[GFileT] =>
+    @g_file_parse_name(parse_name'.cstring())

@@ -1,2 +1,2 @@
-  fun type_get_plugin(type': U64): NullablePointer[GTypePluginT] =>
-    @g_type_get_plugin(type')
+  fun type_get_plugin(type': U64): NullablePointer[GObjectT] =>
+@g_type_get_plugin(type')

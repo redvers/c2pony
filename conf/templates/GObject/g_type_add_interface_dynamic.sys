@@ -1,2 +1,2 @@
-  fun type_add_interface_dynamic(instance_type': U64, interface_type': U64, plugin': NullablePointer[GTypePluginT]): None =>
-    @g_type_add_interface_dynamic(instance_type', interface_type', plugin')
+  fun type_add_interface_dynamic(instance_type': U64, interface_type': U64, plugin': GTypePluginI): None =>
+    @g_type_add_interface_dynamic(instance_type', interface_type', plugin'.getptr())

@@ -1,0 +1,2 @@
+  fun ref get_file_database_type(): U64 =>
+    GTlsBackendP.get_file_database_type(this)

@@ -1,0 +1,2 @@
+  fun ref get_state(): NullablePointer[GVariantT] =>
+    GActionP.get_state(this)

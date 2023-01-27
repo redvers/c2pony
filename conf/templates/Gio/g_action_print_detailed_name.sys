@@ -1,0 +1,2 @@
+  fun print_detailed_name(action_name': String, target_value': NullablePointer[GVariantT]): String iso^ =>
+    String.from_cstring(@g_action_print_detailed_name(action_name'.cstring(), target_value')).clone()

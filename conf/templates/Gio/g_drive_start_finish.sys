@@ -1,0 +1,2 @@
+  fun start_finish(drive': NullablePointer[GDriveT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_drive_start_finish(drive', result', error'.ptr)

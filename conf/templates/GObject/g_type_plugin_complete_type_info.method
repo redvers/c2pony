@@ -1,0 +1,2 @@
+  fun ref complete_type_info(g_type': U64, info': NullablePointer[GTypeInfoT], value_table': NullablePointer[GTypeValueTableT]): None =>
+    GTypePluginP.complete_type_info(this, g_type', info', value_table')

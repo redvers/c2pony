@@ -1,0 +1,2 @@
+  fun change_state(action': GActionI, value': NullablePointer[GVariantT]): None =>
+    @g_action_change_state(action'.getptr(), value')

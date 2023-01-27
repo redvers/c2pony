@@ -1,0 +1,2 @@
+  fun guess_content_type(mount': NullablePointer[GMountT], force_rescan': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_mount_guess_content_type(mount', force_rescan', cancellable', callback', user_data')

@@ -1,0 +1,2 @@
+  fun ref add_action(action': GActionI): None =>
+    GActionMapP.add_action(this, action')

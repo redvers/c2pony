@@ -1,0 +1,2 @@
+  fun stop_mountable(file': NullablePointer[GFileT], flags': U32, mount_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_stop_mountable(file', flags', mount_operation', cancellable', callback', user_data')

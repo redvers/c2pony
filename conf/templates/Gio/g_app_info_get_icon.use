@@ -1,0 +1,1 @@
+use @g_app_info_get_icon[NullablePointer[GIconT]](appinfo': NullablePointer[GAppInfoT])

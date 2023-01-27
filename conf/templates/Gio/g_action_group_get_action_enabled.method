@@ -1,0 +1,2 @@
+  fun ref get_action_enabled(action_name': String): I32 =>
+    GActionGroupP.get_action_enabled(this, action_name')

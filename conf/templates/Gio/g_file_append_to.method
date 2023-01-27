@@ -1,0 +1,2 @@
+  fun ref append_to(flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileOutputStreamT] =>
+    GFileP.append_to(this, flags', cancellable', error')

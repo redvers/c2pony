@@ -1,0 +1,2 @@
+  fun ref supports_dtls(): I32 =>
+    GTlsBackendP.supports_dtls(this)

@@ -1,0 +1,2 @@
+  fun ref read_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileInputStreamT] =>
+    GFileP.read_finish(this, res', error')

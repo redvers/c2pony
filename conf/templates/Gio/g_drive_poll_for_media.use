@@ -1,0 +1,1 @@
+use @g_drive_poll_for_media[None](drive': NullablePointer[GDriveT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

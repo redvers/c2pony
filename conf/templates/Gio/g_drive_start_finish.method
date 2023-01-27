@@ -1,0 +1,2 @@
+  fun ref start_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    GDriveP.start_finish(this, result', error')

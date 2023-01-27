@@ -1,0 +1,2 @@
+  fun get_action_parameter_type(action_group': GActionGroupI, action_name': String): NullablePointer[GVariantTypeT] =>
+    @g_action_group_get_action_parameter_type(action_group'.getptr(), action_name'.cstring())

@@ -1,0 +1,2 @@
+  fun set_use_ssl3(conn': NullablePointer[GTlsClientConnectionT], use_ssl3': I32): None =>
+    @g_tls_client_connection_set_use_ssl3(conn', use_ssl3')

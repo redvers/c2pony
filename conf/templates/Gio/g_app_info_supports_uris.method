@@ -1,0 +1,2 @@
+  fun ref supports_uris(): I32 =>
+    GAppInfoP.supports_uris(this)

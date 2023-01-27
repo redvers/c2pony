@@ -1,0 +1,2 @@
+  fun ref shadow(): None =>
+    GMountP.shadow(this)

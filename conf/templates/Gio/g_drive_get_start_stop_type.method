@@ -1,0 +1,2 @@
+  fun ref get_start_stop_type(): U32 =>
+    GDriveP.get_start_stop_type(this)

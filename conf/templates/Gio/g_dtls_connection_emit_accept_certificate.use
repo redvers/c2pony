@@ -1,0 +1,1 @@
+use @g_dtls_connection_emit_accept_certificate[I32](conn': NullablePointer[GDtlsConnectionT], peer_cert': NullablePointer[GTlsCertificateT], errors': U32)

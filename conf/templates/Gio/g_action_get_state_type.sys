@@ -1,0 +1,2 @@
+  fun get_state_type(action': GActionI): NullablePointer[GVariantTypeT] =>
+    @g_action_get_state_type(action'.getptr())

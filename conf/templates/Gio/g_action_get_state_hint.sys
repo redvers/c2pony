@@ -1,0 +1,2 @@
+  fun get_state_hint(action': GActionI): NullablePointer[GVariantT] =>
+    @g_action_get_state_hint(action'.getptr())

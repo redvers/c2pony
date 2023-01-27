@@ -1,0 +1,2 @@
+  fun ref create_source(condition': U32, cancellable': NullablePointer[GCancellableT]): NullablePointer[GSourceT] =>
+    GDatagramBasedP.create_source(this, condition', cancellable')

@@ -1,0 +1,2 @@
+  fun ref legacy_propagate_error(error': GError): I32 =>
+    GAsyncResultP.legacy_propagate_error(this, error')

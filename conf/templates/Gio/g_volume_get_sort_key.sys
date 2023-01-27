@@ -1,0 +1,2 @@
+  fun get_sort_key(volume': NullablePointer[GVolumeT]): String iso^ =>
+    String.from_cstring(@g_volume_get_sort_key(volume')).clone()

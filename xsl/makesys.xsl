@@ -19,7 +19,7 @@
       </xsl:call-template>
     </xsl:for-each>
     <xsl:variable name="preamble" select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
-    <xsl:for-each select="./renderclass[@render=$debug]">
+    <xsl:for-each select="(./renderclass[@render=$debug] | ./renderinterface[@render=$debug])">
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, 'Sys')"/>
       <xsl:for-each select="$root/renderfunction[@render=$debug]">

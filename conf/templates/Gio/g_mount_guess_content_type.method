@@ -1,0 +1,2 @@
+  fun ref guess_content_type(force_rescan': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GMountP.guess_content_type(this, force_rescan', cancellable', callback', user_data')

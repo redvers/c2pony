@@ -1,0 +1,2 @@
+  fun replace_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileOutputStreamT] =>
+    @g_file_replace_finish(file', res', error'.ptr)

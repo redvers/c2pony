@@ -1,0 +1,1 @@
+use @g_action_get_parameter_type[NullablePointer[GVariantTypeT]](action': NullablePointer[GObjectT])

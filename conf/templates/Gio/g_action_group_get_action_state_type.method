@@ -1,0 +1,2 @@
+  fun ref get_action_state_type(action_name': String): NullablePointer[GVariantTypeT] =>
+    GActionGroupP.get_action_state_type(this, action_name')

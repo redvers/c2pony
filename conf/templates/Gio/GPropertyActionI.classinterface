@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GPropertyActionI is GObjectI
+interface GPropertyActionI is (GObjectI & GActionI)
   fun ref getptr(): NullablePointer[GObjectT]

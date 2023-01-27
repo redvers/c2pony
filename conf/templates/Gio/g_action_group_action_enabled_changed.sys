@@ -1,0 +1,2 @@
+  fun action_enabled_changed(action_group': GActionGroupI, action_name': String, enabled': I32): None =>
+    @g_action_group_action_enabled_changed(action_group'.getptr(), action_name'.cstring(), enabled')

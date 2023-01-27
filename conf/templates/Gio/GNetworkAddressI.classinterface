@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GNetworkAddressI is GObjectI
+interface GNetworkAddressI is (GObjectI & GSocketConnectableI)
   fun ref getptr(): NullablePointer[GObjectT]

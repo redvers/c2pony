@@ -1,0 +1,2 @@
+  fun ref get_dtls_client_connection_type(): U64 =>
+    GTlsBackendP.get_dtls_client_connection_type(this)

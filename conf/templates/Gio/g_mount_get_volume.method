@@ -1,0 +1,2 @@
+  fun ref get_volume(): NullablePointer[GVolumeT] =>
+    GMountP.get_volume(this)

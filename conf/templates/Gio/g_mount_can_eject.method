@@ -1,0 +1,2 @@
+  fun ref can_eject(): I32 =>
+    GMountP.can_eject(this)

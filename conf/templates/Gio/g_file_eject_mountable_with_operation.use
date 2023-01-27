@@ -1,0 +1,1 @@
+use @g_file_eject_mountable_with_operation[None](file': NullablePointer[GFileT], flags': U32, mount_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

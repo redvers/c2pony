@@ -1,0 +1,2 @@
+  fun replace_contents_bytes_async(file': NullablePointer[GFileT], contents': NullablePointer[GBytesT], etag': String, make_backup': I32, flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_replace_contents_bytes_async(file', contents', etag'.cstring(), make_backup', flags', cancellable', callback', user_data')

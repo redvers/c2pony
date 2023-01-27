@@ -1,0 +1,2 @@
+  fun ref create_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileOutputStreamT] =>
+    GFileP.create_finish(this, res', error')

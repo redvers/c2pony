@@ -1,0 +1,2 @@
+  fun ref get_executable(): String iso^ =>
+    GAppInfoP.get_executable(this)

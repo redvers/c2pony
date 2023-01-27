@@ -1,0 +1,2 @@
+  fun ref can_mount(): I32 =>
+    GVolumeP.can_mount(this)

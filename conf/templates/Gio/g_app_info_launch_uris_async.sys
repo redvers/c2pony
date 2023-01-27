@@ -1,0 +1,2 @@
+  fun launch_uris_async(appinfo': NullablePointer[GAppInfoT], uris': NullablePointer[GListT], context': NullablePointer[GAppLaunchContextT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_app_info_launch_uris_async(appinfo', uris', context', cancellable', callback', user_data')

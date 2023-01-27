@@ -1,0 +1,2 @@
+  fun ref action_added(action_name': String): None =>
+    GActionGroupP.action_added(this, action_name')

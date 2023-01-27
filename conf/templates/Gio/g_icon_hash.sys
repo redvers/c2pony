@@ -1,0 +1,2 @@
+  fun hash(icon': Pointer[None] tag): U32 =>
+    @g_icon_hash(icon')

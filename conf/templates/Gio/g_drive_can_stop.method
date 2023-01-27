@@ -1,0 +1,2 @@
+  fun ref can_stop(): I32 =>
+    GDriveP.can_stop(this)

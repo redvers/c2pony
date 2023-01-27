@@ -1,0 +1,1 @@
+use @g_file_append_to[NullablePointer[GFileOutputStreamT]](file': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

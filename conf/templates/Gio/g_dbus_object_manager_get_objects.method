@@ -1,0 +1,2 @@
+  fun ref get_objects(): NullablePointer[GListT] =>
+    GDBusObjectManagerP.get_objects(this)

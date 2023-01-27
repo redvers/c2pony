@@ -1,0 +1,2 @@
+  fun ref get_certificate(): NullablePointer[GTlsCertificateT] =>
+    GDtlsConnectionP.get_certificate(this)

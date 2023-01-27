@@ -1,0 +1,2 @@
+  fun get_enabled(action': GActionI): I32 =>
+    @g_action_get_enabled(action'.getptr())

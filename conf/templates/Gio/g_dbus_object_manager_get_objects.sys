@@ -1,0 +1,2 @@
+  fun get_objects(manager': NullablePointer[GDBusObjectManagerT]): NullablePointer[GListT] =>
+    @g_dbus_object_manager_get_objects(manager')

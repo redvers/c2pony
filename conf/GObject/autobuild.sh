@@ -278,6 +278,21 @@ echo > ../test/GObject/GTypeModuleT.pony
 cat ../templates/GObject/GTypeModuleT.struct >> ../test/GObject/GTypeModuleT.pony
 echo > ../test/GObject/GTypeModuleP.pony
 cat ../templates/GObject/GTypeModuleP.primitive >> ../test/GObject/GTypeModuleP.pony
+echo > ../test/GObject/GTypePluginI.pony
+cat ../templates/GObject/GTypePluginI.classinterface >> ../test/GObject/GTypePluginI.pony
+echo > ../test/GObject/GTypePluginT.pony
+cat ../templates/GObject/GTypePluginT.struct >> ../test/GObject/GTypePluginT.pony
+cat ../templates/GObject/g_type_plugin_complete_interface_info.method >> ../test/GObject/GTypePluginI.pony
+cat ../templates/GObject/g_type_plugin_complete_type_info.method >> ../test/GObject/GTypePluginI.pony
+cat ../templates/GObject/g_type_plugin_unuse.method >> ../test/GObject/GTypePluginI.pony
+echo > ../test/GObject/GTypePluginP.pony
+cat ../templates/GObject/g_type_plugin_complete_interface_info.use >> ../test/GObject/GTypePluginP.pony
+cat ../templates/GObject/g_type_plugin_complete_type_info.use >> ../test/GObject/GTypePluginP.pony
+cat ../templates/GObject/g_type_plugin_unuse.use >> ../test/GObject/GTypePluginP.pony
+cat ../templates/GObject/GTypePluginP.primitive >> ../test/GObject/GTypePluginP.pony
+cat ../templates/GObject/g_type_plugin_complete_interface_info.sys >> ../test/GObject/GTypePluginP.pony
+cat ../templates/GObject/g_type_plugin_complete_type_info.sys >> ../test/GObject/GTypePluginP.pony
+cat ../templates/GObject/g_type_plugin_unuse.sys >> ../test/GObject/GTypePluginP.pony
 echo > ../test/GObject/GEnumClass.pony
 cat ../templates/GObject/GEnumClass.class >> ../test/GObject/GEnumClass.pony
 echo > ../test/GObject/GEnumClassT.pony
@@ -302,15 +317,39 @@ echo > ../test/GObject/GFlagsValueT.pony
 cat ../templates/GObject/GFlagsValueT.struct >> ../test/GObject/GFlagsValueT.pony
 echo > ../test/GObject/GFlagsValueP.pony
 cat ../templates/GObject/GFlagsValueP.primitive >> ../test/GObject/GFlagsValueP.pony
+echo > ../test/GObject/GInterfaceInfo.pony
+cat ../templates/GObject/GInterfaceInfo.class >> ../test/GObject/GInterfaceInfo.pony
+echo > ../test/GObject/GInterfaceInfoT.pony
+cat ../templates/GObject/GInterfaceInfoT.struct >> ../test/GObject/GInterfaceInfoT.pony
+echo > ../test/GObject/GInterfaceInfoP.pony
+cat ../templates/GObject/GInterfaceInfoP.primitive >> ../test/GObject/GInterfaceInfoP.pony
 echo > ../test/GObject/GTypeClass.pony
 cat ../templates/GObject/GTypeClass.class >> ../test/GObject/GTypeClass.pony
 echo > ../test/GObject/GTypeClassT.pony
 cat ../templates/GObject/GTypeClassT.struct >> ../test/GObject/GTypeClassT.pony
 echo > ../test/GObject/GTypeClassP.pony
 cat ../templates/GObject/GTypeClassP.primitive >> ../test/GObject/GTypeClassP.pony
+echo > ../test/GObject/GTypeInfo.pony
+cat ../templates/GObject/GTypeInfo.class >> ../test/GObject/GTypeInfo.pony
+echo > ../test/GObject/GTypeInfoT.pony
+cat ../templates/GObject/GTypeInfoT.struct >> ../test/GObject/GTypeInfoT.pony
+echo > ../test/GObject/GTypeInfoP.pony
+cat ../templates/GObject/GTypeInfoP.primitive >> ../test/GObject/GTypeInfoP.pony
 echo > ../test/GObject/GTypeInstance.pony
 cat ../templates/GObject/GTypeInstance.class >> ../test/GObject/GTypeInstance.pony
 echo > ../test/GObject/GTypeInstanceT.pony
 cat ../templates/GObject/GTypeInstanceT.struct >> ../test/GObject/GTypeInstanceT.pony
 echo > ../test/GObject/GTypeInstanceP.pony
 cat ../templates/GObject/GTypeInstanceP.primitive >> ../test/GObject/GTypeInstanceP.pony
+echo > ../test/GObject/GTypeValueTable.pony
+cat ../templates/GObject/GTypeValueTable.class >> ../test/GObject/GTypeValueTable.pony
+echo > ../test/GObject/GTypeValueTableT.pony
+cat ../templates/GObject/GTypeValueTableT.struct >> ../test/GObject/GTypeValueTableT.pony
+echo > ../test/GObject/GTypeValueTableP.pony
+cat ../templates/GObject/GTypeValueTableP.primitive >> ../test/GObject/GTypeValueTableP.pony
+echo > ../test/GObject/GValue.pony
+cat ../templates/GObject/GValue.class >> ../test/GObject/GValue.pony
+echo > ../test/GObject/GValueT.pony
+cat ../templates/GObject/GValueT.struct >> ../test/GObject/GValueT.pony
+echo > ../test/GObject/GValueP.pony
+cat ../templates/GObject/GValueP.primitive >> ../test/GObject/GValueP.pony

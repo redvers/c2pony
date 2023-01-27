@@ -1,0 +1,2 @@
+  fun get_default(): NullablePointer[GTlsBackendT] =>
+    @g_tls_backend_get_default()

@@ -1,0 +1,2 @@
+  fun ref get_client_connection_type(): U64 =>
+    GTlsBackendP.get_client_connection_type(this)

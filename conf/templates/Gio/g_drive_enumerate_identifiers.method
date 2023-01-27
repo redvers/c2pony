@@ -1,0 +1,2 @@
+  fun ref enumerate_identifiers(): Pointer[Pointer[U8]] tag =>
+    GDriveP.enumerate_identifiers(this)

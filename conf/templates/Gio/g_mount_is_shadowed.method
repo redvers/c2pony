@@ -1,0 +1,2 @@
+  fun ref is_shadowed(): I32 =>
+    GMountP.is_shadowed(this)

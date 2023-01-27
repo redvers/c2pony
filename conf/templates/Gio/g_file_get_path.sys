@@ -1,0 +1,2 @@
+  fun get_path(file': NullablePointer[GFileT]): String iso^ =>
+    String.from_cstring(@g_file_get_path(file')).clone()

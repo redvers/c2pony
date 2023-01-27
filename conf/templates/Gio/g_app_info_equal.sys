@@ -1,0 +1,2 @@
+  fun equal(appinfo1': NullablePointer[GAppInfoT], appinfo2': NullablePointer[GAppInfoT]): I32 =>
+    @g_app_info_equal(appinfo1', appinfo2')

@@ -1,0 +1,1 @@
+use @g_proxy_resolver_lookup_async[None](resolver': NullablePointer[GProxyResolverT], uri': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

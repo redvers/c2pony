@@ -1,0 +1,2 @@
+  fun set_attribute(file': NullablePointer[GFileT], attribute': String, type': U32, value_p': Pointer[None] tag, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_file_set_attribute(file', attribute'.cstring(), type', value_p', flags', cancellable', error'.ptr)

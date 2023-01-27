@@ -1,0 +1,2 @@
+  fun ref set_display_name_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileT] =>
+    GFileP.set_display_name_finish(this, res', error')

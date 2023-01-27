@@ -1,0 +1,1 @@
+use @g_action_group_get_action_state_type[NullablePointer[GVariantTypeT]](action_group': NullablePointer[GObjectT], action_name': Pointer[U8] tag)

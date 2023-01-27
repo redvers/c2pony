@@ -1,0 +1,2 @@
+  fun ref get_name(): String iso^ =>
+    GDriveP.get_name(this)

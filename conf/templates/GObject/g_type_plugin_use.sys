@@ -1,0 +1,2 @@
+  fun use(plugin': GTypePluginI): None =>
+    @g_type_plugin_use(plugin'.getptr())

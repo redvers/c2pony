@@ -1,0 +1,1 @@
+use @g_file_enumerate_children[NullablePointer[GFileEnumeratorT]](file': NullablePointer[GFileT], attributes': Pointer[U8] tag, flags': U32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

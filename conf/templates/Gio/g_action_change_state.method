@@ -1,0 +1,2 @@
+  fun ref change_state(value': NullablePointer[GVariantT]): None =>
+    GActionP.change_state(this, value')

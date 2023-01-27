@@ -1,0 +1,2 @@
+  fun get_rehandshake_mode(conn': NullablePointer[GDtlsConnectionT]): U32 =>
+    @g_dtls_connection_get_rehandshake_mode(conn')

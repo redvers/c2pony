@@ -1,0 +1,2 @@
+  fun eject_finish(volume': NullablePointer[GVolumeT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_volume_eject_finish(volume', result', error'.ptr)

@@ -1,0 +1,2 @@
+  fun get_default_for_uri_scheme(uri_scheme': String): NullablePointer[GAppInfoT] =>
+    @g_app_info_get_default_for_uri_scheme(uri_scheme'.cstring())

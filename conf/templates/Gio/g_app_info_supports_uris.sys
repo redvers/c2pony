@@ -1,0 +1,2 @@
+  fun supports_uris(appinfo': NullablePointer[GAppInfoT]): I32 =>
+    @g_app_info_supports_uris(appinfo')

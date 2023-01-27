@@ -3,6 +3,9 @@
   <basetype name="GAppLaunchContext" baseclass="GObject"/>
   <basetype name="GApplication" baseclass="GObject"/>
   <basetype name="GApplicationCommandLine" baseclass="GObject"/>
+  <basetype name="GAction" baseclass="GObject"/>
+  <basetype name="GActionMap" baseclass="GObject"/>
+  <basetype name="GActionGroup" baseclass="GObject"/>
   <basetype name="GBufferedInputStream" baseclass="GObject"/>
   <basetype name="GBufferedOutputStream" baseclass="GObject"/>
   <basetype name="GBytesIcon" baseclass="GObject"/>

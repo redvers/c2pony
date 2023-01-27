@@ -16,7 +16,12 @@
       </suffixes>
     </ponytypeconvout>
   </typedef>
+  <typedef name="NullablePointer[GActionT]" ponytypein="GActionI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GActionT]" structdef="NullablePointer[GActionT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
+  <typedef name="NullablePointer[GActionMapT]" ponytypein="GActionMapI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GActionMapT]" structdef="NullablePointer[GActionMapT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
+  <typedef name="NullablePointer[GActionGroupT]" ponytypein="GActionGroupI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GActionGroupT]" structdef="NullablePointer[GActionGroupT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
+
   <typedef name="NullablePointer[GApplicationT]" ponytypein="GApplicationI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GApplicationT]" structdef="NullablePointer[GApplicationT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
+  <typedef name="NullablePointer[GTypePluginT]" ponytypein="GTypePluginI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GTypePluginT]" structdef="NullablePointer[GTypePluginT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
   <typedef name="NullablePointer[GtkApplicationT]" ponytypein="GtkApplicationI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GtkApplicationT]" structdef="NullablePointer[GtkApplicationT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
   <typedef name="NullablePointer[GtkBuilderT]" ponytypein="GtkBuilderI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GtkBuilderT]" structdef="NullablePointer[GtkBuilderT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
   <typedef name="NullablePointer[GtkWidgetT]" ponytypein="GtkWidgetI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GtkWidgetT]" structdef="NullablePointer[GtkWidgetT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>

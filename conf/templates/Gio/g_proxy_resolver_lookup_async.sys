@@ -1,0 +1,2 @@
+  fun lookup_async(resolver': NullablePointer[GProxyResolverT], uri': String, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_proxy_resolver_lookup_async(resolver', uri'.cstring(), cancellable', callback', user_data')

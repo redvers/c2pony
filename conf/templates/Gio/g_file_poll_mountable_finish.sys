@@ -1,0 +1,2 @@
+  fun poll_mountable_finish(file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_file_poll_mountable_finish(file', result', error'.ptr)

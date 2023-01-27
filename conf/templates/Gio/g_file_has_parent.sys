@@ -1,0 +1,2 @@
+  fun has_parent(file': NullablePointer[GFileT], parent': NullablePointer[GFileT]): I32 =>
+    @g_file_has_parent(file', parent')

@@ -1,0 +1,1 @@
+use @g_dbus_object_get_object_path[Pointer[U8]](object': NullablePointer[GDBusObjectT])

@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GIOModuleI is GTypeModuleI
+interface GIOModuleI is (GTypeModuleI & GGObject.TypePluginI)
   fun ref getptr(): NullablePointer[GObjectT]

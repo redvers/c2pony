@@ -1,0 +1,2 @@
+  fun delete(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_file_delete(file', cancellable', error'.ptr)

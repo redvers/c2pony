@@ -1,0 +1,2 @@
+  fun set_validation_flags(conn': NullablePointer[GDtlsClientConnectionT], flags': U32): None =>
+    @g_dtls_client_connection_set_validation_flags(conn', flags')

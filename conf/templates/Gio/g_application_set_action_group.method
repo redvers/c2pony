@@ -1,2 +1,2 @@
-  fun ref set_action_group(action_group': NullablePointer[GActionGroupT]): None =>
+  fun ref set_action_group(action_group': GActionGroupI): None =>
     GApplicationP.set_action_group(this, action_group')

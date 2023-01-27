@@ -1,0 +1,1 @@
+use @g_async_initable_init_async[None](initable': NullablePointer[GAsyncInitableT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

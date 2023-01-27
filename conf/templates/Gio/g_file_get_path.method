@@ -1,0 +1,2 @@
+  fun ref get_path(): String iso^ =>
+    GFileP.get_path(this)

@@ -1,0 +1,2 @@
+  fun ref enumerate_children_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileEnumeratorT] =>
+    GFileP.enumerate_children_finish(this, res', error')

@@ -1,0 +1,2 @@
+  fun ref load_bytes_finish(result': NullablePointer[GAsyncResultT], etag_out': Pointer[Pointer[U8]] tag, error': GError): NullablePointer[GBytesT] =>
+    GFileP.load_bytes_finish(this, result', etag_out', error')

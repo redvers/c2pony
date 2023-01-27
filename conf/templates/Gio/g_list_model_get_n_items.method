@@ -1,0 +1,2 @@
+  fun ref get_n_items(): U32 =>
+    GListModelP.get_n_items(this)

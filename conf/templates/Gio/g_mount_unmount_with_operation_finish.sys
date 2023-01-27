@@ -1,0 +1,2 @@
+  fun unmount_with_operation_finish(mount': NullablePointer[GMountT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_mount_unmount_with_operation_finish(mount', result', error'.ptr)

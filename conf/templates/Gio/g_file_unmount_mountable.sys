@@ -1,0 +1,2 @@
+  fun unmount_mountable(file': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_unmount_mountable(file', flags', cancellable', callback', user_data')

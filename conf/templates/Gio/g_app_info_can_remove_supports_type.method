@@ -1,0 +1,2 @@
+  fun ref can_remove_supports_type(): I32 =>
+    GAppInfoP.can_remove_supports_type(this)

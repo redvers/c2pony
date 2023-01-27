@@ -21,7 +21,7 @@
       </xsl:for-each>
           <!--    </xsl:result-document> -->
     <xsl:variable name="preamble" select="/main/rs/ns[@namespace=$namespace]/ponydep"/>
-    <xsl:for-each select="(./renderstruct[@render=$debug] | ./renderclass[@render=$debug])">
+    <xsl:for-each select="(./renderstruct[@render=$debug] | ./renderclass[@render=$debug] | ./renderinterface[@render=$debug])">
       <xsl:variable name="root" select="."/>
       <xsl:variable name="filename" select="concat($root/@name, 'Use')"/>
       <!--      <xsl:result-document href="test/{$namespace}/{$filename}.pony" method="text"> 

@@ -98,11 +98,11 @@
     <renderfunction name="g_unix_mounts_get" ponyname="unix_mounts_get" render="" deprecated=""/>
     <renderstruct name="GActionEntry" render="1">
 </renderstruct>
-    <renderstruct name="GActionGroupInterface" render="">
+    <renderstruct name="GActionGroupInterface" render="1">
 </renderstruct>
-    <renderstruct name="GActionInterface" render="">
+    <renderstruct name="GActionInterface" render="1">
 </renderstruct>
-    <renderstruct name="GActionMapInterface" render="">
+    <renderstruct name="GActionMapInterface" render="1">
 </renderstruct>
     <renderstruct name="GAppInfoIface" render="">
 </renderstruct>
@@ -2032,7 +2032,7 @@
       <renderconstructor name="g_zlib_decompressor_new" ponyname="new" render="" deprecated=""/>
       <rendermethod name="g_zlib_decompressor_get_file_info" ponyname="get_file_info" render="" deprecated=""/>
     </renderclass>
-    <renderinterface name="GAction" render="">
+    <renderinterface name="GAction" render="1">
       <rendermethod name="g_action_activate" ponyname="activate" render="" deprecated=""/>
       <rendermethod name="g_action_change_state" ponyname="change_state" render="" deprecated=""/>
       <rendermethod name="g_action_get_enabled" ponyname="get_enabled" render="" deprecated=""/>
@@ -2045,7 +2045,7 @@
       <renderfunction name="g_action_parse_detailed_name" ponyname="parse_detailed_name" render="" deprecated=""/>
       <renderfunction name="g_action_print_detailed_name" ponyname="print_detailed_name" render="" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GActionGroup" render="">
+    <renderinterface name="GActionGroup" render="1">
       <rendermethod name="g_action_group_action_added" ponyname="action_added" render="" deprecated=""/>
       <rendermethod name="g_action_group_action_enabled_changed" ponyname="action_enabled_changed" render="" deprecated=""/>
       <rendermethod name="g_action_group_action_removed" ponyname="action_removed" render="" deprecated=""/>

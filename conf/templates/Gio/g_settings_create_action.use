@@ -1,1 +1,1 @@
-use @g_settings_create_action[NullablePointer[GActionT]](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)
+use @g_settings_create_action[NullablePointer[GObjectT]](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)

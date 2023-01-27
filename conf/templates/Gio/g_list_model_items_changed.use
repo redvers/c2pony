@@ -1,0 +1,1 @@
+use @g_list_model_items_changed[None](list': NullablePointer[GListModelT], position': U32, removed': U32, added': U32)

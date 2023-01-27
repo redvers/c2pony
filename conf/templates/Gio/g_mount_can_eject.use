@@ -1,0 +1,1 @@
+use @g_mount_can_eject[I32](mount': NullablePointer[GMountT])

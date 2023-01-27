@@ -1,0 +1,2 @@
+  fun ref eject_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    GVolumeP.eject_finish(this, result', error')

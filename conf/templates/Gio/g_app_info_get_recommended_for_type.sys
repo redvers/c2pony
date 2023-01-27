@@ -1,0 +1,2 @@
+  fun get_recommended_for_type(content_type': String): NullablePointer[GListT] =>
+    @g_app_info_get_recommended_for_type(content_type'.cstring())

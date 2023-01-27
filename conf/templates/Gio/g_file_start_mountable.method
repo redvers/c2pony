@@ -1,0 +1,2 @@
+  fun ref start_mountable(flags': U32, start_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GFileP.start_mountable(this, flags', start_operation', cancellable', callback', user_data')

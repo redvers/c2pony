@@ -1,0 +1,2 @@
+  fun has_uri_scheme(file': NullablePointer[GFileT], uri_scheme': String): I32 =>
+    @g_file_has_uri_scheme(file', uri_scheme'.cstring())

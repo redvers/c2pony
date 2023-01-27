@@ -1,0 +1,2 @@
+  fun ref guess_content_type_finish(result': NullablePointer[GAsyncResultT], error': GError): Pointer[Pointer[U8]] tag =>
+    GMountP.guess_content_type_finish(this, result', error')

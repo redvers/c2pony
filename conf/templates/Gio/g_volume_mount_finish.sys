@@ -1,0 +1,2 @@
+  fun mount_finish(volume': NullablePointer[GVolumeT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_volume_mount_finish(volume', result', error'.ptr)

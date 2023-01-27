@@ -1,0 +1,2 @@
+  fun ref get_uri_scheme(): String iso^ =>
+    GFileP.get_uri_scheme(this)

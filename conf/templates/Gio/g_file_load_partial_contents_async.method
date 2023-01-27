@@ -1,0 +1,2 @@
+  fun ref load_partial_contents_async(cancellable': NullablePointer[GCancellableT], read_more_callback': GFileReadMoreCallback, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GFileP.load_partial_contents_async(this, cancellable', read_more_callback', callback', user_data')

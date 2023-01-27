@@ -1,0 +1,2 @@
+  fun measure_disk_usage(file': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], progress_callback': GFileMeasureProgressCallback, progress_data': Pointer[None] tag, disk_usage': Pointer[U64] tag, num_dirs': Pointer[U64] tag, num_files': Pointer[U64] tag, error': GError): I32 =>
+    @g_file_measure_disk_usage(file', flags', cancellable', progress_callback', progress_data', disk_usage', num_dirs', num_files', error'.ptr)

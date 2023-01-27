@@ -1,0 +1,2 @@
+  fun ref get_network_available(): I32 =>
+    GNetworkMonitorP.get_network_available(this)

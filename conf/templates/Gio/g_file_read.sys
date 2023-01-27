@@ -1,0 +1,2 @@
+  fun read(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileInputStreamT] =>
+    @g_file_read(file', cancellable', error'.ptr)

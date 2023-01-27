@@ -1,0 +1,1 @@
+use @g_converter_convert[U32](converter': NullablePointer[GConverterT], inbuf': Pointer[None] tag, inbuf_size': U64, outbuf': Pointer[None] tag, outbuf_size': U64, flags': U32, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': NullablePointer[GErrorT])

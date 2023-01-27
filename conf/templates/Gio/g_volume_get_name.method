@@ -1,0 +1,2 @@
+  fun ref get_name(): String iso^ =>
+    GVolumeP.get_name(this)

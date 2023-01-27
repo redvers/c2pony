@@ -1,0 +1,1 @@
+use @g_app_info_launch_default_for_uri_finish[I32](result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

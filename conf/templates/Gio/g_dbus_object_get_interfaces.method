@@ -1,0 +1,2 @@
+  fun ref get_interfaces(): NullablePointer[GListT] =>
+    GDBusObjectP.get_interfaces(this)

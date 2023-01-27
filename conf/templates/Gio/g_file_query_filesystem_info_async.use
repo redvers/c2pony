@@ -1,0 +1,1 @@
+use @g_file_query_filesystem_info_async[None](file': NullablePointer[GFileT], attributes': Pointer[U8] tag, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,0 +1,1 @@
+use @g_drive_eject_with_operation[None](drive': NullablePointer[GDriveT], flags': U32, mount_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun ref remount(flags': U32, mount_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GMountP.remount(this, flags', mount_operation', cancellable', callback', user_data')

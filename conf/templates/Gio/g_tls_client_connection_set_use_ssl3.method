@@ -1,0 +1,2 @@
+  fun ref set_use_ssl3(use_ssl3': I32): None =>
+    GTlsClientConnectionP.set_use_ssl3(this, use_ssl3')

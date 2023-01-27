@@ -1,7 +1,7 @@
 use "GLib"
 use "GObject"
 use "Gio"
-use "Gtk"
+//use "Gtk"
 
 use "debug"
 
@@ -17,6 +17,7 @@ actor Main
   new create(env': Env) =>
     env = env'
 
+    /*
     let myapp: MyApp = MyApp(env)
     let app: GtkApplication = GtkApplication
     app.connect[MyApp]("activate", myapp~cb(), myapp, U32(0))
@@ -48,26 +49,7 @@ class MyApp
     app.add_window(appwindow)
     appwindow.set_visible(1)
 
-    var t: GActionEntryT = GActionEntryT
-    var u: GActionEntryT = GActionEntryT
-    var v: GActionEntryT = GActionEntryT
-
-    t.name = "about".cstring()
-    u.name = "quit".cstring()
-    v.name = "inspector".cstring()
-
-    t.activate = @{() => @printf("about\n".cstring())}
-    u.activate = @{() => @printf("quit\n".cstring())}
-    v.activate = @{() => GtkG.set_interactive_debugging(1)}
-
-//		let testarray: Array[(Pointer[U8] tag, Pointer[None], Pointer[U8] tag, Pointer[U8] tag, U128, U128)] = []
-		let testarray: Array[GActionEntryTuple] = []
-		testarray.push(("about".cstring(), @{() => @printf("about\n".cstring())}, Pointer[U8], Pointer[U8], Pointer[None], U64(0), U128(0)))
-		testarray.push(("quit".cstring(), @{() => @printf("quit\n".cstring())}, Pointer[U8], Pointer[U8], Pointer[None], U64(0), U128(0)))
-		testarray.push(("inspector".cstring(), @{() => GtkG.set_interactive_debugging(1)}, Pointer[U8], Pointer[U8], Pointer[None], U64(0), U128(0)))
-
-		let testarray2: Array[GActionEntryTuple] = []
-		let actions: Array[GActionEntryTuple] = []
+    let actions: Array[GActionEntryTuple] = []
 		actions.push(GActionEntryT.>set_name("about")
 								 .>set_activate(@{() => @printf("about\n".cstring())})
 								 .tuple())
@@ -78,11 +60,6 @@ class MyApp
 								 .>set_activate(@{() => GtkG.set_interactive_debugging(1)})
 								 .tuple())
     @g_action_map_add_action_entries(app.getptr(), actions.cpointer(), actions.size().u32(), Pointer[None])
-//    @g_action_map_add_action_entries(app.getptr(), u, 1, Pointer[None])
-//    @g_action_map_add_action_entries(app.getptr(), v, 1, Pointer[None])
-
-
-
-
 
   fun test() => env.out.print("Hello World")
+    */

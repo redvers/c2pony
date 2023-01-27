@@ -1,0 +1,2 @@
+  fun get_volumes(drive': NullablePointer[GDriveT]): NullablePointer[GListT] =>
+    @g_drive_get_volumes(drive')

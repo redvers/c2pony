@@ -1,0 +1,2 @@
+  fun ref shutdown(shutdown_read': I32, shutdown_write': I32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    GDtlsConnectionP.shutdown(this, shutdown_read', shutdown_write', cancellable', error')

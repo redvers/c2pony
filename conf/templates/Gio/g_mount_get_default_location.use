@@ -1,0 +1,1 @@
+use @g_mount_get_default_location[NullablePointer[GFileT]](mount': NullablePointer[GMountT])

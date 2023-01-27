@@ -1,0 +1,2 @@
+  fun has_prefix(file': NullablePointer[GFileT], prefix': NullablePointer[GFileT]): I32 =>
+    @g_file_has_prefix(file', prefix')

@@ -1,0 +1,2 @@
+  fun new(object_type': U64, cancellable': NullablePointer[GCancellableT], error': GError, first_property_name': String, ...): Pointer[None] tag =>
+    @g_initable_new(object_type', cancellable', error'.ptr, first_property_name'.cstring(), ...)

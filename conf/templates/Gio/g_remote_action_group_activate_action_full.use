@@ -1,0 +1,1 @@
+use @g_remote_action_group_activate_action_full[None](remote': NullablePointer[GRemoteActionGroupT], action_name': Pointer[U8] tag, parameter': NullablePointer[GVariantT], platform_data': NullablePointer[GVariantT])

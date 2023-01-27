@@ -1,0 +1,2 @@
+  fun ref get_sort_key(): String iso^ =>
+    GMountP.get_sort_key(this)

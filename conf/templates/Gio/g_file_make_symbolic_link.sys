@@ -1,0 +1,2 @@
+  fun make_symbolic_link(file': NullablePointer[GFileT], symlink_value': String, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_file_make_symbolic_link(file', symlink_value'.cstring(), cancellable', error'.ptr)

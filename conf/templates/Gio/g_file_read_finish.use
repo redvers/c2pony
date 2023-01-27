@@ -1,0 +1,1 @@
+use @g_file_read_finish[NullablePointer[GFileInputStreamT]](file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

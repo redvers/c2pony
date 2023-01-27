@@ -1,0 +1,2 @@
+  fun ref get_id(): String iso^ =>
+    GAppInfoP.get_id(this)

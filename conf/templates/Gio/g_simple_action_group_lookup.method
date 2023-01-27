@@ -1,2 +1,2 @@
-  fun ref lookup(action_name': String): NullablePointer[GActionT] =>
+  fun ref lookup(action_name': String): NullablePointer[GObjectT] =>
     GSimpleActionGroupP.lookup(this, action_name')

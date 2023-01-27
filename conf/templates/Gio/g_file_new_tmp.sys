@@ -1,0 +1,2 @@
+  fun new_tmp(tmpl': String, iostream': Pointer[NullablePointer[GFileIOStreamT]], error': GError): NullablePointer[GFileT] =>
+    @g_file_new_tmp(tmpl'.cstring(), iostream', error'.ptr)

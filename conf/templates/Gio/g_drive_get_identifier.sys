@@ -1,0 +1,2 @@
+  fun get_identifier(drive': NullablePointer[GDriveT], kind': String): String iso^ =>
+    String.from_cstring(@g_drive_get_identifier(drive', kind'.cstring())).clone()

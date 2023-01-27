@@ -1,0 +1,2 @@
+  fun ref should_automount(): I32 =>
+    GVolumeP.should_automount(this)

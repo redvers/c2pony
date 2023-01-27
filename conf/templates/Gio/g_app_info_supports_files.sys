@@ -1,0 +1,2 @@
+  fun supports_files(appinfo': NullablePointer[GAppInfoT]): I32 =>
+    @g_app_info_supports_files(appinfo')

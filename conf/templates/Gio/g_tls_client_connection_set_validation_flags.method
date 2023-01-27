@@ -1,0 +1,2 @@
+  fun ref set_validation_flags(flags': U32): None =>
+    GTlsClientConnectionP.set_validation_flags(this, flags')

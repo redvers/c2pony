@@ -1,0 +1,1 @@
+use @g_tls_client_connection_copy_session_state[None](conn': NullablePointer[GTlsClientConnectionT], source': NullablePointer[GTlsClientConnectionT])

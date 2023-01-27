@@ -1,0 +1,2 @@
+  fun ref can_poll_for_media(): I32 =>
+    GDriveP.can_poll_for_media(this)

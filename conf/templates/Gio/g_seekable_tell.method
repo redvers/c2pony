@@ -1,0 +1,2 @@
+  fun ref tell(): I64 =>
+    GSeekableP.tell(this)

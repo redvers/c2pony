@@ -1,0 +1,2 @@
+  fun ref set_attribute_byte_string(attribute': String, value': String, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    GFileP.set_attribute_byte_string(this, attribute', value', flags', cancellable', error')

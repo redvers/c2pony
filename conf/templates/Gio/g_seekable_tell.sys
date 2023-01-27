@@ -1,0 +1,2 @@
+  fun tell(seekable': NullablePointer[GSeekableT]): I64 =>
+    @g_seekable_tell(seekable')

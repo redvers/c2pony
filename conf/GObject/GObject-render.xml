@@ -5,7 +5,16 @@
 use "../GLib"
 use "lib:gobject-2.0"
 </ponydep>
-
+<useoverride name="callbacks" render="1">
+type GInterfaceInitFunc is Pointer[None]
+type GInterfaceFinalizeFunc is Pointer[None]
+type GBaseInitFunc is Pointer[None]
+type GBaseFinalizeFunc is Pointer[None]
+type GClassInitFunc is Pointer[None]
+type GClassFinalizeFunc is Pointer[None]
+type GInstanceInitFunc is Pointer[None]
+</useoverride>
+<sysoverride name="callbacks" render="1"/>
     <renderfunction name="g_boxed_copy" ponyname="boxed_copy" render="1" deprecated=""/>
     <renderfunction name="g_boxed_free" ponyname="boxed_free" render="1" deprecated=""/>
     <renderfunction name="g_boxed_type_register_static" ponyname="boxed_type_register_static" render="1" deprecated=""/>

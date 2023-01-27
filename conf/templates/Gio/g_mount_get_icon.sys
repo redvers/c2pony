@@ -1,0 +1,2 @@
+  fun get_icon(mount': NullablePointer[GMountT]): NullablePointer[GIconT] =>
+    @g_mount_get_icon(mount')

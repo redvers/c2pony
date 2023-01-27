@@ -1,0 +1,2 @@
+  fun ref replace_contents_async(contents': String, length': U64, etag': String, make_backup': I32, flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GFileP.replace_contents_async(this, contents', length', etag', make_backup', flags', cancellable', callback', user_data')

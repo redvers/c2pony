@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GDBusProxyI is GObjectI
+interface GDBusProxyI is (GObjectI & GAsyncInitableI & GDBusInterfaceI & GInitableI)
   fun ref getptr(): NullablePointer[GObjectT]

@@ -1,0 +1,2 @@
+  fun ref serialize(): NullablePointer[GVariantT] =>
+    GIconP.serialize(this)

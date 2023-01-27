@@ -1,0 +1,2 @@
+  fun can_poll(stream': NullablePointer[GPollableInputStreamT]): I32 =>
+    @g_pollable_input_stream_can_poll(stream')

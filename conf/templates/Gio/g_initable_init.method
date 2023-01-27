@@ -1,0 +1,2 @@
+  fun ref init(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    GInitableP.init(this, cancellable', error')

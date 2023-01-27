@@ -1,0 +1,2 @@
+  fun set_certificate(conn': NullablePointer[GDtlsConnectionT], certificate': NullablePointer[GTlsCertificateT]): None =>
+    @g_dtls_connection_set_certificate(conn', certificate')

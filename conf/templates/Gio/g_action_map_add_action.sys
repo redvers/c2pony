@@ -1,0 +1,2 @@
+  fun add_action(action_map': GActionMapI, action': GActionI): None =>
+    @g_action_map_add_action(action_map'.getptr(), action'.getptr())

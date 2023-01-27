@@ -1,0 +1,2 @@
+  fun ref get_icon(): NullablePointer[GIconT] =>
+    GVolumeP.get_icon(this)

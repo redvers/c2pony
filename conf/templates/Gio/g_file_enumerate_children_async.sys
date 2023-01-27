@@ -1,0 +1,2 @@
+  fun enumerate_children_async(file': NullablePointer[GFileT], attributes': String, flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_enumerate_children_async(file', attributes'.cstring(), flags', io_priority', cancellable', callback', user_data')

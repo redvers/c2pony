@@ -1,0 +1,2 @@
+  fun set_database(conn': NullablePointer[GDtlsConnectionT], database': NullablePointer[GTlsDatabaseT]): None =>
+    @g_dtls_connection_set_database(conn', database')

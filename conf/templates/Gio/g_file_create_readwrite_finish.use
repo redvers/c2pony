@@ -1,0 +1,1 @@
+use @g_file_create_readwrite_finish[NullablePointer[GFileIOStreamT]](file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

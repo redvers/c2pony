@@ -1,0 +1,2 @@
+  fun ref can_start(): I32 =>
+    GDriveP.can_start(this)

@@ -1,0 +1,1 @@
+use @g_file_new_tmp[NullablePointer[GFileT]](tmpl': Pointer[U8] tag, iostream': Pointer[NullablePointer[GFileIOStreamT]], error': NullablePointer[GErrorT])

@@ -1,2 +1,2 @@
-  fun type_register_dynamic(parent_type': U64, type_name': String, plugin': NullablePointer[GTypePluginT], flags': U32): U64 =>
-    @g_type_register_dynamic(parent_type', type_name'.cstring(), plugin', flags')
+  fun type_register_dynamic(parent_type': U64, type_name': String, plugin': GTypePluginI, flags': U32): U64 =>
+    @g_type_register_dynamic(parent_type', type_name'.cstring(), plugin'.getptr(), flags')

@@ -1,0 +1,2 @@
+  fun start_mountable(file': NullablePointer[GFileT], flags': U32, start_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_start_mountable(file', flags', start_operation', cancellable', callback', user_data')

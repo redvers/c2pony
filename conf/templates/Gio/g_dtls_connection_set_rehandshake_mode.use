@@ -1,0 +1,1 @@
+use @g_dtls_connection_set_rehandshake_mode[None](conn': NullablePointer[GDtlsConnectionT], mode': U32)

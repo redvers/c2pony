@@ -1,0 +1,2 @@
+  fun ref get_supported_types(): Pointer[Pointer[U8]] tag =>
+    GAppInfoP.get_supported_types(this)

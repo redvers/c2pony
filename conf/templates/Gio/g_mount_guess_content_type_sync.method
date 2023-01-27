@@ -1,0 +1,2 @@
+  fun ref guess_content_type_sync(force_rescan': I32, cancellable': NullablePointer[GCancellableT], error': GError): Pointer[Pointer[U8]] tag =>
+    GMountP.guess_content_type_sync(this, force_rescan', cancellable', error')

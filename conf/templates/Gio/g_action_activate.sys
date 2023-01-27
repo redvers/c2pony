@@ -1,0 +1,2 @@
+  fun activate(action': GActionI, parameter': NullablePointer[GVariantT]): None =>
+    @g_action_activate(action'.getptr(), parameter')

@@ -1,0 +1,1 @@
+use @g_file_mount_mountable_finish[NullablePointer[GFileT]](file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

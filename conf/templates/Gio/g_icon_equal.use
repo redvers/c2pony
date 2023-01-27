@@ -1,0 +1,1 @@
+use @g_icon_equal[I32](icon1': NullablePointer[GIconT], icon2': NullablePointer[GIconT])

@@ -2,6 +2,7 @@
 <rs xmlns:t="http://www.gtk.org/introspection/core/1.0" xmlns:c="http://www.gtk.org/introspection/c/1.0" xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
   <ns namespace="GObject">
     /* Overrides */
+    <!-- <renderfunction name="callbacks" ponyname="gnew" render="1" deprecated=""/> -->
     <renderfunction name="g_object_new" ponyname="gnew" render="1" deprecated=""/>
     <renderfunction name="g_object_new_s" ponyname="gnew" render="1" deprecated=""/>
     <renderfunction name="g_object_new_s_u32" ponyname="gnew" render="1" deprecated=""/>
@@ -226,7 +227,7 @@
 </renderstruct>
     <renderstruct name="GInitiallyUnownedClass" render="0">
 </renderstruct>
-    <renderstruct name="GInterfaceInfo" render="0">
+    <renderstruct name="GInterfaceInfo" render="1">
 </renderstruct>
     <renderstruct name="GObjectClass" render="0">
       <rendermethod name="g_object_class_find_property" ponyname="find_property" render="0" deprecated=""/>
@@ -269,7 +270,7 @@
     </renderstruct>
     <renderstruct name="GTypeFundamentalInfo" render="0">
 </renderstruct>
-    <renderstruct name="GTypeInfo" render="0">
+    <renderstruct name="GTypeInfo" render="1">
 </renderstruct>
     <renderstruct name="GTypeInstance" render="1">
       <rendermethod name="g_type_instance_get_private" ponyname="get_private" render="0" deprecated=""/>
@@ -287,10 +288,10 @@
 </renderstruct>
     <renderstruct name="GTypeQuery" render="0">
 </renderstruct>
-    <renderstruct name="GTypeValueTable" render="0">
+    <renderstruct name="GTypeValueTable" render="1">
       <renderfunction name="g_type_value_table_peek" ponyname="peek" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GValue" render="0">
+    <renderstruct name="GValue" render="1">
       <rendermethod name="g_value_copy" ponyname="copy" render="0" deprecated=""/>
       <rendermethod name="g_value_dup_boxed" ponyname="dup_boxed" render="0" deprecated=""/>
       <rendermethod name="g_value_dup_object" ponyname="dup_object" render="0" deprecated=""/>
@@ -518,10 +519,10 @@
       <rendermethod name="g_type_module_unuse" ponyname="unuse" render="0" deprecated=""/>
       <rendermethod name="g_type_module_use" ponyname="use" render="0" deprecated=""/>
     </renderclass>
-    <renderinterface name="GTypePlugin" render="0">
-      <rendermethod name="g_type_plugin_complete_interface_info" ponyname="complete_interface_info" render="0" deprecated=""/>
-      <rendermethod name="g_type_plugin_complete_type_info" ponyname="complete_type_info" render="0" deprecated=""/>
-      <rendermethod name="g_type_plugin_unuse" ponyname="unuse" render="0" deprecated=""/>
+    <renderinterface name="GTypePlugin" render="1">
+      <rendermethod name="g_type_plugin_complete_interface_info" ponyname="complete_interface_info" render="1" deprecated=""/>
+      <rendermethod name="g_type_plugin_complete_type_info" ponyname="complete_type_info" render="1" deprecated=""/>
+      <rendermethod name="g_type_plugin_unuse" ponyname="unuse" render="1" deprecated=""/>
       <rendermethod name="g_type_plugin_use" ponyname="use" render="0" deprecated=""/>
     </renderinterface>
     <rendercallback name="GBaseFinalizeFunc" render="0"/>

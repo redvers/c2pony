@@ -1,0 +1,2 @@
+  fun delete_finish(file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_file_delete_finish(file', result', error'.ptr)

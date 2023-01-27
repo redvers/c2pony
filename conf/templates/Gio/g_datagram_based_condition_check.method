@@ -1,0 +1,2 @@
+  fun ref condition_check(condition': U32): U32 =>
+    GDatagramBasedP.condition_check(this, condition')

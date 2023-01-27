@@ -1,0 +1,1 @@
+use @g_proxy_get_default_for_protocol[NullablePointer[GProxyT]](protocol': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun ref query_default_handler_finish(result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GAppInfoT] =>
+    GFileP.query_default_handler_finish(this, result', error')

@@ -1,0 +1,2 @@
+  fun get_child_for_display_name(file': NullablePointer[GFileT], display_name': String, error': GError): NullablePointer[GFileT] =>
+    @g_file_get_child_for_display_name(file', display_name'.cstring(), error'.ptr)

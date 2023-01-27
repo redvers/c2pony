@@ -67,6 +67,45 @@
 
     </xsl:for-each>
 
+    <xsl:for-each select="./renderinterface[@render=$debug]">
+      <xsl:variable name="root" select="."/>
+      <xsl:variable name="classname" select="$root/@name"/>
+      <!-- classfile None -->
+      <!-- class interface next -->
+      <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $classname, 'I.pony', $newline)"/>
+      <xsl:value-of select="concat('cat ../templates/', $namespace, '/', $classname, 'I.classinterface')"/>
+      <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, 'I.pony', $newline)"/>
+
+      <!-- struct next -->
+      <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $classname, 'T.pony', $newline)"/>
+      <xsl:value-of select="concat('cat ../templates/', $namespace, '/', $classname, 'T.struct')"/>
+      <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, 'T.pony', $newline)"/>
+
+      <xsl:for-each select="$root/rendermethod[@render='1']">
+        <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.method')"/>
+        <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, 'I.pony', $newline)"/>
+      </xsl:for-each>
+
+      <!-- class primitive next -->
+      <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $classname, 'P.pony', $newline)"/>
+
+      <xsl:for-each select="$root/rendermethod[@render='1']">
+        <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.use')"/>
+        <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, 'P.pony', $newline)"/>
+      </xsl:for-each>
+
+      <xsl:value-of select="concat('cat ../templates/', $namespace, '/', $classname, 'P.primitive')"/>
+      <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, 'P.pony', $newline)"/>
+
+      <xsl:for-each select="$root/rendermethod[@render='1']">
+        <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.sys')"/>
+        <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, 'P.pony', $newline)"/>
+      </xsl:for-each>
+
+
+    </xsl:for-each>
+
+
     <xsl:for-each select="./renderstruct[@render=$debug]">
       <xsl:variable name="root" select="."/>
       <xsl:variable name="classname" select="$root/@name"/>

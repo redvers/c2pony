@@ -1,0 +1,2 @@
+  fun can_eject(volume': NullablePointer[GVolumeT]): I32 =>
+    @g_volume_can_eject(volume')

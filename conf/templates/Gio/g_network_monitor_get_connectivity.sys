@@ -1,0 +1,2 @@
+  fun get_connectivity(monitor': NullablePointer[GNetworkMonitorT]): U32 =>
+    @g_network_monitor_get_connectivity(monitor')

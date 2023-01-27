@@ -1,0 +1,1 @@
+use @g_type_plugin_complete_type_info[None](plugin': NullablePointer[GObjectT], g_type': U64, info': NullablePointer[GTypeInfoT], value_table': NullablePointer[GTypeValueTableT])

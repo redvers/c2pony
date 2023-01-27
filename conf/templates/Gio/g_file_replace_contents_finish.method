@@ -1,0 +1,2 @@
+  fun ref replace_contents_finish(res': NullablePointer[GAsyncResultT], new_etag': Pointer[Pointer[U8]] tag, error': GError): I32 =>
+    GFileP.replace_contents_finish(this, res', new_etag', error')

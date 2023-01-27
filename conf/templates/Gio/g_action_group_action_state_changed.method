@@ -1,0 +1,2 @@
+  fun ref action_state_changed(action_name': String, state': NullablePointer[GVariantT]): None =>
+    GActionGroupP.action_state_changed(this, action_name', state')

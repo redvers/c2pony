@@ -1,0 +1,2 @@
+  fun get_sort_key(mount': NullablePointer[GMountT]): String iso^ =>
+    String.from_cstring(@g_mount_get_sort_key(mount')).clone()

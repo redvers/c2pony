@@ -1,0 +1,1 @@
+use @g_volume_eject_with_operation_finish[I32](volume': NullablePointer[GVolumeT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

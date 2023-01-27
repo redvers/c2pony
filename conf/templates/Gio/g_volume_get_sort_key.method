@@ -1,0 +1,2 @@
+  fun ref get_sort_key(): String iso^ =>
+    GVolumeP.get_sort_key(this)

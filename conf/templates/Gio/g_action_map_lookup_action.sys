@@ -1,0 +1,2 @@
+  fun lookup_action(action_map': GActionMapI, action_name': String): NullablePointer[GObjectT] =>
+@g_action_map_lookup_action(action_map'.getptr(), action_name'.cstring())

@@ -1,0 +1,2 @@
+  fun add_action_entries(action_map': GActionMapI, entries': NullablePointer[GActionEntryT], n_entries': I32, user_data': Pointer[None] tag): None =>
+    @g_action_map_add_action_entries(action_map'.getptr(), entries', n_entries', user_data')

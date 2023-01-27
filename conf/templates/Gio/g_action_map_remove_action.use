@@ -1,0 +1,1 @@
+use @g_action_map_remove_action[None](action_map': NullablePointer[GObjectT], action_name': Pointer[U8] tag)

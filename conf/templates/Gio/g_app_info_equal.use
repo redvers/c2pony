@@ -1,0 +1,1 @@
+use @g_app_info_equal[I32](appinfo1': NullablePointer[GAppInfoT], appinfo2': NullablePointer[GAppInfoT])

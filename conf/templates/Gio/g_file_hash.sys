@@ -1,0 +1,2 @@
+  fun hash(file': Pointer[None] tag): U32 =>
+    @g_file_hash(file')

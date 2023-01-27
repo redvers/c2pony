@@ -1,0 +1,1 @@
+use @g_proxy_resolver_lookup[Pointer[Pointer[U8]] tag](resolver': NullablePointer[GProxyResolverT], uri': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

@@ -1,0 +1,2 @@
+  fun ref open_readwrite_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileIOStreamT] =>
+    GFileP.open_readwrite_finish(this, res', error')

@@ -1,0 +1,1 @@
+use @g_type_plugin_use[None](plugin': NullablePointer[GObjectT])

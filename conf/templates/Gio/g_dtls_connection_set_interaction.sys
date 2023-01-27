@@ -1,0 +1,2 @@
+  fun set_interaction(conn': NullablePointer[GDtlsConnectionT], interaction': NullablePointer[GTlsInteractionT]): None =>
+    @g_dtls_connection_set_interaction(conn', interaction')

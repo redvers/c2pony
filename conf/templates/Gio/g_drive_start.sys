@@ -1,0 +1,2 @@
+  fun start(drive': NullablePointer[GDriveT], flags': U32, mount_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_drive_start(drive', flags', mount_operation', cancellable', callback', user_data')

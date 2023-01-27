@@ -1,0 +1,2 @@
+  fun dup(appinfo': NullablePointer[GAppInfoT]): NullablePointer[GAppInfoT] =>
+    @g_app_info_dup(appinfo')

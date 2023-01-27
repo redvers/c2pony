@@ -1,0 +1,8 @@
+
+type GInterfaceInitFunc is Pointer[None]
+type GInterfaceFinalizeFunc is Pointer[None]
+type GBaseInitFunc is Pointer[None]
+type GBaseFinalizeFunc is Pointer[None]
+type GClassInitFunc is Pointer[None]
+type GClassFinalizeFunc is Pointer[None]
+type GInstanceInitFunc is Pointer[None]

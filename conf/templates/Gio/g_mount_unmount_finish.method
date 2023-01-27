@@ -1,0 +1,2 @@
+  fun ref unmount_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    GMountP.unmount_finish(this, result', error')

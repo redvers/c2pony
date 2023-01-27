@@ -1,0 +1,2 @@
+  fun ref dup_object(): NullablePointer[GDBusObjectT] =>
+    GDBusInterfaceP.dup_object(this)

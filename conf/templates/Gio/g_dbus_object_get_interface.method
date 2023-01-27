@@ -1,0 +1,2 @@
+  fun ref get_interface(interface_name': String): NullablePointer[GDBusInterfaceT] =>
+    GDBusObjectP.get_interface(this, interface_name')

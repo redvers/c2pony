@@ -1,0 +1,2 @@
+  fun ref is_tagged(source_tag': Pointer[None] tag): I32 =>
+    GAsyncResultP.is_tagged(this, source_tag')

@@ -1,0 +1,1 @@
+use @g_file_replace_contents_finish[I32](file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], new_etag': Pointer[Pointer[U8]] tag, error': NullablePointer[GErrorT])

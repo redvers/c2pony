@@ -1,0 +1,1 @@
+use @g_list_model_get_item[Pointer[None] tag](list': NullablePointer[GListModelT], position': U32)

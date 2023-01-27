@@ -1,0 +1,2 @@
+  fun can_delete(appinfo': NullablePointer[GAppInfoT]): I32 =>
+    @g_app_info_can_delete(appinfo')

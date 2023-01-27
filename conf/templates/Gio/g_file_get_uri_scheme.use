@@ -1,0 +1,1 @@
+use @g_file_get_uri_scheme[Pointer[U8]](file': NullablePointer[GFileT])

@@ -1,0 +1,2 @@
+  fun query_info_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileInfoT] =>
+    @g_file_query_info_finish(file', res', error'.ptr)

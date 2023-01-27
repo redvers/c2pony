@@ -1,0 +1,1 @@
+use @g_file_supports_thread_contexts[I32](file': NullablePointer[GFileT])

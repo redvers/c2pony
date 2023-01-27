@@ -1,0 +1,2 @@
+  fun ref load_async(size': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GLoadableIconP.load_async(this, size', cancellable', callback', user_data')

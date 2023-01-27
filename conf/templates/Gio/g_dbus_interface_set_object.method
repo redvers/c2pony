@@ -1,0 +1,2 @@
+  fun ref set_object(object': NullablePointer[GDBusObjectT]): None =>
+    GDBusInterfaceP.set_object(this, object')

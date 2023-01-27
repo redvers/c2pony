@@ -1,0 +1,2 @@
+  fun open_readwrite_async(file': NullablePointer[GFileT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_open_readwrite_async(file', io_priority', cancellable', callback', user_data')

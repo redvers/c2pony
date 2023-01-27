@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GFileIconI is GObjectI
+interface GFileIconI is (GObjectI & GIconI & GLoadableIconI)
   fun ref getptr(): NullablePointer[GObjectT]

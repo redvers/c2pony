@@ -1,0 +1,2 @@
+  fun eject(mount': NullablePointer[GMountT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_mount_eject(mount', flags', cancellable', callback', user_data')

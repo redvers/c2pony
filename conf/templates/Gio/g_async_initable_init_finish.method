@@ -1,0 +1,2 @@
+  fun ref init_finish(res': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    GAsyncInitableP.init_finish(this, res', error')

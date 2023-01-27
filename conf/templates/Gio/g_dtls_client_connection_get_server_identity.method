@@ -1,0 +1,2 @@
+  fun ref get_server_identity(): NullablePointer[GSocketConnectableT] =>
+    GDtlsClientConnectionP.get_server_identity(this)

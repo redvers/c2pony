@@ -1,0 +1,2 @@
+  fun ref monitor_directory(flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileMonitorT] =>
+    GFileP.monitor_directory(this, flags', cancellable', error')

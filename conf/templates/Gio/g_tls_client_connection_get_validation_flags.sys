@@ -1,0 +1,2 @@
+  fun get_validation_flags(conn': NullablePointer[GTlsClientConnectionT]): U32 =>
+    @g_tls_client_connection_get_validation_flags(conn')

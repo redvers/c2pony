@@ -1,0 +1,2 @@
+  fun receive_messages(datagram_based': NullablePointer[GDatagramBasedT], messages': NullablePointer[GInputMessageT], num_messages': U32, flags': I32, timeout': I64, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_datagram_based_receive_messages(datagram_based', messages', num_messages', flags', timeout', cancellable', error'.ptr)

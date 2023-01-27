@@ -1,0 +1,2 @@
+  fun ref action_removed(action_name': String): None =>
+    GActionGroupP.action_removed(this, action_name')

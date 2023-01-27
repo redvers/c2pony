@@ -1,0 +1,1 @@
+use @g_pollable_input_stream_read_nonblocking[I64](stream': NullablePointer[GPollableInputStreamT], buffer': Pointer[None] tag, count': U64, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

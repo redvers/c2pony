@@ -1,0 +1,2 @@
+  fun get_icon(drive': NullablePointer[GDriveT]): NullablePointer[GIconT] =>
+    @g_drive_get_icon(drive')

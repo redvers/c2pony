@@ -1,0 +1,2 @@
+  fun new(base_io_stream': NullablePointer[GIOStreamT], certificate': NullablePointer[GTlsCertificateT], error': GError): NullablePointer[GIOStreamT] =>
+    @g_tls_server_connection_new(base_io_stream', certificate', error'.ptr)

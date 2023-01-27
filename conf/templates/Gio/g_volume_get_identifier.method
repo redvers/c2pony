@@ -1,0 +1,2 @@
+  fun ref get_identifier(kind': String): String iso^ =>
+    GVolumeP.get_identifier(this, kind')

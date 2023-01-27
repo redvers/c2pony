@@ -1,0 +1,2 @@
+  fun activate_action(action_group': GActionGroupI, action_name': String, parameter': NullablePointer[GVariantT]): None =>
+    @g_action_group_activate_action(action_group'.getptr(), action_name'.cstring(), parameter')

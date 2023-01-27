@@ -1,0 +1,2 @@
+  fun load(icon': NullablePointer[GLoadableIconT], size': I32, type': Pointer[Pointer[U8]] tag, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GInputStreamT] =>
+    @g_loadable_icon_load(icon', size', type', cancellable', error'.ptr)

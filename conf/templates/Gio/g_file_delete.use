@@ -1,0 +1,1 @@
+use @g_file_delete[I32](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

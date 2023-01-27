@@ -1,0 +1,2 @@
+  fun eject_with_operation_finish(drive': NullablePointer[GDriveT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_drive_eject_with_operation_finish(drive', result', error'.ptr)

@@ -1,0 +1,2 @@
+  fun copy_attributes(source': NullablePointer[GFileT], destination': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_file_copy_attributes(source', destination', flags', cancellable', error'.ptr)

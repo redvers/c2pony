@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GSimpleProxyResolverI is GObjectI
+interface GSimpleProxyResolverI is (GObjectI & GProxyResolverI)
   fun ref getptr(): NullablePointer[GObjectT]

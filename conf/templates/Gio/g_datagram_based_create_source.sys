@@ -1,0 +1,2 @@
+  fun create_source(datagram_based': NullablePointer[GDatagramBasedT], condition': U32, cancellable': NullablePointer[GCancellableT]): NullablePointer[GSourceT] =>
+    @g_datagram_based_create_source(datagram_based', condition', cancellable')

@@ -1,0 +1,2 @@
+  fun ref eject_with_operation_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    GMountP.eject_with_operation_finish(this, result', error')

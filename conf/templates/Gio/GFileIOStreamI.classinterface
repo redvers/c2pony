@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GFileIOStreamI is GIOStreamI
+interface GFileIOStreamI is (GIOStreamI & GSeekableI)
   fun ref getptr(): NullablePointer[GObjectT]

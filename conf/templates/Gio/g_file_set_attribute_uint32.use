@@ -1,0 +1,1 @@
+use @g_file_set_attribute_uint32[I32](file': NullablePointer[GFileT], attribute': Pointer[U8] tag, value': U32, flags': U32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

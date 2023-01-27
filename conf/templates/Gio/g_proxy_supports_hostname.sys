@@ -1,0 +1,2 @@
+  fun supports_hostname(proxy': NullablePointer[GProxyT]): I32 =>
+    @g_proxy_supports_hostname(proxy')

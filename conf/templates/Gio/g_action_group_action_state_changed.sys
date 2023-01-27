@@ -1,0 +1,2 @@
+  fun action_state_changed(action_group': GActionGroupI, action_name': String, state': NullablePointer[GVariantT]): None =>
+    @g_action_group_action_state_changed(action_group'.getptr(), action_name'.cstring(), state')

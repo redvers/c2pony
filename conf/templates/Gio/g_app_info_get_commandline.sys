@@ -1,0 +1,2 @@
+  fun get_commandline(appinfo': NullablePointer[GAppInfoT]): String iso^ =>
+    String.from_cstring(@g_app_info_get_commandline(appinfo')).clone()

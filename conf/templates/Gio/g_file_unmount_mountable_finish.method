@@ -1,0 +1,2 @@
+  fun ref unmount_mountable_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    GFileP.unmount_mountable_finish(this, result', error')

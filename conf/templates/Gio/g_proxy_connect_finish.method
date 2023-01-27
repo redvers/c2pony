@@ -1,0 +1,2 @@
+  fun ref connect_finish(result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GIOStreamT] =>
+    GProxyP.connect_finish(this, result', error')

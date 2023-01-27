@@ -1,0 +1,2 @@
+  fun ref dup(): NullablePointer[GAppInfoT] =>
+    GAppInfoP.dup(this)

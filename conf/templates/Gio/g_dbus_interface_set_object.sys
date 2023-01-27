@@ -1,0 +1,2 @@
+  fun set_object(interface': NullablePointer[GDBusInterfaceT], object': NullablePointer[GDBusObjectT]): None =>
+    @g_dbus_interface_set_object(interface', object')

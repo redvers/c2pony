@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GInetAddressMaskI is GObjectI
+interface GInetAddressMaskI is (GObjectI & GInitableI)
   fun ref getptr(): NullablePointer[GObjectT]

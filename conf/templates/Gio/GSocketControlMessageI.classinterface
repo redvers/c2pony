@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GSocketControlMessageI is GObjectI
+interface GSocketControlMessageI is (GObjectI)
   fun ref getptr(): NullablePointer[GObjectT]

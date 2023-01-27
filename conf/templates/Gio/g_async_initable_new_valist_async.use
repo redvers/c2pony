@@ -1,0 +1,1 @@
+use @g_async_initable_new_valist_async[None](object_type': U64, first_property_name': Pointer[U8] tag, var_args': NullablePointer[valisttagT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

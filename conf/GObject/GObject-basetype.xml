@@ -3,6 +3,7 @@
   <basetype name="GInitiallyUnowned" baseclass="GObject"/>
   <basetype name="GObject" baseclass="GObject"/>
   <basetype name="GTypeModule" baseclass="GObject"/>
+  <basetype name="GTypePlugin" baseclass="GObject"/>
   <basetype name="GParamSpec" baseclass="GParamSpec"/>
   <basetype name="GParamSpecBoolean" baseclass="GParamSpec"/>
   <basetype name="GParamSpecBoxed" baseclass="GParamSpec"/>

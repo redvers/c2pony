@@ -1,0 +1,2 @@
+  fun reset_type_associations(content_type': String): None =>
+    @g_app_info_reset_type_associations(content_type'.cstring())

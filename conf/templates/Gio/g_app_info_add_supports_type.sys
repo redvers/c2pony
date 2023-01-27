@@ -1,0 +1,2 @@
+  fun add_supports_type(appinfo': NullablePointer[GAppInfoT], content_type': String, error': GError): I32 =>
+    @g_app_info_add_supports_type(appinfo', content_type'.cstring(), error'.ptr)

@@ -1,0 +1,2 @@
+  fun find_enclosing_mount(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GMountT] =>
+    @g_file_find_enclosing_mount(file', cancellable', error'.ptr)

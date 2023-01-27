@@ -1,0 +1,2 @@
+  fun newv_async(object_type': U64, n_parameters': U32, parameters': NullablePointer[GParameterT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_async_initable_newv_async(object_type', n_parameters', parameters', io_priority', cancellable', callback', user_data')

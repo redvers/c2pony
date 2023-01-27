@@ -1,0 +1,2 @@
+  fun unuse(plugin': GTypePluginI): None =>
+    @g_type_plugin_unuse(plugin'.getptr())

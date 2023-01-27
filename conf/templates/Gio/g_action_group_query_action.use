@@ -1,0 +1,1 @@
+use @g_action_group_query_action[I32](action_group': NullablePointer[GObjectT], action_name': Pointer[U8] tag, enabled': Pointer[I32] tag, parameter_type': Pointer[NullablePointer[GVariantTypeT]], state_type': Pointer[NullablePointer[GVariantTypeT]], state_hint': Pointer[NullablePointer[GVariantT]], state': Pointer[NullablePointer[GVariantT]])

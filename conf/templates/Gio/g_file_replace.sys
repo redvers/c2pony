@@ -1,0 +1,2 @@
+  fun replace(file': NullablePointer[GFileT], etag': String, make_backup': I32, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileOutputStreamT] =>
+    @g_file_replace(file', etag'.cstring(), make_backup', flags', cancellable', error'.ptr)

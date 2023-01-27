@@ -1,0 +1,2 @@
+  fun new(anchors': String, error': GError): NullablePointer[GTlsDatabaseT] =>
+    @g_tls_file_database_new(anchors'.cstring(), error'.ptr)

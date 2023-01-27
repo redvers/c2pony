@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GSettingsBackendI is GObjectI
+interface GSettingsBackendI is (GObjectI)
   fun ref getptr(): NullablePointer[GObjectT]

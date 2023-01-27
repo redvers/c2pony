@@ -1,0 +1,1 @@
+use @g_list_model_get_item_type[U64](list': NullablePointer[GListModelT])

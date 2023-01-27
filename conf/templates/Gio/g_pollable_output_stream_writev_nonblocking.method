@@ -1,0 +1,2 @@
+  fun ref writev_nonblocking(vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    GPollableOutputStreamP.writev_nonblocking(this, vectors', n_vectors', bytes_written', cancellable', error')

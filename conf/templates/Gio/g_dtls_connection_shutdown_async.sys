@@ -1,0 +1,2 @@
+  fun shutdown_async(conn': NullablePointer[GDtlsConnectionT], shutdown_read': I32, shutdown_write': I32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dtls_connection_shutdown_async(conn', shutdown_read', shutdown_write', io_priority', cancellable', callback', user_data')

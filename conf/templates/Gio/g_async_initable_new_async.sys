@@ -1,0 +1,2 @@
+  fun new_async(object_type': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, first_property_name': String, ...): None =>
+    @g_async_initable_new_async(object_type', io_priority', cancellable', callback', user_data', first_property_name'.cstring(), ...)

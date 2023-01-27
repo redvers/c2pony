@@ -1,0 +1,2 @@
+  fun should_automount(volume': NullablePointer[GVolumeT]): I32 =>
+    @g_volume_should_automount(volume')

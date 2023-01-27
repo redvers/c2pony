@@ -1,0 +1,1 @@
+use @g_file_replace_readwrite_async[None](file': NullablePointer[GFileT], etag': Pointer[U8] tag, make_backup': I32, flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

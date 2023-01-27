@@ -1,0 +1,2 @@
+  fun ref supports_hostname(): I32 =>
+    GProxyP.supports_hostname(this)

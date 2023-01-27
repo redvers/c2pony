@@ -1,0 +1,2 @@
+  fun ref get_uuid(): String iso^ =>
+    GVolumeP.get_uuid(this)

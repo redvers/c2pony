@@ -1,0 +1,2 @@
+  fun ref get_icon(): NullablePointer[GIconT] =>
+    GMountP.get_icon(this)

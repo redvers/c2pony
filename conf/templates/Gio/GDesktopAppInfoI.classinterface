@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GDesktopAppInfoI is GObjectI
+interface GDesktopAppInfoI is (GObjectI & GAppInfoI)
   fun ref getptr(): NullablePointer[GObjectT]

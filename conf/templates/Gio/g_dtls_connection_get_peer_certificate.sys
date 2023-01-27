@@ -1,0 +1,2 @@
+  fun get_peer_certificate(conn': NullablePointer[GDtlsConnectionT]): NullablePointer[GTlsCertificateT] =>
+    @g_dtls_connection_get_peer_certificate(conn')

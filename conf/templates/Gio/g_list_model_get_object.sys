@@ -1,0 +1,2 @@
+  fun get_object(list': NullablePointer[GListModelT], position': U32): NullablePointer[GObjectT] =>
+    @g_list_model_get_object(list', position')

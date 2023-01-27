@@ -1,0 +1,2 @@
+  fun shutdown_finish(conn': NullablePointer[GDtlsConnectionT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_dtls_connection_shutdown_finish(conn', result', error'.ptr)

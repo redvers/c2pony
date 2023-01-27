@@ -1,0 +1,2 @@
+  fun ref load_bytes(cancellable': NullablePointer[GCancellableT], etag_out': Pointer[Pointer[U8]] tag, error': GError): NullablePointer[GBytesT] =>
+    GFileP.load_bytes(this, cancellable', etag_out', error')

@@ -1,0 +1,2 @@
+  fun ref get_item_type(): U64 =>
+    GListModelP.get_item_type(this)

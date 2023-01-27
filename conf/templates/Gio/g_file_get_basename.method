@@ -1,0 +1,2 @@
+  fun ref get_basename(): String iso^ =>
+    GFileP.get_basename(this)

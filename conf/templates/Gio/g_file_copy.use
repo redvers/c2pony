@@ -1,0 +1,1 @@
+use @g_file_copy[I32](source': NullablePointer[GFileT], destination': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], progress_callback': GFileProgressCallback, progress_callback_data': Pointer[None] tag, error': NullablePointer[GErrorT])

@@ -1,0 +1,2 @@
+  fun ref get_relative_path(descendant': NullablePointer[GFileT]): String iso^ =>
+    GFileP.get_relative_path(this, descendant')

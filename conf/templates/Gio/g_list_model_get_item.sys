@@ -1,0 +1,2 @@
+  fun get_item(list': NullablePointer[GListModelT], position': U32): Pointer[None] tag =>
+    @g_list_model_get_item(list', position')

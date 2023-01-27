@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GZlibCompressorI is GObjectI
+interface GZlibCompressorI is (GObjectI & GConverterI)
   fun ref getptr(): NullablePointer[GObjectT]

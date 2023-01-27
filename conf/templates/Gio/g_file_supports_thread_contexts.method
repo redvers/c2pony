@@ -1,0 +1,2 @@
+  fun ref supports_thread_contexts(): I32 =>
+    GFileP.supports_thread_contexts(this)

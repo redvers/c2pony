@@ -1,0 +1,2 @@
+  fun load_async(icon': NullablePointer[GLoadableIconT], size': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_loadable_icon_load_async(icon', size', cancellable', callback', user_data')

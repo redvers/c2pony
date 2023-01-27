@@ -1,0 +1,2 @@
+  fun ref launch_uris(uris': NullablePointer[GListT], context': NullablePointer[GAppLaunchContextT], error': GError): I32 =>
+    GAppInfoP.launch_uris(this, uris', context', error')

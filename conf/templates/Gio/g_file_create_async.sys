@@ -1,0 +1,2 @@
+  fun create_async(file': NullablePointer[GFileT], flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_create_async(file', flags', io_priority', cancellable', callback', user_data')

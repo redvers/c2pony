@@ -1,0 +1,1 @@
+use @g_volume_get_activation_root[NullablePointer[GFileT]](volume': NullablePointer[GVolumeT])

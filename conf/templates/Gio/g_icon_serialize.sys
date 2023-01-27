@@ -1,0 +1,2 @@
+  fun serialize(icon': NullablePointer[GIconT]): NullablePointer[GVariantT] =>
+    @g_icon_serialize(icon')

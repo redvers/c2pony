@@ -1,0 +1,1 @@
+use @g_proxy_connect_finish[NullablePointer[GIOStreamT]](proxy': NullablePointer[GProxyT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

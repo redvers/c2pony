@@ -1,0 +1,1 @@
+use @g_file_dup[NullablePointer[GFileT]](file': NullablePointer[GFileT])

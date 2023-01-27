@@ -1,0 +1,2 @@
+  fun ref unmount_mountable(flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GFileP.unmount_mountable(this, flags', cancellable', callback', user_data')

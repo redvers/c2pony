@@ -1,0 +1,2 @@
+  fun ref read_nonblocking(buffer': Pointer[None] tag, count': U64, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
+    GPollableInputStreamP.read_nonblocking(this, buffer', count', cancellable', error')

@@ -1,0 +1,2 @@
+  fun ref get_item(position': U32): Pointer[None] tag =>
+    GListModelP.get_item(this, position')

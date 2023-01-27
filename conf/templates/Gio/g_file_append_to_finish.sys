@@ -1,0 +1,2 @@
+  fun append_to_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileOutputStreamT] =>
+    @g_file_append_to_finish(file', res', error'.ptr)

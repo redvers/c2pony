@@ -1,0 +1,2 @@
+  fun create_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileOutputStreamT] =>
+    @g_file_create_finish(file', res', error'.ptr)

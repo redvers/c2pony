@@ -1,2 +1,2 @@
-  fun ref insert(action': NullablePointer[GActionT]): None =>
+  fun ref insert(action': GActionI): None =>
     GSimpleActionGroupP.insert(this, action')

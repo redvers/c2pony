@@ -1,0 +1,2 @@
+  fun ref equal(icon2': NullablePointer[GIconT]): I32 =>
+    GIconP.equal(this, icon2')

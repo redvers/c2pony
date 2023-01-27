@@ -1,0 +1,2 @@
+  fun ref is_writable(): I32 =>
+    GPollableOutputStreamP.is_writable(this)

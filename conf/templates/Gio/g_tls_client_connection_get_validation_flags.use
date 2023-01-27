@@ -1,0 +1,1 @@
+use @g_tls_client_connection_get_validation_flags[U32](conn': NullablePointer[GTlsClientConnectionT])

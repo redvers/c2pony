@@ -1,0 +1,2 @@
+  fun unshadow(mount': NullablePointer[GMountT]): None =>
+    @g_mount_unshadow(mount')

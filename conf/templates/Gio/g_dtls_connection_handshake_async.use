@@ -1,0 +1,1 @@
+use @g_dtls_connection_handshake_async[None](conn': NullablePointer[GDtlsConnectionT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun get_name(mount': NullablePointer[GMountT]): String iso^ =>
+    String.from_cstring(@g_mount_get_name(mount')).clone()

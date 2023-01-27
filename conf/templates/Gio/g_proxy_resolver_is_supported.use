@@ -1,0 +1,1 @@
+use @g_proxy_resolver_is_supported[I32](resolver': NullablePointer[GProxyResolverT])

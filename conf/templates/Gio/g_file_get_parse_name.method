@@ -1,0 +1,2 @@
+  fun ref get_parse_name(): String iso^ =>
+    GFileP.get_parse_name(this)

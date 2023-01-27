@@ -1,0 +1,2 @@
+  fun ref copy_session_state(source': NullablePointer[GTlsClientConnectionT]): None =>
+    GTlsClientConnectionP.copy_session_state(this, source')

@@ -1,0 +1,2 @@
+  fun ref can_unmount(): I32 =>
+    GMountP.can_unmount(this)

@@ -1,0 +1,1 @@
+use @g_file_load_bytes[NullablePointer[GBytesT]](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], etag_out': Pointer[Pointer[U8]] tag, error': NullablePointer[GErrorT])

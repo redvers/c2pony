@@ -1,0 +1,2 @@
+  fun activate_action_full(remote': NullablePointer[GRemoteActionGroupT], action_name': String, parameter': NullablePointer[GVariantT], platform_data': NullablePointer[GVariantT]): None =>
+    @g_remote_action_group_activate_action_full(remote', action_name'.cstring(), parameter', platform_data')

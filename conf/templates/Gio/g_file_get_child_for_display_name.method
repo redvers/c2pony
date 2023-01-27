@@ -1,0 +1,2 @@
+  fun ref get_child_for_display_name(display_name': String, error': GError): NullablePointer[GFileT] =>
+    GFileP.get_child_for_display_name(this, display_name', error')

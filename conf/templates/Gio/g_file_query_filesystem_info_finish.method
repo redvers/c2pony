@@ -1,0 +1,2 @@
+  fun ref query_filesystem_info_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileInfoT] =>
+    GFileP.query_filesystem_info_finish(this, res', error')

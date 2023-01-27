@@ -1,0 +1,2 @@
+  fun action_removed(action_group': GActionGroupI, action_name': String): None =>
+    @g_action_group_action_removed(action_group'.getptr(), action_name'.cstring())

@@ -1,0 +1,2 @@
+  fun connect_async(proxy': NullablePointer[GProxyT], connection': NullablePointer[GIOStreamT], proxy_address': NullablePointer[GProxyAddressT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_proxy_connect_async(proxy', connection', proxy_address', cancellable', callback', user_data')

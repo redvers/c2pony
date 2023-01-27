@@ -1,0 +1,2 @@
+  fun ref get_parameter_type(): NullablePointer[GVariantTypeT] =>
+    GActionP.get_parameter_type(this)

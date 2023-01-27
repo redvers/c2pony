@@ -1,0 +1,2 @@
+  fun ref lookup_action(action_name': String): NullablePointer[GObjectT] =>
+    GActionMapP.lookup_action(this, action_name')

@@ -1,0 +1,2 @@
+  fun ref is_native(): I32 =>
+    GFileP.is_native(this)

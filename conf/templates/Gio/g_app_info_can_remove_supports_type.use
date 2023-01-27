@@ -1,0 +1,1 @@
+use @g_app_info_can_remove_supports_type[I32](appinfo': NullablePointer[GAppInfoT])

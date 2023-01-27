@@ -1,0 +1,2 @@
+  fun has_action(action_group': GActionGroupI, action_name': String): I32 =>
+    @g_action_group_has_action(action_group'.getptr(), action_name'.cstring())

@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GFilterOutputStreamI is GOutputStreamI
+interface GFilterOutputStreamI is (GOutputStreamI)
   fun ref getptr(): NullablePointer[GObjectT]

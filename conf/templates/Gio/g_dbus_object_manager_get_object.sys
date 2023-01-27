@@ -1,0 +1,2 @@
+  fun get_object(manager': NullablePointer[GDBusObjectManagerT], object_path': String): NullablePointer[GDBusObjectT] =>
+    @g_dbus_object_manager_get_object(manager', object_path'.cstring())

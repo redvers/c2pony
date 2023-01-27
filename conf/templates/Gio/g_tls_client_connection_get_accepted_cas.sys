@@ -1,0 +1,2 @@
+  fun get_accepted_cas(conn': NullablePointer[GTlsClientConnectionT]): NullablePointer[GListT] =>
+    @g_tls_client_connection_get_accepted_cas(conn')

@@ -1,0 +1,2 @@
+  fun set_display_name_async(file': NullablePointer[GFileT], display_name': String, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_set_display_name_async(file', display_name'.cstring(), io_priority', cancellable', callback', user_data')

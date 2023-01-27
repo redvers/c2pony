@@ -1,0 +1,1 @@
+use @g_action_print_detailed_name[Pointer[U8]](action_name': Pointer[U8] tag, target_value': NullablePointer[GVariantT])

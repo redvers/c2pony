@@ -1,0 +1,1 @@
+use @g_memory_monitor_dup_default[NullablePointer[GMemoryMonitorT]]()

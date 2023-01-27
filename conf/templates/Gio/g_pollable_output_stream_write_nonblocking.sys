@@ -1,0 +1,2 @@
+  fun write_nonblocking(stream': NullablePointer[GPollableOutputStreamT], buffer': Pointer[None] tag, count': U64, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
+    @g_pollable_output_stream_write_nonblocking(stream', buffer', count', cancellable', error'.ptr)

@@ -1,0 +1,2 @@
+  fun ref load(size': I32, type': Pointer[Pointer[U8]] tag, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GInputStreamT] =>
+    GLoadableIconP.load(this, size', type', cancellable', error')

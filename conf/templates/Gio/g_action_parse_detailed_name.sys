@@ -1,0 +1,2 @@
+  fun parse_detailed_name(detailed_name': String, action_name': Pointer[Pointer[U8]] tag, target_value': Pointer[NullablePointer[GVariantT]], error': GError): I32 =>
+    @g_action_parse_detailed_name(detailed_name'.cstring(), action_name', target_value', error'.ptr)

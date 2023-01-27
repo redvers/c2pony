@@ -1,0 +1,2 @@
+  fun get_identifier(volume': NullablePointer[GVolumeT], kind': String): String iso^ =>
+    String.from_cstring(@g_volume_get_identifier(volume', kind'.cstring())).clone()

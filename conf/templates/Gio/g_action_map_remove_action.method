@@ -1,0 +1,2 @@
+  fun ref remove_action(action_name': String): None =>
+    GActionMapP.remove_action(this, action_name')

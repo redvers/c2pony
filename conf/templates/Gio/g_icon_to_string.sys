@@ -1,0 +1,2 @@
+  fun to_string(icon': NullablePointer[GIconT]): String iso^ =>
+    String.from_cstring(@g_icon_to_string(icon')).clone()

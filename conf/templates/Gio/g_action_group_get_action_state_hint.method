@@ -1,0 +1,2 @@
+  fun ref get_action_state_hint(action_name': String): NullablePointer[GVariantT] =>
+    GActionGroupP.get_action_state_hint(this, action_name')

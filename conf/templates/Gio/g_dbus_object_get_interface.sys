@@ -1,0 +1,2 @@
+  fun get_interface(object': NullablePointer[GDBusObjectT], interface_name': String): NullablePointer[GDBusInterfaceT] =>
+    @g_dbus_object_get_interface(object', interface_name'.cstring())

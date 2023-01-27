@@ -1,0 +1,2 @@
+  fun ref get_object(object_path': String): NullablePointer[GDBusObjectT] =>
+    GDBusObjectManagerP.get_object(this, object_path')

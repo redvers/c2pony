@@ -1,0 +1,2 @@
+  fun ref has_action(action_name': String): I32 =>
+    GActionGroupP.has_action(this, action_name')

@@ -1,0 +1,2 @@
+  fun get_sort_key(drive': NullablePointer[GDriveT]): String iso^ =>
+    String.from_cstring(@g_drive_get_sort_key(drive')).clone()

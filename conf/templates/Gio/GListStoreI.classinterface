@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GListStoreI is GObjectI
+interface GListStoreI is (GObjectI & GListModelI)
   fun ref getptr(): NullablePointer[GObjectT]

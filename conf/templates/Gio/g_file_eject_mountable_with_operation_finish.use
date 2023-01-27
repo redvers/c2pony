@@ -1,0 +1,1 @@
+use @g_file_eject_mountable_with_operation_finish[I32](file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

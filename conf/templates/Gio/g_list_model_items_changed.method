@@ -1,0 +1,2 @@
+  fun ref items_changed(position': U32, removed': U32, added': U32): None =>
+    GListModelP.items_changed(this, position', removed', added')

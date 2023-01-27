@@ -1,0 +1,2 @@
+  fun can_seek(seekable': NullablePointer[GSeekableT]): I32 =>
+    @g_seekable_can_seek(seekable')

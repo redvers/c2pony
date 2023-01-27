@@ -1,0 +1,2 @@
+  fun replace_readwrite_async(file': NullablePointer[GFileT], etag': String, make_backup': I32, flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_replace_readwrite_async(file', etag'.cstring(), make_backup', flags', io_priority', cancellable', callback', user_data')

@@ -1,0 +1,2 @@
+  fun ref delete(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    GFileP.delete(this, cancellable', error')

@@ -1,0 +1,2 @@
+  fun ref query_filesystem_info(attributes': String, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileInfoT] =>
+    GFileP.query_filesystem_info(this, attributes', cancellable', error')

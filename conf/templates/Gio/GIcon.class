@@ -1,0 +1,13 @@
+
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GIcon is GIconI
+  var ptr: NullablePointer[T]
+
+  new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
+
+
+  fun ref getptr(): NullablePointer[T] => ptr

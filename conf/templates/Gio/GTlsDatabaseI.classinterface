@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GTlsDatabaseI is GObjectI
+interface GTlsDatabaseI is (GObjectI)
   fun ref getptr(): NullablePointer[GObjectT]

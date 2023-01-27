@@ -1,0 +1,2 @@
+  fun equal(icon1': NullablePointer[GIconT], icon2': NullablePointer[GIconT]): I32 =>
+    @g_icon_equal(icon1', icon2')

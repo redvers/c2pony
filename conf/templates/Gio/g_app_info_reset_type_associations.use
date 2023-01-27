@@ -1,0 +1,1 @@
+use @g_app_info_reset_type_associations[None](content_type': Pointer[U8] tag)

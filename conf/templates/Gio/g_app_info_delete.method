@@ -1,0 +1,2 @@
+  fun ref delete(): I32 =>
+    GAppInfoP.delete(this)

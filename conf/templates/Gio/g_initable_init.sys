@@ -1,0 +1,2 @@
+  fun init(initable': NullablePointer[GInitableT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_initable_init(initable', cancellable', error'.ptr)

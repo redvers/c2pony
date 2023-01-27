@@ -1,0 +1,2 @@
+  fun ref get_network_metered(): I32 =>
+    GNetworkMonitorP.get_network_metered(this)

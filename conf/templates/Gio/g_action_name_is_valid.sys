@@ -1,0 +1,2 @@
+  fun name_is_valid(action_name': String): I32 =>
+    @g_action_name_is_valid(action_name'.cstring())

@@ -1,0 +1,1 @@
+use @g_app_info_set_as_default_for_extension[I32](appinfo': NullablePointer[GAppInfoT], extension': Pointer[U8] tag, error': NullablePointer[GErrorT])

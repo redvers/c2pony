@@ -1,0 +1,2 @@
+  fun ref load_finish(res': NullablePointer[GAsyncResultT], type': Pointer[Pointer[U8]] tag, error': GError): NullablePointer[GInputStreamT] =>
+    GLoadableIconP.load_finish(this, res', type', error')

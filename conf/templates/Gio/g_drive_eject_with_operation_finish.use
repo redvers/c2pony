@@ -1,0 +1,1 @@
+use @g_drive_eject_with_operation_finish[I32](drive': NullablePointer[GDriveT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

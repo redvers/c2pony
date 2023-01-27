@@ -1,0 +1,2 @@
+  fun ref change_action_state_full(action_name': String, value': NullablePointer[GVariantT], platform_data': NullablePointer[GVariantT]): None =>
+    GRemoteActionGroupP.change_action_state_full(this, action_name', value', platform_data')

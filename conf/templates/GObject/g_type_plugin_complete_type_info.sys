@@ -1,0 +1,2 @@
+  fun complete_type_info(plugin': GTypePluginI, g_type': U64, info': NullablePointer[GTypeInfoT], value_table': NullablePointer[GTypeValueTableT]): None =>
+    @g_type_plugin_complete_type_info(plugin'.getptr(), g_type', info', value_table')

@@ -1,0 +1,2 @@
+  fun get_object_path(manager': NullablePointer[GDBusObjectManagerT]): String iso^ =>
+    String.from_cstring(@g_dbus_object_manager_get_object_path(manager')).clone()

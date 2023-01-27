@@ -1,0 +1,2 @@
+  fun ref peek_path(): String iso^ =>
+    GFileP.peek_path(this)

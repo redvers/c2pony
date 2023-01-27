@@ -1,0 +1,2 @@
+  fun launch_default_for_uri_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_app_info_launch_default_for_uri_finish(result', error'.ptr)

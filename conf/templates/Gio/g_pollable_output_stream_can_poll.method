@@ -1,0 +1,2 @@
+  fun ref can_poll(): I32 =>
+    GPollableOutputStreamP.can_poll(this)

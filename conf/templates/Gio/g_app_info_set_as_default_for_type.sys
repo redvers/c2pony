@@ -1,0 +1,2 @@
+  fun set_as_default_for_type(appinfo': NullablePointer[GAppInfoT], content_type': String, error': GError): I32 =>
+    @g_app_info_set_as_default_for_type(appinfo', content_type'.cstring(), error'.ptr)

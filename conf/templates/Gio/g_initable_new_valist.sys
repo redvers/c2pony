@@ -1,0 +1,2 @@
+  fun new_valist(object_type': U64, first_property_name': String, var_args': NullablePointer[valisttagT], cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GObjectT] =>
+    @g_initable_new_valist(object_type', first_property_name'.cstring(), var_args', cancellable', error'.ptr)

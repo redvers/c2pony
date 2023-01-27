@@ -1,0 +1,2 @@
+  fun complete_interface_info(plugin': GTypePluginI, instance_type': U64, interface_type': U64, info': NullablePointer[GInterfaceInfoT]): None =>
+    @g_type_plugin_complete_interface_info(plugin'.getptr(), instance_type', interface_type', info')

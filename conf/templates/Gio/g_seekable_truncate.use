@@ -1,0 +1,1 @@
+use @g_seekable_truncate[I32](seekable': NullablePointer[GSeekableT], offset': I64, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

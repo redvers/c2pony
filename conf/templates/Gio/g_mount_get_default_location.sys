@@ -1,0 +1,2 @@
+  fun get_default_location(mount': NullablePointer[GMountT]): NullablePointer[GFileT] =>
+    @g_mount_get_default_location(mount')

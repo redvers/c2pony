@@ -1,0 +1,2 @@
+  fun ref can_start_degraded(): I32 =>
+    GDriveP.can_start_degraded(this)

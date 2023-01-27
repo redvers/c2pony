@@ -1,0 +1,2 @@
+  fun query_settable_attributes(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileAttributeInfoListT] =>
+    @g_file_query_settable_attributes(file', cancellable', error'.ptr)

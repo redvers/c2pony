@@ -1,0 +1,2 @@
+  fun ref activate_action(action_name': String, parameter': NullablePointer[GVariantT]): None =>
+    GActionGroupP.activate_action(this, action_name', parameter')

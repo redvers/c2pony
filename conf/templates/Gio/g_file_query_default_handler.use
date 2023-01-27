@@ -1,0 +1,1 @@
+use @g_file_query_default_handler[NullablePointer[GAppInfoT]](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

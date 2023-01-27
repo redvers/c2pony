@@ -1,0 +1,2 @@
+  fun ref launch_uris_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    GAppInfoP.launch_uris_finish(this, result', error')

@@ -1,0 +1,1 @@
+use @g_file_read[NullablePointer[GFileInputStreamT]](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

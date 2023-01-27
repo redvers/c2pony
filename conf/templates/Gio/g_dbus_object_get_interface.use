@@ -1,0 +1,1 @@
+use @g_dbus_object_get_interface[NullablePointer[GDBusInterfaceT]](object': NullablePointer[GDBusObjectT], interface_name': Pointer[U8] tag)

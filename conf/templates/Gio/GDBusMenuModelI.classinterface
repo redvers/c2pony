@@ -3,5 +3,5 @@ use "../GLib"
 use "../GObject"
 use "lib:gio-2.0"
 
-interface GDBusMenuModelI is GMenuModelI
+interface GDBusMenuModelI is (GMenuModelI)
   fun ref getptr(): NullablePointer[GObjectT]

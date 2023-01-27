@@ -1,0 +1,1 @@
+use @g_type_plugin_complete_interface_info[None](plugin': NullablePointer[GObjectT], instance_type': U64, interface_type': U64, info': NullablePointer[GInterfaceInfoT])

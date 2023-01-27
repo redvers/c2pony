@@ -1,0 +1,2 @@
+  fun can_unmount(mount': NullablePointer[GMountT]): I32 =>
+    @g_mount_can_unmount(mount')

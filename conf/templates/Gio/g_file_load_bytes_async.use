@@ -1,0 +1,1 @@
+use @g_file_load_bytes_async[None](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

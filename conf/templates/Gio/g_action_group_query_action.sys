@@ -1,0 +1,2 @@
+  fun query_action(action_group': GActionGroupI, action_name': String, enabled': Pointer[I32] tag, parameter_type': Pointer[NullablePointer[GVariantTypeT]], state_type': Pointer[NullablePointer[GVariantTypeT]], state_hint': Pointer[NullablePointer[GVariantT]], state': Pointer[NullablePointer[GVariantT]]): I32 =>
+    @g_action_group_query_action(action_group'.getptr(), action_name'.cstring(), enabled', parameter_type', state_type', state_hint', state')

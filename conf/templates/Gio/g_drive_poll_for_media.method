@@ -1,0 +1,2 @@
+  fun ref poll_for_media(cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GDriveP.poll_for_media(this, cancellable', callback', user_data')

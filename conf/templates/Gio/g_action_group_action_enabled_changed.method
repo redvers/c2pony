@@ -1,0 +1,2 @@
+  fun ref action_enabled_changed(action_name': String, enabled': I32): None =>
+    GActionGroupP.action_enabled_changed(this, action_name', enabled')

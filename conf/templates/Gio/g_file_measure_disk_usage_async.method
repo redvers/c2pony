@@ -1,0 +1,2 @@
+  fun ref measure_disk_usage_async(flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], progress_callback': GFileMeasureProgressCallback, progress_data': Pointer[None] tag, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GFileP.measure_disk_usage_async(this, flags', io_priority', cancellable', progress_callback', progress_data', callback', user_data')

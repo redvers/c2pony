@@ -1,0 +1,2 @@
+  fun read_nonblocking(stream': NullablePointer[GPollableInputStreamT], buffer': Pointer[None] tag, count': U64, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
+    @g_pollable_input_stream_read_nonblocking(stream', buffer', count', cancellable', error'.ptr)

@@ -1,0 +1,2 @@
+  fun get_child(file': NullablePointer[GFileT], name': String): NullablePointer[GFileT] =>
+    @g_file_get_child(file', name'.cstring())

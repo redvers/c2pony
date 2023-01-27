@@ -1,0 +1,2 @@
+  fun new_for_string(str': String, error': GError): NullablePointer[GIconT] =>
+    @g_icon_new_for_string(str'.cstring(), error'.ptr)

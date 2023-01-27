@@ -1,0 +1,2 @@
+  fun ref mount_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    GVolumeP.mount_finish(this, result', error')

@@ -1,0 +1,2 @@
+  fun get_id(appinfo': NullablePointer[GAppInfoT]): String iso^ =>
+    String.from_cstring(@g_app_info_get_id(appinfo')).clone()

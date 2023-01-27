@@ -1,0 +1,2 @@
+  fun get_drive(mount': NullablePointer[GMountT]): NullablePointer[GDriveT] =>
+    @g_mount_get_drive(mount')

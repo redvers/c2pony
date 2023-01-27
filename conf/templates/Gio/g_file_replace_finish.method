@@ -1,0 +1,2 @@
+  fun ref replace_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileOutputStreamT] =>
+    GFileP.replace_finish(this, res', error')

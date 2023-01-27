@@ -1,0 +1,2 @@
+  fun can_reach(monitor': NullablePointer[GNetworkMonitorT], connectable': NullablePointer[GSocketConnectableT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_network_monitor_can_reach(monitor', connectable', cancellable', error'.ptr)

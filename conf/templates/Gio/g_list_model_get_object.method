@@ -1,0 +1,2 @@
+  fun ref get_object(position': U32): NullablePointer[GObjectT] =>
+    GListModelP.get_object(this, position')

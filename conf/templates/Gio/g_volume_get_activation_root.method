@@ -1,0 +1,2 @@
+  fun ref get_activation_root(): NullablePointer[GFileT] =>
+    GVolumeP.get_activation_root(this)

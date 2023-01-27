@@ -1,0 +1,1 @@
+use @g_file_new_for_commandline_arg_and_cwd[NullablePointer[GFileT]](arg': Pointer[U8] tag, cwd': Pointer[U8] tag)

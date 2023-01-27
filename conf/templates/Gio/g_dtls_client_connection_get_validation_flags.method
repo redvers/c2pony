@@ -1,0 +1,2 @@
+  fun ref get_validation_flags(): U32 =>
+    GDtlsClientConnectionP.get_validation_flags(this)

@@ -1,0 +1,2 @@
+  fun ref connect(connection': NullablePointer[GIOStreamT], proxy_address': NullablePointer[GProxyAddressT], cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GIOStreamT] =>
+    GProxyP.connect(this, connection', proxy_address', cancellable', error')

@@ -1,0 +1,2 @@
+  fun ref get_accepted_cas(): NullablePointer[GListT] =>
+    GTlsClientConnectionP.get_accepted_cas(this)

@@ -1,0 +1,1 @@
+use @g_loadable_icon_load_finish[NullablePointer[GInputStreamT]](icon': NullablePointer[GLoadableIconT], res': NullablePointer[GAsyncResultT], type': Pointer[Pointer[U8]] tag, error': NullablePointer[GErrorT])

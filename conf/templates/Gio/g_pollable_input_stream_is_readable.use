@@ -1,0 +1,1 @@
+use @g_pollable_input_stream_is_readable[I32](stream': NullablePointer[GPollableInputStreamT])

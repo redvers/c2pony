@@ -1,2 +1,2 @@
-  fun create_action(settings': NullablePointer[GSettingsT], key': String): NullablePointer[GActionT] =>
-    @g_settings_create_action(settings', key'.cstring())
+  fun create_action(settings': NullablePointer[GSettingsT], key': String): NullablePointer[GObjectT] =>
+@g_settings_create_action(settings', key'.cstring())

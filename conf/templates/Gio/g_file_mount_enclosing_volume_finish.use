@@ -1,0 +1,1 @@
+use @g_file_mount_enclosing_volume_finish[I32](location': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

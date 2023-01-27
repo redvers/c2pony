@@ -1,0 +1,2 @@
+  fun set_attributes_from_info(file': NullablePointer[GFileT], info': NullablePointer[GFileInfoT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_file_set_attributes_from_info(file', info', flags', cancellable', error'.ptr)

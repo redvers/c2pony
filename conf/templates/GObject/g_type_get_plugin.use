@@ -1,1 +1,1 @@
-use @g_type_get_plugin[NullablePointer[GTypePluginT]](type': U64)
+use @g_type_get_plugin[NullablePointer[GObjectT]](type': U64)

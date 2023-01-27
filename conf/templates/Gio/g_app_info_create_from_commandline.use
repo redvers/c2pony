@@ -1,0 +1,1 @@
+use @g_app_info_create_from_commandline[NullablePointer[GAppInfoT]](commandline': Pointer[U8] tag, application_name': Pointer[U8] tag, flags': U32, error': NullablePointer[GErrorT])

@@ -1,0 +1,2 @@
+  fun replace_contents_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], new_etag': Pointer[Pointer[U8]] tag, error': GError): I32 =>
+    @g_file_replace_contents_finish(file', res', new_etag', error'.ptr)
