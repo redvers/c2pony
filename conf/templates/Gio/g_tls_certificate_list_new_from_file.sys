@@ -1,2 +1,2 @@
-  fun list_new_from_file(file': String, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
-    @g_tls_certificate_list_new_from_file(file'.cstring(), error')
+  fun list_new_from_file(file': String, error': GError): NullablePointer[GListT] =>
+    @g_tls_certificate_list_new_from_file(file'.cstring(), error'.ptr)

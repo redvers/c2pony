@@ -1,2 +1,2 @@
-  fun ref lookup_by_name_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+  fun ref lookup_by_name_finish(result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GListT] =>
     GResolverP.lookup_by_name_finish(this, result', error')

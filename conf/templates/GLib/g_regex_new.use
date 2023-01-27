@@ -1,1 +1,1 @@
-use @g_regex_new[NullablePointer[GRegexT]](pattern': Pointer[U8] tag, compile_options': U32, match_options': U32, error': Pointer[NullablePointer[GErrorT]])
+use @g_regex_new[NullablePointer[GRegexT]](pattern': Pointer[U8] tag, compile_options': U32, match_options': U32, error': NullablePointer[GErrorT])

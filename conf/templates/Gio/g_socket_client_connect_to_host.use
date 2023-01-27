@@ -1,1 +1,1 @@
-use @g_socket_client_connect_to_host[NullablePointer[GSocketConnectionT]](client': NullablePointer[GSocketClientT], host_and_port': Pointer[U8] tag, default_port': U16, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_socket_client_connect_to_host[NullablePointer[GSocketConnectionT]](client': NullablePointer[GSocketClientT], host_and_port': Pointer[U8] tag, default_port': U16, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

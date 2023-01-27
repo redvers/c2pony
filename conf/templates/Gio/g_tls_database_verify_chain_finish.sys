@@ -1,2 +1,2 @@
-  fun verify_chain_finish(self': NullablePointer[GTlsDatabaseT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): U32 =>
-    @g_tls_database_verify_chain_finish(self', result', error')
+  fun verify_chain_finish(self': NullablePointer[GTlsDatabaseT], result': NullablePointer[GAsyncResultT], error': GError): U32 =>
+    @g_tls_database_verify_chain_finish(self', result', error'.ptr)

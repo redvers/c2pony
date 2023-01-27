@@ -1,2 +1,2 @@
-  fun ref lookup_certificate_for_handle_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GTlsCertificateT] =>
+  fun ref lookup_certificate_for_handle_finish(result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GTlsCertificateT] =>
     GTlsDatabaseP.lookup_certificate_for_handle_finish(this, result', error')

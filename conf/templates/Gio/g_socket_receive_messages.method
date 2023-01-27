@@ -1,2 +1,2 @@
-  fun ref receive_messages(messages': NullablePointer[GInputMessageT], num_messages': U32, flags': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref receive_messages(messages': NullablePointer[GInputMessageT], num_messages': U32, flags': I32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
     GSocketP.receive_messages(this, messages', num_messages', flags', cancellable', error')

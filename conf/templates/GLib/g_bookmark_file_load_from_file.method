@@ -1,2 +1,2 @@
-  fun ref load_from_file(filename': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref load_from_file(filename': String, error': GError): I32 =>
     GBookmarkFileP.load_from_file(ptr, filename', error')

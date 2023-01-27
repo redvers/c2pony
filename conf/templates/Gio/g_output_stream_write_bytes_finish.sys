@@ -1,2 +1,2 @@
-  fun write_bytes_finish(stream': NullablePointer[GOutputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
-    @g_output_stream_write_bytes_finish(stream', result', error')
+  fun write_bytes_finish(stream': NullablePointer[GOutputStreamT], result': NullablePointer[GAsyncResultT], error': GError): I64 =>
+    @g_output_stream_write_bytes_finish(stream', result', error'.ptr)

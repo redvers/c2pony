@@ -1,2 +1,2 @@
-  fun parse(type': NullablePointer[GVariantTypeT], text': String, limit': String, endptr': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GVariantT] =>
-    @g_variant_parse(type', text'.cstring(), limit'.cstring(), endptr', error')
+  fun parse(type': NullablePointer[GVariantTypeT], text': String, limit': String, endptr': Pointer[Pointer[U8]] tag, error': GError): NullablePointer[GVariantT] =>
+    @g_variant_parse(type', text'.cstring(), limit'.cstring(), endptr', error'.ptr)

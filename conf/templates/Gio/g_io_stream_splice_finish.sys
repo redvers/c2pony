@@ -1,2 +1,2 @@
-  fun splice_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_io_stream_splice_finish(result', error')
+  fun splice_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_io_stream_splice_finish(result', error'.ptr)

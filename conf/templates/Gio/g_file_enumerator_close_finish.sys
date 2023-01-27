@@ -1,2 +1,2 @@
-  fun close_finish(enumerator': NullablePointer[GFileEnumeratorT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_file_enumerator_close_finish(enumerator', result', error')
+  fun close_finish(enumerator': NullablePointer[GFileEnumeratorT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_file_enumerator_close_finish(enumerator', result', error'.ptr)

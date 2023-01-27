@@ -1,2 +1,2 @@
-  fun ref register_object(object_path': String, interface_info': NullablePointer[GDBusInterfaceInfoT], vtable': NullablePointer[GDBusInterfaceVTableT], user_data': Pointer[None] tag, user_data_free_func': Pointer[None], error': Pointer[NullablePointer[GErrorT]]): U32 =>
+  fun ref register_object(object_path': String, interface_info': NullablePointer[GDBusInterfaceInfoT], vtable': NullablePointer[GDBusInterfaceVTableT], user_data': Pointer[None] tag, user_data_free_func': Pointer[None], error': GError): U32 =>
     GDBusConnectionP.register_object(this, object_path', interface_info', vtable', user_data', user_data_free_func', error')

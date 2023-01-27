@@ -1,1 +1,1 @@
-use @g_tls_interaction_invoke_request_certificate[U32](interaction': NullablePointer[GTlsInteractionT], connection': NullablePointer[GTlsConnectionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_tls_interaction_invoke_request_certificate[U32](interaction': NullablePointer[GTlsInteractionT], connection': NullablePointer[GTlsConnectionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

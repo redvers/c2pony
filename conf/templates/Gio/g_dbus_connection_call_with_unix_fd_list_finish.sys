@@ -1,2 +1,2 @@
-  fun call_with_unix_fd_list_finish(connection': NullablePointer[GDBusConnectionT], out_fd_list': Pointer[NullablePointer[GUnixFDListT]], res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GVariantT] =>
-    @g_dbus_connection_call_with_unix_fd_list_finish(connection', out_fd_list', res', error')
+  fun call_with_unix_fd_list_finish(connection': NullablePointer[GDBusConnectionT], out_fd_list': Pointer[NullablePointer[GUnixFDListT]], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GVariantT] =>
+    @g_dbus_connection_call_with_unix_fd_list_finish(connection', out_fd_list', res', error'.ptr)

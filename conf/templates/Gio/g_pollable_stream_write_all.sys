@@ -1,2 +1,2 @@
-  fun pollable_stream_write_all(stream': NullablePointer[GOutputStreamT], buffer': Pointer[None] tag, count': U64, blocking': I32, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_pollable_stream_write_all(stream', buffer', count', blocking', bytes_written', cancellable', error')
+  fun pollable_stream_write_all(stream': NullablePointer[GOutputStreamT], buffer': Pointer[None] tag, count': U64, blocking': I32, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_pollable_stream_write_all(stream', buffer', count', blocking', bytes_written', cancellable', error'.ptr)

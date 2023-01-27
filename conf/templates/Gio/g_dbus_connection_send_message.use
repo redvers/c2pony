@@ -1,1 +1,1 @@
-use @g_dbus_connection_send_message[I32](connection': NullablePointer[GDBusConnectionT], message': NullablePointer[GDBusMessageT], flags': U32, out_serial': Pointer[U32] tag, error': Pointer[NullablePointer[GErrorT]])
+use @g_dbus_connection_send_message[I32](connection': NullablePointer[GDBusConnectionT], message': NullablePointer[GDBusMessageT], flags': U32, out_serial': Pointer[U32] tag, error': NullablePointer[GErrorT])

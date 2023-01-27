@@ -1,2 +1,2 @@
-  fun resources_open_stream(path': String, lookup_flags': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GInputStreamT] =>
-    @g_resources_open_stream(path'.cstring(), lookup_flags', error')
+  fun resources_open_stream(path': String, lookup_flags': U32, error': GError): NullablePointer[GInputStreamT] =>
+    @g_resources_open_stream(path'.cstring(), lookup_flags', error'.ptr)

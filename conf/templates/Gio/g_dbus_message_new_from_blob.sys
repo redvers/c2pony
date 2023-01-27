@@ -1,2 +1,2 @@
-  fun new_from_blob(blob': String, blob_len': U64, capabilities': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDBusMessageT] =>
-    @g_dbus_message_new_from_blob(blob'.cstring(), blob_len', capabilities', error')
+  fun new_from_blob(blob': String, blob_len': U64, capabilities': U32, error': GError): NullablePointer[GDBusMessageT] =>
+    @g_dbus_message_new_from_blob(blob'.cstring(), blob_len', capabilities', error'.ptr)

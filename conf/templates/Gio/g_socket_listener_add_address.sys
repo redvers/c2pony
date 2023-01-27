@@ -1,2 +1,2 @@
-  fun add_address(listener': NullablePointer[GSocketListenerT], address': NullablePointer[GSocketAddressT], type': U32, protocol': I32, source_object': NullablePointer[GObjectT], effective_address': Pointer[NullablePointer[GSocketAddressT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_socket_listener_add_address(listener', address', type', protocol', source_object', effective_address', error')
+  fun add_address(listener': NullablePointer[GSocketListenerT], address': NullablePointer[GSocketAddressT], type': U32, protocol': I32, source_object': NullablePointer[GObjectT], effective_address': Pointer[NullablePointer[GSocketAddressT]], error': GError): I32 =>
+    @g_socket_listener_add_address(listener', address', type', protocol', source_object', effective_address', error'.ptr)

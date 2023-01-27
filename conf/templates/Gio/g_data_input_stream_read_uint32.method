@@ -1,2 +1,2 @@
-  fun ref read_uint32(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): U32 =>
+  fun ref read_uint32(cancellable': NullablePointer[GCancellableT], error': GError): U32 =>
     GDataInputStreamP.read_uint32(this, cancellable', error')

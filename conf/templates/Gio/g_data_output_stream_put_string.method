@@ -1,2 +1,2 @@
-  fun ref put_string(str': String, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref put_string(str': String, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
     GDataOutputStreamP.put_string(this, str', cancellable', error')

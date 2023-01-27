@@ -1,2 +1,2 @@
-  fun ref connect_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
+  fun ref connect_finish(result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GSocketConnectionT] =>
     GSocketClientP.connect_finish(this, result', error')

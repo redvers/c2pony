@@ -1,2 +1,2 @@
-  fun propagate_prefixed_error(dest': Pointer[NullablePointer[GErrorT]], src': NullablePointer[GErrorT], format': String, ...): None =>
-    @g_propagate_prefixed_error(dest', src', format'.cstring(), ...)
+  fun propagate_prefixed_error(dest': GError, src': NullablePointer[GErrorT], format': String, ...): None =>
+    @g_propagate_prefixed_error(dest'.ptr, src', format'.cstring(), ...)

@@ -1,2 +1,2 @@
-  fun resolve_relative(base_uri_string': String, uri_ref': String, flags': U32, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
-    String.from_cstring(@g_uri_resolve_relative(base_uri_string'.cstring(), uri_ref'.cstring(), flags', error')).clone()
+  fun resolve_relative(base_uri_string': String, uri_ref': String, flags': U32, error': GError): String iso^ =>
+    String.from_cstring(@g_uri_resolve_relative(base_uri_string'.cstring(), uri_ref'.cstring(), flags', error'.ptr)).clone()

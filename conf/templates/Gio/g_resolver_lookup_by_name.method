@@ -1,2 +1,2 @@
-  fun ref lookup_by_name(hostname': String, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+  fun ref lookup_by_name(hostname': String, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GListT] =>
     GResolverP.lookup_by_name(this, hostname', cancellable', error')

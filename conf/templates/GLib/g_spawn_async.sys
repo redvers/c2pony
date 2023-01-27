@@ -1,2 +1,2 @@
-  fun spawn_async(working_directory': String, argv': Pointer[Pointer[U8]] tag, envp': Pointer[Pointer[U8]] tag, flags': U32, child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, child_pid': Pointer[I32] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_spawn_async(working_directory'.cstring(), argv', envp', flags', child_setup', user_data', child_pid', error')
+  fun spawn_async(working_directory': String, argv': Pointer[Pointer[U8]] tag, envp': Pointer[Pointer[U8]] tag, flags': U32, child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, child_pid': Pointer[I32] tag, error': GError): I32 =>
+    @g_spawn_async(working_directory'.cstring(), argv', envp', flags', child_setup', user_data', child_pid', error'.ptr)

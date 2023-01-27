@@ -1,1 +1,1 @@
-use @g_markup_parse_context_end_parse[I32](context': NullablePointer[GMarkupParseContextT], error': Pointer[NullablePointer[GErrorT]])
+use @g_markup_parse_context_end_parse[I32](context': NullablePointer[GMarkupParseContextT], error': NullablePointer[GErrorT])

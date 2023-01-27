@@ -1,1 +1,1 @@
-use @g_io_stream_splice_finish[I32](result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
+use @g_io_stream_splice_finish[I32](result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

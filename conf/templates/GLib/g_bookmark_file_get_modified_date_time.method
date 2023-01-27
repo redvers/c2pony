@@ -1,2 +1,2 @@
-  fun ref get_modified_date_time(uri': String, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDateTimeT] =>
+  fun ref get_modified_date_time(uri': String, error': GError): NullablePointer[GDateTimeT] =>
     GBookmarkFileP.get_modified_date_time(ptr, uri', error')

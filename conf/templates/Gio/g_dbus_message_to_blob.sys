@@ -1,2 +1,2 @@
-  fun to_blob(message': NullablePointer[GDBusMessageT], out_size': Pointer[U64] tag, capabilities': U32, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
-    String.from_cstring(@g_dbus_message_to_blob(message', out_size', capabilities', error')).clone()
+  fun to_blob(message': NullablePointer[GDBusMessageT], out_size': Pointer[U64] tag, capabilities': U32, error': GError): String iso^ =>
+    String.from_cstring(@g_dbus_message_to_blob(message', out_size', capabilities', error'.ptr)).clone()

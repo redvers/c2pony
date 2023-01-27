@@ -1,2 +1,2 @@
-  fun release_finish(permission': NullablePointer[GPermissionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_permission_release_finish(permission', result', error')
+  fun release_finish(permission': NullablePointer[GPermissionT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+    @g_permission_release_finish(permission', result', error'.ptr)

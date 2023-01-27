@@ -1,2 +1,2 @@
-  fun set_error_if_cancelled(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_cancellable_set_error_if_cancelled(cancellable', error')
+  fun set_error_if_cancelled(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_cancellable_set_error_if_cancelled(cancellable', error'.ptr)

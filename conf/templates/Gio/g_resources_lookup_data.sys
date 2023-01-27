@@ -1,2 +1,2 @@
-  fun resources_lookup_data(path': String, lookup_flags': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GBytesT] =>
-    @g_resources_lookup_data(path'.cstring(), lookup_flags', error')
+  fun resources_lookup_data(path': String, lookup_flags': U32, error': GError): NullablePointer[GBytesT] =>
+    @g_resources_lookup_data(path'.cstring(), lookup_flags', error'.ptr)

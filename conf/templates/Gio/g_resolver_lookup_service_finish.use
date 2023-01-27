@@ -1,1 +1,1 @@
-use @g_resolver_lookup_service_finish[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
+use @g_resolver_lookup_service_finish[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

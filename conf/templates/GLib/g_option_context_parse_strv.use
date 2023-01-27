@@ -1,1 +1,1 @@
-use @g_option_context_parse_strv[I32](context': NullablePointer[GOptionContextT], arguments': Pointer[Pointer[Pointer[U8]]] tag, error': Pointer[NullablePointer[GErrorT]])
+use @g_option_context_parse_strv[I32](context': NullablePointer[GOptionContextT], arguments': Pointer[Pointer[Pointer[U8]]] tag, error': NullablePointer[GErrorT])

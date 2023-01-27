@@ -1,1 +1,1 @@
-use @g_key_file_save_to_file[I32](key_file': NullablePointer[GKeyFileT], filename': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])
+use @g_key_file_save_to_file[I32](key_file': NullablePointer[GKeyFileT], filename': Pointer[U8] tag, error': NullablePointer[GErrorT])

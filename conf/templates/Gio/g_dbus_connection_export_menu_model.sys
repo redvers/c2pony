@@ -1,2 +1,2 @@
-  fun export_menu_model(connection': NullablePointer[GDBusConnectionT], object_path': String, menu': NullablePointer[GMenuModelT], error': Pointer[NullablePointer[GErrorT]]): U32 =>
-    @g_dbus_connection_export_menu_model(connection', object_path'.cstring(), menu', error')
+  fun export_menu_model(connection': NullablePointer[GDBusConnectionT], object_path': String, menu': NullablePointer[GMenuModelT], error': GError): U32 =>
+    @g_dbus_connection_export_menu_model(connection', object_path'.cstring(), menu', error'.ptr)

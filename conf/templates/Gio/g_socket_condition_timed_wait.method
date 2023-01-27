@@ -1,2 +1,2 @@
-  fun ref condition_timed_wait(condition': U32, timeout_us': I64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref condition_timed_wait(condition': U32, timeout_us': I64, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
     GSocketP.condition_timed_wait(this, condition', timeout_us', cancellable', error')

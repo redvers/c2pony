@@ -1,2 +1,2 @@
-  fun ref lookup_service(service': String, protocol': String, domain': String, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+  fun ref lookup_service(service': String, protocol': String, domain': String, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GListT] =>
     GResolverP.lookup_service(this, service', protocol', domain', cancellable', error')

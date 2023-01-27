@@ -1,2 +1,2 @@
-  fun to_file(bookmark': NullablePointer[GBookmarkFileT], filename': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_bookmark_file_to_file(bookmark', filename'.cstring(), error')
+  fun to_file(bookmark': NullablePointer[GBookmarkFileT], filename': String, error': GError): I32 =>
+    @g_bookmark_file_to_file(bookmark', filename'.cstring(), error'.ptr)

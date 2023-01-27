@@ -1,1 +1,1 @@
-use @g_io_channel_write_unichar[U32](channel': NullablePointer[GIOChannelT], thechar': U32, error': Pointer[NullablePointer[GErrorT]])
+use @g_io_channel_write_unichar[U32](channel': NullablePointer[GIOChannelT], thechar': U32, error': NullablePointer[GErrorT])

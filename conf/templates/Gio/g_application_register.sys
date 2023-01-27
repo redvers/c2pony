@@ -1,2 +1,2 @@
-  fun register(application': GApplicationI, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_application_register(application'.getptr(), cancellable', error')
+  fun register(application': GApplicationI, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_application_register(application'.getptr(), cancellable', error'.ptr)

@@ -1,1 +1,1 @@
-use @g_socket_send_with_blocking[I64](socket': NullablePointer[GSocketT], buffer': Pointer[U8] tag, size': U64, blocking': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_socket_send_with_blocking[I64](socket': NullablePointer[GSocketT], buffer': Pointer[U8] tag, size': U64, blocking': I32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

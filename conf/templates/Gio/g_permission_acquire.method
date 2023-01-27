@@ -1,2 +1,2 @@
-  fun ref acquire(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref acquire(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
     GPermissionP.acquire(this, cancellable', error')

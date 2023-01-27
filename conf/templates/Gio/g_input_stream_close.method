@@ -1,2 +1,2 @@
-  fun ref close(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref close(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
     GInputStreamP.close(this, cancellable', error')

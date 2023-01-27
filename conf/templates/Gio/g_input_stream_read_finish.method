@@ -1,2 +1,2 @@
-  fun ref read_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+  fun ref read_finish(result': NullablePointer[GAsyncResultT], error': GError): I64 =>
     GInputStreamP.read_finish(this, result', error')

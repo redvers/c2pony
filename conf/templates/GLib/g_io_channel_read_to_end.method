@@ -1,2 +1,2 @@
-  fun ref read_to_end(str_return': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): U32 =>
+  fun ref read_to_end(str_return': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, error': GError): U32 =>
     GIOChannelP.read_to_end(ptr, str_return', length', error')

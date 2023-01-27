@@ -1,1 +1,1 @@
-use @g_task_propagate_boolean[I32](task': NullablePointer[GTaskT], error': Pointer[NullablePointer[GErrorT]])
+use @g_task_propagate_boolean[I32](task': NullablePointer[GTaskT], error': NullablePointer[GErrorT])

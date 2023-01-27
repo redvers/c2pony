@@ -1,1 +1,1 @@
-use @g_output_stream_writev[I32](stream': NullablePointer[GOutputStreamT], vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_output_stream_writev[I32](stream': NullablePointer[GOutputStreamT], vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

@@ -1,2 +1,2 @@
-  fun read_uint32(stream': NullablePointer[GDataInputStreamT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): U32 =>
-    @g_data_input_stream_read_uint32(stream', cancellable', error')
+  fun read_uint32(stream': NullablePointer[GDataInputStreamT], cancellable': NullablePointer[GCancellableT], error': GError): U32 =>
+    @g_data_input_stream_read_uint32(stream', cancellable', error'.ptr)

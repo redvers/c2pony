@@ -1,2 +1,2 @@
-  fun resources_enumerate_children(path': String, lookup_flags': U32, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
-    @g_resources_enumerate_children(path'.cstring(), lookup_flags', error')
+  fun resources_enumerate_children(path': String, lookup_flags': U32, error': GError): Pointer[Pointer[U8]] tag =>
+    @g_resources_enumerate_children(path'.cstring(), lookup_flags', error'.ptr)

@@ -1,2 +1,2 @@
-  new new_for_xml(xml_data': String, error': Pointer[NullablePointer[GErrorT]]) =>
-    ptr = @g_dbus_node_info_new_for_xml(xml_data'.cstring(), error')
+  new new_for_xml(xml_data': String, error': GError) =>
+    ptr = @g_dbus_node_info_new_for_xml(xml_data'.cstring(), error'.ptr)

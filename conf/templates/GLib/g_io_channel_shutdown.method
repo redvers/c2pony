@@ -1,2 +1,2 @@
-  fun ref shutdown(flush': I32, err': Pointer[NullablePointer[GErrorT]]): U32 =>
+  fun ref shutdown(flush': I32, err': GError): U32 =>
     GIOChannelP.shutdown(ptr, flush', err')

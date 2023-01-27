@@ -1,1 +1,1 @@
-use @g_resolver_lookup_by_address[Pointer[U8]](resolver': NullablePointer[GResolverT], address': NullablePointer[GInetAddressT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_resolver_lookup_by_address[Pointer[U8]](resolver': NullablePointer[GResolverT], address': NullablePointer[GInetAddressT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

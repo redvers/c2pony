@@ -1,1 +1,1 @@
-use @g_resolver_lookup_records[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], rrname': Pointer[U8] tag, record_type': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_resolver_lookup_records[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], rrname': Pointer[U8] tag, record_type': U32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

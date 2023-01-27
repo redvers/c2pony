@@ -1,2 +1,2 @@
-  fun ref read_all(buffer': Pointer[None] tag, count': U64, bytes_read': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref read_all(buffer': Pointer[None] tag, count': U64, bytes_read': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
     GInputStreamP.read_all(this, buffer', count', bytes_read', cancellable', error')

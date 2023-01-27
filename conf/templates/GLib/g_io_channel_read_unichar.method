@@ -1,2 +1,2 @@
-  fun ref read_unichar(thechar': Pointer[U32] tag, error': Pointer[NullablePointer[GErrorT]]): U32 =>
+  fun ref read_unichar(thechar': Pointer[U32] tag, error': GError): U32 =>
     GIOChannelP.read_unichar(ptr, thechar', error')

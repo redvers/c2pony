@@ -1,2 +1,2 @@
-  fun ref read_byte(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): U8 =>
+  fun ref read_byte(cancellable': NullablePointer[GCancellableT], error': GError): U8 =>
     GDataInputStreamP.read_byte(this, cancellable', error')

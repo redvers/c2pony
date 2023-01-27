@@ -1,1 +1,1 @@
-use @g_tls_connection_handshake_finish[I32](conn': NullablePointer[GTlsConnectionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
+use @g_tls_connection_handshake_finish[I32](conn': NullablePointer[GTlsConnectionT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

@@ -1,2 +1,2 @@
-  new new_from_data(data': NullablePointer[GBytesT], error': Pointer[NullablePointer[GErrorT]]) =>
-    ptr = @g_resource_new_from_data(data', error')
+  new new_from_data(data': NullablePointer[GBytesT], error': GError) =>
+    ptr = @g_resource_new_from_data(data', error'.ptr)

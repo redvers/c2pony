@@ -1,2 +1,2 @@
-  fun receive_with_blocking(socket': NullablePointer[GSocketT], buffer': String, size': U64, blocking': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
-    @g_socket_receive_with_blocking(socket', buffer'.cstring(), size', blocking', cancellable', error')
+  fun receive_with_blocking(socket': NullablePointer[GSocketT], buffer': String, size': U64, blocking': I32, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
+    @g_socket_receive_with_blocking(socket', buffer'.cstring(), size', blocking', cancellable', error'.ptr)

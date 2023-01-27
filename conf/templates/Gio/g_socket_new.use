@@ -1,1 +1,1 @@
-use @g_socket_new[NullablePointer[GSocketT]](family': U32, type': U32, protocol': I32, error': Pointer[NullablePointer[GErrorT]])
+use @g_socket_new[NullablePointer[GSocketT]](family': U32, type': U32, protocol': I32, error': NullablePointer[GErrorT])

@@ -1,1 +1,1 @@
-use @g_buffered_input_stream_fill[I64](stream': NullablePointer[GBufferedInputStreamT], count': I64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_buffered_input_stream_fill[I64](stream': NullablePointer[GBufferedInputStreamT], count': I64, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

@@ -1,2 +1,2 @@
-  fun ref next_file(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileInfoT] =>
+  fun ref next_file(cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileInfoT] =>
     GFileEnumeratorP.next_file(this, cancellable', error')

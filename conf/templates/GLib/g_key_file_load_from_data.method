@@ -1,2 +1,2 @@
-  fun ref load_from_data(data': String, length': U64, flags': U32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref load_from_data(data': String, length': U64, flags': U32, error': GError): I32 =>
     GKeyFileP.load_from_data(ptr, data', length', flags', error')

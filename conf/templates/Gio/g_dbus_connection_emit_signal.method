@@ -1,2 +1,2 @@
-  fun ref emit_signal(destination_bus_name': String, object_path': String, interface_name': String, signal_name': String, parameters': NullablePointer[GVariantT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref emit_signal(destination_bus_name': String, object_path': String, interface_name': String, signal_name': String, parameters': NullablePointer[GVariantT], error': GError): I32 =>
     GDBusConnectionP.emit_signal(this, destination_bus_name', object_path', interface_name', signal_name', parameters', error')

@@ -1,2 +1,2 @@
-  fun release(permission': NullablePointer[GPermissionT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_permission_release(permission', cancellable', error')
+  fun release(permission': NullablePointer[GPermissionT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_permission_release(permission', cancellable', error'.ptr)

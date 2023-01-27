@@ -1,2 +1,2 @@
-  fun read_bytes_finish(stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GBytesT] =>
-    @g_input_stream_read_bytes_finish(stream', result', error')
+  fun read_bytes_finish(stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GBytesT] =>
+    @g_input_stream_read_bytes_finish(stream', result', error'.ptr)

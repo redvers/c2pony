@@ -1,2 +1,2 @@
-  fun ref flush_sync(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref flush_sync(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
     GDBusConnectionP.flush_sync(this, cancellable', error')

@@ -1,2 +1,2 @@
-  fun bus_get_finish(res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDBusConnectionT] =>
-    @g_bus_get_finish(res', error')
+  fun bus_get_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GDBusConnectionT] =>
+    @g_bus_get_finish(res', error'.ptr)

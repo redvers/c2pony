@@ -1,1 +1,1 @@
-use @g_subprocess_wait[I32](subprocess': NullablePointer[GSubprocessT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_subprocess_wait[I32](subprocess': NullablePointer[GSubprocessT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

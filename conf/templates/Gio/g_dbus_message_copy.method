@@ -1,2 +1,2 @@
-  fun ref copy(error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDBusMessageT] =>
+  fun ref copy(error': GError): NullablePointer[GDBusMessageT] =>
     GDBusMessageP.copy(this, error')

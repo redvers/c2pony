@@ -1,2 +1,2 @@
-  fun flush(channel': NullablePointer[GIOChannelT], error': Pointer[NullablePointer[GErrorT]]): U32 =>
-    @g_io_channel_flush(channel', error')
+  fun flush(channel': NullablePointer[GIOChannelT], error': GError): U32 =>
+    @g_io_channel_flush(channel', error'.ptr)

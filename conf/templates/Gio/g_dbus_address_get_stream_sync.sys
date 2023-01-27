@@ -1,2 +1,2 @@
-  fun dbus_address_get_stream_sync(address': String, out_guid': Pointer[Pointer[U8]] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GIOStreamT] =>
-    @g_dbus_address_get_stream_sync(address'.cstring(), out_guid', cancellable', error')
+  fun dbus_address_get_stream_sync(address': String, out_guid': Pointer[Pointer[U8]] tag, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GIOStreamT] =>
+    @g_dbus_address_get_stream_sync(address'.cstring(), out_guid', cancellable', error'.ptr)

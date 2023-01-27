@@ -1,2 +1,2 @@
-  fun ref load_from_bytes(bytes': NullablePointer[GBytesT], flags': U32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref load_from_bytes(bytes': NullablePointer[GBytesT], flags': U32, error': GError): I32 =>
     GKeyFileP.load_from_bytes(ptr, bytes', flags', error')

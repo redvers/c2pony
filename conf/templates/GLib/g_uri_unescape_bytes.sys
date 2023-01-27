@@ -1,2 +1,2 @@
-  fun unescape_bytes(escaped_string': String, length': I64, illegal_characters': String, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GBytesT] =>
-    @g_uri_unescape_bytes(escaped_string'.cstring(), length', illegal_characters'.cstring(), error')
+  fun unescape_bytes(escaped_string': String, length': I64, illegal_characters': String, error': GError): NullablePointer[GBytesT] =>
+    @g_uri_unescape_bytes(escaped_string'.cstring(), length', illegal_characters'.cstring(), error'.ptr)

@@ -1,2 +1,2 @@
-  fun dbus_address_get_stream_finish(res': NullablePointer[GAsyncResultT], out_guid': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GIOStreamT] =>
-    @g_dbus_address_get_stream_finish(res', out_guid', error')
+  fun dbus_address_get_stream_finish(res': NullablePointer[GAsyncResultT], out_guid': Pointer[Pointer[U8]] tag, error': GError): NullablePointer[GIOStreamT] =>
+    @g_dbus_address_get_stream_finish(res', out_guid', error'.ptr)

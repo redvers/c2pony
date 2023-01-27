@@ -1,1 +1,1 @@
-use @g_application_register[I32](application': NullablePointer[GObjectT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_application_register[I32](application': NullablePointer[GObjectT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

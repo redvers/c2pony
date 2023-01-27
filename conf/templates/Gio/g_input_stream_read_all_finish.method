@@ -1,2 +1,2 @@
-  fun ref read_all_finish(result': NullablePointer[GAsyncResultT], bytes_read': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+  fun ref read_all_finish(result': NullablePointer[GAsyncResultT], bytes_read': Pointer[U64] tag, error': GError): I32 =>
     GInputStreamP.read_all_finish(this, result', bytes_read', error')

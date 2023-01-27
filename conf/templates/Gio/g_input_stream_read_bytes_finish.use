@@ -1,1 +1,1 @@
-use @g_input_stream_read_bytes_finish[NullablePointer[GBytesT]](stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
+use @g_input_stream_read_bytes_finish[NullablePointer[GBytesT]](stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

@@ -1,2 +1,2 @@
-  fun accept_socket_finish(listener': NullablePointer[GSocketListenerT], result': NullablePointer[GAsyncResultT], source_object': Pointer[NullablePointer[GObjectT]], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketT] =>
-    @g_socket_listener_accept_socket_finish(listener', result', source_object', error')
+  fun accept_socket_finish(listener': NullablePointer[GSocketListenerT], result': NullablePointer[GAsyncResultT], source_object': Pointer[NullablePointer[GObjectT]], error': GError): NullablePointer[GSocketT] =>
+    @g_socket_listener_accept_socket_finish(listener', result', source_object', error'.ptr)

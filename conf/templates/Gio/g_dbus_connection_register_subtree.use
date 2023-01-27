@@ -1,1 +1,1 @@
-use @g_dbus_connection_register_subtree[U32](connection': NullablePointer[GDBusConnectionT], object_path': Pointer[U8] tag, vtable': NullablePointer[GDBusSubtreeVTableT], flags': U32, user_data': Pointer[None] tag, user_data_free_func': Pointer[None], error': Pointer[NullablePointer[GErrorT]])
+use @g_dbus_connection_register_subtree[U32](connection': NullablePointer[GDBusConnectionT], object_path': Pointer[U8] tag, vtable': NullablePointer[GDBusSubtreeVTableT], flags': U32, user_data': Pointer[None] tag, user_data_free_func': Pointer[None], error': NullablePointer[GErrorT])

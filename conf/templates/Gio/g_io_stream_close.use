@@ -1,1 +1,1 @@
-use @g_io_stream_close[I32](stream': NullablePointer[GIOStreamT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_io_stream_close[I32](stream': NullablePointer[GIOStreamT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

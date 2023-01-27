@@ -1,2 +1,2 @@
-  fun locale_to_utf8(opsysstring': String, len': I64, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
-    String.from_cstring(@g_locale_to_utf8(opsysstring'.cstring(), len', bytes_read', bytes_written', error')).clone()
+  fun locale_to_utf8(opsysstring': String, len': I64, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': GError): String iso^ =>
+    String.from_cstring(@g_locale_to_utf8(opsysstring'.cstring(), len', bytes_read', bytes_written', error'.ptr)).clone()

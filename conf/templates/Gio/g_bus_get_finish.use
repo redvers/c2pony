@@ -1,1 +1,1 @@
-use @g_bus_get_finish[NullablePointer[GDBusConnectionT]](res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
+use @g_bus_get_finish[NullablePointer[GDBusConnectionT]](res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

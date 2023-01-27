@@ -1,2 +1,2 @@
-  fun ref get_uint64(group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): U64 =>
+  fun ref get_uint64(group_name': String, key': String, error': GError): U64 =>
     GKeyFileP.get_uint64(ptr, group_name', key', error')

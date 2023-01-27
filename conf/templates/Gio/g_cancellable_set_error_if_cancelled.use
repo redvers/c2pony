@@ -1,1 +1,1 @@
-use @g_cancellable_set_error_if_cancelled[I32](cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_cancellable_set_error_if_cancelled[I32](cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

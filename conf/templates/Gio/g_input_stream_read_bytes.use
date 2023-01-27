@@ -1,1 +1,1 @@
-use @g_input_stream_read_bytes[NullablePointer[GBytesT]](stream': NullablePointer[GInputStreamT], count': U64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])
+use @g_input_stream_read_bytes[NullablePointer[GBytesT]](stream': NullablePointer[GInputStreamT], count': U64, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])

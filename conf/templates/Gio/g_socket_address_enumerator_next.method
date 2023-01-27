@@ -1,2 +1,2 @@
-  fun ref next(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketAddressT] =>
+  fun ref next(cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GSocketAddressT] =>
     GSocketAddressEnumeratorP.next(this, cancellable', error')

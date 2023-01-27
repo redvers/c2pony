@@ -1,2 +1,2 @@
-  fun iterate(direnum': NullablePointer[GFileEnumeratorT], out_info': Pointer[NullablePointer[GFileInfoT]], out_child': Pointer[NullablePointer[GFileT]], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_file_enumerator_iterate(direnum', out_info', out_child', cancellable', error')
+  fun iterate(direnum': NullablePointer[GFileEnumeratorT], out_info': Pointer[NullablePointer[GFileInfoT]], out_child': Pointer[NullablePointer[GFileT]], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+    @g_file_enumerator_iterate(direnum', out_info', out_child', cancellable', error'.ptr)

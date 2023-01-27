@@ -1,2 +1,2 @@
-  fun propagate_int(task': NullablePointer[GTaskT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
-    @g_task_propagate_int(task', error')
+  fun propagate_int(task': NullablePointer[GTaskT], error': GError): I64 =>
+    @g_task_propagate_int(task', error'.ptr)

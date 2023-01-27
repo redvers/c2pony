@@ -1,1 +1,1 @@
-use @g_regex_replace[Pointer[U8]](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, replacement': Pointer[U8] tag, match_options': U32, error': Pointer[NullablePointer[GErrorT]])
+use @g_regex_replace[Pointer[U8]](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, replacement': Pointer[U8] tag, match_options': U32, error': NullablePointer[GErrorT])

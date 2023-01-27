@@ -1,2 +1,2 @@
-  fun request_certificate(interaction': NullablePointer[GTlsInteractionT], connection': NullablePointer[GTlsConnectionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): U32 =>
-    @g_tls_interaction_request_certificate(interaction', connection', flags', cancellable', error')
+  fun request_certificate(interaction': NullablePointer[GTlsInteractionT], connection': NullablePointer[GTlsConnectionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): U32 =>
+    @g_tls_interaction_request_certificate(interaction', connection', flags', cancellable', error'.ptr)

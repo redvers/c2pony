@@ -1,1 +1,1 @@
-use @g_uri_params_iter_next[I32](iter': NullablePointer[GUriParamsIterT], attribute': Pointer[Pointer[U8]] tag, value': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]])
+use @g_uri_params_iter_next[I32](iter': NullablePointer[GUriParamsIterT], attribute': Pointer[Pointer[U8]] tag, value': Pointer[Pointer[U8]] tag, error': NullablePointer[GErrorT])

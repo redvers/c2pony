@@ -1,1 +1,1 @@
-use @g_socket_client_connect_finish[NullablePointer[GSocketConnectionT]](client': NullablePointer[GSocketClientT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
+use @g_socket_client_connect_finish[NullablePointer[GSocketConnectionT]](client': NullablePointer[GSocketClientT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

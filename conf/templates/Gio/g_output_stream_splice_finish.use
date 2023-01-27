@@ -1,1 +1,1 @@
-use @g_output_stream_splice_finish[I64](stream': NullablePointer[GOutputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])
+use @g_output_stream_splice_finish[I64](stream': NullablePointer[GOutputStreamT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])

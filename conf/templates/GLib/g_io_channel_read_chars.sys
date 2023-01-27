@@ -1,2 +1,2 @@
-  fun read_chars(channel': NullablePointer[GIOChannelT], buf': String, count': U64, bytes_read': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): U32 =>
-    @g_io_channel_read_chars(channel', buf'.cstring(), count', bytes_read', error')
+  fun read_chars(channel': NullablePointer[GIOChannelT], buf': String, count': U64, bytes_read': Pointer[U64] tag, error': GError): U32 =>
+    @g_io_channel_read_chars(channel', buf'.cstring(), count', bytes_read', error'.ptr)

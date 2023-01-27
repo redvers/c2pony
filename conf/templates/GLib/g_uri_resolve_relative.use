@@ -1,1 +1,1 @@
-use @g_uri_resolve_relative[Pointer[U8]](base_uri_string': Pointer[U8] tag, uri_ref': Pointer[U8] tag, flags': U32, error': Pointer[NullablePointer[GErrorT]])
+use @g_uri_resolve_relative[Pointer[U8]](base_uri_string': Pointer[U8] tag, uri_ref': Pointer[U8] tag, flags': U32, error': NullablePointer[GErrorT])

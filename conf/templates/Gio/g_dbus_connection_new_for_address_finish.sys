@@ -1,2 +1,2 @@
-  fun new_for_address_finish(res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDBusConnectionT] =>
-    @g_dbus_connection_new_for_address_finish(res', error')
+  fun new_for_address_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GDBusConnectionT] =>
+    @g_dbus_connection_new_for_address_finish(res', error'.ptr)

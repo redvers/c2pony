@@ -1,2 +1,2 @@
-  fun lookup_records_finish(resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
-    @g_resolver_lookup_records_finish(resolver', result', error')
+  fun lookup_records_finish(resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GListT] =>
+    @g_resolver_lookup_records_finish(resolver', result', error'.ptr)

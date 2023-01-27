@@ -1,2 +1,2 @@
-  fun ref read_line_utf8(length': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+  fun ref read_line_utf8(length': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': GError): String iso^ =>
     GDataInputStreamP.read_line_utf8(this, length', cancellable', error')

@@ -1,1 +1,1 @@
-use @g_unix_fd_list_get[I32](list': NullablePointer[GUnixFDListT], index': I32, error': Pointer[NullablePointer[GErrorT]])
+use @g_unix_fd_list_get[I32](list': NullablePointer[GUnixFDListT], index': I32, error': NullablePointer[GErrorT])

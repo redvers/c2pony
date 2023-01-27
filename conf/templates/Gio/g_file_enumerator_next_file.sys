@@ -1,2 +1,2 @@
-  fun next_file(enumerator': NullablePointer[GFileEnumeratorT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileInfoT] =>
-    @g_file_enumerator_next_file(enumerator', cancellable', error')
+  fun next_file(enumerator': NullablePointer[GFileEnumeratorT], cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileInfoT] =>
+    @g_file_enumerator_next_file(enumerator', cancellable', error'.ptr)

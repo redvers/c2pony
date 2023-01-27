@@ -1,2 +1,2 @@
-  fun writev_finish(stream': NullablePointer[GOutputStreamT], result': NullablePointer[GAsyncResultT], bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_output_stream_writev_finish(stream', result', bytes_written', error')
+  fun writev_finish(stream': NullablePointer[GOutputStreamT], result': NullablePointer[GAsyncResultT], bytes_written': Pointer[U64] tag, error': GError): I32 =>
+    @g_output_stream_writev_finish(stream', result', bytes_written', error'.ptr)

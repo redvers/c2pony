@@ -1,1 +1,1 @@
-use @g_input_stream_read_all_finish[I32](stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], bytes_read': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]])
+use @g_input_stream_read_all_finish[I32](stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], bytes_read': Pointer[U64] tag, error': NullablePointer[GErrorT])

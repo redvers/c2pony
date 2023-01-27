@@ -1,2 +1,2 @@
-  fun register_subtree(connection': NullablePointer[GDBusConnectionT], object_path': String, vtable': NullablePointer[GDBusSubtreeVTableT], flags': U32, user_data': Pointer[None] tag, user_data_free_func': Pointer[None], error': Pointer[NullablePointer[GErrorT]]): U32 =>
-    @g_dbus_connection_register_subtree(connection', object_path'.cstring(), vtable', flags', user_data', user_data_free_func', error')
+  fun register_subtree(connection': NullablePointer[GDBusConnectionT], object_path': String, vtable': NullablePointer[GDBusSubtreeVTableT], flags': U32, user_data': Pointer[None] tag, user_data_free_func': Pointer[None], error': GError): U32 =>
+    @g_dbus_connection_register_subtree(connection', object_path'.cstring(), vtable', flags', user_data', user_data_free_func', error'.ptr)

@@ -1,2 +1,2 @@
-  fun load_from_data_dirs(bookmark': NullablePointer[GBookmarkFileT], file': String, full_path': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    @g_bookmark_file_load_from_data_dirs(bookmark', file'.cstring(), full_path', error')
+  fun load_from_data_dirs(bookmark': NullablePointer[GBookmarkFileT], file': String, full_path': Pointer[Pointer[U8]] tag, error': GError): I32 =>
+    @g_bookmark_file_load_from_data_dirs(bookmark', file'.cstring(), full_path', error'.ptr)

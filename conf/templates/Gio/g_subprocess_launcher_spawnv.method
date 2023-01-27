@@ -1,2 +1,2 @@
-  fun ref spawnv(argv': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSubprocessT] =>
+  fun ref spawnv(argv': Pointer[Pointer[U8]] tag, error': GError): NullablePointer[GSubprocessT] =>
     GSubprocessLauncherP.spawnv(this, argv', error')

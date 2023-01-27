@@ -1,2 +1,2 @@
-  fun add_any_inet_port(listener': NullablePointer[GSocketListenerT], source_object': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]]): U16 =>
-    @g_socket_listener_add_any_inet_port(listener', source_object', error')
+  fun add_any_inet_port(listener': NullablePointer[GSocketListenerT], source_object': NullablePointer[GObjectT], error': GError): U16 =>
+    @g_socket_listener_add_any_inet_port(listener', source_object', error'.ptr)

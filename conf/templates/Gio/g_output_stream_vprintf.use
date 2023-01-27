@@ -1,1 +1,1 @@
-use @g_output_stream_vprintf[I32](stream': NullablePointer[GOutputStreamT], bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]], format': Pointer[U8] tag, args': NullablePointer[valisttagT])
+use @g_output_stream_vprintf[I32](stream': NullablePointer[GOutputStreamT], bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT], format': Pointer[U8] tag, args': NullablePointer[valisttagT])
