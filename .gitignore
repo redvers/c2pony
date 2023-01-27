@@ -6,3 +6,4 @@ lock.json
 mpfr.xml
 shell.nix
 *.swp
+conf/test/test
