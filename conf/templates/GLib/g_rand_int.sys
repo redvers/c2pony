@@ -1,0 +1,2 @@
+  fun int(rand': NullablePointer[GRandT]): U32 =>
+    @g_rand_int(rand')

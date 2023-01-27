@@ -1,0 +1,1 @@
+use @g_get_num_processors[U32]()

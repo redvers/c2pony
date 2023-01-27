@@ -1,0 +1,1 @@
+use @g_queue_peek_head_link[NullablePointer[GListT]](queue': NullablePointer[GQueueT])

@@ -1,0 +1,2 @@
+  fun position(list': NullablePointer[GSListT], llink': NullablePointer[GSListT]): I32 =>
+    @g_slist_position(list', llink')

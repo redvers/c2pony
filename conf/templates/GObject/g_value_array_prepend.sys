@@ -1,0 +1,2 @@
+  fun prepend(value_array': NullablePointer[GValueArrayT], value': NullablePointer[GValueT]): NullablePointer[GValueArrayT] =>
+    @g_value_array_prepend(value_array', value')

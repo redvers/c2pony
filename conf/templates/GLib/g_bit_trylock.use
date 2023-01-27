@@ -1,0 +1,1 @@
+use @g_bit_trylock[I32](address': Pointer[I32] tag, lock_bit': I32)

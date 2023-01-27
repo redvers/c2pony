@@ -1,0 +1,9 @@
+
+use "lib:glib-2.0"
+
+class GStatBuf
+  var ptr: NullablePointer[GStatBufT]
+
+  new create() =>
+    ptr = NullablePointer[GStatBufT].none()
+  new create_from_ptr(ptr': NullablePointer[GStatBufT]) => ptr = ptr'

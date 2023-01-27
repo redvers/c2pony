@@ -1,0 +1,1 @@
+use @g_type_interfaces[Pointer[U64] tag](type': U64, n_interfaces': Pointer[U32] tag)

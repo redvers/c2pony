@@ -1,0 +1,2 @@
+  fun list_extract_uris(uri_list': String): Pointer[Pointer[U8]] tag =>
+    @g_uri_list_extract_uris(uri_list'.cstring())

@@ -1,0 +1,4 @@
+
+use "lib:glib-2.0"
+struct GTrashStackT
+  var next': NullablePointer[GTrashStackT] = NullablePointer[GTrashStackT].none()

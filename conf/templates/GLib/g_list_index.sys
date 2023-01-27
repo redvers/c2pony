@@ -1,0 +1,2 @@
+  fun index(list': NullablePointer[GListT], data': Pointer[None] tag): I32 =>
+    @g_list_index(list', data')

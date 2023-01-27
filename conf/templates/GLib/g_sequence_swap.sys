@@ -1,0 +1,2 @@
+  fun swap(a': NullablePointer[GSequenceNodeT], b': NullablePointer[GSequenceNodeT]): None =>
+    @g_sequence_swap(a', b')

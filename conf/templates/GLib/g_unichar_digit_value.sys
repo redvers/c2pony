@@ -1,0 +1,2 @@
+  fun unichar_digit_value(c': U32): I32 =>
+    @g_unichar_digit_value(c')

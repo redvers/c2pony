@@ -1,0 +1,2 @@
+  fun param_spec_boolean(name': String, nick': String, blurb': String, default_value': I32, flags': I32): NullablePointer[GParamSpecT] =>
+    @g_param_spec_boolean(name'.cstring(), nick'.cstring(), blurb'.cstring(), default_value', flags')

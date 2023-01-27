@@ -1,0 +1,2 @@
+  fun escape_string(string': String, length': I32): String iso^ =>
+    String.from_cstring(@g_regex_escape_string(string'.cstring(), length')).clone()

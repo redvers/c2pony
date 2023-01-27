@@ -1,0 +1,2 @@
+  fun equal(bytes1': Pointer[None] tag, bytes2': Pointer[None] tag): I32 =>
+    @g_bytes_equal(bytes1', bytes2')

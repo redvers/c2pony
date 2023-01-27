@@ -1,0 +1,2 @@
+  fun query_unix_fd(source': NullablePointer[GSourceT], tag': Pointer[None] tag): U32 =>
+    @g_source_query_unix_fd(source', tag')

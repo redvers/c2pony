@@ -1,0 +1,2 @@
+  fun copy(array': NullablePointer[GPtrArrayT], func': GCopyFunc, user_data': Pointer[None] tag): NullablePointer[GPtrArrayT] =>
+    @g_ptr_array_copy(array', func', user_data')

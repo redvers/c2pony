@@ -1,0 +1,2 @@
+  fun print_string(value': NullablePointer[GVariantT], string': NullablePointer[GStringT], type_annotate': I32): NullablePointer[GStringT] =>
+    @g_variant_print_string(value', string', type_annotate')

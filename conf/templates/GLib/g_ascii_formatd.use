@@ -1,0 +1,1 @@
+use @g_ascii_formatd[Pointer[U8]](buffer': Pointer[U8] tag, buf_len': I32, format': Pointer[U8] tag, d': F64)

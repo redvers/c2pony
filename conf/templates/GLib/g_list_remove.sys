@@ -1,0 +1,2 @@
+  fun remove(list': NullablePointer[GListT], data': Pointer[None] tag): NullablePointer[GListT] =>
+    @g_list_remove(list', data')

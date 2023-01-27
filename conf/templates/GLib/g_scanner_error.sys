@@ -1,0 +1,2 @@
+  fun error(scanner': NullablePointer[GScannerT], format': String, ...): None =>
+    @g_scanner_error(scanner', format'.cstring(), ...)

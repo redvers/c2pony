@@ -1,0 +1,2 @@
+  fun set_ulong(value': NullablePointer[GValueT], v_ulong': U64): None =>
+    @g_value_set_ulong(value', v_ulong')

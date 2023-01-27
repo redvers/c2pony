@@ -1,0 +1,2 @@
+  fun copy(date': NullablePointer[GDateT]): NullablePointer[GDateT] =>
+    @g_date_copy(date')

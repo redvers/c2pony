@@ -1,0 +1,2 @@
+  fun free(string': NullablePointer[GStringT], free_segment': I32): String iso^ =>
+    String.from_cstring(@g_string_free(string', free_segment')).clone()

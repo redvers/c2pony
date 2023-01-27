@@ -1,0 +1,2 @@
+  fun update(checksum': NullablePointer[GChecksumT], data': String, length': I64): None =>
+    @g_checksum_update(checksum', data'.cstring(), length')

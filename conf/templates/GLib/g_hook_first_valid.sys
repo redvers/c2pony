@@ -1,0 +1,2 @@
+  fun first_valid(hook_list': NullablePointer[GHookListT], may_be_in_call': I32): NullablePointer[GHookT] =>
+    @g_hook_first_valid(hook_list', may_be_in_call')

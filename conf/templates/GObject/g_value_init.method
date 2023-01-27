@@ -1,0 +1,2 @@
+  fun ref init(g_type': U64): NullablePointer[GValueT] =>
+    GValueP.init(this.ptr, g_type')

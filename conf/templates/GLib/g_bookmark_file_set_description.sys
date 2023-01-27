@@ -1,0 +1,2 @@
+  fun set_description(bookmark': NullablePointer[GBookmarkFileT], uri': String, description': String): None =>
+    @g_bookmark_file_set_description(bookmark', uri'.cstring(), description'.cstring())

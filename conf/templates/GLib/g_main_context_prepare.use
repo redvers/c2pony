@@ -1,0 +1,1 @@
+use @g_main_context_prepare[I32](context': NullablePointer[GMainContextT], priority': Pointer[I32] tag)

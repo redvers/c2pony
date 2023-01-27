@@ -1,0 +1,2 @@
+  fun insert_before_link(list': NullablePointer[GListT], sibling': NullablePointer[GListT], link': NullablePointer[GListT]): NullablePointer[GListT] =>
+    @g_list_insert_before_link(list', sibling', link')

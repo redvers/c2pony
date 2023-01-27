@@ -1,0 +1,2 @@
+  fun signal_add_emission_hook(signal_id': U32, detail': U32, hook_func': GSignalEmissionHook, hook_data': Pointer[None] tag, data_destroy': Pointer[None]): U64 =>
+    @g_signal_add_emission_hook(signal_id', detail', hook_func', hook_data', data_destroy')

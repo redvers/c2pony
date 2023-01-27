@@ -1,0 +1,2 @@
+  fun set_size(string': NullablePointer[GStringT], len': U64): NullablePointer[GStringT] =>
+    @g_string_set_size(string', len')

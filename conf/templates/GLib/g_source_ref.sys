@@ -1,0 +1,2 @@
+  fun ref(source': NullablePointer[GSourceT]): NullablePointer[GSourceT] =>
+    @g_source_ref(source')

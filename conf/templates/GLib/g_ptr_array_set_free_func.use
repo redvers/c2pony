@@ -1,0 +1,1 @@
+use @g_ptr_array_set_free_func[None](array': NullablePointer[GPtrArrayT], element_free_func': Pointer[None])

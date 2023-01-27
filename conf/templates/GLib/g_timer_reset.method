@@ -1,0 +1,2 @@
+  fun ref reset(): None =>
+    GTimerP.reset(this.ptr)

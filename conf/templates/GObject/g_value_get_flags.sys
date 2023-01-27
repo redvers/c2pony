@@ -1,0 +1,2 @@
+  fun get_flags(value': NullablePointer[GValueT]): U32 =>
+    @g_value_get_flags(value')

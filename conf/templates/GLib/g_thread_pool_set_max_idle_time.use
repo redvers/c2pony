@@ -1,0 +1,1 @@
+use @g_thread_pool_set_max_idle_time[None](interval': U32)

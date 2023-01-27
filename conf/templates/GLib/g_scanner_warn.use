@@ -1,0 +1,1 @@
+use @g_scanner_warn[None](scanner': NullablePointer[GScannerT], format': Pointer[U8] tag, ...)

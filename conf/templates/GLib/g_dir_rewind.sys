@@ -1,0 +1,2 @@
+  fun rewind(dir': NullablePointer[GDirT]): None =>
+    @g_dir_rewind(dir')

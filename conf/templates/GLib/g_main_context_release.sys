@@ -1,0 +1,2 @@
+  fun release(context': NullablePointer[GMainContextT]): None =>
+    @g_main_context_release(context')

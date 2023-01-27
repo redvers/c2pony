@@ -1,0 +1,2 @@
+  fun atomic_int_add(atomic': Pointer[I32] tag, val': I32): I32 =>
+    @g_atomic_int_add(atomic', val')

@@ -1,0 +1,2 @@
+  fun ref clamp(min_date': NullablePointer[GDateT], max_date': NullablePointer[GDateT]): None =>
+    GDateP.clamp(this.ptr, min_date', max_date')

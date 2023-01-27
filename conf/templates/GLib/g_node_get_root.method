@@ -1,0 +1,2 @@
+  fun ref get_root(): NullablePointer[GNodeT] =>
+    GNodeP.get_root(this.ptr)

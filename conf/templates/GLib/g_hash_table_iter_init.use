@@ -1,0 +1,1 @@
+use @g_hash_table_iter_init[None](iter': NullablePointer[GHashTableIterT], hash_table': NullablePointer[GHashTableT])

@@ -1,0 +1,2 @@
+  fun insert_after_link(queue': NullablePointer[GQueueT], sibling': NullablePointer[GListT], link': NullablePointer[GListT]): None =>
+    @g_queue_insert_after_link(queue', sibling', link')

@@ -1,0 +1,1 @@
+use @g_slist_nth[NullablePointer[GSListT]](list': NullablePointer[GSListT], n': U32)

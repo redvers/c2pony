@@ -1,0 +1,2 @@
+  fun copy(error': NullablePointer[GErrorT]): NullablePointer[GErrorT] =>
+    @g_error_copy(error')

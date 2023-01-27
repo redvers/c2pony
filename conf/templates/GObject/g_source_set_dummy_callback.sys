@@ -1,0 +1,2 @@
+  fun source_set_dummy_callback(source': NullablePointer[GSourceT]): None =>
+    @g_source_set_dummy_callback(source')

@@ -1,0 +1,1 @@
+use @g_regex_get_compile_flags[U32](regex': NullablePointer[GRegexT])

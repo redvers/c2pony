@@ -1,0 +1,2 @@
+  fun utf8_find_next_char(p': String, end': String): String iso^ =>
+    String.from_cstring(@g_utf8_find_next_char(p'.cstring(), end'.cstring())).clone()

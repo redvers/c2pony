@@ -1,0 +1,2 @@
+  fun strncasecmp(s1': String, s2': String, n': U32): I32 =>
+    @g_strncasecmp(s1'.cstring(), s2'.cstring(), n')

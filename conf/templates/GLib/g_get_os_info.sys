@@ -1,0 +1,2 @@
+  fun get_os_info(key_name': String): String iso^ =>
+    String.from_cstring(@g_get_os_info(key_name'.cstring())).clone()

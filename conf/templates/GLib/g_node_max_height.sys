@@ -1,0 +1,2 @@
+  fun max_height(root': NullablePointer[GNodeT]): U32 =>
+    @g_node_max_height(root')

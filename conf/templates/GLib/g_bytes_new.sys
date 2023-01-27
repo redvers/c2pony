@@ -1,0 +1,2 @@
+  new new(data': Pointer[None] tag, size': U64) =>
+    ptr = @g_bytes_new(data', size')

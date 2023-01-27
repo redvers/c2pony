@@ -1,0 +1,2 @@
+  fun set_property(object': NullablePointer[GObjectT], property_name': String, value': NullablePointer[GValueT]): None =>
+    @g_object_set_property(object', property_name'.cstring(), value')

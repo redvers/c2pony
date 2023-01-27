@@ -1,0 +1,2 @@
+  fun ref set_time_val(timeval': NullablePointer[GTimeValT]): None =>
+    GDateP.set_time_val(this.ptr, timeval')

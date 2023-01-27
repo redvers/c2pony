@@ -1,0 +1,1 @@
+use @g_main_context_iteration[I32](context': NullablePointer[GMainContextT], may_block': I32)

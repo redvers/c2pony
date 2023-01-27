@@ -1,0 +1,1 @@
+use @g_enum_get_value_by_name[NullablePointer[GEnumValueT]](enum_class': NullablePointer[GEnumClassT], name': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun realloc_n(mem': Pointer[None] tag, n_blocks': U64, n_block_bytes': U64): Pointer[None] tag =>
+    @g_realloc_n(mem', n_blocks', n_block_bytes')

@@ -1,0 +1,2 @@
+  fun mem_set_vtable(vtable': NullablePointer[GMemVTableT]): None =>
+    @g_mem_set_vtable(vtable')

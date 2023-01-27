@@ -1,0 +1,2 @@
+  fun ref unlink(link': NullablePointer[GListT]): None =>
+    GQueueP.unlink(this.ptr, link')

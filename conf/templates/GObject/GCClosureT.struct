@@ -1,0 +1,6 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+struct GCClosureT
+  embed closure': GClosureT = GClosureT
+  var callback': Pointer[None] = Pointer[None]

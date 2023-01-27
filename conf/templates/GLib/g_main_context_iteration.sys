@@ -1,0 +1,2 @@
+  fun iteration(context': NullablePointer[GMainContextT], may_block': I32): I32 =>
+    @g_main_context_iteration(context', may_block')

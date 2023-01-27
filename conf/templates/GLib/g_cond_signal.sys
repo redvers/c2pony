@@ -1,0 +1,2 @@
+  fun signal(cond': NullablePointer[GCondT]): None =>
+    @g_cond_signal(cond')

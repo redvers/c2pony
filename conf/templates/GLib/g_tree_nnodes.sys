@@ -1,0 +1,2 @@
+  fun nnodes(tree': NullablePointer[GTreeT]): I32 =>
+    @g_tree_nnodes(tree')

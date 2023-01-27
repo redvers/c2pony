@@ -1,0 +1,2 @@
+  fun copy_deep(node': NullablePointer[GNodeT], copy_func': GCopyFunc, data': Pointer[None] tag): NullablePointer[GNodeT] =>
+    @g_node_copy_deep(node', copy_func', data')

@@ -1,0 +1,2 @@
+  fun ref peek_next_token(): U32 =>
+    GScannerP.peek_next_token(this.ptr)

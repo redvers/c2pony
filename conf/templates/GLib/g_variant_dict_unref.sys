@@ -1,0 +1,2 @@
+  fun unref(dict': NullablePointer[GVariantDictT]): None =>
+    @g_variant_dict_unref(dict')

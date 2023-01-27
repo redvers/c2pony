@@ -1,0 +1,2 @@
+  fun unref(loop': NullablePointer[GMainLoopT]): None =>
+    @g_main_loop_unref(loop')

@@ -1,0 +1,2 @@
+  fun ref sort_iter(cmp_func': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag): None =>
+    GSequenceP.sort_iter(this.ptr, cmp_func', cmp_data')

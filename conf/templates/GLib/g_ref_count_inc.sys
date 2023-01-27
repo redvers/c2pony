@@ -1,0 +1,2 @@
+  fun ref_count_inc(rc': Pointer[I32] tag): None =>
+    @g_ref_count_inc(rc')

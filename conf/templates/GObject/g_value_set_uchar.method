@@ -1,0 +1,2 @@
+  fun ref set_uchar(v_uchar': U8): None =>
+    GValueP.set_uchar(this.ptr, v_uchar')

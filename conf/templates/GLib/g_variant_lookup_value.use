@@ -1,0 +1,1 @@
+use @g_variant_lookup_value[NullablePointer[GVariantT]](dictionary': NullablePointer[GVariantT], key': Pointer[U8] tag, expected_type': NullablePointer[GVariantTypeT])

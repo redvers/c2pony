@@ -1,0 +1,1 @@
+use @g_markup_parse_context_get_user_data[Pointer[None] tag](context': NullablePointer[GMarkupParseContextT])

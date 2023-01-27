@@ -1,0 +1,1 @@
+use @g_rand_double_range[F64](rand': NullablePointer[GRandT], begin': F64, end': F64)

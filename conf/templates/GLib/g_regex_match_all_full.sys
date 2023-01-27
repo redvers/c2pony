@@ -1,0 +1,2 @@
+  fun match_all_full(regex': NullablePointer[GRegexT], string': String, string_len': I64, start_position': I32, match_options': U32, match_info': Pointer[NullablePointer[GMatchInfoT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_regex_match_all_full(regex', string'.cstring(), string_len', start_position', match_options', match_info', error')

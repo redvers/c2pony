@@ -1,0 +1,2 @@
+  new new_julian(julian_day': U32) =>
+    ptr = @g_date_new_julian(julian_day')

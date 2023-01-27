@@ -1,0 +1,2 @@
+  fun set_time_val(date': NullablePointer[GDateT], timeval': NullablePointer[GTimeValT]): None =>
+    @g_date_set_time_val(date', timeval')

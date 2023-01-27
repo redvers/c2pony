@@ -1,0 +1,1 @@
+use @g_signal_add_emission_hook[U64](signal_id': U32, detail': U32, hook_func': GSignalEmissionHook, hook_data': Pointer[None] tag, data_destroy': Pointer[None])

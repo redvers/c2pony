@@ -1,0 +1,1 @@
+use @g_hash_table_insert[I32](hash_table': NullablePointer[GHashTableT], key': Pointer[None] tag, value': Pointer[None] tag)

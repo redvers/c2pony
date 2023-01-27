@@ -1,0 +1,1 @@
+use @g_print[None](format': Pointer[U8] tag, ...)

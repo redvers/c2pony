@@ -1,0 +1,2 @@
+  fun ascii_strcasecmp(s1': String, s2': String): I32 =>
+    @g_ascii_strcasecmp(s1'.cstring(), s2'.cstring())

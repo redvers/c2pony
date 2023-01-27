@@ -1,0 +1,1 @@
+use @g_variant_store[None](value': NullablePointer[GVariantT], data': Pointer[None] tag)

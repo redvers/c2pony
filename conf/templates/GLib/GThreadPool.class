@@ -1,0 +1,9 @@
+
+use "lib:glib-2.0"
+
+class GThreadPool
+  var ptr: NullablePointer[GThreadPoolT]
+
+  new create() =>
+    ptr = NullablePointer[GThreadPoolT].none()
+  new create_from_ptr(ptr': NullablePointer[GThreadPoolT]) => ptr = ptr'

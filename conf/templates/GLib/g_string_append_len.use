@@ -1,0 +1,1 @@
+use @g_string_append_len[NullablePointer[GStringT]](string': NullablePointer[GStringT], val': Pointer[U8] tag, len': I64)

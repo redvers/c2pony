@@ -1,0 +1,1 @@
+use @g_async_queue_try_pop[Pointer[None] tag](queue': NullablePointer[GAsyncQueueT])

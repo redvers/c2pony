@@ -1,0 +1,1 @@
+use @g_slist_remove[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag)

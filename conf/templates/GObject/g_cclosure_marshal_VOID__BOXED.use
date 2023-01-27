@@ -1,0 +1,1 @@
+use @g_cclosure_marshal_VOID__BOXED[None](closure': NullablePointer[GClosureT], return_value': NullablePointer[GValueT], n_param_values': U32, param_values': NullablePointer[GValueT], invocation_hint': Pointer[None] tag, marshal_data': Pointer[None] tag)

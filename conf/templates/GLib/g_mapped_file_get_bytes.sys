@@ -1,0 +1,2 @@
+  fun get_bytes(file': NullablePointer[GMappedFileT]): NullablePointer[GBytesT] =>
+    @g_mapped_file_get_bytes(file')

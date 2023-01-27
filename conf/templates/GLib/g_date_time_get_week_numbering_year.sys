@@ -1,0 +1,2 @@
+  fun get_week_numbering_year(datetime': NullablePointer[GDateTimeT]): I32 =>
+    @g_date_time_get_week_numbering_year(datetime')

@@ -1,0 +1,1 @@
+use @g_ptr_array_remove_index[Pointer[None] tag](array': NullablePointer[GPtrArrayT], index': U32)

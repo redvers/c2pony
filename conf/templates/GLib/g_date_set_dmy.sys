@@ -1,0 +1,2 @@
+  fun set_dmy(date': NullablePointer[GDateT], day': U8, month': U32, y': U16): None =>
+    @g_date_set_dmy(date', day', month', y')

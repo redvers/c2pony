@@ -1,0 +1,2 @@
+  fun height(tree': NullablePointer[GTreeT]): I32 =>
+    @g_tree_height(tree')

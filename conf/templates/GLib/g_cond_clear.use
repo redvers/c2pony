@@ -1,0 +1,1 @@
+use @g_cond_clear[None](cond': NullablePointer[GCondT])

@@ -1,0 +1,2 @@
+  fun get_monotonic_time(): I64 =>
+    @g_get_monotonic_time()

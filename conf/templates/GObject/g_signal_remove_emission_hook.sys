@@ -1,0 +1,2 @@
+  fun signal_remove_emission_hook(signal_id': U32, hook_id': U64): None =>
+    @g_signal_remove_emission_hook(signal_id', hook_id')

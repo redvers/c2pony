@@ -1,0 +1,2 @@
+  fun check_replacement(replacement': String, has_references': Pointer[I32] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_regex_check_replacement(replacement'.cstring(), has_references', error')

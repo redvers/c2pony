@@ -1,0 +1,2 @@
+  fun signal_lookup(name': String, itype': U64): U32 =>
+    @g_signal_lookup(name'.cstring(), itype')

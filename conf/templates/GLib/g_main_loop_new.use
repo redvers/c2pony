@@ -1,0 +1,1 @@
+use @g_main_loop_new[NullablePointer[GMainLoopT]](context': NullablePointer[GMainContextT], is_running': I32)

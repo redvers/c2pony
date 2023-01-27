@@ -1,0 +1,2 @@
+  fun ref(value': NullablePointer[GVariantT]): NullablePointer[GVariantT] =>
+    @g_variant_ref(value')

@@ -1,0 +1,3 @@
+
+  fun ref set_data[A: Any](sig: String, data: A) =>
+    GObjectP.set_data[A](this, sig, consume data)

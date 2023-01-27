@@ -1,0 +1,2 @@
+  fun ref get_integer_list(group_name': String, key': String, length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[I32] tag =>
+    GKeyFileP.get_integer_list(this.ptr, group_name', key', length', error')

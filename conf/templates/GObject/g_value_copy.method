@@ -1,0 +1,2 @@
+  fun ref copy(dest_value': NullablePointer[GValueT]): None =>
+    GValueP.copy(this.ptr, dest_value')

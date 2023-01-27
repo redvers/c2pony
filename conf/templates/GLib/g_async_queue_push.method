@@ -1,0 +1,2 @@
+  fun ref push(data': Pointer[None] tag): None =>
+    GAsyncQueueP.push(this.ptr, data')

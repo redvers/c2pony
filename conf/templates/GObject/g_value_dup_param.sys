@@ -1,0 +1,2 @@
+  fun dup_param(value': NullablePointer[GValueT]): NullablePointer[GParamSpecT] =>
+    @g_value_dup_param(value')

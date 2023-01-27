@@ -1,0 +1,1 @@
+use @g_hook_insert_sorted[None](hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT], func': GHookCompareFunc)

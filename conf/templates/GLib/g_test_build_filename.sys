@@ -1,0 +1,2 @@
+  fun test_build_filename(file_type': U32, first_path': String, ...): String iso^ =>
+    String.from_cstring(@g_test_build_filename(file_type', first_path'.cstring(), ...)).clone()

@@ -1,0 +1,2 @@
+  fun ref ref_sink(): NullablePointer[GParamSpecT] =>
+    GParamSpecP.ref_sink(this.ptr)

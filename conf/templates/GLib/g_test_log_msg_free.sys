@@ -1,0 +1,2 @@
+  fun free(tmsg': NullablePointer[anon_2387T]): None =>
+    @g_test_log_msg_free(tmsg')

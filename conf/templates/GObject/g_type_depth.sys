@@ -1,0 +1,2 @@
+  fun type_depth(type': U64): U32 =>
+    @g_type_depth(type')

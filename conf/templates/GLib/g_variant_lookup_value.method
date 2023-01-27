@@ -1,0 +1,2 @@
+  fun ref lookup_value(key': String, expected_type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantT] =>
+    GVariantP.lookup_value(this.ptr, key', expected_type')

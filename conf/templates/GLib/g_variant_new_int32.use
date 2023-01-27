@@ -1,0 +1,1 @@
+use @g_variant_new_int32[NullablePointer[GVariantT]](value': I32)

@@ -1,0 +1,2 @@
+  fun clear(weak_ref': NullablePointer[anon_3672T]): None =>
+    @g_weak_ref_clear(weak_ref')

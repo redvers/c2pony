@@ -1,0 +1,2 @@
+  fun ref ascii_up(): NullablePointer[GStringT] =>
+    GStringP.ascii_up(this.ptr)

@@ -1,0 +1,2 @@
+  fun ref add_poll(fd': NullablePointer[GPollFDT]): None =>
+    GSourceP.add_poll(this.ptr, fd')

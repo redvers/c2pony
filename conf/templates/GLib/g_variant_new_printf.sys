@@ -1,0 +1,2 @@
+  new new_printf(format_string': String, ...) =>
+    ptr = @g_variant_new_printf(format_string'.cstring(), ...)

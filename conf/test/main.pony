@@ -1,5 +1,5 @@
-//use "GLib"
-//use "GObject"
+use "GLib"
+use "GObject"
 //use "Gio"
 //use "Gtk"
 

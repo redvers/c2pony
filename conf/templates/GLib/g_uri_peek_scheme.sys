@@ -1,0 +1,2 @@
+  fun peek_scheme(uri': String): String iso^ =>
+    String.from_cstring(@g_uri_peek_scheme(uri'.cstring())).clone()

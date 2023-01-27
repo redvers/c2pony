@@ -631,7 +631,7 @@
       <renderfunction name="g_byte_array_steal" ponyname="steal" render="0" deprecated=""/>
       <renderfunction name="g_byte_array_unref" ponyname="unref" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GBytes" render="0">
+    <renderstruct name="GBytes" render="1">
       <renderconstructor name="g_bytes_new" ponyname="new" render="0" deprecated=""/>
       <renderconstructor name="g_bytes_new_static" ponyname="new_static" render="0" deprecated=""/>
       <renderconstructor name="g_bytes_new_take" ponyname="new_take" render="0" deprecated=""/>
@@ -665,7 +665,7 @@
       <rendermethod name="g_cond_wait" ponyname="wait" render="0" deprecated=""/>
       <rendermethod name="g_cond_wait_until" ponyname="wait_until" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GData" render="0">
+    <renderstruct name="GData" render="1">
 </renderstruct>
     <renderstruct name="GDate" render="0">
       <renderconstructor name="g_date_new" ponyname="new" render="0" deprecated=""/>
@@ -1286,7 +1286,7 @@
       <renderfunction name="g_regex_match_simple" ponyname="match_simple" render="0" deprecated=""/>
       <renderfunction name="g_regex_split_simple" ponyname="split_simple" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GSList" render="0">
+    <renderstruct name="GSList" render="1">
       <renderfunction name="g_slist_alloc" ponyname="alloc" render="0" deprecated=""/>
       <renderfunction name="g_slist_append" ponyname="append" render="0" deprecated=""/>
       <renderfunction name="g_slist_concat" ponyname="concat" render="0" deprecated=""/>
@@ -1610,38 +1610,38 @@
       <rendermethod name="g_uri_params_iter_init" ponyname="init" render="0" deprecated=""/>
       <rendermethod name="g_uri_params_iter_next" ponyname="next" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GVariant" render="0">
+    <renderstruct name="GVariant" render="1">
       <renderconstructor name="g_variant_new" ponyname="new" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_array" ponyname="new_array" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_boolean" ponyname="new_boolean" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_byte" ponyname="new_byte" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_bytestring" ponyname="new_bytestring" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_bytestring_array" ponyname="new_bytestring_array" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_dict_entry" ponyname="new_dict_entry" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_double" ponyname="new_double" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_fixed_array" ponyname="new_fixed_array" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_from_bytes" ponyname="new_from_bytes" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_from_data" ponyname="new_from_data" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_handle" ponyname="new_handle" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_int16" ponyname="new_int16" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_int32" ponyname="new_int32" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_int64" ponyname="new_int64" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_maybe" ponyname="new_maybe" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_object_path" ponyname="new_object_path" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_objv" ponyname="new_objv" render="0" deprecated=""/>
+      <renderconstructor name="g_variant_new_array" ponyname="new_array" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_boolean" ponyname="new_boolean" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_byte" ponyname="new_byte" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_bytestring" ponyname="new_bytestring" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_bytestring_array" ponyname="new_bytestring_array" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_dict_entry" ponyname="new_dict_entry" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_double" ponyname="new_double" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_fixed_array" ponyname="new_fixed_array" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_from_bytes" ponyname="new_from_bytes" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_from_data" ponyname="new_from_data" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_handle" ponyname="new_handle" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_int16" ponyname="new_int16" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_int32" ponyname="new_int32" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_int64" ponyname="new_int64" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_maybe" ponyname="new_maybe" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_object_path" ponyname="new_object_path" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_objv" ponyname="new_objv" render="1" deprecated=""/>
       <renderconstructor name="g_variant_new_parsed" ponyname="new_parsed" render="0" deprecated=""/>
       <renderconstructor name="g_variant_new_parsed_va" ponyname="new_parsed_va" render="0" deprecated=""/>
       <renderconstructor name="g_variant_new_printf" ponyname="new_printf" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_signature" ponyname="new_signature" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_string" ponyname="new_string" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_strv" ponyname="new_strv" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_take_string" ponyname="new_take_string" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_tuple" ponyname="new_tuple" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_uint16" ponyname="new_uint16" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_uint32" ponyname="new_uint32" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_uint64" ponyname="new_uint64" render="0" deprecated=""/>
+      <renderconstructor name="g_variant_new_signature" ponyname="new_signature" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_string" ponyname="new_string" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_strv" ponyname="new_strv" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_take_string" ponyname="new_take_string" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_tuple" ponyname="new_tuple" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_uint16" ponyname="new_uint16" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_uint32" ponyname="new_uint32" render="1" deprecated=""/>
+      <renderconstructor name="g_variant_new_uint64" ponyname="new_uint64" render="1" deprecated=""/>
       <renderconstructor name="g_variant_new_va" ponyname="new_va" render="0" deprecated=""/>
-      <renderconstructor name="g_variant_new_variant" ponyname="new_variant" render="0" deprecated=""/>
+      <renderconstructor name="g_variant_new_variant" ponyname="new_variant" render="1" deprecated=""/>
       <rendermethod name="g_variant_byteswap" ponyname="byteswap" render="0" deprecated=""/>
       <rendermethod name="g_variant_check_format_string" ponyname="check_format_string" render="0" deprecated=""/>
       <rendermethod name="g_variant_classify" ponyname="classify" render="0" deprecated=""/>
@@ -1739,7 +1739,7 @@
       <rendermethod name="g_variant_iter_next" ponyname="next" render="0" deprecated=""/>
       <rendermethod name="g_variant_iter_next_value" ponyname="next_value" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GVariantType" render="0">
+    <renderstruct name="GVariantType" render="1">
       <renderconstructor name="g_variant_type_new" ponyname="new" render="0" deprecated=""/>
       <renderconstructor name="g_variant_type_new_array" ponyname="new_array" render="0" deprecated=""/>
       <renderconstructor name="g_variant_type_new_dict_entry" ponyname="new_dict_entry" render="0" deprecated=""/>

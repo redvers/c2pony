@@ -1,0 +1,2 @@
+  fun take_object(value': NullablePointer[GValueT], v_object': Pointer[None] tag): None =>
+    @g_value_take_object(value', v_object')

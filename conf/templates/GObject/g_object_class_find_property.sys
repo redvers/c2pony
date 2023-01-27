@@ -1,0 +1,2 @@
+  fun find_property(oclass': NullablePointer[GObjectClassT], property_name': String): NullablePointer[GParamSpecT] =>
+    @g_object_class_find_property(oclass', property_name'.cstring())

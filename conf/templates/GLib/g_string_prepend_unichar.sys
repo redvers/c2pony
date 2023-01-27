@@ -1,0 +1,2 @@
+  fun prepend_unichar(string': NullablePointer[GStringT], wc': U32): NullablePointer[GStringT] =>
+    @g_string_prepend_unichar(string', wc')

@@ -1,0 +1,2 @@
+  fun ref find_source_by_id(source_id': U32): NullablePointer[GSourceT] =>
+    GMainContextP.find_source_by_id(this.ptr, source_id')

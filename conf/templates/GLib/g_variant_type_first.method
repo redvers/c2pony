@@ -1,0 +1,2 @@
+  fun ref first(): NullablePointer[GVariantTypeT] =>
+    GVariantTypeP.first(this.ptr)

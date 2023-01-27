@@ -1,0 +1,2 @@
+  fun store(value': NullablePointer[GVariantT], data': Pointer[None] tag): None =>
+    @g_variant_store(value', data')

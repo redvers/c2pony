@@ -1,0 +1,2 @@
+  fun unref(thread': NullablePointer[GThreadT]): None =>
+    @g_thread_unref(thread')

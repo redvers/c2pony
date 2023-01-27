@@ -1,0 +1,2 @@
+  fun cur_token(scanner': NullablePointer[GScannerT]): U32 =>
+    @g_scanner_cur_token(scanner')

@@ -1,0 +1,2 @@
+  fun overwrite(string': NullablePointer[GStringT], pos': U64, val': String): NullablePointer[GStringT] =>
+    @g_string_overwrite(string', pos', val'.cstring())

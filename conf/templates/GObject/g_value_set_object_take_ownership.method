@@ -1,0 +1,2 @@
+  fun ref set_object_take_ownership(v_object': Pointer[None] tag): None =>
+    GValueP.set_object_take_ownership(this.ptr, v_object')

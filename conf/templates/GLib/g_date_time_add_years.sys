@@ -1,0 +1,2 @@
+  fun add_years(datetime': NullablePointer[GDateTimeT], years': I32): NullablePointer[GDateTimeT] =>
+    @g_date_time_add_years(datetime', years')

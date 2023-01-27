@@ -1,0 +1,1 @@
+use @g_value_array_get_nth[NullablePointer[GValueT]](value_array': NullablePointer[GValueArrayT], index': U32)

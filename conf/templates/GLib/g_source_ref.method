@@ -1,0 +1,2 @@
+  fun ref ref(): NullablePointer[GSourceT] =>
+    GSourceP.ref(this.ptr)

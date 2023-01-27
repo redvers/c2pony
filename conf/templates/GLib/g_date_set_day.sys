@@ -1,0 +1,2 @@
+  fun set_day(date': NullablePointer[GDateT], day': U8): None =>
+    @g_date_set_day(date', day')

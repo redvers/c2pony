@@ -1,0 +1,2 @@
+  fun ref insert(pos': I64, val': String): NullablePointer[GStringT] =>
+    GStringP.insert(this.ptr, pos', val')

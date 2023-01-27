@@ -1,0 +1,2 @@
+  new new_uint16(value': U16) =>
+    ptr = @g_variant_new_uint16(value')

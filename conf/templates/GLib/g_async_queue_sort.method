@@ -1,0 +1,2 @@
+  fun ref sort(func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    GAsyncQueueP.sort(this.ptr, func', user_data')

@@ -1,0 +1,1 @@
+use @g_value_set_char[None](value': NullablePointer[GValueT], v_char': U8)

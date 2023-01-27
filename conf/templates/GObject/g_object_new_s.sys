@@ -1,0 +1,3 @@
+
+  fun gnew_s(objtype: U64, p0: String, v0: String): Pointer[GObjectP] =>
+    @g_object_new(objtype, p0.cstring(), v0.cstring(), Pointer[None])

@@ -1,0 +1,2 @@
+  fun peek_tail_link(queue': NullablePointer[GQueueT]): NullablePointer[GListT] =>
+    @g_queue_peek_tail_link(queue')

@@ -1,0 +1,2 @@
+  fun get_qdata(pspec': NullablePointer[GParamSpecT], quark': U32): Pointer[None] tag =>
+    @g_param_spec_get_qdata(pspec', quark')

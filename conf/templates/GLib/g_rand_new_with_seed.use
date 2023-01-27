@@ -1,0 +1,1 @@
+use @g_rand_new_with_seed[NullablePointer[GRandT]](seed': U32)

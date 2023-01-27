@@ -1,0 +1,2 @@
+  new new(from_asv': NullablePointer[GVariantT]) =>
+    ptr = @g_variant_dict_new(from_asv')

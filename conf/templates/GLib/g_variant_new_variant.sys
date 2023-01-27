@@ -1,0 +1,2 @@
+  new new_variant(value': NullablePointer[GVariantT]) =>
+    ptr = @g_variant_new_variant(value')

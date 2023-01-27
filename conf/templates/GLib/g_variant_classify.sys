@@ -1,0 +1,2 @@
+  fun classify(value': NullablePointer[GVariantT]): U32 =>
+    @g_variant_classify(value')

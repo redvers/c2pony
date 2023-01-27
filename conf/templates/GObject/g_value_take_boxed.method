@@ -1,0 +1,2 @@
+  fun ref take_boxed(v_boxed': Pointer[None] tag): None =>
+    GValueP.take_boxed(this.ptr, v_boxed')

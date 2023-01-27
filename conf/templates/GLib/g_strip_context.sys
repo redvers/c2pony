@@ -1,0 +1,2 @@
+  fun strip_context(msgid': String, msgval': String): String iso^ =>
+    String.from_cstring(@g_strip_context(msgid'.cstring(), msgval'.cstring())).clone()

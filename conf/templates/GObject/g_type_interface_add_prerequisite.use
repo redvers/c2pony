@@ -1,0 +1,1 @@
+use @g_type_interface_add_prerequisite[None](interface_type': U64, prerequisite_type': U64)

@@ -1,0 +1,1 @@
+use @g_ptr_array_sort[None](array': NullablePointer[GPtrArrayT], compare_func': GCompareFunc)

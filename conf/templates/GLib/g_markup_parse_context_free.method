@@ -1,0 +1,2 @@
+  fun ref free(): None =>
+    GMarkupParseContextP.free(this.ptr)

@@ -1,0 +1,2 @@
+  fun set_added(bookmark': NullablePointer[GBookmarkFileT], uri': String, added': I64): None =>
+    @g_bookmark_file_set_added(bookmark', uri'.cstring(), added')

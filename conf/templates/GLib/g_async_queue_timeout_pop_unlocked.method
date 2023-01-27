@@ -1,0 +1,2 @@
+  fun ref timeout_pop_unlocked(timeout': U64): Pointer[None] tag =>
+    GAsyncQueueP.timeout_pop_unlocked(this.ptr, timeout')

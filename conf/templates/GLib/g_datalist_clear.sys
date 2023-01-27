@@ -1,0 +1,2 @@
+  fun datalist_clear(datalist': Pointer[NullablePointer[GDataT]]): None =>
+    @g_datalist_clear(datalist')

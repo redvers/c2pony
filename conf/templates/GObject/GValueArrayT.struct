@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+struct GValueArrayT
+  var n_values': U32 = U32(0)
+  var values': NullablePointer[GValueT] = NullablePointer[GValueT].none()
+  var n_prealloced': U32 = U32(0)

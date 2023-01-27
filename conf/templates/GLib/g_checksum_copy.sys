@@ -1,0 +1,2 @@
+  fun copy(checksum': NullablePointer[GChecksumT]): NullablePointer[GChecksumT] =>
+    @g_checksum_copy(checksum')

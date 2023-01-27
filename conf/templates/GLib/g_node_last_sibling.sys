@@ -1,0 +1,2 @@
+  fun last_sibling(node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
+    @g_node_last_sibling(node')

@@ -1,0 +1,2 @@
+  fun remove_all(list': NullablePointer[GSListT], data': Pointer[None] tag): NullablePointer[GSListT] =>
+    @g_slist_remove_all(list', data')

@@ -1,0 +1,2 @@
+  fun reset(checksum': NullablePointer[GChecksumT]): None =>
+    @g_checksum_reset(checksum')

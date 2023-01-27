@@ -1,0 +1,2 @@
+  new new_now_utc() =>
+    ptr = @g_date_time_new_now_utc()

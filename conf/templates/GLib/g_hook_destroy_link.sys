@@ -1,0 +1,2 @@
+  fun destroy_link(hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT]): None =>
+    @g_hook_destroy_link(hook_list', hook')

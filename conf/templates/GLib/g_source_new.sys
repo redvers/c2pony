@@ -1,0 +1,2 @@
+  new new(source_funcs': NullablePointer[GSourceFuncsT], struct_size': U32) =>
+    ptr = @g_source_new(source_funcs', struct_size')

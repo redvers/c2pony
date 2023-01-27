@@ -1,0 +1,2 @@
+  fun transform(src_value': NullablePointer[GValueT], dest_value': NullablePointer[GValueT]): I32 =>
+    @g_value_transform(src_value', dest_value')

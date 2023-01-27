@@ -1,0 +1,1 @@
+use @g_hmac_unref[None](hmac': NullablePointer[GHmacT])

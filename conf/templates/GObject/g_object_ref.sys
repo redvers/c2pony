@@ -1,0 +1,2 @@
+  fun ref(object': Pointer[None] tag): Pointer[None] tag =>
+    @g_object_ref(object')

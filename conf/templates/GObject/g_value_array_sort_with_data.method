@@ -1,0 +1,2 @@
+  fun ref sort_with_data(compare_func': GCompareDataFunc, user_data': Pointer[None] tag): NullablePointer[GValueArrayT] =>
+    GValueArrayP.sort_with_data(this.ptr, compare_func', user_data')

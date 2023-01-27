@@ -1,0 +1,2 @@
+  fun spawn_command_line_async(command_line': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_spawn_command_line_async(command_line'.cstring(), error')

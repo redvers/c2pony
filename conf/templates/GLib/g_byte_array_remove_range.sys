@@ -1,0 +1,2 @@
+  fun remove_range(array': NullablePointer[GByteArrayT], index': U32, length': U32): NullablePointer[GByteArrayT] =>
+    @g_byte_array_remove_range(array', index', length')

@@ -1,0 +1,2 @@
+  fun prepend_len(string': NullablePointer[GStringT], val': String, len': I64): NullablePointer[GStringT] =>
+    @g_string_prepend_len(string', val'.cstring(), len')

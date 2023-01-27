@@ -1,0 +1,2 @@
+  fun set_long(value': NullablePointer[GValueT], v_long': I64): None =>
+    @g_value_set_long(value', v_long')

@@ -1,0 +1,2 @@
+  new new_take_string(string': String) =>
+    ptr = @g_variant_new_take_string(string'.cstring())

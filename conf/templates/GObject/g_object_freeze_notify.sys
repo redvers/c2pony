@@ -1,0 +1,2 @@
+  fun freeze_notify(object': NullablePointer[GObjectT]): None =>
+    @g_object_freeze_notify(object')

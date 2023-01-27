@@ -1,0 +1,2 @@
+  fun datalist_init(datalist': Pointer[NullablePointer[GDataT]]): None =>
+    @g_datalist_init(datalist')

@@ -1,0 +1,1 @@
+use @g_poll[I32](fds': NullablePointer[GPollFDT], nfds': U32, timeout': I32)

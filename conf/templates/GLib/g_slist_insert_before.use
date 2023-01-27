@@ -1,0 +1,1 @@
+use @g_slist_insert_before[NullablePointer[GSListT]](slist': NullablePointer[GSListT], sibling': NullablePointer[GSListT], data': Pointer[None] tag)

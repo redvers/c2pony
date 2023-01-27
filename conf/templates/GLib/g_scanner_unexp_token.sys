@@ -1,0 +1,2 @@
+  fun unexp_token(scanner': NullablePointer[GScannerT], expected_token': U32, identifier_spec': String, symbol_spec': String, symbol_name': String, message': String, is_error': I32): None =>
+    @g_scanner_unexp_token(scanner', expected_token', identifier_spec'.cstring(), symbol_spec'.cstring(), symbol_name'.cstring(), message'.cstring(), is_error')

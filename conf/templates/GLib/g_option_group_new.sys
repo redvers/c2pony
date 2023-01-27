@@ -1,0 +1,2 @@
+  new new(name': String, description': String, help_description': String, user_data': Pointer[None] tag, destroy': Pointer[None]) =>
+    ptr = @g_option_group_new(name'.cstring(), description'.cstring(), help_description'.cstring(), user_data', destroy')

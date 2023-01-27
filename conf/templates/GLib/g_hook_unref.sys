@@ -1,0 +1,2 @@
+  fun unref(hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT]): None =>
+    @g_hook_unref(hook_list', hook')

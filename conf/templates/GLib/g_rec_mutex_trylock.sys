@@ -1,0 +1,2 @@
+  fun trylock(rec_mutex': NullablePointer[GRecMutexT]): I32 =>
+    @g_rec_mutex_trylock(rec_mutex')

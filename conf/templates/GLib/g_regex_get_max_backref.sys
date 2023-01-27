@@ -1,0 +1,2 @@
+  fun get_max_backref(regex': NullablePointer[GRegexT]): I32 =>
+    @g_regex_get_max_backref(regex')

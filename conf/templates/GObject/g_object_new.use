@@ -1,0 +1,2 @@
+
+use @g_object_new[Pointer[GObjectP]](object_type': U64, ...)

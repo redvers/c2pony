@@ -1,0 +1,2 @@
+  new new_parsed(format': String, ...) =>
+    ptr = @g_variant_new_parsed(format'.cstring(), ...)

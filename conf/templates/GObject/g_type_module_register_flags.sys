@@ -1,0 +1,2 @@
+  fun register_flags(module': NullablePointer[GTypeModuleT], name': String, const_static_values': NullablePointer[GFlagsValueT]): U64 =>
+    @g_type_module_register_flags(module', name'.cstring(), const_static_values')

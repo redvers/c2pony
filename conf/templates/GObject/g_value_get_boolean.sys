@@ -1,0 +1,2 @@
+  fun get_boolean(value': NullablePointer[GValueT]): I32 =>
+    @g_value_get_boolean(value')

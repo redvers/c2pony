@@ -1,0 +1,2 @@
+  fun clear(rec_mutex': NullablePointer[GRecMutexT]): None =>
+    @g_rec_mutex_clear(rec_mutex')

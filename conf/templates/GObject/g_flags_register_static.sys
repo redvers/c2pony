@@ -1,0 +1,2 @@
+  fun flags_register_static(name': String, const_static_values': NullablePointer[GFlagsValueT]): U64 =>
+    @g_flags_register_static(name'.cstring(), const_static_values')

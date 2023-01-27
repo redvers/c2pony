@@ -1,0 +1,2 @@
+  fun find(haystack': NullablePointer[GPtrArrayT], needle': Pointer[None] tag, index': Pointer[U32] tag): I32 =>
+    @g_ptr_array_find(haystack', needle', index')

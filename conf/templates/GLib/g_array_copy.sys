@@ -1,0 +1,2 @@
+  fun copy(array': NullablePointer[GArrayT]): NullablePointer[GArrayT] =>
+    @g_array_copy(array')

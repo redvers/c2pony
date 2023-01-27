@@ -1,0 +1,2 @@
+  fun get_uint64(value': NullablePointer[GVariantT]): U64 =>
+    @g_variant_get_uint64(value')

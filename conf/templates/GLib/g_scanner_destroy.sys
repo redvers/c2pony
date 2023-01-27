@@ -1,0 +1,2 @@
+  fun destroy(scanner': NullablePointer[GScannerT]): None =>
+    @g_scanner_destroy(scanner')

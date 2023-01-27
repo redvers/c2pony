@@ -1,0 +1,2 @@
+  fun clear(builder': NullablePointer[GVariantBuilderT]): None =>
+    @g_variant_builder_clear(builder')

@@ -1,0 +1,2 @@
+  fun ref pop_nth(n': U32): Pointer[None] tag =>
+    GQueueP.pop_nth(this.ptr, n')

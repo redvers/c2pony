@@ -1,0 +1,2 @@
+  fun ref get_uint64(): U64 =>
+    GValueP.get_uint64(this.ptr)

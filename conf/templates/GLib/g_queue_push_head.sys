@@ -1,0 +1,2 @@
+  fun push_head(queue': NullablePointer[GQueueT], data': Pointer[None] tag): None =>
+    @g_queue_push_head(queue', data')

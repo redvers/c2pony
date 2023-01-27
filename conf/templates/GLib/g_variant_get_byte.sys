@@ -1,0 +1,2 @@
+  fun get_byte(value': NullablePointer[GVariantT]): U8 =>
+    @g_variant_get_byte(value')

@@ -1,0 +1,2 @@
+  fun get_source(binding': NullablePointer[GBindingT]): NullablePointer[GObjectT] =>
+    @g_binding_get_source(binding')

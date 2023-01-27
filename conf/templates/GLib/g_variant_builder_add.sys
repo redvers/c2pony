@@ -1,0 +1,2 @@
+  fun add(builder': NullablePointer[GVariantBuilderT], format_string': String, ...): None =>
+    @g_variant_builder_add(builder', format_string'.cstring(), ...)

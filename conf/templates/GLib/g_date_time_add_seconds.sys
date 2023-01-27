@@ -1,0 +1,2 @@
+  fun add_seconds(datetime': NullablePointer[GDateTimeT], seconds': F64): NullablePointer[GDateTimeT] =>
+    @g_date_time_add_seconds(datetime', seconds')

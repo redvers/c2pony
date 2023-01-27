@@ -1,0 +1,2 @@
+  fun set_translation_domain(group': NullablePointer[GOptionGroupT], domain': String): None =>
+    @g_option_group_set_translation_domain(group', domain'.cstring())

@@ -1,0 +1,2 @@
+  new new(type': NullablePointer[GVariantTypeT]) =>
+    ptr = @g_variant_builder_new(type')

@@ -1,0 +1,2 @@
+  fun set_summary(context': NullablePointer[GOptionContextT], summary': String): None =>
+    @g_option_context_set_summary(context', summary'.cstring())

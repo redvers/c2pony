@@ -1,0 +1,2 @@
+  fun lock(queue': NullablePointer[GAsyncQueueT]): None =>
+    @g_async_queue_lock(queue')

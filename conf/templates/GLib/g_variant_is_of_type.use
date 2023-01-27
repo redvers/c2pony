@@ -1,0 +1,1 @@
+use @g_variant_is_of_type[I32](value': NullablePointer[GVariantT], type': NullablePointer[GVariantTypeT])

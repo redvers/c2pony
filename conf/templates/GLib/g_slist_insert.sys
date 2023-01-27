@@ -1,0 +1,2 @@
+  fun insert(list': NullablePointer[GSListT], data': Pointer[None] tag, position': I32): NullablePointer[GSListT] =>
+    @g_slist_insert(list', data', position')

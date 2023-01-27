@@ -1,0 +1,2 @@
+  fun to_utc(datetime': NullablePointer[GDateTimeT]): NullablePointer[GDateTimeT] =>
+    @g_date_time_to_utc(datetime')

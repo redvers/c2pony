@@ -1,0 +1,2 @@
+  fun ref reverse_children(): None =>
+    GNodeP.reverse_children(this.ptr)

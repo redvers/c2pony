@@ -1,0 +1,2 @@
+  fun ref set_title(uri': String, title': String): None =>
+    GBookmarkFileP.set_title(this.ptr, uri', title')

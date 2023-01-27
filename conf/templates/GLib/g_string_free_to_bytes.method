@@ -1,0 +1,2 @@
+  fun ref free_to_bytes(): NullablePointer[GBytesT] =>
+    GStringP.free_to_bytes(this.ptr)

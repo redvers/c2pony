@@ -1,0 +1,1 @@
+use @g_byte_array_steal[Pointer[U8]](array': NullablePointer[GByteArrayT], len': Pointer[U64] tag)

@@ -1,0 +1,2 @@
+  fun last(list': NullablePointer[GListT]): NullablePointer[GListT] =>
+    @g_list_last(list')

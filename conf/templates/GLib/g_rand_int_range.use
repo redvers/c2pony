@@ -1,0 +1,1 @@
+use @g_rand_int_range[I32](rand': NullablePointer[GRandT], begin': I32, end': I32)

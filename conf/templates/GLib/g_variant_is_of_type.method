@@ -1,0 +1,2 @@
+  fun ref is_of_type(type': NullablePointer[GVariantTypeT]): I32 =>
+    GVariantP.is_of_type(this.ptr, type')

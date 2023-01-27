@@ -1,0 +1,2 @@
+  fun get_modified(bookmark': NullablePointer[GBookmarkFileT], uri': String, error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_bookmark_file_get_modified(bookmark', uri'.cstring(), error')

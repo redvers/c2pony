@@ -1,0 +1,2 @@
+  fun ref next(key': Pointer[Pointer[None]] tag, value': Pointer[Pointer[None]] tag): I32 =>
+    GHashTableIterP.next(this.ptr, key', value')

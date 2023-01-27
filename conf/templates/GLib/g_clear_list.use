@@ -1,0 +1,1 @@
+use @g_clear_list[None](list_ptr': Pointer[NullablePointer[GListT]], destroy': Pointer[None])

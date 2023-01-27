@@ -1,0 +1,2 @@
+  fun next(iter': NullablePointer[GHashTableIterT], key': Pointer[Pointer[None]] tag, value': Pointer[Pointer[None]] tag): I32 =>
+    @g_hash_table_iter_next(iter', key', value')

@@ -1,0 +1,2 @@
+  fun next_value(iter': NullablePointer[GVariantIterT]): NullablePointer[GVariantT] =>
+    @g_variant_iter_next_value(iter')

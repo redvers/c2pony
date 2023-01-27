@@ -1,0 +1,2 @@
+  fun ref set_double(group_name': String, key': String, value': F64): None =>
+    GKeyFileP.set_double(this.ptr, group_name', key', value')

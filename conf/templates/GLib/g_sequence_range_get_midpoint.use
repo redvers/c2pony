@@ -1,0 +1,1 @@
+use @g_sequence_range_get_midpoint[NullablePointer[GSequenceNodeT]](begin': NullablePointer[GSequenceNodeT], end': NullablePointer[GSequenceNodeT])

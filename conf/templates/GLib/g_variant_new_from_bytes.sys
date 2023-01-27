@@ -1,0 +1,2 @@
+  new new_from_bytes(type': NullablePointer[GVariantTypeT], bytes': NullablePointer[GBytesT], trusted': I32) =>
+    ptr = @g_variant_new_from_bytes(type', bytes', trusted')

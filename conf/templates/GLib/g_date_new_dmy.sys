@@ -1,0 +1,2 @@
+  new new_dmy(day': U8, month': U32, year': U16) =>
+    ptr = @g_date_new_dmy(day', month', year')

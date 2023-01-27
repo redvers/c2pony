@@ -1,0 +1,2 @@
+  fun add(suite': NullablePointer[GTestSuiteT], test_case': NullablePointer[GTestCaseT]): None =>
+    @g_test_suite_add(suite', test_case')

@@ -1,0 +1,1 @@
+use @g_warn_message[None](domain': Pointer[U8] tag, file': Pointer[U8] tag, line': I32, func': Pointer[U8] tag, warnexpr': Pointer[U8] tag)

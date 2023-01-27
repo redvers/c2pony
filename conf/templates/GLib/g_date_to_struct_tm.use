@@ -1,0 +1,1 @@
+use @g_date_to_struct_tm[None](date': NullablePointer[GDateT], tm': NullablePointer[tmT])

@@ -1,0 +1,2 @@
+  fun clear(dict': NullablePointer[GVariantDictT]): None =>
+    @g_variant_dict_clear(dict')

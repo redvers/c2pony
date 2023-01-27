@@ -1,0 +1,2 @@
+  fun ref overwrite_len(pos': U64, val': String, len': I64): NullablePointer[GStringT] =>
+    GStringP.overwrite_len(this.ptr, pos', val', len')

@@ -1,0 +1,2 @@
+  fun ref set_sort_function(func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+    GThreadPoolP.set_sort_function(this.ptr, func', user_data')

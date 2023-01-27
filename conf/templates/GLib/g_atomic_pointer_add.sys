@@ -1,0 +1,2 @@
+  fun atomic_pointer_add(atomic': Pointer[None] tag, val': I64): I64 =>
+    @g_atomic_pointer_add(atomic', val')

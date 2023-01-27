@@ -1,0 +1,1 @@
+use @g_list_first[NullablePointer[GListT]](list': NullablePointer[GListT])

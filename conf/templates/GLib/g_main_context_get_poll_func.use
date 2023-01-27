@@ -1,0 +1,1 @@
+use @g_main_context_get_poll_func[GPollFunc](context': NullablePointer[GMainContextT])

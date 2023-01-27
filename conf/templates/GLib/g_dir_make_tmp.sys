@@ -1,0 +1,2 @@
+  fun make_tmp(tmpl': String, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_dir_make_tmp(tmpl'.cstring(), error')).clone()

@@ -1,0 +1,2 @@
+  fun append_vals(array': NullablePointer[GArrayT], data': Pointer[None] tag, len': U32): NullablePointer[GArrayT] =>
+    @g_array_append_vals(array', data', len')

@@ -1,0 +1,1 @@
+use @g_slist_index[I32](list': NullablePointer[GSListT], data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun ref get_keys(group_name': String, length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
+    GKeyFileP.get_keys(this.ptr, group_name', length', error')

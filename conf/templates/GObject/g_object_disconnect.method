@@ -1,0 +1,2 @@
+  fun ref disconnect(signal_spec': String, ...): None =>
+    GObjectP.disconnect(this.ptr, signal_spec', ...)

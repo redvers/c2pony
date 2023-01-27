@@ -1,0 +1,2 @@
+  fun get_double(value': NullablePointer[GVariantT]): F64 =>
+    @g_variant_get_double(value')

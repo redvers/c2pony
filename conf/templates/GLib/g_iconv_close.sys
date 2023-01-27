@@ -1,0 +1,2 @@
+  fun close(converter': NullablePointer[GIConvT]): I32 =>
+    @g_iconv_close(converter')

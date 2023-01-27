@@ -1,0 +1,2 @@
+  fun get_param(value': NullablePointer[GValueT]): NullablePointer[GParamSpecT] =>
+    @g_value_get_param(value')

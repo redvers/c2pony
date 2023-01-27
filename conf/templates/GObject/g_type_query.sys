@@ -1,0 +1,2 @@
+  fun type_query(type': U64, query': NullablePointer[GTypeQueryT]): None =>
+    @g_type_query(type', query')

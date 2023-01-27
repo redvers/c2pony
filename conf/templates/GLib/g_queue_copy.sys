@@ -1,0 +1,2 @@
+  fun copy(queue': NullablePointer[GQueueT]): NullablePointer[GQueueT] =>
+    @g_queue_copy(queue')

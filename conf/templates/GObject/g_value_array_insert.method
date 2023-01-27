@@ -1,0 +1,2 @@
+  fun ref insert(index': U32, value': NullablePointer[GValueT]): NullablePointer[GValueArrayT] =>
+    GValueArrayP.insert(this.ptr, index', value')

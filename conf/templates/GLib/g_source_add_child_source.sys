@@ -1,0 +1,2 @@
+  fun add_child_source(source': NullablePointer[GSourceT], child_source': NullablePointer[GSourceT]): None =>
+    @g_source_add_child_source(source', child_source')

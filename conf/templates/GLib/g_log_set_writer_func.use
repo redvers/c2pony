@@ -1,0 +1,1 @@
+use @g_log_set_writer_func[None](func': GLogWriterFunc, user_data': Pointer[None] tag, user_data_free': Pointer[None])

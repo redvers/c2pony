@@ -1,0 +1,1 @@
+use @g_value_get_variant[NullablePointer[GVariantT]](value': NullablePointer[GValueT])

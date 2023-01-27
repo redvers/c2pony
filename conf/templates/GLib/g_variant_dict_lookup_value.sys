@@ -1,0 +1,2 @@
+  fun lookup_value(dict': NullablePointer[GVariantDictT], key': String, expected_type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantT] =>
+    @g_variant_dict_lookup_value(dict', key'.cstring(), expected_type')

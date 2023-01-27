@@ -1,0 +1,2 @@
+  fun ref(queue': NullablePointer[GAsyncQueueT]): NullablePointer[GAsyncQueueT] =>
+    @g_async_queue_ref(queue')

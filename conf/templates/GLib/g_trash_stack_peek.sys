@@ -1,0 +1,2 @@
+  fun peek(stack_p': Pointer[NullablePointer[GTrashStackT]]): Pointer[None] tag =>
+    @g_trash_stack_peek(stack_p')

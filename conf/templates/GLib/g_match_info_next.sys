@@ -1,0 +1,2 @@
+  fun next(match_info': NullablePointer[GMatchInfoT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_match_info_next(match_info', error')

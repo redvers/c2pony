@@ -1,0 +1,2 @@
+  new new_array(child_type': NullablePointer[GVariantTypeT], children': Pointer[NullablePointer[GVariantT]], n_children': U64) =>
+    ptr = @g_variant_new_array(child_type', children', n_children')

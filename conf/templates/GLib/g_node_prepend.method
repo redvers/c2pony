@@ -1,0 +1,2 @@
+  fun ref prepend(node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
+    GNodeP.prepend(this.ptr, node')

@@ -1,0 +1,2 @@
+  fun get_real_time(): I64 =>
+    @g_get_real_time()

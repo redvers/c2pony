@@ -1,0 +1,1 @@
+use @g_date_is_first_of_month[I32](date': NullablePointer[GDateT])

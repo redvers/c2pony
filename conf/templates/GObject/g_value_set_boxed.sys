@@ -1,0 +1,2 @@
+  fun set_boxed(value': NullablePointer[GValueT], v_boxed': Pointer[None] tag): None =>
+    @g_value_set_boxed(value', v_boxed')

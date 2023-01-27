@@ -1,0 +1,1 @@
+use @g_variant_new_tuple[NullablePointer[GVariantT]](children': Pointer[NullablePointer[GVariantT]], n_children': U64)

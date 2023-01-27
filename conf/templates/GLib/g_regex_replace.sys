@@ -1,0 +1,2 @@
+  fun replace(regex': NullablePointer[GRegexT], string': String, string_len': I64, start_position': I32, replacement': String, match_options': U32, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_regex_replace(regex', string'.cstring(), string_len', start_position', replacement'.cstring(), match_options', error')).clone()

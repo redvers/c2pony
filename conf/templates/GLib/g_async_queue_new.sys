@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GAsyncQueueT] =>
+    @g_async_queue_new()

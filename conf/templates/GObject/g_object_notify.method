@@ -1,0 +1,2 @@
+  fun ref notify(property_name': String): None =>
+    GObjectP.notify(this.ptr, property_name')

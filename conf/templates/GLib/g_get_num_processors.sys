@@ -1,0 +1,2 @@
+  fun get_num_processors(): U32 =>
+    @g_get_num_processors()

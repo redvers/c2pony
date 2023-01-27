@@ -1,0 +1,1 @@
+use @g_closure_remove_invalidate_notifier[None](closure': NullablePointer[GClosureT], notify_data': Pointer[None] tag, notify_func': GClosureNotify)

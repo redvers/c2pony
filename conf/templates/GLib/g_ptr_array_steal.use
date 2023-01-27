@@ -1,0 +1,1 @@
+use @g_ptr_array_steal[Pointer[Pointer[None]] tag](array': NullablePointer[GPtrArrayT], len': Pointer[U64] tag)

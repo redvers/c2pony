@@ -1,0 +1,2 @@
+  fun unref(queue': NullablePointer[GAsyncQueueT]): None =>
+    @g_async_queue_unref(queue')

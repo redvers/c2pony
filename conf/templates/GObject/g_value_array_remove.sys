@@ -1,0 +1,2 @@
+  fun remove(value_array': NullablePointer[GValueArrayT], index': U32): NullablePointer[GValueArrayT] =>
+    @g_value_array_remove(value_array', index')

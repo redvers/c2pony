@@ -1,0 +1,2 @@
+  fun foreach_steal(hash_table': NullablePointer[GHashTableT], func': GHRFunc, user_data': Pointer[None] tag): U32 =>
+    @g_hash_table_foreach_steal(hash_table', func', user_data')

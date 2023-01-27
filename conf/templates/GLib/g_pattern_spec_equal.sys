@@ -1,0 +1,2 @@
+  fun equal(pspec1': NullablePointer[GPatternSpecT], pspec2': NullablePointer[GPatternSpecT]): I32 =>
+    @g_pattern_spec_equal(pspec1', pspec2')

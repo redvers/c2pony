@@ -1,0 +1,2 @@
+  fun ref get_match_count(): I32 =>
+    GMatchInfoP.get_match_count(this.ptr)

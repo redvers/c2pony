@@ -1,0 +1,1 @@
+use @g_closure_set_meta_marshal[None](closure': NullablePointer[GClosureT], marshal_data': Pointer[None] tag, meta_marshal': GClosureMarshal)

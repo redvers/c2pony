@@ -1,0 +1,2 @@
+  fun clear(date': NullablePointer[GDateT], n_dates': U32): None =>
+    @g_date_clear(date', n_dates')

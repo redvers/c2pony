@@ -1,0 +1,1 @@
+use @g_strcompress[Pointer[U8]](source': Pointer[U8] tag)

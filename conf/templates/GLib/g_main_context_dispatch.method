@@ -1,0 +1,2 @@
+  fun ref dispatch(): None =>
+    GMainContextP.dispatch(this.ptr)

@@ -1,0 +1,2 @@
+  fun strconcat(string1': String, ...): String iso^ =>
+    String.from_cstring(@g_strconcat(string1'.cstring(), ...)).clone()

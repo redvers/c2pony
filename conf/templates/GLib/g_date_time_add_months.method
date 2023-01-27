@@ -1,0 +1,2 @@
+  fun ref add_months(months': I32): NullablePointer[GDateTimeT] =>
+    GDateTimeP.add_months(this.ptr, months')

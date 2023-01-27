@@ -1,0 +1,2 @@
+  fun set(key': NullablePointer[GPrivateT], value': Pointer[None] tag): None =>
+    @g_private_set(key', value')

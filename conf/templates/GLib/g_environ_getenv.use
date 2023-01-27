@@ -1,0 +1,1 @@
+use @g_environ_getenv[Pointer[U8]](envp': Pointer[Pointer[U8]] tag, variable': Pointer[U8] tag)

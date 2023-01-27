@@ -1,0 +1,2 @@
+  fun remove(iter': NullablePointer[GSequenceNodeT]): None =>
+    @g_sequence_remove(iter')

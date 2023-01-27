@@ -1,0 +1,2 @@
+  fun find_custom(queue': NullablePointer[GQueueT], data': Pointer[None] tag, func': GCompareFunc): NullablePointer[GListT] =>
+    @g_queue_find_custom(queue', data', func')

@@ -1,0 +1,2 @@
+  fun free(queue': NullablePointer[GQueueT]): None =>
+    @g_queue_free(queue')

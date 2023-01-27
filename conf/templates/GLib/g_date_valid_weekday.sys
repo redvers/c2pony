@@ -1,0 +1,2 @@
+  fun valid_weekday(weekday': U32): I32 =>
+    @g_date_valid_weekday(weekday')

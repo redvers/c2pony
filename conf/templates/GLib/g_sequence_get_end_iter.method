@@ -1,0 +1,2 @@
+  fun ref get_end_iter(): NullablePointer[GSequenceNodeT] =>
+    GSequenceP.get_end_iter(this.ptr)

@@ -1,0 +1,2 @@
+  fun shell_quote(unquoted_string': String): String iso^ =>
+    String.from_cstring(@g_shell_quote(unquoted_string'.cstring())).clone()

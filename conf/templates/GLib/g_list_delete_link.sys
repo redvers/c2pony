@@ -1,0 +1,2 @@
+  fun delete_link(list': NullablePointer[GListT], link': NullablePointer[GListT]): NullablePointer[GListT] =>
+    @g_list_delete_link(list', link')

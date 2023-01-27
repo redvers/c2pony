@@ -1,0 +1,2 @@
+  fun ref get_name(): String iso^ =>
+    GSourceP.get_name(this.ptr)

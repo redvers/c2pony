@@ -1,0 +1,2 @@
+  fun set_dispose_function(source': NullablePointer[GSourceT], dispose': GSourceDisposeFunc): None =>
+    @g_source_set_dispose_function(source', dispose')

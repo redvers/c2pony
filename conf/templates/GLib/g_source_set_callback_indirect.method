@@ -1,0 +1,2 @@
+  fun ref set_callback_indirect(callback_data': Pointer[None] tag, callback_funcs': NullablePointer[GSourceCallbackFuncsT]): None =>
+    GSourceP.set_callback_indirect(this.ptr, callback_data', callback_funcs')

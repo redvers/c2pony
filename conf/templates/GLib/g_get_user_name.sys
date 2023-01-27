@@ -1,0 +1,2 @@
+  fun get_user_name(): String iso^ =>
+    String.from_cstring(@g_get_user_name()).clone()

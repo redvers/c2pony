@@ -1,0 +1,2 @@
+  fun ref(channel': NullablePointer[GIOChannelT]): NullablePointer[GIOChannelT] =>
+    @g_io_channel_ref(channel')

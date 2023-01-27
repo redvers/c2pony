@@ -1,0 +1,2 @@
+  fun ref is_dst(interval': I32): I32 =>
+    GTimeZoneP.is_dst(this.ptr, interval')

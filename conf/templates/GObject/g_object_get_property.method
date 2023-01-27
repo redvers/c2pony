@@ -1,0 +1,2 @@
+  fun ref get_property(property_name': String, value': NullablePointer[GValueT]): None =>
+    GObjectP.get_property(this.ptr, property_name', value')

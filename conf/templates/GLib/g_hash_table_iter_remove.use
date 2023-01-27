@@ -1,0 +1,1 @@
+use @g_hash_table_iter_remove[None](iter': NullablePointer[GHashTableIterT])

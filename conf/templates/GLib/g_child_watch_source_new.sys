@@ -1,0 +1,2 @@
+  fun child_watch_source_new(pid': I32): NullablePointer[GSourceT] =>
+    @g_child_watch_source_new(pid')

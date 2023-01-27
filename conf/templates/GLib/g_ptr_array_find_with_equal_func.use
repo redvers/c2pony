@@ -1,0 +1,1 @@
+use @g_ptr_array_find_with_equal_func[I32](haystack': NullablePointer[GPtrArrayT], needle': Pointer[None] tag, equal_func': GEqualFunc, index': Pointer[U32] tag)

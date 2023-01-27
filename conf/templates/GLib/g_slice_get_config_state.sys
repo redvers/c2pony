@@ -1,0 +1,2 @@
+  fun slice_get_config_state(ckey': U32, address': I64, n_values': Pointer[U32] tag): Pointer[I64] tag =>
+    @g_slice_get_config_state(ckey', address', n_values')

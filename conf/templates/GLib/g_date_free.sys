@@ -1,0 +1,2 @@
+  fun free(date': NullablePointer[GDateT]): None =>
+    @g_date_free(date')

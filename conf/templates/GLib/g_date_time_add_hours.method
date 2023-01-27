@@ -1,0 +1,2 @@
+  fun ref add_hours(hours': I32): NullablePointer[GDateTimeT] =>
+    GDateTimeP.add_hours(this.ptr, hours')

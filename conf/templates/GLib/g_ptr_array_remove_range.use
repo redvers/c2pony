@@ -1,0 +1,1 @@
+use @g_ptr_array_remove_range[NullablePointer[GPtrArrayT]](array': NullablePointer[GPtrArrayT], index': U32, length': U32)

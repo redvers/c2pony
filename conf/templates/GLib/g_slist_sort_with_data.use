@@ -1,0 +1,1 @@
+use @g_slist_sort_with_data[NullablePointer[GSListT]](list': NullablePointer[GSListT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag)

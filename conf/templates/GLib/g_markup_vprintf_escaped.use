@@ -1,0 +1,1 @@
+use @g_markup_vprintf_escaped[Pointer[U8]](format': Pointer[U8] tag, args': NullablePointer[valisttagT])

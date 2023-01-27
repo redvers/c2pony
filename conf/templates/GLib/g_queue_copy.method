@@ -1,0 +1,2 @@
+  fun ref copy(): NullablePointer[GQueueT] =>
+    GQueueP.copy(this.ptr)

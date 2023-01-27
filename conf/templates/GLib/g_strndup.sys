@@ -1,0 +1,2 @@
+  fun strndup(str': String, n': U64): String iso^ =>
+    String.from_cstring(@g_strndup(str'.cstring(), n')).clone()

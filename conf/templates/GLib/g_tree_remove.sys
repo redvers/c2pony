@@ -1,0 +1,2 @@
+  fun remove(tree': NullablePointer[GTreeT], key': Pointer[None] tag): I32 =>
+    @g_tree_remove(tree', key')

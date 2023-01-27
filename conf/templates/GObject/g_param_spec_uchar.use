@@ -1,0 +1,1 @@
+use @g_param_spec_uchar[NullablePointer[GParamSpecT]](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, minimum': U8, maximum': U8, default_value': U8, flags': I32)

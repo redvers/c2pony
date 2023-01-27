@@ -1,0 +1,2 @@
+  fun prepend(list': NullablePointer[GSListT], data': Pointer[None] tag): NullablePointer[GSListT] =>
+    @g_slist_prepend(list', data')

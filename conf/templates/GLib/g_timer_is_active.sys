@@ -1,0 +1,2 @@
+  fun is_active(timer': NullablePointer[GTimerT]): I32 =>
+    @g_timer_is_active(timer')

@@ -1,0 +1,2 @@
+  fun unref(object': Pointer[None] tag): None =>
+    @g_object_unref(object')

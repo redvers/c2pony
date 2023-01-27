@@ -1,0 +1,2 @@
+  fun free(chunk': NullablePointer[GStringChunkT]): None =>
+    @g_string_chunk_free(chunk')

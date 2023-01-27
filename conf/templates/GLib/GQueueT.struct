@@ -1,0 +1,6 @@
+
+use "lib:glib-2.0"
+struct GQueueT
+  var head': NullablePointer[GListT] = NullablePointer[GListT].none()
+  var tail': NullablePointer[GListT] = NullablePointer[GListT].none()
+  var length': U32 = U32(0)

@@ -1,0 +1,2 @@
+  fun ref find_source_by_funcs_user_data(funcs': NullablePointer[GSourceFuncsT], user_data': Pointer[None] tag): NullablePointer[GSourceT] =>
+    GMainContextP.find_source_by_funcs_user_data(this.ptr, funcs', user_data')

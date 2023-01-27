@@ -1,0 +1,2 @@
+  fun find_source_by_funcs_user_data(context': NullablePointer[GMainContextT], funcs': NullablePointer[GSourceFuncsT], user_data': Pointer[None] tag): NullablePointer[GSourceT] =>
+    @g_main_context_find_source_by_funcs_user_data(context', funcs', user_data')

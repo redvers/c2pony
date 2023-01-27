@@ -1,0 +1,2 @@
+  fun ref rewind(): None =>
+    GDirP.rewind(this.ptr)

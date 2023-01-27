@@ -1,0 +1,2 @@
+  fun get_context(loop': NullablePointer[GMainLoopT]): NullablePointer[GMainContextT] =>
+    @g_main_loop_get_context(loop')

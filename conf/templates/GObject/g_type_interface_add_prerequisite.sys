@@ -1,0 +1,2 @@
+  fun add_prerequisite(interface_type': U64, prerequisite_type': U64): None =>
+    @g_type_interface_add_prerequisite(interface_type', prerequisite_type')

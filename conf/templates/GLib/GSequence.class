@@ -1,0 +1,9 @@
+
+use "lib:glib-2.0"
+
+class GSequence
+  var ptr: NullablePointer[GSequenceT]
+
+  new create() =>
+    ptr = NullablePointer[GSequenceT].none()
+  new create_from_ptr(ptr': NullablePointer[GSequenceT]) => ptr = ptr'

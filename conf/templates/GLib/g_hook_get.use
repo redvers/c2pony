@@ -1,0 +1,1 @@
+use @g_hook_get[NullablePointer[GHookT]](hook_list': NullablePointer[GHookListT], hook_id': U64)

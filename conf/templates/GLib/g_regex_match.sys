@@ -1,0 +1,2 @@
+  fun match(regex': NullablePointer[GRegexT], string': String, match_options': U32, match_info': Pointer[NullablePointer[GMatchInfoT]]): I32 =>
+    @g_regex_match(regex', string'.cstring(), match_options', match_info')

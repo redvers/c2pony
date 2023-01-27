@@ -1,0 +1,2 @@
+  fun ref(dict': NullablePointer[GVariantDictT]): NullablePointer[GVariantDictT] =>
+    @g_variant_dict_ref(dict')

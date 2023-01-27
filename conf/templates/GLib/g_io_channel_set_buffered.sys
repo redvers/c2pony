@@ -1,0 +1,2 @@
+  fun set_buffered(channel': NullablePointer[GIOChannelT], buffered': I32): None =>
+    @g_io_channel_set_buffered(channel', buffered')

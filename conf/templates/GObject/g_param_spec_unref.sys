@@ -1,0 +1,2 @@
+  fun unref(pspec': NullablePointer[GParamSpecT]): None =>
+    @g_param_spec_unref(pspec')

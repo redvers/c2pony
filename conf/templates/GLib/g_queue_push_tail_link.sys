@@ -1,0 +1,2 @@
+  fun push_tail_link(queue': NullablePointer[GQueueT], link': NullablePointer[GListT]): None =>
+    @g_queue_push_tail_link(queue', link')

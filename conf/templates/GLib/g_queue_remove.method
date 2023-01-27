@@ -1,0 +1,2 @@
+  fun ref remove(data': Pointer[None] tag): I32 =>
+    GQueueP.remove(this.ptr, data')

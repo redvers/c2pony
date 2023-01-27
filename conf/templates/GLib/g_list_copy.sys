@@ -1,0 +1,2 @@
+  fun copy(list': NullablePointer[GListT]): NullablePointer[GListT] =>
+    @g_list_copy(list')

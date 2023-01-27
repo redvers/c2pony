@@ -1,0 +1,2 @@
+  fun set_clear_func(array': NullablePointer[GArrayT], clear_func': Pointer[None]): None =>
+    @g_array_set_clear_func(array', clear_func')

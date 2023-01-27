@@ -1,0 +1,2 @@
+  fun str_has_prefix(str': String, prefix': String): I32 =>
+    @g_str_has_prefix(str'.cstring(), prefix'.cstring())

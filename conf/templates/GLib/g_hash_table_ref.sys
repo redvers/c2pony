@@ -1,0 +1,2 @@
+  fun ref(hash_table': NullablePointer[GHashTableT]): NullablePointer[GHashTableT] =>
+    @g_hash_table_ref(hash_table')

@@ -1,0 +1,2 @@
+  fun getv(object': NullablePointer[GObjectT], n_properties': U32, names': Pointer[Pointer[U8]] tag, values': NullablePointer[GValueT]): None =>
+    @g_object_getv(object', n_properties', names', values')

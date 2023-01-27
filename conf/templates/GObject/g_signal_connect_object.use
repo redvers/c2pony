@@ -1,0 +1,2 @@
+
+use @g_signal_connect_object[U64](gobj0: Pointer[GObjectP], sig: Pointer[U8] tag, cb: Pointer[None], gobj1: Pointer[None] tag, flags: U32)

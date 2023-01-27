@@ -1,0 +1,1 @@
+use @g_ptr_array_steal_index_fast[Pointer[None] tag](array': NullablePointer[GPtrArrayT], index': U32)

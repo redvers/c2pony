@@ -1,0 +1,2 @@
+  fun find(root': NullablePointer[GNodeT], order': U32, flags': U32, data': Pointer[None] tag): NullablePointer[GNodeT] =>
+    @g_node_find(root', order', flags', data')

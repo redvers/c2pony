@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GPtrArrayT] =>
+    @g_ptr_array_new()

@@ -1,0 +1,2 @@
+  fun sort(array': NullablePointer[GByteArrayT], compare_func': GCompareFunc): None =>
+    @g_byte_array_sort(array', compare_func')

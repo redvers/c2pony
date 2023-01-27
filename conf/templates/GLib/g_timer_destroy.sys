@@ -1,0 +1,2 @@
+  fun destroy(timer': NullablePointer[GTimerT]): None =>
+    @g_timer_destroy(timer')

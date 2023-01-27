@@ -1,0 +1,2 @@
+  fun ref set_description(description': String): None =>
+    GOptionContextP.set_description(this.ptr, description')

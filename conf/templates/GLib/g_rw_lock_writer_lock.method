@@ -1,0 +1,2 @@
+  fun ref writer_lock(): None =>
+    GRWLockP.writer_lock(this.ptr)

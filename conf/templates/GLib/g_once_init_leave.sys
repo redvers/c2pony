@@ -1,0 +1,2 @@
+  fun init_leave(location': Pointer[None] tag, result': U64): None =>
+    @g_once_init_leave(location', result')

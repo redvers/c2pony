@@ -1,0 +1,2 @@
+  fun get_match_count(match_info': NullablePointer[GMatchInfoT]): I32 =>
+    @g_match_info_get_match_count(match_info')

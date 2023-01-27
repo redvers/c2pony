@@ -1,0 +1,1 @@
+use @g_time_zone_find_interval[I32](tz': NullablePointer[GTimeZoneT], type': U32, time': I64)

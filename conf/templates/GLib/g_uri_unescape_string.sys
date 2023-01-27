@@ -1,0 +1,2 @@
+  fun unescape_string(escaped_string': String, illegal_characters': String): String iso^ =>
+    String.from_cstring(@g_uri_unescape_string(escaped_string'.cstring(), illegal_characters'.cstring())).clone()

@@ -1,0 +1,2 @@
+  fun ref get_handle(): I32 =>
+    GVariantP.get_handle(this.ptr)

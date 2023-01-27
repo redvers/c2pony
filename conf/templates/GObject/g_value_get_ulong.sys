@@ -1,0 +1,2 @@
+  fun get_ulong(value': NullablePointer[GValueT]): U64 =>
+    @g_value_get_ulong(value')

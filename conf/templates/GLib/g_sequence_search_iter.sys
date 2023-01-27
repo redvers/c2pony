@@ -1,0 +1,2 @@
+  fun search_iter(seq': NullablePointer[GSequenceT], data': Pointer[None] tag, iter_cmp': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
+    @g_sequence_search_iter(seq', data', iter_cmp', cmp_data')

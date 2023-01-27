@@ -1,0 +1,2 @@
+  new new(tz': NullablePointer[GTimeZoneT], year': I32, month': I32, day': I32, hour': I32, minute': I32, seconds': F64) =>
+    ptr = @g_date_time_new(tz', year', month', day', hour', minute', seconds')

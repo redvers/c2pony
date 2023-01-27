@@ -1,0 +1,2 @@
+  fun prepend(array': NullablePointer[GByteArrayT], data': String, len': U32): NullablePointer[GByteArrayT] =>
+    @g_byte_array_prepend(array', data'.cstring(), len')

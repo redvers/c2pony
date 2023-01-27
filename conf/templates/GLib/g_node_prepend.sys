@@ -1,0 +1,2 @@
+  fun prepend(parent': NullablePointer[GNodeT], node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
+    @g_node_prepend(parent', node')

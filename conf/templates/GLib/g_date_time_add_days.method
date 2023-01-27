@@ -1,0 +1,2 @@
+  fun ref add_days(days': I32): NullablePointer[GDateTimeT] =>
+    GDateTimeP.add_days(this.ptr, days')

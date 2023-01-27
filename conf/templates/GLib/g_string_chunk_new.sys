@@ -1,0 +1,2 @@
+  fun new(size': U64): NullablePointer[GStringChunkT] =>
+    @g_string_chunk_new(size')

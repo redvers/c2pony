@@ -1,0 +1,2 @@
+  fun free_to_bytes(array': NullablePointer[GByteArrayT]): NullablePointer[GBytesT] =>
+    @g_byte_array_free_to_bytes(array')

@@ -1,0 +1,1 @@
+use @g_value_array_new[NullablePointer[GValueArrayT]](n_prealloced': U32)

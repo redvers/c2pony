@@ -1,0 +1,1 @@
+use @g_tree_steal[I32](tree': NullablePointer[GTreeT], key': Pointer[None] tag)

@@ -1,0 +1,1 @@
+use @g_hook_insert_before[None](hook_list': NullablePointer[GHookListT], sibling': NullablePointer[GHookT], hook': NullablePointer[GHookT])

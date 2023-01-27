@@ -1,0 +1,2 @@
+  fun insert(string': NullablePointer[GStringT], pos': I64, val': String): NullablePointer[GStringT] =>
+    @g_string_insert(string', pos', val'.cstring())

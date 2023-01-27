@@ -1,0 +1,2 @@
+  fun to_timeval(datetime': NullablePointer[GDateTimeT], tv': NullablePointer[GTimeValT]): I32 =>
+    @g_date_time_to_timeval(datetime', tv')

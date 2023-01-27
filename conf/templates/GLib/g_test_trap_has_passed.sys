@@ -1,0 +1,2 @@
+  fun test_trap_has_passed(): I32 =>
+    @g_test_trap_has_passed()

@@ -1,0 +1,2 @@
+  fun flags_get_value_by_name(flags_class': NullablePointer[GFlagsClassT], name': String): NullablePointer[GFlagsValueT] =>
+    @g_flags_get_value_by_name(flags_class', name'.cstring())

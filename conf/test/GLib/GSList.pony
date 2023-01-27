@@ -1,0 +1,10 @@
+
+
+use "lib:glib-2.0"
+
+class GSList
+  var ptr: NullablePointer[GSListT]
+
+  new create() =>
+    ptr = NullablePointer[GSListT].none()
+  new create_from_ptr(ptr': NullablePointer[GSListT]) => ptr = ptr'

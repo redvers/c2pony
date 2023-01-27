@@ -1,0 +1,2 @@
+  fun get_values(hash_table': NullablePointer[GHashTableT]): NullablePointer[GListT] =>
+    @g_hash_table_get_values(hash_table')

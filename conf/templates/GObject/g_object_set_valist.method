@@ -1,0 +1,2 @@
+  fun ref set_valist(first_property_name': String, var_args': NullablePointer[valisttagT]): None =>
+    GObjectP.set_valist(this.ptr, first_property_name', var_args')

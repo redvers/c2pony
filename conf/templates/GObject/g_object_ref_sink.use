@@ -1,0 +1,1 @@
+use @g_object_ref_sink[Pointer[None] tag](object': Pointer[None] tag)

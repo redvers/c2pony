@@ -1,0 +1,1 @@
+use @g_timeout_source_new_seconds[NullablePointer[GSourceT]](interval': U32)

@@ -1,0 +1,2 @@
+  fun eof(scanner': NullablePointer[GScannerT]): I32 =>
+    @g_scanner_eof(scanner')

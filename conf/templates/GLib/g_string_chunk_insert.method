@@ -1,0 +1,2 @@
+  fun ref insert(string': String): String iso^ =>
+    GStringChunkP.insert(this.ptr, string')

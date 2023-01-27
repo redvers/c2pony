@@ -1,0 +1,2 @@
+  new new_object_path(object_path': String) =>
+    ptr = @g_variant_new_object_path(object_path'.cstring())

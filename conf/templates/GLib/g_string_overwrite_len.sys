@@ -1,0 +1,2 @@
+  fun overwrite_len(string': NullablePointer[GStringT], pos': U64, val': String, len': I64): NullablePointer[GStringT] =>
+    @g_string_overwrite_len(string', pos', val'.cstring(), len')

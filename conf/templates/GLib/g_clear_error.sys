@@ -1,0 +1,2 @@
+  fun clear_error(err': Pointer[NullablePointer[GErrorT]]): None =>
+    @g_clear_error(err')

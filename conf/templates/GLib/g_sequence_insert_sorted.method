@@ -1,0 +1,2 @@
+  fun ref insert_sorted(data': Pointer[None] tag, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
+    GSequenceP.insert_sorted(this.ptr, data', cmp_func', cmp_data')

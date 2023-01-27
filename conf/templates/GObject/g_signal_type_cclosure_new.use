@@ -1,0 +1,1 @@
+use @g_signal_type_cclosure_new[NullablePointer[GClosureT]](itype': U64, struct_offset': U32)

@@ -1,0 +1,1 @@
+use @g_variant_get_data_as_bytes[NullablePointer[GBytesT]](value': NullablePointer[GVariantT])

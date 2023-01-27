@@ -1,0 +1,2 @@
+  fun ref set_list_separator(separator': U8): None =>
+    GKeyFileP.set_list_separator(this.ptr, separator')

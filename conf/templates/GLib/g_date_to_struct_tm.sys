@@ -1,0 +1,2 @@
+  fun to_struct_tm(date': NullablePointer[GDateT], tm': NullablePointer[tmT]): None =>
+    @g_date_to_struct_tm(date', tm')

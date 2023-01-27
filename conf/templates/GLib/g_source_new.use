@@ -1,0 +1,1 @@
+use @g_source_new[NullablePointer[GSourceT]](source_funcs': NullablePointer[GSourceFuncsT], struct_size': U32)

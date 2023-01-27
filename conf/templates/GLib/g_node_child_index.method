@@ -1,0 +1,2 @@
+  fun ref child_index(data': Pointer[None] tag): I32 =>
+    GNodeP.child_index(this.ptr, data')

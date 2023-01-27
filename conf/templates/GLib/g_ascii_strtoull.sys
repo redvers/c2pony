@@ -1,0 +1,2 @@
+  fun ascii_strtoull(nptr': String, endptr': Pointer[Pointer[U8]] tag, base': U32): U64 =>
+    @g_ascii_strtoull(nptr'.cstring(), endptr', base')

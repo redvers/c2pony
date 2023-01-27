@@ -1,0 +1,2 @@
+  fun ref(group': NullablePointer[GOptionGroupT]): NullablePointer[GOptionGroupT] =>
+    @g_option_group_ref(group')

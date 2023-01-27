@@ -1,0 +1,2 @@
+  fun utf8_substring(str': String, start_pos': I64, end_pos': I64): String iso^ =>
+    String.from_cstring(@g_utf8_substring(str'.cstring(), start_pos', end_pos')).clone()

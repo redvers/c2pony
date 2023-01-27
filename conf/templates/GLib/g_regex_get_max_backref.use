@@ -1,0 +1,1 @@
+use @g_regex_get_max_backref[I32](regex': NullablePointer[GRegexT])

@@ -1,0 +1,2 @@
+  new new(type_string': String) =>
+    ptr = @g_variant_type_new(type_string'.cstring())

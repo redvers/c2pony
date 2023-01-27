@@ -1,0 +1,2 @@
+  fun ref move(delta': I32): NullablePointer[GSequenceNodeT] =>
+    GSequenceIterP.move(this.ptr, delta')

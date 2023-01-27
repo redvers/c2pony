@@ -1,0 +1,2 @@
+  new new_dict_entry(key': NullablePointer[GVariantTypeT], value': NullablePointer[GVariantTypeT]) =>
+    ptr = @g_variant_type_new_dict_entry(key', value')

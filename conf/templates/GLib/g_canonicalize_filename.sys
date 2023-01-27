@@ -1,0 +1,2 @@
+  fun canonicalize_filename(filename': String, relative_to': String): String iso^ =>
+    String.from_cstring(@g_canonicalize_filename(filename'.cstring(), relative_to'.cstring())).clone()

@@ -1,0 +1,2 @@
+  fun ref compare(b': NullablePointer[GSequenceNodeT]): I32 =>
+    GSequenceIterP.compare(this.ptr, b')

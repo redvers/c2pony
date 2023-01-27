@@ -1,0 +1,2 @@
+  fun unref(source': NullablePointer[GSourceT]): None =>
+    @g_source_unref(source')

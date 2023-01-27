@@ -1,0 +1,2 @@
+  fun ref set_pointer(v_pointer': Pointer[None] tag): None =>
+    GValueP.set_pointer(this.ptr, v_pointer')

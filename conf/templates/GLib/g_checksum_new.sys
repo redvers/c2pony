@@ -1,0 +1,2 @@
+  new new(checksum_type': U32) =>
+    ptr = @g_checksum_new(checksum_type')

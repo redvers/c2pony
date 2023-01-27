@@ -1,0 +1,1 @@
+use @g_type_register_fundamental[U64](type_id': U64, type_name': Pointer[U8] tag, info': NullablePointer[GTypeInfoT], finfo': NullablePointer[GTypeFundamentalInfoT], flags': U32)

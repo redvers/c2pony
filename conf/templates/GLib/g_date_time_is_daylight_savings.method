@@ -1,0 +1,2 @@
+  fun ref is_daylight_savings(): I32 =>
+    GDateTimeP.is_daylight_savings(this.ptr)

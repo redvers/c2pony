@@ -1,0 +1,2 @@
+  fun log_writer_standard_streams(log_level': I32, fields': NullablePointer[GLogFieldT], n_fields': U64, user_data': Pointer[None] tag): U32 =>
+    @g_log_writer_standard_streams(log_level', fields', n_fields', user_data')

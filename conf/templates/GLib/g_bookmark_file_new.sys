@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GBookmarkFileT] =>
+    @g_bookmark_file_new()

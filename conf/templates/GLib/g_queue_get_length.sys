@@ -1,0 +1,2 @@
+  fun get_length(queue': NullablePointer[GQueueT]): U32 =>
+    @g_queue_get_length(queue')

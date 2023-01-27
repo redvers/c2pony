@@ -1,0 +1,2 @@
+  fun reverse(queue': NullablePointer[GQueueT]): None =>
+    @g_queue_reverse(queue')

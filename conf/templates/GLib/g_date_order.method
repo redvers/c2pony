@@ -1,0 +1,2 @@
+  fun ref order(date2': NullablePointer[GDateT]): None =>
+    GDateP.order(this.ptr, date2')

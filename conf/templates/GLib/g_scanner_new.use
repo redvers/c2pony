@@ -1,0 +1,1 @@
+use @g_scanner_new[NullablePointer[GScannerT]](config_templ': NullablePointer[GScannerConfigT])

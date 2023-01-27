@@ -1,0 +1,2 @@
+  fun set_callback(source': NullablePointer[GSourceT], func': GSourceFunc, data': Pointer[None] tag, notify': Pointer[None]): None =>
+    @g_source_set_callback(source', func', data', notify')

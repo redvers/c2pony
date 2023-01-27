@@ -1,0 +1,2 @@
+  fun register_type(module': NullablePointer[GTypeModuleT], parent_type': U64, type_name': String, type_info': NullablePointer[GTypeInfoT], flags': U32): U64 =>
+    @g_type_module_register_type(module', parent_type', type_name'.cstring(), type_info', flags')

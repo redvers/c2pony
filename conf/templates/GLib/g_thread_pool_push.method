@@ -1,0 +1,2 @@
+  fun ref push(data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GThreadPoolP.push(this.ptr, data', error')

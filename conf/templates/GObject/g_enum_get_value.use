@@ -1,0 +1,1 @@
+use @g_enum_get_value[NullablePointer[GEnumValueT]](enum_class': NullablePointer[GEnumClassT], value': I32)

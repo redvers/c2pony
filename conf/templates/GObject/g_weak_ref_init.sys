@@ -1,0 +1,2 @@
+  fun init(weak_ref': NullablePointer[anon_3672T], object': Pointer[None] tag): None =>
+    @g_weak_ref_init(weak_ref', object')

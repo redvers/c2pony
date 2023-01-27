@@ -1,0 +1,2 @@
+  fun next(iter': NullablePointer[GVariantIterT], format_string': String, ...): I32 =>
+    @g_variant_iter_next(iter', format_string'.cstring(), ...)

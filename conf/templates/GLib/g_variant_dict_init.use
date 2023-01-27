@@ -1,0 +1,1 @@
+use @g_variant_dict_init[None](dict': NullablePointer[GVariantDictT], from_asv': NullablePointer[GVariantT])

@@ -1,0 +1,1 @@
+use @g_node_is_ancestor[I32](node': NullablePointer[GNodeT], descendant': NullablePointer[GNodeT])

@@ -1,0 +1,2 @@
+  fun nth(list': NullablePointer[GSListT], n': U32): NullablePointer[GSListT] =>
+    @g_slist_nth(list', n')

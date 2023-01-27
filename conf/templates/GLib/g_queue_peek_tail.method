@@ -1,0 +1,2 @@
+  fun ref peek_tail(): Pointer[None] tag =>
+    GQueueP.peek_tail(this.ptr)

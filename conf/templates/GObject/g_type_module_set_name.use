@@ -1,0 +1,1 @@
+use @g_type_module_set_name[None](module': NullablePointer[GTypeModuleT], name': Pointer[U8] tag)

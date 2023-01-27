@@ -1,0 +1,1 @@
+use @g_object_set_valist[None](object': NullablePointer[GObjectT], first_property_name': Pointer[U8] tag, var_args': NullablePointer[valisttagT])

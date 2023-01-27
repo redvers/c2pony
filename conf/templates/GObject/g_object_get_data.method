@@ -1,0 +1,3 @@
+
+  fun ref get_data[A: Any](key': String): A =>
+    GObjectP.get_data[A](this, key')

@@ -1,0 +1,1 @@
+use @g_match_info_ref[NullablePointer[GMatchInfoT]](match_info': NullablePointer[GMatchInfoT])

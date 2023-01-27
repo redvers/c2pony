@@ -1,0 +1,2 @@
+  fun ref clear(): None =>
+    GVariantDictP.clear(this.ptr)

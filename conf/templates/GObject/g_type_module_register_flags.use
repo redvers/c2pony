@@ -1,0 +1,1 @@
+use @g_type_module_register_flags[U64](module': NullablePointer[GTypeModuleT], name': Pointer[U8] tag, const_static_values': NullablePointer[GFlagsValueT])

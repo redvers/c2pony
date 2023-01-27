@@ -1,0 +1,2 @@
+  fun ref(match_info': NullablePointer[GMatchInfoT]): NullablePointer[GMatchInfoT] =>
+    @g_match_info_ref(match_info')

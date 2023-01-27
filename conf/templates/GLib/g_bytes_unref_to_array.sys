@@ -1,0 +1,2 @@
+  fun unref_to_array(bytes': NullablePointer[GBytesT]): NullablePointer[GByteArrayT] =>
+    @g_bytes_unref_to_array(bytes')

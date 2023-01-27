@@ -1,0 +1,2 @@
+  fun get_hash_table(iter': NullablePointer[GHashTableIterT]): NullablePointer[GHashTableT] =>
+    @g_hash_table_iter_get_hash_table(iter')

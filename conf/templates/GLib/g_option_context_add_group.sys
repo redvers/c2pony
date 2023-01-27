@@ -1,0 +1,2 @@
+  fun add_group(context': NullablePointer[GOptionContextT], group': NullablePointer[GOptionGroupT]): None =>
+    @g_option_context_add_group(context', group')

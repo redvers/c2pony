@@ -1,0 +1,2 @@
+  fun insert_const(chunk': NullablePointer[GStringChunkT], string': String): String iso^ =>
+    String.from_cstring(@g_string_chunk_insert_const(chunk', string'.cstring())).clone()

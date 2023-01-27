@@ -1,0 +1,1 @@
+use @g_bytes_hash[U32](bytes': Pointer[None] tag)

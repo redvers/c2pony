@@ -1,0 +1,2 @@
+  fun ref match(string': String, match_options': U32, match_info': Pointer[NullablePointer[GMatchInfoT]]): I32 =>
+    GRegexP.match(this.ptr, string', match_options', match_info')

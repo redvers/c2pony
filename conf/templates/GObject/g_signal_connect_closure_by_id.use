@@ -1,0 +1,1 @@
+use @g_signal_connect_closure_by_id[U64](instance': Pointer[None] tag, signal_id': U32, detail': U32, closure': NullablePointer[GClosureT], after': I32)

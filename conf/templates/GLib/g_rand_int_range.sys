@@ -1,0 +1,2 @@
+  fun int_range(rand': NullablePointer[GRandT], begin': I32, end': I32): I32 =>
+    @g_rand_int_range(rand', begin', end')

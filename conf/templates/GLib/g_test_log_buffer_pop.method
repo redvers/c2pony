@@ -1,0 +1,2 @@
+  fun ref pop(): NullablePointer[anon_2387T] =>
+    GTestLogBufferP.pop(this.ptr)

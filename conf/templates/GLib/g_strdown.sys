@@ -1,0 +1,2 @@
+  fun strdown(string': String): String iso^ =>
+    String.from_cstring(@g_strdown(string'.cstring())).clone()

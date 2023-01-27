@@ -1,0 +1,1 @@
+use @g_option_context_add_main_entries[None](context': NullablePointer[GOptionContextT], entries': NullablePointer[GOptionEntryT], translation_domain': Pointer[U8] tag)

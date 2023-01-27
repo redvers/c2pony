@@ -1,0 +1,2 @@
+  fun append_vprintf(string': NullablePointer[GStringT], format': String, args': NullablePointer[valisttagT]): None =>
+    @g_string_append_vprintf(string', format'.cstring(), args')

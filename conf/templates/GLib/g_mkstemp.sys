@@ -1,0 +1,2 @@
+  fun mkstemp(tmpl': String): I32 =>
+    @g_mkstemp(tmpl'.cstring())

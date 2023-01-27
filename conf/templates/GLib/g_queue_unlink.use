@@ -1,0 +1,1 @@
+use @g_queue_unlink[None](queue': NullablePointer[GQueueT], link': NullablePointer[GListT])

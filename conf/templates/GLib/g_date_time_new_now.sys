@@ -1,0 +1,2 @@
+  new new_now(tz': NullablePointer[GTimeZoneT]) =>
+    ptr = @g_date_time_new_now(tz')

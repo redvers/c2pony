@@ -1,0 +1,1 @@
+use @g_source_get_priority[I32](source': NullablePointer[GSourceT])

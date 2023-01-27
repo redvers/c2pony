@@ -1,0 +1,2 @@
+  fun ref insert(key': Pointer[None] tag, value': Pointer[None] tag): None =>
+    GTreeP.insert(this.ptr, key', value')

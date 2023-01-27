@@ -1,0 +1,2 @@
+  fun test_message(format': String, ...): None =>
+    @g_test_message(format'.cstring(), ...)

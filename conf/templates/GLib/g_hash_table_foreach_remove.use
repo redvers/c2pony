@@ -1,0 +1,1 @@
+use @g_hash_table_foreach_remove[U32](hash_table': NullablePointer[GHashTableT], func': GHRFunc, user_data': Pointer[None] tag)

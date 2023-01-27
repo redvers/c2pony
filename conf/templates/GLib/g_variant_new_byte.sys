@@ -1,0 +1,2 @@
+  new new_byte(value': U8) =>
+    ptr = @g_variant_new_byte(value')

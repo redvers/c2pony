@@ -1,0 +1,2 @@
+  fun param_spec_value_array(name': String, nick': String, blurb': String, element_spec': NullablePointer[GParamSpecT], flags': I32): NullablePointer[GParamSpecT] =>
+    @g_param_spec_value_array(name'.cstring(), nick'.cstring(), blurb'.cstring(), element_spec', flags')

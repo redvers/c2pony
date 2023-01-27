@@ -1,0 +1,2 @@
+  fun ref get_int16(): I16 =>
+    GVariantP.get_int16(this.ptr)

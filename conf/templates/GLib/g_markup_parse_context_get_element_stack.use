@@ -1,0 +1,1 @@
+use @g_markup_parse_context_get_element_stack[NullablePointer[GSListT]](context': NullablePointer[GMarkupParseContextT])

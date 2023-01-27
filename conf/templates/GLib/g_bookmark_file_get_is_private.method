@@ -1,0 +1,2 @@
+  fun ref get_is_private(uri': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GBookmarkFileP.get_is_private(this.ptr, uri', error')

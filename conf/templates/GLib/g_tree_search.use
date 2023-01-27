@@ -1,0 +1,1 @@
+use @g_tree_search[Pointer[None] tag](tree': NullablePointer[GTreeT], search_func': GCompareFunc, user_data': Pointer[None] tag)

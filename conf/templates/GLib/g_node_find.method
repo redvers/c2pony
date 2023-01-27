@@ -1,0 +1,2 @@
+  fun ref find(order': U32, flags': U32, data': Pointer[None] tag): NullablePointer[GNodeT] =>
+    GNodeP.find(this.ptr, order', flags', data')

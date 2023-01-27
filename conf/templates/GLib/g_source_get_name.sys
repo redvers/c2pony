@@ -1,0 +1,2 @@
+  fun get_name(source': NullablePointer[GSourceT]): String iso^ =>
+    String.from_cstring(@g_source_get_name(source')).clone()

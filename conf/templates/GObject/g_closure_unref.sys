@@ -1,0 +1,2 @@
+  fun unref(closure': NullablePointer[GClosureT]): None =>
+    @g_closure_unref(closure')

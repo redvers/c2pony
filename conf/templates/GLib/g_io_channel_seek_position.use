@@ -1,0 +1,1 @@
+use @g_io_channel_seek_position[U32](channel': NullablePointer[GIOChannelT], offset': I64, type': U32, error': Pointer[NullablePointer[GErrorT]])

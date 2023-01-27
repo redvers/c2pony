@@ -1,0 +1,2 @@
+  fun ref length(): I32 =>
+    GAsyncQueueP.length(this.ptr)

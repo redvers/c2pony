@@ -1,0 +1,1 @@
+use @g_node_new[NullablePointer[GNodeT]](data': Pointer[None] tag)

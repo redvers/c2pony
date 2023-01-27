@@ -1,0 +1,2 @@
+  fun ref copy(): NullablePointer[GHmacT] =>
+    GHmacP.copy(this.ptr)

@@ -1,0 +1,2 @@
+  fun ref unuse(): None =>
+    GTypeModuleP.unuse(this.ptr)

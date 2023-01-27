@@ -1,0 +1,2 @@
+  fun ref copy(): NullablePointer[GDateT] =>
+    GDateP.copy(this.ptr)

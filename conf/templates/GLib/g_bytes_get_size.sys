@@ -1,0 +1,2 @@
+  fun get_size(bytes': NullablePointer[GBytesT]): U64 =>
+    @g_bytes_get_size(bytes')

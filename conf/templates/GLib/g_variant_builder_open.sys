@@ -1,0 +1,2 @@
+  fun open(builder': NullablePointer[GVariantBuilderT], type': NullablePointer[GVariantTypeT]): None =>
+    @g_variant_builder_open(builder', type')

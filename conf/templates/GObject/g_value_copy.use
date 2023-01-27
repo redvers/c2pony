@@ -1,0 +1,1 @@
+use @g_value_copy[None](src_value': NullablePointer[GValueT], dest_value': NullablePointer[GValueT])

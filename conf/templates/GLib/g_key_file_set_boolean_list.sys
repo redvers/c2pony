@@ -1,0 +1,2 @@
+  fun set_boolean_list(key_file': NullablePointer[GKeyFileT], group_name': String, key': String, list': Pointer[I32] tag, length': U64): None =>
+    @g_key_file_set_boolean_list(key_file', group_name'.cstring(), key'.cstring(), list', length')

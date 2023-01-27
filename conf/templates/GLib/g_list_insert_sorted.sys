@@ -1,0 +1,2 @@
+  fun insert_sorted(list': NullablePointer[GListT], data': Pointer[None] tag, func': GCompareFunc): NullablePointer[GListT] =>
+    @g_list_insert_sorted(list', data', func')

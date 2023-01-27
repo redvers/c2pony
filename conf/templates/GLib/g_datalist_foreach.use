@@ -1,0 +1,1 @@
+use @g_datalist_foreach[None](datalist': Pointer[NullablePointer[GDataT]], func': GDataForeachFunc, user_data': Pointer[None] tag)

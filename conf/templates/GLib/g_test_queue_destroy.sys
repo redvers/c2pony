@@ -1,0 +1,2 @@
+  fun test_queue_destroy(destroy_func': Pointer[None], destroy_data': Pointer[None] tag): None =>
+    @g_test_queue_destroy(destroy_func', destroy_data')

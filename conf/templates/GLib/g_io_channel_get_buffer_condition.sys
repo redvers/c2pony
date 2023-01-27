@@ -1,0 +1,2 @@
+  fun get_buffer_condition(channel': NullablePointer[GIOChannelT]): U32 =>
+    @g_io_channel_get_buffer_condition(channel')

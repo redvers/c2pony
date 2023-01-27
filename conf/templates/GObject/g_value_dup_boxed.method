@@ -1,0 +1,2 @@
+  fun ref dup_boxed(): Pointer[None] tag =>
+    GValueP.dup_boxed(this.ptr)

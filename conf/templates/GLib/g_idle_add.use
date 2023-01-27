@@ -1,0 +1,1 @@
+use @g_idle_add[U32](function': GSourceFunc, data': Pointer[None] tag)

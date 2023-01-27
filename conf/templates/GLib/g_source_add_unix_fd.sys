@@ -1,0 +1,2 @@
+  fun add_unix_fd(source': NullablePointer[GSourceT], fd': I32, events': U32): Pointer[None] tag =>
+    @g_source_add_unix_fd(source', fd', events')

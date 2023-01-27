@@ -1,0 +1,1 @@
+use @g_node_copy_deep[NullablePointer[GNodeT]](node': NullablePointer[GNodeT], copy_func': GCopyFunc, data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun ref pop_head_link(): NullablePointer[GListT] =>
+    GQueueP.pop_head_link(this.ptr)

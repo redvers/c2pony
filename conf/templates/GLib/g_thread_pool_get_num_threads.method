@@ -1,0 +1,2 @@
+  fun ref get_num_threads(): U32 =>
+    GThreadPoolP.get_num_threads(this.ptr)

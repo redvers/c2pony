@@ -1,0 +1,2 @@
+  fun ref get_iter_at_pos(pos': I32): NullablePointer[GSequenceNodeT] =>
+    GSequenceP.get_iter_at_pos(this.ptr, pos')

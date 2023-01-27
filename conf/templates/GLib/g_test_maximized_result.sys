@@ -1,0 +1,2 @@
+  fun test_maximized_result(maximized_quantity': F64, format': String, ...): None =>
+    @g_test_maximized_result(maximized_quantity', format'.cstring(), ...)

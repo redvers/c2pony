@@ -1,0 +1,2 @@
+  fun fetch(match_info': NullablePointer[GMatchInfoT], match_num': I32): String iso^ =>
+    String.from_cstring(@g_match_info_fetch(match_info', match_num')).clone()

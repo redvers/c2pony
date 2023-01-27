@@ -1,0 +1,1 @@
+use @g_byte_array_sized_new[NullablePointer[GByteArrayT]](reserved_size': U32)

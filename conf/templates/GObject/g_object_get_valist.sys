@@ -1,0 +1,2 @@
+  fun get_valist(object': NullablePointer[GObjectT], first_property_name': String, var_args': NullablePointer[valisttagT]): None =>
+    @g_object_get_valist(object', first_property_name'.cstring(), var_args')

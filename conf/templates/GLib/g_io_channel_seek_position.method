@@ -1,0 +1,2 @@
+  fun ref seek_position(offset': I64, type': U32, error': Pointer[NullablePointer[GErrorT]]): U32 =>
+    GIOChannelP.seek_position(this.ptr, offset', type', error')

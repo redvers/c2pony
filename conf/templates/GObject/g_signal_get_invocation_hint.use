@@ -1,0 +1,1 @@
+use @g_signal_get_invocation_hint[NullablePointer[GSignalInvocationHintT]](instance': Pointer[None] tag)

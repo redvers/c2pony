@@ -1,0 +1,2 @@
+  fun add_weeks(datetime': NullablePointer[GDateTimeT], weeks': I32): NullablePointer[GDateTimeT] =>
+    @g_date_time_add_weeks(datetime', weeks')

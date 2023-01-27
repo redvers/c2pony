@@ -1,0 +1,1 @@
+use @g_main_loop_run[None](loop': NullablePointer[GMainLoopT])

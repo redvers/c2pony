@@ -1,0 +1,2 @@
+  fun valid_month(month': U32): I32 =>
+    @g_date_valid_month(month')

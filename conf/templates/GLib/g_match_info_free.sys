@@ -1,0 +1,2 @@
+  fun free(match_info': NullablePointer[GMatchInfoT]): None =>
+    @g_match_info_free(match_info')

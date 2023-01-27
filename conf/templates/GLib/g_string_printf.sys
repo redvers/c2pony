@@ -1,0 +1,2 @@
+  fun printf(string': NullablePointer[GStringT], format': String, ...): None =>
+    @g_string_printf(string', format'.cstring(), ...)

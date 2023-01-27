@@ -1,0 +1,1 @@
+use @g_node_last_child[NullablePointer[GNodeT]](node': NullablePointer[GNodeT])

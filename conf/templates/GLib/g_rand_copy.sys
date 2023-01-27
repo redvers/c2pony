@@ -1,0 +1,2 @@
+  fun copy(rand': NullablePointer[GRandT]): NullablePointer[GRandT] =>
+    @g_rand_copy(rand')

@@ -1,0 +1,2 @@
+  fun insert_before(iter': NullablePointer[GSequenceNodeT], data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
+    @g_sequence_insert_before(iter', data')

@@ -1,0 +1,2 @@
+  fun get_name(pspec': NullablePointer[GParamSpecT]): String iso^ =>
+    String.from_cstring(@g_param_spec_get_name(pspec')).clone()

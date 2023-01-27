@@ -1,0 +1,2 @@
+  fun is_running(loop': NullablePointer[GMainLoopT]): I32 =>
+    @g_main_loop_is_running(loop')

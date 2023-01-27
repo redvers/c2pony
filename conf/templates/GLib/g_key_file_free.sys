@@ -1,0 +1,2 @@
+  fun free(key_file': NullablePointer[GKeyFileT]): None =>
+    @g_key_file_free(key_file')

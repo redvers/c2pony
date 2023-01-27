@@ -1,0 +1,2 @@
+  fun get(weak_ref': NullablePointer[anon_3672T]): Pointer[None] tag =>
+    @g_weak_ref_get(weak_ref')

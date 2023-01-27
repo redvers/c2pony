@@ -1,0 +1,2 @@
+  fun free(array': NullablePointer[GByteArrayT], free_segment': I32): String iso^ =>
+    String.from_cstring(@g_byte_array_free(array', free_segment')).clone()

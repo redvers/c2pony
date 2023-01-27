@@ -1,0 +1,2 @@
+  fun get_fragment(uri': NullablePointer[GUriT]): String iso^ =>
+    String.from_cstring(@g_uri_get_fragment(uri')).clone()

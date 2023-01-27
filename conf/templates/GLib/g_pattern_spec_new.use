@@ -1,0 +1,1 @@
+use @g_pattern_spec_new[NullablePointer[GPatternSpecT]](pattern': Pointer[U8] tag)

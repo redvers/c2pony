@@ -1,0 +1,9 @@
+
+use "lib:glib-2.0"
+
+class GQueue
+  var ptr: NullablePointer[GQueueT]
+
+  new create() =>
+    ptr = NullablePointer[GQueueT].none()
+  new create_from_ptr(ptr': NullablePointer[GQueueT]) => ptr = ptr'

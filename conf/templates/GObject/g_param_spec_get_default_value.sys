@@ -1,0 +1,2 @@
+  fun get_default_value(pspec': NullablePointer[GParamSpecT]): NullablePointer[GValueT] =>
+    @g_param_spec_get_default_value(pspec')

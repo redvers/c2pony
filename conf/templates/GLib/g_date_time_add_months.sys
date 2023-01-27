@@ -1,0 +1,2 @@
+  fun add_months(datetime': NullablePointer[GDateTimeT], months': I32): NullablePointer[GDateTimeT] =>
+    @g_date_time_add_months(datetime', months')

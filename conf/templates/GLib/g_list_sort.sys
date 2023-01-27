@@ -1,0 +1,2 @@
+  fun sort(list': NullablePointer[GListT], compare_func': GCompareFunc): NullablePointer[GListT] =>
+    @g_list_sort(list', compare_func')

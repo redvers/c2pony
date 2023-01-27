@@ -1,0 +1,1 @@
+use @g_shell_parse_argv[I32](command_line': Pointer[U8] tag, argcp': Pointer[I32] tag, argvp': Pointer[Pointer[Pointer[U8]]] tag, error': Pointer[NullablePointer[GErrorT]])

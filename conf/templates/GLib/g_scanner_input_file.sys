@@ -1,0 +1,2 @@
+  fun input_file(scanner': NullablePointer[GScannerT], input_fd': I32): None =>
+    @g_scanner_input_file(scanner', input_fd')

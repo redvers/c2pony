@@ -1,0 +1,2 @@
+  fun height(stack_p': Pointer[NullablePointer[GTrashStackT]]): U32 =>
+    @g_trash_stack_height(stack_p')

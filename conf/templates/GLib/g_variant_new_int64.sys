@@ -1,0 +1,2 @@
+  new new_int64(value': I64) =>
+    ptr = @g_variant_new_int64(value')

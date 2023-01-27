@@ -1,0 +1,2 @@
+  fun ref get(format_string': String, ...): None =>
+    GVariantP.get(this.ptr, format_string', ...)

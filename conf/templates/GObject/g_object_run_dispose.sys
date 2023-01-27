@@ -1,0 +1,2 @@
+  fun run_dispose(object': NullablePointer[GObjectT]): None =>
+    @g_object_run_dispose(object')

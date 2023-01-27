@@ -1,0 +1,1 @@
+use @g_regex_match[I32](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, match_options': U32, match_info': Pointer[NullablePointer[GMatchInfoT]])

@@ -1,0 +1,1 @@
+use @g_variant_new_from_bytes[NullablePointer[GVariantT]](type': NullablePointer[GVariantTypeT], bytes': NullablePointer[GBytesT], trusted': I32)

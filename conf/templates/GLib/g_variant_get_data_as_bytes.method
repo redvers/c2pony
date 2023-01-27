@@ -1,0 +1,2 @@
+  fun ref get_data_as_bytes(): NullablePointer[GBytesT] =>
+    GVariantP.get_data_as_bytes(this.ptr)

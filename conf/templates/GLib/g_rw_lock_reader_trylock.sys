@@ -1,0 +1,2 @@
+  fun reader_trylock(rw_lock': NullablePointer[GRWLockT]): I32 =>
+    @g_rw_lock_reader_trylock(rw_lock')

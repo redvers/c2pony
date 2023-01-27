@@ -1,0 +1,2 @@
+  fun concat(list1': NullablePointer[GSListT], list2': NullablePointer[GSListT]): NullablePointer[GSListT] =>
+    @g_slist_concat(list1', list2')

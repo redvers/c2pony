@@ -1,0 +1,2 @@
+  new new_double(value': F64) =>
+    ptr = @g_variant_new_double(value')

@@ -1,0 +1,2 @@
+  fun ref add_poll(fd': NullablePointer[GPollFDT], priority': I32): None =>
+    GMainContextP.add_poll(this.ptr, fd', priority')

@@ -1,0 +1,2 @@
+  fun subtract_years(date': NullablePointer[GDateT], n_years': U32): None =>
+    @g_date_subtract_years(date', n_years')

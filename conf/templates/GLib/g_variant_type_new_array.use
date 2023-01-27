@@ -1,0 +1,1 @@
+use @g_variant_type_new_array[NullablePointer[GVariantTypeT]](element': NullablePointer[GVariantTypeT])

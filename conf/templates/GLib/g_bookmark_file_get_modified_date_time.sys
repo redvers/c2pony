@@ -1,0 +1,2 @@
+  fun get_modified_date_time(bookmark': NullablePointer[GBookmarkFileT], uri': String, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDateTimeT] =>
+    @g_bookmark_file_get_modified_date_time(bookmark', uri'.cstring(), error')

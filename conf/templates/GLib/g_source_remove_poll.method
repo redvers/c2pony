@@ -1,0 +1,2 @@
+  fun ref remove_poll(fd': NullablePointer[GPollFDT]): None =>
+    GSourceP.remove_poll(this.ptr, fd')

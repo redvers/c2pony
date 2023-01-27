@@ -1,0 +1,2 @@
+  fun move_range(dest': NullablePointer[GSequenceNodeT], begin': NullablePointer[GSequenceNodeT], end': NullablePointer[GSequenceNodeT]): None =>
+    @g_sequence_move_range(dest', begin', end')

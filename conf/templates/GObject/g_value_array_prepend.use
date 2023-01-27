@@ -1,0 +1,1 @@
+use @g_value_array_prepend[NullablePointer[GValueArrayT]](value_array': NullablePointer[GValueArrayT], value': NullablePointer[GValueT])

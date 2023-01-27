@@ -1,0 +1,2 @@
+  fun slice_alloc0(block_size': U64): Pointer[None] tag =>
+    @g_slice_alloc0(block_size')

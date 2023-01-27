@@ -1,0 +1,2 @@
+  fun idle_source_new(): NullablePointer[GSourceT] =>
+    @g_idle_source_new()

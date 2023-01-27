@@ -1,0 +1,2 @@
+  new new(identifier': String) =>
+    ptr = @g_time_zone_new(identifier'.cstring())

@@ -1,0 +1,2 @@
+  fun remove_range(begin': NullablePointer[GSequenceNodeT], end': NullablePointer[GSequenceNodeT]): None =>
+    @g_sequence_remove_range(begin', end')

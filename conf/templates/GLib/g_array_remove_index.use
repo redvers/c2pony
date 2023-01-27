@@ -1,0 +1,1 @@
+use @g_array_remove_index[NullablePointer[GArrayT]](array': NullablePointer[GArrayT], index': U32)

@@ -1,0 +1,2 @@
+  fun nth_child(node': NullablePointer[GNodeT], n': U32): NullablePointer[GNodeT] =>
+    @g_node_nth_child(node', n')

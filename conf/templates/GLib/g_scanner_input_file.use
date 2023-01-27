@@ -1,0 +1,1 @@
+use @g_scanner_input_file[None](scanner': NullablePointer[GScannerT], input_fd': I32)

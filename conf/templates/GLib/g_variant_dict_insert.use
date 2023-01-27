@@ -1,0 +1,1 @@
+use @g_variant_dict_insert[None](dict': NullablePointer[GVariantDictT], key': Pointer[U8] tag, format_string': Pointer[U8] tag, ...)

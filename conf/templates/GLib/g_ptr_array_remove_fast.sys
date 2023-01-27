@@ -1,0 +1,2 @@
+  fun remove_fast(array': NullablePointer[GPtrArrayT], data': Pointer[None] tag): I32 =>
+    @g_ptr_array_remove_fast(array', data')

@@ -1,0 +1,2 @@
+  fun dispatch(context': NullablePointer[GMainContextT]): None =>
+    @g_main_context_dispatch(context')

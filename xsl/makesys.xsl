@@ -55,7 +55,7 @@
         </xsl:call-template>
       </xsl:for-each>
       <xsl:for-each select="$root/renderconstructor[@render=$debug]">
-        <xsl:call-template name="mainfunction">
+        <xsl:call-template name="newfunction">
           <xsl:with-param name="ponyname" select="./@ponyname"/>
           <xsl:with-param name="n" select="./@name"/>
           <xsl:with-param name="render" select="./@render"/>
@@ -145,6 +145,57 @@
                   </xsl:for-each>
                 </xsl:when>
               </xsl:choose>
+              <xsl:value-of select="$newline"/>
+              <xsl:if test="$render='0'">
+                <xsl:text>*/</xsl:text>
+                <xsl:value-of select="$newline"/>
+              </xsl:if>
+            </xsl:when>
+          </xsl:choose>
+        </xsl:result-document>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template name="newfunction">
+    <xsl:param name="n"/>
+    <xsl:param name="render"/>
+    <xsl:param name="ponyname"/>
+    <xsl:variable name="root" select="/main/c2pony/uses/use[@name=$n]"/>
+    <xsl:choose>
+      <xsl:when test="concat($root/@name, '.sys')='.sys'">
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:result-document href="../templates/{$namespace}/{$root/@name}.sys" method="text">
+          <xsl:choose>
+            <xsl:when test="name($root)='use'">
+              <xsl:if test="$render='0'">
+                <xsl:text>/* </xsl:text>
+                <xsl:value-of select="$newline"/>
+              </xsl:if>
+              <xsl:text>  new </xsl:text>
+              <xsl:value-of select="$ponyname"/>
+              <xsl:text>(</xsl:text>
+              <xsl:for-each select="$root/*">
+                <xsl:call-template name="fargs">
+                  <xsl:with-param name="arg" select="."/>
+                </xsl:call-template>
+              </xsl:for-each>
+              <xsl:text>) =></xsl:text>
+              <xsl:value-of select="$newline"/>
+              <xsl:variable name="typename" select="$root/@returntype"/>
+							<xsl:variable name="newtype" select="/main/c2pony/typenames/typename[@name=$typename]/@rename"/>
+              <xsl:variable name="muttype" select="/main/typedefs/typedef[@name=$newtype]"/>
+
+              <xsl:text>    ptr = @</xsl:text>
+              <xsl:value-of select="$root/@name"/>
+              <xsl:text>(</xsl:text>
+              <xsl:for-each select="$root/*">
+                <xsl:call-template name="usearg">
+                  <xsl:with-param name="arg" select="."/>
+                </xsl:call-template>
+              </xsl:for-each>
+              <xsl:text>)</xsl:text>
               <xsl:value-of select="$newline"/>
               <xsl:if test="$render='0'">
                 <xsl:text>*/</xsl:text>

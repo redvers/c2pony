@@ -1,0 +1,1 @@
+use @g_value_array_remove[NullablePointer[GValueArrayT]](value_array': NullablePointer[GValueArrayT], index': U32)

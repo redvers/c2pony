@@ -1,0 +1,2 @@
+  fun ref set_string(group_name': String, key': String, string': String): None =>
+    GKeyFileP.set_string(this.ptr, group_name', key', string')

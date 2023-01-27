@@ -1,0 +1,2 @@
+  fun get_element_size(array': NullablePointer[GArrayT]): U32 =>
+    @g_array_get_element_size(array')

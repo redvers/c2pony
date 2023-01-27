@@ -1,0 +1,2 @@
+  fun new_object(callback_func': GCallback, object': NullablePointer[GObjectT]): NullablePointer[GClosureT] =>
+    @g_cclosure_new_object(callback_func', object')

@@ -1,0 +1,2 @@
+  fun cur_position(scanner': NullablePointer[GScannerT]): U32 =>
+    @g_scanner_cur_position(scanner')

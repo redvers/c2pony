@@ -1,0 +1,1 @@
+use @g_slist_append[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun add(hash_table': NullablePointer[GHashTableT], key': Pointer[None] tag): I32 =>
+    @g_hash_table_add(hash_table', key')

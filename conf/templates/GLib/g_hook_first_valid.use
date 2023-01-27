@@ -1,0 +1,1 @@
+use @g_hook_first_valid[NullablePointer[GHookT]](hook_list': NullablePointer[GHookListT], may_be_in_call': I32)

@@ -1,0 +1,2 @@
+  fun child_index(node': NullablePointer[GNodeT], data': Pointer[None] tag): I32 =>
+    @g_node_child_index(node', data')

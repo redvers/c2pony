@@ -1,0 +1,2 @@
+  fun atexit(func': GVoidFunc): None =>
+    @g_atexit(func')

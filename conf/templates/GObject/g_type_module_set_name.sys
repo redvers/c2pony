@@ -1,0 +1,2 @@
+  fun set_name(module': NullablePointer[GTypeModuleT], name': String): None =>
+    @g_type_module_set_name(module', name'.cstring())

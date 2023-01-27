@@ -1,0 +1,1 @@
+use @g_source_get_current_time[None](source': NullablePointer[GSourceT], timeval': NullablePointer[GTimeValT])

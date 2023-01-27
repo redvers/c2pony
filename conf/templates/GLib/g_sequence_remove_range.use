@@ -1,0 +1,1 @@
+use @g_sequence_remove_range[None](begin': NullablePointer[GSequenceNodeT], end': NullablePointer[GSequenceNodeT])

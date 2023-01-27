@@ -1,0 +1,2 @@
+  fun copy_deep(list': NullablePointer[GSListT], func': GCopyFunc, user_data': Pointer[None] tag): NullablePointer[GSListT] =>
+    @g_slist_copy_deep(list', func', user_data')

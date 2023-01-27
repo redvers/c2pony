@@ -1,0 +1,1 @@
+use @g_type_check_instance_is_a[I32](instance': NullablePointer[GTypeInstanceT], iface_type': U64)

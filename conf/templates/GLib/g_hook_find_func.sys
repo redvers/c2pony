@@ -1,0 +1,2 @@
+  fun find_func(hook_list': NullablePointer[GHookListT], need_valids': I32, func': Pointer[None] tag): NullablePointer[GHookT] =>
+    @g_hook_find_func(hook_list', need_valids', func')

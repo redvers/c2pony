@@ -1,0 +1,2 @@
+  fun ref ref(): NullablePointer[GRegexT] =>
+    GRegexP.ref(this.ptr)

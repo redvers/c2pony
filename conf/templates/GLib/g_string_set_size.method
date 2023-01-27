@@ -1,0 +1,2 @@
+  fun ref set_size(len': U64): NullablePointer[GStringT] =>
+    GStringP.set_size(this.ptr, len')

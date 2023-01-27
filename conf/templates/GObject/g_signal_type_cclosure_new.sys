@@ -1,0 +1,2 @@
+  fun signal_type_cclosure_new(itype': U64, struct_offset': U32): NullablePointer[GClosureT] =>
+    @g_signal_type_cclosure_new(itype', struct_offset')

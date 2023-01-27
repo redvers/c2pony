@@ -1,0 +1,1 @@
+use @g_tree_destroy[None](tree': NullablePointer[GTreeT])

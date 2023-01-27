@@ -1,0 +1,2 @@
+  fun signal_handler_is_connected(instance': Pointer[None] tag, handler_id': U64): I32 =>
+    @g_signal_handler_is_connected(instance', handler_id')

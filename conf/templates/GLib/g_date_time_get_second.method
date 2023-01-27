@@ -1,0 +1,2 @@
+  fun ref get_second(): I32 =>
+    GDateTimeP.get_second(this.ptr)

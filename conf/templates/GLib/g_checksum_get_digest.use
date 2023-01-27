@@ -1,0 +1,1 @@
+use @g_checksum_get_digest[None](checksum': NullablePointer[GChecksumT], buffer': Pointer[U8] tag, digest_len': Pointer[U64] tag)

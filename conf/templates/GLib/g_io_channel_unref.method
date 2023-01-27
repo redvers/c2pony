@@ -1,0 +1,2 @@
+  fun ref unref(): None =>
+    GIOChannelP.unref(this.ptr)

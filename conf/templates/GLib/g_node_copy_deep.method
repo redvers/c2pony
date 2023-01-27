@@ -1,0 +1,2 @@
+  fun ref copy_deep(copy_func': GCopyFunc, data': Pointer[None] tag): NullablePointer[GNodeT] =>
+    GNodeP.copy_deep(this.ptr, copy_func', data')

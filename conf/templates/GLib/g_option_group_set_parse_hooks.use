@@ -1,0 +1,1 @@
+use @g_option_group_set_parse_hooks[None](group': NullablePointer[GOptionGroupT], pre_parse_func': GOptionParseFunc, post_parse_func': GOptionParseFunc)

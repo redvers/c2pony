@@ -1,0 +1,2 @@
+  fun ref(context': NullablePointer[GMainContextT]): NullablePointer[GMainContextT] =>
+    @g_main_context_ref(context')

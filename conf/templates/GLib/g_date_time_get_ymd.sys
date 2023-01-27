@@ -1,0 +1,2 @@
+  fun get_ymd(datetime': NullablePointer[GDateTimeT], year': Pointer[I32] tag, month': Pointer[I32] tag, day': Pointer[I32] tag): None =>
+    @g_date_time_get_ymd(datetime', year', month', day')

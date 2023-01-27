@@ -1,0 +1,2 @@
+  fun replace(hash_table': NullablePointer[GHashTableT], key': Pointer[None] tag, value': Pointer[None] tag): I32 =>
+    @g_hash_table_replace(hash_table', key', value')

@@ -1,0 +1,2 @@
+  fun ref(key_file': NullablePointer[GKeyFileT]): NullablePointer[GKeyFileT] =>
+    @g_key_file_ref(key_file')

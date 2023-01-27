@@ -1,0 +1,2 @@
+  fun type_free_instance(instance': NullablePointer[GTypeInstanceT]): None =>
+    @g_type_free_instance(instance')

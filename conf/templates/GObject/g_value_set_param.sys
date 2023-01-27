@@ -1,0 +1,2 @@
+  fun set_param(value': NullablePointer[GValueT], param': NullablePointer[GParamSpecT]): None =>
+    @g_value_set_param(value', param')

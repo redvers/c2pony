@@ -1,0 +1,2 @@
+  fun get_context(source': NullablePointer[GSourceT]): NullablePointer[GMainContextT] =>
+    @g_source_get_context(source')

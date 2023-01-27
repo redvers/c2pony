@@ -1,0 +1,2 @@
+  fun ref get_string(): String iso^ =>
+    GMatchInfoP.get_string(this.ptr)

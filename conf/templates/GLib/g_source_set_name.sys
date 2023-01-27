@@ -1,0 +1,2 @@
+  fun set_name(source': NullablePointer[GSourceT], name': String): None =>
+    @g_source_set_name(source', name'.cstring())

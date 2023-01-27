@@ -1,0 +1,2 @@
+  fun enum_get_value(enum_class': NullablePointer[GEnumClassT], value': I32): NullablePointer[GEnumValueT] =>
+    @g_enum_get_value(enum_class', value')

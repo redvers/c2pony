@@ -1,0 +1,2 @@
+  fun pop(tbuffer': NullablePointer[anon_2389T]): NullablePointer[anon_2387T] =>
+    @g_test_log_buffer_pop(tbuffer')

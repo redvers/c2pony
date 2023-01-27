@@ -1,0 +1,1 @@
+use @g_io_channel_set_encoding[U32](channel': NullablePointer[GIOChannelT], encoding': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

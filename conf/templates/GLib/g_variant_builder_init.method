@@ -1,0 +1,2 @@
+  fun ref init(type': NullablePointer[GVariantTypeT]): None =>
+    GVariantBuilderP.init(this.ptr, type')

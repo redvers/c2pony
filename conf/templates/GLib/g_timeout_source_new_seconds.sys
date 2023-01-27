@@ -1,0 +1,2 @@
+  fun timeout_source_new_seconds(interval': U32): NullablePointer[GSourceT] =>
+    @g_timeout_source_new_seconds(interval')

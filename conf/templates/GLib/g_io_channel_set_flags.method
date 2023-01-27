@@ -1,0 +1,2 @@
+  fun ref set_flags(flags': U32, error': Pointer[NullablePointer[GErrorT]]): U32 =>
+    GIOChannelP.set_flags(this.ptr, flags', error')

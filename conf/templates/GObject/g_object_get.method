@@ -1,0 +1,2 @@
+  fun ref get(first_property_name': String, ...): None =>
+    GObjectP.get(this.ptr, first_property_name', ...)

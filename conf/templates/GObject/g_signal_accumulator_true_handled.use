@@ -1,0 +1,1 @@
+use @g_signal_accumulator_true_handled[I32](ihint': NullablePointer[GSignalInvocationHintT], return_accu': NullablePointer[GValueT], handler_return': NullablePointer[GValueT], dummy': Pointer[None] tag)

@@ -1,0 +1,1 @@
+use @g_regex_ref[NullablePointer[GRegexT]](regex': NullablePointer[GRegexT])

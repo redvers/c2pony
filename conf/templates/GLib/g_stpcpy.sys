@@ -1,0 +1,2 @@
+  fun stpcpy(dest': String, src': String): String iso^ =>
+    String.from_cstring(@g_stpcpy(dest'.cstring(), src'.cstring())).clone()

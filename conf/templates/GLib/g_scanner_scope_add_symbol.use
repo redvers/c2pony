@@ -1,0 +1,1 @@
+use @g_scanner_scope_add_symbol[None](scanner': NullablePointer[GScannerT], scope_id': U32, symbol': Pointer[U8] tag, value': Pointer[None] tag)

@@ -1,0 +1,1 @@
+use @g_queue_pop_tail_link[NullablePointer[GListT]](queue': NullablePointer[GQueueT])

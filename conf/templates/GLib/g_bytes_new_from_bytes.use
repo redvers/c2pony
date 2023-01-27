@@ -1,0 +1,1 @@
+use @g_bytes_new_from_bytes[NullablePointer[GBytesT]](bytes': NullablePointer[GBytesT], offset': U64, length': U64)

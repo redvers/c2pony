@@ -1,0 +1,1 @@
+use @g_byte_array_new_take[NullablePointer[GByteArrayT]](data': Pointer[U8] tag, len': U64)

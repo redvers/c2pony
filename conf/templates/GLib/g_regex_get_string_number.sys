@@ -1,0 +1,2 @@
+  fun get_string_number(regex': NullablePointer[GRegexT], name': String): I32 =>
+    @g_regex_get_string_number(regex', name'.cstring())

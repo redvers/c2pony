@@ -1,0 +1,2 @@
+  fun get_applications(bookmark': NullablePointer[GBookmarkFileT], uri': String, length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
+    @g_bookmark_file_get_applications(bookmark', uri'.cstring(), length', error')

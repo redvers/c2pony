@@ -1,0 +1,2 @@
+  fun ref unref(): None =>
+    GVariantP.unref(this.ptr)

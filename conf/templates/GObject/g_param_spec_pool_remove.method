@@ -1,0 +1,2 @@
+  fun ref remove(pspec': NullablePointer[GParamSpecT]): None =>
+    GParamSpecPoolP.remove(this.ptr, pspec')

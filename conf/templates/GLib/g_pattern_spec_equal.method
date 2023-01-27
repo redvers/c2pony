@@ -1,0 +1,2 @@
+  fun ref equal(pspec2': NullablePointer[GPatternSpecT]): I32 =>
+    GPatternSpecP.equal(this.ptr, pspec2')

@@ -1,0 +1,2 @@
+  fun propagate_error(dest': Pointer[NullablePointer[GErrorT]], src': NullablePointer[GErrorT]): None =>
+    @g_propagate_error(dest', src')

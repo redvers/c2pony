@@ -1,0 +1,1 @@
+use @g_queue_insert_before_link[None](queue': NullablePointer[GQueueT], sibling': NullablePointer[GListT], link': NullablePointer[GListT])

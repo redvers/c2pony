@@ -1,0 +1,2 @@
+  fun is_owner(context': NullablePointer[GMainContextT]): I32 =>
+    @g_main_context_is_owner(context')

@@ -1,0 +1,2 @@
+  fun param_spec_long(name': String, nick': String, blurb': String, minimum': I64, maximum': I64, default_value': I64, flags': I32): NullablePointer[GParamSpecT] =>
+    @g_param_spec_long(name'.cstring(), nick'.cstring(), blurb'.cstring(), minimum', maximum', default_value', flags')

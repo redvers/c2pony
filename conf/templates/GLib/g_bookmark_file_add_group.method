@@ -1,0 +1,2 @@
+  fun ref add_group(uri': String, group': String): None =>
+    GBookmarkFileP.add_group(this.ptr, uri', group')

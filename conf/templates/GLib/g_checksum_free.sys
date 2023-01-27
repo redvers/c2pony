@@ -1,0 +1,2 @@
+  fun free(checksum': NullablePointer[GChecksumT]): None =>
+    @g_checksum_free(checksum')

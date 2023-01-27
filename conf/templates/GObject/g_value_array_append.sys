@@ -1,0 +1,2 @@
+  fun append(value_array': NullablePointer[GValueArrayT], value': NullablePointer[GValueT]): NullablePointer[GValueArrayT] =>
+    @g_value_array_append(value_array', value')

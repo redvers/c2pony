@@ -1,0 +1,2 @@
+  fun set_year(date': NullablePointer[GDateT], year': U16): None =>
+    @g_date_set_year(date', year')

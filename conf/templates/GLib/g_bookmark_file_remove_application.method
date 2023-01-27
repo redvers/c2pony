@@ -1,0 +1,2 @@
+  fun ref remove_application(uri': String, name': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GBookmarkFileP.remove_application(this.ptr, uri', name', error')

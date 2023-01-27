@@ -1,0 +1,2 @@
+  fun atomic_rc_box_get_size(mem_block': Pointer[None] tag): U64 =>
+    @g_atomic_rc_box_get_size(mem_block')

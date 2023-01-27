@@ -1,0 +1,2 @@
+  new new_file(filename': String, mode': String, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_io_channel_new_file(filename'.cstring(), mode'.cstring(), error')

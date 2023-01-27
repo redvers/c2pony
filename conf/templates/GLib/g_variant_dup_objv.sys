@@ -1,0 +1,2 @@
+  fun dup_objv(value': NullablePointer[GVariantT], length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+    @g_variant_dup_objv(value', length')

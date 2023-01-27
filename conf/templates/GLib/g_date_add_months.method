@@ -1,0 +1,2 @@
+  fun ref add_months(n_months': U32): None =>
+    GDateP.add_months(this.ptr, n_months')

@@ -1,0 +1,1 @@
+use @g_param_spec_get_qdata[Pointer[None] tag](pspec': NullablePointer[GParamSpecT], quark': U32)

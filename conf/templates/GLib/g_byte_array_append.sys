@@ -1,0 +1,2 @@
+  fun append(array': NullablePointer[GByteArrayT], data': String, len': U32): NullablePointer[GByteArrayT] =>
+    @g_byte_array_append(array', data'.cstring(), len')

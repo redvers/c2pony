@@ -1,0 +1,2 @@
+  fun ref reader_trylock(): I32 =>
+    GRWLockP.reader_trylock(this.ptr)

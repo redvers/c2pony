@@ -1,0 +1,2 @@
+  fun value(type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantTypeT] =>
+    @g_variant_type_value(type')

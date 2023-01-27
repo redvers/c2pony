@@ -1,0 +1,2 @@
+  fun ref is_floating(): I32 =>
+    GVariantP.is_floating(this.ptr)

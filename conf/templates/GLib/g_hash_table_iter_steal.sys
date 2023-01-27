@@ -1,0 +1,2 @@
+  fun steal(iter': NullablePointer[GHashTableIterT]): None =>
+    @g_hash_table_iter_steal(iter')

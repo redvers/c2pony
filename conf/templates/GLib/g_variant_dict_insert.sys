@@ -1,0 +1,2 @@
+  fun insert(dict': NullablePointer[GVariantDictT], key': String, format_string': String, ...): None =>
+    @g_variant_dict_insert(dict', key'.cstring(), format_string'.cstring(), ...)

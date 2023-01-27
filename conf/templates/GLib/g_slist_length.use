@@ -1,0 +1,1 @@
+use @g_slist_length[U32](list': NullablePointer[GSListT])

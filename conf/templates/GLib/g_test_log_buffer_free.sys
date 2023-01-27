@@ -1,0 +1,2 @@
+  fun free(tbuffer': NullablePointer[anon_2389T]): None =>
+    @g_test_log_buffer_free(tbuffer')

@@ -1,0 +1,2 @@
+  fun flags_get_first_value(flags_class': NullablePointer[GFlagsClassT], value': U32): NullablePointer[GFlagsValueT] =>
+    @g_flags_get_first_value(flags_class', value')

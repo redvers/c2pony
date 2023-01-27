@@ -1,0 +1,1 @@
+use @g_type_module_add_interface[None](module': NullablePointer[GTypeModuleT], instance_type': U64, interface_type': U64, interface_info': NullablePointer[GInterfaceInfoT])

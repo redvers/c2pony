@@ -1,0 +1,2 @@
+  fun insert_len(chunk': NullablePointer[GStringChunkT], string': String, len': I64): String iso^ =>
+    String.from_cstring(@g_string_chunk_insert_len(chunk', string'.cstring(), len')).clone()

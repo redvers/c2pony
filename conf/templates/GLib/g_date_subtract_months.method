@@ -1,0 +1,2 @@
+  fun ref subtract_months(n_months': U32): None =>
+    GDateP.subtract_months(this.ptr, n_months')

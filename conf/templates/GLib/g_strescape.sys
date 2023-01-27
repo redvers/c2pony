@@ -1,0 +1,2 @@
+  fun strescape(source': String, exceptions': String): String iso^ =>
+    String.from_cstring(@g_strescape(source'.cstring(), exceptions'.cstring())).clone()

@@ -1,0 +1,2 @@
+  fun ref unref(): None =>
+    GAsyncQueueP.unref(this.ptr)

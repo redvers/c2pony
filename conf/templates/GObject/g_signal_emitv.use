@@ -1,0 +1,1 @@
+use @g_signal_emitv[None](instance_and_params': NullablePointer[GValueT], signal_id': U32, detail': U32, return_value': NullablePointer[GValueT])

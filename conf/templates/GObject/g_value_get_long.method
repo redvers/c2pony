@@ -1,0 +1,2 @@
+  fun ref get_long(): I64 =>
+    GValueP.get_long(this.ptr)

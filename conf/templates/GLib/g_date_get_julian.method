@@ -1,0 +1,2 @@
+  fun ref get_julian(): U32 =>
+    GDateP.get_julian(this.ptr)

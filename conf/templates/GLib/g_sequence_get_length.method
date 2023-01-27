@@ -1,0 +1,2 @@
+  fun ref get_length(): I32 =>
+    GSequenceP.get_length(this.ptr)

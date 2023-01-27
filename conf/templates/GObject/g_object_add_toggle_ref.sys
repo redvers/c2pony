@@ -1,0 +1,2 @@
+  fun add_toggle_ref(object': NullablePointer[GObjectT], notify': GToggleNotify, data': Pointer[None] tag): None =>
+    @g_object_add_toggle_ref(object', notify', data')

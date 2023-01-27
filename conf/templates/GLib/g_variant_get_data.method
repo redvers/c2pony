@@ -1,0 +1,2 @@
+  fun ref get_data(): Pointer[None] tag =>
+    GVariantP.get_data(this.ptr)

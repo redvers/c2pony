@@ -1,0 +1,2 @@
+  fun ref push_tail_link(link': NullablePointer[GListT]): None =>
+    GQueueP.push_tail_link(this.ptr, link')

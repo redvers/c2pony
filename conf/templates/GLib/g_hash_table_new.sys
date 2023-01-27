@@ -1,0 +1,2 @@
+  fun new(hash_func': GHashFunc, key_equal_func': GEqualFunc): NullablePointer[GHashTableT] =>
+    @g_hash_table_new(hash_func', key_equal_func')

@@ -1,0 +1,2 @@
+  fun ref(bytes': NullablePointer[GBytesT]): NullablePointer[GBytesT] =>
+    @g_bytes_ref(bytes')

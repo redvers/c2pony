@@ -1,0 +1,2 @@
+  fun insert_before(list': NullablePointer[GListT], sibling': NullablePointer[GListT], data': Pointer[None] tag): NullablePointer[GListT] =>
+    @g_list_insert_before(list', sibling', data')

@@ -1,0 +1,1 @@
+use @g_signal_handlers_destroy[None](instance': Pointer[None] tag)

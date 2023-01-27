@@ -1,0 +1,1 @@
+use @g_io_add_watch[U32](channel': NullablePointer[GIOChannelT], condition': U32, func': GIOFunc, user_data': Pointer[None] tag)

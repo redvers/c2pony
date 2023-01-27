@@ -1,0 +1,2 @@
+  fun ref insert_value(key': String, value': NullablePointer[GVariantT]): None =>
+    GVariantDictP.insert_value(this.ptr, key', value')

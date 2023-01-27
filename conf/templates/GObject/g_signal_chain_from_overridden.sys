@@ -1,0 +1,2 @@
+  fun signal_chain_from_overridden(instance_and_params': NullablePointer[GValueT], return_value': NullablePointer[GValueT]): None =>
+    @g_signal_chain_from_overridden(instance_and_params', return_value')

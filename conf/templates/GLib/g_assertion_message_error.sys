@@ -1,0 +1,2 @@
+  fun assertion_message_error(domain': String, file': String, line': I32, func': String, expr': String, error': NullablePointer[GErrorT], error_domain': U32, error_code': I32): None =>
+    @g_assertion_message_error(domain'.cstring(), file'.cstring(), line', func'.cstring(), expr'.cstring(), error', error_domain', error_code')

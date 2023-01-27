@@ -1,0 +1,2 @@
+  fun lookup(pool': NullablePointer[GParamSpecPoolT], param_name': String, owner_type': U64, walk_ancestors': I32): NullablePointer[GParamSpecT] =>
+    @g_param_spec_pool_lookup(pool', param_name'.cstring(), owner_type', walk_ancestors')

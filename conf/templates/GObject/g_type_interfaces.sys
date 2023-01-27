@@ -1,0 +1,2 @@
+  fun type_interfaces(type': U64, n_interfaces': Pointer[U32] tag): Pointer[U64] tag =>
+    @g_type_interfaces(type', n_interfaces')

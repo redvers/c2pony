@@ -1,0 +1,2 @@
+  fun ref child_position(child': NullablePointer[GNodeT]): I32 =>
+    GNodeP.child_position(this.ptr, child')

@@ -1,0 +1,2 @@
+  fun free(file': NullablePointer[GMappedFileT]): None =>
+    @g_mapped_file_free(file')

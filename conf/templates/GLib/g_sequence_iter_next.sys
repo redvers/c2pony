@@ -1,0 +1,2 @@
+  fun next(iter': NullablePointer[GSequenceNodeT]): NullablePointer[GSequenceNodeT] =>
+    @g_sequence_iter_next(iter')

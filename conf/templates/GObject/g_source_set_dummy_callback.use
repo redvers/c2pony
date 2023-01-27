@@ -1,0 +1,1 @@
+use @g_source_set_dummy_callback[None](source': NullablePointer[GSourceT])

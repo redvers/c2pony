@@ -1,0 +1,2 @@
+  fun ref lookup(param_name': String, owner_type': U64, walk_ancestors': I32): NullablePointer[GParamSpecT] =>
+    GParamSpecPoolP.lookup(this.ptr, param_name', owner_type', walk_ancestors')

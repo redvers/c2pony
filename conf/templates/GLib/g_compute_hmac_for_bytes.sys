@@ -1,0 +1,2 @@
+  fun compute_hmac_for_bytes(digest_type': U32, key': NullablePointer[GBytesT], data': NullablePointer[GBytesT]): String iso^ =>
+    String.from_cstring(@g_compute_hmac_for_bytes(digest_type', key', data')).clone()

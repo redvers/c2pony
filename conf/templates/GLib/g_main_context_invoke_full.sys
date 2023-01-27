@@ -1,0 +1,2 @@
+  fun invoke_full(context': NullablePointer[GMainContextT], priority': I32, function': GSourceFunc, data': Pointer[None] tag, notify': Pointer[None]): None =>
+    @g_main_context_invoke_full(context', priority', function', data', notify')

@@ -1,0 +1,2 @@
+  fun ref_unlocked(queue': NullablePointer[GAsyncQueueT]): None =>
+    @g_async_queue_ref_unlocked(queue')

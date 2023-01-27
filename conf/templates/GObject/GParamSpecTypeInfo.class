@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "lib:gobject-2.0"
+
+class GParamSpecTypeInfo
+  var ptr: NullablePointer[GParamSpecTypeInfoT]
+
+  new create() =>
+    ptr = NullablePointer[GParamSpecTypeInfoT].none()
+  new create_from_ptr(ptr': NullablePointer[GParamSpecTypeInfoT]) => ptr = ptr'

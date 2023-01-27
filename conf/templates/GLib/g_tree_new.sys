@@ -1,0 +1,2 @@
+  fun new(key_compare_func': GCompareFunc): NullablePointer[GTreeT] =>
+    @g_tree_new(key_compare_func')

@@ -1,0 +1,2 @@
+  fun push_nth(queue': NullablePointer[GQueueT], data': Pointer[None] tag, n': I32): None =>
+    @g_queue_push_nth(queue', data', n')

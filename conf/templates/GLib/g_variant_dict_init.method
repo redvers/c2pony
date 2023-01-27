@@ -1,0 +1,2 @@
+  fun ref init(from_asv': NullablePointer[GVariantT]): None =>
+    GVariantDictP.init(this.ptr, from_asv')

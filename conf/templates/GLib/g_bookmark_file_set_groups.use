@@ -1,0 +1,1 @@
+use @g_bookmark_file_set_groups[None](bookmark': NullablePointer[GBookmarkFileT], uri': Pointer[U8] tag, groups': Pointer[Pointer[U8]] tag, length': U64)

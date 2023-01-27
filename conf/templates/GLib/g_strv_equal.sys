@@ -1,0 +1,2 @@
+  fun strv_equal(strv1': Pointer[Pointer[U8]] tag, strv2': Pointer[Pointer[U8]] tag): I32 =>
+    @g_strv_equal(strv1', strv2')

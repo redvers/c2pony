@@ -1,0 +1,2 @@
+  fun is_empty(queue': NullablePointer[GQueueT]): I32 =>
+    @g_queue_is_empty(queue')

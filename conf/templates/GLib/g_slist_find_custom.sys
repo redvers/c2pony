@@ -1,0 +1,2 @@
+  fun find_custom(list': NullablePointer[GSListT], data': Pointer[None] tag, func': GCompareFunc): NullablePointer[GSListT] =>
+    @g_slist_find_custom(list', data', func')

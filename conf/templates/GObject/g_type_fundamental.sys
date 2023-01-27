@@ -1,0 +1,2 @@
+  fun type_fundamental(type_id': U64): U64 =>
+    @g_type_fundamental(type_id')

@@ -1,0 +1,1 @@
+use @g_hook_compare_ids[I32](new_hook': NullablePointer[GHookT], sibling': NullablePointer[GHookT])

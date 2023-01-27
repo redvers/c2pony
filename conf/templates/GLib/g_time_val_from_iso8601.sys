@@ -1,0 +1,2 @@
+  fun from_iso8601(iso_date': String, time': NullablePointer[GTimeValT]): I32 =>
+    @g_time_val_from_iso8601(iso_date'.cstring(), time')

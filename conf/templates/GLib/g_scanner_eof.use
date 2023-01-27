@@ -1,0 +1,1 @@
+use @g_scanner_eof[I32](scanner': NullablePointer[GScannerT])

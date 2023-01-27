@@ -1,0 +1,2 @@
+  fun get_description(context': NullablePointer[GOptionContextT]): String iso^ =>
+    String.from_cstring(@g_option_context_get_description(context')).clone()

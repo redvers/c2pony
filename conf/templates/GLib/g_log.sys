@@ -1,0 +1,2 @@
+  fun log(log_domain': String, log_level': I32, format': String, ...): None =>
+    @g_log(log_domain'.cstring(), log_level', format'.cstring(), ...)

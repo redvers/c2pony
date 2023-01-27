@@ -1,0 +1,2 @@
+  fun marshal_VOID__INT(closure': NullablePointer[GClosureT], return_value': NullablePointer[GValueT], n_param_values': U32, param_values': NullablePointer[GValueT], invocation_hint': Pointer[None] tag, marshal_data': Pointer[None] tag): None =>
+    @g_cclosure_marshal_VOID__INT(closure', return_value', n_param_values', param_values', invocation_hint', marshal_data')

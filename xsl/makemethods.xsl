@@ -107,7 +107,7 @@
     <xsl:param name="arg"/>
     <xsl:choose>
       <xsl:when test="position() = 1">
-        <xsl:text>this</xsl:text>
+        <xsl:text>this.ptr</xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:if test="position() &gt; 1">

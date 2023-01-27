@@ -1,0 +1,2 @@
+  new new(parser': NullablePointer[GMarkupParserT], flags': U32, user_data': Pointer[None] tag, user_data_dnotify': Pointer[None]) =>
+    ptr = @g_markup_parse_context_new(parser', flags', user_data', user_data_dnotify')

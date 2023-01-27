@@ -1,0 +1,2 @@
+  fun load_from_file(key_file': NullablePointer[GKeyFileT], file': String, flags': U32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_key_file_load_from_file(key_file', file'.cstring(), flags', error')

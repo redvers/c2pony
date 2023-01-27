@@ -1,0 +1,2 @@
+  fun append_c(string': NullablePointer[GStringT], c': U8): NullablePointer[GStringT] =>
+    @g_string_append_c(string', c')

@@ -1,0 +1,2 @@
+  fun getenv(variable': String): String iso^ =>
+    String.from_cstring(@g_getenv(variable'.cstring())).clone()

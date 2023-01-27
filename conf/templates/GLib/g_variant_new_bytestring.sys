@@ -1,0 +1,2 @@
+  new new_bytestring(string': String) =>
+    ptr = @g_variant_new_bytestring(string'.cstring())

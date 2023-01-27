@@ -1,0 +1,2 @@
+  fun param_values_cmp(pspec': NullablePointer[GParamSpecT], value1': NullablePointer[GValueT], value2': NullablePointer[GValueT]): I32 =>
+    @g_param_values_cmp(pspec', value1', value2')

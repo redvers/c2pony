@@ -1,0 +1,2 @@
+  fun dup_variant(value': NullablePointer[GValueT]): NullablePointer[GVariantT] =>
+    @g_value_dup_variant(value')

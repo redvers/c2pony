@@ -1,0 +1,2 @@
+  fun free(group': NullablePointer[GOptionGroupT]): None =>
+    @g_option_group_free(group')

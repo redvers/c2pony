@@ -1,0 +1,2 @@
+  fun get_start_group(key_file': NullablePointer[GKeyFileT]): String iso^ =>
+    String.from_cstring(@g_key_file_get_start_group(key_file')).clone()

@@ -1,0 +1,2 @@
+  new new_signature(signature': String) =>
+    ptr = @g_variant_new_signature(signature'.cstring())

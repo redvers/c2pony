@@ -1,0 +1,2 @@
+  fun type_remove_interface_check(check_data': Pointer[None] tag, check_func': GTypeInterfaceCheckFunc): None =>
+    @g_type_remove_interface_check(check_data', check_func')

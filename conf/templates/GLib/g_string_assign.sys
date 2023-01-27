@@ -1,0 +1,2 @@
+  fun assign(string': NullablePointer[GStringT], rval': String): NullablePointer[GStringT] =>
+    @g_string_assign(string', rval'.cstring())

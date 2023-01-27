@@ -1,0 +1,2 @@
+  fun ref get_application_info(uri': String, name': String, exec': Pointer[Pointer[U8]] tag, count': Pointer[U32] tag, stamp': Pointer[NullablePointer[GDateTimeT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GBookmarkFileP.get_application_info(this.ptr, uri', name', exec', count', stamp', error')

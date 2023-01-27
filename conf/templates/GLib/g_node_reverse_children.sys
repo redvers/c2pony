@@ -1,0 +1,2 @@
+  fun reverse_children(node': NullablePointer[GNodeT]): None =>
+    @g_node_reverse_children(node')

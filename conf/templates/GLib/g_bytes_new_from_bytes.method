@@ -1,0 +1,2 @@
+  fun ref new_from_bytes(offset': U64, length': U64): NullablePointer[GBytesT] =>
+    GBytesP.new_from_bytes(this.ptr, offset', length')

@@ -1,0 +1,2 @@
+  fun ref scope_lookup_symbol(scope_id': U32, symbol': String): Pointer[None] tag =>
+    GScannerP.scope_lookup_symbol(this.ptr, scope_id', symbol')

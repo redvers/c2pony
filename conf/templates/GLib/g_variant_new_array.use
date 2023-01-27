@@ -1,0 +1,1 @@
+use @g_variant_new_array[NullablePointer[GVariantT]](child_type': NullablePointer[GVariantTypeT], children': Pointer[NullablePointer[GVariantT]], n_children': U64)

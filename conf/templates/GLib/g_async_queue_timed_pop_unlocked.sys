@@ -1,0 +1,2 @@
+  fun timed_pop_unlocked(queue': NullablePointer[GAsyncQueueT], end_time': NullablePointer[GTimeValT]): Pointer[None] tag =>
+    @g_async_queue_timed_pop_unlocked(queue', end_time')

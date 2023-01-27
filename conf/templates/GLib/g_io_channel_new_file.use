@@ -1,0 +1,1 @@
+use @g_io_channel_new_file[NullablePointer[GIOChannelT]](filename': Pointer[U8] tag, mode': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

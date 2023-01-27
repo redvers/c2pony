@@ -1,0 +1,2 @@
+  fun insert_before(queue': NullablePointer[GQueueT], sibling': NullablePointer[GListT], data': Pointer[None] tag): None =>
+    @g_queue_insert_before(queue', sibling', data')

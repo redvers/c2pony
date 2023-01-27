@@ -1,0 +1,2 @@
+  fun get_length(file': NullablePointer[GMappedFileT]): U64 =>
+    @g_mapped_file_get_length(file')

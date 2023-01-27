@@ -1,0 +1,2 @@
+  fun number_parser_error_quark(): U32 =>
+    @g_number_parser_error_quark()

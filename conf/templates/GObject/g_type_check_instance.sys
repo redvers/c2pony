@@ -1,0 +1,2 @@
+  fun type_check_instance(instance': NullablePointer[GTypeInstanceT]): I32 =>
+    @g_type_check_instance(instance')

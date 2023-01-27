@@ -1,0 +1,2 @@
+  new new(filename': String, writable': I32, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_mapped_file_new(filename'.cstring(), writable', error')

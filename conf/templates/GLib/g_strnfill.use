@@ -1,0 +1,1 @@
+use @g_strnfill[Pointer[U8]](length': U64, fill_char': U8)

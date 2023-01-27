@@ -1,0 +1,2 @@
+  fun ref append(val': String): NullablePointer[GStringT] =>
+    GStringP.append(this.ptr, val')

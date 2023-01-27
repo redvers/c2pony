@@ -1,0 +1,2 @@
+  fun spawn_check_exit_status(wait_status': I32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_spawn_check_exit_status(wait_status', error')

@@ -1,0 +1,2 @@
+  fun ref pop_head(): Pointer[None] tag =>
+    GQueueP.pop_head(this.ptr)

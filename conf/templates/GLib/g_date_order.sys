@@ -1,0 +1,2 @@
+  fun order(date1': NullablePointer[GDateT], date2': NullablePointer[GDateT]): None =>
+    @g_date_order(date1', date2')

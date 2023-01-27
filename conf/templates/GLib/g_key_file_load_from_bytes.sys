@@ -1,0 +1,2 @@
+  fun load_from_bytes(key_file': NullablePointer[GKeyFileT], bytes': NullablePointer[GBytesT], flags': U32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_key_file_load_from_bytes(key_file', bytes', flags', error')

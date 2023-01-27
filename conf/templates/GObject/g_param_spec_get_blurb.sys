@@ -1,0 +1,2 @@
+  fun get_blurb(pspec': NullablePointer[GParamSpecT]): String iso^ =>
+    String.from_cstring(@g_param_spec_get_blurb(pspec')).clone()

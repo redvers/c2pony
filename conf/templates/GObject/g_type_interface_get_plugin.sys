@@ -1,0 +1,2 @@
+  fun get_plugin(instance_type': U64, interface_type': U64): NullablePointer[GTypePluginT] =>
+    @g_type_interface_get_plugin(instance_type', interface_type')

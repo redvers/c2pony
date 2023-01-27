@@ -1,0 +1,1 @@
+use @g_hook_next_valid[NullablePointer[GHookT]](hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT], may_be_in_call': I32)

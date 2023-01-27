@@ -1,0 +1,2 @@
+  fun get_int32(value': NullablePointer[GVariantT]): I32 =>
+    @g_variant_get_int32(value')

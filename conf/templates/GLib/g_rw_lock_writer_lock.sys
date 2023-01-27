@@ -1,0 +1,2 @@
+  fun writer_lock(rw_lock': NullablePointer[GRWLockT]): None =>
+    @g_rw_lock_writer_lock(rw_lock')

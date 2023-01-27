@@ -1,0 +1,1 @@
+use @g_slist_delete_link[NullablePointer[GSListT]](list': NullablePointer[GSListT], link': NullablePointer[GSListT])

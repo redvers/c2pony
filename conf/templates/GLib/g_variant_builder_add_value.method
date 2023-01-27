@@ -1,0 +1,2 @@
+  fun ref add_value(value': NullablePointer[GVariantT]): None =>
+    GVariantBuilderP.add_value(this.ptr, value')

@@ -1,0 +1,2 @@
+  fun ref remove_toggle_ref(notify': GToggleNotify, data': Pointer[None] tag): None =>
+    GObjectP.remove_toggle_ref(this.ptr, notify', data')

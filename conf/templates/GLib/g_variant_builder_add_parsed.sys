@@ -1,0 +1,2 @@
+  fun add_parsed(builder': NullablePointer[GVariantBuilderT], format': String, ...): None =>
+    @g_variant_builder_add_parsed(builder', format'.cstring(), ...)

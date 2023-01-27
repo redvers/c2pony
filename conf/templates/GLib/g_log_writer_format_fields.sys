@@ -1,0 +1,2 @@
+  fun log_writer_format_fields(log_level': I32, fields': NullablePointer[GLogFieldT], n_fields': U64, use_color': I32): String iso^ =>
+    String.from_cstring(@g_log_writer_format_fields(log_level', fields', n_fields', use_color')).clone()

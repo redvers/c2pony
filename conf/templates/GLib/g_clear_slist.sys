@@ -1,0 +1,2 @@
+  fun clear_slist(slist_ptr': Pointer[NullablePointer[GSListT]], destroy': Pointer[None]): None =>
+    @g_clear_slist(slist_ptr', destroy')

@@ -1,0 +1,1 @@
+use @g_hook_destroy_link[None](hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT])

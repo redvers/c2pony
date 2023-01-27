@@ -1,0 +1,2 @@
+  fun clear(chunk': NullablePointer[GStringChunkT]): None =>
+    @g_string_chunk_clear(chunk')

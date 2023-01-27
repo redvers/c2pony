@@ -1,0 +1,2 @@
+  fun convert_with_iconv(str': String, len': I64, converter': NullablePointer[GIConvT], bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_convert_with_iconv(str'.cstring(), len', converter', bytes_read', bytes_written', error')).clone()

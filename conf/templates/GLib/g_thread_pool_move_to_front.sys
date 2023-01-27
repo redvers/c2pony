@@ -1,0 +1,2 @@
+  fun move_to_front(pool': NullablePointer[GThreadPoolT], data': Pointer[None] tag): I32 =>
+    @g_thread_pool_move_to_front(pool', data')

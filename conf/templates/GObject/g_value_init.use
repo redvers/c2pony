@@ -1,0 +1,1 @@
+use @g_value_init[NullablePointer[GValueT]](value': NullablePointer[GValueT], g_type': U64)

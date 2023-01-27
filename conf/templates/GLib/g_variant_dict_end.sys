@@ -1,0 +1,2 @@
+  fun end(dict': NullablePointer[GVariantDictT]): NullablePointer[GVariantT] =>
+    @g_variant_dict_end(dict')

@@ -1,0 +1,2 @@
+  fun ref_sink(value': NullablePointer[GVariantT]): NullablePointer[GVariantT] =>
+    @g_variant_ref_sink(value')

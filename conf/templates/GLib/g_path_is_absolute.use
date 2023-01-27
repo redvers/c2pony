@@ -1,0 +1,1 @@
+use @g_path_is_absolute[I32](file_name': Pointer[U8] tag)
