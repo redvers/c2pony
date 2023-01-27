@@ -1,0 +1,2 @@
+  fun set_action_group(application': GApplicationI, action_group': NullablePointer[GActionGroupT]): None =>
+    @g_application_set_action_group(application'.getptr(), action_group')

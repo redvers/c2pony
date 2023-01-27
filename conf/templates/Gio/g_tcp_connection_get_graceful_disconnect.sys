@@ -1,0 +1,2 @@
+  fun get_graceful_disconnect(connection': NullablePointer[GTcpConnectionT]): I32 =>
+    @g_tcp_connection_get_graceful_disconnect(connection')

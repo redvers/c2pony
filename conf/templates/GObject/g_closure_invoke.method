@@ -1,2 +1,2 @@
   fun ref invoke(return_value': NullablePointer[GValueT], n_param_values': U32, param_values': NullablePointer[GValueT], invocation_hint': Pointer[None] tag): None =>
-    GClosureP.invoke(this.ptr, return_value', n_param_values', param_values', invocation_hint')
+    GClosureP.invoke(ptr, return_value', n_param_values', param_values', invocation_hint')

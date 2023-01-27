@@ -1,0 +1,2 @@
+  fun in_range(iter': NullablePointer[GtkTextIterT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_in_range(iter', start', end')

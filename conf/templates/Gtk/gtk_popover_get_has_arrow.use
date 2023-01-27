@@ -1,0 +1,1 @@
+use @gtk_popover_get_has_arrow[I32](popover': NullablePointer[GtkPopoverT])

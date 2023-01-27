@@ -1,0 +1,1 @@
+use @gtk_video_get_media_stream[NullablePointer[GtkMediaStreamT]](self': NullablePointer[GtkVideoT])

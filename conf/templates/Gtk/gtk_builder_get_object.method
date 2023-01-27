@@ -1,0 +1,2 @@
+  fun ref get_object(name': String): NullablePointer[GObjectT] =>
+    GtkBuilderP.get_object(this, name')

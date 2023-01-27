@@ -1,0 +1,2 @@
+  fun connect_finish(client': NullablePointer[GSocketClientT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
+    @g_socket_client_connect_finish(client', result', error')

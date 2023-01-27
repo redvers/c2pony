@@ -1,0 +1,2 @@
+  fun ref take_error(error': NullablePointer[GErrorT]): None =>
+    GDBusMethodInvocationP.take_error(this, error')

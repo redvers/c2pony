@@ -1,0 +1,2 @@
+  new new_empty() =>
+    ptr = @gtk_bitset_new_empty()

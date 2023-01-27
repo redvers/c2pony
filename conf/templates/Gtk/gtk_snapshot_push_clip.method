@@ -1,0 +1,2 @@
+  fun ref push_clip(bounds': NullablePointer[graphenerecttT]): None =>
+    P.push_clip(this, bounds')

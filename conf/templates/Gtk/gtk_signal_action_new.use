@@ -1,0 +1,1 @@
+use @gtk_signal_action_new[NullablePointer[GtkShortcutActionT]](signal_name': Pointer[U8] tag)

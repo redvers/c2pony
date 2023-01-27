@@ -1,0 +1,2 @@
+  fun unset_rows_drag_dest(tree_view': NullablePointer[GtkTreeViewT]): None =>
+    @gtk_tree_view_unset_rows_drag_dest(tree_view')

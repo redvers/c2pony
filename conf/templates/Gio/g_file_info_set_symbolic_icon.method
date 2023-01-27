@@ -1,0 +1,2 @@
+  fun ref set_symbolic_icon(icon': NullablePointer[GIconT]): None =>
+    GFileInfoP.set_symbolic_icon(this, icon')

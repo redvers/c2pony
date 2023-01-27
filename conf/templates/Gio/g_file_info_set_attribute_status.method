@@ -1,0 +1,2 @@
+  fun ref set_attribute_status(attribute': String, status': U32): I32 =>
+    GFileInfoP.set_attribute_status(this, attribute', status')

@@ -1,0 +1,2 @@
+  fun get_uri_display(info': NullablePointer[GtkRecentInfoT]): String iso^ =>
+    String.from_cstring(@gtk_recent_info_get_uri_display(info')).clone()

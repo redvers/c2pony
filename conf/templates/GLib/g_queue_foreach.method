@@ -1,2 +1,2 @@
   fun ref foreach(func': GFunc, user_data': Pointer[None] tag): None =>
-    GQueueP.foreach(this.ptr, func', user_data')
+    GQueueP.foreach(ptr, func', user_data')

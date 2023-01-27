@@ -1,0 +1,2 @@
+  fun get_has_origin(scale': NullablePointer[GtkScaleT]): I32 =>
+    @gtk_scale_get_has_origin(scale')

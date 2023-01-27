@@ -1,0 +1,2 @@
+  fun ref take_stdin_fd(fd': I32): None =>
+    GSubprocessLauncherP.take_stdin_fd(this, fd')

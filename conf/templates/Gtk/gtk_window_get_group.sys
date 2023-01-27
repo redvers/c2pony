@@ -1,0 +1,2 @@
+  fun get_group(window': GtkWindowI): NullablePointer[GtkWindowGroupT] =>
+    @gtk_window_get_group(window'.getptr())

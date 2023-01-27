@@ -1,0 +1,2 @@
+  fun get_widget(self': NullablePointer[GtkWidgetPaintableT]): NullablePointer[GObjectT] =>
+@gtk_widget_paintable_get_widget(self')

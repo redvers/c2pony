@@ -1,2 +1,2 @@
   fun ref transform(dest_value': NullablePointer[GValueT]): I32 =>
-    GValueP.transform(this.ptr, dest_value')
+    GValueP.transform(ptr, dest_value')

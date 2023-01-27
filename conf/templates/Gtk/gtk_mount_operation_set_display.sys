@@ -1,0 +1,2 @@
+  fun set_display(op': NullablePointer[GtkMountOperationT], display': NullablePointer[GdkDisplayT]): None =>
+    @gtk_mount_operation_set_display(op', display')

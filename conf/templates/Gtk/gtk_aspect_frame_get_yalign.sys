@@ -1,0 +1,2 @@
+  fun get_yalign(self': NullablePointer[GtkAspectFrameT]): F32 =>
+    @gtk_aspect_frame_get_yalign(self')

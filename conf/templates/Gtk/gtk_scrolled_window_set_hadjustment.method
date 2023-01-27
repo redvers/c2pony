@@ -1,0 +1,2 @@
+  fun ref set_hadjustment(hadjustment': NullablePointer[GtkAdjustmentT]): None =>
+    GtkScrolledWindowP.set_hadjustment(this, hadjustment')

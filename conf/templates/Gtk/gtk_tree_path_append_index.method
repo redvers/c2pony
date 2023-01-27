@@ -1,0 +1,2 @@
+  fun ref append_index(index': I32): None =>
+    GtkTreePathP.append_index(ptr, index')

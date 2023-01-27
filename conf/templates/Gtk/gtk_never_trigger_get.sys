@@ -1,0 +1,2 @@
+  fun get(): NullablePointer[GtkShortcutTriggerT] =>
+    @gtk_never_trigger_get()

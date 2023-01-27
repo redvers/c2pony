@@ -1,0 +1,2 @@
+  fun get_port(target': NullablePointer[GSrvTargetT]): U16 =>
+    @g_srv_target_get_port(target')

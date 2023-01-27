@@ -1,0 +1,1 @@
+use @g_dbus_method_invocation_return_error_valist[None](invocation': NullablePointer[GDBusMethodInvocationT], domain': U32, code': I32, format': Pointer[U8] tag, var_args': NullablePointer[valisttagT])

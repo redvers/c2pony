@@ -1,0 +1,2 @@
+  fun ref value_from_string(pspec': NullablePointer[GParamSpecT], string': String, value': NullablePointer[GValueT], error': GError): I32 =>
+    GtkBuilderP.value_from_string(this, pspec', string', value', error')

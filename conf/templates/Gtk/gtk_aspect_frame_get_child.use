@@ -1,0 +1,1 @@
+use @gtk_aspect_frame_get_child[NullablePointer[GObjectT]](self': NullablePointer[GtkAspectFrameT])

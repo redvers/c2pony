@@ -1,0 +1,2 @@
+  fun ref get_row_baseline_position(row': I32): U32 =>
+    GtkGridP.get_row_baseline_position(this, row')

@@ -1,0 +1,2 @@
+  fun ref remove_shortcut(shortcut': NullablePointer[GtkShortcutT]): None =>
+    GtkShortcutControllerP.remove_shortcut(this, shortcut')

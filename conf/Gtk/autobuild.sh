@@ -1146,14 +1146,6 @@ echo > ../test/Gtk/GtkMnemonicTriggerT.pony
 cat ../templates/Gtk/GtkMnemonicTriggerT.struct >> ../test/Gtk/GtkMnemonicTriggerT.pony
 echo > ../test/Gtk/GtkMnemonicTriggerP.pony
 cat ../templates/Gtk/GtkMnemonicTriggerP.primitive >> ../test/Gtk/GtkMnemonicTriggerP.pony
-echo > ../test/Gtk/GtkMountOperation.pony
-cat ../templates/Gtk/GtkMountOperation.class >> ../test/Gtk/GtkMountOperation.pony
-echo > ../test/Gtk/GtkMountOperationI.pony
-cat ../templates/Gtk/GtkMountOperationI.classinterface >> ../test/Gtk/GtkMountOperationI.pony
-echo > ../test/Gtk/GtkMountOperationT.pony
-cat ../templates/Gtk/GtkMountOperationT.struct >> ../test/Gtk/GtkMountOperationT.pony
-echo > ../test/Gtk/GtkMountOperationP.pony
-cat ../templates/Gtk/GtkMountOperationP.primitive >> ../test/Gtk/GtkMountOperationP.pony
 echo > ../test/Gtk/GtkMultiFilter.pony
 cat ../templates/Gtk/GtkMultiFilter.class >> ../test/Gtk/GtkMultiFilter.pony
 echo > ../test/Gtk/GtkMultiFilterI.pony
@@ -1282,14 +1274,6 @@ echo > ../test/Gtk/GtkPageSetupT.pony
 cat ../templates/Gtk/GtkPageSetupT.struct >> ../test/Gtk/GtkPageSetupT.pony
 echo > ../test/Gtk/GtkPageSetupP.pony
 cat ../templates/Gtk/GtkPageSetupP.primitive >> ../test/Gtk/GtkPageSetupP.pony
-echo > ../test/Gtk/GtkPageSetupUnixDialog.pony
-cat ../templates/Gtk/GtkPageSetupUnixDialog.class >> ../test/Gtk/GtkPageSetupUnixDialog.pony
-echo > ../test/Gtk/GtkPageSetupUnixDialogI.pony
-cat ../templates/Gtk/GtkPageSetupUnixDialogI.classinterface >> ../test/Gtk/GtkPageSetupUnixDialogI.pony
-echo > ../test/Gtk/GtkPageSetupUnixDialogT.pony
-cat ../templates/Gtk/GtkPageSetupUnixDialogT.struct >> ../test/Gtk/GtkPageSetupUnixDialogT.pony
-echo > ../test/Gtk/GtkPageSetupUnixDialogP.pony
-cat ../templates/Gtk/GtkPageSetupUnixDialogP.primitive >> ../test/Gtk/GtkPageSetupUnixDialogP.pony
 echo > ../test/Gtk/GtkPaned.pony
 cat ../templates/Gtk/GtkPaned.class >> ../test/Gtk/GtkPaned.pony
 echo > ../test/Gtk/GtkPanedI.pony
@@ -1354,14 +1338,6 @@ echo > ../test/Gtk/GtkPrintContextT.pony
 cat ../templates/Gtk/GtkPrintContextT.struct >> ../test/Gtk/GtkPrintContextT.pony
 echo > ../test/Gtk/GtkPrintContextP.pony
 cat ../templates/Gtk/GtkPrintContextP.primitive >> ../test/Gtk/GtkPrintContextP.pony
-echo > ../test/Gtk/GtkPrintJob.pony
-cat ../templates/Gtk/GtkPrintJob.class >> ../test/Gtk/GtkPrintJob.pony
-echo > ../test/Gtk/GtkPrintJobI.pony
-cat ../templates/Gtk/GtkPrintJobI.classinterface >> ../test/Gtk/GtkPrintJobI.pony
-echo > ../test/Gtk/GtkPrintJobT.pony
-cat ../templates/Gtk/GtkPrintJobT.struct >> ../test/Gtk/GtkPrintJobT.pony
-echo > ../test/Gtk/GtkPrintJobP.pony
-cat ../templates/Gtk/GtkPrintJobP.primitive >> ../test/Gtk/GtkPrintJobP.pony
 echo > ../test/Gtk/GtkPrintOperation.pony
 cat ../templates/Gtk/GtkPrintOperation.class >> ../test/Gtk/GtkPrintOperation.pony
 echo > ../test/Gtk/GtkPrintOperationI.pony
@@ -1378,22 +1354,6 @@ echo > ../test/Gtk/GtkPrintSettingsT.pony
 cat ../templates/Gtk/GtkPrintSettingsT.struct >> ../test/Gtk/GtkPrintSettingsT.pony
 echo > ../test/Gtk/GtkPrintSettingsP.pony
 cat ../templates/Gtk/GtkPrintSettingsP.primitive >> ../test/Gtk/GtkPrintSettingsP.pony
-echo > ../test/Gtk/GtkPrintUnixDialog.pony
-cat ../templates/Gtk/GtkPrintUnixDialog.class >> ../test/Gtk/GtkPrintUnixDialog.pony
-echo > ../test/Gtk/GtkPrintUnixDialogI.pony
-cat ../templates/Gtk/GtkPrintUnixDialogI.classinterface >> ../test/Gtk/GtkPrintUnixDialogI.pony
-echo > ../test/Gtk/GtkPrintUnixDialogT.pony
-cat ../templates/Gtk/GtkPrintUnixDialogT.struct >> ../test/Gtk/GtkPrintUnixDialogT.pony
-echo > ../test/Gtk/GtkPrintUnixDialogP.pony
-cat ../templates/Gtk/GtkPrintUnixDialogP.primitive >> ../test/Gtk/GtkPrintUnixDialogP.pony
-echo > ../test/Gtk/GtkPrinter.pony
-cat ../templates/Gtk/GtkPrinter.class >> ../test/Gtk/GtkPrinter.pony
-echo > ../test/Gtk/GtkPrinterI.pony
-cat ../templates/Gtk/GtkPrinterI.classinterface >> ../test/Gtk/GtkPrinterI.pony
-echo > ../test/Gtk/GtkPrinterT.pony
-cat ../templates/Gtk/GtkPrinterT.struct >> ../test/Gtk/GtkPrinterT.pony
-echo > ../test/Gtk/GtkPrinterP.pony
-cat ../templates/Gtk/GtkPrinterP.primitive >> ../test/Gtk/GtkPrinterP.pony
 echo > ../test/Gtk/GtkProgressBar.pony
 cat ../templates/Gtk/GtkProgressBar.class >> ../test/Gtk/GtkProgressBar.pony
 echo > ../test/Gtk/GtkProgressBarI.pony
@@ -2037,3 +1997,87 @@ echo > ../test/Gtk/GtkWindowHandleT.pony
 cat ../templates/Gtk/GtkWindowHandleT.struct >> ../test/Gtk/GtkWindowHandleT.pony
 echo > ../test/Gtk/GtkWindowHandleP.pony
 cat ../templates/Gtk/GtkWindowHandleP.primitive >> ../test/Gtk/GtkWindowHandleP.pony
+echo > ../test/Gtk/GtkCellRendererPrivate.pony
+cat ../templates/Gtk/GtkCellRendererPrivate.class >> ../test/Gtk/GtkCellRendererPrivate.pony
+echo > ../test/Gtk/GtkCellRendererPrivateT.pony
+cat ../templates/Gtk/GtkCellRendererPrivateT.struct >> ../test/Gtk/GtkCellRendererPrivateT.pony
+echo > ../test/Gtk/GtkCellRendererPrivateP.pony
+cat ../templates/Gtk/GtkCellRendererPrivateP.primitive >> ../test/Gtk/GtkCellRendererPrivateP.pony
+echo > ../test/Gtk/GtkIMContextSimplePrivate.pony
+cat ../templates/Gtk/GtkIMContextSimplePrivate.class >> ../test/Gtk/GtkIMContextSimplePrivate.pony
+echo > ../test/Gtk/GtkIMContextSimplePrivateT.pony
+cat ../templates/Gtk/GtkIMContextSimplePrivateT.struct >> ../test/Gtk/GtkIMContextSimplePrivateT.pony
+echo > ../test/Gtk/GtkIMContextSimplePrivateP.pony
+cat ../templates/Gtk/GtkIMContextSimplePrivateP.primitive >> ../test/Gtk/GtkIMContextSimplePrivateP.pony
+echo > ../test/Gtk/GtkIMMulticontextPrivate.pony
+cat ../templates/Gtk/GtkIMMulticontextPrivate.class >> ../test/Gtk/GtkIMMulticontextPrivate.pony
+echo > ../test/Gtk/GtkIMMulticontextPrivateT.pony
+cat ../templates/Gtk/GtkIMMulticontextPrivateT.struct >> ../test/Gtk/GtkIMMulticontextPrivateT.pony
+echo > ../test/Gtk/GtkIMMulticontextPrivateP.pony
+cat ../templates/Gtk/GtkIMMulticontextPrivateP.primitive >> ../test/Gtk/GtkIMMulticontextPrivateP.pony
+echo > ../test/Gtk/GtkListStorePrivate.pony
+cat ../templates/Gtk/GtkListStorePrivate.class >> ../test/Gtk/GtkListStorePrivate.pony
+echo > ../test/Gtk/GtkListStorePrivateT.pony
+cat ../templates/Gtk/GtkListStorePrivateT.struct >> ../test/Gtk/GtkListStorePrivateT.pony
+echo > ../test/Gtk/GtkListStorePrivateP.pony
+cat ../templates/Gtk/GtkListStorePrivateP.primitive >> ../test/Gtk/GtkListStorePrivateP.pony
+echo > ../test/Gtk/GtkPrintOperationPrivate.pony
+cat ../templates/Gtk/GtkPrintOperationPrivate.class >> ../test/Gtk/GtkPrintOperationPrivate.pony
+echo > ../test/Gtk/GtkPrintOperationPrivateT.pony
+cat ../templates/Gtk/GtkPrintOperationPrivateT.struct >> ../test/Gtk/GtkPrintOperationPrivateT.pony
+echo > ../test/Gtk/GtkPrintOperationPrivateP.pony
+cat ../templates/Gtk/GtkPrintOperationPrivateP.primitive >> ../test/Gtk/GtkPrintOperationPrivateP.pony
+echo > ../test/Gtk/GtkRecentManagerPrivate.pony
+cat ../templates/Gtk/GtkRecentManagerPrivate.class >> ../test/Gtk/GtkRecentManagerPrivate.pony
+echo > ../test/Gtk/GtkRecentManagerPrivateT.pony
+cat ../templates/Gtk/GtkRecentManagerPrivateT.struct >> ../test/Gtk/GtkRecentManagerPrivateT.pony
+echo > ../test/Gtk/GtkRecentManagerPrivateP.pony
+cat ../templates/Gtk/GtkRecentManagerPrivateP.primitive >> ../test/Gtk/GtkRecentManagerPrivateP.pony
+echo > ../test/Gtk/GtkTextBufferPrivate.pony
+cat ../templates/Gtk/GtkTextBufferPrivate.class >> ../test/Gtk/GtkTextBufferPrivate.pony
+echo > ../test/Gtk/GtkTextBufferPrivateT.pony
+cat ../templates/Gtk/GtkTextBufferPrivateT.struct >> ../test/Gtk/GtkTextBufferPrivateT.pony
+echo > ../test/Gtk/GtkTextBufferPrivateP.pony
+cat ../templates/Gtk/GtkTextBufferPrivateP.primitive >> ../test/Gtk/GtkTextBufferPrivateP.pony
+echo > ../test/Gtk/GtkTextTagPrivate.pony
+cat ../templates/Gtk/GtkTextTagPrivate.class >> ../test/Gtk/GtkTextTagPrivate.pony
+echo > ../test/Gtk/GtkTextTagPrivateT.pony
+cat ../templates/Gtk/GtkTextTagPrivateT.struct >> ../test/Gtk/GtkTextTagPrivateT.pony
+echo > ../test/Gtk/GtkTextTagPrivateP.pony
+cat ../templates/Gtk/GtkTextTagPrivateP.primitive >> ../test/Gtk/GtkTextTagPrivateP.pony
+echo > ../test/Gtk/GtkTextViewPrivate.pony
+cat ../templates/Gtk/GtkTextViewPrivate.class >> ../test/Gtk/GtkTextViewPrivate.pony
+echo > ../test/Gtk/GtkTextViewPrivateT.pony
+cat ../templates/Gtk/GtkTextViewPrivateT.struct >> ../test/Gtk/GtkTextViewPrivateT.pony
+echo > ../test/Gtk/GtkTextViewPrivateP.pony
+cat ../templates/Gtk/GtkTextViewPrivateP.primitive >> ../test/Gtk/GtkTextViewPrivateP.pony
+echo > ../test/Gtk/GtkTreeModelFilterPrivate.pony
+cat ../templates/Gtk/GtkTreeModelFilterPrivate.class >> ../test/Gtk/GtkTreeModelFilterPrivate.pony
+echo > ../test/Gtk/GtkTreeModelFilterPrivateT.pony
+cat ../templates/Gtk/GtkTreeModelFilterPrivateT.struct >> ../test/Gtk/GtkTreeModelFilterPrivateT.pony
+echo > ../test/Gtk/GtkTreeModelFilterPrivateP.pony
+cat ../templates/Gtk/GtkTreeModelFilterPrivateP.primitive >> ../test/Gtk/GtkTreeModelFilterPrivateP.pony
+echo > ../test/Gtk/GtkTreeModelSortPrivate.pony
+cat ../templates/Gtk/GtkTreeModelSortPrivate.class >> ../test/Gtk/GtkTreeModelSortPrivate.pony
+echo > ../test/Gtk/GtkTreeModelSortPrivateT.pony
+cat ../templates/Gtk/GtkTreeModelSortPrivateT.struct >> ../test/Gtk/GtkTreeModelSortPrivateT.pony
+echo > ../test/Gtk/GtkTreeModelSortPrivateP.pony
+cat ../templates/Gtk/GtkTreeModelSortPrivateP.primitive >> ../test/Gtk/GtkTreeModelSortPrivateP.pony
+echo > ../test/Gtk/GtkTreeStorePrivate.pony
+cat ../templates/Gtk/GtkTreeStorePrivate.class >> ../test/Gtk/GtkTreeStorePrivate.pony
+echo > ../test/Gtk/GtkTreeStorePrivateT.pony
+cat ../templates/Gtk/GtkTreeStorePrivateT.struct >> ../test/Gtk/GtkTreeStorePrivateT.pony
+echo > ../test/Gtk/GtkTreeStorePrivateP.pony
+cat ../templates/Gtk/GtkTreeStorePrivateP.primitive >> ../test/Gtk/GtkTreeStorePrivateP.pony
+echo > ../test/Gtk/GtkWidgetPrivate.pony
+cat ../templates/Gtk/GtkWidgetPrivate.class >> ../test/Gtk/GtkWidgetPrivate.pony
+echo > ../test/Gtk/GtkWidgetPrivateT.pony
+cat ../templates/Gtk/GtkWidgetPrivateT.struct >> ../test/Gtk/GtkWidgetPrivateT.pony
+echo > ../test/Gtk/GtkWidgetPrivateP.pony
+cat ../templates/Gtk/GtkWidgetPrivateP.primitive >> ../test/Gtk/GtkWidgetPrivateP.pony
+echo > ../test/Gtk/GtkWindowGroupPrivate.pony
+cat ../templates/Gtk/GtkWindowGroupPrivate.class >> ../test/Gtk/GtkWindowGroupPrivate.pony
+echo > ../test/Gtk/GtkWindowGroupPrivateT.pony
+cat ../templates/Gtk/GtkWindowGroupPrivateT.struct >> ../test/Gtk/GtkWindowGroupPrivateT.pony
+echo > ../test/Gtk/GtkWindowGroupPrivateP.pony
+cat ../templates/Gtk/GtkWindowGroupPrivateP.primitive >> ../test/Gtk/GtkWindowGroupPrivateP.pony

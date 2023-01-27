@@ -1,0 +1,1 @@
+use @g_dbus_proxy_call_finish[NullablePointer[GVariantT]](proxy': NullablePointer[GDBusProxyT], res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])

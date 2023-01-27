@@ -1,0 +1,2 @@
+  fun set_client_widget(context': NullablePointer[GtkIMContextT], widget': GtkWidgetI): None =>
+    @gtk_im_context_set_client_widget(context', widget'.getptr())

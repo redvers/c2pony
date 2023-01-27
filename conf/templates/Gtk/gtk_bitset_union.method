@@ -1,0 +1,2 @@
+  fun ref union(other': NullablePointer[GtkBitsetT]): None =>
+    GtkBitsetP.union(ptr, other')

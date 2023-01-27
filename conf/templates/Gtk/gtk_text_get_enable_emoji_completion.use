@@ -1,0 +1,1 @@
+use @gtk_text_get_enable_emoji_completion[I32](self': NullablePointer[GtkTextT])

@@ -1,0 +1,2 @@
+  fun set_child(self': NullablePointer[GtkFlowBoxChildT], child': GtkWidgetI): None =>
+    @gtk_flow_box_child_set_child(self', child'.getptr())

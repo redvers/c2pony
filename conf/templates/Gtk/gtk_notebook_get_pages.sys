@@ -1,0 +1,2 @@
+  fun get_pages(notebook': NullablePointer[GtkNotebookT]): NullablePointer[GListModelT] =>
+    @gtk_notebook_get_pages(notebook')

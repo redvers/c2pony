@@ -1,0 +1,1 @@
+use @gtk_shortcut_label_new[NullablePointer[GObjectT]](accelerator': Pointer[U8] tag)

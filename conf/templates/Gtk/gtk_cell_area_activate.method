@@ -1,0 +1,2 @@
+  fun ref activate(context': NullablePointer[GtkCellAreaContextT], widget': GtkWidgetI, cell_area': NullablePointer[cairorectangleintT], flags': U32, edit_only': I32): I32 =>
+    GtkCellAreaP.activate(this, context', widget', cell_area', flags', edit_only')

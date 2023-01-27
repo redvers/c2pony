@@ -1,0 +1,1 @@
+use @gtk_numeric_sorter_get_expression[NullablePointer[GtkExpressionT]](self': NullablePointer[GtkNumericSorterT])

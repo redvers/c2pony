@@ -1,0 +1,1 @@
+use @gtk_grid_view_set_max_columns[None](self': NullablePointer[GtkGridViewT], max_columns': U32)

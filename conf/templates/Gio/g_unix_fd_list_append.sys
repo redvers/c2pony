@@ -1,0 +1,2 @@
+  fun append(list': NullablePointer[GUnixFDListT], fd': I32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_unix_fd_list_append(list', fd', error')

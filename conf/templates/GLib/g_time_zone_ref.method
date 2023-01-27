@@ -1,2 +1,2 @@
   fun ref ref(): NullablePointer[GTimeZoneT] =>
-    GTimeZoneP.ref(this.ptr)
+    GTimeZoneP.ref(ptr)

@@ -1,0 +1,2 @@
+  fun ref delete_interactive(start_iter': NullablePointer[GtkTextIterT], end_iter': NullablePointer[GtkTextIterT], default_editable': I32): I32 =>
+    GtkTextBufferP.delete_interactive(this, start_iter', end_iter', default_editable')

@@ -1,0 +1,2 @@
+  fun flush_finish(connection': NullablePointer[GDBusConnectionT], res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_dbus_connection_flush_finish(connection', res', error')

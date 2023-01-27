@@ -1,0 +1,2 @@
+  fun ref get_date(): NullablePointer[GDateTimeT] =>
+    GtkCalendarP.get_date(this)

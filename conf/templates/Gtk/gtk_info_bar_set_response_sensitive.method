@@ -1,0 +1,2 @@
+  fun ref set_response_sensitive(response_id': I32, setting': I32): None =>
+    GtkInfoBarP.set_response_sensitive(this, response_id', setting')

@@ -1,0 +1,1 @@
+use @g_settings_set_strv[I32](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, value': Pointer[Pointer[U8]] tag)

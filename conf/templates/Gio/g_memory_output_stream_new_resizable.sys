@@ -1,0 +1,2 @@
+  fun new_resizable(): NullablePointer[GOutputStreamT] =>
+    @g_memory_output_stream_new_resizable()

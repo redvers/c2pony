@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GBufferedInputStreamPrivate
+  var ptr: NullablePointer[GBufferedInputStreamPrivateT]
+
+  new create() =>
+    ptr = NullablePointer[GBufferedInputStreamPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GBufferedInputStreamPrivateT]) => ptr = ptr'

@@ -1,0 +1,1 @@
+use @gtk_flow_box_set_activate_on_single_click[None](box': NullablePointer[GtkFlowBoxT], single': I32)

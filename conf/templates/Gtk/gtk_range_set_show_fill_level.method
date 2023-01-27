@@ -1,0 +1,2 @@
+  fun ref set_show_fill_level(show_fill_level': I32): None =>
+    GtkRangeP.set_show_fill_level(this, show_fill_level')

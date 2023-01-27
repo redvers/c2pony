@@ -1,0 +1,2 @@
+  fun new_from_gicon(icon': NullablePointer[GIconT]): NullablePointer[GObjectT] =>
+@gtk_image_new_from_gicon(icon')

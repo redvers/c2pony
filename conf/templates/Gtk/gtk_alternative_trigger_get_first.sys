@@ -1,0 +1,2 @@
+  fun get_first(self': NullablePointer[GtkAlternativeTriggerT]): NullablePointer[GtkShortcutTriggerT] =>
+    @gtk_alternative_trigger_get_first(self')

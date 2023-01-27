@@ -1,2 +1,2 @@
   fun ref query(max_priority': I32, timeout': Pointer[I32] tag, fds': NullablePointer[GPollFDT], n_fds': I32): I32 =>
-    GMainContextP.query(this.ptr, max_priority', timeout', fds', n_fds')
+    GMainContextP.query(ptr, max_priority', timeout', fds', n_fds')

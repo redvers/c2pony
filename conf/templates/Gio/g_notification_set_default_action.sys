@@ -1,0 +1,2 @@
+  fun set_default_action(notification': NullablePointer[GNotificationT], detailed_action': String): None =>
+    @g_notification_set_default_action(notification', detailed_action'.cstring())

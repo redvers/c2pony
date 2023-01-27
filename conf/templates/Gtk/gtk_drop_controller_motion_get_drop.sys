@@ -1,0 +1,2 @@
+  fun get_drop(self': NullablePointer[GtkDropControllerMotionT]): NullablePointer[GdkDropT] =>
+    @gtk_drop_controller_motion_get_drop(self')

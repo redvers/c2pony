@@ -1,0 +1,1 @@
+use @gtk_text_iter_set_line_index[None](iter': NullablePointer[GtkTextIterT], byte_on_line': I32)

@@ -1,0 +1,2 @@
+  fun get_port(address': NullablePointer[GInetSocketAddressT]): U16 =>
+    @g_inet_socket_address_get_port(address')

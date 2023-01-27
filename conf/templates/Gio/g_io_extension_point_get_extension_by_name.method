@@ -1,0 +1,2 @@
+  fun ref get_extension_by_name(name': String): NullablePointer[GIOExtensionT] =>
+    GIOExtensionPointP.get_extension_by_name(ptr, name')

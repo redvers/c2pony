@@ -1,0 +1,1 @@
+use @gtk_drawing_area_new[NullablePointer[GObjectT]]()

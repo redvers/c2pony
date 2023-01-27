@@ -1,0 +1,2 @@
+  fun ref get_available_bytes(): I64 =>
+    GSocketP.get_available_bytes(this)

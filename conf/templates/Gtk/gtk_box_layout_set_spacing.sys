@@ -1,0 +1,2 @@
+  fun set_spacing(box_layout': NullablePointer[GtkBoxLayoutT], spacing': U32): None =>
+    @gtk_box_layout_set_spacing(box_layout', spacing')

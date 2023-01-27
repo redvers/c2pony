@@ -1,0 +1,2 @@
+  fun remove(grid': NullablePointer[GtkGridT], child': GtkWidgetI): None =>
+    @gtk_grid_remove(grid', child'.getptr())

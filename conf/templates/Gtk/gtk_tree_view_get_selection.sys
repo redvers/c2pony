@@ -1,0 +1,2 @@
+  fun get_selection(tree_view': NullablePointer[GtkTreeViewT]): NullablePointer[GtkTreeSelectionT] =>
+    @gtk_tree_view_get_selection(tree_view')

@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GObjectT] =>
+@gtk_gl_area_new()

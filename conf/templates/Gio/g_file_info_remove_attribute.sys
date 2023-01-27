@@ -1,0 +1,2 @@
+  fun remove_attribute(info': NullablePointer[GFileInfoT], attribute': String): None =>
+    @g_file_info_remove_attribute(info', attribute'.cstring())

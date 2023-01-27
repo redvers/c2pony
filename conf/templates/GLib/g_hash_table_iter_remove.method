@@ -1,2 +1,2 @@
   fun ref remove(): None =>
-    GHashTableIterP.remove(this.ptr)
+    GHashTableIterP.remove(ptr)

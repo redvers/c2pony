@@ -1,0 +1,2 @@
+  fun ref get_sequence_state(sequence': NullablePointer[GdkEventSequenceT]): U32 =>
+    GtkGestureP.get_sequence_state(this, sequence')

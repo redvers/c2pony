@@ -1,0 +1,2 @@
+  fun set_grid_lines(tree_view': NullablePointer[GtkTreeViewT], grid_lines': U32): None =>
+    @gtk_tree_view_set_grid_lines(tree_view', grid_lines')

@@ -1,0 +1,2 @@
+  fun to_node(snapshot': NullablePointer[GdkSnapshotT]): NullablePointer[GskRenderNodeT] =>
+    @gtk_snapshot_to_node(snapshot')

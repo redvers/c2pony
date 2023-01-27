@@ -1,0 +1,1 @@
+use @gtk_shortcut_set_action[None](self': NullablePointer[GtkShortcutT], action': NullablePointer[GtkShortcutActionT])

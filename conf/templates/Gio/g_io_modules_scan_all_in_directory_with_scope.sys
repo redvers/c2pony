@@ -1,0 +1,2 @@
+  fun io_modules_scan_all_in_directory_with_scope(dirname': String, scope': NullablePointer[GIOModuleScopeT]): None =>
+    @g_io_modules_scan_all_in_directory_with_scope(dirname'.cstring(), scope')

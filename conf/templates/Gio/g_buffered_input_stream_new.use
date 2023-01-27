@@ -1,0 +1,1 @@
+use @g_buffered_input_stream_new[NullablePointer[GInputStreamT]](base_stream': NullablePointer[GInputStreamT])

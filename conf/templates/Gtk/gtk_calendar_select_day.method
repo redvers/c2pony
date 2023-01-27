@@ -1,0 +1,2 @@
+  fun ref select_day(date': NullablePointer[GDateTimeT]): None =>
+    GtkCalendarP.select_day(this, date')

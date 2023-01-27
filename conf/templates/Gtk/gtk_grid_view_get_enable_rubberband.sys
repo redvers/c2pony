@@ -1,0 +1,2 @@
+  fun get_enable_rubberband(self': NullablePointer[GtkGridViewT]): I32 =>
+    @gtk_grid_view_get_enable_rubberband(self')

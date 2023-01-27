@@ -1,0 +1,2 @@
+  fun ref pop(): Pointer[None] tag =>
+    GtkBuildableParseContextP.pop(ptr)

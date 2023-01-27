@@ -1,0 +1,2 @@
+  fun add_controller(widget': GtkWidgetI, controller': NullablePointer[GtkEventControllerT]): None =>
+    @gtk_widget_add_controller(widget'.getptr(), controller')

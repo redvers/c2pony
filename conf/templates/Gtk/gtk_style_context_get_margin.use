@@ -1,0 +1,1 @@
+use @gtk_style_context_get_margin[None](context': NullablePointer[GtkStyleContextT], margin': NullablePointer[GtkBorderT])

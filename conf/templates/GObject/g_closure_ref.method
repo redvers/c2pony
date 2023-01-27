@@ -1,2 +1,2 @@
   fun ref ref(): NullablePointer[GClosureT] =>
-    GClosureP.ref(this.ptr)
+    GClosureP.ref(ptr)

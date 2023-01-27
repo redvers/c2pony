@@ -1,0 +1,2 @@
+  fun get_buffer(self': NullablePointer[GtkTextT]): NullablePointer[GtkEntryBufferT] =>
+    @gtk_text_get_buffer(self')

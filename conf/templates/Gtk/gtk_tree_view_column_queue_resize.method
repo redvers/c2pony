@@ -1,0 +1,2 @@
+  fun ref queue_resize(): None =>
+    GtkTreeViewColumnP.queue_resize(this)

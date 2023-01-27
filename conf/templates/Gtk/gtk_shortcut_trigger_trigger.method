@@ -1,0 +1,2 @@
+  fun ref trigger(event': NullablePointer[GdkEventT], enable_mnemonics': I32): U32 =>
+    GtkShortcutTriggerP.trigger(this, event', enable_mnemonics')

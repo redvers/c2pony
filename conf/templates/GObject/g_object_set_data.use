@@ -1,2 +1,2 @@
 
-use @g_object_set_data[None](object': Pointer[GObjectP], key': Pointer[U8] tag, data': Any tag)
+use @g_object_set_data[None](object': NullablePointer[GObjectT], key': Pointer[U8] tag, data': Any tag)

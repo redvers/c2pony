@@ -1,0 +1,2 @@
+  fun ref set_icons(icons': Pointer[Pointer[U8]] tag): None =>
+    GtkScaleButtonP.set_icons(this, icons')

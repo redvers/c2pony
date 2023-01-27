@@ -1,0 +1,1 @@
+use @gtk_tree_path_prev[I32](path': NullablePointer[GtkTreePathT])

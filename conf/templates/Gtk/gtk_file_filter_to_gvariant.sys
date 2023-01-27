@@ -1,0 +1,2 @@
+  fun to_gvariant(filter': NullablePointer[GtkFileFilterT]): NullablePointer[GVariantT] =>
+    @gtk_file_filter_to_gvariant(filter')

@@ -1,0 +1,2 @@
+  fun get_enable_search(self': NullablePointer[GtkDropDownT]): I32 =>
+    @gtk_drop_down_get_enable_search(self')

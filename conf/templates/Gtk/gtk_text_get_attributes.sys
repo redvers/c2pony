@@ -1,0 +1,2 @@
+  fun get_attributes(self': NullablePointer[GtkTextT]): NullablePointer[PangoAttrListT] =>
+    @gtk_text_get_attributes(self')

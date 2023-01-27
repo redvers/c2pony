@@ -1,0 +1,2 @@
+  fun ref get_attribute_stringv(attribute': String): Pointer[Pointer[U8]] tag =>
+    GFileInfoP.get_attribute_stringv(this, attribute')

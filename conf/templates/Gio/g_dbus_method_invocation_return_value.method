@@ -1,0 +1,2 @@
+  fun ref return_value(parameters': NullablePointer[GVariantT]): None =>
+    GDBusMethodInvocationP.return_value(this, parameters')

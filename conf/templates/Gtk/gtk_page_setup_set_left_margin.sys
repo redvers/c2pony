@@ -1,0 +1,2 @@
+  fun set_left_margin(setup': NullablePointer[GtkPageSetupT], margin': F64, unit': U32): None =>
+    @gtk_page_setup_set_left_margin(setup', margin', unit')

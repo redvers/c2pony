@@ -1,0 +1,1 @@
+use @gtk_text_mark_set_visible[None](mark': NullablePointer[GtkTextMarkT], setting': I32)

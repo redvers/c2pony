@@ -1,0 +1,1 @@
+use @g_application_add_option_group[None](application': NullablePointer[GObjectT], group': NullablePointer[GOptionGroupT])

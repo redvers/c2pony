@@ -1,0 +1,2 @@
+  fun dup(other': NullablePointer[GFileInfoT]): NullablePointer[GFileInfoT] =>
+    @g_file_info_dup(other')

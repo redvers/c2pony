@@ -1,2 +1,2 @@
   fun ref warn(format': String, ...): None =>
-    GScannerP.warn(this.ptr, format', ...)
+    GScannerP.warn(ptr, format', ...)

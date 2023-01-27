@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkTreeIter
+  var ptr: NullablePointer[GtkTreeIterT]
+
+  new create() =>
+    ptr = NullablePointer[GtkTreeIterT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkTreeIterT]) => ptr = ptr'

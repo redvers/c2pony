@@ -1,0 +1,2 @@
+  fun accept(socket': NullablePointer[GSocketT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketT] =>
+    @g_socket_accept(socket', cancellable', error')

@@ -1,0 +1,2 @@
+  fun unset_attribute_mask(info': NullablePointer[GFileInfoT]): None =>
+    @g_file_info_unset_attribute_mask(info')

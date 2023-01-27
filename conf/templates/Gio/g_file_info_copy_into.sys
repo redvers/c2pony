@@ -1,0 +1,2 @@
+  fun copy_into(src_info': NullablePointer[GFileInfoT], dest_info': NullablePointer[GFileInfoT]): None =>
+    @g_file_info_copy_into(src_info', dest_info')

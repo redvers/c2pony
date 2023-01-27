@@ -1,0 +1,2 @@
+  fun add_binding_signal(widget_class': NullablePointer[GtkWidgetClassT], keyval': U32, mods': U32, signal': String, format_string': String, ...): None =>
+    @gtk_widget_class_add_binding_signal(widget_class', keyval', mods', signal'.cstring(), format_string'.cstring(), ...)

@@ -1,0 +1,2 @@
+  fun new(address': NullablePointer[GInetAddressT], port': U16): NullablePointer[GSocketAddressT] =>
+    @g_inet_socket_address_new(address', port')

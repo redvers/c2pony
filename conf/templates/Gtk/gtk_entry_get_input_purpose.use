@@ -1,0 +1,1 @@
+use @gtk_entry_get_input_purpose[U32](entry': NullablePointer[GtkEntryT])

@@ -1,0 +1,2 @@
+  fun ref set_list_row(list_row': NullablePointer[GtkTreeListRowT]): None =>
+    GtkTreeExpanderP.set_list_row(this, list_row')

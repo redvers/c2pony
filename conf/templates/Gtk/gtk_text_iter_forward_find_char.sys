@@ -1,0 +1,2 @@
+  fun forward_find_char(iter': NullablePointer[GtkTextIterT], pred': GtkTextCharPredicate, user_data': Pointer[None] tag, limit': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_forward_find_char(iter', pred', user_data', limit')

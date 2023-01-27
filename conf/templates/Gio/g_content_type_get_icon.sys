@@ -1,0 +1,2 @@
+  fun content_type_get_icon(type': String): NullablePointer[GIconT] =>
+    @g_content_type_get_icon(type'.cstring())

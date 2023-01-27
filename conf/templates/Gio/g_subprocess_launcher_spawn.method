@@ -1,0 +1,2 @@
+  fun ref spawn(error': Pointer[NullablePointer[GErrorT]], argv0': String, ...): NullablePointer[GSubprocessT] =>
+    GSubprocessLauncherP.spawn(this, error', argv0', ...)

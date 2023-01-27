@@ -1,0 +1,1 @@
+use @gtk_entry_get_current_icon_drag_source[I32](entry': NullablePointer[GtkEntryT])

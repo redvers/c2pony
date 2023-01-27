@@ -1,0 +1,2 @@
+  fun new(content_type': String): NullablePointer[GObjectT] =>
+@gtk_app_chooser_button_new(content_type'.cstring())

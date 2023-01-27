@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkLayoutManagerT] =>
+    @gtk_center_layout_new()

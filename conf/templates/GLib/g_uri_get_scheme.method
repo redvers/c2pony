@@ -1,2 +1,2 @@
   fun ref get_scheme(): String iso^ =>
-    GUriP.get_scheme(this.ptr)
+    GUriP.get_scheme(ptr)

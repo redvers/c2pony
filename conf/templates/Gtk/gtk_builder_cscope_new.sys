@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkBuilderScopeT] =>
+    @gtk_builder_cscope_new()

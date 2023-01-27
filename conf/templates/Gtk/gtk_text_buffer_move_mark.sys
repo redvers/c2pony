@@ -1,0 +1,2 @@
+  fun move_mark(buffer': NullablePointer[GtkTextBufferT], mark': NullablePointer[GtkTextMarkT], where': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_buffer_move_mark(buffer', mark', where')

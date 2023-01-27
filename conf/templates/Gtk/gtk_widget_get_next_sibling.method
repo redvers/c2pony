@@ -1,0 +1,2 @@
+  fun ref get_next_sibling(): NullablePointer[GObjectT] =>
+    GtkWidgetP.get_next_sibling(this)

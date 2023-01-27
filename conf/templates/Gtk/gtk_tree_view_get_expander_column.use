@@ -1,0 +1,1 @@
+use @gtk_tree_view_get_expander_column[NullablePointer[GtkTreeViewColumnT]](tree_view': NullablePointer[GtkTreeViewT])

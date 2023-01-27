@@ -1,0 +1,1 @@
+use @gtk_notebook_get_tab_label_text[Pointer[U8]](notebook': NullablePointer[GtkNotebookT], child': NullablePointer[GObjectT])

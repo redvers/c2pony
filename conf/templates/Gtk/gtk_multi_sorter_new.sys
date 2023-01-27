@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkMultiSorterT] =>
+    @gtk_multi_sorter_new()

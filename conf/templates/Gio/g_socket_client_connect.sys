@@ -1,0 +1,2 @@
+  fun connect(client': NullablePointer[GSocketClientT], connectable': NullablePointer[GSocketConnectableT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
+    @g_socket_client_connect(client', connectable', cancellable', error')

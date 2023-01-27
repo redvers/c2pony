@@ -1,0 +1,2 @@
+  fun ref set_icon(icon': NullablePointer[GIconT]): None =>
+    GMenuItemP.set_icon(this, icon')

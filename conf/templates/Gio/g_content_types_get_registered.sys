@@ -1,0 +1,2 @@
+  fun content_types_get_registered(): NullablePointer[GListT] =>
+    @g_content_types_get_registered()

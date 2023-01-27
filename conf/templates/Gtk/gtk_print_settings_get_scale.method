@@ -1,0 +1,2 @@
+  fun ref get_scale(): F64 =>
+    GtkPrintSettingsP.get_scale(this)

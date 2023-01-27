@@ -1,0 +1,2 @@
+  fun copy(border': NullablePointer[GtkBorderT]): NullablePointer[GtkBorderT] =>
+    @gtk_border_copy(border')

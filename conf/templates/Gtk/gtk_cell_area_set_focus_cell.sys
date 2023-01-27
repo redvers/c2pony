@@ -1,0 +1,2 @@
+  fun set_focus_cell(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT]): None =>
+    @gtk_cell_area_set_focus_cell(area', renderer')

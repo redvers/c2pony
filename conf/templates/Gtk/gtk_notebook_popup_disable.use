@@ -1,0 +1,1 @@
+use @gtk_notebook_popup_disable[None](notebook': NullablePointer[GtkNotebookT])

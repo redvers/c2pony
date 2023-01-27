@@ -1,0 +1,2 @@
+  fun ref remove_selection_clipboard(clipboard': NullablePointer[GdkClipboardT]): None =>
+    GtkTextBufferP.remove_selection_clipboard(this, clipboard')

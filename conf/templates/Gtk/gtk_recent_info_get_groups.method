@@ -1,0 +1,2 @@
+  fun ref get_groups(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+    GtkRecentInfoP.get_groups(ptr, length')

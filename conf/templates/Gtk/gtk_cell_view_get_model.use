@@ -1,0 +1,1 @@
+use @gtk_cell_view_get_model[NullablePointer[GtkTreeModelT]](cell_view': NullablePointer[GtkCellViewT])

@@ -1,0 +1,2 @@
+  fun ref set_child_setup(child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, destroy_notify': Pointer[None]): None =>
+    GSubprocessLauncherP.set_child_setup(this, child_setup', user_data', destroy_notify')

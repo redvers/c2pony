@@ -1,0 +1,1 @@
+use @gtk_text_iter_backward_word_starts[I32](iter': NullablePointer[GtkTextIterT], count': I32)

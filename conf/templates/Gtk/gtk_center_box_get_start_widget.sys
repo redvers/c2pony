@@ -1,0 +1,2 @@
+  fun get_start_widget(self': NullablePointer[GtkCenterBoxT]): NullablePointer[GObjectT] =>
+@gtk_center_box_get_start_widget(self')

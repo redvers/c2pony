@@ -1,0 +1,2 @@
+  fun ref get_key(name': String): NullablePointer[GSettingsSchemaKeyT] =>
+    GSettingsSchemaP.get_key(ptr, name')

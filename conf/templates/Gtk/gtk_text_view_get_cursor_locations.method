@@ -1,0 +1,2 @@
+  fun ref get_cursor_locations(iter': NullablePointer[GtkTextIterT], strong': NullablePointer[cairorectangleintT], weak': NullablePointer[cairorectangleintT]): None =>
+    GtkTextViewP.get_cursor_locations(this, iter', strong', weak')

@@ -1,0 +1,1 @@
+use @gtk_widget_has_css_class[I32](widget': NullablePointer[GObjectT], css_class': Pointer[U8] tag)

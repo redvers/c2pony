@@ -1,0 +1,1 @@
+use @g_file_input_stream_query_info_finish[NullablePointer[GFileInfoT]](stream': NullablePointer[GFileInputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])

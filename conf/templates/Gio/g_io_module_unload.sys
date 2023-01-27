@@ -1,0 +1,2 @@
+  fun unload(module': NullablePointer[GIOModuleT]): None =>
+    @g_io_module_unload(module')

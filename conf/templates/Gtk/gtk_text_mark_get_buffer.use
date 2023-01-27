@@ -1,0 +1,1 @@
+use @gtk_text_mark_get_buffer[NullablePointer[GtkTextBufferT]](mark': NullablePointer[GtkTextMarkT])

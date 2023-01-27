@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GSocketConnectionClass
+  var ptr: NullablePointer[GSocketConnectionClassT]
+
+  new create() =>
+    ptr = NullablePointer[GSocketConnectionClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GSocketConnectionClassT]) => ptr = ptr'

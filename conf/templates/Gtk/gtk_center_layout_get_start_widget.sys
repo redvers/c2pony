@@ -1,0 +1,2 @@
+  fun get_start_widget(self': NullablePointer[GtkCenterLayoutT]): NullablePointer[GObjectT] =>
+@gtk_center_layout_get_start_widget(self')

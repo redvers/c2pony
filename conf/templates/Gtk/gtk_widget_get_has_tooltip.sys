@@ -1,0 +1,2 @@
+  fun get_has_tooltip(widget': GtkWidgetI): I32 =>
+    @gtk_widget_get_has_tooltip(widget'.getptr())

@@ -1,0 +1,2 @@
+  fun remove(self': NullablePointer[GtkMultiSorterT], position': U32): None =>
+    @gtk_multi_sorter_remove(self', position')

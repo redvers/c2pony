@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GDBusAuthObserverT] =>
+    @g_dbus_auth_observer_new()

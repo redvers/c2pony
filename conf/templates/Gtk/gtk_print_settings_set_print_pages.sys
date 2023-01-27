@@ -1,0 +1,2 @@
+  fun set_print_pages(settings': NullablePointer[GtkPrintSettingsT], pages': U32): None =>
+    @gtk_print_settings_set_print_pages(settings', pages')

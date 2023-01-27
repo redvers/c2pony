@@ -1,0 +1,17 @@
+
+use @gtk_object_expression_get_type[U64]()
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkObjectExpression is GtkObjectExpressionI
+  var ptr: NullablePointer[GtkExpressionT]
+
+  new create_from_ptr(ptr': NullablePointer[GtkExpressionT]) => ptr = ptr'
+
+  new create() =>
+    ptr = GObjectG.gnew(@gtk_object_expression_get_type())
+
+  fun ref getptr(): NullablePointer[GtkExpressionT] => ptr

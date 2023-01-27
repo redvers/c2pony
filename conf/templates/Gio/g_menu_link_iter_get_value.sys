@@ -1,0 +1,2 @@
+  fun get_value(iter': NullablePointer[GMenuLinkIterT]): NullablePointer[GMenuModelT] =>
+    @g_menu_link_iter_get_value(iter')

@@ -1,0 +1,2 @@
+  fun set_option_context_summary(application': GApplicationI, summary': String): None =>
+    @g_application_set_option_context_summary(application'.getptr(), summary'.cstring())

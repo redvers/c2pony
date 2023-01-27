@@ -1,0 +1,2 @@
+  fun is_required(constraint': NullablePointer[GtkConstraintT]): I32 =>
+    @gtk_constraint_is_required(constraint')

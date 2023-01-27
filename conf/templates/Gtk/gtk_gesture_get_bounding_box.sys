@@ -1,0 +1,2 @@
+  fun get_bounding_box(gesture': NullablePointer[GtkGestureT], rect': NullablePointer[cairorectangleintT]): I32 =>
+    @gtk_gesture_get_bounding_box(gesture', rect')

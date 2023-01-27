@@ -1,0 +1,2 @@
+  fun ref lookup_interface(name': String): NullablePointer[GDBusInterfaceInfoT] =>
+    GDBusNodeInfoP.lookup_interface(ptr, name')

@@ -1,0 +1,2 @@
+  fun ref copy(): NullablePointer[GtkBorderT] =>
+    GtkBorderP.copy(ptr)

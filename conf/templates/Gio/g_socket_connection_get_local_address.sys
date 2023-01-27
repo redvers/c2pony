@@ -1,0 +1,2 @@
+  fun get_local_address(connection': NullablePointer[GSocketConnectionT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketAddressT] =>
+    @g_socket_connection_get_local_address(connection', error')

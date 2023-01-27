@@ -1,2 +1,2 @@
   fun ref get_current_time(timeval': NullablePointer[GTimeValT]): None =>
-    GSourceP.get_current_time(this.ptr, timeval')
+    GSourceP.get_current_time(ptr, timeval')

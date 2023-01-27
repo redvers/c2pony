@@ -1,0 +1,2 @@
+  fun ref write_all(buffer': Pointer[None] tag, count': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GOutputStreamP.write_all(this, buffer', count', bytes_written', cancellable', error')

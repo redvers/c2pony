@@ -1,0 +1,2 @@
+  fun get_cursor_locations(text_view': NullablePointer[GtkTextViewT], iter': NullablePointer[GtkTextIterT], strong': NullablePointer[cairorectangleintT], weak': NullablePointer[cairorectangleintT]): None =>
+    @gtk_text_view_get_cursor_locations(text_view', iter', strong', weak')

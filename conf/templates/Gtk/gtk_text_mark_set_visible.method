@@ -1,0 +1,2 @@
+  fun ref set_visible(setting': I32): None =>
+    GtkTextMarkP.set_visible(this, setting')

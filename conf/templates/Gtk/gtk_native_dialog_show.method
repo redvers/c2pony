@@ -1,0 +1,2 @@
+  fun ref show(): None =>
+    GtkNativeDialogP.show(this)

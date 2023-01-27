@@ -1,0 +1,2 @@
+  fun ref append(sorter': NullablePointer[GtkSorterT]): None =>
+    GtkMultiSorterP.append(this, sorter')

@@ -1,2 +1,2 @@
   fun ref is_ancestor(descendant': NullablePointer[GNodeT]): I32 =>
-    GNodeP.is_ancestor(this.ptr, descendant')
+    GNodeP.is_ancestor(ptr, descendant')

@@ -1,0 +1,1 @@
+use @g_srv_target_free[None](target': NullablePointer[GSrvTargetT])

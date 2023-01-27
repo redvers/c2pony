@@ -1,2 +1,2 @@
   fun ref ref(): NullablePointer[GTreeT] =>
-    GTreeP.ref(this.ptr)
+    GTreeP.ref(ptr)

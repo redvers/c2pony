@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GMemoryOutputStreamPrivate
+  var ptr: NullablePointer[GMemoryOutputStreamPrivateT]
+
+  new create() =>
+    ptr = NullablePointer[GMemoryOutputStreamPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GMemoryOutputStreamPrivateT]) => ptr = ptr'

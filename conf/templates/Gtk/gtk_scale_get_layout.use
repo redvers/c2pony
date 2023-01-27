@@ -1,0 +1,1 @@
+use @gtk_scale_get_layout[NullablePointer[PangoLayoutT]](scale': NullablePointer[GtkScaleT])

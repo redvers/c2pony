@@ -1,0 +1,2 @@
+  fun ref unsetenv(variable': String): None =>
+    GSubprocessLauncherP.unsetenv(this, variable')

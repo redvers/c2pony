@@ -1,0 +1,2 @@
+  fun ref set_adjustment(adjustment': NullablePointer[GtkAdjustmentT]): None =>
+    GtkRangeP.set_adjustment(this, adjustment')

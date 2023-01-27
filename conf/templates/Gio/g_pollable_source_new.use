@@ -1,0 +1,1 @@
+use @g_pollable_source_new[NullablePointer[GSourceT]](pollable_stream': NullablePointer[GObjectT])

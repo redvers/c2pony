@@ -1,0 +1,1 @@
+use @gtk_popover_menu_remove_child[I32](popover': NullablePointer[GtkPopoverMenuT], child': NullablePointer[GObjectT])

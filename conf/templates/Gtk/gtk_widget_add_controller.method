@@ -1,0 +1,2 @@
+  fun ref add_controller(controller': NullablePointer[GtkEventControllerT]): None =>
+    GtkWidgetP.add_controller(this, controller')

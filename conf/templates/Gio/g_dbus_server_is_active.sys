@@ -1,0 +1,2 @@
+  fun is_active(server': NullablePointer[GDBusServerT]): I32 =>
+    @g_dbus_server_is_active(server')

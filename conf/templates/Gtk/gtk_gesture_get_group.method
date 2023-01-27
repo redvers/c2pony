@@ -1,0 +1,2 @@
+  fun ref get_group(): NullablePointer[GListT] =>
+    GtkGestureP.get_group(this)

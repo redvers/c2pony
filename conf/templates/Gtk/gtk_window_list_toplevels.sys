@@ -1,0 +1,2 @@
+  fun list_toplevels(): NullablePointer[GListT] =>
+    @gtk_window_list_toplevels()

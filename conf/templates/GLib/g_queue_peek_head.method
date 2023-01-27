@@ -1,2 +1,2 @@
   fun ref peek_head(): Pointer[None] tag =>
-    GQueueP.peek_head(this.ptr)
+    GQueueP.peek_head(ptr)

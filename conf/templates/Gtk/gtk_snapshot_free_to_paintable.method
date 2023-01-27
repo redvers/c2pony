@@ -1,0 +1,2 @@
+  fun ref free_to_paintable(size': NullablePointer[graphenesizetT]): NullablePointer[GdkPaintableT] =>
+    P.free_to_paintable(this, size')

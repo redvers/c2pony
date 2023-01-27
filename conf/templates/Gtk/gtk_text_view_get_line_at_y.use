@@ -1,0 +1,1 @@
+use @gtk_text_view_get_line_at_y[None](text_view': NullablePointer[GtkTextViewT], target_iter': NullablePointer[GtkTextIterT], y': I32, line_top': Pointer[I32] tag)

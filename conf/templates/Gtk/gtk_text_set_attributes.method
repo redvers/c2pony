@@ -1,0 +1,2 @@
+  fun ref set_attributes(attrs': NullablePointer[PangoAttrListT]): None =>
+    GtkTextP.set_attributes(this, attrs')

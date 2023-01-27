@@ -1,0 +1,2 @@
+  fun ref unrealize(surface': NullablePointer[GdkSurfaceT]): None =>
+    GtkMediaStreamP.unrealize(this, surface')

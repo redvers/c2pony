@@ -1,0 +1,1 @@
+use @gtk_style_context_get_border[None](context': NullablePointer[GtkStyleContextT], border': NullablePointer[GtkBorderT])

@@ -1,0 +1,2 @@
+  fun append(self': NullablePointer[GtkMultiFilterT], filter': NullablePointer[GtkFilterT]): None =>
+    @gtk_multi_filter_append(self', filter')

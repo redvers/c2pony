@@ -1,0 +1,1 @@
+use @gtk_recent_info_get_gicon[NullablePointer[GIconT]](info': NullablePointer[GtkRecentInfoT])

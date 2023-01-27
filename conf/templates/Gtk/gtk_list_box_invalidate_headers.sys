@@ -1,0 +1,2 @@
+  fun invalidate_headers(box': NullablePointer[GtkListBoxT]): None =>
+    @gtk_list_box_invalidate_headers(box')

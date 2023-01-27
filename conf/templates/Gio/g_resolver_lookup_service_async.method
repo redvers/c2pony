@@ -1,0 +1,2 @@
+  fun ref lookup_service_async(service': String, protocol': String, domain': String, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GResolverP.lookup_service_async(this, service', protocol', domain', cancellable', callback', user_data')

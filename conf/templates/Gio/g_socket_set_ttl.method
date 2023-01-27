@@ -1,0 +1,2 @@
+  fun ref set_ttl(ttl': U32): None =>
+    GSocketP.set_ttl(this, ttl')

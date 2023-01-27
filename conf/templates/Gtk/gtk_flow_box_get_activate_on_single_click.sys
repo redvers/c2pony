@@ -1,0 +1,2 @@
+  fun get_activate_on_single_click(box': NullablePointer[GtkFlowBoxT]): I32 =>
+    @gtk_flow_box_get_activate_on_single_click(box')

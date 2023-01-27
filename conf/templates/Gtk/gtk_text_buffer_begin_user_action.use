@@ -1,0 +1,1 @@
+use @gtk_text_buffer_begin_user_action[None](buffer': NullablePointer[GtkTextBufferT])

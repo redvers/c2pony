@@ -1,2 +1,2 @@
   fun ref is_owner(): I32 =>
-    GMainContextP.is_owner(this.ptr)
+    GMainContextP.is_owner(ptr)

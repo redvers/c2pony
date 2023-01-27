@@ -1,0 +1,1 @@
+use @gtk_stack_sidebar_get_stack[NullablePointer[GtkStackT]](self': NullablePointer[GtkStackSidebarT])

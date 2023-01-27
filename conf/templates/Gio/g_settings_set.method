@@ -1,0 +1,2 @@
+  fun ref set(key': String, format': String, ...): I32 =>
+    GSettingsP.set(this, key', format', ...)

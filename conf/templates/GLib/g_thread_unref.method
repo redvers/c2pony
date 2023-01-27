@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GThreadP.unref(this.ptr)
+    GThreadP.unref(ptr)

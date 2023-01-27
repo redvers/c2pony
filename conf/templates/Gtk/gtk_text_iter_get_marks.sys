@@ -1,0 +1,2 @@
+  fun get_marks(iter': NullablePointer[GtkTextIterT]): NullablePointer[GSListT] =>
+    @gtk_text_iter_get_marks(iter')

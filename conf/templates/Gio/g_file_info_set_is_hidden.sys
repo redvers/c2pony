@@ -1,0 +1,2 @@
+  fun set_is_hidden(info': NullablePointer[GFileInfoT], is_hidden': I32): None =>
+    @g_file_info_set_is_hidden(info', is_hidden')

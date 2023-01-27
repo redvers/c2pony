@@ -1,0 +1,2 @@
+  fun ref get_bytes(): NullablePointer[GBytesT] =>
+    GBytesIconP.get_bytes(this)

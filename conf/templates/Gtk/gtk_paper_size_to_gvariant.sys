@@ -1,0 +1,2 @@
+  fun to_gvariant(paper_size': NullablePointer[GtkPaperSizeT]): NullablePointer[GVariantT] =>
+    @gtk_paper_size_to_gvariant(paper_size')

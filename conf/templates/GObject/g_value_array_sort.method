@@ -1,2 +1,2 @@
   fun ref sort(compare_func': GCompareFunc): NullablePointer[GValueArrayT] =>
-    GValueArrayP.sort(this.ptr, compare_func')
+    GValueArrayP.sort(ptr, compare_func')

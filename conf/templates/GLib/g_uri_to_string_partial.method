@@ -1,2 +1,2 @@
   fun ref to_string_partial(flags': U32): String iso^ =>
-    GUriP.to_string_partial(this.ptr, flags')
+    GUriP.to_string_partial(ptr, flags')

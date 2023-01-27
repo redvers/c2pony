@@ -1,0 +1,1 @@
+use @gtk_text_set_activates_default[None](self': NullablePointer[GtkTextT], activates': I32)

@@ -1,0 +1,1 @@
+use @gtk_button_new_with_mnemonic[NullablePointer[GObjectT]](label': Pointer[U8] tag)

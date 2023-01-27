@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkCssProviderT] =>
+    @gtk_css_provider_new()

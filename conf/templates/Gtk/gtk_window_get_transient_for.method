@@ -1,0 +1,2 @@
+  fun ref get_transient_for(): NullablePointer[GObjectT] =>
+    GtkWindowP.get_transient_for(this)

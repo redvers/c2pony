@@ -1,2 +1,2 @@
   fun ref ref(): NullablePointer[GOptionGroupT] =>
-    GOptionGroupP.ref(this.ptr)
+    GOptionGroupP.ref(ptr)

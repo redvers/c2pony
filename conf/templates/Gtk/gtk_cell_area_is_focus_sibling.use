@@ -1,0 +1,1 @@
+use @gtk_cell_area_is_focus_sibling[I32](area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], sibling': NullablePointer[GtkCellRendererT])

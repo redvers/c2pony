@@ -1,0 +1,1 @@
+use @gtk_tree_model_filter_convert_child_path_to_path[NullablePointer[GtkTreePathT]](filter': NullablePointer[GtkTreeModelFilterT], child_path': NullablePointer[GtkTreePathT])

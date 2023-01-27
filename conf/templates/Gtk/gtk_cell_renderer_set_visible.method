@@ -1,0 +1,2 @@
+  fun ref set_visible(visible': I32): None =>
+    GtkCellRendererP.set_visible(this, visible')

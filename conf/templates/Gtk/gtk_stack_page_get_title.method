@@ -1,0 +1,2 @@
+  fun ref get_title(): String iso^ =>
+    GtkStackPageP.get_title(this)

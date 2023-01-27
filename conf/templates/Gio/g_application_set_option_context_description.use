@@ -1,0 +1,1 @@
+use @g_application_set_option_context_description[None](application': NullablePointer[GObjectT], description': Pointer[U8] tag)

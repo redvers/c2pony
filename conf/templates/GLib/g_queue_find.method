@@ -1,2 +1,2 @@
   fun ref find(data': Pointer[None] tag): NullablePointer[GListT] =>
-    GQueueP.find(this.ptr, data')
+    GQueueP.find(ptr, data')

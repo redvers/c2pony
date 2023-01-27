@@ -1,0 +1,2 @@
+  fun ref set_bottom_margin(bottom_margin': I32): None =>
+    GtkTextViewP.set_bottom_margin(this, bottom_margin')

@@ -1,0 +1,2 @@
+  fun forward_word_end(iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_forward_word_end(iter')

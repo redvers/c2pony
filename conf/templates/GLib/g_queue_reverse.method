@@ -1,2 +1,2 @@
   fun ref reverse(): None =>
-    GQueueP.reverse(this.ptr)
+    GQueueP.reverse(ptr)

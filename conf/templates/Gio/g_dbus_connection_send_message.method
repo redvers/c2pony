@@ -1,0 +1,2 @@
+  fun ref send_message(message': NullablePointer[GDBusMessageT], flags': U32, out_serial': Pointer[U32] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GDBusConnectionP.send_message(this, message', flags', out_serial', error')

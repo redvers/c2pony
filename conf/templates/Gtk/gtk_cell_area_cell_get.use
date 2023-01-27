@@ -1,0 +1,1 @@
+use @gtk_cell_area_cell_get[None](area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], first_prop_name': Pointer[U8] tag, ...)

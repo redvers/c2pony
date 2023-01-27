@@ -1,0 +1,2 @@
+  fun ref queue_resize(): None =>
+    GtkWidgetP.queue_resize(this)

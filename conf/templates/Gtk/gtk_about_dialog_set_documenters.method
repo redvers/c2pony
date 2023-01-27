@@ -1,0 +1,2 @@
+  fun ref set_documenters(documenters': Pointer[Pointer[U8]] tag): None =>
+    GtkAboutDialogP.set_documenters(this, documenters')

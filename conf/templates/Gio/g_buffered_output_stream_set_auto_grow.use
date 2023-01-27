@@ -1,0 +1,1 @@
+use @g_buffered_output_stream_set_auto_grow[None](stream': NullablePointer[GBufferedOutputStreamT], auto_grow': I32)

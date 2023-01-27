@@ -1,0 +1,2 @@
+  fun ref get_use_size(): I32 =>
+    GtkFontButtonP.get_use_size(this)

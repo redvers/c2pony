@@ -1,0 +1,2 @@
+  fun ref get_activate_on_single_click(): I32 =>
+    GtkFlowBoxP.get_activate_on_single_click(this)

@@ -1,0 +1,2 @@
+  fun get_cached_property(proxy': NullablePointer[GDBusProxyT], property_name': String): NullablePointer[GVariantT] =>
+    @g_dbus_proxy_get_cached_property(proxy', property_name'.cstring())

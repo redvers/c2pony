@@ -1,0 +1,2 @@
+  fun response(info_bar': NullablePointer[GtkInfoBarT], response_id': I32): None =>
+    @gtk_info_bar_response(info_bar', response_id')

@@ -1,0 +1,1 @@
+use @gtk_snapshot_push_gl_shader[None](snapshot': NullablePointer[GdkSnapshotT], shader': NullablePointer[GskGLShaderT], bounds': NullablePointer[graphenerecttT], take_args': NullablePointer[GBytesT])

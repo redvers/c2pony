@@ -1,0 +1,2 @@
+  fun new(model': NullablePointer[GListModelT], map_func': GtkMapListModelMapFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None]): NullablePointer[GtkMapListModelT] =>
+    @gtk_map_list_model_new(model', map_func', user_data', user_destroy')

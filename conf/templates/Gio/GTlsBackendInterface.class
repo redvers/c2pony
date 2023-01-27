@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GTlsBackendInterface
+  var ptr: NullablePointer[GTlsBackendInterfaceT]
+
+  new create() =>
+    ptr = NullablePointer[GTlsBackendInterfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GTlsBackendInterfaceT]) => ptr = ptr'

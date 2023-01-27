@@ -1,0 +1,2 @@
+  fun read_finish(stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_input_stream_read_finish(stream', result', error')

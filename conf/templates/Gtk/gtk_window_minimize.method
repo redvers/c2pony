@@ -1,0 +1,2 @@
+  fun ref minimize(): None =>
+    GtkWindowP.minimize(this)

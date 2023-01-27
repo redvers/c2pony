@@ -1,0 +1,1 @@
+use @g_proxy_address_get_protocol[Pointer[U8]](proxy': NullablePointer[GProxyAddressT])

@@ -1,0 +1,2 @@
+  fun new_with_mnemonic(label': String): NullablePointer[GObjectT] =>
+@gtk_check_button_new_with_mnemonic(label'.cstring())

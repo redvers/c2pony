@@ -1,0 +1,2 @@
+  fun ref prev_page(): None =>
+    GtkNotebookP.prev_page(this)

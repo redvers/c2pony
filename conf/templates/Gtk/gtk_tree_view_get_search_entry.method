@@ -1,0 +1,2 @@
+  fun ref get_search_entry(): NullablePointer[GtkEditableT] =>
+    GtkTreeViewP.get_search_entry(this)

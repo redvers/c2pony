@@ -1,0 +1,2 @@
+  fun get_active_window(application': GtkApplicationI): NullablePointer[GObjectT] =>
+@gtk_application_get_active_window(application'.getptr())

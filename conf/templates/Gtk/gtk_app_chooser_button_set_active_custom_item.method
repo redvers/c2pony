@@ -1,0 +1,2 @@
+  fun ref set_active_custom_item(name': String): None =>
+    GtkAppChooserButtonP.set_active_custom_item(this, name')

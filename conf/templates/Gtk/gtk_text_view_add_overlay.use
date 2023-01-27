@@ -1,0 +1,1 @@
+use @gtk_text_view_add_overlay[None](text_view': NullablePointer[GtkTextViewT], child': NullablePointer[GObjectT], xpos': I32, ypos': I32)

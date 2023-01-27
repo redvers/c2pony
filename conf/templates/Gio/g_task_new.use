@@ -1,0 +1,1 @@
+use @g_task_new[NullablePointer[GTaskT]](source_object': Pointer[None] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, callback_data': Pointer[None] tag)

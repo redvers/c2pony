@@ -1,0 +1,2 @@
+  fun simple_async_report_gerror_in_idle(object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, error': NullablePointer[GErrorT]): None =>
+    @g_simple_async_report_gerror_in_idle(object', callback', user_data', error')

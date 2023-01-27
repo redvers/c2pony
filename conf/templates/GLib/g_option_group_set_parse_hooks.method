@@ -1,2 +1,2 @@
   fun ref set_parse_hooks(pre_parse_func': GOptionParseFunc, post_parse_func': GOptionParseFunc): None =>
-    GOptionGroupP.set_parse_hooks(this.ptr, pre_parse_func', post_parse_func')
+    GOptionGroupP.set_parse_hooks(ptr, pre_parse_func', post_parse_func')

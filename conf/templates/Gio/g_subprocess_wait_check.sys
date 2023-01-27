@@ -1,0 +1,2 @@
+  fun wait_check(subprocess': NullablePointer[GSubprocessT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_subprocess_wait_check(subprocess', cancellable', error')

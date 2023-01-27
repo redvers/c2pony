@@ -1,0 +1,1 @@
+use @gtk_widget_class_install_property_action[None](widget_class': NullablePointer[GtkWidgetClassT], action_name': Pointer[U8] tag, property_name': Pointer[U8] tag)

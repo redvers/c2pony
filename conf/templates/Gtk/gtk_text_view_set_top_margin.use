@@ -1,0 +1,1 @@
+use @gtk_text_view_set_top_margin[None](text_view': NullablePointer[GtkTextViewT], top_margin': I32)

@@ -1,0 +1,2 @@
+  fun get_group(gesture': NullablePointer[GtkGestureT]): NullablePointer[GListT] =>
+    @gtk_gesture_get_group(gesture')

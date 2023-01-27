@@ -1,0 +1,10 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GDBusNodeInfoT
+  var ref_count': I32 = I32(0)
+  var path': Pointer[U8] = Pointer[U8]
+  var interfaces': Pointer[NullablePointer[GDBusInterfaceInfoT]] = Pointer[NullablePointer[GDBusInterfaceInfoT]]
+  var nodes': Pointer[NullablePointer[GDBusNodeInfoT]] = Pointer[NullablePointer[GDBusNodeInfoT]]
+  var annotations': Pointer[NullablePointer[GDBusAnnotationInfoT]] = Pointer[NullablePointer[GDBusAnnotationInfoT]]

@@ -1,0 +1,1 @@
+use @gtk_window_get_transient_for[NullablePointer[GObjectT]](window': NullablePointer[GObjectT])

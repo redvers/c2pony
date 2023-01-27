@@ -1,0 +1,2 @@
+  fun ref get_boolean(key': String): I32 =>
+    GSettingsP.get_boolean(this, key')

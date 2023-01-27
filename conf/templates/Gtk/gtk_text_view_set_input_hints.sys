@@ -1,0 +1,2 @@
+  fun set_input_hints(text_view': NullablePointer[GtkTextViewT], hints': U32): None =>
+    @gtk_text_view_set_input_hints(text_view', hints')

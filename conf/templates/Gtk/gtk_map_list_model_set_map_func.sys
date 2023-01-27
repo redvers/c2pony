@@ -1,0 +1,2 @@
+  fun set_map_func(self': NullablePointer[GtkMapListModelT], map_func': GtkMapListModelMapFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None]): None =>
+    @gtk_map_list_model_set_map_func(self', map_func', user_data', user_destroy')

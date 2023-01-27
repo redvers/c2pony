@@ -1,0 +1,2 @@
+  fun ref verify_chain_async(chain': NullablePointer[GTlsCertificateT], purpose': String, identity': NullablePointer[GSocketConnectableT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GTlsDatabaseP.verify_chain_async(this, chain', purpose', identity', interaction', flags', cancellable', callback', user_data')

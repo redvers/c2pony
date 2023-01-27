@@ -1,0 +1,2 @@
+  fun get_file_for_uri(vfs': NullablePointer[GVfsT], uri': String): NullablePointer[GFileT] =>
+    @g_vfs_get_file_for_uri(vfs', uri'.cstring())

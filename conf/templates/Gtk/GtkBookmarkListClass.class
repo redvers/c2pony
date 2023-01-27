@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkBookmarkListClass
+  var ptr: NullablePointer[GtkBookmarkListClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkBookmarkListClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkBookmarkListClassT]) => ptr = ptr'

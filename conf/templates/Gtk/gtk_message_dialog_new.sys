@@ -1,0 +1,2 @@
+  fun new(parent': GtkWindowI, flags': U32, type': U32, buttons': U32, message_format': String, ...): NullablePointer[GObjectT] =>
+@gtk_message_dialog_new(parent'.getptr(), flags', type', buttons', message_format'.cstring(), ...)

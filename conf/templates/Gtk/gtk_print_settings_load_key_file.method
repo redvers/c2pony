@@ -1,0 +1,2 @@
+  fun ref load_key_file(key_file': NullablePointer[GKeyFileT], group_name': String, error': GError): I32 =>
+    GtkPrintSettingsP.load_key_file(this, key_file', group_name', error')

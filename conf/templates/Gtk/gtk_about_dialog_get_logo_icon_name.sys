@@ -1,0 +1,2 @@
+  fun get_logo_icon_name(about': NullablePointer[GtkAboutDialogT]): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_logo_icon_name(about')).clone()

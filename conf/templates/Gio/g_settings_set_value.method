@@ -1,0 +1,2 @@
+  fun ref set_value(key': String, value': NullablePointer[GVariantT]): I32 =>
+    GSettingsP.set_value(this, key', value')

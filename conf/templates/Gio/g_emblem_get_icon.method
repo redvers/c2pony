@@ -1,0 +1,2 @@
+  fun ref get_icon(): NullablePointer[GIconT] =>
+    GEmblemP.get_icon(this)

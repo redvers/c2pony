@@ -1,0 +1,1 @@
+use @gtk_switch_set_state[None](self': NullablePointer[GtkSwitchT], state': I32)

@@ -1,0 +1,1 @@
+use @g_subprocess_launcher_take_fd[None](self': NullablePointer[GSubprocessLauncherT], source_fd': I32, target_fd': I32)

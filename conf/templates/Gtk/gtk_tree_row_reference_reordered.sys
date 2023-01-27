@@ -1,0 +1,2 @@
+  fun reordered(proxy': NullablePointer[GObjectT], path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT], new_order': Pointer[I32] tag): None =>
+    @gtk_tree_row_reference_reordered(proxy', path', iter', new_order')

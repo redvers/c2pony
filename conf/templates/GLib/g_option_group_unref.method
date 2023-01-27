@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GOptionGroupP.unref(this.ptr)
+    GOptionGroupP.unref(ptr)

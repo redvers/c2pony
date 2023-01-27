@@ -1,2 +1,2 @@
   fun ref push_thread_default(): None =>
-    GMainContextP.push_thread_default(this.ptr)
+    GMainContextP.push_thread_default(ptr)

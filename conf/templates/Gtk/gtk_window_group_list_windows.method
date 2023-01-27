@@ -1,0 +1,2 @@
+  fun ref list_windows(): NullablePointer[GListT] =>
+    GtkWindowGroupP.list_windows(this)

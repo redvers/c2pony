@@ -1,0 +1,2 @@
+  fun insert_with_tags(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], text': String, len': I32, first_tag': NullablePointer[GtkTextTagT], ...): None =>
+    @gtk_text_buffer_insert_with_tags(buffer', iter', text'.cstring(), len', first_tag', ...)

@@ -1,0 +1,1 @@
+use @gtk_application_window_get_help_overlay[NullablePointer[GtkShortcutsWindowT]](window': NullablePointer[GtkApplicationWindowT])

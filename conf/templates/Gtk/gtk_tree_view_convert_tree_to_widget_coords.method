@@ -1,0 +1,2 @@
+  fun ref convert_tree_to_widget_coords(tx': I32, ty': I32, wx': Pointer[I32] tag, wy': Pointer[I32] tag): None =>
+    GtkTreeViewP.convert_tree_to_widget_coords(this, tx', ty', wx', wy')

@@ -1,0 +1,2 @@
+  fun set_input_stream(self': NullablePointer[GtkMediaFileT], stream': NullablePointer[GInputStreamT]): None =>
+    @gtk_media_file_set_input_stream(self', stream')

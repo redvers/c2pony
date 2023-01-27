@@ -1,0 +1,2 @@
+  fun get_bytes_in_line(iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_get_bytes_in_line(iter')

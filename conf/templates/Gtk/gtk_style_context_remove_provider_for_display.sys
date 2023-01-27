@@ -1,0 +1,2 @@
+  fun remove_provider_for_display(display': NullablePointer[GdkDisplayT], provider': NullablePointer[GtkStyleProviderT]): None =>
+    @gtk_style_context_remove_provider_for_display(display', provider')

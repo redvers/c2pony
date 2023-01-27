@@ -1,0 +1,2 @@
+  fun clear_attributes(tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT]): None =>
+    @gtk_tree_view_column_clear_attributes(tree_column', cell_renderer')

@@ -1,0 +1,1 @@
+use @gtk_recent_info_create_app_info[NullablePointer[GAppInfoT]](info': NullablePointer[GtkRecentInfoT], app_name': Pointer[U8] tag, error': NullablePointer[GErrorT])

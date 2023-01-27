@@ -1,0 +1,2 @@
+  fun set_is_symlink(info': NullablePointer[GFileInfoT], is_symlink': I32): None =>
+    @g_file_info_set_is_symlink(info', is_symlink')

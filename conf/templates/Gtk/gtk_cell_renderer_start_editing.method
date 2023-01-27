@@ -1,0 +1,2 @@
+  fun ref start_editing(event': NullablePointer[GdkEventT], widget': GtkWidgetI, path': String, background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32): NullablePointer[GtkCellEditableT] =>
+    GtkCellRendererP.start_editing(this, event', widget', path', background_area', cell_area', flags')

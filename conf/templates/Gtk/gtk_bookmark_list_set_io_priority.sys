@@ -1,0 +1,2 @@
+  fun set_io_priority(self': NullablePointer[GtkBookmarkListT], io_priority': I32): None =>
+    @gtk_bookmark_list_set_io_priority(self', io_priority')

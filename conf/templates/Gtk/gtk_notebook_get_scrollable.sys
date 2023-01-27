@@ -1,0 +1,2 @@
+  fun get_scrollable(notebook': NullablePointer[GtkNotebookT]): I32 =>
+    @gtk_notebook_get_scrollable(notebook')

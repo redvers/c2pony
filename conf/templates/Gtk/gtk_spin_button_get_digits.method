@@ -1,0 +1,2 @@
+  fun ref get_digits(): U32 =>
+    GtkSpinButtonP.get_digits(this)

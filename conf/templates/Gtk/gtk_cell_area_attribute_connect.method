@@ -1,0 +1,2 @@
+  fun ref attribute_connect(renderer': NullablePointer[GtkCellRendererT], attribute': String, column': I32): None =>
+    GtkCellAreaP.attribute_connect(this, renderer', attribute', column')

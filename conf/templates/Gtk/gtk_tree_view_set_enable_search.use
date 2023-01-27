@@ -1,0 +1,1 @@
+use @gtk_tree_view_set_enable_search[None](tree_view': NullablePointer[GtkTreeViewT], enable_search': I32)

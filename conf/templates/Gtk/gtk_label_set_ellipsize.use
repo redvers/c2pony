@@ -1,0 +1,1 @@
+use @gtk_label_set_ellipsize[None](self': NullablePointer[GtkLabelT], mode': U32)

@@ -1,0 +1,2 @@
+  fun ref prepend(child': GtkWidgetI): None =>
+    GtkFlowBoxP.prepend(this, child')

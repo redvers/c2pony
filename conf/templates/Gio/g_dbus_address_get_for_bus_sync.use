@@ -1,0 +1,1 @@
+use @g_dbus_address_get_for_bus_sync[Pointer[U8]](bus_type': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])

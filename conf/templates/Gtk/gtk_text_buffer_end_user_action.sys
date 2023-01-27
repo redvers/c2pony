@@ -1,0 +1,2 @@
+  fun end_user_action(buffer': NullablePointer[GtkTextBufferT]): None =>
+    @gtk_text_buffer_end_user_action(buffer')

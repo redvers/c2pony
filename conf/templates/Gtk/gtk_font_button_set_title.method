@@ -1,0 +1,2 @@
+  fun ref set_title(title': String): None =>
+    GtkFontButtonP.set_title(this, title')

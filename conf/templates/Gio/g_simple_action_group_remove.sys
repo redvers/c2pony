@@ -1,0 +1,2 @@
+  fun remove(simple': NullablePointer[GSimpleActionGroupT], action_name': String): None =>
+    @g_simple_action_group_remove(simple', action_name'.cstring())

@@ -1,0 +1,2 @@
+  fun ref get_cell_area(path': NullablePointer[GtkTreePathT], column': NullablePointer[GtkTreeViewColumnT], rect': NullablePointer[cairorectangleintT]): None =>
+    GtkTreeViewP.get_cell_area(this, path', column', rect')

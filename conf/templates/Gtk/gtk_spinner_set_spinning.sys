@@ -1,0 +1,2 @@
+  fun set_spinning(spinner': NullablePointer[GtkSpinnerT], spinning': I32): None =>
+    @gtk_spinner_set_spinning(spinner', spinning')

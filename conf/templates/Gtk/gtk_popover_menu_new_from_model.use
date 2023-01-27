@@ -1,0 +1,1 @@
+use @gtk_popover_menu_new_from_model[NullablePointer[GObjectT]](model': NullablePointer[GMenuModelT])

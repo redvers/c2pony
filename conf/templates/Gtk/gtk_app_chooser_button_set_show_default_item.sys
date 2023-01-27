@@ -1,0 +1,2 @@
+  fun set_show_default_item(self': NullablePointer[GtkAppChooserButtonT], setting': I32): None =>
+    @gtk_app_chooser_button_set_show_default_item(self', setting')

@@ -1,2 +1,2 @@
   fun ref get_int64(group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): I64 =>
-    GKeyFileP.get_int64(this.ptr, group_name', key', error')
+    GKeyFileP.get_int64(ptr, group_name', key', error')

@@ -1,0 +1,1 @@
+use @gtk_buildable_parse_context_get_element_stack[NullablePointer[GPtrArrayT]](context': NullablePointer[GtkBuildableParseContextT])

@@ -1,0 +1,2 @@
+  fun get_adjustment(range': NullablePointer[GtkRangeT]): NullablePointer[GtkAdjustmentT] =>
+    @gtk_range_get_adjustment(range')

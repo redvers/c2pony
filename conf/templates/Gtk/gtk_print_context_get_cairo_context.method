@@ -1,0 +1,2 @@
+  fun ref get_cairo_context(): NullablePointer[cairoT] =>
+    GtkPrintContextP.get_cairo_context(this)

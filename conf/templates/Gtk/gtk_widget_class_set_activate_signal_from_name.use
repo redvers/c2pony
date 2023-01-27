@@ -1,0 +1,1 @@
+use @gtk_widget_class_set_activate_signal_from_name[None](widget_class': NullablePointer[GtkWidgetClassT], signal_name': Pointer[U8] tag)

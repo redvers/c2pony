@@ -1,0 +1,1 @@
+use @gtk_media_stream_pause[None](self': NullablePointer[GtkMediaStreamT])

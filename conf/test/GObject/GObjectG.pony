@@ -1,6 +1,6 @@
 
 
-use @g_object_new[Pointer[GObjectP]](object_type': U64, ...)
+use @g_object_new[NullablePointer[GObjectT]](object_type': U64, ...)
 use @g_enum_to_string[Pointer[U8]](g_enum_type': U64, value': I32)
 use @g_param_spec_boolean[NullablePointer[GParamSpecT]](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, default_value': I32, flags': I32)
 use @g_param_spec_boxed[NullablePointer[GParamSpecT]](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, boxed_type': U64, flags': I32)
@@ -30,13 +30,13 @@ use "lib:gobject-2.0"
 
 primitive GObjectG
 
-  fun gnew(objtype: U64): Pointer[GObjectP] =>
+  fun gnew(objtype: U64): NullablePointer[GObjectT] =>
     @g_object_new(objtype, Pointer[None])
 
-  fun gnew_s(objtype: U64, p0: String, v0: String): Pointer[GObjectP] =>
+  fun gnew_s(objtype: U64, p0: String, v0: String): NullablePointer[GObjectT] =>
     @g_object_new(objtype, p0.cstring(), v0.cstring(), Pointer[None])
 
-  fun gnew_s_u32(objtype: U64, p0: String, v0: Any, p1: String, v1: U32): Pointer[GObjectP] =>
+  fun gnew_s_u32(objtype: U64, p0: String, v0: Any, p1: String, v1: U32): NullablePointer[GObjectT] =>
     @g_object_new(objtype, p0.cstring(), v0, p1.cstring(), v1, Pointer[None])
   fun enum_to_string(g_enum_type': U64, value': I32): String iso^ =>
     String.from_cstring(@g_enum_to_string(g_enum_type', value')).clone()

@@ -1,0 +1,2 @@
+  fun new(family': U32, type': U32, protocol': I32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketT] =>
+    @g_socket_new(family', type', protocol', error')

@@ -1,0 +1,1 @@
+use @g_settings_schema_source_lookup[NullablePointer[GSettingsSchemaT]](source': NullablePointer[GSettingsSchemaSourceT], schema_id': Pointer[U8] tag, recursive': I32)

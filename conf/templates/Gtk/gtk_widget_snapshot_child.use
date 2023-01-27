@@ -1,0 +1,1 @@
+use @gtk_widget_snapshot_child[None](widget': NullablePointer[GObjectT], child': NullablePointer[GObjectT], snapshot': NullablePointer[GdkSnapshotT])

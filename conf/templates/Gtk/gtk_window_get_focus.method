@@ -1,0 +1,2 @@
+  fun ref get_focus(): NullablePointer[GObjectT] =>
+    GtkWindowP.get_focus(this)

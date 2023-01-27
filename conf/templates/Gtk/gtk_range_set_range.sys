@@ -1,0 +1,2 @@
+  fun set_range(range': NullablePointer[GtkRangeT], min': F64, max': F64): None =>
+    @gtk_range_set_range(range', min', max')

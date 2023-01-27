@@ -1,0 +1,2 @@
+  fun get_paper_size(setup': NullablePointer[GtkPageSetupT]): NullablePointer[GtkPaperSizeT] =>
+    @gtk_page_setup_get_paper_size(setup')

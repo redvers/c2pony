@@ -1,0 +1,2 @@
+  fun ref set_model(model': NullablePointer[GListModelT]): None =>
+    GtkNoSelectionP.set_model(this, model')

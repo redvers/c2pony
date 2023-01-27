@@ -1,0 +1,2 @@
+  fun ref get_tabs(): NullablePointer[PangoTabArrayT] =>
+    GtkTextViewP.get_tabs(this)

@@ -1,0 +1,2 @@
+  fun ref get_end_iter(iter': NullablePointer[GtkTextIterT]): None =>
+    GtkTextBufferP.get_end_iter(this, iter')

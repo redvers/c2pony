@@ -1,0 +1,2 @@
+  fun ref match(info_b': NullablePointer[GtkRecentInfoT]): I32 =>
+    GtkRecentInfoP.match(ptr, info_b')

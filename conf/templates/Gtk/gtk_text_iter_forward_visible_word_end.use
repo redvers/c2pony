@@ -1,0 +1,1 @@
+use @gtk_text_iter_forward_visible_word_end[I32](iter': NullablePointer[GtkTextIterT])

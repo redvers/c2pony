@@ -1,0 +1,2 @@
+  fun get_columns(tree_view': NullablePointer[GtkTreeViewT]): NullablePointer[GListT] =>
+    @gtk_tree_view_get_columns(tree_view')

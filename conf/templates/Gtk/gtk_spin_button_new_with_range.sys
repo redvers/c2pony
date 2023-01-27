@@ -1,0 +1,2 @@
+  fun new_with_range(min': F64, max': F64, step': F64): NullablePointer[GObjectT] =>
+@gtk_spin_button_new_with_range(min', max', step')

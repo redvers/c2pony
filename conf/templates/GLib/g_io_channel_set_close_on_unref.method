@@ -1,2 +1,2 @@
   fun ref set_close_on_unref(do_close': I32): None =>
-    GIOChannelP.set_close_on_unref(this.ptr, do_close')
+    GIOChannelP.set_close_on_unref(ptr, do_close')

@@ -1,0 +1,1 @@
+use @gtk_print_settings_get_bool[I32](settings': NullablePointer[GtkPrintSettingsT], key': Pointer[U8] tag)

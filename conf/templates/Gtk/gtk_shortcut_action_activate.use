@@ -1,0 +1,1 @@
+use @gtk_shortcut_action_activate[I32](self': NullablePointer[GtkShortcutActionT], flags': U32, widget': NullablePointer[GObjectT], args': NullablePointer[GVariantT])

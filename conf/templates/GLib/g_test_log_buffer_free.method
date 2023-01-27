@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GTestLogBufferP.free(this.ptr)
+    GTestLogBufferP.free(ptr)

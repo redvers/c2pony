@@ -1,0 +1,1 @@
+use @gtk_combo_box_popup[None](combo_box': NullablePointer[GtkComboBoxT])

@@ -1,0 +1,1 @@
+use @gtk_alternative_trigger_new[NullablePointer[GtkShortcutTriggerT]](first': NullablePointer[GtkShortcutTriggerT], second': NullablePointer[GtkShortcutTriggerT])

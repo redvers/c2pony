@@ -1,0 +1,1 @@
+use @g_dbus_proxy_set_interface_info[None](proxy': NullablePointer[GDBusProxyT], info': NullablePointer[GDBusInterfaceInfoT])

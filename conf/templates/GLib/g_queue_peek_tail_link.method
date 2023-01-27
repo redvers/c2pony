@@ -1,2 +1,2 @@
   fun ref peek_tail_link(): NullablePointer[GListT] =>
-    GQueueP.peek_tail_link(this.ptr)
+    GQueueP.peek_tail_link(ptr)

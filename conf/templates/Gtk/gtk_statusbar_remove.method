@@ -1,0 +1,2 @@
+  fun ref remove(context_id': U32, message_id': U32): None =>
+    GtkStatusbarP.remove(this, context_id', message_id')

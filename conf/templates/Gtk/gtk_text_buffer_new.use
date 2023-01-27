@@ -1,0 +1,1 @@
+use @gtk_text_buffer_new[NullablePointer[GtkTextBufferT]](table': NullablePointer[GtkTextTagTableT])

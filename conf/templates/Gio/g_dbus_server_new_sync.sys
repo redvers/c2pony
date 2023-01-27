@@ -1,0 +1,2 @@
+  fun new_sync(address': String, flags': U32, guid': String, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDBusServerT] =>
+    @g_dbus_server_new_sync(address'.cstring(), flags', guid'.cstring(), observer', cancellable', error')

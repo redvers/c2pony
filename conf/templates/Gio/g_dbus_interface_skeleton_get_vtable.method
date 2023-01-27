@@ -1,0 +1,2 @@
+  fun ref get_vtable(): NullablePointer[GDBusInterfaceVTableT] =>
+    GDBusInterfaceSkeletonP.get_vtable(this)

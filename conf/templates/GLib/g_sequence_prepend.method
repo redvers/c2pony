@@ -1,2 +1,2 @@
   fun ref prepend(data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
-    GSequenceP.prepend(this.ptr, data')
+    GSequenceP.prepend(ptr, data')

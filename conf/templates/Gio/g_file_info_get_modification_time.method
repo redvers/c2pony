@@ -1,0 +1,2 @@
+  fun ref get_modification_time(result': NullablePointer[GTimeValT]): None =>
+    GFileInfoP.get_modification_time(this, result')

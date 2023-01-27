@@ -1,0 +1,2 @@
+  new new(hostname': String, port': U16, priority': U16, weight': U16) =>
+    ptr = @g_srv_target_new(hostname'.cstring(), port', priority', weight')

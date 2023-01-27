@@ -1,0 +1,2 @@
+  fun get_actions(self': NullablePointer[GtkDropTargetT]): U32 =>
+    @gtk_drop_target_get_actions(self')

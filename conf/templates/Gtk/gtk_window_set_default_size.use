@@ -1,0 +1,1 @@
+use @gtk_window_set_default_size[None](window': NullablePointer[GObjectT], width': I32, height': I32)

@@ -1,0 +1,2 @@
+  fun new(source_object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, source_tag': Pointer[None] tag): NullablePointer[GSimpleAsyncResultT] =>
+    @g_simple_async_result_new(source_object', callback', user_data', source_tag')

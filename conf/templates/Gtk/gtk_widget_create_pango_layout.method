@@ -1,0 +1,2 @@
+  fun ref create_pango_layout(text': String): NullablePointer[PangoLayoutT] =>
+    GtkWidgetP.create_pango_layout(this, text')

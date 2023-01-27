@@ -1,0 +1,2 @@
+  fun get_has_selection(buffer': NullablePointer[GtkTextBufferT]): I32 =>
+    @gtk_text_buffer_get_has_selection(buffer')

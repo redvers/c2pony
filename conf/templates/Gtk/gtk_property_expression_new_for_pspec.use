@@ -1,0 +1,1 @@
+use @gtk_property_expression_new_for_pspec[NullablePointer[GtkExpressionT]](expression': NullablePointer[GtkExpressionT], pspec': NullablePointer[GParamSpecT])

@@ -1,0 +1,2 @@
+  fun new(orientation': U32): NullablePointer[GtkGestureT] =>
+    @gtk_gesture_pan_new(orientation')

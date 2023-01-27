@@ -1,0 +1,2 @@
+  fun ref get_marks(): NullablePointer[GSListT] =>
+    GtkTextIterP.get_marks(ptr)

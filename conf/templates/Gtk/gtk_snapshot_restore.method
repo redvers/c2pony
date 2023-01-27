@@ -1,0 +1,2 @@
+  fun ref restore(): None =>
+    P.restore(this)

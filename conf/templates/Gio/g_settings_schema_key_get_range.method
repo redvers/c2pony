@@ -1,0 +1,2 @@
+  fun ref get_range(): NullablePointer[GVariantT] =>
+    GSettingsSchemaKeyP.get_range(ptr)

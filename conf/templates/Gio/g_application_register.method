@@ -1,0 +1,2 @@
+  fun ref register(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GApplicationP.register(this, cancellable', error')

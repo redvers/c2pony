@@ -1,0 +1,2 @@
+  new new_custom(name': String, display_name': String, width': F64, height': F64, unit': U32) =>
+    ptr = @gtk_paper_size_new_custom(name'.cstring(), display_name'.cstring(), width', height', unit')

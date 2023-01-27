@@ -1,0 +1,1 @@
+use @gtk_expression_is_static[I32](self': NullablePointer[GtkExpressionT])

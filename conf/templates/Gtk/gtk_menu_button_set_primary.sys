@@ -1,0 +1,2 @@
+  fun set_primary(menu_button': NullablePointer[GtkMenuButtonT], primary': I32): None =>
+    @gtk_menu_button_set_primary(menu_button', primary')

@@ -1,0 +1,2 @@
+  fun content_type_get_generic_icon_name(type': String): String iso^ =>
+    String.from_cstring(@g_content_type_get_generic_icon_name(type'.cstring())).clone()

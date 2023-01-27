@@ -1,0 +1,1 @@
+use @gtk_entry_unset_invisible_char[None](entry': NullablePointer[GtkEntryT])

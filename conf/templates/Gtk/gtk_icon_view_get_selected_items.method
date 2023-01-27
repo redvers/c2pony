@@ -1,0 +1,2 @@
+  fun ref get_selected_items(): NullablePointer[GListT] =>
+    GtkIconViewP.get_selected_items(this)

@@ -1,0 +1,2 @@
+  fun unexport_menu_model(connection': NullablePointer[GDBusConnectionT], export_id': U32): None =>
+    @g_dbus_connection_unexport_menu_model(connection', export_id')

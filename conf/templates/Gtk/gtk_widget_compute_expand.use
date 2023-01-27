@@ -1,0 +1,1 @@
+use @gtk_widget_compute_expand[I32](widget': NullablePointer[GObjectT], orientation': U32)

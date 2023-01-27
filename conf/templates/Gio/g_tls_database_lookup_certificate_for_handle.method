@@ -1,0 +1,2 @@
+  fun ref lookup_certificate_for_handle(handle': String, interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GTlsCertificateT] =>
+    GTlsDatabaseP.lookup_certificate_for_handle(this, handle', interaction', flags', cancellable', error')

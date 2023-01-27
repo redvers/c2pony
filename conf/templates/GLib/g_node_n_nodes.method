@@ -1,2 +1,2 @@
   fun ref n_nodes(flags': U32): U32 =>
-    GNodeP.n_nodes(this.ptr, flags')
+    GNodeP.n_nodes(ptr, flags')

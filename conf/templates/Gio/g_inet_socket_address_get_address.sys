@@ -1,0 +1,2 @@
+  fun get_address(address': NullablePointer[GInetSocketAddressT]): NullablePointer[GInetAddressT] =>
+    @g_inet_socket_address_get_address(address')

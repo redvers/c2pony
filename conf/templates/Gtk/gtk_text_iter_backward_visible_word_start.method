@@ -1,0 +1,2 @@
+  fun ref backward_visible_word_start(): I32 =>
+    GtkTextIterP.backward_visible_word_start(ptr)

@@ -1,0 +1,1 @@
+use @gtk_text_buffer_get_iter_at_line_offset[I32](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], line_number': I32, char_offset': I32)

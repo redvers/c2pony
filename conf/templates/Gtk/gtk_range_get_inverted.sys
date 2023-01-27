@@ -1,0 +1,2 @@
+  fun get_inverted(range': NullablePointer[GtkRangeT]): I32 =>
+    @gtk_range_get_inverted(range')

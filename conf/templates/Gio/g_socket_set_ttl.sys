@@ -1,0 +1,2 @@
+  fun set_ttl(socket': NullablePointer[GSocketT], ttl': U32): None =>
+    @g_socket_set_ttl(socket', ttl')

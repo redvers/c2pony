@@ -1,0 +1,2 @@
+  fun set_required_version(area': NullablePointer[GtkGLAreaT], major': I32, minor': I32): None =>
+    @gtk_gl_area_set_required_version(area', major', minor')

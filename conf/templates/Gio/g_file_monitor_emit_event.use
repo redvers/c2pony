@@ -1,0 +1,1 @@
+use @g_file_monitor_emit_event[None](monitor': NullablePointer[GFileMonitorT], child': NullablePointer[GFileT], other_file': NullablePointer[GFileT], event_type': U32)

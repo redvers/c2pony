@@ -1,0 +1,2 @@
+  fun forward_cursor_position(iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_forward_cursor_position(iter')

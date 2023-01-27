@@ -1,0 +1,2 @@
+  fun ref insert(iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT], position': I32): None =>
+    GtkTreeStoreP.insert(this, iter', parent', position')

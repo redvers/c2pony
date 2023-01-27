@@ -1,0 +1,2 @@
+  fun set_display(window': GtkWindowI, display': NullablePointer[GdkDisplayT]): None =>
+    @gtk_window_set_display(window'.getptr(), display')

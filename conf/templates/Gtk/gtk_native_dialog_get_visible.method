@@ -1,0 +1,2 @@
+  fun ref get_visible(): I32 =>
+    GtkNativeDialogP.get_visible(this)

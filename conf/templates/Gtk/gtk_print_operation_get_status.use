@@ -1,0 +1,1 @@
+use @gtk_print_operation_get_status[U32](op': NullablePointer[GtkPrintOperationT])

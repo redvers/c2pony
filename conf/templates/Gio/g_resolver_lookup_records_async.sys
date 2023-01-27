@@ -1,0 +1,2 @@
+  fun lookup_records_async(resolver': NullablePointer[GResolverT], rrname': String, record_type': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_resolver_lookup_records_async(resolver', rrname'.cstring(), record_type', cancellable', callback', user_data')

@@ -1,0 +1,2 @@
+  fun ref cancel(): None =>
+    GtkPrintOperationP.cancel(this)

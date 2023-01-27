@@ -1,0 +1,1 @@
+use @g_subprocess_get_if_signaled[I32](subprocess': NullablePointer[GSubprocessT])

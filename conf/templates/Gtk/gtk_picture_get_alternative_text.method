@@ -1,0 +1,2 @@
+  fun ref get_alternative_text(): String iso^ =>
+    GtkPictureP.get_alternative_text(this)

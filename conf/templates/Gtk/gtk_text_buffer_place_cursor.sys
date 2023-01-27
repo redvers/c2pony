@@ -1,0 +1,2 @@
+  fun place_cursor(buffer': NullablePointer[GtkTextBufferT], where': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_buffer_place_cursor(buffer', where')

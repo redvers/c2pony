@@ -1,0 +1,2 @@
+  fun remove_window(window_group': NullablePointer[GtkWindowGroupT], window': GtkWindowI): None =>
+    @gtk_window_group_remove_window(window_group', window'.getptr())

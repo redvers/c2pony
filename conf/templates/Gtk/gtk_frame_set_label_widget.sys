@@ -1,0 +1,2 @@
+  fun set_label_widget(frame': NullablePointer[GtkFrameT], label_widget': GtkWidgetI): None =>
+    @gtk_frame_set_label_widget(frame', label_widget'.getptr())

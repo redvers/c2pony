@@ -1,0 +1,2 @@
+  fun ref create_context(): NullablePointer[GtkCellAreaContextT] =>
+    GtkCellAreaP.create_context(this)

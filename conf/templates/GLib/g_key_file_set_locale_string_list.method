@@ -1,2 +1,2 @@
   fun ref set_locale_string_list(group_name': String, key': String, locale': String, list': Pointer[Pointer[U8]] tag, length': U64): None =>
-    GKeyFileP.set_locale_string_list(this.ptr, group_name', key', locale', list', length')
+    GKeyFileP.set_locale_string_list(ptr, group_name', key', locale', list', length')

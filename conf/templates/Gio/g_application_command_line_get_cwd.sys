@@ -1,0 +1,2 @@
+  fun get_cwd(cmdline': NullablePointer[GApplicationCommandLineT]): String iso^ =>
+    String.from_cstring(@g_application_command_line_get_cwd(cmdline')).clone()

@@ -1,0 +1,1 @@
+use @gtk_dialog_new[NullablePointer[GObjectT]]()

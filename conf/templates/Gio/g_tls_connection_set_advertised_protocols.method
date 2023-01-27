@@ -1,0 +1,2 @@
+  fun ref set_advertised_protocols(protocols': Pointer[Pointer[U8]] tag): None =>
+    GTlsConnectionP.set_advertised_protocols(this, protocols')

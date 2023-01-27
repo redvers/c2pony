@@ -1,2 +1,2 @@
   fun ref setv(n_properties': U32, names': Pointer[Pointer[U8]] tag, values': NullablePointer[GValueT]): None =>
-    GObjectP.setv(this.ptr, n_properties', names', values')
+    GObjectP.setv(this, n_properties', names', values')

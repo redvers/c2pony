@@ -1,0 +1,2 @@
+  fun ref(info': NullablePointer[GtkRecentInfoT]): NullablePointer[GtkRecentInfoT] =>
+    @gtk_recent_info_ref(info')

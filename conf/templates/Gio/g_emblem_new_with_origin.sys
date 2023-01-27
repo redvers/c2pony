@@ -1,0 +1,2 @@
+  fun new_with_origin(icon': NullablePointer[GIconT], origin': U32): NullablePointer[GEmblemT] =>
+    @g_emblem_new_with_origin(icon', origin')

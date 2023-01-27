@@ -1,2 +1,2 @@
   fun ref set_int(v_int': I32): None =>
-    GValueP.set_int(this.ptr, v_int')
+    GValueP.set_int(ptr, v_int')

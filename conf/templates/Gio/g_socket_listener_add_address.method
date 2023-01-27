@@ -1,0 +1,2 @@
+  fun ref add_address(address': NullablePointer[GSocketAddressT], type': U32, protocol': I32, source_object': NullablePointer[GObjectT], effective_address': Pointer[NullablePointer[GSocketAddressT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GSocketListenerP.add_address(this, address', type', protocol', source_object', effective_address', error')

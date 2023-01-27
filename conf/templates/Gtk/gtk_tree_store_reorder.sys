@@ -1,0 +1,2 @@
+  fun reorder(tree_store': NullablePointer[GtkTreeStoreT], parent': NullablePointer[GtkTreeIterT], new_order': Pointer[I32] tag): None =>
+    @gtk_tree_store_reorder(tree_store', parent', new_order')

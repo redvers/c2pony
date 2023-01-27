@@ -1,0 +1,2 @@
+  fun get_child(self': NullablePointer[GtkStackPageT]): NullablePointer[GObjectT] =>
+@gtk_stack_page_get_child(self')

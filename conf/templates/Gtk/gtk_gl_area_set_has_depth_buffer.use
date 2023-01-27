@@ -1,0 +1,1 @@
+use @gtk_gl_area_set_has_depth_buffer[None](area': NullablePointer[GtkGLAreaT], has_depth_buffer': I32)

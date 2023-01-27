@@ -1,0 +1,1 @@
+use @g_settings_new_full[NullablePointer[GSettingsT]](schema': NullablePointer[GSettingsSchemaT], backend': NullablePointer[GSettingsBackendT], path': Pointer[U8] tag)

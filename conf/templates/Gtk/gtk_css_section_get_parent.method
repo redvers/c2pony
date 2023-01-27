@@ -1,0 +1,2 @@
+  fun ref get_parent(): NullablePointer[GtkCssSectionT] =>
+    GtkCssSectionP.get_parent(ptr)

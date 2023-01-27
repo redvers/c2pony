@@ -1,0 +1,2 @@
+  fun ref get_deletion_date(): NullablePointer[GDateTimeT] =>
+    GFileInfoP.get_deletion_date(this)

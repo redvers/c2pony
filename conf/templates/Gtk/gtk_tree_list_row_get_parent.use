@@ -1,0 +1,1 @@
+use @gtk_tree_list_row_get_parent[NullablePointer[GtkTreeListRowT]](self': NullablePointer[GtkTreeListRowT])

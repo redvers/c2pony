@@ -1,0 +1,2 @@
+  fun get_label_widget(expander': NullablePointer[GtkExpanderT]): NullablePointer[GObjectT] =>
+@gtk_expander_get_label_widget(expander')

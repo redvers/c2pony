@@ -1,0 +1,2 @@
+  fun new(expression': NullablePointer[GtkExpressionT]): NullablePointer[GtkStringSorterT] =>
+    @gtk_string_sorter_new(expression')

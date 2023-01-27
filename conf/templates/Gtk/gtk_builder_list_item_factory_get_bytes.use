@@ -1,0 +1,1 @@
+use @gtk_builder_list_item_factory_get_bytes[NullablePointer[GBytesT]](self': NullablePointer[GtkBuilderListItemFactoryT])

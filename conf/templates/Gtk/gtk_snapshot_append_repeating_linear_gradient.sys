@@ -1,0 +1,2 @@
+  fun append_repeating_linear_gradient(snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT], start_point': NullablePointer[graphenepointtT], end_point': NullablePointer[graphenepointtT], stops': NullablePointer[GskColorStopT], n_stops': U64): None =>
+    @gtk_snapshot_append_repeating_linear_gradient(snapshot', bounds', start_point', end_point', stops', n_stops')

@@ -1,0 +1,1 @@
+use @gtk_picture_set_file[None](self': NullablePointer[GtkPictureT], file': NullablePointer[GFileT])

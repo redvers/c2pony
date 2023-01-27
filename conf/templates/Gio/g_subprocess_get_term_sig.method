@@ -1,0 +1,2 @@
+  fun ref get_term_sig(): I32 =>
+    GSubprocessP.get_term_sig(this)

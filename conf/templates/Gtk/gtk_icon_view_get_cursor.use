@@ -1,0 +1,1 @@
+use @gtk_icon_view_get_cursor[I32](icon_view': NullablePointer[GtkIconViewT], path': Pointer[NullablePointer[GtkTreePathT]], cell': Pointer[NullablePointer[GtkCellRendererT]])

@@ -1,0 +1,1 @@
+use @gtk_tree_view_set_search_equal_func[None](tree_view': NullablePointer[GtkTreeViewT], search_equal_func': GtkTreeViewSearchEqualFunc, search_user_data': Pointer[None] tag, search_destroy': Pointer[None])

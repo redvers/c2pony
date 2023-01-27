@@ -1,0 +1,2 @@
+  fun ref translate(point': NullablePointer[graphenepointtT]): None =>
+    P.translate(this, point')

@@ -1,2 +1,2 @@
   fun ref set_param_take_ownership(param': NullablePointer[GParamSpecT]): None =>
-    GValueP.set_param_take_ownership(this.ptr, param')
+    GValueP.set_param_take_ownership(ptr, param')

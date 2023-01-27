@@ -1,0 +1,2 @@
+  fun ref bind_model(model': NullablePointer[GListModelT], create_widget_func': GtkListBoxCreateWidgetFunc, user_data': Pointer[None] tag, user_data_free_func': Pointer[None]): None =>
+    GtkListBoxP.bind_model(this, model', create_widget_func', user_data', user_data_free_func')

@@ -1,0 +1,1 @@
+use @g_simple_action_group_lookup[NullablePointer[GActionT]](simple': NullablePointer[GSimpleActionGroupT], action_name': Pointer[U8] tag)

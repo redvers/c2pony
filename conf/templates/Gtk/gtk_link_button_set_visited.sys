@@ -1,0 +1,2 @@
+  fun set_visited(link_button': NullablePointer[GtkLinkButtonT], visited': I32): None =>
+    @gtk_link_button_set_visited(link_button', visited')

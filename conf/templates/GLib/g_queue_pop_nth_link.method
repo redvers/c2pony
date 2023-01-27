@@ -1,2 +1,2 @@
   fun ref pop_nth_link(n': U32): NullablePointer[GListT] =>
-    GQueueP.pop_nth_link(this.ptr, n')
+    GQueueP.pop_nth_link(ptr, n')

@@ -1,0 +1,1 @@
+use @gtk_widget_measure[None](widget': NullablePointer[GObjectT], orientation': U32, for_size': I32, minimum': Pointer[I32] tag, natural': Pointer[I32] tag, minimum_baseline': Pointer[I32] tag, natural_baseline': Pointer[I32] tag)

@@ -1,0 +1,1 @@
+use @gtk_builder_add_from_file[I32](builder': NullablePointer[GObjectT], filename': Pointer[U8] tag, error': NullablePointer[GErrorT])

@@ -1,0 +1,2 @@
+  fun ref insert_column_with_data_func(position': I32, title': String, cell': NullablePointer[GtkCellRendererT], func': GtkTreeCellDataFunc, data': Pointer[None] tag, dnotify': Pointer[None]): I32 =>
+    GtkTreeViewP.insert_column_with_data_func(this, position', title', cell', func', data', dnotify')

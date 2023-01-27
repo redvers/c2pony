@@ -1,2 +1,2 @@
   fun ref get_normal_form(): NullablePointer[GVariantT] =>
-    GVariantP.get_normal_form(this.ptr)
+    GVariantP.get_normal_form(ptr)

@@ -1,0 +1,2 @@
+  fun ref ref(): NullablePointer[GtkBitsetT] =>
+    GtkBitsetP.ref(ptr)

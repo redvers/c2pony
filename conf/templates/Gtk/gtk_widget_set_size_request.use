@@ -1,0 +1,1 @@
+use @gtk_widget_set_size_request[None](widget': NullablePointer[GObjectT], width': I32, height': I32)

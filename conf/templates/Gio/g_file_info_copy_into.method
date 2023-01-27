@@ -1,0 +1,2 @@
+  fun ref copy_into(dest_info': NullablePointer[GFileInfoT]): None =>
+    GFileInfoP.copy_into(this, dest_info')

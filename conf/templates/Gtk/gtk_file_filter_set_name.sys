@@ -1,0 +1,2 @@
+  fun set_name(filter': NullablePointer[GtkFileFilterT], name': String): None =>
+    @gtk_file_filter_set_name(filter', name'.cstring())

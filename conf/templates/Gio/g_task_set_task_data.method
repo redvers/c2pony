@@ -1,0 +1,2 @@
+  fun ref set_task_data(task_data': Pointer[None] tag, task_data_destroy': Pointer[None]): None =>
+    GTaskP.set_task_data(this, task_data', task_data_destroy')

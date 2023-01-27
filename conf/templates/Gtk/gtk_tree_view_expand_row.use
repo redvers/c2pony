@@ -1,0 +1,1 @@
+use @gtk_tree_view_expand_row[I32](tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], open_all': I32)

@@ -1,0 +1,2 @@
+  fun copy(requisition': NullablePointer[GtkRequisitionT]): NullablePointer[GtkRequisitionT] =>
+    @gtk_requisition_copy(requisition')

@@ -1,0 +1,2 @@
+  fun ref set_tabs(tabs': NullablePointer[PangoTabArrayT]): None =>
+    GtkTextP.set_tabs(this, tabs')

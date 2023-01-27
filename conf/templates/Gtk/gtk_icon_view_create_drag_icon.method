@@ -1,0 +1,2 @@
+  fun ref create_drag_icon(path': NullablePointer[GtkTreePathT]): NullablePointer[GdkPaintableT] =>
+    GtkIconViewP.create_drag_icon(this, path')

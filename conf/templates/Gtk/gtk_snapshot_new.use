@@ -1,0 +1,1 @@
+use @gtk_snapshot_new[NullablePointer[GdkSnapshotT]]()

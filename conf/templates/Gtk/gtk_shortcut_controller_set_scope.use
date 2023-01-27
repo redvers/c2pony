@@ -1,0 +1,1 @@
+use @gtk_shortcut_controller_set_scope[None](self': NullablePointer[GtkShortcutControllerT], scope': U32)

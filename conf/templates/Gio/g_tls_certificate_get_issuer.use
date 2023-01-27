@@ -1,0 +1,1 @@
+use @g_tls_certificate_get_issuer[NullablePointer[GTlsCertificateT]](cert': NullablePointer[GTlsCertificateT])

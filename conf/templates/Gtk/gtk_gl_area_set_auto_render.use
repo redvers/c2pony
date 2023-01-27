@@ -1,0 +1,1 @@
+use @gtk_gl_area_set_auto_render[None](area': NullablePointer[GtkGLAreaT], auto_render': I32)

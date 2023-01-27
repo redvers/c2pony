@@ -1,0 +1,2 @@
+  fun set_direction(menu_button': NullablePointer[GtkMenuButtonT], direction': U32): None =>
+    @gtk_menu_button_set_direction(menu_button', direction')

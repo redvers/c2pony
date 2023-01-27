@@ -1,0 +1,2 @@
+  fun get_touch_only(gesture': NullablePointer[GtkGestureSingleT]): I32 =>
+    @gtk_gesture_single_get_touch_only(gesture')

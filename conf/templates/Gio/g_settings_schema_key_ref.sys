@@ -1,0 +1,2 @@
+  fun ref(key': NullablePointer[GSettingsSchemaKeyT]): NullablePointer[GSettingsSchemaKeyT] =>
+    @g_settings_schema_key_ref(key')

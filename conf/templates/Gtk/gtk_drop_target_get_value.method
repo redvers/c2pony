@@ -1,0 +1,2 @@
+  fun ref get_value(): NullablePointer[GValueT] =>
+    GtkDropTargetP.get_value(this)

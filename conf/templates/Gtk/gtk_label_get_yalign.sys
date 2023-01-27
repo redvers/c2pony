@@ -1,0 +1,2 @@
+  fun get_yalign(self': NullablePointer[GtkLabelT]): F32 =>
+    @gtk_label_get_yalign(self')

@@ -1,0 +1,2 @@
+  fun ref get_link(link': String): NullablePointer[GMenuModelT] =>
+    GMenuItemP.get_link(this, link')

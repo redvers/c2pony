@@ -1,0 +1,2 @@
+  fun get_connection(proxy': NullablePointer[GDBusProxyT]): NullablePointer[GDBusConnectionT] =>
+    @g_dbus_proxy_get_connection(proxy')

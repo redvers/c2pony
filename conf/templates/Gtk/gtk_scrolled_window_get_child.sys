@@ -1,0 +1,2 @@
+  fun get_child(scrolled_window': NullablePointer[GtkScrolledWindowT]): NullablePointer[GObjectT] =>
+@gtk_scrolled_window_get_child(scrolled_window')

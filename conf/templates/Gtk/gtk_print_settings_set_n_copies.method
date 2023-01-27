@@ -1,0 +1,2 @@
+  fun ref set_n_copies(num_copies': I32): None =>
+    GtkPrintSettingsP.set_n_copies(this, num_copies')

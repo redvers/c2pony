@@ -1,0 +1,2 @@
+  fun get_bytes(icon': NullablePointer[GBytesIconT]): NullablePointer[GBytesT] =>
+    @g_bytes_icon_get_bytes(icon')

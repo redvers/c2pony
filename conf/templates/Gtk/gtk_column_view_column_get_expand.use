@@ -1,0 +1,1 @@
+use @gtk_column_view_column_get_expand[I32](self': NullablePointer[GtkColumnViewColumnT])

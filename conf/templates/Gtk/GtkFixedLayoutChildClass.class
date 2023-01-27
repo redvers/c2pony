@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkFixedLayoutChildClass
+  var ptr: NullablePointer[GtkFixedLayoutChildClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkFixedLayoutChildClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkFixedLayoutChildClassT]) => ptr = ptr'

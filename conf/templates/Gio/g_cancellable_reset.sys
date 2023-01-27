@@ -1,0 +1,2 @@
+  fun reset(cancellable': NullablePointer[GCancellableT]): None =>
+    @g_cancellable_reset(cancellable')

@@ -1,0 +1,1 @@
+use @g_dbus_gvalue_to_gvariant[NullablePointer[GVariantT]](gvalue': NullablePointer[GValueT], type': NullablePointer[GVariantTypeT])

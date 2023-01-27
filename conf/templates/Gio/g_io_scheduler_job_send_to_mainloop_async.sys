@@ -1,0 +1,2 @@
+  fun send_to_mainloop_async(job': NullablePointer[GIOSchedulerJobT], func': GSourceFunc, user_data': Pointer[None] tag, notify': Pointer[None]): None =>
+    @g_io_scheduler_job_send_to_mainloop_async(job', func', user_data', notify')

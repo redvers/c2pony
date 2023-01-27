@@ -1,0 +1,1 @@
+use @gtk_icon_paintable_new_for_file[NullablePointer[GtkIconPaintableT]](file': NullablePointer[GFileT], size': I32, scale': I32)

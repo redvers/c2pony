@@ -1,0 +1,2 @@
+  fun get_stdout_pipe(subprocess': NullablePointer[GSubprocessT]): NullablePointer[GInputStreamT] =>
+    @g_subprocess_get_stdout_pipe(subprocess')

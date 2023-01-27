@@ -1,0 +1,1 @@
+use @gtk_search_bar_get_key_capture_widget[NullablePointer[GObjectT]](bar': NullablePointer[GtkSearchBarT])

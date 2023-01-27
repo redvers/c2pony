@@ -1,0 +1,2 @@
+  fun register(resource': NullablePointer[GResourceT]): None =>
+    @g_resources_register(resource')

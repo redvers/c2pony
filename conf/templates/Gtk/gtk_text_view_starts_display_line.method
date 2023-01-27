@@ -1,0 +1,2 @@
+  fun ref starts_display_line(iter': NullablePointer[GtkTextIterT]): I32 =>
+    GtkTextViewP.starts_display_line(this, iter')

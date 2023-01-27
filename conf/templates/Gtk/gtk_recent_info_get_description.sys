@@ -1,0 +1,2 @@
+  fun get_description(info': NullablePointer[GtkRecentInfoT]): String iso^ =>
+    String.from_cstring(@gtk_recent_info_get_description(info')).clone()

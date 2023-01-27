@@ -1,0 +1,2 @@
+  fun content_type_get_mime_type(type': String): String iso^ =>
+    String.from_cstring(@g_content_type_get_mime_type(type'.cstring())).clone()

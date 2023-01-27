@@ -1,0 +1,1 @@
+use @gtk_text_get_extra_menu[NullablePointer[GMenuModelT]](self': NullablePointer[GtkTextT])

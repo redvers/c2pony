@@ -1,0 +1,1 @@
+use @gtk_window_get_handle_menubar_accel[I32](window': NullablePointer[GObjectT])

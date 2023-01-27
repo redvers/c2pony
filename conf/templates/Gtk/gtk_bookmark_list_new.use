@@ -1,0 +1,1 @@
+use @gtk_bookmark_list_new[NullablePointer[GtkBookmarkListT]](filename': Pointer[U8] tag, attributes': Pointer[U8] tag)

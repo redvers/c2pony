@@ -1,0 +1,2 @@
+  fun unselect_range(selection': NullablePointer[GtkTreeSelectionT], start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_tree_selection_unselect_range(selection', start_path', end_path')

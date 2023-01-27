@@ -1,0 +1,2 @@
+  fun delete_mark(buffer': NullablePointer[GtkTextBufferT], mark': NullablePointer[GtkTextMarkT]): None =>
+    @gtk_text_buffer_delete_mark(buffer', mark')

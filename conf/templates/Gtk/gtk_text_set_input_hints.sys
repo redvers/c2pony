@@ -1,0 +1,2 @@
+  fun set_input_hints(self': NullablePointer[GtkTextT], hints': U32): None =>
+    @gtk_text_set_input_hints(self', hints')

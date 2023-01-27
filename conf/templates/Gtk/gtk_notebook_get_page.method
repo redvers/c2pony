@@ -1,0 +1,2 @@
+  fun ref get_page(child': GtkWidgetI): NullablePointer[GtkNotebookPageT] =>
+    GtkNotebookP.get_page(this, child')

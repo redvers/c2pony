@@ -1,0 +1,2 @@
+  fun trigger(self': NullablePointer[GtkShortcutTriggerT], event': NullablePointer[GdkEventT], enable_mnemonics': I32): U32 =>
+    @gtk_shortcut_trigger_trigger(self', event', enable_mnemonics')

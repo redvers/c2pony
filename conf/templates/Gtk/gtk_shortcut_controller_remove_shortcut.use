@@ -1,0 +1,1 @@
+use @gtk_shortcut_controller_remove_shortcut[None](self': NullablePointer[GtkShortcutControllerT], shortcut': NullablePointer[GtkShortcutT])

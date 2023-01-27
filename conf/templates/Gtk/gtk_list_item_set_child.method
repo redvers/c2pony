@@ -1,0 +1,2 @@
+  fun ref set_child(child': GtkWidgetI): None =>
+    GtkListItemP.set_child(this, child')

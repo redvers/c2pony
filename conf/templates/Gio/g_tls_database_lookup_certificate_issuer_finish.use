@@ -1,0 +1,1 @@
+use @g_tls_database_lookup_certificate_issuer_finish[NullablePointer[GTlsCertificateT]](self': NullablePointer[GTlsDatabaseT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])

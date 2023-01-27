@@ -1,0 +1,1 @@
+use @g_memory_output_stream_steal_data[Pointer[None] tag](ostream': NullablePointer[GMemoryOutputStreamT])

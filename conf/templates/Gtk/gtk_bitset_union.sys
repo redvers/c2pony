@@ -1,0 +1,2 @@
+  fun union(self': NullablePointer[GtkBitsetT], other': NullablePointer[GtkBitsetT]): None =>
+    @gtk_bitset_union(self', other')

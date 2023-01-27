@@ -1,0 +1,2 @@
+  fun print(cmdline': NullablePointer[GApplicationCommandLineT], format': String, ...): None =>
+    @g_application_command_line_print(cmdline', format'.cstring(), ...)

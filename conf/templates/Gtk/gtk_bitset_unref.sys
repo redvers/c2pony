@@ -1,0 +1,2 @@
+  fun unref(self': NullablePointer[GtkBitsetT]): None =>
+    @gtk_bitset_unref(self')

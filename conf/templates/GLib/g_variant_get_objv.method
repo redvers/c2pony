@@ -1,2 +1,2 @@
   fun ref get_objv(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
-    GVariantP.get_objv(this.ptr, length')
+    GVariantP.get_objv(ptr, length')

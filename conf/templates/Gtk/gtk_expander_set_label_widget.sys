@@ -1,0 +1,2 @@
+  fun set_label_widget(expander': NullablePointer[GtkExpanderT], label_widget': GtkWidgetI): None =>
+    @gtk_expander_set_label_widget(expander', label_widget'.getptr())

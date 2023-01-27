@@ -1,0 +1,2 @@
+  fun ref get_active_id(): String iso^ =>
+    GtkComboBoxP.get_active_id(this)

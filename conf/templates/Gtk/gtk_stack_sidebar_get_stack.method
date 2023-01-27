@@ -1,0 +1,2 @@
+  fun ref get_stack(): NullablePointer[GtkStackT] =>
+    GtkStackSidebarP.get_stack(this)

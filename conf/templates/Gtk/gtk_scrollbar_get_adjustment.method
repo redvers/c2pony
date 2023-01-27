@@ -1,0 +1,2 @@
+  fun ref get_adjustment(): NullablePointer[GtkAdjustmentT] =>
+    GtkScrollbarP.get_adjustment(this)

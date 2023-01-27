@@ -1,0 +1,2 @@
+  fun ref get_label_widget(): NullablePointer[GObjectT] =>
+    GtkExpanderP.get_label_widget(this)

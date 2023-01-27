@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GDBusSubtreeVTable
+  var ptr: NullablePointer[GDBusSubtreeVTableT]
+
+  new create() =>
+    ptr = NullablePointer[GDBusSubtreeVTableT].none()
+  new create_from_ptr(ptr': NullablePointer[GDBusSubtreeVTableT]) => ptr = ptr'

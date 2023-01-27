@@ -1,0 +1,1 @@
+use @gtk_text_buffer_remove_all_tags[None](buffer': NullablePointer[GtkTextBufferT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT])

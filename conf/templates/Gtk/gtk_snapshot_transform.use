@@ -1,0 +1,1 @@
+use @gtk_snapshot_transform[None](snapshot': NullablePointer[GdkSnapshotT], transform': NullablePointer[GskTransformT])

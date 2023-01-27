@@ -1,0 +1,1 @@
+use @gtk_about_dialog_set_license[None](about': NullablePointer[GtkAboutDialogT], license': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun add_mnemonic_label(widget': GtkWidgetI, label': GtkWidgetI): None =>
+    @gtk_widget_add_mnemonic_label(widget'.getptr(), label'.getptr())

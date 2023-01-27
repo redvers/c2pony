@@ -1,0 +1,2 @@
+  fun ref(list': NullablePointer[GFileAttributeInfoListT]): NullablePointer[GFileAttributeInfoListT] =>
+    @g_file_attribute_info_list_ref(list')

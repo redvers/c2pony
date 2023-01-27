@@ -1,0 +1,2 @@
+  fun is_closed(connection': NullablePointer[GDBusConnectionT]): I32 =>
+    @g_dbus_connection_is_closed(connection')

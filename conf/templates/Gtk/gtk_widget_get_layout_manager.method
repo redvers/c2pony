@@ -1,0 +1,2 @@
+  fun ref get_layout_manager(): NullablePointer[GtkLayoutManagerT] =>
+    GtkWidgetP.get_layout_manager(this)

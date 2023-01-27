@@ -1,0 +1,2 @@
+  fun get_destination(message': NullablePointer[GDBusMessageT]): String iso^ =>
+    String.from_cstring(@g_dbus_message_get_destination(message')).clone()

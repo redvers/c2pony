@@ -1,0 +1,2 @@
+  fun get_primary_clipboard(widget': GtkWidgetI): NullablePointer[GdkClipboardT] =>
+    @gtk_widget_get_primary_clipboard(widget'.getptr())

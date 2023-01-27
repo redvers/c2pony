@@ -1,0 +1,2 @@
+  fun ref get_offset(): I32 =>
+    GtkTextIterP.get_offset(ptr)

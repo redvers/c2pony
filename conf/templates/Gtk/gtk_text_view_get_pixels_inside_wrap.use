@@ -1,0 +1,1 @@
+use @gtk_text_view_get_pixels_inside_wrap[I32](text_view': NullablePointer[GtkTextViewT])

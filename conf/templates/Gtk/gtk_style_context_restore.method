@@ -1,0 +1,2 @@
+  fun ref restore(): None =>
+    GtkStyleContextP.restore(this)

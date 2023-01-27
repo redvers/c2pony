@@ -1,0 +1,2 @@
+  fun get_pango_fontmap(context': NullablePointer[GtkPrintContextT]): NullablePointer[PangoFontMapT] =>
+    @gtk_print_context_get_pango_fontmap(context')

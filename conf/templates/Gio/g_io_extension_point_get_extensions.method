@@ -1,0 +1,2 @@
+  fun ref get_extensions(): NullablePointer[GListT] =>
+    GIOExtensionPointP.get_extensions(ptr)

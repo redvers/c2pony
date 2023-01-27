@@ -1,0 +1,1 @@
+use @gtk_list_box_append[None](box': NullablePointer[GtkListBoxT], child': NullablePointer[GObjectT])

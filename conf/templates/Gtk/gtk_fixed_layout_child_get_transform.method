@@ -1,0 +1,2 @@
+  fun ref get_transform(): NullablePointer[GskTransformT] =>
+    GtkFixedLayoutChildP.get_transform(this)

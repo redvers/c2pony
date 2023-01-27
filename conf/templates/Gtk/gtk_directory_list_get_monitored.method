@@ -1,0 +1,2 @@
+  fun ref get_monitored(): I32 =>
+    GtkDirectoryListP.get_monitored(this)

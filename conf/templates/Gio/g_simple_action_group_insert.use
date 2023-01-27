@@ -1,0 +1,1 @@
+use @g_simple_action_group_insert[None](simple': NullablePointer[GSimpleActionGroupT], action': NullablePointer[GActionT])

@@ -1,0 +1,2 @@
+  fun get_use_size(font_button': NullablePointer[GtkFontButtonT]): I32 =>
+    @gtk_font_button_get_use_size(font_button')

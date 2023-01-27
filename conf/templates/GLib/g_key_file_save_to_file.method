@@ -1,2 +1,2 @@
   fun ref save_to_file(filename': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    GKeyFileP.save_to_file(this.ptr, filename', error')
+    GKeyFileP.save_to_file(ptr, filename', error')

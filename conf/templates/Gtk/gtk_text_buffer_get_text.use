@@ -1,0 +1,1 @@
+use @gtk_text_buffer_get_text[Pointer[U8]](buffer': NullablePointer[GtkTextBufferT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT], include_hidden_chars': I32)

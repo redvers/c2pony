@@ -1,0 +1,2 @@
+  fun set_tip_area(tooltip': NullablePointer[GtkTooltipT], rect': NullablePointer[cairorectangleintT]): None =>
+    @gtk_tooltip_set_tip_area(tooltip', rect')

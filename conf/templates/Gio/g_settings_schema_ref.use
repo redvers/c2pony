@@ -1,0 +1,1 @@
+use @g_settings_schema_ref[NullablePointer[GSettingsSchemaT]](schema': NullablePointer[GSettingsSchemaT])

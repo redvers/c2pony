@@ -1,0 +1,2 @@
+  fun lookup_method(info': NullablePointer[GDBusInterfaceInfoT], name': String): NullablePointer[GDBusMethodInfoT] =>
+    @g_dbus_interface_info_lookup_method(info', name'.cstring())

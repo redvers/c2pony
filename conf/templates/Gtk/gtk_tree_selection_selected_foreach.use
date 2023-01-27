@@ -1,0 +1,1 @@
+use @gtk_tree_selection_selected_foreach[None](selection': NullablePointer[GtkTreeSelectionT], func': GtkTreeSelectionForeachFunc, data': Pointer[None] tag)

@@ -1,0 +1,1 @@
+use @gtk_stack_get_vhomogeneous[I32](stack': NullablePointer[GtkStackT])

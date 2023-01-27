@@ -1,0 +1,2 @@
+  fun ref get_pointing_to(rect': NullablePointer[cairorectangleintT]): I32 =>
+    GtkPopoverP.get_pointing_to(this, rect')

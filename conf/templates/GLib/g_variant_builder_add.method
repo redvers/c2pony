@@ -1,2 +1,2 @@
   fun ref add(format_string': String, ...): None =>
-    GVariantBuilderP.add(this.ptr, format_string', ...)
+    GVariantBuilderP.add(ptr, format_string', ...)

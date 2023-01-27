@@ -1,0 +1,1 @@
+use @gtk_spin_button_get_increments[None](spin_button': NullablePointer[GtkSpinButtonT], step': Pointer[F64] tag, page': Pointer[F64] tag)

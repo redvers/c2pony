@@ -1,0 +1,2 @@
+  fun ref set_submenu(submenu': NullablePointer[GMenuModelT]): None =>
+    GMenuItemP.set_submenu(this, submenu')

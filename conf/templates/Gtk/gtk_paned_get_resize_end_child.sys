@@ -1,0 +1,2 @@
+  fun get_resize_end_child(paned': NullablePointer[GtkPanedT]): I32 =>
+    @gtk_paned_get_resize_end_child(paned')

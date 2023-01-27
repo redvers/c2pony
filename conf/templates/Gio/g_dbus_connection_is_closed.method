@@ -1,0 +1,2 @@
+  fun ref is_closed(): I32 =>
+    GDBusConnectionP.is_closed(this)

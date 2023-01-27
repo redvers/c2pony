@@ -1,0 +1,2 @@
+  fun ref convert_iter_to_child_iter(child_iter': NullablePointer[GtkTreeIterT], filter_iter': NullablePointer[GtkTreeIterT]): None =>
+    GtkTreeModelFilterP.convert_iter_to_child_iter(this, child_iter', filter_iter')

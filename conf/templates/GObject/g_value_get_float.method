@@ -1,2 +1,2 @@
   fun ref get_float(): F32 =>
-    GValueP.get_float(this.ptr)
+    GValueP.get_float(ptr)

@@ -1,0 +1,1 @@
+use @gtk_entry_set_icon_from_gicon[None](entry': NullablePointer[GtkEntryT], icon_pos': U32, icon': NullablePointer[GIconT])

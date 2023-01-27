@@ -1,0 +1,2 @@
+  fun get_headers_visible(tree_view': NullablePointer[GtkTreeViewT]): I32 =>
+    @gtk_tree_view_get_headers_visible(tree_view')

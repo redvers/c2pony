@@ -1,0 +1,2 @@
+  fun set_child(viewport': NullablePointer[GtkViewportT], child': GtkWidgetI): None =>
+    @gtk_viewport_set_child(viewport', child'.getptr())

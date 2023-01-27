@@ -1,0 +1,2 @@
+  fun set_range(spin_button': NullablePointer[GtkSpinButtonT], min': F64, max': F64): None =>
+    @gtk_spin_button_set_range(spin_button', min', max')

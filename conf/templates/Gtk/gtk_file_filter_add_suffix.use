@@ -1,0 +1,1 @@
+use @gtk_file_filter_add_suffix[None](filter': NullablePointer[GtkFileFilterT], suffix': Pointer[U8] tag)

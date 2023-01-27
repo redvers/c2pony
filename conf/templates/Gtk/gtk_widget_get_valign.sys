@@ -1,0 +1,2 @@
+  fun get_valign(widget': GtkWidgetI): U32 =>
+    @gtk_widget_get_valign(widget'.getptr())

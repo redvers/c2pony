@@ -1,0 +1,1 @@
+use @gtk_text_iter_set_line[None](iter': NullablePointer[GtkTextIterT], line_number': I32)

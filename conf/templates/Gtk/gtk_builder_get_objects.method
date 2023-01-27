@@ -1,0 +1,2 @@
+  fun ref get_objects(): NullablePointer[GSListT] =>
+    GtkBuilderP.get_objects(this)

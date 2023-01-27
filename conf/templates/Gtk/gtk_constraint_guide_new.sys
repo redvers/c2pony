@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkConstraintGuideT] =>
+    @gtk_constraint_guide_new()

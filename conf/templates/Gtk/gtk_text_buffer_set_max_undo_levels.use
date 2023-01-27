@@ -1,0 +1,1 @@
+use @gtk_text_buffer_set_max_undo_levels[None](buffer': NullablePointer[GtkTextBufferT], max_undo_levels': U32)

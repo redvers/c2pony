@@ -1,0 +1,1 @@
+use @gtk_gesture_pan_set_orientation[None](gesture': NullablePointer[GtkGesturePanT], orientation': U32)

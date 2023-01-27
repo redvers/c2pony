@@ -1,0 +1,2 @@
+  fun get_widget_for_response(dialog': NullablePointer[GtkDialogT], response_id': I32): NullablePointer[GObjectT] =>
+@gtk_dialog_get_widget_for_response(dialog', response_id')

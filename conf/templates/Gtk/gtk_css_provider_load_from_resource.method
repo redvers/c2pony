@@ -1,0 +1,2 @@
+  fun ref load_from_resource(resource_path': String): None =>
+    GtkCssProviderP.load_from_resource(this, resource_path')

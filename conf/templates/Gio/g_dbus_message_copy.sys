@@ -1,0 +1,2 @@
+  fun copy(message': NullablePointer[GDBusMessageT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDBusMessageT] =>
+    @g_dbus_message_copy(message', error')

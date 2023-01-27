@@ -1,0 +1,2 @@
+  fun compute_bounds(widget': GtkWidgetI, target': GtkWidgetI, out_bounds': NullablePointer[graphenerecttT]): I32 =>
+    @gtk_widget_compute_bounds(widget'.getptr(), target'.getptr(), out_bounds')

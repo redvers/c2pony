@@ -1,0 +1,2 @@
+  fun get_selection_bounds(self': NullablePointer[GtkLabelT], start': Pointer[I32] tag, end': Pointer[I32] tag): I32 =>
+    @gtk_label_get_selection_bounds(self', start', end')

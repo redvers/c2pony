@@ -1,0 +1,2 @@
+  fun ref get_keyval(): U32 =>
+    GtkMnemonicTriggerP.get_keyval(this)

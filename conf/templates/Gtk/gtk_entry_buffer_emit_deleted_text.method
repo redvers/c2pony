@@ -1,0 +1,2 @@
+  fun ref emit_deleted_text(position': U32, n_chars': U32): None =>
+    GtkEntryBufferP.emit_deleted_text(this, position', n_chars')

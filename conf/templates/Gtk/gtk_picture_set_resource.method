@@ -1,0 +1,2 @@
+  fun ref set_resource(resource_path': String): None =>
+    GtkPictureP.set_resource(this, resource_path')

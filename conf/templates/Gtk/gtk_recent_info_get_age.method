@@ -1,0 +1,2 @@
+  fun ref get_age(): I32 =>
+    GtkRecentInfoP.get_age(ptr)

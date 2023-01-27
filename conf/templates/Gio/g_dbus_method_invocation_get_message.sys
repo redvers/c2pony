@@ -1,0 +1,2 @@
+  fun get_message(invocation': NullablePointer[GDBusMethodInvocationT]): NullablePointer[GDBusMessageT] =>
+    @g_dbus_method_invocation_get_message(invocation')

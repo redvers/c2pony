@@ -1,0 +1,1 @@
+use @gtk_entry_set_icon_activatable[None](entry': NullablePointer[GtkEntryT], icon_pos': U32, activatable': I32)

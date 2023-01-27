@@ -1,0 +1,1 @@
+use @gtk_recent_manager_move_item[I32](manager': NullablePointer[GtkRecentManagerT], uri': Pointer[U8] tag, new_uri': Pointer[U8] tag, error': NullablePointer[GErrorT])

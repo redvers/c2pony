@@ -1,0 +1,2 @@
+  fun close(socket': NullablePointer[GSocketT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_close(socket', error')

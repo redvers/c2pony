@@ -1,0 +1,1 @@
+use @gtk_column_view_set_single_click_activate[None](self': NullablePointer[GtkColumnViewT], single_click_activate': I32)

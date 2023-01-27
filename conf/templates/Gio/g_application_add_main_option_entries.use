@@ -1,0 +1,1 @@
+use @g_application_add_main_option_entries[None](application': NullablePointer[GObjectT], entries': NullablePointer[GOptionEntryT])

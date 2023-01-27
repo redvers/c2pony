@@ -1,0 +1,2 @@
+  fun newv(argv': Pointer[Pointer[U8]] tag, flags': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSubprocessT] =>
+    @g_subprocess_newv(argv', flags', error')

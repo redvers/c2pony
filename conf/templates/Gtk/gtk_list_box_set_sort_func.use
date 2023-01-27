@@ -1,0 +1,1 @@
+use @gtk_list_box_set_sort_func[None](box': NullablePointer[GtkListBoxT], sort_func': GtkListBoxSortFunc, user_data': Pointer[None] tag, destroy': Pointer[None])

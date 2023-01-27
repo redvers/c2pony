@@ -1,0 +1,2 @@
+  fun ref set_enable_search(enable_search': I32): None =>
+    GtkTreeViewP.set_enable_search(this, enable_search')

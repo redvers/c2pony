@@ -1,0 +1,2 @@
+  fun ref get_fd(): I32 =>
+    GCancellableP.get_fd(this)

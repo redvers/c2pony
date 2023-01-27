@@ -1,0 +1,1 @@
+use @gtk_widget_class_set_css_name[None](widget_class': NullablePointer[GtkWidgetClassT], name': Pointer[U8] tag)

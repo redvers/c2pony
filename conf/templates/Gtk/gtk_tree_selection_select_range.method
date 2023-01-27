@@ -1,0 +1,2 @@
+  fun ref select_range(start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT]): None =>
+    GtkTreeSelectionP.select_range(this, start_path', end_path')

@@ -1,0 +1,2 @@
+  fun set_wrap(self': NullablePointer[GtkLabelT], wrap': I32): None =>
+    @gtk_label_set_wrap(self', wrap')

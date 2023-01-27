@@ -1,0 +1,2 @@
+  fun append_layout(snapshot': NullablePointer[GdkSnapshotT], layout': NullablePointer[PangoLayoutT], color': NullablePointer[GdkRGBAT]): None =>
+    @gtk_snapshot_append_layout(snapshot', layout', color')

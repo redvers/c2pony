@@ -1,0 +1,2 @@
+  fun ref set_ratio(ratio': F32): None =>
+    GtkAspectFrameP.set_ratio(this, ratio')

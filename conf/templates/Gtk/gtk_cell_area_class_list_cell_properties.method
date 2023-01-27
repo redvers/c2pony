@@ -1,0 +1,2 @@
+  fun ref list_cell_properties(n_properties': Pointer[U32] tag): Pointer[NullablePointer[GParamSpecT]] =>
+    GtkCellAreaClassP.list_cell_properties(ptr, n_properties')

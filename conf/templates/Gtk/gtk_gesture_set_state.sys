@@ -1,0 +1,2 @@
+  fun set_state(gesture': NullablePointer[GtkGestureT], state': U32): I32 =>
+    @gtk_gesture_set_state(gesture', state')

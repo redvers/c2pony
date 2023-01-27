@@ -1,0 +1,1 @@
+use @gtk_text_buffer_insert_markup[None](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], markup': Pointer[U8] tag, len': I32)

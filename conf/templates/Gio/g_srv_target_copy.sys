@@ -1,0 +1,2 @@
+  fun copy(target': NullablePointer[GSrvTargetT]): NullablePointer[GSrvTargetT] =>
+    @g_srv_target_copy(target')

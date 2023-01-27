@@ -1,0 +1,2 @@
+  fun start(service': NullablePointer[GSocketServiceT]): None =>
+    @g_socket_service_start(service')

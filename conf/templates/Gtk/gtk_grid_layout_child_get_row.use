@@ -1,0 +1,1 @@
+use @gtk_grid_layout_child_get_row[I32](child': NullablePointer[GtkGridLayoutChildT])

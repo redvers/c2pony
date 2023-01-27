@@ -1,0 +1,2 @@
+  fun close_async(enumerator': NullablePointer[GFileEnumeratorT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_enumerator_close_async(enumerator', io_priority', cancellable', callback', user_data')

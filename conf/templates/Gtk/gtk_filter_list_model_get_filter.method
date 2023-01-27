@@ -1,0 +1,2 @@
+  fun ref get_filter(): NullablePointer[GtkFilterT] =>
+    GtkFilterListModelP.get_filter(this)

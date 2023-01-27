@@ -1,0 +1,1 @@
+use @gtk_dialog_get_content_area[NullablePointer[GObjectT]](dialog': NullablePointer[GtkDialogT])

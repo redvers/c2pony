@@ -1,0 +1,2 @@
+  fun bind(self': NullablePointer[GtkExpressionT], target': Pointer[None] tag, property': String, this': Pointer[None] tag): NullablePointer[GtkExpressionWatchT] =>
+    @gtk_expression_bind(self', target', property'.cstring(), this')

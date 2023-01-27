@@ -1,0 +1,2 @@
+  fun get_visibility(entry': NullablePointer[GtkEntryT]): I32 =>
+    @gtk_entry_get_visibility(entry')

@@ -1,0 +1,2 @@
+  fun ref lookup_method(name': String): NullablePointer[GDBusMethodInfoT] =>
+    GDBusInterfaceInfoP.lookup_method(ptr, name')

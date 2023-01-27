@@ -1,2 +1,2 @@
   fun ref take_param(param': NullablePointer[GParamSpecT]): None =>
-    GValueP.take_param(this.ptr, param')
+    GValueP.take_param(ptr, param')

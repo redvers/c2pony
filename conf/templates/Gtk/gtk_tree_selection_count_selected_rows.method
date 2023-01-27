@@ -1,0 +1,2 @@
+  fun ref count_selected_rows(): I32 =>
+    GtkTreeSelectionP.count_selected_rows(this)

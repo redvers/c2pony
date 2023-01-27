@@ -1,0 +1,1 @@
+use @gtk_statusbar_remove[None](statusbar': NullablePointer[GtkStatusbarT], context_id': U32, message_id': U32)

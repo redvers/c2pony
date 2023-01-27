@@ -1,0 +1,1 @@
+use @gtk_text_iter_get_visible_text[Pointer[U8]](start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT])

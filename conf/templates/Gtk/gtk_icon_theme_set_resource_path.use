@@ -1,0 +1,1 @@
+use @gtk_icon_theme_set_resource_path[None](self': NullablePointer[GtkIconThemeT], path': Pointer[Pointer[U8]] tag)

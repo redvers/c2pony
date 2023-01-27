@@ -1,0 +1,1 @@
+use @gtk_recent_info_get_groups[Pointer[Pointer[U8]] tag](info': NullablePointer[GtkRecentInfoT], length': Pointer[U64] tag)

@@ -1,0 +1,2 @@
+  fun new_constant(target': Pointer[None] tag, target_attribute': U32, relation': I32, constant': F64, strength': I32): NullablePointer[GtkConstraintT] =>
+    @gtk_constraint_new_constant(target', target_attribute', relation', constant', strength')

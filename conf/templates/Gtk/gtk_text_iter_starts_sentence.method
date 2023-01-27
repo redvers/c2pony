@@ -1,0 +1,2 @@
+  fun ref starts_sentence(): I32 =>
+    GtkTextIterP.starts_sentence(ptr)

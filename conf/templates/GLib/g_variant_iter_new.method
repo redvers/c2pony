@@ -1,2 +1,2 @@
   fun ref iter_new(): NullablePointer[GVariantIterT] =>
-    GVariantP.iter_new(this.ptr)
+    GVariantP.iter_new(ptr)

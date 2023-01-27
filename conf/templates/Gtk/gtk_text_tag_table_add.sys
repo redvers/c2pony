@@ -1,0 +1,2 @@
+  fun add(table': NullablePointer[GtkTextTagTableT], tag': NullablePointer[GtkTextTagT]): I32 =>
+    @gtk_text_tag_table_add(table', tag')

@@ -1,0 +1,2 @@
+  fun get_search_path(self': NullablePointer[GtkIconThemeT]): Pointer[Pointer[U8]] tag =>
+    @gtk_icon_theme_get_search_path(self')

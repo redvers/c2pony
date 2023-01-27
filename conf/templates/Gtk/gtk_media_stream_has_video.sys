@@ -1,0 +1,2 @@
+  fun has_video(self': NullablePointer[GtkMediaStreamT]): I32 =>
+    @gtk_media_stream_has_video(self')

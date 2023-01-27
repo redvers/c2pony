@@ -1,0 +1,2 @@
+  fun ref get_selection_content(): NullablePointer[GdkContentProviderT] =>
+    GtkTextBufferP.get_selection_content(this)

@@ -1,2 +1,2 @@
   fun ref sync_file_offset(): None =>
-    GScannerP.sync_file_offset(this.ptr)
+    GScannerP.sync_file_offset(ptr)

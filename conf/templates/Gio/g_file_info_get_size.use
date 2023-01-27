@@ -1,0 +1,1 @@
+use @g_file_info_get_size[I64](info': NullablePointer[GFileInfoT])

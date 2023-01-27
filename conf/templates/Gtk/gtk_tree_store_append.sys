@@ -1,0 +1,2 @@
+  fun append(tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_store_append(tree_store', iter', parent')

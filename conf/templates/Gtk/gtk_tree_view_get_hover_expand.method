@@ -1,0 +1,2 @@
+  fun ref get_hover_expand(): I32 =>
+    GtkTreeViewP.get_hover_expand(this)

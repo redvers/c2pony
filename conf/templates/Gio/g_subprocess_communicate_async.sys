@@ -1,0 +1,2 @@
+  fun communicate_async(subprocess': NullablePointer[GSubprocessT], stdin_buf': NullablePointer[GBytesT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_subprocess_communicate_async(subprocess', stdin_buf', cancellable', callback', user_data')

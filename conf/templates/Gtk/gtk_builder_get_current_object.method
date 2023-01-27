@@ -1,0 +1,2 @@
+  fun ref get_current_object(): NullablePointer[GObjectT] =>
+    GtkBuilderP.get_current_object(this)

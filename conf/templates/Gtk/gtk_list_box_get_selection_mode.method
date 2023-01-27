@@ -1,0 +1,2 @@
+  fun ref get_selection_mode(): U32 =>
+    GtkListBoxP.get_selection_mode(this)

@@ -1,0 +1,2 @@
+  fun verify(cert': NullablePointer[GTlsCertificateT], identity': NullablePointer[GSocketConnectableT], trusted_ca': NullablePointer[GTlsCertificateT]): U32 =>
+    @g_tls_certificate_verify(cert', identity', trusted_ca')

@@ -1,0 +1,2 @@
+  fun copy(reference': NullablePointer[GtkTreeRowReferenceT]): NullablePointer[GtkTreeRowReferenceT] =>
+    @gtk_tree_row_reference_copy(reference')

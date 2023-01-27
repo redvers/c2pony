@@ -1,2 +1,2 @@
   fun ref set_buffered(buffered': I32): None =>
-    GIOChannelP.set_buffered(this.ptr, buffered')
+    GIOChannelP.set_buffered(ptr, buffered')

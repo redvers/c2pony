@@ -1,0 +1,2 @@
+  fun ref connect(callback': GCallback, data': Pointer[None] tag, data_destroy_func': Pointer[None]): U64 =>
+    GCancellableP.connect(this, callback', data', data_destroy_func')

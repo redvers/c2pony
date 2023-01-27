@@ -1,0 +1,2 @@
+  fun get_child(page': NullablePointer[GtkAssistantPageT]): NullablePointer[GObjectT] =>
+@gtk_assistant_page_get_child(page')

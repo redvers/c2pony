@@ -1,0 +1,2 @@
+  fun set_position(popover': NullablePointer[GtkPopoverT], position': U32): None =>
+    @gtk_popover_set_position(popover', position')

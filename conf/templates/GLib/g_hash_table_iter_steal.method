@@ -1,2 +1,2 @@
   fun ref steal(): None =>
-    GHashTableIterP.steal(this.ptr)
+    GHashTableIterP.steal(ptr)

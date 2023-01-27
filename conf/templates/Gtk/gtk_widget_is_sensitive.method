@@ -1,0 +1,2 @@
+  fun ref is_sensitive(): I32 =>
+    GtkWidgetP.is_sensitive(this)

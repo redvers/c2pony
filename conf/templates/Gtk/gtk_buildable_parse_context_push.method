@@ -1,0 +1,2 @@
+  fun ref push(parser': NullablePointer[GtkBuildableParserT], user_data': Pointer[None] tag): None =>
+    GtkBuildableParseContextP.push(ptr, parser', user_data')

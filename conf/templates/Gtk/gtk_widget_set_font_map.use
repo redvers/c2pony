@@ -1,0 +1,1 @@
+use @gtk_widget_set_font_map[None](widget': NullablePointer[GObjectT], font_map': NullablePointer[PangoFontMapT])

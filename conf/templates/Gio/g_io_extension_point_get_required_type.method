@@ -1,0 +1,2 @@
+  fun ref get_required_type(): U64 =>
+    GIOExtensionPointP.get_required_type(ptr)

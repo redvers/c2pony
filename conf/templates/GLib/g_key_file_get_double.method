@@ -1,2 +1,2 @@
   fun ref get_double(group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): F64 =>
-    GKeyFileP.get_double(this.ptr, group_name', key', error')
+    GKeyFileP.get_double(ptr, group_name', key', error')

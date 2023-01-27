@@ -1,0 +1,2 @@
+  fun ref get_properties(): NullablePointer[GVariantT] =>
+    GDBusInterfaceSkeletonP.get_properties(this)

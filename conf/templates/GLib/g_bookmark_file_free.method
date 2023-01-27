@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GBookmarkFileP.free(this.ptr)
+    GBookmarkFileP.free(ptr)

@@ -1,0 +1,1 @@
+use @gtk_label_get_current_uri[Pointer[U8]](self': NullablePointer[GtkLabelT])

@@ -1,0 +1,1 @@
+use @gtk_window_get_destroy_with_parent[I32](window': NullablePointer[GObjectT])

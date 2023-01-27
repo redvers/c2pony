@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkEditableLabelClass
+  var ptr: NullablePointer[GtkEditableLabelClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkEditableLabelClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkEditableLabelClassT]) => ptr = ptr'

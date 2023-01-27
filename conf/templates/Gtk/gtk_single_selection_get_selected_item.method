@@ -1,0 +1,2 @@
+  fun ref get_selected_item(): Pointer[None] tag =>
+    GtkSingleSelectionP.get_selected_item(this)

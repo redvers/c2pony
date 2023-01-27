@@ -1,0 +1,1 @@
+use @gtk_picture_set_keep_aspect_ratio[None](self': NullablePointer[GtkPictureT], keep_aspect_ratio': I32)

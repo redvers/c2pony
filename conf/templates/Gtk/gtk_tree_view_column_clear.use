@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_clear[None](tree_column': NullablePointer[GtkTreeViewColumnT])

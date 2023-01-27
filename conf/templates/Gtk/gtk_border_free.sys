@@ -1,0 +1,2 @@
+  fun free(border': NullablePointer[GtkBorderT]): None =>
+    @gtk_border_free(border')

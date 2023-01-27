@@ -1,2 +1,2 @@
   fun ref get_day_of_week(): I32 =>
-    GDateTimeP.get_day_of_week(this.ptr)
+    GDateTimeP.get_day_of_week(ptr)

@@ -1,0 +1,1 @@
+use @gtk_builder_create_closure[NullablePointer[GClosureT]](builder': NullablePointer[GObjectT], function_name': Pointer[U8] tag, flags': U32, object': NullablePointer[GObjectT], error': NullablePointer[GErrorT])

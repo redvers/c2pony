@@ -1,0 +1,2 @@
+  fun ref activate_action_variant(name': String, args': NullablePointer[GVariantT]): I32 =>
+    GtkWidgetP.activate_action_variant(this, name', args')

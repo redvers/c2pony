@@ -1,0 +1,2 @@
+  fun get_pending(self': NullablePointer[GtkFilterListModelT]): U32 =>
+    @gtk_filter_list_model_get_pending(self')

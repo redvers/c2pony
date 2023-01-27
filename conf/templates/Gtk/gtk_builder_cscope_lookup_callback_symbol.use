@@ -1,0 +1,1 @@
+use @gtk_builder_cscope_lookup_callback_symbol[GCallback](self': NullablePointer[GtkBuilderCScopeT], callback_name': Pointer[U8] tag)

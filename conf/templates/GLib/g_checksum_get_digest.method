@@ -1,2 +1,2 @@
   fun ref get_digest(buffer': String, digest_len': Pointer[U64] tag): None =>
-    GChecksumP.get_digest(this.ptr, buffer', digest_len')
+    GChecksumP.get_digest(ptr, buffer', digest_len')

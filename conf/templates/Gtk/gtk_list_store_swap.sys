@@ -1,0 +1,2 @@
+  fun swap(store': NullablePointer[GtkListStoreT], a': NullablePointer[GtkTreeIterT], b': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_list_store_swap(store', a', b')

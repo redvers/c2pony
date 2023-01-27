@@ -1,0 +1,2 @@
+  fun ref get_print_settings(): NullablePointer[GtkPrintSettingsT] =>
+    GtkPrintOperationP.get_print_settings(this)

@@ -1,0 +1,2 @@
+  fun ref get_uri(): String iso^ =>
+    GtkRecentInfoP.get_uri(ptr)

@@ -1,0 +1,1 @@
+use @gtk_frame_set_label[None](frame': NullablePointer[GtkFrameT], label': Pointer[U8] tag)

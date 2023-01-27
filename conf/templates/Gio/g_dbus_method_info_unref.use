@@ -1,0 +1,1 @@
+use @g_dbus_method_info_unref[None](info': NullablePointer[GDBusMethodInfoT])

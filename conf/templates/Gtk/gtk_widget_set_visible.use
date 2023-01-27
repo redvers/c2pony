@@ -1,0 +1,1 @@
+use @gtk_widget_set_visible[None](widget': NullablePointer[GObjectT], visible': I32)

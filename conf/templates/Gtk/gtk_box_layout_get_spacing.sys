@@ -1,0 +1,2 @@
+  fun get_spacing(box_layout': NullablePointer[GtkBoxLayoutT]): U32 =>
+    @gtk_box_layout_get_spacing(box_layout')

@@ -1,2 +1,2 @@
   fun ref set_data_full(key': String, data': Pointer[None] tag, destroy': Pointer[None]): None =>
-    GObjectP.set_data_full(this.ptr, key', data', destroy')
+    GObjectP.set_data_full(this, key', data', destroy')

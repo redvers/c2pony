@@ -1,0 +1,2 @@
+  fun set_auto_startup_notification(setting': I32): None =>
+    @gtk_window_set_auto_startup_notification(setting')

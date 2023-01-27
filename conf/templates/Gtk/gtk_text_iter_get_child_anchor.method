@@ -1,0 +1,2 @@
+  fun ref get_child_anchor(): NullablePointer[GtkTextChildAnchorT] =>
+    GtkTextIterP.get_child_anchor(ptr)

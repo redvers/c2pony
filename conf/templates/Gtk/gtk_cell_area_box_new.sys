@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkCellAreaT] =>
+    @gtk_cell_area_box_new()

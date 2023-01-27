@@ -1,0 +1,2 @@
+  fun insert_range(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_buffer_insert_range(buffer', iter', start', end')

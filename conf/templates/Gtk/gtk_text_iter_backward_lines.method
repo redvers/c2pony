@@ -1,0 +1,2 @@
+  fun ref backward_lines(count': I32): I32 =>
+    GtkTextIterP.backward_lines(ptr, count')

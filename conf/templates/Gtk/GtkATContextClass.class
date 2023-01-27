@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkATContextClass
+  var ptr: NullablePointer[GtkATContextClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkATContextClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkATContextClassT]) => ptr = ptr'

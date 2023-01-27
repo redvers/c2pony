@@ -1,0 +1,1 @@
+use @gtk_snapshot_append_texture[None](snapshot': NullablePointer[GdkSnapshotT], texture': NullablePointer[GdkTextureT], bounds': NullablePointer[graphenerecttT])

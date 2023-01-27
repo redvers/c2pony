@@ -1,0 +1,2 @@
+  fun ref ref(): NullablePointer[GDBusSignalInfoT] =>
+    GDBusSignalInfoP.ref(ptr)

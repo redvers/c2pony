@@ -1,0 +1,2 @@
+  fun ref has_key(key': String): I32 =>
+    GtkPrintSettingsP.has_key(this, key')

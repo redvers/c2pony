@@ -1,0 +1,2 @@
+  fun get_default_value(key': NullablePointer[GSettingsSchemaKeyT]): NullablePointer[GVariantT] =>
+    @g_settings_schema_key_get_default_value(key')

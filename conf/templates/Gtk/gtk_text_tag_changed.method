@@ -1,0 +1,2 @@
+  fun ref changed(size_changed': I32): None =>
+    GtkTextTagP.changed(this, size_changed')

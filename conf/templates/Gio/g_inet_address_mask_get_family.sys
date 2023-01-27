@@ -1,0 +1,2 @@
+  fun get_family(mask': NullablePointer[GInetAddressMaskT]): U32 =>
+    @g_inet_address_mask_get_family(mask')

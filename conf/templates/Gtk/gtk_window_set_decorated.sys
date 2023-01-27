@@ -1,0 +1,2 @@
+  fun set_decorated(window': GtkWindowI, setting': I32): None =>
+    @gtk_window_set_decorated(window'.getptr(), setting')

@@ -1,0 +1,2 @@
+  fun select_day(self': NullablePointer[GtkCalendarT], date': NullablePointer[GDateTimeT]): None =>
+    @gtk_calendar_select_day(self', date')

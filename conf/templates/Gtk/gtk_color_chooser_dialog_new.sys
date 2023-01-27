@@ -1,0 +1,2 @@
+  fun new(title': String, parent': GtkWindowI): NullablePointer[GObjectT] =>
+@gtk_color_chooser_dialog_new(title'.cstring(), parent'.getptr())

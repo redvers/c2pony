@@ -1,0 +1,2 @@
+  fun ref get_layout(): NullablePointer[PangoLayoutT] =>
+    GtkLabelP.get_layout(this)

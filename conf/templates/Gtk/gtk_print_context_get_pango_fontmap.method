@@ -1,0 +1,2 @@
+  fun ref get_pango_fontmap(): NullablePointer[PangoFontMapT] =>
+    GtkPrintContextP.get_pango_fontmap(this)

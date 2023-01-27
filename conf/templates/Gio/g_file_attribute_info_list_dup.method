@@ -1,0 +1,2 @@
+  fun ref dup(): NullablePointer[GFileAttributeInfoListT] =>
+    GFileAttributeInfoListP.dup(ptr)

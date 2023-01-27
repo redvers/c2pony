@@ -1,0 +1,2 @@
+  fun ref get_activatable(): I32 =>
+    GtkListBoxRowP.get_activatable(this)

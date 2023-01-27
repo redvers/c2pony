@@ -1,0 +1,2 @@
+  fun purge_items(manager': NullablePointer[GtkRecentManagerT], error': GError): I32 =>
+    @gtk_recent_manager_purge_items(manager', error'.ptr)

@@ -1,0 +1,2 @@
+  fun ref get_css_classes(): Pointer[Pointer[U8]] tag =>
+    GtkWidgetP.get_css_classes(this)

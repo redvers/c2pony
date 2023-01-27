@@ -1,0 +1,2 @@
+  fun lock(message': NullablePointer[GDBusMessageT]): None =>
+    @g_dbus_message_lock(message')

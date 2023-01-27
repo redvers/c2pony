@@ -1,0 +1,2 @@
+  fun free_addresses(addresses': NullablePointer[GListT]): None =>
+    @g_resolver_free_addresses(addresses')

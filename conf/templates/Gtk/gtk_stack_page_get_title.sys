@@ -1,0 +1,2 @@
+  fun get_title(self': NullablePointer[GtkStackPageT]): String iso^ =>
+    String.from_cstring(@gtk_stack_page_get_title(self')).clone()

@@ -1,0 +1,2 @@
+  fun ref get_connected_drives(): NullablePointer[GListT] =>
+    GVolumeMonitorP.get_connected_drives(this)

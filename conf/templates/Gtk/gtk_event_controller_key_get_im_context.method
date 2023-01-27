@@ -1,0 +1,2 @@
+  fun ref get_im_context(): NullablePointer[GtkIMContextT] =>
+    GtkEventControllerKeyP.get_im_context(this)

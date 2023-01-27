@@ -1,0 +1,2 @@
+  fun set_exit_status(cmdline': NullablePointer[GApplicationCommandLineT], exit_status': I32): None =>
+    @g_application_command_line_set_exit_status(cmdline', exit_status')

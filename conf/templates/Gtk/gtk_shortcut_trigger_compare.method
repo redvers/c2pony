@@ -1,0 +1,2 @@
+  fun ref compare(trigger2': Pointer[None] tag): I32 =>
+    GtkShortcutTriggerP.compare(this, trigger2')

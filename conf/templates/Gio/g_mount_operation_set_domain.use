@@ -1,0 +1,1 @@
+use @g_mount_operation_set_domain[None](op': NullablePointer[GMountOperationT], domain': Pointer[U8] tag)

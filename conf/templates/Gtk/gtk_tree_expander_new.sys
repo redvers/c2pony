@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GObjectT] =>
+@gtk_tree_expander_new()

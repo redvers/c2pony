@@ -1,0 +1,2 @@
+  fun add_callback_symbols(self': NullablePointer[GtkBuilderCScopeT], first_callback_name': String, first_callback_symbol': GCallback, ...): None =>
+    @gtk_builder_cscope_add_callback_symbols(self', first_callback_name'.cstring(), first_callback_symbol', ...)

@@ -1,0 +1,2 @@
+  fun return_pointer(task': NullablePointer[GTaskT], result': Pointer[None] tag, result_destroy': Pointer[None]): None =>
+    @g_task_return_pointer(task', result', result_destroy')

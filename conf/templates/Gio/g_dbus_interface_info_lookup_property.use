@@ -1,0 +1,1 @@
+use @g_dbus_interface_info_lookup_property[NullablePointer[GDBusPropertyInfoT]](info': NullablePointer[GDBusInterfaceInfoT], name': Pointer[U8] tag)

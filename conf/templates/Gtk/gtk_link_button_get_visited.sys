@@ -1,0 +1,2 @@
+  fun get_visited(link_button': NullablePointer[GtkLinkButtonT]): I32 =>
+    @gtk_link_button_get_visited(link_button')

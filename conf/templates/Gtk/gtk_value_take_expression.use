@@ -1,0 +1,1 @@
+use @gtk_value_take_expression[None](value': NullablePointer[GValueT], expression': NullablePointer[GtkExpressionT])

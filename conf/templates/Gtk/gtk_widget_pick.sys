@@ -1,0 +1,2 @@
+  fun pick(widget': GtkWidgetI, x': F64, y': F64, flags': U32): NullablePointer[GObjectT] =>
+@gtk_widget_pick(widget'.getptr(), x', y', flags')

@@ -1,0 +1,2 @@
+  fun new(name': String, left_gravity': I32): NullablePointer[GtkTextMarkT] =>
+    @gtk_text_mark_new(name'.cstring(), left_gravity')

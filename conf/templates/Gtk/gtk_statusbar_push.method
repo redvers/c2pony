@@ -1,0 +1,2 @@
+  fun ref push(context_id': U32, text': String): U32 =>
+    GtkStatusbarP.push(this, context_id', text')

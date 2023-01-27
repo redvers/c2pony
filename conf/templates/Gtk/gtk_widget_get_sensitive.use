@@ -1,0 +1,1 @@
+use @gtk_widget_get_sensitive[I32](widget': NullablePointer[GObjectT])

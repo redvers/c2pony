@@ -1,0 +1,2 @@
+  fun add_named(stack': NullablePointer[GtkStackT], child': GtkWidgetI, name': String): NullablePointer[GtkStackPageT] =>
+    @gtk_stack_add_named(stack', child'.getptr(), name'.cstring())

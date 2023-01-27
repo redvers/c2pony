@@ -1,0 +1,2 @@
+  fun get_child(expander': NullablePointer[GtkExpanderT]): NullablePointer[GObjectT] =>
+@gtk_expander_get_child(expander')

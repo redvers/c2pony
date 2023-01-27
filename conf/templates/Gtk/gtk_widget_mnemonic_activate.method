@@ -1,0 +1,2 @@
+  fun ref mnemonic_activate(group_cycling': I32): I32 =>
+    GtkWidgetP.mnemonic_activate(this, group_cycling')

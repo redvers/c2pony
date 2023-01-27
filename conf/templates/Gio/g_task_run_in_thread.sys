@@ -1,0 +1,2 @@
+  fun run_in_thread(task': NullablePointer[GTaskT], task_func': GTaskThreadFunc): None =>
+    @g_task_run_in_thread(task', task_func')

@@ -1,0 +1,1 @@
+use @gtk_search_entry_get_key_capture_widget[NullablePointer[GObjectT]](entry': NullablePointer[GtkSearchEntryT])

@@ -1,0 +1,1 @@
+use @g_dbus_object_manager_server_unexport[I32](manager': NullablePointer[GDBusObjectManagerServerT], object_path': Pointer[U8] tag)

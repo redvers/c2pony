@@ -1,0 +1,2 @@
+  fun get_sequences(gesture': NullablePointer[GtkGestureT]): NullablePointer[GListT] =>
+    @gtk_gesture_get_sequences(gesture')

@@ -1,0 +1,2 @@
+  fun ref get_displayed_row(): NullablePointer[GtkTreePathT] =>
+    GtkCellViewP.get_displayed_row(this)

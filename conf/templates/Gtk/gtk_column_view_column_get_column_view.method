@@ -1,0 +1,2 @@
+  fun ref get_column_view(): NullablePointer[GtkColumnViewT] =>
+    GtkColumnViewColumnP.get_column_view(this)

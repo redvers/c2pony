@@ -1,0 +1,2 @@
+  fun ref(self': NullablePointer[GtkExpressionT]): NullablePointer[GtkExpressionT] =>
+    @gtk_expression_ref(self')

@@ -1,0 +1,1 @@
+use @gtk_bitset_remove_range_closed[None](self': NullablePointer[GtkBitsetT], first': U32, last': U32)

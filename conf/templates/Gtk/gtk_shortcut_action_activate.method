@@ -1,0 +1,2 @@
+  fun ref activate(flags': U32, widget': GtkWidgetI, args': NullablePointer[GVariantT]): I32 =>
+    GtkShortcutActionP.activate(this, flags', widget', args')

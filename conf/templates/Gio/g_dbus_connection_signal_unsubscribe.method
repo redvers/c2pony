@@ -1,0 +1,2 @@
+  fun ref signal_unsubscribe(subscription_id': U32): None =>
+    GDBusConnectionP.signal_unsubscribe(this, subscription_id')

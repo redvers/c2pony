@@ -1,0 +1,1 @@
+use @gtk_text_new_with_buffer[NullablePointer[GObjectT]](buffer': NullablePointer[GtkEntryBufferT])

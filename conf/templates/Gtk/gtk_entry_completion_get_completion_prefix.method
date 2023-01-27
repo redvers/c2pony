@@ -1,0 +1,2 @@
+  fun ref get_completion_prefix(): String iso^ =>
+    GtkEntryCompletionP.get_completion_prefix(this)

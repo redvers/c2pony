@@ -1,0 +1,2 @@
+  fun ref is_cursor_position(): I32 =>
+    GtkTextIterP.is_cursor_position(ptr)

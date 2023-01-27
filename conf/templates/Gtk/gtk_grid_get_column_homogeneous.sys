@@ -1,0 +1,2 @@
+  fun get_column_homogeneous(grid': NullablePointer[GtkGridT]): I32 =>
+    @gtk_grid_get_column_homogeneous(grid')

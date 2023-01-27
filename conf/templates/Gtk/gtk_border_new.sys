@@ -1,0 +1,2 @@
+  new new() =>
+    ptr = @gtk_border_new()

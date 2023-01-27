@@ -1,2 +1,2 @@
 
-use @g_object_new[Pointer[GObjectP]](object_type': U64, ...)
+use @g_object_new[NullablePointer[GObjectT]](object_type': U64, ...)

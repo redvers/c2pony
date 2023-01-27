@@ -1,0 +1,2 @@
+  fun get_client_address(server': NullablePointer[GDBusServerT]): String iso^ =>
+    String.from_cstring(@g_dbus_server_get_client_address(server')).clone()

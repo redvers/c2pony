@@ -1,0 +1,2 @@
+  fun ref set_sorter(sorter': NullablePointer[GtkSorterT]): None =>
+    GtkTreeListRowSorterP.set_sorter(this, sorter')

@@ -1,0 +1,2 @@
+  fun new(model': NullablePointer[GListModelT]): NullablePointer[GtkFlattenListModelT] =>
+    @gtk_flatten_list_model_new(model')

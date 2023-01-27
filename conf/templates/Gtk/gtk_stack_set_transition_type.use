@@ -1,0 +1,1 @@
+use @gtk_stack_set_transition_type[None](stack': NullablePointer[GtkStackT], transition': U32)

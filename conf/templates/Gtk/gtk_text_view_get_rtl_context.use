@@ -1,0 +1,1 @@
+use @gtk_text_view_get_rtl_context[NullablePointer[PangoContextT]](text_view': NullablePointer[GtkTextViewT])

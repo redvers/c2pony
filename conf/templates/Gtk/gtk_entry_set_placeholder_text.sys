@@ -1,0 +1,2 @@
+  fun set_placeholder_text(entry': NullablePointer[GtkEntryT], text': String): None =>
+    @gtk_entry_set_placeholder_text(entry', text'.cstring())

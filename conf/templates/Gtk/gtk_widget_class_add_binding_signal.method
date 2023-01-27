@@ -1,0 +1,2 @@
+  fun ref add_binding_signal(keyval': U32, mods': U32, signal': String, format_string': String, ...): None =>
+    GtkWidgetClassP.add_binding_signal(ptr, keyval', mods', signal', format_string', ...)

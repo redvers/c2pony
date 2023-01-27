@@ -1,0 +1,2 @@
+  fun list_mnemonic_labels(widget': GtkWidgetI): NullablePointer[GListT] =>
+    @gtk_widget_list_mnemonic_labels(widget'.getptr())

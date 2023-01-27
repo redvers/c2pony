@@ -1,0 +1,2 @@
+  fun get_uri(proxy': NullablePointer[GProxyAddressT]): String iso^ =>
+    String.from_cstring(@g_proxy_address_get_uri(proxy')).clone()

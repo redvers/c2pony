@@ -1,0 +1,1 @@
+use @gtk_search_bar_set_child[None](bar': NullablePointer[GtkSearchBarT], child': NullablePointer[GObjectT])

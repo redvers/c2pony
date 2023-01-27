@@ -1,0 +1,1 @@
+use @gtk_bookmark_list_set_attributes[None](self': NullablePointer[GtkBookmarkListT], attributes': Pointer[U8] tag)

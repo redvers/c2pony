@@ -1,0 +1,1 @@
+use @gtk_file_chooser_native_new[NullablePointer[GtkFileChooserNativeT]](title': Pointer[U8] tag, parent': NullablePointer[GObjectT], action': U32, accept_label': Pointer[U8] tag, cancel_label': Pointer[U8] tag)

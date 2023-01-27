@@ -1,0 +1,2 @@
+  fun get_parent(widget': GtkWidgetI): NullablePointer[GObjectT] =>
+@gtk_widget_get_parent(widget'.getptr())

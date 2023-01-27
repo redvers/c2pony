@@ -1,0 +1,2 @@
+  fun emit_event(monitor': NullablePointer[GFileMonitorT], child': NullablePointer[GFileT], other_file': NullablePointer[GFileT], event_type': U32): None =>
+    @g_file_monitor_emit_event(monitor', child', other_file', event_type')

@@ -1,0 +1,1 @@
+use @g_task_run_in_thread_sync[None](task': NullablePointer[GTaskT], task_func': GTaskThreadFunc)

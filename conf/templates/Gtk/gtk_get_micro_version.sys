@@ -1,0 +1,2 @@
+  fun get_micro_version(): U32 =>
+    @gtk_get_micro_version()

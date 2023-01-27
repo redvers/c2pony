@@ -1,0 +1,1 @@
+use @gtk_text_iter_is_cursor_position[I32](iter': NullablePointer[GtkTextIterT])

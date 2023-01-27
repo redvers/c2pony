@@ -1,0 +1,2 @@
+  fun ref is_equal(size2': NullablePointer[GtkPaperSizeT]): I32 =>
+    GtkPaperSizeP.is_equal(ptr, size2')

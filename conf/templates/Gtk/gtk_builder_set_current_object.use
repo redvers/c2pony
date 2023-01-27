@@ -1,0 +1,1 @@
+use @gtk_builder_set_current_object[None](builder': NullablePointer[GObjectT], current_object': NullablePointer[GObjectT])

@@ -1,0 +1,2 @@
+  fun get_path(schema': NullablePointer[GSettingsSchemaT]): String iso^ =>
+    String.from_cstring(@g_settings_schema_get_path(schema')).clone()

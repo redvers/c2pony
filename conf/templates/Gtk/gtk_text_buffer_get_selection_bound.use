@@ -1,0 +1,1 @@
+use @gtk_text_buffer_get_selection_bound[NullablePointer[GtkTextMarkT]](buffer': NullablePointer[GtkTextBufferT])

@@ -1,0 +1,1 @@
+use @g_file_attribute_matcher_subtract[NullablePointer[GFileAttributeMatcherT]](matcher': NullablePointer[GFileAttributeMatcherT], subtract': NullablePointer[GFileAttributeMatcherT])

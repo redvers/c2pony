@@ -1,0 +1,2 @@
+  fun ref get_cascade_popdown(): I32 =>
+    GtkPopoverP.get_cascade_popdown(this)

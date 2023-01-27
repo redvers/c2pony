@@ -1,0 +1,2 @@
+  fun enumerate_namespace(matcher': NullablePointer[GFileAttributeMatcherT], ns': String): I32 =>
+    @g_file_attribute_matcher_enumerate_namespace(matcher', ns'.cstring())

@@ -1,0 +1,2 @@
+  fun ref insert_column_with_attributes(position': I32, title': String, cell': NullablePointer[GtkCellRendererT], ...): I32 =>
+    GtkTreeViewP.insert_column_with_attributes(this, position', title', cell', ...)

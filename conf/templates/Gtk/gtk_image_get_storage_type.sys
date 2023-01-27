@@ -1,0 +1,2 @@
+  fun get_storage_type(image': NullablePointer[GtkImageT]): U32 =>
+    @gtk_image_get_storage_type(image')

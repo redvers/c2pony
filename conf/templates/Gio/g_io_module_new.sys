@@ -1,0 +1,2 @@
+  fun new(filename': String): NullablePointer[GIOModuleT] =>
+    @g_io_module_new(filename'.cstring())

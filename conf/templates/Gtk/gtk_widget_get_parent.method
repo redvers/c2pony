@@ -1,0 +1,2 @@
+  fun ref get_parent(): NullablePointer[GObjectT] =>
+    GtkWidgetP.get_parent(this)

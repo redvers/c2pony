@@ -1,0 +1,2 @@
+  fun to_gvariant(setup': NullablePointer[GtkPageSetupT]): NullablePointer[GVariantT] =>
+    @gtk_page_setup_to_gvariant(setup')

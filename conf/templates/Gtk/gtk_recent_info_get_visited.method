@@ -1,0 +1,2 @@
+  fun ref get_visited(): NullablePointer[GDateTimeT] =>
+    GtkRecentInfoP.get_visited(ptr)

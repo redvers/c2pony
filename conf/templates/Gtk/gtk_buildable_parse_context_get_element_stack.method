@@ -1,0 +1,2 @@
+  fun ref get_element_stack(): NullablePointer[GPtrArrayT] =>
+    GtkBuildableParseContextP.get_element_stack(ptr)

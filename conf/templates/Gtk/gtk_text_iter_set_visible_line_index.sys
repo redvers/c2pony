@@ -1,0 +1,2 @@
+  fun set_visible_line_index(iter': NullablePointer[GtkTextIterT], byte_on_line': I32): None =>
+    @gtk_text_iter_set_visible_line_index(iter', byte_on_line')

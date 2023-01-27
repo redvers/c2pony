@@ -1,2 +1,2 @@
   fun ref prev(): NullablePointer[GSequenceNodeT] =>
-    GSequenceIterP.prev(this.ptr)
+    GSequenceIterP.prev(ptr)

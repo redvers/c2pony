@@ -1,0 +1,2 @@
+  fun ref get_x_offset(): I32 =>
+    GtkTreeViewColumnP.get_x_offset(this)

@@ -1,0 +1,2 @@
+  fun observe_guides(layout': NullablePointer[GtkConstraintLayoutT]): NullablePointer[GListModelT] =>
+    @gtk_constraint_layout_observe_guides(layout')

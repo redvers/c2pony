@@ -1,0 +1,2 @@
+  fun render_icon(context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], texture': NullablePointer[GdkTextureT], x': F64, y': F64): None =>
+    @gtk_render_icon(context', cr', texture', x', y')

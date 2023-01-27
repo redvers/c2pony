@@ -1,0 +1,2 @@
+  fun ref enable_model_drag_source(start_button_mask': U32, formats': NullablePointer[GdkContentFormatsT], actions': U32): None =>
+    GtkTreeViewP.enable_model_drag_source(this, start_button_mask', formats', actions')

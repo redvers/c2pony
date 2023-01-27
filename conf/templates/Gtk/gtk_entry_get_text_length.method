@@ -1,0 +1,2 @@
+  fun ref get_text_length(): U16 =>
+    GtkEntryP.get_text_length(this)

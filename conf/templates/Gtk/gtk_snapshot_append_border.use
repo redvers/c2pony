@@ -1,0 +1,1 @@
+use @gtk_snapshot_append_border[None](snapshot': NullablePointer[GdkSnapshotT], outline': NullablePointer[GskRoundedRectT], border_width': Pointer[F32] tag, border_color': NullablePointer[GdkRGBAT])

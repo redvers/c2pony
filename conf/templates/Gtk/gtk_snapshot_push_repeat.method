@@ -1,0 +1,2 @@
+  fun ref push_repeat(bounds': NullablePointer[graphenerecttT], child_bounds': NullablePointer[graphenerecttT]): None =>
+    P.push_repeat(this, bounds', child_bounds')

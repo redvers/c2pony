@@ -1,0 +1,1 @@
+use @gtk_widget_get_allocation[None](widget': NullablePointer[GObjectT], allocation': NullablePointer[cairorectangleintT])

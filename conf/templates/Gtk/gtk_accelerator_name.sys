@@ -1,0 +1,2 @@
+  fun accelerator_name(accelerator_key': U32, accelerator_mods': U32): String iso^ =>
+    String.from_cstring(@gtk_accelerator_name(accelerator_key', accelerator_mods')).clone()

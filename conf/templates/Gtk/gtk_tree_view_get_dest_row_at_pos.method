@@ -1,0 +1,2 @@
+  fun ref get_dest_row_at_pos(drag_x': I32, drag_y': I32, path': Pointer[NullablePointer[GtkTreePathT]], pos': Pointer[U32] tag): I32 =>
+    GtkTreeViewP.get_dest_row_at_pos(this, drag_x', drag_y', path', pos')

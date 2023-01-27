@@ -1,0 +1,1 @@
+use @gtk_notebook_get_scrollable[I32](notebook': NullablePointer[GtkNotebookT])

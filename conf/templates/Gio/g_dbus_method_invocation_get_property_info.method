@@ -1,0 +1,2 @@
+  fun ref get_property_info(): NullablePointer[GDBusPropertyInfoT] =>
+    GDBusMethodInvocationP.get_property_info(this)

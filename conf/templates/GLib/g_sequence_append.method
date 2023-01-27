@@ -1,2 +1,2 @@
   fun ref append(data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
-    GSequenceP.append(this.ptr, data')
+    GSequenceP.append(ptr, data')

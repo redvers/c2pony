@@ -1,0 +1,2 @@
+  fun ref get_model(): NullablePointer[GtkTreeModelT] =>
+    GtkTreeModelSortP.get_model(this)

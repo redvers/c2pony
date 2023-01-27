@@ -1,0 +1,2 @@
+  fun ref set_valuesv(iter': NullablePointer[GtkTreeIterT], columns': Pointer[I32] tag, values': NullablePointer[GValueT], n_values': I32): None =>
+    GtkTreeStoreP.set_valuesv(this, iter', columns', values', n_values')

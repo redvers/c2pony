@@ -1,0 +1,2 @@
+  fun ends_sentence(iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_ends_sentence(iter')

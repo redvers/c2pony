@@ -1,0 +1,1 @@
+use @g_unix_socket_address_new_with_type[NullablePointer[GSocketAddressT]](path': Pointer[U8] tag, path_len': I32, type': U32)

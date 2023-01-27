@@ -1,0 +1,1 @@
+use @g_menu_item_set_icon[None](menu_item': NullablePointer[GMenuItemT], icon': NullablePointer[GIconT])

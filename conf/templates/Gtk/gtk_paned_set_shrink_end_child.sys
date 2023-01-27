@@ -1,0 +1,2 @@
+  fun set_shrink_end_child(paned': NullablePointer[GtkPanedT], resize': I32): None =>
+    @gtk_paned_set_shrink_end_child(paned', resize')

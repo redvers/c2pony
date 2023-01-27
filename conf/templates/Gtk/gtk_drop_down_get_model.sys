@@ -1,0 +1,2 @@
+  fun get_model(self': NullablePointer[GtkDropDownT]): NullablePointer[GListModelT] =>
+    @gtk_drop_down_get_model(self')

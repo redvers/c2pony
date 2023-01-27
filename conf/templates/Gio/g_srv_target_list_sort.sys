@@ -1,0 +1,2 @@
+  fun list_sort(targets': NullablePointer[GListT]): NullablePointer[GListT] =>
+    @g_srv_target_list_sort(targets')

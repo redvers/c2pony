@@ -1,0 +1,2 @@
+  fun ref get_context(): NullablePointer[GdkGLContextT] =>
+    GtkGLAreaP.get_context(this)

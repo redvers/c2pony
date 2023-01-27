@@ -1,2 +1,2 @@
   fun ref search_iter(data': Pointer[None] tag, iter_cmp': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
-    GSequenceP.search_iter(this.ptr, data', iter_cmp', cmp_data')
+    GSequenceP.search_iter(ptr, data', iter_cmp', cmp_data')

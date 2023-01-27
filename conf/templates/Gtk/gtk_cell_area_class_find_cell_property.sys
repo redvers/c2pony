@@ -1,0 +1,2 @@
+  fun find_cell_property(aclass': NullablePointer[GtkCellAreaClassT], property_name': String): NullablePointer[GParamSpecT] =>
+    @gtk_cell_area_class_find_cell_property(aclass', property_name'.cstring())

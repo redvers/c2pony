@@ -1,0 +1,2 @@
+  fun set_default_text(self': NullablePointer[GtkAppChooserWidgetT], text': String): None =>
+    @gtk_app_chooser_widget_set_default_text(self', text'.cstring())

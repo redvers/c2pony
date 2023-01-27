@@ -1,0 +1,2 @@
+  fun ref set_restrict_to_fill_level(restrict_to_fill_level': I32): None =>
+    GtkRangeP.set_restrict_to_fill_level(this, restrict_to_fill_level')

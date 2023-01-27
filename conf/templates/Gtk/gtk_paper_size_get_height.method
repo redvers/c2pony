@@ -1,0 +1,2 @@
+  fun ref get_height(unit': U32): F64 =>
+    GtkPaperSizeP.get_height(ptr, unit')

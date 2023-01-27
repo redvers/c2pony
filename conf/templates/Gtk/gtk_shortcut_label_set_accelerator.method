@@ -1,0 +1,2 @@
+  fun ref set_accelerator(accelerator': String): None =>
+    GtkShortcutLabelP.set_accelerator(this, accelerator')

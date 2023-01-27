@@ -1,0 +1,2 @@
+  fun ref list_mnemonic_labels(): NullablePointer[GListT] =>
+    GtkWidgetP.list_mnemonic_labels(this)

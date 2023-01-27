@@ -1,2 +1,2 @@
   fun ref to_local(): NullablePointer[GDateTimeT] =>
-    GDateTimeP.to_local(this.ptr)
+    GDateTimeP.to_local(ptr)

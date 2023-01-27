@@ -1,0 +1,2 @@
+  fun set_body(message': NullablePointer[GDBusMessageT], body': NullablePointer[GVariantT]): None =>
+    @g_dbus_message_set_body(message', body')

@@ -1,0 +1,2 @@
+  fun set_interactive_debugging(enable': I32): None =>
+    @gtk_window_set_interactive_debugging(enable')

@@ -1,0 +1,2 @@
+  fun ref expand_all(): None =>
+    GtkTreeViewP.expand_all(this)

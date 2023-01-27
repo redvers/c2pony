@@ -1,0 +1,2 @@
+  fun get_context(area': NullablePointer[GtkGLAreaT]): NullablePointer[GdkGLContextT] =>
+    @gtk_gl_area_get_context(area')

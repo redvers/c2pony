@@ -1,0 +1,2 @@
+  fun get_fixed_size(cell': NullablePointer[GtkCellRendererT], width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
+    @gtk_cell_renderer_get_fixed_size(cell', width', height')

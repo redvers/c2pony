@@ -1,0 +1,2 @@
+  fun get_gicon(info': NullablePointer[GtkRecentInfoT]): NullablePointer[GIconT] =>
+    @gtk_recent_info_get_gicon(info')

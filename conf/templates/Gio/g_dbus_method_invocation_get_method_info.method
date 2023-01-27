@@ -1,0 +1,2 @@
+  fun ref get_method_info(): NullablePointer[GDBusMethodInfoT] =>
+    GDBusMethodInvocationP.get_method_info(this)

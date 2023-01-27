@@ -1,0 +1,2 @@
+  fun ref get_accessible_role(): U32 =>
+    GtkWidgetClassP.get_accessible_role(ptr)

@@ -1,0 +1,2 @@
+  fun ref get_expression(): NullablePointer[GtkExpressionT] =>
+    GtkDropDownP.get_expression(this)

@@ -1,0 +1,2 @@
+  fun set_action_widget(notebook': NullablePointer[GtkNotebookT], widget': GtkWidgetI, pack_type': U32): None =>
+    @gtk_notebook_set_action_widget(notebook', widget'.getptr(), pack_type')

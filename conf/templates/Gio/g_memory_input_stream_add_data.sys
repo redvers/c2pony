@@ -1,0 +1,2 @@
+  fun add_data(stream': NullablePointer[GMemoryInputStreamT], data': Pointer[None] tag, len': I64, destroy': Pointer[None]): None =>
+    @g_memory_input_stream_add_data(stream', data', len', destroy')

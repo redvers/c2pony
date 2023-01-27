@@ -1,0 +1,1 @@
+use @gtk_column_view_get_model[NullablePointer[GtkSelectionModelT]](self': NullablePointer[GtkColumnViewT])

@@ -1,0 +1,2 @@
+  fun evaluate(watch': NullablePointer[GtkExpressionWatchT], value': NullablePointer[GValueT]): I32 =>
+    @gtk_expression_watch_evaluate(watch', value')

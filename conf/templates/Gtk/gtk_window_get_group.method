@@ -1,0 +1,2 @@
+  fun ref get_group(): NullablePointer[GtkWindowGroupT] =>
+    GtkWindowP.get_group(this)

@@ -1,0 +1,2 @@
+  fun new_with_context(area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT]): NullablePointer[GObjectT] =>
+@gtk_cell_view_new_with_context(area', context')

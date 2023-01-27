@@ -1,0 +1,2 @@
+  fun ref insert(position': U32, item': Pointer[None] tag): None =>
+    GListStoreP.insert(this, position', item')

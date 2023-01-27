@@ -1,0 +1,2 @@
+  fun get_n_pages(notebook': NullablePointer[GtkNotebookT]): I32 =>
+    @gtk_notebook_get_n_pages(notebook')

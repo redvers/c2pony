@@ -1,0 +1,2 @@
+  fun get_max_size(guide': NullablePointer[GtkConstraintGuideT], width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
+    @gtk_constraint_guide_get_max_size(guide', width', height')

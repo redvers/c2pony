@@ -1,0 +1,2 @@
+  fun is_cursor_position(iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_is_cursor_position(iter')

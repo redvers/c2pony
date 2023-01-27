@@ -1,0 +1,2 @@
+  fun ref set_scheme(scheme': String): None =>
+    GNetworkServiceP.set_scheme(this, scheme')

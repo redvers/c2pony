@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GRegexP.unref(this.ptr)
+    GRegexP.unref(ptr)

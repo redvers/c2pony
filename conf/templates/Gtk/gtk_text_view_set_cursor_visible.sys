@@ -1,0 +1,2 @@
+  fun set_cursor_visible(text_view': NullablePointer[GtkTextViewT], setting': I32): None =>
+    @gtk_text_view_set_cursor_visible(text_view', setting')

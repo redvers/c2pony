@@ -1,0 +1,2 @@
+  fun ref invalidate_sort(): None =>
+    GtkFlowBoxP.invalidate_sort(this)

@@ -1,0 +1,2 @@
+  fun ref peek(buffer': Pointer[None] tag, offset': U64, count': U64): U64 =>
+    GBufferedInputStreamP.peek(this, buffer', offset', count')

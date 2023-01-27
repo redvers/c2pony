@@ -1,0 +1,2 @@
+  fun ref create_certificate_handle(certificate': NullablePointer[GTlsCertificateT]): String iso^ =>
+    GTlsDatabaseP.create_certificate_handle(this, certificate')

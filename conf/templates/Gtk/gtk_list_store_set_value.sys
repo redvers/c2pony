@@ -1,0 +1,2 @@
+  fun set_value(list_store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], column': I32, value': NullablePointer[GValueT]): None =>
+    @gtk_list_store_set_value(list_store', iter', column', value')

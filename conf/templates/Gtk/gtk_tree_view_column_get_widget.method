@@ -1,0 +1,2 @@
+  fun ref get_widget(): NullablePointer[GObjectT] =>
+    GtkTreeViewColumnP.get_widget(this)

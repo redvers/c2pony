@@ -1,2 +1,2 @@
   fun ref peek_string(): String iso^ =>
-    GVariantTypeP.peek_string(this.ptr)
+    GVariantTypeP.peek_string(ptr)

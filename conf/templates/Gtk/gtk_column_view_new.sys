@@ -1,0 +1,2 @@
+  fun new(model': NullablePointer[GtkSelectionModelT]): NullablePointer[GObjectT] =>
+@gtk_column_view_new(model')

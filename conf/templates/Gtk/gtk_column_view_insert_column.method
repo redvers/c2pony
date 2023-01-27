@@ -1,0 +1,2 @@
+  fun ref insert_column(position': U32, column': NullablePointer[GtkColumnViewColumnT]): None =>
+    GtkColumnViewP.insert_column(this, position', column')

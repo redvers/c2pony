@@ -1,0 +1,1 @@
+use @gtk_gesture_is_recognized[I32](gesture': NullablePointer[GtkGestureT])

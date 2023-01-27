@@ -1,0 +1,2 @@
+  fun set_strv(settings': NullablePointer[GSettingsT], key': String, value': Pointer[Pointer[U8]] tag): I32 =>
+    @g_settings_set_strv(settings', key'.cstring(), value')

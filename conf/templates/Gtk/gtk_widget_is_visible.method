@@ -1,0 +1,2 @@
+  fun ref is_visible(): I32 =>
+    GtkWidgetP.is_visible(this)

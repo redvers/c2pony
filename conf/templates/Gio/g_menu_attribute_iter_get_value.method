@@ -1,0 +1,2 @@
+  fun ref get_value(): NullablePointer[GVariantT] =>
+    GMenuAttributeIterP.get_value(this)

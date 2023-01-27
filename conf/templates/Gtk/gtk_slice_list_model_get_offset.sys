@@ -1,0 +1,2 @@
+  fun get_offset(self': NullablePointer[GtkSliceListModelT]): U32 =>
+    @gtk_slice_list_model_get_offset(self')

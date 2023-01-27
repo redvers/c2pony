@@ -1,0 +1,1 @@
+use @gtk_center_layout_get_start_widget[NullablePointer[GObjectT]](self': NullablePointer[GtkCenterLayoutT])

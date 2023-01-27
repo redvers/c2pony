@@ -1,0 +1,2 @@
+  fun ref call_with_unix_fd_list(method_name': String, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, fd_list': NullablePointer[GUnixFDListT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GDBusProxyP.call_with_unix_fd_list(this, method_name', parameters', flags', timeout_msec', fd_list', cancellable', callback', user_data')

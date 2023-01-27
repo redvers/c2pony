@@ -1,0 +1,2 @@
+  fun ref add_application_proxy(protocol': String): None =>
+    GSocketClientP.add_application_proxy(this, protocol')

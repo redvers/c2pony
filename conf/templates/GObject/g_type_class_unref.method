@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GTypeClassP.unref(this.ptr)
+    GTypeClassP.unref(ptr)

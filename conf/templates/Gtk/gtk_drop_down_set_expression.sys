@@ -1,0 +1,2 @@
+  fun set_expression(self': NullablePointer[GtkDropDownT], expression': NullablePointer[GtkExpressionT]): None =>
+    @gtk_drop_down_set_expression(self', expression')

@@ -1,0 +1,2 @@
+  fun get_cascade_popdown(popover': NullablePointer[GtkPopoverT]): I32 =>
+    @gtk_popover_get_cascade_popdown(popover')

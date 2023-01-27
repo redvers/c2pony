@@ -1,0 +1,2 @@
+  fun get_enable_undo(buffer': NullablePointer[GtkTextBufferT]): I32 =>
+    @gtk_text_buffer_get_enable_undo(buffer')

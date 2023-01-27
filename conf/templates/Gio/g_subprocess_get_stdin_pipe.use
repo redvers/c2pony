@@ -1,0 +1,1 @@
+use @g_subprocess_get_stdin_pipe[NullablePointer[GOutputStreamT]](subprocess': NullablePointer[GSubprocessT])

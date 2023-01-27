@@ -1,0 +1,1 @@
+use @gtk_scale_set_draw_value[None](scale': NullablePointer[GtkScaleT], draw_value': I32)

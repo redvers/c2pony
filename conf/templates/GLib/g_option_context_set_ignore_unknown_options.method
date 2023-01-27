@@ -1,2 +1,2 @@
   fun ref set_ignore_unknown_options(ignore_unknown': I32): None =>
-    GOptionContextP.set_ignore_unknown_options(this.ptr, ignore_unknown')
+    GOptionContextP.set_ignore_unknown_options(ptr, ignore_unknown')

@@ -1,0 +1,2 @@
+  fun ref set_match_func(func': GtkEntryCompletionMatchFunc, func_data': Pointer[None] tag, func_notify': Pointer[None]): None =>
+    GtkEntryCompletionP.set_match_func(this, func', func_data', func_notify')

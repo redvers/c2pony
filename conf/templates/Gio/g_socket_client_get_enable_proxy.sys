@@ -1,0 +1,2 @@
+  fun get_enable_proxy(client': NullablePointer[GSocketClientT]): I32 =>
+    @g_socket_client_get_enable_proxy(client')

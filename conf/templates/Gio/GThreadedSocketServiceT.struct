@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GThreadedSocketServiceT
+  embed parent_instance': GSocketServiceT = GSocketServiceT
+  var priv': NullablePointer[GThreadedSocketServicePrivateT] = NullablePointer[GThreadedSocketServicePrivateT].none()

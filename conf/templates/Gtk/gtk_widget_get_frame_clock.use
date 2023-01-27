@@ -1,0 +1,1 @@
+use @gtk_widget_get_frame_clock[NullablePointer[GdkFrameClockT]](widget': NullablePointer[GObjectT])

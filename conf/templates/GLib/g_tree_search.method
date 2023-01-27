@@ -1,2 +1,2 @@
   fun ref search(search_func': GCompareFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
-    GTreeP.search(this.ptr, search_func', user_data')
+    GTreeP.search(ptr, search_func', user_data')

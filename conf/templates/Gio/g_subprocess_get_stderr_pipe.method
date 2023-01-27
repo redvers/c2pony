@@ -1,0 +1,2 @@
+  fun ref get_stderr_pipe(): NullablePointer[GInputStreamT] =>
+    GSubprocessP.get_stderr_pipe(this)

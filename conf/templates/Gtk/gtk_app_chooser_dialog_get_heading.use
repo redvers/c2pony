@@ -1,0 +1,1 @@
+use @gtk_app_chooser_dialog_get_heading[Pointer[U8]](self': NullablePointer[GtkAppChooserDialogT])

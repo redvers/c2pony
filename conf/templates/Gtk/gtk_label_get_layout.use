@@ -1,0 +1,1 @@
+use @gtk_label_get_layout[NullablePointer[PangoLayoutT]](self': NullablePointer[GtkLabelT])

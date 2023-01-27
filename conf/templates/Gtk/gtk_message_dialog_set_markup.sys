@@ -1,0 +1,2 @@
+  fun set_markup(message_dialog': NullablePointer[GtkMessageDialogT], str': String): None =>
+    @gtk_message_dialog_set_markup(message_dialog', str'.cstring())

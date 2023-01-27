@@ -1,2 +1,2 @@
   fun ref remove_key(group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    GKeyFileP.remove_key(this.ptr, group_name', key', error')
+    GKeyFileP.remove_key(ptr, group_name', key', error')

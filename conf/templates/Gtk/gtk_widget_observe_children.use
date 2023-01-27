@@ -1,0 +1,1 @@
+use @gtk_widget_observe_children[NullablePointer[GListModelT]](widget': NullablePointer[GObjectT])

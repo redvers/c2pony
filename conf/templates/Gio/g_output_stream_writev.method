@@ -1,0 +1,2 @@
+  fun ref writev(vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GOutputStreamP.writev(this, vectors', n_vectors', bytes_written', cancellable', error')

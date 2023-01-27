@@ -1,0 +1,2 @@
+  fun get_displayed_row(cell_view': NullablePointer[GtkCellViewT]): NullablePointer[GtkTreePathT] =>
+    @gtk_cell_view_get_displayed_row(cell_view')

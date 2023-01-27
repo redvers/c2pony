@@ -1,0 +1,2 @@
+  fun accelerator_parse_with_keycode(accelerator': String, display': NullablePointer[GdkDisplayT], accelerator_key': Pointer[U32] tag, accelerator_codes': Pointer[Pointer[U32]] tag, accelerator_mods': Pointer[U32] tag): I32 =>
+    @gtk_accelerator_parse_with_keycode(accelerator'.cstring(), display', accelerator_key', accelerator_codes', accelerator_mods')

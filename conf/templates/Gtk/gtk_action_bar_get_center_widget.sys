@@ -1,0 +1,2 @@
+  fun get_center_widget(action_bar': NullablePointer[GtkActionBarT]): NullablePointer[GObjectT] =>
+@gtk_action_bar_get_center_widget(action_bar')

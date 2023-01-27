@@ -1,0 +1,1 @@
+use @gtk_level_bar_add_offset_value[None](self': NullablePointer[GtkLevelBarT], name': Pointer[U8] tag, value': F64)

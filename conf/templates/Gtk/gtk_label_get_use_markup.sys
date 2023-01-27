@@ -1,0 +1,2 @@
+  fun get_use_markup(self': NullablePointer[GtkLabelT]): I32 =>
+    @gtk_label_get_use_markup(self')

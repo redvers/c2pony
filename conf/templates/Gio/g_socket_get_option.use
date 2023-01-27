@@ -1,0 +1,1 @@
+use @g_socket_get_option[I32](socket': NullablePointer[GSocketT], level': I32, optname': I32, value': Pointer[I32] tag, error': Pointer[NullablePointer[GErrorT]])

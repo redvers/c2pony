@@ -1,0 +1,2 @@
+  new new_first() =>
+    ptr = @gtk_tree_path_new_first()

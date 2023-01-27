@@ -1,0 +1,1 @@
+use @gtk_widget_insert_action_group[None](widget': NullablePointer[GObjectT], name': Pointer[U8] tag, group': NullablePointer[GActionGroupT])

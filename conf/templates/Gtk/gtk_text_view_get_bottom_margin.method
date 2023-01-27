@@ -1,0 +1,2 @@
+  fun ref get_bottom_margin(): I32 =>
+    GtkTextViewP.get_bottom_margin(this)

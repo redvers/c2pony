@@ -1,0 +1,2 @@
+  fun new_from_file(filename': String): NullablePointer[GObjectT] =>
+@gtk_builder_new_from_file(filename'.cstring())

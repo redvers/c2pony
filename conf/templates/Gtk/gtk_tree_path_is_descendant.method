@@ -1,0 +1,2 @@
+  fun ref is_descendant(ancestor': NullablePointer[GtkTreePathT]): I32 =>
+    GtkTreePathP.is_descendant(ptr, ancestor')

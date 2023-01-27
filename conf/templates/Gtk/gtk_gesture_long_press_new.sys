@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkGestureT] =>
+    @gtk_gesture_long_press_new()

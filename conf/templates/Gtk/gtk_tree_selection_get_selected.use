@@ -1,0 +1,1 @@
+use @gtk_tree_selection_get_selected[I32](selection': NullablePointer[GtkTreeSelectionT], model': Pointer[NullablePointer[GtkTreeModelT]], iter': NullablePointer[GtkTreeIterT])

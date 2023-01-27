@@ -1,0 +1,2 @@
+  fun ref set_filter_func(filter_func': GtkFlowBoxFilterFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    GtkFlowBoxP.set_filter_func(this, filter_func', user_data', destroy')

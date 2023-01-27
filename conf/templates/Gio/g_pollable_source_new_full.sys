@@ -1,0 +1,2 @@
+  fun pollable_source_new_full(pollable_stream': Pointer[None] tag, child_source': NullablePointer[GSourceT], cancellable': NullablePointer[GCancellableT]): NullablePointer[GSourceT] =>
+    @g_pollable_source_new_full(pollable_stream', child_source', cancellable')

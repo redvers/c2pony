@@ -1,2 +1,2 @@
   fun ref get_sequence(): NullablePointer[GSequenceT] =>
-    GSequenceIterP.get_sequence(this.ptr)
+    GSequenceIterP.get_sequence(ptr)

@@ -1,0 +1,2 @@
+  fun set_message_type(info_bar': NullablePointer[GtkInfoBarT], message_type': U32): None =>
+    @gtk_info_bar_set_message_type(info_bar', message_type')

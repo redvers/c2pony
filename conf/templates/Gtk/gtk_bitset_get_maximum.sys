@@ -1,0 +1,2 @@
+  fun get_maximum(self': NullablePointer[GtkBitsetT]): U32 =>
+    @gtk_bitset_get_maximum(self')

@@ -1,0 +1,2 @@
+  fun ref add_css_class(css_class': String): None =>
+    GtkWidgetP.add_css_class(this, css_class')

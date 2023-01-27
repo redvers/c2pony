@@ -1,0 +1,2 @@
+  fun verify_chain_async(self': NullablePointer[GTlsDatabaseT], chain': NullablePointer[GTlsCertificateT], purpose': String, identity': NullablePointer[GSocketConnectableT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_tls_database_verify_chain_async(self', chain', purpose'.cstring(), identity', interaction', flags', cancellable', callback', user_data')

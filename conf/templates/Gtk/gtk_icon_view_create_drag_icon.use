@@ -1,0 +1,1 @@
+use @gtk_icon_view_create_drag_icon[NullablePointer[GdkPaintableT]](icon_view': NullablePointer[GtkIconViewT], path': NullablePointer[GtkTreePathT])

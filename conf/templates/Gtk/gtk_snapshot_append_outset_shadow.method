@@ -1,0 +1,2 @@
+  fun ref append_outset_shadow(outline': NullablePointer[GskRoundedRectT], color': NullablePointer[GdkRGBAT], dx': F32, dy': F32, spread': F32, blur_radius': F32): None =>
+    P.append_outset_shadow(this, outline', color', dx', dy', spread', blur_radius')

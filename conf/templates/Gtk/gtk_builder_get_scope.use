@@ -1,0 +1,1 @@
+use @gtk_builder_get_scope[NullablePointer[GtkBuilderScopeT]](builder': NullablePointer[GObjectT])

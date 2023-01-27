@@ -1,0 +1,2 @@
+  fun ref printf(bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]], format': String, ...): I32 =>
+    GOutputStreamP.printf(this, bytes_written', cancellable', error', format', ...)

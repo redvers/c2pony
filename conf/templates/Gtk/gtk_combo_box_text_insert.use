@@ -1,0 +1,1 @@
+use @gtk_combo_box_text_insert[None](combo_box': NullablePointer[GtkComboBoxTextT], position': I32, id': Pointer[U8] tag, text': Pointer[U8] tag)

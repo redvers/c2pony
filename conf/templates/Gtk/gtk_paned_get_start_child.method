@@ -1,0 +1,2 @@
+  fun ref get_start_child(): NullablePointer[GObjectT] =>
+    GtkPanedP.get_start_child(this)

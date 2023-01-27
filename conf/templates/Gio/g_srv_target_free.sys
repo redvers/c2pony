@@ -1,0 +1,2 @@
+  fun free(target': NullablePointer[GSrvTargetT]): None =>
+    @g_srv_target_free(target')

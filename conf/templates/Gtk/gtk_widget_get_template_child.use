@@ -1,0 +1,1 @@
+use @gtk_widget_get_template_child[NullablePointer[GObjectT]](widget': NullablePointer[GObjectT], widget_type': U64, name': Pointer[U8] tag)

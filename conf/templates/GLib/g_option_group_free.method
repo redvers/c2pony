@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GOptionGroupP.free(this.ptr)
+    GOptionGroupP.free(ptr)

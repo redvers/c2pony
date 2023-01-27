@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkConstraintGuideClass
+  var ptr: NullablePointer[GtkConstraintGuideClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkConstraintGuideClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkConstraintGuideClassT]) => ptr = ptr'

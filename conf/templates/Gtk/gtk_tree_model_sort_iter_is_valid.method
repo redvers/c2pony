@@ -1,0 +1,2 @@
+  fun ref iter_is_valid(iter': NullablePointer[GtkTreeIterT]): I32 =>
+    GtkTreeModelSortP.iter_is_valid(this, iter')

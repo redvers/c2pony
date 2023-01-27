@@ -1,0 +1,2 @@
+  fun get_header_menu(self': NullablePointer[GtkColumnViewColumnT]): NullablePointer[GMenuModelT] =>
+    @gtk_column_view_column_get_header_menu(self')

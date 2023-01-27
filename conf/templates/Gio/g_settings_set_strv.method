@@ -1,0 +1,2 @@
+  fun ref set_strv(key': String, value': Pointer[Pointer[U8]] tag): I32 =>
+    GSettingsP.set_strv(this, key', value')

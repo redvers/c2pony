@@ -1,0 +1,1 @@
+use @gtk_widget_action_set_enabled[None](widget': NullablePointer[GObjectT], action_name': Pointer[U8] tag, enabled': I32)

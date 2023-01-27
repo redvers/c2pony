@@ -1,0 +1,2 @@
+  fun is_mutable(model': NullablePointer[GMenuModelT]): I32 =>
+    @g_menu_model_is_mutable(model')

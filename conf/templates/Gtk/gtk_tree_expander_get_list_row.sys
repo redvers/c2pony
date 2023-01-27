@@ -1,0 +1,2 @@
+  fun get_list_row(self': NullablePointer[GtkTreeExpanderT]): NullablePointer[GtkTreeListRowT] =>
+    @gtk_tree_expander_get_list_row(self')

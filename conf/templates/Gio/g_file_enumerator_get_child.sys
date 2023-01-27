@@ -1,0 +1,2 @@
+  fun get_child(enumerator': NullablePointer[GFileEnumeratorT], info': NullablePointer[GFileInfoT]): NullablePointer[GFileT] =>
+    @g_file_enumerator_get_child(enumerator', info')

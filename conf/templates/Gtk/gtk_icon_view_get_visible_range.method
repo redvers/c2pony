@@ -1,0 +1,2 @@
+  fun ref get_visible_range(start_path': Pointer[NullablePointer[GtkTreePathT]], end_path': Pointer[NullablePointer[GtkTreePathT]]): I32 =>
+    GtkIconViewP.get_visible_range(this, start_path', end_path')

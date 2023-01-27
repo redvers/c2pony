@@ -1,0 +1,2 @@
+  fun unselect_all(box': NullablePointer[GtkFlowBoxT]): None =>
+    @gtk_flow_box_unselect_all(box')

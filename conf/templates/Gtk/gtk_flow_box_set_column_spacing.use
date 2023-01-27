@@ -1,0 +1,1 @@
+use @gtk_flow_box_set_column_spacing[None](box': NullablePointer[GtkFlowBoxT], spacing': U32)

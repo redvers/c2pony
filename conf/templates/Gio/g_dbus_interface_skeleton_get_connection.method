@@ -1,0 +1,2 @@
+  fun ref get_connection(): NullablePointer[GDBusConnectionT] =>
+    GDBusInterfaceSkeletonP.get_connection(this)

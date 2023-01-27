@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GProxyAddressEnumeratorT
+  embed parent_instance': GSocketAddressEnumeratorT = GSocketAddressEnumeratorT
+  var priv': NullablePointer[GProxyAddressEnumeratorPrivateT] = NullablePointer[GProxyAddressEnumeratorPrivateT].none()

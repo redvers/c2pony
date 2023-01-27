@@ -1,0 +1,2 @@
+  fun ref get_column_span(): I32 =>
+    GtkGridLayoutChildP.get_column_span(this)

@@ -1,0 +1,2 @@
+  fun ref get_wrap_license(): I32 =>
+    GtkAboutDialogP.get_wrap_license(this)

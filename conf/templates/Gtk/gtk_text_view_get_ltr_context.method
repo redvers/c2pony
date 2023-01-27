@@ -1,0 +1,2 @@
+  fun ref get_ltr_context(): NullablePointer[PangoContextT] =>
+    GtkTextViewP.get_ltr_context(this)

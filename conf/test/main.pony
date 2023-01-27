@@ -1,13 +1,13 @@
 use "GLib"
 use "GObject"
-//use "Gio"
-//use "Gtk"
+use "Gio"
+use "Gtk"
 
 use "debug"
 
 use @printf[I32](fmt: Pointer[U8] tag, ...)
 //use @g_action_map_add_action_entries[None](actionmap: Pointer[GObjectP], entry: GActionEntryT, count: U32, data: Pointer[None])
-//use @g_action_map_add_action_entries[None](actionmap: Pointer[GObjectP], entry: Pointer[None] tag, count: U32, data: Pointer[None])
+use @g_action_map_add_action_entries[None](actionmap: NullablePointer[GObjectT], entry: Pointer[None] tag, count: U32, data: Pointer[None])
 
 
 type GType is U64
@@ -17,17 +17,6 @@ actor Main
   new create(env': Env) =>
     env = env'
 
-
-
-
-
-
-
-
-
-
-
-    /*
     let myapp: MyApp = MyApp(env)
     let app: GtkApplication = GtkApplication
     app.connect[MyApp]("activate", myapp~cb(), myapp, U32(0))
@@ -39,7 +28,7 @@ class MyApp
 
   new create(env': Env) => env = env'
 
-  fun @cb(app': Pointer[GObjectP], myapp: MyApp) =>
+  fun @cb(app': NullablePointer[GObjectT], myapp: MyApp) =>
     myapp.activate(GtkApplication.create_from_ptr(app'))
 
   fun activate(app: GtkApplication) => None
@@ -97,4 +86,3 @@ class MyApp
 
 
   fun test() => env.out.print("Hello World")
-*/

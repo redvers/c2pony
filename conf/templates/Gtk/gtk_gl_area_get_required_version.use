@@ -1,0 +1,1 @@
+use @gtk_gl_area_get_required_version[None](area': NullablePointer[GtkGLAreaT], major': Pointer[I32] tag, minor': Pointer[I32] tag)

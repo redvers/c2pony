@@ -1,0 +1,2 @@
+  fun set_draw_sensitive(cell_view': NullablePointer[GtkCellViewT], draw_sensitive': I32): None =>
+    @gtk_cell_view_set_draw_sensitive(cell_view', draw_sensitive')

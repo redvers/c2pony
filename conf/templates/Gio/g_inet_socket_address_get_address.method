@@ -1,0 +1,2 @@
+  fun ref get_address(): NullablePointer[GInetAddressT] =>
+    GInetSocketAddressP.get_address(this)

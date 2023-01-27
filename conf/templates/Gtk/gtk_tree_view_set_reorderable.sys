@@ -1,0 +1,2 @@
+  fun set_reorderable(tree_view': NullablePointer[GtkTreeViewT], reorderable': I32): None =>
+    @gtk_tree_view_set_reorderable(tree_view', reorderable')

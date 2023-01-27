@@ -1,0 +1,2 @@
+  fun set_handle_cancellation(simple': NullablePointer[GSimpleAsyncResultT], handle_cancellation': I32): None =>
+    @g_simple_async_result_set_handle_cancellation(simple', handle_cancellation')

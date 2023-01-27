@@ -1,0 +1,1 @@
+use @g_dbus_message_to_gerror[I32](message': NullablePointer[GDBusMessageT], error': Pointer[NullablePointer[GErrorT]])

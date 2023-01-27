@@ -1,2 +1,2 @@
   fun ref pop_unlocked(): Pointer[None] tag =>
-    GAsyncQueueP.pop_unlocked(this.ptr)
+    GAsyncQueueP.pop_unlocked(ptr)

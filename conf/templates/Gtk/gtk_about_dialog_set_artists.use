@@ -1,0 +1,1 @@
+use @gtk_about_dialog_set_artists[None](about': NullablePointer[GtkAboutDialogT], artists': Pointer[Pointer[U8]] tag)

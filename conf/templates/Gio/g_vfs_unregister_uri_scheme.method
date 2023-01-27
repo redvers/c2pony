@@ -1,0 +1,2 @@
+  fun ref unregister_uri_scheme(scheme': String): I32 =>
+    GVfsP.unregister_uri_scheme(this, scheme')

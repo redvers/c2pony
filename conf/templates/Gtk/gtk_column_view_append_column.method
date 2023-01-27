@@ -1,0 +1,2 @@
+  fun ref append_column(column': NullablePointer[GtkColumnViewColumnT]): None =>
+    GtkColumnViewP.append_column(this, column')

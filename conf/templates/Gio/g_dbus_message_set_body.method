@@ -1,0 +1,2 @@
+  fun ref set_body(body': NullablePointer[GVariantT]): None =>
+    GDBusMessageP.set_body(this, body')

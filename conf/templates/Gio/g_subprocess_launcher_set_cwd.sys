@@ -1,0 +1,2 @@
+  fun set_cwd(self': NullablePointer[GSubprocessLauncherT], cwd': String): None =>
+    @g_subprocess_launcher_set_cwd(self', cwd'.cstring())

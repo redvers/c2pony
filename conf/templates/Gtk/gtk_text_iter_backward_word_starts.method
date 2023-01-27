@@ -1,0 +1,2 @@
+  fun ref backward_word_starts(count': I32): I32 =>
+    GtkTextIterP.backward_word_starts(ptr, count')

@@ -1,0 +1,2 @@
+  fun get_socket_type(socket': NullablePointer[GSocketT]): U32 =>
+    @g_socket_get_socket_type(socket')

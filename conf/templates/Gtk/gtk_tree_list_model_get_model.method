@@ -1,0 +1,2 @@
+  fun ref get_model(): NullablePointer[GListModelT] =>
+    GtkTreeListModelP.get_model(this)

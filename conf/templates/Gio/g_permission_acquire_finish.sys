@@ -1,0 +1,2 @@
+  fun acquire_finish(permission': NullablePointer[GPermissionT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_permission_acquire_finish(permission', result', error')

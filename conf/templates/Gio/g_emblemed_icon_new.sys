@@ -1,0 +1,2 @@
+  fun new(icon': NullablePointer[GIconT], emblem': NullablePointer[GEmblemT]): NullablePointer[GIconT] =>
+    @g_emblemed_icon_new(icon', emblem')

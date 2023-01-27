@@ -1,0 +1,2 @@
+  fun set_website(about': NullablePointer[GtkAboutDialogT], website': String): None =>
+    @gtk_about_dialog_set_website(about', website'.cstring())

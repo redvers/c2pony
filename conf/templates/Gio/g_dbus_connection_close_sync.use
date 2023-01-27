@@ -1,0 +1,1 @@
+use @g_dbus_connection_close_sync[I32](connection': NullablePointer[GDBusConnectionT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])

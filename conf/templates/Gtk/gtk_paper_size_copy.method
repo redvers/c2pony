@@ -1,0 +1,2 @@
+  fun ref copy(): NullablePointer[GtkPaperSizeT] =>
+    GtkPaperSizeP.copy(ptr)

@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkLayoutManagerT] =>
+    @gtk_overlay_layout_new()

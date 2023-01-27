@@ -1,2 +1,2 @@
   fun ref elapsed(microseconds': Pointer[U64] tag): F64 =>
-    GTimerP.elapsed(this.ptr, microseconds')
+    GTimerP.elapsed(ptr, microseconds')

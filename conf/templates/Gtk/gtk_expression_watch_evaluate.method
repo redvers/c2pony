@@ -1,0 +1,2 @@
+  fun ref evaluate(value': NullablePointer[GValueT]): I32 =>
+    GtkExpressionWatchP.evaluate(ptr, value')

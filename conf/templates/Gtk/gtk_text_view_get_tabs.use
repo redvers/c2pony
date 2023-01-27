@@ -1,0 +1,1 @@
+use @gtk_text_view_get_tabs[NullablePointer[PangoTabArrayT]](text_view': NullablePointer[GtkTextViewT])

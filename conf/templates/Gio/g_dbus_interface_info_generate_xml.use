@@ -1,0 +1,1 @@
+use @g_dbus_interface_info_generate_xml[None](info': NullablePointer[GDBusInterfaceInfoT], indent': U32, string_builder': NullablePointer[GStringT])

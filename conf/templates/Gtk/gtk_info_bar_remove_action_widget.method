@@ -1,0 +1,2 @@
+  fun ref remove_action_widget(widget': GtkWidgetI): None =>
+    GtkInfoBarP.remove_action_widget(this, widget')

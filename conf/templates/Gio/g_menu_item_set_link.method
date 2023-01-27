@@ -1,0 +1,2 @@
+  fun ref set_link(link': String, model': NullablePointer[GMenuModelT]): None =>
+    GMenuItemP.set_link(this, link', model')

@@ -1,0 +1,1 @@
+use @gtk_notebook_get_action_widget[NullablePointer[GObjectT]](notebook': NullablePointer[GtkNotebookT], pack_type': U32)

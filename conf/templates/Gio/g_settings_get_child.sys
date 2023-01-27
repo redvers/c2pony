@@ -1,0 +1,2 @@
+  fun get_child(settings': NullablePointer[GSettingsT], name': String): NullablePointer[GSettingsT] =>
+    @g_settings_get_child(settings', name'.cstring())

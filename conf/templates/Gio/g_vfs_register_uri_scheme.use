@@ -1,0 +1,1 @@
+use @g_vfs_register_uri_scheme[I32](vfs': NullablePointer[GVfsT], scheme': Pointer[U8] tag, uri_func': GVfsFileLookupFunc, uri_data': Pointer[None] tag, uri_destroy': Pointer[None], parse_name_func': GVfsFileLookupFunc, parse_name_data': Pointer[None] tag, parse_name_destroy': Pointer[None])

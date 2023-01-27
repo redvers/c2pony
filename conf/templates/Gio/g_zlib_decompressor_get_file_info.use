@@ -1,0 +1,1 @@
+use @g_zlib_decompressor_get_file_info[NullablePointer[GFileInfoT]](decompressor': NullablePointer[GZlibDecompressorT])

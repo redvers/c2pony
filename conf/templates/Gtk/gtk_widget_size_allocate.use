@@ -1,0 +1,1 @@
+use @gtk_widget_size_allocate[None](widget': NullablePointer[GObjectT], allocation': NullablePointer[cairorectangleintT], baseline': I32)

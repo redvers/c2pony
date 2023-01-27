@@ -1,0 +1,2 @@
+  fun is_maximized(window': GtkWindowI): I32 =>
+    @gtk_window_is_maximized(window'.getptr())

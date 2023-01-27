@@ -1,0 +1,2 @@
+  fun draw_page_finish(op': NullablePointer[GtkPrintOperationT]): None =>
+    @gtk_print_operation_draw_page_finish(op')

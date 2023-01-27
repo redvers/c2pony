@@ -1,0 +1,2 @@
+  fun ref get_unix_fd_list(): NullablePointer[GUnixFDListT] =>
+    GDBusMessageP.get_unix_fd_list(this)

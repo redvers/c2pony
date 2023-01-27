@@ -1,2 +1,2 @@
   fun ref store(data': Pointer[None] tag): None =>
-    GVariantP.store(this.ptr, data')
+    GVariantP.store(ptr, data')

@@ -1,2 +1,2 @@
   fun ref set_boolean(group_name': String, key': String, value': I32): None =>
-    GKeyFileP.set_boolean(this.ptr, group_name', key', value')
+    GKeyFileP.set_boolean(ptr, group_name', key', value')

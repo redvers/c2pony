@@ -1,0 +1,2 @@
+  fun translate(snapshot': NullablePointer[GdkSnapshotT], point': NullablePointer[graphenepointtT]): None =>
+    @gtk_snapshot_translate(snapshot', point')

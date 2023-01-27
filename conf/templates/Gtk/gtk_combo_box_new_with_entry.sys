@@ -1,0 +1,2 @@
+  fun new_with_entry(): NullablePointer[GObjectT] =>
+@gtk_combo_box_new_with_entry()

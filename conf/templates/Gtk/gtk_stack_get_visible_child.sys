@@ -1,0 +1,2 @@
+  fun get_visible_child(stack': NullablePointer[GtkStackT]): NullablePointer[GObjectT] =>
+@gtk_stack_get_visible_child(stack')

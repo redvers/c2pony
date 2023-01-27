@@ -1,0 +1,2 @@
+  fun ref set_vhomogeneous(vhomogeneous': I32): None =>
+    GtkStackP.set_vhomogeneous(this, vhomogeneous')

@@ -1,0 +1,2 @@
+  fun ref get_file_type(): U32 =>
+    GFileInfoP.get_file_type(this)

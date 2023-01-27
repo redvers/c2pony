@@ -1,2 +1,2 @@
   fun ref push_head_link(link': NullablePointer[GListT]): None =>
-    GQueueP.push_head_link(this.ptr, link')
+    GQueueP.push_head_link(ptr, link')

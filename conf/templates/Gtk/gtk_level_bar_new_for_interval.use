@@ -1,0 +1,1 @@
+use @gtk_level_bar_new_for_interval[NullablePointer[GObjectT]](min_value': F64, max_value': F64)

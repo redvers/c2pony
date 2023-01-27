@@ -1,0 +1,2 @@
+  fun ref order(second': NullablePointer[GtkTextIterT]): None =>
+    GtkTextIterP.order(ptr, second')

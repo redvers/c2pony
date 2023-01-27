@@ -1,0 +1,1 @@
+use @gtk_text_iter_starts_tag[I32](iter': NullablePointer[GtkTextIterT], tag': NullablePointer[GtkTextTagT])

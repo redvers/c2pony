@@ -1,2 +1,2 @@
   fun ref set_qdata_full(quark': U32, data': Pointer[None] tag, destroy': Pointer[None]): None =>
-    GObjectP.set_qdata_full(this.ptr, quark', data', destroy')
+    GObjectP.set_qdata_full(this, quark', data', destroy')

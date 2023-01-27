@@ -1,0 +1,2 @@
+  fun ref generate_xml(indent': U32, string_builder': NullablePointer[GStringT]): None =>
+    GDBusInterfaceInfoP.generate_xml(ptr, indent', string_builder')

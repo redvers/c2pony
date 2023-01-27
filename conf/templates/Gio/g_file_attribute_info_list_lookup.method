@@ -1,0 +1,2 @@
+  fun ref lookup(name': String): NullablePointer[GFileAttributeInfoT] =>
+    GFileAttributeInfoListP.lookup(ptr, name')

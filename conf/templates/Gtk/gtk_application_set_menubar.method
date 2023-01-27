@@ -1,0 +1,2 @@
+  fun ref set_menubar(menubar': NullablePointer[GMenuModelT]): None =>
+    GtkApplicationP.set_menubar(this, menubar')

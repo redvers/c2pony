@@ -1,0 +1,1 @@
+use @gtk_notebook_prepend_page[I32](notebook': NullablePointer[GtkNotebookT], child': NullablePointer[GObjectT], tab_label': NullablePointer[GObjectT])

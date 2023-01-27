@@ -1,0 +1,2 @@
+  fun ref allocate(widget': GtkWidgetI, width': I32, height': I32, baseline': I32): None =>
+    GtkLayoutManagerP.allocate(this, widget', width', height', baseline')

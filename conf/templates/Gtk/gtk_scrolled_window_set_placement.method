@@ -1,0 +1,2 @@
+  fun ref set_placement(window_placement': U32): None =>
+    GtkScrolledWindowP.set_placement(this, window_placement')

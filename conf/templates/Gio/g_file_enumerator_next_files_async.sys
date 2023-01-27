@@ -1,0 +1,2 @@
+  fun next_files_async(enumerator': NullablePointer[GFileEnumeratorT], num_files': I32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_enumerator_next_files_async(enumerator', num_files', io_priority', cancellable', callback', user_data')

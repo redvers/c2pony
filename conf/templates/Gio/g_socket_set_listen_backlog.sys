@@ -1,0 +1,2 @@
+  fun set_listen_backlog(socket': NullablePointer[GSocketT], backlog': I32): None =>
+    @g_socket_set_listen_backlog(socket', backlog')

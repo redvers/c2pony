@@ -1,0 +1,2 @@
+  fun init_at(iter': NullablePointer[GtkBitsetIterT], set': NullablePointer[GtkBitsetT], target': U32, value': Pointer[U32] tag): I32 =>
+    @gtk_bitset_iter_init_at(iter', set', target', value')

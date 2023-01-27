@@ -1,0 +1,1 @@
+use @gtk_object_expression_new[NullablePointer[GtkExpressionT]](object': NullablePointer[GObjectT])

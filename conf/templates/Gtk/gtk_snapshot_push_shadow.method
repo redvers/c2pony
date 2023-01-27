@@ -1,0 +1,2 @@
+  fun ref push_shadow(shadow': NullablePointer[GskShadowT], n_shadows': U64): None =>
+    P.push_shadow(this, shadow', n_shadows')

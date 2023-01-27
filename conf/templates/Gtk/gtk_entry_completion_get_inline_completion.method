@@ -1,0 +1,2 @@
+  fun ref get_inline_completion(): I32 =>
+    GtkEntryCompletionP.get_inline_completion(this)

@@ -1,0 +1,2 @@
+  fun get_modification_date_time(info': NullablePointer[GFileInfoT]): NullablePointer[GDateTimeT] =>
+    @g_file_info_get_modification_date_time(info')

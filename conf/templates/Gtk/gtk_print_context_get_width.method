@@ -1,0 +1,2 @@
+  fun ref get_width(): F64 =>
+    GtkPrintContextP.get_width(this)

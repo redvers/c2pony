@@ -1,0 +1,2 @@
+  fun ref get_domain(): String iso^ =>
+    GMountOperationP.get_domain(this)

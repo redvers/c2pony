@@ -1,0 +1,1 @@
+use @gtk_text_tag_changed[None](tag': NullablePointer[GtkTextTagT], size_changed': I32)

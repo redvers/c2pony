@@ -1,0 +1,2 @@
+  fun connect_to_host(client': NullablePointer[GSocketClientT], host_and_port': String, default_port': U16, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
+    @g_socket_client_connect_to_host(client', host_and_port'.cstring(), default_port', cancellable', error')

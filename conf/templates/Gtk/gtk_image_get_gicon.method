@@ -1,0 +1,2 @@
+  fun ref get_gicon(): NullablePointer[GIconT] =>
+    GtkImageP.get_gicon(this)

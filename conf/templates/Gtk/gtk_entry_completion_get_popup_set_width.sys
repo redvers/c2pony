@@ -1,0 +1,2 @@
+  fun get_popup_set_width(completion': NullablePointer[GtkEntryCompletionT]): I32 =>
+    @gtk_entry_completion_get_popup_set_width(completion')

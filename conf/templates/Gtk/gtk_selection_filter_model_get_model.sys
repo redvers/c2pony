@@ -1,0 +1,2 @@
+  fun get_model(self': NullablePointer[GtkSelectionFilterModelT]): NullablePointer[GtkSelectionModelT] =>
+    @gtk_selection_filter_model_get_model(self')

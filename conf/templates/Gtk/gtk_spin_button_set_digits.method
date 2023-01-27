@@ -1,0 +1,2 @@
+  fun ref set_digits(digits': U32): None =>
+    GtkSpinButtonP.set_digits(this, digits')

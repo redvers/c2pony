@@ -1,0 +1,2 @@
+  fun ref remove_page(page_num': I32): None =>
+    GtkAssistantP.remove_page(this, page_num')

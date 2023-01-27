@@ -1,0 +1,1 @@
+use @gtk_string_sorter_set_expression[None](self': NullablePointer[GtkStringSorterT], expression': NullablePointer[GtkExpressionT])

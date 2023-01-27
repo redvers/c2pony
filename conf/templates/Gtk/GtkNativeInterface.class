@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkNativeInterface
+  var ptr: NullablePointer[GtkNativeInterfaceT]
+
+  new create() =>
+    ptr = NullablePointer[GtkNativeInterfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkNativeInterfaceT]) => ptr = ptr'

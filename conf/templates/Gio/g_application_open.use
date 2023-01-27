@@ -1,0 +1,1 @@
+use @g_application_open[None](application': NullablePointer[GObjectT], files': Pointer[NullablePointer[GFileT]], n_files': I32, hint': Pointer[U8] tag)

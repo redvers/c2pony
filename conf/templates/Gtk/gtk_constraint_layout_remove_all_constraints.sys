@@ -1,0 +1,2 @@
+  fun remove_all_constraints(layout': NullablePointer[GtkConstraintLayoutT]): None =>
+    @gtk_constraint_layout_remove_all_constraints(layout')

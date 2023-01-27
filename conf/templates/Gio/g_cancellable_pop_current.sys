@@ -1,0 +1,2 @@
+  fun pop_current(cancellable': NullablePointer[GCancellableT]): None =>
+    @g_cancellable_pop_current(cancellable')

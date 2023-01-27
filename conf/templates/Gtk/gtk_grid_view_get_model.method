@@ -1,0 +1,2 @@
+  fun ref get_model(): NullablePointer[GtkSelectionModelT] =>
+    GtkGridViewP.get_model(this)

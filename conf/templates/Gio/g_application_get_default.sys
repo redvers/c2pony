@@ -1,0 +1,2 @@
+  fun get_default(): NullablePointer[GObjectT] =>
+@g_application_get_default()

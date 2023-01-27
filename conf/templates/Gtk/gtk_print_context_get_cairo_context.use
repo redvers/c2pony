@@ -1,0 +1,1 @@
+use @gtk_print_context_get_cairo_context[NullablePointer[cairoT]](context': NullablePointer[GtkPrintContextT])

@@ -1,0 +1,2 @@
+  fun set_can_shrink(self': NullablePointer[GtkPictureT], can_shrink': I32): None =>
+    @gtk_picture_set_can_shrink(self', can_shrink')

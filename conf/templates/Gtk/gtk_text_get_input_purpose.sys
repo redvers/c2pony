@@ -1,0 +1,2 @@
+  fun get_input_purpose(self': NullablePointer[GtkTextT]): U32 =>
+    @gtk_text_get_input_purpose(self')

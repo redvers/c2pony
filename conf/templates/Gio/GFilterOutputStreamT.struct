@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GFilterOutputStreamT
+  embed parent_instance': GOutputStreamT = GOutputStreamT
+  var base_stream': NullablePointer[GOutputStreamT] = NullablePointer[GOutputStreamT].none()

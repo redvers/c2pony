@@ -1,0 +1,2 @@
+  fun ref get_accelerator(): String iso^ =>
+    GtkShortcutLabelP.get_accelerator(this)

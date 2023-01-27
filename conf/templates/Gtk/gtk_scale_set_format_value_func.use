@@ -1,0 +1,1 @@
+use @gtk_scale_set_format_value_func[None](scale': NullablePointer[GtkScaleT], func': GtkScaleFormatValueFunc, user_data': Pointer[None] tag, destroy_notify': Pointer[None])

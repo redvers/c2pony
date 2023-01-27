@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkPageSetupT] =>
+    @gtk_page_setup_new()

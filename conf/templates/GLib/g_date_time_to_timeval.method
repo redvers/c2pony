@@ -1,2 +1,2 @@
   fun ref to_timeval(tv': NullablePointer[GTimeValT]): I32 =>
-    GDateTimeP.to_timeval(this.ptr, tv')
+    GDateTimeP.to_timeval(ptr, tv')

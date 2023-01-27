@@ -1,0 +1,2 @@
+  fun ref get_has_frame(): I32 =>
+    GtkEntryP.get_has_frame(this)

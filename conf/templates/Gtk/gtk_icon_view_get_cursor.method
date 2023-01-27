@@ -1,0 +1,2 @@
+  fun ref get_cursor(path': Pointer[NullablePointer[GtkTreePathT]], cell': Pointer[NullablePointer[GtkCellRendererT]]): I32 =>
+    GtkIconViewP.get_cursor(this, path', cell')

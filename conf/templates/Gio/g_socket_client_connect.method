@@ -1,0 +1,2 @@
+  fun ref connect(connectable': NullablePointer[GSocketConnectableT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
+    GSocketClientP.connect(this, connectable', cancellable', error')

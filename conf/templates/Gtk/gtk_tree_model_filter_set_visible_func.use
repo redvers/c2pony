@@ -1,0 +1,1 @@
+use @gtk_tree_model_filter_set_visible_func[None](filter': NullablePointer[GtkTreeModelFilterT], func': GtkTreeModelFilterVisibleFunc, data': Pointer[None] tag, destroy': Pointer[None])

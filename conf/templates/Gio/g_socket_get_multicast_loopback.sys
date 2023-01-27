@@ -1,0 +1,2 @@
+  fun get_multicast_loopback(socket': NullablePointer[GSocketT]): I32 =>
+    @g_socket_get_multicast_loopback(socket')

@@ -1,0 +1,2 @@
+  fun ref has_key(name': String): I32 =>
+    GSettingsSchemaP.has_key(ptr, name')

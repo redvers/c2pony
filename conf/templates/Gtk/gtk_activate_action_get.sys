@@ -1,0 +1,2 @@
+  fun get(): NullablePointer[GtkShortcutActionT] =>
+    @gtk_activate_action_get()

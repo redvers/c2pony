@@ -1,0 +1,1 @@
+use @gtk_flow_box_get_row_spacing[U32](box': NullablePointer[GtkFlowBoxT])

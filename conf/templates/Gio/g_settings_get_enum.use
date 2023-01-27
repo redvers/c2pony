@@ -1,0 +1,1 @@
+use @g_settings_get_enum[I32](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)

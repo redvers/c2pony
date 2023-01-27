@@ -1,2 +1,2 @@
   fun ref writer_unlock(): None =>
-    GRWLockP.writer_unlock(this.ptr)
+    GRWLockP.writer_unlock(ptr)

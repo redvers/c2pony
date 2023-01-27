@@ -1,0 +1,2 @@
+  fun get_for_display(display': NullablePointer[GdkDisplayT]): NullablePointer[GtkSettingsT] =>
+    @gtk_settings_get_for_display(display')

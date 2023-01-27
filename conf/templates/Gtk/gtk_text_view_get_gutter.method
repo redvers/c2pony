@@ -1,0 +1,2 @@
+  fun ref get_gutter(win': U32): NullablePointer[GObjectT] =>
+    GtkTextViewP.get_gutter(this, win')

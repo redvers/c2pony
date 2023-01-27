@@ -1,0 +1,2 @@
+  fun restore(context': NullablePointer[GtkStyleContextT]): None =>
+    @gtk_style_context_restore(context')

@@ -1,0 +1,2 @@
+  fun get_windows(application': GtkApplicationI): NullablePointer[GListT] =>
+    @gtk_application_get_windows(application'.getptr())

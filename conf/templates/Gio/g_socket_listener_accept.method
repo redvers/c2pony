@@ -1,0 +1,2 @@
+  fun ref accept(source_object': Pointer[NullablePointer[GObjectT]], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
+    GSocketListenerP.accept(this, source_object', cancellable', error')

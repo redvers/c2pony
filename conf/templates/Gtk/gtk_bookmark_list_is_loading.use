@@ -1,0 +1,1 @@
+use @gtk_bookmark_list_is_loading[I32](self': NullablePointer[GtkBookmarkListT])

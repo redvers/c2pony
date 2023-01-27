@@ -1,0 +1,1 @@
+use @gtk_text_iter_get_char[U32](iter': NullablePointer[GtkTextIterT])

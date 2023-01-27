@@ -1,0 +1,1 @@
+use @gtk_label_get_mnemonic_widget[NullablePointer[GObjectT]](self': NullablePointer[GtkLabelT])

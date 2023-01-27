@@ -1,0 +1,2 @@
+  fun select_region(self': NullablePointer[GtkLabelT], start_offset': I32, end_offset': I32): None =>
+    @gtk_label_select_region(self', start_offset', end_offset')

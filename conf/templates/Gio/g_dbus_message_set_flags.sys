@@ -1,0 +1,2 @@
+  fun set_flags(message': NullablePointer[GDBusMessageT], flags': U32): None =>
+    @g_dbus_message_set_flags(message', flags')

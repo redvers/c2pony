@@ -1,0 +1,2 @@
+  fun ref get_attributes(): NullablePointer[PangoAttrListT] =>
+    GtkLabelP.get_attributes(this)

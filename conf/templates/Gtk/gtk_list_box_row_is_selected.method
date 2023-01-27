@@ -1,0 +1,2 @@
+  fun ref is_selected(): I32 =>
+    GtkListBoxRowP.is_selected(this)

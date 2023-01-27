@@ -1,0 +1,2 @@
+  fun ref insert(position': I32, label': String, detailed_action': String): None =>
+    GMenuP.insert(this, position', label', detailed_action')

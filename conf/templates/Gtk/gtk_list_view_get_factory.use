@@ -1,0 +1,1 @@
+use @gtk_list_view_get_factory[NullablePointer[GtkListItemFactoryT]](self': NullablePointer[GtkListViewT])

@@ -1,0 +1,2 @@
+  fun ref get_baseline_position(): U32 =>
+    GtkBoxP.get_baseline_position(this)

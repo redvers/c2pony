@@ -1,0 +1,2 @@
+  fun set_enum(settings': NullablePointer[GSettingsT], key': String, value': I32): I32 =>
+    @g_settings_set_enum(settings', key'.cstring(), value')

@@ -1,0 +1,1 @@
+use @gtk_level_bar_get_mode[U32](self': NullablePointer[GtkLevelBarT])

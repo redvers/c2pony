@@ -1,0 +1,2 @@
+  fun compare(self': NullablePointer[GtkSorterT], item1': Pointer[None] tag, item2': Pointer[None] tag): I32 =>
+    @gtk_sorter_compare(self', item1', item2')

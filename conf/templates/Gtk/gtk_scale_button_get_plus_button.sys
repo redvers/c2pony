@@ -1,0 +1,2 @@
+  fun get_plus_button(button': NullablePointer[GtkScaleButtonT]): NullablePointer[GObjectT] =>
+@gtk_scale_button_get_plus_button(button')

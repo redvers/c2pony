@@ -1,0 +1,2 @@
+  fun perspective(snapshot': NullablePointer[GdkSnapshotT], depth': F32): None =>
+    @gtk_snapshot_perspective(snapshot', depth')

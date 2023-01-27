@@ -1,0 +1,2 @@
+  fun ref equal(rhs': NullablePointer[GtkTextIterT]): I32 =>
+    GtkTextIterP.equal(ptr, rhs')

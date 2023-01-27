@@ -1,0 +1,2 @@
+  fun ref set_detailed_action(detailed_action': String): None =>
+    GMenuItemP.set_detailed_action(this, detailed_action')

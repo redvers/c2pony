@@ -1,0 +1,2 @@
+  fun send_notification(application': GApplicationI, id': String, notification': NullablePointer[GNotificationT]): None =>
+    @g_application_send_notification(application'.getptr(), id'.cstring(), notification')

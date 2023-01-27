@@ -1,0 +1,2 @@
+  fun add_button_with_target_value(notification': NullablePointer[GNotificationT], label': String, action': String, target': NullablePointer[GVariantT]): None =>
+    @g_notification_add_button_with_target_value(notification', label'.cstring(), action'.cstring(), target')

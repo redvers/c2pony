@@ -1,0 +1,2 @@
+  fun get_action(self': NullablePointer[GtkShortcutT]): NullablePointer[GtkShortcutActionT] =>
+    @gtk_shortcut_get_action(self')

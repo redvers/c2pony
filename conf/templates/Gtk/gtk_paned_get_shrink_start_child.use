@@ -1,0 +1,1 @@
+use @gtk_paned_get_shrink_start_child[I32](paned': NullablePointer[GtkPanedT])

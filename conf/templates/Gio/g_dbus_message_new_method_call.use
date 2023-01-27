@@ -1,0 +1,1 @@
+use @g_dbus_message_new_method_call[NullablePointer[GDBusMessageT]](name': Pointer[U8] tag, path': Pointer[U8] tag, interface': Pointer[U8] tag, method': Pointer[U8] tag)

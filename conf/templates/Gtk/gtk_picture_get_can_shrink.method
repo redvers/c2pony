@@ -1,0 +1,2 @@
+  fun ref get_can_shrink(): I32 =>
+    GtkPictureP.get_can_shrink(this)

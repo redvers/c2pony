@@ -1,0 +1,2 @@
+  fun get_mounts(volume_monitor': NullablePointer[GVolumeMonitorT]): NullablePointer[GListT] =>
+    @g_volume_monitor_get_mounts(volume_monitor')

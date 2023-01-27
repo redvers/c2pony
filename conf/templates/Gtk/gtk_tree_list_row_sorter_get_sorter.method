@@ -1,0 +1,2 @@
+  fun ref get_sorter(): NullablePointer[GtkSorterT] =>
+    GtkTreeListRowSorterP.get_sorter(this)

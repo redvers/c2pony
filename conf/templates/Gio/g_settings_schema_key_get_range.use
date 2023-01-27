@@ -1,0 +1,1 @@
+use @g_settings_schema_key_get_range[NullablePointer[GVariantT]](key': NullablePointer[GSettingsSchemaKeyT])

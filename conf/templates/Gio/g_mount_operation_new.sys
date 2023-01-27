@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GMountOperationT] =>
+    @g_mount_operation_new()

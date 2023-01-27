@@ -1,2 +1,2 @@
   fun ref set_parse(str': String): None =>
-    GDateP.set_parse(this.ptr, str')
+    GDateP.set_parse(ptr, str')

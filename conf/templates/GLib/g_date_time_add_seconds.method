@@ -1,2 +1,2 @@
   fun ref add_seconds(seconds': F64): NullablePointer[GDateTimeT] =>
-    GDateTimeP.add_seconds(this.ptr, seconds')
+    GDateTimeP.add_seconds(ptr, seconds')

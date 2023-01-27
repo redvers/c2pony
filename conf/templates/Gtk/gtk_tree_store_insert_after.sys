@@ -1,0 +1,2 @@
+  fun insert_after(tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT], sibling': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_store_insert_after(tree_store', iter', parent', sibling')

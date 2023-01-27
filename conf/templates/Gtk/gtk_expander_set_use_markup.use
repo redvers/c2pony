@@ -1,0 +1,1 @@
+use @gtk_expander_set_use_markup[None](expander': NullablePointer[GtkExpanderT], use_markup': I32)

@@ -1,0 +1,2 @@
+  fun get_flags(interface': NullablePointer[GDBusInterfaceSkeletonT]): U32 =>
+    @g_dbus_interface_skeleton_get_flags(interface')

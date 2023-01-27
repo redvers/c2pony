@@ -1,0 +1,2 @@
+  fun redo(buffer': NullablePointer[GtkTextBufferT]): None =>
+    @gtk_text_buffer_redo(buffer')

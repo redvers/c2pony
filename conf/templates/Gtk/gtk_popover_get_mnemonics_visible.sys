@@ -1,0 +1,2 @@
+  fun get_mnemonics_visible(popover': NullablePointer[GtkPopoverT]): I32 =>
+    @gtk_popover_get_mnemonics_visible(popover')

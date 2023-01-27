@@ -1,0 +1,2 @@
+  fun ref get_arguments(): NullablePointer[GVariantT] =>
+    GtkShortcutP.get_arguments(this)

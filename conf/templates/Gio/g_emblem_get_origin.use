@@ -1,0 +1,1 @@
+use @g_emblem_get_origin[U32](emblem': NullablePointer[GEmblemT])

@@ -1,0 +1,2 @@
+  fun set_symbolic_icon(info': NullablePointer[GFileInfoT], icon': NullablePointer[GIconT]): None =>
+    @g_file_info_set_symbolic_icon(info', icon')

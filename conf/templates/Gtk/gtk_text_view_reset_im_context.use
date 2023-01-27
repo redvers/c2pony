@@ -1,0 +1,1 @@
+use @gtk_text_view_reset_im_context[None](text_view': NullablePointer[GtkTextViewT])

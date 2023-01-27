@@ -1,0 +1,2 @@
+  fun ref get_row_homogeneous(): I32 =>
+    GtkGridLayoutP.get_row_homogeneous(this)

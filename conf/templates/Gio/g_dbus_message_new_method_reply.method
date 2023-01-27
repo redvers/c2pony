@@ -1,0 +1,2 @@
+  fun ref new_method_reply(): NullablePointer[GDBusMessageT] =>
+    GDBusMessageP.new_method_reply(this)

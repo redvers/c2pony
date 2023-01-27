@@ -1,0 +1,1 @@
+use @gtk_text_buffer_insert_interactive[I32](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], text': Pointer[U8] tag, len': I32, default_editable': I32)

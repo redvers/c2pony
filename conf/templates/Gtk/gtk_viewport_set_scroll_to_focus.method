@@ -1,0 +1,2 @@
+  fun ref set_scroll_to_focus(scroll_to_focus': I32): None =>
+    GtkViewportP.set_scroll_to_focus(this, scroll_to_focus')

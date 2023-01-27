@@ -1,0 +1,2 @@
+  fun set_menu_label(notebook': NullablePointer[GtkNotebookT], child': GtkWidgetI, menu_label': GtkWidgetI): None =>
+    @gtk_notebook_set_menu_label(notebook', child'.getptr(), menu_label'.getptr())

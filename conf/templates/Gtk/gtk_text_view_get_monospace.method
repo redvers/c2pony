@@ -1,0 +1,2 @@
+  fun ref get_monospace(): I32 =>
+    GtkTextViewP.get_monospace(this)

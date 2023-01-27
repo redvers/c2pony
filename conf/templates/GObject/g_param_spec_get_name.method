@@ -1,2 +1,2 @@
   fun ref get_name(): String iso^ =>
-    GParamSpecP.get_name(this.ptr)
+    GParamSpecP.get_name(this)

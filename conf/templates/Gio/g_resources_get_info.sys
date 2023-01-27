@@ -1,0 +1,2 @@
+  fun resources_get_info(path': String, lookup_flags': U32, size': Pointer[U64] tag, flags': Pointer[U32] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_resources_get_info(path'.cstring(), lookup_flags', size', flags', error')

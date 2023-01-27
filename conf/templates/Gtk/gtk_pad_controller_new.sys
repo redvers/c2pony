@@ -1,0 +1,2 @@
+  fun new(group': NullablePointer[GActionGroupT], pad': NullablePointer[GdkDeviceT]): NullablePointer[GtkPadControllerT] =>
+    @gtk_pad_controller_new(group', pad')

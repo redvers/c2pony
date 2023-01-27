@@ -1,0 +1,2 @@
+  fun ref get_value(key': String): NullablePointer[GVariantT] =>
+    GSettingsP.get_value(this, key')

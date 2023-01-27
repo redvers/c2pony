@@ -1,0 +1,2 @@
+  fun ref return_error(error': NullablePointer[GErrorT]): None =>
+    GTaskP.return_error(this, error')

@@ -1,0 +1,2 @@
+  fun get_default(): NullablePointer[GVfsT] =>
+    @g_vfs_get_default()

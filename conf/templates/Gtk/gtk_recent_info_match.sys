@@ -1,0 +1,2 @@
+  fun match(info_a': NullablePointer[GtkRecentInfoT], info_b': NullablePointer[GtkRecentInfoT]): I32 =>
+    @gtk_recent_info_match(info_a', info_b')

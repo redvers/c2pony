@@ -1,0 +1,1 @@
+use @gtk_recent_info_get_private_hint[I32](info': NullablePointer[GtkRecentInfoT])

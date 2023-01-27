@@ -1,0 +1,2 @@
+  fun ref set_error(error': NullablePointer[GErrorT]): None =>
+    GtkGLAreaP.set_error(this, error')

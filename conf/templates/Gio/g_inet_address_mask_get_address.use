@@ -1,0 +1,1 @@
+use @g_inet_address_mask_get_address[NullablePointer[GInetAddressT]](mask': NullablePointer[GInetAddressMaskT])

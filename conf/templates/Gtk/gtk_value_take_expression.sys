@@ -1,0 +1,2 @@
+  fun value_take_expression(value': NullablePointer[GValueT], expression': NullablePointer[GtkExpressionT]): None =>
+    @gtk_value_take_expression(value', expression')

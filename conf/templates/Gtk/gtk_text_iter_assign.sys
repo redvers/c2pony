@@ -1,0 +1,2 @@
+  fun assign(iter': NullablePointer[GtkTextIterT], other': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_iter_assign(iter', other')

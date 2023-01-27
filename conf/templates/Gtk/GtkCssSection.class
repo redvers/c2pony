@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkCssSection
+  var ptr: NullablePointer[GtkCssSectionT]
+
+  new create() =>
+    ptr = NullablePointer[GtkCssSectionT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkCssSectionT]) => ptr = ptr'

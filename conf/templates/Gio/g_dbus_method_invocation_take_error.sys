@@ -1,0 +1,2 @@
+  fun take_error(invocation': NullablePointer[GDBusMethodInvocationT], error': NullablePointer[GErrorT]): None =>
+    @g_dbus_method_invocation_take_error(invocation', error')

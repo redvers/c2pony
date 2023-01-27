@@ -1,0 +1,2 @@
+  fun get_device(gesture': NullablePointer[GtkGestureT]): NullablePointer[GdkDeviceT] =>
+    @gtk_gesture_get_device(gesture')

@@ -1,0 +1,2 @@
+  fun ref set_file_type(type': U32): None =>
+    GFileInfoP.set_file_type(this, type')

@@ -1,0 +1,1 @@
+use @gtk_icon_view_set_item_width[None](icon_view': NullablePointer[GtkIconViewT], item_width': I32)

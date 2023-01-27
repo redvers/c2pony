@@ -1,0 +1,1 @@
+use @gtk_drop_target_set_gtypes[None](self': NullablePointer[GtkDropTargetT], types': Pointer[U64] tag, n_types': U64)

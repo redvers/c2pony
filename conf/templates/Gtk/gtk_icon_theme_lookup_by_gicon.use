@@ -1,0 +1,1 @@
+use @gtk_icon_theme_lookup_by_gicon[NullablePointer[GtkIconPaintableT]](self': NullablePointer[GtkIconThemeT], icon': NullablePointer[GIconT], size': I32, scale': I32, direction': U32, flags': U32)

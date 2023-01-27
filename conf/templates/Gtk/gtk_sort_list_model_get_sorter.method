@@ -1,0 +1,2 @@
+  fun ref get_sorter(): NullablePointer[GtkSorterT] =>
+    GtkSortListModelP.get_sorter(this)

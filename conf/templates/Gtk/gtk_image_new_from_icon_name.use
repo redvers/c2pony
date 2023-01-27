@@ -1,0 +1,1 @@
+use @gtk_image_new_from_icon_name[NullablePointer[GObjectT]](icon_name': Pointer[U8] tag)

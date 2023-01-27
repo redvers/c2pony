@@ -1,0 +1,2 @@
+  fun get_display(self': NullablePointer[GtkIconThemeT]): NullablePointer[GdkDisplayT] =>
+    @gtk_icon_theme_get_display(self')

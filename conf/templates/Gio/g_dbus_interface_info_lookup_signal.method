@@ -1,0 +1,2 @@
+  fun ref lookup_signal(name': String): NullablePointer[GDBusSignalInfoT] =>
+    GDBusInterfaceInfoP.lookup_signal(ptr, name')

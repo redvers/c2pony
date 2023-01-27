@@ -1,0 +1,1 @@
+use @g_dbus_auth_observer_new[NullablePointer[GDBusAuthObserverT]]()

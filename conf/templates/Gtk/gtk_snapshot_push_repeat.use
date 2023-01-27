@@ -1,0 +1,1 @@
+use @gtk_snapshot_push_repeat[None](snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT], child_bounds': NullablePointer[graphenerecttT])

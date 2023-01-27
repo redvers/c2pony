@@ -1,0 +1,1 @@
+use @g_dbus_property_info_ref[NullablePointer[GDBusPropertyInfoT]](info': NullablePointer[GDBusPropertyInfoT])

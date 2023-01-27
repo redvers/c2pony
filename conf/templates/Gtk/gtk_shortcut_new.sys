@@ -1,0 +1,2 @@
+  fun new(trigger': NullablePointer[GtkShortcutTriggerT], action': NullablePointer[GtkShortcutActionT]): NullablePointer[GtkShortcutT] =>
+    @gtk_shortcut_new(trigger', action')

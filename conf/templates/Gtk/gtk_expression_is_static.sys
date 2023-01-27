@@ -1,0 +1,2 @@
+  fun is_static(self': NullablePointer[GtkExpressionT]): I32 =>
+    @gtk_expression_is_static(self')

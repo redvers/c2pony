@@ -1,0 +1,2 @@
+  fun get_column_span(child': NullablePointer[GtkGridLayoutChildT]): I32 =>
+    @gtk_grid_layout_child_get_column_span(child')

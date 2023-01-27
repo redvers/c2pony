@@ -1,2 +1,2 @@
   fun ref get_string_number(name': String): I32 =>
-    GRegexP.get_string_number(this.ptr, name')
+    GRegexP.get_string_number(ptr, name')

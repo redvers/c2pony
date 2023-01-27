@@ -1,0 +1,2 @@
+  fun ref add_tick_callback(callback': GtkTickCallback, user_data': Pointer[None] tag, notify': Pointer[None]): U32 =>
+    GtkWidgetP.add_tick_callback(this, callback', user_data', notify')

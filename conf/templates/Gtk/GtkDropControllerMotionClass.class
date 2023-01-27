@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkDropControllerMotionClass
+  var ptr: NullablePointer[GtkDropControllerMotionClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkDropControllerMotionClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkDropControllerMotionClassT]) => ptr = ptr'

@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GProxyAddressT
+  embed parent_instance': GInetSocketAddressT = GInetSocketAddressT
+  var priv': NullablePointer[GProxyAddressPrivateT] = NullablePointer[GProxyAddressPrivateT].none()

@@ -1,0 +1,2 @@
+  fun connect_entry(bar': NullablePointer[GtkSearchBarT], entry': NullablePointer[GtkEditableT]): None =>
+    @gtk_search_bar_connect_entry(bar', entry')

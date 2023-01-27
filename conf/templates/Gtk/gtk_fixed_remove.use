@@ -1,0 +1,1 @@
+use @gtk_fixed_remove[None](fixed': NullablePointer[GtkFixedT], widget': NullablePointer[GObjectT])

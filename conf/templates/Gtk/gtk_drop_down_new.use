@@ -1,0 +1,1 @@
+use @gtk_drop_down_new[NullablePointer[GObjectT]](model': NullablePointer[GListModelT], expression': NullablePointer[GtkExpressionT])

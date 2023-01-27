@@ -1,0 +1,2 @@
+  fun ref set_page_ranges(page_ranges': NullablePointer[GtkPageRangeT], num_ranges': I32): None =>
+    GtkPrintSettingsP.set_page_ranges(this, page_ranges', num_ranges')

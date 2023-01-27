@@ -1,0 +1,2 @@
+  fun get_insert(buffer': NullablePointer[GtkTextBufferT]): NullablePointer[GtkTextMarkT] =>
+    @gtk_text_buffer_get_insert(buffer')

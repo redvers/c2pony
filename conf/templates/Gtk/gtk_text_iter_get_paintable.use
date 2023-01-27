@@ -1,0 +1,1 @@
+use @gtk_text_iter_get_paintable[NullablePointer[GdkPaintableT]](iter': NullablePointer[GtkTextIterT])

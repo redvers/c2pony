@@ -1,0 +1,2 @@
+  fun get_menu_model(menu_button': NullablePointer[GtkMenuButtonT]): NullablePointer[GMenuModelT] =>
+    @gtk_menu_button_get_menu_model(menu_button')

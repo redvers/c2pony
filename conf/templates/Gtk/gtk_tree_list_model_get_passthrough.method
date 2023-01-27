@@ -1,0 +1,2 @@
+  fun ref get_passthrough(): I32 =>
+    GtkTreeListModelP.get_passthrough(this)

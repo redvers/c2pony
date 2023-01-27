@@ -1,0 +1,2 @@
+  fun new(side': U32): NullablePointer[GObjectT] =>
+@gtk_window_controls_new(side')

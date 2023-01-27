@@ -1,0 +1,1 @@
+use @gtk_aspect_frame_set_obey_child[None](self': NullablePointer[GtkAspectFrameT], obey_child': I32)

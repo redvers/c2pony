@@ -1,0 +1,2 @@
+  fun lookup_by_gicon(self': NullablePointer[GtkIconThemeT], icon': NullablePointer[GIconT], size': I32, scale': I32, direction': U32, flags': U32): NullablePointer[GtkIconPaintableT] =>
+    @gtk_icon_theme_lookup_by_gicon(self', icon', size', scale', direction', flags')

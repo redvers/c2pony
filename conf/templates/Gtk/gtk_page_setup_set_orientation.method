@@ -1,0 +1,2 @@
+  fun ref set_orientation(orientation': U32): None =>
+    GtkPageSetupP.set_orientation(this, orientation')

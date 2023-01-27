@@ -1,0 +1,2 @@
+  fun new(source_object': Pointer[None] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, callback_data': Pointer[None] tag): NullablePointer[GTaskT] =>
+    @g_task_new(source_object', cancellable', callback', callback_data')

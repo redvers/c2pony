@@ -1,0 +1,2 @@
+  fun ref get_expander_column(): NullablePointer[GtkTreeViewColumnT] =>
+    GtkTreeViewP.get_expander_column(this)

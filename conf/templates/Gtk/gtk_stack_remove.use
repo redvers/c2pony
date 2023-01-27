@@ -1,0 +1,1 @@
+use @gtk_stack_remove[None](stack': NullablePointer[GtkStackT], child': NullablePointer[GObjectT])

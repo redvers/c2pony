@@ -1,0 +1,2 @@
+  fun ref get_mounts(): NullablePointer[GListT] =>
+    GVolumeMonitorP.get_mounts(this)

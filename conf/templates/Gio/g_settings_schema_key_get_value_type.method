@@ -1,0 +1,2 @@
+  fun ref get_value_type(): NullablePointer[GVariantTypeT] =>
+    GSettingsSchemaKeyP.get_value_type(ptr)

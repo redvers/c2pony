@@ -1,2 +1,2 @@
   fun ref ref_sink(): NullablePointer[GVariantT] =>
-    GVariantP.ref_sink(this.ptr)
+    GVariantP.ref_sink(ptr)

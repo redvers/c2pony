@@ -1,0 +1,2 @@
+  fun get_certificate(conn': NullablePointer[GTlsConnectionT]): NullablePointer[GTlsCertificateT] =>
+    @g_tls_connection_get_certificate(conn')

@@ -1,0 +1,2 @@
+  fun ref get_display(): NullablePointer[GdkDisplayT] =>
+    GtkWidgetP.get_display(this)

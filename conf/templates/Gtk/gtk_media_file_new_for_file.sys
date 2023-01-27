@@ -1,0 +1,2 @@
+  fun new_for_file(file': NullablePointer[GFileT]): NullablePointer[GtkMediaStreamT] =>
+    @gtk_media_file_new_for_file(file')

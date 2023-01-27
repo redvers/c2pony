@@ -1,0 +1,2 @@
+  fun set_model(completion': NullablePointer[GtkEntryCompletionT], model': NullablePointer[GtkTreeModelT]): None =>
+    @gtk_entry_completion_set_model(completion', model')

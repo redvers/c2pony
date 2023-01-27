@@ -1,0 +1,2 @@
+  fun ref get_formats(): NullablePointer[GdkContentFormatsT] =>
+    GtkDropTargetAsyncP.get_formats(this)

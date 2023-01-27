@@ -1,0 +1,1 @@
+use @gtk_label_get_single_line_mode[I32](self': NullablePointer[GtkLabelT])

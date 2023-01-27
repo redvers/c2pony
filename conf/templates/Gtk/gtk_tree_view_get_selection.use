@@ -1,0 +1,1 @@
+use @gtk_tree_view_get_selection[NullablePointer[GtkTreeSelectionT]](tree_view': NullablePointer[GtkTreeViewT])

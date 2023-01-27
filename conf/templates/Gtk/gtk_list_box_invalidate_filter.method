@@ -1,0 +1,2 @@
+  fun ref invalidate_filter(): None =>
+    GtkListBoxP.invalidate_filter(this)

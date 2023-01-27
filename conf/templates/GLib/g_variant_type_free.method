@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GVariantTypeP.free(this.ptr)
+    GVariantTypeP.free(ptr)

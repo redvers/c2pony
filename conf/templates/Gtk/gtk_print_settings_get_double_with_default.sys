@@ -1,0 +1,2 @@
+  fun get_double_with_default(settings': NullablePointer[GtkPrintSettingsT], key': String, def': F64): F64 =>
+    @gtk_print_settings_get_double_with_default(settings', key'.cstring(), def')

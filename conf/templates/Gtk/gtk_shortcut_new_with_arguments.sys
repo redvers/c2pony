@@ -1,0 +1,2 @@
+  fun new_with_arguments(trigger': NullablePointer[GtkShortcutTriggerT], action': NullablePointer[GtkShortcutActionT], format_string': String, ...): NullablePointer[GtkShortcutT] =>
+    @gtk_shortcut_new_with_arguments(trigger', action', format_string'.cstring(), ...)

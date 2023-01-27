@@ -1,0 +1,2 @@
+  fun unselect_path(icon_view': NullablePointer[GtkIconViewT], path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_icon_view_unselect_path(icon_view', path')

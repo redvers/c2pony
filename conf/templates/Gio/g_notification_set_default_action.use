@@ -1,0 +1,1 @@
+use @g_notification_set_default_action[None](notification': NullablePointer[GNotificationT], detailed_action': Pointer[U8] tag)

@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkVideoClass
+  var ptr: NullablePointer[GtkVideoClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkVideoClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkVideoClassT]) => ptr = ptr'

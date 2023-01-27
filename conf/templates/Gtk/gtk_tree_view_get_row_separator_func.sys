@@ -1,0 +1,2 @@
+  fun get_row_separator_func(tree_view': NullablePointer[GtkTreeViewT]): GtkTreeViewRowSeparatorFunc =>
+    @gtk_tree_view_get_row_separator_func(tree_view')

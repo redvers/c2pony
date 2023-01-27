@@ -1,0 +1,1 @@
+use @gtk_widget_should_layout[I32](widget': NullablePointer[GObjectT])

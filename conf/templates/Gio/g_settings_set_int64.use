@@ -1,0 +1,1 @@
+use @g_settings_set_int64[I32](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, value': I64)

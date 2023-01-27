@@ -1,0 +1,1 @@
+use @g_inet_address_get_is_any[I32](address': NullablePointer[GInetAddressT])

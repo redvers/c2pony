@@ -1,0 +1,2 @@
+  fun get_item(self': NullablePointer[GtkListItemT]): Pointer[None] tag =>
+    @gtk_list_item_get_item(self')

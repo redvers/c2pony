@@ -1,0 +1,2 @@
+  fun ref add_widget(widget': GtkWidgetI): None =>
+    GtkSizeGroupP.add_widget(this, widget')

@@ -1,0 +1,2 @@
+  fun push_blur(snapshot': NullablePointer[GdkSnapshotT], radius': F64): None =>
+    @gtk_snapshot_push_blur(snapshot', radius')

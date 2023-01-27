@@ -1,0 +1,1 @@
+use @gtk_stack_page_set_icon_name[None](self': NullablePointer[GtkStackPageT], setting': Pointer[U8] tag)

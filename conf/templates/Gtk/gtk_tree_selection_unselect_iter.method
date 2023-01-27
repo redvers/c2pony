@@ -1,0 +1,2 @@
+  fun ref unselect_iter(iter': NullablePointer[GtkTreeIterT]): None =>
+    GtkTreeSelectionP.unselect_iter(this, iter')

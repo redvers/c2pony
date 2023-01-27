@@ -1,0 +1,2 @@
+  fun get_show_close_button(info_bar': NullablePointer[GtkInfoBarT]): I32 =>
+    @gtk_info_bar_get_show_close_button(info_bar')

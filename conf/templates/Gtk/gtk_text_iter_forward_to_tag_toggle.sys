@@ -1,0 +1,2 @@
+  fun forward_to_tag_toggle(iter': NullablePointer[GtkTextIterT], tag': NullablePointer[GtkTextTagT]): I32 =>
+    @gtk_text_iter_forward_to_tag_toggle(iter', tag')

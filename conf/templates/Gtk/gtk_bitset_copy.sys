@@ -1,0 +1,2 @@
+  fun copy(self': NullablePointer[GtkBitsetT]): NullablePointer[GtkBitsetT] =>
+    @gtk_bitset_copy(self')

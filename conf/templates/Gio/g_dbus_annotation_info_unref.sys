@@ -1,0 +1,2 @@
+  fun unref(info': NullablePointer[GDBusAnnotationInfoT]): None =>
+    @g_dbus_annotation_info_unref(info')

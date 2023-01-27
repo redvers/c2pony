@@ -1,0 +1,2 @@
+  fun set_pixel_size(image': NullablePointer[GtkImageT], pixel_size': I32): None =>
+    @gtk_image_set_pixel_size(image', pixel_size')

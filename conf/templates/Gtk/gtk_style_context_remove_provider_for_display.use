@@ -1,0 +1,1 @@
+use @gtk_style_context_remove_provider_for_display[None](display': NullablePointer[GdkDisplayT], provider': NullablePointer[GtkStyleProviderT])

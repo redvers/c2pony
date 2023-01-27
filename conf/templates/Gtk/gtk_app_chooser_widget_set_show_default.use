@@ -1,0 +1,1 @@
+use @gtk_app_chooser_widget_set_show_default[None](self': NullablePointer[GtkAppChooserWidgetT], setting': I32)

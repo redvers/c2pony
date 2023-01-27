@@ -1,0 +1,2 @@
+  fun add_guide(layout': NullablePointer[GtkConstraintLayoutT], guide': NullablePointer[GtkConstraintGuideT]): None =>
+    @gtk_constraint_layout_add_guide(layout', guide')

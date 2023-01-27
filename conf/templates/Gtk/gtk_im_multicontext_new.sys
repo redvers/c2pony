@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkIMContextT] =>
+    @gtk_im_multicontext_new()

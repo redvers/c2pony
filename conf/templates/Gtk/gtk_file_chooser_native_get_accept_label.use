@@ -1,0 +1,1 @@
+use @gtk_file_chooser_native_get_accept_label[Pointer[U8]](self': NullablePointer[GtkFileChooserNativeT])

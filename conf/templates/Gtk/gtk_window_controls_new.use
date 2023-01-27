@@ -1,0 +1,1 @@
+use @gtk_window_controls_new[NullablePointer[GObjectT]](side': U32)

@@ -1,0 +1,2 @@
+  fun ref push_blur(radius': F64): None =>
+    P.push_blur(this, radius')

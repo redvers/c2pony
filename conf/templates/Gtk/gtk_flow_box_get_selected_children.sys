@@ -1,0 +1,2 @@
+  fun get_selected_children(box': NullablePointer[GtkFlowBoxT]): NullablePointer[GListT] =>
+    @gtk_flow_box_get_selected_children(box')

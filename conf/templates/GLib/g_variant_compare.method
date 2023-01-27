@@ -1,2 +1,2 @@
   fun ref compare(two': Pointer[None] tag): I32 =>
-    GVariantP.compare(this.ptr, two')
+    GVariantP.compare(ptr, two')

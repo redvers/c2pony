@@ -1,0 +1,2 @@
+  fun reject_drop(self': NullablePointer[GtkDropTargetAsyncT], drop': NullablePointer[GdkDropT]): None =>
+    @gtk_drop_target_async_reject_drop(self', drop')

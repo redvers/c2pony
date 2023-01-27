@@ -1,0 +1,2 @@
+  fun get_row_at_index(box': NullablePointer[GtkListBoxT], index': I32): NullablePointer[GtkListBoxRowT] =>
+    @gtk_list_box_get_row_at_index(box', index')

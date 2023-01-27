@@ -1,0 +1,1 @@
+use @gtk_combo_box_get_entry_text_column[I32](combo_box': NullablePointer[GtkComboBoxT])

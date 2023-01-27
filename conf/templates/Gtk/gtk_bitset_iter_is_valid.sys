@@ -1,0 +1,2 @@
+  fun is_valid(iter': NullablePointer[GtkBitsetIterT]): I32 =>
+    @gtk_bitset_iter_is_valid(iter')

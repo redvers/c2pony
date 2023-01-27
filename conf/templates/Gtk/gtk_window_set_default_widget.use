@@ -1,0 +1,1 @@
+use @gtk_window_set_default_widget[None](window': NullablePointer[GObjectT], default_widget': NullablePointer[GObjectT])

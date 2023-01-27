@@ -1,0 +1,2 @@
+  fun ref remove(renderer': NullablePointer[GtkCellRendererT]): None =>
+    GtkCellAreaP.remove(this, renderer')

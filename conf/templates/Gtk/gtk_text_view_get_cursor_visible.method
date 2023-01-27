@@ -1,0 +1,2 @@
+  fun ref get_cursor_visible(): I32 =>
+    GtkTextViewP.get_cursor_visible(this)

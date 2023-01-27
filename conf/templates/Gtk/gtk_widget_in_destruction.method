@@ -1,0 +1,2 @@
+  fun ref in_destruction(): I32 =>
+    GtkWidgetP.in_destruction(this)

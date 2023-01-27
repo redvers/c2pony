@@ -1,0 +1,2 @@
+  fun ref get_tab_pos(): U32 =>
+    GtkNotebookP.get_tab_pos(this)

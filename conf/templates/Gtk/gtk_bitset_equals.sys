@@ -1,0 +1,2 @@
+  fun equals(self': NullablePointer[GtkBitsetT], other': NullablePointer[GtkBitsetT]): I32 =>
+    @gtk_bitset_equals(self', other')

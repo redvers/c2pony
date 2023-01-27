@@ -1,0 +1,1 @@
+use @gtk_bitset_new_range[NullablePointer[GtkBitsetT]](start': U32, n_items': U32)

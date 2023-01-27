@@ -1,0 +1,2 @@
+  fun ref set_theme_name(theme_name': String): None =>
+    GtkIconThemeP.set_theme_name(this, theme_name')

@@ -1,2 +1,2 @@
   fun ref append_printf(format': String, ...): None =>
-    GStringP.append_printf(this.ptr, format', ...)
+    GStringP.append_printf(ptr, format', ...)

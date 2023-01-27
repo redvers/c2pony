@@ -1,0 +1,2 @@
+  fun ref get_visible_line_offset(): I32 =>
+    GtkTextIterP.get_visible_line_offset(ptr)

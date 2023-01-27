@@ -1,0 +1,2 @@
+  fun get_revealed(info_bar': NullablePointer[GtkInfoBarT]): I32 =>
+    @gtk_info_bar_get_revealed(info_bar')

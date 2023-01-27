@@ -1,2 +1,2 @@
   fun ref push_nth_link(n': I32, link': NullablePointer[GListT]): None =>
-    GQueueP.push_nth_link(this.ptr, n', link')
+    GQueueP.push_nth_link(ptr, n', link')

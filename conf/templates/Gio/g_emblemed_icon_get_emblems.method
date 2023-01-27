@@ -1,0 +1,2 @@
+  fun ref get_emblems(): NullablePointer[GListT] =>
+    GEmblemedIconP.get_emblems(this)

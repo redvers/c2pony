@@ -1,0 +1,1 @@
+use @gtk_builder_list_item_factory_get_resource[Pointer[U8]](self': NullablePointer[GtkBuilderListItemFactoryT])

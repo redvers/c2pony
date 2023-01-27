@@ -1,0 +1,2 @@
+  fun ref set_input_stream(stream': NullablePointer[GInputStreamT]): None =>
+    GtkMediaFileP.set_input_stream(this, stream')

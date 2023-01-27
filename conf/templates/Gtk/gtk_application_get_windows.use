@@ -1,0 +1,1 @@
+use @gtk_application_get_windows[NullablePointer[GListT]](application': NullablePointer[GObjectT])

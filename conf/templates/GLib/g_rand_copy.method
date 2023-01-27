@@ -1,2 +1,2 @@
   fun ref copy(): NullablePointer[GRandT] =>
-    GRandP.copy(this.ptr)
+    GRandP.copy(ptr)

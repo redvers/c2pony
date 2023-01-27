@@ -1,0 +1,2 @@
+  fun query_info_finish(stream': NullablePointer[GFileOutputStreamT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileInfoT] =>
+    @g_file_output_stream_query_info_finish(stream', result', error')

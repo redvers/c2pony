@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GSequenceP.free(this.ptr)
+    GSequenceP.free(ptr)

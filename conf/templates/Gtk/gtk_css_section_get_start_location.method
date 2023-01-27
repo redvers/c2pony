@@ -1,0 +1,2 @@
+  fun ref get_start_location(): NullablePointer[GtkCssLocationT] =>
+    GtkCssSectionP.get_start_location(ptr)

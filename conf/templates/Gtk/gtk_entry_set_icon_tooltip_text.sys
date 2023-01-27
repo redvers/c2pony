@@ -1,0 +1,2 @@
+  fun set_icon_tooltip_text(entry': NullablePointer[GtkEntryT], icon_pos': U32, tooltip': String): None =>
+    @gtk_entry_set_icon_tooltip_text(entry', icon_pos', tooltip'.cstring())

@@ -1,0 +1,2 @@
+  fun add_buttons(info_bar': NullablePointer[GtkInfoBarT], first_button_text': String, ...): None =>
+    @gtk_info_bar_add_buttons(info_bar', first_button_text'.cstring(), ...)

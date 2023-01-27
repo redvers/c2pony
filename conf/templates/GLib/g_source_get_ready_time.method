@@ -1,2 +1,2 @@
   fun ref get_ready_time(): I64 =>
-    GSourceP.get_ready_time(this.ptr)
+    GSourceP.get_ready_time(ptr)

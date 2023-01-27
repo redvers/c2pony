@@ -1,0 +1,1 @@
+use @gtk_header_bar_new[NullablePointer[GObjectT]]()

@@ -1,0 +1,2 @@
+  fun set_use_underline(button': NullablePointer[GtkButtonT], use_underline': I32): None =>
+    @gtk_button_set_use_underline(button', use_underline')

@@ -1,0 +1,2 @@
+  fun return_error_if_cancelled(task': NullablePointer[GTaskT]): I32 =>
+    @g_task_return_error_if_cancelled(task')

@@ -1,0 +1,2 @@
+  fun get_fd(socket': NullablePointer[GSocketT]): I32 =>
+    @g_socket_get_fd(socket')

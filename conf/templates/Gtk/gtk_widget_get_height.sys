@@ -1,0 +1,2 @@
+  fun get_height(widget': GtkWidgetI): I32 =>
+    @gtk_widget_get_height(widget'.getptr())

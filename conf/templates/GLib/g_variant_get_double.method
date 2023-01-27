@@ -1,2 +1,2 @@
   fun ref get_double(): F64 =>
-    GVariantP.get_double(this.ptr)
+    GVariantP.get_double(ptr)

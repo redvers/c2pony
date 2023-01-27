@@ -1,0 +1,2 @@
+  fun accept(listener': NullablePointer[GSocketListenerT], source_object': Pointer[NullablePointer[GObjectT]], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
+    @g_socket_listener_accept(listener', source_object', cancellable', error')

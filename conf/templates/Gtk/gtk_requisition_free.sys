@@ -1,0 +1,2 @@
+  fun free(requisition': NullablePointer[GtkRequisitionT]): None =>
+    @gtk_requisition_free(requisition')

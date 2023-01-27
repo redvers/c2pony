@@ -1,2 +1,2 @@
   fun ref get_auth_params(): String iso^ =>
-    GUriP.get_auth_params(this.ptr)
+    GUriP.get_auth_params(ptr)

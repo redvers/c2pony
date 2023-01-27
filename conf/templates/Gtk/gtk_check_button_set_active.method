@@ -1,0 +1,2 @@
+  fun ref set_active(setting': I32): None =>
+    GtkCheckButtonP.set_active(this, setting')

@@ -1,0 +1,2 @@
+  fun ref convert_child_iter_to_iter(sort_iter': NullablePointer[GtkTreeIterT], child_iter': NullablePointer[GtkTreeIterT]): I32 =>
+    GtkTreeModelSortP.convert_child_iter_to_iter(this, sort_iter', child_iter')

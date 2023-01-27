@@ -1,0 +1,1 @@
+use @gtk_cell_area_get_edited_cell[NullablePointer[GtkCellRendererT]](area': NullablePointer[GtkCellAreaT])

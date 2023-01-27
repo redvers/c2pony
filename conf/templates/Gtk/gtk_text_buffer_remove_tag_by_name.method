@@ -1,0 +1,2 @@
+  fun ref remove_tag_by_name(name': String, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+    GtkTextBufferP.remove_tag_by_name(this, name', start', end')

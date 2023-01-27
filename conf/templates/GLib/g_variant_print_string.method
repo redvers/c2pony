@@ -1,2 +1,2 @@
   fun ref print_string(string': NullablePointer[GStringT], type_annotate': I32): NullablePointer[GStringT] =>
-    GVariantP.print_string(this.ptr, string', type_annotate')
+    GVariantP.print_string(ptr, string', type_annotate')

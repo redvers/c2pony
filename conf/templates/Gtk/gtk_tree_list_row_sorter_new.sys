@@ -1,0 +1,2 @@
+  fun new(sorter': NullablePointer[GtkSorterT]): NullablePointer[GtkTreeListRowSorterT] =>
+    @gtk_tree_list_row_sorter_new(sorter')

@@ -1,0 +1,2 @@
+  fun path_is_selected(icon_view': NullablePointer[GtkIconViewT], path': NullablePointer[GtkTreePathT]): I32 =>
+    @gtk_icon_view_path_is_selected(icon_view', path')

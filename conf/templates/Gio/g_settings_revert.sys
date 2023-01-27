@@ -1,0 +1,2 @@
+  fun revert(settings': NullablePointer[GSettingsT]): None =>
+    @g_settings_revert(settings')

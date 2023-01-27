@@ -1,0 +1,2 @@
+  fun ref set_from_gicon(icon': NullablePointer[GIconT]): None =>
+    GtkImageP.set_from_gicon(this, icon')

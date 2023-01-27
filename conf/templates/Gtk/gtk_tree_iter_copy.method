@@ -1,0 +1,2 @@
+  fun ref copy(): NullablePointer[GtkTreeIterT] =>
+    GtkTreeIterP.copy(ptr)

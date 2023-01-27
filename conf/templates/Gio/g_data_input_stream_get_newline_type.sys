@@ -1,0 +1,2 @@
+  fun get_newline_type(stream': NullablePointer[GDataInputStreamT]): U32 =>
+    @g_data_input_stream_get_newline_type(stream')

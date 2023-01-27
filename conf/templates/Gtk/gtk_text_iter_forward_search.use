@@ -1,0 +1,1 @@
+use @gtk_text_iter_forward_search[I32](iter': NullablePointer[GtkTextIterT], str': Pointer[U8] tag, flags': U32, match_start': NullablePointer[GtkTextIterT], match_end': NullablePointer[GtkTextIterT], limit': NullablePointer[GtkTextIterT])

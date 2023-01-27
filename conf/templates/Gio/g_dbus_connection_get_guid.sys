@@ -1,0 +1,2 @@
+  fun get_guid(connection': NullablePointer[GDBusConnectionT]): String iso^ =>
+    String.from_cstring(@g_dbus_connection_get_guid(connection')).clone()

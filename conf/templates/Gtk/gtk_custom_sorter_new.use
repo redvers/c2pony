@@ -1,0 +1,1 @@
+use @gtk_custom_sorter_new[NullablePointer[GtkCustomSorterT]](sort_func': GCompareDataFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None])

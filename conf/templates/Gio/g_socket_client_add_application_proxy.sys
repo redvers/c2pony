@@ -1,0 +1,2 @@
+  fun add_application_proxy(client': NullablePointer[GSocketClientT], protocol': String): None =>
+    @g_socket_client_add_application_proxy(client', protocol'.cstring())

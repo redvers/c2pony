@@ -1,0 +1,2 @@
+  fun pause(self': NullablePointer[GtkMediaStreamT]): None =>
+    @gtk_media_stream_pause(self')

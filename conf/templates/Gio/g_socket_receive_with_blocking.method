@@ -1,0 +1,2 @@
+  fun ref receive_with_blocking(buffer': String, size': U64, blocking': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    GSocketP.receive_with_blocking(this, buffer', size', blocking', cancellable', error')

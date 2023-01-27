@@ -1,0 +1,2 @@
+  fun ref set_column_span(span': I32): None =>
+    GtkGridLayoutChildP.set_column_span(this, span')

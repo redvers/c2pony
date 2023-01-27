@@ -1,0 +1,2 @@
+  fun resources_unregister(resource': NullablePointer[GResourceT]): None =>
+    @g_resources_unregister(resource')

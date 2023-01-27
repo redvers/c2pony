@@ -1,0 +1,2 @@
+  fun get_default(): NullablePointer[GSettingsSchemaSourceT] =>
+    @g_settings_schema_source_get_default()

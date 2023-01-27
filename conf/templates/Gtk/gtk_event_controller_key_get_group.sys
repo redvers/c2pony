@@ -1,0 +1,2 @@
+  fun get_group(controller': NullablePointer[GtkEventControllerKeyT]): U32 =>
+    @gtk_event_controller_key_get_group(controller')

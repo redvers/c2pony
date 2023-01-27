@@ -1,0 +1,2 @@
+  fun ref get_single_line_mode(): I32 =>
+    GtkLabelP.get_single_line_mode(this)

@@ -1,0 +1,2 @@
+  fun unref(section': NullablePointer[GtkCssSectionT]): None =>
+    @gtk_css_section_unref(section')

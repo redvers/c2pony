@@ -1,0 +1,2 @@
+  fun remove_guide(layout': NullablePointer[GtkConstraintLayoutT], guide': NullablePointer[GtkConstraintGuideT]): None =>
+    @gtk_constraint_layout_remove_guide(layout', guide')

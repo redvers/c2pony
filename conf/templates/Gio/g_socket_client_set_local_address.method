@@ -1,0 +1,2 @@
+  fun ref set_local_address(address': NullablePointer[GSocketAddressT]): None =>
+    GSocketClientP.set_local_address(this, address')

@@ -1,0 +1,1 @@
+use @g_file_info_get_attribute_object[NullablePointer[GObjectT]](info': NullablePointer[GFileInfoT], attribute': Pointer[U8] tag)

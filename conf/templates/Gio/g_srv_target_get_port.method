@@ -1,0 +1,2 @@
+  fun ref get_port(): U16 =>
+    GSrvTargetP.get_port(ptr)

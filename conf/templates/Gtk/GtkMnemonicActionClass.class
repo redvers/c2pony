@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkMnemonicActionClass
+  var ptr: NullablePointer[GtkMnemonicActionClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkMnemonicActionClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkMnemonicActionClassT]) => ptr = ptr'

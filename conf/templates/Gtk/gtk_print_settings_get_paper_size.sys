@@ -1,0 +1,2 @@
+  fun get_paper_size(settings': NullablePointer[GtkPrintSettingsT]): NullablePointer[GtkPaperSizeT] =>
+    @gtk_print_settings_get_paper_size(settings')

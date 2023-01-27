@@ -1,0 +1,2 @@
+  fun ref get_interface(): String iso^ =>
+    GDBusMessageP.get_interface(this)

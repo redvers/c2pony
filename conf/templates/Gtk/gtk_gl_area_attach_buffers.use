@@ -1,0 +1,1 @@
+use @gtk_gl_area_attach_buffers[None](area': NullablePointer[GtkGLAreaT])

@@ -1,0 +1,1 @@
+use @gtk_print_settings_set_finishings[None](settings': NullablePointer[GtkPrintSettingsT], finishings': Pointer[U8] tag)

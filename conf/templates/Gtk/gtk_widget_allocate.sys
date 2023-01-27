@@ -1,0 +1,2 @@
+  fun allocate(widget': GtkWidgetI, width': I32, height': I32, baseline': I32, transform': NullablePointer[GskTransformT]): None =>
+    @gtk_widget_allocate(widget'.getptr(), width', height', baseline', transform')

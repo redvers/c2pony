@@ -1,2 +1,2 @@
   fun ref set_integer(group_name': String, key': String, value': I32): None =>
-    GKeyFileP.set_integer(this.ptr, group_name', key', value')
+    GKeyFileP.set_integer(ptr, group_name', key', value')

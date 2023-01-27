@@ -1,0 +1,1 @@
+use @g_menu_attribute_iter_next[I32](iter': NullablePointer[GMenuAttributeIterT])

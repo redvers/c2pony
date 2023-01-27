@@ -1,0 +1,2 @@
+  fun unset_model_drag_dest(icon_view': NullablePointer[GtkIconViewT]): None =>
+    @gtk_icon_view_unset_model_drag_dest(icon_view')

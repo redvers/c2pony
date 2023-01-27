@@ -1,0 +1,2 @@
+  fun get_completion_suffix(completer': NullablePointer[GFilenameCompleterT], initial_text': String): String iso^ =>
+    String.from_cstring(@g_filename_completer_get_completion_suffix(completer', initial_text'.cstring())).clone()

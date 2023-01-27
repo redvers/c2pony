@@ -1,0 +1,1 @@
+use @gtk_filter_match[I32](self': NullablePointer[GtkFilterT], item': Pointer[None] tag)

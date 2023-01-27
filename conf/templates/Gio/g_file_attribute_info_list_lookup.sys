@@ -1,0 +1,2 @@
+  fun lookup(list': NullablePointer[GFileAttributeInfoListT], name': String): NullablePointer[GFileAttributeInfoT] =>
+    @g_file_attribute_info_list_lookup(list', name'.cstring())

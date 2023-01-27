@@ -1,0 +1,1 @@
+use @gtk_widget_mnemonic_activate[I32](widget': NullablePointer[GObjectT], group_cycling': I32)

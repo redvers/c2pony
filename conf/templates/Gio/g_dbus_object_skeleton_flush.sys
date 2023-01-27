@@ -1,0 +1,2 @@
+  fun flush(object': NullablePointer[GDBusObjectSkeletonT]): None =>
+    @g_dbus_object_skeleton_flush(object')

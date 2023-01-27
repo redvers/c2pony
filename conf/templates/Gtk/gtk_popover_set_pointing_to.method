@@ -1,0 +1,2 @@
+  fun ref set_pointing_to(rect': NullablePointer[cairorectangleintT]): None =>
+    GtkPopoverP.set_pointing_to(this, rect')

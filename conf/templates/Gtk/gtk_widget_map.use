@@ -1,0 +1,1 @@
+use @gtk_widget_map[None](widget': NullablePointer[GObjectT])

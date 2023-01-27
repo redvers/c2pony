@@ -1,0 +1,2 @@
+  fun get_activate_on_single_click(box': NullablePointer[GtkListBoxT]): I32 =>
+    @gtk_list_box_get_activate_on_single_click(box')

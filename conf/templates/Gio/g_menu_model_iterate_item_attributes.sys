@@ -1,0 +1,2 @@
+  fun iterate_item_attributes(model': NullablePointer[GMenuModelT], item_index': I32): NullablePointer[GMenuAttributeIterT] =>
+    @g_menu_model_iterate_item_attributes(model', item_index')

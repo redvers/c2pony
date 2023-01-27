@@ -1,0 +1,1 @@
+use @gtk_css_section_get_end_location[NullablePointer[GtkCssLocationT]](section': NullablePointer[GtkCssSectionT])

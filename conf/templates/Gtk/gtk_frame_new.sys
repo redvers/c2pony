@@ -1,0 +1,2 @@
+  fun new(label': String): NullablePointer[GObjectT] =>
+@gtk_frame_new(label'.cstring())

@@ -1,0 +1,2 @@
+  fun ref get_widgets(): NullablePointer[GSListT] =>
+    GtkSizeGroupP.get_widgets(this)

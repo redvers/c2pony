@@ -1,0 +1,2 @@
+  fun get_io_priority(self': NullablePointer[GtkDirectoryListT]): I32 =>
+    @gtk_directory_list_get_io_priority(self')

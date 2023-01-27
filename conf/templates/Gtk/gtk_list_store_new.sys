@@ -1,0 +1,2 @@
+  fun new(n_columns': I32, ...): NullablePointer[GtkListStoreT] =>
+    @gtk_list_store_new(n_columns', ...)

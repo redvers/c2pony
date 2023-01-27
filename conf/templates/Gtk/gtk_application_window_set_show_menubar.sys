@@ -1,0 +1,2 @@
+  fun set_show_menubar(window': NullablePointer[GtkApplicationWindowT], show_menubar': I32): None =>
+    @gtk_application_window_set_show_menubar(window', show_menubar')

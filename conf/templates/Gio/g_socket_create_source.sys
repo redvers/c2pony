@@ -1,0 +1,2 @@
+  fun create_source(socket': NullablePointer[GSocketT], condition': U32, cancellable': NullablePointer[GCancellableT]): NullablePointer[GSourceT] =>
+    @g_socket_create_source(socket', condition', cancellable')

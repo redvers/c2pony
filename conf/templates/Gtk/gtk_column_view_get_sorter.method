@@ -1,0 +1,2 @@
+  fun ref get_sorter(): NullablePointer[GtkSorterT] =>
+    GtkColumnViewP.get_sorter(this)

@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GDBusInterfaceVTable
+  var ptr: NullablePointer[GDBusInterfaceVTableT]
+
+  new create() =>
+    ptr = NullablePointer[GDBusInterfaceVTableT].none()
+  new create_from_ptr(ptr': NullablePointer[GDBusInterfaceVTableT]) => ptr = ptr'

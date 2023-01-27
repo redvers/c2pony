@@ -1,0 +1,1 @@
+use @g_settings_set_flags[I32](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, value': U32)

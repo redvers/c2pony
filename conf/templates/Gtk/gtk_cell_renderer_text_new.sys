@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkCellRendererT] =>
+    @gtk_cell_renderer_text_new()

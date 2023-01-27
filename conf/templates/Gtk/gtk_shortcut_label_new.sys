@@ -1,0 +1,2 @@
+  fun new(accelerator': String): NullablePointer[GObjectT] =>
+@gtk_shortcut_label_new(accelerator'.cstring())

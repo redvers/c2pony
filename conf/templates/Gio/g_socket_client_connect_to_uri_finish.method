@@ -1,0 +1,2 @@
+  fun ref connect_to_uri_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
+    GSocketClientP.connect_to_uri_finish(this, result', error')

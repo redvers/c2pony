@@ -1,0 +1,2 @@
+  fun ref source_new(): NullablePointer[GSourceT] =>
+    GCancellableP.source_new(this)

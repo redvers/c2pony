@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkShortcutManagerInterface
+  var ptr: NullablePointer[GtkShortcutManagerInterfaceT]
+
+  new create() =>
+    ptr = NullablePointer[GtkShortcutManagerInterfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkShortcutManagerInterfaceT]) => ptr = ptr'

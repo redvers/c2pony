@@ -1,0 +1,2 @@
+  fun ref set_database(database': NullablePointer[GTlsDatabaseT]): None =>
+    GTlsConnectionP.set_database(this, database')

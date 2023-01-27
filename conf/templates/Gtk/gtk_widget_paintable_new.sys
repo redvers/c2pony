@@ -1,0 +1,2 @@
+  fun new(widget': GtkWidgetI): NullablePointer[GdkPaintableT] =>
+    @gtk_widget_paintable_new(widget'.getptr())

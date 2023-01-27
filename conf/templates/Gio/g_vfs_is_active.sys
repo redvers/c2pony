@@ -1,0 +1,2 @@
+  fun is_active(vfs': NullablePointer[GVfsT]): I32 =>
+    @g_vfs_is_active(vfs')

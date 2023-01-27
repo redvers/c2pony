@@ -1,0 +1,2 @@
+  fun ref intersect(other': NullablePointer[GtkBitsetT]): None =>
+    GtkBitsetP.intersect(ptr, other')

@@ -1,0 +1,2 @@
+  fun ref append_texture(texture': NullablePointer[GdkTextureT], bounds': NullablePointer[graphenerecttT]): None =>
+    P.append_texture(this, texture', bounds')

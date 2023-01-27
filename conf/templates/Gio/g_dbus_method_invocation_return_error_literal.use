@@ -1,0 +1,1 @@
+use @g_dbus_method_invocation_return_error_literal[None](invocation': NullablePointer[GDBusMethodInvocationT], domain': U32, code': I32, message': Pointer[U8] tag)

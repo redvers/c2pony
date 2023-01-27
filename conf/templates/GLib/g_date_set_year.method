@@ -1,2 +1,2 @@
   fun ref set_year(year': U16): None =>
-    GDateP.set_year(this.ptr, year')
+    GDateP.set_year(ptr, year')

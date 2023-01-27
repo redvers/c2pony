@@ -1,0 +1,1 @@
+use @gtk_scrolled_window_set_vadjustment[None](scrolled_window': NullablePointer[GtkScrolledWindowT], vadjustment': NullablePointer[GtkAdjustmentT])

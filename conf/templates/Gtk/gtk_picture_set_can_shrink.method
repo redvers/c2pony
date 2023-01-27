@@ -1,0 +1,2 @@
+  fun ref set_can_shrink(can_shrink': I32): None =>
+    GtkPictureP.set_can_shrink(this, can_shrink')

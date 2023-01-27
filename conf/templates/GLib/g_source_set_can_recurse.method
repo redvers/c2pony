@@ -1,2 +1,2 @@
   fun ref set_can_recurse(can_recurse': I32): None =>
-    GSourceP.set_can_recurse(this.ptr, can_recurse')
+    GSourceP.set_can_recurse(ptr, can_recurse')

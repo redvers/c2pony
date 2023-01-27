@@ -1,0 +1,1 @@
+use @gtk_action_bar_pack_end[None](action_bar': NullablePointer[GtkActionBarT], child': NullablePointer[GObjectT])

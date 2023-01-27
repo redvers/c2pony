@@ -1,0 +1,2 @@
+  fun query_info(stream': NullablePointer[GFileOutputStreamT], attributes': String, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileInfoT] =>
+    @g_file_output_stream_query_info(stream', attributes'.cstring(), cancellable', error')

@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkTreeModelSortClass
+  var ptr: NullablePointer[GtkTreeModelSortClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkTreeModelSortClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkTreeModelSortClassT]) => ptr = ptr'

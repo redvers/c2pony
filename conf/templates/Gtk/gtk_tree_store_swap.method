@@ -1,0 +1,2 @@
+  fun ref swap(a': NullablePointer[GtkTreeIterT], b': NullablePointer[GtkTreeIterT]): None =>
+    GtkTreeStoreP.swap(this, a', b')

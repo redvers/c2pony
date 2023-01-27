@@ -1,0 +1,2 @@
+  fun new_with_replacement(character': String): NullablePointer[GtkTextChildAnchorT] =>
+    @gtk_text_child_anchor_new_with_replacement(character'.cstring())

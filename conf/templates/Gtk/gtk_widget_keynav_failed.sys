@@ -1,0 +1,2 @@
+  fun keynav_failed(widget': GtkWidgetI, direction': U32): I32 =>
+    @gtk_widget_keynav_failed(widget'.getptr(), direction')

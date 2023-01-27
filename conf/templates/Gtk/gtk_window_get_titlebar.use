@@ -1,0 +1,1 @@
+use @gtk_window_get_titlebar[NullablePointer[GObjectT]](window': NullablePointer[GObjectT])

@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkFontChooserIface
+  var ptr: NullablePointer[GtkFontChooserIfaceT]
+
+  new create() =>
+    ptr = NullablePointer[GtkFontChooserIfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkFontChooserIfaceT]) => ptr = ptr'

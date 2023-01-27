@@ -1,0 +1,2 @@
+  fun ref remove_all_tags(start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+    GtkTextBufferP.remove_all_tags(this, start', end')

@@ -1,0 +1,2 @@
+  fun ref set_center_widget(center_widget': GtkWidgetI): None =>
+    GtkActionBarP.set_center_widget(this, center_widget')

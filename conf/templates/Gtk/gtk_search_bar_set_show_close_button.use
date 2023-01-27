@@ -1,0 +1,1 @@
+use @gtk_search_bar_set_show_close_button[None](bar': NullablePointer[GtkSearchBarT], visible': I32)

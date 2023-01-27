@@ -1,2 +1,2 @@
   fun ref init(hash_table': NullablePointer[GHashTableT]): None =>
-    GHashTableIterP.init(this.ptr, hash_table')
+    GHashTableIterP.init(ptr, hash_table')

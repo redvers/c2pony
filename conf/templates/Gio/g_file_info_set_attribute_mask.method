@@ -1,0 +1,2 @@
+  fun ref set_attribute_mask(mask': NullablePointer[GFileAttributeMatcherT]): None =>
+    GFileInfoP.set_attribute_mask(this, mask')

@@ -12,6 +12,7 @@
       <xsl:variable name="filename" select="concat($root/@name, 'Sys')"/>
       <xsl:for-each select="$root/rendermethod[@render=$debug]">
         <xsl:call-template name="mainfunction">
+          <xsl:with-param name="rootn" select="name($root)"/>
           <xsl:with-param name="ponyname" select="./@ponyname"/>
           <xsl:with-param name="n" select="./@name"/>
           <xsl:with-param name="classname" select="$classname"/>
@@ -30,6 +31,7 @@
 
 
   <xsl:template name="mainfunction">
+    <xsl:param name="rootn"/>
     <xsl:param name="n"/>
     <xsl:param name="render"/>
     <xsl:param name="ponyname"/>
@@ -85,6 +87,7 @@
               <xsl:text>(</xsl:text>
               <xsl:for-each select="$root/*">
                 <xsl:call-template name="usearg">
+                  <xsl:with-param name="rootn" select="$rootn"/>
                   <xsl:with-param name="arg" select="."/>
                 </xsl:call-template>
               </xsl:for-each>
@@ -105,9 +108,17 @@
 
   <xsl:template name="usearg">
     <xsl:param name="arg"/>
+    <xsl:param name="rootn"/>
     <xsl:choose>
       <xsl:when test="position() = 1">
-        <xsl:text>this.ptr</xsl:text>
+        <xsl:choose>
+          <xsl:when test="$rootn='renderstruct'">
+            <xsl:text>ptr</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>this</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:if test="position() &gt; 1">

@@ -1,0 +1,2 @@
+  fun set_search_entry(tree_view': NullablePointer[GtkTreeViewT], entry': NullablePointer[GtkEditableT]): None =>
+    @gtk_tree_view_set_search_entry(tree_view', entry')

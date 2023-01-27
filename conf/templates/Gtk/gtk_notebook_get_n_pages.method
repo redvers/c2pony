@@ -1,0 +1,2 @@
+  fun ref get_n_pages(): I32 =>
+    GtkNotebookP.get_n_pages(this)

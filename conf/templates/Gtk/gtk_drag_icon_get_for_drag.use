@@ -1,0 +1,1 @@
+use @gtk_drag_icon_get_for_drag[NullablePointer[GObjectT]](drag': NullablePointer[GdkDragT])

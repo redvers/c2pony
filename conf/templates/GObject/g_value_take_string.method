@@ -1,2 +1,2 @@
   fun ref take_string(v_string': String): None =>
-    GValueP.take_string(this.ptr, v_string')
+    GValueP.take_string(ptr, v_string')

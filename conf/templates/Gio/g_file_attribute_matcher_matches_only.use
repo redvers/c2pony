@@ -1,0 +1,1 @@
+use @g_file_attribute_matcher_matches_only[I32](matcher': NullablePointer[GFileAttributeMatcherT], attribute': Pointer[U8] tag)

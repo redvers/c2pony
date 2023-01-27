@@ -1,0 +1,2 @@
+  fun get_ltr_context(text_view': NullablePointer[GtkTextViewT]): NullablePointer[PangoContextT] =>
+    @gtk_text_view_get_ltr_context(text_view')

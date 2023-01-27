@@ -1,2 +1,2 @@
   fun ref remove(key': String): I32 =>
-    GVariantDictP.remove(this.ptr, key')
+    GVariantDictP.remove(ptr, key')

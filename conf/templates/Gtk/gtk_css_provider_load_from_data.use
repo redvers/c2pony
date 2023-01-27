@@ -1,0 +1,1 @@
+use @gtk_css_provider_load_from_data[None](css_provider': NullablePointer[GtkCssProviderT], data': Pointer[U8] tag, length': I64)

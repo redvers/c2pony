@@ -1,0 +1,2 @@
+  fun new(attributes': String, file': NullablePointer[GFileT]): NullablePointer[GtkDirectoryListT] =>
+    @gtk_directory_list_new(attributes'.cstring(), file')

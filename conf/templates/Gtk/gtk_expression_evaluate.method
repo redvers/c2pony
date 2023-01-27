@@ -1,0 +1,2 @@
+  fun ref evaluate(this': Pointer[None] tag, value': NullablePointer[GValueT]): I32 =>
+    GtkExpressionP.evaluate(this, this', value')

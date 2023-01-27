@@ -1,0 +1,2 @@
+  fun ref reply(result': U32): None =>
+    GMountOperationP.reply(this, result')

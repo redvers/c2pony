@@ -1,0 +1,2 @@
+  fun ref get_allocation(allocation': NullablePointer[cairorectangleintT]): None =>
+    GtkWidgetP.get_allocation(this, allocation')

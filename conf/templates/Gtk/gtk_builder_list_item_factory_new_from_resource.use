@@ -1,0 +1,1 @@
+use @gtk_builder_list_item_factory_new_from_resource[NullablePointer[GtkListItemFactoryT]](scope': NullablePointer[GtkBuilderScopeT], resource_path': Pointer[U8] tag)

@@ -1,0 +1,1 @@
+use @gtk_entry_get_icon_area[None](entry': NullablePointer[GtkEntryT], icon_pos': U32, icon_area': NullablePointer[cairorectangleintT])

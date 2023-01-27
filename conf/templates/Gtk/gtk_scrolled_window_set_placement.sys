@@ -1,0 +1,2 @@
+  fun set_placement(scrolled_window': NullablePointer[GtkScrolledWindowT], window_placement': U32): None =>
+    @gtk_scrolled_window_set_placement(scrolled_window', window_placement')

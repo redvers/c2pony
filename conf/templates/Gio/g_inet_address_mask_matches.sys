@@ -1,0 +1,2 @@
+  fun matches(mask': NullablePointer[GInetAddressMaskT], address': NullablePointer[GInetAddressT]): I32 =>
+    @g_inet_address_mask_matches(mask', address')

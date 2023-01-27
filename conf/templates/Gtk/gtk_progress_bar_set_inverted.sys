@@ -1,0 +1,2 @@
+  fun set_inverted(pbar': NullablePointer[GtkProgressBarT], inverted': I32): None =>
+    @gtk_progress_bar_set_inverted(pbar', inverted')

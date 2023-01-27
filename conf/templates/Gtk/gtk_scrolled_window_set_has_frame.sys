@@ -1,0 +1,2 @@
+  fun set_has_frame(scrolled_window': NullablePointer[GtkScrolledWindowT], has_frame': I32): None =>
+    @gtk_scrolled_window_set_has_frame(scrolled_window', has_frame')

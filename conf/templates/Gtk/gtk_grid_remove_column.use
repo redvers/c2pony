@@ -1,0 +1,1 @@
+use @gtk_grid_remove_column[None](grid': NullablePointer[GtkGridT], position': I32)

@@ -1,0 +1,1 @@
+use @gtk_widget_is_focus[I32](widget': NullablePointer[GObjectT])

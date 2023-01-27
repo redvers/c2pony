@@ -1,0 +1,2 @@
+  fun copy_context(area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT]): NullablePointer[GtkCellAreaContextT] =>
+    @gtk_cell_area_copy_context(area', context')

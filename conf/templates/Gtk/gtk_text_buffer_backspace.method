@@ -1,0 +1,2 @@
+  fun ref backspace(iter': NullablePointer[GtkTextIterT], interactive': I32, default_editable': I32): I32 =>
+    GtkTextBufferP.backspace(this, iter', interactive', default_editable')

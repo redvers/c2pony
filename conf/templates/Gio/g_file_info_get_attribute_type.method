@@ -1,0 +1,2 @@
+  fun ref get_attribute_type(attribute': String): U32 =>
+    GFileInfoP.get_attribute_type(this, attribute')

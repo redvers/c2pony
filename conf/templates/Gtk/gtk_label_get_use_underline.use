@@ -1,0 +1,1 @@
+use @gtk_label_get_use_underline[I32](self': NullablePointer[GtkLabelT])

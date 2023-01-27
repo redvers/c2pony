@@ -1,0 +1,2 @@
+  fun ref get_device(): NullablePointer[GdkDeviceT] =>
+    GtkGestureP.get_device(this)

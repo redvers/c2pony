@@ -1,0 +1,2 @@
+  fun ref request_certificate_async(connection': NullablePointer[GTlsConnectionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GTlsInteractionP.request_certificate_async(this, connection', flags', cancellable', callback', user_data')

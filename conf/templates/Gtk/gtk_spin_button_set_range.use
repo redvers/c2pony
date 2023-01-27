@@ -1,0 +1,1 @@
+use @gtk_spin_button_set_range[None](spin_button': NullablePointer[GtkSpinButtonT], min': F64, max': F64)

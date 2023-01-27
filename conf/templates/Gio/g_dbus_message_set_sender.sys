@@ -1,0 +1,2 @@
+  fun set_sender(message': NullablePointer[GDBusMessageT], value': String): None =>
+    @g_dbus_message_set_sender(message', value'.cstring())

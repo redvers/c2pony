@@ -1,0 +1,2 @@
+  fun get_scale(context': NullablePointer[GtkStyleContextT]): I32 =>
+    @gtk_style_context_get_scale(context')

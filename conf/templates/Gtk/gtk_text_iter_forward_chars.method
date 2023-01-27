@@ -1,0 +1,2 @@
+  fun ref forward_chars(count': I32): I32 =>
+    GtkTextIterP.forward_chars(ptr, count')

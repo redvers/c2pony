@@ -1,0 +1,2 @@
+  fun ref get_iter_at_location(iter': NullablePointer[GtkTextIterT], x': I32, y': I32): I32 =>
+    GtkTextViewP.get_iter_at_location(this, iter', x', y')

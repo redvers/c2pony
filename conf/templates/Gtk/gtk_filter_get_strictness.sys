@@ -1,0 +1,2 @@
+  fun get_strictness(self': NullablePointer[GtkFilterT]): U32 =>
+    @gtk_filter_get_strictness(self')

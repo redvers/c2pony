@@ -1,2 +1,2 @@
   fun ref get_blurb(): String iso^ =>
-    GParamSpecP.get_blurb(this.ptr)
+    GParamSpecP.get_blurb(this)

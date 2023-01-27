@@ -1,0 +1,1 @@
+use @gtk_text_buffer_delete_selection[I32](buffer': NullablePointer[GtkTextBufferT], interactive': I32, default_editable': I32)

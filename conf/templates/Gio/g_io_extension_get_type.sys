@@ -1,0 +1,2 @@
+  fun get_type(extension': NullablePointer[GIOExtensionT]): U64 =>
+    @g_io_extension_get_type(extension')

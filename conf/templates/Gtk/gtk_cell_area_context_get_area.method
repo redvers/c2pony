@@ -1,0 +1,2 @@
+  fun ref get_area(): NullablePointer[GtkCellAreaT] =>
+    GtkCellAreaContextP.get_area(this)

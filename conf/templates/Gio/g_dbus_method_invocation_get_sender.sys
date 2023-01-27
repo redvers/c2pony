@@ -1,0 +1,2 @@
+  fun get_sender(invocation': NullablePointer[GDBusMethodInvocationT]): String iso^ =>
+    String.from_cstring(@g_dbus_method_invocation_get_sender(invocation')).clone()

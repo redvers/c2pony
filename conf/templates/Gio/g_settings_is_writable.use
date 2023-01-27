@@ -1,0 +1,1 @@
+use @g_settings_is_writable[I32](settings': NullablePointer[GSettingsT], name': Pointer[U8] tag)

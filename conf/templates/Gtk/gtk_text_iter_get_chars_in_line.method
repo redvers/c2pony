@@ -1,0 +1,2 @@
+  fun ref get_chars_in_line(): I32 =>
+    GtkTextIterP.get_chars_in_line(ptr)

@@ -1,0 +1,2 @@
+  fun is_finished(op': NullablePointer[GtkPrintOperationT]): I32 =>
+    @gtk_print_operation_is_finished(op')

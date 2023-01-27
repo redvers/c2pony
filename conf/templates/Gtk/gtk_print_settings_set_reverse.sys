@@ -1,0 +1,2 @@
+  fun set_reverse(settings': NullablePointer[GtkPrintSettingsT], reverse': I32): None =>
+    @gtk_print_settings_set_reverse(settings', reverse')

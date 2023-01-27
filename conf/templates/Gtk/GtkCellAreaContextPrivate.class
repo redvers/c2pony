@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkCellAreaContextPrivate
+  var ptr: NullablePointer[GtkCellAreaContextPrivateT]
+
+  new create() =>
+    ptr = NullablePointer[GtkCellAreaContextPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkCellAreaContextPrivateT]) => ptr = ptr'

@@ -1,0 +1,2 @@
+  fun ref delay(): None =>
+    GSettingsP.delay(this)

@@ -1,0 +1,2 @@
+  fun ref read_int64(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    GDataInputStreamP.read_int64(this, cancellable', error')

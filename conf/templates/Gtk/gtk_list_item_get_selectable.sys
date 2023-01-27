@@ -1,0 +1,2 @@
+  fun get_selectable(self': NullablePointer[GtkListItemT]): I32 =>
+    @gtk_list_item_get_selectable(self')

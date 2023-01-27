@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GSrvTarget
+  var ptr: NullablePointer[GSrvTargetT]
+
+  new create() =>
+    ptr = NullablePointer[GSrvTargetT].none()
+  new create_from_ptr(ptr': NullablePointer[GSrvTargetT]) => ptr = ptr'

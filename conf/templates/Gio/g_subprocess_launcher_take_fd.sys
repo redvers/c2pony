@@ -1,0 +1,2 @@
+  fun take_fd(self': NullablePointer[GSubprocessLauncherT], source_fd': I32, target_fd': I32): None =>
+    @g_subprocess_launcher_take_fd(self', source_fd', target_fd')

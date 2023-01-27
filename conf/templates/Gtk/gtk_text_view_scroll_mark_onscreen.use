@@ -1,0 +1,1 @@
+use @gtk_text_view_scroll_mark_onscreen[None](text_view': NullablePointer[GtkTextViewT], mark': NullablePointer[GtkTextMarkT])

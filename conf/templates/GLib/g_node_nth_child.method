@@ -1,2 +1,2 @@
   fun ref nth_child(n': U32): NullablePointer[GNodeT] =>
-    GNodeP.nth_child(this.ptr, n')
+    GNodeP.nth_child(ptr, n')

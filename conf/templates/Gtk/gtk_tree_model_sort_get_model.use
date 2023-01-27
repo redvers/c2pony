@@ -1,0 +1,1 @@
+use @gtk_tree_model_sort_get_model[NullablePointer[GtkTreeModelT]](tree_model': NullablePointer[GtkTreeModelSortT])

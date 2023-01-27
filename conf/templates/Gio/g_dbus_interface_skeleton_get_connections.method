@@ -1,0 +1,2 @@
+  fun ref get_connections(): NullablePointer[GListT] =>
+    GDBusInterfaceSkeletonP.get_connections(this)

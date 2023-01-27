@@ -1,0 +1,1 @@
+use @gtk_filter_list_model_get_incremental[I32](self': NullablePointer[GtkFilterListModelT])

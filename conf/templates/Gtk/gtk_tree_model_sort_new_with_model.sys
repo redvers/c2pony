@@ -1,0 +1,2 @@
+  fun new_with_model(child_model': NullablePointer[GtkTreeModelT]): NullablePointer[GtkTreeModelT] =>
+    @gtk_tree_model_sort_new_with_model(child_model')

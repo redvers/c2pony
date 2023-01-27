@@ -1,0 +1,2 @@
+  fun ref get_aligned_area(widget': GtkWidgetI, flags': U32, cell_area': NullablePointer[cairorectangleintT], aligned_area': NullablePointer[cairorectangleintT]): None =>
+    GtkCellRendererP.get_aligned_area(this, widget', flags', cell_area', aligned_area')

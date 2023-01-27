@@ -1,0 +1,2 @@
+  fun set_unix_fd_list(message': NullablePointer[GDBusMessageT], fd_list': NullablePointer[GUnixFDListT]): None =>
+    @g_dbus_message_set_unix_fd_list(message', fd_list')

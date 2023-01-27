@@ -1,0 +1,1 @@
+use @gtk_popover_set_autohide[None](popover': NullablePointer[GtkPopoverT], autohide': I32)

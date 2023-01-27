@@ -1,0 +1,2 @@
+  fun set_value(button': NullablePointer[GtkScaleButtonT], value': F64): None =>
+    @gtk_scale_button_set_value(button', value')

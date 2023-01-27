@@ -1,0 +1,2 @@
+  fun ref ref(): NullablePointer[GFileAttributeInfoListT] =>
+    GFileAttributeInfoListP.ref(ptr)

@@ -1,2 +1,2 @@
   fun ref lookup_extended(lookup_key': Pointer[None] tag, orig_key': Pointer[Pointer[None]] tag, value': Pointer[Pointer[None]] tag): I32 =>
-    GTreeP.lookup_extended(this.ptr, lookup_key', orig_key', value')
+    GTreeP.lookup_extended(ptr, lookup_key', orig_key', value')

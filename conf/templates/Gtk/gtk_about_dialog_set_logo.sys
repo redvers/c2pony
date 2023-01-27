@@ -1,0 +1,2 @@
+  fun set_logo(about': NullablePointer[GtkAboutDialogT], logo': NullablePointer[GdkPaintableT]): None =>
+    @gtk_about_dialog_set_logo(about', logo')

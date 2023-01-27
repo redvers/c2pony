@@ -1,0 +1,2 @@
+  fun get_property_info(invocation': NullablePointer[GDBusMethodInvocationT]): NullablePointer[GDBusPropertyInfoT] =>
+    @g_dbus_method_invocation_get_property_info(invocation')

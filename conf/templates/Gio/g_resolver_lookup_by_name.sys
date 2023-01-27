@@ -1,0 +1,2 @@
+  fun lookup_by_name(resolver': NullablePointer[GResolverT], hostname': String, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+    @g_resolver_lookup_by_name(resolver', hostname'.cstring(), cancellable', error')

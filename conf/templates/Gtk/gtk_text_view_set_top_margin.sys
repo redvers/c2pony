@@ -1,0 +1,2 @@
+  fun set_top_margin(text_view': NullablePointer[GtkTextViewT], top_margin': I32): None =>
+    @gtk_text_view_set_top_margin(text_view', top_margin')

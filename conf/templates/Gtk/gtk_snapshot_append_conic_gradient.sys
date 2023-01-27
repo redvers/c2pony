@@ -1,0 +1,2 @@
+  fun append_conic_gradient(snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT], center': NullablePointer[graphenepointtT], rotation': F32, stops': NullablePointer[GskColorStopT], n_stops': U64): None =>
+    @gtk_snapshot_append_conic_gradient(snapshot', bounds', center', rotation', stops', n_stops')

@@ -1,0 +1,2 @@
+  fun get_child(button': NullablePointer[GtkButtonT]): NullablePointer[GObjectT] =>
+@gtk_button_get_child(button')

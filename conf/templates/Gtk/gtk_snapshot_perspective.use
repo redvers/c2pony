@@ -1,0 +1,1 @@
+use @gtk_snapshot_perspective[None](snapshot': NullablePointer[GdkSnapshotT], depth': F32)

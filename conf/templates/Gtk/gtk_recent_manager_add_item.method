@@ -1,0 +1,2 @@
+  fun ref add_item(uri': String): I32 =>
+    GtkRecentManagerP.add_item(this, uri')

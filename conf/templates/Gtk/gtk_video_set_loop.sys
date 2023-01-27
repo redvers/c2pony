@@ -1,0 +1,2 @@
+  fun set_loop(self': NullablePointer[GtkVideoT], loop': I32): None =>
+    @gtk_video_set_loop(self', loop')

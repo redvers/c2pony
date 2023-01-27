@@ -1,2 +1,2 @@
   fun ref add_application(uri': String, name': String, exec': String): None =>
-    GBookmarkFileP.add_application(this.ptr, uri', name', exec')
+    GBookmarkFileP.add_application(ptr, uri', name', exec')

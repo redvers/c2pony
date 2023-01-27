@@ -1,0 +1,2 @@
+  fun transform(snapshot': NullablePointer[GdkSnapshotT], transform': NullablePointer[GskTransformT]): None =>
+    @gtk_snapshot_transform(snapshot', transform')

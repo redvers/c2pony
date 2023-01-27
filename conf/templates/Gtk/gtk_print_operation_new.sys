@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkPrintOperationT] =>
+    @gtk_print_operation_new()

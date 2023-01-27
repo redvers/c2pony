@@ -1,0 +1,2 @@
+  fun new(default_proxy': String, ignore_hosts': Pointer[Pointer[U8]] tag): NullablePointer[GProxyResolverT] =>
+    @g_simple_proxy_resolver_new(default_proxy'.cstring(), ignore_hosts')

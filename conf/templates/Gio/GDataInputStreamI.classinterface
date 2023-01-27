@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+interface GDataInputStreamI is GBufferedInputStreamI
+  fun ref getptr(): NullablePointer[GObjectT]

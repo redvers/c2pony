@@ -1,0 +1,2 @@
+  fun ref unselect_all(): None =>
+    GtkTreeSelectionP.unselect_all(this)

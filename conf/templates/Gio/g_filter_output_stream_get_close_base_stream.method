@@ -1,0 +1,2 @@
+  fun ref get_close_base_stream(): I32 =>
+    GFilterOutputStreamP.get_close_base_stream(this)

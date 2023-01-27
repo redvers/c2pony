@@ -1,0 +1,1 @@
+use @g_converter_input_stream_get_converter[NullablePointer[GConverterT]](converter_stream': NullablePointer[GConverterInputStreamT])

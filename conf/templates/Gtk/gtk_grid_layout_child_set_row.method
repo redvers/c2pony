@@ -1,0 +1,2 @@
+  fun ref set_row(row': I32): None =>
+    GtkGridLayoutChildP.set_row(this, row')

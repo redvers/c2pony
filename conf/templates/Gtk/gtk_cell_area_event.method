@@ -1,0 +1,2 @@
+  fun ref event(context': NullablePointer[GtkCellAreaContextT], widget': GtkWidgetI, event': NullablePointer[GdkEventT], cell_area': NullablePointer[cairorectangleintT], flags': U32): I32 =>
+    GtkCellAreaP.event(this, context', widget', event', cell_area', flags')

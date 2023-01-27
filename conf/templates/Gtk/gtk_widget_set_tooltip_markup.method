@@ -1,0 +1,2 @@
+  fun ref set_tooltip_markup(markup': String): None =>
+    GtkWidgetP.set_tooltip_markup(this, markup')

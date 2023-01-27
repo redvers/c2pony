@@ -1,2 +1,2 @@
   fun ref set_static_boxed(v_boxed': Pointer[None] tag): None =>
-    GValueP.set_static_boxed(this.ptr, v_boxed')
+    GValueP.set_static_boxed(ptr, v_boxed')

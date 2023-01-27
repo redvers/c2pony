@@ -1,0 +1,2 @@
+  fun ref get_char(): U32 =>
+    GtkTextIterP.get_char(ptr)

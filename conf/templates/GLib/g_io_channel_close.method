@@ -1,2 +1,2 @@
   fun ref close(): None =>
-    GIOChannelP.close(this.ptr)
+    GIOChannelP.close(ptr)

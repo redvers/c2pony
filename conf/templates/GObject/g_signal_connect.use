@@ -1,2 +1,2 @@
 
-  use @g_signal_connect_data[U64](instance: Pointer[GObjectP], detailedsignal: Pointer[U8] tag, chandler: Pointer[None] tag, data: Any tag, destroydata: Pointer[None] tag, connectflags: U32)
+  use @g_signal_connect_data[U64](instance: NullablePointer[GObjectT], detailedsignal: Pointer[U8] tag, chandler: Pointer[None] tag, data: Any tag, destroydata: Pointer[None] tag, connectflags: U32)

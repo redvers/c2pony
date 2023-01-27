@@ -1,0 +1,1 @@
+use @gtk_widget_get_hexpand[I32](widget': NullablePointer[GObjectT])

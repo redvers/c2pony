@@ -1,0 +1,2 @@
+  fun reset_default_sort_func(tree_model_sort': NullablePointer[GtkTreeModelSortT]): None =>
+    @gtk_tree_model_sort_reset_default_sort_func(tree_model_sort')

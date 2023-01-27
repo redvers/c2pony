@@ -1,0 +1,2 @@
+  fun ref get_device_tool(): NullablePointer[GdkDeviceToolT] =>
+    GtkGestureStylusP.get_device_tool(this)

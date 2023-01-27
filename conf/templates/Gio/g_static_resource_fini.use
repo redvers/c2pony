@@ -1,0 +1,1 @@
+use @g_static_resource_fini[None](static_resource': NullablePointer[GStaticResourceT])

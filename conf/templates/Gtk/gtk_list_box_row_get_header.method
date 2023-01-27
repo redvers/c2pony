@@ -1,0 +1,2 @@
+  fun ref get_header(): NullablePointer[GObjectT] =>
+    GtkListBoxRowP.get_header(this)

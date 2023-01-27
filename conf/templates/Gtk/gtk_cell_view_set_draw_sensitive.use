@@ -1,0 +1,1 @@
+use @gtk_cell_view_set_draw_sensitive[None](cell_view': NullablePointer[GtkCellViewT], draw_sensitive': I32)

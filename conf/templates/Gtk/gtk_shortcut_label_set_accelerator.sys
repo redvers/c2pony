@@ -1,0 +1,2 @@
+  fun set_accelerator(self': NullablePointer[GtkShortcutLabelT], accelerator': String): None =>
+    @gtk_shortcut_label_set_accelerator(self', accelerator'.cstring())

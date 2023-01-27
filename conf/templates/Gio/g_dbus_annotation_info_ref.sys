@@ -1,0 +1,2 @@
+  fun ref(info': NullablePointer[GDBusAnnotationInfoT]): NullablePointer[GDBusAnnotationInfoT] =>
+    @g_dbus_annotation_info_ref(info')

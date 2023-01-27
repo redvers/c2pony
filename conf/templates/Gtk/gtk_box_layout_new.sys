@@ -1,0 +1,2 @@
+  fun new(orientation': U32): NullablePointer[GtkLayoutManagerT] =>
+    @gtk_box_layout_new(orientation')

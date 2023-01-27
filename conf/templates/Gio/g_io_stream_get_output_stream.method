@@ -1,0 +1,2 @@
+  fun ref get_output_stream(): NullablePointer[GOutputStreamT] =>
+    GIOStreamP.get_output_stream(this)

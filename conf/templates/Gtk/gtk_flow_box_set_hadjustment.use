@@ -1,0 +1,1 @@
+use @gtk_flow_box_set_hadjustment[None](box': NullablePointer[GtkFlowBoxT], adjustment': NullablePointer[GtkAdjustmentT])

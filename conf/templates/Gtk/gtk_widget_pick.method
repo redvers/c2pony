@@ -1,0 +1,2 @@
+  fun ref pick(x': F64, y': F64, flags': U32): NullablePointer[GObjectT] =>
+    GtkWidgetP.pick(this, x', y', flags')

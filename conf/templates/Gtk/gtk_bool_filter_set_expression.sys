@@ -1,0 +1,2 @@
+  fun set_expression(self': NullablePointer[GtkBoolFilterT], expression': NullablePointer[GtkExpressionT]): None =>
+    @gtk_bool_filter_set_expression(self', expression')

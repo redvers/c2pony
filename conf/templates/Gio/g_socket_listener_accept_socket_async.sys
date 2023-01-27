@@ -1,0 +1,2 @@
+  fun accept_socket_async(listener': NullablePointer[GSocketListenerT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_listener_accept_socket_async(listener', cancellable', callback', user_data')

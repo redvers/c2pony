@@ -1,0 +1,1 @@
+use @gtk_widget_remove_css_class[None](widget': NullablePointer[GObjectT], css_class': Pointer[U8] tag)

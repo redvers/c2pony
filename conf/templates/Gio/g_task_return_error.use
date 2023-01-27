@@ -1,0 +1,1 @@
+use @g_task_return_error[None](task': NullablePointer[GTaskT], error': NullablePointer[GErrorT])

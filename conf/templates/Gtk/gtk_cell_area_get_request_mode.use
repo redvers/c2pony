@@ -1,0 +1,1 @@
+use @gtk_cell_area_get_request_mode[U32](area': NullablePointer[GtkCellAreaT])

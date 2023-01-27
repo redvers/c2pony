@@ -1,0 +1,2 @@
+  fun export_uniquely(manager': NullablePointer[GDBusObjectManagerServerT], object': NullablePointer[GDBusObjectSkeletonT]): None =>
+    @g_dbus_object_manager_server_export_uniquely(manager', object')

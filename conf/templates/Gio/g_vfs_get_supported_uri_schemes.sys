@@ -1,0 +1,2 @@
+  fun get_supported_uri_schemes(vfs': NullablePointer[GVfsT]): Pointer[Pointer[U8]] tag =>
+    @g_vfs_get_supported_uri_schemes(vfs')

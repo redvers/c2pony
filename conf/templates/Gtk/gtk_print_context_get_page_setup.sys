@@ -1,0 +1,2 @@
+  fun get_page_setup(context': NullablePointer[GtkPrintContextT]): NullablePointer[GtkPageSetupT] =>
+    @gtk_print_context_get_page_setup(context')

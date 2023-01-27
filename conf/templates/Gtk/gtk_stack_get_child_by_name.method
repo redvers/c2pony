@@ -1,0 +1,2 @@
+  fun ref get_child_by_name(name': String): NullablePointer[GObjectT] =>
+    GtkStackP.get_child_by_name(this, name')

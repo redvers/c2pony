@@ -1,0 +1,2 @@
+  fun ref add_bytes(bytes': NullablePointer[GBytesT]): None =>
+    GMemoryInputStreamP.add_bytes(this, bytes')

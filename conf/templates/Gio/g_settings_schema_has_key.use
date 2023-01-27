@@ -1,0 +1,1 @@
+use @g_settings_schema_has_key[I32](schema': NullablePointer[GSettingsSchemaT], name': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun get_size(self': NullablePointer[GtkBitsetT]): U64 =>
+    @gtk_bitset_get_size(self')

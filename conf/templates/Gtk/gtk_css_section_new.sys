@@ -1,0 +1,2 @@
+  new new(file': NullablePointer[GFileT], start': NullablePointer[GtkCssLocationT], end': NullablePointer[GtkCssLocationT]) =>
+    ptr = @gtk_css_section_new(file', start', end')

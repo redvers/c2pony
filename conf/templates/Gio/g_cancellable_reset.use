@@ -1,0 +1,1 @@
+use @g_cancellable_reset[None](cancellable': NullablePointer[GCancellableT])

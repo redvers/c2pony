@@ -1,0 +1,2 @@
+  fun ref activate_default(): None =>
+    GtkWidgetP.activate_default(this)

@@ -1,0 +1,2 @@
+  fun ref get_database(): NullablePointer[GTlsDatabaseT] =>
+    GTlsConnectionP.get_database(this)

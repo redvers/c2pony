@@ -1,0 +1,2 @@
+  fun ref get_anonymous(): I32 =>
+    GMountOperationP.get_anonymous(this)

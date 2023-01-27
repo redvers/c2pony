@@ -1,0 +1,2 @@
+  fun ref get_toggled_tags(toggled_on': I32): NullablePointer[GSListT] =>
+    GtkTextIterP.get_toggled_tags(ptr, toggled_on')

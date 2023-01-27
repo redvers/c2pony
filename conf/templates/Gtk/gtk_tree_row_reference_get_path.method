@@ -1,0 +1,2 @@
+  fun ref get_path(): NullablePointer[GtkTreePathT] =>
+    GtkTreeRowReferenceP.get_path(ptr)

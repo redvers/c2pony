@@ -1,0 +1,1 @@
+use @gtk_css_provider_load_from_resource[None](css_provider': NullablePointer[GtkCssProviderT], resource_path': Pointer[U8] tag)

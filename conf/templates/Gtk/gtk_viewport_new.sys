@@ -1,0 +1,2 @@
+  fun new(hadjustment': NullablePointer[GtkAdjustmentT], vadjustment': NullablePointer[GtkAdjustmentT]): NullablePointer[GObjectT] =>
+@gtk_viewport_new(hadjustment', vadjustment')

@@ -1,0 +1,2 @@
+  fun clear(image': NullablePointer[GtkImageT]): None =>
+    @gtk_image_clear(image')

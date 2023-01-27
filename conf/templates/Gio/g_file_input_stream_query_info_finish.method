@@ -1,0 +1,2 @@
+  fun ref query_info_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileInfoT] =>
+    GFileInputStreamP.query_info_finish(this, result', error')

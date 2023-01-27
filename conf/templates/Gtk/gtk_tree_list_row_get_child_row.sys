@@ -1,0 +1,2 @@
+  fun get_child_row(self': NullablePointer[GtkTreeListRowT], position': U32): NullablePointer[GtkTreeListRowT] =>
+    @gtk_tree_list_row_get_child_row(self', position')

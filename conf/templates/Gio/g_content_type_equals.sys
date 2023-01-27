@@ -1,0 +1,2 @@
+  fun content_type_equals(type1': String, type2': String): I32 =>
+    @g_content_type_equals(type1'.cstring(), type2'.cstring())

@@ -1,0 +1,2 @@
+  fun ref observe_constraints(): NullablePointer[GListModelT] =>
+    GtkConstraintLayoutP.observe_constraints(this)

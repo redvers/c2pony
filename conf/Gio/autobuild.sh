@@ -15,20 +15,18 @@ echo > ../test/Gio/GApplicationP.pony
 cat ../templates/Gio/g_application_run.use >> ../test/Gio/GApplicationP.pony
 cat ../templates/Gio/GApplicationP.primitive >> ../test/Gio/GApplicationP.pony
 cat ../templates/Gio/g_application_run.sys >> ../test/Gio/GApplicationP.pony
-echo > ../test/Gio/GMountOperation.pony
-cat ../templates/Gio/GMountOperation.class >> ../test/Gio/GMountOperation.pony
-echo > ../test/Gio/GMountOperationI.pony
-cat ../templates/Gio/GMountOperationI.classinterface >> ../test/Gio/GMountOperationI.pony
-echo > ../test/Gio/GMountOperationT.pony
-cat ../templates/Gio/GMountOperationT.struct >> ../test/Gio/GMountOperationT.pony
-echo > ../test/Gio/GMountOperationP.pony
-cat ../templates/Gio/GMountOperationP.primitive >> ../test/Gio/GMountOperationP.pony
 echo > ../test/Gio/GActionEntry.pony
 cat ../templates/Gio/GActionEntry.class >> ../test/Gio/GActionEntry.pony
 echo > ../test/Gio/GActionEntryT.pony
 cat ../templates/Gio/GActionEntryT.struct >> ../test/Gio/GActionEntryT.pony
 echo > ../test/Gio/GActionEntryP.pony
 cat ../templates/Gio/GActionEntryP.primitive >> ../test/Gio/GActionEntryP.pony
+echo > ../test/Gio/GApplicationPrivate.pony
+cat ../templates/Gio/GApplicationPrivate.class >> ../test/Gio/GApplicationPrivate.pony
+echo > ../test/Gio/GApplicationPrivateT.pony
+cat ../templates/Gio/GApplicationPrivateT.struct >> ../test/Gio/GApplicationPrivateT.pony
+echo > ../test/Gio/GApplicationPrivateP.pony
+cat ../templates/Gio/GApplicationPrivateP.primitive >> ../test/Gio/GApplicationPrivateP.pony
 echo > ../test/Gio/GResource.pony
 cat ../templates/Gio/GResource.class >> ../test/Gio/GResource.pony
 echo > ../test/Gio/GResourceT.pony

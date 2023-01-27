@@ -1,0 +1,2 @@
+  fun ref(watch': NullablePointer[GtkExpressionWatchT]): NullablePointer[GtkExpressionWatchT] =>
+    @gtk_expression_watch_ref(watch')

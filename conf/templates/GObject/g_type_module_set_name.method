@@ -1,2 +1,2 @@
   fun ref set_name(name': String): None =>
-    GTypeModuleP.set_name(this.ptr, name')
+    GTypeModuleP.set_name(this, name')

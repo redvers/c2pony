@@ -1,0 +1,2 @@
+  fun new_method_reply(method_call_message': NullablePointer[GDBusMessageT]): NullablePointer[GDBusMessageT] =>
+    @g_dbus_message_new_method_reply(method_call_message')

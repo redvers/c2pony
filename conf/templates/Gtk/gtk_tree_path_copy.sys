@@ -1,0 +1,2 @@
+  fun copy(path': NullablePointer[GtkTreePathT]): NullablePointer[GtkTreePathT] =>
+    @gtk_tree_path_copy(path')

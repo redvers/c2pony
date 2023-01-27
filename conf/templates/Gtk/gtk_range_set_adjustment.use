@@ -1,0 +1,1 @@
+use @gtk_range_set_adjustment[None](range': NullablePointer[GtkRangeT], adjustment': NullablePointer[GtkAdjustmentT])

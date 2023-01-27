@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkFileFilterT] =>
+    @gtk_file_filter_new()

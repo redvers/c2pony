@@ -1,0 +1,2 @@
+  fun init_first(iter': NullablePointer[GtkBitsetIterT], set': NullablePointer[GtkBitsetT], value': Pointer[U32] tag): I32 =>
+    @gtk_bitset_iter_init_first(iter', set', value')

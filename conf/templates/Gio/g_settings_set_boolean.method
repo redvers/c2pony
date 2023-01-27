@@ -1,0 +1,2 @@
+  fun ref set_boolean(key': String, value': I32): I32 =>
+    GSettingsP.set_boolean(this, key', value')

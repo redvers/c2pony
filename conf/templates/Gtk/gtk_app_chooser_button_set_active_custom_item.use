@@ -1,0 +1,1 @@
+use @gtk_app_chooser_button_set_active_custom_item[None](self': NullablePointer[GtkAppChooserButtonT], name': Pointer[U8] tag)

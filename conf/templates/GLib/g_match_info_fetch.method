@@ -1,2 +1,2 @@
   fun ref fetch(match_num': I32): String iso^ =>
-    GMatchInfoP.fetch(this.ptr, match_num')
+    GMatchInfoP.fetch(ptr, match_num')

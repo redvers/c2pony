@@ -1,2 +1,2 @@
   fun ref max_height(): U32 =>
-    GNodeP.max_height(this.ptr)
+    GNodeP.max_height(ptr)

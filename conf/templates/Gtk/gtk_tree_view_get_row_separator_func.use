@@ -1,0 +1,1 @@
+use @gtk_tree_view_get_row_separator_func[GtkTreeViewRowSeparatorFunc](tree_view': NullablePointer[GtkTreeViewT])

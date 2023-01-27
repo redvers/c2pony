@@ -1,0 +1,2 @@
+  fun set_child(self': NullablePointer[GtkAspectFrameT], child': GtkWidgetI): None =>
+    @gtk_aspect_frame_set_child(self', child'.getptr())

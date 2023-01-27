@@ -1,0 +1,2 @@
+  fun get_object_path(invocation': NullablePointer[GDBusMethodInvocationT]): String iso^ =>
+    String.from_cstring(@g_dbus_method_invocation_get_object_path(invocation')).clone()

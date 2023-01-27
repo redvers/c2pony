@@ -1,0 +1,1 @@
+use @gtk_single_selection_get_can_unselect[I32](self': NullablePointer[GtkSingleSelectionT])

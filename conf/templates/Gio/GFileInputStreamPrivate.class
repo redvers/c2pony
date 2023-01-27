@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GFileInputStreamPrivate
+  var ptr: NullablePointer[GFileInputStreamPrivateT]
+
+  new create() =>
+    ptr = NullablePointer[GFileInputStreamPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GFileInputStreamPrivateT]) => ptr = ptr'

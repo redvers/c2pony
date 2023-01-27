@@ -1,2 +1,2 @@
   fun ref get_default_value(): NullablePointer[GValueT] =>
-    GParamSpecP.get_default_value(this.ptr)
+    GParamSpecP.get_default_value(this)

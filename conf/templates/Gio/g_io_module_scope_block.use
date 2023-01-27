@@ -1,0 +1,1 @@
+use @g_io_module_scope_block[None](scope': NullablePointer[GIOModuleScopeT], basename': Pointer[U8] tag)

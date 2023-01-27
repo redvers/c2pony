@@ -1,0 +1,1 @@
+use @gtk_revealer_get_transition_duration[U32](revealer': NullablePointer[GtkRevealerT])

@@ -1,0 +1,2 @@
+  fun get_double(settings': NullablePointer[GSettingsT], key': String): F64 =>
+    @g_settings_get_double(settings', key'.cstring())

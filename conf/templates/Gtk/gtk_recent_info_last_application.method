@@ -1,0 +1,2 @@
+  fun ref last_application(): String iso^ =>
+    GtkRecentInfoP.last_application(ptr)

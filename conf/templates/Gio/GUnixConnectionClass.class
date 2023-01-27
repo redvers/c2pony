@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GUnixConnectionClass
+  var ptr: NullablePointer[GUnixConnectionClassT]
+
+  new create() =>
+    ptr = NullablePointer[GUnixConnectionClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GUnixConnectionClassT]) => ptr = ptr'

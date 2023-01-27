@@ -1,0 +1,2 @@
+  fun get_help_overlay(window': NullablePointer[GtkApplicationWindowT]): NullablePointer[GtkShortcutsWindowT] =>
+    @gtk_application_window_get_help_overlay(window')

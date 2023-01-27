@@ -1,0 +1,2 @@
+  fun ref get_int_with_default(key': String, def': I32): I32 =>
+    GtkPrintSettingsP.get_int_with_default(this, key', def')

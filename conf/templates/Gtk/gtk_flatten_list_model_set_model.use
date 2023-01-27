@@ -1,0 +1,1 @@
+use @gtk_flatten_list_model_set_model[None](self': NullablePointer[GtkFlattenListModelT], model': NullablePointer[GListModelT])

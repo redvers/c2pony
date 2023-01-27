@@ -1,0 +1,1 @@
+use @g_resolver_free_addresses[None](addresses': NullablePointer[GListT])

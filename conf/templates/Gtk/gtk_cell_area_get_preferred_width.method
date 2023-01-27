@@ -1,0 +1,2 @@
+  fun ref get_preferred_width(context': NullablePointer[GtkCellAreaContextT], widget': GtkWidgetI, minimum_width': Pointer[I32] tag, natural_width': Pointer[I32] tag): None =>
+    GtkCellAreaP.get_preferred_width(this, context', widget', minimum_width', natural_width')

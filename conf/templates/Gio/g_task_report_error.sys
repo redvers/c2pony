@@ -1,0 +1,2 @@
+  fun report_error(source_object': Pointer[None] tag, callback': GAsyncReadyCallback, callback_data': Pointer[None] tag, source_tag': Pointer[None] tag, error': NullablePointer[GErrorT]): None =>
+    @g_task_report_error(source_object', callback', callback_data', source_tag', error')

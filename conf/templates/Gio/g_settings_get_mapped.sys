@@ -1,0 +1,2 @@
+  fun get_mapped(settings': NullablePointer[GSettingsT], key': String, mapping': GSettingsGetMapping, user_data': Pointer[None] tag): Pointer[None] tag =>
+    @g_settings_get_mapped(settings', key'.cstring(), mapping', user_data')

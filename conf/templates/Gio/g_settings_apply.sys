@@ -1,0 +1,2 @@
+  fun apply(settings': NullablePointer[GSettingsT]): None =>
+    @g_settings_apply(settings')

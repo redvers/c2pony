@@ -1,0 +1,2 @@
+  fun ref get_pulse_step(): F64 =>
+    GtkProgressBarP.get_pulse_step(this)

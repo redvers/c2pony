@@ -1,0 +1,1 @@
+use @g_dbus_connection_get_exit_on_close[I32](connection': NullablePointer[GDBusConnectionT])

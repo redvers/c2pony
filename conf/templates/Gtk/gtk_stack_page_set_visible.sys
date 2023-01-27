@@ -1,0 +1,2 @@
+  fun set_visible(self': NullablePointer[GtkStackPageT], visible': I32): None =>
+    @gtk_stack_page_set_visible(self', visible')

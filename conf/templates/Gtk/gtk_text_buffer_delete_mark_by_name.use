@@ -1,0 +1,1 @@
+use @gtk_text_buffer_delete_mark_by_name[None](buffer': NullablePointer[GtkTextBufferT], name': Pointer[U8] tag)

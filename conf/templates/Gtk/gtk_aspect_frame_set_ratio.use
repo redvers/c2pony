@@ -1,0 +1,1 @@
+use @gtk_aspect_frame_set_ratio[None](self': NullablePointer[GtkAspectFrameT], ratio': F32)

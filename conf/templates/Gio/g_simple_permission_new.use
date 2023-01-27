@@ -1,0 +1,1 @@
+use @g_simple_permission_new[NullablePointer[GPermissionT]](allowed': I32)

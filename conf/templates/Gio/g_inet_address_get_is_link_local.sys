@@ -1,0 +1,2 @@
+  fun get_is_link_local(address': NullablePointer[GInetAddressT]): I32 =>
+    @g_inet_address_get_is_link_local(address')

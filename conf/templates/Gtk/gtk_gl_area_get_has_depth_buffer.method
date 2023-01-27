@@ -1,0 +1,2 @@
+  fun ref get_has_depth_buffer(): I32 =>
+    GtkGLAreaP.get_has_depth_buffer(this)

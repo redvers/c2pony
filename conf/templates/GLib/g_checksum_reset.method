@@ -1,2 +1,2 @@
   fun ref reset(): None =>
-    GChecksumP.reset(this.ptr)
+    GChecksumP.reset(ptr)

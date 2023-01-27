@@ -1,0 +1,2 @@
+  fun ref set_icon_from_paintable(icon_pos': U32, paintable': NullablePointer[GdkPaintableT]): None =>
+    GtkEntryP.set_icon_from_paintable(this, icon_pos', paintable')

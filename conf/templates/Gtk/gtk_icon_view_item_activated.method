@@ -1,0 +1,2 @@
+  fun ref item_activated(path': NullablePointer[GtkTreePathT]): None =>
+    GtkIconViewP.item_activated(this, path')

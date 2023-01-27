@@ -1,0 +1,2 @@
+  fun get_child(popover': NullablePointer[GtkPopoverT]): NullablePointer[GObjectT] =>
+@gtk_popover_get_child(popover')

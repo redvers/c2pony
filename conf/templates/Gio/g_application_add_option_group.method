@@ -1,0 +1,2 @@
+  fun ref add_option_group(group': NullablePointer[GOptionGroupT]): None =>
+    GApplicationP.add_option_group(this, group')

@@ -1,0 +1,2 @@
+  fun ref set_string(key': String, value': String): I32 =>
+    GSettingsP.set_string(this, key', value')

@@ -1,0 +1,1 @@
+use @gtk_window_new[NullablePointer[GObjectT]]()

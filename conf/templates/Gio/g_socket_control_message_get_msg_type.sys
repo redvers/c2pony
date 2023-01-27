@@ -1,0 +1,2 @@
+  fun get_msg_type(message': NullablePointer[GSocketControlMessageT]): I32 =>
+    @g_socket_control_message_get_msg_type(message')

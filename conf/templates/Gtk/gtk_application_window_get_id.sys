@@ -1,0 +1,2 @@
+  fun get_id(window': NullablePointer[GtkApplicationWindowT]): U32 =>
+    @gtk_application_window_get_id(window')

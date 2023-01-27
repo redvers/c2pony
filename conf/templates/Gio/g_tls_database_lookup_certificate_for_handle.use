@@ -1,0 +1,1 @@
+use @g_tls_database_lookup_certificate_for_handle[NullablePointer[GTlsCertificateT]](self': NullablePointer[GTlsDatabaseT], handle': Pointer[U8] tag, interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])

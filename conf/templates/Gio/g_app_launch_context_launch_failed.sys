@@ -1,0 +1,2 @@
+  fun launch_failed(context': NullablePointer[GAppLaunchContextT], startup_notify_id': String): None =>
+    @g_app_launch_context_launch_failed(context', startup_notify_id'.cstring())

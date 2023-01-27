@@ -1,0 +1,1 @@
+use @gtk_icon_view_get_path_at_pos[NullablePointer[GtkTreePathT]](icon_view': NullablePointer[GtkIconViewT], x': I32, y': I32)

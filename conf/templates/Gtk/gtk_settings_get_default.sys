@@ -1,0 +1,2 @@
+  fun get_default(): NullablePointer[GtkSettingsT] =>
+    @gtk_settings_get_default()

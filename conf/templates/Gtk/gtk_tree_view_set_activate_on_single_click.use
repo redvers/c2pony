@@ -1,0 +1,1 @@
+use @gtk_tree_view_set_activate_on_single_click[None](tree_view': NullablePointer[GtkTreeViewT], single': I32)

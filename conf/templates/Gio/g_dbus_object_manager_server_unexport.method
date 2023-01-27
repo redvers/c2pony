@@ -1,0 +1,2 @@
+  fun ref unexport(object_path': String): I32 =>
+    GDBusObjectManagerServerP.unexport(this, object_path')

@@ -1,0 +1,1 @@
+use @g_themed_icon_prepend_name[None](icon': NullablePointer[GThemedIconT], iconname': Pointer[U8] tag)

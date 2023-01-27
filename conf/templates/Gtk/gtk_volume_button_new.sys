@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GObjectT] =>
+@gtk_volume_button_new()

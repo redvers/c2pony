@@ -1,0 +1,2 @@
+  fun ref send_messages(messages': NullablePointer[GOutputMessageT], num_messages': U32, flags': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GSocketP.send_messages(this, messages', num_messages', flags', cancellable', error')

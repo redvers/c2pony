@@ -1,0 +1,2 @@
+  fun get_key(schema': NullablePointer[GSettingsSchemaT], name': String): NullablePointer[GSettingsSchemaKeyT] =>
+    @g_settings_schema_get_key(schema', name'.cstring())

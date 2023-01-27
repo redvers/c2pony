@@ -1,0 +1,2 @@
+  fun set_tabs(entry': NullablePointer[GtkEntryT], tabs': NullablePointer[PangoTabArrayT]): None =>
+    @gtk_entry_set_tabs(entry', tabs')

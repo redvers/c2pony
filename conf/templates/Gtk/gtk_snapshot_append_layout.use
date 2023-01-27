@@ -1,0 +1,1 @@
+use @gtk_snapshot_append_layout[None](snapshot': NullablePointer[GdkSnapshotT], layout': NullablePointer[PangoLayoutT], color': NullablePointer[GdkRGBAT])

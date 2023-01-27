@@ -1,0 +1,1 @@
+use @gtk_snapshot_translate_3d[None](snapshot': NullablePointer[GdkSnapshotT], point': NullablePointer[graphenepoint3dtT])

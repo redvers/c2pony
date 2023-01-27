@@ -1,0 +1,1 @@
+use @gtk_multi_filter_remove[None](self': NullablePointer[GtkMultiFilterT], position': U32)

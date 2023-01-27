@@ -1,0 +1,2 @@
+  fun set_return_on_cancel(task': NullablePointer[GTaskT], return_on_cancel': I32): I32 =>
+    @g_task_set_return_on_cancel(task', return_on_cancel')

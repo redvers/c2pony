@@ -1,0 +1,1 @@
+use @g_subprocess_get_status[I32](subprocess': NullablePointer[GSubprocessT])

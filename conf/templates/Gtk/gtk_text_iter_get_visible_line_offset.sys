@@ -1,0 +1,2 @@
+  fun get_visible_line_offset(iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_get_visible_line_offset(iter')

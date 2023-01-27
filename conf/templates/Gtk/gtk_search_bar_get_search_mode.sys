@@ -1,0 +1,2 @@
+  fun get_search_mode(bar': NullablePointer[GtkSearchBarT]): I32 =>
+    @gtk_search_bar_get_search_mode(bar')

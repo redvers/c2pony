@@ -1,0 +1,1 @@
+use @gtk_widget_class_set_template_from_resource[None](widget_class': NullablePointer[GtkWidgetClassT], resource_name': Pointer[U8] tag)

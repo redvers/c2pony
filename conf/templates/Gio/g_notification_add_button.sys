@@ -1,0 +1,2 @@
+  fun add_button(notification': NullablePointer[GNotificationT], label': String, detailed_action': String): None =>
+    @g_notification_add_button(notification', label'.cstring(), detailed_action'.cstring())

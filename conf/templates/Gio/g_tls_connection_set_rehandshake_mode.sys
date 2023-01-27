@@ -1,0 +1,2 @@
+  fun set_rehandshake_mode(conn': NullablePointer[GTlsConnectionT], mode': U32): None =>
+    @g_tls_connection_set_rehandshake_mode(conn', mode')

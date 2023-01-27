@@ -1,0 +1,1 @@
+use @gtk_tree_view_column_set_fixed_width[None](tree_column': NullablePointer[GtkTreeViewColumnT], fixed_width': I32)

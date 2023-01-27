@@ -1,0 +1,2 @@
+  fun get_inline_selection(completion': NullablePointer[GtkEntryCompletionT]): I32 =>
+    @gtk_entry_completion_get_inline_selection(completion')

@@ -1,0 +1,1 @@
+use @gtk_media_stream_set_loop[None](self': NullablePointer[GtkMediaStreamT], loop': I32)

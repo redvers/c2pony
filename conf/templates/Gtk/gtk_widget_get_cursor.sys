@@ -1,0 +1,2 @@
+  fun get_cursor(widget': GtkWidgetI): NullablePointer[GdkCursorT] =>
+    @gtk_widget_get_cursor(widget'.getptr())

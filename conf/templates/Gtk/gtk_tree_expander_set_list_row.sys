@@ -1,0 +1,2 @@
+  fun set_list_row(self': NullablePointer[GtkTreeExpanderT], list_row': NullablePointer[GtkTreeListRowT]): None =>
+    @gtk_tree_expander_set_list_row(self', list_row')

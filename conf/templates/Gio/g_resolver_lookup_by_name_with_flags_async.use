@@ -1,0 +1,1 @@
+use @g_resolver_lookup_by_name_with_flags_async[None](resolver': NullablePointer[GResolverT], hostname': Pointer[U8] tag, flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

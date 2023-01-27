@@ -1,0 +1,2 @@
+  fun ref add_constraints_from_descriptionv(lines': Pointer[Pointer[U8]] tag, n_lines': U64, hspacing': I32, vspacing': I32, views': NullablePointer[GHashTableT], error': GError): NullablePointer[GListT] =>
+    GtkConstraintLayoutP.add_constraints_from_descriptionv(this, lines', n_lines', hspacing', vspacing', views', error')

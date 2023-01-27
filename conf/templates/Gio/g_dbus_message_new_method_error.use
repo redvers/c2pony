@@ -1,0 +1,1 @@
+use @g_dbus_message_new_method_error[NullablePointer[GDBusMessageT]](method_call_message': NullablePointer[GDBusMessageT], error_name': Pointer[U8] tag, error_message_format': Pointer[U8] tag, ...)

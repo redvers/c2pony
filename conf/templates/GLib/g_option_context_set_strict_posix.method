@@ -1,2 +1,2 @@
   fun ref set_strict_posix(strict_posix': I32): None =>
-    GOptionContextP.set_strict_posix(this.ptr, strict_posix')
+    GOptionContextP.set_strict_posix(ptr, strict_posix')

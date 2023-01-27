@@ -1,0 +1,1 @@
+use @gtk_cell_view_set_model[None](cell_view': NullablePointer[GtkCellViewT], model': NullablePointer[GtkTreeModelT])

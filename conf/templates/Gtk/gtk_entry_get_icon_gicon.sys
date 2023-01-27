@@ -1,0 +1,2 @@
+  fun get_icon_gicon(entry': NullablePointer[GtkEntryT], icon_pos': U32): NullablePointer[GIconT] =>
+    @gtk_entry_get_icon_gicon(entry', icon_pos')

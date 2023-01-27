@@ -1,0 +1,2 @@
+  fun ref update(): None =>
+    GtkSpinButtonP.update(this)

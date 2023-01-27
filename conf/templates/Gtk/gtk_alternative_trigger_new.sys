@@ -1,0 +1,2 @@
+  fun new(first': NullablePointer[GtkShortcutTriggerT], second': NullablePointer[GtkShortcutTriggerT]): NullablePointer[GtkShortcutTriggerT] =>
+    @gtk_alternative_trigger_new(first', second')

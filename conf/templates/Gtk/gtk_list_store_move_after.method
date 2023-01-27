@@ -1,0 +1,2 @@
+  fun ref move_after(iter': NullablePointer[GtkTreeIterT], position': NullablePointer[GtkTreeIterT]): None =>
+    GtkListStoreP.move_after(this, iter', position')

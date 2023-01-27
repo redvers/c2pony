@@ -1,0 +1,2 @@
+  fun set_active(self': NullablePointer[GtkSwitchT], is_active': I32): None =>
+    @gtk_switch_set_active(self', is_active')

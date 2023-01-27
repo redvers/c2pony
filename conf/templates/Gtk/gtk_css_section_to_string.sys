@@ -1,0 +1,2 @@
+  fun to_string(section': NullablePointer[GtkCssSectionT]): String iso^ =>
+    String.from_cstring(@gtk_css_section_to_string(section')).clone()

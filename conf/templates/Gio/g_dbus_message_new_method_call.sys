@@ -1,0 +1,2 @@
+  fun new_method_call(name': String, path': String, interface': String, method': String): NullablePointer[GDBusMessageT] =>
+    @g_dbus_message_new_method_call(name'.cstring(), path'.cstring(), interface'.cstring(), method'.cstring())

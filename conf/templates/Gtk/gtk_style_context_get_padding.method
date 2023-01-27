@@ -1,0 +1,2 @@
+  fun ref get_padding(padding': NullablePointer[GtkBorderT]): None =>
+    GtkStyleContextP.get_padding(this, padding')

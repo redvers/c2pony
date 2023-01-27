@@ -1,0 +1,2 @@
+  fun set_blocking(socket': NullablePointer[GSocketT], blocking': I32): None =>
+    @g_socket_set_blocking(socket', blocking')

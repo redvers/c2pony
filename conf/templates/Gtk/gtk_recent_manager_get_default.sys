@@ -1,0 +1,2 @@
+  fun get_default(): NullablePointer[GtkRecentManagerT] =>
+    @gtk_recent_manager_get_default()

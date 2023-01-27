@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkCustomSorterClass
+  var ptr: NullablePointer[GtkCustomSorterClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkCustomSorterClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkCustomSorterClassT]) => ptr = ptr'

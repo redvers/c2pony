@@ -1,0 +1,2 @@
+  fun ref set_application_id(application_id': String): None =>
+    GApplicationP.set_application_id(this, application_id')

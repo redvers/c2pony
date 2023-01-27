@@ -1,0 +1,1 @@
+use @g_io_extension_point_get_extensions[NullablePointer[GListT]](extension_point': NullablePointer[GIOExtensionPointT])

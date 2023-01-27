@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GClosureP.unref(this.ptr)
+    GClosureP.unref(ptr)

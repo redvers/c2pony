@@ -1,0 +1,2 @@
+  fun ref get_visible_text(end': NullablePointer[GtkTextIterT]): String iso^ =>
+    GtkTextIterP.get_visible_text(ptr, end')

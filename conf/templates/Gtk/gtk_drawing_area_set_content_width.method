@@ -1,0 +1,2 @@
+  fun ref set_content_width(width': I32): None =>
+    GtkDrawingAreaP.set_content_width(this, width')

@@ -1,0 +1,2 @@
+  fun ref filter_keypress(event': NullablePointer[GdkEventT]): I32 =>
+    GtkIMContextP.filter_keypress(this, event')

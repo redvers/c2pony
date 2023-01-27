@@ -1,2 +1,2 @@
   fun ref writer_trylock(): I32 =>
-    GRWLockP.writer_trylock(this.ptr)
+    GRWLockP.writer_trylock(ptr)

@@ -1,0 +1,2 @@
+  fun get_value(iter': NullablePointer[GMenuAttributeIterT]): NullablePointer[GVariantT] =>
+    @g_menu_attribute_iter_get_value(iter')

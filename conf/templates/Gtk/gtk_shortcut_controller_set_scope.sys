@@ -1,0 +1,2 @@
+  fun set_scope(self': NullablePointer[GtkShortcutControllerT], scope': U32): None =>
+    @gtk_shortcut_controller_set_scope(self', scope')

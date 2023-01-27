@@ -1,0 +1,1 @@
+use @g_task_get_source_object[Pointer[None] tag](task': NullablePointer[GTaskT])

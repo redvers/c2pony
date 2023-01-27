@@ -1,0 +1,1 @@
+use @gtk_scale_button_set_value[None](button': NullablePointer[GtkScaleButtonT], value': F64)

@@ -1,0 +1,2 @@
+  fun unref(schema': NullablePointer[GSettingsSchemaT]): None =>
+    @g_settings_schema_unref(schema')

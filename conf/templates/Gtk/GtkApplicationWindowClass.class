@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkApplicationWindowClass
+  var ptr: NullablePointer[GtkApplicationWindowClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkApplicationWindowClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkApplicationWindowClassT]) => ptr = ptr'

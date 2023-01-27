@@ -1,0 +1,2 @@
+  fun ref progress_pulse(): None =>
+    GtkEntryP.progress_pulse(this)

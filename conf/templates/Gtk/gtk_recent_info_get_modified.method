@@ -1,0 +1,2 @@
+  fun ref get_modified(): NullablePointer[GDateTimeT] =>
+    GtkRecentInfoP.get_modified(ptr)

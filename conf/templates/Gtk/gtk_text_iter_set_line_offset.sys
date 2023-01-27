@@ -1,0 +1,2 @@
+  fun set_line_offset(iter': NullablePointer[GtkTextIterT], char_on_line': I32): None =>
+    @gtk_text_iter_set_line_offset(iter', char_on_line')

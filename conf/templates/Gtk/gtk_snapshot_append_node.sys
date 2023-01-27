@@ -1,0 +1,2 @@
+  fun append_node(snapshot': NullablePointer[GdkSnapshotT], node': NullablePointer[GskRenderNodeT]): None =>
+    @gtk_snapshot_append_node(snapshot', node')

@@ -1,0 +1,2 @@
+  fun new(label': String): NullablePointer[GObjectT] =>
+@gtk_expander_new(label'.cstring())

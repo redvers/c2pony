@@ -1,0 +1,2 @@
+  fun lookup_service(resolver': NullablePointer[GResolverT], service': String, protocol': String, domain': String, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+    @g_resolver_lookup_service(resolver', service'.cstring(), protocol'.cstring(), domain'.cstring(), cancellable', error')

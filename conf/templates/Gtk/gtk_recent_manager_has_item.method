@@ -1,0 +1,2 @@
+  fun ref has_item(uri': String): I32 =>
+    GtkRecentManagerP.has_item(this, uri')

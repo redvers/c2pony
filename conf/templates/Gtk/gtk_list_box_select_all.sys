@@ -1,0 +1,2 @@
+  fun select_all(box': NullablePointer[GtkListBoxT]): None =>
+    @gtk_list_box_select_all(box')

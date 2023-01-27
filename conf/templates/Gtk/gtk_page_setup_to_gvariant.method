@@ -1,0 +1,2 @@
+  fun ref to_gvariant(): NullablePointer[GVariantT] =>
+    GtkPageSetupP.to_gvariant(this)

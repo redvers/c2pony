@@ -1,0 +1,1 @@
+use @gtk_media_controls_new[NullablePointer[GObjectT]](stream': NullablePointer[GtkMediaStreamT])

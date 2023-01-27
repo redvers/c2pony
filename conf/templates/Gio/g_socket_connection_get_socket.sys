@@ -1,0 +1,2 @@
+  fun get_socket(connection': NullablePointer[GSocketConnectionT]): NullablePointer[GSocketT] =>
+    @g_socket_connection_get_socket(connection')

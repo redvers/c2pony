@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GOutputStreamT
+  embed parent_instance': GObjectT = GObjectT
+  var priv': NullablePointer[GOutputStreamPrivateT] = NullablePointer[GOutputStreamPrivateT].none()

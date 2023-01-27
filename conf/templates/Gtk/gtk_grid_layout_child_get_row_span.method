@@ -1,0 +1,2 @@
+  fun ref get_row_span(): I32 =>
+    GtkGridLayoutChildP.get_row_span(this)

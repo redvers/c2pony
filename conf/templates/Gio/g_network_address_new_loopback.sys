@@ -1,0 +1,2 @@
+  fun new_loopback(port': U16): NullablePointer[GSocketConnectableT] =>
+    @g_network_address_new_loopback(port')

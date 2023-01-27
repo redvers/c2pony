@@ -1,0 +1,2 @@
+  fun ref get_base_io_stream(): NullablePointer[GIOStreamT] =>
+    GTcpWrapperConnectionP.get_base_io_stream(this)

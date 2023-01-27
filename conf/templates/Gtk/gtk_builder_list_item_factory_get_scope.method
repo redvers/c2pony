@@ -1,0 +1,2 @@
+  fun ref get_scope(): NullablePointer[GtkBuilderScopeT] =>
+    GtkBuilderListItemFactoryP.get_scope(this)

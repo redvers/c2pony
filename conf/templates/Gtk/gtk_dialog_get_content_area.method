@@ -1,0 +1,2 @@
+  fun ref get_content_area(): NullablePointer[GObjectT] =>
+    GtkDialogP.get_content_area(this)

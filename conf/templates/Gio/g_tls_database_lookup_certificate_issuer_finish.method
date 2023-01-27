@@ -1,0 +1,2 @@
+  fun ref lookup_certificate_issuer_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GTlsCertificateT] =>
+    GTlsDatabaseP.lookup_certificate_issuer_finish(this, result', error')

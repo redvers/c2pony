@@ -1,0 +1,2 @@
+  fun to_string(context': NullablePointer[GtkStyleContextT], flags': U32): String iso^ =>
+    String.from_cstring(@gtk_style_context_to_string(context', flags')).clone()

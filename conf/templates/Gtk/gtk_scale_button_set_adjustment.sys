@@ -1,0 +1,2 @@
+  fun set_adjustment(button': NullablePointer[GtkScaleButtonT], adjustment': NullablePointer[GtkAdjustmentT]): None =>
+    @gtk_scale_button_set_adjustment(button', adjustment')

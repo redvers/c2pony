@@ -1,0 +1,1 @@
+use @gtk_tree_view_set_show_expanders[None](tree_view': NullablePointer[GtkTreeViewT], enabled': I32)

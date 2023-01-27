@@ -1,0 +1,2 @@
+  fun set_invisible_char(entry': NullablePointer[GtkEntryT], ch': U32): None =>
+    @gtk_entry_set_invisible_char(entry', ch')

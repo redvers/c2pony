@@ -1,0 +1,2 @@
+  fun ref get_num_unix_fds(): U32 =>
+    GDBusMessageP.get_num_unix_fds(this)

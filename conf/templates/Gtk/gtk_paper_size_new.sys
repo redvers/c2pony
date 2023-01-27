@@ -1,0 +1,2 @@
+  new new(name': String) =>
+    ptr = @gtk_paper_size_new(name'.cstring())

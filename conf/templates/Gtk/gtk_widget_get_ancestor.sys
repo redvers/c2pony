@@ -1,0 +1,2 @@
+  fun get_ancestor(widget': GtkWidgetI, widget_type': U64): NullablePointer[GObjectT] =>
+@gtk_widget_get_ancestor(widget'.getptr(), widget_type')

@@ -1,0 +1,1 @@
+use @gtk_viewport_get_child[NullablePointer[GObjectT]](viewport': NullablePointer[GtkViewportT])

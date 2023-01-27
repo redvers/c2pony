@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GObjectT] =>
+@gtk_stack_sidebar_new()

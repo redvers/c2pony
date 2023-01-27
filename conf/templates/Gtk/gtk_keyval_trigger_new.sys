@@ -1,0 +1,2 @@
+  fun new(keyval': U32, modifiers': U32): NullablePointer[GtkShortcutTriggerT] =>
+    @gtk_keyval_trigger_new(keyval', modifiers')

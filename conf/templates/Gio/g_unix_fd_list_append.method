@@ -1,0 +1,2 @@
+  fun ref append(fd': I32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GUnixFDListP.append(this, fd', error')

@@ -1,0 +1,2 @@
+  fun ref next_files_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+    GFileEnumeratorP.next_files_finish(this, result', error')

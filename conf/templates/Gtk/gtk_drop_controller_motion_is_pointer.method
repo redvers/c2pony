@@ -1,0 +1,2 @@
+  fun ref is_pointer(): I32 =>
+    GtkDropControllerMotionP.is_pointer(this)

@@ -1,0 +1,2 @@
+  fun get_has_frame(entry': NullablePointer[GtkEntryT]): I32 =>
+    @gtk_entry_get_has_frame(entry')

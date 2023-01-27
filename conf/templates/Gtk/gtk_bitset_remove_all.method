@@ -1,0 +1,2 @@
+  fun ref remove_all(): None =>
+    GtkBitsetP.remove_all(ptr)

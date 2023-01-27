@@ -1,0 +1,2 @@
+  fun ref get_last_child(): NullablePointer[GObjectT] =>
+    GtkWidgetP.get_last_child(this)

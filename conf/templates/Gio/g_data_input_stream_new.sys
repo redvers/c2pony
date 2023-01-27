@@ -1,0 +1,2 @@
+  fun new(base_stream': NullablePointer[GInputStreamT]): NullablePointer[GDataInputStreamT] =>
+    @g_data_input_stream_new(base_stream')

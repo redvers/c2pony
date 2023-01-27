@@ -1,0 +1,2 @@
+  fun remove(box': NullablePointer[GtkFlowBoxT], widget': GtkWidgetI): None =>
+    @gtk_flow_box_remove(box', widget'.getptr())

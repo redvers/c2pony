@@ -1,0 +1,2 @@
+  fun get_spacing(box': NullablePointer[GtkCellAreaBoxT]): I32 =>
+    @gtk_cell_area_box_get_spacing(box')

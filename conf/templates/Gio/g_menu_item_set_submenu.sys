@@ -1,0 +1,2 @@
+  fun set_submenu(menu_item': NullablePointer[GMenuItemT], submenu': NullablePointer[GMenuModelT]): None =>
+    @g_menu_item_set_submenu(menu_item', submenu')

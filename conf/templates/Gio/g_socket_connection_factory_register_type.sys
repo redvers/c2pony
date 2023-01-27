@@ -1,0 +1,2 @@
+  fun factory_register_type(g_type': U64, family': U32, type': U32, protocol': I32): None =>
+    @g_socket_connection_factory_register_type(g_type', family', type', protocol')

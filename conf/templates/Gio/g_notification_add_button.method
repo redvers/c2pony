@@ -1,0 +1,2 @@
+  fun ref add_button(label': String, detailed_action': String): None =>
+    GNotificationP.add_button(this, label', detailed_action')

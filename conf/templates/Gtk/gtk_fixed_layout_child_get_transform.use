@@ -1,0 +1,1 @@
+use @gtk_fixed_layout_child_get_transform[NullablePointer[GskTransformT]](child': NullablePointer[GtkFixedLayoutChildT])

@@ -1,0 +1,1 @@
+use @gtk_bitset_add[I32](self': NullablePointer[GtkBitsetT], value': U32)

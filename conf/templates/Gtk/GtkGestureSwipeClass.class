@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkGestureSwipeClass
+  var ptr: NullablePointer[GtkGestureSwipeClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkGestureSwipeClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkGestureSwipeClassT]) => ptr = ptr'

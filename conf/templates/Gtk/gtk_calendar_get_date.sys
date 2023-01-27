@@ -1,0 +1,2 @@
+  fun get_date(self': NullablePointer[GtkCalendarT]): NullablePointer[GDateTimeT] =>
+    @gtk_calendar_get_date(self')

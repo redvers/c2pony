@@ -1,0 +1,2 @@
+  fun reset_cursor_blink(text_view': NullablePointer[GtkTextViewT]): None =>
+    @gtk_text_view_reset_cursor_blink(text_view')

@@ -1,0 +1,1 @@
+use @gtk_image_set_from_paintable[None](image': NullablePointer[GtkImageT], paintable': NullablePointer[GdkPaintableT])

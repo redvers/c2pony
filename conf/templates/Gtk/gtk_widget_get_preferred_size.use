@@ -1,0 +1,1 @@
+use @gtk_widget_get_preferred_size[None](widget': NullablePointer[GObjectT], minimum_size': NullablePointer[GtkRequisitionT], natural_size': NullablePointer[GtkRequisitionT])

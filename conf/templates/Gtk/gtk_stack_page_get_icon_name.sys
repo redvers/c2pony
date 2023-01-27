@@ -1,0 +1,2 @@
+  fun get_icon_name(self': NullablePointer[GtkStackPageT]): String iso^ =>
+    String.from_cstring(@gtk_stack_page_get_icon_name(self')).clone()

@@ -1,0 +1,2 @@
+  fun set_decoration_layout(self': NullablePointer[GtkWindowControlsT], layout': String): None =>
+    @gtk_window_controls_set_decoration_layout(self', layout'.cstring())

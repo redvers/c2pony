@@ -1,2 +1,2 @@
   fun ref clear(): None =>
-    GRWLockP.clear(this.ptr)
+    GRWLockP.clear(ptr)

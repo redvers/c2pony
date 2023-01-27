@@ -1,0 +1,2 @@
+  fun get_layout_manager(widget': GtkWidgetI): NullablePointer[GtkLayoutManagerT] =>
+    @gtk_widget_get_layout_manager(widget'.getptr())

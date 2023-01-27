@@ -1,0 +1,2 @@
+  fun select_all(selection': NullablePointer[GtkTreeSelectionT]): None =>
+    @gtk_tree_selection_select_all(selection')

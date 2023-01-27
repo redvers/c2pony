@@ -1,0 +1,2 @@
+  fun remove_tick_callback(widget': GtkWidgetI, id': U32): None =>
+    @gtk_widget_remove_tick_callback(widget'.getptr(), id')

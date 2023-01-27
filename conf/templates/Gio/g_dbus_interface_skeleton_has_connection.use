@@ -1,0 +1,1 @@
+use @g_dbus_interface_skeleton_has_connection[I32](interface': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT])

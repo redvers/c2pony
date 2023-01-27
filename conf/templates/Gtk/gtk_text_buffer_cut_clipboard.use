@@ -1,0 +1,1 @@
+use @gtk_text_buffer_cut_clipboard[None](buffer': NullablePointer[GtkTextBufferT], clipboard': NullablePointer[GdkClipboardT], default_editable': I32)

@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GNativeVolumeMonitorClass
+  var ptr: NullablePointer[GNativeVolumeMonitorClassT]
+
+  new create() =>
+    ptr = NullablePointer[GNativeVolumeMonitorClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GNativeVolumeMonitorClassT]) => ptr = ptr'

@@ -1,0 +1,2 @@
+  fun get_has_unapplied(settings': NullablePointer[GSettingsT]): I32 =>
+    @g_settings_get_has_unapplied(settings')

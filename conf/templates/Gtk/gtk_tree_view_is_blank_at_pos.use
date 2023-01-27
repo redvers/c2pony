@@ -1,0 +1,1 @@
+use @gtk_tree_view_is_blank_at_pos[I32](tree_view': NullablePointer[GtkTreeViewT], x': I32, y': I32, path': Pointer[NullablePointer[GtkTreePathT]], column': Pointer[NullablePointer[GtkTreeViewColumnT]], cell_x': Pointer[I32] tag, cell_y': Pointer[I32] tag)

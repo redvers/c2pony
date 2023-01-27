@@ -1,0 +1,2 @@
+  new new_from_ppd(ppd_name': String, ppd_display_name': String, width': F64, height': F64) =>
+    ptr = @gtk_paper_size_new_from_ppd(ppd_name'.cstring(), ppd_display_name'.cstring(), width', height')

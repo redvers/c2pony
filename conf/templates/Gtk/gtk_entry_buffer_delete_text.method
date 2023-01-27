@@ -1,0 +1,2 @@
+  fun ref delete_text(position': U32, n_chars': I32): U32 =>
+    GtkEntryBufferP.delete_text(this, position', n_chars')

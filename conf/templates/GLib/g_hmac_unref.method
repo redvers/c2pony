@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GHmacP.unref(this.ptr)
+    GHmacP.unref(ptr)

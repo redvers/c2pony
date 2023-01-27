@@ -1,0 +1,1 @@
+use @gtk_snapshot_render_layout[None](snapshot': NullablePointer[GdkSnapshotT], context': NullablePointer[GtkStyleContextT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT])

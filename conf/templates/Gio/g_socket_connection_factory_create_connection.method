@@ -1,0 +1,2 @@
+  fun ref connection_factory_create_connection(): NullablePointer[GSocketConnectionT] =>
+    GSocketP.connection_factory_create_connection(this)

@@ -1,0 +1,1 @@
+use @g_buffered_input_stream_new_sized[NullablePointer[GInputStreamT]](base_stream': NullablePointer[GInputStreamT], size': U64)

@@ -1,0 +1,2 @@
+  fun ref get_slice(end': NullablePointer[GtkTextIterT]): String iso^ =>
+    GtkTextIterP.get_slice(ptr, end')

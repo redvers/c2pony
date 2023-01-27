@@ -1,0 +1,2 @@
+  fun set_measure_overlay(overlay': NullablePointer[GtkOverlayT], widget': GtkWidgetI, measure': I32): None =>
+    @gtk_overlay_set_measure_overlay(overlay', widget'.getptr(), measure')

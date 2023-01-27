@@ -1,0 +1,1 @@
+use @gtk_widget_list_mnemonic_labels[NullablePointer[GListT]](widget': NullablePointer[GObjectT])

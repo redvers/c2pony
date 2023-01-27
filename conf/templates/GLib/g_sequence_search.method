@@ -1,2 +1,2 @@
   fun ref search(data': Pointer[None] tag, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
-    GSequenceP.search(this.ptr, data', cmp_func', cmp_data')
+    GSequenceP.search(ptr, data', cmp_func', cmp_data')

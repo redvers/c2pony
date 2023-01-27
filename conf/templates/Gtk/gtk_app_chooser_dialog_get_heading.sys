@@ -1,0 +1,2 @@
+  fun get_heading(self': NullablePointer[GtkAppChooserDialogT]): String iso^ =>
+    String.from_cstring(@gtk_app_chooser_dialog_get_heading(self')).clone()

@@ -1,0 +1,1 @@
+use @gtk_window_controls_set_side[None](self': NullablePointer[GtkWindowControlsT], side': U32)

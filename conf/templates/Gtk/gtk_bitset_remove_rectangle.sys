@@ -1,0 +1,2 @@
+  fun remove_rectangle(self': NullablePointer[GtkBitsetT], start': U32, width': U32, height': U32, stride': U32): None =>
+    @gtk_bitset_remove_rectangle(self', start', width', height', stride')

@@ -1,0 +1,1 @@
+use @gtk_link_button_new[NullablePointer[GObjectT]](uri': Pointer[U8] tag)

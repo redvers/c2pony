@@ -1,0 +1,2 @@
+  fun ref ref(): NullablePointer[GSettingsSchemaKeyT] =>
+    GSettingsSchemaKeyP.ref(ptr)

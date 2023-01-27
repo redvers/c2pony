@@ -1,0 +1,2 @@
+  fun ref add_overlay(child': GtkWidgetI, xpos': I32, ypos': I32): None =>
+    GtkTextViewP.add_overlay(this, child', xpos', ypos')

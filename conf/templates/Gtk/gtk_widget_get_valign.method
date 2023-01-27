@@ -1,0 +1,2 @@
+  fun ref get_valign(): U32 =>
+    GtkWidgetP.get_valign(this)

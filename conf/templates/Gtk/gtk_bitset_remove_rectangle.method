@@ -1,0 +1,2 @@
+  fun ref remove_rectangle(start': U32, width': U32, height': U32, stride': U32): None =>
+    GtkBitsetP.remove_rectangle(ptr, start', width', height', stride')

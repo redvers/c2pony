@@ -1,0 +1,2 @@
+  fun push_debug(snapshot': NullablePointer[GdkSnapshotT], message': String, ...): None =>
+    @gtk_snapshot_push_debug(snapshot', message'.cstring(), ...)

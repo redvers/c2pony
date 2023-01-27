@@ -1,0 +1,2 @@
+  fun set_active(toggle_button': NullablePointer[GtkToggleButtonT], is_active': I32): None =>
+    @gtk_toggle_button_set_active(toggle_button', is_active')

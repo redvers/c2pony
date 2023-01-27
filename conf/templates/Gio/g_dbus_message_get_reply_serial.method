@@ -1,0 +1,2 @@
+  fun ref get_reply_serial(): U32 =>
+    GDBusMessageP.get_reply_serial(this)

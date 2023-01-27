@@ -1,0 +1,2 @@
+  fun export(interface': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT], object_path': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_dbus_interface_skeleton_export(interface', connection', object_path'.cstring(), error')

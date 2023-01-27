@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GDBusInterfaceIface
+  var ptr: NullablePointer[GDBusInterfaceIfaceT]
+
+  new create() =>
+    ptr = NullablePointer[GDBusInterfaceIfaceT].none()
+  new create_from_ptr(ptr': NullablePointer[GDBusInterfaceIfaceT]) => ptr = ptr'

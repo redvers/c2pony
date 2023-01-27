@@ -1,0 +1,2 @@
+  fun get_frame_clock(widget': GtkWidgetI): NullablePointer[GdkFrameClockT] =>
+    @gtk_widget_get_frame_clock(widget'.getptr())

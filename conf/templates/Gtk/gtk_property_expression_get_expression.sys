@@ -1,0 +1,2 @@
+  fun get_expression(expression': NullablePointer[GtkExpressionT]): NullablePointer[GtkExpressionT] =>
+    @gtk_property_expression_get_expression(expression')

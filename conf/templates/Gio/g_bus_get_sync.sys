@@ -1,0 +1,2 @@
+  fun bus_get_sync(bus_type': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDBusConnectionT] =>
+    @g_bus_get_sync(bus_type', cancellable', error')

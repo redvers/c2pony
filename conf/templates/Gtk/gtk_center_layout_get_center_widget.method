@@ -1,0 +1,2 @@
+  fun ref get_center_widget(): NullablePointer[GObjectT] =>
+    GtkCenterLayoutP.get_center_widget(this)

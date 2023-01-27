@@ -1,2 +1,2 @@
   fun ref days_between(date2': NullablePointer[GDateT]): I32 =>
-    GDateP.days_between(this.ptr, date2')
+    GDateP.days_between(ptr, date2')

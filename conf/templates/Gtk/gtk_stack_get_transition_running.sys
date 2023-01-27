@@ -1,0 +1,2 @@
+  fun get_transition_running(stack': NullablePointer[GtkStackT]): I32 =>
+    @gtk_stack_get_transition_running(stack')

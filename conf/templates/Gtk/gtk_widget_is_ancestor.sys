@@ -1,0 +1,2 @@
+  fun is_ancestor(widget': GtkWidgetI, ancestor': GtkWidgetI): I32 =>
+    @gtk_widget_is_ancestor(widget'.getptr(), ancestor'.getptr())

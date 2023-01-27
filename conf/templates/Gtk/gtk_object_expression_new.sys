@@ -1,0 +1,2 @@
+  fun new(object': NullablePointer[GObjectT]): NullablePointer[GtkExpressionT] =>
+    @gtk_object_expression_new(object')

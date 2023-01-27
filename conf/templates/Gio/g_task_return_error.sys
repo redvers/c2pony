@@ -1,0 +1,2 @@
+  fun return_error(task': NullablePointer[GTaskT], error': NullablePointer[GErrorT]): None =>
+    @g_task_return_error(task', error')

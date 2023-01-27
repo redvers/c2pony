@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GMenuLinkIterT
+  embed parent_instance': GObjectT = GObjectT
+  var priv': NullablePointer[GMenuLinkIterPrivateT] = NullablePointer[GMenuLinkIterPrivateT].none()

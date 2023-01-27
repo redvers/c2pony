@@ -1,0 +1,1 @@
+use @g_socket_send[I64](socket': NullablePointer[GSocketT], buffer': Pointer[U8] tag, size': U64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])

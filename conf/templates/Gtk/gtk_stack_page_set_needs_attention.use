@@ -1,0 +1,1 @@
+use @gtk_stack_page_set_needs_attention[None](self': NullablePointer[GtkStackPageT], setting': I32)

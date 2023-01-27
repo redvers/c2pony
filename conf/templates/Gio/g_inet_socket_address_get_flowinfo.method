@@ -1,0 +1,2 @@
+  fun ref get_flowinfo(): U32 =>
+    GInetSocketAddressP.get_flowinfo(this)

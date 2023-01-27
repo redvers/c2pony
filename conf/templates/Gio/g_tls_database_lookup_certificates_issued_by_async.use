@@ -1,0 +1,1 @@
+use @g_tls_database_lookup_certificates_issued_by_async[None](self': NullablePointer[GTlsDatabaseT], issuer_raw_dn': NullablePointer[GByteArrayT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

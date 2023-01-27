@@ -1,0 +1,1 @@
+use @gtk_bitset_intersect[None](self': NullablePointer[GtkBitsetT], other': NullablePointer[GtkBitsetT])

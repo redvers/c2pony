@@ -1,0 +1,2 @@
+  fun ref return_value(result': NullablePointer[GValueT]): None =>
+    GTaskP.return_value(this, result')

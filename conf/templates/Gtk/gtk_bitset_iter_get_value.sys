@@ -1,0 +1,2 @@
+  fun get_value(iter': NullablePointer[GtkBitsetIterT]): U32 =>
+    @gtk_bitset_iter_get_value(iter')

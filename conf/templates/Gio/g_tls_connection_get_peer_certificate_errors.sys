@@ -1,0 +1,2 @@
+  fun get_peer_certificate_errors(conn': NullablePointer[GTlsConnectionT]): U32 =>
+    @g_tls_connection_get_peer_certificate_errors(conn')

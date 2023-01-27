@@ -1,0 +1,1 @@
+use @gtk_text_view_get_iter_location[None](text_view': NullablePointer[GtkTextViewT], iter': NullablePointer[GtkTextIterT], location': NullablePointer[cairorectangleintT])

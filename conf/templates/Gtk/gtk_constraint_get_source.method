@@ -1,0 +1,2 @@
+  fun ref get_source(): NullablePointer[GtkConstraintTargetT] =>
+    GtkConstraintP.get_source(this)

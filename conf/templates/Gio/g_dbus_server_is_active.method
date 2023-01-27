@@ -1,0 +1,2 @@
+  fun ref is_active(): I32 =>
+    GDBusServerP.is_active(this)

@@ -1,0 +1,2 @@
+  fun is_start(iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_is_start(iter')

@@ -1,0 +1,1 @@
+use @gtk_text_buffer_create_tag[NullablePointer[GtkTextTagT]](buffer': NullablePointer[GtkTextBufferT], tag_name': Pointer[U8] tag, first_property_name': Pointer[U8] tag, ...)

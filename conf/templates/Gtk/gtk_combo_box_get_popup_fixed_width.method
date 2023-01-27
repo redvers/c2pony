@@ -1,0 +1,2 @@
+  fun ref get_popup_fixed_width(): I32 =>
+    GtkComboBoxP.get_popup_fixed_width(this)

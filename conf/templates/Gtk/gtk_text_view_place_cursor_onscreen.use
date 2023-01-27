@@ -1,0 +1,1 @@
+use @gtk_text_view_place_cursor_onscreen[I32](text_view': NullablePointer[GtkTextViewT])

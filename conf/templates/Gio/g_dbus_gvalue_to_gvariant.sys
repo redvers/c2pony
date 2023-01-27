@@ -1,0 +1,2 @@
+  fun dbus_gvalue_to_gvariant(gvalue': NullablePointer[GValueT], type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantT] =>
+    @g_dbus_gvalue_to_gvariant(gvalue', type')

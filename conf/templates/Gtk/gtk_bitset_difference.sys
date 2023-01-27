@@ -1,0 +1,2 @@
+  fun difference(self': NullablePointer[GtkBitsetT], other': NullablePointer[GtkBitsetT]): None =>
+    @gtk_bitset_difference(self', other')

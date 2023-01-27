@@ -1,0 +1,1 @@
+use @gtk_list_store_set_valuesv[None](list_store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], columns': Pointer[I32] tag, values': NullablePointer[GValueT], n_values': I32)

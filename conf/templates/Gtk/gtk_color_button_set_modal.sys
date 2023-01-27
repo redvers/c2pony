@@ -1,0 +1,2 @@
+  fun set_modal(button': NullablePointer[GtkColorButtonT], modal': I32): None =>
+    @gtk_color_button_set_modal(button', modal')

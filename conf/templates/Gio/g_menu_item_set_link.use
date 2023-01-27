@@ -1,0 +1,1 @@
+use @g_menu_item_set_link[None](menu_item': NullablePointer[GMenuItemT], link': Pointer[U8] tag, model': NullablePointer[GMenuModelT])

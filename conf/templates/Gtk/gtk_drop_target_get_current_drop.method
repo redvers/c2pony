@@ -1,0 +1,2 @@
+  fun ref get_current_drop(): NullablePointer[GdkDropT] =>
+    GtkDropTargetP.get_current_drop(this)

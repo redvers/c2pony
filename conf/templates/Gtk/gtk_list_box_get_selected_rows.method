@@ -1,0 +1,2 @@
+  fun ref get_selected_rows(): NullablePointer[GListT] =>
+    GtkListBoxP.get_selected_rows(this)

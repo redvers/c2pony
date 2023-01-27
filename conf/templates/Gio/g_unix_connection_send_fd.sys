@@ -1,0 +1,2 @@
+  fun send_fd(connection': NullablePointer[GUnixConnectionT], fd': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_unix_connection_send_fd(connection', fd', cancellable', error')

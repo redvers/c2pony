@@ -1,0 +1,1 @@
+use @gtk_media_controls_get_media_stream[NullablePointer[GtkMediaStreamT]](controls': NullablePointer[GtkMediaControlsT])

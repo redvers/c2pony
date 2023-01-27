@@ -1,0 +1,2 @@
+  fun ref set_is_tcrypt_hidden_volume(hidden_volume': I32): None =>
+    GMountOperationP.set_is_tcrypt_hidden_volume(this, hidden_volume')

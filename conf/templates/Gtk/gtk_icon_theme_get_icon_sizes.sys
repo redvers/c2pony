@@ -1,0 +1,2 @@
+  fun get_icon_sizes(self': NullablePointer[GtkIconThemeT], icon_name': String): Pointer[I32] tag =>
+    @gtk_icon_theme_get_icon_sizes(self', icon_name'.cstring())

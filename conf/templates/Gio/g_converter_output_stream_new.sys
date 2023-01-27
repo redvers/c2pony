@@ -1,0 +1,2 @@
+  fun new(base_stream': NullablePointer[GOutputStreamT], converter': NullablePointer[GConverterT]): NullablePointer[GOutputStreamT] =>
+    @g_converter_output_stream_new(base_stream', converter')

@@ -1,0 +1,2 @@
+  fun generate_xml(info': NullablePointer[GDBusNodeInfoT], indent': U32, string_builder': NullablePointer[GStringT]): None =>
+    @g_dbus_node_info_generate_xml(info', indent', string_builder')

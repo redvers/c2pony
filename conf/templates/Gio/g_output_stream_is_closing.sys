@@ -1,0 +1,2 @@
+  fun is_closing(stream': NullablePointer[GOutputStreamT]): I32 =>
+    @g_output_stream_is_closing(stream')

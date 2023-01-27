@@ -1,0 +1,1 @@
+use @g_file_attribute_info_list_ref[NullablePointer[GFileAttributeInfoListT]](list': NullablePointer[GFileAttributeInfoListT])

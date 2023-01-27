@@ -1,0 +1,1 @@
+use @g_content_type_get_icon[NullablePointer[GIconT]](type': Pointer[U8] tag)

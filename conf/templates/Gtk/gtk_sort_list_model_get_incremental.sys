@@ -1,0 +1,2 @@
+  fun get_incremental(self': NullablePointer[GtkSortListModelT]): I32 =>
+    @gtk_sort_list_model_get_incremental(self')

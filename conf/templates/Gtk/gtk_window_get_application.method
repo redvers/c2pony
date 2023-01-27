@@ -1,0 +1,2 @@
+  fun ref get_application(): NullablePointer[GObjectT] =>
+    GtkWindowP.get_application(this)

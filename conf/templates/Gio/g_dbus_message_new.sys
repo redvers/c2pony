@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GDBusMessageT] =>
+    @g_dbus_message_new()

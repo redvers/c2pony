@@ -1,0 +1,2 @@
+  fun get_inconsistent(check_button': NullablePointer[GtkCheckButtonT]): I32 =>
+    @gtk_check_button_get_inconsistent(check_button')

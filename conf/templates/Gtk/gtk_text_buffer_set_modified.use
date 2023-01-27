@@ -1,0 +1,1 @@
+use @gtk_text_buffer_set_modified[None](buffer': NullablePointer[GtkTextBufferT], setting': I32)

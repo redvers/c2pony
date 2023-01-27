@@ -1,0 +1,2 @@
+  fun set_enable_tree_lines(tree_view': NullablePointer[GtkTreeViewT], enabled': I32): None =>
+    @gtk_tree_view_set_enable_tree_lines(tree_view', enabled')

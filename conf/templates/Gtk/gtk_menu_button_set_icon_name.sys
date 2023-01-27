@@ -1,0 +1,2 @@
+  fun set_icon_name(menu_button': NullablePointer[GtkMenuButtonT], icon_name': String): None =>
+    @gtk_menu_button_set_icon_name(menu_button', icon_name'.cstring())

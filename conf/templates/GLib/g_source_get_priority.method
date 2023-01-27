@@ -1,2 +1,2 @@
   fun ref get_priority(): I32 =>
-    GSourceP.get_priority(this.ptr)
+    GSourceP.get_priority(ptr)

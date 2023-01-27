@@ -1,0 +1,1 @@
+use @gtk_tree_path_get_indices[Pointer[I32] tag](path': NullablePointer[GtkTreePathT])

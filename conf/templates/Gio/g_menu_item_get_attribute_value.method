@@ -1,0 +1,2 @@
+  fun ref get_attribute_value(attribute': String, expected_type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantT] =>
+    GMenuItemP.get_attribute_value(this, attribute', expected_type')

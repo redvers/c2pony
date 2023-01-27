@@ -1,0 +1,2 @@
+  fun connect_to_service(client': NullablePointer[GSocketClientT], domain': String, service': String, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectionT] =>
+    @g_socket_client_connect_to_service(client', domain'.cstring(), service'.cstring(), cancellable', error')

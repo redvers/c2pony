@@ -1,0 +1,1 @@
+use @g_subprocess_get_stderr_pipe[NullablePointer[GInputStreamT]](subprocess': NullablePointer[GSubprocessT])

@@ -1,0 +1,1 @@
+use @gtk_show_uri[None](parent': NullablePointer[GObjectT], uri': Pointer[U8] tag, timestamp': U32)

@@ -1,0 +1,2 @@
+  fun pop(snapshot': NullablePointer[GdkSnapshotT]): None =>
+    @gtk_snapshot_pop(snapshot')

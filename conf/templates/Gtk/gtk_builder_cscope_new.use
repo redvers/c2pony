@@ -1,0 +1,1 @@
+use @gtk_builder_cscope_new[NullablePointer[GtkBuilderScopeT]]()

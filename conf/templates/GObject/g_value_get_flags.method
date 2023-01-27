@@ -1,2 +1,2 @@
   fun ref get_flags(): U32 =>
-    GValueP.get_flags(this.ptr)
+    GValueP.get_flags(ptr)

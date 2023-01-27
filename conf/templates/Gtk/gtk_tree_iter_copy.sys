@@ -1,0 +1,2 @@
+  fun copy(iter': NullablePointer[GtkTreeIterT]): NullablePointer[GtkTreeIterT] =>
+    @gtk_tree_iter_copy(iter')

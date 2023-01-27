@@ -1,0 +1,2 @@
+  fun ref add_credit_section(section_name': String, people': Pointer[Pointer[U8]] tag): None =>
+    GtkAboutDialogP.add_credit_section(this, section_name', people')

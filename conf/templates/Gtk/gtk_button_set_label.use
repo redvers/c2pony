@@ -1,0 +1,1 @@
+use @gtk_button_set_label[None](button': NullablePointer[GtkButtonT], label': Pointer[U8] tag)

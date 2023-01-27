@@ -1,0 +1,2 @@
+  fun steal_data(ostream': NullablePointer[GMemoryOutputStreamT]): Pointer[None] tag =>
+    @g_memory_output_stream_steal_data(ostream')

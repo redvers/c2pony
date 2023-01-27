@@ -1,2 +1,2 @@
   fun ref has_key(group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    GKeyFileP.has_key(this.ptr, group_name', key', error')
+    GKeyFileP.has_key(ptr, group_name', key', error')

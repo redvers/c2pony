@@ -1,0 +1,2 @@
+  fun clear_marks(calendar': NullablePointer[GtkCalendarT]): None =>
+    @gtk_calendar_clear_marks(calendar')

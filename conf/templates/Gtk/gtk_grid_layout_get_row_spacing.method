@@ -1,0 +1,2 @@
+  fun ref get_row_spacing(): U32 =>
+    GtkGridLayoutP.get_row_spacing(this)

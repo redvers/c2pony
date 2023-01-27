@@ -1,0 +1,2 @@
+  fun set_use_system_certdb(conn': NullablePointer[GTlsConnectionT], use_system_certdb': I32): None =>
+    @g_tls_connection_set_use_system_certdb(conn', use_system_certdb')

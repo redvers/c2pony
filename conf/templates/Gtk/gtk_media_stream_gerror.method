@@ -1,0 +1,2 @@
+  fun ref gerror(error': NullablePointer[GErrorT]): None =>
+    GtkMediaStreamP.gerror(this, error')

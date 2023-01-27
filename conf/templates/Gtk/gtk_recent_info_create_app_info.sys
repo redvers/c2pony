@@ -1,0 +1,2 @@
+  fun create_app_info(info': NullablePointer[GtkRecentInfoT], app_name': String, error': GError): NullablePointer[GAppInfoT] =>
+    @gtk_recent_info_create_app_info(info', app_name'.cstring(), error'.ptr)

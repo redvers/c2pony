@@ -1,0 +1,1 @@
+use @g_io_extension_ref_class[NullablePointer[GTypeClassT]](extension': NullablePointer[GIOExtensionT])

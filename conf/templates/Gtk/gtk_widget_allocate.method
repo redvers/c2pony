@@ -1,0 +1,2 @@
+  fun ref allocate(width': I32, height': I32, baseline': I32, transform': NullablePointer[GskTransformT]): None =>
+    GtkWidgetP.allocate(this, width', height', baseline', transform')

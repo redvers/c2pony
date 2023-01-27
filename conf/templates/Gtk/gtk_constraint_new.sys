@@ -1,0 +1,2 @@
+  fun new(target': Pointer[None] tag, target_attribute': U32, relation': I32, source': Pointer[None] tag, source_attribute': U32, multiplier': F64, constant': F64, strength': I32): NullablePointer[GtkConstraintT] =>
+    @gtk_constraint_new(target', target_attribute', relation', source', source_attribute', multiplier', constant', strength')

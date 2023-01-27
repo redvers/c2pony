@@ -1,0 +1,2 @@
+  fun new(model': NullablePointer[GtkSelectionModelT], factory': NullablePointer[GtkListItemFactoryT]): NullablePointer[GObjectT] =>
+@gtk_grid_view_new(model', factory')

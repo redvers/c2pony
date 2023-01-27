@@ -1,2 +1,2 @@
   fun ref to_unix(): I64 =>
-    GDateTimeP.to_unix(this.ptr)
+    GDateTimeP.to_unix(ptr)

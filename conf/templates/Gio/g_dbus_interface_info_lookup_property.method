@@ -1,0 +1,2 @@
+  fun ref lookup_property(name': String): NullablePointer[GDBusPropertyInfoT] =>
+    GDBusInterfaceInfoP.lookup_property(ptr, name')

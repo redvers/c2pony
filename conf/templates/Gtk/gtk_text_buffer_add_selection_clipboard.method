@@ -1,0 +1,2 @@
+  fun ref add_selection_clipboard(clipboard': NullablePointer[GdkClipboardT]): None =>
+    GtkTextBufferP.add_selection_clipboard(this, clipboard')

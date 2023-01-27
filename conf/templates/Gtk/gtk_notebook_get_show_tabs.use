@@ -1,0 +1,1 @@
+use @gtk_notebook_get_show_tabs[I32](notebook': NullablePointer[GtkNotebookT])

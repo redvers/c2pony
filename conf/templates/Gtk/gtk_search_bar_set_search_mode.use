@@ -1,0 +1,1 @@
+use @gtk_search_bar_set_search_mode[None](bar': NullablePointer[GtkSearchBarT], search_mode': I32)

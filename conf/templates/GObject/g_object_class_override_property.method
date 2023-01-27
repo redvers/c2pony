@@ -1,2 +1,2 @@
   fun ref override_property(property_id': U32, name': String): None =>
-    GObjectClassP.override_property(this.ptr, property_id', name')
+    GObjectClassP.override_property(ptr, property_id', name')

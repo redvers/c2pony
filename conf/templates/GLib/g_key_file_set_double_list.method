@@ -1,2 +1,2 @@
   fun ref set_double_list(group_name': String, key': String, list': Pointer[F64] tag, length': U64): None =>
-    GKeyFileP.set_double_list(this.ptr, group_name', key', list', length')
+    GKeyFileP.set_double_list(ptr, group_name', key', list', length')

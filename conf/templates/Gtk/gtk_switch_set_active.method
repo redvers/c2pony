@@ -1,0 +1,2 @@
+  fun ref set_active(is_active': I32): None =>
+    GtkSwitchP.set_active(this, is_active')

@@ -1,0 +1,2 @@
+  fun ref get_paintable(): NullablePointer[GdkPaintableT] =>
+    GtkTextIterP.get_paintable(ptr)

@@ -1,0 +1,2 @@
+  fun get_slider_range(range': NullablePointer[GtkRangeT], slider_start': Pointer[I32] tag, slider_end': Pointer[I32] tag): None =>
+    @gtk_range_get_slider_range(range', slider_start', slider_end')

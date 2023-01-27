@@ -1,0 +1,2 @@
+  fun get_application_id(application': GApplicationI): String iso^ =>
+    String.from_cstring(@g_application_get_application_id(application'.getptr())).clone()

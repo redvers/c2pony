@@ -1,0 +1,2 @@
+  fun get_selected_rows(selection': NullablePointer[GtkTreeSelectionT], model': Pointer[NullablePointer[GtkTreeModelT]]): NullablePointer[GListT] =>
+    @gtk_tree_selection_get_selected_rows(selection', model')

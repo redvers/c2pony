@@ -1,0 +1,2 @@
+  fun ref get_root(): NullablePointer[GtkRootT] =>
+    GtkWidgetP.get_root(this)

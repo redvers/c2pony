@@ -1,0 +1,2 @@
+  fun set_min_size(guide': NullablePointer[GtkConstraintGuideT], width': I32, height': I32): None =>
+    @gtk_constraint_guide_set_min_size(guide', width', height')

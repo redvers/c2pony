@@ -1,2 +1,2 @@
   fun ref get_timezone(): NullablePointer[GTimeZoneT] =>
-    GDateTimeP.get_timezone(this.ptr)
+    GDateTimeP.get_timezone(ptr)

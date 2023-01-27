@@ -1,0 +1,2 @@
+  fun ref close_sync(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GDBusConnectionP.close_sync(this, cancellable', error')

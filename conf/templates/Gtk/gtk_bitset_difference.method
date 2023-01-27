@@ -1,0 +1,2 @@
+  fun ref difference(other': NullablePointer[GtkBitsetT]): None =>
+    GtkBitsetP.difference(ptr, other')

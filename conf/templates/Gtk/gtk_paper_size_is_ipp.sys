@@ -1,0 +1,2 @@
+  fun is_ipp(size': NullablePointer[GtkPaperSizeT]): I32 =>
+    @gtk_paper_size_is_ipp(size')

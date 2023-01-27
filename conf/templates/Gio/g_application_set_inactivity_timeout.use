@@ -1,0 +1,1 @@
+use @g_application_set_inactivity_timeout[None](application': NullablePointer[GObjectT], inactivity_timeout': U32)

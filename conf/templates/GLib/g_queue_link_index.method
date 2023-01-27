@@ -1,2 +1,2 @@
   fun ref link_index(link': NullablePointer[GListT]): I32 =>
-    GQueueP.link_index(this.ptr, link')
+    GQueueP.link_index(ptr, link')

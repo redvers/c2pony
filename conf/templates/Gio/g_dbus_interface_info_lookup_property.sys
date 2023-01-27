@@ -1,0 +1,2 @@
+  fun lookup_property(info': NullablePointer[GDBusInterfaceInfoT], name': String): NullablePointer[GDBusPropertyInfoT] =>
+    @g_dbus_interface_info_lookup_property(info', name'.cstring())

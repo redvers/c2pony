@@ -1,0 +1,1 @@
+use @g_input_stream_read[I64](stream': NullablePointer[GInputStreamT], buffer': Pointer[None] tag, count': U64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,0 +1,2 @@
+  fun get_scheme(srv': NullablePointer[GNetworkServiceT]): String iso^ =>
+    String.from_cstring(@g_network_service_get_scheme(srv')).clone()

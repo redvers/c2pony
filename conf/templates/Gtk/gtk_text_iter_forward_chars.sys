@@ -1,0 +1,2 @@
+  fun forward_chars(iter': NullablePointer[GtkTextIterT], count': I32): I32 =>
+    @gtk_text_iter_forward_chars(iter', count')

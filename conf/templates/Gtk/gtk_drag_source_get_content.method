@@ -1,0 +1,2 @@
+  fun ref get_content(): NullablePointer[GdkContentProviderT] =>
+    GtkDragSourceP.get_content(this)

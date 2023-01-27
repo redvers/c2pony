@@ -1,0 +1,2 @@
+  fun ref get_tags(): NullablePointer[GSListT] =>
+    GtkTextIterP.get_tags(ptr)

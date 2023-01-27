@@ -1,0 +1,1 @@
+use @gtk_menu_button_set_use_underline[None](menu_button': NullablePointer[GtkMenuButtonT], use_underline': I32)

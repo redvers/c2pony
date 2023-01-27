@@ -1,0 +1,2 @@
+  fun ref remove_all(): None =>
+    GMenuP.remove_all(this)

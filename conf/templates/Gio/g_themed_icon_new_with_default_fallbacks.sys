@@ -1,0 +1,2 @@
+  fun new_with_default_fallbacks(iconname': String): NullablePointer[GIconT] =>
+    @g_themed_icon_new_with_default_fallbacks(iconname'.cstring())

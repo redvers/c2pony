@@ -1,0 +1,1 @@
+use @gtk_progress_bar_set_ellipsize[None](pbar': NullablePointer[GtkProgressBarT], mode': U32)

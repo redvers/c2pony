@@ -1,0 +1,1 @@
+use @gtk_text_view_set_cursor_visible[None](text_view': NullablePointer[GtkTextViewT], setting': I32)

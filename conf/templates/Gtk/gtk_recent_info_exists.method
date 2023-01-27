@@ -1,0 +1,2 @@
+  fun ref exists(): I32 =>
+    GtkRecentInfoP.exists(ptr)

@@ -1,0 +1,2 @@
+  fun ref set_logo(logo': NullablePointer[GdkPaintableT]): None =>
+    GtkAboutDialogP.set_logo(this, logo')

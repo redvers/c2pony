@@ -1,0 +1,2 @@
+  fun subtract(matcher': NullablePointer[GFileAttributeMatcherT], subtract': NullablePointer[GFileAttributeMatcherT]): NullablePointer[GFileAttributeMatcherT] =>
+    @g_file_attribute_matcher_subtract(matcher', subtract')

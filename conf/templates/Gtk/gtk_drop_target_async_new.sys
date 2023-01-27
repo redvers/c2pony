@@ -1,0 +1,2 @@
+  fun new(formats': NullablePointer[GdkContentFormatsT], actions': U32): NullablePointer[GtkDropTargetAsyncT] =>
+    @gtk_drop_target_async_new(formats', actions')

@@ -1,0 +1,1 @@
+use @gtk_snapshot_append_repeating_radial_gradient[None](snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT], center': NullablePointer[graphenepointtT], hradius': F32, vradius': F32, start': F32, end': F32, stops': NullablePointer[GskColorStopT], n_stops': U64)

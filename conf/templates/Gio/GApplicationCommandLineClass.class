@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GApplicationCommandLineClass
+  var ptr: NullablePointer[GApplicationCommandLineClassT]
+
+  new create() =>
+    ptr = NullablePointer[GApplicationCommandLineClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GApplicationCommandLineClassT]) => ptr = ptr'

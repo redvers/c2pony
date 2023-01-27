@@ -1,0 +1,2 @@
+  fun ref get_permission(): NullablePointer[GPermissionT] =>
+    GtkLockButtonP.get_permission(this)

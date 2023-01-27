@@ -1,0 +1,2 @@
+  fun start(server': NullablePointer[GDBusServerT]): None =>
+    @g_dbus_server_start(server')

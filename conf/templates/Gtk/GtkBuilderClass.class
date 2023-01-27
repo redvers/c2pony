@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkBuilderClass
+  var ptr: NullablePointer[GtkBuilderClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkBuilderClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkBuilderClassT]) => ptr = ptr'

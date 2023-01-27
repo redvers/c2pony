@@ -1,0 +1,2 @@
+  fun get_icon_paintable(entry': NullablePointer[GtkEntryT], icon_pos': U32): NullablePointer[GdkPaintableT] =>
+    @gtk_entry_get_icon_paintable(entry', icon_pos')

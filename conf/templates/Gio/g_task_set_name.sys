@@ -1,0 +1,2 @@
+  fun set_name(task': NullablePointer[GTaskT], name': String): None =>
+    @g_task_set_name(task', name'.cstring())

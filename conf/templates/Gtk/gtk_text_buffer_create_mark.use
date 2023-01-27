@@ -1,0 +1,1 @@
+use @gtk_text_buffer_create_mark[NullablePointer[GtkTextMarkT]](buffer': NullablePointer[GtkTextBufferT], mark_name': Pointer[U8] tag, where': NullablePointer[GtkTextIterT], left_gravity': I32)

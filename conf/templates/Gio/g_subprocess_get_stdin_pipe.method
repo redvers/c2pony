@@ -1,0 +1,2 @@
+  fun ref get_stdin_pipe(): NullablePointer[GOutputStreamT] =>
+    GSubprocessP.get_stdin_pipe(this)

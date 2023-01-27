@@ -1,0 +1,2 @@
+  fun ref subtract(subtract': NullablePointer[GFileAttributeMatcherT]): NullablePointer[GFileAttributeMatcherT] =>
+    GFileAttributeMatcherP.subtract(ptr, subtract')

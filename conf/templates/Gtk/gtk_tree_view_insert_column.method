@@ -1,0 +1,2 @@
+  fun ref insert_column(column': NullablePointer[GtkTreeViewColumnT], position': I32): I32 =>
+    GtkTreeViewP.insert_column(this, column', position')

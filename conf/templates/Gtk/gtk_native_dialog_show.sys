@@ -1,0 +1,2 @@
+  fun show(self': NullablePointer[GtkNativeDialogT]): None =>
+    @gtk_native_dialog_show(self')

@@ -1,0 +1,2 @@
+  fun get_start_location(section': NullablePointer[GtkCssSectionT]): NullablePointer[GtkCssLocationT] =>
+    @gtk_css_section_get_start_location(section')

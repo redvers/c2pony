@@ -1,0 +1,2 @@
+  fun is_closed(socket': NullablePointer[GSocketT]): I32 =>
+    @g_socket_is_closed(socket')

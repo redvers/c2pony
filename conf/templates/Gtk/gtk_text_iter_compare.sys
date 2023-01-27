@@ -1,0 +1,2 @@
+  fun compare(lhs': NullablePointer[GtkTextIterT], rhs': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_compare(lhs', rhs')

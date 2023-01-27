@@ -1,0 +1,2 @@
+  fun ref install_property_action(action_name': String, property_name': String): None =>
+    GtkWidgetClassP.install_property_action(ptr, action_name', property_name')

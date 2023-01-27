@@ -1,0 +1,2 @@
+  fun set_file(self': NullablePointer[GtkDirectoryListT], file': NullablePointer[GFileT]): None =>
+    @gtk_directory_list_set_file(self', file')

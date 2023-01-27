@@ -1,0 +1,2 @@
+  fun get_layout(self': NullablePointer[GtkLabelT]): NullablePointer[PangoLayoutT] =>
+    @gtk_label_get_layout(self')

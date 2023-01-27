@@ -1,0 +1,2 @@
+  fun is_showing(op': NullablePointer[GtkMountOperationT]): I32 =>
+    @gtk_mount_operation_is_showing(op')

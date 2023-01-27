@@ -1,0 +1,2 @@
+  fun ref get_border(border': NullablePointer[GtkBorderT]): None =>
+    GtkStyleContextP.get_border(this, border')

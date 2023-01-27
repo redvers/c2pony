@@ -1,0 +1,2 @@
+  fun new_from_data(data': Pointer[None] tag, len': I64, destroy': Pointer[None]): NullablePointer[GInputStreamT] =>
+    @g_memory_input_stream_new_from_data(data', len', destroy')

@@ -1,0 +1,2 @@
+  fun hide(widget': GtkWidgetI): None =>
+    @gtk_widget_hide(widget'.getptr())

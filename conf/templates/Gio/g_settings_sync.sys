@@ -1,0 +1,2 @@
+  fun sync(): None =>
+    @g_settings_sync()

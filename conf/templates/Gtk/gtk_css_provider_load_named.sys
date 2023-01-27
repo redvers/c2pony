@@ -1,0 +1,2 @@
+  fun load_named(provider': NullablePointer[GtkCssProviderT], name': String, variant': String): None =>
+    @gtk_css_provider_load_named(provider', name'.cstring(), variant'.cstring())

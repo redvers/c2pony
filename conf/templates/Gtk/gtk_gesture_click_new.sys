@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkGestureT] =>
+    @gtk_gesture_click_new()

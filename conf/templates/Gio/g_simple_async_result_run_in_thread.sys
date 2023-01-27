@@ -1,0 +1,2 @@
+  fun run_in_thread(simple': NullablePointer[GSimpleAsyncResultT], func': GSimpleAsyncThreadFunc, io_priority': I32, cancellable': NullablePointer[GCancellableT]): None =>
+    @g_simple_async_result_run_in_thread(simple', func', io_priority', cancellable')

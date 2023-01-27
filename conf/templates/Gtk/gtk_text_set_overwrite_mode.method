@@ -1,0 +1,2 @@
+  fun ref set_overwrite_mode(overwrite': I32): None =>
+    GtkTextP.set_overwrite_mode(this, overwrite')

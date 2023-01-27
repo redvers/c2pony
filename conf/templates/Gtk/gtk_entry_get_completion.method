@@ -1,0 +1,2 @@
+  fun ref get_completion(): NullablePointer[GtkEntryCompletionT] =>
+    GtkEntryP.get_completion(this)

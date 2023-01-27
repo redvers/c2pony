@@ -1,0 +1,2 @@
+  fun get_mnemonics_modifiers(self': NullablePointer[GtkShortcutControllerT]): U32 =>
+    @gtk_shortcut_controller_get_mnemonics_modifiers(self')

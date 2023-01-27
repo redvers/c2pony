@@ -1,0 +1,2 @@
+  fun ref free_to_node(): NullablePointer[GskRenderNodeT] =>
+    P.free_to_node(this)

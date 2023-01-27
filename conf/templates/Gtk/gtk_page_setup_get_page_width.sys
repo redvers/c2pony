@@ -1,0 +1,2 @@
+  fun get_page_width(setup': NullablePointer[GtkPageSetupT], unit': U32): F64 =>
+    @gtk_page_setup_get_page_width(setup', unit')

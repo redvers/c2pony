@@ -1,2 +1,2 @@
   fun ref set_long(v_long': I64): None =>
-    GValueP.set_long(this.ptr, v_long')
+    GValueP.set_long(ptr, v_long')

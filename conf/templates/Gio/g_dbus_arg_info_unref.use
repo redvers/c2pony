@@ -1,0 +1,1 @@
+use @g_dbus_arg_info_unref[None](info': NullablePointer[GDBusArgInfoT])

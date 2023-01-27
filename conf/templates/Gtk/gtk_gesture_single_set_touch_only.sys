@@ -1,0 +1,2 @@
+  fun set_touch_only(gesture': NullablePointer[GtkGestureSingleT], touch_only': I32): None =>
+    @gtk_gesture_single_set_touch_only(gesture', touch_only')

@@ -1,0 +1,2 @@
+  fun new(base_stream': NullablePointer[GOutputStreamT]): NullablePointer[GOutputStreamT] =>
+    @g_buffered_output_stream_new(base_stream')

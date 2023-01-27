@@ -1,2 +1,2 @@
   fun ref remove_group(uri': String, group': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    GBookmarkFileP.remove_group(this.ptr, uri', group', error')
+    GBookmarkFileP.remove_group(ptr, uri', group', error')

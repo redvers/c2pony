@@ -1,0 +1,2 @@
+  fun get_child(self': NullablePointer[GtkDragIconT]): NullablePointer[GObjectT] =>
+@gtk_drag_icon_get_child(self')

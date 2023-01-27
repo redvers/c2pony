@@ -1,0 +1,2 @@
+  fun append(self': NullablePointer[GtkMultiSorterT], sorter': NullablePointer[GtkSorterT]): None =>
+    @gtk_multi_sorter_append(self', sorter')

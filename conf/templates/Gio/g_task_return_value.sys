@@ -1,0 +1,2 @@
+  fun return_value(task': NullablePointer[GTaskT], result': NullablePointer[GValueT]): None =>
+    @g_task_return_value(task', result')

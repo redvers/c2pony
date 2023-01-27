@@ -1,0 +1,2 @@
+  fun free(reference': NullablePointer[GtkTreeRowReferenceT]): None =>
+    @gtk_tree_row_reference_free(reference')

@@ -1,0 +1,2 @@
+  fun pulse(pbar': NullablePointer[GtkProgressBarT]): None =>
+    @gtk_progress_bar_pulse(pbar')

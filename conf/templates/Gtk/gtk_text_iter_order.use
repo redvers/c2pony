@@ -1,0 +1,1 @@
+use @gtk_text_iter_order[None](first': NullablePointer[GtkTextIterT], second': NullablePointer[GtkTextIterT])

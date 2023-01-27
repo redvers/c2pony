@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkGridLayoutClass
+  var ptr: NullablePointer[GtkGridLayoutClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkGridLayoutClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkGridLayoutClassT]) => ptr = ptr'

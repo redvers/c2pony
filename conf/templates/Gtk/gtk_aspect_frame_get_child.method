@@ -1,0 +1,2 @@
+  fun ref get_child(): NullablePointer[GObjectT] =>
+    GtkAspectFrameP.get_child(this)

@@ -1,0 +1,1 @@
+use @g_application_unbind_busy_property[None](application': NullablePointer[GObjectT], object': Pointer[None] tag, property': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun get_last_event(gesture': NullablePointer[GtkGestureT], sequence': NullablePointer[GdkEventSequenceT]): NullablePointer[GdkEventT] =>
+    @gtk_gesture_get_last_event(gesture', sequence')

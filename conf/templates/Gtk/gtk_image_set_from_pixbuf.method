@@ -1,0 +1,2 @@
+  fun ref set_from_pixbuf(pixbuf': NullablePointer[GdkPixbufT]): None =>
+    GtkImageP.set_from_pixbuf(this, pixbuf')

@@ -1,0 +1,2 @@
+  fun ref subtract(other': NullablePointer[GtkBitsetT]): None =>
+    GtkBitsetP.subtract(ptr, other')

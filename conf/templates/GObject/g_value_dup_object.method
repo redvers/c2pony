@@ -1,2 +1,2 @@
   fun ref dup_object(): Pointer[None] tag =>
-    GValueP.dup_object(this.ptr)
+    GValueP.dup_object(ptr)

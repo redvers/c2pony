@@ -1,0 +1,1 @@
+use @g_dbus_connection_flush_finish[I32](connection': NullablePointer[GDBusConnectionT], res': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]])

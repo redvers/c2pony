@@ -1,0 +1,1 @@
+use @gtk_widget_queue_allocate[None](widget': NullablePointer[GObjectT])

@@ -1,0 +1,2 @@
+  fun ref get_first_child(): NullablePointer[GObjectT] =>
+    GtkWidgetP.get_first_child(this)

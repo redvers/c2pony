@@ -1,0 +1,1 @@
+use @g_dbus_proxy_set_default_timeout[None](proxy': NullablePointer[GDBusProxyT], timeout_msec': I32)

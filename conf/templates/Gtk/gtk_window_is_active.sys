@@ -1,0 +1,2 @@
+  fun is_active(window': GtkWindowI): I32 =>
+    @gtk_window_is_active(window'.getptr())

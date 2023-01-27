@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GTcpConnectionPrivate
+  var ptr: NullablePointer[GTcpConnectionPrivateT]
+
+  new create() =>
+    ptr = NullablePointer[GTcpConnectionPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GTcpConnectionPrivateT]) => ptr = ptr'

@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GFileInputStreamT
+  embed parent_instance': GInputStreamT = GInputStreamT
+  var priv': NullablePointer[GFileInputStreamPrivateT] = NullablePointer[GFileInputStreamPrivateT].none()

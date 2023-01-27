@@ -1,0 +1,1 @@
+use @gtk_window_set_titlebar[None](window': NullablePointer[GObjectT], titlebar': NullablePointer[GObjectT])

@@ -1,0 +1,2 @@
+  fun ref range_check(value': NullablePointer[GVariantT]): I32 =>
+    GSettingsSchemaKeyP.range_check(ptr, value')

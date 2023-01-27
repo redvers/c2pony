@@ -1,0 +1,2 @@
+  fun ref pop(): None =>
+    P.pop(this)

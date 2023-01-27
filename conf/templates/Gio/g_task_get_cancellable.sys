@@ -1,0 +1,2 @@
+  fun get_cancellable(task': NullablePointer[GTaskT]): NullablePointer[GCancellableT] =>
+    @g_task_get_cancellable(task')

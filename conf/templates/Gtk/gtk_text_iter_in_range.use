@@ -1,0 +1,1 @@
+use @gtk_text_iter_in_range[I32](iter': NullablePointer[GtkTextIterT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT])

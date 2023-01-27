@@ -1,0 +1,2 @@
+  fun ref set_cascade_popdown(cascade_popdown': I32): None =>
+    GtkPopoverP.set_cascade_popdown(this, cascade_popdown')

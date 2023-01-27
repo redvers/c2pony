@@ -1,0 +1,1 @@
+use @gtk_popover_menu_bar_set_menu_model[None](bar': NullablePointer[GtkPopoverMenuBarT], model': NullablePointer[GMenuModelT])

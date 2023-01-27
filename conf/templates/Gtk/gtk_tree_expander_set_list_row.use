@@ -1,0 +1,1 @@
+use @gtk_tree_expander_set_list_row[None](self': NullablePointer[GtkTreeExpanderT], list_row': NullablePointer[GtkTreeListRowT])

@@ -1,0 +1,1 @@
+use @gtk_text_get_visibility[I32](self': NullablePointer[GtkTextT])

@@ -1,0 +1,2 @@
+  fun ref get_scheme(): String iso^ =>
+    GNetworkAddressP.get_scheme(this)

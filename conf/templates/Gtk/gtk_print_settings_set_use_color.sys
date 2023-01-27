@@ -1,0 +1,2 @@
+  fun set_use_color(settings': NullablePointer[GtkPrintSettingsT], use_color': I32): None =>
+    @gtk_print_settings_set_use_color(settings', use_color')

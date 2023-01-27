@@ -1,0 +1,1 @@
+use @gtk_widget_class_set_layout_manager_type[None](widget_class': NullablePointer[GtkWidgetClassT], type': U64)

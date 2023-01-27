@@ -1,0 +1,2 @@
+  fun set_print_settings(op': NullablePointer[GtkPrintOperationT], print_settings': NullablePointer[GtkPrintSettingsT]): None =>
+    @gtk_print_operation_set_print_settings(op', print_settings')

@@ -1,0 +1,2 @@
+  fun remove(box': NullablePointer[GtkBoxT], child': GtkWidgetI): None =>
+    @gtk_box_remove(box', child'.getptr())

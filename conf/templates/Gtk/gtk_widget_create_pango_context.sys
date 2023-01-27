@@ -1,0 +1,2 @@
+  fun create_pango_context(widget': GtkWidgetI): NullablePointer[PangoContextT] =>
+    @gtk_widget_create_pango_context(widget'.getptr())

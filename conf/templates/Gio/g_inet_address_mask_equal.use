@@ -1,0 +1,1 @@
+use @g_inet_address_mask_equal[I32](mask': NullablePointer[GInetAddressMaskT], mask2': NullablePointer[GInetAddressMaskT])

@@ -1,0 +1,2 @@
+  fun cache_release(info': NullablePointer[GDBusInterfaceInfoT]): None =>
+    @g_dbus_interface_info_cache_release(info')

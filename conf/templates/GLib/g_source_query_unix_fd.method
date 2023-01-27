@@ -1,2 +1,2 @@
   fun ref query_unix_fd(tag': Pointer[None] tag): U32 =>
-    GSourceP.query_unix_fd(this.ptr, tag')
+    GSourceP.query_unix_fd(ptr, tag')

@@ -1,0 +1,2 @@
+  fun ref lookup_by_name_with_flags(hostname': String, flags': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+    GResolverP.lookup_by_name_with_flags(this, hostname', flags', cancellable', error')

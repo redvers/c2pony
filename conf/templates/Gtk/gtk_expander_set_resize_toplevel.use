@@ -1,0 +1,1 @@
+use @gtk_expander_set_resize_toplevel[None](expander': NullablePointer[GtkExpanderT], resize_toplevel': I32)

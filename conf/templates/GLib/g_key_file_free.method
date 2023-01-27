@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GKeyFileP.free(this.ptr)
+    GKeyFileP.free(ptr)

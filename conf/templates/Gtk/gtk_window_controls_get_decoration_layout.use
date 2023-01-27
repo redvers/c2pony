@@ -1,0 +1,1 @@
+use @gtk_window_controls_get_decoration_layout[Pointer[U8]](self': NullablePointer[GtkWindowControlsT])

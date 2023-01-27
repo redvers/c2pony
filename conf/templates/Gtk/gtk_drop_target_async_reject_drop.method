@@ -1,0 +1,2 @@
+  fun ref reject_drop(drop': NullablePointer[GdkDropT]): None =>
+    GtkDropTargetAsyncP.reject_drop(this, drop')

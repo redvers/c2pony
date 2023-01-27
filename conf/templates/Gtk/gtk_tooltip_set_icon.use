@@ -1,0 +1,1 @@
+use @gtk_tooltip_set_icon[None](tooltip': NullablePointer[GtkTooltipT], paintable': NullablePointer[GdkPaintableT])

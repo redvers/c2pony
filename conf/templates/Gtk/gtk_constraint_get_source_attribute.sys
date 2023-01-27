@@ -1,0 +1,2 @@
+  fun get_source_attribute(constraint': NullablePointer[GtkConstraintT]): U32 =>
+    @gtk_constraint_get_source_attribute(constraint')

@@ -1,0 +1,2 @@
+  fun ref complete_in_idle(): None =>
+    GSimpleAsyncResultP.complete_in_idle(this)

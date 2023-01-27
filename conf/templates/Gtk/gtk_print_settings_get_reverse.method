@@ -1,0 +1,2 @@
+  fun ref get_reverse(): I32 =>
+    GtkPrintSettingsP.get_reverse(this)

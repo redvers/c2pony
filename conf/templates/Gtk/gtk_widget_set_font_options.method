@@ -1,0 +1,2 @@
+  fun ref set_font_options(options': NullablePointer[cairofontoptionsT]): None =>
+    GtkWidgetP.set_font_options(this, options')

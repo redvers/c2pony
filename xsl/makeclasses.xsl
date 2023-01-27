@@ -56,17 +56,16 @@
         <xsl:value-of select="$filename"/>
         <xsl:text>I</xsl:text>
         <xsl:value-of select="$newline"/>
-        <xsl:text>  var ptr: Pointer[</xsl:text>
+        <xsl:text>  var ptr: NullablePointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>
-        <xsl:text>P]</xsl:text>
+        <xsl:text>T]</xsl:text>
         <xsl:value-of select="$newline"/>
         <xsl:value-of select="$newline"/>
-        <xsl:text>  new create_from_ptr(ptr': Pointer[</xsl:text>
+        <xsl:text>  new create_from_ptr(ptr': NullablePointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>
-        <xsl:text>P]) =&gt; ptr = ptr'</xsl:text>
+        <xsl:text>T]) =&gt; ptr = ptr'</xsl:text>
         <xsl:value-of select="$newline"/>
         <xsl:variable name="gettype" select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@glib:get-type"/>
-        <xsl:text>// </xsl:text><xsl:value-of select="$gettype"/>
         <xsl:value-of select="$newline"/>
         <xsl:choose>
           <xsl:when test="ends-with($gettype, 'get_type')">
@@ -85,9 +84,9 @@
           </xsl:when>
         </xsl:choose>
         <xsl:value-of select="$newline"/>
-        <xsl:text>  fun ref getptr(): Pointer[</xsl:text>
+        <xsl:text>  fun ref getptr(): NullablePointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>
-        <xsl:text>P] =&gt; ptr</xsl:text>
+        <xsl:text>T] =&gt; ptr</xsl:text>
         <xsl:value-of select="$newline"/>
       </xsl:result-document>
 
@@ -108,6 +107,9 @@
             <xsl:text>I is </xsl:text>
             <xsl:variable name="parent" select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@parent"/>
             <xsl:choose>
+              <xsl:when test="ends-with($parent, 'InitiallyUnowned')">
+                <xsl:text>GObject</xsl:text>
+              </xsl:when>
               <xsl:when test="starts-with($parent, 'GObject.')">
                 <xsl:text>G</xsl:text>
                 <xsl:value-of select="substring-after($parent, 'GObject.')"/>
@@ -125,9 +127,9 @@
           </xsl:otherwise>
         </xsl:choose>
         <xsl:value-of select="$newline"/>
-        <xsl:text>  fun ref getptr(): Pointer[</xsl:text>
+        <xsl:text>  fun ref getptr(): NullablePointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>
-        <xsl:text>P]</xsl:text>
+        <xsl:text>T]</xsl:text>
         <xsl:value-of select="$newline"/>
       </xsl:result-document>
     </xsl:for-each>

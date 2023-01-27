@@ -1,0 +1,2 @@
+  fun get_body(message': NullablePointer[GDBusMessageT]): NullablePointer[GVariantT] =>
+    @g_dbus_message_get_body(message')

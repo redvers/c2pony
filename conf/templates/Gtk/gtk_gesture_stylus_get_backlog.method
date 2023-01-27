@@ -1,0 +1,2 @@
+  fun ref get_backlog(backlog': Pointer[NullablePointer[GdkTimeCoordT]], n_elems': Pointer[U32] tag): I32 =>
+    GtkGestureStylusP.get_backlog(this, backlog', n_elems')

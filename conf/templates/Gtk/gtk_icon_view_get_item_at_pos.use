@@ -1,0 +1,1 @@
+use @gtk_icon_view_get_item_at_pos[I32](icon_view': NullablePointer[GtkIconViewT], x': I32, y': I32, path': Pointer[NullablePointer[GtkTreePathT]], cell': Pointer[NullablePointer[GtkCellRendererT]])

@@ -1,0 +1,2 @@
+  fun handles_sequence(gesture': NullablePointer[GtkGestureT], sequence': NullablePointer[GdkEventSequenceT]): I32 =>
+    @gtk_gesture_handles_sequence(gesture', sequence')

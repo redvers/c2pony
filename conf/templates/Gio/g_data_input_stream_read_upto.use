@@ -1,0 +1,1 @@
+use @g_data_input_stream_read_upto[Pointer[U8]](stream': NullablePointer[GDataInputStreamT], stop_chars': Pointer[U8] tag, stop_chars_len': I64, length': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])

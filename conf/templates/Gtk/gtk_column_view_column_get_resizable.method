@@ -1,0 +1,2 @@
+  fun ref get_resizable(): I32 =>
+    GtkColumnViewColumnP.get_resizable(this)

@@ -1,0 +1,2 @@
+  fun get_columns(self': NullablePointer[GtkColumnViewT]): NullablePointer[GListModelT] =>
+    @gtk_column_view_get_columns(self')

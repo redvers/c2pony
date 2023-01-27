@@ -1,0 +1,2 @@
+  fun ref set_numeric(numeric': I32): None =>
+    GtkSpinButtonP.set_numeric(this, numeric')

@@ -1,0 +1,2 @@
+  fun rgb_to_hsv(r': F32, g': F32, b': F32, h': Pointer[F32] tag, s': Pointer[F32] tag, v': Pointer[F32] tag): None =>
+    @gtk_rgb_to_hsv(r', g', b', h', s', v')

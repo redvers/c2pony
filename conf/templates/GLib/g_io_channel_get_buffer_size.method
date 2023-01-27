@@ -1,2 +1,2 @@
   fun ref get_buffer_size(): U64 =>
-    GIOChannelP.get_buffer_size(this.ptr)
+    GIOChannelP.get_buffer_size(ptr)

@@ -1,0 +1,1 @@
+use @gtk_text_buffer_set_enable_undo[None](buffer': NullablePointer[GtkTextBufferT], enable_undo': I32)

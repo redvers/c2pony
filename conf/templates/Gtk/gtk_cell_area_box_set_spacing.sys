@@ -1,0 +1,2 @@
+  fun set_spacing(box': NullablePointer[GtkCellAreaBoxT], spacing': I32): None =>
+    @gtk_cell_area_box_set_spacing(box', spacing')

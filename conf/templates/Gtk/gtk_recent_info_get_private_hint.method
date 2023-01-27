@@ -1,0 +1,2 @@
+  fun ref get_private_hint(): I32 =>
+    GtkRecentInfoP.get_private_hint(ptr)

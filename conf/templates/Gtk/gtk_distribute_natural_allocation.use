@@ -1,0 +1,1 @@
+use @gtk_distribute_natural_allocation[I32](extra_space': I32, n_requested_sizes': U32, sizes': NullablePointer[GtkRequestedSizeT])

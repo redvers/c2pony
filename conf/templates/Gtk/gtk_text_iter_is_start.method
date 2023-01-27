@@ -1,0 +1,2 @@
+  fun ref is_start(): I32 =>
+    GtkTextIterP.is_start(ptr)

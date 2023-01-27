@@ -1,0 +1,2 @@
+  fun remove_window(application': GtkApplicationI, window': GtkWindowI): None =>
+    @gtk_application_remove_window(application'.getptr(), window'.getptr())

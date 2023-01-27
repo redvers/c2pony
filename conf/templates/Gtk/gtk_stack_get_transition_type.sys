@@ -1,0 +1,2 @@
+  fun get_transition_type(stack': NullablePointer[GtkStackT]): U32 =>
+    @gtk_stack_get_transition_type(stack')

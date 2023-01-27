@@ -1,0 +1,1 @@
+use @gtk_text_iter_ends_line[I32](iter': NullablePointer[GtkTextIterT])

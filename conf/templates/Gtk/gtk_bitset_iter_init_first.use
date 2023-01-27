@@ -1,0 +1,1 @@
+use @gtk_bitset_iter_init_first[I32](iter': NullablePointer[GtkBitsetIterT], set': NullablePointer[GtkBitsetT], value': Pointer[U32] tag)

@@ -1,0 +1,1 @@
+use @gtk_color_chooser_dialog_new[NullablePointer[GObjectT]](title': Pointer[U8] tag, parent': NullablePointer[GObjectT])

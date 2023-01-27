@@ -1,0 +1,2 @@
+  fun last_application(info': NullablePointer[GtkRecentInfoT]): String iso^ =>
+    String.from_cstring(@gtk_recent_info_last_application(info')).clone()

@@ -1,0 +1,1 @@
+use @g_settings_schema_get_path[Pointer[U8]](schema': NullablePointer[GSettingsSchemaT])

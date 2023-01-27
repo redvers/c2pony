@@ -1,0 +1,1 @@
+use @gtk_column_view_column_set_visible[None](self': NullablePointer[GtkColumnViewColumnT], visible': I32)

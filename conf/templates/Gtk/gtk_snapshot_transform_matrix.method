@@ -1,0 +1,2 @@
+  fun ref transform_matrix(matrix': NullablePointer[graphenematrixtT]): None =>
+    P.transform_matrix(this, matrix')

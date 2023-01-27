@@ -1,0 +1,2 @@
+  fun ref unselect_row(row': NullablePointer[GtkListBoxRowT]): None =>
+    GtkListBoxP.unselect_row(this, row')

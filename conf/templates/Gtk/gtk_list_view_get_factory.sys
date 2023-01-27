@@ -1,0 +1,2 @@
+  fun get_factory(self': NullablePointer[GtkListViewT]): NullablePointer[GtkListItemFactoryT] =>
+    @gtk_list_view_get_factory(self')

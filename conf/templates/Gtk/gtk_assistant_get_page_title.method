@@ -1,0 +1,2 @@
+  fun ref get_page_title(page': GtkWidgetI): String iso^ =>
+    GtkAssistantP.get_page_title(this, page')

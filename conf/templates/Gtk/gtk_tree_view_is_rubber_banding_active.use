@@ -1,0 +1,1 @@
+use @gtk_tree_view_is_rubber_banding_active[I32](tree_view': NullablePointer[GtkTreeViewT])

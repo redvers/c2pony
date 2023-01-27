@@ -1,0 +1,2 @@
+  fun ref get_show_all(): I32 =>
+    GtkAppChooserWidgetP.get_show_all(this)

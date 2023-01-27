@@ -1,0 +1,2 @@
+  fun is_seeking(self': NullablePointer[GtkMediaStreamT]): I32 =>
+    @gtk_media_stream_is_seeking(self')

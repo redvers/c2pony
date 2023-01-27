@@ -1,0 +1,2 @@
+  fun get_text(start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): String iso^ =>
+    String.from_cstring(@gtk_text_iter_get_text(start', end')).clone()

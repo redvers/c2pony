@@ -1,0 +1,2 @@
+  fun ref get_has_unapplied(): I32 =>
+    GSettingsP.get_has_unapplied(this)

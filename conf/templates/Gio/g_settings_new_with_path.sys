@@ -1,0 +1,2 @@
+  fun new_with_path(schema_id': String, path': String): NullablePointer[GSettingsT] =>
+    @g_settings_new_with_path(schema_id'.cstring(), path'.cstring())

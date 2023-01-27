@@ -1,0 +1,2 @@
+  fun get_selection_mode(icon_view': NullablePointer[GtkIconViewT]): U32 =>
+    @gtk_icon_view_get_selection_mode(icon_view')

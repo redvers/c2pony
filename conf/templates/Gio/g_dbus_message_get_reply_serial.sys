@@ -1,0 +1,2 @@
+  fun get_reply_serial(message': NullablePointer[GDBusMessageT]): U32 =>
+    @g_dbus_message_get_reply_serial(message')

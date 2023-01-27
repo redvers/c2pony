@@ -1,0 +1,2 @@
+  fun contains_pointer(self': NullablePointer[GtkDropControllerMotionT]): I32 =>
+    @gtk_drop_controller_motion_contains_pointer(self')

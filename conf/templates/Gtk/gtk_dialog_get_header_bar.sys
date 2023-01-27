@@ -1,0 +1,2 @@
+  fun get_header_bar(dialog': NullablePointer[GtkDialogT]): NullablePointer[GObjectT] =>
+@gtk_dialog_get_header_bar(dialog')

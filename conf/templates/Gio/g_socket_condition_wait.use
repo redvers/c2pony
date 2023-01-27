@@ -1,0 +1,1 @@
+use @g_socket_condition_wait[I32](socket': NullablePointer[GSocketT], condition': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])

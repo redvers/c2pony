@@ -1,0 +1,2 @@
+  fun ref writev_async(vectors': NullablePointer[GOutputVectorT], n_vectors': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GOutputStreamP.writev_async(this, vectors', n_vectors', io_priority', cancellable', callback', user_data')

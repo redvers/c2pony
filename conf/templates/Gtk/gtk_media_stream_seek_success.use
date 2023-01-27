@@ -1,0 +1,1 @@
+use @gtk_media_stream_seek_success[None](self': NullablePointer[GtkMediaStreamT])

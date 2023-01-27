@@ -1,0 +1,2 @@
+  fun init(static_resource': NullablePointer[GStaticResourceT]): None =>
+    @g_static_resource_init(static_resource')

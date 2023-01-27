@@ -1,0 +1,2 @@
+  fun ref get_xalign(): F32 =>
+    GtkAspectFrameP.get_xalign(this)

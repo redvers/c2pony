@@ -1,0 +1,2 @@
+  fun update_buttons_state(assistant': NullablePointer[GtkAssistantT]): None =>
+    @gtk_assistant_update_buttons_state(assistant')

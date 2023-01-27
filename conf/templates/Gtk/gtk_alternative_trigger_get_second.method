@@ -1,0 +1,2 @@
+  fun ref get_second(): NullablePointer[GtkShortcutTriggerT] =>
+    GtkAlternativeTriggerP.get_second(this)

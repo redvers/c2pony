@@ -1,0 +1,2 @@
+  fun ref forward_visible_lines(count': I32): I32 =>
+    GtkTextIterP.forward_visible_lines(ptr, count')

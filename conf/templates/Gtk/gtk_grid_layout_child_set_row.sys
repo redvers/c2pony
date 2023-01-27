@@ -1,0 +1,2 @@
+  fun set_row(child': NullablePointer[GtkGridLayoutChildT], row': I32): None =>
+    @gtk_grid_layout_child_set_row(child', row')

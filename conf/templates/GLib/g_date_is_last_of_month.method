@@ -1,2 +1,2 @@
   fun ref is_last_of_month(): I32 =>
-    GDateP.is_last_of_month(this.ptr)
+    GDateP.is_last_of_month(ptr)

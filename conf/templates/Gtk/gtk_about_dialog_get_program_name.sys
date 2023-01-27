@@ -1,0 +1,2 @@
+  fun get_program_name(about': NullablePointer[GtkAboutDialogT]): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_program_name(about')).clone()

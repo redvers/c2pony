@@ -1,0 +1,2 @@
+  fun ref get_widget(): NullablePointer[GObjectT] =>
+    GtkWidgetPaintableP.get_widget(this)

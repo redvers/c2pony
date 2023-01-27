@@ -1,0 +1,2 @@
+  fun get_child(viewport': NullablePointer[GtkViewportT]): NullablePointer[GObjectT] =>
+@gtk_viewport_get_child(viewport')

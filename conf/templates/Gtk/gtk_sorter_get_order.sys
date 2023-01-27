@@ -1,0 +1,2 @@
+  fun get_order(self': NullablePointer[GtkSorterT]): U32 =>
+    @gtk_sorter_get_order(self')

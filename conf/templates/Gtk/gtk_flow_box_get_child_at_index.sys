@@ -1,0 +1,2 @@
+  fun get_child_at_index(box': NullablePointer[GtkFlowBoxT], idx': I32): NullablePointer[GtkFlowBoxChildT] =>
+    @gtk_flow_box_get_child_at_index(box', idx')

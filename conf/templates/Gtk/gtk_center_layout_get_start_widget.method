@@ -1,0 +1,2 @@
+  fun ref get_start_widget(): NullablePointer[GObjectT] =>
+    GtkCenterLayoutP.get_start_widget(this)

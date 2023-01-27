@@ -1,0 +1,1 @@
+use @g_settings_schema_key_range_check[I32](key': NullablePointer[GSettingsSchemaKeyT], value': NullablePointer[GVariantT])

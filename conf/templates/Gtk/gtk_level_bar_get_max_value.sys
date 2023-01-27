@@ -1,0 +1,2 @@
+  fun get_max_value(self': NullablePointer[GtkLevelBarT]): F64 =>
+    @gtk_level_bar_get_max_value(self')

@@ -1,0 +1,1 @@
+use @g_settings_schema_source_new_from_directory[NullablePointer[GSettingsSchemaSourceT]](directory': Pointer[U8] tag, parent': NullablePointer[GSettingsSchemaSourceT], trusted': I32, error': Pointer[NullablePointer[GErrorT]])

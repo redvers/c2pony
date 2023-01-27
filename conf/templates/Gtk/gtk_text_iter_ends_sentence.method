@@ -1,0 +1,2 @@
+  fun ref ends_sentence(): I32 =>
+    GtkTextIterP.ends_sentence(ptr)

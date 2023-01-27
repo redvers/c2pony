@@ -1,2 +1,2 @@
   fun ref get_target(): NullablePointer[GObjectT] =>
-    GBindingP.get_target(this.ptr)
+    GBindingP.get_target(this)

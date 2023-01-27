@@ -1,0 +1,2 @@
+  fun ref get_bounds(start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+    GtkTextBufferP.get_bounds(this, start', end')

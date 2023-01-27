@@ -1,0 +1,2 @@
+  fun ref get_surrounding_with_selection(text': Pointer[Pointer[U8]] tag, cursor_index': Pointer[I32] tag, anchor_index': Pointer[I32] tag): I32 =>
+    GtkIMContextP.get_surrounding_with_selection(this, text', cursor_index', anchor_index')

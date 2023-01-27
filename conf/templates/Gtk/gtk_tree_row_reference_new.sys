@@ -1,0 +1,2 @@
+  new new(model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT]) =>
+    ptr = @gtk_tree_row_reference_new(model', path')

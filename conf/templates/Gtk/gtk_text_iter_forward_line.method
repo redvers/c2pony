@@ -1,0 +1,2 @@
+  fun ref forward_line(): I32 =>
+    GtkTextIterP.forward_line(ptr)

@@ -1,2 +1,2 @@
   fun ref is_begin(): I32 =>
-    GSequenceIterP.is_begin(this.ptr)
+    GSequenceIterP.is_begin(ptr)

@@ -1,0 +1,2 @@
+  fun set_min_children_per_line(box': NullablePointer[GtkFlowBoxT], n_children': U32): None =>
+    @gtk_flow_box_set_min_children_per_line(box', n_children')

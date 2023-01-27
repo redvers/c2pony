@@ -1,0 +1,2 @@
+  fun set_tls(client': NullablePointer[GSocketClientT], tls': I32): None =>
+    @g_socket_client_set_tls(client', tls')

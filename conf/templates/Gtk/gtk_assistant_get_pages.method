@@ -1,0 +1,2 @@
+  fun ref get_pages(): NullablePointer[GListModelT] =>
+    GtkAssistantP.get_pages(this)

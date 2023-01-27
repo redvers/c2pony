@@ -1,0 +1,1 @@
+use @gtk_icon_theme_add_search_path[None](self': NullablePointer[GtkIconThemeT], path': Pointer[U8] tag)

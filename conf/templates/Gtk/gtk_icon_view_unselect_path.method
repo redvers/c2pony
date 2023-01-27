@@ -1,0 +1,2 @@
+  fun ref unselect_path(path': NullablePointer[GtkTreePathT]): None =>
+    GtkIconViewP.unselect_path(this, path')

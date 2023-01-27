@@ -1,0 +1,1 @@
+use @g_list_store_splice[None](store': NullablePointer[GListStoreT], position': U32, n_removals': U32, additions': Pointer[Pointer[None]] tag, n_additions': U32)

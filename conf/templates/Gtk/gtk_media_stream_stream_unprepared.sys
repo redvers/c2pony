@@ -1,0 +1,2 @@
+  fun stream_unprepared(self': NullablePointer[GtkMediaStreamT]): None =>
+    @gtk_media_stream_stream_unprepared(self')

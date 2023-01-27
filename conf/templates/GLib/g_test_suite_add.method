@@ -1,2 +1,2 @@
   fun ref add(test_case': NullablePointer[GTestCaseT]): None =>
-    GTestSuiteP.add(this.ptr, test_case')
+    GTestSuiteP.add(ptr, test_case')

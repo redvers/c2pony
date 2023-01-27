@@ -1,0 +1,2 @@
+  fun ref get_options_dict(): NullablePointer[GVariantDictT] =>
+    GApplicationCommandLineP.get_options_dict(this)

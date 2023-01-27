@@ -1,2 +1,2 @@
   fun ref n_children(): U32 =>
-    GNodeP.n_children(this.ptr)
+    GNodeP.n_children(ptr)

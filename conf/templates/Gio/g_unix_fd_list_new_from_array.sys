@@ -1,0 +1,2 @@
+  fun new_from_array(fds': Pointer[I32] tag, n_fds': I32): NullablePointer[GUnixFDListT] =>
+    @g_unix_fd_list_new_from_array(fds', n_fds')

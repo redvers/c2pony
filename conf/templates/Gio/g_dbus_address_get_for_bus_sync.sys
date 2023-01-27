@@ -1,0 +1,2 @@
+  fun dbus_address_get_for_bus_sync(bus_type': I32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_dbus_address_get_for_bus_sync(bus_type', cancellable', error')).clone()

@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GObjectT] =>
+@gtk_color_chooser_widget_new()

@@ -1,0 +1,2 @@
+  fun set_valist(tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], var_args': NullablePointer[valisttagT]): None =>
+    @gtk_tree_store_set_valist(tree_store', iter', var_args')

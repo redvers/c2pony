@@ -1,2 +1,2 @@
   fun ref get_boolean(group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
-    GKeyFileP.get_boolean(this.ptr, group_name', key', error')
+    GKeyFileP.get_boolean(ptr, group_name', key', error')

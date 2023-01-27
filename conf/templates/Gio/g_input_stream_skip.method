@@ -1,0 +1,2 @@
+  fun ref skip(count': U64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    GInputStreamP.skip(this, count', cancellable', error')

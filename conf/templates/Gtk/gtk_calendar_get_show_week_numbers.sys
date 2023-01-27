@@ -1,0 +1,2 @@
+  fun get_show_week_numbers(self': NullablePointer[GtkCalendarT]): I32 =>
+    @gtk_calendar_get_show_week_numbers(self')

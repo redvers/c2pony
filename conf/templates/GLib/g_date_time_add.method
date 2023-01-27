@@ -1,2 +1,2 @@
   fun ref add(timespan': I64): NullablePointer[GDateTimeT] =>
-    GDateTimeP.add(this.ptr, timespan')
+    GDateTimeP.add(ptr, timespan')

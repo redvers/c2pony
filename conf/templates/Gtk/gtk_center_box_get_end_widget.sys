@@ -1,0 +1,2 @@
+  fun get_end_widget(self': NullablePointer[GtkCenterBoxT]): NullablePointer[GObjectT] =>
+@gtk_center_box_get_end_widget(self')

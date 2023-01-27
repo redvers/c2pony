@@ -1,0 +1,2 @@
+  fun set_number_up(settings': NullablePointer[GtkPrintSettingsT], number_up': I32): None =>
+    @gtk_print_settings_set_number_up(settings', number_up')

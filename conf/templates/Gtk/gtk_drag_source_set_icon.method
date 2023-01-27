@@ -1,0 +1,2 @@
+  fun ref set_icon(paintable': NullablePointer[GdkPaintableT], hot_x': I32, hot_y': I32): None =>
+    GtkDragSourceP.set_icon(this, paintable', hot_x', hot_y')

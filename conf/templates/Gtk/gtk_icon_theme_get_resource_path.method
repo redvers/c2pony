@@ -1,0 +1,2 @@
+  fun ref get_resource_path(): Pointer[Pointer[U8]] tag =>
+    GtkIconThemeP.get_resource_path(this)

@@ -1,0 +1,2 @@
+  fun ref set_default_text(text': String): None =>
+    GtkAppChooserWidgetP.set_default_text(this, text')

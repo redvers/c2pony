@@ -1,0 +1,1 @@
+use @gtk_scrolled_window_set_overlay_scrolling[None](scrolled_window': NullablePointer[GtkScrolledWindowT], overlay_scrolling': I32)

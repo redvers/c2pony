@@ -1,0 +1,2 @@
+  fun ref forward_find_char(pred': GtkTextCharPredicate, user_data': Pointer[None] tag, limit': NullablePointer[GtkTextIterT]): I32 =>
+    GtkTextIterP.forward_find_char(ptr, pred', user_data', limit')

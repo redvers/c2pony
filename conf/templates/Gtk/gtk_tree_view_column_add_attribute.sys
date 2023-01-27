@@ -1,0 +1,2 @@
+  fun add_attribute(tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT], attribute': String, column': I32): None =>
+    @gtk_tree_view_column_add_attribute(tree_column', cell_renderer', attribute'.cstring(), column')

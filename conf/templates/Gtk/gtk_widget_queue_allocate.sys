@@ -1,0 +1,2 @@
+  fun queue_allocate(widget': GtkWidgetI): None =>
+    @gtk_widget_queue_allocate(widget'.getptr())

@@ -1,0 +1,2 @@
+  fun ref get_windows(): NullablePointer[GListT] =>
+    GtkApplicationP.get_windows(this)

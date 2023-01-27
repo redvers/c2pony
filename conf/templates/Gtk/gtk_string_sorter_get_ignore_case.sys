@@ -1,0 +1,2 @@
+  fun get_ignore_case(self': NullablePointer[GtkStringSorterT]): I32 =>
+    @gtk_string_sorter_get_ignore_case(self')

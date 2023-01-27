@@ -1,0 +1,1 @@
+use @gtk_text_iter_editable[I32](iter': NullablePointer[GtkTextIterT], default_setting': I32)

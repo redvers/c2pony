@@ -1,0 +1,2 @@
+  fun set_symlink_target(info': NullablePointer[GFileInfoT], symlink_target': String): None =>
+    @g_file_info_set_symlink_target(info', symlink_target'.cstring())

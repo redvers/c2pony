@@ -1,0 +1,2 @@
+  fun ref get_frame_clock(): NullablePointer[GdkFrameClockT] =>
+    GtkWidgetP.get_frame_clock(this)

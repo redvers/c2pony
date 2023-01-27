@@ -1,0 +1,1 @@
+use @gtk_snapshot_gl_shader_pop_texture[None](snapshot': NullablePointer[GdkSnapshotT])

@@ -1,0 +1,1 @@
+use @g_dbus_message_get_header[NullablePointer[GVariantT]](message': NullablePointer[GDBusMessageT], header_field': U32)

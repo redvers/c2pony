@@ -1,0 +1,2 @@
+  fun get_adjustment(self': NullablePointer[GtkScrollbarT]): NullablePointer[GtkAdjustmentT] =>
+    @gtk_scrollbar_get_adjustment(self')

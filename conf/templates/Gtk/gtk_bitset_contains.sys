@@ -1,0 +1,2 @@
+  fun contains(self': NullablePointer[GtkBitsetT], value': U32): I32 =>
+    @gtk_bitset_contains(self', value')

@@ -1,0 +1,2 @@
+  fun set_has_tooltip(widget': GtkWidgetI, has_tooltip': I32): None =>
+    @gtk_widget_set_has_tooltip(widget'.getptr(), has_tooltip')

@@ -1,0 +1,1 @@
+use @gtk_video_set_filename[None](self': NullablePointer[GtkVideoT], filename': Pointer[U8] tag)

@@ -1,0 +1,2 @@
+  fun ref set_pim(pim': U32): None =>
+    GMountOperationP.set_pim(this, pim')

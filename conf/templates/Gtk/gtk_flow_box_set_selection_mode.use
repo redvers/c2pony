@@ -1,0 +1,1 @@
+use @gtk_flow_box_set_selection_mode[None](box': NullablePointer[GtkFlowBoxT], mode': U32)

@@ -1,2 +1,2 @@
   fun ref set_groups(uri': String, groups': Pointer[Pointer[U8]] tag, length': U64): None =>
-    GBookmarkFileP.set_groups(this.ptr, uri', groups', length')
+    GBookmarkFileP.set_groups(ptr, uri', groups', length')

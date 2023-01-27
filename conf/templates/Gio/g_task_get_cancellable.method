@@ -1,0 +1,2 @@
+  fun ref get_cancellable(): NullablePointer[GCancellableT] =>
+    GTaskP.get_cancellable(this)

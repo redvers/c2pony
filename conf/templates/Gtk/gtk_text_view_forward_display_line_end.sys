@@ -1,0 +1,2 @@
+  fun forward_display_line_end(text_view': NullablePointer[GtkTextViewT], iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_view_forward_display_line_end(text_view', iter')

@@ -1,0 +1,1 @@
+use @gtk_print_settings_to_key_file[None](settings': NullablePointer[GtkPrintSettingsT], key_file': NullablePointer[GKeyFileT], group_name': Pointer[U8] tag)

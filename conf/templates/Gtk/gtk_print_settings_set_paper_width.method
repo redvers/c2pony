@@ -1,0 +1,2 @@
+  fun ref set_paper_width(width': F64, unit': U32): None =>
+    GtkPrintSettingsP.set_paper_width(this, width', unit')

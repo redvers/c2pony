@@ -1,0 +1,1 @@
+use @g_network_service_get_service[Pointer[U8]](srv': NullablePointer[GNetworkServiceT])

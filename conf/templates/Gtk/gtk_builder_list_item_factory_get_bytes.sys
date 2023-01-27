@@ -1,0 +1,2 @@
+  fun get_bytes(self': NullablePointer[GtkBuilderListItemFactoryT]): NullablePointer[GBytesT] =>
+    @gtk_builder_list_item_factory_get_bytes(self')

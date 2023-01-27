@@ -1,0 +1,2 @@
+  fun ref get_client_address(): String iso^ =>
+    GDBusServerP.get_client_address(this)

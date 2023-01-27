@@ -1,0 +1,2 @@
+  fun get_lines(self': NullablePointer[GtkLabelT]): I32 =>
+    @gtk_label_get_lines(self')

@@ -1,0 +1,2 @@
+  fun set_left_margin(text_view': NullablePointer[GtkTextViewT], left_margin': I32): None =>
+    @gtk_text_view_set_left_margin(text_view', left_margin')

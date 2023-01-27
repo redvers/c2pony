@@ -1,2 +1,2 @@
   fun ref insert_before(sibling': NullablePointer[GNodeT], node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
-    GNodeP.insert_before(this.ptr, sibling', node')
+    GNodeP.insert_before(ptr, sibling', node')

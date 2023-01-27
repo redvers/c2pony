@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GMatchInfoP.free(this.ptr)
+    GMatchInfoP.free(ptr)

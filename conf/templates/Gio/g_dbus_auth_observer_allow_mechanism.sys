@@ -1,0 +1,2 @@
+  fun allow_mechanism(observer': NullablePointer[GDBusAuthObserverT], mechanism': String): I32 =>
+    @g_dbus_auth_observer_allow_mechanism(observer', mechanism'.cstring())

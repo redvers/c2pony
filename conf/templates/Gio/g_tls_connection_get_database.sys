@@ -1,0 +1,2 @@
+  fun get_database(conn': NullablePointer[GTlsConnectionT]): NullablePointer[GTlsDatabaseT] =>
+    @g_tls_connection_get_database(conn')

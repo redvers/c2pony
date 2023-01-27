@@ -1,0 +1,2 @@
+  fun get_display_name(info': NullablePointer[GtkRecentInfoT]): String iso^ =>
+    String.from_cstring(@gtk_recent_info_get_display_name(info')).clone()

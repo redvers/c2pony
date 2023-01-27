@@ -1,0 +1,1 @@
+use @gtk_progress_bar_set_fraction[None](pbar': NullablePointer[GtkProgressBarT], fraction': F64)

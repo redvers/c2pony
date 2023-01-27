@@ -1,0 +1,1 @@
+use @g_threaded_socket_service_new[NullablePointer[GSocketServiceT]](max_threads': I32)

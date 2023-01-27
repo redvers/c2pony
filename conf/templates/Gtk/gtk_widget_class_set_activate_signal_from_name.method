@@ -1,0 +1,2 @@
+  fun ref set_activate_signal_from_name(signal_name': String): None =>
+    GtkWidgetClassP.set_activate_signal_from_name(ptr, signal_name')

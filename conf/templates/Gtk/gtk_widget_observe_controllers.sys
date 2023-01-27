@@ -1,0 +1,2 @@
+  fun observe_controllers(widget': GtkWidgetI): NullablePointer[GListModelT] =>
+    @gtk_widget_observe_controllers(widget'.getptr())

@@ -1,0 +1,2 @@
+  fun set_active_id(combo_box': NullablePointer[GtkComboBoxT], active_id': String): I32 =>
+    @gtk_combo_box_set_active_id(combo_box', active_id'.cstring())

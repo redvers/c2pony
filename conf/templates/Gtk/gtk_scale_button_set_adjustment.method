@@ -1,0 +1,2 @@
+  fun ref set_adjustment(adjustment': NullablePointer[GtkAdjustmentT]): None =>
+    GtkScaleButtonP.set_adjustment(this, adjustment')

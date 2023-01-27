@@ -1,0 +1,2 @@
+  fun set_action_and_target_value(menu_item': NullablePointer[GMenuItemT], action': String, target_value': NullablePointer[GVariantT]): None =>
+    @g_menu_item_set_action_and_target_value(menu_item', action'.cstring(), target_value')

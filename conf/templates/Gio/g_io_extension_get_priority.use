@@ -1,0 +1,1 @@
+use @g_io_extension_get_priority[I32](extension': NullablePointer[GIOExtensionT])

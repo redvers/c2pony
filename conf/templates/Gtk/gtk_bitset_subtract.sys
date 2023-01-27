@@ -1,0 +1,2 @@
+  fun subtract(self': NullablePointer[GtkBitsetT], other': NullablePointer[GtkBitsetT]): None =>
+    @gtk_bitset_subtract(self', other')

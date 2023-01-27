@@ -1,0 +1,2 @@
+  fun ref get_column_homogeneous(): I32 =>
+    GtkGridLayoutP.get_column_homogeneous(this)

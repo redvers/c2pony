@@ -1,0 +1,2 @@
+  fun get_parent(section': NullablePointer[GtkCssSectionT]): NullablePointer[GtkCssSectionT] =>
+    @gtk_css_section_get_parent(section')

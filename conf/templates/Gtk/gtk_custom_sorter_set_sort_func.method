@@ -1,0 +1,2 @@
+  fun ref set_sort_func(sort_func': GCompareDataFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None]): None =>
+    GtkCustomSorterP.set_sort_func(this, sort_func', user_data', user_destroy')

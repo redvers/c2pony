@@ -1,0 +1,2 @@
+  fun ref set_template_from_resource(resource_name': String): None =>
+    GtkWidgetClassP.set_template_from_resource(ptr, resource_name')

@@ -1,0 +1,2 @@
+  fun ref send_to_mainloop(func': GSourceFunc, user_data': Pointer[None] tag, notify': Pointer[None]): I32 =>
+    GIOSchedulerJobP.send_to_mainloop(ptr, func', user_data', notify')

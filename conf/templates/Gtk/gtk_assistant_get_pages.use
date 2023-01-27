@@ -1,0 +1,1 @@
+use @gtk_assistant_get_pages[NullablePointer[GListModelT]](assistant': NullablePointer[GtkAssistantT])

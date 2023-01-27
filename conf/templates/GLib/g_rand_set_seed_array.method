@@ -1,2 +1,2 @@
   fun ref set_seed_array(seed': Pointer[U32] tag, seed_length': U32): None =>
-    GRandP.set_seed_array(this.ptr, seed', seed_length')
+    GRandP.set_seed_array(ptr, seed', seed_length')

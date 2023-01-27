@@ -1,0 +1,2 @@
+  fun get_child_by_name(stack': NullablePointer[GtkStackT], name': String): NullablePointer[GObjectT] =>
+@gtk_stack_get_child_by_name(stack', name'.cstring())

@@ -1,0 +1,2 @@
+  fun ref get_line_index(): I32 =>
+    GtkTextIterP.get_line_index(ptr)

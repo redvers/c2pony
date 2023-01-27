@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GDateP.free(this.ptr)
+    GDateP.free(ptr)

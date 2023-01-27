@@ -1,2 +1,2 @@
   fun ref vprintf(format': String, args': NullablePointer[valisttagT]): None =>
-    GStringP.vprintf(this.ptr, format', args')
+    GStringP.vprintf(ptr, format', args')

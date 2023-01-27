@@ -1,0 +1,2 @@
+  fun get_uri(link_button': NullablePointer[GtkLinkButtonT]): String iso^ =>
+    String.from_cstring(@gtk_link_button_get_uri(link_button')).clone()

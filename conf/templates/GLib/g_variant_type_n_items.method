@@ -1,2 +1,2 @@
   fun ref n_items(): U64 =>
-    GVariantTypeP.n_items(this.ptr)
+    GVariantTypeP.n_items(ptr)

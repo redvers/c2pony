@@ -1,0 +1,2 @@
+  fun ref get_state(): I32 =>
+    GtkSwitchP.get_state(this)

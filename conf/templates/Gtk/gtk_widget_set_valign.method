@@ -1,0 +1,2 @@
+  fun ref set_valign(align': U32): None =>
+    GtkWidgetP.set_valign(this, align')

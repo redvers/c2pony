@@ -1,0 +1,2 @@
+  fun ref get_file(): NullablePointer[GFileT] =>
+    GtkVideoP.get_file(this)

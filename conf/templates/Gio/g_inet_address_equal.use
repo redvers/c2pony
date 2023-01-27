@@ -1,0 +1,1 @@
+use @g_inet_address_equal[I32](address': NullablePointer[GInetAddressT], other_address': NullablePointer[GInetAddressT])

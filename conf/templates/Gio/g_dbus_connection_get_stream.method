@@ -1,0 +1,2 @@
+  fun ref get_stream(): NullablePointer[GIOStreamT] =>
+    GDBusConnectionP.get_stream(this)

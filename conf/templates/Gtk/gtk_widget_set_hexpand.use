@@ -1,0 +1,1 @@
+use @gtk_widget_set_hexpand[None](widget': NullablePointer[GObjectT], expand': I32)

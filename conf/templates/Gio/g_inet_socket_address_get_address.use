@@ -1,0 +1,1 @@
+use @g_inet_socket_address_get_address[NullablePointer[GInetAddressT]](address': NullablePointer[GInetSocketAddressT])

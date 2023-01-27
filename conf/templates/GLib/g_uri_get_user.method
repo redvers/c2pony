@@ -1,2 +1,2 @@
   fun ref get_user(): String iso^ =>
-    GUriP.get_user(this.ptr)
+    GUriP.get_user(ptr)

@@ -1,0 +1,2 @@
+  fun get_radio(toggle': NullablePointer[GtkCellRendererToggleT]): I32 =>
+    @gtk_cell_renderer_toggle_get_radio(toggle')

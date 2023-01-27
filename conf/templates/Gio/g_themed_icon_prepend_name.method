@@ -1,0 +1,2 @@
+  fun ref prepend_name(iconname': String): None =>
+    GThemedIconP.prepend_name(this, iconname')

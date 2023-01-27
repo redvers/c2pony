@@ -1,0 +1,2 @@
+  fun ref set_paper_height(height': F64, unit': U32): None =>
+    GtkPrintSettingsP.set_paper_height(this, height', unit')

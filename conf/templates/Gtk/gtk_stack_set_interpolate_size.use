@@ -1,0 +1,1 @@
+use @gtk_stack_set_interpolate_size[None](stack': NullablePointer[GtkStackT], interpolate_size': I32)

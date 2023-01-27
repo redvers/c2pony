@@ -1,0 +1,2 @@
+  fun get_properties(interface': NullablePointer[GDBusInterfaceSkeletonT]): NullablePointer[GVariantT] =>
+    @g_dbus_interface_skeleton_get_properties(interface')

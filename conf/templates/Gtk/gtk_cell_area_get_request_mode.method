@@ -1,0 +1,2 @@
+  fun ref get_request_mode(): U32 =>
+    GtkCellAreaP.get_request_mode(this)

@@ -1,0 +1,2 @@
+  fun set_start_child(paned': NullablePointer[GtkPanedT], child': GtkWidgetI): None =>
+    @gtk_paned_set_start_child(paned', child'.getptr())

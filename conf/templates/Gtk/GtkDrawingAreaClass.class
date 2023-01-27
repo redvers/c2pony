@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkDrawingAreaClass
+  var ptr: NullablePointer[GtkDrawingAreaClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkDrawingAreaClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkDrawingAreaClassT]) => ptr = ptr'

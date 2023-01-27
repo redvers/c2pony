@@ -1,0 +1,2 @@
+  fun get_authors(about': NullablePointer[GtkAboutDialogT]): Pointer[Pointer[U8]] tag =>
+    @gtk_about_dialog_get_authors(about')

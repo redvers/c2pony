@@ -1,0 +1,2 @@
+  fun get_minimum_increment(adjustment': NullablePointer[GtkAdjustmentT]): F64 =>
+    @gtk_adjustment_get_minimum_increment(adjustment')

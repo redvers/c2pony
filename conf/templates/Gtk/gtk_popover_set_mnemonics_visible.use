@@ -1,0 +1,1 @@
+use @gtk_popover_set_mnemonics_visible[None](popover': NullablePointer[GtkPopoverT], mnemonics_visible': I32)

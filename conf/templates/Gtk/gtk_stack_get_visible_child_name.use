@@ -1,0 +1,1 @@
+use @gtk_stack_get_visible_child_name[Pointer[U8]](stack': NullablePointer[GtkStackT])

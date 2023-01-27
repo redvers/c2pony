@@ -1,0 +1,2 @@
+  fun set_is_expanded(cell': NullablePointer[GtkCellRendererT], is_expanded': I32): None =>
+    @gtk_cell_renderer_set_is_expanded(cell', is_expanded')

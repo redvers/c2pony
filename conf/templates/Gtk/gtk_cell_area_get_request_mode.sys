@@ -1,0 +1,2 @@
+  fun get_request_mode(area': NullablePointer[GtkCellAreaT]): U32 =>
+    @gtk_cell_area_get_request_mode(area')

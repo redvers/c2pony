@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GConverterInputStreamT
+  embed parent_instance': GFilterInputStreamT = GFilterInputStreamT
+  var priv': NullablePointer[GConverterInputStreamPrivateT] = NullablePointer[GConverterInputStreamPrivateT].none()

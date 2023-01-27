@@ -1,0 +1,2 @@
+  fun get_size_in_range(self': NullablePointer[GtkBitsetT], first': U32, last': U32): U64 =>
+    @gtk_bitset_get_size_in_range(self', first', last')

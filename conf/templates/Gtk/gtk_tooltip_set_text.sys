@@ -1,0 +1,2 @@
+  fun set_text(tooltip': NullablePointer[GtkTooltipT], text': String): None =>
+    @gtk_tooltip_set_text(tooltip', text'.cstring())

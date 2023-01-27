@@ -1,0 +1,2 @@
+  fun get_visible(cell': NullablePointer[GtkCellRendererT]): I32 =>
+    @gtk_cell_renderer_get_visible(cell')

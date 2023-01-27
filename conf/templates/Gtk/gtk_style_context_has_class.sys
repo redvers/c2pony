@@ -1,0 +1,2 @@
+  fun has_class(context': NullablePointer[GtkStyleContextT], class_name': String): I32 =>
+    @gtk_style_context_has_class(context', class_name'.cstring())

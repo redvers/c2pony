@@ -1,0 +1,2 @@
+  fun is_activatable(area': NullablePointer[GtkCellAreaT]): I32 =>
+    @gtk_cell_area_is_activatable(area')

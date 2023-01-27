@@ -1,0 +1,2 @@
+  fun ref bind(target': Pointer[None] tag, property': String, this': Pointer[None] tag): NullablePointer[GtkExpressionWatchT] =>
+    GtkExpressionP.bind(this, target', property', this')

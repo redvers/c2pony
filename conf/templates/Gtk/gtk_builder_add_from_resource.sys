@@ -1,0 +1,2 @@
+  fun add_from_resource(builder': GtkBuilderI, resource_path': String, error': GError): I32 =>
+    @gtk_builder_add_from_resource(builder'.getptr(), resource_path'.cstring(), error'.ptr)

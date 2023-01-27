@@ -1,0 +1,2 @@
+  fun get_display(context': NullablePointer[GAppLaunchContextT], info': NullablePointer[GAppInfoT], files': NullablePointer[GListT]): String iso^ =>
+    String.from_cstring(@g_app_launch_context_get_display(context', info', files')).clone()

@@ -1,0 +1,2 @@
+  fun get_width_chars(self': NullablePointer[GtkLabelT]): I32 =>
+    @gtk_label_get_width_chars(self')

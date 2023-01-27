@@ -1,0 +1,2 @@
+  fun ref get_wrap_mode(): U32 =>
+    GtkTextViewP.get_wrap_mode(this)

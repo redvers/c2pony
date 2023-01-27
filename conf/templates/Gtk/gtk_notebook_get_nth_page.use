@@ -1,0 +1,1 @@
+use @gtk_notebook_get_nth_page[NullablePointer[GObjectT]](notebook': NullablePointer[GtkNotebookT], page_num': I32)

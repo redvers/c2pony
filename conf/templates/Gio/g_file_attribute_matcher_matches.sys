@@ -1,0 +1,2 @@
+  fun matches(matcher': NullablePointer[GFileAttributeMatcherT], attribute': String): I32 =>
+    @g_file_attribute_matcher_matches(matcher', attribute'.cstring())

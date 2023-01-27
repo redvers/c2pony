@@ -1,0 +1,2 @@
+  fun bind_with_mapping(settings': NullablePointer[GSettingsT], key': String, object': Pointer[None] tag, property': String, flags': U32, get_mapping': GSettingsBindGetMapping, set_mapping': GSettingsBindSetMapping, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @g_settings_bind_with_mapping(settings', key'.cstring(), object', property'.cstring(), flags', get_mapping', set_mapping', user_data', destroy')

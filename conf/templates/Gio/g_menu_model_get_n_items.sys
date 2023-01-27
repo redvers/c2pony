@@ -1,0 +1,2 @@
+  fun get_n_items(model': NullablePointer[GMenuModelT]): I32 =>
+    @g_menu_model_get_n_items(model')

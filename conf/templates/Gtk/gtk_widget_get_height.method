@@ -1,0 +1,2 @@
+  fun ref get_height(): I32 =>
+    GtkWidgetP.get_height(this)

@@ -1,0 +1,2 @@
+  fun ref get_attribute(attribute': String, format_string': String, ...): I32 =>
+    GMenuItemP.get_attribute(this, attribute', format_string', ...)

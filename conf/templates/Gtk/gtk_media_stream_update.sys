@@ -1,0 +1,2 @@
+  fun update(self': NullablePointer[GtkMediaStreamT], timestamp': I64): None =>
+    @gtk_media_stream_update(self', timestamp')

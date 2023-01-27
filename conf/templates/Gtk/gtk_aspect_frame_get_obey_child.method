@@ -1,0 +1,2 @@
+  fun ref get_obey_child(): I32 =>
+    GtkAspectFrameP.get_obey_child(this)

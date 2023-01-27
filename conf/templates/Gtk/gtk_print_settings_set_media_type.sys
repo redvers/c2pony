@@ -1,0 +1,2 @@
+  fun set_media_type(settings': NullablePointer[GtkPrintSettingsT], media_type': String): None =>
+    @gtk_print_settings_set_media_type(settings', media_type'.cstring())

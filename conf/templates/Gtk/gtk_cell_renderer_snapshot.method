@@ -1,0 +1,2 @@
+  fun ref snapshot(snapshot': NullablePointer[GdkSnapshotT], widget': GtkWidgetI, background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32): None =>
+    GtkCellRendererP.snapshot(this, snapshot', widget', background_area', cell_area', flags')

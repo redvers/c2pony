@@ -1,0 +1,2 @@
+  fun ref set_visible_func(func': GtkTreeModelFilterVisibleFunc, data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    GtkTreeModelFilterP.set_visible_func(this, func', data', destroy')

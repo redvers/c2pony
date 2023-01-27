@@ -1,0 +1,2 @@
+  fun get(connection': NullablePointer[GDBusConnectionT], bus_name': String, object_path': String): NullablePointer[GDBusActionGroupT] =>
+    @g_dbus_action_group_get(connection', bus_name'.cstring(), object_path'.cstring())

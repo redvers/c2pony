@@ -1,0 +1,2 @@
+  fun ref get_interface_info(): NullablePointer[GDBusInterfaceInfoT] =>
+    GDBusProxyP.get_interface_info(this)

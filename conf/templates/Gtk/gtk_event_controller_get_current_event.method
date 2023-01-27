@@ -1,0 +1,2 @@
+  fun ref get_current_event(): NullablePointer[GdkEventT] =>
+    GtkEventControllerP.get_current_event(this)

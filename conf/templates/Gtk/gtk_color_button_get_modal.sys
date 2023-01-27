@@ -1,0 +1,2 @@
+  fun get_modal(button': NullablePointer[GtkColorButtonT]): I32 =>
+    @gtk_color_button_get_modal(button')

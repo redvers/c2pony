@@ -1,0 +1,1 @@
+use @g_subprocess_launcher_take_stderr_fd[None](self': NullablePointer[GSubprocessLauncherT], fd': I32)

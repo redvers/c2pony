@@ -1,0 +1,2 @@
+  fun cell_set_valist(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], first_property_name': String, var_args': NullablePointer[valisttagT]): None =>
+    @gtk_cell_area_cell_set_valist(area', renderer', first_property_name'.cstring(), var_args')

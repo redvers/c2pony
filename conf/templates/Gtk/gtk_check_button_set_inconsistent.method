@@ -1,0 +1,2 @@
+  fun ref set_inconsistent(inconsistent': I32): None =>
+    GtkCheckButtonP.set_inconsistent(this, inconsistent')

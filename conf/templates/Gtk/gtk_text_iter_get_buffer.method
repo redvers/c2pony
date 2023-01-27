@@ -1,0 +1,2 @@
+  fun ref get_buffer(): NullablePointer[GtkTextBufferT] =>
+    GtkTextIterP.get_buffer(ptr)

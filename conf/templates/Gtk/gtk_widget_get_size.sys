@@ -1,0 +1,2 @@
+  fun get_size(widget': GtkWidgetI, orientation': U32): I32 =>
+    @gtk_widget_get_size(widget'.getptr(), orientation')

@@ -1,0 +1,1 @@
+use @gtk_tree_list_model_set_autoexpand[None](self': NullablePointer[GtkTreeListModelT], autoexpand': I32)

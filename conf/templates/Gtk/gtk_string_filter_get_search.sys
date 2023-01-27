@@ -1,0 +1,2 @@
+  fun get_search(self': NullablePointer[GtkStringFilterT]): String iso^ =>
+    String.from_cstring(@gtk_string_filter_get_search(self')).clone()

@@ -1,0 +1,2 @@
+  fun equal(mask': NullablePointer[GInetAddressMaskT], mask2': NullablePointer[GInetAddressMaskT]): I32 =>
+    @g_inet_address_mask_equal(mask', mask2')

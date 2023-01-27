@@ -1,0 +1,2 @@
+  fun previous_page(assistant': NullablePointer[GtkAssistantT]): None =>
+    @gtk_assistant_previous_page(assistant')

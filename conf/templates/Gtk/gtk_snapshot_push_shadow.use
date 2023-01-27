@@ -1,0 +1,1 @@
+use @gtk_snapshot_push_shadow[None](snapshot': NullablePointer[GdkSnapshotT], shadow': NullablePointer[GskShadowT], n_shadows': U64)

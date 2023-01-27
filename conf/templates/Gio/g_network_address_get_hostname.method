@@ -1,0 +1,2 @@
+  fun ref get_hostname(): String iso^ =>
+    GNetworkAddressP.get_hostname(this)

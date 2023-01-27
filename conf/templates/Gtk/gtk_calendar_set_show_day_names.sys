@@ -1,0 +1,2 @@
+  fun set_show_day_names(self': NullablePointer[GtkCalendarT], value': I32): None =>
+    @gtk_calendar_set_show_day_names(self', value')

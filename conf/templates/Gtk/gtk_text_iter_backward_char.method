@@ -1,0 +1,2 @@
+  fun ref backward_char(): I32 =>
+    GtkTextIterP.backward_char(ptr)

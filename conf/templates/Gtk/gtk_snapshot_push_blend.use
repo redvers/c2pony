@@ -1,0 +1,1 @@
+use @gtk_snapshot_push_blend[None](snapshot': NullablePointer[GdkSnapshotT], blend_mode': U32)

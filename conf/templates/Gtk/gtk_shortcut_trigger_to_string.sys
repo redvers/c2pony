@@ -1,0 +1,2 @@
+  fun to_string(self': NullablePointer[GtkShortcutTriggerT]): String iso^ =>
+    String.from_cstring(@gtk_shortcut_trigger_to_string(self')).clone()

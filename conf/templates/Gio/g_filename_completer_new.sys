@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GFilenameCompleterT] =>
+    @g_filename_completer_new()

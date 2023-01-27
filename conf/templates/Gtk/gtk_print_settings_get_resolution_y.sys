@@ -1,0 +1,2 @@
+  fun get_resolution_y(settings': NullablePointer[GtkPrintSettingsT]): I32 =>
+    @gtk_print_settings_get_resolution_y(settings')

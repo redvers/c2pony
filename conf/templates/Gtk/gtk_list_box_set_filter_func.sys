@@ -1,0 +1,2 @@
+  fun set_filter_func(box': NullablePointer[GtkListBoxT], filter_func': GtkListBoxFilterFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_list_box_set_filter_func(box', filter_func', user_data', destroy')

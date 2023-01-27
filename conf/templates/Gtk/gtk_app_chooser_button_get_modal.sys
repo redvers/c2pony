@@ -1,0 +1,2 @@
+  fun get_modal(self': NullablePointer[GtkAppChooserButtonT]): I32 =>
+    @gtk_app_chooser_button_get_modal(self')

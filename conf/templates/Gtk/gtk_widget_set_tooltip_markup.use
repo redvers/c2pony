@@ -1,0 +1,1 @@
+use @gtk_widget_set_tooltip_markup[None](widget': NullablePointer[GObjectT], markup': Pointer[U8] tag)

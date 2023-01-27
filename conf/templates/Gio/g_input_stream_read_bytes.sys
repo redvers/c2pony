@@ -1,0 +1,2 @@
+  fun read_bytes(stream': NullablePointer[GInputStreamT], count': U64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GBytesT] =>
+    @g_input_stream_read_bytes(stream', count', cancellable', error')

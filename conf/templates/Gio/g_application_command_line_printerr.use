@@ -1,0 +1,1 @@
+use @g_application_command_line_printerr[None](cmdline': NullablePointer[GApplicationCommandLineT], format': Pointer[U8] tag, ...)

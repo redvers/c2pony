@@ -1,2 +1,2 @@
   fun ref pop_thread_default(): None =>
-    GMainContextP.pop_thread_default(this.ptr)
+    GMainContextP.pop_thread_default(ptr)

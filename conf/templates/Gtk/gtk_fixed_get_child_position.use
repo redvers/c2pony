@@ -1,0 +1,1 @@
+use @gtk_fixed_get_child_position[None](fixed': NullablePointer[GtkFixedT], widget': NullablePointer[GObjectT], x': Pointer[F64] tag, y': Pointer[F64] tag)

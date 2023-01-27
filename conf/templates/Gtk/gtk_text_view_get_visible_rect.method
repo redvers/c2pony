@@ -1,0 +1,2 @@
+  fun ref get_visible_rect(visible_rect': NullablePointer[cairorectangleintT]): None =>
+    GtkTextViewP.get_visible_rect(this, visible_rect')

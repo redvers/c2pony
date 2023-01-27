@@ -1,0 +1,2 @@
+  fun ref set_baseline_row(row': I32): None =>
+    GtkGridP.set_baseline_row(this, row')

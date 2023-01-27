@@ -1,2 +1,2 @@
   fun ref get_maybe(): NullablePointer[GVariantT] =>
-    GVariantP.get_maybe(this.ptr)
+    GVariantP.get_maybe(ptr)

@@ -1,0 +1,1 @@
+use @g_dbus_message_get_header_fields[Pointer[U8]](message': NullablePointer[GDBusMessageT])

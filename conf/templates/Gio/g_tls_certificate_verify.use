@@ -1,0 +1,1 @@
+use @g_tls_certificate_verify[U32](cert': NullablePointer[GTlsCertificateT], identity': NullablePointer[GSocketConnectableT], trusted_ca': NullablePointer[GTlsCertificateT])

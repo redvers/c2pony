@@ -1,0 +1,2 @@
+  fun ref get_headers_visible(): I32 =>
+    GtkTreeViewP.get_headers_visible(this)

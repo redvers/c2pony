@@ -1,0 +1,2 @@
+  fun get_ellipsize(self': NullablePointer[GtkLabelT]): U32 =>
+    @gtk_label_get_ellipsize(self')

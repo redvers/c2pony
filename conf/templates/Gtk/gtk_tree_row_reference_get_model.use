@@ -1,0 +1,1 @@
+use @gtk_tree_row_reference_get_model[NullablePointer[GtkTreeModelT]](reference': NullablePointer[GtkTreeRowReferenceT])

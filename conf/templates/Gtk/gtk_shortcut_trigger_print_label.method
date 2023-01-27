@@ -1,0 +1,2 @@
+  fun ref print_label(display': NullablePointer[GdkDisplayT], string': NullablePointer[GStringT]): I32 =>
+    GtkShortcutTriggerP.print_label(this, display', string')

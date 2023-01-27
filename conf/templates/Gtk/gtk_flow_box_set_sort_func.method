@@ -1,0 +1,2 @@
+  fun ref set_sort_func(sort_func': GtkFlowBoxSortFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    GtkFlowBoxP.set_sort_func(this, sort_func', user_data', destroy')

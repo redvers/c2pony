@@ -1,0 +1,2 @@
+  fun ref get_cursor(path': Pointer[NullablePointer[GtkTreePathT]], focus_column': Pointer[NullablePointer[GtkTreeViewColumnT]]): None =>
+    GtkTreeViewP.get_cursor(this, path', focus_column')

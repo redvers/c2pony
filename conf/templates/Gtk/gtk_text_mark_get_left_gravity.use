@@ -1,0 +1,1 @@
+use @gtk_text_mark_get_left_gravity[I32](mark': NullablePointer[GtkTextMarkT])

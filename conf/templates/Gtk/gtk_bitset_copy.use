@@ -1,0 +1,1 @@
+use @gtk_bitset_copy[NullablePointer[GtkBitsetT]](self': NullablePointer[GtkBitsetT])

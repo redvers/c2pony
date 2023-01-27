@@ -1,0 +1,2 @@
+  new new_from_indicesv(indices': Pointer[I32] tag, length': U64) =>
+    ptr = @gtk_tree_path_new_from_indicesv(indices', length')

@@ -1,0 +1,9 @@
+
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    struct GtkWindowGroupT
+  embed parent_instance': GObjectT = GObjectT
+  var priv': NullablePointer[GtkWindowGroupPrivateT] = NullablePointer[GtkWindowGroupPrivateT].none()

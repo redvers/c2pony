@@ -1,0 +1,2 @@
+  fun get_position(paned': NullablePointer[GtkPanedT]): I32 =>
+    @gtk_paned_get_position(paned')

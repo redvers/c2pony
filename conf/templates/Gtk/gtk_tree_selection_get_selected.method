@@ -1,0 +1,2 @@
+  fun ref get_selected(model': Pointer[NullablePointer[GtkTreeModelT]], iter': NullablePointer[GtkTreeIterT]): I32 =>
+    GtkTreeSelectionP.get_selected(this, model', iter')

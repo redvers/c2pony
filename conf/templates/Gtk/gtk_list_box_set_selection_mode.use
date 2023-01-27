@@ -1,0 +1,1 @@
+use @gtk_list_box_set_selection_mode[None](box': NullablePointer[GtkListBoxT], mode': U32)

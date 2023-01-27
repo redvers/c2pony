@@ -1,0 +1,2 @@
+  fun forward_lines(iter': NullablePointer[GtkTextIterT], count': I32): I32 =>
+    @gtk_text_iter_forward_lines(iter', count')

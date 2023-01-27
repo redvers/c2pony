@@ -1,0 +1,2 @@
+  fun ref get_value(): F64 =>
+    GtkSpinButtonP.get_value(this)

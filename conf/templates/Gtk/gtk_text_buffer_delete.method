@@ -1,0 +1,2 @@
+  fun ref delete(start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+    GtkTextBufferP.delete(this, start', end')

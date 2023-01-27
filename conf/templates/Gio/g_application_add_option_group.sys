@@ -1,0 +1,2 @@
+  fun add_option_group(application': GApplicationI, group': NullablePointer[GOptionGroupT]): None =>
+    @g_application_add_option_group(application'.getptr(), group')

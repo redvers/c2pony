@@ -1,2 +1,2 @@
   fun ref ref(): NullablePointer[GUriT] =>
-    GUriP.ref(this.ptr)
+    GUriP.ref(ptr)

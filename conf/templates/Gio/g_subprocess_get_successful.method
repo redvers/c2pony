@@ -1,0 +1,2 @@
+  fun ref get_successful(): I32 =>
+    GSubprocessP.get_successful(this)

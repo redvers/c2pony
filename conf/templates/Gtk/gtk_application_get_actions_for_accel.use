@@ -1,0 +1,1 @@
+use @gtk_application_get_actions_for_accel[Pointer[Pointer[U8]] tag](application': NullablePointer[GObjectT], accel': Pointer[U8] tag)

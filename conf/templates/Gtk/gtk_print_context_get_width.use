@@ -1,0 +1,1 @@
+use @gtk_print_context_get_width[F64](context': NullablePointer[GtkPrintContextT])

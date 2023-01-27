@@ -1,0 +1,1 @@
+use @gtk_icon_theme_get_for_display[NullablePointer[GtkIconThemeT]](display': NullablePointer[GdkDisplayT])

@@ -1,0 +1,2 @@
+  fun set_font_options(widget': GtkWidgetI, options': NullablePointer[cairofontoptionsT]): None =>
+    @gtk_widget_set_font_options(widget'.getptr(), options')

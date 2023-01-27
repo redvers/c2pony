@@ -1,0 +1,1 @@
+use @gtk_list_store_move_before[None](store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], position': NullablePointer[GtkTreeIterT])

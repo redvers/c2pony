@@ -1,0 +1,2 @@
+  fun ref get_tree_view(): NullablePointer[GObjectT] =>
+    GtkTreeViewColumnP.get_tree_view(this)

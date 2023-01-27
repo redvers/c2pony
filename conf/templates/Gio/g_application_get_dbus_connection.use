@@ -1,0 +1,1 @@
+use @g_application_get_dbus_connection[NullablePointer[GDBusConnectionT]](application': NullablePointer[GObjectT])

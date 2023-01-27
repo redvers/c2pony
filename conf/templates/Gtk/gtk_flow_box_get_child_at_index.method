@@ -1,0 +1,2 @@
+  fun ref get_child_at_index(idx': I32): NullablePointer[GtkFlowBoxChildT] =>
+    GtkFlowBoxP.get_child_at_index(this, idx')

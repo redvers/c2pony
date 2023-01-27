@@ -1,2 +1,2 @@
   fun ref add_interface(instance_type': U64, interface_type': U64, interface_info': NullablePointer[GInterfaceInfoT]): None =>
-    GTypeModuleP.add_interface(this.ptr, instance_type', interface_type', interface_info')
+    GTypeModuleP.add_interface(this, instance_type', interface_type', interface_info')

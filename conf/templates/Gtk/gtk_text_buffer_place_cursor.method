@@ -1,0 +1,2 @@
+  fun ref place_cursor(where': NullablePointer[GtkTextIterT]): None =>
+    GtkTextBufferP.place_cursor(this, where')

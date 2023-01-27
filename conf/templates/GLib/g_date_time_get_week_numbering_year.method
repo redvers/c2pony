@@ -1,2 +1,2 @@
   fun ref get_week_numbering_year(): I32 =>
-    GDateTimeP.get_week_numbering_year(this.ptr)
+    GDateTimeP.get_week_numbering_year(ptr)

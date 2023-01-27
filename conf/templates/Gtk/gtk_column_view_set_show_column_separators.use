@@ -1,0 +1,1 @@
+use @gtk_column_view_set_show_column_separators[None](self': NullablePointer[GtkColumnViewT], show_column_separators': I32)

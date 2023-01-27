@@ -1,0 +1,1 @@
+use @g_dbus_method_invocation_get_method_info[NullablePointer[GDBusMethodInfoT]](invocation': NullablePointer[GDBusMethodInvocationT])

@@ -1,0 +1,2 @@
+  fun ref get_item_row(path': NullablePointer[GtkTreePathT]): I32 =>
+    GtkIconViewP.get_item_row(this, path')

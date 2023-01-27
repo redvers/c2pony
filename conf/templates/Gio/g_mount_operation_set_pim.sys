@@ -1,0 +1,2 @@
+  fun set_pim(op': NullablePointer[GMountOperationT], pim': U32): None =>
+    @g_mount_operation_set_pim(op', pim')

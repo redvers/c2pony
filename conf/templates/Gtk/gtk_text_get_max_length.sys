@@ -1,0 +1,2 @@
+  fun get_max_length(self': NullablePointer[GtkTextT]): I32 =>
+    @gtk_text_get_max_length(self')

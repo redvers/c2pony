@@ -1,0 +1,2 @@
+  fun ref next_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketAddressT] =>
+    GSocketAddressEnumeratorP.next_finish(this, result', error')

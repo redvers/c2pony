@@ -1,0 +1,1 @@
+use @g_dbus_interface_skeleton_unexport[None](interface': NullablePointer[GDBusInterfaceSkeletonT])

@@ -1,0 +1,2 @@
+  fun get_depth(path': NullablePointer[GtkTreePathT]): I32 =>
+    @gtk_tree_path_get_depth(path')

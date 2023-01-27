@@ -1,0 +1,2 @@
+  fun add_child(stack': NullablePointer[GtkStackT], child': GtkWidgetI): NullablePointer[GtkStackPageT] =>
+    @gtk_stack_add_child(stack', child'.getptr())

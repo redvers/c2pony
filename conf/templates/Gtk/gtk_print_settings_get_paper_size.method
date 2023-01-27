@@ -1,0 +1,2 @@
+  fun ref get_paper_size(): NullablePointer[GtkPaperSizeT] =>
+    GtkPrintSettingsP.get_paper_size(this)

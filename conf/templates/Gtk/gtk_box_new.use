@@ -1,0 +1,1 @@
+use @gtk_box_new[NullablePointer[GObjectT]](orientation': U32, spacing': I32)

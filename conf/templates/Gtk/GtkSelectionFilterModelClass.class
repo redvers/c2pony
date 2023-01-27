@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkSelectionFilterModelClass
+  var ptr: NullablePointer[GtkSelectionFilterModelClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkSelectionFilterModelClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkSelectionFilterModelClassT]) => ptr = ptr'

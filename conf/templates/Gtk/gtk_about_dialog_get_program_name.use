@@ -1,0 +1,1 @@
+use @gtk_about_dialog_get_program_name[Pointer[U8]](about': NullablePointer[GtkAboutDialogT])

@@ -1,0 +1,2 @@
+  fun get_target(constraint': NullablePointer[GtkConstraintT]): NullablePointer[GtkConstraintTargetT] =>
+    @gtk_constraint_get_target(constraint')

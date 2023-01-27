@@ -1,0 +1,2 @@
+  fun get_object(expression': NullablePointer[GtkExpressionT]): NullablePointer[GObjectT] =>
+    @gtk_object_expression_get_object(expression')

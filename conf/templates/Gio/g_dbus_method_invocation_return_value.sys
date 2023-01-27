@@ -1,0 +1,2 @@
+  fun return_value(invocation': NullablePointer[GDBusMethodInvocationT], parameters': NullablePointer[GVariantT]): None =>
+    @g_dbus_method_invocation_return_value(invocation', parameters')

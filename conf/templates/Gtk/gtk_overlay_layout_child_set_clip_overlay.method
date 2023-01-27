@@ -1,0 +1,2 @@
+  fun ref set_clip_overlay(clip_overlay': I32): None =>
+    GtkOverlayLayoutChildP.set_clip_overlay(this, clip_overlay')

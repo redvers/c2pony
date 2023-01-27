@@ -1,0 +1,1 @@
+use @gtk_overlay_layout_child_get_clip_overlay[I32](child': NullablePointer[GtkOverlayLayoutChildT])

@@ -1,0 +1,2 @@
+  fun get_child_transform(fixed': NullablePointer[GtkFixedT], widget': GtkWidgetI): NullablePointer[GskTransformT] =>
+    @gtk_fixed_get_child_transform(fixed', widget'.getptr())

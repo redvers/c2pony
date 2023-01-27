@@ -1,0 +1,1 @@
+use @gtk_text_get_invisible_char[U32](self': NullablePointer[GtkTextT])

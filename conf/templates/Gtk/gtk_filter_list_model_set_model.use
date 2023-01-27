@@ -1,0 +1,1 @@
+use @gtk_filter_list_model_set_model[None](self': NullablePointer[GtkFilterListModelT], model': NullablePointer[GListModelT])

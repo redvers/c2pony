@@ -1,0 +1,2 @@
+  fun ref close_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GOutputStreamP.close_finish(this, result', error')

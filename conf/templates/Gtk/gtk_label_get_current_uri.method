@@ -1,0 +1,2 @@
+  fun ref get_current_uri(): String iso^ =>
+    GtkLabelP.get_current_uri(this)

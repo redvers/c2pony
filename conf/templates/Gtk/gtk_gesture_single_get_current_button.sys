@@ -1,0 +1,2 @@
+  fun get_current_button(gesture': NullablePointer[GtkGestureSingleT]): U32 =>
+    @gtk_gesture_single_get_current_button(gesture')

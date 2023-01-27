@@ -1,0 +1,2 @@
+  fun ref unexport_from_connection(connection': NullablePointer[GDBusConnectionT]): None =>
+    GDBusInterfaceSkeletonP.unexport_from_connection(this, connection')

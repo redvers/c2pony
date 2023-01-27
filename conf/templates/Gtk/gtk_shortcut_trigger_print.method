@@ -1,0 +1,2 @@
+  fun ref print(string': NullablePointer[GStringT]): None =>
+    GtkShortcutTriggerP.print(this, string')

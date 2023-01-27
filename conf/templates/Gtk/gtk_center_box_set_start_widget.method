@@ -1,0 +1,2 @@
+  fun ref set_start_widget(child': GtkWidgetI): None =>
+    GtkCenterBoxP.set_start_widget(this, child')

@@ -1,0 +1,1 @@
+use @g_dbus_message_set_byte_order[None](message': NullablePointer[GDBusMessageT], byte_order': U32)

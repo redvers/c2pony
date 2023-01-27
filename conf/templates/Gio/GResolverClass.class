@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GResolverClass
+  var ptr: NullablePointer[GResolverClassT]
+
+  new create() =>
+    ptr = NullablePointer[GResolverClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GResolverClassT]) => ptr = ptr'

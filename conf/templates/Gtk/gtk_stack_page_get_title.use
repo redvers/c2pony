@@ -1,0 +1,1 @@
+use @gtk_stack_page_get_title[Pointer[U8]](self': NullablePointer[GtkStackPageT])

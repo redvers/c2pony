@@ -1,0 +1,2 @@
+  fun get_show_separators(box': NullablePointer[GtkListBoxT]): I32 =>
+    @gtk_list_box_get_show_separators(box')

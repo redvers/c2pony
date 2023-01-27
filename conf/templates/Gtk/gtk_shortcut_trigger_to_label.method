@@ -1,0 +1,2 @@
+  fun ref to_label(display': NullablePointer[GdkDisplayT]): String iso^ =>
+    GtkShortcutTriggerP.to_label(this, display')

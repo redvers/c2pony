@@ -1,0 +1,2 @@
+  fun get_accessible(self': NullablePointer[GtkATContextT]): NullablePointer[GtkAccessibleT] =>
+    @gtk_at_context_get_accessible(self')

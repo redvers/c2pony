@@ -1,0 +1,2 @@
+  fun set_visible_child_name(stack': NullablePointer[GtkStackT], name': String): None =>
+    @gtk_stack_set_visible_child_name(stack', name'.cstring())

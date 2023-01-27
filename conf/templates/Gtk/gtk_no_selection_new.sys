@@ -1,0 +1,2 @@
+  fun new(model': NullablePointer[GListModelT]): NullablePointer[GtkNoSelectionT] =>
+    @gtk_no_selection_new(model')

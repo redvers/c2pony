@@ -1,0 +1,2 @@
+  fun get_im_context(controller': NullablePointer[GtkEventControllerKeyT]): NullablePointer[GtkIMContextT] =>
+    @gtk_event_controller_key_get_im_context(controller')

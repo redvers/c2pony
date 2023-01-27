@@ -1,0 +1,2 @@
+  fun measure(manager': NullablePointer[GtkLayoutManagerT], widget': GtkWidgetI, orientation': U32, for_size': I32, minimum': Pointer[I32] tag, natural': Pointer[I32] tag, minimum_baseline': Pointer[I32] tag, natural_baseline': Pointer[I32] tag): None =>
+    @gtk_layout_manager_measure(manager', widget'.getptr(), orientation', for_size', minimum', natural', minimum_baseline', natural_baseline')

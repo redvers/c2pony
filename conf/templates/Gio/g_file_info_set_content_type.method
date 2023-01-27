@@ -1,0 +1,2 @@
+  fun ref set_content_type(content_type': String): None =>
+    GFileInfoP.set_content_type(this, content_type')

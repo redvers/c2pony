@@ -1,0 +1,2 @@
+  fun ref get_arg0(): String iso^ =>
+    GDBusMessageP.get_arg0(this)

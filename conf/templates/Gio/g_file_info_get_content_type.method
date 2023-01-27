@@ -1,0 +1,2 @@
+  fun ref get_content_type(): String iso^ =>
+    GFileInfoP.get_content_type(this)

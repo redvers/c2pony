@@ -1,0 +1,1 @@
+use @gtk_application_add_window[None](application': NullablePointer[GObjectT], window': NullablePointer[GObjectT])

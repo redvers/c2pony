@@ -1,0 +1,2 @@
+  fun set_modification_time(info': NullablePointer[GFileInfoT], mtime': NullablePointer[GTimeValT]): None =>
+    @g_file_info_set_modification_time(info', mtime')

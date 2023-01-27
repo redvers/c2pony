@@ -1,0 +1,1 @@
+use @gtk_text_iter_forward_chars[I32](iter': NullablePointer[GtkTextIterT], count': I32)

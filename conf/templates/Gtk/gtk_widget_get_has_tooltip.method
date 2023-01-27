@@ -1,0 +1,2 @@
+  fun ref get_has_tooltip(): I32 =>
+    GtkWidgetP.get_has_tooltip(this)

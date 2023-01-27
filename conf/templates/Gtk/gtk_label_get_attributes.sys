@@ -1,0 +1,2 @@
+  fun get_attributes(self': NullablePointer[GtkLabelT]): NullablePointer[PangoAttrListT] =>
+    @gtk_label_get_attributes(self')

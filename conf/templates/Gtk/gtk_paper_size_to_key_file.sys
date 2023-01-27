@@ -1,0 +1,2 @@
+  fun to_key_file(size': NullablePointer[GtkPaperSizeT], key_file': NullablePointer[GKeyFileT], group_name': String): None =>
+    @gtk_paper_size_to_key_file(size', key_file', group_name'.cstring())

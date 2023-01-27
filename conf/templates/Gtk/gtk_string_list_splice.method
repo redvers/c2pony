@@ -1,0 +1,2 @@
+  fun ref splice(position': U32, n_removals': U32, additions': Pointer[Pointer[U8]] tag): None =>
+    GtkStringListP.splice(this, position', n_removals', additions')

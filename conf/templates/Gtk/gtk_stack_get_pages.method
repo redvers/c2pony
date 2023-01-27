@@ -1,0 +1,2 @@
+  fun ref get_pages(): NullablePointer[GtkSelectionModelT] =>
+    GtkStackP.get_pages(this)

@@ -1,0 +1,1 @@
+use @gtk_text_view_set_input_purpose[None](text_view': NullablePointer[GtkTextViewT], purpose': U32)

@@ -1,0 +1,2 @@
+  fun ref(self': NullablePointer[GtkBitsetT]): NullablePointer[GtkBitsetT] =>
+    @gtk_bitset_ref(self')

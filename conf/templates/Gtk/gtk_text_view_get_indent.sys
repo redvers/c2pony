@@ -1,0 +1,2 @@
+  fun get_indent(text_view': NullablePointer[GtkTextViewT]): I32 =>
+    @gtk_text_view_get_indent(text_view')

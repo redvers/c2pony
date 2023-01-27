@@ -1,0 +1,2 @@
+  fun ref get_bounding_box_center(x': Pointer[F64] tag, y': Pointer[F64] tag): I32 =>
+    GtkGestureP.get_bounding_box_center(this, x', y')

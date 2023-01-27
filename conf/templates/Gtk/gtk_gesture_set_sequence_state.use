@@ -1,0 +1,1 @@
+use @gtk_gesture_set_sequence_state[I32](gesture': NullablePointer[GtkGestureT], sequence': NullablePointer[GdkEventSequenceT], state': U32)

@@ -1,0 +1,1 @@
+use @g_dbus_interface_skeleton_get_object_path[Pointer[U8]](interface': NullablePointer[GDBusInterfaceSkeletonT])

@@ -1,0 +1,2 @@
+  fun ref get_scale_delta(): F64 =>
+    GtkGestureZoomP.get_scale_delta(this)

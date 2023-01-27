@@ -1,0 +1,2 @@
+  fun set_accessible_role(widget_class': NullablePointer[GtkWidgetClassT], accessible_role': U32): None =>
+    @gtk_widget_class_set_accessible_role(widget_class', accessible_role')

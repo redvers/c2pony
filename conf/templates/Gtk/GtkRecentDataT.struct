@@ -1,0 +1,13 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    struct GtkRecentDataT
+  var display_name': Pointer[U8] = Pointer[U8]
+  var description': Pointer[U8] = Pointer[U8]
+  var mime_type': Pointer[U8] = Pointer[U8]
+  var app_name': Pointer[U8] = Pointer[U8]
+  var app_exec': Pointer[U8] = Pointer[U8]
+  var groups': Pointer[Pointer[U8]] = Pointer[Pointer[U8]]
+  var is_private': I32 = I32(0)

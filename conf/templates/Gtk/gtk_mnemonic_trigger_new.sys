@@ -1,0 +1,2 @@
+  fun new(keyval': U32): NullablePointer[GtkShortcutTriggerT] =>
+    @gtk_mnemonic_trigger_new(keyval')

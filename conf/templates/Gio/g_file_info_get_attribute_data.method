@@ -1,0 +1,2 @@
+  fun ref get_attribute_data(attribute': String, type': Pointer[U32] tag, value_pp': Pointer[Pointer[None]] tag, status': Pointer[U32] tag): I32 =>
+    GFileInfoP.get_attribute_data(this, attribute', type', value_pp', status')

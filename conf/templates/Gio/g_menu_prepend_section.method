@@ -1,0 +1,2 @@
+  fun ref prepend_section(label': String, section': NullablePointer[GMenuModelT]): None =>
+    GMenuP.prepend_section(this, label', section')

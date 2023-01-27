@@ -1,0 +1,2 @@
+  fun ref get_range_rect(range_rect': NullablePointer[cairorectangleintT]): None =>
+    GtkRangeP.get_range_rect(this, range_rect')

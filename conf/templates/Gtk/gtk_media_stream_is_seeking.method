@@ -1,0 +1,2 @@
+  fun ref is_seeking(): I32 =>
+    GtkMediaStreamP.is_seeking(this)

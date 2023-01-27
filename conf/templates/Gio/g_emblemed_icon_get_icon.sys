@@ -1,0 +1,2 @@
+  fun get_icon(emblemed': NullablePointer[GEmblemedIconT]): NullablePointer[GIconT] =>
+    @g_emblemed_icon_get_icon(emblemed')

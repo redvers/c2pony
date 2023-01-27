@@ -1,0 +1,2 @@
+  fun set_pointing_to(popover': NullablePointer[GtkPopoverT], rect': NullablePointer[cairorectangleintT]): None =>
+    @gtk_popover_set_pointing_to(popover', rect')

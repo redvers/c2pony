@@ -1,2 +1,2 @@
   fun ref ref(): NullablePointer[GKeyFileT] =>
-    GKeyFileP.ref(this.ptr)
+    GKeyFileP.ref(ptr)

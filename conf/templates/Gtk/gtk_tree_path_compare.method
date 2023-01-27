@@ -1,0 +1,2 @@
+  fun ref compare(b': NullablePointer[GtkTreePathT]): I32 =>
+    GtkTreePathP.compare(ptr, b')

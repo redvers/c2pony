@@ -1,2 +1,2 @@
   fun ref get_element_stack(): NullablePointer[GSListT] =>
-    GMarkupParseContextP.get_element_stack(this.ptr)
+    GMarkupParseContextP.get_element_stack(ptr)

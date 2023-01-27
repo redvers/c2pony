@@ -1,0 +1,2 @@
+  fun get_layout_child(manager': NullablePointer[GtkLayoutManagerT], child': GtkWidgetI): NullablePointer[GtkLayoutChildT] =>
+    @gtk_layout_manager_get_layout_child(manager', child'.getptr())

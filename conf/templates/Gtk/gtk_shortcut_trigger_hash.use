@@ -1,0 +1,1 @@
+use @gtk_shortcut_trigger_hash[U32](trigger': Pointer[None] tag)

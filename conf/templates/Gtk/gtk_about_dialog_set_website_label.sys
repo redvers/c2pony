@@ -1,0 +1,2 @@
+  fun set_website_label(about': NullablePointer[GtkAboutDialogT], website_label': String): None =>
+    @gtk_about_dialog_set_website_label(about', website_label'.cstring())

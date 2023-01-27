@@ -1,2 +1,2 @@
   fun ref height(): I32 =>
-    GTreeP.height(this.ptr)
+    GTreeP.height(ptr)

@@ -1,0 +1,1 @@
+use @gtk_print_settings_get_resolution_y[I32](settings': NullablePointer[GtkPrintSettingsT])

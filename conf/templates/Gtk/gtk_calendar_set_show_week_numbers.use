@@ -1,0 +1,1 @@
+use @gtk_calendar_set_show_week_numbers[None](self': NullablePointer[GtkCalendarT], value': I32)

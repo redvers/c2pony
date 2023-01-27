@@ -1,2 +1,2 @@
   fun ref steal(key': Pointer[None] tag): I32 =>
-    GTreeP.steal(this.ptr, key')
+    GTreeP.steal(ptr, key')

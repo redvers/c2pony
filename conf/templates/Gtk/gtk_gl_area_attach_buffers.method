@@ -1,0 +1,2 @@
+  fun ref attach_buffers(): None =>
+    GtkGLAreaP.attach_buffers(this)

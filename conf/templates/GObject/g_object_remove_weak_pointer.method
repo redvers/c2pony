@@ -1,2 +1,2 @@
   fun ref remove_weak_pointer(weak_pointer_location': Pointer[Pointer[None]] tag): None =>
-    GObjectP.remove_weak_pointer(this.ptr, weak_pointer_location')
+    GObjectP.remove_weak_pointer(this, weak_pointer_location')

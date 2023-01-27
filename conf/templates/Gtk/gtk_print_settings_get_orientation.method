@@ -1,0 +1,2 @@
+  fun ref get_orientation(): U32 =>
+    GtkPrintSettingsP.get_orientation(this)

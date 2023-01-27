@@ -1,0 +1,2 @@
+  fun starts_line(iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_starts_line(iter')

@@ -1,0 +1,2 @@
+  fun is_active(service': NullablePointer[GSocketServiceT]): I32 =>
+    @g_socket_service_is_active(service')

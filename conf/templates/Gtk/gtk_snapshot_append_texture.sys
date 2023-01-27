@@ -1,0 +1,2 @@
+  fun append_texture(snapshot': NullablePointer[GdkSnapshotT], texture': NullablePointer[GdkTextureT], bounds': NullablePointer[graphenerecttT]): None =>
+    @gtk_snapshot_append_texture(snapshot', texture', bounds')

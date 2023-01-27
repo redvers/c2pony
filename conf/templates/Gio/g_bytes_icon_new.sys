@@ -1,0 +1,2 @@
+  fun new(bytes': NullablePointer[GBytesT]): NullablePointer[GIconT] =>
+    @g_bytes_icon_new(bytes')

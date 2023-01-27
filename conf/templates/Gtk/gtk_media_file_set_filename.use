@@ -1,0 +1,1 @@
+use @gtk_media_file_set_filename[None](self': NullablePointer[GtkMediaFileT], filename': Pointer[U8] tag)

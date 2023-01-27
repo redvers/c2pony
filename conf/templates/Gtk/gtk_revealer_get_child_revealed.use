@@ -1,0 +1,1 @@
+use @gtk_revealer_get_child_revealed[I32](revealer': NullablePointer[GtkRevealerT])

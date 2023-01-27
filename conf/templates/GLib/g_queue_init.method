@@ -1,2 +1,2 @@
   fun ref init(): None =>
-    GQueueP.init(this.ptr)
+    GQueueP.init(ptr)

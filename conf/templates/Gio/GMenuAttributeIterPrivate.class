@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GMenuAttributeIterPrivate
+  var ptr: NullablePointer[GMenuAttributeIterPrivateT]
+
+  new create() =>
+    ptr = NullablePointer[GMenuAttributeIterPrivateT].none()
+  new create_from_ptr(ptr': NullablePointer[GMenuAttributeIterPrivateT]) => ptr = ptr'

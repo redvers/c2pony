@@ -1,0 +1,2 @@
+  fun ref get_application_id(): String iso^ =>
+    GApplicationP.get_application_id(this)

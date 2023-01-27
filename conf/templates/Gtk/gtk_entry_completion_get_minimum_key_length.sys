@@ -1,0 +1,2 @@
+  fun get_minimum_key_length(completion': NullablePointer[GtkEntryCompletionT]): I32 =>
+    @gtk_entry_completion_get_minimum_key_length(completion')

@@ -5,9 +5,9 @@ use "../GLib"
 use "lib:gobject-2.0"
 
 class GParamSpecVariant is GParamSpecVariantI
-  var ptr: Pointer[GParamSpecP]
+  var ptr: NullablePointer[GParamSpecT]
 
-  new create_from_ptr(ptr': Pointer[GParamSpecP]) => ptr = ptr'
-// intern
+  new create_from_ptr(ptr': NullablePointer[GParamSpecT]) => ptr = ptr'
 
-  fun ref getptr(): Pointer[GParamSpecP] => ptr
+
+  fun ref getptr(): NullablePointer[GParamSpecT] => ptr

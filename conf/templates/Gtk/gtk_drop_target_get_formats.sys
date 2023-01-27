@@ -1,0 +1,2 @@
+  fun get_formats(self': NullablePointer[GtkDropTargetT]): NullablePointer[GdkContentFormatsT] =>
+    @gtk_drop_target_get_formats(self')

@@ -1,0 +1,2 @@
+  fun ref get_help_overlay(): NullablePointer[GtkShortcutsWindowT] =>
+    GtkApplicationWindowP.get_help_overlay(this)

@@ -1,2 +1,2 @@
   fun ref last_sibling(): NullablePointer[GNodeT] =>
-    GNodeP.last_sibling(this.ptr)
+    GNodeP.last_sibling(ptr)

@@ -1,0 +1,2 @@
+  fun get_decoration_layout(self': NullablePointer[GtkWindowControlsT]): String iso^ =>
+    String.from_cstring(@gtk_window_controls_get_decoration_layout(self')).clone()

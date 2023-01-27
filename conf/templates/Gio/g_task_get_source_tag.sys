@@ -1,0 +1,2 @@
+  fun get_source_tag(task': NullablePointer[GTaskT]): Pointer[None] tag =>
+    @g_task_get_source_tag(task')

@@ -1,0 +1,2 @@
+  fun set_margin(icon_view': NullablePointer[GtkIconViewT], margin': I32): None =>
+    @gtk_icon_view_set_margin(icon_view', margin')

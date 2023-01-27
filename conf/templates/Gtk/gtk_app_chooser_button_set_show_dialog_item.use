@@ -1,0 +1,1 @@
+use @gtk_app_chooser_button_set_show_dialog_item[None](self': NullablePointer[GtkAppChooserButtonT], setting': I32)

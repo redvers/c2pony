@@ -1,0 +1,2 @@
+  fun new(permission': NullablePointer[GPermissionT]): NullablePointer[GObjectT] =>
+@gtk_lock_button_new(permission')

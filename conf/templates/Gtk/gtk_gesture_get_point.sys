@@ -1,0 +1,2 @@
+  fun get_point(gesture': NullablePointer[GtkGestureT], sequence': NullablePointer[GdkEventSequenceT], x': Pointer[F64] tag, y': Pointer[F64] tag): I32 =>
+    @gtk_gesture_get_point(gesture', sequence', x', y')

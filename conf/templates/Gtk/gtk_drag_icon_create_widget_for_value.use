@@ -1,0 +1,1 @@
+use @gtk_drag_icon_create_widget_for_value[NullablePointer[GObjectT]](value': NullablePointer[GValueT])

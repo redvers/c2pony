@@ -1,0 +1,2 @@
+  fun ref fill(count': I64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    GBufferedInputStreamP.fill(this, count', cancellable', error')

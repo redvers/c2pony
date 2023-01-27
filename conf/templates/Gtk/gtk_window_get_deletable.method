@@ -1,0 +1,2 @@
+  fun ref get_deletable(): I32 =>
+    GtkWindowP.get_deletable(this)

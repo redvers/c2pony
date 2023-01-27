@@ -1,0 +1,2 @@
+  fun ref get_button_sensitivity(): U32 =>
+    GtkComboBoxP.get_button_sensitivity(this)

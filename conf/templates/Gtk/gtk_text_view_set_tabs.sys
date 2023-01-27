@@ -1,0 +1,2 @@
+  fun set_tabs(text_view': NullablePointer[GtkTextViewT], tabs': NullablePointer[PangoTabArrayT]): None =>
+    @gtk_text_view_set_tabs(text_view', tabs')

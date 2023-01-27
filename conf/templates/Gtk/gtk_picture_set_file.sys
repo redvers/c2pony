@@ -1,0 +1,2 @@
+  fun set_file(self': NullablePointer[GtkPictureT], file': NullablePointer[GFileT]): None =>
+    @gtk_picture_set_file(self', file')

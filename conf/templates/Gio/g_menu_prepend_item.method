@@ -1,0 +1,2 @@
+  fun ref prepend_item(item': NullablePointer[GMenuItemT]): None =>
+    GMenuP.prepend_item(this, item')

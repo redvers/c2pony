@@ -1,0 +1,2 @@
+  fun set_paper_size_and_default_margins(setup': NullablePointer[GtkPageSetupT], size': NullablePointer[GtkPaperSizeT]): None =>
+    @gtk_page_setup_set_paper_size_and_default_margins(setup', size')

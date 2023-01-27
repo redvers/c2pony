@@ -1,0 +1,1 @@
+use @g_application_get_flags[U32](application': NullablePointer[GObjectT])

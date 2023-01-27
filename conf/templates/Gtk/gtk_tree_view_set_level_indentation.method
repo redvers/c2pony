@@ -1,0 +1,2 @@
+  fun ref set_level_indentation(indentation': I32): None =>
+    GtkTreeViewP.set_level_indentation(this, indentation')

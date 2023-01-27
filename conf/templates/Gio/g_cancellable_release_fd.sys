@@ -1,0 +1,2 @@
+  fun release_fd(cancellable': NullablePointer[GCancellableT]): None =>
+    @g_cancellable_release_fd(cancellable')

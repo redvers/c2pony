@@ -1,0 +1,2 @@
+  fun ref child_focus(direction': U32): I32 =>
+    GtkWidgetP.child_focus(this, direction')

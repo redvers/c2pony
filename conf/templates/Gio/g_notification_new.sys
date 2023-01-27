@@ -1,0 +1,2 @@
+  fun new(title': String): NullablePointer[GNotificationT] =>
+    @g_notification_new(title'.cstring())

@@ -1,0 +1,2 @@
+  fun set_mode(selection': NullablePointer[GtkTreeSelectionT], type': U32): None =>
+    @gtk_tree_selection_set_mode(selection', type')

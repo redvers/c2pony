@@ -1,0 +1,2 @@
+  fun ref get_focus_child(): NullablePointer[GObjectT] =>
+    GtkWidgetP.get_focus_child(this)

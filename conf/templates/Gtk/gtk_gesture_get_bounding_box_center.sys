@@ -1,0 +1,2 @@
+  fun get_bounding_box_center(gesture': NullablePointer[GtkGestureT], x': Pointer[F64] tag, y': Pointer[F64] tag): I32 =>
+    @gtk_gesture_get_bounding_box_center(gesture', x', y')

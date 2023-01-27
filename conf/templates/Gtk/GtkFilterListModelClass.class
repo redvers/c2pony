@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkFilterListModelClass
+  var ptr: NullablePointer[GtkFilterListModelClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkFilterListModelClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkFilterListModelClassT]) => ptr = ptr'

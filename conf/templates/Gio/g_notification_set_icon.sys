@@ -1,0 +1,2 @@
+  fun set_icon(notification': NullablePointer[GNotificationT], icon': NullablePointer[GIconT]): None =>
+    @g_notification_set_icon(notification', icon')

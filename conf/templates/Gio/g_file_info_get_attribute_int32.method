@@ -1,0 +1,2 @@
+  fun ref get_attribute_int32(attribute': String): I32 =>
+    GFileInfoP.get_attribute_int32(this, attribute')

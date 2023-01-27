@@ -1,0 +1,2 @@
+  fun set_filename(self': NullablePointer[GtkPictureT], filename': String): None =>
+    @gtk_picture_set_filename(self', filename'.cstring())

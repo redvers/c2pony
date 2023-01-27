@@ -1,0 +1,1 @@
+use @gtk_sort_list_model_set_sorter[None](self': NullablePointer[GtkSortListModelT], sorter': NullablePointer[GtkSorterT])

@@ -1,0 +1,1 @@
+use @gtk_drag_icon_set_from_paintable[None](drag': NullablePointer[GdkDragT], paintable': NullablePointer[GdkPaintableT], hot_x': I32, hot_y': I32)

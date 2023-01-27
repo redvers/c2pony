@@ -1,0 +1,2 @@
+  fun ref lookup(schema_id': String, recursive': I32): NullablePointer[GSettingsSchemaT] =>
+    GSettingsSchemaSourceP.lookup(ptr, schema_id', recursive')

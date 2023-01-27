@@ -1,0 +1,2 @@
+  fun get_adjustment(box': NullablePointer[GtkListBoxT]): NullablePointer[GtkAdjustmentT] =>
+    @gtk_list_box_get_adjustment(box')

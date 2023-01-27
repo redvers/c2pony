@@ -1,0 +1,2 @@
+  fun remove_child(popover': NullablePointer[GtkPopoverMenuT], child': GtkWidgetI): I32 =>
+    @gtk_popover_menu_remove_child(popover', child'.getptr())

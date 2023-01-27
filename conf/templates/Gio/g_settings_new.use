@@ -1,0 +1,1 @@
+use @g_settings_new[NullablePointer[GSettingsT]](schema_id': Pointer[U8] tag)

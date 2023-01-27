@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GBytesP.unref(this.ptr)
+    GBytesP.unref(ptr)

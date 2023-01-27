@@ -1,0 +1,1 @@
+use @gtk_snapshot_push_opacity[None](snapshot': NullablePointer[GdkSnapshotT], opacity': F64)

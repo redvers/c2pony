@@ -1,0 +1,2 @@
+  fun ref communicate_utf8_async(stdin_buf': String, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GSubprocessP.communicate_utf8_async(this, stdin_buf', cancellable', callback', user_data')

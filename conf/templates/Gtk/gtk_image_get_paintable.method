@@ -1,0 +1,2 @@
+  fun ref get_paintable(): NullablePointer[GdkPaintableT] =>
+    GtkImageP.get_paintable(this)

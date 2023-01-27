@@ -1,0 +1,2 @@
+  fun ref push_color_matrix(color_matrix': NullablePointer[graphenematrixtT], color_offset': NullablePointer[graphenevec4tT]): None =>
+    P.push_color_matrix(this, color_matrix', color_offset')

@@ -1,0 +1,2 @@
+  fun to_gvariant(settings': NullablePointer[GtkPrintSettingsT]): NullablePointer[GVariantT] =>
+    @gtk_print_settings_to_gvariant(settings')

@@ -1,0 +1,1 @@
+use @gtk_tree_model_sort_new_with_model[NullablePointer[GtkTreeModelT]](child_model': NullablePointer[GtkTreeModelT])

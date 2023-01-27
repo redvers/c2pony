@@ -1,0 +1,2 @@
+  fun ref set_interface_info(info': NullablePointer[GDBusInterfaceInfoT]): None =>
+    GDBusProxyP.set_interface_info(this, info')

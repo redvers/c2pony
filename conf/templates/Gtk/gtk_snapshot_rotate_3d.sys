@@ -1,0 +1,2 @@
+  fun rotate_3d(snapshot': NullablePointer[GdkSnapshotT], angle': F32, axis': NullablePointer[graphenevec3tT]): None =>
+    @gtk_snapshot_rotate_3d(snapshot', angle', axis')

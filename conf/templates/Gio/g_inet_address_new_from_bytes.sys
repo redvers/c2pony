@@ -1,0 +1,2 @@
+  fun new_from_bytes(bytes': String, family': U32): NullablePointer[GInetAddressT] =>
+    @g_inet_address_new_from_bytes(bytes'.cstring(), family')

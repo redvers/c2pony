@@ -1,0 +1,1 @@
+use @g_dbus_connection_get_unique_name[Pointer[U8]](connection': NullablePointer[GDBusConnectionT])

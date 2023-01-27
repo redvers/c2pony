@@ -1,0 +1,2 @@
+  fun set_custom_tab_label(op': NullablePointer[GtkPrintOperationT], label': String): None =>
+    @gtk_print_operation_set_custom_tab_label(op', label'.cstring())

@@ -1,0 +1,2 @@
+  fun unref(matcher': NullablePointer[GFileAttributeMatcherT]): None =>
+    @g_file_attribute_matcher_unref(matcher')

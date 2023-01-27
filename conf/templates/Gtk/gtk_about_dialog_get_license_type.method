@@ -1,0 +1,2 @@
+  fun ref get_license_type(): U32 =>
+    GtkAboutDialogP.get_license_type(this)

@@ -1,0 +1,1 @@
+use @gtk_tree_list_model_get_row[NullablePointer[GtkTreeListRowT]](self': NullablePointer[GtkTreeListModelT], position': U32)

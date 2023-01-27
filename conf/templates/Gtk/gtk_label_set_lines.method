@@ -1,0 +1,2 @@
+  fun ref set_lines(lines': I32): None =>
+    GtkLabelP.set_lines(this, lines')

@@ -1,0 +1,2 @@
+  fun ref set_modified(setting': I32): None =>
+    GtkTextBufferP.set_modified(this, setting')

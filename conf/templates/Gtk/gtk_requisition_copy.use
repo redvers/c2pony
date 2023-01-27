@@ -1,0 +1,1 @@
+use @gtk_requisition_copy[NullablePointer[GtkRequisitionT]](requisition': NullablePointer[GtkRequisitionT])

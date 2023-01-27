@@ -1,0 +1,2 @@
+  fun ref changed(): None =>
+    GtkFlowBoxChildP.changed(this)

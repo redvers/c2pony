@@ -1,0 +1,2 @@
+  fun ref get_base_stream(): NullablePointer[GInputStreamT] =>
+    GFilterInputStreamP.get_base_stream(this)

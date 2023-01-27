@@ -1,0 +1,2 @@
+  fun ref get_environ(): Pointer[Pointer[U8]] tag =>
+    GApplicationCommandLineP.get_environ(this)

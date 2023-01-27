@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GAppLaunchContextT] =>
+    @g_app_launch_context_new()

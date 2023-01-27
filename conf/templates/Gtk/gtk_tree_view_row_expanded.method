@@ -1,0 +1,2 @@
+  fun ref row_expanded(path': NullablePointer[GtkTreePathT]): I32 =>
+    GtkTreeViewP.row_expanded(this, path')

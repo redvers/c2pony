@@ -1,0 +1,1 @@
+use @gtk_recent_info_get_uri[Pointer[U8]](info': NullablePointer[GtkRecentInfoT])

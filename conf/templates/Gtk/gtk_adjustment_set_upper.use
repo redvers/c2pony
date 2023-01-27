@@ -1,0 +1,1 @@
+use @gtk_adjustment_set_upper[None](adjustment': NullablePointer[GtkAdjustmentT], upper': F64)

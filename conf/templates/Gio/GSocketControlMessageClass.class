@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GSocketControlMessageClass
+  var ptr: NullablePointer[GSocketControlMessageClassT]
+
+  new create() =>
+    ptr = NullablePointer[GSocketControlMessageClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GSocketControlMessageClassT]) => ptr = ptr'

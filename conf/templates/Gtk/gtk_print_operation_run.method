@@ -1,0 +1,2 @@
+  fun ref run(action': U32, parent': GtkWindowI, error': GError): U32 =>
+    GtkPrintOperationP.run(this, action', parent', error')

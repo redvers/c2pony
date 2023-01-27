@@ -1,0 +1,1 @@
+use @g_socket_client_get_proxy_resolver[NullablePointer[GProxyResolverT]](client': NullablePointer[GSocketClientT])

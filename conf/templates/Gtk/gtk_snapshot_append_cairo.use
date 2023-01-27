@@ -1,0 +1,1 @@
+use @gtk_snapshot_append_cairo[NullablePointer[cairoT]](snapshot': NullablePointer[GdkSnapshotT], bounds': NullablePointer[graphenerecttT])

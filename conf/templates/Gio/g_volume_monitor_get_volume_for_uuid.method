@@ -1,0 +1,2 @@
+  fun ref get_volume_for_uuid(uuid': String): NullablePointer[GVolumeT] =>
+    GVolumeMonitorP.get_volume_for_uuid(this, uuid')

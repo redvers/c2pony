@@ -1,0 +1,2 @@
+  fun ref forward_word_end(): I32 =>
+    GtkTextIterP.forward_word_end(ptr)

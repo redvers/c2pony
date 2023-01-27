@@ -1,0 +1,2 @@
+  fun get_autoselect(self': NullablePointer[GtkSingleSelectionT]): I32 =>
+    @gtk_single_selection_get_autoselect(self')

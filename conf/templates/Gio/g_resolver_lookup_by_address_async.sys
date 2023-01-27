@@ -1,0 +1,2 @@
+  fun lookup_by_address_async(resolver': NullablePointer[GResolverT], address': NullablePointer[GInetAddressT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_resolver_lookup_by_address_async(resolver', address', cancellable', callback', user_data')

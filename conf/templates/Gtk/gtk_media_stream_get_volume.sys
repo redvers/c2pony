@@ -1,0 +1,2 @@
+  fun get_volume(self': NullablePointer[GtkMediaStreamT]): F64 =>
+    @gtk_media_stream_get_volume(self')

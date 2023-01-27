@@ -1,0 +1,2 @@
+  fun accelerator_valid(keyval': U32, modifiers': U32): I32 =>
+    @gtk_accelerator_valid(keyval', modifiers')

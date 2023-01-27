@@ -1,0 +1,1 @@
+use @gtk_size_group_get_widgets[NullablePointer[GSListT]](size_group': NullablePointer[GtkSizeGroupT])

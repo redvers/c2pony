@@ -1,0 +1,2 @@
+  fun ref create_mark(mark_name': String, where': NullablePointer[GtkTextIterT], left_gravity': I32): NullablePointer[GtkTextMarkT] =>
+    GtkTextBufferP.create_mark(this, mark_name', where', left_gravity')

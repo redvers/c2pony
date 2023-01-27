@@ -1,0 +1,2 @@
+  fun set_tls_validation_flags(client': NullablePointer[GSocketClientT], flags': U32): None =>
+    @g_socket_client_set_tls_validation_flags(client', flags')

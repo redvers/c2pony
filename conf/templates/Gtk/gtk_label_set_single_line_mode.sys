@@ -1,0 +1,2 @@
+  fun set_single_line_mode(self': NullablePointer[GtkLabelT], single_line_mode': I32): None =>
+    @gtk_label_set_single_line_mode(self', single_line_mode')

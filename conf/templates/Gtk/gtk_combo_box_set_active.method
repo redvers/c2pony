@@ -1,0 +1,2 @@
+  fun ref set_active(index': I32): None =>
+    GtkComboBoxP.set_active(this, index')

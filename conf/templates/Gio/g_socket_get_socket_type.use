@@ -1,0 +1,1 @@
+use @g_socket_get_socket_type[U32](socket': NullablePointer[GSocketT])

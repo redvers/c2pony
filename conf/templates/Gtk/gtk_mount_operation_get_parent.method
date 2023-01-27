@@ -1,0 +1,2 @@
+  fun ref get_parent(): NullablePointer[GObjectT] =>
+    GtkMountOperationP.get_parent(this)

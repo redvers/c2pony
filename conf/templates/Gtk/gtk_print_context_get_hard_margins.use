@@ -1,0 +1,1 @@
+use @gtk_print_context_get_hard_margins[I32](context': NullablePointer[GtkPrintContextT], top': Pointer[F64] tag, bottom': Pointer[F64] tag, left': Pointer[F64] tag, right': Pointer[F64] tag)

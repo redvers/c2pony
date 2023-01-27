@@ -1,0 +1,2 @@
+  fun new(callback': GtkShortcutFunc, data': Pointer[None] tag, destroy': Pointer[None]): NullablePointer[GtkShortcutActionT] =>
+    @gtk_callback_action_new(callback', data', destroy')

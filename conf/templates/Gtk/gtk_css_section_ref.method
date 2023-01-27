@@ -1,0 +1,2 @@
+  fun ref ref(): NullablePointer[GtkCssSectionT] =>
+    GtkCssSectionP.ref(ptr)

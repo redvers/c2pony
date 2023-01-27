@@ -1,0 +1,2 @@
+  fun ref set_pending(error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GOutputStreamP.set_pending(this, error')

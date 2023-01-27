@@ -1,0 +1,2 @@
+  fun new(title': String, parent': GtkWindowI, action': U32, accept_label': String, cancel_label': String): NullablePointer[GtkFileChooserNativeT] =>
+    @gtk_file_chooser_native_new(title'.cstring(), parent'.getptr(), action', accept_label'.cstring(), cancel_label'.cstring())

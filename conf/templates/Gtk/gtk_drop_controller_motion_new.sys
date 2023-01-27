@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkEventControllerT] =>
+    @gtk_drop_controller_motion_new()

@@ -1,0 +1,1 @@
+use @g_socket_get_keepalive[I32](socket': NullablePointer[GSocketT])

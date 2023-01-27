@@ -1,0 +1,2 @@
+  fun ref set_model(model': NullablePointer[GtkTreeModelT]): None =>
+    GtkComboBoxP.set_model(this, model')

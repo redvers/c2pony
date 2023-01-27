@@ -1,2 +1,2 @@
   fun ref byteswap(): NullablePointer[GVariantT] =>
-    GVariantP.byteswap(this.ptr)
+    GVariantP.byteswap(ptr)

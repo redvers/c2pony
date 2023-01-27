@@ -1,0 +1,2 @@
+  fun new(format': U32): NullablePointer[GZlibDecompressorT] =>
+    @g_zlib_decompressor_new(format')

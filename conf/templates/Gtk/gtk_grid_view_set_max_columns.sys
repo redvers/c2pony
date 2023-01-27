@@ -1,0 +1,2 @@
+  fun set_max_columns(self': NullablePointer[GtkGridViewT], max_columns': U32): None =>
+    @gtk_grid_view_set_max_columns(self', max_columns')

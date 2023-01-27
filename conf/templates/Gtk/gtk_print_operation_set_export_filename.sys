@@ -1,0 +1,2 @@
+  fun set_export_filename(op': NullablePointer[GtkPrintOperationT], filename': String): None =>
+    @gtk_print_operation_set_export_filename(op', filename'.cstring())

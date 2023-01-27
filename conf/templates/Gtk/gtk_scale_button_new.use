@@ -1,0 +1,1 @@
+use @gtk_scale_button_new[NullablePointer[GObjectT]](min': F64, max': F64, step': F64, icons': Pointer[Pointer[U8]] tag)

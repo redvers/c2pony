@@ -1,0 +1,1 @@
+use @gtk_dialog_new_with_buttons[NullablePointer[GObjectT]](title': Pointer[U8] tag, parent': NullablePointer[GObjectT], flags': U32, first_button_text': Pointer[U8] tag, ...)

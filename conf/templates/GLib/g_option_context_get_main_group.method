@@ -1,2 +1,2 @@
   fun ref get_main_group(): NullablePointer[GOptionGroupT] =>
-    GOptionContextP.get_main_group(this.ptr)
+    GOptionContextP.get_main_group(ptr)

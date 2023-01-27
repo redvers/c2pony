@@ -1,0 +1,1 @@
+use @gtk_media_stream_has_audio[I32](self': NullablePointer[GtkMediaStreamT])

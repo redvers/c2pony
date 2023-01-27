@@ -1,0 +1,2 @@
+  fun ref get_tag_table(): NullablePointer[GtkTextTagTableT] =>
+    GtkTextBufferP.get_tag_table(this)

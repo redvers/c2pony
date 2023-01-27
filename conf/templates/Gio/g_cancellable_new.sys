@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GCancellableT] =>
+    @g_cancellable_new()

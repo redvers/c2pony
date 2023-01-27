@@ -1,0 +1,2 @@
+  fun ref get_name_owner(): String iso^ =>
+    GDBusObjectManagerClientP.get_name_owner(this)

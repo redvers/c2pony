@@ -1,0 +1,1 @@
+use @gtk_spin_button_new_with_range[NullablePointer[GObjectT]](min': F64, max': F64, step': F64)

@@ -1,0 +1,2 @@
+  fun ref set_client_widget(widget': GtkWidgetI): None =>
+    GtkIMContextP.set_client_widget(this, widget')

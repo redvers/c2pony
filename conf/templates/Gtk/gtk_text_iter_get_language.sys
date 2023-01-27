@@ -1,0 +1,2 @@
+  fun get_language(iter': NullablePointer[GtkTextIterT]): NullablePointer[PangoLanguageT] =>
+    @gtk_text_iter_get_language(iter')

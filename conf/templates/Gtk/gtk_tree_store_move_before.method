@@ -1,0 +1,2 @@
+  fun ref move_before(iter': NullablePointer[GtkTreeIterT], position': NullablePointer[GtkTreeIterT]): None =>
+    GtkTreeStoreP.move_before(this, iter', position')

@@ -1,0 +1,1 @@
+use @g_dbus_address_get_stream[None](address': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun ref get_pspec(): NullablePointer[GParamSpecT] =>
+    GtkPropertyExpressionP.get_pspec(this)

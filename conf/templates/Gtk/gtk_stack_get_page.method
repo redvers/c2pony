@@ -1,0 +1,2 @@
+  fun ref get_page(child': GtkWidgetI): NullablePointer[GtkStackPageT] =>
+    GtkStackP.get_page(this, child')

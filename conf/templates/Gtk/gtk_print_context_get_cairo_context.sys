@@ -1,0 +1,2 @@
+  fun get_cairo_context(context': NullablePointer[GtkPrintContextT]): NullablePointer[cairoT] =>
+    @gtk_print_context_get_cairo_context(context')

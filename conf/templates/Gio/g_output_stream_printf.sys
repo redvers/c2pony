@@ -1,0 +1,2 @@
+  fun printf(stream': NullablePointer[GOutputStreamT], bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]], format': String, ...): I32 =>
+    @g_output_stream_printf(stream', bytes_written', cancellable', error', format'.cstring(), ...)

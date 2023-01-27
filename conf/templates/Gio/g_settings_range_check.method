@@ -1,0 +1,2 @@
+  fun ref range_check(key': String, value': NullablePointer[GVariantT]): I32 =>
+    GSettingsP.range_check(this, key', value')

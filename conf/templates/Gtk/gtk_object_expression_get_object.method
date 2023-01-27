@@ -1,0 +1,2 @@
+  fun ref get_object(): NullablePointer[GObjectT] =>
+    GtkObjectExpressionP.get_object(this)

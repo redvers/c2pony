@@ -1,0 +1,2 @@
+  fun commit(assistant': NullablePointer[GtkAssistantT]): None =>
+    @gtk_assistant_commit(assistant')

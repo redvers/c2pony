@@ -1,0 +1,2 @@
+  fun ref equal(other_address': NullablePointer[GInetAddressT]): I32 =>
+    GInetAddressP.equal(this, other_address')

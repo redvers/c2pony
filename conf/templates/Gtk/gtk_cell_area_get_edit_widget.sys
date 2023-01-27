@@ -1,0 +1,2 @@
+  fun get_edit_widget(area': NullablePointer[GtkCellAreaT]): NullablePointer[GtkCellEditableT] =>
+    @gtk_cell_area_get_edit_widget(area')

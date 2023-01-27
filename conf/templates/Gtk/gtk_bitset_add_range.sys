@@ -1,0 +1,2 @@
+  fun add_range(self': NullablePointer[GtkBitsetT], start': U32, n_items': U32): None =>
+    @gtk_bitset_add_range(self', start', n_items')

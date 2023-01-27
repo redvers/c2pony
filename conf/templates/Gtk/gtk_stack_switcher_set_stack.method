@@ -1,0 +1,2 @@
+  fun ref set_stack(stack': NullablePointer[GtkStackT]): None =>
+    GtkStackSwitcherP.set_stack(this, stack')

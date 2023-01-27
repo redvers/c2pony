@@ -1,0 +1,2 @@
+  fun ref append(iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT]): None =>
+    GtkTreeStoreP.append(this, iter', parent')

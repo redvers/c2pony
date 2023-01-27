@@ -1,0 +1,2 @@
+  fun new_for_file(file': NullablePointer[GFileT]): NullablePointer[GObjectT] =>
+@gtk_picture_new_for_file(file')

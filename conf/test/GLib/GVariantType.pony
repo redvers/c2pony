@@ -21,40 +21,40 @@ class GVariantType
   new new_tuple(items': Pointer[NullablePointer[GVariantTypeT]], length': I32) =>
     ptr = @g_variant_type_new_tuple(items', length')
   fun ref copy(): NullablePointer[GVariantTypeT] =>
-    GVariantTypeP.copy(this.ptr)
+    GVariantTypeP.copy(ptr)
   fun ref dup_string(): String iso^ =>
-    GVariantTypeP.dup_string(this.ptr)
+    GVariantTypeP.dup_string(ptr)
   fun ref first(): NullablePointer[GVariantTypeT] =>
-    GVariantTypeP.first(this.ptr)
+    GVariantTypeP.first(ptr)
   fun ref free(): None =>
-    GVariantTypeP.free(this.ptr)
+    GVariantTypeP.free(ptr)
   fun ref get_string_length(): U64 =>
-    GVariantTypeP.get_string_length(this.ptr)
+    GVariantTypeP.get_string_length(ptr)
   fun ref is_array(): I32 =>
-    GVariantTypeP.is_array(this.ptr)
+    GVariantTypeP.is_array(ptr)
   fun ref is_basic(): I32 =>
-    GVariantTypeP.is_basic(this.ptr)
+    GVariantTypeP.is_basic(ptr)
   fun ref is_container(): I32 =>
-    GVariantTypeP.is_container(this.ptr)
+    GVariantTypeP.is_container(ptr)
   fun ref is_definite(): I32 =>
-    GVariantTypeP.is_definite(this.ptr)
+    GVariantTypeP.is_definite(ptr)
   fun ref is_dict_entry(): I32 =>
-    GVariantTypeP.is_dict_entry(this.ptr)
+    GVariantTypeP.is_dict_entry(ptr)
   fun ref is_maybe(): I32 =>
-    GVariantTypeP.is_maybe(this.ptr)
+    GVariantTypeP.is_maybe(ptr)
   fun ref is_subtype_of(supertype': NullablePointer[GVariantTypeT]): I32 =>
-    GVariantTypeP.is_subtype_of(this.ptr, supertype')
+    GVariantTypeP.is_subtype_of(ptr, supertype')
   fun ref is_tuple(): I32 =>
-    GVariantTypeP.is_tuple(this.ptr)
+    GVariantTypeP.is_tuple(ptr)
   fun ref is_variant(): I32 =>
-    GVariantTypeP.is_variant(this.ptr)
+    GVariantTypeP.is_variant(ptr)
   fun ref key(): NullablePointer[GVariantTypeT] =>
-    GVariantTypeP.key(this.ptr)
+    GVariantTypeP.key(ptr)
   fun ref n_items(): U64 =>
-    GVariantTypeP.n_items(this.ptr)
+    GVariantTypeP.n_items(ptr)
   fun ref next(): NullablePointer[GVariantTypeT] =>
-    GVariantTypeP.next(this.ptr)
+    GVariantTypeP.next(ptr)
   fun ref peek_string(): String iso^ =>
-    GVariantTypeP.peek_string(this.ptr)
+    GVariantTypeP.peek_string(ptr)
   fun ref value(): NullablePointer[GVariantTypeT] =>
-    GVariantTypeP.value(this.ptr)
+    GVariantTypeP.value(ptr)

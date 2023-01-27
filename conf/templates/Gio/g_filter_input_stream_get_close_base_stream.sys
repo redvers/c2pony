@@ -1,0 +1,2 @@
+  fun get_close_base_stream(stream': NullablePointer[GFilterInputStreamT]): I32 =>
+    @g_filter_input_stream_get_close_base_stream(stream')

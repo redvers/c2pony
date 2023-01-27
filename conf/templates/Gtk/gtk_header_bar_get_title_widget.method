@@ -1,0 +1,2 @@
+  fun ref get_title_widget(): NullablePointer[GObjectT] =>
+    GtkHeaderBarP.get_title_widget(this)

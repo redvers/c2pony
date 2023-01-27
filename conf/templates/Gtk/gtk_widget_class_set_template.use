@@ -1,0 +1,1 @@
+use @gtk_widget_class_set_template[None](widget_class': NullablePointer[GtkWidgetClassT], template_bytes': NullablePointer[GBytesT])

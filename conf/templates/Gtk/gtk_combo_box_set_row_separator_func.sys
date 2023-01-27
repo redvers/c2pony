@@ -1,0 +1,2 @@
+  fun set_row_separator_func(combo_box': NullablePointer[GtkComboBoxT], func': GtkTreeViewRowSeparatorFunc, data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_combo_box_set_row_separator_func(combo_box', func', data', destroy')

@@ -1,0 +1,2 @@
+  fun ref set_state(state': U32): I32 =>
+    GtkGestureP.set_state(this, state')

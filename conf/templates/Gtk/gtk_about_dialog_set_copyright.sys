@@ -1,0 +1,2 @@
+  fun set_copyright(about': NullablePointer[GtkAboutDialogT], copyright': String): None =>
+    @gtk_about_dialog_set_copyright(about', copyright'.cstring())

@@ -1,0 +1,2 @@
+  fun ref get_popover(): NullablePointer[GtkPopoverT] =>
+    GtkMenuButtonP.get_popover(this)

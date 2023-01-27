@@ -1,0 +1,2 @@
+  fun set_homogeneous(box': NullablePointer[GtkFlowBoxT], homogeneous': I32): None =>
+    @gtk_flow_box_set_homogeneous(box', homogeneous')

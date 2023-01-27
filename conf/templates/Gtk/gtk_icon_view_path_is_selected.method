@@ -1,0 +1,2 @@
+  fun ref path_is_selected(path': NullablePointer[GtkTreePathT]): I32 =>
+    GtkIconViewP.path_is_selected(this, path')

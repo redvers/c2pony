@@ -1,0 +1,2 @@
+  fun ref get_is_expanded(): I32 =>
+    GtkCellRendererP.get_is_expanded(this)

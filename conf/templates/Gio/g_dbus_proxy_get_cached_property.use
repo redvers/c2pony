@@ -1,0 +1,1 @@
+use @g_dbus_proxy_get_cached_property[NullablePointer[GVariantT]](proxy': NullablePointer[GDBusProxyT], property_name': Pointer[U8] tag)

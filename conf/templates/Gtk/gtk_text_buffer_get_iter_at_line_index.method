@@ -1,0 +1,2 @@
+  fun ref get_iter_at_line_index(iter': NullablePointer[GtkTextIterT], line_number': I32, byte_index': I32): I32 =>
+    GtkTextBufferP.get_iter_at_line_index(this, iter', line_number', byte_index')

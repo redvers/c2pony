@@ -1,0 +1,2 @@
+  fun restore(snapshot': NullablePointer[GdkSnapshotT]): None =>
+    @gtk_snapshot_restore(snapshot')

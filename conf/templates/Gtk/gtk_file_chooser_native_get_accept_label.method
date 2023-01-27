@@ -1,0 +1,2 @@
+  fun ref get_accept_label(): String iso^ =>
+    GtkFileChooserNativeP.get_accept_label(this)

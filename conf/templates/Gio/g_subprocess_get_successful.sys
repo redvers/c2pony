@@ -1,0 +1,2 @@
+  fun get_successful(subprocess': NullablePointer[GSubprocessT]): I32 =>
+    @g_subprocess_get_successful(subprocess')

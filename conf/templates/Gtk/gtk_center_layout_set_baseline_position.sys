@@ -1,0 +1,2 @@
+  fun set_baseline_position(self': NullablePointer[GtkCenterLayoutT], baseline_position': U32): None =>
+    @gtk_center_layout_set_baseline_position(self', baseline_position')

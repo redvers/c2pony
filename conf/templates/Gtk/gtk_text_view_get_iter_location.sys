@@ -1,0 +1,2 @@
+  fun get_iter_location(text_view': NullablePointer[GtkTextViewT], iter': NullablePointer[GtkTextIterT], location': NullablePointer[cairorectangleintT]): None =>
+    @gtk_text_view_get_iter_location(text_view', iter', location')

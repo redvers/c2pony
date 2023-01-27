@@ -1,0 +1,2 @@
+  fun ref read_int16(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I16 =>
+    GDataInputStreamP.read_int16(this, cancellable', error')

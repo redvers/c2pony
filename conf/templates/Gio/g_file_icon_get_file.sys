@@ -1,0 +1,2 @@
+  fun get_file(icon': NullablePointer[GFileIconT]): NullablePointer[GFileT] =>
+    @g_file_icon_get_file(icon')

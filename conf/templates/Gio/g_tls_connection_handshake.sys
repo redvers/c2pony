@@ -1,0 +1,2 @@
+  fun handshake(conn': NullablePointer[GTlsConnectionT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_tls_connection_handshake(conn', cancellable', error')

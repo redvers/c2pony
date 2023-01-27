@@ -1,0 +1,1 @@
+use @gtk_cell_area_apply_attributes[None](area': NullablePointer[GtkCellAreaT], tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], is_expander': I32, is_expanded': I32)

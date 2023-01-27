@@ -1,0 +1,1 @@
+use @gtk_video_set_resource[None](self': NullablePointer[GtkVideoT], resource_path': Pointer[U8] tag)

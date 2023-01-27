@@ -1,0 +1,1 @@
+use @gtk_scrolled_window_set_policy[None](scrolled_window': NullablePointer[GtkScrolledWindowT], hscrollbar_policy': U32, vscrollbar_policy': U32)

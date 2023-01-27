@@ -1,0 +1,2 @@
+  fun ref lookup_certificate_for_handle_async(handle': String, interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GTlsDatabaseP.lookup_certificate_for_handle_async(this, handle', interaction', flags', cancellable', callback', user_data')

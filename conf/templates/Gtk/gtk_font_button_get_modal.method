@@ -1,0 +1,2 @@
+  fun ref get_modal(): I32 =>
+    GtkFontButtonP.get_modal(this)

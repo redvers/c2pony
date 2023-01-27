@@ -1,0 +1,1 @@
+use @g_socket_client_connect_to_service[NullablePointer[GSocketConnectionT]](client': NullablePointer[GSocketClientT], domain': Pointer[U8] tag, service': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])

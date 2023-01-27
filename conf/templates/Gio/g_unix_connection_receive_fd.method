@@ -1,0 +1,2 @@
+  fun ref receive_fd(cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GUnixConnectionP.receive_fd(this, cancellable', error')

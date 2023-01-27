@@ -1,0 +1,2 @@
+  fun ref has_group(): I32 =>
+    GtkWindowP.has_group(this)

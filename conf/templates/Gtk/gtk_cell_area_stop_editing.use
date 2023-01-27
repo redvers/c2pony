@@ -1,0 +1,1 @@
+use @gtk_cell_area_stop_editing[None](area': NullablePointer[GtkCellAreaT], canceled': I32)

@@ -1,0 +1,2 @@
+  fun get_data_size(ostream': NullablePointer[GMemoryOutputStreamT]): U64 =>
+    @g_memory_output_stream_get_data_size(ostream')

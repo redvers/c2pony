@@ -1,0 +1,2 @@
+  fun parse_uri(uri': String, default_port': U16, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketConnectableT] =>
+    @g_network_address_parse_uri(uri'.cstring(), default_port', error')

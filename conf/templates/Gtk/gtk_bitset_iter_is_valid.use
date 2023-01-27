@@ -1,0 +1,1 @@
+use @gtk_bitset_iter_is_valid[I32](iter': NullablePointer[GtkBitsetIterT])

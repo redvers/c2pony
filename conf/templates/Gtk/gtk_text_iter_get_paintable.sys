@@ -1,0 +1,2 @@
+  fun get_paintable(iter': NullablePointer[GtkTextIterT]): NullablePointer[GdkPaintableT] =>
+    @gtk_text_iter_get_paintable(iter')

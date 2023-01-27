@@ -1,0 +1,1 @@
+use @gtk_notebook_set_show_border[None](notebook': NullablePointer[GtkNotebookT], show_border': I32)

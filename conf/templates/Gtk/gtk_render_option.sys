@@ -1,0 +1,2 @@
+  fun render_option(context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], x': F64, y': F64, width': F64, height': F64): None =>
+    @gtk_render_option(context', cr', x', y', width', height')

@@ -1,0 +1,2 @@
+  fun set_transform(child': NullablePointer[GtkFixedLayoutChildT], transform': NullablePointer[GskTransformT]): None =>
+    @gtk_fixed_layout_child_set_transform(child', transform')

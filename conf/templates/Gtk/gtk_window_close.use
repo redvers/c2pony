@@ -1,0 +1,1 @@
+use @gtk_window_close[None](window': NullablePointer[GObjectT])

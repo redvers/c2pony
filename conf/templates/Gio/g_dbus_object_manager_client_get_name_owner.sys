@@ -1,0 +1,2 @@
+  fun get_name_owner(manager': NullablePointer[GDBusObjectManagerClientT]): String iso^ =>
+    String.from_cstring(@g_dbus_object_manager_client_get_name_owner(manager')).clone()

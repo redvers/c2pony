@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkOverlayLayoutChildClass
+  var ptr: NullablePointer[GtkOverlayLayoutChildClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkOverlayLayoutChildClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkOverlayLayoutChildClassT]) => ptr = ptr'

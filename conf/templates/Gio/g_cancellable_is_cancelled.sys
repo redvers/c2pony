@@ -1,0 +1,2 @@
+  fun is_cancelled(cancellable': NullablePointer[GCancellableT]): I32 =>
+    @g_cancellable_is_cancelled(cancellable')

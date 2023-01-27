@@ -1,0 +1,1 @@
+use @gtk_list_box_set_placeholder[None](box': NullablePointer[GtkListBoxT], placeholder': NullablePointer[GObjectT])

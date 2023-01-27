@@ -1,0 +1,1 @@
+use @gtk_style_context_get_state[U32](context': NullablePointer[GtkStyleContextT])

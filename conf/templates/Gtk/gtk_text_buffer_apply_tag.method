@@ -1,0 +1,2 @@
+  fun ref apply_tag(tag': NullablePointer[GtkTextTagT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+    GtkTextBufferP.apply_tag(this, tag', start', end')

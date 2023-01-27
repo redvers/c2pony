@@ -1,0 +1,1 @@
+use @gtk_text_view_get_wrap_mode[U32](text_view': NullablePointer[GtkTextViewT])

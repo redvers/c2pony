@@ -1,0 +1,1 @@
+use @gtk_css_section_get_parent[NullablePointer[GtkCssSectionT]](section': NullablePointer[GtkCssSectionT])

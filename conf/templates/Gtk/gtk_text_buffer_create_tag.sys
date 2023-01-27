@@ -1,0 +1,2 @@
+  fun create_tag(buffer': NullablePointer[GtkTextBufferT], tag_name': String, first_property_name': String, ...): NullablePointer[GtkTextTagT] =>
+    @gtk_text_buffer_create_tag(buffer', tag_name'.cstring(), first_property_name'.cstring(), ...)

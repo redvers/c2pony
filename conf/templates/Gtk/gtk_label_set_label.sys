@@ -1,0 +1,2 @@
+  fun set_label(self': NullablePointer[GtkLabelT], str': String): None =>
+    @gtk_label_set_label(self', str'.cstring())

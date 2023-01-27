@@ -1,0 +1,2 @@
+  fun shift_left(self': NullablePointer[GtkBitsetT], amount': U32): None =>
+    @gtk_bitset_shift_left(self', amount')

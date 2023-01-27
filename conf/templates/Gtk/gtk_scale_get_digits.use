@@ -1,0 +1,1 @@
+use @gtk_scale_get_digits[I32](scale': NullablePointer[GtkScaleT])

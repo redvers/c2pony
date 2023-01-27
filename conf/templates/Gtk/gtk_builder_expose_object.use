@@ -1,0 +1,1 @@
+use @gtk_builder_expose_object[None](builder': NullablePointer[GObjectT], name': Pointer[U8] tag, object': NullablePointer[GObjectT])

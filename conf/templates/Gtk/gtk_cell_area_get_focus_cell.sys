@@ -1,0 +1,2 @@
+  fun get_focus_cell(area': NullablePointer[GtkCellAreaT]): NullablePointer[GtkCellRendererT] =>
+    @gtk_cell_area_get_focus_cell(area')

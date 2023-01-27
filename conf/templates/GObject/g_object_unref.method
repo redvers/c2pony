@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GObjectP.unref(this.ptr)
+    GObjectP.unref(this)

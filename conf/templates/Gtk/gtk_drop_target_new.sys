@@ -1,0 +1,2 @@
+  fun new(type': U64, actions': U32): NullablePointer[GtkDropTargetT] =>
+    @gtk_drop_target_new(type', actions')

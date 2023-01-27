@@ -1,0 +1,2 @@
+  fun remove_focus_sibling(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], sibling': NullablePointer[GtkCellRendererT]): None =>
+    @gtk_cell_area_remove_focus_sibling(area', renderer', sibling')

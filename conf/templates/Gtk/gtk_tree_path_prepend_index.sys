@@ -1,0 +1,2 @@
+  fun prepend_index(path': NullablePointer[GtkTreePathT], index': I32): None =>
+    @gtk_tree_path_prepend_index(path', index')

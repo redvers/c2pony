@@ -1,0 +1,2 @@
+  fun get_logo(about': NullablePointer[GtkAboutDialogT]): NullablePointer[GdkPaintableT] =>
+    @gtk_about_dialog_get_logo(about')

@@ -1,0 +1,2 @@
+  fun to_paintable(snapshot': NullablePointer[GdkSnapshotT], size': NullablePointer[graphenesizetT]): NullablePointer[GdkPaintableT] =>
+    @gtk_snapshot_to_paintable(snapshot', size')

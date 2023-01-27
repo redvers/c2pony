@@ -1,0 +1,1 @@
+use @gtk_builder_get_type_from_name[U64](builder': NullablePointer[GObjectT], type_name': Pointer[U8] tag)

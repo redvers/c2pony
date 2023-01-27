@@ -1,0 +1,2 @@
+  fun ref get_clip_overlay(): I32 =>
+    GtkOverlayLayoutChildP.get_clip_overlay(this)

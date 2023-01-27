@@ -1,0 +1,2 @@
+  fun new(mode': U32): NullablePointer[GtkSizeGroupT] =>
+    @gtk_size_group_new(mode')

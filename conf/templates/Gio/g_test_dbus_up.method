@@ -1,0 +1,2 @@
+  fun ref up(): None =>
+    GTestDBusP.up(this)

@@ -1,0 +1,2 @@
+  fun ref set_line_offset(char_on_line': I32): None =>
+    GtkTextIterP.set_line_offset(ptr, char_on_line')

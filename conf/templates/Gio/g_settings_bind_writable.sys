@@ -1,0 +1,2 @@
+  fun bind_writable(settings': NullablePointer[GSettingsT], key': String, object': Pointer[None] tag, property': String, inverted': I32): None =>
+    @g_settings_bind_writable(settings', key'.cstring(), object', property'.cstring(), inverted')

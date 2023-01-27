@@ -1,2 +1,2 @@
   fun ref difference(begin': NullablePointer[GDateTimeT]): I64 =>
-    GDateTimeP.difference(this.ptr, begin')
+    GDateTimeP.difference(ptr, begin')

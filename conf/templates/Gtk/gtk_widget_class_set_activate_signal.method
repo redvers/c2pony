@@ -1,0 +1,2 @@
+  fun ref set_activate_signal(signal_id': U32): None =>
+    GtkWidgetClassP.set_activate_signal(ptr, signal_id')

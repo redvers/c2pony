@@ -1,2 +1,2 @@
   fun ref freeze_notify(): None =>
-    GObjectP.freeze_notify(this.ptr)
+    GObjectP.freeze_notify(this)

@@ -1,2 +1,2 @@
   fun ref get_nth(index': U32): NullablePointer[GValueT] =>
-    GValueArrayP.get_nth(this.ptr, index')
+    GValueArrayP.get_nth(ptr, index')

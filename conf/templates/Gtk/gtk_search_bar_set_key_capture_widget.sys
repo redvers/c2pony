@@ -1,0 +1,2 @@
+  fun set_key_capture_widget(bar': NullablePointer[GtkSearchBarT], widget': GtkWidgetI): None =>
+    @gtk_search_bar_set_key_capture_widget(bar', widget'.getptr())

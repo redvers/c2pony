@@ -1,0 +1,2 @@
+  fun ref is_same(cert_two': NullablePointer[GTlsCertificateT]): I32 =>
+    GTlsCertificateP.is_same(this, cert_two')

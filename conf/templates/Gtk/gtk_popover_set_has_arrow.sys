@@ -1,0 +1,2 @@
+  fun set_has_arrow(popover': NullablePointer[GtkPopoverT], has_arrow': I32): None =>
+    @gtk_popover_set_has_arrow(popover', has_arrow')

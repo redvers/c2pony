@@ -1,2 +1,2 @@
   fun ref free_full(free_func': Pointer[None]): None =>
-    GQueueP.free_full(this.ptr, free_func')
+    GQueueP.free_full(ptr, free_func')

@@ -1,0 +1,1 @@
+use @g_settings_schema_get_key[NullablePointer[GSettingsSchemaKeyT]](schema': NullablePointer[GSettingsSchemaT], name': Pointer[U8] tag)

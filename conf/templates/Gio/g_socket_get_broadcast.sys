@@ -1,0 +1,2 @@
+  fun get_broadcast(socket': NullablePointer[GSocketT]): I32 =>
+    @g_socket_get_broadcast(socket')

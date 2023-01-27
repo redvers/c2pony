@@ -1,0 +1,2 @@
+  fun set_buffer(text_view': NullablePointer[GtkTextViewT], buffer': NullablePointer[GtkTextBufferT]): None =>
+    @gtk_text_view_set_buffer(text_view', buffer')

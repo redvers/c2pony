@@ -1,0 +1,1 @@
+use @gtk_media_file_get_file[NullablePointer[GFileT]](self': NullablePointer[GtkMediaFileT])

@@ -1,0 +1,2 @@
+  fun ref get_display_name(): String iso^ =>
+    GtkRecentInfoP.get_display_name(ptr)

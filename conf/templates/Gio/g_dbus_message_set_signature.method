@@ -1,0 +1,2 @@
+  fun ref set_signature(value': String): None =>
+    GDBusMessageP.set_signature(this, value')

@@ -1,0 +1,2 @@
+  fun popup_enable(notebook': NullablePointer[GtkNotebookT]): None =>
+    @gtk_notebook_popup_enable(notebook')

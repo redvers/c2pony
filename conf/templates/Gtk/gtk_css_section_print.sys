@@ -1,0 +1,2 @@
+  fun print(section': NullablePointer[GtkCssSectionT], string': NullablePointer[GStringT]): None =>
+    @gtk_css_section_print(section', string')

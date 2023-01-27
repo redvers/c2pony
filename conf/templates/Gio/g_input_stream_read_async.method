@@ -1,0 +1,2 @@
+  fun ref read_async(buffer': Pointer[None] tag, count': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GInputStreamP.read_async(this, buffer', count', io_priority', cancellable', callback', user_data')

@@ -1,0 +1,1 @@
+use @g_emblemed_icon_clear_emblems[None](emblemed': NullablePointer[GEmblemedIconT])

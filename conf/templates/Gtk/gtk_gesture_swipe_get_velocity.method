@@ -1,0 +1,2 @@
+  fun ref get_velocity(velocity_x': Pointer[F64] tag, velocity_y': Pointer[F64] tag): I32 =>
+    GtkGestureSwipeP.get_velocity(this, velocity_x', velocity_y')

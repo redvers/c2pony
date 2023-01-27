@@ -1,2 +1,2 @@
   fun ref lookup(data': Pointer[None] tag, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
-    GSequenceP.lookup(this.ptr, data', cmp_func', cmp_data')
+    GSequenceP.lookup(ptr, data', cmp_func', cmp_data')

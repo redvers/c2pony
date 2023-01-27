@@ -1,0 +1,2 @@
+  fun new_with_label(label': String): NullablePointer[GObjectT] =>
+@gtk_toggle_button_new_with_label(label'.cstring())

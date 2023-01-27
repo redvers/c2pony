@@ -1,0 +1,2 @@
+  fun ref get_loop(): I32 =>
+    GtkMediaStreamP.get_loop(this)

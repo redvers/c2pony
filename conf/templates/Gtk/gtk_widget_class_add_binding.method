@@ -1,0 +1,2 @@
+  fun ref add_binding(keyval': U32, mods': U32, callback': GtkShortcutFunc, format_string': String, ...): None =>
+    GtkWidgetClassP.add_binding(ptr, keyval', mods', callback', format_string', ...)

@@ -1,2 +1,2 @@
   fun ref is_destroyed(): I32 =>
-    GSourceP.is_destroyed(this.ptr)
+    GSourceP.is_destroyed(ptr)

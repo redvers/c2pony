@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GMemoryInputStreamClass
+  var ptr: NullablePointer[GMemoryInputStreamClassT]
+
+  new create() =>
+    ptr = NullablePointer[GMemoryInputStreamClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GMemoryInputStreamClassT]) => ptr = ptr'

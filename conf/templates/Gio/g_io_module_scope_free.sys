@@ -1,0 +1,2 @@
+  fun free(scope': NullablePointer[GIOModuleScopeT]): None =>
+    @g_io_module_scope_free(scope')

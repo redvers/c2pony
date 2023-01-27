@@ -1,2 +1,2 @@
   fun ref is_array(): I32 =>
-    GVariantTypeP.is_array(this.ptr)
+    GVariantTypeP.is_array(ptr)

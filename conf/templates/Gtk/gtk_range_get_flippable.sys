@@ -1,0 +1,2 @@
+  fun get_flippable(range': NullablePointer[GtkRangeT]): I32 =>
+    @gtk_range_get_flippable(range')

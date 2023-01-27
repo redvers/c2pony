@@ -1,0 +1,2 @@
+  fun get_address_type(address': NullablePointer[GUnixSocketAddressT]): U32 =>
+    @g_unix_socket_address_get_address_type(address')

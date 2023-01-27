@@ -1,0 +1,2 @@
+  fun list_children(schema': NullablePointer[GSettingsSchemaT]): Pointer[Pointer[U8]] tag =>
+    @g_settings_schema_list_children(schema')

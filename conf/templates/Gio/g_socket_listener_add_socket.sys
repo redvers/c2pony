@@ -1,0 +1,2 @@
+  fun add_socket(listener': NullablePointer[GSocketListenerT], socket': NullablePointer[GSocketT], source_object': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_listener_add_socket(listener', socket', source_object', error')

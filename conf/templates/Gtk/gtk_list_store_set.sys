@@ -1,0 +1,2 @@
+  fun set(list_store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], ...): None =>
+    @gtk_list_store_set(list_store', iter', ...)

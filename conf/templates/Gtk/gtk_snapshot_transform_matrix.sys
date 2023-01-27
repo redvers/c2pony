@@ -1,0 +1,2 @@
+  fun transform_matrix(snapshot': NullablePointer[GdkSnapshotT], matrix': NullablePointer[graphenematrixtT]): None =>
+    @gtk_snapshot_transform_matrix(snapshot', matrix')

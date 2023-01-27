@@ -1,0 +1,2 @@
+  fun ref get_value_type(): U64 =>
+    GtkExpressionP.get_value_type(this)

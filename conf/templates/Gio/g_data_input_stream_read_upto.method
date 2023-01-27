@@ -1,0 +1,2 @@
+  fun ref read_upto(stop_chars': String, stop_chars_len': I64, length': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    GDataInputStreamP.read_upto(this, stop_chars', stop_chars_len', length', cancellable', error')

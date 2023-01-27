@@ -1,0 +1,1 @@
+use @gtk_flow_box_set_filter_func[None](box': NullablePointer[GtkFlowBoxT], filter_func': GtkFlowBoxFilterFunc, user_data': Pointer[None] tag, destroy': Pointer[None])

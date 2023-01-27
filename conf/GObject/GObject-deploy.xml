@@ -392,8 +392,8 @@
     <renderclass name="GInitiallyUnowned" render="0" parent="Object" abstract="" final="" fundamental="">
 </renderclass>
     <renderclass name="GObject" render="1" parent="" abstract="" final="" fundamental="">
-      <rendermethod name="g_signal_connect_object" ponyname="signal_connect_object" render="0" deprecated=""/>
-      <rendermethod name="g_signal_connect" ponyname="signal_connect" render="0" deprecated=""/>
+      <rendermethod name="g_signal_connect_object" ponyname="signal_connect_object" render="1" deprecated=""/>
+      <rendermethod name="g_signal_connect" ponyname="signal_connect" render="1" deprecated=""/>
       <renderconstructor name="g_object_new" ponyname="gnew" render="0" deprecated=""/>
       <renderconstructor name="g_object_new_valist" ponyname="new_valist" render="0" deprecated=""/>
       <renderconstructor name="g_object_new_with_properties" ponyname="new_with_properties" render="0" deprecated=""/>

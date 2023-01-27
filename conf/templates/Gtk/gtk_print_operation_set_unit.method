@@ -1,0 +1,2 @@
+  fun ref set_unit(unit': U32): None =>
+    GtkPrintOperationP.set_unit(this, unit')

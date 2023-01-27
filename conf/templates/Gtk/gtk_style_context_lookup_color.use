@@ -1,0 +1,1 @@
+use @gtk_style_context_lookup_color[I32](context': NullablePointer[GtkStyleContextT], color_name': Pointer[U8] tag, color': NullablePointer[GdkRGBAT])

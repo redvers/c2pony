@@ -1,0 +1,1 @@
+use @gtk_application_inhibit[U32](application': NullablePointer[GObjectT], window': NullablePointer[GObjectT], flags': U32, reason': Pointer[U8] tag)

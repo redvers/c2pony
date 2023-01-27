@@ -1,0 +1,2 @@
+  fun lookup(name': String): NullablePointer[GIOExtensionPointT] =>
+    @g_io_extension_point_lookup(name'.cstring())

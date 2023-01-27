@@ -1,0 +1,2 @@
+  fun ref set_section(section': NullablePointer[GMenuModelT]): None =>
+    GMenuItemP.set_section(this, section')

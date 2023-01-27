@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GEmblemedIconClass
+  var ptr: NullablePointer[GEmblemedIconClassT]
+
+  new create() =>
+    ptr = NullablePointer[GEmblemedIconClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GEmblemedIconClassT]) => ptr = ptr'

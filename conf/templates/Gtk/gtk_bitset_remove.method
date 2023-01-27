@@ -1,0 +1,2 @@
+  fun ref remove(value': U32): I32 =>
+    GtkBitsetP.remove(ptr, value')

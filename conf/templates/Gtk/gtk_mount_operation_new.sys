@@ -1,0 +1,2 @@
+  fun new(parent': GtkWindowI): NullablePointer[GMountOperationT] =>
+    @gtk_mount_operation_new(parent'.getptr())

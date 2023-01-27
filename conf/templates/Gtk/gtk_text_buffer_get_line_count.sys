@@ -1,0 +1,2 @@
+  fun get_line_count(buffer': NullablePointer[GtkTextBufferT]): I32 =>
+    @gtk_text_buffer_get_line_count(buffer')

@@ -1,0 +1,2 @@
+  fun ref get_factory(): NullablePointer[GtkListItemFactoryT] =>
+    GtkDropDownP.get_factory(this)

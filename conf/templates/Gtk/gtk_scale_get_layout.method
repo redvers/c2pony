@@ -1,0 +1,2 @@
+  fun ref get_layout(): NullablePointer[PangoLayoutT] =>
+    GtkScaleP.get_layout(this)

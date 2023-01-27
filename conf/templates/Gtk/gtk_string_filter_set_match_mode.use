@@ -1,0 +1,1 @@
+use @gtk_string_filter_set_match_mode[None](self': NullablePointer[GtkStringFilterT], mode': U32)

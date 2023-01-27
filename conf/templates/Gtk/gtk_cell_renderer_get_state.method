@@ -1,0 +1,2 @@
+  fun ref get_state(widget': GtkWidgetI, cell_state': U32): U32 =>
+    GtkCellRendererP.get_state(this, widget', cell_state')

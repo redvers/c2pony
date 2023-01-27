@@ -1,0 +1,1 @@
+use @gtk_cell_area_add_focus_sibling[None](area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], sibling': NullablePointer[GtkCellRendererT])

@@ -1,0 +1,2 @@
+  fun get_indices(path': NullablePointer[GtkTreePathT]): Pointer[I32] tag =>
+    @gtk_tree_path_get_indices(path')

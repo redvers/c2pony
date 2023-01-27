@@ -1,0 +1,2 @@
+  fun ref prepend(iter': NullablePointer[GtkTreeIterT]): None =>
+    GtkListStoreP.prepend(this, iter')

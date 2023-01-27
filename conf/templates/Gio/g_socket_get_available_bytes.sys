@@ -1,0 +1,2 @@
+  fun get_available_bytes(socket': NullablePointer[GSocketT]): I64 =>
+    @g_socket_get_available_bytes(socket')

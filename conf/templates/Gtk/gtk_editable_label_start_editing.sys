@@ -1,0 +1,2 @@
+  fun start_editing(self': NullablePointer[GtkEditableLabelT]): None =>
+    @gtk_editable_label_start_editing(self')

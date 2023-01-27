@@ -1,0 +1,2 @@
+  fun send_message_with_reply_sync(connection': NullablePointer[GDBusConnectionT], message': NullablePointer[GDBusMessageT], flags': U32, timeout_msec': I32, out_serial': Pointer[U32] tag, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDBusMessageT] =>
+    @g_dbus_connection_send_message_with_reply_sync(connection', message', flags', timeout_msec', out_serial', cancellable', error')

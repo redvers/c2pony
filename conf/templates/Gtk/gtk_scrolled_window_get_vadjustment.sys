@@ -1,0 +1,2 @@
+  fun get_vadjustment(scrolled_window': NullablePointer[GtkScrolledWindowT]): NullablePointer[GtkAdjustmentT] =>
+    @gtk_scrolled_window_get_vadjustment(scrolled_window')

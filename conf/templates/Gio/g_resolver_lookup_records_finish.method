@@ -1,0 +1,2 @@
+  fun ref lookup_records_finish(result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+    GResolverP.lookup_records_finish(this, result', error')

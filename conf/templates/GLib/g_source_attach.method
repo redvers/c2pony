@@ -1,2 +1,2 @@
   fun ref attach(context': NullablePointer[GMainContextT]): U32 =>
-    GSourceP.attach(this.ptr, context')
+    GSourceP.attach(ptr, context')

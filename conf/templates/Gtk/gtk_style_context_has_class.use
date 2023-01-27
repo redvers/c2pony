@@ -1,0 +1,1 @@
+use @gtk_style_context_has_class[I32](context': NullablePointer[GtkStyleContextT], class_name': Pointer[U8] tag)

@@ -1,2 +1,2 @@
   fun ref get_strict_posix(): I32 =>
-    GOptionContextP.get_strict_posix(this.ptr)
+    GOptionContextP.get_strict_posix(ptr)

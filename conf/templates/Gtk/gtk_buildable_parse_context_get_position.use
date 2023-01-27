@@ -1,0 +1,1 @@
+use @gtk_buildable_parse_context_get_position[None](context': NullablePointer[GtkBuildableParseContextT], line_number': Pointer[I32] tag, char_number': Pointer[I32] tag)

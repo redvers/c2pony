@@ -1,0 +1,2 @@
+  fun set_mode(size_group': NullablePointer[GtkSizeGroupT], mode': U32): None =>
+    @gtk_size_group_set_mode(size_group', mode')

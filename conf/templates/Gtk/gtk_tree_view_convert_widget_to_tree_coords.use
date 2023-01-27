@@ -1,0 +1,1 @@
+use @gtk_tree_view_convert_widget_to_tree_coords[None](tree_view': NullablePointer[GtkTreeViewT], wx': I32, wy': I32, tx': Pointer[I32] tag, ty': Pointer[I32] tag)

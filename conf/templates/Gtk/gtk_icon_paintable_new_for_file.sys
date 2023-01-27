@@ -1,0 +1,2 @@
+  fun new_for_file(file': NullablePointer[GFileT], size': I32, scale': I32): NullablePointer[GtkIconPaintableT] =>
+    @gtk_icon_paintable_new_for_file(file', size', scale')

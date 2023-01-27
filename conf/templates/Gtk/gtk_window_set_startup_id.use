@@ -1,0 +1,1 @@
+use @gtk_window_set_startup_id[None](window': NullablePointer[GObjectT], startup_id': Pointer[U8] tag)

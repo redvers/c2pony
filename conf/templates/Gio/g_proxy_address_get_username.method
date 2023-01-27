@@ -1,0 +1,2 @@
+  fun ref get_username(): String iso^ =>
+    GProxyAddressP.get_username(this)

@@ -1,0 +1,2 @@
+  fun set_completion(entry': NullablePointer[GtkEntryT], completion': NullablePointer[GtkEntryCompletionT]): None =>
+    @gtk_entry_set_completion(entry', completion')

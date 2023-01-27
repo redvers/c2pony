@@ -1,0 +1,2 @@
+  fun get_model(cell_view': NullablePointer[GtkCellViewT]): NullablePointer[GtkTreeModelT] =>
+    @gtk_cell_view_get_model(cell_view')

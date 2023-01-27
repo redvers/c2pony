@@ -1,0 +1,1 @@
+use @gtk_text_set_input_purpose[None](self': NullablePointer[GtkTextT], purpose': U32)

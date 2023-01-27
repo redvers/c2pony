@@ -1,0 +1,2 @@
+  fun ref get_titlebar(): NullablePointer[GObjectT] =>
+    GtkWindowP.get_titlebar(this)

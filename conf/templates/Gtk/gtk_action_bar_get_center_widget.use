@@ -1,0 +1,1 @@
+use @gtk_action_bar_get_center_widget[NullablePointer[GObjectT]](action_bar': NullablePointer[GtkActionBarT])

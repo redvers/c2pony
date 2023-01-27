@@ -1,0 +1,2 @@
+  fun ref get_show_arrow(): I32 =>
+    GtkDropDownP.get_show_arrow(this)

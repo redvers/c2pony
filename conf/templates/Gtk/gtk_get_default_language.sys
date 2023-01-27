@@ -1,0 +1,2 @@
+  fun get_default_language(): NullablePointer[PangoLanguageT] =>
+    @gtk_get_default_language()

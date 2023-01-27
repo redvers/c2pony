@@ -1,2 +1,2 @@
   fun ref insert_after(sibling': NullablePointer[GListT], data': Pointer[None] tag): None =>
-    GQueueP.insert_after(this.ptr, sibling', data')
+    GQueueP.insert_after(ptr, sibling', data')

@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GCharsetConverterClass
+  var ptr: NullablePointer[GCharsetConverterClassT]
+
+  new create() =>
+    ptr = NullablePointer[GCharsetConverterClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GCharsetConverterClassT]) => ptr = ptr'

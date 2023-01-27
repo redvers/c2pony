@@ -1,0 +1,12 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkMultiSelectionClass
+  var ptr: NullablePointer[GtkMultiSelectionClassT]
+
+  new create() =>
+    ptr = NullablePointer[GtkMultiSelectionClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GtkMultiSelectionClassT]) => ptr = ptr'

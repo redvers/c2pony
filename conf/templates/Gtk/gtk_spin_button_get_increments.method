@@ -1,0 +1,2 @@
+  fun ref get_increments(step': Pointer[F64] tag, page': Pointer[F64] tag): None =>
+    GtkSpinButtonP.get_increments(this, step', page')

@@ -1,0 +1,2 @@
+  fun ref get_display(info': NullablePointer[GAppInfoT], files': NullablePointer[GListT]): String iso^ =>
+    GAppLaunchContextP.get_display(this, info', files')

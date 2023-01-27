@@ -1,0 +1,2 @@
+  fun intersect(self': NullablePointer[GtkBitsetT], other': NullablePointer[GtkBitsetT]): None =>
+    @gtk_bitset_intersect(self', other')

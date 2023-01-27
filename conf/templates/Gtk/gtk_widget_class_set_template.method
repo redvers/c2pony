@@ -1,0 +1,2 @@
+  fun ref set_template(template_bytes': NullablePointer[GBytesT]): None =>
+    GtkWidgetClassP.set_template(ptr, template_bytes')

@@ -1,2 +1,2 @@
   fun ref get_value(group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
-    GKeyFileP.get_value(this.ptr, group_name', key', error')
+    GKeyFileP.get_value(ptr, group_name', key', error')

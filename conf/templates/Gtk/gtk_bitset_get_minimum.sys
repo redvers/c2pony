@@ -1,0 +1,2 @@
+  fun get_minimum(self': NullablePointer[GtkBitsetT]): U32 =>
+    @gtk_bitset_get_minimum(self')

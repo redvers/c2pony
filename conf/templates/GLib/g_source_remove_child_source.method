@@ -1,2 +1,2 @@
   fun ref remove_child_source(child_source': NullablePointer[GSourceT]): None =>
-    GSourceP.remove_child_source(this.ptr, child_source')
+    GSourceP.remove_child_source(ptr, child_source')

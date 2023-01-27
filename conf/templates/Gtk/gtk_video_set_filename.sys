@@ -1,0 +1,2 @@
+  fun set_filename(self': NullablePointer[GtkVideoT], filename': String): None =>
+    @gtk_video_set_filename(self', filename'.cstring())

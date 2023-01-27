@@ -1,2 +1,2 @@
   fun ref is_subtype_of(supertype': NullablePointer[GVariantTypeT]): I32 =>
-    GVariantTypeP.is_subtype_of(this.ptr, supertype')
+    GVariantTypeP.is_subtype_of(ptr, supertype')

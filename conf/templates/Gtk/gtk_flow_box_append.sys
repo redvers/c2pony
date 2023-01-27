@@ -1,0 +1,2 @@
+  fun append(self': NullablePointer[GtkFlowBoxT], child': GtkWidgetI): None =>
+    @gtk_flow_box_append(self', child'.getptr())

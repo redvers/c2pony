@@ -1,0 +1,2 @@
+  fun attach_source(task': NullablePointer[GTaskT], source': NullablePointer[GSourceT], callback': GSourceFunc): None =>
+    @g_task_attach_source(task', source', callback')

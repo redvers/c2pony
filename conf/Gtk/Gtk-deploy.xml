@@ -189,7 +189,7 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkCellRendererClassPrivate" render="0">
 </renderstruct>
-    <renderstruct name="GtkCellRendererPrivate" render="0">
+    <renderstruct name="GtkCellRendererPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkCellRendererTextClass" render="0">
 </renderstruct>
@@ -344,11 +344,11 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkIMContextSimpleClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkIMContextSimplePrivate" render="0">
+    <renderstruct name="GtkIMContextSimplePrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkIMMulticontextClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkIMMulticontextPrivate" render="0">
+    <renderstruct name="GtkIMMulticontextPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkKeyvalTriggerClass" render="0">
 </renderstruct>
@@ -366,7 +366,7 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkListStoreClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkListStorePrivate" render="0">
+    <renderstruct name="GtkListStorePrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkListViewClass" render="0">
 </renderstruct>
@@ -461,7 +461,7 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkPrintOperationPreviewIface" render="0">
 </renderstruct>
-    <renderstruct name="GtkPrintOperationPrivate" render="0">
+    <renderstruct name="GtkPrintOperationPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkRangeClass" render="0">
 </renderstruct>
@@ -495,7 +495,7 @@ use "lib:gtk-4.0"
     </renderstruct>
     <renderstruct name="GtkRecentManagerClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkRecentManagerPrivate" render="0">
+    <renderstruct name="GtkRecentManagerPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkRequestedSize" render="0">
 </renderstruct>
@@ -562,7 +562,7 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkTextBufferClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkTextBufferPrivate" render="0">
+    <renderstruct name="GtkTextBufferPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkTextChildAnchorClass" render="0">
 </renderstruct>
@@ -662,11 +662,11 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkTextTagClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkTextTagPrivate" render="0">
+    <renderstruct name="GtkTextTagPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkTextViewClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkTextViewPrivate" render="0">
+    <renderstruct name="GtkTextViewPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkToggleButtonClass" render="0">
 </renderstruct>
@@ -688,13 +688,13 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkTreeModelFilterClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkTreeModelFilterPrivate" render="0">
+    <renderstruct name="GtkTreeModelFilterPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkTreeModelIface" render="0">
 </renderstruct>
     <renderstruct name="GtkTreeModelSortClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkTreeModelSortPrivate" render="0">
+    <renderstruct name="GtkTreeModelSortPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkTreePath" render="0">
       <renderconstructor name="gtk_tree_path_new" ponyname="new" render="0" deprecated=""/>
@@ -734,7 +734,7 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkTreeStoreClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkTreeStorePrivate" render="0">
+    <renderstruct name="GtkTreeStorePrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkTreeViewClass" render="0">
 </renderstruct>
@@ -767,7 +767,7 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkWidgetPaintableClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkWidgetPrivate" render="0">
+    <renderstruct name="GtkWidgetPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkWindowClass" render="0">
 </renderstruct>
@@ -775,7 +775,7 @@ use "lib:gtk-4.0"
 </renderstruct>
     <renderstruct name="GtkWindowGroupClass" render="0">
 </renderstruct>
-    <renderstruct name="GtkWindowGroupPrivate" render="0">
+    <renderstruct name="GtkWindowGroupPrivate" render="1">
 </renderstruct>
     <renderstruct name="GtkWindowHandleClass" render="0">
 </renderstruct>
@@ -2460,7 +2460,7 @@ use "lib:gtk-4.0"
       <renderconstructor name="gtk_mnemonic_trigger_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="gtk_mnemonic_trigger_get_keyval" ponyname="get_keyval" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkMountOperation" render="1" parent="Gio.MountOperation" abstract="" final="" fundamental="">
+    <renderclass name="GtkMountOperation" render="0" parent="Gio.MountOperation" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_mount_operation_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="gtk_mount_operation_get_display" ponyname="get_display" render="0" deprecated=""/>
       <rendermethod name="gtk_mount_operation_get_parent" ponyname="get_parent" render="0" deprecated=""/>
@@ -2624,7 +2624,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_page_setup_to_gvariant" ponyname="to_gvariant" render="0" deprecated=""/>
       <rendermethod name="gtk_page_setup_to_key_file" ponyname="to_key_file" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkPageSetupUnixDialog" render="1" parent="Dialog" abstract="" final="" fundamental="">
+    <renderclass name="GtkPageSetupUnixDialog" render="0" parent="Dialog" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_page_setup_unix_dialog_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="gtk_page_setup_unix_dialog_get_page_setup" ponyname="get_page_setup" render="0" deprecated=""/>
       <rendermethod name="gtk_page_setup_unix_dialog_get_print_settings" ponyname="get_print_settings" render="0" deprecated=""/>
@@ -2734,7 +2734,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_print_context_get_width" ponyname="get_width" render="0" deprecated=""/>
       <rendermethod name="gtk_print_context_set_cairo_context" ponyname="set_cairo_context" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkPrintJob" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
+    <renderclass name="GtkPrintJob" render="0" parent="GObject.Object" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_print_job_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="gtk_print_job_get_collate" ponyname="get_collate" render="0" deprecated=""/>
       <rendermethod name="gtk_print_job_get_n_up" ponyname="get_n_up" render="0" deprecated=""/>
@@ -2877,7 +2877,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_print_settings_to_key_file" ponyname="to_key_file" render="0" deprecated=""/>
       <rendermethod name="gtk_print_settings_unset" ponyname="unset" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkPrintUnixDialog" render="1" parent="Dialog" abstract="" final="" fundamental="">
+    <renderclass name="GtkPrintUnixDialog" render="0" parent="Dialog" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_print_unix_dialog_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="gtk_print_unix_dialog_add_custom_tab" ponyname="add_custom_tab" render="0" deprecated=""/>
       <rendermethod name="gtk_print_unix_dialog_get_current_page" ponyname="get_current_page" render="0" deprecated=""/>
@@ -2897,7 +2897,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_print_unix_dialog_set_settings" ponyname="set_settings" render="0" deprecated=""/>
       <rendermethod name="gtk_print_unix_dialog_set_support_selection" ponyname="set_support_selection" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkPrinter" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
+    <renderclass name="GtkPrinter" render="0" parent="GObject.Object" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_printer_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="gtk_printer_accepts_pdf" ponyname="accepts_pdf" render="0" deprecated=""/>
       <rendermethod name="gtk_printer_accepts_ps" ponyname="accepts_ps" render="0" deprecated=""/>

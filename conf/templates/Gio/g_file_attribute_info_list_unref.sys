@@ -1,0 +1,2 @@
+  fun unref(list': NullablePointer[GFileAttributeInfoListT]): None =>
+    @g_file_attribute_info_list_unref(list')

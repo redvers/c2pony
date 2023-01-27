@@ -1,0 +1,2 @@
+  fun ref reset_cursor_blink(): None =>
+    GtkTextViewP.reset_cursor_blink(this)

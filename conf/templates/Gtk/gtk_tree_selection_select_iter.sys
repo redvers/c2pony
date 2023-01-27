@@ -1,0 +1,2 @@
+  fun select_iter(selection': NullablePointer[GtkTreeSelectionT], iter': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_selection_select_iter(selection', iter')

@@ -1,0 +1,2 @@
+  fun new_abstract(path': String, path_len': I32): NullablePointer[GSocketAddressT] =>
+    @g_unix_socket_address_new_abstract(path'.cstring(), path_len')

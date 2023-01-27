@@ -1,2 +1,2 @@
   fun ref remove(item': Pointer[None] tag): I32 =>
-    GAsyncQueueP.remove(this.ptr, item')
+    GAsyncQueueP.remove(ptr, item')

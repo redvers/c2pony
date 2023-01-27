@@ -1,0 +1,2 @@
+  new new() =>
+    ptr = @gtk_tree_path_new()

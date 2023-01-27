@@ -1,0 +1,2 @@
+  fun prepend_item(menu': NullablePointer[GMenuT], item': NullablePointer[GMenuItemT]): None =>
+    @g_menu_prepend_item(menu', item')

@@ -1,0 +1,1 @@
+use @g_io_modules_load_all_in_directory_with_scope[NullablePointer[GListT]](dirname': Pointer[U8] tag, scope': NullablePointer[GIOModuleScopeT])

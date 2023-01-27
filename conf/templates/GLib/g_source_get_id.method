@@ -1,2 +1,2 @@
   fun ref get_id(): U32 =>
-    GSourceP.get_id(this.ptr)
+    GSourceP.get_id(ptr)

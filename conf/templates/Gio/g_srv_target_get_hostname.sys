@@ -1,0 +1,2 @@
+  fun get_hostname(target': NullablePointer[GSrvTargetT]): String iso^ =>
+    String.from_cstring(@g_srv_target_get_hostname(target')).clone()

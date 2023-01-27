@@ -1,0 +1,2 @@
+  fun ref query_info(attributes': String, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileInfoT] =>
+    GFileInputStreamP.query_info(this, attributes', cancellable', error')

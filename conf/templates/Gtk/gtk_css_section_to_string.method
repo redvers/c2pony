@@ -1,0 +1,2 @@
+  fun ref to_string(): String iso^ =>
+    GtkCssSectionP.to_string(ptr)

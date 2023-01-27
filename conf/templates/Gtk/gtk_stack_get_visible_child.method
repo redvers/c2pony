@@ -1,0 +1,2 @@
+  fun ref get_visible_child(): NullablePointer[GObjectT] =>
+    GtkStackP.get_visible_child(this)

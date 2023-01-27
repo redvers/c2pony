@@ -1,0 +1,1 @@
+use @gtk_render_icon[None](context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], texture': NullablePointer[GdkTextureT], x': F64, y': F64)

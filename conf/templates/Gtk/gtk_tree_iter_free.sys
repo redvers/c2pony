@@ -1,0 +1,2 @@
+  fun free(iter': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_iter_free(iter')

@@ -1,0 +1,2 @@
+  fun get_visible_rect(tree_view': NullablePointer[GtkTreeViewT], visible_rect': NullablePointer[cairorectangleintT]): None =>
+    @gtk_tree_view_get_visible_rect(tree_view', visible_rect')

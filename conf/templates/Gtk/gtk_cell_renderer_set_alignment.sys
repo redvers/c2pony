@@ -1,0 +1,2 @@
+  fun set_alignment(cell': NullablePointer[GtkCellRendererT], xalign': F32, yalign': F32): None =>
+    @gtk_cell_renderer_set_alignment(cell', xalign', yalign')

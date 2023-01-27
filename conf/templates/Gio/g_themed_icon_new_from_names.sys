@@ -1,0 +1,2 @@
+  fun new_from_names(iconnames': Pointer[Pointer[U8]] tag, len': I32): NullablePointer[GIconT] =>
+    @g_themed_icon_new_from_names(iconnames', len')

@@ -1,0 +1,2 @@
+  fun ref get_remote_address(error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSocketAddressT] =>
+    GSocketConnectionP.get_remote_address(this, error')

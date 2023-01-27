@@ -1,0 +1,2 @@
+  fun get_file(self': NullablePointer[GtkIconPaintableT]): NullablePointer[GFileT] =>
+    @gtk_icon_paintable_get_file(self')

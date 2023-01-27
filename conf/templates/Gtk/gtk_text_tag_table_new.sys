@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkTextTagTableT] =>
+    @gtk_text_tag_table_new()

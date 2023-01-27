@@ -1,0 +1,2 @@
+  fun set_from_resource(image': NullablePointer[GtkImageT], resource_path': String): None =>
+    @gtk_image_set_from_resource(image', resource_path'.cstring())

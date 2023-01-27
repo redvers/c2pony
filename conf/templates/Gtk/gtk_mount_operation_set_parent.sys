@@ -1,0 +1,2 @@
+  fun set_parent(op': NullablePointer[GtkMountOperationT], parent': GtkWindowI): None =>
+    @gtk_mount_operation_set_parent(op', parent'.getptr())

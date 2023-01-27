@@ -1,0 +1,2 @@
+  fun get_popup(button': NullablePointer[GtkScaleButtonT]): NullablePointer[GObjectT] =>
+@gtk_scale_button_get_popup(button')

@@ -1,0 +1,2 @@
+  fun get_homogeneous(box_layout': NullablePointer[GtkBoxLayoutT]): I32 =>
+    @gtk_box_layout_get_homogeneous(box_layout')

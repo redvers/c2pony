@@ -1,0 +1,2 @@
+  fun spawnv(self': NullablePointer[GSubprocessLauncherT], argv': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GSubprocessT] =>
+    @g_subprocess_launcher_spawnv(self', argv', error')

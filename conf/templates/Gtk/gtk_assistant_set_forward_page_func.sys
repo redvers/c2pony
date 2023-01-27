@@ -1,0 +1,2 @@
+  fun set_forward_page_func(assistant': NullablePointer[GtkAssistantT], page_func': GtkAssistantPageFunc, data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_assistant_set_forward_page_func(assistant', page_func', data', destroy')

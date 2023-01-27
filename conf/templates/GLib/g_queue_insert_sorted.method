@@ -1,2 +1,2 @@
   fun ref insert_sorted(data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
-    GQueueP.insert_sorted(this.ptr, data', func', user_data')
+    GQueueP.insert_sorted(ptr, data', func', user_data')

@@ -1,0 +1,1 @@
+use @gtk_picture_set_filename[None](self': NullablePointer[GtkPictureT], filename': Pointer[U8] tag)

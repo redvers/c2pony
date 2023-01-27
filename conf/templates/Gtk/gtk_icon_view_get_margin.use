@@ -1,0 +1,1 @@
+use @gtk_icon_view_get_margin[I32](icon_view': NullablePointer[GtkIconViewT])

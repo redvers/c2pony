@@ -1,2 +1,2 @@
   fun ref push_tail(data': Pointer[None] tag): None =>
-    GQueueP.push_tail(this.ptr, data')
+    GQueueP.push_tail(ptr, data')

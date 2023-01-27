@@ -1,0 +1,2 @@
+  fun start_message_processing(connection': NullablePointer[GDBusConnectionT]): None =>
+    @g_dbus_connection_start_message_processing(connection')

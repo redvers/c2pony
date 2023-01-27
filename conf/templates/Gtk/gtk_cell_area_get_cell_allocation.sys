@@ -1,0 +1,2 @@
+  fun get_cell_allocation(area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': GtkWidgetI, renderer': NullablePointer[GtkCellRendererT], cell_area': NullablePointer[cairorectangleintT], allocation': NullablePointer[cairorectangleintT]): None =>
+    @gtk_cell_area_get_cell_allocation(area', context', widget'.getptr(), renderer', cell_area', allocation')

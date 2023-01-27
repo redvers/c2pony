@@ -1,0 +1,2 @@
+  fun equal(lhs': NullablePointer[GtkTextIterT], rhs': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_equal(lhs', rhs')

@@ -1,0 +1,2 @@
+  fun ref get_sequences(): NullablePointer[GListT] =>
+    GtkGestureP.get_sequences(this)

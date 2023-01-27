@@ -1,0 +1,2 @@
+  fun get_stack(switcher': NullablePointer[GtkStackSwitcherT]): NullablePointer[GtkStackT] =>
+    @gtk_stack_switcher_get_stack(switcher')

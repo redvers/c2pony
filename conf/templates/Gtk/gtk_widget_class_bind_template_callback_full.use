@@ -1,0 +1,1 @@
+use @gtk_widget_class_bind_template_callback_full[None](widget_class': NullablePointer[GtkWidgetClassT], callback_name': Pointer[U8] tag, callback_symbol': GCallback)

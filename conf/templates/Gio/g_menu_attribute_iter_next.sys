@@ -1,0 +1,2 @@
+  fun next(iter': NullablePointer[GMenuAttributeIterT]): I32 =>
+    @g_menu_attribute_iter_next(iter')

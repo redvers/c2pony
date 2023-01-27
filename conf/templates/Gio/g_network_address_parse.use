@@ -1,0 +1,1 @@
+use @g_network_address_parse[NullablePointer[GSocketConnectableT]](host_and_port': Pointer[U8] tag, default_port': U16, error': Pointer[NullablePointer[GErrorT]])

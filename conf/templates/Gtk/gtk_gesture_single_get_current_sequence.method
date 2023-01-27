@@ -1,0 +1,2 @@
+  fun ref get_current_sequence(): NullablePointer[GdkEventSequenceT] =>
+    GtkGestureSingleP.get_current_sequence(this)

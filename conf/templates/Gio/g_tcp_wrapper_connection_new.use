@@ -1,0 +1,1 @@
+use @g_tcp_wrapper_connection_new[NullablePointer[GSocketConnectionT]](base_io_stream': NullablePointer[GIOStreamT], socket': NullablePointer[GSocketT])

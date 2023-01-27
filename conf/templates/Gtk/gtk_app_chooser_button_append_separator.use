@@ -1,0 +1,1 @@
+use @gtk_app_chooser_button_append_separator[None](self': NullablePointer[GtkAppChooserButtonT])

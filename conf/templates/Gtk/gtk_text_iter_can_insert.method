@@ -1,0 +1,2 @@
+  fun ref can_insert(default_editability': I32): I32 =>
+    GtkTextIterP.can_insert(ptr, default_editability')

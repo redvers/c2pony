@@ -1,2 +1,2 @@
   fun ref insert_sorted_iter(data': Pointer[None] tag, iter_cmp': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
-    GSequenceP.insert_sorted_iter(this.ptr, data', iter_cmp', cmp_data')
+    GSequenceP.insert_sorted_iter(ptr, data', iter_cmp', cmp_data')

@@ -1,0 +1,1 @@
+use @g_buffered_input_stream_peek_buffer[Pointer[None] tag](stream': NullablePointer[GBufferedInputStreamT], count': Pointer[U64] tag)

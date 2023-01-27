@@ -1,0 +1,2 @@
+  fun get_expression(self': NullablePointer[GtkDropDownT]): NullablePointer[GtkExpressionT] =>
+    @gtk_drop_down_get_expression(self')

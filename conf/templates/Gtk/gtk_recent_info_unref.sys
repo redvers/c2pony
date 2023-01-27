@@ -1,0 +1,2 @@
+  fun unref(info': NullablePointer[GtkRecentInfoT]): None =>
+    @gtk_recent_info_unref(info')

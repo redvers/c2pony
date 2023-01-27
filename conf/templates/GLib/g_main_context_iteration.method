@@ -1,2 +1,2 @@
   fun ref iteration(may_block': I32): I32 =>
-    GMainContextP.iteration(this.ptr, may_block')
+    GMainContextP.iteration(ptr, may_block')

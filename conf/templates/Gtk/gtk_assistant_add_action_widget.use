@@ -1,0 +1,1 @@
+use @gtk_assistant_add_action_widget[None](assistant': NullablePointer[GtkAssistantT], child': NullablePointer[GObjectT])

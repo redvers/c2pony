@@ -1,2 +1,2 @@
   fun ref get_type(): NullablePointer[GVariantTypeT] =>
-    GVariantP.get_type(this.ptr)
+    GVariantP.get_type(ptr)

@@ -1,0 +1,2 @@
+  fun set_paper_height(settings': NullablePointer[GtkPrintSettingsT], height': F64, unit': U32): None =>
+    @gtk_print_settings_set_paper_height(settings', height', unit')

@@ -1,0 +1,2 @@
+  fun set_show_border(notebook': NullablePointer[GtkNotebookT], show_border': I32): None =>
+    @gtk_notebook_set_show_border(notebook', show_border')

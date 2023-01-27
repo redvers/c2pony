@@ -1,0 +1,2 @@
+  fun add_shortcut(self': NullablePointer[GtkShortcutControllerT], shortcut': NullablePointer[GtkShortcutT]): None =>
+    @gtk_shortcut_controller_add_shortcut(self', shortcut')

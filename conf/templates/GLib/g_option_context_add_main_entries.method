@@ -1,2 +1,2 @@
   fun ref add_main_entries(entries': NullablePointer[GOptionEntryT], translation_domain': String): None =>
-    GOptionContextP.add_main_entries(this.ptr, entries', translation_domain')
+    GOptionContextP.add_main_entries(ptr, entries', translation_domain')

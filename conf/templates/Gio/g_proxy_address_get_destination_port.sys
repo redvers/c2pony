@@ -1,0 +1,2 @@
+  fun get_destination_port(proxy': NullablePointer[GProxyAddressT]): U16 =>
+    @g_proxy_address_get_destination_port(proxy')

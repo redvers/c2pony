@@ -1,0 +1,2 @@
+  fun ref set_model(model': NullablePointer[GListModelT]): None =>
+    GtkMultiSelectionP.set_model(this, model')

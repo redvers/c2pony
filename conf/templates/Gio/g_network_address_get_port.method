@@ -1,0 +1,2 @@
+  fun ref get_port(): U16 =>
+    GNetworkAddressP.get_port(this)

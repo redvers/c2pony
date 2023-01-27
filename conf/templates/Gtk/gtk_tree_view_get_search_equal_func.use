@@ -1,0 +1,1 @@
+use @gtk_tree_view_get_search_equal_func[GtkTreeViewSearchEqualFunc](tree_view': NullablePointer[GtkTreeViewT])

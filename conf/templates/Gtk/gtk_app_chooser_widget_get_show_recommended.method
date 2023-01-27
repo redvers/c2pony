@@ -1,0 +1,2 @@
+  fun ref get_show_recommended(): I32 =>
+    GtkAppChooserWidgetP.get_show_recommended(this)

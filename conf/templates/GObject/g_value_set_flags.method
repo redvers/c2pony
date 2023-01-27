@@ -1,2 +1,2 @@
   fun ref set_flags(v_flags': U32): None =>
-    GValueP.set_flags(this.ptr, v_flags')
+    GValueP.set_flags(ptr, v_flags')

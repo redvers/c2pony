@@ -1,0 +1,2 @@
+  fun get_invert(self': NullablePointer[GtkBoolFilterT]): I32 =>
+    @gtk_bool_filter_get_invert(self')

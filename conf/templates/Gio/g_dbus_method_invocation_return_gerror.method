@@ -1,0 +1,2 @@
+  fun ref return_gerror(error': NullablePointer[GErrorT]): None =>
+    GDBusMethodInvocationP.return_gerror(this, error')

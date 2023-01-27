@@ -1,0 +1,2 @@
+  fun refilter(filter': NullablePointer[GtkTreeModelFilterT]): None =>
+    @gtk_tree_model_filter_refilter(filter')

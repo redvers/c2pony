@@ -1,0 +1,2 @@
+  fun lookup_signal(info': NullablePointer[GDBusInterfaceInfoT], name': String): NullablePointer[GDBusSignalInfoT] =>
+    @g_dbus_interface_info_lookup_signal(info', name'.cstring())

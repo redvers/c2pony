@@ -1,0 +1,2 @@
+  fun get_name(controller': NullablePointer[GtkEventControllerT]): String iso^ =>
+    String.from_cstring(@gtk_event_controller_get_name(controller')).clone()

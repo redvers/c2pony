@@ -1,0 +1,16 @@
+
+use @g_dbus_connection_get_type[U64]()
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GDBusConnection is GDBusConnectionI
+  var ptr: NullablePointer[GObjectT]
+
+  new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
+
+  new create() =>
+    ptr = GObjectG.gnew(@g_dbus_connection_get_type())
+
+  fun ref getptr(): NullablePointer[GObjectT] => ptr

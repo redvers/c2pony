@@ -1,0 +1,2 @@
+  fun get_padding(context': NullablePointer[GtkStyleContextT], padding': NullablePointer[GtkBorderT]): None =>
+    @gtk_style_context_get_padding(context', padding')

@@ -1,0 +1,2 @@
+  fun fini(static_resource': NullablePointer[GStaticResourceT]): None =>
+    @g_static_resource_fini(static_resource')

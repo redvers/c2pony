@@ -1,0 +1,2 @@
+  fun insert_section(menu': NullablePointer[GMenuT], position': I32, label': String, section': NullablePointer[GMenuModelT]): None =>
+    @g_menu_insert_section(menu', position', label'.cstring(), section')

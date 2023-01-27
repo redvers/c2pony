@@ -1,0 +1,1 @@
+use @g_filename_completer_set_dirs_only[None](completer': NullablePointer[GFilenameCompleterT], dirs_only': I32)

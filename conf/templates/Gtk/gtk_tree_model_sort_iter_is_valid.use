@@ -1,0 +1,1 @@
+use @gtk_tree_model_sort_iter_is_valid[I32](tree_model_sort': NullablePointer[GtkTreeModelSortT], iter': NullablePointer[GtkTreeIterT])

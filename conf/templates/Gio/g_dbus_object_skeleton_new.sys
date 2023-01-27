@@ -1,0 +1,2 @@
+  fun new(object_path': String): NullablePointer[GDBusObjectSkeletonT] =>
+    @g_dbus_object_skeleton_new(object_path'.cstring())

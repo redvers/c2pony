@@ -1,2 +1,2 @@
   fun ref impl(func': GThreadFunc, arg': Pointer[None] tag): Pointer[None] tag =>
-    GOnceP.impl(this.ptr, func', arg')
+    GOnceP.impl(ptr, func', arg')

@@ -1,0 +1,2 @@
+  fun get_model(self': NullablePointer[GtkFilterListModelT]): NullablePointer[GListModelT] =>
+    @gtk_filter_list_model_get_model(self')

@@ -1,0 +1,2 @@
+  fun pack_start(box': NullablePointer[GtkCellAreaBoxT], renderer': NullablePointer[GtkCellRendererT], expand': I32, align': I32, fixed': I32): None =>
+    @gtk_cell_area_box_pack_start(box', renderer', expand', align', fixed')

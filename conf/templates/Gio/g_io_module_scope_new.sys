@@ -1,0 +1,2 @@
+  fun new(flags': U32): NullablePointer[GIOModuleScopeT] =>
+    @g_io_module_scope_new(flags')

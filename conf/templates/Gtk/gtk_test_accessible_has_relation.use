@@ -1,0 +1,1 @@
+use @gtk_test_accessible_has_relation[I32](accessible': NullablePointer[GtkAccessibleT], relation': U32)

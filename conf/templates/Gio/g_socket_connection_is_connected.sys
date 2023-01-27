@@ -1,0 +1,2 @@
+  fun is_connected(connection': NullablePointer[GSocketConnectionT]): I32 =>
+    @g_socket_connection_is_connected(connection')

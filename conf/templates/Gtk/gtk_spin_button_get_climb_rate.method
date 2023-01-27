@@ -1,0 +1,2 @@
+  fun ref get_climb_rate(): F64 =>
+    GtkSpinButtonP.get_climb_rate(this)

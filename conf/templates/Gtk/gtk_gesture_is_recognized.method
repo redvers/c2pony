@@ -1,0 +1,2 @@
+  fun ref is_recognized(): I32 =>
+    GtkGestureP.is_recognized(this)

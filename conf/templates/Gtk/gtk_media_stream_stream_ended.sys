@@ -1,0 +1,2 @@
+  fun stream_ended(self': NullablePointer[GtkMediaStreamT]): None =>
+    @gtk_media_stream_stream_ended(self')

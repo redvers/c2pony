@@ -1,0 +1,2 @@
+  fun set_activates_default(entry': NullablePointer[GtkEntryT], setting': I32): None =>
+    @gtk_entry_set_activates_default(entry', setting')

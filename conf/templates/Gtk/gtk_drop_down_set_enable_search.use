@@ -1,0 +1,1 @@
+use @gtk_drop_down_set_enable_search[None](self': NullablePointer[GtkDropDownT], enable_search': I32)

@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkLayoutManagerT] =>
+    @gtk_fixed_layout_new()

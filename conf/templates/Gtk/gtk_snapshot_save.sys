@@ -1,0 +1,2 @@
+  fun save(snapshot': NullablePointer[GdkSnapshotT]): None =>
+    @gtk_snapshot_save(snapshot')

@@ -1,0 +1,2 @@
+  fun ref get_columns(): NullablePointer[GListT] =>
+    GtkTreeViewP.get_columns(this)

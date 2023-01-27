@@ -1,0 +1,2 @@
+  fun ref get_attributes(): String iso^ =>
+    GtkBookmarkListP.get_attributes(this)

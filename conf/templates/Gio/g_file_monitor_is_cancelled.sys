@@ -1,0 +1,2 @@
+  fun is_cancelled(monitor': NullablePointer[GFileMonitorT]): I32 =>
+    @g_file_monitor_is_cancelled(monitor')

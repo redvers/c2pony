@@ -1,0 +1,2 @@
+  fun new(flags': U32): NullablePointer[GSubprocessLauncherT] =>
+    @g_subprocess_launcher_new(flags')

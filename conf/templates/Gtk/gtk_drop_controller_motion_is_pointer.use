@@ -1,0 +1,1 @@
+use @gtk_drop_controller_motion_is_pointer[I32](self': NullablePointer[GtkDropControllerMotionT])

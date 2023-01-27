@@ -1,0 +1,2 @@
+  fun ref create_pango_context(): NullablePointer[PangoContextT] =>
+    GtkWidgetP.create_pango_context(this)

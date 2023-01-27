@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GUnixFDMessageClass
+  var ptr: NullablePointer[GUnixFDMessageClassT]
+
+  new create() =>
+    ptr = NullablePointer[GUnixFDMessageClassT].none()
+  new create_from_ptr(ptr': NullablePointer[GUnixFDMessageClassT]) => ptr = ptr'

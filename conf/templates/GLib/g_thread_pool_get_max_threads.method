@@ -1,2 +1,2 @@
   fun ref get_max_threads(): I32 =>
-    GThreadPoolP.get_max_threads(this.ptr)
+    GThreadPoolP.get_max_threads(ptr)

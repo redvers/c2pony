@@ -1,0 +1,2 @@
+  fun new(initial_chars': String, n_initial_chars': I32): NullablePointer[GtkEntryBufferT] =>
+    @gtk_entry_buffer_new(initial_chars'.cstring(), n_initial_chars')

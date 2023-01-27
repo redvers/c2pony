@@ -1,0 +1,2 @@
+  fun get_current_page(assistant': NullablePointer[GtkAssistantT]): I32 =>
+    @gtk_assistant_get_current_page(assistant')

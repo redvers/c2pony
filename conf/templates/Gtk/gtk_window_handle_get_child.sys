@@ -1,0 +1,2 @@
+  fun get_child(self': NullablePointer[GtkWindowHandleT]): NullablePointer[GObjectT] =>
+@gtk_window_handle_get_child(self')

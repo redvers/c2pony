@@ -1,0 +1,1 @@
+use @gtk_entry_completion_new_with_area[NullablePointer[GtkEntryCompletionT]](area': NullablePointer[GtkCellAreaT])

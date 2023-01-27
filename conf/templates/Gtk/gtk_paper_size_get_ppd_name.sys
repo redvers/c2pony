@@ -1,0 +1,2 @@
+  fun get_ppd_name(size': NullablePointer[GtkPaperSizeT]): String iso^ =>
+    String.from_cstring(@gtk_paper_size_get_ppd_name(size')).clone()

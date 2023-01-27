@@ -1,0 +1,2 @@
+  fun ref write(buffer': Pointer[None] tag, count': U64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    GOutputStreamP.write(this, buffer', count', cancellable', error')

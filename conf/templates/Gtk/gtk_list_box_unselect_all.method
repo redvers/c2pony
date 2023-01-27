@@ -1,0 +1,2 @@
+  fun ref unselect_all(): None =>
+    GtkListBoxP.unselect_all(this)

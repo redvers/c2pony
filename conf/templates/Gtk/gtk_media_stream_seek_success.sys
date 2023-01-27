@@ -1,0 +1,2 @@
+  fun seek_success(self': NullablePointer[GtkMediaStreamT]): None =>
+    @gtk_media_stream_seek_success(self')

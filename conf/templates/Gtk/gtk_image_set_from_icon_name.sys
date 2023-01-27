@@ -1,0 +1,2 @@
+  fun set_from_icon_name(image': NullablePointer[GtkImageT], icon_name': String): None =>
+    @gtk_image_set_from_icon_name(image', icon_name'.cstring())

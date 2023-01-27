@@ -1,0 +1,2 @@
+  fun ref in_range(start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): I32 =>
+    GtkTextIterP.in_range(ptr, start', end')

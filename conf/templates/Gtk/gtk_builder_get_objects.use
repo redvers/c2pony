@@ -1,0 +1,1 @@
+use @gtk_builder_get_objects[NullablePointer[GSListT]](builder': NullablePointer[GObjectT])

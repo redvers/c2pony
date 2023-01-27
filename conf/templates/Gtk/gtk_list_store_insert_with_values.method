@@ -1,0 +1,2 @@
+  fun ref insert_with_values(iter': NullablePointer[GtkTreeIterT], position': I32, ...): None =>
+    GtkListStoreP.insert_with_values(this, iter', position', ...)

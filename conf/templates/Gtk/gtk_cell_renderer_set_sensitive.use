@@ -1,0 +1,1 @@
+use @gtk_cell_renderer_set_sensitive[None](cell': NullablePointer[GtkCellRendererT], sensitive': I32)

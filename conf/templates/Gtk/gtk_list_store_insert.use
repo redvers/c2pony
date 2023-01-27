@@ -1,0 +1,1 @@
+use @gtk_list_store_insert[None](list_store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], position': I32)

@@ -1,0 +1,1 @@
+use @gtk_paper_size_copy[NullablePointer[GtkPaperSizeT]](other': NullablePointer[GtkPaperSizeT])

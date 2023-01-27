@@ -1,0 +1,2 @@
+  fun ref get_extra_menu(): NullablePointer[GMenuModelT] =>
+    GtkTextViewP.get_extra_menu(this)

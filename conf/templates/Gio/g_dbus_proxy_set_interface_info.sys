@@ -1,0 +1,2 @@
+  fun set_interface_info(proxy': NullablePointer[GDBusProxyT], info': NullablePointer[GDBusInterfaceInfoT]): None =>
+    @g_dbus_proxy_set_interface_info(proxy', info')

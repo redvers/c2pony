@@ -1,0 +1,2 @@
+  fun unparent(widget': GtkWidgetI): None =>
+    @gtk_widget_unparent(widget'.getptr())

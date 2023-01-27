@@ -1,0 +1,1 @@
+use @gtk_file_filter_add_pattern[None](filter': NullablePointer[GtkFileFilterT], pattern': Pointer[U8] tag)

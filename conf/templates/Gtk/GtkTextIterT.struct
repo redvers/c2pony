@@ -1,0 +1,20 @@
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    struct GtkTextIterT
+  var dummy1': Pointer[None] = Pointer[None]
+  var dummy2': Pointer[None] = Pointer[None]
+  var dummy3': I32 = I32(0)
+  var dummy4': I32 = I32(0)
+  var dummy5': I32 = I32(0)
+  var dummy6': I32 = I32(0)
+  var dummy7': I32 = I32(0)
+  var dummy8': I32 = I32(0)
+  var dummy9': Pointer[None] = Pointer[None]
+  var dummy10': Pointer[None] = Pointer[None]
+  var dummy11': I32 = I32(0)
+  var dummy12': I32 = I32(0)
+  var dummy13': I32 = I32(0)
+  var dummy14': Pointer[None] = Pointer[None]

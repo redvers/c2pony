@@ -1,0 +1,1 @@
+use @gtk_bitset_shift_right[None](self': NullablePointer[GtkBitsetT], amount': U32)

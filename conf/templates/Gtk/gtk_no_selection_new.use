@@ -1,0 +1,1 @@
+use @gtk_no_selection_new[NullablePointer[GtkNoSelectionT]](model': NullablePointer[GListModelT])

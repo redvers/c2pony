@@ -1,0 +1,2 @@
+  fun ref get_button(): U32 =>
+    GtkGestureSingleP.get_button(this)

@@ -1,0 +1,2 @@
+  fun ref get_drop(): NullablePointer[GdkDropT] =>
+    GtkDropControllerMotionP.get_drop(this)

@@ -1,0 +1,1 @@
+use @gtk_app_chooser_widget_new[NullablePointer[GObjectT]](content_type': Pointer[U8] tag)

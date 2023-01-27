@@ -1,0 +1,1 @@
+use @gtk_menu_button_set_menu_model[None](menu_button': NullablePointer[GtkMenuButtonT], menu_model': NullablePointer[GMenuModelT])

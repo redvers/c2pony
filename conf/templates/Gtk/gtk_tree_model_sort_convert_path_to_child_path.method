@@ -1,0 +1,2 @@
+  fun ref convert_path_to_child_path(sorted_path': NullablePointer[GtkTreePathT]): NullablePointer[GtkTreePathT] =>
+    GtkTreeModelSortP.convert_path_to_child_path(this, sorted_path')

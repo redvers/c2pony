@@ -1,0 +1,2 @@
+  fun ref push_rounded_clip(bounds': NullablePointer[GskRoundedRectT]): None =>
+    P.push_rounded_clip(this, bounds')

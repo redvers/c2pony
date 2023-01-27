@@ -1,0 +1,2 @@
+  fun order(first': NullablePointer[GtkTextIterT], second': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_iter_order(first', second')

@@ -1,0 +1,1 @@
+use @gtk_paper_size_new[NullablePointer[GtkPaperSizeT]](name': Pointer[U8] tag)

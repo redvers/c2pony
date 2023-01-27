@@ -1,0 +1,1 @@
+use @g_file_io_stream_query_info_async[None](stream': NullablePointer[GFileIOStreamT], attributes': Pointer[U8] tag, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,0 +1,2 @@
+  fun minimize(window': GtkWindowI): None =>
+    @gtk_window_minimize(window'.getptr())

@@ -1,0 +1,2 @@
+  fun inside_word(iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_iter_inside_word(iter')

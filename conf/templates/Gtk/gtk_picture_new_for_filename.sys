@@ -1,0 +1,2 @@
+  fun new_for_filename(filename': String): NullablePointer[GObjectT] =>
+@gtk_picture_new_for_filename(filename'.cstring())

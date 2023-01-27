@@ -1,0 +1,2 @@
+  fun ref query_info_async(attributes': String, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    GFileIOStreamP.query_info_async(this, attributes', io_priority', cancellable', callback', user_data')

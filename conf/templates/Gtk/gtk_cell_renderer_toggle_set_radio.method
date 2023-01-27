@@ -1,0 +1,2 @@
+  fun ref set_radio(radio': I32): None =>
+    GtkCellRendererToggleP.set_radio(this, radio')

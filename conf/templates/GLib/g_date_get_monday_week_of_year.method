@@ -1,2 +1,2 @@
   fun ref get_monday_week_of_year(): U32 =>
-    GDateP.get_monday_week_of_year(this.ptr)
+    GDateP.get_monday_week_of_year(ptr)

@@ -1,0 +1,2 @@
+  fun ref get_header_bar(): NullablePointer[GObjectT] =>
+    GtkDialogP.get_header_bar(this)

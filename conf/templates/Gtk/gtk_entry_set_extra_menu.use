@@ -1,0 +1,1 @@
+use @gtk_entry_set_extra_menu[None](entry': NullablePointer[GtkEntryT], model': NullablePointer[GMenuModelT])

@@ -1,2 +1,2 @@
   fun ref peek_parent(): Pointer[None] tag =>
-    GTypeInterfaceP.peek_parent(this.ptr)
+    GTypeInterfaceP.peek_parent(ptr)

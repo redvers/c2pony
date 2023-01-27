@@ -1,0 +1,2 @@
+  fun ref get_priority(): U16 =>
+    GSrvTargetP.get_priority(ptr)

@@ -1,0 +1,2 @@
+  fun set_widget(tree_column': NullablePointer[GtkTreeViewColumnT], widget': GtkWidgetI): None =>
+    @gtk_tree_view_column_set_widget(tree_column', widget'.getptr())

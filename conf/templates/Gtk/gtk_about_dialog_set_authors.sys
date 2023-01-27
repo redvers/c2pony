@@ -1,0 +1,2 @@
+  fun set_authors(about': NullablePointer[GtkAboutDialogT], authors': Pointer[Pointer[U8]] tag): None =>
+    @gtk_about_dialog_set_authors(about', authors')

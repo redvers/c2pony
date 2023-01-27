@@ -1,0 +1,2 @@
+  fun append_color(snapshot': NullablePointer[GdkSnapshotT], color': NullablePointer[GdkRGBAT], bounds': NullablePointer[graphenerecttT]): None =>
+    @gtk_snapshot_append_color(snapshot', color', bounds')

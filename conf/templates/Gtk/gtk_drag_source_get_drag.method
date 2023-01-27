@@ -1,0 +1,2 @@
+  fun ref get_drag(): NullablePointer[GdkDragT] =>
+    GtkDragSourceP.get_drag(this)

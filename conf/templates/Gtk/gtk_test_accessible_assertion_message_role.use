@@ -1,0 +1,1 @@
+use @gtk_test_accessible_assertion_message_role[None](domain': Pointer[U8] tag, file': Pointer[U8] tag, line': I32, func': Pointer[U8] tag, expr': Pointer[U8] tag, accessible': NullablePointer[GtkAccessibleT], expected_role': U32, actual_role': U32)

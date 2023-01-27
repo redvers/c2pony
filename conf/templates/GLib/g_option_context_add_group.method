@@ -1,2 +1,2 @@
   fun ref add_group(group': NullablePointer[GOptionGroupT]): None =>
-    GOptionContextP.add_group(this.ptr, group')
+    GOptionContextP.add_group(ptr, group')

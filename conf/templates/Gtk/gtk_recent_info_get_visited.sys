@@ -1,0 +1,2 @@
+  fun get_visited(info': NullablePointer[GtkRecentInfoT]): NullablePointer[GDateTimeT] =>
+    @gtk_recent_info_get_visited(info')

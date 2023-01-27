@@ -1,0 +1,2 @@
+  fun ref clear_cache(): None =>
+    GtkTreeModelFilterP.clear_cache(this)

@@ -1,0 +1,2 @@
+  fun attach(grid': NullablePointer[GtkGridT], child': GtkWidgetI, column': I32, row': I32, width': I32, height': I32): None =>
+    @gtk_grid_attach(grid', child'.getptr(), column', row', width', height')

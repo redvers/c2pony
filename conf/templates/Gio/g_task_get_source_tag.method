@@ -1,0 +1,2 @@
+  fun ref get_source_tag(): Pointer[None] tag =>
+    GTaskP.get_source_tag(this)

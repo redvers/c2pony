@@ -1,0 +1,2 @@
+  fun ref append(filter': NullablePointer[GtkFilterT]): None =>
+    GtkMultiFilterP.append(this, filter')

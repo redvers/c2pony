@@ -1,2 +1,2 @@
   fun ref set_float(v_float': F32): None =>
-    GValueP.set_float(this.ptr, v_float')
+    GValueP.set_float(ptr, v_float')

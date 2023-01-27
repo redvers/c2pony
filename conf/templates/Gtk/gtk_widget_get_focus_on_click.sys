@@ -1,0 +1,2 @@
+  fun get_focus_on_click(widget': GtkWidgetI): I32 =>
+    @gtk_widget_get_focus_on_click(widget'.getptr())

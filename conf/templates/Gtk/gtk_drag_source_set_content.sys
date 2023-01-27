@@ -1,0 +1,2 @@
+  fun set_content(source': NullablePointer[GtkDragSourceT], content': NullablePointer[GdkContentProviderT]): None =>
+    @gtk_drag_source_set_content(source', content')

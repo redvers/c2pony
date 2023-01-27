@@ -1,0 +1,7 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+struct GTcpWrapperConnectionT
+  embed parent_instance': GTcpConnectionT = GTcpConnectionT
+  var priv': NullablePointer[GTcpWrapperConnectionPrivateT] = NullablePointer[GTcpWrapperConnectionPrivateT].none()

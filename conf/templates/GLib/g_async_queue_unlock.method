@@ -1,2 +1,2 @@
   fun ref unlock(): None =>
-    GAsyncQueueP.unlock(this.ptr)
+    GAsyncQueueP.unlock(ptr)

@@ -1,0 +1,2 @@
+  fun get_height(context': NullablePointer[GtkPrintContextT]): F64 =>
+    @gtk_print_context_get_height(context')

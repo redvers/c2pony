@@ -1,0 +1,2 @@
+  fun set_monospace(text_view': NullablePointer[GtkTextViewT], monospace': I32): None =>
+    @gtk_text_view_set_monospace(text_view', monospace')

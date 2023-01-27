@@ -1,0 +1,2 @@
+  fun remove_all(self': NullablePointer[GtkBitsetT]): None =>
+    @gtk_bitset_remove_all(self')

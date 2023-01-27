@@ -1,0 +1,1 @@
+use @gtk_range_get_inverted[I32](range': NullablePointer[GtkRangeT])

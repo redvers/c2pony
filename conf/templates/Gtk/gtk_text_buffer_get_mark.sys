@@ -1,0 +1,2 @@
+  fun get_mark(buffer': NullablePointer[GtkTextBufferT], name': String): NullablePointer[GtkTextMarkT] =>
+    @gtk_text_buffer_get_mark(buffer', name'.cstring())

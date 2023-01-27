@@ -1,0 +1,1 @@
+use @g_permission_release[I32](permission': NullablePointer[GPermissionT], cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]])

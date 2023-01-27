@@ -1,0 +1,2 @@
+  fun get_gutter(text_view': NullablePointer[GtkTextViewT], win': U32): NullablePointer[GObjectT] =>
+@gtk_text_view_get_gutter(text_view', win')

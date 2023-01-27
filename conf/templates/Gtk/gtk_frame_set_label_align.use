@@ -1,0 +1,1 @@
+use @gtk_frame_set_label_align[None](frame': NullablePointer[GtkFrameT], xalign': F32)

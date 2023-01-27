@@ -1,0 +1,2 @@
+  fun copy(other': NullablePointer[GtkPrintSettingsT]): NullablePointer[GtkPrintSettingsT] =>
+    @gtk_print_settings_copy(other')

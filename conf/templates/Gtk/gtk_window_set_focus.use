@@ -1,0 +1,1 @@
+use @gtk_window_set_focus[None](window': NullablePointer[GObjectT], focus': NullablePointer[GObjectT])

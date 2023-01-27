@@ -1,0 +1,2 @@
+  fun ref set_mnemonics_visible(mnemonics_visible': I32): None =>
+    GtkPopoverP.set_mnemonics_visible(this, mnemonics_visible')

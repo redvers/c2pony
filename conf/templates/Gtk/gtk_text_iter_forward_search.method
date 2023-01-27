@@ -1,0 +1,2 @@
+  fun ref forward_search(str': String, flags': U32, match_start': NullablePointer[GtkTextIterT], match_end': NullablePointer[GtkTextIterT], limit': NullablePointer[GtkTextIterT]): I32 =>
+    GtkTextIterP.forward_search(ptr, str', flags', match_start', match_end', limit')

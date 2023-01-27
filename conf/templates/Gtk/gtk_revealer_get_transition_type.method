@@ -1,0 +1,2 @@
+  fun ref get_transition_type(): U32 =>
+    GtkRevealerP.get_transition_type(this)

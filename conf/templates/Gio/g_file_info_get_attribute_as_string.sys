@@ -1,0 +1,2 @@
+  fun get_attribute_as_string(info': NullablePointer[GFileInfoT], attribute': String): String iso^ =>
+    String.from_cstring(@g_file_info_get_attribute_as_string(info', attribute'.cstring())).clone()

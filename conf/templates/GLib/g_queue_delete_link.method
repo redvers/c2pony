@@ -1,2 +1,2 @@
   fun ref delete_link(link': NullablePointer[GListT]): None =>
-    GQueueP.delete_link(this.ptr, link')
+    GQueueP.delete_link(ptr, link')

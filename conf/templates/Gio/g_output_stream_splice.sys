@@ -1,0 +1,2 @@
+  fun splice(stream': NullablePointer[GOutputStreamT], source': NullablePointer[GInputStreamT], flags': U32, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_output_stream_splice(stream', source', flags', cancellable', error')

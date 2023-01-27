@@ -1,0 +1,2 @@
+  fun ref get_window_by_id(id': U32): NullablePointer[GObjectT] =>
+    GtkApplicationP.get_window_by_id(this, id')

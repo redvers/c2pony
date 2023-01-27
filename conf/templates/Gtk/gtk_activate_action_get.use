@@ -1,0 +1,1 @@
+use @gtk_activate_action_get[NullablePointer[GtkShortcutActionT]]()

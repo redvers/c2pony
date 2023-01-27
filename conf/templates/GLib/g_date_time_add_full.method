@@ -1,2 +1,2 @@
   fun ref add_full(years': I32, months': I32, days': I32, hours': I32, minutes': I32, seconds': F64): NullablePointer[GDateTimeT] =>
-    GDateTimeP.add_full(this.ptr, years', months', days', hours', minutes', seconds')
+    GDateTimeP.add_full(ptr, years', months', days', hours', minutes', seconds')

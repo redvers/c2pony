@@ -1,0 +1,2 @@
+  fun ref get_selection(): NullablePointer[GtkTreeSelectionT] =>
+    GtkTreeViewP.get_selection(this)

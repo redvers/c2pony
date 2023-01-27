@@ -1,0 +1,1 @@
+use @gtk_widget_class_add_binding_action[None](widget_class': NullablePointer[GtkWidgetClassT], keyval': U32, mods': U32, action_name': Pointer[U8] tag, format_string': Pointer[U8] tag, ...)

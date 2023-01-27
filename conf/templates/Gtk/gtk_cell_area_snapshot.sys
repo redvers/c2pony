@@ -1,0 +1,2 @@
+  fun snapshot(area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': GtkWidgetI, snapshot': NullablePointer[GdkSnapshotT], background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32, paint_focus': I32): None =>
+    @gtk_cell_area_snapshot(area', context', widget'.getptr(), snapshot', background_area', cell_area', flags', paint_focus')

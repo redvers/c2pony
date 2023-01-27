@@ -1,0 +1,2 @@
+  fun get_key_capture_widget(bar': NullablePointer[GtkSearchBarT]): NullablePointer[GObjectT] =>
+@gtk_search_bar_get_key_capture_widget(bar')

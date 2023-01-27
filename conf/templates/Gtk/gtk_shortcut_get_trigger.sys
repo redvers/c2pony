@@ -1,0 +1,2 @@
+  fun get_trigger(self': NullablePointer[GtkShortcutT]): NullablePointer[GtkShortcutTriggerT] =>
+    @gtk_shortcut_get_trigger(self')

@@ -1,0 +1,1 @@
+use @gtk_widget_get_style_context[NullablePointer[GtkStyleContextT]](widget': NullablePointer[GObjectT])

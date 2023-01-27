@@ -1,0 +1,2 @@
+  fun ref get_icon_name(icon_pos': U32): String iso^ =>
+    GtkEntryP.get_icon_name(this, icon_pos')

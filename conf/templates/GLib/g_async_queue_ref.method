@@ -1,2 +1,2 @@
   fun ref ref(): NullablePointer[GAsyncQueueT] =>
-    GAsyncQueueP.ref(this.ptr)
+    GAsyncQueueP.ref(ptr)

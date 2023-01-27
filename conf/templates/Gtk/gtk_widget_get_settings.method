@@ -1,0 +1,2 @@
+  fun ref get_settings(): NullablePointer[GtkSettingsT] =>
+    GtkWidgetP.get_settings(this)

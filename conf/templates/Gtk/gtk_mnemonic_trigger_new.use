@@ -1,0 +1,1 @@
+use @gtk_mnemonic_trigger_new[NullablePointer[GtkShortcutTriggerT]](keyval': U32)

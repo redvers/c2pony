@@ -1,0 +1,2 @@
+  fun lookup(source': NullablePointer[GSettingsSchemaSourceT], schema_id': String, recursive': I32): NullablePointer[GSettingsSchemaT] =>
+    @g_settings_schema_source_lookup(source', schema_id'.cstring(), recursive')

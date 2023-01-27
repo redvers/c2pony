@@ -1,0 +1,11 @@
+
+use "../GLib"
+use "../GObject"
+use "lib:gio-2.0"
+
+class GDBusNodeInfo
+  var ptr: NullablePointer[GDBusNodeInfoT]
+
+  new create() =>
+    ptr = NullablePointer[GDBusNodeInfoT].none()
+  new create_from_ptr(ptr': NullablePointer[GDBusNodeInfoT]) => ptr = ptr'

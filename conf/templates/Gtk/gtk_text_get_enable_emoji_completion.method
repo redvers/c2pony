@@ -1,0 +1,2 @@
+  fun ref get_enable_emoji_completion(): I32 =>
+    GtkTextP.get_enable_emoji_completion(this)

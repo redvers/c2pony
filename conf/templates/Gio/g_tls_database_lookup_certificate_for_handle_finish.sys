@@ -1,0 +1,2 @@
+  fun lookup_certificate_for_handle_finish(self': NullablePointer[GTlsDatabaseT], result': NullablePointer[GAsyncResultT], error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GTlsCertificateT] =>
+    @g_tls_database_lookup_certificate_for_handle_finish(self', result', error')

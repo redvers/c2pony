@@ -1,0 +1,2 @@
+  fun get_pages(stack': NullablePointer[GtkStackT]): NullablePointer[GtkSelectionModelT] =>
+    @gtk_stack_get_pages(stack')

@@ -1,0 +1,1 @@
+use @gtk_application_uninhibit[None](application': NullablePointer[GObjectT], cookie': U32)

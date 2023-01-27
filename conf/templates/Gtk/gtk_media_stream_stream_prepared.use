@@ -1,0 +1,1 @@
+use @gtk_media_stream_stream_prepared[None](self': NullablePointer[GtkMediaStreamT], has_audio': I32, has_video': I32, seekable': I32, duration': I64)

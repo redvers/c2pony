@@ -1,2 +1,2 @@
   fun ref dup_string(): String iso^ =>
-    GValueP.dup_string(this.ptr)
+    GValueP.dup_string(ptr)

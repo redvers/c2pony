@@ -1,0 +1,2 @@
+  fun set_use_es(area': NullablePointer[GtkGLAreaT], use_es': I32): None =>
+    @gtk_gl_area_set_use_es(area', use_es')

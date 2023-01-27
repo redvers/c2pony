@@ -1,0 +1,2 @@
+  fun ref send(buffer': String, size': U64, cancellable': NullablePointer[GCancellableT], error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    GSocketP.send(this, buffer', size', cancellable', error')

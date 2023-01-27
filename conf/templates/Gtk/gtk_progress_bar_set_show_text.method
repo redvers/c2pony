@@ -1,0 +1,2 @@
+  fun ref set_show_text(show_text': I32): None =>
+    GtkProgressBarP.set_show_text(this, show_text')

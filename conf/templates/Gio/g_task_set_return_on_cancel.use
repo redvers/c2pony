@@ -1,0 +1,1 @@
+use @g_task_set_return_on_cancel[I32](task': NullablePointer[GTaskT], return_on_cancel': I32)

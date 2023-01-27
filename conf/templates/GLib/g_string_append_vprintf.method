@@ -1,2 +1,2 @@
   fun ref append_vprintf(format': String, args': NullablePointer[valisttagT]): None =>
-    GStringP.append_vprintf(this.ptr, format', args')
+    GStringP.append_vprintf(ptr, format', args')

@@ -1,0 +1,2 @@
+  fun get_vhomogeneous(stack': NullablePointer[GtkStackT]): I32 =>
+    @gtk_stack_get_vhomogeneous(stack')

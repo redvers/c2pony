@@ -1,0 +1,2 @@
+  fun get_bytes(buffer': NullablePointer[GtkEntryBufferT]): U64 =>
+    @gtk_entry_buffer_get_bytes(buffer')

@@ -1,2 +1,2 @@
   fun ref get_name_quark(): U32 =>
-    GParamSpecP.get_name_quark(this.ptr)
+    GParamSpecP.get_name_quark(this)

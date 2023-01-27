@@ -1,0 +1,1 @@
+use @gtk_event_controller_scroll_get_flags[U32](scroll': NullablePointer[GtkEventControllerScrollT])

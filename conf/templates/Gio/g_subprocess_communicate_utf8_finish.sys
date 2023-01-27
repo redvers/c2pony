@@ -1,0 +1,2 @@
+  fun communicate_utf8_finish(subprocess': NullablePointer[GSubprocessT], result': NullablePointer[GAsyncResultT], stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_subprocess_communicate_utf8_finish(subprocess', result', stdout_buf', stderr_buf', error')

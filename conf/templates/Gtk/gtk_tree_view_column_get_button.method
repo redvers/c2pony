@@ -1,0 +1,2 @@
+  fun ref get_button(): NullablePointer[GObjectT] =>
+    GtkTreeViewColumnP.get_button(this)

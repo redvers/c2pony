@@ -1,0 +1,1 @@
+use @g_socket_address_enumerator_next_async[None](enumerator': NullablePointer[GSocketAddressEnumeratorT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,2 +1,2 @@
   fun ref cur_position(): U32 =>
-    GScannerP.cur_position(this.ptr)
+    GScannerP.cur_position(ptr)

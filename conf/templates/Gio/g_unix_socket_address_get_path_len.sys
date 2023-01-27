@@ -1,0 +1,2 @@
+  fun get_path_len(address': NullablePointer[GUnixSocketAddressT]): U64 =>
+    @g_unix_socket_address_get_path_len(address')

@@ -1,0 +1,2 @@
+  fun ref get_last_updated_sequence(): NullablePointer[GdkEventSequenceT] =>
+    GtkGestureP.get_last_updated_sequence(this)

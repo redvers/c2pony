@@ -1,0 +1,2 @@
+  fun ref get_description(): String iso^ =>
+    GSettingsSchemaKeyP.get_description(ptr)

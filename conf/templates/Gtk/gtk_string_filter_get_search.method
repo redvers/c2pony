@@ -1,0 +1,2 @@
+  fun ref get_search(): String iso^ =>
+    GtkStringFilterP.get_search(this)

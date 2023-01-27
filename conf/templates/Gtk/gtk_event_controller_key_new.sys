@@ -1,0 +1,2 @@
+  fun new(): NullablePointer[GtkEventControllerT] =>
+    @gtk_event_controller_key_new()

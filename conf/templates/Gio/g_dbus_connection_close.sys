@@ -1,0 +1,2 @@
+  fun close(connection': NullablePointer[GDBusConnectionT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_connection_close(connection', cancellable', callback', user_data')

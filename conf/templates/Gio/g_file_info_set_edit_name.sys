@@ -1,0 +1,2 @@
+  fun set_edit_name(info': NullablePointer[GFileInfoT], edit_name': String): None =>
+    @g_file_info_set_edit_name(info', edit_name'.cstring())

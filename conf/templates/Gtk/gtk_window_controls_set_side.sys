@@ -1,0 +1,2 @@
+  fun set_side(self': NullablePointer[GtkWindowControlsT], side': U32): None =>
+    @gtk_window_controls_set_side(self', side')

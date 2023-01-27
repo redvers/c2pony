@@ -1,0 +1,2 @@
+  fun get_size(self': NullablePointer[GtkSliceListModelT]): U32 =>
+    @gtk_slice_list_model_get_size(self')

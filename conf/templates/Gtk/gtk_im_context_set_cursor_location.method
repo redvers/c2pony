@@ -1,0 +1,2 @@
+  fun ref set_cursor_location(area': NullablePointer[cairorectangleintT]): None =>
+    GtkIMContextP.set_cursor_location(this, area')

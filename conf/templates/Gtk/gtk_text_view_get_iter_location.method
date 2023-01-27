@@ -1,0 +1,2 @@
+  fun ref get_iter_location(iter': NullablePointer[GtkTextIterT], location': NullablePointer[cairorectangleintT]): None =>
+    GtkTextViewP.get_iter_location(this, iter', location')

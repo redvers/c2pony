@@ -1,0 +1,2 @@
+  fun set_debug_flags(flags': U32): None =>
+    @gtk_set_debug_flags(flags')

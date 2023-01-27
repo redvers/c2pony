@@ -1,0 +1,2 @@
+  fun ref set_custom_tab_label(label': String): None =>
+    GtkPrintOperationP.set_custom_tab_label(this, label')

@@ -1,2 +1,2 @@
   fun ref end(): NullablePointer[GVariantT] =>
-    GVariantDictP.end(this.ptr)
+    GVariantDictP.end(ptr)
