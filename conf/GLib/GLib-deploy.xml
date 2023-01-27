@@ -140,7 +140,7 @@
     <renderfunction name="g_format_size_for_display" ponyname="format_size_for_display" render="0" deprecated="1"/>
     <renderfunction name="g_format_size_full" ponyname="format_size_full" render="0" deprecated=""/>
     <renderfunction name="g_fprintf" ponyname="fprintf" render="0" deprecated=""/>
-    <renderfunction name="g_free" ponyname="free" render="0" deprecated=""/>
+    <renderfunction name="g_free" ponyname="free" render="1" deprecated=""/>
     <renderfunction name="g_get_application_name" ponyname="get_application_name" render="0" deprecated=""/>
     <renderfunction name="g_get_charset" ponyname="get_charset" render="0" deprecated=""/>
     <renderfunction name="g_get_codeset" ponyname="get_codeset" render="0" deprecated=""/>
@@ -613,7 +613,7 @@
       <renderfunction name="g_bookmark_file_error_quark" ponyname="error_quark" render="0" deprecated=""/>
       <renderfunction name="g_bookmark_file_new" ponyname="new" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GByteArray" render="0">
+    <renderstruct name="GByteArray" render="1">
       <renderfunction name="g_byte_array_append" ponyname="append" render="0" deprecated=""/>
       <renderfunction name="g_byte_array_free" ponyname="free" render="0" deprecated=""/>
       <renderfunction name="g_byte_array_free_to_bytes" ponyname="free_to_bytes" render="0" deprecated=""/>
@@ -718,7 +718,7 @@
       <renderfunction name="g_date_valid_weekday" ponyname="valid_weekday" render="0" deprecated=""/>
       <renderfunction name="g_date_valid_year" ponyname="valid_year" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GDateTime" render="0">
+    <renderstruct name="GDateTime" render="1">
       <renderconstructor name="g_date_time_new" ponyname="new" render="0" deprecated=""/>
       <renderconstructor name="g_date_time_new_from_iso8601" ponyname="new_from_iso8601" render="0" deprecated=""/>
       <renderconstructor name="g_date_time_new_from_timeval_local" ponyname="new_from_timeval_local" render="0" deprecated="1"/>
@@ -901,7 +901,7 @@
     </renderstruct>
     <renderstruct name="GIOFuncs" render="0">
 </renderstruct>
-    <renderstruct name="GKeyFile" render="0">
+    <renderstruct name="GKeyFile" render="1">
       <renderconstructor name="g_key_file_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="g_key_file_free" ponyname="free" render="0" deprecated=""/>
       <rendermethod name="g_key_file_get_boolean" ponyname="get_boolean" render="0" deprecated=""/>
@@ -953,7 +953,7 @@
       <rendermethod name="g_key_file_unref" ponyname="unref" render="0" deprecated=""/>
       <renderfunction name="g_key_file_error_quark" ponyname="error_quark" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GList" render="0">
+    <renderstruct name="GList" render="1">
       <renderfunction name="g_list_alloc" ponyname="alloc" render="0" deprecated=""/>
       <renderfunction name="g_list_append" ponyname="append" render="0" deprecated=""/>
       <renderfunction name="g_list_concat" ponyname="concat" render="0" deprecated=""/>
@@ -989,7 +989,7 @@
     </renderstruct>
     <renderstruct name="GLogField" render="0">
 </renderstruct>
-    <renderstruct name="GMainContext" render="0">
+    <renderstruct name="GMainContext" render="1">
       <renderconstructor name="g_main_context_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="g_main_context_acquire" ponyname="acquire" render="0" deprecated=""/>
       <rendermethod name="g_main_context_add_poll" ponyname="add_poll" render="0" deprecated=""/>
@@ -1154,7 +1154,7 @@
       <rendermethod name="g_private_replace" ponyname="replace" render="0" deprecated=""/>
       <rendermethod name="g_private_set" ponyname="set" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GPtrArray" render="0">
+    <renderstruct name="GPtrArray" render="1">
       <renderfunction name="g_ptr_array_add" ponyname="add" render="0" deprecated=""/>
       <renderfunction name="g_ptr_array_copy" ponyname="copy" render="0" deprecated=""/>
       <renderfunction name="g_ptr_array_extend" ponyname="extend" render="0" deprecated=""/>
@@ -1384,7 +1384,7 @@
       <rendermethod name="g_sequence_iter_next" ponyname="next" render="0" deprecated=""/>
       <rendermethod name="g_sequence_iter_prev" ponyname="prev" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GSource" render="0">
+    <renderstruct name="GSource" render="1">
       <renderconstructor name="g_source_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="g_source_add_child_source" ponyname="add_child_source" render="0" deprecated=""/>
       <rendermethod name="g_source_add_poll" ponyname="add_poll" render="0" deprecated=""/>
@@ -1420,15 +1420,15 @@
       <renderfunction name="g_source_remove_by_user_data" ponyname="remove_by_user_data" render="0" deprecated=""/>
       <renderfunction name="g_source_set_name_by_id" ponyname="set_name_by_id" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GSourceCallbackFuncs" render="0">
+    <renderstruct name="GSourceCallbackFuncs" render="1">
 </renderstruct>
-    <renderstruct name="GSourceFuncs" render="0">
+    <renderstruct name="GSourceFuncs" render="1">
 </renderstruct>
-    <renderstruct name="GSourcePrivate" render="0">
+    <renderstruct name="GSourcePrivate" render="1">
 </renderstruct>
     <renderstruct name="GStatBuf" render="0">
 </renderstruct>
-    <renderstruct name="GString" render="0">
+    <renderstruct name="GString" render="1">
       <rendermethod name="g_string_append" ponyname="append" render="0" deprecated=""/>
       <rendermethod name="g_string_append_c" ponyname="append_c" render="0" deprecated=""/>
       <rendermethod name="g_string_append_len" ponyname="append_len" render="0" deprecated=""/>
@@ -1461,7 +1461,7 @@
       <rendermethod name="g_string_up" ponyname="up" render="0" deprecated="1"/>
       <rendermethod name="g_string_vprintf" ponyname="vprintf" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GStringChunk" render="0">
+    <renderstruct name="GStringChunk" render="1">
       <rendermethod name="g_string_chunk_clear" ponyname="clear" render="0" deprecated=""/>
       <rendermethod name="g_string_chunk_free" ponyname="free" render="0" deprecated=""/>
       <rendermethod name="g_string_chunk_insert" ponyname="insert" render="0" deprecated=""/>
@@ -1514,12 +1514,12 @@
       <renderfunction name="g_thread_pool_set_max_unused_threads" ponyname="set_max_unused_threads" render="0" deprecated=""/>
       <renderfunction name="g_thread_pool_stop_unused_threads" ponyname="stop_unused_threads" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GTimeVal" render="0">
+    <renderstruct name="GTimeVal" render="1">
       <rendermethod name="g_time_val_add" ponyname="add" render="0" deprecated="1"/>
       <rendermethod name="g_time_val_to_iso8601" ponyname="to_iso8601" render="0" deprecated="1"/>
       <renderfunction name="g_time_val_from_iso8601" ponyname="from_iso8601" render="0" deprecated="1"/>
     </renderstruct>
-    <renderstruct name="GTimeZone" render="0">
+    <renderstruct name="GTimeZone" render="1">
       <renderconstructor name="g_time_zone_new" ponyname="new" render="0" deprecated="1"/>
       <renderconstructor name="g_time_zone_new_local" ponyname="new_local" render="0" deprecated=""/>
       <renderconstructor name="g_time_zone_new_offset" ponyname="new_offset" render="0" deprecated=""/>
@@ -1716,7 +1716,7 @@
       <rendermethod name="g_variant_builder_ref" ponyname="ref" render="0" deprecated=""/>
       <rendermethod name="g_variant_builder_unref" ponyname="unref" render="0" deprecated=""/>
     </renderstruct>
-    <renderstruct name="GVariantDict" render="0">
+    <renderstruct name="GVariantDict" render="1">
       <renderconstructor name="g_variant_dict_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="g_variant_dict_clear" ponyname="clear" render="0" deprecated=""/>
       <rendermethod name="g_variant_dict_contains" ponyname="contains" render="0" deprecated=""/>
