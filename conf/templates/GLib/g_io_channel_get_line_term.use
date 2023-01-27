@@ -1,1 +1,0 @@
-use @g_io_channel_get_line_term[Pointer[U8]](channel': GIOChannel, length': Pointer[I32] tag)

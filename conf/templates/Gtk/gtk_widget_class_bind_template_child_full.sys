@@ -1,2 +1,0 @@
-  fun bind_template_child_full(widget_class': GtkWidgetClass, name': String, internal_child': I32, struct_offset': I64): None =>
-    @gtk_widget_class_bind_template_child_full(widget_class', name'.cstring(), internal_child', struct_offset')

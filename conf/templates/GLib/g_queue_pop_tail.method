@@ -1,2 +1,0 @@
-  fun ref pop_tail(): Pointer[None] tag =>
-    GQueueP.pop_tail(this)

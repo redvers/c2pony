@@ -1,2 +1,0 @@
-  fun ref add(value': U32): I32 =>
-    GtkBitsetP.add(this, value')

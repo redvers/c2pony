@@ -1,2 +1,0 @@
-  fun register(application': GApplicationI, cancellable': GCancellable, error': GError): I32 =>
-    @g_application_register(application'.getptr(), cancellable', addressof error'.ptr)

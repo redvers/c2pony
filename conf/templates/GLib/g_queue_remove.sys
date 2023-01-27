@@ -1,2 +1,0 @@
-  fun remove(queue': GQueue, data': Pointer[None] tag): I32 =>
-    @g_queue_remove(queue', data')

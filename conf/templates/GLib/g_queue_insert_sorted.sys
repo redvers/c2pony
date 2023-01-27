@@ -1,2 +1,0 @@
-  fun insert_sorted(queue': GQueue, data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
-    @g_queue_insert_sorted(queue', data', func', user_data')

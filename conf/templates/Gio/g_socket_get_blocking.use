@@ -1,1 +1,0 @@
-use @g_socket_get_blocking[I32](socket': GSocket)

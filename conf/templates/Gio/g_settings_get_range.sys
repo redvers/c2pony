@@ -1,2 +1,0 @@
-  fun get_range(settings': GSettings, key': String): GVariant =>
-    @g_settings_get_range(settings', key'.cstring())

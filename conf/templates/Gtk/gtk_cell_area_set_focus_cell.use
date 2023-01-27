@@ -1,1 +1,0 @@
-use @gtk_cell_area_set_focus_cell[None](area': GtkCellArea, renderer': GtkCellRenderer)

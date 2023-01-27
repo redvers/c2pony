@@ -1,2 +1,0 @@
-  fun next(type': GVariantType): GVariantType =>
-    @g_variant_type_next(type')

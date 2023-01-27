@@ -1,1 +1,0 @@
-use @gtk_cell_view_new_with_context[Pointer[GObjectP]](area': GtkCellArea, context': GtkCellAreaContext)

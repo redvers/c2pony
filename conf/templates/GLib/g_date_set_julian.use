@@ -1,1 +1,0 @@
-use @g_date_set_julian[None](date': GDate, julian_date': U32)

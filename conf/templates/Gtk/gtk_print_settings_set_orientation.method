@@ -1,2 +1,0 @@
-  fun ref set_orientation(orientation': U32): None =>
-    GtkPrintSettingsP.set_orientation(this, orientation')

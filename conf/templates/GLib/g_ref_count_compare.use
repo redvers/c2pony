@@ -1,1 +1,0 @@
-use @g_ref_count_compare[I32](rc': Pointer[I32] tag, val': I32)

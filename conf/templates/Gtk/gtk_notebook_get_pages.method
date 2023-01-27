@@ -1,2 +1,0 @@
-  fun ref get_pages(): GListModel =>
-    GtkNotebookP.get_pages(this)

@@ -1,2 +1,0 @@
-  fun free(tbuffer': anon_2389): None =>
-    @g_test_log_buffer_free(tbuffer')

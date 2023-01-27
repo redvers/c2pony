@@ -1,2 +1,0 @@
-  fun insert_before(iter': GSequenceNode, data': Pointer[None] tag): GSequenceNode =>
-    @g_sequence_insert_before(iter', data')

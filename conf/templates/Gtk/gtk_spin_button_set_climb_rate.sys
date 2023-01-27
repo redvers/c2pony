@@ -1,2 +1,0 @@
-  fun set_climb_rate(spin_button': GtkSpinButton, climb_rate': F64): None =>
-    @gtk_spin_button_set_climb_rate(spin_button', climb_rate')

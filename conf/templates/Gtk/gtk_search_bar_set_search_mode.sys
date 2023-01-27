@@ -1,2 +1,0 @@
-  fun set_search_mode(bar': GtkSearchBar, search_mode': I32): None =>
-    @gtk_search_bar_set_search_mode(bar', search_mode')

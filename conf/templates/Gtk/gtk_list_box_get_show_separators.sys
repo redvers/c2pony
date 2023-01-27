@@ -1,2 +1,0 @@
-  fun get_show_separators(box': GtkListBox): I32 =>
-    @gtk_list_box_get_show_separators(box')

@@ -1,2 +1,0 @@
-  fun elapsed(timer': GTimer, microseconds': Pointer[U64] tag): F64 =>
-    @g_timer_elapsed(timer', microseconds')

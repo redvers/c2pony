@@ -1,2 +1,0 @@
-  fun ref spawn(error': GError, argv0': String, ...): GSubprocess =>
-    GSubprocessLauncherP.spawn(this, error', argv0', ...)

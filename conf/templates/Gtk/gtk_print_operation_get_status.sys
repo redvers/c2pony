@@ -1,2 +1,0 @@
-  fun get_status(op': GtkPrintOperation): U32 =>
-    @gtk_print_operation_get_status(op')

@@ -1,1 +1,0 @@
-use @gtk_cell_area_foreach_alloc[None](area': GtkCellArea, context': GtkCellAreaContext, widget': Pointer[GObjectP], cell_area': cairorectangleint, background_area': cairorectangleint, callback': GtkCellAllocCallback, callback_data': Pointer[None] tag)

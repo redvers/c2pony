@@ -1,2 +1,0 @@
-  fun changed(tag': GtkTextTag, size_changed': I32): None =>
-    @gtk_text_tag_changed(tag', size_changed')

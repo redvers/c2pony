@@ -1,2 +1,0 @@
-  fun ref dup_qdata(quark': U32, dup_func': GDuplicateFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
-    GObjectP.dup_qdata(this, quark', dup_func', user_data')

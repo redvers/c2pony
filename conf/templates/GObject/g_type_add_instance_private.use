@@ -1,1 +1,0 @@
-use @g_type_add_instance_private[I32](class_type': U64, private_size': U64)

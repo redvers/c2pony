@@ -1,2 +1,0 @@
-  fun ref get_port(): I32 =>
-    GUriP.get_port(this)

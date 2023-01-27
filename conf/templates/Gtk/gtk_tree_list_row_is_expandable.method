@@ -1,2 +1,0 @@
-  fun ref is_expandable(): I32 =>
-    GtkTreeListRowP.is_expandable(this)

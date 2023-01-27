@@ -1,2 +1,0 @@
-  fun type_qname(type': U64): U32 =>
-    @g_type_qname(type')

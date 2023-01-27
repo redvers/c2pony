@@ -1,2 +1,0 @@
-  fun reset(settings': GSettings, key': String): None =>
-    @g_settings_reset(settings', key'.cstring())

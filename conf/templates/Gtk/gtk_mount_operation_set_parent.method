@@ -1,2 +1,0 @@
-  fun ref set_parent(parent': GtkWindowI): None =>
-    GtkMountOperationP.set_parent(this, parent')

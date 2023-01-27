@@ -1,2 +1,0 @@
-  fun free(key_file': GKeyFile): None =>
-    @g_key_file_free(key_file')

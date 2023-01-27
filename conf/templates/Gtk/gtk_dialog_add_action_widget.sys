@@ -1,2 +1,0 @@
-  fun add_action_widget(dialog': GtkDialog, child': GtkWidgetI, response_id': I32): None =>
-    @gtk_dialog_add_action_widget(dialog', child'.getptr(), response_id')

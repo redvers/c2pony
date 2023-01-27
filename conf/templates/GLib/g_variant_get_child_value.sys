@@ -1,2 +1,0 @@
-  fun get_child_value(value': GVariant, index': U64): GVariant =>
-    @g_variant_get_child_value(value', index')

@@ -1,2 +1,0 @@
-  fun ref append_page(page': GtkWidgetI): I32 =>
-    GtkAssistantP.append_page(this, page')

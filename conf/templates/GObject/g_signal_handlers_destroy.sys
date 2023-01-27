@@ -1,2 +1,0 @@
-  fun signal_handlers_destroy(instance': Pointer[None] tag): None =>
-    @g_signal_handlers_destroy(instance')

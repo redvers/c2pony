@@ -1,2 +1,0 @@
-  fun ref get_parent(): Pointer[GObjectP] =>
-    GtkWidgetP.get_parent(this)

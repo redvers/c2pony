@@ -1,2 +1,0 @@
-  fun ref set_urgent(urgent': I32): None =>
-    GNotificationP.set_urgent(this, urgent')

@@ -1,1 +1,0 @@
-use @g_variant_iter_copy[GVariantIter](iter': GVariantIter)

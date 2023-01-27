@@ -1,2 +1,0 @@
-  fun set_tooltip_markup(widget': GtkWidgetI, markup': String): None =>
-    @gtk_widget_set_tooltip_markup(widget'.getptr(), markup'.cstring())

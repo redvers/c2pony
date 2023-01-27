@@ -1,2 +1,0 @@
-  fun get_stdin_pipe(subprocess': GSubprocess): GOutputStream =>
-    @g_subprocess_get_stdin_pipe(subprocess')

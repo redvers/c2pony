@@ -1,2 +1,0 @@
-  fun new(base_stream': GInputStream): GDataInputStream =>
-    @g_data_input_stream_new(base_stream')

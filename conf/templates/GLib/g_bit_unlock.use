@@ -1,1 +1,0 @@
-use @g_bit_unlock[None](address': Pointer[I32] tag, lock_bit': I32)

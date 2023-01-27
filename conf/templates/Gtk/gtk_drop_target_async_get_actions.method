@@ -1,2 +1,0 @@
-  fun ref get_actions(): U32 =>
-    GtkDropTargetAsyncP.get_actions(this)

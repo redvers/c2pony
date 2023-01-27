@@ -1,1 +1,0 @@
-use @g_assert_warning[None](log_domain': Pointer[U8] tag, file': Pointer[U8] tag, line': I32, pretty_function': Pointer[U8] tag, expression': Pointer[U8] tag)

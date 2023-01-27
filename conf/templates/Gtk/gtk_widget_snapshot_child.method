@@ -1,2 +1,0 @@
-  fun ref snapshot_child(child': GtkWidgetI, snapshot': GdkSnapshot): None =>
-    GtkWidgetP.snapshot_child(this, child', snapshot')

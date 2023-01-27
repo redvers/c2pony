@@ -1,1 +1,0 @@
-use @g_type_name_from_class[Pointer[U8]](g_class': GTypeClass)

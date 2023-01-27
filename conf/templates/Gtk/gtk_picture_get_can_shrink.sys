@@ -1,2 +1,0 @@
-  fun get_can_shrink(self': GtkPicture): I32 =>
-    @gtk_picture_get_can_shrink(self')

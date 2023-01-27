@@ -1,2 +1,0 @@
-  fun ref peek_tail_link(): GList =>
-    GQueueP.peek_tail_link(this)

@@ -1,1 +1,0 @@
-use @gtk_print_settings_foreach[None](settings': GtkPrintSettings, func': GtkPrintSettingsFunc, user_data': Pointer[None] tag)

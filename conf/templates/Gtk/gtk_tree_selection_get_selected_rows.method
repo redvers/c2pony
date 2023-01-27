@@ -1,2 +1,0 @@
-  fun ref get_selected_rows(model': Pointer[GtkTreeModel]): GList =>
-    GtkTreeSelectionP.get_selected_rows(this, model')

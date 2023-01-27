@@ -1,2 +1,0 @@
-  fun create_pango_layout(context': GtkPrintContext): PangoLayout =>
-    @gtk_print_context_create_pango_layout(context')

@@ -1,2 +1,0 @@
-  fun ref get_first_child(): Pointer[GObjectP] =>
-    GtkWidgetP.get_first_child(this)

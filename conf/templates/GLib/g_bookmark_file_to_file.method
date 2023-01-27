@@ -1,2 +1,0 @@
-  fun ref to_file(filename': String, error': GError): I32 =>
-    GBookmarkFileP.to_file(this, filename', error')

@@ -1,2 +1,0 @@
-  fun contains(widget': GtkWidgetI, x': F64, y': F64): I32 =>
-    @gtk_widget_contains(widget'.getptr(), x', y')

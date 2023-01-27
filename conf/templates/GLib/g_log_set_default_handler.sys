@@ -1,2 +1,0 @@
-  fun log_set_default_handler(log_func': GLogFunc, user_data': Pointer[None] tag): GLogFunc =>
-    @g_log_set_default_handler(log_func', user_data')

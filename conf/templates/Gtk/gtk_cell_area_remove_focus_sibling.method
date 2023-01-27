@@ -1,2 +1,0 @@
-  fun ref remove_focus_sibling(renderer': GtkCellRenderer, sibling': GtkCellRenderer): None =>
-    GtkCellAreaP.remove_focus_sibling(this, renderer', sibling')

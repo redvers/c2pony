@@ -1,1 +1,0 @@
-use @g_socket_connection_factory_create_connection[GSocketConnection](socket': GSocket)

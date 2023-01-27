@@ -1,2 +1,0 @@
-  fun set_menu_label_text(notebook': GtkNotebook, child': GtkWidgetI, menu_text': String): None =>
-    @gtk_notebook_set_menu_label_text(notebook', child'.getptr(), menu_text'.cstring())

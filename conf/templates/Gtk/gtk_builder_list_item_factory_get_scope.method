@@ -1,2 +1,0 @@
-  fun ref get_scope(): GtkBuilderScope =>
-    GtkBuilderListItemFactoryP.get_scope(this)

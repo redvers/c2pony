@@ -1,2 +1,0 @@
-  fun set_modified(bookmark': GBookmarkFile, uri': String, modified': I64): None =>
-    @g_bookmark_file_set_modified(bookmark', uri'.cstring(), modified')

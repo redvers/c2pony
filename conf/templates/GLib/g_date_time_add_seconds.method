@@ -1,2 +1,0 @@
-  fun ref add_seconds(seconds': F64): GDateTime =>
-    GDateTimeP.add_seconds(this, seconds')

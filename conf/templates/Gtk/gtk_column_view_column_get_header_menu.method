@@ -1,2 +1,0 @@
-  fun ref get_header_menu(): GMenuModel =>
-    GtkColumnViewColumnP.get_header_menu(this)

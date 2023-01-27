@@ -1,1 +1,0 @@
-use @g_ptr_array_remove_fast[I32](array': GPtrArray, data': Pointer[None] tag)

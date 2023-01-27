@@ -1,2 +1,0 @@
-  fun page_num(notebook': GtkNotebook, child': GtkWidgetI): I32 =>
-    @gtk_notebook_page_num(notebook', child'.getptr())

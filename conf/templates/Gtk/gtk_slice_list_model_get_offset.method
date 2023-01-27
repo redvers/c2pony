@@ -1,2 +1,0 @@
-  fun ref get_offset(): U32 =>
-    GtkSliceListModelP.get_offset(this)

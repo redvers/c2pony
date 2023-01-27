@@ -1,2 +1,0 @@
-  fun ref forward_char(): I32 =>
-    GtkTextIterP.forward_char(this)

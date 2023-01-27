@@ -1,2 +1,0 @@
-  fun ascii_down(string': GString): GString =>
-    @g_string_ascii_down(string')

@@ -1,2 +1,0 @@
-  fun get_titlebar(window': GtkWindowI): Pointer[GObjectP] =>
-@gtk_window_get_titlebar(window'.getptr())

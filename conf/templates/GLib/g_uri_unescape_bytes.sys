@@ -1,2 +1,0 @@
-  fun unescape_bytes(escaped_string': String, length': I64, illegal_characters': String, error': GError): GBytes =>
-    @g_uri_unescape_bytes(escaped_string'.cstring(), length', illegal_characters'.cstring(), addressof error'.ptr)

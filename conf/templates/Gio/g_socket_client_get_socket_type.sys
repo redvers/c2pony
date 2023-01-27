@@ -1,2 +1,0 @@
-  fun get_socket_type(client': GSocketClient): U32 =>
-    @g_socket_client_get_socket_type(client')

@@ -1,2 +1,0 @@
-  fun type_check_is_value_type(type': U64): I32 =>
-    @g_type_check_is_value_type(type')

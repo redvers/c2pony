@@ -1,2 +1,0 @@
-  fun set_model(tree_view': GtkTreeView, model': GtkTreeModel): None =>
-    @gtk_tree_view_set_model(tree_view', model')

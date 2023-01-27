@@ -1,2 +1,0 @@
-  fun set_size(array': GByteArray, length': U32): GByteArray =>
-    @g_byte_array_set_size(array', length')

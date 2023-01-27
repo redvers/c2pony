@@ -1,2 +1,0 @@
-  fun ref set_callback(func': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify): None =>
-    GSourceP.set_callback(this, func', data', notify')

@@ -1,2 +1,0 @@
-  fun set_show_fill_level(range': GtkRange, show_fill_level': I32): None =>
-    @gtk_range_set_show_fill_level(range', show_fill_level')

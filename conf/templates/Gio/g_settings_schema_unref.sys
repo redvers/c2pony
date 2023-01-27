@@ -1,2 +1,0 @@
-  fun unref(schema': GSettingsSchema): None =>
-    @g_settings_schema_unref(schema')

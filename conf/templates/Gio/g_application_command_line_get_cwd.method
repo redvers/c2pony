@@ -1,2 +1,0 @@
-  fun ref get_cwd(): String iso^ =>
-    GApplicationCommandLineP.get_cwd(this)

@@ -1,1 +1,0 @@
-use @g_rand_double_range[F64](rand': GRand, begin': F64, end': F64)

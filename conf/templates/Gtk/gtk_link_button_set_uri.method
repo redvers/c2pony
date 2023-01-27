@@ -1,2 +1,0 @@
-  fun ref set_uri(uri': String): None =>
-    GtkLinkButtonP.set_uri(this, uri')

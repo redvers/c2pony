@@ -1,1 +1,0 @@
-use @g_utf8_pointer_to_offset[I64](str': Pointer[U8] tag, pos': Pointer[U8] tag)

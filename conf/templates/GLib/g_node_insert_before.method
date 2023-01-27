@@ -1,2 +1,0 @@
-  fun ref insert_before(sibling': GNode, node': GNode): GNode =>
-    GNodeP.insert_before(this, sibling', node')

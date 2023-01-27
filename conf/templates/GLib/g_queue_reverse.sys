@@ -1,2 +1,0 @@
-  fun reverse(queue': GQueue): None =>
-    @g_queue_reverse(queue')

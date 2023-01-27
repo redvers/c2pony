@@ -1,2 +1,0 @@
-  fun get_modified(bookmark': GBookmarkFile, uri': String, error': GError): I64 =>
-    @g_bookmark_file_get_modified(bookmark', uri'.cstring(), addressof error'.ptr)

@@ -1,2 +1,0 @@
-  fun unref(tz': GTimeZone): None =>
-    @g_time_zone_unref(tz')

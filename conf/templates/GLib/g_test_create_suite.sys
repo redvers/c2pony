@@ -1,2 +1,0 @@
-  fun test_create_suite(suite_name': String): GTestSuite =>
-    @g_test_create_suite(suite_name'.cstring())

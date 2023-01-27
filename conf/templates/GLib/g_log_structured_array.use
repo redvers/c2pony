@@ -1,1 +1,0 @@
-use @g_log_structured_array[None](log_level': I32, fields': GLogField, n_fields': U64)

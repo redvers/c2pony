@@ -1,2 +1,0 @@
-  fun set_priority(source': GSource, priority': I32): None =>
-    @g_source_set_priority(source', priority')

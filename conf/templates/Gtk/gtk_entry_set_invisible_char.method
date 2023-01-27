@@ -1,2 +1,0 @@
-  fun ref set_invisible_char(ch': U32): None =>
-    GtkEntryP.set_invisible_char(this, ch')

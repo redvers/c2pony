@@ -1,2 +1,0 @@
-  fun ref get_can_redo(): I32 =>
-    GtkTextBufferP.get_can_redo(this)

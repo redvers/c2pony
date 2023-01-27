@@ -1,2 +1,0 @@
-  fun ref set_model(model': GListModel): None =>
-    GtkNoSelectionP.set_model(this, model')

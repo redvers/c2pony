@@ -1,2 +1,0 @@
-  fun unix_new(fd': I32): GIOChannel =>
-    @g_io_channel_unix_new(fd')

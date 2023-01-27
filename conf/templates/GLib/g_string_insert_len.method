@@ -1,2 +1,0 @@
-  fun ref insert_len(pos': I64, val': String, len': I64): GString =>
-    GStringP.insert_len(this, pos', val', len')

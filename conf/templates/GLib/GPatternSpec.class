@@ -1,9 +1,0 @@
-
-use "lib:glib-2.0"
-
-class GPatternSpec
-  var ptr: NullablePointer[GPatternSpecT]
-
-  new create() =>
-    ptr = NullablePointer[GPatternSpecT].none()
-  new create_from_ptr(ptr': NullablePointer[GPatternSpecT]) => ptr = ptr'

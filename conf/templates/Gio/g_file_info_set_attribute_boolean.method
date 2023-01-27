@@ -1,2 +1,0 @@
-  fun ref set_attribute_boolean(attribute': String, attr_value': I32): None =>
-    GFileInfoP.set_attribute_boolean(this, attribute', attr_value')

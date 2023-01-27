@@ -1,1 +1,0 @@
-use @gtk_drop_down_set_expression[None](self': GtkDropDown, expression': GtkExpression)

@@ -1,2 +1,0 @@
-  fun get_groups(bookmark': GBookmarkFile, uri': String, length': Pointer[U64] tag, error': GError): Pointer[Pointer[U8]] tag =>
-    @g_bookmark_file_get_groups(bookmark', uri'.cstring(), length', addressof error'.ptr)

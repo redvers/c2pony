@@ -1,1 +1,0 @@
-use @gtk_stack_sidebar_set_stack[None](self': GtkStackSidebar, stack': GtkStack)

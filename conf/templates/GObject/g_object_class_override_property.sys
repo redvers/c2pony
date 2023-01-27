@@ -1,2 +1,0 @@
-  fun override_property(oclass': GObjectClass, property_id': U32, name': String): None =>
-    @g_object_class_override_property(oclass', property_id', name'.cstring())

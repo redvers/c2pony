@@ -1,2 +1,0 @@
-  fun get_size(self': GtkBitset): U64 =>
-    @gtk_bitset_get_size(self')

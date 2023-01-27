@@ -1,2 +1,0 @@
-  fun ref get_fraction(): F64 =>
-    GtkProgressBarP.get_fraction(this)

@@ -1,1 +1,0 @@
-use @g_test_run_suite[I32](suite': GTestSuite)

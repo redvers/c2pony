@@ -1,2 +1,0 @@
-  fun move_mark_by_name(buffer': GtkTextBuffer, name': String, where': GtkTextIter): None =>
-    @gtk_text_buffer_move_mark_by_name(buffer', name'.cstring(), where')

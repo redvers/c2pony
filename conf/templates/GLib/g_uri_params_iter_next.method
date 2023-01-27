@@ -1,2 +1,0 @@
-  fun ref next(attribute': Pointer[Pointer[U8]] tag, value': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    GUriParamsIterP.next(this, attribute', value', error')

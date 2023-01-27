@@ -1,2 +1,0 @@
-  fun test_accessible_has_role(accessible': GtkAccessible, role': U32): I32 =>
-    @gtk_test_accessible_has_role(accessible', role')

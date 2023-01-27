@@ -1,2 +1,0 @@
-  fun ref unref_uncached(): None =>
-    GTypeClassP.unref_uncached(this)

@@ -1,1 +1,0 @@
-use @gtk_mount_operation_get_display[GdkDisplay](op': GtkMountOperation)

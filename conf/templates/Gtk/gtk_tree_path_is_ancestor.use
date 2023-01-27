@@ -1,1 +1,0 @@
-use @gtk_tree_path_is_ancestor[I32](path': GtkTreePath, descendant': GtkTreePath)

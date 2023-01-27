@@ -1,2 +1,0 @@
-  fun ref get_logo_icon_name(): String iso^ =>
-    GtkAboutDialogP.get_logo_icon_name(this)

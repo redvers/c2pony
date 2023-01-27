@@ -1,1 +1,0 @@
-use @gtk_about_dialog_set_license_type[None](about': GtkAboutDialog, license_type': U32)

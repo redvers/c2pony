@@ -1,2 +1,0 @@
-  fun ref replace(value': Pointer[None] tag): None =>
-    GPrivateP.replace(this, value')

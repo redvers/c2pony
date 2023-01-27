@@ -1,2 +1,0 @@
-  fun ref set_param(param': GParamSpec): None =>
-    GValueP.set_param(this, param')

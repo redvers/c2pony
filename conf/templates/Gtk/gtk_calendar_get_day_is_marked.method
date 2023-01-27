@@ -1,2 +1,0 @@
-  fun ref get_day_is_marked(day': U32): I32 =>
-    GtkCalendarP.get_day_is_marked(this, day')

@@ -1,9 +1,0 @@
-
-use "lib:glib-2.0"
-
-class GVariantIter
-  var ptr: NullablePointer[GVariantIterT]
-
-  new create() =>
-    ptr = NullablePointer[GVariantIterT].none()
-  new create_from_ptr(ptr': NullablePointer[GVariantIterT]) => ptr = ptr'

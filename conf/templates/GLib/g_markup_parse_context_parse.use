@@ -1,1 +1,0 @@
-use @g_markup_parse_context_parse[I32](context': GMarkupParseContext, text': Pointer[U8] tag, text_len': I64, error': Pointer[NullablePointer[GErrorT]])

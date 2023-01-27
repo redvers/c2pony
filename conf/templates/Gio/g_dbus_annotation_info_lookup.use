@@ -1,1 +1,0 @@
-use @g_dbus_annotation_info_lookup[Pointer[U8]](annotations': Pointer[GDBusAnnotationInfo], name': Pointer[U8] tag)

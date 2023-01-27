@@ -1,2 +1,0 @@
-  fun show(self': GtkNativeDialog): None =>
-    @gtk_native_dialog_show(self')

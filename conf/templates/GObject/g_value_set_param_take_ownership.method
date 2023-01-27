@@ -1,2 +1,0 @@
-  fun ref set_param_take_ownership(param': GParamSpec): None =>
-    GValueP.set_param_take_ownership(this, param')

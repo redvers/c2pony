@@ -1,1 +1,0 @@
-use @gtk_text_iter_get_line_index[I32](iter': GtkTextIter)

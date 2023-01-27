@@ -1,1 +1,0 @@
-use @g_value_init[GValue](value': GValue, g_type': U64)

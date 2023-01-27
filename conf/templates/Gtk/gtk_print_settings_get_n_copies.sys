@@ -1,2 +1,0 @@
-  fun get_n_copies(settings': GtkPrintSettings): I32 =>
-    @gtk_print_settings_get_n_copies(settings')

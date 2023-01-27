@@ -1,2 +1,0 @@
-  fun is_destroyed(source': GSource): I32 =>
-    @g_source_is_destroyed(source')

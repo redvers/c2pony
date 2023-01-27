@@ -1,1 +1,0 @@
-use @g_slist_sort[GSList](list': GSList, compare_func': GCompareFunc)

@@ -1,2 +1,0 @@
-  fun reply(op': GMountOperation, result': U32): None =>
-    @g_mount_operation_reply(op', result')

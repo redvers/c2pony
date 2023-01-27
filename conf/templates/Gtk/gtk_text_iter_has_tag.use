@@ -1,1 +1,0 @@
-use @gtk_text_iter_has_tag[I32](iter': GtkTextIter, tag': GtkTextTag)

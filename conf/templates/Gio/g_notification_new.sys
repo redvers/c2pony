@@ -1,2 +1,0 @@
-  fun new(title': String): GNotification =>
-    @g_notification_new(title'.cstring())

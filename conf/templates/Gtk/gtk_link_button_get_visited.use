@@ -1,1 +1,0 @@
-use @gtk_link_button_get_visited[I32](link_button': GtkLinkButton)

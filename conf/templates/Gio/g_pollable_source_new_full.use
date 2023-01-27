@@ -1,1 +1,0 @@
-use @g_pollable_source_new_full[GSource](pollable_stream': Pointer[None] tag, child_source': GSource, cancellable': GCancellable)

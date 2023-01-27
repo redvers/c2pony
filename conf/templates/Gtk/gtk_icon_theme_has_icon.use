@@ -1,1 +1,0 @@
-use @gtk_icon_theme_has_icon[I32](self': GtkIconTheme, icon_name': Pointer[U8] tag)

@@ -1,2 +1,0 @@
-  fun new_full(item_free_func': GDestroyNotify): GAsyncQueue =>
-    @g_async_queue_new_full(item_free_func')

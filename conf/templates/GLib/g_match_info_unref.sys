@@ -1,2 +1,0 @@
-  fun unref(match_info': GMatchInfo): None =>
-    @g_match_info_unref(match_info')

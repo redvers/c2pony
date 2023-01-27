@@ -1,2 +1,0 @@
-  fun ref set_editable(setting': I32): None =>
-    GtkTextViewP.set_editable(this, setting')

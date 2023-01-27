@@ -1,2 +1,0 @@
-  fun ref get_target_property(): String iso^ =>
-    GBindingP.get_target_property(this)

@@ -1,2 +1,0 @@
-  fun get_area(context': GtkCellAreaContext): GtkCellArea =>
-    @gtk_cell_area_context_get_area(context')

@@ -1,2 +1,0 @@
-  fun ref lookup_signal(name': String): GDBusSignalInfo =>
-    GDBusInterfaceInfoP.lookup_signal(this, name')

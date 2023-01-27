@@ -1,2 +1,0 @@
-  fun ref insert(index': U32, value': GValue): GValueArray =>
-    GValueArrayP.insert(this, index', value')

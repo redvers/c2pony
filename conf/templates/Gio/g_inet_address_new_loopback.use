@@ -1,1 +1,0 @@
-use @g_inet_address_new_loopback[GInetAddress](family': U32)

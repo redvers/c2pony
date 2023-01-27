@@ -1,2 +1,0 @@
-  fun ref prepend_page(page': GtkWidgetI): I32 =>
-    GtkAssistantP.prepend_page(this, page')

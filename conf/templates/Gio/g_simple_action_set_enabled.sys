@@ -1,2 +1,0 @@
-  fun set_enabled(simple': GSimpleAction, enabled': I32): None =>
-    @g_simple_action_set_enabled(simple', enabled')

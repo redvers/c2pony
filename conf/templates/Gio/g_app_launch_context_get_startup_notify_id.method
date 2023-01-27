@@ -1,2 +1,0 @@
-  fun ref get_startup_notify_id(info': GAppInfo, files': GList): String iso^ =>
-    GAppLaunchContextP.get_startup_notify_id(this, info', files')

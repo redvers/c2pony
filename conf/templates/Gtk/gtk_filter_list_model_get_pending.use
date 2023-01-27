@@ -1,1 +1,0 @@
-use @gtk_filter_list_model_get_pending[U32](self': GtkFilterListModel)

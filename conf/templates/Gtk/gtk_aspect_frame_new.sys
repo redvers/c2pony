@@ -1,2 +1,0 @@
-  fun new(xalign': F32, yalign': F32, ratio': F32, obey_child': I32): Pointer[GObjectP] =>
-@gtk_aspect_frame_new(xalign', yalign', ratio', obey_child')

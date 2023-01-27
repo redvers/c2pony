@@ -1,2 +1,0 @@
-  fun free(error': GError): None =>
-    @g_error_free(error'.ptr)

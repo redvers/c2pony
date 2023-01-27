@@ -1,2 +1,0 @@
-  fun link_index(queue': GQueue, link': GList): I32 =>
-    @g_queue_link_index(queue', link')

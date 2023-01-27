@@ -1,2 +1,0 @@
-  fun ref condition_timed_wait(condition': U32, timeout_us': I64, cancellable': GCancellable, error': GError): I32 =>
-    GSocketP.condition_timed_wait(this, condition', timeout_us', cancellable', error')

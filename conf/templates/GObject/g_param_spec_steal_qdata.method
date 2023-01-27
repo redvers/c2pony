@@ -1,2 +1,0 @@
-  fun ref steal_qdata(quark': U32): Pointer[None] tag =>
-    GParamSpecP.steal_qdata(this, quark')

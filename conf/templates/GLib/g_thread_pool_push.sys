@@ -1,2 +1,0 @@
-  fun push(pool': GThreadPool, data': Pointer[None] tag, error': GError): I32 =>
-    @g_thread_pool_push(pool', data', addressof error'.ptr)

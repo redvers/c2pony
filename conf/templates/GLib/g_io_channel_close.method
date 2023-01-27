@@ -1,2 +1,0 @@
-  fun ref close(): None =>
-    GIOChannelP.close(this)

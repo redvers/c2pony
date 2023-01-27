@@ -1,2 +1,0 @@
-  fun copy(node': GNode): GNode =>
-    @g_node_copy(node')

@@ -1,2 +1,0 @@
-  fun unselect_row(box': GtkListBox, row': GtkListBoxRow): None =>
-    @gtk_list_box_unselect_row(box', row')

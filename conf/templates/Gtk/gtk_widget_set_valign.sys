@@ -1,2 +1,0 @@
-  fun set_valign(widget': GtkWidgetI, align': U32): None =>
-    @gtk_widget_set_valign(widget'.getptr(), align')

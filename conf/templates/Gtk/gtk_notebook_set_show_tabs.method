@@ -1,2 +1,0 @@
-  fun ref set_show_tabs(show_tabs': I32): None =>
-    GtkNotebookP.set_show_tabs(this, show_tabs')

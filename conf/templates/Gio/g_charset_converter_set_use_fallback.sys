@@ -1,2 +1,0 @@
-  fun set_use_fallback(converter': GCharsetConverter, use_fallback': I32): None =>
-    @g_charset_converter_set_use_fallback(converter', use_fallback')

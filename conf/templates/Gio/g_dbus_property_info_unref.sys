@@ -1,2 +1,0 @@
-  fun unref(info': GDBusPropertyInfo): None =>
-    @g_dbus_property_info_unref(info')

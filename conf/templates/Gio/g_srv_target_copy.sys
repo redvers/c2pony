@@ -1,2 +1,0 @@
-  fun copy(target': GSrvTarget): GSrvTarget =>
-    @g_srv_target_copy(target')

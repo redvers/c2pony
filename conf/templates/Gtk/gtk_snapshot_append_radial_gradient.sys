@@ -1,2 +1,0 @@
-  fun append_radial_gradient(snapshot': GdkSnapshot, bounds': graphenerectt, center': graphenepointt, hradius': F32, vradius': F32, start': F32, end': F32, stops': GskColorStop, n_stops': U64): None =>
-    @gtk_snapshot_append_radial_gradient(snapshot', bounds', center', hradius', vradius', start', end', stops', n_stops')

@@ -1,1 +1,0 @@
-use @g_type_interface_peek[Pointer[None] tag](instance_class': Pointer[None] tag, iface_type': U64)

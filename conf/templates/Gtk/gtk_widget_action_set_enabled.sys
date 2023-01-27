@@ -1,2 +1,0 @@
-  fun action_set_enabled(widget': GtkWidgetI, action_name': String, enabled': I32): None =>
-    @gtk_widget_action_set_enabled(widget'.getptr(), action_name'.cstring(), enabled')

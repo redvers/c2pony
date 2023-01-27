@@ -1,2 +1,0 @@
-  fun unichar_compose(a': U32, b': U32, ch': Pointer[U32] tag): I32 =>
-    @g_unichar_compose(a', b', ch')

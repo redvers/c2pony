@@ -1,1 +1,0 @@
-use @g_strv_length[U32](str_array': Pointer[Pointer[U8]] tag)

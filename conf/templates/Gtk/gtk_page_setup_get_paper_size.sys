@@ -1,2 +1,0 @@
-  fun get_paper_size(setup': GtkPageSetup): GtkPaperSize =>
-    @gtk_page_setup_get_paper_size(setup')

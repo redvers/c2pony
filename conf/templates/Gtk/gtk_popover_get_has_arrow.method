@@ -1,2 +1,0 @@
-  fun ref get_has_arrow(): I32 =>
-    GtkPopoverP.get_has_arrow(this)

@@ -1,2 +1,0 @@
-  fun ref set_cwd(cwd': String): None =>
-    GSubprocessLauncherP.set_cwd(this, cwd')

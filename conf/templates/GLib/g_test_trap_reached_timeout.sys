@@ -1,2 +1,0 @@
-  fun test_trap_reached_timeout(): I32 =>
-    @g_test_trap_reached_timeout()

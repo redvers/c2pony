@@ -1,1 +1,0 @@
-use @g_param_spec_enum[GParamSpec](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, enum_type': U64, default_value': I32, flags': I32)

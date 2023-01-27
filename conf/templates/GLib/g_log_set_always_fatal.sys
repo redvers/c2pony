@@ -1,2 +1,0 @@
-  fun log_set_always_fatal(fatal_mask': I32): I32 =>
-    @g_log_set_always_fatal(fatal_mask')

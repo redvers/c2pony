@@ -1,1 +1,0 @@
-use @gtk_bitset_iter_next[I32](iter': GtkBitsetIter, value': Pointer[U32] tag)

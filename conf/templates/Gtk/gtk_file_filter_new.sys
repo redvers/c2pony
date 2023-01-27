@@ -1,2 +1,0 @@
-  fun new(): GtkFileFilter =>
-    @gtk_file_filter_new()

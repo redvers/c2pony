@@ -1,1 +1,0 @@
-use @g_dpgettext2[Pointer[U8]](domain': Pointer[U8] tag, context': Pointer[U8] tag, msgid': Pointer[U8] tag)

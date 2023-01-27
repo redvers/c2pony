@@ -1,1 +1,0 @@
-use @g_slist_remove_all[GSList](list': GSList, data': Pointer[None] tag)

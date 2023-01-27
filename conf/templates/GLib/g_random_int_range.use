@@ -1,1 +1,0 @@
-use @g_random_int_range[I32](begin': I32, end': I32)

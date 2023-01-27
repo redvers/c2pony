@@ -1,2 +1,0 @@
-  fun implement(extension_point_name': String, type': U64, extension_name': String, priority': I32): GIOExtension =>
-    @g_io_extension_point_implement(extension_point_name'.cstring(), type', extension_name'.cstring(), priority')

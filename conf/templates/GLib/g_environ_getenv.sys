@@ -1,2 +1,0 @@
-  fun environ_getenv(envp': Pointer[Pointer[U8]] tag, variable': String): String iso^ =>
-    String.from_cstring(@g_environ_getenv(envp', variable'.cstring())).clone()

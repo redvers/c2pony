@@ -1,1 +1,0 @@
-use @gtk_window_group_remove_window[None](window_group': GtkWindowGroup, window': Pointer[GObjectP])

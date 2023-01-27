@@ -1,2 +1,0 @@
-  fun ref set_accessible_role(accessible_role': U32): None =>
-    GtkWidgetClassP.set_accessible_role(this, accessible_role')

@@ -1,2 +1,0 @@
-  fun get_program_name(about': GtkAboutDialog): String iso^ =>
-    String.from_cstring(@gtk_about_dialog_get_program_name(about')).clone()

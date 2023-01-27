@@ -1,2 +1,0 @@
-  fun ref get_loop(): I32 =>
-    GtkVideoP.get_loop(this)

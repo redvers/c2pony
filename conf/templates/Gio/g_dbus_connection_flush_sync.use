@@ -1,1 +1,0 @@
-use @g_dbus_connection_flush_sync[I32](connection': GDBusConnection, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

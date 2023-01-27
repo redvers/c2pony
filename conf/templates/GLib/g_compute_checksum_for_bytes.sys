@@ -1,2 +1,0 @@
-  fun compute_checksum_for_bytes(checksum_type': U32, data': GBytes): String iso^ =>
-    String.from_cstring(@g_compute_checksum_for_bytes(checksum_type', data')).clone()

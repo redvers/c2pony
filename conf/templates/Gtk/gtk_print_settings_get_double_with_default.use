@@ -1,1 +1,0 @@
-use @gtk_print_settings_get_double_with_default[F64](settings': GtkPrintSettings, key': Pointer[U8] tag, def': F64)

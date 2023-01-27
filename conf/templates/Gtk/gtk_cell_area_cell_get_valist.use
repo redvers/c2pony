@@ -1,1 +1,0 @@
-use @gtk_cell_area_cell_get_valist[None](area': GtkCellArea, renderer': GtkCellRenderer, first_property_name': Pointer[U8] tag, var_args': valisttag)

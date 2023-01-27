@@ -1,2 +1,0 @@
-  fun get_spacing(box_layout': GtkBoxLayout): U32 =>
-    @gtk_box_layout_get_spacing(box_layout')

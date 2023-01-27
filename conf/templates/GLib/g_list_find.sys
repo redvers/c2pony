@@ -1,2 +1,0 @@
-  fun find(list': GList, data': Pointer[None] tag): GList =>
-    @g_list_find(list', data')

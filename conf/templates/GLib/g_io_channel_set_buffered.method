@@ -1,2 +1,0 @@
-  fun ref set_buffered(buffered': I32): None =>
-    GIOChannelP.set_buffered(this, buffered')

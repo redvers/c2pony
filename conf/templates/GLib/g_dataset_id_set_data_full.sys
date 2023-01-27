@@ -1,2 +1,0 @@
-  fun dataset_id_set_data_full(dataset_location': Pointer[None] tag, key_id': U32, data': Pointer[None] tag, destroy_func': GDestroyNotify): None =>
-    @g_dataset_id_set_data_full(dataset_location', key_id', data', destroy_func')

@@ -1,2 +1,0 @@
-  fun ref steal_data(key': String): Pointer[None] tag =>
-    GObjectP.steal_data(this, key')

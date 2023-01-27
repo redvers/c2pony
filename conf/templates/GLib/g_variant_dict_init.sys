@@ -1,2 +1,0 @@
-  fun init(dict': GVariantDict, from_asv': GVariant): None =>
-    @g_variant_dict_init(dict', from_asv')

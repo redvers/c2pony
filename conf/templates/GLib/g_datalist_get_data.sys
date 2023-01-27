@@ -1,2 +1,0 @@
-  fun datalist_get_data(datalist': Pointer[GData], key': String): Pointer[None] tag =>
-    @g_datalist_get_data(datalist', key'.cstring())

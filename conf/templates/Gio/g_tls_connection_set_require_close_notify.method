@@ -1,2 +1,0 @@
-  fun ref set_require_close_notify(require_close_notify': I32): None =>
-    GTlsConnectionP.set_require_close_notify(this, require_close_notify')

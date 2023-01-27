@@ -1,2 +1,0 @@
-  fun ref close_finish(result': GAsyncResult, error': GError): I32 =>
-    GOutputStreamP.close_finish(this, result', error')

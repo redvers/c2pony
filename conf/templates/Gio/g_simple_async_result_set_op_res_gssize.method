@@ -1,2 +1,0 @@
-  fun ref set_op_res_gssize(op_res': I64): None =>
-    GSimpleAsyncResultP.set_op_res_gssize(this, op_res')

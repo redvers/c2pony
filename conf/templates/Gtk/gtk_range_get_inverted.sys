@@ -1,2 +1,0 @@
-  fun get_inverted(range': GtkRange): I32 =>
-    @gtk_range_get_inverted(range')

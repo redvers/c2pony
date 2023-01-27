@@ -1,1 +1,0 @@
-use @g_test_log_set_fatal_handler[None](log_func': GTestLogFatalFunc, user_data': Pointer[None] tag)

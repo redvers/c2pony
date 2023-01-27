@@ -1,2 +1,0 @@
-  fun get_value(iter': GMenuLinkIter): GMenuModel =>
-    @g_menu_link_iter_get_value(iter')

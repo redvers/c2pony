@@ -1,1 +1,0 @@
-use @g_async_queue_timeout_pop[Pointer[None] tag](queue': GAsyncQueue, timeout': U64)

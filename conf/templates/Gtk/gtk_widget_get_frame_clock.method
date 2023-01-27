@@ -1,2 +1,0 @@
-  fun ref get_frame_clock(): GdkFrameClock =>
-    GtkWidgetP.get_frame_clock(this)

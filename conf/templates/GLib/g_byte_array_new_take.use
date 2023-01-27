@@ -1,1 +1,0 @@
-use @g_byte_array_new_take[GByteArray](data': Pointer[U8] tag, len': U64)

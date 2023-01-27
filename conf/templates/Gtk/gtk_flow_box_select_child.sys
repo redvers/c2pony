@@ -1,2 +1,0 @@
-  fun select_child(box': GtkFlowBox, child': GtkFlowBoxChild): None =>
-    @gtk_flow_box_select_child(box', child')

@@ -1,2 +1,0 @@
-  fun ref get_justify(): U32 =>
-    GtkLabelP.get_justify(this)

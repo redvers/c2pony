@@ -1,2 +1,0 @@
-  fun ref get_path_at_pos(x': I32, y': I32, path': Pointer[GtkTreePath], column': Pointer[GtkTreeViewColumn], cell_x': Pointer[I32] tag, cell_y': Pointer[I32] tag): I32 =>
-    GtkTreeViewP.get_path_at_pos(this, x', y', path', column', cell_x', cell_y')

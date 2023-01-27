@@ -1,1 +1,0 @@
-use @g_list_free[None](list': GList)

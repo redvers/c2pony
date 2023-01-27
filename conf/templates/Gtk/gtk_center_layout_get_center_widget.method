@@ -1,2 +1,0 @@
-  fun ref get_center_widget(): Pointer[GObjectP] =>
-    GtkCenterLayoutP.get_center_widget(this)

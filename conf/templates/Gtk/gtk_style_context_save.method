@@ -1,2 +1,0 @@
-  fun ref save(): None =>
-    GtkStyleContextP.save(this)

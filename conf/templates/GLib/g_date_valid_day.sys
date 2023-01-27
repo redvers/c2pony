@@ -1,2 +1,0 @@
-  fun valid_day(day': U8): I32 =>
-    @g_date_valid_day(day')

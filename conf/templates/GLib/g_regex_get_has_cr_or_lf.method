@@ -1,2 +1,0 @@
-  fun ref get_has_cr_or_lf(): I32 =>
-    GRegexP.get_has_cr_or_lf(this)

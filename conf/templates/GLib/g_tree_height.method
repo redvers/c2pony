@@ -1,2 +1,0 @@
-  fun ref height(): I32 =>
-    GTreeP.height(this)

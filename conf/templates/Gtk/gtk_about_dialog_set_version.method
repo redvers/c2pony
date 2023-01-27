@@ -1,2 +1,0 @@
-  fun ref set_version(version': String): None =>
-    GtkAboutDialogP.set_version(this, version')

@@ -1,2 +1,0 @@
-  fun signal_handler_unblock(instance': Pointer[None] tag, handler_id': U64): None =>
-    @g_signal_handler_unblock(instance', handler_id')

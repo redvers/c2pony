@@ -1,1 +1,0 @@
-use @gtk_cell_area_copy_context[GtkCellAreaContext](area': GtkCellArea, context': GtkCellAreaContext)

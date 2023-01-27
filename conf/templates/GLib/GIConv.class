@@ -1,9 +1,0 @@
-
-use "lib:glib-2.0"
-
-class GIConv
-  var ptr: NullablePointer[GIConvT]
-
-  new create() =>
-    ptr = NullablePointer[GIConvT].none()
-  new create_from_ptr(ptr': NullablePointer[GIConvT]) => ptr = ptr'

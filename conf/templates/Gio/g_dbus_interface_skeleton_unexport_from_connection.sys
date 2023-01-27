@@ -1,2 +1,0 @@
-  fun unexport_from_connection(interface': GDBusInterfaceSkeleton, connection': GDBusConnection): None =>
-    @g_dbus_interface_skeleton_unexport_from_connection(interface', connection')

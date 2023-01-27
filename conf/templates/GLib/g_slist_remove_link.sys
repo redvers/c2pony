@@ -1,2 +1,0 @@
-  fun remove_link(list': GSList, link': GSList): GSList =>
-    @g_slist_remove_link(list', link')

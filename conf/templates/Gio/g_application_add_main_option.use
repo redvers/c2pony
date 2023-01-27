@@ -1,1 +1,0 @@
-use @g_application_add_main_option[None](application': Pointer[GObjectP], long_name': Pointer[U8] tag, short_name': U8, flags': U32, arg': U32, description': Pointer[U8] tag, arg_description': Pointer[U8] tag)

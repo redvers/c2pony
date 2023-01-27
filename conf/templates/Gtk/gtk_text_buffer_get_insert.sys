@@ -1,2 +1,0 @@
-  fun get_insert(buffer': GtkTextBuffer): GtkTextMark =>
-    @gtk_text_buffer_get_insert(buffer')

@@ -1,1 +1,0 @@
-use @g_hook_insert_before[None](hook_list': GHookList, sibling': GHook, hook': GHook)

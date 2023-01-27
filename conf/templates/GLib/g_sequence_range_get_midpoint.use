@@ -1,1 +1,0 @@
-use @g_sequence_range_get_midpoint[GSequenceNode](begin': GSequenceNode, end': GSequenceNode)

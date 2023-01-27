@@ -1,2 +1,0 @@
-  fun new_string(string': String): GVariant =>
-    @g_variant_new_string(string'.cstring())

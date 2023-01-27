@@ -1,2 +1,0 @@
-  fun free(array': GArray, free_segment': I32): String iso^ =>
-    String.from_cstring(@g_array_free(array', free_segment')).clone()

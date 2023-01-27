@@ -1,1 +1,0 @@
-use @gtk_entry_get_icon_paintable[GdkPaintable](entry': GtkEntry, icon_pos': U32)

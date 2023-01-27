@@ -1,1 +1,0 @@
-use @g_string_append_unichar[GString](string': GString, wc': U32)

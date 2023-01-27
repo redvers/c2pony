@@ -1,2 +1,0 @@
-  fun ref copy(): GNode =>
-    GNodeP.copy(this)

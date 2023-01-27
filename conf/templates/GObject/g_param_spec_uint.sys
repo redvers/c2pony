@@ -1,2 +1,0 @@
-  fun param_spec_uint(name': String, nick': String, blurb': String, minimum': U32, maximum': U32, default_value': U32, flags': I32): GParamSpec =>
-    @g_param_spec_uint(name'.cstring(), nick'.cstring(), blurb'.cstring(), minimum', maximum', default_value', flags')

@@ -1,2 +1,0 @@
-  fun ref iterate_item_links(item_index': I32): GMenuLinkIter =>
-    GMenuModelP.iterate_item_links(this, item_index')

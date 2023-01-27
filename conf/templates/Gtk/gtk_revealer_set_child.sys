@@ -1,2 +1,0 @@
-  fun set_child(revealer': GtkRevealer, child': GtkWidgetI): None =>
-    @gtk_revealer_set_child(revealer', child'.getptr())

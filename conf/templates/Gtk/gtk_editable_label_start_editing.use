@@ -1,1 +1,0 @@
-use @gtk_editable_label_start_editing[None](self': GtkEditableLabel)

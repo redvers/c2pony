@@ -1,2 +1,0 @@
-  fun ref create_row_drag_icon(path': GtkTreePath): GdkPaintable =>
-    GtkTreeViewP.create_row_drag_icon(this, path')

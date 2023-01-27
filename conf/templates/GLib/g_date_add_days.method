@@ -1,2 +1,0 @@
-  fun ref add_days(n_days': U32): None =>
-    GDateP.add_days(this, n_days')

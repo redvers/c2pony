@@ -1,1 +1,0 @@
-use @g_uri_get_user[Pointer[U8]](uri': GUri)

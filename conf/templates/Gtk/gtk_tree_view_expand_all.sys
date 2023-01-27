@@ -1,2 +1,0 @@
-  fun expand_all(tree_view': GtkTreeView): None =>
-    @gtk_tree_view_expand_all(tree_view')

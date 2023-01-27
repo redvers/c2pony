@@ -1,2 +1,0 @@
-  fun get_int32(value': GVariant): I32 =>
-    @g_variant_get_int32(value')

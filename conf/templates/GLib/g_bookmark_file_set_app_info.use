@@ -1,1 +1,0 @@
-use @g_bookmark_file_set_app_info[I32](bookmark': GBookmarkFile, uri': Pointer[U8] tag, name': Pointer[U8] tag, exec': Pointer[U8] tag, count': I32, stamp': I64, error': Pointer[NullablePointer[GErrorT]])

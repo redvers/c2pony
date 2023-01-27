@@ -1,2 +1,0 @@
-  fun get_has_frame(button': GtkButton): I32 =>
-    @gtk_button_get_has_frame(button')

@@ -1,2 +1,0 @@
-  fun get_context(area': GtkGLArea): GdkGLContext =>
-    @gtk_gl_area_get_context(area')

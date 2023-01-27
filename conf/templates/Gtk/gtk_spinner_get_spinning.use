@@ -1,1 +1,0 @@
-use @gtk_spinner_get_spinning[I32](spinner': GtkSpinner)

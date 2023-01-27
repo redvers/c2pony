@@ -1,2 +1,0 @@
-  fun new(base_stream': GInputStream): GInputStream =>
-    @g_buffered_input_stream_new(base_stream')

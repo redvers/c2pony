@@ -1,2 +1,0 @@
-  fun push_head_link(queue': GQueue, link': GList): None =>
-    @g_queue_push_head_link(queue', link')

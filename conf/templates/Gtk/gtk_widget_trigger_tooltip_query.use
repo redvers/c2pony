@@ -1,1 +1,0 @@
-use @gtk_widget_trigger_tooltip_query[None](widget': Pointer[GObjectP])

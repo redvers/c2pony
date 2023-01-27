@@ -1,2 +1,0 @@
-  fun is_loading(self': GtkBookmarkList): I32 =>
-    @gtk_bookmark_list_is_loading(self')

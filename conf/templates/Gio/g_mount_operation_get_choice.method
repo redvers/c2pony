@@ -1,2 +1,0 @@
-  fun ref get_choice(): I32 =>
-    GMountOperationP.get_choice(this)

@@ -1,2 +1,0 @@
-  fun ref_unlocked(queue': GAsyncQueue): None =>
-    @g_async_queue_ref_unlocked(queue')

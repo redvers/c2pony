@@ -1,2 +1,0 @@
-  fun get_origin(emblem': GEmblem): U32 =>
-    @g_emblem_get_origin(emblem')

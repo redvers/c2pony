@@ -1,2 +1,0 @@
-  fun signal_stop_emission(instance': Pointer[None] tag, signal_id': U32, detail': U32): None =>
-    @g_signal_stop_emission(instance', signal_id', detail')

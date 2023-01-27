@@ -1,2 +1,0 @@
-  fun ref get_bytes(): GBytes =>
-    GMappedFileP.get_bytes(this)

@@ -1,2 +1,0 @@
-  fun push_sorted(queue': GAsyncQueue, data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
-    @g_async_queue_push_sorted(queue', data', func', user_data')

@@ -1,2 +1,0 @@
-  fun ref get_main_group(): GOptionGroup =>
-    GOptionContextP.get_main_group(this)

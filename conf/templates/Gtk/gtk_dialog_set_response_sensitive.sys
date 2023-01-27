@@ -1,2 +1,0 @@
-  fun set_response_sensitive(dialog': GtkDialog, response_id': I32, setting': I32): None =>
-    @gtk_dialog_set_response_sensitive(dialog', response_id', setting')

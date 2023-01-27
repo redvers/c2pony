@@ -1,2 +1,0 @@
-  fun signal_has_handler_pending(instance': Pointer[None] tag, signal_id': U32, detail': U32, may_be_blocked': I32): I32 =>
-    @g_signal_has_handler_pending(instance', signal_id', detail', may_be_blocked')

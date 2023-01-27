@@ -1,2 +1,0 @@
-  fun ref get_depth(): I32 =>
-    GtkTreePathP.get_depth(this)

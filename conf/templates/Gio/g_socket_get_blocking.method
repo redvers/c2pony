@@ -1,2 +1,0 @@
-  fun ref get_blocking(): I32 =>
-    GSocketP.get_blocking(this)

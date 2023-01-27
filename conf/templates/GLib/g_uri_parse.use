@@ -1,1 +1,0 @@
-use @g_uri_parse[GUri](uri_string': Pointer[U8] tag, flags': U32, error': Pointer[NullablePointer[GErrorT]])

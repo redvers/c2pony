@@ -1,2 +1,0 @@
-  fun append_separator(self': GtkAppChooserButton): None =>
-    @gtk_app_chooser_button_append_separator(self')

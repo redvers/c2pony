@@ -1,1 +1,0 @@
-use @g_dbus_auth_observer_allow_mechanism[I32](observer': GDBusAuthObserver, mechanism': Pointer[U8] tag)

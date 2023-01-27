@@ -1,2 +1,0 @@
-  fun ref load_from_path(path': String): None =>
-    GtkCssProviderP.load_from_path(this, path')

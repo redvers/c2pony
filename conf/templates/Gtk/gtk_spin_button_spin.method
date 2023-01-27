@@ -1,2 +1,0 @@
-  fun ref spin(direction': U32, increment': F64): None =>
-    GtkSpinButtonP.spin(this, direction', increment')

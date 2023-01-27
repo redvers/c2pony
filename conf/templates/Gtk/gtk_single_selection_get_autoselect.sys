@@ -1,2 +1,0 @@
-  fun get_autoselect(self': GtkSingleSelection): I32 =>
-    @gtk_single_selection_get_autoselect(self')

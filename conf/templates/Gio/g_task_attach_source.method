@@ -1,2 +1,0 @@
-  fun ref attach_source(source': GSource, callback': GSourceFunc): None =>
-    GTaskP.attach_source(this, source', callback')

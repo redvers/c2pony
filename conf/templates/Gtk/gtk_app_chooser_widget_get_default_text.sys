@@ -1,2 +1,0 @@
-  fun get_default_text(self': GtkAppChooserWidget): String iso^ =>
-    String.from_cstring(@gtk_app_chooser_widget_get_default_text(self')).clone()

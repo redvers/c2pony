@@ -1,2 +1,0 @@
-  fun ref set_state(flags': U32): None =>
-    GtkStyleContextP.set_state(this, flags')

@@ -1,2 +1,0 @@
-  fun get_margin(context': GtkStyleContext, margin': GtkBorder): None =>
-    @gtk_style_context_get_margin(context', margin')

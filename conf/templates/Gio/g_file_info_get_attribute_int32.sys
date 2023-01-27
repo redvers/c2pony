@@ -1,2 +1,0 @@
-  fun get_attribute_int32(info': GFileInfo, attribute': String): I32 =>
-    @g_file_info_get_attribute_int32(info', attribute'.cstring())

@@ -1,2 +1,0 @@
-  fun ref set_current_object(current_object': GObjectI): None =>
-    GtkBuilderP.set_current_object(this, current_object')

@@ -1,2 +1,0 @@
-  fun ref get_adjustment(): GtkAdjustment =>
-    GtkRangeP.get_adjustment(this)

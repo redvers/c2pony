@@ -1,2 +1,0 @@
-  fun ref get_placeholder_text(): String iso^ =>
-    GtkTextP.get_placeholder_text(this)

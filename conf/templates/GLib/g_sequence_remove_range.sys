@@ -1,2 +1,0 @@
-  fun remove_range(begin': GSequenceNode, end': GSequenceNode): None =>
-    @g_sequence_remove_range(begin', end')

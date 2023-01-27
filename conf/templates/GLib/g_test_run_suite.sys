@@ -1,2 +1,0 @@
-  fun test_run_suite(suite': GTestSuite): I32 =>
-    @g_test_run_suite(suite')

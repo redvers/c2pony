@@ -1,2 +1,0 @@
-  fun get_fd(socket': GSocket): I32 =>
-    @g_socket_get_fd(socket')

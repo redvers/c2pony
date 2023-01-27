@@ -1,2 +1,0 @@
-  fun scroll_to_iter(text_view': GtkTextView, iter': GtkTextIter, within_margin': F64, use_align': I32, xalign': F64, yalign': F64): I32 =>
-    @gtk_text_view_scroll_to_iter(text_view', iter', within_margin', use_align', xalign', yalign')

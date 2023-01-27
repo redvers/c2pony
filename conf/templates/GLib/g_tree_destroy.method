@@ -1,2 +1,0 @@
-  fun ref destroy(): None =>
-    GTreeP.destroy(this)

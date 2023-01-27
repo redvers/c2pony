@@ -1,2 +1,0 @@
-  fun read_line_string(channel': GIOChannel, buffer': GString, terminator_pos': Pointer[U64] tag, error': GError): U32 =>
-    @g_io_channel_read_line_string(channel', buffer', terminator_pos', addressof error'.ptr)

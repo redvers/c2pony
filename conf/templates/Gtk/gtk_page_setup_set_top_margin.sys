@@ -1,2 +1,0 @@
-  fun set_top_margin(setup': GtkPageSetup, margin': F64, unit': U32): None =>
-    @gtk_page_setup_set_top_margin(setup', margin', unit')

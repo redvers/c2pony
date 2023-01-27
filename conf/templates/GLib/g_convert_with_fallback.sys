@@ -1,2 +1,0 @@
-  fun convert_with_fallback(str': String, len': I64, to_codeset': String, from_codeset': String, fallback': String, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': GError): String iso^ =>
-    String.from_cstring(@g_convert_with_fallback(str'.cstring(), len', to_codeset'.cstring(), from_codeset'.cstring(), fallback'.cstring(), bytes_read', bytes_written', addressof error'.ptr)).clone()

@@ -1,2 +1,0 @@
-  fun newv(n_columns': I32, types': Pointer[U64] tag): GtkListStore =>
-    @gtk_list_store_newv(n_columns', types')

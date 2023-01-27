@@ -1,2 +1,0 @@
-  fun ref unref_and_unlock(): None =>
-    GAsyncQueueP.unref_and_unlock(this)

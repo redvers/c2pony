@@ -1,2 +1,0 @@
-  fun last_application(info': GtkRecentInfo): String iso^ =>
-    String.from_cstring(@gtk_recent_info_last_application(info')).clone()

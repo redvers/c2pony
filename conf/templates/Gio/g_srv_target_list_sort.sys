@@ -1,2 +1,0 @@
-  fun list_sort(targets': GList): GList =>
-    @g_srv_target_list_sort(targets')

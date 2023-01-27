@@ -1,2 +1,0 @@
-  fun create_source(socket': GSocket, condition': U32, cancellable': GCancellable): GSource =>
-    @g_socket_create_source(socket', condition', cancellable')

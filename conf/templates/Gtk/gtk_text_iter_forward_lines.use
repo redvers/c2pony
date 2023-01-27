@@ -1,1 +1,0 @@
-use @gtk_text_iter_forward_lines[I32](iter': GtkTextIter, count': I32)

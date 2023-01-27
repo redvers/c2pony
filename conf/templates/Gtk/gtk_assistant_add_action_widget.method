@@ -1,2 +1,0 @@
-  fun ref add_action_widget(child': GtkWidgetI): None =>
-    GtkAssistantP.add_action_widget(this, child')

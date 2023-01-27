@@ -1,2 +1,0 @@
-  fun get_formats(self': GtkDropTargetAsync): GdkContentFormats =>
-    @gtk_drop_target_async_get_formats(self')

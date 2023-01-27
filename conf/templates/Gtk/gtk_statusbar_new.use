@@ -1,1 +1,0 @@
-use @gtk_statusbar_new[Pointer[GObjectP]]()

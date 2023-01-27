@@ -1,2 +1,0 @@
-  fun ref lookup_icon(icon_name': String, fallbacks': Pointer[Pointer[U8]] tag, size': I32, scale': I32, direction': U32, flags': U32): GtkIconPaintable =>
-    GtkIconThemeP.lookup_icon(this, icon_name', fallbacks', size', scale', direction', flags')

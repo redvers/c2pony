@@ -1,2 +1,0 @@
-  fun new_range(start': U32, n_items': U32): GtkBitset =>
-    @gtk_bitset_new_range(start', n_items')

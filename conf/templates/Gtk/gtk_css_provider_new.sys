@@ -1,2 +1,0 @@
-  fun new(): GtkCssProvider =>
-    @gtk_css_provider_new()

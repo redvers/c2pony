@@ -1,2 +1,0 @@
-  fun ref get_can_release(): I32 =>
-    GPermissionP.get_can_release(this)

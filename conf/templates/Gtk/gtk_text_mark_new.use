@@ -1,1 +1,0 @@
-use @gtk_text_mark_new[GtkTextMark](name': Pointer[U8] tag, left_gravity': I32)

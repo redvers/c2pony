@@ -1,1 +1,0 @@
-use @gtk_widget_get_name[Pointer[U8]](widget': Pointer[GObjectP])

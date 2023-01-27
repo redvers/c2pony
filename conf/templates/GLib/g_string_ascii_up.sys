@@ -1,2 +1,0 @@
-  fun ascii_up(string': GString): GString =>
-    @g_string_ascii_up(string')

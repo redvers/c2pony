@@ -1,1 +1,0 @@
-use @gtk_emoji_chooser_new[Pointer[GObjectP]]()

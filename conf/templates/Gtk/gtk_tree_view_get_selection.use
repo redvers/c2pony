@@ -1,1 +1,0 @@
-use @gtk_tree_view_get_selection[GtkTreeSelection](tree_view': GtkTreeView)

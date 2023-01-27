@@ -1,2 +1,0 @@
-  fun ref get_page_height(unit': U32): F64 =>
-    GtkPageSetupP.get_page_height(this, unit')

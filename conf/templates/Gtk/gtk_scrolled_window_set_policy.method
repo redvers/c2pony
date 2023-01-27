@@ -1,2 +1,0 @@
-  fun ref set_policy(hscrollbar_policy': U32, vscrollbar_policy': U32): None =>
-    GtkScrolledWindowP.set_policy(this, hscrollbar_policy', vscrollbar_policy')

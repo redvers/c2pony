@@ -1,2 +1,0 @@
-  fun get_focus_siblings(area': GtkCellArea, renderer': GtkCellRenderer): GList =>
-    @gtk_cell_area_get_focus_siblings(area', renderer')

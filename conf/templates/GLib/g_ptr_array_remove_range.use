@@ -1,1 +1,0 @@
-use @g_ptr_array_remove_range[GPtrArray](array': GPtrArray, index': U32, length': U32)

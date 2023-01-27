@@ -1,1 +1,0 @@
-use @g_value_type_compatible[I32](src_type': U64, dest_type': U64)

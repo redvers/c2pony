@@ -1,2 +1,0 @@
-  fun ref get_resize_end_child(): I32 =>
-    GtkPanedP.get_resize_end_child(this)

@@ -1,2 +1,0 @@
-  fun ref set_show_expanders(enabled': I32): None =>
-    GtkTreeViewP.set_show_expanders(this, enabled')

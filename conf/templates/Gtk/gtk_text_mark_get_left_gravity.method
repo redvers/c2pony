@@ -1,2 +1,0 @@
-  fun ref get_left_gravity(): I32 =>
-    GtkTextMarkP.get_left_gravity(this)

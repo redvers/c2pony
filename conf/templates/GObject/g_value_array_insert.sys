@@ -1,2 +1,0 @@
-  fun insert(value_array': GValueArray, index': U32, value': GValue): GValueArray =>
-    @g_value_array_insert(value_array', index', value')

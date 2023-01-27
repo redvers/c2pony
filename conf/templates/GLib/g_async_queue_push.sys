@@ -1,2 +1,0 @@
-  fun push(queue': GAsyncQueue, data': Pointer[None] tag): None =>
-    @g_async_queue_push(queue', data')

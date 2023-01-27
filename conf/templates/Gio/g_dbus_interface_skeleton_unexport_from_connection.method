@@ -1,2 +1,0 @@
-  fun ref unexport_from_connection(connection': GDBusConnection): None =>
-    GDBusInterfaceSkeletonP.unexport_from_connection(this, connection')

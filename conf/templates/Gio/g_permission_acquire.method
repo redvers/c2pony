@@ -1,2 +1,0 @@
-  fun ref acquire(cancellable': GCancellable, error': GError): I32 =>
-    GPermissionP.acquire(this, cancellable', error')

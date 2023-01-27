@@ -1,2 +1,0 @@
-  fun clear_error(err': GError): None =>
-    @g_clear_error(addressof err'.ptr)

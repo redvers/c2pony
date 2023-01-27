@@ -1,1 +1,0 @@
-use @g_ascii_strncasecmp[I32](s1': Pointer[U8] tag, s2': Pointer[U8] tag, n': U64)

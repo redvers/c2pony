@@ -1,1 +1,0 @@
-use @gtk_picture_get_keep_aspect_ratio[I32](self': GtkPicture)

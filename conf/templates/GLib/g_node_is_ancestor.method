@@ -1,2 +1,0 @@
-  fun ref is_ancestor(descendant': GNode): I32 =>
-    GNodeP.is_ancestor(this, descendant')

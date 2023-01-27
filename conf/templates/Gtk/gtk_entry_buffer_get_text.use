@@ -1,1 +1,0 @@
-use @gtk_entry_buffer_get_text[Pointer[U8]](buffer': GtkEntryBuffer)

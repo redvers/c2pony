@@ -1,1 +1,0 @@
-use @gtk_label_set_wrap[None](self': GtkLabel, wrap': I32)

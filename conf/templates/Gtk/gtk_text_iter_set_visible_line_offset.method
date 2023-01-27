@@ -1,2 +1,0 @@
-  fun ref set_visible_line_offset(char_on_line': I32): None =>
-    GtkTextIterP.set_visible_line_offset(this, char_on_line')

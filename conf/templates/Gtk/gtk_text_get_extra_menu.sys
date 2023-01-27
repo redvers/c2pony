@@ -1,2 +1,0 @@
-  fun get_extra_menu(self': GtkText): GMenuModel =>
-    @gtk_text_get_extra_menu(self')

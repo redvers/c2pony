@@ -1,1 +1,0 @@
-use @gtk_scrolled_window_set_vadjustment[None](scrolled_window': GtkScrolledWindow, vadjustment': GtkAdjustment)

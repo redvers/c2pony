@@ -1,2 +1,0 @@
-  fun ref select_child(child': GtkFlowBoxChild): None =>
-    GtkFlowBoxP.select_child(this, child')

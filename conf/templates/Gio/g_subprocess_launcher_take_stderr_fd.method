@@ -1,2 +1,0 @@
-  fun ref take_stderr_fd(fd': I32): None =>
-    GSubprocessLauncherP.take_stderr_fd(this, fd')

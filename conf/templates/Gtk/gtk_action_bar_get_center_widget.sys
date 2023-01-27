@@ -1,2 +1,0 @@
-  fun get_center_widget(action_bar': GtkActionBar): Pointer[GObjectP] =>
-@gtk_action_bar_get_center_widget(action_bar')

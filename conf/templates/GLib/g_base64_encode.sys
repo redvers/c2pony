@@ -1,2 +1,0 @@
-  fun base64_encode(data': String, len': U64): String iso^ =>
-    String.from_cstring(@g_base64_encode(data'.cstring(), len')).clone()

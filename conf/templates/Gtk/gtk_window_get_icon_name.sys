@@ -1,2 +1,0 @@
-  fun get_icon_name(window': GtkWindowI): String iso^ =>
-    String.from_cstring(@gtk_window_get_icon_name(window'.getptr())).clone()

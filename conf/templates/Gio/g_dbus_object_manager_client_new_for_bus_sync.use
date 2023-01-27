@@ -1,1 +1,0 @@
-use @g_dbus_object_manager_client_new_for_bus_sync[GDBusObjectManager](bus_type': I32, flags': U32, name': Pointer[U8] tag, object_path': Pointer[U8] tag, get_proxy_type_func': GDBusProxyTypeFunc, get_proxy_type_user_data': Pointer[None] tag, get_proxy_type_destroy_notify': GDestroyNotify, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

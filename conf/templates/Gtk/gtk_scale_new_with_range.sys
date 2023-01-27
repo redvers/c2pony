@@ -1,2 +1,0 @@
-  fun new_with_range(orientation': U32, min': F64, max': F64, step': F64): Pointer[GObjectP] =>
-@gtk_scale_new_with_range(orientation', min', max', step')

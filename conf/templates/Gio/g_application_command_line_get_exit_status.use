@@ -1,1 +1,0 @@
-use @g_application_command_line_get_exit_status[I32](cmdline': GApplicationCommandLine)

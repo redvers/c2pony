@@ -1,2 +1,0 @@
-  fun ref(datetime': GDateTime): GDateTime =>
-    @g_date_time_ref(datetime')

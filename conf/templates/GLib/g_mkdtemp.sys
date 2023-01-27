@@ -1,2 +1,0 @@
-  fun mkdtemp(tmpl': String): String iso^ =>
-    String.from_cstring(@g_mkdtemp(tmpl'.cstring())).clone()

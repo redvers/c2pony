@@ -1,2 +1,0 @@
-  fun get_gicon(info': GtkRecentInfo): GIcon =>
-    @gtk_recent_info_get_gicon(info')

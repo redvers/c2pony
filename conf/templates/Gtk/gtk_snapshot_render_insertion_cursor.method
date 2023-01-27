@@ -1,2 +1,0 @@
-  fun ref render_insertion_cursor(context': GtkStyleContext, x': F64, y': F64, layout': PangoLayout, index': I32, direction': U32): None =>
-    P.render_insertion_cursor(this, context', x', y', layout', index', direction')

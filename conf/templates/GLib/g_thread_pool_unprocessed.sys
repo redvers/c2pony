@@ -1,2 +1,0 @@
-  fun unprocessed(pool': GThreadPool): U32 =>
-    @g_thread_pool_unprocessed(pool')

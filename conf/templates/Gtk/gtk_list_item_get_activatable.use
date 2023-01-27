@@ -1,1 +1,0 @@
-use @gtk_list_item_get_activatable[I32](self': GtkListItem)

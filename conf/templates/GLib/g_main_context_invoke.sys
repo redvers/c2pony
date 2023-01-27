@@ -1,2 +1,0 @@
-  fun invoke(context': GMainContext, function': GSourceFunc, data': Pointer[None] tag): None =>
-    @g_main_context_invoke(context', function', data')

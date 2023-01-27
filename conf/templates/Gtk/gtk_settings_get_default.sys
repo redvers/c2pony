@@ -1,2 +1,0 @@
-  fun get_default(): GtkSettings =>
-    @gtk_settings_get_default()

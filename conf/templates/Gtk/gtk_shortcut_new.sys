@@ -1,2 +1,0 @@
-  fun new(trigger': GtkShortcutTrigger, action': GtkShortcutAction): GtkShortcut =>
-    @gtk_shortcut_new(trigger', action')

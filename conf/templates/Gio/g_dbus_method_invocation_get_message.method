@@ -1,2 +1,0 @@
-  fun ref get_message(): GDBusMessage =>
-    GDBusMethodInvocationP.get_message(this)

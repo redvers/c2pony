@@ -1,2 +1,0 @@
-  fun ref sink(): None =>
-    GClosureP.sink(this)

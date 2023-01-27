@@ -1,2 +1,0 @@
-  fun get_is_registered(application': GApplicationI): I32 =>
-    @g_application_get_is_registered(application'.getptr())

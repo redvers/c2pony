@@ -1,2 +1,0 @@
-  fun ref set_factory(factory': GtkListItemFactory): None =>
-    GtkColumnViewColumnP.set_factory(this, factory')

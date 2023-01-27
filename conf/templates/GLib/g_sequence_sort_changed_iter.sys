@@ -1,2 +1,0 @@
-  fun sort_changed_iter(iter': GSequenceNode, iter_cmp': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag): None =>
-    @g_sequence_sort_changed_iter(iter', iter_cmp', cmp_data')

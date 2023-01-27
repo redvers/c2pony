@@ -1,1 +1,0 @@
-use @gtk_list_store_remove[I32](list_store': GtkListStore, iter': GtkTreeIter)

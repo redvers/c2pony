@@ -1,2 +1,0 @@
-  fun ref get_copyright(): String iso^ =>
-    GtkAboutDialogP.get_copyright(this)

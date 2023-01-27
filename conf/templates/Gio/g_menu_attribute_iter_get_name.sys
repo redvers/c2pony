@@ -1,2 +1,0 @@
-  fun get_name(iter': GMenuAttributeIter): String iso^ =>
-    String.from_cstring(@g_menu_attribute_iter_get_name(iter')).clone()

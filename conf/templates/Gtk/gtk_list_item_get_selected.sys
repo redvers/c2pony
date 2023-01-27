@@ -1,2 +1,0 @@
-  fun get_selected(self': GtkListItem): I32 =>
-    @gtk_list_item_get_selected(self')

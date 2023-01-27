@@ -1,2 +1,0 @@
-  fun unref(context': GMarkupParseContext): None =>
-    @g_markup_parse_context_unref(context')

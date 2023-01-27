@@ -1,2 +1,0 @@
-  fun ref next(cancellable': GCancellable, error': GError): GSocketAddress =>
-    GSocketAddressEnumeratorP.next(this, cancellable', error')

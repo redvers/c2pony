@@ -1,1 +1,0 @@
-use @g_proxy_address_get_destination_hostname[Pointer[U8]](proxy': GProxyAddress)

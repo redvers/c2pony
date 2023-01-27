@@ -1,2 +1,0 @@
-  fun export(interface': GDBusInterfaceSkeleton, connection': GDBusConnection, object_path': String, error': GError): I32 =>
-    @g_dbus_interface_skeleton_export(interface', connection', object_path'.cstring(), addressof error'.ptr)

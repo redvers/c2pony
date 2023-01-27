@@ -1,2 +1,0 @@
-  fun ref child_position(child': GNode): I32 =>
-    GNodeP.child_position(this, child')

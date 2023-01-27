@@ -1,2 +1,0 @@
-  fun compare(one': Pointer[None] tag, two': Pointer[None] tag): I32 =>
-    @g_variant_compare(one', two')

@@ -1,2 +1,0 @@
-  fun ref to_gvariant(): GVariant =>
-    GtkFileFilterP.to_gvariant(this)

@@ -1,1 +1,0 @@
-use @g_queue_sort[None](queue': GQueue, compare_func': GCompareDataFunc, user_data': Pointer[None] tag)

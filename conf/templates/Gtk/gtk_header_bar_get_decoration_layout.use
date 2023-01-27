@@ -1,1 +1,0 @@
-use @gtk_header_bar_get_decoration_layout[Pointer[U8]](bar': GtkHeaderBar)

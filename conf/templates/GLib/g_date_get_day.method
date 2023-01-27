@@ -1,2 +1,0 @@
-  fun ref get_day(): U8 =>
-    GDateP.get_day(this)

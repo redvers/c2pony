@@ -1,2 +1,0 @@
-  fun get_default(): GVfs =>
-    @g_vfs_get_default()

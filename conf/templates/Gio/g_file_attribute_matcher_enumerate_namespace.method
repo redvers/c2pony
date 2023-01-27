@@ -1,2 +1,0 @@
-  fun ref enumerate_namespace(ns': String): I32 =>
-    GFileAttributeMatcherP.enumerate_namespace(this, ns')

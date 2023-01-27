@@ -1,2 +1,0 @@
-  fun ref get_transition_running(): I32 =>
-    GtkStackP.get_transition_running(this)

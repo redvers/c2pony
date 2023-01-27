@@ -1,2 +1,0 @@
-  fun remove_all(hash_table': GHashTable): None =>
-    @g_hash_table_remove_all(hash_table')

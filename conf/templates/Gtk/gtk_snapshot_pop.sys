@@ -1,2 +1,0 @@
-  fun pop(snapshot': GdkSnapshot): None =>
-    @gtk_snapshot_pop(snapshot')

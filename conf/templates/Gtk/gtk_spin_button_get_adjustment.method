@@ -1,2 +1,0 @@
-  fun ref get_adjustment(): GtkAdjustment =>
-    GtkSpinButtonP.get_adjustment(this)

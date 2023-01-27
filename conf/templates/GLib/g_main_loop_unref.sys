@@ -1,2 +1,0 @@
-  fun unref(loop': GMainLoop): None =>
-    @g_main_loop_unref(loop')

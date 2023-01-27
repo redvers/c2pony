@@ -1,2 +1,0 @@
-  fun ref add_pixbuf_formats(): None =>
-    GtkFileFilterP.add_pixbuf_formats(this)

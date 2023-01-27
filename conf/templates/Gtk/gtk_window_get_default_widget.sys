@@ -1,2 +1,0 @@
-  fun get_default_widget(window': GtkWindowI): Pointer[GObjectP] =>
-@gtk_window_get_default_widget(window'.getptr())

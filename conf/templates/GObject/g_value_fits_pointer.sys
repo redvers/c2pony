@@ -1,2 +1,0 @@
-  fun fits_pointer(value': GValue): I32 =>
-    @g_value_fits_pointer(value')

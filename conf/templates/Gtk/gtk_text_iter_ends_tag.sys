@@ -1,2 +1,0 @@
-  fun ends_tag(iter': GtkTextIter, tag': GtkTextTag): I32 =>
-    @gtk_text_iter_ends_tag(iter', tag')

@@ -1,2 +1,0 @@
-  fun pop_tail_link(queue': GQueue): GList =>
-    @g_queue_pop_tail_link(queue')

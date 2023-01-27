@@ -1,1 +1,0 @@
-use @g_signal_stop_emission_by_name[None](instance': Pointer[None] tag, detailed_signal': Pointer[U8] tag)

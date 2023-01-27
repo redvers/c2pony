@@ -1,2 +1,0 @@
-  fun dpgettext(domain': String, msgctxtid': String, msgidoffset': U64): String iso^ =>
-    String.from_cstring(@g_dpgettext(domain'.cstring(), msgctxtid'.cstring(), msgidoffset')).clone()

@@ -1,2 +1,0 @@
-  fun fetch_named_pos(match_info': GMatchInfo, name': String, start_pos': Pointer[I32] tag, end_pos': Pointer[I32] tag): I32 =>
-    @g_match_info_fetch_named_pos(match_info', name'.cstring(), start_pos', end_pos')

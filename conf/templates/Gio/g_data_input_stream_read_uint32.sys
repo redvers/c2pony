@@ -1,2 +1,0 @@
-  fun read_uint32(stream': GDataInputStream, cancellable': GCancellable, error': GError): U32 =>
-    @g_data_input_stream_read_uint32(stream', cancellable', addressof error'.ptr)

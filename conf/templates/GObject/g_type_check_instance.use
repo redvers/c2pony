@@ -1,1 +1,0 @@
-use @g_type_check_instance[I32](instance': GTypeInstance)

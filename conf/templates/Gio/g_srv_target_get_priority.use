@@ -1,1 +1,0 @@
-use @g_srv_target_get_priority[U16](target': GSrvTarget)

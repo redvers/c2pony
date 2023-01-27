@@ -1,1 +1,0 @@
-use @g_permission_get_can_acquire[I32](permission': GPermission)

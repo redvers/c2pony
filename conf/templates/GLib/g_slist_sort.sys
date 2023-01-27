@@ -1,2 +1,0 @@
-  fun sort(list': GSList, compare_func': GCompareFunc): GSList =>
-    @g_slist_sort(list', compare_func')

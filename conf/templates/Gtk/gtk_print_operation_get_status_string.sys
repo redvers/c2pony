@@ -1,2 +1,0 @@
-  fun get_status_string(op': GtkPrintOperation): String iso^ =>
-    String.from_cstring(@gtk_print_operation_get_status_string(op')).clone()

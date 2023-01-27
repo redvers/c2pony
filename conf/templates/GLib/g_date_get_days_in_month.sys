@@ -1,2 +1,0 @@
-  fun get_days_in_month(month': U32, year': U16): U8 =>
-    @g_date_get_days_in_month(month', year')

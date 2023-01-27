@@ -1,1 +1,0 @@
-use @gtk_notebook_get_page[GtkNotebookPage](notebook': GtkNotebook, child': Pointer[GObjectP])

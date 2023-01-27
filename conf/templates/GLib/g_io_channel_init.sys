@@ -1,2 +1,0 @@
-  fun init(channel': GIOChannel): None =>
-    @g_io_channel_init(channel')

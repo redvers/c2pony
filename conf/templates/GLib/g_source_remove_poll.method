@@ -1,2 +1,0 @@
-  fun ref remove_poll(fd': GPollFD): None =>
-    GSourceP.remove_poll(this, fd')

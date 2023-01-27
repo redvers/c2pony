@@ -1,2 +1,0 @@
-  fun utf8_get_char_validated(p': String, max_len': I64): U32 =>
-    @g_utf8_get_char_validated(p'.cstring(), max_len')

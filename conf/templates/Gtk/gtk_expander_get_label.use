@@ -1,1 +1,0 @@
-use @gtk_expander_get_label[Pointer[U8]](expander': GtkExpander)

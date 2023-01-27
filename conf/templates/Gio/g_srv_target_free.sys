@@ -1,2 +1,0 @@
-  fun free(target': GSrvTarget): None =>
-    @g_srv_target_free(target')

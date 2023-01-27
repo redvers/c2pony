@@ -1,2 +1,0 @@
-  fun get_major_version(): U32 =>
-    @gtk_get_major_version()

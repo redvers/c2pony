@@ -1,1 +1,0 @@
-use @g_date_compare[I32](lhs': GDate, rhs': GDate)

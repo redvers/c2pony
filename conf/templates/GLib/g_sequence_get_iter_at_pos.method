@@ -1,2 +1,0 @@
-  fun ref get_iter_at_pos(pos': I32): GSequenceNode =>
-    GSequenceP.get_iter_at_pos(this, pos')

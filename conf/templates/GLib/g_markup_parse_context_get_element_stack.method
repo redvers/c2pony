@@ -1,2 +1,0 @@
-  fun ref get_element_stack(): GSList =>
-    GMarkupParseContextP.get_element_stack(this)

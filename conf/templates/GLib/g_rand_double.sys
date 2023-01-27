@@ -1,2 +1,0 @@
-  fun double(rand': GRand): F64 =>
-    @g_rand_double(rand')

@@ -1,2 +1,0 @@
-  fun ref set_has_arrow(has_arrow': I32): None =>
-    GtkPopoverP.set_has_arrow(this, has_arrow')

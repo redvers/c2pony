@@ -1,2 +1,0 @@
-  fun ref insert_before(iter': GtkTreeIter, parent': GtkTreeIter, sibling': GtkTreeIter): None =>
-    GtkTreeStoreP.insert_before(this, iter', parent', sibling')

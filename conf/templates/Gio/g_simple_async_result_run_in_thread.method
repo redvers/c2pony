@@ -1,2 +1,0 @@
-  fun ref run_in_thread(func': GSimpleAsyncThreadFunc, io_priority': I32, cancellable': GCancellable): None =>
-    GSimpleAsyncResultP.run_in_thread(this, func', io_priority', cancellable')

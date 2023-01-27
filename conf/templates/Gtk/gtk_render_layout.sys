@@ -1,2 +1,0 @@
-  fun render_layout(context': GtkStyleContext, cr': cairo, x': F64, y': F64, layout': PangoLayout): None =>
-    @gtk_render_layout(context', cr', x', y', layout')

@@ -1,2 +1,0 @@
-  fun apply_tag(buffer': GtkTextBuffer, tag': GtkTextTag, start': GtkTextIter, end': GtkTextIter): None =>
-    @gtk_text_buffer_apply_tag(buffer', tag', start', end')

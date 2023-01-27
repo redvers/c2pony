@@ -1,2 +1,0 @@
-  fun pop(stack_p': Pointer[GTrashStack]): Pointer[None] tag =>
-    @g_trash_stack_pop(stack_p')

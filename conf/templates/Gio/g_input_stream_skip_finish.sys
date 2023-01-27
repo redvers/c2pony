@@ -1,2 +1,0 @@
-  fun skip_finish(stream': GInputStream, result': GAsyncResult, error': GError): I64 =>
-    @g_input_stream_skip_finish(stream', result', addressof error'.ptr)

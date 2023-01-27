@@ -1,2 +1,0 @@
-  fun render_arrow(context': GtkStyleContext, cr': cairo, angle': F64, x': F64, y': F64, size': F64): None =>
-    @gtk_render_arrow(context', cr', angle', x', y', size')

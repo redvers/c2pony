@@ -1,2 +1,0 @@
-  fun register_type(module': GTypeModule, parent_type': U64, type_name': String, type_info': GTypeInfo, flags': U32): U64 =>
-    @g_type_module_register_type(module', parent_type', type_name'.cstring(), type_info', flags')

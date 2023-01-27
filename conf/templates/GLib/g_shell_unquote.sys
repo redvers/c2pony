@@ -1,2 +1,0 @@
-  fun shell_unquote(quoted_string': String, error': GError): String iso^ =>
-    String.from_cstring(@g_shell_unquote(quoted_string'.cstring(), addressof error'.ptr)).clone()

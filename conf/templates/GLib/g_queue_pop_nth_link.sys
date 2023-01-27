@@ -1,2 +1,0 @@
-  fun pop_nth_link(queue': GQueue, n': U32): GList =>
-    @g_queue_pop_nth_link(queue', n')

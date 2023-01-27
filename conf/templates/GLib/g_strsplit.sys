@@ -1,2 +1,0 @@
-  fun strsplit(string': String, delimiter': String, max_tokens': I32): Pointer[Pointer[U8]] tag =>
-    @g_strsplit(string'.cstring(), delimiter'.cstring(), max_tokens')

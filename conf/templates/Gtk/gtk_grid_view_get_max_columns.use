@@ -1,1 +1,0 @@
-use @gtk_grid_view_get_max_columns[U32](self': GtkGridView)

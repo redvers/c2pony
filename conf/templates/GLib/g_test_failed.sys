@@ -1,2 +1,0 @@
-  fun test_failed(): I32 =>
-    @g_test_failed()

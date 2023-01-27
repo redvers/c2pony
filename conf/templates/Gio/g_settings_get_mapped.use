@@ -1,1 +1,0 @@
-use @g_settings_get_mapped[Pointer[None] tag](settings': GSettings, key': Pointer[U8] tag, mapping': GSettingsGetMapping, user_data': Pointer[None] tag)

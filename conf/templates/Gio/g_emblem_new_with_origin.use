@@ -1,1 +1,0 @@
-use @g_emblem_new_with_origin[GEmblem](icon': GIcon, origin': U32)

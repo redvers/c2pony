@@ -1,2 +1,0 @@
-  fun ref steal_data(): Pointer[None] tag =>
-    GMemoryOutputStreamP.steal_data(this)

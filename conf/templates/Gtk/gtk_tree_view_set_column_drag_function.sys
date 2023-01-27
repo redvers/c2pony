@@ -1,2 +1,0 @@
-  fun set_column_drag_function(tree_view': GtkTreeView, func': GtkTreeViewColumnDropFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    @gtk_tree_view_set_column_drag_function(tree_view', func', user_data', destroy')

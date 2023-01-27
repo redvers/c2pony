@@ -1,2 +1,0 @@
-  fun unbind(object': Pointer[None] tag, property': String): None =>
-    @g_settings_unbind(object', property'.cstring())

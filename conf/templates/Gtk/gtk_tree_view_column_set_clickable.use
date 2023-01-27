@@ -1,1 +1,0 @@
-use @gtk_tree_view_column_set_clickable[None](tree_column': GtkTreeViewColumn, clickable': I32)

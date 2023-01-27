@@ -1,2 +1,0 @@
-  fun get_added(info': GtkRecentInfo): GDateTime =>
-    @gtk_recent_info_get_added(info')

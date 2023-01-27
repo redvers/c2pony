@@ -1,1 +1,0 @@
-use @g_signal_query[None](signal_id': U32, query': GSignalQuery)

@@ -1,2 +1,0 @@
-  fun get_trigger(self': GtkShortcut): GtkShortcutTrigger =>
-    @gtk_shortcut_get_trigger(self')

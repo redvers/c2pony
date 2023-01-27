@@ -1,2 +1,0 @@
-  fun new(base_stream': GOutputStream): GOutputStream =>
-    @g_buffered_output_stream_new(base_stream')

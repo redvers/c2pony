@@ -1,1 +1,0 @@
-use @gtk_spin_button_new[Pointer[GObjectP]](adjustment': GtkAdjustment, climb_rate': F64, digits': U32)

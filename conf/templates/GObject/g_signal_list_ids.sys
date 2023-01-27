@@ -1,2 +1,0 @@
-  fun signal_list_ids(itype': U64, n_ids': Pointer[U32] tag): Pointer[U32] tag =>
-    @g_signal_list_ids(itype', n_ids')

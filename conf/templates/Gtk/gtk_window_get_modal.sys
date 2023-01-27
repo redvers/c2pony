@@ -1,2 +1,0 @@
-  fun get_modal(window': GtkWindowI): I32 =>
-    @gtk_window_get_modal(window'.getptr())

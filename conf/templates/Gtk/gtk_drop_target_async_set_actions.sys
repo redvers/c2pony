@@ -1,2 +1,0 @@
-  fun set_actions(self': GtkDropTargetAsync, actions': U32): None =>
-    @gtk_drop_target_async_set_actions(self', actions')

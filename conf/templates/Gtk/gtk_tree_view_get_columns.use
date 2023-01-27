@@ -1,1 +1,0 @@
-use @gtk_tree_view_get_columns[GList](tree_view': GtkTreeView)

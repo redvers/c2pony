@@ -1,2 +1,0 @@
-  fun ref get_auto_render(): I32 =>
-    GtkGLAreaP.get_auto_render(this)

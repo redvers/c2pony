@@ -1,2 +1,0 @@
-  fun contains(self': GtkBitset, value': U32): I32 =>
-    @gtk_bitset_contains(self', value')

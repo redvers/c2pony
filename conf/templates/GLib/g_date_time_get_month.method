@@ -1,2 +1,0 @@
-  fun ref get_month(): I32 =>
-    GDateTimeP.get_month(this)

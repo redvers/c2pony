@@ -1,2 +1,0 @@
-  fun ref set_model(model': GtkTreeModel): None =>
-    GtkTreeViewP.set_model(this, model')

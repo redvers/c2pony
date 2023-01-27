@@ -1,2 +1,0 @@
-  fun ref get_value(): GVariant =>
-    GMenuAttributeIterP.get_value(this)

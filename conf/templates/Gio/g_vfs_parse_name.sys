@@ -1,2 +1,0 @@
-  fun parse_name(vfs': GVfs, parse_name': String): GFile =>
-    @g_vfs_parse_name(vfs', parse_name'.cstring())

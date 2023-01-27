@@ -1,2 +1,0 @@
-  fun ref get_direction(): U32 =>
-    GtkMenuButtonP.get_direction(this)

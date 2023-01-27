@@ -1,2 +1,0 @@
-  fun escape_string(unescaped': String, reserved_chars_allowed': String, allow_utf8': I32): String iso^ =>
-    String.from_cstring(@g_uri_escape_string(unescaped'.cstring(), reserved_chars_allowed'.cstring(), allow_utf8')).clone()

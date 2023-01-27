@@ -1,2 +1,0 @@
-  fun unref(datetime': GDateTime): None =>
-    @g_date_time_unref(datetime')

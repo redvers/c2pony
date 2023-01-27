@@ -1,2 +1,0 @@
-  fun get_media_stream(self': GtkVideo): GtkMediaStream =>
-    @gtk_video_get_media_stream(self')

@@ -1,2 +1,0 @@
-  fun ref update(data': String, length': I64): None =>
-    GHmacP.update(this, data', length')

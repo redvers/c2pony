@@ -1,2 +1,0 @@
-  fun sort_with_data(value_array': GValueArray, compare_func': GCompareDataFunc, user_data': Pointer[None] tag): GValueArray =>
-    @g_value_array_sort_with_data(value_array', compare_func', user_data')

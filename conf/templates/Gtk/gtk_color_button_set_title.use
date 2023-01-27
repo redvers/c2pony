@@ -1,1 +1,0 @@
-use @gtk_color_button_set_title[None](button': GtkColorButton, title': Pointer[U8] tag)

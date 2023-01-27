@@ -1,1 +1,0 @@
-use @gtk_tree_view_column_get_title[Pointer[U8]](tree_column': GtkTreeViewColumn)

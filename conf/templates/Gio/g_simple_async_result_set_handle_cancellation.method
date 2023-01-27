@@ -1,2 +1,0 @@
-  fun ref set_handle_cancellation(handle_cancellation': I32): None =>
-    GSimpleAsyncResultP.set_handle_cancellation(this, handle_cancellation')

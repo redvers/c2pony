@@ -1,2 +1,0 @@
-  fun ref get_cell_rect(path': GtkTreePath, cell': GtkCellRenderer, rect': cairorectangleint): I32 =>
-    GtkIconViewP.get_cell_rect(this, path', cell', rect')

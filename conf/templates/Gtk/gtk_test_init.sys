@@ -1,2 +1,0 @@
-  fun test_init(argcp': Pointer[I32] tag, argvp': Pointer[Pointer[Pointer[U8]]] tag, ...): None =>
-    @gtk_test_init(argcp', argvp', ...)

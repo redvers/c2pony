@@ -1,2 +1,0 @@
-  fun equal(type1': Pointer[None] tag, type2': Pointer[None] tag): I32 =>
-    @g_variant_type_equal(type1', type2')

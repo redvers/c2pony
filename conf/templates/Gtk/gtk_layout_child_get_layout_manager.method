@@ -1,2 +1,0 @@
-  fun ref get_layout_manager(): GtkLayoutManager =>
-    GtkLayoutChildP.get_layout_manager(this)

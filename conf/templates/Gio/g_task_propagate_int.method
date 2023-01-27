@@ -1,2 +1,0 @@
-  fun ref propagate_int(error': GError): I64 =>
-    GTaskP.propagate_int(this, error')

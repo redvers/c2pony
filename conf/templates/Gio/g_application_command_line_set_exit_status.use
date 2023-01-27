@@ -1,1 +1,0 @@
-use @g_application_command_line_set_exit_status[None](cmdline': GApplicationCommandLine, exit_status': I32)

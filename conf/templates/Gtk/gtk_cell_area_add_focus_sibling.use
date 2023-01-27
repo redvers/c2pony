@@ -1,1 +1,0 @@
-use @gtk_cell_area_add_focus_sibling[None](area': GtkCellArea, renderer': GtkCellRenderer, sibling': GtkCellRenderer)

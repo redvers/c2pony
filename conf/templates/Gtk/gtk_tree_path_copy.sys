@@ -1,2 +1,0 @@
-  fun copy(path': GtkTreePath): GtkTreePath =>
-    @gtk_tree_path_copy(path')

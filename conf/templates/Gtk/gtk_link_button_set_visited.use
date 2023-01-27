@@ -1,1 +1,0 @@
-use @gtk_link_button_set_visited[None](link_button': GtkLinkButton, visited': I32)

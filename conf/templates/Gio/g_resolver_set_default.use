@@ -1,1 +1,0 @@
-use @g_resolver_set_default[None](resolver': GResolver)

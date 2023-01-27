@@ -1,2 +1,0 @@
-  fun ref get_options_dict(): GVariantDict =>
-    GApplicationCommandLineP.get_options_dict(this)

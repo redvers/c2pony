@@ -1,2 +1,0 @@
-  fun get_activates_default(self': GtkText): I32 =>
-    @gtk_text_get_activates_default(self')

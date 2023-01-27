@@ -1,1 +1,0 @@
-use @g_atomic_pointer_compare_and_exchange[I32](atomic': Pointer[None] tag, oldval': Pointer[None] tag, newval': Pointer[None] tag)

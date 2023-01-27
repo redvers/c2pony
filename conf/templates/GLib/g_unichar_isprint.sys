@@ -1,2 +1,0 @@
-  fun unichar_isprint(c': U32): I32 =>
-    @g_unichar_isprint(c')

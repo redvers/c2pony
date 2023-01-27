@@ -1,2 +1,0 @@
-  fun ref set_markup(markup': String): None =>
-    GtkTooltipP.set_markup(this, markup')

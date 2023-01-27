@@ -1,2 +1,0 @@
-  fun window_to_buffer_coords(text_view': GtkTextView, win': U32, window_x': I32, window_y': I32, buffer_x': Pointer[I32] tag, buffer_y': Pointer[I32] tag): None =>
-    @gtk_text_view_window_to_buffer_coords(text_view', win', window_x', window_y', buffer_x', buffer_y')

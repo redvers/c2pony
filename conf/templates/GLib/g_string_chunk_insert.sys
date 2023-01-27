@@ -1,2 +1,0 @@
-  fun insert(chunk': GStringChunk, string': String): String iso^ =>
-    String.from_cstring(@g_string_chunk_insert(chunk', string'.cstring())).clone()

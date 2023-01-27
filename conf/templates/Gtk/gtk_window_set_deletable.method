@@ -1,2 +1,0 @@
-  fun ref set_deletable(setting': I32): None =>
-    GtkWindowP.set_deletable(this, setting')

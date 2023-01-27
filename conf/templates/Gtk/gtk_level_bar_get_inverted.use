@@ -1,1 +1,0 @@
-use @gtk_level_bar_get_inverted[I32](self': GtkLevelBar)

@@ -1,2 +1,0 @@
-  fun ref free(): None =>
-    GMappedFileP.free(this)

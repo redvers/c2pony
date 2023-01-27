@@ -1,2 +1,0 @@
-  fun ref compute_expand(orientation': U32): I32 =>
-    GtkWidgetP.compute_expand(this, orientation')

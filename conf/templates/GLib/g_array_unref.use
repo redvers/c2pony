@@ -1,1 +1,0 @@
-use @g_array_unref[None](array': GArray)

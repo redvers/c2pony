@@ -1,2 +1,0 @@
-  fun ref find(order': U32, flags': U32, data': Pointer[None] tag): GNode =>
-    GNodeP.find(this, order', flags', data')

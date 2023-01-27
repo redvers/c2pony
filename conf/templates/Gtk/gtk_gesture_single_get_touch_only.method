@@ -1,2 +1,0 @@
-  fun ref get_touch_only(): I32 =>
-    GtkGestureSingleP.get_touch_only(this)

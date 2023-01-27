@@ -1,2 +1,0 @@
-  fun ref get_visited(uri': String, error': GError): I64 =>
-    GBookmarkFileP.get_visited(this, uri', error')

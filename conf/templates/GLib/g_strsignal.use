@@ -1,1 +1,0 @@
-use @g_strsignal[Pointer[U8]](signum': I32)

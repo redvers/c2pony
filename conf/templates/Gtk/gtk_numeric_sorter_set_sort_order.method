@@ -1,2 +1,0 @@
-  fun ref set_sort_order(sort_order': U32): None =>
-    GtkNumericSorterP.set_sort_order(this, sort_order')

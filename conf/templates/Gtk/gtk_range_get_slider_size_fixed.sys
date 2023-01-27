@@ -1,2 +1,0 @@
-  fun get_slider_size_fixed(range': GtkRange): I32 =>
-    @gtk_range_get_slider_size_fixed(range')

@@ -1,1 +1,0 @@
-use @g_signal_remove_emission_hook[None](signal_id': U32, hook_id': U64)

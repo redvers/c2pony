@@ -1,2 +1,0 @@
-  fun ref remove_item(uri': String, error': GError): I32 =>
-    GBookmarkFileP.remove_item(this, uri', error')

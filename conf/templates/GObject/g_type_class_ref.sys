@@ -1,2 +1,0 @@
-  fun ref(type': U64): Pointer[None] tag =>
-    @g_type_class_ref(type')

@@ -1,2 +1,0 @@
-  fun type_ensure(type': U64): None =>
-    @g_type_ensure(type')

@@ -1,2 +1,0 @@
-  fun set_value(settings': GSettings, key': String, value': GVariant): I32 =>
-    @g_settings_set_value(settings', key'.cstring(), value')

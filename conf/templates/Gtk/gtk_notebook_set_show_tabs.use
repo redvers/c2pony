@@ -1,1 +1,0 @@
-use @gtk_notebook_set_show_tabs[None](notebook': GtkNotebook, show_tabs': I32)

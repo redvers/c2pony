@@ -1,1 +1,0 @@
-use @gtk_icon_view_get_tooltip_context[I32](icon_view': GtkIconView, x': I32, y': I32, keyboard_tip': I32, model': Pointer[GtkTreeModel], path': Pointer[GtkTreePath], iter': GtkTreeIter)

@@ -1,1 +1,0 @@
-use @gtk_list_store_set_value[None](list_store': GtkListStore, iter': GtkTreeIter, column': I32, value': GValue)

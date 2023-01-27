@@ -1,2 +1,0 @@
-  fun ref get_display_name(): String iso^ =>
-    GFileInfoP.get_display_name(this)

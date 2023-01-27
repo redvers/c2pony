@@ -1,2 +1,0 @@
-  fun new_parsed(format': String, ...): GVariant =>
-    @g_variant_new_parsed(format'.cstring(), ...)

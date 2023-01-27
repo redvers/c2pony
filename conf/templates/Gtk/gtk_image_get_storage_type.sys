@@ -1,2 +1,0 @@
-  fun get_storage_type(image': GtkImage): U32 =>
-    @gtk_image_get_storage_type(image')

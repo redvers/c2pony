@@ -1,2 +1,0 @@
-  fun get_uri(link_button': GtkLinkButton): String iso^ =>
-    String.from_cstring(@gtk_link_button_get_uri(link_button')).clone()

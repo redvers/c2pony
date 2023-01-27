@@ -1,2 +1,0 @@
-  fun matches(error': GError, domain': U32, code': I32): I32 =>
-    @g_error_matches(error'.ptr, domain', code')

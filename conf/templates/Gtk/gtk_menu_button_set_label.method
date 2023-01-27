@@ -1,2 +1,0 @@
-  fun ref set_label(label': String): None =>
-    GtkMenuButtonP.set_label(this, label')

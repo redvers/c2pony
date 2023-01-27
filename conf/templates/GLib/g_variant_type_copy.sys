@@ -1,2 +1,0 @@
-  fun copy(type': GVariantType): GVariantType =>
-    @g_variant_type_copy(type')

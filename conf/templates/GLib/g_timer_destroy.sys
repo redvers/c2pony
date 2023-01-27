@@ -1,2 +1,0 @@
-  fun destroy(timer': GTimer): None =>
-    @g_timer_destroy(timer')

@@ -1,2 +1,0 @@
-  fun ref set_group_name(group_name': String): None =>
-    GtkNotebookP.set_group_name(this, group_name')

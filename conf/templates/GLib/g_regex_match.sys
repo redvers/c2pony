@@ -1,2 +1,0 @@
-  fun match(regex': GRegex, string': String, match_options': U32, match_info': Pointer[GMatchInfo]): I32 =>
-    @g_regex_match(regex', string'.cstring(), match_options', match_info')

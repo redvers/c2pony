@@ -1,2 +1,0 @@
-  fun run_dispose(object': GObjectI): None =>
-    @g_object_run_dispose(object'.getptr())

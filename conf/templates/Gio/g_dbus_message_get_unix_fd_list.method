@@ -1,2 +1,0 @@
-  fun ref get_unix_fd_list(): GUnixFDList =>
-    GDBusMessageP.get_unix_fd_list(this)

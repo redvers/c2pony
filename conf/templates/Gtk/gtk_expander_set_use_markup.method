@@ -1,2 +1,0 @@
-  fun ref set_use_markup(use_markup': I32): None =>
-    GtkExpanderP.set_use_markup(this, use_markup')

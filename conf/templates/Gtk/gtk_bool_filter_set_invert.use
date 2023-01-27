@@ -1,1 +1,0 @@
-use @gtk_bool_filter_set_invert[None](self': GtkBoolFilter, invert': I32)

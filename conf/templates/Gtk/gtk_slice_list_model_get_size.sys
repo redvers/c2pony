@@ -1,2 +1,0 @@
-  fun get_size(self': GtkSliceListModel): U32 =>
-    @gtk_slice_list_model_get_size(self')

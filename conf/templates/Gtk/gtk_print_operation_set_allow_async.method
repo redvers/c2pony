@@ -1,2 +1,0 @@
-  fun ref set_allow_async(allow_async': I32): None =>
-    GtkPrintOperationP.set_allow_async(this, allow_async')

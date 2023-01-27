@@ -1,2 +1,0 @@
-  fun ref to_file(file_name': String, error': GError): I32 =>
-    GtkPrintSettingsP.to_file(this, file_name', error')

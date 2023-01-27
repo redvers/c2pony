@@ -1,2 +1,0 @@
-  fun signal_type_cclosure_new(itype': U64, struct_offset': U32): GClosure =>
-    @g_signal_type_cclosure_new(itype', struct_offset')

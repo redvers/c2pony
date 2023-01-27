@@ -1,1 +1,0 @@
-use @gtk_cell_area_is_activatable[I32](area': GtkCellArea)

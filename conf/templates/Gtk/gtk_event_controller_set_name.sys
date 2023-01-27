@@ -1,2 +1,0 @@
-  fun set_name(controller': GtkEventController, name': String): None =>
-    @gtk_event_controller_set_name(controller', name'.cstring())

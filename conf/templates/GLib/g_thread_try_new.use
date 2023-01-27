@@ -1,1 +1,0 @@
-use @g_thread_try_new[GThread](name': Pointer[U8] tag, func': GThreadFunc, data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]])

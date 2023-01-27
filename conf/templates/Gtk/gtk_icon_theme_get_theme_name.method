@@ -1,2 +1,0 @@
-  fun ref get_theme_name(): String iso^ =>
-    GtkIconThemeP.get_theme_name(this)

@@ -1,2 +1,0 @@
-  fun cancel(op': GtkPrintOperation): None =>
-    @gtk_print_operation_cancel(op')

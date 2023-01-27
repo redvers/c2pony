@@ -1,2 +1,0 @@
-  fun is_active(vfs': GVfs): I32 =>
-    @g_vfs_is_active(vfs')

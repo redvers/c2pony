@@ -1,2 +1,0 @@
-  fun get_context_id(context': GtkIMMulticontext): String iso^ =>
-    String.from_cstring(@gtk_im_multicontext_get_context_id(context')).clone()

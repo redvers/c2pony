@@ -1,2 +1,0 @@
-  fun ref get_wide_handle(): I32 =>
-    GtkPanedP.get_wide_handle(this)

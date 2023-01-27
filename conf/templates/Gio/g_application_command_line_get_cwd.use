@@ -1,1 +1,0 @@
-use @g_application_command_line_get_cwd[Pointer[U8]](cmdline': GApplicationCommandLine)

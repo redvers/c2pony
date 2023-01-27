@@ -1,2 +1,0 @@
-  fun ref init(value': GVariant): U64 =>
-    GVariantIterP.init(this, value')

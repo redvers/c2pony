@@ -1,1 +1,0 @@
-use @g_nullify_pointer[None](nullify_location': Pointer[Pointer[None]] tag)

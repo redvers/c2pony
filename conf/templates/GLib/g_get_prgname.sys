@@ -1,2 +1,0 @@
-  fun get_prgname(): String iso^ =>
-    String.from_cstring(@g_get_prgname()).clone()

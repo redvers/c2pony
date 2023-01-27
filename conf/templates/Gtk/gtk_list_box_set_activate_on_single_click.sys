@@ -1,2 +1,0 @@
-  fun set_activate_on_single_click(box': GtkListBox, single': I32): None =>
-    @gtk_list_box_set_activate_on_single_click(box', single')

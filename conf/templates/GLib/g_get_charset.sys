@@ -1,2 +1,0 @@
-  fun get_charset(charset': Pointer[Pointer[U8]] tag): I32 =>
-    @g_get_charset(charset')

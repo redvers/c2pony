@@ -1,2 +1,0 @@
-  fun ref init(params': String, length': I64, separators': String, flags': U32): None =>
-    GUriParamsIterP.init(this, params', length', separators', flags')

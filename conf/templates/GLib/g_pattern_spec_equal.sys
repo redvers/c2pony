@@ -1,2 +1,0 @@
-  fun equal(pspec1': GPatternSpec, pspec2': GPatternSpec): I32 =>
-    @g_pattern_spec_equal(pspec1', pspec2')

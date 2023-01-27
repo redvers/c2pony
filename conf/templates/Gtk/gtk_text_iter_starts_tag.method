@@ -1,2 +1,0 @@
-  fun ref starts_tag(tag': GtkTextTag): I32 =>
-    GtkTextIterP.starts_tag(this, tag')

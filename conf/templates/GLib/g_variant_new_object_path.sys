@@ -1,2 +1,0 @@
-  fun new_object_path(object_path': String): GVariant =>
-    @g_variant_new_object_path(object_path'.cstring())

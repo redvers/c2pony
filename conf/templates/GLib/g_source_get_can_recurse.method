@@ -1,2 +1,0 @@
-  fun ref get_can_recurse(): I32 =>
-    GSourceP.get_can_recurse(this)

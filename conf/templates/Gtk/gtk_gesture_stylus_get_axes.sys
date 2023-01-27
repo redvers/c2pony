@@ -1,2 +1,0 @@
-  fun get_axes(gesture': GtkGestureStylus, axes': Pointer[U32] tag, values': Pointer[Pointer[F64]] tag): I32 =>
-    @gtk_gesture_stylus_get_axes(gesture', axes', values')

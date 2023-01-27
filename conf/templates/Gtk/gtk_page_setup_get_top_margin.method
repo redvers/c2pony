@@ -1,2 +1,0 @@
-  fun ref get_top_margin(unit': U32): F64 =>
-    GtkPageSetupP.get_top_margin(this, unit')

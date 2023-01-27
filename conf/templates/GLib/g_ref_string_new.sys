@@ -1,2 +1,0 @@
-  fun ref_string_new(str': String): String iso^ =>
-    String.from_cstring(@g_ref_string_new(str'.cstring())).clone()

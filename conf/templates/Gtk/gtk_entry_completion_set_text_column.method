@@ -1,2 +1,0 @@
-  fun ref set_text_column(column': I32): None =>
-    GtkEntryCompletionP.set_text_column(this, column')

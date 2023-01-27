@@ -1,2 +1,0 @@
-  fun queue_render(area': GtkGLArea): None =>
-    @gtk_gl_area_queue_render(area')

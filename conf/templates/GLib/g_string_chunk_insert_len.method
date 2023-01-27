@@ -1,2 +1,0 @@
-  fun ref insert_len(string': String, len': I64): String iso^ =>
-    GStringChunkP.insert_len(this, string', len')

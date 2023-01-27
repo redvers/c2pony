@@ -1,2 +1,0 @@
-  fun ref get_window_by_id(id': U32): Pointer[GObjectP] =>
-    GtkApplicationP.get_window_by_id(this, id')

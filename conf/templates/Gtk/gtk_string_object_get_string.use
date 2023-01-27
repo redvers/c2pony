@@ -1,1 +1,0 @@
-use @gtk_string_object_get_string[Pointer[U8]](self': GtkStringObject)

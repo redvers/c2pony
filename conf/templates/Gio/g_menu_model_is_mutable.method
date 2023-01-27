@@ -1,2 +1,0 @@
-  fun ref is_mutable(): I32 =>
-    GMenuModelP.is_mutable(this)

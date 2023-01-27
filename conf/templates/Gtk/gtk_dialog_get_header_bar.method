@@ -1,2 +1,0 @@
-  fun ref get_header_bar(): Pointer[GObjectP] =>
-    GtkDialogP.get_header_bar(this)

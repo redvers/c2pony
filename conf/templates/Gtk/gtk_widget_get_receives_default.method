@@ -1,2 +1,0 @@
-  fun ref get_receives_default(): I32 =>
-    GtkWidgetP.get_receives_default(this)

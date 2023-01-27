@@ -1,2 +1,0 @@
-  fun ref set_option_context_summary(summary': String): None =>
-    GApplicationP.set_option_context_summary(this, summary')

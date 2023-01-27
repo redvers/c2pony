@@ -1,1 +1,0 @@
-use @g_hook_get[GHook](hook_list': GHookList, hook_id': U64)

@@ -1,2 +1,0 @@
-  fun ref set_link(link': String, model': GMenuModel): None =>
-    GMenuItemP.set_link(this, link', model')

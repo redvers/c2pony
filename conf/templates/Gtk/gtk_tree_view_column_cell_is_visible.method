@@ -1,2 +1,0 @@
-  fun ref cell_is_visible(): I32 =>
-    GtkTreeViewColumnP.cell_is_visible(this)

@@ -1,2 +1,0 @@
-  fun add_minutes(datetime': GDateTime, minutes': I32): GDateTime =>
-    @g_date_time_add_minutes(datetime', minutes')

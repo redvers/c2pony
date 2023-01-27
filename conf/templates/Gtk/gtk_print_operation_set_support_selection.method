@@ -1,2 +1,0 @@
-  fun ref set_support_selection(support_selection': I32): None =>
-    GtkPrintOperationP.set_support_selection(this, support_selection')

@@ -1,2 +1,0 @@
-  fun convert_child_path_to_path(tree_model_sort': GtkTreeModelSort, child_path': GtkTreePath): GtkTreePath =>
-    @gtk_tree_model_sort_convert_child_path_to_path(tree_model_sort', child_path')

@@ -1,2 +1,0 @@
-  fun ref append(data': Pointer[None] tag): GSequenceNode =>
-    GSequenceP.append(this, data')

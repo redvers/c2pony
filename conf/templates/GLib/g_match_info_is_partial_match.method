@@ -1,2 +1,0 @@
-  fun ref is_partial_match(): I32 =>
-    GMatchInfoP.is_partial_match(this)

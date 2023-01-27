@@ -1,1 +1,0 @@
-use @g_object_dup_data[Pointer[None] tag](object': Pointer[GObjectP], key': Pointer[U8] tag, dup_func': GDuplicateFunc, user_data': Pointer[None] tag)

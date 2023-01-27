@@ -1,7 +1,0 @@
-
-use "../GLib"
-use "../GObject"
-use "lib:gio-2.0"
-
-interface GThemedIconI is GObjectI
-  fun ref getptr(): Pointer[GObjectP]

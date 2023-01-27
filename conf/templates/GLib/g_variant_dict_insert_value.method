@@ -1,2 +1,0 @@
-  fun ref insert_value(key': String, value': GVariant): None =>
-    GVariantDictP.insert_value(this, key', value')

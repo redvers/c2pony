@@ -1,2 +1,0 @@
-  fun ref iter_depth(iter': GtkTreeIter): I32 =>
-    GtkTreeStoreP.iter_depth(this, iter')

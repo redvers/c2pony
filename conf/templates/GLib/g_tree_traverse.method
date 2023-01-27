@@ -1,2 +1,0 @@
-  fun ref traverse(traverse_func': GTraverseFunc, traverse_type': U32, user_data': Pointer[None] tag): None =>
-    GTreeP.traverse(this, traverse_func', traverse_type', user_data')

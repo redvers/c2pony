@@ -1,1 +1,0 @@
-use @gtk_widget_class_get_layout_manager_type[U64](widget_class': GtkWidgetClass)

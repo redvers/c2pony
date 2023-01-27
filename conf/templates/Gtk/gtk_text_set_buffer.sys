@@ -1,2 +1,0 @@
-  fun set_buffer(self': GtkText, buffer': GtkEntryBuffer): None =>
-    @gtk_text_set_buffer(self', buffer')

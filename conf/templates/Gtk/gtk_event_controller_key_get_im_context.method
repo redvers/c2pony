@@ -1,2 +1,0 @@
-  fun ref get_im_context(): GtkIMContext =>
-    GtkEventControllerKeyP.get_im_context(this)

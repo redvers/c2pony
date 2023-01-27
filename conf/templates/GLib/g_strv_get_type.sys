@@ -1,2 +1,0 @@
-  fun strv_get_type(): U64 =>
-    @g_strv_get_type()

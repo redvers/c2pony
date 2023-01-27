@@ -1,2 +1,0 @@
-  fun get_bus_address(self': GTestDBus): String iso^ =>
-    String.from_cstring(@g_test_dbus_get_bus_address(self')).clone()

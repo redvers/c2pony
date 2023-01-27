@@ -1,2 +1,0 @@
-  fun ref ref_sink(): GVariant =>
-    GVariantP.ref_sink(this)

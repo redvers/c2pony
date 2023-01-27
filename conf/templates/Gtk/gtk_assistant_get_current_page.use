@@ -1,1 +1,0 @@
-use @gtk_assistant_get_current_page[I32](assistant': GtkAssistant)

@@ -1,1 +1,0 @@
-use @g_file_attribute_matcher_enumerate_namespace[I32](matcher': GFileAttributeMatcher, ns': Pointer[U8] tag)

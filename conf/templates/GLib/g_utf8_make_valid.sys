@@ -1,2 +1,0 @@
-  fun utf8_make_valid(str': String, len': I64): String iso^ =>
-    String.from_cstring(@g_utf8_make_valid(str'.cstring(), len')).clone()

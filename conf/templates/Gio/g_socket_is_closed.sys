@@ -1,2 +1,0 @@
-  fun is_closed(socket': GSocket): I32 =>
-    @g_socket_is_closed(socket')

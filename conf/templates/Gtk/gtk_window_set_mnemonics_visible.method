@@ -1,2 +1,0 @@
-  fun ref set_mnemonics_visible(setting': I32): None =>
-    GtkWindowP.set_mnemonics_visible(this, setting')

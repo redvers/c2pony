@@ -1,2 +1,0 @@
-  fun get_item(self': GtkTreeExpander): Pointer[None] tag =>
-    @gtk_tree_expander_get_item(self')

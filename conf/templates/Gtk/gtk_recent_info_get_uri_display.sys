@@ -1,2 +1,0 @@
-  fun get_uri_display(info': GtkRecentInfo): String iso^ =>
-    String.from_cstring(@gtk_recent_info_get_uri_display(info')).clone()

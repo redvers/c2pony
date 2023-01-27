@@ -1,2 +1,0 @@
-  fun ref get_property_info(): GDBusPropertyInfo =>
-    GDBusMethodInvocationP.get_property_info(this)

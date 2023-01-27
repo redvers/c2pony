@@ -1,1 +1,0 @@
-use @g_strcasecmp[I32](s1': Pointer[U8] tag, s2': Pointer[U8] tag)

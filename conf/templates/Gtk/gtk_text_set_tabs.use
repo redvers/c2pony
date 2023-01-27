@@ -1,1 +1,0 @@
-use @gtk_text_set_tabs[None](self': GtkText, tabs': PangoTabArray)

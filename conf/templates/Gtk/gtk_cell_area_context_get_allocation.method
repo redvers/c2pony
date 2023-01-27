@@ -1,2 +1,0 @@
-  fun ref get_allocation(width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
-    GtkCellAreaContextP.get_allocation(this, width', height')

@@ -1,2 +1,0 @@
-  fun set_playing(self': GtkMediaStream, playing': I32): None =>
-    @gtk_media_stream_set_playing(self', playing')

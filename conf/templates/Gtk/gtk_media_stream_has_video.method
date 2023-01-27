@@ -1,2 +1,0 @@
-  fun ref has_video(): I32 =>
-    GtkMediaStreamP.has_video(this)

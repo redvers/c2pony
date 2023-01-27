@@ -1,1 +1,0 @@
-use @gtk_drop_target_new[GtkDropTarget](type': U64, actions': U32)

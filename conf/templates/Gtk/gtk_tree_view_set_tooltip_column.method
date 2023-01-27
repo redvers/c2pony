@@ -1,2 +1,0 @@
-  fun ref set_tooltip_column(column': I32): None =>
-    GtkTreeViewP.set_tooltip_column(this, column')

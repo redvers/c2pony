@@ -1,2 +1,0 @@
-  fun set_attributes(self': GtkDirectoryList, attributes': String): None =>
-    @gtk_directory_list_set_attributes(self', attributes'.cstring())

@@ -1,1 +1,0 @@
-use @gtk_column_view_insert_column[None](self': GtkColumnView, position': U32, column': GtkColumnViewColumn)

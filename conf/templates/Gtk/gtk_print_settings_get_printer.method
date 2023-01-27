@@ -1,2 +1,0 @@
-  fun ref get_printer(): String iso^ =>
-    GtkPrintSettingsP.get_printer(this)

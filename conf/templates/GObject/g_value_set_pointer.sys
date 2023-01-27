@@ -1,2 +1,0 @@
-  fun set_pointer(value': GValue, v_pointer': Pointer[None] tag): None =>
-    @g_value_set_pointer(value', v_pointer')

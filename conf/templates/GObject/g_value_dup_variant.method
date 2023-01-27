@@ -1,2 +1,0 @@
-  fun ref dup_variant(): GVariant =>
-    GValueP.dup_variant(this)

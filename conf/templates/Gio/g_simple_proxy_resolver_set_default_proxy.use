@@ -1,1 +1,0 @@
-use @g_simple_proxy_resolver_set_default_proxy[None](resolver': GSimpleProxyResolver, default_proxy': Pointer[U8] tag)

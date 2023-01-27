@@ -1,2 +1,0 @@
-  fun ref has_application(app_name': String): I32 =>
-    GtkRecentInfoP.has_application(this, app_name')

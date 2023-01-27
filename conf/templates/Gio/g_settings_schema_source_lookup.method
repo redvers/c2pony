@@ -1,2 +1,0 @@
-  fun ref lookup(schema_id': String, recursive': I32): GSettingsSchema =>
-    GSettingsSchemaSourceP.lookup(this, schema_id', recursive')

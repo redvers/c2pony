@@ -1,2 +1,0 @@
-  fun get_flags(manager': GDBusObjectManagerClient): U32 =>
-    @g_dbus_object_manager_client_get_flags(manager')

@@ -1,1 +1,0 @@
-use @gtk_text_iter_set_offset[None](iter': GtkTextIter, char_offset': I32)

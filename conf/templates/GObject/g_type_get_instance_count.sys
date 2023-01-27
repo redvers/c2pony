@@ -1,2 +1,0 @@
-  fun type_get_instance_count(type': U64): I32 =>
-    @g_type_get_instance_count(type')

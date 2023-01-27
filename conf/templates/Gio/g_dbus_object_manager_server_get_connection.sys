@@ -1,2 +1,0 @@
-  fun get_connection(manager': GDBusObjectManagerServer): GDBusConnection =>
-    @g_dbus_object_manager_server_get_connection(manager')

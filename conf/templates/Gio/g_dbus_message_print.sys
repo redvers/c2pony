@@ -1,2 +1,0 @@
-  fun print(message': GDBusMessage, indent': U32): String iso^ =>
-    String.from_cstring(@g_dbus_message_print(message', indent')).clone()

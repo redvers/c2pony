@@ -1,2 +1,0 @@
-  fun get_default_timeout(proxy': GDBusProxy): I32 =>
-    @g_dbus_proxy_get_default_timeout(proxy')

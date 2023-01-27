@@ -1,2 +1,0 @@
-  fun ref save(): None =>
-    P.save(this)

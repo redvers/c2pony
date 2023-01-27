@@ -1,2 +1,0 @@
-  fun ref set_min_size(width': I32, height': I32): None =>
-    GtkConstraintGuideP.set_min_size(this, width', height')

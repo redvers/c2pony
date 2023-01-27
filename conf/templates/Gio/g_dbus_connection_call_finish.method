@@ -1,2 +1,0 @@
-  fun ref call_finish(res': GAsyncResult, error': GError): GVariant =>
-    GDBusConnectionP.call_finish(this, res', error')

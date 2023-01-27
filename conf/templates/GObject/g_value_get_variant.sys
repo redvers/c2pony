@@ -1,2 +1,0 @@
-  fun get_variant(value': GValue): GVariant =>
-    @g_value_get_variant(value')

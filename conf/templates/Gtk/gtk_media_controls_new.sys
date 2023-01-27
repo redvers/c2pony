@@ -1,2 +1,0 @@
-  fun new(stream': GtkMediaStream): Pointer[GObjectP] =>
-@gtk_media_controls_new(stream')

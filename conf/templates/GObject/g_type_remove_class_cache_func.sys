@@ -1,2 +1,0 @@
-  fun type_remove_class_cache_func(cache_data': Pointer[None] tag, cache_func': GTypeClassCacheFunc): None =>
-    @g_type_remove_class_cache_func(cache_data', cache_func')

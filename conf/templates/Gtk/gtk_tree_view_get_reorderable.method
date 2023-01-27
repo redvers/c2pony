@@ -1,2 +1,0 @@
-  fun ref get_reorderable(): I32 =>
-    GtkTreeViewP.get_reorderable(this)

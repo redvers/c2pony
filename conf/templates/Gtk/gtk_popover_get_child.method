@@ -1,2 +1,0 @@
-  fun ref get_child(): Pointer[GObjectP] =>
-    GtkPopoverP.get_child(this)

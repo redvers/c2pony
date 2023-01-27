@@ -1,2 +1,0 @@
-  fun get_placeholder_text(entry': GtkEntry): String iso^ =>
-    String.from_cstring(@gtk_entry_get_placeholder_text(entry')).clone()

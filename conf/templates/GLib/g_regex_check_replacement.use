@@ -1,1 +1,0 @@
-use @g_regex_check_replacement[I32](replacement': Pointer[U8] tag, has_references': Pointer[I32] tag, error': Pointer[NullablePointer[GErrorT]])

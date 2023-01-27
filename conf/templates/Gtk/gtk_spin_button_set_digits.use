@@ -1,1 +1,0 @@
-use @gtk_spin_button_set_digits[None](spin_button': GtkSpinButton, digits': U32)

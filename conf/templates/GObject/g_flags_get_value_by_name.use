@@ -1,1 +1,0 @@
-use @g_flags_get_value_by_name[GFlagsValue](flags_class': GFlagsClass, name': Pointer[U8] tag)

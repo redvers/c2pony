@@ -1,2 +1,0 @@
-  fun ref get_modal(): I32 =>
-    GtkAppChooserButtonP.get_modal(this)

@@ -1,1 +1,0 @@
-use @gtk_header_bar_set_show_title_buttons[None](bar': GtkHeaderBar, setting': I32)

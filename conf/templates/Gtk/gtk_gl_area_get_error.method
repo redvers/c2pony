@@ -1,2 +1,0 @@
-  fun ref get_error(): NullablePointer[GErrorT] =>
-    GtkGLAreaP.get_error(this)

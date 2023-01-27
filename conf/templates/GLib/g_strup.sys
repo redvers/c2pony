@@ -1,2 +1,0 @@
-  fun strup(string': String): String iso^ =>
-    String.from_cstring(@g_strup(string'.cstring())).clone()

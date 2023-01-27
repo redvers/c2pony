@@ -1,2 +1,0 @@
-  fun ref get_title(uri': String, error': GError): String iso^ =>
-    GBookmarkFileP.get_title(this, uri', error')

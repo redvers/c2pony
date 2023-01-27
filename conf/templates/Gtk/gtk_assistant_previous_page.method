@@ -1,2 +1,0 @@
-  fun ref previous_page(): None =>
-    GtkAssistantP.previous_page(this)

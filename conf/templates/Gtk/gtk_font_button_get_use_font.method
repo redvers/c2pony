@@ -1,2 +1,0 @@
-  fun ref get_use_font(): I32 =>
-    GtkFontButtonP.get_use_font(this)

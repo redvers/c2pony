@@ -1,2 +1,0 @@
-  fun ref get_peer_certificate(): GTlsCertificate =>
-    GTlsConnectionP.get_peer_certificate(this)

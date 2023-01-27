@@ -1,2 +1,0 @@
-  fun ref set_use_size(use_size': I32): None =>
-    GtkFontButtonP.set_use_size(this, use_size')

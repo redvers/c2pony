@@ -1,1 +1,0 @@
-use @g_get_user_special_dir[Pointer[U8]](directory': U32)

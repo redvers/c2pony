@@ -1,2 +1,0 @@
-  fun type_compatible(src_type': U64, dest_type': U64): I32 =>
-    @g_value_type_compatible(src_type', dest_type')

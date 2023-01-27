@@ -1,1 +1,0 @@
-use @g_buffered_input_stream_new[GInputStream](base_stream': GInputStream)

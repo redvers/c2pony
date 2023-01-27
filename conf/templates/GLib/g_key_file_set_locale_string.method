@@ -1,2 +1,0 @@
-  fun ref set_locale_string(group_name': String, key': String, locale': String, string': String): None =>
-    GKeyFileP.set_locale_string(this, group_name', key', locale', string')

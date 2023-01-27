@@ -1,2 +1,0 @@
-  fun ref bind_with_mapping(key': String, object': Pointer[None] tag, property': String, flags': U32, get_mapping': GSettingsBindGetMapping, set_mapping': GSettingsBindSetMapping, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    GSettingsP.bind_with_mapping(this, key', object', property', flags', get_mapping', set_mapping', user_data', destroy')

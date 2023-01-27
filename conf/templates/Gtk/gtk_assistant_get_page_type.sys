@@ -1,2 +1,0 @@
-  fun get_page_type(assistant': GtkAssistant, page': GtkWidgetI): U32 =>
-    @gtk_assistant_get_page_type(assistant', page'.getptr())

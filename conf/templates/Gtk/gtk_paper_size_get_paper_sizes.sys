@@ -1,2 +1,0 @@
-  fun get_paper_sizes(include_custom': I32): GList =>
-    @gtk_paper_size_get_paper_sizes(include_custom')

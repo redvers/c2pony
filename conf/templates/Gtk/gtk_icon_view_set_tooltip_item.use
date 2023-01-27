@@ -1,1 +1,0 @@
-use @gtk_icon_view_set_tooltip_item[None](icon_view': GtkIconView, tooltip': GtkTooltip, path': GtkTreePath)

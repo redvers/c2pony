@@ -1,2 +1,0 @@
-  fun ref get_website_label(): String iso^ =>
-    GtkAboutDialogP.get_website_label(this)

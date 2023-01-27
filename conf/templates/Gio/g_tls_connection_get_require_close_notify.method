@@ -1,2 +1,0 @@
-  fun ref get_require_close_notify(): I32 =>
-    GTlsConnectionP.get_require_close_notify(this)

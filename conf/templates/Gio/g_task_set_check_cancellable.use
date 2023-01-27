@@ -1,1 +1,0 @@
-use @g_task_set_check_cancellable[None](task': GTask, check_cancellable': I32)

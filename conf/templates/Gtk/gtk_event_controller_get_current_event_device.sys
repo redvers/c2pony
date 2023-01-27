@@ -1,2 +1,0 @@
-  fun get_current_event_device(controller': GtkEventController): GdkDevice =>
-    @gtk_event_controller_get_current_event_device(controller')

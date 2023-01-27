@@ -1,2 +1,0 @@
-  fun get_uint64(settings': GSettings, key': String): U64 =>
-    @g_settings_get_uint64(settings', key'.cstring())

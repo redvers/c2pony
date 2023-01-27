@@ -1,2 +1,0 @@
-  fun ref get_scale(): I32 =>
-    GtkStyleContextP.get_scale(this)

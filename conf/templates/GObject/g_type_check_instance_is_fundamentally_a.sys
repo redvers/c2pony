@@ -1,2 +1,0 @@
-  fun type_check_instance_is_fundamentally_a(instance': GTypeInstance, fundamental_type': U64): I32 =>
-    @g_type_check_instance_is_fundamentally_a(instance', fundamental_type')

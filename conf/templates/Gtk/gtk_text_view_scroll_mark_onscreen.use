@@ -1,1 +1,0 @@
-use @gtk_text_view_scroll_mark_onscreen[None](text_view': GtkTextView, mark': GtkTextMark)

@@ -1,1 +1,0 @@
-use @gtk_grid_view_set_factory[None](self': GtkGridView, factory': GtkListItemFactory)

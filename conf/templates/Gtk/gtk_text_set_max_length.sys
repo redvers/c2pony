@@ -1,2 +1,0 @@
-  fun set_max_length(self': GtkText, length': I32): None =>
-    @gtk_text_set_max_length(self', length')

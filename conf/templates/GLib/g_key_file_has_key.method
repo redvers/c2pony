@@ -1,2 +1,0 @@
-  fun ref has_key(group_name': String, key': String, error': GError): I32 =>
-    GKeyFileP.has_key(this, group_name', key', error')

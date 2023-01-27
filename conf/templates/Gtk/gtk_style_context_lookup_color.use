@@ -1,1 +1,0 @@
-use @gtk_style_context_lookup_color[I32](context': GtkStyleContext, color_name': Pointer[U8] tag, color': GdkRGBA)

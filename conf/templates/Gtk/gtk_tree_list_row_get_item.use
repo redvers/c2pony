@@ -1,1 +1,0 @@
-use @gtk_tree_list_row_get_item[Pointer[None] tag](self': GtkTreeListRow)

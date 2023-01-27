@@ -1,2 +1,0 @@
-  fun free(reference': GtkTreeRowReference): None =>
-    @gtk_tree_row_reference_free(reference')

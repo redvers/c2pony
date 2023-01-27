@@ -1,1 +1,0 @@
-use @g_variant_get_boolean[I32](value': GVariant)

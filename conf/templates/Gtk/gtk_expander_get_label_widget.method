@@ -1,2 +1,0 @@
-  fun ref get_label_widget(): Pointer[GObjectP] =>
-    GtkExpanderP.get_label_widget(this)

@@ -1,2 +1,0 @@
-  fun has_pending(stream': GOutputStream): I32 =>
-    @g_output_stream_has_pending(stream')

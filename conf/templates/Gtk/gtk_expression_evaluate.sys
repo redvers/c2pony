@@ -1,2 +1,0 @@
-  fun evaluate(self': GtkExpression, this': Pointer[None] tag, value': GValue): I32 =>
-    @gtk_expression_evaluate(self', this', value')

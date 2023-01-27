@@ -1,1 +1,0 @@
-use @g_inet_address_get_is_mc_org_local[I32](address': GInetAddress)

@@ -1,2 +1,0 @@
-  fun ref get_current_icon_drag_source(): I32 =>
-    GtkEntryP.get_current_icon_drag_source(this)

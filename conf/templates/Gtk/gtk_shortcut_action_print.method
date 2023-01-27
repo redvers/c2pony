@@ -1,2 +1,0 @@
-  fun ref print(string': GString): None =>
-    GtkShortcutActionP.print(this, string')

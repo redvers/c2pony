@@ -1,2 +1,0 @@
-  fun ref run(argc': I32, argv': Pointer[Pointer[U8]] tag): I32 =>
-    GApplicationP.run(this, argc', argv')

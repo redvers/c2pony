@@ -1,1 +1,0 @@
-use @gtk_label_get_selection_bounds[I32](self': GtkLabel, start': Pointer[I32] tag, end': Pointer[I32] tag)

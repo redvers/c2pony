@@ -1,2 +1,0 @@
-  fun ref match_all(string': String, match_options': U32, match_info': Pointer[GMatchInfo]): I32 =>
-    GRegexP.match_all(this, string', match_options', match_info')

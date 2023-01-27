@@ -1,2 +1,0 @@
-  fun get_guid(connection': GDBusConnection): String iso^ =>
-    String.from_cstring(@g_dbus_connection_get_guid(connection')).clone()

@@ -1,2 +1,0 @@
-  fun ref get_child(index': U64, format_string': String, ...): None =>
-    GVariantP.get_child(this, index', format_string', ...)

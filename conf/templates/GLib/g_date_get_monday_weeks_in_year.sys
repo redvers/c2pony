@@ -1,2 +1,0 @@
-  fun get_monday_weeks_in_year(year': U16): U8 =>
-    @g_date_get_monday_weeks_in_year(year')

@@ -1,2 +1,0 @@
-  fun unref(info': GDBusAnnotationInfo): None =>
-    @g_dbus_annotation_info_unref(info')

@@ -1,2 +1,0 @@
-  fun ref begin_irreversible_action(): None =>
-    GtkTextBufferP.begin_irreversible_action(this)

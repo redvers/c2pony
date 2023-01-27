@@ -1,2 +1,0 @@
-  fun new(): Pointer[GObjectP] =>
-@gtk_window_handle_new()

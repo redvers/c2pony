@@ -1,1 +1,0 @@
-use @g_hash_table_remove[I32](hash_table': GHashTable, key': Pointer[None] tag)

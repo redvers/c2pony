@@ -1,2 +1,0 @@
-  fun ref get_popup_single_match(): I32 =>
-    GtkEntryCompletionP.get_popup_single_match(this)

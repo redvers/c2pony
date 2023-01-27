@@ -1,2 +1,0 @@
-  fun ref set_placeholder(placeholder': GtkWidgetI): None =>
-    GtkListBoxP.set_placeholder(this, placeholder')

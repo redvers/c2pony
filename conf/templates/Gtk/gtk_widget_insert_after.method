@@ -1,2 +1,0 @@
-  fun ref insert_after(parent': GtkWidgetI, previous_sibling': GtkWidgetI): None =>
-    GtkWidgetP.insert_after(this, parent', previous_sibling')

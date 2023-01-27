@@ -1,2 +1,0 @@
-  fun boxed_copy(boxed_type': U64, src_boxed': Pointer[None] tag): Pointer[None] tag =>
-    @g_boxed_copy(boxed_type', src_boxed')

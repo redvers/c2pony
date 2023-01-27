@@ -1,2 +1,0 @@
-  fun set_blocking(socket': GSocket, blocking': I32): None =>
-    @g_socket_set_blocking(socket', blocking')

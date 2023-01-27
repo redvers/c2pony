@@ -1,2 +1,0 @@
-  fun ref compare(rhs': GDate): I32 =>
-    GDateP.compare(this, rhs')

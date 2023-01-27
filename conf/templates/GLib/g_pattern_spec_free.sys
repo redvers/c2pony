@@ -1,2 +1,0 @@
-  fun free(pspec': GPatternSpec): None =>
-    @g_pattern_spec_free(pspec')

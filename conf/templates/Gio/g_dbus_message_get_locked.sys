@@ -1,2 +1,0 @@
-  fun get_locked(message': GDBusMessage): I32 =>
-    @g_dbus_message_get_locked(message')

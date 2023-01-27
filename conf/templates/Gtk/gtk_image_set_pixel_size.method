@@ -1,2 +1,0 @@
-  fun ref set_pixel_size(pixel_size': I32): None =>
-    GtkImageP.set_pixel_size(this, pixel_size')

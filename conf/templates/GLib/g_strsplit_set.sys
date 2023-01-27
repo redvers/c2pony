@@ -1,2 +1,0 @@
-  fun strsplit_set(string': String, delimiters': String, max_tokens': I32): Pointer[Pointer[U8]] tag =>
-    @g_strsplit_set(string'.cstring(), delimiters'.cstring(), max_tokens')

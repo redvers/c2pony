@@ -1,2 +1,0 @@
-  fun copy(reference': GtkTreeRowReference): GtkTreeRowReference =>
-    @gtk_tree_row_reference_copy(reference')

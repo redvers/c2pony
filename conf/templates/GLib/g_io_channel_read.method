@@ -1,2 +1,0 @@
-  fun ref read(buf': String, count': U64, bytes_read': Pointer[U64] tag): U32 =>
-    GIOChannelP.read(this, buf', count', bytes_read')

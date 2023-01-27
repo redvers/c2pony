@@ -1,1 +1,0 @@
-use @g_queue_pop_head_link[GList](queue': GQueue)

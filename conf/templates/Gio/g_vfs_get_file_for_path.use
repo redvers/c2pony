@@ -1,1 +1,0 @@
-use @g_vfs_get_file_for_path[GFile](vfs': GVfs, path': Pointer[U8] tag)

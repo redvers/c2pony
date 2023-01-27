@@ -1,2 +1,0 @@
-  fun get_context(task': GTask): GMainContext =>
-    @g_task_get_context(task')

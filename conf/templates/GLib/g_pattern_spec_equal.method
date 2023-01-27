@@ -1,2 +1,0 @@
-  fun ref equal(pspec2': GPatternSpec): I32 =>
-    GPatternSpecP.equal(this, pspec2')

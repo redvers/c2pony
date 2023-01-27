@@ -1,2 +1,0 @@
-  fun get_halign(widget': GtkWidgetI): U32 =>
-    @gtk_widget_get_halign(widget'.getptr())

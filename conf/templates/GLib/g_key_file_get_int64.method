@@ -1,2 +1,0 @@
-  fun ref get_int64(group_name': String, key': String, error': GError): I64 =>
-    GKeyFileP.get_int64(this, group_name', key', error')

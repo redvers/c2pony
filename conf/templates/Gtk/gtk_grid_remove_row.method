@@ -1,2 +1,0 @@
-  fun ref remove_row(position': I32): None =>
-    GtkGridP.remove_row(this, position')

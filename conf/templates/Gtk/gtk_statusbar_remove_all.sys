@@ -1,2 +1,0 @@
-  fun remove_all(statusbar': GtkStatusbar, context_id': U32): None =>
-    @gtk_statusbar_remove_all(statusbar', context_id')

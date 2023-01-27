@@ -1,2 +1,0 @@
-  fun ref remove_all_tags(start': GtkTextIter, end': GtkTextIter): None =>
-    GtkTextBufferP.remove_all_tags(this, start', end')

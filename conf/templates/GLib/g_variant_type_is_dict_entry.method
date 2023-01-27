@@ -1,2 +1,0 @@
-  fun ref is_dict_entry(): I32 =>
-    GVariantTypeP.is_dict_entry(this)

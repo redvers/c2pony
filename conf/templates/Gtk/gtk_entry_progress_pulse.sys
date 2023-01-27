@@ -1,2 +1,0 @@
-  fun progress_pulse(entry': GtkEntry): None =>
-    @gtk_entry_progress_pulse(entry')

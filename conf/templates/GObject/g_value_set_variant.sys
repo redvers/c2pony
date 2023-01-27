@@ -1,2 +1,0 @@
-  fun set_variant(value': GValue, variant': GVariant): None =>
-    @g_value_set_variant(value', variant')

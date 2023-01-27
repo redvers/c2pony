@@ -1,2 +1,0 @@
-  fun ref(source': GSource): GSource =>
-    @g_source_ref(source')

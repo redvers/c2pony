@@ -1,2 +1,0 @@
-  fun ref get_poll_func(): GPollFunc =>
-    GMainContextP.get_poll_func(this)

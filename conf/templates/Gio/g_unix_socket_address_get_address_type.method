@@ -1,2 +1,0 @@
-  fun ref get_address_type(): U32 =>
-    GUnixSocketAddressP.get_address_type(this)

@@ -1,2 +1,0 @@
-  fun ref forward_word_ends(count': I32): I32 =>
-    GtkTextIterP.forward_word_ends(this, count')

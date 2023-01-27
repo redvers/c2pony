@@ -1,2 +1,0 @@
-  fun nth_child(node': GNode, n': U32): GNode =>
-    @g_node_nth_child(node', n')

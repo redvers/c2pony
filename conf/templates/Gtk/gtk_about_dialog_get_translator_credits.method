@@ -1,2 +1,0 @@
-  fun ref get_translator_credits(): String iso^ =>
-    GtkAboutDialogP.get_translator_credits(this)

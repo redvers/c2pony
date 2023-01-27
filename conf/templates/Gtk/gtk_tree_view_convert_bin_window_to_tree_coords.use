@@ -1,1 +1,0 @@
-use @gtk_tree_view_convert_bin_window_to_tree_coords[None](tree_view': GtkTreeView, bx': I32, by': I32, tx': Pointer[I32] tag, ty': Pointer[I32] tag)

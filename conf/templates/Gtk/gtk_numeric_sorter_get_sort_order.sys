@@ -1,2 +1,0 @@
-  fun get_sort_order(self': GtkNumericSorter): U32 =>
-    @gtk_numeric_sorter_get_sort_order(self')

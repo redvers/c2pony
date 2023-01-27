@@ -1,2 +1,0 @@
-  fun ref set_license_type(license_type': U32): None =>
-    GtkAboutDialogP.set_license_type(this, license_type')

@@ -1,2 +1,0 @@
-  fun set_spinning(spinner': GtkSpinner, spinning': I32): None =>
-    @gtk_spinner_set_spinning(spinner', spinning')

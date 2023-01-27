@@ -1,2 +1,0 @@
-  fun ref add(microseconds': I64): None =>
-    GTimeValP.add(this, microseconds')

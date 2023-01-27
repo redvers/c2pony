@@ -1,2 +1,0 @@
-  fun ref fetch_named(name': String): String iso^ =>
-    GMatchInfoP.fetch_named(this, name')

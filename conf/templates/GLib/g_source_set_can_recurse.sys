@@ -1,2 +1,0 @@
-  fun set_can_recurse(source': GSource, can_recurse': I32): None =>
-    @g_source_set_can_recurse(source', can_recurse')

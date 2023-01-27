@@ -1,2 +1,0 @@
-  fun ref set_justification(justification': U32): None =>
-    GtkTextViewP.set_justification(this, justification')

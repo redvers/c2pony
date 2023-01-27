@@ -1,2 +1,0 @@
-  fun ref select_all(): None =>
-    GtkIconViewP.select_all(this)

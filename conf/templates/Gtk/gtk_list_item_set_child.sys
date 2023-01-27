@@ -1,2 +1,0 @@
-  fun set_child(self': GtkListItem, child': GtkWidgetI): None =>
-    @gtk_list_item_set_child(self', child'.getptr())

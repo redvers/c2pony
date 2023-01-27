@@ -1,1 +1,0 @@
-use @gtk_text_view_set_extra_menu[None](text_view': GtkTextView, model': GMenuModel)

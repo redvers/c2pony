@@ -1,1 +1,0 @@
-use @gtk_progress_bar_get_pulse_step[F64](pbar': GtkProgressBar)

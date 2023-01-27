@@ -1,2 +1,0 @@
-  fun parse_params(params': String, length': I64, separators': String, flags': U32, error': GError): GHashTable =>
-    @g_uri_parse_params(params'.cstring(), length', separators'.cstring(), flags', addressof error'.ptr)

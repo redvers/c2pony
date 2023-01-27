@@ -1,2 +1,0 @@
-  fun ref group(gesture': GtkGesture): None =>
-    GtkGestureP.group(this, gesture')

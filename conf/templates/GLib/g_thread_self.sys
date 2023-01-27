@@ -1,2 +1,0 @@
-  fun self(): GThread =>
-    @g_thread_self()

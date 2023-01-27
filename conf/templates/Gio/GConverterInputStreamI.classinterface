@@ -1,7 +1,0 @@
-
-use "../GLib"
-use "../GObject"
-use "lib:gio-2.0"
-
-interface GConverterInputStreamI is GFilterInputStreamI
-  fun ref getptr(): Pointer[GObjectP]

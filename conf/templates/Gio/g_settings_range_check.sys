@@ -1,2 +1,0 @@
-  fun range_check(settings': GSettings, key': String, value': GVariant): I32 =>
-    @g_settings_range_check(settings', key'.cstring(), value')

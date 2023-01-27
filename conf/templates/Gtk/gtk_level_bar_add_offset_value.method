@@ -1,2 +1,0 @@
-  fun ref add_offset_value(name': String, value': F64): None =>
-    GtkLevelBarP.add_offset_value(this, name', value')

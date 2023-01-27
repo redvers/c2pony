@@ -1,2 +1,0 @@
-  fun ref get_op_res_gboolean(): I32 =>
-    GSimpleAsyncResultP.get_op_res_gboolean(this)

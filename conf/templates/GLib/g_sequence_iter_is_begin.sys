@@ -1,2 +1,0 @@
-  fun is_begin(iter': GSequenceNode): I32 =>
-    @g_sequence_iter_is_begin(iter')

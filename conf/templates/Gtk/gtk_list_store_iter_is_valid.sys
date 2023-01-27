@@ -1,2 +1,0 @@
-  fun iter_is_valid(list_store': GtkListStore, iter': GtkTreeIter): I32 =>
-    @gtk_list_store_iter_is_valid(list_store', iter')

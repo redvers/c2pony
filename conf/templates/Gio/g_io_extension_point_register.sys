@@ -1,2 +1,0 @@
-  fun register(name': String): GIOExtensionPoint =>
-    @g_io_extension_point_register(name'.cstring())

@@ -1,2 +1,0 @@
-  fun add_titled(stack': GtkStack, child': GtkWidgetI, name': String, title': String): GtkStackPage =>
-    @gtk_stack_add_titled(stack', child'.getptr(), name'.cstring(), title'.cstring())

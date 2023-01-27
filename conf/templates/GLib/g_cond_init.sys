@@ -1,2 +1,0 @@
-  fun init(cond': GCond): None =>
-    @g_cond_init(cond')

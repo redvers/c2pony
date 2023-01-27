@@ -1,2 +1,0 @@
-  fun atomic_rc_box_alloc(block_size': U64): Pointer[None] tag =>
-    @g_atomic_rc_box_alloc(block_size')

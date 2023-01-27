@@ -1,2 +1,0 @@
-  fun unsetenv(context': GAppLaunchContext, variable': String): None =>
-    @g_app_launch_context_unsetenv(context', variable'.cstring())

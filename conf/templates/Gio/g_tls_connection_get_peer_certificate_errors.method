@@ -1,2 +1,0 @@
-  fun ref get_peer_certificate_errors(): U32 =>
-    GTlsConnectionP.get_peer_certificate_errors(this)

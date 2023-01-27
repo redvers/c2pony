@@ -1,2 +1,0 @@
-  fun type_get_length(checksum_type': U32): I64 =>
-    @g_checksum_type_get_length(checksum_type')

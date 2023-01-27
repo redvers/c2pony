@@ -1,2 +1,0 @@
-  fun prepend_c(string': GString, c': U8): GString =>
-    @g_string_prepend_c(string', c')

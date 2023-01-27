@@ -1,1 +1,0 @@
-use @gtk_combo_box_get_has_entry[I32](combo_box': GtkComboBox)

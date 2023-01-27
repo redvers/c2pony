@@ -1,1 +1,0 @@
-use @g_strv_equal[I32](strv1': Pointer[Pointer[U8]] tag, strv2': Pointer[Pointer[U8]] tag)

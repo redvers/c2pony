@@ -1,2 +1,0 @@
-  fun copy_clipboard(buffer': GtkTextBuffer, clipboard': GdkClipboard): None =>
-    @gtk_text_buffer_copy_clipboard(buffer', clipboard')

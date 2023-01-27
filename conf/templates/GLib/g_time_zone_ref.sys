@@ -1,2 +1,0 @@
-  fun ref(tz': GTimeZone): GTimeZone =>
-    @g_time_zone_ref(tz')

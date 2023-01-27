@@ -1,2 +1,0 @@
-  fun ref remove(position': U32): None =>
-    GtkStringListP.remove(this, position')

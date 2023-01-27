@@ -1,1 +1,0 @@
-use @g_subprocess_communicate_utf8[I32](subprocess': GSubprocess, stdin_buf': Pointer[U8] tag, cancellable': GCancellable, stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,0 @@
-  fun ref delete_link(link': GList): None =>
-    GQueueP.delete_link(this, link')

@@ -1,2 +1,0 @@
-  fun set_interface_info(proxy': GDBusProxy, info': GDBusInterfaceInfo): None =>
-    @g_dbus_proxy_set_interface_info(proxy', info')

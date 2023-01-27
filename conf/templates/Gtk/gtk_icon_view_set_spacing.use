@@ -1,1 +1,0 @@
-use @gtk_icon_view_set_spacing[None](icon_view': GtkIconView, spacing': I32)

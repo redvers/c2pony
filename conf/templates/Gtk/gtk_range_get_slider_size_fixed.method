@@ -1,2 +1,0 @@
-  fun ref get_slider_size_fixed(): I32 =>
-    GtkRangeP.get_slider_size_fixed(this)

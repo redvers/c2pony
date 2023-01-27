@@ -1,2 +1,0 @@
-  fun clear(list_store': GtkListStore): None =>
-    @gtk_list_store_clear(list_store')

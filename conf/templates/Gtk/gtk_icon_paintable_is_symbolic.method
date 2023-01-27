@@ -1,2 +1,0 @@
-  fun ref is_symbolic(): I32 =>
-    GtkIconPaintableP.is_symbolic(this)

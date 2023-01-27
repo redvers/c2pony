@@ -1,2 +1,0 @@
-  fun query_info_finish(stream': GFileIOStream, result': GAsyncResult, error': GError): GFileInfo =>
-    @g_file_io_stream_query_info_finish(stream', result', addressof error'.ptr)

@@ -1,1 +1,0 @@
-use @gtk_about_dialog_get_comments[Pointer[U8]](about': GtkAboutDialog)

@@ -1,2 +1,0 @@
-  fun ref set_anonymous(anonymous': I32): None =>
-    GMountOperationP.set_anonymous(this, anonymous')

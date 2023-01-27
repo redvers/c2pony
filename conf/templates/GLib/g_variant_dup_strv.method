@@ -1,2 +1,0 @@
-  fun ref dup_strv(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
-    GVariantP.dup_strv(this, length')

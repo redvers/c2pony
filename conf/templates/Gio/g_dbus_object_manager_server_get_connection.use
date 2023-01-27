@@ -1,1 +1,0 @@
-use @g_dbus_object_manager_server_get_connection[GDBusConnection](manager': GDBusObjectManagerServer)

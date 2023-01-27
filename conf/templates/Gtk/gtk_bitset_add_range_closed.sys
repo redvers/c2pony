@@ -1,2 +1,0 @@
-  fun add_range_closed(self': GtkBitset, first': U32, last': U32): None =>
-    @gtk_bitset_add_range_closed(self', first', last')

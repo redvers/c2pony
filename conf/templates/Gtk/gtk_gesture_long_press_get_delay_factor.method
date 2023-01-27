@@ -1,2 +1,0 @@
-  fun ref get_delay_factor(): F64 =>
-    GtkGestureLongPressP.get_delay_factor(this)

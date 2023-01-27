@@ -1,2 +1,0 @@
-  fun set_css_classes(widget': GtkWidgetI, classes': Pointer[Pointer[U8]] tag): None =>
-    @gtk_widget_set_css_classes(widget'.getptr(), classes')

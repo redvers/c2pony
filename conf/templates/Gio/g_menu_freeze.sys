@@ -1,2 +1,0 @@
-  fun freeze(menu': GMenu): None =>
-    @g_menu_freeze(menu')

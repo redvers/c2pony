@@ -1,2 +1,0 @@
-  fun get_seconds(datetime': GDateTime): F64 =>
-    @g_date_time_get_seconds(datetime')

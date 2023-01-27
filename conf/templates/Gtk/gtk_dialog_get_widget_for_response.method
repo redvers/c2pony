@@ -1,2 +1,0 @@
-  fun ref get_widget_for_response(response_id': I32): Pointer[GObjectP] =>
-    GtkDialogP.get_widget_for_response(this, response_id')

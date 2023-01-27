@@ -1,2 +1,0 @@
-  fun ref set_funcs(funcs': GSourceFuncs): None =>
-    GSourceP.set_funcs(this, funcs')

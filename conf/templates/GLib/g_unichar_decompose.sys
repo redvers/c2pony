@@ -1,2 +1,0 @@
-  fun unichar_decompose(ch': U32, a': Pointer[U32] tag, b': Pointer[U32] tag): I32 =>
-    @g_unichar_decompose(ch', a', b')

@@ -1,2 +1,0 @@
-  fun get_orientation(gesture': GtkGesturePan): U32 =>
-    @gtk_gesture_pan_get_orientation(gesture')

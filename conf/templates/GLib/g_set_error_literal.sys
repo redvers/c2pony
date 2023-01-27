@@ -1,2 +1,0 @@
-  fun set_error_literal(err': GError, domain': U32, code': I32, message': String): None =>
-    @g_set_error_literal(addressof err'.ptr, domain', code', message'.cstring())

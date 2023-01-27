@@ -1,2 +1,0 @@
-  fun get_real_name(): String iso^ =>
-    String.from_cstring(@g_get_real_name()).clone()

@@ -1,2 +1,0 @@
-  fun bus_watch_name_with_closures(bus_type': I32, name': String, flags': U32, name_appeared_closure': GClosure, name_vanished_closure': GClosure): U32 =>
-    @g_bus_watch_name_with_closures(bus_type', name'.cstring(), flags', name_appeared_closure', name_vanished_closure')

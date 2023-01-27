@@ -1,2 +1,0 @@
-  fun ref subtract_days(n_days': U32): None =>
-    GDateP.subtract_days(this, n_days')

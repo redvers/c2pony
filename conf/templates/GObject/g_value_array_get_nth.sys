@@ -1,2 +1,0 @@
-  fun get_nth(value_array': GValueArray, index': U32): GValue =>
-    @g_value_array_get_nth(value_array', index')

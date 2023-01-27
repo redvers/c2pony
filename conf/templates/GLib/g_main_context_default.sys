@@ -1,2 +1,0 @@
-  fun default(): GMainContext =>
-    @g_main_context_default()

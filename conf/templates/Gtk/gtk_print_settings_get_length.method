@@ -1,2 +1,0 @@
-  fun ref get_length(key': String, unit': U32): F64 =>
-    GtkPrintSettingsP.get_length(this, key', unit')

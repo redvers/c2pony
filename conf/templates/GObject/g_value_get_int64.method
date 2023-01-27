@@ -1,2 +1,0 @@
-  fun ref get_int64(): I64 =>
-    GValueP.get_int64(this)

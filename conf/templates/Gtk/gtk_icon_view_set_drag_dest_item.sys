@@ -1,2 +1,0 @@
-  fun set_drag_dest_item(icon_view': GtkIconView, path': GtkTreePath, pos': U32): None =>
-    @gtk_icon_view_set_drag_dest_item(icon_view', path', pos')

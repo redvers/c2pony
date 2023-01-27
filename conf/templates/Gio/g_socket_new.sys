@@ -1,2 +1,0 @@
-  fun new(family': U32, type': U32, protocol': I32, error': GError): GSocket =>
-    @g_socket_new(family', type', protocol', addressof error'.ptr)

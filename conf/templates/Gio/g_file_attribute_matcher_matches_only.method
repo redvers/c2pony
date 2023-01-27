@@ -1,2 +1,0 @@
-  fun ref matches_only(attribute': String): I32 =>
-    GFileAttributeMatcherP.matches_only(this, attribute')

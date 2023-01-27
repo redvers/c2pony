@@ -1,1 +1,0 @@
-use @g_dbus_server_get_guid[Pointer[U8]](server': GDBusServer)

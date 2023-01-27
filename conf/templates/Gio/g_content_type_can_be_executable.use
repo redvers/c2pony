@@ -1,1 +1,0 @@
-use @g_content_type_can_be_executable[I32](type': Pointer[U8] tag)

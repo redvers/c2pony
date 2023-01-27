@@ -1,2 +1,0 @@
-  fun assign(iter': GtkTextIter, other': GtkTextIter): None =>
-    @gtk_text_iter_assign(iter', other')

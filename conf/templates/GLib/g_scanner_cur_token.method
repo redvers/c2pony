@@ -1,2 +1,0 @@
-  fun ref cur_token(): U32 =>
-    GScannerP.cur_token(this)

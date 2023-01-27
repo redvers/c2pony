@@ -1,2 +1,0 @@
-  fun set_focus(window': GtkWindowI, focus': GtkWidgetI): None =>
-    @gtk_window_set_focus(window'.getptr(), focus'.getptr())

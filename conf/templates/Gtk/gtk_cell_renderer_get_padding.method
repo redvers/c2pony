@@ -1,2 +1,0 @@
-  fun ref get_padding(xpad': Pointer[I32] tag, ypad': Pointer[I32] tag): None =>
-    GtkCellRendererP.get_padding(this, xpad', ypad')

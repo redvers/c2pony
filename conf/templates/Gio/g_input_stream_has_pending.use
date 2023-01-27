@@ -1,1 +1,0 @@
-use @g_input_stream_has_pending[I32](stream': GInputStream)

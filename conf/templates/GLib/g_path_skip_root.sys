@@ -1,2 +1,0 @@
-  fun path_skip_root(file_name': String): String iso^ =>
-    String.from_cstring(@g_path_skip_root(file_name'.cstring())).clone()

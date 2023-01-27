@@ -1,1 +1,0 @@
-use @g_application_set_default[None](application': Pointer[GObjectP])

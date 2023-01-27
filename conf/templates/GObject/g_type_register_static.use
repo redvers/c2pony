@@ -1,1 +1,0 @@
-use @g_type_register_static[U64](parent_type': U64, type_name': Pointer[U8] tag, info': GTypeInfo, flags': U32)

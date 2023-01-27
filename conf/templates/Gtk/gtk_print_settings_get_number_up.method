@@ -1,2 +1,0 @@
-  fun ref get_number_up(): I32 =>
-    GtkPrintSettingsP.get_number_up(this)

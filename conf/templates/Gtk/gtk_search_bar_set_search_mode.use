@@ -1,1 +1,0 @@
-use @gtk_search_bar_set_search_mode[None](bar': GtkSearchBar, search_mode': I32)

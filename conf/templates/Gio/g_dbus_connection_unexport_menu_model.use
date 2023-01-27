@@ -1,1 +1,0 @@
-use @g_dbus_connection_unexport_menu_model[None](connection': GDBusConnection, export_id': U32)

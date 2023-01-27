@@ -1,2 +1,0 @@
-  fun ref unset_attribute_mask(): None =>
-    GFileInfoP.unset_attribute_mask(this)

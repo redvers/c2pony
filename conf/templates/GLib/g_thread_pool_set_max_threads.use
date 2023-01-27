@@ -1,1 +1,0 @@
-use @g_thread_pool_set_max_threads[I32](pool': GThreadPool, max_threads': I32, error': Pointer[NullablePointer[GErrorT]])

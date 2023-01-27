@@ -1,2 +1,0 @@
-  fun shutdown(channel': GIOChannel, flush': I32, err': GError): U32 =>
-    @g_io_channel_shutdown(channel', flush', addressof err'.ptr)

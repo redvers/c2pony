@@ -1,1 +1,0 @@
-use @g_node_traverse[None](root': GNode, order': U32, flags': U32, max_depth': I32, func': GNodeTraverseFunc, data': Pointer[None] tag)

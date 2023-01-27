@@ -1,2 +1,0 @@
-  fun set_action(controller': GtkPadController, type': U32, index': I32, mode': I32, label': String, action_name': String): None =>
-    @gtk_pad_controller_set_action(controller', type', index', mode', label'.cstring(), action_name'.cstring())

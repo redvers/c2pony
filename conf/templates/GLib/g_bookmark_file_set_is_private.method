@@ -1,2 +1,0 @@
-  fun ref set_is_private(uri': String, is_private': I32): None =>
-    GBookmarkFileP.set_is_private(this, uri', is_private')

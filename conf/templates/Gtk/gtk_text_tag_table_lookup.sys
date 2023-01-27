@@ -1,2 +1,0 @@
-  fun lookup(table': GtkTextTagTable, name': String): GtkTextTag =>
-    @gtk_text_tag_table_lookup(table', name'.cstring())

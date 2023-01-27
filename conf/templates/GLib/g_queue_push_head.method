@@ -1,2 +1,0 @@
-  fun ref push_head(data': Pointer[None] tag): None =>
-    GQueueP.push_head(this, data')

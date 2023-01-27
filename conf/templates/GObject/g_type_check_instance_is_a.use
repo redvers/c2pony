@@ -1,1 +1,0 @@
-use @g_type_check_instance_is_a[I32](instance': GTypeInstance, iface_type': U64)

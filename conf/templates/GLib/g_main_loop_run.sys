@@ -1,2 +1,0 @@
-  fun run(loop': GMainLoop): None =>
-    @g_main_loop_run(loop')

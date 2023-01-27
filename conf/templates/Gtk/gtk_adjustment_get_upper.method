@@ -1,2 +1,0 @@
-  fun ref get_upper(): F64 =>
-    GtkAdjustmentP.get_upper(this)

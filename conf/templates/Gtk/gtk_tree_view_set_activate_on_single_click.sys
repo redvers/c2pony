@@ -1,2 +1,0 @@
-  fun set_activate_on_single_click(tree_view': GtkTreeView, single': I32): None =>
-    @gtk_tree_view_set_activate_on_single_click(tree_view', single')

@@ -1,2 +1,0 @@
-  fun set_pixels_inside_wrap(text_view': GtkTextView, pixels_inside_wrap': I32): None =>
-    @gtk_text_view_set_pixels_inside_wrap(text_view', pixels_inside_wrap')

@@ -1,2 +1,0 @@
-  fun get_can_unselect(self': GtkSingleSelection): I32 =>
-    @gtk_single_selection_get_can_unselect(self')

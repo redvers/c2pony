@@ -1,2 +1,0 @@
-  fun set_attributes(self': GtkText, attrs': PangoAttrList): None =>
-    @gtk_text_set_attributes(self', attrs')

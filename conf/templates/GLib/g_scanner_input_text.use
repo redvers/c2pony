@@ -1,1 +1,0 @@
-use @g_scanner_input_text[None](scanner': GScanner, text': Pointer[U8] tag, text_len': U32)

@@ -1,1 +1,0 @@
-use @gtk_text_iter_inside_sentence[I32](iter': GtkTextIter)

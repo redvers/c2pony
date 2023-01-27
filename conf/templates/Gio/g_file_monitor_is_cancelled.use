@@ -1,1 +1,0 @@
-use @g_file_monitor_is_cancelled[I32](monitor': GFileMonitor)

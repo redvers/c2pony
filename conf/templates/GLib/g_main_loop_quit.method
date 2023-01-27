@@ -1,2 +1,0 @@
-  fun ref quit(): None =>
-    GMainLoopP.quit(this)

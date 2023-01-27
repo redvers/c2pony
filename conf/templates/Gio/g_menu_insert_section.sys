@@ -1,2 +1,0 @@
-  fun insert_section(menu': GMenu, position': I32, label': String, section': GMenuModel): None =>
-    @g_menu_insert_section(menu', position', label'.cstring(), section')

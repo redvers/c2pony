@@ -1,2 +1,0 @@
-  fun ref get_fixed_height_mode(): I32 =>
-    GtkTreeViewP.get_fixed_height_mode(this)

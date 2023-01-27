@@ -1,2 +1,0 @@
-  fun ref erase(pos': I64, len': I64): GString =>
-    GStringP.erase(this, pos', len')

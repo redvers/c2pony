@@ -1,2 +1,0 @@
-  fun ref set_scope(scope_id': U32): U32 =>
-    GScannerP.set_scope(this, scope_id')

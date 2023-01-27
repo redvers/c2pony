@@ -1,2 +1,0 @@
-  fun splice(store': GListStore, position': U32, n_removals': U32, additions': Pointer[Pointer[None]] tag, n_additions': U32): None =>
-    @g_list_store_splice(store', position', n_removals', additions', n_additions')

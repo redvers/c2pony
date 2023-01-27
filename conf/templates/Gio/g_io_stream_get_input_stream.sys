@@ -1,2 +1,0 @@
-  fun get_input_stream(stream': GIOStream): GInputStream =>
-    @g_io_stream_get_input_stream(stream')

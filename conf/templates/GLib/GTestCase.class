@@ -1,9 +1,0 @@
-
-use "lib:glib-2.0"
-
-class GTestCase
-  var ptr: NullablePointer[GTestCaseT]
-
-  new create() =>
-    ptr = NullablePointer[GTestCaseT].none()
-  new create_from_ptr(ptr': NullablePointer[GTestCaseT]) => ptr = ptr'

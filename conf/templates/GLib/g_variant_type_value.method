@@ -1,2 +1,0 @@
-  fun ref value(): GVariantType =>
-    GVariantTypeP.value(this)

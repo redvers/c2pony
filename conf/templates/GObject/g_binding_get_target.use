@@ -1,1 +1,0 @@
-use @g_binding_get_target[Pointer[GObjectP]](binding': GBinding)

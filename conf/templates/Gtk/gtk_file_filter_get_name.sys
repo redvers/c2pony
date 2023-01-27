@@ -1,2 +1,0 @@
-  fun get_name(filter': GtkFileFilter): String iso^ =>
-    String.from_cstring(@gtk_file_filter_get_name(filter')).clone()

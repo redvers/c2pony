@@ -1,2 +1,0 @@
-  fun getv(object': GObjectI, n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValue): None =>
-    @g_object_getv(object'.getptr(), n_properties', names', values')

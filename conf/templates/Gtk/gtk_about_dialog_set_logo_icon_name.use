@@ -1,1 +1,0 @@
-use @gtk_about_dialog_set_logo_icon_name[None](about': GtkAboutDialog, icon_name': Pointer[U8] tag)

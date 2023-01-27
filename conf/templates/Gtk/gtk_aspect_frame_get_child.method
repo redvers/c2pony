@@ -1,2 +1,0 @@
-  fun ref get_child(): Pointer[GObjectP] =>
-    GtkAspectFrameP.get_child(this)

@@ -1,2 +1,0 @@
-  fun ref set_search_entry(entry': GtkEditable): None =>
-    GtkTreeViewP.set_search_entry(this, entry')

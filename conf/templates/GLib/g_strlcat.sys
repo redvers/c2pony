@@ -1,2 +1,0 @@
-  fun strlcat(dest': String, src': String, dest_size': U64): U64 =>
-    @g_strlcat(dest'.cstring(), src'.cstring(), dest_size')

@@ -1,1 +1,0 @@
-use @gtk_tree_path_up[I32](path': GtkTreePath)

@@ -1,2 +1,0 @@
-  fun ref get_ltr_context(): PangoContext =>
-    GtkTextViewP.get_ltr_context(this)

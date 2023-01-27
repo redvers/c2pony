@@ -1,2 +1,0 @@
-  fun ref get_keep_aspect_ratio(): I32 =>
-    GtkPictureP.get_keep_aspect_ratio(this)

@@ -1,2 +1,0 @@
-  fun ref new_method_reply(): GDBusMessage =>
-    GDBusMessageP.new_method_reply(this)

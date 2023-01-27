@@ -1,1 +1,0 @@
-use @g_file_read_link[Pointer[U8]](filename': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

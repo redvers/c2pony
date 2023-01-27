@@ -1,2 +1,0 @@
-  fun ref set_icon_name(icon_name': String): None =>
-    GtkButtonP.set_icon_name(this, icon_name')

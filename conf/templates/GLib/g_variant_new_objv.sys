@@ -1,2 +1,0 @@
-  fun new_objv(strv': Pointer[Pointer[U8]] tag, length': I64): GVariant =>
-    @g_variant_new_objv(strv', length')

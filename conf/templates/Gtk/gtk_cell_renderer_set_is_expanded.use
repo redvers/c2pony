@@ -1,1 +1,0 @@
-use @gtk_cell_renderer_set_is_expanded[None](cell': GtkCellRenderer, is_expanded': I32)

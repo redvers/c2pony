@@ -1,2 +1,0 @@
-  fun get_selected_children(box': GtkFlowBox): GList =>
-    @gtk_flow_box_get_selected_children(box')

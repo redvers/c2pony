@@ -1,1 +1,0 @@
-use @gtk_style_context_add_class[None](context': GtkStyleContext, class_name': Pointer[U8] tag)

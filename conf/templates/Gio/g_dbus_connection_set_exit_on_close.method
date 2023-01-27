@@ -1,2 +1,0 @@
-  fun ref set_exit_on_close(exit_on_close': I32): None =>
-    GDBusConnectionP.set_exit_on_close(this, exit_on_close')

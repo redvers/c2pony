@@ -1,2 +1,0 @@
-  fun test_fail(): None =>
-    @g_test_fail()

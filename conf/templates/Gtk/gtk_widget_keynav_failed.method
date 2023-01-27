@@ -1,2 +1,0 @@
-  fun ref keynav_failed(direction': U32): I32 =>
-    GtkWidgetP.keynav_failed(this, direction')

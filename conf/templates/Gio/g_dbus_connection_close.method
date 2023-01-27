@@ -1,2 +1,0 @@
-  fun ref close(cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    GDBusConnectionP.close(this, cancellable', callback', user_data')

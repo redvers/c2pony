@@ -1,2 +1,0 @@
-  fun unref(array': GByteArray): None =>
-    @g_byte_array_unref(array')

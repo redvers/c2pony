@@ -1,1 +1,0 @@
-use @g_simple_io_stream_new[GIOStream](input_stream': GInputStream, output_stream': GOutputStream)

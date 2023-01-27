@@ -1,2 +1,0 @@
-  fun attribute_connect(area': GtkCellArea, renderer': GtkCellRenderer, attribute': String, column': I32): None =>
-    @gtk_cell_area_attribute_connect(area', renderer', attribute'.cstring(), column')

@@ -1,2 +1,0 @@
-  fun ref set_logo_icon_name(icon_name': String): None =>
-    GtkAboutDialogP.set_logo_icon_name(this, icon_name')

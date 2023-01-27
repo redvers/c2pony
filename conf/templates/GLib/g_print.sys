@@ -1,2 +1,0 @@
-  fun print(format': String, ...): None =>
-    @g_print(format'.cstring(), ...)

@@ -1,2 +1,0 @@
-  fun ref get_layout_manager_type(): U64 =>
-    GtkWidgetClassP.get_layout_manager_type(this)

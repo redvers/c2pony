@@ -1,2 +1,0 @@
-  fun type_default_interface_unref(g_iface': Pointer[None] tag): None =>
-    @g_type_default_interface_unref(g_iface')

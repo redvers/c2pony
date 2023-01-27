@@ -1,1 +1,0 @@
-use @gtk_widget_set_tooltip_text[None](widget': Pointer[GObjectP], text': Pointer[U8] tag)

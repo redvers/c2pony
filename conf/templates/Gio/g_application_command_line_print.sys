@@ -1,2 +1,0 @@
-  fun print(cmdline': GApplicationCommandLine, format': String, ...): None =>
-    @g_application_command_line_print(cmdline', format'.cstring(), ...)

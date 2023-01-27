@@ -1,2 +1,0 @@
-  fun gtype_get_type(): U64 =>
-    @g_gtype_get_type()

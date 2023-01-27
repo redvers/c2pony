@@ -1,2 +1,0 @@
-  fun adjust_private_offset(g_class': Pointer[None] tag, private_size_or_offset': Pointer[I32] tag): None =>
-    @g_type_class_adjust_private_offset(g_class', private_size_or_offset')

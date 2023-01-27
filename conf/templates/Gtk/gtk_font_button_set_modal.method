@@ -1,2 +1,0 @@
-  fun ref set_modal(modal': I32): None =>
-    GtkFontButtonP.set_modal(this, modal')

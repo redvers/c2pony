@@ -1,2 +1,0 @@
-  fun ref set_name(name': String): None =>
-    GtkConstraintGuideP.set_name(this, name')

@@ -1,2 +1,0 @@
-  fun ref get_current_page(): I32 =>
-    GtkNotebookP.get_current_page(this)

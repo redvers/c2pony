@@ -1,2 +1,0 @@
-  fun new_tuple(children': Pointer[GVariant], n_children': U64): GVariant =>
-    @g_variant_new_tuple(children', n_children')

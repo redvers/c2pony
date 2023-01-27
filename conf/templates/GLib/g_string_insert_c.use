@@ -1,1 +1,0 @@
-use @g_string_insert_c[GString](string': GString, pos': I64, c': U8)

@@ -1,2 +1,0 @@
-  fun get_selected_item(self': GtkSingleSelection): Pointer[None] tag =>
-    @gtk_single_selection_get_selected_item(self')

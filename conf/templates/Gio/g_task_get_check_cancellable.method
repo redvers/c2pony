@@ -1,2 +1,0 @@
-  fun ref get_check_cancellable(): I32 =>
-    GTaskP.get_check_cancellable(this)

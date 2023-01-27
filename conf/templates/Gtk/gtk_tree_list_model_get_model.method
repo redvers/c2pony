@@ -1,2 +1,0 @@
-  fun ref get_model(): GListModel =>
-    GtkTreeListModelP.get_model(this)

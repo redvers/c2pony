@@ -1,1 +1,0 @@
-use @gtk_picture_set_can_shrink[None](self': GtkPicture, can_shrink': I32)

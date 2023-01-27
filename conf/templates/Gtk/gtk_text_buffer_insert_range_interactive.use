@@ -1,1 +1,0 @@
-use @gtk_text_buffer_insert_range_interactive[I32](buffer': GtkTextBuffer, iter': GtkTextIter, start': GtkTextIter, end': GtkTextIter, default_editable': I32)

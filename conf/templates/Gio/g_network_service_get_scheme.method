@@ -1,2 +1,0 @@
-  fun ref get_scheme(): String iso^ =>
-    GNetworkServiceP.get_scheme(this)

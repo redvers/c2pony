@@ -1,2 +1,0 @@
-  fun ref set_autoselect(autoselect': I32): None =>
-    GtkSingleSelectionP.set_autoselect(this, autoselect')

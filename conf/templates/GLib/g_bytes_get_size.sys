@@ -1,2 +1,0 @@
-  fun get_size(bytes': GBytes): U64 =>
-    @g_bytes_get_size(bytes')

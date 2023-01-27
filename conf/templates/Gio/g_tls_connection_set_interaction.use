@@ -1,1 +1,0 @@
-use @g_tls_connection_set_interaction[None](conn': GTlsConnection, interaction': GTlsInteraction)

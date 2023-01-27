@@ -1,1 +1,0 @@
-use @g_socket_get_fd[I32](socket': GSocket)

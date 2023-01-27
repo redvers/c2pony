@@ -1,2 +1,0 @@
-  fun ref move_before(iter': GtkTreeIter, position': GtkTreeIter): None =>
-    GtkListStoreP.move_before(this, iter', position')

@@ -1,2 +1,0 @@
-  fun ref ascii_down(): GString =>
-    GStringP.ascii_down(this)

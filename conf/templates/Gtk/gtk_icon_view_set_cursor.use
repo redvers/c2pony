@@ -1,1 +1,0 @@
-use @gtk_icon_view_set_cursor[None](icon_view': GtkIconView, path': GtkTreePath, cell': GtkCellRenderer, start_editing': I32)

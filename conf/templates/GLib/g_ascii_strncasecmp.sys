@@ -1,2 +1,0 @@
-  fun ascii_strncasecmp(s1': String, s2': String, n': U64): I32 =>
-    @g_ascii_strncasecmp(s1'.cstring(), s2'.cstring(), n')

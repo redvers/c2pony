@@ -1,1 +1,0 @@
-use @g_cond_signal[None](cond': GCond)

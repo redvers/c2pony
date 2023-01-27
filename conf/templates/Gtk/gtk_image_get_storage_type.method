@@ -1,2 +1,0 @@
-  fun ref get_storage_type(): U32 =>
-    GtkImageP.get_storage_type(this)

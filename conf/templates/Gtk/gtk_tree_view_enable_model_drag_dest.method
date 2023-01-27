@@ -1,2 +1,0 @@
-  fun ref enable_model_drag_dest(formats': GdkContentFormats, actions': U32): None =>
-    GtkTreeViewP.enable_model_drag_dest(this, formats', actions')

@@ -1,2 +1,0 @@
-  fun prepend(array': GByteArray, data': String, len': U32): GByteArray =>
-    @g_byte_array_prepend(array', data'.cstring(), len')

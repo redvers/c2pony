@@ -1,1 +1,0 @@
-use @g_main_loop_ref[GMainLoop](loop': GMainLoop)

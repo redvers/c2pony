@@ -1,1 +1,0 @@
-use @g_node_new[GNode](data': Pointer[None] tag)

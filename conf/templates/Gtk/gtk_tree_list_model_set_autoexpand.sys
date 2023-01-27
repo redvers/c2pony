@@ -1,2 +1,0 @@
-  fun set_autoexpand(self': GtkTreeListModel, autoexpand': I32): None =>
-    @gtk_tree_list_model_set_autoexpand(self', autoexpand')

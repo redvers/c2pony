@@ -1,2 +1,0 @@
-  fun get_error_name(message': GDBusMessage): String iso^ =>
-    String.from_cstring(@g_dbus_message_get_error_name(message')).clone()

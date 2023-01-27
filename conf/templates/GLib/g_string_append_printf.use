@@ -1,1 +1,0 @@
-use @g_string_append_printf[None](string': GString, format': Pointer[U8] tag, ...)

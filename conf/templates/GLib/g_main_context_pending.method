@@ -1,2 +1,0 @@
-  fun ref pending(): I32 =>
-    GMainContextP.pending(this)

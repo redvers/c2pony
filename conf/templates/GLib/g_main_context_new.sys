@@ -1,2 +1,0 @@
-  fun new(): GMainContext =>
-    @g_main_context_new()

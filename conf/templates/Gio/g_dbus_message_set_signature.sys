@@ -1,2 +1,0 @@
-  fun set_signature(message': GDBusMessage, value': String): None =>
-    @g_dbus_message_set_signature(message', value'.cstring())

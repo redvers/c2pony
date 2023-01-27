@@ -1,2 +1,0 @@
-  fun ref subtract(other': GtkBitset): None =>
-    GtkBitsetP.subtract(this, other')

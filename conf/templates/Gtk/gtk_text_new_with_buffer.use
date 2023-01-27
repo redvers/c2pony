@@ -1,1 +1,0 @@
-use @gtk_text_new_with_buffer[Pointer[GObjectP]](buffer': GtkEntryBuffer)

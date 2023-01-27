@@ -1,2 +1,0 @@
-  fun ref get_height(): F64 =>
-    GtkPrintContextP.get_height(this)

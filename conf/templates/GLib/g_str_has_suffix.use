@@ -1,1 +1,0 @@
-use @g_str_has_suffix[I32](str': Pointer[U8] tag, suffix': Pointer[U8] tag)

@@ -1,1 +1,0 @@
-use @g_socket_get_remote_address[GSocketAddress](socket': GSocket, error': Pointer[NullablePointer[GErrorT]])

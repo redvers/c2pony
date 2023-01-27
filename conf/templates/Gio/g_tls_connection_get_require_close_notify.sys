@@ -1,2 +1,0 @@
-  fun get_require_close_notify(conn': GTlsConnection): I32 =>
-    @g_tls_connection_get_require_close_notify(conn')

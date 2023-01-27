@@ -1,1 +1,0 @@
-use @gtk_builder_get_objects[GSList](builder': Pointer[GObjectP])

@@ -1,2 +1,0 @@
-  fun ref set_menu_model(model': GMenuModel): None =>
-    GtkPopoverMenuP.set_menu_model(this, model')

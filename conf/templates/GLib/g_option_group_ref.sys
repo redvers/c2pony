@@ -1,2 +1,0 @@
-  fun ref(group': GOptionGroup): GOptionGroup =>
-    @g_option_group_ref(group')

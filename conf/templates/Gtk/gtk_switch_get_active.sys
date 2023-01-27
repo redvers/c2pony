@@ -1,2 +1,0 @@
-  fun get_active(self': GtkSwitch): I32 =>
-    @gtk_switch_get_active(self')

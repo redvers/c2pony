@@ -1,2 +1,0 @@
-  fun ref append(child': GtkWidgetI): None =>
-    GtkListBoxP.append(this, child')

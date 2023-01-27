@@ -1,2 +1,0 @@
-  fun ref set_job_name(job_name': String): None =>
-    GtkPrintOperationP.set_job_name(this, job_name')

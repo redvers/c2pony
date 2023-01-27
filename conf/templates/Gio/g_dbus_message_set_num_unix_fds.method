@@ -1,2 +1,0 @@
-  fun ref set_num_unix_fds(value': U32): None =>
-    GDBusMessageP.set_num_unix_fds(this, value')

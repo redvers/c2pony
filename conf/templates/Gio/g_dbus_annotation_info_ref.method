@@ -1,2 +1,0 @@
-  fun ref ref(): GDBusAnnotationInfo =>
-    GDBusAnnotationInfoP.ref(this)

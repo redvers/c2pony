@@ -1,2 +1,0 @@
-  fun get_clip_overlay(overlay': GtkOverlay, widget': GtkWidgetI): I32 =>
-    @gtk_overlay_get_clip_overlay(overlay', widget'.getptr())

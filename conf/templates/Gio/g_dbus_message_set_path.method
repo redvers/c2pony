@@ -1,2 +1,0 @@
-  fun ref set_path(value': String): None =>
-    GDBusMessageP.set_path(this, value')

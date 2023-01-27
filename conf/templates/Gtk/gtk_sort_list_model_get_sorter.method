@@ -1,2 +1,0 @@
-  fun ref get_sorter(): GtkSorter =>
-    GtkSortListModelP.get_sorter(this)

@@ -1,2 +1,0 @@
-  fun ref assign(rval': String): GString =>
-    GStringP.assign(this, rval')

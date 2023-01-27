@@ -1,1 +1,0 @@
-use @g_date_subtract_days[None](date': GDate, n_days': U32)

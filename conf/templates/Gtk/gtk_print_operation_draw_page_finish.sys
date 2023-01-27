@@ -1,2 +1,0 @@
-  fun draw_page_finish(op': GtkPrintOperation): None =>
-    @gtk_print_operation_draw_page_finish(op')

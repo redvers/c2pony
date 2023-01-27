@@ -1,2 +1,0 @@
-  fun new(): GSimpleActionGroup =>
-    @g_simple_action_group_new()

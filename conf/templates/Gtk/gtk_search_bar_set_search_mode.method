@@ -1,2 +1,0 @@
-  fun ref set_search_mode(search_mode': I32): None =>
-    GtkSearchBarP.set_search_mode(this, search_mode')

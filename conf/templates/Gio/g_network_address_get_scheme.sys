@@ -1,2 +1,0 @@
-  fun get_scheme(addr': GNetworkAddress): String iso^ =>
-    String.from_cstring(@g_network_address_get_scheme(addr')).clone()

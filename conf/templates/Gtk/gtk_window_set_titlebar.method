@@ -1,2 +1,0 @@
-  fun ref set_titlebar(titlebar': GtkWidgetI): None =>
-    GtkWindowP.set_titlebar(this, titlebar')

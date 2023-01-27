@@ -1,2 +1,0 @@
-  fun element(type': GVariantType): GVariantType =>
-    @g_variant_type_element(type')

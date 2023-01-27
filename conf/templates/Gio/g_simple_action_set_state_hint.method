@@ -1,2 +1,0 @@
-  fun ref set_state_hint(state_hint': GVariant): None =>
-    GSimpleActionP.set_state_hint(this, state_hint')

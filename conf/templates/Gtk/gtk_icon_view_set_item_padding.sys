@@ -1,2 +1,0 @@
-  fun set_item_padding(icon_view': GtkIconView, item_padding': I32): None =>
-    @gtk_icon_view_set_item_padding(icon_view', item_padding')

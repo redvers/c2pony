@@ -1,2 +1,0 @@
-  fun get_max_threads(pool': GThreadPool): I32 =>
-    @g_thread_pool_get_max_threads(pool')

@@ -1,2 +1,0 @@
-  fun unichar_totitle(c': U32): U32 =>
-    @g_unichar_totitle(c')

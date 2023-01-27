@@ -1,2 +1,0 @@
-  fun listenv(): Pointer[Pointer[U8]] tag =>
-    @g_listenv()

@@ -1,1 +1,0 @@
-use @gtk_native_dialog_get_visible[I32](self': GtkNativeDialog)

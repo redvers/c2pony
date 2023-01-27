@@ -1,2 +1,0 @@
-  fun set_printerr_handler(func': GPrintFunc): GPrintFunc =>
-    @g_set_printerr_handler(func')

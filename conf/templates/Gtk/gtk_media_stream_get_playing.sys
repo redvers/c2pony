@@ -1,2 +1,0 @@
-  fun get_playing(self': GtkMediaStream): I32 =>
-    @gtk_media_stream_get_playing(self')

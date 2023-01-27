@@ -1,2 +1,0 @@
-  fun ref add_years(years': I32): GDateTime =>
-    GDateTimeP.add_years(this, years')

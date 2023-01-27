@@ -1,1 +1,0 @@
-use @g_io_modules_load_all_in_directory_with_scope[GList](dirname': Pointer[U8] tag, scope': GIOModuleScope)

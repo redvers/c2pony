@@ -1,1 +1,0 @@
-use @g_subprocess_wait_async[None](subprocess': GSubprocess, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

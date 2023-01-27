@@ -1,2 +1,0 @@
-  fun grab_focus_without_selecting(entry': GtkEntry): I32 =>
-    @gtk_entry_grab_focus_without_selecting(entry')

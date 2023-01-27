@@ -1,1 +1,0 @@
-use @g_menu_item_set_detailed_action[None](menu_item': GMenuItem, detailed_action': Pointer[U8] tag)

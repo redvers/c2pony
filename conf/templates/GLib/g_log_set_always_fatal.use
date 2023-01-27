@@ -1,1 +1,0 @@
-use @g_log_set_always_fatal[I32](fatal_mask': I32)

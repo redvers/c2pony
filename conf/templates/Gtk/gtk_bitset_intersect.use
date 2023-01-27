@@ -1,1 +1,0 @@
-use @gtk_bitset_intersect[None](self': GtkBitset, other': GtkBitset)

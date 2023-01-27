@@ -1,2 +1,0 @@
-  fun ref watch_closure(closure': GClosure): None =>
-    GObjectP.watch_closure(this, closure')

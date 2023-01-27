@@ -1,2 +1,0 @@
-  fun vprintf(string': GString, format': String, args': valisttag): None =>
-    @g_string_vprintf(string', format'.cstring(), args')

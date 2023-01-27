@@ -1,2 +1,0 @@
-  fun test_incomplete(msg': String): None =>
-    @g_test_incomplete(msg'.cstring())

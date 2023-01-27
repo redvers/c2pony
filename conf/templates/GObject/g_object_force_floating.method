@@ -1,2 +1,0 @@
-  fun ref force_floating(): None =>
-    GObjectP.force_floating(this)

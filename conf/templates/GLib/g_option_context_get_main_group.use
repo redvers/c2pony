@@ -1,1 +1,0 @@
-use @g_option_context_get_main_group[GOptionGroup](context': GOptionContext)

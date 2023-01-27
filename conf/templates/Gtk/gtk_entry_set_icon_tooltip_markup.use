@@ -1,1 +1,0 @@
-use @gtk_entry_set_icon_tooltip_markup[None](entry': GtkEntry, icon_pos': U32, tooltip': Pointer[U8] tag)

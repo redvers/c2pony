@@ -1,2 +1,0 @@
-  fun random_double(): F64 =>
-    @g_random_double()

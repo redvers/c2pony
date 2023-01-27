@@ -1,2 +1,0 @@
-  fun set_tooltip_cell(tree_view': GtkTreeView, tooltip': GtkTooltip, path': GtkTreePath, column': GtkTreeViewColumn, cell': GtkCellRenderer): None =>
-    @gtk_tree_view_set_tooltip_cell(tree_view', tooltip', path', column', cell')

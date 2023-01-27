@@ -1,2 +1,0 @@
-  fun write_unichar(channel': GIOChannel, thechar': U32, error': GError): U32 =>
-    @g_io_channel_write_unichar(channel', thechar', addressof error'.ptr)

@@ -1,1 +1,0 @@
-use @g_variant_dict_init[None](dict': GVariantDict, from_asv': GVariant)

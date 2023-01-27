@@ -1,2 +1,0 @@
-  fun build_filenamev(args': Pointer[Pointer[U8]] tag): String iso^ =>
-    String.from_cstring(@g_build_filenamev(args')).clone()

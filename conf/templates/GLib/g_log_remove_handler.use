@@ -1,1 +1,0 @@
-use @g_log_remove_handler[None](log_domain': Pointer[U8] tag, handler_id': U32)

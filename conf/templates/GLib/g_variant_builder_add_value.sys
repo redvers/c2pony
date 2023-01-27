@@ -1,2 +1,0 @@
-  fun add_value(builder': GVariantBuilder, value': GVariant): None =>
-    @g_variant_builder_add_value(builder', value')

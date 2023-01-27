@@ -1,1 +1,0 @@
-use @gtk_cell_area_stop_editing[None](area': GtkCellArea, canceled': I32)

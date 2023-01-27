@@ -1,1 +1,0 @@
-use @gtk_picture_new_for_pixbuf[Pointer[GObjectP]](pixbuf': GdkPixbuf)

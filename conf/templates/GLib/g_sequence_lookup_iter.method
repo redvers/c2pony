@@ -1,2 +1,0 @@
-  fun ref lookup_iter(data': Pointer[None] tag, iter_cmp': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag): GSequenceNode =>
-    GSequenceP.lookup_iter(this, data', iter_cmp', cmp_data')

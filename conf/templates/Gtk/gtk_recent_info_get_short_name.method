@@ -1,2 +1,0 @@
-  fun ref get_short_name(): String iso^ =>
-    GtkRecentInfoP.get_short_name(this)

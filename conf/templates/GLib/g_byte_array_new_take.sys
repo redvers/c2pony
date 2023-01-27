@@ -1,2 +1,0 @@
-  fun new_take(data': String, len': U64): GByteArray =>
-    @g_byte_array_new_take(data'.cstring(), len')

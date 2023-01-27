@@ -1,2 +1,0 @@
-  fun get_stdout_pipe(subprocess': GSubprocess): GInputStream =>
-    @g_subprocess_get_stdout_pipe(subprocess')

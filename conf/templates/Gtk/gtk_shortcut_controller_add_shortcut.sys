@@ -1,2 +1,0 @@
-  fun add_shortcut(self': GtkShortcutController, shortcut': GtkShortcut): None =>
-    @gtk_shortcut_controller_add_shortcut(self', shortcut')

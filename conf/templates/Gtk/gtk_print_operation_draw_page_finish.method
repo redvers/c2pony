@@ -1,2 +1,0 @@
-  fun ref draw_page_finish(): None =>
-    GtkPrintOperationP.draw_page_finish(this)

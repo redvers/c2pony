@@ -1,2 +1,0 @@
-  fun unlink(node': GNode): None =>
-    @g_node_unlink(node')

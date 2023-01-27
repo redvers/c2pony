@@ -1,2 +1,0 @@
-  fun set_activate_on_single_click(icon_view': GtkIconView, single': I32): None =>
-    @gtk_icon_view_set_activate_on_single_click(icon_view', single')

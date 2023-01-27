@@ -1,2 +1,0 @@
-  fun set_advertised_protocols(conn': GTlsConnection, protocols': Pointer[Pointer[U8]] tag): None =>
-    @g_tls_connection_set_advertised_protocols(conn', protocols')

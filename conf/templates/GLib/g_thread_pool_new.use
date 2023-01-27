@@ -1,1 +1,0 @@
-use @g_thread_pool_new[GThreadPool](func': GFunc, user_data': Pointer[None] tag, max_threads': I32, exclusive': I32, error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,0 @@
-  fun get_receives_default(widget': GtkWidgetI): I32 =>
-    @gtk_widget_get_receives_default(widget'.getptr())

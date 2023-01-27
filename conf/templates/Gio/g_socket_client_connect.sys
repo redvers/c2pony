@@ -1,2 +1,0 @@
-  fun connect(client': GSocketClient, connectable': GSocketConnectable, cancellable': GCancellable, error': GError): GSocketConnection =>
-    @g_socket_client_connect(client', connectable', cancellable', addressof error'.ptr)

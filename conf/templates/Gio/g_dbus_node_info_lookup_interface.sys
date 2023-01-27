@@ -1,2 +1,0 @@
-  fun lookup_interface(info': GDBusNodeInfo, name': String): GDBusInterfaceInfo =>
-    @g_dbus_node_info_lookup_interface(info', name'.cstring())

@@ -1,2 +1,0 @@
-  fun ref get_char(): U8 =>
-    GValueP.get_char(this)

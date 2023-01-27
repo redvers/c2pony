@@ -1,2 +1,0 @@
-  fun get_root(node': GNode): GNode =>
-    @g_node_get_root(node')

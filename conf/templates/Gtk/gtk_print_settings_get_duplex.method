@@ -1,2 +1,0 @@
-  fun ref get_duplex(): U32 =>
-    GtkPrintSettingsP.get_duplex(this)

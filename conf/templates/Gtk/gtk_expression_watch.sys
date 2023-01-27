@@ -1,2 +1,0 @@
-  fun watch(self': GtkExpression, this': Pointer[None] tag, notify': GtkExpressionNotify, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): GtkExpressionWatch =>
-    @gtk_expression_watch(self', this', notify', user_data', user_destroy')

@@ -1,2 +1,0 @@
-  fun ref matches(domain': U32, code': I32): I32 =>
-    GErrorP.matches(this, domain', code')

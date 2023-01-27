@@ -1,2 +1,0 @@
-  fun set_required_type(extension_point': GIOExtensionPoint, type': U64): None =>
-    @g_io_extension_point_set_required_type(extension_point', type')

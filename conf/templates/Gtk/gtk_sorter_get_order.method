@@ -1,2 +1,0 @@
-  fun ref get_order(): U32 =>
-    GtkSorterP.get_order(this)

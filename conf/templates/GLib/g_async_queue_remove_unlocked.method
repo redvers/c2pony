@@ -1,2 +1,0 @@
-  fun ref remove_unlocked(item': Pointer[None] tag): I32 =>
-    GAsyncQueueP.remove_unlocked(this, item')

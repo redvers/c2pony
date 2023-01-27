@@ -1,2 +1,0 @@
-  fun ref get_search_equal_func(): GtkTreeViewSearchEqualFunc =>
-    GtkTreeViewP.get_search_equal_func(this)

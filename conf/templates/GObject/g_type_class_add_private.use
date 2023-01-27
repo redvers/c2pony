@@ -1,1 +1,0 @@
-use @g_type_class_add_private[None](g_class': Pointer[None] tag, private_size': U64)

@@ -1,2 +1,0 @@
-  fun ref get_default_text(): String iso^ =>
-    GtkAppChooserWidgetP.get_default_text(this)

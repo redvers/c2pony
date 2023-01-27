@@ -1,2 +1,0 @@
-  fun ref append(value': GValue): GValueArray =>
-    GValueArrayP.append(this, value')

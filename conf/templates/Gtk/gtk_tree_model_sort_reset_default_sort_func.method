@@ -1,2 +1,0 @@
-  fun ref reset_default_sort_func(): None =>
-    GtkTreeModelSortP.reset_default_sort_func(this)

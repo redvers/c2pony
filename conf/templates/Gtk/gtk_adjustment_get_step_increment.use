@@ -1,1 +1,0 @@
-use @gtk_adjustment_get_step_increment[F64](adjustment': GtkAdjustment)

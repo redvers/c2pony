@@ -1,2 +1,0 @@
-  fun unselect_all(box': GtkFlowBox): None =>
-    @gtk_flow_box_unselect_all(box')

@@ -1,2 +1,0 @@
-  fun insert_item(menu': GMenu, position': I32, item': GMenuItem): None =>
-    @g_menu_insert_item(menu', position', item')

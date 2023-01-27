@@ -1,2 +1,0 @@
-  fun ref unref(): None =>
-    GMainLoopP.unref(this)

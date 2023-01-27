@@ -1,2 +1,0 @@
-  fun parse(context': GOptionContext, argc': Pointer[I32] tag, argv': Pointer[Pointer[Pointer[U8]]] tag, error': GError): I32 =>
-    @g_option_context_parse(context', argc', argv', addressof error'.ptr)

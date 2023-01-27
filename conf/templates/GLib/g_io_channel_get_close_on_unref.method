@@ -1,2 +1,0 @@
-  fun ref get_close_on_unref(): I32 =>
-    GIOChannelP.get_close_on_unref(this)

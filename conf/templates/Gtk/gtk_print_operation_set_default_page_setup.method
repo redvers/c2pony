@@ -1,2 +1,0 @@
-  fun ref set_default_page_setup(default_page_setup': GtkPageSetup): None =>
-    GtkPrintOperationP.set_default_page_setup(this, default_page_setup')

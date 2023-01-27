@@ -1,2 +1,0 @@
-  fun seek_position(channel': GIOChannel, offset': I64, type': U32, error': GError): U32 =>
-    @g_io_channel_seek_position(channel', offset', type', addressof error'.ptr)

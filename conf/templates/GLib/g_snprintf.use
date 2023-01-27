@@ -1,1 +1,0 @@
-use @g_snprintf[I32](string': Pointer[U8] tag, n': U64, format': Pointer[U8] tag, ...)

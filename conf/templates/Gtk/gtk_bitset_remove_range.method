@@ -1,2 +1,0 @@
-  fun ref remove_range(start': U32, n_items': U32): None =>
-    GtkBitsetP.remove_range(this, start', n_items')

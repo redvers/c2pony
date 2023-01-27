@@ -1,2 +1,0 @@
-  fun ref get_vtable(): GDBusInterfaceVTable =>
-    GDBusInterfaceSkeletonP.get_vtable(this)

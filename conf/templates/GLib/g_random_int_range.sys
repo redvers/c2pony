@@ -1,2 +1,0 @@
-  fun random_int_range(begin': I32, end': I32): I32 =>
-    @g_random_int_range(begin', end')

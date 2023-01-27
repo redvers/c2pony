@@ -1,2 +1,0 @@
-  fun ref get_inverted(): I32 =>
-    GtkLevelBarP.get_inverted(this)

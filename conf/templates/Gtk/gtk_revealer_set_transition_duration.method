@@ -1,2 +1,0 @@
-  fun ref set_transition_duration(duration': U32): None =>
-    GtkRevealerP.set_transition_duration(this, duration')

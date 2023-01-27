@@ -1,2 +1,0 @@
-  fun unref(dict': GVariantDict): None =>
-    @g_variant_dict_unref(dict')

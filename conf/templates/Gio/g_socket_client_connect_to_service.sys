@@ -1,2 +1,0 @@
-  fun connect_to_service(client': GSocketClient, domain': String, service': String, cancellable': GCancellable, error': GError): GSocketConnection =>
-    @g_socket_client_connect_to_service(client', domain'.cstring(), service'.cstring(), cancellable', addressof error'.ptr)

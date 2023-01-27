@@ -1,2 +1,0 @@
-  fun dup_bytestring_array(value': GVariant, length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
-    @g_variant_dup_bytestring_array(value', length')

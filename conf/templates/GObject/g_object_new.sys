@@ -1,3 +1,0 @@
-
-  fun gnew(objtype: U64): Pointer[GObjectP] =>
-    @g_object_new(objtype, Pointer[None])

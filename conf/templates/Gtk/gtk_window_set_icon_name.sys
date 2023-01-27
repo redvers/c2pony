@@ -1,2 +1,0 @@
-  fun set_icon_name(window': GtkWindowI, name': String): None =>
-    @gtk_window_set_icon_name(window'.getptr(), name'.cstring())

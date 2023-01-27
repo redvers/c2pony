@@ -1,2 +1,0 @@
-  fun reload_user_special_dirs_cache(): None =>
-    @g_reload_user_special_dirs_cache()

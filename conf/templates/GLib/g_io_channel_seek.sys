@@ -1,2 +1,0 @@
-  fun seek(channel': GIOChannel, offset': I64, type': U32): U32 =>
-    @g_io_channel_seek(channel', offset', type')

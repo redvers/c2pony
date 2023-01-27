@@ -1,2 +1,0 @@
-  fun ref bind_busy_property(object': Pointer[None] tag, property': String): None =>
-    GApplicationP.bind_busy_property(this, object', property')

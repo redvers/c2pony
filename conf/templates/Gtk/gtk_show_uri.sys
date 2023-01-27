@@ -1,2 +1,0 @@
-  fun show_uri(parent': GtkWindowI, uri': String, timestamp': U32): None =>
-    @gtk_show_uri(parent'.getptr(), uri'.cstring(), timestamp')

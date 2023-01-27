@@ -1,2 +1,0 @@
-  fun set_resource(self': GtkVideo, resource_path': String): None =>
-    @gtk_video_set_resource(self', resource_path'.cstring())

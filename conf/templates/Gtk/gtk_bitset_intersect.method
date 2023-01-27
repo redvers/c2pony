@@ -1,2 +1,0 @@
-  fun ref intersect(other': GtkBitset): None =>
-    GtkBitsetP.intersect(this, other')

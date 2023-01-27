@@ -1,2 +1,0 @@
-  fun test_queue_free(gfree_pointer': Pointer[None] tag): None =>
-    @g_test_queue_free(gfree_pointer')

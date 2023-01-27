@@ -1,2 +1,0 @@
-  fun ref get_ended(): I32 =>
-    GtkMediaStreamP.get_ended(this)

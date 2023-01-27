@@ -1,2 +1,0 @@
-  fun new_from_bytes(type': GVariantType, bytes': GBytes, trusted': I32): GVariant =>
-    @g_variant_new_from_bytes(type', bytes', trusted')

@@ -1,1 +1,0 @@
-use @g_log_set_default_handler[GLogFunc](log_func': GLogFunc, user_data': Pointer[None] tag)

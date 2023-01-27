@@ -1,2 +1,0 @@
-  fun ref(array': GPtrArray): GPtrArray =>
-    @g_ptr_array_ref(array')

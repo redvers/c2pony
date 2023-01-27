@@ -1,2 +1,0 @@
-  fun ref to_utc(): GDateTime =>
-    GDateTimeP.to_utc(this)

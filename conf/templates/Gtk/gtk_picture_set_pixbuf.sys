@@ -1,2 +1,0 @@
-  fun set_pixbuf(self': GtkPicture, pixbuf': GdkPixbuf): None =>
-    @gtk_picture_set_pixbuf(self', pixbuf')

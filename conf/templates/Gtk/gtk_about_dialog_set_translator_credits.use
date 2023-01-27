@@ -1,1 +1,0 @@
-use @gtk_about_dialog_set_translator_credits[None](about': GtkAboutDialog, translator_credits': Pointer[U8] tag)

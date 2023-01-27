@@ -1,2 +1,0 @@
-  fun ref get_pixel_size(): I32 =>
-    GtkImageP.get_pixel_size(this)

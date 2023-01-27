@@ -1,2 +1,0 @@
-  fun get_obey_child(self': GtkAspectFrame): I32 =>
-    @gtk_aspect_frame_get_obey_child(self')

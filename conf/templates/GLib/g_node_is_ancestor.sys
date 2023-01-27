@@ -1,2 +1,0 @@
-  fun is_ancestor(node': GNode, descendant': GNode): I32 =>
-    @g_node_is_ancestor(node', descendant')

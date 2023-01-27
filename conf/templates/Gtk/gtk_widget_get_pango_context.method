@@ -1,2 +1,0 @@
-  fun ref get_pango_context(): PangoContext =>
-    GtkWidgetP.get_pango_context(this)

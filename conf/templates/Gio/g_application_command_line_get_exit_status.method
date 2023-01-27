@@ -1,2 +1,0 @@
-  fun ref get_exit_status(): I32 =>
-    GApplicationCommandLineP.get_exit_status(this)

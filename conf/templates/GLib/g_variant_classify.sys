@@ -1,2 +1,0 @@
-  fun classify(value': GVariant): U32 =>
-    @g_variant_classify(value')

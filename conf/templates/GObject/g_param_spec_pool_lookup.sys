@@ -1,2 +1,0 @@
-  fun lookup(pool': GParamSpecPool, param_name': String, owner_type': U64, walk_ancestors': I32): GParamSpec =>
-    @g_param_spec_pool_lookup(pool', param_name'.cstring(), owner_type', walk_ancestors')

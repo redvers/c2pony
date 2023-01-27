@@ -1,2 +1,0 @@
-  fun ref insert_c(pos': I64, c': U8): GString =>
-    GStringP.insert_c(this, pos', c')

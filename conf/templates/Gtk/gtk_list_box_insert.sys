@@ -1,2 +1,0 @@
-  fun insert(box': GtkListBox, child': GtkWidgetI, position': I32): None =>
-    @gtk_list_box_insert(box', child'.getptr(), position')

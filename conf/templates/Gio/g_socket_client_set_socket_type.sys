@@ -1,2 +1,0 @@
-  fun set_socket_type(client': GSocketClient, type': U32): None =>
-    @g_socket_client_set_socket_type(client', type')

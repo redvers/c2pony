@@ -1,2 +1,0 @@
-  fun remove_all(menu': GMenu): None =>
-    @g_menu_remove_all(menu')

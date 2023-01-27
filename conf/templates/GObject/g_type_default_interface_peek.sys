@@ -1,2 +1,0 @@
-  fun type_default_interface_peek(g_type': U64): Pointer[None] tag =>
-    @g_type_default_interface_peek(g_type')

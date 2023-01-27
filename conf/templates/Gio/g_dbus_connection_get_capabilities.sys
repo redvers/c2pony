@@ -1,2 +1,0 @@
-  fun get_capabilities(connection': GDBusConnection): U32 =>
-    @g_dbus_connection_get_capabilities(connection')

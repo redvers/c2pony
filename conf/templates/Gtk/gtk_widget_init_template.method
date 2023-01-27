@@ -1,2 +1,0 @@
-  fun ref init_template(): None =>
-    GtkWidgetP.init_template(this)

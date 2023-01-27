@@ -1,1 +1,0 @@
-use @g_variant_get_bytestring_array[Pointer[Pointer[U8]] tag](value': GVariant, length': Pointer[U64] tag)

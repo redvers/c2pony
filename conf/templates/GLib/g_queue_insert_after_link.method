@@ -1,2 +1,0 @@
-  fun ref insert_after_link(sibling': GList, link': GList): None =>
-    GQueueP.insert_after_link(this, sibling', link')

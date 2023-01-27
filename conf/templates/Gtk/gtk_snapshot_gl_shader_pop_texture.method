@@ -1,2 +1,0 @@
-  fun ref gl_shader_pop_texture(): None =>
-    P.gl_shader_pop_texture(this)

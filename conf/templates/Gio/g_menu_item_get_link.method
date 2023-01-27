@@ -1,2 +1,0 @@
-  fun ref get_link(link': String): GMenuModel =>
-    GMenuItemP.get_link(this, link')

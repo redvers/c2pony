@@ -1,1 +1,0 @@
-use @g_strip_context[Pointer[U8]](msgid': Pointer[U8] tag, msgval': Pointer[U8] tag)

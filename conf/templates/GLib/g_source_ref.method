@@ -1,2 +1,0 @@
-  fun ref ref(): GSource =>
-    GSourceP.ref(this)

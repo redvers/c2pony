@@ -1,2 +1,0 @@
-  fun ref set_offset(x_offset': I32, y_offset': I32): None =>
-    GtkPopoverP.set_offset(this, x_offset', y_offset')

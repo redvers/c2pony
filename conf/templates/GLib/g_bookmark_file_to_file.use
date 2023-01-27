@@ -1,1 +1,0 @@
-use @g_bookmark_file_to_file[I32](bookmark': GBookmarkFile, filename': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

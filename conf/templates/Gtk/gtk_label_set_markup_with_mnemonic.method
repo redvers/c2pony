@@ -1,2 +1,0 @@
-  fun ref set_markup_with_mnemonic(str': String): None =>
-    GtkLabelP.set_markup_with_mnemonic(this, str')

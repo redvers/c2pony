@@ -1,2 +1,0 @@
-  fun get_spinning(spinner': GtkSpinner): I32 =>
-    @gtk_spinner_get_spinning(spinner')

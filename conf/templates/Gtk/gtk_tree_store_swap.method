@@ -1,2 +1,0 @@
-  fun ref swap(a': GtkTreeIter, b': GtkTreeIter): None =>
-    GtkTreeStoreP.swap(this, a', b')

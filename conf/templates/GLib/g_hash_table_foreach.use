@@ -1,1 +1,0 @@
-use @g_hash_table_foreach[None](hash_table': GHashTable, func': GHFunc, user_data': Pointer[None] tag)

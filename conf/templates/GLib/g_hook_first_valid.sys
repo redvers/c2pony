@@ -1,2 +1,0 @@
-  fun first_valid(hook_list': GHookList, may_be_in_call': I32): GHook =>
-    @g_hook_first_valid(hook_list', may_be_in_call')

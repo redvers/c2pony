@@ -1,2 +1,0 @@
-  fun copy(queue': GQueue): GQueue =>
-    @g_queue_copy(queue')

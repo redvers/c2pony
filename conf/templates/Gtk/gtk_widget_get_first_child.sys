@@ -1,2 +1,0 @@
-  fun get_first_child(widget': GtkWidgetI): Pointer[GObjectP] =>
-@gtk_widget_get_first_child(widget'.getptr())

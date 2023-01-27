@@ -1,2 +1,0 @@
-  fun ref set_resizable(resizable': I32): None =>
-    GtkTreeViewColumnP.set_resizable(this, resizable')

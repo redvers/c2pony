@@ -1,2 +1,0 @@
-  fun transform_matrix(snapshot': GdkSnapshot, matrix': graphenematrixt): None =>
-    @gtk_snapshot_transform_matrix(snapshot', matrix')

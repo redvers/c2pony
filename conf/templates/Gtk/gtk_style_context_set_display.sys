@@ -1,2 +1,0 @@
-  fun set_display(context': GtkStyleContext, display': GdkDisplay): None =>
-    @gtk_style_context_set_display(context', display')

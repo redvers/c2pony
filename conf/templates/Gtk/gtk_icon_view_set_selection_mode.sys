@@ -1,2 +1,0 @@
-  fun set_selection_mode(icon_view': GtkIconView, mode': U32): None =>
-    @gtk_icon_view_set_selection_mode(icon_view', mode')

@@ -1,1 +1,0 @@
-use @gtk_native_dialog_show[None](self': GtkNativeDialog)

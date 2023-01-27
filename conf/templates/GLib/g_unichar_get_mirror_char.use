@@ -1,1 +1,0 @@
-use @g_unichar_get_mirror_char[I32](ch': U32, mirrored_ch': Pointer[U32] tag)

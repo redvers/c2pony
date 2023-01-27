@@ -1,2 +1,0 @@
-  fun ref set_can_focus(can_focus': I32): None =>
-    GtkWidgetP.set_can_focus(this, can_focus')

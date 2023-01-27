@@ -1,2 +1,0 @@
-  fun error_quark(): U32 =>
-    @g_thread_error_quark()

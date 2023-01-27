@@ -1,1 +1,0 @@
-use @g_dbus_server_new_sync[GDBusServer](address': Pointer[U8] tag, flags': U32, guid': Pointer[U8] tag, observer': GDBusAuthObserver, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,0 @@
-  fun get_can_release(permission': GPermission): I32 =>
-    @g_permission_get_can_release(permission')

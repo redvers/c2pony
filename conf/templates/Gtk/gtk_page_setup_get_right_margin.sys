@@ -1,2 +1,0 @@
-  fun get_right_margin(setup': GtkPageSetup, unit': U32): F64 =>
-    @gtk_page_setup_get_right_margin(setup', unit')

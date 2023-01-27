@@ -1,2 +1,0 @@
-  fun compare(dt1': Pointer[None] tag, dt2': Pointer[None] tag): I32 =>
-    @g_date_time_compare(dt1', dt2')

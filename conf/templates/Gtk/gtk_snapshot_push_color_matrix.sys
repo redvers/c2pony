@@ -1,2 +1,0 @@
-  fun push_color_matrix(snapshot': GdkSnapshot, color_matrix': graphenematrixt, color_offset': graphenevec4t): None =>
-    @gtk_snapshot_push_color_matrix(snapshot', color_matrix', color_offset')

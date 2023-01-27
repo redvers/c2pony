@@ -1,2 +1,0 @@
-  fun ref prepend(node': GNode): GNode =>
-    GNodeP.prepend(this, node')

@@ -1,2 +1,0 @@
-  fun count_selected_rows(selection': GtkTreeSelection): I32 =>
-    @gtk_tree_selection_count_selected_rows(selection')

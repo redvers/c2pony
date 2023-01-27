@@ -1,2 +1,0 @@
-  fun ref replace(key': Pointer[None] tag, value': Pointer[None] tag): None =>
-    GTreeP.replace(this, key', value')

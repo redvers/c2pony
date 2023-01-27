@@ -1,2 +1,0 @@
-  fun new(): GKeyFile =>
-    @g_key_file_new()

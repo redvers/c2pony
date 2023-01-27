@@ -1,1 +1,0 @@
-use @g_hash_table_iter_replace[None](iter': GHashTableIter, value': Pointer[None] tag)

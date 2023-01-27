@@ -1,2 +1,0 @@
-  fun unlink(queue': GQueue, link': GList): None =>
-    @g_queue_unlink(queue', link')

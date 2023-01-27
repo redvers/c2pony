@@ -1,2 +1,0 @@
-  fun ref toggled(): None =>
-    GtkToggleButtonP.toggled(this)

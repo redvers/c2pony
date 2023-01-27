@@ -1,1 +1,0 @@
-use @gtk_size_group_get_mode[U32](size_group': GtkSizeGroup)

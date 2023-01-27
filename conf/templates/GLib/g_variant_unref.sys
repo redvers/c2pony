@@ -1,2 +1,0 @@
-  fun unref(value': GVariant): None =>
-    @g_variant_unref(value')

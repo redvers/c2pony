@@ -1,2 +1,0 @@
-  fun ref is_definite(): I32 =>
-    GVariantTypeP.is_definite(this)

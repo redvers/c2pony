@@ -1,2 +1,0 @@
-  fun ref set_family(family': U32): None =>
-    GSocketClientP.set_family(this, family')

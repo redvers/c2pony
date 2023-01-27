@@ -1,1 +1,0 @@
-use @gtk_recent_info_get_applications[Pointer[Pointer[U8]] tag](info': GtkRecentInfo, length': Pointer[U64] tag)

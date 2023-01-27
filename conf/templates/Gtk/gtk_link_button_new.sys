@@ -1,2 +1,0 @@
-  fun new(uri': String): Pointer[GObjectP] =>
-@gtk_link_button_new(uri'.cstring())

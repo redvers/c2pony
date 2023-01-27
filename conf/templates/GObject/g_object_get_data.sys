@@ -1,6 +1,0 @@
-
-  fun get_data[A: Any](object': GObjectI, key': String): A =>
-    @g_object_get_data[A](object'.getptr(), key'.cstring())
-
-  fun get_data_p[A: Any](object': Pointer[GObjectP], key': String): A =>
-    @g_object_get_data[A](object', key'.cstring())

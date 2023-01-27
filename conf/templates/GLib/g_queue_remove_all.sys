@@ -1,2 +1,0 @@
-  fun remove_all(queue': GQueue, data': Pointer[None] tag): U32 =>
-    @g_queue_remove_all(queue', data')

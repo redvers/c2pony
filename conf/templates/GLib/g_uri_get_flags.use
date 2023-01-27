@@ -1,1 +1,0 @@
-use @g_uri_get_flags[U32](uri': GUri)

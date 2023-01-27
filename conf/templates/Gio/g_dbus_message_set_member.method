@@ -1,2 +1,0 @@
-  fun ref set_member(value': String): None =>
-    GDBusMessageP.set_member(this, value')

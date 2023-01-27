@@ -1,2 +1,0 @@
-  fun next(iter': GVariantIter, format_string': String, ...): I32 =>
-    @g_variant_iter_next(iter', format_string'.cstring(), ...)

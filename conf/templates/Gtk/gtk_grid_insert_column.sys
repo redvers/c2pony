@@ -1,2 +1,0 @@
-  fun insert_column(grid': GtkGrid, position': I32): None =>
-    @gtk_grid_insert_column(grid', position')

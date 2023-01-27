@@ -1,2 +1,0 @@
-  fun slice_get_config(ckey': U32): I64 =>
-    @g_slice_get_config(ckey')

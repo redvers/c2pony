@@ -1,2 +1,0 @@
-  fun get_natural_wrap_mode(self': GtkLabel): U32 =>
-    @gtk_label_get_natural_wrap_mode(self')

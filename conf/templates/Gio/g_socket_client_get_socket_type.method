@@ -1,2 +1,0 @@
-  fun ref get_socket_type(): U32 =>
-    GSocketClientP.get_socket_type(this)

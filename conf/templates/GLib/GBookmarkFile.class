@@ -1,9 +1,0 @@
-
-use "lib:glib-2.0"
-
-class GBookmarkFile
-  var ptr: NullablePointer[GBookmarkFileT]
-
-  new create() =>
-    ptr = NullablePointer[GBookmarkFileT].none()
-  new create_from_ptr(ptr': NullablePointer[GBookmarkFileT]) => ptr = ptr'

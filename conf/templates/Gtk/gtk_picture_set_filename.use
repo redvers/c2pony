@@ -1,1 +1,0 @@
-use @gtk_picture_set_filename[None](self': GtkPicture, filename': Pointer[U8] tag)

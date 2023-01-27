@@ -1,2 +1,0 @@
-  fun new(): GtkWindowGroup =>
-    @gtk_window_group_new()

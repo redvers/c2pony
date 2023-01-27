@@ -1,2 +1,0 @@
-  fun get_main_group(context': GOptionContext): GOptionGroup =>
-    @g_option_context_get_main_group(context')

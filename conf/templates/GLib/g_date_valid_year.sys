@@ -1,2 +1,0 @@
-  fun valid_year(year': U16): I32 =>
-    @g_date_valid_year(year')

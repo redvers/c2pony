@@ -1,2 +1,0 @@
-  fun ref set_column_spacing(column_spacing': I32): None =>
-    GtkIconViewP.set_column_spacing(this, column_spacing')

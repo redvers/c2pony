@@ -1,2 +1,0 @@
-  fun ref get_filter(): GtkFilter =>
-    GtkFilterListModelP.get_filter(this)

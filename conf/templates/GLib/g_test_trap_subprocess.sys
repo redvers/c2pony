@@ -1,2 +1,0 @@
-  fun test_trap_subprocess(test_path': String, usec_timeout': U64, test_flags': U32): None =>
-    @g_test_trap_subprocess(test_path'.cstring(), usec_timeout', test_flags')

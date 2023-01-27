@@ -1,1 +1,0 @@
-use @g_data_input_stream_new[GDataInputStream](base_stream': GInputStream)

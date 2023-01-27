@@ -1,2 +1,0 @@
-  fun ref get_arguments(argc': Pointer[I32] tag): Pointer[Pointer[U8]] tag =>
-    GApplicationCommandLineP.get_arguments(this, argc')

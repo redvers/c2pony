@@ -1,2 +1,0 @@
-  fun new(format': U32): GZlibDecompressor =>
-    @g_zlib_decompressor_new(format')

@@ -1,2 +1,0 @@
-  fun focus_out(context': GtkIMContext): None =>
-    @gtk_im_context_focus_out(context')

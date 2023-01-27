@@ -1,2 +1,0 @@
-  fun ref set_template(template_bytes': GBytes): None =>
-    GtkWidgetClassP.set_template(this, template_bytes')

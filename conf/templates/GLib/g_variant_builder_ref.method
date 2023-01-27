@@ -1,2 +1,0 @@
-  fun ref ref(): GVariantBuilder =>
-    GVariantBuilderP.ref(this)

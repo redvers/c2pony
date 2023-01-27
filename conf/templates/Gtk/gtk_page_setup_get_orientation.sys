@@ -1,2 +1,0 @@
-  fun get_orientation(setup': GtkPageSetup): U32 =>
-    @gtk_page_setup_get_orientation(setup')

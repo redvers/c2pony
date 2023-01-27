@@ -1,2 +1,0 @@
-  fun new_static(data': Pointer[None] tag, size': U64): GBytes =>
-    @g_bytes_new_static(data', size')

@@ -1,2 +1,0 @@
-  fun ref get_year(): I32 =>
-    GDateTimeP.get_year(this)

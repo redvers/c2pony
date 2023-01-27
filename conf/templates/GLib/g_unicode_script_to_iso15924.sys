@@ -1,2 +1,0 @@
-  fun unicode_script_to_iso15924(script': I32): U32 =>
-    @g_unicode_script_to_iso15924(script')

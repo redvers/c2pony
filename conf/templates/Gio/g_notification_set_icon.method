@@ -1,2 +1,0 @@
-  fun ref set_icon(icon': GIcon): None =>
-    GNotificationP.set_icon(this, icon')

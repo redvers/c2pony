@@ -1,1 +1,0 @@
-use @gtk_image_set_from_pixbuf[None](image': GtkImage, pixbuf': GdkPixbuf)

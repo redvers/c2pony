@@ -1,2 +1,0 @@
-  fun input_file(scanner': GScanner, input_fd': I32): None =>
-    @g_scanner_input_file(scanner', input_fd')

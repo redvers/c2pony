@@ -1,2 +1,0 @@
-  fun memdup(mem': Pointer[None] tag, byte_size': U32): Pointer[None] tag =>
-    @g_memdup(mem', byte_size')

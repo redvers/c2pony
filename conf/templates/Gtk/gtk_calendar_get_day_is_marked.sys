@@ -1,2 +1,0 @@
-  fun get_day_is_marked(calendar': GtkCalendar, day': U32): I32 =>
-    @gtk_calendar_get_day_is_marked(calendar', day')

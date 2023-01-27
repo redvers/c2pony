@@ -1,2 +1,0 @@
-  fun ref set_pixels_below_lines(pixels_below_lines': I32): None =>
-    GtkTextViewP.set_pixels_below_lines(this, pixels_below_lines')

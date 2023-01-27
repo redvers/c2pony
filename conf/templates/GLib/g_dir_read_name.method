@@ -1,2 +1,0 @@
-  fun ref read_name(): String iso^ =>
-    GDirP.read_name(this)

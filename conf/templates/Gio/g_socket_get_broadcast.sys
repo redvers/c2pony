@@ -1,2 +1,0 @@
-  fun get_broadcast(socket': GSocket): I32 =>
-    @g_socket_get_broadcast(socket')

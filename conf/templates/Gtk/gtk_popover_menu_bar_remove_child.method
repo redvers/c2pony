@@ -1,2 +1,0 @@
-  fun ref remove_child(child': GtkWidgetI): I32 =>
-    GtkPopoverMenuBarP.remove_child(this, child')

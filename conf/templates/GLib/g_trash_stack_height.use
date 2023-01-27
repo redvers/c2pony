@@ -1,1 +1,0 @@
-use @g_trash_stack_height[U32](stack_p': Pointer[GTrashStack])

@@ -1,2 +1,0 @@
-  fun ref get_bytestring(): String iso^ =>
-    GVariantP.get_bytestring(this)

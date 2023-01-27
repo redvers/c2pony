@@ -1,2 +1,0 @@
-  fun is_focus(self': GtkEventControllerFocus): I32 =>
-    @gtk_event_controller_focus_is_focus(self')

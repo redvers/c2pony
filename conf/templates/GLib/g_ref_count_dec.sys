@@ -1,2 +1,0 @@
-  fun ref_count_dec(rc': Pointer[I32] tag): I32 =>
-    @g_ref_count_dec(rc')

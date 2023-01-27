@@ -1,2 +1,0 @@
-  fun append(self': GtkStringList, string': String): None =>
-    @gtk_string_list_append(self', string'.cstring())

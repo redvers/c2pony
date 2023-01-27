@@ -1,2 +1,0 @@
-  fun get_iter_at_pos(seq': GSequence, pos': I32): GSequenceNode =>
-    @g_sequence_get_iter_at_pos(seq', pos')

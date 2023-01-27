@@ -1,1 +1,0 @@
-use @g_cancellable_pop_current[None](cancellable': GCancellable)

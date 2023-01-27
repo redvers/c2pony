@@ -1,1 +1,0 @@
-use @g_dbus_proxy_call[None](proxy': GDBusProxy, method_name': Pointer[U8] tag, parameters': GVariant, flags': U32, timeout_msec': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

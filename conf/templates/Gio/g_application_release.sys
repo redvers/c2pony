@@ -1,2 +1,0 @@
-  fun release(application': GApplicationI): None =>
-    @g_application_release(application'.getptr())

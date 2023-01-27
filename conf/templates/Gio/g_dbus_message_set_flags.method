@@ -1,2 +1,0 @@
-  fun ref set_flags(flags': U32): None =>
-    GDBusMessageP.set_flags(this, flags')

@@ -1,2 +1,0 @@
-  fun ref insert_unichar(pos': I64, wc': U32): GString =>
-    GStringP.insert_unichar(this, pos', wc')

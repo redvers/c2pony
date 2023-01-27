@@ -1,2 +1,0 @@
-  fun convert_error_quark(): U32 =>
-    @g_convert_error_quark()

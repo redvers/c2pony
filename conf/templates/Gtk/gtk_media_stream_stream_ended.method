@@ -1,2 +1,0 @@
-  fun ref stream_ended(): None =>
-    GtkMediaStreamP.stream_ended(this)

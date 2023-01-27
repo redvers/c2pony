@@ -1,2 +1,0 @@
-  fun get_state(cell': GtkCellRenderer, widget': GtkWidgetI, cell_state': U32): U32 =>
-    @gtk_cell_renderer_get_state(cell', widget'.getptr(), cell_state')

@@ -1,2 +1,0 @@
-  fun add_child(info_bar': GtkInfoBar, widget': GtkWidgetI): None =>
-    @gtk_info_bar_add_child(info_bar', widget'.getptr())

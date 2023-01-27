@@ -1,2 +1,0 @@
-  fun set_resolution_xy(settings': GtkPrintSettings, resolution_x': I32, resolution_y': I32): None =>
-    @gtk_print_settings_set_resolution_xy(settings', resolution_x', resolution_y')

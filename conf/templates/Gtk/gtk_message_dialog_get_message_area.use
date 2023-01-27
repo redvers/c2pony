@@ -1,1 +1,0 @@
-use @gtk_message_dialog_get_message_area[Pointer[GObjectP]](message_dialog': GtkMessageDialog)

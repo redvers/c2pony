@@ -1,2 +1,0 @@
-  fun logv(log_domain': String, log_level': I32, format': String, args': valisttag): None =>
-    @g_logv(log_domain'.cstring(), log_level', format'.cstring(), args')

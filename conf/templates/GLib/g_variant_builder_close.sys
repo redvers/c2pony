@@ -1,2 +1,0 @@
-  fun close(builder': GVariantBuilder): None =>
-    @g_variant_builder_close(builder')

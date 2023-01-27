@@ -1,1 +1,0 @@
-use @g_scanner_peek_next_token[U32](scanner': GScanner)

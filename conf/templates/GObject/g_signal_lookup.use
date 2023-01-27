@@ -1,1 +1,0 @@
-use @g_signal_lookup[U32](name': Pointer[U8] tag, itype': U64)

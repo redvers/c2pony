@@ -1,2 +1,0 @@
-  fun prepend(list': GSList, data': Pointer[None] tag): GSList =>
-    @g_slist_prepend(list', data')

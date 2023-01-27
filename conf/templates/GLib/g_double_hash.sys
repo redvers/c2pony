@@ -1,2 +1,0 @@
-  fun double_hash(v': Pointer[None] tag): U32 =>
-    @g_double_hash(v')

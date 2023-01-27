@@ -1,2 +1,0 @@
-  fun ref list_keys(): Pointer[Pointer[U8]] tag =>
-    GSettingsP.list_keys(this)

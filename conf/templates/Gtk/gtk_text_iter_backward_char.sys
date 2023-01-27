@@ -1,2 +1,0 @@
-  fun backward_char(iter': GtkTextIter): I32 =>
-    @gtk_text_iter_backward_char(iter')

@@ -1,2 +1,0 @@
-  fun new(name': String): GtkTextTag =>
-    @gtk_text_tag_new(name'.cstring())

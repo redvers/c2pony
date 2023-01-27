@@ -1,2 +1,0 @@
-  fun set_reply_serial(message': GDBusMessage, value': U32): None =>
-    @g_dbus_message_set_reply_serial(message', value')

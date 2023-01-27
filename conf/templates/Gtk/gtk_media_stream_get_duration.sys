@@ -1,2 +1,0 @@
-  fun get_duration(self': GtkMediaStream): I64 =>
-    @gtk_media_stream_get_duration(self')

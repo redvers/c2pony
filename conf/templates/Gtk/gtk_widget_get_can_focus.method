@@ -1,2 +1,0 @@
-  fun ref get_can_focus(): I32 =>
-    GtkWidgetP.get_can_focus(this)

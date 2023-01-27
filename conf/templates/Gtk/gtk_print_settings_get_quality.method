@@ -1,2 +1,0 @@
-  fun ref get_quality(): U32 =>
-    GtkPrintSettingsP.get_quality(this)

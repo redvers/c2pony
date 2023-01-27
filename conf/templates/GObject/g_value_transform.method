@@ -1,2 +1,0 @@
-  fun ref transform(dest_value': GValue): I32 =>
-    GValueP.transform(this, dest_value')

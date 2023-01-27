@@ -1,2 +1,0 @@
-  fun new(hostname': String, port': U16, priority': U16, weight': U16): GSrvTarget =>
-    @g_srv_target_new(hostname'.cstring(), port', priority', weight')

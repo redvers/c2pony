@@ -1,2 +1,0 @@
-  fun ref get_device(): GdkDevice =>
-    GtkGestureP.get_device(this)

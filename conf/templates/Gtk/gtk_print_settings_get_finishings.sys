@@ -1,2 +1,0 @@
-  fun get_finishings(settings': GtkPrintSettings): String iso^ =>
-    String.from_cstring(@gtk_print_settings_get_finishings(settings')).clone()

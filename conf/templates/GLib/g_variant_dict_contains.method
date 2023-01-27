@@ -1,2 +1,0 @@
-  fun ref contains(key': String): I32 =>
-    GVariantDictP.contains(this, key')

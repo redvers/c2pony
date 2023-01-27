@@ -1,2 +1,0 @@
-  fun scroll_to_mark(text_view': GtkTextView, mark': GtkTextMark, within_margin': F64, use_align': I32, xalign': F64, yalign': F64): None =>
-    @gtk_text_view_scroll_to_mark(text_view', mark', within_margin', use_align', xalign', yalign')

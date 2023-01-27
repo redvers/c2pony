@@ -1,2 +1,0 @@
-  fun ref set_ulong(v_ulong': U64): None =>
-    GValueP.set_ulong(this, v_ulong')

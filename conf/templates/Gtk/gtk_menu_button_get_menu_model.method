@@ -1,2 +1,0 @@
-  fun ref get_menu_model(): GMenuModel =>
-    GtkMenuButtonP.get_menu_model(this)

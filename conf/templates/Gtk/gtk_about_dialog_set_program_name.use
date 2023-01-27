@@ -1,1 +1,0 @@
-use @gtk_about_dialog_set_program_name[None](about': GtkAboutDialog, name': Pointer[U8] tag)

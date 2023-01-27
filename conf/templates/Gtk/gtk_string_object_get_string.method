@@ -1,2 +1,0 @@
-  fun ref get_string(): String iso^ =>
-    GtkStringObjectP.get_string(this)

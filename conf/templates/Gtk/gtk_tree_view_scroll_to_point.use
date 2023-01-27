@@ -1,1 +1,0 @@
-use @gtk_tree_view_scroll_to_point[None](tree_view': GtkTreeView, tree_x': I32, tree_y': I32)

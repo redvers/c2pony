@@ -1,1 +1,0 @@
-use @gtk_string_list_take[None](self': GtkStringList, string': Pointer[U8] tag)

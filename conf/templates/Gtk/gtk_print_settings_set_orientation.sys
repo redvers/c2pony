@@ -1,2 +1,0 @@
-  fun set_orientation(settings': GtkPrintSettings, orientation': U32): None =>
-    @gtk_print_settings_set_orientation(settings', orientation')

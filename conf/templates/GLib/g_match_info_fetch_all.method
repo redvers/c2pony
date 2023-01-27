@@ -1,2 +1,0 @@
-  fun ref fetch_all(): Pointer[Pointer[U8]] tag =>
-    GMatchInfoP.fetch_all(this)

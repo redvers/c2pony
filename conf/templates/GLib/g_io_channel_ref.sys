@@ -1,2 +1,0 @@
-  fun ref(channel': GIOChannel): GIOChannel =>
-    @g_io_channel_ref(channel')

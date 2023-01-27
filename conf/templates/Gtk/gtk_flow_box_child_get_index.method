@@ -1,2 +1,0 @@
-  fun ref get_index(): I32 =>
-    GtkFlowBoxChildP.get_index(this)

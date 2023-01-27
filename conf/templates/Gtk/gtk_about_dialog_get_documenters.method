@@ -1,2 +1,0 @@
-  fun ref get_documenters(): Pointer[Pointer[U8]] tag =>
-    GtkAboutDialogP.get_documenters(this)

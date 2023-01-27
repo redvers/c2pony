@@ -1,2 +1,0 @@
-  fun ref set_valist(iter': GtkTreeIter, var_args': valisttag): None =>
-    GtkListStoreP.set_valist(this, iter', var_args')

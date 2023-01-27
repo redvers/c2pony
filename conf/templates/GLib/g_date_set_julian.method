@@ -1,2 +1,0 @@
-  fun ref set_julian(julian_date': U32): None =>
-    GDateP.set_julian(this, julian_date')

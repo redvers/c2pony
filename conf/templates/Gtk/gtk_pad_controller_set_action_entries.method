@@ -1,2 +1,0 @@
-  fun ref set_action_entries(entries': GtkPadActionEntry, n_entries': I32): None =>
-    GtkPadControllerP.set_action_entries(this, entries', n_entries')

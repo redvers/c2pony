@@ -1,2 +1,0 @@
-  fun markup_printf_escaped(format': String, ...): String iso^ =>
-    String.from_cstring(@g_markup_printf_escaped(format'.cstring(), ...)).clone()

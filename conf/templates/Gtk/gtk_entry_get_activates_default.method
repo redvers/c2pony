@@ -1,2 +1,0 @@
-  fun ref get_activates_default(): I32 =>
-    GtkEntryP.get_activates_default(this)

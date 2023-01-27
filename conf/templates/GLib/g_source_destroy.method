@@ -1,2 +1,0 @@
-  fun ref destroy(): None =>
-    GSourceP.destroy(this)

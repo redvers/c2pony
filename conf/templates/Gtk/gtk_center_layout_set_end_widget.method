@@ -1,2 +1,0 @@
-  fun ref set_end_widget(widget': GtkWidgetI): None =>
-    GtkCenterLayoutP.set_end_widget(this, widget')

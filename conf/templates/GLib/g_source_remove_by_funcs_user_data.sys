@@ -1,2 +1,0 @@
-  fun remove_by_funcs_user_data(funcs': GSourceFuncs, user_data': Pointer[None] tag): I32 =>
-    @g_source_remove_by_funcs_user_data(funcs', user_data')

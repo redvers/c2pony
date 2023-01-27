@@ -1,2 +1,0 @@
-  fun set_use_underline(expander': GtkExpander, use_underline': I32): None =>
-    @gtk_expander_set_use_underline(expander', use_underline')

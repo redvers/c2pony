@@ -1,1 +1,0 @@
-use @gtk_tree_view_get_enable_tree_lines[I32](tree_view': GtkTreeView)

@@ -1,2 +1,0 @@
-  fun dbus_address_escape_value(string': String): String iso^ =>
-    String.from_cstring(@g_dbus_address_escape_value(string'.cstring())).clone()

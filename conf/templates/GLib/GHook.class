@@ -1,9 +1,0 @@
-
-use "lib:glib-2.0"
-
-class GHook
-  var ptr: NullablePointer[GHookT]
-
-  new create() =>
-    ptr = NullablePointer[GHookT].none()
-  new create_from_ptr(ptr': NullablePointer[GHookT]) => ptr = ptr'

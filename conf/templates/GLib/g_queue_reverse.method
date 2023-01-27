@@ -1,2 +1,0 @@
-  fun ref reverse(): None =>
-    GQueueP.reverse(this)

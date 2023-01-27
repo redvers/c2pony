@@ -1,2 +1,0 @@
-  fun ref append_c(c': U8): GString =>
-    GStringP.append_c(this, c')

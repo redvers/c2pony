@@ -1,2 +1,0 @@
-  fun ref write_unichar(thechar': U32, error': GError): U32 =>
-    GIOChannelP.write_unichar(this, thechar', error')

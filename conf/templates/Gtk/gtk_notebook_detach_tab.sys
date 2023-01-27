@@ -1,2 +1,0 @@
-  fun detach_tab(notebook': GtkNotebook, child': GtkWidgetI): None =>
-    @gtk_notebook_detach_tab(notebook', child'.getptr())

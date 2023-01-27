@@ -1,2 +1,0 @@
-  fun free(rand': GRand): None =>
-    @g_rand_free(rand')

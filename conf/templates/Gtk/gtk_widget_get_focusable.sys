@@ -1,2 +1,0 @@
-  fun get_focusable(widget': GtkWidgetI): I32 =>
-    @gtk_widget_get_focusable(widget'.getptr())

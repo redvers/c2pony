@@ -1,2 +1,0 @@
-  fun difference(end': GDateTime, begin': GDateTime): I64 =>
-    @g_date_time_difference(end', begin')

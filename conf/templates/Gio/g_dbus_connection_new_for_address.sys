@@ -1,2 +1,0 @@
-  fun new_for_address(address': String, flags': U32, observer': GDBusAuthObserver, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_dbus_connection_new_for_address(address'.cstring(), flags', observer', cancellable', callback', user_data')

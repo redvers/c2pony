@@ -1,2 +1,0 @@
-  fun alloc(hook_list': GHookList): GHook =>
-    @g_hook_alloc(hook_list')

@@ -1,2 +1,0 @@
-  fun ref attribute_get_column(renderer': GtkCellRenderer, attribute': String): I32 =>
-    GtkCellAreaP.attribute_get_column(this, renderer', attribute')

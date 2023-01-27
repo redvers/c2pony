@@ -1,2 +1,0 @@
-  fun ref set_expression(expression': GtkExpression): None =>
-    GtkStringFilterP.set_expression(this, expression')

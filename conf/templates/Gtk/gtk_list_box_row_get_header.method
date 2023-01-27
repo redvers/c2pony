@@ -1,2 +1,0 @@
-  fun ref get_header(): Pointer[GObjectP] =>
-    GtkListBoxRowP.get_header(this)

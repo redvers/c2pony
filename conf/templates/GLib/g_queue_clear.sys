@@ -1,2 +1,0 @@
-  fun clear(queue': GQueue): None =>
-    @g_queue_clear(queue')

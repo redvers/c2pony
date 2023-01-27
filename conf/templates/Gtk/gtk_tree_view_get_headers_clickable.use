@@ -1,1 +1,0 @@
-use @gtk_tree_view_get_headers_clickable[I32](tree_view': GtkTreeView)

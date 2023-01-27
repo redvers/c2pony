@@ -1,2 +1,0 @@
-  fun ref get_value(): F64 =>
-    GtkRangeP.get_value(this)

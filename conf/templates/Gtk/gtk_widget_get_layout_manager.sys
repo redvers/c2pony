@@ -1,2 +1,0 @@
-  fun get_layout_manager(widget': GtkWidgetI): GtkLayoutManager =>
-    @gtk_widget_get_layout_manager(widget'.getptr())

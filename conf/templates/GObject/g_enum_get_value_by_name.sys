@@ -1,2 +1,0 @@
-  fun enum_get_value_by_name(enum_class': GEnumClass, name': String): GEnumValue =>
-    @g_enum_get_value_by_name(enum_class', name'.cstring())

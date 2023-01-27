@@ -1,1 +1,0 @@
-use @gtk_text_iter_assign[None](iter': GtkTextIter, other': GtkTextIter)

@@ -1,2 +1,0 @@
-  fun ref revert(): None =>
-    GSettingsP.revert(this)

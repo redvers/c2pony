@@ -1,2 +1,0 @@
-  fun ref (inbuf': Pointer[Pointer[U8]] tag, inbytes_left': Pointer[U64] tag, outbuf': Pointer[Pointer[U8]] tag, outbytes_left': Pointer[U64] tag): U64 =>
-    GIConvP.(this, inbuf', inbytes_left', outbuf', outbytes_left')

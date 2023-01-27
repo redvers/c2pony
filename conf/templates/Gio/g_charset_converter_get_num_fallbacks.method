@@ -1,2 +1,0 @@
-  fun ref get_num_fallbacks(): U32 =>
-    GCharsetConverterP.get_num_fallbacks(this)

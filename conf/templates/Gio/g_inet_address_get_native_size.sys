@@ -1,2 +1,0 @@
-  fun get_native_size(address': GInetAddress): U64 =>
-    @g_inet_address_get_native_size(address')

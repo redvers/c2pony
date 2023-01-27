@@ -1,2 +1,0 @@
-  fun set_uint64(value': GValue, v_uint64': U64): None =>
-    @g_value_set_uint64(value', v_uint64')

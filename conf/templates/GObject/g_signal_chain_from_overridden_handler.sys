@@ -1,2 +1,0 @@
-  fun signal_chain_from_overridden_handler(instance': Pointer[None] tag, ...): None =>
-    @g_signal_chain_from_overridden_handler(instance', ...)

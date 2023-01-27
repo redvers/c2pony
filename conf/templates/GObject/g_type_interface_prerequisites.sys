@@ -1,2 +1,0 @@
-  fun prerequisites(interface_type': U64, n_prerequisites': Pointer[U32] tag): Pointer[U64] tag =>
-    @g_type_interface_prerequisites(interface_type', n_prerequisites')

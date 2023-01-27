@@ -1,2 +1,0 @@
-  fun get_child(window': GtkWindowI): Pointer[GObjectP] =>
-@gtk_window_get_child(window'.getptr())

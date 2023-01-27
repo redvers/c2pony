@@ -1,2 +1,0 @@
-  fun is_valid(uri_string': String, flags': U32, error': GError): I32 =>
-    @g_uri_is_valid(uri_string'.cstring(), flags', addressof error'.ptr)

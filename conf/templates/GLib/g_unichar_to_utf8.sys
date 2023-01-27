@@ -1,2 +1,0 @@
-  fun unichar_to_utf8(c': U32, outbuf': String): I32 =>
-    @g_unichar_to_utf8(c', outbuf'.cstring())

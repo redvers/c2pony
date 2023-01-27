@@ -1,2 +1,0 @@
-  fun ascii_xdigit_value(c': U8): I32 =>
-    @g_ascii_xdigit_value(c')

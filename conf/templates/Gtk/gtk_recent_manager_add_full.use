@@ -1,1 +1,0 @@
-use @gtk_recent_manager_add_full[I32](manager': GtkRecentManager, uri': Pointer[U8] tag, recent_data': GtkRecentData)

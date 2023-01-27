@@ -1,2 +1,0 @@
-  fun get_visible_rect(text_view': GtkTextView, visible_rect': cairorectangleint): None =>
-    @gtk_text_view_get_visible_rect(text_view', visible_rect')

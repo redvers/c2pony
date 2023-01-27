@@ -1,2 +1,0 @@
-  fun ref set_heading(heading': String): None =>
-    GtkAppChooserButtonP.set_heading(this, heading')

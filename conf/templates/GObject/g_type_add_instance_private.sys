@@ -1,2 +1,0 @@
-  fun type_add_instance_private(class_type': U64, private_size': U64): I32 =>
-    @g_type_add_instance_private(class_type', private_size')

@@ -1,2 +1,0 @@
-  fun new_submenu(label': String, submenu': GMenuModel): GMenuItem =>
-    @g_menu_item_new_submenu(label'.cstring(), submenu')

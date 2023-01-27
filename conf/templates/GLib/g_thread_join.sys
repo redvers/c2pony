@@ -1,2 +1,0 @@
-  fun join(thread': GThread): Pointer[None] tag =>
-    @g_thread_join(thread')

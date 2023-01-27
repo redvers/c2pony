@@ -1,2 +1,0 @@
-  fun ref write_all_finish(result': GAsyncResult, bytes_written': Pointer[U64] tag, error': GError): I32 =>
-    GOutputStreamP.write_all_finish(this, result', bytes_written', error')

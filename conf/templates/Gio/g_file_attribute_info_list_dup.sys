@@ -1,2 +1,0 @@
-  fun dup(list': GFileAttributeInfoList): GFileAttributeInfoList =>
-    @g_file_attribute_info_list_dup(list')

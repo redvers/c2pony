@@ -1,1 +1,0 @@
-use @gtk_widget_set_receives_default[None](widget': Pointer[GObjectP], receives_default': I32)

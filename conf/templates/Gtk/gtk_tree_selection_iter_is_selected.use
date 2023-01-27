@@ -1,1 +1,0 @@
-use @gtk_tree_selection_iter_is_selected[I32](selection': GtkTreeSelection, iter': GtkTreeIter)

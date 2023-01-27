@@ -1,2 +1,0 @@
-  fun clamp(date': GDate, min_date': GDate, max_date': GDate): None =>
-    @g_date_clamp(date', min_date', max_date')

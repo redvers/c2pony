@@ -1,2 +1,0 @@
-  fun get_user_data_dir(): String iso^ =>
-    String.from_cstring(@g_get_user_data_dir()).clone()

@@ -1,2 +1,0 @@
-  fun ref set_expression(expression': GtkExpression): None =>
-    GtkStringSorterP.set_expression(this, expression')

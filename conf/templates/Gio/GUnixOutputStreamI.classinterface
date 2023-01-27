@@ -1,7 +1,0 @@
-
-use "../GLib"
-use "../GObject"
-use "lib:gio-2.0"
-
-interface GUnixOutputStreamI is GOutputStreamI
-  fun ref getptr(): Pointer[GObjectP]

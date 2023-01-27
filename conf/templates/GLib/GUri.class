@@ -1,9 +1,0 @@
-
-use "lib:glib-2.0"
-
-class GUri
-  var ptr: NullablePointer[GUriT]
-
-  new create() =>
-    ptr = NullablePointer[GUriT].none()
-  new create_from_ptr(ptr': NullablePointer[GUriT]) => ptr = ptr'

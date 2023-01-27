@@ -1,2 +1,0 @@
-  fun get_family(client': GSocketClient): U32 =>
-    @g_socket_client_get_family(client')

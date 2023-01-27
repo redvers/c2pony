@@ -1,1 +1,0 @@
-use @g_clear_list[None](list_ptr': Pointer[GList], destroy': GDestroyNotify)

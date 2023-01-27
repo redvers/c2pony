@@ -1,2 +1,0 @@
-  fun get_parent(section': GtkCssSection): GtkCssSection =>
-    @gtk_css_section_get_parent(section')

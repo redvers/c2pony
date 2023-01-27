@@ -1,2 +1,0 @@
-  fun atomic_pointer_get(atomic': Pointer[None] tag): Pointer[None] tag =>
-    @g_atomic_pointer_get(atomic')

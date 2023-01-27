@@ -1,1 +1,0 @@
-use @g_intern_static_string[Pointer[U8]](string': Pointer[U8] tag)

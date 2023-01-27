@@ -1,2 +1,0 @@
-  fun ref remove(index': U32): GValueArray =>
-    GValueArrayP.remove(this, index')

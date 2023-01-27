@@ -1,1 +1,0 @@
-use @gtk_drop_down_new_from_strings[Pointer[GObjectP]](strings': Pointer[Pointer[U8]] tag)

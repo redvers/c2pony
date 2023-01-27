@@ -1,2 +1,0 @@
-  fun ref get_tags(): GSList =>
-    GtkTextIterP.get_tags(this)

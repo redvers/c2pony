@@ -1,2 +1,0 @@
-  fun get_return_on_cancel(task': GTask): I32 =>
-    @g_task_get_return_on_cancel(task')

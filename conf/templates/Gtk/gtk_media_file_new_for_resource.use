@@ -1,1 +1,0 @@
-use @gtk_media_file_new_for_resource[GtkMediaStream](resource_path': Pointer[U8] tag)

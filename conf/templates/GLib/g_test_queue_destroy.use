@@ -1,1 +1,0 @@
-use @g_test_queue_destroy[None](destroy_func': GDestroyNotify, destroy_data': Pointer[None] tag)

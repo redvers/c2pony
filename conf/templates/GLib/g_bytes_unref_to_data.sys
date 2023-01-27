@@ -1,2 +1,0 @@
-  fun unref_to_data(bytes': GBytes, size': Pointer[U64] tag): Pointer[None] tag =>
-    @g_bytes_unref_to_data(bytes', size')

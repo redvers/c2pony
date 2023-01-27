@@ -1,2 +1,0 @@
-  fun bit_nth_msf(mask': U64, nth_bit': I32): I32 =>
-    @g_bit_nth_msf(mask', nth_bit')

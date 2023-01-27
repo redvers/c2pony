@@ -1,2 +1,0 @@
-  fun make_tmp(tmpl': String, error': GError): String iso^ =>
-    String.from_cstring(@g_dir_make_tmp(tmpl'.cstring(), addressof error'.ptr)).clone()

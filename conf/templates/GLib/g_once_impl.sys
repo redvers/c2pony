@@ -1,2 +1,0 @@
-  fun impl(once': GOnce, func': GThreadFunc, arg': Pointer[None] tag): Pointer[None] tag =>
-    @g_once_impl(once', func', arg')

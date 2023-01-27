@@ -1,2 +1,0 @@
-  fun get_child(viewport': GtkViewport): Pointer[GObjectP] =>
-@gtk_viewport_get_child(viewport')

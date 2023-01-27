@@ -1,2 +1,0 @@
-  fun type_parent(type': U64): U64 =>
-    @g_type_parent(type')

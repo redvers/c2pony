@@ -1,8 +1,0 @@
-
-use "lib:glib-2.0"
-struct GNodeT
-  var data': Pointer[None] = Pointer[None]
-  var next': GNode = GNode
-  var prev': GNode = GNode
-  var parent': GNode = GNode
-  var children': GNode = GNode

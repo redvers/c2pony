@@ -1,2 +1,0 @@
-  fun ref set_show_heading(value': I32): None =>
-    GtkCalendarP.set_show_heading(this, value')

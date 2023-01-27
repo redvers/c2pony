@@ -1,2 +1,0 @@
-  fun ref set_reply_serial(value': U32): None =>
-    GDBusMessageP.set_reply_serial(this, value')

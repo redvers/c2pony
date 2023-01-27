@@ -1,2 +1,0 @@
-  fun remove_overlay(overlay': GtkOverlay, widget': GtkWidgetI): None =>
-    @gtk_overlay_remove_overlay(overlay', widget'.getptr())

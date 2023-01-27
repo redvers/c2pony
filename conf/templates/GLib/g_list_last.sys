@@ -1,2 +1,0 @@
-  fun last(list': GList): GList =>
-    @g_list_last(list')

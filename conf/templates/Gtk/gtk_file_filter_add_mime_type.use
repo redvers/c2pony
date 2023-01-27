@@ -1,1 +1,0 @@
-use @gtk_file_filter_add_mime_type[None](filter': GtkFileFilter, mime_type': Pointer[U8] tag)

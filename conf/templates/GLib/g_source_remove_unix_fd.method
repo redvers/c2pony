@@ -1,2 +1,0 @@
-  fun ref remove_unix_fd(tag': Pointer[None] tag): None =>
-    GSourceP.remove_unix_fd(this, tag')

@@ -1,2 +1,0 @@
-  fun get_display(widget': GtkWidgetI): GdkDisplay =>
-    @gtk_widget_get_display(widget'.getptr())

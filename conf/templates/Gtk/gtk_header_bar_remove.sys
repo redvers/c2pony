@@ -1,2 +1,0 @@
-  fun remove(bar': GtkHeaderBar, child': GtkWidgetI): None =>
-    @gtk_header_bar_remove(bar', child'.getptr())

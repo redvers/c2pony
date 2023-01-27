@@ -1,2 +1,0 @@
-  fun free(pool': GThreadPool, immediate': I32, wait': I32): None =>
-    @g_thread_pool_free(pool', immediate', wait')

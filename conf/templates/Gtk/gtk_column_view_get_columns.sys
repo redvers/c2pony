@@ -1,2 +1,0 @@
-  fun get_columns(self': GtkColumnView): GListModel =>
-    @gtk_column_view_get_columns(self')

@@ -1,2 +1,0 @@
-  fun prev_page(notebook': GtkNotebook): None =>
-    @gtk_notebook_prev_page(notebook')

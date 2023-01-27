@@ -1,2 +1,0 @@
-  fun get_data(ostream': GMemoryOutputStream): Pointer[None] tag =>
-    @g_memory_output_stream_get_data(ostream')

@@ -1,2 +1,0 @@
-  fun datalist_unset_flags(datalist': Pointer[GData], flags': U32): None =>
-    @g_datalist_unset_flags(datalist', flags')

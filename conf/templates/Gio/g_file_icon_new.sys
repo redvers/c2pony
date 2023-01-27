@@ -1,2 +1,0 @@
-  fun new(file': GFile): GIcon =>
-    @g_file_icon_new(file')

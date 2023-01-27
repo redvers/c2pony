@@ -1,2 +1,0 @@
-  fun ref get_print_settings(): GtkPrintSettings =>
-    GtkPrintOperationP.get_print_settings(this)

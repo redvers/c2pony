@@ -1,1 +1,0 @@
-use @gtk_slice_list_model_new[GtkSliceListModel](model': GListModel, offset': U32, size': U32)

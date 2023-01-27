@@ -1,1 +1,0 @@
-use @g_test_bug_base[None](uri_pattern': Pointer[U8] tag)

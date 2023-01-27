@@ -1,2 +1,0 @@
-  fun free(list': GList): None =>
-    @g_list_free(list')

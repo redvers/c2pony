@@ -1,2 +1,0 @@
-  fun lookup(annotations': Pointer[GDBusAnnotationInfo], name': String): String iso^ =>
-    String.from_cstring(@g_dbus_annotation_info_lookup(annotations', name'.cstring())).clone()

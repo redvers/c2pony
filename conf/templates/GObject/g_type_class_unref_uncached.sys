@@ -1,2 +1,0 @@
-  fun unref_uncached(g_class': Pointer[None] tag): None =>
-    @g_type_class_unref_uncached(g_class')

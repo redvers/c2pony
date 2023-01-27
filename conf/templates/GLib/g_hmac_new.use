@@ -1,1 +1,0 @@
-use @g_hmac_new[GHmac](digest_type': U32, key': Pointer[U8] tag, key_len': U64)

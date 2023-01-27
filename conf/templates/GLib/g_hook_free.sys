@@ -1,2 +1,0 @@
-  fun free(hook_list': GHookList, hook': GHook): None =>
-    @g_hook_free(hook_list', hook')

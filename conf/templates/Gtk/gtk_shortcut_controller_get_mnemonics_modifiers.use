@@ -1,1 +1,0 @@
-use @gtk_shortcut_controller_get_mnemonics_modifiers[U32](self': GtkShortcutController)

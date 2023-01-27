@@ -1,1 +1,0 @@
-use @gtk_header_bar_pack_start[None](bar': GtkHeaderBar, child': Pointer[GObjectP])

@@ -1,1 +1,0 @@
-use @g_settings_set_double[I32](settings': GSettings, key': Pointer[U8] tag, value': F64)

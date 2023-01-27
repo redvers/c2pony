@@ -1,2 +1,0 @@
-  fun ref set_error_hook(error_func': GOptionErrorFunc): None =>
-    GOptionGroupP.set_error_hook(this, error_func')

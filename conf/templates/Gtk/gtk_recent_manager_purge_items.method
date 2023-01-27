@@ -1,2 +1,0 @@
-  fun ref purge_items(error': GError): I32 =>
-    GtkRecentManagerP.purge_items(this, error')

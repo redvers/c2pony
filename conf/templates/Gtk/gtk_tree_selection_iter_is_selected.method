@@ -1,2 +1,0 @@
-  fun ref iter_is_selected(iter': GtkTreeIter): I32 =>
-    GtkTreeSelectionP.iter_is_selected(this, iter')

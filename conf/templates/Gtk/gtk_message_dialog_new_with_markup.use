@@ -1,1 +1,0 @@
-use @gtk_message_dialog_new_with_markup[Pointer[GObjectP]](parent': Pointer[GObjectP], flags': U32, type': U32, buttons': U32, message_format': Pointer[U8] tag, ...)

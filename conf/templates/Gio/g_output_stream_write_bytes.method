@@ -1,2 +1,0 @@
-  fun ref write_bytes(bytes': GBytes, cancellable': GCancellable, error': GError): I64 =>
-    GOutputStreamP.write_bytes(this, bytes', cancellable', error')

@@ -1,2 +1,0 @@
-  fun get_name(guide': GtkConstraintGuide): String iso^ =>
-    String.from_cstring(@gtk_constraint_guide_get_name(guide')).clone()

@@ -1,2 +1,0 @@
-  fun ref flush_sync(cancellable': GCancellable, error': GError): I32 =>
-    GDBusConnectionP.flush_sync(this, cancellable', error')

@@ -1,2 +1,0 @@
-  fun foreach(queue': GQueue, func': GFunc, user_data': Pointer[None] tag): None =>
-    @g_queue_foreach(queue', func', user_data')

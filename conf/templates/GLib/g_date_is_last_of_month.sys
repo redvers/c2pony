@@ -1,2 +1,0 @@
-  fun is_last_of_month(date': GDate): I32 =>
-    @g_date_is_last_of_month(date')

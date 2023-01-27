@@ -1,2 +1,0 @@
-  fun ref set_exit_status(exit_status': I32): None =>
-    GApplicationCommandLineP.set_exit_status(this, exit_status')

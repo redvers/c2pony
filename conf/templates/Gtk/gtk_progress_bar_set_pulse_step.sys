@@ -1,2 +1,0 @@
-  fun set_pulse_step(pbar': GtkProgressBar, fraction': F64): None =>
-    @gtk_progress_bar_set_pulse_step(pbar', fraction')

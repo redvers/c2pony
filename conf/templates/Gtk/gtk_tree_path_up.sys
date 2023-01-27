@@ -1,2 +1,0 @@
-  fun up(path': GtkTreePath): I32 =>
-    @gtk_tree_path_up(path')

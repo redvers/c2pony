@@ -1,2 +1,0 @@
-  fun ref get_indices(): Pointer[I32] tag =>
-    GtkTreePathP.get_indices(this)

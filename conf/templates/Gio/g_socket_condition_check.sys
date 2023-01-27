@@ -1,2 +1,0 @@
-  fun condition_check(socket': GSocket, condition': U32): U32 =>
-    @g_socket_condition_check(socket', condition')

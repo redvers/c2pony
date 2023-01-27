@@ -1,1 +1,0 @@
-use @g_date_subtract_months[None](date': GDate, n_months': U32)

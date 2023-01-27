@@ -1,2 +1,0 @@
-  fun has_item(bookmark': GBookmarkFile, uri': String): I32 =>
-    @g_bookmark_file_has_item(bookmark', uri'.cstring())

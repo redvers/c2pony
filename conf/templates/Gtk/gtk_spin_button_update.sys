@@ -1,2 +1,0 @@
-  fun update(spin_button': GtkSpinButton): None =>
-    @gtk_spin_button_update(spin_button')

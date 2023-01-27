@@ -1,2 +1,0 @@
-  fun get_visited_date_time(bookmark': GBookmarkFile, uri': String, error': GError): GDateTime =>
-    @g_bookmark_file_get_visited_date_time(bookmark', uri'.cstring(), addressof error'.ptr)

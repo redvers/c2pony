@@ -1,2 +1,0 @@
-  fun new(size': U64): GStringChunk =>
-    @g_string_chunk_new(size')

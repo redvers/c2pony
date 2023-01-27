@@ -1,2 +1,0 @@
-  fun ref set_grid_lines(grid_lines': U32): None =>
-    GtkTreeViewP.set_grid_lines(this, grid_lines')

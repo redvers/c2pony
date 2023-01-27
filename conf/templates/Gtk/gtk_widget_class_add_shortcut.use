@@ -1,1 +1,0 @@
-use @gtk_widget_class_add_shortcut[None](widget_class': GtkWidgetClass, shortcut': GtkShortcut)

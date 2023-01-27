@@ -1,2 +1,0 @@
-  fun popup(menu_button': GtkMenuButton): None =>
-    @gtk_menu_button_popup(menu_button')

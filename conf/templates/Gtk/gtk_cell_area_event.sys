@@ -1,2 +1,0 @@
-  fun event(area': GtkCellArea, context': GtkCellAreaContext, widget': GtkWidgetI, event': GdkEvent, cell_area': cairorectangleint, flags': U32): I32 =>
-    @gtk_cell_area_event(area', context', widget'.getptr(), event', cell_area', flags')

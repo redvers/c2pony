@@ -1,2 +1,0 @@
-  fun peek_parent(g_iface': Pointer[None] tag): Pointer[None] tag =>
-    @g_type_interface_peek_parent(g_iface')

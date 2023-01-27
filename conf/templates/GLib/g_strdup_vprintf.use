@@ -1,1 +1,0 @@
-use @g_strdup_vprintf[Pointer[U8]](format': Pointer[U8] tag, args': valisttag)

@@ -1,2 +1,0 @@
-  fun begin_user_action(buffer': GtkTextBuffer): None =>
-    @gtk_text_buffer_begin_user_action(buffer')

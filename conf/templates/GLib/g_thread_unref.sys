@@ -1,2 +1,0 @@
-  fun unref(thread': GThread): None =>
-    @g_thread_unref(thread')

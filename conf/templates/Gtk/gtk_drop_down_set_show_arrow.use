@@ -1,1 +1,0 @@
-use @gtk_drop_down_set_show_arrow[None](self': GtkDropDown, show_arrow': I32)

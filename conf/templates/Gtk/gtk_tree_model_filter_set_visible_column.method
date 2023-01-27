@@ -1,2 +1,0 @@
-  fun ref set_visible_column(column': I32): None =>
-    GtkTreeModelFilterP.set_visible_column(this, column')

@@ -1,2 +1,0 @@
-  fun ref get_factory(): GtkListItemFactory =>
-    GtkListViewP.get_factory(this)

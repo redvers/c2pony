@@ -1,2 +1,0 @@
-  fun set_title(window': GtkWindowI, title': String): None =>
-    @gtk_window_set_title(window'.getptr(), title'.cstring())

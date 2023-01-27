@@ -1,2 +1,0 @@
-  fun get_spacing(box': GtkBox): I32 =>
-    @gtk_box_get_spacing(box')

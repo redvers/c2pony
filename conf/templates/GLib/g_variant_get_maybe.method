@@ -1,2 +1,0 @@
-  fun ref get_maybe(): GVariant =>
-    GVariantP.get_maybe(this)

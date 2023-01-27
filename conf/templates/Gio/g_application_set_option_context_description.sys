@@ -1,2 +1,0 @@
-  fun set_option_context_description(application': GApplicationI, description': String): None =>
-    @g_application_set_option_context_description(application'.getptr(), description'.cstring())

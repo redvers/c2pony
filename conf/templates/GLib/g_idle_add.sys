@@ -1,2 +1,0 @@
-  fun idle_add(function': GSourceFunc, data': Pointer[None] tag): U32 =>
-    @g_idle_add(function', data')

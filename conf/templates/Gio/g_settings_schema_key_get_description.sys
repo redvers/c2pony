@@ -1,2 +1,0 @@
-  fun get_description(key': GSettingsSchemaKey): String iso^ =>
-    String.from_cstring(@g_settings_schema_key_get_description(key')).clone()

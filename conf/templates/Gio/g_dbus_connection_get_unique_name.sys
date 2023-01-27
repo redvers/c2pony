@@ -1,2 +1,0 @@
-  fun get_unique_name(connection': GDBusConnection): String iso^ =>
-    String.from_cstring(@g_dbus_connection_get_unique_name(connection')).clone()

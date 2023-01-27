@@ -1,2 +1,0 @@
-  fun atomic_pointer_and(atomic': Pointer[None] tag, val': U64): U64 =>
-    @g_atomic_pointer_and(atomic', val')

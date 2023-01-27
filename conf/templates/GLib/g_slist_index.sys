@@ -1,2 +1,0 @@
-  fun index(list': GSList, data': Pointer[None] tag): I32 =>
-    @g_slist_index(list', data')

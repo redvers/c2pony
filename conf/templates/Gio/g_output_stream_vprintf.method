@@ -1,2 +1,0 @@
-  fun ref vprintf(bytes_written': Pointer[U64] tag, cancellable': GCancellable, error': GError, format': String, args': valisttag): I32 =>
-    GOutputStreamP.vprintf(this, bytes_written', cancellable', error', format', args')

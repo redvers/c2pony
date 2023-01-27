@@ -1,2 +1,0 @@
-  fun free(requisition': GtkRequisition): None =>
-    @gtk_requisition_free(requisition')

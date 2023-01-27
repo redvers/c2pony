@@ -1,2 +1,0 @@
-  fun ref get_alignment(): F32 =>
-    GtkEntryP.get_alignment(this)

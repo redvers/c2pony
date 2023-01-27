@@ -1,2 +1,0 @@
-  fun set_bottom_margin(text_view': GtkTextView, bottom_margin': I32): None =>
-    @gtk_text_view_set_bottom_margin(text_view', bottom_margin')

@@ -1,2 +1,0 @@
-  fun ref get_visited(): I32 =>
-    GtkLinkButtonP.get_visited(this)

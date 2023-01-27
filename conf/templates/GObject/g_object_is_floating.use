@@ -1,1 +1,0 @@
-use @g_object_is_floating[I32](object': Pointer[None] tag)

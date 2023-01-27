@@ -1,2 +1,0 @@
-  fun ref set_search_equal_func(search_equal_func': GtkTreeViewSearchEqualFunc, search_user_data': Pointer[None] tag, search_destroy': GDestroyNotify): None =>
-    GtkTreeViewP.set_search_equal_func(this, search_equal_func', search_user_data', search_destroy')

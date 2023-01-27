@@ -1,1 +1,0 @@
-use @g_unichar_decompose[I32](ch': U32, a': Pointer[U32] tag, b': Pointer[U32] tag)

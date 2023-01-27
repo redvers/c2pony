@@ -1,2 +1,0 @@
-  fun ref get_has_entry(): I32 =>
-    GtkComboBoxP.get_has_entry(this)

@@ -1,2 +1,0 @@
-  fun new_from_key_file(key_file': GKeyFile, group_name': String, error': GError): GtkPaperSize =>
-    @gtk_paper_size_new_from_key_file(key_file', group_name'.cstring(), addressof error'.ptr)

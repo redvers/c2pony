@@ -1,2 +1,0 @@
-  fun get_tmp_dir(): String iso^ =>
-    String.from_cstring(@g_get_tmp_dir()).clone()

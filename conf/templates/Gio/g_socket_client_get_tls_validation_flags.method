@@ -1,2 +1,0 @@
-  fun ref get_tls_validation_flags(): U32 =>
-    GSocketClientP.get_tls_validation_flags(this)

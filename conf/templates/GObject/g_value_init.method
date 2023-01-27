@@ -1,2 +1,0 @@
-  fun ref init(g_type': U64): GValue =>
-    GValueP.init(this, g_type')

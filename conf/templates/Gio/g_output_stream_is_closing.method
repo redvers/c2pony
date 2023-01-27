@@ -1,2 +1,0 @@
-  fun ref is_closing(): I32 =>
-    GOutputStreamP.is_closing(this)

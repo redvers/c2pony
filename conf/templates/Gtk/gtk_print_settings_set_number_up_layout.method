@@ -1,2 +1,0 @@
-  fun ref set_number_up_layout(number_up_layout': U32): None =>
-    GtkPrintSettingsP.set_number_up_layout(this, number_up_layout')

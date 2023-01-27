@@ -1,2 +1,0 @@
-  fun ref get_match_flags(): U32 =>
-    GRegexP.get_match_flags(this)

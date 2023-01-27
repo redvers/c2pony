@@ -1,2 +1,0 @@
-  fun ref disconnect(handler_id': U64): None =>
-    GCancellableP.disconnect(this, handler_id')

@@ -1,1 +1,0 @@
-use @gtk_window_get_application[Pointer[GObjectP]](window': Pointer[GObjectP])

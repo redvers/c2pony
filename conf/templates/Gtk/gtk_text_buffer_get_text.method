@@ -1,2 +1,0 @@
-  fun ref get_text(start': GtkTextIter, end': GtkTextIter, include_hidden_chars': I32): String iso^ =>
-    GtkTextBufferP.get_text(this, start', end', include_hidden_chars')

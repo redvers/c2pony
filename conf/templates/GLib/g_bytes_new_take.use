@@ -1,1 +1,0 @@
-use @g_bytes_new_take[GBytes](data': Pointer[None] tag, size': U64)

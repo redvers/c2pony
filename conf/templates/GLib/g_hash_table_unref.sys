@@ -1,2 +1,0 @@
-  fun unref(hash_table': GHashTable): None =>
-    @g_hash_table_unref(hash_table')

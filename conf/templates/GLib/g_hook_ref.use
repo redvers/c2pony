@@ -1,1 +1,0 @@
-use @g_hook_ref[GHook](hook_list': GHookList, hook': GHook)

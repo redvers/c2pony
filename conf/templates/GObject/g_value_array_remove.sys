@@ -1,2 +1,0 @@
-  fun remove(value_array': GValueArray, index': U32): GValueArray =>
-    @g_value_array_remove(value_array', index')

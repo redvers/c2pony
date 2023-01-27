@@ -1,2 +1,0 @@
-  fun ref ref(): GMappedFile =>
-    GMappedFileP.ref(this)

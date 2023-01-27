@@ -1,2 +1,0 @@
-  fun ascii_tolower(c': U8): U8 =>
-    @g_ascii_tolower(c')

@@ -1,2 +1,0 @@
-  fun ref set_interaction(interaction': GTlsInteraction): None =>
-    GTlsConnectionP.set_interaction(this, interaction')

@@ -1,2 +1,0 @@
-  fun get_end_child(paned': GtkPaned): Pointer[GObjectP] =>
-@gtk_paned_get_end_child(paned')

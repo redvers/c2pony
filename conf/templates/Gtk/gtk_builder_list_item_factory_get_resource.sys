@@ -1,2 +1,0 @@
-  fun get_resource(self': GtkBuilderListItemFactory): String iso^ =>
-    String.from_cstring(@gtk_builder_list_item_factory_get_resource(self')).clone()

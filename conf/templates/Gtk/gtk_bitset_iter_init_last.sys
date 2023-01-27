@@ -1,2 +1,0 @@
-  fun init_last(iter': GtkBitsetIter, set': GtkBitset, value': Pointer[U32] tag): I32 =>
-    @gtk_bitset_iter_init_last(iter', set', value')

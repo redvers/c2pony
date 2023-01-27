@@ -1,1 +1,0 @@
-use @gtk_calendar_get_show_heading[I32](self': GtkCalendar)

@@ -1,2 +1,0 @@
-  fun set_website(about': GtkAboutDialog, website': String): None =>
-    @gtk_about_dialog_set_website(about', website'.cstring())

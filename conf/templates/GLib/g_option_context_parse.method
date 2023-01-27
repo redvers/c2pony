@@ -1,2 +1,0 @@
-  fun ref parse(argc': Pointer[I32] tag, argv': Pointer[Pointer[Pointer[U8]]] tag, error': GError): I32 =>
-    GOptionContextP.parse(this, argc', argv', error')

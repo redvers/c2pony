@@ -1,1 +1,0 @@
-use @g_tls_certificate_is_same[I32](cert_one': GTlsCertificate, cert_two': GTlsCertificate)

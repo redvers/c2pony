@@ -1,2 +1,0 @@
-  fun ref take_ref(): GVariant =>
-    GVariantP.take_ref(this)

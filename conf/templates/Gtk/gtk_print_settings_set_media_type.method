@@ -1,2 +1,0 @@
-  fun ref set_media_type(media_type': String): None =>
-    GtkPrintSettingsP.set_media_type(this, media_type')

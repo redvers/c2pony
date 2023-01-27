@@ -1,2 +1,0 @@
-  fun ref get_boxed(): Pointer[None] tag =>
-    GValueP.get_boxed(this)

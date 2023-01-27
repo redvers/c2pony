@@ -1,2 +1,0 @@
-  fun ref get_return_on_cancel(): I32 =>
-    GTaskP.get_return_on_cancel(this)

@@ -1,2 +1,0 @@
-  fun end_irreversible_action(buffer': GtkTextBuffer): None =>
-    @gtk_text_buffer_end_irreversible_action(buffer')

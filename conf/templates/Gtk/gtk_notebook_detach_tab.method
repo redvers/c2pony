@@ -1,2 +1,0 @@
-  fun ref detach_tab(child': GtkWidgetI): None =>
-    GtkNotebookP.detach_tab(this, child')

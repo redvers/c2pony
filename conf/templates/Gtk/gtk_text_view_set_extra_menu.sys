@@ -1,2 +1,0 @@
-  fun set_extra_menu(text_view': GtkTextView, model': GMenuModel): None =>
-    @gtk_text_view_set_extra_menu(text_view', model')

@@ -1,2 +1,0 @@
-  fun get_child(row': GtkListBoxRow): Pointer[GObjectP] =>
-@gtk_list_box_row_get_child(row')

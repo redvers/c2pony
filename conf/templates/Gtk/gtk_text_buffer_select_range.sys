@@ -1,2 +1,0 @@
-  fun select_range(buffer': GtkTextBuffer, ins': GtkTextIter, bound': GtkTextIter): None =>
-    @gtk_text_buffer_select_range(buffer', ins', bound')

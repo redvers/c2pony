@@ -1,2 +1,0 @@
-  fun ref set_receives_default(receives_default': I32): None =>
-    GtkWidgetP.set_receives_default(this, receives_default')

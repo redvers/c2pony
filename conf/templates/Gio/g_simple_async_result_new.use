@@ -1,1 +1,0 @@
-use @g_simple_async_result_new[GSimpleAsyncResult](source_object': Pointer[GObjectP], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, source_tag': Pointer[None] tag)

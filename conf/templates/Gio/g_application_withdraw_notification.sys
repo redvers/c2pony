@@ -1,2 +1,0 @@
-  fun withdraw_notification(application': GApplicationI, id': String): None =>
-    @g_application_withdraw_notification(application'.getptr(), id'.cstring())

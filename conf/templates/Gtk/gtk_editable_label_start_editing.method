@@ -1,2 +1,0 @@
-  fun ref start_editing(): None =>
-    GtkEditableLabelP.start_editing(this)

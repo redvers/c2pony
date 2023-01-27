@@ -1,2 +1,0 @@
-  fun ref dup_bytestring(length': Pointer[U64] tag): String iso^ =>
-    GVariantP.dup_bytestring(this, length')

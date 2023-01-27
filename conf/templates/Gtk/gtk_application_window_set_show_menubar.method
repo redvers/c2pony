@@ -1,2 +1,0 @@
-  fun ref set_show_menubar(show_menubar': I32): None =>
-    GtkApplicationWindowP.set_show_menubar(this, show_menubar')

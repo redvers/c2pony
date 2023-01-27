@@ -1,2 +1,0 @@
-  fun ref get_string(key': String): String iso^ =>
-    GSettingsP.get_string(this, key')

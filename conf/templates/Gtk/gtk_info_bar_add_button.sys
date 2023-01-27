@@ -1,2 +1,0 @@
-  fun add_button(info_bar': GtkInfoBar, button_text': String, response_id': I32): Pointer[GObjectP] =>
-@gtk_info_bar_add_button(info_bar', button_text'.cstring(), response_id')

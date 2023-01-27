@@ -1,2 +1,0 @@
-  fun get_focus_visible(window': GtkWindowI): I32 =>
-    @gtk_window_get_focus_visible(window'.getptr())

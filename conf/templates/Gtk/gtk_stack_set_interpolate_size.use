@@ -1,1 +1,0 @@
-use @gtk_stack_set_interpolate_size[None](stack': GtkStack, interpolate_size': I32)

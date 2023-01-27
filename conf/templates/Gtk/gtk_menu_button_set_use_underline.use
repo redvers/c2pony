@@ -1,1 +1,0 @@
-use @gtk_menu_button_set_use_underline[None](menu_button': GtkMenuButton, use_underline': I32)

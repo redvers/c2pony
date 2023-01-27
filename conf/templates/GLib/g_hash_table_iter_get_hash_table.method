@@ -1,2 +1,0 @@
-  fun ref get_hash_table(): GHashTable =>
-    GHashTableIterP.get_hash_table(this)

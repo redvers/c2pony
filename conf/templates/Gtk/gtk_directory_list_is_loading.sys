@@ -1,2 +1,0 @@
-  fun is_loading(self': GtkDirectoryList): I32 =>
-    @gtk_directory_list_is_loading(self')

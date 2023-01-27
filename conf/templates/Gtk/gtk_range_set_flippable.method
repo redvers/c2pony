@@ -1,2 +1,0 @@
-  fun ref set_flippable(flippable': I32): None =>
-    GtkRangeP.set_flippable(this, flippable')

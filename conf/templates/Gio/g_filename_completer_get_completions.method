@@ -1,2 +1,0 @@
-  fun ref get_completions(initial_text': String): Pointer[Pointer[U8]] tag =>
-    GFilenameCompleterP.get_completions(this, initial_text')

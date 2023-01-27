@@ -1,2 +1,0 @@
-  fun get_attributes(entry': GtkEntry): PangoAttrList =>
-    @gtk_entry_get_attributes(entry')

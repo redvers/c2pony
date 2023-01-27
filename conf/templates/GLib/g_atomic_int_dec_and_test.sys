@@ -1,2 +1,0 @@
-  fun atomic_int_dec_and_test(atomic': Pointer[I32] tag): I32 =>
-    @g_atomic_int_dec_and_test(atomic')

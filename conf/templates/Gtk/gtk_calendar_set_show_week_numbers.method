@@ -1,2 +1,0 @@
-  fun ref set_show_week_numbers(value': I32): None =>
-    GtkCalendarP.set_show_week_numbers(this, value')

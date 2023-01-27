@@ -1,2 +1,0 @@
-  fun get_multiplier(constraint': GtkConstraint): F64 =>
-    @gtk_constraint_get_multiplier(constraint')

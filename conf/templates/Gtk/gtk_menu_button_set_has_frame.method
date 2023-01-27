@@ -1,2 +1,0 @@
-  fun ref set_has_frame(has_frame': I32): None =>
-    GtkMenuButtonP.set_has_frame(this, has_frame')

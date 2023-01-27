@@ -1,1 +1,0 @@
-use @gtk_spin_button_set_adjustment[None](spin_button': GtkSpinButton, adjustment': GtkAdjustment)

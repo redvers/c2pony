@@ -1,2 +1,0 @@
-  fun ref create_drag_icon(path': GtkTreePath): GdkPaintable =>
-    GtkIconViewP.create_drag_icon(this, path')

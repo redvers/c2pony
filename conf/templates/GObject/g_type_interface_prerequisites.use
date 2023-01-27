@@ -1,1 +1,0 @@
-use @g_type_interface_prerequisites[Pointer[U64] tag](interface_type': U64, n_prerequisites': Pointer[U32] tag)

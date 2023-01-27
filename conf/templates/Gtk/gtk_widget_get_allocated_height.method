@@ -1,2 +1,0 @@
-  fun ref get_allocated_height(): I32 =>
-    GtkWidgetP.get_allocated_height(this)

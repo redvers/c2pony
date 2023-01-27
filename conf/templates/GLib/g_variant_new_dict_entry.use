@@ -1,1 +1,0 @@
-use @g_variant_new_dict_entry[GVariant](key': GVariant, value': GVariant)

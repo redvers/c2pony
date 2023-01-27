@@ -1,2 +1,0 @@
-  fun set_funcs(source': GSource, funcs': GSourceFuncs): None =>
-    @g_source_set_funcs(source', funcs')

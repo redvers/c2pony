@@ -1,2 +1,0 @@
-  fun ref first(): GVariantType =>
-    GVariantTypeP.first(this)

@@ -1,2 +1,0 @@
-  fun set_attribute(menu_item': GMenuItem, attribute': String, format_string': String, ...): None =>
-    @g_menu_item_set_attribute(menu_item', attribute'.cstring(), format_string'.cstring(), ...)

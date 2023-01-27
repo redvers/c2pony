@@ -1,1 +1,0 @@
-use @g_hook_destroy_link[None](hook_list': GHookList, hook': GHook)

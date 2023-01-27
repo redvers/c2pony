@@ -1,2 +1,0 @@
-  fun get_cursor_visible(text_view': GtkTextView): I32 =>
-    @gtk_text_view_get_cursor_visible(text_view')

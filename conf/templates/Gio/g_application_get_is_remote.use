@@ -1,1 +1,0 @@
-use @g_application_get_is_remote[I32](application': Pointer[GObjectP])

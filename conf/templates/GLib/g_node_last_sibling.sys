@@ -1,2 +1,0 @@
-  fun last_sibling(node': GNode): GNode =>
-    @g_node_last_sibling(node')

@@ -1,2 +1,0 @@
-  fun get_scope_id(address': GInetSocketAddress): U32 =>
-    @g_inet_socket_address_get_scope_id(address')

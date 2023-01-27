@@ -1,1 +1,0 @@
-use @g_unichar_compose[I32](a': U32, b': U32, ch': Pointer[U32] tag)

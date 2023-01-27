@@ -1,2 +1,0 @@
-  fun read_unichar(channel': GIOChannel, thechar': Pointer[U32] tag, error': GError): U32 =>
-    @g_io_channel_read_unichar(channel', thechar', addressof error'.ptr)

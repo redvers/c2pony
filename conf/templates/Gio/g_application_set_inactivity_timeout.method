@@ -1,2 +1,0 @@
-  fun ref set_inactivity_timeout(inactivity_timeout': U32): None =>
-    GApplicationP.set_inactivity_timeout(this, inactivity_timeout')

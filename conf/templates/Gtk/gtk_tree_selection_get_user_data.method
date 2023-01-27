@@ -1,2 +1,0 @@
-  fun ref get_user_data(): Pointer[None] tag =>
-    GtkTreeSelectionP.get_user_data(this)

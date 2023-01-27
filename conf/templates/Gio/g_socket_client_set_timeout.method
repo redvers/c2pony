@@ -1,2 +1,0 @@
-  fun ref set_timeout(timeout': U32): None =>
-    GSocketClientP.set_timeout(this, timeout')

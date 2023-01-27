@@ -1,1 +1,0 @@
-use @g_value_array_new[GValueArray](n_prealloced': U32)

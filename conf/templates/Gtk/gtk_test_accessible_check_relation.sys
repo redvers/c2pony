@@ -1,2 +1,0 @@
-  fun test_accessible_check_relation(accessible': GtkAccessible, relation': U32, ...): String iso^ =>
-    String.from_cstring(@gtk_test_accessible_check_relation(accessible', relation', ...)).clone()

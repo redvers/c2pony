@@ -1,2 +1,0 @@
-  fun ref append_custom_item(name': String, label': String, icon': GIcon): None =>
-    GtkAppChooserButtonP.append_custom_item(this, name', label', icon')

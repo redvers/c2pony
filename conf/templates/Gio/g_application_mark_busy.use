@@ -1,1 +1,0 @@
-use @g_application_mark_busy[None](application': Pointer[GObjectP])

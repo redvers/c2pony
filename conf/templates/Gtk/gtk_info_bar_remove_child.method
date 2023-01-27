@@ -1,2 +1,0 @@
-  fun ref remove_child(widget': GtkWidgetI): None =>
-    GtkInfoBarP.remove_child(this, widget')

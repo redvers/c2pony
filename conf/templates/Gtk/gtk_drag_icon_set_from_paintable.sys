@@ -1,2 +1,0 @@
-  fun set_from_paintable(drag': GdkDrag, paintable': GdkPaintable, hot_x': I32, hot_y': I32): None =>
-    @gtk_drag_icon_set_from_paintable(drag', paintable', hot_x', hot_y')

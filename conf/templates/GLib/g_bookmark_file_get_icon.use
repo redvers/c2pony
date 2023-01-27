@@ -1,1 +1,0 @@
-use @g_bookmark_file_get_icon[I32](bookmark': GBookmarkFile, uri': Pointer[U8] tag, href': Pointer[Pointer[U8]] tag, mime_type': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]])

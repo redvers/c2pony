@@ -1,2 +1,0 @@
-  fun transform(src_value': GValue, dest_value': GValue): I32 =>
-    @g_value_transform(src_value', dest_value')

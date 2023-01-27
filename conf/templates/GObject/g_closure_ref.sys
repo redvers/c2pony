@@ -1,2 +1,0 @@
-  fun ref(closure': GClosure): GClosure =>
-    @g_closure_ref(closure')

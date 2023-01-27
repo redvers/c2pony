@@ -1,1 +1,0 @@
-use @gtk_action_bar_set_center_widget[None](action_bar': GtkActionBar, center_widget': Pointer[GObjectP])

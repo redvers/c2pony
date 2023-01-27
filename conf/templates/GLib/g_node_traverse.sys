@@ -1,2 +1,0 @@
-  fun traverse(root': GNode, order': U32, flags': U32, max_depth': I32, func': GNodeTraverseFunc, data': Pointer[None] tag): None =>
-    @g_node_traverse(root', order', flags', max_depth', func', data')

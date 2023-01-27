@@ -1,2 +1,0 @@
-  fun delete_mark_by_name(buffer': GtkTextBuffer, name': String): None =>
-    @gtk_text_buffer_delete_mark_by_name(buffer', name'.cstring())

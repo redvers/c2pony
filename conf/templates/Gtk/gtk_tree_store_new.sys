@@ -1,2 +1,0 @@
-  fun new(n_columns': I32, ...): GtkTreeStore =>
-    @gtk_tree_store_new(n_columns', ...)

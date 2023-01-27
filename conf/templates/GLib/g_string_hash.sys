@@ -1,2 +1,0 @@
-  fun hash(str': GString): U32 =>
-    @g_string_hash(str')

@@ -1,2 +1,0 @@
-  fun realloc(mem': Pointer[None] tag, n_bytes': U64): Pointer[None] tag =>
-    @g_realloc(mem', n_bytes')

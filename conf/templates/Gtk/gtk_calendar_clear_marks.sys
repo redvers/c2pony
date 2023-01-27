@@ -1,2 +1,0 @@
-  fun clear_marks(calendar': GtkCalendar): None =>
-    @gtk_calendar_clear_marks(calendar')

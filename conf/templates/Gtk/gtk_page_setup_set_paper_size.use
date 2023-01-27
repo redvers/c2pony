@@ -1,1 +1,0 @@
-use @gtk_page_setup_set_paper_size[None](setup': GtkPageSetup, size': GtkPaperSize)

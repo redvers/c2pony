@@ -1,2 +1,0 @@
-  fun ref move_item(old_uri': String, new_uri': String, error': GError): I32 =>
-    GBookmarkFileP.move_item(this, old_uri', new_uri', error')

@@ -1,2 +1,0 @@
-  fun ref to_gvariant(): GVariant =>
-    GtkPageSetupP.to_gvariant(this)

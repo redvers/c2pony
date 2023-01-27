@@ -1,2 +1,0 @@
-  fun is_fullscreen(window': GtkWindowI): I32 =>
-    @gtk_window_is_fullscreen(window'.getptr())

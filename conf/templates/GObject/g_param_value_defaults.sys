@@ -1,2 +1,0 @@
-  fun param_value_defaults(pspec': GParamSpec, value': GValue): I32 =>
-    @g_param_value_defaults(pspec', value')

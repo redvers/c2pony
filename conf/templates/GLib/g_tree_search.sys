@@ -1,2 +1,0 @@
-  fun search(tree': GTree, search_func': GCompareFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
-    @g_tree_search(tree', search_func', user_data')

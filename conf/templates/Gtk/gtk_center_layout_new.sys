@@ -1,2 +1,0 @@
-  fun new(): GtkLayoutManager =>
-    @gtk_center_layout_new()

@@ -1,2 +1,0 @@
-  fun ref set_value(iter': GtkTreeIter, column': I32, value': GValue): None =>
-    GtkListStoreP.set_value(this, iter', column', value')

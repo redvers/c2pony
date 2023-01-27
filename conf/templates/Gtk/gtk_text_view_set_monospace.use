@@ -1,1 +1,0 @@
-use @gtk_text_view_set_monospace[None](text_view': GtkTextView, monospace': I32)

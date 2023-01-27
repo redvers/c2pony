@@ -1,2 +1,0 @@
-  fun new(orientation': U32, adjustment': GtkAdjustment): Pointer[GObjectP] =>
-@gtk_scrollbar_new(orientation', adjustment')

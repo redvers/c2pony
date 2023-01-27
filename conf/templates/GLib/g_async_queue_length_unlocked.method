@@ -1,2 +1,0 @@
-  fun ref length_unlocked(): I32 =>
-    GAsyncQueueP.length_unlocked(this)

@@ -1,2 +1,0 @@
-  fun prepend_vals(array': GArray, data': Pointer[None] tag, len': U32): GArray =>
-    @g_array_prepend_vals(array', data', len')

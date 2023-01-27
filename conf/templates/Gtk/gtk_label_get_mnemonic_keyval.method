@@ -1,2 +1,0 @@
-  fun ref get_mnemonic_keyval(): U32 =>
-    GtkLabelP.get_mnemonic_keyval(this)

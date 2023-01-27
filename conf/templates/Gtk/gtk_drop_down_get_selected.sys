@@ -1,2 +1,0 @@
-  fun get_selected(self': GtkDropDown): U32 =>
-    @gtk_drop_down_get_selected(self')

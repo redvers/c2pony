@@ -1,1 +1,0 @@
-use @gtk_window_controls_set_decoration_layout[None](self': GtkWindowControls, layout': Pointer[U8] tag)

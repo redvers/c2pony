@@ -1,1 +1,0 @@
-use @gtk_filter_changed[None](self': GtkFilter, change': U32)

@@ -1,1 +1,0 @@
-use @g_queue_push_head[None](queue': GQueue, data': Pointer[None] tag)

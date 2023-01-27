@@ -1,2 +1,0 @@
-  fun ref has_css_class(css_class': String): I32 =>
-    GtkWidgetP.has_css_class(this, css_class')

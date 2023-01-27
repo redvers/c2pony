@@ -1,2 +1,0 @@
-  fun ref set_resolution_xy(resolution_x': I32, resolution_y': I32): None =>
-    GtkPrintSettingsP.set_resolution_xy(this, resolution_x', resolution_y')

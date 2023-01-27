@@ -1,2 +1,0 @@
-  fun get_method_info(invocation': GDBusMethodInvocation): GDBusMethodInfo =>
-    @g_dbus_method_invocation_get_method_info(invocation')

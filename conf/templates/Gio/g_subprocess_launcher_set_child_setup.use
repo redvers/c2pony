@@ -1,1 +1,0 @@
-use @g_subprocess_launcher_set_child_setup[None](self': GSubprocessLauncher, child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, destroy_notify': GDestroyNotify)

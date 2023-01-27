@@ -1,2 +1,0 @@
-  fun free(date': GDate): None =>
-    @g_date_free(date')

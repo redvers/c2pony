@@ -1,2 +1,0 @@
-  fun idle_remove_by_data(data': Pointer[None] tag): I32 =>
-    @g_idle_remove_by_data(data')

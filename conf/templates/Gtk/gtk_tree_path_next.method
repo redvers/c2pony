@@ -1,2 +1,0 @@
-  fun ref next(): None =>
-    GtkTreePathP.next(this)

@@ -1,2 +1,0 @@
-  fun ref dup(): GFileAttributeInfoList =>
-    GFileAttributeInfoListP.dup(this)

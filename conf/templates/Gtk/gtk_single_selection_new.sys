@@ -1,2 +1,0 @@
-  fun new(model': GListModel): GtkSingleSelection =>
-    @gtk_single_selection_new(model')

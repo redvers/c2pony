@@ -1,2 +1,0 @@
-  fun strcanon(string': String, valid_chars': String, substitutor': U8): String iso^ =>
-    String.from_cstring(@g_strcanon(string'.cstring(), valid_chars'.cstring(), substitutor')).clone()

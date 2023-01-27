@@ -1,2 +1,0 @@
-  fun contains(hash_table': GHashTable, key': Pointer[None] tag): I32 =>
-    @g_hash_table_contains(hash_table', key')

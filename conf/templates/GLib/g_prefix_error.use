@@ -1,1 +1,0 @@
-use @g_prefix_error[None](err': Pointer[NullablePointer[GErrorT]], format': Pointer[U8] tag, ...)

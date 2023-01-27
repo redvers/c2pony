@@ -1,2 +1,0 @@
-  fun shift_right(self': GtkBitset, amount': U32): None =>
-    @gtk_bitset_shift_right(self', amount')

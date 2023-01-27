@@ -1,2 +1,0 @@
-  fun ref fetch_named_pos(name': String, start_pos': Pointer[I32] tag, end_pos': Pointer[I32] tag): I32 =>
-    GMatchInfoP.fetch_named_pos(this, name', start_pos', end_pos')

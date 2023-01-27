@@ -1,2 +1,0 @@
-  fun ref remove(position': I32): None =>
-    GtkComboBoxTextP.remove(this, position')

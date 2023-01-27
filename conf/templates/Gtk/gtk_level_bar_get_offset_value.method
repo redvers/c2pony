@@ -1,2 +1,0 @@
-  fun ref get_offset_value(name': String, value': Pointer[F64] tag): I32 =>
-    GtkLevelBarP.get_offset_value(this, name', value')

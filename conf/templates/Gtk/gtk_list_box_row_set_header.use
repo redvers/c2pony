@@ -1,1 +1,0 @@
-use @gtk_list_box_row_set_header[None](row': GtkListBoxRow, header': Pointer[GObjectP])

@@ -1,2 +1,0 @@
-  fun ref insert_after(sibling': GNode, node': GNode): GNode =>
-    GNodeP.insert_after(this, sibling', node')

@@ -1,2 +1,0 @@
-  fun get(weak_ref': anon_3672): Pointer[None] tag =>
-    @g_weak_ref_get(weak_ref')

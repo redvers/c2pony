@@ -1,2 +1,0 @@
-  fun atomic_ref_count_init(arc': Pointer[I32] tag): None =>
-    @g_atomic_ref_count_init(arc')

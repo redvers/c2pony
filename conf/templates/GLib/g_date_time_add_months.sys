@@ -1,2 +1,0 @@
-  fun add_months(datetime': GDateTime, months': I32): GDateTime =>
-    @g_date_time_add_months(datetime', months')

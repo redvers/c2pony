@@ -1,1 +1,0 @@
-use @g_pattern_match_string[I32](pspec': GPatternSpec, string': Pointer[U8] tag)

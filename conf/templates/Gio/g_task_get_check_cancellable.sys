@@ -1,2 +1,0 @@
-  fun get_check_cancellable(task': GTask): I32 =>
-    @g_task_get_check_cancellable(task')

@@ -1,2 +1,0 @@
-  fun ref get_is_loopback(): I32 =>
-    GInetAddressP.get_is_loopback(this)

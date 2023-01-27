@@ -1,2 +1,0 @@
-  fun set_cascade_popdown(popover': GtkPopover, cascade_popdown': I32): None =>
-    @gtk_popover_set_cascade_popdown(popover', cascade_popdown')

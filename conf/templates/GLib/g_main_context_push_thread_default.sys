@@ -1,2 +1,0 @@
-  fun push_thread_default(context': GMainContext): None =>
-    @g_main_context_push_thread_default(context')

@@ -1,2 +1,0 @@
-  fun ref is_ancestor(iter': GtkTreeIter, descendant': GtkTreeIter): I32 =>
-    GtkTreeStoreP.is_ancestor(this, iter', descendant')

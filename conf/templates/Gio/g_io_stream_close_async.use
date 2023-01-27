@@ -1,1 +1,0 @@
-use @g_io_stream_close_async[None](stream': GIOStream, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

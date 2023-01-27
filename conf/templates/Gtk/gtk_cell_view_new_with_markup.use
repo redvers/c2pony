@@ -1,1 +1,0 @@
-use @gtk_cell_view_new_with_markup[Pointer[GObjectP]](markup': Pointer[U8] tag)

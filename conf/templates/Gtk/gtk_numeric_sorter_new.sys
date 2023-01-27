@@ -1,2 +1,0 @@
-  fun new(expression': GtkExpression): GtkNumericSorter =>
-    @gtk_numeric_sorter_new(expression')

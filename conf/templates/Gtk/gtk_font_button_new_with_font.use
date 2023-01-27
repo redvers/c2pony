@@ -1,1 +1,0 @@
-use @gtk_font_button_new_with_font[Pointer[GObjectP]](fontname': Pointer[U8] tag)

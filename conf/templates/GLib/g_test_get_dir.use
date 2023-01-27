@@ -1,1 +1,0 @@
-use @g_test_get_dir[Pointer[U8]](file_type': U32)

@@ -1,1 +1,0 @@
-use @g_bit_nth_msf[I32](mask': U64, nth_bit': I32)

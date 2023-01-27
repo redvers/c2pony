@@ -1,2 +1,0 @@
-  fun ref trylock(): I32 =>
-    GRecMutexP.trylock(this)

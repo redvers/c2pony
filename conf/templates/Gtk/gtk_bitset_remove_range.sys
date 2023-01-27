@@ -1,2 +1,0 @@
-  fun remove_range(self': GtkBitset, start': U32, n_items': U32): None =>
-    @gtk_bitset_remove_range(self', start', n_items')

@@ -1,1 +1,0 @@
-use @g_param_spec_pool_list_owned[GList](pool': GParamSpecPool, owner_type': U64)

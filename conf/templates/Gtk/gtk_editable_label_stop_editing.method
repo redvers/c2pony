@@ -1,2 +1,0 @@
-  fun ref stop_editing(commit': I32): None =>
-    GtkEditableLabelP.stop_editing(this, commit')

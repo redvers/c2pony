@@ -1,2 +1,0 @@
-  fun toggles_tag(iter': GtkTextIter, tag': GtkTextTag): I32 =>
-    @gtk_text_iter_toggles_tag(iter', tag')

@@ -1,2 +1,0 @@
-  fun error_from_errno(en': I32): U32 =>
-    @g_io_channel_error_from_errno(en')

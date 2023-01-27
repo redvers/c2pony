@@ -1,2 +1,0 @@
-  fun order(first': GtkTextIter, second': GtkTextIter): None =>
-    @gtk_text_iter_order(first', second')

@@ -1,2 +1,0 @@
-  fun steal(tree': GTree, key': Pointer[None] tag): I32 =>
-    @g_tree_steal(tree', key')

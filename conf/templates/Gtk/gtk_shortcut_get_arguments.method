@@ -1,2 +1,0 @@
-  fun ref get_arguments(): GVariant =>
-    GtkShortcutP.get_arguments(this)

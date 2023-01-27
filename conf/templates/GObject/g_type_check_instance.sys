@@ -1,2 +1,0 @@
-  fun type_check_instance(instance': GTypeInstance): I32 =>
-    @g_type_check_instance(instance')

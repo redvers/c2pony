@@ -1,7 +1,0 @@
-
-
-use "../GLib"
-use "lib:gobject-2.0"
-
-interface GInitiallyUnownedI is GObjectI
-  fun ref getptr(): Pointer[GObjectP]

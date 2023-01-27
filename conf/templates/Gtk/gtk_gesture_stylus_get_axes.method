@@ -1,2 +1,0 @@
-  fun ref get_axes(axes': Pointer[U32] tag, values': Pointer[Pointer[F64]] tag): I32 =>
-    GtkGestureStylusP.get_axes(this, axes', values')

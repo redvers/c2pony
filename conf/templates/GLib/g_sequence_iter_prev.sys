@@ -1,2 +1,0 @@
-  fun prev(iter': GSequenceNode): GSequenceNode =>
-    @g_sequence_iter_prev(iter')

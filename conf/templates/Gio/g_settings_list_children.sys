@@ -1,2 +1,0 @@
-  fun list_children(settings': GSettings): Pointer[Pointer[U8]] tag =>
-    @g_settings_list_children(settings')

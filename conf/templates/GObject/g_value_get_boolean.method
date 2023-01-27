@@ -1,2 +1,0 @@
-  fun ref get_boolean(): I32 =>
-    GValueP.get_boolean(this)

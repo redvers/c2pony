@@ -1,2 +1,0 @@
-  fun ref set_source_tag(source_tag': Pointer[None] tag): None =>
-    GTaskP.set_source_tag(this, source_tag')

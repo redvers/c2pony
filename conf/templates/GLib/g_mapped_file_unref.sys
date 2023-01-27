@@ -1,2 +1,0 @@
-  fun unref(file': GMappedFile): None =>
-    @g_mapped_file_unref(file')

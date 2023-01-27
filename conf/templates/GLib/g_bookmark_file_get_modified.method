@@ -1,2 +1,0 @@
-  fun ref get_modified(uri': String, error': GError): I64 =>
-    GBookmarkFileP.get_modified(this, uri', error')

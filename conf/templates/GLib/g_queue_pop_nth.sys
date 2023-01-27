@@ -1,2 +1,0 @@
-  fun pop_nth(queue': GQueue, n': U32): Pointer[None] tag =>
-    @g_queue_pop_nth(queue', n')

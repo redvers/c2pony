@@ -1,2 +1,0 @@
-  fun set_always_show_arrow(menu_button': GtkMenuButton, always_show_arrow': I32): None =>
-    @gtk_menu_button_set_always_show_arrow(menu_button', always_show_arrow')

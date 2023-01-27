@@ -1,2 +1,0 @@
-  fun copy(other': GtkPageSetup): GtkPageSetup =>
-    @gtk_page_setup_copy(other')

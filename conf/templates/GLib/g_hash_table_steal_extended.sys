@@ -1,2 +1,0 @@
-  fun steal_extended(hash_table': GHashTable, lookup_key': Pointer[None] tag, stolen_key': Pointer[Pointer[None]] tag, stolen_value': Pointer[Pointer[None]] tag): I32 =>
-    @g_hash_table_steal_extended(hash_table', lookup_key', stolen_key', stolen_value')

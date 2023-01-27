@@ -1,1 +1,0 @@
-use @gtk_grid_view_set_single_click_activate[None](self': GtkGridView, single_click_activate': I32)

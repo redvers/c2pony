@@ -1,2 +1,0 @@
-  fun ref_sink(pspec': GParamSpec): GParamSpec =>
-    @g_param_spec_ref_sink(pspec')

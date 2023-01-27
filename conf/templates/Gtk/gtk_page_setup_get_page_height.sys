@@ -1,2 +1,0 @@
-  fun get_page_height(setup': GtkPageSetup, unit': U32): F64 =>
-    @gtk_page_setup_get_page_height(setup', unit')

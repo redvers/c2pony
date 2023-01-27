@@ -1,2 +1,0 @@
-  fun set_padding(cell': GtkCellRenderer, xpad': I32, ypad': I32): None =>
-    @gtk_cell_renderer_set_padding(cell', xpad', ypad')

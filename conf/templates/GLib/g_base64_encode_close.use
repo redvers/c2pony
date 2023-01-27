@@ -1,1 +1,0 @@
-use @g_base64_encode_close[U64](break_lines': I32, out': Pointer[U8] tag, state': Pointer[I32] tag, save': Pointer[I32] tag)

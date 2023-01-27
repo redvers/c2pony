@@ -1,2 +1,0 @@
-  fun reverse_children(node': GNode): None =>
-    @g_node_reverse_children(node')

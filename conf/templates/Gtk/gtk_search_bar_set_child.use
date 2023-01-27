@@ -1,1 +1,0 @@
-use @gtk_search_bar_set_child[None](bar': GtkSearchBar, child': Pointer[GObjectP])

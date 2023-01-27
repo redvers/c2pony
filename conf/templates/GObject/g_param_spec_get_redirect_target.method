@@ -1,2 +1,0 @@
-  fun ref get_redirect_target(): GParamSpec =>
-    GParamSpecP.get_redirect_target(this)

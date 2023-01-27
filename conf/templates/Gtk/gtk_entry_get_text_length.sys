@@ -1,2 +1,0 @@
-  fun get_text_length(entry': GtkEntry): U16 =>
-    @gtk_entry_get_text_length(entry')

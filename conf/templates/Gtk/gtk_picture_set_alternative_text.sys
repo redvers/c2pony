@@ -1,2 +1,0 @@
-  fun set_alternative_text(self': GtkPicture, alternative_text': String): None =>
-    @gtk_picture_set_alternative_text(self', alternative_text'.cstring())

@@ -1,2 +1,0 @@
-  fun ref set_surrounding(text': String, len': I32, cursor_index': I32): None =>
-    GtkIMContextP.set_surrounding(this, text', len', cursor_index')

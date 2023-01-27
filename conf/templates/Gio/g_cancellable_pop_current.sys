@@ -1,2 +1,0 @@
-  fun pop_current(cancellable': GCancellable): None =>
-    @g_cancellable_pop_current(cancellable')

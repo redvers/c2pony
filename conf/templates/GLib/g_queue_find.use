@@ -1,1 +1,0 @@
-use @g_queue_find[GList](queue': GQueue, data': Pointer[None] tag)

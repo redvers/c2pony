@@ -1,2 +1,0 @@
-  fun ref to_timeval(tv': GTimeVal): I32 =>
-    GDateTimeP.to_timeval(this, tv')

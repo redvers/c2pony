@@ -1,2 +1,0 @@
-  fun get_object(expression': GtkExpression): Pointer[GObjectP] =>
-@gtk_object_expression_get_object(expression')

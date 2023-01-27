@@ -1,2 +1,0 @@
-  fun ref has_class(class_name': String): I32 =>
-    GtkStyleContextP.has_class(this, class_name')

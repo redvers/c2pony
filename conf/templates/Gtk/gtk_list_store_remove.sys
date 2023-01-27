@@ -1,2 +1,0 @@
-  fun remove(list_store': GtkListStore, iter': GtkTreeIter): I32 =>
-    @gtk_list_store_remove(list_store', iter')

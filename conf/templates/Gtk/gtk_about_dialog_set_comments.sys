@@ -1,2 +1,0 @@
-  fun set_comments(about': GtkAboutDialog, comments': String): None =>
-    @gtk_about_dialog_set_comments(about', comments'.cstring())

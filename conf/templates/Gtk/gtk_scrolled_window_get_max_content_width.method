@@ -1,2 +1,0 @@
-  fun ref get_max_content_width(): I32 =>
-    GtkScrolledWindowP.get_max_content_width(this)

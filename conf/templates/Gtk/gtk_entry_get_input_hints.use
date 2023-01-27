@@ -1,1 +1,0 @@
-use @gtk_entry_get_input_hints[U32](entry': GtkEntry)

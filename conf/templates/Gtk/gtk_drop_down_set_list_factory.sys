@@ -1,2 +1,0 @@
-  fun set_list_factory(self': GtkDropDown, factory': GtkListItemFactory): None =>
-    @gtk_drop_down_set_list_factory(self', factory')

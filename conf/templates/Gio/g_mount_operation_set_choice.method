@@ -1,2 +1,0 @@
-  fun ref set_choice(choice': I32): None =>
-    GMountOperationP.set_choice(this, choice')

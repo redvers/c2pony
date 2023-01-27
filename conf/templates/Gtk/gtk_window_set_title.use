@@ -1,1 +1,0 @@
-use @gtk_window_set_title[None](window': Pointer[GObjectP], title': Pointer[U8] tag)

@@ -1,2 +1,0 @@
-  fun content_type_is_a(type': String, supertype': String): I32 =>
-    @g_content_type_is_a(type'.cstring(), supertype'.cstring())

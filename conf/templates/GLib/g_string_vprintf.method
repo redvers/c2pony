@@ -1,2 +1,0 @@
-  fun ref vprintf(format': String, args': valisttag): None =>
-    GStringP.vprintf(this, format', args')

@@ -1,2 +1,0 @@
-  fun ref get_color(color': GdkRGBA): None =>
-    GtkStyleContextP.get_color(this, color')

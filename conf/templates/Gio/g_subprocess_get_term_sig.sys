@@ -1,2 +1,0 @@
-  fun get_term_sig(subprocess': GSubprocess): I32 =>
-    @g_subprocess_get_term_sig(subprocess')

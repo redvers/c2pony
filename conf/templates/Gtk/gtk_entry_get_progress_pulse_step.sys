@@ -1,2 +1,0 @@
-  fun get_progress_pulse_step(entry': GtkEntry): F64 =>
-    @gtk_entry_get_progress_pulse_step(entry')

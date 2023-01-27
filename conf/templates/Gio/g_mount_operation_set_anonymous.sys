@@ -1,2 +1,0 @@
-  fun set_anonymous(op': GMountOperation, anonymous': I32): None =>
-    @g_mount_operation_set_anonymous(op', anonymous')

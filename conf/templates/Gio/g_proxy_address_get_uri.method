@@ -1,2 +1,0 @@
-  fun ref get_uri(): String iso^ =>
-    GProxyAddressP.get_uri(this)

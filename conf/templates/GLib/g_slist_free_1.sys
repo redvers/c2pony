@@ -1,2 +1,0 @@
-  fun free_1(list': GSList): None =>
-    @g_slist_free_1(list')

@@ -1,2 +1,0 @@
-  fun ref is_floating(): I32 =>
-    GObjectP.is_floating(this)

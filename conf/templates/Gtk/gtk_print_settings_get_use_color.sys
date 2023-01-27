@@ -1,2 +1,0 @@
-  fun get_use_color(settings': GtkPrintSettings): I32 =>
-    @gtk_print_settings_get_use_color(settings')

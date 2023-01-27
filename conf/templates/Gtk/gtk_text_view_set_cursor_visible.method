@@ -1,2 +1,0 @@
-  fun ref set_cursor_visible(setting': I32): None =>
-    GtkTextViewP.set_cursor_visible(this, setting')

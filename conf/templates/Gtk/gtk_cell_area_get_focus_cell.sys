@@ -1,2 +1,0 @@
-  fun get_focus_cell(area': GtkCellArea): GtkCellRenderer =>
-    @gtk_cell_area_get_focus_cell(area')

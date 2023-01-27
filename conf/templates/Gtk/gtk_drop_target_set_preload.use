@@ -1,1 +1,0 @@
-use @gtk_drop_target_set_preload[None](self': GtkDropTarget, preload': I32)

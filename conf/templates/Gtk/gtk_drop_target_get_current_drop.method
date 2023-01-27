@@ -1,2 +1,0 @@
-  fun ref get_current_drop(): GdkDrop =>
-    GtkDropTargetP.get_current_drop(this)

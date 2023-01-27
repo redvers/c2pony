@@ -1,2 +1,0 @@
-  fun ref handles_sequence(sequence': GdkEventSequence): I32 =>
-    GtkGestureP.handles_sequence(this, sequence')

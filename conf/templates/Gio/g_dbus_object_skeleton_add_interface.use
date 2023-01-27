@@ -1,1 +1,0 @@
-use @g_dbus_object_skeleton_add_interface[None](object': GDBusObjectSkeleton, interface': GDBusInterfaceSkeleton)

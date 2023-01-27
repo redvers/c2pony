@@ -1,2 +1,0 @@
-  fun atomic_int_set(atomic': Pointer[I32] tag, newval': I32): None =>
-    @g_atomic_int_set(atomic', newval')

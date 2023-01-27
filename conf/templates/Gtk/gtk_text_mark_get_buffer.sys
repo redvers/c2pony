@@ -1,2 +1,0 @@
-  fun get_buffer(mark': GtkTextMark): GtkTextBuffer =>
-    @gtk_text_mark_get_buffer(mark')

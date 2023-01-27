@@ -1,2 +1,0 @@
-  fun set_loop(self': GtkMediaStream, loop': I32): None =>
-    @gtk_media_stream_set_loop(self', loop')

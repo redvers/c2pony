@@ -1,2 +1,0 @@
-  fun ref set_accepts_tab(accepts_tab': I32): None =>
-    GtkTextViewP.set_accepts_tab(this, accepts_tab')

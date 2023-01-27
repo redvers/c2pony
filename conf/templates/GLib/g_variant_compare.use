@@ -1,1 +1,0 @@
-use @g_variant_compare[I32](one': Pointer[None] tag, two': Pointer[None] tag)

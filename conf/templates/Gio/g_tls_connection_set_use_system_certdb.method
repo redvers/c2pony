@@ -1,2 +1,0 @@
-  fun ref set_use_system_certdb(use_system_certdb': I32): None =>
-    GTlsConnectionP.set_use_system_certdb(this, use_system_certdb')

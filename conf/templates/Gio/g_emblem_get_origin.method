@@ -1,2 +1,0 @@
-  fun ref get_origin(): U32 =>
-    GEmblemP.get_origin(this)

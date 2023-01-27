@@ -1,2 +1,0 @@
-  fun free(match_info': GMatchInfo): None =>
-    @g_match_info_free(match_info')

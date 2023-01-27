@@ -1,2 +1,0 @@
-  fun ref match(info_b': GtkRecentInfo): I32 =>
-    GtkRecentInfoP.match(this, info_b')

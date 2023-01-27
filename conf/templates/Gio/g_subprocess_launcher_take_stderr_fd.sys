@@ -1,2 +1,0 @@
-  fun take_stderr_fd(self': GSubprocessLauncher, fd': I32): None =>
-    @g_subprocess_launcher_take_stderr_fd(self', fd')

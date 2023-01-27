@@ -1,1 +1,0 @@
-use @g_slist_nth[GSList](list': GSList, n': U32)

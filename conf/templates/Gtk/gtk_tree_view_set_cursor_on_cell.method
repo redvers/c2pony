@@ -1,2 +1,0 @@
-  fun ref set_cursor_on_cell(path': GtkTreePath, focus_column': GtkTreeViewColumn, focus_cell': GtkCellRenderer, start_editing': I32): None =>
-    GtkTreeViewP.set_cursor_on_cell(this, path', focus_column', focus_cell', start_editing')

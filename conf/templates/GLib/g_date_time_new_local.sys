@@ -1,2 +1,0 @@
-  fun new_local(year': I32, month': I32, day': I32, hour': I32, minute': I32, seconds': F64): GDateTime =>
-    @g_date_time_new_local(year', month', day', hour', minute', seconds')

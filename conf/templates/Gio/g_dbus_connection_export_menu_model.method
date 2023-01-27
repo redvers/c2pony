@@ -1,2 +1,0 @@
-  fun ref export_menu_model(object_path': String, menu': GMenuModel, error': GError): U32 =>
-    GDBusConnectionP.export_menu_model(this, object_path', menu', error')

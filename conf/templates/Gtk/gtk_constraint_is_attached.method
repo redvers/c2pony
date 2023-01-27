@@ -1,2 +1,0 @@
-  fun ref is_attached(): I32 =>
-    GtkConstraintP.is_attached(this)

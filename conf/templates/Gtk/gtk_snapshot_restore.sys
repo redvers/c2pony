@@ -1,2 +1,0 @@
-  fun restore(snapshot': GdkSnapshot): None =>
-    @gtk_snapshot_restore(snapshot')

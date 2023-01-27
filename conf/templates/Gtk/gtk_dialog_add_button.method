@@ -1,2 +1,0 @@
-  fun ref add_button(button_text': String, response_id': I32): Pointer[GObjectP] =>
-    GtkDialogP.add_button(this, button_text', response_id')

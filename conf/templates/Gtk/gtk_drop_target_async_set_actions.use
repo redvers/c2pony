@@ -1,1 +1,0 @@
-use @gtk_drop_target_async_set_actions[None](self': GtkDropTargetAsync, actions': U32)

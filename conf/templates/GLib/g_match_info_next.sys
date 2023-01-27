@@ -1,2 +1,0 @@
-  fun next(match_info': GMatchInfo, error': GError): I32 =>
-    @g_match_info_next(match_info', addressof error'.ptr)

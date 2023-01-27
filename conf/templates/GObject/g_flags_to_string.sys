@@ -1,2 +1,0 @@
-  fun flags_to_string(flags_type': U64, value': U32): String iso^ =>
-    String.from_cstring(@g_flags_to_string(flags_type', value')).clone()

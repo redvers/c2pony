@@ -1,1 +1,0 @@
-use @gtk_stack_set_visible_child[None](stack': GtkStack, child': Pointer[GObjectP])

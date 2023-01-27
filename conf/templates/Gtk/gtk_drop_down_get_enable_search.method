@@ -1,2 +1,0 @@
-  fun ref get_enable_search(): I32 =>
-    GtkDropDownP.get_enable_search(this)

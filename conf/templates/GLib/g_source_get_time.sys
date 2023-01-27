@@ -1,2 +1,0 @@
-  fun get_time(source': GSource): I64 =>
-    @g_source_get_time(source')

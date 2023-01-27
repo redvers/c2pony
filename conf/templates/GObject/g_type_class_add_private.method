@@ -1,2 +1,0 @@
-  fun ref add_private(private_size': U64): None =>
-    GTypeClassP.add_private(this, private_size')

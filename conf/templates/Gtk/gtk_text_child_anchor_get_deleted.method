@@ -1,2 +1,0 @@
-  fun ref get_deleted(): I32 =>
-    GtkTextChildAnchorP.get_deleted(this)

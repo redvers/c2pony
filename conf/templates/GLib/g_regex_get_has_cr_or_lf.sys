@@ -1,2 +1,0 @@
-  fun get_has_cr_or_lf(regex': GRegex): I32 =>
-    @g_regex_get_has_cr_or_lf(regex')

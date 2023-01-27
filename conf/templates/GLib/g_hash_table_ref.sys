@@ -1,2 +1,0 @@
-  fun ref(hash_table': GHashTable): GHashTable =>
-    @g_hash_table_ref(hash_table')

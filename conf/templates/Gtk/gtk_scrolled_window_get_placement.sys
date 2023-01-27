@@ -1,2 +1,0 @@
-  fun get_placement(scrolled_window': GtkScrolledWindow): U32 =>
-    @gtk_scrolled_window_get_placement(scrolled_window')

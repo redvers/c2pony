@@ -1,2 +1,0 @@
-  fun ref to_struct_tm(tm': tm): None =>
-    GDateP.to_struct_tm(this, tm')

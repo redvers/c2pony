@@ -1,1 +1,0 @@
-use @gtk_render_icon[None](context': GtkStyleContext, cr': cairo, texture': GdkTexture, x': F64, y': F64)

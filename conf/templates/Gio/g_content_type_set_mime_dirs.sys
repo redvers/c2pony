@@ -1,2 +1,0 @@
-  fun content_type_set_mime_dirs(dirs': Pointer[Pointer[U8]] tag): None =>
-    @g_content_type_set_mime_dirs(dirs')

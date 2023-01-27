@@ -1,2 +1,0 @@
-  fun ref to_string(): String iso^ =>
-    GInetAddressMaskP.to_string(this)

@@ -1,2 +1,0 @@
-  fun pop(context': GMarkupParseContext): Pointer[None] tag =>
-    @g_markup_parse_context_pop(context')

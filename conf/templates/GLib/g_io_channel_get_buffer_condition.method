@@ -1,2 +1,0 @@
-  fun ref get_buffer_condition(): U32 =>
-    GIOChannelP.get_buffer_condition(this)

@@ -1,1 +1,0 @@
-use @g_value_register_transform_func[None](src_type': U64, dest_type': U64, transform_func': GValueTransform)

@@ -1,2 +1,0 @@
-  fun ref push_clip(bounds': graphenerectt): None =>
-    P.push_clip(this, bounds')

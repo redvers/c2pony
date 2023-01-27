@@ -1,2 +1,0 @@
-  fun propagate_error(dest': GError, src': GError): None =>
-    @g_propagate_error(addressof dest'.ptr, src'.ptr)

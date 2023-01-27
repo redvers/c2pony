@@ -1,2 +1,0 @@
-  fun filename_display_name(filename': String): String iso^ =>
-    String.from_cstring(@g_filename_display_name(filename'.cstring())).clone()

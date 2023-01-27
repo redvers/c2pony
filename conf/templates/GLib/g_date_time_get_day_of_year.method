@@ -1,2 +1,0 @@
-  fun ref get_day_of_year(): I32 =>
-    GDateTimeP.get_day_of_year(this)

@@ -1,1 +1,0 @@
-use @g_regex_split[Pointer[Pointer[U8]] tag](regex': GRegex, string': Pointer[U8] tag, match_options': U32)

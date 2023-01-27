@@ -1,2 +1,0 @@
-  fun ref get_native_size(): I64 =>
-    GSocketAddressP.get_native_size(this)

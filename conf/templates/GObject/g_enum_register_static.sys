@@ -1,2 +1,0 @@
-  fun enum_register_static(name': String, const_static_values': GEnumValue): U64 =>
-    @g_enum_register_static(name'.cstring(), const_static_values')

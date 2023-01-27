@@ -1,2 +1,0 @@
-  fun set_titlebar(window': GtkWindowI, titlebar': GtkWidgetI): None =>
-    @gtk_window_set_titlebar(window'.getptr(), titlebar'.getptr())

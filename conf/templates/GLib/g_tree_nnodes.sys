@@ -1,2 +1,0 @@
-  fun nnodes(tree': GTree): I32 =>
-    @g_tree_nnodes(tree')

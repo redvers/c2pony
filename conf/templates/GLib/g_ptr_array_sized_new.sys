@@ -1,2 +1,0 @@
-  fun sized_new(reserved_size': U32): GPtrArray =>
-    @g_ptr_array_sized_new(reserved_size')

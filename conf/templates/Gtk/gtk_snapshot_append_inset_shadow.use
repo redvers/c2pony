@@ -1,1 +1,0 @@
-use @gtk_snapshot_append_inset_shadow[None](snapshot': GdkSnapshot, outline': GskRoundedRect, color': GdkRGBA, dx': F32, dy': F32, spread': F32, blur_radius': F32)

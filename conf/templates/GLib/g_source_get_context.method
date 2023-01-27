@@ -1,2 +1,0 @@
-  fun ref get_context(): GMainContext =>
-    GSourceP.get_context(this)

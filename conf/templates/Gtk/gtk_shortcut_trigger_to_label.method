@@ -1,2 +1,0 @@
-  fun ref to_label(display': GdkDisplay): String iso^ =>
-    GtkShortcutTriggerP.to_label(this, display')

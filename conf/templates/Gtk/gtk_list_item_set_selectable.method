@@ -1,2 +1,0 @@
-  fun ref set_selectable(selectable': I32): None =>
-    GtkListItemP.set_selectable(this, selectable')

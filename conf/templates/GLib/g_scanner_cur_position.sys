@@ -1,2 +1,0 @@
-  fun cur_position(scanner': GScanner): U32 =>
-    @g_scanner_cur_position(scanner')

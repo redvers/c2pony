@@ -1,2 +1,0 @@
-  fun ref is_static(): I32 =>
-    GtkExpressionP.is_static(this)

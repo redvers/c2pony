@@ -1,2 +1,0 @@
-  fun matches(match_info': GMatchInfo): I32 =>
-    @g_match_info_matches(match_info')

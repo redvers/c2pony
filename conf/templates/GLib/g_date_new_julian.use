@@ -1,1 +1,0 @@
-use @g_date_new_julian[GDate](julian_day': U32)

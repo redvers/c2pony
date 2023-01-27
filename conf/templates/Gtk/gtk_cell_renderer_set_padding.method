@@ -1,2 +1,0 @@
-  fun ref set_padding(xpad': I32, ypad': I32): None =>
-    GtkCellRendererP.set_padding(this, xpad', ypad')

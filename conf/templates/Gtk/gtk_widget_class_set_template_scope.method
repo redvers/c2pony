@@ -1,2 +1,0 @@
-  fun ref set_template_scope(scope': GtkBuilderScope): None =>
-    GtkWidgetClassP.set_template_scope(this, scope')

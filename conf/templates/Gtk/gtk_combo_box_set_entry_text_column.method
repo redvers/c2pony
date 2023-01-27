@@ -1,2 +1,0 @@
-  fun ref set_entry_text_column(text_column': I32): None =>
-    GtkComboBoxP.set_entry_text_column(this, text_column')

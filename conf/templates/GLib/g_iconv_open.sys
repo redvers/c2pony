@@ -1,2 +1,0 @@
-  fun open(to_codeset': String, from_codeset': String): GIConv =>
-    @g_iconv_open(to_codeset'.cstring(), from_codeset'.cstring())

@@ -1,2 +1,0 @@
-  fun ref load_from_file(file': GFile): None =>
-    GtkCssProviderP.load_from_file(this, file')

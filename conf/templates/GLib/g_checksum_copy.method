@@ -1,2 +1,0 @@
-  fun ref copy(): GChecksum =>
-    GChecksumP.copy(this)

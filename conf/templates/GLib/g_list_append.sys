@@ -1,2 +1,0 @@
-  fun append(list': GList, data': Pointer[None] tag): GList =>
-    @g_list_append(list', data')

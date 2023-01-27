@@ -1,2 +1,0 @@
-  fun clear_list(list_ptr': Pointer[GList], destroy': GDestroyNotify): None =>
-    @g_clear_list(list_ptr', destroy')

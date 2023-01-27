@@ -1,2 +1,0 @@
-  fun ref collapse_all(): None =>
-    GtkTreeViewP.collapse_all(this)

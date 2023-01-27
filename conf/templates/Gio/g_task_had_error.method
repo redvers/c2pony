@@ -1,2 +1,0 @@
-  fun ref had_error(): I32 =>
-    GTaskP.had_error(this)

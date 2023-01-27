@@ -1,2 +1,0 @@
-  fun ref to_iso8601(): String iso^ =>
-    GTimeValP.to_iso8601(this)

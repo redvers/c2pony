@@ -1,2 +1,0 @@
-  fun dataset_id_remove_no_notify(dataset_location': Pointer[None] tag, key_id': U32): Pointer[None] tag =>
-    @g_dataset_id_remove_no_notify(dataset_location', key_id')

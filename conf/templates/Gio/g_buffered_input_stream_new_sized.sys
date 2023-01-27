@@ -1,2 +1,0 @@
-  fun new_sized(base_stream': GInputStream, size': U64): GInputStream =>
-    @g_buffered_input_stream_new_sized(base_stream', size')

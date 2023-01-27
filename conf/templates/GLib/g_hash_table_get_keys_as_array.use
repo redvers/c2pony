@@ -1,1 +1,0 @@
-use @g_hash_table_get_keys_as_array[Pointer[Pointer[None]] tag](hash_table': GHashTable, length': Pointer[U32] tag)

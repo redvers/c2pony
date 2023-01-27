@@ -1,2 +1,0 @@
-  fun ref set_serial(serial': U32): None =>
-    GDBusMessageP.set_serial(this, serial')

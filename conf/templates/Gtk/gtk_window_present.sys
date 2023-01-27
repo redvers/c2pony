@@ -1,2 +1,0 @@
-  fun present(window': GtkWindowI): None =>
-    @gtk_window_present(window'.getptr())

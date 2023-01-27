@@ -1,2 +1,0 @@
-  fun set_current_page(assistant': GtkAssistant, page_num': I32): None =>
-    @gtk_assistant_set_current_page(assistant', page_num')

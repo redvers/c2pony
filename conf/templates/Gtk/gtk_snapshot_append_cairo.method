@@ -1,2 +1,0 @@
-  fun ref append_cairo(bounds': graphenerectt): cairo =>
-    P.append_cairo(this, bounds')

@@ -1,1 +1,0 @@
-use @g_type_interface_get_plugin[GTypePlugin](instance_type': U64, interface_type': U64)

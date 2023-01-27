@@ -1,2 +1,0 @@
-  fun ref seek(offset': I64, type': U32): U32 =>
-    GIOChannelP.seek(this, offset', type')

@@ -1,2 +1,0 @@
-  fun ref prepend_len(val': String, len': I64): GString =>
-    GStringP.prepend_len(this, val', len')

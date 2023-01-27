@@ -1,1 +1,0 @@
-use @g_io_stream_close_finish[I32](stream': GIOStream, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

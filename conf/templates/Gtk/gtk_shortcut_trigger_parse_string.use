@@ -1,1 +1,0 @@
-use @gtk_shortcut_trigger_parse_string[GtkShortcutTrigger](string': Pointer[U8] tag)

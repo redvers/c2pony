@@ -1,1 +1,0 @@
-use @gtk_widget_list_mnemonic_labels[GList](widget': Pointer[GObjectP])

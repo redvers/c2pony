@@ -1,2 +1,0 @@
-  fun drag_check_threshold(widget': GtkWidgetI, start_x': I32, start_y': I32, current_x': I32, current_y': I32): I32 =>
-    @gtk_drag_check_threshold(widget'.getptr(), start_x', start_y', current_x', current_y')

@@ -1,2 +1,0 @@
-  fun ref prepend_submenu(label': String, submenu': GMenuModel): None =>
-    GMenuP.prepend_submenu(this, label', submenu')

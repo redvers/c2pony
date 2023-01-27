@@ -1,1 +1,0 @@
-use @g_quark_try_string[U32](string': Pointer[U8] tag)

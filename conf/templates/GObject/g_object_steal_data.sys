@@ -1,2 +1,0 @@
-  fun steal_data(object': GObjectI, key': String): Pointer[None] tag =>
-    @g_object_steal_data(object'.getptr(), key'.cstring())

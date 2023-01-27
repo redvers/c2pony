@@ -1,1 +1,0 @@
-use @g_date_time_get_microsecond[I32](datetime': GDateTime)

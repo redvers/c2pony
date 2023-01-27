@@ -1,2 +1,0 @@
-  fun ref compare(dt2': Pointer[None] tag): I32 =>
-    GDateTimeP.compare(this, dt2')

@@ -1,2 +1,0 @@
-  fun observe_guides(layout': GtkConstraintLayout): GListModel =>
-    @gtk_constraint_layout_observe_guides(layout')

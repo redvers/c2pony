@@ -1,2 +1,0 @@
-  fun ref set_pulse_step(fraction': F64): None =>
-    GtkProgressBarP.set_pulse_step(this, fraction')

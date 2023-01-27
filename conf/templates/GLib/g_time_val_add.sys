@@ -1,2 +1,0 @@
-  fun add(time': GTimeVal, microseconds': I64): None =>
-    @g_time_val_add(time', microseconds')

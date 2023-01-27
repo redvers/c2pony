@@ -1,2 +1,0 @@
-  fun new(): GSocketClient =>
-    @g_socket_client_new()

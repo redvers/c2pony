@@ -1,2 +1,0 @@
-  fun compute_cursor_extents(self': GtkText, position': U64, strong': graphenerectt, weak': graphenerectt): None =>
-    @gtk_text_compute_cursor_extents(self', position', strong', weak')

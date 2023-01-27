@@ -1,2 +1,0 @@
-  fun ref(loop': GMainLoop): GMainLoop =>
-    @g_main_loop_ref(loop')

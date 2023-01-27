@@ -1,1 +1,0 @@
-use @g_type_default_interface_ref[Pointer[None] tag](g_type': U64)

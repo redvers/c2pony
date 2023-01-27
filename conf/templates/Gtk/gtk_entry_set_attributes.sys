@@ -1,2 +1,0 @@
-  fun set_attributes(entry': GtkEntry, attrs': PangoAttrList): None =>
-    @gtk_entry_set_attributes(entry', attrs')

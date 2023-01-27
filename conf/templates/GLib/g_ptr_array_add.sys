@@ -1,2 +1,0 @@
-  fun add(array': GPtrArray, data': Pointer[None] tag): None =>
-    @g_ptr_array_add(array', data')

@@ -1,2 +1,0 @@
-  fun stop_editing(self': GtkEditableLabel, commit': I32): None =>
-    @gtk_editable_label_stop_editing(self', commit')

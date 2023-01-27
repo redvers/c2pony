@@ -1,2 +1,0 @@
-  fun ref get_uint32(): U32 =>
-    GVariantP.get_uint32(this)

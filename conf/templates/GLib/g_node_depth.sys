@@ -1,2 +1,0 @@
-  fun depth(node': GNode): U32 =>
-    @g_node_depth(node')

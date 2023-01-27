@@ -1,2 +1,0 @@
-  fun ref set_has_tooltip(has_tooltip': I32): None =>
-    GtkWidgetP.set_has_tooltip(this, has_tooltip')

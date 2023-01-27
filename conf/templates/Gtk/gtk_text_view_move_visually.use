@@ -1,1 +1,0 @@
-use @gtk_text_view_move_visually[I32](text_view': GtkTextView, iter': GtkTextIter, count': I32)

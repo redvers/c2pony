@@ -1,2 +1,0 @@
-  fun pointer_bit_trylock(address': Pointer[None] tag, lock_bit': I32): I32 =>
-    @g_pointer_bit_trylock(address', lock_bit')

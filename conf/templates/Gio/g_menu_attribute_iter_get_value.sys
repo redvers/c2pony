@@ -1,2 +1,0 @@
-  fun get_value(iter': GMenuAttributeIter): GVariant =>
-    @g_menu_attribute_iter_get_value(iter')

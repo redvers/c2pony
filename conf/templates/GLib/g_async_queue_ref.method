@@ -1,2 +1,0 @@
-  fun ref ref(): GAsyncQueue =>
-    GAsyncQueueP.ref(this)

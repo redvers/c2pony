@@ -1,2 +1,0 @@
-  fun ref(schema': GSettingsSchema): GSettingsSchema =>
-    @g_settings_schema_ref(schema')

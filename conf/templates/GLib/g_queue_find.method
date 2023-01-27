@@ -1,2 +1,0 @@
-  fun ref find(data': Pointer[None] tag): GList =>
-    GQueueP.find(this, data')

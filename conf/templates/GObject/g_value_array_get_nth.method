@@ -1,2 +1,0 @@
-  fun ref get_nth(index': U32): GValue =>
-    GValueArrayP.get_nth(this, index')

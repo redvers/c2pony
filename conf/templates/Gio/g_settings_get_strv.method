@@ -1,2 +1,0 @@
-  fun ref get_strv(key': String): Pointer[Pointer[U8]] tag =>
-    GSettingsP.get_strv(this, key')

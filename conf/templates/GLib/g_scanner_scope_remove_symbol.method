@@ -1,2 +1,0 @@
-  fun ref scope_remove_symbol(scope_id': U32, symbol': String): None =>
-    GScannerP.scope_remove_symbol(this, scope_id', symbol')

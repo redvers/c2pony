@@ -1,1 +1,0 @@
-use @gtk_style_context_restore[None](context': GtkStyleContext)

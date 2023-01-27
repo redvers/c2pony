@@ -1,2 +1,0 @@
-  fun length(list': GList): U32 =>
-    @g_list_length(list')

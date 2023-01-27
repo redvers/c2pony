@@ -1,1 +1,0 @@
-use @g_binding_get_source_property[Pointer[U8]](binding': GBinding)

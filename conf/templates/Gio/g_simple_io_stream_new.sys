@@ -1,2 +1,0 @@
-  fun new(input_stream': GInputStream, output_stream': GOutputStream): GIOStream =>
-    @g_simple_io_stream_new(input_stream', output_stream')

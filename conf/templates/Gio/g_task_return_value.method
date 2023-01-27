@@ -1,2 +1,0 @@
-  fun ref return_value(result': GValue): None =>
-    GTaskP.return_value(this, result')

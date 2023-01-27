@@ -1,2 +1,0 @@
-  fun to_node(snapshot': GdkSnapshot): GskRenderNode =>
-    @gtk_snapshot_to_node(snapshot')

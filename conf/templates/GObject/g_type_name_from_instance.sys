@@ -1,2 +1,0 @@
-  fun type_name_from_instance(instance': GTypeInstance): String iso^ =>
-    String.from_cstring(@g_type_name_from_instance(instance')).clone()

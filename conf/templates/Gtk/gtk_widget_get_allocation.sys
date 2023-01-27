@@ -1,2 +1,0 @@
-  fun get_allocation(widget': GtkWidgetI, allocation': cairorectangleint): None =>
-    @gtk_widget_get_allocation(widget'.getptr(), allocation')

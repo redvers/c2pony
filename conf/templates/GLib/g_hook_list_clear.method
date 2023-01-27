@@ -1,2 +1,0 @@
-  fun ref clear(): None =>
-    GHookListP.clear(this)

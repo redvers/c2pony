@@ -1,1 +1,0 @@
-use @g_param_spec_pool_list[Pointer[GParamSpec]](pool': GParamSpecPool, owner_type': U64, n_pspecs_p': Pointer[U32] tag)

@@ -1,1 +1,0 @@
-use @g_bytes_get_data[Pointer[None] tag](bytes': GBytes, size': Pointer[U64] tag)

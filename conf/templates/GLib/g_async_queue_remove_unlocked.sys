@@ -1,2 +1,0 @@
-  fun remove_unlocked(queue': GAsyncQueue, item': Pointer[None] tag): I32 =>
-    @g_async_queue_remove_unlocked(queue', item')

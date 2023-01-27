@@ -1,2 +1,0 @@
-  fun ref mark_day(day': U32): None =>
-    GtkCalendarP.mark_day(this, day')

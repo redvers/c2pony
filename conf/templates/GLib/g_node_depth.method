@@ -1,2 +1,0 @@
-  fun ref depth(): U32 =>
-    GNodeP.depth(this)

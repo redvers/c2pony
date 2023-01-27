@@ -1,2 +1,0 @@
-  fun set_parse(date': GDate, str': String): None =>
-    @g_date_set_parse(date', str'.cstring())

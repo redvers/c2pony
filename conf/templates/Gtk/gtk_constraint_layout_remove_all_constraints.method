@@ -1,2 +1,0 @@
-  fun ref remove_all_constraints(): None =>
-    GtkConstraintLayoutP.remove_all_constraints(this)

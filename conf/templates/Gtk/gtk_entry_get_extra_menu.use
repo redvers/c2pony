@@ -1,1 +1,0 @@
-use @gtk_entry_get_extra_menu[GMenuModel](entry': GtkEntry)

@@ -1,2 +1,0 @@
-  fun ref close(error': GError): I32 =>
-    GSocketP.close(this, error')

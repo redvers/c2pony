@@ -1,2 +1,0 @@
-  fun match(info_a': GtkRecentInfo, info_b': GtkRecentInfo): I32 =>
-    @gtk_recent_info_match(info_a', info_b')

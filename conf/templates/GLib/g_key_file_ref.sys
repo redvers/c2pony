@@ -1,2 +1,0 @@
-  fun ref(key_file': GKeyFile): GKeyFile =>
-    @g_key_file_ref(key_file')

@@ -1,1 +1,0 @@
-use @gtk_widget_is_ancestor[I32](widget': Pointer[GObjectP], ancestor': Pointer[GObjectP])

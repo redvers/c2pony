@@ -1,2 +1,0 @@
-  fun get_paintable(iter': GtkTextIter): GdkPaintable =>
-    @gtk_text_iter_get_paintable(iter')

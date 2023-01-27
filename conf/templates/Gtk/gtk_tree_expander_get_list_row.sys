@@ -1,2 +1,0 @@
-  fun get_list_row(self': GtkTreeExpander): GtkTreeListRow =>
-    @gtk_tree_expander_get_list_row(self')

@@ -1,1 +1,0 @@
-use @g_queue_peek_head_link[GList](queue': GQueue)

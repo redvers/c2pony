@@ -1,2 +1,0 @@
-  fun get_exit_status(subprocess': GSubprocess): I32 =>
-    @g_subprocess_get_exit_status(subprocess')

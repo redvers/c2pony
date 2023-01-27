@@ -1,2 +1,0 @@
-  fun ref close(): I32 =>
-    GIConvP.close(this)

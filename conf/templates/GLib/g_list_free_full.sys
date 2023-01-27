@@ -1,2 +1,0 @@
-  fun free_full(list': GList, free_func': GDestroyNotify): None =>
-    @g_list_free_full(list', free_func')

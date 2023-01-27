@@ -1,1 +1,0 @@
-use @gtk_lock_button_get_permission[GPermission](button': GtkLockButton)

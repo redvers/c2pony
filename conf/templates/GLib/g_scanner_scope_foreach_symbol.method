@@ -1,2 +1,0 @@
-  fun ref scope_foreach_symbol(scope_id': U32, func': GHFunc, user_data': Pointer[None] tag): None =>
-    GScannerP.scope_foreach_symbol(this, scope_id', func', user_data')

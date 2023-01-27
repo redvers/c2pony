@@ -1,2 +1,0 @@
-  fun sort(seq': GSequence, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag): None =>
-    @g_sequence_sort(seq', cmp_func', cmp_data')

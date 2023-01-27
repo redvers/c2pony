@@ -1,2 +1,0 @@
-  fun get_enum(settings': GSettings, key': String): I32 =>
-    @g_settings_get_enum(settings', key'.cstring())

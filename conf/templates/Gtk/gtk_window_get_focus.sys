@@ -1,2 +1,0 @@
-  fun get_focus(window': GtkWindowI): Pointer[GObjectP] =>
-@gtk_window_get_focus(window'.getptr())

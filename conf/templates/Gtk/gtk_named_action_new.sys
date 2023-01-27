@@ -1,2 +1,0 @@
-  fun new(name': String): GtkShortcutAction =>
-    @gtk_named_action_new(name'.cstring())

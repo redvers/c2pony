@@ -1,2 +1,0 @@
-  fun ref get_pixbuf_column(): I32 =>
-    GtkIconViewP.get_pixbuf_column(this)

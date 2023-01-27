@@ -1,1 +1,0 @@
-use @gtk_text_buffer_remove_selection_clipboard[None](buffer': GtkTextBuffer, clipboard': GdkClipboard)

@@ -1,2 +1,0 @@
-  fun unref_to_array(bytes': GBytes): GByteArray =>
-    @g_bytes_unref_to_array(bytes')

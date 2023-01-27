@@ -1,2 +1,0 @@
-  fun ref get_allocation(allocation': cairorectangleint): None =>
-    GtkWidgetP.get_allocation(this, allocation')

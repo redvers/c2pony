@@ -1,2 +1,0 @@
-  fun ref load_from_file(filename': String, error': GError): I32 =>
-    GBookmarkFileP.load_from_file(this, filename', error')

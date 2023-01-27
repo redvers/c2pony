@@ -1,2 +1,0 @@
-  fun ref has_tag(tag': GtkTextTag): I32 =>
-    GtkTextIterP.has_tag(this, tag')

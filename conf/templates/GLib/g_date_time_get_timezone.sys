@@ -1,2 +1,0 @@
-  fun get_timezone(datetime': GDateTime): GTimeZone =>
-    @g_date_time_get_timezone(datetime')

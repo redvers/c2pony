@@ -1,1 +1,0 @@
-use @gtk_text_iter_is_start[I32](iter': GtkTextIter)

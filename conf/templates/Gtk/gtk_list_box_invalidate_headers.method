@@ -1,2 +1,0 @@
-  fun ref invalidate_headers(): None =>
-    GtkListBoxP.invalidate_headers(this)

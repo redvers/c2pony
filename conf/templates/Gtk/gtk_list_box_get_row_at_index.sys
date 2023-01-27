@@ -1,2 +1,0 @@
-  fun get_row_at_index(box': GtkListBox, index': I32): GtkListBoxRow =>
-    @gtk_list_box_get_row_at_index(box', index')

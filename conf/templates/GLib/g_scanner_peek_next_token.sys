@@ -1,2 +1,0 @@
-  fun peek_next_token(scanner': GScanner): U32 =>
-    @g_scanner_peek_next_token(scanner')

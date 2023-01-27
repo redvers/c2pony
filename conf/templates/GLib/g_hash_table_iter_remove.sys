@@ -1,2 +1,0 @@
-  fun remove(iter': GHashTableIter): None =>
-    @g_hash_table_iter_remove(iter')

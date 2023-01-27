@@ -1,2 +1,0 @@
-  fun ref insert_sorted(item': Pointer[None] tag, compare_func': GCompareDataFunc, user_data': Pointer[None] tag): U32 =>
-    GListStoreP.insert_sorted(this, item', compare_func', user_data')

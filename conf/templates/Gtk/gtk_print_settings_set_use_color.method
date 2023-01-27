@@ -1,2 +1,0 @@
-  fun ref set_use_color(use_color': I32): None =>
-    GtkPrintSettingsP.set_use_color(this, use_color')

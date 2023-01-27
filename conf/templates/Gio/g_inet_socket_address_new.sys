@@ -1,2 +1,0 @@
-  fun new(address': GInetAddress, port': U16): GSocketAddress =>
-    @g_inet_socket_address_new(address', port')

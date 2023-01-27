@@ -1,2 +1,0 @@
-  fun get_boolean(key_file': GKeyFile, group_name': String, key': String, error': GError): I32 =>
-    @g_key_file_get_boolean(key_file', group_name'.cstring(), key'.cstring(), addressof error'.ptr)

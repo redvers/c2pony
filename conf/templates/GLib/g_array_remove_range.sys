@@ -1,2 +1,0 @@
-  fun remove_range(array': GArray, index': U32, length': U32): GArray =>
-    @g_array_remove_range(array', index', length')

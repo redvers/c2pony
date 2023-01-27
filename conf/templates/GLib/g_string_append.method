@@ -1,2 +1,0 @@
-  fun ref append(val': String): GString =>
-    GStringP.append(this, val')

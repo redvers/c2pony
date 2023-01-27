@@ -1,1 +1,0 @@
-use @g_slist_length[U32](list': GSList)

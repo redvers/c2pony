@@ -1,2 +1,0 @@
-  fun refilter(filter': GtkTreeModelFilter): None =>
-    @gtk_tree_model_filter_refilter(filter')

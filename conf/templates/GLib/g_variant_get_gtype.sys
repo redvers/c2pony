@@ -1,2 +1,0 @@
-  fun variant_get_gtype(): U64 =>
-    @g_variant_get_gtype()

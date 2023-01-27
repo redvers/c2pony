@@ -1,2 +1,0 @@
-  fun ref get_end_iter(iter': GtkTextIter): None =>
-    GtkTextBufferP.get_end_iter(this, iter')

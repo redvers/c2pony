@@ -1,2 +1,0 @@
-  fun use(module': GTypeModule): I32 =>
-    @g_type_module_use(module')

@@ -1,2 +1,0 @@
-  fun allocate(context': GtkCellAreaContext, width': I32, height': I32): None =>
-    @gtk_cell_area_context_allocate(context', width', height')

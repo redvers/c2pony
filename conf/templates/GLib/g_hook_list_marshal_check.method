@@ -1,2 +1,0 @@
-  fun ref marshal_check(may_recurse': I32, marshaller': GHookCheckMarshaller, marshal_data': Pointer[None] tag): None =>
-    GHookListP.marshal_check(this, may_recurse', marshaller', marshal_data')

@@ -1,2 +1,0 @@
-  fun ref get_use_underline(): I32 =>
-    GtkCheckButtonP.get_use_underline(this)

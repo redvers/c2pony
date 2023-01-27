@@ -1,1 +1,0 @@
-use @g_dbus_message_get_locked[I32](message': GDBusMessage)

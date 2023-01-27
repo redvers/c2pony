@@ -1,1 +1,0 @@
-use @g_dbus_object_manager_server_set_connection[None](manager': GDBusObjectManagerServer, connection': GDBusConnection)

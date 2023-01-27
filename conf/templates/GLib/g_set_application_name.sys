@@ -1,2 +1,0 @@
-  fun set_application_name(application_name': String): None =>
-    @g_set_application_name(application_name'.cstring())

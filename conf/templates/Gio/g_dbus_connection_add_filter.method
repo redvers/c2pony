@@ -1,2 +1,0 @@
-  fun ref add_filter(filter_function': GDBusMessageFilterFunction, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify): U32 =>
-    GDBusConnectionP.add_filter(this, filter_function', user_data', user_data_free_func')

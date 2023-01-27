@@ -1,2 +1,0 @@
-  fun get_cursor(icon_view': GtkIconView, path': Pointer[GtkTreePath], cell': Pointer[GtkCellRenderer]): I32 =>
-    @gtk_icon_view_get_cursor(icon_view', path', cell')

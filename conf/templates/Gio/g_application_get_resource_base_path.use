@@ -1,1 +1,0 @@
-use @g_application_get_resource_base_path[Pointer[U8]](application': Pointer[GObjectP])

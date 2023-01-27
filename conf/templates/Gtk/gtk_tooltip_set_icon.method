@@ -1,2 +1,0 @@
-  fun ref set_icon(paintable': GdkPaintable): None =>
-    GtkTooltipP.set_icon(this, paintable')

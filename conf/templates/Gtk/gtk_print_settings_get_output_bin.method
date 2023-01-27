@@ -1,2 +1,0 @@
-  fun ref get_output_bin(): String iso^ =>
-    GtkPrintSettingsP.get_output_bin(this)

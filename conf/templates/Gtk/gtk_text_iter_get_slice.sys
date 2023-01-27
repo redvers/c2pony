@@ -1,2 +1,0 @@
-  fun get_slice(start': GtkTextIter, end': GtkTextIter): String iso^ =>
-    String.from_cstring(@gtk_text_iter_get_slice(start', end')).clone()

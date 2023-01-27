@@ -1,1 +1,0 @@
-use @gtk_picture_get_can_shrink[I32](self': GtkPicture)

@@ -1,2 +1,0 @@
-  fun get_expression(self': GtkBoolFilter): GtkExpression =>
-    @gtk_bool_filter_get_expression(self')

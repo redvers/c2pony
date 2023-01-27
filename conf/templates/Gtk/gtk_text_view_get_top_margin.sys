@@ -1,2 +1,0 @@
-  fun get_top_margin(text_view': GtkTextView): I32 =>
-    @gtk_text_view_get_top_margin(text_view')

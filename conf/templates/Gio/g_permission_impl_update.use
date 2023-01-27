@@ -1,1 +1,0 @@
-use @g_permission_impl_update[None](permission': GPermission, allowed': I32, can_acquire': I32, can_release': I32)

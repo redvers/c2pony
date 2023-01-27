@@ -1,2 +1,0 @@
-  fun ref get_parent(): GtkCssSection =>
-    GtkCssSectionP.get_parent(this)

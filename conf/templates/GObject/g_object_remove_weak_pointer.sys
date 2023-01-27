@@ -1,2 +1,0 @@
-  fun remove_weak_pointer(object': GObjectI, weak_pointer_location': Pointer[Pointer[None]] tag): None =>
-    @g_object_remove_weak_pointer(object'.getptr(), weak_pointer_location')

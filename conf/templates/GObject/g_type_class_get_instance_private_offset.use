@@ -1,1 +1,0 @@
-use @g_type_class_get_instance_private_offset[I32](g_class': Pointer[None] tag)

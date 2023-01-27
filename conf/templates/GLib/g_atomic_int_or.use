@@ -1,1 +1,0 @@
-use @g_atomic_int_or[U32](atomic': Pointer[U32] tag, val': U32)

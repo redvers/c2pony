@@ -1,1 +1,0 @@
-use @g_signal_handlers_unblock_matched[U32](instance': Pointer[None] tag, mask': U32, signal_id': U32, detail': U32, closure': GClosure, func': Pointer[None] tag, data': Pointer[None] tag)

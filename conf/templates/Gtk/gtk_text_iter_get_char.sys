@@ -1,2 +1,0 @@
-  fun get_char(iter': GtkTextIter): U32 =>
-    @gtk_text_iter_get_char(iter')

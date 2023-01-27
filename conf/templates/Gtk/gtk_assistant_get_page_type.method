@@ -1,2 +1,0 @@
-  fun ref get_page_type(page': GtkWidgetI): U32 =>
-    GtkAssistantP.get_page_type(this, page')

@@ -1,1 +1,0 @@
-use @gtk_expression_evaluate[I32](self': GtkExpression, this': Pointer[None] tag, value': GValue)

@@ -1,2 +1,0 @@
-  fun set_buffer_size(stream': GBufferedOutputStream, size': U64): None =>
-    @g_buffered_output_stream_set_buffer_size(stream', size')

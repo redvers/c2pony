@@ -1,2 +1,0 @@
-  fun get_native_size(address': GSocketAddress): I64 =>
-    @g_socket_address_get_native_size(address')

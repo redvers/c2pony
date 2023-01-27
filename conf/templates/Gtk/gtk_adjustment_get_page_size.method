@@ -1,2 +1,0 @@
-  fun ref get_page_size(): F64 =>
-    GtkAdjustmentP.get_page_size(this)

@@ -1,2 +1,0 @@
-  fun bus_own_name_with_closures(bus_type': I32, name': String, flags': U32, bus_acquired_closure': GClosure, name_acquired_closure': GClosure, name_lost_closure': GClosure): U32 =>
-    @g_bus_own_name_with_closures(bus_type', name'.cstring(), flags', bus_acquired_closure', name_acquired_closure', name_lost_closure')

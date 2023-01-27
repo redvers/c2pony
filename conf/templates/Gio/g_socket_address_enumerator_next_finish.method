@@ -1,2 +1,0 @@
-  fun ref next_finish(result': GAsyncResult, error': GError): GSocketAddress =>
-    GSocketAddressEnumeratorP.next_finish(this, result', error')

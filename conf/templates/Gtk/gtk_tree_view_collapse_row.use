@@ -1,1 +1,0 @@
-use @gtk_tree_view_collapse_row[I32](tree_view': GtkTreeView, path': GtkTreePath)

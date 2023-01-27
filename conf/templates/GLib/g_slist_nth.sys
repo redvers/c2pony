@@ -1,2 +1,0 @@
-  fun nth(list': GSList, n': U32): GSList =>
-    @g_slist_nth(list', n')

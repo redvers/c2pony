@@ -1,2 +1,0 @@
-  fun get_name(pspec': GParamSpec): String iso^ =>
-    String.from_cstring(@g_param_spec_get_name(pspec')).clone()

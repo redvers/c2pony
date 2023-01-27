@@ -1,1 +1,0 @@
-use @gtk_flow_box_get_activate_on_single_click[I32](box': GtkFlowBox)

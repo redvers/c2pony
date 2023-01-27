@@ -1,1 +1,0 @@
-use @gtk_about_dialog_set_copyright[None](about': GtkAboutDialog, copyright': Pointer[U8] tag)

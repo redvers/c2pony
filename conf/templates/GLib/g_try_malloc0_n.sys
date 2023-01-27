@@ -1,2 +1,0 @@
-  fun try_malloc0_n(n_blocks': U64, n_block_bytes': U64): Pointer[None] tag =>
-    @g_try_malloc0_n(n_blocks', n_block_bytes')

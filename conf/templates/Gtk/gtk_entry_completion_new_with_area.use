@@ -1,1 +1,0 @@
-use @gtk_entry_completion_new_with_area[GtkEntryCompletion](area': GtkCellArea)

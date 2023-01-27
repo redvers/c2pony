@@ -1,1 +1,0 @@
-use @gtk_about_dialog_set_comments[None](about': GtkAboutDialog, comments': Pointer[U8] tag)

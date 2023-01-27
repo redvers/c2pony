@@ -1,1 +1,0 @@
-use @gtk_text_iter_backward_visible_cursor_positions[I32](iter': GtkTextIter, count': I32)

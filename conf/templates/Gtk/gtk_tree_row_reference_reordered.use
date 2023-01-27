@@ -1,1 +1,0 @@
-use @gtk_tree_row_reference_reordered[None](proxy': Pointer[GObjectP], path': GtkTreePath, iter': GtkTreeIter, new_order': Pointer[I32] tag)

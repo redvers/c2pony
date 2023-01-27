@@ -1,2 +1,0 @@
-  fun update(checksum': GChecksum, data': String, length': I64): None =>
-    @g_checksum_update(checksum', data'.cstring(), length')

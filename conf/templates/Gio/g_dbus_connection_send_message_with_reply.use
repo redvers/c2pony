@@ -1,1 +1,0 @@
-use @g_dbus_connection_send_message_with_reply[None](connection': GDBusConnection, message': GDBusMessage, flags': U32, timeout_msec': I32, out_serial': Pointer[U32] tag, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

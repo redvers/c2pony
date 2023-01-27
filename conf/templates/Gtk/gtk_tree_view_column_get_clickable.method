@@ -1,2 +1,0 @@
-  fun ref get_clickable(): I32 =>
-    GtkTreeViewColumnP.get_clickable(this)

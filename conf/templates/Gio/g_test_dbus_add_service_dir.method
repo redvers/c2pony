@@ -1,2 +1,0 @@
-  fun ref add_service_dir(path': String): None =>
-    GTestDBusP.add_service_dir(this, path')

@@ -1,2 +1,0 @@
-  fun dup_variant(value': GValue): GVariant =>
-    @g_value_dup_variant(value')

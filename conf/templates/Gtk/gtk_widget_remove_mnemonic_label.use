@@ -1,1 +1,0 @@
-use @gtk_widget_remove_mnemonic_label[None](widget': Pointer[GObjectP], label': Pointer[GObjectP])

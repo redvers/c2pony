@@ -1,2 +1,0 @@
-  fun ref start(): None =>
-    GDBusServerP.start(this)

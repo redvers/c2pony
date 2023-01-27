@@ -1,1 +1,0 @@
-use @g_slist_position[I32](list': GSList, llink': GSList)

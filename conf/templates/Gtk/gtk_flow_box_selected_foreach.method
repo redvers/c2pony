@@ -1,2 +1,0 @@
-  fun ref selected_foreach(func': GtkFlowBoxForeachFunc, data': Pointer[None] tag): None =>
-    GtkFlowBoxP.selected_foreach(this, func', data')

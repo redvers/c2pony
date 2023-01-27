@@ -1,2 +1,0 @@
-  fun get_current_time(source': GSource, timeval': GTimeVal): None =>
-    @g_source_get_current_time(source', timeval')

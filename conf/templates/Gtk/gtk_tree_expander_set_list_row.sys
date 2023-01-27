@@ -1,2 +1,0 @@
-  fun set_list_row(self': GtkTreeExpander, list_row': GtkTreeListRow): None =>
-    @gtk_tree_expander_set_list_row(self', list_row')

@@ -1,2 +1,0 @@
-  fun disconnect(object': Pointer[None] tag, signal_spec': String, ...): None =>
-    @g_object_disconnect(object', signal_spec'.cstring(), ...)

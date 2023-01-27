@@ -1,2 +1,0 @@
-  fun ref load_from_bytes(bytes': GBytes, flags': U32, error': GError): I32 =>
-    GKeyFileP.load_from_bytes(this, bytes', flags', error')

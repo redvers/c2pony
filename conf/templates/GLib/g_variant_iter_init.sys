@@ -1,2 +1,0 @@
-  fun init(iter': GVariantIter, value': GVariant): U64 =>
-    @g_variant_iter_init(iter', value')

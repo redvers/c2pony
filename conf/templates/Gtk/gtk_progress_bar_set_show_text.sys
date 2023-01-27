@@ -1,2 +1,0 @@
-  fun set_show_text(pbar': GtkProgressBar, show_text': I32): None =>
-    @gtk_progress_bar_set_show_text(pbar', show_text')

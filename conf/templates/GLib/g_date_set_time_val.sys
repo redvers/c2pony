@@ -1,2 +1,0 @@
-  fun set_time_val(date': GDate, timeval': GTimeVal): None =>
-    @g_date_set_time_val(date', timeval')

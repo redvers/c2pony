@@ -1,2 +1,0 @@
-  fun ref allow_mechanism(mechanism': String): I32 =>
-    GDBusAuthObserverP.allow_mechanism(this, mechanism')

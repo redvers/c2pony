@@ -1,2 +1,0 @@
-  fun ref get_active(): I32 =>
-    GtkSwitchP.get_active(this)

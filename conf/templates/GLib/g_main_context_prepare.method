@@ -1,2 +1,0 @@
-  fun ref prepare(priority': Pointer[I32] tag): I32 =>
-    GMainContextP.prepare(this, priority')

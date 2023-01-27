@@ -1,2 +1,0 @@
-  fun nullify_pointer(nullify_location': Pointer[Pointer[None]] tag): None =>
-    @g_nullify_pointer(nullify_location')

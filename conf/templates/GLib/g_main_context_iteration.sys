@@ -1,2 +1,0 @@
-  fun iteration(context': GMainContext, may_block': I32): I32 =>
-    @g_main_context_iteration(context', may_block')

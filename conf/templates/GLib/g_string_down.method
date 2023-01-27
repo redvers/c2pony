@@ -1,2 +1,0 @@
-  fun ref down(): GString =>
-    GStringP.down(this)

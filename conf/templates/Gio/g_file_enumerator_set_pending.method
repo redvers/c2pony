@@ -1,2 +1,0 @@
-  fun ref set_pending(pending': I32): None =>
-    GFileEnumeratorP.set_pending(this, pending')

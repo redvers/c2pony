@@ -1,2 +1,0 @@
-  fun ref find_source_by_id(source_id': U32): GSource =>
-    GMainContextP.find_source_by_id(this, source_id')

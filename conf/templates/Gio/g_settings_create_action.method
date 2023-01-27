@@ -1,2 +1,0 @@
-  fun ref create_action(key': String): GAction =>
-    GSettingsP.create_action(this, key')

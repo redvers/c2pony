@@ -1,2 +1,0 @@
-  fun ref set_hadjustment(adjustment': GtkAdjustment): None =>
-    GtkFlowBoxP.set_hadjustment(this, adjustment')

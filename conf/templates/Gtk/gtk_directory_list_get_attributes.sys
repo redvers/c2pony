@@ -1,2 +1,0 @@
-  fun get_attributes(self': GtkDirectoryList): String iso^ =>
-    String.from_cstring(@gtk_directory_list_get_attributes(self')).clone()

@@ -1,2 +1,0 @@
-  fun type_test_flags(type': U64, flags': U32): I32 =>
-    @g_type_test_flags(type', flags')

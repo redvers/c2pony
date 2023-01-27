@@ -1,2 +1,0 @@
-  fun get_data(bytes': GBytes, size': Pointer[U64] tag): Pointer[None] tag =>
-    @g_bytes_get_data(bytes', size')

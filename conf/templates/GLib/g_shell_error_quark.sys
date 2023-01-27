@@ -1,2 +1,0 @@
-  fun shell_error_quark(): U32 =>
-    @g_shell_error_quark()

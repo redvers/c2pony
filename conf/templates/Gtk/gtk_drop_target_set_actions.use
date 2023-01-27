@@ -1,1 +1,0 @@
-use @gtk_drop_target_set_actions[None](self': GtkDropTarget, actions': U32)

@@ -1,2 +1,0 @@
-  fun print_label(self': GtkShortcutTrigger, display': GdkDisplay, string': GString): I32 =>
-    @gtk_shortcut_trigger_print_label(self', display', string')

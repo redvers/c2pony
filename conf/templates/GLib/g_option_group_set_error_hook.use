@@ -1,1 +1,0 @@
-use @g_option_group_set_error_hook[None](group': GOptionGroup, error_func': GOptionErrorFunc)

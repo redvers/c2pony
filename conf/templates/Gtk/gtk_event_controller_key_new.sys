@@ -1,2 +1,0 @@
-  fun new(): GtkEventController =>
-    @gtk_event_controller_key_new()

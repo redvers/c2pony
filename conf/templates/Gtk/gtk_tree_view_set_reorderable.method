@@ -1,2 +1,0 @@
-  fun ref set_reorderable(reorderable': I32): None =>
-    GtkTreeViewP.set_reorderable(this, reorderable')

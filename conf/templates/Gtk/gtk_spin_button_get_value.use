@@ -1,1 +1,0 @@
-use @gtk_spin_button_get_value[F64](spin_button': GtkSpinButton)

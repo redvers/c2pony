@@ -1,1 +1,0 @@
-use @g_socket_speaks_ipv4[I32](socket': GSocket)

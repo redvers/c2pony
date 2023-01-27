@@ -1,2 +1,0 @@
-  fun ref set_destroy_with_parent(setting': I32): None =>
-    GtkWindowP.set_destroy_with_parent(this, setting')

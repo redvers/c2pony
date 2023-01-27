@@ -1,1 +1,0 @@
-use @gtk_shortcut_new[GtkShortcut](trigger': GtkShortcutTrigger, action': GtkShortcutAction)

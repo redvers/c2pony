@@ -1,2 +1,0 @@
-  fun create_context(area': GtkCellArea): GtkCellAreaContext =>
-    @gtk_cell_area_create_context(area')

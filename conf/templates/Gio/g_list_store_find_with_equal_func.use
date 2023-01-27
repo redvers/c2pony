@@ -1,1 +1,0 @@
-use @g_list_store_find_with_equal_func[I32](store': GListStore, item': Pointer[None] tag, equal_func': GEqualFunc, position': Pointer[U32] tag)

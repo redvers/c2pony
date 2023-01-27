@@ -1,2 +1,0 @@
-  fun ref get_header_fields(): String iso^ =>
-    GDBusMessageP.get_header_fields(this)

@@ -1,2 +1,0 @@
-  fun set_julian(date': GDate, julian_date': U32): None =>
-    @g_date_set_julian(date', julian_date')

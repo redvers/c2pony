@@ -1,2 +1,0 @@
-  fun push_tail_link(queue': GQueue, link': GList): None =>
-    @g_queue_push_tail_link(queue', link')

@@ -1,2 +1,0 @@
-  fun ref splice(position': U32, removed': U32, added': U32): None =>
-    GtkBitsetP.splice(this, position', removed', added')

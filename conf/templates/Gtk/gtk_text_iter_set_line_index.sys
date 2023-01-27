@@ -1,2 +1,0 @@
-  fun set_line_index(iter': GtkTextIter, byte_on_line': I32): None =>
-    @gtk_text_iter_set_line_index(iter', byte_on_line')

@@ -1,2 +1,0 @@
-  fun ref copy(dest_value': GValue): None =>
-    GValueP.copy(this, dest_value')

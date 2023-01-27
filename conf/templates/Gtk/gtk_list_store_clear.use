@@ -1,1 +1,0 @@
-use @gtk_list_store_clear[None](list_store': GtkListStore)

@@ -1,2 +1,0 @@
-  fun insert(list': GSList, data': Pointer[None] tag, position': I32): GSList =>
-    @g_slist_insert(list', data', position')

@@ -1,1 +1,0 @@
-use @g_zlib_decompressor_get_file_info[GFileInfo](decompressor': GZlibDecompressor)

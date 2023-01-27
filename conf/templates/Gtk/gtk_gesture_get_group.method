@@ -1,2 +1,0 @@
-  fun ref get_group(): GList =>
-    GtkGestureP.get_group(this)

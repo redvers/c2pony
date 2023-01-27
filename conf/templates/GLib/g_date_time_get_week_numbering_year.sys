@@ -1,2 +1,0 @@
-  fun get_week_numbering_year(datetime': GDateTime): I32 =>
-    @g_date_time_get_week_numbering_year(datetime')

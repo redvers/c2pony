@@ -1,1 +1,0 @@
-use @g_strerror[Pointer[U8]](errnum': I32)

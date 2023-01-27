@@ -1,2 +1,0 @@
-  fun ref get_host(): String iso^ =>
-    GUriP.get_host(this)

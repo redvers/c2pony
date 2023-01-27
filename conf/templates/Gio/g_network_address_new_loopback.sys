@@ -1,2 +1,0 @@
-  fun new_loopback(port': U16): GSocketConnectable =>
-    @g_network_address_new_loopback(port')

@@ -1,2 +1,0 @@
-  fun ref get_minimum_increment(): F64 =>
-    GtkAdjustmentP.get_minimum_increment(this)

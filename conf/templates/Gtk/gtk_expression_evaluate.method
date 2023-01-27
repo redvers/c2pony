@@ -1,2 +1,0 @@
-  fun ref evaluate(this': Pointer[None] tag, value': GValue): I32 =>
-    GtkExpressionP.evaluate(this, this', value')

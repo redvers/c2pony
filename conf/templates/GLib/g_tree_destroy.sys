@@ -1,2 +1,0 @@
-  fun destroy(tree': GTree): None =>
-    @g_tree_destroy(tree')

@@ -1,2 +1,0 @@
-  fun get_current_dir(): String iso^ =>
-    String.from_cstring(@g_get_current_dir()).clone()

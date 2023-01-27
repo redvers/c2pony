@@ -1,2 +1,0 @@
-  fun extend(array_to_extend': GPtrArray, array': GPtrArray, func': GCopyFunc, user_data': Pointer[None] tag): None =>
-    @g_ptr_array_extend(array_to_extend', array', func', user_data')

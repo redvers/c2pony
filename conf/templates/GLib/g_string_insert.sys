@@ -1,2 +1,0 @@
-  fun insert(string': GString, pos': I64, val': String): GString =>
-    @g_string_insert(string', pos', val'.cstring())

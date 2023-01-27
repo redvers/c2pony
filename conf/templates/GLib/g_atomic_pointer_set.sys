@@ -1,2 +1,0 @@
-  fun atomic_pointer_set(atomic': Pointer[None] tag, newval': Pointer[None] tag): None =>
-    @g_atomic_pointer_set(atomic', newval')

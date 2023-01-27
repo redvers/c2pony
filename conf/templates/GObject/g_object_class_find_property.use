@@ -1,1 +1,0 @@
-use @g_object_class_find_property[GParamSpec](oclass': GObjectClass, property_name': Pointer[U8] tag)

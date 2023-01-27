@@ -1,1 +1,0 @@
-use @gtk_scale_new_with_range[Pointer[GObjectP]](orientation': U32, min': F64, max': F64, step': F64)

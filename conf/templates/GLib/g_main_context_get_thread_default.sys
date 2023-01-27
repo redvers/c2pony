@@ -1,2 +1,0 @@
-  fun get_thread_default(): GMainContext =>
-    @g_main_context_get_thread_default()

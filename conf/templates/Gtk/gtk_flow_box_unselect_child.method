@@ -1,2 +1,0 @@
-  fun ref unselect_child(child': GtkFlowBoxChild): None =>
-    GtkFlowBoxP.unselect_child(this, child')

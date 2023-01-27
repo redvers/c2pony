@@ -1,1 +1,0 @@
-use @gtk_tooltip_set_tip_area[None](tooltip': GtkTooltip, rect': cairorectangleint)

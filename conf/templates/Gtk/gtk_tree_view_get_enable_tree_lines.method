@@ -1,2 +1,0 @@
-  fun ref get_enable_tree_lines(): I32 =>
-    GtkTreeViewP.get_enable_tree_lines(this)

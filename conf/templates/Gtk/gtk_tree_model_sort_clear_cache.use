@@ -1,1 +1,0 @@
-use @gtk_tree_model_sort_clear_cache[None](tree_model_sort': GtkTreeModelSort)

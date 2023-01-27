@@ -1,2 +1,0 @@
-  fun spaced_primes_closest(num': U32): U32 =>
-    @g_spaced_primes_closest(num')

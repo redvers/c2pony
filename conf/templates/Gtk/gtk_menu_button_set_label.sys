@@ -1,2 +1,0 @@
-  fun set_label(menu_button': GtkMenuButton, label': String): None =>
-    @gtk_menu_button_set_label(menu_button', label'.cstring())

@@ -1,1 +1,0 @@
-use @g_rw_lock_init[None](rw_lock': GRWLock)

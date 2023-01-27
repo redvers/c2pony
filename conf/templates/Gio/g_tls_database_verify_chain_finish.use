@@ -1,1 +1,0 @@
-use @g_tls_database_verify_chain_finish[U32](self': GTlsDatabase, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

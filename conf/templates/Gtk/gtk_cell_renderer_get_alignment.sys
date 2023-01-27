@@ -1,2 +1,0 @@
-  fun get_alignment(cell': GtkCellRenderer, xalign': Pointer[F32] tag, yalign': Pointer[F32] tag): None =>
-    @gtk_cell_renderer_get_alignment(cell', xalign', yalign')

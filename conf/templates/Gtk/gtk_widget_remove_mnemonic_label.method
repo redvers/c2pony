@@ -1,2 +1,0 @@
-  fun ref remove_mnemonic_label(label': GtkWidgetI): None =>
-    GtkWidgetP.remove_mnemonic_label(this, label')

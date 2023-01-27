@@ -1,2 +1,0 @@
-  fun get_weight(target': GSrvTarget): U16 =>
-    @g_srv_target_get_weight(target')

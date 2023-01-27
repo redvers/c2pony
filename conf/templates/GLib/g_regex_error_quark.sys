@@ -1,2 +1,0 @@
-  fun error_quark(): U32 =>
-    @g_regex_error_quark()

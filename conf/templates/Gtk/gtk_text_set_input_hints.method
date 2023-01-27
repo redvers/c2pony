@@ -1,2 +1,0 @@
-  fun ref set_input_hints(hints': U32): None =>
-    GtkTextP.set_input_hints(this, hints')

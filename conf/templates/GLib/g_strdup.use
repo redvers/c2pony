@@ -1,1 +1,0 @@
-use @g_strdup[Pointer[U8]](str': Pointer[U8] tag)

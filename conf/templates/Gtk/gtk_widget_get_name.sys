@@ -1,2 +1,0 @@
-  fun get_name(widget': GtkWidgetI): String iso^ =>
-    String.from_cstring(@gtk_widget_get_name(widget'.getptr())).clone()

@@ -1,1 +1,0 @@
-use @gtk_text_tag_new[GtkTextTag](name': Pointer[U8] tag)

@@ -1,2 +1,0 @@
-  fun ref eof(): I32 =>
-    GScannerP.eof(this)

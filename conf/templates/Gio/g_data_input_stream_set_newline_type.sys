@@ -1,2 +1,0 @@
-  fun set_newline_type(stream': GDataInputStream, type': U32): None =>
-    @g_data_input_stream_set_newline_type(stream', type')

@@ -1,2 +1,0 @@
-  fun get_priority(target': GSrvTarget): U16 =>
-    @g_srv_target_get_priority(target')

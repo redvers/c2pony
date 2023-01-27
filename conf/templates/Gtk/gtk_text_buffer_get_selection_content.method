@@ -1,2 +1,0 @@
-  fun ref get_selection_content(): GdkContentProvider =>
-    GtkTextBufferP.get_selection_content(this)

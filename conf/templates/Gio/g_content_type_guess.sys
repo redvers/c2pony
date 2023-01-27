@@ -1,2 +1,0 @@
-  fun content_type_guess(filename': String, data': String, data_size': U64, result_uncertain': Pointer[I32] tag): String iso^ =>
-    String.from_cstring(@g_content_type_guess(filename'.cstring(), data'.cstring(), data_size', result_uncertain')).clone()

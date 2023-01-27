@@ -1,2 +1,0 @@
-  fun ref free_full(free_func': GDestroyNotify): None =>
-    GQueueP.free_full(this, free_func')

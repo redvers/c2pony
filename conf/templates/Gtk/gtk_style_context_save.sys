@@ -1,2 +1,0 @@
-  fun save(context': GtkStyleContext): None =>
-    @gtk_style_context_save(context')

@@ -1,2 +1,0 @@
-  fun get_iter_at_location(text_view': GtkTextView, iter': GtkTextIter, x': I32, y': I32): I32 =>
-    @gtk_text_view_get_iter_at_location(text_view', iter', x', y')

@@ -1,2 +1,0 @@
-  fun hash(bytes': Pointer[None] tag): U32 =>
-    @g_bytes_hash(bytes')

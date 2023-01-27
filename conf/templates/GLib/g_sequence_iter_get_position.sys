@@ -1,2 +1,0 @@
-  fun get_position(iter': GSequenceNode): I32 =>
-    @g_sequence_iter_get_position(iter')

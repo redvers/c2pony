@@ -1,2 +1,0 @@
-  fun ref add_child(child': GtkWidgetI): GtkStackPage =>
-    GtkStackP.add_child(this, child')

@@ -1,2 +1,0 @@
-  fun ref get_width(): I32 =>
-    GtkWidgetP.get_width(this)

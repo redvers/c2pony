@@ -1,2 +1,0 @@
-  fun get_message(invocation': GDBusMethodInvocation): GDBusMessage =>
-    @g_dbus_method_invocation_get_message(invocation')

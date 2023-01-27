@@ -1,2 +1,0 @@
-  fun ref add_interface(interface': GDBusInterfaceSkeleton): None =>
-    GDBusObjectSkeletonP.add_interface(this, interface')

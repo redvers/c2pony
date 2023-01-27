@@ -1,2 +1,0 @@
-  fun ref get_input_hints(): U32 =>
-    GtkEntryP.get_input_hints(this)

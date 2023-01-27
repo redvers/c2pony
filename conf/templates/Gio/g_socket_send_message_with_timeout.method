@@ -1,2 +1,0 @@
-  fun ref send_message_with_timeout(address': GSocketAddress, vectors': GOutputVector, num_vectors': I32, messages': Pointer[GSocketControlMessage], num_messages': I32, flags': I32, timeout_us': I64, bytes_written': Pointer[U64] tag, cancellable': GCancellable, error': GError): I32 =>
-    GSocketP.send_message_with_timeout(this, address', vectors', num_vectors', messages', num_messages', flags', timeout_us', bytes_written', cancellable', error')

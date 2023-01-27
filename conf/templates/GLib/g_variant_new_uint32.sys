@@ -1,2 +1,0 @@
-  fun new_uint32(value': U32): GVariant =>
-    @g_variant_new_uint32(value')

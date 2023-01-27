@@ -1,1 +1,0 @@
-use @g_object_get_property[None](object': Pointer[GObjectP], property_name': Pointer[U8] tag, value': GValue)

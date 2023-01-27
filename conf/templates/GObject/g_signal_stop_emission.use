@@ -1,1 +1,0 @@
-use @g_signal_stop_emission[None](instance': Pointer[None] tag, signal_id': U32, detail': U32)

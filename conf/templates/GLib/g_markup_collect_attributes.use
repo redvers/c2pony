@@ -1,1 +1,0 @@
-use @g_markup_collect_attributes[I32](element_name': Pointer[U8] tag, attribute_names': Pointer[Pointer[U8]] tag, attribute_values': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]], first_type': U32, first_attr': Pointer[U8] tag, ...)

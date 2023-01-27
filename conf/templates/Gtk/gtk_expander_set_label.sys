@@ -1,2 +1,0 @@
-  fun set_label(expander': GtkExpander, label': String): None =>
-    @gtk_expander_set_label(expander', label'.cstring())

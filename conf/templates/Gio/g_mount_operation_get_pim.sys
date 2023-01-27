@@ -1,2 +1,0 @@
-  fun get_pim(op': GMountOperation): U32 =>
-    @g_mount_operation_get_pim(op')

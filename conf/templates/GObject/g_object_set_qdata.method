@@ -1,2 +1,0 @@
-  fun ref set_qdata(quark': U32, data': Pointer[None] tag): None =>
-    GObjectP.set_qdata(this, quark', data')

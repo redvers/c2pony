@@ -1,2 +1,0 @@
-  fun insert(list_store': GtkListStore, iter': GtkTreeIter, position': I32): None =>
-    @gtk_list_store_insert(list_store', iter', position')

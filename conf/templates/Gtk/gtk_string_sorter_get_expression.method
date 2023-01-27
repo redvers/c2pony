@@ -1,2 +1,0 @@
-  fun ref get_expression(): GtkExpression =>
-    GtkStringSorterP.get_expression(this)

@@ -1,2 +1,0 @@
-  fun to_string(provider': GtkCssProvider): String iso^ =>
-    String.from_cstring(@gtk_css_provider_to_string(provider')).clone()

@@ -1,2 +1,0 @@
-  fun writer_unlock(rw_lock': GRWLock): None =>
-    @g_rw_lock_writer_unlock(rw_lock')

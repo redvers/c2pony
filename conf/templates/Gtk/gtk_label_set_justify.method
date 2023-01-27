@@ -1,2 +1,0 @@
-  fun ref set_justify(jtype': U32): None =>
-    GtkLabelP.set_justify(this, jtype')

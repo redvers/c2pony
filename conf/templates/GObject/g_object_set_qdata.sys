@@ -1,2 +1,0 @@
-  fun set_qdata(object': GObjectI, quark': U32, data': Pointer[None] tag): None =>
-    @g_object_set_qdata(object'.getptr(), quark', data')

@@ -1,2 +1,0 @@
-  fun get_element_size(array': GArray): U32 =>
-    @g_array_get_element_size(array')

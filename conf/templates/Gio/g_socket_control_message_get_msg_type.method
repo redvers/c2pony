@@ -1,2 +1,0 @@
-  fun ref get_msg_type(): I32 =>
-    GSocketControlMessageP.get_msg_type(this)

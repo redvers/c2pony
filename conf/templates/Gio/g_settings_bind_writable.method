@@ -1,2 +1,0 @@
-  fun ref bind_writable(key': String, object': Pointer[None] tag, property': String, inverted': I32): None =>
-    GSettingsP.bind_writable(this, key', object', property', inverted')

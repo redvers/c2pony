@@ -1,2 +1,0 @@
-  fun ref list_action_descriptions(): Pointer[Pointer[U8]] tag =>
-    GtkApplicationP.list_action_descriptions(this)

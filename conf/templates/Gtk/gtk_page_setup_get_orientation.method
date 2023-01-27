@@ -1,2 +1,0 @@
-  fun ref get_orientation(): U32 =>
-    GtkPageSetupP.get_orientation(this)

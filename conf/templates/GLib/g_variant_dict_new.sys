@@ -1,2 +1,0 @@
-  fun new(from_asv': GVariant): GVariantDict =>
-    @g_variant_dict_new(from_asv')

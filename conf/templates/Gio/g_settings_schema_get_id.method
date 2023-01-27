@@ -1,2 +1,0 @@
-  fun ref get_id(): String iso^ =>
-    GSettingsSchemaP.get_id(this)

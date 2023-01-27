@@ -1,1 +1,0 @@
-use @g_thread_pool_free[None](pool': GThreadPool, immediate': I32, wait': I32)

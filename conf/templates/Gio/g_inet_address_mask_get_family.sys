@@ -1,2 +1,0 @@
-  fun get_family(mask': GInetAddressMask): U32 =>
-    @g_inet_address_mask_get_family(mask')

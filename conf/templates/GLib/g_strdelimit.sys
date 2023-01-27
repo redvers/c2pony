@@ -1,2 +1,0 @@
-  fun strdelimit(string': String, delimiters': String, new_delimiter': U8): String iso^ =>
-    String.from_cstring(@g_strdelimit(string'.cstring(), delimiters'.cstring(), new_delimiter')).clone()

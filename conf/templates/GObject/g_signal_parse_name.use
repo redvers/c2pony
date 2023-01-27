@@ -1,1 +1,0 @@
-use @g_signal_parse_name[I32](detailed_signal': Pointer[U8] tag, itype': U64, signal_id_p': Pointer[U32] tag, detail_p': Pointer[U32] tag, force_detail_quark': I32)

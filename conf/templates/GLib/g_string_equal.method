@@ -1,2 +1,0 @@
-  fun ref equal(v2': GString): I32 =>
-    GStringP.equal(this, v2')

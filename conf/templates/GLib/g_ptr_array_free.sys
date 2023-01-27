@@ -1,2 +1,0 @@
-  fun free(array': GPtrArray, free_seg': I32): Pointer[Pointer[None]] tag =>
-    @g_ptr_array_free(array', free_seg')

@@ -1,1 +1,0 @@
-use @g_content_type_from_mime_type[Pointer[U8]](mime_type': Pointer[U8] tag)

@@ -1,2 +1,0 @@
-  fun intern_static_string(string': String): String iso^ =>
-    String.from_cstring(@g_intern_static_string(string'.cstring())).clone()

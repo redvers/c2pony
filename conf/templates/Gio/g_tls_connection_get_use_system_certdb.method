@@ -1,2 +1,0 @@
-  fun ref get_use_system_certdb(): I32 =>
-    GTlsConnectionP.get_use_system_certdb(this)

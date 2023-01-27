@@ -1,2 +1,0 @@
-  fun set_boolean(value': GValue, v_boolean': I32): None =>
-    @g_value_set_boolean(value', v_boolean')

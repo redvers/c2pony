@@ -1,2 +1,0 @@
-  fun get_row_spacing(grid': GtkGridLayout): U32 =>
-    @gtk_grid_layout_get_row_spacing(grid')

@@ -1,2 +1,0 @@
-  fun printf(string': GString, format': String, ...): None =>
-    @g_string_printf(string', format'.cstring(), ...)

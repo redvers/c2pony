@@ -1,1 +1,0 @@
-use @g_bookmark_file_get_size[I32](bookmark': GBookmarkFile)

@@ -1,2 +1,0 @@
-  fun get_homogeneous(box': GtkBox): I32 =>
-    @gtk_box_get_homogeneous(box')

@@ -1,2 +1,0 @@
-  fun idle_add_full(priority': I32, function': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify): U32 =>
-    @g_idle_add_full(priority', function', data', notify')

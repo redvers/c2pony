@@ -1,1 +1,0 @@
-use @gtk_text_iter_forward_char[I32](iter': GtkTextIter)

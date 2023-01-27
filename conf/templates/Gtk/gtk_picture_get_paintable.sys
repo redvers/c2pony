@@ -1,2 +1,0 @@
-  fun get_paintable(self': GtkPicture): GdkPaintable =>
-    @gtk_picture_get_paintable(self')

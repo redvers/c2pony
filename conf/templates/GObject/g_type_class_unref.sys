@@ -1,2 +1,0 @@
-  fun unref(g_class': Pointer[None] tag): None =>
-    @g_type_class_unref(g_class')

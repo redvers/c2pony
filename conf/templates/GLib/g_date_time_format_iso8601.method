@@ -1,2 +1,0 @@
-  fun ref format_iso8601(): String iso^ =>
-    GDateTimeP.format_iso8601(this)

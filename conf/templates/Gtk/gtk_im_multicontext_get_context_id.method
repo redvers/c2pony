@@ -1,2 +1,0 @@
-  fun ref get_context_id(): String iso^ =>
-    GtkIMMulticontextP.get_context_id(this)

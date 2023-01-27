@@ -1,2 +1,0 @@
-  fun ref get_element(): String iso^ =>
-    GMarkupParseContextP.get_element(this)

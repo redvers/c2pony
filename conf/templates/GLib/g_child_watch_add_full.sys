@@ -1,2 +1,0 @@
-  fun child_watch_add_full(priority': I32, pid': I32, function': GChildWatchFunc, data': Pointer[None] tag, notify': GDestroyNotify): U32 =>
-    @g_child_watch_add_full(priority', pid', function', data', notify')

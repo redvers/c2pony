@@ -1,2 +1,0 @@
-  fun forward(controller': GtkEventControllerKey, widget': GtkWidgetI): I32 =>
-    @gtk_event_controller_key_forward(controller', widget'.getptr())

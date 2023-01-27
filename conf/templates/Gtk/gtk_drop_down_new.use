@@ -1,1 +1,0 @@
-use @gtk_drop_down_new[Pointer[GObjectP]](model': GListModel, expression': GtkExpression)

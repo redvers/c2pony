@@ -1,2 +1,0 @@
-  fun get_model(self': GtkFilterListModel): GListModel =>
-    @gtk_filter_list_model_get_model(self')

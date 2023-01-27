@@ -1,2 +1,0 @@
-  fun set_default_widget(window': GtkWindowI, default_widget': GtkWidgetI): None =>
-    @gtk_window_set_default_widget(window'.getptr(), default_widget'.getptr())

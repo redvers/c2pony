@@ -1,1 +1,0 @@
-use @g_variant_get_uint64[U64](value': GVariant)

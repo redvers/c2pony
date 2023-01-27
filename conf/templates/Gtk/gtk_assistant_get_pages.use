@@ -1,1 +1,0 @@
-use @gtk_assistant_get_pages[GListModel](assistant': GtkAssistant)

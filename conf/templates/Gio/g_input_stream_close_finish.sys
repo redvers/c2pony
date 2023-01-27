@@ -1,2 +1,0 @@
-  fun close_finish(stream': GInputStream, result': GAsyncResult, error': GError): I32 =>
-    @g_input_stream_close_finish(stream', result', addressof error'.ptr)

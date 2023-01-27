@@ -1,2 +1,0 @@
-  fun ref get_icon_size(): U32 =>
-    GtkImageP.get_icon_size(this)

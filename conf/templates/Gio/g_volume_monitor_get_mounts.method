@@ -1,2 +1,0 @@
-  fun ref get_mounts(): GList =>
-    GVolumeMonitorP.get_mounts(this)

@@ -1,2 +1,0 @@
-  fun get_accept_label(self': GtkFileChooserNative): String iso^ =>
-    String.from_cstring(@gtk_file_chooser_native_get_accept_label(self')).clone()

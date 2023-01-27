@@ -1,1 +1,0 @@
-use @gtk_tree_view_row_activated[None](tree_view': GtkTreeView, path': GtkTreePath, column': GtkTreeViewColumn)

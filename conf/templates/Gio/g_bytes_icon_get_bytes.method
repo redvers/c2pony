@@ -1,2 +1,0 @@
-  fun ref get_bytes(): GBytes =>
-    GBytesIconP.get_bytes(this)

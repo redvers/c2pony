@@ -1,2 +1,0 @@
-  fun is_active(server': GDBusServer): I32 =>
-    @g_dbus_server_is_active(server')

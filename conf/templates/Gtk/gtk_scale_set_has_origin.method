@@ -1,2 +1,0 @@
-  fun ref set_has_origin(has_origin': I32): None =>
-    GtkScaleP.set_has_origin(this, has_origin')

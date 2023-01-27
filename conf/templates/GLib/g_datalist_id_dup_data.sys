@@ -1,2 +1,0 @@
-  fun datalist_id_dup_data(datalist': Pointer[GData], key_id': U32, dup_func': GDuplicateFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
-    @g_datalist_id_dup_data(datalist', key_id', dup_func', user_data')

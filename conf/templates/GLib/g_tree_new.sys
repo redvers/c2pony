@@ -1,2 +1,0 @@
-  fun new(key_compare_func': GCompareFunc): GTree =>
-    @g_tree_new(key_compare_func')

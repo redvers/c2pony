@@ -1,2 +1,0 @@
-  fun continue(timer': GTimer): None =>
-    @g_timer_continue(timer')

@@ -1,1 +1,0 @@
-use @g_main_context_remove_poll[None](context': GMainContext, fd': GPollFD)

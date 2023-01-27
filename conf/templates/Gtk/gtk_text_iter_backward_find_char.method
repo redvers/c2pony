@@ -1,2 +1,0 @@
-  fun ref backward_find_char(pred': GtkTextCharPredicate, user_data': Pointer[None] tag, limit': GtkTextIter): I32 =>
-    GtkTextIterP.backward_find_char(this, pred', user_data', limit')

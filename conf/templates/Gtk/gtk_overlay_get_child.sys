@@ -1,2 +1,0 @@
-  fun get_child(overlay': GtkOverlay): Pointer[GObjectP] =>
-@gtk_overlay_get_child(overlay')

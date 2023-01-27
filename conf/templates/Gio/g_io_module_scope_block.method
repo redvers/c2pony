@@ -1,2 +1,0 @@
-  fun ref block(basename': String): None =>
-    GIOModuleScopeP.block(this, basename')

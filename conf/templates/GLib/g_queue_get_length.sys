@@ -1,2 +1,0 @@
-  fun get_length(queue': GQueue): U32 =>
-    @g_queue_get_length(queue')

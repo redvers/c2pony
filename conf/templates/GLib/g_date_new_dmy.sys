@@ -1,2 +1,0 @@
-  fun new_dmy(day': U8, month': U32, year': U16): GDate =>
-    @g_date_new_dmy(day', month', year')

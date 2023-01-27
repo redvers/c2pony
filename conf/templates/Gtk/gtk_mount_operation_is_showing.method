@@ -1,2 +1,0 @@
-  fun ref is_showing(): I32 =>
-    GtkMountOperationP.is_showing(this)

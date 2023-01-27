@@ -1,2 +1,0 @@
-  fun ref get_grid_lines(): U32 =>
-    GtkTreeViewP.get_grid_lines(this)

@@ -1,2 +1,0 @@
-  fun columns_autosize(tree_view': GtkTreeView): None =>
-    @gtk_tree_view_columns_autosize(tree_view')

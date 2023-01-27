@@ -1,2 +1,0 @@
-  fun ref get_comments(): String iso^ =>
-    GtkAboutDialogP.get_comments(this)

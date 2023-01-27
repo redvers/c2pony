@@ -1,2 +1,0 @@
-  fun check(context': GMainContext, max_priority': I32, fds': GPollFD, n_fds': I32): I32 =>
-    @g_main_context_check(context', max_priority', fds', n_fds')

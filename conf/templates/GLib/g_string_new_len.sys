@@ -1,2 +1,0 @@
-  fun string_new_len(init': String, len': I64): GString =>
-    @g_string_new_len(init'.cstring(), len')

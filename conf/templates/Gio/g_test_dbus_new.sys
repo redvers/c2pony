@@ -1,2 +1,0 @@
-  fun new(flags': U32): GTestDBus =>
-    @g_test_dbus_new(flags')

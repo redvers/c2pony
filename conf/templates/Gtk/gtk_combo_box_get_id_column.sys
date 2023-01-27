@@ -1,2 +1,0 @@
-  fun get_id_column(combo_box': GtkComboBox): I32 =>
-    @gtk_combo_box_get_id_column(combo_box')

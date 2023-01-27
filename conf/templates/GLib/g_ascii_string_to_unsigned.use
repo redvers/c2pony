@@ -1,1 +1,0 @@
-use @g_ascii_string_to_unsigned[I32](str': Pointer[U8] tag, base': U32, min': U64, max': U64, out_num': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]])

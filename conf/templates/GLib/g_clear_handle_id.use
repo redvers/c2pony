@@ -1,1 +1,0 @@
-use @g_clear_handle_id[None](tag_ptr': Pointer[U32] tag, clear_func': GClearHandleFunc)

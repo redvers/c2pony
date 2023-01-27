@@ -1,2 +1,0 @@
-  fun communicate(subprocess': GSubprocess, stdin_buf': GBytes, cancellable': GCancellable, stdout_buf': Pointer[GBytes], stderr_buf': Pointer[GBytes], error': GError): I32 =>
-    @g_subprocess_communicate(subprocess', stdin_buf', cancellable', stdout_buf', stderr_buf', addressof error'.ptr)

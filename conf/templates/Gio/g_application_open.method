@@ -1,2 +1,0 @@
-  fun ref open(files': Pointer[GFile], n_files': I32, hint': String): None =>
-    GApplicationP.open(this, files', n_files', hint')

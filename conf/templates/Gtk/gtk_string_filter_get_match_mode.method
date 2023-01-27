@@ -1,2 +1,0 @@
-  fun ref get_match_mode(): U32 =>
-    GtkStringFilterP.get_match_mode(this)

@@ -1,2 +1,0 @@
-  fun ref get_font_map(): PangoFontMap =>
-    GtkWidgetP.get_font_map(this)

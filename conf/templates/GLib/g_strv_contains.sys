@@ -1,2 +1,0 @@
-  fun strv_contains(strv': Pointer[Pointer[U8]] tag, str': String): I32 =>
-    @g_strv_contains(strv', str'.cstring())

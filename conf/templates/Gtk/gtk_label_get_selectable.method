@@ -1,2 +1,0 @@
-  fun ref get_selectable(): I32 =>
-    GtkLabelP.get_selectable(this)

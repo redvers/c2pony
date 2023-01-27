@@ -1,2 +1,0 @@
-  fun ref get_family(): U32 =>
-    GSocketP.get_family(this)

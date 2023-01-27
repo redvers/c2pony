@@ -1,2 +1,0 @@
-  fun snprintf(string': String, n': U64, format': String, ...): I32 =>
-    @g_snprintf(string'.cstring(), n', format'.cstring(), ...)

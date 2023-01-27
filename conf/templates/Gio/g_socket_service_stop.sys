@@ -1,2 +1,0 @@
-  fun stop(service': GSocketService): None =>
-    @g_socket_service_stop(service')

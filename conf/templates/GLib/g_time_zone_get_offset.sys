@@ -1,2 +1,0 @@
-  fun get_offset(tz': GTimeZone, interval': I32): I32 =>
-    @g_time_zone_get_offset(tz', interval')

@@ -1,2 +1,0 @@
-  fun next_page(assistant': GtkAssistant): None =>
-    @gtk_assistant_next_page(assistant')

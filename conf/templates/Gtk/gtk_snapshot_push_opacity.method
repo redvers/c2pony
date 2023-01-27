@@ -1,2 +1,0 @@
-  fun ref push_opacity(opacity': F64): None =>
-    P.push_opacity(this, opacity')

@@ -1,2 +1,0 @@
-  fun read_all_finish(stream': GInputStream, result': GAsyncResult, bytes_read': Pointer[U64] tag, error': GError): I32 =>
-    @g_input_stream_read_all_finish(stream', result', bytes_read', addressof error'.ptr)

@@ -1,9 +1,0 @@
-
-use "lib:glib-2.0"
-
-class GMappedFile
-  var ptr: NullablePointer[GMappedFileT]
-
-  new create() =>
-    ptr = NullablePointer[GMappedFileT].none()
-  new create_from_ptr(ptr': NullablePointer[GMappedFileT]) => ptr = ptr'

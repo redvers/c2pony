@@ -1,1 +1,0 @@
-use @g_ref_string_length[U64](str': Pointer[U8] tag)

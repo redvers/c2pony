@@ -1,1 +1,0 @@
-use @gtk_combo_box_set_active_id[I32](combo_box': GtkComboBox, active_id': Pointer[U8] tag)

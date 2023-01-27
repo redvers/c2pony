@@ -1,2 +1,0 @@
-  fun signal_stop_emission_by_name(instance': Pointer[None] tag, detailed_signal': String): None =>
-    @g_signal_stop_emission_by_name(instance', detailed_signal'.cstring())

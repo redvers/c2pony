@@ -1,2 +1,0 @@
-  fun nth_data(list': GList, n': U32): Pointer[None] tag =>
-    @g_list_nth_data(list', n')

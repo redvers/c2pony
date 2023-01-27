@@ -1,2 +1,0 @@
-  fun ref set_focusable(focusable': I32): None =>
-    GtkWidgetP.set_focusable(this, focusable')

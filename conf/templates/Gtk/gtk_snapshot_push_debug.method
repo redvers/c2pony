@@ -1,2 +1,0 @@
-  fun ref push_debug(message': String, ...): None =>
-    P.push_debug(this, message', ...)

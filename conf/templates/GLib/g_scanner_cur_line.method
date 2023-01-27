@@ -1,2 +1,0 @@
-  fun ref cur_line(): U32 =>
-    GScannerP.cur_line(this)

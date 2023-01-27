@@ -1,2 +1,0 @@
-  fun remove_range(array': GByteArray, index': U32, length': U32): GByteArray =>
-    @g_byte_array_remove_range(array', index', length')

@@ -1,2 +1,0 @@
-  fun rc_box_get_size(mem_block': Pointer[None] tag): U64 =>
-    @g_rc_box_get_size(mem_block')

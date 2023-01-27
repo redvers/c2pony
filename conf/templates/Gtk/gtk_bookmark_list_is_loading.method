@@ -1,2 +1,0 @@
-  fun ref is_loading(): I32 =>
-    GtkBookmarkListP.is_loading(this)

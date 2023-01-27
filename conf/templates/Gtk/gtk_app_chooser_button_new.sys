@@ -1,2 +1,0 @@
-  fun new(content_type': String): Pointer[GObjectP] =>
-@gtk_app_chooser_button_new(content_type'.cstring())

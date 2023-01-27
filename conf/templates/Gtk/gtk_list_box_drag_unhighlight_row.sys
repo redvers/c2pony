@@ -1,2 +1,0 @@
-  fun drag_unhighlight_row(box': GtkListBox): None =>
-    @gtk_list_box_drag_unhighlight_row(box')

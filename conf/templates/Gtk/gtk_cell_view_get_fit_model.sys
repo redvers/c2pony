@@ -1,2 +1,0 @@
-  fun get_fit_model(cell_view': GtkCellView): I32 =>
-    @gtk_cell_view_get_fit_model(cell_view')

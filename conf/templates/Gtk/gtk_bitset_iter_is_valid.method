@@ -1,2 +1,0 @@
-  fun ref is_valid(): I32 =>
-    GtkBitsetIterP.is_valid(this)

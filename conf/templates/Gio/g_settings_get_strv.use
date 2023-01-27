@@ -1,1 +1,0 @@
-use @g_settings_get_strv[Pointer[Pointer[U8]] tag](settings': GSettings, key': Pointer[U8] tag)

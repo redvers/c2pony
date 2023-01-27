@@ -1,2 +1,0 @@
-  fun unichar_validate(ch': U32): I32 =>
-    @g_unichar_validate(ch')

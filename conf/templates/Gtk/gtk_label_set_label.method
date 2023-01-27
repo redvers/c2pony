@@ -1,2 +1,0 @@
-  fun ref set_label(str': String): None =>
-    GtkLabelP.set_label(this, str')

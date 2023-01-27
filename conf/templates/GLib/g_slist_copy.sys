@@ -1,2 +1,0 @@
-  fun copy(list': GSList): GSList =>
-    @g_slist_copy(list')

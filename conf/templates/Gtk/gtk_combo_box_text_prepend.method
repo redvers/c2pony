@@ -1,2 +1,0 @@
-  fun ref prepend(id': String, text': String): None =>
-    GtkComboBoxTextP.prepend(this, id', text')

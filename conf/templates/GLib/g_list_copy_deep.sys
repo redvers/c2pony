@@ -1,2 +1,0 @@
-  fun copy_deep(list': GList, func': GCopyFunc, user_data': Pointer[None] tag): GList =>
-    @g_list_copy_deep(list', func', user_data')

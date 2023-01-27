@@ -1,2 +1,0 @@
-  fun ref_string_release(str': String): None =>
-    @g_ref_string_release(str'.cstring())

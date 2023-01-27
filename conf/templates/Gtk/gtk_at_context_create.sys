@@ -1,2 +1,0 @@
-  fun create(accessible_role': U32, accessible': GtkAccessible, display': GdkDisplay): GtkATContext =>
-    @gtk_at_context_create(accessible_role', accessible', display')

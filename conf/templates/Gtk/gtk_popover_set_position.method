@@ -1,2 +1,0 @@
-  fun ref set_position(position': U32): None =>
-    GtkPopoverP.set_position(this, position')

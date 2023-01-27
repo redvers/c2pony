@@ -1,2 +1,0 @@
-  fun test_bug(bug_uri_snippet': String): None =>
-    @g_test_bug(bug_uri_snippet'.cstring())

@@ -1,2 +1,0 @@
-  fun ref set_step_increment(step_increment': F64): None =>
-    GtkAdjustmentP.set_step_increment(this, step_increment')

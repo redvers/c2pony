@@ -1,2 +1,0 @@
-  fun set_label(self': GtkCheckButton, label': String): None =>
-    @gtk_check_button_set_label(self', label'.cstring())

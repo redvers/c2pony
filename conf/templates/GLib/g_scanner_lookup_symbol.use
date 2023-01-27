@@ -1,1 +1,0 @@
-use @g_scanner_lookup_symbol[Pointer[None] tag](scanner': GScanner, symbol': Pointer[U8] tag)

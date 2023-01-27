@@ -1,2 +1,0 @@
-  fun type_from_name(name': String): U64 =>
-    @g_type_from_name(name'.cstring())

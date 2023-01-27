@@ -1,2 +1,0 @@
-  fun new_from_timeval_utc(tv': GTimeVal): GDateTime =>
-    @g_date_time_new_from_timeval_utc(tv')

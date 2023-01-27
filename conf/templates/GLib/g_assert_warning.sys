@@ -1,2 +1,0 @@
-  fun assert_warning(log_domain': String, file': String, line': I32, pretty_function': String, expression': String): None =>
-    @g_assert_warning(log_domain'.cstring(), file'.cstring(), line', pretty_function'.cstring(), expression'.cstring())

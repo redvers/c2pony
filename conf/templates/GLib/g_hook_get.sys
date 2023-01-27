@@ -1,2 +1,0 @@
-  fun get(hook_list': GHookList, hook_id': U64): GHook =>
-    @g_hook_get(hook_list', hook_id')

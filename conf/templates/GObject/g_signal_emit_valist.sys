@@ -1,2 +1,0 @@
-  fun signal_emit_valist(instance': Pointer[None] tag, signal_id': U32, detail': U32, var_args': valisttag): None =>
-    @g_signal_emit_valist(instance', signal_id', detail', var_args')

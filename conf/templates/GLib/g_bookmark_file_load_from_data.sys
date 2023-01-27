@@ -1,2 +1,0 @@
-  fun load_from_data(bookmark': GBookmarkFile, data': String, length': U64, error': GError): I32 =>
-    @g_bookmark_file_load_from_data(bookmark', data'.cstring(), length', addressof error'.ptr)

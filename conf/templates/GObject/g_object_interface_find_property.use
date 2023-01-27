@@ -1,1 +1,0 @@
-use @g_object_interface_find_property[GParamSpec](g_iface': Pointer[None] tag, property_name': Pointer[U8] tag)

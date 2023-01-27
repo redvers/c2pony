@@ -1,2 +1,0 @@
-  fun new_local(): GTimeZone =>
-    @g_time_zone_new_local()

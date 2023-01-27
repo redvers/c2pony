@@ -1,2 +1,0 @@
-  fun get_link(menu_item': GMenuItem, link': String): GMenuModel =>
-    @g_menu_item_get_link(menu_item', link'.cstring())

@@ -1,2 +1,0 @@
-  fun ref set_authors(authors': Pointer[Pointer[U8]] tag): None =>
-    GtkAboutDialogP.set_authors(this, authors')

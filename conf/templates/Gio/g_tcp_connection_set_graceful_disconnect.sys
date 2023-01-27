@@ -1,2 +1,0 @@
-  fun set_graceful_disconnect(connection': GTcpConnection, graceful_disconnect': I32): None =>
-    @g_tcp_connection_set_graceful_disconnect(connection', graceful_disconnect')

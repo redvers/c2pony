@@ -1,2 +1,0 @@
-  fun get_strv(settings': GSettings, key': String): Pointer[Pointer[U8]] tag =>
-    @g_settings_get_strv(settings', key'.cstring())

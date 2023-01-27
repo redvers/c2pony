@@ -1,1 +1,0 @@
-use @gtk_calendar_set_show_day_names[None](self': GtkCalendar, value': I32)

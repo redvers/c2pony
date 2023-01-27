@@ -1,2 +1,0 @@
-  fun export_menu_model(connection': GDBusConnection, object_path': String, menu': GMenuModel, error': GError): U32 =>
-    @g_dbus_connection_export_menu_model(connection', object_path'.cstring(), menu', addressof error'.ptr)

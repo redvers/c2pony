@@ -1,2 +1,0 @@
-  fun ref get_tab_reorderable(child': GtkWidgetI): I32 =>
-    GtkNotebookP.get_tab_reorderable(this, child')

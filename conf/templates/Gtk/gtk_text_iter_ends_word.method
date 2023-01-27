@@ -1,2 +1,0 @@
-  fun ref ends_word(): I32 =>
-    GtkTextIterP.ends_word(this)

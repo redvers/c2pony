@@ -1,2 +1,0 @@
-  fun lock(message': GDBusMessage): None =>
-    @g_dbus_message_lock(message')

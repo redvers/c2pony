@@ -1,2 +1,0 @@
-  fun yield(): None =>
-    @g_thread_yield()

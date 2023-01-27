@@ -1,2 +1,0 @@
-  fun ref get_focus_on_click(): I32 =>
-    GtkWidgetP.get_focus_on_click(this)

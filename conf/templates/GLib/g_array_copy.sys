@@ -1,2 +1,0 @@
-  fun copy(array': GArray): GArray =>
-    @g_array_copy(array')

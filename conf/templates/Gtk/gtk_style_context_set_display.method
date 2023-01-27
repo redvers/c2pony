@@ -1,2 +1,0 @@
-  fun ref set_display(display': GdkDisplay): None =>
-    GtkStyleContextP.set_display(this, display')

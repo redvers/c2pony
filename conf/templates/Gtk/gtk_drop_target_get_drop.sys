@@ -1,2 +1,0 @@
-  fun get_drop(self': GtkDropTarget): GdkDrop =>
-    @gtk_drop_target_get_drop(self')

@@ -1,2 +1,0 @@
-  fun ref get_root(): GNode =>
-    GNodeP.get_root(this)

@@ -1,2 +1,0 @@
-  fun new(): GtkPrintSettings =>
-    @gtk_print_settings_new()

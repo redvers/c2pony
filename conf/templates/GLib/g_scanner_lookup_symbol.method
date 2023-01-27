@@ -1,2 +1,0 @@
-  fun ref lookup_symbol(symbol': String): Pointer[None] tag =>
-    GScannerP.lookup_symbol(this, symbol')

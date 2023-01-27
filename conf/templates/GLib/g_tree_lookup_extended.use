@@ -1,1 +1,0 @@
-use @g_tree_lookup_extended[I32](tree': GTree, lookup_key': Pointer[None] tag, orig_key': Pointer[Pointer[None]] tag, value': Pointer[Pointer[None]] tag)

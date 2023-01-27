@@ -1,2 +1,0 @@
-  fun signal_override_class_handler(signal_name': String, instance_type': U64, class_handler': GCallback): None =>
-    @g_signal_override_class_handler(signal_name'.cstring(), instance_type', class_handler')

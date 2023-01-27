@@ -1,2 +1,0 @@
-  fun ref get_nth(nth': U32): U32 =>
-    GtkBitsetP.get_nth(this, nth')

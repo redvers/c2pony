@@ -1,1 +1,0 @@
-use @gtk_widget_remove_tick_callback[None](widget': Pointer[GObjectP], id': U32)

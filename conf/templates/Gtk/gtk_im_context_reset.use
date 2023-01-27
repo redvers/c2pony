@@ -1,1 +1,0 @@
-use @gtk_im_context_reset[None](context': GtkIMContext)

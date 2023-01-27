@@ -1,2 +1,0 @@
-  fun ref get_active_iter(iter': GtkTreeIter): I32 =>
-    GtkComboBoxP.get_active_iter(this, iter')

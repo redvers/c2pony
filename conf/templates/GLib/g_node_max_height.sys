@@ -1,2 +1,0 @@
-  fun max_height(root': GNode): U32 =>
-    @g_node_max_height(root')

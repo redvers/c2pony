@@ -1,2 +1,0 @@
-  fun ref set_state(state': I32): None =>
-    GtkSwitchP.set_state(this, state')

@@ -1,2 +1,0 @@
-  fun new(model': GtkSelectionModel): GtkSelectionFilterModel =>
-    @gtk_selection_filter_model_new(model')

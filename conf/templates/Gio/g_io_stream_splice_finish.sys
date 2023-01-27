@@ -1,2 +1,0 @@
-  fun splice_finish(result': GAsyncResult, error': GError): I32 =>
-    @g_io_stream_splice_finish(result', addressof error'.ptr)

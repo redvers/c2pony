@@ -1,2 +1,0 @@
-  fun ref get_columns(): GList =>
-    GtkTreeViewP.get_columns(this)

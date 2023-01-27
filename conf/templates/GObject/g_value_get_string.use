@@ -1,1 +1,0 @@
-use @g_value_get_string[Pointer[U8]](value': GValue)

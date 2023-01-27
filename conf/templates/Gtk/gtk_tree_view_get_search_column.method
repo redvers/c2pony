@@ -1,2 +1,0 @@
-  fun ref get_search_column(): I32 =>
-    GtkTreeViewP.get_search_column(this)

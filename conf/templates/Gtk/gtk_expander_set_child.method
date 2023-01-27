@@ -1,2 +1,0 @@
-  fun ref set_child(child': GtkWidgetI): None =>
-    GtkExpanderP.set_child(this, child')

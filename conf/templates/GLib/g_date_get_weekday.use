@@ -1,1 +1,0 @@
-use @g_date_get_weekday[U32](date': GDate)

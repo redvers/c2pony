@@ -1,1 +1,0 @@
-use @g_match_info_fetch_pos[I32](match_info': GMatchInfo, match_num': I32, start_pos': Pointer[I32] tag, end_pos': Pointer[I32] tag)

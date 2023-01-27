@@ -1,2 +1,0 @@
-  fun ref set_broadcast(broadcast': I32): None =>
-    GSocketP.set_broadcast(this, broadcast')

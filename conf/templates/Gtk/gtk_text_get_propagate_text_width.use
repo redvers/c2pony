@@ -1,1 +1,0 @@
-use @gtk_text_get_propagate_text_width[I32](self': GtkText)

@@ -1,2 +1,0 @@
-  fun new(): GDBusMessage =>
-    @g_dbus_message_new()

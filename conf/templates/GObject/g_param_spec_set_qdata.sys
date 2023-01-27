@@ -1,2 +1,0 @@
-  fun set_qdata(pspec': GParamSpec, quark': U32, data': Pointer[None] tag): None =>
-    @g_param_spec_set_qdata(pspec', quark', data')

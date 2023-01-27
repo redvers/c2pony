@@ -1,2 +1,0 @@
-  fun reset(cancellable': GCancellable): None =>
-    @g_cancellable_reset(cancellable')

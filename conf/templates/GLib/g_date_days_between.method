@@ -1,2 +1,0 @@
-  fun ref days_between(date2': GDate): I32 =>
-    GDateP.days_between(this, date2')

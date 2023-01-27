@@ -1,2 +1,0 @@
-  fun ref add_entries(entries': GOptionEntry): None =>
-    GOptionGroupP.add_entries(this, entries')

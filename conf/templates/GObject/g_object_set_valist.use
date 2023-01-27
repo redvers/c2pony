@@ -1,1 +1,0 @@
-use @g_object_set_valist[None](object': Pointer[GObjectP], first_property_name': Pointer[U8] tag, var_args': valisttag)

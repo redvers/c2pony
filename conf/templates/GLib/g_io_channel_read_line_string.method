@@ -1,2 +1,0 @@
-  fun ref read_line_string(buffer': GString, terminator_pos': Pointer[U64] tag, error': GError): U32 =>
-    GIOChannelP.read_line_string(this, buffer', terminator_pos', error')

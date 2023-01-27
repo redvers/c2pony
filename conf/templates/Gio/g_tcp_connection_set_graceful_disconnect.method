@@ -1,2 +1,0 @@
-  fun ref set_graceful_disconnect(graceful_disconnect': I32): None =>
-    GTcpConnectionP.set_graceful_disconnect(this, graceful_disconnect')

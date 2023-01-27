@@ -1,5 +1,0 @@
-
-use "lib:glib-2.0"
-struct GOnceT
-  var status': U32 = U32(0)
-  var retval': Pointer[None] = Pointer[None]

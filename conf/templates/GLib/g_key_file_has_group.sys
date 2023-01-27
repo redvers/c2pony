@@ -1,2 +1,0 @@
-  fun has_group(key_file': GKeyFile, group_name': String): I32 =>
-    @g_key_file_has_group(key_file', group_name'.cstring())

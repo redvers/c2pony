@@ -1,2 +1,0 @@
-  fun set_double(settings': GtkPrintSettings, key': String, value': F64): None =>
-    @gtk_print_settings_set_double(settings', key'.cstring(), value')

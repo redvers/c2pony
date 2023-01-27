@@ -1,2 +1,0 @@
-  fun install_properties(oclass': GObjectClass, n_pspecs': U32, pspecs': Pointer[GParamSpec]): None =>
-    @g_object_class_install_properties(oclass', n_pspecs', pspecs')

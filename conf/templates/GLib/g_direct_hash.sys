@@ -1,2 +1,0 @@
-  fun direct_hash(v': Pointer[None] tag): U32 =>
-    @g_direct_hash(v')

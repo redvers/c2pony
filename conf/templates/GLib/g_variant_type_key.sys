@@ -1,2 +1,0 @@
-  fun key(type': GVariantType): GVariantType =>
-    @g_variant_type_key(type')

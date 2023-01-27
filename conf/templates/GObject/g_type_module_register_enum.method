@@ -1,2 +1,0 @@
-  fun ref register_enum(name': String, const_static_values': GEnumValue): U64 =>
-    GTypeModuleP.register_enum(this, name', const_static_values')

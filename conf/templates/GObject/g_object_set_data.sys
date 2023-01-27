@@ -1,3 +1,0 @@
-
-  fun set_data[A: Any](gobj0: GObjectI, sig: String, data: A) =>
-    @g_object_set_data(gobj0.getptr(), sig.cstring(), data)

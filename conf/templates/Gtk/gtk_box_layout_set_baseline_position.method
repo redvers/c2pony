@@ -1,2 +1,0 @@
-  fun ref set_baseline_position(position': U32): None =>
-    GtkBoxLayoutP.set_baseline_position(this, position')

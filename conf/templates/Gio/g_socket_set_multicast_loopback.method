@@ -1,2 +1,0 @@
-  fun ref set_multicast_loopback(loopback': I32): None =>
-    GSocketP.set_multicast_loopback(this, loopback')

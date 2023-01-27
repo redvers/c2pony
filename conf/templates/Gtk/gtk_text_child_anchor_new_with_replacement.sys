@@ -1,2 +1,0 @@
-  fun new_with_replacement(character': String): GtkTextChildAnchor =>
-    @gtk_text_child_anchor_new_with_replacement(character'.cstring())

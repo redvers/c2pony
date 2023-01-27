@@ -1,2 +1,0 @@
-  fun present(popover': GtkPopover): None =>
-    @gtk_popover_present(popover')

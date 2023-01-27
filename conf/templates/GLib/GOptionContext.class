@@ -1,9 +1,0 @@
-
-use "lib:glib-2.0"
-
-class GOptionContext
-  var ptr: NullablePointer[GOptionContextT]
-
-  new create() =>
-    ptr = NullablePointer[GOptionContextT].none()
-  new create_from_ptr(ptr': NullablePointer[GOptionContextT]) => ptr = ptr'

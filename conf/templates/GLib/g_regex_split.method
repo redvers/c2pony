@@ -1,2 +1,0 @@
-  fun ref split(string': String, match_options': U32): Pointer[Pointer[U8]] tag =>
-    GRegexP.split(this, string', match_options')

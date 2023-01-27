@@ -1,2 +1,0 @@
-  fun ref get_visibility(): I32 =>
-    GtkTextP.get_visibility(this)

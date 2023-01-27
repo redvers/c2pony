@@ -1,2 +1,0 @@
-  fun init(builder': GVariantBuilder, type': GVariantType): None =>
-    @g_variant_builder_init(builder', type')

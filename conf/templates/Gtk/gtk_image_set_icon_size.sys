@@ -1,2 +1,0 @@
-  fun set_icon_size(image': GtkImage, icon_size': U32): None =>
-    @gtk_image_set_icon_size(image', icon_size')

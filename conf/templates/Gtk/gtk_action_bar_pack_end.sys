@@ -1,2 +1,0 @@
-  fun pack_end(action_bar': GtkActionBar, child': GtkWidgetI): None =>
-    @gtk_action_bar_pack_end(action_bar', child'.getptr())

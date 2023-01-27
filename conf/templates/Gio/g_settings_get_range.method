@@ -1,2 +1,0 @@
-  fun ref get_range(key': String): GVariant =>
-    GSettingsP.get_range(this, key')

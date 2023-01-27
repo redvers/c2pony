@@ -1,2 +1,0 @@
-  fun set_scope(scanner': GScanner, scope_id': U32): U32 =>
-    @g_scanner_set_scope(scanner', scope_id')

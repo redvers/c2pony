@@ -1,2 +1,0 @@
-  fun test_list_all_types(n_types': Pointer[U32] tag): Pointer[U64] tag =>
-    @gtk_test_list_all_types(n_types')

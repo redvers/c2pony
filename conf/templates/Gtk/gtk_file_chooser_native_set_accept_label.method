@@ -1,2 +1,0 @@
-  fun ref set_accept_label(accept_label': String): None =>
-    GtkFileChooserNativeP.set_accept_label(this, accept_label')

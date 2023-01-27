@@ -1,2 +1,0 @@
-  fun add_full(datetime': GDateTime, years': I32, months': I32, days': I32, hours': I32, minutes': I32, seconds': F64): GDateTime =>
-    @g_date_time_add_full(datetime', years', months', days', hours', minutes', seconds')

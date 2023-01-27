@@ -1,2 +1,0 @@
-  fun ref path_is_selected(path': GtkTreePath): I32 =>
-    GtkIconViewP.path_is_selected(this, path')

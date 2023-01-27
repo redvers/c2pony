@@ -1,2 +1,0 @@
-  fun utf8_to_ucs4_fast(str': String, len': I64, items_written': Pointer[I64] tag): Pointer[U32] tag =>
-    @g_utf8_to_ucs4_fast(str'.cstring(), len', items_written')

@@ -1,2 +1,0 @@
-  fun ref get_qdata(quark': U32): Pointer[None] tag =>
-    GObjectP.get_qdata(this, quark')

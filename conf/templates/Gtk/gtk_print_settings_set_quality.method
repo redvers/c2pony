@@ -1,2 +1,0 @@
-  fun ref set_quality(quality': U32): None =>
-    GtkPrintSettingsP.set_quality(this, quality')

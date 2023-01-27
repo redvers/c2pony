@@ -1,2 +1,0 @@
-  fun set_sort_func(box': GtkFlowBox, sort_func': GtkFlowBoxSortFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    @gtk_flow_box_set_sort_func(box', sort_func', user_data', destroy')

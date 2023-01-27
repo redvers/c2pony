@@ -1,2 +1,0 @@
-  fun ref get_address(): GInetAddress =>
-    GInetAddressMaskP.get_address(this)

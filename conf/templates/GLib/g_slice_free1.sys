@@ -1,2 +1,0 @@
-  fun slice_free1(block_size': U64, mem_block': Pointer[None] tag): None =>
-    @g_slice_free1(block_size', mem_block')

@@ -1,2 +1,0 @@
-  fun new_method_error_valist(method_call_message': GDBusMessage, error_name': String, error_message_format': String, var_args': valisttag): GDBusMessage =>
-    @g_dbus_message_new_method_error_valist(method_call_message', error_name'.cstring(), error_message_format'.cstring(), var_args')

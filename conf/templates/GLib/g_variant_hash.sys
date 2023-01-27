@@ -1,2 +1,0 @@
-  fun hash(value': Pointer[None] tag): U32 =>
-    @g_variant_hash(value')

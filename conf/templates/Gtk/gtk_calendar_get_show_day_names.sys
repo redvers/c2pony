@@ -1,2 +1,0 @@
-  fun get_show_day_names(self': GtkCalendar): I32 =>
-    @gtk_calendar_get_show_day_names(self')

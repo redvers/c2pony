@@ -1,2 +1,0 @@
-  fun remove(table': GtkTextTagTable, tag': GtkTextTag): None =>
-    @gtk_text_tag_table_remove(table', tag')

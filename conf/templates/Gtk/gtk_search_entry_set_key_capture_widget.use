@@ -1,1 +1,0 @@
-use @gtk_search_entry_set_key_capture_widget[None](entry': GtkSearchEntry, widget': Pointer[GObjectP])

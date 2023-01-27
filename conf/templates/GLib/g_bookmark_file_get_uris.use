@@ -1,1 +1,0 @@
-use @g_bookmark_file_get_uris[Pointer[Pointer[U8]] tag](bookmark': GBookmarkFile, length': Pointer[U64] tag)

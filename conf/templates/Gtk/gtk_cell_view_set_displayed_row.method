@@ -1,2 +1,0 @@
-  fun ref set_displayed_row(path': GtkTreePath): None =>
-    GtkCellViewP.set_displayed_row(this, path')

@@ -1,2 +1,0 @@
-  fun get_source_property(binding': GBinding): String iso^ =>
-    String.from_cstring(@g_binding_get_source_property(binding')).clone()

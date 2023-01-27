@@ -1,2 +1,0 @@
-  fun get_protocol(srv': GNetworkService): String iso^ =>
-    String.from_cstring(@g_network_service_get_protocol(srv')).clone()

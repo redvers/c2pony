@@ -1,2 +1,0 @@
-  fun set_sender(message': GDBusMessage, value': String): None =>
-    @g_dbus_message_set_sender(message', value'.cstring())

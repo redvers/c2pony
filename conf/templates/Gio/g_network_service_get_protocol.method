@@ -1,2 +1,0 @@
-  fun ref get_protocol(): String iso^ =>
-    GNetworkServiceP.get_protocol(this)

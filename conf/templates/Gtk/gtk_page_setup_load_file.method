@@ -1,2 +1,0 @@
-  fun ref load_file(file_name': String, error': GError): I32 =>
-    GtkPageSetupP.load_file(this, file_name', error')

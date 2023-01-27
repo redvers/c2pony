@@ -1,2 +1,0 @@
-  fun ref next(): GSequenceNode =>
-    GSequenceIterP.next(this)

@@ -1,2 +1,0 @@
-  fun close(dir': GDir): None =>
-    @g_dir_close(dir')

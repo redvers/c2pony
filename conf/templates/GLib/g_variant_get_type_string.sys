@@ -1,2 +1,0 @@
-  fun get_type_string(value': GVariant): String iso^ =>
-    String.from_cstring(@g_variant_get_type_string(value')).clone()

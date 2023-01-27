@@ -1,2 +1,0 @@
-  fun ref set_formats(formats': GdkContentFormats): None =>
-    GtkDropTargetAsyncP.set_formats(this, formats')

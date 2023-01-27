@@ -1,2 +1,0 @@
-  fun set_value(range': GtkRange, value': F64): None =>
-    @gtk_range_set_value(range', value')

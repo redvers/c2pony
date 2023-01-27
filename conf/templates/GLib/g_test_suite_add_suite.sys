@@ -1,2 +1,0 @@
-  fun add_suite(suite': GTestSuite, nestedsuite': GTestSuite): None =>
-    @g_test_suite_add_suite(suite', nestedsuite')

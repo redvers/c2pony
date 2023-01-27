@@ -1,2 +1,0 @@
-  fun set_application_id(application': GApplicationI, application_id': String): None =>
-    @g_application_set_application_id(application'.getptr(), application_id'.cstring())

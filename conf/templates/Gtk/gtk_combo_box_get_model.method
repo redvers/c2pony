@@ -1,2 +1,0 @@
-  fun ref get_model(): GtkTreeModel =>
-    GtkComboBoxP.get_model(this)

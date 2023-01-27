@@ -1,2 +1,0 @@
-  fun ref get_range(min': Pointer[F64] tag, max': Pointer[F64] tag): None =>
-    GtkSpinButtonP.get_range(this, min', max')

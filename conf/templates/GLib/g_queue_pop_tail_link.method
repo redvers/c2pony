@@ -1,2 +1,0 @@
-  fun ref pop_tail_link(): GList =>
-    GQueueP.pop_tail_link(this)

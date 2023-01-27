@@ -1,2 +1,0 @@
-  fun lookup(hash_table': GHashTable, key': Pointer[None] tag): Pointer[None] tag =>
-    @g_hash_table_lookup(hash_table', key')

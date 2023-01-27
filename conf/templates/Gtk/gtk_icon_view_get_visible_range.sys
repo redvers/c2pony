@@ -1,2 +1,0 @@
-  fun get_visible_range(icon_view': GtkIconView, start_path': Pointer[GtkTreePath], end_path': Pointer[GtkTreePath]): I32 =>
-    @gtk_icon_view_get_visible_range(icon_view', start_path', end_path')

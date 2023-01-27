@@ -1,1 +1,0 @@
-use @gtk_text_set_attributes[None](self': GtkText, attrs': PangoAttrList)

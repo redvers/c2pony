@@ -1,2 +1,0 @@
-  fun ref set_default_widget(widget': GtkWidgetI): None =>
-    GtkPopoverP.set_default_widget(this, widget')

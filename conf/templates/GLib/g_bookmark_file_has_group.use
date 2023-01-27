@@ -1,1 +1,0 @@
-use @g_bookmark_file_has_group[I32](bookmark': GBookmarkFile, uri': Pointer[U8] tag, group': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

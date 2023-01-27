@@ -1,2 +1,0 @@
-  fun ref get_timeout(): U32 =>
-    GSocketClientP.get_timeout(this)

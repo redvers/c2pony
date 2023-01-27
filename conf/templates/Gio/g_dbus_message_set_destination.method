@@ -1,2 +1,0 @@
-  fun ref set_destination(value': String): None =>
-    GDBusMessageP.set_destination(this, value')

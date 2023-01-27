@@ -1,2 +1,0 @@
-  fun get_position(paned': GtkPaned): I32 =>
-    @gtk_paned_get_position(paned')

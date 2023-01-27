@@ -1,2 +1,0 @@
-  fun get_hide_on_close(window': GtkWindowI): I32 =>
-    @gtk_window_get_hide_on_close(window'.getptr())

@@ -1,1 +1,0 @@
-use @g_io_extension_ref_class[GTypeClass](extension': GIOExtension)

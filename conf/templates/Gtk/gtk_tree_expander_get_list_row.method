@@ -1,2 +1,0 @@
-  fun ref get_list_row(): GtkTreeListRow =>
-    GtkTreeExpanderP.get_list_row(this)

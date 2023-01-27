@@ -1,2 +1,0 @@
-  fun timeout_source_new_seconds(interval': U32): GSource =>
-    @g_timeout_source_new_seconds(interval')

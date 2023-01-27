@@ -1,2 +1,0 @@
-  fun set_value(key_file': GKeyFile, group_name': String, key': String, value': String): None =>
-    @g_key_file_set_value(key_file', group_name'.cstring(), key'.cstring(), value'.cstring())

@@ -1,2 +1,0 @@
-  fun ref set_progress_pulse_step(fraction': F64): None =>
-    GtkEntryP.set_progress_pulse_step(this, fraction')

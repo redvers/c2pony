@@ -1,1 +1,0 @@
-use @g_object_ref[Pointer[None] tag](object': Pointer[None] tag)

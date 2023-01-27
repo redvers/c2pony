@@ -1,2 +1,0 @@
-  fun ref set_spacing(spacing': I32): None =>
-    GtkTreeViewColumnP.set_spacing(this, spacing')

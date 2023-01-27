@@ -1,2 +1,0 @@
-  fun ref clear_status(): None =>
-    GFileInfoP.clear_status(this)

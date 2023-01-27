@@ -1,2 +1,0 @@
-  fun unref(builder': GVariantBuilder): None =>
-    @g_variant_builder_unref(builder')

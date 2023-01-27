@@ -1,2 +1,0 @@
-  fun get_auth_params(uri': GUri): String iso^ =>
-    String.from_cstring(@g_uri_get_auth_params(uri')).clone()

@@ -1,1 +1,0 @@
-use @g_timeout_add_seconds_full[U32](priority': I32, interval': U32, function': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify)

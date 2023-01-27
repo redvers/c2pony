@@ -1,2 +1,0 @@
-  fun ref get_layout_child(child': GtkWidgetI): GtkLayoutChild =>
-    GtkLayoutManagerP.get_layout_child(this, child')

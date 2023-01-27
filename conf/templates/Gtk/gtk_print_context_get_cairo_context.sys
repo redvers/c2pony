@@ -1,2 +1,0 @@
-  fun get_cairo_context(context': GtkPrintContext): cairo =>
-    @gtk_print_context_get_cairo_context(context')

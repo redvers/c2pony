@@ -1,2 +1,0 @@
-  fun ref map(): None =>
-    GtkWidgetP.map(this)

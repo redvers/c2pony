@@ -1,2 +1,0 @@
-  fun find(hash_table': GHashTable, predicate': GHRFunc, user_data': Pointer[None] tag): Pointer[None] tag =>
-    @g_hash_table_find(hash_table', predicate', user_data')

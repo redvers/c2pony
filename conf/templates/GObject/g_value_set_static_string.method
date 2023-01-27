@@ -1,2 +1,0 @@
-  fun ref set_static_string(v_string': String): None =>
-    GValueP.set_static_string(this, v_string')

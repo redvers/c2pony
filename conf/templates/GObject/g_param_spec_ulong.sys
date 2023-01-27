@@ -1,2 +1,0 @@
-  fun param_spec_ulong(name': String, nick': String, blurb': String, minimum': U64, maximum': U64, default_value': U64, flags': I32): GParamSpec =>
-    @g_param_spec_ulong(name'.cstring(), nick'.cstring(), blurb'.cstring(), minimum', maximum', default_value', flags')

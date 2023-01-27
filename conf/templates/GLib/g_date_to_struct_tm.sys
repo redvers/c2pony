@@ -1,2 +1,0 @@
-  fun to_struct_tm(date': GDate, tm': tm): None =>
-    @g_date_to_struct_tm(date', tm')

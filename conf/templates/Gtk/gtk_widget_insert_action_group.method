@@ -1,2 +1,0 @@
-  fun ref insert_action_group(name': String, group': GActionGroup): None =>
-    GtkWidgetP.insert_action_group(this, name', group')

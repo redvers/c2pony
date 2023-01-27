@@ -1,2 +1,0 @@
-  fun ref read_finish(result': GAsyncResult, error': GError): I64 =>
-    GInputStreamP.read_finish(this, result', error')

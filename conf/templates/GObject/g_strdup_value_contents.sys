@@ -1,2 +1,0 @@
-  fun strdup_value_contents(value': GValue): String iso^ =>
-    String.from_cstring(@g_strdup_value_contents(value')).clone()

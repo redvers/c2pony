@@ -1,1 +1,0 @@
-use @gtk_widget_set_margin_end[None](widget': Pointer[GObjectP], margin': I32)

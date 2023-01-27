@@ -1,2 +1,0 @@
-  fun free(seq': GSequence): None =>
-    @g_sequence_free(seq')

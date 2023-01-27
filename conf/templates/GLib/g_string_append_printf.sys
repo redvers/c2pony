@@ -1,2 +1,0 @@
-  fun append_printf(string': GString, format': String, ...): None =>
-    @g_string_append_printf(string', format'.cstring(), ...)

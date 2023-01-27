@@ -1,2 +1,0 @@
-  fun ref verify(identity': GSocketConnectable, trusted_ca': GTlsCertificate): U32 =>
-    GTlsCertificateP.verify(this, identity', trusted_ca')

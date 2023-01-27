@@ -1,2 +1,0 @@
-  fun remove_unix_fd(source': GSource, tag': Pointer[None] tag): None =>
-    @g_source_remove_unix_fd(source', tag')

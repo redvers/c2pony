@@ -1,2 +1,0 @@
-  fun ref get_day_of_month(): I32 =>
-    GDateTimeP.get_day_of_month(this)

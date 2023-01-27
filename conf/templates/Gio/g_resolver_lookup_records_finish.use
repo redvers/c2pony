@@ -1,1 +1,0 @@
-use @g_resolver_lookup_records_finish[GList](resolver': GResolver, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

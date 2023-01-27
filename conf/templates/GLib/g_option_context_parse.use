@@ -1,1 +1,0 @@
-use @g_option_context_parse[I32](context': GOptionContext, argc': Pointer[I32] tag, argv': Pointer[Pointer[Pointer[U8]]] tag, error': Pointer[NullablePointer[GErrorT]])

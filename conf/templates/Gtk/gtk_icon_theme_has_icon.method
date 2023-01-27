@@ -1,2 +1,0 @@
-  fun ref has_icon(icon_name': String): I32 =>
-    GtkIconThemeP.has_icon(this, icon_name')

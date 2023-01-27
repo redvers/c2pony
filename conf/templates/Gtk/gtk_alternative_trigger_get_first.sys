@@ -1,2 +1,0 @@
-  fun get_first(self': GtkAlternativeTrigger): GtkShortcutTrigger =>
-    @gtk_alternative_trigger_get_first(self')

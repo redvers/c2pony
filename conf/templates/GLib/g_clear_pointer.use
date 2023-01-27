@@ -1,1 +1,0 @@
-use @g_clear_pointer[None](pp': Pointer[Pointer[None]] tag, destroy': GDestroyNotify)

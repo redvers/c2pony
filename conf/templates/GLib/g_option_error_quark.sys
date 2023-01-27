@@ -1,2 +1,0 @@
-  fun option_error_quark(): U32 =>
-    @g_option_error_quark()

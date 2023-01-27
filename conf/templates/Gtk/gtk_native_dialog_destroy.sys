@@ -1,2 +1,0 @@
-  fun destroy(self': GtkNativeDialog): None =>
-    @gtk_native_dialog_destroy(self')

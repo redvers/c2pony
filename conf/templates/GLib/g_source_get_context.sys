@@ -1,2 +1,0 @@
-  fun get_context(source': GSource): GMainContext =>
-    @g_source_get_context(source')

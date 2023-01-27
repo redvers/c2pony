@@ -1,2 +1,0 @@
-  fun get_second(datetime': GDateTime): I32 =>
-    @g_date_time_get_second(datetime')

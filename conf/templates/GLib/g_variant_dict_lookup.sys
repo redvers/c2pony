@@ -1,2 +1,0 @@
-  fun lookup(dict': GVariantDict, key': String, format_string': String, ...): I32 =>
-    @g_variant_dict_lookup(dict', key'.cstring(), format_string'.cstring(), ...)

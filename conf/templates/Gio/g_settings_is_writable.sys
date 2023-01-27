@@ -1,2 +1,0 @@
-  fun is_writable(settings': GSettings, name': String): I32 =>
-    @g_settings_is_writable(settings', name'.cstring())

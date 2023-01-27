@@ -1,2 +1,0 @@
-  fun set_monitored(self': GtkDirectoryList, monitored': I32): None =>
-    @gtk_directory_list_set_monitored(self', monitored')

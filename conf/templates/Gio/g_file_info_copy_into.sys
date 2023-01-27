@@ -1,2 +1,0 @@
-  fun copy_into(src_info': GFileInfo, dest_info': GFileInfo): None =>
-    @g_file_info_copy_into(src_info', dest_info')

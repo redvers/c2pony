@@ -1,2 +1,0 @@
-  fun ref compute_bounds(target': GtkWidgetI, out_bounds': graphenerectt): I32 =>
-    GtkWidgetP.compute_bounds(this, target', out_bounds')

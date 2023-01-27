@@ -1,1 +1,0 @@
-use @g_signal_has_handler_pending[I32](instance': Pointer[None] tag, signal_id': U32, detail': U32, may_be_blocked': I32)

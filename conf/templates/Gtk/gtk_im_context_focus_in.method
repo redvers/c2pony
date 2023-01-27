@@ -1,2 +1,0 @@
-  fun ref focus_in(): None =>
-    GtkIMContextP.focus_in(this)

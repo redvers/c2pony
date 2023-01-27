@@ -1,2 +1,0 @@
-  fun set_gtype(value': GValue, v_gtype': U64): None =>
-    @g_value_set_gtype(value', v_gtype')

@@ -1,1 +1,0 @@
-use @gtk_image_set_from_resource[None](image': GtkImage, resource_path': Pointer[U8] tag)

@@ -1,2 +1,0 @@
-  fun new(filename': String, writable': I32, error': GError): GMappedFile =>
-    @g_mapped_file_new(filename'.cstring(), writable', addressof error'.ptr)

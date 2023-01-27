@@ -1,2 +1,0 @@
-  fun has_key(schema': GSettingsSchema, name': String): I32 =>
-    @g_settings_schema_has_key(schema', name'.cstring())

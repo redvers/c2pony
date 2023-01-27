@@ -1,2 +1,0 @@
-  fun remove_guide(layout': GtkConstraintLayout, guide': GtkConstraintGuide): None =>
-    @gtk_constraint_layout_remove_guide(layout', guide')

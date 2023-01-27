@@ -1,2 +1,0 @@
-  fun ref get_maximum(): U32 =>
-    GtkBitsetP.get_maximum(this)

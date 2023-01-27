@@ -1,1 +1,0 @@
-use @g_flags_register_static[U64](name': Pointer[U8] tag, const_static_values': GFlagsValue)

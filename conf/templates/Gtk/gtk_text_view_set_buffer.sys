@@ -1,2 +1,0 @@
-  fun set_buffer(text_view': GtkTextView, buffer': GtkTextBuffer): None =>
-    @gtk_text_view_set_buffer(text_view', buffer')

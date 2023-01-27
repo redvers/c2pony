@@ -1,2 +1,0 @@
-  fun ref get_compile_flags(): U32 =>
-    GRegexP.get_compile_flags(this)

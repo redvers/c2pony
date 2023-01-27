@@ -1,2 +1,0 @@
-  fun ref set_reveal_child(reveal_child': I32): None =>
-    GtkRevealerP.set_reveal_child(this, reveal_child')

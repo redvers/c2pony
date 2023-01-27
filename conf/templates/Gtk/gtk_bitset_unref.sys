@@ -1,2 +1,0 @@
-  fun unref(self': GtkBitset): None =>
-    @gtk_bitset_unref(self')

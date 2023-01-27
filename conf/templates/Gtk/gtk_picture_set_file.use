@@ -1,1 +1,0 @@
-use @gtk_picture_set_file[None](self': GtkPicture, file': GFile)

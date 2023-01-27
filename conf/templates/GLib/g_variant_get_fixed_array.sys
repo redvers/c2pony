@@ -1,2 +1,0 @@
-  fun get_fixed_array(value': GVariant, n_elements': Pointer[U64] tag, element_size': U64): Pointer[None] tag =>
-    @g_variant_get_fixed_array(value', n_elements', element_size')

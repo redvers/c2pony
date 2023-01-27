@@ -1,1 +1,0 @@
-use @gtk_cell_area_activate[I32](area': GtkCellArea, context': GtkCellAreaContext, widget': Pointer[GObjectP], cell_area': cairorectangleint, flags': U32, edit_only': I32)

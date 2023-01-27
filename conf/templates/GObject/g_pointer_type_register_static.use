@@ -1,1 +1,0 @@
-use @g_pointer_type_register_static[U64](name': Pointer[U8] tag)

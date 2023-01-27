@@ -1,2 +1,0 @@
-  fun ref get_collate(): I32 =>
-    GtkPrintSettingsP.get_collate(this)

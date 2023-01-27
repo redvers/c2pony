@@ -1,1 +1,0 @@
-use @gtk_widget_class_add_binding_signal[None](widget_class': GtkWidgetClass, keyval': U32, mods': U32, signal': Pointer[U8] tag, format_string': Pointer[U8] tag, ...)

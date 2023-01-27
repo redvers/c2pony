@@ -1,1 +1,0 @@
-use @gtk_bitset_remove_all[None](self': GtkBitset)

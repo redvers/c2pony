@@ -1,2 +1,0 @@
-  fun get_address(address': GInetSocketAddress): GInetAddress =>
-    @g_inet_socket_address_get_address(address')

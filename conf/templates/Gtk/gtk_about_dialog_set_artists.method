@@ -1,2 +1,0 @@
-  fun ref set_artists(artists': Pointer[Pointer[U8]] tag): None =>
-    GtkAboutDialogP.set_artists(this, artists')

@@ -1,2 +1,0 @@
-  fun ref convert_tree_to_bin_window_coords(tx': I32, ty': I32, bx': Pointer[I32] tag, by': Pointer[I32] tag): None =>
-    GtkTreeViewP.convert_tree_to_bin_window_coords(this, tx', ty', bx', by')

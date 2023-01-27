@@ -1,2 +1,0 @@
-  fun ref set_hexpand(expand': I32): None =>
-    GtkWidgetP.set_hexpand(this, expand')

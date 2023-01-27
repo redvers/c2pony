@@ -1,1 +1,0 @@
-use @g_notification_add_button[None](notification': GNotification, label': Pointer[U8] tag, detailed_action': Pointer[U8] tag)

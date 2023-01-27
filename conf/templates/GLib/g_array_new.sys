@@ -1,2 +1,0 @@
-  fun new(zero_terminated': I32, clear': I32, element_size': U32): GArray =>
-    @g_array_new(zero_terminated', clear', element_size')

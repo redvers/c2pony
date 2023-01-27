@@ -1,1 +1,0 @@
-use @g_slist_find[GSList](list': GSList, data': Pointer[None] tag)

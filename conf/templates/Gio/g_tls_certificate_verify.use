@@ -1,1 +1,0 @@
-use @g_tls_certificate_verify[U32](cert': GTlsCertificate, identity': GSocketConnectable, trusted_ca': GTlsCertificate)

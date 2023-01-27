@@ -1,2 +1,0 @@
-  fun file_error_from_errno(err_no': I32): U32 =>
-    @g_file_error_from_errno(err_no')

@@ -1,2 +1,0 @@
-  fun set_file(self': GtkDirectoryList, file': GFile): None =>
-    @gtk_directory_list_set_file(self', file')

@@ -1,2 +1,0 @@
-  fun get_mode(self': GtkLevelBar): U32 =>
-    @gtk_level_bar_get_mode(self')

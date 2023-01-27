@@ -1,2 +1,0 @@
-  fun unset_invisible_char(self': GtkText): None =>
-    @gtk_text_unset_invisible_char(self')

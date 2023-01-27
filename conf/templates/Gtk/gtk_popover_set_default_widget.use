@@ -1,1 +1,0 @@
-use @gtk_popover_set_default_widget[None](popover': GtkPopover, widget': Pointer[GObjectP])

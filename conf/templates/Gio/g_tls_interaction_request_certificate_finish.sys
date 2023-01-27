@@ -1,2 +1,0 @@
-  fun request_certificate_finish(interaction': GTlsInteraction, result': GAsyncResult, error': GError): U32 =>
-    @g_tls_interaction_request_certificate_finish(interaction', result', addressof error'.ptr)

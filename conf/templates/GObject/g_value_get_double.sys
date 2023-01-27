@@ -1,2 +1,0 @@
-  fun get_double(value': GValue): F64 =>
-    @g_value_get_double(value')

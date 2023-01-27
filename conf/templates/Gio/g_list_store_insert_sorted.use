@@ -1,1 +1,0 @@
-use @g_list_store_insert_sorted[U32](store': GListStore, item': Pointer[None] tag, compare_func': GCompareDataFunc, user_data': Pointer[None] tag)

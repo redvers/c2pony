@@ -1,2 +1,0 @@
-  fun ref set_gutter(win': U32, widget': GtkWidgetI): None =>
-    GtkTextViewP.set_gutter(this, win', widget')

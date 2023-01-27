@@ -1,1 +1,0 @@
-use @g_signal_override_class_handler[None](signal_name': Pointer[U8] tag, instance_type': U64, class_handler': GCallback)

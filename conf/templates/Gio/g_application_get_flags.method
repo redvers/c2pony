@@ -1,2 +1,0 @@
-  fun ref get_flags(): U32 =>
-    GApplicationP.get_flags(this)

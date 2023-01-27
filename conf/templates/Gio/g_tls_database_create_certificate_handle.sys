@@ -1,2 +1,0 @@
-  fun create_certificate_handle(self': GTlsDatabase, certificate': GTlsCertificate): String iso^ =>
-    String.from_cstring(@g_tls_database_create_certificate_handle(self', certificate')).clone()

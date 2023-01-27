@@ -1,2 +1,0 @@
-  fun ref set_css_classes(classes': Pointer[Pointer[U8]] tag): None =>
-    GtkWidgetP.set_css_classes(this, classes')

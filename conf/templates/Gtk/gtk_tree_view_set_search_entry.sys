@@ -1,2 +1,0 @@
-  fun set_search_entry(tree_view': GtkTreeView, entry': GtkEditable): None =>
-    @gtk_tree_view_set_search_entry(tree_view', entry')

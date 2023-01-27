@@ -1,1 +1,0 @@
-use @g_type_get_instance_count[I32](type': U64)

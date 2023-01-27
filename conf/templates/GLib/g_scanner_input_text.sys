@@ -1,2 +1,0 @@
-  fun input_text(scanner': GScanner, text': String, text_len': U32): None =>
-    @g_scanner_input_text(scanner', text'.cstring(), text_len')

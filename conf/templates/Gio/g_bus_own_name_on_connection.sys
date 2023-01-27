@@ -1,2 +1,0 @@
-  fun bus_own_name_on_connection(connection': GDBusConnection, name': String, flags': U32, name_acquired_handler': GBusNameAcquiredCallback, name_lost_handler': GBusNameLostCallback, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify): U32 =>
-    @g_bus_own_name_on_connection(connection', name'.cstring(), flags', name_acquired_handler', name_lost_handler', user_data', user_data_free_func')

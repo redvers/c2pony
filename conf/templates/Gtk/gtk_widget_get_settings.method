@@ -1,2 +1,0 @@
-  fun ref get_settings(): GtkSettings =>
-    GtkWidgetP.get_settings(this)

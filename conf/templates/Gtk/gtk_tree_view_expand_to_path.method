@@ -1,2 +1,0 @@
-  fun ref expand_to_path(path': GtkTreePath): None =>
-    GtkTreeViewP.expand_to_path(this, path')

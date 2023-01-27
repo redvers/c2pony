@@ -1,2 +1,0 @@
-  fun ref is_normal_form(): I32 =>
-    GVariantP.is_normal_form(this)

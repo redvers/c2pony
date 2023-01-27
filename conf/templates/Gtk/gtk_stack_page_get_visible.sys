@@ -1,2 +1,0 @@
-  fun get_visible(self': GtkStackPage): I32 =>
-    @gtk_stack_page_get_visible(self')

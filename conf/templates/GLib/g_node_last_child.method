@@ -1,2 +1,0 @@
-  fun ref last_child(): GNode =>
-    GNodeP.last_child(this)

@@ -1,2 +1,0 @@
-  fun new_object(sizeof_closure': U32, object': GObjectI): GClosure =>
-    @g_closure_new_object(sizeof_closure', object'.getptr())

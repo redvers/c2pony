@@ -1,2 +1,0 @@
-  fun close(listener': GSocketListener): None =>
-    @g_socket_listener_close(listener')

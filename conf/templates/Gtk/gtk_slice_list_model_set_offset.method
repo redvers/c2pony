@@ -1,2 +1,0 @@
-  fun ref set_offset(offset': U32): None =>
-    GtkSliceListModelP.set_offset(this, offset')

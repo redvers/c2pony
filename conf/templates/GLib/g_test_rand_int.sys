@@ -1,2 +1,0 @@
-  fun test_rand_int(): I32 =>
-    @g_test_rand_int()

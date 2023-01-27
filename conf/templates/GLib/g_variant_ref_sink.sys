@@ -1,2 +1,0 @@
-  fun ref_sink(value': GVariant): GVariant =>
-    @g_variant_ref_sink(value')

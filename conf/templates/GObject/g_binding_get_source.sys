@@ -1,2 +1,0 @@
-  fun get_source(binding': GBinding): Pointer[GObjectP] =>
-@g_binding_get_source(binding')

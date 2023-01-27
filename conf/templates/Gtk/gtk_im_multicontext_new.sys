@@ -1,2 +1,0 @@
-  fun new(): GtkIMContext =>
-    @gtk_im_multicontext_new()

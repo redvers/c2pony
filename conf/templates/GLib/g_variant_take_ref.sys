@@ -1,2 +1,0 @@
-  fun take_ref(value': GVariant): GVariant =>
-    @g_variant_take_ref(value')

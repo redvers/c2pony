@@ -1,1 +1,0 @@
-use @g_hook_list_invoke[None](hook_list': GHookList, may_recurse': I32)

@@ -1,1 +1,0 @@
-use @g_utf8_get_char_validated[U32](p': Pointer[U8] tag, max_len': I64)

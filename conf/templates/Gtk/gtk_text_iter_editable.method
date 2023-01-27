@@ -1,2 +1,0 @@
-  fun ref editable(default_setting': I32): I32 =>
-    GtkTextIterP.editable(this, default_setting')

@@ -1,2 +1,0 @@
-  fun get_resolution_x(settings': GtkPrintSettings): I32 =>
-    @gtk_print_settings_get_resolution_x(settings')

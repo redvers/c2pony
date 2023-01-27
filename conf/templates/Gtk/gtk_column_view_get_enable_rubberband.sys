@@ -1,2 +1,0 @@
-  fun get_enable_rubberband(self': GtkColumnView): I32 =>
-    @gtk_column_view_get_enable_rubberband(self')

@@ -1,2 +1,0 @@
-  fun ref get_attributes(): PangoAttrList =>
-    GtkEntryP.get_attributes(this)

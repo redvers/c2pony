@@ -1,2 +1,0 @@
-  fun insert_before(hook_list': GHookList, sibling': GHook, hook': GHook): None =>
-    @g_hook_insert_before(hook_list', sibling', hook')

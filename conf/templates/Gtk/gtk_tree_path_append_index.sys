@@ -1,2 +1,0 @@
-  fun append_index(path': GtkTreePath, index': I32): None =>
-    @gtk_tree_path_append_index(path', index')

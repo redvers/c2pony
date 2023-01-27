@@ -1,2 +1,0 @@
-  fun get_active_id(combo_box': GtkComboBox): String iso^ =>
-    String.from_cstring(@gtk_combo_box_get_active_id(combo_box')).clone()

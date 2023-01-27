@@ -1,1 +1,0 @@
-use @gtk_widget_add_tick_callback[U32](widget': Pointer[GObjectP], callback': GtkTickCallback, user_data': Pointer[None] tag, notify': GDestroyNotify)

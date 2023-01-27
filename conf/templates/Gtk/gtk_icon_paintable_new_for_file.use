@@ -1,1 +1,0 @@
-use @gtk_icon_paintable_new_for_file[GtkIconPaintable](file': GFile, size': I32, scale': I32)

@@ -1,1 +1,0 @@
-use @gtk_page_setup_get_orientation[U32](setup': GtkPageSetup)

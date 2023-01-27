@@ -1,2 +1,0 @@
-  fun ref next(): GVariantType =>
-    GVariantTypeP.next(this)

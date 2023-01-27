@@ -1,2 +1,0 @@
-  fun remove_row(grid': GtkGrid, position': I32): None =>
-    @gtk_grid_remove_row(grid', position')

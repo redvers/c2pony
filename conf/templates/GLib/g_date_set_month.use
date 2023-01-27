@@ -1,1 +1,0 @@
-use @g_date_set_month[None](date': GDate, month': U32)

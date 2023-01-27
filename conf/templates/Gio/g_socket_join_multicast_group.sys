@@ -1,2 +1,0 @@
-  fun join_multicast_group(socket': GSocket, group': GInetAddress, source_specific': I32, iface': String, error': GError): I32 =>
-    @g_socket_join_multicast_group(socket', group', source_specific', iface'.cstring(), addressof error'.ptr)

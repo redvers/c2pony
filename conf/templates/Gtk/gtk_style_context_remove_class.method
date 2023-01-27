@@ -1,2 +1,0 @@
-  fun ref remove_class(class_name': String): None =>
-    GtkStyleContextP.remove_class(this, class_name')

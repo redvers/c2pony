@@ -1,1 +1,0 @@
-use @gtk_overlay_get_clip_overlay[I32](overlay': GtkOverlay, widget': Pointer[GObjectP])

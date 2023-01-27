@@ -1,2 +1,0 @@
-  fun type_register_fundamental(type_id': U64, type_name': String, info': GTypeInfo, finfo': GTypeFundamentalInfo, flags': U32): U64 =>
-    @g_type_register_fundamental(type_id', type_name'.cstring(), info', finfo', flags')

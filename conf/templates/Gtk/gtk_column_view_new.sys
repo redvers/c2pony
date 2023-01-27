@@ -1,2 +1,0 @@
-  fun new(model': GtkSelectionModel): Pointer[GObjectP] =>
-@gtk_column_view_new(model')

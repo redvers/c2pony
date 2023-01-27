@@ -1,2 +1,0 @@
-  fun update(hmac': GHmac, data': String, length': I64): None =>
-    @g_hmac_update(hmac', data'.cstring(), length')

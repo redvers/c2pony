@@ -1,2 +1,0 @@
-  fun set_paintable(self': GtkPicture, paintable': GdkPaintable): None =>
-    @gtk_picture_set_paintable(self', paintable')

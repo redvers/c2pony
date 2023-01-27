@@ -1,2 +1,0 @@
-  fun ref(thread': GThread): GThread =>
-    @g_thread_ref(thread')

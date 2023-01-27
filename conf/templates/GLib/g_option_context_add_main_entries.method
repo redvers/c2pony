@@ -1,2 +1,0 @@
-  fun ref add_main_entries(entries': GOptionEntry, translation_domain': String): None =>
-    GOptionContextP.add_main_entries(this, entries', translation_domain')

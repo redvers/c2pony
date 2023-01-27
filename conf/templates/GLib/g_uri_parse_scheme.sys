@@ -1,2 +1,0 @@
-  fun parse_scheme(uri': String): String iso^ =>
-    String.from_cstring(@g_uri_parse_scheme(uri'.cstring())).clone()

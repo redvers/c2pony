@@ -1,2 +1,0 @@
-  fun get_visible_slice(start': GtkTextIter, end': GtkTextIter): String iso^ =>
-    String.from_cstring(@gtk_text_iter_get_visible_slice(start', end')).clone()

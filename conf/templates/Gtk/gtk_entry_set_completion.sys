@@ -1,2 +1,0 @@
-  fun set_completion(entry': GtkEntry, completion': GtkEntryCompletion): None =>
-    @gtk_entry_set_completion(entry', completion')

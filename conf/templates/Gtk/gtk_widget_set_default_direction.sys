@@ -1,2 +1,0 @@
-  fun set_default_direction(dir': U32): None =>
-    @gtk_widget_set_default_direction(dir')

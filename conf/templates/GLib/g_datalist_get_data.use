@@ -1,1 +1,0 @@
-use @g_datalist_get_data[Pointer[None] tag](datalist': Pointer[GData], key': Pointer[U8] tag)

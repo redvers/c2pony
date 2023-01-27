@@ -1,2 +1,0 @@
-  fun ref get_decorated(): I32 =>
-    GtkWindowP.get_decorated(this)

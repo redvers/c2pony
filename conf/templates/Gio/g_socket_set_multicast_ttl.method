@@ -1,2 +1,0 @@
-  fun ref set_multicast_ttl(ttl': U32): None =>
-    GSocketP.set_multicast_ttl(this, ttl')

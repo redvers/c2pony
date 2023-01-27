@@ -1,1 +1,0 @@
-use @g_output_stream_write_async[None](stream': GOutputStream, buffer': Pointer[None] tag, count': U64, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

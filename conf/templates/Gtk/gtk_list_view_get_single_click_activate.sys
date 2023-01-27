@@ -1,2 +1,0 @@
-  fun get_single_click_activate(self': GtkListView): I32 =>
-    @gtk_list_view_get_single_click_activate(self')

@@ -1,1 +1,0 @@
-use @gtk_level_bar_new_for_interval[Pointer[GObjectP]](min_value': F64, max_value': F64)

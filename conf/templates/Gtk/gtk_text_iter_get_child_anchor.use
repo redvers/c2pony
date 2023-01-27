@@ -1,1 +1,0 @@
-use @gtk_text_iter_get_child_anchor[GtkTextChildAnchor](iter': GtkTextIter)

@@ -1,2 +1,0 @@
-  fun get_string(match_info': GMatchInfo): String iso^ =>
-    String.from_cstring(@g_match_info_get_string(match_info')).clone()

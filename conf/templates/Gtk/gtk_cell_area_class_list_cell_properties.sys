@@ -1,2 +1,0 @@
-  fun list_cell_properties(aclass': GtkCellAreaClass, n_properties': Pointer[U32] tag): Pointer[GParamSpec] =>
-    @gtk_cell_area_class_list_cell_properties(aclass', n_properties')

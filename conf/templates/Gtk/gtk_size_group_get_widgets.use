@@ -1,1 +1,0 @@
-use @gtk_size_group_get_widgets[GSList](size_group': GtkSizeGroup)

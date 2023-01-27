@@ -1,2 +1,0 @@
-  fun stream_ended(self': GtkMediaStream): None =>
-    @gtk_media_stream_stream_ended(self')

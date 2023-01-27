@@ -1,2 +1,0 @@
-  fun last_child(node': GNode): GNode =>
-    @g_node_last_child(node')

@@ -1,2 +1,0 @@
-  fun ref forward_cursor_position(): I32 =>
-    GtkTextIterP.forward_cursor_position(this)

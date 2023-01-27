@@ -1,2 +1,0 @@
-  fun set_flags(value': GValue, v_flags': U32): None =>
-    @g_value_set_flags(value', v_flags')

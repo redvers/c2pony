@@ -1,2 +1,0 @@
-  fun get_icon_tooltip_text(entry': GtkEntry, icon_pos': U32): String iso^ =>
-    String.from_cstring(@gtk_entry_get_icon_tooltip_text(entry', icon_pos')).clone()

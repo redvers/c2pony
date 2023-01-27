@@ -1,2 +1,0 @@
-  fun ref get_pointing_to(rect': cairorectangleint): I32 =>
-    GtkPopoverP.get_pointing_to(this, rect')

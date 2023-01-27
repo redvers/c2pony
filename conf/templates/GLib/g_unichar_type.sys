@@ -1,2 +1,0 @@
-  fun unichar_type(c': U32): U32 =>
-    @g_unichar_type(c')

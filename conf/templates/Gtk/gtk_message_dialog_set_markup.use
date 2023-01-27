@@ -1,1 +1,0 @@
-use @gtk_message_dialog_set_markup[None](message_dialog': GtkMessageDialog, str': Pointer[U8] tag)

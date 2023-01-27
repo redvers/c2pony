@@ -1,1 +1,0 @@
-use @g_source_set_closure[None](source': GSource, closure': GClosure)

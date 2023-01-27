@@ -1,2 +1,0 @@
-  fun get_double(value': GVariant): F64 =>
-    @g_variant_get_double(value')

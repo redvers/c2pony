@@ -1,2 +1,0 @@
-  fun ref set_tab_detachable(child': GtkWidgetI, detachable': I32): None =>
-    GtkNotebookP.set_tab_detachable(this, child', detachable')

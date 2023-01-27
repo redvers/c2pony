@@ -1,2 +1,0 @@
-  fun set_state(context': GtkStyleContext, flags': U32): None =>
-    @gtk_style_context_set_state(context', flags')

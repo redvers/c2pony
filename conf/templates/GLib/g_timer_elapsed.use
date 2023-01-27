@@ -1,1 +1,0 @@
-use @g_timer_elapsed[F64](timer': GTimer, microseconds': Pointer[U64] tag)

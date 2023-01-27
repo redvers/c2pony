@@ -1,2 +1,0 @@
-  fun ref realize(): None =>
-    GtkWidgetP.realize(this)

@@ -1,2 +1,0 @@
-  fun enumerate_namespace(matcher': GFileAttributeMatcher, ns': String): I32 =>
-    @g_file_attribute_matcher_enumerate_namespace(matcher', ns'.cstring())

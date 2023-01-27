@@ -1,2 +1,0 @@
-  fun ref is_prepared(): I32 =>
-    GtkMediaStreamP.is_prepared(this)

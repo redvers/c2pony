@@ -1,2 +1,0 @@
-  fun signal(cond': GCond): None =>
-    @g_cond_signal(cond')

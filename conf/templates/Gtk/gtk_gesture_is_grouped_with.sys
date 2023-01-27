@@ -1,2 +1,0 @@
-  fun is_grouped_with(gesture': GtkGesture, other': GtkGesture): I32 =>
-    @gtk_gesture_is_grouped_with(gesture', other')

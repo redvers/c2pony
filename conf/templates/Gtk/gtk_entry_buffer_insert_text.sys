@@ -1,2 +1,0 @@
-  fun insert_text(buffer': GtkEntryBuffer, position': U32, chars': String, n_chars': I32): U32 =>
-    @gtk_entry_buffer_insert_text(buffer', position', chars'.cstring(), n_chars')

@@ -1,2 +1,0 @@
-  fun close(converter': GIConv): I32 =>
-    @g_iconv_close(converter')

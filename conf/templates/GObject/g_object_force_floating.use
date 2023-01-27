@@ -1,1 +1,0 @@
-use @g_object_force_floating[None](object': Pointer[GObjectP])

@@ -1,2 +1,0 @@
-  fun remove_poll(source': GSource, fd': GPollFD): None =>
-    @g_source_remove_poll(source', fd')

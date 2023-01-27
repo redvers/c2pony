@@ -1,2 +1,0 @@
-  fun markup_error_quark(): U32 =>
-    @g_markup_error_quark()

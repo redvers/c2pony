@@ -1,2 +1,0 @@
-  fun ref set_paper_size_and_default_margins(size': GtkPaperSize): None =>
-    GtkPageSetupP.set_paper_size_and_default_margins(this, size')

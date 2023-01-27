@@ -1,1 +1,0 @@
-use @gtk_widget_child_focus[I32](widget': Pointer[GObjectP], direction': U32)

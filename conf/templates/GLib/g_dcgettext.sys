@@ -1,2 +1,0 @@
-  fun dcgettext(domain': String, msgid': String, category': I32): String iso^ =>
-    String.from_cstring(@g_dcgettext(domain'.cstring(), msgid'.cstring(), category')).clone()

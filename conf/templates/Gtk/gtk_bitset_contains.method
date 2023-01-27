@@ -1,2 +1,0 @@
-  fun ref contains(value': U32): I32 =>
-    GtkBitsetP.contains(this, value')

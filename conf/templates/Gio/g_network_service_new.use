@@ -1,1 +1,0 @@
-use @g_network_service_new[GSocketConnectable](service': Pointer[U8] tag, protocol': Pointer[U8] tag, domain': Pointer[U8] tag)

@@ -1,2 +1,0 @@
-  fun ref is_descendant(ancestor': GtkTreePath): I32 =>
-    GtkTreePathP.is_descendant(this, ancestor')

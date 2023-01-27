@@ -1,2 +1,0 @@
-  fun foreach(seq': GSequence, func': GFunc, user_data': Pointer[None] tag): None =>
-    @g_sequence_foreach(seq', func', user_data')

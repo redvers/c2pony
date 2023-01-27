@@ -1,2 +1,0 @@
-  fun str_hash(v': Pointer[None] tag): U32 =>
-    @g_str_hash(v')

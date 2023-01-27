@@ -1,2 +1,0 @@
-  fun is_array(type': GVariantType): I32 =>
-    @g_variant_type_is_array(type')

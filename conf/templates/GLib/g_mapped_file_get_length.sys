@@ -1,2 +1,0 @@
-  fun get_length(file': GMappedFile): U64 =>
-    @g_mapped_file_get_length(file')

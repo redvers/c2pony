@@ -1,2 +1,0 @@
-  fun ref get_sequence(): GSequence =>
-    GSequenceIterP.get_sequence(this)

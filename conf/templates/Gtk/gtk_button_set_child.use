@@ -1,1 +1,0 @@
-use @gtk_button_set_child[None](button': GtkButton, child': Pointer[GObjectP])

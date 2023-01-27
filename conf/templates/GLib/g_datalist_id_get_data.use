@@ -1,1 +1,0 @@
-use @g_datalist_id_get_data[Pointer[None] tag](datalist': Pointer[GData], key_id': U32)

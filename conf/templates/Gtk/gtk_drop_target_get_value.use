@@ -1,1 +1,0 @@
-use @gtk_drop_target_get_value[GValue](self': GtkDropTarget)

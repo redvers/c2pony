@@ -1,1 +1,0 @@
-use @g_boxed_type_register_static[U64](name': Pointer[U8] tag, boxed_copy': GBoxedCopyFunc, boxed_free': GBoxedFreeFunc)

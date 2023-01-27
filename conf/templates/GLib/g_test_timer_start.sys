@@ -1,2 +1,0 @@
-  fun test_timer_start(): None =>
-    @g_test_timer_start()

@@ -1,2 +1,0 @@
-  fun set_progress_fraction(entry': GtkEntry, fraction': F64): None =>
-    @gtk_entry_set_progress_fraction(entry', fraction')

@@ -1,1 +1,0 @@
-use @gtk_button_get_label[Pointer[U8]](button': GtkButton)

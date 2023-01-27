@@ -1,1 +1,0 @@
-use @g_converter_input_stream_get_converter[GConverter](converter_stream': GConverterInputStream)

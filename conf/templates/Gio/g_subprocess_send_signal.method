@@ -1,2 +1,0 @@
-  fun ref send_signal(signal_num': I32): None =>
-    GSubprocessP.send_signal(this, signal_num')

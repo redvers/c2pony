@@ -1,2 +1,0 @@
-  fun new(): GBookmarkFile =>
-    @g_bookmark_file_new()

@@ -1,2 +1,0 @@
-  fun ref get_decoration_layout(): String iso^ =>
-    GtkHeaderBarP.get_decoration_layout(this)

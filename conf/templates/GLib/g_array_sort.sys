@@ -1,2 +1,0 @@
-  fun sort(array': GArray, compare_func': GCompareFunc): None =>
-    @g_array_sort(array', compare_func')

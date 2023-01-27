@@ -1,2 +1,0 @@
-  fun ref freeze(): None =>
-    GMenuP.freeze(this)

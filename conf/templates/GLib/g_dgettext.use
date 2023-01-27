@@ -1,1 +1,0 @@
-use @g_dgettext[Pointer[U8]](domain': Pointer[U8] tag, msgid': Pointer[U8] tag)

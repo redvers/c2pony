@@ -1,1 +1,0 @@
-use @gtk_box_remove[None](box': GtkBox, child': Pointer[GObjectP])

@@ -1,2 +1,0 @@
-  fun file_set_contents(filename': String, contents': String, length': I64, error': GError): I32 =>
-    @g_file_set_contents(filename'.cstring(), contents'.cstring(), length', addressof error'.ptr)

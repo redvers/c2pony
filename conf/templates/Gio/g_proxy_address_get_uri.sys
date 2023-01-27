@@ -1,2 +1,0 @@
-  fun get_uri(proxy': GProxyAddress): String iso^ =>
-    String.from_cstring(@g_proxy_address_get_uri(proxy')).clone()

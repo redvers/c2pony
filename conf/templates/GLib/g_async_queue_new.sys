@@ -1,2 +1,0 @@
-  fun new(): GAsyncQueue =>
-    @g_async_queue_new()

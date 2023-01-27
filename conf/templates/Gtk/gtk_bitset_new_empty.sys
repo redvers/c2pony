@@ -1,2 +1,0 @@
-  fun new_empty(): GtkBitset =>
-    @gtk_bitset_new_empty()

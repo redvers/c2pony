@@ -1,1 +1,0 @@
-use @gtk_style_context_to_string[Pointer[U8]](context': GtkStyleContext, flags': U32)

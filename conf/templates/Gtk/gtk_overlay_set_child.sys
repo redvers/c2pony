@@ -1,2 +1,0 @@
-  fun set_child(overlay': GtkOverlay, child': GtkWidgetI): None =>
-    @gtk_overlay_set_child(overlay', child'.getptr())

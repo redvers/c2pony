@@ -1,2 +1,0 @@
-  fun get_default(): GtkRecentManager =>
-    @gtk_recent_manager_get_default()

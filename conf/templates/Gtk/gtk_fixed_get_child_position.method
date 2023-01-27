@@ -1,2 +1,0 @@
-  fun ref get_child_position(widget': GtkWidgetI, x': Pointer[F64] tag, y': Pointer[F64] tag): None =>
-    GtkFixedP.get_child_position(this, widget', x', y')

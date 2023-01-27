@@ -1,2 +1,0 @@
-  fun set_selectable(row': GtkListBoxRow, selectable': I32): None =>
-    @gtk_list_box_row_set_selectable(row', selectable')

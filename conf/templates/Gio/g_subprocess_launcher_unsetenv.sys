@@ -1,2 +1,0 @@
-  fun unsetenv(self': GSubprocessLauncher, variable': String): None =>
-    @g_subprocess_launcher_unsetenv(self', variable'.cstring())

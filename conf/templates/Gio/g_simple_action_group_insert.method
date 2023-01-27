@@ -1,2 +1,0 @@
-  fun ref insert(action': GAction): None =>
-    GSimpleActionGroupP.insert(this, action')

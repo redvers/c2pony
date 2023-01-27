@@ -1,2 +1,0 @@
-  fun compat_control(what': U64, data': Pointer[None] tag): U64 =>
-    @g_object_compat_control(what', data')

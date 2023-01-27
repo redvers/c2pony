@@ -1,2 +1,0 @@
-  fun ref add_child_source(child_source': GSource): None =>
-    GSourceP.add_child_source(this, child_source')

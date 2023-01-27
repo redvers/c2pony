@@ -1,2 +1,0 @@
-  fun enumerate_next(matcher': GFileAttributeMatcher): String iso^ =>
-    String.from_cstring(@g_file_attribute_matcher_enumerate_next(matcher')).clone()

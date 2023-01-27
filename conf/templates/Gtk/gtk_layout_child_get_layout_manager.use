@@ -1,1 +1,0 @@
-use @gtk_layout_child_get_layout_manager[GtkLayoutManager](layout_child': GtkLayoutChild)

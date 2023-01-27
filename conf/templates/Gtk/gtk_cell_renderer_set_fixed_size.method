@@ -1,2 +1,0 @@
-  fun ref set_fixed_size(width': I32, height': I32): None =>
-    GtkCellRendererP.set_fixed_size(this, width', height')

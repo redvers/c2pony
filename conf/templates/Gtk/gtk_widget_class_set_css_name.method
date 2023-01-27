@@ -1,2 +1,0 @@
-  fun ref set_css_name(name': String): None =>
-    GtkWidgetClassP.set_css_name(this, name')

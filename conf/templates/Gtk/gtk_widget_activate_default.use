@@ -1,1 +1,0 @@
-use @gtk_widget_activate_default[None](widget': Pointer[GObjectP])

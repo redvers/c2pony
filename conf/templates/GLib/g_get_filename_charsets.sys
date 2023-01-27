@@ -1,2 +1,0 @@
-  fun get_filename_charsets(filename_charsets': Pointer[Pointer[Pointer[U8]]] tag): I32 =>
-    @g_get_filename_charsets(filename_charsets')

@@ -1,1 +1,0 @@
-use @g_date_time_difference[I64](end': GDateTime, begin': GDateTime)

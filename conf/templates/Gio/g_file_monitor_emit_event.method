@@ -1,2 +1,0 @@
-  fun ref emit_event(child': GFile, other_file': GFile, event_type': U32): None =>
-    GFileMonitorP.emit_event(this, child', other_file', event_type')

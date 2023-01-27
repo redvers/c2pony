@@ -1,1 +1,0 @@
-use @gtk_icon_view_select_all[None](icon_view': GtkIconView)

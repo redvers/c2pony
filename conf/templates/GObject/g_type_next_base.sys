@@ -1,2 +1,0 @@
-  fun type_next_base(leaf_type': U64, root_type': U64): U64 =>
-    @g_type_next_base(leaf_type', root_type')

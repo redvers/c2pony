@@ -1,1 +1,0 @@
-use @g_memory_output_stream_new[GOutputStream](data': Pointer[None] tag, size': U64, realloc_function': GReallocFunc, destroy_function': GDestroyNotify)

@@ -1,2 +1,0 @@
-  fun ref get_size(): I64 =>
-    GFileInfoP.get_size(this)

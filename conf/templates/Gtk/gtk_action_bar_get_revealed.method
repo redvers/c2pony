@@ -1,2 +1,0 @@
-  fun ref get_revealed(): I32 =>
-    GtkActionBarP.get_revealed(this)

@@ -1,2 +1,0 @@
-  fun enable_model_drag_source(tree_view': GtkTreeView, start_button_mask': U32, formats': GdkContentFormats, actions': U32): None =>
-    @gtk_tree_view_enable_model_drag_source(tree_view', start_button_mask', formats', actions')

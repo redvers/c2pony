@@ -1,2 +1,0 @@
-  fun get_visible(tree_column': GtkTreeViewColumn): I32 =>
-    @gtk_tree_view_column_get_visible(tree_column')

@@ -1,2 +1,0 @@
-  fun get_default(): GSettingsSchemaSource =>
-    @g_settings_schema_source_get_default()

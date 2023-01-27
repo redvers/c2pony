@@ -1,2 +1,0 @@
-  fun ref get_mode(): U32 =>
-    GtkSizeGroupP.get_mode(this)

@@ -1,2 +1,0 @@
-  fun new(attributes': String, file': GFile): GtkDirectoryList =>
-    @gtk_directory_list_new(attributes'.cstring(), file')

@@ -1,2 +1,0 @@
-  fun new(format': U32, level': I32): GZlibCompressor =>
-    @g_zlib_compressor_new(format', level')

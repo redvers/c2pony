@@ -1,2 +1,0 @@
-  fun set_visible(cell': GtkCellRenderer, visible': I32): None =>
-    @gtk_cell_renderer_set_visible(cell', visible')

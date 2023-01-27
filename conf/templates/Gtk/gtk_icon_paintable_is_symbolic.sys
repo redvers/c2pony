@@ -1,2 +1,0 @@
-  fun is_symbolic(self': GtkIconPaintable): I32 =>
-    @gtk_icon_paintable_is_symbolic(self')

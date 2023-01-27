@@ -1,2 +1,0 @@
-  fun ref get_socket(): GSocket =>
-    GSocketConnectionP.get_socket(this)

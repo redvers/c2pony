@@ -1,1 +1,0 @@
-use @g_ptr_array_extend[None](array_to_extend': GPtrArray, array': GPtrArray, func': GCopyFunc, user_data': Pointer[None] tag)

@@ -1,2 +1,0 @@
-  fun is_recognized(gesture': GtkGesture): I32 =>
-    @gtk_gesture_is_recognized(gesture')

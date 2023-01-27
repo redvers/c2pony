@@ -1,2 +1,0 @@
-  fun ref get_scrollable(): I32 =>
-    GtkNotebookP.get_scrollable(this)

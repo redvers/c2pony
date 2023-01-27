@@ -1,2 +1,0 @@
-  fun ref set_is_expanded(is_expanded': I32): None =>
-    GtkCellRendererP.set_is_expanded(this, is_expanded')

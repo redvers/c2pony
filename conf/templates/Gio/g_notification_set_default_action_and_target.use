@@ -1,1 +1,0 @@
-use @g_notification_set_default_action_and_target[None](notification': GNotification, action': Pointer[U8] tag, target_format': Pointer[U8] tag, ...)

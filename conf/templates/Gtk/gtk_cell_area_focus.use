@@ -1,1 +1,0 @@
-use @gtk_cell_area_focus[I32](area': GtkCellArea, direction': U32)

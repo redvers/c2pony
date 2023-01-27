@@ -1,2 +1,0 @@
-  fun ref set_added(uri': String, added': I64): None =>
-    GBookmarkFileP.set_added(this, uri', added')

@@ -1,2 +1,0 @@
-  fun pop_thread_default(context': GMainContext): None =>
-    @g_main_context_pop_thread_default(context')

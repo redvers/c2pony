@@ -1,2 +1,0 @@
-  fun ref get_modified(): I32 =>
-    GtkTextBufferP.get_modified(this)

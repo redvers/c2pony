@@ -1,1 +1,0 @@
-use @gtk_widget_get_hexpand[I32](widget': Pointer[GObjectP])

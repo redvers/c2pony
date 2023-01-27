@@ -1,1 +1,0 @@
-use @g_type_class_get_private[Pointer[None] tag](klass': GTypeClass, private_type': U64)

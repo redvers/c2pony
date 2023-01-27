@@ -1,1 +1,0 @@
-use @g_tls_certificate_new_from_files[GTlsCertificate](cert_file': Pointer[U8] tag, key_file': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

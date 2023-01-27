@@ -1,2 +1,0 @@
-  fun lookup_certificate_for_handle_async(self': GTlsDatabase, handle': String, interaction': GTlsInteraction, flags': U32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_tls_database_lookup_certificate_for_handle_async(self', handle'.cstring(), interaction', flags', cancellable', callback', user_data')

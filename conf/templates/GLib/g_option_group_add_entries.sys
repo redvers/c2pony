@@ -1,2 +1,0 @@
-  fun add_entries(group': GOptionGroup, entries': GOptionEntry): None =>
-    @g_option_group_add_entries(group', entries')

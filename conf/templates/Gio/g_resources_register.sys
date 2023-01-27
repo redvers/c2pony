@@ -1,2 +1,0 @@
-  fun register(resource': GResource): None =>
-    @g_resources_register(resource'.ptr)

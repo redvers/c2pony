@@ -1,2 +1,0 @@
-  fun close_finish(stream': GIOStream, result': GAsyncResult, error': GError): I32 =>
-    @g_io_stream_close_finish(stream', result', addressof error'.ptr)

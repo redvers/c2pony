@@ -1,2 +1,0 @@
-  fun ref save_to_file(filename': String, error': GError): I32 =>
-    GKeyFileP.save_to_file(this, filename', error')

@@ -1,2 +1,0 @@
-  fun get_file(self': GtkIconPaintable): GFile =>
-    @gtk_icon_paintable_get_file(self')

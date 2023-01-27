@@ -1,2 +1,0 @@
-  fun ref add_named(child': GtkWidgetI, name': String): GtkStackPage =>
-    GtkStackP.add_named(this, child', name')

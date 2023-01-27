@@ -1,2 +1,0 @@
-  fun int64_hash(v': Pointer[None] tag): U32 =>
-    @g_int64_hash(v')

@@ -1,2 +1,0 @@
-  fun ref set_interned_string(v_string': String): None =>
-    GValueP.set_interned_string(this, v_string')

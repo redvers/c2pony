@@ -1,1 +1,0 @@
-use @g_value_take_variant[None](value': GValue, variant': GVariant)

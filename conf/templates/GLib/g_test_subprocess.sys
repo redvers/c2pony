@@ -1,2 +1,0 @@
-  fun test_subprocess(): I32 =>
-    @g_test_subprocess()

@@ -1,1 +1,0 @@
-use @g_pattern_spec_equal[I32](pspec1': GPatternSpec, pspec2': GPatternSpec)

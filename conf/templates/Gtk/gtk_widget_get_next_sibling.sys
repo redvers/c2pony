@@ -1,2 +1,0 @@
-  fun get_next_sibling(widget': GtkWidgetI): Pointer[GObjectP] =>
-@gtk_widget_get_next_sibling(widget'.getptr())

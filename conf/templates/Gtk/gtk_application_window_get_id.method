@@ -1,2 +1,0 @@
-  fun ref get_id(): U32 =>
-    GtkApplicationWindowP.get_id(this)

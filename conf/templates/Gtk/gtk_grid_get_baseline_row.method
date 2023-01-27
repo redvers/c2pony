@@ -1,2 +1,0 @@
-  fun ref get_baseline_row(): I32 =>
-    GtkGridP.get_baseline_row(this)

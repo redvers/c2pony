@@ -1,2 +1,0 @@
-  fun ref set_yalign(yalign': F32): None =>
-    GtkLabelP.set_yalign(this, yalign')

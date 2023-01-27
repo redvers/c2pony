@@ -1,2 +1,0 @@
-  fun strnfill(length': U64, fill_char': U8): String iso^ =>
-    String.from_cstring(@g_strnfill(length', fill_char')).clone()

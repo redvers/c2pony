@@ -1,2 +1,0 @@
-  fun ref set_stack(stack': GtkStack): None =>
-    GtkStackSwitcherP.set_stack(this, stack')

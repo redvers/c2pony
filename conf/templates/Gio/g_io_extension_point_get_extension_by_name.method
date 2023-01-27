@@ -1,2 +1,0 @@
-  fun ref get_extension_by_name(name': String): GIOExtension =>
-    GIOExtensionPointP.get_extension_by_name(this, name')

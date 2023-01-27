@@ -1,2 +1,0 @@
-  fun io_create_watch(channel': GIOChannel, condition': U32): GSource =>
-    @g_io_create_watch(channel', condition')

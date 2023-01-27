@@ -1,1 +1,0 @@
-use @gtk_tree_selection_select_all[None](selection': GtkTreeSelection)

@@ -1,2 +1,0 @@
-  fun set_resource(self': GtkMediaFile, resource_path': String): None =>
-    @gtk_media_file_set_resource(self', resource_path'.cstring())

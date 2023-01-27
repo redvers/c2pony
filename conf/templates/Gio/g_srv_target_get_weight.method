@@ -1,2 +1,0 @@
-  fun ref get_weight(): U16 =>
-    GSrvTargetP.get_weight(this)

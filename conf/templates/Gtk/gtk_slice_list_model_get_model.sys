@@ -1,2 +1,0 @@
-  fun get_model(self': GtkSliceListModel): GListModel =>
-    @gtk_slice_list_model_get_model(self')

@@ -1,2 +1,0 @@
-  fun bit_lock(address': Pointer[I32] tag, lock_bit': I32): None =>
-    @g_bit_lock(address', lock_bit')

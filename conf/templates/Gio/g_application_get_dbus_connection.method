@@ -1,2 +1,0 @@
-  fun ref get_dbus_connection(): GDBusConnection =>
-    GApplicationP.get_dbus_connection(this)

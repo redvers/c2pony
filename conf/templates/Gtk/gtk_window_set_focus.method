@@ -1,2 +1,0 @@
-  fun ref set_focus(focus': GtkWidgetI): None =>
-    GtkWindowP.set_focus(this, focus')

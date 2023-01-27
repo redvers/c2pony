@@ -1,1 +1,0 @@
-use @gtk_aspect_frame_get_child[Pointer[GObjectP]](self': GtkAspectFrame)

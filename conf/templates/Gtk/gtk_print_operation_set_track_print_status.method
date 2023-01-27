@@ -1,2 +1,0 @@
-  fun ref set_track_print_status(track_status': I32): None =>
-    GtkPrintOperationP.set_track_print_status(this, track_status')

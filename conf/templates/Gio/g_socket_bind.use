@@ -1,1 +1,0 @@
-use @g_socket_bind[I32](socket': GSocket, address': GSocketAddress, allow_reuse': I32, error': Pointer[NullablePointer[GErrorT]])

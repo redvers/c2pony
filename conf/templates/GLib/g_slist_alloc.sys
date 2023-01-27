@@ -1,2 +1,0 @@
-  fun alloc(): GSList =>
-    @g_slist_alloc()

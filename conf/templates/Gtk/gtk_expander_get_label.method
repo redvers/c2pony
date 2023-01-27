@@ -1,2 +1,0 @@
-  fun ref get_label(): String iso^ =>
-    GtkExpanderP.get_label(this)

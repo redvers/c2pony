@@ -1,2 +1,0 @@
-  fun ref backward_word_start(): I32 =>
-    GtkTextIterP.backward_word_start(this)

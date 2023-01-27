@@ -1,2 +1,0 @@
-  fun ref get_exclusive(): I32 =>
-    GtkGestureSingleP.get_exclusive(this)

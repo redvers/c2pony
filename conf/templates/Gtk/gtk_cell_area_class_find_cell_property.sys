@@ -1,2 +1,0 @@
-  fun find_cell_property(aclass': GtkCellAreaClass, property_name': String): GParamSpec =>
-    @gtk_cell_area_class_find_cell_property(aclass', property_name'.cstring())

@@ -1,2 +1,0 @@
-  fun next_file(enumerator': GFileEnumerator, cancellable': GCancellable, error': GError): GFileInfo =>
-    @g_file_enumerator_next_file(enumerator', cancellable', addressof error'.ptr)

@@ -1,2 +1,0 @@
-  fun ref pop(): Pointer[None] tag =>
-    GAsyncQueueP.pop(this)

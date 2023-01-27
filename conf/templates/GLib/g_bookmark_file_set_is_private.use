@@ -1,1 +1,0 @@
-use @g_bookmark_file_set_is_private[None](bookmark': GBookmarkFile, uri': Pointer[U8] tag, is_private': I32)

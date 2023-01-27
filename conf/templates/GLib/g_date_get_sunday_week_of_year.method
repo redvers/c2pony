@@ -1,2 +1,0 @@
-  fun ref get_sunday_week_of_year(): U32 =>
-    GDateP.get_sunday_week_of_year(this)

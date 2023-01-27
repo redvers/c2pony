@@ -1,2 +1,0 @@
-  fun clear_handle_id(tag_ptr': Pointer[U32] tag, clear_func': GClearHandleFunc): None =>
-    @g_clear_handle_id(tag_ptr', clear_func')

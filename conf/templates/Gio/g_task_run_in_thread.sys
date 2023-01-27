@@ -1,2 +1,0 @@
-  fun run_in_thread(task': GTask, task_func': GTaskThreadFunc): None =>
-    @g_task_run_in_thread(task', task_func')

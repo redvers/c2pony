@@ -1,2 +1,0 @@
-  fun ref remove(child': GtkWidgetI): None =>
-    GtkGridP.remove(this, child')

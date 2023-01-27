@@ -1,2 +1,0 @@
-  fun ref set_website_label(website_label': String): None =>
-    GtkAboutDialogP.set_website_label(this, website_label')

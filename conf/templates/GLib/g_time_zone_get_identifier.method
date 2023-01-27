@@ -1,2 +1,0 @@
-  fun ref get_identifier(): String iso^ =>
-    GTimeZoneP.get_identifier(this)

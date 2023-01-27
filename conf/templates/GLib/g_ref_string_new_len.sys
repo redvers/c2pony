@@ -1,2 +1,0 @@
-  fun ref_string_new_len(str': String, len': I64): String iso^ =>
-    String.from_cstring(@g_ref_string_new_len(str'.cstring(), len')).clone()

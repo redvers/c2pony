@@ -1,2 +1,0 @@
-  fun get_unix_fd_list(message': GDBusMessage): GUnixFDList =>
-    @g_dbus_message_get_unix_fd_list(message')

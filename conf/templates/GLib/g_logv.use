@@ -1,1 +1,0 @@
-use @g_logv[None](log_domain': Pointer[U8] tag, log_level': I32, format': Pointer[U8] tag, args': valisttag)

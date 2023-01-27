@@ -1,2 +1,0 @@
-  fun get_for_display(display': GdkDisplay): GtkSettings =>
-    @gtk_settings_get_for_display(display')

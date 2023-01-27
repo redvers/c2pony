@@ -1,1 +1,0 @@
-use @g_date_time_get_seconds[F64](datetime': GDateTime)

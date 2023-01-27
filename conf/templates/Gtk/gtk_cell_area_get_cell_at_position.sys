@@ -1,2 +1,0 @@
-  fun get_cell_at_position(area': GtkCellArea, context': GtkCellAreaContext, widget': GtkWidgetI, cell_area': cairorectangleint, x': I32, y': I32, alloc_area': cairorectangleint): GtkCellRenderer =>
-    @gtk_cell_area_get_cell_at_position(area', context', widget'.getptr(), cell_area', x', y', alloc_area')

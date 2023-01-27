@@ -1,2 +1,0 @@
-  fun unichar_iscntrl(c': U32): I32 =>
-    @g_unichar_iscntrl(c')

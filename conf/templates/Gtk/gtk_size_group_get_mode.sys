@@ -1,2 +1,0 @@
-  fun get_mode(size_group': GtkSizeGroup): U32 =>
-    @gtk_size_group_get_mode(size_group')

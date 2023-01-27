@@ -1,1 +1,0 @@
-use @gtk_tree_view_column_cell_is_visible[I32](tree_column': GtkTreeViewColumn)

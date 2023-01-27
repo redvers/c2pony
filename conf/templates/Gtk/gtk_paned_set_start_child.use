@@ -1,1 +1,0 @@
-use @gtk_paned_set_start_child[None](paned': GtkPaned, child': Pointer[GObjectP])

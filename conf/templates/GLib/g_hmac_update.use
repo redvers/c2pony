@@ -1,1 +1,0 @@
-use @g_hmac_update[None](hmac': GHmac, data': Pointer[U8] tag, length': I64)

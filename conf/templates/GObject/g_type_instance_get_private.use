@@ -1,1 +1,0 @@
-use @g_type_instance_get_private[Pointer[None] tag](instance': GTypeInstance, private_type': U64)

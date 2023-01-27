@@ -1,2 +1,0 @@
-  fun ref prev(): GSequenceNode =>
-    GSequenceIterP.prev(this)

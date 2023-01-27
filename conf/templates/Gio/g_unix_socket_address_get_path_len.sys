@@ -1,2 +1,0 @@
-  fun get_path_len(address': GUnixSocketAddress): U64 =>
-    @g_unix_socket_address_get_path_len(address')

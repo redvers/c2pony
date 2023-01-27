@@ -1,1 +1,0 @@
-use @g_file_info_set_sort_order[None](info': GFileInfo, sort_order': I32)

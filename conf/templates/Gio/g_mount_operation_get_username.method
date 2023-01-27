@@ -1,2 +1,0 @@
-  fun ref get_username(): String iso^ =>
-    GMountOperationP.get_username(this)

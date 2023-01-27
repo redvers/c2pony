@@ -1,2 +1,0 @@
-  fun insert_before_link(list': GList, sibling': GList, link': GList): GList =>
-    @g_list_insert_before_link(list', sibling', link')

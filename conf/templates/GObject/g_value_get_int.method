@@ -1,2 +1,0 @@
-  fun ref get_int(): I32 =>
-    GValueP.get_int(this)

@@ -1,2 +1,0 @@
-  fun ref set_list_factory(factory': GtkListItemFactory): None =>
-    GtkDropDownP.set_list_factory(this, factory')

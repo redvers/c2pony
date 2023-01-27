@@ -1,1 +1,0 @@
-use @gtk_stack_page_set_visible[None](self': GtkStackPage, visible': I32)

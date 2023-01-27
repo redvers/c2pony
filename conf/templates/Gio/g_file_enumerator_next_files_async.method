@@ -1,2 +1,0 @@
-  fun ref next_files_async(num_files': I32, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    GFileEnumeratorP.next_files_async(this, num_files', io_priority', cancellable', callback', user_data')

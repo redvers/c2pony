@@ -1,2 +1,0 @@
-  fun set_transient_for(window': GtkWindowI, parent': GtkWindowI): None =>
-    @gtk_window_set_transient_for(window'.getptr(), parent'.getptr())

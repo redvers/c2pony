@@ -1,2 +1,0 @@
-  fun ref set_help_overlay(help_overlay': GtkShortcutsWindow): None =>
-    GtkApplicationWindowP.set_help_overlay(this, help_overlay')

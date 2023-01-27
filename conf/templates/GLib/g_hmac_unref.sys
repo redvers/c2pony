@@ -1,2 +1,0 @@
-  fun unref(hmac': GHmac): None =>
-    @g_hmac_unref(hmac')

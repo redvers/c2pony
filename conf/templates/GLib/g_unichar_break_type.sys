@@ -1,2 +1,0 @@
-  fun unichar_break_type(c': U32): U32 =>
-    @g_unichar_break_type(c')

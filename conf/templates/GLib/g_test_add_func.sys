@@ -1,2 +1,0 @@
-  fun test_add_func(testpath': String, test_func': GTestFunc): None =>
-    @g_test_add_func(testpath'.cstring(), test_func')

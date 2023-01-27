@@ -1,2 +1,0 @@
-  fun move(iter': GSequenceNode, delta': I32): GSequenceNode =>
-    @g_sequence_iter_move(iter', delta')

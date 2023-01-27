@@ -1,1 +1,0 @@
-use @g_date_get_day[U8](date': GDate)

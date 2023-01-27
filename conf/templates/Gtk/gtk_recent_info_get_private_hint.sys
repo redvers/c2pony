@@ -1,2 +1,0 @@
-  fun get_private_hint(info': GtkRecentInfo): I32 =>
-    @gtk_recent_info_get_private_hint(info')

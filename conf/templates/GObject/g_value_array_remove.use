@@ -1,1 +1,0 @@
-use @g_value_array_remove[GValueArray](value_array': GValueArray, index': U32)

@@ -1,2 +1,0 @@
-  fun unref(hook_list': GHookList, hook': GHook): None =>
-    @g_hook_unref(hook_list', hook')

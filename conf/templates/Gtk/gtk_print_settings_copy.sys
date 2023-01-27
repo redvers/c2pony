@@ -1,2 +1,0 @@
-  fun copy(other': GtkPrintSettings): GtkPrintSettings =>
-    @gtk_print_settings_copy(other')

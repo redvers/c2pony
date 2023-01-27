@@ -1,1 +1,0 @@
-use @g_bookmark_file_has_item[I32](bookmark': GBookmarkFile, uri': Pointer[U8] tag)

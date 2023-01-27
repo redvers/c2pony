@@ -1,1 +1,0 @@
-use @gtk_center_layout_set_end_widget[None](self': GtkCenterLayout, widget': Pointer[GObjectP])

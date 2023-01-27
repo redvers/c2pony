@@ -1,2 +1,0 @@
-  fun io_add_watch(channel': GIOChannel, condition': U32, func': GIOFunc, user_data': Pointer[None] tag): U32 =>
-    @g_io_add_watch(channel', condition', func', user_data')

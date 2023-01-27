@@ -1,2 +1,0 @@
-  fun new(context': GMainContext, is_running': I32): GMainLoop =>
-    @g_main_loop_new(context', is_running')

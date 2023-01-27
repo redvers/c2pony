@@ -1,2 +1,0 @@
-  fun add_poll(source': GSource, fd': GPollFD): None =>
-    @g_source_add_poll(source', fd')

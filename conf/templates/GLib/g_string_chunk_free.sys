@@ -1,2 +1,0 @@
-  fun free(chunk': GStringChunk): None =>
-    @g_string_chunk_free(chunk')

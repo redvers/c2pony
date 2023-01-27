@@ -1,2 +1,0 @@
-  fun ref set_icon_tooltip_text(icon_pos': U32, tooltip': String): None =>
-    GtkEntryP.set_icon_tooltip_text(this, icon_pos', tooltip')

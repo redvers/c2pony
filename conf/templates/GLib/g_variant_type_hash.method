@@ -1,2 +1,0 @@
-  fun ref hash(): U32 =>
-    GVariantTypeP.hash(this)

@@ -1,2 +1,0 @@
-  fun new(connection': GDBusConnection, object_path': String): GDBusObjectProxy =>
-    @g_dbus_object_proxy_new(connection', object_path'.cstring())

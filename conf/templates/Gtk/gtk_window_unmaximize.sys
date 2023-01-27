@@ -1,2 +1,0 @@
-  fun unmaximize(window': GtkWindowI): None =>
-    @gtk_window_unmaximize(window'.getptr())

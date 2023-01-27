@@ -1,2 +1,0 @@
-  fun ref set_certificate(certificate': GTlsCertificate): None =>
-    GTlsConnectionP.set_certificate(this, certificate')

@@ -1,2 +1,0 @@
-  fun get_has_unapplied(settings': GSettings): I32 =>
-    @g_settings_get_has_unapplied(settings')

@@ -1,2 +1,0 @@
-  fun ref get_unique_name(): String iso^ =>
-    GDBusConnectionP.get_unique_name(this)

@@ -1,2 +1,0 @@
-  fun get_destination_hostname(proxy': GProxyAddress): String iso^ =>
-    String.from_cstring(@g_proxy_address_get_destination_hostname(proxy')).clone()

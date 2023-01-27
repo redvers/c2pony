@@ -1,2 +1,0 @@
-  fun push_unlocked(queue': GAsyncQueue, data': Pointer[None] tag): None =>
-    @g_async_queue_push_unlocked(queue', data')

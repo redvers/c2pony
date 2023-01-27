@@ -1,2 +1,0 @@
-  fun set_icon(notification': GNotification, icon': GIcon): None =>
-    @g_notification_set_icon(notification', icon')

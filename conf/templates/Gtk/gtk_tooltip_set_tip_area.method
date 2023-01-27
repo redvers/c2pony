@@ -1,2 +1,0 @@
-  fun ref set_tip_area(rect': cairorectangleint): None =>
-    GtkTooltipP.set_tip_area(this, rect')

@@ -1,2 +1,0 @@
-  fun remove_action_widget(assistant': GtkAssistant, child': GtkWidgetI): None =>
-    @gtk_assistant_remove_action_widget(assistant', child'.getptr())

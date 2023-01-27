@@ -1,2 +1,0 @@
-  fun ref set_tab_pos(pos': U32): None =>
-    GtkNotebookP.set_tab_pos(this, pos')

@@ -1,2 +1,0 @@
-  fun ref flush(error': GError): U32 =>
-    GIOChannelP.flush(this, error')

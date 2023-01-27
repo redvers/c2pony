@@ -1,1 +1,0 @@
-use @gtk_tree_selection_set_mode[None](selection': GtkTreeSelection, type': U32)

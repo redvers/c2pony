@@ -1,2 +1,0 @@
-  fun ref set_dispose_function(dispose': GSourceDisposeFunc): None =>
-    GSourceP.set_dispose_function(this, dispose')

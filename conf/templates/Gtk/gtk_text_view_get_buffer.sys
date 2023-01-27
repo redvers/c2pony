@@ -1,2 +1,0 @@
-  fun get_buffer(text_view': GtkTextView): GtkTextBuffer =>
-    @gtk_text_view_get_buffer(text_view')

@@ -1,2 +1,0 @@
-  fun get_size(bookmark': GBookmarkFile): I32 =>
-    @g_bookmark_file_get_size(bookmark')

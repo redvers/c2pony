@@ -1,2 +1,0 @@
-  fun unlock(queue': GAsyncQueue): None =>
-    @g_async_queue_unlock(queue')

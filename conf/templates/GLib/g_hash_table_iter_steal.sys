@@ -1,2 +1,0 @@
-  fun steal(iter': GHashTableIter): None =>
-    @g_hash_table_iter_steal(iter')

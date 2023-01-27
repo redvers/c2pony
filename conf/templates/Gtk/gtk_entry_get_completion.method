@@ -1,2 +1,0 @@
-  fun ref get_completion(): GtkEntryCompletion =>
-    GtkEntryP.get_completion(this)

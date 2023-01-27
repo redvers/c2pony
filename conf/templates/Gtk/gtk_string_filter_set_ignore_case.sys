@@ -1,2 +1,0 @@
-  fun set_ignore_case(self': GtkStringFilter, ignore_case': I32): None =>
-    @gtk_string_filter_set_ignore_case(self', ignore_case')

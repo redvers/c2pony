@@ -1,1 +1,0 @@
-use @g_node_child_index[I32](node': GNode, data': Pointer[None] tag)

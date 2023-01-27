@@ -1,1 +1,0 @@
-use @g_srv_target_get_hostname[Pointer[U8]](target': GSrvTarget)

@@ -1,2 +1,0 @@
-  fun ref set_wrap_mode(wrap_mode': U32): None =>
-    GtkTextViewP.set_wrap_mode(this, wrap_mode')

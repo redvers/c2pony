@@ -1,1 +1,0 @@
-use @g_hash_table_foreach_steal[U32](hash_table': GHashTable, func': GHRFunc, user_data': Pointer[None] tag)

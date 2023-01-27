@@ -1,1 +1,0 @@
-use @gtk_widget_set_opacity[None](widget': Pointer[GObjectP], opacity': F64)

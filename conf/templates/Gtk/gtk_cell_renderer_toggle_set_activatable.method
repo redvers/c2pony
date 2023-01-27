@@ -1,2 +1,0 @@
-  fun ref set_activatable(setting': I32): None =>
-    GtkCellRendererToggleP.set_activatable(this, setting')

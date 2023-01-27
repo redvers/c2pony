@@ -1,2 +1,0 @@
-  fun get_transition_duration(revealer': GtkRevealer): U32 =>
-    @gtk_revealer_get_transition_duration(revealer')

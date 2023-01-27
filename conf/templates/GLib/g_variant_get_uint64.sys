@@ -1,2 +1,0 @@
-  fun get_uint64(value': GVariant): U64 =>
-    @g_variant_get_uint64(value')

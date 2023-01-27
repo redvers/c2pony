@@ -1,2 +1,0 @@
-  fun io_scheduler_cancel_all_jobs(): None =>
-    @g_io_scheduler_cancel_all_jobs()

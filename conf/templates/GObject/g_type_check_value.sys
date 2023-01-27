@@ -1,2 +1,0 @@
-  fun type_check_value(value': GValue): I32 =>
-    @g_type_check_value(value')

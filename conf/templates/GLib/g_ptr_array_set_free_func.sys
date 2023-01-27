@@ -1,2 +1,0 @@
-  fun set_free_func(array': GPtrArray, element_free_func': GDestroyNotify): None =>
-    @g_ptr_array_set_free_func(array', element_free_func')

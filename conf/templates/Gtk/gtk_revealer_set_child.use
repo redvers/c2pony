@@ -1,1 +1,0 @@
-use @gtk_revealer_set_child[None](revealer': GtkRevealer, child': Pointer[GObjectP])

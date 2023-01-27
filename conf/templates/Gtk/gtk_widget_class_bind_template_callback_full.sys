@@ -1,2 +1,0 @@
-  fun bind_template_callback_full(widget_class': GtkWidgetClass, callback_name': String, callback_symbol': GCallback): None =>
-    @gtk_widget_class_bind_template_callback_full(widget_class', callback_name'.cstring(), callback_symbol')

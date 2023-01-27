@@ -1,1 +1,0 @@
-use @g_output_stream_flush_async[None](stream': GOutputStream, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

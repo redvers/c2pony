@@ -1,1 +1,0 @@
-use @g_clear_signal_handler[None](handler_id_ptr': Pointer[U64] tag, instance': Pointer[None] tag)

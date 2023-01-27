@@ -1,2 +1,0 @@
-  fun ref get_signal_name(): String iso^ =>
-    GtkSignalActionP.get_signal_name(this)

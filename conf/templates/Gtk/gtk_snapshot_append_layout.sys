@@ -1,2 +1,0 @@
-  fun append_layout(snapshot': GdkSnapshot, layout': PangoLayout, color': GdkRGBA): None =>
-    @gtk_snapshot_append_layout(snapshot', layout', color')

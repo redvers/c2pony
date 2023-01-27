@@ -1,2 +1,0 @@
-  fun unset_placement(scrolled_window': GtkScrolledWindow): None =>
-    @gtk_scrolled_window_unset_placement(scrolled_window')

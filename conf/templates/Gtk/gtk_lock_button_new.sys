@@ -1,2 +1,0 @@
-  fun new(permission': GPermission): Pointer[GObjectP] =>
-@gtk_lock_button_new(permission')

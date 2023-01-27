@@ -1,2 +1,0 @@
-  fun ref is_empty(): I32 =>
-    GQueueP.is_empty(this)

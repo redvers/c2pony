@@ -1,2 +1,0 @@
-  fun ref get_expanded(): I32 =>
-    GtkTreeListRowP.get_expanded(this)

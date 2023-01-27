@@ -1,1 +1,0 @@
-use @gtk_media_stream_seek[None](self': GtkMediaStream, timestamp': I64)

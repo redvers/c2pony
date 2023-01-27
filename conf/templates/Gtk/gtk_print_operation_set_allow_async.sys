@@ -1,2 +1,0 @@
-  fun set_allow_async(op': GtkPrintOperation, allow_async': I32): None =>
-    @gtk_print_operation_set_allow_async(op', allow_async')

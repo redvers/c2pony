@@ -1,1 +1,0 @@
-use @g_hook_destroy[I32](hook_list': GHookList, hook_id': U64)

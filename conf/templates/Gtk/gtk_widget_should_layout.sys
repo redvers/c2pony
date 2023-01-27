@@ -1,2 +1,0 @@
-  fun should_layout(widget': GtkWidgetI): I32 =>
-    @gtk_widget_should_layout(widget'.getptr())

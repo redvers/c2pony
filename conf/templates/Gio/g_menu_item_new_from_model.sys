@@ -1,2 +1,0 @@
-  fun new_from_model(model': GMenuModel, item_index': I32): GMenuItem =>
-    @g_menu_item_new_from_model(model', item_index')

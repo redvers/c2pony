@@ -1,2 +1,0 @@
-  fun get_line_at_y(text_view': GtkTextView, target_iter': GtkTextIter, y': I32, line_top': Pointer[I32] tag): None =>
-    @gtk_text_view_get_line_at_y(text_view', target_iter', y', line_top')

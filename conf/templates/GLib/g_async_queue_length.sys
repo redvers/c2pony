@@ -1,2 +1,0 @@
-  fun length(queue': GAsyncQueue): I32 =>
-    @g_async_queue_length(queue')

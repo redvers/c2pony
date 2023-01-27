@@ -1,2 +1,0 @@
-  fun new_with_attributes(title': String, cell': GtkCellRenderer, ...): GtkTreeViewColumn =>
-    @gtk_tree_view_column_new_with_attributes(title'.cstring(), cell', ...)

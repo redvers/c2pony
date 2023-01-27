@@ -1,2 +1,0 @@
-  fun ref get_pending(): U32 =>
-    GtkFilterListModelP.get_pending(this)

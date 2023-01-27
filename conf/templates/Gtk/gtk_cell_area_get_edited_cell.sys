@@ -1,2 +1,0 @@
-  fun get_edited_cell(area': GtkCellArea): GtkCellRenderer =>
-    @gtk_cell_area_get_edited_cell(area')

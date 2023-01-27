@@ -1,1 +1,0 @@
-use @g_return_if_fail_warning[None](log_domain': Pointer[U8] tag, pretty_function': Pointer[U8] tag, expression': Pointer[U8] tag)

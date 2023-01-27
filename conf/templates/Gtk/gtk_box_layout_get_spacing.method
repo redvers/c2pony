@@ -1,2 +1,0 @@
-  fun ref get_spacing(): U32 =>
-    GtkBoxLayoutP.get_spacing(this)

@@ -1,2 +1,0 @@
-  fun set_max_content_height(scrolled_window': GtkScrolledWindow, height': I32): None =>
-    @gtk_scrolled_window_set_max_content_height(scrolled_window', height')

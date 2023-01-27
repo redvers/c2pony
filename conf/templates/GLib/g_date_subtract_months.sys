@@ -1,2 +1,0 @@
-  fun subtract_months(date': GDate, n_months': U32): None =>
-    @g_date_subtract_months(date', n_months')

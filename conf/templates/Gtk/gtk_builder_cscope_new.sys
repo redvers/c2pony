@@ -1,2 +1,0 @@
-  fun new(): GtkBuilderScope =>
-    @gtk_builder_cscope_new()

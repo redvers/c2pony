@@ -1,1 +1,0 @@
-use @gtk_list_store_newv[GtkListStore](n_columns': I32, types': Pointer[U64] tag)

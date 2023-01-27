@@ -1,2 +1,0 @@
-  fun get_child(page': GtkNotebookPage): Pointer[GObjectP] =>
-@gtk_notebook_page_get_child(page')

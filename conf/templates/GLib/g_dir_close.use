@@ -1,1 +1,0 @@
-use @g_dir_close[None](dir': GDir)

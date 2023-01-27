@@ -1,2 +1,0 @@
-  fun ref get_completed(): I32 =>
-    GTaskP.get_completed(this)

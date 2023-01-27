@@ -1,2 +1,0 @@
-  fun set_menu_model(popover': GtkPopoverMenu, model': GMenuModel): None =>
-    @gtk_popover_menu_set_menu_model(popover', model')

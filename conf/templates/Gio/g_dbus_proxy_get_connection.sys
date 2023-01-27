@@ -1,2 +1,0 @@
-  fun get_connection(proxy': GDBusProxy): GDBusConnection =>
-    @g_dbus_proxy_get_connection(proxy')

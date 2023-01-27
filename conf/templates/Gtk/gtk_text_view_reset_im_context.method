@@ -1,2 +1,0 @@
-  fun ref reset_im_context(): None =>
-    GtkTextViewP.reset_im_context(this)

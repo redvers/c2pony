@@ -1,2 +1,0 @@
-  fun get_keys(hash_table': GHashTable): GList =>
-    @g_hash_table_get_keys(hash_table')

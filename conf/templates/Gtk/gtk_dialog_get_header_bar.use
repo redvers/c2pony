@@ -1,1 +1,0 @@
-use @gtk_dialog_get_header_bar[Pointer[GObjectP]](dialog': GtkDialog)

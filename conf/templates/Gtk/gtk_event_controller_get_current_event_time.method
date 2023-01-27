@@ -1,2 +1,0 @@
-  fun ref get_current_event_time(): U32 =>
-    GtkEventControllerP.get_current_event_time(this)

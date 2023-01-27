@@ -1,2 +1,0 @@
-  fun ref set_default_widget(default_widget': GtkWidgetI): None =>
-    GtkWindowP.set_default_widget(this, default_widget')

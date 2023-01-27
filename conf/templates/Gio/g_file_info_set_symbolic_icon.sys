@@ -1,2 +1,0 @@
-  fun set_symbolic_icon(info': GFileInfo, icon': GIcon): None =>
-    @g_file_info_set_symbolic_icon(info', icon')

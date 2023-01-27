@@ -1,1 +1,0 @@
-use @gtk_widget_get_vexpand_set[I32](widget': Pointer[GObjectP])

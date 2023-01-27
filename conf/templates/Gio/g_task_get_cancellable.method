@@ -1,2 +1,0 @@
-  fun ref get_cancellable(): GCancellable =>
-    GTaskP.get_cancellable(this)

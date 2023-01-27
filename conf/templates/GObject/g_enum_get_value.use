@@ -1,1 +1,0 @@
-use @g_enum_get_value[GEnumValue](enum_class': GEnumClass, value': I32)

@@ -1,2 +1,0 @@
-  fun utf8_strrchr(p': String, len': I64, c': U32): String iso^ =>
-    String.from_cstring(@g_utf8_strrchr(p'.cstring(), len', c')).clone()

@@ -1,2 +1,0 @@
-  fun ref add_mark(value': F64, position': U32, markup': String): None =>
-    GtkScaleP.add_mark(this, value', position', markup')

@@ -1,1 +1,0 @@
-use @g_tree_remove[I32](tree': GTree, key': Pointer[None] tag)

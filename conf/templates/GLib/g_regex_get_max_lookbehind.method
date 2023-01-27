@@ -1,2 +1,0 @@
-  fun ref get_max_lookbehind(): I32 =>
-    GRegexP.get_max_lookbehind(this)

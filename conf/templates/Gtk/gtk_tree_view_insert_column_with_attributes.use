@@ -1,1 +1,0 @@
-use @gtk_tree_view_insert_column_with_attributes[I32](tree_view': GtkTreeView, position': I32, title': Pointer[U8] tag, cell': GtkCellRenderer, ...)

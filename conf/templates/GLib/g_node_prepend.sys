@@ -1,2 +1,0 @@
-  fun prepend(parent': GNode, node': GNode): GNode =>
-    @g_node_prepend(parent', node')

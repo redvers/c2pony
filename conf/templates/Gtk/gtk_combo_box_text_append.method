@@ -1,2 +1,0 @@
-  fun ref append(id': String, text': String): None =>
-    GtkComboBoxTextP.append(this, id', text')

@@ -1,2 +1,0 @@
-  fun escape_bytes(unescaped': String, length': U64, reserved_chars_allowed': String): String iso^ =>
-    String.from_cstring(@g_uri_escape_bytes(unescaped'.cstring(), length', reserved_chars_allowed'.cstring())).clone()

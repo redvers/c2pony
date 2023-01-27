@@ -1,2 +1,0 @@
-  fun get_start_location(section': GtkCssSection): GtkCssLocation =>
-    @gtk_css_section_get_start_location(section')

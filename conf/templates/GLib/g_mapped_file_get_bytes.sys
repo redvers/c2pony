@@ -1,2 +1,0 @@
-  fun get_bytes(file': GMappedFile): GBytes =>
-    @g_mapped_file_get_bytes(file')

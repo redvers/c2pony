@@ -1,2 +1,0 @@
-  fun ref to_paintable(size': graphenesizet): GdkPaintable =>
-    P.to_paintable(this, size')

@@ -1,1 +1,0 @@
-use @g_atomic_int_and[U32](atomic': Pointer[U32] tag, val': U32)

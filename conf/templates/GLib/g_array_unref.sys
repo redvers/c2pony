@@ -1,2 +1,0 @@
-  fun unref(array': GArray): None =>
-    @g_array_unref(array')

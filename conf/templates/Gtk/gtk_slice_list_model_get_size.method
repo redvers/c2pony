@@ -1,2 +1,0 @@
-  fun ref get_size(): U32 =>
-    GtkSliceListModelP.get_size(this)

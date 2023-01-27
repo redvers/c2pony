@@ -1,2 +1,0 @@
-  fun set_disabled_text(self': GtkShortcutLabel, disabled_text': String): None =>
-    @gtk_shortcut_label_set_disabled_text(self', disabled_text'.cstring())

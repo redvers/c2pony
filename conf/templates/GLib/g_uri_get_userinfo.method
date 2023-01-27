@@ -1,2 +1,0 @@
-  fun ref get_userinfo(): String iso^ =>
-    GUriP.get_userinfo(this)

@@ -1,2 +1,0 @@
-  fun ref set_cached_property(property_name': String, value': GVariant): None =>
-    GDBusProxyP.set_cached_property(this, property_name', value')

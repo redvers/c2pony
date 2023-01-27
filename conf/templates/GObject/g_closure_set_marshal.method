@@ -1,2 +1,0 @@
-  fun ref set_marshal(marshal': GClosureMarshal): None =>
-    GClosureP.set_marshal(this, marshal')

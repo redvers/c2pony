@@ -1,2 +1,0 @@
-  fun on_error_stack_trace(prg_name': String): None =>
-    @g_on_error_stack_trace(prg_name'.cstring())

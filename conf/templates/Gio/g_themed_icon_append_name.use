@@ -1,1 +1,0 @@
-use @g_themed_icon_append_name[None](icon': GThemedIcon, iconname': Pointer[U8] tag)

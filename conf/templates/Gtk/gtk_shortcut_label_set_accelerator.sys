@@ -1,2 +1,0 @@
-  fun set_accelerator(self': GtkShortcutLabel, accelerator': String): None =>
-    @gtk_shortcut_label_set_accelerator(self', accelerator'.cstring())

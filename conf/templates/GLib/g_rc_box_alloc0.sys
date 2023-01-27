@@ -1,2 +1,0 @@
-  fun rc_box_alloc0(block_size': U64): Pointer[None] tag =>
-    @g_rc_box_alloc0(block_size')

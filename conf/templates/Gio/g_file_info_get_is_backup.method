@@ -1,2 +1,0 @@
-  fun ref get_is_backup(): I32 =>
-    GFileInfoP.get_is_backup(this)

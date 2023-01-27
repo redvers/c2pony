@@ -1,2 +1,0 @@
-  fun get_text_column(completion': GtkEntryCompletion): I32 =>
-    @gtk_entry_completion_get_text_column(completion')

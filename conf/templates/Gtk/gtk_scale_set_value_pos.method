@@ -1,2 +1,0 @@
-  fun ref set_value_pos(pos': U32): None =>
-    GtkScaleP.set_value_pos(this, pos')

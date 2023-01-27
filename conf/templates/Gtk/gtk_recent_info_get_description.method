@@ -1,2 +1,0 @@
-  fun ref get_description(): String iso^ =>
-    GtkRecentInfoP.get_description(this)

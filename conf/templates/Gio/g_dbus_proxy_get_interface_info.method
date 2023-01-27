@@ -1,2 +1,0 @@
-  fun ref get_interface_info(): GDBusInterfaceInfo =>
-    GDBusProxyP.get_interface_info(this)

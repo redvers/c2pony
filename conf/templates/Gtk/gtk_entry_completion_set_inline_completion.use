@@ -1,1 +1,0 @@
-use @gtk_entry_completion_set_inline_completion[None](completion': GtkEntryCompletion, inline_completion': I32)

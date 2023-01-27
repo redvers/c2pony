@@ -1,2 +1,0 @@
-  fun ref set_title(setting': String): None =>
-    GtkStackPageP.set_title(this, setting')

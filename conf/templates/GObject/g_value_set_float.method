@@ -1,2 +1,0 @@
-  fun ref set_float(v_float': F32): None =>
-    GValueP.set_float(this, v_float')

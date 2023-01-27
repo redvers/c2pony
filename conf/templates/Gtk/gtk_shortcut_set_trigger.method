@@ -1,2 +1,0 @@
-  fun ref set_trigger(trigger': GtkShortcutTrigger): None =>
-    GtkShortcutP.set_trigger(this, trigger')

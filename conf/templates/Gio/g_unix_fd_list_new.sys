@@ -1,2 +1,0 @@
-  fun new(): GUnixFDList =>
-    @g_unix_fd_list_new()

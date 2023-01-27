@@ -1,2 +1,0 @@
-  fun ref set_summary(summary': String): None =>
-    GOptionContextP.set_summary(this, summary')

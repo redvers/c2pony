@@ -1,2 +1,0 @@
-  fun stop(timer': GTimer): None =>
-    @g_timer_stop(timer')

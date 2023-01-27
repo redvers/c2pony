@@ -1,1 +1,0 @@
-use @gtk_widget_get_frame_clock[GdkFrameClock](widget': Pointer[GObjectP])

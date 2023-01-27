@@ -1,2 +1,0 @@
-  fun down(path': GtkTreePath): None =>
-    @gtk_tree_path_down(path')

@@ -1,2 +1,0 @@
-  fun ref get_pages(): GListModel =>
-    GtkAssistantP.get_pages(this)

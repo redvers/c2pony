@@ -1,2 +1,0 @@
-  fun try_pop_unlocked(queue': GAsyncQueue): Pointer[None] tag =>
-    @g_async_queue_try_pop_unlocked(queue')

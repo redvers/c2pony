@@ -1,2 +1,0 @@
-  fun type_name(type': U64): String iso^ =>
-    String.from_cstring(@g_type_name(type')).clone()

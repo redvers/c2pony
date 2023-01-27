@@ -1,2 +1,0 @@
-  fun ref set_increments(step': F64, page': F64): None =>
-    GtkRangeP.set_increments(this, step', page')

@@ -1,2 +1,0 @@
-  fun boxed_type_register_static(name': String, boxed_copy': GBoxedCopyFunc, boxed_free': GBoxedFreeFunc): U64 =>
-    @g_boxed_type_register_static(name'.cstring(), boxed_copy', boxed_free')

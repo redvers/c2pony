@@ -1,2 +1,0 @@
-  fun strcompress(source': String): String iso^ =>
-    String.from_cstring(@g_strcompress(source'.cstring())).clone()

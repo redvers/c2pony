@@ -1,2 +1,0 @@
-  fun ref fill_async(count': I64, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    GBufferedInputStreamP.fill_async(this, count', io_priority', cancellable', callback', user_data')

@@ -1,2 +1,0 @@
-  fun test_summary(summary': String): None =>
-    @g_test_summary(summary'.cstring())

@@ -1,2 +1,0 @@
-  fun unichar_isupper(c': U32): I32 =>
-    @g_unichar_isupper(c')

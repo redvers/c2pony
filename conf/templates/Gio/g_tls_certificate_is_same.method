@@ -1,2 +1,0 @@
-  fun ref is_same(cert_two': GTlsCertificate): I32 =>
-    GTlsCertificateP.is_same(this, cert_two')

@@ -1,2 +1,0 @@
-  fun get_adjustment(box': GtkListBox): GtkAdjustment =>
-    @gtk_list_box_get_adjustment(box')

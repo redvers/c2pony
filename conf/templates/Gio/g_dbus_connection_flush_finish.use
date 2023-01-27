@@ -1,1 +1,0 @@
-use @g_dbus_connection_flush_finish[I32](connection': GDBusConnection, res': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

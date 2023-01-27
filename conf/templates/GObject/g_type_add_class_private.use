@@ -1,1 +1,0 @@
-use @g_type_add_class_private[None](class_type': U64, private_size': U64)

@@ -1,2 +1,0 @@
-  fun get_locale_for_key(key_file': GKeyFile, group_name': String, key': String, locale': String): String iso^ =>
-    String.from_cstring(@g_key_file_get_locale_for_key(key_file', group_name'.cstring(), key'.cstring(), locale'.cstring())).clone()

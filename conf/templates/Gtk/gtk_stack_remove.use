@@ -1,1 +1,0 @@
-use @gtk_stack_remove[None](stack': GtkStack, child': Pointer[GObjectP])

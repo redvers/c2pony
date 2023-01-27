@@ -1,2 +1,0 @@
-  fun get_orientation(self': GtkCenterLayout): U32 =>
-    @gtk_center_layout_get_orientation(self')

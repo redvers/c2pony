@@ -1,2 +1,0 @@
-  fun ref next(error': GError): I32 =>
-    GMatchInfoP.next(this, error')

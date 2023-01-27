@@ -1,1 +1,0 @@
-use @gtk_custom_sorter_set_sort_func[None](self': GtkCustomSorter, sort_func': GCompareDataFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify)

@@ -1,1 +1,0 @@
-use @gtk_widget_keynav_failed[I32](widget': Pointer[GObjectP], direction': U32)

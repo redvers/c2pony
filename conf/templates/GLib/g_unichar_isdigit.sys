@@ -1,2 +1,0 @@
-  fun unichar_isdigit(c': U32): I32 =>
-    @g_unichar_isdigit(c')

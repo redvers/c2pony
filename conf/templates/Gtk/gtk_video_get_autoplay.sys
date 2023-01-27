@@ -1,2 +1,0 @@
-  fun get_autoplay(self': GtkVideo): I32 =>
-    @gtk_video_get_autoplay(self')

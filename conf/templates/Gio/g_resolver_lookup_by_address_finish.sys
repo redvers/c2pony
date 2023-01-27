@@ -1,2 +1,0 @@
-  fun lookup_by_address_finish(resolver': GResolver, result': GAsyncResult, error': GError): String iso^ =>
-    String.from_cstring(@g_resolver_lookup_by_address_finish(resolver', result', addressof error'.ptr)).clone()

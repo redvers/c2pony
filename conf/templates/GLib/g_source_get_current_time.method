@@ -1,2 +1,0 @@
-  fun ref get_current_time(timeval': GTimeVal): None =>
-    GSourceP.get_current_time(this, timeval')

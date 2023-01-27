@@ -1,2 +1,0 @@
-  fun ref clear(): None =>
-    GtkImageP.clear(this)

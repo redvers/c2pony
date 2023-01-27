@@ -1,2 +1,0 @@
-  fun to_file(bookmark': GBookmarkFile, filename': String, error': GError): I32 =>
-    @g_bookmark_file_to_file(bookmark', filename'.cstring(), addressof error'.ptr)

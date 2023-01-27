@@ -1,2 +1,0 @@
-  fun ref set_default_response(response_id': I32): None =>
-    GtkDialogP.set_default_response(this, response_id')

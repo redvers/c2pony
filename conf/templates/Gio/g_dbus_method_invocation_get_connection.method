@@ -1,2 +1,0 @@
-  fun ref get_connection(): GDBusConnection =>
-    GDBusMethodInvocationP.get_connection(this)

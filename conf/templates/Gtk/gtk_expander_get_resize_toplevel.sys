@@ -1,2 +1,0 @@
-  fun get_resize_toplevel(expander': GtkExpander): I32 =>
-    @gtk_expander_get_resize_toplevel(expander')

@@ -1,2 +1,0 @@
-  fun ref set_show_day_names(value': I32): None =>
-    GtkCalendarP.set_show_day_names(this, value')

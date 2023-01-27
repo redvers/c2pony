@@ -1,2 +1,0 @@
-  fun add_poll(context': GMainContext, fd': GPollFD, priority': I32): None =>
-    @g_main_context_add_poll(context', fd', priority')

@@ -1,2 +1,0 @@
-  fun return_value(invocation': GDBusMethodInvocation, parameters': GVariant): None =>
-    @g_dbus_method_invocation_return_value(invocation', parameters')

@@ -1,2 +1,0 @@
-  fun invalidate_filter(box': GtkListBox): None =>
-    @gtk_list_box_invalidate_filter(box')

@@ -1,1 +1,0 @@
-use @g_byte_array_remove_index[GByteArray](array': GByteArray, index': U32)

@@ -1,2 +1,0 @@
-  fun ref insert_row(position': I32): None =>
-    GtkGridP.insert_row(this, position')

@@ -1,2 +1,0 @@
-  fun get_toplevels(): GListModel =>
-    @gtk_window_get_toplevels()

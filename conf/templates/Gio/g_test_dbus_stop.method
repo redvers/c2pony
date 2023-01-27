@@ -1,2 +1,0 @@
-  fun ref stop(): None =>
-    GTestDBusP.stop(this)

@@ -1,2 +1,0 @@
-  fun get_int64(value': GVariant): I64 =>
-    @g_variant_get_int64(value')

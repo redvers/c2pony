@@ -1,2 +1,0 @@
-  fun get_ltr_context(text_view': GtkTextView): PangoContext =>
-    @gtk_text_view_get_ltr_context(text_view')

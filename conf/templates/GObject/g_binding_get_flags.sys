@@ -1,2 +1,0 @@
-  fun get_flags(binding': GBinding): U32 =>
-    @g_binding_get_flags(binding')

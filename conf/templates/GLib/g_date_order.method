@@ -1,2 +1,0 @@
-  fun ref order(date2': GDate): None =>
-    GDateP.order(this, date2')

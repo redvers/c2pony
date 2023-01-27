@@ -1,2 +1,0 @@
-  fun mkstemp_full(tmpl': String, flags': I32, mode': I32): I32 =>
-    @g_mkstemp_full(tmpl'.cstring(), flags', mode')

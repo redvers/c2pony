@@ -1,2 +1,0 @@
-  fun ref prepend_c(c': U8): GString =>
-    GStringP.prepend_c(this, c')

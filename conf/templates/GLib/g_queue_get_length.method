@@ -1,2 +1,0 @@
-  fun ref get_length(): U32 =>
-    GQueueP.get_length(this)

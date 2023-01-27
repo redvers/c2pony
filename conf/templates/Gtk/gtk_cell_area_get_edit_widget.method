@@ -1,2 +1,0 @@
-  fun ref get_edit_widget(): GtkCellEditable =>
-    GtkCellAreaP.get_edit_widget(this)

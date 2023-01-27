@@ -1,2 +1,0 @@
-  fun content_type_get_icon(type': String): GIcon =>
-    @g_content_type_get_icon(type'.cstring())

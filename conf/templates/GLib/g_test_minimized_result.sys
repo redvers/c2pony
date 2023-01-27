@@ -1,2 +1,0 @@
-  fun test_minimized_result(minimized_quantity': F64, format': String, ...): None =>
-    @g_test_minimized_result(minimized_quantity', format'.cstring(), ...)

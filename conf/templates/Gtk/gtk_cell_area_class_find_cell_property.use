@@ -1,1 +1,0 @@
-use @gtk_cell_area_class_find_cell_property[GParamSpec](aclass': GtkCellAreaClass, property_name': Pointer[U8] tag)

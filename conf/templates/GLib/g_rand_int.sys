@@ -1,2 +1,0 @@
-  fun int(rand': GRand): U32 =>
-    @g_rand_int(rand')

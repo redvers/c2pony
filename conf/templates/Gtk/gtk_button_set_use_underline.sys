@@ -1,2 +1,0 @@
-  fun set_use_underline(button': GtkButton, use_underline': I32): None =>
-    @gtk_button_set_use_underline(button', use_underline')

@@ -1,2 +1,0 @@
-  fun equal(v': GString, v2': GString): I32 =>
-    @g_string_equal(v', v2')

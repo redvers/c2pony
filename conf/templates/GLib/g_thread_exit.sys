@@ -1,2 +1,0 @@
-  fun exit(retval': Pointer[None] tag): None =>
-    @g_thread_exit(retval')

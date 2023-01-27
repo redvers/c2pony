@@ -1,2 +1,0 @@
-  fun strcmp0(str1': String, str2': String): I32 =>
-    @g_strcmp0(str1'.cstring(), str2'.cstring())

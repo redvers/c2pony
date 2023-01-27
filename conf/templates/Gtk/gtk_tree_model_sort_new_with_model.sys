@@ -1,2 +1,0 @@
-  fun new_with_model(child_model': GtkTreeModel): GtkTreeModel =>
-    @gtk_tree_model_sort_new_with_model(child_model')

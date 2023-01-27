@@ -1,2 +1,0 @@
-  fun ref lookup_certificates_issued_by(issuer_raw_dn': GByteArray, interaction': GTlsInteraction, flags': U32, cancellable': GCancellable, error': GError): GList =>
-    GTlsDatabaseP.lookup_certificates_issued_by(this, issuer_raw_dn', interaction', flags', cancellable', error')

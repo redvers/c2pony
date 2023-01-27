@@ -1,1 +1,0 @@
-use @gtk_assistant_set_page_complete[None](assistant': GtkAssistant, page': Pointer[GObjectP], complete': I32)

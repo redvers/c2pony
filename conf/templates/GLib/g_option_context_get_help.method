@@ -1,2 +1,0 @@
-  fun ref get_help(main_help': I32, group': GOptionGroup): String iso^ =>
-    GOptionContextP.get_help(this, main_help', group')

@@ -1,2 +1,0 @@
-  fun hash(datetime': Pointer[None] tag): U32 =>
-    @g_date_time_hash(datetime')

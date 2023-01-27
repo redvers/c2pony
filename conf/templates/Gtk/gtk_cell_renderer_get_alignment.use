@@ -1,1 +1,0 @@
-use @gtk_cell_renderer_get_alignment[None](cell': GtkCellRenderer, xalign': Pointer[F32] tag, yalign': Pointer[F32] tag)

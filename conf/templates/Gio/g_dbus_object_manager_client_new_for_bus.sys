@@ -1,2 +1,0 @@
-  fun new_for_bus(bus_type': I32, flags': U32, name': String, object_path': String, get_proxy_type_func': GDBusProxyTypeFunc, get_proxy_type_user_data': Pointer[None] tag, get_proxy_type_destroy_notify': GDestroyNotify, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_dbus_object_manager_client_new_for_bus(bus_type', flags', name'.cstring(), object_path'.cstring(), get_proxy_type_func', get_proxy_type_user_data', get_proxy_type_destroy_notify', cancellable', callback', user_data')

@@ -1,2 +1,0 @@
-  fun ref invalidate(): None =>
-    GClosureP.invalidate(this)

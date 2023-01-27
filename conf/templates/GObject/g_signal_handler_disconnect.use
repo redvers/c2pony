@@ -1,1 +1,0 @@
-use @g_signal_handler_disconnect[None](instance': Pointer[None] tag, handler_id': U64)

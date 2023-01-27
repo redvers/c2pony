@@ -1,2 +1,0 @@
-  fun warn_message(domain': String, file': String, line': I32, func': String, warnexpr': String): None =>
-    @g_warn_message(domain'.cstring(), file'.cstring(), line', func'.cstring(), warnexpr'.cstring())

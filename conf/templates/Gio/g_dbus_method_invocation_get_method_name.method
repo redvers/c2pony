@@ -1,2 +1,0 @@
-  fun ref get_method_name(): String iso^ =>
-    GDBusMethodInvocationP.get_method_name(this)

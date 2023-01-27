@@ -1,2 +1,0 @@
-  fun ref lookup_color(color_name': String, color': GdkRGBA): I32 =>
-    GtkStyleContextP.lookup_color(this, color_name', color')

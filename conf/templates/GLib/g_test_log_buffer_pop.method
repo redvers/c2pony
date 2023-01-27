@@ -1,2 +1,0 @@
-  fun ref pop(): anon_2387 =>
-    GTestLogBufferP.pop(this)

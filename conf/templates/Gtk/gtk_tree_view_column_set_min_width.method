@@ -1,2 +1,0 @@
-  fun ref set_min_width(min_width': I32): None =>
-    GtkTreeViewColumnP.set_min_width(this, min_width')

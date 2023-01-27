@@ -1,2 +1,0 @@
-  fun focus(area': GtkCellArea, direction': U32): I32 =>
-    @gtk_cell_area_focus(area', direction')

@@ -1,1 +1,0 @@
-use @gtk_tree_store_iter_is_valid[I32](tree_store': GtkTreeStore, iter': GtkTreeIter)

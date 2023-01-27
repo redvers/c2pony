@@ -1,2 +1,0 @@
-  fun ref(array': GArray): GArray =>
-    @g_array_ref(array')

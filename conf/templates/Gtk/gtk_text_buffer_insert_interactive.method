@@ -1,2 +1,0 @@
-  fun ref insert_interactive(iter': GtkTextIter, text': String, len': I32, default_editable': I32): I32 =>
-    GtkTextBufferP.insert_interactive(this, iter', text', len', default_editable')

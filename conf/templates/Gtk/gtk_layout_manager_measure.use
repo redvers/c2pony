@@ -1,1 +1,0 @@
-use @gtk_layout_manager_measure[None](manager': GtkLayoutManager, widget': Pointer[GObjectP], orientation': U32, for_size': I32, minimum': Pointer[I32] tag, natural': Pointer[I32] tag, minimum_baseline': Pointer[I32] tag, natural_baseline': Pointer[I32] tag)

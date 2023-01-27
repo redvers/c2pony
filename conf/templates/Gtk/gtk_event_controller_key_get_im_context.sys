@@ -1,2 +1,0 @@
-  fun get_im_context(controller': GtkEventControllerKey): GtkIMContext =>
-    @gtk_event_controller_key_get_im_context(controller')

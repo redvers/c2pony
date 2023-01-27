@@ -1,2 +1,0 @@
-  fun has_connection(interface': GDBusInterfaceSkeleton, connection': GDBusConnection): I32 =>
-    @g_dbus_interface_skeleton_has_connection(interface', connection')

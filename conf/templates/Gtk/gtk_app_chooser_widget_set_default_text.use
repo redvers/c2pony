@@ -1,1 +1,0 @@
-use @gtk_app_chooser_widget_set_default_text[None](self': GtkAppChooserWidget, text': Pointer[U8] tag)

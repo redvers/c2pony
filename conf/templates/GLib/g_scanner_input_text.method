@@ -1,2 +1,0 @@
-  fun ref input_text(text': String, text_len': U32): None =>
-    GScannerP.input_text(this, text', text_len')

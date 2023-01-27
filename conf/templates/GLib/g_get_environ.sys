@@ -1,2 +1,0 @@
-  fun get_environ(): Pointer[Pointer[U8]] tag =>
-    @g_get_environ()

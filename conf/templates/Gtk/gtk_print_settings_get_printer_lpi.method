@@ -1,2 +1,0 @@
-  fun ref get_printer_lpi(): F64 =>
-    GtkPrintSettingsP.get_printer_lpi(this)

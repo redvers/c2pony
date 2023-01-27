@@ -1,2 +1,0 @@
-  fun ref get_seconds(): F64 =>
-    GDateTimeP.get_seconds(this)

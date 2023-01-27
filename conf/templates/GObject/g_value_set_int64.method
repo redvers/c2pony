@@ -1,2 +1,0 @@
-  fun ref set_int64(v_int64': I64): None =>
-    GValueP.set_int64(this, v_int64')

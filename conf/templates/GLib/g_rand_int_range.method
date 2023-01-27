@@ -1,2 +1,0 @@
-  fun ref int_range(begin': I32, end': I32): I32 =>
-    GRandP.int_range(this, begin', end')

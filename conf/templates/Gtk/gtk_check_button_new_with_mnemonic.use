@@ -1,1 +1,0 @@
-use @gtk_check_button_new_with_mnemonic[Pointer[GObjectP]](label': Pointer[U8] tag)

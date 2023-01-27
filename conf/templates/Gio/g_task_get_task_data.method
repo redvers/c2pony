@@ -1,2 +1,0 @@
-  fun ref get_task_data(): Pointer[None] tag =>
-    GTaskP.get_task_data(this)

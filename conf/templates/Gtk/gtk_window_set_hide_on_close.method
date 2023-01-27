@@ -1,2 +1,0 @@
-  fun ref set_hide_on_close(setting': I32): None =>
-    GtkWindowP.set_hide_on_close(this, setting')

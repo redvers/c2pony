@@ -1,2 +1,0 @@
-  fun ref set_item_width(item_width': I32): None =>
-    GtkIconViewP.set_item_width(this, item_width')

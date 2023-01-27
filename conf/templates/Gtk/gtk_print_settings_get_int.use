@@ -1,1 +1,0 @@
-use @gtk_print_settings_get_int[I32](settings': GtkPrintSettings, key': Pointer[U8] tag)

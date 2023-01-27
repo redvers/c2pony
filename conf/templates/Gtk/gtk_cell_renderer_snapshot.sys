@@ -1,2 +1,0 @@
-  fun snapshot(cell': GtkCellRenderer, snapshot': GdkSnapshot, widget': GtkWidgetI, background_area': cairorectangleint, cell_area': cairorectangleint, flags': U32): None =>
-    @gtk_cell_renderer_snapshot(cell', snapshot', widget'.getptr(), background_area', cell_area', flags')

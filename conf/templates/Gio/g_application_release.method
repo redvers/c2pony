@@ -1,2 +1,0 @@
-  fun ref release(): None =>
-    GApplicationP.release(this)

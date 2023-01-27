@@ -1,2 +1,0 @@
-  fun unref(key_file': GKeyFile): None =>
-    @g_key_file_unref(key_file')

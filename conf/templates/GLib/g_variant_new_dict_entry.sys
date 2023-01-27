@@ -1,2 +1,0 @@
-  fun new_dict_entry(key': GVariant, value': GVariant): GVariant =>
-    @g_variant_new_dict_entry(key', value')

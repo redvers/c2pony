@@ -1,2 +1,0 @@
-  fun ref set_modified(uri': String, modified': I64): None =>
-    GBookmarkFileP.set_modified(this, uri', modified')

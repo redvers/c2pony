@@ -1,2 +1,0 @@
-  fun ref get_input_purpose(): U32 =>
-    GtkTextViewP.get_input_purpose(this)

@@ -1,2 +1,0 @@
-  fun ref get_column(): I32 =>
-    GtkGridLayoutChildP.get_column(this)

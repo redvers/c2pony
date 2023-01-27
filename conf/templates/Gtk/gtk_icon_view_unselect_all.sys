@@ -1,2 +1,0 @@
-  fun unselect_all(icon_view': GtkIconView): None =>
-    @gtk_icon_view_unselect_all(icon_view')

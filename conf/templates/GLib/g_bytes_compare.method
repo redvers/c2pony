@@ -1,2 +1,0 @@
-  fun ref compare(bytes2': Pointer[None] tag): I32 =>
-    GBytesP.compare(this, bytes2')

@@ -1,1 +1,0 @@
-use @gtk_label_set_markup[None](self': GtkLabel, str': Pointer[U8] tag)

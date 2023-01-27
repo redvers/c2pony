@@ -1,2 +1,0 @@
-  fun search(seq': GSequence, data': Pointer[None] tag, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag): GSequenceNode =>
-    @g_sequence_search(seq', data', cmp_func', cmp_data')

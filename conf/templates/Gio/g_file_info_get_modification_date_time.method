@@ -1,2 +1,0 @@
-  fun ref get_modification_date_time(): GDateTime =>
-    GFileInfoP.get_modification_date_time(this)

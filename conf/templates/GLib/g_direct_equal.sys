@@ -1,2 +1,0 @@
-  fun direct_equal(v1': Pointer[None] tag, v2': Pointer[None] tag): I32 =>
-    @g_direct_equal(v1', v2')

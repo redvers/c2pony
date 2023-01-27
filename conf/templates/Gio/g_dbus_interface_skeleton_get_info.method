@@ -1,2 +1,0 @@
-  fun ref get_info(): GDBusInterfaceInfo =>
-    GDBusInterfaceSkeletonP.get_info(this)

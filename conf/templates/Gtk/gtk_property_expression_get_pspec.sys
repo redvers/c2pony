@@ -1,2 +1,0 @@
-  fun get_pspec(expression': GtkExpression): GParamSpec =>
-    @gtk_property_expression_get_pspec(expression')

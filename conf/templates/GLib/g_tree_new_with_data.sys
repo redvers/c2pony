@@ -1,2 +1,0 @@
-  fun new_with_data(key_compare_func': GCompareDataFunc, key_compare_data': Pointer[None] tag): GTree =>
-    @g_tree_new_with_data(key_compare_func', key_compare_data')

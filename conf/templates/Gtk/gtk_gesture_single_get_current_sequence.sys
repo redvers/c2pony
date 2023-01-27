@@ -1,2 +1,0 @@
-  fun get_current_sequence(gesture': GtkGestureSingle): GdkEventSequence =>
-    @gtk_gesture_single_get_current_sequence(gesture')

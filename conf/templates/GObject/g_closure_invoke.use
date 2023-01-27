@@ -1,1 +1,0 @@
-use @g_closure_invoke[None](closure': GClosure, return_value': GValue, n_param_values': U32, param_values': GValue, invocation_hint': Pointer[None] tag)

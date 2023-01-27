@@ -1,2 +1,0 @@
-  fun return_value(task': GTask, result': GValue): None =>
-    @g_task_return_value(task', result')

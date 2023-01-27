@@ -1,2 +1,0 @@
-  fun ref is_first_of_month(): I32 =>
-    GDateP.is_first_of_month(this)

@@ -1,1 +1,0 @@
-use @g_scanner_scope_foreach_symbol[None](scanner': GScanner, scope_id': U32, func': GHFunc, user_data': Pointer[None] tag)

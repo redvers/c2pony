@@ -1,1 +1,0 @@
-use @g_value_set_float[None](value': GValue, v_float': F32)

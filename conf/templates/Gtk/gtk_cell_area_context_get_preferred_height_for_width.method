@@ -1,2 +1,0 @@
-  fun ref get_preferred_height_for_width(width': I32, minimum_height': Pointer[I32] tag, natural_height': Pointer[I32] tag): None =>
-    GtkCellAreaContextP.get_preferred_height_for_width(this, width', minimum_height', natural_height')

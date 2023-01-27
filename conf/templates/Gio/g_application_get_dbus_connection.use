@@ -1,1 +1,0 @@
-use @g_application_get_dbus_connection[GDBusConnection](application': Pointer[GObjectP])

@@ -1,2 +1,0 @@
-  fun ref previous(value': Pointer[U32] tag): I32 =>
-    GtkBitsetIterP.previous(this, value')

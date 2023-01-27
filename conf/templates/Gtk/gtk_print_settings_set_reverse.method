@@ -1,2 +1,0 @@
-  fun ref set_reverse(reverse': I32): None =>
-    GtkPrintSettingsP.set_reverse(this, reverse')

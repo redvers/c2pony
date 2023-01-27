@@ -1,2 +1,0 @@
-  fun ref im_context_filter_keypress(event': GdkEvent): I32 =>
-    GtkTextViewP.im_context_filter_keypress(this, event')

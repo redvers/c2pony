@@ -1,2 +1,0 @@
-  fun return_boolean(task': GTask, result': I32): None =>
-    @g_task_return_boolean(task', result')

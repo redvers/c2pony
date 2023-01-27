@@ -1,2 +1,0 @@
-  fun ref get_overflow(): U32 =>
-    GtkWidgetP.get_overflow(this)

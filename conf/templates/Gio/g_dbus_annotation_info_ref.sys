@@ -1,2 +1,0 @@
-  fun ref(info': GDBusAnnotationInfo): GDBusAnnotationInfo =>
-    @g_dbus_annotation_info_ref(info')

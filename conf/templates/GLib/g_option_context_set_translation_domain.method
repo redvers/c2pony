@@ -1,2 +1,0 @@
-  fun ref set_translation_domain(domain': String): None =>
-    GOptionContextP.set_translation_domain(this, domain')

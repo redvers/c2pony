@@ -1,2 +1,0 @@
-  fun get_uint(value': GValue): U32 =>
-    @g_value_get_uint(value')

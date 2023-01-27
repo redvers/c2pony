@@ -1,1 +1,0 @@
-use @g_dbus_connection_get_last_serial[U32](connection': GDBusConnection)

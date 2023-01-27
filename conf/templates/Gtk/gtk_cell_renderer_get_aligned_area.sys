@@ -1,2 +1,0 @@
-  fun get_aligned_area(cell': GtkCellRenderer, widget': GtkWidgetI, flags': U32, cell_area': cairorectangleint, aligned_area': cairorectangleint): None =>
-    @gtk_cell_renderer_get_aligned_area(cell', widget'.getptr(), flags', cell_area', aligned_area')

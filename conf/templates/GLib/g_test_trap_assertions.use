@@ -1,1 +1,0 @@
-use @g_test_trap_assertions[None](domain': Pointer[U8] tag, file': Pointer[U8] tag, line': I32, func': Pointer[U8] tag, assertion_flags': U64, pattern': Pointer[U8] tag)

@@ -1,2 +1,0 @@
-  fun ref get_if_signaled(): I32 =>
-    GSubprocessP.get_if_signaled(this)

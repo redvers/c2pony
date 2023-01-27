@@ -1,1 +1,0 @@
-use @g_socket_shutdown[I32](socket': GSocket, shutdown_read': I32, shutdown_write': I32, error': Pointer[NullablePointer[GErrorT]])

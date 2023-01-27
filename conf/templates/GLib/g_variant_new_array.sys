@@ -1,2 +1,0 @@
-  fun new_array(child_type': GVariantType, children': Pointer[GVariant], n_children': U64): GVariant =>
-    @g_variant_new_array(child_type', children', n_children')

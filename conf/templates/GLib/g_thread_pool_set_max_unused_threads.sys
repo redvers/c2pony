@@ -1,2 +1,0 @@
-  fun set_max_unused_threads(max_threads': I32): None =>
-    @g_thread_pool_set_max_unused_threads(max_threads')

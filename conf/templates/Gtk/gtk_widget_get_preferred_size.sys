@@ -1,2 +1,0 @@
-  fun get_preferred_size(widget': GtkWidgetI, minimum_size': GtkRequisition, natural_size': GtkRequisition): None =>
-    @gtk_widget_get_preferred_size(widget'.getptr(), minimum_size', natural_size')

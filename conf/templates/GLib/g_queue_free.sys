@@ -1,2 +1,0 @@
-  fun free(queue': GQueue): None =>
-    @g_queue_free(queue')

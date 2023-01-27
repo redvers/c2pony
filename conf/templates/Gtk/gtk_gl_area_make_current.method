@@ -1,2 +1,0 @@
-  fun ref make_current(): None =>
-    GtkGLAreaP.make_current(this)

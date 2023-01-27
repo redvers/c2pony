@@ -1,2 +1,0 @@
-  fun get_maybe(value': GVariant): GVariant =>
-    @g_variant_get_maybe(value')

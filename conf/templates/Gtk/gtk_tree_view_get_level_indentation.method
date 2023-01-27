@@ -1,2 +1,0 @@
-  fun ref get_level_indentation(): I32 =>
-    GtkTreeViewP.get_level_indentation(this)

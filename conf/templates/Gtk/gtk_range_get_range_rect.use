@@ -1,1 +1,0 @@
-use @gtk_range_get_range_rect[None](range': GtkRange, range_rect': cairorectangleint)

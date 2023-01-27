@@ -1,1 +1,0 @@
-use @g_slice_get_config_state[Pointer[I64] tag](ckey': U32, address': I64, n_values': Pointer[U32] tag)

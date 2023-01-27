@@ -1,2 +1,0 @@
-  fun ref set_forward_page_func(page_func': GtkAssistantPageFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    GtkAssistantP.set_forward_page_func(this, page_func', data', destroy')

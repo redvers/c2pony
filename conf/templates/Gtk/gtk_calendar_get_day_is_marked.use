@@ -1,1 +1,0 @@
-use @gtk_calendar_get_day_is_marked[I32](calendar': GtkCalendar, day': U32)

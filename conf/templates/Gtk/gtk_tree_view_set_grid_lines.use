@@ -1,1 +1,0 @@
-use @gtk_tree_view_set_grid_lines[None](tree_view': GtkTreeView, grid_lines': U32)

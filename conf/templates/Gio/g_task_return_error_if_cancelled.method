@@ -1,2 +1,0 @@
-  fun ref return_error_if_cancelled(): I32 =>
-    GTaskP.return_error_if_cancelled(this)

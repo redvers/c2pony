@@ -1,1 +1,0 @@
-use @gtk_window_set_handle_menubar_accel[None](window': Pointer[GObjectP], handle_menubar_accel': I32)

@@ -1,2 +1,0 @@
-  fun ref set_layout_manager(layout_manager': GtkLayoutManager): None =>
-    GtkWidgetP.set_layout_manager(this, layout_manager')

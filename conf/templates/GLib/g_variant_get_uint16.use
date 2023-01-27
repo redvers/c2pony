@@ -1,1 +1,0 @@
-use @g_variant_get_uint16[U16](value': GVariant)

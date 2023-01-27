@@ -1,1 +1,0 @@
-use @g_dbus_connection_call_finish[GVariant](connection': GDBusConnection, res': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

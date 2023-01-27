@@ -1,2 +1,0 @@
-  fun ref get_font_options(): cairofontoptions =>
-    GtkWidgetP.get_font_options(this)

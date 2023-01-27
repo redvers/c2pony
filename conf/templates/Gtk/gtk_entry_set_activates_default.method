@@ -1,2 +1,0 @@
-  fun ref set_activates_default(setting': I32): None =>
-    GtkEntryP.set_activates_default(this, setting')

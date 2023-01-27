@@ -1,2 +1,0 @@
-  fun insert(simple': GSimpleActionGroup, action': GAction): None =>
-    @g_simple_action_group_insert(simple', action')

@@ -1,2 +1,0 @@
-  fun ref get_model(): GtkTreeModel =>
-    GtkEntryCompletionP.get_model(this)

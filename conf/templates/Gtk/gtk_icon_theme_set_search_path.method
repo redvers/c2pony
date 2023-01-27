@@ -1,2 +1,0 @@
-  fun ref set_search_path(path': Pointer[Pointer[U8]] tag): None =>
-    GtkIconThemeP.set_search_path(this, path')

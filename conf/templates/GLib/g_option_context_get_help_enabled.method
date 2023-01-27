@@ -1,2 +1,0 @@
-  fun ref get_help_enabled(): I32 =>
-    GOptionContextP.get_help_enabled(this)

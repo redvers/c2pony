@@ -1,2 +1,0 @@
-  fun string_sized_new(dfl_size': U64): GString =>
-    @g_string_sized_new(dfl_size')

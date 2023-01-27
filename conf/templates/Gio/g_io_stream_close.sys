@@ -1,2 +1,0 @@
-  fun close(stream': GIOStream, cancellable': GCancellable, error': GError): I32 =>
-    @g_io_stream_close(stream', cancellable', addressof error'.ptr)

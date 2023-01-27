@@ -1,2 +1,0 @@
-  fun ref get_type_from_name(type_name': String): U64 =>
-    GtkBuilderP.get_type_from_name(this, type_name')

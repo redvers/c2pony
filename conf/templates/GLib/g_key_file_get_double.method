@@ -1,2 +1,0 @@
-  fun ref get_double(group_name': String, key': String, error': GError): F64 =>
-    GKeyFileP.get_double(this, group_name', key', error')

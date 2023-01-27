@@ -1,2 +1,0 @@
-  fun strfreev(str_array': Pointer[Pointer[U8]] tag): None =>
-    @g_strfreev(str_array')

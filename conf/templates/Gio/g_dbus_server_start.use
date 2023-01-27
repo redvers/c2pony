@@ -1,1 +1,0 @@
-use @g_dbus_server_start[None](server': GDBusServer)

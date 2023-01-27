@@ -1,2 +1,0 @@
-  fun ref get_icon(): GIcon =>
-    GFileInfoP.get_icon(this)

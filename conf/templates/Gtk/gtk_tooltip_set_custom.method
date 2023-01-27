@@ -1,2 +1,0 @@
-  fun ref set_custom(custom_widget': GtkWidgetI): None =>
-    GtkTooltipP.set_custom(this, custom_widget')

@@ -1,2 +1,0 @@
-  fun ref get_model_for_item(position': U32): GListModel =>
-    GtkFlattenListModelP.get_model_for_item(this, position')

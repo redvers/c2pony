@@ -1,1 +1,0 @@
-use @g_key_file_load_from_file[I32](key_file': GKeyFile, file': Pointer[U8] tag, flags': U32, error': Pointer[NullablePointer[GErrorT]])

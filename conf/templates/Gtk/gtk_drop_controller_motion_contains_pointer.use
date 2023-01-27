@@ -1,1 +1,0 @@
-use @gtk_drop_controller_motion_contains_pointer[I32](self': GtkDropControllerMotion)

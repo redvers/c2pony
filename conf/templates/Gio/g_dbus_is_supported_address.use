@@ -1,1 +1,0 @@
-use @g_dbus_is_supported_address[I32](string': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

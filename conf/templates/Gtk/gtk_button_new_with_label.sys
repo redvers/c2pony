@@ -1,2 +1,0 @@
-  fun new_with_label(label': String): Pointer[GObjectP] =>
-@gtk_button_new_with_label(label'.cstring())

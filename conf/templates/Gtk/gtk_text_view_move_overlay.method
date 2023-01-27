@@ -1,2 +1,0 @@
-  fun ref move_overlay(child': GtkWidgetI, xpos': I32, ypos': I32): None =>
-    GtkTextViewP.move_overlay(this, child', xpos', ypos')

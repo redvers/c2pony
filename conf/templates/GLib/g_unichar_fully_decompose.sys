@@ -1,2 +1,0 @@
-  fun unichar_fully_decompose(ch': U32, compat': I32, result': Pointer[U32] tag, result_len': U64): U64 =>
-    @g_unichar_fully_decompose(ch', compat', result', result_len')

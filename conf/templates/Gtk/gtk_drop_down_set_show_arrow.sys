@@ -1,2 +1,0 @@
-  fun set_show_arrow(self': GtkDropDown, show_arrow': I32): None =>
-    @gtk_drop_down_set_show_arrow(self', show_arrow')

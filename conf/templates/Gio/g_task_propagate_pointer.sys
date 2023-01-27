@@ -1,2 +1,0 @@
-  fun propagate_pointer(task': GTask, error': GError): Pointer[None] tag =>
-    @g_task_propagate_pointer(task', addressof error'.ptr)

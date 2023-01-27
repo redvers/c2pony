@@ -1,2 +1,0 @@
-  fun reset(checksum': GChecksum): None =>
-    @g_checksum_reset(checksum')

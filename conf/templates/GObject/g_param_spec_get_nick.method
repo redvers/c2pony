@@ -1,2 +1,0 @@
-  fun ref get_nick(): String iso^ =>
-    GParamSpecP.get_nick(this)

@@ -1,2 +1,0 @@
-  fun ref(hook_list': GHookList, hook': GHook): GHook =>
-    @g_hook_ref(hook_list', hook')

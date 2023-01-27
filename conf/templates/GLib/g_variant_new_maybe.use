@@ -1,1 +1,0 @@
-use @g_variant_new_maybe[GVariant](child_type': GVariantType, child': GVariant)

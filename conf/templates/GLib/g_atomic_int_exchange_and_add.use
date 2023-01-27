@@ -1,1 +1,0 @@
-use @g_atomic_int_exchange_and_add[I32](atomic': Pointer[I32] tag, val': I32)

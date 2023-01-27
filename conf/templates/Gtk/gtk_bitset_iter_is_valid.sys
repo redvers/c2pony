@@ -1,2 +1,0 @@
-  fun is_valid(iter': GtkBitsetIter): I32 =>
-    @gtk_bitset_iter_is_valid(iter')

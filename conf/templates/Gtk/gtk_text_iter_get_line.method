@@ -1,2 +1,0 @@
-  fun ref get_line(): I32 =>
-    GtkTextIterP.get_line(this)

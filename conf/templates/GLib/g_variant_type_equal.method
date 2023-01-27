@@ -1,2 +1,0 @@
-  fun ref equal(type2': Pointer[None] tag): I32 =>
-    GVariantTypeP.equal(this, type2')

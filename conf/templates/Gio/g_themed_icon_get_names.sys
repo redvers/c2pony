@@ -1,2 +1,0 @@
-  fun get_names(icon': GThemedIcon): Pointer[Pointer[U8]] tag =>
-    @g_themed_icon_get_names(icon')

@@ -1,2 +1,0 @@
-  fun has_pending(stream': GInputStream): I32 =>
-    @g_input_stream_has_pending(stream')

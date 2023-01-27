@@ -1,2 +1,0 @@
-  fun ref add_constraint(constraint': GtkConstraint): None =>
-    GtkConstraintLayoutP.add_constraint(this, constraint')

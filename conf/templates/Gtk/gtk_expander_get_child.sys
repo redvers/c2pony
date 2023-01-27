@@ -1,2 +1,0 @@
-  fun get_child(expander': GtkExpander): Pointer[GObjectP] =>
-@gtk_expander_get_child(expander')

@@ -1,1 +1,0 @@
-use @gtk_text_buffer_get_iter_at_line[I32](buffer': GtkTextBuffer, iter': GtkTextIter, line_number': I32)

@@ -1,2 +1,0 @@
-  fun ref get_listen_backlog(): I32 =>
-    GSocketP.get_listen_backlog(this)

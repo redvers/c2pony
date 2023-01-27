@@ -1,2 +1,0 @@
-  fun prefix_error(err': GError, format': String, ...): None =>
-    @g_prefix_error(addressof err'.ptr, format'.cstring(), ...)

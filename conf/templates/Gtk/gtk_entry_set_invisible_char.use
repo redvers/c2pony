@@ -1,1 +1,0 @@
-use @gtk_entry_set_invisible_char[None](entry': GtkEntry, ch': U32)

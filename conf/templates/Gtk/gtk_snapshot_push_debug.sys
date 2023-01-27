@@ -1,2 +1,0 @@
-  fun push_debug(snapshot': GdkSnapshot, message': String, ...): None =>
-    @gtk_snapshot_push_debug(snapshot', message'.cstring(), ...)

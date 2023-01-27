@@ -1,1 +1,0 @@
-use @gtk_expander_set_label_widget[None](expander': GtkExpander, label_widget': Pointer[GObjectP])

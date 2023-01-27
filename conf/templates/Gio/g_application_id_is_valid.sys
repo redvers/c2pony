@@ -1,2 +1,0 @@
-  fun id_is_valid(application_id': String): I32 =>
-    @g_application_id_is_valid(application_id'.cstring())

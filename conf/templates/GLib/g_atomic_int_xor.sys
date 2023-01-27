@@ -1,2 +1,0 @@
-  fun atomic_int_xor(atomic': Pointer[U32] tag, val': U32): U32 =>
-    @g_atomic_int_xor(atomic', val')

@@ -1,1 +1,0 @@
-use @g_object_remove_toggle_ref[None](object': Pointer[GObjectP], notify': GToggleNotify, data': Pointer[None] tag)
