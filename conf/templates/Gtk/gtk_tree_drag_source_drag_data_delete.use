@@ -1,0 +1,1 @@
+use @gtk_tree_drag_source_drag_data_delete[I32](drag_source': NullablePointer[GtkTreeDragSourceT], path': NullablePointer[GtkTreePathT])

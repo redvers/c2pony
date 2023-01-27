@@ -1,0 +1,1 @@
+use @gtk_selection_model_get_selection_in_range[NullablePointer[GtkBitsetT]](model': NullablePointer[GtkSelectionModelT], position': U32, n_items': U32)

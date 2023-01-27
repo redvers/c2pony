@@ -1,0 +1,2 @@
+  fun ref get_selection_bounds(start_pos': Pointer[I32] tag, end_pos': Pointer[I32] tag): I32 =>
+    GtkEditableP.get_selection_bounds(this, start_pos', end_pos')

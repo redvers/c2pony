@@ -1,0 +1,2 @@
+  fun get_for_surface(surface': NullablePointer[GdkSurfaceT]): NullablePointer[GtkNativeT] =>
+    @gtk_native_get_for_surface(surface')

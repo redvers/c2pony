@@ -15,4 +15,5 @@ class GtkPrintSettings is GtkPrintSettingsI
   new create() =>
     ptr = GObjectG.gnew(@gtk_print_settings_get_type())
 
+  // GtkPrintSettings
   fun ref getptr(): NullablePointer[GObjectT] => ptr

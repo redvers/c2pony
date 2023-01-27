@@ -1,0 +1,2 @@
+  fun set_position(editable': NullablePointer[GtkEditableT], position': I32): None =>
+    @gtk_editable_set_position(editable', position')

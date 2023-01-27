@@ -1,0 +1,2 @@
+  fun unselect_all(model': NullablePointer[GtkSelectionModelT]): I32 =>
+    @gtk_selection_model_unselect_all(model')

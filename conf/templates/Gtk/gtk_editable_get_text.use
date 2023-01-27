@@ -1,0 +1,1 @@
+use @gtk_editable_get_text[Pointer[U8]](editable': NullablePointer[GtkEditableT])

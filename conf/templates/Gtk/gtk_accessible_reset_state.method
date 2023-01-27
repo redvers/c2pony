@@ -1,0 +1,2 @@
+  fun ref reset_state(state': U32): None =>
+    GtkAccessibleP.reset_state(this, state')

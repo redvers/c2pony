@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkMediaStreamI is GObjectI
+interface GtkMediaStreamI is (GObjectI & GtkGdk.PaintableI)
+// GtkMediaStream
   fun ref getptr(): NullablePointer[GObjectT]

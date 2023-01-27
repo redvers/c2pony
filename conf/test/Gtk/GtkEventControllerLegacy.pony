@@ -15,4 +15,5 @@ class GtkEventControllerLegacy is GtkEventControllerLegacyI
   new create() =>
     ptr = GObjectG.gnew(@gtk_event_controller_legacy_get_type())
 
+  // GtkEventControllerLegacy
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,0 +1,1 @@
+use @gtk_editable_finish_delegate[None](editable': NullablePointer[GtkEditableT])

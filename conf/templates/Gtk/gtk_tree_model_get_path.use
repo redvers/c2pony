@@ -1,0 +1,1 @@
+use @gtk_tree_model_get_path[NullablePointer[GtkTreePathT]](tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT])

@@ -1,0 +1,1 @@
+use @gtk_editable_delegate_set_property[I32](object': NullablePointer[GObjectT], prop_id': U32, value': NullablePointer[GValueT], pspec': NullablePointer[GParamSpecT])

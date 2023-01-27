@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkLayoutChildI is GObjectI
+interface GtkLayoutChildI is (GObjectI)
+// GtkLayoutChild
   fun ref getptr(): NullablePointer[GObjectT]

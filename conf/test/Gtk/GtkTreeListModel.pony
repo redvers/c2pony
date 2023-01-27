@@ -15,4 +15,5 @@ class GtkTreeListModel is GtkTreeListModelI
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_list_model_get_type())
 
+  // GtkTreeListModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

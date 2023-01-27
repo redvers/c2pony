@@ -1,0 +1,2 @@
+  fun unrealize(self': NullablePointer[GtkNativeT]): None =>
+    @gtk_native_unrealize(self')

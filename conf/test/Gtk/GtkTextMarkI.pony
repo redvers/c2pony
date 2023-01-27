@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkTextMarkI is GObjectI
+interface GtkTextMarkI is (GObjectI)
+// GtkTextMark
   fun ref getptr(): NullablePointer[GObjectT]

@@ -15,4 +15,5 @@ class GtkConstraint is GtkConstraintI
   new create() =>
     ptr = GObjectG.gnew(@gtk_constraint_get_type())
 
+  // GtkConstraint
   fun ref getptr(): NullablePointer[GObjectT] => ptr

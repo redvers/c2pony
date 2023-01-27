@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkStackSwitcherI is GtkWidgetI
+interface GtkStackSwitcherI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkOrientableI)
+// GtkStackSwitcher
   fun ref getptr(): NullablePointer[GObjectT]

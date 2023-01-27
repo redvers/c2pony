@@ -1,0 +1,2 @@
+  fun ref get_surface(): NullablePointer[GdkSurfaceT] =>
+    GtkNativeP.get_surface(this)

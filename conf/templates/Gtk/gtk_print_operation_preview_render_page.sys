@@ -1,0 +1,2 @@
+  fun render_page(preview': NullablePointer[GtkPrintOperationPreviewT], page_nr': I32): None =>
+    @gtk_print_operation_preview_render_page(preview', page_nr')

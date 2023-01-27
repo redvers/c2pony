@@ -15,4 +15,5 @@ class GtkCellRendererAccel is GtkCellRendererAccelI
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_renderer_accel_get_type())
 
+  // GtkCellRendererAccel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

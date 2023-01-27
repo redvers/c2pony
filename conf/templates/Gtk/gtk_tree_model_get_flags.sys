@@ -1,0 +1,2 @@
+  fun get_flags(tree_model': NullablePointer[GtkTreeModelT]): U32 =>
+    @gtk_tree_model_get_flags(tree_model')

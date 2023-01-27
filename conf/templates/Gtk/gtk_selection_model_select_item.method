@@ -1,0 +1,2 @@
+  fun ref select_item(position': U32, unselect_rest': I32): I32 =>
+    GtkSelectionModelP.select_item(this, position', unselect_rest')

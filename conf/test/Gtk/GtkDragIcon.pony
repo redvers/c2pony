@@ -15,4 +15,5 @@ class GtkDragIcon is GtkDragIconI
   new create() =>
     ptr = GObjectG.gnew(@gtk_drag_icon_get_type())
 
+  // GtkDragIcon
   fun ref getptr(): NullablePointer[GObjectT] => ptr

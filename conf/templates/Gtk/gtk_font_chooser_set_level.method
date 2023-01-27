@@ -1,0 +1,2 @@
+  fun ref set_level(level': U32): None =>
+    GtkFontChooserP.set_level(this, level')

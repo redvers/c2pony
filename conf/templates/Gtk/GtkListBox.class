@@ -14,4 +14,5 @@ class GtkListBox is GtkListBoxI
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_box_get_type())
 
+  // GtkListBox
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -15,4 +15,5 @@ class GtkFixedLayout is GtkFixedLayoutI
   new create() =>
     ptr = GObjectG.gnew(@gtk_fixed_layout_get_type())
 
+  // GtkFixedLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

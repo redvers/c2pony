@@ -1,0 +1,2 @@
+  fun ref set_detailed_action_name(detailed_action_name': String): None =>
+    GtkActionableP.set_detailed_action_name(this, detailed_action_name')

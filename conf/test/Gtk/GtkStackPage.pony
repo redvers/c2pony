@@ -15,4 +15,5 @@ class GtkStackPage is GtkStackPageI
   new create() =>
     ptr = GObjectG.gnew(@gtk_stack_page_get_type())
 
+  // GtkStackPage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

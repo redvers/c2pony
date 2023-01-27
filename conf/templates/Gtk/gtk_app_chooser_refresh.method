@@ -1,0 +1,2 @@
+  fun ref refresh(): None =>
+    GtkAppChooserP.refresh(this)

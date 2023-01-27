@@ -1,0 +1,2 @@
+  fun set_cell_data_func(cell_layout': NullablePointer[GtkCellLayoutT], cell': NullablePointer[GtkCellRendererT], func': GtkCellLayoutDataFunc, func_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_cell_layout_set_cell_data_func(cell_layout', cell', func', func_data', destroy')

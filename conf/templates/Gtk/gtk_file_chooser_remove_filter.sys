@@ -1,0 +1,2 @@
+  fun remove_filter(chooser': NullablePointer[GtkFileChooserT], filter': NullablePointer[GtkFileFilterT]): None =>
+    @gtk_file_chooser_remove_filter(chooser', filter')

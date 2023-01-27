@@ -1,0 +1,2 @@
+  fun get_delegate(editable': NullablePointer[GtkEditableT]): NullablePointer[GtkEditableT] =>
+    @gtk_editable_get_delegate(editable')

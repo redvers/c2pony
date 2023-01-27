@@ -1,0 +1,2 @@
+  fun install_properties(object_class': NullablePointer[GObjectClassT], first_prop': U32): U32 =>
+    @gtk_editable_install_properties(object_class', first_prop')

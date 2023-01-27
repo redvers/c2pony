@@ -15,4 +15,5 @@ class GtkSpinner is GtkSpinnerI
   new create() =>
     ptr = GObjectG.gnew(@gtk_spinner_get_type())
 
+  // GtkSpinner
   fun ref getptr(): NullablePointer[GObjectT] => ptr

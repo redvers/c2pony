@@ -15,4 +15,5 @@ class GtkTextView is GtkTextViewI
   new create() =>
     ptr = GObjectG.gnew(@gtk_text_view_get_type())
 
+  // GtkTextView
   fun ref getptr(): NullablePointer[GObjectT] => ptr

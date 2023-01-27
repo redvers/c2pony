@@ -1,0 +1,2 @@
+  fun update_property(self': NullablePointer[GtkAccessibleT], first_property': U32, ...): None =>
+    @gtk_accessible_update_property(self', first_property', ...)

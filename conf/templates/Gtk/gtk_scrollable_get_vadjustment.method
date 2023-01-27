@@ -1,0 +1,2 @@
+  fun ref get_vadjustment(): NullablePointer[GtkAdjustmentT] =>
+    GtkScrollableP.get_vadjustment(this)

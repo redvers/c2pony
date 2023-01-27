@@ -1,0 +1,2 @@
+  fun ref get_create_folders(): I32 =>
+    GtkFileChooserP.get_create_folders(this)

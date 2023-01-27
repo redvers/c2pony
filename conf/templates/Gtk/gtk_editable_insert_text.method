@@ -1,0 +1,2 @@
+  fun ref insert_text(text': String, length': I32, position': Pointer[I32] tag): None =>
+    GtkEditableP.insert_text(this, text', length', position')

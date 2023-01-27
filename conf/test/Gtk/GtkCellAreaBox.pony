@@ -15,4 +15,5 @@ class GtkCellAreaBox is GtkCellAreaBoxI
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_area_box_get_type())
 
+  // GtkCellAreaBox
   fun ref getptr(): NullablePointer[GObjectT] => ptr

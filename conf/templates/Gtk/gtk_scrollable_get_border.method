@@ -1,0 +1,2 @@
+  fun ref get_border(border': NullablePointer[GtkBorderT]): I32 =>
+    GtkScrollableP.get_border(this, border')

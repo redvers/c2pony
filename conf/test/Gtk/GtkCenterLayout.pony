@@ -15,4 +15,5 @@ class GtkCenterLayout is GtkCenterLayoutI
   new create() =>
     ptr = GObjectG.gnew(@gtk_center_layout_get_type())
 
+  // GtkCenterLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

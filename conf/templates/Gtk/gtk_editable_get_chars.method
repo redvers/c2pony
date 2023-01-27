@@ -1,0 +1,2 @@
+  fun ref get_chars(start_pos': I32, end_pos': I32): String iso^ =>
+    GtkEditableP.get_chars(this, start_pos', end_pos')

@@ -1,0 +1,2 @@
+  fun ref get_font_features(): String iso^ =>
+    GtkFontChooserP.get_font_features(this)

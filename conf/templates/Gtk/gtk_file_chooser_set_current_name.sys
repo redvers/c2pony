@@ -1,0 +1,2 @@
+  fun set_current_name(chooser': NullablePointer[GtkFileChooserT], name': String): None =>
+    @gtk_file_chooser_set_current_name(chooser', name'.cstring())

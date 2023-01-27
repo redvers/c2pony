@@ -1,0 +1,2 @@
+  fun ref set_select_multiple(select_multiple': I32): None =>
+    GtkFileChooserP.set_select_multiple(this, select_multiple')

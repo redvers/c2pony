@@ -1,0 +1,2 @@
+  fun get_orientation(orientable': NullablePointer[GtkOrientableT]): U32 =>
+    @gtk_orientable_get_orientation(orientable')

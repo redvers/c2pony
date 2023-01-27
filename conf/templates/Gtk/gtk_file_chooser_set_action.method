@@ -1,0 +1,2 @@
+  fun ref set_action(action': U32): None =>
+    GtkFileChooserP.set_action(this, action')

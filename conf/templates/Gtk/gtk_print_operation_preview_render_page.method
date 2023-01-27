@@ -1,0 +1,2 @@
+  fun ref render_page(page_nr': I32): None =>
+    GtkPrintOperationPreviewP.render_page(this, page_nr')

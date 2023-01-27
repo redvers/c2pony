@@ -1,0 +1,2 @@
+  fun ref remove_shortcut_folder(folder': NullablePointer[GFileT], error': GError): I32 =>
+    GtkFileChooserP.remove_shortcut_folder(this, folder', error')

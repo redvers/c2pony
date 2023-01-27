@@ -1,7 +1,7 @@
 use "GLib"
 use "GObject"
 use "Gio"
-//use "Gtk"
+use "Gtk"
 
 use "debug"
 
@@ -17,7 +17,6 @@ actor Main
   new create(env': Env) =>
     env = env'
 
-    /*
     let myapp: MyApp = MyApp(env)
     let app: GtkApplication = GtkApplication
     app.connect[MyApp]("activate", myapp~cb(), myapp, U32(0))
@@ -62,4 +61,3 @@ class MyApp
     @g_action_map_add_action_entries(app.getptr(), actions.cpointer(), actions.size().u32(), Pointer[None])
 
   fun test() => env.out.print("Hello World")
-    */

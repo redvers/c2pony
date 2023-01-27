@@ -15,4 +15,5 @@ class GtkEventControllerMotion is GtkEventControllerMotionI
   new create() =>
     ptr = GObjectG.gnew(@gtk_event_controller_motion_get_type())
 
+  // GtkEventControllerMotion
   fun ref getptr(): NullablePointer[GObjectT] => ptr

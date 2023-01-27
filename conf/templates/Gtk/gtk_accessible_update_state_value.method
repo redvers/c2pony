@@ -1,0 +1,2 @@
+  fun ref update_state_value(n_states': I32, states': Pointer[U32] tag, values': NullablePointer[GValueT]): None =>
+    GtkAccessibleP.update_state_value(this, n_states', states', values')

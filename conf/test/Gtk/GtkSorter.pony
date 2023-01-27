@@ -15,4 +15,5 @@ class GtkSorter is GtkSorterI
   new create() =>
     ptr = GObjectG.gnew(@gtk_sorter_get_type())
 
+  // GtkSorter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

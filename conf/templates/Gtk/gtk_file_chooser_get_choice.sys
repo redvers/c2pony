@@ -1,0 +1,2 @@
+  fun get_choice(chooser': NullablePointer[GtkFileChooserT], id': String): String iso^ =>
+    String.from_cstring(@gtk_file_chooser_get_choice(chooser', id'.cstring())).clone()

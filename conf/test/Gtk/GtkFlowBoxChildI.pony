@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkFlowBoxChildI is GtkWidgetI
+interface GtkFlowBoxChildI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI)
+// GtkFlowBoxChild
   fun ref getptr(): NullablePointer[GObjectT]

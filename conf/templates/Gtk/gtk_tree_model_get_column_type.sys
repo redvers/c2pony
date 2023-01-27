@@ -1,0 +1,2 @@
+  fun get_column_type(tree_model': NullablePointer[GtkTreeModelT], index': I32): U64 =>
+    @gtk_tree_model_get_column_type(tree_model', index')

@@ -15,4 +15,5 @@ class GtkCallbackAction is GtkCallbackActionI
   new create() =>
     ptr = GObjectG.gnew(@gtk_callback_action_get_type())
 
+  // GtkCallbackAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

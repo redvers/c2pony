@@ -14,4 +14,5 @@ class GtkExpression is GtkExpressionI
   new create() =>
     ptr = GObjectG.gnew(@gtk_expression_get_type())
 
+  // GtkExpression
   fun ref getptr(): NullablePointer[GtkExpressionT] => ptr

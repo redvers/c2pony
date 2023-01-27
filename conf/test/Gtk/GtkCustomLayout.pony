@@ -15,4 +15,5 @@ class GtkCustomLayout is GtkCustomLayoutI
   new create() =>
     ptr = GObjectG.gnew(@gtk_custom_layout_get_type())
 
+  // GtkCustomLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

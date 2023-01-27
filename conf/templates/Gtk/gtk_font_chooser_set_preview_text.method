@@ -1,0 +1,2 @@
+  fun ref set_preview_text(text': String): None =>
+    GtkFontChooserP.set_preview_text(this, text')

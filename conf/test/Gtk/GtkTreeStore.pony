@@ -15,4 +15,5 @@ class GtkTreeStore is GtkTreeStoreI
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_store_get_type())
 
+  // GtkTreeStore
   fun ref getptr(): NullablePointer[GObjectT] => ptr

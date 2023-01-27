@@ -1,0 +1,2 @@
+  fun ref delete_selection(): None =>
+    GtkEditableP.delete_selection(this)

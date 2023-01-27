@@ -14,4 +14,5 @@ class GtkConstraintGuide is GtkConstraintGuideI
   new create() =>
     ptr = GObjectG.gnew(@gtk_constraint_guide_get_type())
 
+  // GtkConstraintGuide
   fun ref getptr(): NullablePointer[GObjectT] => ptr

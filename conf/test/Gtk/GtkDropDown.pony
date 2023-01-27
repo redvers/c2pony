@@ -15,4 +15,5 @@ class GtkDropDown is GtkDropDownI
   new create() =>
     ptr = GObjectG.gnew(@gtk_drop_down_get_type())
 
+  // GtkDropDown
   fun ref getptr(): NullablePointer[GObjectT] => ptr

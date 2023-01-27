@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkLinkButtonI is GtkButtonI
+interface GtkLinkButtonI is (GtkButtonI & GtkAccessibleI & GtkActionableI & GtkBuildableI & GtkConstraintTargetI)
+// GtkLinkButton
   fun ref getptr(): NullablePointer[GObjectT]

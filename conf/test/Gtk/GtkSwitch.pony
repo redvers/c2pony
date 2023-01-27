@@ -15,4 +15,5 @@ class GtkSwitch is GtkSwitchI
   new create() =>
     ptr = GObjectG.gnew(@gtk_switch_get_type())
 
+  // GtkSwitch
   fun ref getptr(): NullablePointer[GObjectT] => ptr

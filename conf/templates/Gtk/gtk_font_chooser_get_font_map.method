@@ -1,0 +1,2 @@
+  fun ref get_font_map(): NullablePointer[PangoFontMapT] =>
+    GtkFontChooserP.get_font_map(this)

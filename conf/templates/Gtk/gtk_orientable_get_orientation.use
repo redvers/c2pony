@@ -1,0 +1,1 @@
+use @gtk_orientable_get_orientation[U32](orientable': NullablePointer[GtkOrientableT])

@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkWidgetPaintableI is GObjectI
+interface GtkWidgetPaintableI is (GObjectI & GtkGdk.PaintableI)
+// GtkWidgetPaintable
   fun ref getptr(): NullablePointer[GObjectT]

@@ -1,0 +1,2 @@
+  fun get_sort_column_id(sortable': NullablePointer[GtkTreeSortableT], sort_column_id': Pointer[I32] tag, order': Pointer[U32] tag): I32 =>
+    @gtk_tree_sortable_get_sort_column_id(sortable', sort_column_id', order')

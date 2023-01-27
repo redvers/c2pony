@@ -1,0 +1,2 @@
+  fun ref get_iter(iter': NullablePointer[GtkTreeIterT], path': NullablePointer[GtkTreePathT]): I32 =>
+    GtkTreeModelP.get_iter(this, iter', path')

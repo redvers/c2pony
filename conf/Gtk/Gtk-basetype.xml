@@ -249,4 +249,29 @@
   <basetype name="GtkWindowControls" baseclass="GObject"/>
   <basetype name="GtkWindowGroup" baseclass="GObject"/>
   <basetype name="GtkWindowHandle" baseclass="GObject"/>
+  <basetype name="GtkAccessible" baseclass="GObject"/>
+  <basetype name="GtkActionable" baseclass="GObject"/>
+  <basetype name="GtkAppChooser" baseclass="GObject"/>
+  <basetype name="GtkBuildable" baseclass="GObject"/>
+  <basetype name="GtkBuilderScope" baseclass="GObject"/>
+  <basetype name="GtkCellEditable" baseclass="GObject"/>
+  <basetype name="GtkCellLayout" baseclass="GObject"/>
+  <basetype name="GtkColorChooser" baseclass="GObject"/>
+  <basetype name="GtkConstraintTarget" baseclass="GObject"/>
+  <basetype name="GtkEditable" baseclass="GObject"/>
+  <basetype name="GtkFileChooser" baseclass="GObject"/>
+  <basetype name="GtkFontChooser" baseclass="GObject"/>
+  <basetype name="GtkNative" baseclass="GObject"/>
+  <basetype name="GtkOrientable" baseclass="GObject"/>
+  <basetype name="GtkPrintOperationPreview" baseclass="GObject"/>
+  <basetype name="GtkRoot" baseclass="GObject"/>
+  <basetype name="GtkScrollable" baseclass="GObject"/>
+  <basetype name="GtkSelectionModel" baseclass="GObject"/>
+  <basetype name="GtkShortcutManager" baseclass="GObject"/>
+  <basetype name="GtkStyleProvider" baseclass="GObject"/>
+  <basetype name="GtkSymbolicPaintable" baseclass="GObject"/>
+  <basetype name="GtkTreeDragDest" baseclass="GObject"/>
+  <basetype name="GtkTreeDragSource" baseclass="GObject"/>
+  <basetype name="GtkTreeModel" baseclass="GObject"/>
+  <basetype name="GtkTreeSortable" baseclass="GObject"/>
 </basetypes>

@@ -1,0 +1,1 @@
+use @gtk_color_chooser_add_palette[None](chooser': NullablePointer[GtkColorChooserT], orientation': U32, colors_per_line': I32, n_colors': I32, colors': NullablePointer[GdkRGBAT])

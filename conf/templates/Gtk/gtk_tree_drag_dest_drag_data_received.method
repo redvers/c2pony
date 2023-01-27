@@ -1,0 +1,2 @@
+  fun ref drag_data_received(dest': NullablePointer[GtkTreePathT], value': NullablePointer[GValueT]): I32 =>
+    GtkTreeDragDestP.drag_data_received(this, dest', value')

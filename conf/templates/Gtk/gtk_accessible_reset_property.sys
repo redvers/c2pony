@@ -1,0 +1,2 @@
+  fun reset_property(self': NullablePointer[GtkAccessibleT], property': U32): None =>
+    @gtk_accessible_reset_property(self', property')

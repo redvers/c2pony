@@ -39,6 +39,12 @@ cat ../templates/Gio/g_action_map_add_action_entries.use >> ../test/Gio/GActionM
 cat ../templates/Gio/GActionMapP.primitive >> ../test/Gio/GActionMapP.pony
 cat ../templates/Gio/g_action_map_add_action.sys >> ../test/Gio/GActionMapP.pony
 cat ../templates/Gio/g_action_map_add_action_entries.sys >> ../test/Gio/GActionMapP.pony
+echo > ../test/Gio/GListModelI.pony
+cat ../templates/Gio/GListModelI.classinterface >> ../test/Gio/GListModelI.pony
+echo > ../test/Gio/GListModelT.pony
+cat ../templates/Gio/GListModelT.struct >> ../test/Gio/GListModelT.pony
+echo > ../test/Gio/GListModelP.pony
+cat ../templates/Gio/GListModelP.primitive >> ../test/Gio/GListModelP.pony
 echo > ../test/Gio/GActionEntry.pony
 cat ../templates/Gio/GActionEntry.class >> ../test/Gio/GActionEntry.pony
 echo > ../test/Gio/GActionEntryT.pony

@@ -15,4 +15,5 @@ class GtkMessageDialog is GtkMessageDialogI
   new create() =>
     ptr = GObjectG.gnew(@gtk_message_dialog_get_type())
 
+  // GtkMessageDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

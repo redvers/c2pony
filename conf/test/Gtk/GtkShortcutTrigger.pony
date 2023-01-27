@@ -15,4 +15,5 @@ class GtkShortcutTrigger is GtkShortcutTriggerI
   new create() =>
     ptr = GObjectG.gnew(@gtk_shortcut_trigger_get_type())
 
+  // GtkShortcutTrigger
   fun ref getptr(): NullablePointer[GObjectT] => ptr

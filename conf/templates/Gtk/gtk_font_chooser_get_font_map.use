@@ -1,0 +1,1 @@
+use @gtk_font_chooser_get_font_map[NullablePointer[PangoFontMapT]](fontchooser': NullablePointer[GtkFontChooserT])

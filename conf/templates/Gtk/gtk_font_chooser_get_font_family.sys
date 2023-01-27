@@ -1,0 +1,2 @@
+  fun get_font_family(fontchooser': NullablePointer[GtkFontChooserT]): NullablePointer[PangoFontFamilyT] =>
+    @gtk_font_chooser_get_font_family(fontchooser')

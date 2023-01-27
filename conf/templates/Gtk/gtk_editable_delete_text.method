@@ -1,0 +1,2 @@
+  fun ref delete_text(start_pos': I32, end_pos': I32): None =>
+    GtkEditableP.delete_text(this, start_pos', end_pos')

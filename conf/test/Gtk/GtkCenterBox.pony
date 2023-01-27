@@ -15,4 +15,5 @@ class GtkCenterBox is GtkCenterBoxI
   new create() =>
     ptr = GObjectG.gnew(@gtk_center_box_get_type())
 
+  // GtkCenterBox
   fun ref getptr(): NullablePointer[GObjectT] => ptr

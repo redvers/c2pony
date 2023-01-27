@@ -1,0 +1,1 @@
+use @gtk_print_operation_preview_is_selected[I32](preview': NullablePointer[GtkPrintOperationPreviewT], page_nr': I32)

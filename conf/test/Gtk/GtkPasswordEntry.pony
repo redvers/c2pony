@@ -15,4 +15,5 @@ class GtkPasswordEntry is GtkPasswordEntryI
   new create() =>
     ptr = GObjectG.gnew(@gtk_password_entry_get_type())
 
+  // GtkPasswordEntry
   fun ref getptr(): NullablePointer[GObjectT] => ptr

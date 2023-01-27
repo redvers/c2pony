@@ -1,0 +1,2 @@
+  fun ref add_choice(id': String, label': String, options': Pointer[Pointer[U8]] tag, option_labels': Pointer[Pointer[U8]] tag): None =>
+    GtkFileChooserP.add_choice(this, id', label', options', option_labels')

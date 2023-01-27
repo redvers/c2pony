@@ -1,0 +1,2 @@
+  fun ref set_current_name(name': String): None =>
+    GtkFileChooserP.set_current_name(this, name')

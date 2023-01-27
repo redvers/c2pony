@@ -1,0 +1,2 @@
+  fun ref get_files(): NullablePointer[GListModelT] =>
+    GtkFileChooserP.get_files(this)

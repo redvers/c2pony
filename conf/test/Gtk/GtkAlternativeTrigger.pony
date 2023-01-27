@@ -15,4 +15,5 @@ class GtkAlternativeTrigger is GtkAlternativeTriggerI
   new create() =>
     ptr = GObjectG.gnew(@gtk_alternative_trigger_get_type())
 
+  // GtkAlternativeTrigger
   fun ref getptr(): NullablePointer[GObjectT] => ptr

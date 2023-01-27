@@ -15,4 +15,5 @@ class GtkColumnViewColumn is GtkColumnViewColumnI
   new create() =>
     ptr = GObjectG.gnew(@gtk_column_view_column_get_type())
 
+  // GtkColumnViewColumn
   fun ref getptr(): NullablePointer[GObjectT] => ptr

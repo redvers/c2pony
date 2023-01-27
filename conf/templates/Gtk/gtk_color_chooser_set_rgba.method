@@ -1,0 +1,2 @@
+  fun ref set_rgba(color': NullablePointer[GdkRGBAT]): None =>
+    GtkColorChooserP.set_rgba(this, color')

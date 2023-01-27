@@ -1,0 +1,2 @@
+  fun iter_previous(tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT]): I32 =>
+    @gtk_tree_model_iter_previous(tree_model', iter')

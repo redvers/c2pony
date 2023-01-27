@@ -1,0 +1,2 @@
+  fun end_preview(preview': NullablePointer[GtkPrintOperationPreviewT]): None =>
+    @gtk_print_operation_preview_end_preview(preview')

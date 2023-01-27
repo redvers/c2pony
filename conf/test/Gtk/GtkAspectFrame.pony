@@ -15,4 +15,5 @@ class GtkAspectFrame is GtkAspectFrameI
   new create() =>
     ptr = GObjectG.gnew(@gtk_aspect_frame_get_type())
 
+  // GtkAspectFrame
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -15,4 +15,5 @@ class GtkBuilder is GtkBuilderI
   new create() =>
     ptr = GObjectG.gnew(@gtk_builder_get_type())
 
+  // GtkBuilder
   fun ref getptr(): NullablePointer[GObjectT] => ptr

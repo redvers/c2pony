@@ -1,0 +1,2 @@
+  fun ref get_preview_text(): String iso^ =>
+    GtkFontChooserP.get_preview_text(this)

@@ -1,0 +1,2 @@
+  fun set_attributes(cell_layout': NullablePointer[GtkCellLayoutT], cell': NullablePointer[GtkCellRendererT], ...): None =>
+    @gtk_cell_layout_set_attributes(cell_layout', cell', ...)

@@ -1,0 +1,2 @@
+  fun foreach(model': NullablePointer[GtkTreeModelT], func': GtkTreeModelForeachFunc, user_data': Pointer[None] tag): None =>
+    @gtk_tree_model_foreach(model', func', user_data')

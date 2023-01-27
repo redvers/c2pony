@@ -2027,7 +2027,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_im_multicontext_get_context_id" ponyname="get_context_id" render="0" deprecated=""/>
       <rendermethod name="gtk_im_multicontext_set_context_id" ponyname="set_context_id" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkIconPaintable" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
+    <renderclass name="GtkIconPaintable" render="0" parent="GObject.Object" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_icon_paintable_new_for_file" ponyname="new_for_file" render="0" deprecated=""/>
       <rendermethod name="gtk_icon_paintable_get_file" ponyname="get_file" render="0" deprecated=""/>
       <rendermethod name="gtk_icon_paintable_get_icon_name" ponyname="get_icon_name" render="0" deprecated=""/>
@@ -2369,7 +2369,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_media_controls_get_media_stream" ponyname="get_media_stream" render="0" deprecated=""/>
       <rendermethod name="gtk_media_controls_set_media_stream" ponyname="set_media_stream" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkMediaFile" render="1" parent="MediaStream" abstract="1" final="" fundamental="">
+    <renderclass name="GtkMediaFile" render="0" parent="MediaStream" abstract="1" final="" fundamental="">
       <renderconstructor name="gtk_media_file_new" ponyname="new" render="0" deprecated=""/>
       <renderconstructor name="gtk_media_file_new_for_file" ponyname="new_for_file" render="0" deprecated=""/>
       <renderconstructor name="gtk_media_file_new_for_filename" ponyname="new_for_filename" render="0" deprecated=""/>
@@ -2383,7 +2383,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_media_file_set_input_stream" ponyname="set_input_stream" render="0" deprecated=""/>
       <rendermethod name="gtk_media_file_set_resource" ponyname="set_resource" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkMediaStream" render="1" parent="GObject.Object" abstract="1" final="" fundamental="">
+    <renderclass name="GtkMediaStream" render="0" parent="GObject.Object" abstract="1" final="" fundamental="">
       <rendermethod name="gtk_media_stream_ended" ponyname="ended" render="0" deprecated="1"/>
       <rendermethod name="gtk_media_stream_error" ponyname="error" render="0" deprecated=""/>
       <rendermethod name="gtk_media_stream_error_valist" ponyname="error_valist" render="0" deprecated=""/>
@@ -3177,7 +3177,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_slice_list_model_set_offset" ponyname="set_offset" render="0" deprecated=""/>
       <rendermethod name="gtk_slice_list_model_set_size" ponyname="set_size" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="" render="1" parent="Gdk.Snapshot" abstract="" final="" fundamental="">
+    <renderclass name="" render="0" parent="Gdk.Snapshot" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_snapshot_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="gtk_snapshot_append_border" ponyname="append_border" render="0" deprecated=""/>
       <rendermethod name="gtk_snapshot_append_cairo" ponyname="append_cairo" render="0" deprecated=""/>
@@ -4071,7 +4071,7 @@ use "lib:gtk-4.0"
       <renderfunction name="gtk_widget_get_default_direction" ponyname="get_default_direction" render="0" deprecated=""/>
       <renderfunction name="gtk_widget_set_default_direction" ponyname="set_default_direction" render="0" deprecated=""/>
     </renderclass>
-    <renderclass name="GtkWidgetPaintable" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
+    <renderclass name="GtkWidgetPaintable" render="0" parent="GObject.Object" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_widget_paintable_new" ponyname="new" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_paintable_get_widget" ponyname="get_widget" render="0" deprecated=""/>
       <rendermethod name="gtk_widget_paintable_set_widget" ponyname="set_widget" render="0" deprecated=""/>
@@ -4157,7 +4157,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_window_handle_get_child" ponyname="get_child" render="0" deprecated=""/>
       <rendermethod name="gtk_window_handle_set_child" ponyname="set_child" render="0" deprecated=""/>
     </renderclass>
-    <renderinterface name="GtkAccessible" render="0">
+    <renderinterface name="GtkAccessible" render="1">
       <rendermethod name="gtk_accessible_get_accessible_role" ponyname="get_accessible_role" render="0" deprecated=""/>
       <rendermethod name="gtk_accessible_reset_property" ponyname="reset_property" render="0" deprecated=""/>
       <rendermethod name="gtk_accessible_reset_relation" ponyname="reset_relation" render="0" deprecated=""/>
@@ -4169,7 +4169,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_accessible_update_state" ponyname="update_state" render="0" deprecated=""/>
       <rendermethod name="gtk_accessible_update_state_value" ponyname="update_state_value" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkActionable" render="0">
+    <renderinterface name="GtkActionable" render="1">
       <rendermethod name="gtk_actionable_get_action_name" ponyname="get_action_name" render="0" deprecated=""/>
       <rendermethod name="gtk_actionable_get_action_target_value" ponyname="get_action_target_value" render="0" deprecated=""/>
       <rendermethod name="gtk_actionable_set_action_name" ponyname="set_action_name" render="0" deprecated=""/>
@@ -4177,21 +4177,21 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_actionable_set_action_target_value" ponyname="set_action_target_value" render="0" deprecated=""/>
       <rendermethod name="gtk_actionable_set_detailed_action_name" ponyname="set_detailed_action_name" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkAppChooser" render="0">
+    <renderinterface name="GtkAppChooser" render="1">
       <rendermethod name="gtk_app_chooser_get_app_info" ponyname="get_app_info" render="0" deprecated=""/>
       <rendermethod name="gtk_app_chooser_get_content_type" ponyname="get_content_type" render="0" deprecated=""/>
       <rendermethod name="gtk_app_chooser_refresh" ponyname="refresh" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkBuildable" render="0">
+    <renderinterface name="GtkBuildable" render="1">
       <rendermethod name="gtk_buildable_get_buildable_id" ponyname="get_buildable_id" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkBuilderScope" render="0"/>
-    <renderinterface name="GtkCellEditable" render="0">
+    <renderinterface name="GtkBuilderScope" render="1"/>
+    <renderinterface name="GtkCellEditable" render="1">
       <rendermethod name="gtk_cell_editable_editing_done" ponyname="editing_done" render="0" deprecated=""/>
       <rendermethod name="gtk_cell_editable_remove_widget" ponyname="remove_widget" render="0" deprecated=""/>
       <rendermethod name="gtk_cell_editable_start_editing" ponyname="start_editing" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkCellLayout" render="0">
+    <renderinterface name="GtkCellLayout" render="1">
       <rendermethod name="gtk_cell_layout_add_attribute" ponyname="add_attribute" render="0" deprecated=""/>
       <rendermethod name="gtk_cell_layout_clear" ponyname="clear" render="0" deprecated=""/>
       <rendermethod name="gtk_cell_layout_clear_attributes" ponyname="clear_attributes" render="0" deprecated=""/>
@@ -4203,15 +4203,15 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_cell_layout_set_attributes" ponyname="set_attributes" render="0" deprecated=""/>
       <rendermethod name="gtk_cell_layout_set_cell_data_func" ponyname="set_cell_data_func" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkColorChooser" render="0">
+    <renderinterface name="GtkColorChooser" render="1">
       <rendermethod name="gtk_color_chooser_add_palette" ponyname="add_palette" render="0" deprecated=""/>
       <rendermethod name="gtk_color_chooser_get_rgba" ponyname="get_rgba" render="0" deprecated=""/>
       <rendermethod name="gtk_color_chooser_get_use_alpha" ponyname="get_use_alpha" render="0" deprecated=""/>
       <rendermethod name="gtk_color_chooser_set_rgba" ponyname="set_rgba" render="0" deprecated=""/>
       <rendermethod name="gtk_color_chooser_set_use_alpha" ponyname="set_use_alpha" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkConstraintTarget" render="0"/>
-    <renderinterface name="GtkEditable" render="0">
+    <renderinterface name="GtkConstraintTarget" render="1"/>
+    <renderinterface name="GtkEditable" render="1">
       <rendermethod name="gtk_editable_delete_selection" ponyname="delete_selection" render="0" deprecated=""/>
       <rendermethod name="gtk_editable_delete_text" ponyname="delete_text" render="0" deprecated=""/>
       <rendermethod name="gtk_editable_finish_delegate" ponyname="finish_delegate" render="0" deprecated=""/>
@@ -4239,7 +4239,7 @@ use "lib:gtk-4.0"
       <renderfunction name="gtk_editable_delegate_set_property" ponyname="delegate_set_property" render="0" deprecated=""/>
       <renderfunction name="gtk_editable_install_properties" ponyname="install_properties" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkFileChooser" render="0">
+    <renderinterface name="GtkFileChooser" render="1">
       <rendermethod name="gtk_file_chooser_add_choice" ponyname="add_choice" render="0" deprecated=""/>
       <rendermethod name="gtk_file_chooser_add_filter" ponyname="add_filter" render="0" deprecated=""/>
       <rendermethod name="gtk_file_chooser_add_shortcut_folder" ponyname="add_shortcut_folder" render="0" deprecated=""/>
@@ -4266,7 +4266,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_file_chooser_set_filter" ponyname="set_filter" render="0" deprecated=""/>
       <rendermethod name="gtk_file_chooser_set_select_multiple" ponyname="set_select_multiple" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkFontChooser" render="0">
+    <renderinterface name="GtkFontChooser" render="1">
       <rendermethod name="gtk_font_chooser_get_font" ponyname="get_font" render="0" deprecated=""/>
       <rendermethod name="gtk_font_chooser_get_font_desc" ponyname="get_font_desc" render="0" deprecated=""/>
       <rendermethod name="gtk_font_chooser_get_font_face" ponyname="get_font_face" render="0" deprecated=""/>
@@ -4287,7 +4287,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_font_chooser_set_preview_text" ponyname="set_preview_text" render="0" deprecated=""/>
       <rendermethod name="gtk_font_chooser_set_show_preview_entry" ponyname="set_show_preview_entry" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkNative" render="0">
+    <renderinterface name="GtkNative" render="1">
       <rendermethod name="gtk_native_get_renderer" ponyname="get_renderer" render="0" deprecated=""/>
       <rendermethod name="gtk_native_get_surface" ponyname="get_surface" render="0" deprecated=""/>
       <rendermethod name="gtk_native_get_surface_transform" ponyname="get_surface_transform" render="0" deprecated=""/>
@@ -4295,21 +4295,21 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_native_unrealize" ponyname="unrealize" render="0" deprecated=""/>
       <renderfunction name="gtk_native_get_for_surface" ponyname="get_for_surface" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkOrientable" render="0">
+    <renderinterface name="GtkOrientable" render="1">
       <rendermethod name="gtk_orientable_get_orientation" ponyname="get_orientation" render="0" deprecated=""/>
       <rendermethod name="gtk_orientable_set_orientation" ponyname="set_orientation" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkPrintOperationPreview" render="0">
+    <renderinterface name="GtkPrintOperationPreview" render="1">
       <rendermethod name="gtk_print_operation_preview_end_preview" ponyname="end_preview" render="0" deprecated=""/>
       <rendermethod name="gtk_print_operation_preview_is_selected" ponyname="is_selected" render="0" deprecated=""/>
       <rendermethod name="gtk_print_operation_preview_render_page" ponyname="render_page" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkRoot" render="0">
+    <renderinterface name="GtkRoot" render="1">
       <rendermethod name="gtk_root_get_display" ponyname="get_display" render="0" deprecated=""/>
       <rendermethod name="gtk_root_get_focus" ponyname="get_focus" render="0" deprecated=""/>
       <rendermethod name="gtk_root_set_focus" ponyname="set_focus" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkScrollable" render="0">
+    <renderinterface name="GtkScrollable" render="1">
       <rendermethod name="gtk_scrollable_get_border" ponyname="get_border" render="0" deprecated=""/>
       <rendermethod name="gtk_scrollable_get_hadjustment" ponyname="get_hadjustment" render="0" deprecated=""/>
       <rendermethod name="gtk_scrollable_get_hscroll_policy" ponyname="get_hscroll_policy" render="0" deprecated=""/>
@@ -4320,7 +4320,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_scrollable_set_vadjustment" ponyname="set_vadjustment" render="0" deprecated=""/>
       <rendermethod name="gtk_scrollable_set_vscroll_policy" ponyname="set_vscroll_policy" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkSelectionModel" render="0">
+    <renderinterface name="GtkSelectionModel" render="1">
       <rendermethod name="gtk_selection_model_get_selection" ponyname="get_selection" render="0" deprecated=""/>
       <rendermethod name="gtk_selection_model_get_selection_in_range" ponyname="get_selection_in_range" render="0" deprecated=""/>
       <rendermethod name="gtk_selection_model_is_selected" ponyname="is_selected" render="0" deprecated=""/>
@@ -4333,21 +4333,21 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_selection_model_unselect_item" ponyname="unselect_item" render="0" deprecated=""/>
       <rendermethod name="gtk_selection_model_unselect_range" ponyname="unselect_range" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkShortcutManager" render="0"/>
-    <renderinterface name="GtkStyleProvider" render="0"/>
-    <renderinterface name="GtkSymbolicPaintable" render="0">
+    <renderinterface name="GtkShortcutManager" render="1"/>
+    <renderinterface name="GtkStyleProvider" render="1"/>
+    <renderinterface name="GtkSymbolicPaintable" render="1">
       <rendermethod name="gtk_symbolic_paintable_snapshot_symbolic" ponyname="snapshot_symbolic" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkTreeDragDest" render="0">
+    <renderinterface name="GtkTreeDragDest" render="1">
       <rendermethod name="gtk_tree_drag_dest_drag_data_received" ponyname="drag_data_received" render="0" deprecated=""/>
       <rendermethod name="gtk_tree_drag_dest_row_drop_possible" ponyname="row_drop_possible" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkTreeDragSource" render="0">
+    <renderinterface name="GtkTreeDragSource" render="1">
       <rendermethod name="gtk_tree_drag_source_drag_data_delete" ponyname="drag_data_delete" render="0" deprecated=""/>
       <rendermethod name="gtk_tree_drag_source_drag_data_get" ponyname="drag_data_get" render="0" deprecated=""/>
       <rendermethod name="gtk_tree_drag_source_row_draggable" ponyname="row_draggable" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkTreeModel" render="0">
+    <renderinterface name="GtkTreeModel" render="1">
       <rendermethod name="gtk_tree_model_filter_new" ponyname="filter_new" render="0" deprecated=""/>
       <rendermethod name="gtk_tree_model_foreach" ponyname="foreach" render="0" deprecated=""/>
       <rendermethod name="gtk_tree_model_get" ponyname="get" render="0" deprecated=""/>
@@ -4377,7 +4377,7 @@ use "lib:gtk-4.0"
       <rendermethod name="gtk_tree_model_rows_reordered_with_length" ponyname="rows_reordered_with_length" render="0" deprecated=""/>
       <rendermethod name="gtk_tree_model_unref_node" ponyname="unref_node" render="0" deprecated=""/>
     </renderinterface>
-    <renderinterface name="GtkTreeSortable" render="0">
+    <renderinterface name="GtkTreeSortable" render="1">
       <rendermethod name="gtk_tree_sortable_get_sort_column_id" ponyname="get_sort_column_id" render="0" deprecated=""/>
       <rendermethod name="gtk_tree_sortable_has_default_sort_func" ponyname="has_default_sort_func" render="0" deprecated=""/>
       <rendermethod name="gtk_tree_sortable_set_default_sort_func" ponyname="set_default_sort_func" render="0" deprecated=""/>

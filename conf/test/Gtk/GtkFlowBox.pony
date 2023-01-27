@@ -15,4 +15,5 @@ class GtkFlowBox is GtkFlowBoxI
   new create() =>
     ptr = GObjectG.gnew(@gtk_flow_box_get_type())
 
+  // GtkFlowBox
   fun ref getptr(): NullablePointer[GObjectT] => ptr

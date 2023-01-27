@@ -15,4 +15,5 @@ class GtkGestureStylus is GtkGestureStylusI
   new create() =>
     ptr = GObjectG.gnew(@gtk_gesture_stylus_get_type())
 
+  // GtkGestureStylus
   fun ref getptr(): NullablePointer[GObjectT] => ptr

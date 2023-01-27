@@ -15,4 +15,5 @@ class GtkGestureLongPress is GtkGestureLongPressI
   new create() =>
     ptr = GObjectG.gnew(@gtk_gesture_long_press_get_type())
 
+  // GtkGestureLongPress
   fun ref getptr(): NullablePointer[GObjectT] => ptr

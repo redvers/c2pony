@@ -15,4 +15,5 @@ class GtkSearchEntry is GtkSearchEntryI
   new create() =>
     ptr = GObjectG.gnew(@gtk_search_entry_get_type())
 
+  // GtkSearchEntry
   fun ref getptr(): NullablePointer[GObjectT] => ptr

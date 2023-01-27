@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkActionBarI is GtkWidgetI
+interface GtkActionBarI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI)
+// GtkActionBar
   fun ref getptr(): NullablePointer[GObjectT]

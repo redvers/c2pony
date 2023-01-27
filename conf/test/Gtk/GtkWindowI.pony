@@ -5,7 +5,8 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkWindowI is GtkWidgetI
+interface GtkWindowI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkNativeI & GtkRootI & GtkShortcutManagerI)
+// GtkWindow
   fun ref getptr(): NullablePointer[GObjectT]
   fun ref close(): None =>
     GtkWindowP.close(this)

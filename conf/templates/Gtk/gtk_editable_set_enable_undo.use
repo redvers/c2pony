@@ -1,0 +1,1 @@
+use @gtk_editable_set_enable_undo[None](editable': NullablePointer[GtkEditableT], enable_undo': I32)

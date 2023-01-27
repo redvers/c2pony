@@ -15,4 +15,5 @@ class GtkExpander is GtkExpanderI
   new create() =>
     ptr = GObjectG.gnew(@gtk_expander_get_type())
 
+  // GtkExpander
   fun ref getptr(): NullablePointer[GObjectT] => ptr

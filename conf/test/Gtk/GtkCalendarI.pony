@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkCalendarI is GtkWidgetI
+interface GtkCalendarI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI)
+// GtkCalendar
   fun ref getptr(): NullablePointer[GObjectT]

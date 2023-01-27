@@ -15,4 +15,5 @@ class GtkWindow is GtkWindowI
   new create() =>
     ptr = GObjectG.gnew(@gtk_window_get_type())
 
+  // GtkWindow
   fun ref getptr(): NullablePointer[GObjectT] => ptr

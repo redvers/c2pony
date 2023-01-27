@@ -15,4 +15,5 @@ class GtkNothingAction is GtkNothingActionI
   new create() =>
     ptr = GObjectG.gnew(@gtk_nothing_action_get_type())
 
+  // GtkNothingAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,0 +1,1 @@
+use @gtk_native_get_surface_transform[None](self': NullablePointer[GtkNativeT], x': Pointer[F64] tag, y': Pointer[F64] tag)

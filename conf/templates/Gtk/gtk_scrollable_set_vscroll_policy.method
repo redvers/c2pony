@@ -1,0 +1,2 @@
+  fun ref set_vscroll_policy(policy': U32): None =>
+    GtkScrollableP.set_vscroll_policy(this, policy')

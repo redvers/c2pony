@@ -15,4 +15,5 @@ class GtkIMContextSimple is GtkIMContextSimpleI
   new create() =>
     ptr = GObjectG.gnew(@gtk_im_context_simple_get_type())
 
+  // GtkIMContextSimple
   fun ref getptr(): NullablePointer[GObjectT] => ptr

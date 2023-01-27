@@ -1,0 +1,1 @@
+use @gtk_actionable_get_action_name[Pointer[U8]](actionable': NullablePointer[GtkActionableT])

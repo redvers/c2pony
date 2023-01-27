@@ -14,4 +14,5 @@ class GtkMountOperation is GtkMountOperationI
   new create() =>
     ptr = GObjectG.gnew(@gtk_mount_operation_get_type())
 
+  // GtkMountOperation
   fun ref getptr(): NullablePointer[GObjectT] => ptr

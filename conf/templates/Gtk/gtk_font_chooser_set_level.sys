@@ -1,0 +1,2 @@
+  fun set_level(fontchooser': NullablePointer[GtkFontChooserT], level': U32): None =>
+    @gtk_font_chooser_set_level(fontchooser', level')

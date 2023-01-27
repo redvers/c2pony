@@ -1,0 +1,2 @@
+  fun ref get_app_info(): NullablePointer[GAppInfoT] =>
+    GtkAppChooserP.get_app_info(this)

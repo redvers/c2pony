@@ -15,4 +15,5 @@ class GtkTreeListRow is GtkTreeListRowI
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_list_row_get_type())
 
+  // GtkTreeListRow
   fun ref getptr(): NullablePointer[GObjectT] => ptr

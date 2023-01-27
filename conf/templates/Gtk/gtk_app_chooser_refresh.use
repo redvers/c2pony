@@ -1,0 +1,1 @@
+use @gtk_app_chooser_refresh[None](self': NullablePointer[GtkAppChooserT])

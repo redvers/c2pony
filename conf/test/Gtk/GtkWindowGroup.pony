@@ -15,4 +15,5 @@ class GtkWindowGroup is GtkWindowGroupI
   new create() =>
     ptr = GObjectG.gnew(@gtk_window_group_get_type())
 
+  // GtkWindowGroup
   fun ref getptr(): NullablePointer[GObjectT] => ptr

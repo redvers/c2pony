@@ -15,4 +15,5 @@ class GtkScale is GtkScaleI
   new create() =>
     ptr = GObjectG.gnew(@gtk_scale_get_type())
 
+  // GtkScale
   fun ref getptr(): NullablePointer[GObjectT] => ptr

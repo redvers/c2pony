@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkTreeListRowI is GObjectI
+interface GtkTreeListRowI is (GObjectI)
+// GtkTreeListRow
   fun ref getptr(): NullablePointer[GObjectT]

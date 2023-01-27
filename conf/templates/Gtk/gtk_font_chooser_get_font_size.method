@@ -1,0 +1,2 @@
+  fun ref get_font_size(): I32 =>
+    GtkFontChooserP.get_font_size(this)

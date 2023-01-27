@@ -1,0 +1,2 @@
+  fun delete_text(editable': NullablePointer[GtkEditableT], start_pos': I32, end_pos': I32): None =>
+    @gtk_editable_delete_text(editable', start_pos', end_pos')

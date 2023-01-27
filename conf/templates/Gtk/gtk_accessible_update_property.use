@@ -1,0 +1,1 @@
+use @gtk_accessible_update_property[None](self': NullablePointer[GtkAccessibleT], first_property': U32, ...)

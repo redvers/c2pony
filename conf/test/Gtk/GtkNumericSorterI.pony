@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkNumericSorterI is GtkSorterI
+interface GtkNumericSorterI is (GtkSorterI)
+// GtkNumericSorter
   fun ref getptr(): NullablePointer[GObjectT]

@@ -1,0 +1,2 @@
+  fun ref set_use_alpha(use_alpha': I32): None =>
+    GtkColorChooserP.set_use_alpha(this, use_alpha')

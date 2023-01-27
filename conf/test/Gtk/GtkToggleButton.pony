@@ -15,4 +15,5 @@ class GtkToggleButton is GtkToggleButtonI
   new create() =>
     ptr = GObjectG.gnew(@gtk_toggle_button_get_type())
 
+  // GtkToggleButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

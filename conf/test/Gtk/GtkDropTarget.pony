@@ -15,4 +15,5 @@ class GtkDropTarget is GtkDropTargetI
   new create() =>
     ptr = GObjectG.gnew(@gtk_drop_target_get_type())
 
+  // GtkDropTarget
   fun ref getptr(): NullablePointer[GObjectT] => ptr

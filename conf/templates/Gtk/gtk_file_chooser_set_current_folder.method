@@ -1,0 +1,2 @@
+  fun ref set_current_folder(file': NullablePointer[GFileT], error': GError): I32 =>
+    GtkFileChooserP.set_current_folder(this, file', error')

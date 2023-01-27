@@ -1,0 +1,2 @@
+  fun ref unselect_range(position': U32, n_items': U32): I32 =>
+    GtkSelectionModelP.unselect_range(this, position', n_items')

@@ -14,4 +14,5 @@ class GtkPageSetupUnixDialog is GtkPageSetupUnixDialogI
   new create() =>
     ptr = GObjectG.gnew(@gtk_page_setup_unix_dialog_get_type())
 
+  // GtkPageSetupUnixDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

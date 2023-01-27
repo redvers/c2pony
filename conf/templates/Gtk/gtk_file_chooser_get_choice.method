@@ -1,0 +1,2 @@
+  fun ref get_choice(id': String): String iso^ =>
+    GtkFileChooserP.get_choice(this, id')

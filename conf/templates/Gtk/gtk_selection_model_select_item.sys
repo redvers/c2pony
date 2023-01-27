@@ -1,0 +1,2 @@
+  fun select_item(model': NullablePointer[GtkSelectionModelT], position': U32, unselect_rest': I32): I32 =>
+    @gtk_selection_model_select_item(model', position', unselect_rest')

@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkTooltipI is GObjectI
+interface GtkTooltipI is (GObjectI)
+// GtkTooltip
   fun ref getptr(): NullablePointer[GObjectT]

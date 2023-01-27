@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkTextBufferI is GObjectI
+interface GtkTextBufferI is (GObjectI)
+// GtkTextBuffer
   fun ref getptr(): NullablePointer[GObjectT]

@@ -1,0 +1,2 @@
+  fun ref get_value(iter': NullablePointer[GtkTreeIterT], column': I32, value': NullablePointer[GValueT]): None =>
+    GtkTreeModelP.get_value(this, iter', column', value')

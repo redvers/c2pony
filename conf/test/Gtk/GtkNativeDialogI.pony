@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkNativeDialogI is GObjectI
+interface GtkNativeDialogI is (GObjectI)
+// GtkNativeDialog
   fun ref getptr(): NullablePointer[GObjectT]

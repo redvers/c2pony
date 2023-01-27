@@ -1,0 +1,2 @@
+  fun set_show_preview_entry(fontchooser': NullablePointer[GtkFontChooserT], show_preview_entry': I32): None =>
+    @gtk_font_chooser_set_show_preview_entry(fontchooser', show_preview_entry')

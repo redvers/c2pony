@@ -1,0 +1,1 @@
+use @gtk_tree_model_iter_children[I32](tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT])

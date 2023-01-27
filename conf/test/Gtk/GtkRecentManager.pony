@@ -15,4 +15,5 @@ class GtkRecentManager is GtkRecentManagerI
   new create() =>
     ptr = GObjectG.gnew(@gtk_recent_manager_get_type())
 
+  // GtkRecentManager
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkCellAreaBoxI is GtkCellAreaI
+interface GtkCellAreaBoxI is (GtkCellAreaI & GtkBuildableI & GtkCellLayoutI & GtkOrientableI)
+// GtkCellAreaBox
   fun ref getptr(): NullablePointer[GObjectT]

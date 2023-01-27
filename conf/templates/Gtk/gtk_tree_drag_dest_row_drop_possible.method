@@ -1,0 +1,2 @@
+  fun ref row_drop_possible(dest_path': NullablePointer[GtkTreePathT], value': NullablePointer[GValueT]): I32 =>
+    GtkTreeDragDestP.row_drop_possible(this, dest_path', value')

@@ -1,0 +1,2 @@
+  fun set_focus(self': NullablePointer[GtkRootT], focus': GtkWidgetI): None =>
+    @gtk_root_set_focus(self', focus'.getptr())

@@ -15,4 +15,5 @@ class GtkNumericSorter is GtkNumericSorterI
   new create() =>
     ptr = GObjectG.gnew(@gtk_numeric_sorter_get_type())
 
+  // GtkNumericSorter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

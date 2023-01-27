@@ -15,4 +15,5 @@ class GtkGLArea is GtkGLAreaI
   new create() =>
     ptr = GObjectG.gnew(@gtk_gl_area_get_type())
 
+  // GtkGLArea
   fun ref getptr(): NullablePointer[GObjectT] => ptr

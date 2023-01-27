@@ -1,0 +1,1 @@
+use @gtk_tree_drag_dest_drag_data_received[I32](drag_dest': NullablePointer[GtkTreeDragDestT], dest': NullablePointer[GtkTreePathT], value': NullablePointer[GValueT])

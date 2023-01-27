@@ -15,4 +15,5 @@ class GtkStringObject is GtkStringObjectI
   new create() =>
     ptr = GObjectG.gnew(@gtk_string_object_get_type())
 
+  // GtkStringObject
   fun ref getptr(): NullablePointer[GObjectT] => ptr

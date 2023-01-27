@@ -15,4 +15,5 @@ class GtkDropControllerMotion is GtkDropControllerMotionI
   new create() =>
     ptr = GObjectG.gnew(@gtk_drop_controller_motion_get_type())
 
+  // GtkDropControllerMotion
   fun ref getptr(): NullablePointer[GObjectT] => ptr

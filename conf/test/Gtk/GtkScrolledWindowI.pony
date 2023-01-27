@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkScrolledWindowI is GtkWidgetI
+interface GtkScrolledWindowI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI)
+// GtkScrolledWindow
   fun ref getptr(): NullablePointer[GObjectT]

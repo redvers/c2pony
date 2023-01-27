@@ -15,4 +15,5 @@ class GtkEntryBuffer is GtkEntryBufferI
   new create() =>
     ptr = GObjectG.gnew(@gtk_entry_buffer_get_type())
 
+  // GtkEntryBuffer
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -14,4 +14,5 @@ class GtkWindowControls is GtkWindowControlsI
   new create() =>
     ptr = GObjectG.gnew(@gtk_window_controls_get_type())
 
+  // GtkWindowControls
   fun ref getptr(): NullablePointer[GObjectT] => ptr

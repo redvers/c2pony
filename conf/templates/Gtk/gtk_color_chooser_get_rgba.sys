@@ -1,0 +1,2 @@
+  fun get_rgba(chooser': NullablePointer[GtkColorChooserT], color': NullablePointer[GdkRGBAT]): None =>
+    @gtk_color_chooser_get_rgba(chooser', color')

@@ -1,0 +1,2 @@
+  fun ref get_selection(): NullablePointer[GtkBitsetT] =>
+    GtkSelectionModelP.get_selection(this)

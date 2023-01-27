@@ -15,4 +15,5 @@ class GtkActivateAction is GtkActivateActionI
   new create() =>
     ptr = GObjectG.gnew(@gtk_activate_action_get_type())
 
+  // GtkActivateAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

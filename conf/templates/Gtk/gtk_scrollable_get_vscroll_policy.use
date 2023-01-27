@@ -1,0 +1,1 @@
+use @gtk_scrollable_get_vscroll_policy[U32](scrollable': NullablePointer[GtkScrollableT])

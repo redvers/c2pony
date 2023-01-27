@@ -1,0 +1,2 @@
+  fun set_font_map(fontchooser': NullablePointer[GtkFontChooserT], fontmap': NullablePointer[PangoFontMapT]): None =>
+    @gtk_font_chooser_set_font_map(fontchooser', fontmap')

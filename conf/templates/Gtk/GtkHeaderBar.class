@@ -14,4 +14,5 @@ class GtkHeaderBar is GtkHeaderBarI
   new create() =>
     ptr = GObjectG.gnew(@gtk_header_bar_get_type())
 
+  // GtkHeaderBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

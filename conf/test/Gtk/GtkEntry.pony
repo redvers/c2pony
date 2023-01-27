@@ -15,4 +15,5 @@ class GtkEntry is GtkEntryI
   new create() =>
     ptr = GObjectG.gnew(@gtk_entry_get_type())
 
+  // GtkEntry
   fun ref getptr(): NullablePointer[GObjectT] => ptr

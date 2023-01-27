@@ -1,0 +1,2 @@
+  fun ref get_level(): U32 =>
+    GtkFontChooserP.get_level(this)

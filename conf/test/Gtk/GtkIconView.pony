@@ -15,4 +15,5 @@ class GtkIconView is GtkIconViewI
   new create() =>
     ptr = GObjectG.gnew(@gtk_icon_view_get_type())
 
+  // GtkIconView
   fun ref getptr(): NullablePointer[GObjectT] => ptr

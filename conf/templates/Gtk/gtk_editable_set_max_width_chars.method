@@ -1,0 +1,2 @@
+  fun ref set_max_width_chars(n_chars': I32): None =>
+    GtkEditableP.set_max_width_chars(this, n_chars')

@@ -1,0 +1,2 @@
+  fun ref iter_children(iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT]): I32 =>
+    GtkTreeModelP.iter_children(this, iter', parent')

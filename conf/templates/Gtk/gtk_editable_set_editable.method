@@ -1,0 +1,2 @@
+  fun ref set_editable(is_editable': I32): None =>
+    GtkEditableP.set_editable(this, is_editable')

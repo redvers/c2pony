@@ -5,7 +5,8 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkWidgetI is GObjectI
+interface GtkWidgetI is (GObjectI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI)
+// GtkWidget
   fun ref getptr(): NullablePointer[GObjectT]
   fun ref get_height(): I32 =>
     GtkWidgetP.get_height(this)

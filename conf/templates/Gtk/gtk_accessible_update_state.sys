@@ -1,0 +1,2 @@
+  fun update_state(self': NullablePointer[GtkAccessibleT], first_state': U32, ...): None =>
+    @gtk_accessible_update_state(self', first_state', ...)

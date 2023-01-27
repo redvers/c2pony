@@ -15,4 +15,5 @@ class GtkTreeViewColumn is GtkTreeViewColumnI
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_view_column_get_type())
 
+  // GtkTreeViewColumn
   fun ref getptr(): NullablePointer[GObjectT] => ptr

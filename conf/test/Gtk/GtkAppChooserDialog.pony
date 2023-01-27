@@ -15,4 +15,5 @@ class GtkAppChooserDialog is GtkAppChooserDialogI
   new create() =>
     ptr = GObjectG.gnew(@gtk_app_chooser_dialog_get_type())
 
+  // GtkAppChooserDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

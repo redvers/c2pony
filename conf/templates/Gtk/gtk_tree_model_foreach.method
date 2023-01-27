@@ -1,0 +1,2 @@
+  fun ref foreach(func': GtkTreeModelForeachFunc, user_data': Pointer[None] tag): None =>
+    GtkTreeModelP.foreach(this, func', user_data')

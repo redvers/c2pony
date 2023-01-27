@@ -1,0 +1,1 @@
+use @gtk_color_chooser_set_use_alpha[None](chooser': NullablePointer[GtkColorChooserT], use_alpha': I32)

@@ -1,0 +1,2 @@
+  fun ref is_selected(position': U32): I32 =>
+    GtkSelectionModelP.is_selected(this, position')

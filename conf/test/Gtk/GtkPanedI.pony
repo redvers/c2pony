@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkPanedI is GtkWidgetI
+interface GtkPanedI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkOrientableI)
+// GtkPaned
   fun ref getptr(): NullablePointer[GObjectT]

@@ -15,4 +15,5 @@ class GtkCellRendererText is GtkCellRendererTextI
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_renderer_text_get_type())
 
+  // GtkCellRendererText
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -15,4 +15,5 @@ class GtkApplication is GtkApplicationI
   new create() =>
     ptr = GObjectG.gnew(@gtk_application_get_type())
 
+  // GtkApplication
   fun ref getptr(): NullablePointer[GObjectT] => ptr

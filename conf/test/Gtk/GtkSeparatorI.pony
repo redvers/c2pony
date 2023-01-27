@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkSeparatorI is GtkWidgetI
+interface GtkSeparatorI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkOrientableI)
+// GtkSeparator
   fun ref getptr(): NullablePointer[GObjectT]

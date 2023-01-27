@@ -1,0 +1,2 @@
+  fun update_relation(self': NullablePointer[GtkAccessibleT], first_relation': U32, ...): None =>
+    @gtk_accessible_update_relation(self', first_relation', ...)

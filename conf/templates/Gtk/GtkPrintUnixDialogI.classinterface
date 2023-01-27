@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkPrintUnixDialogI is GtkDialogI
+interface GtkPrintUnixDialogI is (GtkDialogI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkNativeI & GtkRootI & GtkShortcutManagerI)
+// GtkPrintUnixDialog
   fun ref getptr(): NullablePointer[GObjectT]

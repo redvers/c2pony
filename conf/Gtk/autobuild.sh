@@ -930,14 +930,6 @@ echo > ../test/Gtk/GtkIMMulticontextT.pony
 cat ../templates/Gtk/GtkIMMulticontextT.struct >> ../test/Gtk/GtkIMMulticontextT.pony
 echo > ../test/Gtk/GtkIMMulticontextP.pony
 cat ../templates/Gtk/GtkIMMulticontextP.primitive >> ../test/Gtk/GtkIMMulticontextP.pony
-echo > ../test/Gtk/GtkIconPaintable.pony
-cat ../templates/Gtk/GtkIconPaintable.class >> ../test/Gtk/GtkIconPaintable.pony
-echo > ../test/Gtk/GtkIconPaintableI.pony
-cat ../templates/Gtk/GtkIconPaintableI.classinterface >> ../test/Gtk/GtkIconPaintableI.pony
-echo > ../test/Gtk/GtkIconPaintableT.pony
-cat ../templates/Gtk/GtkIconPaintableT.struct >> ../test/Gtk/GtkIconPaintableT.pony
-echo > ../test/Gtk/GtkIconPaintableP.pony
-cat ../templates/Gtk/GtkIconPaintableP.primitive >> ../test/Gtk/GtkIconPaintableP.pony
 echo > ../test/Gtk/GtkIconTheme.pony
 cat ../templates/Gtk/GtkIconTheme.class >> ../test/Gtk/GtkIconTheme.pony
 echo > ../test/Gtk/GtkIconThemeI.pony
@@ -1098,22 +1090,6 @@ echo > ../test/Gtk/GtkMediaControlsT.pony
 cat ../templates/Gtk/GtkMediaControlsT.struct >> ../test/Gtk/GtkMediaControlsT.pony
 echo > ../test/Gtk/GtkMediaControlsP.pony
 cat ../templates/Gtk/GtkMediaControlsP.primitive >> ../test/Gtk/GtkMediaControlsP.pony
-echo > ../test/Gtk/GtkMediaFile.pony
-cat ../templates/Gtk/GtkMediaFile.class >> ../test/Gtk/GtkMediaFile.pony
-echo > ../test/Gtk/GtkMediaFileI.pony
-cat ../templates/Gtk/GtkMediaFileI.classinterface >> ../test/Gtk/GtkMediaFileI.pony
-echo > ../test/Gtk/GtkMediaFileT.pony
-cat ../templates/Gtk/GtkMediaFileT.struct >> ../test/Gtk/GtkMediaFileT.pony
-echo > ../test/Gtk/GtkMediaFileP.pony
-cat ../templates/Gtk/GtkMediaFileP.primitive >> ../test/Gtk/GtkMediaFileP.pony
-echo > ../test/Gtk/GtkMediaStream.pony
-cat ../templates/Gtk/GtkMediaStream.class >> ../test/Gtk/GtkMediaStream.pony
-echo > ../test/Gtk/GtkMediaStreamI.pony
-cat ../templates/Gtk/GtkMediaStreamI.classinterface >> ../test/Gtk/GtkMediaStreamI.pony
-echo > ../test/Gtk/GtkMediaStreamT.pony
-cat ../templates/Gtk/GtkMediaStreamT.struct >> ../test/Gtk/GtkMediaStreamT.pony
-echo > ../test/Gtk/GtkMediaStreamP.pony
-cat ../templates/Gtk/GtkMediaStreamP.primitive >> ../test/Gtk/GtkMediaStreamP.pony
 echo > ../test/Gtk/GtkMenuButton.pony
 cat ../templates/Gtk/GtkMenuButton.class >> ../test/Gtk/GtkMenuButton.pony
 echo > ../test/Gtk/GtkMenuButtonI.pony
@@ -1570,14 +1546,6 @@ echo > ../test/Gtk/GtkSliceListModelT.pony
 cat ../templates/Gtk/GtkSliceListModelT.struct >> ../test/Gtk/GtkSliceListModelT.pony
 echo > ../test/Gtk/GtkSliceListModelP.pony
 cat ../templates/Gtk/GtkSliceListModelP.primitive >> ../test/Gtk/GtkSliceListModelP.pony
-echo > ../test/Gtk/.pony
-cat ../templates/Gtk/.class >> ../test/Gtk/.pony
-echo > ../test/Gtk/I.pony
-cat ../templates/Gtk/I.classinterface >> ../test/Gtk/I.pony
-echo > ../test/Gtk/T.pony
-cat ../templates/Gtk/T.struct >> ../test/Gtk/T.pony
-echo > ../test/Gtk/P.pony
-cat ../templates/Gtk/P.primitive >> ../test/Gtk/P.pony
 echo > ../test/Gtk/GtkSortListModel.pony
 cat ../templates/Gtk/GtkSortListModel.class >> ../test/Gtk/GtkSortListModel.pony
 echo > ../test/Gtk/GtkSortListModelI.pony
@@ -1903,14 +1871,6 @@ cat ../templates/Gtk/gtk_widget_get_tooltip_text.sys >> ../test/Gtk/GtkWidgetP.p
 cat ../templates/Gtk/gtk_widget_get_width.sys >> ../test/Gtk/GtkWidgetP.pony
 cat ../templates/Gtk/gtk_widget_set_visible.sys >> ../test/Gtk/GtkWidgetP.pony
 cat ../templates/Gtk/gtk_widget_unparent.sys >> ../test/Gtk/GtkWidgetP.pony
-echo > ../test/Gtk/GtkWidgetPaintable.pony
-cat ../templates/Gtk/GtkWidgetPaintable.class >> ../test/Gtk/GtkWidgetPaintable.pony
-echo > ../test/Gtk/GtkWidgetPaintableI.pony
-cat ../templates/Gtk/GtkWidgetPaintableI.classinterface >> ../test/Gtk/GtkWidgetPaintableI.pony
-echo > ../test/Gtk/GtkWidgetPaintableT.pony
-cat ../templates/Gtk/GtkWidgetPaintableT.struct >> ../test/Gtk/GtkWidgetPaintableT.pony
-echo > ../test/Gtk/GtkWidgetPaintableP.pony
-cat ../templates/Gtk/GtkWidgetPaintableP.primitive >> ../test/Gtk/GtkWidgetPaintableP.pony
 echo > ../test/Gtk/GtkWindow.pony
 cat ../templates/Gtk/GtkWindow.class >> ../test/Gtk/GtkWindow.pony
 echo > ../test/Gtk/GtkWindowI.pony
@@ -1997,6 +1957,156 @@ echo > ../test/Gtk/GtkWindowHandleT.pony
 cat ../templates/Gtk/GtkWindowHandleT.struct >> ../test/Gtk/GtkWindowHandleT.pony
 echo > ../test/Gtk/GtkWindowHandleP.pony
 cat ../templates/Gtk/GtkWindowHandleP.primitive >> ../test/Gtk/GtkWindowHandleP.pony
+echo > ../test/Gtk/GtkAccessibleI.pony
+cat ../templates/Gtk/GtkAccessibleI.classinterface >> ../test/Gtk/GtkAccessibleI.pony
+echo > ../test/Gtk/GtkAccessibleT.pony
+cat ../templates/Gtk/GtkAccessibleT.struct >> ../test/Gtk/GtkAccessibleT.pony
+echo > ../test/Gtk/GtkAccessibleP.pony
+cat ../templates/Gtk/GtkAccessibleP.primitive >> ../test/Gtk/GtkAccessibleP.pony
+echo > ../test/Gtk/GtkActionableI.pony
+cat ../templates/Gtk/GtkActionableI.classinterface >> ../test/Gtk/GtkActionableI.pony
+echo > ../test/Gtk/GtkActionableT.pony
+cat ../templates/Gtk/GtkActionableT.struct >> ../test/Gtk/GtkActionableT.pony
+echo > ../test/Gtk/GtkActionableP.pony
+cat ../templates/Gtk/GtkActionableP.primitive >> ../test/Gtk/GtkActionableP.pony
+echo > ../test/Gtk/GtkAppChooserI.pony
+cat ../templates/Gtk/GtkAppChooserI.classinterface >> ../test/Gtk/GtkAppChooserI.pony
+echo > ../test/Gtk/GtkAppChooserT.pony
+cat ../templates/Gtk/GtkAppChooserT.struct >> ../test/Gtk/GtkAppChooserT.pony
+echo > ../test/Gtk/GtkAppChooserP.pony
+cat ../templates/Gtk/GtkAppChooserP.primitive >> ../test/Gtk/GtkAppChooserP.pony
+echo > ../test/Gtk/GtkBuildableI.pony
+cat ../templates/Gtk/GtkBuildableI.classinterface >> ../test/Gtk/GtkBuildableI.pony
+echo > ../test/Gtk/GtkBuildableT.pony
+cat ../templates/Gtk/GtkBuildableT.struct >> ../test/Gtk/GtkBuildableT.pony
+echo > ../test/Gtk/GtkBuildableP.pony
+cat ../templates/Gtk/GtkBuildableP.primitive >> ../test/Gtk/GtkBuildableP.pony
+echo > ../test/Gtk/GtkBuilderScopeI.pony
+cat ../templates/Gtk/GtkBuilderScopeI.classinterface >> ../test/Gtk/GtkBuilderScopeI.pony
+echo > ../test/Gtk/GtkBuilderScopeT.pony
+cat ../templates/Gtk/GtkBuilderScopeT.struct >> ../test/Gtk/GtkBuilderScopeT.pony
+echo > ../test/Gtk/GtkBuilderScopeP.pony
+cat ../templates/Gtk/GtkBuilderScopeP.primitive >> ../test/Gtk/GtkBuilderScopeP.pony
+echo > ../test/Gtk/GtkCellEditableI.pony
+cat ../templates/Gtk/GtkCellEditableI.classinterface >> ../test/Gtk/GtkCellEditableI.pony
+echo > ../test/Gtk/GtkCellEditableT.pony
+cat ../templates/Gtk/GtkCellEditableT.struct >> ../test/Gtk/GtkCellEditableT.pony
+echo > ../test/Gtk/GtkCellEditableP.pony
+cat ../templates/Gtk/GtkCellEditableP.primitive >> ../test/Gtk/GtkCellEditableP.pony
+echo > ../test/Gtk/GtkCellLayoutI.pony
+cat ../templates/Gtk/GtkCellLayoutI.classinterface >> ../test/Gtk/GtkCellLayoutI.pony
+echo > ../test/Gtk/GtkCellLayoutT.pony
+cat ../templates/Gtk/GtkCellLayoutT.struct >> ../test/Gtk/GtkCellLayoutT.pony
+echo > ../test/Gtk/GtkCellLayoutP.pony
+cat ../templates/Gtk/GtkCellLayoutP.primitive >> ../test/Gtk/GtkCellLayoutP.pony
+echo > ../test/Gtk/GtkColorChooserI.pony
+cat ../templates/Gtk/GtkColorChooserI.classinterface >> ../test/Gtk/GtkColorChooserI.pony
+echo > ../test/Gtk/GtkColorChooserT.pony
+cat ../templates/Gtk/GtkColorChooserT.struct >> ../test/Gtk/GtkColorChooserT.pony
+echo > ../test/Gtk/GtkColorChooserP.pony
+cat ../templates/Gtk/GtkColorChooserP.primitive >> ../test/Gtk/GtkColorChooserP.pony
+echo > ../test/Gtk/GtkConstraintTargetI.pony
+cat ../templates/Gtk/GtkConstraintTargetI.classinterface >> ../test/Gtk/GtkConstraintTargetI.pony
+echo > ../test/Gtk/GtkConstraintTargetT.pony
+cat ../templates/Gtk/GtkConstraintTargetT.struct >> ../test/Gtk/GtkConstraintTargetT.pony
+echo > ../test/Gtk/GtkConstraintTargetP.pony
+cat ../templates/Gtk/GtkConstraintTargetP.primitive >> ../test/Gtk/GtkConstraintTargetP.pony
+echo > ../test/Gtk/GtkEditableI.pony
+cat ../templates/Gtk/GtkEditableI.classinterface >> ../test/Gtk/GtkEditableI.pony
+echo > ../test/Gtk/GtkEditableT.pony
+cat ../templates/Gtk/GtkEditableT.struct >> ../test/Gtk/GtkEditableT.pony
+echo > ../test/Gtk/GtkEditableP.pony
+cat ../templates/Gtk/GtkEditableP.primitive >> ../test/Gtk/GtkEditableP.pony
+echo > ../test/Gtk/GtkFileChooserI.pony
+cat ../templates/Gtk/GtkFileChooserI.classinterface >> ../test/Gtk/GtkFileChooserI.pony
+echo > ../test/Gtk/GtkFileChooserT.pony
+cat ../templates/Gtk/GtkFileChooserT.struct >> ../test/Gtk/GtkFileChooserT.pony
+echo > ../test/Gtk/GtkFileChooserP.pony
+cat ../templates/Gtk/GtkFileChooserP.primitive >> ../test/Gtk/GtkFileChooserP.pony
+echo > ../test/Gtk/GtkFontChooserI.pony
+cat ../templates/Gtk/GtkFontChooserI.classinterface >> ../test/Gtk/GtkFontChooserI.pony
+echo > ../test/Gtk/GtkFontChooserT.pony
+cat ../templates/Gtk/GtkFontChooserT.struct >> ../test/Gtk/GtkFontChooserT.pony
+echo > ../test/Gtk/GtkFontChooserP.pony
+cat ../templates/Gtk/GtkFontChooserP.primitive >> ../test/Gtk/GtkFontChooserP.pony
+echo > ../test/Gtk/GtkNativeI.pony
+cat ../templates/Gtk/GtkNativeI.classinterface >> ../test/Gtk/GtkNativeI.pony
+echo > ../test/Gtk/GtkNativeT.pony
+cat ../templates/Gtk/GtkNativeT.struct >> ../test/Gtk/GtkNativeT.pony
+echo > ../test/Gtk/GtkNativeP.pony
+cat ../templates/Gtk/GtkNativeP.primitive >> ../test/Gtk/GtkNativeP.pony
+echo > ../test/Gtk/GtkOrientableI.pony
+cat ../templates/Gtk/GtkOrientableI.classinterface >> ../test/Gtk/GtkOrientableI.pony
+echo > ../test/Gtk/GtkOrientableT.pony
+cat ../templates/Gtk/GtkOrientableT.struct >> ../test/Gtk/GtkOrientableT.pony
+echo > ../test/Gtk/GtkOrientableP.pony
+cat ../templates/Gtk/GtkOrientableP.primitive >> ../test/Gtk/GtkOrientableP.pony
+echo > ../test/Gtk/GtkPrintOperationPreviewI.pony
+cat ../templates/Gtk/GtkPrintOperationPreviewI.classinterface >> ../test/Gtk/GtkPrintOperationPreviewI.pony
+echo > ../test/Gtk/GtkPrintOperationPreviewT.pony
+cat ../templates/Gtk/GtkPrintOperationPreviewT.struct >> ../test/Gtk/GtkPrintOperationPreviewT.pony
+echo > ../test/Gtk/GtkPrintOperationPreviewP.pony
+cat ../templates/Gtk/GtkPrintOperationPreviewP.primitive >> ../test/Gtk/GtkPrintOperationPreviewP.pony
+echo > ../test/Gtk/GtkRootI.pony
+cat ../templates/Gtk/GtkRootI.classinterface >> ../test/Gtk/GtkRootI.pony
+echo > ../test/Gtk/GtkRootT.pony
+cat ../templates/Gtk/GtkRootT.struct >> ../test/Gtk/GtkRootT.pony
+echo > ../test/Gtk/GtkRootP.pony
+cat ../templates/Gtk/GtkRootP.primitive >> ../test/Gtk/GtkRootP.pony
+echo > ../test/Gtk/GtkScrollableI.pony
+cat ../templates/Gtk/GtkScrollableI.classinterface >> ../test/Gtk/GtkScrollableI.pony
+echo > ../test/Gtk/GtkScrollableT.pony
+cat ../templates/Gtk/GtkScrollableT.struct >> ../test/Gtk/GtkScrollableT.pony
+echo > ../test/Gtk/GtkScrollableP.pony
+cat ../templates/Gtk/GtkScrollableP.primitive >> ../test/Gtk/GtkScrollableP.pony
+echo > ../test/Gtk/GtkSelectionModelI.pony
+cat ../templates/Gtk/GtkSelectionModelI.classinterface >> ../test/Gtk/GtkSelectionModelI.pony
+echo > ../test/Gtk/GtkSelectionModelT.pony
+cat ../templates/Gtk/GtkSelectionModelT.struct >> ../test/Gtk/GtkSelectionModelT.pony
+echo > ../test/Gtk/GtkSelectionModelP.pony
+cat ../templates/Gtk/GtkSelectionModelP.primitive >> ../test/Gtk/GtkSelectionModelP.pony
+echo > ../test/Gtk/GtkShortcutManagerI.pony
+cat ../templates/Gtk/GtkShortcutManagerI.classinterface >> ../test/Gtk/GtkShortcutManagerI.pony
+echo > ../test/Gtk/GtkShortcutManagerT.pony
+cat ../templates/Gtk/GtkShortcutManagerT.struct >> ../test/Gtk/GtkShortcutManagerT.pony
+echo > ../test/Gtk/GtkShortcutManagerP.pony
+cat ../templates/Gtk/GtkShortcutManagerP.primitive >> ../test/Gtk/GtkShortcutManagerP.pony
+echo > ../test/Gtk/GtkStyleProviderI.pony
+cat ../templates/Gtk/GtkStyleProviderI.classinterface >> ../test/Gtk/GtkStyleProviderI.pony
+echo > ../test/Gtk/GtkStyleProviderT.pony
+cat ../templates/Gtk/GtkStyleProviderT.struct >> ../test/Gtk/GtkStyleProviderT.pony
+echo > ../test/Gtk/GtkStyleProviderP.pony
+cat ../templates/Gtk/GtkStyleProviderP.primitive >> ../test/Gtk/GtkStyleProviderP.pony
+echo > ../test/Gtk/GtkSymbolicPaintableI.pony
+cat ../templates/Gtk/GtkSymbolicPaintableI.classinterface >> ../test/Gtk/GtkSymbolicPaintableI.pony
+echo > ../test/Gtk/GtkSymbolicPaintableT.pony
+cat ../templates/Gtk/GtkSymbolicPaintableT.struct >> ../test/Gtk/GtkSymbolicPaintableT.pony
+echo > ../test/Gtk/GtkSymbolicPaintableP.pony
+cat ../templates/Gtk/GtkSymbolicPaintableP.primitive >> ../test/Gtk/GtkSymbolicPaintableP.pony
+echo > ../test/Gtk/GtkTreeDragDestI.pony
+cat ../templates/Gtk/GtkTreeDragDestI.classinterface >> ../test/Gtk/GtkTreeDragDestI.pony
+echo > ../test/Gtk/GtkTreeDragDestT.pony
+cat ../templates/Gtk/GtkTreeDragDestT.struct >> ../test/Gtk/GtkTreeDragDestT.pony
+echo > ../test/Gtk/GtkTreeDragDestP.pony
+cat ../templates/Gtk/GtkTreeDragDestP.primitive >> ../test/Gtk/GtkTreeDragDestP.pony
+echo > ../test/Gtk/GtkTreeDragSourceI.pony
+cat ../templates/Gtk/GtkTreeDragSourceI.classinterface >> ../test/Gtk/GtkTreeDragSourceI.pony
+echo > ../test/Gtk/GtkTreeDragSourceT.pony
+cat ../templates/Gtk/GtkTreeDragSourceT.struct >> ../test/Gtk/GtkTreeDragSourceT.pony
+echo > ../test/Gtk/GtkTreeDragSourceP.pony
+cat ../templates/Gtk/GtkTreeDragSourceP.primitive >> ../test/Gtk/GtkTreeDragSourceP.pony
+echo > ../test/Gtk/GtkTreeModelI.pony
+cat ../templates/Gtk/GtkTreeModelI.classinterface >> ../test/Gtk/GtkTreeModelI.pony
+echo > ../test/Gtk/GtkTreeModelT.pony
+cat ../templates/Gtk/GtkTreeModelT.struct >> ../test/Gtk/GtkTreeModelT.pony
+echo > ../test/Gtk/GtkTreeModelP.pony
+cat ../templates/Gtk/GtkTreeModelP.primitive >> ../test/Gtk/GtkTreeModelP.pony
+echo > ../test/Gtk/GtkTreeSortableI.pony
+cat ../templates/Gtk/GtkTreeSortableI.classinterface >> ../test/Gtk/GtkTreeSortableI.pony
+echo > ../test/Gtk/GtkTreeSortableT.pony
+cat ../templates/Gtk/GtkTreeSortableT.struct >> ../test/Gtk/GtkTreeSortableT.pony
+echo > ../test/Gtk/GtkTreeSortableP.pony
+cat ../templates/Gtk/GtkTreeSortableP.primitive >> ../test/Gtk/GtkTreeSortableP.pony
 echo > ../test/Gtk/GtkCellRendererPrivate.pony
 cat ../templates/Gtk/GtkCellRendererPrivate.class >> ../test/Gtk/GtkCellRendererPrivate.pony
 echo > ../test/Gtk/GtkCellRendererPrivateT.pony

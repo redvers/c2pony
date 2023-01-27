@@ -1,0 +1,2 @@
+  fun ref get_editable(): I32 =>
+    GtkEditableP.get_editable(this)

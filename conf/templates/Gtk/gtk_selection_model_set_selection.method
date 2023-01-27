@@ -1,0 +1,2 @@
+  fun ref set_selection(selected': NullablePointer[GtkBitsetT], mask': NullablePointer[GtkBitsetT]): I32 =>
+    GtkSelectionModelP.set_selection(this, selected', mask')

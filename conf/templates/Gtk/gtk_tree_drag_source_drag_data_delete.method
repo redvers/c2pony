@@ -1,0 +1,2 @@
+  fun ref drag_data_delete(path': NullablePointer[GtkTreePathT]): I32 =>
+    GtkTreeDragSourceP.drag_data_delete(this, path')

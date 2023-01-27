@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkNotebookI is GtkWidgetI
+interface GtkNotebookI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI)
+// GtkNotebook
   fun ref getptr(): NullablePointer[GObjectT]

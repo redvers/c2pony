@@ -1,0 +1,2 @@
+  fun ref add_filter(filter': NullablePointer[GtkFileFilterT]): None =>
+    GtkFileChooserP.add_filter(this, filter')

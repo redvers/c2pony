@@ -1,0 +1,2 @@
+  fun ref reset_property(property': U32): None =>
+    GtkAccessibleP.reset_property(this, property')

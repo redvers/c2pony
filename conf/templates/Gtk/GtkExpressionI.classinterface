@@ -5,4 +5,5 @@ use "../Gio"
 use "lib:gtk-4"
     
 interface GtkExpressionI
+// GtkExpression
   fun ref getptr(): NullablePointer[GtkExpressionT]

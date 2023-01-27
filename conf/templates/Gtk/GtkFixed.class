@@ -14,4 +14,5 @@ class GtkFixed is GtkFixedI
   new create() =>
     ptr = GObjectG.gnew(@gtk_fixed_get_type())
 
+  // GtkFixed
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -15,4 +15,5 @@ class GtkDropTargetAsync is GtkDropTargetAsyncI
   new create() =>
     ptr = GObjectG.gnew(@gtk_drop_target_async_get_type())
 
+  // GtkDropTargetAsync
   fun ref getptr(): NullablePointer[GObjectT] => ptr

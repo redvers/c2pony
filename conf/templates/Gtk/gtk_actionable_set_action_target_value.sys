@@ -1,0 +1,2 @@
+  fun set_action_target_value(actionable': NullablePointer[GtkActionableT], target_value': NullablePointer[GVariantT]): None =>
+    @gtk_actionable_set_action_target_value(actionable', target_value')

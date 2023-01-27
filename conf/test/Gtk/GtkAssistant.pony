@@ -15,4 +15,5 @@ class GtkAssistant is GtkAssistantI
   new create() =>
     ptr = GObjectG.gnew(@gtk_assistant_get_type())
 
+  // GtkAssistant
   fun ref getptr(): NullablePointer[GObjectT] => ptr

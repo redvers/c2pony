@@ -14,4 +14,5 @@ class GtkPopoverMenuBar is GtkPopoverMenuBarI
   new create() =>
     ptr = GObjectG.gnew(@gtk_popover_menu_bar_get_type())
 
+  // GtkPopoverMenuBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

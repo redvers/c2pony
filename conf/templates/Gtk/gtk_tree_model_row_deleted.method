@@ -1,0 +1,2 @@
+  fun ref row_deleted(path': NullablePointer[GtkTreePathT]): None =>
+    GtkTreeModelP.row_deleted(this, path')

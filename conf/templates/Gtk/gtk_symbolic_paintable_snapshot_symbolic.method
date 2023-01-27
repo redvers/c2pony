@@ -1,0 +1,2 @@
+  fun ref snapshot_symbolic(snapshot': NullablePointer[GdkSnapshotT], width': F64, height': F64, colors': NullablePointer[GdkRGBAT], n_colors': U64): None =>
+    GtkSymbolicPaintableP.snapshot_symbolic(this, snapshot', width', height', colors', n_colors')

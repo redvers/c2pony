@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkCenterBoxI is GtkWidgetI
+interface GtkCenterBoxI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkOrientableI)
+// GtkCenterBox
   fun ref getptr(): NullablePointer[GObjectT]

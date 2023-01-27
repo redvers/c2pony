@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkScaleI is GtkRangeI
+interface GtkScaleI is (GtkRangeI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkOrientableI)
+// GtkScale
   fun ref getptr(): NullablePointer[GObjectT]

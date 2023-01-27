@@ -1,0 +1,2 @@
+  fun ref get_show_preview_entry(): I32 =>
+    GtkFontChooserP.get_show_preview_entry(this)

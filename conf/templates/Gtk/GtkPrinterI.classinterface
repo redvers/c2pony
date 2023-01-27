@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkPrinterI is GObjectI
+interface GtkPrinterI is (GObjectI)
+// GtkPrinter
   fun ref getptr(): NullablePointer[GObjectT]

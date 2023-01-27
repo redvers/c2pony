@@ -1,0 +1,2 @@
+  fun ref update_relation_value(n_relations': I32, relations': Pointer[U32] tag, values': NullablePointer[GValueT]): None =>
+    GtkAccessibleP.update_relation_value(this, n_relations', relations', values')

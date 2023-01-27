@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkPopoverI is GtkWidgetI
+interface GtkPopoverI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkNativeI & GtkShortcutManagerI)
+// GtkPopover
   fun ref getptr(): NullablePointer[GObjectT]

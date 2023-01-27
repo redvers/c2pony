@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkAppChooserWidgetI is GtkWidgetI
+interface GtkAppChooserWidgetI is (GtkWidgetI & GtkAccessibleI & GtkAppChooserI & GtkBuildableI & GtkConstraintTargetI)
+// GtkAppChooserWidget
   fun ref getptr(): NullablePointer[GObjectT]

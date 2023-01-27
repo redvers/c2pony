@@ -1,0 +1,1 @@
+use @gtk_cell_layout_get_area[NullablePointer[GtkCellAreaT]](cell_layout': NullablePointer[GtkCellLayoutT])

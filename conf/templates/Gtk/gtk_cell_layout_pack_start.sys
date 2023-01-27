@@ -1,0 +1,2 @@
+  fun pack_start(cell_layout': NullablePointer[GtkCellLayoutT], cell': NullablePointer[GtkCellRendererT], expand': I32): None =>
+    @gtk_cell_layout_pack_start(cell_layout', cell', expand')

@@ -1,0 +1,2 @@
+  fun get_current_name(chooser': NullablePointer[GtkFileChooserT]): String iso^ =>
+    String.from_cstring(@gtk_file_chooser_get_current_name(chooser')).clone()

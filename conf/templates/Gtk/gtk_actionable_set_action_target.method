@@ -1,0 +1,2 @@
+  fun ref set_action_target(format_string': String, ...): None =>
+    GtkActionableP.set_action_target(this, format_string', ...)

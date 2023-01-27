@@ -1,0 +1,2 @@
+  fun ref get_language(): String iso^ =>
+    GtkFontChooserP.get_language(this)

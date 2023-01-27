@@ -1,0 +1,2 @@
+  fun clear(cell_layout': NullablePointer[GtkCellLayoutT]): None =>
+    @gtk_cell_layout_clear(cell_layout')

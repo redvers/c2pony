@@ -15,4 +15,5 @@ class GtkCustomFilter is GtkCustomFilterI
   new create() =>
     ptr = GObjectG.gnew(@gtk_custom_filter_get_type())
 
+  // GtkCustomFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,0 +1,2 @@
+  fun ref get_buildable_id(): String iso^ =>
+    GtkBuildableP.get_buildable_id(this)

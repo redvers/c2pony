@@ -1,0 +1,2 @@
+  fun ref drag_data_get(path': NullablePointer[GtkTreePathT]): NullablePointer[GdkContentProviderT] =>
+    GtkTreeDragSourceP.drag_data_get(this, path')

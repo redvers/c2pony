@@ -15,4 +15,5 @@ class GtkAnyFilter is GtkAnyFilterI
   new create() =>
     ptr = GObjectG.gnew(@gtk_any_filter_get_type())
 
+  // GtkAnyFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

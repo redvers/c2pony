@@ -1,0 +1,2 @@
+  fun ref remove_choice(id': String): None =>
+    GtkFileChooserP.remove_choice(this, id')

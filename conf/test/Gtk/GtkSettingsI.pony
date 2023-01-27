@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkSettingsI is GObjectI
+interface GtkSettingsI is (GObjectI & GtkStyleProviderI)
+// GtkSettings
   fun ref getptr(): NullablePointer[GObjectT]

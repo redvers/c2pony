@@ -1,0 +1,2 @@
+  fun get_filter(chooser': NullablePointer[GtkFileChooserT]): NullablePointer[GtkFileFilterT] =>
+    @gtk_file_chooser_get_filter(chooser')

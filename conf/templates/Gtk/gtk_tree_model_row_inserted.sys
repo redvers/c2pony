@@ -1,0 +1,2 @@
+  fun row_inserted(tree_model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_model_row_inserted(tree_model', path', iter')

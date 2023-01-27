@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkGestureStylusI is GtkGestureSingleI
+interface GtkGestureStylusI is (GtkGestureSingleI)
+// GtkGestureStylus
   fun ref getptr(): NullablePointer[GObjectT]

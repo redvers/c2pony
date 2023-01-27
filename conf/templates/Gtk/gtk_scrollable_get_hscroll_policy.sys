@@ -1,0 +1,2 @@
+  fun get_hscroll_policy(scrollable': NullablePointer[GtkScrollableT]): U32 =>
+    @gtk_scrollable_get_hscroll_policy(scrollable')

@@ -1,0 +1,1 @@
+use @gtk_tree_model_iter_next[I32](tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT])

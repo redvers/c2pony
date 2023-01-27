@@ -1,0 +1,2 @@
+  fun ref sort_column_changed(): None =>
+    GtkTreeSortableP.sort_column_changed(this)

@@ -1,0 +1,2 @@
+  fun ref get_surface_transform(x': Pointer[F64] tag, y': Pointer[F64] tag): None =>
+    GtkNativeP.get_surface_transform(this, x', y')

@@ -1,0 +1,2 @@
+  fun ref get_column_type(index': I32): U64 =>
+    GtkTreeModelP.get_column_type(this, index')

@@ -14,4 +14,5 @@ class GtkFontButton is GtkFontButtonI
   new create() =>
     ptr = GObjectG.gnew(@gtk_font_button_get_type())
 
+  // GtkFontButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

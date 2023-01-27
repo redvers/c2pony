@@ -1,0 +1,1 @@
+use @gtk_accessible_update_property_value[None](self': NullablePointer[GtkAccessibleT], n_properties': I32, properties': Pointer[U32] tag, values': NullablePointer[GValueT])

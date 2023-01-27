@@ -15,4 +15,5 @@ class GtkGestureZoom is GtkGestureZoomI
   new create() =>
     ptr = GObjectG.gnew(@gtk_gesture_zoom_get_type())
 
+  // GtkGestureZoom
   fun ref getptr(): NullablePointer[GObjectT] => ptr

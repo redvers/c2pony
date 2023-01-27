@@ -15,4 +15,5 @@ class GtkPaned is GtkPanedI
   new create() =>
     ptr = GObjectG.gnew(@gtk_paned_get_type())
 
+  // GtkPaned
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,0 +1,2 @@
+  fun ref get_alignment(): F32 =>
+    GtkEditableP.get_alignment(this)

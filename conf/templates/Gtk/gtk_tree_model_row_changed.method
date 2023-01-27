@@ -1,0 +1,2 @@
+  fun ref row_changed(path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT]): None =>
+    GtkTreeModelP.row_changed(this, path', iter')

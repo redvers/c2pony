@@ -15,4 +15,5 @@ class GtkPrintContext is GtkPrintContextI
   new create() =>
     ptr = GObjectG.gnew(@gtk_print_context_get_type())
 
+  // GtkPrintContext
   fun ref getptr(): NullablePointer[GObjectT] => ptr

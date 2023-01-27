@@ -1,0 +1,2 @@
+  fun ref set_filter_func(filter': GtkFontFilterFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    GtkFontChooserP.set_filter_func(this, filter', user_data', destroy')

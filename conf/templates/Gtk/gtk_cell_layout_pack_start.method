@@ -1,0 +1,2 @@
+  fun ref pack_start(cell': NullablePointer[GtkCellRendererT], expand': I32): None =>
+    GtkCellLayoutP.pack_start(this, cell', expand')

@@ -1,0 +1,1 @@
+use @gtk_cell_layout_get_cells[NullablePointer[GListT]](cell_layout': NullablePointer[GtkCellLayoutT])

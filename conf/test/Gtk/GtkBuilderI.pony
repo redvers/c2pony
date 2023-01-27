@@ -5,7 +5,8 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkBuilderI is GObjectI
+interface GtkBuilderI is (GObjectI)
+// GtkBuilder
   fun ref getptr(): NullablePointer[GObjectT]
   fun ref add_from_resource(resource_path': String, error': GError): I32 =>
     GtkBuilderP.add_from_resource(this, resource_path', error')

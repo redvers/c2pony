@@ -1,0 +1,1 @@
+use @gtk_tree_sortable_has_default_sort_func[I32](sortable': NullablePointer[GtkTreeSortableT])

@@ -15,4 +15,5 @@ class GtkIMContext is GtkIMContextI
   new create() =>
     ptr = GObjectG.gnew(@gtk_im_context_get_type())
 
+  // GtkIMContext
   fun ref getptr(): NullablePointer[GObjectT] => ptr

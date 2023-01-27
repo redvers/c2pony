@@ -15,4 +15,5 @@ class GtkPadController is GtkPadControllerI
   new create() =>
     ptr = GObjectG.gnew(@gtk_pad_controller_get_type())
 
+  // GtkPadController
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,0 +1,2 @@
+  fun ref set_sort_column_id(sort_column_id': I32, order': U32): None =>
+    GtkTreeSortableP.set_sort_column_id(this, sort_column_id', order')

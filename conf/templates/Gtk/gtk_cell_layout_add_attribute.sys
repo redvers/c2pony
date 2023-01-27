@@ -1,0 +1,2 @@
+  fun add_attribute(cell_layout': NullablePointer[GtkCellLayoutT], cell': NullablePointer[GtkCellRendererT], attribute': String, column': I32): None =>
+    @gtk_cell_layout_add_attribute(cell_layout', cell', attribute'.cstring(), column')

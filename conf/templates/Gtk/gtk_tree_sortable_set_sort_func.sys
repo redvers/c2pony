@@ -1,0 +1,2 @@
+  fun set_sort_func(sortable': NullablePointer[GtkTreeSortableT], sort_column_id': I32, sort_func': GtkTreeIterCompareFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_tree_sortable_set_sort_func(sortable', sort_column_id', sort_func', user_data', destroy')

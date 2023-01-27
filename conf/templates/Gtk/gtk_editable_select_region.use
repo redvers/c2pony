@@ -1,0 +1,1 @@
+use @gtk_editable_select_region[None](editable': NullablePointer[GtkEditableT], start_pos': I32, end_pos': I32)

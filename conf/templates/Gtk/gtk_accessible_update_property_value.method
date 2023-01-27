@@ -1,0 +1,2 @@
+  fun ref update_property_value(n_properties': I32, properties': Pointer[U32] tag, values': NullablePointer[GValueT]): None =>
+    GtkAccessibleP.update_property_value(this, n_properties', properties', values')

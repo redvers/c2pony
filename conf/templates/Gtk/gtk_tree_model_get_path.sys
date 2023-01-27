@@ -1,0 +1,2 @@
+  fun get_path(tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT]): NullablePointer[GtkTreePathT] =>
+    @gtk_tree_model_get_path(tree_model', iter')

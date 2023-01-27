@@ -1,0 +1,2 @@
+  fun get_max_width_chars(editable': NullablePointer[GtkEditableT]): I32 =>
+    @gtk_editable_get_max_width_chars(editable')

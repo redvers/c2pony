@@ -1,0 +1,2 @@
+  fun ref add_palette(orientation': U32, colors_per_line': I32, n_colors': I32, colors': NullablePointer[GdkRGBAT]): None =>
+    GtkColorChooserP.add_palette(this, orientation', colors_per_line', n_colors', colors')

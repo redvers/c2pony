@@ -1,0 +1,2 @@
+  fun set_vadjustment(scrollable': NullablePointer[GtkScrollableT], vadjustment': NullablePointer[GtkAdjustmentT]): None =>
+    @gtk_scrollable_set_vadjustment(scrollable', vadjustment')

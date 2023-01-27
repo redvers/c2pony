@@ -1,0 +1,2 @@
+  fun ref get(iter': NullablePointer[GtkTreeIterT], ...): None =>
+    GtkTreeModelP.get(this, iter', ...)

@@ -1,0 +1,2 @@
+  fun is_selected(model': NullablePointer[GtkSelectionModelT], position': U32): I32 =>
+    @gtk_selection_model_is_selected(model', position')

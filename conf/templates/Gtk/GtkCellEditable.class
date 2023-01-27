@@ -1,0 +1,15 @@
+
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkCellEditable is GtkCellEditableI
+  var ptr: NullablePointer[GObjectT]
+
+  new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
+
+
+  // GtkCellEditable
+  fun ref getptr(): NullablePointer[GObjectT] => ptr

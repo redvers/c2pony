@@ -15,4 +15,5 @@ class GtkTreeModelSort is GtkTreeModelSortI
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_model_sort_get_type())
 
+  // GtkTreeModelSort
   fun ref getptr(): NullablePointer[GObjectT] => ptr

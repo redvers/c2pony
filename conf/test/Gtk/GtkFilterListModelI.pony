@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkFilterListModelI is GObjectI
+interface GtkFilterListModelI is (GObjectI & GListModelI)
+// GtkFilterListModel
   fun ref getptr(): NullablePointer[GObjectT]

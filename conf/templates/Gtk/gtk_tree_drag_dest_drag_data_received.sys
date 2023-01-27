@@ -1,0 +1,2 @@
+  fun drag_data_received(drag_dest': NullablePointer[GtkTreeDragDestT], dest': NullablePointer[GtkTreePathT], value': NullablePointer[GValueT]): I32 =>
+    @gtk_tree_drag_dest_drag_data_received(drag_dest', dest', value')

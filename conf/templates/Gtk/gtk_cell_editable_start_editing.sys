@@ -1,0 +1,2 @@
+  fun start_editing(cell_editable': NullablePointer[GtkCellEditableT], event': NullablePointer[GdkEventT]): None =>
+    @gtk_cell_editable_start_editing(cell_editable', event')

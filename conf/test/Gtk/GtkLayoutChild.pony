@@ -15,4 +15,5 @@ class GtkLayoutChild is GtkLayoutChildI
   new create() =>
     ptr = GObjectG.gnew(@gtk_layout_child_get_type())
 
+  // GtkLayoutChild
   fun ref getptr(): NullablePointer[GObjectT] => ptr

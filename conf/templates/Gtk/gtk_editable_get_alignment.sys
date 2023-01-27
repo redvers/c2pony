@@ -1,0 +1,2 @@
+  fun get_alignment(editable': NullablePointer[GtkEditableT]): F32 =>
+    @gtk_editable_get_alignment(editable')

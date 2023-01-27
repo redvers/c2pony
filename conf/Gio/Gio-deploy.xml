@@ -2368,7 +2368,7 @@
       <renderfunction name="g_initable_new_valist" ponyname="new_valist" render="" deprecated=""/>
       <renderfunction name="g_initable_newv" ponyname="newv" render="" deprecated="1"/>
     </renderinterface>
-    <renderinterface name="GListModel" render="">
+    <renderinterface name="GListModel" render="1">
       <rendermethod name="g_list_model_get_item" ponyname="get_item" render="" deprecated=""/>
       <rendermethod name="g_list_model_get_item_type" ponyname="get_item_type" render="" deprecated=""/>
       <rendermethod name="g_list_model_get_n_items" ponyname="get_n_items" render="" deprecated=""/>

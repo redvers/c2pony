@@ -1,0 +1,2 @@
+  fun finish_delegate(editable': NullablePointer[GtkEditableT]): None =>
+    @gtk_editable_finish_delegate(editable')

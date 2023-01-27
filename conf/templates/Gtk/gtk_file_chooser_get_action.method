@@ -1,0 +1,2 @@
+  fun ref get_action(): U32 =>
+    GtkFileChooserP.get_action(this)

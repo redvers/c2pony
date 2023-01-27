@@ -1,0 +1,2 @@
+  fun ref row_has_child_toggled(path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT]): None =>
+    GtkTreeModelP.row_has_child_toggled(this, path', iter')

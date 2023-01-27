@@ -1,0 +1,2 @@
+  fun get_select_multiple(chooser': NullablePointer[GtkFileChooserT]): I32 =>
+    @gtk_file_chooser_get_select_multiple(chooser')

@@ -14,4 +14,5 @@ class GtkFontChooserDialog is GtkFontChooserDialogI
   new create() =>
     ptr = GObjectG.gnew(@gtk_font_chooser_dialog_get_type())
 
+  // GtkFontChooserDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

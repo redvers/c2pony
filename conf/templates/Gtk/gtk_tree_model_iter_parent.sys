@@ -1,0 +1,2 @@
+  fun iter_parent(tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], child': NullablePointer[GtkTreeIterT]): I32 =>
+    @gtk_tree_model_iter_parent(tree_model', iter', child')

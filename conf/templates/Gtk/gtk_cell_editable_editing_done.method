@@ -1,0 +1,2 @@
+  fun ref editing_done(): None =>
+    GtkCellEditableP.editing_done(this)

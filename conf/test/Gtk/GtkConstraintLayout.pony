@@ -15,4 +15,5 @@ class GtkConstraintLayout is GtkConstraintLayoutI
   new create() =>
     ptr = GObjectG.gnew(@gtk_constraint_layout_get_type())
 
+  // GtkConstraintLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

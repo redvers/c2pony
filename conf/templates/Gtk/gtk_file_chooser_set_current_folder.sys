@@ -1,0 +1,2 @@
+  fun set_current_folder(chooser': NullablePointer[GtkFileChooserT], file': NullablePointer[GFileT], error': GError): I32 =>
+    @gtk_file_chooser_set_current_folder(chooser', file', error'.ptr)

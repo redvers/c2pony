@@ -1,0 +1,15 @@
+
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+class GtkActionable is GtkActionableI
+  var ptr: NullablePointer[GObjectT]
+
+  new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
+
+
+  // GtkActionable
+  fun ref getptr(): NullablePointer[GObjectT] => ptr

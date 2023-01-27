@@ -1,0 +1,2 @@
+  fun get_font_desc(fontchooser': NullablePointer[GtkFontChooserT]): NullablePointer[PangoFontDescriptionT] =>
+    @gtk_font_chooser_get_font_desc(fontchooser')

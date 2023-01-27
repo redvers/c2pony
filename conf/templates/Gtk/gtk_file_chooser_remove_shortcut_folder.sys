@@ -1,0 +1,2 @@
+  fun remove_shortcut_folder(chooser': NullablePointer[GtkFileChooserT], folder': NullablePointer[GFileT], error': GError): I32 =>
+    @gtk_file_chooser_remove_shortcut_folder(chooser', folder', error'.ptr)

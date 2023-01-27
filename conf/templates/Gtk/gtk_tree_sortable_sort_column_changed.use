@@ -1,0 +1,1 @@
+use @gtk_tree_sortable_sort_column_changed[None](sortable': NullablePointer[GtkTreeSortableT])

@@ -1,0 +1,2 @@
+  fun get_selection_bounds(editable': NullablePointer[GtkEditableT], start_pos': Pointer[I32] tag, end_pos': Pointer[I32] tag): I32 =>
+    @gtk_editable_get_selection_bounds(editable', start_pos', end_pos')

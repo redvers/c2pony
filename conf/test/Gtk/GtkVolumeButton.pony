@@ -15,4 +15,5 @@ class GtkVolumeButton is GtkVolumeButtonI
   new create() =>
     ptr = GObjectG.gnew(@gtk_volume_button_get_type())
 
+  // GtkVolumeButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,0 +1,2 @@
+  fun get_buildable_id(buildable': NullablePointer[GtkBuildableT]): String iso^ =>
+    String.from_cstring(@gtk_buildable_get_buildable_id(buildable')).clone()

@@ -15,4 +15,5 @@ class GtkStatusbar is GtkStatusbarI
   new create() =>
     ptr = GObjectG.gnew(@gtk_statusbar_get_type())
 
+  // GtkStatusbar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -15,4 +15,5 @@ class GtkAssistantPage is GtkAssistantPageI
   new create() =>
     ptr = GObjectG.gnew(@gtk_assistant_page_get_type())
 
+  // GtkAssistantPage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

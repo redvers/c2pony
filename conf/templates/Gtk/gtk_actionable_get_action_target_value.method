@@ -1,0 +1,2 @@
+  fun ref get_action_target_value(): NullablePointer[GVariantT] =>
+    GtkActionableP.get_action_target_value(this)

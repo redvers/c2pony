@@ -1,0 +1,2 @@
+  fun ref unref_node(iter': NullablePointer[GtkTreeIterT]): None =>
+    GtkTreeModelP.unref_node(this, iter')

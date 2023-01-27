@@ -1,0 +1,2 @@
+  fun get_create_folders(chooser': NullablePointer[GtkFileChooserT]): I32 =>
+    @gtk_file_chooser_get_create_folders(chooser')

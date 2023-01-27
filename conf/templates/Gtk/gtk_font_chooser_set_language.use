@@ -1,0 +1,1 @@
+use @gtk_font_chooser_set_language[None](fontchooser': NullablePointer[GtkFontChooserT], language': Pointer[U8] tag)

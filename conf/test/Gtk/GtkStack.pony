@@ -15,4 +15,5 @@ class GtkStack is GtkStackI
   new create() =>
     ptr = GObjectG.gnew(@gtk_stack_get_type())
 
+  // GtkStack
   fun ref getptr(): NullablePointer[GObjectT] => ptr

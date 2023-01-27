@@ -1,0 +1,2 @@
+  fun ref unselect_all(): I32 =>
+    GtkSelectionModelP.unselect_all(this)

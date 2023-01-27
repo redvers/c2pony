@@ -1,0 +1,2 @@
+  fun set_detailed_action_name(actionable': NullablePointer[GtkActionableT], detailed_action_name': String): None =>
+    @gtk_actionable_set_detailed_action_name(actionable', detailed_action_name'.cstring())

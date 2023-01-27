@@ -1,0 +1,2 @@
+  fun set_file(chooser': NullablePointer[GtkFileChooserT], file': NullablePointer[GFileT], error': GError): I32 =>
+    @gtk_file_chooser_set_file(chooser', file', error'.ptr)

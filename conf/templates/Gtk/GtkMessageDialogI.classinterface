@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkMessageDialogI is GtkDialogI
+interface GtkMessageDialogI is (GtkDialogI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkNativeI & GtkRootI & GtkShortcutManagerI)
+// GtkMessageDialog
   fun ref getptr(): NullablePointer[GObjectT]

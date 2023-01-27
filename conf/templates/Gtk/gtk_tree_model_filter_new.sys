@@ -1,0 +1,2 @@
+  fun filter_new(child_model': NullablePointer[GtkTreeModelT], root': NullablePointer[GtkTreePathT]): NullablePointer[GtkTreeModelT] =>
+    @gtk_tree_model_filter_new(child_model', root')

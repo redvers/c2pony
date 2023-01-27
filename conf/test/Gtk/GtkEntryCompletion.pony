@@ -15,4 +15,5 @@ class GtkEntryCompletion is GtkEntryCompletionI
   new create() =>
     ptr = GObjectG.gnew(@gtk_entry_completion_get_type())
 
+  // GtkEntryCompletion
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,0 +1,2 @@
+  fun ref get_select_multiple(): I32 =>
+    GtkFileChooserP.get_select_multiple(this)

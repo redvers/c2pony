@@ -14,4 +14,5 @@ class GtkSizeGroup is GtkSizeGroupI
   new create() =>
     ptr = GObjectG.gnew(@gtk_size_group_get_type())
 
+  // GtkSizeGroup
   fun ref getptr(): NullablePointer[GObjectT] => ptr

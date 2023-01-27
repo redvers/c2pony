@@ -15,4 +15,5 @@ class GtkBinLayout is GtkBinLayoutI
   new create() =>
     ptr = GObjectG.gnew(@gtk_bin_layout_get_type())
 
+  // GtkBinLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -15,4 +15,5 @@ class GtkKeyvalTrigger is GtkKeyvalTriggerI
   new create() =>
     ptr = GObjectG.gnew(@gtk_keyval_trigger_get_type())
 
+  // GtkKeyvalTrigger
   fun ref getptr(): NullablePointer[GObjectT] => ptr

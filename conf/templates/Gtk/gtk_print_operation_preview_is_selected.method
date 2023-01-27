@@ -1,0 +1,2 @@
+  fun ref is_selected(page_nr': I32): I32 =>
+    GtkPrintOperationPreviewP.is_selected(this, page_nr')

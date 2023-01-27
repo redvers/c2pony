@@ -1,0 +1,2 @@
+  fun get_use_alpha(chooser': NullablePointer[GtkColorChooserT]): I32 =>
+    @gtk_color_chooser_get_use_alpha(chooser')

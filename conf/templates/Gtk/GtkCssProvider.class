@@ -14,4 +14,5 @@ class GtkCssProvider is GtkCssProviderI
   new create() =>
     ptr = GObjectG.gnew(@gtk_css_provider_get_type())
 
+  // GtkCssProvider
   fun ref getptr(): NullablePointer[GObjectT] => ptr

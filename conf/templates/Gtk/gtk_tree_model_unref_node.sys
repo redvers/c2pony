@@ -1,0 +1,2 @@
+  fun unref_node(tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_model_unref_node(tree_model', iter')

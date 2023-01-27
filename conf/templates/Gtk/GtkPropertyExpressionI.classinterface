@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkPropertyExpressionI is GtkExpressionI
+interface GtkPropertyExpressionI is (GtkExpressionI)
+// GtkPropertyExpression
   fun ref getptr(): NullablePointer[GtkExpressionT]

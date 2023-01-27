@@ -1,0 +1,2 @@
+  fun ref realize(): None =>
+    GtkNativeP.realize(this)

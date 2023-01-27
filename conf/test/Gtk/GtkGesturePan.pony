@@ -15,4 +15,5 @@ class GtkGesturePan is GtkGesturePanI
   new create() =>
     ptr = GObjectG.gnew(@gtk_gesture_pan_get_type())
 
+  // GtkGesturePan
   fun ref getptr(): NullablePointer[GObjectT] => ptr

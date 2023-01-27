@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkMountOperationI is GMountOperationI
+interface GtkMountOperationI is (GMountOperationI)
+// GtkMountOperation
   fun ref getptr(): NullablePointer[GObjectT]

@@ -14,4 +14,5 @@ class GtkDrawingArea is GtkDrawingAreaI
   new create() =>
     ptr = GObjectG.gnew(@gtk_drawing_area_get_type())
 
+  // GtkDrawingArea
   fun ref getptr(): NullablePointer[GObjectT] => ptr

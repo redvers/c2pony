@@ -1,0 +1,2 @@
+  fun reset_state(self': NullablePointer[GtkAccessibleT], state': U32): None =>
+    @gtk_accessible_reset_state(self', state')

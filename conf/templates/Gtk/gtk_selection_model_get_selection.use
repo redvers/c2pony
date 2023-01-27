@@ -1,0 +1,1 @@
+use @gtk_selection_model_get_selection[NullablePointer[GtkBitsetT]](model': NullablePointer[GtkSelectionModelT])

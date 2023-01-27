@@ -1,0 +1,2 @@
+  fun get_shortcut_folders(chooser': NullablePointer[GtkFileChooserT]): NullablePointer[GListModelT] =>
+    @gtk_file_chooser_get_shortcut_folders(chooser')

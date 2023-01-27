@@ -14,4 +14,5 @@ class GtkWidgetPaintable is GtkWidgetPaintableI
   new create() =>
     ptr = GObjectG.gnew(@gtk_widget_paintable_get_type())
 
+  // GtkWidgetPaintable
   fun ref getptr(): NullablePointer[GObjectT] => ptr

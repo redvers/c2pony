@@ -15,4 +15,5 @@ class GtkPrintOperation is GtkPrintOperationI
   new create() =>
     ptr = GObjectG.gnew(@gtk_print_operation_get_type())
 
+  // GtkPrintOperation
   fun ref getptr(): NullablePointer[GObjectT] => ptr

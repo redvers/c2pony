@@ -1,0 +1,1 @@
+use @gtk_selection_model_is_selected[I32](model': NullablePointer[GtkSelectionModelT], position': U32)

@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkPasswordEntryBufferI is GtkEntryBufferI
+interface GtkPasswordEntryBufferI is (GtkEntryBufferI)
+// GtkPasswordEntryBuffer
   fun ref getptr(): NullablePointer[GObjectT]

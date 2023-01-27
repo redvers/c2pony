@@ -1,0 +1,2 @@
+  fun ref init_delegate(): None =>
+    GtkEditableP.init_delegate(this)

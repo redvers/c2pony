@@ -1,0 +1,10 @@
+
+
+use "../GLib"
+use "../GObject"
+use "../Gio"
+use "lib:gtk-4"
+    
+interface GtkConstraintTargetI
+// GtkConstraintTarget
+  fun ref getptr(): NullablePointer[GObjectT]

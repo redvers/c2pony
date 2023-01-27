@@ -15,4 +15,5 @@ class GtkActionBar is GtkActionBarI
   new create() =>
     ptr = GObjectG.gnew(@gtk_action_bar_get_type())
 
+  // GtkActionBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

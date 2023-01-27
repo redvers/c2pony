@@ -1,0 +1,1 @@
+use @gtk_editable_set_max_width_chars[None](editable': NullablePointer[GtkEditableT], n_chars': I32)

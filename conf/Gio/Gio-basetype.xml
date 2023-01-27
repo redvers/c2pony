@@ -49,6 +49,7 @@
   <basetype name="GInetSocketAddress" baseclass="GObject"/>
   <basetype name="GInputStream" baseclass="GObject"/>
   <basetype name="GListStore" baseclass="GObject"/>
+  <basetype name="GListModel" baseclass="GObject"/>
   <basetype name="GMemoryInputStream" baseclass="GObject"/>
   <basetype name="GMemoryOutputStream" baseclass="GObject"/>
   <basetype name="GMenu" baseclass="GObject"/>

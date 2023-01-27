@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkSpinnerI is GtkWidgetI
+interface GtkSpinnerI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI)
+// GtkSpinner
   fun ref getptr(): NullablePointer[GObjectT]

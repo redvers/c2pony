@@ -1,0 +1,2 @@
+  fun ref get_iter_first(iter': NullablePointer[GtkTreeIterT]): I32 =>
+    GtkTreeModelP.get_iter_first(this, iter')

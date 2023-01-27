@@ -1,0 +1,2 @@
+  fun ref set_language(language': String): None =>
+    GtkFontChooserP.set_language(this, language')

@@ -1,0 +1,1 @@
+use @gtk_cell_editable_editing_done[None](cell_editable': NullablePointer[GtkCellEditableT])

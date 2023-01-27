@@ -1,0 +1,2 @@
+  fun ref set_alignment(xalign': F32): None =>
+    GtkEditableP.set_alignment(this, xalign')

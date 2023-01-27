@@ -15,4 +15,5 @@ class GtkListBoxRow is GtkListBoxRowI
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_box_row_get_type())
 
+  // GtkListBoxRow
   fun ref getptr(): NullablePointer[GObjectT] => ptr

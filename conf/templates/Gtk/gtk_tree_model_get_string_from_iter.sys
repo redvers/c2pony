@@ -1,0 +1,2 @@
+  fun get_string_from_iter(tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT]): String iso^ =>
+    String.from_cstring(@gtk_tree_model_get_string_from_iter(tree_model', iter')).clone()

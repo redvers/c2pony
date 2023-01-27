@@ -15,4 +15,5 @@ class GtkGestureClick is GtkGestureClickI
   new create() =>
     ptr = GObjectG.gnew(@gtk_gesture_click_get_type())
 
+  // GtkGestureClick
   fun ref getptr(): NullablePointer[GObjectT] => ptr

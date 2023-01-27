@@ -1,0 +1,2 @@
+  fun ref start_editing(event': NullablePointer[GdkEventT]): None =>
+    GtkCellEditableP.start_editing(this, event')

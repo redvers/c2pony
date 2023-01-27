@@ -1,0 +1,2 @@
+  fun get_preview_text(fontchooser': NullablePointer[GtkFontChooserT]): String iso^ =>
+    String.from_cstring(@gtk_font_chooser_get_preview_text(fontchooser')).clone()

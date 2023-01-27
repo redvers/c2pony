@@ -1,0 +1,1 @@
+use @gtk_tree_model_get_iter_from_string[I32](tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], path_string': Pointer[U8] tag)

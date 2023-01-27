@@ -1,0 +1,2 @@
+  fun ref select_region(start_pos': I32, end_pos': I32): None =>
+    GtkEditableP.select_region(this, start_pos', end_pos')

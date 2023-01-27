@@ -15,4 +15,5 @@ class GtkSeparator is GtkSeparatorI
   new create() =>
     ptr = GObjectG.gnew(@gtk_separator_get_type())
 
+  // GtkSeparator
   fun ref getptr(): NullablePointer[GObjectT] => ptr

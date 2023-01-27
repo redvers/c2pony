@@ -1,0 +1,2 @@
+  fun ref rows_reordered(path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT], new_order': Pointer[I32] tag): None =>
+    GtkTreeModelP.rows_reordered(this, path', iter', new_order')

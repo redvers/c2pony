@@ -1,0 +1,2 @@
+  fun get_display(self': NullablePointer[GtkRootT]): NullablePointer[GdkDisplayT] =>
+    @gtk_root_get_display(self')

@@ -14,4 +14,5 @@ class GtkFileChooserNative is GtkFileChooserNativeI
   new create() =>
     ptr = GObjectG.gnew(@gtk_file_chooser_native_get_type())
 
+  // GtkFileChooserNative
   fun ref getptr(): NullablePointer[GObjectT] => ptr

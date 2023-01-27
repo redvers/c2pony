@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkShortcutControllerI is GtkEventControllerI
+interface GtkShortcutControllerI is (GtkEventControllerI & GListModelI & GtkBuildableI)
+// GtkShortcutController
   fun ref getptr(): NullablePointer[GObjectT]

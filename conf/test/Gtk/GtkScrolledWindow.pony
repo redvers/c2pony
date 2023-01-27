@@ -15,4 +15,5 @@ class GtkScrolledWindow is GtkScrolledWindowI
   new create() =>
     ptr = GObjectG.gnew(@gtk_scrolled_window_get_type())
 
+  // GtkScrolledWindow
   fun ref getptr(): NullablePointer[GObjectT] => ptr

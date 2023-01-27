@@ -1,0 +1,2 @@
+  fun ref end_preview(): None =>
+    GtkPrintOperationPreviewP.end_preview(this)

@@ -1,0 +1,2 @@
+  fun ref set_create_folders(create_folders': I32): None =>
+    GtkFileChooserP.set_create_folders(this, create_folders')

@@ -15,4 +15,5 @@ class GtkTextBuffer is GtkTextBufferI
   new create() =>
     ptr = GObjectG.gnew(@gtk_text_buffer_get_type())
 
+  // GtkTextBuffer
   fun ref getptr(): NullablePointer[GObjectT] => ptr

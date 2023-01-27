@@ -1,0 +1,2 @@
+  fun get_selection(model': NullablePointer[GtkSelectionModelT]): NullablePointer[GtkBitsetT] =>
+    @gtk_selection_model_get_selection(model')

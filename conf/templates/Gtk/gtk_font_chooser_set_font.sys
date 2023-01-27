@@ -1,0 +1,2 @@
+  fun set_font(fontchooser': NullablePointer[GtkFontChooserT], fontname': String): None =>
+    @gtk_font_chooser_set_font(fontchooser', fontname'.cstring())

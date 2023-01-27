@@ -1,0 +1,2 @@
+  fun ref add_attribute(cell': NullablePointer[GtkCellRendererT], attribute': String, column': I32): None =>
+    GtkCellLayoutP.add_attribute(this, cell', attribute', column')

@@ -1,0 +1,2 @@
+  fun ref get_position(): I32 =>
+    GtkEditableP.get_position(this)

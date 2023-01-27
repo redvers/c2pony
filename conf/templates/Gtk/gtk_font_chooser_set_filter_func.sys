@@ -1,0 +1,2 @@
+  fun set_filter_func(fontchooser': NullablePointer[GtkFontChooserT], filter': GtkFontFilterFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_font_chooser_set_filter_func(fontchooser', filter', user_data', destroy')

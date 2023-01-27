@@ -1,2 +1,2 @@
-  fun insert_action_group(widget': GtkWidgetI, name': String, group': NullablePointer[GActionGroupT]): None =>
-    @gtk_widget_insert_action_group(widget'.getptr(), name'.cstring(), group')
+  fun insert_action_group(widget': GtkWidgetI, name': String, group': GActionGroupI): None =>
+    @gtk_widget_insert_action_group(widget'.getptr(), name'.cstring(), group'.getptr())

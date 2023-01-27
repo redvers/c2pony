@@ -1,0 +1,2 @@
+  fun ref get_string_from_iter(iter': NullablePointer[GtkTreeIterT]): String iso^ =>
+    GtkTreeModelP.get_string_from_iter(this, iter')

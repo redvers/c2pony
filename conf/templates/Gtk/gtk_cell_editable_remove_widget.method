@@ -1,0 +1,2 @@
+  fun ref remove_widget(): None =>
+    GtkCellEditableP.remove_widget(this)

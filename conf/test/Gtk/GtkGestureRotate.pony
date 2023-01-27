@@ -15,4 +15,5 @@ class GtkGestureRotate is GtkGestureRotateI
   new create() =>
     ptr = GObjectG.gnew(@gtk_gesture_rotate_get_type())
 
+  // GtkGestureRotate
   fun ref getptr(): NullablePointer[GObjectT] => ptr

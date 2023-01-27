@@ -1,0 +1,2 @@
+  fun ref row_draggable(path': NullablePointer[GtkTreePathT]): I32 =>
+    GtkTreeDragSourceP.row_draggable(this, path')

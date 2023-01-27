@@ -15,4 +15,5 @@ class GtkFilterListModel is GtkFilterListModelI
   new create() =>
     ptr = GObjectG.gnew(@gtk_filter_list_model_get_type())
 
+  // GtkFilterListModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

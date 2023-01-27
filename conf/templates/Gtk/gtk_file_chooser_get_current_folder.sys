@@ -1,0 +1,2 @@
+  fun get_current_folder(chooser': NullablePointer[GtkFileChooserT]): NullablePointer[GFileT] =>
+    @gtk_file_chooser_get_current_folder(chooser')

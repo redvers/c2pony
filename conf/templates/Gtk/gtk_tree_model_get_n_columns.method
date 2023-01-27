@@ -1,0 +1,2 @@
+  fun ref get_n_columns(): I32 =>
+    GtkTreeModelP.get_n_columns(this)

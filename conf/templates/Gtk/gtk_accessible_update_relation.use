@@ -1,0 +1,1 @@
+use @gtk_accessible_update_relation[None](self': NullablePointer[GtkAccessibleT], first_relation': U32, ...)

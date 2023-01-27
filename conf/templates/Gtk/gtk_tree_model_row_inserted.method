@@ -1,0 +1,2 @@
+  fun ref row_inserted(path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT]): None =>
+    GtkTreeModelP.row_inserted(this, path', iter')

@@ -15,4 +15,5 @@ class GtkListItem is GtkListItemI
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_item_get_type())
 
+  // GtkListItem
   fun ref getptr(): NullablePointer[GObjectT] => ptr

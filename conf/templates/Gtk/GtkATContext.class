@@ -14,4 +14,5 @@ class GtkATContext is GtkATContextI
   new create() =>
     ptr = GObjectG.gnew(@gtk_at_context_get_type())
 
+  // GtkATContext
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,0 +1,2 @@
+  fun ref get_content_type(): String iso^ =>
+    GtkAppChooserP.get_content_type(this)

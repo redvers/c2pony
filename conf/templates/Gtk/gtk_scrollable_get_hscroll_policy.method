@@ -1,0 +1,2 @@
+  fun ref get_hscroll_policy(): U32 =>
+    GtkScrollableP.get_hscroll_policy(this)

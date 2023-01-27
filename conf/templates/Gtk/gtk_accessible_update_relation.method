@@ -1,0 +1,2 @@
+  fun ref update_relation(first_relation': U32, ...): None =>
+    GtkAccessibleP.update_relation(this, first_relation', ...)

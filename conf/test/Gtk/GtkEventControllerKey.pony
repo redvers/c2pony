@@ -15,4 +15,5 @@ class GtkEventControllerKey is GtkEventControllerKeyI
   new create() =>
     ptr = GObjectG.gnew(@gtk_event_controller_key_get_type())
 
+  // GtkEventControllerKey
   fun ref getptr(): NullablePointer[GObjectT] => ptr

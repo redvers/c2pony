@@ -1,0 +1,2 @@
+  fun get_area(cell_layout': NullablePointer[GtkCellLayoutT]): NullablePointer[GtkCellAreaT] =>
+    @gtk_cell_layout_get_area(cell_layout')

@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkDropTargetI is GtkEventControllerI
+interface GtkDropTargetI is (GtkEventControllerI)
+// GtkDropTarget
   fun ref getptr(): NullablePointer[GObjectT]

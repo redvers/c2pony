@@ -1,0 +1,1 @@
+use @gtk_accessible_update_relation_value[None](self': NullablePointer[GtkAccessibleT], n_relations': I32, relations': Pointer[U32] tag, values': NullablePointer[GValueT])

@@ -1,0 +1,1 @@
+use @gtk_font_chooser_set_font_desc[None](fontchooser': NullablePointer[GtkFontChooserT], font_desc': NullablePointer[PangoFontDescriptionT])

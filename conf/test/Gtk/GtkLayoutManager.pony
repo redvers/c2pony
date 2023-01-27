@@ -15,4 +15,5 @@ class GtkLayoutManager is GtkLayoutManagerI
   new create() =>
     ptr = GObjectG.gnew(@gtk_layout_manager_get_type())
 
+  // GtkLayoutManager
   fun ref getptr(): NullablePointer[GObjectT] => ptr

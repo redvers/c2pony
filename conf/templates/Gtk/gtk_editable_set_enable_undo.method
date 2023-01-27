@@ -1,0 +1,2 @@
+  fun ref set_enable_undo(enable_undo': I32): None =>
+    GtkEditableP.set_enable_undo(this, enable_undo')

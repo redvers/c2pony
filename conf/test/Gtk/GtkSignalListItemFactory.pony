@@ -15,4 +15,5 @@ class GtkSignalListItemFactory is GtkSignalListItemFactoryI
   new create() =>
     ptr = GObjectG.gnew(@gtk_signal_list_item_factory_get_type())
 
+  // GtkSignalListItemFactory
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -15,4 +15,5 @@ class GtkCellRendererPixbuf is GtkCellRendererPixbufI
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_renderer_pixbuf_get_type())
 
+  // GtkCellRendererPixbuf
   fun ref getptr(): NullablePointer[GObjectT] => ptr

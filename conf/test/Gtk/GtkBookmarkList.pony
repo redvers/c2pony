@@ -15,4 +15,5 @@ class GtkBookmarkList is GtkBookmarkListI
   new create() =>
     ptr = GObjectG.gnew(@gtk_bookmark_list_get_type())
 
+  // GtkBookmarkList
   fun ref getptr(): NullablePointer[GObjectT] => ptr

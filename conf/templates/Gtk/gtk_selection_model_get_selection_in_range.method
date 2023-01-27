@@ -1,0 +1,2 @@
+  fun ref get_selection_in_range(position': U32, n_items': U32): NullablePointer[GtkBitsetT] =>
+    GtkSelectionModelP.get_selection_in_range(this, position', n_items')

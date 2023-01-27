@@ -1,0 +1,2 @@
+  fun ref get_sort_column_id(sort_column_id': Pointer[I32] tag, order': Pointer[U32] tag): I32 =>
+    GtkTreeSortableP.get_sort_column_id(this, sort_column_id', order')

@@ -1,0 +1,2 @@
+  fun is_selected(preview': NullablePointer[GtkPrintOperationPreviewT], page_nr': I32): I32 =>
+    @gtk_print_operation_preview_is_selected(preview', page_nr')

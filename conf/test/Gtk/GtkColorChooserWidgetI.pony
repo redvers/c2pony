@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkColorChooserWidgetI is GtkWidgetI
+interface GtkColorChooserWidgetI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkColorChooserI & GtkConstraintTargetI)
+// GtkColorChooserWidget
   fun ref getptr(): NullablePointer[GObjectT]

@@ -1,0 +1,2 @@
+  fun ref reset_relation(relation': U32): None =>
+    GtkAccessibleP.reset_relation(this, relation')

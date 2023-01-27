@@ -1,0 +1,2 @@
+  fun ref set_choice(id': String, option': String): None =>
+    GtkFileChooserP.set_choice(this, id', option')

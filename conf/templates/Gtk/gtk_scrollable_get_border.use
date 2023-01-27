@@ -1,0 +1,1 @@
+use @gtk_scrollable_get_border[I32](scrollable': NullablePointer[GtkScrollableT], border': NullablePointer[GtkBorderT])

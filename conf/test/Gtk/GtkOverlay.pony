@@ -15,4 +15,5 @@ class GtkOverlay is GtkOverlayI
   new create() =>
     ptr = GObjectG.gnew(@gtk_overlay_get_type())
 
+  // GtkOverlay
   fun ref getptr(): NullablePointer[GObjectT] => ptr

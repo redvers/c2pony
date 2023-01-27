@@ -15,4 +15,5 @@ class GtkFilter is GtkFilterI
   new create() =>
     ptr = GObjectG.gnew(@gtk_filter_get_type())
 
+  // GtkFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

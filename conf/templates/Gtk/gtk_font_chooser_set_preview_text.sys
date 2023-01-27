@@ -1,0 +1,2 @@
+  fun set_preview_text(fontchooser': NullablePointer[GtkFontChooserT], text': String): None =>
+    @gtk_font_chooser_set_preview_text(fontchooser', text'.cstring())

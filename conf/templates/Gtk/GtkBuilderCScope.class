@@ -14,4 +14,5 @@ class GtkBuilderCScope is GtkBuilderCScopeI
   new create() =>
     ptr = GObjectG.gnew(@gtk_builder_cscope_get_type())
 
+  // GtkBuilderCScope
   fun ref getptr(): NullablePointer[GObjectT] => ptr

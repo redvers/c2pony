@@ -15,4 +15,5 @@ class GtkCellRendererProgress is GtkCellRendererProgressI
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_renderer_progress_get_type())
 
+  // GtkCellRendererProgress
   fun ref getptr(): NullablePointer[GObjectT] => ptr

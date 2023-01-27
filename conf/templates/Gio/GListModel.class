@@ -5,9 +5,9 @@ use "../GObject"
 use "lib:gio-2.0"
 
 class GListModel is GListModelI
-  var ptr: NullablePointer[T]
+  var ptr: NullablePointer[GObjectT]
 
-  new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
+  new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
 
 
-  fun ref getptr(): NullablePointer[T] => ptr
+  fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkGestureClickI is GtkGestureSingleI
+interface GtkGestureClickI is (GtkGestureSingleI)
+// GtkGestureClick
   fun ref getptr(): NullablePointer[GObjectT]

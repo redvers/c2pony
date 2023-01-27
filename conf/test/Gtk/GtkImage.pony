@@ -15,4 +15,5 @@ class GtkImage is GtkImageI
   new create() =>
     ptr = GObjectG.gnew(@gtk_image_get_type())
 
+  // GtkImage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

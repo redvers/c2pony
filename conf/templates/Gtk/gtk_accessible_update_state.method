@@ -1,0 +1,2 @@
+  fun ref update_state(first_state': U32, ...): None =>
+    GtkAccessibleP.update_state(this, first_state', ...)

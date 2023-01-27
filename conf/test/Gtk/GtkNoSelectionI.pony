@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkNoSelectionI is GObjectI
+interface GtkNoSelectionI is (GObjectI & GListModelI & GtkSelectionModelI)
+// GtkNoSelection
   fun ref getptr(): NullablePointer[GObjectT]

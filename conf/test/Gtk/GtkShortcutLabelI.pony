@@ -5,5 +5,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkShortcutLabelI is GtkWidgetI
+interface GtkShortcutLabelI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI)
+// GtkShortcutLabel
   fun ref getptr(): NullablePointer[GObjectT]

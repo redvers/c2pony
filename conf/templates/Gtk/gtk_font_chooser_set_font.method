@@ -1,0 +1,2 @@
+  fun ref set_font(fontname': String): None =>
+    GtkFontChooserP.set_font(this, fontname')

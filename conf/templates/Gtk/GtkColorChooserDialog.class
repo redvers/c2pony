@@ -14,4 +14,5 @@ class GtkColorChooserDialog is GtkColorChooserDialogI
   new create() =>
     ptr = GObjectG.gnew(@gtk_color_chooser_dialog_get_type())
 
+  // GtkColorChooserDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

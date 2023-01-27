@@ -1,0 +1,1 @@
+use @gtk_file_chooser_set_filter[None](chooser': NullablePointer[GtkFileChooserT], filter': NullablePointer[GtkFileFilterT])

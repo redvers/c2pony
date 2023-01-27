@@ -14,4 +14,5 @@ class GtkProgressBar is GtkProgressBarI
   new create() =>
     ptr = GObjectG.gnew(@gtk_progress_bar_get_type())
 
+  // GtkProgressBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

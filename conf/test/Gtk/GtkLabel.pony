@@ -15,4 +15,5 @@ class GtkLabel is GtkLabelI
   new create() =>
     ptr = GObjectG.gnew(@gtk_label_get_type())
 
+  // GtkLabel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

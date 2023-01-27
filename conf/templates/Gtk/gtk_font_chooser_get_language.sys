@@ -1,0 +1,2 @@
+  fun get_language(fontchooser': NullablePointer[GtkFontChooserT]): String iso^ =>
+    String.from_cstring(@gtk_font_chooser_get_language(fontchooser')).clone()

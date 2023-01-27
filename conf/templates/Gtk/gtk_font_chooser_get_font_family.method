@@ -1,0 +1,2 @@
+  fun ref get_font_family(): NullablePointer[PangoFontFamilyT] =>
+    GtkFontChooserP.get_font_family(this)

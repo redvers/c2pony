@@ -14,4 +14,5 @@ class GtkPrinter is GtkPrinterI
   new create() =>
     ptr = GObjectG.gnew(@gtk_printer_get_type())
 
+  // GtkPrinter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

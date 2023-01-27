@@ -15,4 +15,5 @@ class GtkBox is GtkBoxI
   new create() =>
     ptr = GObjectG.gnew(@gtk_box_get_type())
 
+  // GtkBox
   fun ref getptr(): NullablePointer[GObjectT] => ptr

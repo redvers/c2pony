@@ -15,4 +15,5 @@ class GtkFontChooserWidget is GtkFontChooserWidgetI
   new create() =>
     ptr = GObjectG.gnew(@gtk_font_chooser_widget_get_type())
 
+  // GtkFontChooserWidget
   fun ref getptr(): NullablePointer[GObjectT] => ptr

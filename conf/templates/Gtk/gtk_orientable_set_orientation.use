@@ -1,0 +1,1 @@
+use @gtk_orientable_set_orientation[None](orientable': NullablePointer[GtkOrientableT], orientation': U32)

@@ -15,4 +15,5 @@ class GtkStackSidebar is GtkStackSidebarI
   new create() =>
     ptr = GObjectG.gnew(@gtk_stack_sidebar_get_type())
 
+  // GtkStackSidebar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

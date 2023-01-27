@@ -1,0 +1,1 @@
+use @gtk_cell_editable_remove_widget[None](cell_editable': NullablePointer[GtkCellEditableT])

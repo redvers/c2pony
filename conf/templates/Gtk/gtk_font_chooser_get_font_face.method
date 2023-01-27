@@ -1,0 +1,2 @@
+  fun ref get_font_face(): NullablePointer[PangoFontFaceT] =>
+    GtkFontChooserP.get_font_face(this)

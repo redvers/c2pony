@@ -14,4 +14,5 @@ class GtkShortcutsGroup is GtkShortcutsGroupI
   new create() =>
     ptr = GObjectG.gnew(@gtk_shortcuts_group_get_type())
 
+  // GtkShortcutsGroup
   fun ref getptr(): NullablePointer[GObjectT] => ptr

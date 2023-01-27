@@ -15,4 +15,5 @@ class GtkTreeSelection is GtkTreeSelectionI
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_selection_get_type())
 
+  // GtkTreeSelection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,0 +1,2 @@
+  fun get_text(editable': NullablePointer[GtkEditableT]): String iso^ =>
+    String.from_cstring(@gtk_editable_get_text(editable')).clone()

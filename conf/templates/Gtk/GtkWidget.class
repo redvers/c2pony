@@ -14,4 +14,5 @@ class GtkWidget is GtkWidgetI
   new create() =>
     ptr = GObjectG.gnew(@gtk_widget_get_type())
 
+  // GtkWidget
   fun ref getptr(): NullablePointer[GObjectT] => ptr

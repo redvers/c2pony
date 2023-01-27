@@ -1,0 +1,2 @@
+  fun ref set_show_preview_entry(show_preview_entry': I32): None =>
+    GtkFontChooserP.set_show_preview_entry(this, show_preview_entry')

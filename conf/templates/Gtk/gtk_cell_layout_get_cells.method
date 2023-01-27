@@ -1,0 +1,2 @@
+  fun ref get_cells(): NullablePointer[GListT] =>
+    GtkCellLayoutP.get_cells(this)

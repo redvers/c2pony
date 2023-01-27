@@ -14,4 +14,5 @@ class GtkMediaStream is GtkMediaStreamI
   new create() =>
     ptr = GObjectG.gnew(@gtk_media_stream_get_type())
 
+  // GtkMediaStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

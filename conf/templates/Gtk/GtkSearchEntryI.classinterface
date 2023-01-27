@@ -4,5 +4,6 @@ use "../GObject"
 use "../Gio"
 use "lib:gtk-4"
     
-interface GtkSearchEntryI is GtkWidgetI
+interface GtkSearchEntryI is (GtkWidgetI & GtkAccessibleI & GtkBuildableI & GtkConstraintTargetI & GtkEditableI)
+// GtkSearchEntry
   fun ref getptr(): NullablePointer[GObjectT]

@@ -1,0 +1,2 @@
+  fun clear_attributes(cell_layout': NullablePointer[GtkCellLayoutT], cell': NullablePointer[GtkCellRendererT]): None =>
+    @gtk_cell_layout_clear_attributes(cell_layout', cell')

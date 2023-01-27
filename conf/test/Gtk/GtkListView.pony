@@ -15,4 +15,5 @@ class GtkListView is GtkListViewI
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_view_get_type())
 
+  // GtkListView
   fun ref getptr(): NullablePointer[GObjectT] => ptr

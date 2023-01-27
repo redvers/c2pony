@@ -1,0 +1,2 @@
+  fun ref set_font_desc(font_desc': NullablePointer[PangoFontDescriptionT]): None =>
+    GtkFontChooserP.set_font_desc(this, font_desc')

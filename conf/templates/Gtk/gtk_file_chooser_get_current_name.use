@@ -1,0 +1,1 @@
+use @gtk_file_chooser_get_current_name[Pointer[U8]](chooser': NullablePointer[GtkFileChooserT])

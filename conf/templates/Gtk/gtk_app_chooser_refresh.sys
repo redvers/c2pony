@@ -1,0 +1,2 @@
+  fun refresh(self': NullablePointer[GtkAppChooserT]): None =>
+    @gtk_app_chooser_refresh(self')

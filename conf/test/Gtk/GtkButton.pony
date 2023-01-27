@@ -15,4 +15,5 @@ class GtkButton is GtkButtonI
   new create() =>
     ptr = GObjectG.gnew(@gtk_button_get_type())
 
+  // GtkButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

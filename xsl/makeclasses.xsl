@@ -83,6 +83,8 @@
             -->
           </xsl:when>
         </xsl:choose>
+        <xsl:value-of select="$newline"/><xsl:text>  // </xsl:text>
+        <xsl:value-of select="$filename"/>
         <xsl:value-of select="$newline"/>
         <xsl:text>  fun ref getptr(): NullablePointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>
@@ -129,15 +131,33 @@
             <xsl:text>I</xsl:text>
             <xsl:for-each select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/t:implements">
               <xsl:text> &amp; </xsl:text>
-              <xsl:value-of select="$classprefix"/>
-              <xsl:variable name="interfacen" select="concat(./@name, 'I')"/>
-              <xsl:value-of select="$interfacen"/>
+              <xsl:variable name="interfacen" select="./@name"/>
+            <xsl:choose>
+              <xsl:when test="ends-with($interfacen, 'InitiallyUnowned')">
+                <xsl:text>GObject</xsl:text>
+              </xsl:when>
+              <xsl:when test="starts-with($interfacen, 'GObject.')">
+                <xsl:text>G</xsl:text>
+                <xsl:value-of select="substring-after($interfacen, 'GObject.')"/>
+              </xsl:when>
+              <xsl:when test="starts-with($interfacen, 'Gio.')">
+                <xsl:text>G</xsl:text>
+                <xsl:value-of select="substring-after($interfacen, 'Gio.')"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$classprefix"/>
+                <xsl:value-of select="$interfacen"/>
+              </xsl:otherwise>
+            </xsl:choose>
+            <xsl:text>I</xsl:text>
             </xsl:for-each>
             <xsl:text>)</xsl:text>
           </xsl:otherwise>
 
         </xsl:choose>
 
+        <xsl:value-of select="$newline"/>
+        <xsl:text>// </xsl:text><xsl:value-of select="$filename"/>
         <xsl:value-of select="$newline"/>
         <xsl:text>  fun ref getptr(): NullablePointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>
