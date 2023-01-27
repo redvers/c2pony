@@ -1,2 +1,0 @@
-  fun ref get_device_tool(): GdkDeviceTool =>
-    GtkGestureStylusP.get_device_tool(this)

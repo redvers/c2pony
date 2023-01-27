@@ -1,1 +1,0 @@
-use @gtk_gesture_single_get_touch_only[I32](gesture': GtkGestureSingle)

@@ -1,2 +1,0 @@
-  fun ref get_modal(): I32 =>
-    GtkWindowP.get_modal(this)

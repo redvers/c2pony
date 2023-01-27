@@ -1,2 +1,0 @@
-  fun return_error_valist(invocation': GDBusMethodInvocation, domain': U32, code': I32, format': String, var_args': valisttag): None =>
-    @g_dbus_method_invocation_return_error_valist(invocation', domain', code', format'.cstring(), var_args')

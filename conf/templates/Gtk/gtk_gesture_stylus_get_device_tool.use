@@ -1,1 +1,0 @@
-use @gtk_gesture_stylus_get_device_tool[GdkDeviceTool](gesture': GtkGestureStylus)

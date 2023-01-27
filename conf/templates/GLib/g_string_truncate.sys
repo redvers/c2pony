@@ -1,2 +1,2 @@
-  fun truncate(string': GString, len': U64): GString =>
+  fun truncate(string': NullablePointer[GStringT], len': U64): NullablePointer[GStringT] =>
     @g_string_truncate(string', len')

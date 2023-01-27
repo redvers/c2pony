@@ -1,2 +1,0 @@
-  fun ref get_authors(): Pointer[Pointer[U8]] tag =>
-    GtkAboutDialogP.get_authors(this)

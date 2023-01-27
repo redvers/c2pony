@@ -1,2 +1,0 @@
-  fun ref set_propagation_phase(phase': U32): None =>
-    GtkEventControllerP.set_propagation_phase(this, phase')

@@ -1,2 +1,0 @@
-  fun set_icon_from_icon_name(tooltip': GtkTooltip, icon_name': String): None =>
-    @gtk_tooltip_set_icon_from_icon_name(tooltip', icon_name'.cstring())

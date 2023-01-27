@@ -1,2 +1,0 @@
-  fun get_is_abstract(address': GUnixSocketAddress): I32 =>
-    @g_unix_socket_address_get_is_abstract(address')

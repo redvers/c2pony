@@ -1,1 +1,0 @@
-use @g_input_stream_set_pending[I32](stream': GInputStream, error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @g_date_time_to_local[GDateTime](datetime': GDateTime)
+use @g_date_time_to_local[NullablePointer[GDateTimeT]](datetime': NullablePointer[GDateTimeT])

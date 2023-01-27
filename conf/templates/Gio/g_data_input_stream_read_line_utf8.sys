@@ -1,2 +1,0 @@
-  fun read_line_utf8(stream': GDataInputStream, length': Pointer[U64] tag, cancellable': GCancellable, error': GError): String iso^ =>
-    String.from_cstring(@g_data_input_stream_read_line_utf8(stream', length', cancellable', addressof error'.ptr)).clone()

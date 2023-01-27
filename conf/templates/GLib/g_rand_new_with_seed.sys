@@ -1,2 +1,2 @@
-  fun new_with_seed(seed': U32): GRand =>
+  fun new_with_seed(seed': U32): NullablePointer[GRandT] =>
     @g_rand_new_with_seed(seed')

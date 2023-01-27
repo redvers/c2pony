@@ -1,2 +1,0 @@
-  fun get_binary_age(): U32 =>
-    @gtk_get_binary_age()

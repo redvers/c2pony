@@ -1,2 +1,2 @@
-  fun compare_ids(new_hook': GHook, sibling': GHook): I32 =>
+  fun compare_ids(new_hook': NullablePointer[GHookT], sibling': NullablePointer[GHookT]): I32 =>
     @g_hook_compare_ids(new_hook', sibling')

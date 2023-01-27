@@ -1,2 +1,0 @@
-  fun set_focusable(widget': GtkWidgetI, focusable': I32): None =>
-    @gtk_widget_set_focusable(widget'.getptr(), focusable')

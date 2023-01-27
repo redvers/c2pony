@@ -1,2 +1,0 @@
-  fun ref set_n_pages(n_pages': I32): None =>
-    GtkPrintOperationP.set_n_pages(this, n_pages')

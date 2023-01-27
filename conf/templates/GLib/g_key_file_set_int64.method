@@ -1,2 +1,2 @@
   fun ref set_int64(group_name': String, key': String, value': I64): None =>
-    GKeyFileP.set_int64(this, group_name', key', value')
+    GKeyFileP.set_int64(this.ptr, group_name', key', value')

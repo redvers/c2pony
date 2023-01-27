@@ -1,1 +1,1 @@
-use @g_queue_new[GQueue]()
+use @g_queue_new[NullablePointer[GQueueT]]()

@@ -1,2 +1,0 @@
-  fun ref get_can_target(): I32 =>
-    GtkWidgetP.get_can_target(this)

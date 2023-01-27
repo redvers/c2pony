@@ -1,2 +1,2 @@
   fun ref unlink(): None =>
-    GNodeP.unlink(this)
+    GNodeP.unlink(this.ptr)

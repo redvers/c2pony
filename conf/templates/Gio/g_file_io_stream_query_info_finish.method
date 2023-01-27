@@ -1,2 +1,0 @@
-  fun ref query_info_finish(result': GAsyncResult, error': GError): GFileInfo =>
-    GFileIOStreamP.query_info_finish(this, result', error')

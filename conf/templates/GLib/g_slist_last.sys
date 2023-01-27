@@ -1,2 +1,2 @@
-  fun last(list': GSList): GSList =>
+  fun last(list': NullablePointer[GSListT]): NullablePointer[GSListT] =>
     @g_slist_last(list')

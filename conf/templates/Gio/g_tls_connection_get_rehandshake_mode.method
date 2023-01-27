@@ -1,2 +1,0 @@
-  fun ref get_rehandshake_mode(): U32 =>
-    GTlsConnectionP.get_rehandshake_mode(this)

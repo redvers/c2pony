@@ -1,2 +1,2 @@
   fun ref remove_finalize_notifier(notify_data': Pointer[None] tag, notify_func': GClosureNotify): None =>
-    GClosureP.remove_finalize_notifier(this, notify_data', notify_func')
+    GClosureP.remove_finalize_notifier(this.ptr, notify_data', notify_func')

@@ -1,2 +1,0 @@
-  fun ref append_node(node': GskRenderNode): None =>
-    P.append_node(this, node')

@@ -1,2 +1,0 @@
-  fun ref get_child_anchor(): GtkTextChildAnchor =>
-    GtkTextIterP.get_child_anchor(this)

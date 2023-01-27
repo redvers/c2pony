@@ -1,2 +1,0 @@
-  fun get_expression(expression': GtkExpression): GtkExpression =>
-    @gtk_property_expression_get_expression(expression')

@@ -1,2 +1,0 @@
-  fun ref set_row_spacing(row_spacing': I32): None =>
-    GtkIconViewP.set_row_spacing(this, row_spacing')

@@ -1,2 +1,2 @@
-  fun watch_closure(object': GObjectI, closure': GClosure): None =>
-    @g_object_watch_closure(object'.getptr(), closure')
+  fun watch_closure(object': NullablePointer[GObjectT], closure': NullablePointer[GClosureT]): None =>
+    @g_object_watch_closure(object', closure')

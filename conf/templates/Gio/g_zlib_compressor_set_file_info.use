@@ -1,1 +1,0 @@
-use @g_zlib_compressor_set_file_info[None](compressor': GZlibCompressor, file_info': GFileInfo)

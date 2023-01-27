@@ -1,1 +1,0 @@
-use @gtk_icon_theme_get_icon_sizes[Pointer[I32] tag](self': GtkIconTheme, icon_name': Pointer[U8] tag)

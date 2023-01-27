@@ -1,1 +1,1 @@
-use @g_ptr_array_ref[GPtrArray](array': GPtrArray)
+use @g_ptr_array_ref[NullablePointer[GPtrArrayT]](array': NullablePointer[GPtrArrayT])

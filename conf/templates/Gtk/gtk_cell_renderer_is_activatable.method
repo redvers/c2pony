@@ -1,2 +1,0 @@
-  fun ref is_activatable(): I32 =>
-    GtkCellRendererP.is_activatable(this)

@@ -1,2 +1,2 @@
-  fun ref init(value': GVariant): U64 =>
-    GVariantIterP.init(this, value')
+  fun ref init(value': NullablePointer[GVariantT]): U64 =>
+    GVariantIterP.init(this.ptr, value')

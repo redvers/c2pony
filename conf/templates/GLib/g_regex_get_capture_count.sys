@@ -1,2 +1,2 @@
-  fun get_capture_count(regex': GRegex): I32 =>
+  fun get_capture_count(regex': NullablePointer[GRegexT]): I32 =>
     @g_regex_get_capture_count(regex')

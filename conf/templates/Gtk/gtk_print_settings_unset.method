@@ -1,2 +1,0 @@
-  fun ref unset(key': String): None =>
-    GtkPrintSettingsP.unset(this, key')

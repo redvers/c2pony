@@ -1,2 +1,0 @@
-  fun ref set_spacing(spacing': U32): None =>
-    GtkBoxLayoutP.set_spacing(this, spacing')

@@ -1,2 +1,2 @@
-  fun n_children(value': GVariant): U64 =>
+  fun n_children(value': NullablePointer[GVariantT]): U64 =>
     @g_variant_n_children(value')

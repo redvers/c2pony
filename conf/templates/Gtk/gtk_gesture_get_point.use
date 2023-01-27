@@ -1,1 +1,0 @@
-use @gtk_gesture_get_point[I32](gesture': GtkGesture, sequence': GdkEventSequence, x': Pointer[F64] tag, y': Pointer[F64] tag)

@@ -1,1 +1,0 @@
-use @gtk_scale_set_value_pos[None](scale': GtkScale, pos': U32)

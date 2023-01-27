@@ -1,1 +1,0 @@
-use @gtk_combo_box_set_popup_fixed_width[None](combo_box': GtkComboBox, fixed': I32)

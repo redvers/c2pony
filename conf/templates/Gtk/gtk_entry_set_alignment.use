@@ -1,1 +1,0 @@
-use @gtk_entry_set_alignment[None](entry': GtkEntry, xalign': F32)

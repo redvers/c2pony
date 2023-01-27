@@ -1,2 +1,0 @@
-  fun ref get_size(): U64 =>
-    GMemoryOutputStreamP.get_size(this)

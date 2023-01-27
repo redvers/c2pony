@@ -1,2 +1,0 @@
-  fun ref get_selected_rows(): GList =>
-    GtkListBoxP.get_selected_rows(this)

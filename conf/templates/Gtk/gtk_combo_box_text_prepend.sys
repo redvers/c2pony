@@ -1,2 +1,0 @@
-  fun prepend(combo_box': GtkComboBoxText, id': String, text': String): None =>
-    @gtk_combo_box_text_prepend(combo_box', id'.cstring(), text'.cstring())

@@ -1,2 +1,0 @@
-  fun set_model(self': GtkDropDown, model': GListModel): None =>
-    @gtk_drop_down_set_model(self', model')

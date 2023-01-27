@@ -1,2 +1,2 @@
   fun ref get_boolean(): I32 =>
-    GVariantP.get_boolean(this)
+    GVariantP.get_boolean(this.ptr)

@@ -1,2 +1,0 @@
-  fun get_resource(static_resource': GStaticResource): NullablePointer[GResourceT] =>
-@g_static_resource_get_resource(static_resource')

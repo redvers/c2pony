@@ -1,2 +1,2 @@
-  fun insert_after(parent': GNode, sibling': GNode, node': GNode): GNode =>
+  fun insert_after(parent': NullablePointer[GNodeT], sibling': NullablePointer[GNodeT], node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
     @g_node_insert_after(parent', sibling', node')

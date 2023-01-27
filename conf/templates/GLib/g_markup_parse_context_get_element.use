@@ -1,1 +1,1 @@
-use @g_markup_parse_context_get_element[Pointer[U8]](context': GMarkupParseContext)
+use @g_markup_parse_context_get_element[Pointer[U8]](context': NullablePointer[GMarkupParseContextT])

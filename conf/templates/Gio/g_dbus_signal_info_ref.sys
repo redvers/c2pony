@@ -1,2 +1,0 @@
-  fun ref(info': GDBusSignalInfo): GDBusSignalInfo =>
-    @g_dbus_signal_info_ref(info')

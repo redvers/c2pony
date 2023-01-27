@@ -1,2 +1,0 @@
-  fun ref set_default_action_and_target_value(action': String, target': GVariant): None =>
-    GNotificationP.set_default_action_and_target_value(this, action', target')

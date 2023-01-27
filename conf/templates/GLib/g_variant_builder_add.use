@@ -1,1 +1,1 @@
-use @g_variant_builder_add[None](builder': GVariantBuilder, format_string': Pointer[U8] tag, ...)
+use @g_variant_builder_add[None](builder': NullablePointer[GVariantBuilderT], format_string': Pointer[U8] tag, ...)

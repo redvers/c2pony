@@ -1,2 +1,2 @@
-  fun ref copy(): GVariantIter =>
-    GVariantIterP.copy(this)
+  fun ref copy(): NullablePointer[GVariantIterT] =>
+    GVariantIterP.copy(this.ptr)

@@ -1,2 +1,0 @@
-  fun ref inner_cell_area(widget': GtkWidgetI, cell_area': cairorectangleint, inner_area': cairorectangleint): None =>
-    GtkCellAreaP.inner_cell_area(this, widget', cell_area', inner_area')

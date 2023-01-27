@@ -1,2 +1,2 @@
-  fun find_func_data(hook_list': GHookList, need_valids': I32, func': Pointer[None] tag, data': Pointer[None] tag): GHook =>
+  fun find_func_data(hook_list': NullablePointer[GHookListT], need_valids': I32, func': Pointer[None] tag, data': Pointer[None] tag): NullablePointer[GHookT] =>
     @g_hook_find_func_data(hook_list', need_valids', func', data')

@@ -1,2 +1,0 @@
-  fun ref forward_to_end(): None =>
-    GtkTextIterP.forward_to_end(this)

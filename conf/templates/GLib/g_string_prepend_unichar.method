@@ -1,2 +1,2 @@
-  fun ref prepend_unichar(wc': U32): GString =>
-    GStringP.prepend_unichar(this, wc')
+  fun ref prepend_unichar(wc': U32): NullablePointer[GStringT] =>
+    GStringP.prepend_unichar(this.ptr, wc')

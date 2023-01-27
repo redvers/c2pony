@@ -1,2 +1,0 @@
-  fun get_target(constraint': GtkConstraint): GtkConstraintTarget =>
-    @gtk_constraint_get_target(constraint')

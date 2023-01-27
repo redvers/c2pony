@@ -1,2 +1,0 @@
-  fun ref get_pango_fontmap(): PangoFontMap =>
-    GtkPrintContextP.get_pango_fontmap(this)

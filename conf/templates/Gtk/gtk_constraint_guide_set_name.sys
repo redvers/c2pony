@@ -1,2 +1,0 @@
-  fun set_name(guide': GtkConstraintGuide, name': String): None =>
-    @gtk_constraint_guide_set_name(guide', name'.cstring())

@@ -1,2 +1,0 @@
-  fun load_from_file(css_provider': GtkCssProvider, file': GFile): None =>
-    @gtk_css_provider_load_from_file(css_provider', file')

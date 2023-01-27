@@ -1,1 +1,1 @@
-use @g_bytes_unref_to_array[GByteArray](bytes': GBytes)
+use @g_bytes_unref_to_array[NullablePointer[GByteArrayT]](bytes': NullablePointer[GBytesT])

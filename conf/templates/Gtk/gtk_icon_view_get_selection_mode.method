@@ -1,2 +1,0 @@
-  fun ref get_selection_mode(): U32 =>
-    GtkIconViewP.get_selection_mode(this)

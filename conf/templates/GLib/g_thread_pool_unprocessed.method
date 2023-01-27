@@ -1,2 +1,2 @@
   fun ref unprocessed(): U32 =>
-    GThreadPoolP.unprocessed(this)
+    GThreadPoolP.unprocessed(this.ptr)

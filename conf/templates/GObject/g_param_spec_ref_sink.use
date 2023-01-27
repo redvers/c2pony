@@ -1,1 +1,1 @@
-use @g_param_spec_ref_sink[GParamSpec](pspec': GParamSpec)
+use @g_param_spec_ref_sink[NullablePointer[GParamSpecT]](pspec': NullablePointer[GParamSpecT])

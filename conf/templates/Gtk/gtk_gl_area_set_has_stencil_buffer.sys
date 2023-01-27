@@ -1,2 +1,0 @@
-  fun set_has_stencil_buffer(area': GtkGLArea, has_stencil_buffer': I32): None =>
-    @gtk_gl_area_set_has_stencil_buffer(area', has_stencil_buffer')

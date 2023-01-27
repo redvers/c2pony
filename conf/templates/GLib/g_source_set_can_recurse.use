@@ -1,1 +1,1 @@
-use @g_source_set_can_recurse[None](source': GSource, can_recurse': I32)
+use @g_source_set_can_recurse[None](source': NullablePointer[GSourceT], can_recurse': I32)

@@ -1,1 +1,0 @@
-use @gtk_render_line[None](context': GtkStyleContext, cr': cairo, x0': F64, y0': F64, x1': F64, y1': F64)

@@ -1,2 +1,0 @@
-  fun ref queue_allocate(): None =>
-    GtkWidgetP.queue_allocate(this)

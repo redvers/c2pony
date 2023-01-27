@@ -1,2 +1,0 @@
-  fun ref insert_with_tags_by_name(iter': GtkTextIter, text': String, len': I32, first_tag_name': String, ...): None =>
-    GtkTextBufferP.insert_with_tags_by_name(this, iter', text', len', first_tag_name', ...)

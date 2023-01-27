@@ -1,2 +1,2 @@
   fun ref is_basic(): I32 =>
-    GVariantTypeP.is_basic(this)
+    GVariantTypeP.is_basic(this.ptr)

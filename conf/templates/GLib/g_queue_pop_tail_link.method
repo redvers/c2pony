@@ -1,2 +1,2 @@
-  fun ref pop_tail_link(): GList =>
-    GQueueP.pop_tail_link(this)
+  fun ref pop_tail_link(): NullablePointer[GListT] =>
+    GQueueP.pop_tail_link(this.ptr)

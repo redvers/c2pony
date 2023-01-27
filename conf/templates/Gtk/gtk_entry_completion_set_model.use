@@ -1,1 +1,0 @@
-use @gtk_entry_completion_set_model[None](completion': GtkEntryCompletion, model': GtkTreeModel)

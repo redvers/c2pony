@@ -1,1 +1,1 @@
-use @g_async_queue_ref[GAsyncQueue](queue': GAsyncQueue)
+use @g_async_queue_ref[NullablePointer[GAsyncQueueT]](queue': NullablePointer[GAsyncQueueT])

@@ -1,2 +1,0 @@
-  fun get_xalign(self': GtkAspectFrame): F32 =>
-    @gtk_aspect_frame_get_xalign(self')

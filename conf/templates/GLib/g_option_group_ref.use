@@ -1,1 +1,1 @@
-use @g_option_group_ref[GOptionGroup](group': GOptionGroup)
+use @g_option_group_ref[NullablePointer[GOptionGroupT]](group': NullablePointer[GOptionGroupT])

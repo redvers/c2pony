@@ -1,2 +1,0 @@
-  fun get_hexpand(widget': GtkWidgetI): I32 =>
-    @gtk_widget_get_hexpand(widget'.getptr())

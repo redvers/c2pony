@@ -1,2 +1,0 @@
-  fun ref is_pointer(): I32 =>
-    GtkEventControllerMotionP.is_pointer(this)

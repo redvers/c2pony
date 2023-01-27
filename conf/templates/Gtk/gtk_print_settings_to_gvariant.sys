@@ -1,2 +1,0 @@
-  fun to_gvariant(settings': GtkPrintSettings): GVariant =>
-    @gtk_print_settings_to_gvariant(settings')

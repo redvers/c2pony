@@ -1,2 +1,2 @@
-  fun ref ref(): GMatchInfo =>
-    GMatchInfoP.ref(this)
+  fun ref ref(): NullablePointer[GMatchInfoT] =>
+    GMatchInfoP.ref(this.ptr)

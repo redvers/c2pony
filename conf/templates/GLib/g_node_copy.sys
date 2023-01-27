@@ -1,2 +1,2 @@
-  fun copy(node': GNode): GNode =>
+  fun copy(node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
     @g_node_copy(node')

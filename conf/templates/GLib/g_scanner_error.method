@@ -1,2 +1,2 @@
   fun ref error(format': String, ...): None =>
-    GScannerP.error(this, format', ...)
+    GScannerP.error(this.ptr, format', ...)

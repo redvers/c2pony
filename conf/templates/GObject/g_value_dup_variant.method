@@ -1,2 +1,2 @@
-  fun ref dup_variant(): GVariant =>
-    GValueP.dup_variant(this)
+  fun ref dup_variant(): NullablePointer[GVariantT] =>
+    GValueP.dup_variant(this.ptr)

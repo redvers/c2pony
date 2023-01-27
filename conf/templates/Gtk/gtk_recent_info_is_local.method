@@ -1,2 +1,0 @@
-  fun ref is_local(): I32 =>
-    GtkRecentInfoP.is_local(this)

@@ -1,1 +1,0 @@
-use @gtk_paned_set_wide_handle[None](paned': GtkPaned, wide': I32)

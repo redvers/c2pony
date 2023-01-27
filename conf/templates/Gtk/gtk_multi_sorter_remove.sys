@@ -1,2 +1,0 @@
-  fun remove(self': GtkMultiSorter, position': U32): None =>
-    @gtk_multi_sorter_remove(self', position')

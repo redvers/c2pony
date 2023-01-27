@@ -1,2 +1,0 @@
-  fun ref get_max_length(): I32 =>
-    GtkEntryBufferP.get_max_length(this)

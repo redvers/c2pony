@@ -1,2 +1,0 @@
-  fun ref get_last_event(sequence': GdkEventSequence): GdkEvent =>
-    GtkGestureP.get_last_event(this, sequence')

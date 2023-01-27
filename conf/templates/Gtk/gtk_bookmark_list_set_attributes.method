@@ -1,2 +1,0 @@
-  fun ref set_attributes(attributes': String): None =>
-    GtkBookmarkListP.set_attributes(this, attributes')

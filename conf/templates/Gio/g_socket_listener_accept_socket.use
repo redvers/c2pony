@@ -1,1 +1,0 @@
-use @g_socket_listener_accept_socket[GSocket](listener': GSocketListener, source_object': Pointer[GObject], cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,0 @@
-  fun ref add_full(uri': String, recent_data': GtkRecentData): I32 =>
-    GtkRecentManagerP.add_full(this, uri', recent_data')

@@ -1,1 +1,0 @@
-use @gtk_print_context_get_cairo_context[cairo](context': GtkPrintContext)

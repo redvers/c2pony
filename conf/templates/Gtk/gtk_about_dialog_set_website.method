@@ -1,2 +1,0 @@
-  fun ref set_website(website': String): None =>
-    GtkAboutDialogP.set_website(this, website')

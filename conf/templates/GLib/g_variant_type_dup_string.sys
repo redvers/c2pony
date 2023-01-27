@@ -1,2 +1,2 @@
-  fun dup_string(type': GVariantType): String iso^ =>
+  fun dup_string(type': NullablePointer[GVariantTypeT]): String iso^ =>
     String.from_cstring(@g_variant_type_dup_string(type')).clone()

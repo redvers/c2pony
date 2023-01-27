@@ -1,1 +1,1 @@
-use @g_bytes_new_static[GBytes](data': Pointer[None] tag, size': U64)
+use @g_bytes_new_static[NullablePointer[GBytesT]](data': Pointer[None] tag, size': U64)

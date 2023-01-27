@@ -1,2 +1,2 @@
-  fun up(string': GString): GString =>
+  fun up(string': NullablePointer[GStringT]): NullablePointer[GStringT] =>
     @g_string_up(string')

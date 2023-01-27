@@ -1,1 +1,0 @@
-use @gtk_cell_area_get_cell_at_position[GtkCellRenderer](area': GtkCellArea, context': GtkCellAreaContext, widget': Pointer[GObjectP], cell_area': cairorectangleint, x': I32, y': I32, alloc_area': cairorectangleint)

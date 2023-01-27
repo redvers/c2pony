@@ -1,2 +1,0 @@
-  fun ref set_max_length(max': I32): None =>
-    GtkEntryP.set_max_length(this, max')

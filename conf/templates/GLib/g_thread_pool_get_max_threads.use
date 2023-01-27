@@ -1,1 +1,1 @@
-use @g_thread_pool_get_max_threads[I32](pool': GThreadPool)
+use @g_thread_pool_get_max_threads[I32](pool': NullablePointer[GThreadPoolT])

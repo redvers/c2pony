@@ -1,2 +1,0 @@
-  fun ref selected_foreach(func': GtkTreeSelectionForeachFunc, data': Pointer[None] tag): None =>
-    GtkTreeSelectionP.selected_foreach(this, func', data')

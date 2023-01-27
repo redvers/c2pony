@@ -1,2 +1,0 @@
-  fun set_markup_column(icon_view': GtkIconView, column': I32): None =>
-    @gtk_icon_view_set_markup_column(icon_view', column')

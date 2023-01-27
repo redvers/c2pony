@@ -1,2 +1,0 @@
-  fun ref seek_failed(): None =>
-    GtkMediaStreamP.seek_failed(this)

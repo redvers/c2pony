@@ -1,1 +1,1 @@
-use @g_variant_classify[U32](value': GVariant)
+use @g_variant_classify[U32](value': NullablePointer[GVariantT])

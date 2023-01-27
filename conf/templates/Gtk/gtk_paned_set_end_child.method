@@ -1,2 +1,0 @@
-  fun ref set_end_child(child': GtkWidgetI): None =>
-    GtkPanedP.set_end_child(this, child')

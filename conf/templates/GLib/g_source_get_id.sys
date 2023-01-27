@@ -1,2 +1,2 @@
-  fun get_id(source': GSource): U32 =>
+  fun get_id(source': NullablePointer[GSourceT]): U32 =>
     @g_source_get_id(source')

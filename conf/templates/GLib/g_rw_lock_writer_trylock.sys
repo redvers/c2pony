@@ -1,2 +1,2 @@
-  fun writer_trylock(rw_lock': GRWLock): I32 =>
+  fun writer_trylock(rw_lock': NullablePointer[GRWLockT]): I32 =>
     @g_rw_lock_writer_trylock(rw_lock')

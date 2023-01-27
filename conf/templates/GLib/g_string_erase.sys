@@ -1,2 +1,2 @@
-  fun erase(string': GString, pos': I64, len': I64): GString =>
+  fun erase(string': NullablePointer[GStringT], pos': I64, len': I64): NullablePointer[GStringT] =>
     @g_string_erase(string', pos', len')

@@ -1,2 +1,0 @@
-  fun ref unset_model_drag_dest(): None =>
-    GtkIconViewP.unset_model_drag_dest(this)

@@ -1,2 +1,2 @@
   fun ref replace(value': Pointer[None] tag): None =>
-    GHashTableIterP.replace(this, value')
+    GHashTableIterP.replace(this.ptr, value')

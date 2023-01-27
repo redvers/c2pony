@@ -1,1 +1,1 @@
-use @g_pattern_spec_equal[I32](pspec1': GPatternSpec, pspec2': GPatternSpec)
+use @g_pattern_spec_equal[I32](pspec1': NullablePointer[GPatternSpecT], pspec2': NullablePointer[GPatternSpecT])

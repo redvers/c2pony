@@ -1,2 +1,0 @@
-  fun new_from_bytes(bytes': GBytes): GInputStream =>
-    @g_memory_input_stream_new_from_bytes(bytes')

@@ -1,2 +1,2 @@
-  fun new(): GTimer =>
+  fun new(): NullablePointer[GTimerT] =>
     @g_timer_new()

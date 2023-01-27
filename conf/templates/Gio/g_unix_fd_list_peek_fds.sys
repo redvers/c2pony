@@ -1,2 +1,0 @@
-  fun peek_fds(list': GUnixFDList, length': Pointer[I32] tag): Pointer[I32] tag =>
-    @g_unix_fd_list_peek_fds(list', length')

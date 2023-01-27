@@ -1,2 +1,0 @@
-  fun get_title(window': GtkWindowI): String iso^ =>
-    String.from_cstring(@gtk_window_get_title(window'.getptr())).clone()

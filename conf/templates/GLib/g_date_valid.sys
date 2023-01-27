@@ -1,2 +1,2 @@
-  fun valid(date': GDate): I32 =>
+  fun valid(date': NullablePointer[GDateT]): I32 =>
     @g_date_valid(date')

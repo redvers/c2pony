@@ -1,2 +1,0 @@
-  fun ref get_target_attribute(): U32 =>
-    GtkConstraintP.get_target_attribute(this)

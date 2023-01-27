@@ -1,2 +1,0 @@
-  fun ref set_handle_menubar_accel(handle_menubar_accel': I32): None =>
-    GtkWindowP.set_handle_menubar_accel(this, handle_menubar_accel')

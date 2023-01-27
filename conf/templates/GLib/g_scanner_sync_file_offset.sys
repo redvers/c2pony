@@ -1,2 +1,2 @@
-  fun sync_file_offset(scanner': GScanner): None =>
+  fun sync_file_offset(scanner': NullablePointer[GScannerT]): None =>
     @g_scanner_sync_file_offset(scanner')

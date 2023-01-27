@@ -1,2 +1,0 @@
-  fun new(): GtkPrintOperation =>
-    @gtk_print_operation_new()

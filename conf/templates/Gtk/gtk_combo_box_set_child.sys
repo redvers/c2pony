@@ -1,2 +1,0 @@
-  fun set_child(combo_box': GtkComboBox, child': GtkWidgetI): None =>
-    @gtk_combo_box_set_child(combo_box', child'.getptr())

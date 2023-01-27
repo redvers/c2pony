@@ -1,2 +1,2 @@
   fun ref set_boolean(v_boolean': I32): None =>
-    GValueP.set_boolean(this, v_boolean')
+    GValueP.set_boolean(this.ptr, v_boolean')

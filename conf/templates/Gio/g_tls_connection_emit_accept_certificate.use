@@ -1,1 +1,0 @@
-use @g_tls_connection_emit_accept_certificate[I32](conn': GTlsConnection, peer_cert': GTlsCertificate, errors': U32)

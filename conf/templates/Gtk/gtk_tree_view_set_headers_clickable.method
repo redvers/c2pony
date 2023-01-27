@@ -1,2 +1,0 @@
-  fun ref set_headers_clickable(setting': I32): None =>
-    GtkTreeViewP.set_headers_clickable(this, setting')

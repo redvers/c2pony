@@ -1,2 +1,0 @@
-  fun get_css_name(widget_class': GtkWidgetClass): String iso^ =>
-    String.from_cstring(@gtk_widget_class_get_css_name(widget_class')).clone()

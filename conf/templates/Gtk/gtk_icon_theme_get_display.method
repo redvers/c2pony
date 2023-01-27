@@ -1,2 +1,0 @@
-  fun ref get_display(): GdkDisplay =>
-    GtkIconThemeP.get_display(this)

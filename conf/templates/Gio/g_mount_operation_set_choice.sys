@@ -1,2 +1,0 @@
-  fun set_choice(op': GMountOperation, choice': I32): None =>
-    @g_mount_operation_set_choice(op', choice')

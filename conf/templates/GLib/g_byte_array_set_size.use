@@ -1,1 +1,1 @@
-use @g_byte_array_set_size[GByteArray](array': GByteArray, length': U32)
+use @g_byte_array_set_size[NullablePointer[GByteArrayT]](array': NullablePointer[GByteArrayT], length': U32)

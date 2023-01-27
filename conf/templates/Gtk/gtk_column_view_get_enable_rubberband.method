@@ -1,2 +1,0 @@
-  fun ref get_enable_rubberband(): I32 =>
-    GtkColumnViewP.get_enable_rubberband(this)

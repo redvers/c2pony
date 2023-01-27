@@ -1,2 +1,0 @@
-  fun ref get_bool(key': String): I32 =>
-    GtkPrintSettingsP.get_bool(this, key')

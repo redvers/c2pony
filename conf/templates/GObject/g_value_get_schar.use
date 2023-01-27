@@ -1,1 +1,1 @@
-use @g_value_get_schar[I8](value': GValue)
+use @g_value_get_schar[I8](value': NullablePointer[GValueT])

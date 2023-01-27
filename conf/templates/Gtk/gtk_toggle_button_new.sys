@@ -1,2 +1,0 @@
-  fun new(): Pointer[GObjectP] =>
-@gtk_toggle_button_new()

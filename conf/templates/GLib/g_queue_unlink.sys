@@ -1,2 +1,2 @@
-  fun unlink(queue': GQueue, link': GList): None =>
+  fun unlink(queue': NullablePointer[GQueueT], link': NullablePointer[GListT]): None =>
     @g_queue_unlink(queue', link')

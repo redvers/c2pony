@@ -1,1 +1,0 @@
-use @gtk_property_expression_new_for_pspec[GtkExpression](expression': GtkExpression, pspec': GParamSpec)

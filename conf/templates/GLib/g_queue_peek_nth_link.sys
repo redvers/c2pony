@@ -1,2 +1,2 @@
-  fun peek_nth_link(queue': GQueue, n': U32): GList =>
+  fun peek_nth_link(queue': NullablePointer[GQueueT], n': U32): NullablePointer[GListT] =>
     @g_queue_peek_nth_link(queue', n')

@@ -1,1 +1,1 @@
-use @g_queue_clear_full[None](queue': GQueue, free_func': GDestroyNotify)
+use @g_queue_clear_full[None](queue': NullablePointer[GQueueT], free_func': Pointer[None])

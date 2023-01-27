@@ -1,2 +1,0 @@
-  fun append(self': GtkMultiSorter, sorter': GtkSorter): None =>
-    @gtk_multi_sorter_append(self', sorter')

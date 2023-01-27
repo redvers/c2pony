@@ -1,1 +1,0 @@
-use @g_file_enumerator_next_files_finish[GList](enumerator': GFileEnumerator, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

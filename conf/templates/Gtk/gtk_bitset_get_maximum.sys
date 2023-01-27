@@ -1,2 +1,0 @@
-  fun get_maximum(self': GtkBitset): U32 =>
-    @gtk_bitset_get_maximum(self')

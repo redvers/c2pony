@@ -1,2 +1,0 @@
-  fun ref action_set_enabled(action_name': String, enabled': I32): None =>
-    GtkWidgetP.action_set_enabled(this, action_name', enabled')

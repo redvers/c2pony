@@ -1,1 +1,0 @@
-use @gtk_bitset_splice[None](self': GtkBitset, position': U32, removed': U32, added': U32)

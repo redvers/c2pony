@@ -1,2 +1,0 @@
-  fun prepend_page_menu(notebook': GtkNotebook, child': GtkWidgetI, tab_label': GtkWidgetI, menu_label': GtkWidgetI): I32 =>
-    @gtk_notebook_prepend_page_menu(notebook', child'.getptr(), tab_label'.getptr(), menu_label'.getptr())

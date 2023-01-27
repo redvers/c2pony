@@ -1,2 +1,2 @@
   fun ref get_time(): I64 =>
-    GSourceP.get_time(this)
+    GSourceP.get_time(this.ptr)

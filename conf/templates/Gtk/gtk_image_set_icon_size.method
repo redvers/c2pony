@@ -1,2 +1,0 @@
-  fun ref set_icon_size(icon_size': U32): None =>
-    GtkImageP.set_icon_size(this, icon_size')

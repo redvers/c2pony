@@ -1,2 +1,0 @@
-  fun load_from_path(css_provider': GtkCssProvider, path': String): None =>
-    @gtk_css_provider_load_from_path(css_provider', path'.cstring())

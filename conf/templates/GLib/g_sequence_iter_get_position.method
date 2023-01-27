@@ -1,2 +1,2 @@
   fun ref get_position(): I32 =>
-    GSequenceIterP.get_position(this)
+    GSequenceIterP.get_position(this.ptr)

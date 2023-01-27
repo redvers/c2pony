@@ -1,2 +1,0 @@
-  fun ref set_double(key': String, value': F64): None =>
-    GtkPrintSettingsP.set_double(this, key', value')

@@ -1,2 +1,2 @@
-  fun unref(channel': GIOChannel): None =>
+  fun unref(channel': NullablePointer[GIOChannelT]): None =>
     @g_io_channel_unref(channel')

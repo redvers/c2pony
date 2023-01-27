@@ -1,1 +1,1 @@
-use @g_key_file_set_locale_string[None](key_file': GKeyFile, group_name': Pointer[U8] tag, key': Pointer[U8] tag, locale': Pointer[U8] tag, string': Pointer[U8] tag)
+use @g_key_file_set_locale_string[None](key_file': NullablePointer[GKeyFileT], group_name': Pointer[U8] tag, key': Pointer[U8] tag, locale': Pointer[U8] tag, string': Pointer[U8] tag)

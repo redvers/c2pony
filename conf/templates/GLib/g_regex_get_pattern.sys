@@ -1,2 +1,2 @@
-  fun get_pattern(regex': GRegex): String iso^ =>
+  fun get_pattern(regex': NullablePointer[GRegexT]): String iso^ =>
     String.from_cstring(@g_regex_get_pattern(regex')).clone()

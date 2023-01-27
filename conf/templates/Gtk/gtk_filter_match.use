@@ -1,1 +1,0 @@
-use @gtk_filter_match[I32](self': GtkFilter, item': Pointer[None] tag)

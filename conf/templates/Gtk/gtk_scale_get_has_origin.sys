@@ -1,2 +1,0 @@
-  fun get_has_origin(scale': GtkScale): I32 =>
-    @gtk_scale_get_has_origin(scale')

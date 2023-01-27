@@ -1,1 +1,1 @@
-use @g_date_days_between[I32](date1': GDate, date2': GDate)
+use @g_date_days_between[I32](date1': NullablePointer[GDateT], date2': NullablePointer[GDateT])

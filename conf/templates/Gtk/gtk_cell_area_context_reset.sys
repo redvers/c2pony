@@ -1,2 +1,0 @@
-  fun reset(context': GtkCellAreaContext): None =>
-    @gtk_cell_area_context_reset(context')

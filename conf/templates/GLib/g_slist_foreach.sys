@@ -1,2 +1,2 @@
-  fun foreach(list': GSList, func': GFunc, user_data': Pointer[None] tag): None =>
+  fun foreach(list': NullablePointer[GSListT], func': GFunc, user_data': Pointer[None] tag): None =>
     @g_slist_foreach(list', func', user_data')

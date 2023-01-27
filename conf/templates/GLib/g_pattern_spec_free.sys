@@ -1,2 +1,2 @@
-  fun free(pspec': GPatternSpec): None =>
+  fun free(pspec': NullablePointer[GPatternSpecT]): None =>
     @g_pattern_spec_free(pspec')

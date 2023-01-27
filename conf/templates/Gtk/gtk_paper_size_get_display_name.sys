@@ -1,2 +1,0 @@
-  fun get_display_name(size': GtkPaperSize): String iso^ =>
-    String.from_cstring(@gtk_paper_size_get_display_name(size')).clone()

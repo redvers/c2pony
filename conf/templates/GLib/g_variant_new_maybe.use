@@ -1,1 +1,1 @@
-use @g_variant_new_maybe[GVariant](child_type': GVariantType, child': GVariant)
+use @g_variant_new_maybe[NullablePointer[GVariantT]](child_type': NullablePointer[GVariantTypeT], child': NullablePointer[GVariantT])

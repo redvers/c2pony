@@ -1,2 +1,0 @@
-  fun ref set_pixels_above_lines(pixels_above_lines': I32): None =>
-    GtkTextViewP.set_pixels_above_lines(this, pixels_above_lines')

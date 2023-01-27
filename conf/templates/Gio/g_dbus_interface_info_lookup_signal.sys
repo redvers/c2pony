@@ -1,2 +1,0 @@
-  fun lookup_signal(info': GDBusInterfaceInfo, name': String): GDBusSignalInfo =>
-    @g_dbus_interface_info_lookup_signal(info', name'.cstring())

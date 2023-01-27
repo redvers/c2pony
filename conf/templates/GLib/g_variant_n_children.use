@@ -1,1 +1,1 @@
-use @g_variant_n_children[U64](value': GVariant)
+use @g_variant_n_children[U64](value': NullablePointer[GVariantT])

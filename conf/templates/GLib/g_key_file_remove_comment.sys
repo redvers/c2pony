@@ -1,2 +1,2 @@
-  fun remove_comment(key_file': GKeyFile, group_name': String, key': String, error': GError): I32 =>
-    @g_key_file_remove_comment(key_file', group_name'.cstring(), key'.cstring(), addressof error'.ptr)
+  fun remove_comment(key_file': NullablePointer[GKeyFileT], group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_key_file_remove_comment(key_file', group_name'.cstring(), key'.cstring(), error')

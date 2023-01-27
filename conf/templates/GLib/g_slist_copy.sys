@@ -1,2 +1,2 @@
-  fun copy(list': GSList): GSList =>
+  fun copy(list': NullablePointer[GSListT]): NullablePointer[GSListT] =>
     @g_slist_copy(list')

@@ -1,2 +1,2 @@
-  fun get_help(context': GOptionContext, main_help': I32, group': GOptionGroup): String iso^ =>
+  fun get_help(context': NullablePointer[GOptionContextT], main_help': I32, group': NullablePointer[GOptionGroupT]): String iso^ =>
     String.from_cstring(@g_option_context_get_help(context', main_help', group')).clone()

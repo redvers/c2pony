@@ -1,2 +1,0 @@
-  fun get_offset_value(self': GtkLevelBar, name': String, value': Pointer[F64] tag): I32 =>
-    @gtk_level_bar_get_offset_value(self', name'.cstring(), value')

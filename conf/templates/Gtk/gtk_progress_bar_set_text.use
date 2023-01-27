@@ -1,1 +1,0 @@
-use @gtk_progress_bar_set_text[None](pbar': GtkProgressBar, text': Pointer[U8] tag)

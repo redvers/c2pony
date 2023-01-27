@@ -1,1 +1,0 @@
-use @gtk_widget_set_sensitive[None](widget': Pointer[GObjectP], sensitive': I32)

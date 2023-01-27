@@ -1,2 +1,0 @@
-  fun ref set_sort_order(sort_order': I32): None =>
-    GFileInfoP.set_sort_order(this, sort_order')

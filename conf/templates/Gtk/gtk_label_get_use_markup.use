@@ -1,1 +1,0 @@
-use @gtk_label_get_use_markup[I32](self': GtkLabel)

@@ -1,2 +1,2 @@
-  fun get_pointer(value': GValue): Pointer[None] tag =>
+  fun get_pointer(value': NullablePointer[GValueT]): Pointer[None] tag =>
     @g_value_get_pointer(value')

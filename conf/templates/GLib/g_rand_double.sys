@@ -1,2 +1,2 @@
-  fun double(rand': GRand): F64 =>
+  fun double(rand': NullablePointer[GRandT]): F64 =>
     @g_rand_double(rand')

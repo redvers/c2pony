@@ -1,2 +1,2 @@
-  fun set_string_take_ownership(value': GValue, v_string': String): None =>
+  fun set_string_take_ownership(value': NullablePointer[GValueT], v_string': String): None =>
     @g_value_set_string_take_ownership(value', v_string'.cstring())

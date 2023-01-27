@@ -1,1 +1,0 @@
-use @gtk_popover_get_child[Pointer[GObjectP]](popover': GtkPopover)

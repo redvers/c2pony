@@ -1,2 +1,0 @@
-  fun to_key_file(size': GtkPaperSize, key_file': GKeyFile, group_name': String): None =>
-    @gtk_paper_size_to_key_file(size', key_file', group_name'.cstring())

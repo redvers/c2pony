@@ -1,2 +1,2 @@
-  fun end(builder': GVariantBuilder): GVariant =>
+  fun end(builder': NullablePointer[GVariantBuilderT]): NullablePointer[GVariantT] =>
     @g_variant_builder_end(builder')

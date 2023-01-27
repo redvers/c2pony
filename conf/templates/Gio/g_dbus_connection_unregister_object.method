@@ -1,2 +1,0 @@
-  fun ref unregister_object(registration_id': U32): I32 =>
-    GDBusConnectionP.unregister_object(this, registration_id')

@@ -1,2 +1,0 @@
-  fun ref get_factory(): GtkListItemFactory =>
-    GtkColumnViewColumnP.get_factory(this)

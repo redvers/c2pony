@@ -1,2 +1,0 @@
-  fun setenv(context': GAppLaunchContext, variable': String, value': String): None =>
-    @g_app_launch_context_setenv(context', variable'.cstring(), value'.cstring())

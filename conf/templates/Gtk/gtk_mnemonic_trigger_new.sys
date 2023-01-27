@@ -1,2 +1,0 @@
-  fun new(keyval': U32): GtkShortcutTrigger =>
-    @gtk_mnemonic_trigger_new(keyval')

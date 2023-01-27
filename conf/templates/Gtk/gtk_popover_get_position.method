@@ -1,2 +1,0 @@
-  fun ref get_position(): U32 =>
-    GtkPopoverP.get_position(this)

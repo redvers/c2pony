@@ -1,2 +1,0 @@
-  fun ref get_hover_selection(): I32 =>
-    GtkTreeViewP.get_hover_selection(this)

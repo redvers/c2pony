@@ -1,2 +1,2 @@
-  fun insert(parent': GNode, position': I32, node': GNode): GNode =>
+  fun insert(parent': NullablePointer[GNodeT], position': I32, node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
     @g_node_insert(parent', position', node')

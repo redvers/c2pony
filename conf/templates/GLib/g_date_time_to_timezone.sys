@@ -1,2 +1,2 @@
-  fun to_timezone(datetime': GDateTime, tz': GTimeZone): GDateTime =>
+  fun to_timezone(datetime': NullablePointer[GDateTimeT], tz': NullablePointer[GTimeZoneT]): NullablePointer[GDateTimeT] =>
     @g_date_time_to_timezone(datetime', tz')

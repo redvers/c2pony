@@ -1,2 +1,0 @@
-  fun ref get_transient_for(): Pointer[GObjectP] =>
-    GtkWindowP.get_transient_for(this)

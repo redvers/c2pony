@@ -1,2 +1,2 @@
-  fun poll(fds': GPollFD, nfds': U32, timeout': I32): I32 =>
+  fun poll(fds': NullablePointer[GPollFDT], nfds': U32, timeout': I32): I32 =>
     @g_poll(fds', nfds', timeout')

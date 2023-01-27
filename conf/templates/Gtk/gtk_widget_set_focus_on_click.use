@@ -1,1 +1,0 @@
-use @gtk_widget_set_focus_on_click[None](widget': Pointer[GObjectP], focus_on_click': I32)

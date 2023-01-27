@@ -1,2 +1,0 @@
-  fun has_css_class(widget': GtkWidgetI, css_class': String): I32 =>
-    @gtk_widget_has_css_class(widget'.getptr(), css_class'.cstring())

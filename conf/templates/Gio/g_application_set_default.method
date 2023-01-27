@@ -1,2 +1,0 @@
-  fun ref set_default(): None =>
-    GApplicationP.set_default(this)

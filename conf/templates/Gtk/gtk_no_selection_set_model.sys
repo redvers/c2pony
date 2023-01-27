@@ -1,2 +1,0 @@
-  fun set_model(self': GtkNoSelection, model': GListModel): None =>
-    @gtk_no_selection_set_model(self', model')

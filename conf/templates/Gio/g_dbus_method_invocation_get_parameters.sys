@@ -1,2 +1,0 @@
-  fun get_parameters(invocation': GDBusMethodInvocation): GVariant =>
-    @g_dbus_method_invocation_get_parameters(invocation')

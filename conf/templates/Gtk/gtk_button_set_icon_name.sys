@@ -1,2 +1,0 @@
-  fun set_icon_name(button': GtkButton, icon_name': String): None =>
-    @gtk_button_set_icon_name(button', icon_name'.cstring())

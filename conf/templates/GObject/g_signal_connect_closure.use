@@ -1,1 +1,1 @@
-use @g_signal_connect_closure[U64](instance': Pointer[None] tag, detailed_signal': Pointer[U8] tag, closure': GClosure, after': I32)
+use @g_signal_connect_closure[U64](instance': Pointer[None] tag, detailed_signal': Pointer[U8] tag, closure': NullablePointer[GClosureT], after': I32)

@@ -1,2 +1,0 @@
-  fun get_content(source': GtkDragSource): GdkContentProvider =>
-    @gtk_drag_source_get_content(source')

@@ -1,2 +1,2 @@
   fun ref set_value(group_name': String, key': String, value': String): None =>
-    GKeyFileP.set_value(this, group_name', key', value')
+    GKeyFileP.set_value(this.ptr, group_name', key', value')

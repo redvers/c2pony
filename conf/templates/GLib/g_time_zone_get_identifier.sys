@@ -1,2 +1,2 @@
-  fun get_identifier(tz': GTimeZone): String iso^ =>
+  fun get_identifier(tz': NullablePointer[GTimeZoneT]): String iso^ =>
     String.from_cstring(@g_time_zone_get_identifier(tz')).clone()

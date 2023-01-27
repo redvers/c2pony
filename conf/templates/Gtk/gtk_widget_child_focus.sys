@@ -1,2 +1,0 @@
-  fun child_focus(widget': GtkWidgetI, direction': U32): I32 =>
-    @gtk_widget_child_focus(widget'.getptr(), direction')

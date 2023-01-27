@@ -1,2 +1,0 @@
-  fun new(data': Pointer[None] tag, size': U64, realloc_function': GReallocFunc, destroy_function': GDestroyNotify): GOutputStream =>
-    @g_memory_output_stream_new(data', size', realloc_function', destroy_function')

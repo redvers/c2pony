@@ -1,2 +1,2 @@
-  fun get_month(date': GDate): U32 =>
+  fun get_month(date': NullablePointer[GDateT]): U32 =>
     @g_date_get_month(date')

@@ -1,2 +1,0 @@
-  fun ref copy_clipboard(clipboard': GdkClipboard): None =>
-    GtkTextBufferP.copy_clipboard(this, clipboard')

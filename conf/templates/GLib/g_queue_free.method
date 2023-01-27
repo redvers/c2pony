@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GQueueP.free(this)
+    GQueueP.free(this.ptr)

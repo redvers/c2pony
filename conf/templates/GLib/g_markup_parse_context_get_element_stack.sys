@@ -1,2 +1,2 @@
-  fun get_element_stack(context': GMarkupParseContext): GSList =>
+  fun get_element_stack(context': NullablePointer[GMarkupParseContextT]): NullablePointer[GSListT] =>
     @g_markup_parse_context_get_element_stack(context')

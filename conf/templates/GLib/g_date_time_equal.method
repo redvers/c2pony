@@ -1,2 +1,2 @@
   fun ref equal(dt2': Pointer[None] tag): I32 =>
-    GDateTimeP.equal(this, dt2')
+    GDateTimeP.equal(this.ptr, dt2')

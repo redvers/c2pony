@@ -1,2 +1,0 @@
-  fun ref set_action_widget(widget': GtkWidgetI, pack_type': U32): None =>
-    GtkNotebookP.set_action_widget(this, widget', pack_type')

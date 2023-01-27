@@ -1,2 +1,0 @@
-  fun ref get_destination_port(): U16 =>
-    GProxyAddressP.get_destination_port(this)

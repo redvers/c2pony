@@ -1,1 +1,0 @@
-use @g_inet_address_new_from_bytes[GInetAddress](bytes': Pointer[U8] tag, family': U32)

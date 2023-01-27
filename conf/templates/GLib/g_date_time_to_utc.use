@@ -1,1 +1,1 @@
-use @g_date_time_to_utc[GDateTime](datetime': GDateTime)
+use @g_date_time_to_utc[NullablePointer[GDateTimeT]](datetime': NullablePointer[GDateTimeT])

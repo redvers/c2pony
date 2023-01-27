@@ -1,2 +1,2 @@
-  fun ref get_valist(first_property_name': String, var_args': valisttag): None =>
-    GObjectP.get_valist(this, first_property_name', var_args')
+  fun ref get_valist(first_property_name': String, var_args': NullablePointer[valisttagT]): None =>
+    GObjectP.get_valist(this.ptr, first_property_name', var_args')

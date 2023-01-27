@@ -1,2 +1,0 @@
-  fun get_edit_widget(area': GtkCellArea): GtkCellEditable =>
-    @gtk_cell_area_get_edit_widget(area')

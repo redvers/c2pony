@@ -1,1 +1,0 @@
-use @g_file_info_list_attributes[Pointer[Pointer[U8]] tag](info': GFileInfo, name_space': Pointer[U8] tag)

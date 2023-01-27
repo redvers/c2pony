@@ -1,1 +1,0 @@
-use @gtk_tree_view_get_drag_dest_row[None](tree_view': GtkTreeView, path': Pointer[GtkTreePath], pos': Pointer[U32] tag)

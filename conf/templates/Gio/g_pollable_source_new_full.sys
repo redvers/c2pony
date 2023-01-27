@@ -1,2 +1,0 @@
-  fun pollable_source_new_full(pollable_stream': Pointer[None] tag, child_source': GSource, cancellable': GCancellable): GSource =>
-    @g_pollable_source_new_full(pollable_stream', child_source', cancellable')

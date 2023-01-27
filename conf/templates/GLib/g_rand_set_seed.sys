@@ -1,2 +1,2 @@
-  fun set_seed(rand': GRand, seed': U32): None =>
+  fun set_seed(rand': NullablePointer[GRandT], seed': U32): None =>
     @g_rand_set_seed(rand', seed')

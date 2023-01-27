@@ -1,2 +1,0 @@
-  fun ref get_round_digits(): I32 =>
-    GtkRangeP.get_round_digits(this)

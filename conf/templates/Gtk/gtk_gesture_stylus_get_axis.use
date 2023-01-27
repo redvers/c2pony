@@ -1,1 +1,0 @@
-use @gtk_gesture_stylus_get_axis[I32](gesture': GtkGestureStylus, axis': U32, value': Pointer[F64] tag)

@@ -1,2 +1,0 @@
-  fun set_rate_limit(monitor': GFileMonitor, limit_msecs': I32): None =>
-    @g_file_monitor_set_rate_limit(monitor', limit_msecs')

@@ -1,2 +1,0 @@
-  fun get_priority(extension': GIOExtension): I32 =>
-    @g_io_extension_get_priority(extension')

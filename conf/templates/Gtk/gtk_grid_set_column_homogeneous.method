@@ -1,2 +1,0 @@
-  fun ref set_column_homogeneous(homogeneous': I32): None =>
-    GtkGridP.set_column_homogeneous(this, homogeneous')

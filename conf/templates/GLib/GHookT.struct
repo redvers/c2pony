@@ -2,8 +2,8 @@
 use "lib:glib-2.0"
 struct GHookT
   var data': Pointer[None] = Pointer[None]
-  var next': GHook = GHook
-  var prev': GHook = GHook
+  var next': NullablePointer[GHookT] = NullablePointer[GHookT].none()
+  var prev': NullablePointer[GHookT] = NullablePointer[GHookT].none()
   var ref_count': U32 = U32(0)
   var hook_id': U64 = U64(0)
   var flags': U32 = U32(0)

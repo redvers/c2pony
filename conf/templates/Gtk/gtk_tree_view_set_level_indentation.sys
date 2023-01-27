@@ -1,2 +1,0 @@
-  fun set_level_indentation(tree_view': GtkTreeView, indentation': I32): None =>
-    @gtk_tree_view_set_level_indentation(tree_view', indentation')

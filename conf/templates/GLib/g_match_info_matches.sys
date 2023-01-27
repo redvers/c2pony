@@ -1,2 +1,2 @@
-  fun matches(match_info': GMatchInfo): I32 =>
+  fun matches(match_info': NullablePointer[GMatchInfoT]): I32 =>
     @g_match_info_matches(match_info')

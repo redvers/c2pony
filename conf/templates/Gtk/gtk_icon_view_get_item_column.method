@@ -1,2 +1,0 @@
-  fun ref get_item_column(path': GtkTreePath): I32 =>
-    GtkIconViewP.get_item_column(this, path')

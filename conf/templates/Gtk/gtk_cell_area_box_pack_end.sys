@@ -1,2 +1,0 @@
-  fun pack_end(box': GtkCellAreaBox, renderer': GtkCellRenderer, expand': I32, align': I32, fixed': I32): None =>
-    @gtk_cell_area_box_pack_end(box', renderer', expand', align', fixed')

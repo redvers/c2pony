@@ -1,2 +1,2 @@
-  fun get_string(key_file': GKeyFile, group_name': String, key': String, error': GError): String iso^ =>
-    String.from_cstring(@g_key_file_get_string(key_file', group_name'.cstring(), key'.cstring(), addressof error'.ptr)).clone()
+  fun get_string(key_file': NullablePointer[GKeyFileT], group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_key_file_get_string(key_file', group_name'.cstring(), key'.cstring(), error')).clone()

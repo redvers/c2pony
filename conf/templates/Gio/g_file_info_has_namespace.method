@@ -1,2 +1,0 @@
-  fun ref has_namespace(name_space': String): I32 =>
-    GFileInfoP.has_namespace(this, name_space')

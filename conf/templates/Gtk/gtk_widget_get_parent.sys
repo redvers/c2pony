@@ -1,2 +1,0 @@
-  fun get_parent(widget': GtkWidgetI): Pointer[GObjectP] =>
-@gtk_widget_get_parent(widget'.getptr())

@@ -1,1 +1,0 @@
-use @gtk_text_buffer_create_tag[GtkTextTag](buffer': GtkTextBuffer, tag_name': Pointer[U8] tag, first_property_name': Pointer[U8] tag, ...)

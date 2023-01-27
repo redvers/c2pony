@@ -1,2 +1,0 @@
-  fun ref forward_to_line_end(): I32 =>
-    GtkTextIterP.forward_to_line_end(this)

@@ -1,2 +1,2 @@
-  fun check_format_string(value': GVariant, format_string': String, copy_only': I32): I32 =>
+  fun check_format_string(value': NullablePointer[GVariantT], format_string': String, copy_only': I32): I32 =>
     @g_variant_check_format_string(value', format_string'.cstring(), copy_only')

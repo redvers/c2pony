@@ -1,2 +1,2 @@
-  fun attach(source': GSource, context': GMainContext): U32 =>
+  fun attach(source': NullablePointer[GSourceT], context': NullablePointer[GMainContextT]): U32 =>
     @g_source_attach(source', context')

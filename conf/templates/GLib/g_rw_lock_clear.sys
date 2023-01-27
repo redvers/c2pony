@@ -1,2 +1,2 @@
-  fun clear(rw_lock': GRWLock): None =>
+  fun clear(rw_lock': NullablePointer[GRWLockT]): None =>
     @g_rw_lock_clear(rw_lock')

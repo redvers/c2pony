@@ -1,2 +1,0 @@
-  fun ref set_button_sensitivity(sensitivity': U32): None =>
-    GtkComboBoxP.set_button_sensitivity(this, sensitivity')

@@ -1,2 +1,0 @@
-  fun set_header_func(box': GtkListBox, update_header': GtkListBoxUpdateHeaderFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    @gtk_list_box_set_header_func(box', update_header', user_data', destroy')

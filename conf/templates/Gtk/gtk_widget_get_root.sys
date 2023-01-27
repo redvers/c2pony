@@ -1,2 +1,0 @@
-  fun get_root(widget': GtkWidgetI): GtkRoot =>
-    @gtk_widget_get_root(widget'.getptr())

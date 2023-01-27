@@ -1,2 +1,2 @@
-  fun get_flags(uri': GUri): U32 =>
+  fun get_flags(uri': NullablePointer[GUriT]): U32 =>
     @g_uri_get_flags(uri')

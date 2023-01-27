@@ -1,2 +1,0 @@
-  fun attach_source(task': GTask, source': GSource, callback': GSourceFunc): None =>
-    @g_task_attach_source(task', source', callback')

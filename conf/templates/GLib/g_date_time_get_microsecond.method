@@ -1,2 +1,2 @@
   fun ref get_microsecond(): I32 =>
-    GDateTimeP.get_microsecond(this)
+    GDateTimeP.get_microsecond(this.ptr)

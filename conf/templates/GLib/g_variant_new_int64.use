@@ -1,1 +1,1 @@
-use @g_variant_new_int64[GVariant](value': I64)
+use @g_variant_new_int64[NullablePointer[GVariantT]](value': I64)

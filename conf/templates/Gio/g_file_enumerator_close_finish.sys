@@ -1,2 +1,0 @@
-  fun close_finish(enumerator': GFileEnumerator, result': GAsyncResult, error': GError): I32 =>
-    @g_file_enumerator_close_finish(enumerator', result', addressof error'.ptr)

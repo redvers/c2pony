@@ -1,2 +1,0 @@
-  fun ref enumerate_next(): String iso^ =>
-    GFileAttributeMatcherP.enumerate_next(this)

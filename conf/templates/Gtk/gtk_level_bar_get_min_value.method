@@ -1,2 +1,0 @@
-  fun ref get_min_value(): F64 =>
-    GtkLevelBarP.get_min_value(this)

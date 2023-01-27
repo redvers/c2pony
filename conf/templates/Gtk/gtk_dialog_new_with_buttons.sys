@@ -1,2 +1,0 @@
-  fun new_with_buttons(title': String, parent': GtkWindowI, flags': U32, first_button_text': String, ...): Pointer[GObjectP] =>
-@gtk_dialog_new_with_buttons(title'.cstring(), parent'.getptr(), flags', first_button_text'.cstring(), ...)

@@ -1,2 +1,0 @@
-  fun get_current(): GCancellable =>
-    @g_cancellable_get_current()

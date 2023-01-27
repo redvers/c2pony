@@ -1,2 +1,2 @@
   fun ref push(n_bytes': U32, bytes': String): None =>
-    GTestLogBufferP.push(this, n_bytes', bytes')
+    GTestLogBufferP.push(this.ptr, n_bytes', bytes')

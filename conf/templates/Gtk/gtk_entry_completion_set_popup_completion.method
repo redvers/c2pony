@@ -1,2 +1,0 @@
-  fun ref set_popup_completion(popup_completion': I32): None =>
-    GtkEntryCompletionP.set_popup_completion(this, popup_completion')

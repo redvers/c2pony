@@ -1,2 +1,0 @@
-  fun get_clickable(tree_column': GtkTreeViewColumn): I32 =>
-    @gtk_tree_view_column_get_clickable(tree_column')

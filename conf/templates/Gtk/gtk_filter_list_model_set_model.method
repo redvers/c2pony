@@ -1,2 +1,0 @@
-  fun ref set_model(model': GListModel): None =>
-    GtkFilterListModelP.set_model(this, model')

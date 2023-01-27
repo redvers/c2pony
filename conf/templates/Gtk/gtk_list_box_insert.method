@@ -1,2 +1,0 @@
-  fun ref insert(child': GtkWidgetI, position': I32): None =>
-    GtkListBoxP.insert(this, child', position')

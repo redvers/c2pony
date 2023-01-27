@@ -1,2 +1,0 @@
-  fun ref send_notification(id': String, notification': GNotification): None =>
-    GApplicationP.send_notification(this, id', notification')

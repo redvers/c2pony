@@ -1,2 +1,0 @@
-  fun ref connection_factory_create_connection(): GSocketConnection =>
-    GSocketP.connection_factory_create_connection(this)

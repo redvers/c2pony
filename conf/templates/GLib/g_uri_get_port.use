@@ -1,1 +1,1 @@
-use @g_uri_get_port[I32](uri': GUri)
+use @g_uri_get_port[I32](uri': NullablePointer[GUriT])

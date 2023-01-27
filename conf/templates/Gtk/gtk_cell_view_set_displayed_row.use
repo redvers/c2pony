@@ -1,1 +1,0 @@
-use @gtk_cell_view_set_displayed_row[None](cell_view': GtkCellView, path': GtkTreePath)

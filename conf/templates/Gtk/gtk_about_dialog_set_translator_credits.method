@@ -1,2 +1,0 @@
-  fun ref set_translator_credits(translator_credits': String): None =>
-    GtkAboutDialogP.set_translator_credits(this, translator_credits')

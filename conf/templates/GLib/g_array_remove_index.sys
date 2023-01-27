@@ -1,2 +1,2 @@
-  fun remove_index(array': GArray, index': U32): GArray =>
+  fun remove_index(array': NullablePointer[GArrayT], index': U32): NullablePointer[GArrayT] =>
     @g_array_remove_index(array', index')

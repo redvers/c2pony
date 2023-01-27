@@ -1,2 +1,0 @@
-  fun get_visible(self': GtkNativeDialog): I32 =>
-    @gtk_native_dialog_get_visible(self')

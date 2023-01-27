@@ -1,2 +1,2 @@
-  fun get_host(uri': GUri): String iso^ =>
+  fun get_host(uri': NullablePointer[GUriT]): String iso^ =>
     String.from_cstring(@g_uri_get_host(uri')).clone()

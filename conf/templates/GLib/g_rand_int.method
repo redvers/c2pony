@@ -1,2 +1,2 @@
   fun ref int(): U32 =>
-    GRandP.int(this)
+    GRandP.int(this.ptr)

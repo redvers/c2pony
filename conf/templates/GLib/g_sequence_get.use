@@ -1,1 +1,1 @@
-use @g_sequence_get[Pointer[None] tag](iter': GSequenceNode)
+use @g_sequence_get[Pointer[None] tag](iter': NullablePointer[GSequenceNodeT])

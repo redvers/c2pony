@@ -1,2 +1,0 @@
-  fun get_activatable(toggle': GtkCellRendererToggle): I32 =>
-    @gtk_cell_renderer_toggle_get_activatable(toggle')

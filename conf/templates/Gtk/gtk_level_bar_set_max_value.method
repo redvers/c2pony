@@ -1,2 +1,0 @@
-  fun ref set_max_value(value': F64): None =>
-    GtkLevelBarP.set_max_value(this, value')

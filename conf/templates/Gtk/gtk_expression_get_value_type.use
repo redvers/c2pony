@@ -1,1 +1,0 @@
-use @gtk_expression_get_value_type[U64](self': GtkExpression)

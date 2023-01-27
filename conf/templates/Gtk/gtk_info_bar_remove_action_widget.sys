@@ -1,2 +1,0 @@
-  fun remove_action_widget(info_bar': GtkInfoBar, widget': GtkWidgetI): None =>
-    @gtk_info_bar_remove_action_widget(info_bar', widget'.getptr())

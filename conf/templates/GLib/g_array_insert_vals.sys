@@ -1,2 +1,2 @@
-  fun insert_vals(array': GArray, index': U32, data': Pointer[None] tag, len': U32): GArray =>
+  fun insert_vals(array': NullablePointer[GArrayT], index': U32, data': Pointer[None] tag, len': U32): NullablePointer[GArrayT] =>
     @g_array_insert_vals(array', index', data', len')

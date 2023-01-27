@@ -1,2 +1,0 @@
-  fun unbind_busy_property(application': GApplicationI, object': Pointer[None] tag, property': String): None =>
-    @g_application_unbind_busy_property(application'.getptr(), object', property'.cstring())

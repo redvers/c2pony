@@ -1,2 +1,2 @@
-  fun remove_child_source(source': GSource, child_source': GSource): None =>
+  fun remove_child_source(source': NullablePointer[GSourceT], child_source': NullablePointer[GSourceT]): None =>
     @g_source_remove_child_source(source', child_source')

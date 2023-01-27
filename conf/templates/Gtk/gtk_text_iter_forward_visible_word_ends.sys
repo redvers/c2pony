@@ -1,2 +1,0 @@
-  fun forward_visible_word_ends(iter': GtkTextIter, count': I32): I32 =>
-    @gtk_text_iter_forward_visible_word_ends(iter', count')

@@ -1,2 +1,0 @@
-  fun get_max_width_chars(self': GtkLabel): I32 =>
-    @gtk_label_get_max_width_chars(self')

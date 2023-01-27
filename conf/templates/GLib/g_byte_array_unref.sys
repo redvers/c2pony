@@ -1,2 +1,2 @@
-  fun unref(array': GByteArray): None =>
+  fun unref(array': NullablePointer[GByteArrayT]): None =>
     @g_byte_array_unref(array')

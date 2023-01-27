@@ -1,2 +1,2 @@
-  fun insert_after(queue': GQueue, sibling': GList, data': Pointer[None] tag): None =>
+  fun insert_after(queue': NullablePointer[GQueueT], sibling': NullablePointer[GListT], data': Pointer[None] tag): None =>
     @g_queue_insert_after(queue', sibling', data')

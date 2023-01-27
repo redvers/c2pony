@@ -1,2 +1,0 @@
-  fun ref get_is_tcrypt_hidden_volume(): I32 =>
-    GMountOperationP.get_is_tcrypt_hidden_volume(this)

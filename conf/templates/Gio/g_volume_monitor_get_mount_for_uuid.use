@@ -1,1 +1,0 @@
-use @g_volume_monitor_get_mount_for_uuid[GMount](volume_monitor': GVolumeMonitor, uuid': Pointer[U8] tag)

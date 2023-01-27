@@ -1,2 +1,0 @@
-  fun set_title(self': GtkNativeDialog, title': String): None =>
-    @gtk_native_dialog_set_title(self', title'.cstring())

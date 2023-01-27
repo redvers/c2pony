@@ -1,1 +1,0 @@
-use @gtk_single_selection_set_can_unselect[None](self': GtkSingleSelection, can_unselect': I32)

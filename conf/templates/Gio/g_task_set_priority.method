@@ -1,2 +1,0 @@
-  fun ref set_priority(priority': I32): None =>
-    GTaskP.set_priority(this, priority')

@@ -1,2 +1,2 @@
-  fun sized_new(reserved_size': U32): GPtrArray =>
+  fun sized_new(reserved_size': U32): NullablePointer[GPtrArrayT] =>
     @g_ptr_array_sized_new(reserved_size')

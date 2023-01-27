@@ -1,2 +1,0 @@
-  fun set_group(self': GtkCheckButton, group': GtkCheckButton): None =>
-    @gtk_check_button_set_group(self', group')

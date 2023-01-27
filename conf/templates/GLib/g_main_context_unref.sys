@@ -1,2 +1,2 @@
-  fun unref(context': GMainContext): None =>
+  fun unref(context': NullablePointer[GMainContextT]): None =>
     @g_main_context_unref(context')

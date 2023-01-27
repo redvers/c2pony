@@ -1,2 +1,0 @@
-  fun pack_start(bar': GtkHeaderBar, child': GtkWidgetI): None =>
-    @gtk_header_bar_pack_start(bar', child'.getptr())

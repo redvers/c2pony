@@ -1,2 +1,2 @@
-  fun ref ref(): GMarkupParseContext =>
-    GMarkupParseContextP.ref(this)
+  fun ref ref(): NullablePointer[GMarkupParseContextT] =>
+    GMarkupParseContextP.ref(this.ptr)

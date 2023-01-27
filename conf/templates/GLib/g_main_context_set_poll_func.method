@@ -1,2 +1,2 @@
   fun ref set_poll_func(func': GPollFunc): None =>
-    GMainContextP.set_poll_func(this, func')
+    GMainContextP.set_poll_func(this.ptr, func')

@@ -1,2 +1,2 @@
-  fun destroy(source': GSource): None =>
+  fun destroy(source': NullablePointer[GSourceT]): None =>
     @g_source_destroy(source')

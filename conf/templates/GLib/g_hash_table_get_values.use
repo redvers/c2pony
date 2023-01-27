@@ -1,1 +1,1 @@
-use @g_hash_table_get_values[GList](hash_table': GHashTable)
+use @g_hash_table_get_values[NullablePointer[GListT]](hash_table': NullablePointer[GHashTableT])

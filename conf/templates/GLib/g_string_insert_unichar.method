@@ -1,2 +1,2 @@
-  fun ref insert_unichar(pos': I64, wc': U32): GString =>
-    GStringP.insert_unichar(this, pos', wc')
+  fun ref insert_unichar(pos': I64, wc': U32): NullablePointer[GStringT] =>
+    GStringP.insert_unichar(this.ptr, pos', wc')

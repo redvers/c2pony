@@ -1,1 +1,0 @@
-use @gtk_expander_set_resize_toplevel[None](expander': GtkExpander, resize_toplevel': I32)

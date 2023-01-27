@@ -1,2 +1,0 @@
-  fun ref set_cursor_location(area': cairorectangleint): None =>
-    GtkIMContextP.set_cursor_location(this, area')

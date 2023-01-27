@@ -1,1 +1,0 @@
-use @gtk_aspect_frame_set_obey_child[None](self': GtkAspectFrame, obey_child': I32)

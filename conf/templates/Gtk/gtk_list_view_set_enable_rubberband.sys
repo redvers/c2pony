@@ -1,2 +1,0 @@
-  fun set_enable_rubberband(self': GtkListView, enable_rubberband': I32): None =>
-    @gtk_list_view_set_enable_rubberband(self', enable_rubberband')

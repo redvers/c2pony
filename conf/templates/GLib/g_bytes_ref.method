@@ -1,2 +1,2 @@
-  fun ref ref(): GBytes =>
-    GBytesP.ref(this)
+  fun ref ref(): NullablePointer[GBytesT] =>
+    GBytesP.ref(this.ptr)

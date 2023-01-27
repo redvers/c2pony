@@ -1,2 +1,2 @@
-  fun ref equal(v2': GString): I32 =>
-    GStringP.equal(this, v2')
+  fun ref equal(v2': NullablePointer[GStringT]): I32 =>
+    GStringP.equal(this.ptr, v2')

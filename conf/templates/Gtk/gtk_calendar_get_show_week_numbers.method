@@ -1,2 +1,0 @@
-  fun ref get_show_week_numbers(): I32 =>
-    GtkCalendarP.get_show_week_numbers(this)

@@ -1,1 +1,1 @@
-use @g_value_get_param[GParamSpec](value': GValue)
+use @g_value_get_param[NullablePointer[GParamSpecT]](value': NullablePointer[GValueT])

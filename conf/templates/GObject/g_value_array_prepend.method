@@ -1,2 +1,2 @@
-  fun ref prepend(value': GValue): GValueArray =>
-    GValueArrayP.prepend(this, value')
+  fun ref prepend(value': NullablePointer[GValueT]): NullablePointer[GValueArrayT] =>
+    GValueArrayP.prepend(this.ptr, value')

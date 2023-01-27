@@ -1,2 +1,0 @@
-  fun ref query_info(attributes': String, cancellable': GCancellable, error': GError): GFileInfo =>
-    GFileIOStreamP.query_info(this, attributes', cancellable', error')

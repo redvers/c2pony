@@ -1,1 +1,1 @@
-use @g_object_set_data_full[None](object': Pointer[GObjectP], key': Pointer[U8] tag, data': Pointer[None] tag, destroy': GDestroyNotify)
+use @g_object_set_data_full[None](object': NullablePointer[GObjectT], key': Pointer[U8] tag, data': Pointer[None] tag, destroy': Pointer[None])

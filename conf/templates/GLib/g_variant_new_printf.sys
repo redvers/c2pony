@@ -1,2 +1,2 @@
-  fun new_printf(format_string': String, ...): GVariant =>
-    @g_variant_new_printf(format_string'.cstring(), ...)
+  new new_printf(format_string': String, ...) =>
+    ptr = @g_variant_new_printf(format_string'.cstring(), ...)

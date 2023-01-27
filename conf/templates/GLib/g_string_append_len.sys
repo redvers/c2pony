@@ -1,2 +1,2 @@
-  fun append_len(string': GString, val': String, len': I64): GString =>
+  fun append_len(string': NullablePointer[GStringT], val': String, len': I64): NullablePointer[GStringT] =>
     @g_string_append_len(string', val'.cstring(), len')

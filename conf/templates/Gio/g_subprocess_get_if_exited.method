@@ -1,2 +1,0 @@
-  fun ref get_if_exited(): I32 =>
-    GSubprocessP.get_if_exited(this)

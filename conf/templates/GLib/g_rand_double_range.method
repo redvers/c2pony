@@ -1,2 +1,2 @@
   fun ref double_range(begin': F64, end': F64): F64 =>
-    GRandP.double_range(this, begin', end')
+    GRandP.double_range(this.ptr, begin', end')

@@ -1,2 +1,0 @@
-  fun get_action_name(self': GtkNamedAction): String iso^ =>
-    String.from_cstring(@gtk_named_action_get_action_name(self')).clone()

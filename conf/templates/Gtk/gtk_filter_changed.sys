@@ -1,2 +1,0 @@
-  fun changed(self': GtkFilter, change': U32): None =>
-    @gtk_filter_changed(self', change')

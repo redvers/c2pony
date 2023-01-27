@@ -1,2 +1,0 @@
-  fun ref get_active_window(): Pointer[GObjectP] =>
-    GtkApplicationP.get_active_window(this)

@@ -1,2 +1,2 @@
-  fun ref getv(n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValue): None =>
-    GObjectP.getv(this, n_properties', names', values')
+  fun ref getv(n_properties': U32, names': Pointer[Pointer[U8]] tag, values': NullablePointer[GValueT]): None =>
+    GObjectP.getv(this.ptr, n_properties', names', values')

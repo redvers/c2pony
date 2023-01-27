@@ -1,2 +1,2 @@
-  fun get_digest(hmac': GHmac, buffer': String, digest_len': Pointer[U64] tag): None =>
+  fun get_digest(hmac': NullablePointer[GHmacT], buffer': String, digest_len': Pointer[U64] tag): None =>
     @g_hmac_get_digest(hmac', buffer'.cstring(), digest_len')

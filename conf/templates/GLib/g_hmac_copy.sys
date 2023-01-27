@@ -1,2 +1,2 @@
-  fun copy(hmac': GHmac): GHmac =>
+  fun copy(hmac': NullablePointer[GHmacT]): NullablePointer[GHmacT] =>
     @g_hmac_copy(hmac')

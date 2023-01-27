@@ -1,1 +1,1 @@
-use @g_variant_get[None](value': GVariant, format_string': Pointer[U8] tag, ...)
+use @g_variant_get[None](value': NullablePointer[GVariantT], format_string': Pointer[U8] tag, ...)

@@ -1,2 +1,0 @@
-  fun ref list_children(): Pointer[Pointer[U8]] tag =>
-    GSettingsP.list_children(this)

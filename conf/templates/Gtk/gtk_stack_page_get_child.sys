@@ -1,2 +1,0 @@
-  fun get_child(self': GtkStackPage): Pointer[GObjectP] =>
-@gtk_stack_page_get_child(self')

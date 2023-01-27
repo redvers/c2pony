@@ -1,2 +1,2 @@
-  fun set_month(date': GDate, month': U32): None =>
+  fun set_month(date': NullablePointer[GDateT], month': U32): None =>
     @g_date_set_month(date', month')

@@ -1,2 +1,0 @@
-  fun ref set_ignore_hosts(ignore_hosts': Pointer[Pointer[U8]] tag): None =>
-    GSimpleProxyResolverP.set_ignore_hosts(this, ignore_hosts')

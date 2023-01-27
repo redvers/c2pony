@@ -1,2 +1,2 @@
-  fun ref(context': GMarkupParseContext): GMarkupParseContext =>
+  fun ref(context': NullablePointer[GMarkupParseContextT]): NullablePointer[GMarkupParseContextT] =>
     @g_markup_parse_context_ref(context')

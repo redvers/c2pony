@@ -1,1 +1,1 @@
-use @g_trash_stack_peek[Pointer[None] tag](stack_p': Pointer[GTrashStack])
+use @g_trash_stack_peek[Pointer[None] tag](stack_p': Pointer[NullablePointer[GTrashStackT]])

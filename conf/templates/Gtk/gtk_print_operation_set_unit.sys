@@ -1,2 +1,0 @@
-  fun set_unit(op': GtkPrintOperation, unit': U32): None =>
-    @gtk_print_operation_set_unit(op', unit')

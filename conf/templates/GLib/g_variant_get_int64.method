@@ -1,2 +1,2 @@
   fun ref get_int64(): I64 =>
-    GVariantP.get_int64(this)
+    GVariantP.get_int64(this.ptr)

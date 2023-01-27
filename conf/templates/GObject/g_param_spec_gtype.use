@@ -1,1 +1,1 @@
-use @g_param_spec_gtype[GParamSpec](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, is_a_type': U64, flags': I32)
+use @g_param_spec_gtype[NullablePointer[GParamSpecT]](name': Pointer[U8] tag, nick': Pointer[U8] tag, blurb': Pointer[U8] tag, is_a_type': U64, flags': I32)

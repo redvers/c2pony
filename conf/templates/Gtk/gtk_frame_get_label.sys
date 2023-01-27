@@ -1,2 +1,0 @@
-  fun get_label(frame': GtkFrame): String iso^ =>
-    String.from_cstring(@gtk_frame_get_label(frame')).clone()

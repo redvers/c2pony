@@ -1,2 +1,0 @@
-  fun get_error(self': GtkDirectoryList): NullablePointer[GErrorT] =>
-@gtk_directory_list_get_error(self')

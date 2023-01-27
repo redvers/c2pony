@@ -1,2 +1,0 @@
-  fun get_scope(self': GtkShortcutController): U32 =>
-    @gtk_shortcut_controller_get_scope(self')

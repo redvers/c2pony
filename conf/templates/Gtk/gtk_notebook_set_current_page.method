@@ -1,2 +1,0 @@
-  fun ref set_current_page(page_num': I32): None =>
-    GtkNotebookP.set_current_page(this, page_num')

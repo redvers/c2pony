@@ -1,1 +1,0 @@
-use @gtk_list_box_get_selected_row[GtkListBoxRow](box': GtkListBox)

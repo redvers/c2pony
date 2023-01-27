@@ -1,2 +1,0 @@
-  fun get_cell_allocation(area': GtkCellArea, context': GtkCellAreaContext, widget': GtkWidgetI, renderer': GtkCellRenderer, cell_area': cairorectangleint, allocation': cairorectangleint): None =>
-    @gtk_cell_area_get_cell_allocation(area', context', widget'.getptr(), renderer', cell_area', allocation')

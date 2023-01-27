@@ -1,2 +1,0 @@
-  fun ref get_model(): GListModel =>
-    GtkDropDownP.get_model(this)

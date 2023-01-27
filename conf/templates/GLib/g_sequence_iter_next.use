@@ -1,1 +1,1 @@
-use @g_sequence_iter_next[GSequenceNode](iter': GSequenceNode)
+use @g_sequence_iter_next[NullablePointer[GSequenceNodeT]](iter': NullablePointer[GSequenceNodeT])

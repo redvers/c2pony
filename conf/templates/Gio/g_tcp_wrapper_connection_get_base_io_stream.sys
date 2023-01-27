@@ -1,2 +1,0 @@
-  fun get_base_io_stream(conn': GTcpWrapperConnection): GIOStream =>
-    @g_tcp_wrapper_connection_get_base_io_stream(conn')

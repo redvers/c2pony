@@ -1,2 +1,0 @@
-  fun get_inconsistent(check_button': GtkCheckButton): I32 =>
-    @gtk_check_button_get_inconsistent(check_button')

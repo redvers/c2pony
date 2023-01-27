@@ -1,1 +1,0 @@
-use @gtk_gesture_get_bounding_box_center[I32](gesture': GtkGesture, x': Pointer[F64] tag, y': Pointer[F64] tag)

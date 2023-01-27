@@ -1,2 +1,2 @@
-  fun get_poll_func(context': GMainContext): GPollFunc =>
+  fun get_poll_func(context': NullablePointer[GMainContextT]): GPollFunc =>
     @g_main_context_get_poll_func(context')

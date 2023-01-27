@@ -1,1 +1,0 @@
-use @gtk_drawing_area_set_draw_func[None](self': GtkDrawingArea, draw_func': GtkDrawingAreaDrawFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify)

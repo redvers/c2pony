@@ -1,2 +1,0 @@
-  fun ref get_side(): U32 =>
-    GtkWindowControlsP.get_side(this)

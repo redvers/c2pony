@@ -1,2 +1,0 @@
-  fun get_paper_size(settings': GtkPrintSettings): GtkPaperSize =>
-    @gtk_print_settings_get_paper_size(settings')

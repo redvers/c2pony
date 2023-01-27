@@ -1,2 +1,2 @@
   fun ref init(): None =>
-    GRecMutexP.init(this)
+    GRecMutexP.init(this.ptr)

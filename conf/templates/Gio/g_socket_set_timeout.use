@@ -1,1 +1,0 @@
-use @g_socket_set_timeout[None](socket': GSocket, timeout': U32)

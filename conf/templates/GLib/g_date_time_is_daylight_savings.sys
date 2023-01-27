@@ -1,2 +1,2 @@
-  fun is_daylight_savings(datetime': GDateTime): I32 =>
+  fun is_daylight_savings(datetime': NullablePointer[GDateTimeT]): I32 =>
     @g_date_time_is_daylight_savings(datetime')

@@ -1,2 +1,2 @@
-  fun ref(thread': GThread): GThread =>
+  fun ref(thread': NullablePointer[GThreadT]): NullablePointer[GThreadT] =>
     @g_thread_ref(thread')

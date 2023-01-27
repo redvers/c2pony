@@ -1,1 +1,1 @@
-use @g_main_loop_unref[None](loop': GMainLoop)
+use @g_main_loop_unref[None](loop': NullablePointer[GMainLoopT])

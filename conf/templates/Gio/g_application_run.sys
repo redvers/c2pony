@@ -1,2 +1,0 @@
-  fun run(application': GApplicationI, argc': I32, argv': Pointer[Pointer[U8]] tag): I32 =>
-    @g_application_run(application'.getptr(), argc', argv')

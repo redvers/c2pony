@@ -1,2 +1,0 @@
-  fun insert_before(tree_store': GtkTreeStore, iter': GtkTreeIter, parent': GtkTreeIter, sibling': GtkTreeIter): None =>
-    @gtk_tree_store_insert_before(tree_store', iter', parent', sibling')

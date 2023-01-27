@@ -1,2 +1,0 @@
-  fun is_empty(self': GtkBitset): I32 =>
-    @gtk_bitset_is_empty(self')

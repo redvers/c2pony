@@ -1,2 +1,0 @@
-  fun ref get_margin_top(): I32 =>
-    GtkWidgetP.get_margin_top(this)

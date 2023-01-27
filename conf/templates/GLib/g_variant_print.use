@@ -1,1 +1,1 @@
-use @g_variant_print[Pointer[U8]](value': GVariant, type_annotate': I32)
+use @g_variant_print[Pointer[U8]](value': NullablePointer[GVariantT], type_annotate': I32)

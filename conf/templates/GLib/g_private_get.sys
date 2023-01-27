@@ -1,2 +1,2 @@
-  fun get(key': GPrivate): Pointer[None] tag =>
+  fun get(key': NullablePointer[GPrivateT]): Pointer[None] tag =>
     @g_private_get(key')

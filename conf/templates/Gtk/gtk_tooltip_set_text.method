@@ -1,2 +1,0 @@
-  fun ref set_text(text': String): None =>
-    GtkTooltipP.set_text(this, text')

@@ -1,2 +1,0 @@
-  fun swap(tree_store': GtkTreeStore, a': GtkTreeIter, b': GtkTreeIter): None =>
-    @gtk_tree_store_swap(tree_store', a', b')

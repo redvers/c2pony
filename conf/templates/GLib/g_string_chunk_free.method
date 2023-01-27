@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GStringChunkP.free(this)
+    GStringChunkP.free(this.ptr)

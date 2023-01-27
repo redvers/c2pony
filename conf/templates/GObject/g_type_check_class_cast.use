@@ -1,1 +1,1 @@
-use @g_type_check_class_cast[GTypeClass](g_class': GTypeClass, is_a_type': U64)
+use @g_type_check_class_cast[NullablePointer[GTypeClassT]](g_class': NullablePointer[GTypeClassT], is_a_type': U64)

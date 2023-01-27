@@ -1,2 +1,2 @@
-  fun hash(str': GString): U32 =>
+  fun hash(str': NullablePointer[GStringT]): U32 =>
     @g_string_hash(str')

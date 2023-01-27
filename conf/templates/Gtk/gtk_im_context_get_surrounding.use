@@ -1,1 +1,0 @@
-use @gtk_im_context_get_surrounding[I32](context': GtkIMContext, text': Pointer[Pointer[U8]] tag, cursor_index': Pointer[I32] tag)

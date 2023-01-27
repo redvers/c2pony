@@ -1,2 +1,2 @@
-  fun free_to_bytes(string': GString): GBytes =>
+  fun free_to_bytes(string': NullablePointer[GStringT]): NullablePointer[GBytesT] =>
     @g_string_free_to_bytes(string')

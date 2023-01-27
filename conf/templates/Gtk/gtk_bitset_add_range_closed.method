@@ -1,2 +1,0 @@
-  fun ref add_range_closed(first': U32, last': U32): None =>
-    GtkBitsetP.add_range_closed(this, first', last')

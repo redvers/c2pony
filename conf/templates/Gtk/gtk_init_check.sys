@@ -1,2 +1,0 @@
-  fun init_check(): I32 =>
-    @gtk_init_check()

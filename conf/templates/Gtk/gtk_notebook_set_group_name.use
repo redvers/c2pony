@@ -1,1 +1,0 @@
-use @gtk_notebook_set_group_name[None](notebook': GtkNotebook, group_name': Pointer[U8] tag)

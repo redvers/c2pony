@@ -1,1 +1,0 @@
-use @gtk_paper_size_get_display_name[Pointer[U8]](size': GtkPaperSize)

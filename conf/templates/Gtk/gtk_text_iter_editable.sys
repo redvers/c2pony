@@ -1,2 +1,0 @@
-  fun editable(iter': GtkTextIter, default_setting': I32): I32 =>
-    @gtk_text_iter_editable(iter', default_setting')

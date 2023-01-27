@@ -1,2 +1,0 @@
-  fun ref get_hostname(): String iso^ =>
-    GSrvTargetP.get_hostname(this)

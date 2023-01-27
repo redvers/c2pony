@@ -1,2 +1,2 @@
-  fun get(hook_list': GHookList, hook_id': U64): GHook =>
+  fun get(hook_list': NullablePointer[GHookListT], hook_id': U64): NullablePointer[GHookT] =>
     @g_hook_get(hook_list', hook_id')

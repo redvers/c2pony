@@ -1,2 +1,2 @@
-  fun pending(context': GMainContext): I32 =>
+  fun pending(context': NullablePointer[GMainContextT]): I32 =>
     @g_main_context_pending(context')

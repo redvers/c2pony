@@ -1,2 +1,0 @@
-  fun ref set_uint64(key': String, value': U64): I32 =>
-    GSettingsP.set_uint64(this, key', value')

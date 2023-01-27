@@ -1,2 +1,0 @@
-  fun ref connect(connectable': GSocketConnectable, cancellable': GCancellable, error': GError): GSocketConnection =>
-    GSocketClientP.connect(this, connectable', cancellable', error')

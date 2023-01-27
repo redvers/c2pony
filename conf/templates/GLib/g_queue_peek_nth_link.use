@@ -1,1 +1,1 @@
-use @g_queue_peek_nth_link[GList](queue': GQueue, n': U32)
+use @g_queue_peek_nth_link[NullablePointer[GListT]](queue': NullablePointer[GQueueT], n': U32)

@@ -1,2 +1,0 @@
-  fun ref set_selected(position': U32): None =>
-    GtkSingleSelectionP.set_selected(this, position')

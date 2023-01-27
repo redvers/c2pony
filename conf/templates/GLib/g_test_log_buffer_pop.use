@@ -1,1 +1,1 @@
-use @g_test_log_buffer_pop[anon_2387](tbuffer': anon_2389)
+use @g_test_log_buffer_pop[NullablePointer[anon_2387T]](tbuffer': NullablePointer[anon_2389T])

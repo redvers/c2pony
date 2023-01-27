@@ -1,2 +1,0 @@
-  fun check_connect_result(socket': GSocket, error': GError): I32 =>
-    @g_socket_check_connect_result(socket', addressof error'.ptr)

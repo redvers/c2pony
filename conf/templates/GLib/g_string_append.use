@@ -1,1 +1,1 @@
-use @g_string_append[GString](string': GString, val': Pointer[U8] tag)
+use @g_string_append[NullablePointer[GStringT]](string': NullablePointer[GStringT], val': Pointer[U8] tag)

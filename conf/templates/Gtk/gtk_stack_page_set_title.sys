@@ -1,2 +1,0 @@
-  fun set_title(self': GtkStackPage, setting': String): None =>
-    @gtk_stack_page_set_title(self', setting'.cstring())

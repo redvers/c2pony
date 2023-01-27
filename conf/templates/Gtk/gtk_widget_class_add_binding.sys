@@ -1,2 +1,0 @@
-  fun add_binding(widget_class': GtkWidgetClass, keyval': U32, mods': U32, callback': GtkShortcutFunc, format_string': String, ...): None =>
-    @gtk_widget_class_add_binding(widget_class', keyval', mods', callback', format_string'.cstring(), ...)

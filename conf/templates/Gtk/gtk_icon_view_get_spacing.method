@@ -1,2 +1,0 @@
-  fun ref get_spacing(): I32 =>
-    GtkIconViewP.get_spacing(this)

@@ -1,2 +1,2 @@
   fun ref hash(): U32 =>
-    GDateTimeP.hash(this)
+    GDateTimeP.hash(this.ptr)

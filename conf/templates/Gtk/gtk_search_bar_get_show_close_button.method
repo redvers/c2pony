@@ -1,2 +1,0 @@
-  fun ref get_show_close_button(): I32 =>
-    GtkSearchBarP.get_show_close_button(this)

@@ -1,2 +1,0 @@
-  fun ref create_closure(function_name': String, flags': U32, object': GObjectI, error': GError): GClosure =>
-    GtkBuilderP.create_closure(this, function_name', flags', object', error')

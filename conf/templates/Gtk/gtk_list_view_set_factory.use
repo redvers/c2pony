@@ -1,1 +1,0 @@
-use @gtk_list_view_set_factory[None](self': GtkListView, factory': GtkListItemFactory)

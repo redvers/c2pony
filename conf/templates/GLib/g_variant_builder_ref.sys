@@ -1,2 +1,2 @@
-  fun ref(builder': GVariantBuilder): GVariantBuilder =>
+  fun ref(builder': NullablePointer[GVariantBuilderT]): NullablePointer[GVariantBuilderT] =>
     @g_variant_builder_ref(builder')

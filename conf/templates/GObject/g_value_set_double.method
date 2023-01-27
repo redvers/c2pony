@@ -1,2 +1,2 @@
   fun ref set_double(v_double': F64): None =>
-    GValueP.set_double(this, v_double')
+    GValueP.set_double(this.ptr, v_double')

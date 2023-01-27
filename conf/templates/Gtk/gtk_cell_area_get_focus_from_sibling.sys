@@ -1,2 +1,0 @@
-  fun get_focus_from_sibling(area': GtkCellArea, renderer': GtkCellRenderer): GtkCellRenderer =>
-    @gtk_cell_area_get_focus_from_sibling(area', renderer')

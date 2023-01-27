@@ -1,1 +1,1 @@
-use @g_date_time_new_now_utc[GDateTime]()
+use @g_date_time_new_now_utc[NullablePointer[GDateTimeT]]()

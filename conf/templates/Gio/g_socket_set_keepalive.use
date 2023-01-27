@@ -1,1 +1,0 @@
-use @g_socket_set_keepalive[None](socket': GSocket, keepalive': I32)

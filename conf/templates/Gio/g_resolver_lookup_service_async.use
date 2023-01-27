@@ -1,1 +1,0 @@
-use @g_resolver_lookup_service_async[None](resolver': GResolver, service': Pointer[U8] tag, protocol': Pointer[U8] tag, domain': Pointer[U8] tag, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

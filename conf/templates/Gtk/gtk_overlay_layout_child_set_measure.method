@@ -1,2 +1,0 @@
-  fun ref set_measure(measure': I32): None =>
-    GtkOverlayLayoutChildP.set_measure(this, measure')

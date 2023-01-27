@@ -1,2 +1,2 @@
-  fun is_end(iter': GSequenceNode): I32 =>
+  fun is_end(iter': NullablePointer[GSequenceNodeT]): I32 =>
     @g_sequence_iter_is_end(iter')

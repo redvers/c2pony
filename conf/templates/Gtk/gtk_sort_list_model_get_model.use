@@ -1,1 +1,0 @@
-use @gtk_sort_list_model_get_model[GListModel](self': GtkSortListModel)

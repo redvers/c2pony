@@ -1,1 +1,0 @@
-use @gtk_string_list_new[GtkStringList](strings': Pointer[Pointer[U8]] tag)

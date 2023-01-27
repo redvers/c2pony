@@ -1,2 +1,2 @@
-  fun ref get_bytes(): GBytes =>
-    GMappedFileP.get_bytes(this)
+  fun ref get_bytes(): NullablePointer[GBytesT] =>
+    GMappedFileP.get_bytes(this.ptr)

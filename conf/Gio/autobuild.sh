@@ -8,6 +8,8 @@ echo > ../test/Gio/GApplication.pony
 cat ../templates/Gio/GApplication.class >> ../test/Gio/GApplication.pony
 echo > ../test/Gio/GApplicationI.pony
 cat ../templates/Gio/GApplicationI.classinterface >> ../test/Gio/GApplicationI.pony
+echo > ../test/Gio/GApplicationT.pony
+cat ../templates/Gio/GApplicationT.struct >> ../test/Gio/GApplicationT.pony
 cat ../templates/Gio/g_application_run.method >> ../test/Gio/GApplicationI.pony
 echo > ../test/Gio/GApplicationP.pony
 cat ../templates/Gio/g_application_run.use >> ../test/Gio/GApplicationP.pony
@@ -17,6 +19,8 @@ echo > ../test/Gio/GMountOperation.pony
 cat ../templates/Gio/GMountOperation.class >> ../test/Gio/GMountOperation.pony
 echo > ../test/Gio/GMountOperationI.pony
 cat ../templates/Gio/GMountOperationI.classinterface >> ../test/Gio/GMountOperationI.pony
+echo > ../test/Gio/GMountOperationT.pony
+cat ../templates/Gio/GMountOperationT.struct >> ../test/Gio/GMountOperationT.pony
 echo > ../test/Gio/GMountOperationP.pony
 cat ../templates/Gio/GMountOperationP.primitive >> ../test/Gio/GMountOperationP.pony
 echo > ../test/Gio/GActionEntry.pony

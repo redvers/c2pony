@@ -1,2 +1,0 @@
-  fun is_closed(stream': GInputStream): I32 =>
-    @g_input_stream_is_closed(stream')

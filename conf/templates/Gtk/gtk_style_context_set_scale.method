@@ -1,2 +1,0 @@
-  fun ref set_scale(scale': I32): None =>
-    GtkStyleContextP.set_scale(this, scale')

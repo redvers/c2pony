@@ -1,2 +1,0 @@
-  fun ref set_fixed_width(fixed_width': I32): None =>
-    GtkTreeViewColumnP.set_fixed_width(this, fixed_width')

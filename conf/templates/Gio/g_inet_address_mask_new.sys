@@ -1,2 +1,0 @@
-  fun new(addr': GInetAddress, length': U32, error': GError): GInetAddressMask =>
-    @g_inet_address_mask_new(addr', length', addressof error'.ptr)

@@ -1,2 +1,2 @@
-  fun replace(key': GPrivate, value': Pointer[None] tag): None =>
+  fun replace(key': NullablePointer[GPrivateT], value': Pointer[None] tag): None =>
     @g_private_replace(key', value')

@@ -1,2 +1,0 @@
-  fun get_attribute_byte_string(info': GFileInfo, attribute': String): String iso^ =>
-    String.from_cstring(@g_file_info_get_attribute_byte_string(info', attribute'.cstring())).clone()

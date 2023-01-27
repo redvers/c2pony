@@ -1,2 +1,2 @@
-  fun get_uint64(value': GValue): U64 =>
+  fun get_uint64(value': NullablePointer[GValueT]): U64 =>
     @g_value_get_uint64(value')

@@ -1,2 +1,2 @@
-  fun log_structured_array(log_level': I32, fields': GLogField, n_fields': U64): None =>
+  fun log_structured_array(log_level': I32, fields': NullablePointer[GLogFieldT], n_fields': U64): None =>
     @g_log_structured_array(log_level', fields', n_fields')

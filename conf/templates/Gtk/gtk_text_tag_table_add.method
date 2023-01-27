@@ -1,2 +1,0 @@
-  fun ref add(tag': GtkTextTag): I32 =>
-    GtkTextTagTableP.add(this, tag')

@@ -1,2 +1,0 @@
-  fun ref get_min_columns(): U32 =>
-    GtkGridViewP.get_min_columns(this)

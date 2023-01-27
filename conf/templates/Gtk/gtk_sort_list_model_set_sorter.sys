@@ -1,2 +1,0 @@
-  fun set_sorter(self': GtkSortListModel, sorter': GtkSorter): None =>
-    @gtk_sort_list_model_set_sorter(self', sorter')

@@ -1,2 +1,0 @@
-  fun ref get_vexpand(): I32 =>
-    GtkWidgetP.get_vexpand(this)

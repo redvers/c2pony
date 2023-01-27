@@ -1,2 +1,0 @@
-  fun ref get_context(): GdkGLContext =>
-    GtkGLAreaP.get_context(this)

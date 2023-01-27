@@ -1,2 +1,0 @@
-  fun ref set_decorated(setting': I32): None =>
-    GtkWindowP.set_decorated(this, setting')

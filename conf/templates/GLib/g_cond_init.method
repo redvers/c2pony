@@ -1,2 +1,2 @@
   fun ref init(): None =>
-    GCondP.init(this)
+    GCondP.init(this.ptr)

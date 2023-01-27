@@ -1,2 +1,2 @@
   fun ref invoke(function': GSourceFunc, data': Pointer[None] tag): None =>
-    GMainContextP.invoke(this, function', data')
+    GMainContextP.invoke(this.ptr, function', data')

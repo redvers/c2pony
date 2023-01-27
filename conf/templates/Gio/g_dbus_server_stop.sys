@@ -1,2 +1,0 @@
-  fun stop(server': GDBusServer): None =>
-    @g_dbus_server_stop(server')

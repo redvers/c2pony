@@ -1,2 +1,0 @@
-  fun ref ref(): GDBusPropertyInfo =>
-    GDBusPropertyInfoP.ref(this)

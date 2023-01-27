@@ -1,1 +1,0 @@
-use @gtk_icon_view_set_item_orientation[None](icon_view': GtkIconView, orientation': U32)

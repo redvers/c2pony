@@ -1,2 +1,0 @@
-  fun set_size_request(widget': GtkWidgetI, width': I32, height': I32): None =>
-    @gtk_widget_set_size_request(widget'.getptr(), width', height')

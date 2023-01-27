@@ -1,2 +1,0 @@
-  fun create_child_anchor(buffer': GtkTextBuffer, iter': GtkTextIter): GtkTextChildAnchor =>
-    @gtk_text_buffer_create_child_anchor(buffer', iter')

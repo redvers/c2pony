@@ -1,2 +1,0 @@
-  fun ref set_name(setting': String): None =>
-    GtkStackPageP.set_name(this, setting')

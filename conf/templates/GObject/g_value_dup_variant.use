@@ -1,1 +1,1 @@
-use @g_value_dup_variant[GVariant](value': GValue)
+use @g_value_dup_variant[NullablePointer[GVariantT]](value': NullablePointer[GValueT])

@@ -1,2 +1,2 @@
-  fun lookup(tree': GTree, key': Pointer[None] tag): Pointer[None] tag =>
+  fun lookup(tree': NullablePointer[GTreeT], key': Pointer[None] tag): Pointer[None] tag =>
     @g_tree_lookup(tree', key')

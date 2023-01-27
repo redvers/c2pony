@@ -1,2 +1,0 @@
-  fun ref send_fd(fd': I32, cancellable': GCancellable, error': GError): I32 =>
-    GUnixConnectionP.send_fd(this, fd', cancellable', error')

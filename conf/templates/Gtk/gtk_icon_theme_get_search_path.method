@@ -1,2 +1,0 @@
-  fun ref get_search_path(): Pointer[Pointer[U8]] tag =>
-    GtkIconThemeP.get_search_path(this)

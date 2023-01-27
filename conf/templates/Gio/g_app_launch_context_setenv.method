@@ -1,2 +1,0 @@
-  fun ref setenv(variable': String, value': String): None =>
-    GAppLaunchContextP.setenv(this, variable', value')

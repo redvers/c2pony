@@ -1,2 +1,0 @@
-  fun ref get_scale_factor(): I32 =>
-    GtkWidgetP.get_scale_factor(this)

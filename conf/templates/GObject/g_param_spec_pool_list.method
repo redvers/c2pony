@@ -1,2 +1,2 @@
-  fun ref list(owner_type': U64, n_pspecs_p': Pointer[U32] tag): Pointer[GParamSpec] =>
-    GParamSpecPoolP.list(this, owner_type', n_pspecs_p')
+  fun ref list(owner_type': U64, n_pspecs_p': Pointer[U32] tag): Pointer[NullablePointer[GParamSpecT]] =>
+    GParamSpecPoolP.list(this.ptr, owner_type', n_pspecs_p')

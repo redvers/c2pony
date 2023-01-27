@@ -1,2 +1,0 @@
-  fun starts_sentence(iter': GtkTextIter): I32 =>
-    @gtk_text_iter_starts_sentence(iter')

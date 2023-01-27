@@ -1,2 +1,0 @@
-  fun ref is_ipp(): I32 =>
-    GtkPaperSizeP.is_ipp(this)

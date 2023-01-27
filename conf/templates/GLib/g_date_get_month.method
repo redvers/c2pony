@@ -1,2 +1,2 @@
   fun ref get_month(): U32 =>
-    GDateP.get_month(this)
+    GDateP.get_month(this.ptr)

@@ -1,1 +1,0 @@
-use @g_file_info_set_attribute_uint32[None](info': GFileInfo, attribute': Pointer[U8] tag, attr_value': U32)

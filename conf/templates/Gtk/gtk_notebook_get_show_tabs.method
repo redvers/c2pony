@@ -1,2 +1,0 @@
-  fun ref get_show_tabs(): I32 =>
-    GtkNotebookP.get_show_tabs(this)

@@ -1,1 +1,1 @@
-use @g_idle_source_new[GSource]()
+use @g_idle_source_new[NullablePointer[GSourceT]]()

@@ -1,2 +1,0 @@
-  fun get_num_fallbacks(converter': GCharsetConverter): U32 =>
-    @g_charset_converter_get_num_fallbacks(converter')

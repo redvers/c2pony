@@ -1,2 +1,2 @@
-  fun get_title(bookmark': GBookmarkFile, uri': String, error': GError): String iso^ =>
-    String.from_cstring(@g_bookmark_file_get_title(bookmark', uri'.cstring(), addressof error'.ptr)).clone()
+  fun get_title(bookmark': NullablePointer[GBookmarkFileT], uri': String, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_bookmark_file_get_title(bookmark', uri'.cstring(), error')).clone()

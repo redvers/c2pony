@@ -1,2 +1,0 @@
-  fun new_with_path(schema_id': String, path': String): GSettings =>
-    @g_settings_new_with_path(schema_id'.cstring(), path'.cstring())

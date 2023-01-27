@@ -1,1 +1,1 @@
-use @g_queue_push_nth_link[None](queue': GQueue, n': I32, link': GList)
+use @g_queue_push_nth_link[None](queue': NullablePointer[GQueueT], n': I32, link': NullablePointer[GListT])

@@ -1,2 +1,0 @@
-  fun get_layout(self': GtkLabel): PangoLayout =>
-    @gtk_label_get_layout(self')

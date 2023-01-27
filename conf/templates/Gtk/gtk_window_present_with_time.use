@@ -1,1 +1,0 @@
-use @gtk_window_present_with_time[None](window': Pointer[GObjectP], timestamp': U32)

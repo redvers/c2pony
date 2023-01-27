@@ -1,2 +1,0 @@
-  fun signal_unsubscribe(connection': GDBusConnection, subscription_id': U32): None =>
-    @g_dbus_connection_signal_unsubscribe(connection', subscription_id')

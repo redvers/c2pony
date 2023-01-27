@@ -1,2 +1,0 @@
-  fun ref set_attributes(attrs': PangoAttrList): None =>
-    GtkEntryP.set_attributes(this, attrs')

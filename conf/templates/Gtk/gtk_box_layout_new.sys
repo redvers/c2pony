@@ -1,2 +1,0 @@
-  fun new(orientation': U32): GtkLayoutManager =>
-    @gtk_box_layout_new(orientation')

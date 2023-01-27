@@ -1,2 +1,0 @@
-  fun get_deleted(anchor': GtkTextChildAnchor): I32 =>
-    @gtk_text_child_anchor_get_deleted(anchor')

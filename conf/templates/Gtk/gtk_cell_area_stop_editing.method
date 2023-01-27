@@ -1,2 +1,0 @@
-  fun ref stop_editing(canceled': I32): None =>
-    GtkCellAreaP.stop_editing(this, canceled')

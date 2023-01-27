@@ -1,2 +1,0 @@
-  fun set_widget(self': GtkWidgetPaintable, widget': GtkWidgetI): None =>
-    @gtk_widget_paintable_set_widget(self', widget'.getptr())

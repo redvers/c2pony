@@ -1,2 +1,0 @@
-  fun get_pending(self': GtkFilterListModel): U32 =>
-    @gtk_filter_list_model_get_pending(self')

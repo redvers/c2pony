@@ -1,2 +1,0 @@
-  fun set_license(about': GtkAboutDialog, license': String): None =>
-    @gtk_about_dialog_set_license(about', license'.cstring())

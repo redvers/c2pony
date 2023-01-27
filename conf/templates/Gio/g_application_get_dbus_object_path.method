@@ -1,2 +1,0 @@
-  fun ref get_dbus_object_path(): String iso^ =>
-    GApplicationP.get_dbus_object_path(this)

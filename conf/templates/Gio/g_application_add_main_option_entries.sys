@@ -1,2 +1,0 @@
-  fun add_main_option_entries(application': GApplicationI, entries': GOptionEntry): None =>
-    @g_application_add_main_option_entries(application'.getptr(), entries')

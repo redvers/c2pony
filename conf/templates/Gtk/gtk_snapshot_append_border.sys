@@ -1,2 +1,0 @@
-  fun append_border(snapshot': GdkSnapshot, outline': GskRoundedRect, border_width': Pointer[F32] tag, border_color': GdkRGBA): None =>
-    @gtk_snapshot_append_border(snapshot', outline', border_width', border_color')

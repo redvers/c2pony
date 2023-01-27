@@ -1,2 +1,0 @@
-  fun get_debug_flags(): U32 =>
-    @gtk_get_debug_flags()

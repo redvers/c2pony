@@ -1,2 +1,2 @@
-  fun ref(closure': GClosure): GClosure =>
+  fun ref(closure': NullablePointer[GClosureT]): NullablePointer[GClosureT] =>
     @g_closure_ref(closure')

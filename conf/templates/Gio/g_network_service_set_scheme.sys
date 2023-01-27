@@ -1,2 +1,0 @@
-  fun set_scheme(srv': GNetworkService, scheme': String): None =>
-    @g_network_service_set_scheme(srv', scheme'.cstring())

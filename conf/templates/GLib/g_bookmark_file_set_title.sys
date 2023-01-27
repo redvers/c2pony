@@ -1,2 +1,2 @@
-  fun set_title(bookmark': GBookmarkFile, uri': String, title': String): None =>
+  fun set_title(bookmark': NullablePointer[GBookmarkFileT], uri': String, title': String): None =>
     @g_bookmark_file_set_title(bookmark', uri'.cstring(), title'.cstring())

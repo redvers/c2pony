@@ -1,2 +1,0 @@
-  fun ref get_state_flags(): U32 =>
-    GtkWidgetP.get_state_flags(this)

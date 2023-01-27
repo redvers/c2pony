@@ -1,1 +1,0 @@
-use @g_file_info_set_edit_name[None](info': GFileInfo, edit_name': Pointer[U8] tag)

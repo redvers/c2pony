@@ -1,1 +1,1 @@
-use @g_source_modify_unix_fd[None](source': GSource, tag': Pointer[None] tag, new_events': U32)
+use @g_source_modify_unix_fd[None](source': NullablePointer[GSourceT], tag': Pointer[None] tag, new_events': U32)

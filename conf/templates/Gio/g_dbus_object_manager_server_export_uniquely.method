@@ -1,2 +1,0 @@
-  fun ref export_uniquely(object': GDBusObjectSkeleton): None =>
-    GDBusObjectManagerServerP.export_uniquely(this, object')

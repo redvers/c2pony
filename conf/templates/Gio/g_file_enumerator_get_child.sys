@@ -1,2 +1,0 @@
-  fun get_child(enumerator': GFileEnumerator, info': GFileInfo): GFile =>
-    @g_file_enumerator_get_child(enumerator', info')

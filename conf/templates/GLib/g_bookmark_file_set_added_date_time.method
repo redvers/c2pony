@@ -1,2 +1,2 @@
-  fun ref set_added_date_time(uri': String, added': GDateTime): None =>
-    GBookmarkFileP.set_added_date_time(this, uri', added')
+  fun ref set_added_date_time(uri': String, added': NullablePointer[GDateTimeT]): None =>
+    GBookmarkFileP.set_added_date_time(this.ptr, uri', added')

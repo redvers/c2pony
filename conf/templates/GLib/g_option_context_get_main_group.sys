@@ -1,2 +1,2 @@
-  fun get_main_group(context': GOptionContext): GOptionGroup =>
+  fun get_main_group(context': NullablePointer[GOptionContextT]): NullablePointer[GOptionGroupT] =>
     @g_option_context_get_main_group(context')

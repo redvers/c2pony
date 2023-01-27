@@ -1,2 +1,0 @@
-  fun ref get_value_as_int(): I32 =>
-    GtkSpinButtonP.get_value_as_int(this)

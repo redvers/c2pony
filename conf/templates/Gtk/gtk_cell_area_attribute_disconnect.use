@@ -1,1 +1,0 @@
-use @gtk_cell_area_attribute_disconnect[None](area': GtkCellArea, renderer': GtkCellRenderer, attribute': Pointer[U8] tag)

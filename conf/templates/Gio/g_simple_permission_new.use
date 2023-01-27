@@ -1,1 +1,0 @@
-use @g_simple_permission_new[GPermission](allowed': I32)

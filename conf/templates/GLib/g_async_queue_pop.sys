@@ -1,2 +1,2 @@
-  fun pop(queue': GAsyncQueue): Pointer[None] tag =>
+  fun pop(queue': NullablePointer[GAsyncQueueT]): Pointer[None] tag =>
     @g_async_queue_pop(queue')

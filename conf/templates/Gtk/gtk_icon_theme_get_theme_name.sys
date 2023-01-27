@@ -1,2 +1,0 @@
-  fun get_theme_name(self': GtkIconTheme): String iso^ =>
-    String.from_cstring(@gtk_icon_theme_get_theme_name(self')).clone()

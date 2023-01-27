@@ -1,2 +1,0 @@
-  fun ref set_single_line_mode(single_line_mode': I32): None =>
-    GtkLabelP.set_single_line_mode(this, single_line_mode')

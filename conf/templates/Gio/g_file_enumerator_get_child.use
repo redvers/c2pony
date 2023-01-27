@@ -1,1 +1,0 @@
-use @g_file_enumerator_get_child[GFile](enumerator': GFileEnumerator, info': GFileInfo)

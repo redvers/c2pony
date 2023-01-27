@@ -1,2 +1,0 @@
-  fun ref launch_failed(startup_notify_id': String): None =>
-    GAppLaunchContextP.launch_failed(this, startup_notify_id')

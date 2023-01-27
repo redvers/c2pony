@@ -1,2 +1,0 @@
-  fun unref(key': GSettingsSchemaKey): None =>
-    @g_settings_schema_key_unref(key')

@@ -1,2 +1,0 @@
-  fun ref backward_to_tag_toggle(tag': GtkTextTag): I32 =>
-    GtkTextIterP.backward_to_tag_toggle(this, tag')

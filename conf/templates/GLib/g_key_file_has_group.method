@@ -1,2 +1,2 @@
   fun ref has_group(group_name': String): I32 =>
-    GKeyFileP.has_group(this, group_name')
+    GKeyFileP.has_group(this.ptr, group_name')

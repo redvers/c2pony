@@ -1,2 +1,0 @@
-  fun set_default(resolver': GResolver): None =>
-    @g_resolver_set_default(resolver')

@@ -1,1 +1,0 @@
-use @gtk_font_button_set_modal[None](font_button': GtkFontButton, modal': I32)

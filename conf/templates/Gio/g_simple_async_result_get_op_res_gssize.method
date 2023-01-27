@@ -1,2 +1,0 @@
-  fun ref get_op_res_gssize(): I64 =>
-    GSimpleAsyncResultP.get_op_res_gssize(this)

@@ -1,2 +1,0 @@
-  fun ref set_attributes(attributes': String): None =>
-    GtkDirectoryListP.set_attributes(this, attributes')

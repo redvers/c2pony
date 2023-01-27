@@ -1,2 +1,2 @@
-  fun add_invalidate_notifier(closure': GClosure, notify_data': Pointer[None] tag, notify_func': GClosureNotify): None =>
+  fun add_invalidate_notifier(closure': NullablePointer[GClosureT], notify_data': Pointer[None] tag, notify_func': GClosureNotify): None =>
     @g_closure_add_invalidate_notifier(closure', notify_data', notify_func')

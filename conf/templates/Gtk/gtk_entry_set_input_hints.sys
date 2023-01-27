@@ -1,2 +1,0 @@
-  fun set_input_hints(entry': GtkEntry, hints': U32): None =>
-    @gtk_entry_set_input_hints(entry', hints')

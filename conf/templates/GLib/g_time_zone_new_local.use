@@ -1,1 +1,1 @@
-use @g_time_zone_new_local[GTimeZone]()
+use @g_time_zone_new_local[NullablePointer[GTimeZoneT]]()

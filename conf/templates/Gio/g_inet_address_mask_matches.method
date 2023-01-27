@@ -1,2 +1,0 @@
-  fun ref matches(address': GInetAddress): I32 =>
-    GInetAddressMaskP.matches(this, address')

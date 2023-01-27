@@ -1,2 +1,0 @@
-  fun set_visible_child_name(stack': GtkStack, name': String): None =>
-    @gtk_stack_set_visible_child_name(stack', name'.cstring())

@@ -1,2 +1,2 @@
-  fun ref append(val': String): GString =>
-    GStringP.append(this, val')
+  fun ref append(val': String): NullablePointer[GStringT] =>
+    GStringP.append(this.ptr, val')

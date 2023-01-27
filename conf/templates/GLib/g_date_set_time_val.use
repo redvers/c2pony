@@ -1,1 +1,1 @@
-use @g_date_set_time_val[None](date': GDate, timeval': GTimeVal)
+use @g_date_set_time_val[None](date': NullablePointer[GDateT], timeval': NullablePointer[GTimeValT])

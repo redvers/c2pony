@@ -1,2 +1,0 @@
-  fun get_connection(interface': GDBusInterfaceSkeleton): GDBusConnection =>
-    @g_dbus_interface_skeleton_get_connection(interface')

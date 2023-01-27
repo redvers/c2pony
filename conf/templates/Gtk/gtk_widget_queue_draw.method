@@ -1,2 +1,0 @@
-  fun ref queue_draw(): None =>
-    GtkWidgetP.queue_draw(this)

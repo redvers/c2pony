@@ -1,1 +1,0 @@
-use @gtk_menu_button_get_direction[U32](menu_button': GtkMenuButton)

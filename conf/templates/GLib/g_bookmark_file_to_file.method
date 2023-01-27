@@ -1,2 +1,2 @@
-  fun ref to_file(filename': String, error': GError): I32 =>
-    GBookmarkFileP.to_file(this, filename', error')
+  fun ref to_file(filename': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GBookmarkFileP.to_file(this.ptr, filename', error')

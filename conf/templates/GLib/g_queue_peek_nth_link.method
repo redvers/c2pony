@@ -1,2 +1,2 @@
-  fun ref peek_nth_link(n': U32): GList =>
-    GQueueP.peek_nth_link(this, n')
+  fun ref peek_nth_link(n': U32): NullablePointer[GListT] =>
+    GQueueP.peek_nth_link(this.ptr, n')

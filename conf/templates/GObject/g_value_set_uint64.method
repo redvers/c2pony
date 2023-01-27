@@ -1,2 +1,2 @@
   fun ref set_uint64(v_uint64': U64): None =>
-    GValueP.set_uint64(this, v_uint64')
+    GValueP.set_uint64(this.ptr, v_uint64')

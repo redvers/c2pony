@@ -1,2 +1,0 @@
-  fun ref set_column_spacing(spacing': U32): None =>
-    GtkGridLayoutP.set_column_spacing(this, spacing')

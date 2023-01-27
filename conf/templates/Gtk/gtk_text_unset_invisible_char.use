@@ -1,1 +1,0 @@
-use @gtk_text_unset_invisible_char[None](self': GtkText)

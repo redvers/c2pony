@@ -1,2 +1,0 @@
-  fun get_locale_direction(): U32 =>
-    @gtk_get_locale_direction()

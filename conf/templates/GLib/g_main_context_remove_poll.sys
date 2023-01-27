@@ -1,2 +1,2 @@
-  fun remove_poll(context': GMainContext, fd': GPollFD): None =>
+  fun remove_poll(context': NullablePointer[GMainContextT], fd': NullablePointer[GPollFDT]): None =>
     @g_main_context_remove_poll(context', fd')

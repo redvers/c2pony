@@ -1,2 +1,2 @@
-  fun pattern_match_string(pspec': GPatternSpec, string': String): I32 =>
+  fun pattern_match_string(pspec': NullablePointer[GPatternSpecT], string': String): I32 =>
     @g_pattern_match_string(pspec', string'.cstring())

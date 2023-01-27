@@ -1,2 +1,2 @@
-  fun ref(uri': GUri): GUri =>
+  fun ref(uri': NullablePointer[GUriT]): NullablePointer[GUriT] =>
     @g_uri_ref(uri')

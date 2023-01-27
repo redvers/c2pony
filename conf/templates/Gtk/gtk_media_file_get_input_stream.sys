@@ -1,2 +1,0 @@
-  fun get_input_stream(self': GtkMediaFile): GInputStream =>
-    @gtk_media_file_get_input_stream(self')

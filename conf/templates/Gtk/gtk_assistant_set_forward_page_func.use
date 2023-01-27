@@ -1,1 +1,0 @@
-use @gtk_assistant_set_forward_page_func[None](assistant': GtkAssistant, page_func': GtkAssistantPageFunc, data': Pointer[None] tag, destroy': GDestroyNotify)

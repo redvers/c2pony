@@ -1,2 +1,0 @@
-  fun ref range_check(value': GVariant): I32 =>
-    GSettingsSchemaKeyP.range_check(this, value')

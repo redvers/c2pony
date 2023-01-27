@@ -1,2 +1,0 @@
-  fun ref compare(item1': Pointer[None] tag, item2': Pointer[None] tag): I32 =>
-    GtkSorterP.compare(this, item1', item2')

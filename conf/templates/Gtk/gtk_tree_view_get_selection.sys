@@ -1,2 +1,0 @@
-  fun get_selection(tree_view': GtkTreeView): GtkTreeSelection =>
-    @gtk_tree_view_get_selection(tree_view')

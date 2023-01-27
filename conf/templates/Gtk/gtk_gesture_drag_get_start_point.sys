@@ -1,2 +1,0 @@
-  fun get_start_point(gesture': GtkGestureDrag, x': Pointer[F64] tag, y': Pointer[F64] tag): I32 =>
-    @gtk_gesture_drag_get_start_point(gesture', x', y')

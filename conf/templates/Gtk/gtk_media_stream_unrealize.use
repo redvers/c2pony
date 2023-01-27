@@ -1,1 +1,0 @@
-use @gtk_media_stream_unrealize[None](self': GtkMediaStream, surface': GdkSurface)

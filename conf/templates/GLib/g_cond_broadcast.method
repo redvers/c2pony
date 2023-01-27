@@ -1,2 +1,2 @@
   fun ref broadcast(): None =>
-    GCondP.broadcast(this)
+    GCondP.broadcast(this.ptr)

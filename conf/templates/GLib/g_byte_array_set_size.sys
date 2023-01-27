@@ -1,2 +1,2 @@
-  fun set_size(array': GByteArray, length': U32): GByteArray =>
+  fun set_size(array': NullablePointer[GByteArrayT], length': U32): NullablePointer[GByteArrayT] =>
     @g_byte_array_set_size(array', length')

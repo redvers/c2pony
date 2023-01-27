@@ -1,2 +1,2 @@
-  fun to_unix(datetime': GDateTime): I64 =>
+  fun to_unix(datetime': NullablePointer[GDateTimeT]): I64 =>
     @g_date_time_to_unix(datetime')

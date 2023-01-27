@@ -1,2 +1,0 @@
-  fun get_msg_type(message': GSocketControlMessage): I32 =>
-    @g_socket_control_message_get_msg_type(message')

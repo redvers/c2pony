@@ -1,2 +1,2 @@
-  fun prefix_error(err': GError, format': String, ...): None =>
-    @g_prefix_error(addressof err'.ptr, format'.cstring(), ...)
+  fun prefix_error(err': Pointer[NullablePointer[GErrorT]], format': String, ...): None =>
+    @g_prefix_error(err', format'.cstring(), ...)

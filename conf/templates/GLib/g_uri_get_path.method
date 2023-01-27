@@ -1,2 +1,2 @@
   fun ref get_path(): String iso^ =>
-    GUriP.get_path(this)
+    GUriP.get_path(this.ptr)

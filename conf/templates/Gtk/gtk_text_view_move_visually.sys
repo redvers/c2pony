@@ -1,2 +1,0 @@
-  fun move_visually(text_view': GtkTextView, iter': GtkTextIter, count': I32): I32 =>
-    @gtk_text_view_move_visually(text_view', iter', count')

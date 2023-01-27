@@ -1,2 +1,0 @@
-  fun get_icon_paintable(entry': GtkEntry, icon_pos': U32): GdkPaintable =>
-    @gtk_entry_get_icon_paintable(entry', icon_pos')

@@ -1,2 +1,2 @@
-  fun new_array(element': GVariantType): GVariantType =>
-    @g_variant_type_new_array(element')
+  new new_array(element': NullablePointer[GVariantTypeT]) =>
+    ptr = @g_variant_type_new_array(element')

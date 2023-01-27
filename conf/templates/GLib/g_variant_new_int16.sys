@@ -1,2 +1,2 @@
-  fun new_int16(value': I16): GVariant =>
-    @g_variant_new_int16(value')
+  new new_int16(value': I16) =>
+    ptr = @g_variant_new_int16(value')

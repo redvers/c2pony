@@ -1,2 +1,0 @@
-  fun new_any(family': U32): GInetAddress =>
-    @g_inet_address_new_any(family')

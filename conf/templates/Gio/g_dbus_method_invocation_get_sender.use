@@ -1,1 +1,0 @@
-use @g_dbus_method_invocation_get_sender[Pointer[U8]](invocation': GDBusMethodInvocation)

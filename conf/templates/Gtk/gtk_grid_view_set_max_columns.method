@@ -1,2 +1,0 @@
-  fun ref set_max_columns(max_columns': U32): None =>
-    GtkGridViewP.set_max_columns(this, max_columns')

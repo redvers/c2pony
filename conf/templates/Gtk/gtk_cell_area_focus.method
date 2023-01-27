@@ -1,2 +1,0 @@
-  fun ref focus(direction': U32): I32 =>
-    GtkCellAreaP.focus(this, direction')

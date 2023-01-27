@@ -1,2 +1,0 @@
-  fun create_file_for_arg(cmdline': GApplicationCommandLine, arg': String): GFile =>
-    @g_application_command_line_create_file_for_arg(cmdline', arg'.cstring())

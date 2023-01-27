@@ -1,1 +1,0 @@
-use @gtk_shortcut_set_action[None](self': GtkShortcut, action': GtkShortcutAction)

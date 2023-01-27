@@ -1,1 +1,1 @@
-use @g_time_zone_get_offset[I32](tz': GTimeZone, interval': I32)
+use @g_time_zone_get_offset[I32](tz': NullablePointer[GTimeZoneT], interval': I32)

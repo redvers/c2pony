@@ -1,2 +1,0 @@
-  fun new_from_indicesv(indices': Pointer[I32] tag, length': U64): GtkTreePath =>
-    @gtk_tree_path_new_from_indicesv(indices', length')

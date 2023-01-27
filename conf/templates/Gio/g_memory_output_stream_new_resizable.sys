@@ -1,2 +1,0 @@
-  fun new_resizable(): GOutputStream =>
-    @g_memory_output_stream_new_resizable()

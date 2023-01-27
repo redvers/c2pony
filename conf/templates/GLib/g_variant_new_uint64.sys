@@ -1,2 +1,2 @@
-  fun new_uint64(value': U64): GVariant =>
-    @g_variant_new_uint64(value')
+  new new_uint64(value': U64) =>
+    ptr = @g_variant_new_uint64(value')

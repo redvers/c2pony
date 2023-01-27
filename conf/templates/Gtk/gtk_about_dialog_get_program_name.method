@@ -1,2 +1,0 @@
-  fun ref get_program_name(): String iso^ =>
-    GtkAboutDialogP.get_program_name(this)

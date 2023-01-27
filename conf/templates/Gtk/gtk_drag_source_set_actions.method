@@ -1,2 +1,0 @@
-  fun ref set_actions(actions': U32): None =>
-    GtkDragSourceP.set_actions(this, actions')

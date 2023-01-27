@@ -1,2 +1,2 @@
-  fun get_child_value(value': GVariant, index': U64): GVariant =>
+  fun get_child_value(value': NullablePointer[GVariantT], index': U64): NullablePointer[GVariantT] =>
     @g_variant_get_child_value(value', index')

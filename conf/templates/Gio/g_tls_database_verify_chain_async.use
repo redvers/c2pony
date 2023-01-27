@@ -1,1 +1,0 @@
-use @g_tls_database_verify_chain_async[None](self': GTlsDatabase, chain': GTlsCertificate, purpose': Pointer[U8] tag, identity': GSocketConnectable, interaction': GTlsInteraction, flags': U32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,1 +1,0 @@
-use @gtk_widget_class_get_accessible_role[U32](widget_class': GtkWidgetClass)

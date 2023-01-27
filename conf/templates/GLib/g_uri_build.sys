@@ -1,2 +1,2 @@
-  fun build(flags': U32, scheme': String, userinfo': String, host': String, port': I32, path': String, query': String, fragment': String): GUri =>
+  fun build(flags': U32, scheme': String, userinfo': String, host': String, port': I32, path': String, query': String, fragment': String): NullablePointer[GUriT] =>
     @g_uri_build(flags', scheme'.cstring(), userinfo'.cstring(), host'.cstring(), port', path'.cstring(), query'.cstring(), fragment'.cstring())

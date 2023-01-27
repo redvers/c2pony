@@ -1,2 +1,2 @@
   fun ref hash(): U32 =>
-    GBytesP.hash(this)
+    GBytesP.hash(this.ptr)

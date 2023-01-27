@@ -1,2 +1,0 @@
-  fun new_with_buffer(buffer': GtkTextBuffer): Pointer[GObjectP] =>
-@gtk_text_view_new_with_buffer(buffer')

@@ -1,2 +1,0 @@
-  fun ref get_visible(): I32 =>
-    GtkCellRendererP.get_visible(this)

@@ -1,2 +1,2 @@
-  fun datalist_get_flags(datalist': Pointer[GData]): U32 =>
+  fun datalist_get_flags(datalist': Pointer[NullablePointer[GDataT]]): U32 =>
     @g_datalist_get_flags(datalist')

@@ -1,2 +1,0 @@
-  fun ref set_focus_cell(renderer': GtkCellRenderer): None =>
-    GtkCellAreaP.set_focus_cell(this, renderer')

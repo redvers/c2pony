@@ -1,2 +1,0 @@
-  fun is_connected(connection': GSocketConnection): I32 =>
-    @g_socket_connection_is_connected(connection')

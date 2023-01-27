@@ -1,2 +1,0 @@
-  fun ref get_autoplay(): I32 =>
-    GtkVideoP.get_autoplay(this)

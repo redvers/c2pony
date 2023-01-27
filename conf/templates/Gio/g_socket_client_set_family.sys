@@ -1,2 +1,0 @@
-  fun set_family(client': GSocketClient, family': U32): None =>
-    @g_socket_client_set_family(client', family')

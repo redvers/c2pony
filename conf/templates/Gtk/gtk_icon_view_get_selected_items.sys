@@ -1,2 +1,0 @@
-  fun get_selected_items(icon_view': GtkIconView): GList =>
-    @gtk_icon_view_get_selected_items(icon_view')

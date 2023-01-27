@@ -1,1 +1,0 @@
-use @g_application_quit[None](application': Pointer[GObjectP])

@@ -1,2 +1,2 @@
   fun ref set_seed(seed': U32): None =>
-    GRandP.set_seed(this, seed')
+    GRandP.set_seed(this.ptr, seed')

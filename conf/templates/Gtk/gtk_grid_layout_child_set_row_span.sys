@@ -1,2 +1,0 @@
-  fun set_row_span(child': GtkGridLayoutChild, span': I32): None =>
-    @gtk_grid_layout_child_set_row_span(child', span')

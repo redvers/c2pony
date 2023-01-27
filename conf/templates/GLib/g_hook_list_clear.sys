@@ -1,2 +1,2 @@
-  fun clear(hook_list': GHookList): None =>
+  fun clear(hook_list': NullablePointer[GHookListT]): None =>
     @g_hook_list_clear(hook_list')

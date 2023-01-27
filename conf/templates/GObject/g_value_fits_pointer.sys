@@ -1,2 +1,2 @@
-  fun fits_pointer(value': GValue): I32 =>
+  fun fits_pointer(value': NullablePointer[GValueT]): I32 =>
     @g_value_fits_pointer(value')

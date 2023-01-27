@@ -1,2 +1,0 @@
-  fun ref get_ancestor(widget_type': U64): Pointer[GObjectP] =>
-    GtkWidgetP.get_ancestor(this, widget_type')

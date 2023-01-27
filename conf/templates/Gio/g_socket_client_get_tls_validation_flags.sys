@@ -1,2 +1,0 @@
-  fun get_tls_validation_flags(client': GSocketClient): U32 =>
-    @g_socket_client_get_tls_validation_flags(client')

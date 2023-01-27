@@ -1,2 +1,2 @@
-  fun strdup_vprintf(format': String, args': valisttag): String iso^ =>
+  fun strdup_vprintf(format': String, args': NullablePointer[valisttagT]): String iso^ =>
     String.from_cstring(@g_strdup_vprintf(format'.cstring(), args')).clone()

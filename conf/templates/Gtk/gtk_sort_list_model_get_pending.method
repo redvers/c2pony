@@ -1,2 +1,0 @@
-  fun ref get_pending(): U32 =>
-    GtkSortListModelP.get_pending(this)

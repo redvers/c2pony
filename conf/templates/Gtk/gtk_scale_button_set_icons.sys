@@ -1,2 +1,0 @@
-  fun set_icons(button': GtkScaleButton, icons': Pointer[Pointer[U8]] tag): None =>
-    @gtk_scale_button_set_icons(button', icons')

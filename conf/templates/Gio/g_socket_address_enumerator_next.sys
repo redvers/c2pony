@@ -1,2 +1,0 @@
-  fun next(enumerator': GSocketAddressEnumerator, cancellable': GCancellable, error': GError): GSocketAddress =>
-    @g_socket_address_enumerator_next(enumerator', cancellable', addressof error'.ptr)

@@ -1,2 +1,0 @@
-  fun get_auto_render(area': GtkGLArea): I32 =>
-    @gtk_gl_area_get_auto_render(area')

@@ -1,2 +1,0 @@
-  fun get_delay_factor(gesture': GtkGestureLongPress): F64 =>
-    @gtk_gesture_long_press_get_delay_factor(gesture')

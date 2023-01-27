@@ -1,2 +1,0 @@
-  fun ref inhibit(window': GtkWindowI, flags': U32, reason': String): U32 =>
-    GtkApplicationP.inhibit(this, window', flags', reason')

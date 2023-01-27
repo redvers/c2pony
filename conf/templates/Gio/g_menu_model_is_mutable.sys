@@ -1,2 +1,0 @@
-  fun is_mutable(model': GMenuModel): I32 =>
-    @g_menu_model_is_mutable(model')

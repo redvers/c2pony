@@ -1,2 +1,0 @@
-  fun ref get_mark(name': String): GtkTextMark =>
-    GtkTextBufferP.get_mark(this, name')

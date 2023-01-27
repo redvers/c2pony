@@ -1,2 +1,2 @@
-  fun steal(array': GPtrArray, len': Pointer[U64] tag): Pointer[Pointer[None]] tag =>
+  fun steal(array': NullablePointer[GPtrArrayT], len': Pointer[U64] tag): Pointer[Pointer[None]] tag =>
     @g_ptr_array_steal(array', len')

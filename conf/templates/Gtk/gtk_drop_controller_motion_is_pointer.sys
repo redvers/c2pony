@@ -1,2 +1,0 @@
-  fun is_pointer(self': GtkDropControllerMotion): I32 =>
-    @gtk_drop_controller_motion_is_pointer(self')

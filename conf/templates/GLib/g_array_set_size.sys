@@ -1,2 +1,2 @@
-  fun set_size(array': GArray, length': U32): GArray =>
+  fun set_size(array': NullablePointer[GArrayT], length': U32): NullablePointer[GArrayT] =>
     @g_array_set_size(array', length')

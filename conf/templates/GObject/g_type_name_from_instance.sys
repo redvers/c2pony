@@ -1,2 +1,2 @@
-  fun type_name_from_instance(instance': GTypeInstance): String iso^ =>
+  fun type_name_from_instance(instance': NullablePointer[GTypeInstanceT]): String iso^ =>
     String.from_cstring(@g_type_name_from_instance(instance')).clone()

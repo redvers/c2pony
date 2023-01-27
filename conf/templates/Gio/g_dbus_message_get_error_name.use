@@ -1,1 +1,0 @@
-use @g_dbus_message_get_error_name[Pointer[U8]](message': GDBusMessage)

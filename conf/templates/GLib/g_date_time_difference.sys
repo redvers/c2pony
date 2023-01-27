@@ -1,2 +1,2 @@
-  fun difference(end': GDateTime, begin': GDateTime): I64 =>
+  fun difference(end': NullablePointer[GDateTimeT], begin': NullablePointer[GDateTimeT]): I64 =>
     @g_date_time_difference(end', begin')

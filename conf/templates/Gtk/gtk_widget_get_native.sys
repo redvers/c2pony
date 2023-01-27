@@ -1,2 +1,0 @@
-  fun get_native(widget': GtkWidgetI): GtkNative =>
-    @gtk_widget_get_native(widget'.getptr())

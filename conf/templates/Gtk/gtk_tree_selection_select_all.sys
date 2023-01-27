@@ -1,2 +1,0 @@
-  fun select_all(selection': GtkTreeSelection): None =>
-    @gtk_tree_selection_select_all(selection')

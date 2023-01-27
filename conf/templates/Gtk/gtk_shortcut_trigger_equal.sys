@@ -1,2 +1,0 @@
-  fun equal(trigger1': Pointer[None] tag, trigger2': Pointer[None] tag): I32 =>
-    @gtk_shortcut_trigger_equal(trigger1', trigger2')

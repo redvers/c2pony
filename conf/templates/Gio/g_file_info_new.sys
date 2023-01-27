@@ -1,2 +1,0 @@
-  fun new(): GFileInfo =>
-    @g_file_info_new()

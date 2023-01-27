@@ -1,1 +1,0 @@
-use @gtk_css_section_unref[None](section': GtkCssSection)

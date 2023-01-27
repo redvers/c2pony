@@ -1,2 +1,0 @@
-  fun ref set_update_policy(policy': U32): None =>
-    GtkSpinButtonP.set_update_policy(this, policy')

@@ -1,2 +1,2 @@
   fun ref is_variant(): I32 =>
-    GVariantTypeP.is_variant(this)
+    GVariantTypeP.is_variant(this.ptr)

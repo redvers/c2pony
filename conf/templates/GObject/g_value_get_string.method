@@ -1,2 +1,2 @@
   fun ref get_string(): String iso^ =>
-    GValueP.get_string(this)
+    GValueP.get_string(this.ptr)

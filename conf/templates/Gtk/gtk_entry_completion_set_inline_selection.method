@@ -1,2 +1,0 @@
-  fun ref set_inline_selection(inline_selection': I32): None =>
-    GtkEntryCompletionP.set_inline_selection(this, inline_selection')

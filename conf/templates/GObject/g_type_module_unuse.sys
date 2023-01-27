@@ -1,2 +1,2 @@
-  fun unuse(module': GTypeModule): None =>
+  fun unuse(module': NullablePointer[GTypeModuleT]): None =>
     @g_type_module_unuse(module')

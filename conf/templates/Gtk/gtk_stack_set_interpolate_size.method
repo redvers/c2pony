@@ -1,2 +1,0 @@
-  fun ref set_interpolate_size(interpolate_size': I32): None =>
-    GtkStackP.set_interpolate_size(this, interpolate_size')

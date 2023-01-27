@@ -1,2 +1,2 @@
-  fun unset(value': GValue): None =>
+  fun unset(value': NullablePointer[GValueT]): None =>
     @g_value_unset(value')

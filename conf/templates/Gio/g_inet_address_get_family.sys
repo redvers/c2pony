@@ -1,2 +1,0 @@
-  fun get_family(address': GInetAddress): U32 =>
-    @g_inet_address_get_family(address')

@@ -1,1 +1,0 @@
-use @gtk_info_bar_set_response_sensitive[None](info_bar': GtkInfoBar, response_id': I32, setting': I32)

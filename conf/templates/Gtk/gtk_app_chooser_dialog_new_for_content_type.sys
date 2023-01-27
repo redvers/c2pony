@@ -1,2 +1,0 @@
-  fun new_for_content_type(parent': GtkWindowI, flags': U32, content_type': String): Pointer[GObjectP] =>
-@gtk_app_chooser_dialog_new_for_content_type(parent'.getptr(), flags', content_type'.cstring())

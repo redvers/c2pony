@@ -1,2 +1,0 @@
-  fun ref set_use_preedit(use_preedit': I32): None =>
-    GtkIMContextP.set_use_preedit(this, use_preedit')

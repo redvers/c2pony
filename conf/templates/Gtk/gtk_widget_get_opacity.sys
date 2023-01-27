@@ -1,2 +1,0 @@
-  fun get_opacity(widget': GtkWidgetI): F64 =>
-    @gtk_widget_get_opacity(widget'.getptr())

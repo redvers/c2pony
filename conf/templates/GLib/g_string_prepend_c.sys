@@ -1,2 +1,2 @@
-  fun prepend_c(string': GString, c': U8): GString =>
+  fun prepend_c(string': NullablePointer[GStringT], c': U8): NullablePointer[GStringT] =>
     @g_string_prepend_c(string', c')

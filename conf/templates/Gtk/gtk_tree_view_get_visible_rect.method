@@ -1,2 +1,0 @@
-  fun ref get_visible_rect(visible_rect': cairorectangleint): None =>
-    GtkTreeViewP.get_visible_rect(this, visible_rect')

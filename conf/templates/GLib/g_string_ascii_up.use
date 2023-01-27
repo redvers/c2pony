@@ -1,1 +1,1 @@
-use @g_string_ascii_up[GString](string': GString)
+use @g_string_ascii_up[NullablePointer[GStringT]](string': NullablePointer[GStringT])

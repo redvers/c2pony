@@ -1,2 +1,0 @@
-  fun ref set_kinetic_scrolling(kinetic_scrolling': I32): None =>
-    GtkScrolledWindowP.set_kinetic_scrolling(this, kinetic_scrolling')

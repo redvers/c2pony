@@ -1,2 +1,0 @@
-  fun ref get_default_value(): GVariant =>
-    GSettingsSchemaKeyP.get_default_value(this)

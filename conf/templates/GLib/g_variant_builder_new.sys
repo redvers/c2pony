@@ -1,2 +1,2 @@
-  fun new(type': GVariantType): GVariantBuilder =>
-    @g_variant_builder_new(type')
+  new new(type': NullablePointer[GVariantTypeT]) =>
+    ptr = @g_variant_builder_new(type')

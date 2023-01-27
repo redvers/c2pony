@@ -1,1 +1,0 @@
-use @g_dbus_interface_skeleton_set_flags[None](interface': GDBusInterfaceSkeleton, flags': U32)

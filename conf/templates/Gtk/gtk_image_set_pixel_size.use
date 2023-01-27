@@ -1,1 +1,0 @@
-use @gtk_image_set_pixel_size[None](image': GtkImage, pixel_size': I32)

@@ -1,2 +1,2 @@
   fun ref classify(): U32 =>
-    GVariantP.classify(this)
+    GVariantP.classify(this.ptr)

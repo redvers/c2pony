@@ -1,2 +1,0 @@
-  fun ref stop(): None =>
-    GtkSpinnerP.stop(this)

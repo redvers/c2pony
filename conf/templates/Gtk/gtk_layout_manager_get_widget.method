@@ -1,2 +1,0 @@
-  fun ref get_widget(): Pointer[GObjectP] =>
-    GtkLayoutManagerP.get_widget(this)

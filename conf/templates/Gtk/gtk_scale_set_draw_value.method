@@ -1,2 +1,0 @@
-  fun ref set_draw_value(draw_value': I32): None =>
-    GtkScaleP.set_draw_value(this, draw_value')

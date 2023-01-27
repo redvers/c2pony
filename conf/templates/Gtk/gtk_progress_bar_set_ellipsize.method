@@ -1,2 +1,0 @@
-  fun ref set_ellipsize(mode': U32): None =>
-    GtkProgressBarP.set_ellipsize(this, mode')

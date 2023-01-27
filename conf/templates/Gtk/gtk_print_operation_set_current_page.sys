@@ -1,2 +1,0 @@
-  fun set_current_page(op': GtkPrintOperation, current_page': I32): None =>
-    @gtk_print_operation_set_current_page(op', current_page')

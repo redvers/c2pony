@@ -1,2 +1,0 @@
-  fun ref set_right_margin(right_margin': I32): None =>
-    GtkTextViewP.set_right_margin(this, right_margin')

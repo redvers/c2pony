@@ -1,2 +1,0 @@
-  fun get_close_base_stream(stream': GFilterOutputStream): I32 =>
-    @g_filter_output_stream_get_close_base_stream(stream')

@@ -1,1 +1,1 @@
-use @g_key_file_get_start_group[Pointer[U8]](key_file': GKeyFile)
+use @g_key_file_get_start_group[Pointer[U8]](key_file': NullablePointer[GKeyFileT])

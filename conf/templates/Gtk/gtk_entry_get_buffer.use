@@ -1,1 +1,0 @@
-use @gtk_entry_get_buffer[GtkEntryBuffer](entry': GtkEntry)

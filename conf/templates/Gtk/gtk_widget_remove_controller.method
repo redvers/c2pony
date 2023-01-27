@@ -1,2 +1,0 @@
-  fun ref remove_controller(controller': GtkEventController): None =>
-    GtkWidgetP.remove_controller(this, controller')

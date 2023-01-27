@@ -1,1 +1,0 @@
-use @g_file_info_copy_into[None](src_info': GFileInfo, dest_info': GFileInfo)

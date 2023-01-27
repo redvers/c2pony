@@ -1,2 +1,0 @@
-  fun ref translate_3d(point': graphenepoint3dt): None =>
-    P.translate_3d(this, point')

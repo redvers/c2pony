@@ -1,2 +1,0 @@
-  fun set_selected(self': GtkDropDown, position': U32): None =>
-    @gtk_drop_down_set_selected(self', position')

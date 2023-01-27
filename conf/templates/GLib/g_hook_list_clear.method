@@ -1,2 +1,2 @@
   fun ref clear(): None =>
-    GHookListP.clear(this)
+    GHookListP.clear(this.ptr)

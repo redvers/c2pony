@@ -1,2 +1,0 @@
-  fun changed(self': GtkSorter, change': U32): None =>
-    @gtk_sorter_changed(self', change')

@@ -1,2 +1,0 @@
-  fun ref get_tab_label(child': GtkWidgetI): Pointer[GObjectP] =>
-    GtkNotebookP.get_tab_label(this, child')

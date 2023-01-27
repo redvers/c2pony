@@ -1,2 +1,0 @@
-  fun set_flags(application': GApplicationI, flags': U32): None =>
-    @g_application_set_flags(application'.getptr(), flags')

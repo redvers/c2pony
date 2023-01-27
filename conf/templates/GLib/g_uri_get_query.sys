@@ -1,2 +1,2 @@
-  fun get_query(uri': GUri): String iso^ =>
+  fun get_query(uri': NullablePointer[GUriT]): String iso^ =>
     String.from_cstring(@g_uri_get_query(uri')).clone()

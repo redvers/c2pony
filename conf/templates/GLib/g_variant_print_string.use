@@ -1,1 +1,1 @@
-use @g_variant_print_string[GString](value': GVariant, string': GString, type_annotate': I32)
+use @g_variant_print_string[NullablePointer[GStringT]](value': NullablePointer[GVariantT], string': NullablePointer[GStringT], type_annotate': I32)

@@ -1,1 +1,1 @@
-use @g_source_set_name[None](source': GSource, name': Pointer[U8] tag)
+use @g_source_set_name[None](source': NullablePointer[GSourceT], name': Pointer[U8] tag)

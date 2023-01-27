@@ -1,1 +1,0 @@
-use @gtk_stack_get_pages[GtkSelectionModel](stack': GtkStack)

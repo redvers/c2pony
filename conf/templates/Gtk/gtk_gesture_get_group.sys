@@ -1,2 +1,0 @@
-  fun get_group(gesture': GtkGesture): GList =>
-    @gtk_gesture_get_group(gesture')

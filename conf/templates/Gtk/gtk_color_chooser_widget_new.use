@@ -1,1 +1,0 @@
-use @gtk_color_chooser_widget_new[Pointer[GObjectP]]()

@@ -1,2 +1,2 @@
-  fun new(): GKeyFile =>
-    @g_key_file_new()
+  new new() =>
+    ptr = @g_key_file_new()

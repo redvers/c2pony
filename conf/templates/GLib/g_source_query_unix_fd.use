@@ -1,1 +1,1 @@
-use @g_source_query_unix_fd[U32](source': GSource, tag': Pointer[None] tag)
+use @g_source_query_unix_fd[U32](source': NullablePointer[GSourceT], tag': Pointer[None] tag)

@@ -1,2 +1,2 @@
-  fun unref(group': GOptionGroup): None =>
+  fun unref(group': NullablePointer[GOptionGroupT]): None =>
     @g_option_group_unref(group')

@@ -1,2 +1,0 @@
-  fun ref push_cross_fade(progress': F64): None =>
-    P.push_cross_fade(this, progress')

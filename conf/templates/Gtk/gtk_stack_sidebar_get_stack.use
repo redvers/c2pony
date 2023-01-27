@@ -1,1 +1,0 @@
-use @gtk_stack_sidebar_get_stack[GtkStack](self': GtkStackSidebar)

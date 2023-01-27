@@ -1,2 +1,0 @@
-  fun push_blend(snapshot': GdkSnapshot, blend_mode': U32): None =>
-    @gtk_snapshot_push_blend(snapshot', blend_mode')

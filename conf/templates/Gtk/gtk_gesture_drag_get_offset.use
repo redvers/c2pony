@@ -1,1 +1,0 @@
-use @gtk_gesture_drag_get_offset[I32](gesture': GtkGestureDrag, x': Pointer[F64] tag, y': Pointer[F64] tag)

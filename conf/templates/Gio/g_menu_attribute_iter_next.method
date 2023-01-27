@@ -1,2 +1,0 @@
-  fun ref next(): I32 =>
-    GMenuAttributeIterP.next(this)

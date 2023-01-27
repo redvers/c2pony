@@ -1,2 +1,0 @@
-  fun ref set_title(title': String): None =>
-    GtkTreeViewColumnP.set_title(this, title')

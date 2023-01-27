@@ -1,1 +1,1 @@
-use @g_tree_new[GTree](key_compare_func': GCompareFunc)
+use @g_tree_new[NullablePointer[GTreeT]](key_compare_func': GCompareFunc)

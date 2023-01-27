@@ -1,2 +1,0 @@
-  fun set_print_pages(settings': GtkPrintSettings, pages': U32): None =>
-    @gtk_print_settings_set_print_pages(settings', pages')

@@ -1,2 +1,0 @@
-  fun ref set_from_icon_name(icon_name': String): None =>
-    GtkImageP.set_from_icon_name(this, icon_name')

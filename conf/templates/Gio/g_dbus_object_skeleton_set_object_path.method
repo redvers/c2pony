@@ -1,2 +1,0 @@
-  fun ref set_object_path(object_path': String): None =>
-    GDBusObjectSkeletonP.set_object_path(this, object_path')

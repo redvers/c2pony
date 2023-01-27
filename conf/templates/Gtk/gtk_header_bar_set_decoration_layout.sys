@@ -1,2 +1,0 @@
-  fun set_decoration_layout(bar': GtkHeaderBar, layout': String): None =>
-    @gtk_header_bar_set_decoration_layout(bar', layout'.cstring())

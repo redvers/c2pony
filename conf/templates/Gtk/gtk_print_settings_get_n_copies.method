@@ -1,2 +1,0 @@
-  fun ref get_n_copies(): I32 =>
-    GtkPrintSettingsP.get_n_copies(this)

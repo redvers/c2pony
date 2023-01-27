@@ -1,2 +1,0 @@
-  fun ref get_line_at_y(target_iter': GtkTextIter, y': I32, line_top': Pointer[I32] tag): None =>
-    GtkTextViewP.get_line_at_y(this, target_iter', y', line_top')

@@ -1,2 +1,0 @@
-  fun get_cascade_popdown(popover': GtkPopover): I32 =>
-    @gtk_popover_get_cascade_popdown(popover')

@@ -1,1 +1,0 @@
-use @gtk_widget_set_layout_manager[None](widget': Pointer[GObjectP], layout_manager': GtkLayoutManager)

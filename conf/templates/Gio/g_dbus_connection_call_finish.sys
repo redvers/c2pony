@@ -1,2 +1,0 @@
-  fun call_finish(connection': GDBusConnection, res': GAsyncResult, error': GError): GVariant =>
-    @g_dbus_connection_call_finish(connection', res', addressof error'.ptr)

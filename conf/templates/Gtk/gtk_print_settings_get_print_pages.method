@@ -1,2 +1,0 @@
-  fun ref get_print_pages(): U32 =>
-    GtkPrintSettingsP.get_print_pages(this)

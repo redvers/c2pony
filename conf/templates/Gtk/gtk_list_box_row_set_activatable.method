@@ -1,2 +1,0 @@
-  fun ref set_activatable(activatable': I32): None =>
-    GtkListBoxRowP.set_activatable(this, activatable')

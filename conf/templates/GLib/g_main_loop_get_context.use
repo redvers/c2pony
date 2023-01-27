@@ -1,1 +1,1 @@
-use @g_main_loop_get_context[GMainContext](loop': GMainLoop)
+use @g_main_loop_get_context[NullablePointer[GMainContextT]](loop': NullablePointer[GMainLoopT])

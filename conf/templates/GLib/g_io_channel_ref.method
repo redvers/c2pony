@@ -1,2 +1,2 @@
-  fun ref ref(): GIOChannel =>
-    GIOChannelP.ref(this)
+  fun ref ref(): NullablePointer[GIOChannelT] =>
+    GIOChannelP.ref(this.ptr)

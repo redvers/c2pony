@@ -1,1 +1,1 @@
-use @g_date_time_add_weeks[GDateTime](datetime': GDateTime, weeks': I32)
+use @g_date_time_add_weeks[NullablePointer[GDateTimeT]](datetime': NullablePointer[GDateTimeT], weeks': I32)

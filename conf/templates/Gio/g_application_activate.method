@@ -1,2 +1,0 @@
-  fun ref activate(): None =>
-    GApplicationP.activate(this)

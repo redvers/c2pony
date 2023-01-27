@@ -1,2 +1,2 @@
-  fun ref get_applications(uri': String, length': Pointer[U64] tag, error': GError): Pointer[Pointer[U8]] tag =>
-    GBookmarkFileP.get_applications(this, uri', length', error')
+  fun ref get_applications(uri': String, length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
+    GBookmarkFileP.get_applications(this.ptr, uri', length', error')

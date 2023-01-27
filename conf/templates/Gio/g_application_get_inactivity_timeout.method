@@ -1,2 +1,0 @@
-  fun ref get_inactivity_timeout(): U32 =>
-    GApplicationP.get_inactivity_timeout(this)

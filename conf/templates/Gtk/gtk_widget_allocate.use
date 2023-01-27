@@ -1,1 +1,0 @@
-use @gtk_widget_allocate[None](widget': Pointer[GObjectP], width': I32, height': I32, baseline': I32, transform': GskTransform)

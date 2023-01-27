@@ -1,1 +1,1 @@
-use @g_uri_unref[None](uri': GUri)
+use @g_uri_unref[None](uri': NullablePointer[GUriT])

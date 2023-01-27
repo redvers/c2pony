@@ -1,1 +1,0 @@
-use @g_test_dbus_add_service_dir[None](self': GTestDBus, path': Pointer[U8] tag)

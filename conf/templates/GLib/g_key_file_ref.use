@@ -1,1 +1,1 @@
-use @g_key_file_ref[GKeyFile](key_file': GKeyFile)
+use @g_key_file_ref[NullablePointer[GKeyFileT]](key_file': NullablePointer[GKeyFileT])

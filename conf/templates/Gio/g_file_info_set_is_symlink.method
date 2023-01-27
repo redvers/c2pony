@@ -1,2 +1,0 @@
-  fun ref set_is_symlink(is_symlink': I32): None =>
-    GFileInfoP.set_is_symlink(this, is_symlink')

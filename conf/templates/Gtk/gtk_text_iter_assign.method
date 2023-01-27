@@ -1,2 +1,0 @@
-  fun ref assign(other': GtkTextIter): None =>
-    GtkTextIterP.assign(this, other')

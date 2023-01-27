@@ -1,1 +1,0 @@
-use @gtk_popover_menu_get_menu_model[GMenuModel](popover': GtkPopoverMenu)

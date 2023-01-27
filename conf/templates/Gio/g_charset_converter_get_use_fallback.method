@@ -1,2 +1,0 @@
-  fun ref get_use_fallback(): I32 =>
-    GCharsetConverterP.get_use_fallback(this)

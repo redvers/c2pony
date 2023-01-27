@@ -1,2 +1,0 @@
-  fun set_state(simple': GSimpleAction, value': GVariant): None =>
-    @g_simple_action_set_state(simple', value')

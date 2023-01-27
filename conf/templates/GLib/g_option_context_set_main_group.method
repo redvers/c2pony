@@ -1,2 +1,2 @@
-  fun ref set_main_group(group': GOptionGroup): None =>
-    GOptionContextP.set_main_group(this, group')
+  fun ref set_main_group(group': NullablePointer[GOptionGroupT]): None =>
+    GOptionContextP.set_main_group(this.ptr, group')

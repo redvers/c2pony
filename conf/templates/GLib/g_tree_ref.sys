@@ -1,2 +1,2 @@
-  fun ref(tree': GTree): GTree =>
+  fun ref(tree': NullablePointer[GTreeT]): NullablePointer[GTreeT] =>
     @g_tree_ref(tree')

@@ -1,1 +1,0 @@
-use @gtk_recent_info_get_mime_type[Pointer[U8]](info': GtkRecentInfo)

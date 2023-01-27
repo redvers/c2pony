@@ -1,2 +1,0 @@
-  fun connect_entry(bar': GtkSearchBar, entry': GtkEditable): None =>
-    @gtk_search_bar_connect_entry(bar', entry')

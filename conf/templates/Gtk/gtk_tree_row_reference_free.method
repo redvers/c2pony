@@ -1,2 +1,0 @@
-  fun ref free(): None =>
-    GtkTreeRowReferenceP.free(this)

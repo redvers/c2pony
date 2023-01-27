@@ -1,1 +1,1 @@
-use @g_date_time_add_years[GDateTime](datetime': GDateTime, years': I32)
+use @g_date_time_add_years[NullablePointer[GDateTimeT]](datetime': NullablePointer[GDateTimeT], years': I32)

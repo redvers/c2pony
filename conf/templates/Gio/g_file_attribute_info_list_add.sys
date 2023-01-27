@@ -1,2 +1,0 @@
-  fun add(list': GFileAttributeInfoList, name': String, type': U32, flags': U32): None =>
-    @g_file_attribute_info_list_add(list', name'.cstring(), type', flags')

@@ -1,2 +1,0 @@
-  fun ref get_visible(): I32 =>
-    GtkTextMarkP.get_visible(this)

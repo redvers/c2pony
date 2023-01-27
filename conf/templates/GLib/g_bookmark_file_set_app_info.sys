@@ -1,2 +1,2 @@
-  fun set_app_info(bookmark': GBookmarkFile, uri': String, name': String, exec': String, count': I32, stamp': I64, error': GError): I32 =>
-    @g_bookmark_file_set_app_info(bookmark', uri'.cstring(), name'.cstring(), exec'.cstring(), count', stamp', addressof error'.ptr)
+  fun set_app_info(bookmark': NullablePointer[GBookmarkFileT], uri': String, name': String, exec': String, count': I32, stamp': I64, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_bookmark_file_set_app_info(bookmark', uri'.cstring(), name'.cstring(), exec'.cstring(), count', stamp', error')

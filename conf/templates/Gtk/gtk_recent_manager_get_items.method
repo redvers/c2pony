@@ -1,2 +1,0 @@
-  fun ref get_items(): GList =>
-    GtkRecentManagerP.get_items(this)

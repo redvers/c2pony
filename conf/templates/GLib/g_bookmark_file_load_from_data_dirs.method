@@ -1,2 +1,2 @@
-  fun ref load_from_data_dirs(file': String, full_path': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    GBookmarkFileP.load_from_data_dirs(this, file', full_path', error')
+  fun ref load_from_data_dirs(file': String, full_path': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GBookmarkFileP.load_from_data_dirs(this.ptr, file', full_path', error')

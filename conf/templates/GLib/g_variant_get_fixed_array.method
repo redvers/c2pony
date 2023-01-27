@@ -1,2 +1,2 @@
   fun ref get_fixed_array(n_elements': Pointer[U64] tag, element_size': U64): Pointer[None] tag =>
-    GVariantP.get_fixed_array(this, n_elements', element_size')
+    GVariantP.get_fixed_array(this.ptr, n_elements', element_size')

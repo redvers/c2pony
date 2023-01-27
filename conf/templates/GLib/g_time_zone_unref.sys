@@ -1,2 +1,2 @@
-  fun unref(tz': GTimeZone): None =>
+  fun unref(tz': NullablePointer[GTimeZoneT]): None =>
     @g_time_zone_unref(tz')

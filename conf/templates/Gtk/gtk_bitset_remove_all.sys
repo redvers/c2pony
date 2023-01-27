@@ -1,2 +1,0 @@
-  fun remove_all(self': GtkBitset): None =>
-    @gtk_bitset_remove_all(self')

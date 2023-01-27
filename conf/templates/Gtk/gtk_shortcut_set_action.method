@@ -1,2 +1,0 @@
-  fun ref set_action(action': GtkShortcutAction): None =>
-    GtkShortcutP.set_action(this, action')

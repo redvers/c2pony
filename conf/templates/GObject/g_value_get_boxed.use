@@ -1,1 +1,1 @@
-use @g_value_get_boxed[Pointer[None] tag](value': GValue)
+use @g_value_get_boxed[Pointer[None] tag](value': NullablePointer[GValueT])

@@ -1,2 +1,2 @@
   fun ref run(): None =>
-    GMainLoopP.run(this)
+    GMainLoopP.run(this.ptr)

@@ -1,2 +1,0 @@
-  fun set_heading(self': GtkAppChooserButton, heading': String): None =>
-    @gtk_app_chooser_button_set_heading(self', heading'.cstring())

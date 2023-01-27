@@ -1,1 +1,0 @@
-use @g_io_module_scope_new[GIOModuleScope](flags': U32)

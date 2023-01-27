@@ -1,1 +1,0 @@
-use @gtk_tree_get_row_drag_data[I32](value': GValue, tree_model': Pointer[GtkTreeModel], path': Pointer[GtkTreePath])

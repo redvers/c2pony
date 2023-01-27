@@ -1,2 +1,0 @@
-  fun ref set_id_column(id_column': I32): None =>
-    GtkComboBoxP.set_id_column(this, id_column')

@@ -1,2 +1,2 @@
-  fun to_string(uri': GUri): String iso^ =>
+  fun to_string(uri': NullablePointer[GUriT]): String iso^ =>
     String.from_cstring(@g_uri_to_string(uri')).clone()

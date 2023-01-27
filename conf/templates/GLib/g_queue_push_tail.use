@@ -1,1 +1,1 @@
-use @g_queue_push_tail[None](queue': GQueue, data': Pointer[None] tag)
+use @g_queue_push_tail[None](queue': NullablePointer[GQueueT], data': Pointer[None] tag)

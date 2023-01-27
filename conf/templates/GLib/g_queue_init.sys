@@ -1,2 +1,2 @@
-  fun init(queue': GQueue): None =>
+  fun init(queue': NullablePointer[GQueueT]): None =>
     @g_queue_init(queue')

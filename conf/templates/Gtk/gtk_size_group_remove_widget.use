@@ -1,1 +1,0 @@
-use @gtk_size_group_remove_widget[None](size_group': GtkSizeGroup, widget': Pointer[GObjectP])

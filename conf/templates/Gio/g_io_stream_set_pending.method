@@ -1,2 +1,0 @@
-  fun ref set_pending(error': GError): I32 =>
-    GIOStreamP.set_pending(this, error')

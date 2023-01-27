@@ -1,2 +1,2 @@
-  fun type_check_class_cast(g_class': GTypeClass, is_a_type': U64): GTypeClass =>
+  fun type_check_class_cast(g_class': NullablePointer[GTypeClassT], is_a_type': U64): NullablePointer[GTypeClassT] =>
     @g_type_check_class_cast(g_class', is_a_type')

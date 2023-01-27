@@ -1,2 +1,0 @@
-  fun new_for_file(file': GFile): GtkMediaStream =>
-    @gtk_media_file_new_for_file(file')

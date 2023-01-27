@@ -1,2 +1,2 @@
-  fun type_check_class_is_a(g_class': GTypeClass, is_a_type': U64): I32 =>
+  fun type_check_class_is_a(g_class': NullablePointer[GTypeClassT], is_a_type': U64): I32 =>
     @g_type_check_class_is_a(g_class', is_a_type')

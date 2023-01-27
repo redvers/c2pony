@@ -1,2 +1,0 @@
-  fun ref set_message_type(type': U32): None =>
-    GDBusMessageP.set_message_type(this, type')

@@ -1,1 +1,1 @@
-use @g_sequence_search_iter[GSequenceNode](seq': GSequence, data': Pointer[None] tag, iter_cmp': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag)
+use @g_sequence_search_iter[NullablePointer[GSequenceNodeT]](seq': NullablePointer[GSequenceT], data': Pointer[None] tag, iter_cmp': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag)

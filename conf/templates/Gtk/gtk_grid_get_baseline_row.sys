@@ -1,2 +1,0 @@
-  fun get_baseline_row(grid': GtkGrid): I32 =>
-    @gtk_grid_get_baseline_row(grid')

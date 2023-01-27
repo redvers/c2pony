@@ -1,1 +1,1 @@
-use @g_rand_set_seed_array[None](rand': GRand, seed': Pointer[U32] tag, seed_length': U32)
+use @g_rand_set_seed_array[None](rand': NullablePointer[GRandT], seed': Pointer[U32] tag, seed_length': U32)

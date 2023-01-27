@@ -1,2 +1,2 @@
-  fun get_path(uri': GUri): String iso^ =>
+  fun get_path(uri': NullablePointer[GUriT]): String iso^ =>
     String.from_cstring(@g_uri_get_path(uri')).clone()

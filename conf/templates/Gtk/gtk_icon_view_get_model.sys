@@ -1,2 +1,0 @@
-  fun get_model(icon_view': GtkIconView): GtkTreeModel =>
-    @gtk_icon_view_get_model(icon_view')

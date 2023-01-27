@@ -1,2 +1,2 @@
-  fun lookup_symbol(scanner': GScanner, symbol': String): Pointer[None] tag =>
+  fun lookup_symbol(scanner': NullablePointer[GScannerT], symbol': String): Pointer[None] tag =>
     @g_scanner_lookup_symbol(scanner', symbol'.cstring())

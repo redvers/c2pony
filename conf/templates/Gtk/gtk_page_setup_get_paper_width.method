@@ -1,2 +1,0 @@
-  fun ref get_paper_width(unit': U32): F64 =>
-    GtkPageSetupP.get_paper_width(this, unit')

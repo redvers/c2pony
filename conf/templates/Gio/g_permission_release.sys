@@ -1,2 +1,0 @@
-  fun release(permission': GPermission, cancellable': GCancellable, error': GError): I32 =>
-    @g_permission_release(permission', cancellable', addressof error'.ptr)

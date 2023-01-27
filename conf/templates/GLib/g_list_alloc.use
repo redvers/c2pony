@@ -1,1 +1,1 @@
-use @g_list_alloc[GList]()
+use @g_list_alloc[NullablePointer[GListT]]()

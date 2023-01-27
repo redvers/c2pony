@@ -1,1 +1,0 @@
-use @g_menu_item_set_action_and_target_value[None](menu_item': GMenuItem, action': Pointer[U8] tag, target_value': GVariant)

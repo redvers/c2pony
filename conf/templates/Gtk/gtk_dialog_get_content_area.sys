@@ -1,2 +1,0 @@
-  fun get_content_area(dialog': GtkDialog): Pointer[GObjectP] =>
-@gtk_dialog_get_content_area(dialog')

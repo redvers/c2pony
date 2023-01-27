@@ -1,2 +1,0 @@
-  fun set_minimum_key_length(completion': GtkEntryCompletion, length': I32): None =>
-    @gtk_entry_completion_set_minimum_key_length(completion', length')

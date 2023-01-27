@@ -1,1 +1,0 @@
-use @gtk_video_new_for_resource[Pointer[GObjectP]](resource_path': Pointer[U8] tag)

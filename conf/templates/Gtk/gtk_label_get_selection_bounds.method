@@ -1,2 +1,0 @@
-  fun ref get_selection_bounds(start': Pointer[I32] tag, end': Pointer[I32] tag): I32 =>
-    GtkLabelP.get_selection_bounds(this, start', end')

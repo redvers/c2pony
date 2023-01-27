@@ -1,1 +1,0 @@
-use @gtk_widget_in_destruction[I32](widget': Pointer[GObjectP])

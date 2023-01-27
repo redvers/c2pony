@@ -1,2 +1,0 @@
-  fun ref set_mode(type': U32): None =>
-    GtkTreeSelectionP.set_mode(this, type')

@@ -1,2 +1,0 @@
-  fun ref move(widget': GtkWidgetI, x': F64, y': F64): None =>
-    GtkFixedP.move(this, widget', x', y')

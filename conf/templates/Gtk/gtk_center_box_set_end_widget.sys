@@ -1,2 +1,0 @@
-  fun set_end_widget(self': GtkCenterBox, child': GtkWidgetI): None =>
-    @gtk_center_box_set_end_widget(self', child'.getptr())

@@ -1,2 +1,0 @@
-  fun ref is_required(): I32 =>
-    GtkConstraintP.is_required(this)

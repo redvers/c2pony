@@ -1,1 +1,0 @@
-use @g_application_hold[None](application': Pointer[GObjectP])

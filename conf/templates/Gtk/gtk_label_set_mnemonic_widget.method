@@ -1,2 +1,0 @@
-  fun ref set_mnemonic_widget(widget': GtkWidgetI): None =>
-    GtkLabelP.set_mnemonic_widget(this, widget')

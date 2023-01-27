@@ -1,2 +1,0 @@
-  fun ref set_ignore_case(ignore_case': I32): None =>
-    GtkStringFilterP.set_ignore_case(this, ignore_case')

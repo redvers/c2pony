@@ -1,1 +1,0 @@
-use @g_test_dbus_get_bus_address[Pointer[U8]](self': GTestDBus)

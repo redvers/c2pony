@@ -1,2 +1,2 @@
   fun ref set_enum(v_enum': I32): None =>
-    GValueP.set_enum(this, v_enum')
+    GValueP.set_enum(this.ptr, v_enum')

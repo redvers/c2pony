@@ -1,2 +1,2 @@
-  fun is_ancestor(node': GNode, descendant': GNode): I32 =>
+  fun is_ancestor(node': NullablePointer[GNodeT], descendant': NullablePointer[GNodeT]): I32 =>
     @g_node_is_ancestor(node', descendant')

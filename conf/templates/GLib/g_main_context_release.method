@@ -1,2 +1,2 @@
   fun ref release(): None =>
-    GMainContextP.release(this)
+    GMainContextP.release(this.ptr)

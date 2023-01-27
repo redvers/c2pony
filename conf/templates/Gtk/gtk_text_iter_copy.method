@@ -1,2 +1,0 @@
-  fun ref copy(): GtkTextIter =>
-    GtkTextIterP.copy(this)

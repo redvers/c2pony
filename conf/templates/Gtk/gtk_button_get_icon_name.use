@@ -1,1 +1,0 @@
-use @gtk_button_get_icon_name[Pointer[U8]](button': GtkButton)

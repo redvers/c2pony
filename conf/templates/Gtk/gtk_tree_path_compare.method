@@ -1,2 +1,0 @@
-  fun ref compare(b': GtkTreePath): I32 =>
-    GtkTreePathP.compare(this, b')

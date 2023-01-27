@@ -1,1 +1,1 @@
-use @g_hash_table_find[Pointer[None] tag](hash_table': GHashTable, predicate': GHRFunc, user_data': Pointer[None] tag)
+use @g_hash_table_find[Pointer[None] tag](hash_table': NullablePointer[GHashTableT], predicate': GHRFunc, user_data': Pointer[None] tag)

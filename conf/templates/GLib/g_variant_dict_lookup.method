@@ -1,2 +1,2 @@
   fun ref lookup(key': String, format_string': String, ...): I32 =>
-    GVariantDictP.lookup(this, key', format_string', ...)
+    GVariantDictP.lookup(this.ptr, key', format_string', ...)

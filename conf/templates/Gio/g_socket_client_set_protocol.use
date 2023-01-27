@@ -1,1 +1,0 @@
-use @g_socket_client_set_protocol[None](client': GSocketClient, protocol': I32)

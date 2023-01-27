@@ -1,2 +1,0 @@
-  fun get_is_multicast(address': GInetAddress): I32 =>
-    @g_inet_address_get_is_multicast(address')

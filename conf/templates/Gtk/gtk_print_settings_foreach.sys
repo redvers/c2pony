@@ -1,2 +1,0 @@
-  fun foreach(settings': GtkPrintSettings, func': GtkPrintSettingsFunc, user_data': Pointer[None] tag): None =>
-    @gtk_print_settings_foreach(settings', func', user_data')

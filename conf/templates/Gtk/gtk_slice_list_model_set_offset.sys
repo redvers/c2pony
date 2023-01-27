@@ -1,2 +1,0 @@
-  fun set_offset(self': GtkSliceListModel, offset': U32): None =>
-    @gtk_slice_list_model_set_offset(self', offset')

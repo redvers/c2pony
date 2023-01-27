@@ -1,2 +1,0 @@
-  fun get_width(context': GtkPrintContext): F64 =>
-    @gtk_print_context_get_width(context')

@@ -1,1 +1,1 @@
-use @g_variant_iter_init[U64](iter': GVariantIter, value': GVariant)
+use @g_variant_iter_init[U64](iter': NullablePointer[GVariantIterT], value': NullablePointer[GVariantT])

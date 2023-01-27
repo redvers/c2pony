@@ -1,2 +1,2 @@
-  fun unref(bytes': GBytes): None =>
+  fun unref(bytes': NullablePointer[GBytesT]): None =>
     @g_bytes_unref(bytes')

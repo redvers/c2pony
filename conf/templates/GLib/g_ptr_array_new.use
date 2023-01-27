@@ -1,1 +1,1 @@
-use @g_ptr_array_new[GPtrArray]()
+use @g_ptr_array_new[NullablePointer[GPtrArrayT]]()

@@ -1,2 +1,2 @@
-  fun new(func': GFunc, user_data': Pointer[None] tag, max_threads': I32, exclusive': I32, error': GError): GThreadPool =>
-    @g_thread_pool_new(func', user_data', max_threads', exclusive', addressof error'.ptr)
+  fun new(func': GFunc, user_data': Pointer[None] tag, max_threads': I32, exclusive': I32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GThreadPoolT] =>
+    @g_thread_pool_new(func', user_data', max_threads', exclusive', error')

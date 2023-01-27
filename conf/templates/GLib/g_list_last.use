@@ -1,1 +1,1 @@
-use @g_list_last[GList](list': GList)
+use @g_list_last[NullablePointer[GListT]](list': NullablePointer[GListT])

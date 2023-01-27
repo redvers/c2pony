@@ -1,1 +1,0 @@
-use @gtk_widget_create_pango_layout[PangoLayout](widget': Pointer[GObjectP], text': Pointer[U8] tag)

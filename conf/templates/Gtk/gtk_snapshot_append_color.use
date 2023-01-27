@@ -1,1 +1,0 @@
-use @gtk_snapshot_append_color[None](snapshot': GdkSnapshot, color': GdkRGBA, bounds': graphenerectt)

@@ -1,1 +1,1 @@
-use @g_timer_start[None](timer': GTimer)
+use @g_timer_start[None](timer': NullablePointer[GTimerT])

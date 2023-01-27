@@ -1,2 +1,0 @@
-  fun get_template_child(widget': GtkWidgetI, widget_type': U64, name': String): Pointer[GObjectP] =>
-@gtk_widget_get_template_child(widget'.getptr(), widget_type', name'.cstring())

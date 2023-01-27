@@ -1,2 +1,2 @@
-  fun get_name_quark(pspec': GParamSpec): U32 =>
+  fun get_name_quark(pspec': NullablePointer[GParamSpecT]): U32 =>
     @g_param_spec_get_name_quark(pspec')

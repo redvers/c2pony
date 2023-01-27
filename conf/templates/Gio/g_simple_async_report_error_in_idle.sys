@@ -1,2 +1,0 @@
-  fun simple_async_report_error_in_idle(object': GObjectI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag, domain': U32, code': I32, format': String, ...): None =>
-    @g_simple_async_report_error_in_idle(object'.getptr(), callback', user_data', domain', code', format'.cstring(), ...)

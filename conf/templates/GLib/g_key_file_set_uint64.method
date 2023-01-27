@@ -1,2 +1,2 @@
   fun ref set_uint64(group_name': String, key': String, value': U64): None =>
-    GKeyFileP.set_uint64(this, group_name', key', value')
+    GKeyFileP.set_uint64(this.ptr, group_name', key', value')

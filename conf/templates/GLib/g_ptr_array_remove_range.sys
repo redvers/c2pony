@@ -1,2 +1,2 @@
-  fun remove_range(array': GPtrArray, index': U32, length': U32): GPtrArray =>
+  fun remove_range(array': NullablePointer[GPtrArrayT], index': U32, length': U32): NullablePointer[GPtrArrayT] =>
     @g_ptr_array_remove_range(array', index', length')

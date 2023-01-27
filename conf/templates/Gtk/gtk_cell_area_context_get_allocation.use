@@ -1,1 +1,0 @@
-use @gtk_cell_area_context_get_allocation[None](context': GtkCellAreaContext, width': Pointer[I32] tag, height': Pointer[I32] tag)

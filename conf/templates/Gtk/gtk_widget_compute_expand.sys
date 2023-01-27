@@ -1,2 +1,0 @@
-  fun compute_expand(widget': GtkWidgetI, orientation': U32): I32 =>
-    @gtk_widget_compute_expand(widget'.getptr(), orientation')

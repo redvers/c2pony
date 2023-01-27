@@ -1,1 +1,1 @@
-use @g_queue_copy[GQueue](queue': GQueue)
+use @g_queue_copy[NullablePointer[GQueueT]](queue': NullablePointer[GQueueT])

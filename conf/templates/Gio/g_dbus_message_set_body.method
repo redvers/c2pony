@@ -1,2 +1,0 @@
-  fun ref set_body(body': GVariant): None =>
-    GDBusMessageP.set_body(this, body')

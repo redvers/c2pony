@@ -1,2 +1,0 @@
-  fun ref return_error_literal(domain': U32, code': I32, message': String): None =>
-    GDBusMethodInvocationP.return_error_literal(this, domain', code', message')

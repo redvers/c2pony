@@ -1,1 +1,0 @@
-use @gtk_text_view_move_overlay[None](text_view': GtkTextView, child': Pointer[GObjectP], xpos': I32, ypos': I32)

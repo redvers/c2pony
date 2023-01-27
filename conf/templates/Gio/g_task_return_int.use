@@ -1,1 +1,0 @@
-use @g_task_return_int[None](task': GTask, result': I64)

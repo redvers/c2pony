@@ -1,1 +1,0 @@
-use @gtk_list_box_row_get_selectable[I32](row': GtkListBoxRow)

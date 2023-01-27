@@ -1,1 +1,1 @@
-use @g_scanner_destroy[None](scanner': GScanner)
+use @g_scanner_destroy[None](scanner': NullablePointer[GScannerT])

@@ -1,7 +1,0 @@
-
-use "../GLib"
-use "../GObject"
-use "lib:gio-2.0"
-struct GDBusErrorEntryT
-  var error_code': I32 = I32(0)
-  var dbus_error_name': Pointer[U8] = Pointer[U8]

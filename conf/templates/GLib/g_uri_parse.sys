@@ -1,2 +1,2 @@
-  fun parse(uri_string': String, flags': U32, error': GError): GUri =>
-    @g_uri_parse(uri_string'.cstring(), flags', addressof error'.ptr)
+  fun parse(uri_string': String, flags': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GUriT] =>
+    @g_uri_parse(uri_string'.cstring(), flags', error')

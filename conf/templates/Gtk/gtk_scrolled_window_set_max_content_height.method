@@ -1,2 +1,0 @@
-  fun ref set_max_content_height(height': I32): None =>
-    GtkScrolledWindowP.set_max_content_height(this, height')

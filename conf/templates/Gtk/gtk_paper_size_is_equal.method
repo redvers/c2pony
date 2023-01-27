@@ -1,2 +1,0 @@
-  fun ref is_equal(size2': GtkPaperSize): I32 =>
-    GtkPaperSizeP.is_equal(this, size2')

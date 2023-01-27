@@ -1,2 +1,2 @@
-  fun destroy(tree': GTree): None =>
+  fun destroy(tree': NullablePointer[GTreeT]): None =>
     @g_tree_destroy(tree')

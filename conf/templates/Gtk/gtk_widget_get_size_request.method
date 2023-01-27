@@ -1,2 +1,0 @@
-  fun ref get_size_request(width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
-    GtkWidgetP.get_size_request(this, width', height')

@@ -1,2 +1,0 @@
-  fun wait(subprocess': GSubprocess, cancellable': GCancellable, error': GError): I32 =>
-    @g_subprocess_wait(subprocess', cancellable', addressof error'.ptr)

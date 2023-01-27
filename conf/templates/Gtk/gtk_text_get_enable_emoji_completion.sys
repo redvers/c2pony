@@ -1,2 +1,0 @@
-  fun get_enable_emoji_completion(self': GtkText): I32 =>
-    @gtk_text_get_enable_emoji_completion(self')

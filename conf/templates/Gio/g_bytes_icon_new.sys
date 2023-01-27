@@ -1,2 +1,0 @@
-  fun new(bytes': GBytes): GIcon =>
-    @g_bytes_icon_new(bytes')

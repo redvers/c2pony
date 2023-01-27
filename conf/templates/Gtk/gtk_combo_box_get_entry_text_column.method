@@ -1,2 +1,0 @@
-  fun ref get_entry_text_column(): I32 =>
-    GtkComboBoxP.get_entry_text_column(this)

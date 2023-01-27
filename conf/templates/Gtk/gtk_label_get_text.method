@@ -1,2 +1,0 @@
-  fun ref get_text(): String iso^ =>
-    GtkLabelP.get_text(this)

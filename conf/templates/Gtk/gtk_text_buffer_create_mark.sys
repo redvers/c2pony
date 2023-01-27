@@ -1,2 +1,0 @@
-  fun create_mark(buffer': GtkTextBuffer, mark_name': String, where': GtkTextIter, left_gravity': I32): GtkTextMark =>
-    @gtk_text_buffer_create_mark(buffer', mark_name'.cstring(), where', left_gravity')

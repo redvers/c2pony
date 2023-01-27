@@ -1,1 +1,0 @@
-use @gtk_range_set_slider_size_fixed[None](range': GtkRange, size_fixed': I32)

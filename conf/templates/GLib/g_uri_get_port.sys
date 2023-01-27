@@ -1,2 +1,2 @@
-  fun get_port(uri': GUri): I32 =>
+  fun get_port(uri': NullablePointer[GUriT]): I32 =>
     @g_uri_get_port(uri')

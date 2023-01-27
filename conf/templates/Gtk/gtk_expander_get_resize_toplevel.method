@@ -1,2 +1,0 @@
-  fun ref get_resize_toplevel(): I32 =>
-    GtkExpanderP.get_resize_toplevel(this)

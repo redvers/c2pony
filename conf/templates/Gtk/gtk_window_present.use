@@ -1,1 +1,0 @@
-use @gtk_window_present[None](window': Pointer[GObjectP])

@@ -1,2 +1,2 @@
-  fun ref up(): GString =>
-    GStringP.up(this)
+  fun ref up(): NullablePointer[GStringT] =>
+    GStringP.up(this.ptr)

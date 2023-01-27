@@ -1,2 +1,2 @@
-  fun add(datetime': GDateTime, timespan': I64): GDateTime =>
+  fun add(datetime': NullablePointer[GDateTimeT], timespan': I64): NullablePointer[GDateTimeT] =>
     @g_date_time_add(datetime', timespan')

@@ -1,2 +1,2 @@
-  fun pop_thread_default(context': GMainContext): None =>
+  fun pop_thread_default(context': NullablePointer[GMainContextT]): None =>
     @g_main_context_pop_thread_default(context')

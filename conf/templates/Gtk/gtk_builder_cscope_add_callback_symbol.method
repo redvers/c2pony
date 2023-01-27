@@ -1,2 +1,0 @@
-  fun ref add_callback_symbol(callback_name': String, callback_symbol': GCallback): None =>
-    GtkBuilderCScopeP.add_callback_symbol(this, callback_name', callback_symbol')

@@ -1,1 +1,0 @@
-use @gtk_event_controller_scroll_new[GtkEventController](flags': U32)

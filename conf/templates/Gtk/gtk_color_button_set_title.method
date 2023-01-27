@@ -1,2 +1,0 @@
-  fun ref set_title(title': String): None =>
-    GtkColorButtonP.set_title(this, title')

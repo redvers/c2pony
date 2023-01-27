@@ -1,2 +1,0 @@
-  fun set_model(self': GtkColumnView, model': GtkSelectionModel): None =>
-    @gtk_column_view_set_model(self', model')

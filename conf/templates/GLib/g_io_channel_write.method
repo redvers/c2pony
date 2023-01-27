@@ -1,2 +1,2 @@
   fun ref write(buf': String, count': U64, bytes_written': Pointer[U64] tag): U32 =>
-    GIOChannelP.write(this, buf', count', bytes_written')
+    GIOChannelP.write(this.ptr, buf', count', bytes_written')

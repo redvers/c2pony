@@ -1,1 +1,0 @@
-use @g_settings_get_uint64[U64](settings': GSettings, key': Pointer[U8] tag)

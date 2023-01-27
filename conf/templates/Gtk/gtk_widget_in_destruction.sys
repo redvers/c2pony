@@ -1,2 +1,0 @@
-  fun in_destruction(widget': GtkWidgetI): I32 =>
-    @gtk_widget_in_destruction(widget'.getptr())

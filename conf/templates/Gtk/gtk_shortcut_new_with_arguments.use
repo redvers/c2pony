@@ -1,1 +1,0 @@
-use @gtk_shortcut_new_with_arguments[GtkShortcut](trigger': GtkShortcutTrigger, action': GtkShortcutAction, format_string': Pointer[U8] tag, ...)

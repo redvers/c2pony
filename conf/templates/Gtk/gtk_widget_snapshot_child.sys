@@ -1,2 +1,0 @@
-  fun snapshot_child(widget': GtkWidgetI, child': GtkWidgetI, snapshot': GdkSnapshot): None =>
-    @gtk_widget_snapshot_child(widget'.getptr(), child'.getptr(), snapshot')

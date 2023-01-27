@@ -1,1 +1,1 @@
-use @g_uri_get_fragment[Pointer[U8]](uri': GUri)
+use @g_uri_get_fragment[Pointer[U8]](uri': NullablePointer[GUriT])

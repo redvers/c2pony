@@ -1,1 +1,0 @@
-use @gtk_assistant_get_page_complete[I32](assistant': GtkAssistant, page': Pointer[GObjectP])

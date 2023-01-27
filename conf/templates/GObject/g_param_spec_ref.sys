@@ -1,2 +1,2 @@
-  fun ref(pspec': GParamSpec): GParamSpec =>
+  fun ref(pspec': NullablePointer[GParamSpecT]): NullablePointer[GParamSpecT] =>
     @g_param_spec_ref(pspec')

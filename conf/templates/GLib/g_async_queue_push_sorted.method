@@ -1,2 +1,2 @@
   fun ref push_sorted(data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
-    GAsyncQueueP.push_sorted(this, data', func', user_data')
+    GAsyncQueueP.push_sorted(this.ptr, data', func', user_data')

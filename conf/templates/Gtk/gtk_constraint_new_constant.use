@@ -1,1 +1,0 @@
-use @gtk_constraint_new_constant[GtkConstraint](target': Pointer[None] tag, target_attribute': U32, relation': I32, constant': F64, strength': I32)

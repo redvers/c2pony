@@ -1,2 +1,0 @@
-  fun ref get_needs_attention(): I32 =>
-    GtkStackPageP.get_needs_attention(this)

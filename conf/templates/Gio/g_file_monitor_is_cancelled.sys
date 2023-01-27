@@ -1,2 +1,0 @@
-  fun is_cancelled(monitor': GFileMonitor): I32 =>
-    @g_file_monitor_is_cancelled(monitor')

@@ -1,2 +1,0 @@
-  fun ref set_flags(key': String, value': U32): I32 =>
-    GSettingsP.set_flags(this, key', value')

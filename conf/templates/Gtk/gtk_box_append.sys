@@ -1,2 +1,0 @@
-  fun append(box': GtkBox, child': GtkWidgetI): None =>
-    @gtk_box_append(box', child'.getptr())

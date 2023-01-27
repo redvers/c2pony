@@ -1,2 +1,0 @@
-  fun equals(self': GtkBitset, other': GtkBitset): I32 =>
-    @gtk_bitset_equals(self', other')

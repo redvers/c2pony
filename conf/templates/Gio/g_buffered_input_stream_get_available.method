@@ -1,2 +1,0 @@
-  fun ref get_available(): U64 =>
-    GBufferedInputStreamP.get_available(this)

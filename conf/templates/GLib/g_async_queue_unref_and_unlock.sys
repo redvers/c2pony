@@ -1,2 +1,2 @@
-  fun unref_and_unlock(queue': GAsyncQueue): None =>
+  fun unref_and_unlock(queue': NullablePointer[GAsyncQueueT]): None =>
     @g_async_queue_unref_and_unlock(queue')

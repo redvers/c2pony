@@ -1,2 +1,0 @@
-  fun get_child(self': GtkListItem): Pointer[GObjectP] =>
-@gtk_list_item_get_child(self')

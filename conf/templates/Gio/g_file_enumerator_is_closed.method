@@ -1,2 +1,0 @@
-  fun ref is_closed(): I32 =>
-    GFileEnumeratorP.is_closed(this)

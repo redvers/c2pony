@@ -1,2 +1,2 @@
-  fun element(type': GVariantType): GVariantType =>
+  fun element(type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantTypeT] =>
     @g_variant_type_element(type')

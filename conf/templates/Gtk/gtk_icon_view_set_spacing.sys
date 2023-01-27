@@ -1,2 +1,0 @@
-  fun set_spacing(icon_view': GtkIconView, spacing': I32): None =>
-    @gtk_icon_view_set_spacing(icon_view', spacing')

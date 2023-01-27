@@ -1,1 +1,1 @@
-use @g_type_check_class_is_a[I32](g_class': GTypeClass, is_a_type': U64)
+use @g_type_check_class_is_a[I32](g_class': NullablePointer[GTypeClassT], is_a_type': U64)

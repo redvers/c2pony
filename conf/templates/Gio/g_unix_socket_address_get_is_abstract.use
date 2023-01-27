@@ -1,1 +1,0 @@
-use @g_unix_socket_address_get_is_abstract[I32](address': GUnixSocketAddress)

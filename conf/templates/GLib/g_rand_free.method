@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GRandP.free(this)
+    GRandP.free(this.ptr)

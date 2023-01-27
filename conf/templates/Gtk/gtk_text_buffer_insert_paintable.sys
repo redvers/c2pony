@@ -1,2 +1,0 @@
-  fun insert_paintable(buffer': GtkTextBuffer, iter': GtkTextIter, paintable': GdkPaintable): None =>
-    @gtk_text_buffer_insert_paintable(buffer', iter', paintable')

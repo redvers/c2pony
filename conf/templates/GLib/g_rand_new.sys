@@ -1,2 +1,2 @@
-  fun new(): GRand =>
+  fun new(): NullablePointer[GRandT] =>
     @g_rand_new()

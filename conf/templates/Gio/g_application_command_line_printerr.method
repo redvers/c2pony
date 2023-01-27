@@ -1,2 +1,0 @@
-  fun ref printerr(format': String, ...): None =>
-    GApplicationCommandLineP.printerr(this, format', ...)

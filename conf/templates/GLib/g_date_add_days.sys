@@ -1,2 +1,2 @@
-  fun add_days(date': GDate, n_days': U32): None =>
+  fun add_days(date': NullablePointer[GDateT], n_days': U32): None =>
     @g_date_add_days(date', n_days')

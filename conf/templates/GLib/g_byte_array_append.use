@@ -1,1 +1,1 @@
-use @g_byte_array_append[GByteArray](array': GByteArray, data': Pointer[U8] tag, len': U32)
+use @g_byte_array_append[NullablePointer[GByteArrayT]](array': NullablePointer[GByteArrayT], data': Pointer[U8] tag, len': U32)

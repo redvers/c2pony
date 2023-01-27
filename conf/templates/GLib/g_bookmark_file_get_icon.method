@@ -1,2 +1,2 @@
-  fun ref get_icon(uri': String, href': Pointer[Pointer[U8]] tag, mime_type': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    GBookmarkFileP.get_icon(this, uri', href', mime_type', error')
+  fun ref get_icon(uri': String, href': Pointer[Pointer[U8]] tag, mime_type': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GBookmarkFileP.get_icon(this.ptr, uri', href', mime_type', error')

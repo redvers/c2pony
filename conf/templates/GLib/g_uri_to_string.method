@@ -1,2 +1,2 @@
   fun ref to_string(): String iso^ =>
-    GUriP.to_string(this)
+    GUriP.to_string(this.ptr)

@@ -1,2 +1,0 @@
-  fun ref get_angle_delta(): F64 =>
-    GtkGestureRotateP.get_angle_delta(this)

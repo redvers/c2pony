@@ -1,2 +1,0 @@
-  fun set_source_tag(task': GTask, source_tag': Pointer[None] tag): None =>
-    @g_task_set_source_tag(task', source_tag')

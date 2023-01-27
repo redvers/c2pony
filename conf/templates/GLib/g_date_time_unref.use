@@ -1,1 +1,1 @@
-use @g_date_time_unref[None](datetime': GDateTime)
+use @g_date_time_unref[None](datetime': NullablePointer[GDateTimeT])

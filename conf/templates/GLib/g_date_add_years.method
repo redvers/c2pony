@@ -1,2 +1,2 @@
   fun ref add_years(n_years': U32): None =>
-    GDateP.add_years(this, n_years')
+    GDateP.add_years(this.ptr, n_years')

@@ -1,2 +1,0 @@
-  fun new(icon': GIcon, emblem': GEmblem): GIcon =>
-    @g_emblemed_icon_new(icon', emblem')

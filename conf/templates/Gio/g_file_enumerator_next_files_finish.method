@@ -1,2 +1,0 @@
-  fun ref next_files_finish(result': GAsyncResult, error': GError): GList =>
-    GFileEnumeratorP.next_files_finish(this, result', error')

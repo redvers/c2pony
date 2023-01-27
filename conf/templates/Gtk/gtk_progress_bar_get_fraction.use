@@ -1,1 +1,0 @@
-use @gtk_progress_bar_get_fraction[F64](pbar': GtkProgressBar)

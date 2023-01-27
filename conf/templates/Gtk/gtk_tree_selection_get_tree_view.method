@@ -1,2 +1,0 @@
-  fun ref get_tree_view(): GtkTreeView =>
-    GtkTreeSelectionP.get_tree_view(this)

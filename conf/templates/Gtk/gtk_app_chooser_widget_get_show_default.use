@@ -1,1 +1,0 @@
-use @gtk_app_chooser_widget_get_show_default[I32](self': GtkAppChooserWidget)

@@ -1,1 +1,1 @@
-use @g_variant_get_type[GVariantType](value': GVariant)
+use @g_variant_get_type[NullablePointer[GVariantTypeT]](value': NullablePointer[GVariantT])

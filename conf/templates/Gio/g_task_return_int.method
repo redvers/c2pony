@@ -1,2 +1,0 @@
-  fun ref return_int(result': I64): None =>
-    GTaskP.return_int(this, result')

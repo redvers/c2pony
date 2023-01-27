@@ -1,2 +1,0 @@
-  fun ref get_sender(): String iso^ =>
-    GDBusMessageP.get_sender(this)

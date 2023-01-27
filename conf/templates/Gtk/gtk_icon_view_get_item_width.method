@@ -1,2 +1,0 @@
-  fun ref get_item_width(): I32 =>
-    GtkIconViewP.get_item_width(this)

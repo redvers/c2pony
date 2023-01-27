@@ -1,2 +1,0 @@
-  fun peek_buffer(stream': GBufferedInputStream, count': Pointer[U64] tag): Pointer[None] tag =>
-    @g_buffered_input_stream_peek_buffer(stream', count')

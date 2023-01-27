@@ -1,1 +1,1 @@
-use @g_type_add_interface_static[None](instance_type': U64, interface_type': U64, info': GInterfaceInfo)
+use @g_type_add_interface_static[None](instance_type': U64, interface_type': U64, info': NullablePointer[GInterfaceInfoT])

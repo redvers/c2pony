@@ -1,2 +1,0 @@
-  fun ref is_active(): I32 =>
-    GSocketServiceP.is_active(this)

@@ -1,2 +1,0 @@
-  fun ref get_spinning(): I32 =>
-    GtkSpinnerP.get_spinning(this)

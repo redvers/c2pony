@@ -1,2 +1,0 @@
-  fun lookup_callback_symbol(self': GtkBuilderCScope, callback_name': String): GCallback =>
-    @gtk_builder_cscope_lookup_callback_symbol(self', callback_name'.cstring())

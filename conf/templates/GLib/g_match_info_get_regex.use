@@ -1,1 +1,1 @@
-use @g_match_info_get_regex[GRegex](match_info': GMatchInfo)
+use @g_match_info_get_regex[NullablePointer[GRegexT]](match_info': NullablePointer[GMatchInfoT])

@@ -1,2 +1,0 @@
-  fun ref setenv(variable': String, value': String, overwrite': I32): None =>
-    GSubprocessLauncherP.setenv(this, variable', value', overwrite')

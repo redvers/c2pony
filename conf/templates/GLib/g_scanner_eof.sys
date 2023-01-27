@@ -1,2 +1,2 @@
-  fun eof(scanner': GScanner): I32 =>
+  fun eof(scanner': NullablePointer[GScannerT]): I32 =>
     @g_scanner_eof(scanner')

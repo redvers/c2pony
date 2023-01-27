@@ -1,2 +1,2 @@
-  fun is_destroyed(source': GSource): I32 =>
+  fun is_destroyed(source': NullablePointer[GSourceT]): I32 =>
     @g_source_is_destroyed(source')

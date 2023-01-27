@@ -1,2 +1,0 @@
-  fun ref set_activate_on_single_click(single': I32): None =>
-    GtkFlowBoxP.set_activate_on_single_click(this, single')

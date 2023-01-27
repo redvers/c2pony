@@ -1,1 +1,1 @@
-use @g_slist_alloc[GSList]()
+use @g_slist_alloc[NullablePointer[GSListT]]()

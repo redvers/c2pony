@@ -1,2 +1,0 @@
-  fun test_accessible_check_state(accessible': GtkAccessible, state': U32, ...): String iso^ =>
-    String.from_cstring(@gtk_test_accessible_check_state(accessible', state', ...)).clone()

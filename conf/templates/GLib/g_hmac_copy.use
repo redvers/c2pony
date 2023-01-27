@@ -1,1 +1,1 @@
-use @g_hmac_copy[GHmac](hmac': GHmac)
+use @g_hmac_copy[NullablePointer[GHmacT]](hmac': NullablePointer[GHmacT])

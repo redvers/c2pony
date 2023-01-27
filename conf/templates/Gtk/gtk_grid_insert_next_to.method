@@ -1,2 +1,0 @@
-  fun ref insert_next_to(sibling': GtkWidgetI, side': U32): None =>
-    GtkGridP.insert_next_to(this, sibling', side')

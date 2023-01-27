@@ -1,1 +1,0 @@
-use @gtk_list_store_set_column_types[None](list_store': GtkListStore, n_columns': I32, types': Pointer[U64] tag)

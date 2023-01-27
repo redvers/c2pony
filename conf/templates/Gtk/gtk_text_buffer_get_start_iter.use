@@ -1,1 +1,0 @@
-use @gtk_text_buffer_get_start_iter[None](buffer': GtkTextBuffer, iter': GtkTextIter)

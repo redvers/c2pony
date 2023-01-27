@@ -1,2 +1,0 @@
-  fun ref clear_marks(): None =>
-    GtkScaleP.clear_marks(this)

@@ -1,2 +1,0 @@
-  fun new(): GtkTreeViewColumn =>
-    @gtk_tree_view_column_new()

@@ -1,2 +1,0 @@
-  fun get_vexpand(widget': GtkWidgetI): I32 =>
-    @gtk_widget_get_vexpand(widget'.getptr())

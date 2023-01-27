@@ -1,1 +1,0 @@
-use @gtk_mnemonic_trigger_get_keyval[U32](self': GtkMnemonicTrigger)

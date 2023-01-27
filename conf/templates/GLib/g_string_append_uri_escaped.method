@@ -1,2 +1,2 @@
-  fun ref append_uri_escaped(unescaped': String, reserved_chars_allowed': String, allow_utf8': I32): GString =>
-    GStringP.append_uri_escaped(this, unescaped', reserved_chars_allowed', allow_utf8')
+  fun ref append_uri_escaped(unescaped': String, reserved_chars_allowed': String, allow_utf8': I32): NullablePointer[GStringT] =>
+    GStringP.append_uri_escaped(this.ptr, unescaped', reserved_chars_allowed', allow_utf8')

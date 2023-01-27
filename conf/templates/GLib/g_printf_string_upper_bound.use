@@ -1,1 +1,1 @@
-use @g_printf_string_upper_bound[U64](format': Pointer[U8] tag, args': valisttag)
+use @g_printf_string_upper_bound[U64](format': Pointer[U8] tag, args': NullablePointer[valisttagT])

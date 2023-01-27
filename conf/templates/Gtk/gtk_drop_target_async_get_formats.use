@@ -1,1 +1,0 @@
-use @gtk_drop_target_async_get_formats[GdkContentFormats](self': GtkDropTargetAsync)

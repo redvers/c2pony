@@ -1,2 +1,2 @@
   fun ref get_ymd(year': Pointer[I32] tag, month': Pointer[I32] tag, day': Pointer[I32] tag): None =>
-    GDateTimeP.get_ymd(this, year', month', day')
+    GDateTimeP.get_ymd(this.ptr, year', month', day')

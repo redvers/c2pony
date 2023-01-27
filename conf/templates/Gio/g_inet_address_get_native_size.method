@@ -1,2 +1,0 @@
-  fun ref get_native_size(): U64 =>
-    GInetAddressP.get_native_size(this)

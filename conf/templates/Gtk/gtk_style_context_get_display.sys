@@ -1,2 +1,0 @@
-  fun get_display(context': GtkStyleContext): GdkDisplay =>
-    @gtk_style_context_get_display(context')

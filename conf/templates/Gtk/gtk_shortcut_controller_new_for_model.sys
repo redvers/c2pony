@@ -1,2 +1,0 @@
-  fun new_for_model(model': GListModel): GtkEventController =>
-    @gtk_shortcut_controller_new_for_model(model')

@@ -1,2 +1,0 @@
-  fun set_reorderable(icon_view': GtkIconView, reorderable': I32): None =>
-    @gtk_icon_view_set_reorderable(icon_view', reorderable')

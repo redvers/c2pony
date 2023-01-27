@@ -1,2 +1,0 @@
-  fun ref get_drag_dest_item(path': Pointer[GtkTreePath], pos': Pointer[U32] tag): None =>
-    GtkIconViewP.get_drag_dest_item(this, path', pos')

@@ -1,1 +1,0 @@
-use @g_file_info_set_is_hidden[None](info': GFileInfo, is_hidden': I32)

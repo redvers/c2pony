@@ -1,2 +1,0 @@
-  fun ref set_context_id(context_id': String): None =>
-    GtkIMMulticontextP.set_context_id(this, context_id')

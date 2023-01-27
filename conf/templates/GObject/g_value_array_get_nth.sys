@@ -1,2 +1,2 @@
-  fun get_nth(value_array': GValueArray, index': U32): GValue =>
+  fun get_nth(value_array': NullablePointer[GValueArrayT], index': U32): NullablePointer[GValueT] =>
     @g_value_array_get_nth(value_array', index')

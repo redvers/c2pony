@@ -1,2 +1,2 @@
-  fun split_network(uri_string': String, flags': U32, scheme': Pointer[Pointer[U8]] tag, host': Pointer[Pointer[U8]] tag, port': Pointer[I32] tag, error': GError): I32 =>
-    @g_uri_split_network(uri_string'.cstring(), flags', scheme', host', port', addressof error'.ptr)
+  fun split_network(uri_string': String, flags': U32, scheme': Pointer[Pointer[U8]] tag, host': Pointer[Pointer[U8]] tag, port': Pointer[I32] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_uri_split_network(uri_string'.cstring(), flags', scheme', host', port', error')

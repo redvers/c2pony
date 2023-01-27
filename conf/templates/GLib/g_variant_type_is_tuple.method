@@ -1,2 +1,2 @@
   fun ref is_tuple(): I32 =>
-    GVariantTypeP.is_tuple(this)
+    GVariantTypeP.is_tuple(this.ptr)

@@ -1,1 +1,1 @@
-use @g_variant_new_dict_entry[GVariant](key': GVariant, value': GVariant)
+use @g_variant_new_dict_entry[NullablePointer[GVariantT]](key': NullablePointer[GVariantT], value': NullablePointer[GVariantT])

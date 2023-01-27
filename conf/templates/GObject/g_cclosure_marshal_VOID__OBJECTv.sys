@@ -1,2 +1,2 @@
-  fun marshal_VOID__OBJECTv(closure': GClosure, return_value': GValue, instance': Pointer[None] tag, args': valisttag, marshal_data': Pointer[None] tag, n_params': I32, param_types': Pointer[U64] tag): None =>
+  fun marshal_VOID__OBJECTv(closure': NullablePointer[GClosureT], return_value': NullablePointer[GValueT], instance': Pointer[None] tag, args': NullablePointer[valisttagT], marshal_data': Pointer[None] tag, n_params': I32, param_types': Pointer[U64] tag): None =>
     @g_cclosure_marshal_VOID__OBJECTv(closure', return_value', instance', args', marshal_data', n_params', param_types')

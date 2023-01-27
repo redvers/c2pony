@@ -1,1 +1,1 @@
-use @g_slist_concat[GSList](list1': GSList, list2': GSList)
+use @g_slist_concat[NullablePointer[GSListT]](list1': NullablePointer[GSListT], list2': NullablePointer[GSListT])

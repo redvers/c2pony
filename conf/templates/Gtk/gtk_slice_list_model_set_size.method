@@ -1,2 +1,0 @@
-  fun ref set_size(size': U32): None =>
-    GtkSliceListModelP.set_size(this, size')

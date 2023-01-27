@@ -1,2 +1,2 @@
-  fun init(dict': GVariantDict, from_asv': GVariant): None =>
+  fun init(dict': NullablePointer[GVariantDictT], from_asv': NullablePointer[GVariantT]): None =>
     @g_variant_dict_init(dict', from_asv')

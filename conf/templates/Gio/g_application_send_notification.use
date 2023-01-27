@@ -1,1 +1,0 @@
-use @g_application_send_notification[None](application': Pointer[GObjectP], id': Pointer[U8] tag, notification': GNotification)

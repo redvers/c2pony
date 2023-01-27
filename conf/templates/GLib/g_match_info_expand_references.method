@@ -1,2 +1,2 @@
-  fun ref expand_references(string_to_expand': String, error': GError): String iso^ =>
-    GMatchInfoP.expand_references(this, string_to_expand', error')
+  fun ref expand_references(string_to_expand': String, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    GMatchInfoP.expand_references(this.ptr, string_to_expand', error')

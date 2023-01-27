@@ -1,2 +1,2 @@
-  fun alloc(): GList =>
+  fun alloc(): NullablePointer[GListT] =>
     @g_list_alloc()

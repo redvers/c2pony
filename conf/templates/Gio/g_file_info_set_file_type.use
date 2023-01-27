@@ -1,1 +1,0 @@
-use @g_file_info_set_file_type[None](info': GFileInfo, type': U32)

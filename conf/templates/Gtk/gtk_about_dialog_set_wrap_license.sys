@@ -1,2 +1,0 @@
-  fun set_wrap_license(about': GtkAboutDialog, wrap_license': I32): None =>
-    @gtk_about_dialog_set_wrap_license(about', wrap_license')

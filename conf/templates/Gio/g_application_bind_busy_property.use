@@ -1,1 +1,0 @@
-use @g_application_bind_busy_property[None](application': Pointer[GObjectP], object': Pointer[None] tag, property': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun move(src': GSequenceNode, dest': GSequenceNode): None =>
+  fun move(src': NullablePointer[GSequenceNodeT], dest': NullablePointer[GSequenceNodeT]): None =>
     @g_sequence_move(src', dest')

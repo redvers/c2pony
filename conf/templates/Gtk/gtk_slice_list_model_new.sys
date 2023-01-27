@@ -1,2 +1,0 @@
-  fun new(model': GListModel, offset': U32, size': U32): GtkSliceListModel =>
-    @gtk_slice_list_model_new(model', offset', size')

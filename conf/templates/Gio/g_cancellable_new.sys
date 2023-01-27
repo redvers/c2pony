@@ -1,2 +1,0 @@
-  fun new(): GCancellable =>
-    @g_cancellable_new()

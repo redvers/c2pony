@@ -1,2 +1,0 @@
-  fun ref unset_placement(): None =>
-    GtkScrolledWindowP.unset_placement(this)

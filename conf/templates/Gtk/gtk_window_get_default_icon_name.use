@@ -1,1 +1,0 @@
-use @gtk_window_get_default_icon_name[Pointer[U8]]()

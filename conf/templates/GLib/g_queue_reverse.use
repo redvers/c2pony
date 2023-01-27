@@ -1,1 +1,1 @@
-use @g_queue_reverse[None](queue': GQueue)
+use @g_queue_reverse[None](queue': NullablePointer[GQueueT])

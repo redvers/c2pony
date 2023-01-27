@@ -1,1 +1,1 @@
-use @g_date_time_get_week_numbering_year[I32](datetime': GDateTime)
+use @g_date_time_get_week_numbering_year[I32](datetime': NullablePointer[GDateTimeT])

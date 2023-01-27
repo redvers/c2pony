@@ -1,2 +1,0 @@
-  fun ref get_icon_sizes(icon_name': String): Pointer[I32] tag =>
-    GtkIconThemeP.get_icon_sizes(this, icon_name')

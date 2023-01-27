@@ -1,2 +1,0 @@
-  fun get_value_type(key': GSettingsSchemaKey): GVariantType =>
-    @g_settings_schema_key_get_value_type(key')

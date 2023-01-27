@@ -1,2 +1,2 @@
-  fun new_full(reserved_size': U32, element_free_func': GDestroyNotify): GPtrArray =>
+  fun new_full(reserved_size': U32, element_free_func': Pointer[None]): NullablePointer[GPtrArrayT] =>
     @g_ptr_array_new_full(reserved_size', element_free_func')

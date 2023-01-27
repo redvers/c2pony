@@ -1,2 +1,2 @@
   fun ref free(immediate': I32, wait': I32): None =>
-    GThreadPoolP.free(this, immediate', wait')
+    GThreadPoolP.free(this.ptr, immediate', wait')

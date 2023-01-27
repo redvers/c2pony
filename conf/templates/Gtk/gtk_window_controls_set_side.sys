@@ -1,2 +1,0 @@
-  fun set_side(self': GtkWindowControls, side': U32): None =>
-    @gtk_window_controls_set_side(self', side')

@@ -1,2 +1,0 @@
-  fun ref get_name(): String iso^ =>
-    GMenuLinkIterP.get_name(this)

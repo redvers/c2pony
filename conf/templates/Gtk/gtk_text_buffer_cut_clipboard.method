@@ -1,2 +1,0 @@
-  fun ref cut_clipboard(clipboard': GdkClipboard, default_editable': I32): None =>
-    GtkTextBufferP.cut_clipboard(this, clipboard', default_editable')

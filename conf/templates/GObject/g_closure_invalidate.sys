@@ -1,2 +1,2 @@
-  fun invalidate(closure': GClosure): None =>
+  fun invalidate(closure': NullablePointer[GClosureT]): None =>
     @g_closure_invalidate(closure')

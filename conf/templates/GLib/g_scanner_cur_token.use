@@ -1,1 +1,1 @@
-use @g_scanner_cur_token[U32](scanner': GScanner)
+use @g_scanner_cur_token[U32](scanner': NullablePointer[GScannerT])

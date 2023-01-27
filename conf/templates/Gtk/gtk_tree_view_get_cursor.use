@@ -1,1 +1,0 @@
-use @gtk_tree_view_get_cursor[None](tree_view': GtkTreeView, path': Pointer[GtkTreePath], focus_column': Pointer[GtkTreeViewColumn])

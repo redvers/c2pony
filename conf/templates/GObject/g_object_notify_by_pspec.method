@@ -1,2 +1,2 @@
-  fun ref notify_by_pspec(pspec': GParamSpec): None =>
-    GObjectP.notify_by_pspec(this, pspec')
+  fun ref notify_by_pspec(pspec': NullablePointer[GParamSpecT]): None =>
+    GObjectP.notify_by_pspec(this.ptr, pspec')

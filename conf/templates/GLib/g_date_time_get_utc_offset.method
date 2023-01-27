@@ -1,2 +1,2 @@
   fun ref get_utc_offset(): I64 =>
-    GDateTimeP.get_utc_offset(this)
+    GDateTimeP.get_utc_offset(this.ptr)

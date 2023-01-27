@@ -1,2 +1,0 @@
-  fun get_hhomogeneous(stack': GtkStack): I32 =>
-    @gtk_stack_get_hhomogeneous(stack')

@@ -1,2 +1,0 @@
-  fun ref add_suffix(suffix': String): None =>
-    GtkFileFilterP.add_suffix(this, suffix')

@@ -1,1 +1,0 @@
-use @gtk_text_get_text_length[U16](self': GtkText)

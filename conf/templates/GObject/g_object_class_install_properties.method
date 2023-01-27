@@ -1,2 +1,2 @@
-  fun ref install_properties(n_pspecs': U32, pspecs': Pointer[GParamSpec]): None =>
-    GObjectClassP.install_properties(this, n_pspecs', pspecs')
+  fun ref install_properties(n_pspecs': U32, pspecs': Pointer[NullablePointer[GParamSpecT]]): None =>
+    GObjectClassP.install_properties(this.ptr, n_pspecs', pspecs')

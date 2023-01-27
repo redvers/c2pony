@@ -1,2 +1,0 @@
-  fun set_default_size(window': GtkWindowI, width': I32, height': I32): None =>
-    @gtk_window_set_default_size(window'.getptr(), width', height')

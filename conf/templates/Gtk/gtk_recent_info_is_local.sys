@@ -1,2 +1,0 @@
-  fun is_local(info': GtkRecentInfo): I32 =>
-    @gtk_recent_info_is_local(info')

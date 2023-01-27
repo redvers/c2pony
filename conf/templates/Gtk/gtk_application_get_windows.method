@@ -1,2 +1,0 @@
-  fun ref get_windows(): GList =>
-    GtkApplicationP.get_windows(this)

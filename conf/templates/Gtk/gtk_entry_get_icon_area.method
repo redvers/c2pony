@@ -1,2 +1,0 @@
-  fun ref get_icon_area(icon_pos': U32, icon_area': cairorectangleint): None =>
-    GtkEntryP.get_icon_area(this, icon_pos', icon_area')

@@ -1,1 +1,1 @@
-use @g_type_add_interface_dynamic[None](instance_type': U64, interface_type': U64, plugin': GTypePlugin)
+use @g_type_add_interface_dynamic[None](instance_type': U64, interface_type': U64, plugin': NullablePointer[GTypePluginT])

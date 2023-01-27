@@ -1,1 +1,0 @@
-use @gtk_shortcut_trigger_equal[I32](trigger1': Pointer[None] tag, trigger2': Pointer[None] tag)

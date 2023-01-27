@@ -1,2 +1,0 @@
-  fun get_application(window': GtkWindowI): Pointer[GObjectP] =>
-@gtk_window_get_application(window'.getptr())

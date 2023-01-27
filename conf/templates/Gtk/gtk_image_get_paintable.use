@@ -1,1 +1,0 @@
-use @gtk_image_get_paintable[GdkPaintable](image': GtkImage)

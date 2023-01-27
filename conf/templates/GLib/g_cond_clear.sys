@@ -1,2 +1,2 @@
-  fun clear(cond': GCond): None =>
+  fun clear(cond': NullablePointer[GCondT]): None =>
     @g_cond_clear(cond')

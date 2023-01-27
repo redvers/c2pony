@@ -1,2 +1,2 @@
-  fun parse_relative(base_uri': GUri, uri_ref': String, flags': U32, error': GError): GUri =>
-    @g_uri_parse_relative(base_uri', uri_ref'.cstring(), flags', addressof error'.ptr)
+  fun parse_relative(base_uri': NullablePointer[GUriT], uri_ref': String, flags': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GUriT] =>
+    @g_uri_parse_relative(base_uri', uri_ref'.cstring(), flags', error')

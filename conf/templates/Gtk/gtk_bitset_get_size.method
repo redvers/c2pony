@@ -1,2 +1,0 @@
-  fun ref get_size(): U64 =>
-    GtkBitsetP.get_size(this)

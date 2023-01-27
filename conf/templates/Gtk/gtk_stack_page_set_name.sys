@@ -1,2 +1,0 @@
-  fun set_name(self': GtkStackPage, setting': String): None =>
-    @gtk_stack_page_set_name(self', setting'.cstring())

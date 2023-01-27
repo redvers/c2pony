@@ -1,2 +1,2 @@
-  fun sort(value_array': GValueArray, compare_func': GCompareFunc): GValueArray =>
+  fun sort(value_array': NullablePointer[GValueArrayT], compare_func': GCompareFunc): NullablePointer[GValueArrayT] =>
     @g_value_array_sort(value_array', compare_func')

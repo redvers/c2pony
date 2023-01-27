@@ -1,1 +1,1 @@
-use @g_sequence_new[GSequence](data_destroy': GDestroyNotify)
+use @g_sequence_new[NullablePointer[GSequenceT]](data_destroy': Pointer[None])

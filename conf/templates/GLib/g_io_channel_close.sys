@@ -1,2 +1,2 @@
-  fun close(channel': GIOChannel): None =>
+  fun close(channel': NullablePointer[GIOChannelT]): None =>
     @g_io_channel_close(channel')

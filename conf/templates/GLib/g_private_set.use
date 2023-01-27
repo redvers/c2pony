@@ -1,1 +1,1 @@
-use @g_private_set[None](key': GPrivate, value': Pointer[None] tag)
+use @g_private_set[None](key': NullablePointer[GPrivateT], value': Pointer[None] tag)

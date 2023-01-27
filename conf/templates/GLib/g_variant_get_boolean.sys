@@ -1,2 +1,2 @@
-  fun get_boolean(value': GVariant): I32 =>
+  fun get_boolean(value': NullablePointer[GVariantT]): I32 =>
     @g_variant_get_boolean(value')

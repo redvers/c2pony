@@ -1,2 +1,2 @@
   fun ref get_size(): U64 =>
-    GVariantP.get_size(this)
+    GVariantP.get_size(this.ptr)

@@ -1,2 +1,0 @@
-  fun init(static_resource': GStaticResource): None =>
-    @g_static_resource_init(static_resource')

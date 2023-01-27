@@ -1,2 +1,2 @@
-  fun copy(iter': GVariantIter): GVariantIter =>
+  fun copy(iter': NullablePointer[GVariantIterT]): NullablePointer[GVariantIterT] =>
     @g_variant_iter_copy(iter')

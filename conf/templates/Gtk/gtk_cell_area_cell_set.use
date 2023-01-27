@@ -1,1 +1,0 @@
-use @gtk_cell_area_cell_set[None](area': GtkCellArea, renderer': GtkCellRenderer, first_prop_name': Pointer[U8] tag, ...)

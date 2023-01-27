@@ -1,2 +1,2 @@
   fun ref set_instance(instance': Pointer[None] tag): None =>
-    GValueP.set_instance(this, instance')
+    GValueP.set_instance(this.ptr, instance')

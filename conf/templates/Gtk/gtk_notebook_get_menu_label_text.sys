@@ -1,2 +1,0 @@
-  fun get_menu_label_text(notebook': GtkNotebook, child': GtkWidgetI): String iso^ =>
-    String.from_cstring(@gtk_notebook_get_menu_label_text(notebook', child'.getptr())).clone()

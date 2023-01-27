@@ -1,2 +1,0 @@
-  fun get_target_attribute(constraint': GtkConstraint): U32 =>
-    @gtk_constraint_get_target_attribute(constraint')

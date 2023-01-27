@@ -1,2 +1,0 @@
-  fun ref get_adjustment(): GtkAdjustment =>
-    GtkScaleButtonP.get_adjustment(this)

@@ -1,2 +1,0 @@
-  fun ref call(bus_name': String, object_path': String, interface_name': String, method_name': String, parameters': GVariant, reply_type': GVariantType, flags': U32, timeout_msec': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    GDBusConnectionP.call(this, bus_name', object_path', interface_name', method_name', parameters', reply_type', flags', timeout_msec', cancellable', callback', user_data')

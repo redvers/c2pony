@@ -1,1 +1,0 @@
-use @g_proxy_address_new[GSocketAddress](inetaddr': GInetAddress, port': U16, protocol': Pointer[U8] tag, dest_hostname': Pointer[U8] tag, dest_port': U16, username': Pointer[U8] tag, password': Pointer[U8] tag)

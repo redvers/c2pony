@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GKeyFileP.unref(this)
+    GKeyFileP.unref(this.ptr)

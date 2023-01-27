@@ -1,1 +1,1 @@
-use @g_clear_slist[None](slist_ptr': Pointer[GSList], destroy': GDestroyNotify)
+use @g_clear_slist[None](slist_ptr': Pointer[NullablePointer[GSListT]], destroy': Pointer[None])

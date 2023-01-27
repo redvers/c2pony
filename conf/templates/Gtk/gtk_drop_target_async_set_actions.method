@@ -1,2 +1,0 @@
-  fun ref set_actions(actions': U32): None =>
-    GtkDropTargetAsyncP.set_actions(this, actions')

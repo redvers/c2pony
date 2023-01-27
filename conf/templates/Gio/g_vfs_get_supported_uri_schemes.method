@@ -1,2 +1,0 @@
-  fun ref get_supported_uri_schemes(): Pointer[Pointer[U8]] tag =>
-    GVfsP.get_supported_uri_schemes(this)

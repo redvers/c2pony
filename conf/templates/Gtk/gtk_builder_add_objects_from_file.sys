@@ -1,2 +1,0 @@
-  fun add_objects_from_file(builder': GtkBuilderI, filename': String, object_ids': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    @gtk_builder_add_objects_from_file(builder'.getptr(), filename'.cstring(), object_ids', addressof error'.ptr)

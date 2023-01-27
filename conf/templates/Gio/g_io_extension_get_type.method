@@ -1,2 +1,0 @@
-  fun ref get_type(): U64 =>
-    GIOExtensionP.get_type(this)

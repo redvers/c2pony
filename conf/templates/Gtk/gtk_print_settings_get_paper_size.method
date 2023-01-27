@@ -1,2 +1,0 @@
-  fun ref get_paper_size(): GtkPaperSize =>
-    GtkPrintSettingsP.get_paper_size(this)

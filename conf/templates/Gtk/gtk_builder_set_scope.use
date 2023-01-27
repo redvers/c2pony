@@ -1,1 +1,0 @@
-use @gtk_builder_set_scope[None](builder': Pointer[GObjectP], scope': GtkBuilderScope)

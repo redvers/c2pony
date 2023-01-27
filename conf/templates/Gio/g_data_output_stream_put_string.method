@@ -1,2 +1,0 @@
-  fun ref put_string(str': String, cancellable': GCancellable, error': GError): I32 =>
-    GDataOutputStreamP.put_string(this, str', cancellable', error')

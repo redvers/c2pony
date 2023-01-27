@@ -1,1 +1,0 @@
-use @gtk_text_view_get_iter_at_position[I32](text_view': GtkTextView, iter': GtkTextIter, trailing': Pointer[I32] tag, x': I32, y': I32)

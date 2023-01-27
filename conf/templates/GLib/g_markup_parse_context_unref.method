@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GMarkupParseContextP.unref(this)
+    GMarkupParseContextP.unref(this.ptr)

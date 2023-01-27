@@ -1,1 +1,0 @@
-use @gtk_gl_area_get_use_es[I32](area': GtkGLArea)

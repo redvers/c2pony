@@ -1,2 +1,0 @@
-  fun set_tab_label(notebook': GtkNotebook, child': GtkWidgetI, tab_label': GtkWidgetI): None =>
-    @gtk_notebook_set_tab_label(notebook', child'.getptr(), tab_label'.getptr())

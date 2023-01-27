@@ -1,2 +1,2 @@
   fun ref set(first_property_name': String, ...): None =>
-    GObjectP.set(this, first_property_name', ...)
+    GObjectP.set(this.ptr, first_property_name', ...)

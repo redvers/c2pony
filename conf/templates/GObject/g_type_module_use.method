@@ -1,2 +1,2 @@
   fun ref use(): I32 =>
-    GTypeModuleP.use(this)
+    GTypeModuleP.use(this.ptr)

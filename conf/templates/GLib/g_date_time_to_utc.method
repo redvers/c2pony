@@ -1,2 +1,2 @@
-  fun ref to_utc(): GDateTime =>
-    GDateTimeP.to_utc(this)
+  fun ref to_utc(): NullablePointer[GDateTimeT] =>
+    GDateTimeP.to_utc(this.ptr)

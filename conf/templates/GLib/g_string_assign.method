@@ -1,2 +1,2 @@
-  fun ref assign(rval': String): GString =>
-    GStringP.assign(this, rval')
+  fun ref assign(rval': String): NullablePointer[GStringT] =>
+    GStringP.assign(this.ptr, rval')

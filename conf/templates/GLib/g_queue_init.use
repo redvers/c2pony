@@ -1,1 +1,1 @@
-use @g_queue_init[None](queue': GQueue)
+use @g_queue_init[None](queue': NullablePointer[GQueueT])

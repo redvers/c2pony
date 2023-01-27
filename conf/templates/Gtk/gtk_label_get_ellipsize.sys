@@ -1,2 +1,0 @@
-  fun get_ellipsize(self': GtkLabel): U32 =>
-    @gtk_label_get_ellipsize(self')

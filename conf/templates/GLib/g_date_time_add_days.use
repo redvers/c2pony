@@ -1,1 +1,1 @@
-use @g_date_time_add_days[GDateTime](datetime': GDateTime, days': I32)
+use @g_date_time_add_days[NullablePointer[GDateTimeT]](datetime': NullablePointer[GDateTimeT], days': I32)

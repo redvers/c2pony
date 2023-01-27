@@ -1,1 +1,0 @@
-use @gtk_tree_view_get_cell_area[None](tree_view': GtkTreeView, path': GtkTreePath, column': GtkTreeViewColumn, rect': cairorectangleint)

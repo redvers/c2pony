@@ -1,2 +1,2 @@
-  fun is_container(type': GVariantType): I32 =>
+  fun is_container(type': NullablePointer[GVariantTypeT]): I32 =>
     @g_variant_type_is_container(type')

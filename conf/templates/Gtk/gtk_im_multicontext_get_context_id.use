@@ -1,1 +1,0 @@
-use @gtk_im_multicontext_get_context_id[Pointer[U8]](context': GtkIMMulticontext)

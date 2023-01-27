@@ -1,2 +1,2 @@
-  fun byteswap(value': GVariant): GVariant =>
+  fun byteswap(value': NullablePointer[GVariantT]): NullablePointer[GVariantT] =>
     @g_variant_byteswap(value')

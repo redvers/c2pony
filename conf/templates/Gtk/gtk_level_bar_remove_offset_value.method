@@ -1,2 +1,0 @@
-  fun ref remove_offset_value(name': String): None =>
-    GtkLevelBarP.remove_offset_value(this, name')

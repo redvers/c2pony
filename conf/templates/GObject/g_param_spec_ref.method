@@ -1,2 +1,2 @@
-  fun ref ref(): GParamSpec =>
-    GParamSpecP.ref(this)
+  fun ref ref(): NullablePointer[GParamSpecT] =>
+    GParamSpecP.ref(this.ptr)

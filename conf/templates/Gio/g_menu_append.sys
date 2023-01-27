@@ -1,2 +1,0 @@
-  fun append(menu': GMenu, label': String, detailed_action': String): None =>
-    @g_menu_append(menu', label'.cstring(), detailed_action'.cstring())

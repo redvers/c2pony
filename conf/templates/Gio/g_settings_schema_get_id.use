@@ -1,1 +1,0 @@
-use @g_settings_schema_get_id[Pointer[U8]](schema': GSettingsSchema)

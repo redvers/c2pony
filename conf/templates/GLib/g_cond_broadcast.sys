@@ -1,2 +1,2 @@
-  fun broadcast(cond': GCond): None =>
+  fun broadcast(cond': NullablePointer[GCondT]): None =>
     @g_cond_broadcast(cond')

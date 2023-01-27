@@ -1,2 +1,2 @@
-  fun ref set_variant(variant': GVariant): None =>
-    GValueP.set_variant(this, variant')
+  fun ref set_variant(variant': NullablePointer[GVariantT]): None =>
+    GValueP.set_variant(this.ptr, variant')

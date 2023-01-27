@@ -1,2 +1,2 @@
-  fun ref check(max_priority': I32, fds': GPollFD, n_fds': I32): I32 =>
-    GMainContextP.check(this, max_priority', fds', n_fds')
+  fun ref check(max_priority': I32, fds': NullablePointer[GPollFDT], n_fds': I32): I32 =>
+    GMainContextP.check(this.ptr, max_priority', fds', n_fds')

@@ -1,2 +1,0 @@
-  fun get_expander_column(tree_view': GtkTreeView): GtkTreeViewColumn =>
-    @gtk_tree_view_get_expander_column(tree_view')

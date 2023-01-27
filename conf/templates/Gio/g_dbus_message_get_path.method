@@ -1,2 +1,0 @@
-  fun ref get_path(): String iso^ =>
-    GDBusMessageP.get_path(this)

@@ -1,2 +1,0 @@
-  fun io_scheduler_push_job(job_func': GIOSchedulerJobFunc, user_data': Pointer[None] tag, notify': GDestroyNotify, io_priority': I32, cancellable': GCancellable): None =>
-    @g_io_scheduler_push_job(job_func', user_data', notify', io_priority', cancellable')

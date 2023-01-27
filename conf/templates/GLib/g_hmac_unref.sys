@@ -1,2 +1,2 @@
-  fun unref(hmac': GHmac): None =>
+  fun unref(hmac': NullablePointer[GHmacT]): None =>
     @g_hmac_unref(hmac')

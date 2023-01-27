@@ -1,2 +1,0 @@
-  fun ref get_child_by_name(name': String): Pointer[GObjectP] =>
-    GtkStackP.get_child_by_name(this, name')

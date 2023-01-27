@@ -1,2 +1,0 @@
-  fun test_register_all_types(): None =>
-    @gtk_test_register_all_types()

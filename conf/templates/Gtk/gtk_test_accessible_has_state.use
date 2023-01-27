@@ -1,1 +1,0 @@
-use @gtk_test_accessible_has_state[I32](accessible': GtkAccessible, state': U32)

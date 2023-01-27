@@ -1,2 +1,0 @@
-  fun set_io_priority(self': GtkDirectoryList, io_priority': I32): None =>
-    @gtk_directory_list_set_io_priority(self', io_priority')

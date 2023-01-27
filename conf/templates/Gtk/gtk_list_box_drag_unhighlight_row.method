@@ -1,2 +1,0 @@
-  fun ref drag_unhighlight_row(): None =>
-    GtkListBoxP.drag_unhighlight_row(this)

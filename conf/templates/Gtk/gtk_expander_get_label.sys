@@ -1,2 +1,0 @@
-  fun get_label(expander': GtkExpander): String iso^ =>
-    String.from_cstring(@gtk_expander_get_label(expander')).clone()

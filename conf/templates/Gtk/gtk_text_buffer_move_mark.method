@@ -1,2 +1,0 @@
-  fun ref move_mark(mark': GtkTextMark, where': GtkTextIter): None =>
-    GtkTextBufferP.move_mark(this, mark', where')

@@ -1,2 +1,2 @@
-  fun param_value_set_default(pspec': GParamSpec, value': GValue): None =>
+  fun param_value_set_default(pspec': NullablePointer[GParamSpecT], value': NullablePointer[GValueT]): None =>
     @g_param_value_set_default(pspec', value')

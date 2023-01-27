@@ -1,2 +1,0 @@
-  fun ref set_delay_factor(delay_factor': F64): None =>
-    GtkGestureLongPressP.set_delay_factor(this, delay_factor')

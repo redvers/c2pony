@@ -1,2 +1,0 @@
-  fun ref get_search_mode(): I32 =>
-    GtkSearchBarP.get_search_mode(this)

@@ -1,2 +1,0 @@
-  fun has_visible_focus(widget': GtkWidgetI): I32 =>
-    @gtk_widget_has_visible_focus(widget'.getptr())

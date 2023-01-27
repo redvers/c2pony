@@ -1,1 +1,0 @@
-use @g_filter_input_stream_get_base_stream[GInputStream](stream': GFilterInputStream)

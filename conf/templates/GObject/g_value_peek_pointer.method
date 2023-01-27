@@ -1,2 +1,2 @@
   fun ref peek_pointer(): Pointer[None] tag =>
-    GValueP.peek_pointer(this)
+    GValueP.peek_pointer(this.ptr)

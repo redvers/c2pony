@@ -1,2 +1,0 @@
-  fun set_hadjustment(scrolled_window': GtkScrolledWindow, hadjustment': GtkAdjustment): None =>
-    @gtk_scrolled_window_set_hadjustment(scrolled_window', hadjustment')

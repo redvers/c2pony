@@ -1,2 +1,0 @@
-  fun get_current_page(notebook': GtkNotebook): I32 =>
-    @gtk_notebook_get_current_page(notebook')

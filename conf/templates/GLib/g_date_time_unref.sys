@@ -1,2 +1,2 @@
-  fun unref(datetime': GDateTime): None =>
+  fun unref(datetime': NullablePointer[GDateTimeT]): None =>
     @g_date_time_unref(datetime')

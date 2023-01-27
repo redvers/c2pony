@@ -1,2 +1,2 @@
-  fun type_check_value(value': GValue): I32 =>
+  fun type_check_value(value': NullablePointer[GValueT]): I32 =>
     @g_type_check_value(value')

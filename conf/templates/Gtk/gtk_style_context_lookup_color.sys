@@ -1,2 +1,0 @@
-  fun lookup_color(context': GtkStyleContext, color_name': String, color': GdkRGBA): I32 =>
-    @gtk_style_context_lookup_color(context', color_name'.cstring(), color')

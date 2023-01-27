@@ -1,2 +1,0 @@
-  fun ref get_attributes(): Pointer[Pointer[U8]] tag =>
-    GtkFileFilterP.get_attributes(this)

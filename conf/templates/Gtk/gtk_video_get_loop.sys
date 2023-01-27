@@ -1,2 +1,0 @@
-  fun get_loop(self': GtkVideo): I32 =>
-    @gtk_video_get_loop(self')

@@ -1,2 +1,0 @@
-  fun insert(store': GListStore, position': U32, item': Pointer[None] tag): None =>
-    @g_list_store_insert(store', position', item')

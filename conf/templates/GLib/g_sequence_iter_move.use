@@ -1,1 +1,1 @@
-use @g_sequence_iter_move[GSequenceNode](iter': GSequenceNode, delta': I32)
+use @g_sequence_iter_move[NullablePointer[GSequenceNodeT]](iter': NullablePointer[GSequenceNodeT], delta': I32)

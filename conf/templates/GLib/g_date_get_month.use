@@ -1,1 +1,1 @@
-use @g_date_get_month[U32](date': GDate)
+use @g_date_get_month[U32](date': NullablePointer[GDateT])

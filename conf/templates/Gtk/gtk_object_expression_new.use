@@ -1,1 +1,0 @@
-use @gtk_object_expression_new[GtkExpression](object': Pointer[GObjectP])

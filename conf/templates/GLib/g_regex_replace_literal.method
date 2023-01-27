@@ -1,2 +1,2 @@
-  fun ref replace_literal(string': String, string_len': I64, start_position': I32, replacement': String, match_options': U32, error': GError): String iso^ =>
-    GRegexP.replace_literal(this, string', string_len', start_position', replacement', match_options', error')
+  fun ref replace_literal(string': String, string_len': I64, start_position': I32, replacement': String, match_options': U32, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    GRegexP.replace_literal(this.ptr, string', string_len', start_position', replacement', match_options', error')

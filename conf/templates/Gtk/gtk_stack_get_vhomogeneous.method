@@ -1,2 +1,0 @@
-  fun ref get_vhomogeneous(): I32 =>
-    GtkStackP.get_vhomogeneous(this)

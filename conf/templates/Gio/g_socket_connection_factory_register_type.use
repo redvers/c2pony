@@ -1,1 +1,0 @@
-use @g_socket_connection_factory_register_type[None](g_type': U64, family': U32, type': U32, protocol': I32)

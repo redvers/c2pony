@@ -1,2 +1,0 @@
-  fun get_expanded(self': GtkTreeListRow): I32 =>
-    @gtk_tree_list_row_get_expanded(self')

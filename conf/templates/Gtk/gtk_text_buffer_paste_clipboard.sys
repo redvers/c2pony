@@ -1,2 +1,0 @@
-  fun paste_clipboard(buffer': GtkTextBuffer, clipboard': GdkClipboard, override_location': GtkTextIter, default_editable': I32): None =>
-    @gtk_text_buffer_paste_clipboard(buffer', clipboard', override_location', default_editable')

@@ -1,2 +1,2 @@
-  fun string_sized_new(dfl_size': U64): GString =>
+  fun string_sized_new(dfl_size': U64): NullablePointer[GStringT] =>
     @g_string_sized_new(dfl_size')

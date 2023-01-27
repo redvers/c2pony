@@ -1,2 +1,2 @@
-  fun n_nodes(root': GNode, flags': U32): U32 =>
+  fun n_nodes(root': NullablePointer[GNodeT], flags': U32): U32 =>
     @g_node_n_nodes(root', flags')

@@ -1,2 +1,0 @@
-  fun dbus_gvariant_to_gvalue(value': GVariant, out_gvalue': GValue): None =>
-    @g_dbus_gvariant_to_gvalue(value', out_gvalue')

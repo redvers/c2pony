@@ -1,2 +1,2 @@
-  fun sized_new(reserved_size': U32): GByteArray =>
+  fun sized_new(reserved_size': U32): NullablePointer[GByteArrayT] =>
     @g_byte_array_sized_new(reserved_size')

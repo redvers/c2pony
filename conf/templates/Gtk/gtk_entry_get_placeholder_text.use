@@ -1,1 +1,0 @@
-use @gtk_entry_get_placeholder_text[Pointer[U8]](entry': GtkEntry)

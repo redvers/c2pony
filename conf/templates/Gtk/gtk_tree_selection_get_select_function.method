@@ -1,2 +1,0 @@
-  fun ref get_select_function(): GtkTreeSelectionFunc =>
-    GtkTreeSelectionP.get_select_function(this)

@@ -1,2 +1,0 @@
-  fun ref set_tooltip_text(text': String): None =>
-    GtkWidgetP.set_tooltip_text(this, text')

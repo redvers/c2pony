@@ -1,2 +1,2 @@
   fun ref equal(bytes2': Pointer[None] tag): I32 =>
-    GBytesP.equal(this, bytes2')
+    GBytesP.equal(this.ptr, bytes2')

@@ -1,2 +1,0 @@
-  fun ref send_message(address': GSocketAddress, vectors': GOutputVector, num_vectors': I32, messages': Pointer[GSocketControlMessage], num_messages': I32, flags': I32, cancellable': GCancellable, error': GError): I64 =>
-    GSocketP.send_message(this, address', vectors', num_vectors', messages', num_messages', flags', cancellable', error')

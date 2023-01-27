@@ -1,2 +1,0 @@
-  fun set_flags(scroll': GtkEventControllerScroll, flags': U32): None =>
-    @gtk_event_controller_scroll_set_flags(scroll', flags')

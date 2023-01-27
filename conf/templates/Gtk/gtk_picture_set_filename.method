@@ -1,2 +1,0 @@
-  fun ref set_filename(filename': String): None =>
-    GtkPictureP.set_filename(this, filename')

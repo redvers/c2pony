@@ -1,1 +1,1 @@
-use @g_source_remove_child_source[None](source': GSource, child_source': GSource)
+use @g_source_remove_child_source[None](source': NullablePointer[GSourceT], child_source': NullablePointer[GSourceT])

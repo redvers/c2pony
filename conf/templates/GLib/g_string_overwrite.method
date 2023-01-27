@@ -1,2 +1,2 @@
-  fun ref overwrite(pos': U64, val': String): GString =>
-    GStringP.overwrite(this, pos', val')
+  fun ref overwrite(pos': U64, val': String): NullablePointer[GStringT] =>
+    GStringP.overwrite(this.ptr, pos', val')

@@ -1,2 +1,2 @@
-  fun new_utc(): GTimeZone =>
-    @g_time_zone_new_utc()
+  new new_utc() =>
+    ptr = @g_time_zone_new_utc()

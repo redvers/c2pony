@@ -1,1 +1,0 @@
-use @gtk_filter_list_model_set_filter[None](self': GtkFilterListModel, filter': GtkFilter)

@@ -1,2 +1,0 @@
-  fun ref get_top_margin(): I32 =>
-    GtkTextViewP.get_top_margin(this)

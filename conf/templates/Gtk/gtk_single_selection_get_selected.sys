@@ -1,2 +1,0 @@
-  fun get_selected(self': GtkSingleSelection): U32 =>
-    @gtk_single_selection_get_selected(self')

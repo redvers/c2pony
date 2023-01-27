@@ -1,1 +1,0 @@
-use @gtk_bitset_get_size[U64](self': GtkBitset)

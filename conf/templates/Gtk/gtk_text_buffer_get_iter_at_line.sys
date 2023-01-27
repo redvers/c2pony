@@ -1,2 +1,0 @@
-  fun get_iter_at_line(buffer': GtkTextBuffer, iter': GtkTextIter, line_number': I32): I32 =>
-    @gtk_text_buffer_get_iter_at_line(buffer', iter', line_number')

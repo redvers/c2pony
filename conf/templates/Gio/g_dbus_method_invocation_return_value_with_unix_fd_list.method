@@ -1,2 +1,0 @@
-  fun ref return_value_with_unix_fd_list(parameters': GVariant, fd_list': GUnixFDList): None =>
-    GDBusMethodInvocationP.return_value_with_unix_fd_list(this, parameters', fd_list')

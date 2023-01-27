@@ -1,2 +1,0 @@
-  fun prepend(box': GtkBox, child': GtkWidgetI): None =>
-    @gtk_box_prepend(box', child'.getptr())

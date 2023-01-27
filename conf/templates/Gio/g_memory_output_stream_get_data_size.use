@@ -1,1 +1,0 @@
-use @g_memory_output_stream_get_data_size[U64](ostream': GMemoryOutputStream)

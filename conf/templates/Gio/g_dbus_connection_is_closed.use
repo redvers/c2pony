@@ -1,1 +1,0 @@
-use @g_dbus_connection_is_closed[I32](connection': GDBusConnection)

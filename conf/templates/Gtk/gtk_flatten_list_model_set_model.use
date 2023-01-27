@@ -1,1 +1,0 @@
-use @gtk_flatten_list_model_set_model[None](self': GtkFlattenListModel, model': GListModel)

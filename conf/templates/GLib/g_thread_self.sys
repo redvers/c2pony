@@ -1,2 +1,2 @@
-  fun self(): GThread =>
+  fun self(): NullablePointer[GThreadT] =>
     @g_thread_self()

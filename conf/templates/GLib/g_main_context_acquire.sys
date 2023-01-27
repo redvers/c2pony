@@ -1,2 +1,2 @@
-  fun acquire(context': GMainContext): I32 =>
+  fun acquire(context': NullablePointer[GMainContextT]): I32 =>
     @g_main_context_acquire(context')

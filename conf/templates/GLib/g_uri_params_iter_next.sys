@@ -1,2 +1,2 @@
-  fun next(iter': GUriParamsIter, attribute': Pointer[Pointer[U8]] tag, value': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    @g_uri_params_iter_next(iter', attribute', value', addressof error'.ptr)
+  fun next(iter': NullablePointer[GUriParamsIterT], attribute': Pointer[Pointer[U8]] tag, value': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_uri_params_iter_next(iter', attribute', value', error')

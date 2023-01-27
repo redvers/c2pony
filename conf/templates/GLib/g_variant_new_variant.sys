@@ -1,2 +1,2 @@
-  fun new_variant(value': GVariant): GVariant =>
-    @g_variant_new_variant(value')
+  new new_variant(value': NullablePointer[GVariantT]) =>
+    ptr = @g_variant_new_variant(value')

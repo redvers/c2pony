@@ -1,2 +1,0 @@
-  fun writev_async(stream': GOutputStream, vectors': GOutputVector, n_vectors': U64, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_output_stream_writev_async(stream', vectors', n_vectors', io_priority', cancellable', callback', user_data')

@@ -1,2 +1,0 @@
-  fun push_preferred_width(context': GtkCellAreaContext, minimum_width': I32, natural_width': I32): None =>
-    @gtk_cell_area_context_push_preferred_width(context', minimum_width', natural_width')

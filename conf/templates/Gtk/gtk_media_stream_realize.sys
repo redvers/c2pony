@@ -1,2 +1,0 @@
-  fun realize(self': GtkMediaStream, surface': GdkSurface): None =>
-    @gtk_media_stream_realize(self', surface')

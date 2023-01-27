@@ -1,2 +1,0 @@
-  fun get_lower(adjustment': GtkAdjustment): F64 =>
-    @gtk_adjustment_get_lower(adjustment')

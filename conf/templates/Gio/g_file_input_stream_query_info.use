@@ -1,1 +1,0 @@
-use @g_file_input_stream_query_info[GFileInfo](stream': GFileInputStream, attributes': Pointer[U8] tag, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

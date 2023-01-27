@@ -1,1 +1,0 @@
-use @g_cancellable_source_new[GSource](cancellable': GCancellable)

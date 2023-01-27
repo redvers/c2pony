@@ -1,2 +1,2 @@
-  fun ref add_weeks(weeks': I32): GDateTime =>
-    GDateTimeP.add_weeks(this, weeks')
+  fun ref add_weeks(weeks': I32): NullablePointer[GDateTimeT] =>
+    GDateTimeP.add_weeks(this.ptr, weeks')

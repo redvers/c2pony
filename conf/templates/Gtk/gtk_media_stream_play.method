@@ -1,2 +1,0 @@
-  fun ref play(): None =>
-    GtkMediaStreamP.play(this)

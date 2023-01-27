@@ -1,2 +1,2 @@
-  fun reverse(list': GList): GList =>
+  fun reverse(list': NullablePointer[GListT]): NullablePointer[GListT] =>
     @g_list_reverse(list')

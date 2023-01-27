@@ -1,2 +1,0 @@
-  fun get_length(list': GUnixFDList): I32 =>
-    @g_unix_fd_list_get_length(list')

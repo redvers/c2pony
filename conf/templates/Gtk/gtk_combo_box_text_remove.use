@@ -1,1 +1,0 @@
-use @gtk_combo_box_text_remove[None](combo_box': GtkComboBoxText, position': I32)

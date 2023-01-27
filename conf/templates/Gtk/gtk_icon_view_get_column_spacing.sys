@@ -1,2 +1,0 @@
-  fun get_column_spacing(icon_view': GtkIconView): I32 =>
-    @gtk_icon_view_get_column_spacing(icon_view')

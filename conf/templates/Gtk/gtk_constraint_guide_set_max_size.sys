@@ -1,2 +1,0 @@
-  fun set_max_size(guide': GtkConstraintGuide, width': I32, height': I32): None =>
-    @gtk_constraint_guide_set_max_size(guide', width', height')

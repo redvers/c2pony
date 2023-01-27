@@ -1,2 +1,0 @@
-  fun ref export(object': GDBusObjectSkeleton): None =>
-    GDBusObjectManagerServerP.export(this, object')

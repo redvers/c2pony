@@ -1,2 +1,0 @@
-  fun param_spec_expression(name': String, nick': String, blurb': String, flags': I32): GParamSpec =>
-    @gtk_param_spec_expression(name'.cstring(), nick'.cstring(), blurb'.cstring(), flags')

@@ -1,2 +1,0 @@
-  fun ref response(response_id': I32): None =>
-    GtkInfoBarP.response(this, response_id')

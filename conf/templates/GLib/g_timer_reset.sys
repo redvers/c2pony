@@ -1,2 +1,2 @@
-  fun reset(timer': GTimer): None =>
+  fun reset(timer': NullablePointer[GTimerT]): None =>
     @g_timer_reset(timer')

@@ -1,1 +1,0 @@
-use @gtk_about_dialog_set_wrap_license[None](about': GtkAboutDialog, wrap_license': I32)

@@ -1,2 +1,2 @@
   fun ref signal(): None =>
-    GCondP.signal(this)
+    GCondP.signal(this.ptr)

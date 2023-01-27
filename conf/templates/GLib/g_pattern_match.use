@@ -1,1 +1,1 @@
-use @g_pattern_match[I32](pspec': GPatternSpec, string_length': U32, string': Pointer[U8] tag, string_reversed': Pointer[U8] tag)
+use @g_pattern_match[I32](pspec': NullablePointer[GPatternSpecT], string_length': U32, string': Pointer[U8] tag, string_reversed': Pointer[U8] tag)

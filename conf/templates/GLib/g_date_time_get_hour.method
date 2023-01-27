@@ -1,2 +1,2 @@
   fun ref get_hour(): I32 =>
-    GDateTimeP.get_hour(this)
+    GDateTimeP.get_hour(this.ptr)

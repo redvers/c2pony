@@ -1,2 +1,0 @@
-  fun get_rehandshake_mode(conn': GTlsConnection): U32 =>
-    @g_tls_connection_get_rehandshake_mode(conn')

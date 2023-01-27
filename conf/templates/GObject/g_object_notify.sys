@@ -1,2 +1,2 @@
-  fun notify(object': GObjectI, property_name': String): None =>
-    @g_object_notify(object'.getptr(), property_name'.cstring())
+  fun notify(object': NullablePointer[GObjectT], property_name': String): None =>
+    @g_object_notify(object', property_name'.cstring())

@@ -1,2 +1,2 @@
-  fun ref unlink(link': GList): None =>
-    GQueueP.unlink(this, link')
+  fun ref unlink(link': NullablePointer[GListT]): None =>
+    GQueueP.unlink(this.ptr, link')

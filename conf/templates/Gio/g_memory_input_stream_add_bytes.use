@@ -1,1 +1,0 @@
-use @g_memory_input_stream_add_bytes[None](stream': GMemoryInputStream, bytes': GBytes)

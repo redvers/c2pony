@@ -1,2 +1,0 @@
-  fun ref get_platform_data(): GVariant =>
-    GApplicationCommandLineP.get_platform_data(this)

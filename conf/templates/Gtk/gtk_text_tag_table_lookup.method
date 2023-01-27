@@ -1,2 +1,0 @@
-  fun ref lookup(name': String): GtkTextTag =>
-    GtkTextTagTableP.lookup(this, name')

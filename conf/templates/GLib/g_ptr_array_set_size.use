@@ -1,1 +1,1 @@
-use @g_ptr_array_set_size[None](array': GPtrArray, length': I32)
+use @g_ptr_array_set_size[None](array': NullablePointer[GPtrArrayT], length': I32)

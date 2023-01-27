@@ -1,1 +1,0 @@
-use @gtk_cell_renderer_toggle_get_activatable[I32](toggle': GtkCellRendererToggle)

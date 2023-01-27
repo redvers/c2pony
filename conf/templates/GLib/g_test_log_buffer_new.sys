@@ -1,2 +1,2 @@
-  fun new(): anon_2389 =>
+  fun new(): NullablePointer[anon_2389T] =>
     @g_test_log_buffer_new()

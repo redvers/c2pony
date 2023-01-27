@@ -1,2 +1,0 @@
-  fun new(hostname': String, port': U16): GSocketConnectable =>
-    @g_network_address_new(hostname'.cstring(), port')

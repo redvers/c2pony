@@ -1,1 +1,0 @@
-use @gtk_list_item_set_child[None](self': GtkListItem, child': Pointer[GObjectP])

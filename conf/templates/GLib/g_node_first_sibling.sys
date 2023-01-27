@@ -1,2 +1,2 @@
-  fun first_sibling(node': GNode): GNode =>
+  fun first_sibling(node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
     @g_node_first_sibling(node')

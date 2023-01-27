@@ -1,2 +1,0 @@
-  fun ref set_tabs(tabs': PangoTabArray): None =>
-    GtkEntryP.set_tabs(this, tabs')

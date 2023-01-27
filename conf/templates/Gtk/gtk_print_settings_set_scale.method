@@ -1,2 +1,0 @@
-  fun ref set_scale(scale': F64): None =>
-    GtkPrintSettingsP.set_scale(this, scale')

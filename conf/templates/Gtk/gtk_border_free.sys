@@ -1,2 +1,0 @@
-  fun free(border': GtkBorder): None =>
-    @gtk_border_free(border')

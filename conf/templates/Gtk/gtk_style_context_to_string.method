@@ -1,2 +1,0 @@
-  fun ref to_string(flags': U32): String iso^ =>
-    GtkStyleContextP.to_string(this, flags')

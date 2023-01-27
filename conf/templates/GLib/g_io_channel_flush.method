@@ -1,2 +1,2 @@
-  fun ref flush(error': GError): U32 =>
-    GIOChannelP.flush(this, error')
+  fun ref flush(error': Pointer[NullablePointer[GErrorT]]): U32 =>
+    GIOChannelP.flush(this.ptr, error')

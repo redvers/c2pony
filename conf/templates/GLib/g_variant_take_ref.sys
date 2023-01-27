@@ -1,2 +1,2 @@
-  fun take_ref(value': GVariant): GVariant =>
+  fun take_ref(value': NullablePointer[GVariantT]): NullablePointer[GVariantT] =>
     @g_variant_take_ref(value')

@@ -1,2 +1,0 @@
-  fun ref get_version(): String iso^ =>
-    GtkAboutDialogP.get_version(this)

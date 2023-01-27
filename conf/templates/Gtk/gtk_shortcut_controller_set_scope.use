@@ -1,1 +1,0 @@
-use @gtk_shortcut_controller_set_scope[None](self': GtkShortcutController, scope': U32)

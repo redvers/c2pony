@@ -1,2 +1,0 @@
-  fun ref reorder(new_order': Pointer[I32] tag): None =>
-    GtkListStoreP.reorder(this, new_order')

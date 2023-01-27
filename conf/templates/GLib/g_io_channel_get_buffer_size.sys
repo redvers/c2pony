@@ -1,2 +1,2 @@
-  fun get_buffer_size(channel': GIOChannel): U64 =>
+  fun get_buffer_size(channel': NullablePointer[GIOChannelT]): U64 =>
     @g_io_channel_get_buffer_size(channel')

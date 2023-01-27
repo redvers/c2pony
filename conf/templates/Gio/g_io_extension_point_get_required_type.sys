@@ -1,2 +1,0 @@
-  fun get_required_type(extension_point': GIOExtensionPoint): U64 =>
-    @g_io_extension_point_get_required_type(extension_point')

@@ -1,2 +1,0 @@
-  fun ref set_direction(dir': U32): None =>
-    GtkWidgetP.set_direction(this, dir')

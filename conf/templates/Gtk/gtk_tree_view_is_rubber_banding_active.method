@@ -1,2 +1,0 @@
-  fun ref is_rubber_banding_active(): I32 =>
-    GtkTreeViewP.is_rubber_banding_active(this)

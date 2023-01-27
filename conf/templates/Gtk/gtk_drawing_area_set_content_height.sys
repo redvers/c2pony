@@ -1,2 +1,0 @@
-  fun set_content_height(self': GtkDrawingArea, height': I32): None =>
-    @gtk_drawing_area_set_content_height(self', height')

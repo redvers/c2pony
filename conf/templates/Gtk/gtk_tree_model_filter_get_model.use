@@ -1,1 +1,0 @@
-use @gtk_tree_model_filter_get_model[GtkTreeModel](filter': GtkTreeModelFilter)

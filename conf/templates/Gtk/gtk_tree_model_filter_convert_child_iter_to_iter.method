@@ -1,2 +1,0 @@
-  fun ref convert_child_iter_to_iter(filter_iter': GtkTreeIter, child_iter': GtkTreeIter): I32 =>
-    GtkTreeModelFilterP.convert_child_iter_to_iter(this, filter_iter', child_iter')

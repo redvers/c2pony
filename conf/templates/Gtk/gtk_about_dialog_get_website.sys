@@ -1,2 +1,0 @@
-  fun get_website(about': GtkAboutDialog): String iso^ =>
-    String.from_cstring(@gtk_about_dialog_get_website(about')).clone()

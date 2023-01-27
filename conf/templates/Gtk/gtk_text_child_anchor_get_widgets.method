@@ -1,2 +1,0 @@
-  fun ref get_widgets(out_len': Pointer[U32] tag): Pointer[GtkWidget] =>
-    GtkTextChildAnchorP.get_widgets(this, out_len')

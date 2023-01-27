@@ -1,1 +1,1 @@
-use @g_uri_to_string[Pointer[U8]](uri': GUri)
+use @g_uri_to_string[Pointer[U8]](uri': NullablePointer[GUriT])

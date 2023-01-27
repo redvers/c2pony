@@ -1,2 +1,0 @@
-  fun set_opacity(widget': GtkWidgetI, opacity': F64): None =>
-    @gtk_widget_set_opacity(widget'.getptr(), opacity')

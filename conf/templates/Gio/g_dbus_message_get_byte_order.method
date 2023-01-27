@@ -1,2 +1,0 @@
-  fun ref get_byte_order(): U32 =>
-    GDBusMessageP.get_byte_order(this)

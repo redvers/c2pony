@@ -1,2 +1,0 @@
-  fun lookup_by_name_with_flags_async(resolver': GResolver, hostname': String, flags': U32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_resolver_lookup_by_name_with_flags_async(resolver', hostname'.cstring(), flags', cancellable', callback', user_data')

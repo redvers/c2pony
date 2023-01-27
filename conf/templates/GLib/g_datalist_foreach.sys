@@ -1,2 +1,2 @@
-  fun datalist_foreach(datalist': Pointer[GData], func': GDataForeachFunc, user_data': Pointer[None] tag): None =>
+  fun datalist_foreach(datalist': Pointer[NullablePointer[GDataT]], func': Pointer[None], user_data': Pointer[None] tag): None =>
     @g_datalist_foreach(datalist', func', user_data')

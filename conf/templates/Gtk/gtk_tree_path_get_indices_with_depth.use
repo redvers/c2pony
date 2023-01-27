@@ -1,1 +1,0 @@
-use @gtk_tree_path_get_indices_with_depth[Pointer[I32] tag](path': GtkTreePath, depth': Pointer[I32] tag)

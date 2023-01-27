@@ -1,2 +1,0 @@
-  fun content_type_get_description(type': String): String iso^ =>
-    String.from_cstring(@g_content_type_get_description(type'.cstring())).clone()

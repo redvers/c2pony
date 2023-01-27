@@ -1,2 +1,2 @@
-  fun ref remove_comment(group_name': String, key': String, error': GError): I32 =>
-    GKeyFileP.remove_comment(this, group_name', key', error')
+  fun ref remove_comment(group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GKeyFileP.remove_comment(this.ptr, group_name', key', error')

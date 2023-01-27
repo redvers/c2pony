@@ -1,2 +1,0 @@
-  fun set_environ(self': GSubprocessLauncher, env': Pointer[Pointer[U8]] tag): None =>
-    @g_subprocess_launcher_set_environ(self', env')

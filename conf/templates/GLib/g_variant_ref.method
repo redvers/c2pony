@@ -1,2 +1,2 @@
-  fun ref ref(): GVariant =>
-    GVariantP.ref(this)
+  fun ref ref(): NullablePointer[GVariantT] =>
+    GVariantP.ref(this.ptr)

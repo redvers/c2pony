@@ -1,1 +1,0 @@
-use @g_socket_service_is_active[I32](service': GSocketService)

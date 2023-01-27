@@ -1,2 +1,0 @@
-  fun ref get_parent(): GtkTreeListRow =>
-    GtkTreeListRowP.get_parent(this)

@@ -1,2 +1,0 @@
-  fun ref select_row(row': GtkListBoxRow): None =>
-    GtkListBoxP.select_row(this, row')

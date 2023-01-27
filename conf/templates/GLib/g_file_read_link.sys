@@ -1,2 +1,2 @@
-  fun file_read_link(filename': String, error': GError): String iso^ =>
-    String.from_cstring(@g_file_read_link(filename'.cstring(), addressof error'.ptr)).clone()
+  fun file_read_link(filename': String, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_file_read_link(filename'.cstring(), error')).clone()

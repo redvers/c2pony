@@ -1,1 +1,0 @@
-use @gtk_directory_list_get_attributes[Pointer[U8]](self': GtkDirectoryList)

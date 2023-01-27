@@ -1,1 +1,0 @@
-use @gtk_scrolled_window_set_child[None](scrolled_window': GtkScrolledWindow, child': Pointer[GObjectP])

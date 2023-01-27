@@ -1,2 +1,0 @@
-  fun ref backward_display_line(iter': GtkTextIter): I32 =>
-    GtkTextViewP.backward_display_line(this, iter')

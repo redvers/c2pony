@@ -1,2 +1,0 @@
-  fun get_transform(child': GtkFixedLayoutChild): GskTransform =>
-    @gtk_fixed_layout_child_get_transform(child')

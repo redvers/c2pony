@@ -1,1 +1,0 @@
-use @g_subprocess_get_stderr_pipe[GInputStream](subprocess': GSubprocess)

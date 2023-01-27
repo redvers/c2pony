@@ -1,2 +1,2 @@
-  fun steal(array': GByteArray, len': Pointer[U64] tag): String iso^ =>
+  fun steal(array': NullablePointer[GByteArrayT], len': Pointer[U64] tag): String iso^ =>
     String.from_cstring(@g_byte_array_steal(array', len')).clone()

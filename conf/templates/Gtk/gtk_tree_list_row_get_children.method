@@ -1,2 +1,0 @@
-  fun ref get_children(): GListModel =>
-    GtkTreeListRowP.get_children(this)

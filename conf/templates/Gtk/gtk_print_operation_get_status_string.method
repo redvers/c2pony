@@ -1,2 +1,0 @@
-  fun ref get_status_string(): String iso^ =>
-    GtkPrintOperationP.get_status_string(this)

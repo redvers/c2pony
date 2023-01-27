@@ -1,1 +1,1 @@
-use @g_queue_find_custom[GList](queue': GQueue, data': Pointer[None] tag, func': GCompareFunc)
+use @g_queue_find_custom[NullablePointer[GListT]](queue': NullablePointer[GQueueT], data': Pointer[None] tag, func': GCompareFunc)

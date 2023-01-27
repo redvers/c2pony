@@ -1,2 +1,0 @@
-  fun ref is_selected(): I32 =>
-    GtkFlowBoxChildP.is_selected(this)

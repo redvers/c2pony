@@ -1,2 +1,0 @@
-  fun fill_finish(stream': GBufferedInputStream, result': GAsyncResult, error': GError): I64 =>
-    @g_buffered_input_stream_fill_finish(stream', result', addressof error'.ptr)

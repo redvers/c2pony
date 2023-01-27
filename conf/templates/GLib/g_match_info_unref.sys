@@ -1,2 +1,2 @@
-  fun unref(match_info': GMatchInfo): None =>
+  fun unref(match_info': NullablePointer[GMatchInfoT]): None =>
     @g_match_info_unref(match_info')

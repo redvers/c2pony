@@ -1,2 +1,0 @@
-  fun get_n_pages_to_print(op': GtkPrintOperation): I32 =>
-    @gtk_print_operation_get_n_pages_to_print(op')

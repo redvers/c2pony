@@ -1,2 +1,2 @@
-  fun get_keys(hash_table': GHashTable): GList =>
+  fun get_keys(hash_table': NullablePointer[GHashTableT]): NullablePointer[GListT] =>
     @g_hash_table_get_keys(hash_table')

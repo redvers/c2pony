@@ -1,2 +1,0 @@
-  fun ref get_length(): I32 =>
-    GUnixFDListP.get_length(this)

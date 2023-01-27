@@ -1,1 +1,0 @@
-use @gtk_recent_manager_purge_items[I32](manager': GtkRecentManager, error': Pointer[NullablePointer[GErrorT]])

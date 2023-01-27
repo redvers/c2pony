@@ -1,2 +1,0 @@
-  fun ref add_option_group(group': GOptionGroup): None =>
-    GApplicationP.add_option_group(this, group')

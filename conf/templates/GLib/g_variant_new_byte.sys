@@ -1,2 +1,2 @@
-  fun new_byte(value': U8): GVariant =>
-    @g_variant_new_byte(value')
+  new new_byte(value': U8) =>
+    ptr = @g_variant_new_byte(value')

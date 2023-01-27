@@ -1,2 +1,2 @@
   fun ref clear(): None =>
-    GStringChunkP.clear(this)
+    GStringChunkP.clear(this.ptr)

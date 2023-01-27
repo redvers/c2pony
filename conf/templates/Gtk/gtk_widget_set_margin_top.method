@@ -1,2 +1,0 @@
-  fun ref set_margin_top(margin': I32): None =>
-    GtkWidgetP.set_margin_top(this, margin')

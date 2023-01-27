@@ -1,2 +1,0 @@
-  fun ref set_auto_grow(auto_grow': I32): None =>
-    GBufferedOutputStreamP.set_auto_grow(this, auto_grow')

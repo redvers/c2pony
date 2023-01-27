@@ -1,2 +1,0 @@
-  fun apply(settings': GSettings): None =>
-    @g_settings_apply(settings')

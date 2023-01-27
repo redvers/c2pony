@@ -1,2 +1,2 @@
   fun ref set_month(month': U32): None =>
-    GDateP.set_month(this, month')
+    GDateP.set_month(this.ptr, month')

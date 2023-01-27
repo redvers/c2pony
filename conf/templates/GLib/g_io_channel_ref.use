@@ -1,1 +1,1 @@
-use @g_io_channel_ref[GIOChannel](channel': GIOChannel)
+use @g_io_channel_ref[NullablePointer[GIOChannelT]](channel': NullablePointer[GIOChannelT])

@@ -1,2 +1,0 @@
-  fun set_resource_base_path(application': GApplicationI, resource_path': String): None =>
-    @g_application_set_resource_base_path(application'.getptr(), resource_path'.cstring())

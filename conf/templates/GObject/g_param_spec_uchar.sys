@@ -1,2 +1,2 @@
-  fun param_spec_uchar(name': String, nick': String, blurb': String, minimum': U8, maximum': U8, default_value': U8, flags': I32): GParamSpec =>
+  fun param_spec_uchar(name': String, nick': String, blurb': String, minimum': U8, maximum': U8, default_value': U8, flags': I32): NullablePointer[GParamSpecT] =>
     @g_param_spec_uchar(name'.cstring(), nick'.cstring(), blurb'.cstring(), minimum', maximum', default_value', flags')

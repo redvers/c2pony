@@ -1,1 +1,0 @@
-use @gtk_window_set_resizable[None](window': Pointer[GObjectP], resizable': I32)

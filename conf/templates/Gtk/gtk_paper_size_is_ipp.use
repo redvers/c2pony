@@ -1,1 +1,0 @@
-use @gtk_paper_size_is_ipp[I32](size': GtkPaperSize)

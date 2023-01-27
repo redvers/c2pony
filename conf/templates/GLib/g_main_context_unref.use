@@ -1,1 +1,1 @@
-use @g_main_context_unref[None](context': GMainContext)
+use @g_main_context_unref[None](context': NullablePointer[GMainContextT])

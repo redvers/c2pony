@@ -1,1 +1,0 @@
-use @gtk_tree_selection_get_selected[I32](selection': GtkTreeSelection, model': Pointer[GtkTreeModel], iter': GtkTreeIter)

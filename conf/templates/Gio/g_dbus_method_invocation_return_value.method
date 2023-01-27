@@ -1,2 +1,0 @@
-  fun ref return_value(parameters': GVariant): None =>
-    GDBusMethodInvocationP.return_value(this, parameters')

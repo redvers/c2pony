@@ -1,1 +1,1 @@
-use @g_value_get_flags[U32](value': GValue)
+use @g_value_get_flags[U32](value': NullablePointer[GValueT])

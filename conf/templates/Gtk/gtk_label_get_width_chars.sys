@@ -1,2 +1,0 @@
-  fun get_width_chars(self': GtkLabel): I32 =>
-    @gtk_label_get_width_chars(self')

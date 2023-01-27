@@ -1,2 +1,0 @@
-  fun ref lookup_by_name_with_flags(hostname': String, flags': U32, cancellable': GCancellable, error': GError): GList =>
-    GResolverP.lookup_by_name_with_flags(this, hostname', flags', cancellable', error')

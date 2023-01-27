@@ -1,2 +1,0 @@
-  fun ref(watch': GtkExpressionWatch): GtkExpressionWatch =>
-    @gtk_expression_watch_ref(watch')

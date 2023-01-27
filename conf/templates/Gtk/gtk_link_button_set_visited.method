@@ -1,2 +1,0 @@
-  fun ref set_visited(visited': I32): None =>
-    GtkLinkButtonP.set_visited(this, visited')

@@ -1,2 +1,2 @@
-  fun range_get_midpoint(begin': GSequenceNode, end': GSequenceNode): GSequenceNode =>
+  fun range_get_midpoint(begin': NullablePointer[GSequenceNodeT], end': NullablePointer[GSequenceNodeT]): NullablePointer[GSequenceNodeT] =>
     @g_sequence_range_get_midpoint(begin', end')

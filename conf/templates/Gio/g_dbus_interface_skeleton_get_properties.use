@@ -1,1 +1,0 @@
-use @g_dbus_interface_skeleton_get_properties[GVariant](interface': GDBusInterfaceSkeleton)

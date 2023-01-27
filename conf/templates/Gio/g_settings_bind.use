@@ -1,1 +1,0 @@
-use @g_settings_bind[None](settings': GSettings, key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, flags': U32)

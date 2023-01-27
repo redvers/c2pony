@@ -1,1 +1,1 @@
-use @g_tree_foreach[None](tree': GTree, func': GTraverseFunc, user_data': Pointer[None] tag)
+use @g_tree_foreach[None](tree': NullablePointer[GTreeT], func': GTraverseFunc, user_data': Pointer[None] tag)

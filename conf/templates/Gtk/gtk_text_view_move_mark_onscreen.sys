@@ -1,2 +1,0 @@
-  fun move_mark_onscreen(text_view': GtkTextView, mark': GtkTextMark): I32 =>
-    @gtk_text_view_move_mark_onscreen(text_view', mark')

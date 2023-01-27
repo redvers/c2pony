@@ -1,1 +1,0 @@
-use @g_list_store_find[I32](store': GListStore, item': Pointer[None] tag, position': Pointer[U32] tag)

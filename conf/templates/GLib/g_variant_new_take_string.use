@@ -1,1 +1,1 @@
-use @g_variant_new_take_string[GVariant](string': Pointer[U8] tag)
+use @g_variant_new_take_string[NullablePointer[GVariantT]](string': Pointer[U8] tag)

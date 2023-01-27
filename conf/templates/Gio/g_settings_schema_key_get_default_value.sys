@@ -1,2 +1,0 @@
-  fun get_default_value(key': GSettingsSchemaKey): GVariant =>
-    @g_settings_schema_key_get_default_value(key')

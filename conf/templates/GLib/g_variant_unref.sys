@@ -1,2 +1,2 @@
-  fun unref(value': GVariant): None =>
+  fun unref(value': NullablePointer[GVariantT]): None =>
     @g_variant_unref(value')

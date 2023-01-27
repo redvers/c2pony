@@ -1,2 +1,2 @@
-  fun ascii_up(string': GString): GString =>
+  fun ascii_up(string': NullablePointer[GStringT]): NullablePointer[GStringT] =>
     @g_string_ascii_up(string')

@@ -1,2 +1,0 @@
-  fun new(): GtkLayoutManager =>
-    @gtk_constraint_layout_new()

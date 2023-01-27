@@ -1,2 +1,0 @@
-  fun get_container(enumerator': GFileEnumerator): GFile =>
-    @g_file_enumerator_get_container(enumerator')

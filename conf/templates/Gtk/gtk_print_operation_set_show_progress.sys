@@ -1,2 +1,0 @@
-  fun set_show_progress(op': GtkPrintOperation, show_progress': I32): None =>
-    @gtk_print_operation_set_show_progress(op', show_progress')

@@ -1,2 +1,0 @@
-  fun ref set_icon_from_icon_name(icon_pos': U32, icon_name': String): None =>
-    GtkEntryP.set_icon_from_icon_name(this, icon_pos', icon_name')

@@ -1,2 +1,0 @@
-  fun ref get_stdout_pipe(): GInputStream =>
-    GSubprocessP.get_stdout_pipe(this)

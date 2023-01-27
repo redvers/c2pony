@@ -1,2 +1,0 @@
-  fun ref perspective(depth': F32): None =>
-    P.perspective(this, depth')

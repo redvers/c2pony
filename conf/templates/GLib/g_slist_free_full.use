@@ -1,1 +1,1 @@
-use @g_slist_free_full[None](list': GSList, free_func': GDestroyNotify)
+use @g_slist_free_full[None](list': NullablePointer[GSListT], free_func': Pointer[None])

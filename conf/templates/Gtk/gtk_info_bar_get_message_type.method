@@ -1,2 +1,0 @@
-  fun ref get_message_type(): U32 =>
-    GtkInfoBarP.get_message_type(this)

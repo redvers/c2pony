@@ -1,1 +1,0 @@
-use @g_input_stream_is_closed[I32](stream': GInputStream)

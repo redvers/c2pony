@@ -1,2 +1,0 @@
-  fun ref get_multicast_ttl(): U32 =>
-    GSocketP.get_multicast_ttl(this)

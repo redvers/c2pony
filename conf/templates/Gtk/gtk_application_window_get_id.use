@@ -1,1 +1,0 @@
-use @gtk_application_window_get_id[U32](window': GtkApplicationWindow)

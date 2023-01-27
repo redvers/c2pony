@@ -1,2 +1,0 @@
-  fun ref set_offset(char_offset': I32): None =>
-    GtkTextIterP.set_offset(this, char_offset')

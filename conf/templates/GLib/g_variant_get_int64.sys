@@ -1,2 +1,2 @@
-  fun get_int64(value': GVariant): I64 =>
+  fun get_int64(value': NullablePointer[GVariantT]): I64 =>
     @g_variant_get_int64(value')

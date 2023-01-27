@@ -1,1 +1,0 @@
-use @gtk_switch_new[Pointer[GObjectP]]()

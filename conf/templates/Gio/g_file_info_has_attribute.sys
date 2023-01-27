@@ -1,2 +1,0 @@
-  fun has_attribute(info': GFileInfo, attribute': String): I32 =>
-    @g_file_info_has_attribute(info', attribute'.cstring())

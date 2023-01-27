@@ -1,1 +1,1 @@
-use @g_value_array_free[None](value_array': GValueArray)
+use @g_value_array_free[None](value_array': NullablePointer[GValueArrayT])

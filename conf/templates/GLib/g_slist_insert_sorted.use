@@ -1,1 +1,1 @@
-use @g_slist_insert_sorted[GSList](list': GSList, data': Pointer[None] tag, func': GCompareFunc)
+use @g_slist_insert_sorted[NullablePointer[GSListT]](list': NullablePointer[GSListT], data': Pointer[None] tag, func': GCompareFunc)

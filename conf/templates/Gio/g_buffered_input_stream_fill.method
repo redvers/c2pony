@@ -1,2 +1,0 @@
-  fun ref fill(count': I64, cancellable': GCancellable, error': GError): I64 =>
-    GBufferedInputStreamP.fill(this, count', cancellable', error')

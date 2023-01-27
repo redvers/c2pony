@@ -1,2 +1,0 @@
-  fun set_from_gicon(image': GtkImage, icon': GIcon): None =>
-    @gtk_image_set_from_gicon(image', icon')

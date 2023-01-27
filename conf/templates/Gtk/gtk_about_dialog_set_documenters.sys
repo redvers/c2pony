@@ -1,2 +1,0 @@
-  fun set_documenters(about': GtkAboutDialog, documenters': Pointer[Pointer[U8]] tag): None =>
-    @gtk_about_dialog_set_documenters(about', documenters')

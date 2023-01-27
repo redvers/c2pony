@@ -1,2 +1,0 @@
-  fun ref set_option_context_parameter_string(parameter_string': String): None =>
-    GApplicationP.set_option_context_parameter_string(this, parameter_string')

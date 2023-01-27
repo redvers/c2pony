@@ -1,2 +1,0 @@
-  fun unmap(widget': GtkWidgetI): None =>
-    @gtk_widget_unmap(widget'.getptr())

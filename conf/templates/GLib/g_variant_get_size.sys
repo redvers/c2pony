@@ -1,2 +1,2 @@
-  fun get_size(value': GVariant): U64 =>
+  fun get_size(value': NullablePointer[GVariantT]): U64 =>
     @g_variant_get_size(value')

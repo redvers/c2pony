@@ -1,2 +1,0 @@
-  fun get_parent(op': GtkMountOperation): Pointer[GObjectP] =>
-@gtk_mount_operation_get_parent(op')

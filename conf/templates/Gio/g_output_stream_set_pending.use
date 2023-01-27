@@ -1,1 +1,0 @@
-use @g_output_stream_set_pending[I32](stream': GOutputStream, error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,0 @@
-  fun ref set_homogeneous(homogeneous': I32): None =>
-    GtkBoxLayoutP.set_homogeneous(this, homogeneous')

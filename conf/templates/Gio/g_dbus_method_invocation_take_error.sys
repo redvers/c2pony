@@ -1,2 +1,0 @@
-  fun take_error(invocation': GDBusMethodInvocation, error': GError): None =>
-    @g_dbus_method_invocation_take_error(invocation', error'.ptr)

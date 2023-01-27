@@ -1,2 +1,0 @@
-  fun new_from_gicon(icon': GIcon): Pointer[GObjectP] =>
-@gtk_image_new_from_gicon(icon')

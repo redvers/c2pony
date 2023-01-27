@@ -1,2 +1,0 @@
-  fun ref get_child_widget(): Pointer[GObjectP] =>
-    GtkLayoutChildP.get_child_widget(this)

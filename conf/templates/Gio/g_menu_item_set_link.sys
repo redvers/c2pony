@@ -1,2 +1,0 @@
-  fun set_link(menu_item': GMenuItem, link': String, model': GMenuModel): None =>
-    @g_menu_item_set_link(menu_item', link'.cstring(), model')

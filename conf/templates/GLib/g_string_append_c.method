@@ -1,2 +1,2 @@
-  fun ref append_c(c': U8): GString =>
-    GStringP.append_c(this, c')
+  fun ref append_c(c': U8): NullablePointer[GStringT] =>
+    GStringP.append_c(this.ptr, c')

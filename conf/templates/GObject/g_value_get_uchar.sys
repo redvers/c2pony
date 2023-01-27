@@ -1,2 +1,2 @@
-  fun get_uchar(value': GValue): U8 =>
+  fun get_uchar(value': NullablePointer[GValueT]): U8 =>
     @g_value_get_uchar(value')

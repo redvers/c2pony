@@ -1,2 +1,0 @@
-  fun ref set_use_font(use_font': I32): None =>
-    GtkFontButtonP.set_use_font(this, use_font')

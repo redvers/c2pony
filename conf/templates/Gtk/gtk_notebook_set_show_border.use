@@ -1,1 +1,0 @@
-use @gtk_notebook_set_show_border[None](notebook': GtkNotebook, show_border': I32)

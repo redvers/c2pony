@@ -1,1 +1,1 @@
-use @g_byte_array_free_to_bytes[GBytes](array': GByteArray)
+use @g_byte_array_free_to_bytes[NullablePointer[GBytesT]](array': NullablePointer[GByteArrayT])

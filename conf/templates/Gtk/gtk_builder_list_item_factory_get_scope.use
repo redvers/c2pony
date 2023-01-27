@@ -1,1 +1,0 @@
-use @gtk_builder_list_item_factory_get_scope[GtkBuilderScope](self': GtkBuilderListItemFactory)

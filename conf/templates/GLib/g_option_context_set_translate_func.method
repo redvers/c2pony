@@ -1,2 +1,2 @@
-  fun ref set_translate_func(func': GTranslateFunc, data': Pointer[None] tag, destroy_notify': GDestroyNotify): None =>
-    GOptionContextP.set_translate_func(this, func', data', destroy_notify')
+  fun ref set_translate_func(func': GTranslateFunc, data': Pointer[None] tag, destroy_notify': Pointer[None]): None =>
+    GOptionContextP.set_translate_func(this.ptr, func', data', destroy_notify')

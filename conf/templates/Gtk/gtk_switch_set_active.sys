@@ -1,2 +1,0 @@
-  fun set_active(self': GtkSwitch, is_active': I32): None =>
-    @gtk_switch_set_active(self', is_active')

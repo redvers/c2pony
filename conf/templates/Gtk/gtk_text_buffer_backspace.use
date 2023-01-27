@@ -1,1 +1,0 @@
-use @gtk_text_buffer_backspace[I32](buffer': GtkTextBuffer, iter': GtkTextIter, interactive': I32, default_editable': I32)

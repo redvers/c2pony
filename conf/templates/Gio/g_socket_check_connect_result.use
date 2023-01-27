@@ -1,1 +1,0 @@
-use @g_socket_check_connect_result[I32](socket': GSocket, error': Pointer[NullablePointer[GErrorT]])

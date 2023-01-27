@@ -1,2 +1,0 @@
-  fun ref get_natural_wrap_mode(): U32 =>
-    GtkLabelP.get_natural_wrap_mode(this)

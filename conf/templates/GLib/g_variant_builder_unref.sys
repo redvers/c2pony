@@ -1,2 +1,2 @@
-  fun unref(builder': GVariantBuilder): None =>
+  fun unref(builder': NullablePointer[GVariantBuilderT]): None =>
     @g_variant_builder_unref(builder')

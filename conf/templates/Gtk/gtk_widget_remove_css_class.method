@@ -1,2 +1,0 @@
-  fun ref remove_css_class(css_class': String): None =>
-    GtkWidgetP.remove_css_class(this, css_class')

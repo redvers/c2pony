@@ -1,1 +1,1 @@
-use @g_variant_get_int16[I16](value': GVariant)
+use @g_variant_get_int16[I16](value': NullablePointer[GVariantT])

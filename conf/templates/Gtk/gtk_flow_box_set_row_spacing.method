@@ -1,2 +1,0 @@
-  fun ref set_row_spacing(spacing': U32): None =>
-    GtkFlowBoxP.set_row_spacing(this, spacing')

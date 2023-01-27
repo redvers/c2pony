@@ -1,2 +1,0 @@
-  fun get_base_stream(stream': GFilterInputStream): GInputStream =>
-    @g_filter_input_stream_get_base_stream(stream')

@@ -1,2 +1,0 @@
-  fun ref set_monospace(monospace': I32): None =>
-    GtkTextViewP.set_monospace(this, monospace')

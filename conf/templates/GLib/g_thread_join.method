@@ -1,2 +1,2 @@
   fun ref join(): Pointer[None] tag =>
-    GThreadP.join(this)
+    GThreadP.join(this.ptr)

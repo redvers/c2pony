@@ -1,2 +1,0 @@
-  fun ref set_tls_validation_flags(flags': U32): None =>
-    GSocketClientP.set_tls_validation_flags(this, flags')

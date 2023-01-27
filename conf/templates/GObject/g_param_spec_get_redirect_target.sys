@@ -1,2 +1,2 @@
-  fun get_redirect_target(pspec': GParamSpec): GParamSpec =>
+  fun get_redirect_target(pspec': NullablePointer[GParamSpecT]): NullablePointer[GParamSpecT] =>
     @g_param_spec_get_redirect_target(pspec')

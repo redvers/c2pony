@@ -1,2 +1,0 @@
-  fun get_incremental(self': GtkFilterListModel): I32 =>
-    @gtk_filter_list_model_get_incremental(self')

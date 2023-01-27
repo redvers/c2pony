@@ -1,2 +1,0 @@
-  fun ref set_label_widget(label_widget': GtkWidgetI): None =>
-    GtkExpanderP.set_label_widget(this, label_widget')

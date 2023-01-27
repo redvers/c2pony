@@ -1,2 +1,0 @@
-  fun ref set_use_full_page(full_page': I32): None =>
-    GtkPrintOperationP.set_use_full_page(this, full_page')

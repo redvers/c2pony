@@ -1,2 +1,0 @@
-  fun ref list_attributes(name_space': String): Pointer[Pointer[U8]] tag =>
-    GFileInfoP.list_attributes(this, name_space')

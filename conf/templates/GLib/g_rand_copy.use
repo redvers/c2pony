@@ -1,1 +1,1 @@
-use @g_rand_copy[GRand](rand': GRand)
+use @g_rand_copy[NullablePointer[GRandT]](rand': NullablePointer[GRandT])

@@ -1,2 +1,2 @@
-  fun new(): GQueue =>
+  fun new(): NullablePointer[GQueueT] =>
     @g_queue_new()

@@ -1,2 +1,2 @@
-  fun foreach(array': GPtrArray, func': GFunc, user_data': Pointer[None] tag): None =>
+  fun foreach(array': NullablePointer[GPtrArrayT], func': GFunc, user_data': Pointer[None] tag): None =>
     @g_ptr_array_foreach(array', func', user_data')

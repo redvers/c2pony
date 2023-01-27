@@ -1,2 +1,0 @@
-  fun set_custom(tooltip': GtkTooltip, custom_widget': GtkWidgetI): None =>
-    @gtk_tooltip_set_custom(tooltip', custom_widget'.getptr())

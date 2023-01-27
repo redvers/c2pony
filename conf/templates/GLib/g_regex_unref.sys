@@ -1,2 +1,2 @@
-  fun unref(regex': GRegex): None =>
+  fun unref(regex': NullablePointer[GRegexT]): None =>
     @g_regex_unref(regex')

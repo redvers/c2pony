@@ -1,2 +1,2 @@
   fun ref get_day_of_year(): U32 =>
-    GDateP.get_day_of_year(this)
+    GDateP.get_day_of_year(this.ptr)

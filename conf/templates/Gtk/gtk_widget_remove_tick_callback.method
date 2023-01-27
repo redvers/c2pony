@@ -1,2 +1,0 @@
-  fun ref remove_tick_callback(id': U32): None =>
-    GtkWidgetP.remove_tick_callback(this, id')

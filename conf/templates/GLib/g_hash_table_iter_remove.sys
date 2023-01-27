@@ -1,2 +1,2 @@
-  fun remove(iter': GHashTableIter): None =>
+  fun remove(iter': NullablePointer[GHashTableIterT]): None =>
     @g_hash_table_iter_remove(iter')

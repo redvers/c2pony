@@ -1,2 +1,2 @@
-  fun get_enum(value': GValue): I32 =>
+  fun get_enum(value': NullablePointer[GValueT]): I32 =>
     @g_value_get_enum(value')

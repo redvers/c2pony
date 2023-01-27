@@ -1,2 +1,0 @@
-  fun ref get_value(): U32 =>
-    GtkBitsetIterP.get_value(this)

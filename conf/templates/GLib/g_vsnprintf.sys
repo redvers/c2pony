@@ -1,2 +1,2 @@
-  fun vsnprintf(string': String, n': U64, format': String, args': valisttag): I32 =>
+  fun vsnprintf(string': String, n': U64, format': String, args': NullablePointer[valisttagT]): I32 =>
     @g_vsnprintf(string'.cstring(), n', format'.cstring(), args')

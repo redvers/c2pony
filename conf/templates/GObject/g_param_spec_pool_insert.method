@@ -1,2 +1,2 @@
-  fun ref insert(pspec': GParamSpec, owner_type': U64): None =>
-    GParamSpecPoolP.insert(this, pspec', owner_type')
+  fun ref insert(pspec': NullablePointer[GParamSpecT], owner_type': U64): None =>
+    GParamSpecPoolP.insert(this.ptr, pspec', owner_type')

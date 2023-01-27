@@ -1,2 +1,0 @@
-  fun ref set_from_error(error': GError): None =>
-    GSimpleAsyncResultP.set_from_error(this, error')

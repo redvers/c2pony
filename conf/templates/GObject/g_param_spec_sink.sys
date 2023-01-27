@@ -1,2 +1,2 @@
-  fun sink(pspec': GParamSpec): None =>
+  fun sink(pspec': NullablePointer[GParamSpecT]): None =>
     @g_param_spec_sink(pspec')

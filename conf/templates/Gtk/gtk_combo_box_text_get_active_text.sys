@@ -1,2 +1,0 @@
-  fun get_active_text(combo_box': GtkComboBoxText): String iso^ =>
-    String.from_cstring(@gtk_combo_box_text_get_active_text(combo_box')).clone()

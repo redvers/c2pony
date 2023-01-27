@@ -1,2 +1,2 @@
   fun ref clear(): None =>
-    GCondP.clear(this)
+    GCondP.clear(this.ptr)

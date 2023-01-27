@@ -1,1 +1,0 @@
-use @g_application_set_option_context_summary[None](application': Pointer[GObjectP], summary': Pointer[U8] tag)

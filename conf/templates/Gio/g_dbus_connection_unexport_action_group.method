@@ -1,2 +1,0 @@
-  fun ref unexport_action_group(export_id': U32): None =>
-    GDBusConnectionP.unexport_action_group(this, export_id')

@@ -1,2 +1,0 @@
-  fun ref get_visible_child_name(): String iso^ =>
-    GtkStackP.get_visible_child_name(this)

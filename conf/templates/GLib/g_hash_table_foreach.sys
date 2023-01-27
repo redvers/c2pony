@@ -1,2 +1,2 @@
-  fun foreach(hash_table': GHashTable, func': GHFunc, user_data': Pointer[None] tag): None =>
+  fun foreach(hash_table': NullablePointer[GHashTableT], func': GHFunc, user_data': Pointer[None] tag): None =>
     @g_hash_table_foreach(hash_table', func', user_data')

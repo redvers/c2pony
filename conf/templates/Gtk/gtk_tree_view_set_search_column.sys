@@ -1,2 +1,0 @@
-  fun set_search_column(tree_view': GtkTreeView, column': I32): None =>
-    @gtk_tree_view_set_search_column(tree_view', column')

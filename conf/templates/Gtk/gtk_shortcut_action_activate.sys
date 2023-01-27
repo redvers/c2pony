@@ -1,2 +1,0 @@
-  fun activate(self': GtkShortcutAction, flags': U32, widget': GtkWidgetI, args': GVariant): I32 =>
-    @gtk_shortcut_action_activate(self', flags', widget'.getptr(), args')

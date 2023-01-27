@@ -1,2 +1,0 @@
-  fun ref get_embed_page_setup(): I32 =>
-    GtkPrintOperationP.get_embed_page_setup(this)

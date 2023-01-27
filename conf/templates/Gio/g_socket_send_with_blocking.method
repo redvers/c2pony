@@ -1,2 +1,0 @@
-  fun ref send_with_blocking(buffer': String, size': U64, blocking': I32, cancellable': GCancellable, error': GError): I64 =>
-    GSocketP.send_with_blocking(this, buffer', size', blocking', cancellable', error')

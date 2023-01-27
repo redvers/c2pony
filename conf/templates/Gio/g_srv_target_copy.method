@@ -1,2 +1,0 @@
-  fun ref copy(): GSrvTarget =>
-    GSrvTargetP.copy(this)

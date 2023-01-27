@@ -1,2 +1,0 @@
-  fun next(iter': GMenuLinkIter): I32 =>
-    @g_menu_link_iter_next(iter')

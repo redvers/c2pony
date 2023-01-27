@@ -1,2 +1,2 @@
-  fun new_from_fd(fd': I32, writable': I32, error': GError): GMappedFile =>
-    @g_mapped_file_new_from_fd(fd', writable', addressof error'.ptr)
+  new new_from_fd(fd': I32, writable': I32, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_mapped_file_new_from_fd(fd', writable', error')

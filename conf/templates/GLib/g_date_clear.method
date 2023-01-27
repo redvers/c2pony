@@ -1,2 +1,2 @@
   fun ref clear(n_dates': U32): None =>
-    GDateP.clear(this, n_dates')
+    GDateP.clear(this.ptr, n_dates')

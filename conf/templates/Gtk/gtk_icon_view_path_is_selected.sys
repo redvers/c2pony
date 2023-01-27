@@ -1,2 +1,0 @@
-  fun path_is_selected(icon_view': GtkIconView, path': GtkTreePath): I32 =>
-    @gtk_icon_view_path_is_selected(icon_view', path')

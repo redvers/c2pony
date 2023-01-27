@@ -1,2 +1,2 @@
-  fun set_ready_time(source': GSource, ready_time': I64): None =>
+  fun set_ready_time(source': NullablePointer[GSourceT], ready_time': I64): None =>
     @g_source_set_ready_time(source', ready_time')

@@ -1,2 +1,0 @@
-  fun ref set_flags(flags': U32): None =>
-    GSubprocessLauncherP.set_flags(this, flags')

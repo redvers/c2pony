@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GMainContextP.unref(this)
+    GMainContextP.unref(this.ptr)

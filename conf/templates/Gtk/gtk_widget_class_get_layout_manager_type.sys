@@ -1,2 +1,0 @@
-  fun get_layout_manager_type(widget_class': GtkWidgetClass): U64 =>
-    @gtk_widget_class_get_layout_manager_type(widget_class')

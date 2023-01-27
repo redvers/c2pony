@@ -1,1 +1,1 @@
-use @g_date_copy[GDate](date': GDate)
+use @g_date_copy[NullablePointer[GDateT]](date': NullablePointer[GDateT])

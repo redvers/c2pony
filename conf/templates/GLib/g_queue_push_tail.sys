@@ -1,2 +1,2 @@
-  fun push_tail(queue': GQueue, data': Pointer[None] tag): None =>
+  fun push_tail(queue': NullablePointer[GQueueT], data': Pointer[None] tag): None =>
     @g_queue_push_tail(queue', data')

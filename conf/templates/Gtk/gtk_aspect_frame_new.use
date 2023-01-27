@@ -1,1 +1,0 @@
-use @gtk_aspect_frame_new[Pointer[GObjectP]](xalign': F32, yalign': F32, ratio': F32, obey_child': I32)

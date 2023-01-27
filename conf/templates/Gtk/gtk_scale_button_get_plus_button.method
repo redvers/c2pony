@@ -1,2 +1,0 @@
-  fun ref get_plus_button(): Pointer[GObjectP] =>
-    GtkScaleButtonP.get_plus_button(this)

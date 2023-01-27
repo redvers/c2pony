@@ -1,2 +1,2 @@
-  fun source_set_closure(source': GSource, closure': GClosure): None =>
+  fun source_set_closure(source': NullablePointer[GSourceT], closure': NullablePointer[GClosureT]): None =>
     @g_source_set_closure(source', closure')

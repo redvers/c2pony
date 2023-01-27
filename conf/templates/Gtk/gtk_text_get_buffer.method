@@ -1,2 +1,0 @@
-  fun ref get_buffer(): GtkEntryBuffer =>
-    GtkTextP.get_buffer(this)

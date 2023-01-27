@@ -1,2 +1,2 @@
-  fun find_source_by_id(context': GMainContext, source_id': U32): GSource =>
+  fun find_source_by_id(context': NullablePointer[GMainContextT], source_id': U32): NullablePointer[GSourceT] =>
     @g_main_context_find_source_by_id(context', source_id')

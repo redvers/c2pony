@@ -1,2 +1,2 @@
-  fun get_current_time(source': GSource, timeval': GTimeVal): None =>
+  fun get_current_time(source': NullablePointer[GSourceT], timeval': NullablePointer[GTimeValT]): None =>
     @g_source_get_current_time(source', timeval')

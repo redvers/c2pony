@@ -1,1 +1,1 @@
-use @g_hook_list_invoke[None](hook_list': GHookList, may_recurse': I32)
+use @g_hook_list_invoke[None](hook_list': NullablePointer[GHookListT], may_recurse': I32)

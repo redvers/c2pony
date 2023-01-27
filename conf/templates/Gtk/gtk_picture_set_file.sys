@@ -1,2 +1,0 @@
-  fun set_file(self': GtkPicture, file': GFile): None =>
-    @gtk_picture_set_file(self', file')

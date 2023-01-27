@@ -1,2 +1,0 @@
-  fun get_mime_type(info': GtkRecentInfo): String iso^ =>
-    String.from_cstring(@gtk_recent_info_get_mime_type(info')).clone()

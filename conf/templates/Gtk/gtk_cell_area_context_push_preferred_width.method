@@ -1,2 +1,0 @@
-  fun ref push_preferred_width(minimum_width': I32, natural_width': I32): None =>
-    GtkCellAreaContextP.push_preferred_width(this, minimum_width', natural_width')

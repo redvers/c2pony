@@ -1,2 +1,0 @@
-  fun ref get_required_version(major': Pointer[I32] tag, minor': Pointer[I32] tag): None =>
-    GtkGLAreaP.get_required_version(this, major', minor')

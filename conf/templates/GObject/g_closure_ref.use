@@ -1,1 +1,1 @@
-use @g_closure_ref[GClosure](closure': GClosure)
+use @g_closure_ref[NullablePointer[GClosureT]](closure': NullablePointer[GClosureT])

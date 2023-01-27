@@ -1,1 +1,0 @@
-use @g_task_set_source_tag[None](task': GTask, source_tag': Pointer[None] tag)

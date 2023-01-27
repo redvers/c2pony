@@ -1,2 +1,0 @@
-  fun set_attribute_status(info': GFileInfo, attribute': String, status': U32): I32 =>
-    @g_file_info_set_attribute_status(info', attribute'.cstring(), status')

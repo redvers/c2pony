@@ -1,2 +1,0 @@
-  fun ref set_hadjustment(hadjustment': GtkAdjustment): None =>
-    GtkScrolledWindowP.set_hadjustment(this, hadjustment')

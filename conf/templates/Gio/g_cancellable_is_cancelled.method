@@ -1,2 +1,0 @@
-  fun ref is_cancelled(): I32 =>
-    GCancellableP.is_cancelled(this)

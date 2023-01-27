@@ -1,1 +1,0 @@
-use @gtk_icon_view_get_model[GtkTreeModel](icon_view': GtkIconView)

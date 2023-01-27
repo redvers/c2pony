@@ -1,2 +1,0 @@
-  fun ref set_license(license': String): None =>
-    GtkAboutDialogP.set_license(this, license')

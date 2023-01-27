@@ -1,2 +1,2 @@
   fun ref get_description(): String iso^ =>
-    GOptionContextP.get_description(this)
+    GOptionContextP.get_description(this.ptr)

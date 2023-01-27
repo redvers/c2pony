@@ -1,2 +1,0 @@
-  fun bus_watch_name(bus_type': I32, name': String, flags': U32, name_appeared_handler': GBusNameAppearedCallback, name_vanished_handler': GBusNameVanishedCallback, user_data': Pointer[None] tag, user_data_free_func': GDestroyNotify): U32 =>
-    @g_bus_watch_name(bus_type', name'.cstring(), flags', name_appeared_handler', name_vanished_handler', user_data', user_data_free_func')

@@ -1,2 +1,0 @@
-  fun ref return_boolean(result': I32): None =>
-    GTaskP.return_boolean(this, result')

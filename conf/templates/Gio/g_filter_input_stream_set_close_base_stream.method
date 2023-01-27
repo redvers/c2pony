@@ -1,2 +1,0 @@
-  fun ref set_close_base_stream(close_base': I32): None =>
-    GFilterInputStreamP.set_close_base_stream(this, close_base')

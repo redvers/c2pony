@@ -1,2 +1,0 @@
-  fun ref get_use_underline(): I32 =>
-    GtkMenuButtonP.get_use_underline(this)

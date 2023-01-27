@@ -1,2 +1,0 @@
-  fun ref set_focus_on_click(focus_on_click': I32): None =>
-    GtkWidgetP.set_focus_on_click(this, focus_on_click')

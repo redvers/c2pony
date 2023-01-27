@@ -1,2 +1,0 @@
-  fun ref get_double_with_default(key': String, def': F64): F64 =>
-    GtkPrintSettingsP.get_double_with_default(this, key', def')

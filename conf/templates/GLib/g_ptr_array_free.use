@@ -1,1 +1,1 @@
-use @g_ptr_array_free[Pointer[Pointer[None]] tag](array': GPtrArray, free_seg': I32)
+use @g_ptr_array_free[Pointer[Pointer[None]] tag](array': NullablePointer[GPtrArrayT], free_seg': I32)

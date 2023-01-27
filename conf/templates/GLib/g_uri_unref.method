@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GUriP.unref(this)
+    GUriP.unref(this.ptr)

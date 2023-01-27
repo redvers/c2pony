@@ -1,2 +1,2 @@
   fun ref is_end(): I32 =>
-    GSequenceIterP.is_end(this)
+    GSequenceIterP.is_end(this.ptr)

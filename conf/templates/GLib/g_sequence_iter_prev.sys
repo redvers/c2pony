@@ -1,2 +1,2 @@
-  fun prev(iter': GSequenceNode): GSequenceNode =>
+  fun prev(iter': NullablePointer[GSequenceNodeT]): NullablePointer[GSequenceNodeT] =>
     @g_sequence_iter_prev(iter')

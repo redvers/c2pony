@@ -1,1 +1,1 @@
-use @g_queue_link_index[I32](queue': GQueue, link': GList)
+use @g_queue_link_index[I32](queue': NullablePointer[GQueueT], link': NullablePointer[GListT])

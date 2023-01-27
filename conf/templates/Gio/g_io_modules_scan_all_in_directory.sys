@@ -1,2 +1,0 @@
-  fun io_modules_scan_all_in_directory(dirname': String): None =>
-    @g_io_modules_scan_all_in_directory(dirname'.cstring())

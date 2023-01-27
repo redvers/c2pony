@@ -1,2 +1,2 @@
   fun ref run_dispose(): None =>
-    GObjectP.run_dispose(this)
+    GObjectP.run_dispose(this.ptr)

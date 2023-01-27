@@ -1,2 +1,0 @@
-  fun get_objects(builder': GtkBuilderI): GSList =>
-    @gtk_builder_get_objects(builder'.getptr())

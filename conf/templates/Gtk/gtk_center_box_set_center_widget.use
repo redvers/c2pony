@@ -1,1 +1,0 @@
-use @gtk_center_box_set_center_widget[None](self': GtkCenterBox, child': Pointer[GObjectP])

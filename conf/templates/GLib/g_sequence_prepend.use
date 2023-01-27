@@ -1,1 +1,1 @@
-use @g_sequence_prepend[GSequenceNode](seq': GSequence, data': Pointer[None] tag)
+use @g_sequence_prepend[NullablePointer[GSequenceNodeT]](seq': NullablePointer[GSequenceT], data': Pointer[None] tag)

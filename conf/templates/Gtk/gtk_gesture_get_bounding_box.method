@@ -1,2 +1,0 @@
-  fun ref get_bounding_box(rect': cairorectangleint): I32 =>
-    GtkGestureP.get_bounding_box(this, rect')

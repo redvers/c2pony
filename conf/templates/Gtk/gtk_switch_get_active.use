@@ -1,1 +1,0 @@
-use @gtk_switch_get_active[I32](self': GtkSwitch)

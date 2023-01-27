@@ -1,2 +1,0 @@
-  fun get_name(iter': GMenuLinkIter): String iso^ =>
-    String.from_cstring(@g_menu_link_iter_get_name(iter')).clone()

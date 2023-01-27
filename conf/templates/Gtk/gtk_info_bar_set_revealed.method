@@ -1,2 +1,0 @@
-  fun ref set_revealed(revealed': I32): None =>
-    GtkInfoBarP.set_revealed(this, revealed')

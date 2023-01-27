@@ -1,2 +1,0 @@
-  fun hash(trigger': Pointer[None] tag): U32 =>
-    @gtk_shortcut_trigger_hash(trigger')

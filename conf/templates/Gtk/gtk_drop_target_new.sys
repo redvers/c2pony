@@ -1,2 +1,0 @@
-  fun new(type': U64, actions': U32): GtkDropTarget =>
-    @gtk_drop_target_new(type', actions')

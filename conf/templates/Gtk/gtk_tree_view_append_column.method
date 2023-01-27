@@ -1,2 +1,0 @@
-  fun ref append_column(column': GtkTreeViewColumn): I32 =>
-    GtkTreeViewP.append_column(this, column')

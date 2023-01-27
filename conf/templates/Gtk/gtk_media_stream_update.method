@@ -1,2 +1,0 @@
-  fun ref update(timestamp': I64): None =>
-    GtkMediaStreamP.update(this, timestamp')

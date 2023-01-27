@@ -1,2 +1,0 @@
-  fun ref to_key_file(key_file': GKeyFile, group_name': String): None =>
-    GtkPrintSettingsP.to_key_file(this, key_file', group_name')

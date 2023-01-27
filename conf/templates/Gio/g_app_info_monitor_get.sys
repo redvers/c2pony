@@ -1,2 +1,0 @@
-  fun get(): GAppInfoMonitor =>
-    @g_app_info_monitor_get()

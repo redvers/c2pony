@@ -1,2 +1,0 @@
-  fun get_factory(self': GtkListView): GtkListItemFactory =>
-    @gtk_list_view_get_factory(self')

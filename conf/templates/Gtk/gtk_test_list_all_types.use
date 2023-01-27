@@ -1,1 +1,0 @@
-use @gtk_test_list_all_types[Pointer[U64] tag](n_types': Pointer[U32] tag)

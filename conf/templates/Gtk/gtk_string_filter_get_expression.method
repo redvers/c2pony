@@ -1,2 +1,0 @@
-  fun ref get_expression(): GtkExpression =>
-    GtkStringFilterP.get_expression(this)

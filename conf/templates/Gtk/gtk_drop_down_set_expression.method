@@ -1,2 +1,0 @@
-  fun ref set_expression(expression': GtkExpression): None =>
-    GtkDropDownP.set_expression(this, expression')

@@ -1,2 +1,0 @@
-  fun is_ipp(size': GtkPaperSize): I32 =>
-    @gtk_paper_size_is_ipp(size')

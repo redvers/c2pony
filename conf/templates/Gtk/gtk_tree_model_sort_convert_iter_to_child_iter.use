@@ -1,1 +1,0 @@
-use @gtk_tree_model_sort_convert_iter_to_child_iter[None](tree_model_sort': GtkTreeModelSort, child_iter': GtkTreeIter, sorted_iter': GtkTreeIter)

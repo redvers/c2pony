@@ -1,2 +1,0 @@
-  fun ref get_ratio(): F32 =>
-    GtkAspectFrameP.get_ratio(this)

@@ -1,1 +1,0 @@
-use @gtk_text_tag_table_foreach[None](table': GtkTextTagTable, func': GtkTextTagTableForeach, data': Pointer[None] tag)

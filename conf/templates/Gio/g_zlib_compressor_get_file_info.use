@@ -1,1 +1,0 @@
-use @g_zlib_compressor_get_file_info[GFileInfo](compressor': GZlibCompressor)

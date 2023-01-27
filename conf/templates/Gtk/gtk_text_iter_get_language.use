@@ -1,1 +1,0 @@
-use @gtk_text_iter_get_language[PangoLanguage](iter': GtkTextIter)

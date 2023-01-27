@@ -1,1 +1,0 @@
-use @gtk_icon_view_get_path_at_pos[GtkTreePath](icon_view': GtkIconView, x': I32, y': I32)

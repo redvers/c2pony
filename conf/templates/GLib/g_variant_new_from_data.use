@@ -1,1 +1,1 @@
-use @g_variant_new_from_data[GVariant](type': GVariantType, data': Pointer[None] tag, size': U64, trusted': I32, notify': GDestroyNotify, user_data': Pointer[None] tag)
+use @g_variant_new_from_data[NullablePointer[GVariantT]](type': NullablePointer[GVariantTypeT], data': Pointer[None] tag, size': U64, trusted': I32, notify': Pointer[None], user_data': Pointer[None] tag)

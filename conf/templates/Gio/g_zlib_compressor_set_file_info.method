@@ -1,2 +1,0 @@
-  fun ref set_file_info(file_info': GFileInfo): None =>
-    GZlibCompressorP.set_file_info(this, file_info')

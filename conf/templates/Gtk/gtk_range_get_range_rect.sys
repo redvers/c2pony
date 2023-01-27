@@ -1,2 +1,0 @@
-  fun get_range_rect(range': GtkRange, range_rect': cairorectangleint): None =>
-    @gtk_range_get_range_rect(range', range_rect')

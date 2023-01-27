@@ -1,2 +1,0 @@
-  fun set_placeholder_text(entry': GtkEntry, text': String): None =>
-    @gtk_entry_set_placeholder_text(entry', text'.cstring())

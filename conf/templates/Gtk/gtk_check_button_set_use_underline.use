@@ -1,1 +1,0 @@
-use @gtk_check_button_set_use_underline[None](self': GtkCheckButton, setting': I32)

@@ -1,1 +1,0 @@
-use @g_dbus_proxy_get_name_owner[Pointer[U8]](proxy': GDBusProxy)

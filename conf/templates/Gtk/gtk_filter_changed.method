@@ -1,2 +1,0 @@
-  fun ref changed(change': U32): None =>
-    GtkFilterP.changed(this, change')

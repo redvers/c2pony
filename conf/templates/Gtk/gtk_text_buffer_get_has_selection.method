@@ -1,2 +1,0 @@
-  fun ref get_has_selection(): I32 =>
-    GtkTextBufferP.get_has_selection(this)

@@ -1,2 +1,2 @@
-  fun param_spec_object(name': String, nick': String, blurb': String, object_type': U64, flags': I32): GParamSpec =>
+  fun param_spec_object(name': String, nick': String, blurb': String, object_type': U64, flags': I32): NullablePointer[GParamSpecT] =>
     @g_param_spec_object(name'.cstring(), nick'.cstring(), blurb'.cstring(), object_type', flags')

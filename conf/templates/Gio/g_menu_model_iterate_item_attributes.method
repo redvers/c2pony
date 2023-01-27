@@ -1,2 +1,0 @@
-  fun ref iterate_item_attributes(item_index': I32): GMenuAttributeIter =>
-    GMenuModelP.iterate_item_attributes(this, item_index')

@@ -1,2 +1,0 @@
-  fun ref order(second': GtkTextIter): None =>
-    GtkTextIterP.order(this, second')

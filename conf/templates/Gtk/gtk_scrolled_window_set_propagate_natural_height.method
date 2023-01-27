@@ -1,2 +1,0 @@
-  fun ref set_propagate_natural_height(propagate': I32): None =>
-    GtkScrolledWindowP.set_propagate_natural_height(this, propagate')

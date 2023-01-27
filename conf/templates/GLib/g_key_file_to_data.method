@@ -1,2 +1,2 @@
-  fun ref to_data(length': Pointer[U64] tag, error': GError): String iso^ =>
-    GKeyFileP.to_data(this, length', error')
+  fun ref to_data(length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    GKeyFileP.to_data(this.ptr, length', error')

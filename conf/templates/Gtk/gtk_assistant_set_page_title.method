@@ -1,2 +1,0 @@
-  fun ref set_page_title(page': GtkWidgetI, title': String): None =>
-    GtkAssistantP.set_page_title(this, page', title')

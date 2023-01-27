@@ -1,2 +1,0 @@
-  fun ref convert_path_to_child_path(filter_path': GtkTreePath): GtkTreePath =>
-    GtkTreeModelFilterP.convert_path_to_child_path(this, filter_path')

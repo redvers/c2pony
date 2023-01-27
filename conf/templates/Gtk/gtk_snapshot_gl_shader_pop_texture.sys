@@ -1,2 +1,0 @@
-  fun gl_shader_pop_texture(snapshot': GdkSnapshot): None =>
-    @gtk_snapshot_gl_shader_pop_texture(snapshot')

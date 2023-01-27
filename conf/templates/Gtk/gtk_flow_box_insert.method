@@ -1,2 +1,0 @@
-  fun ref insert(widget': GtkWidgetI, position': I32): None =>
-    GtkFlowBoxP.insert(this, widget', position')

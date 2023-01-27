@@ -1,2 +1,2 @@
   fun ref valid(): I32 =>
-    GDateP.valid(this)
+    GDateP.valid(this.ptr)

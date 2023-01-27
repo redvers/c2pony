@@ -1,2 +1,2 @@
-  fun enum_complete_type_info(g_enum_type': U64, info': GTypeInfo, const_values': GEnumValue): None =>
+  fun enum_complete_type_info(g_enum_type': U64, info': NullablePointer[GTypeInfoT], const_values': NullablePointer[GEnumValueT]): None =>
     @g_enum_complete_type_info(g_enum_type', info', const_values')

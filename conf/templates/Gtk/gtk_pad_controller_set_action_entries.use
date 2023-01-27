@@ -1,1 +1,0 @@
-use @gtk_pad_controller_set_action_entries[None](controller': GtkPadController, entries': GtkPadActionEntry, n_entries': I32)

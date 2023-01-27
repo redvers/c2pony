@@ -1,1 +1,0 @@
-use @g_menu_model_is_mutable[I32](model': GMenuModel)

@@ -1,2 +1,2 @@
-  fun free_1(list': GList): None =>
+  fun free_1(list': NullablePointer[GListT]): None =>
     @g_list_free_1(list')

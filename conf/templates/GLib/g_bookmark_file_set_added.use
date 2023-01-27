@@ -1,1 +1,1 @@
-use @g_bookmark_file_set_added[None](bookmark': GBookmarkFile, uri': Pointer[U8] tag, added': I64)
+use @g_bookmark_file_set_added[None](bookmark': NullablePointer[GBookmarkFileT], uri': Pointer[U8] tag, added': I64)

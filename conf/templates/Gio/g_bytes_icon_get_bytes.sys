@@ -1,2 +1,0 @@
-  fun get_bytes(icon': GBytesIcon): GBytes =>
-    @g_bytes_icon_get_bytes(icon')

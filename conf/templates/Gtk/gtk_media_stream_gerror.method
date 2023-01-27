@@ -1,2 +1,0 @@
-  fun ref gerror(error': GError): None =>
-    GtkMediaStreamP.gerror(this, error')

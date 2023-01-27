@@ -1,2 +1,0 @@
-  fun ref get_ellipsize(): U32 =>
-    GtkLabelP.get_ellipsize(this)

@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GMappedFileP.unref(this)
+    GMappedFileP.unref(this.ptr)

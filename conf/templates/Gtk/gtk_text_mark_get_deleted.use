@@ -1,1 +1,0 @@
-use @gtk_text_mark_get_deleted[I32](mark': GtkTextMark)

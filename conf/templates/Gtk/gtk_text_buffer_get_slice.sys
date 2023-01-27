@@ -1,2 +1,0 @@
-  fun get_slice(buffer': GtkTextBuffer, start': GtkTextIter, end': GtkTextIter, include_hidden_chars': I32): String iso^ =>
-    String.from_cstring(@gtk_text_buffer_get_slice(buffer', start', end', include_hidden_chars')).clone()

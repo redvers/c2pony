@@ -1,2 +1,2 @@
-  fun is_last_of_month(date': GDate): I32 =>
+  fun is_last_of_month(date': NullablePointer[GDateT]): I32 =>
     @g_date_is_last_of_month(date')

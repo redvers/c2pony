@@ -1,2 +1,0 @@
-  fun ref get_flags(): U32 =>
-    GDBusInterfaceSkeletonP.get_flags(this)

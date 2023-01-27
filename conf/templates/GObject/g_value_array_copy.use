@@ -1,1 +1,1 @@
-use @g_value_array_copy[GValueArray](value_array': GValueArray)
+use @g_value_array_copy[NullablePointer[GValueArrayT]](value_array': NullablePointer[GValueArrayT])

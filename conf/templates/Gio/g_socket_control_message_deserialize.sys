@@ -1,2 +1,0 @@
-  fun deserialize(level': I32, type': I32, size': U64, data': Pointer[None] tag): GSocketControlMessage =>
-    @g_socket_control_message_deserialize(level', type', size', data')

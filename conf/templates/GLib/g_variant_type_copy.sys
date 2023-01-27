@@ -1,2 +1,2 @@
-  fun copy(type': GVariantType): GVariantType =>
+  fun copy(type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantTypeT] =>
     @g_variant_type_copy(type')

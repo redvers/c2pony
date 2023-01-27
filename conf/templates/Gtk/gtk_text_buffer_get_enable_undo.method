@@ -1,2 +1,0 @@
-  fun ref get_enable_undo(): I32 =>
-    GtkTextBufferP.get_enable_undo(this)

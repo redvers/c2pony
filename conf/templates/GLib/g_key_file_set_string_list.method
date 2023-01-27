@@ -1,2 +1,2 @@
   fun ref set_string_list(group_name': String, key': String, list': Pointer[Pointer[U8]] tag, length': U64): None =>
-    GKeyFileP.set_string_list(this, group_name', key', list', length')
+    GKeyFileP.set_string_list(this.ptr, group_name', key', list', length')

@@ -1,2 +1,0 @@
-  fun ref add_with_properties(renderer': GtkCellRenderer, first_prop_name': String, ...): None =>
-    GtkCellAreaP.add_with_properties(this, renderer', first_prop_name', ...)

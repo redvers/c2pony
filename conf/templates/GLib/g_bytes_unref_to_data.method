@@ -1,2 +1,2 @@
   fun ref unref_to_data(size': Pointer[U64] tag): Pointer[None] tag =>
-    GBytesP.unref_to_data(this, size')
+    GBytesP.unref_to_data(this.ptr, size')

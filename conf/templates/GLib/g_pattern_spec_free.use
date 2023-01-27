@@ -1,1 +1,1 @@
-use @g_pattern_spec_free[None](pspec': GPatternSpec)
+use @g_pattern_spec_free[None](pspec': NullablePointer[GPatternSpecT])

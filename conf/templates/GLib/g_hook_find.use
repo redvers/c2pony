@@ -1,1 +1,1 @@
-use @g_hook_find[GHook](hook_list': GHookList, need_valids': I32, func': GHookFindFunc, data': Pointer[None] tag)
+use @g_hook_find[NullablePointer[GHookT]](hook_list': NullablePointer[GHookListT], need_valids': I32, func': GHookFindFunc, data': Pointer[None] tag)

@@ -1,2 +1,0 @@
-  fun is_static(self': GtkExpression): I32 =>
-    @gtk_expression_is_static(self')

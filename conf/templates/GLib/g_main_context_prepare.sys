@@ -1,2 +1,2 @@
-  fun prepare(context': GMainContext, priority': Pointer[I32] tag): I32 =>
+  fun prepare(context': NullablePointer[GMainContextT], priority': Pointer[I32] tag): I32 =>
     @g_main_context_prepare(context', priority')

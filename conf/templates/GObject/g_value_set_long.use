@@ -1,1 +1,1 @@
-use @g_value_set_long[None](value': GValue, v_long': I64)
+use @g_value_set_long[None](value': NullablePointer[GValueT], v_long': I64)

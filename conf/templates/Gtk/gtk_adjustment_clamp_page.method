@@ -1,2 +1,0 @@
-  fun ref clamp_page(lower': F64, upper': F64): None =>
-    GtkAdjustmentP.clamp_page(this, lower', upper')

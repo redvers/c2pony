@@ -1,2 +1,2 @@
-  fun ref remove(index': U32): GValueArray =>
-    GValueArrayP.remove(this, index')
+  fun ref remove(index': U32): NullablePointer[GValueArrayT] =>
+    GValueArrayP.remove(this.ptr, index')

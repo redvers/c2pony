@@ -1,1 +1,1 @@
-use @g_test_create_case[GTestCase](test_name': Pointer[U8] tag, data_size': U64, test_data': Pointer[None] tag, data_setup': GTestFixtureFunc, data_test': GTestFixtureFunc, data_teardown': GTestFixtureFunc)
+use @g_test_create_case[NullablePointer[GTestCaseT]](test_name': Pointer[U8] tag, data_size': U64, test_data': Pointer[None] tag, data_setup': GTestFixtureFunc, data_test': GTestFixtureFunc, data_teardown': GTestFixtureFunc)

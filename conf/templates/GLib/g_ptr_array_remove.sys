@@ -1,2 +1,2 @@
-  fun remove(array': GPtrArray, data': Pointer[None] tag): I32 =>
+  fun remove(array': NullablePointer[GPtrArrayT], data': Pointer[None] tag): I32 =>
     @g_ptr_array_remove(array', data')

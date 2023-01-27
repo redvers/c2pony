@@ -1,2 +1,2 @@
-  fun get_root(node': GNode): GNode =>
+  fun get_root(node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
     @g_node_get_root(node')

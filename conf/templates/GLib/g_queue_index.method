@@ -1,2 +1,2 @@
   fun ref index(data': Pointer[None] tag): I32 =>
-    GQueueP.index(this, data')
+    GQueueP.index(this.ptr, data')

@@ -1,2 +1,2 @@
-  fun ref insert(position': I32, node': GNode): GNode =>
-    GNodeP.insert(this, position', node')
+  fun ref insert(position': I32, node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
+    GNodeP.insert(this.ptr, position', node')

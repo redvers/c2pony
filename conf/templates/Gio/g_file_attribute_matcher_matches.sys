@@ -1,2 +1,0 @@
-  fun matches(matcher': GFileAttributeMatcher, attribute': String): I32 =>
-    @g_file_attribute_matcher_matches(matcher', attribute'.cstring())

@@ -1,1 +1,1 @@
-use @g_checksum_get_string[Pointer[U8]](checksum': GChecksum)
+use @g_checksum_get_string[Pointer[U8]](checksum': NullablePointer[GChecksumT])

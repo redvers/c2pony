@@ -1,2 +1,2 @@
-  fun get_uint64(key_file': GKeyFile, group_name': String, key': String, error': GError): U64 =>
-    @g_key_file_get_uint64(key_file', group_name'.cstring(), key'.cstring(), addressof error'.ptr)
+  fun get_uint64(key_file': NullablePointer[GKeyFileT], group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): U64 =>
+    @g_key_file_get_uint64(key_file', group_name'.cstring(), key'.cstring(), error')

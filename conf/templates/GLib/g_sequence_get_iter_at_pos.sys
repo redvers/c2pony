@@ -1,2 +1,2 @@
-  fun get_iter_at_pos(seq': GSequence, pos': I32): GSequenceNode =>
+  fun get_iter_at_pos(seq': NullablePointer[GSequenceT], pos': I32): NullablePointer[GSequenceNodeT] =>
     @g_sequence_get_iter_at_pos(seq', pos')

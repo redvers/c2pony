@@ -1,1 +1,0 @@
-use @g_socket_set_multicast_ttl[None](socket': GSocket, ttl': U32)

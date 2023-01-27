@@ -1,1 +1,1 @@
-use @g_type_free_instance[None](instance': GTypeInstance)
+use @g_type_free_instance[None](instance': NullablePointer[GTypeInstanceT])

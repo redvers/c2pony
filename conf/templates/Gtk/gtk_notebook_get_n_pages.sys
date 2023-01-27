@@ -1,2 +1,0 @@
-  fun get_n_pages(notebook': GtkNotebook): I32 =>
-    @gtk_notebook_get_n_pages(notebook')

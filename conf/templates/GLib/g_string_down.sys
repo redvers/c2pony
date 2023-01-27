@@ -1,2 +1,2 @@
-  fun down(string': GString): GString =>
+  fun down(string': NullablePointer[GStringT]): NullablePointer[GStringT] =>
     @g_string_down(string')

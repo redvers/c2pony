@@ -1,2 +1,0 @@
-  fun get_attributes(self': GtkText): PangoAttrList =>
-    @gtk_text_get_attributes(self')

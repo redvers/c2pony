@@ -1,2 +1,2 @@
-  fun ref compare_ids(sibling': GHook): I32 =>
-    GHookP.compare_ids(this, sibling')
+  fun ref compare_ids(sibling': NullablePointer[GHookT]): I32 =>
+    GHookP.compare_ids(this.ptr, sibling')

@@ -1,1 +1,0 @@
-use @gtk_shortcut_action_print[None](self': GtkShortcutAction, string': GString)

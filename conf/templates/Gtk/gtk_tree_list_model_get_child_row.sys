@@ -1,2 +1,0 @@
-  fun get_child_row(self': GtkTreeListModel, position': U32): GtkTreeListRow =>
-    @gtk_tree_list_model_get_child_row(self', position')

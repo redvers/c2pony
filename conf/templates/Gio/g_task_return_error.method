@@ -1,2 +1,0 @@
-  fun ref return_error(error': GError): None =>
-    GTaskP.return_error(this, error')

@@ -1,2 +1,0 @@
-  fun flush(stream': GOutputStream, cancellable': GCancellable, error': GError): I32 =>
-    @g_output_stream_flush(stream', cancellable', addressof error'.ptr)

@@ -1,2 +1,0 @@
-  fun intersect(self': GtkBitset, other': GtkBitset): None =>
-    @gtk_bitset_intersect(self', other')

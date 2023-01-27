@@ -1,2 +1,0 @@
-  fun new(flags': U32): GSubprocessLauncher =>
-    @g_subprocess_launcher_new(flags')

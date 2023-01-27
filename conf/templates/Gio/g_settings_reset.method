@@ -1,2 +1,0 @@
-  fun ref reset(key': String): None =>
-    GSettingsP.reset(this, key')

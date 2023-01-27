@@ -1,2 +1,0 @@
-  fun ends_line(iter': GtkTextIter): I32 =>
-    @gtk_text_iter_ends_line(iter')

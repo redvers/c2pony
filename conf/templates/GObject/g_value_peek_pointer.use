@@ -1,1 +1,1 @@
-use @g_value_peek_pointer[Pointer[None] tag](value': GValue)
+use @g_value_peek_pointer[Pointer[None] tag](value': NullablePointer[GValueT])

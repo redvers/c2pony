@@ -1,2 +1,0 @@
-  fun allocate(manager': GtkLayoutManager, widget': GtkWidgetI, width': I32, height': I32, baseline': I32): None =>
-    @gtk_layout_manager_allocate(manager', widget'.getptr(), width', height', baseline')

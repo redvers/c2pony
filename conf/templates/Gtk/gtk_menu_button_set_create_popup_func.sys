@@ -1,2 +1,0 @@
-  fun set_create_popup_func(menu_button': GtkMenuButton, func': GtkMenuButtonCreatePopupFunc, user_data': Pointer[None] tag, destroy_notify': GDestroyNotify): None =>
-    @gtk_menu_button_set_create_popup_func(menu_button', func', user_data', destroy_notify')

@@ -1,2 +1,0 @@
-  fun ref remove(position': U32): None =>
-    GtkMultiSorterP.remove(this, position')

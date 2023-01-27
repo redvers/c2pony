@@ -1,2 +1,2 @@
-  fun wakeup(context': GMainContext): None =>
+  fun wakeup(context': NullablePointer[GMainContextT]): None =>
     @g_main_context_wakeup(context')

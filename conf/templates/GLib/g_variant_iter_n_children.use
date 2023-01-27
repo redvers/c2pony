@@ -1,1 +1,1 @@
-use @g_variant_iter_n_children[U64](iter': GVariantIter)
+use @g_variant_iter_n_children[U64](iter': NullablePointer[GVariantIterT])

@@ -1,2 +1,2 @@
-  fun timeout_pop_unlocked(queue': GAsyncQueue, timeout': U64): Pointer[None] tag =>
+  fun timeout_pop_unlocked(queue': NullablePointer[GAsyncQueueT], timeout': U64): Pointer[None] tag =>
     @g_async_queue_timeout_pop_unlocked(queue', timeout')

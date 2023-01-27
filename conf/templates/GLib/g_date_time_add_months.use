@@ -1,1 +1,1 @@
-use @g_date_time_add_months[GDateTime](datetime': GDateTime, months': I32)
+use @g_date_time_add_months[NullablePointer[GDateTimeT]](datetime': NullablePointer[GDateTimeT], months': I32)

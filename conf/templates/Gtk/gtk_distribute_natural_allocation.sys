@@ -1,2 +1,0 @@
-  fun distribute_natural_allocation(extra_space': I32, n_requested_sizes': U32, sizes': GtkRequestedSize): I32 =>
-    @gtk_distribute_natural_allocation(extra_space', n_requested_sizes', sizes')

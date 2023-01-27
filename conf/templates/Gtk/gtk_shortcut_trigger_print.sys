@@ -1,2 +1,0 @@
-  fun print(self': GtkShortcutTrigger, string': GString): None =>
-    @gtk_shortcut_trigger_print(self', string')

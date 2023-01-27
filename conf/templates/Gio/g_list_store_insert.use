@@ -1,1 +1,0 @@
-use @g_list_store_insert[None](store': GListStore, position': U32, item': Pointer[None] tag)

@@ -1,2 +1,2 @@
-  fun get_can_recurse(source': GSource): I32 =>
+  fun get_can_recurse(source': NullablePointer[GSourceT]): I32 =>
     @g_source_get_can_recurse(source')

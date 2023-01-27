@@ -1,2 +1,2 @@
-  fun next_valid(hook_list': GHookList, hook': GHook, may_be_in_call': I32): GHook =>
+  fun next_valid(hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT], may_be_in_call': I32): NullablePointer[GHookT] =>
     @g_hook_next_valid(hook_list', hook', may_be_in_call')

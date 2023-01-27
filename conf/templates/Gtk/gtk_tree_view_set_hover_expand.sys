@@ -1,2 +1,0 @@
-  fun set_hover_expand(tree_view': GtkTreeView, expand': I32): None =>
-    @gtk_tree_view_set_hover_expand(tree_view', expand')

@@ -1,1 +1,0 @@
-use @gtk_file_chooser_native_set_accept_label[None](self': GtkFileChooserNative, accept_label': Pointer[U8] tag)

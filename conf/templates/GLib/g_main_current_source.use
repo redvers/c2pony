@@ -1,1 +1,1 @@
-use @g_main_current_source[GSource]()
+use @g_main_current_source[NullablePointer[GSourceT]]()

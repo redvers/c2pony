@@ -1,1 +1,1 @@
-use @g_bytes_get_size[U64](bytes': GBytes)
+use @g_bytes_get_size[U64](bytes': NullablePointer[GBytesT])

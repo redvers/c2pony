@@ -1,2 +1,0 @@
-  fun ref set_value(value': F64): None =>
-    GtkScaleButtonP.set_value(this, value')

@@ -1,2 +1,2 @@
   fun ref clear(): None =>
-    GQueueP.clear(this)
+    GQueueP.clear(this.ptr)

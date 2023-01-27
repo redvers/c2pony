@@ -1,2 +1,0 @@
-  fun ref set_direction(direction': U32): None =>
-    GtkMenuButtonP.set_direction(this, direction')

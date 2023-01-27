@@ -1,2 +1,0 @@
-  fun render_activity(context': GtkStyleContext, cr': cairo, x': F64, y': F64, width': F64, height': F64): None =>
-    @gtk_render_activity(context', cr', x', y', width', height')

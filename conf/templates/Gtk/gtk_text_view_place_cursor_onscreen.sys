@@ -1,2 +1,0 @@
-  fun place_cursor_onscreen(text_view': GtkTextView): I32 =>
-    @gtk_text_view_place_cursor_onscreen(text_view')

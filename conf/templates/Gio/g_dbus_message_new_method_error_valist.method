@@ -1,2 +1,0 @@
-  fun ref new_method_error_valist(error_name': String, error_message_format': String, var_args': valisttag): GDBusMessage =>
-    GDBusMessageP.new_method_error_valist(this, error_name', error_message_format', var_args')

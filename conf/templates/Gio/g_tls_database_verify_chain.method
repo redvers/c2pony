@@ -1,2 +1,0 @@
-  fun ref verify_chain(chain': GTlsCertificate, purpose': String, identity': GSocketConnectable, interaction': GTlsInteraction, flags': U32, cancellable': GCancellable, error': GError): U32 =>
-    GTlsDatabaseP.verify_chain(this, chain', purpose', identity', interaction', flags', cancellable', error')

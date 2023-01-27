@@ -1,2 +1,0 @@
-  fun is_showing(op': GtkMountOperation): I32 =>
-    @gtk_mount_operation_is_showing(op')

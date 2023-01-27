@@ -1,2 +1,2 @@
   fun ref set_visited(uri': String, visited': I64): None =>
-    GBookmarkFileP.set_visited(this, uri', visited')
+    GBookmarkFileP.set_visited(this.ptr, uri', visited')

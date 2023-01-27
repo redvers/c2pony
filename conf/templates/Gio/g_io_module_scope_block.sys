@@ -1,2 +1,0 @@
-  fun block(scope': GIOModuleScope, basename': String): None =>
-    @g_io_module_scope_block(scope', basename'.cstring())

@@ -1,1 +1,0 @@
-use @g_menu_item_new_submenu[GMenuItem](label': Pointer[U8] tag, submenu': GMenuModel)

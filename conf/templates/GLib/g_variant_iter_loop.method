@@ -1,2 +1,2 @@
   fun ref loop(format_string': String, ...): I32 =>
-    GVariantIterP.loop(this, format_string', ...)
+    GVariantIterP.loop(this.ptr, format_string', ...)

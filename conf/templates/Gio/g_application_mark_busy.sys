@@ -1,2 +1,0 @@
-  fun mark_busy(application': GApplicationI): None =>
-    @g_application_mark_busy(application'.getptr())

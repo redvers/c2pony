@@ -1,2 +1,0 @@
-  fun ref add(name': String, type': U32, flags': U32): None =>
-    GFileAttributeInfoListP.add(this, name', type', flags')

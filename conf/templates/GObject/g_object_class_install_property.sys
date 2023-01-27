@@ -1,2 +1,2 @@
-  fun install_property(oclass': GObjectClass, property_id': U32, pspec': GParamSpec): None =>
+  fun install_property(oclass': NullablePointer[GObjectClassT], property_id': U32, pspec': NullablePointer[GParamSpecT]): None =>
     @g_object_class_install_property(oclass', property_id', pspec')

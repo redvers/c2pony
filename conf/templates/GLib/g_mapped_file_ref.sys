@@ -1,2 +1,2 @@
-  fun ref(file': GMappedFile): GMappedFile =>
+  fun ref(file': NullablePointer[GMappedFileT]): NullablePointer[GMappedFileT] =>
     @g_mapped_file_ref(file')

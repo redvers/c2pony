@@ -1,2 +1,0 @@
-  fun dbus_generate_guid(): String iso^ =>
-    String.from_cstring(@g_dbus_generate_guid()).clone()

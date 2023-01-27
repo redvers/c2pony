@@ -1,2 +1,2 @@
-  fun get_double(value': GValue): F64 =>
+  fun get_double(value': NullablePointer[GValueT]): F64 =>
     @g_value_get_double(value')

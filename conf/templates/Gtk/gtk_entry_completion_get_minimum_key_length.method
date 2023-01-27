@@ -1,2 +1,0 @@
-  fun ref get_minimum_key_length(): I32 =>
-    GtkEntryCompletionP.get_minimum_key_length(this)

@@ -1,2 +1,0 @@
-  fun is_closed(connection': GDBusConnection): I32 =>
-    @g_dbus_connection_is_closed(connection')

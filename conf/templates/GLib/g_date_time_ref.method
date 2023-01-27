@@ -1,2 +1,2 @@
-  fun ref ref(): GDateTime =>
-    GDateTimeP.ref(this)
+  fun ref ref(): NullablePointer[GDateTimeT] =>
+    GDateTimeP.ref(this.ptr)

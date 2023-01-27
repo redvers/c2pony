@@ -1,1 +1,1 @@
-use @g_node_n_nodes[U32](root': GNode, flags': U32)
+use @g_node_n_nodes[U32](root': NullablePointer[GNodeT], flags': U32)

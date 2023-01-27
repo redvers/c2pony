@@ -1,1 +1,0 @@
-use @g_menu_item_new[GMenuItem](label': Pointer[U8] tag, detailed_action': Pointer[U8] tag)

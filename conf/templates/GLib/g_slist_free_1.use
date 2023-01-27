@@ -1,1 +1,1 @@
-use @g_slist_free_1[None](list': GSList)
+use @g_slist_free_1[None](list': NullablePointer[GSListT])

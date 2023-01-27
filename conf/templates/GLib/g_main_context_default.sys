@@ -1,2 +1,2 @@
-  fun default(): GMainContext =>
+  fun default(): NullablePointer[GMainContextT] =>
     @g_main_context_default()

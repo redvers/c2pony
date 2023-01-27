@@ -1,2 +1,0 @@
-  fun ref cache_release(): None =>
-    GDBusInterfaceInfoP.cache_release(this)

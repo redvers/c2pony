@@ -1,2 +1,0 @@
-  fun accept_socket_finish(listener': GSocketListener, result': GAsyncResult, source_object': Pointer[GObject], error': GError): GSocket =>
-    @g_socket_listener_accept_socket_finish(listener', result', source_object', addressof error'.ptr)

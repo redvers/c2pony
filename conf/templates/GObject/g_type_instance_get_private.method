@@ -1,2 +1,2 @@
   fun ref get_private(private_type': U64): Pointer[None] tag =>
-    GTypeInstanceP.get_private(this, private_type')
+    GTypeInstanceP.get_private(this.ptr, private_type')

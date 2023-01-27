@@ -1,2 +1,0 @@
-  fun get_scale_factor(widget': GtkWidgetI): I32 =>
-    @gtk_widget_get_scale_factor(widget'.getptr())

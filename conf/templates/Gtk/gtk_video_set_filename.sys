@@ -1,2 +1,0 @@
-  fun set_filename(self': GtkVideo, filename': String): None =>
-    @gtk_video_set_filename(self', filename'.cstring())

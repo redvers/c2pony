@@ -1,2 +1,0 @@
-  fun ref set_item_orientation(orientation': U32): None =>
-    GtkIconViewP.set_item_orientation(this, orientation')

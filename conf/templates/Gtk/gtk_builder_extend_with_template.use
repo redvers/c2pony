@@ -1,1 +1,0 @@
-use @gtk_builder_extend_with_template[I32](builder': Pointer[GObjectP], object': Pointer[GObjectP], template_type': U64, buffer': Pointer[U8] tag, length': I64, error': Pointer[NullablePointer[GErrorT]])

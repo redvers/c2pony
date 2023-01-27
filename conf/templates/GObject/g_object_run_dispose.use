@@ -1,1 +1,1 @@
-use @g_object_run_dispose[None](object': Pointer[GObjectP])
+use @g_object_run_dispose[None](object': NullablePointer[GObjectT])

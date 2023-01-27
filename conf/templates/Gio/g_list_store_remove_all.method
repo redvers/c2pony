@@ -1,2 +1,0 @@
-  fun ref remove_all(): None =>
-    GListStoreP.remove_all(this)

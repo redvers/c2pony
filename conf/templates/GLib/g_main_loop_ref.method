@@ -1,2 +1,2 @@
-  fun ref ref(): GMainLoop =>
-    GMainLoopP.ref(this)
+  fun ref ref(): NullablePointer[GMainLoopT] =>
+    GMainLoopP.ref(this.ptr)

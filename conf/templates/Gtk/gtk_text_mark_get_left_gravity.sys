@@ -1,2 +1,0 @@
-  fun get_left_gravity(mark': GtkTextMark): I32 =>
-    @gtk_text_mark_get_left_gravity(mark')

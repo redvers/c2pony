@@ -1,1 +1,0 @@
-use @gtk_style_context_get_scale[I32](context': GtkStyleContext)

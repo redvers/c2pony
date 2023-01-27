@@ -1,2 +1,0 @@
-  fun ref set_start_child(child': GtkWidgetI): None =>
-    GtkPanedP.set_start_child(this, child')

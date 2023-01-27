@@ -1,1 +1,0 @@
-use @gtk_drop_controller_motion_get_drop[GdkDrop](self': GtkDropControllerMotion)

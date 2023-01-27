@@ -1,2 +1,2 @@
-  fun ref get_hash_table(): GHashTable =>
-    GHashTableIterP.get_hash_table(this)
+  fun ref get_hash_table(): NullablePointer[GHashTableT] =>
+    GHashTableIterP.get_hash_table(this.ptr)

@@ -1,2 +1,0 @@
-  fun ref get_path(): String iso^ =>
-    GUnixSocketAddressP.get_path(this)

@@ -1,2 +1,2 @@
-  fun nth_data(list': GSList, n': U32): Pointer[None] tag =>
+  fun nth_data(list': NullablePointer[GSListT], n': U32): Pointer[None] tag =>
     @g_slist_nth_data(list', n')

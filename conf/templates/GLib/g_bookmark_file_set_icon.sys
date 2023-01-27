@@ -1,2 +1,2 @@
-  fun set_icon(bookmark': GBookmarkFile, uri': String, href': String, mime_type': String): None =>
+  fun set_icon(bookmark': NullablePointer[GBookmarkFileT], uri': String, href': String, mime_type': String): None =>
     @g_bookmark_file_set_icon(bookmark', uri'.cstring(), href'.cstring(), mime_type'.cstring())

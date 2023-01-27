@@ -1,2 +1,0 @@
-  fun ref set_op_res_gboolean(op_res': I32): None =>
-    GSimpleAsyncResultP.set_op_res_gboolean(this, op_res')

@@ -1,1 +1,0 @@
-use @g_application_get_application_id[Pointer[U8]](application': Pointer[GObjectP])

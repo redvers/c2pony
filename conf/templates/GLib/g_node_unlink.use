@@ -1,1 +1,1 @@
-use @g_node_unlink[None](node': GNode)
+use @g_node_unlink[None](node': NullablePointer[GNodeT])

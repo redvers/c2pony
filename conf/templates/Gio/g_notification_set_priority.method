@@ -1,2 +1,0 @@
-  fun ref set_priority(priority': U32): None =>
-    GNotificationP.set_priority(this, priority')

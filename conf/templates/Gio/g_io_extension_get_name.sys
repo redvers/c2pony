@@ -1,2 +1,0 @@
-  fun get_name(extension': GIOExtension): String iso^ =>
-    String.from_cstring(@g_io_extension_get_name(extension')).clone()

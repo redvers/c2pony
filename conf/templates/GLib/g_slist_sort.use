@@ -1,1 +1,1 @@
-use @g_slist_sort[GSList](list': GSList, compare_func': GCompareFunc)
+use @g_slist_sort[NullablePointer[GSListT]](list': NullablePointer[GSListT], compare_func': GCompareFunc)

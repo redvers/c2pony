@@ -1,2 +1,2 @@
   fun ref get_length(): U64 =>
-    GMappedFileP.get_length(this)
+    GMappedFileP.get_length(this.ptr)

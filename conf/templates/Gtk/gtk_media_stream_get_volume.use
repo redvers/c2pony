@@ -1,1 +1,0 @@
-use @gtk_media_stream_get_volume[F64](self': GtkMediaStream)

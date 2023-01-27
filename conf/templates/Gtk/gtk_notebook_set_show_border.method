@@ -1,2 +1,0 @@
-  fun ref set_show_border(show_border': I32): None =>
-    GtkNotebookP.set_show_border(this, show_border')

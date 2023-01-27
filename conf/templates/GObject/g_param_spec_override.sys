@@ -1,2 +1,2 @@
-  fun param_spec_override(name': String, overridden': GParamSpec): GParamSpec =>
+  fun param_spec_override(name': String, overridden': NullablePointer[GParamSpecT]): NullablePointer[GParamSpecT] =>
     @g_param_spec_override(name'.cstring(), overridden')

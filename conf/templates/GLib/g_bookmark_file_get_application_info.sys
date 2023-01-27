@@ -1,2 +1,2 @@
-  fun get_application_info(bookmark': GBookmarkFile, uri': String, name': String, exec': Pointer[Pointer[U8]] tag, count': Pointer[U32] tag, stamp': Pointer[GDateTime], error': GError): I32 =>
-    @g_bookmark_file_get_application_info(bookmark', uri'.cstring(), name'.cstring(), exec', count', stamp', addressof error'.ptr)
+  fun get_application_info(bookmark': NullablePointer[GBookmarkFileT], uri': String, name': String, exec': Pointer[Pointer[U8]] tag, count': Pointer[U32] tag, stamp': Pointer[NullablePointer[GDateTimeT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_bookmark_file_get_application_info(bookmark', uri'.cstring(), name'.cstring(), exec', count', stamp', error')

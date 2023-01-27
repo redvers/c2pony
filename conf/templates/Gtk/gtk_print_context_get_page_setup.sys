@@ -1,2 +1,0 @@
-  fun get_page_setup(context': GtkPrintContext): GtkPageSetup =>
-    @gtk_print_context_get_page_setup(context')

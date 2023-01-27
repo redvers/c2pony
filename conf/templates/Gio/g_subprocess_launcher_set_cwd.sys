@@ -1,2 +1,0 @@
-  fun set_cwd(self': GSubprocessLauncher, cwd': String): None =>
-    @g_subprocess_launcher_set_cwd(self', cwd'.cstring())

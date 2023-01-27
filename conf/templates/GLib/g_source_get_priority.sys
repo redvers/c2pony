@@ -1,2 +1,2 @@
-  fun get_priority(source': GSource): I32 =>
+  fun get_priority(source': NullablePointer[GSourceT]): I32 =>
     @g_source_get_priority(source')

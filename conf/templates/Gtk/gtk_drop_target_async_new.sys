@@ -1,2 +1,0 @@
-  fun new(formats': GdkContentFormats, actions': U32): GtkDropTargetAsync =>
-    @gtk_drop_target_async_new(formats', actions')

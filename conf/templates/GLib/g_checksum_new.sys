@@ -1,2 +1,2 @@
-  fun new(checksum_type': U32): GChecksum =>
-    @g_checksum_new(checksum_type')
+  new new(checksum_type': U32) =>
+    ptr = @g_checksum_new(checksum_type')

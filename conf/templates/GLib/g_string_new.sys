@@ -1,2 +1,2 @@
-  fun string_new(init': String): GString =>
+  fun string_new(init': String): NullablePointer[GStringT] =>
     @g_string_new(init'.cstring())

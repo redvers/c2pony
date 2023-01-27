@@ -1,2 +1,0 @@
-  fun ref set_display_name(display_name': String): None =>
-    GFileInfoP.set_display_name(this, display_name')

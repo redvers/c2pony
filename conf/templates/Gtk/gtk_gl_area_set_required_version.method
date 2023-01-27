@@ -1,2 +1,0 @@
-  fun ref set_required_version(major': I32, minor': I32): None =>
-    GtkGLAreaP.set_required_version(this, major', minor')

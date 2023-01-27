@@ -1,2 +1,0 @@
-  fun ref get_child(): Pointer[GObjectP] =>
-    GtkComboBoxP.get_child(this)

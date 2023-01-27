@@ -1,2 +1,2 @@
-  fun strftime(s': String, slen': U64, format': String, date': GDate): U64 =>
+  fun strftime(s': String, slen': U64, format': String, date': NullablePointer[GDateT]): U64 =>
     @g_date_strftime(s'.cstring(), slen', format'.cstring(), date')

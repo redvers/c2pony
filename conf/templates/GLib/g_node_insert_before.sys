@@ -1,2 +1,2 @@
-  fun insert_before(parent': GNode, sibling': GNode, node': GNode): GNode =>
+  fun insert_before(parent': NullablePointer[GNodeT], sibling': NullablePointer[GNodeT], node': NullablePointer[GNodeT]): NullablePointer[GNodeT] =>
     @g_node_insert_before(parent', sibling', node')

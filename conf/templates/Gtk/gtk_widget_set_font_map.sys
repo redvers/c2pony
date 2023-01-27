@@ -1,2 +1,0 @@
-  fun set_font_map(widget': GtkWidgetI, font_map': PangoFontMap): None =>
-    @gtk_widget_set_font_map(widget'.getptr(), font_map')

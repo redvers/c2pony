@@ -1,2 +1,0 @@
-  fun new_with_mnemonic(label': String): Pointer[GObjectP] =>
-@gtk_toggle_button_new_with_mnemonic(label'.cstring())

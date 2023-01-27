@@ -1,2 +1,0 @@
-  fun lookup(name': String): GIOExtensionPoint =>
-    @g_io_extension_point_lookup(name'.cstring())

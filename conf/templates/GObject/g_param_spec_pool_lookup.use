@@ -1,1 +1,1 @@
-use @g_param_spec_pool_lookup[GParamSpec](pool': GParamSpecPool, param_name': Pointer[U8] tag, owner_type': U64, walk_ancestors': I32)
+use @g_param_spec_pool_lookup[NullablePointer[GParamSpecT]](pool': NullablePointer[GParamSpecPoolT], param_name': Pointer[U8] tag, owner_type': U64, walk_ancestors': I32)

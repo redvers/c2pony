@@ -1,1 +1,0 @@
-use @gtk_stack_get_child_by_name[Pointer[GObjectP]](stack': GtkStack, name': Pointer[U8] tag)

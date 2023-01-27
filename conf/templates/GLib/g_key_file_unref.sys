@@ -1,2 +1,2 @@
-  fun unref(key_file': GKeyFile): None =>
+  fun unref(key_file': NullablePointer[GKeyFileT]): None =>
     @g_key_file_unref(key_file')

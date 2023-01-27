@@ -1,2 +1,2 @@
-  fun notify_by_pspec(object': GObjectI, pspec': GParamSpec): None =>
-    @g_object_notify_by_pspec(object'.getptr(), pspec')
+  fun notify_by_pspec(object': NullablePointer[GObjectT], pspec': NullablePointer[GParamSpecT]): None =>
+    @g_object_notify_by_pspec(object', pspec')

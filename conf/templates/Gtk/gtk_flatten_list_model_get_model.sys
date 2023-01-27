@@ -1,2 +1,0 @@
-  fun get_model(self': GtkFlattenListModel): GListModel =>
-    @gtk_flatten_list_model_get_model(self')

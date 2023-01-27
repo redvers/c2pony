@@ -1,2 +1,0 @@
-  fun ref get_fd(): I32 =>
-    GSocketP.get_fd(this)

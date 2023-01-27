@@ -1,1 +1,1 @@
-use @g_object_bind_property[GBinding](source': Pointer[None] tag, source_property': Pointer[U8] tag, target': Pointer[None] tag, target_property': Pointer[U8] tag, flags': U32)
+use @g_object_bind_property[NullablePointer[GBindingT]](source': Pointer[None] tag, source_property': Pointer[U8] tag, target': Pointer[None] tag, target_property': Pointer[U8] tag, flags': U32)

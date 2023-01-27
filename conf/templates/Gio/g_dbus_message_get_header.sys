@@ -1,2 +1,0 @@
-  fun get_header(message': GDBusMessage, header_field': U32): GVariant =>
-    @g_dbus_message_get_header(message', header_field')

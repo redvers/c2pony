@@ -1,2 +1,2 @@
-  fun length(list': GSList): U32 =>
+  fun length(list': NullablePointer[GSListT]): U32 =>
     @g_slist_length(list')

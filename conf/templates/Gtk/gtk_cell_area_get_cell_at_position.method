@@ -1,2 +1,0 @@
-  fun ref get_cell_at_position(context': GtkCellAreaContext, widget': GtkWidgetI, cell_area': cairorectangleint, x': I32, y': I32, alloc_area': cairorectangleint): GtkCellRenderer =>
-    GtkCellAreaP.get_cell_at_position(this, context', widget', cell_area', x', y', alloc_area')

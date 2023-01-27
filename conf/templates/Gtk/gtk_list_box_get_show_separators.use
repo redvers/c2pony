@@ -1,1 +1,0 @@
-use @gtk_list_box_get_show_separators[I32](box': GtkListBox)

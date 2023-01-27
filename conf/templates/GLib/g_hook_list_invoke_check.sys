@@ -1,2 +1,2 @@
-  fun invoke_check(hook_list': GHookList, may_recurse': I32): None =>
+  fun invoke_check(hook_list': NullablePointer[GHookListT], may_recurse': I32): None =>
     @g_hook_list_invoke_check(hook_list', may_recurse')

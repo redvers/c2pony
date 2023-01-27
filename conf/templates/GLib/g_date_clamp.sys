@@ -1,2 +1,2 @@
-  fun clamp(date': GDate, min_date': GDate, max_date': GDate): None =>
+  fun clamp(date': NullablePointer[GDateT], min_date': NullablePointer[GDateT], max_date': NullablePointer[GDateT]): None =>
     @g_date_clamp(date', min_date', max_date')

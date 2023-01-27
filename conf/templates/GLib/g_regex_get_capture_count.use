@@ -1,1 +1,1 @@
-use @g_regex_get_capture_count[I32](regex': GRegex)
+use @g_regex_get_capture_count[I32](regex': NullablePointer[GRegexT])

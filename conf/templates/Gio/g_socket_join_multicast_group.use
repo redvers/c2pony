@@ -1,1 +1,0 @@
-use @g_socket_join_multicast_group[I32](socket': GSocket, group': GInetAddress, source_specific': I32, iface': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,2 @@
-  fun markup_vprintf_escaped(format': String, args': valisttag): String iso^ =>
+  fun markup_vprintf_escaped(format': String, args': NullablePointer[valisttagT]): String iso^ =>
     String.from_cstring(@g_markup_vprintf_escaped(format'.cstring(), args')).clone()

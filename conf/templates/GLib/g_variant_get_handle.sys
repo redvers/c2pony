@@ -1,2 +1,2 @@
-  fun get_handle(value': GVariant): I32 =>
+  fun get_handle(value': NullablePointer[GVariantT]): I32 =>
     @g_variant_get_handle(value')

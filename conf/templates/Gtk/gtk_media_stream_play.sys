@@ -1,2 +1,0 @@
-  fun play(self': GtkMediaStream): None =>
-    @gtk_media_stream_play(self')

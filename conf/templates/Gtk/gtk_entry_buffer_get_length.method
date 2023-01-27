@@ -1,2 +1,0 @@
-  fun ref get_length(): U32 =>
-    GtkEntryBufferP.get_length(this)

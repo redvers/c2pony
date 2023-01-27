@@ -1,2 +1,0 @@
-  fun new(): GSocketService =>
-    @g_socket_service_new()

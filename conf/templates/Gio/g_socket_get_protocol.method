@@ -1,2 +1,0 @@
-  fun ref get_protocol(): I32 =>
-    GSocketP.get_protocol(this)

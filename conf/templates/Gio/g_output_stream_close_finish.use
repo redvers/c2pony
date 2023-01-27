@@ -1,1 +1,0 @@
-use @g_output_stream_close_finish[I32](stream': GOutputStream, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

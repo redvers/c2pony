@@ -1,2 +1,2 @@
-  fun get_gtype(value': GValue): U64 =>
+  fun get_gtype(value': NullablePointer[GValueT]): U64 =>
     @g_value_get_gtype(value')

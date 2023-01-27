@@ -1,2 +1,2 @@
-  fun sort_iter(seq': GSequence, cmp_func': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag): None =>
+  fun sort_iter(seq': NullablePointer[GSequenceT], cmp_func': GSequenceIterCompareFunc, cmp_data': Pointer[None] tag): None =>
     @g_sequence_sort_iter(seq', cmp_func', cmp_data')

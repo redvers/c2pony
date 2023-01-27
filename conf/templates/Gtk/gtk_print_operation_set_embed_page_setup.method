@@ -1,2 +1,0 @@
-  fun ref set_embed_page_setup(embed': I32): None =>
-    GtkPrintOperationP.set_embed_page_setup(this, embed')

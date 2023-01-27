@@ -1,2 +1,0 @@
-  fun get_expand(self': GtkColumnViewColumn): I32 =>
-    @gtk_column_view_column_get_expand(self')

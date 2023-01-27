@@ -1,1 +1,0 @@
-use @gtk_grid_view_set_min_columns[None](self': GtkGridView, min_columns': U32)

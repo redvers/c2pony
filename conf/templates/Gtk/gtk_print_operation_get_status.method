@@ -1,2 +1,0 @@
-  fun ref get_status(): U32 =>
-    GtkPrintOperationP.get_status(this)

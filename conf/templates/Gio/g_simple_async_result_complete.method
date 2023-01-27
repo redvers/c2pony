@@ -1,2 +1,0 @@
-  fun ref complete(): None =>
-    GSimpleAsyncResultP.complete(this)

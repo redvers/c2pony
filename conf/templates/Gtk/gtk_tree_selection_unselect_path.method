@@ -1,2 +1,0 @@
-  fun ref unselect_path(path': GtkTreePath): None =>
-    GtkTreeSelectionP.unselect_path(this, path')

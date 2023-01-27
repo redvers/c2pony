@@ -1,2 +1,0 @@
-  fun value_get_expression(value': GValue): GtkExpression =>
-    @gtk_value_get_expression(value')

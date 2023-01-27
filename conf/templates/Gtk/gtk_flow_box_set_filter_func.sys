@@ -1,2 +1,0 @@
-  fun set_filter_func(box': GtkFlowBox, filter_func': GtkFlowBoxFilterFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    @gtk_flow_box_set_filter_func(box', filter_func', user_data', destroy')

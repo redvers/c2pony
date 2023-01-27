@@ -1,2 +1,2 @@
-  fun convert(str': String, len': I64, to_codeset': String, from_codeset': String, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': GError): String iso^ =>
-    String.from_cstring(@g_convert(str'.cstring(), len', to_codeset'.cstring(), from_codeset'.cstring(), bytes_read', bytes_written', addressof error'.ptr)).clone()
+  fun convert(str': String, len': I64, to_codeset': String, from_codeset': String, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_convert(str'.cstring(), len', to_codeset'.cstring(), from_codeset'.cstring(), bytes_read', bytes_written', error')).clone()

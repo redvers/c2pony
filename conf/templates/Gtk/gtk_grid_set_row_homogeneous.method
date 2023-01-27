@@ -1,2 +1,0 @@
-  fun ref set_row_homogeneous(homogeneous': I32): None =>
-    GtkGridP.set_row_homogeneous(this, homogeneous')

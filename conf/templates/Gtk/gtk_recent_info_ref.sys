@@ -1,2 +1,0 @@
-  fun ref(info': GtkRecentInfo): GtkRecentInfo =>
-    @gtk_recent_info_ref(info')

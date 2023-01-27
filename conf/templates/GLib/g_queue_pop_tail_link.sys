@@ -1,2 +1,2 @@
-  fun pop_tail_link(queue': GQueue): GList =>
+  fun pop_tail_link(queue': NullablePointer[GQueueT]): NullablePointer[GListT] =>
     @g_queue_pop_tail_link(queue')

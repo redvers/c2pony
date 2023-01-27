@@ -1,2 +1,0 @@
-  fun deleted(proxy': GObjectI, path': GtkTreePath): None =>
-    @gtk_tree_row_reference_deleted(proxy'.getptr(), path')

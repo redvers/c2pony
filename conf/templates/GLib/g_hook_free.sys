@@ -1,2 +1,2 @@
-  fun free(hook_list': GHookList, hook': GHook): None =>
+  fun free(hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT]): None =>
     @g_hook_free(hook_list', hook')

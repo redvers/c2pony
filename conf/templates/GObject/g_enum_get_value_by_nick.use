@@ -1,1 +1,1 @@
-use @g_enum_get_value_by_nick[GEnumValue](enum_class': GEnumClass, nick': Pointer[U8] tag)
+use @g_enum_get_value_by_nick[NullablePointer[GEnumValueT]](enum_class': NullablePointer[GEnumClassT], nick': Pointer[U8] tag)

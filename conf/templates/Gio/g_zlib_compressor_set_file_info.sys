@@ -1,2 +1,0 @@
-  fun set_file_info(compressor': GZlibCompressor, file_info': GFileInfo): None =>
-    @g_zlib_compressor_set_file_info(compressor', file_info')

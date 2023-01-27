@@ -1,2 +1,0 @@
-  fun get_visible_child_name(stack': GtkStack): String iso^ =>
-    String.from_cstring(@gtk_stack_get_visible_child_name(stack')).clone()

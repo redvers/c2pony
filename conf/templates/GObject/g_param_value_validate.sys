@@ -1,2 +1,2 @@
-  fun param_value_validate(pspec': GParamSpec, value': GValue): I32 =>
+  fun param_value_validate(pspec': NullablePointer[GParamSpecT], value': NullablePointer[GValueT]): I32 =>
     @g_param_value_validate(pspec', value')

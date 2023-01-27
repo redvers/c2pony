@@ -1,2 +1,2 @@
   fun ref get(): Pointer[None] tag =>
-    GWeakRefP.get(this)
+    GWeakRefP.get(this.ptr)

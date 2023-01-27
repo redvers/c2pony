@@ -1,2 +1,0 @@
-  fun ref get_offset(x_offset': Pointer[I32] tag, y_offset': Pointer[I32] tag): None =>
-    GtkPopoverP.get_offset(this, x_offset', y_offset')

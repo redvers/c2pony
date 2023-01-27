@@ -1,2 +1,0 @@
-  fun content_type_is_unknown(type': String): I32 =>
-    @g_content_type_is_unknown(type'.cstring())

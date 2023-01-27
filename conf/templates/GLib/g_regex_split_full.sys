@@ -1,2 +1,2 @@
-  fun split_full(regex': GRegex, string': String, string_len': I64, start_position': I32, match_options': U32, max_tokens': I32, error': GError): Pointer[Pointer[U8]] tag =>
-    @g_regex_split_full(regex', string'.cstring(), string_len', start_position', match_options', max_tokens', addressof error'.ptr)
+  fun split_full(regex': NullablePointer[GRegexT], string': String, string_len': I64, start_position': I32, match_options': U32, max_tokens': I32, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
+    @g_regex_split_full(regex', string'.cstring(), string_len', start_position', match_options', max_tokens', error')

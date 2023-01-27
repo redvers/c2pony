@@ -1,2 +1,0 @@
-  fun ref set_wrap(wrap': I32): None =>
-    GtkLabelP.set_wrap(this, wrap')

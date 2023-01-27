@@ -1,2 +1,2 @@
   fun ref is_maybe(): I32 =>
-    GVariantTypeP.is_maybe(this)
+    GVariantTypeP.is_maybe(this.ptr)

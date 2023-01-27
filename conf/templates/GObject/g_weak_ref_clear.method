@@ -1,2 +1,2 @@
   fun ref clear(): None =>
-    GWeakRefP.clear(this)
+    GWeakRefP.clear(this.ptr)

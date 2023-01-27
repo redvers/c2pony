@@ -1,1 +1,1 @@
-use @g_sequence_get_length[I32](seq': GSequence)
+use @g_sequence_get_length[I32](seq': NullablePointer[GSequenceT])

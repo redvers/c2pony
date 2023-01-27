@@ -1,2 +1,2 @@
-  fun reset(value': GValue): GValue =>
+  fun reset(value': NullablePointer[GValueT]): NullablePointer[GValueT] =>
     @g_value_reset(value')

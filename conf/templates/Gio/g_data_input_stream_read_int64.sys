@@ -1,2 +1,0 @@
-  fun read_int64(stream': GDataInputStream, cancellable': GCancellable, error': GError): I64 =>
-    @g_data_input_stream_read_int64(stream', cancellable', addressof error'.ptr)

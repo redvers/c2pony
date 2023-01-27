@@ -1,2 +1,0 @@
-  fun ref set_indent_for_icon(indent_for_icon': I32): None =>
-    GtkTreeExpanderP.set_indent_for_icon(this, indent_for_icon')

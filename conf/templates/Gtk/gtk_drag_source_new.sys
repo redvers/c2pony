@@ -1,2 +1,0 @@
-  fun new(): GtkDragSource =>
-    @gtk_drag_source_new()

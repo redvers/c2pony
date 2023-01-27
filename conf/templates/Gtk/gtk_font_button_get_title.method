@@ -1,2 +1,0 @@
-  fun ref get_title(): String iso^ =>
-    GtkFontButtonP.get_title(this)

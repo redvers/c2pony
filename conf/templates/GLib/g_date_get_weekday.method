@@ -1,2 +1,2 @@
   fun ref get_weekday(): U32 =>
-    GDateP.get_weekday(this)
+    GDateP.get_weekday(this.ptr)

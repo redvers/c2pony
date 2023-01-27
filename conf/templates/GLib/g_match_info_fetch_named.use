@@ -1,1 +1,1 @@
-use @g_match_info_fetch_named[Pointer[U8]](match_info': GMatchInfo, name': Pointer[U8] tag)
+use @g_match_info_fetch_named[Pointer[U8]](match_info': NullablePointer[GMatchInfoT], name': Pointer[U8] tag)

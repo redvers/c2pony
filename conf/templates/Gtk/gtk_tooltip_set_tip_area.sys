@@ -1,2 +1,0 @@
-  fun set_tip_area(tooltip': GtkTooltip, rect': cairorectangleint): None =>
-    @gtk_tooltip_set_tip_area(tooltip', rect')

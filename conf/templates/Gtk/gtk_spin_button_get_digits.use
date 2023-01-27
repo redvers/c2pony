@@ -1,1 +1,0 @@
-use @gtk_spin_button_get_digits[U32](spin_button': GtkSpinButton)

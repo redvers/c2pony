@@ -1,2 +1,0 @@
-  fun get_local_address(socket': GSocket, error': GError): GSocketAddress =>
-    @g_socket_get_local_address(socket', addressof error'.ptr)

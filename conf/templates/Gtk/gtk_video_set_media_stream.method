@@ -1,2 +1,0 @@
-  fun ref set_media_stream(stream': GtkMediaStream): None =>
-    GtkVideoP.set_media_stream(this, stream')

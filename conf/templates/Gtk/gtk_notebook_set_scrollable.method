@@ -1,2 +1,0 @@
-  fun ref set_scrollable(scrollable': I32): None =>
-    GtkNotebookP.set_scrollable(this, scrollable')

@@ -1,1 +1,0 @@
-use @g_network_address_get_hostname[Pointer[U8]](addr': GNetworkAddress)

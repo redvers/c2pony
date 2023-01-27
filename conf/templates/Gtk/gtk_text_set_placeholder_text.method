@@ -1,2 +1,0 @@
-  fun ref set_placeholder_text(text': String): None =>
-    GtkTextP.set_placeholder_text(this, text')

@@ -1,1 +1,0 @@
-use @gtk_drag_icon_get_for_drag[Pointer[GObjectP]](drag': GdkDrag)

@@ -1,1 +1,0 @@
-use @g_subprocess_get_stdin_pipe[GOutputStream](subprocess': GSubprocess)

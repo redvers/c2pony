@@ -1,2 +1,2 @@
-  fun interface_install_property(g_iface': Pointer[None] tag, pspec': GParamSpec): None =>
+  fun interface_install_property(g_iface': Pointer[None] tag, pspec': NullablePointer[GParamSpecT]): None =>
     @g_object_interface_install_property(g_iface', pspec')

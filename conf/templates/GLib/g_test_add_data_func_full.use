@@ -1,1 +1,1 @@
-use @g_test_add_data_func_full[None](testpath': Pointer[U8] tag, test_data': Pointer[None] tag, test_func': GTestDataFunc, data_free_func': GDestroyNotify)
+use @g_test_add_data_func_full[None](testpath': Pointer[U8] tag, test_data': Pointer[None] tag, test_func': GTestDataFunc, data_free_func': Pointer[None])

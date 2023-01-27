@@ -1,2 +1,0 @@
-  fun ref add_from_resource(resource_path': String, error': GError): I32 =>
-    GtkBuilderP.add_from_resource(this, resource_path', error')

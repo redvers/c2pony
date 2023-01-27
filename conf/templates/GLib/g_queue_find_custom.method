@@ -1,2 +1,2 @@
-  fun ref find_custom(data': Pointer[None] tag, func': GCompareFunc): GList =>
-    GQueueP.find_custom(this, data', func')
+  fun ref find_custom(data': Pointer[None] tag, func': GCompareFunc): NullablePointer[GListT] =>
+    GQueueP.find_custom(this.ptr, data', func')

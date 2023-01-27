@@ -1,2 +1,2 @@
-  fun add_marshal_guards(closure': GClosure, pre_marshal_data': Pointer[None] tag, pre_marshal_notify': GClosureNotify, post_marshal_data': Pointer[None] tag, post_marshal_notify': GClosureNotify): None =>
+  fun add_marshal_guards(closure': NullablePointer[GClosureT], pre_marshal_data': Pointer[None] tag, pre_marshal_notify': GClosureNotify, post_marshal_data': Pointer[None] tag, post_marshal_notify': GClosureNotify): None =>
     @g_closure_add_marshal_guards(closure', pre_marshal_data', pre_marshal_notify', post_marshal_data', post_marshal_notify')

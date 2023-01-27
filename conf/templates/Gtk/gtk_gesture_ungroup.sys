@@ -1,2 +1,0 @@
-  fun ungroup(gesture': GtkGesture): None =>
-    @gtk_gesture_ungroup(gesture')

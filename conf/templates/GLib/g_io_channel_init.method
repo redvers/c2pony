@@ -1,2 +1,2 @@
   fun ref init(): None =>
-    GIOChannelP.init(this)
+    GIOChannelP.init(this.ptr)

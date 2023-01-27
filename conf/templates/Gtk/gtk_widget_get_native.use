@@ -1,1 +1,0 @@
-use @gtk_widget_get_native[GtkNative](widget': Pointer[GObjectP])

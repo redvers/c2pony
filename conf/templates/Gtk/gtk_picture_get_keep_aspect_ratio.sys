@@ -1,2 +1,0 @@
-  fun get_keep_aspect_ratio(self': GtkPicture): I32 =>
-    @gtk_picture_get_keep_aspect_ratio(self')

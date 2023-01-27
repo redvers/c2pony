@@ -1,2 +1,0 @@
-  fun get_default_page_setup(op': GtkPrintOperation): GtkPageSetup =>
-    @gtk_print_operation_get_default_page_setup(op')

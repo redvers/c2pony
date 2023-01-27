@@ -1,2 +1,0 @@
-  fun ref has_attribute(attribute': String): I32 =>
-    GFileInfoP.has_attribute(this, attribute')

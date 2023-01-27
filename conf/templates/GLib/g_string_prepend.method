@@ -1,2 +1,2 @@
-  fun ref prepend(val': String): GString =>
-    GStringP.prepend(this, val')
+  fun ref prepend(val': String): NullablePointer[GStringT] =>
+    GStringP.prepend(this.ptr, val')

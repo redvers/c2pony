@@ -1,2 +1,0 @@
-  fun contains_pointer(self': GtkDropControllerMotion): I32 =>
-    @gtk_drop_controller_motion_contains_pointer(self')

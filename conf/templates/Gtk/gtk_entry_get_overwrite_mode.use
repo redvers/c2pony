@@ -1,1 +1,0 @@
-use @gtk_entry_get_overwrite_mode[I32](entry': GtkEntry)

@@ -1,2 +1,0 @@
-  fun forward_search(iter': GtkTextIter, str': String, flags': U32, match_start': GtkTextIter, match_end': GtkTextIter, limit': GtkTextIter): I32 =>
-    @gtk_text_iter_forward_search(iter', str'.cstring(), flags', match_start', match_end', limit')

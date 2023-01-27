@@ -1,1 +1,0 @@
-use @gtk_scrollbar_new[Pointer[GObjectP]](orientation': U32, adjustment': GtkAdjustment)

@@ -1,2 +1,0 @@
-  fun is_activatable(area': GtkCellArea): I32 =>
-    @gtk_cell_area_is_activatable(area')

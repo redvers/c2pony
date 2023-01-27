@@ -1,2 +1,0 @@
-  fun ref get_always_show_arrow(): I32 =>
-    GtkMenuButtonP.get_always_show_arrow(this)

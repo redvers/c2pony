@@ -1,1 +1,1 @@
-use @g_value_dup_param[GParamSpec](value': GValue)
+use @g_value_dup_param[NullablePointer[GParamSpecT]](value': NullablePointer[GValueT])

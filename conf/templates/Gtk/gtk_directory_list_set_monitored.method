@@ -1,2 +1,0 @@
-  fun ref set_monitored(monitored': I32): None =>
-    GtkDirectoryListP.set_monitored(this, monitored')

@@ -1,1 +1,1 @@
-use @g_node_insert_after[GNode](parent': GNode, sibling': GNode, node': GNode)
+use @g_node_insert_after[NullablePointer[GNodeT]](parent': NullablePointer[GNodeT], sibling': NullablePointer[GNodeT], node': NullablePointer[GNodeT])

@@ -1,2 +1,0 @@
-  fun get_show_dialog_item(self': GtkAppChooserButton): I32 =>
-    @gtk_app_chooser_button_get_show_dialog_item(self')

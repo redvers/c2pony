@@ -1,2 +1,0 @@
-  fun set_orientation(gesture': GtkGesturePan, orientation': U32): None =>
-    @gtk_gesture_pan_set_orientation(gesture', orientation')

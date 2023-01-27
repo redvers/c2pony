@@ -1,2 +1,2 @@
   fun ref wakeup(): None =>
-    GMainContextP.wakeup(this)
+    GMainContextP.wakeup(this.ptr)

@@ -1,2 +1,2 @@
-  fun ref find_property(property_name': String): GParamSpec =>
-    GObjectClassP.find_property(this, property_name')
+  fun ref find_property(property_name': String): NullablePointer[GParamSpecT] =>
+    GObjectClassP.find_property(this.ptr, property_name')

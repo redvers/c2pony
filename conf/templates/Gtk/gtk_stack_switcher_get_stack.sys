@@ -1,2 +1,0 @@
-  fun get_stack(switcher': GtkStackSwitcher): GtkStack =>
-    @gtk_stack_switcher_get_stack(switcher')

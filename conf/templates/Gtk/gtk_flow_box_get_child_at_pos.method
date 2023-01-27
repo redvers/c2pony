@@ -1,2 +1,0 @@
-  fun ref get_child_at_pos(x': I32, y': I32): GtkFlowBoxChild =>
-    GtkFlowBoxP.get_child_at_pos(this, x', y')

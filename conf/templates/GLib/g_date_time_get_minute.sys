@@ -1,2 +1,2 @@
-  fun get_minute(datetime': GDateTime): I32 =>
+  fun get_minute(datetime': NullablePointer[GDateTimeT]): I32 =>
     @g_date_time_get_minute(datetime')

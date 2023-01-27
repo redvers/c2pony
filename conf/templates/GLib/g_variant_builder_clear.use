@@ -1,1 +1,1 @@
-use @g_variant_builder_clear[None](builder': GVariantBuilder)
+use @g_variant_builder_clear[None](builder': NullablePointer[GVariantBuilderT])

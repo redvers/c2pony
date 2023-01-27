@@ -1,2 +1,0 @@
-  fun get_can_undo(buffer': GtkTextBuffer): I32 =>
-    @gtk_text_buffer_get_can_undo(buffer')

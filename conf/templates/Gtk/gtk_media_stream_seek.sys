@@ -1,2 +1,0 @@
-  fun seek(self': GtkMediaStream, timestamp': I64): None =>
-    @gtk_media_stream_seek(self', timestamp')

@@ -1,2 +1,0 @@
-  fun get_tls(client': GSocketClient): I32 =>
-    @g_socket_client_get_tls(client')

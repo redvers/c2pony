@@ -1,2 +1,0 @@
-  fun ref close(cancellable': GCancellable, error': GError): I32 =>
-    GInputStreamP.close(this, cancellable', error')

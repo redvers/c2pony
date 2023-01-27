@@ -1,2 +1,0 @@
-  fun ref get_tree_view(): Pointer[GObjectP] =>
-    GtkTreeViewColumnP.get_tree_view(this)

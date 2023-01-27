@@ -1,2 +1,0 @@
-  fun get_toggled_tags(iter': GtkTextIter, toggled_on': I32): GSList =>
-    @gtk_text_iter_get_toggled_tags(iter', toggled_on')

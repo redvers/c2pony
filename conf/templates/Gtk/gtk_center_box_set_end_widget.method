@@ -1,2 +1,0 @@
-  fun ref set_end_widget(child': GtkWidgetI): None =>
-    GtkCenterBoxP.set_end_widget(this, child')

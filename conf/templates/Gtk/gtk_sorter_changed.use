@@ -1,1 +1,0 @@
-use @gtk_sorter_changed[None](self': GtkSorter, change': U32)

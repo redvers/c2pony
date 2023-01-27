@@ -1,2 +1,0 @@
-  fun ref set_show_arrow(show_arrow': I32): None =>
-    GtkDropDownP.set_show_arrow(this, show_arrow')

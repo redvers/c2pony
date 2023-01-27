@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GTimeZoneP.unref(this)
+    GTimeZoneP.unref(this.ptr)

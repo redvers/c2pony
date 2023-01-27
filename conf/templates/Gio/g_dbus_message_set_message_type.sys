@@ -1,2 +1,0 @@
-  fun set_message_type(message': GDBusMessage, type': U32): None =>
-    @g_dbus_message_set_message_type(message', type')

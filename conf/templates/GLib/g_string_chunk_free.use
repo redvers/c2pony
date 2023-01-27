@@ -1,1 +1,1 @@
-use @g_string_chunk_free[None](chunk': GStringChunk)
+use @g_string_chunk_free[None](chunk': NullablePointer[GStringChunkT])

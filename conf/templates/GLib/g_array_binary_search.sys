@@ -1,2 +1,2 @@
-  fun binary_search(array': GArray, target': Pointer[None] tag, compare_func': GCompareFunc, out_match_index': Pointer[U32] tag): I32 =>
+  fun binary_search(array': NullablePointer[GArrayT], target': Pointer[None] tag, compare_func': GCompareFunc, out_match_index': Pointer[U32] tag): I32 =>
     @g_array_binary_search(array', target', compare_func', out_match_index')

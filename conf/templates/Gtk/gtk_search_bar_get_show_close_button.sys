@@ -1,2 +1,0 @@
-  fun get_show_close_button(bar': GtkSearchBar): I32 =>
-    @gtk_search_bar_get_show_close_button(bar')

@@ -1,2 +1,2 @@
   fun ref get_uris(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
-    GBookmarkFileP.get_uris(this, length')
+    GBookmarkFileP.get_uris(this.ptr, length')

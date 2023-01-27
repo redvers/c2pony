@@ -1,1 +1,1 @@
-use @g_date_time_to_timeval[I32](datetime': GDateTime, tv': GTimeVal)
+use @g_date_time_to_timeval[I32](datetime': NullablePointer[GDateTimeT], tv': NullablePointer[GTimeValT])

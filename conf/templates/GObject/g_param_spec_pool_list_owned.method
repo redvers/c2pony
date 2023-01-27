@@ -1,2 +1,2 @@
-  fun ref list_owned(owner_type': U64): GList =>
-    GParamSpecPoolP.list_owned(this, owner_type')
+  fun ref list_owned(owner_type': U64): NullablePointer[GListT] =>
+    GParamSpecPoolP.list_owned(this.ptr, owner_type')

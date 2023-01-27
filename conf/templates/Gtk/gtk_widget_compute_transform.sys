@@ -1,2 +1,0 @@
-  fun compute_transform(widget': GtkWidgetI, target': GtkWidgetI, out_transform': graphenematrixt): I32 =>
-    @gtk_widget_compute_transform(widget'.getptr(), target'.getptr(), out_transform')

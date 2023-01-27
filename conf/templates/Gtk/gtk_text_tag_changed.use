@@ -1,1 +1,0 @@
-use @gtk_text_tag_changed[None](tag': GtkTextTag, size_changed': I32)

@@ -1,2 +1,2 @@
-  fun ref append(value': GValue): GValueArray =>
-    GValueArrayP.append(this, value')
+  fun ref append(value': NullablePointer[GValueT]): NullablePointer[GValueArrayT] =>
+    GValueArrayP.append(this.ptr, value')

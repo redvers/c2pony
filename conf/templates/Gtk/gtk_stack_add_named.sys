@@ -1,2 +1,0 @@
-  fun add_named(stack': GtkStack, child': GtkWidgetI, name': String): GtkStackPage =>
-    @gtk_stack_add_named(stack', child'.getptr(), name'.cstring())

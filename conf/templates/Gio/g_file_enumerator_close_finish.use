@@ -1,1 +1,0 @@
-use @g_file_enumerator_close_finish[I32](enumerator': GFileEnumerator, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

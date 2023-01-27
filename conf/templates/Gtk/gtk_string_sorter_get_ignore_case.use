@@ -1,1 +1,0 @@
-use @gtk_string_sorter_get_ignore_case[I32](self': GtkStringSorter)

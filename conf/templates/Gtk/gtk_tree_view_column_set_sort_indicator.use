@@ -1,1 +1,0 @@
-use @gtk_tree_view_column_set_sort_indicator[None](tree_column': GtkTreeViewColumn, setting': I32)

@@ -1,1 +1,1 @@
-use @g_node_last_sibling[GNode](node': GNode)
+use @g_node_last_sibling[NullablePointer[GNodeT]](node': NullablePointer[GNodeT])

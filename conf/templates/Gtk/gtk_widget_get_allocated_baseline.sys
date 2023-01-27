@@ -1,2 +1,0 @@
-  fun get_allocated_baseline(widget': GtkWidgetI): I32 =>
-    @gtk_widget_get_allocated_baseline(widget'.getptr())

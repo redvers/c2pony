@@ -1,2 +1,2 @@
-  fun init(channel': GIOChannel): None =>
+  fun init(channel': NullablePointer[GIOChannelT]): None =>
     @g_io_channel_init(channel')

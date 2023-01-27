@@ -1,2 +1,0 @@
-  fun get_child(self': GtkAspectFrame): Pointer[GObjectP] =>
-@gtk_aspect_frame_get_child(self')

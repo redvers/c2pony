@@ -1,2 +1,0 @@
-  fun ref force_exit(): None =>
-    GSubprocessP.force_exit(this)

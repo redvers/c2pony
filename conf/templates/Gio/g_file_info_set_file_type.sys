@@ -1,2 +1,0 @@
-  fun set_file_type(info': GFileInfo, type': U32): None =>
-    @g_file_info_set_file_type(info', type')

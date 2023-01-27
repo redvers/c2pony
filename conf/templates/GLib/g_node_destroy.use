@@ -1,1 +1,1 @@
-use @g_node_destroy[None](root': GNode)
+use @g_node_destroy[None](root': NullablePointer[GNodeT])

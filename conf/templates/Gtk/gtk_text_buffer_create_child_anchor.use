@@ -1,1 +1,0 @@
-use @gtk_text_buffer_create_child_anchor[GtkTextChildAnchor](buffer': GtkTextBuffer, iter': GtkTextIter)

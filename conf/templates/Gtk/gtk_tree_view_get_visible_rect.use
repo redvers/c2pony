@@ -1,1 +1,0 @@
-use @gtk_tree_view_get_visible_rect[None](tree_view': GtkTreeView, visible_rect': cairorectangleint)

@@ -1,2 +1,0 @@
-  fun ref release_fd(): None =>
-    GCancellableP.release_fd(this)

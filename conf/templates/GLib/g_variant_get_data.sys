@@ -1,2 +1,2 @@
-  fun get_data(value': GVariant): Pointer[None] tag =>
+  fun get_data(value': NullablePointer[GVariantT]): Pointer[None] tag =>
     @g_variant_get_data(value')

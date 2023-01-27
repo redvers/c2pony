@@ -1,2 +1,0 @@
-  fun ref get_row(): I32 =>
-    GtkGridLayoutChildP.get_row(this)

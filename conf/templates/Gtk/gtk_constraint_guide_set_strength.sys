@@ -1,2 +1,0 @@
-  fun set_strength(guide': GtkConstraintGuide, strength': U32): None =>
-    @gtk_constraint_guide_set_strength(guide', strength')

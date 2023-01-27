@@ -1,2 +1,0 @@
-  fun get_items(manager': GtkRecentManager): GList =>
-    @gtk_recent_manager_get_items(manager')

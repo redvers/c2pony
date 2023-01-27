@@ -1,1 +1,0 @@
-use @gtk_window_get_modal[I32](window': Pointer[GObjectP])

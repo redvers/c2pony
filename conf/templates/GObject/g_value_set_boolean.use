@@ -1,1 +1,1 @@
-use @g_value_set_boolean[None](value': GValue, v_boolean': I32)
+use @g_value_set_boolean[None](value': NullablePointer[GValueT], v_boolean': I32)

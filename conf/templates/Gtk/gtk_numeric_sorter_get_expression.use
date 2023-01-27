@@ -1,1 +1,0 @@
-use @gtk_numeric_sorter_get_expression[GtkExpression](self': GtkNumericSorter)

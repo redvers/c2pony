@@ -1,2 +1,2 @@
   fun ref clear(): None =>
-    GVariantBuilderP.clear(this)
+    GVariantBuilderP.clear(this.ptr)

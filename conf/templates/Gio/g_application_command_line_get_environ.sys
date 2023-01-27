@@ -1,2 +1,0 @@
-  fun get_environ(cmdline': GApplicationCommandLine): Pointer[Pointer[U8]] tag =>
-    @g_application_command_line_get_environ(cmdline')

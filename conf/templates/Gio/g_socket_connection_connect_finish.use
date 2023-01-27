@@ -1,1 +1,0 @@
-use @g_socket_connection_connect_finish[I32](connection': GSocketConnection, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

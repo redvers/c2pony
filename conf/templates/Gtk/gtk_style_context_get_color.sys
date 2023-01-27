@@ -1,2 +1,0 @@
-  fun get_color(context': GtkStyleContext, color': GdkRGBA): None =>
-    @gtk_style_context_get_color(context', color')

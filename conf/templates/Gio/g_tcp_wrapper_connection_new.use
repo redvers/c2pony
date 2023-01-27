@@ -1,1 +1,0 @@
-use @g_tcp_wrapper_connection_new[GSocketConnection](base_io_stream': GIOStream, socket': GSocket)

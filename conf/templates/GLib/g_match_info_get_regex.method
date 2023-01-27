@@ -1,2 +1,2 @@
-  fun ref get_regex(): GRegex =>
-    GMatchInfoP.get_regex(this)
+  fun ref get_regex(): NullablePointer[GRegexT] =>
+    GMatchInfoP.get_regex(this.ptr)

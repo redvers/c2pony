@@ -1,2 +1,0 @@
-  fun dup(other': GFileInfo): GFileInfo =>
-    @g_file_info_dup(other')

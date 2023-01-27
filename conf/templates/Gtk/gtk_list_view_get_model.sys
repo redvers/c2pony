@@ -1,2 +1,0 @@
-  fun get_model(self': GtkListView): GtkSelectionModel =>
-    @gtk_list_view_get_model(self')

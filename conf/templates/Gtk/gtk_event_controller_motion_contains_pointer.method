@@ -1,2 +1,0 @@
-  fun ref contains_pointer(): I32 =>
-    GtkEventControllerMotionP.contains_pointer(this)

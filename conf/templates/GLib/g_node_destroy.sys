@@ -1,2 +1,2 @@
-  fun destroy(root': GNode): None =>
+  fun destroy(root': NullablePointer[GNodeT]): None =>
     @g_node_destroy(root')

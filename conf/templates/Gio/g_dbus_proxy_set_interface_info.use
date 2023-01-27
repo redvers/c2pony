@@ -1,1 +1,0 @@
-use @g_dbus_proxy_set_interface_info[None](proxy': GDBusProxy, info': GDBusInterfaceInfo)

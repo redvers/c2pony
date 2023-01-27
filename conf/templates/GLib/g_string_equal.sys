@@ -1,2 +1,2 @@
-  fun equal(v': GString, v2': GString): I32 =>
+  fun equal(v': NullablePointer[GStringT], v2': NullablePointer[GStringT]): I32 =>
     @g_string_equal(v', v2')

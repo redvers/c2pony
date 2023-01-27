@@ -1,2 +1,0 @@
-  fun ref get_parent(): Pointer[GObjectP] =>
-    GtkMountOperationP.get_parent(this)

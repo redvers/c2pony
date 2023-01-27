@@ -1,1 +1,0 @@
-use @gtk_popover_get_mnemonics_visible[I32](popover': GtkPopover)

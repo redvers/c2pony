@@ -1,2 +1,0 @@
-  fun set_scroll_to_focus(viewport': GtkViewport, scroll_to_focus': I32): None =>
-    @gtk_viewport_set_scroll_to_focus(viewport', scroll_to_focus')

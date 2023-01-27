@@ -1,2 +1,2 @@
-  fun lookup(seq': GSequence, data': Pointer[None] tag, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag): GSequenceNode =>
+  fun lookup(seq': NullablePointer[GSequenceT], data': Pointer[None] tag, cmp_func': GCompareDataFunc, cmp_data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
     @g_sequence_lookup(seq', data', cmp_func', cmp_data')

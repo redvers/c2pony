@@ -1,2 +1,2 @@
-  fun peek_pointer(value': GValue): Pointer[None] tag =>
+  fun peek_pointer(value': NullablePointer[GValueT]): Pointer[None] tag =>
     @g_value_peek_pointer(value')

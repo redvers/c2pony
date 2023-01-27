@@ -1,2 +1,0 @@
-  fun ref get_enum(key': String): I32 =>
-    GSettingsP.get_enum(this, key')

@@ -1,2 +1,2 @@
-  fun ref ref(): GThread =>
-    GThreadP.ref(this)
+  fun ref ref(): NullablePointer[GThreadT] =>
+    GThreadP.ref(this.ptr)

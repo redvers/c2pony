@@ -1,2 +1,0 @@
-  fun ref get_overlay_scrolling(): I32 =>
-    GtkScrolledWindowP.get_overlay_scrolling(this)

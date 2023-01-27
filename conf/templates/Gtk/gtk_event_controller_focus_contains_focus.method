@@ -1,2 +1,0 @@
-  fun ref contains_focus(): I32 =>
-    GtkEventControllerFocusP.contains_focus(this)

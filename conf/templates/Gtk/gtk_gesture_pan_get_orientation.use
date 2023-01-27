@@ -1,1 +1,0 @@
-use @gtk_gesture_pan_get_orientation[U32](gesture': GtkGesturePan)

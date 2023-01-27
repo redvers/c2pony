@@ -1,1 +1,0 @@
-use @gtk_search_bar_get_key_capture_widget[Pointer[GObjectP]](bar': GtkSearchBar)

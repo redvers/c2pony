@@ -1,2 +1,0 @@
-  fun ref propagate_boolean(error': GError): I32 =>
-    GTaskP.propagate_boolean(this, error')

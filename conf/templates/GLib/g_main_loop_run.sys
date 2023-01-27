@@ -1,2 +1,2 @@
-  fun run(loop': GMainLoop): None =>
+  fun run(loop': NullablePointer[GMainLoopT]): None =>
     @g_main_loop_run(loop')

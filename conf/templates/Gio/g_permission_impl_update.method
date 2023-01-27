@@ -1,2 +1,0 @@
-  fun ref impl_update(allowed': I32, can_acquire': I32, can_release': I32): None =>
-    GPermissionP.impl_update(this, allowed', can_acquire', can_release')

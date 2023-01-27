@@ -1,2 +1,0 @@
-  fun set_exclusive(gesture': GtkGestureSingle, exclusive': I32): None =>
-    @gtk_gesture_single_set_exclusive(gesture', exclusive')

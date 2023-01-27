@@ -1,2 +1,0 @@
-  fun get_fill_level(range': GtkRange): F64 =>
-    @gtk_range_get_fill_level(range')

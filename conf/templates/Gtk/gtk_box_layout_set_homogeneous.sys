@@ -1,2 +1,0 @@
-  fun set_homogeneous(box_layout': GtkBoxLayout, homogeneous': I32): None =>
-    @gtk_box_layout_set_homogeneous(box_layout', homogeneous')

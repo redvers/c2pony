@@ -1,2 +1,0 @@
-  fun ref set_print_pages(pages': U32): None =>
-    GtkPrintSettingsP.set_print_pages(this, pages')

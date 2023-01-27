@@ -1,1 +1,1 @@
-use @g_bytes_unref_to_data[Pointer[None] tag](bytes': GBytes, size': Pointer[U64] tag)
+use @g_bytes_unref_to_data[Pointer[None] tag](bytes': NullablePointer[GBytesT], size': Pointer[U64] tag)

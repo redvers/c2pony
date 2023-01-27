@@ -1,2 +1,0 @@
-  fun get_hostname(addr': GNetworkAddress): String iso^ =>
-    String.from_cstring(@g_network_address_get_hostname(addr')).clone()

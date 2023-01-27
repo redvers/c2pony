@@ -1,2 +1,0 @@
-  fun get_identifier(subprocess': GSubprocess): String iso^ =>
-    String.from_cstring(@g_subprocess_get_identifier(subprocess')).clone()

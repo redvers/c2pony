@@ -1,2 +1,0 @@
-  fun ref insert_section(position': I32, label': String, section': GMenuModel): None =>
-    GMenuP.insert_section(this, position', label', section')

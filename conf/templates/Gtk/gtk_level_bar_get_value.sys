@@ -1,2 +1,0 @@
-  fun get_value(self': GtkLevelBar): F64 =>
-    @gtk_level_bar_get_value(self')

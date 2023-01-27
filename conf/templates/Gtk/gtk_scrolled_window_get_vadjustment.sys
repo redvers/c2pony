@@ -1,2 +1,0 @@
-  fun get_vadjustment(scrolled_window': GtkScrolledWindow): GtkAdjustment =>
-    @gtk_scrolled_window_get_vadjustment(scrolled_window')

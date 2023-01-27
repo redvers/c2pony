@@ -1,2 +1,0 @@
-  fun get_baseline_position(box': GtkBox): U32 =>
-    @gtk_box_get_baseline_position(box')

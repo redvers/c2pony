@@ -1,2 +1,2 @@
-  fun remove_link(list': GList, llink': GList): GList =>
+  fun remove_link(list': NullablePointer[GListT], llink': NullablePointer[GListT]): NullablePointer[GListT] =>
     @g_list_remove_link(list', llink')

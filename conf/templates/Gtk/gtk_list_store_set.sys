@@ -1,2 +1,0 @@
-  fun set(list_store': GtkListStore, iter': GtkTreeIter, ...): None =>
-    @gtk_list_store_set(list_store', iter', ...)

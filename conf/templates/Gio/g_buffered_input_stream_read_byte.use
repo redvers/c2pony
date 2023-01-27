@@ -1,1 +1,0 @@
-use @g_buffered_input_stream_read_byte[I32](stream': GBufferedInputStream, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

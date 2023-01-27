@@ -1,2 +1,0 @@
-  fun ref cell_set(renderer': GtkCellRenderer, first_prop_name': String, ...): None =>
-    GtkCellAreaP.cell_set(this, renderer', first_prop_name', ...)

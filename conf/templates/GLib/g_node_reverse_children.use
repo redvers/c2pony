@@ -1,1 +1,1 @@
-use @g_node_reverse_children[None](node': GNode)
+use @g_node_reverse_children[None](node': NullablePointer[GNodeT])

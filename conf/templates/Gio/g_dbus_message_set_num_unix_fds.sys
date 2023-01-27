@@ -1,2 +1,0 @@
-  fun set_num_unix_fds(message': GDBusMessage, value': U32): None =>
-    @g_dbus_message_set_num_unix_fds(message', value')

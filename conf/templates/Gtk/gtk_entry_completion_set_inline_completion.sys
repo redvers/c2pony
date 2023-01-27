@@ -1,2 +1,0 @@
-  fun set_inline_completion(completion': GtkEntryCompletion, inline_completion': I32): None =>
-    @gtk_entry_completion_set_inline_completion(completion', inline_completion')

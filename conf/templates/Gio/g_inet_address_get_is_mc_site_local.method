@@ -1,2 +1,0 @@
-  fun ref get_is_mc_site_local(): I32 =>
-    GInetAddressP.get_is_mc_site_local(this)

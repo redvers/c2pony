@@ -1,2 +1,2 @@
-  fun ref find_child(flags': U32, data': Pointer[None] tag): GNode =>
-    GNodeP.find_child(this, flags', data')
+  fun ref find_child(flags': U32, data': Pointer[None] tag): NullablePointer[GNodeT] =>
+    GNodeP.find_child(this.ptr, flags', data')

@@ -1,2 +1,2 @@
-  fun compare(a': GSequenceNode, b': GSequenceNode): I32 =>
+  fun compare(a': NullablePointer[GSequenceNodeT], b': NullablePointer[GSequenceNodeT]): I32 =>
     @g_sequence_iter_compare(a', b')

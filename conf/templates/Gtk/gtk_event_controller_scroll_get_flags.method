@@ -1,2 +1,0 @@
-  fun ref get_flags(): U32 =>
-    GtkEventControllerScrollP.get_flags(this)

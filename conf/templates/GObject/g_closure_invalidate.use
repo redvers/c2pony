@@ -1,1 +1,1 @@
-use @g_closure_invalidate[None](closure': GClosure)
+use @g_closure_invalidate[None](closure': NullablePointer[GClosureT])

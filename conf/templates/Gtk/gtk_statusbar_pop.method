@@ -1,2 +1,0 @@
-  fun ref pop(context_id': U32): None =>
-    GtkStatusbarP.pop(this, context_id')

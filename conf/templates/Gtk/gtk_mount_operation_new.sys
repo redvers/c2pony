@@ -1,2 +1,0 @@
-  fun new(parent': GtkWindowI): GMountOperation =>
-    @gtk_mount_operation_new(parent'.getptr())

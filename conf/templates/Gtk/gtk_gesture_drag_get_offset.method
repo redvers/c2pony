@@ -1,2 +1,0 @@
-  fun ref get_offset(x': Pointer[F64] tag, y': Pointer[F64] tag): I32 =>
-    GtkGestureDragP.get_offset(this, x', y')

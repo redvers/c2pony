@@ -1,1 +1,1 @@
-use @g_date_time_new_utc[GDateTime](year': I32, month': I32, day': I32, hour': I32, minute': I32, seconds': F64)
+use @g_date_time_new_utc[NullablePointer[GDateTimeT]](year': I32, month': I32, day': I32, hour': I32, minute': I32, seconds': F64)

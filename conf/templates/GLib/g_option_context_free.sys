@@ -1,2 +1,2 @@
-  fun free(context': GOptionContext): None =>
+  fun free(context': NullablePointer[GOptionContextT]): None =>
     @g_option_context_free(context')

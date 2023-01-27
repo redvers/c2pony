@@ -1,1 +1,1 @@
-use @g_string_append_c[GString](string': GString, c': U8)
+use @g_string_append_c[NullablePointer[GStringT]](string': NullablePointer[GStringT], c': U8)

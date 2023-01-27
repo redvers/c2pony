@@ -1,2 +1,0 @@
-  fun set_accels_for_action(application': GtkApplicationI, detailed_action_name': String, accels': Pointer[Pointer[U8]] tag): None =>
-    @gtk_application_set_accels_for_action(application'.getptr(), detailed_action_name'.cstring(), accels')

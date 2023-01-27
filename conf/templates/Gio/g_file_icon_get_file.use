@@ -1,1 +1,0 @@
-use @g_file_icon_get_file[GFile](icon': GFileIcon)

@@ -1,2 +1,0 @@
-  fun get_windows(application': GtkApplicationI): GList =>
-    @gtk_application_get_windows(application'.getptr())

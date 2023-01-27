@@ -1,1 +1,0 @@
-use @gtk_window_maximize[None](window': Pointer[GObjectP])

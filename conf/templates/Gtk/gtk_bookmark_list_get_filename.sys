@@ -1,2 +1,0 @@
-  fun get_filename(self': GtkBookmarkList): String iso^ =>
-    String.from_cstring(@gtk_bookmark_list_get_filename(self')).clone()

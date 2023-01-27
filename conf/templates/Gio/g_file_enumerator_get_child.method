@@ -1,2 +1,0 @@
-  fun ref get_child(info': GFileInfo): GFile =>
-    GFileEnumeratorP.get_child(this, info')

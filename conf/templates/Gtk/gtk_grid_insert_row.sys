@@ -1,2 +1,0 @@
-  fun insert_row(grid': GtkGrid, position': I32): None =>
-    @gtk_grid_insert_row(grid', position')

@@ -1,2 +1,0 @@
-  fun new_for_xml(xml_data': String, error': GError): GDBusNodeInfo =>
-    @g_dbus_node_info_new_for_xml(xml_data'.cstring(), addressof error'.ptr)

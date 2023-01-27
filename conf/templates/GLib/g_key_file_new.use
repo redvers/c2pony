@@ -1,1 +1,1 @@
-use @g_key_file_new[GKeyFile]()
+use @g_key_file_new[NullablePointer[GKeyFileT]]()

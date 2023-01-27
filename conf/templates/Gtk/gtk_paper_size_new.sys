@@ -1,2 +1,0 @@
-  fun new(name': String): GtkPaperSize =>
-    @gtk_paper_size_new(name'.cstring())

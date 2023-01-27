@@ -1,1 +1,0 @@
-use @gtk_gesture_swipe_get_velocity[I32](gesture': GtkGestureSwipe, velocity_x': Pointer[F64] tag, velocity_y': Pointer[F64] tag)

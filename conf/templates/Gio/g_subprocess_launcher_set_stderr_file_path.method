@@ -1,2 +1,0 @@
-  fun ref set_stderr_file_path(path': String): None =>
-    GSubprocessLauncherP.set_stderr_file_path(this, path')

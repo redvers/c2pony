@@ -1,2 +1,0 @@
-  fun set_visible_line_offset(iter': GtkTextIter, char_on_line': I32): None =>
-    @gtk_text_iter_set_visible_line_offset(iter', char_on_line')

@@ -1,1 +1,0 @@
-use @gtk_icon_view_get_selection_mode[U32](icon_view': GtkIconView)

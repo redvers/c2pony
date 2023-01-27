@@ -1,2 +1,0 @@
-  fun ref unfullscreen(): None =>
-    GtkWindowP.unfullscreen(this)

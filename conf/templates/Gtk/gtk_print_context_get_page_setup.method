@@ -1,2 +1,0 @@
-  fun ref get_page_setup(): GtkPageSetup =>
-    GtkPrintContextP.get_page_setup(this)

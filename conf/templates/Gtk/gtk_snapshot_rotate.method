@@ -1,2 +1,0 @@
-  fun ref rotate(angle': F32): None =>
-    P.rotate(this, angle')

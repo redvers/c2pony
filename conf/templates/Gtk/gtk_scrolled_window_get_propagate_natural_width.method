@@ -1,2 +1,0 @@
-  fun ref get_propagate_natural_width(): I32 =>
-    GtkScrolledWindowP.get_propagate_natural_width(this)

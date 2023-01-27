@@ -1,1 +1,0 @@
-use @gtk_entry_reset_im_context[None](entry': GtkEntry)

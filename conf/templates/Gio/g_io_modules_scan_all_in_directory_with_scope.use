@@ -1,1 +1,0 @@
-use @g_io_modules_scan_all_in_directory_with_scope[None](dirname': Pointer[U8] tag, scope': GIOModuleScope)

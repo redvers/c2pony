@@ -1,2 +1,0 @@
-  fun ref get_row(position': U32): GtkTreeListRow =>
-    GtkTreeListModelP.get_row(this, position')

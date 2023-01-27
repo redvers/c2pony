@@ -1,2 +1,0 @@
-  fun ref list_schemas(recursive': I32, non_relocatable': Pointer[Pointer[Pointer[U8]]] tag, relocatable': Pointer[Pointer[Pointer[U8]]] tag): None =>
-    GSettingsSchemaSourceP.list_schemas(this, recursive', non_relocatable', relocatable')

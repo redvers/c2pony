@@ -1,1 +1,0 @@
-use @gtk_label_new_with_mnemonic[Pointer[GObjectP]](str': Pointer[U8] tag)

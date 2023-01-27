@@ -1,2 +1,0 @@
-  fun ref set_buffer(buffer': GtkEntryBuffer): None =>
-    GtkTextP.set_buffer(this, buffer')

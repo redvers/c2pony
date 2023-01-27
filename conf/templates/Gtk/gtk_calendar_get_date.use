@@ -1,1 +1,0 @@
-use @gtk_calendar_get_date[GDateTime](self': GtkCalendar)

@@ -1,2 +1,0 @@
-  fun set_filter_func(box': GtkListBox, filter_func': GtkListBoxFilterFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    @gtk_list_box_set_filter_func(box', filter_func', user_data', destroy')

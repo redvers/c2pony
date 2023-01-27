@@ -1,1 +1,0 @@
-use @gtk_tree_list_model_new[GtkTreeListModel](root': GListModel, passthrough': I32, autoexpand': I32, create_func': GtkTreeListModelCreateModelFunc, user_data': Pointer[None] tag, user_destroy': GDestroyNotify)

@@ -1,1 +1,0 @@
-use @gtk_entry_set_icon_sensitive[None](entry': GtkEntry, icon_pos': U32, sensitive': I32)

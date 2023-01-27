@@ -1,2 +1,2 @@
   fun ref adjust_time(type': U32, time': Pointer[I64] tag): I32 =>
-    GTimeZoneP.adjust_time(this, type', time')
+    GTimeZoneP.adjust_time(this.ptr, type', time')

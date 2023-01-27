@@ -1,2 +1,0 @@
-  fun ref get_css_name(): String iso^ =>
-    GtkWidgetP.get_css_name(this)

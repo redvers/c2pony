@@ -1,1 +1,0 @@
-use @gtk_spin_button_new_with_range[Pointer[GObjectP]](min': F64, max': F64, step': F64)

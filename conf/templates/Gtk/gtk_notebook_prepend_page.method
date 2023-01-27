@@ -1,2 +1,0 @@
-  fun ref prepend_page(child': GtkWidgetI, tab_label': GtkWidgetI): I32 =>
-    GtkNotebookP.prepend_page(this, child', tab_label')

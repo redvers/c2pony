@@ -1,2 +1,0 @@
-  fun ref is_connected(): I32 =>
-    GSocketConnectionP.is_connected(this)

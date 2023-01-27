@@ -1,2 +1,0 @@
-  fun ref reorder(parent': GtkTreeIter, new_order': Pointer[I32] tag): None =>
-    GtkTreeStoreP.reorder(this, parent', new_order')

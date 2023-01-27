@@ -1,2 +1,2 @@
-  fun new_maybe(element': GVariantType): GVariantType =>
-    @g_variant_type_new_maybe(element')
+  new new_maybe(element': NullablePointer[GVariantTypeT]) =>
+    ptr = @g_variant_type_new_maybe(element')

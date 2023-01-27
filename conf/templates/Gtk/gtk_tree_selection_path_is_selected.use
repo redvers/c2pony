@@ -1,1 +1,0 @@
-use @gtk_tree_selection_path_is_selected[I32](selection': GtkTreeSelection, path': GtkTreePath)

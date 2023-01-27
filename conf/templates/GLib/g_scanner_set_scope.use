@@ -1,1 +1,1 @@
-use @g_scanner_set_scope[U32](scanner': GScanner, scope_id': U32)
+use @g_scanner_set_scope[U32](scanner': NullablePointer[GScannerT], scope_id': U32)

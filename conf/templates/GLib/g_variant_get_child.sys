@@ -1,2 +1,2 @@
-  fun get_child(value': GVariant, index': U64, format_string': String, ...): None =>
+  fun get_child(value': NullablePointer[GVariantT], index': U64, format_string': String, ...): None =>
     @g_variant_get_child(value', index', format_string'.cstring(), ...)

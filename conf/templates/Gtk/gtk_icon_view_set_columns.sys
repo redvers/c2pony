@@ -1,2 +1,0 @@
-  fun set_columns(icon_view': GtkIconView, columns': I32): None =>
-    @gtk_icon_view_set_columns(icon_view', columns')

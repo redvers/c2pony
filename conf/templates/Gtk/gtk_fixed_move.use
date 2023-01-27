@@ -1,1 +1,0 @@
-use @gtk_fixed_move[None](fixed': GtkFixed, widget': Pointer[GObjectP], x': F64, y': F64)

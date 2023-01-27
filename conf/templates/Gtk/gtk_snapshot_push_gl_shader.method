@@ -1,2 +1,0 @@
-  fun ref push_gl_shader(shader': GskGLShader, bounds': graphenerectt, take_args': GBytes): None =>
-    P.push_gl_shader(this, shader', bounds', take_args')

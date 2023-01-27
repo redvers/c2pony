@@ -1,2 +1,0 @@
-  fun ref get_base_stream(): GOutputStream =>
-    GFilterOutputStreamP.get_base_stream(this)

@@ -1,2 +1,0 @@
-  fun get_icon_name(image': GtkImage): String iso^ =>
-    String.from_cstring(@gtk_image_get_icon_name(image')).clone()

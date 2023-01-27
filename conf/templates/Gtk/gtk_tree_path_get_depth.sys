@@ -1,2 +1,0 @@
-  fun get_depth(path': GtkTreePath): I32 =>
-    @gtk_tree_path_get_depth(path')

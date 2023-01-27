@@ -1,1 +1,1 @@
-use @g_hash_table_iter_get_hash_table[GHashTable](iter': GHashTableIter)
+use @g_hash_table_iter_get_hash_table[NullablePointer[GHashTableT]](iter': NullablePointer[GHashTableIterT])

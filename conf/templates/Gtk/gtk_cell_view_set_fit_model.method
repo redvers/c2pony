@@ -1,2 +1,0 @@
-  fun ref set_fit_model(fit_model': I32): None =>
-    GtkCellViewP.set_fit_model(this, fit_model')

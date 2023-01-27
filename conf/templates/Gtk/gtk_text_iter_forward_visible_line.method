@@ -1,2 +1,0 @@
-  fun ref forward_visible_line(): I32 =>
-    GtkTextIterP.forward_visible_line(this)

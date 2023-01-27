@@ -1,2 +1,0 @@
-  fun ref set_popover(popover': GtkWidgetI): None =>
-    GtkMenuButtonP.set_popover(this, popover')

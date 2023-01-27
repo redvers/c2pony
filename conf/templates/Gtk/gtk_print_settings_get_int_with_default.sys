@@ -1,2 +1,0 @@
-  fun get_int_with_default(settings': GtkPrintSettings, key': String, def': I32): I32 =>
-    @gtk_print_settings_get_int_with_default(settings', key'.cstring(), def')

@@ -1,2 +1,0 @@
-  fun append_column(self': GtkColumnView, column': GtkColumnViewColumn): None =>
-    @gtk_column_view_append_column(self', column')

@@ -1,1 +1,0 @@
-use @gtk_snapshot_render_insertion_cursor[None](snapshot': GdkSnapshot, context': GtkStyleContext, x': F64, y': F64, layout': PangoLayout, index': I32, direction': U32)

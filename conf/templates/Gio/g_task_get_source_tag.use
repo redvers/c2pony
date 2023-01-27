@@ -1,1 +1,0 @@
-use @g_task_get_source_tag[Pointer[None] tag](task': GTask)

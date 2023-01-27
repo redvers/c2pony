@@ -1,2 +1,2 @@
-  fun remove_group(key_file': GKeyFile, group_name': String, error': GError): I32 =>
-    @g_key_file_remove_group(key_file', group_name'.cstring(), addressof error'.ptr)
+  fun remove_group(key_file': NullablePointer[GKeyFileT], group_name': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_key_file_remove_group(key_file', group_name'.cstring(), error')

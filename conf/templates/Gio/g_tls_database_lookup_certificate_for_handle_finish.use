@@ -1,1 +1,0 @@
-use @g_tls_database_lookup_certificate_for_handle_finish[GTlsCertificate](self': GTlsDatabase, result': GAsyncResult, error': Pointer[NullablePointer[GErrorT]])

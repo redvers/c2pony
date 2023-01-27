@@ -1,2 +1,0 @@
-  fun ref set_hover_selection(hover': I32): None =>
-    GtkTreeViewP.set_hover_selection(this, hover')

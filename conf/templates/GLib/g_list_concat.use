@@ -1,1 +1,1 @@
-use @g_list_concat[GList](list1': GList, list2': GList)
+use @g_list_concat[NullablePointer[GListT]](list1': NullablePointer[GListT], list2': NullablePointer[GListT])

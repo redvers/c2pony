@@ -1,2 +1,2 @@
-  fun steal_index_fast(array': GPtrArray, index': U32): Pointer[None] tag =>
+  fun steal_index_fast(array': NullablePointer[GPtrArrayT], index': U32): Pointer[None] tag =>
     @g_ptr_array_steal_index_fast(array', index')

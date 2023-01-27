@@ -1,2 +1,2 @@
-  fun destroy(hook_list': GHookList, hook_id': U64): I32 =>
+  fun destroy(hook_list': NullablePointer[GHookListT], hook_id': U64): I32 =>
     @g_hook_destroy(hook_list', hook_id')

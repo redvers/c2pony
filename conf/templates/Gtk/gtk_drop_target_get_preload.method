@@ -1,2 +1,0 @@
-  fun ref get_preload(): I32 =>
-    GtkDropTargetP.get_preload(this)

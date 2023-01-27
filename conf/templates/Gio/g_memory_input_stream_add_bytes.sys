@@ -1,2 +1,0 @@
-  fun add_bytes(stream': GMemoryInputStream, bytes': GBytes): None =>
-    @g_memory_input_stream_add_bytes(stream', bytes')

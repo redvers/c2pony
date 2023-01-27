@@ -1,1 +1,0 @@
-use @gtk_spin_button_get_value_as_int[I32](spin_button': GtkSpinButton)

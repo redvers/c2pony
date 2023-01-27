@@ -1,1 +1,1 @@
-use @g_datalist_init[None](datalist': Pointer[GData])
+use @g_datalist_init[None](datalist': Pointer[NullablePointer[GDataT]])

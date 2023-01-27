@@ -1,2 +1,0 @@
-  fun observe_children(widget': GtkWidgetI): GListModel =>
-    @gtk_widget_observe_children(widget'.getptr())

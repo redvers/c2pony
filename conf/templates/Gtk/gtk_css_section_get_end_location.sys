@@ -1,2 +1,0 @@
-  fun get_end_location(section': GtkCssSection): GtkCssLocation =>
-    @gtk_css_section_get_end_location(section')

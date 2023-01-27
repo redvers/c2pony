@@ -1,2 +1,0 @@
-  fun ref difference(other': GtkBitset): None =>
-    GtkBitsetP.difference(this, other')

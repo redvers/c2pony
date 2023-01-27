@@ -1,1 +1,0 @@
-use @gtk_text_set_input_purpose[None](self': GtkText, purpose': U32)

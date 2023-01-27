@@ -1,2 +1,2 @@
   fun ref get_capture_count(): I32 =>
-    GRegexP.get_capture_count(this)
+    GRegexP.get_capture_count(this.ptr)

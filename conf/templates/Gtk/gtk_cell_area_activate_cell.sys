@@ -1,2 +1,0 @@
-  fun activate_cell(area': GtkCellArea, widget': GtkWidgetI, renderer': GtkCellRenderer, event': GdkEvent, cell_area': cairorectangleint, flags': U32): I32 =>
-    @gtk_cell_area_activate_cell(area', widget'.getptr(), renderer', event', cell_area', flags')

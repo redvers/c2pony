@@ -1,2 +1,0 @@
-  fun ref remove_attribute(attribute': String): None =>
-    GFileInfoP.remove_attribute(this, attribute')

@@ -1,2 +1,0 @@
-  fun get(settings': GSettings, key': String, format': String, ...): None =>
-    @g_settings_get(settings', key'.cstring(), format'.cstring(), ...)

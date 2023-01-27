@@ -1,2 +1,0 @@
-  fun ref set_enable_rubberband(enable_rubberband': I32): None =>
-    GtkListViewP.set_enable_rubberband(this, enable_rubberband')

@@ -1,2 +1,2 @@
-  fun unref(array': GArray): None =>
+  fun unref(array': NullablePointer[GArrayT]): None =>
     @g_array_unref(array')

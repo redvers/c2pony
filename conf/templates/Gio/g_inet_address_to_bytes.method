@@ -1,2 +1,0 @@
-  fun ref to_bytes(): String iso^ =>
-    GInetAddressP.to_bytes(this)

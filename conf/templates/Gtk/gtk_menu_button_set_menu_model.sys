@@ -1,2 +1,0 @@
-  fun set_menu_model(menu_button': GtkMenuButton, menu_model': GMenuModel): None =>
-    @gtk_menu_button_set_menu_model(menu_button', menu_model')

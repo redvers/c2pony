@@ -1,2 +1,0 @@
-  fun get_line_yrange(text_view': GtkTextView, iter': GtkTextIter, y': Pointer[I32] tag, height': Pointer[I32] tag): None =>
-    @gtk_text_view_get_line_yrange(text_view', iter', y', height')

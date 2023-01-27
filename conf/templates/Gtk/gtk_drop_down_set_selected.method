@@ -1,2 +1,0 @@
-  fun ref set_selected(position': U32): None =>
-    GtkDropDownP.set_selected(this, position')

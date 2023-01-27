@@ -1,1 +1,1 @@
-use @g_main_context_pending[I32](context': GMainContext)
+use @g_main_context_pending[I32](context': NullablePointer[GMainContextT])

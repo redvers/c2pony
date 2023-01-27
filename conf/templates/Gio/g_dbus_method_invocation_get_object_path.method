@@ -1,2 +1,0 @@
-  fun ref get_object_path(): String iso^ =>
-    GDBusMethodInvocationP.get_object_path(this)

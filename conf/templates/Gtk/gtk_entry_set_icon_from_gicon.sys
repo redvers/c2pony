@@ -1,2 +1,0 @@
-  fun set_icon_from_gicon(entry': GtkEntry, icon_pos': U32, icon': GIcon): None =>
-    @gtk_entry_set_icon_from_gicon(entry', icon_pos', icon')

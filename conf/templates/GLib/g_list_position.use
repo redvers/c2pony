@@ -1,1 +1,1 @@
-use @g_list_position[I32](list': GList, llink': GList)
+use @g_list_position[I32](list': NullablePointer[GListT], llink': NullablePointer[GListT])

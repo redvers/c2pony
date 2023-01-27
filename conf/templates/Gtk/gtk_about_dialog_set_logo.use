@@ -1,1 +1,0 @@
-use @gtk_about_dialog_set_logo[None](about': GtkAboutDialog, logo': GdkPaintable)

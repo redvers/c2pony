@@ -1,1 +1,0 @@
-use @g_volume_monitor_get_mounts[GList](volume_monitor': GVolumeMonitor)

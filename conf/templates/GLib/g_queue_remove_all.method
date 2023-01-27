@@ -1,2 +1,2 @@
   fun ref remove_all(data': Pointer[None] tag): U32 =>
-    GQueueP.remove_all(this, data')
+    GQueueP.remove_all(this.ptr, data')

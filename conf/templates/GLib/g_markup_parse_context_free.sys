@@ -1,2 +1,2 @@
-  fun free(context': GMarkupParseContext): None =>
+  fun free(context': NullablePointer[GMarkupParseContextT]): None =>
     @g_markup_parse_context_free(context')

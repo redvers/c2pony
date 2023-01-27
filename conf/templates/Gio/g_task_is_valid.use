@@ -1,1 +1,0 @@
-use @g_task_is_valid[I32](result': Pointer[None] tag, source_object': Pointer[None] tag)

@@ -1,2 +1,0 @@
-  fun ref fini(): None =>
-    GStaticResourceP.fini(this)

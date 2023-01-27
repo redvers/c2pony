@@ -1,2 +1,0 @@
-  fun ref(self': GtkBitset): GtkBitset =>
-    @gtk_bitset_ref(self')

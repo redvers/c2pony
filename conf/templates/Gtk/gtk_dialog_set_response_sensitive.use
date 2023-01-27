@@ -1,1 +1,0 @@
-use @gtk_dialog_set_response_sensitive[None](dialog': GtkDialog, response_id': I32, setting': I32)

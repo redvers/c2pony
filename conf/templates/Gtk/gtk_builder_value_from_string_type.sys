@@ -1,2 +1,0 @@
-  fun value_from_string_type(builder': GtkBuilderI, type': U64, string': String, value': GValue, error': GError): I32 =>
-    @gtk_builder_value_from_string_type(builder'.getptr(), type', string'.cstring(), value', addressof error'.ptr)

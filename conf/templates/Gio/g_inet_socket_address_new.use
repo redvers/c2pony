@@ -1,1 +1,0 @@
-use @g_inet_socket_address_new[GSocketAddress](address': GInetAddress, port': U16)

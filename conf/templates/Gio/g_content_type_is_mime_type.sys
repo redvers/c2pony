@@ -1,2 +1,0 @@
-  fun content_type_is_mime_type(type': String, mime_type': String): I32 =>
-    @g_content_type_is_mime_type(type'.cstring(), mime_type'.cstring())

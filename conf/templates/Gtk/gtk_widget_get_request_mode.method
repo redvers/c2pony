@@ -1,2 +1,0 @@
-  fun ref get_request_mode(): U32 =>
-    GtkWidgetP.get_request_mode(this)

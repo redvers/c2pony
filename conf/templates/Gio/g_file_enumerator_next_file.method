@@ -1,2 +1,0 @@
-  fun ref next_file(cancellable': GCancellable, error': GError): GFileInfo =>
-    GFileEnumeratorP.next_file(this, cancellable', error')

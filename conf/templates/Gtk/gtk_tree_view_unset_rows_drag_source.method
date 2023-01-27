@@ -1,2 +1,0 @@
-  fun ref unset_rows_drag_source(): None =>
-    GtkTreeViewP.unset_rows_drag_source(this)

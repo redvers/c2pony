@@ -1,2 +1,0 @@
-  fun ref serialize(data': Pointer[None] tag): None =>
-    GSocketControlMessageP.serialize(this, data')

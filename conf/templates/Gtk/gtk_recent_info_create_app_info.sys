@@ -1,2 +1,0 @@
-  fun create_app_info(info': GtkRecentInfo, app_name': String, error': GError): GAppInfo =>
-    @gtk_recent_info_create_app_info(info', app_name'.cstring(), addressof error'.ptr)

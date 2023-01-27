@@ -1,2 +1,0 @@
-  fun get_multicast_ttl(socket': GSocket): U32 =>
-    @g_socket_get_multicast_ttl(socket')

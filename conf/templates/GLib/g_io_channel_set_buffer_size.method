@@ -1,2 +1,2 @@
   fun ref set_buffer_size(size': U64): None =>
-    GIOChannelP.set_buffer_size(this, size')
+    GIOChannelP.set_buffer_size(this.ptr, size')

@@ -1,1 +1,0 @@
-use @g_dbus_message_get_header[GVariant](message': GDBusMessage, header_field': U32)

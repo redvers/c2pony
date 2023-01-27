@@ -1,2 +1,0 @@
-  fun ref rotate_3d(angle': F32, axis': graphenevec3t): None =>
-    P.rotate_3d(this, angle', axis')

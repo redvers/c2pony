@@ -1,1 +1,1 @@
-use @g_ptr_array_sized_new[GPtrArray](reserved_size': U32)
+use @g_ptr_array_sized_new[NullablePointer[GPtrArrayT]](reserved_size': U32)

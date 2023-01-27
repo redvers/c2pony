@@ -1,2 +1,2 @@
-  fun string_new_len(init': String, len': I64): GString =>
+  fun string_new_len(init': String, len': I64): NullablePointer[GStringT] =>
     @g_string_new_len(init'.cstring(), len')

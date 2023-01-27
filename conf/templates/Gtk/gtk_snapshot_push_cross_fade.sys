@@ -1,2 +1,0 @@
-  fun push_cross_fade(snapshot': GdkSnapshot, progress': F64): None =>
-    @gtk_snapshot_push_cross_fade(snapshot', progress')

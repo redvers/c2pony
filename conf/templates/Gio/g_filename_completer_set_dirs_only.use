@@ -1,1 +1,0 @@
-use @g_filename_completer_set_dirs_only[None](completer': GFilenameCompleter, dirs_only': I32)

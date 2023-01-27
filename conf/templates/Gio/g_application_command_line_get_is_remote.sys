@@ -1,2 +1,0 @@
-  fun get_is_remote(cmdline': GApplicationCommandLine): I32 =>
-    @g_application_command_line_get_is_remote(cmdline')

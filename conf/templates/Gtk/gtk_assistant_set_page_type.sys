@@ -1,2 +1,0 @@
-  fun set_page_type(assistant': GtkAssistant, page': GtkWidgetI, type': U32): None =>
-    @gtk_assistant_set_page_type(assistant', page'.getptr(), type')

@@ -1,2 +1,0 @@
-  fun popup_disable(notebook': GtkNotebook): None =>
-    @gtk_notebook_popup_disable(notebook')

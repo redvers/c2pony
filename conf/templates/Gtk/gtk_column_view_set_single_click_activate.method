@@ -1,2 +1,0 @@
-  fun ref set_single_click_activate(single_click_activate': I32): None =>
-    GtkColumnViewP.set_single_click_activate(this, single_click_activate')

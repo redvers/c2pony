@@ -1,1 +1,0 @@
-use @g_dbus_interface_info_lookup_signal[GDBusSignalInfo](info': GDBusInterfaceInfo, name': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun append(list': GSList, data': Pointer[None] tag): GSList =>
+  fun append(list': NullablePointer[GSListT], data': Pointer[None] tag): NullablePointer[GSListT] =>
     @g_slist_append(list', data')

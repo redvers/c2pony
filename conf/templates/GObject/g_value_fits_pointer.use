@@ -1,1 +1,1 @@
-use @g_value_fits_pointer[I32](value': GValue)
+use @g_value_fits_pointer[I32](value': NullablePointer[GValueT])

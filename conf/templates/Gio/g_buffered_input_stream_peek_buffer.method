@@ -1,2 +1,0 @@
-  fun ref peek_buffer(count': Pointer[U64] tag): Pointer[None] tag =>
-    GBufferedInputStreamP.peek_buffer(this, count')

@@ -1,2 +1,0 @@
-  fun get_dbus_object_path(application': GApplicationI): String iso^ =>
-    String.from_cstring(@g_application_get_dbus_object_path(application'.getptr())).clone()

@@ -1,2 +1,0 @@
-  fun get_current_page(assistant': GtkAssistant): I32 =>
-    @gtk_assistant_get_current_page(assistant')

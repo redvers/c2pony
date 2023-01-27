@@ -1,1 +1,0 @@
-use @gtk_paper_size_new_custom[GtkPaperSize](name': Pointer[U8] tag, display_name': Pointer[U8] tag, width': F64, height': F64, unit': U32)

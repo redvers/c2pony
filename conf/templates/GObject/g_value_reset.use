@@ -1,1 +1,1 @@
-use @g_value_reset[GValue](value': GValue)
+use @g_value_reset[NullablePointer[GValueT]](value': NullablePointer[GValueT])

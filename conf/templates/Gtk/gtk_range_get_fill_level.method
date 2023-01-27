@@ -1,2 +1,0 @@
-  fun ref get_fill_level(): F64 =>
-    GtkRangeP.get_fill_level(this)

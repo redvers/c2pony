@@ -1,1 +1,0 @@
-use @gtk_notebook_set_menu_label[None](notebook': GtkNotebook, child': Pointer[GObjectP], menu_label': Pointer[GObjectP])

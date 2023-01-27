@@ -1,2 +1,2 @@
-  fun ref copy(): GNode =>
-    GNodeP.copy(this)
+  fun ref copy(): NullablePointer[GNodeT] =>
+    GNodeP.copy(this.ptr)

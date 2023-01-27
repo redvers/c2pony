@@ -1,2 +1,2 @@
-  fun get_variant(value': GValue): GVariant =>
+  fun get_variant(value': NullablePointer[GValueT]): NullablePointer[GVariantT] =>
     @g_value_get_variant(value')

@@ -1,2 +1,0 @@
-  fun ref pause(): None =>
-    GtkMediaStreamP.pause(this)

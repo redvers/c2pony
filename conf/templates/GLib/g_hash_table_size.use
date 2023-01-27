@@ -1,1 +1,1 @@
-use @g_hash_table_size[U32](hash_table': GHashTable)
+use @g_hash_table_size[U32](hash_table': NullablePointer[GHashTableT])

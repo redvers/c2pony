@@ -1,2 +1,0 @@
-  fun ref get_activates_default(): I32 =>
-    GtkTextP.get_activates_default(this)

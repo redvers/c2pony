@@ -1,1 +1,0 @@
-use @g_dbus_connection_unregister_subtree[I32](connection': GDBusConnection, registration_id': U32)

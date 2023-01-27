@@ -1,2 +1,0 @@
-  fun reset_property(settings': GtkSettings, name': String): None =>
-    @gtk_settings_reset_property(settings', name'.cstring())

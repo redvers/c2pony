@@ -1,2 +1,0 @@
-  fun ref insert_range_interactive(iter': GtkTextIter, start': GtkTextIter, end': GtkTextIter, default_editable': I32): I32 =>
-    GtkTextBufferP.insert_range_interactive(this, iter', start', end', default_editable')

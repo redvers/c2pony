@@ -1,2 +1,0 @@
-  fun ref print(format': String, ...): None =>
-    GApplicationCommandLineP.print(this, format', ...)

@@ -1,2 +1,2 @@
-  fun prepend(list': GList, data': Pointer[None] tag): GList =>
+  fun prepend(list': NullablePointer[GListT], data': Pointer[None] tag): NullablePointer[GListT] =>
     @g_list_prepend(list', data')

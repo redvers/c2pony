@@ -1,2 +1,0 @@
-  fun get_short_name(info': GtkRecentInfo): String iso^ =>
-    String.from_cstring(@gtk_recent_info_get_short_name(info')).clone()

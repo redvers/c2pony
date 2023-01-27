@@ -1,2 +1,2 @@
   fun ref fits_pointer(): I32 =>
-    GValueP.fits_pointer(this)
+    GValueP.fits_pointer(this.ptr)

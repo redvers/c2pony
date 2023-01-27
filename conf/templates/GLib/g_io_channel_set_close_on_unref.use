@@ -1,1 +1,1 @@
-use @g_io_channel_set_close_on_unref[None](channel': GIOChannel, do_close': I32)
+use @g_io_channel_set_close_on_unref[None](channel': NullablePointer[GIOChannelT], do_close': I32)

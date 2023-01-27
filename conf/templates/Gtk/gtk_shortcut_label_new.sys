@@ -1,2 +1,0 @@
-  fun new(accelerator': String): Pointer[GObjectP] =>
-@gtk_shortcut_label_new(accelerator'.cstring())

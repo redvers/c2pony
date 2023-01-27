@@ -1,2 +1,2 @@
-  fun remove_all(hash_table': GHashTable): None =>
+  fun remove_all(hash_table': NullablePointer[GHashTableT]): None =>
     @g_hash_table_remove_all(hash_table')

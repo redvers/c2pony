@@ -1,2 +1,2 @@
-  fun push_sorted_unlocked(queue': GAsyncQueue, data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
+  fun push_sorted_unlocked(queue': NullablePointer[GAsyncQueueT], data': Pointer[None] tag, func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
     @g_async_queue_push_sorted_unlocked(queue', data', func', user_data')

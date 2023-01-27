@@ -1,2 +1,2 @@
-  fun write(channel': GIOChannel, buf': String, count': U64, bytes_written': Pointer[U64] tag): U32 =>
+  fun write(channel': NullablePointer[GIOChannelT], buf': String, count': U64, bytes_written': Pointer[U64] tag): U32 =>
     @g_io_channel_write(channel', buf'.cstring(), count', bytes_written')

@@ -1,2 +1,2 @@
-  fun ref copy(): GChecksum =>
-    GChecksumP.copy(this)
+  fun ref copy(): NullablePointer[GChecksumT] =>
+    GChecksumP.copy(this.ptr)

@@ -1,2 +1,2 @@
   fun ref reader_unlock(): None =>
-    GRWLockP.reader_unlock(this)
+    GRWLockP.reader_unlock(this.ptr)

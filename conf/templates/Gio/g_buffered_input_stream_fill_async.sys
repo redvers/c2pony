@@ -1,2 +1,0 @@
-  fun fill_async(stream': GBufferedInputStream, count': I64, io_priority': I32, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_buffered_input_stream_fill_async(stream', count', io_priority', cancellable', callback', user_data')

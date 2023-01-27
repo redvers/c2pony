@@ -1,2 +1,2 @@
-  fun ref move_item(old_uri': String, new_uri': String, error': GError): I32 =>
-    GBookmarkFileP.move_item(this, old_uri', new_uri', error')
+  fun ref move_item(old_uri': String, new_uri': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GBookmarkFileP.move_item(this.ptr, old_uri', new_uri', error')

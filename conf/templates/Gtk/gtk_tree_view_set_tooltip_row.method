@@ -1,2 +1,0 @@
-  fun ref set_tooltip_row(tooltip': GtkTooltip, path': GtkTreePath): None =>
-    GtkTreeViewP.set_tooltip_row(this, tooltip', path')

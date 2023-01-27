@@ -1,2 +1,2 @@
-  fun new_strv(strv': Pointer[Pointer[U8]] tag, length': I64): GVariant =>
-    @g_variant_new_strv(strv', length')
+  new new_strv(strv': Pointer[Pointer[U8]] tag, length': I64) =>
+    ptr = @g_variant_new_strv(strv', length')

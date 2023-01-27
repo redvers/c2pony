@@ -1,1 +1,0 @@
-use @g_mount_operation_set_anonymous[None](op': GMountOperation, anonymous': I32)

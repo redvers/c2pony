@@ -1,2 +1,0 @@
-  fun ref get_tab_label_text(child': GtkWidgetI): String iso^ =>
-    GtkNotebookP.get_tab_label_text(this, child')

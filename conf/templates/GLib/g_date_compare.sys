@@ -1,2 +1,2 @@
-  fun compare(lhs': GDate, rhs': GDate): I32 =>
+  fun compare(lhs': NullablePointer[GDateT], rhs': NullablePointer[GDateT]): I32 =>
     @g_date_compare(lhs', rhs')

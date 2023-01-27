@@ -1,1 +1,0 @@
-use @gtk_cell_renderer_get_state[U32](cell': GtkCellRenderer, widget': Pointer[GObjectP], cell_state': U32)

@@ -1,2 +1,0 @@
-  fun get_gutter(text_view': GtkTextView, win': U32): Pointer[GObjectP] =>
-@gtk_text_view_get_gutter(text_view', win')

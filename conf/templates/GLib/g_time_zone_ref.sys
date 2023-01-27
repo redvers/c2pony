@@ -1,2 +1,2 @@
-  fun ref(tz': GTimeZone): GTimeZone =>
+  fun ref(tz': NullablePointer[GTimeZoneT]): NullablePointer[GTimeZoneT] =>
     @g_time_zone_ref(tz')

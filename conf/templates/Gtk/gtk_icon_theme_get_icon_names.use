@@ -1,1 +1,0 @@
-use @gtk_icon_theme_get_icon_names[Pointer[Pointer[U8]] tag](self': GtkIconTheme)

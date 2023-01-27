@@ -1,2 +1,0 @@
-  fun ref get_progress_fraction(): F64 =>
-    GtkEntryP.get_progress_fraction(this)

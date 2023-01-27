@@ -1,2 +1,0 @@
-  fun ref to_gerror(error': GError): I32 =>
-    GDBusMessageP.to_gerror(this, error')

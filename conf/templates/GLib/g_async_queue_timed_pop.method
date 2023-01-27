@@ -1,2 +1,2 @@
-  fun ref timed_pop(end_time': GTimeVal): Pointer[None] tag =>
-    GAsyncQueueP.timed_pop(this, end_time')
+  fun ref timed_pop(end_time': NullablePointer[GTimeValT]): Pointer[None] tag =>
+    GAsyncQueueP.timed_pop(this.ptr, end_time')

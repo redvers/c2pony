@@ -1,1 +1,1 @@
-use @g_value_dup_string[Pointer[U8]](value': GValue)
+use @g_value_dup_string[Pointer[U8]](value': NullablePointer[GValueT])

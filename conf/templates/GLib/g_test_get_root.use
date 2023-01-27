@@ -1,1 +1,1 @@
-use @g_test_get_root[GTestSuite]()
+use @g_test_get_root[NullablePointer[GTestSuiteT]]()

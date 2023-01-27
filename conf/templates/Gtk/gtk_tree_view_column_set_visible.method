@@ -1,2 +1,0 @@
-  fun ref set_visible(visible': I32): None =>
-    GtkTreeViewColumnP.set_visible(this, visible')

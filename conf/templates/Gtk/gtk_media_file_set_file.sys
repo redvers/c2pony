@@ -1,2 +1,0 @@
-  fun set_file(self': GtkMediaFile, file': GFile): None =>
-    @gtk_media_file_set_file(self', file')

@@ -1,2 +1,0 @@
-  fun set_hide_on_close(window': GtkWindowI, setting': I32): None =>
-    @gtk_window_set_hide_on_close(window'.getptr(), setting')

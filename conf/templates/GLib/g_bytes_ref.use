@@ -1,1 +1,1 @@
-use @g_bytes_ref[GBytes](bytes': GBytes)
+use @g_bytes_ref[NullablePointer[GBytesT]](bytes': NullablePointer[GBytesT])

@@ -1,1 +1,1 @@
-use @g_source_ref[GSource](source': GSource)
+use @g_source_ref[NullablePointer[GSourceT]](source': NullablePointer[GSourceT])

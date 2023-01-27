@@ -1,2 +1,0 @@
-  fun insert(box': GtkFlowBox, widget': GtkWidgetI, position': I32): None =>
-    @gtk_flow_box_insert(box', widget'.getptr(), position')

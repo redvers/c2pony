@@ -1,2 +1,2 @@
   fun ref find_interval(type': U32, time': I64): I32 =>
-    GTimeZoneP.find_interval(this, type', time')
+    GTimeZoneP.find_interval(this.ptr, type', time')

@@ -1,2 +1,0 @@
-  fun ref close(cancellable': GCancellable, error': GError): I32 =>
-    GIOStreamP.close(this, cancellable', error')

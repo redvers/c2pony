@@ -1,2 +1,2 @@
-  fun new(data': Pointer[None] tag): GNode =>
+  fun new(data': Pointer[None] tag): NullablePointer[GNodeT] =>
     @g_node_new(data')

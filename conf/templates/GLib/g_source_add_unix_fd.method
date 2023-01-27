@@ -1,2 +1,2 @@
   fun ref add_unix_fd(fd': I32, events': U32): Pointer[None] tag =>
-    GSourceP.add_unix_fd(this, fd', events')
+    GSourceP.add_unix_fd(this.ptr, fd', events')

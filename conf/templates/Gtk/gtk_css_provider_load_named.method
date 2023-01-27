@@ -1,2 +1,0 @@
-  fun ref load_named(name': String, variant': String): None =>
-    GtkCssProviderP.load_named(this, name', variant')

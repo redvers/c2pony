@@ -1,1 +1,0 @@
-use @gtk_drag_source_get_actions[U32](source': GtkDragSource)

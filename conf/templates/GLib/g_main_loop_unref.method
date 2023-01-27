@@ -1,2 +1,2 @@
   fun ref unref(): None =>
-    GMainLoopP.unref(this)
+    GMainLoopP.unref(this.ptr)

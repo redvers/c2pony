@@ -1,2 +1,0 @@
-  fun set_child(frame': GtkFrame, child': GtkWidgetI): None =>
-    @gtk_frame_set_child(frame', child'.getptr())

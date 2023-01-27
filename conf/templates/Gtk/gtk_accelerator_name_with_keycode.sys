@@ -1,2 +1,0 @@
-  fun accelerator_name_with_keycode(display': GdkDisplay, accelerator_key': U32, keycode': U32, accelerator_mods': U32): String iso^ =>
-    String.from_cstring(@gtk_accelerator_name_with_keycode(display', accelerator_key', keycode', accelerator_mods')).clone()

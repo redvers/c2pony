@@ -1,1 +1,1 @@
-use @g_thread_pool_move_to_front[I32](pool': GThreadPool, data': Pointer[None] tag)
+use @g_thread_pool_move_to_front[I32](pool': NullablePointer[GThreadPoolT], data': Pointer[None] tag)

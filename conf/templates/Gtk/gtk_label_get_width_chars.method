@@ -1,2 +1,0 @@
-  fun ref get_width_chars(): I32 =>
-    GtkLabelP.get_width_chars(this)

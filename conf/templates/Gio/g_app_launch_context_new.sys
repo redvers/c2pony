@@ -1,2 +1,0 @@
-  fun new(): GAppLaunchContext =>
-    @g_app_launch_context_new()

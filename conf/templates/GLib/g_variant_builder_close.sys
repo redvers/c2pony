@@ -1,2 +1,2 @@
-  fun close(builder': GVariantBuilder): None =>
+  fun close(builder': NullablePointer[GVariantBuilderT]): None =>
     @g_variant_builder_close(builder')

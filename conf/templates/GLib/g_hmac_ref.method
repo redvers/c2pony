@@ -1,2 +1,2 @@
-  fun ref ref(): GHmac =>
-    GHmacP.ref(this)
+  fun ref ref(): NullablePointer[GHmacT] =>
+    GHmacP.ref(this.ptr)

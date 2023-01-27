@@ -1,2 +1,2 @@
-  fun close(dir': GDir): None =>
+  fun close(dir': NullablePointer[GDirT]): None =>
     @g_dir_close(dir')

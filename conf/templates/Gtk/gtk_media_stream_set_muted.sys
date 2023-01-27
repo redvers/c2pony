@@ -1,2 +1,0 @@
-  fun set_muted(self': GtkMediaStream, muted': I32): None =>
-    @gtk_media_stream_set_muted(self', muted')

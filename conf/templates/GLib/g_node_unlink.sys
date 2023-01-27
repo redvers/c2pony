@@ -1,2 +1,2 @@
-  fun unlink(node': GNode): None =>
+  fun unlink(node': NullablePointer[GNodeT]): None =>
     @g_node_unlink(node')

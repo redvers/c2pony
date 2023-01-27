@@ -1,2 +1,2 @@
-  fun unref(uri': GUri): None =>
+  fun unref(uri': NullablePointer[GUriT]): None =>
     @g_uri_unref(uri')

@@ -1,2 +1,2 @@
-  fun fetch_all(match_info': GMatchInfo): Pointer[Pointer[U8]] tag =>
+  fun fetch_all(match_info': NullablePointer[GMatchInfoT]): Pointer[Pointer[U8]] tag =>
     @g_match_info_fetch_all(match_info')

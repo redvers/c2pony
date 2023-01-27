@@ -1,1 +1,0 @@
-use @gtk_text_view_get_tabs[PangoTabArray](text_view': GtkTextView)

@@ -1,2 +1,0 @@
-  fun ref get_action_widget(pack_type': U32): Pointer[GObjectP] =>
-    GtkNotebookP.get_action_widget(this, pack_type')

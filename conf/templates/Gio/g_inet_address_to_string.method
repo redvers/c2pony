@@ -1,2 +1,0 @@
-  fun ref to_string(): String iso^ =>
-    GInetAddressP.to_string(this)

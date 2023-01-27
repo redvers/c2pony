@@ -1,2 +1,2 @@
-  fun get_data_as_bytes(value': GVariant): GBytes =>
+  fun get_data_as_bytes(value': NullablePointer[GVariantT]): NullablePointer[GBytesT] =>
     @g_variant_get_data_as_bytes(value')

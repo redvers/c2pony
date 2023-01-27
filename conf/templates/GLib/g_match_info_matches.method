@@ -1,2 +1,2 @@
   fun ref matches(): I32 =>
-    GMatchInfoP.matches(this)
+    GMatchInfoP.matches(this.ptr)

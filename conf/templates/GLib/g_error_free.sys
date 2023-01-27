@@ -1,2 +1,2 @@
-  fun free(error': GError): None =>
-    @g_error_free(error'.ptr)
+  fun free(error': NullablePointer[GErrorT]): None =>
+    @g_error_free(error')

@@ -1,1 +1,1 @@
-use @g_date_time_get_day_of_month[I32](datetime': GDateTime)
+use @g_date_time_get_day_of_month[I32](datetime': NullablePointer[GDateTimeT])

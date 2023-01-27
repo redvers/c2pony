@@ -1,2 +1,0 @@
-  fun new(): GtkLayoutManager =>
-    @gtk_overlay_layout_new()

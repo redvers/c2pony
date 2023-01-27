@@ -1,2 +1,2 @@
   fun ref init(object': Pointer[None] tag): None =>
-    GWeakRefP.init(this, object')
+    GWeakRefP.init(this.ptr, object')

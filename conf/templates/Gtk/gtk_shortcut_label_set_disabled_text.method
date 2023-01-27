@@ -1,2 +1,0 @@
-  fun ref set_disabled_text(disabled_text': String): None =>
-    GtkShortcutLabelP.set_disabled_text(this, disabled_text')

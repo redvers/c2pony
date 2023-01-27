@@ -1,2 +1,0 @@
-  fun get_child_at_pos(box': GtkFlowBox, x': I32, y': I32): GtkFlowBoxChild =>
-    @gtk_flow_box_get_child_at_pos(box', x', y')

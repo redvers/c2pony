@@ -1,2 +1,2 @@
-  fun get_uint(value': GValue): U32 =>
+  fun get_uint(value': NullablePointer[GValueT]): U32 =>
     @g_value_get_uint(value')

@@ -1,2 +1,2 @@
-  fun get_int16(value': GVariant): I16 =>
+  fun get_int16(value': NullablePointer[GVariantT]): I16 =>
     @g_variant_get_int16(value')

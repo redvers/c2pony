@@ -1,2 +1,0 @@
-  fun init(): None =>
-    @gtk_init()

@@ -1,2 +1,2 @@
-  fun quit(loop': GMainLoop): None =>
+  fun quit(loop': NullablePointer[GMainLoopT]): None =>
     @g_main_loop_quit(loop')

@@ -1,2 +1,0 @@
-  fun reorder(tree_store': GtkTreeStore, parent': GtkTreeIter, new_order': Pointer[I32] tag): None =>
-    @gtk_tree_store_reorder(tree_store', parent', new_order')

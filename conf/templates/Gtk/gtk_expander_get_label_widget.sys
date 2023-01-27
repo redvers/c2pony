@@ -1,2 +1,0 @@
-  fun get_label_widget(expander': GtkExpander): Pointer[GObjectP] =>
-@gtk_expander_get_label_widget(expander')

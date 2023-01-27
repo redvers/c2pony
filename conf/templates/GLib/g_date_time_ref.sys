@@ -1,2 +1,2 @@
-  fun ref(datetime': GDateTime): GDateTime =>
+  fun ref(datetime': NullablePointer[GDateTimeT]): NullablePointer[GDateTimeT] =>
     @g_date_time_ref(datetime')

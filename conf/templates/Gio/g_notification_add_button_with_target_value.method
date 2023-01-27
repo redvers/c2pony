@@ -1,2 +1,0 @@
-  fun ref add_button_with_target_value(label': String, action': String, target': GVariant): None =>
-    GNotificationP.add_button_with_target_value(this, label', action', target')

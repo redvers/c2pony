@@ -1,2 +1,2 @@
-  fun steal_all(hash_table': GHashTable): None =>
+  fun steal_all(hash_table': NullablePointer[GHashTableT]): None =>
     @g_hash_table_steal_all(hash_table')

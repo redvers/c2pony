@@ -1,1 +1,0 @@
-use @g_simple_action_new_stateful[GSimpleAction](name': Pointer[U8] tag, parameter_type': GVariantType, state': GVariant)

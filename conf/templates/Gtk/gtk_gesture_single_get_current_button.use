@@ -1,1 +1,0 @@
-use @gtk_gesture_single_get_current_button[U32](gesture': GtkGestureSingle)

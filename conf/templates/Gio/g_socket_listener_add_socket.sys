@@ -1,2 +1,0 @@
-  fun add_socket(listener': GSocketListener, socket': GSocket, source_object': GObjectI, error': GError): I32 =>
-    @g_socket_listener_add_socket(listener', socket', source_object'.getptr(), addressof error'.ptr)

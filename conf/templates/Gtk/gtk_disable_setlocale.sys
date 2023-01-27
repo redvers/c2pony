@@ -1,2 +1,0 @@
-  fun disable_setlocale(): None =>
-    @gtk_disable_setlocale()

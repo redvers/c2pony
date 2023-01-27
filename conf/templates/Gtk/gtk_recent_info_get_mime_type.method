@@ -1,2 +1,0 @@
-  fun ref get_mime_type(): String iso^ =>
-    GtkRecentInfoP.get_mime_type(this)

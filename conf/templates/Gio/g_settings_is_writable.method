@@ -1,2 +1,0 @@
-  fun ref is_writable(name': String): I32 =>
-    GSettingsP.is_writable(this, name')

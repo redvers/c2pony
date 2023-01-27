@@ -1,1 +1,1 @@
-use @g_option_group_set_translate_func[None](group': GOptionGroup, func': GTranslateFunc, data': Pointer[None] tag, destroy_notify': GDestroyNotify)
+use @g_option_group_set_translate_func[None](group': NullablePointer[GOptionGroupT], func': GTranslateFunc, data': Pointer[None] tag, destroy_notify': Pointer[None])

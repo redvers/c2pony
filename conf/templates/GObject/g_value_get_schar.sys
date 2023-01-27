@@ -1,2 +1,2 @@
-  fun get_schar(value': GValue): I8 =>
+  fun get_schar(value': NullablePointer[GValueT]): I8 =>
     @g_value_get_schar(value')

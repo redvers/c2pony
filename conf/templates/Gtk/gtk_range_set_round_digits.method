@@ -1,2 +1,0 @@
-  fun ref set_round_digits(round_digits': I32): None =>
-    GtkRangeP.set_round_digits(this, round_digits')

@@ -1,2 +1,0 @@
-  fun set_attribute_mask(info': GFileInfo, mask': GFileAttributeMatcher): None =>
-    @g_file_info_set_attribute_mask(info', mask')

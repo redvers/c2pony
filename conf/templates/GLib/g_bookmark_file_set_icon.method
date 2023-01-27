@@ -1,2 +1,2 @@
   fun ref set_icon(uri': String, href': String, mime_type': String): None =>
-    GBookmarkFileP.set_icon(this, uri', href', mime_type')
+    GBookmarkFileP.set_icon(this.ptr, uri', href', mime_type')

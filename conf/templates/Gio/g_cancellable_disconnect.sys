@@ -1,2 +1,0 @@
-  fun disconnect(cancellable': GCancellable, handler_id': U64): None =>
-    @g_cancellable_disconnect(cancellable', handler_id')

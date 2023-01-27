@@ -1,1 +1,0 @@
-use @gtk_entry_get_icon_at_pos[I32](entry': GtkEntry, x': I32, y': I32)

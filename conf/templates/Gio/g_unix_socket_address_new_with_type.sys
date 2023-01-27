@@ -1,2 +1,0 @@
-  fun new_with_type(path': String, path_len': I32, type': U32): GSocketAddress =>
-    @g_unix_socket_address_new_with_type(path'.cstring(), path_len', type')

@@ -1,2 +1,0 @@
-  fun get_current_object(builder': GtkBuilderI): Pointer[GObjectP] =>
-@gtk_builder_get_current_object(builder'.getptr())

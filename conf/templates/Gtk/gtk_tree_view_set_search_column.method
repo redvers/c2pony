@@ -1,2 +1,0 @@
-  fun ref set_search_column(column': I32): None =>
-    GtkTreeViewP.set_search_column(this, column')

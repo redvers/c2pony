@@ -1,2 +1,2 @@
-  fun continue(timer': GTimer): None =>
+  fun continue(timer': NullablePointer[GTimerT]): None =>
     @g_timer_continue(timer')

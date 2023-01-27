@@ -1,2 +1,2 @@
   fun ref get_buffered(): I32 =>
-    GIOChannelP.get_buffered(this)
+    GIOChannelP.get_buffered(this.ptr)

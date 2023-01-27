@@ -1,1 +1,0 @@
-use @g_dbus_connection_signal_unsubscribe[None](connection': GDBusConnection, subscription_id': U32)

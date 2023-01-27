@@ -1,1 +1,1 @@
-use @g_variant_get_maybe[GVariant](value': GVariant)
+use @g_variant_get_maybe[NullablePointer[GVariantT]](value': NullablePointer[GVariantT])

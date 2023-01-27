@@ -1,2 +1,0 @@
-  fun get_accessible_role(widget_class': GtkWidgetClass): U32 =>
-    @gtk_widget_class_get_accessible_role(widget_class')

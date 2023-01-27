@@ -1,2 +1,2 @@
-  fun modify_unix_fd(source': GSource, tag': Pointer[None] tag, new_events': U32): None =>
+  fun modify_unix_fd(source': NullablePointer[GSourceT], tag': Pointer[None] tag, new_events': U32): None =>
     @g_source_modify_unix_fd(source', tag', new_events')

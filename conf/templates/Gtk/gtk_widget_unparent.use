@@ -1,1 +1,0 @@
-use @gtk_widget_unparent[None](widget': Pointer[GObjectP])

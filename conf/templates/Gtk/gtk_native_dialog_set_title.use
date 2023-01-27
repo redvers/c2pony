@@ -1,1 +1,0 @@
-use @gtk_native_dialog_set_title[None](self': GtkNativeDialog, title': Pointer[U8] tag)

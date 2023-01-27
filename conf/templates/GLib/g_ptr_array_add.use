@@ -1,1 +1,1 @@
-use @g_ptr_array_add[None](array': GPtrArray, data': Pointer[None] tag)
+use @g_ptr_array_add[None](array': NullablePointer[GPtrArrayT], data': Pointer[None] tag)

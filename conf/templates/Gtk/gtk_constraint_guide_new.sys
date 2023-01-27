@@ -1,2 +1,0 @@
-  fun new(): GtkConstraintGuide =>
-    @gtk_constraint_guide_new()

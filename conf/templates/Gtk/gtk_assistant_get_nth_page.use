@@ -1,1 +1,0 @@
-use @gtk_assistant_get_nth_page[Pointer[GObjectP]](assistant': GtkAssistant, page_num': I32)

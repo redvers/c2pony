@@ -1,1 +1,1 @@
-use @g_tree_ref[GTree](tree': GTree)
+use @g_tree_ref[NullablePointer[GTreeT]](tree': NullablePointer[GTreeT])

@@ -1,2 +1,2 @@
   fun ref has_item(uri': String): I32 =>
-    GBookmarkFileP.has_item(this, uri')
+    GBookmarkFileP.has_item(this.ptr, uri')

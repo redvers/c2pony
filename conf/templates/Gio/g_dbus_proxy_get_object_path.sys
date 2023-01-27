@@ -1,2 +1,0 @@
-  fun get_object_path(proxy': GDBusProxy): String iso^ =>
-    String.from_cstring(@g_dbus_proxy_get_object_path(proxy')).clone()

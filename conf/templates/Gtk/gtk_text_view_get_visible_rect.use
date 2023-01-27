@@ -1,1 +1,0 @@
-use @gtk_text_view_get_visible_rect[None](text_view': GtkTextView, visible_rect': cairorectangleint)

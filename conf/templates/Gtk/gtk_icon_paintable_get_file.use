@@ -1,1 +1,0 @@
-use @gtk_icon_paintable_get_file[GFile](self': GtkIconPaintable)

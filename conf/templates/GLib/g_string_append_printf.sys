@@ -1,2 +1,2 @@
-  fun append_printf(string': GString, format': String, ...): None =>
+  fun append_printf(string': NullablePointer[GStringT], format': String, ...): None =>
     @g_string_append_printf(string', format'.cstring(), ...)

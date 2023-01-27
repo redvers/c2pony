@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GValueArrayP.free(this)
+    GValueArrayP.free(this.ptr)

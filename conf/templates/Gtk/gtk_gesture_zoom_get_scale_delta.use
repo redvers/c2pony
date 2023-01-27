@@ -1,1 +1,0 @@
-use @gtk_gesture_zoom_get_scale_delta[F64](gesture': GtkGestureZoom)

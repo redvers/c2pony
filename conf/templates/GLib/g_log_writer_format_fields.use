@@ -1,1 +1,1 @@
-use @g_log_writer_format_fields[Pointer[U8]](log_level': I32, fields': GLogField, n_fields': U64, use_color': I32)
+use @g_log_writer_format_fields[Pointer[U8]](log_level': I32, fields': NullablePointer[GLogFieldT], n_fields': U64, use_color': I32)

@@ -1,2 +1,0 @@
-  fun set_activate_on_single_click(box': GtkFlowBox, single': I32): None =>
-    @gtk_flow_box_set_activate_on_single_click(box', single')

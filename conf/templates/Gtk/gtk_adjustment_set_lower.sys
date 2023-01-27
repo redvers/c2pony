@@ -1,2 +1,0 @@
-  fun set_lower(adjustment': GtkAdjustment, lower': F64): None =>
-    @gtk_adjustment_set_lower(adjustment', lower')

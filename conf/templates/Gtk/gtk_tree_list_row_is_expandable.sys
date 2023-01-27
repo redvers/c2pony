@@ -1,2 +1,0 @@
-  fun is_expandable(self': GtkTreeListRow): I32 =>
-    @gtk_tree_list_row_is_expandable(self')

@@ -1,2 +1,0 @@
-  fun set_baseline_row(grid': GtkGrid, row': I32): None =>
-    @gtk_grid_set_baseline_row(grid', row')

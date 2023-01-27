@@ -1,1 +1,0 @@
-use @g_io_extension_point_implement[GIOExtension](extension_point_name': Pointer[U8] tag, type': U64, extension_name': Pointer[U8] tag, priority': I32)

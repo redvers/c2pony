@@ -1,1 +1,1 @@
-use @g_byte_array_new[GByteArray]()
+use @g_byte_array_new[NullablePointer[GByteArrayT]]()

@@ -1,2 +1,0 @@
-  fun ref add_shortcut(shortcut': GtkShortcut): None =>
-    GtkShortcutControllerP.add_shortcut(this, shortcut')

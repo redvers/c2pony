@@ -1,2 +1,0 @@
-  fun new(flags': U32): GIOModuleScope =>
-    @g_io_module_scope_new(flags')

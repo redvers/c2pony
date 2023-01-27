@@ -1,1 +1,0 @@
-use @gtk_widget_observe_controllers[GListModel](widget': Pointer[GObjectP])

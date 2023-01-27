@@ -1,2 +1,2 @@
-  fun add_value(builder': GVariantBuilder, value': GVariant): None =>
+  fun add_value(builder': NullablePointer[GVariantBuilderT], value': NullablePointer[GVariantT]): None =>
     @g_variant_builder_add_value(builder', value')

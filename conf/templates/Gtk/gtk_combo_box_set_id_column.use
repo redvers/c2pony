@@ -1,1 +1,0 @@
-use @gtk_combo_box_set_id_column[None](combo_box': GtkComboBox, id_column': I32)

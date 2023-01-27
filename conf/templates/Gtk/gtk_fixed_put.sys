@@ -1,2 +1,0 @@
-  fun put(fixed': GtkFixed, widget': GtkWidgetI, x': F64, y': F64): None =>
-    @gtk_fixed_put(fixed', widget'.getptr(), x', y')

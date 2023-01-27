@@ -1,2 +1,0 @@
-  fun ref source_new(): GSource =>
-    GCancellableP.source_new(this)

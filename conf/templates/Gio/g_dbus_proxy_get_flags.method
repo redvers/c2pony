@@ -1,2 +1,0 @@
-  fun ref get_flags(): U32 =>
-    GDBusProxyP.get_flags(this)

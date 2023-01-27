@@ -1,1 +1,1 @@
-use @g_tree_new_with_data[GTree](key_compare_func': GCompareDataFunc, key_compare_data': Pointer[None] tag)
+use @g_tree_new_with_data[NullablePointer[GTreeT]](key_compare_func': GCompareDataFunc, key_compare_data': Pointer[None] tag)

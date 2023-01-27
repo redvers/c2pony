@@ -1,2 +1,0 @@
-  fun ref list_mnemonic_labels(): GList =>
-    GtkWidgetP.list_mnemonic_labels(this)

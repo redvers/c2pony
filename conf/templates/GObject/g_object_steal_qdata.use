@@ -1,1 +1,1 @@
-use @g_object_steal_qdata[Pointer[None] tag](object': Pointer[GObjectP], quark': U32)
+use @g_object_steal_qdata[Pointer[None] tag](object': NullablePointer[GObjectT], quark': U32)

@@ -1,2 +1,2 @@
-  fun get_begin_iter(seq': GSequence): GSequenceNode =>
+  fun get_begin_iter(seq': NullablePointer[GSequenceT]): NullablePointer[GSequenceNodeT] =>
     @g_sequence_get_begin_iter(seq')

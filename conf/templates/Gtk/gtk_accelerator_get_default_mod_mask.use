@@ -1,1 +1,0 @@
-use @gtk_accelerator_get_default_mod_mask[U32]()

@@ -1,2 +1,2 @@
-  fun init(cond': GCond): None =>
+  fun init(cond': NullablePointer[GCondT]): None =>
     @g_cond_init(cond')

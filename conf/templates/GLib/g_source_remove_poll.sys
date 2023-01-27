@@ -1,2 +1,2 @@
-  fun remove_poll(source': GSource, fd': GPollFD): None =>
+  fun remove_poll(source': NullablePointer[GSourceT], fd': NullablePointer[GPollFDT]): None =>
     @g_source_remove_poll(source', fd')

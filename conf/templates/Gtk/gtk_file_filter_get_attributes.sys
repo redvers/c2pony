@@ -1,2 +1,0 @@
-  fun get_attributes(filter': GtkFileFilter): Pointer[Pointer[U8]] tag =>
-    @gtk_file_filter_get_attributes(filter')

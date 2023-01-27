@@ -1,2 +1,0 @@
-  fun ref get_digits(): I32 =>
-    GtkScaleP.get_digits(this)

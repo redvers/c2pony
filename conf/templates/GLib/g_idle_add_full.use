@@ -1,1 +1,1 @@
-use @g_idle_add_full[U32](priority': I32, function': GSourceFunc, data': Pointer[None] tag, notify': GDestroyNotify)
+use @g_idle_add_full[U32](priority': I32, function': GSourceFunc, data': Pointer[None] tag, notify': Pointer[None])

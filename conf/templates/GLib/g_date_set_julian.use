@@ -1,1 +1,1 @@
-use @g_date_set_julian[None](date': GDate, julian_date': U32)
+use @g_date_set_julian[None](date': NullablePointer[GDateT], julian_date': U32)

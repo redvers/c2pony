@@ -1,2 +1,0 @@
-  fun ref set_icon_sensitive(icon_pos': U32, sensitive': I32): None =>
-    GtkEntryP.set_icon_sensitive(this, icon_pos', sensitive')

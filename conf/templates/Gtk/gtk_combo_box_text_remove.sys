@@ -1,2 +1,0 @@
-  fun remove(combo_box': GtkComboBoxText, position': I32): None =>
-    @gtk_combo_box_text_remove(combo_box', position')

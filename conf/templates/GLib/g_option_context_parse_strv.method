@@ -1,2 +1,2 @@
-  fun ref parse_strv(arguments': Pointer[Pointer[Pointer[U8]]] tag, error': GError): I32 =>
-    GOptionContextP.parse_strv(this, arguments', error')
+  fun ref parse_strv(arguments': Pointer[Pointer[Pointer[U8]]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    GOptionContextP.parse_strv(this.ptr, arguments', error')

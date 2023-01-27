@@ -1,2 +1,2 @@
-  fun set_added_date_time(bookmark': GBookmarkFile, uri': String, added': GDateTime): None =>
+  fun set_added_date_time(bookmark': NullablePointer[GBookmarkFileT], uri': String, added': NullablePointer[GDateTimeT]): None =>
     @g_bookmark_file_set_added_date_time(bookmark', uri'.cstring(), added')

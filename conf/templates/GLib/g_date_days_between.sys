@@ -1,2 +1,2 @@
-  fun days_between(date1': GDate, date2': GDate): I32 =>
+  fun days_between(date1': NullablePointer[GDateT], date2': NullablePointer[GDateT]): I32 =>
     @g_date_days_between(date1', date2')

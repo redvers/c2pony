@@ -1,2 +1,0 @@
-  fun ref contains(x': F64, y': F64): I32 =>
-    GtkWidgetP.contains(this, x', y')

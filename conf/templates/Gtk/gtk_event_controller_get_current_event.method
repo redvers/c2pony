@@ -1,2 +1,0 @@
-  fun ref get_current_event(): GdkEvent =>
-    GtkEventControllerP.get_current_event(this)

@@ -1,1 +1,1 @@
-use @g_sequence_get_iter_at_pos[GSequenceNode](seq': GSequence, pos': I32)
+use @g_sequence_get_iter_at_pos[NullablePointer[GSequenceNodeT]](seq': NullablePointer[GSequenceT], pos': I32)

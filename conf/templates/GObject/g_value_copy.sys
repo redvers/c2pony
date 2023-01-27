@@ -1,2 +1,2 @@
-  fun copy(src_value': GValue, dest_value': GValue): None =>
+  fun copy(src_value': NullablePointer[GValueT], dest_value': NullablePointer[GValueT]): None =>
     @g_value_copy(src_value', dest_value')

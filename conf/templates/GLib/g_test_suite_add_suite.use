@@ -1,1 +1,1 @@
-use @g_test_suite_add_suite[None](suite': GTestSuite, nestedsuite': GTestSuite)
+use @g_test_suite_add_suite[None](suite': NullablePointer[GTestSuiteT], nestedsuite': NullablePointer[GTestSuiteT])

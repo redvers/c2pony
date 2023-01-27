@@ -1,2 +1,0 @@
-  fun ref get_focus(): Pointer[GObjectP] =>
-    GtkWindowP.get_focus(this)

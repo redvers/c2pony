@@ -1,1 +1,0 @@
-use @gtk_column_view_set_show_row_separators[None](self': GtkColumnView, show_row_separators': I32)

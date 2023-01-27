@@ -1,2 +1,0 @@
-  fun ref set_buffer_size(size': U64): None =>
-    GBufferedOutputStreamP.set_buffer_size(this, size')

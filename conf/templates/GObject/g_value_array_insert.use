@@ -1,1 +1,1 @@
-use @g_value_array_insert[GValueArray](value_array': GValueArray, index': U32, value': GValue)
+use @g_value_array_insert[NullablePointer[GValueArrayT]](value_array': NullablePointer[GValueArrayT], index': U32, value': NullablePointer[GValueT])

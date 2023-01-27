@@ -1,2 +1,0 @@
-  fun get_title(font_button': GtkFontButton): String iso^ =>
-    String.from_cstring(@gtk_font_button_get_title(font_button')).clone()

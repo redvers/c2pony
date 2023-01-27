@@ -1,2 +1,0 @@
-  fun ref set_title_widget(title_widget': GtkWidgetI): None =>
-    GtkHeaderBarP.set_title_widget(this, title_widget')

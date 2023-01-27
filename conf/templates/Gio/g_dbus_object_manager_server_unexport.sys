@@ -1,2 +1,0 @@
-  fun unexport(manager': GDBusObjectManagerServer, object_path': String): I32 =>
-    @g_dbus_object_manager_server_unexport(manager', object_path'.cstring())

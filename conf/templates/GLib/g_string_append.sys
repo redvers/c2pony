@@ -1,2 +1,2 @@
-  fun append(string': GString, val': String): GString =>
+  fun append(string': NullablePointer[GStringT], val': String): NullablePointer[GStringT] =>
     @g_string_append(string', val'.cstring())

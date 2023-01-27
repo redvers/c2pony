@@ -1,2 +1,0 @@
-  fun get_scope(builder': GtkBuilderI): GtkBuilderScope =>
-    @gtk_builder_get_scope(builder'.getptr())

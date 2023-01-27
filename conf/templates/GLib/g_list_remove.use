@@ -1,1 +1,1 @@
-use @g_list_remove[GList](list': GList, data': Pointer[None] tag)
+use @g_list_remove[NullablePointer[GListT]](list': NullablePointer[GListT], data': Pointer[None] tag)

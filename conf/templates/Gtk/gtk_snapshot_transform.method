@@ -1,2 +1,0 @@
-  fun ref transform(transform': GskTransform): None =>
-    P.transform(this, transform')

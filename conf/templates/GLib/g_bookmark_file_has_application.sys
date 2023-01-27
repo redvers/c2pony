@@ -1,2 +1,2 @@
-  fun has_application(bookmark': GBookmarkFile, uri': String, name': String, error': GError): I32 =>
-    @g_bookmark_file_has_application(bookmark', uri'.cstring(), name'.cstring(), addressof error'.ptr)
+  fun has_application(bookmark': NullablePointer[GBookmarkFileT], uri': String, name': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_bookmark_file_has_application(bookmark', uri'.cstring(), name'.cstring(), error')

@@ -1,2 +1,2 @@
-  fun new_from_timeval_local(tv': GTimeVal): GDateTime =>
-    @g_date_time_new_from_timeval_local(tv')
+  new new_from_timeval_local(tv': NullablePointer[GTimeValT]) =>
+    ptr = @g_date_time_new_from_timeval_local(tv')

@@ -1,2 +1,0 @@
-  fun ref clear_pending(): None =>
-    GOutputStreamP.clear_pending(this)

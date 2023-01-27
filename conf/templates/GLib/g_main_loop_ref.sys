@@ -1,2 +1,2 @@
-  fun ref(loop': GMainLoop): GMainLoop =>
+  fun ref(loop': NullablePointer[GMainLoopT]): NullablePointer[GMainLoopT] =>
     @g_main_loop_ref(loop')

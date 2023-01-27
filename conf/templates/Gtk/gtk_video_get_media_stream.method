@@ -1,2 +1,0 @@
-  fun ref get_media_stream(): GtkMediaStream =>
-    GtkVideoP.get_media_stream(this)

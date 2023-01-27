@@ -1,2 +1,0 @@
-  fun ref getenv(name': String): String iso^ =>
-    GApplicationCommandLineP.getenv(this, name')

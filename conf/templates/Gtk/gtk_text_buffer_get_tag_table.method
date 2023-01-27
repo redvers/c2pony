@@ -1,2 +1,0 @@
-  fun ref get_tag_table(): GtkTextTagTable =>
-    GtkTextBufferP.get_tag_table(this)

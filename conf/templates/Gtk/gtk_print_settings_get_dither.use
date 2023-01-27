@@ -1,1 +1,0 @@
-use @gtk_print_settings_get_dither[Pointer[U8]](settings': GtkPrintSettings)

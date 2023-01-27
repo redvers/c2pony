@@ -1,2 +1,0 @@
-  fun ref set_current_page(current_page': I32): None =>
-    GtkPrintOperationP.set_current_page(this, current_page')

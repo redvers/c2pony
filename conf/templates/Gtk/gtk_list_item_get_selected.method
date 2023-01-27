@@ -1,2 +1,0 @@
-  fun ref get_selected(): I32 =>
-    GtkListItemP.get_selected(this)

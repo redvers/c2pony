@@ -1,2 +1,2 @@
-  fun depth(node': GNode): U32 =>
+  fun depth(node': NullablePointer[GNodeT]): U32 =>
     @g_node_depth(node')

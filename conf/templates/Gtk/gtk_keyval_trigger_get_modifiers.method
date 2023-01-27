@@ -1,2 +1,0 @@
-  fun ref get_modifiers(): U32 =>
-    GtkKeyvalTriggerP.get_modifiers(this)

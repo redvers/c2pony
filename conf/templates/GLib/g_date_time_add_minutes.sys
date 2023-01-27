@@ -1,2 +1,2 @@
-  fun add_minutes(datetime': GDateTime, minutes': I32): GDateTime =>
+  fun add_minutes(datetime': NullablePointer[GDateTimeT], minutes': I32): NullablePointer[GDateTimeT] =>
     @g_date_time_add_minutes(datetime', minutes')

@@ -1,2 +1,0 @@
-  fun ref get_domain(): String iso^ =>
-    GNetworkServiceP.get_domain(this)

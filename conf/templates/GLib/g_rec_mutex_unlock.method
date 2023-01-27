@@ -1,2 +1,2 @@
   fun ref unlock(): None =>
-    GRecMutexP.unlock(this)
+    GRecMutexP.unlock(this.ptr)

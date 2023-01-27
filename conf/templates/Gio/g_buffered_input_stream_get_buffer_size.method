@@ -1,2 +1,0 @@
-  fun ref get_buffer_size(): U64 =>
-    GBufferedInputStreamP.get_buffer_size(this)

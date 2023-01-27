@@ -1,1 +1,0 @@
-use @gtk_app_chooser_dialog_set_heading[None](self': GtkAppChooserDialog, heading': Pointer[U8] tag)

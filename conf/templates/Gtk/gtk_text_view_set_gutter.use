@@ -1,1 +1,0 @@
-use @gtk_text_view_set_gutter[None](text_view': GtkTextView, win': U32, widget': Pointer[GObjectP])

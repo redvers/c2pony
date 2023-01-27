@@ -1,1 +1,1 @@
-use @g_array_set_size[GArray](array': GArray, length': U32)
+use @g_array_set_size[NullablePointer[GArrayT]](array': NullablePointer[GArrayT], length': U32)

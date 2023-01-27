@@ -1,2 +1,0 @@
-  fun new_from_string(string': String, length': I64): Pointer[GObjectP] =>
-@gtk_builder_new_from_string(string'.cstring(), length')

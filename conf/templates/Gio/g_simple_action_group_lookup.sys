@@ -1,2 +1,0 @@
-  fun lookup(simple': GSimpleActionGroup, action_name': String): GAction =>
-    @g_simple_action_group_lookup(simple', action_name'.cstring())

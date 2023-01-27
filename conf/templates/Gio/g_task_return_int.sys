@@ -1,2 +1,0 @@
-  fun return_int(task': GTask, result': I64): None =>
-    @g_task_return_int(task', result')

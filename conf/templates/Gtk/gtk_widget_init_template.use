@@ -1,1 +1,0 @@
-use @gtk_widget_init_template[None](widget': Pointer[GObjectP])

@@ -1,1 +1,0 @@
-use @gtk_menu_button_set_child[None](menu_button': GtkMenuButton, child': Pointer[GObjectP])

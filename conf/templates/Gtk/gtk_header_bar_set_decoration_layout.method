@@ -1,2 +1,0 @@
-  fun ref set_decoration_layout(layout': String): None =>
-    GtkHeaderBarP.set_decoration_layout(this, layout')

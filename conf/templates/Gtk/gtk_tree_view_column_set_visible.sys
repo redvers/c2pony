@@ -1,2 +1,0 @@
-  fun set_visible(tree_column': GtkTreeViewColumn, visible': I32): None =>
-    @gtk_tree_view_column_set_visible(tree_column', visible')

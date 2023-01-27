@@ -1,2 +1,2 @@
-  fun new_full(key_compare_func': GCompareDataFunc, key_compare_data': Pointer[None] tag, key_destroy_func': GDestroyNotify, value_destroy_func': GDestroyNotify): GTree =>
+  fun new_full(key_compare_func': GCompareDataFunc, key_compare_data': Pointer[None] tag, key_destroy_func': Pointer[None], value_destroy_func': Pointer[None]): NullablePointer[GTreeT] =>
     @g_tree_new_full(key_compare_func', key_compare_data', key_destroy_func', value_destroy_func')

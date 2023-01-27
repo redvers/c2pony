@@ -1,2 +1,0 @@
-  fun ref get_selected(): U32 =>
-    GtkSingleSelectionP.get_selected(this)

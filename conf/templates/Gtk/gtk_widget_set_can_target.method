@@ -1,2 +1,0 @@
-  fun ref set_can_target(can_target': I32): None =>
-    GtkWidgetP.set_can_target(this, can_target')

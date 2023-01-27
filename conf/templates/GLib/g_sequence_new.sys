@@ -1,2 +1,2 @@
-  fun new(data_destroy': GDestroyNotify): GSequence =>
+  fun new(data_destroy': Pointer[None]): NullablePointer[GSequenceT] =>
     @g_sequence_new(data_destroy')

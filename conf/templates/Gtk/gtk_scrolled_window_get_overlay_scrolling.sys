@@ -1,2 +1,0 @@
-  fun get_overlay_scrolling(scrolled_window': GtkScrolledWindow): I32 =>
-    @gtk_scrolled_window_get_overlay_scrolling(scrolled_window')

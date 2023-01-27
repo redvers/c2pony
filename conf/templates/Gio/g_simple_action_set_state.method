@@ -1,2 +1,0 @@
-  fun ref set_state(value': GVariant): None =>
-    GSimpleActionP.set_state(this, value')

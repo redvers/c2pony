@@ -1,1 +1,1 @@
-use @g_list_reverse[GList](list': GList)
+use @g_list_reverse[NullablePointer[GListT]](list': NullablePointer[GListT])

@@ -1,2 +1,0 @@
-  fun ref ref(): GtkBitset =>
-    GtkBitsetP.ref(this)

@@ -1,1 +1,1 @@
-use @g_hash_table_new_full[GHashTable](hash_func': GHashFunc, key_equal_func': GEqualFunc, key_destroy_func': GDestroyNotify, value_destroy_func': GDestroyNotify)
+use @g_hash_table_new_full[NullablePointer[GHashTableT]](hash_func': GHashFunc, key_equal_func': GEqualFunc, key_destroy_func': Pointer[None], value_destroy_func': Pointer[None])

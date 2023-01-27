@@ -1,2 +1,0 @@
-  fun ref set_menu_label_text(child': GtkWidgetI, menu_text': String): None =>
-    GtkNotebookP.set_menu_label_text(this, child', menu_text')

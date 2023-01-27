@@ -1,1 +1,1 @@
-use @g_closure_new_object[GClosure](sizeof_closure': U32, object': Pointer[GObjectP])
+use @g_closure_new_object[NullablePointer[GClosureT]](sizeof_closure': U32, object': NullablePointer[GObjectT])

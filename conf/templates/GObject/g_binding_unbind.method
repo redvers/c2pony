@@ -1,2 +1,2 @@
   fun ref unbind(): None =>
-    GBindingP.unbind(this)
+    GBindingP.unbind(this.ptr)

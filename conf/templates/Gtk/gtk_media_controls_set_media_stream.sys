@@ -1,2 +1,0 @@
-  fun set_media_stream(controls': GtkMediaControls, stream': GtkMediaStream): None =>
-    @gtk_media_controls_set_media_stream(controls', stream')

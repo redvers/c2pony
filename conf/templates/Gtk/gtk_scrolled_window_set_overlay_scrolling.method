@@ -1,2 +1,0 @@
-  fun ref set_overlay_scrolling(overlay_scrolling': I32): None =>
-    GtkScrolledWindowP.set_overlay_scrolling(this, overlay_scrolling')

@@ -1,1 +1,0 @@
-use @gtk_overlay_get_child[Pointer[GObjectP]](overlay': GtkOverlay)

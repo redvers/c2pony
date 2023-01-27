@@ -1,1 +1,0 @@
-use @g_bus_watch_name_on_connection_with_closures[U32](connection': GDBusConnection, name': Pointer[U8] tag, flags': U32, name_appeared_closure': GClosure, name_vanished_closure': GClosure)

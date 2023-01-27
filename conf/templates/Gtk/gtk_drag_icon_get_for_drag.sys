@@ -1,2 +1,0 @@
-  fun get_for_drag(drag': GdkDrag): Pointer[GObjectP] =>
-@gtk_drag_icon_get_for_drag(drag')

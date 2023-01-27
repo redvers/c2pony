@@ -1,2 +1,0 @@
-  fun ref get_connections(): GList =>
-    GDBusInterfaceSkeletonP.get_connections(this)

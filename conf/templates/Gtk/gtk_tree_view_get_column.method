@@ -1,2 +1,0 @@
-  fun ref get_column(n': I32): GtkTreeViewColumn =>
-    GtkTreeViewP.get_column(this, n')

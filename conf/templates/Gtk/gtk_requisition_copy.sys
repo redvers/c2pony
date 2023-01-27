@@ -1,2 +1,0 @@
-  fun copy(requisition': GtkRequisition): GtkRequisition =>
-    @gtk_requisition_copy(requisition')

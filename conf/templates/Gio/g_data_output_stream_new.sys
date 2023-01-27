@@ -1,2 +1,0 @@
-  fun new(base_stream': GOutputStream): GDataOutputStream =>
-    @g_data_output_stream_new(base_stream')

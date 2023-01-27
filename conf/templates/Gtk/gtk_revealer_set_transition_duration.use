@@ -1,1 +1,0 @@
-use @gtk_revealer_set_transition_duration[None](revealer': GtkRevealer, duration': U32)

@@ -1,2 +1,2 @@
-  fun get_user_data(context': GMarkupParseContext): Pointer[None] tag =>
+  fun get_user_data(context': NullablePointer[GMarkupParseContextT]): Pointer[None] tag =>
     @g_markup_parse_context_get_user_data(context')

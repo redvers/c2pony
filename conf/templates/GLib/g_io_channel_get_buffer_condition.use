@@ -1,1 +1,1 @@
-use @g_io_channel_get_buffer_condition[U32](channel': GIOChannel)
+use @g_io_channel_get_buffer_condition[U32](channel': NullablePointer[GIOChannelT])

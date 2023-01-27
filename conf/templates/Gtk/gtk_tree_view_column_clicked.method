@@ -1,2 +1,0 @@
-  fun ref clicked(): None =>
-    GtkTreeViewColumnP.clicked(this)

@@ -1,2 +1,0 @@
-  fun to_string(section': GtkCssSection): String iso^ =>
-    String.from_cstring(@gtk_css_section_to_string(section')).clone()

@@ -1,2 +1,0 @@
-  fun get_selected_item(self': GtkDropDown): Pointer[None] tag =>
-    @gtk_drop_down_get_selected_item(self')

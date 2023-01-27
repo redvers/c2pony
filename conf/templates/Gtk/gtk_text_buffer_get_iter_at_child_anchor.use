@@ -1,1 +1,0 @@
-use @gtk_text_buffer_get_iter_at_child_anchor[None](buffer': GtkTextBuffer, iter': GtkTextIter, anchor': GtkTextChildAnchor)

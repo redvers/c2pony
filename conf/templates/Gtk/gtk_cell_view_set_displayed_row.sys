@@ -1,2 +1,0 @@
-  fun set_displayed_row(cell_view': GtkCellView, path': GtkTreePath): None =>
-    @gtk_cell_view_set_displayed_row(cell_view', path')

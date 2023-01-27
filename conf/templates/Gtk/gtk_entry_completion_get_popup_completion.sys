@@ -1,2 +1,0 @@
-  fun get_popup_completion(completion': GtkEntryCompletion): I32 =>
-    @gtk_entry_completion_get_popup_completion(completion')

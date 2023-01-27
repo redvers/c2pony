@@ -1,2 +1,0 @@
-  fun ref get_popup_completion(): I32 =>
-    GtkEntryCompletionP.get_popup_completion(this)

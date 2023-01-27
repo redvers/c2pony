@@ -1,2 +1,0 @@
-  fun ref insert_with_valuesv(iter': GtkTreeIter, position': I32, columns': Pointer[I32] tag, values': GValue, n_values': I32): None =>
-    GtkListStoreP.insert_with_valuesv(this, iter', position', columns', values', n_values')

@@ -1,1 +1,1 @@
-use @g_date_set_day[None](date': GDate, day': U8)
+use @g_date_set_day[None](date': NullablePointer[GDateT], day': U8)

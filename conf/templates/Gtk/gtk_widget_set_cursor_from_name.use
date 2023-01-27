@@ -1,1 +1,0 @@
-use @gtk_widget_set_cursor_from_name[None](widget': Pointer[GObjectP], name': Pointer[U8] tag)

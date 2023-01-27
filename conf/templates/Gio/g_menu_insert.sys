@@ -1,2 +1,0 @@
-  fun insert(menu': GMenu, position': I32, label': String, detailed_action': String): None =>
-    @g_menu_insert(menu', position', label'.cstring(), detailed_action'.cstring())

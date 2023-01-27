@@ -1,2 +1,0 @@
-  fun ref get_parameters(): GVariant =>
-    GDBusMethodInvocationP.get_parameters(this)

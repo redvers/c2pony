@@ -4,7 +4,7 @@
 <xsl:strip-space elements="*"/>
 <xsl:param name="namespace"/>
 
-<xsl:template match="/main/rs/ns[@namespace=$namespace]/renderstruct[@render='1']">
+<xsl:template match="(/main/rs/ns[@namespace=$namespace]/renderstruct[@render='1']|/main/rs/ns[@namespace=$namespace]/renderclass[@render='1']|/main/rs/ns[@namespace=$namespace]/renderinterface[@render='1'])">
 <xsl:variable name="t" select="."/>
 <xsl:result-document href="../templates/{$namespace}/{$t/@name}T.struct" method="text">
 <xsl:value-of select="/main/rs/ns[@namespace=$namespace]/ponydep"/>

@@ -1,1 +1,0 @@
-use @gtk_scale_button_set_value[None](button': GtkScaleButton, value': F64)

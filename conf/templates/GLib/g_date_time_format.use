@@ -1,1 +1,1 @@
-use @g_date_time_format[Pointer[U8]](datetime': GDateTime, format': Pointer[U8] tag)
+use @g_date_time_format[Pointer[U8]](datetime': NullablePointer[GDateTimeT], format': Pointer[U8] tag)

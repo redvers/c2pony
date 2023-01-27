@@ -1,2 +1,0 @@
-  fun ref is_closed(): I32 =>
-    GInputStreamP.is_closed(this)

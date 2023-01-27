@@ -1,2 +1,0 @@
-  fun set_input_purpose(text_view': GtkTextView, purpose': U32): None =>
-    @gtk_text_view_set_input_purpose(text_view', purpose')

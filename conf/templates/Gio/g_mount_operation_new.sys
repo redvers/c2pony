@@ -1,2 +1,0 @@
-  fun new(): GMountOperation =>
-    @g_mount_operation_new()

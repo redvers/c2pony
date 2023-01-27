@@ -1,1 +1,0 @@
-use @gtk_toggle_button_toggled[None](toggle_button': GtkToggleButton)

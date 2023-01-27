@@ -1,2 +1,0 @@
-  fun has_icon(self': GtkIconTheme, icon_name': String): I32 =>
-    @gtk_icon_theme_has_icon(self', icon_name'.cstring())

@@ -1,1 +1,1 @@
-use @g_node_copy[GNode](node': GNode)
+use @g_node_copy[NullablePointer[GNodeT]](node': NullablePointer[GNodeT])

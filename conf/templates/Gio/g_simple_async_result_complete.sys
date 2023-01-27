@@ -1,2 +1,0 @@
-  fun complete(simple': GSimpleAsyncResult): None =>
-    @g_simple_async_result_complete(simple')

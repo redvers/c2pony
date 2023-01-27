@@ -1,2 +1,2 @@
-  fun get_keys_as_array(hash_table': GHashTable, length': Pointer[U32] tag): Pointer[Pointer[None]] tag =>
+  fun get_keys_as_array(hash_table': NullablePointer[GHashTableT], length': Pointer[U32] tag): Pointer[Pointer[None]] tag =>
     @g_hash_table_get_keys_as_array(hash_table', length')

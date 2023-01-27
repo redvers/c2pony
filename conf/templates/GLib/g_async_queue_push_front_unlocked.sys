@@ -1,2 +1,2 @@
-  fun push_front_unlocked(queue': GAsyncQueue, item': Pointer[None] tag): None =>
+  fun push_front_unlocked(queue': NullablePointer[GAsyncQueueT], item': Pointer[None] tag): None =>
     @g_async_queue_push_front_unlocked(queue', item')

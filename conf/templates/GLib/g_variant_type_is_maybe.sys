@@ -1,2 +1,2 @@
-  fun is_maybe(type': GVariantType): I32 =>
+  fun is_maybe(type': NullablePointer[GVariantTypeT]): I32 =>
     @g_variant_type_is_maybe(type')

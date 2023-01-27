@@ -1,2 +1,2 @@
-  fun ref add_entries(entries': GOptionEntry): None =>
-    GOptionGroupP.add_entries(this, entries')
+  fun ref add_entries(entries': NullablePointer[GOptionEntryT]): None =>
+    GOptionGroupP.add_entries(this.ptr, entries')

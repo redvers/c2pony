@@ -1,2 +1,0 @@
-  fun ref pack_end(child': GtkWidgetI): None =>
-    GtkActionBarP.pack_end(this, child')

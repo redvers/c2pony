@@ -1,2 +1,0 @@
-  fun ref set_edit_name(edit_name': String): None =>
-    GFileInfoP.set_edit_name(this, edit_name')

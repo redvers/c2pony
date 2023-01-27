@@ -1,1 +1,1 @@
-use @g_once_impl[Pointer[None] tag](once': GOnce, func': GThreadFunc, arg': Pointer[None] tag)
+use @g_once_impl[Pointer[None] tag](once': NullablePointer[GOnceT], func': GThreadFunc, arg': Pointer[None] tag)

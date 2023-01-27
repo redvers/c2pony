@@ -1,2 +1,2 @@
-  fun new_full(item_free_func': GDestroyNotify): GAsyncQueue =>
+  fun new_full(item_free_func': Pointer[None]): NullablePointer[GAsyncQueueT] =>
     @g_async_queue_new_full(item_free_func')

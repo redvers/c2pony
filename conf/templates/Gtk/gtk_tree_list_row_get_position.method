@@ -1,2 +1,0 @@
-  fun ref get_position(): U32 =>
-    GtkTreeListRowP.get_position(this)

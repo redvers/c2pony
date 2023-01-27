@@ -1,1 +1,1 @@
-use @g_sequence_free[None](seq': GSequence)
+use @g_sequence_free[None](seq': NullablePointer[GSequenceT])

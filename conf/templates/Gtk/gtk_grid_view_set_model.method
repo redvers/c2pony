@@ -1,2 +1,0 @@
-  fun ref set_model(model': GtkSelectionModel): None =>
-    GtkGridViewP.set_model(this, model')

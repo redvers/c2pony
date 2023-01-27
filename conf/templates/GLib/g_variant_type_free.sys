@@ -1,2 +1,2 @@
-  fun free(type': GVariantType): None =>
+  fun free(type': NullablePointer[GVariantTypeT]): None =>
     @g_variant_type_free(type')

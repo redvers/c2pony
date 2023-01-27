@@ -1,2 +1,2 @@
-  fun remove(pool': GParamSpecPool, pspec': GParamSpec): None =>
+  fun remove(pool': NullablePointer[GParamSpecPoolT], pspec': NullablePointer[GParamSpecT]): None =>
     @g_param_spec_pool_remove(pool', pspec')

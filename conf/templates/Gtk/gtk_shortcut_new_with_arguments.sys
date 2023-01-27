@@ -1,2 +1,0 @@
-  fun new_with_arguments(trigger': GtkShortcutTrigger, action': GtkShortcutAction, format_string': String, ...): GtkShortcut =>
-    @gtk_shortcut_new_with_arguments(trigger', action', format_string'.cstring(), ...)

@@ -1,1 +1,0 @@
-use @gtk_icon_view_unset_model_drag_dest[None](icon_view': GtkIconView)

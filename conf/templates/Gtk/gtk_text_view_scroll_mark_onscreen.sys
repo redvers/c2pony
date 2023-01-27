@@ -1,2 +1,0 @@
-  fun scroll_mark_onscreen(text_view': GtkTextView, mark': GtkTextMark): None =>
-    @gtk_text_view_scroll_mark_onscreen(text_view', mark')

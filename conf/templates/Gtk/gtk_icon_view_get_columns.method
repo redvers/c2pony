@@ -1,2 +1,0 @@
-  fun ref get_columns(): I32 =>
-    GtkIconViewP.get_columns(this)

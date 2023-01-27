@@ -1,2 +1,0 @@
-  fun ref set_paper_size(paper_size': GtkPaperSize): None =>
-    GtkPrintSettingsP.set_paper_size(this, paper_size')

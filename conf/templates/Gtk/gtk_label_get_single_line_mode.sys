@@ -1,2 +1,0 @@
-  fun get_single_line_mode(self': GtkLabel): I32 =>
-    @gtk_label_get_single_line_mode(self')

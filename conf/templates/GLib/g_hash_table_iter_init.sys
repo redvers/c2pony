@@ -1,2 +1,2 @@
-  fun init(iter': GHashTableIter, hash_table': GHashTable): None =>
+  fun init(iter': NullablePointer[GHashTableIterT], hash_table': NullablePointer[GHashTableT]): None =>
     @g_hash_table_iter_init(iter', hash_table')

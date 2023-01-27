@@ -1,1 +1,1 @@
-use @g_queue_peek_tail[Pointer[None] tag](queue': GQueue)
+use @g_queue_peek_tail[Pointer[None] tag](queue': NullablePointer[GQueueT])

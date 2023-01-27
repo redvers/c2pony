@@ -1,2 +1,2 @@
   fun ref free(): None =>
-    GChecksumP.free(this)
+    GChecksumP.free(this.ptr)

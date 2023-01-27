@@ -1,1 +1,0 @@
-use @gtk_window_controls_set_side[None](self': GtkWindowControls, side': U32)

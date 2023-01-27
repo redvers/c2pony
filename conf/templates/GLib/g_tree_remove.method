@@ -1,2 +1,2 @@
   fun ref remove(key': Pointer[None] tag): I32 =>
-    GTreeP.remove(this, key')
+    GTreeP.remove(this.ptr, key')

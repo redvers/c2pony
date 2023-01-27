@@ -1,2 +1,0 @@
-  fun ref register(cancellable': GCancellable, error': GError): I32 =>
-    GApplicationP.register(this, cancellable', error')

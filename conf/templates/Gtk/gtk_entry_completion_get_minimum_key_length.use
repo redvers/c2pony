@@ -1,1 +1,0 @@
-use @gtk_entry_completion_get_minimum_key_length[I32](completion': GtkEntryCompletion)

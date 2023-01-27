@@ -1,1 +1,1 @@
-use @g_child_watch_source_new[GSource](pid': I32)
+use @g_child_watch_source_new[NullablePointer[GSourceT]](pid': I32)

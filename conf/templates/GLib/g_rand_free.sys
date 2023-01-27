@@ -1,2 +1,2 @@
-  fun free(rand': GRand): None =>
+  fun free(rand': NullablePointer[GRandT]): None =>
     @g_rand_free(rand')

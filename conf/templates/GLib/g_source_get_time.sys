@@ -1,2 +1,2 @@
-  fun get_time(source': GSource): I64 =>
+  fun get_time(source': NullablePointer[GSourceT]): I64 =>
     @g_source_get_time(source')

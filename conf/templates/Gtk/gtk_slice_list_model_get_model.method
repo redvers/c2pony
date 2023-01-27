@@ -1,2 +1,0 @@
-  fun ref get_model(): GListModel =>
-    GtkSliceListModelP.get_model(this)

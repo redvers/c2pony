@@ -1,2 +1,0 @@
-  fun new(): Pointer[GObjectP] =>
-@gtk_flow_box_new()

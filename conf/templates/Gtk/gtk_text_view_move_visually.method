@@ -1,2 +1,0 @@
-  fun ref move_visually(iter': GtkTextIter, count': I32): I32 =>
-    GtkTextViewP.move_visually(this, iter', count')

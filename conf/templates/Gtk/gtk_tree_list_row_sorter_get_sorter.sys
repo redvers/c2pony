@@ -1,2 +1,0 @@
-  fun get_sorter(self': GtkTreeListRowSorter): GtkSorter =>
-    @gtk_tree_list_row_sorter_get_sorter(self')

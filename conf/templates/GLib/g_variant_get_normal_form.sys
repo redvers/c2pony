@@ -1,2 +1,2 @@
-  fun get_normal_form(value': GVariant): GVariant =>
+  fun get_normal_form(value': NullablePointer[GVariantT]): NullablePointer[GVariantT] =>
     @g_variant_get_normal_form(value')

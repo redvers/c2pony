@@ -1,2 +1,0 @@
-  fun new(label': String, detailed_action': String): GMenuItem =>
-    @g_menu_item_new(label'.cstring(), detailed_action'.cstring())

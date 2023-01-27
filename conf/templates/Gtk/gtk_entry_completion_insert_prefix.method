@@ -1,2 +1,0 @@
-  fun ref insert_prefix(): None =>
-    GtkEntryCompletionP.insert_prefix(this)

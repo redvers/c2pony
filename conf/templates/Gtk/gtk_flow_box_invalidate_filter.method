@@ -1,2 +1,0 @@
-  fun ref invalidate_filter(): None =>
-    GtkFlowBoxP.invalidate_filter(this)

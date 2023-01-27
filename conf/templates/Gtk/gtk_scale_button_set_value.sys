@@ -1,2 +1,0 @@
-  fun set_value(button': GtkScaleButton, value': F64): None =>
-    @gtk_scale_button_set_value(button', value')

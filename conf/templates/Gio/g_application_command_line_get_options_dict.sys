@@ -1,2 +1,0 @@
-  fun get_options_dict(cmdline': GApplicationCommandLine): GVariantDict =>
-    @g_application_command_line_get_options_dict(cmdline')

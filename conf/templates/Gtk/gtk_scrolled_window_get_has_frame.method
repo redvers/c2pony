@@ -1,2 +1,0 @@
-  fun ref get_has_frame(): I32 =>
-    GtkScrolledWindowP.get_has_frame(this)

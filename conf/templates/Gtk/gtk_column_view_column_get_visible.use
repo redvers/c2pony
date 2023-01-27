@@ -1,1 +1,0 @@
-use @gtk_column_view_column_get_visible[I32](self': GtkColumnViewColumn)

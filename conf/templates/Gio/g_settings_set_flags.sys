@@ -1,2 +1,0 @@
-  fun set_flags(settings': GSettings, key': String, value': U32): I32 =>
-    @g_settings_set_flags(settings', key'.cstring(), value')

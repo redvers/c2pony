@@ -1,2 +1,0 @@
-  fun set_attributes(self': GtkLabel, attrs': PangoAttrList): None =>
-    @gtk_label_set_attributes(self', attrs')

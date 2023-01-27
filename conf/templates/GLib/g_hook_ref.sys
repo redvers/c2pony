@@ -1,2 +1,2 @@
-  fun ref(hook_list': GHookList, hook': GHook): GHook =>
+  fun ref(hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT]): NullablePointer[GHookT] =>
     @g_hook_ref(hook_list', hook')

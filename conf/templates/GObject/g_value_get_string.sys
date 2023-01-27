@@ -1,2 +1,2 @@
-  fun get_string(value': GValue): String iso^ =>
+  fun get_string(value': NullablePointer[GValueT]): String iso^ =>
     String.from_cstring(@g_value_get_string(value')).clone()

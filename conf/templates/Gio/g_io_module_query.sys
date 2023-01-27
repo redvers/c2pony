@@ -1,2 +1,0 @@
-  fun query(): Pointer[Pointer[U8]] tag =>
-    @g_io_module_query()

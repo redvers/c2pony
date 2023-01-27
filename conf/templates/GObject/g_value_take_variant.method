@@ -1,2 +1,2 @@
-  fun ref take_variant(variant': GVariant): None =>
-    GValueP.take_variant(this, variant')
+  fun ref take_variant(variant': NullablePointer[GVariantT]): None =>
+    GValueP.take_variant(this.ptr, variant')

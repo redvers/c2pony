@@ -1,2 +1,0 @@
-  fun list_attributes(info': GFileInfo, name_space': String): Pointer[Pointer[U8]] tag =>
-    @g_file_info_list_attributes(info', name_space'.cstring())

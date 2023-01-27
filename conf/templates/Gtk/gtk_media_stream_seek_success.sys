@@ -1,2 +1,0 @@
-  fun seek_success(self': GtkMediaStream): None =>
-    @gtk_media_stream_seek_success(self')

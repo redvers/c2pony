@@ -1,1 +1,0 @@
-use @gtk_window_group_list_windows[GList](window_group': GtkWindowGroup)

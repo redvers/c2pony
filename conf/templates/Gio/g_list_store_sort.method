@@ -1,2 +1,0 @@
-  fun ref sort(compare_func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
-    GListStoreP.sort(this, compare_func', user_data')

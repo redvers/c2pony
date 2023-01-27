@@ -1,2 +1,0 @@
-  fun new(model': GListModel, expression': GtkExpression): Pointer[GObjectP] =>
-@gtk_drop_down_new(model', expression')

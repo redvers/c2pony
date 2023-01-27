@@ -1,2 +1,0 @@
-  fun ref get_resource_base_path(): String iso^ =>
-    GApplicationP.get_resource_base_path(this)

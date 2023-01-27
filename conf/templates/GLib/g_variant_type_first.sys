@@ -1,2 +1,2 @@
-  fun first(type': GVariantType): GVariantType =>
+  fun first(type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantTypeT] =>
     @g_variant_type_first(type')

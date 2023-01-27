@@ -1,1 +1,1 @@
-use @g_object_weak_unref[None](object': Pointer[GObjectP], notify': GWeakNotify, data': Pointer[None] tag)
+use @g_object_weak_unref[None](object': NullablePointer[GObjectT], notify': GWeakNotify, data': Pointer[None] tag)

@@ -1,2 +1,0 @@
-  fun ref set_draw_sensitive(draw_sensitive': I32): None =>
-    GtkCellViewP.set_draw_sensitive(this, draw_sensitive')

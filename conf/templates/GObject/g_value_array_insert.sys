@@ -1,2 +1,2 @@
-  fun insert(value_array': GValueArray, index': U32, value': GValue): GValueArray =>
+  fun insert(value_array': NullablePointer[GValueArrayT], index': U32, value': NullablePointer[GValueT]): NullablePointer[GValueArrayT] =>
     @g_value_array_insert(value_array', index', value')

@@ -1,2 +1,0 @@
-  fun set_overflow(widget': GtkWidgetI, overflow': U32): None =>
-    @gtk_widget_set_overflow(widget'.getptr(), overflow')

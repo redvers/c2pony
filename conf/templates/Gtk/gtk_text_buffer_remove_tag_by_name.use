@@ -1,1 +1,0 @@
-use @gtk_text_buffer_remove_tag_by_name[None](buffer': GtkTextBuffer, name': Pointer[U8] tag, start': GtkTextIter, end': GtkTextIter)

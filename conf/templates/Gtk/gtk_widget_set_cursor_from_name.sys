@@ -1,2 +1,0 @@
-  fun set_cursor_from_name(widget': GtkWidgetI, name': String): None =>
-    @gtk_widget_set_cursor_from_name(widget'.getptr(), name'.cstring())

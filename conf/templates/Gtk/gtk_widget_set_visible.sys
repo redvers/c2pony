@@ -1,2 +1,0 @@
-  fun set_visible(widget': GtkWidgetI, visible': I32): None =>
-    @gtk_widget_set_visible(widget'.getptr(), visible')

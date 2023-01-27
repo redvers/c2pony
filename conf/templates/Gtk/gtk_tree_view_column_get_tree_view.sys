@@ -1,2 +1,0 @@
-  fun get_tree_view(tree_column': GtkTreeViewColumn): Pointer[GObjectP] =>
-@gtk_tree_view_column_get_tree_view(tree_column')

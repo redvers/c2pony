@@ -1,2 +1,2 @@
-  fun free_full(list': GList, free_func': GDestroyNotify): None =>
+  fun free_full(list': NullablePointer[GListT], free_func': Pointer[None]): None =>
     @g_list_free_full(list', free_func')

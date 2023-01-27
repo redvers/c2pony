@@ -1,2 +1,2 @@
-  fun iter_new(value': GVariant): GVariantIter =>
+  fun iter_new(value': NullablePointer[GVariantT]): NullablePointer[GVariantIterT] =>
     @g_variant_iter_new(value')

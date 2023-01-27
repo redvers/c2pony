@@ -1,2 +1,2 @@
-  fun alloc(hook_list': GHookList): GHook =>
+  fun alloc(hook_list': NullablePointer[GHookListT]): NullablePointer[GHookT] =>
     @g_hook_alloc(hook_list')

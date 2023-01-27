@@ -1,2 +1,0 @@
-  fun get_successful(subprocess': GSubprocess): I32 =>
-    @g_subprocess_get_successful(subprocess')

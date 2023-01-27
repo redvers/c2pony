@@ -1,2 +1,2 @@
-  fun free(seq': GSequence): None =>
+  fun free(seq': NullablePointer[GSequenceT]): None =>
     @g_sequence_free(seq')

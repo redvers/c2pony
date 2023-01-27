@@ -1,2 +1,0 @@
-  fun ref set_rate_limit(limit_msecs': I32): None =>
-    GFileMonitorP.set_rate_limit(this, limit_msecs')

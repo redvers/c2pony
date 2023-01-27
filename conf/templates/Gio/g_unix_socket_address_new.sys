@@ -1,2 +1,0 @@
-  fun new(path': String): GSocketAddress =>
-    @g_unix_socket_address_new(path'.cstring())

@@ -1,2 +1,0 @@
-  fun ref set_lower(lower': F64): None =>
-    GtkAdjustmentP.set_lower(this, lower')

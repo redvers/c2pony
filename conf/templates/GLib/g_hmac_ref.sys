@@ -1,2 +1,2 @@
-  fun ref(hmac': GHmac): GHmac =>
+  fun ref(hmac': NullablePointer[GHmacT]): NullablePointer[GHmacT] =>
     @g_hmac_ref(hmac')

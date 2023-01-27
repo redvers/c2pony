@@ -1,2 +1,2 @@
-  fun set_parse_hooks(group': GOptionGroup, pre_parse_func': GOptionParseFunc, post_parse_func': GOptionParseFunc): None =>
+  fun set_parse_hooks(group': NullablePointer[GOptionGroupT], pre_parse_func': GOptionParseFunc, post_parse_func': GOptionParseFunc): None =>
     @g_option_group_set_parse_hooks(group', pre_parse_func', post_parse_func')

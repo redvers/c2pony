@@ -1,2 +1,0 @@
-  fun get_destination_port(proxy': GProxyAddress): U16 =>
-    @g_proxy_address_get_destination_port(proxy')

@@ -1,2 +1,2 @@
   fun ref unset(): None =>
-    GValueP.unset(this)
+    GValueP.unset(this.ptr)

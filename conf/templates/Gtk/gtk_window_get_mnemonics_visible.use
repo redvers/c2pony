@@ -1,1 +1,0 @@
-use @gtk_window_get_mnemonics_visible[I32](window': Pointer[GObjectP])

@@ -1,2 +1,0 @@
-  fun get_relation(constraint': GtkConstraint): I32 =>
-    @gtk_constraint_get_relation(constraint')

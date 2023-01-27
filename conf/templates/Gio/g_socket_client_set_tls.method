@@ -1,2 +1,0 @@
-  fun ref set_tls(tls': I32): None =>
-    GSocketClientP.set_tls(this, tls')

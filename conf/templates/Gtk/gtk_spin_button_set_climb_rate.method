@@ -1,2 +1,0 @@
-  fun ref set_climb_rate(climb_rate': F64): None =>
-    GtkSpinButtonP.set_climb_rate(this, climb_rate')

@@ -1,2 +1,0 @@
-  fun ref unwatch(): None =>
-    GtkExpressionWatchP.unwatch(this)

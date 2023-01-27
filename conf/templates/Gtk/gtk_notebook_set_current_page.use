@@ -1,1 +1,0 @@
-use @gtk_notebook_set_current_page[None](notebook': GtkNotebook, page_num': I32)

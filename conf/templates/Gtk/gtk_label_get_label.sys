@@ -1,2 +1,0 @@
-  fun get_label(self': GtkLabel): String iso^ =>
-    String.from_cstring(@gtk_label_get_label(self')).clone()

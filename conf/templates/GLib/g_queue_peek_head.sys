@@ -1,2 +1,2 @@
-  fun peek_head(queue': GQueue): Pointer[None] tag =>
+  fun peek_head(queue': NullablePointer[GQueueT]): Pointer[None] tag =>
     @g_queue_peek_head(queue')

@@ -1,2 +1,0 @@
-  fun update_buttons_state(assistant': GtkAssistant): None =>
-    @gtk_assistant_update_buttons_state(assistant')

@@ -1,2 +1,2 @@
-  fun is_basic(type': GVariantType): I32 =>
+  fun is_basic(type': NullablePointer[GVariantTypeT]): I32 =>
     @g_variant_type_is_basic(type')

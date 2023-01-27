@@ -1,2 +1,0 @@
-  fun start(service': GSocketService): None =>
-    @g_socket_service_start(service')

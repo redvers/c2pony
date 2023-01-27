@@ -1,2 +1,0 @@
-  fun ref append_page(child': GtkWidgetI, tab_label': GtkWidgetI): I32 =>
-    GtkNotebookP.append_page(this, child', tab_label')

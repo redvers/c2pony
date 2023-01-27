@@ -1,2 +1,2 @@
-  fun get_visited_date_time(bookmark': GBookmarkFile, uri': String, error': GError): GDateTime =>
-    @g_bookmark_file_get_visited_date_time(bookmark', uri'.cstring(), addressof error'.ptr)
+  fun get_visited_date_time(bookmark': NullablePointer[GBookmarkFileT], uri': String, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GDateTimeT] =>
+    @g_bookmark_file_get_visited_date_time(bookmark', uri'.cstring(), error')

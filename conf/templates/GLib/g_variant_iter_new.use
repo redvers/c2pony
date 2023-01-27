@@ -1,1 +1,1 @@
-use @g_variant_iter_new[GVariantIter](value': GVariant)
+use @g_variant_iter_new[NullablePointer[GVariantIterT]](value': NullablePointer[GVariantT])

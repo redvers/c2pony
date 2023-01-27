@@ -1,2 +1,0 @@
-  fun bind(settings': GSettings, key': String, object': Pointer[None] tag, property': String, flags': U32): None =>
-    @g_settings_bind(settings', key'.cstring(), object', property'.cstring(), flags')

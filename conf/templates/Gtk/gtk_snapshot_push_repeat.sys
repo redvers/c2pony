@@ -1,2 +1,0 @@
-  fun push_repeat(snapshot': GdkSnapshot, bounds': graphenerectt, child_bounds': graphenerectt): None =>
-    @gtk_snapshot_push_repeat(snapshot', bounds', child_bounds')

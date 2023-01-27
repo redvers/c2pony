@@ -1,2 +1,0 @@
-  fun get_label(menu_button': GtkMenuButton): String iso^ =>
-    String.from_cstring(@gtk_menu_button_get_label(menu_button')).clone()

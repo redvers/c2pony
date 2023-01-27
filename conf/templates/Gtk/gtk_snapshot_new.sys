@@ -1,2 +1,0 @@
-  fun new(): GdkSnapshot =>
-    @gtk_snapshot_new()

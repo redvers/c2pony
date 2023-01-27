@@ -1,2 +1,2 @@
-  fun set_float(value': GValue, v_float': F32): None =>
+  fun set_float(value': NullablePointer[GValueT], v_float': F32): None =>
     @g_value_set_float(value', v_float')

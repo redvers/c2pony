@@ -1,2 +1,2 @@
   fun ref set_mime_type(uri': String, mime_type': String): None =>
-    GBookmarkFileP.set_mime_type(this, uri', mime_type')
+    GBookmarkFileP.set_mime_type(this.ptr, uri', mime_type')

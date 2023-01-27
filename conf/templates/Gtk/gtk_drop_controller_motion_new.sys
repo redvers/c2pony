@@ -1,2 +1,0 @@
-  fun new(): GtkEventController =>
-    @gtk_drop_controller_motion_new()

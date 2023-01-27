@@ -1,1 +1,0 @@
-use @gtk_css_section_get_parent[GtkCssSection](section': GtkCssSection)

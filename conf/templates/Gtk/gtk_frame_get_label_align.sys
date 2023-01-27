@@ -1,2 +1,0 @@
-  fun get_label_align(frame': GtkFrame): F32 =>
-    @gtk_frame_get_label_align(frame')

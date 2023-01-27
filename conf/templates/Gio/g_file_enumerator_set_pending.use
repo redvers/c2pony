@@ -1,1 +1,0 @@
-use @g_file_enumerator_set_pending[None](enumerator': GFileEnumerator, pending': I32)

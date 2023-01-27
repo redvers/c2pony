@@ -1,2 +1,2 @@
-  fun get_icon(bookmark': GBookmarkFile, uri': String, href': Pointer[Pointer[U8]] tag, mime_type': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    @g_bookmark_file_get_icon(bookmark', uri'.cstring(), href', mime_type', addressof error'.ptr)
+  fun get_icon(bookmark': NullablePointer[GBookmarkFileT], uri': String, href': Pointer[Pointer[U8]] tag, mime_type': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_bookmark_file_get_icon(bookmark', uri'.cstring(), href', mime_type', error')

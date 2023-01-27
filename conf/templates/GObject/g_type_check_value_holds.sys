@@ -1,2 +1,2 @@
-  fun type_check_value_holds(value': GValue, type': U64): I32 =>
+  fun type_check_value_holds(value': NullablePointer[GValueT], type': U64): I32 =>
     @g_type_check_value_holds(value', type')

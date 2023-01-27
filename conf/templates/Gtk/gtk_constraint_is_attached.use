@@ -1,1 +1,0 @@
-use @gtk_constraint_is_attached[I32](constraint': GtkConstraint)

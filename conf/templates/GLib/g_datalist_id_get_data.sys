@@ -1,2 +1,2 @@
-  fun datalist_id_get_data(datalist': Pointer[GData], key_id': U32): Pointer[None] tag =>
+  fun datalist_id_get_data(datalist': Pointer[NullablePointer[GDataT]], key_id': U32): Pointer[None] tag =>
     @g_datalist_id_get_data(datalist', key_id')

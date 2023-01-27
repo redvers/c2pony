@@ -1,2 +1,0 @@
-  fun ref set_column(column': I32): None =>
-    GtkGridLayoutChildP.set_column(this, column')

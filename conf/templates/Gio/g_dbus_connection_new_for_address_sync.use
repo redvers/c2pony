@@ -1,1 +1,0 @@
-use @g_dbus_connection_new_for_address_sync[GDBusConnection](address': Pointer[U8] tag, flags': U32, observer': GDBusAuthObserver, cancellable': GCancellable, error': Pointer[NullablePointer[GErrorT]])

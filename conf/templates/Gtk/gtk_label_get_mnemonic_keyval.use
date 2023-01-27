@@ -1,1 +1,0 @@
-use @gtk_label_get_mnemonic_keyval[U32](self': GtkLabel)

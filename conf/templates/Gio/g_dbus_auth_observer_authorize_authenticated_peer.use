@@ -1,1 +1,0 @@
-use @g_dbus_auth_observer_authorize_authenticated_peer[I32](observer': GDBusAuthObserver, stream': GIOStream, credentials': GCredentials)

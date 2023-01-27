@@ -1,2 +1,0 @@
-  fun get_row_separator_func(combo_box': GtkComboBox): GtkTreeViewRowSeparatorFunc =>
-    @gtk_combo_box_get_row_separator_func(combo_box')

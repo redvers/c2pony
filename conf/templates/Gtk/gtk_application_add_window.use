@@ -1,1 +1,0 @@
-use @gtk_application_add_window[None](application': Pointer[GObjectP], window': Pointer[GObjectP])

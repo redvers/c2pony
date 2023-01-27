@@ -1,2 +1,0 @@
-  fun ref get_empty(): I32 =>
-    GtkWindowControlsP.get_empty(this)

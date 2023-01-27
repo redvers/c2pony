@@ -1,2 +1,0 @@
-  fun ref set_is_tcrypt_system_volume(system_volume': I32): None =>
-    GMountOperationP.set_is_tcrypt_system_volume(this, system_volume')

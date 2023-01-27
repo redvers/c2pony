@@ -1,1 +1,0 @@
-use @gtk_tree_view_get_column[GtkTreeViewColumn](tree_view': GtkTreeView, n': I32)

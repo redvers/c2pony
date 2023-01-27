@@ -1,1 +1,1 @@
-use @g_date_compare[I32](lhs': GDate, rhs': GDate)
+use @g_date_compare[I32](lhs': NullablePointer[GDateT], rhs': NullablePointer[GDateT])

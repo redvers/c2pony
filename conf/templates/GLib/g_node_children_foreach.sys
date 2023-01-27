@@ -1,2 +1,2 @@
-  fun children_foreach(node': GNode, flags': U32, func': GNodeForeachFunc, data': Pointer[None] tag): None =>
+  fun children_foreach(node': NullablePointer[GNodeT], flags': U32, func': GNodeForeachFunc, data': Pointer[None] tag): None =>
     @g_node_children_foreach(node', flags', func', data')

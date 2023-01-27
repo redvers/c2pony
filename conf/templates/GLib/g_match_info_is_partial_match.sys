@@ -1,2 +1,2 @@
-  fun is_partial_match(match_info': GMatchInfo): I32 =>
+  fun is_partial_match(match_info': NullablePointer[GMatchInfoT]): I32 =>
     @g_match_info_is_partial_match(match_info')

@@ -1,2 +1,0 @@
-  fun ref get_family(): U32 =>
-    GSocketClientP.get_family(this)

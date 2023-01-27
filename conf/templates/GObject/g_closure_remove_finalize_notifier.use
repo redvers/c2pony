@@ -1,1 +1,1 @@
-use @g_closure_remove_finalize_notifier[None](closure': GClosure, notify_data': Pointer[None] tag, notify_func': GClosureNotify)
+use @g_closure_remove_finalize_notifier[None](closure': NullablePointer[GClosureT], notify_data': Pointer[None] tag, notify_func': GClosureNotify)

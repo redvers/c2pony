@@ -1,2 +1,2 @@
-  fun ref(array': GArray): GArray =>
+  fun ref(array': NullablePointer[GArrayT]): NullablePointer[GArrayT] =>
     @g_array_ref(array')

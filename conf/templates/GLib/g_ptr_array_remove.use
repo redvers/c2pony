@@ -1,1 +1,1 @@
-use @g_ptr_array_remove[I32](array': GPtrArray, data': Pointer[None] tag)
+use @g_ptr_array_remove[I32](array': NullablePointer[GPtrArrayT], data': Pointer[None] tag)

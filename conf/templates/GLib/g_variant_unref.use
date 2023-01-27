@@ -1,1 +1,1 @@
-use @g_variant_unref[None](value': GVariant)
+use @g_variant_unref[None](value': NullablePointer[GVariantT])

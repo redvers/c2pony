@@ -1,1 +1,1 @@
-use @g_source_set_callback_indirect[None](source': GSource, callback_data': Pointer[None] tag, callback_funcs': GSourceCallbackFuncs)
+use @g_source_set_callback_indirect[None](source': NullablePointer[GSourceT], callback_data': Pointer[None] tag, callback_funcs': NullablePointer[GSourceCallbackFuncsT])

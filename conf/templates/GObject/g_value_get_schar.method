@@ -1,2 +1,2 @@
   fun ref get_schar(): I8 =>
-    GValueP.get_schar(this)
+    GValueP.get_schar(this.ptr)

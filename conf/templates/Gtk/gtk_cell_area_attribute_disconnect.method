@@ -1,2 +1,0 @@
-  fun ref attribute_disconnect(renderer': GtkCellRenderer, attribute': String): None =>
-    GtkCellAreaP.attribute_disconnect(this, renderer', attribute')

@@ -1,2 +1,0 @@
-  fun is_start(iter': GtkTextIter): I32 =>
-    @gtk_text_iter_is_start(iter')

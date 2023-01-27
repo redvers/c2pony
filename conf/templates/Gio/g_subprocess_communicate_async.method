@@ -1,2 +1,0 @@
-  fun ref communicate_async(stdin_buf': GBytes, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    GSubprocessP.communicate_async(this, stdin_buf', cancellable', callback', user_data')

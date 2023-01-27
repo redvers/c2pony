@@ -1,2 +1,0 @@
-  fun unref(watch': GtkExpressionWatch): None =>
-    @gtk_expression_watch_unref(watch')

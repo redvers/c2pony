@@ -1,2 +1,2 @@
-  fun ref truncate(len': U64): GString =>
-    GStringP.truncate(this, len')
+  fun ref truncate(len': U64): NullablePointer[GStringT] =>
+    GStringP.truncate(this.ptr, len')

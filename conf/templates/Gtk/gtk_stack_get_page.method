@@ -1,2 +1,0 @@
-  fun ref get_page(child': GtkWidgetI): GtkStackPage =>
-    GtkStackP.get_page(this, child')

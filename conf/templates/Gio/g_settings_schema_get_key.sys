@@ -1,2 +1,0 @@
-  fun get_key(schema': GSettingsSchema, name': String): GSettingsSchemaKey =>
-    @g_settings_schema_get_key(schema', name'.cstring())

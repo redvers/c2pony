@@ -1,2 +1,2 @@
-  fun new(pattern': String): GPatternSpec =>
+  fun new(pattern': String): NullablePointer[GPatternSpecT] =>
     @g_pattern_spec_new(pattern'.cstring())

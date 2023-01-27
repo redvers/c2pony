@@ -1,2 +1,2 @@
   fun ref scope_add_symbol(scope_id': U32, symbol': String, value': Pointer[None] tag): None =>
-    GScannerP.scope_add_symbol(this, scope_id', symbol', value')
+    GScannerP.scope_add_symbol(this.ptr, scope_id', symbol', value')

@@ -1,2 +1,0 @@
-  fun ref get_allowed(): I32 =>
-    GPermissionP.get_allowed(this)

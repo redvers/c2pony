@@ -1,2 +1,0 @@
-  fun get_flags(scroll': GtkEventControllerScroll): U32 =>
-    @gtk_event_controller_scroll_get_flags(scroll')

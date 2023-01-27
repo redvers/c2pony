@@ -1,2 +1,0 @@
-  fun set_pending(enumerator': GFileEnumerator, pending': I32): None =>
-    @g_file_enumerator_set_pending(enumerator', pending')

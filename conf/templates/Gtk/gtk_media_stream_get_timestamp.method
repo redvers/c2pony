@@ -1,2 +1,0 @@
-  fun ref get_timestamp(): I64 =>
-    GtkMediaStreamP.get_timestamp(this)

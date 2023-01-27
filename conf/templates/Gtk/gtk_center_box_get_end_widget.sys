@@ -1,2 +1,0 @@
-  fun get_end_widget(self': GtkCenterBox): Pointer[GObjectP] =>
-@gtk_center_box_get_end_widget(self')

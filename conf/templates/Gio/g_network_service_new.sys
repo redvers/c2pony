@@ -1,2 +1,0 @@
-  fun new(service': String, protocol': String, domain': String): GSocketConnectable =>
-    @g_network_service_new(service'.cstring(), protocol'.cstring(), domain'.cstring())

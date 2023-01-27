@@ -1,2 +1,0 @@
-  fun new(value_type': U64, ...): GtkExpression =>
-    @gtk_constant_expression_new(value_type', ...)

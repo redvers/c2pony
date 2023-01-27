@@ -1,2 +1,2 @@
-  fun unprocessed(pool': GThreadPool): U32 =>
+  fun unprocessed(pool': NullablePointer[GThreadPoolT]): U32 =>
     @g_thread_pool_unprocessed(pool')

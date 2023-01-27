@@ -1,2 +1,0 @@
-  fun clear(tree_column': GtkTreeViewColumn): None =>
-    @gtk_tree_view_column_clear(tree_column')

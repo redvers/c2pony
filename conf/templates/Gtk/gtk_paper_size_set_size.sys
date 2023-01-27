@@ -1,2 +1,0 @@
-  fun set_size(size': GtkPaperSize, width': F64, height': F64, unit': U32): None =>
-    @gtk_paper_size_set_size(size', width', height', unit')

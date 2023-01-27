@@ -1,2 +1,0 @@
-  fun append_color(snapshot': GdkSnapshot, color': GdkRGBA, bounds': graphenerectt): None =>
-    @gtk_snapshot_append_color(snapshot', color', bounds')

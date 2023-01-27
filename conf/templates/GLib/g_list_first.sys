@@ -1,2 +1,2 @@
-  fun first(list': GList): GList =>
+  fun first(list': NullablePointer[GListT]): NullablePointer[GListT] =>
     @g_list_first(list')

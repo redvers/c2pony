@@ -1,1 +1,1 @@
-use @g_type_check_instance_is_fundamentally_a[I32](instance': GTypeInstance, fundamental_type': U64)
+use @g_type_check_instance_is_fundamentally_a[I32](instance': NullablePointer[GTypeInstanceT], fundamental_type': U64)

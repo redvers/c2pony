@@ -1,1 +1,0 @@
-use @gtk_app_chooser_button_get_modal[I32](self': GtkAppChooserButton)

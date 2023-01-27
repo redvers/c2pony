@@ -1,1 +1,1 @@
-use @g_value_set_instance[None](value': GValue, instance': Pointer[None] tag)
+use @g_value_set_instance[None](value': NullablePointer[GValueT], instance': Pointer[None] tag)

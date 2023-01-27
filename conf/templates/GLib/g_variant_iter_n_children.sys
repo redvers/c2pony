@@ -1,2 +1,2 @@
-  fun n_children(iter': GVariantIter): U64 =>
+  fun n_children(iter': NullablePointer[GVariantIterT]): U64 =>
     @g_variant_iter_n_children(iter')

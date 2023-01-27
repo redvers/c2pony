@@ -1,1 +1,0 @@
-use @gtk_window_set_display[None](window': Pointer[GObjectP], display': GdkDisplay)

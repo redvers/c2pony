@@ -1,2 +1,0 @@
-  fun ref get_text_length(): U16 =>
-    GtkTextP.get_text_length(this)

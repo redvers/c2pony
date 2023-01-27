@@ -1,2 +1,2 @@
-  fun new_from_iso8601(text': String, default_tz': GTimeZone): GDateTime =>
-    @g_date_time_new_from_iso8601(text'.cstring(), default_tz')
+  new new_from_iso8601(text': String, default_tz': NullablePointer[GTimeZoneT]) =>
+    ptr = @g_date_time_new_from_iso8601(text'.cstring(), default_tz')

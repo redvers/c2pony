@@ -1,2 +1,2 @@
-  fun prepend(string': GString, val': String): GString =>
+  fun prepend(string': NullablePointer[GStringT], val': String): NullablePointer[GStringT] =>
     @g_string_prepend(string', val'.cstring())

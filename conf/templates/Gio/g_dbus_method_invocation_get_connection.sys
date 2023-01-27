@@ -1,2 +1,0 @@
-  fun get_connection(invocation': GDBusMethodInvocation): GDBusConnection =>
-    @g_dbus_method_invocation_get_connection(invocation')

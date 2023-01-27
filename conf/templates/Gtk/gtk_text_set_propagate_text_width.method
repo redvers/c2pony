@@ -1,2 +1,0 @@
-  fun ref set_propagate_text_width(propagate_text_width': I32): None =>
-    GtkTextP.set_propagate_text_width(this, propagate_text_width')

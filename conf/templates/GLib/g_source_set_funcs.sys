@@ -1,2 +1,2 @@
-  fun set_funcs(source': GSource, funcs': GSourceFuncs): None =>
+  fun set_funcs(source': NullablePointer[GSourceT], funcs': NullablePointer[GSourceFuncsT]): None =>
     @g_source_set_funcs(source', funcs')

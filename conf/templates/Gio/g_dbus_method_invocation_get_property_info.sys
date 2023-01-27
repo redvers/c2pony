@@ -1,2 +1,0 @@
-  fun get_property_info(invocation': GDBusMethodInvocation): GDBusPropertyInfo =>
-    @g_dbus_method_invocation_get_property_info(invocation')

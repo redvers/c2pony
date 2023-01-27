@@ -1,2 +1,0 @@
-  fun is_active(service': GSocketService): I32 =>
-    @g_socket_service_is_active(service')

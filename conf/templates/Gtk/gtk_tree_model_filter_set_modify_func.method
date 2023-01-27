@@ -1,2 +1,0 @@
-  fun ref set_modify_func(n_columns': I32, types': Pointer[U64] tag, func': GtkTreeModelFilterModifyFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    GtkTreeModelFilterP.set_modify_func(this, n_columns', types', func', data', destroy')

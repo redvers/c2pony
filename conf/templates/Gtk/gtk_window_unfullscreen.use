@@ -1,1 +1,0 @@
-use @gtk_window_unfullscreen[None](window': Pointer[GObjectP])

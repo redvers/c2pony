@@ -1,2 +1,0 @@
-  fun insert_after(widget': GtkWidgetI, parent': GtkWidgetI, previous_sibling': GtkWidgetI): None =>
-    @gtk_widget_insert_after(widget'.getptr(), parent'.getptr(), previous_sibling'.getptr())

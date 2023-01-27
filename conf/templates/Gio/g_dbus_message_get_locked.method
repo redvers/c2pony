@@ -1,2 +1,0 @@
-  fun ref get_locked(): I32 =>
-    GDBusMessageP.get_locked(this)

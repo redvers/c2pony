@@ -1,1 +1,1 @@
-use @g_object_getv[None](object': Pointer[GObjectP], n_properties': U32, names': Pointer[Pointer[U8]] tag, values': GValue)
+use @g_object_getv[None](object': NullablePointer[GObjectT], n_properties': U32, names': Pointer[Pointer[U8]] tag, values': NullablePointer[GValueT])

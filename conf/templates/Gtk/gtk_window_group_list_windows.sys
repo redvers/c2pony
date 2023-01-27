@@ -1,2 +1,0 @@
-  fun list_windows(window_group': GtkWindowGroup): GList =>
-    @gtk_window_group_list_windows(window_group')

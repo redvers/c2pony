@@ -1,2 +1,2 @@
-  fun new(pattern': String, compile_options': U32, match_options': U32, error': GError): GRegex =>
-    @g_regex_new(pattern'.cstring(), compile_options', match_options', addressof error'.ptr)
+  new new(pattern': String, compile_options': U32, match_options': U32, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_regex_new(pattern'.cstring(), compile_options', match_options', error')

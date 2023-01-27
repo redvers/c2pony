@@ -1,2 +1,0 @@
-  fun get_use_underline(self': GtkLabel): I32 =>
-    @gtk_label_get_use_underline(self')

@@ -1,1 +1,1 @@
-use @g_scanner_sync_file_offset[None](scanner': GScanner)
+use @g_scanner_sync_file_offset[None](scanner': NullablePointer[GScannerT])

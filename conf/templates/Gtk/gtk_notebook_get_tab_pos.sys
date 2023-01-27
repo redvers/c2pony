@@ -1,2 +1,0 @@
-  fun get_tab_pos(notebook': GtkNotebook): U32 =>
-    @gtk_notebook_get_tab_pos(notebook')

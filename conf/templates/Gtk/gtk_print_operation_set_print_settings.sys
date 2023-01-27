@@ -1,2 +1,0 @@
-  fun set_print_settings(op': GtkPrintOperation, print_settings': GtkPrintSettings): None =>
-    @gtk_print_operation_set_print_settings(op', print_settings')

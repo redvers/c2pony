@@ -1,1 +1,0 @@
-use @gtk_dialog_add_button[Pointer[GObjectP]](dialog': GtkDialog, button_text': Pointer[U8] tag, response_id': I32)

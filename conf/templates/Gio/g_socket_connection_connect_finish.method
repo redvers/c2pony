@@ -1,2 +1,0 @@
-  fun ref connect_finish(result': GAsyncResult, error': GError): I32 =>
-    GSocketConnectionP.connect_finish(this, result', error')

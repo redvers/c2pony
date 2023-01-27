@@ -1,1 +1,0 @@
-use @g_task_run_in_thread[None](task': GTask, task_func': GTaskThreadFunc)

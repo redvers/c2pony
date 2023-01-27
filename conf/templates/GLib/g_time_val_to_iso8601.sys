@@ -1,2 +1,2 @@
-  fun to_iso8601(time': GTimeVal): String iso^ =>
+  fun to_iso8601(time': NullablePointer[GTimeValT]): String iso^ =>
     String.from_cstring(@g_time_val_to_iso8601(time')).clone()

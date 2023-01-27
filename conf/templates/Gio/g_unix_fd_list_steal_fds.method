@@ -1,2 +1,0 @@
-  fun ref steal_fds(length': Pointer[I32] tag): Pointer[I32] tag =>
-    GUnixFDListP.steal_fds(this, length')

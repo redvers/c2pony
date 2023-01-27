@@ -1,2 +1,0 @@
-  fun get_gicon(image': GtkImage): GIcon =>
-    @gtk_image_get_gicon(image')

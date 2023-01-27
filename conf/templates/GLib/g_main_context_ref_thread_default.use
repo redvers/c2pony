@@ -1,1 +1,1 @@
-use @g_main_context_ref_thread_default[GMainContext]()
+use @g_main_context_ref_thread_default[NullablePointer[GMainContextT]]()

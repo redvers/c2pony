@@ -1,2 +1,0 @@
-  fun ref get_fit_model(): I32 =>
-    GtkCellViewP.get_fit_model(this)

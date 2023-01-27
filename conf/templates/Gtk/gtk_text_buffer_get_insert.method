@@ -1,2 +1,0 @@
-  fun ref get_insert(): GtkTextMark =>
-    GtkTextBufferP.get_insert(this)

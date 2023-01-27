@@ -1,2 +1,0 @@
-  fun ref get_heading(): String iso^ =>
-    GtkAppChooserDialogP.get_heading(this)

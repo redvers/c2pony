@@ -1,2 +1,0 @@
-  fun ref get_single_click_activate(): I32 =>
-    GtkGridViewP.get_single_click_activate(this)

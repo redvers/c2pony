@@ -1,1 +1,1 @@
-use @g_date_time_add_seconds[GDateTime](datetime': GDateTime, seconds': F64)
+use @g_date_time_add_seconds[NullablePointer[GDateTimeT]](datetime': NullablePointer[GDateTimeT], seconds': F64)

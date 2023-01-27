@@ -1,2 +1,0 @@
-  fun get_address_type(address': GUnixSocketAddress): U32 =>
-    @g_unix_socket_address_get_address_type(address')

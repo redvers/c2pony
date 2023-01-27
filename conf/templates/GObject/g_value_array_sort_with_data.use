@@ -1,1 +1,1 @@
-use @g_value_array_sort_with_data[GValueArray](value_array': GValueArray, compare_func': GCompareDataFunc, user_data': Pointer[None] tag)
+use @g_value_array_sort_with_data[NullablePointer[GValueArrayT]](value_array': NullablePointer[GValueArrayT], compare_func': GCompareDataFunc, user_data': Pointer[None] tag)

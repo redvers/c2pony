@@ -1,2 +1,2 @@
-  fun get_uris(bookmark': GBookmarkFile, length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+  fun get_uris(bookmark': NullablePointer[GBookmarkFileT], length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
     @g_bookmark_file_get_uris(bookmark', length')

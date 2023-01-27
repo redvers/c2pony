@@ -1,1 +1,0 @@
-use @gtk_gl_area_set_has_stencil_buffer[None](area': GtkGLArea, has_stencil_buffer': I32)

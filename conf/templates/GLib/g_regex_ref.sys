@@ -1,2 +1,2 @@
-  fun ref(regex': GRegex): GRegex =>
+  fun ref(regex': NullablePointer[GRegexT]): NullablePointer[GRegexT] =>
     @g_regex_ref(regex')

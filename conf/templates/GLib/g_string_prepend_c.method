@@ -1,2 +1,2 @@
-  fun ref prepend_c(c': U8): GString =>
-    GStringP.prepend_c(this, c')
+  fun ref prepend_c(c': U8): NullablePointer[GStringT] =>
+    GStringP.prepend_c(this.ptr, c')

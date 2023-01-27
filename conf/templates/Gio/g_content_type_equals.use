@@ -1,1 +1,0 @@
-use @g_content_type_equals[I32](type1': Pointer[U8] tag, type2': Pointer[U8] tag)

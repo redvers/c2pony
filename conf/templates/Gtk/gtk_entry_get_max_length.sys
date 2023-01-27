@@ -1,2 +1,0 @@
-  fun get_max_length(entry': GtkEntry): I32 =>
-    @gtk_entry_get_max_length(entry')

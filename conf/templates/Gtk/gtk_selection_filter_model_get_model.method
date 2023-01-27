@@ -1,2 +1,0 @@
-  fun ref get_model(): GtkSelectionModel =>
-    GtkSelectionFilterModelP.get_model(this)

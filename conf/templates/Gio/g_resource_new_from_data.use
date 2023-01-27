@@ -1,1 +1,0 @@
-use @g_resource_new_from_data[NullablePointer[GResourceT]](data': GBytes, error': Pointer[NullablePointer[GErrorT]])

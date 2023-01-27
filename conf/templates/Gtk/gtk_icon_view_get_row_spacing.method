@@ -1,2 +1,0 @@
-  fun ref get_row_spacing(): I32 =>
-    GtkIconViewP.get_row_spacing(this)

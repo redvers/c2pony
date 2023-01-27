@@ -1,2 +1,0 @@
-  fun add_search_path(self': GtkIconTheme, path': String): None =>
-    @gtk_icon_theme_add_search_path(self', path'.cstring())

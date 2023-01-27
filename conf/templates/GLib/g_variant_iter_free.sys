@@ -1,2 +1,2 @@
-  fun free(iter': GVariantIter): None =>
+  fun free(iter': NullablePointer[GVariantIterT]): None =>
     @g_variant_iter_free(iter')

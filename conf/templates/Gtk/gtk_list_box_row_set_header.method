@@ -1,2 +1,0 @@
-  fun ref set_header(header': GtkWidgetI): None =>
-    GtkListBoxRowP.set_header(this, header')

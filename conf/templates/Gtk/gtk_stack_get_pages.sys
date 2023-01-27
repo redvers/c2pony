@@ -1,2 +1,0 @@
-  fun get_pages(stack': GtkStack): GtkSelectionModel =>
-    @gtk_stack_get_pages(stack')

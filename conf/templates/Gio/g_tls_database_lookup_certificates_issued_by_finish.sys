@@ -1,2 +1,0 @@
-  fun lookup_certificates_issued_by_finish(self': GTlsDatabase, result': GAsyncResult, error': GError): GList =>
-    @g_tls_database_lookup_certificates_issued_by_finish(self', result', addressof error'.ptr)

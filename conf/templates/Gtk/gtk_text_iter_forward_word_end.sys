@@ -1,2 +1,0 @@
-  fun forward_word_end(iter': GtkTextIter): I32 =>
-    @gtk_text_iter_forward_word_end(iter')

@@ -1,2 +1,0 @@
-  fun ref append(fd': I32, error': GError): I32 =>
-    GUnixFDListP.append(this, fd', error')

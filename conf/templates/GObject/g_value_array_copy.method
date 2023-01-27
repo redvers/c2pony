@@ -1,2 +1,2 @@
-  fun ref copy(): GValueArray =>
-    GValueArrayP.copy(this)
+  fun ref copy(): NullablePointer[GValueArrayT] =>
+    GValueArrayP.copy(this.ptr)

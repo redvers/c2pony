@@ -1,1 +1,1 @@
-use @g_source_remove_poll[None](source': GSource, fd': GPollFD)
+use @g_source_remove_poll[None](source': NullablePointer[GSourceT], fd': NullablePointer[GPollFDT])

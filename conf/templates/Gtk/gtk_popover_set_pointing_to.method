@@ -1,2 +1,0 @@
-  fun ref set_pointing_to(rect': cairorectangleint): None =>
-    GtkPopoverP.set_pointing_to(this, rect')

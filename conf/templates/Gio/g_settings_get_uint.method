@@ -1,2 +1,0 @@
-  fun ref get_uint(key': String): U32 =>
-    GSettingsP.get_uint(this, key')

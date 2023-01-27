@@ -1,2 +1,0 @@
-  fun ref set_printer(printer': String): None =>
-    GtkPrintSettingsP.set_printer(this, printer')

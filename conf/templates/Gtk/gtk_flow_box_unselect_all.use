@@ -1,1 +1,0 @@
-use @gtk_flow_box_unselect_all[None](box': GtkFlowBox)

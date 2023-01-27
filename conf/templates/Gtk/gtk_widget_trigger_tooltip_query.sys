@@ -1,2 +1,0 @@
-  fun trigger_tooltip_query(widget': GtkWidgetI): None =>
-    @gtk_widget_trigger_tooltip_query(widget'.getptr())

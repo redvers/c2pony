@@ -1,2 +1,0 @@
-  fun ref get_scope_id(): U32 =>
-    GInetSocketAddressP.get_scope_id(this)

@@ -1,2 +1,0 @@
-  fun ref watch(this': Pointer[None] tag, notify': GtkExpressionNotify, user_data': Pointer[None] tag, user_destroy': GDestroyNotify): GtkExpressionWatch =>
-    GtkExpressionP.watch(this, this', notify', user_data', user_destroy')

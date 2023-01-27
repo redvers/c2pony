@@ -1,1 +1,0 @@
-use @g_file_attribute_matcher_subtract[GFileAttributeMatcher](matcher': GFileAttributeMatcher, subtract': GFileAttributeMatcher)

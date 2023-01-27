@@ -1,2 +1,0 @@
-  fun set_key_capture_widget(bar': GtkSearchBar, widget': GtkWidgetI): None =>
-    @gtk_search_bar_set_key_capture_widget(bar', widget'.getptr())

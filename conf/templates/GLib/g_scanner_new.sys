@@ -1,2 +1,2 @@
-  fun new(config_templ': GScannerConfig): GScanner =>
+  fun new(config_templ': NullablePointer[GScannerConfigT]): NullablePointer[GScannerT] =>
     @g_scanner_new(config_templ')

@@ -1,2 +1,2 @@
-  fun ref element(): GVariantType =>
-    GVariantTypeP.element(this)
+  fun ref element(): NullablePointer[GVariantTypeT] =>
+    GVariantTypeP.element(this.ptr)

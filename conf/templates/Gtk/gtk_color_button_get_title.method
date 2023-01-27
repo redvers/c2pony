@@ -1,2 +1,0 @@
-  fun ref get_title(): String iso^ =>
-    GtkColorButtonP.get_title(this)

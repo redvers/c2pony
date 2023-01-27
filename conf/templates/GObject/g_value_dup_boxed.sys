@@ -1,2 +1,2 @@
-  fun dup_boxed(value': GValue): Pointer[None] tag =>
+  fun dup_boxed(value': NullablePointer[GValueT]): Pointer[None] tag =>
     @g_value_dup_boxed(value')

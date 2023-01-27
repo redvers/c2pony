@@ -1,2 +1,0 @@
-  fun ref set_visible_child(child': GtkWidgetI): None =>
-    GtkStackP.set_visible_child(this, child')

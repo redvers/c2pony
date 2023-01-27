@@ -1,2 +1,0 @@
-  fun ref get_activate_signal(): U32 =>
-    GtkWidgetClassP.get_activate_signal(this)

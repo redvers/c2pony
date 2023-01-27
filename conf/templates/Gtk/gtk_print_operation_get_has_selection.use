@@ -1,1 +1,0 @@
-use @gtk_print_operation_get_has_selection[I32](op': GtkPrintOperation)

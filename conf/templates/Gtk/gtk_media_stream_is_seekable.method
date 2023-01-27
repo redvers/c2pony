@@ -1,2 +1,0 @@
-  fun ref is_seekable(): I32 =>
-    GtkMediaStreamP.is_seekable(this)

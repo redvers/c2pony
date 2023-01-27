@@ -1,2 +1,0 @@
-  fun set_item_orientation(icon_view': GtkIconView, orientation': U32): None =>
-    @gtk_icon_view_set_item_orientation(icon_view', orientation')

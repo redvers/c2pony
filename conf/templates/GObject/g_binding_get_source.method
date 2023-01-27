@@ -1,2 +1,2 @@
-  fun ref get_source(): Pointer[GObjectP] =>
-    GBindingP.get_source(this)
+  fun ref get_source(): NullablePointer[GObjectT] =>
+    GBindingP.get_source(this.ptr)

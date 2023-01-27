@@ -1,2 +1,0 @@
-  fun content_type_can_be_executable(type': String): I32 =>
-    @g_content_type_can_be_executable(type'.cstring())

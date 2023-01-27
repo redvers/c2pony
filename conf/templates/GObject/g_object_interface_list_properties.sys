@@ -1,2 +1,2 @@
-  fun interface_list_properties(g_iface': Pointer[None] tag, n_properties_p': Pointer[U32] tag): Pointer[GParamSpec] =>
+  fun interface_list_properties(g_iface': Pointer[None] tag, n_properties_p': Pointer[U32] tag): Pointer[NullablePointer[GParamSpecT]] =>
     @g_object_interface_list_properties(g_iface', n_properties_p')

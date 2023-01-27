@@ -1,1 +1,0 @@
-use @gtk_shortcut_trigger_to_string[Pointer[U8]](self': GtkShortcutTrigger)

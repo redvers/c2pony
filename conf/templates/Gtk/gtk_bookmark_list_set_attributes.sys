@@ -1,2 +1,0 @@
-  fun set_attributes(self': GtkBookmarkList, attributes': String): None =>
-    @gtk_bookmark_list_set_attributes(self', attributes'.cstring())

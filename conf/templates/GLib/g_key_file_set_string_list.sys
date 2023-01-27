@@ -1,2 +1,2 @@
-  fun set_string_list(key_file': GKeyFile, group_name': String, key': String, list': Pointer[Pointer[U8]] tag, length': U64): None =>
+  fun set_string_list(key_file': NullablePointer[GKeyFileT], group_name': String, key': String, list': Pointer[Pointer[U8]] tag, length': U64): None =>
     @g_key_file_set_string_list(key_file', group_name'.cstring(), key'.cstring(), list', length')

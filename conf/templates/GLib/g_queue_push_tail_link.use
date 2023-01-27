@@ -1,1 +1,1 @@
-use @g_queue_push_tail_link[None](queue': GQueue, link': GList)
+use @g_queue_push_tail_link[None](queue': NullablePointer[GQueueT], link': NullablePointer[GListT])

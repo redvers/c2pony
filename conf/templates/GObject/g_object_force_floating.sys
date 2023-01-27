@@ -1,2 +1,2 @@
-  fun force_floating(object': GObjectI): None =>
-    @g_object_force_floating(object'.getptr())
+  fun force_floating(object': NullablePointer[GObjectT]): None =>
+    @g_object_force_floating(object')

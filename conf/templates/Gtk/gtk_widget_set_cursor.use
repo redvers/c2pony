@@ -1,1 +1,0 @@
-use @gtk_widget_set_cursor[None](widget': Pointer[GObjectP], cursor': GdkCursor)

@@ -1,1 +1,0 @@
-use @gtk_icon_view_set_column_spacing[None](icon_view': GtkIconView, column_spacing': I32)

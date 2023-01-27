@@ -1,2 +1,0 @@
-  fun get_icon_names(self': GtkIconTheme): Pointer[Pointer[U8]] tag =>
-    @gtk_icon_theme_get_icon_names(self')

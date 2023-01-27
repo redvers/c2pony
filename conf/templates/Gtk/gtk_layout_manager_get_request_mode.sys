@@ -1,2 +1,0 @@
-  fun get_request_mode(manager': GtkLayoutManager): U32 =>
-    @gtk_layout_manager_get_request_mode(manager')

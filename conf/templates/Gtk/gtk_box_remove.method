@@ -1,2 +1,0 @@
-  fun ref remove(child': GtkWidgetI): None =>
-    GtkBoxP.remove(this, child')

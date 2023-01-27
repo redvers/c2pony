@@ -1,2 +1,0 @@
-  fun append(combo_box': GtkComboBoxText, id': String, text': String): None =>
-    @gtk_combo_box_text_append(combo_box', id'.cstring(), text'.cstring())

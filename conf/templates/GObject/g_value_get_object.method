@@ -1,2 +1,2 @@
   fun ref get_object(): Pointer[None] tag =>
-    GValueP.get_object(this)
+    GValueP.get_object(this.ptr)

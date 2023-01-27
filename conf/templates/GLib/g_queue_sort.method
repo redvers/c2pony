@@ -1,2 +1,2 @@
   fun ref sort(compare_func': GCompareDataFunc, user_data': Pointer[None] tag): None =>
-    GQueueP.sort(this, compare_func', user_data')
+    GQueueP.sort(this.ptr, compare_func', user_data')

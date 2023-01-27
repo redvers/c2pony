@@ -1,2 +1,2 @@
-  fun get_flags(channel': GIOChannel): U32 =>
+  fun get_flags(channel': NullablePointer[GIOChannelT]): U32 =>
     @g_io_channel_get_flags(channel')

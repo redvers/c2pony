@@ -1,2 +1,0 @@
-  fun ref set_sender(value': String): None =>
-    GDBusMessageP.set_sender(this, value')

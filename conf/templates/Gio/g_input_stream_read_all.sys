@@ -1,2 +1,0 @@
-  fun read_all(stream': GInputStream, buffer': Pointer[None] tag, count': U64, bytes_read': Pointer[U64] tag, cancellable': GCancellable, error': GError): I32 =>
-    @g_input_stream_read_all(stream', buffer', count', bytes_read', cancellable', addressof error'.ptr)

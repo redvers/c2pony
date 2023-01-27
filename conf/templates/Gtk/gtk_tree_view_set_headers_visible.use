@@ -1,1 +1,0 @@
-use @gtk_tree_view_set_headers_visible[None](tree_view': GtkTreeView, headers_visible': I32)

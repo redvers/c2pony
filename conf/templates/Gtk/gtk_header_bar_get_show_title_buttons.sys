@@ -1,2 +1,0 @@
-  fun get_show_title_buttons(bar': GtkHeaderBar): I32 =>
-    @gtk_header_bar_get_show_title_buttons(bar')

@@ -1,2 +1,0 @@
-  fun ref get_propagation_limit(): U32 =>
-    GtkEventControllerP.get_propagation_limit(this)

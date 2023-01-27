@@ -1,2 +1,0 @@
-  fun ref get_newline_type(): U32 =>
-    GDataInputStreamP.get_newline_type(this)

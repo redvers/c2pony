@@ -1,2 +1,0 @@
-  fun ref set_header_func(update_header': GtkListBoxUpdateHeaderFunc, user_data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    GtkListBoxP.set_header_func(this, update_header', user_data', destroy')

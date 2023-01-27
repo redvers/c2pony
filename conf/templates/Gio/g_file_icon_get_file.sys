@@ -1,2 +1,0 @@
-  fun get_file(icon': GFileIcon): GFile =>
-    @g_file_icon_get_file(icon')

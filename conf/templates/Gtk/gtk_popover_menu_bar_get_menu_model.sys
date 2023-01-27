@@ -1,2 +1,0 @@
-  fun get_menu_model(bar': GtkPopoverMenuBar): GMenuModel =>
-    @gtk_popover_menu_bar_get_menu_model(bar')

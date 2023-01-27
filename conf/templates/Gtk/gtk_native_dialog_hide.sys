@@ -1,2 +1,0 @@
-  fun hide(self': GtkNativeDialog): None =>
-    @gtk_native_dialog_hide(self')

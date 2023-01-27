@@ -1,2 +1,0 @@
-  fun get_digits(scale': GtkScale): I32 =>
-    @gtk_scale_get_digits(scale')

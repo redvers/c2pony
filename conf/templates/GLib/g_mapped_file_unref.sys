@@ -1,2 +1,2 @@
-  fun unref(file': GMappedFile): None =>
+  fun unref(file': NullablePointer[GMappedFileT]): None =>
     @g_mapped_file_unref(file')

@@ -1,2 +1,0 @@
-  fun get_child_visible(widget': GtkWidgetI): I32 =>
-    @gtk_widget_get_child_visible(widget'.getptr())

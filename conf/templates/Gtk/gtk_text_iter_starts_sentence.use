@@ -1,1 +1,0 @@
-use @gtk_text_iter_starts_sentence[I32](iter': GtkTextIter)

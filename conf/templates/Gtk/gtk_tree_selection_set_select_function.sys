@@ -1,2 +1,0 @@
-  fun set_select_function(selection': GtkTreeSelection, func': GtkTreeSelectionFunc, data': Pointer[None] tag, destroy': GDestroyNotify): None =>
-    @gtk_tree_selection_set_select_function(selection', func', data', destroy')

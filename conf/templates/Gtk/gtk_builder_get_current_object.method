@@ -1,2 +1,0 @@
-  fun ref get_current_object(): Pointer[GObjectP] =>
-    GtkBuilderP.get_current_object(this)

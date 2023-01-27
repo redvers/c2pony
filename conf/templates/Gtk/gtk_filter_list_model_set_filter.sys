@@ -1,2 +1,0 @@
-  fun set_filter(self': GtkFilterListModel, filter': GtkFilter): None =>
-    @gtk_filter_list_model_set_filter(self', filter')

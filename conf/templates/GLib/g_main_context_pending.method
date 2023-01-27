@@ -1,2 +1,2 @@
   fun ref pending(): I32 =>
-    GMainContextP.pending(this)
+    GMainContextP.pending(this.ptr)

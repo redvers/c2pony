@@ -1,1 +1,0 @@
-use @gtk_shortcut_trigger_print_label[I32](self': GtkShortcutTrigger, display': GdkDisplay, string': GString)

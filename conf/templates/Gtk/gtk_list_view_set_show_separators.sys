@@ -1,2 +1,0 @@
-  fun set_show_separators(self': GtkListView, show_separators': I32): None =>
-    @gtk_list_view_set_show_separators(self', show_separators')

@@ -1,1 +1,0 @@
-use @gtk_paned_get_resize_end_child[I32](paned': GtkPaned)

@@ -1,2 +1,0 @@
-  fun close(window': GtkWindowI): None =>
-    @gtk_window_close(window'.getptr())

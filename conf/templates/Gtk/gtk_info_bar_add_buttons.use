@@ -1,1 +1,0 @@
-use @gtk_info_bar_add_buttons[None](info_bar': GtkInfoBar, first_button_text': Pointer[U8] tag, ...)

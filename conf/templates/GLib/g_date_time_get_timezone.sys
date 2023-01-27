@@ -1,2 +1,2 @@
-  fun get_timezone(datetime': GDateTime): GTimeZone =>
+  fun get_timezone(datetime': NullablePointer[GDateTimeT]): NullablePointer[GTimeZoneT] =>
     @g_date_time_get_timezone(datetime')

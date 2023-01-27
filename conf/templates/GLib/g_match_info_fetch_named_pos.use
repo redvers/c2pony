@@ -1,1 +1,1 @@
-use @g_match_info_fetch_named_pos[I32](match_info': GMatchInfo, name': Pointer[U8] tag, start_pos': Pointer[I32] tag, end_pos': Pointer[I32] tag)
+use @g_match_info_fetch_named_pos[I32](match_info': NullablePointer[GMatchInfoT], name': Pointer[U8] tag, start_pos': Pointer[I32] tag, end_pos': Pointer[I32] tag)

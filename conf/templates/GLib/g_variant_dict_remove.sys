@@ -1,2 +1,2 @@
-  fun remove(dict': GVariantDict, key': String): I32 =>
+  fun remove(dict': NullablePointer[GVariantDictT], key': String): I32 =>
     @g_variant_dict_remove(dict', key'.cstring())

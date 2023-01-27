@@ -1,2 +1,2 @@
-  fun io_create_watch(channel': GIOChannel, condition': U32): GSource =>
+  fun io_create_watch(channel': NullablePointer[GIOChannelT], condition': U32): NullablePointer[GSourceT] =>
     @g_io_create_watch(channel', condition')

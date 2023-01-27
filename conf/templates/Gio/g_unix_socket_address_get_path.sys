@@ -1,2 +1,0 @@
-  fun get_path(address': GUnixSocketAddress): String iso^ =>
-    String.from_cstring(@g_unix_socket_address_get_path(address')).clone()

@@ -1,2 +1,0 @@
-  fun get_byte_order(stream': GDataInputStream): U32 =>
-    @g_data_input_stream_get_byte_order(stream')

@@ -1,1 +1,0 @@
-use @gtk_window_handle_set_child[None](self': GtkWindowHandle, child': Pointer[GObjectP])

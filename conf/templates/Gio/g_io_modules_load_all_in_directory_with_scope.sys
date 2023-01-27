@@ -1,2 +1,0 @@
-  fun io_modules_load_all_in_directory_with_scope(dirname': String, scope': GIOModuleScope): GList =>
-    @g_io_modules_load_all_in_directory_with_scope(dirname'.cstring(), scope')

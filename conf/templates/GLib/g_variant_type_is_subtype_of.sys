@@ -1,2 +1,2 @@
-  fun is_subtype_of(type': GVariantType, supertype': GVariantType): I32 =>
+  fun is_subtype_of(type': NullablePointer[GVariantTypeT], supertype': NullablePointer[GVariantTypeT]): I32 =>
     @g_variant_type_is_subtype_of(type', supertype')

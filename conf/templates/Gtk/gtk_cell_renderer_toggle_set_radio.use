@@ -1,1 +1,0 @@
-use @gtk_cell_renderer_toggle_set_radio[None](toggle': GtkCellRendererToggle, radio': I32)

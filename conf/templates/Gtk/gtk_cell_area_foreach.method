@@ -1,2 +1,0 @@
-  fun ref foreach(callback': GtkCellCallback, callback_data': Pointer[None] tag): None =>
-    GtkCellAreaP.foreach(this, callback', callback_data')

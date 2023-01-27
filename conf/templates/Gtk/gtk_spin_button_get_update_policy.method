@@ -1,2 +1,0 @@
-  fun ref get_update_policy(): U32 =>
-    GtkSpinButtonP.get_update_policy(this)

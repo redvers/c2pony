@@ -1,1 +1,1 @@
-use @g_time_zone_new[GTimeZone](identifier': Pointer[U8] tag)
+use @g_time_zone_new[NullablePointer[GTimeZoneT]](identifier': Pointer[U8] tag)

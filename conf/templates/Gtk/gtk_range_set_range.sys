@@ -1,2 +1,0 @@
-  fun set_range(range': GtkRange, min': F64, max': F64): None =>
-    @gtk_range_set_range(range', min', max')

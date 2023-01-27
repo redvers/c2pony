@@ -1,1 +1,0 @@
-use @gtk_viewport_set_scroll_to_focus[None](viewport': GtkViewport, scroll_to_focus': I32)

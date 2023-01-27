@@ -1,2 +1,0 @@
-  fun set_search_path(self': GtkIconTheme, path': Pointer[Pointer[U8]] tag): None =>
-    @gtk_icon_theme_set_search_path(self', path')

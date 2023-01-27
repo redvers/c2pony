@@ -1,2 +1,2 @@
   fun ref stop(): None =>
-    GTimerP.stop(this)
+    GTimerP.stop(this.ptr)

@@ -1,2 +1,0 @@
-  fun measure(widget': GtkWidgetI, orientation': U32, for_size': I32, minimum': Pointer[I32] tag, natural': Pointer[I32] tag, minimum_baseline': Pointer[I32] tag, natural_baseline': Pointer[I32] tag): None =>
-    @gtk_widget_measure(widget'.getptr(), orientation', for_size', minimum', natural', minimum_baseline', natural_baseline')

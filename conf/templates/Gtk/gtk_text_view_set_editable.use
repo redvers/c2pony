@@ -1,1 +1,0 @@
-use @gtk_text_view_set_editable[None](text_view': GtkTextView, setting': I32)

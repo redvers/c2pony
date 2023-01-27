@@ -1,2 +1,0 @@
-  fun set_tabs(self': GtkText, tabs': PangoTabArray): None =>
-    @gtk_text_set_tabs(self', tabs')

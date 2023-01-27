@@ -1,2 +1,0 @@
-  fun ref get_child(): Pointer[GObjectP] =>
-    GtkDragIconP.get_child(this)

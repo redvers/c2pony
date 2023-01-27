@@ -1,2 +1,0 @@
-  fun ref communicate_utf8(stdin_buf': String, cancellable': GCancellable, stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    GSubprocessP.communicate_utf8(this, stdin_buf', cancellable', stdout_buf', stderr_buf', error')

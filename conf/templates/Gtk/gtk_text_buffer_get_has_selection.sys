@@ -1,2 +1,0 @@
-  fun get_has_selection(buffer': GtkTextBuffer): I32 =>
-    @gtk_text_buffer_get_has_selection(buffer')

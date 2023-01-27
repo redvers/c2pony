@@ -1,2 +1,2 @@
-  fun remove_range(array': GArray, index': U32, length': U32): GArray =>
+  fun remove_range(array': NullablePointer[GArrayT], index': U32, length': U32): NullablePointer[GArrayT] =>
     @g_array_remove_range(array', index', length')

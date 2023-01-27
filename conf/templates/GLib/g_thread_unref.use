@@ -1,1 +1,1 @@
-use @g_thread_unref[None](thread': GThread)
+use @g_thread_unref[None](thread': NullablePointer[GThreadT])

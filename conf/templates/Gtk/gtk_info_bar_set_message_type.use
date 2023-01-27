@@ -1,1 +1,0 @@
-use @gtk_info_bar_set_message_type[None](info_bar': GtkInfoBar, message_type': U32)

@@ -1,2 +1,2 @@
-  fun signal_emitv(instance_and_params': GValue, signal_id': U32, detail': U32, return_value': GValue): None =>
+  fun signal_emitv(instance_and_params': NullablePointer[GValueT], signal_id': U32, detail': U32, return_value': NullablePointer[GValueT]): None =>
     @g_signal_emitv(instance_and_params', signal_id', detail', return_value')

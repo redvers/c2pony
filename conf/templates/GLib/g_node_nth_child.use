@@ -1,1 +1,1 @@
-use @g_node_nth_child[GNode](node': GNode, n': U32)
+use @g_node_nth_child[NullablePointer[GNodeT]](node': NullablePointer[GNodeT], n': U32)

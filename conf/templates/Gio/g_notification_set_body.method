@@ -1,2 +1,0 @@
-  fun ref set_body(body': String): None =>
-    GNotificationP.set_body(this, body')

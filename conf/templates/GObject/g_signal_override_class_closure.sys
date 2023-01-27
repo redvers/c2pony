@@ -1,2 +1,2 @@
-  fun signal_override_class_closure(signal_id': U32, instance_type': U64, class_closure': GClosure): None =>
+  fun signal_override_class_closure(signal_id': U32, instance_type': U64, class_closure': NullablePointer[GClosureT]): None =>
     @g_signal_override_class_closure(signal_id', instance_type', class_closure')

@@ -1,1 +1,1 @@
-use @g_array_free[Pointer[U8]](array': GArray, free_segment': I32)
+use @g_array_free[Pointer[U8]](array': NullablePointer[GArrayT], free_segment': I32)

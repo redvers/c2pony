@@ -1,2 +1,0 @@
-  fun get(connection': GDBusConnection, bus_name': String, object_path': String): GDBusMenuModel =>
-    @g_dbus_menu_model_get(connection', bus_name'.cstring(), object_path'.cstring())

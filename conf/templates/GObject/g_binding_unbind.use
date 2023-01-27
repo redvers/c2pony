@@ -1,1 +1,1 @@
-use @g_binding_unbind[None](binding': GBinding)
+use @g_binding_unbind[None](binding': NullablePointer[GBindingT])

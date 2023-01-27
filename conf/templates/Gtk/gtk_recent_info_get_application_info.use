@@ -1,1 +1,0 @@
-use @gtk_recent_info_get_application_info[I32](info': GtkRecentInfo, app_name': Pointer[U8] tag, app_exec': Pointer[Pointer[U8]] tag, count': Pointer[U32] tag, stamp': Pointer[GDateTime])

@@ -1,2 +1,2 @@
-  fun new_with_seed_array(seed': Pointer[U32] tag, seed_length': U32): GRand =>
+  fun new_with_seed_array(seed': Pointer[U32] tag, seed_length': U32): NullablePointer[GRandT] =>
     @g_rand_new_with_seed_array(seed', seed_length')

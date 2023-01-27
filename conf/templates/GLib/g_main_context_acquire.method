@@ -1,2 +1,2 @@
   fun ref acquire(): I32 =>
-    GMainContextP.acquire(this)
+    GMainContextP.acquire(this.ptr)

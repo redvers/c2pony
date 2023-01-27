@@ -1,1 +1,0 @@
-use @gtk_expander_set_use_underline[None](expander': GtkExpander, use_underline': I32)

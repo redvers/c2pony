@@ -1,1 +1,1 @@
-use @g_variant_ref_sink[GVariant](value': GVariant)
+use @g_variant_ref_sink[NullablePointer[GVariantT]](value': NullablePointer[GVariantT])

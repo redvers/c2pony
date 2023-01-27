@@ -1,2 +1,2 @@
   fun ref ref_sink(): Pointer[None] tag =>
-    GObjectP.ref_sink(this)
+    GObjectP.ref_sink(this.ptr)

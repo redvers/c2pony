@@ -1,1 +1,1 @@
-use @g_mapped_file_new_from_fd[GMappedFile](fd': I32, writable': I32, error': Pointer[NullablePointer[GErrorT]])
+use @g_mapped_file_new_from_fd[NullablePointer[GMappedFileT]](fd': I32, writable': I32, error': Pointer[NullablePointer[GErrorT]])

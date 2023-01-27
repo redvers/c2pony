@@ -1,2 +1,0 @@
-  fun get_file(self': GtkMediaFile): GFile =>
-    @gtk_media_file_get_file(self')

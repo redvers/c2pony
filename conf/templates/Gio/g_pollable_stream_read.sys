@@ -1,2 +1,0 @@
-  fun pollable_stream_read(stream': GInputStream, buffer': Pointer[None] tag, count': U64, blocking': I32, cancellable': GCancellable, error': GError): I64 =>
-    @g_pollable_stream_read(stream', buffer', count', blocking', cancellable', addressof error'.ptr)

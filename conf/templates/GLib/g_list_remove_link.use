@@ -1,1 +1,1 @@
-use @g_list_remove_link[GList](list': GList, llink': GList)
+use @g_list_remove_link[NullablePointer[GListT]](list': NullablePointer[GListT], llink': NullablePointer[GListT])

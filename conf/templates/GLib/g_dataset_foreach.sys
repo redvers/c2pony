@@ -1,2 +1,2 @@
-  fun dataset_foreach(dataset_location': Pointer[None] tag, func': GDataForeachFunc, user_data': Pointer[None] tag): None =>
+  fun dataset_foreach(dataset_location': Pointer[None] tag, func': Pointer[None], user_data': Pointer[None] tag): None =>
     @g_dataset_foreach(dataset_location', func', user_data')

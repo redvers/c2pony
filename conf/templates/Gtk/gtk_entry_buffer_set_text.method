@@ -1,2 +1,0 @@
-  fun ref set_text(chars': String, n_chars': I32): None =>
-    GtkEntryBufferP.set_text(this, chars', n_chars')

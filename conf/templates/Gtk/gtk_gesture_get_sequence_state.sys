@@ -1,2 +1,0 @@
-  fun get_sequence_state(gesture': GtkGesture, sequence': GdkEventSequence): U32 =>
-    @gtk_gesture_get_sequence_state(gesture', sequence')

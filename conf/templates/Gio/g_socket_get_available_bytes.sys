@@ -1,2 +1,0 @@
-  fun get_available_bytes(socket': GSocket): I64 =>
-    @g_socket_get_available_bytes(socket')

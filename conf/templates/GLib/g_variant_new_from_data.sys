@@ -1,2 +1,2 @@
-  fun new_from_data(type': GVariantType, data': Pointer[None] tag, size': U64, trusted': I32, notify': GDestroyNotify, user_data': Pointer[None] tag): GVariant =>
-    @g_variant_new_from_data(type', data', size', trusted', notify', user_data')
+  new new_from_data(type': NullablePointer[GVariantTypeT], data': Pointer[None] tag, size': U64, trusted': I32, notify': Pointer[None], user_data': Pointer[None] tag) =>
+    ptr = @g_variant_new_from_data(type', data', size', trusted', notify', user_data')

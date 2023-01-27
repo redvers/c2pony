@@ -1,2 +1,2 @@
-  fun unref(tree': GTree): None =>
+  fun unref(tree': NullablePointer[GTreeT]): None =>
     @g_tree_unref(tree')

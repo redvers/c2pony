@@ -1,2 +1,2 @@
   fun ref get_type_string(): String iso^ =>
-    GVariantP.get_type_string(this)
+    GVariantP.get_type_string(this.ptr)

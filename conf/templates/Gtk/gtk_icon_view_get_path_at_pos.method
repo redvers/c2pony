@@ -1,2 +1,0 @@
-  fun ref get_path_at_pos(x': I32, y': I32): GtkTreePath =>
-    GtkIconViewP.get_path_at_pos(this, x', y')

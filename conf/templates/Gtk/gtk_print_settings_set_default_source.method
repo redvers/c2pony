@@ -1,2 +1,0 @@
-  fun ref set_default_source(default_source': String): None =>
-    GtkPrintSettingsP.set_default_source(this, default_source')

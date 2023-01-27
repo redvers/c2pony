@@ -1,1 +1,0 @@
-use @gtk_cell_renderer_stop_editing[None](cell': GtkCellRenderer, canceled': I32)

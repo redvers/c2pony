@@ -1,1 +1,1 @@
-use @g_hook_ref[GHook](hook_list': GHookList, hook': GHook)
+use @g_hook_ref[NullablePointer[GHookT]](hook_list': NullablePointer[GHookListT], hook': NullablePointer[GHookT])

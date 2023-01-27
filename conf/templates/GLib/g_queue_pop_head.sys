@@ -1,2 +1,2 @@
-  fun pop_head(queue': GQueue): Pointer[None] tag =>
+  fun pop_head(queue': NullablePointer[GQueueT]): Pointer[None] tag =>
     @g_queue_pop_head(queue')

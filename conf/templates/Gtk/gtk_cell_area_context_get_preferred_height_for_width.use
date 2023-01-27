@@ -1,1 +1,0 @@
-use @gtk_cell_area_context_get_preferred_height_for_width[None](context': GtkCellAreaContext, width': I32, minimum_height': Pointer[I32] tag, natural_height': Pointer[I32] tag)

@@ -1,2 +1,2 @@
-  fun ref reset(): GValue =>
-    GValueP.reset(this)
+  fun ref reset(): NullablePointer[GValueT] =>
+    GValueP.reset(this.ptr)

@@ -1,2 +1,0 @@
-  fun ref set_resource(resource_path': String): None =>
-    GtkMediaFileP.set_resource(this, resource_path')

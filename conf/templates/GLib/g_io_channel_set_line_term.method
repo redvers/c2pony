@@ -1,2 +1,2 @@
   fun ref set_line_term(line_term': String, length': I32): None =>
-    GIOChannelP.set_line_term(this, line_term', length')
+    GIOChannelP.set_line_term(this.ptr, line_term', length')

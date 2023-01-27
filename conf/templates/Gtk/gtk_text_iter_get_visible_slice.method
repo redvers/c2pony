@@ -1,2 +1,0 @@
-  fun ref get_visible_slice(end': GtkTextIter): String iso^ =>
-    GtkTextIterP.get_visible_slice(this, end')

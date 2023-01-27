@@ -1,2 +1,0 @@
-  fun ref get_visible_child(): Pointer[GObjectP] =>
-    GtkStackP.get_visible_child(this)

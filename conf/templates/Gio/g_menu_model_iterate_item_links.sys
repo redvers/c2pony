@@ -1,2 +1,0 @@
-  fun iterate_item_links(model': GMenuModel, item_index': I32): GMenuLinkIter =>
-    @g_menu_model_iterate_item_links(model', item_index')

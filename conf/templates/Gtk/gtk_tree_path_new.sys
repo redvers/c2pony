@@ -1,2 +1,0 @@
-  fun new(): GtkTreePath =>
-    @gtk_tree_path_new()

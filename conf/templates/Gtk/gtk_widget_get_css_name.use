@@ -1,1 +1,0 @@
-use @gtk_widget_get_css_name[Pointer[U8]](self': Pointer[GObjectP])

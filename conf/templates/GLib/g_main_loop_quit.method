@@ -1,2 +1,2 @@
   fun ref quit(): None =>
-    GMainLoopP.quit(this)
+    GMainLoopP.quit(this.ptr)

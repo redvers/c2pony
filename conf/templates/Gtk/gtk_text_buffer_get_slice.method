@@ -1,2 +1,0 @@
-  fun ref get_slice(start': GtkTextIter, end': GtkTextIter, include_hidden_chars': I32): String iso^ =>
-    GtkTextBufferP.get_slice(this, start', end', include_hidden_chars')

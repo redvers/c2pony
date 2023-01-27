@@ -1,2 +1,2 @@
-  fun ref register_flags(name': String, const_static_values': GFlagsValue): U64 =>
-    GTypeModuleP.register_flags(this, name', const_static_values')
+  fun ref register_flags(name': String, const_static_values': NullablePointer[GFlagsValueT]): U64 =>
+    GTypeModuleP.register_flags(this.ptr, name', const_static_values')

@@ -1,2 +1,0 @@
-  fun ref get_drag_dest_row(path': Pointer[GtkTreePath], pos': Pointer[U32] tag): None =>
-    GtkTreeViewP.get_drag_dest_row(this, path', pos')

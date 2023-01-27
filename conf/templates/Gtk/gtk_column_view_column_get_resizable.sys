@@ -1,2 +1,0 @@
-  fun get_resizable(self': GtkColumnViewColumn): I32 =>
-    @gtk_column_view_column_get_resizable(self')

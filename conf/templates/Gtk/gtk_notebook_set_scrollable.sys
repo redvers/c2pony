@@ -1,2 +1,0 @@
-  fun set_scrollable(notebook': GtkNotebook, scrollable': I32): None =>
-    @gtk_notebook_set_scrollable(notebook', scrollable')

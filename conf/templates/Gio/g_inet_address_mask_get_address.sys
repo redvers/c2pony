@@ -1,2 +1,0 @@
-  fun get_address(mask': GInetAddressMask): GInetAddress =>
-    @g_inet_address_mask_get_address(mask')

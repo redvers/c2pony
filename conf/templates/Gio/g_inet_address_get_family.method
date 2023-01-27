@@ -1,2 +1,0 @@
-  fun ref get_family(): U32 =>
-    GInetAddressP.get_family(this)

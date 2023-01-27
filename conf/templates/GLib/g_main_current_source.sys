@@ -1,2 +1,2 @@
-  fun main_current_source(): GSource =>
+  fun main_current_source(): NullablePointer[GSourceT] =>
     @g_main_current_source()

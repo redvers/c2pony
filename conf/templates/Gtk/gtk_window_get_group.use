@@ -1,1 +1,0 @@
-use @gtk_window_get_group[GtkWindowGroup](window': Pointer[GObjectP])

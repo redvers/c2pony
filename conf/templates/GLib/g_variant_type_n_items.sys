@@ -1,2 +1,2 @@
-  fun n_items(type': GVariantType): U64 =>
+  fun n_items(type': NullablePointer[GVariantTypeT]): U64 =>
     @g_variant_type_n_items(type')

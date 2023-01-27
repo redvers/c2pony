@@ -1,2 +1,0 @@
-  fun get_volumes(volume_monitor': GVolumeMonitor): GList =>
-    @g_volume_monitor_get_volumes(volume_monitor')

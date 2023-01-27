@@ -1,2 +1,0 @@
-  fun get_child_widget(layout_child': GtkLayoutChild): Pointer[GObjectP] =>
-@gtk_layout_child_get_child_widget(layout_child')

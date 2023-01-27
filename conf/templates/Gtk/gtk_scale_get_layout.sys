@@ -1,2 +1,0 @@
-  fun get_layout(scale': GtkScale): PangoLayout =>
-    @gtk_scale_get_layout(scale')

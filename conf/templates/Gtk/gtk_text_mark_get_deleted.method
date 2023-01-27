@@ -1,2 +1,0 @@
-  fun ref get_deleted(): I32 =>
-    GtkTextMarkP.get_deleted(this)

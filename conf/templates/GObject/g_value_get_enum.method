@@ -1,2 +1,2 @@
   fun ref get_enum(): I32 =>
-    GValueP.get_enum(this)
+    GValueP.get_enum(this.ptr)

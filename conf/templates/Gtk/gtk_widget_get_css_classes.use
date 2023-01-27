@@ -1,1 +1,0 @@
-use @gtk_widget_get_css_classes[Pointer[Pointer[U8]] tag](widget': Pointer[GObjectP])

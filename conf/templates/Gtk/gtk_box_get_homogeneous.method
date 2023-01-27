@@ -1,2 +1,0 @@
-  fun ref get_homogeneous(): I32 =>
-    GtkBoxP.get_homogeneous(this)

@@ -1,2 +1,2 @@
   fun ref get_ignore_unknown_options(): I32 =>
-    GOptionContextP.get_ignore_unknown_options(this)
+    GOptionContextP.get_ignore_unknown_options(this.ptr)

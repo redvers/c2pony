@@ -1,2 +1,2 @@
-  fun new_from_unix_utc(t': I64): GDateTime =>
-    @g_date_time_new_from_unix_utc(t')
+  new new_from_unix_utc(t': I64) =>
+    ptr = @g_date_time_new_from_unix_utc(t')

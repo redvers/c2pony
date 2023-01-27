@@ -2,5 +2,5 @@
 use "../GLib"
 use "lib:gobject-2.0"
 struct GObjectConstructParamT
-  var pspec': GParamSpec = GParamSpec
-  var value': GValue = GValue
+  var pspec': NullablePointer[GParamSpecT] = NullablePointer[GParamSpecT].none()
+  var value': NullablePointer[GValueT] = NullablePointer[GValueT].none()

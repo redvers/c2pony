@@ -1,1 +1,0 @@
-use @gtk_keyval_trigger_get_modifiers[U32](self': GtkKeyvalTrigger)

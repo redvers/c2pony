@@ -1,2 +1,2 @@
-  fun free(bookmark': GBookmarkFile): None =>
+  fun free(bookmark': NullablePointer[GBookmarkFileT]): None =>
     @g_bookmark_file_free(bookmark')

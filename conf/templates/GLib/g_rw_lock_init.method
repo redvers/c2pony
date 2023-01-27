@@ -1,2 +1,2 @@
   fun ref init(): None =>
-    GRWLockP.init(this)
+    GRWLockP.init(this.ptr)

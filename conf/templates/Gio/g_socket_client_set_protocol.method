@@ -1,2 +1,0 @@
-  fun ref set_protocol(protocol': I32): None =>
-    GSocketClientP.set_protocol(this, protocol')

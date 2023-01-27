@@ -1,2 +1,2 @@
-  fun prepend(seq': GSequence, data': Pointer[None] tag): GSequenceNode =>
+  fun prepend(seq': NullablePointer[GSequenceT], data': Pointer[None] tag): NullablePointer[GSequenceNodeT] =>
     @g_sequence_prepend(seq', data')

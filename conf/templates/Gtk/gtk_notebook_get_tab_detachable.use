@@ -1,1 +1,0 @@
-use @gtk_notebook_get_tab_detachable[I32](notebook': GtkNotebook, child': Pointer[GObjectP])

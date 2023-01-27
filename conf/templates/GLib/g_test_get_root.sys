@@ -1,2 +1,2 @@
-  fun test_get_root(): GTestSuite =>
+  fun test_get_root(): NullablePointer[GTestSuiteT] =>
     @g_test_get_root()

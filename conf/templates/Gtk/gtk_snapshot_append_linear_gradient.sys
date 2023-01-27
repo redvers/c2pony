@@ -1,2 +1,0 @@
-  fun append_linear_gradient(snapshot': GdkSnapshot, bounds': graphenerectt, start_point': graphenepointt, end_point': graphenepointt, stops': GskColorStop, n_stops': U64): None =>
-    @gtk_snapshot_append_linear_gradient(snapshot', bounds', start_point', end_point', stops', n_stops')

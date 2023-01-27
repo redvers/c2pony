@@ -1,2 +1,0 @@
-  fun ref remove(widget': GtkWidgetI): None =>
-    GtkFixedP.remove(this, widget')

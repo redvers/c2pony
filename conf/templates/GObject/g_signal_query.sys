@@ -1,2 +1,2 @@
-  fun signal_query(signal_id': U32, query': GSignalQuery): None =>
+  fun signal_query(signal_id': U32, query': NullablePointer[GSignalQueryT]): None =>
     @g_signal_query(signal_id', query')

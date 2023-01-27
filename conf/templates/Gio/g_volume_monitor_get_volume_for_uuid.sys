@@ -1,2 +1,0 @@
-  fun get_volume_for_uuid(volume_monitor': GVolumeMonitor, uuid': String): GVolume =>
-    @g_volume_monitor_get_volume_for_uuid(volume_monitor', uuid'.cstring())

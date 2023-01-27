@@ -1,2 +1,0 @@
-  fun set_scale(context': GtkStyleContext, scale': I32): None =>
-    @gtk_style_context_set_scale(context', scale')

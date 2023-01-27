@@ -1,2 +1,0 @@
-  fun get_pages(notebook': GtkNotebook): GListModel =>
-    @gtk_notebook_get_pages(notebook')

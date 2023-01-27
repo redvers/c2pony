@@ -1,2 +1,0 @@
-  fun ref take_error(error': GError): None =>
-    GDBusMethodInvocationP.take_error(this, error')

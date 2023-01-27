@@ -1,1 +1,0 @@
-use @gtk_builder_get_object[Pointer[GObjectP]](builder': Pointer[GObjectP], name': Pointer[U8] tag)

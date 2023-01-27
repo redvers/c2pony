@@ -1,2 +1,0 @@
-  fun get_is_expanded(cell': GtkCellRenderer): I32 =>
-    @gtk_cell_renderer_get_is_expanded(cell')

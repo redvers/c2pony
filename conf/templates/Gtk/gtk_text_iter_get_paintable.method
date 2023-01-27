@@ -1,2 +1,0 @@
-  fun ref get_paintable(): GdkPaintable =>
-    GtkTextIterP.get_paintable(this)

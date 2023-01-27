@@ -1,2 +1,2 @@
   fun ref get_data(size': Pointer[U64] tag): Pointer[None] tag =>
-    GBytesP.get_data(this, size')
+    GBytesP.get_data(this.ptr, size')

@@ -1,2 +1,0 @@
-  fun ref add_mime_type(mime_type': String): None =>
-    GtkFileFilterP.add_mime_type(this, mime_type')

@@ -1,1 +1,0 @@
-use @gtk_menu_button_set_label[None](menu_button': GtkMenuButton, label': Pointer[U8] tag)

@@ -1,1 +1,0 @@
-use @gtk_assistant_get_page_type[U32](assistant': GtkAssistant, page': Pointer[GObjectP])

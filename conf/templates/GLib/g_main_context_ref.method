@@ -1,2 +1,2 @@
-  fun ref ref(): GMainContext =>
-    GMainContextP.ref(this)
+  fun ref ref(): NullablePointer[GMainContextT] =>
+    GMainContextP.ref(this.ptr)

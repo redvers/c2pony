@@ -1,1 +1,0 @@
-use @gtk_combo_box_text_prepend_text[None](combo_box': GtkComboBoxText, text': Pointer[U8] tag)

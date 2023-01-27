@@ -1,1 +1,0 @@
-use @g_dbus_address_get_stream_finish[GIOStream](res': GAsyncResult, out_guid': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]])

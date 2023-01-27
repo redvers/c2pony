@@ -1,2 +1,2 @@
-  fun print(value': GVariant, type_annotate': I32): String iso^ =>
+  fun print(value': NullablePointer[GVariantT], type_annotate': I32): String iso^ =>
     String.from_cstring(@g_variant_print(value', type_annotate')).clone()

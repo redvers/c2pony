@@ -1,2 +1,0 @@
-  fun dbus_address_get_stream(address': String, cancellable': GCancellable, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_dbus_address_get_stream(address'.cstring(), cancellable', callback', user_data')

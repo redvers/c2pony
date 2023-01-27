@@ -1,2 +1,0 @@
-  fun get_modal(self': GtkAppChooserButton): I32 =>
-    @gtk_app_chooser_button_get_modal(self')

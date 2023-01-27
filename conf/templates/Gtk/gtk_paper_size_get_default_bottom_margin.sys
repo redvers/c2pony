@@ -1,2 +1,0 @@
-  fun get_default_bottom_margin(size': GtkPaperSize, unit': U32): F64 =>
-    @gtk_paper_size_get_default_bottom_margin(size', unit')

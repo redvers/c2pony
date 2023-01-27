@@ -1,2 +1,2 @@
   fun ref is_empty(): I32 =>
-    GSequenceP.is_empty(this)
+    GSequenceP.is_empty(this.ptr)

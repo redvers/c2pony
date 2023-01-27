@@ -1,2 +1,0 @@
-  fun ref collapse_row(path': GtkTreePath): I32 =>
-    GtkTreeViewP.collapse_row(this, path')

@@ -1,2 +1,0 @@
-  fun ref get_widget(): Pointer[GObjectP] =>
-    GtkWidgetPaintableP.get_widget(this)

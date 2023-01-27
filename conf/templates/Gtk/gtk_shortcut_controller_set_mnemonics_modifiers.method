@@ -1,2 +1,0 @@
-  fun ref set_mnemonics_modifiers(modifiers': U32): None =>
-    GtkShortcutControllerP.set_mnemonics_modifiers(this, modifiers')

@@ -1,2 +1,2 @@
-  fun new(callback_func': GCallback, user_data': Pointer[None] tag, destroy_data': GClosureNotify): GClosure =>
+  fun new(callback_func': GCallback, user_data': Pointer[None] tag, destroy_data': GClosureNotify): NullablePointer[GClosureT] =>
     @g_cclosure_new(callback_func', user_data', destroy_data')

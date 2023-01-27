@@ -1,1 +1,1 @@
-use @g_array_insert_vals[GArray](array': GArray, index': U32, data': Pointer[None] tag, len': U32)
+use @g_array_insert_vals[NullablePointer[GArrayT]](array': NullablePointer[GArrayT], index': U32, data': Pointer[None] tag, len': U32)

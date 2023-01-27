@@ -1,2 +1,0 @@
-  fun set_artists(about': GtkAboutDialog, artists': Pointer[Pointer[U8]] tag): None =>
-    @gtk_about_dialog_set_artists(about', artists')

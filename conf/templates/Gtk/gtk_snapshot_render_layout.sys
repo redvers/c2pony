@@ -1,2 +1,0 @@
-  fun render_layout(snapshot': GdkSnapshot, context': GtkStyleContext, x': F64, y': F64, layout': PangoLayout): None =>
-    @gtk_snapshot_render_layout(snapshot', context', x', y', layout')

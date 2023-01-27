@@ -1,2 +1,0 @@
-  fun ref get_headers_clickable(): I32 =>
-    GtkTreeViewP.get_headers_clickable(this)

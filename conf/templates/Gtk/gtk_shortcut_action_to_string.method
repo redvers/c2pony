@@ -1,2 +1,0 @@
-  fun ref to_string(): String iso^ =>
-    GtkShortcutActionP.to_string(this)

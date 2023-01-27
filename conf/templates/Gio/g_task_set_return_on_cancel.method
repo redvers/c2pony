@@ -1,2 +1,0 @@
-  fun ref set_return_on_cancel(return_on_cancel': I32): I32 =>
-    GTaskP.set_return_on_cancel(this, return_on_cancel')

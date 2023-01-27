@@ -1,1 +1,1 @@
-use @g_weak_ref_set[None](weak_ref': anon_3672, object': Pointer[None] tag)
+use @g_weak_ref_set[None](weak_ref': NullablePointer[anon_3672T], object': Pointer[None] tag)

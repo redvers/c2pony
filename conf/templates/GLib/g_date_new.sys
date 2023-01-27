@@ -1,2 +1,2 @@
-  fun new(): GDate =>
-    @g_date_new()
+  new new() =>
+    ptr = @g_date_new()

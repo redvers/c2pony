@@ -1,2 +1,0 @@
-  fun set_text(pbar': GtkProgressBar, text': String): None =>
-    @gtk_progress_bar_set_text(pbar', text'.cstring())

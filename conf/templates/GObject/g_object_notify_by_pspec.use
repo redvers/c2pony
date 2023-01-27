@@ -1,1 +1,1 @@
-use @g_object_notify_by_pspec[None](object': Pointer[GObjectP], pspec': GParamSpec)
+use @g_object_notify_by_pspec[None](object': NullablePointer[GObjectT], pspec': NullablePointer[GParamSpecT])

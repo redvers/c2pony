@@ -1,1 +1,0 @@
-use @gtk_window_controls_get_side[U32](self': GtkWindowControls)

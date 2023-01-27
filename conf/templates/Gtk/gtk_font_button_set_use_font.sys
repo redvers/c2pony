@@ -1,2 +1,0 @@
-  fun set_use_font(font_button': GtkFontButton, use_font': I32): None =>
-    @gtk_font_button_set_use_font(font_button', use_font')

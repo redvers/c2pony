@@ -1,1 +1,0 @@
-use @g_dbus_object_skeleton_set_object_path[None](object': GDBusObjectSkeleton, object_path': Pointer[U8] tag)

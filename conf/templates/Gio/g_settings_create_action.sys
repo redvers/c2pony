@@ -1,2 +1,0 @@
-  fun create_action(settings': GSettings, key': String): GAction =>
-    @g_settings_create_action(settings', key'.cstring())

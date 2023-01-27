@@ -1,2 +1,0 @@
-  fun ref add_resource_path(path': String): None =>
-    GtkIconThemeP.add_resource_path(this, path')

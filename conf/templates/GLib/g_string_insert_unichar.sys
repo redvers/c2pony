@@ -1,2 +1,2 @@
-  fun insert_unichar(string': GString, pos': I64, wc': U32): GString =>
+  fun insert_unichar(string': NullablePointer[GStringT], pos': I64, wc': U32): NullablePointer[GStringT] =>
     @g_string_insert_unichar(string', pos', wc')

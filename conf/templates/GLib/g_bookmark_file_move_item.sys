@@ -1,2 +1,2 @@
-  fun move_item(bookmark': GBookmarkFile, old_uri': String, new_uri': String, error': GError): I32 =>
-    @g_bookmark_file_move_item(bookmark', old_uri'.cstring(), new_uri'.cstring(), addressof error'.ptr)
+  fun move_item(bookmark': NullablePointer[GBookmarkFileT], old_uri': String, new_uri': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_bookmark_file_move_item(bookmark', old_uri'.cstring(), new_uri'.cstring(), error')

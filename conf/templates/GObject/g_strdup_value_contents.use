@@ -1,1 +1,1 @@
-use @g_strdup_value_contents[Pointer[U8]](value': GValue)
+use @g_strdup_value_contents[Pointer[U8]](value': NullablePointer[GValueT])

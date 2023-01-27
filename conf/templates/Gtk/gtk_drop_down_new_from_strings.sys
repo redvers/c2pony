@@ -1,2 +1,0 @@
-  fun new_from_strings(strings': Pointer[Pointer[U8]] tag): Pointer[GObjectP] =>
-@gtk_drop_down_new_from_strings(strings')

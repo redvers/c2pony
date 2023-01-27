@@ -1,2 +1,0 @@
-  fun set_activates_default(entry': GtkEntry, setting': I32): None =>
-    @gtk_entry_set_activates_default(entry', setting')

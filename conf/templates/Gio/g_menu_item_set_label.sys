@@ -1,2 +1,0 @@
-  fun set_label(menu_item': GMenuItem, label': String): None =>
-    @g_menu_item_set_label(menu_item', label'.cstring())

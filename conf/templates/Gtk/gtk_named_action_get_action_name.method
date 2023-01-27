@@ -1,2 +1,0 @@
-  fun ref get_action_name(): String iso^ =>
-    GtkNamedActionP.get_action_name(this)

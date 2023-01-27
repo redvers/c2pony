@@ -1,2 +1,0 @@
-  fun get_allowed(permission': GPermission): I32 =>
-    @g_permission_get_allowed(permission')

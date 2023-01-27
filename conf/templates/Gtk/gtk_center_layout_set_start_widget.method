@@ -1,2 +1,0 @@
-  fun ref set_start_widget(widget': GtkWidgetI): None =>
-    GtkCenterLayoutP.set_start_widget(this, widget')

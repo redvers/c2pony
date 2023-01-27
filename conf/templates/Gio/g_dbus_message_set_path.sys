@@ -1,2 +1,0 @@
-  fun set_path(message': GDBusMessage, value': String): None =>
-    @g_dbus_message_set_path(message', value'.cstring())

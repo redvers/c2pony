@@ -1,2 +1,0 @@
-  fun get_expression(self': GtkDropDown): GtkExpression =>
-    @gtk_drop_down_get_expression(self')

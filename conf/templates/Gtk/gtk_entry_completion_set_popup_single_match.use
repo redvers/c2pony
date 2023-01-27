@@ -1,1 +1,0 @@
-use @gtk_entry_completion_set_popup_single_match[None](completion': GtkEntryCompletion, popup_single_match': I32)

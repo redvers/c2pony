@@ -1,1 +1,1 @@
-use @g_array_binary_search[I32](array': GArray, target': Pointer[None] tag, compare_func': GCompareFunc, out_match_index': Pointer[U32] tag)
+use @g_array_binary_search[I32](array': NullablePointer[GArrayT], target': Pointer[None] tag, compare_func': GCompareFunc, out_match_index': Pointer[U32] tag)

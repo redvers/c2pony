@@ -1,2 +1,0 @@
-  fun get_drop(self': GtkDropControllerMotion): GdkDrop =>
-    @gtk_drop_controller_motion_get_drop(self')

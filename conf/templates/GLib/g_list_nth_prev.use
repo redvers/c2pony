@@ -1,1 +1,1 @@
-use @g_list_nth_prev[GList](list': GList, n': U32)
+use @g_list_nth_prev[NullablePointer[GListT]](list': NullablePointer[GListT], n': U32)

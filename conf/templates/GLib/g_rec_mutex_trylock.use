@@ -1,1 +1,1 @@
-use @g_rec_mutex_trylock[I32](rec_mutex': GRecMutex)
+use @g_rec_mutex_trylock[I32](rec_mutex': NullablePointer[GRecMutexT])

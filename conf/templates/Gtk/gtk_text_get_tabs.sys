@@ -1,2 +1,0 @@
-  fun get_tabs(self': GtkText): PangoTabArray =>
-    @gtk_text_get_tabs(self')

@@ -1,2 +1,0 @@
-  fun ref get_hscrollbar(): Pointer[GObjectP] =>
-    GtkScrolledWindowP.get_hscrollbar(this)

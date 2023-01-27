@@ -1,2 +1,0 @@
-  fun ref get_inline_selection(): I32 =>
-    GtkEntryCompletionP.get_inline_selection(this)

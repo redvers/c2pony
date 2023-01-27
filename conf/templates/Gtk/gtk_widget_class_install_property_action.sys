@@ -1,2 +1,0 @@
-  fun install_property_action(widget_class': GtkWidgetClass, action_name': String, property_name': String): None =>
-    @gtk_widget_class_install_property_action(widget_class', action_name'.cstring(), property_name'.cstring())

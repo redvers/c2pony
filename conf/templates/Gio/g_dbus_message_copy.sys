@@ -1,2 +1,0 @@
-  fun copy(message': GDBusMessage, error': GError): GDBusMessage =>
-    @g_dbus_message_copy(message', addressof error'.ptr)

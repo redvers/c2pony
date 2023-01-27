@@ -38,6 +38,11 @@
       <xsl:value-of select="concat('cat ../templates/', $namespace, '/', $classname, 'I.classinterface')"/>
       <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, 'I.pony', $newline)"/>
 
+      <!-- struct next -->
+      <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $classname, 'T.pony', $newline)"/>
+      <xsl:value-of select="concat('cat ../templates/', $namespace, '/', $classname, 'T.struct')"/>
+      <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, 'T.pony', $newline)"/>
+
       <xsl:for-each select="$root/rendermethod[@render='1']">
         <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.method')"/>
         <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, 'I.pony', $newline)"/>
@@ -67,8 +72,16 @@
       <xsl:variable name="classname" select="$root/@name"/>
     
       <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $classname, '.pony', $newline)"/>
+      <xsl:for-each select="$root/renderconstructor[@render='1']">
+        <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.use')"/>
+        <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, '.pony', $newline)"/>
+      </xsl:for-each>
       <xsl:value-of select="concat('cat ../templates/', $namespace, '/', $classname, '.class')"/>
       <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, '.pony', $newline)"/>
+      <xsl:for-each select="$root/renderconstructor[@render='1']">
+        <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.sys')"/>
+        <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, '.pony', $newline)"/>
+      </xsl:for-each>
    
       <!-- the struct itself -->
       <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $classname, 'T.pony', $newline)"/>

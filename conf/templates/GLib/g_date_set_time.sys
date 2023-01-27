@@ -1,2 +1,2 @@
-  fun set_time(date': GDate, time': I32): None =>
+  fun set_time(date': NullablePointer[GDateT], time': I32): None =>
     @g_date_set_time(date', time')

@@ -1,1 +1,1 @@
-use @g_variant_builder_unref[None](builder': GVariantBuilder)
+use @g_variant_builder_unref[None](builder': NullablePointer[GVariantBuilderT])

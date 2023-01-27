@@ -1,2 +1,2 @@
-  fun parse(context': GMarkupParseContext, text': String, text_len': I64, error': GError): I32 =>
-    @g_markup_parse_context_parse(context', text'.cstring(), text_len', addressof error'.ptr)
+  fun parse(context': NullablePointer[GMarkupParseContextT], text': String, text_len': I64, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_markup_parse_context_parse(context', text'.cstring(), text_len', error')

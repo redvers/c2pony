@@ -1,2 +1,0 @@
-  fun ref set_selectable(setting': I32): None =>
-    GtkLabelP.set_selectable(this, setting')

@@ -1,1 +1,1 @@
-use @g_hash_table_remove_all[None](hash_table': GHashTable)
+use @g_hash_table_remove_all[None](hash_table': NullablePointer[GHashTableT])

@@ -1,2 +1,0 @@
-  fun ref get_file(): GFile =>
-    GtkIconPaintableP.get_file(this)

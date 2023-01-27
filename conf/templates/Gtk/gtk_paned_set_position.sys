@@ -1,2 +1,0 @@
-  fun set_position(paned': GtkPaned, position': I32): None =>
-    @gtk_paned_set_position(paned', position')

@@ -1,2 +1,2 @@
-  fun ref last_child(): GNode =>
-    GNodeP.last_child(this)
+  fun ref last_child(): NullablePointer[GNodeT] =>
+    GNodeP.last_child(this.ptr)

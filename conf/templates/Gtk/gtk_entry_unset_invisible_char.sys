@@ -1,2 +1,0 @@
-  fun unset_invisible_char(entry': GtkEntry): None =>
-    @gtk_entry_unset_invisible_char(entry')

@@ -1,2 +1,0 @@
-  fun ref create_tag(tag_name': String, first_property_name': String, ...): GtkTextTag =>
-    GtkTextBufferP.create_tag(this, tag_name', first_property_name', ...)

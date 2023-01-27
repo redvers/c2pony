@@ -1,2 +1,0 @@
-  fun getenv(cmdline': GApplicationCommandLine, name': String): String iso^ =>
-    String.from_cstring(@g_application_command_line_getenv(cmdline', name'.cstring())).clone()

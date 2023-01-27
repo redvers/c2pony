@@ -1,1 +1,0 @@
-use @g_socket_connection_is_connected[I32](connection': GSocketConnection)

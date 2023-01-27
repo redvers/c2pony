@@ -1,2 +1,2 @@
   fun ref destroy(): None =>
-    GNodeP.destroy(this)
+    GNodeP.destroy(this.ptr)
