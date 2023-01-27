@@ -86,3 +86,91 @@ class GVariant
     ptr = @g_variant_new_uint64(value')
   new new_variant(value': NullablePointer[GVariantT]) =>
     ptr = @g_variant_new_variant(value')
+  fun ref byteswap(): NullablePointer[GVariantT] =>
+    GVariantP.byteswap(this.ptr)
+  fun ref check_format_string(format_string': String, copy_only': I32): I32 =>
+    GVariantP.check_format_string(this.ptr, format_string', copy_only')
+  fun ref classify(): U32 =>
+    GVariantP.classify(this.ptr)
+  fun ref dup_bytestring(length': Pointer[U64] tag): String iso^ =>
+    GVariantP.dup_bytestring(this.ptr, length')
+  fun ref dup_bytestring_array(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+    GVariantP.dup_bytestring_array(this.ptr, length')
+  fun ref dup_objv(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+    GVariantP.dup_objv(this.ptr, length')
+  fun ref dup_string(length': Pointer[U64] tag): String iso^ =>
+    GVariantP.dup_string(this.ptr, length')
+  fun ref dup_strv(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+    GVariantP.dup_strv(this.ptr, length')
+  fun ref get_boolean(): I32 =>
+    GVariantP.get_boolean(this.ptr)
+  fun ref get_byte(): U8 =>
+    GVariantP.get_byte(this.ptr)
+  fun ref get_bytestring(): String iso^ =>
+    GVariantP.get_bytestring(this.ptr)
+  fun ref get_bytestring_array(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+    GVariantP.get_bytestring_array(this.ptr, length')
+  fun ref get_child_value(index': U64): NullablePointer[GVariantT] =>
+    GVariantP.get_child_value(this.ptr, index')
+  fun ref get_data(): Pointer[None] tag =>
+    GVariantP.get_data(this.ptr)
+  fun ref get_data_as_bytes(): NullablePointer[GBytesT] =>
+    GVariantP.get_data_as_bytes(this.ptr)
+  fun ref get_double(): F64 =>
+    GVariantP.get_double(this.ptr)
+  fun ref get_fixed_array(n_elements': Pointer[U64] tag, element_size': U64): Pointer[None] tag =>
+    GVariantP.get_fixed_array(this.ptr, n_elements', element_size')
+  fun ref get_handle(): I32 =>
+    GVariantP.get_handle(this.ptr)
+  fun ref get_int16(): I16 =>
+    GVariantP.get_int16(this.ptr)
+  fun ref get_int32(): I32 =>
+    GVariantP.get_int32(this.ptr)
+  fun ref get_int64(): I64 =>
+    GVariantP.get_int64(this.ptr)
+  fun ref get_maybe(): NullablePointer[GVariantT] =>
+    GVariantP.get_maybe(this.ptr)
+  fun ref get_normal_form(): NullablePointer[GVariantT] =>
+    GVariantP.get_normal_form(this.ptr)
+  fun ref get_objv(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+    GVariantP.get_objv(this.ptr, length')
+  fun ref get_size(): U64 =>
+    GVariantP.get_size(this.ptr)
+  fun ref get_string(length': Pointer[U64] tag): String iso^ =>
+    GVariantP.get_string(this.ptr, length')
+  fun ref get_strv(length': Pointer[U64] tag): Pointer[Pointer[U8]] tag =>
+    GVariantP.get_strv(this.ptr, length')
+  fun ref get_type(): NullablePointer[GVariantTypeT] =>
+    GVariantP.get_type(this.ptr)
+  fun ref get_type_string(): String iso^ =>
+    GVariantP.get_type_string(this.ptr)
+  fun ref get_uint16(): U16 =>
+    GVariantP.get_uint16(this.ptr)
+  fun ref get_uint32(): U32 =>
+    GVariantP.get_uint32(this.ptr)
+  fun ref get_uint64(): U64 =>
+    GVariantP.get_uint64(this.ptr)
+  fun ref get_variant(): NullablePointer[GVariantT] =>
+    GVariantP.get_variant(this.ptr)
+  fun ref is_container(): I32 =>
+    GVariantP.is_container(this.ptr)
+  fun ref is_floating(): I32 =>
+    GVariantP.is_floating(this.ptr)
+  fun ref is_of_type(type': NullablePointer[GVariantTypeT]): I32 =>
+    GVariantP.is_of_type(this.ptr, type')
+  fun ref lookup_value(key': String, expected_type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantT] =>
+    GVariantP.lookup_value(this.ptr, key', expected_type')
+  fun ref n_children(): U64 =>
+    GVariantP.n_children(this.ptr)
+  fun ref print(type_annotate': I32): String iso^ =>
+    GVariantP.print(this.ptr, type_annotate')
+  fun ref print_string(string': NullablePointer[GStringT], type_annotate': I32): NullablePointer[GStringT] =>
+    GVariantP.print_string(this.ptr, string', type_annotate')
+  fun ref ref_sink(): NullablePointer[GVariantT] =>
+    GVariantP.ref_sink(this.ptr)
+  fun ref store(data': Pointer[None] tag): None =>
+    GVariantP.store(this.ptr, data')
+  fun ref take_ref(): NullablePointer[GVariantT] =>
+    GVariantP.take_ref(this.ptr)
+  fun ref unref(): None =>
+    GVariantP.unref(this.ptr)
