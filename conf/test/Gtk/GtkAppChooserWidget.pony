@@ -10,7 +10,8 @@ use "lib:gtk-4"
 class GtkAppChooserWidget is GtkAppChooserWidgetI
   var ptr: Pointer[GObjectP]
 
-  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_app_chooser_widget_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_app_chooser_widget_get_type())

@@ -63,7 +63,9 @@
         <xsl:value-of select="$newline"/>
         <xsl:text>  new create_from_ptr(ptr': Pointer[</xsl:text>
         <xsl:value-of select="/main/basetypes/basetype[@name=$filename]/@baseclass"/>
-        <xsl:text>P]) =&gt; ptr = ptr'</xsl:text>
+        <xsl:text>P])? =&gt; </xsl:text>
+        <xsl:value-of select="$newline"/>
+        <xsl:text>    if (ptr'.is_null()) then error else ptr = ptr' end</xsl:text>
         <xsl:value-of select="$newline"/>
         <xsl:variable name="gettype" select="/main/t:repository/t:namespace/t:class[@c:type=$filename]/@glib:get-type"/>
         <xsl:text>// </xsl:text><xsl:value-of select="$gettype"/>

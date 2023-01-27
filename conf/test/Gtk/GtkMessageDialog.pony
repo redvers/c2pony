@@ -10,7 +10,8 @@ use "lib:gtk-4"
 class GtkMessageDialog is GtkMessageDialogI
   var ptr: Pointer[GObjectP]
 
-  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_message_dialog_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_message_dialog_get_type())

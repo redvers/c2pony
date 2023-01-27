@@ -1,1 +1,1 @@
-use @gtk_string_list_new[GtkStringList](strings': Pointer[Pointer[U8]] tag)
+use @gtk_string_list_new[Pointer[GObjectP]](strings': Pointer[Pointer[U8]] tag)

@@ -10,7 +10,8 @@ use "lib:gtk-4"
 class GtkIMContextSimple is GtkIMContextSimpleI
   var ptr: Pointer[GObjectP]
 
-  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_im_context_simple_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_im_context_simple_get_type())

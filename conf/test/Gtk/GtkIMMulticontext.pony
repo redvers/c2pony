@@ -10,7 +10,8 @@ use "lib:gtk-4"
 class GtkIMMulticontext is GtkIMMulticontextI
   var ptr: Pointer[GObjectP]
 
-  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_im_multicontext_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_im_multicontext_get_type())

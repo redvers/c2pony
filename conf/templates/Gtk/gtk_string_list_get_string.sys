@@ -1,2 +1,2 @@
-  fun get_string(self': GtkStringList, position': U32): String iso^ =>
-    String.from_cstring(@gtk_string_list_get_string(self', position')).clone()
+  fun get_string(self': GtkStringListI, position': U32): String iso^ =>
+    String.from_cstring(@gtk_string_list_get_string(self'.getptr(), position')).clone()

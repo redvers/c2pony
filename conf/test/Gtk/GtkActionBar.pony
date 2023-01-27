@@ -10,7 +10,8 @@ use "lib:gtk-4"
 class GtkActionBar is GtkActionBarI
   var ptr: Pointer[GObjectP]
 
-  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_action_bar_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_action_bar_get_type())

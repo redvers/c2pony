@@ -10,7 +10,8 @@ use "lib:gtk-4"
 class GtkPrintJob is GtkPrintJobI
   var ptr: Pointer[GObjectP]
 
-  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_print_job_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_print_job_get_type())

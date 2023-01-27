@@ -10,7 +10,8 @@ use "lib:gtk-4"
 class GtkDropControllerMotion is GtkDropControllerMotionI
   var ptr: Pointer[GObjectP]
 
-  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_drop_controller_motion_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_drop_controller_motion_get_type())

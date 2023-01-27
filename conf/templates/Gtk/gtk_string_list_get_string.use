@@ -1,1 +1,1 @@
-use @gtk_string_list_get_string[Pointer[U8]](self': GtkStringList, position': U32)
+use @gtk_string_list_get_string[Pointer[U8]](self': Pointer[GObjectP], position': U32)

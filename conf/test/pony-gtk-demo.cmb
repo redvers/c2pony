@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE cambalache-project SYSTEM "cambalache-project.dtd">
+<cambalache-project version="0.10.3" target_tk="gtk-4.0">
+  <ui>
+	(1,None,"pony-gtk-demo.ui","pony-gtk-demo.ui",None,None,None,None,None,None)
+  </ui>
+  <object>
+	(1,1,"GtkApplicationWindow","window",None,None,None,None,None),
+	(1,2,"GtkPaned",None,1,None,None,None,None),
+	(1,3,"GtkScrolledWindow",None,2,None,None,None,None),
+	(1,5,"GtkNotebook","notebook",2,None,None,None,1),
+	(1,8,"GtkNotebookPage",None,5,None,None,None,-1),
+	(1,9,"GtkScrolledWindow",None,8,None,None,None,None),
+	(1,10,"GtkTextView","info-textview",9,None,None,None,None),
+	(1,11,"GtkTextBuffer","infobuffer",None,None,None,None,None),
+	(1,12,"GtkListView","demolistview",3,None,None,None,None)
+  </object>
+  <object_property>
+	(1,1,"GtkApplicationWindow","show-menubar","True",None,None,None,None,None),
+	(1,2,"GtkWidget","vexpand","True",None,None,None,None,None),
+	(1,5,"GtkNotebook","enable-popup","True",None,None,None,None,None),
+	(1,5,"GtkNotebook","scrollable","True",None,None,None,None,None),
+	(1,5,"GtkWidget","hexpand","True",None,None,None,None,None),
+	(1,5,"GtkWidget","vexpand","True",None,None,None,None,None),
+	(1,8,"GtkNotebookPage","child",None,None,None,None,None,9),
+	(1,8,"GtkNotebookPage","tab-expand","True",None,None,None,None,None),
+	(1,8,"GtkNotebookPage","tab-label","Info",None,None,None,None,None),
+	(1,9,"GtkScrolledWindow","child",None,None,None,None,None,10),
+	(1,9,"GtkWidget","vexpand","True",None,None,None,None,None),
+	(1,10,"GtkTextView","buffer","11",None,None,None,None,None),
+	(1,10,"GtkTextView","monospace","True",None,None,None,None,None),
+	(1,10,"GtkTextView","wrap-mode","char",None,None,None,None,None),
+	(1,10,"GtkWidget","halign","baseline",None,None,None,None,None),
+	(1,10,"GtkWidget","hexpand","True",None,None,None,None,None),
+	(1,10,"GtkWidget","valign","start",None,None,None,None,None),
+	(1,10,"GtkWidget","vexpand","True",None,None,None,None,None),
+	(1,11,"GtkTextBuffer","text","demo info",None,None,None,None,None),
+	(1,12,"GtkListView","factory","13",None,None,None,None,None),
+	(1,12,"GtkListView","model","14",None,None,None,None,None)
+  </object_property>
+</cambalache-project>

@@ -1009,9 +1009,9 @@ use "lib:gtk-4.0"
       <renderconstructor name="gtk_builder_new_from_file" ponyname="new_from_file" render="0" deprecated=""/>
       <renderconstructor name="gtk_builder_new_from_resource" ponyname="new_from_resource" render="1" deprecated=""/>
       <renderconstructor name="gtk_builder_new_from_string" ponyname="new_from_string" render="0" deprecated=""/>
-      <rendermethod name="gtk_builder_add_from_file" ponyname="add_from_file" render="0" deprecated=""/>
+      <rendermethod name="gtk_builder_add_from_file" ponyname="add_from_file" render="1" deprecated=""/>
       <rendermethod name="gtk_builder_add_from_resource" ponyname="add_from_resource" render="1" deprecated=""/>
-      <rendermethod name="gtk_builder_add_from_string" ponyname="add_from_string" render="0" deprecated=""/>
+      <rendermethod name="gtk_builder_add_from_string" ponyname="add_from_string" render="1" deprecated=""/>
       <rendermethod name="gtk_builder_add_objects_from_file" ponyname="add_objects_from_file" render="0" deprecated=""/>
       <rendermethod name="gtk_builder_add_objects_from_resource" ponyname="add_objects_from_resource" render="1" deprecated=""/>
       <rendermethod name="gtk_builder_add_objects_from_string" ponyname="add_objects_from_string" render="0" deprecated=""/>
@@ -3348,9 +3348,9 @@ use "lib:gtk-4.0"
     </renderclass>
     <renderclass name="GtkStringList" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
       <renderconstructor name="gtk_string_list_new" ponyname="new" render="0" deprecated=""/>
-      <rendermethod name="gtk_string_list_append" ponyname="append" render="0" deprecated=""/>
+      <rendermethod name="gtk_string_list_append" ponyname="append" render="1" deprecated=""/>
       <rendermethod name="gtk_string_list_get_string" ponyname="get_string" render="0" deprecated=""/>
-      <rendermethod name="gtk_string_list_remove" ponyname="remove" render="0" deprecated=""/>
+      <rendermethod name="gtk_string_list_remove" ponyname="remove" render="1" deprecated=""/>
       <rendermethod name="gtk_string_list_splice" ponyname="splice" render="0" deprecated=""/>
       <rendermethod name="gtk_string_list_take" ponyname="take" render="0" deprecated=""/>
     </renderclass>

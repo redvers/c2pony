@@ -10,7 +10,8 @@ use "lib:gtk-4"
 class GtkEveryFilter is GtkEveryFilterI
   var ptr: Pointer[GObjectP]
 
-  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_every_filter_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_every_filter_get_type())

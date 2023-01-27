@@ -1,2 +1,2 @@
-  fun take(self': GtkStringList, string': String): None =>
-    @gtk_string_list_take(self', string'.cstring())
+  fun take(self': GtkStringListI, string': String): None =>
+    @gtk_string_list_take(self'.getptr(), string'.cstring())

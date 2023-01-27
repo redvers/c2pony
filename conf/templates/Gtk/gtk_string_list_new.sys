@@ -1,2 +1,2 @@
-  fun new(strings': Pointer[Pointer[U8]] tag): GtkStringList =>
-    @gtk_string_list_new(strings')
+  fun new(strings': Pointer[Pointer[U8]] tag): Pointer[GObjectP] =>
+@gtk_string_list_new(strings')

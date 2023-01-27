@@ -22,7 +22,7 @@ class XmlArg
       | let t: Function => die("Will never happen 1")
       | let t: FunctionType => args.push(arg)
       | let t: Argument => die("Will never happen 2")
-      | let t: ArrayType => args.push(arg) ; error
+      | let t: ArrayType => args.push(arg)
       | let t: CvQualifiedType => None
       | let t: ElaboratedType => None
       | let t: Enumeration => None
@@ -52,6 +52,9 @@ class XmlArg
     let argtype: String = consume tstr
     let oargtype: String = consume ttstr
 
+    env.out.print(argtype)
+    env.out.print(oargtype)
+
     if (argtype == " => Struct") then
         align = (args(0)? as Struct).align
          size = (args(0)? as Struct).size
@@ -80,16 +83,15 @@ class XmlArg
       return
     end
 
-    /*
     if (argtype == " => PointerType => FunctionType") then
         align = (args(0)? as PointerType).align
          size = (args(0)? as PointerType).size
-      usetype = "NullablePointer[" + (args(1)? as Struct)() + "]"
-   structtype = "NullablePointer[" + (args(1)? as Struct)() + "]"
-   structinit = "NullablePointer[" + (args(1)? as Struct)() + "].none()"
+      usetype = "Pointer[None]"
+   structtype = "Pointer[None]"
+   structinit = "Pointer[None]"
+     decltype = "var"
       return
     end
-    */
 
     if (argtype == " => PointerType => FundamentalType") then
         align = (args(0)? as PointerType).align
@@ -148,7 +150,6 @@ class XmlArg
 
     env.out.print(argtype)
     env.out.print(oargtype)
-    error
 
 
 

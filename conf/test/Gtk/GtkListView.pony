@@ -10,7 +10,8 @@ use "lib:gtk-4"
 class GtkListView is GtkListViewI
   var ptr: Pointer[GObjectP]
 
-  new create_from_ptr(ptr': Pointer[GObjectP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GObjectP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_list_view_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_view_get_type())

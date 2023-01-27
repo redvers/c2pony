@@ -9,7 +9,8 @@ use "lib:gtk-4"
 class GtkClosureExpression is GtkClosureExpressionI
   var ptr: Pointer[GtkExpressionP]
 
-  new create_from_ptr(ptr': Pointer[GtkExpressionP]) => ptr = ptr'
+  new create_from_ptr(ptr': Pointer[GtkExpressionP])? => 
+    if (ptr'.is_null()) then error else ptr = ptr' end
 // gtk_closure_expression_get_type
   new create() =>
     ptr = GObjectG.gnew(@gtk_closure_expression_get_type())
