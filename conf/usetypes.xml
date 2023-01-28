@@ -16,6 +16,7 @@
       </suffixes>
     </ponytypeconvout>
   </typedef>
+  <typedef name="NullablePointer[GtkBuilderListItemFactoryT]" ponytypein="GtkBuilderListItemFactoryI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GtkBuilderListItemFactoryT]" structdef="NullablePointer[GtkBuilderListItemFactoryT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
   <typedef name="NullablePointer[GtkSelectionModelT]" ponytypein="GtkSelectionModelI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GtkSelectionModelT]" structdef="NullablePointer[GtkSelectionModelT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
   <typedef name="NullablePointer[GtkListItemFactoryT]" ponytypein="GtkListItemFactoryI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GtkListItemFactoryT]" structdef="NullablePointer[GtkListItemFactoryT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>
   <typedef name="NullablePointer[GListModelT]" ponytypein="GListModelI" ponytypeinconv=".getptr()" ponytypeout="NullablePointer[GObjectT]" structtype="NullablePointer[GListModelT]" structdef="NullablePointer[GListModelT].none()" argtype="NullablePointer[GObjectT]" rvtype="NullablePointer[GObjectT]"/>

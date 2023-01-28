@@ -1099,12 +1099,18 @@ echo > ../test/Gtk/GtkListViewI.pony
 cat ../templates/Gtk/GtkListViewI.classinterface >> ../test/Gtk/GtkListViewI.pony
 echo > ../test/Gtk/GtkListViewT.pony
 cat ../templates/Gtk/GtkListViewT.struct >> ../test/Gtk/GtkListViewT.pony
+cat ../templates/Gtk/gtk_list_view_get_factory.method >> ../test/Gtk/GtkListViewI.pony
+cat ../templates/Gtk/gtk_list_view_get_model.method >> ../test/Gtk/GtkListViewI.pony
 cat ../templates/Gtk/gtk_list_view_set_factory.method >> ../test/Gtk/GtkListViewI.pony
 cat ../templates/Gtk/gtk_list_view_set_model.method >> ../test/Gtk/GtkListViewI.pony
 echo > ../test/Gtk/GtkListViewP.pony
+cat ../templates/Gtk/gtk_list_view_get_factory.use >> ../test/Gtk/GtkListViewP.pony
+cat ../templates/Gtk/gtk_list_view_get_model.use >> ../test/Gtk/GtkListViewP.pony
 cat ../templates/Gtk/gtk_list_view_set_factory.use >> ../test/Gtk/GtkListViewP.pony
 cat ../templates/Gtk/gtk_list_view_set_model.use >> ../test/Gtk/GtkListViewP.pony
 cat ../templates/Gtk/GtkListViewP.primitive >> ../test/Gtk/GtkListViewP.pony
+cat ../templates/Gtk/gtk_list_view_get_factory.sys >> ../test/Gtk/GtkListViewP.pony
+cat ../templates/Gtk/gtk_list_view_get_model.sys >> ../test/Gtk/GtkListViewP.pony
 cat ../templates/Gtk/gtk_list_view_set_factory.sys >> ../test/Gtk/GtkListViewP.pony
 cat ../templates/Gtk/gtk_list_view_set_model.sys >> ../test/Gtk/GtkListViewP.pony
 echo > ../test/Gtk/GtkLockButton.pony

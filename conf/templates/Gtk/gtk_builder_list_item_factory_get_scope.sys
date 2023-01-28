@@ -1,2 +1,2 @@
-  fun get_scope(self': NullablePointer[GtkBuilderListItemFactoryT]): NullablePointer[GtkBuilderScopeT] =>
-    @gtk_builder_list_item_factory_get_scope(self')
+  fun get_scope(self': GtkBuilderListItemFactoryI): NullablePointer[GtkBuilderScopeT] =>
+    @gtk_builder_list_item_factory_get_scope(self'.getptr())

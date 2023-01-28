@@ -67,15 +67,14 @@ class MyApp
 
     let listview: GtkListView = GtkListView.create_from_ptr(builder.get_object("listview"))
     listview.set_model(GtkSingleSelection.gnew(model))
-      listview.get_factory()
+    let factory: GtkBuilderListItemFactory = GtkBuilderListItemFactory.create_from_ptr(listview.get_factory())
+    listview.connect[None]("activate", MyApp~listitem_selected(), None, 0)
 
 
     @g_action_map_add_action_entries(app.getptr(), actions.cpointer(), actions.size().u32(), Pointer[None])
 
-  fun @setup_listitem(factoryp: NullablePointer[GtkListItemFactoryT], listitemp: NullablePointer[GtkListItemT]): None => None
-    @printf("In setup_listitem\n".cstring())
-  fun @bind_listitem(factoryp: NullablePointer[GtkListItemFactoryT], listitemp: NullablePointer[GtkListItemT]): None => None
-    @printf("In bind_listitem\n".cstring())
+  fun @listitem_selected(factoryp: NullablePointer[GObjectT], position: U32): None => None
+    @printf("In listitem_selected: %d\n".cstring(), position)
 
 
   fun test() => env.out.print("Hello World")
