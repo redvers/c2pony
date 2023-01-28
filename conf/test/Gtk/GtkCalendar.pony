@@ -14,6 +14,8 @@ class GtkCalendar is GtkCalendarI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_calendar_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCalendar")
+    GObjectP.set_data_p[GtkCalendar](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCalendar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

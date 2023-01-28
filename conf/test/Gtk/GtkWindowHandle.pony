@@ -14,6 +14,8 @@ class GtkWindowHandle is GtkWindowHandleI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_window_handle_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkWindowHandle")
+    GObjectP.set_data_p[GtkWindowHandle](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkWindowHandle
   fun ref getptr(): NullablePointer[GObjectT] => ptr

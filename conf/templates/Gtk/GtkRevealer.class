@@ -13,6 +13,8 @@ class GtkRevealer is GtkRevealerI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_revealer_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkRevealer")
+    GObjectP.set_data_p[GtkRevealer](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkRevealer
   fun ref getptr(): NullablePointer[GObjectT] => ptr

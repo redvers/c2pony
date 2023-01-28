@@ -10,4 +10,5 @@ class GParamSpecBoxed is GParamSpecBoxedI
   new create_from_ptr(ptr': NullablePointer[GParamSpecT]) => ptr = ptr'
 
 
+  // GParamSpecBoxed
   fun ref getptr(): NullablePointer[GParamSpecT] => ptr

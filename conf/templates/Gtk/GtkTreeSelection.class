@@ -13,6 +13,8 @@ class GtkTreeSelection is GtkTreeSelectionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_selection_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkTreeSelection")
+    GObjectP.set_data_p[GtkTreeSelection](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkTreeSelection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

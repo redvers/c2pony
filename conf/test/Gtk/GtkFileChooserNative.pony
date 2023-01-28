@@ -14,6 +14,8 @@ class GtkFileChooserNative is GtkFileChooserNativeI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_file_chooser_native_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFileChooserNative")
+    GObjectP.set_data_p[GtkFileChooserNative](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFileChooserNative
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -13,6 +13,8 @@ class GtkListItem is GtkListItemI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_item_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkListItem")
+    GObjectP.set_data_p[GtkListItem](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkListItem
   fun ref getptr(): NullablePointer[GObjectT] => ptr

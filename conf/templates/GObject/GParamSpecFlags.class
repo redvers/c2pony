@@ -9,4 +9,5 @@ class GParamSpecFlags is GParamSpecFlagsI
   new create_from_ptr(ptr': NullablePointer[GParamSpecT]) => ptr = ptr'
 
 
+  // GParamSpecFlags
   fun ref getptr(): NullablePointer[GParamSpecT] => ptr

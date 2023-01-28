@@ -14,6 +14,8 @@ class GtkText is GtkTextI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_text_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkText")
+    GObjectP.set_data_p[GtkText](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkText
   fun ref getptr(): NullablePointer[GObjectT] => ptr

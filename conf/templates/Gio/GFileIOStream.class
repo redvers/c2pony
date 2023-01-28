@@ -12,6 +12,8 @@ class GFileIOStream is GFileIOStreamI
 
   new create() =>
     ptr = GObjectG.gnew(@g_file_io_stream_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GFileIOStream")
+    GObjectP.set_data_p[GFileIOStream](ptr, "_PonyGObjectPonyObject_", this)
 
   // GFileIOStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

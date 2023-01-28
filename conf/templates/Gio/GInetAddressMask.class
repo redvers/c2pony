@@ -12,6 +12,8 @@ class GInetAddressMask is GInetAddressMaskI
 
   new create() =>
     ptr = GObjectG.gnew(@g_inet_address_mask_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GInetAddressMask")
+    GObjectP.set_data_p[GInetAddressMask](ptr, "_PonyGObjectPonyObject_", this)
 
   // GInetAddressMask
   fun ref getptr(): NullablePointer[GObjectT] => ptr

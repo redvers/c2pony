@@ -12,6 +12,8 @@ class GDataInputStream is GDataInputStreamI
 
   new create() =>
     ptr = GObjectG.gnew(@g_data_input_stream_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDataInputStream")
+    GObjectP.set_data_p[GDataInputStream](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDataInputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

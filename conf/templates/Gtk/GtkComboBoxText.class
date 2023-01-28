@@ -13,6 +13,8 @@ class GtkComboBoxText is GtkComboBoxTextI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_combo_box_text_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkComboBoxText")
+    GObjectP.set_data_p[GtkComboBoxText](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkComboBoxText
   fun ref getptr(): NullablePointer[GObjectT] => ptr

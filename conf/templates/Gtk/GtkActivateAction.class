@@ -13,6 +13,8 @@ class GtkActivateAction is GtkActivateActionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_activate_action_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkActivateAction")
+    GObjectP.set_data_p[GtkActivateAction](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkActivateAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

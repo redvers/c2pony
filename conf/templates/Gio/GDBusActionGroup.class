@@ -12,6 +12,8 @@ class GDBusActionGroup is GDBusActionGroupI
 
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_action_group_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDBusActionGroup")
+    GObjectP.set_data_p[GDBusActionGroup](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDBusActionGroup
   fun ref getptr(): NullablePointer[GObjectT] => ptr

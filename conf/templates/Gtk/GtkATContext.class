@@ -13,6 +13,8 @@ class GtkATContext is GtkATContextI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_at_context_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkATContext")
+    GObjectP.set_data_p[GtkATContext](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkATContext
   fun ref getptr(): NullablePointer[GObjectT] => ptr

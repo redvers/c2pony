@@ -12,6 +12,8 @@ class GFileInputStream is GFileInputStreamI
 
   new create() =>
     ptr = GObjectG.gnew(@g_file_input_stream_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GFileInputStream")
+    GObjectP.set_data_p[GFileInputStream](ptr, "_PonyGObjectPonyObject_", this)
 
   // GFileInputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -13,6 +13,8 @@ class GtkMessageDialog is GtkMessageDialogI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_message_dialog_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkMessageDialog")
+    GObjectP.set_data_p[GtkMessageDialog](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkMessageDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

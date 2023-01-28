@@ -14,6 +14,8 @@ class GtkScrollbar is GtkScrollbarI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_scrollbar_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkScrollbar")
+    GObjectP.set_data_p[GtkScrollbar](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkScrollbar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

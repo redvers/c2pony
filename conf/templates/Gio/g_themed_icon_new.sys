@@ -1,2 +1,2 @@
-  fun new(iconname': String): NullablePointer[GIconT] =>
-    @g_themed_icon_new(iconname'.cstring())
+  new gnew(iconname': String) =>
+    ptr = @g_themed_icon_new(iconname'.cstring())

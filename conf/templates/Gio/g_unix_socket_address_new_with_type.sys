@@ -1,2 +1,2 @@
-  fun new_with_type(path': String, path_len': I32, type': U32): NullablePointer[GSocketAddressT] =>
-    @g_unix_socket_address_new_with_type(path'.cstring(), path_len', type')
+  new new_with_type(path': String, path_len': I32, type': U32) =>
+    ptr = @g_unix_socket_address_new_with_type(path'.cstring(), path_len', type')

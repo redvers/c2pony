@@ -1,2 +1,2 @@
-  fun new(base_stream': NullablePointer[GInputStreamT], converter': NullablePointer[GConverterT]): NullablePointer[GInputStreamT] =>
-    @g_converter_input_stream_new(base_stream', converter')
+  new gnew(base_stream': NullablePointer[GInputStreamT], converter': NullablePointer[GConverterT]) =>
+    ptr = @g_converter_input_stream_new(base_stream', converter')

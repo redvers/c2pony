@@ -12,6 +12,8 @@ class GDataOutputStream is GDataOutputStreamI
 
   new create() =>
     ptr = GObjectG.gnew(@g_data_output_stream_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDataOutputStream")
+    GObjectP.set_data_p[GDataOutputStream](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDataOutputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -13,6 +13,8 @@ class GtkExpression is GtkExpressionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_expression_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkExpression")
+    GObjectP.set_data_p[GtkExpression](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkExpression
   fun ref getptr(): NullablePointer[GtkExpressionT] => ptr

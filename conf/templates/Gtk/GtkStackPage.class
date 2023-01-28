@@ -13,6 +13,8 @@ class GtkStackPage is GtkStackPageI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_stack_page_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkStackPage")
+    GObjectP.set_data_p[GtkStackPage](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkStackPage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

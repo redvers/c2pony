@@ -12,6 +12,8 @@ class GSimpleAction is GSimpleActionI
 
   new create() =>
     ptr = GObjectG.gnew(@g_simple_action_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GSimpleAction")
+    GObjectP.set_data_p[GSimpleAction](ptr, "_PonyGObjectPonyObject_", this)
 
   // GSimpleAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,2 +1,2 @@
-  fun new_sized(base_stream': NullablePointer[GInputStreamT], size': U64): NullablePointer[GInputStreamT] =>
-    @g_buffered_input_stream_new_sized(base_stream', size')
+  new new_sized(base_stream': NullablePointer[GInputStreamT], size': U64) =>
+    ptr = @g_buffered_input_stream_new_sized(base_stream', size')

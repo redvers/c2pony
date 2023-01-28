@@ -13,6 +13,8 @@ class GtkListBox is GtkListBoxI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_box_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkListBox")
+    GObjectP.set_data_p[GtkListBox](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkListBox
   fun ref getptr(): NullablePointer[GObjectT] => ptr

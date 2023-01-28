@@ -11,5 +11,8 @@ class GInitiallyUnowned is GInitiallyUnownedI
 
   new create() =>
     ptr = GObjectG.gnew(@g_initially_unowned_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GInitiallyUnowned")
+    GObjectP.set_data_p[GInitiallyUnowned](ptr, "_PonyGObjectPonyObject_", this)
 
+  // GInitiallyUnowned
   fun ref getptr(): NullablePointer[GObjectT] => ptr

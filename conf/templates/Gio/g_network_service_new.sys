@@ -1,2 +1,2 @@
-  fun new(service': String, protocol': String, domain': String): NullablePointer[GSocketConnectableT] =>
-    @g_network_service_new(service'.cstring(), protocol'.cstring(), domain'.cstring())
+  new gnew(service': String, protocol': String, domain': String) =>
+    ptr = @g_network_service_new(service'.cstring(), protocol'.cstring(), domain'.cstring())

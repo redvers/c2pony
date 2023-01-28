@@ -13,6 +13,8 @@ class GtkDirectoryList is GtkDirectoryListI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_directory_list_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkDirectoryList")
+    GObjectP.set_data_p[GtkDirectoryList](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkDirectoryList
   fun ref getptr(): NullablePointer[GObjectT] => ptr

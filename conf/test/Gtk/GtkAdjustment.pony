@@ -14,6 +14,8 @@ class GtkAdjustment is GtkAdjustmentI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_adjustment_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkAdjustment")
+    GObjectP.set_data_p[GtkAdjustment](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkAdjustment
   fun ref getptr(): NullablePointer[GObjectT] => ptr

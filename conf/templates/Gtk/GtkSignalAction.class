@@ -13,6 +13,8 @@ class GtkSignalAction is GtkSignalActionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_signal_action_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSignalAction")
+    GObjectP.set_data_p[GtkSignalAction](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSignalAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

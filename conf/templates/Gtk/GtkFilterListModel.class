@@ -13,6 +13,8 @@ class GtkFilterListModel is GtkFilterListModelI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_filter_list_model_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFilterListModel")
+    GObjectP.set_data_p[GtkFilterListModel](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFilterListModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -14,6 +14,8 @@ class GtkAboutDialog is GtkAboutDialogI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_about_dialog_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkAboutDialog")
+    GObjectP.set_data_p[GtkAboutDialog](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkAboutDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

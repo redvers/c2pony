@@ -12,6 +12,8 @@ class GApplicationCommandLine is GApplicationCommandLineI
 
   new create() =>
     ptr = GObjectG.gnew(@g_application_command_line_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GApplicationCommandLine")
+    GObjectP.set_data_p[GApplicationCommandLine](ptr, "_PonyGObjectPonyObject_", this)
 
   // GApplicationCommandLine
   fun ref getptr(): NullablePointer[GObjectT] => ptr

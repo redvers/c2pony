@@ -4,4 +4,5 @@ use "../GLib"
 use "lib:gobject-2.0"
 
 interface GParamSpecEnumI is (GParamSpecI)
+// GParamSpecEnum
   fun ref getptr(): NullablePointer[GParamSpecT]

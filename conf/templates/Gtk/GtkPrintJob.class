@@ -13,6 +13,8 @@ class GtkPrintJob is GtkPrintJobI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_print_job_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkPrintJob")
+    GObjectP.set_data_p[GtkPrintJob](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkPrintJob
   fun ref getptr(): NullablePointer[GObjectT] => ptr

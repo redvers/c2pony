@@ -13,6 +13,8 @@ class GtkCustomFilter is GtkCustomFilterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_custom_filter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCustomFilter")
+    GObjectP.set_data_p[GtkCustomFilter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCustomFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

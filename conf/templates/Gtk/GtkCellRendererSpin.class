@@ -13,6 +13,8 @@ class GtkCellRendererSpin is GtkCellRendererSpinI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_renderer_spin_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCellRendererSpin")
+    GObjectP.set_data_p[GtkCellRendererSpin](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCellRendererSpin
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -14,6 +14,8 @@ class GtkCheckButton is GtkCheckButtonI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_check_button_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCheckButton")
+    GObjectP.set_data_p[GtkCheckButton](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCheckButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

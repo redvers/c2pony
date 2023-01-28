@@ -1,2 +1,2 @@
-  fun new(connection': NullablePointer[GDBusConnectionT], object_path': String): NullablePointer[GDBusObjectProxyT] =>
-    @g_dbus_object_proxy_new(connection', object_path'.cstring())
+  new gnew(connection': NullablePointer[GDBusConnectionT], object_path': String) =>
+    ptr = @g_dbus_object_proxy_new(connection', object_path'.cstring())

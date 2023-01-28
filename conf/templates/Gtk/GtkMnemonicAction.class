@@ -13,6 +13,8 @@ class GtkMnemonicAction is GtkMnemonicActionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_mnemonic_action_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkMnemonicAction")
+    GObjectP.set_data_p[GtkMnemonicAction](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkMnemonicAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

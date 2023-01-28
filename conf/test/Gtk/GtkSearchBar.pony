@@ -14,6 +14,8 @@ class GtkSearchBar is GtkSearchBarI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_search_bar_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSearchBar")
+    GObjectP.set_data_p[GtkSearchBar](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSearchBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

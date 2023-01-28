@@ -284,7 +284,7 @@ struct GActionEntryT
     <renderstruct name="GFileAttributeInfo" render="1">
 </renderstruct>
     <renderstruct name="GFileAttributeInfoList" render="1">
-      <renderconstructor name="g_file_attribute_info_list_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_file_attribute_info_list_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_file_attribute_info_list_add" ponyname="add" render="1" deprecated=""/>
       <rendermethod name="g_file_attribute_info_list_dup" ponyname="dup" render="1" deprecated=""/>
       <rendermethod name="g_file_attribute_info_list_lookup" ponyname="lookup" render="1" deprecated=""/>
@@ -292,7 +292,7 @@ struct GActionEntryT
       <rendermethod name="g_file_attribute_info_list_unref" ponyname="unref" render="1" deprecated=""/>
     </renderstruct>
     <renderstruct name="GFileAttributeMatcher" render="1">
-      <renderconstructor name="g_file_attribute_matcher_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_file_attribute_matcher_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_file_attribute_matcher_enumerate_namespace" ponyname="enumerate_namespace" render="1" deprecated=""/>
       <rendermethod name="g_file_attribute_matcher_enumerate_next" ponyname="enumerate_next" render="1" deprecated=""/>
       <rendermethod name="g_file_attribute_matcher_matches" ponyname="matches" render="1" deprecated=""/>
@@ -356,7 +356,7 @@ struct GActionEntryT
     <renderstruct name="GIOModuleScope" render="1">
       <rendermethod name="g_io_module_scope_block" ponyname="block" render="1" deprecated=""/>
       <rendermethod name="g_io_module_scope_free" ponyname="free" render="1" deprecated=""/>
-      <renderfunction name="g_io_module_scope_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_io_module_scope_new" ponyname="gnew" render="1" deprecated=""/>
     </renderstruct>
     <renderstruct name="GIOSchedulerJob" render="1">
       <rendermethod name="g_io_scheduler_job_send_to_mainloop" ponyname="send_to_mainloop" render="1" deprecated="1"/>
@@ -575,7 +575,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
     <renderstruct name="GSocketServicePrivate" render="1">
 </renderstruct>
     <renderstruct name="GSrvTarget" render="1">
-      <renderconstructor name="g_srv_target_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_srv_target_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_srv_target_copy" ponyname="copy" render="1" deprecated=""/>
       <rendermethod name="g_srv_target_free" ponyname="free" render="1" deprecated=""/>
       <rendermethod name="g_srv_target_get_hostname" ponyname="get_hostname" render="1" deprecated=""/>
@@ -696,7 +696,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_app_info_monitor_get" ponyname="get" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GAppLaunchContext" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_app_launch_context_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_app_launch_context_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_app_launch_context_get_display" ponyname="get_display" render="1" deprecated=""/>
       <rendermethod name="g_app_launch_context_get_environment" ponyname="get_environment" render="1" deprecated=""/>
       <rendermethod name="g_app_launch_context_get_startup_notify_id" ponyname="get_startup_notify_id" render="1" deprecated=""/>
@@ -705,7 +705,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_app_launch_context_unsetenv" ponyname="unsetenv" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GApplication" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_application_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_application_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_application_activate" ponyname="activate" render="1" deprecated=""/>
       <rendermethod name="g_application_add_main_option" ponyname="add_main_option" render="1" deprecated=""/>
       <rendermethod name="g_application_add_main_option_entries" ponyname="add_main_option_entries" render="1" deprecated=""/>
@@ -759,7 +759,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_application_command_line_set_exit_status" ponyname="set_exit_status" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GBufferedInputStream" render="1" parent="FilterInputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_buffered_input_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_buffered_input_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_buffered_input_stream_new_sized" ponyname="new_sized" render="1" deprecated=""/>
       <rendermethod name="g_buffered_input_stream_fill" ponyname="fill" render="1" deprecated=""/>
       <rendermethod name="g_buffered_input_stream_fill_async" ponyname="fill_async" render="1" deprecated=""/>
@@ -772,7 +772,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_buffered_input_stream_set_buffer_size" ponyname="set_buffer_size" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GBufferedOutputStream" render="1" parent="FilterOutputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_buffered_output_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_buffered_output_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_buffered_output_stream_new_sized" ponyname="new_sized" render="1" deprecated=""/>
       <rendermethod name="g_buffered_output_stream_get_auto_grow" ponyname="get_auto_grow" render="1" deprecated=""/>
       <rendermethod name="g_buffered_output_stream_get_buffer_size" ponyname="get_buffer_size" render="1" deprecated=""/>
@@ -780,11 +780,11 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_buffered_output_stream_set_buffer_size" ponyname="set_buffer_size" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GBytesIcon" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_bytes_icon_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_bytes_icon_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_bytes_icon_get_bytes" ponyname="get_bytes" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GCancellable" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_cancellable_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_cancellable_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_cancellable_cancel" ponyname="cancel" render="1" deprecated=""/>
       <rendermethod name="g_cancellable_connect" ponyname="connect" render="1" deprecated=""/>
       <rendermethod name="g_cancellable_disconnect" ponyname="disconnect" render="1" deprecated=""/>
@@ -800,21 +800,21 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_cancellable_get_current" ponyname="get_current" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GCharsetConverter" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_charset_converter_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_charset_converter_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_charset_converter_get_num_fallbacks" ponyname="get_num_fallbacks" render="1" deprecated=""/>
       <rendermethod name="g_charset_converter_get_use_fallback" ponyname="get_use_fallback" render="1" deprecated=""/>
       <rendermethod name="g_charset_converter_set_use_fallback" ponyname="set_use_fallback" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GConverterInputStream" render="1" parent="FilterInputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_converter_input_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_converter_input_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_converter_input_stream_get_converter" ponyname="get_converter" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GConverterOutputStream" render="1" parent="FilterOutputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_converter_output_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_converter_output_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_converter_output_stream_get_converter" ponyname="get_converter" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GCredentials" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_credentials_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_credentials_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_credentials_get_native" ponyname="get_native" render="1" deprecated=""/>
       <rendermethod name="g_credentials_get_unix_pid" ponyname="get_unix_pid" render="1" deprecated=""/>
       <rendermethod name="g_credentials_get_unix_user" ponyname="get_unix_user" render="1" deprecated=""/>
@@ -827,7 +827,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_dbus_action_group_get" ponyname="get" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDBusAuthObserver" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_dbus_auth_observer_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_dbus_auth_observer_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_dbus_auth_observer_allow_mechanism" ponyname="allow_mechanism" render="1" deprecated=""/>
       <rendermethod name="g_dbus_auth_observer_authorize_authenticated_peer" ponyname="authorize_authenticated_peer" render="1" deprecated=""/>
     </renderclass>
@@ -877,7 +877,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_dbus_connection_unexport_menu_model" ponyname="unexport_menu_model" render="1" deprecated=""/>
       <rendermethod name="g_dbus_connection_unregister_object" ponyname="unregister_object" render="1" deprecated=""/>
       <rendermethod name="g_dbus_connection_unregister_subtree" ponyname="unregister_subtree" render="1" deprecated=""/>
-      <renderfunction name="g_dbus_connection_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_dbus_connection_new" ponyname="gnew" render="1" deprecated=""/>
       <renderfunction name="g_dbus_connection_new_for_address" ponyname="new_for_address" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDBusInterfaceSkeleton" render="1" parent="GObject.Object" abstract="1" final="" fundamental="">
@@ -899,7 +899,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_dbus_menu_model_get" ponyname="get" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDBusMessage" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_dbus_message_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_dbus_message_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_dbus_message_new_from_blob" ponyname="new_from_blob" render="1" deprecated=""/>
       <renderconstructor name="g_dbus_message_new_method_call" ponyname="new_method_call" render="1" deprecated=""/>
       <renderconstructor name="g_dbus_message_new_signal" ponyname="new_signal" render="1" deprecated=""/>
@@ -978,11 +978,11 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_dbus_object_manager_client_get_flags" ponyname="get_flags" render="1" deprecated=""/>
       <rendermethod name="g_dbus_object_manager_client_get_name" ponyname="get_name" render="1" deprecated=""/>
       <rendermethod name="g_dbus_object_manager_client_get_name_owner" ponyname="get_name_owner" render="1" deprecated=""/>
-      <renderfunction name="g_dbus_object_manager_client_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_dbus_object_manager_client_new" ponyname="gnew" render="1" deprecated=""/>
       <renderfunction name="g_dbus_object_manager_client_new_for_bus" ponyname="new_for_bus" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDBusObjectManagerServer" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_dbus_object_manager_server_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_dbus_object_manager_server_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_dbus_object_manager_server_export" ponyname="export" render="1" deprecated=""/>
       <rendermethod name="g_dbus_object_manager_server_export_uniquely" ponyname="export_uniquely" render="1" deprecated=""/>
       <rendermethod name="g_dbus_object_manager_server_get_connection" ponyname="get_connection" render="1" deprecated=""/>
@@ -991,11 +991,11 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_dbus_object_manager_server_unexport" ponyname="unexport" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDBusObjectProxy" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_dbus_object_proxy_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_dbus_object_proxy_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_dbus_object_proxy_get_connection" ponyname="get_connection" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDBusObjectSkeleton" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_dbus_object_skeleton_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_dbus_object_skeleton_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_dbus_object_skeleton_add_interface" ponyname="add_interface" render="1" deprecated=""/>
       <rendermethod name="g_dbus_object_skeleton_flush" ponyname="flush" render="1" deprecated=""/>
       <rendermethod name="g_dbus_object_skeleton_remove_interface" ponyname="remove_interface" render="1" deprecated=""/>
@@ -1026,7 +1026,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_dbus_proxy_set_cached_property" ponyname="set_cached_property" render="1" deprecated=""/>
       <rendermethod name="g_dbus_proxy_set_default_timeout" ponyname="set_default_timeout" render="1" deprecated=""/>
       <rendermethod name="g_dbus_proxy_set_interface_info" ponyname="set_interface_info" render="1" deprecated=""/>
-      <renderfunction name="g_dbus_proxy_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_dbus_proxy_new" ponyname="gnew" render="1" deprecated=""/>
       <renderfunction name="g_dbus_proxy_new_for_bus" ponyname="new_for_bus" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDBusServer" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
@@ -1039,7 +1039,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_dbus_server_stop" ponyname="stop" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDataInputStream" render="1" parent="BufferedInputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_data_input_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_data_input_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_data_input_stream_get_byte_order" ponyname="get_byte_order" render="1" deprecated=""/>
       <rendermethod name="g_data_input_stream_get_newline_type" ponyname="get_newline_type" render="1" deprecated=""/>
       <rendermethod name="g_data_input_stream_read_byte" ponyname="read_byte" render="1" deprecated=""/>
@@ -1064,7 +1064,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_data_input_stream_set_newline_type" ponyname="set_newline_type" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDataOutputStream" render="1" parent="FilterOutputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_data_output_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_data_output_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_data_output_stream_get_byte_order" ponyname="get_byte_order" render="1" deprecated=""/>
       <rendermethod name="g_data_output_stream_put_byte" ponyname="put_byte" render="1" deprecated=""/>
       <rendermethod name="g_data_output_stream_put_int16" ponyname="put_int16" render="1" deprecated=""/>
@@ -1077,7 +1077,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_data_output_stream_set_byte_order" ponyname="set_byte_order" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GDesktopAppInfo" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_desktop_app_info_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_desktop_app_info_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_desktop_app_info_new_from_filename" ponyname="new_from_filename" render="1" deprecated=""/>
       <renderconstructor name="g_desktop_app_info_new_from_keyfile" ponyname="new_from_keyfile" render="1" deprecated=""/>
       <rendermethod name="g_desktop_app_info_get_action_name" ponyname="get_action_name" render="1" deprecated=""/>
@@ -1103,13 +1103,13 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_desktop_app_info_set_desktop_env" ponyname="set_desktop_env" render="1" deprecated="1"/>
     </renderclass>
     <renderclass name="GEmblem" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_emblem_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_emblem_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_emblem_new_with_origin" ponyname="new_with_origin" render="1" deprecated=""/>
       <rendermethod name="g_emblem_get_icon" ponyname="get_icon" render="1" deprecated=""/>
       <rendermethod name="g_emblem_get_origin" ponyname="get_origin" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GEmblemedIcon" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_emblemed_icon_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_emblemed_icon_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_emblemed_icon_add_emblem" ponyname="add_emblem" render="1" deprecated=""/>
       <rendermethod name="g_emblemed_icon_clear_emblems" ponyname="clear_emblems" render="1" deprecated=""/>
       <rendermethod name="g_emblemed_icon_get_emblems" ponyname="get_emblems" render="1" deprecated=""/>
@@ -1136,11 +1136,11 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_file_io_stream_query_info_finish" ponyname="query_info_finish" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GFileIcon" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_file_icon_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_file_icon_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_file_icon_get_file" ponyname="get_file" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GFileInfo" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_file_info_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_file_info_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_file_info_clear_status" ponyname="clear_status" render="1" deprecated=""/>
       <rendermethod name="g_file_info_copy_into" ponyname="copy_into" render="1" deprecated=""/>
       <rendermethod name="g_file_info_dup" ponyname="dup" render="1" deprecated=""/>
@@ -1224,7 +1224,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_file_output_stream_query_info_finish" ponyname="query_info_finish" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GFilenameCompleter" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_filename_completer_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_filename_completer_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_filename_completer_get_completion_suffix" ponyname="get_completion_suffix" render="1" deprecated=""/>
       <rendermethod name="g_filename_completer_get_completions" ponyname="get_completions" render="1" deprecated=""/>
       <rendermethod name="g_filename_completer_set_dirs_only" ponyname="set_dirs_only" render="1" deprecated=""/>
@@ -1240,7 +1240,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_filter_output_stream_set_close_base_stream" ponyname="set_close_base_stream" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GIOModule" render="1" parent="GObject.TypeModule" abstract="" final="" fundamental="">
-      <renderconstructor name="g_io_module_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_io_module_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_io_module_load" ponyname="load" render="1" deprecated=""/>
       <rendermethod name="g_io_module_unload" ponyname="unload" render="1" deprecated=""/>
       <renderfunction name="g_io_module_query" ponyname="query" render="1" deprecated=""/>
@@ -1280,7 +1280,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_inet_address_to_string" ponyname="to_string" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GInetAddressMask" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_inet_address_mask_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_inet_address_mask_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_inet_address_mask_new_from_string" ponyname="new_from_string" render="1" deprecated=""/>
       <rendermethod name="g_inet_address_mask_equal" ponyname="equal" render="1" deprecated=""/>
       <rendermethod name="g_inet_address_mask_get_address" ponyname="get_address" render="1" deprecated=""/>
@@ -1290,7 +1290,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_inet_address_mask_to_string" ponyname="to_string" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GInetSocketAddress" render="1" parent="SocketAddress" abstract="" final="" fundamental="">
-      <renderconstructor name="g_inet_socket_address_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_inet_socket_address_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_inet_socket_address_new_from_string" ponyname="new_from_string" render="1" deprecated=""/>
       <rendermethod name="g_inet_socket_address_get_address" ponyname="get_address" render="1" deprecated=""/>
       <rendermethod name="g_inet_socket_address_get_flowinfo" ponyname="get_flowinfo" render="1" deprecated=""/>
@@ -1319,7 +1319,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_input_stream_skip_finish" ponyname="skip_finish" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GListStore" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_list_store_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_list_store_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_list_store_append" ponyname="append" render="1" deprecated=""/>
       <rendermethod name="g_list_store_find" ponyname="find" render="1" deprecated=""/>
       <rendermethod name="g_list_store_find_with_equal_func" ponyname="find_with_equal_func" render="1" deprecated=""/>
@@ -1331,14 +1331,14 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_list_store_splice" ponyname="splice" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GMemoryInputStream" render="1" parent="InputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_memory_input_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_memory_input_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_memory_input_stream_new_from_bytes" ponyname="new_from_bytes" render="1" deprecated=""/>
       <renderconstructor name="g_memory_input_stream_new_from_data" ponyname="new_from_data" render="1" deprecated=""/>
       <rendermethod name="g_memory_input_stream_add_bytes" ponyname="add_bytes" render="1" deprecated=""/>
       <rendermethod name="g_memory_input_stream_add_data" ponyname="add_data" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GMemoryOutputStream" render="1" parent="OutputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_memory_output_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_memory_output_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_memory_output_stream_new_resizable" ponyname="new_resizable" render="1" deprecated=""/>
       <rendermethod name="g_memory_output_stream_get_data" ponyname="get_data" render="1" deprecated=""/>
       <rendermethod name="g_memory_output_stream_get_data_size" ponyname="get_data_size" render="1" deprecated=""/>
@@ -1347,7 +1347,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_memory_output_stream_steal_data" ponyname="steal_data" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GMenu" render="1" parent="MenuModel" abstract="" final="" fundamental="">
-      <renderconstructor name="g_menu_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_menu_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_menu_append" ponyname="append" render="1" deprecated=""/>
       <rendermethod name="g_menu_append_item" ponyname="append_item" render="1" deprecated=""/>
       <rendermethod name="g_menu_append_section" ponyname="append_section" render="1" deprecated=""/>
@@ -1371,7 +1371,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_menu_attribute_iter_next" ponyname="next" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GMenuItem" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_menu_item_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_menu_item_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_menu_item_new_from_model" ponyname="new_from_model" render="1" deprecated=""/>
       <renderconstructor name="g_menu_item_new_section" ponyname="new_section" render="1" deprecated=""/>
       <renderconstructor name="g_menu_item_new_submenu" ponyname="new_submenu" render="1" deprecated=""/>
@@ -1406,7 +1406,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_menu_model_iterate_item_links" ponyname="iterate_item_links" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GMountOperation" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_mount_operation_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_mount_operation_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_mount_operation_get_anonymous" ponyname="get_anonymous" render="1" deprecated=""/>
       <rendermethod name="g_mount_operation_get_choice" ponyname="get_choice" render="1" deprecated=""/>
       <rendermethod name="g_mount_operation_get_domain" ponyname="get_domain" render="1" deprecated=""/>
@@ -1428,12 +1428,12 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_mount_operation_set_username" ponyname="set_username" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GNativeSocketAddress" render="1" parent="SocketAddress" abstract="" final="" fundamental="">
-      <renderconstructor name="g_native_socket_address_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_native_socket_address_new" ponyname="gnew" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GNativeVolumeMonitor" render="1" parent="VolumeMonitor" abstract="1" final="" fundamental="">
 </renderclass>
     <renderclass name="GNetworkAddress" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_network_address_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_network_address_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_network_address_new_loopback" ponyname="new_loopback" render="1" deprecated=""/>
       <rendermethod name="g_network_address_get_hostname" ponyname="get_hostname" render="1" deprecated=""/>
       <rendermethod name="g_network_address_get_port" ponyname="get_port" render="1" deprecated=""/>
@@ -1442,7 +1442,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_network_address_parse_uri" ponyname="parse_uri" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GNetworkService" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_network_service_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_network_service_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_network_service_get_domain" ponyname="get_domain" render="1" deprecated=""/>
       <rendermethod name="g_network_service_get_protocol" ponyname="get_protocol" render="1" deprecated=""/>
       <rendermethod name="g_network_service_get_scheme" ponyname="get_scheme" render="1" deprecated=""/>
@@ -1450,7 +1450,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_network_service_set_scheme" ponyname="set_scheme" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GNotification" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_notification_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_notification_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_notification_add_button" ponyname="add_button" render="1" deprecated=""/>
       <rendermethod name="g_notification_add_button_with_target" ponyname="add_button_with_target" render="1" deprecated=""/>
       <rendermethod name="g_notification_add_button_with_target_value" ponyname="add_button_with_target_value" render="1" deprecated=""/>
@@ -1509,10 +1509,10 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_permission_release_finish" ponyname="release_finish" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GPropertyAction" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_property_action_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_property_action_new" ponyname="gnew" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GProxyAddress" render="1" parent="InetSocketAddress" abstract="" final="" fundamental="">
-      <renderconstructor name="g_proxy_address_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_proxy_address_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_proxy_address_get_destination_hostname" ponyname="get_destination_hostname" render="1" deprecated=""/>
       <rendermethod name="g_proxy_address_get_destination_port" ponyname="get_destination_port" render="1" deprecated=""/>
       <rendermethod name="g_proxy_address_get_destination_protocol" ponyname="get_destination_protocol" render="1" deprecated=""/>
@@ -1545,7 +1545,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_resolver_get_default" ponyname="get_default" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSettings" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_settings_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_settings_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_settings_new_full" ponyname="new_full" render="1" deprecated=""/>
       <renderconstructor name="g_settings_new_with_backend" ponyname="new_with_backend" render="1" deprecated=""/>
       <renderconstructor name="g_settings_new_with_backend_and_path" ponyname="new_with_backend_and_path" render="1" deprecated=""/>
@@ -1608,21 +1608,21 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_settings_backend_get_default" ponyname="get_default" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSimpleAction" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_simple_action_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_simple_action_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_simple_action_new_stateful" ponyname="new_stateful" render="1" deprecated=""/>
       <rendermethod name="g_simple_action_set_enabled" ponyname="set_enabled" render="1" deprecated=""/>
       <rendermethod name="g_simple_action_set_state" ponyname="set_state" render="1" deprecated=""/>
       <rendermethod name="g_simple_action_set_state_hint" ponyname="set_state_hint" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSimpleActionGroup" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_simple_action_group_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_simple_action_group_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_simple_action_group_add_entries" ponyname="add_entries" render="1" deprecated="1"/>
       <rendermethod name="g_simple_action_group_insert" ponyname="insert" render="1" deprecated="1"/>
       <rendermethod name="g_simple_action_group_lookup" ponyname="lookup" render="1" deprecated="1"/>
       <rendermethod name="g_simple_action_group_remove" ponyname="remove" render="1" deprecated="1"/>
     </renderclass>
     <renderclass name="GSimpleAsyncResult" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_simple_async_result_new" ponyname="new" render="1" deprecated="1"/>
+      <renderconstructor name="g_simple_async_result_new" ponyname="gnew" render="1" deprecated="1"/>
       <renderconstructor name="g_simple_async_result_new_error" ponyname="new_error" render="1" deprecated="1"/>
       <renderconstructor name="g_simple_async_result_new_from_error" ponyname="new_from_error" render="1" deprecated="1"/>
       <renderconstructor name="g_simple_async_result_new_take_error" ponyname="new_take_error" render="1" deprecated="1"/>
@@ -1646,19 +1646,19 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_simple_async_result_is_valid" ponyname="is_valid" render="1" deprecated="1"/>
     </renderclass>
     <renderclass name="GSimpleIOStream" render="1" parent="IOStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_simple_io_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_simple_io_stream_new" ponyname="gnew" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSimplePermission" render="1" parent="Permission" abstract="" final="" fundamental="">
-      <renderconstructor name="g_simple_permission_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_simple_permission_new" ponyname="gnew" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSimpleProxyResolver" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
       <rendermethod name="g_simple_proxy_resolver_set_default_proxy" ponyname="set_default_proxy" render="1" deprecated=""/>
       <rendermethod name="g_simple_proxy_resolver_set_ignore_hosts" ponyname="set_ignore_hosts" render="1" deprecated=""/>
       <rendermethod name="g_simple_proxy_resolver_set_uri_proxy" ponyname="set_uri_proxy" render="1" deprecated=""/>
-      <renderfunction name="g_simple_proxy_resolver_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_simple_proxy_resolver_new" ponyname="gnew" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSocket" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_socket_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_socket_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_socket_new_from_fd" ponyname="new_from_fd" render="1" deprecated=""/>
       <rendermethod name="g_socket_accept" ponyname="accept" render="1" deprecated=""/>
       <rendermethod name="g_socket_bind" ponyname="bind" render="1" deprecated=""/>
@@ -1729,7 +1729,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_socket_address_enumerator_next_finish" ponyname="next_finish" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSocketClient" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_socket_client_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_socket_client_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_socket_client_add_application_proxy" ponyname="add_application_proxy" render="1" deprecated=""/>
       <rendermethod name="g_socket_client_connect" ponyname="connect" render="1" deprecated=""/>
       <rendermethod name="g_socket_client_connect_async" ponyname="connect_async" render="1" deprecated=""/>
@@ -1781,7 +1781,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_socket_control_message_deserialize" ponyname="deserialize" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSocketListener" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_socket_listener_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_socket_listener_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_socket_listener_accept" ponyname="accept" render="1" deprecated=""/>
       <rendermethod name="g_socket_listener_accept_async" ponyname="accept_async" render="1" deprecated=""/>
       <rendermethod name="g_socket_listener_accept_finish" ponyname="accept_finish" render="1" deprecated=""/>
@@ -1796,13 +1796,13 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_socket_listener_set_backlog" ponyname="set_backlog" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSocketService" render="1" parent="SocketListener" abstract="" final="" fundamental="">
-      <renderconstructor name="g_socket_service_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_socket_service_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_socket_service_is_active" ponyname="is_active" render="1" deprecated=""/>
       <rendermethod name="g_socket_service_start" ponyname="start" render="1" deprecated=""/>
       <rendermethod name="g_socket_service_stop" ponyname="stop" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSubprocess" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_subprocess_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_subprocess_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_subprocess_newv" ponyname="newv" render="1" deprecated=""/>
       <rendermethod name="g_subprocess_communicate" ponyname="communicate" render="1" deprecated=""/>
       <rendermethod name="g_subprocess_communicate_async" ponyname="communicate_async" render="1" deprecated=""/>
@@ -1830,7 +1830,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_subprocess_wait_finish" ponyname="wait_finish" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GSubprocessLauncher" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_subprocess_launcher_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_subprocess_launcher_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_subprocess_launcher_getenv" ponyname="getenv" render="1" deprecated=""/>
       <rendermethod name="g_subprocess_launcher_set_child_setup" ponyname="set_child_setup" render="1" deprecated=""/>
       <rendermethod name="g_subprocess_launcher_set_cwd" ponyname="set_cwd" render="1" deprecated=""/>
@@ -1849,7 +1849,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_subprocess_launcher_unsetenv" ponyname="unsetenv" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GTask" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_task_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_task_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_task_attach_source" ponyname="attach_source" render="1" deprecated=""/>
       <rendermethod name="g_task_get_cancellable" ponyname="get_cancellable" render="1" deprecated=""/>
       <rendermethod name="g_task_get_check_cancellable" ponyname="get_check_cancellable" render="1" deprecated=""/>
@@ -1890,11 +1890,11 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_tcp_connection_set_graceful_disconnect" ponyname="set_graceful_disconnect" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GTcpWrapperConnection" render="1" parent="TcpConnection" abstract="" final="" fundamental="">
-      <renderconstructor name="g_tcp_wrapper_connection_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_tcp_wrapper_connection_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_tcp_wrapper_connection_get_base_io_stream" ponyname="get_base_io_stream" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GTestDBus" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_test_dbus_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_test_dbus_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_test_dbus_add_service_dir" ponyname="add_service_dir" render="1" deprecated=""/>
       <rendermethod name="g_test_dbus_down" ponyname="down" render="1" deprecated=""/>
       <rendermethod name="g_test_dbus_get_bus_address" ponyname="get_bus_address" render="1" deprecated=""/>
@@ -1904,7 +1904,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_test_dbus_unset" ponyname="unset" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GThemedIcon" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_themed_icon_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_themed_icon_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_themed_icon_new_from_names" ponyname="new_from_names" render="1" deprecated=""/>
       <renderconstructor name="g_themed_icon_new_with_default_fallbacks" ponyname="new_with_default_fallbacks" render="1" deprecated=""/>
       <rendermethod name="g_themed_icon_append_name" ponyname="append_name" render="1" deprecated=""/>
@@ -1912,7 +1912,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_themed_icon_prepend_name" ponyname="prepend_name" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GThreadedSocketService" render="1" parent="SocketService" abstract="" final="" fundamental="">
-      <renderconstructor name="g_threaded_socket_service_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_threaded_socket_service_new" ponyname="gnew" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GTlsCertificate" render="1" parent="GObject.Object" abstract="1" final="" fundamental="">
       <renderconstructor name="g_tls_certificate_new_from_file" ponyname="new_from_file" render="1" deprecated=""/>
@@ -1972,7 +1972,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_tls_interaction_request_certificate_finish" ponyname="request_certificate_finish" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GTlsPassword" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_tls_password_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_tls_password_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_tls_password_get_description" ponyname="get_description" render="1" deprecated=""/>
       <rendermethod name="g_tls_password_get_flags" ponyname="get_flags" render="1" deprecated=""/>
       <rendermethod name="g_tls_password_get_value" ponyname="get_value" render="1" deprecated=""/>
@@ -1994,13 +1994,13 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_unix_connection_send_fd" ponyname="send_fd" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GUnixCredentialsMessage" render="1" parent="SocketControlMessage" abstract="" final="" fundamental="">
-      <renderconstructor name="g_unix_credentials_message_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_unix_credentials_message_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_unix_credentials_message_new_with_credentials" ponyname="new_with_credentials" render="1" deprecated=""/>
       <rendermethod name="g_unix_credentials_message_get_credentials" ponyname="get_credentials" render="1" deprecated=""/>
       <renderfunction name="g_unix_credentials_message_is_supported" ponyname="is_supported" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GUnixFDList" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_unix_fd_list_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_unix_fd_list_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_unix_fd_list_new_from_array" ponyname="new_from_array" render="1" deprecated=""/>
       <rendermethod name="g_unix_fd_list_append" ponyname="append" render="1" deprecated=""/>
       <rendermethod name="g_unix_fd_list_get" ponyname="get" render="1" deprecated=""/>
@@ -2009,31 +2009,31 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_unix_fd_list_steal_fds" ponyname="steal_fds" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GUnixFDMessage" render="1" parent="SocketControlMessage" abstract="" final="" fundamental="">
-      <renderconstructor name="g_unix_fd_message_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_unix_fd_message_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_unix_fd_message_new_with_fd_list" ponyname="new_with_fd_list" render="1" deprecated=""/>
       <rendermethod name="g_unix_fd_message_append_fd" ponyname="append_fd" render="1" deprecated=""/>
       <rendermethod name="g_unix_fd_message_get_fd_list" ponyname="get_fd_list" render="1" deprecated=""/>
       <rendermethod name="g_unix_fd_message_steal_fds" ponyname="steal_fds" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GUnixInputStream" render="1" parent="InputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_unix_input_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_unix_input_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_unix_input_stream_get_close_fd" ponyname="get_close_fd" render="1" deprecated=""/>
       <rendermethod name="g_unix_input_stream_get_fd" ponyname="get_fd" render="1" deprecated=""/>
       <rendermethod name="g_unix_input_stream_set_close_fd" ponyname="set_close_fd" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GUnixMountMonitor" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_unix_mount_monitor_new" ponyname="new" render="1" deprecated="1"/>
+      <renderconstructor name="g_unix_mount_monitor_new" ponyname="gnew" render="1" deprecated="1"/>
       <rendermethod name="g_unix_mount_monitor_set_rate_limit" ponyname="set_rate_limit" render="1" deprecated="1"/>
       <renderfunction name="g_unix_mount_monitor_get" ponyname="get" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GUnixOutputStream" render="1" parent="OutputStream" abstract="" final="" fundamental="">
-      <renderconstructor name="g_unix_output_stream_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_unix_output_stream_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_unix_output_stream_get_close_fd" ponyname="get_close_fd" render="1" deprecated=""/>
       <rendermethod name="g_unix_output_stream_get_fd" ponyname="get_fd" render="1" deprecated=""/>
       <rendermethod name="g_unix_output_stream_set_close_fd" ponyname="set_close_fd" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GUnixSocketAddress" render="1" parent="SocketAddress" abstract="" final="" fundamental="">
-      <renderconstructor name="g_unix_socket_address_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_unix_socket_address_new" ponyname="gnew" render="1" deprecated=""/>
       <renderconstructor name="g_unix_socket_address_new_abstract" ponyname="new_abstract" render="1" deprecated="1"/>
       <renderconstructor name="g_unix_socket_address_new_with_type" ponyname="new_with_type" render="1" deprecated=""/>
       <rendermethod name="g_unix_socket_address_get_address_type" ponyname="get_address_type" render="1" deprecated=""/>
@@ -2063,12 +2063,12 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <renderfunction name="g_volume_monitor_get" ponyname="get" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GZlibCompressor" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_zlib_compressor_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_zlib_compressor_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_zlib_compressor_get_file_info" ponyname="get_file_info" render="1" deprecated=""/>
       <rendermethod name="g_zlib_compressor_set_file_info" ponyname="set_file_info" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GZlibDecompressor" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_zlib_decompressor_new" ponyname="new" render="1" deprecated=""/>
+      <renderconstructor name="g_zlib_decompressor_new" ponyname="gnew" render="1" deprecated=""/>
       <rendermethod name="g_zlib_decompressor_get_file_info" ponyname="get_file_info" render="1" deprecated=""/>
     </renderclass>
     <renderinterface name="GAction" render="1">
@@ -2225,7 +2225,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_dtls_client_connection_get_validation_flags" ponyname="get_validation_flags" render="1" deprecated=""/>
       <rendermethod name="g_dtls_client_connection_set_server_identity" ponyname="set_server_identity" render="1" deprecated=""/>
       <rendermethod name="g_dtls_client_connection_set_validation_flags" ponyname="set_validation_flags" render="1" deprecated=""/>
-      <renderfunction name="g_dtls_client_connection_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_dtls_client_connection_new" ponyname="gnew" render="1" deprecated=""/>
     </renderinterface>
     <renderinterface name="GDtlsConnection" render="1">
       <rendermethod name="g_dtls_connection_close" ponyname="close" render="1" deprecated=""/>
@@ -2255,7 +2255,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_dtls_connection_shutdown_finish" ponyname="shutdown_finish" render="1" deprecated=""/>
     </renderinterface>
     <renderinterface name="GDtlsServerConnection" render="1">
-      <renderfunction name="g_dtls_server_connection_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_dtls_server_connection_new" ponyname="gnew" render="1" deprecated=""/>
     </renderinterface>
     <renderinterface name="GFile" render="1">
       <rendermethod name="g_file_append_to" ponyname="append_to" render="1" deprecated=""/>
@@ -2403,7 +2403,7 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
     </renderinterface>
     <renderinterface name="GInitable" render="1">
       <rendermethod name="g_initable_init" ponyname="init" render="1" deprecated=""/>
-      <renderfunction name="g_initable_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_initable_new" ponyname="gnew" render="1" deprecated=""/>
       <renderfunction name="g_initable_new_valist" ponyname="new_valist" render="1" deprecated=""/>
       <renderfunction name="g_initable_newv" ponyname="newv" render="1" deprecated="1"/>
     </renderinterface>
@@ -2525,13 +2525,13 @@ use @g_resource_load[NullablePointer[GResourceT]](filename: Pointer[U8] tag, ger
       <rendermethod name="g_tls_client_connection_set_server_identity" ponyname="set_server_identity" render="1" deprecated=""/>
       <rendermethod name="g_tls_client_connection_set_use_ssl3" ponyname="set_use_ssl3" render="1" deprecated="1"/>
       <rendermethod name="g_tls_client_connection_set_validation_flags" ponyname="set_validation_flags" render="1" deprecated=""/>
-      <renderfunction name="g_tls_client_connection_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_tls_client_connection_new" ponyname="gnew" render="1" deprecated=""/>
     </renderinterface>
     <renderinterface name="GTlsFileDatabase" render="1">
-      <renderfunction name="g_tls_file_database_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_tls_file_database_new" ponyname="gnew" render="1" deprecated=""/>
     </renderinterface>
     <renderinterface name="GTlsServerConnection" render="1">
-      <renderfunction name="g_tls_server_connection_new" ponyname="new" render="1" deprecated=""/>
+      <renderfunction name="g_tls_server_connection_new" ponyname="gnew" render="1" deprecated=""/>
     </renderinterface>
     <renderinterface name="GVolume" render="1">
       <rendermethod name="g_volume_can_eject" ponyname="can_eject" render="1" deprecated=""/>

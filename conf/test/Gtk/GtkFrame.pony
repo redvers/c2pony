@@ -14,6 +14,8 @@ class GtkFrame is GtkFrameI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_frame_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFrame")
+    GObjectP.set_data_p[GtkFrame](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFrame
   fun ref getptr(): NullablePointer[GObjectT] => ptr

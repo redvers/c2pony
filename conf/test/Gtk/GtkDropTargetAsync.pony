@@ -14,6 +14,8 @@ class GtkDropTargetAsync is GtkDropTargetAsyncI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_drop_target_async_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkDropTargetAsync")
+    GObjectP.set_data_p[GtkDropTargetAsync](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkDropTargetAsync
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -13,6 +13,8 @@ class GtkCellArea is GtkCellAreaI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_area_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCellArea")
+    GObjectP.set_data_p[GtkCellArea](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCellArea
   fun ref getptr(): NullablePointer[GObjectT] => ptr

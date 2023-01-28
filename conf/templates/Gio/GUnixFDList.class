@@ -12,6 +12,8 @@ class GUnixFDList is GUnixFDListI
 
   new create() =>
     ptr = GObjectG.gnew(@g_unix_fd_list_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GUnixFDList")
+    GObjectP.set_data_p[GUnixFDList](ptr, "_PonyGObjectPonyObject_", this)
 
   // GUnixFDList
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -12,6 +12,8 @@ class GZlibCompressor is GZlibCompressorI
 
   new create() =>
     ptr = GObjectG.gnew(@g_zlib_compressor_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GZlibCompressor")
+    GObjectP.set_data_p[GZlibCompressor](ptr, "_PonyGObjectPonyObject_", this)
 
   // GZlibCompressor
   fun ref getptr(): NullablePointer[GObjectT] => ptr

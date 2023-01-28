@@ -13,6 +13,8 @@ class GtkEventControllerScroll is GtkEventControllerScrollI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_event_controller_scroll_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkEventControllerScroll")
+    GObjectP.set_data_p[GtkEventControllerScroll](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkEventControllerScroll
   fun ref getptr(): NullablePointer[GObjectT] => ptr

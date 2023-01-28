@@ -1,2 +1,2 @@
-  new new() =>
+  new gnew() =>
     ptr = @g_file_attribute_info_list_new()

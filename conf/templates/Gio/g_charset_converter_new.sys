@@ -1,2 +1,2 @@
-  fun new(to_charset': String, from_charset': String, error': GError): NullablePointer[GCharsetConverterT] =>
-    @g_charset_converter_new(to_charset'.cstring(), from_charset'.cstring(), error'.ptr)
+  new gnew(to_charset': String, from_charset': String, error': GError) =>
+    ptr = @g_charset_converter_new(to_charset'.cstring(), from_charset'.cstring(), error'.ptr)

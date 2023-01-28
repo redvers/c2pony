@@ -14,6 +14,8 @@ class GtkApplicationWindow is GtkApplicationWindowI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_application_window_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkApplicationWindow")
+    GObjectP.set_data_p[GtkApplicationWindow](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkApplicationWindow
   fun ref getptr(): NullablePointer[GObjectT] => ptr

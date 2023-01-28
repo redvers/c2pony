@@ -13,6 +13,8 @@ class GtkFilter is GtkFilterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_filter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFilter")
+    GObjectP.set_data_p[GtkFilter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -14,6 +14,8 @@ class GtkTreeView is GtkTreeViewI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_view_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkTreeView")
+    GObjectP.set_data_p[GtkTreeView](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkTreeView
   fun ref getptr(): NullablePointer[GObjectT] => ptr

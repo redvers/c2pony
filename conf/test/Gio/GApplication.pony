@@ -13,6 +13,8 @@ class GApplication is GApplicationI
 
   new create() =>
     ptr = GObjectG.gnew(@g_application_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GApplication")
+    GObjectP.set_data_p[GApplication](ptr, "_PonyGObjectPonyObject_", this)
 
   // GApplication
   fun ref getptr(): NullablePointer[GObjectT] => ptr

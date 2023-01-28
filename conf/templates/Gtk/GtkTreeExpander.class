@@ -13,6 +13,8 @@ class GtkTreeExpander is GtkTreeExpanderI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_expander_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkTreeExpander")
+    GObjectP.set_data_p[GtkTreeExpander](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkTreeExpander
   fun ref getptr(): NullablePointer[GObjectT] => ptr

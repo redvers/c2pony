@@ -1,2 +1,2 @@
-  fun new(file': NullablePointer[GFileT]): NullablePointer[GIconT] =>
-    @g_file_icon_new(file')
+  new gnew(file': NullablePointer[GFileT]) =>
+    ptr = @g_file_icon_new(file')

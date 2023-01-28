@@ -16,6 +16,8 @@ class GtkBuilder is GtkBuilderI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_builder_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkBuilder")
+    GObjectP.set_data_p[GtkBuilder](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkBuilder
   fun ref getptr(): NullablePointer[GObjectT] => ptr

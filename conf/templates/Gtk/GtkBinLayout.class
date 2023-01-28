@@ -13,6 +13,8 @@ class GtkBinLayout is GtkBinLayoutI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_bin_layout_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkBinLayout")
+    GObjectP.set_data_p[GtkBinLayout](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkBinLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

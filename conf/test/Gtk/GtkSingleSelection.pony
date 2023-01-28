@@ -15,6 +15,8 @@ class GtkSingleSelection is GtkSingleSelectionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_single_selection_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSingleSelection")
+    GObjectP.set_data_p[GtkSingleSelection](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSingleSelection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

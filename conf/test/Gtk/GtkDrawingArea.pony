@@ -14,6 +14,8 @@ class GtkDrawingArea is GtkDrawingAreaI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_drawing_area_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkDrawingArea")
+    GObjectP.set_data_p[GtkDrawingArea](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkDrawingArea
   fun ref getptr(): NullablePointer[GObjectT] => ptr

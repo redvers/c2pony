@@ -14,6 +14,8 @@ class GtkSettings is GtkSettingsI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_settings_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSettings")
+    GObjectP.set_data_p[GtkSettings](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSettings
   fun ref getptr(): NullablePointer[GObjectT] => ptr

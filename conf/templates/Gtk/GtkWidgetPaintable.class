@@ -13,6 +13,8 @@ class GtkWidgetPaintable is GtkWidgetPaintableI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_widget_paintable_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkWidgetPaintable")
+    GObjectP.set_data_p[GtkWidgetPaintable](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkWidgetPaintable
   fun ref getptr(): NullablePointer[GObjectT] => ptr

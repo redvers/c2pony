@@ -12,6 +12,8 @@ class GMenuItem is GMenuItemI
 
   new create() =>
     ptr = GObjectG.gnew(@g_menu_item_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GMenuItem")
+    GObjectP.set_data_p[GMenuItem](ptr, "_PonyGObjectPonyObject_", this)
 
   // GMenuItem
   fun ref getptr(): NullablePointer[GObjectT] => ptr

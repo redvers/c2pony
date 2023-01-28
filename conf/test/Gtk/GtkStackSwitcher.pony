@@ -14,6 +14,8 @@ class GtkStackSwitcher is GtkStackSwitcherI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_stack_switcher_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkStackSwitcher")
+    GObjectP.set_data_p[GtkStackSwitcher](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkStackSwitcher
   fun ref getptr(): NullablePointer[GObjectT] => ptr

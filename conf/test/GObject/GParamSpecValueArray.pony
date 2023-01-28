@@ -10,4 +10,5 @@ class GParamSpecValueArray is GParamSpecValueArrayI
   new create_from_ptr(ptr': NullablePointer[GParamSpecT]) => ptr = ptr'
 
 
+  // GParamSpecValueArray
   fun ref getptr(): NullablePointer[GParamSpecT] => ptr

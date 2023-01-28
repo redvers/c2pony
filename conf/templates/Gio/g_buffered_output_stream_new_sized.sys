@@ -1,2 +1,2 @@
-  fun new_sized(base_stream': NullablePointer[GOutputStreamT], size': U64): NullablePointer[GOutputStreamT] =>
-    @g_buffered_output_stream_new_sized(base_stream', size')
+  new new_sized(base_stream': NullablePointer[GOutputStreamT], size': U64) =>
+    ptr = @g_buffered_output_stream_new_sized(base_stream', size')

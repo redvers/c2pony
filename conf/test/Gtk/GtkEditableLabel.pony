@@ -14,6 +14,8 @@ class GtkEditableLabel is GtkEditableLabelI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_editable_label_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkEditableLabel")
+    GObjectP.set_data_p[GtkEditableLabel](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkEditableLabel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

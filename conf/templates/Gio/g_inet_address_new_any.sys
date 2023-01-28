@@ -1,2 +1,2 @@
-  fun new_any(family': U32): NullablePointer[GInetAddressT] =>
-    @g_inet_address_new_any(family')
+  new new_any(family': U32) =>
+    ptr = @g_inet_address_new_any(family')

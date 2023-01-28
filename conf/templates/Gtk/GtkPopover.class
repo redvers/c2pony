@@ -13,6 +13,8 @@ class GtkPopover is GtkPopoverI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_popover_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkPopover")
+    GObjectP.set_data_p[GtkPopover](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkPopover
   fun ref getptr(): NullablePointer[GObjectT] => ptr

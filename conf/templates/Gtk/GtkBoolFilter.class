@@ -13,6 +13,8 @@ class GtkBoolFilter is GtkBoolFilterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_bool_filter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkBoolFilter")
+    GObjectP.set_data_p[GtkBoolFilter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkBoolFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

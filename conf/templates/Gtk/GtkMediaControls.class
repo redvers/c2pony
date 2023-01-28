@@ -13,6 +13,8 @@ class GtkMediaControls is GtkMediaControlsI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_media_controls_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkMediaControls")
+    GObjectP.set_data_p[GtkMediaControls](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkMediaControls
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -10,4 +10,5 @@ class GParamSpecBoolean is GParamSpecBooleanI
   new create_from_ptr(ptr': NullablePointer[GParamSpecT]) => ptr = ptr'
 
 
+  // GParamSpecBoolean
   fun ref getptr(): NullablePointer[GParamSpecT] => ptr

@@ -13,6 +13,8 @@ class GtkPicture is GtkPictureI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_picture_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkPicture")
+    GObjectP.set_data_p[GtkPicture](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkPicture
   fun ref getptr(): NullablePointer[GObjectT] => ptr

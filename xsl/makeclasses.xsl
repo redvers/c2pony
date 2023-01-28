@@ -75,6 +75,14 @@
             <xsl:value-of select="$gettype"/>
             <xsl:text>())</xsl:text>
             <xsl:value-of select="$newline"/>
+            <xsl:text>    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "</xsl:text>
+            <xsl:value-of select="$filename"/>
+            <xsl:text>")</xsl:text>
+            <xsl:value-of select="$newline"/>
+            <xsl:text>    GObjectP.set_data_p[</xsl:text>
+            <xsl:value-of select="$filename"/>
+            <xsl:text>](ptr, "_PonyGObjectPonyObject_", this)</xsl:text>
+            <xsl:value-of select="$newline"/>
             <!--
             <xsl:value-of select="$newline"/>
             <xsl:text>  new create_from_builder(builder: GtkBuilder, nodename: String) =></xsl:text>

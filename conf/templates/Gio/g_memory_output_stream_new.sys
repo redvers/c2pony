@@ -1,2 +1,2 @@
-  fun new(data': Pointer[None] tag, size': U64, realloc_function': GReallocFunc, destroy_function': Pointer[None]): NullablePointer[GOutputStreamT] =>
-    @g_memory_output_stream_new(data', size', realloc_function', destroy_function')
+  new gnew(data': Pointer[None] tag, size': U64, realloc_function': GReallocFunc, destroy_function': Pointer[None]) =>
+    ptr = @g_memory_output_stream_new(data', size', realloc_function', destroy_function')

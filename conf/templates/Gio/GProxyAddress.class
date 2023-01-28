@@ -12,6 +12,8 @@ class GProxyAddress is GProxyAddressI
 
   new create() =>
     ptr = GObjectG.gnew(@g_proxy_address_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GProxyAddress")
+    GObjectP.set_data_p[GProxyAddress](ptr, "_PonyGObjectPonyObject_", this)
 
   // GProxyAddress
   fun ref getptr(): NullablePointer[GObjectT] => ptr

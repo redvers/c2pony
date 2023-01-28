@@ -14,6 +14,8 @@ class GtkSelectionFilterModel is GtkSelectionFilterModelI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_selection_filter_model_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSelectionFilterModel")
+    GObjectP.set_data_p[GtkSelectionFilterModel](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSelectionFilterModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

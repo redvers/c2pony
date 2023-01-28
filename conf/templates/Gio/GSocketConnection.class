@@ -12,6 +12,8 @@ class GSocketConnection is GSocketConnectionI
 
   new create() =>
     ptr = GObjectG.gnew(@g_socket_connection_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GSocketConnection")
+    GObjectP.set_data_p[GSocketConnection](ptr, "_PonyGObjectPonyObject_", this)
 
   // GSocketConnection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

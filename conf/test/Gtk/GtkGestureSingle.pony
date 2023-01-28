@@ -14,6 +14,8 @@ class GtkGestureSingle is GtkGestureSingleI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_gesture_single_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkGestureSingle")
+    GObjectP.set_data_p[GtkGestureSingle](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkGestureSingle
   fun ref getptr(): NullablePointer[GObjectT] => ptr

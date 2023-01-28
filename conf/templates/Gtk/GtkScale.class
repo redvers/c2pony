@@ -13,6 +13,8 @@ class GtkScale is GtkScaleI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_scale_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkScale")
+    GObjectP.set_data_p[GtkScale](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkScale
   fun ref getptr(): NullablePointer[GObjectT] => ptr

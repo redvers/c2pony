@@ -12,6 +12,8 @@ class GDBusMessage is GDBusMessageI
 
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_message_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDBusMessage")
+    GObjectP.set_data_p[GDBusMessage](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDBusMessage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

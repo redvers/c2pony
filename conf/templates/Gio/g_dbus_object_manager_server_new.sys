@@ -1,2 +1,2 @@
-  fun new(object_path': String): NullablePointer[GDBusObjectManagerServerT] =>
-    @g_dbus_object_manager_server_new(object_path'.cstring())
+  new gnew(object_path': String) =>
+    ptr = @g_dbus_object_manager_server_new(object_path'.cstring())

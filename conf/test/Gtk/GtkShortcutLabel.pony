@@ -14,6 +14,8 @@ class GtkShortcutLabel is GtkShortcutLabelI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_shortcut_label_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkShortcutLabel")
+    GObjectP.set_data_p[GtkShortcutLabel](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkShortcutLabel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

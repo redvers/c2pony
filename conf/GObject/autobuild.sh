@@ -72,12 +72,18 @@ echo > ../test/GObject/GObjectT.pony
 cat ../templates/GObject/GObjectT.struct >> ../test/GObject/GObjectT.pony
 cat ../templates/GObject/g_signal_connect_object.method >> ../test/GObject/GObjectI.pony
 cat ../templates/GObject/g_signal_connect.method >> ../test/GObject/GObjectI.pony
+cat ../templates/GObject/g_object_set_data.method >> ../test/GObject/GObjectI.pony
+cat ../templates/GObject/g_object_set_data_p.method >> ../test/GObject/GObjectI.pony
 echo > ../test/GObject/GObjectP.pony
 cat ../templates/GObject/g_signal_connect_object.use >> ../test/GObject/GObjectP.pony
 cat ../templates/GObject/g_signal_connect.use >> ../test/GObject/GObjectP.pony
+cat ../templates/GObject/g_object_set_data.use >> ../test/GObject/GObjectP.pony
+cat ../templates/GObject/g_object_set_data_p.use >> ../test/GObject/GObjectP.pony
 cat ../templates/GObject/GObjectP.primitive >> ../test/GObject/GObjectP.pony
 cat ../templates/GObject/g_signal_connect_object.sys >> ../test/GObject/GObjectP.pony
 cat ../templates/GObject/g_signal_connect.sys >> ../test/GObject/GObjectP.pony
+cat ../templates/GObject/g_object_set_data.sys >> ../test/GObject/GObjectP.pony
+cat ../templates/GObject/g_object_set_data_p.sys >> ../test/GObject/GObjectP.pony
 echo > ../test/GObject/GParamSpec.pony
 cat ../templates/GObject/GParamSpec.class >> ../test/GObject/GParamSpec.pony
 echo > ../test/GObject/GParamSpecI.pony

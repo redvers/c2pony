@@ -13,6 +13,8 @@ class GtkParamSpecExpression is GtkParamSpecExpressionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_param_expression_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkParamSpecExpression")
+    GObjectP.set_data_p[GtkParamSpecExpression](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkParamSpecExpression
   fun ref getptr(): NullablePointer[GtkExpressionT] => ptr

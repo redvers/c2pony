@@ -14,6 +14,8 @@ class GtkIconTheme is GtkIconThemeI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_icon_theme_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkIconTheme")
+    GObjectP.set_data_p[GtkIconTheme](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkIconTheme
   fun ref getptr(): NullablePointer[GObjectT] => ptr

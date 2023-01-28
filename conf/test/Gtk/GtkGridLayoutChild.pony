@@ -14,6 +14,8 @@ class GtkGridLayoutChild is GtkGridLayoutChildI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_grid_layout_child_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkGridLayoutChild")
+    GObjectP.set_data_p[GtkGridLayoutChild](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkGridLayoutChild
   fun ref getptr(): NullablePointer[GObjectT] => ptr

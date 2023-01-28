@@ -14,6 +14,8 @@ class GtkPasswordEntryBuffer is GtkPasswordEntryBufferI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_password_entry_buffer_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkPasswordEntryBuffer")
+    GObjectP.set_data_p[GtkPasswordEntryBuffer](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkPasswordEntryBuffer
   fun ref getptr(): NullablePointer[GObjectT] => ptr

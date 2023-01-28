@@ -427,7 +427,8 @@
       <rendermethod name="g_object_replace_qdata" ponyname="replace_qdata" render="0" deprecated=""/>
       <rendermethod name="g_object_run_dispose" ponyname="run_dispose" render="0" deprecated=""/>
       <rendermethod name="g_object_set" ponyname="set" render="0" deprecated=""/>
-      <rendermethod name="g_object_set_data" ponyname="set_data" render="0" deprecated=""/>
+      <rendermethod name="g_object_set_data" ponyname="set_data" render="1" deprecated=""/>
+      <rendermethod name="g_object_set_data_p" ponyname="set_data_p" render="1" deprecated=""/>
       <rendermethod name="g_object_set_data_full" ponyname="set_data_full" render="0" deprecated=""/>
       <rendermethod name="g_object_set_property" ponyname="set_property" render="0" deprecated=""/>
       <rendermethod name="g_object_set_qdata" ponyname="set_qdata" render="0" deprecated=""/>

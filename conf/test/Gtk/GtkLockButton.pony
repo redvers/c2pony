@@ -14,6 +14,8 @@ class GtkLockButton is GtkLockButtonI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_lock_button_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkLockButton")
+    GObjectP.set_data_p[GtkLockButton](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkLockButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

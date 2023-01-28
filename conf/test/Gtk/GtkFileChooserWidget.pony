@@ -14,6 +14,8 @@ class GtkFileChooserWidget is GtkFileChooserWidgetI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_file_chooser_widget_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFileChooserWidget")
+    GObjectP.set_data_p[GtkFileChooserWidget](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFileChooserWidget
   fun ref getptr(): NullablePointer[GObjectT] => ptr

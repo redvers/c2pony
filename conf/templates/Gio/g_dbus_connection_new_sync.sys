@@ -1,2 +1,2 @@
-  fun new_sync(stream': NullablePointer[GIOStreamT], guid': String, flags': U32, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GDBusConnectionT] =>
-    @g_dbus_connection_new_sync(stream', guid'.cstring(), flags', observer', cancellable', error'.ptr)
+  new new_sync(stream': NullablePointer[GIOStreamT], guid': String, flags': U32, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], error': GError) =>
+    ptr = @g_dbus_connection_new_sync(stream', guid'.cstring(), flags', observer', cancellable', error'.ptr)

@@ -14,6 +14,8 @@ class GtkAppChooserWidget is GtkAppChooserWidgetI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_app_chooser_widget_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkAppChooserWidget")
+    GObjectP.set_data_p[GtkAppChooserWidget](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkAppChooserWidget
   fun ref getptr(): NullablePointer[GObjectT] => ptr

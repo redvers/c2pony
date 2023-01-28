@@ -13,6 +13,8 @@ class GtkHeaderBar is GtkHeaderBarI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_header_bar_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkHeaderBar")
+    GObjectP.set_data_p[GtkHeaderBar](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkHeaderBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

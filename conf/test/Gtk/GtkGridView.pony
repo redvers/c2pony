@@ -14,6 +14,8 @@ class GtkGridView is GtkGridViewI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_grid_view_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkGridView")
+    GObjectP.set_data_p[GtkGridView](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkGridView
   fun ref getptr(): NullablePointer[GObjectT] => ptr

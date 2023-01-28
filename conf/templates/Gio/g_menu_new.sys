@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GMenuT] =>
-    @g_menu_new()
+  new gnew() =>
+    ptr = @g_menu_new()

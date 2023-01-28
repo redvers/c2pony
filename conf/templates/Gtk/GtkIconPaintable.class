@@ -13,6 +13,8 @@ class GtkIconPaintable is GtkIconPaintableI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_icon_paintable_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkIconPaintable")
+    GObjectP.set_data_p[GtkIconPaintable](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkIconPaintable
   fun ref getptr(): NullablePointer[GObjectT] => ptr

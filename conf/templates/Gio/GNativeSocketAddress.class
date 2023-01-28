@@ -12,6 +12,8 @@ class GNativeSocketAddress is GNativeSocketAddressI
 
   new create() =>
     ptr = GObjectG.gnew(@g_native_socket_address_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GNativeSocketAddress")
+    GObjectP.set_data_p[GNativeSocketAddress](ptr, "_PonyGObjectPonyObject_", this)
 
   // GNativeSocketAddress
   fun ref getptr(): NullablePointer[GObjectT] => ptr

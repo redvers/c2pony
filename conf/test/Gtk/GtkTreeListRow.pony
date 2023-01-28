@@ -14,6 +14,8 @@ class GtkTreeListRow is GtkTreeListRowI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_list_row_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkTreeListRow")
+    GObjectP.set_data_p[GtkTreeListRow](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkTreeListRow
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -14,6 +14,8 @@ class GtkOverlayLayout is GtkOverlayLayoutI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_overlay_layout_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkOverlayLayout")
+    GObjectP.set_data_p[GtkOverlayLayout](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkOverlayLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

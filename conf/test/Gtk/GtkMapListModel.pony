@@ -14,6 +14,8 @@ class GtkMapListModel is GtkMapListModelI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_map_list_model_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkMapListModel")
+    GObjectP.set_data_p[GtkMapListModel](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkMapListModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

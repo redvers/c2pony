@@ -13,6 +13,8 @@ class GtkCssProvider is GtkCssProviderI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_css_provider_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCssProvider")
+    GObjectP.set_data_p[GtkCssProvider](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCssProvider
   fun ref getptr(): NullablePointer[GObjectT] => ptr

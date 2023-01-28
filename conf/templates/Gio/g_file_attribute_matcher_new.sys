@@ -1,2 +1,2 @@
-  new new(attributes': String) =>
+  new gnew(attributes': String) =>
     ptr = @g_file_attribute_matcher_new(attributes'.cstring())

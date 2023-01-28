@@ -12,6 +12,8 @@ class GUnixInputStream is GUnixInputStreamI
 
   new create() =>
     ptr = GObjectG.gnew(@g_unix_input_stream_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GUnixInputStream")
+    GObjectP.set_data_p[GUnixInputStream](ptr, "_PonyGObjectPonyObject_", this)
 
   // GUnixInputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

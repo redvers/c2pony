@@ -13,6 +13,8 @@ class GtkGestureDrag is GtkGestureDragI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_gesture_drag_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkGestureDrag")
+    GObjectP.set_data_p[GtkGestureDrag](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkGestureDrag
   fun ref getptr(): NullablePointer[GObjectT] => ptr

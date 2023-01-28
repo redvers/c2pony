@@ -12,6 +12,8 @@ class GDBusObjectSkeleton is GDBusObjectSkeletonI
 
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_object_skeleton_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDBusObjectSkeleton")
+    GObjectP.set_data_p[GDBusObjectSkeleton](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDBusObjectSkeleton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

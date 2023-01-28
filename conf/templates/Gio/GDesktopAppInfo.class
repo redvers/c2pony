@@ -12,6 +12,8 @@ class GDesktopAppInfo is GDesktopAppInfoI
 
   new create() =>
     ptr = GObjectG.gnew(@g_desktop_app_info_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDesktopAppInfo")
+    GObjectP.set_data_p[GDesktopAppInfo](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDesktopAppInfo
   fun ref getptr(): NullablePointer[GObjectT] => ptr

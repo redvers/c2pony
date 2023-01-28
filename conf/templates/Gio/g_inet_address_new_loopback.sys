@@ -1,2 +1,2 @@
-  fun new_loopback(family': U32): NullablePointer[GInetAddressT] =>
-    @g_inet_address_new_loopback(family')
+  new new_loopback(family': U32) =>
+    ptr = @g_inet_address_new_loopback(family')

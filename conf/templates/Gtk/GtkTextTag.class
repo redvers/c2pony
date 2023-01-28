@@ -13,6 +13,8 @@ class GtkTextTag is GtkTextTagI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_text_tag_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkTextTag")
+    GObjectP.set_data_p[GtkTextTag](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkTextTag
   fun ref getptr(): NullablePointer[GObjectT] => ptr

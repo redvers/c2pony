@@ -14,6 +14,8 @@ class GtkLevelBar is GtkLevelBarI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_level_bar_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkLevelBar")
+    GObjectP.set_data_p[GtkLevelBar](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkLevelBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

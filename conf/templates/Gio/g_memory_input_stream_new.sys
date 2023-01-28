@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GInputStreamT] =>
-    @g_memory_input_stream_new()
+  new gnew() =>
+    ptr = @g_memory_input_stream_new()

@@ -15,6 +15,8 @@ class GtkStringList is GtkStringListI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_string_list_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkStringList")
+    GObjectP.set_data_p[GtkStringList](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkStringList
   fun ref getptr(): NullablePointer[GObjectT] => ptr

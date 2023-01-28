@@ -12,6 +12,8 @@ class GTlsInteraction is GTlsInteractionI
 
   new create() =>
     ptr = GObjectG.gnew(@g_tls_interaction_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GTlsInteraction")
+    GObjectP.set_data_p[GTlsInteraction](ptr, "_PonyGObjectPonyObject_", this)
 
   // GTlsInteraction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

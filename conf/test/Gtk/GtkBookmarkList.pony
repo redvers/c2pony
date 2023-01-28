@@ -14,6 +14,8 @@ class GtkBookmarkList is GtkBookmarkListI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_bookmark_list_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkBookmarkList")
+    GObjectP.set_data_p[GtkBookmarkList](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkBookmarkList
   fun ref getptr(): NullablePointer[GObjectT] => ptr

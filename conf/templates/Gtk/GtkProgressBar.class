@@ -13,6 +13,8 @@ class GtkProgressBar is GtkProgressBarI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_progress_bar_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkProgressBar")
+    GObjectP.set_data_p[GtkProgressBar](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkProgressBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

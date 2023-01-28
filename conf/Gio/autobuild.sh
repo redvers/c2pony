@@ -16,7 +16,9 @@ cat ../templates/Gio/g_application_run.use >> ../test/Gio/GApplicationP.pony
 cat ../templates/Gio/GApplicationP.primitive >> ../test/Gio/GApplicationP.pony
 cat ../templates/Gio/g_application_run.sys >> ../test/Gio/GApplicationP.pony
 echo > ../test/Gio/GListStore.pony
+cat ../templates/Gio/g_list_store_new.use >> ../test/Gio/GListStore.pony
 cat ../templates/Gio/GListStore.class >> ../test/Gio/GListStore.pony
+cat ../templates/Gio/g_list_store_new.sys >> ../test/Gio/GListStore.pony
 echo > ../test/Gio/GListStoreI.pony
 cat ../templates/Gio/GListStoreI.classinterface >> ../test/Gio/GListStoreI.pony
 echo > ../test/Gio/GListStoreT.pony

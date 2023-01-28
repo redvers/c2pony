@@ -14,6 +14,8 @@ class GtkFileFilter is GtkFileFilterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_file_filter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFileFilter")
+    GObjectP.set_data_p[GtkFileFilter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFileFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

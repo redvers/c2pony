@@ -13,6 +13,8 @@ class GtkViewport is GtkViewportI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_viewport_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkViewport")
+    GObjectP.set_data_p[GtkViewport](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkViewport
   fun ref getptr(): NullablePointer[GObjectT] => ptr

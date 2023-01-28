@@ -3,4 +3,5 @@ use "../GLib"
 use "lib:gobject-2.0"
 
 interface GInitiallyUnownedI is (GObjectI)
+// GInitiallyUnowned
   fun ref getptr(): NullablePointer[GObjectT]

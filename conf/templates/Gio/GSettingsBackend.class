@@ -12,6 +12,8 @@ class GSettingsBackend is GSettingsBackendI
 
   new create() =>
     ptr = GObjectG.gnew(@g_settings_backend_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GSettingsBackend")
+    GObjectP.set_data_p[GSettingsBackend](ptr, "_PonyGObjectPonyObject_", this)
 
   // GSettingsBackend
   fun ref getptr(): NullablePointer[GObjectT] => ptr

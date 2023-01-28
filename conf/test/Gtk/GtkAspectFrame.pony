@@ -14,6 +14,8 @@ class GtkAspectFrame is GtkAspectFrameI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_aspect_frame_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkAspectFrame")
+    GObjectP.set_data_p[GtkAspectFrame](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkAspectFrame
   fun ref getptr(): NullablePointer[GObjectT] => ptr

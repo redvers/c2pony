@@ -13,6 +13,8 @@ class GtkFixedLayout is GtkFixedLayoutI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_fixed_layout_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFixedLayout")
+    GObjectP.set_data_p[GtkFixedLayout](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFixedLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

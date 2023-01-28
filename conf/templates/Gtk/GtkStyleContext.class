@@ -13,6 +13,8 @@ class GtkStyleContext is GtkStyleContextI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_style_context_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkStyleContext")
+    GObjectP.set_data_p[GtkStyleContext](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkStyleContext
   fun ref getptr(): NullablePointer[GObjectT] => ptr

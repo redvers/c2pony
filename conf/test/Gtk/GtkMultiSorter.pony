@@ -14,6 +14,8 @@ class GtkMultiSorter is GtkMultiSorterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_multi_sorter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkMultiSorter")
+    GObjectP.set_data_p[GtkMultiSorter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkMultiSorter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

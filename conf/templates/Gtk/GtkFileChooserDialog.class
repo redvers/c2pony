@@ -13,6 +13,8 @@ class GtkFileChooserDialog is GtkFileChooserDialogI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_file_chooser_dialog_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFileChooserDialog")
+    GObjectP.set_data_p[GtkFileChooserDialog](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFileChooserDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

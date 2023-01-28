@@ -13,6 +13,8 @@ class GtkTreeListRowSorter is GtkTreeListRowSorterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_list_row_sorter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkTreeListRowSorter")
+    GObjectP.set_data_p[GtkTreeListRowSorter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkTreeListRowSorter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GUnixFDListT] =>
-    @g_unix_fd_list_new()
+  new gnew() =>
+    ptr = @g_unix_fd_list_new()

@@ -13,6 +13,8 @@ class GtkWidget is GtkWidgetI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_widget_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkWidget")
+    GObjectP.set_data_p[GtkWidget](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkWidget
   fun ref getptr(): NullablePointer[GObjectT] => ptr

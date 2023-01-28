@@ -12,6 +12,8 @@ class GDBusAuthObserver is GDBusAuthObserverI
 
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_auth_observer_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDBusAuthObserver")
+    GObjectP.set_data_p[GDBusAuthObserver](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDBusAuthObserver
   fun ref getptr(): NullablePointer[GObjectT] => ptr

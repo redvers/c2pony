@@ -12,6 +12,8 @@ class GUnixFDMessage is GUnixFDMessageI
 
   new create() =>
     ptr = GObjectG.gnew(@g_unix_fd_message_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GUnixFDMessage")
+    GObjectP.set_data_p[GUnixFDMessage](ptr, "_PonyGObjectPonyObject_", this)
 
   // GUnixFDMessage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

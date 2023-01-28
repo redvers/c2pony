@@ -462,6 +462,12 @@ use @g_object_set_data[None](object': NullablePointer[GObjectT], key': Pointer[U
   fun ref set_data[A: Any](sig: String, data: A) =>
     GObjectP.set_data[A](this, sig, consume data)
 </methodoverride>
+<useoverride name="g_object_set_data_p" render="1"/>
+<methodoverride name="g_object_set_data_p" render="1"/>
+<sysoverride name="g_object_set_data_p" ponyname="set_data_p" render="1">
+  fun set_data_p[A: Any](gobj0: NullablePointer[GObjectT], sig: String, data: A) =>
+    @g_object_set_data(gobj0, sig.cstring(), data)
+</sysoverride>
 
       <renderconstructor name="g_object_new_valist" ponyname="new_valist" render="0" deprecated=""/>
       <renderconstructor name="g_object_new_with_properties" ponyname="new_with_properties" render="0" deprecated=""/>

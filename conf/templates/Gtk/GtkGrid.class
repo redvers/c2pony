@@ -13,6 +13,8 @@ class GtkGrid is GtkGridI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_grid_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkGrid")
+    GObjectP.set_data_p[GtkGrid](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkGrid
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -12,6 +12,8 @@ class GFileMonitor is GFileMonitorI
 
   new create() =>
     ptr = GObjectG.gnew(@g_file_monitor_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GFileMonitor")
+    GObjectP.set_data_p[GFileMonitor](ptr, "_PonyGObjectPonyObject_", this)
 
   // GFileMonitor
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -13,6 +13,8 @@ class GtkDragIcon is GtkDragIconI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_drag_icon_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkDragIcon")
+    GObjectP.set_data_p[GtkDragIcon](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkDragIcon
   fun ref getptr(): NullablePointer[GObjectT] => ptr

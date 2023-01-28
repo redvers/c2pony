@@ -14,6 +14,8 @@ class GtkColorButton is GtkColorButtonI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_color_button_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkColorButton")
+    GObjectP.set_data_p[GtkColorButton](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkColorButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,1 +1,1 @@
-use @g_list_model_get_object[NullablePointer[GObjectT]](list': NullablePointer[GListModelT], position': U32)
+use @g_list_model_get_object[NullablePointer[GObjectT]](list': NullablePointer[GObjectT], position': U32)

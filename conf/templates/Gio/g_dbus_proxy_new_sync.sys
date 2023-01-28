@@ -1,2 +1,2 @@
-  fun new_sync(connection': NullablePointer[GDBusConnectionT], flags': U32, info': NullablePointer[GDBusInterfaceInfoT], name': String, object_path': String, interface_name': String, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GDBusProxyT] =>
-    @g_dbus_proxy_new_sync(connection', flags', info', name'.cstring(), object_path'.cstring(), interface_name'.cstring(), cancellable', error'.ptr)
+  new new_sync(connection': NullablePointer[GDBusConnectionT], flags': U32, info': NullablePointer[GDBusInterfaceInfoT], name': String, object_path': String, interface_name': String, cancellable': NullablePointer[GCancellableT], error': GError) =>
+    ptr = @g_dbus_proxy_new_sync(connection', flags', info', name'.cstring(), object_path'.cstring(), interface_name'.cstring(), cancellable', error'.ptr)

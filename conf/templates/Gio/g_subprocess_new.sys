@@ -1,2 +1,2 @@
-  fun new(flags': U32, error': GError, argv0': String, ...): NullablePointer[GSubprocessT] =>
-    @g_subprocess_new(flags', error'.ptr, argv0'.cstring(), ...)
+  new gnew(flags': U32, error': GError, argv0': String, ...) =>
+    ptr = @g_subprocess_new(flags', error'.ptr, argv0'.cstring(), ...)

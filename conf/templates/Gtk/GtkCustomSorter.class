@@ -13,6 +13,8 @@ class GtkCustomSorter is GtkCustomSorterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_custom_sorter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCustomSorter")
+    GObjectP.set_data_p[GtkCustomSorter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCustomSorter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

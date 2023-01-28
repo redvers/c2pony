@@ -13,6 +13,8 @@ class GtkNeverTrigger is GtkNeverTriggerI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_never_trigger_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkNeverTrigger")
+    GObjectP.set_data_p[GtkNeverTrigger](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkNeverTrigger
   fun ref getptr(): NullablePointer[GObjectT] => ptr

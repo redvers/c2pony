@@ -12,6 +12,8 @@ class GDBusObjectManagerServer is GDBusObjectManagerServerI
 
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_object_manager_server_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDBusObjectManagerServer")
+    GObjectP.set_data_p[GDBusObjectManagerServer](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDBusObjectManagerServer
   fun ref getptr(): NullablePointer[GObjectT] => ptr

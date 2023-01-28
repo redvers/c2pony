@@ -1,2 +1,2 @@
-  fun new(base_stream': NullablePointer[GInputStreamT]): NullablePointer[GInputStreamT] =>
-    @g_buffered_input_stream_new(base_stream')
+  new gnew(base_stream': NullablePointer[GInputStreamT]) =>
+    ptr = @g_buffered_input_stream_new(base_stream')

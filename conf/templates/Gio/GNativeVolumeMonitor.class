@@ -12,6 +12,8 @@ class GNativeVolumeMonitor is GNativeVolumeMonitorI
 
   new create() =>
     ptr = GObjectG.gnew(@g_native_volume_monitor_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GNativeVolumeMonitor")
+    GObjectP.set_data_p[GNativeVolumeMonitor](ptr, "_PonyGObjectPonyObject_", this)
 
   // GNativeVolumeMonitor
   fun ref getptr(): NullablePointer[GObjectT] => ptr

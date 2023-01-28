@@ -12,6 +12,8 @@ class GBufferedOutputStream is GBufferedOutputStreamI
 
   new create() =>
     ptr = GObjectG.gnew(@g_buffered_output_stream_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GBufferedOutputStream")
+    GObjectP.set_data_p[GBufferedOutputStream](ptr, "_PonyGObjectPonyObject_", this)
 
   // GBufferedOutputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

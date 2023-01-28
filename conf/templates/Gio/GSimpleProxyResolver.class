@@ -12,6 +12,8 @@ class GSimpleProxyResolver is GSimpleProxyResolverI
 
   new create() =>
     ptr = GObjectG.gnew(@g_simple_proxy_resolver_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GSimpleProxyResolver")
+    GObjectP.set_data_p[GSimpleProxyResolver](ptr, "_PonyGObjectPonyObject_", this)
 
   // GSimpleProxyResolver
   fun ref getptr(): NullablePointer[GObjectT] => ptr

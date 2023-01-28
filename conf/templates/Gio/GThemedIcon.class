@@ -12,6 +12,8 @@ class GThemedIcon is GThemedIconI
 
   new create() =>
     ptr = GObjectG.gnew(@g_themed_icon_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GThemedIcon")
+    GObjectP.set_data_p[GThemedIcon](ptr, "_PonyGObjectPonyObject_", this)
 
   // GThemedIcon
   fun ref getptr(): NullablePointer[GObjectT] => ptr

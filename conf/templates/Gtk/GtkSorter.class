@@ -13,6 +13,8 @@ class GtkSorter is GtkSorterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_sorter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSorter")
+    GObjectP.set_data_p[GtkSorter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSorter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

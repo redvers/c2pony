@@ -12,5 +12,8 @@ class GBinding is GBindingI
 
   new create() =>
     ptr = GObjectG.gnew(@g_binding_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GBinding")
+    GObjectP.set_data_p[GBinding](ptr, "_PonyGObjectPonyObject_", this)
 
+  // GBinding
   fun ref getptr(): NullablePointer[GObjectT] => ptr

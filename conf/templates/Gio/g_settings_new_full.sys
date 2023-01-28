@@ -1,2 +1,2 @@
-  fun new_full(schema': NullablePointer[GSettingsSchemaT], backend': NullablePointer[GSettingsBackendT], path': String): NullablePointer[GSettingsT] =>
-    @g_settings_new_full(schema', backend', path'.cstring())
+  new new_full(schema': NullablePointer[GSettingsSchemaT], backend': NullablePointer[GSettingsBackendT], path': String) =>
+    ptr = @g_settings_new_full(schema', backend', path'.cstring())

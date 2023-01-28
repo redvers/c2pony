@@ -14,6 +14,8 @@ class GtkListItemFactory is GtkListItemFactoryI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_item_factory_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkListItemFactory")
+    GObjectP.set_data_p[GtkListItemFactory](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkListItemFactory
   fun ref getptr(): NullablePointer[GObjectT] => ptr

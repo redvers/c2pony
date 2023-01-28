@@ -13,6 +13,8 @@ class GtkNativeDialog is GtkNativeDialogI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_native_dialog_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkNativeDialog")
+    GObjectP.set_data_p[GtkNativeDialog](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkNativeDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -14,6 +14,8 @@ class GtkCellRendererToggle is GtkCellRendererToggleI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_renderer_toggle_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCellRendererToggle")
+    GObjectP.set_data_p[GtkCellRendererToggle](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCellRendererToggle
   fun ref getptr(): NullablePointer[GObjectT] => ptr

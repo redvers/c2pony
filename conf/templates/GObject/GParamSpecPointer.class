@@ -9,4 +9,5 @@ class GParamSpecPointer is GParamSpecPointerI
   new create_from_ptr(ptr': NullablePointer[GParamSpecT]) => ptr = ptr'
 
 
+  // GParamSpecPointer
   fun ref getptr(): NullablePointer[GParamSpecT] => ptr

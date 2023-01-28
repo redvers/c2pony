@@ -12,6 +12,8 @@ class GDBusMethodInvocation is GDBusMethodInvocationI
 
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_method_invocation_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDBusMethodInvocation")
+    GObjectP.set_data_p[GDBusMethodInvocation](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDBusMethodInvocation
   fun ref getptr(): NullablePointer[GObjectT] => ptr

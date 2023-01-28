@@ -12,6 +12,8 @@ class GUnixSocketAddress is GUnixSocketAddressI
 
   new create() =>
     ptr = GObjectG.gnew(@g_unix_socket_address_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GUnixSocketAddress")
+    GObjectP.set_data_p[GUnixSocketAddress](ptr, "_PonyGObjectPonyObject_", this)
 
   // GUnixSocketAddress
   fun ref getptr(): NullablePointer[GObjectT] => ptr

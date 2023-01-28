@@ -13,6 +13,8 @@ class GtkBoxLayout is GtkBoxLayoutI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_box_layout_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkBoxLayout")
+    GObjectP.set_data_p[GtkBoxLayout](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkBoxLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

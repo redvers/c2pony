@@ -13,6 +13,8 @@ class GtkStringSorter is GtkStringSorterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_string_sorter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkStringSorter")
+    GObjectP.set_data_p[GtkStringSorter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkStringSorter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

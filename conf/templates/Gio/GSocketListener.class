@@ -12,6 +12,8 @@ class GSocketListener is GSocketListenerI
 
   new create() =>
     ptr = GObjectG.gnew(@g_socket_listener_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GSocketListener")
+    GObjectP.set_data_p[GSocketListener](ptr, "_PonyGObjectPonyObject_", this)
 
   // GSocketListener
   fun ref getptr(): NullablePointer[GObjectT] => ptr

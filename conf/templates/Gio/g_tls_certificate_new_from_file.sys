@@ -1,2 +1,2 @@
-  fun new_from_file(file': String, error': GError): NullablePointer[GTlsCertificateT] =>
-    @g_tls_certificate_new_from_file(file'.cstring(), error'.ptr)
+  new new_from_file(file': String, error': GError) =>
+    ptr = @g_tls_certificate_new_from_file(file'.cstring(), error'.ptr)

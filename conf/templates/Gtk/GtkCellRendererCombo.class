@@ -13,6 +13,8 @@ class GtkCellRendererCombo is GtkCellRendererComboI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_renderer_combo_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCellRendererCombo")
+    GObjectP.set_data_p[GtkCellRendererCombo](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCellRendererCombo
   fun ref getptr(): NullablePointer[GObjectT] => ptr

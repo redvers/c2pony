@@ -12,6 +12,8 @@ class GIOModule is GIOModuleI
 
   new create() =>
     ptr = GObjectG.gnew(@g_io_module_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GIOModule")
+    GObjectP.set_data_p[GIOModule](ptr, "_PonyGObjectPonyObject_", this)
 
   // GIOModule
   fun ref getptr(): NullablePointer[GObjectT] => ptr

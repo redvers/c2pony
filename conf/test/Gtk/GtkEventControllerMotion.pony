@@ -14,6 +14,8 @@ class GtkEventControllerMotion is GtkEventControllerMotionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_event_controller_motion_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkEventControllerMotion")
+    GObjectP.set_data_p[GtkEventControllerMotion](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkEventControllerMotion
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -13,6 +13,8 @@ class GtkTextChildAnchor is GtkTextChildAnchorI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_text_child_anchor_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkTextChildAnchor")
+    GObjectP.set_data_p[GtkTextChildAnchor](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkTextChildAnchor
   fun ref getptr(): NullablePointer[GObjectT] => ptr

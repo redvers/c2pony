@@ -1,2 +1,2 @@
-  fun new_for_bus_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GDBusProxyT] =>
-    @g_dbus_proxy_new_for_bus_finish(res', error'.ptr)
+  new new_for_bus_finish(res': NullablePointer[GAsyncResultT], error': GError) =>
+    ptr = @g_dbus_proxy_new_for_bus_finish(res', error'.ptr)

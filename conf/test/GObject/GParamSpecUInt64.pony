@@ -10,4 +10,5 @@ class GParamSpecUInt64 is GParamSpecUInt64I
   new create_from_ptr(ptr': NullablePointer[GParamSpecT]) => ptr = ptr'
 
 
+  // GParamSpecUInt64
   fun ref getptr(): NullablePointer[GParamSpecT] => ptr

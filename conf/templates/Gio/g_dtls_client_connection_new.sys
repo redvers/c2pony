@@ -1,2 +1,2 @@
-  fun new(base_socket': NullablePointer[GDatagramBasedT], server_identity': NullablePointer[GSocketConnectableT], error': GError): NullablePointer[GDatagramBasedT] =>
+  fun gnew(base_socket': NullablePointer[GDatagramBasedT], server_identity': NullablePointer[GSocketConnectableT], error': GError): NullablePointer[GDatagramBasedT] =>
     @g_dtls_client_connection_new(base_socket', server_identity', error'.ptr)

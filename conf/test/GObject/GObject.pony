@@ -12,5 +12,8 @@ class GObject is GObjectI
 
   new create() =>
     ptr = GObjectG.gnew(@g_object_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GObject")
+    GObjectP.set_data_p[GObject](ptr, "_PonyGObjectPonyObject_", this)
 
+  // GObject
   fun ref getptr(): NullablePointer[GObjectT] => ptr

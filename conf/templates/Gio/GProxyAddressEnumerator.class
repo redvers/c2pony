@@ -12,6 +12,8 @@ class GProxyAddressEnumerator is GProxyAddressEnumeratorI
 
   new create() =>
     ptr = GObjectG.gnew(@g_proxy_address_enumerator_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GProxyAddressEnumerator")
+    GObjectP.set_data_p[GProxyAddressEnumerator](ptr, "_PonyGObjectPonyObject_", this)
 
   // GProxyAddressEnumerator
   fun ref getptr(): NullablePointer[GObjectT] => ptr

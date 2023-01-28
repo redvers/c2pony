@@ -13,6 +13,8 @@ class GtkPrinter is GtkPrinterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_printer_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkPrinter")
+    GObjectP.set_data_p[GtkPrinter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkPrinter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

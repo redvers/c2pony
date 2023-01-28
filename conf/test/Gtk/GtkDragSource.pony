@@ -14,6 +14,8 @@ class GtkDragSource is GtkDragSourceI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_drag_source_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkDragSource")
+    GObjectP.set_data_p[GtkDragSource](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkDragSource
   fun ref getptr(): NullablePointer[GObjectT] => ptr

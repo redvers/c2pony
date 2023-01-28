@@ -14,6 +14,8 @@ class GtkScaleButton is GtkScaleButtonI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_scale_button_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkScaleButton")
+    GObjectP.set_data_p[GtkScaleButton](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkScaleButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

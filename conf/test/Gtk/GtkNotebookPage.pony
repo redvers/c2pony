@@ -14,6 +14,8 @@ class GtkNotebookPage is GtkNotebookPageI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_notebook_page_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkNotebookPage")
+    GObjectP.set_data_p[GtkNotebookPage](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkNotebookPage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

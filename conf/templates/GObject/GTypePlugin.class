@@ -9,4 +9,5 @@ class GTypePlugin is GTypePluginI
   new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
 
 
+  // GTypePlugin
   fun ref getptr(): NullablePointer[GObjectT] => ptr

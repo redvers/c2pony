@@ -14,6 +14,8 @@ class GtkMultiFilter is GtkMultiFilterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_multi_filter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkMultiFilter")
+    GObjectP.set_data_p[GtkMultiFilter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkMultiFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

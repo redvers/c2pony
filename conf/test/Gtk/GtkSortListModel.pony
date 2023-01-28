@@ -14,6 +14,8 @@ class GtkSortListModel is GtkSortListModelI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_sort_list_model_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSortListModel")
+    GObjectP.set_data_p[GtkSortListModel](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSortListModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

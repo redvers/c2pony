@@ -13,6 +13,8 @@ class GtkNotebook is GtkNotebookI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_notebook_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkNotebook")
+    GObjectP.set_data_p[GtkNotebook](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkNotebook
   fun ref getptr(): NullablePointer[GObjectT] => ptr

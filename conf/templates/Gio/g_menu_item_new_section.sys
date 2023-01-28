@@ -1,2 +1,2 @@
-  fun new_section(label': String, section': NullablePointer[GMenuModelT]): NullablePointer[GMenuItemT] =>
-    @g_menu_item_new_section(label'.cstring(), section')
+  new new_section(label': String, section': NullablePointer[GMenuModelT]) =>
+    ptr = @g_menu_item_new_section(label'.cstring(), section')

@@ -12,6 +12,8 @@ class GVfs is GVfsI
 
   new create() =>
     ptr = GObjectG.gnew(@g_vfs_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GVfs")
+    GObjectP.set_data_p[GVfs](ptr, "_PonyGObjectPonyObject_", this)
 
   // GVfs
   fun ref getptr(): NullablePointer[GObjectT] => ptr

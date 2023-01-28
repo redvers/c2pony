@@ -14,6 +14,8 @@ class GtkFlattenListModel is GtkFlattenListModelI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_flatten_list_model_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFlattenListModel")
+    GObjectP.set_data_p[GtkFlattenListModel](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFlattenListModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

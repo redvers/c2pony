@@ -14,6 +14,8 @@ class GtkListBase is GtkListBaseI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_base_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkListBase")
+    GObjectP.set_data_p[GtkListBase](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkListBase
   fun ref getptr(): NullablePointer[GObjectT] => ptr

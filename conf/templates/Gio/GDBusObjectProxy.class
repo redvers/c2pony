@@ -12,6 +12,8 @@ class GDBusObjectProxy is GDBusObjectProxyI
 
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_object_proxy_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GDBusObjectProxy")
+    GObjectP.set_data_p[GDBusObjectProxy](ptr, "_PonyGObjectPonyObject_", this)
 
   // GDBusObjectProxy
   fun ref getptr(): NullablePointer[GObjectT] => ptr

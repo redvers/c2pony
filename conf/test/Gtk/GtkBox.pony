@@ -14,6 +14,8 @@ class GtkBox is GtkBoxI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_box_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkBox")
+    GObjectP.set_data_p[GtkBox](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkBox
   fun ref getptr(): NullablePointer[GObjectT] => ptr

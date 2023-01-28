@@ -12,6 +12,8 @@ class GTlsConnection is GTlsConnectionI
 
   new create() =>
     ptr = GObjectG.gnew(@g_tls_connection_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GTlsConnection")
+    GObjectP.set_data_p[GTlsConnection](ptr, "_PonyGObjectPonyObject_", this)
 
   // GTlsConnection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

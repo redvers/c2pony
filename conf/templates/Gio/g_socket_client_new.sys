@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GSocketClientT] =>
-    @g_socket_client_new()
+  new gnew() =>
+    ptr = @g_socket_client_new()

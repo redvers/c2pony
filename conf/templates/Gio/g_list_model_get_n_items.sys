@@ -1,2 +1,2 @@
-  fun get_n_items(list': NullablePointer[GListModelT]): U32 =>
-    @g_list_model_get_n_items(list')
+  fun get_n_items(list': GListModelI): U32 =>
+    @g_list_model_get_n_items(list'.getptr())

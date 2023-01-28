@@ -1,2 +1,2 @@
-  fun new(base_stream': NullablePointer[GOutputStreamT]): NullablePointer[GDataOutputStreamT] =>
-    @g_data_output_stream_new(base_stream')
+  new gnew(base_stream': NullablePointer[GOutputStreamT]) =>
+    ptr = @g_data_output_stream_new(base_stream')

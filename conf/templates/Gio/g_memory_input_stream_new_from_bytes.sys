@@ -1,2 +1,2 @@
-  fun new_from_bytes(bytes': NullablePointer[GBytesT]): NullablePointer[GInputStreamT] =>
-    @g_memory_input_stream_new_from_bytes(bytes')
+  new new_from_bytes(bytes': NullablePointer[GBytesT]) =>
+    ptr = @g_memory_input_stream_new_from_bytes(bytes')

@@ -14,6 +14,8 @@ class GtkSearchEntry is GtkSearchEntryI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_search_entry_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSearchEntry")
+    GObjectP.set_data_p[GtkSearchEntry](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSearchEntry
   fun ref getptr(): NullablePointer[GObjectT] => ptr

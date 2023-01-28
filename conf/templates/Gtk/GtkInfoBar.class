@@ -13,6 +13,8 @@ class GtkInfoBar is GtkInfoBarI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_info_bar_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkInfoBar")
+    GObjectP.set_data_p[GtkInfoBar](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkInfoBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

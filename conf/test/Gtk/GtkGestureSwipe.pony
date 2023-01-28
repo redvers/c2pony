@@ -14,6 +14,8 @@ class GtkGestureSwipe is GtkGestureSwipeI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_gesture_swipe_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkGestureSwipe")
+    GObjectP.set_data_p[GtkGestureSwipe](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkGestureSwipe
   fun ref getptr(): NullablePointer[GObjectT] => ptr

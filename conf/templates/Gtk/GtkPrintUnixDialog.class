@@ -13,6 +13,8 @@ class GtkPrintUnixDialog is GtkPrintUnixDialogI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_print_unix_dialog_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkPrintUnixDialog")
+    GObjectP.set_data_p[GtkPrintUnixDialog](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkPrintUnixDialog
   fun ref getptr(): NullablePointer[GObjectT] => ptr

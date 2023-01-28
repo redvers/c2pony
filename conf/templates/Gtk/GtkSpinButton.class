@@ -13,6 +13,8 @@ class GtkSpinButton is GtkSpinButtonI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_spin_button_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSpinButton")
+    GObjectP.set_data_p[GtkSpinButton](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSpinButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

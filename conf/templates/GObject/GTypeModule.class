@@ -11,5 +11,8 @@ class GTypeModule is GTypeModuleI
 
   new create() =>
     ptr = GObjectG.gnew(@g_type_module_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GTypeModule")
+    GObjectP.set_data_p[GTypeModule](ptr, "_PonyGObjectPonyObject_", this)
 
+  // GTypeModule
   fun ref getptr(): NullablePointer[GObjectT] => ptr

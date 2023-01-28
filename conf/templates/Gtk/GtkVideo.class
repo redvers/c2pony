@@ -13,6 +13,8 @@ class GtkVideo is GtkVideoI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_video_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkVideo")
+    GObjectP.set_data_p[GtkVideo](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkVideo
   fun ref getptr(): NullablePointer[GObjectT] => ptr

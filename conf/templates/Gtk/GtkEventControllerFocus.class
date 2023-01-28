@@ -13,6 +13,8 @@ class GtkEventControllerFocus is GtkEventControllerFocusI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_event_controller_focus_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkEventControllerFocus")
+    GObjectP.set_data_p[GtkEventControllerFocus](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkEventControllerFocus
   fun ref getptr(): NullablePointer[GObjectT] => ptr

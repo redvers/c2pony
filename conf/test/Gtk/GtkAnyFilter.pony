@@ -14,6 +14,8 @@ class GtkAnyFilter is GtkAnyFilterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_any_filter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkAnyFilter")
+    GObjectP.set_data_p[GtkAnyFilter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkAnyFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

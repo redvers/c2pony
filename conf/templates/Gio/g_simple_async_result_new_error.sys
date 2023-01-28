@@ -1,2 +1,2 @@
-  fun new_error(source_object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, domain': U32, code': I32, format': String, ...): NullablePointer[GSimpleAsyncResultT] =>
-    @g_simple_async_result_new_error(source_object', callback', user_data', domain', code', format'.cstring(), ...)
+  new new_error(source_object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, domain': U32, code': I32, format': String, ...) =>
+    ptr = @g_simple_async_result_new_error(source_object', callback', user_data', domain', code', format'.cstring(), ...)

@@ -13,6 +13,8 @@ class GtkConstantExpression is GtkConstantExpressionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_constant_expression_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkConstantExpression")
+    GObjectP.set_data_p[GtkConstantExpression](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkConstantExpression
   fun ref getptr(): NullablePointer[GtkExpressionT] => ptr

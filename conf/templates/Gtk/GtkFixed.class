@@ -13,6 +13,8 @@ class GtkFixed is GtkFixedI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_fixed_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFixed")
+    GObjectP.set_data_p[GtkFixed](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFixed
   fun ref getptr(): NullablePointer[GObjectT] => ptr

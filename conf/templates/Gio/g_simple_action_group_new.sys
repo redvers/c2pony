@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GSimpleActionGroupT] =>
-    @g_simple_action_group_new()
+  new gnew() =>
+    ptr = @g_simple_action_group_new()

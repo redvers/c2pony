@@ -14,6 +14,8 @@ class GtkFlowBoxChild is GtkFlowBoxChildI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_flow_box_child_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkFlowBoxChild")
+    GObjectP.set_data_p[GtkFlowBoxChild](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkFlowBoxChild
   fun ref getptr(): NullablePointer[GObjectT] => ptr

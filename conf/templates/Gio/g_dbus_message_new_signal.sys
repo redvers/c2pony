@@ -1,2 +1,2 @@
-  fun new_signal(path': String, interface': String, signal': String): NullablePointer[GDBusMessageT] =>
-    @g_dbus_message_new_signal(path'.cstring(), interface'.cstring(), signal'.cstring())
+  new new_signal(path': String, interface': String, signal': String) =>
+    ptr = @g_dbus_message_new_signal(path'.cstring(), interface'.cstring(), signal'.cstring())

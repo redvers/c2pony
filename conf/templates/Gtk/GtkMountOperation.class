@@ -13,6 +13,8 @@ class GtkMountOperation is GtkMountOperationI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_mount_operation_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkMountOperation")
+    GObjectP.set_data_p[GtkMountOperation](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkMountOperation
   fun ref getptr(): NullablePointer[GObjectT] => ptr

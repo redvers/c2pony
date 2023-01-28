@@ -1,2 +1,2 @@
-  fun new(format': U32, level': I32): NullablePointer[GZlibCompressorT] =>
-    @g_zlib_compressor_new(format', level')
+  new gnew(format': U32, level': I32) =>
+    ptr = @g_zlib_compressor_new(format', level')

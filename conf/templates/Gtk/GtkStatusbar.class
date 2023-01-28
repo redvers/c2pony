@@ -13,6 +13,8 @@ class GtkStatusbar is GtkStatusbarI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_statusbar_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkStatusbar")
+    GObjectP.set_data_p[GtkStatusbar](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkStatusbar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,2 +1,2 @@
-  fun new_from_string(string': String): NullablePointer[GInetAddressT] =>
-    @g_inet_address_new_from_string(string'.cstring())
+  new new_from_string(string': String) =>
+    ptr = @g_inet_address_new_from_string(string'.cstring())

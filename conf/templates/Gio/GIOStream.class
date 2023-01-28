@@ -12,6 +12,8 @@ class GIOStream is GIOStreamI
 
   new create() =>
     ptr = GObjectG.gnew(@g_io_stream_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GIOStream")
+    GObjectP.set_data_p[GIOStream](ptr, "_PonyGObjectPonyObject_", this)
 
   // GIOStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

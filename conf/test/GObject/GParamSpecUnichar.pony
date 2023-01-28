@@ -10,4 +10,5 @@ class GParamSpecUnichar is GParamSpecUnicharI
   new create_from_ptr(ptr': NullablePointer[GParamSpecT]) => ptr = ptr'
 
 
+  // GParamSpecUnichar
   fun ref getptr(): NullablePointer[GParamSpecT] => ptr

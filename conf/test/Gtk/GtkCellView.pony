@@ -14,6 +14,8 @@ class GtkCellView is GtkCellViewI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_cell_view_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCellView")
+    GObjectP.set_data_p[GtkCellView](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCellView
   fun ref getptr(): NullablePointer[GObjectT] => ptr

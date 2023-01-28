@@ -14,6 +14,8 @@ class GtkMnemonicTrigger is GtkMnemonicTriggerI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_mnemonic_trigger_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkMnemonicTrigger")
+    GObjectP.set_data_p[GtkMnemonicTrigger](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkMnemonicTrigger
   fun ref getptr(): NullablePointer[GObjectT] => ptr

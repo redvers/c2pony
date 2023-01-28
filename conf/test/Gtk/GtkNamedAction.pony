@@ -14,6 +14,8 @@ class GtkNamedAction is GtkNamedActionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_named_action_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkNamedAction")
+    GObjectP.set_data_p[GtkNamedAction](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkNamedAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

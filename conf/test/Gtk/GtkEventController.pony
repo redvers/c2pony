@@ -14,6 +14,8 @@ class GtkEventController is GtkEventControllerI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_event_controller_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkEventController")
+    GObjectP.set_data_p[GtkEventController](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkEventController
   fun ref getptr(): NullablePointer[GObjectT] => ptr

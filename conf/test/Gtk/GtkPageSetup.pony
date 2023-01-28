@@ -14,6 +14,8 @@ class GtkPageSetup is GtkPageSetupI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_page_setup_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkPageSetup")
+    GObjectP.set_data_p[GtkPageSetup](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkPageSetup
   fun ref getptr(): NullablePointer[GObjectT] => ptr

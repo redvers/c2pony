@@ -1,2 +1,2 @@
-  fun new(icon': NullablePointer[GIconT], emblem': NullablePointer[GEmblemT]): NullablePointer[GIconT] =>
-    @g_emblemed_icon_new(icon', emblem')
+  new gnew(icon': NullablePointer[GIconT], emblem': NullablePointer[GEmblemT]) =>
+    ptr = @g_emblemed_icon_new(icon', emblem')

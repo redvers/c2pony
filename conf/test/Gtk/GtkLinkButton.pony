@@ -14,6 +14,8 @@ class GtkLinkButton is GtkLinkButtonI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_link_button_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkLinkButton")
+    GObjectP.set_data_p[GtkLinkButton](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkLinkButton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

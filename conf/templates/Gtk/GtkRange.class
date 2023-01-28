@@ -13,6 +13,8 @@ class GtkRange is GtkRangeI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_range_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkRange")
+    GObjectP.set_data_p[GtkRange](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkRange
   fun ref getptr(): NullablePointer[GObjectT] => ptr

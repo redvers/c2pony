@@ -14,6 +14,8 @@ class GtkListStore is GtkListStoreI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_list_store_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkListStore")
+    GObjectP.set_data_p[GtkListStore](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkListStore
   fun ref getptr(): NullablePointer[GObjectT] => ptr

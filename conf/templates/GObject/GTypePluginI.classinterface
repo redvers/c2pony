@@ -3,4 +3,5 @@ use "../GLib"
 use "lib:gobject-2.0"
 
 interface GTypePluginI
+// GTypePlugin
   fun ref getptr(): NullablePointer[GObjectT]

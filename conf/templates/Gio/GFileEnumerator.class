@@ -12,6 +12,8 @@ class GFileEnumerator is GFileEnumeratorI
 
   new create() =>
     ptr = GObjectG.gnew(@g_file_enumerator_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GFileEnumerator")
+    GObjectP.set_data_p[GFileEnumerator](ptr, "_PonyGObjectPonyObject_", this)
 
   // GFileEnumerator
   fun ref getptr(): NullablePointer[GObjectT] => ptr

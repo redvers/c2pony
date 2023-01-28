@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GFileInfoT] =>
-    @g_file_info_new()
+  new gnew() =>
+    ptr = @g_file_info_new()

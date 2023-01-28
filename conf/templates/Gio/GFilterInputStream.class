@@ -12,6 +12,8 @@ class GFilterInputStream is GFilterInputStreamI
 
   new create() =>
     ptr = GObjectG.gnew(@g_filter_input_stream_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GFilterInputStream")
+    GObjectP.set_data_p[GFilterInputStream](ptr, "_PonyGObjectPonyObject_", this)
 
   // GFilterInputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

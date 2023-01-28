@@ -12,6 +12,8 @@ class GSimpleAsyncResult is GSimpleAsyncResultI
 
   new create() =>
     ptr = GObjectG.gnew(@g_simple_async_result_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GSimpleAsyncResult")
+    GObjectP.set_data_p[GSimpleAsyncResult](ptr, "_PonyGObjectPonyObject_", this)
 
   // GSimpleAsyncResult
   fun ref getptr(): NullablePointer[GObjectT] => ptr

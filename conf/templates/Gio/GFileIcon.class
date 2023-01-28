@@ -12,6 +12,8 @@ class GFileIcon is GFileIconI
 
   new create() =>
     ptr = GObjectG.gnew(@g_file_icon_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GFileIcon")
+    GObjectP.set_data_p[GFileIcon](ptr, "_PonyGObjectPonyObject_", this)
 
   // GFileIcon
   fun ref getptr(): NullablePointer[GObjectT] => ptr

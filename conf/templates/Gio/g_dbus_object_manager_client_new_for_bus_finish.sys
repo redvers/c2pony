@@ -1,2 +1,2 @@
-  fun new_for_bus_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GDBusObjectManagerT] =>
-    @g_dbus_object_manager_client_new_for_bus_finish(res', error'.ptr)
+  new new_for_bus_finish(res': NullablePointer[GAsyncResultT], error': GError) =>
+    ptr = @g_dbus_object_manager_client_new_for_bus_finish(res', error'.ptr)

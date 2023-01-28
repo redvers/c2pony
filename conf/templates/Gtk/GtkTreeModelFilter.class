@@ -13,6 +13,8 @@ class GtkTreeModelFilter is GtkTreeModelFilterI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_tree_model_filter_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkTreeModelFilter")
+    GObjectP.set_data_p[GtkTreeModelFilter](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkTreeModelFilter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

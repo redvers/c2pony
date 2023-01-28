@@ -12,6 +12,8 @@ class GMountOperation is GMountOperationI
 
   new create() =>
     ptr = GObjectG.gnew(@g_mount_operation_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GMountOperation")
+    GObjectP.set_data_p[GMountOperation](ptr, "_PonyGObjectPonyObject_", this)
 
   // GMountOperation
   fun ref getptr(): NullablePointer[GObjectT] => ptr

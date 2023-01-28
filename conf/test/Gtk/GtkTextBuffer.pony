@@ -14,6 +14,8 @@ class GtkTextBuffer is GtkTextBufferI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_text_buffer_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkTextBuffer")
+    GObjectP.set_data_p[GtkTextBuffer](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkTextBuffer
   fun ref getptr(): NullablePointer[GObjectT] => ptr

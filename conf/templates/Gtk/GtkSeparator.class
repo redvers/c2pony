@@ -13,6 +13,8 @@ class GtkSeparator is GtkSeparatorI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_separator_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkSeparator")
+    GObjectP.set_data_p[GtkSeparator](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkSeparator
   fun ref getptr(): NullablePointer[GObjectT] => ptr

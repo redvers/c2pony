@@ -13,6 +13,8 @@ class GtkGLArea is GtkGLAreaI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_gl_area_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkGLArea")
+    GObjectP.set_data_p[GtkGLArea](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkGLArea
   fun ref getptr(): NullablePointer[GObjectT] => ptr

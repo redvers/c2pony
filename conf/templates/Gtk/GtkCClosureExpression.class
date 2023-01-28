@@ -13,6 +13,8 @@ class GtkCClosureExpression is GtkCClosureExpressionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_cclosure_expression_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCClosureExpression")
+    GObjectP.set_data_p[GtkCClosureExpression](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCClosureExpression
   fun ref getptr(): NullablePointer[GtkExpressionT] => ptr

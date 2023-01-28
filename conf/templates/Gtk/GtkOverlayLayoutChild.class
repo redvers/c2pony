@@ -13,6 +13,8 @@ class GtkOverlayLayoutChild is GtkOverlayLayoutChildI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_overlay_layout_child_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkOverlayLayoutChild")
+    GObjectP.set_data_p[GtkOverlayLayoutChild](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkOverlayLayoutChild
   fun ref getptr(): NullablePointer[GObjectT] => ptr

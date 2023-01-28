@@ -13,6 +13,8 @@ class GtkIMMulticontext is GtkIMMulticontextI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_im_multicontext_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkIMMulticontext")
+    GObjectP.set_data_p[GtkIMMulticontext](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkIMMulticontext
   fun ref getptr(): NullablePointer[GObjectT] => ptr

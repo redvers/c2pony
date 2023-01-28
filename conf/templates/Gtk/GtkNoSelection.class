@@ -13,6 +13,8 @@ class GtkNoSelection is GtkNoSelectionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_no_selection_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkNoSelection")
+    GObjectP.set_data_p[GtkNoSelection](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkNoSelection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

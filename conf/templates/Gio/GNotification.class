@@ -12,6 +12,8 @@ class GNotification is GNotificationI
 
   new create() =>
     ptr = GObjectG.gnew(@g_notification_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GNotification")
+    GObjectP.set_data_p[GNotification](ptr, "_PonyGObjectPonyObject_", this)
 
   // GNotification
   fun ref getptr(): NullablePointer[GObjectT] => ptr

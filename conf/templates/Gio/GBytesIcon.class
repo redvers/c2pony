@@ -12,6 +12,8 @@ class GBytesIcon is GBytesIconI
 
   new create() =>
     ptr = GObjectG.gnew(@g_bytes_icon_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GBytesIcon")
+    GObjectP.set_data_p[GBytesIcon](ptr, "_PonyGObjectPonyObject_", this)
 
   // GBytesIcon
   fun ref getptr(): NullablePointer[GObjectT] => ptr

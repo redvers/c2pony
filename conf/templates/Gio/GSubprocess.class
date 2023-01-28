@@ -12,6 +12,8 @@ class GSubprocess is GSubprocessI
 
   new create() =>
     ptr = GObjectG.gnew(@g_subprocess_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GSubprocess")
+    GObjectP.set_data_p[GSubprocess](ptr, "_PonyGObjectPonyObject_", this)
 
   // GSubprocess
   fun ref getptr(): NullablePointer[GObjectT] => ptr

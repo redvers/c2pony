@@ -14,6 +14,8 @@ class GtkMultiSelection is GtkMultiSelectionI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_multi_selection_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkMultiSelection")
+    GObjectP.set_data_p[GtkMultiSelection](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkMultiSelection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -12,6 +12,8 @@ class GSettings is GSettingsI
 
   new create() =>
     ptr = GObjectG.gnew(@g_settings_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GSettings")
+    GObjectP.set_data_p[GSettings](ptr, "_PonyGObjectPonyObject_", this)
 
   // GSettings
   fun ref getptr(): NullablePointer[GObjectT] => ptr

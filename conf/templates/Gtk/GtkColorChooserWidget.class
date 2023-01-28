@@ -13,6 +13,8 @@ class GtkColorChooserWidget is GtkColorChooserWidgetI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_color_chooser_widget_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkColorChooserWidget")
+    GObjectP.set_data_p[GtkColorChooserWidget](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkColorChooserWidget
   fun ref getptr(): NullablePointer[GObjectT] => ptr

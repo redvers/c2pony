@@ -13,6 +13,8 @@ class GtkActionBar is GtkActionBarI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_action_bar_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkActionBar")
+    GObjectP.set_data_p[GtkActionBar](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkActionBar
   fun ref getptr(): NullablePointer[GObjectT] => ptr

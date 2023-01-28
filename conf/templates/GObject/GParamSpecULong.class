@@ -9,4 +9,5 @@ class GParamSpecULong is GParamSpecULongI
   new create_from_ptr(ptr': NullablePointer[GParamSpecT]) => ptr = ptr'
 
 
+  // GParamSpecULong
   fun ref getptr(): NullablePointer[GParamSpecT] => ptr

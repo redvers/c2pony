@@ -14,6 +14,8 @@ class GtkConstraintLayoutChild is GtkConstraintLayoutChildI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_constraint_layout_child_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkConstraintLayoutChild")
+    GObjectP.set_data_p[GtkConstraintLayoutChild](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkConstraintLayoutChild
   fun ref getptr(): NullablePointer[GObjectT] => ptr

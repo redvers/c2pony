@@ -13,6 +13,8 @@ class GtkShortcut is GtkShortcutI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_shortcut_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkShortcut")
+    GObjectP.set_data_p[GtkShortcut](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkShortcut
   fun ref getptr(): NullablePointer[GObjectT] => ptr

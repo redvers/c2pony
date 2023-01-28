@@ -14,6 +14,8 @@ class GtkCustomLayout is GtkCustomLayoutI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_custom_layout_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkCustomLayout")
+    GObjectP.set_data_p[GtkCustomLayout](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkCustomLayout
   fun ref getptr(): NullablePointer[GObjectT] => ptr

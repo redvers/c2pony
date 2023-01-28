@@ -14,6 +14,8 @@ class GtkAssistant is GtkAssistantI
 
   new create() =>
     ptr = GObjectG.gnew(@gtk_assistant_get_type())
+    GObjectP.set_data_p[String](ptr, "_PonyGObjectTypeString_", "GtkAssistant")
+    GObjectP.set_data_p[GtkAssistant](ptr, "_PonyGObjectPonyObject_", this)
 
   // GtkAssistant
   fun ref getptr(): NullablePointer[GObjectT] => ptr
