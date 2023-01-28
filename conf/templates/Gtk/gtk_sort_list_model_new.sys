@@ -1,2 +1,2 @@
-  fun new(model': NullablePointer[GListModelT], sorter': NullablePointer[GtkSorterT]): NullablePointer[GtkSortListModelT] =>
-    @gtk_sort_list_model_new(model', sorter')
+  new gnew(model': GListModelI, sorter': NullablePointer[GtkSorterT]) =>
+    ptr = @gtk_sort_list_model_new(model'.getptr(), sorter')

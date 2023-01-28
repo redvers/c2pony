@@ -170,7 +170,11 @@ cat ../templates/Gtk/GtkBoxLayoutT.struct >> ../test/Gtk/GtkBoxLayoutT.pony
 echo > ../test/Gtk/GtkBoxLayoutP.pony
 cat ../templates/Gtk/GtkBoxLayoutP.primitive >> ../test/Gtk/GtkBoxLayoutP.pony
 echo > ../test/Gtk/GtkBuilder.pony
+cat ../templates/Gtk/gtk_builder_new.use >> ../test/Gtk/GtkBuilder.pony
+cat ../templates/Gtk/gtk_builder_new_from_resource.use >> ../test/Gtk/GtkBuilder.pony
 cat ../templates/Gtk/GtkBuilder.class >> ../test/Gtk/GtkBuilder.pony
+cat ../templates/Gtk/gtk_builder_new.sys >> ../test/Gtk/GtkBuilder.pony
+cat ../templates/Gtk/gtk_builder_new_from_resource.sys >> ../test/Gtk/GtkBuilder.pony
 echo > ../test/Gtk/GtkBuilderI.pony
 cat ../templates/Gtk/GtkBuilderI.classinterface >> ../test/Gtk/GtkBuilderI.pony
 echo > ../test/Gtk/GtkBuilderT.pony
@@ -971,7 +975,11 @@ cat ../templates/Gtk/GtkKeyvalTriggerT.struct >> ../test/Gtk/GtkKeyvalTriggerT.p
 echo > ../test/Gtk/GtkKeyvalTriggerP.pony
 cat ../templates/Gtk/GtkKeyvalTriggerP.primitive >> ../test/Gtk/GtkKeyvalTriggerP.pony
 echo > ../test/Gtk/GtkLabel.pony
+cat ../templates/Gtk/gtk_label_new.use >> ../test/Gtk/GtkLabel.pony
+cat ../templates/Gtk/gtk_label_new_with_mnemonic.use >> ../test/Gtk/GtkLabel.pony
 cat ../templates/Gtk/GtkLabel.class >> ../test/Gtk/GtkLabel.pony
+cat ../templates/Gtk/gtk_label_new.sys >> ../test/Gtk/GtkLabel.pony
+cat ../templates/Gtk/gtk_label_new_with_mnemonic.sys >> ../test/Gtk/GtkLabel.pony
 echo > ../test/Gtk/GtkLabelI.pony
 cat ../templates/Gtk/GtkLabelI.classinterface >> ../test/Gtk/GtkLabelI.pony
 echo > ../test/Gtk/GtkLabelT.pony
@@ -1040,8 +1048,35 @@ echo > ../test/Gtk/GtkListItemI.pony
 cat ../templates/Gtk/GtkListItemI.classinterface >> ../test/Gtk/GtkListItemI.pony
 echo > ../test/Gtk/GtkListItemT.pony
 cat ../templates/Gtk/GtkListItemT.struct >> ../test/Gtk/GtkListItemT.pony
+cat ../templates/Gtk/gtk_list_item_get_activatable.method >> ../test/Gtk/GtkListItemI.pony
+cat ../templates/Gtk/gtk_list_item_get_child.method >> ../test/Gtk/GtkListItemI.pony
+cat ../templates/Gtk/gtk_list_item_get_item.method >> ../test/Gtk/GtkListItemI.pony
+cat ../templates/Gtk/gtk_list_item_get_position.method >> ../test/Gtk/GtkListItemI.pony
+cat ../templates/Gtk/gtk_list_item_get_selectable.method >> ../test/Gtk/GtkListItemI.pony
+cat ../templates/Gtk/gtk_list_item_get_selected.method >> ../test/Gtk/GtkListItemI.pony
+cat ../templates/Gtk/gtk_list_item_set_activatable.method >> ../test/Gtk/GtkListItemI.pony
+cat ../templates/Gtk/gtk_list_item_set_child.method >> ../test/Gtk/GtkListItemI.pony
+cat ../templates/Gtk/gtk_list_item_set_selectable.method >> ../test/Gtk/GtkListItemI.pony
 echo > ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_activatable.use >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_child.use >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_item.use >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_position.use >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_selectable.use >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_selected.use >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_set_activatable.use >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_set_child.use >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_set_selectable.use >> ../test/Gtk/GtkListItemP.pony
 cat ../templates/Gtk/GtkListItemP.primitive >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_activatable.sys >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_child.sys >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_item.sys >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_position.sys >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_selectable.sys >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_get_selected.sys >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_set_activatable.sys >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_set_child.sys >> ../test/Gtk/GtkListItemP.pony
+cat ../templates/Gtk/gtk_list_item_set_selectable.sys >> ../test/Gtk/GtkListItemP.pony
 echo > ../test/Gtk/GtkListItemFactory.pony
 cat ../templates/Gtk/GtkListItemFactory.class >> ../test/Gtk/GtkListItemFactory.pony
 echo > ../test/Gtk/GtkListItemFactoryI.pony
@@ -1064,8 +1099,14 @@ echo > ../test/Gtk/GtkListViewI.pony
 cat ../templates/Gtk/GtkListViewI.classinterface >> ../test/Gtk/GtkListViewI.pony
 echo > ../test/Gtk/GtkListViewT.pony
 cat ../templates/Gtk/GtkListViewT.struct >> ../test/Gtk/GtkListViewT.pony
+cat ../templates/Gtk/gtk_list_view_set_factory.method >> ../test/Gtk/GtkListViewI.pony
+cat ../templates/Gtk/gtk_list_view_set_model.method >> ../test/Gtk/GtkListViewI.pony
 echo > ../test/Gtk/GtkListViewP.pony
+cat ../templates/Gtk/gtk_list_view_set_factory.use >> ../test/Gtk/GtkListViewP.pony
+cat ../templates/Gtk/gtk_list_view_set_model.use >> ../test/Gtk/GtkListViewP.pony
 cat ../templates/Gtk/GtkListViewP.primitive >> ../test/Gtk/GtkListViewP.pony
+cat ../templates/Gtk/gtk_list_view_set_factory.sys >> ../test/Gtk/GtkListViewP.pony
+cat ../templates/Gtk/gtk_list_view_set_model.sys >> ../test/Gtk/GtkListViewP.pony
 echo > ../test/Gtk/GtkLockButton.pony
 cat ../templates/Gtk/GtkLockButton.class >> ../test/Gtk/GtkLockButton.pony
 echo > ../test/Gtk/GtkLockButtonI.pony
@@ -1523,7 +1564,9 @@ cat ../templates/Gtk/GtkSignalListItemFactoryT.struct >> ../test/Gtk/GtkSignalLi
 echo > ../test/Gtk/GtkSignalListItemFactoryP.pony
 cat ../templates/Gtk/GtkSignalListItemFactoryP.primitive >> ../test/Gtk/GtkSignalListItemFactoryP.pony
 echo > ../test/Gtk/GtkSingleSelection.pony
+cat ../templates/Gtk/gtk_single_selection_new.use >> ../test/Gtk/GtkSingleSelection.pony
 cat ../templates/Gtk/GtkSingleSelection.class >> ../test/Gtk/GtkSingleSelection.pony
+cat ../templates/Gtk/gtk_single_selection_new.sys >> ../test/Gtk/GtkSingleSelection.pony
 echo > ../test/Gtk/GtkSingleSelectionI.pony
 cat ../templates/Gtk/GtkSingleSelectionI.classinterface >> ../test/Gtk/GtkSingleSelectionI.pony
 echo > ../test/Gtk/GtkSingleSelectionT.pony
@@ -1627,13 +1670,30 @@ cat ../templates/Gtk/GtkStringFilterT.struct >> ../test/Gtk/GtkStringFilterT.pon
 echo > ../test/Gtk/GtkStringFilterP.pony
 cat ../templates/Gtk/GtkStringFilterP.primitive >> ../test/Gtk/GtkStringFilterP.pony
 echo > ../test/Gtk/GtkStringList.pony
+cat ../templates/Gtk/gtk_string_list_new.use >> ../test/Gtk/GtkStringList.pony
 cat ../templates/Gtk/GtkStringList.class >> ../test/Gtk/GtkStringList.pony
+cat ../templates/Gtk/gtk_string_list_new.sys >> ../test/Gtk/GtkStringList.pony
 echo > ../test/Gtk/GtkStringListI.pony
 cat ../templates/Gtk/GtkStringListI.classinterface >> ../test/Gtk/GtkStringListI.pony
 echo > ../test/Gtk/GtkStringListT.pony
 cat ../templates/Gtk/GtkStringListT.struct >> ../test/Gtk/GtkStringListT.pony
+cat ../templates/Gtk/gtk_string_list_append.method >> ../test/Gtk/GtkStringListI.pony
+cat ../templates/Gtk/gtk_string_list_get_string.method >> ../test/Gtk/GtkStringListI.pony
+cat ../templates/Gtk/gtk_string_list_remove.method >> ../test/Gtk/GtkStringListI.pony
+cat ../templates/Gtk/gtk_string_list_splice.method >> ../test/Gtk/GtkStringListI.pony
+cat ../templates/Gtk/gtk_string_list_take.method >> ../test/Gtk/GtkStringListI.pony
 echo > ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_append.use >> ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_get_string.use >> ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_remove.use >> ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_splice.use >> ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_take.use >> ../test/Gtk/GtkStringListP.pony
 cat ../templates/Gtk/GtkStringListP.primitive >> ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_append.sys >> ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_get_string.sys >> ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_remove.sys >> ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_splice.sys >> ../test/Gtk/GtkStringListP.pony
+cat ../templates/Gtk/gtk_string_list_take.sys >> ../test/Gtk/GtkStringListP.pony
 echo > ../test/Gtk/GtkStringObject.pony
 cat ../templates/Gtk/GtkStringObject.class >> ../test/Gtk/GtkStringObject.pony
 echo > ../test/Gtk/GtkStringObjectI.pony

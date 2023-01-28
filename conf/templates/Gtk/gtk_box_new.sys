@@ -1,2 +1,2 @@
-  fun new(orientation': U32, spacing': I32): NullablePointer[GObjectT] =>
-@gtk_box_new(orientation', spacing')
+  new gnew(orientation': U32, spacing': I32) =>
+    ptr = @gtk_box_new(orientation', spacing')

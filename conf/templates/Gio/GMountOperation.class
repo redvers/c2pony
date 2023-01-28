@@ -13,4 +13,5 @@ class GMountOperation is GMountOperationI
   new create() =>
     ptr = GObjectG.gnew(@g_mount_operation_get_type())
 
+  // GMountOperation
   fun ref getptr(): NullablePointer[GObjectT] => ptr

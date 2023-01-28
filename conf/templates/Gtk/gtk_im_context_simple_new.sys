@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkIMContextT] =>
-    @gtk_im_context_simple_new()
+  new gnew() =>
+    ptr = @gtk_im_context_simple_new()

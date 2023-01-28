@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_scrolled_window_new()
+  new gnew() =>
+    ptr = @gtk_scrolled_window_new()

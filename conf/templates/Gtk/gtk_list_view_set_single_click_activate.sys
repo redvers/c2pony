@@ -1,2 +1,2 @@
-  fun set_single_click_activate(self': NullablePointer[GtkListViewT], single_click_activate': I32): None =>
-    @gtk_list_view_set_single_click_activate(self', single_click_activate')
+  fun set_single_click_activate(self': GtkListViewI, single_click_activate': I32): None =>
+    @gtk_list_view_set_single_click_activate(self'.getptr(), single_click_activate')

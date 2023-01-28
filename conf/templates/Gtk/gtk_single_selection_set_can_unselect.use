@@ -1,1 +1,1 @@
-use @gtk_single_selection_set_can_unselect[None](self': NullablePointer[GtkSingleSelectionT], can_unselect': I32)
+use @gtk_single_selection_set_can_unselect[None](self': NullablePointer[GObjectT], can_unselect': I32)

@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_video_new()
+  new gnew() =>
+    ptr = @gtk_video_new()

@@ -1,1 +1,1 @@
-use @gtk_sort_list_model_new[NullablePointer[GtkSortListModelT]](model': NullablePointer[GListModelT], sorter': NullablePointer[GtkSorterT])
+use @gtk_sort_list_model_new[NullablePointer[GtkSortListModelT]](model': NullablePointer[GObjectT], sorter': NullablePointer[GtkSorterT])

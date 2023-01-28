@@ -1,2 +1,2 @@
-  fun new(orientation': U32): NullablePointer[GtkLayoutManagerT] =>
-    @gtk_box_layout_new(orientation')
+  new gnew(orientation': U32) =>
+    ptr = @gtk_box_layout_new(orientation')

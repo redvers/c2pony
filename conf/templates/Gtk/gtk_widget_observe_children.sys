@@ -1,2 +1,2 @@
-  fun observe_children(widget': GtkWidgetI): NullablePointer[GListModelT] =>
-    @gtk_widget_observe_children(widget'.getptr())
+  fun observe_children(widget': GtkWidgetI): NullablePointer[GObjectT] =>
+@gtk_widget_observe_children(widget'.getptr())

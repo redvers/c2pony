@@ -1,2 +1,2 @@
-  fun get_selectable(self': NullablePointer[GtkLabelT]): I32 =>
-    @gtk_label_get_selectable(self')
+  fun get_selectable(self': GtkLabelI): I32 =>
+    @gtk_label_get_selectable(self'.getptr())

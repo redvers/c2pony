@@ -10,4 +10,5 @@ class GAppInfo is GAppInfoI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GAppInfo
   fun ref getptr(): NullablePointer[T] => ptr

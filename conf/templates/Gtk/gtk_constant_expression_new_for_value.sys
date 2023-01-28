@@ -1,2 +1,2 @@
-  fun new_for_value(value': NullablePointer[GValueT]): NullablePointer[GtkExpressionT] =>
-    @gtk_constant_expression_new_for_value(value')
+  new new_for_value(value': NullablePointer[GValueT]) =>
+    ptr = @gtk_constant_expression_new_for_value(value')

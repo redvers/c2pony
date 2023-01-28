@@ -1,1 +1,1 @@
-use @gtk_widget_observe_controllers[NullablePointer[GListModelT]](widget': NullablePointer[GObjectT])
+use @gtk_widget_observe_controllers[NullablePointer[GObjectT]](widget': NullablePointer[GObjectT])

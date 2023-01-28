@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_grid_new()
+  new gnew() =>
+    ptr = @gtk_grid_new()

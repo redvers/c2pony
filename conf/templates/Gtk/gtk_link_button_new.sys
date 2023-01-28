@@ -1,2 +1,2 @@
-  fun new(uri': String): NullablePointer[GObjectT] =>
-@gtk_link_button_new(uri'.cstring())
+  new gnew(uri': String) =>
+    ptr = @gtk_link_button_new(uri'.cstring())

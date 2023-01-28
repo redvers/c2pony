@@ -10,4 +10,5 @@ class GDtlsClientConnection is GDtlsClientConnectionI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GDtlsClientConnection
   fun ref getptr(): NullablePointer[T] => ptr

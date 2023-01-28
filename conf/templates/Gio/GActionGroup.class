@@ -10,4 +10,5 @@ class GActionGroup is GActionGroupI
   new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
 
 
+  // GActionGroup
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_about_dialog_new()
+  new gnew() =>
+    ptr = @gtk_about_dialog_new()

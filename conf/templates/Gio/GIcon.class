@@ -10,4 +10,5 @@ class GIcon is GIconI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GIcon
   fun ref getptr(): NullablePointer[T] => ptr

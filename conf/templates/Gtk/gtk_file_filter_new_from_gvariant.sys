@@ -1,2 +1,2 @@
-  fun new_from_gvariant(variant': NullablePointer[GVariantT]): NullablePointer[GtkFileFilterT] =>
-    @gtk_file_filter_new_from_gvariant(variant')
+  new new_from_gvariant(variant': NullablePointer[GVariantT]) =>
+    ptr = @gtk_file_filter_new_from_gvariant(variant')

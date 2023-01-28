@@ -10,4 +10,5 @@ class GAsyncResult is GAsyncResultI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GAsyncResult
   fun ref getptr(): NullablePointer[T] => ptr

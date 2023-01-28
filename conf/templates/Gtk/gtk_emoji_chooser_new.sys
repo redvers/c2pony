@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_emoji_chooser_new()
+  new gnew() =>
+    ptr = @gtk_emoji_chooser_new()

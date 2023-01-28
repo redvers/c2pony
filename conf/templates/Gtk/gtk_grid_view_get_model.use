@@ -1,1 +1,1 @@
-use @gtk_grid_view_get_model[NullablePointer[GtkSelectionModelT]](self': NullablePointer[GtkGridViewT])
+use @gtk_grid_view_get_model[NullablePointer[GObjectT]](self': NullablePointer[GtkGridViewT])

@@ -1,2 +1,2 @@
-  fun ref get_factory(): NullablePointer[GtkListItemFactoryT] =>
+  fun ref get_factory(): NullablePointer[GObjectT] =>
     GtkGridViewP.get_factory(this)

@@ -1,2 +1,2 @@
-  fun set_factory(self': NullablePointer[GtkColumnViewColumnT], factory': NullablePointer[GtkListItemFactoryT]): None =>
-    @gtk_column_view_column_set_factory(self', factory')
+  fun set_factory(self': NullablePointer[GtkColumnViewColumnT], factory': GtkListItemFactoryI): None =>
+    @gtk_column_view_column_set_factory(self', factory'.getptr())

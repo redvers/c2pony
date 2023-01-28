@@ -1,4 +1,6 @@
 
+use @gtk_label_new[NullablePointer[GObjectT]](str': Pointer[U8] tag)
+use @gtk_label_new_with_mnemonic[NullablePointer[GObjectT]](str': Pointer[U8] tag)
 
 use @gtk_label_get_type[U64]()
 
@@ -17,3 +19,7 @@ class GtkLabel is GtkLabelI
 
   // GtkLabel
   fun ref getptr(): NullablePointer[GObjectT] => ptr
+  new gnew(str': String) =>
+    ptr = @gtk_label_new(str'.cstring())
+  new new_with_mnemonic(str': String) =>
+    ptr = @gtk_label_new_with_mnemonic(str'.cstring())

@@ -1,1 +1,1 @@
-use @gtk_single_selection_new[NullablePointer[GtkSingleSelectionT]](model': NullablePointer[GListModelT])
+use @gtk_single_selection_new[NullablePointer[GObjectT]](model': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun parse_string(string': String): NullablePointer[GtkShortcutTriggerT] =>
-    @gtk_shortcut_trigger_parse_string(string'.cstring())
+  new parse_string(string': String) =>
+    ptr = @gtk_shortcut_trigger_parse_string(string'.cstring())

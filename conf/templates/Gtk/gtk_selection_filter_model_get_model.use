@@ -1,1 +1,1 @@
-use @gtk_selection_filter_model_get_model[NullablePointer[GtkSelectionModelT]](self': NullablePointer[GtkSelectionFilterModelT])
+use @gtk_selection_filter_model_get_model[NullablePointer[GObjectT]](self': NullablePointer[GtkSelectionFilterModelT])

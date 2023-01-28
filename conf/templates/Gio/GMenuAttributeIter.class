@@ -13,4 +13,5 @@ class GMenuAttributeIter is GMenuAttributeIterI
   new create() =>
     ptr = GObjectG.gnew(@g_menu_attribute_iter_get_type())
 
+  // GMenuAttributeIter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

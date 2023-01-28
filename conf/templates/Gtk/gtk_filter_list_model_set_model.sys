@@ -1,2 +1,2 @@
-  fun set_model(self': NullablePointer[GtkFilterListModelT], model': NullablePointer[GListModelT]): None =>
-    @gtk_filter_list_model_set_model(self', model')
+  fun set_model(self': NullablePointer[GtkFilterListModelT], model': GListModelI): None =>
+    @gtk_filter_list_model_set_model(self', model'.getptr())

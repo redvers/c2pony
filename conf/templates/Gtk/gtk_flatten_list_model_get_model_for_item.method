@@ -1,2 +1,2 @@
-  fun ref get_model_for_item(position': U32): NullablePointer[GListModelT] =>
+  fun ref get_model_for_item(position': U32): NullablePointer[GObjectT] =>
     GtkFlattenListModelP.get_model_for_item(this, position')

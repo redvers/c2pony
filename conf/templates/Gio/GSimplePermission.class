@@ -13,4 +13,5 @@ class GSimplePermission is GSimplePermissionI
   new create() =>
     ptr = GObjectG.gnew(@g_simple_permission_get_type())
 
+  // GSimplePermission
   fun ref getptr(): NullablePointer[GObjectT] => ptr

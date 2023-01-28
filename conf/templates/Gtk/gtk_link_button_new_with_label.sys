@@ -1,2 +1,2 @@
-  fun new_with_label(uri': String, label': String): NullablePointer[GObjectT] =>
-@gtk_link_button_new_with_label(uri'.cstring(), label'.cstring())
+  new new_with_label(uri': String, label': String) =>
+    ptr = @gtk_link_button_new_with_label(uri'.cstring(), label'.cstring())

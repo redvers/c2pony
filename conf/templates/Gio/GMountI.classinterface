@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GMountI
+// GMount
   fun ref getptr(): NullablePointer[T]

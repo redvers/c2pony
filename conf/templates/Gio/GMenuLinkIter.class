@@ -13,4 +13,5 @@ class GMenuLinkIter is GMenuLinkIterI
   new create() =>
     ptr = GObjectG.gnew(@g_menu_link_iter_get_type())
 
+  // GMenuLinkIter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

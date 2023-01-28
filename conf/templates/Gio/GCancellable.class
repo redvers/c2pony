@@ -13,4 +13,5 @@ class GCancellable is GCancellableI
   new create() =>
     ptr = GObjectG.gnew(@g_cancellable_get_type())
 
+  // GCancellable
   fun ref getptr(): NullablePointer[GObjectT] => ptr

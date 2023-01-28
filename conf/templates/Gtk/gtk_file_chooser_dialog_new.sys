@@ -1,2 +1,2 @@
-  fun new(title': String, parent': GtkWindowI, action': U32, first_button_text': String, ...): NullablePointer[GObjectT] =>
-@gtk_file_chooser_dialog_new(title'.cstring(), parent'.getptr(), action', first_button_text'.cstring(), ...)
+  new gnew(title': String, parent': GtkWindowI, action': U32, first_button_text': String, ...) =>
+    ptr = @gtk_file_chooser_dialog_new(title'.cstring(), parent'.getptr(), action', first_button_text'.cstring(), ...)

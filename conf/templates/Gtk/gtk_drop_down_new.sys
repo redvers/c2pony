@@ -1,2 +1,2 @@
-  fun new(model': NullablePointer[GListModelT], expression': NullablePointer[GtkExpressionT]): NullablePointer[GObjectT] =>
-@gtk_drop_down_new(model', expression')
+  new gnew(model': GListModelI, expression': NullablePointer[GtkExpressionT]) =>
+    ptr = @gtk_drop_down_new(model'.getptr(), expression')

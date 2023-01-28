@@ -1,1 +1,1 @@
-use @g_list_store_find[I32](store': NullablePointer[GListStoreT], item': Pointer[None] tag, position': Pointer[U32] tag)
+use @g_list_store_find[I32](store': NullablePointer[GObjectT], item': Pointer[None] tag, position': Pointer[U32] tag)

@@ -1,2 +1,2 @@
-  fun get_list_factory(self': NullablePointer[GtkDropDownT]): NullablePointer[GtkListItemFactoryT] =>
-    @gtk_drop_down_get_list_factory(self')
+  fun get_list_factory(self': NullablePointer[GtkDropDownT]): NullablePointer[GObjectT] =>
+@gtk_drop_down_get_list_factory(self')

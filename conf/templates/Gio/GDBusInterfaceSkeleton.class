@@ -13,4 +13,5 @@ class GDBusInterfaceSkeleton is GDBusInterfaceSkeletonI
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_interface_skeleton_get_type())
 
+  // GDBusInterfaceSkeleton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

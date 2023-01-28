@@ -1,2 +1,2 @@
-  fun set_enable_rubberband(self': NullablePointer[GtkListViewT], enable_rubberband': I32): None =>
-    @gtk_list_view_set_enable_rubberband(self', enable_rubberband')
+  fun set_enable_rubberband(self': GtkListViewI, enable_rubberband': I32): None =>
+    @gtk_list_view_set_enable_rubberband(self'.getptr(), enable_rubberband')

@@ -10,4 +10,5 @@ class GAction is GActionI
   new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
 
 
+  // GAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

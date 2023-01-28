@@ -1,4 +1,5 @@
 
+use @gtk_single_selection_new[NullablePointer[GObjectT]](model': NullablePointer[GObjectT])
 
 use @gtk_single_selection_get_type[U64]()
 
@@ -17,3 +18,5 @@ class GtkSingleSelection is GtkSingleSelectionI
 
   // GtkSingleSelection
   fun ref getptr(): NullablePointer[GObjectT] => ptr
+  new gnew(model': GListModelI) =>
+    ptr = @gtk_single_selection_new(model'.getptr())

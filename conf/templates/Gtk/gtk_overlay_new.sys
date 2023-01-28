@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_overlay_new()
+  new gnew() =>
+    ptr = @gtk_overlay_new()

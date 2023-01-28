@@ -1,2 +1,2 @@
-  fun new_for_content_type(parent': GtkWindowI, flags': U32, content_type': String): NullablePointer[GObjectT] =>
-@gtk_app_chooser_dialog_new_for_content_type(parent'.getptr(), flags', content_type'.cstring())
+  new new_for_content_type(parent': GtkWindowI, flags': U32, content_type': String) =>
+    ptr = @gtk_app_chooser_dialog_new_for_content_type(parent'.getptr(), flags', content_type'.cstring())

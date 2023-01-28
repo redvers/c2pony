@@ -13,4 +13,5 @@ class GConverterOutputStream is GConverterOutputStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_converter_output_stream_get_type())
 
+  // GConverterOutputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,2 +1,2 @@
-  fun ref get_pages(): NullablePointer[GListModelT] =>
+  fun ref get_pages(): NullablePointer[GObjectT] =>
     GtkNotebookP.get_pages(this)

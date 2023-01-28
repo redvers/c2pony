@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkPrintSettingsT] =>
-    @gtk_print_settings_new()
+  new gnew() =>
+    ptr = @gtk_print_settings_new()

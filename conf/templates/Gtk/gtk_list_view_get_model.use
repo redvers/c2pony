@@ -1,1 +1,1 @@
-use @gtk_list_view_get_model[NullablePointer[GtkSelectionModelT]](self': NullablePointer[GtkListViewT])
+use @gtk_list_view_get_model[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

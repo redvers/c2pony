@@ -1,2 +1,2 @@
-  fun remove(store': NullablePointer[GListStoreT], position': U32): None =>
-    @g_list_store_remove(store', position')
+  fun remove(store': GListStoreI, position': U32): None =>
+    @g_list_store_remove(store'.getptr(), position')

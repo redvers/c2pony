@@ -13,4 +13,5 @@ class GPropertyAction is GPropertyActionI
   new create() =>
     ptr = GObjectG.gnew(@g_property_action_get_type())
 
+  // GPropertyAction
   fun ref getptr(): NullablePointer[GObjectT] => ptr

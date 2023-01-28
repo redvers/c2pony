@@ -1,2 +1,2 @@
-  fun set_use_markup(self': NullablePointer[GtkLabelT], setting': I32): None =>
-    @gtk_label_set_use_markup(self', setting')
+  fun set_use_markup(self': GtkLabelI, setting': I32): None =>
+    @gtk_label_set_use_markup(self'.getptr(), setting')

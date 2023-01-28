@@ -1,2 +1,2 @@
-  fun new(model': NullablePointer[GListModelT]): NullablePointer[GtkMultiSelectionT] =>
-    @gtk_multi_selection_new(model')
+  new gnew(model': GListModelI) =>
+    ptr = @gtk_multi_selection_new(model'.getptr())

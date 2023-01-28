@@ -1,2 +1,2 @@
-  fun new(value': F64, lower': F64, upper': F64, step_increment': F64, page_increment': F64, page_size': F64): NullablePointer[GtkAdjustmentT] =>
-    @gtk_adjustment_new(value', lower', upper', step_increment', page_increment', page_size')
+  new gnew(value': F64, lower': F64, upper': F64, step_increment': F64, page_increment': F64, page_size': F64) =>
+    ptr = @gtk_adjustment_new(value', lower', upper', step_increment', page_increment', page_size')

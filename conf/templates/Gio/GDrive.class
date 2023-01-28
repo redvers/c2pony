@@ -10,4 +10,5 @@ class GDrive is GDriveI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GDrive
   fun ref getptr(): NullablePointer[T] => ptr

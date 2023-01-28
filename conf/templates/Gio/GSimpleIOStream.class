@@ -13,4 +13,5 @@ class GSimpleIOStream is GSimpleIOStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_simple_io_stream_get_type())
 
+  // GSimpleIOStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

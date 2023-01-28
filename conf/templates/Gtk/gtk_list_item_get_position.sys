@@ -1,2 +1,2 @@
-  fun get_position(self': NullablePointer[GtkListItemT]): U32 =>
-    @gtk_list_item_get_position(self')
+  fun get_position(self': GtkListItemI): U32 =>
+    @gtk_list_item_get_position(self'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_flatten_list_model_new[NullablePointer[GtkFlattenListModelT]](model': NullablePointer[GListModelT])
+use @gtk_flatten_list_model_new[NullablePointer[GtkFlattenListModelT]](model': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun ref get_model(): NullablePointer[GListModelT] =>
+  fun ref get_model(): NullablePointer[GObjectT] =>
     GtkDropDownP.get_model(this)

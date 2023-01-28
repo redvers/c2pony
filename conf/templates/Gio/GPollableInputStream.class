@@ -10,4 +10,5 @@ class GPollableInputStream is GPollableInputStreamI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GPollableInputStream
   fun ref getptr(): NullablePointer[T] => ptr

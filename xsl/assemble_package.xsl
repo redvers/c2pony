@@ -30,8 +30,16 @@
       <xsl:variable name="classname" select="$root/@name"/>
       <!-- classfile first -->
       <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $classname, '.pony', $newline)"/>
+      <xsl:for-each select="$root/renderconstructor[@render='1']">
+        <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.use')"/>
+        <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, '.pony', $newline)"/>
+      </xsl:for-each>
       <xsl:value-of select="concat('cat ../templates/', $namespace, '/', $classname, '.class')"/>
       <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, '.pony', $newline)"/>
+      <xsl:for-each select="$root/renderconstructor[@render='1']">
+        <xsl:value-of select="concat('cat ../templates/', $namespace, '/', ./@name, '.sys')"/>
+        <xsl:value-of select="concat(' >> ../test/', $namespace, '/', $classname, '.pony', $newline)"/>
+      </xsl:for-each>
 
       <!-- class interface next -->
       <xsl:value-of select="concat('echo > ../test/', $namespace, '/', $classname, 'I.pony', $newline)"/>

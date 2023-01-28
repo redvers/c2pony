@@ -10,4 +10,5 @@ class GProxy is GProxyI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GProxy
   fun ref getptr(): NullablePointer[T] => ptr

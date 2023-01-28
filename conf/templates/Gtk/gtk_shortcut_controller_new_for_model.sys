@@ -1,2 +1,2 @@
-  fun new_for_model(model': NullablePointer[GListModelT]): NullablePointer[GtkEventControllerT] =>
-    @gtk_shortcut_controller_new_for_model(model')
+  new new_for_model(model': GListModelI) =>
+    ptr = @gtk_shortcut_controller_new_for_model(model'.getptr())

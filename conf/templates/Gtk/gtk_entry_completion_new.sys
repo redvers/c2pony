@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkEntryCompletionT] =>
-    @gtk_entry_completion_new()
+  new gnew() =>
+    ptr = @gtk_entry_completion_new()

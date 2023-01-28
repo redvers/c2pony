@@ -1,2 +1,2 @@
-  fun set_justify(self': NullablePointer[GtkLabelT], jtype': U32): None =>
-    @gtk_label_set_justify(self', jtype')
+  fun set_justify(self': GtkLabelI, jtype': U32): None =>
+    @gtk_label_set_justify(self'.getptr(), jtype')

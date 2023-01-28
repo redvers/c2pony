@@ -1,2 +1,2 @@
-  fun set_factory(self': NullablePointer[GtkGridViewT], factory': NullablePointer[GtkListItemFactoryT]): None =>
-    @gtk_grid_view_set_factory(self', factory')
+  fun set_factory(self': NullablePointer[GtkGridViewT], factory': GtkListItemFactoryI): None =>
+    @gtk_grid_view_set_factory(self', factory'.getptr())

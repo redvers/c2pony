@@ -10,4 +10,5 @@ class GTlsServerConnection is GTlsServerConnectionI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GTlsServerConnection
   fun ref getptr(): NullablePointer[T] => ptr

@@ -13,4 +13,5 @@ class GEmblemedIcon is GEmblemedIconI
   new create() =>
     ptr = GObjectG.gnew(@g_emblemed_icon_get_type())
 
+  // GEmblemedIcon
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_level_bar_new()
+  new gnew() =>
+    ptr = @gtk_level_bar_new()

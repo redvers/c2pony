@@ -1,2 +1,2 @@
-  fun get_mnemonic_keyval(self': NullablePointer[GtkLabelT]): U32 =>
-    @gtk_label_get_mnemonic_keyval(self')
+  fun get_mnemonic_keyval(self': GtkLabelI): U32 =>
+    @gtk_label_get_mnemonic_keyval(self'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_selection_model_select_range[I32](model': NullablePointer[GtkSelectionModelT], position': U32, n_items': U32, unselect_rest': I32)
+use @gtk_selection_model_select_range[I32](model': NullablePointer[GObjectT], position': U32, n_items': U32, unselect_rest': I32)

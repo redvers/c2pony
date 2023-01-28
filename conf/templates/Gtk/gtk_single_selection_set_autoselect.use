@@ -1,1 +1,1 @@
-use @gtk_single_selection_set_autoselect[None](self': NullablePointer[GtkSingleSelectionT], autoselect': I32)
+use @gtk_single_selection_set_autoselect[None](self': NullablePointer[GObjectT], autoselect': I32)

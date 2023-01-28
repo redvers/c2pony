@@ -1,2 +1,2 @@
-  fun new(sort_func': GCompareDataFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None]): NullablePointer[GtkCustomSorterT] =>
-    @gtk_custom_sorter_new(sort_func', user_data', user_destroy')
+  new gnew(sort_func': GCompareDataFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None]) =>
+    ptr = @gtk_custom_sorter_new(sort_func', user_data', user_destroy')

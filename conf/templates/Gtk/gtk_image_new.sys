@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_image_new()
+  new gnew() =>
+    ptr = @gtk_image_new()

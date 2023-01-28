@@ -1,1 +1,1 @@
-use @g_list_store_new[NullablePointer[GListStoreT]](item_type': U64)
+use @g_list_store_new[NullablePointer[GObjectT]](item_type': U64)

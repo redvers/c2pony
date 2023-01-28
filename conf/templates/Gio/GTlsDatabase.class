@@ -13,4 +13,5 @@ class GTlsDatabase is GTlsDatabaseI
   new create() =>
     ptr = GObjectG.gnew(@g_tls_database_get_type())
 
+  // GTlsDatabase
   fun ref getptr(): NullablePointer[GObjectT] => ptr

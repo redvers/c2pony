@@ -1,2 +1,2 @@
-  fun get_selection_in_range(model': NullablePointer[GtkSelectionModelT], position': U32, n_items': U32): NullablePointer[GtkBitsetT] =>
-    @gtk_selection_model_get_selection_in_range(model', position', n_items')
+  fun get_selection_in_range(model': GtkSelectionModelI, position': U32, n_items': U32): NullablePointer[GtkBitsetT] =>
+    @gtk_selection_model_get_selection_in_range(model'.getptr(), position', n_items')

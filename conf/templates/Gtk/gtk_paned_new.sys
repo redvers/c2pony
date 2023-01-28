@@ -1,2 +1,2 @@
-  fun new(orientation': U32): NullablePointer[GObjectT] =>
-@gtk_paned_new(orientation')
+  new gnew(orientation': U32) =>
+    ptr = @gtk_paned_new(orientation')

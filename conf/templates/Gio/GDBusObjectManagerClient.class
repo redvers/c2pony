@@ -13,4 +13,5 @@ class GDBusObjectManagerClient is GDBusObjectManagerClientI
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_object_manager_client_get_type())
 
+  // GDBusObjectManagerClient
   fun ref getptr(): NullablePointer[GObjectT] => ptr

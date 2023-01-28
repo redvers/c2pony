@@ -13,4 +13,5 @@ class GSubprocessLauncher is GSubprocessLauncherI
   new create() =>
     ptr = GObjectG.gnew(@g_subprocess_launcher_get_type())
 
+  // GSubprocessLauncher
   fun ref getptr(): NullablePointer[GObjectT] => ptr

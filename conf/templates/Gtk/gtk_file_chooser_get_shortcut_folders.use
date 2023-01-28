@@ -1,1 +1,1 @@
-use @gtk_file_chooser_get_shortcut_folders[NullablePointer[GListModelT]](chooser': NullablePointer[GtkFileChooserT])
+use @gtk_file_chooser_get_shortcut_folders[NullablePointer[GObjectT]](chooser': NullablePointer[GtkFileChooserT])

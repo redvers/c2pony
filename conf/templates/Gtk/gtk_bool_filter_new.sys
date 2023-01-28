@@ -1,2 +1,2 @@
-  fun new(expression': NullablePointer[GtkExpressionT]): NullablePointer[GtkBoolFilterT] =>
-    @gtk_bool_filter_new(expression')
+  new gnew(expression': NullablePointer[GtkExpressionT]) =>
+    ptr = @gtk_bool_filter_new(expression')

@@ -1,2 +1,2 @@
-  fun set_model(self': NullablePointer[GtkSelectionFilterModelT], model': NullablePointer[GtkSelectionModelT]): None =>
-    @gtk_selection_filter_model_set_model(self', model')
+  fun set_model(self': NullablePointer[GtkSelectionFilterModelT], model': GtkSelectionModelI): None =>
+    @gtk_selection_filter_model_set_model(self', model'.getptr())

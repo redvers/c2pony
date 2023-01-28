@@ -1,2 +1,2 @@
-  fun set_use_underline(self': NullablePointer[GtkLabelT], setting': I32): None =>
-    @gtk_label_set_use_underline(self', setting')
+  fun set_use_underline(self': GtkLabelI, setting': I32): None =>
+    @gtk_label_set_use_underline(self'.getptr(), setting')

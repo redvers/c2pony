@@ -1,2 +1,2 @@
-  fun new(model': NullablePointer[GtkSelectionModelT]): NullablePointer[GtkSelectionFilterModelT] =>
-    @gtk_selection_filter_model_new(model')
+  new gnew(model': GtkSelectionModelI) =>
+    ptr = @gtk_selection_filter_model_new(model'.getptr())

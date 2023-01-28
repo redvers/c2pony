@@ -1,2 +1,2 @@
-  fun ref set_model(model': NullablePointer[GListModelT]): None =>
+  fun ref set_model(model': GListModelI): None =>
     GtkSliceListModelP.set_model(this, model')

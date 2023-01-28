@@ -1,2 +1,2 @@
-  fun get_max_width_chars(self': NullablePointer[GtkLabelT]): I32 =>
-    @gtk_label_get_max_width_chars(self')
+  fun get_max_width_chars(self': GtkLabelI): I32 =>
+    @gtk_label_get_max_width_chars(self'.getptr())

@@ -1,2 +1,2 @@
-  fun insert_sorted(store': NullablePointer[GListStoreT], item': Pointer[None] tag, compare_func': GCompareDataFunc, user_data': Pointer[None] tag): U32 =>
-    @g_list_store_insert_sorted(store', item', compare_func', user_data')
+  fun insert_sorted(store': GListStoreI, item': Pointer[None] tag, compare_func': GCompareDataFunc, user_data': Pointer[None] tag): U32 =>
+    @g_list_store_insert_sorted(store'.getptr(), item', compare_func', user_data')

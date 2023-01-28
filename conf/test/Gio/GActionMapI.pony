@@ -5,6 +5,7 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GActionMapI
+// GActionMap
   fun ref getptr(): NullablePointer[GObjectT]
   fun ref add_action(action': GActionI): None =>
     GActionMapP.add_action(this, action')

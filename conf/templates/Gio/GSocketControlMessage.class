@@ -13,4 +13,5 @@ class GSocketControlMessage is GSocketControlMessageI
   new create() =>
     ptr = GObjectG.gnew(@g_socket_control_message_get_type())
 
+  // GSocketControlMessage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -13,4 +13,5 @@ class GSettings is GSettingsI
   new create() =>
     ptr = GObjectG.gnew(@g_settings_get_type())
 
+  // GSettings
   fun ref getptr(): NullablePointer[GObjectT] => ptr

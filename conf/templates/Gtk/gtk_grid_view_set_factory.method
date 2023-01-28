@@ -1,2 +1,2 @@
-  fun ref set_factory(factory': NullablePointer[GtkListItemFactoryT]): None =>
+  fun ref set_factory(factory': GtkListItemFactoryI): None =>
     GtkGridViewP.set_factory(this, factory')

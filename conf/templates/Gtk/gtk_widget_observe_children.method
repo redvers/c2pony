@@ -1,2 +1,2 @@
-  fun ref observe_children(): NullablePointer[GListModelT] =>
+  fun ref observe_children(): NullablePointer[GObjectT] =>
     GtkWidgetP.observe_children(this)

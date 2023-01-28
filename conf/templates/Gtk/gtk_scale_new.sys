@@ -1,2 +1,2 @@
-  fun new(orientation': U32, adjustment': NullablePointer[GtkAdjustmentT]): NullablePointer[GObjectT] =>
-@gtk_scale_new(orientation', adjustment')
+  new gnew(orientation': U32, adjustment': NullablePointer[GtkAdjustmentT]) =>
+    ptr = @gtk_scale_new(orientation', adjustment')

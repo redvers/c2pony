@@ -1,1 +1,1 @@
-use @gtk_shortcut_controller_new_for_model[NullablePointer[GtkEventControllerT]](model': NullablePointer[GListModelT])
+use @gtk_shortcut_controller_new_for_model[NullablePointer[GtkEventControllerT]](model': NullablePointer[GObjectT])

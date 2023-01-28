@@ -13,4 +13,5 @@ class GDataOutputStream is GDataOutputStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_data_output_stream_get_type())
 
+  // GDataOutputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,1 +1,1 @@
-use @gtk_label_set_wrap[None](self': NullablePointer[GtkLabelT], wrap': I32)
+use @gtk_label_set_wrap[None](self': NullablePointer[GObjectT], wrap': I32)

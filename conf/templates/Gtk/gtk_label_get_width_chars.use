@@ -1,1 +1,1 @@
-use @gtk_label_get_width_chars[I32](self': NullablePointer[GtkLabelT])
+use @gtk_label_get_width_chars[I32](self': NullablePointer[GObjectT])

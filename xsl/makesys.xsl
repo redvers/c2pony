@@ -30,7 +30,7 @@
         </xsl:call-template>
       </xsl:for-each>
       <xsl:for-each select="$root/renderconstructor[@render=$debug]">
-        <xsl:call-template name="mainfunction">
+        <xsl:call-template name="newfunction">
           <xsl:with-param name="ponyname" select="./@ponyname"/>
           <xsl:with-param name="n" select="./@name"/>
           <xsl:with-param name="render" select="./@render"/>

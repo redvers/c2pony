@@ -1,2 +1,2 @@
-  fun set_text(self': NullablePointer[GtkLabelT], str': String): None =>
-    @gtk_label_set_text(self', str'.cstring())
+  fun set_text(self': GtkLabelI, str': String): None =>
+    @gtk_label_set_text(self'.getptr(), str'.cstring())

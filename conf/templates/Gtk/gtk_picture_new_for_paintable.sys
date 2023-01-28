@@ -1,2 +1,2 @@
-  fun new_for_paintable(paintable': NullablePointer[GdkPaintableT]): NullablePointer[GObjectT] =>
-@gtk_picture_new_for_paintable(paintable')
+  new new_for_paintable(paintable': NullablePointer[GdkPaintableT]) =>
+    ptr = @gtk_picture_new_for_paintable(paintable')

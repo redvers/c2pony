@@ -13,4 +13,5 @@ class GNotification is GNotificationI
   new create() =>
     ptr = GObjectG.gnew(@g_notification_get_type())
 
+  // GNotification
   fun ref getptr(): NullablePointer[GObjectT] => ptr

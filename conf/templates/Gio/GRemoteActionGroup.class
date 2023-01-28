@@ -10,4 +10,5 @@ class GRemoteActionGroup is GRemoteActionGroupI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GRemoteActionGroup
   fun ref getptr(): NullablePointer[T] => ptr

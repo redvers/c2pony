@@ -10,4 +10,5 @@ class GDBusInterface is GDBusInterfaceI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GDBusInterface
   fun ref getptr(): NullablePointer[T] => ptr

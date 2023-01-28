@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkMediaStreamT] =>
-    @gtk_media_file_new()
+  new gnew() =>
+    ptr = @gtk_media_file_new()

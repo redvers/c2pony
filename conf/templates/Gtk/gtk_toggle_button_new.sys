@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_toggle_button_new()
+  new gnew() =>
+    ptr = @gtk_toggle_button_new()

@@ -13,4 +13,5 @@ class GTcpWrapperConnection is GTcpWrapperConnectionI
   new create() =>
     ptr = GObjectG.gnew(@g_tcp_wrapper_connection_get_type())
 
+  // GTcpWrapperConnection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

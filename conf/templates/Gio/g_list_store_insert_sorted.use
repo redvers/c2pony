@@ -1,1 +1,1 @@
-use @g_list_store_insert_sorted[U32](store': NullablePointer[GListStoreT], item': Pointer[None] tag, compare_func': GCompareDataFunc, user_data': Pointer[None] tag)
+use @g_list_store_insert_sorted[U32](store': NullablePointer[GObjectT], item': Pointer[None] tag, compare_func': GCompareDataFunc, user_data': Pointer[None] tag)

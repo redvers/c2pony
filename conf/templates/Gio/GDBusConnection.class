@@ -13,4 +13,5 @@ class GDBusConnection is GDBusConnectionI
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_connection_get_type())
 
+  // GDBusConnection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

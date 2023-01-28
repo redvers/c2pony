@@ -1,1 +1,1 @@
-use @gtk_list_item_set_selectable[None](self': NullablePointer[GtkListItemT], selectable': I32)
+use @gtk_list_item_set_selectable[None](self': NullablePointer[GObjectT], selectable': I32)

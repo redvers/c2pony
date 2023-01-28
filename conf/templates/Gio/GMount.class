@@ -10,4 +10,5 @@ class GMount is GMountI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GMount
   fun ref getptr(): NullablePointer[T] => ptr

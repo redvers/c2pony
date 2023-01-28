@@ -1,2 +1,2 @@
-  fun get_model(self': NullablePointer[GtkSelectionFilterModelT]): NullablePointer[GtkSelectionModelT] =>
-    @gtk_selection_filter_model_get_model(self')
+  fun get_model(self': NullablePointer[GtkSelectionFilterModelT]): NullablePointer[GObjectT] =>
+@gtk_selection_filter_model_get_model(self')

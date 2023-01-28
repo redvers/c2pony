@@ -1,2 +1,2 @@
-  fun set_markup_with_mnemonic(self': NullablePointer[GtkLabelT], str': String): None =>
-    @gtk_label_set_markup_with_mnemonic(self', str'.cstring())
+  fun set_markup_with_mnemonic(self': GtkLabelI, str': String): None =>
+    @gtk_label_set_markup_with_mnemonic(self'.getptr(), str'.cstring())

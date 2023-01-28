@@ -1,2 +1,2 @@
-  fun unselect_range(model': NullablePointer[GtkSelectionModelT], position': U32, n_items': U32): I32 =>
-    @gtk_selection_model_unselect_range(model', position', n_items')
+  fun unselect_range(model': GtkSelectionModelI, position': U32, n_items': U32): I32 =>
+    @gtk_selection_model_unselect_range(model'.getptr(), position', n_items')

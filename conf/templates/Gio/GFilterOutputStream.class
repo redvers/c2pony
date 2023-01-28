@@ -13,4 +13,5 @@ class GFilterOutputStream is GFilterOutputStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_filter_output_stream_get_type())
 
+  // GFilterOutputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

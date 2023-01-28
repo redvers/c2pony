@@ -13,4 +13,5 @@ class GCharsetConverter is GCharsetConverterI
   new create() =>
     ptr = GObjectG.gnew(@g_charset_converter_get_type())
 
+  // GCharsetConverter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

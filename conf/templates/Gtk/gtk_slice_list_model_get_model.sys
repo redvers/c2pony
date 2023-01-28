@@ -1,2 +1,2 @@
-  fun get_model(self': NullablePointer[GtkSliceListModelT]): NullablePointer[GListModelT] =>
-    @gtk_slice_list_model_get_model(self')
+  fun get_model(self': NullablePointer[GtkSliceListModelT]): NullablePointer[GObjectT] =>
+@gtk_slice_list_model_get_model(self')

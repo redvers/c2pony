@@ -1,2 +1,2 @@
-  fun select_range(model': NullablePointer[GtkSelectionModelT], position': U32, n_items': U32, unselect_rest': I32): I32 =>
-    @gtk_selection_model_select_range(model', position', n_items', unselect_rest')
+  fun select_range(model': GtkSelectionModelI, position': U32, n_items': U32, unselect_rest': I32): I32 =>
+    @gtk_selection_model_select_range(model'.getptr(), position', n_items', unselect_rest')

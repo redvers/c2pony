@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GUnixFDMessageI is (GSocketControlMessageI)
+// GUnixFDMessage
   fun ref getptr(): NullablePointer[GObjectT]

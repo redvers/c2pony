@@ -1,2 +1,2 @@
-  fun get_xalign(self': NullablePointer[GtkLabelT]): F32 =>
-    @gtk_label_get_xalign(self')
+  fun get_xalign(self': GtkLabelI): F32 =>
+    @gtk_label_get_xalign(self'.getptr())

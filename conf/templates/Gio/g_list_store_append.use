@@ -1,1 +1,1 @@
-use @g_list_store_append[None](store': NullablePointer[GListStoreT], item': Pointer[None] tag)
+use @g_list_store_append[None](store': NullablePointer[GObjectT], item': Pointer[None] tag)

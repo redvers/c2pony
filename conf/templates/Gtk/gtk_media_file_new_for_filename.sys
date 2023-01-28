@@ -1,2 +1,2 @@
-  fun new_for_filename(filename': String): NullablePointer[GtkMediaStreamT] =>
-    @gtk_media_file_new_for_filename(filename'.cstring())
+  new new_for_filename(filename': String) =>
+    ptr = @gtk_media_file_new_for_filename(filename'.cstring())

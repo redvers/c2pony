@@ -14,4 +14,5 @@ class GApplication is GApplicationI
   new create() =>
     ptr = GObjectG.gnew(@g_application_get_type())
 
+  // GApplication
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -13,4 +13,5 @@ class GUnixOutputStream is GUnixOutputStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_unix_output_stream_get_type())
 
+  // GUnixOutputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

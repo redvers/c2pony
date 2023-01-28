@@ -13,4 +13,5 @@ class GZlibCompressor is GZlibCompressorI
   new create() =>
     ptr = GObjectG.gnew(@g_zlib_compressor_get_type())
 
+  // GZlibCompressor
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,2 +1,2 @@
-  fun set_ellipsize(self': NullablePointer[GtkLabelT], mode': U32): None =>
-    @gtk_label_set_ellipsize(self', mode')
+  fun set_ellipsize(self': GtkLabelI, mode': U32): None =>
+    @gtk_label_set_ellipsize(self'.getptr(), mode')

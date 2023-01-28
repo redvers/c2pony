@@ -13,4 +13,5 @@ class GNetworkService is GNetworkServiceI
   new create() =>
     ptr = GObjectG.gnew(@g_network_service_get_type())
 
+  // GNetworkService
   fun ref getptr(): NullablePointer[GObjectT] => ptr

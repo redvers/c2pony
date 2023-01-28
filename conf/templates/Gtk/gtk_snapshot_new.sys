@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GdkSnapshotT] =>
-    @gtk_snapshot_new()
+  new gnew() =>
+    ptr = @gtk_snapshot_new()

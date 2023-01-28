@@ -1,2 +1,2 @@
-  fun get_toplevels(): NullablePointer[GListModelT] =>
-    @gtk_window_get_toplevels()
+  fun get_toplevels(): NullablePointer[GObjectT] =>
+@gtk_window_get_toplevels()

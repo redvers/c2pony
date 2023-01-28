@@ -13,4 +13,5 @@ class GMenuModel is GMenuModelI
   new create() =>
     ptr = GObjectG.gnew(@g_menu_model_get_type())
 
+  // GMenuModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

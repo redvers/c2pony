@@ -13,4 +13,5 @@ class GUnixFDMessage is GUnixFDMessageI
   new create() =>
     ptr = GObjectG.gnew(@g_unix_fd_message_get_type())
 
+  // GUnixFDMessage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

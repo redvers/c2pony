@@ -1,2 +1,2 @@
-  fun find_with_equal_func(store': NullablePointer[GListStoreT], item': Pointer[None] tag, equal_func': GEqualFunc, position': Pointer[U32] tag): I32 =>
-    @g_list_store_find_with_equal_func(store', item', equal_func', position')
+  fun find_with_equal_func(store': GListStoreI, item': Pointer[None] tag, equal_func': GEqualFunc, position': Pointer[U32] tag): I32 =>
+    @g_list_store_find_with_equal_func(store'.getptr(), item', equal_func', position')

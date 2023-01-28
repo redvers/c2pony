@@ -13,4 +13,5 @@ class GTcpConnection is GTcpConnectionI
   new create() =>
     ptr = GObjectG.gnew(@g_tcp_connection_get_type())
 
+  // GTcpConnection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

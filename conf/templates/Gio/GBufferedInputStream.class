@@ -13,4 +13,5 @@ class GBufferedInputStream is GBufferedInputStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_buffered_input_stream_get_type())
 
+  // GBufferedInputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

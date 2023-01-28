@@ -1,2 +1,2 @@
-  fun set_selected(self': NullablePointer[GtkSingleSelectionT], position': U32): None =>
-    @gtk_single_selection_set_selected(self', position')
+  fun set_selected(self': GtkSingleSelectionI, position': U32): None =>
+    @gtk_single_selection_set_selected(self'.getptr(), position')

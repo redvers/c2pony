@@ -13,4 +13,5 @@ class GIOStream is GIOStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_io_stream_get_type())
 
+  // GIOStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

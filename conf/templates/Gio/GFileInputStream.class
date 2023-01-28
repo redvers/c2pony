@@ -13,4 +13,5 @@ class GFileInputStream is GFileInputStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_file_input_stream_get_type())
 
+  // GFileInputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

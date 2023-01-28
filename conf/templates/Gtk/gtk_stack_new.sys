@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_stack_new()
+  new gnew() =>
+    ptr = @gtk_stack_new()

@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GThreadedSocketServiceI is (GSocketServiceI)
+// GThreadedSocketService
   fun ref getptr(): NullablePointer[GObjectT]

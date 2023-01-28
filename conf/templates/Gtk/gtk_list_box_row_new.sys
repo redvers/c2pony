@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_list_box_row_new()
+  new gnew() =>
+    ptr = @gtk_list_box_row_new()

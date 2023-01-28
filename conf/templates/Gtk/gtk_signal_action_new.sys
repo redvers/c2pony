@@ -1,2 +1,2 @@
-  fun new(signal_name': String): NullablePointer[GtkShortcutActionT] =>
-    @gtk_signal_action_new(signal_name'.cstring())
+  new gnew(signal_name': String) =>
+    ptr = @gtk_signal_action_new(signal_name'.cstring())

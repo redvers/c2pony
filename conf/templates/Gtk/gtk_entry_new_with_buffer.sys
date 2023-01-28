@@ -1,2 +1,2 @@
-  fun new_with_buffer(buffer': NullablePointer[GtkEntryBufferT]): NullablePointer[GObjectT] =>
-@gtk_entry_new_with_buffer(buffer')
+  new new_with_buffer(buffer': NullablePointer[GtkEntryBufferT]) =>
+    ptr = @gtk_entry_new_with_buffer(buffer')

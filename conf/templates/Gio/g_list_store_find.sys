@@ -1,2 +1,2 @@
-  fun find(store': NullablePointer[GListStoreT], item': Pointer[None] tag, position': Pointer[U32] tag): I32 =>
-    @g_list_store_find(store', item', position')
+  fun find(store': GListStoreI, item': Pointer[None] tag, position': Pointer[U32] tag): I32 =>
+    @g_list_store_find(store'.getptr(), item', position')

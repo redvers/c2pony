@@ -11,6 +11,7 @@ use @g_action_map_add_action_entries[None](actionmap: NullablePointer[GObjectT],
 
 
 type GType is U64
+type GEqualFunc is Pointer[None]
 
 actor Main
   let env: Env
@@ -58,6 +59,23 @@ class MyApp
 		actions.push(GActionEntryT.>set_name("inspector")
 								 .>set_activate(@{() => GtkG.set_interactive_debugging(1)})
 								 .tuple())
+
+    let model: GtkStringList = GtkStringList
+    model.>append("Demo 1")
+         .>append("Demo 2")
+         .>append("Demo 3")
+
+    let listview: GtkListView = GtkListView.create_from_ptr(builder.get_object("listview"))
+    listview.set_model(GtkSingleSelection.gnew(model))
+      listview.get_factory()
+
+
     @g_action_map_add_action_entries(app.getptr(), actions.cpointer(), actions.size().u32(), Pointer[None])
+
+  fun @setup_listitem(factoryp: NullablePointer[GtkListItemFactoryT], listitemp: NullablePointer[GtkListItemT]): None => None
+    @printf("In setup_listitem\n".cstring())
+  fun @bind_listitem(factoryp: NullablePointer[GtkListItemFactoryT], listitemp: NullablePointer[GtkListItemT]): None => None
+    @printf("In bind_listitem\n".cstring())
+
 
   fun test() => env.out.print("Hello World")

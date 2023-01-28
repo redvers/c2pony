@@ -1,2 +1,2 @@
-  fun new(stream': NullablePointer[GtkMediaStreamT]): NullablePointer[GObjectT] =>
-@gtk_media_controls_new(stream')
+  new gnew(stream': NullablePointer[GtkMediaStreamT]) =>
+    ptr = @gtk_media_controls_new(stream')

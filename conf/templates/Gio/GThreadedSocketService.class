@@ -13,4 +13,5 @@ class GThreadedSocketService is GThreadedSocketServiceI
   new create() =>
     ptr = GObjectG.gnew(@g_threaded_socket_service_get_type())
 
+  // GThreadedSocketService
   fun ref getptr(): NullablePointer[GObjectT] => ptr

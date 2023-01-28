@@ -1,2 +1,2 @@
-  fun new(application_id': String, flags': U32): NullablePointer[GObjectT] =>
-@gtk_application_new(application_id'.cstring(), flags')
+  new gnew(application_id': String, flags': U32) =>
+    ptr = @gtk_application_new(application_id'.cstring(), flags')

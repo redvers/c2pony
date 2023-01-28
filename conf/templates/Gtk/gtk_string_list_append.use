@@ -1,1 +1,1 @@
-use @gtk_string_list_append[None](self': NullablePointer[GtkStringListT], string': Pointer[U8] tag)
+use @gtk_string_list_append[None](self': NullablePointer[GObjectT], string': Pointer[U8] tag)

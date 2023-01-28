@@ -1,2 +1,2 @@
-  fun set_markup(self': NullablePointer[GtkLabelT], str': String): None =>
-    @gtk_label_set_markup(self', str'.cstring())
+  fun set_markup(self': GtkLabelI, str': String): None =>
+    @gtk_label_set_markup(self'.getptr(), str'.cstring())

@@ -1,2 +1,2 @@
-  fun set_show_separators(self': NullablePointer[GtkListViewT], show_separators': I32): None =>
-    @gtk_list_view_set_show_separators(self', show_separators')
+  fun set_show_separators(self': GtkListViewI, show_separators': I32): None =>
+    @gtk_list_view_set_show_separators(self'.getptr(), show_separators')

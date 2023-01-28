@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkRecentManagerT] =>
-    @gtk_recent_manager_new()
+  new gnew() =>
+    ptr = @gtk_recent_manager_new()

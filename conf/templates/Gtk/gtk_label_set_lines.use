@@ -1,1 +1,1 @@
-use @gtk_label_set_lines[None](self': NullablePointer[GtkLabelT], lines': I32)
+use @gtk_label_set_lines[None](self': NullablePointer[GObjectT], lines': I32)

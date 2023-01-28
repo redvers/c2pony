@@ -1,2 +1,2 @@
-  fun new(this_type': U64, expression': NullablePointer[GtkExpressionT], property_name': String): NullablePointer[GtkExpressionT] =>
-    @gtk_property_expression_new(this_type', expression', property_name'.cstring())
+  new gnew(this_type': U64, expression': NullablePointer[GtkExpressionT], property_name': String) =>
+    ptr = @gtk_property_expression_new(this_type', expression', property_name'.cstring())

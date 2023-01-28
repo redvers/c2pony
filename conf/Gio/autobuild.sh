@@ -15,6 +15,32 @@ echo > ../test/Gio/GApplicationP.pony
 cat ../templates/Gio/g_application_run.use >> ../test/Gio/GApplicationP.pony
 cat ../templates/Gio/GApplicationP.primitive >> ../test/Gio/GApplicationP.pony
 cat ../templates/Gio/g_application_run.sys >> ../test/Gio/GApplicationP.pony
+echo > ../test/Gio/GListStore.pony
+cat ../templates/Gio/GListStore.class >> ../test/Gio/GListStore.pony
+echo > ../test/Gio/GListStoreI.pony
+cat ../templates/Gio/GListStoreI.classinterface >> ../test/Gio/GListStoreI.pony
+echo > ../test/Gio/GListStoreT.pony
+cat ../templates/Gio/GListStoreT.struct >> ../test/Gio/GListStoreT.pony
+cat ../templates/Gio/g_list_store_append.method >> ../test/Gio/GListStoreI.pony
+cat ../templates/Gio/g_list_store_find.method >> ../test/Gio/GListStoreI.pony
+cat ../templates/Gio/g_list_store_insert.method >> ../test/Gio/GListStoreI.pony
+cat ../templates/Gio/g_list_store_remove.method >> ../test/Gio/GListStoreI.pony
+cat ../templates/Gio/g_list_store_remove_all.method >> ../test/Gio/GListStoreI.pony
+cat ../templates/Gio/g_list_store_splice.method >> ../test/Gio/GListStoreI.pony
+echo > ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_append.use >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_find.use >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_insert.use >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_remove.use >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_remove_all.use >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_splice.use >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/GListStoreP.primitive >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_append.sys >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_find.sys >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_insert.sys >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_remove.sys >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_remove_all.sys >> ../test/Gio/GListStoreP.pony
+cat ../templates/Gio/g_list_store_splice.sys >> ../test/Gio/GListStoreP.pony
 echo > ../test/Gio/GActionI.pony
 cat ../templates/Gio/GActionI.classinterface >> ../test/Gio/GActionI.pony
 echo > ../test/Gio/GActionT.pony

@@ -1,2 +1,2 @@
-  fun get_lines(self': NullablePointer[GtkLabelT]): I32 =>
-    @gtk_label_get_lines(self')
+  fun get_lines(self': GtkLabelI): I32 =>
+    @gtk_label_get_lines(self'.getptr())

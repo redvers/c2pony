@@ -1,2 +1,2 @@
-  fun ref get_columns(): NullablePointer[GListModelT] =>
+  fun ref get_columns(): NullablePointer[GObjectT] =>
     GtkColumnViewP.get_columns(this)

@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkEveryFilterT] =>
-    @gtk_every_filter_new()
+  new gnew() =>
+    ptr = @gtk_every_filter_new()

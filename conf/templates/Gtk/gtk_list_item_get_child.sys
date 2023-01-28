@@ -1,2 +1,2 @@
-  fun get_child(self': NullablePointer[GtkListItemT]): NullablePointer[GObjectT] =>
-@gtk_list_item_get_child(self')
+  fun get_child(self': GtkListItemI): NullablePointer[GObjectT] =>
+@gtk_list_item_get_child(self'.getptr())

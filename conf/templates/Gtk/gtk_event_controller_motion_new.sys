@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkEventControllerT] =>
-    @gtk_event_controller_motion_new()
+  new gnew() =>
+    ptr = @gtk_event_controller_motion_new()

@@ -13,4 +13,5 @@ class GFilenameCompleter is GFilenameCompleterI
   new create() =>
     ptr = GObjectG.gnew(@g_filename_completer_get_type())
 
+  // GFilenameCompleter
   fun ref getptr(): NullablePointer[GObjectT] => ptr

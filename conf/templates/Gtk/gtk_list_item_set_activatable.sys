@@ -1,2 +1,2 @@
-  fun set_activatable(self': NullablePointer[GtkListItemT], activatable': I32): None =>
-    @gtk_list_item_set_activatable(self', activatable')
+  fun set_activatable(self': GtkListItemI, activatable': I32): None =>
+    @gtk_list_item_set_activatable(self'.getptr(), activatable')

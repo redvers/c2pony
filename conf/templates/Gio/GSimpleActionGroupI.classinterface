@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GSimpleActionGroupI is (GObjectI & GActionGroupI & GActionMapI)
+// GSimpleActionGroup
   fun ref getptr(): NullablePointer[GObjectT]

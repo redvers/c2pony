@@ -10,4 +10,5 @@ class GListModel is GListModelI
   new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
 
 
+  // GListModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -10,4 +10,5 @@ class GFileDescriptorBased is GFileDescriptorBasedI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GFileDescriptorBased
   fun ref getptr(): NullablePointer[T] => ptr

@@ -1,2 +1,2 @@
-  fun get_current_uri(self': NullablePointer[GtkLabelT]): String iso^ =>
-    String.from_cstring(@gtk_label_get_current_uri(self')).clone()
+  fun get_current_uri(self': GtkLabelI): String iso^ =>
+    String.from_cstring(@gtk_label_get_current_uri(self'.getptr())).clone()

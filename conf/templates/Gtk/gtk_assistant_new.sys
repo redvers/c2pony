@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_assistant_new()
+  new gnew() =>
+    ptr = @gtk_assistant_new()

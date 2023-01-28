@@ -1,2 +1,2 @@
-  fun ref get_model(): NullablePointer[GtkSelectionModelT] =>
+  fun ref get_model(): NullablePointer[GObjectT] =>
     GtkSelectionFilterModelP.get_model(this)

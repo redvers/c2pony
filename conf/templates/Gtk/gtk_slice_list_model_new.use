@@ -1,1 +1,1 @@
-use @gtk_slice_list_model_new[NullablePointer[GtkSliceListModelT]](model': NullablePointer[GListModelT], offset': U32, size': U32)
+use @gtk_slice_list_model_new[NullablePointer[GtkSliceListModelT]](model': NullablePointer[GObjectT], offset': U32, size': U32)

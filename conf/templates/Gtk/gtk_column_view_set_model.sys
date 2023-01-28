@@ -1,2 +1,2 @@
-  fun set_model(self': NullablePointer[GtkColumnViewT], model': NullablePointer[GtkSelectionModelT]): None =>
-    @gtk_column_view_set_model(self', model')
+  fun set_model(self': NullablePointer[GtkColumnViewT], model': GtkSelectionModelI): None =>
+    @gtk_column_view_set_model(self', model'.getptr())

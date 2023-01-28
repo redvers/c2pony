@@ -13,4 +13,5 @@ class GTlsCertificate is GTlsCertificateI
   new create() =>
     ptr = GObjectG.gnew(@g_tls_certificate_get_type())
 
+  // GTlsCertificate
   fun ref getptr(): NullablePointer[GObjectT] => ptr

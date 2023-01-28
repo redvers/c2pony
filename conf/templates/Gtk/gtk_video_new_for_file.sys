@@ -1,2 +1,2 @@
-  fun new_for_file(file': NullablePointer[GFileT]): NullablePointer[GObjectT] =>
-@gtk_video_new_for_file(file')
+  new new_for_file(file': NullablePointer[GFileT]) =>
+    ptr = @gtk_video_new_for_file(file')

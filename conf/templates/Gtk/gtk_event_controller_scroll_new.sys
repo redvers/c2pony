@@ -1,2 +1,2 @@
-  fun new(flags': U32): NullablePointer[GtkEventControllerT] =>
-    @gtk_event_controller_scroll_new(flags')
+  new gnew(flags': U32) =>
+    ptr = @gtk_event_controller_scroll_new(flags')

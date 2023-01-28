@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkDragSourceT] =>
-    @gtk_drag_source_new()
+  new gnew() =>
+    ptr = @gtk_drag_source_new()

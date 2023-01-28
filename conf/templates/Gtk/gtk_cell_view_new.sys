@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_cell_view_new()
+  new gnew() =>
+    ptr = @gtk_cell_view_new()

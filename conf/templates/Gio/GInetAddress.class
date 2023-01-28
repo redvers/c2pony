@@ -13,4 +13,5 @@ class GInetAddress is GInetAddressI
   new create() =>
     ptr = GObjectG.gnew(@g_inet_address_get_type())
 
+  // GInetAddress
   fun ref getptr(): NullablePointer[GObjectT] => ptr

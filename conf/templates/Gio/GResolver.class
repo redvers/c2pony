@@ -13,4 +13,5 @@ class GResolver is GResolverI
   new create() =>
     ptr = GObjectG.gnew(@g_resolver_get_type())
 
+  // GResolver
   fun ref getptr(): NullablePointer[GObjectT] => ptr

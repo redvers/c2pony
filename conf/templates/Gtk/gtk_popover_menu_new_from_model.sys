@@ -1,2 +1,2 @@
-  fun new_from_model(model': NullablePointer[GMenuModelT]): NullablePointer[GObjectT] =>
-@gtk_popover_menu_new_from_model(model')
+  new new_from_model(model': NullablePointer[GMenuModelT]) =>
+    ptr = @gtk_popover_menu_new_from_model(model')

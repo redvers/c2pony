@@ -1,2 +1,2 @@
-  fun ref set_model(model': NullablePointer[GtkSelectionModelT]): None =>
+  fun ref set_model(model': GtkSelectionModelI): None =>
     GtkGridViewP.set_model(this, model')

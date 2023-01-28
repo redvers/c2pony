@@ -13,4 +13,5 @@ class GTestDBus is GTestDBusI
   new create() =>
     ptr = GObjectG.gnew(@g_test_dbus_get_type())
 
+  // GTestDBus
   fun ref getptr(): NullablePointer[GObjectT] => ptr

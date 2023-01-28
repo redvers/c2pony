@@ -13,4 +13,5 @@ class GPermission is GPermissionI
   new create() =>
     ptr = GObjectG.gnew(@g_permission_get_type())
 
+  // GPermission
   fun ref getptr(): NullablePointer[GObjectT] => ptr

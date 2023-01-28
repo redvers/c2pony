@@ -10,4 +10,5 @@ class GSocketConnectable is GSocketConnectableI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GSocketConnectable
   fun ref getptr(): NullablePointer[T] => ptr

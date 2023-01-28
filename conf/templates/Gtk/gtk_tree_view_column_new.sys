@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkTreeViewColumnT] =>
-    @gtk_tree_view_column_new()
+  new gnew() =>
+    ptr = @gtk_tree_view_column_new()

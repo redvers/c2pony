@@ -1,2 +1,2 @@
-  fun ref observe_guides(): NullablePointer[GListModelT] =>
+  fun ref observe_guides(): NullablePointer[GObjectT] =>
     GtkConstraintLayoutP.observe_guides(this)

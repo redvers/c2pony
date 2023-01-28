@@ -1,1 +1,1 @@
-use @gtk_label_set_justify[None](self': NullablePointer[GtkLabelT], jtype': U32)
+use @gtk_label_set_justify[None](self': NullablePointer[GObjectT], jtype': U32)

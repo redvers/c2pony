@@ -1,4 +1,5 @@
 
+use @gtk_string_list_new[NullablePointer[GObjectT]](strings': Pointer[Pointer[U8]] tag)
 
 use @gtk_string_list_get_type[U64]()
 
@@ -17,3 +18,5 @@ class GtkStringList is GtkStringListI
 
   // GtkStringList
   fun ref getptr(): NullablePointer[GObjectT] => ptr
+  new gnew(strings': Pointer[Pointer[U8]] tag) =>
+    ptr = @gtk_string_list_new(strings')

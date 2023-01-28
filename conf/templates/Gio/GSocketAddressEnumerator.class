@@ -13,4 +13,5 @@ class GSocketAddressEnumerator is GSocketAddressEnumeratorI
   new create() =>
     ptr = GObjectG.gnew(@g_socket_address_enumerator_get_type())
 
+  // GSocketAddressEnumerator
   fun ref getptr(): NullablePointer[GObjectT] => ptr

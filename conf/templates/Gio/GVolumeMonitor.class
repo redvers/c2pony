@@ -13,4 +13,5 @@ class GVolumeMonitor is GVolumeMonitorI
   new create() =>
     ptr = GObjectG.gnew(@g_volume_monitor_get_type())
 
+  // GVolumeMonitor
   fun ref getptr(): NullablePointer[GObjectT] => ptr

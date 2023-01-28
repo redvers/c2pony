@@ -1,2 +1,2 @@
-  fun new_from_resource(scope': NullablePointer[GtkBuilderScopeT], resource_path': String): NullablePointer[GtkListItemFactoryT] =>
-    @gtk_builder_list_item_factory_new_from_resource(scope', resource_path'.cstring())
+  new new_from_resource(scope': NullablePointer[GtkBuilderScopeT], resource_path': String) =>
+    ptr = @gtk_builder_list_item_factory_new_from_resource(scope', resource_path'.cstring())

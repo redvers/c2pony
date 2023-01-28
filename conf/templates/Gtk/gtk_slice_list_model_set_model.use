@@ -1,1 +1,1 @@
-use @gtk_slice_list_model_set_model[None](self': NullablePointer[GtkSliceListModelT], model': NullablePointer[GListModelT])
+use @gtk_slice_list_model_set_model[None](self': NullablePointer[GtkSliceListModelT], model': NullablePointer[GObjectT])

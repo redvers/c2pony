@@ -1,2 +1,2 @@
-  fun new(strings': Pointer[Pointer[U8]] tag): NullablePointer[GtkStringListT] =>
-    @gtk_string_list_new(strings')
+  new gnew(strings': Pointer[Pointer[U8]] tag) =>
+    ptr = @gtk_string_list_new(strings')

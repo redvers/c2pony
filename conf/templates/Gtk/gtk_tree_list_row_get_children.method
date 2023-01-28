@@ -1,2 +1,2 @@
-  fun ref get_children(): NullablePointer[GListModelT] =>
+  fun ref get_children(): NullablePointer[GObjectT] =>
     GtkTreeListRowP.get_children(this)

@@ -10,4 +10,5 @@ class GTlsBackend is GTlsBackendI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GTlsBackend
   fun ref getptr(): NullablePointer[T] => ptr

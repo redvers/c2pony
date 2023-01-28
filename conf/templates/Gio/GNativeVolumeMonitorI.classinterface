@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GNativeVolumeMonitorI is (GVolumeMonitorI)
+// GNativeVolumeMonitor
   fun ref getptr(): NullablePointer[GObjectT]

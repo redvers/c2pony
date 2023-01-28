@@ -1,2 +1,2 @@
-  fun new(trigger': NullablePointer[GtkShortcutTriggerT], action': NullablePointer[GtkShortcutActionT]): NullablePointer[GtkShortcutT] =>
-    @gtk_shortcut_new(trigger', action')
+  new gnew(trigger': NullablePointer[GtkShortcutTriggerT], action': NullablePointer[GtkShortcutActionT]) =>
+    ptr = @gtk_shortcut_new(trigger', action')

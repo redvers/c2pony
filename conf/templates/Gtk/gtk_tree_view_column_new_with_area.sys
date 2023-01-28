@@ -1,2 +1,2 @@
-  fun new_with_area(area': NullablePointer[GtkCellAreaT]): NullablePointer[GtkTreeViewColumnT] =>
-    @gtk_tree_view_column_new_with_area(area')
+  new new_with_area(area': NullablePointer[GtkCellAreaT]) =>
+    ptr = @gtk_tree_view_column_new_with_area(area')

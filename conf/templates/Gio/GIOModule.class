@@ -13,4 +13,5 @@ class GIOModule is GIOModuleI
   new create() =>
     ptr = GObjectG.gnew(@g_io_module_get_type())
 
+  // GIOModule
   fun ref getptr(): NullablePointer[GObjectT] => ptr

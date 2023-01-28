@@ -1,1 +1,1 @@
-use @g_list_store_remove_all[None](store': NullablePointer[GListStoreT])
+use @g_list_store_remove_all[None](store': NullablePointer[GObjectT])

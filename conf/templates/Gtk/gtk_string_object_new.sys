@@ -1,2 +1,2 @@
-  fun new(string': String): NullablePointer[GtkStringObjectT] =>
-    @gtk_string_object_new(string'.cstring())
+  new gnew(string': String) =>
+    ptr = @gtk_string_object_new(string'.cstring())

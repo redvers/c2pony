@@ -1,2 +1,2 @@
-  fun new(root': NullablePointer[GListModelT], passthrough': I32, autoexpand': I32, create_func': GtkTreeListModelCreateModelFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None]): NullablePointer[GtkTreeListModelT] =>
-    @gtk_tree_list_model_new(root', passthrough', autoexpand', create_func', user_data', user_destroy')
+  new gnew(root': GListModelI, passthrough': I32, autoexpand': I32, create_func': GtkTreeListModelCreateModelFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None]) =>
+    ptr = @gtk_tree_list_model_new(root'.getptr(), passthrough', autoexpand', create_func', user_data', user_destroy')

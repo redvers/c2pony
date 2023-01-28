@@ -10,4 +10,5 @@ class GDatagramBased is GDatagramBasedI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GDatagramBased
   fun ref getptr(): NullablePointer[T] => ptr

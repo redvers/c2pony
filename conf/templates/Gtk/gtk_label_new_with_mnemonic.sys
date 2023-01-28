@@ -1,2 +1,2 @@
-  fun new_with_mnemonic(str': String): NullablePointer[GObjectT] =>
-@gtk_label_new_with_mnemonic(str'.cstring())
+  new new_with_mnemonic(str': String) =>
+    ptr = @gtk_label_new_with_mnemonic(str'.cstring())

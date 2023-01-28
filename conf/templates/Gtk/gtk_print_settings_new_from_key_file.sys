@@ -1,2 +1,2 @@
-  fun new_from_key_file(key_file': NullablePointer[GKeyFileT], group_name': String, error': GError): NullablePointer[GtkPrintSettingsT] =>
-    @gtk_print_settings_new_from_key_file(key_file', group_name'.cstring(), error'.ptr)
+  new new_from_key_file(key_file': NullablePointer[GKeyFileT], group_name': String, error': GError) =>
+    ptr = @gtk_print_settings_new_from_key_file(key_file', group_name'.cstring(), error'.ptr)

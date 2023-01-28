@@ -1,1 +1,1 @@
-use @gtk_list_item_get_item[Pointer[None] tag](self': NullablePointer[GtkListItemT])
+use @gtk_list_item_get_item[Pointer[None] tag](self': NullablePointer[GObjectT])

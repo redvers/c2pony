@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_calendar_new()
+  new gnew() =>
+    ptr = @gtk_calendar_new()

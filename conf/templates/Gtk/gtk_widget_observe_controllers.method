@@ -1,2 +1,2 @@
-  fun ref observe_controllers(): NullablePointer[GListModelT] =>
+  fun ref observe_controllers(): NullablePointer[GObjectT] =>
     GtkWidgetP.observe_controllers(this)

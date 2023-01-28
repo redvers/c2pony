@@ -13,4 +13,5 @@ class GApplicationCommandLine is GApplicationCommandLineI
   new create() =>
     ptr = GObjectG.gnew(@g_application_command_line_get_type())
 
+  // GApplicationCommandLine
   fun ref getptr(): NullablePointer[GObjectT] => ptr

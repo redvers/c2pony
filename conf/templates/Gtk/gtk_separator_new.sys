@@ -1,2 +1,2 @@
-  fun new(orientation': U32): NullablePointer[GObjectT] =>
-@gtk_separator_new(orientation')
+  new gnew(orientation': U32) =>
+    ptr = @gtk_separator_new(orientation')

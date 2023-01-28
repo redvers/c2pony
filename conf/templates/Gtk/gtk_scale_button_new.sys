@@ -1,2 +1,2 @@
-  fun new(min': F64, max': F64, step': F64, icons': Pointer[Pointer[U8]] tag): NullablePointer[GObjectT] =>
-@gtk_scale_button_new(min', max', step', icons')
+  new gnew(min': F64, max': F64, step': F64, icons': Pointer[Pointer[U8]] tag) =>
+    ptr = @gtk_scale_button_new(min', max', step', icons')

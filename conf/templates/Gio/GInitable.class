@@ -10,4 +10,5 @@ class GInitable is GInitableI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GInitable
   fun ref getptr(): NullablePointer[T] => ptr

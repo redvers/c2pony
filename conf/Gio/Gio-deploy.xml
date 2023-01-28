@@ -1279,17 +1279,17 @@
       <rendermethod name="g_input_stream_skip_async" ponyname="skip_async" render="" deprecated=""/>
       <rendermethod name="g_input_stream_skip_finish" ponyname="skip_finish" render="" deprecated=""/>
     </renderclass>
-    <renderclass name="GListStore" render="" parent="GObject.Object" abstract="" final="" fundamental="">
-      <renderconstructor name="g_list_store_new" ponyname="new" render="" deprecated=""/>
-      <rendermethod name="g_list_store_append" ponyname="append" render="" deprecated=""/>
-      <rendermethod name="g_list_store_find" ponyname="find" render="" deprecated=""/>
-      <rendermethod name="g_list_store_find_with_equal_func" ponyname="find_with_equal_func" render="" deprecated=""/>
-      <rendermethod name="g_list_store_insert" ponyname="insert" render="" deprecated=""/>
-      <rendermethod name="g_list_store_insert_sorted" ponyname="insert_sorted" render="" deprecated=""/>
-      <rendermethod name="g_list_store_remove" ponyname="remove" render="" deprecated=""/>
-      <rendermethod name="g_list_store_remove_all" ponyname="remove_all" render="" deprecated=""/>
-      <rendermethod name="g_list_store_sort" ponyname="sort" render="" deprecated=""/>
-      <rendermethod name="g_list_store_splice" ponyname="splice" render="" deprecated=""/>
+    <renderclass name="GListStore" render="1" parent="GObject.Object" abstract="" final="" fundamental="">
+      <renderconstructor name="g_list_store_new" ponyname="new" render="1" deprecated=""/>
+      <rendermethod name="g_list_store_append" ponyname="append" render="1" deprecated=""/>
+      <rendermethod name="g_list_store_find" ponyname="find" render="1" deprecated=""/>
+      <rendermethod name="g_list_store_find_with_equal_func" ponyname="find_with_equal_func" render="0" deprecated=""/>
+      <rendermethod name="g_list_store_insert" ponyname="insert" render="1" deprecated=""/>
+      <rendermethod name="g_list_store_insert_sorted" ponyname="insert_sorted" render="0" deprecated=""/>
+      <rendermethod name="g_list_store_remove" ponyname="remove" render="1" deprecated=""/>
+      <rendermethod name="g_list_store_remove_all" ponyname="remove_all" render="1" deprecated=""/>
+      <rendermethod name="g_list_store_sort" ponyname="sort" render="0" deprecated=""/>
+      <rendermethod name="g_list_store_splice" ponyname="splice" render="1" deprecated=""/>
     </renderclass>
     <renderclass name="GMemoryInputStream" render="" parent="InputStream" abstract="" final="" fundamental="">
       <renderconstructor name="g_memory_input_stream_new" ponyname="new" render="" deprecated=""/>

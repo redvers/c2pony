@@ -1,2 +1,2 @@
-  fun set_model(self': NullablePointer[GtkNoSelectionT], model': NullablePointer[GListModelT]): None =>
-    @gtk_no_selection_set_model(self', model')
+  fun set_model(self': NullablePointer[GtkNoSelectionT], model': GListModelI): None =>
+    @gtk_no_selection_set_model(self', model'.getptr())

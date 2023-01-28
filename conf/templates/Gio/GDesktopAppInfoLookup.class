@@ -10,4 +10,5 @@ class GDesktopAppInfoLookup is GDesktopAppInfoLookupI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GDesktopAppInfoLookup
   fun ref getptr(): NullablePointer[T] => ptr

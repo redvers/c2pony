@@ -1,2 +1,2 @@
-  fun get_selected_item(self': NullablePointer[GtkSingleSelectionT]): Pointer[None] tag =>
-    @gtk_single_selection_get_selected_item(self')
+  fun get_selected_item(self': GtkSingleSelectionI): Pointer[None] tag =>
+    @gtk_single_selection_get_selected_item(self'.getptr())

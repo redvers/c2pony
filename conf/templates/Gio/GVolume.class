@@ -10,4 +10,5 @@ class GVolume is GVolumeI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GVolume
   fun ref getptr(): NullablePointer[T] => ptr

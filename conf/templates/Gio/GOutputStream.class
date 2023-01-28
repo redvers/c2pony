@@ -13,4 +13,5 @@ class GOutputStream is GOutputStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_output_stream_get_type())
 
+  // GOutputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

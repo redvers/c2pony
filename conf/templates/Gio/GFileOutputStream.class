@@ -13,4 +13,5 @@ class GFileOutputStream is GFileOutputStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_file_output_stream_get_type())
 
+  // GFileOutputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

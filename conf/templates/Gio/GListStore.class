@@ -13,4 +13,5 @@ class GListStore is GListStoreI
   new create() =>
     ptr = GObjectG.gnew(@g_list_store_get_type())
 
+  // GListStore
   fun ref getptr(): NullablePointer[GObjectT] => ptr

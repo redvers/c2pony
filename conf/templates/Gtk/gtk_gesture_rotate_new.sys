@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkGestureT] =>
-    @gtk_gesture_rotate_new()
+  new gnew() =>
+    ptr = @gtk_gesture_rotate_new()

@@ -13,4 +13,5 @@ class GAppInfoMonitor is GAppInfoMonitorI
   new create() =>
     ptr = GObjectG.gnew(@g_app_info_monitor_get_type())
 
+  // GAppInfoMonitor
   fun ref getptr(): NullablePointer[GObjectT] => ptr

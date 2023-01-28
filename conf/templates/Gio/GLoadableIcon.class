@@ -10,4 +10,5 @@ class GLoadableIcon is GLoadableIconI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GLoadableIcon
   fun ref getptr(): NullablePointer[T] => ptr

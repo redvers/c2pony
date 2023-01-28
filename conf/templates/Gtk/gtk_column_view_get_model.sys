@@ -1,2 +1,2 @@
-  fun get_model(self': NullablePointer[GtkColumnViewT]): NullablePointer[GtkSelectionModelT] =>
-    @gtk_column_view_get_model(self')
+  fun get_model(self': NullablePointer[GtkColumnViewT]): NullablePointer[GObjectT] =>
+@gtk_column_view_get_model(self')

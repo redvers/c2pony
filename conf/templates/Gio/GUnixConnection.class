@@ -13,4 +13,5 @@ class GUnixConnection is GUnixConnectionI
   new create() =>
     ptr = GObjectG.gnew(@g_unix_connection_get_type())
 
+  // GUnixConnection
   fun ref getptr(): NullablePointer[GObjectT] => ptr

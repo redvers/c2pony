@@ -1,2 +1,2 @@
-  fun set_child(self': NullablePointer[GtkListItemT], child': GtkWidgetI): None =>
-    @gtk_list_item_set_child(self', child'.getptr())
+  fun set_child(self': GtkListItemI, child': GtkWidgetI): None =>
+    @gtk_list_item_set_child(self'.getptr(), child'.getptr())

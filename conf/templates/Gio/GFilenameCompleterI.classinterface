@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GFilenameCompleterI is (GObjectI)
+// GFilenameCompleter
   fun ref getptr(): NullablePointer[GObjectT]

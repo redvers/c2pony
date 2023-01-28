@@ -10,4 +10,5 @@ class GNetworkMonitor is GNetworkMonitorI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GNetworkMonitor
   fun ref getptr(): NullablePointer[T] => ptr

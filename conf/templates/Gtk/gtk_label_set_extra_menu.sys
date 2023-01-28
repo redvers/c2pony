@@ -1,2 +1,2 @@
-  fun set_extra_menu(self': NullablePointer[GtkLabelT], model': NullablePointer[GMenuModelT]): None =>
-    @gtk_label_set_extra_menu(self', model')
+  fun set_extra_menu(self': GtkLabelI, model': NullablePointer[GMenuModelT]): None =>
+    @gtk_label_set_extra_menu(self'.getptr(), model')

@@ -13,4 +13,5 @@ class GDBusObjectSkeleton is GDBusObjectSkeletonI
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_object_skeleton_get_type())
 
+  // GDBusObjectSkeleton
   fun ref getptr(): NullablePointer[GObjectT] => ptr

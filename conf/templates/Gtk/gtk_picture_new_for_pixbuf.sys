@@ -1,2 +1,2 @@
-  fun new_for_pixbuf(pixbuf': NullablePointer[GdkPixbufT]): NullablePointer[GObjectT] =>
-@gtk_picture_new_for_pixbuf(pixbuf')
+  new new_for_pixbuf(pixbuf': NullablePointer[GdkPixbufT]) =>
+    ptr = @gtk_picture_new_for_pixbuf(pixbuf')

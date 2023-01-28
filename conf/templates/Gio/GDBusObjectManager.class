@@ -10,4 +10,5 @@ class GDBusObjectManager is GDBusObjectManagerI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GDBusObjectManager
   fun ref getptr(): NullablePointer[T] => ptr

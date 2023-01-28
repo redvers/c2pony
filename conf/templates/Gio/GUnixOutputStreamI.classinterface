@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GUnixOutputStreamI is (GOutputStreamI & GFileDescriptorBasedI & GPollableOutputStreamI)
+// GUnixOutputStream
   fun ref getptr(): NullablePointer[GObjectT]

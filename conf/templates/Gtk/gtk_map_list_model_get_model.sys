@@ -1,2 +1,2 @@
-  fun get_model(self': NullablePointer[GtkMapListModelT]): NullablePointer[GListModelT] =>
-    @gtk_map_list_model_get_model(self')
+  fun get_model(self': NullablePointer[GtkMapListModelT]): NullablePointer[GObjectT] =>
+@gtk_map_list_model_get_model(self')

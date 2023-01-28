@@ -1,2 +1,2 @@
-  fun get_factory(self': NullablePointer[GtkGridViewT]): NullablePointer[GtkListItemFactoryT] =>
-    @gtk_grid_view_get_factory(self')
+  fun get_factory(self': NullablePointer[GtkGridViewT]): NullablePointer[GObjectT] =>
+@gtk_grid_view_get_factory(self')

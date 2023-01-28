@@ -1,2 +1,2 @@
-  fun set_selection(model': NullablePointer[GtkSelectionModelT], selected': NullablePointer[GtkBitsetT], mask': NullablePointer[GtkBitsetT]): I32 =>
-    @gtk_selection_model_set_selection(model', selected', mask')
+  fun set_selection(model': GtkSelectionModelI, selected': NullablePointer[GtkBitsetT], mask': NullablePointer[GtkBitsetT]): I32 =>
+    @gtk_selection_model_set_selection(model'.getptr(), selected', mask')

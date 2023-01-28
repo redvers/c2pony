@@ -13,4 +13,5 @@ class GDBusMessage is GDBusMessageI
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_message_get_type())
 
+  // GDBusMessage
   fun ref getptr(): NullablePointer[GObjectT] => ptr

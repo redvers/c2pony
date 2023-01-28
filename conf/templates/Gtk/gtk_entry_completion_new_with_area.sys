@@ -1,2 +1,2 @@
-  fun new_with_area(area': NullablePointer[GtkCellAreaT]): NullablePointer[GtkEntryCompletionT] =>
-    @gtk_entry_completion_new_with_area(area')
+  new new_with_area(area': NullablePointer[GtkCellAreaT]) =>
+    ptr = @gtk_entry_completion_new_with_area(area')

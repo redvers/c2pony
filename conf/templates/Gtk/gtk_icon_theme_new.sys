@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkIconThemeT] =>
-    @gtk_icon_theme_new()
+  new gnew() =>
+    ptr = @gtk_icon_theme_new()

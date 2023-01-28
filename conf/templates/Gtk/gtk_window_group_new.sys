@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkWindowGroupT] =>
-    @gtk_window_group_new()
+  new gnew() =>
+    ptr = @gtk_window_group_new()

@@ -13,4 +13,5 @@ class GDBusMenuModel is GDBusMenuModelI
   new create() =>
     ptr = GObjectG.gnew(@g_dbus_menu_model_get_type())
 
+  // GDBusMenuModel
   fun ref getptr(): NullablePointer[GObjectT] => ptr

@@ -1,2 +1,2 @@
-  fun new_for_filename(filename': String): NullablePointer[GObjectT] =>
-@gtk_video_new_for_filename(filename'.cstring())
+  new new_for_filename(filename': String) =>
+    ptr = @gtk_video_new_for_filename(filename'.cstring())

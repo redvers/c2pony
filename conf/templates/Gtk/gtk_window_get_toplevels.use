@@ -1,1 +1,1 @@
-use @gtk_window_get_toplevels[NullablePointer[GListModelT]]()
+use @gtk_window_get_toplevels[NullablePointer[GObjectT]]()

@@ -1,2 +1,2 @@
-  fun new(item_type': U64): NullablePointer[GListStoreT] =>
-    @g_list_store_new(item_type')
+  fun new(item_type': U64): NullablePointer[GObjectT] =>
+@g_list_store_new(item_type')

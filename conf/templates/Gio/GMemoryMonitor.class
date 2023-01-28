@@ -10,4 +10,5 @@ class GMemoryMonitor is GMemoryMonitorI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GMemoryMonitor
   fun ref getptr(): NullablePointer[T] => ptr

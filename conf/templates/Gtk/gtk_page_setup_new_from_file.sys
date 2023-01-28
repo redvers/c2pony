@@ -1,2 +1,2 @@
-  fun new_from_file(file_name': String, error': GError): NullablePointer[GtkPageSetupT] =>
-    @gtk_page_setup_new_from_file(file_name'.cstring(), error'.ptr)
+  new new_from_file(file_name': String, error': GError) =>
+    ptr = @gtk_page_setup_new_from_file(file_name'.cstring(), error'.ptr)

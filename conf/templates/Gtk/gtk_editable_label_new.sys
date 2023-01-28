@@ -1,2 +1,2 @@
-  fun new(str': String): NullablePointer[GObjectT] =>
-@gtk_editable_label_new(str'.cstring())
+  new gnew(str': String) =>
+    ptr = @gtk_editable_label_new(str'.cstring())

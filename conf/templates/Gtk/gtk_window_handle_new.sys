@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_window_handle_new()
+  new gnew() =>
+    ptr = @gtk_window_handle_new()

@@ -1,2 +1,2 @@
-  fun get_model(self': NullablePointer[GtkTreeListModelT]): NullablePointer[GListModelT] =>
-    @gtk_tree_list_model_get_model(self')
+  fun get_model(self': NullablePointer[GtkTreeListModelT]): NullablePointer[GObjectT] =>
+@gtk_tree_list_model_get_model(self')

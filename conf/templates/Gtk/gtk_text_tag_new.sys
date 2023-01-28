@@ -1,2 +1,2 @@
-  fun new(name': String): NullablePointer[GtkTextTagT] =>
-    @gtk_text_tag_new(name'.cstring())
+  new gnew(name': String) =>
+    ptr = @gtk_text_tag_new(name'.cstring())

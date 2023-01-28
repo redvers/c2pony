@@ -1,2 +1,2 @@
-  fun new(model': NullablePointer[GListModelT]): NullablePointer[GtkSingleSelectionT] =>
-    @gtk_single_selection_new(model')
+  new gnew(model': GListModelI) =>
+    ptr = @gtk_single_selection_new(model'.getptr())

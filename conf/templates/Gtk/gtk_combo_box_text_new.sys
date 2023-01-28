@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GObjectT] =>
-@gtk_combo_box_text_new()
+  new gnew() =>
+    ptr = @gtk_combo_box_text_new()

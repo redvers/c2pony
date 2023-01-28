@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GMemoryOutputStreamI is (GOutputStreamI & GPollableOutputStreamI & GSeekableI)
+// GMemoryOutputStream
   fun ref getptr(): NullablePointer[GObjectT]

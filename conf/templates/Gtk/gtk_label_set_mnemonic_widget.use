@@ -1,1 +1,1 @@
-use @gtk_label_set_mnemonic_widget[None](self': NullablePointer[GtkLabelT], widget': NullablePointer[GObjectT])
+use @gtk_label_set_mnemonic_widget[None](self': NullablePointer[GObjectT], widget': NullablePointer[GObjectT])

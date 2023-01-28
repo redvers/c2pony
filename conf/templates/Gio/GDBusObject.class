@@ -10,4 +10,5 @@ class GDBusObject is GDBusObjectI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GDBusObject
   fun ref getptr(): NullablePointer[T] => ptr

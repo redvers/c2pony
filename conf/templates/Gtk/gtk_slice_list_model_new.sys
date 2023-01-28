@@ -1,2 +1,2 @@
-  fun new(model': NullablePointer[GListModelT], offset': U32, size': U32): NullablePointer[GtkSliceListModelT] =>
-    @gtk_slice_list_model_new(model', offset', size')
+  new gnew(model': GListModelI, offset': U32, size': U32) =>
+    ptr = @gtk_slice_list_model_new(model'.getptr(), offset', size')

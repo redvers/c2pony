@@ -1,2 +1,2 @@
-  fun ref observe_constraints(): NullablePointer[GListModelT] =>
+  fun ref observe_constraints(): NullablePointer[GObjectT] =>
     GtkConstraintLayoutP.observe_constraints(this)

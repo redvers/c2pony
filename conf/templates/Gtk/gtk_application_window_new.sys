@@ -1,2 +1,2 @@
-  fun new(application': GtkApplicationI): NullablePointer[GObjectT] =>
-@gtk_application_window_new(application'.getptr())
+  new gnew(application': GtkApplicationI) =>
+    ptr = @gtk_application_window_new(application'.getptr())

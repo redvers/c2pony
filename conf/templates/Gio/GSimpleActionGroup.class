@@ -13,4 +13,5 @@ class GSimpleActionGroup is GSimpleActionGroupI
   new create() =>
     ptr = GObjectG.gnew(@g_simple_action_group_get_type())
 
+  // GSimpleActionGroup
   fun ref getptr(): NullablePointer[GObjectT] => ptr

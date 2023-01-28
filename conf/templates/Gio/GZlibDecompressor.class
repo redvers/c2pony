@@ -13,4 +13,5 @@ class GZlibDecompressor is GZlibDecompressorI
   new create() =>
     ptr = GObjectG.gnew(@g_zlib_decompressor_get_type())
 
+  // GZlibDecompressor
   fun ref getptr(): NullablePointer[GObjectT] => ptr

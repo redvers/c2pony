@@ -1,2 +1,2 @@
-  fun append(self': NullablePointer[GtkStringListT], string': String): None =>
-    @gtk_string_list_append(self', string'.cstring())
+  fun append(self': GtkStringListI, string': String): None =>
+    @gtk_string_list_append(self'.getptr(), string'.cstring())

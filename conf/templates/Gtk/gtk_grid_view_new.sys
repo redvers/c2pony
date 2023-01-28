@@ -1,2 +1,2 @@
-  fun new(model': NullablePointer[GtkSelectionModelT], factory': NullablePointer[GtkListItemFactoryT]): NullablePointer[GObjectT] =>
-@gtk_grid_view_new(model', factory')
+  new gnew(model': GtkSelectionModelI, factory': GtkListItemFactoryI) =>
+    ptr = @gtk_grid_view_new(model'.getptr(), factory'.getptr())

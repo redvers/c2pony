@@ -1,2 +1,2 @@
-  fun append(store': NullablePointer[GListStoreT], item': Pointer[None] tag): None =>
-    @g_list_store_append(store', item')
+  fun append(store': GListStoreI, item': Pointer[None] tag): None =>
+    @g_list_store_append(store'.getptr(), item')

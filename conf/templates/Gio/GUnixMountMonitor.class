@@ -13,4 +13,5 @@ class GUnixMountMonitor is GUnixMountMonitorI
   new create() =>
     ptr = GObjectG.gnew(@g_unix_mount_monitor_get_type())
 
+  // GUnixMountMonitor
   fun ref getptr(): NullablePointer[GObjectT] => ptr

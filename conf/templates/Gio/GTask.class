@@ -13,4 +13,5 @@ class GTask is GTaskI
   new create() =>
     ptr = GObjectG.gnew(@g_task_get_type())
 
+  // GTask
   fun ref getptr(): NullablePointer[GObjectT] => ptr

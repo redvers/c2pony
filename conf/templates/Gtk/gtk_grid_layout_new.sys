@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkLayoutManagerT] =>
-    @gtk_grid_layout_new()
+  new gnew() =>
+    ptr = @gtk_grid_layout_new()

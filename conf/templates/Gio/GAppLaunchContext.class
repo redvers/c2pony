@@ -13,4 +13,5 @@ class GAppLaunchContext is GAppLaunchContextI
   new create() =>
     ptr = GObjectG.gnew(@g_app_launch_context_get_type())
 
+  // GAppLaunchContext
   fun ref getptr(): NullablePointer[GObjectT] => ptr

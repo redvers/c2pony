@@ -1,2 +1,2 @@
-  fun new(table': NullablePointer[GtkTextTagTableT]): NullablePointer[GtkTextBufferT] =>
-    @gtk_text_buffer_new(table')
+  new gnew(table': NullablePointer[GtkTextTagTableT]) =>
+    ptr = @gtk_text_buffer_new(table')

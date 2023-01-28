@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkCellRendererT] =>
-    @gtk_cell_renderer_accel_new()
+  new gnew() =>
+    ptr = @gtk_cell_renderer_accel_new()

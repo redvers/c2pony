@@ -1,2 +1,2 @@
-  fun new_with_text(text': String): NullablePointer[GObjectT] =>
-@gtk_cell_view_new_with_text(text'.cstring())
+  new new_with_text(text': String) =>
+    ptr = @gtk_cell_view_new_with_text(text'.cstring())

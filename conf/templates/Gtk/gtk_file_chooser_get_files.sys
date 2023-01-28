@@ -1,2 +1,2 @@
-  fun get_files(chooser': NullablePointer[GtkFileChooserT]): NullablePointer[GListModelT] =>
-    @gtk_file_chooser_get_files(chooser')
+  fun get_files(chooser': NullablePointer[GtkFileChooserT]): NullablePointer[GObjectT] =>
+@gtk_file_chooser_get_files(chooser')

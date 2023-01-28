@@ -1,2 +1,2 @@
-  fun new_with_buttons(first_button_text': String, ...): NullablePointer[GObjectT] =>
-@gtk_info_bar_new_with_buttons(first_button_text'.cstring(), ...)
+  new new_with_buttons(first_button_text': String, ...) =>
+    ptr = @gtk_info_bar_new_with_buttons(first_button_text'.cstring(), ...)

@@ -1,2 +1,2 @@
-  fun new(xalign': F32, yalign': F32, ratio': F32, obey_child': I32): NullablePointer[GObjectT] =>
-@gtk_aspect_frame_new(xalign', yalign', ratio', obey_child')
+  new gnew(xalign': F32, yalign': F32, ratio': F32, obey_child': I32) =>
+    ptr = @gtk_aspect_frame_new(xalign', yalign', ratio', obey_child')

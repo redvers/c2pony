@@ -1,2 +1,2 @@
-  fun new_for_interval(min_value': F64, max_value': F64): NullablePointer[GObjectT] =>
-@gtk_level_bar_new_for_interval(min_value', max_value')
+  new new_for_interval(min_value': F64, max_value': F64) =>
+    ptr = @gtk_level_bar_new_for_interval(min_value', max_value')

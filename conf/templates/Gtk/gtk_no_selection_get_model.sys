@@ -1,2 +1,2 @@
-  fun get_model(self': NullablePointer[GtkNoSelectionT]): NullablePointer[GListModelT] =>
-    @gtk_no_selection_get_model(self')
+  fun get_model(self': NullablePointer[GtkNoSelectionT]): NullablePointer[GObjectT] =>
+@gtk_no_selection_get_model(self')

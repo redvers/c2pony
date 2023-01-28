@@ -13,4 +13,5 @@ class GNetworkAddress is GNetworkAddressI
   new create() =>
     ptr = GObjectG.gnew(@g_network_address_get_type())
 
+  // GNetworkAddress
   fun ref getptr(): NullablePointer[GObjectT] => ptr

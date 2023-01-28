@@ -1,2 +1,2 @@
-  fun newv(n_columns': I32, types': Pointer[U64] tag): NullablePointer[GtkTreeStoreT] =>
-    @gtk_tree_store_newv(n_columns', types')
+  new newv(n_columns': I32, types': Pointer[U64] tag) =>
+    ptr = @gtk_tree_store_newv(n_columns', types')

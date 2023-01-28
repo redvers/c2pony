@@ -1,2 +1,2 @@
-  fun new(): NullablePointer[GtkEventControllerT] =>
-    @gtk_shortcut_controller_new()
+  new gnew() =>
+    ptr = @gtk_shortcut_controller_new()

@@ -1,2 +1,2 @@
-  fun new(model': NullablePointer[GtkSelectionModelT]): NullablePointer[GObjectT] =>
-@gtk_column_view_new(model')
+  new gnew(model': GtkSelectionModelI) =>
+    ptr = @gtk_column_view_new(model'.getptr())

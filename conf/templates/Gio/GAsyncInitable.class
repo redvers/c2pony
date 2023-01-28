@@ -10,4 +10,5 @@ class GAsyncInitable is GAsyncInitableI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GAsyncInitable
   fun ref getptr(): NullablePointer[T] => ptr

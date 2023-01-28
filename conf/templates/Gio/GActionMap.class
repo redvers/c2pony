@@ -10,4 +10,5 @@ class GActionMap is GActionMapI
   new create_from_ptr(ptr': NullablePointer[GObjectT]) => ptr = ptr'
 
 
+  // GActionMap
   fun ref getptr(): NullablePointer[GObjectT] => ptr

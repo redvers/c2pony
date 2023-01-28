@@ -1,1 +1,1 @@
-use @gtk_selection_model_unselect_item[I32](model': NullablePointer[GtkSelectionModelT], position': U32)
+use @gtk_selection_model_unselect_item[I32](model': NullablePointer[GObjectT], position': U32)

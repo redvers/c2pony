@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GOutputStreamI is (GObjectI)
+// GOutputStream
   fun ref getptr(): NullablePointer[GObjectT]

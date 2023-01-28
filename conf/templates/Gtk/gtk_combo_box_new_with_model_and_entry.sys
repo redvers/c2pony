@@ -1,2 +1,2 @@
-  fun new_with_model_and_entry(model': NullablePointer[GtkTreeModelT]): NullablePointer[GObjectT] =>
-@gtk_combo_box_new_with_model_and_entry(model')
+  new new_with_model_and_entry(model': NullablePointer[GtkTreeModelT]) =>
+    ptr = @gtk_combo_box_new_with_model_and_entry(model')

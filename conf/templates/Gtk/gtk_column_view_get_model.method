@@ -1,2 +1,2 @@
-  fun ref get_model(): NullablePointer[GtkSelectionModelT] =>
+  fun ref get_model(): NullablePointer[GObjectT] =>
     GtkColumnViewP.get_model(this)

@@ -4,4 +4,5 @@ use "../GObject"
 use "lib:gio-2.0"
 
 interface GBufferedOutputStreamI is (GFilterOutputStreamI & GSeekableI)
+// GBufferedOutputStream
   fun ref getptr(): NullablePointer[GObjectT]

@@ -1,2 +1,2 @@
-  fun new(title': String, factory': NullablePointer[GtkListItemFactoryT]): NullablePointer[GtkColumnViewColumnT] =>
-    @gtk_column_view_column_new(title'.cstring(), factory')
+  new gnew(title': String, factory': GtkListItemFactoryI) =>
+    ptr = @gtk_column_view_column_new(title'.cstring(), factory'.getptr())

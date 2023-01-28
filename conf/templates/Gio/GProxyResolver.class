@@ -10,4 +10,5 @@ class GProxyResolver is GProxyResolverI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GProxyResolver
   fun ref getptr(): NullablePointer[T] => ptr

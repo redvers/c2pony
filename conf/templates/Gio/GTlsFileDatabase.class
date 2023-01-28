@@ -10,4 +10,5 @@ class GTlsFileDatabase is GTlsFileDatabaseI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GTlsFileDatabase
   fun ref getptr(): NullablePointer[T] => ptr

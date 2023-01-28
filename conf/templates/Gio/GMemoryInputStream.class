@@ -13,4 +13,5 @@ class GMemoryInputStream is GMemoryInputStreamI
   new create() =>
     ptr = GObjectG.gnew(@g_memory_input_stream_get_type())
 
+  // GMemoryInputStream
   fun ref getptr(): NullablePointer[GObjectT] => ptr

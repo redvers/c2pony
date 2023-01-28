@@ -1,2 +1,2 @@
-  fun new(match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None]): NullablePointer[GtkCustomFilterT] =>
-    @gtk_custom_filter_new(match_func', user_data', user_destroy')
+  new gnew(match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None]) =>
+    ptr = @gtk_custom_filter_new(match_func', user_data', user_destroy')

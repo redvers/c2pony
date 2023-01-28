@@ -1,2 +1,2 @@
-  fun new(value_type': U64, ...): NullablePointer[GtkExpressionT] =>
-    @gtk_constant_expression_new(value_type', ...)
+  new gnew(value_type': U64, ...) =>
+    ptr = @gtk_constant_expression_new(value_type', ...)

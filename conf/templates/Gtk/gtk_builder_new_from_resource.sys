@@ -1,2 +1,2 @@
-  fun new_from_resource(resource_path': String): NullablePointer[GObjectT] =>
-@gtk_builder_new_from_resource(resource_path'.cstring())
+  new new_from_resource(resource_path': String) =>
+    ptr = @gtk_builder_new_from_resource(resource_path'.cstring())

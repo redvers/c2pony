@@ -10,4 +10,5 @@ class GConverter is GConverterI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GConverter
   fun ref getptr(): NullablePointer[T] => ptr

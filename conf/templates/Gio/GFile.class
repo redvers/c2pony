@@ -10,4 +10,5 @@ class GFile is GFileI
   new create_from_ptr(ptr': NullablePointer[T]) => ptr = ptr'
 
 
+  // GFile
   fun ref getptr(): NullablePointer[T] => ptr

@@ -1,1 +1,1 @@
-use @gtk_drop_down_set_list_factory[None](self': NullablePointer[GtkDropDownT], factory': NullablePointer[GtkListItemFactoryT])
+use @gtk_drop_down_set_list_factory[None](self': NullablePointer[GtkDropDownT], factory': NullablePointer[GObjectT])

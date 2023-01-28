@@ -1,2 +1,2 @@
-  fun set_mnemonic_widget(self': NullablePointer[GtkLabelT], widget': GtkWidgetI): None =>
-    @gtk_label_set_mnemonic_widget(self', widget'.getptr())
+  fun set_mnemonic_widget(self': GtkLabelI, widget': GtkWidgetI): None =>
+    @gtk_label_set_mnemonic_widget(self'.getptr(), widget'.getptr())

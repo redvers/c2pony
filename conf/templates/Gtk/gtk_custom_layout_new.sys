@@ -1,2 +1,2 @@
-  fun new(request_mode': GtkCustomRequestModeFunc, measure': GtkCustomMeasureFunc, allocate': GtkCustomAllocateFunc): NullablePointer[GtkLayoutManagerT] =>
-    @gtk_custom_layout_new(request_mode', measure', allocate')
+  new gnew(request_mode': GtkCustomRequestModeFunc, measure': GtkCustomMeasureFunc, allocate': GtkCustomAllocateFunc) =>
+    ptr = @gtk_custom_layout_new(request_mode', measure', allocate')
