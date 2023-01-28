@@ -1,2 +1,2 @@
-  fun get_sender(message': NullablePointer[GDBusMessageT]): String iso^ =>
-    String.from_cstring(@g_dbus_message_get_sender(message')).clone()
+  fun get_sender(message': GDBusMessageI): String iso^ =>
+    String.from_cstring(@g_dbus_message_get_sender(message'.getptr())).clone()

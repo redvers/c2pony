@@ -1,2 +1,2 @@
-  fun change_action_state_full(remote': NullablePointer[GRemoteActionGroupT], action_name': String, value': NullablePointer[GVariantT], platform_data': NullablePointer[GVariantT]): None =>
-    @g_remote_action_group_change_action_state_full(remote', action_name'.cstring(), value', platform_data')
+  fun change_action_state_full(remote': GRemoteActionGroupI, action_name': String, value': NullablePointer[GVariantT], platform_data': NullablePointer[GVariantT]): None =>
+    @g_remote_action_group_change_action_state_full(remote'.getptr(), action_name'.cstring(), value', platform_data')

@@ -1,1 +1,1 @@
-use @g_file_enumerator_set_pending[None](enumerator': NullablePointer[GFileEnumeratorT], pending': I32)
+use @g_file_enumerator_set_pending[None](enumerator': NullablePointer[GObjectT], pending': I32)

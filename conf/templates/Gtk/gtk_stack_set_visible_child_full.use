@@ -1,1 +1,1 @@
-use @gtk_stack_set_visible_child_full[None](stack': NullablePointer[GtkStackT], name': Pointer[U8] tag, transition': U32)
+use @gtk_stack_set_visible_child_full[None](stack': NullablePointer[GObjectT], name': Pointer[U8] tag, transition': U32)

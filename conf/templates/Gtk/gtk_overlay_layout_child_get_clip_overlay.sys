@@ -1,2 +1,2 @@
-  fun get_clip_overlay(child': NullablePointer[GtkOverlayLayoutChildT]): I32 =>
-    @gtk_overlay_layout_child_get_clip_overlay(child')
+  fun get_clip_overlay(child': GtkOverlayLayoutChildI): I32 =>
+    @gtk_overlay_layout_child_get_clip_overlay(child'.getptr())

@@ -1,2 +1,2 @@
-  fun ref set_as_default_for_type(content_type': String, error': GError): I32 =>
+  fun ref set_as_default_for_type(content_type': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GAppInfoP.set_as_default_for_type(this, content_type', error')

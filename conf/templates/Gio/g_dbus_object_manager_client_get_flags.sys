@@ -1,2 +1,2 @@
-  fun get_flags(manager': NullablePointer[GDBusObjectManagerClientT]): U32 =>
-    @g_dbus_object_manager_client_get_flags(manager')
+  fun get_flags(manager': GDBusObjectManagerClientI): U32 =>
+    @g_dbus_object_manager_client_get_flags(manager'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_header_bar_set_title_widget[None](bar': NullablePointer[GtkHeaderBarT], title_widget': NullablePointer[GObjectT])
+use @gtk_header_bar_set_title_widget[None](bar': NullablePointer[GObjectT], title_widget': NullablePointer[GObjectT])

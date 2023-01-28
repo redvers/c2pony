@@ -1,2 +1,2 @@
-  fun ref to_gerror(error': GError): I32 =>
+  fun ref to_gerror(error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GDBusMessageP.to_gerror(this, error')

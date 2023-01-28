@@ -1,2 +1,2 @@
-  fun set_enable_rubberband(self': NullablePointer[GtkColumnViewT], enable_rubberband': I32): None =>
-    @gtk_column_view_set_enable_rubberband(self', enable_rubberband')
+  fun set_enable_rubberband(self': GtkColumnViewI, enable_rubberband': I32): None =>
+    @gtk_column_view_set_enable_rubberband(self'.getptr(), enable_rubberband')

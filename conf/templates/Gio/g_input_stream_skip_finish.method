@@ -1,2 +1,2 @@
-  fun ref skip_finish(result': NullablePointer[GAsyncResultT], error': GError): I64 =>
+  fun ref skip_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
     GInputStreamP.skip_finish(this, result', error')

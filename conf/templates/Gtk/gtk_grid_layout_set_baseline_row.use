@@ -1,1 +1,1 @@
-use @gtk_grid_layout_set_baseline_row[None](grid': NullablePointer[GtkGridLayoutT], row': I32)
+use @gtk_grid_layout_set_baseline_row[None](grid': NullablePointer[GObjectT], row': I32)

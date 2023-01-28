@@ -1,2 +1,2 @@
-  fun get_buffer(iter': NullablePointer[GtkTextIterT]): NullablePointer[GtkTextBufferT] =>
-    @gtk_text_iter_get_buffer(iter')
+  fun get_buffer(iter': NullablePointer[GtkTextIterT]): NullablePointer[GObjectT] =>
+@gtk_text_iter_get_buffer(iter')

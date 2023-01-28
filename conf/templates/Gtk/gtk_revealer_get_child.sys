@@ -1,2 +1,2 @@
-  fun get_child(revealer': NullablePointer[GtkRevealerT]): NullablePointer[GObjectT] =>
-@gtk_revealer_get_child(revealer')
+  fun get_child(revealer': GtkRevealerI): NullablePointer[GObjectT] =>
+@gtk_revealer_get_child(revealer'.getptr())

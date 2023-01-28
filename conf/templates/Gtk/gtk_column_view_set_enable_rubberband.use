@@ -1,1 +1,1 @@
-use @gtk_column_view_set_enable_rubberband[None](self': NullablePointer[GtkColumnViewT], enable_rubberband': I32)
+use @gtk_column_view_set_enable_rubberband[None](self': NullablePointer[GObjectT], enable_rubberband': I32)

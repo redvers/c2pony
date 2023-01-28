@@ -1,1 +1,1 @@
-use @gtk_scrolled_window_set_has_frame[None](scrolled_window': NullablePointer[GtkScrolledWindowT], has_frame': I32)
+use @gtk_scrolled_window_set_has_frame[None](scrolled_window': NullablePointer[GObjectT], has_frame': I32)

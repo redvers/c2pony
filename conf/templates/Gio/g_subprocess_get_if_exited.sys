@@ -1,2 +1,2 @@
-  fun get_if_exited(subprocess': NullablePointer[GSubprocessT]): I32 =>
-    @g_subprocess_get_if_exited(subprocess')
+  fun get_if_exited(subprocess': GSubprocessI): I32 =>
+    @g_subprocess_get_if_exited(subprocess'.getptr())

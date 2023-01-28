@@ -1,2 +1,2 @@
-  fun set_hadjustment(scrollable': NullablePointer[GtkScrollableT], hadjustment': NullablePointer[GtkAdjustmentT]): None =>
-    @gtk_scrollable_set_hadjustment(scrollable', hadjustment')
+  fun set_hadjustment(scrollable': GtkScrollableI, hadjustment': GtkAdjustmentI): None =>
+    @gtk_scrollable_set_hadjustment(scrollable'.getptr(), hadjustment'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_grid_insert_column[None](grid': NullablePointer[GtkGridT], position': I32)
+use @gtk_grid_insert_column[None](grid': NullablePointer[GObjectT], position': I32)

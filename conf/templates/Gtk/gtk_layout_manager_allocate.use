@@ -1,1 +1,1 @@
-use @gtk_layout_manager_allocate[None](manager': NullablePointer[GtkLayoutManagerT], widget': NullablePointer[GObjectT], width': I32, height': I32, baseline': I32)
+use @gtk_layout_manager_allocate[None](manager': NullablePointer[GObjectT], widget': NullablePointer[GObjectT], width': I32, height': I32, baseline': I32)

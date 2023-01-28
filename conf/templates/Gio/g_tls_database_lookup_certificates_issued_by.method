@@ -1,2 +1,2 @@
-  fun ref lookup_certificates_issued_by(issuer_raw_dn': NullablePointer[GByteArrayT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GListT] =>
+  fun ref lookup_certificates_issued_by(issuer_raw_dn': NullablePointer[GByteArrayT], interaction': GTlsInteractionI, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
     GTlsDatabaseP.lookup_certificates_issued_by(this, issuer_raw_dn', interaction', flags', cancellable', error')

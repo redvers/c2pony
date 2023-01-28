@@ -1,2 +1,2 @@
-  fun unset(settings': NullablePointer[GtkPrintSettingsT], key': String): None =>
-    @gtk_print_settings_unset(settings', key'.cstring())
+  fun unset(settings': GtkPrintSettingsI, key': String): None =>
+    @gtk_print_settings_unset(settings'.getptr(), key'.cstring())

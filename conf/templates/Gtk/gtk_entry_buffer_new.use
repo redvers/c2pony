@@ -1,1 +1,1 @@
-use @gtk_entry_buffer_new[NullablePointer[GtkEntryBufferT]](initial_chars': Pointer[U8] tag, n_initial_chars': I32)
+use @gtk_entry_buffer_new[NullablePointer[GObjectT]](initial_chars': Pointer[U8] tag, n_initial_chars': I32)

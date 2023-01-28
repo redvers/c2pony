@@ -1,2 +1,2 @@
-  fun ref wait(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref wait(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GSubprocessP.wait(this, cancellable', error')

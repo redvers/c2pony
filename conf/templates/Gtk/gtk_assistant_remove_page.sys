@@ -1,2 +1,2 @@
-  fun remove_page(assistant': NullablePointer[GtkAssistantT], page_num': I32): None =>
-    @gtk_assistant_remove_page(assistant', page_num')
+  fun remove_page(assistant': GtkAssistantI, page_num': I32): None =>
+    @gtk_assistant_remove_page(assistant'.getptr(), page_num')

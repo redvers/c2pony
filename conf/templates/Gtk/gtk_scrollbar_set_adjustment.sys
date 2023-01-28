@@ -1,2 +1,2 @@
-  fun set_adjustment(self': NullablePointer[GtkScrollbarT], adjustment': NullablePointer[GtkAdjustmentT]): None =>
-    @gtk_scrollbar_set_adjustment(self', adjustment')
+  fun set_adjustment(self': GtkScrollbarI, adjustment': GtkAdjustmentI): None =>
+    @gtk_scrollbar_set_adjustment(self'.getptr(), adjustment'.getptr())

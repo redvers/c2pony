@@ -1,2 +1,2 @@
-  fun add_selection_clipboard(buffer': NullablePointer[GtkTextBufferT], clipboard': NullablePointer[GdkClipboardT]): None =>
-    @gtk_text_buffer_add_selection_clipboard(buffer', clipboard')
+  fun add_selection_clipboard(buffer': GtkTextBufferI, clipboard': NullablePointer[GdkClipboardT]): None =>
+    @gtk_text_buffer_add_selection_clipboard(buffer'.getptr(), clipboard')

@@ -1,1 +1,1 @@
-use @g_io_channel_shutdown[U32](channel': NullablePointer[GIOChannelT], flush': I32, err': NullablePointer[GErrorT])
+use @g_io_channel_shutdown[U32](channel': NullablePointer[GIOChannelT], flush': I32, err': Pointer[NullablePointer[GErrorT]])

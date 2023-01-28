@@ -1,2 +1,2 @@
-  fun set_vadjustment(scrolled_window': NullablePointer[GtkScrolledWindowT], vadjustment': NullablePointer[GtkAdjustmentT]): None =>
-    @gtk_scrolled_window_set_vadjustment(scrolled_window', vadjustment')
+  fun set_vadjustment(scrolled_window': GtkScrolledWindowI, vadjustment': GtkAdjustmentI): None =>
+    @gtk_scrolled_window_set_vadjustment(scrolled_window'.getptr(), vadjustment'.getptr())

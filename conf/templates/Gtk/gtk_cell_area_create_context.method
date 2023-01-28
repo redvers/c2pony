@@ -1,2 +1,2 @@
-  fun ref create_context(): NullablePointer[GtkCellAreaContextT] =>
+  fun ref create_context(): NullablePointer[GObjectT] =>
     GtkCellAreaP.create_context(this)

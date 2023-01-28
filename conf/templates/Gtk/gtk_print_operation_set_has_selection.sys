@@ -1,2 +1,2 @@
-  fun set_has_selection(op': NullablePointer[GtkPrintOperationT], has_selection': I32): None =>
-    @gtk_print_operation_set_has_selection(op', has_selection')
+  fun set_has_selection(op': GtkPrintOperationI, has_selection': I32): None =>
+    @gtk_print_operation_set_has_selection(op'.getptr(), has_selection')

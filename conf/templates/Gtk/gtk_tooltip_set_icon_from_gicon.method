@@ -1,2 +1,2 @@
-  fun ref set_icon_from_gicon(gicon': NullablePointer[GIconT]): None =>
+  fun ref set_icon_from_gicon(gicon': GIconI): None =>
     GtkTooltipP.set_icon_from_gicon(this, gicon')

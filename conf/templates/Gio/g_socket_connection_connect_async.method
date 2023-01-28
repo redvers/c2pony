@@ -1,2 +1,2 @@
-  fun ref connect_async(address': NullablePointer[GSocketAddressT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref connect_async(address': GSocketAddressI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GSocketConnectionP.connect_async(this, address', cancellable', callback', user_data')

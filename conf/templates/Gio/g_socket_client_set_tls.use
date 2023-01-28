@@ -1,1 +1,1 @@
-use @g_socket_client_set_tls[None](client': NullablePointer[GSocketClientT], tls': I32)
+use @g_socket_client_set_tls[None](client': NullablePointer[GObjectT], tls': I32)

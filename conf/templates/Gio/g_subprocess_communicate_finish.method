@@ -1,2 +1,2 @@
-  fun ref communicate_finish(result': NullablePointer[GAsyncResultT], stdout_buf': Pointer[NullablePointer[GBytesT]], stderr_buf': Pointer[NullablePointer[GBytesT]], error': GError): I32 =>
+  fun ref communicate_finish(result': GAsyncResultI, stdout_buf': Pointer[NullablePointer[GBytesT]], stderr_buf': Pointer[NullablePointer[GBytesT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GSubprocessP.communicate_finish(this, result', stdout_buf', stderr_buf', error')

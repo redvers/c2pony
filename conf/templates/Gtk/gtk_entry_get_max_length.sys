@@ -1,2 +1,2 @@
-  fun get_max_length(entry': NullablePointer[GtkEntryT]): I32 =>
-    @gtk_entry_get_max_length(entry')
+  fun get_max_length(entry': GtkEntryI): I32 =>
+    @gtk_entry_get_max_length(entry'.getptr())

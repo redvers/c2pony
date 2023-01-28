@@ -1,1 +1,1 @@
-use @gtk_show_uri_full[None](parent': NullablePointer[GObjectT], uri': Pointer[U8] tag, timestamp': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @gtk_show_uri_full[None](parent': NullablePointer[GObjectT], uri': Pointer[U8] tag, timestamp': U32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,2 +1,2 @@
-  fun prepend(menu': NullablePointer[GMenuT], label': String, detailed_action': String): None =>
-    @g_menu_prepend(menu', label'.cstring(), detailed_action'.cstring())
+  fun prepend(menu': GMenuI, label': String, detailed_action': String): None =>
+    @g_menu_prepend(menu'.getptr(), label'.cstring(), detailed_action'.cstring())

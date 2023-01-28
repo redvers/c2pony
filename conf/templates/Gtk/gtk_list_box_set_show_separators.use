@@ -1,1 +1,1 @@
-use @gtk_list_box_set_show_separators[None](box': NullablePointer[GtkListBoxT], show_separators': I32)
+use @gtk_list_box_set_show_separators[None](box': NullablePointer[GObjectT], show_separators': I32)

@@ -1,2 +1,2 @@
-  fun get_increments(spin_button': NullablePointer[GtkSpinButtonT], step': Pointer[F64] tag, page': Pointer[F64] tag): None =>
-    @gtk_spin_button_get_increments(spin_button', step', page')
+  fun get_increments(spin_button': GtkSpinButtonI, step': Pointer[F64] tag, page': Pointer[F64] tag): None =>
+    @gtk_spin_button_get_increments(spin_button'.getptr(), step', page')

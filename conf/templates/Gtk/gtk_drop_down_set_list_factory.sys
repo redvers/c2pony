@@ -1,2 +1,2 @@
-  fun set_list_factory(self': NullablePointer[GtkDropDownT], factory': GtkListItemFactoryI): None =>
-    @gtk_drop_down_set_list_factory(self', factory'.getptr())
+  fun set_list_factory(self': GtkDropDownI, factory': GtkListItemFactoryI): None =>
+    @gtk_drop_down_set_list_factory(self'.getptr(), factory'.getptr())

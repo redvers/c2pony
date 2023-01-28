@@ -1,1 +1,1 @@
-use @gtk_gl_area_get_use_es[I32](area': NullablePointer[GtkGLAreaT])
+use @gtk_gl_area_get_use_es[I32](area': NullablePointer[GObjectT])

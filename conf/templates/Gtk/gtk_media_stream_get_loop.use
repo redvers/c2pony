@@ -1,1 +1,1 @@
-use @gtk_media_stream_get_loop[I32](self': NullablePointer[GtkMediaStreamT])
+use @gtk_media_stream_get_loop[I32](self': NullablePointer[GObjectT])

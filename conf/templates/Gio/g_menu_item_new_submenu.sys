@@ -1,2 +1,2 @@
-  new new_submenu(label': String, submenu': NullablePointer[GMenuModelT]) =>
-    ptr = @g_menu_item_new_submenu(label'.cstring(), submenu')
+  new new_submenu(label': String, submenu': GMenuModelI) =>
+    ptr = @g_menu_item_new_submenu(label'.cstring(), submenu'.getptr())

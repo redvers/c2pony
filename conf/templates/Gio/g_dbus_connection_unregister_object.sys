@@ -1,2 +1,2 @@
-  fun unregister_object(connection': NullablePointer[GDBusConnectionT], registration_id': U32): I32 =>
-    @g_dbus_connection_unregister_object(connection', registration_id')
+  fun unregister_object(connection': GDBusConnectionI, registration_id': U32): I32 =>
+    @g_dbus_connection_unregister_object(connection'.getptr(), registration_id')

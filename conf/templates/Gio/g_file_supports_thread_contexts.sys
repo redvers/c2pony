@@ -1,2 +1,2 @@
-  fun supports_thread_contexts(file': NullablePointer[GFileT]): I32 =>
-    @g_file_supports_thread_contexts(file')
+  fun supports_thread_contexts(file': GFileI): I32 =>
+    @g_file_supports_thread_contexts(file'.getptr())

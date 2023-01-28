@@ -1,2 +1,2 @@
-  fun set_digits(spin_button': NullablePointer[GtkSpinButtonT], digits': U32): None =>
-    @gtk_spin_button_set_digits(spin_button', digits')
+  fun set_digits(spin_button': GtkSpinButtonI, digits': U32): None =>
+    @gtk_spin_button_set_digits(spin_button'.getptr(), digits')

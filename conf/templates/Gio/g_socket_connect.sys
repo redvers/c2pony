@@ -1,2 +1,2 @@
-  fun connect(socket': NullablePointer[GSocketT], address': NullablePointer[GSocketAddressT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_socket_connect(socket', address', cancellable', error'.ptr)
+  fun connect(socket': GSocketI, address': GSocketAddressI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_connect(socket'.getptr(), address'.getptr(), cancellable'.getptr(), error')

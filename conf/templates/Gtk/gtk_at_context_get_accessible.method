@@ -1,2 +1,2 @@
-  fun ref get_accessible(): NullablePointer[GtkAccessibleT] =>
+  fun ref get_accessible(): NullablePointer[GObjectT] =>
     GtkATContextP.get_accessible(this)

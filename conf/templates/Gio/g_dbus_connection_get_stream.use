@@ -1,1 +1,1 @@
-use @g_dbus_connection_get_stream[NullablePointer[GIOStreamT]](connection': NullablePointer[GDBusConnectionT])
+use @g_dbus_connection_get_stream[NullablePointer[GObjectT]](connection': NullablePointer[GObjectT])

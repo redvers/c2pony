@@ -1,2 +1,2 @@
-  fun connect_to_uri_async(client': NullablePointer[GSocketClientT], uri': String, default_port': U16, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_socket_client_connect_to_uri_async(client', uri'.cstring(), default_port', cancellable', callback', user_data')
+  fun connect_to_uri_async(client': GSocketClientI, uri': String, default_port': U16, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_client_connect_to_uri_async(client'.getptr(), uri'.cstring(), default_port', cancellable'.getptr(), callback', user_data')

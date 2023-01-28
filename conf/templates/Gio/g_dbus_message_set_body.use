@@ -1,1 +1,1 @@
-use @g_dbus_message_set_body[None](message': NullablePointer[GDBusMessageT], body': NullablePointer[GVariantT])
+use @g_dbus_message_set_body[None](message': NullablePointer[GObjectT], body': NullablePointer[GVariantT])

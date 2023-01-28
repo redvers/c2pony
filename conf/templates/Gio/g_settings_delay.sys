@@ -1,2 +1,2 @@
-  fun delay(settings': NullablePointer[GSettingsT]): None =>
-    @g_settings_delay(settings')
+  fun delay(settings': GSettingsI): None =>
+    @g_settings_delay(settings'.getptr())

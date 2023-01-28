@@ -1,2 +1,2 @@
-  fun get_default(): NullablePointer[GVfsT] =>
-    @g_vfs_get_default()
+  fun get_default(): NullablePointer[GObjectT] =>
+@g_vfs_get_default()

@@ -1,2 +1,2 @@
-  fun get_can_acquire(permission': NullablePointer[GPermissionT]): I32 =>
-    @g_permission_get_can_acquire(permission')
+  fun get_can_acquire(permission': GPermissionI): I32 =>
+    @g_permission_get_can_acquire(permission'.getptr())

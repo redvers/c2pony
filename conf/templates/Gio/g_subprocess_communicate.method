@@ -1,2 +1,2 @@
-  fun ref communicate(stdin_buf': NullablePointer[GBytesT], cancellable': NullablePointer[GCancellableT], stdout_buf': Pointer[NullablePointer[GBytesT]], stderr_buf': Pointer[NullablePointer[GBytesT]], error': GError): I32 =>
+  fun ref communicate(stdin_buf': NullablePointer[GBytesT], cancellable': GCancellableI, stdout_buf': Pointer[NullablePointer[GBytesT]], stderr_buf': Pointer[NullablePointer[GBytesT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GSubprocessP.communicate(this, stdin_buf', cancellable', stdout_buf', stderr_buf', error')

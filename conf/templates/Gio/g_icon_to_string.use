@@ -1,1 +1,1 @@
-use @g_icon_to_string[Pointer[U8]](icon': NullablePointer[GIconT])
+use @g_icon_to_string[Pointer[U8]](icon': NullablePointer[GObjectT])

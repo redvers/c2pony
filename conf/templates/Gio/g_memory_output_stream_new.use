@@ -1,1 +1,1 @@
-use @g_memory_output_stream_new[NullablePointer[GOutputStreamT]](data': Pointer[None] tag, size': U64, realloc_function': GReallocFunc, destroy_function': Pointer[None])
+use @g_memory_output_stream_new[NullablePointer[GObjectT]](data': Pointer[None] tag, size': U64, realloc_function': GReallocFunc, destroy_function': Pointer[None])

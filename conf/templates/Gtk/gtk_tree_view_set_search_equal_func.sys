@@ -1,2 +1,2 @@
-  fun set_search_equal_func(tree_view': NullablePointer[GtkTreeViewT], search_equal_func': GtkTreeViewSearchEqualFunc, search_user_data': Pointer[None] tag, search_destroy': Pointer[None]): None =>
-    @gtk_tree_view_set_search_equal_func(tree_view', search_equal_func', search_user_data', search_destroy')
+  fun set_search_equal_func(tree_view': GtkTreeViewI, search_equal_func': GtkTreeViewSearchEqualFunc, search_user_data': Pointer[None] tag, search_destroy': Pointer[None]): None =>
+    @gtk_tree_view_set_search_equal_func(tree_view'.getptr(), search_equal_func', search_user_data', search_destroy')

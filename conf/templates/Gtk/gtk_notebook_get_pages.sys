@@ -1,2 +1,2 @@
-  fun get_pages(notebook': NullablePointer[GtkNotebookT]): NullablePointer[GObjectT] =>
-@gtk_notebook_get_pages(notebook')
+  fun get_pages(notebook': GtkNotebookI): NullablePointer[GObjectT] =>
+@gtk_notebook_get_pages(notebook'.getptr())

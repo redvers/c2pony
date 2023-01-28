@@ -1,1 +1,1 @@
-use @g_socket_address_enumerator_next[NullablePointer[GSocketAddressT]](enumerator': NullablePointer[GSocketAddressEnumeratorT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_socket_address_enumerator_next[NullablePointer[GObjectT]](enumerator': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,2 @@
-  fun set_sorter(self': NullablePointer[GtkSortListModelT], sorter': NullablePointer[GtkSorterT]): None =>
-    @gtk_sort_list_model_set_sorter(self', sorter')
+  fun set_sorter(self': GtkSortListModelI, sorter': GtkSorterI): None =>
+    @gtk_sort_list_model_set_sorter(self'.getptr(), sorter'.getptr())

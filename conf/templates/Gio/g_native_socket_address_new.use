@@ -1,1 +1,1 @@
-use @g_native_socket_address_new[NullablePointer[GSocketAddressT]](native': Pointer[None] tag, len': U64)
+use @g_native_socket_address_new[NullablePointer[GObjectT]](native': Pointer[None] tag, len': U64)

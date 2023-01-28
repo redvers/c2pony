@@ -1,1 +1,1 @@
-use @g_bookmark_file_get_visited[I64](bookmark': NullablePointer[GBookmarkFileT], uri': Pointer[U8] tag, error': NullablePointer[GErrorT])
+use @g_bookmark_file_get_visited[I64](bookmark': NullablePointer[GBookmarkFileT], uri': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

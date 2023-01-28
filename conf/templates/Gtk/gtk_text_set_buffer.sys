@@ -1,2 +1,2 @@
-  fun set_buffer(self': NullablePointer[GtkTextT], buffer': NullablePointer[GtkEntryBufferT]): None =>
-    @gtk_text_set_buffer(self', buffer')
+  fun set_buffer(self': GtkTextI, buffer': GtkEntryBufferI): None =>
+    @gtk_text_set_buffer(self'.getptr(), buffer'.getptr())

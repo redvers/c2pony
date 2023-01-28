@@ -1,2 +1,2 @@
-  fun set(tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], ...): None =>
-    @gtk_tree_store_set(tree_store', iter', ...)
+  fun set(tree_store': GtkTreeStoreI, iter': NullablePointer[GtkTreeIterT], ...): None =>
+    @gtk_tree_store_set(tree_store'.getptr(), iter', ...)

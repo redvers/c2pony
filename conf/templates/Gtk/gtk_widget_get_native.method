@@ -1,2 +1,2 @@
-  fun ref get_native(): NullablePointer[GtkNativeT] =>
+  fun ref get_native(): NullablePointer[GObjectT] =>
     GtkWidgetP.get_native(this)

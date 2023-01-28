@@ -1,1 +1,1 @@
-use @g_socket_client_get_local_address[NullablePointer[GSocketAddressT]](client': NullablePointer[GSocketClientT])
+use @g_socket_client_get_local_address[NullablePointer[GObjectT]](client': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_file_chooser_remove_shortcut_folder[I32](chooser': NullablePointer[GtkFileChooserT], folder': NullablePointer[GFileT], error': NullablePointer[GErrorT])
+use @gtk_file_chooser_remove_shortcut_folder[I32](chooser': NullablePointer[GObjectT], folder': NullablePointer[GObjectT], error': NullablePointer[GErrorT])

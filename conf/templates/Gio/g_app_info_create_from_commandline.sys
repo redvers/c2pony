@@ -1,2 +1,2 @@
-  fun create_from_commandline(commandline': String, application_name': String, flags': U32, error': GError): NullablePointer[GAppInfoT] =>
-    @g_app_info_create_from_commandline(commandline'.cstring(), application_name'.cstring(), flags', error'.ptr)
+  fun create_from_commandline(commandline': String, application_name': String, flags': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_app_info_create_from_commandline(commandline'.cstring(), application_name'.cstring(), flags', error')

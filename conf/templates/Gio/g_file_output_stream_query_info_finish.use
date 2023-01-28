@@ -1,1 +1,1 @@
-use @g_file_output_stream_query_info_finish[NullablePointer[GFileInfoT]](stream': NullablePointer[GFileOutputStreamT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_file_output_stream_query_info_finish[NullablePointer[GObjectT]](stream': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

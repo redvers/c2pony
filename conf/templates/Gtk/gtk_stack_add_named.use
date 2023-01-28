@@ -1,1 +1,1 @@
-use @gtk_stack_add_named[NullablePointer[GtkStackPageT]](stack': NullablePointer[GtkStackT], child': NullablePointer[GObjectT], name': Pointer[U8] tag)
+use @gtk_stack_add_named[NullablePointer[GObjectT]](stack': NullablePointer[GObjectT], child': NullablePointer[GObjectT], name': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun launch(appinfo': NullablePointer[GAppInfoT], files': NullablePointer[GListT], context': NullablePointer[GAppLaunchContextT], error': GError): I32 =>
-    @g_app_info_launch(appinfo', files', context', error'.ptr)
+  fun launch(appinfo': GAppInfoI, files': NullablePointer[GListT], context': GAppLaunchContextI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_app_info_launch(appinfo'.getptr(), files', context'.getptr(), error')

@@ -1,1 +1,1 @@
-use @g_volume_get_sort_key[Pointer[U8]](volume': NullablePointer[GVolumeT])
+use @g_volume_get_sort_key[Pointer[U8]](volume': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun is_readable(stream': NullablePointer[GPollableInputStreamT]): I32 =>
-    @g_pollable_input_stream_is_readable(stream')
+  fun is_readable(stream': GPollableInputStreamI): I32 =>
+    @g_pollable_input_stream_is_readable(stream'.getptr())

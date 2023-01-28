@@ -1,1 +1,1 @@
-use @gtk_font_button_set_title[None](font_button': NullablePointer[GtkFontButtonT], title': Pointer[U8] tag)
+use @gtk_font_button_set_title[None](font_button': NullablePointer[GObjectT], title': Pointer[U8] tag)

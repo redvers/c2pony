@@ -1,1 +1,1 @@
-use @g_drive_get_identifier[Pointer[U8]](drive': NullablePointer[GDriveT], kind': Pointer[U8] tag)
+use @g_drive_get_identifier[Pointer[U8]](drive': NullablePointer[GObjectT], kind': Pointer[U8] tag)

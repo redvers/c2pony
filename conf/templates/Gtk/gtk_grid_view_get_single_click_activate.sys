@@ -1,2 +1,2 @@
-  fun get_single_click_activate(self': NullablePointer[GtkGridViewT]): I32 =>
-    @gtk_grid_view_get_single_click_activate(self')
+  fun get_single_click_activate(self': GtkGridViewI): I32 =>
+    @gtk_grid_view_get_single_click_activate(self'.getptr())

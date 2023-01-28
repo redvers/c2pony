@@ -1,1 +1,1 @@
-use @gtk_paned_set_shrink_end_child[None](paned': NullablePointer[GtkPanedT], resize': I32)
+use @gtk_paned_set_shrink_end_child[None](paned': NullablePointer[GObjectT], resize': I32)

@@ -1,1 +1,1 @@
-use @gtk_scrolled_window_set_placement[None](scrolled_window': NullablePointer[GtkScrolledWindowT], window_placement': U32)
+use @gtk_scrolled_window_set_placement[None](scrolled_window': NullablePointer[GObjectT], window_placement': U32)

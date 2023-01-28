@@ -1,2 +1,2 @@
-  fun get_pspec(expression': NullablePointer[GtkExpressionT]): NullablePointer[GParamSpecT] =>
-    @gtk_property_expression_get_pspec(expression')
+  fun get_pspec(expression': GtkExpressionI): NullablePointer[GParamSpecT] =>
+    @gtk_property_expression_get_pspec(expression'.getptr())

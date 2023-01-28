@@ -1,2 +1,2 @@
-  fun set_task_data(task': NullablePointer[GTaskT], task_data': Pointer[None] tag, task_data_destroy': Pointer[None]): None =>
-    @g_task_set_task_data(task', task_data', task_data_destroy')
+  fun set_task_data(task': GTaskI, task_data': Pointer[None] tag, task_data_destroy': Pointer[None]): None =>
+    @g_task_set_task_data(task'.getptr(), task_data', task_data_destroy')

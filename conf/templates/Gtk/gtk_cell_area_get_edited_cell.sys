@@ -1,2 +1,2 @@
-  fun get_edited_cell(area': NullablePointer[GtkCellAreaT]): NullablePointer[GtkCellRendererT] =>
-    @gtk_cell_area_get_edited_cell(area')
+  fun get_edited_cell(area': GtkCellAreaI): NullablePointer[GObjectT] =>
+@gtk_cell_area_get_edited_cell(area'.getptr())

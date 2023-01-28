@@ -1,1 +1,1 @@
-use @g_loadable_icon_load[NullablePointer[GInputStreamT]](icon': NullablePointer[GLoadableIconT], size': I32, type': Pointer[Pointer[U8]] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_loadable_icon_load[NullablePointer[GObjectT]](icon': NullablePointer[GObjectT], size': I32, type': Pointer[Pointer[U8]] tag, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

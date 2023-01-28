@@ -1,1 +1,1 @@
-use @g_dbus_connection_unexport_action_group[None](connection': NullablePointer[GDBusConnectionT], export_id': U32)
+use @g_dbus_connection_unexport_action_group[None](connection': NullablePointer[GObjectT], export_id': U32)

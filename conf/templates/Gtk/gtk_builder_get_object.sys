@@ -1,2 +1,2 @@
   fun get_object(builder': GtkBuilderI, name': String): NullablePointer[GObjectT] =>
-    @gtk_builder_get_object(builder'.getptr(), name'.cstring())
+@gtk_builder_get_object(builder'.getptr(), name'.cstring())

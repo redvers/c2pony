@@ -1,1 +1,1 @@
-use @gtk_print_operation_set_current_page[None](op': NullablePointer[GtkPrintOperationT], current_page': I32)
+use @gtk_print_operation_set_current_page[None](op': NullablePointer[GObjectT], current_page': I32)

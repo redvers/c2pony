@@ -1,2 +1,2 @@
-  fun cell_get_valist(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], first_property_name': String, var_args': NullablePointer[valisttagT]): None =>
-    @gtk_cell_area_cell_get_valist(area', renderer', first_property_name'.cstring(), var_args')
+  fun cell_get_valist(area': GtkCellAreaI, renderer': GtkCellRendererI, first_property_name': String, var_args': NullablePointer[valisttagT]): None =>
+    @gtk_cell_area_cell_get_valist(area'.getptr(), renderer'.getptr(), first_property_name'.cstring(), var_args')

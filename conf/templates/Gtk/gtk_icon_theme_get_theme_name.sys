@@ -1,2 +1,2 @@
-  fun get_theme_name(self': NullablePointer[GtkIconThemeT]): String iso^ =>
-    String.from_cstring(@gtk_icon_theme_get_theme_name(self')).clone()
+  fun get_theme_name(self': GtkIconThemeI): String iso^ =>
+    String.from_cstring(@gtk_icon_theme_get_theme_name(self'.getptr())).clone()

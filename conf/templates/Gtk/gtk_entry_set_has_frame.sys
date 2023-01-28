@@ -1,2 +1,2 @@
-  fun set_has_frame(entry': NullablePointer[GtkEntryT], setting': I32): None =>
-    @gtk_entry_set_has_frame(entry', setting')
+  fun set_has_frame(entry': GtkEntryI, setting': I32): None =>
+    @gtk_entry_set_has_frame(entry'.getptr(), setting')

@@ -1,1 +1,1 @@
-use @g_dbus_method_invocation_get_property_info[NullablePointer[GDBusPropertyInfoT]](invocation': NullablePointer[GDBusMethodInvocationT])
+use @g_dbus_method_invocation_get_property_info[NullablePointer[GDBusPropertyInfoT]](invocation': NullablePointer[GObjectT])

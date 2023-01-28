@@ -1,2 +1,2 @@
-  fun contains_focus(self': NullablePointer[GtkEventControllerFocusT]): I32 =>
-    @gtk_event_controller_focus_contains_focus(self')
+  fun contains_focus(self': GtkEventControllerFocusI): I32 =>
+    @gtk_event_controller_focus_contains_focus(self'.getptr())

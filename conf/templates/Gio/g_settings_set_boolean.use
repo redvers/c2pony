@@ -1,1 +1,1 @@
-use @g_settings_set_boolean[I32](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, value': I32)
+use @g_settings_set_boolean[I32](settings': NullablePointer[GObjectT], key': Pointer[U8] tag, value': I32)

@@ -1,2 +1,2 @@
-  fun get_can_shrink(self': NullablePointer[GtkPictureT]): I32 =>
-    @gtk_picture_get_can_shrink(self')
+  fun get_can_shrink(self': GtkPictureI): I32 =>
+    @gtk_picture_get_can_shrink(self'.getptr())

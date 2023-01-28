@@ -1,2 +1,2 @@
-  fun get_deleted(mark': NullablePointer[GtkTextMarkT]): I32 =>
-    @gtk_text_mark_get_deleted(mark')
+  fun get_deleted(mark': GtkTextMarkI): I32 =>
+    @gtk_text_mark_get_deleted(mark'.getptr())

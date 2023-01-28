@@ -1,1 +1,1 @@
-use @gtk_tree_model_get_valist[None](tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], var_args': NullablePointer[valisttagT])
+use @gtk_tree_model_get_valist[None](tree_model': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT], var_args': NullablePointer[valisttagT])

@@ -1,2 +1,2 @@
-  fun get_start_iter(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT]): None =>
-    @gtk_text_buffer_get_start_iter(buffer', iter')
+  fun get_start_iter(buffer': GtkTextBufferI, iter': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_buffer_get_start_iter(buffer'.getptr(), iter')

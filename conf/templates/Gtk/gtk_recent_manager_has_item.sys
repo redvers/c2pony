@@ -1,2 +1,2 @@
-  fun has_item(manager': NullablePointer[GtkRecentManagerT], uri': String): I32 =>
-    @gtk_recent_manager_has_item(manager', uri'.cstring())
+  fun has_item(manager': GtkRecentManagerI, uri': String): I32 =>
+    @gtk_recent_manager_has_item(manager'.getptr(), uri'.cstring())

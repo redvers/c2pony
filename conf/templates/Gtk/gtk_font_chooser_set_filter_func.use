@@ -1,1 +1,1 @@
-use @gtk_font_chooser_set_filter_func[None](fontchooser': NullablePointer[GtkFontChooserT], filter': GtkFontFilterFunc, user_data': Pointer[None] tag, destroy': Pointer[None])
+use @gtk_font_chooser_set_filter_func[None](fontchooser': NullablePointer[GObjectT], filter': GtkFontFilterFunc, user_data': Pointer[None] tag, destroy': Pointer[None])

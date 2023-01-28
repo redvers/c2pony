@@ -1,2 +1,2 @@
-  fun connection_factory_create_connection(socket': NullablePointer[GSocketT]): NullablePointer[GSocketConnectionT] =>
-    @g_socket_connection_factory_create_connection(socket')
+  fun connection_factory_create_connection(socket': GSocketI): NullablePointer[GObjectT] =>
+@g_socket_connection_factory_create_connection(socket'.getptr())

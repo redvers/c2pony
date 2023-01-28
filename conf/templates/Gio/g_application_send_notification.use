@@ -1,1 +1,1 @@
-use @g_application_send_notification[None](application': NullablePointer[GObjectT], id': Pointer[U8] tag, notification': NullablePointer[GNotificationT])
+use @g_application_send_notification[None](application': NullablePointer[GObjectT], id': Pointer[U8] tag, notification': NullablePointer[GObjectT])

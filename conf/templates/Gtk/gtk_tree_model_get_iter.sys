@@ -1,2 +1,2 @@
-  fun get_iter(tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], path': NullablePointer[GtkTreePathT]): I32 =>
-    @gtk_tree_model_get_iter(tree_model', iter', path')
+  fun get_iter(tree_model': GtkTreeModelI, iter': NullablePointer[GtkTreeIterT], path': NullablePointer[GtkTreePathT]): I32 =>
+    @gtk_tree_model_get_iter(tree_model'.getptr(), iter', path')

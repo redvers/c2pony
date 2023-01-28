@@ -1,2 +1,2 @@
-  fun dup_qdata(object': NullablePointer[GObjectT], quark': U32, dup_func': Pointer[None], user_data': Pointer[None] tag): Pointer[None] tag =>
-    @g_object_dup_qdata(object', quark', dup_func', user_data')
+  fun dup_qdata(object': GObjectI, quark': U32, dup_func': Pointer[None], user_data': Pointer[None] tag): Pointer[None] tag =>
+    @g_object_dup_qdata(object'.getptr(), quark', dup_func', user_data')

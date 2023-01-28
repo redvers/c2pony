@@ -1,1 +1,1 @@
-use @g_mount_get_uuid[Pointer[U8]](mount': NullablePointer[GMountT])
+use @g_mount_get_uuid[Pointer[U8]](mount': NullablePointer[GObjectT])

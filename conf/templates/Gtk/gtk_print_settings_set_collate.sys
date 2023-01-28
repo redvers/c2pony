@@ -1,2 +1,2 @@
-  fun set_collate(settings': NullablePointer[GtkPrintSettingsT], collate': I32): None =>
-    @gtk_print_settings_set_collate(settings', collate')
+  fun set_collate(settings': GtkPrintSettingsI, collate': I32): None =>
+    @gtk_print_settings_set_collate(settings'.getptr(), collate')

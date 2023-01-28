@@ -1,2 +1,2 @@
-  fun get_connection(manager': NullablePointer[GDBusObjectManagerServerT]): NullablePointer[GDBusConnectionT] =>
-    @g_dbus_object_manager_server_get_connection(manager')
+  fun get_connection(manager': GDBusObjectManagerServerI): NullablePointer[GObjectT] =>
+@g_dbus_object_manager_server_get_connection(manager'.getptr())

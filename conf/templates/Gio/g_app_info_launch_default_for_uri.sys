@@ -1,2 +1,2 @@
-  fun launch_default_for_uri(uri': String, context': NullablePointer[GAppLaunchContextT], error': GError): I32 =>
-    @g_app_info_launch_default_for_uri(uri'.cstring(), context', error'.ptr)
+  fun launch_default_for_uri(uri': String, context': GAppLaunchContextI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_app_info_launch_default_for_uri(uri'.cstring(), context'.getptr(), error')

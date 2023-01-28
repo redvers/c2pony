@@ -1,2 +1,2 @@
-  fun set_sort_func(box': NullablePointer[GtkFlowBoxT], sort_func': GtkFlowBoxSortFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
-    @gtk_flow_box_set_sort_func(box', sort_func', user_data', destroy')
+  fun set_sort_func(box': GtkFlowBoxI, sort_func': GtkFlowBoxSortFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_flow_box_set_sort_func(box'.getptr(), sort_func', user_data', destroy')

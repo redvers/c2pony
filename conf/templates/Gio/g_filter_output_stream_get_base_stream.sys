@@ -1,2 +1,2 @@
-  fun get_base_stream(stream': NullablePointer[GFilterOutputStreamT]): NullablePointer[GOutputStreamT] =>
-    @g_filter_output_stream_get_base_stream(stream')
+  fun get_base_stream(stream': GFilterOutputStreamI): NullablePointer[GObjectT] =>
+@g_filter_output_stream_get_base_stream(stream'.getptr())

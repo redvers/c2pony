@@ -1,2 +1,2 @@
-  fun prepend(self': NullablePointer[GtkFlowBoxT], child': GtkWidgetI): None =>
-    @gtk_flow_box_prepend(self', child'.getptr())
+  fun prepend(self': GtkFlowBoxI, child': GtkWidgetI): None =>
+    @gtk_flow_box_prepend(self'.getptr(), child'.getptr())

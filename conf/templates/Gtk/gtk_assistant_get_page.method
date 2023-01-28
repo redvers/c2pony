@@ -1,2 +1,2 @@
-  fun ref get_page(child': GtkWidgetI): NullablePointer[GtkAssistantPageT] =>
+  fun ref get_page(child': GtkWidgetI): NullablePointer[GObjectT] =>
     GtkAssistantP.get_page(this, child')

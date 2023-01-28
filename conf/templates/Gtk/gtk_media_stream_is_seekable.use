@@ -1,1 +1,1 @@
-use @gtk_media_stream_is_seekable[I32](self': NullablePointer[GtkMediaStreamT])
+use @gtk_media_stream_is_seekable[I32](self': NullablePointer[GObjectT])

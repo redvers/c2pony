@@ -1,2 +1,2 @@
-  fun set_attributes_finish(file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], info': Pointer[NullablePointer[GFileInfoT]], error': GError): I32 =>
-    @g_file_set_attributes_finish(file', result', info', error'.ptr)
+  fun set_attributes_finish(file': GFileI, result': GAsyncResultI, info': Pointer[NullablePointer[GFileInfoT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_set_attributes_finish(file'.getptr(), result'.getptr(), info', error')

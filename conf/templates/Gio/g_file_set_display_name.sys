@@ -1,2 +1,2 @@
-  fun set_display_name(file': NullablePointer[GFileT], display_name': String, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileT] =>
-    @g_file_set_display_name(file', display_name'.cstring(), cancellable', error'.ptr)
+  fun set_display_name(file': GFileI, display_name': String, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_set_display_name(file'.getptr(), display_name'.cstring(), cancellable'.getptr(), error')

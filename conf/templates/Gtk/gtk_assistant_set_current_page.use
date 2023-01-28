@@ -1,1 +1,1 @@
-use @gtk_assistant_set_current_page[None](assistant': NullablePointer[GtkAssistantT], page_num': I32)
+use @gtk_assistant_set_current_page[None](assistant': NullablePointer[GObjectT], page_num': I32)

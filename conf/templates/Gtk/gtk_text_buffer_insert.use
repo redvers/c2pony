@@ -1,1 +1,1 @@
-use @gtk_text_buffer_insert[None](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], text': Pointer[U8] tag, len': I32)
+use @gtk_text_buffer_insert[None](buffer': NullablePointer[GObjectT], iter': NullablePointer[GtkTextIterT], text': Pointer[U8] tag, len': I32)

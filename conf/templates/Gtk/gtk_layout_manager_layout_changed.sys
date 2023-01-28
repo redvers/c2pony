@@ -1,2 +1,2 @@
-  fun layout_changed(manager': NullablePointer[GtkLayoutManagerT]): None =>
-    @gtk_layout_manager_layout_changed(manager')
+  fun layout_changed(manager': GtkLayoutManagerI): None =>
+    @gtk_layout_manager_layout_changed(manager'.getptr())

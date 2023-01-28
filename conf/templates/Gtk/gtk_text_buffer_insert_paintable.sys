@@ -1,2 +1,2 @@
-  fun insert_paintable(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], paintable': NullablePointer[GdkPaintableT]): None =>
-    @gtk_text_buffer_insert_paintable(buffer', iter', paintable')
+  fun insert_paintable(buffer': GtkTextBufferI, iter': NullablePointer[GtkTextIterT], paintable': NullablePointer[GdkPaintableT]): None =>
+    @gtk_text_buffer_insert_paintable(buffer'.getptr(), iter', paintable')

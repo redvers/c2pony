@@ -1,2 +1,2 @@
-  fun get_fd(cancellable': NullablePointer[GCancellableT]): I32 =>
-    @g_cancellable_get_fd(cancellable')
+  fun get_fd(cancellable': GCancellableI): I32 =>
+    @g_cancellable_get_fd(cancellable'.getptr())

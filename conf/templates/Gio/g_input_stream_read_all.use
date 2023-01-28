@@ -1,1 +1,1 @@
-use @g_input_stream_read_all[I32](stream': NullablePointer[GInputStreamT], buffer': Pointer[None] tag, count': U64, bytes_read': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_input_stream_read_all[I32](stream': NullablePointer[GObjectT], buffer': Pointer[None] tag, count': U64, bytes_read': Pointer[U64] tag, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

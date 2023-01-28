@@ -1,2 +1,2 @@
-  fun get_group_name(notebook': NullablePointer[GtkNotebookT]): String iso^ =>
-    String.from_cstring(@gtk_notebook_get_group_name(notebook')).clone()
+  fun get_group_name(notebook': GtkNotebookI): String iso^ =>
+    String.from_cstring(@gtk_notebook_get_group_name(notebook'.getptr())).clone()

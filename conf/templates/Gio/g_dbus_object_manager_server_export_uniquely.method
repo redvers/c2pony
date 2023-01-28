@@ -1,2 +1,2 @@
-  fun ref export_uniquely(object': NullablePointer[GDBusObjectSkeletonT]): None =>
+  fun ref export_uniquely(object': GDBusObjectSkeletonI): None =>
     GDBusObjectManagerServerP.export_uniquely(this, object')

@@ -1,2 +1,2 @@
-  fun ref copy_context(context': NullablePointer[GtkCellAreaContextT]): NullablePointer[GtkCellAreaContextT] =>
+  fun ref copy_context(context': GtkCellAreaContextI): NullablePointer[GObjectT] =>
     GtkCellAreaP.copy_context(this, context')

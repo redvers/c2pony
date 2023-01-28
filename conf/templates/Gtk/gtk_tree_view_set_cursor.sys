@@ -1,2 +1,2 @@
-  fun set_cursor(tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], focus_column': NullablePointer[GtkTreeViewColumnT], start_editing': I32): None =>
-    @gtk_tree_view_set_cursor(tree_view', path', focus_column', start_editing')
+  fun set_cursor(tree_view': GtkTreeViewI, path': NullablePointer[GtkTreePathT], focus_column': GtkTreeViewColumnI, start_editing': I32): None =>
+    @gtk_tree_view_set_cursor(tree_view'.getptr(), path', focus_column'.getptr(), start_editing')

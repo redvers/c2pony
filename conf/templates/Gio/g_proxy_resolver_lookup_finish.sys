@@ -1,2 +1,2 @@
-  fun lookup_finish(resolver': NullablePointer[GProxyResolverT], result': NullablePointer[GAsyncResultT], error': GError): Pointer[Pointer[U8]] tag =>
-    @g_proxy_resolver_lookup_finish(resolver', result', error'.ptr)
+  fun lookup_finish(resolver': GProxyResolverI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
+    @g_proxy_resolver_lookup_finish(resolver'.getptr(), result'.getptr(), error')

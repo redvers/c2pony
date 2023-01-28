@@ -1,2 +1,2 @@
-  fun set_label(self': NullablePointer[GtkCheckButtonT], label': String): None =>
-    @gtk_check_button_set_label(self', label'.cstring())
+  fun set_label(self': GtkCheckButtonI, label': String): None =>
+    @gtk_check_button_set_label(self'.getptr(), label'.cstring())

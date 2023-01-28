@@ -1,1 +1,1 @@
-use @gtk_scrolled_window_get_has_frame[I32](scrolled_window': NullablePointer[GtkScrolledWindowT])
+use @gtk_scrolled_window_get_has_frame[I32](scrolled_window': NullablePointer[GObjectT])

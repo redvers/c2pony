@@ -1,2 +1,2 @@
-  fun to_file(setup': NullablePointer[GtkPageSetupT], file_name': String, error': GError): I32 =>
-    @gtk_page_setup_to_file(setup', file_name'.cstring(), error'.ptr)
+  fun to_file(setup': GtkPageSetupI, file_name': String, error': GError): I32 =>
+    @gtk_page_setup_to_file(setup'.getptr(), file_name'.cstring(), error'.ptr)

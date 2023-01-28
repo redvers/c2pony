@@ -1,1 +1,1 @@
-use @gtk_entry_completion_set_popup_set_width[None](completion': NullablePointer[GtkEntryCompletionT], popup_set_width': I32)
+use @gtk_entry_completion_set_popup_set_width[None](completion': NullablePointer[GObjectT], popup_set_width': I32)

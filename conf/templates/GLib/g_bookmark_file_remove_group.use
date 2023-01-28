@@ -1,1 +1,1 @@
-use @g_bookmark_file_remove_group[I32](bookmark': NullablePointer[GBookmarkFileT], uri': Pointer[U8] tag, group': Pointer[U8] tag, error': NullablePointer[GErrorT])
+use @g_bookmark_file_remove_group[I32](bookmark': NullablePointer[GBookmarkFileT], uri': Pointer[U8] tag, group': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

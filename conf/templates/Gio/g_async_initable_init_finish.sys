@@ -1,2 +1,2 @@
-  fun init_finish(initable': NullablePointer[GAsyncInitableT], res': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_async_initable_init_finish(initable', res', error'.ptr)
+  fun init_finish(initable': GAsyncInitableI, res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_async_initable_init_finish(initable'.getptr(), res'.getptr(), error')

@@ -1,1 +1,1 @@
-use @g_app_info_launch_uris_finish[I32](appinfo': NullablePointer[GAppInfoT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_app_info_launch_uris_finish[I32](appinfo': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

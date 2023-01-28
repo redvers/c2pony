@@ -1,1 +1,1 @@
-use @gtk_style_context_get_padding[None](context': NullablePointer[GtkStyleContextT], padding': NullablePointer[GtkBorderT])
+use @gtk_style_context_get_padding[None](context': NullablePointer[GObjectT], padding': NullablePointer[GtkBorderT])

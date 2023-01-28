@@ -1,1 +1,1 @@
-use @gtk_icon_view_set_selection_mode[None](icon_view': NullablePointer[GtkIconViewT], mode': U32)
+use @gtk_icon_view_set_selection_mode[None](icon_view': NullablePointer[GObjectT], mode': U32)

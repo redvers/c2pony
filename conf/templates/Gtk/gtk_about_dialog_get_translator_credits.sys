@@ -1,2 +1,2 @@
-  fun get_translator_credits(about': NullablePointer[GtkAboutDialogT]): String iso^ =>
-    String.from_cstring(@gtk_about_dialog_get_translator_credits(about')).clone()
+  fun get_translator_credits(about': GtkAboutDialogI): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_translator_credits(about'.getptr())).clone()

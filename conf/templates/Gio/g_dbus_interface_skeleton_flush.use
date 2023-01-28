@@ -1,1 +1,1 @@
-use @g_dbus_interface_skeleton_flush[None](interface': NullablePointer[GDBusInterfaceSkeletonT])
+use @g_dbus_interface_skeleton_flush[None](interface': NullablePointer[GObjectT])

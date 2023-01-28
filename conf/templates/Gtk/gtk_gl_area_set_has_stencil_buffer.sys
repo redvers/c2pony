@@ -1,2 +1,2 @@
-  fun set_has_stencil_buffer(area': NullablePointer[GtkGLAreaT], has_stencil_buffer': I32): None =>
-    @gtk_gl_area_set_has_stencil_buffer(area', has_stencil_buffer')
+  fun set_has_stencil_buffer(area': GtkGLAreaI, has_stencil_buffer': I32): None =>
+    @gtk_gl_area_set_has_stencil_buffer(area'.getptr(), has_stencil_buffer')

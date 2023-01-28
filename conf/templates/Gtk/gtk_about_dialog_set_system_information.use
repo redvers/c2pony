@@ -1,1 +1,1 @@
-use @gtk_about_dialog_set_system_information[None](about': NullablePointer[GtkAboutDialogT], system_information': Pointer[U8] tag)
+use @gtk_about_dialog_set_system_information[None](about': NullablePointer[GObjectT], system_information': Pointer[U8] tag)

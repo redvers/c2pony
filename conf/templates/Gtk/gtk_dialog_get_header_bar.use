@@ -1,1 +1,1 @@
-use @gtk_dialog_get_header_bar[NullablePointer[GObjectT]](dialog': NullablePointer[GtkDialogT])
+use @gtk_dialog_get_header_bar[NullablePointer[GObjectT]](dialog': NullablePointer[GObjectT])

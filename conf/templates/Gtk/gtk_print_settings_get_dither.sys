@@ -1,2 +1,2 @@
-  fun get_dither(settings': NullablePointer[GtkPrintSettingsT]): String iso^ =>
-    String.from_cstring(@gtk_print_settings_get_dither(settings')).clone()
+  fun get_dither(settings': GtkPrintSettingsI): String iso^ =>
+    String.from_cstring(@gtk_print_settings_get_dither(settings'.getptr())).clone()

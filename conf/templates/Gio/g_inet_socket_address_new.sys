@@ -1,2 +1,2 @@
-  new gnew(address': NullablePointer[GInetAddressT], port': U16) =>
-    ptr = @g_inet_socket_address_new(address', port')
+  new gnew(address': GInetAddressI, port': U16) =>
+    ptr = @g_inet_socket_address_new(address'.getptr(), port')

@@ -1,1 +1,1 @@
-use @gtk_tree_store_move_before[None](tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], position': NullablePointer[GtkTreeIterT])
+use @gtk_tree_store_move_before[None](tree_store': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT], position': NullablePointer[GtkTreeIterT])

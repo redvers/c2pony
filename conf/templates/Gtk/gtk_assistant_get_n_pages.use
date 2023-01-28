@@ -1,1 +1,1 @@
-use @gtk_assistant_get_n_pages[I32](assistant': NullablePointer[GtkAssistantT])
+use @gtk_assistant_get_n_pages[I32](assistant': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_flowinfo(address': NullablePointer[GInetSocketAddressT]): U32 =>
-    @g_inet_socket_address_get_flowinfo(address')
+  fun get_flowinfo(address': GInetSocketAddressI): U32 =>
+    @g_inet_socket_address_get_flowinfo(address'.getptr())

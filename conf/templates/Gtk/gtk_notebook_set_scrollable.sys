@@ -1,2 +1,2 @@
-  fun set_scrollable(notebook': NullablePointer[GtkNotebookT], scrollable': I32): None =>
-    @gtk_notebook_set_scrollable(notebook', scrollable')
+  fun set_scrollable(notebook': GtkNotebookI, scrollable': I32): None =>
+    @gtk_notebook_set_scrollable(notebook'.getptr(), scrollable')

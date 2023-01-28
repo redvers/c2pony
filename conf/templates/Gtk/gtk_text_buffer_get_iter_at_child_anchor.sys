@@ -1,2 +1,2 @@
-  fun get_iter_at_child_anchor(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], anchor': NullablePointer[GtkTextChildAnchorT]): None =>
-    @gtk_text_buffer_get_iter_at_child_anchor(buffer', iter', anchor')
+  fun get_iter_at_child_anchor(buffer': GtkTextBufferI, iter': NullablePointer[GtkTextIterT], anchor': GtkTextChildAnchorI): None =>
+    @gtk_text_buffer_get_iter_at_child_anchor(buffer'.getptr(), iter', anchor'.getptr())

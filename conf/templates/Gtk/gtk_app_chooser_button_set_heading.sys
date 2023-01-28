@@ -1,2 +1,2 @@
-  fun set_heading(self': NullablePointer[GtkAppChooserButtonT], heading': String): None =>
-    @gtk_app_chooser_button_set_heading(self', heading'.cstring())
+  fun set_heading(self': GtkAppChooserButtonI, heading': String): None =>
+    @gtk_app_chooser_button_set_heading(self'.getptr(), heading'.cstring())

@@ -1,2 +1,2 @@
-  fun peek_path(file': NullablePointer[GFileT]): String iso^ =>
-    String.from_cstring(@g_file_peek_path(file')).clone()
+  fun peek_path(file': GFileI): String iso^ =>
+    String.from_cstring(@g_file_peek_path(file'.getptr())).clone()

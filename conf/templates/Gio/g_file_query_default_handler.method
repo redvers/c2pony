@@ -1,2 +1,2 @@
-  fun ref query_default_handler(cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GAppInfoT] =>
+  fun ref query_default_handler(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.query_default_handler(this, cancellable', error')

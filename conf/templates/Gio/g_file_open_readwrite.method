@@ -1,2 +1,2 @@
-  fun ref open_readwrite(cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileIOStreamT] =>
+  fun ref open_readwrite(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.open_readwrite(this, cancellable', error')

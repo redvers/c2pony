@@ -1,2 +1,2 @@
-  fun get_dpi_y(context': NullablePointer[GtkPrintContextT]): F64 =>
-    @gtk_print_context_get_dpi_y(context')
+  fun get_dpi_y(context': GtkPrintContextI): F64 =>
+    @gtk_print_context_get_dpi_y(context'.getptr())

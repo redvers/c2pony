@@ -1,2 +1,2 @@
-  fun get_deleted(anchor': NullablePointer[GtkTextChildAnchorT]): I32 =>
-    @gtk_text_child_anchor_get_deleted(anchor')
+  fun get_deleted(anchor': GtkTextChildAnchorI): I32 =>
+    @gtk_text_child_anchor_get_deleted(anchor'.getptr())

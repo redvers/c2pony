@@ -1,2 +1,2 @@
-  fun pack_end(bar': NullablePointer[GtkHeaderBarT], child': GtkWidgetI): None =>
-    @gtk_header_bar_pack_end(bar', child'.getptr())
+  fun pack_end(bar': GtkHeaderBarI, child': GtkWidgetI): None =>
+    @gtk_header_bar_pack_end(bar'.getptr(), child'.getptr())

@@ -1,2 +1,2 @@
-  fun has_pending(stream': NullablePointer[GIOStreamT]): I32 =>
-    @g_io_stream_has_pending(stream')
+  fun has_pending(stream': GIOStreamI): I32 =>
+    @g_io_stream_has_pending(stream'.getptr())

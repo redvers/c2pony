@@ -1,1 +1,1 @@
-use @gtk_text_mark_new[NullablePointer[GtkTextMarkT]](name': Pointer[U8] tag, left_gravity': I32)
+use @gtk_text_mark_new[NullablePointer[GObjectT]](name': Pointer[U8] tag, left_gravity': I32)

@@ -1,2 +1,2 @@
-  fun get_object_path(proxy': NullablePointer[GDBusProxyT]): String iso^ =>
-    String.from_cstring(@g_dbus_proxy_get_object_path(proxy')).clone()
+  fun get_object_path(proxy': GDBusProxyI): String iso^ =>
+    String.from_cstring(@g_dbus_proxy_get_object_path(proxy'.getptr())).clone()

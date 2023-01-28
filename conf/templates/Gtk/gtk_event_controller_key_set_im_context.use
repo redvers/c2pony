@@ -1,1 +1,1 @@
-use @gtk_event_controller_key_set_im_context[None](controller': NullablePointer[GtkEventControllerKeyT], im_context': NullablePointer[GtkIMContextT])
+use @gtk_event_controller_key_set_im_context[None](controller': NullablePointer[GObjectT], im_context': NullablePointer[GObjectT])

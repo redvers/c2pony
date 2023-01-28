@@ -1,2 +1,2 @@
-  fun is_exported(manager': NullablePointer[GDBusObjectManagerServerT], object': NullablePointer[GDBusObjectSkeletonT]): I32 =>
-    @g_dbus_object_manager_server_is_exported(manager', object')
+  fun is_exported(manager': GDBusObjectManagerServerI, object': GDBusObjectSkeletonI): I32 =>
+    @g_dbus_object_manager_server_is_exported(manager'.getptr(), object'.getptr())

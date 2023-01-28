@@ -1,2 +1,2 @@
-  fun get_artists(about': NullablePointer[GtkAboutDialogT]): Pointer[Pointer[U8]] tag =>
-    @gtk_about_dialog_get_artists(about')
+  fun get_artists(about': GtkAboutDialogI): Pointer[Pointer[U8]] tag =>
+    @gtk_about_dialog_get_artists(about'.getptr())

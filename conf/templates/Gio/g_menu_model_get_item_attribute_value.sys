@@ -1,2 +1,2 @@
-  fun get_item_attribute_value(model': NullablePointer[GMenuModelT], item_index': I32, attribute': String, expected_type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantT] =>
-    @g_menu_model_get_item_attribute_value(model', item_index', attribute'.cstring(), expected_type')
+  fun get_item_attribute_value(model': GMenuModelI, item_index': I32, attribute': String, expected_type': NullablePointer[GVariantTypeT]): NullablePointer[GVariantT] =>
+    @g_menu_model_get_item_attribute_value(model'.getptr(), item_index', attribute'.cstring(), expected_type')

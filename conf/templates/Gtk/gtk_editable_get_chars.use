@@ -1,1 +1,1 @@
-use @gtk_editable_get_chars[Pointer[U8]](editable': NullablePointer[GtkEditableT], start_pos': I32, end_pos': I32)
+use @gtk_editable_get_chars[Pointer[U8]](editable': NullablePointer[GObjectT], start_pos': I32, end_pos': I32)

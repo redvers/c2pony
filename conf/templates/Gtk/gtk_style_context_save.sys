@@ -1,2 +1,2 @@
-  fun save(context': NullablePointer[GtkStyleContextT]): None =>
-    @gtk_style_context_save(context')
+  fun save(context': GtkStyleContextI): None =>
+    @gtk_style_context_save(context'.getptr())

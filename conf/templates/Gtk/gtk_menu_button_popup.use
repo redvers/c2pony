@@ -1,1 +1,1 @@
-use @gtk_menu_button_popup[None](menu_button': NullablePointer[GtkMenuButtonT])
+use @gtk_menu_button_popup[None](menu_button': NullablePointer[GObjectT])

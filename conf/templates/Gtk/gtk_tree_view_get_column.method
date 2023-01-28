@@ -1,2 +1,2 @@
-  fun ref get_column(n': I32): NullablePointer[GtkTreeViewColumnT] =>
+  fun ref get_column(n': I32): NullablePointer[GObjectT] =>
     GtkTreeViewP.get_column(this, n')

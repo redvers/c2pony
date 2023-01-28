@@ -1,1 +1,1 @@
-use @g_socket_set_broadcast[None](socket': NullablePointer[GSocketT], broadcast': I32)
+use @g_socket_set_broadcast[None](socket': NullablePointer[GObjectT], broadcast': I32)

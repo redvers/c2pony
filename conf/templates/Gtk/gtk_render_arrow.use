@@ -1,1 +1,1 @@
-use @gtk_render_arrow[None](context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], angle': F64, x': F64, y': F64, size': F64)
+use @gtk_render_arrow[None](context': NullablePointer[GObjectT], cr': NullablePointer[cairoT], angle': F64, x': F64, y': F64, size': F64)

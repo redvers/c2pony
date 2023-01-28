@@ -1,2 +1,2 @@
-  fun detach_tab(notebook': NullablePointer[GtkNotebookT], child': GtkWidgetI): None =>
-    @gtk_notebook_detach_tab(notebook', child'.getptr())
+  fun detach_tab(notebook': GtkNotebookI, child': GtkWidgetI): None =>
+    @gtk_notebook_detach_tab(notebook'.getptr(), child'.getptr())

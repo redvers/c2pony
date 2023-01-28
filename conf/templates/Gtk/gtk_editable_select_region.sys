@@ -1,2 +1,2 @@
-  fun select_region(editable': NullablePointer[GtkEditableT], start_pos': I32, end_pos': I32): None =>
-    @gtk_editable_select_region(editable', start_pos', end_pos')
+  fun select_region(editable': GtkEditableI, start_pos': I32, end_pos': I32): None =>
+    @gtk_editable_select_region(editable'.getptr(), start_pos', end_pos')

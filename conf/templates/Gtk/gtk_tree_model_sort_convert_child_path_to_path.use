@@ -1,1 +1,1 @@
-use @gtk_tree_model_sort_convert_child_path_to_path[NullablePointer[GtkTreePathT]](tree_model_sort': NullablePointer[GtkTreeModelSortT], child_path': NullablePointer[GtkTreePathT])
+use @gtk_tree_model_sort_convert_child_path_to_path[NullablePointer[GtkTreePathT]](tree_model_sort': NullablePointer[GObjectT], child_path': NullablePointer[GtkTreePathT])

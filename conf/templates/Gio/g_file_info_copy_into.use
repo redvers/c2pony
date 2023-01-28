@@ -1,1 +1,1 @@
-use @g_file_info_copy_into[None](src_info': NullablePointer[GFileInfoT], dest_info': NullablePointer[GFileInfoT])
+use @g_file_info_copy_into[None](src_info': NullablePointer[GObjectT], dest_info': NullablePointer[GObjectT])

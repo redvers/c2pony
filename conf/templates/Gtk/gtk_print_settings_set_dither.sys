@@ -1,2 +1,2 @@
-  fun set_dither(settings': NullablePointer[GtkPrintSettingsT], dither': String): None =>
-    @gtk_print_settings_set_dither(settings', dither'.cstring())
+  fun set_dither(settings': GtkPrintSettingsI, dither': String): None =>
+    @gtk_print_settings_set_dither(settings'.getptr(), dither'.cstring())

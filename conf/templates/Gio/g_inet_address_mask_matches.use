@@ -1,1 +1,1 @@
-use @g_inet_address_mask_matches[I32](mask': NullablePointer[GInetAddressMaskT], address': NullablePointer[GInetAddressT])
+use @g_inet_address_mask_matches[I32](mask': NullablePointer[GObjectT], address': NullablePointer[GObjectT])

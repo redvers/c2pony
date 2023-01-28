@@ -1,1 +1,1 @@
-use @gtk_popover_menu_add_child[I32](popover': NullablePointer[GtkPopoverMenuT], child': NullablePointer[GObjectT], id': Pointer[U8] tag)
+use @gtk_popover_menu_add_child[I32](popover': NullablePointer[GObjectT], child': NullablePointer[GObjectT], id': Pointer[U8] tag)

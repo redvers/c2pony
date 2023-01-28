@@ -1,2 +1,2 @@
-  fun iter_is_valid(tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT]): I32 =>
-    @gtk_tree_store_iter_is_valid(tree_store', iter')
+  fun iter_is_valid(tree_store': GtkTreeStoreI, iter': NullablePointer[GtkTreeIterT]): I32 =>
+    @gtk_tree_store_iter_is_valid(tree_store'.getptr(), iter')

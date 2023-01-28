@@ -1,1 +1,1 @@
-use @g_set_error_literal[None](err': NullablePointer[GErrorT], domain': U32, code': I32, message': Pointer[U8] tag)
+use @g_set_error_literal[None](err': Pointer[NullablePointer[GErrorT]], domain': U32, code': I32, message': Pointer[U8] tag)

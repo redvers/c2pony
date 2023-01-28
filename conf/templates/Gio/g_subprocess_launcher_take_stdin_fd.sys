@@ -1,2 +1,2 @@
-  fun take_stdin_fd(self': NullablePointer[GSubprocessLauncherT], fd': I32): None =>
-    @g_subprocess_launcher_take_stdin_fd(self', fd')
+  fun take_stdin_fd(self': GSubprocessLauncherI, fd': I32): None =>
+    @g_subprocess_launcher_take_stdin_fd(self'.getptr(), fd')

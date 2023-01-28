@@ -1,2 +1,2 @@
-  fun get_exclusive(gesture': NullablePointer[GtkGestureSingleT]): I32 =>
-    @gtk_gesture_single_get_exclusive(gesture')
+  fun get_exclusive(gesture': GtkGestureSingleI): I32 =>
+    @gtk_gesture_single_get_exclusive(gesture'.getptr())

@@ -1,2 +1,2 @@
-  fun get_label(button': NullablePointer[GtkButtonT]): String iso^ =>
-    String.from_cstring(@gtk_button_get_label(button')).clone()
+  fun get_label(button': GtkButtonI): String iso^ =>
+    String.from_cstring(@gtk_button_get_label(button'.getptr())).clone()

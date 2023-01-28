@@ -1,1 +1,1 @@
-use @gtk_editable_get_width_chars[I32](editable': NullablePointer[GtkEditableT])
+use @gtk_editable_get_width_chars[I32](editable': NullablePointer[GObjectT])

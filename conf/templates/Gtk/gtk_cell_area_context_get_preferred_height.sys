@@ -1,2 +1,2 @@
-  fun get_preferred_height(context': NullablePointer[GtkCellAreaContextT], minimum_height': Pointer[I32] tag, natural_height': Pointer[I32] tag): None =>
-    @gtk_cell_area_context_get_preferred_height(context', minimum_height', natural_height')
+  fun get_preferred_height(context': GtkCellAreaContextI, minimum_height': Pointer[I32] tag, natural_height': Pointer[I32] tag): None =>
+    @gtk_cell_area_context_get_preferred_height(context'.getptr(), minimum_height', natural_height')

@@ -1,2 +1,2 @@
-  fun get_scope(self': NullablePointer[GtkShortcutControllerT]): U32 =>
-    @gtk_shortcut_controller_get_scope(self')
+  fun get_scope(self': GtkShortcutControllerI): U32 =>
+    @gtk_shortcut_controller_get_scope(self'.getptr())

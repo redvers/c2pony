@@ -1,1 +1,1 @@
-use @g_file_info_new[NullablePointer[GFileInfoT]]()
+use @g_file_info_new[NullablePointer[GObjectT]]()

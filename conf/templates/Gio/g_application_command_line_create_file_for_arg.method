@@ -1,2 +1,2 @@
-  fun ref create_file_for_arg(arg': String): NullablePointer[GFileT] =>
+  fun ref create_file_for_arg(arg': String): NullablePointer[GObjectT] =>
     GApplicationCommandLineP.create_file_for_arg(this, arg')

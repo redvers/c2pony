@@ -1,2 +1,2 @@
-  fun get_round_digits(range': NullablePointer[GtkRangeT]): I32 =>
-    @gtk_range_get_round_digits(range')
+  fun get_round_digits(range': GtkRangeI): I32 =>
+    @gtk_range_get_round_digits(range'.getptr())

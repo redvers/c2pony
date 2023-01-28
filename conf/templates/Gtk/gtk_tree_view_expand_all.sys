@@ -1,2 +1,2 @@
-  fun expand_all(tree_view': NullablePointer[GtkTreeViewT]): None =>
-    @gtk_tree_view_expand_all(tree_view')
+  fun expand_all(tree_view': GtkTreeViewI): None =>
+    @gtk_tree_view_expand_all(tree_view'.getptr())

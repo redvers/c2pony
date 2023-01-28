@@ -1,2 +1,2 @@
-  fun select_range(selection': NullablePointer[GtkTreeSelectionT], start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT]): None =>
-    @gtk_tree_selection_select_range(selection', start_path', end_path')
+  fun select_range(selection': GtkTreeSelectionI, start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_tree_selection_select_range(selection'.getptr(), start_path', end_path')

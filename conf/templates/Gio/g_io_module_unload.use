@@ -1,1 +1,1 @@
-use @g_io_module_unload[None](module': NullablePointer[GIOModuleT])
+use @g_io_module_unload[None](module': NullablePointer[GObjectT])

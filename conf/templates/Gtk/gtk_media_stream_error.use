@@ -1,1 +1,1 @@
-use @gtk_media_stream_error[None](self': NullablePointer[GtkMediaStreamT], domain': U32, code': I32, format': Pointer[U8] tag, ...)
+use @gtk_media_stream_error[None](self': NullablePointer[GObjectT], domain': U32, code': I32, format': Pointer[U8] tag, ...)

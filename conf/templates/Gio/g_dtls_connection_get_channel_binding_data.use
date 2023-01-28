@@ -1,1 +1,1 @@
-use @g_dtls_connection_get_channel_binding_data[I32](conn': NullablePointer[GDtlsConnectionT], type': U32, data': NullablePointer[GByteArrayT], error': NullablePointer[GErrorT])
+use @g_dtls_connection_get_channel_binding_data[I32](conn': NullablePointer[GObjectT], type': U32, data': NullablePointer[GByteArrayT], error': Pointer[NullablePointer[GErrorT]])

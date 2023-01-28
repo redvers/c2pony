@@ -1,1 +1,1 @@
-use @gtk_tree_model_filter_convert_child_iter_to_iter[I32](filter': NullablePointer[GtkTreeModelFilterT], filter_iter': NullablePointer[GtkTreeIterT], child_iter': NullablePointer[GtkTreeIterT])
+use @gtk_tree_model_filter_convert_child_iter_to_iter[I32](filter': NullablePointer[GObjectT], filter_iter': NullablePointer[GtkTreeIterT], child_iter': NullablePointer[GtkTreeIterT])

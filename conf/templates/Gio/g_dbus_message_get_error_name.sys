@@ -1,2 +1,2 @@
-  fun get_error_name(message': NullablePointer[GDBusMessageT]): String iso^ =>
-    String.from_cstring(@g_dbus_message_get_error_name(message')).clone()
+  fun get_error_name(message': GDBusMessageI): String iso^ =>
+    String.from_cstring(@g_dbus_message_get_error_name(message'.getptr())).clone()

@@ -1,2 +1,2 @@
-  fun get_fixed_width(self': NullablePointer[GtkColumnViewColumnT]): I32 =>
-    @gtk_column_view_column_get_fixed_width(self')
+  fun get_fixed_width(self': GtkColumnViewColumnI): I32 =>
+    @gtk_column_view_column_get_fixed_width(self'.getptr())

@@ -1,2 +1,2 @@
-  fun get_revealed(action_bar': NullablePointer[GtkActionBarT]): I32 =>
-    @gtk_action_bar_get_revealed(action_bar')
+  fun get_revealed(action_bar': GtkActionBarI): I32 =>
+    @gtk_action_bar_get_revealed(action_bar'.getptr())

@@ -1,2 +1,2 @@
-  fun lookup(simple': NullablePointer[GSimpleActionGroupT], action_name': String): NullablePointer[GObjectT] =>
-@g_simple_action_group_lookup(simple', action_name'.cstring())
+  fun lookup(simple': GSimpleActionGroupI, action_name': String): NullablePointer[GObjectT] =>
+@g_simple_action_group_lookup(simple'.getptr(), action_name'.cstring())

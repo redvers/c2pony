@@ -1,2 +1,2 @@
-  fun condition_timed_wait(socket': NullablePointer[GSocketT], condition': U32, timeout_us': I64, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_socket_condition_timed_wait(socket', condition', timeout_us', cancellable', error'.ptr)
+  fun condition_timed_wait(socket': GSocketI, condition': U32, timeout_us': I64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_condition_timed_wait(socket'.getptr(), condition', timeout_us', cancellable'.getptr(), error')

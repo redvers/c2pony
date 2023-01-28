@@ -1,1 +1,1 @@
-use @gtk_stack_page_get_child[NullablePointer[GObjectT]](self': NullablePointer[GtkStackPageT])
+use @gtk_stack_page_get_child[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

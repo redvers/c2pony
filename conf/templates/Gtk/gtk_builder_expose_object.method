@@ -1,2 +1,2 @@
-  fun ref expose_object(name': String, object': NullablePointer[GObjectT]): None =>
+  fun ref expose_object(name': String, object': GObjectI): None =>
     GtkBuilderP.expose_object(this, name', object')

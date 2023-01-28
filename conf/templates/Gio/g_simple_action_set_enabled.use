@@ -1,1 +1,1 @@
-use @g_simple_action_set_enabled[None](simple': NullablePointer[GSimpleActionT], enabled': I32)
+use @g_simple_action_set_enabled[None](simple': NullablePointer[GObjectT], enabled': I32)

@@ -1,2 +1,2 @@
-  fun add_child(info_bar': NullablePointer[GtkInfoBarT], widget': GtkWidgetI): None =>
-    @gtk_info_bar_add_child(info_bar', widget'.getptr())
+  fun add_child(info_bar': GtkInfoBarI, widget': GtkWidgetI): None =>
+    @gtk_info_bar_add_child(info_bar'.getptr(), widget'.getptr())

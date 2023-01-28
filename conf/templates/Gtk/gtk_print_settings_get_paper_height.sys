@@ -1,2 +1,2 @@
-  fun get_paper_height(settings': NullablePointer[GtkPrintSettingsT], unit': U32): F64 =>
-    @gtk_print_settings_get_paper_height(settings', unit')
+  fun get_paper_height(settings': GtkPrintSettingsI, unit': U32): F64 =>
+    @gtk_print_settings_get_paper_height(settings'.getptr(), unit')

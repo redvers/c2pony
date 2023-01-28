@@ -1,1 +1,1 @@
-use @gtk_alternative_trigger_new[NullablePointer[GtkShortcutTriggerT]](first': NullablePointer[GtkShortcutTriggerT], second': NullablePointer[GtkShortcutTriggerT])
+use @gtk_alternative_trigger_new[NullablePointer[GObjectT]](first': NullablePointer[GObjectT], second': NullablePointer[GObjectT])

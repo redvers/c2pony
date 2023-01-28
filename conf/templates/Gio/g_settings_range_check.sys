@@ -1,2 +1,2 @@
-  fun range_check(settings': NullablePointer[GSettingsT], key': String, value': NullablePointer[GVariantT]): I32 =>
-    @g_settings_range_check(settings', key'.cstring(), value')
+  fun range_check(settings': GSettingsI, key': String, value': NullablePointer[GVariantT]): I32 =>
+    @g_settings_range_check(settings'.getptr(), key'.cstring(), value')

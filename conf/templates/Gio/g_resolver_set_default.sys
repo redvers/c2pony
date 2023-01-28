@@ -1,2 +1,2 @@
-  fun set_default(resolver': NullablePointer[GResolverT]): None =>
-    @g_resolver_set_default(resolver')
+  fun set_default(resolver': GResolverI): None =>
+    @g_resolver_set_default(resolver'.getptr())

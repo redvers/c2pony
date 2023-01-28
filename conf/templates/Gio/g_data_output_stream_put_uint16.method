@@ -1,2 +1,2 @@
-  fun ref put_uint16(data': U16, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref put_uint16(data': U16, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GDataOutputStreamP.put_uint16(this, data', cancellable', error')

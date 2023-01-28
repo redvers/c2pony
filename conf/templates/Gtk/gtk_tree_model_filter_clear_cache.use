@@ -1,1 +1,1 @@
-use @gtk_tree_model_filter_clear_cache[None](filter': NullablePointer[GtkTreeModelFilterT])
+use @gtk_tree_model_filter_clear_cache[None](filter': NullablePointer[GObjectT])

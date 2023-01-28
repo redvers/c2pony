@@ -1,2 +1,2 @@
-  fun connect_finish(proxy': NullablePointer[GProxyT], result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GIOStreamT] =>
-    @g_proxy_connect_finish(proxy', result', error'.ptr)
+  fun connect_finish(proxy': GProxyI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_proxy_connect_finish(proxy'.getptr(), result'.getptr(), error')

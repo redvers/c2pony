@@ -1,2 +1,2 @@
-  fun changed(tag': NullablePointer[GtkTextTagT], size_changed': I32): None =>
-    @gtk_text_tag_changed(tag', size_changed')
+  fun changed(tag': GtkTextTagI, size_changed': I32): None =>
+    @gtk_text_tag_changed(tag'.getptr(), size_changed')

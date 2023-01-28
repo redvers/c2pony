@@ -1,1 +1,1 @@
-use @g_file_find_enclosing_mount_finish[NullablePointer[GMountT]](file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_file_find_enclosing_mount_finish[NullablePointer[GObjectT]](file': NullablePointer[GObjectT], res': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

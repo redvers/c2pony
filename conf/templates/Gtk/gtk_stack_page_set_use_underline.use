@@ -1,1 +1,1 @@
-use @gtk_stack_page_set_use_underline[None](self': NullablePointer[GtkStackPageT], setting': I32)
+use @gtk_stack_page_set_use_underline[None](self': NullablePointer[GObjectT], setting': I32)

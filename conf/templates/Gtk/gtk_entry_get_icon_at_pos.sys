@@ -1,2 +1,2 @@
-  fun get_icon_at_pos(entry': NullablePointer[GtkEntryT], x': I32, y': I32): I32 =>
-    @gtk_entry_get_icon_at_pos(entry', x', y')
+  fun get_icon_at_pos(entry': GtkEntryI, x': I32, y': I32): I32 =>
+    @gtk_entry_get_icon_at_pos(entry'.getptr(), x', y')

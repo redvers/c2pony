@@ -1,2 +1,2 @@
-  fun ref move(destination': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], progress_callback': GFileProgressCallback, progress_callback_data': Pointer[None] tag, error': GError): I32 =>
+  fun ref move(destination': GFileI, flags': U32, cancellable': GCancellableI, progress_callback': GFileProgressCallback, progress_callback_data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.move(this, destination', flags', cancellable', progress_callback', progress_callback_data', error')

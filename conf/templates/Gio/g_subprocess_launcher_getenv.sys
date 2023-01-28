@@ -1,2 +1,2 @@
-  fun getenv(self': NullablePointer[GSubprocessLauncherT], variable': String): String iso^ =>
-    String.from_cstring(@g_subprocess_launcher_getenv(self', variable'.cstring())).clone()
+  fun getenv(self': GSubprocessLauncherI, variable': String): String iso^ =>
+    String.from_cstring(@g_subprocess_launcher_getenv(self'.getptr(), variable'.cstring())).clone()

@@ -1,1 +1,1 @@
-use @gtk_flow_box_bind_model[None](box': NullablePointer[GtkFlowBoxT], model': NullablePointer[GObjectT], create_widget_func': GtkFlowBoxCreateWidgetFunc, user_data': Pointer[None] tag, user_data_free_func': Pointer[None])
+use @gtk_flow_box_bind_model[None](box': NullablePointer[GObjectT], model': NullablePointer[GObjectT], create_widget_func': GtkFlowBoxCreateWidgetFunc, user_data': Pointer[None] tag, user_data_free_func': Pointer[None])

@@ -1,2 +1,2 @@
-  fun get_content_type(self': NullablePointer[GtkAppChooserT]): String iso^ =>
-    String.from_cstring(@gtk_app_chooser_get_content_type(self')).clone()
+  fun get_content_type(self': GtkAppChooserI): String iso^ =>
+    String.from_cstring(@gtk_app_chooser_get_content_type(self'.getptr())).clone()

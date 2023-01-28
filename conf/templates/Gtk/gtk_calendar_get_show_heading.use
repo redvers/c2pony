@@ -1,1 +1,1 @@
-use @gtk_calendar_get_show_heading[I32](self': NullablePointer[GtkCalendarT])
+use @gtk_calendar_get_show_heading[I32](self': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @g_data_output_stream_put_string[I32](stream': NullablePointer[GDataOutputStreamT], str': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_data_output_stream_put_string[I32](stream': NullablePointer[GObjectT], str': Pointer[U8] tag, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

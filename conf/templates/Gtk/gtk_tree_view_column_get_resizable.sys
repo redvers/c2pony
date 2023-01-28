@@ -1,2 +1,2 @@
-  fun get_resizable(tree_column': NullablePointer[GtkTreeViewColumnT]): I32 =>
-    @gtk_tree_view_column_get_resizable(tree_column')
+  fun get_resizable(tree_column': GtkTreeViewColumnI): I32 =>
+    @gtk_tree_view_column_get_resizable(tree_column'.getptr())

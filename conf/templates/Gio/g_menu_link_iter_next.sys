@@ -1,2 +1,2 @@
-  fun next(iter': NullablePointer[GMenuLinkIterT]): I32 =>
-    @g_menu_link_iter_next(iter')
+  fun next(iter': GMenuLinkIterI): I32 =>
+    @g_menu_link_iter_next(iter'.getptr())

@@ -1,2 +1,2 @@
-  fun get_digits(spin_button': NullablePointer[GtkSpinButtonT]): U32 =>
-    @gtk_spin_button_get_digits(spin_button')
+  fun get_digits(spin_button': GtkSpinButtonI): U32 =>
+    @gtk_spin_button_get_digits(spin_button'.getptr())

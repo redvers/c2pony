@@ -1,2 +1,2 @@
-  fun get_pim(op': NullablePointer[GMountOperationT]): U32 =>
-    @g_mount_operation_get_pim(op')
+  fun get_pim(op': GMountOperationI): U32 =>
+    @g_mount_operation_get_pim(op'.getptr())

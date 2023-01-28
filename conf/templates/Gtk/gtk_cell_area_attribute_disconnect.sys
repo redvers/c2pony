@@ -1,2 +1,2 @@
-  fun attribute_disconnect(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], attribute': String): None =>
-    @gtk_cell_area_attribute_disconnect(area', renderer', attribute'.cstring())
+  fun attribute_disconnect(area': GtkCellAreaI, renderer': GtkCellRendererI, attribute': String): None =>
+    @gtk_cell_area_attribute_disconnect(area'.getptr(), renderer'.getptr(), attribute'.cstring())

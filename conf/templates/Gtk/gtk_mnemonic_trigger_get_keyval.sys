@@ -1,2 +1,2 @@
-  fun get_keyval(self': NullablePointer[GtkMnemonicTriggerT]): U32 =>
-    @gtk_mnemonic_trigger_get_keyval(self')
+  fun get_keyval(self': GtkMnemonicTriggerI): U32 =>
+    @gtk_mnemonic_trigger_get_keyval(self'.getptr())

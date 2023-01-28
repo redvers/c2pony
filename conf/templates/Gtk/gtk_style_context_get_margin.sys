@@ -1,2 +1,2 @@
-  fun get_margin(context': NullablePointer[GtkStyleContextT], margin': NullablePointer[GtkBorderT]): None =>
-    @gtk_style_context_get_margin(context', margin')
+  fun get_margin(context': GtkStyleContextI, margin': NullablePointer[GtkBorderT]): None =>
+    @gtk_style_context_get_margin(context'.getptr(), margin')

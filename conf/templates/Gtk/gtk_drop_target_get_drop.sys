@@ -1,2 +1,2 @@
-  fun get_drop(self': NullablePointer[GtkDropTargetT]): NullablePointer[GdkDropT] =>
-    @gtk_drop_target_get_drop(self')
+  fun get_drop(self': GtkDropTargetI): NullablePointer[GdkDropT] =>
+    @gtk_drop_target_get_drop(self'.getptr())

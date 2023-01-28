@@ -1,2 +1,2 @@
-  fun set_position(paned': NullablePointer[GtkPanedT], position': I32): None =>
-    @gtk_paned_set_position(paned', position')
+  fun set_position(paned': GtkPanedI, position': I32): None =>
+    @gtk_paned_set_position(paned'.getptr(), position')

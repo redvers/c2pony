@@ -1,1 +1,1 @@
-use @gtk_drag_icon_get_child[NullablePointer[GObjectT]](self': NullablePointer[GtkDragIconT])
+use @gtk_drag_icon_get_child[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

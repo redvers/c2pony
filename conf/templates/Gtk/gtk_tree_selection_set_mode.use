@@ -1,1 +1,1 @@
-use @gtk_tree_selection_set_mode[None](selection': NullablePointer[GtkTreeSelectionT], type': U32)
+use @gtk_tree_selection_set_mode[None](selection': NullablePointer[GObjectT], type': U32)

@@ -1,1 +1,1 @@
-use @gtk_notebook_set_group_name[None](notebook': NullablePointer[GtkNotebookT], group_name': Pointer[U8] tag)
+use @gtk_notebook_set_group_name[None](notebook': NullablePointer[GObjectT], group_name': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  new gnew(object': NullablePointer[GObjectT]) =>
-    ptr = @gtk_object_expression_new(object')
+  new gnew(object': GObjectI) =>
+    ptr = @gtk_object_expression_new(object'.getptr())

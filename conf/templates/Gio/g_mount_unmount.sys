@@ -1,2 +1,2 @@
-  fun unmount(mount': NullablePointer[GMountT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_mount_unmount(mount', flags', cancellable', callback', user_data')
+  fun unmount(mount': GMountI, flags': U32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_mount_unmount(mount'.getptr(), flags', cancellable'.getptr(), callback', user_data')

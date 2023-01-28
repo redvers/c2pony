@@ -1,2 +1,2 @@
-  fun get_sequence_state(gesture': NullablePointer[GtkGestureT], sequence': NullablePointer[GdkEventSequenceT]): U32 =>
-    @gtk_gesture_get_sequence_state(gesture', sequence')
+  fun get_sequence_state(gesture': GtkGestureI, sequence': NullablePointer[GdkEventSequenceT]): U32 =>
+    @gtk_gesture_get_sequence_state(gesture'.getptr(), sequence')

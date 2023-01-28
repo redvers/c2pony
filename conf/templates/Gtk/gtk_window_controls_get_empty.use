@@ -1,1 +1,1 @@
-use @gtk_window_controls_get_empty[I32](self': NullablePointer[GtkWindowControlsT])
+use @gtk_window_controls_get_empty[I32](self': NullablePointer[GObjectT])

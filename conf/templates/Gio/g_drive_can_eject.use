@@ -1,1 +1,1 @@
-use @g_drive_can_eject[I32](drive': NullablePointer[GDriveT])
+use @g_drive_can_eject[I32](drive': NullablePointer[GObjectT])

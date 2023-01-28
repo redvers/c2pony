@@ -1,1 +1,1 @@
-use @gtk_column_view_get_show_row_separators[I32](self': NullablePointer[GtkColumnViewT])
+use @gtk_column_view_get_show_row_separators[I32](self': NullablePointer[GObjectT])

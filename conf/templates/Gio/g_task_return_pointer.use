@@ -1,1 +1,1 @@
-use @g_task_return_pointer[None](task': NullablePointer[GTaskT], result': Pointer[None] tag, result_destroy': Pointer[None])
+use @g_task_return_pointer[None](task': NullablePointer[GObjectT], result': Pointer[None] tag, result_destroy': Pointer[None])

@@ -1,2 +1,2 @@
-  fun get_use_system_certdb(conn': NullablePointer[GTlsConnectionT]): I32 =>
-    @g_tls_connection_get_use_system_certdb(conn')
+  fun get_use_system_certdb(conn': GTlsConnectionI): I32 =>
+    @g_tls_connection_get_use_system_certdb(conn'.getptr())

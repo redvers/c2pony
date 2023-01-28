@@ -1,2 +1,2 @@
-  fun ref set_file_info(file_info': NullablePointer[GFileInfoT]): None =>
+  fun ref set_file_info(file_info': GFileInfoI): None =>
     GZlibCompressorP.set_file_info(this, file_info')

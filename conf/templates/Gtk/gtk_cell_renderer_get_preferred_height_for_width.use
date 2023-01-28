@@ -1,1 +1,1 @@
-use @gtk_cell_renderer_get_preferred_height_for_width[None](cell': NullablePointer[GtkCellRendererT], widget': NullablePointer[GObjectT], width': I32, minimum_height': Pointer[I32] tag, natural_height': Pointer[I32] tag)
+use @gtk_cell_renderer_get_preferred_height_for_width[None](cell': NullablePointer[GObjectT], widget': NullablePointer[GObjectT], width': I32, minimum_height': Pointer[I32] tag, natural_height': Pointer[I32] tag)

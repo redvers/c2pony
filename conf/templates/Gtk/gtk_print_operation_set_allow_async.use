@@ -1,1 +1,1 @@
-use @gtk_print_operation_set_allow_async[None](op': NullablePointer[GtkPrintOperationT], allow_async': I32)
+use @gtk_print_operation_set_allow_async[None](op': NullablePointer[GObjectT], allow_async': I32)

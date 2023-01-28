@@ -1,1 +1,1 @@
-use @gtk_text_buffer_undo[None](buffer': NullablePointer[GtkTextBufferT])
+use @gtk_text_buffer_undo[None](buffer': NullablePointer[GObjectT])

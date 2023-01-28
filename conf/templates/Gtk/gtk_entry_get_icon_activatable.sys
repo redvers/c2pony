@@ -1,2 +1,2 @@
-  fun get_icon_activatable(entry': NullablePointer[GtkEntryT], icon_pos': U32): I32 =>
-    @gtk_entry_get_icon_activatable(entry', icon_pos')
+  fun get_icon_activatable(entry': GtkEntryI, icon_pos': U32): I32 =>
+    @gtk_entry_get_icon_activatable(entry'.getptr(), icon_pos')

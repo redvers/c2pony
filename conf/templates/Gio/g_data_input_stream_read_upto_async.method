@@ -1,2 +1,2 @@
-  fun ref read_upto_async(stop_chars': String, stop_chars_len': I64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref read_upto_async(stop_chars': String, stop_chars_len': I64, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GDataInputStreamP.read_upto_async(this, stop_chars', stop_chars_len', io_priority', cancellable', callback', user_data')

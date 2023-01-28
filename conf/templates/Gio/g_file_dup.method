@@ -1,2 +1,2 @@
-  fun ref dup(): NullablePointer[GFileT] =>
+  fun ref dup(): NullablePointer[GObjectT] =>
     GFileP.dup(this)

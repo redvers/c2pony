@@ -1,1 +1,1 @@
-use @gtk_text_unset_invisible_char[None](self': NullablePointer[GtkTextT])
+use @gtk_text_unset_invisible_char[None](self': NullablePointer[GObjectT])

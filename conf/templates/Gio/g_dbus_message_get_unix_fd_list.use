@@ -1,1 +1,1 @@
-use @g_dbus_message_get_unix_fd_list[NullablePointer[GUnixFDListT]](message': NullablePointer[GDBusMessageT])
+use @g_dbus_message_get_unix_fd_list[NullablePointer[GObjectT]](message': NullablePointer[GObjectT])

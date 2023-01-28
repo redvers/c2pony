@@ -1,2 +1,2 @@
-  fun get_interface(message': NullablePointer[GDBusMessageT]): String iso^ =>
-    String.from_cstring(@g_dbus_message_get_interface(message')).clone()
+  fun get_interface(message': GDBusMessageI): String iso^ =>
+    String.from_cstring(@g_dbus_message_get_interface(message'.getptr())).clone()

@@ -1,1 +1,1 @@
-use @gtk_shortcut_label_get_accelerator[Pointer[U8]](self': NullablePointer[GtkShortcutLabelT])
+use @gtk_shortcut_label_get_accelerator[Pointer[U8]](self': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_sort_order(info': NullablePointer[GFileInfoT]): I32 =>
-    @g_file_info_get_sort_order(info')
+  fun get_sort_order(info': GFileInfoI): I32 =>
+    @g_file_info_get_sort_order(info'.getptr())

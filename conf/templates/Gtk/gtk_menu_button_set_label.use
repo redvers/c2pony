@@ -1,1 +1,1 @@
-use @gtk_menu_button_set_label[None](menu_button': NullablePointer[GtkMenuButtonT], label': Pointer[U8] tag)
+use @gtk_menu_button_set_label[None](menu_button': NullablePointer[GObjectT], label': Pointer[U8] tag)

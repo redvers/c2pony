@@ -1,1 +1,1 @@
-use @g_socket_service_new[NullablePointer[GSocketServiceT]]()
+use @g_socket_service_new[NullablePointer[GObjectT]]()

@@ -1,1 +1,1 @@
-use @gtk_cell_layout_clear[None](cell_layout': NullablePointer[GtkCellLayoutT])
+use @gtk_cell_layout_clear[None](cell_layout': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun ref set_hadjustment(hadjustment': NullablePointer[GtkAdjustmentT]): None =>
+  fun ref set_hadjustment(hadjustment': GtkAdjustmentI): None =>
     GtkScrollableP.set_hadjustment(this, hadjustment')

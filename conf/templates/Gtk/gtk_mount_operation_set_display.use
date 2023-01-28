@@ -1,1 +1,1 @@
-use @gtk_mount_operation_set_display[None](op': NullablePointer[GtkMountOperationT], display': NullablePointer[GdkDisplayT])
+use @gtk_mount_operation_set_display[None](op': NullablePointer[GObjectT], display': NullablePointer[GdkDisplayT])

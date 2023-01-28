@@ -1,2 +1,2 @@
-  fun run_in_thread_sync(task': NullablePointer[GTaskT], task_func': GTaskThreadFunc): None =>
-    @g_task_run_in_thread_sync(task', task_func')
+  fun run_in_thread_sync(task': GTaskI, task_func': GTaskThreadFunc): None =>
+    @g_task_run_in_thread_sync(task'.getptr(), task_func')

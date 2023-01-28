@@ -1,2 +1,2 @@
-  fun get_color(context': NullablePointer[GtkStyleContextT], color': NullablePointer[GdkRGBAT]): None =>
-    @gtk_style_context_get_color(context', color')
+  fun get_color(context': GtkStyleContextI, color': NullablePointer[GdkRGBAT]): None =>
+    @gtk_style_context_get_color(context'.getptr(), color')

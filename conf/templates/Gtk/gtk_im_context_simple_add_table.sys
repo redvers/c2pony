@@ -1,2 +1,2 @@
-  fun add_table(context_simple': NullablePointer[GtkIMContextSimpleT], data': Pointer[U16] tag, max_seq_len': I32, n_seqs': I32): None =>
-    @gtk_im_context_simple_add_table(context_simple', data', max_seq_len', n_seqs')
+  fun add_table(context_simple': GtkIMContextSimpleI, data': Pointer[U16] tag, max_seq_len': I32, n_seqs': I32): None =>
+    @gtk_im_context_simple_add_table(context_simple'.getptr(), data', max_seq_len', n_seqs')

@@ -1,2 +1,2 @@
-  fun get_restrict_to_fill_level(range': NullablePointer[GtkRangeT]): I32 =>
-    @gtk_range_get_restrict_to_fill_level(range')
+  fun get_restrict_to_fill_level(range': GtkRangeI): I32 =>
+    @gtk_range_get_restrict_to_fill_level(range'.getptr())

@@ -1,2 +1,2 @@
-  fun get_border(context': NullablePointer[GtkStyleContextT], border': NullablePointer[GtkBorderT]): None =>
-    @gtk_style_context_get_border(context', border')
+  fun get_border(context': GtkStyleContextI, border': NullablePointer[GtkBorderT]): None =>
+    @gtk_style_context_get_border(context'.getptr(), border')

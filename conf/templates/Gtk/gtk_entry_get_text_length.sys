@@ -1,2 +1,2 @@
-  fun get_text_length(entry': NullablePointer[GtkEntryT]): U16 =>
-    @gtk_entry_get_text_length(entry')
+  fun get_text_length(entry': GtkEntryI): U16 =>
+    @gtk_entry_get_text_length(entry'.getptr())

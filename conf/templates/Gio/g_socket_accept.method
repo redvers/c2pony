@@ -1,2 +1,2 @@
-  fun ref accept(cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GSocketT] =>
+  fun ref accept(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GSocketP.accept(this, cancellable', error')

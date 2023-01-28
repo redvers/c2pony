@@ -1,2 +1,2 @@
-  fun get_domain(op': NullablePointer[GMountOperationT]): String iso^ =>
-    String.from_cstring(@g_mount_operation_get_domain(op')).clone()
+  fun get_domain(op': GMountOperationI): String iso^ =>
+    String.from_cstring(@g_mount_operation_get_domain(op'.getptr())).clone()

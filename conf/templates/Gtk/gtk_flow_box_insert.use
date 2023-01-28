@@ -1,1 +1,1 @@
-use @gtk_flow_box_insert[None](box': NullablePointer[GtkFlowBoxT], widget': NullablePointer[GObjectT], position': I32)
+use @gtk_flow_box_insert[None](box': NullablePointer[GObjectT], widget': NullablePointer[GObjectT], position': I32)

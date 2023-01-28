@@ -1,2 +1,2 @@
-  fun get_current_event_device(controller': NullablePointer[GtkEventControllerT]): NullablePointer[GdkDeviceT] =>
-    @gtk_event_controller_get_current_event_device(controller')
+  fun get_current_event_device(controller': GtkEventControllerI): NullablePointer[GdkDeviceT] =>
+    @gtk_event_controller_get_current_event_device(controller'.getptr())

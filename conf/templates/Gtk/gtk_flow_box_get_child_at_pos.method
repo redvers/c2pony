@@ -1,2 +1,2 @@
-  fun ref get_child_at_pos(x': I32, y': I32): NullablePointer[GtkFlowBoxChildT] =>
+  fun ref get_child_at_pos(x': I32, y': I32): NullablePointer[GObjectT] =>
     GtkFlowBoxP.get_child_at_pos(this, x', y')

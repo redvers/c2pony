@@ -1,2 +1,2 @@
-  fun get_child(combo_box': NullablePointer[GtkComboBoxT]): NullablePointer[GObjectT] =>
-@gtk_combo_box_get_child(combo_box')
+  fun get_child(combo_box': GtkComboBoxI): NullablePointer[GObjectT] =>
+@gtk_combo_box_get_child(combo_box'.getptr())

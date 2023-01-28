@@ -1,2 +1,2 @@
-  fun get_widgets(anchor': NullablePointer[GtkTextChildAnchorT], out_len': Pointer[U32] tag): Pointer[NullablePointer[GtkWidgetT]] =>
-    @gtk_text_child_anchor_get_widgets(anchor', out_len')
+  fun get_widgets(anchor': GtkTextChildAnchorI, out_len': Pointer[U32] tag): Pointer[NullablePointer[GtkWidgetT]] =>
+    @gtk_text_child_anchor_get_widgets(anchor'.getptr(), out_len')

@@ -1,1 +1,1 @@
-use @gtk_image_clear[None](image': NullablePointer[GtkImageT])
+use @gtk_image_clear[None](image': NullablePointer[GObjectT])

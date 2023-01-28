@@ -1,1 +1,1 @@
-use @g_dbus_connection_new_for_address[None](address': Pointer[U8] tag, flags': U32, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_dbus_connection_new_for_address[None](address': Pointer[U8] tag, flags': U32, observer': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

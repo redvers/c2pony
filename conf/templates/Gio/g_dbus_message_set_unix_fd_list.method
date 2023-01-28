@@ -1,2 +1,2 @@
-  fun ref set_unix_fd_list(fd_list': NullablePointer[GUnixFDListT]): None =>
+  fun ref set_unix_fd_list(fd_list': GUnixFDListI): None =>
     GDBusMessageP.set_unix_fd_list(this, fd_list')

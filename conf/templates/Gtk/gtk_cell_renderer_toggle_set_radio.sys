@@ -1,2 +1,2 @@
-  fun set_radio(toggle': NullablePointer[GtkCellRendererToggleT], radio': I32): None =>
-    @gtk_cell_renderer_toggle_set_radio(toggle', radio')
+  fun set_radio(toggle': GtkCellRendererToggleI, radio': I32): None =>
+    @gtk_cell_renderer_toggle_set_radio(toggle'.getptr(), radio')

@@ -1,2 +1,2 @@
-  new new_for_pspec(expression': NullablePointer[GtkExpressionT], pspec': NullablePointer[GParamSpecT]) =>
-    ptr = @gtk_property_expression_new_for_pspec(expression', pspec')
+  new new_for_pspec(expression': GtkExpressionI, pspec': NullablePointer[GParamSpecT]) =>
+    ptr = @gtk_property_expression_new_for_pspec(expression'.getptr(), pspec')

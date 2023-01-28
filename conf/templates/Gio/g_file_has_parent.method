@@ -1,2 +1,2 @@
-  fun ref has_parent(parent': NullablePointer[GFileT]): I32 =>
+  fun ref has_parent(parent': GFileI): I32 =>
     GFileP.has_parent(this, parent')

@@ -1,2 +1,2 @@
-  fun get_fit_model(cell_view': NullablePointer[GtkCellViewT]): I32 =>
-    @gtk_cell_view_get_fit_model(cell_view')
+  fun get_fit_model(cell_view': GtkCellViewI): I32 =>
+    @gtk_cell_view_get_fit_model(cell_view'.getptr())

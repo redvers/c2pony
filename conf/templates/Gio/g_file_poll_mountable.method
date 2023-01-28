@@ -1,2 +1,2 @@
-  fun ref poll_mountable(cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref poll_mountable(cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GFileP.poll_mountable(this, cancellable', callback', user_data')

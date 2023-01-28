@@ -1,2 +1,2 @@
-  fun remove(bar': NullablePointer[GtkHeaderBarT], child': GtkWidgetI): None =>
-    @gtk_header_bar_remove(bar', child'.getptr())
+  fun remove(bar': GtkHeaderBarI, child': GtkWidgetI): None =>
+    @gtk_header_bar_remove(bar'.getptr(), child'.getptr())

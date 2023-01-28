@@ -1,2 +1,2 @@
-  fun get_icon_sensitive(entry': NullablePointer[GtkEntryT], icon_pos': U32): I32 =>
-    @gtk_entry_get_icon_sensitive(entry', icon_pos')
+  fun get_icon_sensitive(entry': GtkEntryI, icon_pos': U32): I32 =>
+    @gtk_entry_get_icon_sensitive(entry'.getptr(), icon_pos')

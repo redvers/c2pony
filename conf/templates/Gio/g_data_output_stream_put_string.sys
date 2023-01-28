@@ -1,2 +1,2 @@
-  fun put_string(stream': NullablePointer[GDataOutputStreamT], str': String, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_data_output_stream_put_string(stream', str'.cstring(), cancellable', error'.ptr)
+  fun put_string(stream': GDataOutputStreamI, str': String, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_data_output_stream_put_string(stream'.getptr(), str'.cstring(), cancellable'.getptr(), error')

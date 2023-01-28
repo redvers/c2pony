@@ -1,1 +1,1 @@
-use @g_network_address_new[NullablePointer[GSocketConnectableT]](hostname': Pointer[U8] tag, port': U16)
+use @g_network_address_new[NullablePointer[GObjectT]](hostname': Pointer[U8] tag, port': U16)

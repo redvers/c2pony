@@ -1,2 +1,2 @@
-  fun ref get_cell_at_position(context': NullablePointer[GtkCellAreaContextT], widget': GtkWidgetI, cell_area': NullablePointer[cairorectangleintT], x': I32, y': I32, alloc_area': NullablePointer[cairorectangleintT]): NullablePointer[GtkCellRendererT] =>
+  fun ref get_cell_at_position(context': GtkCellAreaContextI, widget': GtkWidgetI, cell_area': NullablePointer[cairorectangleintT], x': I32, y': I32, alloc_area': NullablePointer[cairorectangleintT]): NullablePointer[GObjectT] =>
     GtkCellAreaP.get_cell_at_position(this, context', widget', cell_area', x', y', alloc_area')

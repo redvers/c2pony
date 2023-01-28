@@ -1,2 +1,2 @@
-  fun get_info(interface': NullablePointer[GDBusInterfaceSkeletonT]): NullablePointer[GDBusInterfaceInfoT] =>
-    @g_dbus_interface_skeleton_get_info(interface')
+  fun get_info(interface': GDBusInterfaceSkeletonI): NullablePointer[GDBusInterfaceInfoT] =>
+    @g_dbus_interface_skeleton_get_info(interface'.getptr())

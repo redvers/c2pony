@@ -1,2 +1,2 @@
-  fun get_title(font_button': NullablePointer[GtkFontButtonT]): String iso^ =>
-    String.from_cstring(@gtk_font_button_get_title(font_button')).clone()
+  fun get_title(font_button': GtkFontButtonI): String iso^ =>
+    String.from_cstring(@gtk_font_button_get_title(font_button'.getptr())).clone()

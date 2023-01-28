@@ -1,2 +1,2 @@
-  fun is_supported(resolver': NullablePointer[GProxyResolverT]): I32 =>
-    @g_proxy_resolver_is_supported(resolver')
+  fun is_supported(resolver': GProxyResolverI): I32 =>
+    @g_proxy_resolver_is_supported(resolver'.getptr())

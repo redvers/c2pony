@@ -1,1 +1,1 @@
-use @gtk_gl_area_set_required_version[None](area': NullablePointer[GtkGLAreaT], major': I32, minor': I32)
+use @gtk_gl_area_set_required_version[None](area': NullablePointer[GObjectT], major': I32, minor': I32)

@@ -1,1 +1,1 @@
-use @g_dbus_connection_new_sync[NullablePointer[GDBusConnectionT]](stream': NullablePointer[GIOStreamT], guid': Pointer[U8] tag, flags': U32, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_dbus_connection_new_sync[NullablePointer[GObjectT]](stream': NullablePointer[GObjectT], guid': Pointer[U8] tag, flags': U32, observer': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

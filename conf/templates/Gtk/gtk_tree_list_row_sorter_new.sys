@@ -1,2 +1,2 @@
-  new gnew(sorter': NullablePointer[GtkSorterT]) =>
-    ptr = @gtk_tree_list_row_sorter_new(sorter')
+  new gnew(sorter': GtkSorterI) =>
+    ptr = @gtk_tree_list_row_sorter_new(sorter'.getptr())

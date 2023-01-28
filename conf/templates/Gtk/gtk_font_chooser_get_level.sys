@@ -1,2 +1,2 @@
-  fun get_level(fontchooser': NullablePointer[GtkFontChooserT]): U32 =>
-    @gtk_font_chooser_get_level(fontchooser')
+  fun get_level(fontchooser': GtkFontChooserI): U32 =>
+    @gtk_font_chooser_get_level(fontchooser'.getptr())

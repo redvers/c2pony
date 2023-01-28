@@ -1,1 +1,1 @@
-use @g_volume_enumerate_identifiers[Pointer[Pointer[U8]] tag](volume': NullablePointer[GVolumeT])
+use @g_volume_enumerate_identifiers[Pointer[Pointer[U8]] tag](volume': NullablePointer[GObjectT])

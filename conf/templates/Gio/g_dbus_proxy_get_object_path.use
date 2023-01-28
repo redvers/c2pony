@@ -1,1 +1,1 @@
-use @g_dbus_proxy_get_object_path[Pointer[U8]](proxy': NullablePointer[GDBusProxyT])
+use @g_dbus_proxy_get_object_path[Pointer[U8]](proxy': NullablePointer[GObjectT])

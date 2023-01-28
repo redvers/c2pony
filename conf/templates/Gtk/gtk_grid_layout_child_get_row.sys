@@ -1,2 +1,2 @@
-  fun get_row(child': NullablePointer[GtkGridLayoutChildT]): I32 =>
-    @gtk_grid_layout_child_get_row(child')
+  fun get_row(child': GtkGridLayoutChildI): I32 =>
+    @gtk_grid_layout_child_get_row(child'.getptr())

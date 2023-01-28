@@ -1,2 +1,2 @@
-  fun add_pixbuf_formats(filter': NullablePointer[GtkFileFilterT]): None =>
-    @gtk_file_filter_add_pixbuf_formats(filter')
+  fun add_pixbuf_formats(filter': GtkFileFilterI): None =>
+    @gtk_file_filter_add_pixbuf_formats(filter'.getptr())

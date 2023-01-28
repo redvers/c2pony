@@ -1,2 +1,2 @@
-  fun set_group(self': NullablePointer[GtkCheckButtonT], group': NullablePointer[GtkCheckButtonT]): None =>
-    @gtk_check_button_set_group(self', group')
+  fun set_group(self': GtkCheckButtonI, group': GtkCheckButtonI): None =>
+    @gtk_check_button_set_group(self'.getptr(), group'.getptr())

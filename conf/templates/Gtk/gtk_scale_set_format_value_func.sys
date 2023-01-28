@@ -1,2 +1,2 @@
-  fun set_format_value_func(scale': NullablePointer[GtkScaleT], func': GtkScaleFormatValueFunc, user_data': Pointer[None] tag, destroy_notify': Pointer[None]): None =>
-    @gtk_scale_set_format_value_func(scale', func', user_data', destroy_notify')
+  fun set_format_value_func(scale': GtkScaleI, func': GtkScaleFormatValueFunc, user_data': Pointer[None] tag, destroy_notify': Pointer[None]): None =>
+    @gtk_scale_set_format_value_func(scale'.getptr(), func', user_data', destroy_notify')

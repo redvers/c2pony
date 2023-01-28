@@ -1,2 +1,2 @@
-  fun set_pixbuf(self': NullablePointer[GtkPictureT], pixbuf': NullablePointer[GdkPixbufT]): None =>
-    @gtk_picture_set_pixbuf(self', pixbuf')
+  fun set_pixbuf(self': GtkPictureI, pixbuf': NullablePointer[GdkPixbufT]): None =>
+    @gtk_picture_set_pixbuf(self'.getptr(), pixbuf')

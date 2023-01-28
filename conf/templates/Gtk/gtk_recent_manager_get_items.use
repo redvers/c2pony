@@ -1,1 +1,1 @@
-use @gtk_recent_manager_get_items[NullablePointer[GListT]](manager': NullablePointer[GtkRecentManagerT])
+use @gtk_recent_manager_get_items[NullablePointer[GListT]](manager': NullablePointer[GObjectT])

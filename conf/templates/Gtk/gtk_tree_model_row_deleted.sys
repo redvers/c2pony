@@ -1,2 +1,2 @@
-  fun row_deleted(tree_model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT]): None =>
-    @gtk_tree_model_row_deleted(tree_model', path')
+  fun row_deleted(tree_model': GtkTreeModelI, path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_tree_model_row_deleted(tree_model'.getptr(), path')

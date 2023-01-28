@@ -1,1 +1,1 @@
-use @gtk_cell_view_get_displayed_row[NullablePointer[GtkTreePathT]](cell_view': NullablePointer[GtkCellViewT])
+use @gtk_cell_view_get_displayed_row[NullablePointer[GtkTreePathT]](cell_view': NullablePointer[GObjectT])

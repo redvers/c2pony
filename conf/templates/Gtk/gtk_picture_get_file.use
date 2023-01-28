@@ -1,1 +1,1 @@
-use @gtk_picture_get_file[NullablePointer[GFileT]](self': NullablePointer[GtkPictureT])
+use @gtk_picture_get_file[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

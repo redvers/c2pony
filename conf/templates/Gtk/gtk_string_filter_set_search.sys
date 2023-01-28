@@ -1,2 +1,2 @@
-  fun set_search(self': NullablePointer[GtkStringFilterT], search': String): None =>
-    @gtk_string_filter_set_search(self', search'.cstring())
+  fun set_search(self': GtkStringFilterI, search': String): None =>
+    @gtk_string_filter_set_search(self'.getptr(), search'.cstring())

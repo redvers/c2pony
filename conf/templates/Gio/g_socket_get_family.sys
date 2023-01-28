@@ -1,2 +1,2 @@
-  fun get_family(socket': NullablePointer[GSocketT]): U32 =>
-    @g_socket_get_family(socket')
+  fun get_family(socket': GSocketI): U32 =>
+    @g_socket_get_family(socket'.getptr())

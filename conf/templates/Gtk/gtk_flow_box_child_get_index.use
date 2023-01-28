@@ -1,1 +1,1 @@
-use @gtk_flow_box_child_get_index[I32](child': NullablePointer[GtkFlowBoxChildT])
+use @gtk_flow_box_child_get_index[I32](child': NullablePointer[GObjectT])

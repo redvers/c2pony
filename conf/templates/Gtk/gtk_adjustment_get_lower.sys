@@ -1,2 +1,2 @@
-  fun get_lower(adjustment': NullablePointer[GtkAdjustmentT]): F64 =>
-    @gtk_adjustment_get_lower(adjustment')
+  fun get_lower(adjustment': GtkAdjustmentI): F64 =>
+    @gtk_adjustment_get_lower(adjustment'.getptr())

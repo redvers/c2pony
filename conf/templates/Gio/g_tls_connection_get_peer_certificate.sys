@@ -1,2 +1,2 @@
-  fun get_peer_certificate(conn': NullablePointer[GTlsConnectionT]): NullablePointer[GTlsCertificateT] =>
-    @g_tls_connection_get_peer_certificate(conn')
+  fun get_peer_certificate(conn': GTlsConnectionI): NullablePointer[GObjectT] =>
+@g_tls_connection_get_peer_certificate(conn'.getptr())

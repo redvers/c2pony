@@ -1,2 +1,2 @@
-  fun get_file(section': NullablePointer[GtkCssSectionT]): NullablePointer[GFileT] =>
-    @gtk_css_section_get_file(section')
+  fun get_file(section': NullablePointer[GtkCssSectionT]): NullablePointer[GObjectT] =>
+@gtk_css_section_get_file(section')

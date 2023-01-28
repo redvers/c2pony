@@ -1,2 +1,2 @@
-  fun communicate_utf8(subprocess': NullablePointer[GSubprocessT], stdin_buf': String, cancellable': NullablePointer[GCancellableT], stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    @g_subprocess_communicate_utf8(subprocess', stdin_buf'.cstring(), cancellable', stdout_buf', stderr_buf', error'.ptr)
+  fun communicate_utf8(subprocess': GSubprocessI, stdin_buf': String, cancellable': GCancellableI, stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_subprocess_communicate_utf8(subprocess'.getptr(), stdin_buf'.cstring(), cancellable'.getptr(), stdout_buf', stderr_buf', error')

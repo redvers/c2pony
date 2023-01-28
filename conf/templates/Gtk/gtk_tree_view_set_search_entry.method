@@ -1,2 +1,2 @@
-  fun ref set_search_entry(entry': NullablePointer[GtkEditableT]): None =>
+  fun ref set_search_entry(entry': GtkEditableI): None =>
     GtkTreeViewP.set_search_entry(this, entry')

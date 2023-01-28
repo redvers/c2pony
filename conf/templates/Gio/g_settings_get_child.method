@@ -1,2 +1,2 @@
-  fun ref get_child(name': String): NullablePointer[GSettingsT] =>
+  fun ref get_child(name': String): NullablePointer[GObjectT] =>
     GSettingsP.get_child(this, name')

@@ -1,2 +1,2 @@
-  fun ref resolve_relative_path(relative_path': String): NullablePointer[GFileT] =>
+  fun ref resolve_relative_path(relative_path': String): NullablePointer[GObjectT] =>
     GFileP.resolve_relative_path(this, relative_path')

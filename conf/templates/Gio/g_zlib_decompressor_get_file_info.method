@@ -1,2 +1,2 @@
-  fun ref get_file_info(): NullablePointer[GFileInfoT] =>
+  fun ref get_file_info(): NullablePointer[GObjectT] =>
     GZlibDecompressorP.get_file_info(this)

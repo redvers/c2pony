@@ -1,2 +1,2 @@
-  fun ref enumerate_children(attributes': String, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileEnumeratorT] =>
+  fun ref enumerate_children(attributes': String, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.enumerate_children(this, attributes', flags', cancellable', error')

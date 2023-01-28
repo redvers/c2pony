@@ -1,2 +1,2 @@
-  fun add_emblem(emblemed': NullablePointer[GEmblemedIconT], emblem': NullablePointer[GEmblemT]): None =>
-    @g_emblemed_icon_add_emblem(emblemed', emblem')
+  fun add_emblem(emblemed': GEmblemedIconI, emblem': GEmblemI): None =>
+    @g_emblemed_icon_add_emblem(emblemed'.getptr(), emblem'.getptr())

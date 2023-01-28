@@ -1,2 +1,2 @@
-  fun receive_fd(connection': NullablePointer[GUnixConnectionT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_unix_connection_receive_fd(connection', cancellable', error'.ptr)
+  fun receive_fd(connection': GUnixConnectionI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_unix_connection_receive_fd(connection'.getptr(), cancellable'.getptr(), error')

@@ -1,2 +1,2 @@
-  fun ends_tag(iter': NullablePointer[GtkTextIterT], tag': NullablePointer[GtkTextTagT]): I32 =>
-    @gtk_text_iter_ends_tag(iter', tag')
+  fun ends_tag(iter': NullablePointer[GtkTextIterT], tag': GtkTextTagI): I32 =>
+    @gtk_text_iter_ends_tag(iter', tag'.getptr())

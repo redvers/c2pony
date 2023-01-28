@@ -1,2 +1,2 @@
-  fun set_state(simple': NullablePointer[GSimpleActionT], value': NullablePointer[GVariantT]): None =>
-    @g_simple_action_set_state(simple', value')
+  fun set_state(simple': GSimpleActionI, value': NullablePointer[GVariantT]): None =>
+    @g_simple_action_set_state(simple'.getptr(), value')

@@ -1,1 +1,1 @@
-use @g_file_info_get_attribute_stringv[Pointer[Pointer[U8]] tag](info': NullablePointer[GFileInfoT], attribute': Pointer[U8] tag)
+use @g_file_info_get_attribute_stringv[Pointer[Pointer[U8]] tag](info': NullablePointer[GObjectT], attribute': Pointer[U8] tag)

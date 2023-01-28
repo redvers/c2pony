@@ -1,1 +1,1 @@
-use @g_socket_condition_check[U32](socket': NullablePointer[GSocketT], condition': U32)
+use @g_socket_condition_check[U32](socket': NullablePointer[GObjectT], condition': U32)

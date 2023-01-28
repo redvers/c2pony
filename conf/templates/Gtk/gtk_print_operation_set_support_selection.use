@@ -1,1 +1,1 @@
-use @gtk_print_operation_set_support_selection[None](op': NullablePointer[GtkPrintOperationT], support_selection': I32)
+use @gtk_print_operation_set_support_selection[None](op': NullablePointer[GObjectT], support_selection': I32)

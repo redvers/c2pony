@@ -1,1 +1,1 @@
-use @gtk_css_section_get_file[NullablePointer[GFileT]](section': NullablePointer[GtkCssSectionT])
+use @gtk_css_section_get_file[NullablePointer[GObjectT]](section': NullablePointer[GtkCssSectionT])

@@ -1,1 +1,1 @@
-use @g_tcp_connection_set_graceful_disconnect[None](connection': NullablePointer[GTcpConnectionT], graceful_disconnect': I32)
+use @g_tcp_connection_set_graceful_disconnect[None](connection': NullablePointer[GObjectT], graceful_disconnect': I32)

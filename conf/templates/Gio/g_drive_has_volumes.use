@@ -1,1 +1,1 @@
-use @g_drive_has_volumes[I32](drive': NullablePointer[GDriveT])
+use @g_drive_has_volumes[I32](drive': NullablePointer[GObjectT])

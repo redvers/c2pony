@@ -1,2 +1,2 @@
-  fun set(settings': NullablePointer[GtkPrintSettingsT], key': String, value': String): None =>
-    @gtk_print_settings_set(settings', key'.cstring(), value'.cstring())
+  fun set(settings': GtkPrintSettingsI, key': String, value': String): None =>
+    @gtk_print_settings_set(settings'.getptr(), key'.cstring(), value'.cstring())

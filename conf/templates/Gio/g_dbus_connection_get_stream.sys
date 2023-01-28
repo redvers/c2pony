@@ -1,2 +1,2 @@
-  fun get_stream(connection': NullablePointer[GDBusConnectionT]): NullablePointer[GIOStreamT] =>
-    @g_dbus_connection_get_stream(connection')
+  fun get_stream(connection': GDBusConnectionI): NullablePointer[GObjectT] =>
+@g_dbus_connection_get_stream(connection'.getptr())

@@ -1,2 +1,2 @@
-  fun grab_focus_without_selecting(self': NullablePointer[GtkTextT]): I32 =>
-    @gtk_text_grab_focus_without_selecting(self')
+  fun grab_focus_without_selecting(self': GtkTextI): I32 =>
+    @gtk_text_grab_focus_without_selecting(self'.getptr())

@@ -1,2 +1,2 @@
-  fun set_text(pbar': NullablePointer[GtkProgressBarT], text': String): None =>
-    @gtk_progress_bar_set_text(pbar', text'.cstring())
+  fun set_text(pbar': GtkProgressBarI, text': String): None =>
+    @gtk_progress_bar_set_text(pbar'.getptr(), text'.cstring())

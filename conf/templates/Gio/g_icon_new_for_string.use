@@ -1,1 +1,1 @@
-use @g_icon_new_for_string[NullablePointer[GIconT]](str': Pointer[U8] tag, error': NullablePointer[GErrorT])
+use @g_icon_new_for_string[NullablePointer[GObjectT]](str': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,2 @@
-  fun get_hostname(addr': NullablePointer[GNetworkAddressT]): String iso^ =>
-    String.from_cstring(@g_network_address_get_hostname(addr')).clone()
+  fun get_hostname(addr': GNetworkAddressI): String iso^ =>
+    String.from_cstring(@g_network_address_get_hostname(addr'.getptr())).clone()

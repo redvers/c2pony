@@ -1,2 +1,2 @@
-  fun can_remove_supports_type(appinfo': NullablePointer[GAppInfoT]): I32 =>
-    @g_app_info_can_remove_supports_type(appinfo')
+  fun can_remove_supports_type(appinfo': GAppInfoI): I32 =>
+    @g_app_info_can_remove_supports_type(appinfo'.getptr())

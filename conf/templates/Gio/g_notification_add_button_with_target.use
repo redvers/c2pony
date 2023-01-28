@@ -1,1 +1,1 @@
-use @g_notification_add_button_with_target[None](notification': NullablePointer[GNotificationT], label': Pointer[U8] tag, action': Pointer[U8] tag, target_format': Pointer[U8] tag, ...)
+use @g_notification_add_button_with_target[None](notification': NullablePointer[GObjectT], label': Pointer[U8] tag, action': Pointer[U8] tag, target_format': Pointer[U8] tag, ...)

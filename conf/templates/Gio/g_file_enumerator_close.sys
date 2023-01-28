@@ -1,2 +1,2 @@
-  fun close(enumerator': NullablePointer[GFileEnumeratorT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_file_enumerator_close(enumerator', cancellable', error'.ptr)
+  fun close(enumerator': GFileEnumeratorI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_enumerator_close(enumerator'.getptr(), cancellable'.getptr(), error')

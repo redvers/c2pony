@@ -1,2 +1,2 @@
-  fun set_inverted(range': NullablePointer[GtkRangeT], setting': I32): None =>
-    @gtk_range_set_inverted(range', setting')
+  fun set_inverted(range': GtkRangeI, setting': I32): None =>
+    @gtk_range_set_inverted(range'.getptr(), setting')

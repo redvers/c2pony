@@ -1,2 +1,2 @@
-  fun unset_placement(scrolled_window': NullablePointer[GtkScrolledWindowT]): None =>
-    @gtk_scrolled_window_unset_placement(scrolled_window')
+  fun unset_placement(scrolled_window': GtkScrolledWindowI): None =>
+    @gtk_scrolled_window_unset_placement(scrolled_window'.getptr())

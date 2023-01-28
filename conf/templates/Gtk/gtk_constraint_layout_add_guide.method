@@ -1,2 +1,2 @@
-  fun ref add_guide(guide': NullablePointer[GtkConstraintGuideT]): None =>
+  fun ref add_guide(guide': GtkConstraintGuideI): None =>
     GtkConstraintLayoutP.add_guide(this, guide')

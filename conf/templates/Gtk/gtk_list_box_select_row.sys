@@ -1,2 +1,2 @@
-  fun select_row(box': NullablePointer[GtkListBoxT], row': NullablePointer[GtkListBoxRowT]): None =>
-    @gtk_list_box_select_row(box', row')
+  fun select_row(box': GtkListBoxI, row': GtkListBoxRowI): None =>
+    @gtk_list_box_select_row(box'.getptr(), row'.getptr())

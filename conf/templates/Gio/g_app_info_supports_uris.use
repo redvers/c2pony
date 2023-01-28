@@ -1,1 +1,1 @@
-use @g_app_info_supports_uris[I32](appinfo': NullablePointer[GAppInfoT])
+use @g_app_info_supports_uris[I32](appinfo': NullablePointer[GObjectT])

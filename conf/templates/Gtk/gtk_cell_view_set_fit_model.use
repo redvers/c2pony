@@ -1,1 +1,1 @@
-use @gtk_cell_view_set_fit_model[None](cell_view': NullablePointer[GtkCellViewT], fit_model': I32)
+use @gtk_cell_view_set_fit_model[None](cell_view': NullablePointer[GObjectT], fit_model': I32)

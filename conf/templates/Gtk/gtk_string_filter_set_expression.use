@@ -1,1 +1,1 @@
-use @gtk_string_filter_set_expression[None](self': NullablePointer[GtkStringFilterT], expression': NullablePointer[GtkExpressionT])
+use @gtk_string_filter_set_expression[None](self': NullablePointer[GObjectT], expression': NullablePointer[GObjectT])

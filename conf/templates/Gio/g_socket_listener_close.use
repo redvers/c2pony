@@ -1,1 +1,1 @@
-use @g_socket_listener_close[None](listener': NullablePointer[GSocketListenerT])
+use @g_socket_listener_close[None](listener': NullablePointer[GObjectT])

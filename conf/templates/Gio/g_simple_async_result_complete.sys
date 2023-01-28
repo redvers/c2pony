@@ -1,2 +1,2 @@
-  fun complete(simple': NullablePointer[GSimpleAsyncResultT]): None =>
-    @g_simple_async_result_complete(simple')
+  fun complete(simple': GSimpleAsyncResultI): None =>
+    @g_simple_async_result_complete(simple'.getptr())

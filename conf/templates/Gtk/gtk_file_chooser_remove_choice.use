@@ -1,1 +1,1 @@
-use @gtk_file_chooser_remove_choice[None](chooser': NullablePointer[GtkFileChooserT], id': Pointer[U8] tag)
+use @gtk_file_chooser_remove_choice[None](chooser': NullablePointer[GObjectT], id': Pointer[U8] tag)

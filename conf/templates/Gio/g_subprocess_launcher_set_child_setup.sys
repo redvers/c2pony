@@ -1,2 +1,2 @@
-  fun set_child_setup(self': NullablePointer[GSubprocessLauncherT], child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, destroy_notify': Pointer[None]): None =>
-    @g_subprocess_launcher_set_child_setup(self', child_setup', user_data', destroy_notify')
+  fun set_child_setup(self': GSubprocessLauncherI, child_setup': GSpawnChildSetupFunc, user_data': Pointer[None] tag, destroy_notify': Pointer[None]): None =>
+    @g_subprocess_launcher_set_child_setup(self'.getptr(), child_setup', user_data', destroy_notify')

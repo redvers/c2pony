@@ -1,1 +1,1 @@
-use @gtk_shortcut_label_set_disabled_text[None](self': NullablePointer[GtkShortcutLabelT], disabled_text': Pointer[U8] tag)
+use @gtk_shortcut_label_set_disabled_text[None](self': NullablePointer[GObjectT], disabled_text': Pointer[U8] tag)

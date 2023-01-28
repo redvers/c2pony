@@ -1,2 +1,2 @@
-  fun get_accepted_cas(conn': NullablePointer[GDtlsClientConnectionT]): NullablePointer[GListT] =>
-    @g_dtls_client_connection_get_accepted_cas(conn')
+  fun get_accepted_cas(conn': GDtlsClientConnectionI): NullablePointer[GListT] =>
+    @g_dtls_client_connection_get_accepted_cas(conn'.getptr())

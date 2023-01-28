@@ -1,1 +1,1 @@
-use @gtk_progress_bar_get_inverted[I32](pbar': NullablePointer[GtkProgressBarT])
+use @gtk_progress_bar_get_inverted[I32](pbar': NullablePointer[GObjectT])

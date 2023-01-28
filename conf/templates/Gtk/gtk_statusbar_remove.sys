@@ -1,2 +1,2 @@
-  fun remove(statusbar': NullablePointer[GtkStatusbarT], context_id': U32, message_id': U32): None =>
-    @gtk_statusbar_remove(statusbar', context_id', message_id')
+  fun remove(statusbar': GtkStatusbarI, context_id': U32, message_id': U32): None =>
+    @gtk_statusbar_remove(statusbar'.getptr(), context_id', message_id')

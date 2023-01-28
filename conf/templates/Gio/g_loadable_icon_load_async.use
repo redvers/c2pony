@@ -1,1 +1,1 @@
-use @g_loadable_icon_load_async[None](icon': NullablePointer[GLoadableIconT], size': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_loadable_icon_load_async[None](icon': NullablePointer[GObjectT], size': I32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

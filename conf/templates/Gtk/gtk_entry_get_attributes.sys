@@ -1,2 +1,2 @@
-  fun get_attributes(entry': NullablePointer[GtkEntryT]): NullablePointer[PangoAttrListT] =>
-    @gtk_entry_get_attributes(entry')
+  fun get_attributes(entry': GtkEntryI): NullablePointer[PangoAttrListT] =>
+    @gtk_entry_get_attributes(entry'.getptr())

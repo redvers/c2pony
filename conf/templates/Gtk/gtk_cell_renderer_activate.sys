@@ -1,2 +1,2 @@
-  fun activate(cell': NullablePointer[GtkCellRendererT], event': NullablePointer[GdkEventT], widget': GtkWidgetI, path': String, background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32): I32 =>
-    @gtk_cell_renderer_activate(cell', event', widget'.getptr(), path'.cstring(), background_area', cell_area', flags')
+  fun activate(cell': GtkCellRendererI, event': NullablePointer[GdkEventT], widget': GtkWidgetI, path': String, background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32): I32 =>
+    @gtk_cell_renderer_activate(cell'.getptr(), event', widget'.getptr(), path'.cstring(), background_area', cell_area', flags')

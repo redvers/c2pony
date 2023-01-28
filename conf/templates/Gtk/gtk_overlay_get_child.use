@@ -1,1 +1,1 @@
-use @gtk_overlay_get_child[NullablePointer[GObjectT]](overlay': NullablePointer[GtkOverlayT])
+use @gtk_overlay_get_child[NullablePointer[GObjectT]](overlay': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun condition_check(socket': NullablePointer[GSocketT], condition': U32): U32 =>
-    @g_socket_condition_check(socket', condition')
+  fun condition_check(socket': GSocketI, condition': U32): U32 =>
+    @g_socket_condition_check(socket'.getptr(), condition')

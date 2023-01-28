@@ -1,1 +1,1 @@
-use @gtk_about_dialog_get_license[Pointer[U8]](about': NullablePointer[GtkAboutDialogT])
+use @gtk_about_dialog_get_license[Pointer[U8]](about': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun add_bytes(stream': NullablePointer[GMemoryInputStreamT], bytes': NullablePointer[GBytesT]): None =>
-    @g_memory_input_stream_add_bytes(stream', bytes')
+  fun add_bytes(stream': GMemoryInputStreamI, bytes': NullablePointer[GBytesT]): None =>
+    @g_memory_input_stream_add_bytes(stream'.getptr(), bytes')

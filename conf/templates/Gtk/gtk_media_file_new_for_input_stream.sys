@@ -1,2 +1,2 @@
-  new new_for_input_stream(stream': NullablePointer[GInputStreamT]) =>
-    ptr = @gtk_media_file_new_for_input_stream(stream')
+  new new_for_input_stream(stream': GInputStreamI) =>
+    ptr = @gtk_media_file_new_for_input_stream(stream'.getptr())

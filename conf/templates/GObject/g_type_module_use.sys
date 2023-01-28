@@ -1,2 +1,2 @@
-  fun use(module': NullablePointer[GTypeModuleT]): I32 =>
-    @g_type_module_use(module')
+  fun use(module': GTypeModuleI): I32 =>
+    @g_type_module_use(module'.getptr())

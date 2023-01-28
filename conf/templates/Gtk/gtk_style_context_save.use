@@ -1,1 +1,1 @@
-use @gtk_style_context_save[None](context': NullablePointer[GtkStyleContextT])
+use @gtk_style_context_save[None](context': NullablePointer[GObjectT])

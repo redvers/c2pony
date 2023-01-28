@@ -1,1 +1,1 @@
-use @gtk_layout_manager_layout_changed[None](manager': NullablePointer[GtkLayoutManagerT])
+use @gtk_layout_manager_layout_changed[None](manager': NullablePointer[GObjectT])

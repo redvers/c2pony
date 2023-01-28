@@ -1,1 +1,1 @@
-use @g_dbus_object_get_interfaces[NullablePointer[GListT]](object': NullablePointer[GDBusObjectT])
+use @g_dbus_object_get_interfaces[NullablePointer[GListT]](object': NullablePointer[GObjectT])

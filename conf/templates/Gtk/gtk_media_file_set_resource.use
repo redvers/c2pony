@@ -1,1 +1,1 @@
-use @gtk_media_file_set_resource[None](self': NullablePointer[GtkMediaFileT], resource_path': Pointer[U8] tag)
+use @gtk_media_file_set_resource[None](self': NullablePointer[GObjectT], resource_path': Pointer[U8] tag)

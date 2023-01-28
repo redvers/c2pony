@@ -1,1 +1,1 @@
-use @gtk_bookmark_list_get_filename[Pointer[U8]](self': NullablePointer[GtkBookmarkListT])
+use @gtk_bookmark_list_get_filename[Pointer[U8]](self': NullablePointer[GObjectT])

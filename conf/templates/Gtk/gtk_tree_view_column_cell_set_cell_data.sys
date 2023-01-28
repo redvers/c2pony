@@ -1,2 +1,2 @@
-  fun cell_set_cell_data(tree_column': NullablePointer[GtkTreeViewColumnT], tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], is_expander': I32, is_expanded': I32): None =>
-    @gtk_tree_view_column_cell_set_cell_data(tree_column', tree_model', iter', is_expander', is_expanded')
+  fun cell_set_cell_data(tree_column': GtkTreeViewColumnI, tree_model': GtkTreeModelI, iter': NullablePointer[GtkTreeIterT], is_expander': I32, is_expanded': I32): None =>
+    @gtk_tree_view_column_cell_set_cell_data(tree_column'.getptr(), tree_model'.getptr(), iter', is_expander', is_expanded')

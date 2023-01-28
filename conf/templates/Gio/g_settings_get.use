@@ -1,1 +1,1 @@
-use @g_settings_get[None](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, format': Pointer[U8] tag, ...)
+use @g_settings_get[None](settings': NullablePointer[GObjectT], key': Pointer[U8] tag, format': Pointer[U8] tag, ...)

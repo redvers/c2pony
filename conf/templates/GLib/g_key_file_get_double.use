@@ -1,1 +1,1 @@
-use @g_key_file_get_double[F64](key_file': NullablePointer[GKeyFileT], group_name': Pointer[U8] tag, key': Pointer[U8] tag, error': NullablePointer[GErrorT])
+use @g_key_file_get_double[F64](key_file': NullablePointer[GKeyFileT], group_name': Pointer[U8] tag, key': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,2 @@
-  fun unselect_row(box': NullablePointer[GtkListBoxT], row': NullablePointer[GtkListBoxRowT]): None =>
-    @gtk_list_box_unselect_row(box', row')
+  fun unselect_row(box': GtkListBoxI, row': GtkListBoxRowI): None =>
+    @gtk_list_box_unselect_row(box'.getptr(), row'.getptr())

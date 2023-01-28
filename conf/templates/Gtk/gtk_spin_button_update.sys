@@ -1,2 +1,2 @@
-  fun update(spin_button': NullablePointer[GtkSpinButtonT]): None =>
-    @gtk_spin_button_update(spin_button')
+  fun update(spin_button': GtkSpinButtonI): None =>
+    @gtk_spin_button_update(spin_button'.getptr())

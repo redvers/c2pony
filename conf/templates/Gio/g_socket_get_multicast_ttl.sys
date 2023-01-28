@@ -1,2 +1,2 @@
-  fun get_multicast_ttl(socket': NullablePointer[GSocketT]): U32 =>
-    @g_socket_get_multicast_ttl(socket')
+  fun get_multicast_ttl(socket': GSocketI): U32 =>
+    @g_socket_get_multicast_ttl(socket'.getptr())

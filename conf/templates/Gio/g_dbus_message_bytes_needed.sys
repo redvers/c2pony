@@ -1,2 +1,2 @@
-  fun bytes_needed(blob': String, blob_len': U64, error': GError): I64 =>
-    @g_dbus_message_bytes_needed(blob'.cstring(), blob_len', error'.ptr)
+  fun bytes_needed(blob': String, blob_len': U64, error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_dbus_message_bytes_needed(blob'.cstring(), blob_len', error')

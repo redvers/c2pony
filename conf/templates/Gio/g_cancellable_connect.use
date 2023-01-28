@@ -1,1 +1,1 @@
-use @g_cancellable_connect[U64](cancellable': NullablePointer[GCancellableT], callback': GCallback, data': Pointer[None] tag, data_destroy_func': Pointer[None])
+use @g_cancellable_connect[U64](cancellable': NullablePointer[GObjectT], callback': GCallback, data': Pointer[None] tag, data_destroy_func': Pointer[None])

@@ -1,2 +1,2 @@
-  fun group(group_gesture': NullablePointer[GtkGestureT], gesture': NullablePointer[GtkGestureT]): None =>
-    @gtk_gesture_group(group_gesture', gesture')
+  fun group(group_gesture': GtkGestureI, gesture': GtkGestureI): None =>
+    @gtk_gesture_group(group_gesture'.getptr(), gesture'.getptr())

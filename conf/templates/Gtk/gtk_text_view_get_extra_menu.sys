@@ -1,2 +1,2 @@
-  fun get_extra_menu(text_view': NullablePointer[GtkTextViewT]): NullablePointer[GMenuModelT] =>
-    @gtk_text_view_get_extra_menu(text_view')
+  fun get_extra_menu(text_view': GtkTextViewI): NullablePointer[GObjectT] =>
+@gtk_text_view_get_extra_menu(text_view'.getptr())

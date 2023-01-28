@@ -1,1 +1,1 @@
-use @gtk_value_dup_expression[NullablePointer[GtkExpressionT]](value': NullablePointer[GValueT])
+use @gtk_value_dup_expression[NullablePointer[GObjectT]](value': NullablePointer[GValueT])

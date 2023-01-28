@@ -1,1 +1,1 @@
-use @gtk_settings_get_for_display[NullablePointer[GtkSettingsT]](display': NullablePointer[GdkDisplayT])
+use @gtk_settings_get_for_display[NullablePointer[GObjectT]](display': NullablePointer[GdkDisplayT])

@@ -1,2 +1,2 @@
-  fun lookup_by_address(resolver': NullablePointer[GResolverT], address': NullablePointer[GInetAddressT], cancellable': NullablePointer[GCancellableT], error': GError): String iso^ =>
-    String.from_cstring(@g_resolver_lookup_by_address(resolver', address', cancellable', error'.ptr)).clone()
+  fun lookup_by_address(resolver': GResolverI, address': GInetAddressI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_resolver_lookup_by_address(resolver'.getptr(), address'.getptr(), cancellable'.getptr(), error')).clone()

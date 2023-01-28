@@ -1,2 +1,2 @@
-  fun get_enable_emoji_completion(self': NullablePointer[GtkTextT]): I32 =>
-    @gtk_text_get_enable_emoji_completion(self')
+  fun get_enable_emoji_completion(self': GtkTextI): I32 =>
+    @gtk_text_get_enable_emoji_completion(self'.getptr())

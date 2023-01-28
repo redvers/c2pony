@@ -1,2 +1,2 @@
-  new gnew(addr': NullablePointer[GInetAddressT], length': U32, error': GError) =>
-    ptr = @g_inet_address_mask_new(addr', length', error'.ptr)
+  new gnew(addr': GInetAddressI, length': U32, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_inet_address_mask_new(addr'.getptr(), length', error')

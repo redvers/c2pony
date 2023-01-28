@@ -14,4 +14,4 @@ primitive GtkBuilderP
   fun add_objects_from_resource(builder': GtkBuilderI, resource_path': String, object_ids': Pointer[Pointer[U8]] tag, error': GError): I32 =>
     @gtk_builder_add_objects_from_resource(builder'.getptr(), resource_path'.cstring(), object_ids', error'.ptr)
   fun get_object(builder': GtkBuilderI, name': String): NullablePointer[GObjectT] =>
-    @gtk_builder_get_object(builder'.getptr(), name'.cstring())
+@gtk_builder_get_object(builder'.getptr(), name'.cstring())

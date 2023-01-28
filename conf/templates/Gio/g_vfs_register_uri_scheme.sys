@@ -1,2 +1,2 @@
-  fun register_uri_scheme(vfs': NullablePointer[GVfsT], scheme': String, uri_func': GVfsFileLookupFunc, uri_data': Pointer[None] tag, uri_destroy': Pointer[None], parse_name_func': GVfsFileLookupFunc, parse_name_data': Pointer[None] tag, parse_name_destroy': Pointer[None]): I32 =>
-    @g_vfs_register_uri_scheme(vfs', scheme'.cstring(), uri_func', uri_data', uri_destroy', parse_name_func', parse_name_data', parse_name_destroy')
+  fun register_uri_scheme(vfs': GVfsI, scheme': String, uri_func': GVfsFileLookupFunc, uri_data': Pointer[None] tag, uri_destroy': Pointer[None], parse_name_func': GVfsFileLookupFunc, parse_name_data': Pointer[None] tag, parse_name_destroy': Pointer[None]): I32 =>
+    @g_vfs_register_uri_scheme(vfs'.getptr(), scheme'.cstring(), uri_func', uri_data', uri_destroy', parse_name_func', parse_name_data', parse_name_destroy')

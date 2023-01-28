@@ -1,2 +1,2 @@
-  fun set_use_font(font_button': NullablePointer[GtkFontButtonT], use_font': I32): None =>
-    @gtk_font_button_set_use_font(font_button', use_font')
+  fun set_use_font(font_button': GtkFontButtonI, use_font': I32): None =>
+    @gtk_font_button_set_use_font(font_button'.getptr(), use_font')

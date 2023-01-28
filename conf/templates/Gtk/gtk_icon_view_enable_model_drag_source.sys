@@ -1,2 +1,2 @@
-  fun enable_model_drag_source(icon_view': NullablePointer[GtkIconViewT], start_button_mask': U32, formats': NullablePointer[GdkContentFormatsT], actions': U32): None =>
-    @gtk_icon_view_enable_model_drag_source(icon_view', start_button_mask', formats', actions')
+  fun enable_model_drag_source(icon_view': GtkIconViewI, start_button_mask': U32, formats': NullablePointer[GdkContentFormatsT], actions': U32): None =>
+    @gtk_icon_view_enable_model_drag_source(icon_view'.getptr(), start_button_mask', formats', actions')

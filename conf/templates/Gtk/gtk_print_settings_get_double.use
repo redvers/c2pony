@@ -1,1 +1,1 @@
-use @gtk_print_settings_get_double[F64](settings': NullablePointer[GtkPrintSettingsT], key': Pointer[U8] tag)
+use @gtk_print_settings_get_double[F64](settings': NullablePointer[GObjectT], key': Pointer[U8] tag)

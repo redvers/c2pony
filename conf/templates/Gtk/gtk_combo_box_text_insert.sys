@@ -1,2 +1,2 @@
-  fun insert(combo_box': NullablePointer[GtkComboBoxTextT], position': I32, id': String, text': String): None =>
-    @gtk_combo_box_text_insert(combo_box', position', id'.cstring(), text'.cstring())
+  fun insert(combo_box': GtkComboBoxTextI, position': I32, id': String, text': String): None =>
+    @gtk_combo_box_text_insert(combo_box'.getptr(), position', id'.cstring(), text'.cstring())

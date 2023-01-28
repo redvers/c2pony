@@ -1,2 +1,2 @@
-  fun get_flags(self': NullablePointer[GTestDBusT]): U32 =>
-    @g_test_dbus_get_flags(self')
+  fun get_flags(self': GTestDBusI): U32 =>
+    @g_test_dbus_get_flags(self'.getptr())

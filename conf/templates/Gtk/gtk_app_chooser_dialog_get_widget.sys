@@ -1,2 +1,2 @@
-  fun get_widget(self': NullablePointer[GtkAppChooserDialogT]): NullablePointer[GObjectT] =>
-@gtk_app_chooser_dialog_get_widget(self')
+  fun get_widget(self': GtkAppChooserDialogI): NullablePointer[GObjectT] =>
+@gtk_app_chooser_dialog_get_widget(self'.getptr())

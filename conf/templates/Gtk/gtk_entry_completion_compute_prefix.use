@@ -1,1 +1,1 @@
-use @gtk_entry_completion_compute_prefix[Pointer[U8]](completion': NullablePointer[GtkEntryCompletionT], key': Pointer[U8] tag)
+use @gtk_entry_completion_compute_prefix[Pointer[U8]](completion': NullablePointer[GObjectT], key': Pointer[U8] tag)

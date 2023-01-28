@@ -1,2 +1,2 @@
-  fun ref query_file_type(flags': U32, cancellable': NullablePointer[GCancellableT]): U32 =>
+  fun ref query_file_type(flags': U32, cancellable': GCancellableI): U32 =>
     GFileP.query_file_type(this, flags', cancellable')

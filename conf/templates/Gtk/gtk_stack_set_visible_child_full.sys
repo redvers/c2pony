@@ -1,2 +1,2 @@
-  fun set_visible_child_full(stack': NullablePointer[GtkStackT], name': String, transition': U32): None =>
-    @gtk_stack_set_visible_child_full(stack', name'.cstring(), transition')
+  fun set_visible_child_full(stack': GtkStackI, name': String, transition': U32): None =>
+    @gtk_stack_set_visible_child_full(stack'.getptr(), name'.cstring(), transition')

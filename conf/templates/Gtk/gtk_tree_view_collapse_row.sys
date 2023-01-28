@@ -1,2 +1,2 @@
-  fun collapse_row(tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT]): I32 =>
-    @gtk_tree_view_collapse_row(tree_view', path')
+  fun collapse_row(tree_view': GtkTreeViewI, path': NullablePointer[GtkTreePathT]): I32 =>
+    @gtk_tree_view_collapse_row(tree_view'.getptr(), path')

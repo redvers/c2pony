@@ -1,2 +1,2 @@
-  fun get_layout(scale': NullablePointer[GtkScaleT]): NullablePointer[PangoLayoutT] =>
-    @gtk_scale_get_layout(scale')
+  fun get_layout(scale': GtkScaleI): NullablePointer[PangoLayoutT] =>
+    @gtk_scale_get_layout(scale'.getptr())

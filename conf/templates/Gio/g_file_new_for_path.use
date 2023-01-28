@@ -1,1 +1,1 @@
-use @g_file_new_for_path[NullablePointer[GFileT]](path': Pointer[U8] tag)
+use @g_file_new_for_path[NullablePointer[GObjectT]](path': Pointer[U8] tag)

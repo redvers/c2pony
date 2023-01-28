@@ -1,1 +1,1 @@
-use @gtk_entry_get_icon_at_pos[I32](entry': NullablePointer[GtkEntryT], x': I32, y': I32)
+use @gtk_entry_get_icon_at_pos[I32](entry': NullablePointer[GObjectT], x': I32, y': I32)

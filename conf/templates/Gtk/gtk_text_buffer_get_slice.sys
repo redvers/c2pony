@@ -1,2 +1,2 @@
-  fun get_slice(buffer': NullablePointer[GtkTextBufferT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT], include_hidden_chars': I32): String iso^ =>
-    String.from_cstring(@gtk_text_buffer_get_slice(buffer', start', end', include_hidden_chars')).clone()
+  fun get_slice(buffer': GtkTextBufferI, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT], include_hidden_chars': I32): String iso^ =>
+    String.from_cstring(@gtk_text_buffer_get_slice(buffer'.getptr(), start', end', include_hidden_chars')).clone()

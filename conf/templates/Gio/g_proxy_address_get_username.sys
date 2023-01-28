@@ -1,2 +1,2 @@
-  fun get_username(proxy': NullablePointer[GProxyAddressT]): String iso^ =>
-    String.from_cstring(@g_proxy_address_get_username(proxy')).clone()
+  fun get_username(proxy': GProxyAddressI): String iso^ =>
+    String.from_cstring(@g_proxy_address_get_username(proxy'.getptr())).clone()

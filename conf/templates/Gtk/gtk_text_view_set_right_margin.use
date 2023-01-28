@@ -1,1 +1,1 @@
-use @gtk_text_view_set_right_margin[None](text_view': NullablePointer[GtkTextViewT], right_margin': I32)
+use @gtk_text_view_set_right_margin[None](text_view': NullablePointer[GObjectT], right_margin': I32)

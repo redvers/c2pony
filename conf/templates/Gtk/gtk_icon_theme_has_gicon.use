@@ -1,1 +1,1 @@
-use @gtk_icon_theme_has_gicon[I32](self': NullablePointer[GtkIconThemeT], gicon': NullablePointer[GIconT])
+use @gtk_icon_theme_has_gicon[I32](self': NullablePointer[GObjectT], gicon': NullablePointer[GObjectT])

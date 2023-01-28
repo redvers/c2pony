@@ -1,2 +1,2 @@
-  fun export_action_group(connection': NullablePointer[GDBusConnectionT], object_path': String, action_group': GActionGroupI, error': GError): U32 =>
-    @g_dbus_connection_export_action_group(connection', object_path'.cstring(), action_group'.getptr(), error'.ptr)
+  fun export_action_group(connection': GDBusConnectionI, object_path': String, action_group': GActionGroupI, error': Pointer[NullablePointer[GErrorT]]): U32 =>
+    @g_dbus_connection_export_action_group(connection'.getptr(), object_path'.cstring(), action_group'.getptr(), error')

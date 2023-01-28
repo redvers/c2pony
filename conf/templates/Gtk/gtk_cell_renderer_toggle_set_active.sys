@@ -1,2 +1,2 @@
-  fun set_active(toggle': NullablePointer[GtkCellRendererToggleT], setting': I32): None =>
-    @gtk_cell_renderer_toggle_set_active(toggle', setting')
+  fun set_active(toggle': GtkCellRendererToggleI, setting': I32): None =>
+    @gtk_cell_renderer_toggle_set_active(toggle'.getptr(), setting')

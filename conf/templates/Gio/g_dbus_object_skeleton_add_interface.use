@@ -1,1 +1,1 @@
-use @g_dbus_object_skeleton_add_interface[None](object': NullablePointer[GDBusObjectSkeletonT], interface': NullablePointer[GDBusInterfaceSkeletonT])
+use @g_dbus_object_skeleton_add_interface[None](object': NullablePointer[GObjectT], interface': NullablePointer[GObjectT])

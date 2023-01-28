@@ -1,1 +1,1 @@
-use @gtk_drag_source_set_content[None](source': NullablePointer[GtkDragSourceT], content': NullablePointer[GdkContentProviderT])
+use @gtk_drag_source_set_content[None](source': NullablePointer[GObjectT], content': NullablePointer[GdkContentProviderT])

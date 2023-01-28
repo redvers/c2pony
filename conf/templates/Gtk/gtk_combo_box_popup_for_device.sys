@@ -1,2 +1,2 @@
-  fun popup_for_device(combo_box': NullablePointer[GtkComboBoxT], device': NullablePointer[GdkDeviceT]): None =>
-    @gtk_combo_box_popup_for_device(combo_box', device')
+  fun popup_for_device(combo_box': GtkComboBoxI, device': NullablePointer[GdkDeviceT]): None =>
+    @gtk_combo_box_popup_for_device(combo_box'.getptr(), device')

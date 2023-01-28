@@ -1,2 +1,2 @@
-  fun writev_all(stream': NullablePointer[GOutputStreamT], vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_output_stream_writev_all(stream', vectors', n_vectors', bytes_written', cancellable', error'.ptr)
+  fun writev_all(stream': GOutputStreamI, vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_output_stream_writev_all(stream'.getptr(), vectors', n_vectors', bytes_written', cancellable'.getptr(), error')

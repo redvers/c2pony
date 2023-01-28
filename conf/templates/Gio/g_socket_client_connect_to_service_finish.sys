@@ -1,2 +1,2 @@
-  fun connect_to_service_finish(client': NullablePointer[GSocketClientT], result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GSocketConnectionT] =>
-    @g_socket_client_connect_to_service_finish(client', result', error'.ptr)
+  fun connect_to_service_finish(client': GSocketClientI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_socket_client_connect_to_service_finish(client'.getptr(), result'.getptr(), error')

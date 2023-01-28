@@ -1,2 +1,2 @@
-  fun get_label(frame': NullablePointer[GtkFrameT]): String iso^ =>
-    String.from_cstring(@gtk_frame_get_label(frame')).clone()
+  fun get_label(frame': GtkFrameI): String iso^ =>
+    String.from_cstring(@gtk_frame_get_label(frame'.getptr())).clone()

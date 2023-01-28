@@ -1,1 +1,1 @@
-use @gtk_tree_view_column_new_with_area[NullablePointer[GtkTreeViewColumnT]](area': NullablePointer[GtkCellAreaT])
+use @gtk_tree_view_column_new_with_area[NullablePointer[GObjectT]](area': NullablePointer[GObjectT])

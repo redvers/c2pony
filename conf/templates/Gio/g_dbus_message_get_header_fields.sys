@@ -1,2 +1,2 @@
-  fun get_header_fields(message': NullablePointer[GDBusMessageT]): String iso^ =>
-    String.from_cstring(@g_dbus_message_get_header_fields(message')).clone()
+  fun get_header_fields(message': GDBusMessageI): String iso^ =>
+    String.from_cstring(@g_dbus_message_get_header_fields(message'.getptr())).clone()

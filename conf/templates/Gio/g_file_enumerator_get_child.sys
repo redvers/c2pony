@@ -1,2 +1,2 @@
-  fun get_child(enumerator': NullablePointer[GFileEnumeratorT], info': NullablePointer[GFileInfoT]): NullablePointer[GFileT] =>
-    @g_file_enumerator_get_child(enumerator', info')
+  fun get_child(enumerator': GFileEnumeratorI, info': GFileInfoI): NullablePointer[GObjectT] =>
+@g_file_enumerator_get_child(enumerator'.getptr(), info'.getptr())

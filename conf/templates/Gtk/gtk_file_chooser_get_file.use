@@ -1,1 +1,1 @@
-use @gtk_file_chooser_get_file[NullablePointer[GFileT]](chooser': NullablePointer[GtkFileChooserT])
+use @gtk_file_chooser_get_file[NullablePointer[GObjectT]](chooser': NullablePointer[GObjectT])

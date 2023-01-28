@@ -1,2 +1,2 @@
-  fun ref get_channel_binding_data(type': U32, data': NullablePointer[GByteArrayT], error': GError): I32 =>
+  fun ref get_channel_binding_data(type': U32, data': NullablePointer[GByteArrayT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GTlsConnectionP.get_channel_binding_data(this, type', data', error')

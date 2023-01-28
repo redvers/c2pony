@@ -1,2 +1,2 @@
-  fun remove_widget(size_group': NullablePointer[GtkSizeGroupT], widget': GtkWidgetI): None =>
-    @gtk_size_group_remove_widget(size_group', widget'.getptr())
+  fun remove_widget(size_group': GtkSizeGroupI, widget': GtkWidgetI): None =>
+    @gtk_size_group_remove_widget(size_group'.getptr(), widget'.getptr())

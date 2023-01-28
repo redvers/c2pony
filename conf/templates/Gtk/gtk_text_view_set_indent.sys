@@ -1,2 +1,2 @@
-  fun set_indent(text_view': NullablePointer[GtkTextViewT], indent': I32): None =>
-    @gtk_text_view_set_indent(text_view', indent')
+  fun set_indent(text_view': GtkTextViewI, indent': I32): None =>
+    @gtk_text_view_set_indent(text_view'.getptr(), indent')

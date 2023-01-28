@@ -1,2 +1,2 @@
-  fun set_show_recommended(self': NullablePointer[GtkAppChooserWidgetT], setting': I32): None =>
-    @gtk_app_chooser_widget_set_show_recommended(self', setting')
+  fun set_show_recommended(self': GtkAppChooserWidgetI, setting': I32): None =>
+    @gtk_app_chooser_widget_set_show_recommended(self'.getptr(), setting')

@@ -1,2 +1,2 @@
-  fun seek_failed(self': NullablePointer[GtkMediaStreamT]): None =>
-    @gtk_media_stream_seek_failed(self')
+  fun seek_failed(self': GtkMediaStreamI): None =>
+    @gtk_media_stream_seek_failed(self'.getptr())

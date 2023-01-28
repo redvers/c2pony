@@ -1,2 +1,2 @@
-  fun gnew(connection': NullablePointer[GDBusConnectionT], flags': U32, info': NullablePointer[GDBusInterfaceInfoT], name': String, object_path': String, interface_name': String, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_dbus_proxy_new(connection', flags', info', name'.cstring(), object_path'.cstring(), interface_name'.cstring(), cancellable', callback', user_data')
+  fun gnew(connection': GDBusConnectionI, flags': U32, info': NullablePointer[GDBusInterfaceInfoT], name': String, object_path': String, interface_name': String, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_proxy_new(connection'.getptr(), flags', info', name'.cstring(), object_path'.cstring(), interface_name'.cstring(), cancellable'.getptr(), callback', user_data')

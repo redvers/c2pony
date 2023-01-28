@@ -1,2 +1,2 @@
-  fun ref add_mark(mark': NullablePointer[GtkTextMarkT], where': NullablePointer[GtkTextIterT]): None =>
+  fun ref add_mark(mark': GtkTextMarkI, where': NullablePointer[GtkTextIterT]): None =>
     GtkTextBufferP.add_mark(this, mark', where')

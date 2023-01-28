@@ -1,1 +1,1 @@
-use @gtk_cell_area_attribute_connect[None](area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], attribute': Pointer[U8] tag, column': I32)
+use @gtk_cell_area_attribute_connect[None](area': NullablePointer[GObjectT], renderer': NullablePointer[GObjectT], attribute': Pointer[U8] tag, column': I32)

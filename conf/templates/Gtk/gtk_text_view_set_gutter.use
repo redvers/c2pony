@@ -1,1 +1,1 @@
-use @gtk_text_view_set_gutter[None](text_view': NullablePointer[GtkTextViewT], win': U32, widget': NullablePointer[GObjectT])
+use @gtk_text_view_set_gutter[None](text_view': NullablePointer[GObjectT], win': U32, widget': NullablePointer[GObjectT])

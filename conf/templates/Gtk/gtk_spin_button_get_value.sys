@@ -1,2 +1,2 @@
-  fun get_value(spin_button': NullablePointer[GtkSpinButtonT]): F64 =>
-    @gtk_spin_button_get_value(spin_button')
+  fun get_value(spin_button': GtkSpinButtonI): F64 =>
+    @gtk_spin_button_get_value(spin_button'.getptr())

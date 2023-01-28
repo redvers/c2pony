@@ -1,1 +1,1 @@
-use @gtk_entry_set_alignment[None](entry': NullablePointer[GtkEntryT], xalign': F32)
+use @gtk_entry_set_alignment[None](entry': NullablePointer[GObjectT], xalign': F32)

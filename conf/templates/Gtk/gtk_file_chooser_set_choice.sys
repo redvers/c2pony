@@ -1,2 +1,2 @@
-  fun set_choice(chooser': NullablePointer[GtkFileChooserT], id': String, option': String): None =>
-    @gtk_file_chooser_set_choice(chooser', id'.cstring(), option'.cstring())
+  fun set_choice(chooser': GtkFileChooserI, id': String, option': String): None =>
+    @gtk_file_chooser_set_choice(chooser'.getptr(), id'.cstring(), option'.cstring())

@@ -1,1 +1,1 @@
-use @gtk_drop_target_async_get_actions[U32](self': NullablePointer[GtkDropTargetAsyncT])
+use @gtk_drop_target_async_get_actions[U32](self': NullablePointer[GObjectT])

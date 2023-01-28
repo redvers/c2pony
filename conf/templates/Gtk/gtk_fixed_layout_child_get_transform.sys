@@ -1,2 +1,2 @@
-  fun get_transform(child': NullablePointer[GtkFixedLayoutChildT]): NullablePointer[GskTransformT] =>
-    @gtk_fixed_layout_child_get_transform(child')
+  fun get_transform(child': GtkFixedLayoutChildI): NullablePointer[GskTransformT] =>
+    @gtk_fixed_layout_child_get_transform(child'.getptr())

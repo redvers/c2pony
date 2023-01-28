@@ -1,1 +1,1 @@
-use @gtk_recent_manager_new[NullablePointer[GtkRecentManagerT]]()
+use @gtk_recent_manager_new[NullablePointer[GObjectT]]()

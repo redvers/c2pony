@@ -1,2 +1,2 @@
-  fun parse(host_and_port': String, default_port': U16, error': GError): NullablePointer[GSocketConnectableT] =>
-    @g_network_address_parse(host_and_port'.cstring(), default_port', error'.ptr)
+  fun parse(host_and_port': String, default_port': U16, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_network_address_parse(host_and_port'.cstring(), default_port', error')

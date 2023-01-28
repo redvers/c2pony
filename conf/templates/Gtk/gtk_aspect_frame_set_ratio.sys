@@ -1,2 +1,2 @@
-  fun set_ratio(self': NullablePointer[GtkAspectFrameT], ratio': F32): None =>
-    @gtk_aspect_frame_set_ratio(self', ratio')
+  fun set_ratio(self': GtkAspectFrameI, ratio': F32): None =>
+    @gtk_aspect_frame_set_ratio(self'.getptr(), ratio')

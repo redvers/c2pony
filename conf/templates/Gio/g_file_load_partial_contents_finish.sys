@@ -1,2 +1,2 @@
-  fun load_partial_contents_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], contents': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, etag_out': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    @g_file_load_partial_contents_finish(file', res', contents', length', etag_out', error'.ptr)
+  fun load_partial_contents_finish(file': GFileI, res': GAsyncResultI, contents': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, etag_out': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_load_partial_contents_finish(file'.getptr(), res'.getptr(), contents', length', etag_out', error')

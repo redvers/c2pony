@@ -1,2 +1,2 @@
-  fun set_menu_model(popover': NullablePointer[GtkPopoverMenuT], model': NullablePointer[GMenuModelT]): None =>
-    @gtk_popover_menu_set_menu_model(popover', model')
+  fun set_menu_model(popover': GtkPopoverMenuI, model': GMenuModelI): None =>
+    @gtk_popover_menu_set_menu_model(popover'.getptr(), model'.getptr())

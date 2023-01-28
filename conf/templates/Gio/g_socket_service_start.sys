@@ -1,2 +1,2 @@
-  fun start(service': NullablePointer[GSocketServiceT]): None =>
-    @g_socket_service_start(service')
+  fun start(service': GSocketServiceI): None =>
+    @g_socket_service_start(service'.getptr())

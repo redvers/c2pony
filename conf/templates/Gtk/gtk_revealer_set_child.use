@@ -1,1 +1,1 @@
-use @gtk_revealer_set_child[None](revealer': NullablePointer[GtkRevealerT], child': NullablePointer[GObjectT])
+use @gtk_revealer_set_child[None](revealer': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

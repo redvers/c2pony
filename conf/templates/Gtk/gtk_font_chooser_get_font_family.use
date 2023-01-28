@@ -1,1 +1,1 @@
-use @gtk_font_chooser_get_font_family[NullablePointer[PangoFontFamilyT]](fontchooser': NullablePointer[GtkFontChooserT])
+use @gtk_font_chooser_get_font_family[NullablePointer[PangoFontFamilyT]](fontchooser': NullablePointer[GObjectT])

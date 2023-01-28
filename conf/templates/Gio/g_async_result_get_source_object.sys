@@ -1,2 +1,2 @@
-  fun get_source_object(res': NullablePointer[GAsyncResultT]): NullablePointer[GObjectT] =>
-    @g_async_result_get_source_object(res')
+  fun get_source_object(res': GAsyncResultI): NullablePointer[GObjectT] =>
+@g_async_result_get_source_object(res'.getptr())

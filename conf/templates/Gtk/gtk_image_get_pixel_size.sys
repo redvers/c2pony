@@ -1,2 +1,2 @@
-  fun get_pixel_size(image': NullablePointer[GtkImageT]): I32 =>
-    @gtk_image_get_pixel_size(image')
+  fun get_pixel_size(image': GtkImageI): I32 =>
+    @gtk_image_get_pixel_size(image'.getptr())

@@ -1,2 +1,2 @@
-  fun set_attributes_async(file': NullablePointer[GFileT], info': NullablePointer[GFileInfoT], flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_file_set_attributes_async(file', info', flags', io_priority', cancellable', callback', user_data')
+  fun set_attributes_async(file': GFileI, info': GFileInfoI, flags': U32, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_set_attributes_async(file'.getptr(), info'.getptr(), flags', io_priority', cancellable'.getptr(), callback', user_data')

@@ -1,1 +1,1 @@
-use @gtk_tree_view_set_tooltip_row[None](tree_view': NullablePointer[GtkTreeViewT], tooltip': NullablePointer[GtkTooltipT], path': NullablePointer[GtkTreePathT])
+use @gtk_tree_view_set_tooltip_row[None](tree_view': NullablePointer[GObjectT], tooltip': NullablePointer[GObjectT], path': NullablePointer[GtkTreePathT])

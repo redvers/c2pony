@@ -1,2 +1,2 @@
-  fun ref launch(files': NullablePointer[GListT], context': NullablePointer[GAppLaunchContextT], error': GError): I32 =>
+  fun ref launch(files': NullablePointer[GListT], context': GAppLaunchContextI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GAppInfoP.launch(this, files', context', error')

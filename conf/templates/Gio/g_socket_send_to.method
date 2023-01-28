@@ -1,2 +1,2 @@
-  fun ref send_to(address': NullablePointer[GSocketAddressT], buffer': String, size': U64, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
+  fun ref send_to(address': GSocketAddressI, buffer': String, size': U64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
     GSocketP.send_to(this, address', buffer', size', cancellable', error')

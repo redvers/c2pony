@@ -1,1 +1,1 @@
-use @g_dtls_connection_set_interaction[None](conn': NullablePointer[GDtlsConnectionT], interaction': NullablePointer[GTlsInteractionT])
+use @g_dtls_connection_set_interaction[None](conn': NullablePointer[GObjectT], interaction': NullablePointer[GObjectT])

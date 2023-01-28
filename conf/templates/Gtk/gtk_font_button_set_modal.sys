@@ -1,2 +1,2 @@
-  fun set_modal(font_button': NullablePointer[GtkFontButtonT], modal': I32): None =>
-    @gtk_font_button_set_modal(font_button', modal')
+  fun set_modal(font_button': GtkFontButtonI, modal': I32): None =>
+    @gtk_font_button_set_modal(font_button'.getptr(), modal')

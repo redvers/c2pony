@@ -1,1 +1,1 @@
-use @gtk_spin_button_get_snap_to_ticks[I32](spin_button': NullablePointer[GtkSpinButtonT])
+use @gtk_spin_button_get_snap_to_ticks[I32](spin_button': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun remove(fixed': NullablePointer[GtkFixedT], widget': GtkWidgetI): None =>
-    @gtk_fixed_remove(fixed', widget'.getptr())
+  fun remove(fixed': GtkFixedI, widget': GtkWidgetI): None =>
+    @gtk_fixed_remove(fixed'.getptr(), widget'.getptr())

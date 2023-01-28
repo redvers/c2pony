@@ -1,1 +1,1 @@
-use @g_socket_service_start[None](service': NullablePointer[GSocketServiceT])
+use @g_socket_service_start[None](service': NullablePointer[GObjectT])

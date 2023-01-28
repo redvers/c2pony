@@ -1,1 +1,1 @@
-use @g_subprocess_get_stdout_pipe[NullablePointer[GInputStreamT]](subprocess': NullablePointer[GSubprocessT])
+use @g_subprocess_get_stdout_pipe[NullablePointer[GObjectT]](subprocess': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun apply_tag(buffer': NullablePointer[GtkTextBufferT], tag': NullablePointer[GtkTextTagT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
-    @gtk_text_buffer_apply_tag(buffer', tag', start', end')
+  fun apply_tag(buffer': GtkTextBufferI, tag': GtkTextTagI, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_buffer_apply_tag(buffer'.getptr(), tag'.getptr(), start', end')

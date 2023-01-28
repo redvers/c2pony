@@ -1,1 +1,1 @@
-use @g_mount_operation_set_choice[None](op': NullablePointer[GMountOperationT], choice': I32)
+use @g_mount_operation_set_choice[None](op': NullablePointer[GObjectT], choice': I32)

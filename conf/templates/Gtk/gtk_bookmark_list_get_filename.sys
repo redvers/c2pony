@@ -1,2 +1,2 @@
-  fun get_filename(self': NullablePointer[GtkBookmarkListT]): String iso^ =>
-    String.from_cstring(@gtk_bookmark_list_get_filename(self')).clone()
+  fun get_filename(self': GtkBookmarkListI): String iso^ =>
+    String.from_cstring(@gtk_bookmark_list_get_filename(self'.getptr())).clone()

@@ -1,2 +1,2 @@
-  fun ref get_drive(): NullablePointer[GDriveT] =>
+  fun ref get_drive(): NullablePointer[GObjectT] =>
     GVolumeP.get_drive(this)

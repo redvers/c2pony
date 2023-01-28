@@ -1,2 +1,2 @@
-  fun set_actions(self': NullablePointer[GtkDropTargetT], actions': U32): None =>
-    @gtk_drop_target_set_actions(self', actions')
+  fun set_actions(self': GtkDropTargetI, actions': U32): None =>
+    @gtk_drop_target_set_actions(self'.getptr(), actions')

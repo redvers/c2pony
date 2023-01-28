@@ -1,1 +1,1 @@
-use @gtk_expander_get_expanded[I32](expander': NullablePointer[GtkExpanderT])
+use @gtk_expander_get_expanded[I32](expander': NullablePointer[GObjectT])

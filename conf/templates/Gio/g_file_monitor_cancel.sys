@@ -1,2 +1,2 @@
-  fun cancel(monitor': NullablePointer[GFileMonitorT]): I32 =>
-    @g_file_monitor_cancel(monitor')
+  fun cancel(monitor': GFileMonitorI): I32 =>
+    @g_file_monitor_cancel(monitor'.getptr())

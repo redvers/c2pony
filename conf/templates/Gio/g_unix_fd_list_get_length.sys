@@ -1,2 +1,2 @@
-  fun get_length(list': NullablePointer[GUnixFDListT]): I32 =>
-    @g_unix_fd_list_get_length(list')
+  fun get_length(list': GUnixFDListI): I32 =>
+    @g_unix_fd_list_get_length(list'.getptr())

@@ -1,2 +1,2 @@
-  fun remove_column(self': NullablePointer[GtkColumnViewT], column': NullablePointer[GtkColumnViewColumnT]): None =>
-    @gtk_column_view_remove_column(self', column')
+  fun remove_column(self': GtkColumnViewI, column': GtkColumnViewColumnI): None =>
+    @gtk_column_view_remove_column(self'.getptr(), column'.getptr())

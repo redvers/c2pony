@@ -1,2 +1,2 @@
-  fun get_gicon(image': NullablePointer[GtkImageT]): NullablePointer[GIconT] =>
-    @gtk_image_get_gicon(image')
+  fun get_gicon(image': GtkImageI): NullablePointer[GObjectT] =>
+@gtk_image_get_gicon(image'.getptr())

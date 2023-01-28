@@ -1,2 +1,2 @@
-  fun set_advertised_protocols(conn': NullablePointer[GDtlsConnectionT], protocols': Pointer[Pointer[U8]] tag): None =>
-    @g_dtls_connection_set_advertised_protocols(conn', protocols')
+  fun set_advertised_protocols(conn': GDtlsConnectionI, protocols': Pointer[Pointer[U8]] tag): None =>
+    @g_dtls_connection_set_advertised_protocols(conn'.getptr(), protocols')

@@ -1,2 +1,2 @@
-  fun set_alternative_text(self': NullablePointer[GtkPictureT], alternative_text': String): None =>
-    @gtk_picture_set_alternative_text(self', alternative_text'.cstring())
+  fun set_alternative_text(self': GtkPictureI, alternative_text': String): None =>
+    @gtk_picture_set_alternative_text(self'.getptr(), alternative_text'.cstring())

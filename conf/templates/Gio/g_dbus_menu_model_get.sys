@@ -1,2 +1,2 @@
-  fun get(connection': NullablePointer[GDBusConnectionT], bus_name': String, object_path': String): NullablePointer[GDBusMenuModelT] =>
-    @g_dbus_menu_model_get(connection', bus_name'.cstring(), object_path'.cstring())
+  fun get(connection': GDBusConnectionI, bus_name': String, object_path': String): NullablePointer[GObjectT] =>
+@g_dbus_menu_model_get(connection'.getptr(), bus_name'.cstring(), object_path'.cstring())

@@ -1,2 +1,2 @@
-  fun get_byte_order(stream': NullablePointer[GDataOutputStreamT]): U32 =>
-    @g_data_output_stream_get_byte_order(stream')
+  fun get_byte_order(stream': GDataOutputStreamI): U32 =>
+    @g_data_output_stream_get_byte_order(stream'.getptr())

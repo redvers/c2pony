@@ -1,1 +1,1 @@
-use @gtk_progress_bar_get_fraction[F64](pbar': NullablePointer[GtkProgressBarT])
+use @gtk_progress_bar_get_fraction[F64](pbar': NullablePointer[GObjectT])

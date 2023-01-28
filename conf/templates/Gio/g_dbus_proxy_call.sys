@@ -1,2 +1,2 @@
-  fun call(proxy': NullablePointer[GDBusProxyT], method_name': String, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_dbus_proxy_call(proxy', method_name'.cstring(), parameters', flags', timeout_msec', cancellable', callback', user_data')
+  fun call(proxy': GDBusProxyI, method_name': String, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_proxy_call(proxy'.getptr(), method_name'.cstring(), parameters', flags', timeout_msec', cancellable'.getptr(), callback', user_data')

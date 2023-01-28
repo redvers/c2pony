@@ -1,2 +1,2 @@
-  fun set_autoexpand(self': NullablePointer[GtkTreeListModelT], autoexpand': I32): None =>
-    @gtk_tree_list_model_set_autoexpand(self', autoexpand')
+  fun set_autoexpand(self': GtkTreeListModelI, autoexpand': I32): None =>
+    @gtk_tree_list_model_set_autoexpand(self'.getptr(), autoexpand')

@@ -1,2 +1,2 @@
-  fun get_protocol(socket': NullablePointer[GSocketT]): I32 =>
-    @g_socket_get_protocol(socket')
+  fun get_protocol(socket': GSocketI): I32 =>
+    @g_socket_get_protocol(socket'.getptr())

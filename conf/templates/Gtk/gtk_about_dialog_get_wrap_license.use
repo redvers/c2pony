@@ -1,1 +1,1 @@
-use @gtk_about_dialog_get_wrap_license[I32](about': NullablePointer[GtkAboutDialogT])
+use @gtk_about_dialog_get_wrap_license[I32](about': NullablePointer[GObjectT])

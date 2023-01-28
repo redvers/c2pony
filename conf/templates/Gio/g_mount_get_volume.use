@@ -1,1 +1,1 @@
-use @g_mount_get_volume[NullablePointer[GVolumeT]](mount': NullablePointer[GMountT])
+use @g_mount_get_volume[NullablePointer[GObjectT]](mount': NullablePointer[GObjectT])

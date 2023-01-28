@@ -1,1 +1,1 @@
-use @gtk_app_chooser_get_app_info[NullablePointer[GAppInfoT]](self': NullablePointer[GtkAppChooserT])
+use @gtk_app_chooser_get_app_info[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

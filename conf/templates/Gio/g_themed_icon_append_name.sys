@@ -1,2 +1,2 @@
-  fun append_name(icon': NullablePointer[GThemedIconT], iconname': String): None =>
-    @g_themed_icon_append_name(icon', iconname'.cstring())
+  fun append_name(icon': GThemedIconI, iconname': String): None =>
+    @g_themed_icon_append_name(icon'.getptr(), iconname'.cstring())

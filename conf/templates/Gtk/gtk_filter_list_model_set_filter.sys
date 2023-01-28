@@ -1,2 +1,2 @@
-  fun set_filter(self': NullablePointer[GtkFilterListModelT], filter': NullablePointer[GtkFilterT]): None =>
-    @gtk_filter_list_model_set_filter(self', filter')
+  fun set_filter(self': GtkFilterListModelI, filter': GtkFilterI): None =>
+    @gtk_filter_list_model_set_filter(self'.getptr(), filter'.getptr())

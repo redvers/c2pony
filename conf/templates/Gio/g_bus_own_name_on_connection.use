@@ -1,1 +1,1 @@
-use @g_bus_own_name_on_connection[U32](connection': NullablePointer[GDBusConnectionT], name': Pointer[U8] tag, flags': U32, name_acquired_handler': GBusNameAcquiredCallback, name_lost_handler': GBusNameLostCallback, user_data': Pointer[None] tag, user_data_free_func': Pointer[None])
+use @g_bus_own_name_on_connection[U32](connection': NullablePointer[GObjectT], name': Pointer[U8] tag, flags': U32, name_acquired_handler': GBusNameAcquiredCallback, name_lost_handler': GBusNameLostCallback, user_data': Pointer[None] tag, user_data_free_func': Pointer[None])

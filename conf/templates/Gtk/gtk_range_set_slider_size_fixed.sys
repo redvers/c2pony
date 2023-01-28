@@ -1,2 +1,2 @@
-  fun set_slider_size_fixed(range': NullablePointer[GtkRangeT], size_fixed': I32): None =>
-    @gtk_range_set_slider_size_fixed(range', size_fixed')
+  fun set_slider_size_fixed(range': GtkRangeI, size_fixed': I32): None =>
+    @gtk_range_set_slider_size_fixed(range'.getptr(), size_fixed')

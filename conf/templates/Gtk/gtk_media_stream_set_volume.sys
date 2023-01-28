@@ -1,2 +1,2 @@
-  fun set_volume(self': NullablePointer[GtkMediaStreamT], volume': F64): None =>
-    @gtk_media_stream_set_volume(self', volume')
+  fun set_volume(self': GtkMediaStreamI, volume': F64): None =>
+    @gtk_media_stream_set_volume(self'.getptr(), volume')

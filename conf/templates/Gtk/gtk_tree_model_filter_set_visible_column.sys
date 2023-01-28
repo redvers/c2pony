@@ -1,2 +1,2 @@
-  fun set_visible_column(filter': NullablePointer[GtkTreeModelFilterT], column': I32): None =>
-    @gtk_tree_model_filter_set_visible_column(filter', column')
+  fun set_visible_column(filter': GtkTreeModelFilterI, column': I32): None =>
+    @gtk_tree_model_filter_set_visible_column(filter'.getptr(), column')

@@ -1,1 +1,1 @@
-use @g_socket_connection_get_socket[NullablePointer[GSocketT]](connection': NullablePointer[GSocketConnectionT])
+use @g_socket_connection_get_socket[NullablePointer[GObjectT]](connection': NullablePointer[GObjectT])

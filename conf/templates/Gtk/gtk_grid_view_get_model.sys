@@ -1,2 +1,2 @@
-  fun get_model(self': NullablePointer[GtkGridViewT]): NullablePointer[GObjectT] =>
-@gtk_grid_view_get_model(self')
+  fun get_model(self': GtkGridViewI): NullablePointer[GObjectT] =>
+@gtk_grid_view_get_model(self'.getptr())

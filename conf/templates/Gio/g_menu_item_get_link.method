@@ -1,2 +1,2 @@
-  fun ref get_link(link': String): NullablePointer[GMenuModelT] =>
+  fun ref get_link(link': String): NullablePointer[GObjectT] =>
     GMenuItemP.get_link(this, link')

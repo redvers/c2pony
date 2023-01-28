@@ -1,1 +1,1 @@
-use @g_themed_icon_get_names[Pointer[Pointer[U8]] tag](icon': NullablePointer[GThemedIconT])
+use @g_themed_icon_get_names[Pointer[Pointer[U8]] tag](icon': NullablePointer[GObjectT])

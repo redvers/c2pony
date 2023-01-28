@@ -1,1 +1,1 @@
-use @gtk_spin_button_set_climb_rate[None](spin_button': NullablePointer[GtkSpinButtonT], climb_rate': F64)
+use @gtk_spin_button_set_climb_rate[None](spin_button': NullablePointer[GObjectT], climb_rate': F64)

@@ -1,1 +1,1 @@
-use @gtk_tree_view_column_focus_cell[None](tree_column': NullablePointer[GtkTreeViewColumnT], cell': NullablePointer[GtkCellRendererT])
+use @gtk_tree_view_column_focus_cell[None](tree_column': NullablePointer[GObjectT], cell': NullablePointer[GObjectT])

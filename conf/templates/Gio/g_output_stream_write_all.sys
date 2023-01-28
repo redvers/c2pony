@@ -1,2 +1,2 @@
-  fun write_all(stream': NullablePointer[GOutputStreamT], buffer': Pointer[None] tag, count': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_output_stream_write_all(stream', buffer', count', bytes_written', cancellable', error'.ptr)
+  fun write_all(stream': GOutputStreamI, buffer': Pointer[None] tag, count': U64, bytes_written': Pointer[U64] tag, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_output_stream_write_all(stream'.getptr(), buffer', count', bytes_written', cancellable'.getptr(), error')

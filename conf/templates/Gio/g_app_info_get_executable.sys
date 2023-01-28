@@ -1,2 +1,2 @@
-  fun get_executable(appinfo': NullablePointer[GAppInfoT]): String iso^ =>
-    String.from_cstring(@g_app_info_get_executable(appinfo')).clone()
+  fun get_executable(appinfo': GAppInfoI): String iso^ =>
+    String.from_cstring(@g_app_info_get_executable(appinfo'.getptr())).clone()

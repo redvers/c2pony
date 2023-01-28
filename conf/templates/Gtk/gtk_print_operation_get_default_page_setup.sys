@@ -1,2 +1,2 @@
-  fun get_default_page_setup(op': NullablePointer[GtkPrintOperationT]): NullablePointer[GtkPageSetupT] =>
-    @gtk_print_operation_get_default_page_setup(op')
+  fun get_default_page_setup(op': GtkPrintOperationI): NullablePointer[GObjectT] =>
+@gtk_print_operation_get_default_page_setup(op'.getptr())

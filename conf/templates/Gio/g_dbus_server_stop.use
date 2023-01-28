@@ -1,1 +1,1 @@
-use @g_dbus_server_stop[None](server': NullablePointer[GDBusServerT])
+use @g_dbus_server_stop[None](server': NullablePointer[GObjectT])

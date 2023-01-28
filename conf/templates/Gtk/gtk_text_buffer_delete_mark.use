@@ -1,1 +1,1 @@
-use @gtk_text_buffer_delete_mark[None](buffer': NullablePointer[GtkTextBufferT], mark': NullablePointer[GtkTextMarkT])
+use @gtk_text_buffer_delete_mark[None](buffer': NullablePointer[GObjectT], mark': NullablePointer[GObjectT])

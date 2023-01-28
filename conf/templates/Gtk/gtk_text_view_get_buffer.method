@@ -1,2 +1,2 @@
-  fun ref get_buffer(): NullablePointer[GtkTextBufferT] =>
+  fun ref get_buffer(): NullablePointer[GObjectT] =>
     GtkTextViewP.get_buffer(this)

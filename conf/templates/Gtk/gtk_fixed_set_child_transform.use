@@ -1,1 +1,1 @@
-use @gtk_fixed_set_child_transform[None](fixed': NullablePointer[GtkFixedT], widget': NullablePointer[GObjectT], transform': NullablePointer[GskTransformT])
+use @gtk_fixed_set_child_transform[None](fixed': NullablePointer[GObjectT], widget': NullablePointer[GObjectT], transform': NullablePointer[GskTransformT])

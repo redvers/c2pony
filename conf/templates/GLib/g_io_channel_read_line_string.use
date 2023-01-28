@@ -1,1 +1,1 @@
-use @g_io_channel_read_line_string[U32](channel': NullablePointer[GIOChannelT], buffer': NullablePointer[GStringT], terminator_pos': Pointer[U64] tag, error': NullablePointer[GErrorT])
+use @g_io_channel_read_line_string[U32](channel': NullablePointer[GIOChannelT], buffer': NullablePointer[GStringT], terminator_pos': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]])

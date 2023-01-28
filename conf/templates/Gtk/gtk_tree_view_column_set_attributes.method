@@ -1,2 +1,2 @@
-  fun ref set_attributes(cell_renderer': NullablePointer[GtkCellRendererT], ...): None =>
+  fun ref set_attributes(cell_renderer': GtkCellRendererI, ...): None =>
     GtkTreeViewColumnP.set_attributes(this, cell_renderer', ...)

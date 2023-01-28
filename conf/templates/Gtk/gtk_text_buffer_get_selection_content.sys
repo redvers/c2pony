@@ -1,2 +1,2 @@
-  fun get_selection_content(buffer': NullablePointer[GtkTextBufferT]): NullablePointer[GdkContentProviderT] =>
-    @gtk_text_buffer_get_selection_content(buffer')
+  fun get_selection_content(buffer': GtkTextBufferI): NullablePointer[GdkContentProviderT] =>
+    @gtk_text_buffer_get_selection_content(buffer'.getptr())

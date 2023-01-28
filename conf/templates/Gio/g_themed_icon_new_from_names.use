@@ -1,1 +1,1 @@
-use @g_themed_icon_new_from_names[NullablePointer[GIconT]](iconnames': Pointer[Pointer[U8]] tag, len': I32)
+use @g_themed_icon_new_from_names[NullablePointer[GObjectT]](iconnames': Pointer[Pointer[U8]] tag, len': I32)

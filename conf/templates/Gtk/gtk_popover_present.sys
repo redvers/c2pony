@@ -1,2 +1,2 @@
-  fun present(popover': NullablePointer[GtkPopoverT]): None =>
-    @gtk_popover_present(popover')
+  fun present(popover': GtkPopoverI): None =>
+    @gtk_popover_present(popover'.getptr())

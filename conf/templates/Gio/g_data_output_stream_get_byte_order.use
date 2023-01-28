@@ -1,1 +1,1 @@
-use @g_data_output_stream_get_byte_order[U32](stream': NullablePointer[GDataOutputStreamT])
+use @g_data_output_stream_get_byte_order[U32](stream': NullablePointer[GObjectT])

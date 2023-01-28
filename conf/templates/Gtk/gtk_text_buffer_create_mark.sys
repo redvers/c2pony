@@ -1,2 +1,2 @@
-  fun create_mark(buffer': NullablePointer[GtkTextBufferT], mark_name': String, where': NullablePointer[GtkTextIterT], left_gravity': I32): NullablePointer[GtkTextMarkT] =>
-    @gtk_text_buffer_create_mark(buffer', mark_name'.cstring(), where', left_gravity')
+  fun create_mark(buffer': GtkTextBufferI, mark_name': String, where': NullablePointer[GtkTextIterT], left_gravity': I32): NullablePointer[GObjectT] =>
+@gtk_text_buffer_create_mark(buffer'.getptr(), mark_name'.cstring(), where', left_gravity')

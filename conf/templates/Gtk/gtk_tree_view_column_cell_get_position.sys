@@ -1,2 +1,2 @@
-  fun cell_get_position(tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT], x_offset': Pointer[I32] tag, width': Pointer[I32] tag): I32 =>
-    @gtk_tree_view_column_cell_get_position(tree_column', cell_renderer', x_offset', width')
+  fun cell_get_position(tree_column': GtkTreeViewColumnI, cell_renderer': GtkCellRendererI, x_offset': Pointer[I32] tag, width': Pointer[I32] tag): I32 =>
+    @gtk_tree_view_column_cell_get_position(tree_column'.getptr(), cell_renderer'.getptr(), x_offset', width')

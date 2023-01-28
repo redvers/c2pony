@@ -1,2 +1,2 @@
-  fun set_model(self': NullablePointer[GtkFlattenListModelT], model': GListModelI): None =>
-    @gtk_flatten_list_model_set_model(self', model'.getptr())
+  fun set_model(self': GtkFlattenListModelI, model': GListModelI): None =>
+    @gtk_flatten_list_model_set_model(self'.getptr(), model'.getptr())

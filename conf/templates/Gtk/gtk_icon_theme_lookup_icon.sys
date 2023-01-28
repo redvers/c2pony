@@ -1,2 +1,2 @@
-  fun lookup_icon(self': NullablePointer[GtkIconThemeT], icon_name': String, fallbacks': Pointer[Pointer[U8]] tag, size': I32, scale': I32, direction': U32, flags': U32): NullablePointer[GtkIconPaintableT] =>
-    @gtk_icon_theme_lookup_icon(self', icon_name'.cstring(), fallbacks', size', scale', direction', flags')
+  fun lookup_icon(self': GtkIconThemeI, icon_name': String, fallbacks': Pointer[Pointer[U8]] tag, size': I32, scale': I32, direction': U32, flags': U32): NullablePointer[GObjectT] =>
+@gtk_icon_theme_lookup_icon(self'.getptr(), icon_name'.cstring(), fallbacks', size', scale', direction', flags')

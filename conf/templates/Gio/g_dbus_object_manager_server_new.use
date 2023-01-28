@@ -1,1 +1,1 @@
-use @g_dbus_object_manager_server_new[NullablePointer[GDBusObjectManagerServerT]](object_path': Pointer[U8] tag)
+use @g_dbus_object_manager_server_new[NullablePointer[GObjectT]](object_path': Pointer[U8] tag)

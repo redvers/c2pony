@@ -1,2 +1,2 @@
-  fun set_vadjustment(box': NullablePointer[GtkFlowBoxT], adjustment': NullablePointer[GtkAdjustmentT]): None =>
-    @gtk_flow_box_set_vadjustment(box', adjustment')
+  fun set_vadjustment(box': GtkFlowBoxI, adjustment': GtkAdjustmentI): None =>
+    @gtk_flow_box_set_vadjustment(box'.getptr(), adjustment'.getptr())

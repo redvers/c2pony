@@ -1,1 +1,1 @@
-use @gtk_flow_box_set_sort_func[None](box': NullablePointer[GtkFlowBoxT], sort_func': GtkFlowBoxSortFunc, user_data': Pointer[None] tag, destroy': Pointer[None])
+use @gtk_flow_box_set_sort_func[None](box': NullablePointer[GObjectT], sort_func': GtkFlowBoxSortFunc, user_data': Pointer[None] tag, destroy': Pointer[None])

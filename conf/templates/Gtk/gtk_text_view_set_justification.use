@@ -1,1 +1,1 @@
-use @gtk_text_view_set_justification[None](text_view': NullablePointer[GtkTextViewT], justification': U32)
+use @gtk_text_view_set_justification[None](text_view': NullablePointer[GObjectT], justification': U32)

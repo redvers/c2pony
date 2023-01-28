@@ -1,1 +1,1 @@
-use @gtk_widget_get_root[NullablePointer[GtkRootT]](widget': NullablePointer[GObjectT])
+use @gtk_widget_get_root[NullablePointer[GObjectT]](widget': NullablePointer[GObjectT])

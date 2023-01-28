@@ -1,2 +1,2 @@
-  fun ref query_writable_namespaces(cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileAttributeInfoListT] =>
+  fun ref query_writable_namespaces(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileAttributeInfoListT] =>
     GFileP.query_writable_namespaces(this, cancellable', error')

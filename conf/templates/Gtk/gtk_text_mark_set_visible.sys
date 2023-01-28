@@ -1,2 +1,2 @@
-  fun set_visible(mark': NullablePointer[GtkTextMarkT], setting': I32): None =>
-    @gtk_text_mark_set_visible(mark', setting')
+  fun set_visible(mark': GtkTextMarkI, setting': I32): None =>
+    @gtk_text_mark_set_visible(mark'.getptr(), setting')

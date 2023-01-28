@@ -1,1 +1,1 @@
-use @gtk_drop_target_set_actions[None](self': NullablePointer[GtkDropTargetT], actions': U32)
+use @gtk_drop_target_set_actions[None](self': NullablePointer[GObjectT], actions': U32)

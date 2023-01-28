@@ -1,2 +1,2 @@
-  fun get_icon_name(menu_button': NullablePointer[GtkMenuButtonT]): String iso^ =>
-    String.from_cstring(@gtk_menu_button_get_icon_name(menu_button')).clone()
+  fun get_icon_name(menu_button': GtkMenuButtonI): String iso^ =>
+    String.from_cstring(@gtk_menu_button_get_icon_name(menu_button'.getptr())).clone()

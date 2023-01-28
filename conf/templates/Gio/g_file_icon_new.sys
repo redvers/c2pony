@@ -1,2 +1,2 @@
-  new gnew(file': NullablePointer[GFileT]) =>
-    ptr = @g_file_icon_new(file')
+  new gnew(file': GFileI) =>
+    ptr = @g_file_icon_new(file'.getptr())

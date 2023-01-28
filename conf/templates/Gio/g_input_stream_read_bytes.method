@@ -1,2 +1,2 @@
-  fun ref read_bytes(count': U64, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GBytesT] =>
+  fun ref read_bytes(count': U64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GBytesT] =>
     GInputStreamP.read_bytes(this, count', cancellable', error')

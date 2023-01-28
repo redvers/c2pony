@@ -1,1 +1,1 @@
-use @gtk_text_view_set_editable[None](text_view': NullablePointer[GtkTextViewT], setting': I32)
+use @gtk_text_view_set_editable[None](text_view': NullablePointer[GObjectT], setting': I32)

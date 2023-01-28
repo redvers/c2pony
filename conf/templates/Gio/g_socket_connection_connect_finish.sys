@@ -1,2 +1,2 @@
-  fun connect_finish(connection': NullablePointer[GSocketConnectionT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_socket_connection_connect_finish(connection', result', error'.ptr)
+  fun connect_finish(connection': GSocketConnectionI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_connection_connect_finish(connection'.getptr(), result'.getptr(), error')

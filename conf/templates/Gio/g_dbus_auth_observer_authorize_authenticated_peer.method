@@ -1,2 +1,2 @@
-  fun ref authorize_authenticated_peer(stream': NullablePointer[GIOStreamT], credentials': NullablePointer[GCredentialsT]): I32 =>
+  fun ref authorize_authenticated_peer(stream': GIOStreamI, credentials': GCredentialsI): I32 =>
     GDBusAuthObserverP.authorize_authenticated_peer(this, stream', credentials')

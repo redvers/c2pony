@@ -1,1 +1,1 @@
-use @gtk_shortcut_controller_set_mnemonics_modifiers[None](self': NullablePointer[GtkShortcutControllerT], modifiers': U32)
+use @gtk_shortcut_controller_set_mnemonics_modifiers[None](self': NullablePointer[GObjectT], modifiers': U32)

@@ -1,1 +1,1 @@
-use @g_io_stream_get_output_stream[NullablePointer[GOutputStreamT]](stream': NullablePointer[GIOStreamT])
+use @g_io_stream_get_output_stream[NullablePointer[GObjectT]](stream': NullablePointer[GObjectT])

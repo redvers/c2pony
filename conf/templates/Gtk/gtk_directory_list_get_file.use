@@ -1,1 +1,1 @@
-use @gtk_directory_list_get_file[NullablePointer[GFileT]](self': NullablePointer[GtkDirectoryListT])
+use @gtk_directory_list_get_file[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

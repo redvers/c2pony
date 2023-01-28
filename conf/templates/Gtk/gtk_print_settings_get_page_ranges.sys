@@ -1,2 +1,2 @@
-  fun get_page_ranges(settings': NullablePointer[GtkPrintSettingsT], num_ranges': Pointer[I32] tag): NullablePointer[GtkPageRangeT] =>
-    @gtk_print_settings_get_page_ranges(settings', num_ranges')
+  fun get_page_ranges(settings': GtkPrintSettingsI, num_ranges': Pointer[I32] tag): NullablePointer[GtkPageRangeT] =>
+    @gtk_print_settings_get_page_ranges(settings'.getptr(), num_ranges')

@@ -1,1 +1,1 @@
-use @gtk_about_dialog_set_documenters[None](about': NullablePointer[GtkAboutDialogT], documenters': Pointer[Pointer[U8]] tag)
+use @gtk_about_dialog_set_documenters[None](about': NullablePointer[GObjectT], documenters': Pointer[Pointer[U8]] tag)

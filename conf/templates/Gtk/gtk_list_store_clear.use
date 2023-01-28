@@ -1,1 +1,1 @@
-use @gtk_list_store_clear[None](list_store': NullablePointer[GtkListStoreT])
+use @gtk_list_store_clear[None](list_store': NullablePointer[GObjectT])

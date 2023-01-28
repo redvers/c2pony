@@ -1,1 +1,1 @@
-use @gtk_paned_set_position[None](paned': NullablePointer[GtkPanedT], position': I32)
+use @gtk_paned_set_position[None](paned': NullablePointer[GObjectT], position': I32)

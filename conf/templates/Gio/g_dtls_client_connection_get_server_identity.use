@@ -1,1 +1,1 @@
-use @g_dtls_client_connection_get_server_identity[NullablePointer[GSocketConnectableT]](conn': NullablePointer[GDtlsClientConnectionT])
+use @g_dtls_client_connection_get_server_identity[NullablePointer[GObjectT]](conn': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_completed(task': NullablePointer[GTaskT]): I32 =>
-    @g_task_get_completed(task')
+  fun get_completed(task': GTaskI): I32 =>
+    @g_task_get_completed(task'.getptr())

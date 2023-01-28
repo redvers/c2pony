@@ -1,1 +1,1 @@
-use @gtk_assistant_get_page[NullablePointer[GtkAssistantPageT]](assistant': NullablePointer[GtkAssistantT], child': NullablePointer[GObjectT])
+use @gtk_assistant_get_page[NullablePointer[GObjectT]](assistant': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

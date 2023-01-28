@@ -1,2 +1,2 @@
-  fun set_min_content_width(scrolled_window': NullablePointer[GtkScrolledWindowT], width': I32): None =>
-    @gtk_scrolled_window_set_min_content_width(scrolled_window', width')
+  fun set_min_content_width(scrolled_window': GtkScrolledWindowI, width': I32): None =>
+    @gtk_scrolled_window_set_min_content_width(scrolled_window'.getptr(), width')

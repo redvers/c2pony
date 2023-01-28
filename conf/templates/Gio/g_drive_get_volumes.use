@@ -1,1 +1,1 @@
-use @g_drive_get_volumes[NullablePointer[GListT]](drive': NullablePointer[GDriveT])
+use @g_drive_get_volumes[NullablePointer[GListT]](drive': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_depth(self': NullablePointer[GtkTreeListRowT]): U32 =>
-    @gtk_tree_list_row_get_depth(self')
+  fun get_depth(self': GtkTreeListRowI): U32 =>
+    @gtk_tree_list_row_get_depth(self'.getptr())

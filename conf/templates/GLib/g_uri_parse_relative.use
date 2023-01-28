@@ -1,1 +1,1 @@
-use @g_uri_parse_relative[NullablePointer[GUriT]](base_uri': NullablePointer[GUriT], uri_ref': Pointer[U8] tag, flags': U32, error': NullablePointer[GErrorT])
+use @g_uri_parse_relative[NullablePointer[GUriT]](base_uri': NullablePointer[GUriT], uri_ref': Pointer[U8] tag, flags': U32, error': Pointer[NullablePointer[GErrorT]])

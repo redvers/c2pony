@@ -1,2 +1,2 @@
-  fun set_use_preedit(context': NullablePointer[GtkIMContextT], use_preedit': I32): None =>
-    @gtk_im_context_set_use_preedit(context', use_preedit')
+  fun set_use_preedit(context': GtkIMContextI, use_preedit': I32): None =>
+    @gtk_im_context_set_use_preedit(context'.getptr(), use_preedit')

@@ -1,2 +1,2 @@
-  fun set_group_name(notebook': NullablePointer[GtkNotebookT], group_name': String): None =>
-    @gtk_notebook_set_group_name(notebook', group_name'.cstring())
+  fun set_group_name(notebook': GtkNotebookI, group_name': String): None =>
+    @gtk_notebook_set_group_name(notebook'.getptr(), group_name'.cstring())

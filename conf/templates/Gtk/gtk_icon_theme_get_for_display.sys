@@ -1,2 +1,2 @@
-  fun get_for_display(display': NullablePointer[GdkDisplayT]): NullablePointer[GtkIconThemeT] =>
-    @gtk_icon_theme_get_for_display(display')
+  fun get_for_display(display': NullablePointer[GdkDisplayT]): NullablePointer[GObjectT] =>
+@gtk_icon_theme_get_for_display(display')

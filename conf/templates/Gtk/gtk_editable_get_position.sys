@@ -1,2 +1,2 @@
-  fun get_position(editable': NullablePointer[GtkEditableT]): I32 =>
-    @gtk_editable_get_position(editable')
+  fun get_position(editable': GtkEditableI): I32 =>
+    @gtk_editable_get_position(editable'.getptr())

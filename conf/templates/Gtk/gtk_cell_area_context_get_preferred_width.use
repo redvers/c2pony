@@ -1,1 +1,1 @@
-use @gtk_cell_area_context_get_preferred_width[None](context': NullablePointer[GtkCellAreaContextT], minimum_width': Pointer[I32] tag, natural_width': Pointer[I32] tag)
+use @gtk_cell_area_context_get_preferred_width[None](context': NullablePointer[GObjectT], minimum_width': Pointer[I32] tag, natural_width': Pointer[I32] tag)

@@ -1,2 +1,2 @@
-  fun get_hscrollbar(scrolled_window': NullablePointer[GtkScrolledWindowT]): NullablePointer[GObjectT] =>
-@gtk_scrolled_window_get_hscrollbar(scrolled_window')
+  fun get_hscrollbar(scrolled_window': GtkScrolledWindowI): NullablePointer[GObjectT] =>
+@gtk_scrolled_window_get_hscrollbar(scrolled_window'.getptr())

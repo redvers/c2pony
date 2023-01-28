@@ -1,2 +1,2 @@
-  fun ref get_default_database(): NullablePointer[GTlsDatabaseT] =>
+  fun ref get_default_database(): NullablePointer[GObjectT] =>
     GTlsBackendP.get_default_database(this)

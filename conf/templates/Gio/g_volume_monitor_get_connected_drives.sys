@@ -1,2 +1,2 @@
-  fun get_connected_drives(volume_monitor': NullablePointer[GVolumeMonitorT]): NullablePointer[GListT] =>
-    @g_volume_monitor_get_connected_drives(volume_monitor')
+  fun get_connected_drives(volume_monitor': GVolumeMonitorI): NullablePointer[GListT] =>
+    @g_volume_monitor_get_connected_drives(volume_monitor'.getptr())

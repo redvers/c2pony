@@ -1,1 +1,1 @@
-use @g_socket_client_set_family[None](client': NullablePointer[GSocketClientT], family': U32)
+use @g_socket_client_set_family[None](client': NullablePointer[GObjectT], family': U32)

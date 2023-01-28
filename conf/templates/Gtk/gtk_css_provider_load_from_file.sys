@@ -1,2 +1,2 @@
-  fun load_from_file(css_provider': NullablePointer[GtkCssProviderT], file': NullablePointer[GFileT]): None =>
-    @gtk_css_provider_load_from_file(css_provider', file')
+  fun load_from_file(css_provider': GtkCssProviderI, file': GFileI): None =>
+    @gtk_css_provider_load_from_file(css_provider'.getptr(), file'.getptr())

@@ -1,2 +1,2 @@
-  fun ref set_print_settings(print_settings': NullablePointer[GtkPrintSettingsT]): None =>
+  fun ref set_print_settings(print_settings': GtkPrintSettingsI): None =>
     GtkPrintOperationP.set_print_settings(this, print_settings')

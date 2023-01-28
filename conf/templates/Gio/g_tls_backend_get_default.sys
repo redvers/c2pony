@@ -1,2 +1,2 @@
-  fun get_default(): NullablePointer[GTlsBackendT] =>
-    @g_tls_backend_get_default()
+  fun get_default(): NullablePointer[GObjectT] =>
+@g_tls_backend_get_default()

@@ -1,1 +1,1 @@
-use @g_unix_socket_address_get_path[Pointer[U8]](address': NullablePointer[GUnixSocketAddressT])
+use @g_unix_socket_address_get_path[Pointer[U8]](address': NullablePointer[GObjectT])

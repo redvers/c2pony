@@ -1,2 +1,2 @@
-  fun get_menubar(application': GtkApplicationI): NullablePointer[GMenuModelT] =>
-    @gtk_application_get_menubar(application'.getptr())
+  fun get_menubar(application': GtkApplicationI): NullablePointer[GObjectT] =>
+@gtk_application_get_menubar(application'.getptr())

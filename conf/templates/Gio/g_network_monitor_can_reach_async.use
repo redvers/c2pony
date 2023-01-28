@@ -1,1 +1,1 @@
-use @g_network_monitor_can_reach_async[None](monitor': NullablePointer[GNetworkMonitorT], connectable': NullablePointer[GSocketConnectableT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_network_monitor_can_reach_async[None](monitor': NullablePointer[GObjectT], connectable': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

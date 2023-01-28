@@ -1,1 +1,1 @@
-use @gtk_list_box_insert[None](box': NullablePointer[GtkListBoxT], child': NullablePointer[GObjectT], position': I32)
+use @gtk_list_box_insert[None](box': NullablePointer[GObjectT], child': NullablePointer[GObjectT], position': I32)

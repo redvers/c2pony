@@ -1,1 +1,1 @@
-use @gtk_widget_add_controller[None](widget': NullablePointer[GObjectT], controller': NullablePointer[GtkEventControllerT])
+use @gtk_widget_add_controller[None](widget': NullablePointer[GObjectT], controller': NullablePointer[GObjectT])

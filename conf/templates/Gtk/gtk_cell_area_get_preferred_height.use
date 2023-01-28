@@ -1,1 +1,1 @@
-use @gtk_cell_area_get_preferred_height[None](area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': NullablePointer[GObjectT], minimum_height': Pointer[I32] tag, natural_height': Pointer[I32] tag)
+use @gtk_cell_area_get_preferred_height[None](area': NullablePointer[GObjectT], context': NullablePointer[GObjectT], widget': NullablePointer[GObjectT], minimum_height': Pointer[I32] tag, natural_height': Pointer[I32] tag)

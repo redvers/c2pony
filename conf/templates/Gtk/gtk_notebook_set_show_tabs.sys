@@ -1,2 +1,2 @@
-  fun set_show_tabs(notebook': NullablePointer[GtkNotebookT], show_tabs': I32): None =>
-    @gtk_notebook_set_show_tabs(notebook', show_tabs')
+  fun set_show_tabs(notebook': GtkNotebookI, show_tabs': I32): None =>
+    @gtk_notebook_set_show_tabs(notebook'.getptr(), show_tabs')

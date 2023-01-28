@@ -1,2 +1,2 @@
-  fun list_children(settings': NullablePointer[GSettingsT]): Pointer[Pointer[U8]] tag =>
-    @g_settings_list_children(settings')
+  fun list_children(settings': GSettingsI): Pointer[Pointer[U8]] tag =>
+    @g_settings_list_children(settings'.getptr())

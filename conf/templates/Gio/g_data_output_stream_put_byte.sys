@@ -1,2 +1,2 @@
-  fun put_byte(stream': NullablePointer[GDataOutputStreamT], data': U8, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_data_output_stream_put_byte(stream', data', cancellable', error'.ptr)
+  fun put_byte(stream': GDataOutputStreamI, data': U8, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_data_output_stream_put_byte(stream'.getptr(), data', cancellable'.getptr(), error')

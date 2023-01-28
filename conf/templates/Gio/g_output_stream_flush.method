@@ -1,2 +1,2 @@
-  fun ref flush(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref flush(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GOutputStreamP.flush(this, cancellable', error')

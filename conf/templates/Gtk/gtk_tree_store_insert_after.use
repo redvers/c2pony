@@ -1,1 +1,1 @@
-use @gtk_tree_store_insert_after[None](tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT], sibling': NullablePointer[GtkTreeIterT])
+use @gtk_tree_store_insert_after[None](tree_store': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT], sibling': NullablePointer[GtkTreeIterT])

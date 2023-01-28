@@ -1,2 +1,2 @@
-  fun set_column(child': NullablePointer[GtkGridLayoutChildT], column': I32): None =>
-    @gtk_grid_layout_child_set_column(child', column')
+  fun set_column(child': GtkGridLayoutChildI, column': I32): None =>
+    @gtk_grid_layout_child_set_column(child'.getptr(), column')

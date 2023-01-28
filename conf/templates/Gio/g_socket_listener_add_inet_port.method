@@ -1,2 +1,2 @@
-  fun ref add_inet_port(port': U16, source_object': NullablePointer[GObjectT], error': GError): I32 =>
+  fun ref add_inet_port(port': U16, source_object': GObjectI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GSocketListenerP.add_inet_port(this, port', source_object', error')

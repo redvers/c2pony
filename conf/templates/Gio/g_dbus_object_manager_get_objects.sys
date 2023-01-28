@@ -1,2 +1,2 @@
-  fun get_objects(manager': NullablePointer[GDBusObjectManagerT]): NullablePointer[GListT] =>
-    @g_dbus_object_manager_get_objects(manager')
+  fun get_objects(manager': GDBusObjectManagerI): NullablePointer[GListT] =>
+    @g_dbus_object_manager_get_objects(manager'.getptr())

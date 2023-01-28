@@ -1,2 +1,2 @@
-  fun get_system_information(about': NullablePointer[GtkAboutDialogT]): String iso^ =>
-    String.from_cstring(@gtk_about_dialog_get_system_information(about')).clone()
+  fun get_system_information(about': GtkAboutDialogI): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_system_information(about'.getptr())).clone()

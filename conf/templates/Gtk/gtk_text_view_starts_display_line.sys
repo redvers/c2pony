@@ -1,2 +1,2 @@
-  fun starts_display_line(text_view': NullablePointer[GtkTextViewT], iter': NullablePointer[GtkTextIterT]): I32 =>
-    @gtk_text_view_starts_display_line(text_view', iter')
+  fun starts_display_line(text_view': GtkTextViewI, iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_view_starts_display_line(text_view'.getptr(), iter')

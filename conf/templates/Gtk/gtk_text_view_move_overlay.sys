@@ -1,2 +1,2 @@
-  fun move_overlay(text_view': NullablePointer[GtkTextViewT], child': GtkWidgetI, xpos': I32, ypos': I32): None =>
-    @gtk_text_view_move_overlay(text_view', child'.getptr(), xpos', ypos')
+  fun move_overlay(text_view': GtkTextViewI, child': GtkWidgetI, xpos': I32, ypos': I32): None =>
+    @gtk_text_view_move_overlay(text_view'.getptr(), child'.getptr(), xpos', ypos')

@@ -1,2 +1,2 @@
-  fun set_byte_order(message': NullablePointer[GDBusMessageT], byte_order': U32): None =>
-    @g_dbus_message_set_byte_order(message', byte_order')
+  fun set_byte_order(message': GDBusMessageI, byte_order': U32): None =>
+    @g_dbus_message_set_byte_order(message'.getptr(), byte_order')

@@ -1,2 +1,2 @@
-  fun set_license(about': NullablePointer[GtkAboutDialogT], license': String): None =>
-    @gtk_about_dialog_set_license(about', license'.cstring())
+  fun set_license(about': GtkAboutDialogI, license': String): None =>
+    @gtk_about_dialog_set_license(about'.getptr(), license'.cstring())

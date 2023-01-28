@@ -1,2 +1,2 @@
-  fun ref get_row(position': U32): NullablePointer[GtkTreeListRowT] =>
+  fun ref get_row(position': U32): NullablePointer[GObjectT] =>
     GtkTreeListModelP.get_row(this, position')

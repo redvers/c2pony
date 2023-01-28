@@ -1,2 +1,2 @@
-  fun append(box': NullablePointer[GtkListBoxT], child': GtkWidgetI): None =>
-    @gtk_list_box_append(box', child'.getptr())
+  fun append(box': GtkListBoxI, child': GtkWidgetI): None =>
+    @gtk_list_box_append(box'.getptr(), child'.getptr())

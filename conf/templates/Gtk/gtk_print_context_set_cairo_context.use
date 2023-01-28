@@ -1,1 +1,1 @@
-use @gtk_print_context_set_cairo_context[None](context': NullablePointer[GtkPrintContextT], cr': NullablePointer[cairoT], dpi_x': F64, dpi_y': F64)
+use @gtk_print_context_set_cairo_context[None](context': NullablePointer[GObjectT], cr': NullablePointer[cairoT], dpi_x': F64, dpi_y': F64)

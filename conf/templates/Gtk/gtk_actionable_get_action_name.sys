@@ -1,2 +1,2 @@
-  fun get_action_name(actionable': NullablePointer[GtkActionableT]): String iso^ =>
-    String.from_cstring(@gtk_actionable_get_action_name(actionable')).clone()
+  fun get_action_name(actionable': GtkActionableI): String iso^ =>
+    String.from_cstring(@gtk_actionable_get_action_name(actionable'.getptr())).clone()

@@ -1,1 +1,1 @@
-use @gtk_button_set_icon_name[None](button': NullablePointer[GtkButtonT], icon_name': Pointer[U8] tag)
+use @gtk_button_set_icon_name[None](button': NullablePointer[GObjectT], icon_name': Pointer[U8] tag)

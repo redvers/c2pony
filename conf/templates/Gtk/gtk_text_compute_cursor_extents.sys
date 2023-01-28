@@ -1,2 +1,2 @@
-  fun compute_cursor_extents(self': NullablePointer[GtkTextT], position': U64, strong': NullablePointer[graphenerecttT], weak': NullablePointer[graphenerecttT]): None =>
-    @gtk_text_compute_cursor_extents(self', position', strong', weak')
+  fun compute_cursor_extents(self': GtkTextI, position': U64, strong': NullablePointer[graphenerecttT], weak': NullablePointer[graphenerecttT]): None =>
+    @gtk_text_compute_cursor_extents(self'.getptr(), position', strong', weak')

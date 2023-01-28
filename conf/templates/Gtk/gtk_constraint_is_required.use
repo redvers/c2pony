@@ -1,1 +1,1 @@
-use @gtk_constraint_is_required[I32](constraint': NullablePointer[GtkConstraintT])
+use @gtk_constraint_is_required[I32](constraint': NullablePointer[GObjectT])

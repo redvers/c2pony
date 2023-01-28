@@ -1,2 +1,2 @@
-  fun set_support_selection(op': NullablePointer[GtkPrintOperationT], support_selection': I32): None =>
-    @gtk_print_operation_set_support_selection(op', support_selection')
+  fun set_support_selection(op': GtkPrintOperationI, support_selection': I32): None =>
+    @gtk_print_operation_set_support_selection(op'.getptr(), support_selection')

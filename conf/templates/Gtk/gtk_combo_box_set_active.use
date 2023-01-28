@@ -1,1 +1,1 @@
-use @gtk_combo_box_set_active[None](combo_box': NullablePointer[GtkComboBoxT], index': I32)
+use @gtk_combo_box_set_active[None](combo_box': NullablePointer[GObjectT], index': I32)

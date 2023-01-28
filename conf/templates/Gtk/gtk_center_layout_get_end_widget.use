@@ -1,1 +1,1 @@
-use @gtk_center_layout_get_end_widget[NullablePointer[GObjectT]](self': NullablePointer[GtkCenterLayoutT])
+use @gtk_center_layout_get_end_widget[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_icon_theme_set_theme_name[None](self': NullablePointer[GtkIconThemeT], theme_name': Pointer[U8] tag)
+use @gtk_icon_theme_set_theme_name[None](self': NullablePointer[GObjectT], theme_name': Pointer[U8] tag)

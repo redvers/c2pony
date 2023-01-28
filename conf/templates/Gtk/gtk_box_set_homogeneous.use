@@ -1,1 +1,1 @@
-use @gtk_box_set_homogeneous[None](box': NullablePointer[GtkBoxT], homogeneous': I32)
+use @gtk_box_set_homogeneous[None](box': NullablePointer[GObjectT], homogeneous': I32)

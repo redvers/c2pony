@@ -1,2 +1,2 @@
-  fun get_visibility(self': NullablePointer[GtkTextT]): I32 =>
-    @gtk_text_get_visibility(self')
+  fun get_visibility(self': GtkTextI): I32 =>
+    @gtk_text_get_visibility(self'.getptr())

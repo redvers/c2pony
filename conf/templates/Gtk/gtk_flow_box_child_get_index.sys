@@ -1,2 +1,2 @@
-  fun get_index(child': NullablePointer[GtkFlowBoxChildT]): I32 =>
-    @gtk_flow_box_child_get_index(child')
+  fun get_index(child': GtkFlowBoxChildI): I32 =>
+    @gtk_flow_box_child_get_index(child'.getptr())

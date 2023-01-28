@@ -1,2 +1,2 @@
-  fun get_keepalive(socket': NullablePointer[GSocketT]): I32 =>
-    @g_socket_get_keepalive(socket')
+  fun get_keepalive(socket': GSocketI): I32 =>
+    @g_socket_get_keepalive(socket'.getptr())

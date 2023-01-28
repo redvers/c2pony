@@ -1,2 +1,2 @@
-  fun newv(object_type': U64, n_parameters': U32, parameters': NullablePointer[GParameterT], cancellable': NullablePointer[GCancellableT], error': GError): Pointer[None] tag =>
-    @g_initable_newv(object_type', n_parameters', parameters', cancellable', error'.ptr)
+  fun newv(object_type': U64, n_parameters': U32, parameters': NullablePointer[GParameterT], cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): Pointer[None] tag =>
+    @g_initable_newv(object_type', n_parameters', parameters', cancellable'.getptr(), error')

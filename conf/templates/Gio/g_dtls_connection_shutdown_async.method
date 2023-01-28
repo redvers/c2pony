@@ -1,2 +1,2 @@
-  fun ref shutdown_async(shutdown_read': I32, shutdown_write': I32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref shutdown_async(shutdown_read': I32, shutdown_write': I32, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GDtlsConnectionP.shutdown_async(this, shutdown_read', shutdown_write', io_priority', cancellable', callback', user_data')

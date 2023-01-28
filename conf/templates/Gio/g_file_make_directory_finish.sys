@@ -1,2 +1,2 @@
-  fun make_directory_finish(file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_file_make_directory_finish(file', result', error'.ptr)
+  fun make_directory_finish(file': GFileI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_make_directory_finish(file'.getptr(), result'.getptr(), error')

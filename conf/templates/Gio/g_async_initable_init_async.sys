@@ -1,2 +1,2 @@
-  fun init_async(initable': NullablePointer[GAsyncInitableT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_async_initable_init_async(initable', io_priority', cancellable', callback', user_data')
+  fun init_async(initable': GAsyncInitableI, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_async_initable_init_async(initable'.getptr(), io_priority', cancellable'.getptr(), callback', user_data')

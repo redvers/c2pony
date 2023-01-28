@@ -1,2 +1,2 @@
-  fun get_column_view(self': NullablePointer[GtkColumnViewColumnT]): NullablePointer[GtkColumnViewT] =>
-    @gtk_column_view_column_get_column_view(self')
+  fun get_column_view(self': GtkColumnViewColumnI): NullablePointer[GObjectT] =>
+@gtk_column_view_column_get_column_view(self'.getptr())

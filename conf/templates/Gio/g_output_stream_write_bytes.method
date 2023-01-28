@@ -1,2 +1,2 @@
-  fun ref write_bytes(bytes': NullablePointer[GBytesT], cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
+  fun ref write_bytes(bytes': NullablePointer[GBytesT], cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
     GOutputStreamP.write_bytes(this, bytes', cancellable', error')

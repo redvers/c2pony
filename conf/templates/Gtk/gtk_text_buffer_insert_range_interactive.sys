@@ -1,2 +1,2 @@
-  fun insert_range_interactive(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT], default_editable': I32): I32 =>
-    @gtk_text_buffer_insert_range_interactive(buffer', iter', start', end', default_editable')
+  fun insert_range_interactive(buffer': GtkTextBufferI, iter': NullablePointer[GtkTextIterT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT], default_editable': I32): I32 =>
+    @gtk_text_buffer_insert_range_interactive(buffer'.getptr(), iter', start', end', default_editable')

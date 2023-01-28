@@ -1,2 +1,2 @@
-  fun get_mode(selection': NullablePointer[GtkTreeSelectionT]): U32 =>
-    @gtk_tree_selection_get_mode(selection')
+  fun get_mode(selection': GtkTreeSelectionI): U32 =>
+    @gtk_tree_selection_get_mode(selection'.getptr())

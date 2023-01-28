@@ -1,2 +1,2 @@
-  fun ref get_startup_notify_id(info': NullablePointer[GAppInfoT], files': NullablePointer[GListT]): String iso^ =>
+  fun ref get_startup_notify_id(info': GAppInfoI, files': NullablePointer[GListT]): String iso^ =>
     GAppLaunchContextP.get_startup_notify_id(this, info', files')

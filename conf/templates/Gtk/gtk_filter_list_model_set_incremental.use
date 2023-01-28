@@ -1,1 +1,1 @@
-use @gtk_filter_list_model_set_incremental[None](self': NullablePointer[GtkFilterListModelT], incremental': I32)
+use @gtk_filter_list_model_set_incremental[None](self': NullablePointer[GObjectT], incremental': I32)

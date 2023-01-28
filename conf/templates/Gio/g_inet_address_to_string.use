@@ -1,1 +1,1 @@
-use @g_inet_address_to_string[Pointer[U8]](address': NullablePointer[GInetAddressT])
+use @g_inet_address_to_string[Pointer[U8]](address': NullablePointer[GObjectT])

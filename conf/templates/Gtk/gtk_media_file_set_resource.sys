@@ -1,2 +1,2 @@
-  fun set_resource(self': NullablePointer[GtkMediaFileT], resource_path': String): None =>
-    @gtk_media_file_set_resource(self', resource_path'.cstring())
+  fun set_resource(self': GtkMediaFileI, resource_path': String): None =>
+    @gtk_media_file_set_resource(self'.getptr(), resource_path'.cstring())

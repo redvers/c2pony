@@ -1,1 +1,1 @@
-use @gtk_print_operation_set_print_settings[None](op': NullablePointer[GtkPrintOperationT], print_settings': NullablePointer[GtkPrintSettingsT])
+use @gtk_print_operation_set_print_settings[None](op': NullablePointer[GObjectT], print_settings': NullablePointer[GObjectT])

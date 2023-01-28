@@ -1,2 +1,2 @@
-  fun set_name(controller': NullablePointer[GtkEventControllerT], name': String): None =>
-    @gtk_event_controller_set_name(controller', name'.cstring())
+  fun set_name(controller': GtkEventControllerI, name': String): None =>
+    @gtk_event_controller_set_name(controller'.getptr(), name'.cstring())

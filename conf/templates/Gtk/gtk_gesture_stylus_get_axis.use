@@ -1,1 +1,1 @@
-use @gtk_gesture_stylus_get_axis[I32](gesture': NullablePointer[GtkGestureStylusT], axis': U32, value': Pointer[F64] tag)
+use @gtk_gesture_stylus_get_axis[I32](gesture': NullablePointer[GObjectT], axis': U32, value': Pointer[F64] tag)

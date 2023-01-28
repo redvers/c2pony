@@ -1,2 +1,2 @@
-  fun enumerate_identifiers(volume': NullablePointer[GVolumeT]): Pointer[Pointer[U8]] tag =>
-    @g_volume_enumerate_identifiers(volume')
+  fun enumerate_identifiers(volume': GVolumeI): Pointer[Pointer[U8]] tag =>
+    @g_volume_enumerate_identifiers(volume'.getptr())

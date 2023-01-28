@@ -1,2 +1,2 @@
-  fun set_file_type(info': NullablePointer[GFileInfoT], type': U32): None =>
-    @g_file_info_set_file_type(info', type')
+  fun set_file_type(info': GFileInfoI, type': U32): None =>
+    @g_file_info_set_file_type(info'.getptr(), type')

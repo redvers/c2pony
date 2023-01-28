@@ -1,2 +1,2 @@
-  fun set_displayed_row(cell_view': NullablePointer[GtkCellViewT], path': NullablePointer[GtkTreePathT]): None =>
-    @gtk_cell_view_set_displayed_row(cell_view', path')
+  fun set_displayed_row(cell_view': GtkCellViewI, path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_cell_view_set_displayed_row(cell_view'.getptr(), path')

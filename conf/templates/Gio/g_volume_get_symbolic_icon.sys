@@ -1,2 +1,2 @@
-  fun get_symbolic_icon(volume': NullablePointer[GVolumeT]): NullablePointer[GIconT] =>
-    @g_volume_get_symbolic_icon(volume')
+  fun get_symbolic_icon(volume': GVolumeI): NullablePointer[GObjectT] =>
+@g_volume_get_symbolic_icon(volume'.getptr())

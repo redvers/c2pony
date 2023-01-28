@@ -1,2 +1,2 @@
-  fun get_ignore_case(self': NullablePointer[GtkStringFilterT]): I32 =>
-    @gtk_string_filter_get_ignore_case(self')
+  fun get_ignore_case(self': GtkStringFilterI): I32 =>
+    @gtk_string_filter_get_ignore_case(self'.getptr())

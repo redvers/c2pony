@@ -1,2 +1,2 @@
-  fun remove_shortcut(self': NullablePointer[GtkShortcutControllerT], shortcut': NullablePointer[GtkShortcutT]): None =>
-    @gtk_shortcut_controller_remove_shortcut(self', shortcut')
+  fun remove_shortcut(self': GtkShortcutControllerI, shortcut': GtkShortcutI): None =>
+    @gtk_shortcut_controller_remove_shortcut(self'.getptr(), shortcut'.getptr())

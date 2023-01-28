@@ -1,2 +1,2 @@
-  fun ref filter_new(root': NullablePointer[GtkTreePathT]): NullablePointer[GtkTreeModelT] =>
+  fun ref filter_new(root': NullablePointer[GtkTreePathT]): NullablePointer[GObjectT] =>
     GtkTreeModelP.filter_new(this, root')

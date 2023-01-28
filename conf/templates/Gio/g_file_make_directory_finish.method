@@ -1,2 +1,2 @@
-  fun ref make_directory_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+  fun ref make_directory_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.make_directory_finish(this, result', error')

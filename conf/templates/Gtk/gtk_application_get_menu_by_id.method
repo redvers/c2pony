@@ -1,2 +1,2 @@
-  fun ref get_menu_by_id(id': String): NullablePointer[GMenuT] =>
+  fun ref get_menu_by_id(id': String): NullablePointer[GObjectT] =>
     GtkApplicationP.get_menu_by_id(this, id')

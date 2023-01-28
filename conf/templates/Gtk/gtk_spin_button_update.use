@@ -1,1 +1,1 @@
-use @gtk_spin_button_update[None](spin_button': NullablePointer[GtkSpinButtonT])
+use @gtk_spin_button_update[None](spin_button': NullablePointer[GObjectT])

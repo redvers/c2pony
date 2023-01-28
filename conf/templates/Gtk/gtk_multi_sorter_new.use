@@ -1,1 +1,1 @@
-use @gtk_multi_sorter_new[NullablePointer[GtkMultiSorterT]]()
+use @gtk_multi_sorter_new[NullablePointer[GObjectT]]()

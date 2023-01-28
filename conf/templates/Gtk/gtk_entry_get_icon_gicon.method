@@ -1,2 +1,2 @@
-  fun ref get_icon_gicon(icon_pos': U32): NullablePointer[GIconT] =>
+  fun ref get_icon_gicon(icon_pos': U32): NullablePointer[GObjectT] =>
     GtkEntryP.get_icon_gicon(this, icon_pos')

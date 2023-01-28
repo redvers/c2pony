@@ -1,2 +1,2 @@
-  fun get_emblems(emblemed': NullablePointer[GEmblemedIconT]): NullablePointer[GListT] =>
-    @g_emblemed_icon_get_emblems(emblemed')
+  fun get_emblems(emblemed': GEmblemedIconI): NullablePointer[GListT] =>
+    @g_emblemed_icon_get_emblems(emblemed'.getptr())

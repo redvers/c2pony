@@ -1,2 +1,2 @@
-  fun ref get_menubar(): NullablePointer[GMenuModelT] =>
+  fun ref get_menubar(): NullablePointer[GObjectT] =>
     GtkApplicationP.get_menubar(this)

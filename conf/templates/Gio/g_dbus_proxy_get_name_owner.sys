@@ -1,2 +1,2 @@
-  fun get_name_owner(proxy': NullablePointer[GDBusProxyT]): String iso^ =>
-    String.from_cstring(@g_dbus_proxy_get_name_owner(proxy')).clone()
+  fun get_name_owner(proxy': GDBusProxyI): String iso^ =>
+    String.from_cstring(@g_dbus_proxy_get_name_owner(proxy'.getptr())).clone()

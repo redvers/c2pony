@@ -1,1 +1,1 @@
-use @gtk_print_operation_preview_end_preview[None](preview': NullablePointer[GtkPrintOperationPreviewT])
+use @gtk_print_operation_preview_end_preview[None](preview': NullablePointer[GObjectT])

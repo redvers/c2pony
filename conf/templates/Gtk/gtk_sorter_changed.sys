@@ -1,2 +1,2 @@
-  fun changed(self': NullablePointer[GtkSorterT], change': U32): None =>
-    @gtk_sorter_changed(self', change')
+  fun changed(self': GtkSorterI, change': U32): None =>
+    @gtk_sorter_changed(self'.getptr(), change')

@@ -1,1 +1,1 @@
-use @g_app_info_dup[NullablePointer[GAppInfoT]](appinfo': NullablePointer[GAppInfoT])
+use @g_app_info_dup[NullablePointer[GObjectT]](appinfo': NullablePointer[GObjectT])

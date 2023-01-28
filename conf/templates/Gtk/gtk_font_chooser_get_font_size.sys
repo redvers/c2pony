@@ -1,2 +1,2 @@
-  fun get_font_size(fontchooser': NullablePointer[GtkFontChooserT]): I32 =>
-    @gtk_font_chooser_get_font_size(fontchooser')
+  fun get_font_size(fontchooser': GtkFontChooserI): I32 =>
+    @gtk_font_chooser_get_font_size(fontchooser'.getptr())

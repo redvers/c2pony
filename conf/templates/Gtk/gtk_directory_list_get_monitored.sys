@@ -1,2 +1,2 @@
-  fun get_monitored(self': NullablePointer[GtkDirectoryListT]): I32 =>
-    @gtk_directory_list_get_monitored(self')
+  fun get_monitored(self': GtkDirectoryListI): I32 =>
+    @gtk_directory_list_get_monitored(self'.getptr())

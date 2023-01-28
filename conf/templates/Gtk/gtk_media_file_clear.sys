@@ -1,2 +1,2 @@
-  fun clear(self': NullablePointer[GtkMediaFileT]): None =>
-    @gtk_media_file_clear(self')
+  fun clear(self': GtkMediaFileI): None =>
+    @gtk_media_file_clear(self'.getptr())

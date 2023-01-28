@@ -1,1 +1,1 @@
-use @gtk_viewport_set_scroll_to_focus[None](viewport': NullablePointer[GtkViewportT], scroll_to_focus': I32)
+use @gtk_viewport_set_scroll_to_focus[None](viewport': NullablePointer[GObjectT], scroll_to_focus': I32)

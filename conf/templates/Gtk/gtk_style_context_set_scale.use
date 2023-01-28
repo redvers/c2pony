@@ -1,1 +1,1 @@
-use @gtk_style_context_set_scale[None](context': NullablePointer[GtkStyleContextT], scale': I32)
+use @gtk_style_context_set_scale[None](context': NullablePointer[GObjectT], scale': I32)

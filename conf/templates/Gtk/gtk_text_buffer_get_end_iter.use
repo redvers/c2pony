@@ -1,1 +1,1 @@
-use @gtk_text_buffer_get_end_iter[None](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT])
+use @gtk_text_buffer_get_end_iter[None](buffer': NullablePointer[GObjectT], iter': NullablePointer[GtkTextIterT])

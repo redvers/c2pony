@@ -1,2 +1,2 @@
-  fun disconnect(cancellable': NullablePointer[GCancellableT], handler_id': U64): None =>
-    @g_cancellable_disconnect(cancellable', handler_id')
+  fun disconnect(cancellable': GCancellableI, handler_id': U64): None =>
+    @g_cancellable_disconnect(cancellable'.getptr(), handler_id')

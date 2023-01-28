@@ -1,1 +1,1 @@
-use @gtk_list_store_set_valist[None](list_store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], var_args': NullablePointer[valisttagT])
+use @gtk_list_store_set_valist[None](list_store': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT], var_args': NullablePointer[valisttagT])

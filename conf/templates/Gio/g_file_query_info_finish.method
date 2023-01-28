@@ -1,2 +1,2 @@
-  fun ref query_info_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileInfoT] =>
+  fun ref query_info_finish(res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.query_info_finish(this, res', error')

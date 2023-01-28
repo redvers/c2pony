@@ -1,1 +1,1 @@
-use @g_file_set_attributes_from_info[I32](file': NullablePointer[GFileT], info': NullablePointer[GFileInfoT], flags': U32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_set_attributes_from_info[I32](file': NullablePointer[GObjectT], info': NullablePointer[GObjectT], flags': U32, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

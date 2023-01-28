@@ -1,2 +1,2 @@
-  fun set_custom(tooltip': NullablePointer[GtkTooltipT], custom_widget': GtkWidgetI): None =>
-    @gtk_tooltip_set_custom(tooltip', custom_widget'.getptr())
+  fun set_custom(tooltip': GtkTooltipI, custom_widget': GtkWidgetI): None =>
+    @gtk_tooltip_set_custom(tooltip'.getptr(), custom_widget'.getptr())

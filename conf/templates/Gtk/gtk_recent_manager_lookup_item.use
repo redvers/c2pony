@@ -1,1 +1,1 @@
-use @gtk_recent_manager_lookup_item[NullablePointer[GtkRecentInfoT]](manager': NullablePointer[GtkRecentManagerT], uri': Pointer[U8] tag, error': NullablePointer[GErrorT])
+use @gtk_recent_manager_lookup_item[NullablePointer[GtkRecentInfoT]](manager': NullablePointer[GObjectT], uri': Pointer[U8] tag, error': NullablePointer[GErrorT])

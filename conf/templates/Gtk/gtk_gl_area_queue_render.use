@@ -1,1 +1,1 @@
-use @gtk_gl_area_queue_render[None](area': NullablePointer[GtkGLAreaT])
+use @gtk_gl_area_queue_render[None](area': NullablePointer[GObjectT])

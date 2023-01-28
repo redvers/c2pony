@@ -1,2 +1,2 @@
-  fun get_uri_scheme(file': NullablePointer[GFileT]): String iso^ =>
-    String.from_cstring(@g_file_get_uri_scheme(file')).clone()
+  fun get_uri_scheme(file': GFileI): String iso^ =>
+    String.from_cstring(@g_file_get_uri_scheme(file'.getptr())).clone()

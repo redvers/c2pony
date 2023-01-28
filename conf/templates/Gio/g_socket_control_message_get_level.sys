@@ -1,2 +1,2 @@
-  fun get_level(message': NullablePointer[GSocketControlMessageT]): I32 =>
-    @g_socket_control_message_get_level(message')
+  fun get_level(message': GSocketControlMessageI): I32 =>
+    @g_socket_control_message_get_level(message'.getptr())

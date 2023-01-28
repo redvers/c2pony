@@ -1,2 +1,2 @@
-  fun splice_async(stream1': NullablePointer[GIOStreamT], stream2': NullablePointer[GIOStreamT], flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_io_stream_splice_async(stream1', stream2', flags', io_priority', cancellable', callback', user_data')
+  fun splice_async(stream1': GIOStreamI, stream2': GIOStreamI, flags': U32, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_io_stream_splice_async(stream1'.getptr(), stream2'.getptr(), flags', io_priority', cancellable'.getptr(), callback', user_data')

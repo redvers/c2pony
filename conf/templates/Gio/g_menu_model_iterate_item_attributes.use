@@ -1,1 +1,1 @@
-use @g_menu_model_iterate_item_attributes[NullablePointer[GMenuAttributeIterT]](model': NullablePointer[GMenuModelT], item_index': I32)
+use @g_menu_model_iterate_item_attributes[NullablePointer[GObjectT]](model': NullablePointer[GObjectT], item_index': I32)

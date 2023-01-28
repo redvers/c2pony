@@ -1,2 +1,2 @@
-  new gnew(inetaddr': NullablePointer[GInetAddressT], port': U16, protocol': String, dest_hostname': String, dest_port': U16, username': String, password': String) =>
-    ptr = @g_proxy_address_new(inetaddr', port', protocol'.cstring(), dest_hostname'.cstring(), dest_port', username'.cstring(), password'.cstring())
+  new gnew(inetaddr': GInetAddressI, port': U16, protocol': String, dest_hostname': String, dest_port': U16, username': String, password': String) =>
+    ptr = @g_proxy_address_new(inetaddr'.getptr(), port', protocol'.cstring(), dest_hostname'.cstring(), dest_port', username'.cstring(), password'.cstring())

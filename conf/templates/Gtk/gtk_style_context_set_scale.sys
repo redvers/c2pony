@@ -1,2 +1,2 @@
-  fun set_scale(context': NullablePointer[GtkStyleContextT], scale': I32): None =>
-    @gtk_style_context_set_scale(context', scale')
+  fun set_scale(context': GtkStyleContextI, scale': I32): None =>
+    @gtk_style_context_set_scale(context'.getptr(), scale')

@@ -1,2 +1,2 @@
-  fun get_child_widget(layout_child': NullablePointer[GtkLayoutChildT]): NullablePointer[GObjectT] =>
-@gtk_layout_child_get_child_widget(layout_child')
+  fun get_child_widget(layout_child': GtkLayoutChildI): NullablePointer[GObjectT] =>
+@gtk_layout_child_get_child_widget(layout_child'.getptr())

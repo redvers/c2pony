@@ -1,2 +1,2 @@
-  fun ref add_shortcut(shortcut': NullablePointer[GtkShortcutT]): None =>
+  fun ref add_shortcut(shortcut': GtkShortcutI): None =>
     GtkWidgetClassP.add_shortcut(ptr, shortcut')

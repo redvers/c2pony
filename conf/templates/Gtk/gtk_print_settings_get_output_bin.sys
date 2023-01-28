@@ -1,2 +1,2 @@
-  fun get_output_bin(settings': NullablePointer[GtkPrintSettingsT]): String iso^ =>
-    String.from_cstring(@gtk_print_settings_get_output_bin(settings')).clone()
+  fun get_output_bin(settings': GtkPrintSettingsI): String iso^ =>
+    String.from_cstring(@gtk_print_settings_get_output_bin(settings'.getptr())).clone()

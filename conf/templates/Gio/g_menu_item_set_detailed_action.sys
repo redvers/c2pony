@@ -1,2 +1,2 @@
-  fun set_detailed_action(menu_item': NullablePointer[GMenuItemT], detailed_action': String): None =>
-    @g_menu_item_set_detailed_action(menu_item', detailed_action'.cstring())
+  fun set_detailed_action(menu_item': GMenuItemI, detailed_action': String): None =>
+    @g_menu_item_set_detailed_action(menu_item'.getptr(), detailed_action'.cstring())

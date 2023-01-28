@@ -1,1 +1,1 @@
-use @g_application_command_line_get_platform_data[NullablePointer[GVariantT]](cmdline': NullablePointer[GApplicationCommandLineT])
+use @g_application_command_line_get_platform_data[NullablePointer[GVariantT]](cmdline': NullablePointer[GObjectT])

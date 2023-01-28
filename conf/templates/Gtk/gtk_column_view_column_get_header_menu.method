@@ -1,2 +1,2 @@
-  fun ref get_header_menu(): NullablePointer[GMenuModelT] =>
+  fun ref get_header_menu(): NullablePointer[GObjectT] =>
     GtkColumnViewColumnP.get_header_menu(this)

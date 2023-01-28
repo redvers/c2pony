@@ -1,1 +1,1 @@
-use @gtk_tree_expander_get_child[NullablePointer[GObjectT]](self': NullablePointer[GtkTreeExpanderT])
+use @gtk_tree_expander_get_child[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

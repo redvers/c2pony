@@ -1,2 +1,2 @@
-  fun convert_child_path_to_path(filter': NullablePointer[GtkTreeModelFilterT], child_path': NullablePointer[GtkTreePathT]): NullablePointer[GtkTreePathT] =>
-    @gtk_tree_model_filter_convert_child_path_to_path(filter', child_path')
+  fun convert_child_path_to_path(filter': GtkTreeModelFilterI, child_path': NullablePointer[GtkTreePathT]): NullablePointer[GtkTreePathT] =>
+    @gtk_tree_model_filter_convert_child_path_to_path(filter'.getptr(), child_path')

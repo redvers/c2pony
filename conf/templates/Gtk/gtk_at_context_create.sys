@@ -1,2 +1,2 @@
-  new create(accessible_role': U32, accessible': NullablePointer[GtkAccessibleT], display': NullablePointer[GdkDisplayT]) =>
-    ptr = @gtk_at_context_create(accessible_role', accessible', display')
+  new create(accessible_role': U32, accessible': GtkAccessibleI, display': NullablePointer[GdkDisplayT]) =>
+    ptr = @gtk_at_context_create(accessible_role', accessible'.getptr(), display')

@@ -1,2 +1,2 @@
-  fun get_child_anchor(iter': NullablePointer[GtkTextIterT]): NullablePointer[GtkTextChildAnchorT] =>
-    @gtk_text_iter_get_child_anchor(iter')
+  fun get_child_anchor(iter': NullablePointer[GtkTextIterT]): NullablePointer[GObjectT] =>
+@gtk_text_iter_get_child_anchor(iter')

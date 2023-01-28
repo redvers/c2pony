@@ -1,1 +1,1 @@
-use @g_proxy_resolver_get_default[NullablePointer[GProxyResolverT]]()
+use @g_proxy_resolver_get_default[NullablePointer[GObjectT]]()

@@ -1,1 +1,1 @@
-use @g_subprocess_launcher_set_stderr_file_path[None](self': NullablePointer[GSubprocessLauncherT], path': Pointer[U8] tag)
+use @g_subprocess_launcher_set_stderr_file_path[None](self': NullablePointer[GObjectT], path': Pointer[U8] tag)

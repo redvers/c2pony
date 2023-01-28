@@ -1,1 +1,1 @@
-use @gtk_widget_paintable_set_widget[None](self': NullablePointer[GtkWidgetPaintableT], widget': NullablePointer[GObjectT])
+use @gtk_widget_paintable_set_widget[None](self': NullablePointer[GObjectT], widget': NullablePointer[GObjectT])

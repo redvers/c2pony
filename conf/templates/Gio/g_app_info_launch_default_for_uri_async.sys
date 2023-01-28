@@ -1,2 +1,2 @@
-  fun launch_default_for_uri_async(uri': String, context': NullablePointer[GAppLaunchContextT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_app_info_launch_default_for_uri_async(uri'.cstring(), context', cancellable', callback', user_data')
+  fun launch_default_for_uri_async(uri': String, context': GAppLaunchContextI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_app_info_launch_default_for_uri_async(uri'.cstring(), context'.getptr(), cancellable'.getptr(), callback', user_data')

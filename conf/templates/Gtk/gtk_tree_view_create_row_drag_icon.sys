@@ -1,2 +1,2 @@
-  fun create_row_drag_icon(tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT]): NullablePointer[GdkPaintableT] =>
-    @gtk_tree_view_create_row_drag_icon(tree_view', path')
+  fun create_row_drag_icon(tree_view': GtkTreeViewI, path': NullablePointer[GtkTreePathT]): NullablePointer[GdkPaintableT] =>
+    @gtk_tree_view_create_row_drag_icon(tree_view'.getptr(), path')

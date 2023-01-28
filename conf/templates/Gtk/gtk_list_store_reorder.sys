@@ -1,2 +1,2 @@
-  fun reorder(store': NullablePointer[GtkListStoreT], new_order': Pointer[I32] tag): None =>
-    @gtk_list_store_reorder(store', new_order')
+  fun reorder(store': GtkListStoreI, new_order': Pointer[I32] tag): None =>
+    @gtk_list_store_reorder(store'.getptr(), new_order')

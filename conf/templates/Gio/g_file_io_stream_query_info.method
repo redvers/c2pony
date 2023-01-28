@@ -1,2 +1,2 @@
-  fun ref query_info(attributes': String, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileInfoT] =>
+  fun ref query_info(attributes': String, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileIOStreamP.query_info(this, attributes', cancellable', error')

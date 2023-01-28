@@ -1,1 +1,1 @@
-use @g_mount_guess_content_type_sync[Pointer[Pointer[U8]] tag](mount': NullablePointer[GMountT], force_rescan': I32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_mount_guess_content_type_sync[Pointer[Pointer[U8]] tag](mount': NullablePointer[GObjectT], force_rescan': I32, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @g_task_set_priority[None](task': NullablePointer[GTaskT], priority': I32)
+use @g_task_set_priority[None](task': NullablePointer[GObjectT], priority': I32)

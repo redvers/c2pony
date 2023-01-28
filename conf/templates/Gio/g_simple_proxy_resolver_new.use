@@ -1,1 +1,1 @@
-use @g_simple_proxy_resolver_new[NullablePointer[GProxyResolverT]](default_proxy': Pointer[U8] tag, ignore_hosts': Pointer[Pointer[U8]] tag)
+use @g_simple_proxy_resolver_new[NullablePointer[GObjectT]](default_proxy': Pointer[U8] tag, ignore_hosts': Pointer[Pointer[U8]] tag)

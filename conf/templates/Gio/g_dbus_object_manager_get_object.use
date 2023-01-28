@@ -1,1 +1,1 @@
-use @g_dbus_object_manager_get_object[NullablePointer[GDBusObjectT]](manager': NullablePointer[GDBusObjectManagerT], object_path': Pointer[U8] tag)
+use @g_dbus_object_manager_get_object[NullablePointer[GObjectT]](manager': NullablePointer[GObjectT], object_path': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun make_directory_with_parents(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_file_make_directory_with_parents(file', cancellable', error'.ptr)
+  fun make_directory_with_parents(file': GFileI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_make_directory_with_parents(file'.getptr(), cancellable'.getptr(), error')

@@ -1,2 +1,2 @@
-  fun add_shortcut(widget_class': NullablePointer[GtkWidgetClassT], shortcut': NullablePointer[GtkShortcutT]): None =>
-    @gtk_widget_class_add_shortcut(widget_class', shortcut')
+  fun add_shortcut(widget_class': NullablePointer[GtkWidgetClassT], shortcut': GtkShortcutI): None =>
+    @gtk_widget_class_add_shortcut(widget_class', shortcut'.getptr())

@@ -1,2 +1,2 @@
-  fun set_default_timeout(proxy': NullablePointer[GDBusProxyT], timeout_msec': I32): None =>
-    @g_dbus_proxy_set_default_timeout(proxy', timeout_msec')
+  fun set_default_timeout(proxy': GDBusProxyI, timeout_msec': I32): None =>
+    @g_dbus_proxy_set_default_timeout(proxy'.getptr(), timeout_msec')

@@ -1,2 +1,2 @@
-  fun ref get_child(name': String): NullablePointer[GFileT] =>
+  fun ref get_child(name': String): NullablePointer[GObjectT] =>
     GFileP.get_child(this, name')

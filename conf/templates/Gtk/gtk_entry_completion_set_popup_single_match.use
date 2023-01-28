@@ -1,1 +1,1 @@
-use @gtk_entry_completion_set_popup_single_match[None](completion': NullablePointer[GtkEntryCompletionT], popup_single_match': I32)
+use @gtk_entry_completion_set_popup_single_match[None](completion': NullablePointer[GObjectT], popup_single_match': I32)

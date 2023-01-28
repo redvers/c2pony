@@ -1,2 +1,2 @@
-  fun ref unmount(flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref unmount(flags': U32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GMountP.unmount(this, flags', cancellable', callback', user_data')

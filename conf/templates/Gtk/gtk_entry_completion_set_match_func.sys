@@ -1,2 +1,2 @@
-  fun set_match_func(completion': NullablePointer[GtkEntryCompletionT], func': GtkEntryCompletionMatchFunc, func_data': Pointer[None] tag, func_notify': Pointer[None]): None =>
-    @gtk_entry_completion_set_match_func(completion', func', func_data', func_notify')
+  fun set_match_func(completion': GtkEntryCompletionI, func': GtkEntryCompletionMatchFunc, func_data': Pointer[None] tag, func_notify': Pointer[None]): None =>
+    @gtk_entry_completion_set_match_func(completion'.getptr(), func', func_data', func_notify')

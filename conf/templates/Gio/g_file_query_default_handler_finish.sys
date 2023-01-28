@@ -1,2 +1,2 @@
-  fun query_default_handler_finish(file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GAppInfoT] =>
-    @g_file_query_default_handler_finish(file', result', error'.ptr)
+  fun query_default_handler_finish(file': GFileI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_query_default_handler_finish(file'.getptr(), result'.getptr(), error')

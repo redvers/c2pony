@@ -1,1 +1,1 @@
-use @gtk_tooltip_set_icon_from_icon_name[None](tooltip': NullablePointer[GtkTooltipT], icon_name': Pointer[U8] tag)
+use @gtk_tooltip_set_icon_from_icon_name[None](tooltip': NullablePointer[GObjectT], icon_name': Pointer[U8] tag)

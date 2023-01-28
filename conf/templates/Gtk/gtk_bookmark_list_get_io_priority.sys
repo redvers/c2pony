@@ -1,2 +1,2 @@
-  fun get_io_priority(self': NullablePointer[GtkBookmarkListT]): I32 =>
-    @gtk_bookmark_list_get_io_priority(self')
+  fun get_io_priority(self': GtkBookmarkListI): I32 =>
+    @gtk_bookmark_list_get_io_priority(self'.getptr())

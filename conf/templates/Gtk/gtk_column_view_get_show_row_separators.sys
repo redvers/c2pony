@@ -1,2 +1,2 @@
-  fun get_show_row_separators(self': NullablePointer[GtkColumnViewT]): I32 =>
-    @gtk_column_view_get_show_row_separators(self')
+  fun get_show_row_separators(self': GtkColumnViewI): I32 =>
+    @gtk_column_view_get_show_row_separators(self'.getptr())

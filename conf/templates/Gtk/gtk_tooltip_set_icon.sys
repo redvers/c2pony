@@ -1,2 +1,2 @@
-  fun set_icon(tooltip': NullablePointer[GtkTooltipT], paintable': NullablePointer[GdkPaintableT]): None =>
-    @gtk_tooltip_set_icon(tooltip', paintable')
+  fun set_icon(tooltip': GtkTooltipI, paintable': NullablePointer[GdkPaintableT]): None =>
+    @gtk_tooltip_set_icon(tooltip'.getptr(), paintable')

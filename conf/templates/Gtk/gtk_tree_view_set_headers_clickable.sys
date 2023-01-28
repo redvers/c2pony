@@ -1,2 +1,2 @@
-  fun set_headers_clickable(tree_view': NullablePointer[GtkTreeViewT], setting': I32): None =>
-    @gtk_tree_view_set_headers_clickable(tree_view', setting')
+  fun set_headers_clickable(tree_view': GtkTreeViewI, setting': I32): None =>
+    @gtk_tree_view_set_headers_clickable(tree_view'.getptr(), setting')

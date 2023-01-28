@@ -1,2 +1,2 @@
-  fun add_suffix(filter': NullablePointer[GtkFileFilterT], suffix': String): None =>
-    @gtk_file_filter_add_suffix(filter', suffix'.cstring())
+  fun add_suffix(filter': GtkFileFilterI, suffix': String): None =>
+    @gtk_file_filter_add_suffix(filter'.getptr(), suffix'.cstring())

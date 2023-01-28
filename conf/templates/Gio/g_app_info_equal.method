@@ -1,2 +1,2 @@
-  fun ref equal(appinfo2': NullablePointer[GAppInfoT]): I32 =>
+  fun ref equal(appinfo2': GAppInfoI): I32 =>
     GAppInfoP.equal(this, appinfo2')

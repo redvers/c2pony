@@ -1,2 +1,2 @@
-  fun shutdown(conn': NullablePointer[GDtlsConnectionT], shutdown_read': I32, shutdown_write': I32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_dtls_connection_shutdown(conn', shutdown_read', shutdown_write', cancellable', error'.ptr)
+  fun shutdown(conn': GDtlsConnectionI, shutdown_read': I32, shutdown_write': I32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_dtls_connection_shutdown(conn'.getptr(), shutdown_read', shutdown_write', cancellable'.getptr(), error')

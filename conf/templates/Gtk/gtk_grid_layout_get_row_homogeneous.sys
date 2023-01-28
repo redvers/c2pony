@@ -1,2 +1,2 @@
-  fun get_row_homogeneous(grid': NullablePointer[GtkGridLayoutT]): I32 =>
-    @gtk_grid_layout_get_row_homogeneous(grid')
+  fun get_row_homogeneous(grid': GtkGridLayoutI): I32 =>
+    @gtk_grid_layout_get_row_homogeneous(grid'.getptr())

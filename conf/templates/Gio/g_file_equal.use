@@ -1,1 +1,1 @@
-use @g_file_equal[I32](file1': NullablePointer[GFileT], file2': NullablePointer[GFileT])
+use @g_file_equal[I32](file1': NullablePointer[GObjectT], file2': NullablePointer[GObjectT])

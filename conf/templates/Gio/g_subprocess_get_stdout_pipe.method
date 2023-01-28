@@ -1,2 +1,2 @@
-  fun ref get_stdout_pipe(): NullablePointer[GInputStreamT] =>
+  fun ref get_stdout_pipe(): NullablePointer[GObjectT] =>
     GSubprocessP.get_stdout_pipe(this)

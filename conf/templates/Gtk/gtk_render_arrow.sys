@@ -1,2 +1,2 @@
-  fun render_arrow(context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], angle': F64, x': F64, y': F64, size': F64): None =>
-    @gtk_render_arrow(context', cr', angle', x', y', size')
+  fun render_arrow(context': GtkStyleContextI, cr': NullablePointer[cairoT], angle': F64, x': F64, y': F64, size': F64): None =>
+    @gtk_render_arrow(context'.getptr(), cr', angle', x', y', size')

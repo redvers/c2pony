@@ -1,1 +1,1 @@
-use @g_zlib_compressor_set_file_info[None](compressor': NullablePointer[GZlibCompressorT], file_info': NullablePointer[GFileInfoT])
+use @g_zlib_compressor_set_file_info[None](compressor': NullablePointer[GObjectT], file_info': NullablePointer[GObjectT])

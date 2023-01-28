@@ -1,1 +1,1 @@
-use @g_socket_listener_accept[NullablePointer[GSocketConnectionT]](listener': NullablePointer[GSocketListenerT], source_object': Pointer[NullablePointer[GObjectT]], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_socket_listener_accept[NullablePointer[GObjectT]](listener': NullablePointer[GObjectT], source_object': Pointer[NullablePointer[GObjectT]], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

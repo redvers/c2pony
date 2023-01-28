@@ -1,2 +1,2 @@
-  fun insert_with_values(list_store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], position': I32, ...): None =>
-    @gtk_list_store_insert_with_values(list_store', iter', position', ...)
+  fun insert_with_values(list_store': GtkListStoreI, iter': NullablePointer[GtkTreeIterT], position': I32, ...): None =>
+    @gtk_list_store_insert_with_values(list_store'.getptr(), iter', position', ...)

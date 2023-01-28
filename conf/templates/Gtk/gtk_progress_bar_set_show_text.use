@@ -1,1 +1,1 @@
-use @gtk_progress_bar_set_show_text[None](pbar': NullablePointer[GtkProgressBarT], show_text': I32)
+use @gtk_progress_bar_set_show_text[None](pbar': NullablePointer[GObjectT], show_text': I32)

@@ -1,2 +1,2 @@
-  fun lookup_item(manager': NullablePointer[GtkRecentManagerT], uri': String, error': GError): NullablePointer[GtkRecentInfoT] =>
-    @gtk_recent_manager_lookup_item(manager', uri'.cstring(), error'.ptr)
+  fun lookup_item(manager': GtkRecentManagerI, uri': String, error': GError): NullablePointer[GtkRecentInfoT] =>
+    @gtk_recent_manager_lookup_item(manager'.getptr(), uri'.cstring(), error'.ptr)

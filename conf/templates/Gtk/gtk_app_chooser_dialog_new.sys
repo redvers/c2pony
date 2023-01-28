@@ -1,2 +1,2 @@
-  new gnew(parent': GtkWindowI, flags': U32, file': NullablePointer[GFileT]) =>
-    ptr = @gtk_app_chooser_dialog_new(parent'.getptr(), flags', file')
+  new gnew(parent': GtkWindowI, flags': U32, file': GFileI) =>
+    ptr = @gtk_app_chooser_dialog_new(parent'.getptr(), flags', file'.getptr())

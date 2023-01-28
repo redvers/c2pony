@@ -1,2 +1,2 @@
-  new gnew(hadjustment': NullablePointer[GtkAdjustmentT], vadjustment': NullablePointer[GtkAdjustmentT]) =>
-    ptr = @gtk_viewport_new(hadjustment', vadjustment')
+  new gnew(hadjustment': GtkAdjustmentI, vadjustment': GtkAdjustmentI) =>
+    ptr = @gtk_viewport_new(hadjustment'.getptr(), vadjustment'.getptr())

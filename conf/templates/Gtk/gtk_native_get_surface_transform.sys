@@ -1,2 +1,2 @@
-  fun get_surface_transform(self': NullablePointer[GtkNativeT], x': Pointer[F64] tag, y': Pointer[F64] tag): None =>
-    @gtk_native_get_surface_transform(self', x', y')
+  fun get_surface_transform(self': GtkNativeI, x': Pointer[F64] tag, y': Pointer[F64] tag): None =>
+    @gtk_native_get_surface_transform(self'.getptr(), x', y')

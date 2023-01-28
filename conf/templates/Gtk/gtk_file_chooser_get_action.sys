@@ -1,2 +1,2 @@
-  fun get_action(chooser': NullablePointer[GtkFileChooserT]): U32 =>
-    @gtk_file_chooser_get_action(chooser')
+  fun get_action(chooser': GtkFileChooserI): U32 =>
+    @gtk_file_chooser_get_action(chooser'.getptr())

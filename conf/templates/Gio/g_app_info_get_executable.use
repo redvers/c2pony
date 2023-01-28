@@ -1,1 +1,1 @@
-use @g_app_info_get_executable[Pointer[U8]](appinfo': NullablePointer[GAppInfoT])
+use @g_app_info_get_executable[Pointer[U8]](appinfo': NullablePointer[GObjectT])

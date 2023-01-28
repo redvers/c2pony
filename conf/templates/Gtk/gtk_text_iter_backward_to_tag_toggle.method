@@ -1,2 +1,2 @@
-  fun ref backward_to_tag_toggle(tag': NullablePointer[GtkTextTagT]): I32 =>
+  fun ref backward_to_tag_toggle(tag': GtkTextTagI): I32 =>
     GtkTextIterP.backward_to_tag_toggle(ptr, tag')

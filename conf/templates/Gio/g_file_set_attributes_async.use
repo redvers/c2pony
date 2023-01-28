@@ -1,1 +1,1 @@
-use @g_file_set_attributes_async[None](file': NullablePointer[GFileT], info': NullablePointer[GFileInfoT], flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_file_set_attributes_async[None](file': NullablePointer[GObjectT], info': NullablePointer[GObjectT], flags': U32, io_priority': I32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

@@ -1,2 +1,2 @@
-  fun get_serial(message': NullablePointer[GDBusMessageT]): U32 =>
-    @g_dbus_message_get_serial(message')
+  fun get_serial(message': GDBusMessageI): U32 =>
+    @g_dbus_message_get_serial(message'.getptr())

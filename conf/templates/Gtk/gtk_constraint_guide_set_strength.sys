@@ -1,2 +1,2 @@
-  fun set_strength(guide': NullablePointer[GtkConstraintGuideT], strength': U32): None =>
-    @gtk_constraint_guide_set_strength(guide', strength')
+  fun set_strength(guide': GtkConstraintGuideI, strength': U32): None =>
+    @gtk_constraint_guide_set_strength(guide'.getptr(), strength')

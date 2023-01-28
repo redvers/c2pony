@@ -1,1 +1,1 @@
-use @g_socket_client_connect_to_uri_async[None](client': NullablePointer[GSocketClientT], uri': Pointer[U8] tag, default_port': U16, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_socket_client_connect_to_uri_async[None](client': NullablePointer[GObjectT], uri': Pointer[U8] tag, default_port': U16, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

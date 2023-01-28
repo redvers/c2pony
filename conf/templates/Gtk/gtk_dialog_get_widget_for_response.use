@@ -1,1 +1,1 @@
-use @gtk_dialog_get_widget_for_response[NullablePointer[GObjectT]](dialog': NullablePointer[GtkDialogT], response_id': I32)
+use @gtk_dialog_get_widget_for_response[NullablePointer[GObjectT]](dialog': NullablePointer[GObjectT], response_id': I32)

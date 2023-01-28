@@ -1,1 +1,1 @@
-use @g_io_module_new[NullablePointer[GIOModuleT]](filename': Pointer[U8] tag)
+use @g_io_module_new[NullablePointer[GObjectT]](filename': Pointer[U8] tag)

@@ -1,1 +1,1 @@
-use @gtk_grid_view_set_single_click_activate[None](self': NullablePointer[GtkGridViewT], single_click_activate': I32)
+use @gtk_grid_view_set_single_click_activate[None](self': NullablePointer[GObjectT], single_click_activate': I32)

@@ -1,2 +1,2 @@
-  fun set_finishings(settings': NullablePointer[GtkPrintSettingsT], finishings': String): None =>
-    @gtk_print_settings_set_finishings(settings', finishings'.cstring())
+  fun set_finishings(settings': GtkPrintSettingsI, finishings': String): None =>
+    @gtk_print_settings_set_finishings(settings'.getptr(), finishings'.cstring())

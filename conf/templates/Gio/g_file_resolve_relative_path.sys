@@ -1,2 +1,2 @@
-  fun resolve_relative_path(file': NullablePointer[GFileT], relative_path': String): NullablePointer[GFileT] =>
-    @g_file_resolve_relative_path(file', relative_path'.cstring())
+  fun resolve_relative_path(file': GFileI, relative_path': String): NullablePointer[GObjectT] =>
+@g_file_resolve_relative_path(file'.getptr(), relative_path'.cstring())

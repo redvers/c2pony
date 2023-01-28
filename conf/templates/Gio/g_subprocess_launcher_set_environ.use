@@ -1,1 +1,1 @@
-use @g_subprocess_launcher_set_environ[None](self': NullablePointer[GSubprocessLauncherT], env': Pointer[Pointer[U8]] tag)
+use @g_subprocess_launcher_set_environ[None](self': NullablePointer[GObjectT], env': Pointer[Pointer[U8]] tag)

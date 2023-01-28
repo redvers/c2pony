@@ -1,2 +1,2 @@
-  fun ref writev_finish(result': NullablePointer[GAsyncResultT], bytes_written': Pointer[U64] tag, error': GError): I32 =>
+  fun ref writev_finish(result': GAsyncResultI, bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GOutputStreamP.writev_finish(this, result', bytes_written', error')

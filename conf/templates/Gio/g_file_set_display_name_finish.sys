@@ -1,2 +1,2 @@
-  fun set_display_name_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileT] =>
-    @g_file_set_display_name_finish(file', res', error'.ptr)
+  fun set_display_name_finish(file': GFileI, res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_set_display_name_finish(file'.getptr(), res'.getptr(), error')

@@ -1,2 +1,2 @@
-  fun ref set_file(file': NullablePointer[GFileT], error': GError): I32 =>
+  fun ref set_file(file': GFileI, error': GError): I32 =>
     GtkFileChooserP.set_file(this, file', error')

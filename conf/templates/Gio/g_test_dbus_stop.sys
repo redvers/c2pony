@@ -1,2 +1,2 @@
-  fun stop(self': NullablePointer[GTestDBusT]): None =>
-    @g_test_dbus_stop(self')
+  fun stop(self': GTestDBusI): None =>
+    @g_test_dbus_stop(self'.getptr())

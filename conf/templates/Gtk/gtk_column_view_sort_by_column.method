@@ -1,2 +1,2 @@
-  fun ref sort_by_column(column': NullablePointer[GtkColumnViewColumnT], direction': U32): None =>
+  fun ref sort_by_column(column': GtkColumnViewColumnI, direction': U32): None =>
     GtkColumnViewP.sort_by_column(this, column', direction')

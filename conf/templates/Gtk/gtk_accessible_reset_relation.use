@@ -1,1 +1,1 @@
-use @gtk_accessible_reset_relation[None](self': NullablePointer[GtkAccessibleT], relation': U32)
+use @gtk_accessible_reset_relation[None](self': NullablePointer[GObjectT], relation': U32)

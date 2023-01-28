@@ -1,1 +1,1 @@
-use @gtk_icon_view_set_markup_column[None](icon_view': NullablePointer[GtkIconViewT], column': I32)
+use @gtk_icon_view_set_markup_column[None](icon_view': NullablePointer[GObjectT], column': I32)

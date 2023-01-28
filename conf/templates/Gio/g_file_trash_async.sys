@@ -1,2 +1,2 @@
-  fun trash_async(file': NullablePointer[GFileT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_file_trash_async(file', io_priority', cancellable', callback', user_data')
+  fun trash_async(file': GFileI, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_trash_async(file'.getptr(), io_priority', cancellable'.getptr(), callback', user_data')

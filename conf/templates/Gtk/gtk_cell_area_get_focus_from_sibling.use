@@ -1,1 +1,1 @@
-use @gtk_cell_area_get_focus_from_sibling[NullablePointer[GtkCellRendererT]](area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT])
+use @gtk_cell_area_get_focus_from_sibling[NullablePointer[GObjectT]](area': NullablePointer[GObjectT], renderer': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_native(widget': GtkWidgetI): NullablePointer[GtkNativeT] =>
-    @gtk_widget_get_native(widget'.getptr())
+  fun get_native(widget': GtkWidgetI): NullablePointer[GObjectT] =>
+@gtk_widget_get_native(widget'.getptr())

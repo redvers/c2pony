@@ -1,2 +1,2 @@
-  fun get_modified(buffer': NullablePointer[GtkTextBufferT]): I32 =>
-    @gtk_text_buffer_get_modified(buffer')
+  fun get_modified(buffer': GtkTextBufferI): I32 =>
+    @gtk_text_buffer_get_modified(buffer'.getptr())

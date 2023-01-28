@@ -1,1 +1,1 @@
-use @gtk_text_buffer_remove_tag_by_name[None](buffer': NullablePointer[GtkTextBufferT], name': Pointer[U8] tag, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT])
+use @gtk_text_buffer_remove_tag_by_name[None](buffer': NullablePointer[GObjectT], name': Pointer[U8] tag, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT])

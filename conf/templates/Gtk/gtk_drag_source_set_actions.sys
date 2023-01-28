@@ -1,2 +1,2 @@
-  fun set_actions(source': NullablePointer[GtkDragSourceT], actions': U32): None =>
-    @gtk_drag_source_set_actions(source', actions')
+  fun set_actions(source': GtkDragSourceI, actions': U32): None =>
+    @gtk_drag_source_set_actions(source'.getptr(), actions')

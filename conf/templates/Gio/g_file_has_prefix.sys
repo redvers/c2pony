@@ -1,2 +1,2 @@
-  fun has_prefix(file': NullablePointer[GFileT], prefix': NullablePointer[GFileT]): I32 =>
-    @g_file_has_prefix(file', prefix')
+  fun has_prefix(file': GFileI, prefix': GFileI): I32 =>
+    @g_file_has_prefix(file'.getptr(), prefix'.getptr())

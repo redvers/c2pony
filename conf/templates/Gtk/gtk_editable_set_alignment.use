@@ -1,1 +1,1 @@
-use @gtk_editable_set_alignment[None](editable': NullablePointer[GtkEditableT], xalign': F32)
+use @gtk_editable_set_alignment[None](editable': NullablePointer[GObjectT], xalign': F32)

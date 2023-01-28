@@ -1,1 +1,1 @@
-use @g_dbus_connection_remove_filter[None](connection': NullablePointer[GDBusConnectionT], filter_id': U32)
+use @g_dbus_connection_remove_filter[None](connection': NullablePointer[GObjectT], filter_id': U32)

@@ -1,1 +1,1 @@
-use @g_datagram_based_send_messages[I32](datagram_based': NullablePointer[GDatagramBasedT], messages': NullablePointer[GOutputMessageT], num_messages': U32, flags': I32, timeout': I64, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_datagram_based_send_messages[I32](datagram_based': NullablePointer[GObjectT], messages': NullablePointer[GOutputMessageT], num_messages': U32, flags': I32, timeout': I64, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

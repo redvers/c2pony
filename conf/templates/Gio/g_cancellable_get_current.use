@@ -1,1 +1,1 @@
-use @g_cancellable_get_current[NullablePointer[GCancellableT]]()
+use @g_cancellable_get_current[NullablePointer[GObjectT]]()

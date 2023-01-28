@@ -1,1 +1,1 @@
-use @gtk_notebook_prev_page[None](notebook': NullablePointer[GtkNotebookT])
+use @gtk_notebook_prev_page[None](notebook': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun rows_reordered_with_length(tree_model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT], new_order': Pointer[I32] tag, length': I32): None =>
-    @gtk_tree_model_rows_reordered_with_length(tree_model', path', iter', new_order', length')
+  fun rows_reordered_with_length(tree_model': GtkTreeModelI, path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT], new_order': Pointer[I32] tag, length': I32): None =>
+    @gtk_tree_model_rows_reordered_with_length(tree_model'.getptr(), path', iter', new_order', length')

@@ -1,1 +1,1 @@
-use @gtk_directory_list_set_attributes[None](self': NullablePointer[GtkDirectoryListT], attributes': Pointer[U8] tag)
+use @gtk_directory_list_set_attributes[None](self': NullablePointer[GObjectT], attributes': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun add_child(bar': NullablePointer[GtkPopoverMenuBarT], child': GtkWidgetI, id': String): I32 =>
-    @gtk_popover_menu_bar_add_child(bar', child'.getptr(), id'.cstring())
+  fun add_child(bar': GtkPopoverMenuBarI, child': GtkWidgetI, id': String): I32 =>
+    @gtk_popover_menu_bar_add_child(bar'.getptr(), child'.getptr(), id'.cstring())

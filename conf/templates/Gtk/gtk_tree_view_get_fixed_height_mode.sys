@@ -1,2 +1,2 @@
-  fun get_fixed_height_mode(tree_view': NullablePointer[GtkTreeViewT]): I32 =>
-    @gtk_tree_view_get_fixed_height_mode(tree_view')
+  fun get_fixed_height_mode(tree_view': GtkTreeViewI): I32 =>
+    @gtk_tree_view_get_fixed_height_mode(tree_view'.getptr())

@@ -1,2 +1,2 @@
-  fun set_active(combo_box': NullablePointer[GtkComboBoxT], index': I32): None =>
-    @gtk_combo_box_set_active(combo_box', index')
+  fun set_active(combo_box': GtkComboBoxI, index': I32): None =>
+    @gtk_combo_box_set_active(combo_box'.getptr(), index')

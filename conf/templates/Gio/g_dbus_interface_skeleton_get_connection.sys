@@ -1,2 +1,2 @@
-  fun get_connection(interface': NullablePointer[GDBusInterfaceSkeletonT]): NullablePointer[GDBusConnectionT] =>
-    @g_dbus_interface_skeleton_get_connection(interface')
+  fun get_connection(interface': GDBusInterfaceSkeletonI): NullablePointer[GObjectT] =>
+@g_dbus_interface_skeleton_get_connection(interface'.getptr())

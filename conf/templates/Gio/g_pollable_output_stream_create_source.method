@@ -1,2 +1,2 @@
-  fun ref create_source(cancellable': NullablePointer[GCancellableT]): NullablePointer[GSourceT] =>
+  fun ref create_source(cancellable': GCancellableI): NullablePointer[GSourceT] =>
     GPollableOutputStreamP.create_source(this, cancellable')

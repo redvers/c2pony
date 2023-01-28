@@ -1,1 +1,1 @@
-use @gtk_stack_set_interpolate_size[None](stack': NullablePointer[GtkStackT], interpolate_size': I32)
+use @gtk_stack_set_interpolate_size[None](stack': NullablePointer[GObjectT], interpolate_size': I32)

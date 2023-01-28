@@ -1,2 +1,2 @@
-  fun reset_relation(self': NullablePointer[GtkAccessibleT], relation': U32): None =>
-    @gtk_accessible_reset_relation(self', relation')
+  fun reset_relation(self': GtkAccessibleI, relation': U32): None =>
+    @gtk_accessible_reset_relation(self'.getptr(), relation')

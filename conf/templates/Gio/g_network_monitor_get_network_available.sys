@@ -1,2 +1,2 @@
-  fun get_network_available(monitor': NullablePointer[GNetworkMonitorT]): I32 =>
-    @g_network_monitor_get_network_available(monitor')
+  fun get_network_available(monitor': GNetworkMonitorI): I32 =>
+    @g_network_monitor_get_network_available(monitor'.getptr())

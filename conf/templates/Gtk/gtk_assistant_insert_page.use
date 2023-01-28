@@ -1,1 +1,1 @@
-use @gtk_assistant_insert_page[I32](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GObjectT], position': I32)
+use @gtk_assistant_insert_page[I32](assistant': NullablePointer[GObjectT], page': NullablePointer[GObjectT], position': I32)

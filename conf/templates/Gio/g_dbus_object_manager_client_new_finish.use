@@ -1,1 +1,1 @@
-use @g_dbus_object_manager_client_new_finish[NullablePointer[GDBusObjectManagerT]](res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_dbus_object_manager_client_new_finish[NullablePointer[GObjectT]](res': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

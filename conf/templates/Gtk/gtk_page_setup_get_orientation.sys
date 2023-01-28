@@ -1,2 +1,2 @@
-  fun get_orientation(setup': NullablePointer[GtkPageSetupT]): U32 =>
-    @gtk_page_setup_get_orientation(setup')
+  fun get_orientation(setup': GtkPageSetupI): U32 =>
+    @gtk_page_setup_get_orientation(setup'.getptr())

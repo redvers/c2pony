@@ -1,2 +1,2 @@
-  fun ref set_permission(permission': NullablePointer[GPermissionT]): None =>
+  fun ref set_permission(permission': GPermissionI): None =>
     GtkLockButtonP.set_permission(this, permission')

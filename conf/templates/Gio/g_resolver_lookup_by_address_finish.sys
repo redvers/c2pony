@@ -1,2 +1,2 @@
-  fun lookup_by_address_finish(resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': GError): String iso^ =>
-    String.from_cstring(@g_resolver_lookup_by_address_finish(resolver', result', error'.ptr)).clone()
+  fun lookup_by_address_finish(resolver': GResolverI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_resolver_lookup_by_address_finish(resolver'.getptr(), result'.getptr(), error')).clone()

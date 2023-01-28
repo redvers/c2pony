@@ -1,2 +1,2 @@
-  fun get_device_tool(gesture': NullablePointer[GtkGestureStylusT]): NullablePointer[GdkDeviceToolT] =>
-    @gtk_gesture_stylus_get_device_tool(gesture')
+  fun get_device_tool(gesture': GtkGestureStylusI): NullablePointer[GdkDeviceToolT] =>
+    @gtk_gesture_stylus_get_device_tool(gesture'.getptr())

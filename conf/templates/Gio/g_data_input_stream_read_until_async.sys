@@ -1,2 +1,2 @@
-  fun read_until_async(stream': NullablePointer[GDataInputStreamT], stop_chars': String, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_data_input_stream_read_until_async(stream', stop_chars'.cstring(), io_priority', cancellable', callback', user_data')
+  fun read_until_async(stream': GDataInputStreamI, stop_chars': String, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_data_input_stream_read_until_async(stream'.getptr(), stop_chars'.cstring(), io_priority', cancellable'.getptr(), callback', user_data')

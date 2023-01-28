@@ -1,1 +1,1 @@
-use @gtk_cell_renderer_set_visible[None](cell': NullablePointer[GtkCellRendererT], visible': I32)
+use @gtk_cell_renderer_set_visible[None](cell': NullablePointer[GObjectT], visible': I32)

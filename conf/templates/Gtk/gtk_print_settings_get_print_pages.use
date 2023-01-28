@@ -1,1 +1,1 @@
-use @gtk_print_settings_get_print_pages[U32](settings': NullablePointer[GtkPrintSettingsT])
+use @gtk_print_settings_get_print_pages[U32](settings': NullablePointer[GObjectT])

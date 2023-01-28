@@ -1,1 +1,1 @@
-use @gtk_image_set_from_icon_name[None](image': NullablePointer[GtkImageT], icon_name': Pointer[U8] tag)
+use @gtk_image_set_from_icon_name[None](image': NullablePointer[GObjectT], icon_name': Pointer[U8] tag)

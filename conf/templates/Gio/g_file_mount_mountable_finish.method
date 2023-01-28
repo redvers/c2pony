@@ -1,2 +1,2 @@
-  fun ref mount_mountable_finish(result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileT] =>
+  fun ref mount_mountable_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.mount_mountable_finish(this, result', error')

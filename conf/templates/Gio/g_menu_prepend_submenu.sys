@@ -1,2 +1,2 @@
-  fun prepend_submenu(menu': NullablePointer[GMenuT], label': String, submenu': NullablePointer[GMenuModelT]): None =>
-    @g_menu_prepend_submenu(menu', label'.cstring(), submenu')
+  fun prepend_submenu(menu': GMenuI, label': String, submenu': GMenuModelI): None =>
+    @g_menu_prepend_submenu(menu'.getptr(), label'.cstring(), submenu'.getptr())

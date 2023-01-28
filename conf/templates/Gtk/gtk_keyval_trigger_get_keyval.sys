@@ -1,2 +1,2 @@
-  fun get_keyval(self': NullablePointer[GtkKeyvalTriggerT]): U32 =>
-    @gtk_keyval_trigger_get_keyval(self')
+  fun get_keyval(self': GtkKeyvalTriggerI): U32 =>
+    @gtk_keyval_trigger_get_keyval(self'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_icon_view_set_activate_on_single_click[None](icon_view': NullablePointer[GtkIconViewT], single': I32)
+use @gtk_icon_view_set_activate_on_single_click[None](icon_view': NullablePointer[GObjectT], single': I32)

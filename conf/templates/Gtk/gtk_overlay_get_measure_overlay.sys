@@ -1,2 +1,2 @@
-  fun get_measure_overlay(overlay': NullablePointer[GtkOverlayT], widget': GtkWidgetI): I32 =>
-    @gtk_overlay_get_measure_overlay(overlay', widget'.getptr())
+  fun get_measure_overlay(overlay': GtkOverlayI, widget': GtkWidgetI): I32 =>
+    @gtk_overlay_get_measure_overlay(overlay'.getptr(), widget'.getptr())

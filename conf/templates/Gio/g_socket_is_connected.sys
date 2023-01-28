@@ -1,2 +1,2 @@
-  fun is_connected(socket': NullablePointer[GSocketT]): I32 =>
-    @g_socket_is_connected(socket')
+  fun is_connected(socket': GSocketI): I32 =>
+    @g_socket_is_connected(socket'.getptr())

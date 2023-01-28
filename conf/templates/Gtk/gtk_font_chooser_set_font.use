@@ -1,1 +1,1 @@
-use @gtk_font_chooser_set_font[None](fontchooser': NullablePointer[GtkFontChooserT], fontname': Pointer[U8] tag)
+use @gtk_font_chooser_set_font[None](fontchooser': NullablePointer[GObjectT], fontname': Pointer[U8] tag)

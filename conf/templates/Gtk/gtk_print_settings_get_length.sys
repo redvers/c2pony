@@ -1,2 +1,2 @@
-  fun get_length(settings': NullablePointer[GtkPrintSettingsT], key': String, unit': U32): F64 =>
-    @gtk_print_settings_get_length(settings', key'.cstring(), unit')
+  fun get_length(settings': GtkPrintSettingsI, key': String, unit': U32): F64 =>
+    @gtk_print_settings_get_length(settings'.getptr(), key'.cstring(), unit')

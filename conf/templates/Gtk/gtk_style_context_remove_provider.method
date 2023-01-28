@@ -1,2 +1,2 @@
-  fun ref remove_provider(provider': NullablePointer[GtkStyleProviderT]): None =>
+  fun ref remove_provider(provider': GtkStyleProviderI): None =>
     GtkStyleContextP.remove_provider(this, provider')

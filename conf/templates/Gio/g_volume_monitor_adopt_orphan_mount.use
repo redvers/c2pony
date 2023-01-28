@@ -1,1 +1,1 @@
-use @g_volume_monitor_adopt_orphan_mount[NullablePointer[GVolumeT]](mount': NullablePointer[GMountT])
+use @g_volume_monitor_adopt_orphan_mount[NullablePointer[GObjectT]](mount': NullablePointer[GObjectT])

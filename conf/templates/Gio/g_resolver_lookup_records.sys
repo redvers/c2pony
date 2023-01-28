@@ -1,2 +1,2 @@
-  fun lookup_records(resolver': NullablePointer[GResolverT], rrname': String, record_type': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GListT] =>
-    @g_resolver_lookup_records(resolver', rrname'.cstring(), record_type', cancellable', error'.ptr)
+  fun lookup_records(resolver': GResolverI, rrname': String, record_type': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+    @g_resolver_lookup_records(resolver'.getptr(), rrname'.cstring(), record_type', cancellable'.getptr(), error')

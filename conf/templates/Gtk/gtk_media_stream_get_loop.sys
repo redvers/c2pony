@@ -1,2 +1,2 @@
-  fun get_loop(self': NullablePointer[GtkMediaStreamT]): I32 =>
-    @gtk_media_stream_get_loop(self')
+  fun get_loop(self': GtkMediaStreamI): I32 =>
+    @gtk_media_stream_get_loop(self'.getptr())

@@ -1,2 +1,2 @@
-  fun set_attributes(self': NullablePointer[GtkBookmarkListT], attributes': String): None =>
-    @gtk_bookmark_list_set_attributes(self', attributes'.cstring())
+  fun set_attributes(self': GtkBookmarkListI, attributes': String): None =>
+    @gtk_bookmark_list_set_attributes(self'.getptr(), attributes'.cstring())

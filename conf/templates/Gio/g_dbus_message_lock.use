@@ -1,1 +1,1 @@
-use @g_dbus_message_lock[None](message': NullablePointer[GDBusMessageT])
+use @g_dbus_message_lock[None](message': NullablePointer[GObjectT])

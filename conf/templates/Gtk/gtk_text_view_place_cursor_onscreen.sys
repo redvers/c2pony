@@ -1,2 +1,2 @@
-  fun place_cursor_onscreen(text_view': NullablePointer[GtkTextViewT]): I32 =>
-    @gtk_text_view_place_cursor_onscreen(text_view')
+  fun place_cursor_onscreen(text_view': GtkTextViewI): I32 =>
+    @gtk_text_view_place_cursor_onscreen(text_view'.getptr())

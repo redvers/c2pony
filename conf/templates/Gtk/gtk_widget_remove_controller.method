@@ -1,2 +1,2 @@
-  fun ref remove_controller(controller': NullablePointer[GtkEventControllerT]): None =>
+  fun ref remove_controller(controller': GtkEventControllerI): None =>
     GtkWidgetP.remove_controller(this, controller')

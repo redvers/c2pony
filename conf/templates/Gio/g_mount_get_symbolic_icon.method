@@ -1,2 +1,2 @@
-  fun ref get_symbolic_icon(): NullablePointer[GIconT] =>
+  fun ref get_symbolic_icon(): NullablePointer[GObjectT] =>
     GMountP.get_symbolic_icon(this)

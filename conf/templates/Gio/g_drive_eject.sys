@@ -1,2 +1,2 @@
-  fun eject(drive': NullablePointer[GDriveT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_drive_eject(drive', flags', cancellable', callback', user_data')
+  fun eject(drive': GDriveI, flags': U32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_drive_eject(drive'.getptr(), flags', cancellable'.getptr(), callback', user_data')

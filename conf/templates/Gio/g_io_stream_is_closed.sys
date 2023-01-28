@@ -1,2 +1,2 @@
-  fun is_closed(stream': NullablePointer[GIOStreamT]): I32 =>
-    @g_io_stream_is_closed(stream')
+  fun is_closed(stream': GIOStreamI): I32 =>
+    @g_io_stream_is_closed(stream'.getptr())

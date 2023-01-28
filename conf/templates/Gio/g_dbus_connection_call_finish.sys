@@ -1,2 +1,2 @@
-  fun call_finish(connection': NullablePointer[GDBusConnectionT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GVariantT] =>
-    @g_dbus_connection_call_finish(connection', res', error'.ptr)
+  fun call_finish(connection': GDBusConnectionI, res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GVariantT] =>
+    @g_dbus_connection_call_finish(connection'.getptr(), res'.getptr(), error')

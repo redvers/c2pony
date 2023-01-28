@@ -1,1 +1,1 @@
-use @gtk_box_layout_set_homogeneous[None](box_layout': NullablePointer[GtkBoxLayoutT], homogeneous': I32)
+use @gtk_box_layout_set_homogeneous[None](box_layout': NullablePointer[GObjectT], homogeneous': I32)

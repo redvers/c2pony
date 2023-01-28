@@ -1,2 +1,2 @@
-  fun set_title(self': NullablePointer[GtkNativeDialogT], title': String): None =>
-    @gtk_native_dialog_set_title(self', title'.cstring())
+  fun set_title(self': GtkNativeDialogI, title': String): None =>
+    @gtk_native_dialog_set_title(self'.getptr(), title'.cstring())

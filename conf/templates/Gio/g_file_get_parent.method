@@ -1,2 +1,2 @@
-  fun ref get_parent(): NullablePointer[GFileT] =>
+  fun ref get_parent(): NullablePointer[GObjectT] =>
     GFileP.get_parent(this)

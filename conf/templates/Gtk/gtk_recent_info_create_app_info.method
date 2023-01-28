@@ -1,2 +1,2 @@
-  fun ref create_app_info(app_name': String, error': GError): NullablePointer[GAppInfoT] =>
+  fun ref create_app_info(app_name': String, error': GError): NullablePointer[GObjectT] =>
     GtkRecentInfoP.create_app_info(ptr, app_name', error')

@@ -1,2 +1,2 @@
-  fun call_with_unix_fd_list(proxy': NullablePointer[GDBusProxyT], method_name': String, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, fd_list': NullablePointer[GUnixFDListT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_dbus_proxy_call_with_unix_fd_list(proxy', method_name'.cstring(), parameters', flags', timeout_msec', fd_list', cancellable', callback', user_data')
+  fun call_with_unix_fd_list(proxy': GDBusProxyI, method_name': String, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, fd_list': GUnixFDListI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_proxy_call_with_unix_fd_list(proxy'.getptr(), method_name'.cstring(), parameters', flags', timeout_msec', fd_list'.getptr(), cancellable'.getptr(), callback', user_data')

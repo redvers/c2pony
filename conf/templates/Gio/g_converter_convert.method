@@ -1,2 +1,2 @@
-  fun ref convert(inbuf': Pointer[None] tag, inbuf_size': U64, outbuf': Pointer[None] tag, outbuf_size': U64, flags': U32, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': GError): U32 =>
+  fun ref convert(inbuf': Pointer[None] tag, inbuf_size': U64, outbuf': Pointer[None] tag, outbuf_size': U64, flags': U32, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): U32 =>
     GConverterP.convert(this, inbuf', inbuf_size', outbuf', outbuf_size', flags', bytes_read', bytes_written', error')

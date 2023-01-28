@@ -1,2 +1,2 @@
-  fun get_double_list(key_file': NullablePointer[GKeyFileT], group_name': String, key': String, length': Pointer[U64] tag, error': GError): Pointer[F64] tag =>
-    @g_key_file_get_double_list(key_file', group_name'.cstring(), key'.cstring(), length', error'.ptr)
+  fun get_double_list(key_file': NullablePointer[GKeyFileT], group_name': String, key': String, length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): Pointer[F64] tag =>
+    @g_key_file_get_double_list(key_file', group_name'.cstring(), key'.cstring(), length', error')

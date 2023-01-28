@@ -1,2 +1,2 @@
-  fun get_disabled_text(self': NullablePointer[GtkShortcutLabelT]): String iso^ =>
-    String.from_cstring(@gtk_shortcut_label_get_disabled_text(self')).clone()
+  fun get_disabled_text(self': GtkShortcutLabelI): String iso^ =>
+    String.from_cstring(@gtk_shortcut_label_get_disabled_text(self'.getptr())).clone()

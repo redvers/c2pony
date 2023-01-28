@@ -1,1 +1,1 @@
-use @g_file_info_set_edit_name[None](info': NullablePointer[GFileInfoT], edit_name': Pointer[U8] tag)
+use @g_file_info_set_edit_name[None](info': NullablePointer[GObjectT], edit_name': Pointer[U8] tag)

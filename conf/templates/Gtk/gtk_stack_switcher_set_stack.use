@@ -1,1 +1,1 @@
-use @gtk_stack_switcher_set_stack[None](switcher': NullablePointer[GtkStackSwitcherT], stack': NullablePointer[GtkStackT])
+use @gtk_stack_switcher_set_stack[None](switcher': NullablePointer[GObjectT], stack': NullablePointer[GObjectT])

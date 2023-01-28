@@ -1,1 +1,1 @@
-use @gtk_keyval_trigger_new[NullablePointer[GtkShortcutTriggerT]](keyval': U32, modifiers': U32)
+use @gtk_keyval_trigger_new[NullablePointer[GObjectT]](keyval': U32, modifiers': U32)

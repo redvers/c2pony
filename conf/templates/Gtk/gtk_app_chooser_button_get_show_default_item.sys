@@ -1,2 +1,2 @@
-  fun get_show_default_item(self': NullablePointer[GtkAppChooserButtonT]): I32 =>
-    @gtk_app_chooser_button_get_show_default_item(self')
+  fun get_show_default_item(self': GtkAppChooserButtonI): I32 =>
+    @gtk_app_chooser_button_get_show_default_item(self'.getptr())

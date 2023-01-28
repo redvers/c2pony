@@ -1,2 +1,2 @@
-  new gnew(first': NullablePointer[GtkShortcutTriggerT], second': NullablePointer[GtkShortcutTriggerT]) =>
-    ptr = @gtk_alternative_trigger_new(first', second')
+  new gnew(first': GtkShortcutTriggerI, second': GtkShortcutTriggerI) =>
+    ptr = @gtk_alternative_trigger_new(first'.getptr(), second'.getptr())

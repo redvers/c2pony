@@ -1,2 +1,2 @@
-  fun set_wrap(spin_button': NullablePointer[GtkSpinButtonT], wrap': I32): None =>
-    @gtk_spin_button_set_wrap(spin_button', wrap')
+  fun set_wrap(spin_button': GtkSpinButtonI, wrap': I32): None =>
+    @gtk_spin_button_set_wrap(spin_button'.getptr(), wrap')

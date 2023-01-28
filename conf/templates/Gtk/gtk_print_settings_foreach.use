@@ -1,1 +1,1 @@
-use @gtk_print_settings_foreach[None](settings': NullablePointer[GtkPrintSettingsT], func': GtkPrintSettingsFunc, user_data': Pointer[None] tag)
+use @gtk_print_settings_foreach[None](settings': NullablePointer[GObjectT], func': GtkPrintSettingsFunc, user_data': Pointer[None] tag)

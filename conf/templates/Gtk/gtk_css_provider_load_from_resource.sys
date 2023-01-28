@@ -1,2 +1,2 @@
-  fun load_from_resource(css_provider': NullablePointer[GtkCssProviderT], resource_path': String): None =>
-    @gtk_css_provider_load_from_resource(css_provider', resource_path'.cstring())
+  fun load_from_resource(css_provider': GtkCssProviderI, resource_path': String): None =>
+    @gtk_css_provider_load_from_resource(css_provider'.getptr(), resource_path'.cstring())

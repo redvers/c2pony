@@ -1,2 +1,2 @@
-  fun delete_selection(buffer': NullablePointer[GtkTextBufferT], interactive': I32, default_editable': I32): I32 =>
-    @gtk_text_buffer_delete_selection(buffer', interactive', default_editable')
+  fun delete_selection(buffer': GtkTextBufferI, interactive': I32, default_editable': I32): I32 =>
+    @gtk_text_buffer_delete_selection(buffer'.getptr(), interactive', default_editable')

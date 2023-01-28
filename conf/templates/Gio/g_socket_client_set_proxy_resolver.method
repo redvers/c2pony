@@ -1,2 +1,2 @@
-  fun ref set_proxy_resolver(proxy_resolver': NullablePointer[GProxyResolverT]): None =>
+  fun ref set_proxy_resolver(proxy_resolver': GProxyResolverI): None =>
     GSocketClientP.set_proxy_resolver(this, proxy_resolver')

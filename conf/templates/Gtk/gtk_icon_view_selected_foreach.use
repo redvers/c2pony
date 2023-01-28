@@ -1,1 +1,1 @@
-use @gtk_icon_view_selected_foreach[None](icon_view': NullablePointer[GtkIconViewT], func': GtkIconViewForeachFunc, data': Pointer[None] tag)
+use @gtk_icon_view_selected_foreach[None](icon_view': NullablePointer[GObjectT], func': GtkIconViewForeachFunc, data': Pointer[None] tag)

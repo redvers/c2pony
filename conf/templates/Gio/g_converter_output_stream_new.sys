@@ -1,2 +1,2 @@
-  new gnew(base_stream': NullablePointer[GOutputStreamT], converter': NullablePointer[GConverterT]) =>
-    ptr = @g_converter_output_stream_new(base_stream', converter')
+  new gnew(base_stream': GOutputStreamI, converter': GConverterI) =>
+    ptr = @g_converter_output_stream_new(base_stream'.getptr(), converter'.getptr())

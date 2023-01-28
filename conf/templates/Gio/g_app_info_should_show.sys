@@ -1,2 +1,2 @@
-  fun should_show(appinfo': NullablePointer[GAppInfoT]): I32 =>
-    @g_app_info_should_show(appinfo')
+  fun should_show(appinfo': GAppInfoI): I32 =>
+    @g_app_info_should_show(appinfo'.getptr())

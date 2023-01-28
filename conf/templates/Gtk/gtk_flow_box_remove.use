@@ -1,1 +1,1 @@
-use @gtk_flow_box_remove[None](box': NullablePointer[GtkFlowBoxT], widget': NullablePointer[GObjectT])
+use @gtk_flow_box_remove[None](box': NullablePointer[GObjectT], widget': NullablePointer[GObjectT])

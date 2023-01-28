@@ -1,2 +1,2 @@
-  fun is_symbolic(self': NullablePointer[GtkIconPaintableT]): I32 =>
-    @gtk_icon_paintable_is_symbolic(self')
+  fun is_symbolic(self': GtkIconPaintableI): I32 =>
+    @gtk_icon_paintable_is_symbolic(self'.getptr())

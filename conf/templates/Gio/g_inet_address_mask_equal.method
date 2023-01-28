@@ -1,2 +1,2 @@
-  fun ref equal(mask2': NullablePointer[GInetAddressMaskT]): I32 =>
+  fun ref equal(mask2': GInetAddressMaskI): I32 =>
     GInetAddressMaskP.equal(this, mask2')

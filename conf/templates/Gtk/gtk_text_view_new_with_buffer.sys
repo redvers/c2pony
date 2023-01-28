@@ -1,2 +1,2 @@
-  new new_with_buffer(buffer': NullablePointer[GtkTextBufferT]) =>
-    ptr = @gtk_text_view_new_with_buffer(buffer')
+  new new_with_buffer(buffer': GtkTextBufferI) =>
+    ptr = @gtk_text_view_new_with_buffer(buffer'.getptr())

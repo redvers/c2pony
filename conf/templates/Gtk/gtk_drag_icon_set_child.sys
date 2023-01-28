@@ -1,2 +1,2 @@
-  fun set_child(self': NullablePointer[GtkDragIconT], child': GtkWidgetI): None =>
-    @gtk_drag_icon_set_child(self', child'.getptr())
+  fun set_child(self': GtkDragIconI, child': GtkWidgetI): None =>
+    @gtk_drag_icon_set_child(self'.getptr(), child'.getptr())

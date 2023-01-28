@@ -1,1 +1,1 @@
-use @gtk_text_set_propagate_text_width[None](self': NullablePointer[GtkTextT], propagate_text_width': I32)
+use @gtk_text_set_propagate_text_width[None](self': NullablePointer[GObjectT], propagate_text_width': I32)

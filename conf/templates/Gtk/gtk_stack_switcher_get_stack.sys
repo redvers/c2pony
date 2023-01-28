@@ -1,2 +1,2 @@
-  fun get_stack(switcher': NullablePointer[GtkStackSwitcherT]): NullablePointer[GtkStackT] =>
-    @gtk_stack_switcher_get_stack(switcher')
+  fun get_stack(switcher': GtkStackSwitcherI): NullablePointer[GObjectT] =>
+@gtk_stack_switcher_get_stack(switcher'.getptr())

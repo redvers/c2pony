@@ -1,2 +1,2 @@
-  fun get_settings(widget': GtkWidgetI): NullablePointer[GtkSettingsT] =>
-    @gtk_widget_get_settings(widget'.getptr())
+  fun get_settings(widget': GtkWidgetI): NullablePointer[GObjectT] =>
+@gtk_widget_get_settings(widget'.getptr())

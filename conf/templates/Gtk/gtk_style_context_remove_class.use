@@ -1,1 +1,1 @@
-use @gtk_style_context_remove_class[None](context': NullablePointer[GtkStyleContextT], class_name': Pointer[U8] tag)
+use @gtk_style_context_remove_class[None](context': NullablePointer[GObjectT], class_name': Pointer[U8] tag)

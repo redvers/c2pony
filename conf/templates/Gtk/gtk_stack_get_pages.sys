@@ -1,2 +1,2 @@
-  fun get_pages(stack': NullablePointer[GtkStackT]): NullablePointer[GObjectT] =>
-@gtk_stack_get_pages(stack')
+  fun get_pages(stack': GtkStackI): NullablePointer[GObjectT] =>
+@gtk_stack_get_pages(stack'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_level_bar_get_offset_value[I32](self': NullablePointer[GtkLevelBarT], name': Pointer[U8] tag, value': Pointer[F64] tag)
+use @gtk_level_bar_get_offset_value[I32](self': NullablePointer[GObjectT], name': Pointer[U8] tag, value': Pointer[F64] tag)

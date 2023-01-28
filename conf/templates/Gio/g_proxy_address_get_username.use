@@ -1,1 +1,1 @@
-use @g_proxy_address_get_username[Pointer[U8]](proxy': NullablePointer[GProxyAddressT])
+use @g_proxy_address_get_username[Pointer[U8]](proxy': NullablePointer[GObjectT])

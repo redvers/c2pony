@@ -1,1 +1,1 @@
-use @g_tls_database_create_certificate_handle[Pointer[U8]](self': NullablePointer[GTlsDatabaseT], certificate': NullablePointer[GTlsCertificateT])
+use @g_tls_database_create_certificate_handle[Pointer[U8]](self': NullablePointer[GObjectT], certificate': NullablePointer[GObjectT])

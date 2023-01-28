@@ -1,2 +1,2 @@
-  fun authorize_authenticated_peer(observer': NullablePointer[GDBusAuthObserverT], stream': NullablePointer[GIOStreamT], credentials': NullablePointer[GCredentialsT]): I32 =>
-    @g_dbus_auth_observer_authorize_authenticated_peer(observer', stream', credentials')
+  fun authorize_authenticated_peer(observer': GDBusAuthObserverI, stream': GIOStreamI, credentials': GCredentialsI): I32 =>
+    @g_dbus_auth_observer_authorize_authenticated_peer(observer'.getptr(), stream'.getptr(), credentials'.getptr())

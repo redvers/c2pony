@@ -1,1 +1,1 @@
-use @gtk_text_view_set_overwrite[None](text_view': NullablePointer[GtkTextViewT], overwrite': I32)
+use @gtk_text_view_set_overwrite[None](text_view': NullablePointer[GObjectT], overwrite': I32)

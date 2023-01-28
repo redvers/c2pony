@@ -1,2 +1,2 @@
-  fun test_accessible_check_property(accessible': NullablePointer[GtkAccessibleT], property': U32, ...): String iso^ =>
-    String.from_cstring(@gtk_test_accessible_check_property(accessible', property', ...)).clone()
+  fun test_accessible_check_property(accessible': GtkAccessibleI, property': U32, ...): String iso^ =>
+    String.from_cstring(@gtk_test_accessible_check_property(accessible'.getptr(), property', ...)).clone()

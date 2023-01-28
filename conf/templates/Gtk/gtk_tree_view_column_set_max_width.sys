@@ -1,2 +1,2 @@
-  fun set_max_width(tree_column': NullablePointer[GtkTreeViewColumnT], max_width': I32): None =>
-    @gtk_tree_view_column_set_max_width(tree_column', max_width')
+  fun set_max_width(tree_column': GtkTreeViewColumnI, max_width': I32): None =>
+    @gtk_tree_view_column_set_max_width(tree_column'.getptr(), max_width')

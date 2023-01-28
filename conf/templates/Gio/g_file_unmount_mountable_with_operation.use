@@ -1,1 +1,1 @@
-use @g_file_unmount_mountable_with_operation[None](file': NullablePointer[GFileT], flags': U32, mount_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_file_unmount_mountable_with_operation[None](file': NullablePointer[GObjectT], flags': U32, mount_operation': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

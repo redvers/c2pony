@@ -1,2 +1,2 @@
-  fun send_signal(subprocess': NullablePointer[GSubprocessT], signal_num': I32): None =>
-    @g_subprocess_send_signal(subprocess', signal_num')
+  fun send_signal(subprocess': GSubprocessI, signal_num': I32): None =>
+    @g_subprocess_send_signal(subprocess'.getptr(), signal_num')

@@ -1,2 +1,2 @@
-  fun ref load_partial_contents_finish(res': NullablePointer[GAsyncResultT], contents': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, etag_out': Pointer[Pointer[U8]] tag, error': GError): I32 =>
+  fun ref load_partial_contents_finish(res': GAsyncResultI, contents': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, etag_out': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.load_partial_contents_finish(this, res', contents', length', etag_out', error')

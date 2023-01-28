@@ -1,1 +1,1 @@
-use @g_file_open_readwrite_finish[NullablePointer[GFileIOStreamT]](file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_file_open_readwrite_finish[NullablePointer[GObjectT]](file': NullablePointer[GObjectT], res': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

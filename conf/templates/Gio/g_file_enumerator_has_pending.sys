@@ -1,2 +1,2 @@
-  fun has_pending(enumerator': NullablePointer[GFileEnumeratorT]): I32 =>
-    @g_file_enumerator_has_pending(enumerator')
+  fun has_pending(enumerator': GFileEnumeratorI): I32 =>
+    @g_file_enumerator_has_pending(enumerator'.getptr())

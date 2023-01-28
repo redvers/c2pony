@@ -1,1 +1,1 @@
-use @g_app_info_set_as_default_for_extension[I32](appinfo': NullablePointer[GAppInfoT], extension': Pointer[U8] tag, error': NullablePointer[GErrorT])
+use @g_app_info_set_as_default_for_extension[I32](appinfo': NullablePointer[GObjectT], extension': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @gtk_file_filter_add_pattern[None](filter': NullablePointer[GtkFileFilterT], pattern': Pointer[U8] tag)
+use @gtk_file_filter_add_pattern[None](filter': NullablePointer[GObjectT], pattern': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun is_activatable(cell': NullablePointer[GtkCellRendererT]): I32 =>
-    @gtk_cell_renderer_is_activatable(cell')
+  fun is_activatable(cell': GtkCellRendererI): I32 =>
+    @gtk_cell_renderer_is_activatable(cell'.getptr())

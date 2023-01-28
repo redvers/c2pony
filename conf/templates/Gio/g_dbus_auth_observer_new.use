@@ -1,1 +1,1 @@
-use @g_dbus_auth_observer_new[NullablePointer[GDBusAuthObserverT]]()
+use @g_dbus_auth_observer_new[NullablePointer[GObjectT]]()

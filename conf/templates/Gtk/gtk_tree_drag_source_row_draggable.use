@@ -1,1 +1,1 @@
-use @gtk_tree_drag_source_row_draggable[I32](drag_source': NullablePointer[GtkTreeDragSourceT], path': NullablePointer[GtkTreePathT])
+use @gtk_tree_drag_source_row_draggable[I32](drag_source': NullablePointer[GObjectT], path': NullablePointer[GtkTreePathT])

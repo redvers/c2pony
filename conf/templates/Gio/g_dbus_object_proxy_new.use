@@ -1,1 +1,1 @@
-use @g_dbus_object_proxy_new[NullablePointer[GDBusObjectProxyT]](connection': NullablePointer[GDBusConnectionT], object_path': Pointer[U8] tag)
+use @g_dbus_object_proxy_new[NullablePointer[GObjectT]](connection': NullablePointer[GObjectT], object_path': Pointer[U8] tag)

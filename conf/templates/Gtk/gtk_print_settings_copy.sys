@@ -1,2 +1,2 @@
-  fun copy(other': NullablePointer[GtkPrintSettingsT]): NullablePointer[GtkPrintSettingsT] =>
-    @gtk_print_settings_copy(other')
+  fun copy(other': GtkPrintSettingsI): NullablePointer[GObjectT] =>
+@gtk_print_settings_copy(other'.getptr())

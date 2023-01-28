@@ -1,2 +1,2 @@
-  fun get_title(self': NullablePointer[GtkNativeDialogT]): String iso^ =>
-    String.from_cstring(@gtk_native_dialog_get_title(self')).clone()
+  fun get_title(self': GtkNativeDialogI): String iso^ =>
+    String.from_cstring(@gtk_native_dialog_get_title(self'.getptr())).clone()

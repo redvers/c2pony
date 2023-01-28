@@ -1,1 +1,1 @@
-use @gtk_header_bar_set_decoration_layout[None](bar': NullablePointer[GtkHeaderBarT], layout': Pointer[U8] tag)
+use @gtk_header_bar_set_decoration_layout[None](bar': NullablePointer[GObjectT], layout': Pointer[U8] tag)

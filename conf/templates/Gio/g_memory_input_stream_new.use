@@ -1,1 +1,1 @@
-use @g_memory_input_stream_new[NullablePointer[GInputStreamT]]()
+use @g_memory_input_stream_new[NullablePointer[GObjectT]]()

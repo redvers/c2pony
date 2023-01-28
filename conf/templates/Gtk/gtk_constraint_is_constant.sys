@@ -1,2 +1,2 @@
-  fun is_constant(constraint': NullablePointer[GtkConstraintT]): I32 =>
-    @gtk_constraint_is_constant(constraint')
+  fun is_constant(constraint': GtkConstraintI): I32 =>
+    @gtk_constraint_is_constant(constraint'.getptr())

@@ -1,2 +1,2 @@
-  fun bus_get_sync(bus_type': I32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GDBusConnectionT] =>
-    @g_bus_get_sync(bus_type', cancellable', error'.ptr)
+  fun bus_get_sync(bus_type': I32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_bus_get_sync(bus_type', cancellable'.getptr(), error')

@@ -1,2 +1,2 @@
-  fun set_reveal_child(revealer': NullablePointer[GtkRevealerT], reveal_child': I32): None =>
-    @gtk_revealer_set_reveal_child(revealer', reveal_child')
+  fun set_reveal_child(revealer': GtkRevealerI, reveal_child': I32): None =>
+    @gtk_revealer_set_reveal_child(revealer'.getptr(), reveal_child')

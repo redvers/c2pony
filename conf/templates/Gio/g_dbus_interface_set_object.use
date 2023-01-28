@@ -1,1 +1,1 @@
-use @g_dbus_interface_set_object[None](interface': NullablePointer[GDBusInterfaceT], object': NullablePointer[GDBusObjectT])
+use @g_dbus_interface_set_object[None](interface': NullablePointer[GObjectT], object': NullablePointer[GObjectT])

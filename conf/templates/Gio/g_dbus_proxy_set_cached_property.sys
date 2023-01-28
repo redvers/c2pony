@@ -1,2 +1,2 @@
-  fun set_cached_property(proxy': NullablePointer[GDBusProxyT], property_name': String, value': NullablePointer[GVariantT]): None =>
-    @g_dbus_proxy_set_cached_property(proxy', property_name'.cstring(), value')
+  fun set_cached_property(proxy': GDBusProxyI, property_name': String, value': NullablePointer[GVariantT]): None =>
+    @g_dbus_proxy_set_cached_property(proxy'.getptr(), property_name'.cstring(), value')

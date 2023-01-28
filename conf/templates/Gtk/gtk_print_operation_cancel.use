@@ -1,1 +1,1 @@
-use @gtk_print_operation_cancel[None](op': NullablePointer[GtkPrintOperationT])
+use @gtk_print_operation_cancel[None](op': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_popover_set_child[None](popover': NullablePointer[GtkPopoverT], child': NullablePointer[GObjectT])
+use @gtk_popover_set_child[None](popover': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

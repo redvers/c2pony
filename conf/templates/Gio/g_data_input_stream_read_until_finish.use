@@ -1,1 +1,1 @@
-use @g_data_input_stream_read_until_finish[Pointer[U8]](stream': NullablePointer[GDataInputStreamT], result': NullablePointer[GAsyncResultT], length': Pointer[U64] tag, error': NullablePointer[GErrorT])
+use @g_data_input_stream_read_until_finish[Pointer[U8]](stream': NullablePointer[GObjectT], result': NullablePointer[GObjectT], length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]])

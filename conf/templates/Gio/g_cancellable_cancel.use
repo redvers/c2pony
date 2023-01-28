@@ -1,1 +1,1 @@
-use @g_cancellable_cancel[None](cancellable': NullablePointer[GCancellableT])
+use @g_cancellable_cancel[None](cancellable': NullablePointer[GObjectT])

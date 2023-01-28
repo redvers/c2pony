@@ -1,2 +1,2 @@
-  fun get_accessible_role(self': NullablePointer[GtkATContextT]): U32 =>
-    @gtk_at_context_get_accessible_role(self')
+  fun get_accessible_role(self': GtkATContextI): U32 =>
+    @gtk_at_context_get_accessible_role(self'.getptr())

@@ -1,2 +1,2 @@
-  fun is_ancestor(tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], descendant': NullablePointer[GtkTreeIterT]): I32 =>
-    @gtk_tree_store_is_ancestor(tree_store', iter', descendant')
+  fun is_ancestor(tree_store': GtkTreeStoreI, iter': NullablePointer[GtkTreeIterT], descendant': NullablePointer[GtkTreeIterT]): I32 =>
+    @gtk_tree_store_is_ancestor(tree_store'.getptr(), iter', descendant')

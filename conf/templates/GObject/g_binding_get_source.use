@@ -1,1 +1,1 @@
-use @g_binding_get_source[NullablePointer[GObjectT]](binding': NullablePointer[GBindingT])
+use @g_binding_get_source[NullablePointer[GObjectT]](binding': NullablePointer[GObjectT])

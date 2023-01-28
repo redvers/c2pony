@@ -1,2 +1,2 @@
-  fun get_family(address': NullablePointer[GInetAddressT]): U32 =>
-    @g_inet_address_get_family(address')
+  fun get_family(address': GInetAddressI): U32 =>
+    @g_inet_address_get_family(address'.getptr())

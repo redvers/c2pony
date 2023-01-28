@@ -1,1 +1,1 @@
-use @g_app_info_delete[I32](appinfo': NullablePointer[GAppInfoT])
+use @g_app_info_delete[I32](appinfo': NullablePointer[GObjectT])

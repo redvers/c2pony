@@ -1,1 +1,1 @@
-use @g_simple_action_group_lookup[NullablePointer[GObjectT]](simple': NullablePointer[GSimpleActionGroupT], action_name': Pointer[U8] tag)
+use @g_simple_action_group_lookup[NullablePointer[GObjectT]](simple': NullablePointer[GObjectT], action_name': Pointer[U8] tag)

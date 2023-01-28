@@ -1,1 +1,1 @@
-use @g_simple_async_result_set_op_res_gboolean[None](simple': NullablePointer[GSimpleAsyncResultT], op_res': I32)
+use @g_simple_async_result_set_op_res_gboolean[None](simple': NullablePointer[GObjectT], op_res': I32)

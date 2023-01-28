@@ -1,2 +1,2 @@
-  fun lookup_color(context': NullablePointer[GtkStyleContextT], color_name': String, color': NullablePointer[GdkRGBAT]): I32 =>
-    @gtk_style_context_lookup_color(context', color_name'.cstring(), color')
+  fun lookup_color(context': GtkStyleContextI, color_name': String, color': NullablePointer[GdkRGBAT]): I32 =>
+    @gtk_style_context_lookup_color(context'.getptr(), color_name'.cstring(), color')

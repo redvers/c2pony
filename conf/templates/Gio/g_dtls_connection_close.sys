@@ -1,2 +1,2 @@
-  fun close(conn': NullablePointer[GDtlsConnectionT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_dtls_connection_close(conn', cancellable', error'.ptr)
+  fun close(conn': GDtlsConnectionI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_dtls_connection_close(conn'.getptr(), cancellable'.getptr(), error')

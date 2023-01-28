@@ -1,1 +1,1 @@
-use @g_dbus_server_new_sync[NullablePointer[GDBusServerT]](address': Pointer[U8] tag, flags': U32, guid': Pointer[U8] tag, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_dbus_server_new_sync[NullablePointer[GObjectT]](address': Pointer[U8] tag, flags': U32, guid': Pointer[U8] tag, observer': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

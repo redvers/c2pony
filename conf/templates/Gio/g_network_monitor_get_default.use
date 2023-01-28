@@ -1,1 +1,1 @@
-use @g_network_monitor_get_default[NullablePointer[GNetworkMonitorT]]()
+use @g_network_monitor_get_default[NullablePointer[GObjectT]]()

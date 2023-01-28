@@ -1,1 +1,1 @@
-use @gtk_switch_get_state[I32](self': NullablePointer[GtkSwitchT])
+use @gtk_switch_get_state[I32](self': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun set_show_default(self': NullablePointer[GtkAppChooserWidgetT], setting': I32): None =>
-    @gtk_app_chooser_widget_set_show_default(self', setting')
+  fun set_show_default(self': GtkAppChooserWidgetI, setting': I32): None =>
+    @gtk_app_chooser_widget_set_show_default(self'.getptr(), setting')

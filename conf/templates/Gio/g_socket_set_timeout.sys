@@ -1,2 +1,2 @@
-  fun set_timeout(socket': NullablePointer[GSocketT], timeout': U32): None =>
-    @g_socket_set_timeout(socket', timeout')
+  fun set_timeout(socket': GSocketI, timeout': U32): None =>
+    @g_socket_set_timeout(socket'.getptr(), timeout')

@@ -1,2 +1,2 @@
-  fun ref lookup_certificate_issuer(certificate': NullablePointer[GTlsCertificateT], interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GTlsCertificateT] =>
+  fun ref lookup_certificate_issuer(certificate': GTlsCertificateI, interaction': GTlsInteractionI, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GTlsDatabaseP.lookup_certificate_issuer(this, certificate', interaction', flags', cancellable', error')

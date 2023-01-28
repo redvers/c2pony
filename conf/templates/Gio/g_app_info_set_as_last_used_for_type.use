@@ -1,1 +1,1 @@
-use @g_app_info_set_as_last_used_for_type[I32](appinfo': NullablePointer[GAppInfoT], content_type': Pointer[U8] tag, error': NullablePointer[GErrorT])
+use @g_app_info_set_as_last_used_for_type[I32](appinfo': NullablePointer[GObjectT], content_type': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

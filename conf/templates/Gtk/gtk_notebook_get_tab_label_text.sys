@@ -1,2 +1,2 @@
-  fun get_tab_label_text(notebook': NullablePointer[GtkNotebookT], child': GtkWidgetI): String iso^ =>
-    String.from_cstring(@gtk_notebook_get_tab_label_text(notebook', child'.getptr())).clone()
+  fun get_tab_label_text(notebook': GtkNotebookI, child': GtkWidgetI): String iso^ =>
+    String.from_cstring(@gtk_notebook_get_tab_label_text(notebook'.getptr(), child'.getptr())).clone()

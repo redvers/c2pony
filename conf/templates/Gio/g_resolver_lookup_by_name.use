@@ -1,1 +1,1 @@
-use @g_resolver_lookup_by_name[NullablePointer[GListT]](resolver': NullablePointer[GResolverT], hostname': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_resolver_lookup_by_name[NullablePointer[GListT]](resolver': NullablePointer[GObjectT], hostname': Pointer[U8] tag, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,2 @@
-  fun set_as_default_for_extension(appinfo': NullablePointer[GAppInfoT], extension': String, error': GError): I32 =>
-    @g_app_info_set_as_default_for_extension(appinfo', extension'.cstring(), error'.ptr)
+  fun set_as_default_for_extension(appinfo': GAppInfoI, extension': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_app_info_set_as_default_for_extension(appinfo'.getptr(), extension'.cstring(), error')

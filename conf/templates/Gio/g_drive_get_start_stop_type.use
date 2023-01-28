@@ -1,1 +1,1 @@
-use @g_drive_get_start_stop_type[U32](drive': NullablePointer[GDriveT])
+use @g_drive_get_start_stop_type[U32](drive': NullablePointer[GObjectT])

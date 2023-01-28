@@ -1,1 +1,1 @@
-use @gtk_about_dialog_set_program_name[None](about': NullablePointer[GtkAboutDialogT], name': Pointer[U8] tag)
+use @gtk_about_dialog_set_program_name[None](about': NullablePointer[GObjectT], name': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun remove_filter(connection': NullablePointer[GDBusConnectionT], filter_id': U32): None =>
-    @g_dbus_connection_remove_filter(connection', filter_id')
+  fun remove_filter(connection': GDBusConnectionI, filter_id': U32): None =>
+    @g_dbus_connection_remove_filter(connection'.getptr(), filter_id')

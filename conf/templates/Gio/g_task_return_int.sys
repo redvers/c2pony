@@ -1,2 +1,2 @@
-  fun return_int(task': NullablePointer[GTaskT], result': I64): None =>
-    @g_task_return_int(task', result')
+  fun return_int(task': GTaskI, result': I64): None =>
+    @g_task_return_int(task'.getptr(), result')

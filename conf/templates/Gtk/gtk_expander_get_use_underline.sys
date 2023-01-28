@@ -1,2 +1,2 @@
-  fun get_use_underline(expander': NullablePointer[GtkExpanderT]): I32 =>
-    @gtk_expander_get_use_underline(expander')
+  fun get_use_underline(expander': GtkExpanderI): I32 =>
+    @gtk_expander_get_use_underline(expander'.getptr())

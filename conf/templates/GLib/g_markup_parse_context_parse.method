@@ -1,2 +1,2 @@
-  fun ref parse(text': String, text_len': I64, error': GError): I32 =>
+  fun ref parse(text': String, text_len': I64, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GMarkupParseContextP.parse(ptr, text', text_len', error')

@@ -1,1 +1,1 @@
-use @gtk_cell_area_context_push_preferred_height[None](context': NullablePointer[GtkCellAreaContextT], minimum_height': I32, natural_height': I32)
+use @gtk_cell_area_context_push_preferred_height[None](context': NullablePointer[GObjectT], minimum_height': I32, natural_height': I32)

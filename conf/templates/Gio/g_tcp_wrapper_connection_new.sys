@@ -1,2 +1,2 @@
-  new gnew(base_io_stream': NullablePointer[GIOStreamT], socket': NullablePointer[GSocketT]) =>
-    ptr = @g_tcp_wrapper_connection_new(base_io_stream', socket')
+  new gnew(base_io_stream': GIOStreamI, socket': GSocketI) =>
+    ptr = @g_tcp_wrapper_connection_new(base_io_stream'.getptr(), socket'.getptr())

@@ -1,2 +1,2 @@
-  fun ref connect_to_host_finish(result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GSocketConnectionT] =>
+  fun ref connect_to_host_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GSocketClientP.connect_to_host_finish(this, result', error')

@@ -1,2 +1,2 @@
-  fun ref splice(source': NullablePointer[GInputStreamT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
+  fun ref splice(source': GInputStreamI, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
     GOutputStreamP.splice(this, source', flags', cancellable', error')

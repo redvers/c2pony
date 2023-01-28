@@ -1,1 +1,1 @@
-use @g_settings_revert[None](settings': NullablePointer[GSettingsT])
+use @g_settings_revert[None](settings': NullablePointer[GObjectT])

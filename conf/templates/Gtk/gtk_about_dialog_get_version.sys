@@ -1,2 +1,2 @@
-  fun get_version(about': NullablePointer[GtkAboutDialogT]): String iso^ =>
-    String.from_cstring(@gtk_about_dialog_get_version(about')).clone()
+  fun get_version(about': GtkAboutDialogI): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_version(about'.getptr())).clone()

@@ -1,2 +1,2 @@
-  fun remove(text_view': NullablePointer[GtkTextViewT], child': GtkWidgetI): None =>
-    @gtk_text_view_remove(text_view', child'.getptr())
+  fun remove(text_view': GtkTextViewI, child': GtkWidgetI): None =>
+    @gtk_text_view_remove(text_view'.getptr(), child'.getptr())

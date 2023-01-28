@@ -1,1 +1,1 @@
-use @g_file_query_writable_namespaces[NullablePointer[GFileAttributeInfoListT]](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_query_writable_namespaces[NullablePointer[GFileAttributeInfoListT]](file': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

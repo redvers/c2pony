@@ -1,2 +1,2 @@
-  fun set_response_sensitive(info_bar': NullablePointer[GtkInfoBarT], response_id': I32, setting': I32): None =>
-    @gtk_info_bar_set_response_sensitive(info_bar', response_id', setting')
+  fun set_response_sensitive(info_bar': GtkInfoBarI, response_id': I32, setting': I32): None =>
+    @gtk_info_bar_set_response_sensitive(info_bar'.getptr(), response_id', setting')

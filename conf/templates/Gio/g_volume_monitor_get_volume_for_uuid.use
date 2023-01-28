@@ -1,1 +1,1 @@
-use @g_volume_monitor_get_volume_for_uuid[NullablePointer[GVolumeT]](volume_monitor': NullablePointer[GVolumeMonitorT], uuid': Pointer[U8] tag)
+use @g_volume_monitor_get_volume_for_uuid[NullablePointer[GObjectT]](volume_monitor': NullablePointer[GObjectT], uuid': Pointer[U8] tag)

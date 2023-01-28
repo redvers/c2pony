@@ -1,2 +1,2 @@
-  fun get_visibility(entry': NullablePointer[GtkEntryT]): I32 =>
-    @gtk_entry_get_visibility(entry')
+  fun get_visibility(entry': GtkEntryI): I32 =>
+    @gtk_entry_get_visibility(entry'.getptr())

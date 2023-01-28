@@ -1,2 +1,2 @@
-  fun prepared(self': NullablePointer[GtkMediaStreamT], has_audio': I32, has_video': I32, seekable': I32, duration': I64): None =>
-    @gtk_media_stream_prepared(self', has_audio', has_video', seekable', duration')
+  fun prepared(self': GtkMediaStreamI, has_audio': I32, has_video': I32, seekable': I32, duration': I64): None =>
+    @gtk_media_stream_prepared(self'.getptr(), has_audio', has_video', seekable', duration')

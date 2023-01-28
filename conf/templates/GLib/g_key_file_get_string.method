@@ -1,2 +1,2 @@
-  fun ref get_string(group_name': String, key': String, error': GError): String iso^ =>
+  fun ref get_string(group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
     GKeyFileP.get_string(ptr, group_name', key', error')

@@ -1,2 +1,2 @@
-  new gnew(connection': NullablePointer[GDBusConnectionT], object_path': String) =>
-    ptr = @g_dbus_object_proxy_new(connection', object_path'.cstring())
+  new gnew(connection': GDBusConnectionI, object_path': String) =>
+    ptr = @g_dbus_object_proxy_new(connection'.getptr(), object_path'.cstring())

@@ -1,2 +1,2 @@
-  fun get_range(settings': NullablePointer[GSettingsT], key': String): NullablePointer[GVariantT] =>
-    @g_settings_get_range(settings', key'.cstring())
+  fun get_range(settings': GSettingsI, key': String): NullablePointer[GVariantT] =>
+    @g_settings_get_range(settings'.getptr(), key'.cstring())

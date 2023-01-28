@@ -1,2 +1,2 @@
-  fun load_from_data(css_provider': NullablePointer[GtkCssProviderT], data': String, length': I64): None =>
-    @gtk_css_provider_load_from_data(css_provider', data'.cstring(), length')
+  fun load_from_data(css_provider': GtkCssProviderI, data': String, length': I64): None =>
+    @gtk_css_provider_load_from_data(css_provider'.getptr(), data'.cstring(), length')

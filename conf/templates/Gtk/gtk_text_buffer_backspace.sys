@@ -1,2 +1,2 @@
-  fun backspace(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], interactive': I32, default_editable': I32): I32 =>
-    @gtk_text_buffer_backspace(buffer', iter', interactive', default_editable')
+  fun backspace(buffer': GtkTextBufferI, iter': NullablePointer[GtkTextIterT], interactive': I32, default_editable': I32): I32 =>
+    @gtk_text_buffer_backspace(buffer'.getptr(), iter', interactive', default_editable')

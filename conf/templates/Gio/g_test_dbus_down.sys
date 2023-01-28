@@ -1,2 +1,2 @@
-  fun down(self': NullablePointer[GTestDBusT]): None =>
-    @g_test_dbus_down(self')
+  fun down(self': GTestDBusI): None =>
+    @g_test_dbus_down(self'.getptr())

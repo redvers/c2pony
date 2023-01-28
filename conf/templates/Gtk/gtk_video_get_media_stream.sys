@@ -1,2 +1,2 @@
-  fun get_media_stream(self': NullablePointer[GtkVideoT]): NullablePointer[GtkMediaStreamT] =>
-    @gtk_video_get_media_stream(self')
+  fun get_media_stream(self': GtkVideoI): NullablePointer[GObjectT] =>
+@gtk_video_get_media_stream(self'.getptr())

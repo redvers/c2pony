@@ -1,2 +1,2 @@
-  fun get_preferred_size(cell': NullablePointer[GtkCellRendererT], widget': GtkWidgetI, minimum_size': NullablePointer[GtkRequisitionT], natural_size': NullablePointer[GtkRequisitionT]): None =>
-    @gtk_cell_renderer_get_preferred_size(cell', widget'.getptr(), minimum_size', natural_size')
+  fun get_preferred_size(cell': GtkCellRendererI, widget': GtkWidgetI, minimum_size': NullablePointer[GtkRequisitionT], natural_size': NullablePointer[GtkRequisitionT]): None =>
+    @gtk_cell_renderer_get_preferred_size(cell'.getptr(), widget'.getptr(), minimum_size', natural_size')

@@ -1,2 +1,2 @@
-  fun get_focus_siblings(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT]): NullablePointer[GListT] =>
-    @gtk_cell_area_get_focus_siblings(area', renderer')
+  fun get_focus_siblings(area': GtkCellAreaI, renderer': GtkCellRendererI): NullablePointer[GListT] =>
+    @gtk_cell_area_get_focus_siblings(area'.getptr(), renderer'.getptr())

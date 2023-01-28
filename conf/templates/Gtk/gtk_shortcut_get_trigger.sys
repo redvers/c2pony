@@ -1,2 +1,2 @@
-  fun get_trigger(self': NullablePointer[GtkShortcutT]): NullablePointer[GtkShortcutTriggerT] =>
-    @gtk_shortcut_get_trigger(self')
+  fun get_trigger(self': GtkShortcutI): NullablePointer[GObjectT] =>
+@gtk_shortcut_get_trigger(self'.getptr())

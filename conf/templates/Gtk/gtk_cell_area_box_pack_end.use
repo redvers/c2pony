@@ -1,1 +1,1 @@
-use @gtk_cell_area_box_pack_end[None](box': NullablePointer[GtkCellAreaBoxT], renderer': NullablePointer[GtkCellRendererT], expand': I32, align': I32, fixed': I32)
+use @gtk_cell_area_box_pack_end[None](box': NullablePointer[GObjectT], renderer': NullablePointer[GObjectT], expand': I32, align': I32, fixed': I32)

@@ -1,2 +1,2 @@
-  fun delete_interactive(buffer': NullablePointer[GtkTextBufferT], start_iter': NullablePointer[GtkTextIterT], end_iter': NullablePointer[GtkTextIterT], default_editable': I32): I32 =>
-    @gtk_text_buffer_delete_interactive(buffer', start_iter', end_iter', default_editable')
+  fun delete_interactive(buffer': GtkTextBufferI, start_iter': NullablePointer[GtkTextIterT], end_iter': NullablePointer[GtkTextIterT], default_editable': I32): I32 =>
+    @gtk_text_buffer_delete_interactive(buffer'.getptr(), start_iter', end_iter', default_editable')

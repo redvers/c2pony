@@ -1,1 +1,1 @@
-use @gtk_widget_get_layout_manager[NullablePointer[GtkLayoutManagerT]](widget': NullablePointer[GObjectT])
+use @gtk_widget_get_layout_manager[NullablePointer[GObjectT]](widget': NullablePointer[GObjectT])

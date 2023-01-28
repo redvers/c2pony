@@ -1,1 +1,1 @@
-use @g_permission_release_async[None](permission': NullablePointer[GPermissionT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_permission_release_async[None](permission': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

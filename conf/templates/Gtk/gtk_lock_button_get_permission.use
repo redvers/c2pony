@@ -1,1 +1,1 @@
-use @gtk_lock_button_get_permission[NullablePointer[GPermissionT]](button': NullablePointer[GtkLockButtonT])
+use @gtk_lock_button_get_permission[NullablePointer[GObjectT]](button': NullablePointer[GObjectT])

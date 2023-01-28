@@ -1,1 +1,1 @@
-use @gtk_custom_sorter_set_sort_func[None](self': NullablePointer[GtkCustomSorterT], sort_func': GCompareDataFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None])
+use @gtk_custom_sorter_set_sort_func[None](self': NullablePointer[GObjectT], sort_func': GCompareDataFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None])

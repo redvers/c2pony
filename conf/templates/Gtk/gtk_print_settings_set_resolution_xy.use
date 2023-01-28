@@ -1,1 +1,1 @@
-use @gtk_print_settings_set_resolution_xy[None](settings': NullablePointer[GtkPrintSettingsT], resolution_x': I32, resolution_y': I32)
+use @gtk_print_settings_set_resolution_xy[None](settings': NullablePointer[GObjectT], resolution_x': I32, resolution_y': I32)

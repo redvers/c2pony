@@ -1,2 +1,2 @@
-  fun find_enclosing_mount_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GMountT] =>
-    @g_file_find_enclosing_mount_finish(file', res', error'.ptr)
+  fun find_enclosing_mount_finish(file': GFileI, res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_find_enclosing_mount_finish(file'.getptr(), res'.getptr(), error')

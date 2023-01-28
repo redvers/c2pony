@@ -1,1 +1,1 @@
-use @gtk_tree_expander_get_list_row[NullablePointer[GtkTreeListRowT]](self': NullablePointer[GtkTreeExpanderT])
+use @gtk_tree_expander_get_list_row[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

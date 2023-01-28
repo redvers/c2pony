@@ -1,2 +1,2 @@
-  fun ref set_file(file': NullablePointer[GFileT]): None =>
+  fun ref set_file(file': GFileI): None =>
     GtkMediaFileP.set_file(this, file')

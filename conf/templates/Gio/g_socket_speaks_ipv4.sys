@@ -1,2 +1,2 @@
-  fun speaks_ipv4(socket': NullablePointer[GSocketT]): I32 =>
-    @g_socket_speaks_ipv4(socket')
+  fun speaks_ipv4(socket': GSocketI): I32 =>
+    @g_socket_speaks_ipv4(socket'.getptr())

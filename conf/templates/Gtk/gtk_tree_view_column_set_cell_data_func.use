@@ -1,1 +1,1 @@
-use @gtk_tree_view_column_set_cell_data_func[None](tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT], func': GtkTreeCellDataFunc, func_data': Pointer[None] tag, destroy': Pointer[None])
+use @gtk_tree_view_column_set_cell_data_func[None](tree_column': NullablePointer[GObjectT], cell_renderer': NullablePointer[GObjectT], func': GtkTreeCellDataFunc, func_data': Pointer[None] tag, destroy': Pointer[None])

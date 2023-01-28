@@ -1,2 +1,2 @@
-  fun ref copy_finish(res': NullablePointer[GAsyncResultT], error': GError): I32 =>
+  fun ref copy_finish(res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.copy_finish(this, res', error')

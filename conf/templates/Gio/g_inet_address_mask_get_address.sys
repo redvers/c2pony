@@ -1,2 +1,2 @@
-  fun get_address(mask': NullablePointer[GInetAddressMaskT]): NullablePointer[GInetAddressT] =>
-    @g_inet_address_mask_get_address(mask')
+  fun get_address(mask': GInetAddressMaskI): NullablePointer[GObjectT] =>
+@g_inet_address_mask_get_address(mask'.getptr())

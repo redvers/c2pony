@@ -1,2 +1,2 @@
-  fun get_draw_value(scale': NullablePointer[GtkScaleT]): I32 =>
-    @gtk_scale_get_draw_value(scale')
+  fun get_draw_value(scale': GtkScaleI): I32 =>
+    @gtk_scale_get_draw_value(scale'.getptr())

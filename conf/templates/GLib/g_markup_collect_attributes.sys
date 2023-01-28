@@ -1,2 +1,2 @@
-  fun markup_collect_attributes(element_name': String, attribute_names': Pointer[Pointer[U8]] tag, attribute_values': Pointer[Pointer[U8]] tag, error': GError, first_type': U32, first_attr': String, ...): I32 =>
-    @g_markup_collect_attributes(element_name'.cstring(), attribute_names', attribute_values', error'.ptr, first_type', first_attr'.cstring(), ...)
+  fun markup_collect_attributes(element_name': String, attribute_names': Pointer[Pointer[U8]] tag, attribute_values': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]], first_type': U32, first_attr': String, ...): I32 =>
+    @g_markup_collect_attributes(element_name'.cstring(), attribute_names', attribute_values', error', first_type', first_attr'.cstring(), ...)

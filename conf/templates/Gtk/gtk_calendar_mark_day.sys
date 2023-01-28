@@ -1,2 +1,2 @@
-  fun mark_day(calendar': NullablePointer[GtkCalendarT], day': U32): None =>
-    @gtk_calendar_mark_day(calendar', day')
+  fun mark_day(calendar': GtkCalendarI, day': U32): None =>
+    @gtk_calendar_mark_day(calendar'.getptr(), day')

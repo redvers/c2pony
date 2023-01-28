@@ -1,1 +1,1 @@
-use @gtk_text_child_anchor_new_with_replacement[NullablePointer[GtkTextChildAnchorT]](character': Pointer[U8] tag)
+use @gtk_text_child_anchor_new_with_replacement[NullablePointer[GObjectT]](character': Pointer[U8] tag)

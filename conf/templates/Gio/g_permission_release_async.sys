@@ -1,2 +1,2 @@
-  fun release_async(permission': NullablePointer[GPermissionT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_permission_release_async(permission', cancellable', callback', user_data')
+  fun release_async(permission': GPermissionI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_permission_release_async(permission'.getptr(), cancellable'.getptr(), callback', user_data')

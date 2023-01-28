@@ -1,2 +1,2 @@
-  fun steal_fds(list': NullablePointer[GUnixFDListT], length': Pointer[I32] tag): Pointer[I32] tag =>
-    @g_unix_fd_list_steal_fds(list', length')
+  fun steal_fds(list': GUnixFDListI, length': Pointer[I32] tag): Pointer[I32] tag =>
+    @g_unix_fd_list_steal_fds(list'.getptr(), length')

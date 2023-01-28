@@ -1,2 +1,2 @@
-  fun new_for_string(str': String, error': GError): NullablePointer[GIconT] =>
-    @g_icon_new_for_string(str'.cstring(), error'.ptr)
+  fun new_for_string(str': String, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_icon_new_for_string(str'.cstring(), error')

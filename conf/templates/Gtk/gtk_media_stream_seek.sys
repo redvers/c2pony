@@ -1,2 +1,2 @@
-  fun seek(self': NullablePointer[GtkMediaStreamT], timestamp': I64): None =>
-    @gtk_media_stream_seek(self', timestamp')
+  fun seek(self': GtkMediaStreamI, timestamp': I64): None =>
+    @gtk_media_stream_seek(self'.getptr(), timestamp')

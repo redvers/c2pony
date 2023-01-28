@@ -1,2 +1,2 @@
-  fun query_file_type(file': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT]): U32 =>
-    @g_file_query_file_type(file', flags', cancellable')
+  fun query_file_type(file': GFileI, flags': U32, cancellable': GCancellableI): U32 =>
+    @g_file_query_file_type(file'.getptr(), flags', cancellable'.getptr())

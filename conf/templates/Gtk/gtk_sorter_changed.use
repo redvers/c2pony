@@ -1,1 +1,1 @@
-use @gtk_sorter_changed[None](self': NullablePointer[GtkSorterT], change': U32)
+use @gtk_sorter_changed[None](self': NullablePointer[GObjectT], change': U32)

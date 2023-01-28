@@ -1,2 +1,2 @@
-  fun ref set_completion(completion': NullablePointer[GtkEntryCompletionT]): None =>
+  fun ref set_completion(completion': GtkEntryCompletionI): None =>
     GtkEntryP.set_completion(this, completion')

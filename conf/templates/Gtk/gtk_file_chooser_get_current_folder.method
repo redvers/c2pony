@@ -1,2 +1,2 @@
-  fun ref get_current_folder(): NullablePointer[GFileT] =>
+  fun ref get_current_folder(): NullablePointer[GObjectT] =>
     GtkFileChooserP.get_current_folder(this)

@@ -1,2 +1,2 @@
-  fun deserialize(value': NullablePointer[GVariantT]): NullablePointer[GIconT] =>
-    @g_icon_deserialize(value')
+  fun deserialize(value': NullablePointer[GVariantT]): NullablePointer[GObjectT] =>
+@g_icon_deserialize(value')

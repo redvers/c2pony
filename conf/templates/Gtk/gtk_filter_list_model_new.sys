@@ -1,2 +1,2 @@
-  new gnew(model': GListModelI, filter': NullablePointer[GtkFilterT]) =>
-    ptr = @gtk_filter_list_model_new(model'.getptr(), filter')
+  new gnew(model': GListModelI, filter': GtkFilterI) =>
+    ptr = @gtk_filter_list_model_new(model'.getptr(), filter'.getptr())

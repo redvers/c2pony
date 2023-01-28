@@ -1,2 +1,2 @@
-  fun init_delegate(editable': NullablePointer[GtkEditableT]): None =>
-    @gtk_editable_init_delegate(editable')
+  fun init_delegate(editable': GtkEditableI): None =>
+    @gtk_editable_init_delegate(editable'.getptr())

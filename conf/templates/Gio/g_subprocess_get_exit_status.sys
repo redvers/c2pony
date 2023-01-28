@@ -1,2 +1,2 @@
-  fun get_exit_status(subprocess': NullablePointer[GSubprocessT]): I32 =>
-    @g_subprocess_get_exit_status(subprocess')
+  fun get_exit_status(subprocess': GSubprocessI): I32 =>
+    @g_subprocess_get_exit_status(subprocess'.getptr())

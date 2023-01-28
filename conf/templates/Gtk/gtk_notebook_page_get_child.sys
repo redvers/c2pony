@@ -1,2 +1,2 @@
-  fun get_child(page': NullablePointer[GtkNotebookPageT]): NullablePointer[GObjectT] =>
-@gtk_notebook_page_get_child(page')
+  fun get_child(page': GtkNotebookPageI): NullablePointer[GObjectT] =>
+@gtk_notebook_page_get_child(page'.getptr())

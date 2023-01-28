@@ -1,1 +1,1 @@
-use @g_file_enumerator_iterate[I32](direnum': NullablePointer[GFileEnumeratorT], out_info': Pointer[NullablePointer[GFileInfoT]], out_child': Pointer[NullablePointer[GFileT]], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_enumerator_iterate[I32](direnum': NullablePointer[GObjectT], out_info': Pointer[NullablePointer[GFileInfoT]], out_child': Pointer[NullablePointer[GFileT]], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

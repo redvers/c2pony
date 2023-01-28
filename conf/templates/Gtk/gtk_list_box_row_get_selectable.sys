@@ -1,2 +1,2 @@
-  fun get_selectable(row': NullablePointer[GtkListBoxRowT]): I32 =>
-    @gtk_list_box_row_get_selectable(row')
+  fun get_selectable(row': GtkListBoxRowI): I32 =>
+    @gtk_list_box_row_get_selectable(row'.getptr())

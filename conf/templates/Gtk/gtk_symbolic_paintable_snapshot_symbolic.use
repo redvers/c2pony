@@ -1,1 +1,1 @@
-use @gtk_symbolic_paintable_snapshot_symbolic[None](paintable': NullablePointer[GtkSymbolicPaintableT], snapshot': NullablePointer[GdkSnapshotT], width': F64, height': F64, colors': NullablePointer[GdkRGBAT], n_colors': U64)
+use @gtk_symbolic_paintable_snapshot_symbolic[None](paintable': NullablePointer[GObjectT], snapshot': NullablePointer[GdkSnapshotT], width': F64, height': F64, colors': NullablePointer[GdkRGBAT], n_colors': U64)

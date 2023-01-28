@@ -1,2 +1,2 @@
-  fun im_context_filter_keypress(text_view': NullablePointer[GtkTextViewT], event': NullablePointer[GdkEventT]): I32 =>
-    @gtk_text_view_im_context_filter_keypress(text_view', event')
+  fun im_context_filter_keypress(text_view': GtkTextViewI, event': NullablePointer[GdkEventT]): I32 =>
+    @gtk_text_view_im_context_filter_keypress(text_view'.getptr(), event')

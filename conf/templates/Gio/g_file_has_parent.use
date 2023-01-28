@@ -1,1 +1,1 @@
-use @g_file_has_parent[I32](file': NullablePointer[GFileT], parent': NullablePointer[GFileT])
+use @g_file_has_parent[I32](file': NullablePointer[GObjectT], parent': NullablePointer[GObjectT])

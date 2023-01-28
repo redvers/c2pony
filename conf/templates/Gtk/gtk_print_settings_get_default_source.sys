@@ -1,2 +1,2 @@
-  fun get_default_source(settings': NullablePointer[GtkPrintSettingsT]): String iso^ =>
-    String.from_cstring(@gtk_print_settings_get_default_source(settings')).clone()
+  fun get_default_source(settings': GtkPrintSettingsI): String iso^ =>
+    String.from_cstring(@gtk_print_settings_get_default_source(settings'.getptr())).clone()

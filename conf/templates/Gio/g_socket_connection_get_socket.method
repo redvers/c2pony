@@ -1,2 +1,2 @@
-  fun ref get_socket(): NullablePointer[GSocketT] =>
+  fun ref get_socket(): NullablePointer[GObjectT] =>
     GSocketConnectionP.get_socket(this)

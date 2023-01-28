@@ -1,2 +1,2 @@
-  fun ref get_interaction(): NullablePointer[GTlsInteractionT] =>
+  fun ref get_interaction(): NullablePointer[GObjectT] =>
     GTlsConnectionP.get_interaction(this)

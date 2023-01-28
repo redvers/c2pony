@@ -1,1 +1,1 @@
-use @gtk_column_view_column_get_sorter[NullablePointer[GtkSorterT]](self': NullablePointer[GtkColumnViewColumnT])
+use @gtk_column_view_column_get_sorter[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

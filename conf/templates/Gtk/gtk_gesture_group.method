@@ -1,2 +1,2 @@
-  fun ref group(gesture': NullablePointer[GtkGestureT]): None =>
+  fun ref group(gesture': GtkGestureI): None =>
     GtkGestureP.group(this, gesture')

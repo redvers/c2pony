@@ -1,1 +1,1 @@
-use @g_inet_address_new_any[NullablePointer[GInetAddressT]](family': U32)
+use @g_inet_address_new_any[NullablePointer[GObjectT]](family': U32)

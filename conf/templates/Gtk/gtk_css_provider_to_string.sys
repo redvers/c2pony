@@ -1,2 +1,2 @@
-  fun to_string(provider': NullablePointer[GtkCssProviderT]): String iso^ =>
-    String.from_cstring(@gtk_css_provider_to_string(provider')).clone()
+  fun to_string(provider': GtkCssProviderI): String iso^ =>
+    String.from_cstring(@gtk_css_provider_to_string(provider'.getptr())).clone()

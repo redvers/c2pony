@@ -1,2 +1,2 @@
-  fun move_after(store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], position': NullablePointer[GtkTreeIterT]): None =>
-    @gtk_list_store_move_after(store', iter', position')
+  fun move_after(store': GtkListStoreI, iter': NullablePointer[GtkTreeIterT], position': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_list_store_move_after(store'.getptr(), iter', position')

@@ -1,1 +1,1 @@
-use @gtk_cell_renderer_get_alignment[None](cell': NullablePointer[GtkCellRendererT], xalign': Pointer[F32] tag, yalign': Pointer[F32] tag)
+use @gtk_cell_renderer_get_alignment[None](cell': NullablePointer[GObjectT], xalign': Pointer[F32] tag, yalign': Pointer[F32] tag)

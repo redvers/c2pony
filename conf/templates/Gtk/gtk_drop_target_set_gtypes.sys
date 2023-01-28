@@ -1,2 +1,2 @@
-  fun set_gtypes(self': NullablePointer[GtkDropTargetT], types': Pointer[U64] tag, n_types': U64): None =>
-    @gtk_drop_target_set_gtypes(self', types', n_types')
+  fun set_gtypes(self': GtkDropTargetI, types': Pointer[U64] tag, n_types': U64): None =>
+    @gtk_drop_target_set_gtypes(self'.getptr(), types', n_types')

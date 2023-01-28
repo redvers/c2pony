@@ -1,2 +1,2 @@
-  fun ref get_address(): NullablePointer[GInetAddressT] =>
+  fun ref get_address(): NullablePointer[GObjectT] =>
     GInetAddressMaskP.get_address(this)

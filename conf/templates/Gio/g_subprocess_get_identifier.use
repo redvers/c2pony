@@ -1,1 +1,1 @@
-use @g_subprocess_get_identifier[Pointer[U8]](subprocess': NullablePointer[GSubprocessT])
+use @g_subprocess_get_identifier[Pointer[U8]](subprocess': NullablePointer[GObjectT])

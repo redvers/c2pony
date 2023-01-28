@@ -1,1 +1,1 @@
-use @g_file_info_set_size[None](info': NullablePointer[GFileInfoT], size': I64)
+use @g_file_info_set_size[None](info': NullablePointer[GObjectT], size': I64)

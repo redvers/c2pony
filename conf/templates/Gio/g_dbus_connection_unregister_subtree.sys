@@ -1,2 +1,2 @@
-  fun unregister_subtree(connection': NullablePointer[GDBusConnectionT], registration_id': U32): I32 =>
-    @g_dbus_connection_unregister_subtree(connection', registration_id')
+  fun unregister_subtree(connection': GDBusConnectionI, registration_id': U32): I32 =>
+    @g_dbus_connection_unregister_subtree(connection'.getptr(), registration_id')

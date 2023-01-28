@@ -1,1 +1,1 @@
-use @gtk_window_handle_get_child[NullablePointer[GObjectT]](self': NullablePointer[GtkWindowHandleT])
+use @gtk_window_handle_get_child[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

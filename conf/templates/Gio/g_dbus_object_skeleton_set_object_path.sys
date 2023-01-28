@@ -1,2 +1,2 @@
-  fun set_object_path(object': NullablePointer[GDBusObjectSkeletonT], object_path': String): None =>
-    @g_dbus_object_skeleton_set_object_path(object', object_path'.cstring())
+  fun set_object_path(object': GDBusObjectSkeletonI, object_path': String): None =>
+    @g_dbus_object_skeleton_set_object_path(object'.getptr(), object_path'.cstring())

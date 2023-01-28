@@ -1,2 +1,2 @@
-  fun get_transition_duration(revealer': NullablePointer[GtkRevealerT]): U32 =>
-    @gtk_revealer_get_transition_duration(revealer')
+  fun get_transition_duration(revealer': GtkRevealerI): U32 =>
+    @gtk_revealer_get_transition_duration(revealer'.getptr())

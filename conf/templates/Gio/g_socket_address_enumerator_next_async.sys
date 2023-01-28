@@ -1,2 +1,2 @@
-  fun next_async(enumerator': NullablePointer[GSocketAddressEnumeratorT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_socket_address_enumerator_next_async(enumerator', cancellable', callback', user_data')
+  fun next_async(enumerator': GSocketAddressEnumeratorI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_socket_address_enumerator_next_async(enumerator'.getptr(), cancellable'.getptr(), callback', user_data')

@@ -1,2 +1,2 @@
-  fun ref next(error': GError): I32 =>
+  fun ref next(error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GMatchInfoP.next(ptr, error')

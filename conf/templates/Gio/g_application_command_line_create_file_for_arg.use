@@ -1,1 +1,1 @@
-use @g_application_command_line_create_file_for_arg[NullablePointer[GFileT]](cmdline': NullablePointer[GApplicationCommandLineT], arg': Pointer[U8] tag)
+use @g_application_command_line_create_file_for_arg[NullablePointer[GObjectT]](cmdline': NullablePointer[GObjectT], arg': Pointer[U8] tag)

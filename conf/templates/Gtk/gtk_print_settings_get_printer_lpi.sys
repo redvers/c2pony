@@ -1,2 +1,2 @@
-  fun get_printer_lpi(settings': NullablePointer[GtkPrintSettingsT]): F64 =>
-    @gtk_print_settings_get_printer_lpi(settings')
+  fun get_printer_lpi(settings': GtkPrintSettingsI): F64 =>
+    @gtk_print_settings_get_printer_lpi(settings'.getptr())

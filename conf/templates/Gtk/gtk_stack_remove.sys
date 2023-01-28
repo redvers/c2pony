@@ -1,2 +1,2 @@
-  fun remove(stack': NullablePointer[GtkStackT], child': GtkWidgetI): None =>
-    @gtk_stack_remove(stack', child'.getptr())
+  fun remove(stack': GtkStackI, child': GtkWidgetI): None =>
+    @gtk_stack_remove(stack'.getptr(), child'.getptr())

@@ -1,1 +1,1 @@
-use @g_file_monitor_is_cancelled[I32](monitor': NullablePointer[GFileMonitorT])
+use @g_file_monitor_is_cancelled[I32](monitor': NullablePointer[GObjectT])

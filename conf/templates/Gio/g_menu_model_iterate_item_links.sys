@@ -1,2 +1,2 @@
-  fun iterate_item_links(model': NullablePointer[GMenuModelT], item_index': I32): NullablePointer[GMenuLinkIterT] =>
-    @g_menu_model_iterate_item_links(model', item_index')
+  fun iterate_item_links(model': GMenuModelI, item_index': I32): NullablePointer[GObjectT] =>
+@g_menu_model_iterate_item_links(model'.getptr(), item_index')

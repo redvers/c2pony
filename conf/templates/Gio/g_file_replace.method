@@ -1,2 +1,2 @@
-  fun ref replace(etag': String, make_backup': I32, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileOutputStreamT] =>
+  fun ref replace(etag': String, make_backup': I32, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.replace(this, etag', make_backup', flags', cancellable', error')

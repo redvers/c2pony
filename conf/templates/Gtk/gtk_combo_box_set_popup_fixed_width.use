@@ -1,1 +1,1 @@
-use @gtk_combo_box_set_popup_fixed_width[None](combo_box': NullablePointer[GtkComboBoxT], fixed': I32)
+use @gtk_combo_box_set_popup_fixed_width[None](combo_box': NullablePointer[GObjectT], fixed': I32)

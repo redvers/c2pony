@@ -1,2 +1,2 @@
-  fun set_drag_dest_row(tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], pos': U32): None =>
-    @gtk_tree_view_set_drag_dest_row(tree_view', path', pos')
+  fun set_drag_dest_row(tree_view': GtkTreeViewI, path': NullablePointer[GtkTreePathT], pos': U32): None =>
+    @gtk_tree_view_set_drag_dest_row(tree_view'.getptr(), path', pos')

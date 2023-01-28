@@ -1,1 +1,1 @@
-use @gtk_cell_area_get_edit_widget[NullablePointer[GtkCellEditableT]](area': NullablePointer[GtkCellAreaT])
+use @gtk_cell_area_get_edit_widget[NullablePointer[GObjectT]](area': NullablePointer[GObjectT])

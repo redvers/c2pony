@@ -1,1 +1,1 @@
-use @gtk_tree_view_row_activated[None](tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], column': NullablePointer[GtkTreeViewColumnT])
+use @gtk_tree_view_row_activated[None](tree_view': NullablePointer[GObjectT], path': NullablePointer[GtkTreePathT], column': NullablePointer[GObjectT])

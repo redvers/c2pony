@@ -1,2 +1,2 @@
-  fun read_line(stream': NullablePointer[GDataInputStreamT], length': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': GError): String iso^ =>
-    String.from_cstring(@g_data_input_stream_read_line(stream', length', cancellable', error'.ptr)).clone()
+  fun read_line(stream': GDataInputStreamI, length': Pointer[U64] tag, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_data_input_stream_read_line(stream'.getptr(), length', cancellable'.getptr(), error')).clone()

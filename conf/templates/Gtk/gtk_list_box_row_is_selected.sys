@@ -1,2 +1,2 @@
-  fun is_selected(row': NullablePointer[GtkListBoxRowT]): I32 =>
-    @gtk_list_box_row_is_selected(row')
+  fun is_selected(row': GtkListBoxRowI): I32 =>
+    @gtk_list_box_row_is_selected(row'.getptr())

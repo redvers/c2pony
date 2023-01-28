@@ -1,1 +1,1 @@
-use @g_dtls_connection_set_advertised_protocols[None](conn': NullablePointer[GDtlsConnectionT], protocols': Pointer[Pointer[U8]] tag)
+use @g_dtls_connection_set_advertised_protocols[None](conn': NullablePointer[GObjectT], protocols': Pointer[Pointer[U8]] tag)

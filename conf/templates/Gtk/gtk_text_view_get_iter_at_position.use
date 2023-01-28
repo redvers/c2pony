@@ -1,1 +1,1 @@
-use @gtk_text_view_get_iter_at_position[I32](text_view': NullablePointer[GtkTextViewT], iter': NullablePointer[GtkTextIterT], trailing': Pointer[I32] tag, x': I32, y': I32)
+use @gtk_text_view_get_iter_at_position[I32](text_view': NullablePointer[GObjectT], iter': NullablePointer[GtkTextIterT], trailing': Pointer[I32] tag, x': I32, y': I32)

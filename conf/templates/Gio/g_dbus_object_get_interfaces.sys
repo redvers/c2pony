@@ -1,2 +1,2 @@
-  fun get_interfaces(object': NullablePointer[GDBusObjectT]): NullablePointer[GListT] =>
-    @g_dbus_object_get_interfaces(object')
+  fun get_interfaces(object': GDBusObjectI): NullablePointer[GListT] =>
+    @g_dbus_object_get_interfaces(object'.getptr())

@@ -1,2 +1,2 @@
-  fun has_attribute(info': NullablePointer[GFileInfoT], attribute': String): I32 =>
-    @g_file_info_has_attribute(info', attribute'.cstring())
+  fun has_attribute(info': GFileInfoI, attribute': String): I32 =>
+    @g_file_info_has_attribute(info'.getptr(), attribute'.cstring())

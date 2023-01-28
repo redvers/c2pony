@@ -1,2 +1,2 @@
-  fun set_text(editable': NullablePointer[GtkEditableT], text': String): None =>
-    @gtk_editable_set_text(editable', text'.cstring())
+  fun set_text(editable': GtkEditableI, text': String): None =>
+    @gtk_editable_set_text(editable'.getptr(), text'.cstring())

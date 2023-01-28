@@ -1,1 +1,1 @@
-use @g_filename_completer_new[NullablePointer[GFilenameCompleterT]]()
+use @g_filename_completer_new[NullablePointer[GObjectT]]()

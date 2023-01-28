@@ -1,2 +1,2 @@
-  fun ref lookup_by_address(address': NullablePointer[GInetAddressT], cancellable': NullablePointer[GCancellableT], error': GError): String iso^ =>
+  fun ref lookup_by_address(address': GInetAddressI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
     GResolverP.lookup_by_address(this, address', cancellable', error')

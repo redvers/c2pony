@@ -1,1 +1,1 @@
-use @gtk_file_chooser_set_file[I32](chooser': NullablePointer[GtkFileChooserT], file': NullablePointer[GFileT], error': NullablePointer[GErrorT])
+use @gtk_file_chooser_set_file[I32](chooser': NullablePointer[GObjectT], file': NullablePointer[GObjectT], error': NullablePointer[GErrorT])

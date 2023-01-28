@@ -1,2 +1,2 @@
-  fun get_adjustment(button': NullablePointer[GtkScaleButtonT]): NullablePointer[GtkAdjustmentT] =>
-    @gtk_scale_button_get_adjustment(button')
+  fun get_adjustment(button': GtkScaleButtonI): NullablePointer[GObjectT] =>
+@gtk_scale_button_get_adjustment(button'.getptr())

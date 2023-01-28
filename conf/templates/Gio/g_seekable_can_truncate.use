@@ -1,1 +1,1 @@
-use @g_seekable_can_truncate[I32](seekable': NullablePointer[GSeekableT])
+use @g_seekable_can_truncate[I32](seekable': NullablePointer[GObjectT])

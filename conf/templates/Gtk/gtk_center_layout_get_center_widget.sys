@@ -1,2 +1,2 @@
-  fun get_center_widget(self': NullablePointer[GtkCenterLayoutT]): NullablePointer[GObjectT] =>
-@gtk_center_layout_get_center_widget(self')
+  fun get_center_widget(self': GtkCenterLayoutI): NullablePointer[GObjectT] =>
+@gtk_center_layout_get_center_widget(self'.getptr())

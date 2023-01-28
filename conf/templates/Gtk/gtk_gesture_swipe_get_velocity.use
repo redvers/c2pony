@@ -1,1 +1,1 @@
-use @gtk_gesture_swipe_get_velocity[I32](gesture': NullablePointer[GtkGestureSwipeT], velocity_x': Pointer[F64] tag, velocity_y': Pointer[F64] tag)
+use @gtk_gesture_swipe_get_velocity[I32](gesture': NullablePointer[GObjectT], velocity_x': Pointer[F64] tag, velocity_y': Pointer[F64] tag)

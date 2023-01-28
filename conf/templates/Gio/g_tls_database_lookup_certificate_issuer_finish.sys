@@ -1,2 +1,2 @@
-  fun lookup_certificate_issuer_finish(self': NullablePointer[GTlsDatabaseT], result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GTlsCertificateT] =>
-    @g_tls_database_lookup_certificate_issuer_finish(self', result', error'.ptr)
+  fun lookup_certificate_issuer_finish(self': GTlsDatabaseI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_tls_database_lookup_certificate_issuer_finish(self'.getptr(), result'.getptr(), error')

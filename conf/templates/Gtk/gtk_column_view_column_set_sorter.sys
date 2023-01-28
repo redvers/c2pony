@@ -1,2 +1,2 @@
-  fun set_sorter(self': NullablePointer[GtkColumnViewColumnT], sorter': NullablePointer[GtkSorterT]): None =>
-    @gtk_column_view_column_set_sorter(self', sorter')
+  fun set_sorter(self': GtkColumnViewColumnI, sorter': GtkSorterI): None =>
+    @gtk_column_view_column_set_sorter(self'.getptr(), sorter'.getptr())

@@ -1,1 +1,1 @@
-use @g_task_return_new_error[None](task': NullablePointer[GTaskT], domain': U32, code': I32, format': Pointer[U8] tag, ...)
+use @g_task_return_new_error[None](task': NullablePointer[GObjectT], domain': U32, code': I32, format': Pointer[U8] tag, ...)

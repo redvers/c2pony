@@ -1,2 +1,2 @@
-  fun clear(list_store': NullablePointer[GtkListStoreT]): None =>
-    @gtk_list_store_clear(list_store')
+  fun clear(list_store': GtkListStoreI): None =>
+    @gtk_list_store_clear(list_store'.getptr())

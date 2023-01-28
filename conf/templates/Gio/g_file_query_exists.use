@@ -1,1 +1,1 @@
-use @g_file_query_exists[I32](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT])
+use @g_file_query_exists[I32](file': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT])

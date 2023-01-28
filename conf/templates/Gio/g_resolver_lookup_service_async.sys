@@ -1,2 +1,2 @@
-  fun lookup_service_async(resolver': NullablePointer[GResolverT], service': String, protocol': String, domain': String, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_resolver_lookup_service_async(resolver', service'.cstring(), protocol'.cstring(), domain'.cstring(), cancellable', callback', user_data')
+  fun lookup_service_async(resolver': GResolverI, service': String, protocol': String, domain': String, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_resolver_lookup_service_async(resolver'.getptr(), service'.cstring(), protocol'.cstring(), domain'.cstring(), cancellable'.getptr(), callback', user_data')

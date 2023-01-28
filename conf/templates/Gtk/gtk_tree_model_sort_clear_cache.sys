@@ -1,2 +1,2 @@
-  fun clear_cache(tree_model_sort': NullablePointer[GtkTreeModelSortT]): None =>
-    @gtk_tree_model_sort_clear_cache(tree_model_sort')
+  fun clear_cache(tree_model_sort': GtkTreeModelSortI): None =>
+    @gtk_tree_model_sort_clear_cache(tree_model_sort'.getptr())

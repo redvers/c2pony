@@ -1,1 +1,1 @@
-use @gtk_print_operation_is_finished[I32](op': NullablePointer[GtkPrintOperationT])
+use @gtk_print_operation_is_finished[I32](op': NullablePointer[GObjectT])

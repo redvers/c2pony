@@ -1,2 +1,2 @@
-  fun get_selection_bound(buffer': NullablePointer[GtkTextBufferT]): NullablePointer[GtkTextMarkT] =>
-    @gtk_text_buffer_get_selection_bound(buffer')
+  fun get_selection_bound(buffer': GtkTextBufferI): NullablePointer[GObjectT] =>
+@gtk_text_buffer_get_selection_bound(buffer'.getptr())

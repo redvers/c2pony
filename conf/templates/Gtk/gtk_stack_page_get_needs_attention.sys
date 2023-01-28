@@ -1,2 +1,2 @@
-  fun get_needs_attention(self': NullablePointer[GtkStackPageT]): I32 =>
-    @gtk_stack_page_get_needs_attention(self')
+  fun get_needs_attention(self': GtkStackPageI): I32 =>
+    @gtk_stack_page_get_needs_attention(self'.getptr())

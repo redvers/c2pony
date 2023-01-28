@@ -1,1 +1,1 @@
-use @gtk_about_dialog_set_license_type[None](about': NullablePointer[GtkAboutDialogT], license_type': U32)
+use @gtk_about_dialog_set_license_type[None](about': NullablePointer[GObjectT], license_type': U32)

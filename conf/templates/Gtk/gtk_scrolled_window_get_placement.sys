@@ -1,2 +1,2 @@
-  fun get_placement(scrolled_window': NullablePointer[GtkScrolledWindowT]): U32 =>
-    @gtk_scrolled_window_get_placement(scrolled_window')
+  fun get_placement(scrolled_window': GtkScrolledWindowI): U32 =>
+    @gtk_scrolled_window_get_placement(scrolled_window'.getptr())

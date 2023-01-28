@@ -1,2 +1,2 @@
-  fun ref ends_tag(tag': NullablePointer[GtkTextTagT]): I32 =>
+  fun ref ends_tag(tag': GtkTextTagI): I32 =>
     GtkTextIterP.ends_tag(ptr, tag')

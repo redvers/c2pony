@@ -1,2 +1,2 @@
-  fun remove_row(grid': NullablePointer[GtkGridT], position': I32): None =>
-    @gtk_grid_remove_row(grid', position')
+  fun remove_row(grid': GtkGridI, position': I32): None =>
+    @gtk_grid_remove_row(grid'.getptr(), position')

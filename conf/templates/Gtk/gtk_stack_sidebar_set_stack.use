@@ -1,1 +1,1 @@
-use @gtk_stack_sidebar_set_stack[None](self': NullablePointer[GtkStackSidebarT], stack': NullablePointer[GtkStackT])
+use @gtk_stack_sidebar_set_stack[None](self': NullablePointer[GObjectT], stack': NullablePointer[GObjectT])

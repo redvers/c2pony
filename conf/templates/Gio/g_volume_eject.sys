@@ -1,2 +1,2 @@
-  fun eject(volume': NullablePointer[GVolumeT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_volume_eject(volume', flags', cancellable', callback', user_data')
+  fun eject(volume': GVolumeI, flags': U32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_volume_eject(volume'.getptr(), flags', cancellable'.getptr(), callback', user_data')

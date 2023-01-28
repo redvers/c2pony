@@ -1,2 +1,2 @@
-  fun get_show_tabs(notebook': NullablePointer[GtkNotebookT]): I32 =>
-    @gtk_notebook_get_show_tabs(notebook')
+  fun get_show_tabs(notebook': GtkNotebookI): I32 =>
+    @gtk_notebook_get_show_tabs(notebook'.getptr())

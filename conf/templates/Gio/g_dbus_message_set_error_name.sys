@@ -1,2 +1,2 @@
-  fun set_error_name(message': NullablePointer[GDBusMessageT], value': String): None =>
-    @g_dbus_message_set_error_name(message', value'.cstring())
+  fun set_error_name(message': GDBusMessageI, value': String): None =>
+    @g_dbus_message_set_error_name(message'.getptr(), value'.cstring())

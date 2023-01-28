@@ -1,2 +1,2 @@
-  fun set_pulse_step(pbar': NullablePointer[GtkProgressBarT], fraction': F64): None =>
-    @gtk_progress_bar_set_pulse_step(pbar', fraction')
+  fun set_pulse_step(pbar': GtkProgressBarI, fraction': F64): None =>
+    @gtk_progress_bar_set_pulse_step(pbar'.getptr(), fraction')

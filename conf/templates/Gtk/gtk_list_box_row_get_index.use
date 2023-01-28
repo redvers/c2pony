@@ -1,1 +1,1 @@
-use @gtk_list_box_row_get_index[I32](row': NullablePointer[GtkListBoxRowT])
+use @gtk_list_box_row_get_index[I32](row': NullablePointer[GObjectT])

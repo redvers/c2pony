@@ -1,1 +1,1 @@
-use @g_app_info_get_default_for_uri_scheme[NullablePointer[GAppInfoT]](uri_scheme': Pointer[U8] tag)
+use @g_app_info_get_default_for_uri_scheme[NullablePointer[GObjectT]](uri_scheme': Pointer[U8] tag)

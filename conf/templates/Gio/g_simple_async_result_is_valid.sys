@@ -1,2 +1,2 @@
-  fun is_valid(result': NullablePointer[GAsyncResultT], source': NullablePointer[GObjectT], source_tag': Pointer[None] tag): I32 =>
-    @g_simple_async_result_is_valid(result', source', source_tag')
+  fun is_valid(result': GAsyncResultI, source': GObjectI, source_tag': Pointer[None] tag): I32 =>
+    @g_simple_async_result_is_valid(result'.getptr(), source'.getptr(), source_tag')

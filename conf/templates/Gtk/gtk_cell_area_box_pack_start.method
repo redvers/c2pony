@@ -1,2 +1,2 @@
-  fun ref pack_start(renderer': NullablePointer[GtkCellRendererT], expand': I32, align': I32, fixed': I32): None =>
+  fun ref pack_start(renderer': GtkCellRendererI, expand': I32, align': I32, fixed': I32): None =>
     GtkCellAreaBoxP.pack_start(this, renderer', expand', align', fixed')

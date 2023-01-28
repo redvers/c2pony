@@ -1,1 +1,1 @@
-use @gtk_text_get_attributes[NullablePointer[PangoAttrListT]](self': NullablePointer[GtkTextT])
+use @gtk_text_get_attributes[NullablePointer[PangoAttrListT]](self': NullablePointer[GObjectT])

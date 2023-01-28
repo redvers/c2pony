@@ -1,2 +1,2 @@
-  fun get_arguments(self': NullablePointer[GtkShortcutT]): NullablePointer[GVariantT] =>
-    @gtk_shortcut_get_arguments(self')
+  fun get_arguments(self': GtkShortcutI): NullablePointer[GVariantT] =>
+    @gtk_shortcut_get_arguments(self'.getptr())

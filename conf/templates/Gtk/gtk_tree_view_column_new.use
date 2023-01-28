@@ -1,1 +1,1 @@
-use @gtk_tree_view_column_new[NullablePointer[GtkTreeViewColumnT]]()
+use @gtk_tree_view_column_new[NullablePointer[GObjectT]]()

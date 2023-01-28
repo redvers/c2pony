@@ -1,2 +1,2 @@
-  fun poll_for_media(drive': NullablePointer[GDriveT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_drive_poll_for_media(drive', cancellable', callback', user_data')
+  fun poll_for_media(drive': GDriveI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_drive_poll_for_media(drive'.getptr(), cancellable'.getptr(), callback', user_data')

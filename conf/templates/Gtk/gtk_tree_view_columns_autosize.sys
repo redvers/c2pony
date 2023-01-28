@@ -1,2 +1,2 @@
-  fun columns_autosize(tree_view': NullablePointer[GtkTreeViewT]): None =>
-    @gtk_tree_view_columns_autosize(tree_view')
+  fun columns_autosize(tree_view': GtkTreeViewI): None =>
+    @gtk_tree_view_columns_autosize(tree_view'.getptr())

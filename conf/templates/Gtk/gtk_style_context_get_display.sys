@@ -1,2 +1,2 @@
-  fun get_display(context': NullablePointer[GtkStyleContextT]): NullablePointer[GdkDisplayT] =>
-    @gtk_style_context_get_display(context')
+  fun get_display(context': GtkStyleContextI): NullablePointer[GdkDisplayT] =>
+    @gtk_style_context_get_display(context'.getptr())

@@ -1,2 +1,2 @@
-  fun reset_property(settings': NullablePointer[GtkSettingsT], name': String): None =>
-    @gtk_settings_reset_property(settings', name'.cstring())
+  fun reset_property(settings': GtkSettingsI, name': String): None =>
+    @gtk_settings_reset_property(settings'.getptr(), name'.cstring())

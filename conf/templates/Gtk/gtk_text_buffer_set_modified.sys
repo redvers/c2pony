@@ -1,2 +1,2 @@
-  fun set_modified(buffer': NullablePointer[GtkTextBufferT], setting': I32): None =>
-    @gtk_text_buffer_set_modified(buffer', setting')
+  fun set_modified(buffer': GtkTextBufferI, setting': I32): None =>
+    @gtk_text_buffer_set_modified(buffer'.getptr(), setting')

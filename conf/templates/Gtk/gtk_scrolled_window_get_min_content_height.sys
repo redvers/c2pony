@@ -1,2 +1,2 @@
-  fun get_min_content_height(scrolled_window': NullablePointer[GtkScrolledWindowT]): I32 =>
-    @gtk_scrolled_window_get_min_content_height(scrolled_window')
+  fun get_min_content_height(scrolled_window': GtkScrolledWindowI): I32 =>
+    @gtk_scrolled_window_get_min_content_height(scrolled_window'.getptr())

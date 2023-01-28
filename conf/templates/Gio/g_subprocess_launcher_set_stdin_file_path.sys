@@ -1,2 +1,2 @@
-  fun set_stdin_file_path(self': NullablePointer[GSubprocessLauncherT], path': String): None =>
-    @g_subprocess_launcher_set_stdin_file_path(self', path'.cstring())
+  fun set_stdin_file_path(self': GSubprocessLauncherI, path': String): None =>
+    @g_subprocess_launcher_set_stdin_file_path(self'.getptr(), path'.cstring())

@@ -1,2 +1,2 @@
-  fun ref get_file_for_path(path': String): NullablePointer[GFileT] =>
+  fun ref get_file_for_path(path': String): NullablePointer[GObjectT] =>
     GVfsP.get_file_for_path(this, path')

@@ -1,1 +1,1 @@
-use @g_application_command_line_set_exit_status[None](cmdline': NullablePointer[GApplicationCommandLineT], exit_status': I32)
+use @g_application_command_line_set_exit_status[None](cmdline': NullablePointer[GObjectT], exit_status': I32)

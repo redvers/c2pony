@@ -1,1 +1,1 @@
-use @g_mount_remount_finish[I32](mount': NullablePointer[GMountT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_mount_remount_finish[I32](mount': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

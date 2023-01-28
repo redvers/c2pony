@@ -1,2 +1,2 @@
-  new new_from_directory(directory': String, parent': NullablePointer[GSettingsSchemaSourceT], trusted': I32, error': GError) =>
-    ptr = @g_settings_schema_source_new_from_directory(directory'.cstring(), parent', trusted', error'.ptr)
+  new new_from_directory(directory': String, parent': NullablePointer[GSettingsSchemaSourceT], trusted': I32, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_settings_schema_source_new_from_directory(directory'.cstring(), parent', trusted', error')

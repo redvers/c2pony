@@ -1,1 +1,1 @@
-use @gtk_list_store_move_after[None](store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], position': NullablePointer[GtkTreeIterT])
+use @gtk_list_store_move_after[None](store': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT], position': NullablePointer[GtkTreeIterT])

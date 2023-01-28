@@ -1,2 +1,2 @@
-  fun get_step_increment(adjustment': NullablePointer[GtkAdjustmentT]): F64 =>
-    @gtk_adjustment_get_step_increment(adjustment')
+  fun get_step_increment(adjustment': GtkAdjustmentI): F64 =>
+    @gtk_adjustment_get_step_increment(adjustment'.getptr())

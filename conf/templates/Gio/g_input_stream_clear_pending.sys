@@ -1,2 +1,2 @@
-  fun clear_pending(stream': NullablePointer[GInputStreamT]): None =>
-    @g_input_stream_clear_pending(stream')
+  fun clear_pending(stream': GInputStreamI): None =>
+    @g_input_stream_clear_pending(stream'.getptr())

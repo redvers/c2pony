@@ -1,2 +1,2 @@
-  fun reorder_child(notebook': NullablePointer[GtkNotebookT], child': GtkWidgetI, position': I32): None =>
-    @gtk_notebook_reorder_child(notebook', child'.getptr(), position')
+  fun reorder_child(notebook': GtkNotebookI, child': GtkWidgetI, position': I32): None =>
+    @gtk_notebook_reorder_child(notebook'.getptr(), child'.getptr(), position')

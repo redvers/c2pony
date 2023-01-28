@@ -1,2 +1,2 @@
-  fun ref configure(adjustment': NullablePointer[GtkAdjustmentT], climb_rate': F64, digits': U32): None =>
+  fun ref configure(adjustment': GtkAdjustmentI, climb_rate': F64, digits': U32): None =>
     GtkSpinButtonP.configure(this, adjustment', climb_rate', digits')

@@ -1,2 +1,2 @@
-  fun is_recognized(gesture': NullablePointer[GtkGestureT]): I32 =>
-    @gtk_gesture_is_recognized(gesture')
+  fun is_recognized(gesture': GtkGestureI): I32 =>
+    @gtk_gesture_is_recognized(gesture'.getptr())

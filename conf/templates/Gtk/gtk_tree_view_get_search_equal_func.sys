@@ -1,2 +1,2 @@
-  fun get_search_equal_func(tree_view': NullablePointer[GtkTreeViewT]): GtkTreeViewSearchEqualFunc =>
-    @gtk_tree_view_get_search_equal_func(tree_view')
+  fun get_search_equal_func(tree_view': GtkTreeViewI): GtkTreeViewSearchEqualFunc =>
+    @gtk_tree_view_get_search_equal_func(tree_view'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_assistant_get_nth_page[NullablePointer[GObjectT]](assistant': NullablePointer[GtkAssistantT], page_num': I32)
+use @gtk_assistant_get_nth_page[NullablePointer[GObjectT]](assistant': NullablePointer[GObjectT], page_num': I32)

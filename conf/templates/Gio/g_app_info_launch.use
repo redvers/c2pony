@@ -1,1 +1,1 @@
-use @g_app_info_launch[I32](appinfo': NullablePointer[GAppInfoT], files': NullablePointer[GListT], context': NullablePointer[GAppLaunchContextT], error': NullablePointer[GErrorT])
+use @g_app_info_launch[I32](appinfo': NullablePointer[GObjectT], files': NullablePointer[GListT], context': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

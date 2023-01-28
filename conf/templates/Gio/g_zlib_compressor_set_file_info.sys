@@ -1,2 +1,2 @@
-  fun set_file_info(compressor': NullablePointer[GZlibCompressorT], file_info': NullablePointer[GFileInfoT]): None =>
-    @g_zlib_compressor_set_file_info(compressor', file_info')
+  fun set_file_info(compressor': GZlibCompressorI, file_info': GFileInfoI): None =>
+    @g_zlib_compressor_set_file_info(compressor'.getptr(), file_info'.getptr())

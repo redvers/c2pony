@@ -1,1 +1,1 @@
-use @gtk_print_settings_set_page_set[None](settings': NullablePointer[GtkPrintSettingsT], page_set': U32)
+use @gtk_print_settings_set_page_set[None](settings': NullablePointer[GObjectT], page_set': U32)

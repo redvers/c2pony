@@ -1,2 +1,2 @@
-  fun remove_column(grid': NullablePointer[GtkGridT], position': I32): None =>
-    @gtk_grid_remove_column(grid', position')
+  fun remove_column(grid': GtkGridI, position': I32): None =>
+    @gtk_grid_remove_column(grid'.getptr(), position')

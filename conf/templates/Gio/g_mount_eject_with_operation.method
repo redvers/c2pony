@@ -1,2 +1,2 @@
-  fun ref eject_with_operation(flags': U32, mount_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref eject_with_operation(flags': U32, mount_operation': GMountOperationI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GMountP.eject_with_operation(this, flags', mount_operation', cancellable', callback', user_data')

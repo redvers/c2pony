@@ -1,2 +1,2 @@
-  fun ref move_mark_onscreen(mark': NullablePointer[GtkTextMarkT]): I32 =>
+  fun ref move_mark_onscreen(mark': GtkTextMarkI): I32 =>
     GtkTextViewP.move_mark_onscreen(this, mark')

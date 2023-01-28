@@ -1,1 +1,1 @@
-use @gtk_text_view_set_buffer[None](text_view': NullablePointer[GtkTextViewT], buffer': NullablePointer[GtkTextBufferT])
+use @gtk_text_view_set_buffer[None](text_view': NullablePointer[GObjectT], buffer': NullablePointer[GObjectT])

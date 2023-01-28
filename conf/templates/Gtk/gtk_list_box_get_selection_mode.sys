@@ -1,2 +1,2 @@
-  fun get_selection_mode(box': NullablePointer[GtkListBoxT]): U32 =>
-    @gtk_list_box_get_selection_mode(box')
+  fun get_selection_mode(box': GtkListBoxI): U32 =>
+    @gtk_list_box_get_selection_mode(box'.getptr())

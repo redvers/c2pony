@@ -1,1 +1,1 @@
-use @g_file_info_set_symlink_target[None](info': NullablePointer[GFileInfoT], symlink_target': Pointer[U8] tag)
+use @g_file_info_set_symlink_target[None](info': NullablePointer[GObjectT], symlink_target': Pointer[U8] tag)

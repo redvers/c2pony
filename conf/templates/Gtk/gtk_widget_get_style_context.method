@@ -1,2 +1,2 @@
-  fun ref get_style_context(): NullablePointer[GtkStyleContextT] =>
+  fun ref get_style_context(): NullablePointer[GObjectT] =>
     GtkWidgetP.get_style_context(this)

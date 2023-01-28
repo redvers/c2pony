@@ -1,2 +1,2 @@
-  fun set_priority(notification': NullablePointer[GNotificationT], priority': U32): None =>
-    @g_notification_set_priority(notification', priority')
+  fun set_priority(notification': GNotificationI, priority': U32): None =>
+    @g_notification_set_priority(notification'.getptr(), priority')

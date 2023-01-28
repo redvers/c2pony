@@ -1,2 +1,2 @@
-  fun set_icon_sensitive(entry': NullablePointer[GtkEntryT], icon_pos': U32, sensitive': I32): None =>
-    @gtk_entry_set_icon_sensitive(entry', icon_pos', sensitive')
+  fun set_icon_sensitive(entry': GtkEntryI, icon_pos': U32, sensitive': I32): None =>
+    @gtk_entry_set_icon_sensitive(entry'.getptr(), icon_pos', sensitive')

@@ -1,1 +1,1 @@
-use @gtk_notebook_remove_page[None](notebook': NullablePointer[GtkNotebookT], page_num': I32)
+use @gtk_notebook_remove_page[None](notebook': NullablePointer[GObjectT], page_num': I32)

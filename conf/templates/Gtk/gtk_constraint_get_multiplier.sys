@@ -1,2 +1,2 @@
-  fun get_multiplier(constraint': NullablePointer[GtkConstraintT]): F64 =>
-    @gtk_constraint_get_multiplier(constraint')
+  fun get_multiplier(constraint': GtkConstraintI): F64 =>
+    @gtk_constraint_get_multiplier(constraint'.getptr())

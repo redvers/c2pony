@@ -1,2 +1,2 @@
-  fun append_page(notebook': NullablePointer[GtkNotebookT], child': GtkWidgetI, tab_label': GtkWidgetI): I32 =>
-    @gtk_notebook_append_page(notebook', child'.getptr(), tab_label'.getptr())
+  fun append_page(notebook': GtkNotebookI, child': GtkWidgetI, tab_label': GtkWidgetI): I32 =>
+    @gtk_notebook_append_page(notebook'.getptr(), child'.getptr(), tab_label'.getptr())

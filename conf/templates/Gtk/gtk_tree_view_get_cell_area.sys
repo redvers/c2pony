@@ -1,2 +1,2 @@
-  fun get_cell_area(tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], column': NullablePointer[GtkTreeViewColumnT], rect': NullablePointer[cairorectangleintT]): None =>
-    @gtk_tree_view_get_cell_area(tree_view', path', column', rect')
+  fun get_cell_area(tree_view': GtkTreeViewI, path': NullablePointer[GtkTreePathT], column': GtkTreeViewColumnI, rect': NullablePointer[cairorectangleintT]): None =>
+    @gtk_tree_view_get_cell_area(tree_view'.getptr(), path', column'.getptr(), rect')

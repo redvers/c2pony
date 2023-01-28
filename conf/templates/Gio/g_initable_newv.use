@@ -1,1 +1,1 @@
-use @g_initable_newv[Pointer[None] tag](object_type': U64, n_parameters': U32, parameters': NullablePointer[GParameterT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_initable_newv[Pointer[None] tag](object_type': U64, n_parameters': U32, parameters': NullablePointer[GParameterT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @gtk_about_dialog_set_authors[None](about': NullablePointer[GtkAboutDialogT], authors': Pointer[Pointer[U8]] tag)
+use @gtk_about_dialog_set_authors[None](about': NullablePointer[GObjectT], authors': Pointer[Pointer[U8]] tag)

@@ -1,1 +1,1 @@
-use @gtk_tree_store_remove[I32](tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT])
+use @gtk_tree_store_remove[I32](tree_store': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT])

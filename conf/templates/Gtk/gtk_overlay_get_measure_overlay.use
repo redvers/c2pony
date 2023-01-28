@@ -1,1 +1,1 @@
-use @gtk_overlay_get_measure_overlay[I32](overlay': NullablePointer[GtkOverlayT], widget': NullablePointer[GObjectT])
+use @gtk_overlay_get_measure_overlay[I32](overlay': NullablePointer[GObjectT], widget': NullablePointer[GObjectT])

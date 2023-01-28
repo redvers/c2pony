@@ -1,1 +1,1 @@
-use @gtk_file_chooser_get_select_multiple[I32](chooser': NullablePointer[GtkFileChooserT])
+use @gtk_file_chooser_get_select_multiple[I32](chooser': NullablePointer[GObjectT])

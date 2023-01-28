@@ -1,2 +1,2 @@
-  fun create_context(area': NullablePointer[GtkCellAreaT]): NullablePointer[GtkCellAreaContextT] =>
-    @gtk_cell_area_create_context(area')
+  fun create_context(area': GtkCellAreaI): NullablePointer[GObjectT] =>
+@gtk_cell_area_create_context(area'.getptr())

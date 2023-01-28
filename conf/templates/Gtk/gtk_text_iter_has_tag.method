@@ -1,2 +1,2 @@
-  fun ref has_tag(tag': NullablePointer[GtkTextTagT]): I32 =>
+  fun ref has_tag(tag': GtkTextTagI): I32 =>
     GtkTextIterP.has_tag(ptr, tag')

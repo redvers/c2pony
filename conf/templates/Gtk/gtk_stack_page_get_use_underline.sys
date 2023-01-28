@@ -1,2 +1,2 @@
-  fun get_use_underline(self': NullablePointer[GtkStackPageT]): I32 =>
-    @gtk_stack_page_get_use_underline(self')
+  fun get_use_underline(self': GtkStackPageI): I32 =>
+    @gtk_stack_page_get_use_underline(self'.getptr())

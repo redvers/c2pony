@@ -1,2 +1,2 @@
-  fun set_show_expanders(tree_view': NullablePointer[GtkTreeViewT], enabled': I32): None =>
-    @gtk_tree_view_set_show_expanders(tree_view', enabled')
+  fun set_show_expanders(tree_view': GtkTreeViewI, enabled': I32): None =>
+    @gtk_tree_view_set_show_expanders(tree_view'.getptr(), enabled')

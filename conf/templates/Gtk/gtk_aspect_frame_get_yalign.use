@@ -1,1 +1,1 @@
-use @gtk_aspect_frame_get_yalign[F32](self': NullablePointer[GtkAspectFrameT])
+use @gtk_aspect_frame_get_yalign[F32](self': NullablePointer[GObjectT])

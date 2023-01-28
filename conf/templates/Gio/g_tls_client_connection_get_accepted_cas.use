@@ -1,1 +1,1 @@
-use @g_tls_client_connection_get_accepted_cas[NullablePointer[GListT]](conn': NullablePointer[GTlsClientConnectionT])
+use @g_tls_client_connection_get_accepted_cas[NullablePointer[GListT]](conn': NullablePointer[GObjectT])

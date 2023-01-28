@@ -1,1 +1,1 @@
-use @gtk_editable_set_editable[None](editable': NullablePointer[GtkEditableT], is_editable': I32)
+use @gtk_editable_set_editable[None](editable': NullablePointer[GObjectT], is_editable': I32)

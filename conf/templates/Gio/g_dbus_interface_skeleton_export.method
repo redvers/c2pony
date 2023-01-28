@@ -1,2 +1,2 @@
-  fun ref export(connection': NullablePointer[GDBusConnectionT], object_path': String, error': GError): I32 =>
+  fun ref export(connection': GDBusConnectionI, object_path': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GDBusInterfaceSkeletonP.export(this, connection', object_path', error')

@@ -1,2 +1,2 @@
-  fun set_label(menu_item': NullablePointer[GMenuItemT], label': String): None =>
-    @g_menu_item_set_label(menu_item', label'.cstring())
+  fun set_label(menu_item': GMenuItemI, label': String): None =>
+    @g_menu_item_set_label(menu_item'.getptr(), label'.cstring())

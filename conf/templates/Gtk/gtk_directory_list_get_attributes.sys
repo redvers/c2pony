@@ -1,2 +1,2 @@
-  fun get_attributes(self': NullablePointer[GtkDirectoryListT]): String iso^ =>
-    String.from_cstring(@gtk_directory_list_get_attributes(self')).clone()
+  fun get_attributes(self': GtkDirectoryListI): String iso^ =>
+    String.from_cstring(@gtk_directory_list_get_attributes(self'.getptr())).clone()

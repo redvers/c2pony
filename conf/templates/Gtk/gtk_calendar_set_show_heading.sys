@@ -1,2 +1,2 @@
-  fun set_show_heading(self': NullablePointer[GtkCalendarT], value': I32): None =>
-    @gtk_calendar_set_show_heading(self', value')
+  fun set_show_heading(self': GtkCalendarI, value': I32): None =>
+    @gtk_calendar_set_show_heading(self'.getptr(), value')

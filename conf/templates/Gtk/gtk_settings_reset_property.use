@@ -1,1 +1,1 @@
-use @gtk_settings_reset_property[None](settings': NullablePointer[GtkSettingsT], name': Pointer[U8] tag)
+use @gtk_settings_reset_property[None](settings': NullablePointer[GObjectT], name': Pointer[U8] tag)

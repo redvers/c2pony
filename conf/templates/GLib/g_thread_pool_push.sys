@@ -1,2 +1,2 @@
-  fun push(pool': NullablePointer[GThreadPoolT], data': Pointer[None] tag, error': GError): I32 =>
-    @g_thread_pool_push(pool', data', error'.ptr)
+  fun push(pool': NullablePointer[GThreadPoolT], data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_thread_pool_push(pool', data', error')

@@ -1,1 +1,1 @@
-use @g_zlib_decompressor_new[NullablePointer[GZlibDecompressorT]](format': U32)
+use @g_zlib_decompressor_new[NullablePointer[GObjectT]](format': U32)

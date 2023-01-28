@@ -1,2 +1,2 @@
-  fun remove_tag_by_name(buffer': NullablePointer[GtkTextBufferT], name': String, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
-    @gtk_text_buffer_remove_tag_by_name(buffer', name'.cstring(), start', end')
+  fun remove_tag_by_name(buffer': GtkTextBufferI, name': String, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_buffer_remove_tag_by_name(buffer'.getptr(), name'.cstring(), start', end')

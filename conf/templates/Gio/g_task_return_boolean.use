@@ -1,1 +1,1 @@
-use @g_task_return_boolean[None](task': NullablePointer[GTaskT], result': I32)
+use @g_task_return_boolean[None](task': NullablePointer[GObjectT], result': I32)

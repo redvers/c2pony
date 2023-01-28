@@ -1,2 +1,2 @@
-  fun return_error_valist(invocation': NullablePointer[GDBusMethodInvocationT], domain': U32, code': I32, format': String, var_args': NullablePointer[valisttagT]): None =>
-    @g_dbus_method_invocation_return_error_valist(invocation', domain', code', format'.cstring(), var_args')
+  fun return_error_valist(invocation': GDBusMethodInvocationI, domain': U32, code': I32, format': String, var_args': NullablePointer[valisttagT]): None =>
+    @g_dbus_method_invocation_return_error_valist(invocation'.getptr(), domain', code', format'.cstring(), var_args')

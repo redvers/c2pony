@@ -1,2 +1,2 @@
-  fun set_scroll_to_focus(viewport': NullablePointer[GtkViewportT], scroll_to_focus': I32): None =>
-    @gtk_viewport_set_scroll_to_focus(viewport', scroll_to_focus')
+  fun set_scroll_to_focus(viewport': GtkViewportI, scroll_to_focus': I32): None =>
+    @gtk_viewport_set_scroll_to_focus(viewport'.getptr(), scroll_to_focus')

@@ -1,2 +1,2 @@
-  fun ref focus_cell(cell': NullablePointer[GtkCellRendererT]): None =>
+  fun ref focus_cell(cell': GtkCellRendererI): None =>
     GtkTreeViewColumnP.focus_cell(this, cell')

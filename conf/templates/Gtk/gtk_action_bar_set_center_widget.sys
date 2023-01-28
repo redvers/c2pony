@@ -1,2 +1,2 @@
-  fun set_center_widget(action_bar': NullablePointer[GtkActionBarT], center_widget': GtkWidgetI): None =>
-    @gtk_action_bar_set_center_widget(action_bar', center_widget'.getptr())
+  fun set_center_widget(action_bar': GtkActionBarI, center_widget': GtkWidgetI): None =>
+    @gtk_action_bar_set_center_widget(action_bar'.getptr(), center_widget'.getptr())

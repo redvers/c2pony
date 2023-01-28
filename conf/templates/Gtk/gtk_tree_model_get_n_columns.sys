@@ -1,2 +1,2 @@
-  fun get_n_columns(tree_model': NullablePointer[GtkTreeModelT]): I32 =>
-    @gtk_tree_model_get_n_columns(tree_model')
+  fun get_n_columns(tree_model': GtkTreeModelI): I32 =>
+    @gtk_tree_model_get_n_columns(tree_model'.getptr())

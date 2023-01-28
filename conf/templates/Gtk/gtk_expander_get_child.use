@@ -1,1 +1,1 @@
-use @gtk_expander_get_child[NullablePointer[GObjectT]](expander': NullablePointer[GtkExpanderT])
+use @gtk_expander_get_child[NullablePointer[GObjectT]](expander': NullablePointer[GObjectT])

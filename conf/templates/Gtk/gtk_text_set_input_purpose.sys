@@ -1,2 +1,2 @@
-  fun set_input_purpose(self': NullablePointer[GtkTextT], purpose': U32): None =>
-    @gtk_text_set_input_purpose(self', purpose')
+  fun set_input_purpose(self': GtkTextI, purpose': U32): None =>
+    @gtk_text_set_input_purpose(self'.getptr(), purpose')

@@ -1,2 +1,2 @@
-  fun get_start_child(paned': NullablePointer[GtkPanedT]): NullablePointer[GObjectT] =>
-@gtk_paned_get_start_child(paned')
+  fun get_start_child(paned': GtkPanedI): NullablePointer[GObjectT] =>
+@gtk_paned_get_start_child(paned'.getptr())

@@ -1,2 +1,2 @@
-  fun ref verify(identity': NullablePointer[GSocketConnectableT], trusted_ca': NullablePointer[GTlsCertificateT]): U32 =>
+  fun ref verify(identity': GSocketConnectableI, trusted_ca': GTlsCertificateI): U32 =>
     GTlsCertificateP.verify(this, identity', trusted_ca')

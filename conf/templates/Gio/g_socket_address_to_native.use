@@ -1,1 +1,1 @@
-use @g_socket_address_to_native[I32](address': NullablePointer[GSocketAddressT], dest': Pointer[None] tag, destlen': U64, error': NullablePointer[GErrorT])
+use @g_socket_address_to_native[I32](address': NullablePointer[GObjectT], dest': Pointer[None] tag, destlen': U64, error': Pointer[NullablePointer[GErrorT]])

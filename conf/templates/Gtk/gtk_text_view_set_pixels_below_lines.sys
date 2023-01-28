@@ -1,2 +1,2 @@
-  fun set_pixels_below_lines(text_view': NullablePointer[GtkTextViewT], pixels_below_lines': I32): None =>
-    @gtk_text_view_set_pixels_below_lines(text_view', pixels_below_lines')
+  fun set_pixels_below_lines(text_view': GtkTextViewI, pixels_below_lines': I32): None =>
+    @gtk_text_view_set_pixels_below_lines(text_view'.getptr(), pixels_below_lines')

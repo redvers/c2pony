@@ -1,2 +1,2 @@
-  fun add_filter(connection': NullablePointer[GDBusConnectionT], filter_function': GDBusMessageFilterFunction, user_data': Pointer[None] tag, user_data_free_func': Pointer[None]): U32 =>
-    @g_dbus_connection_add_filter(connection', filter_function', user_data', user_data_free_func')
+  fun add_filter(connection': GDBusConnectionI, filter_function': GDBusMessageFilterFunction, user_data': Pointer[None] tag, user_data_free_func': Pointer[None]): U32 =>
+    @g_dbus_connection_add_filter(connection'.getptr(), filter_function', user_data', user_data_free_func')

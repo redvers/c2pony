@@ -1,2 +1,2 @@
-  fun undo(buffer': NullablePointer[GtkTextBufferT]): None =>
-    @gtk_text_buffer_undo(buffer')
+  fun undo(buffer': GtkTextBufferI): None =>
+    @gtk_text_buffer_undo(buffer'.getptr())

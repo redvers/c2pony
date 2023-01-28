@@ -1,2 +1,2 @@
-  fun get_focus(self': NullablePointer[GtkRootT]): NullablePointer[GObjectT] =>
-@gtk_root_get_focus(self')
+  fun get_focus(self': GtkRootI): NullablePointer[GObjectT] =>
+@gtk_root_get_focus(self'.getptr())

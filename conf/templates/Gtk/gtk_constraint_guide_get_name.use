@@ -1,1 +1,1 @@
-use @gtk_constraint_guide_get_name[Pointer[U8]](guide': NullablePointer[GtkConstraintGuideT])
+use @gtk_constraint_guide_get_name[Pointer[U8]](guide': NullablePointer[GObjectT])

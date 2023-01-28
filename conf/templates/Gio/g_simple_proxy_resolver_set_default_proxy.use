@@ -1,1 +1,1 @@
-use @g_simple_proxy_resolver_set_default_proxy[None](resolver': NullablePointer[GSimpleProxyResolverT], default_proxy': Pointer[U8] tag)
+use @g_simple_proxy_resolver_set_default_proxy[None](resolver': NullablePointer[GObjectT], default_proxy': Pointer[U8] tag)

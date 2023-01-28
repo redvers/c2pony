@@ -1,2 +1,2 @@
-  fun get_child(self': NullablePointer[GtkFlowBoxChildT]): NullablePointer[GObjectT] =>
-@gtk_flow_box_child_get_child(self')
+  fun get_child(self': GtkFlowBoxChildI): NullablePointer[GObjectT] =>
+@gtk_flow_box_child_get_child(self'.getptr())

@@ -1,2 +1,2 @@
-  fun set_model(combo_box': NullablePointer[GtkComboBoxT], model': NullablePointer[GtkTreeModelT]): None =>
-    @gtk_combo_box_set_model(combo_box', model')
+  fun set_model(combo_box': GtkComboBoxI, model': GtkTreeModelI): None =>
+    @gtk_combo_box_set_model(combo_box'.getptr(), model'.getptr())

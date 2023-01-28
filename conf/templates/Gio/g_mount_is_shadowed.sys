@@ -1,2 +1,2 @@
-  fun is_shadowed(mount': NullablePointer[GMountT]): I32 =>
-    @g_mount_is_shadowed(mount')
+  fun is_shadowed(mount': GMountI): I32 =>
+    @g_mount_is_shadowed(mount'.getptr())

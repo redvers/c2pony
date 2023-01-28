@@ -1,2 +1,2 @@
-  fun had_error(task': NullablePointer[GTaskT]): I32 =>
-    @g_task_had_error(task')
+  fun had_error(task': GTaskI): I32 =>
+    @g_task_had_error(task'.getptr())

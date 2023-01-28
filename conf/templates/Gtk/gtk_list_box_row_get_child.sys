@@ -1,2 +1,2 @@
-  fun get_child(row': NullablePointer[GtkListBoxRowT]): NullablePointer[GObjectT] =>
-@gtk_list_box_row_get_child(row')
+  fun get_child(row': GtkListBoxRowI): NullablePointer[GObjectT] =>
+@gtk_list_box_row_get_child(row'.getptr())

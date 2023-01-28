@@ -1,1 +1,1 @@
-use @g_inet_socket_address_get_port[U16](address': NullablePointer[GInetSocketAddressT])
+use @g_inet_socket_address_get_port[U16](address': NullablePointer[GObjectT])

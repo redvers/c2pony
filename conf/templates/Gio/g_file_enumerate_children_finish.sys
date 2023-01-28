@@ -1,2 +1,2 @@
-  fun enumerate_children_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileEnumeratorT] =>
-    @g_file_enumerate_children_finish(file', res', error'.ptr)
+  fun enumerate_children_finish(file': GFileI, res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_enumerate_children_finish(file'.getptr(), res'.getptr(), error')

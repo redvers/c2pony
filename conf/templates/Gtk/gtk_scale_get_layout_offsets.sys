@@ -1,2 +1,2 @@
-  fun get_layout_offsets(scale': NullablePointer[GtkScaleT], x': Pointer[I32] tag, y': Pointer[I32] tag): None =>
-    @gtk_scale_get_layout_offsets(scale', x', y')
+  fun get_layout_offsets(scale': GtkScaleI, x': Pointer[I32] tag, y': Pointer[I32] tag): None =>
+    @gtk_scale_get_layout_offsets(scale'.getptr(), x', y')

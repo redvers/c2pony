@@ -1,2 +1,2 @@
-  fun get_copyright(about': NullablePointer[GtkAboutDialogT]): String iso^ =>
-    String.from_cstring(@gtk_about_dialog_get_copyright(about')).clone()
+  fun get_copyright(about': GtkAboutDialogI): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_copyright(about'.getptr())).clone()

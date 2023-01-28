@@ -1,1 +1,1 @@
-use @gtk_application_get_menu_by_id[NullablePointer[GMenuT]](application': NullablePointer[GObjectT], id': Pointer[U8] tag)
+use @gtk_application_get_menu_by_id[NullablePointer[GObjectT]](application': NullablePointer[GObjectT], id': Pointer[U8] tag)

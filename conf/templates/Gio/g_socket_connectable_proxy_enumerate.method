@@ -1,2 +1,2 @@
-  fun ref proxy_enumerate(): NullablePointer[GSocketAddressEnumeratorT] =>
+  fun ref proxy_enumerate(): NullablePointer[GObjectT] =>
     GSocketConnectableP.proxy_enumerate(this)

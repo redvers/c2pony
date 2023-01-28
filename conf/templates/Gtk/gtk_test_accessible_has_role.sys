@@ -1,2 +1,2 @@
-  fun test_accessible_has_role(accessible': NullablePointer[GtkAccessibleT], role': U32): I32 =>
-    @gtk_test_accessible_has_role(accessible', role')
+  fun test_accessible_has_role(accessible': GtkAccessibleI, role': U32): I32 =>
+    @gtk_test_accessible_has_role(accessible'.getptr(), role')

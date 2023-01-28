@@ -1,2 +1,2 @@
-  fun get_n_columns(tree_view': NullablePointer[GtkTreeViewT]): U32 =>
-    @gtk_tree_view_get_n_columns(tree_view')
+  fun get_n_columns(tree_view': GtkTreeViewI): U32 =>
+    @gtk_tree_view_get_n_columns(tree_view'.getptr())

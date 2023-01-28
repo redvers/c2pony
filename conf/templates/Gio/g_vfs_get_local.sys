@@ -1,2 +1,2 @@
-  fun get_local(): NullablePointer[GVfsT] =>
-    @g_vfs_get_local()
+  fun get_local(): NullablePointer[GObjectT] =>
+@g_vfs_get_local()

@@ -1,1 +1,1 @@
-use @gtk_expander_set_label[None](expander': NullablePointer[GtkExpanderT], label': Pointer[U8] tag)
+use @gtk_expander_set_label[None](expander': NullablePointer[GObjectT], label': Pointer[U8] tag)

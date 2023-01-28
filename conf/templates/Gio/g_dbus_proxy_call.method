@@ -1,2 +1,2 @@
-  fun ref call(method_name': String, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref call(method_name': String, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GDBusProxyP.call(this, method_name', parameters', flags', timeout_msec', cancellable', callback', user_data')

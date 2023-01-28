@@ -1,1 +1,1 @@
-use @gtk_adjustment_set_step_increment[None](adjustment': NullablePointer[GtkAdjustmentT], step_increment': F64)
+use @gtk_adjustment_set_step_increment[None](adjustment': NullablePointer[GObjectT], step_increment': F64)

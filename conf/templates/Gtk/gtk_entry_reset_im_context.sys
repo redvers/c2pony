@@ -1,2 +1,2 @@
-  fun reset_im_context(entry': NullablePointer[GtkEntryT]): None =>
-    @gtk_entry_reset_im_context(entry')
+  fun reset_im_context(entry': GtkEntryI): None =>
+    @gtk_entry_reset_im_context(entry'.getptr())

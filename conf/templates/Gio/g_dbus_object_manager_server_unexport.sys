@@ -1,2 +1,2 @@
-  fun unexport(manager': NullablePointer[GDBusObjectManagerServerT], object_path': String): I32 =>
-    @g_dbus_object_manager_server_unexport(manager', object_path'.cstring())
+  fun unexport(manager': GDBusObjectManagerServerI, object_path': String): I32 =>
+    @g_dbus_object_manager_server_unexport(manager'.getptr(), object_path'.cstring())

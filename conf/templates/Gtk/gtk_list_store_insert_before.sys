@@ -1,2 +1,2 @@
-  fun insert_before(list_store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], sibling': NullablePointer[GtkTreeIterT]): None =>
-    @gtk_list_store_insert_before(list_store', iter', sibling')
+  fun insert_before(list_store': GtkListStoreI, iter': NullablePointer[GtkTreeIterT], sibling': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_list_store_insert_before(list_store'.getptr(), iter', sibling')

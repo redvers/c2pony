@@ -1,1 +1,1 @@
-use @gtk_notebook_get_page[NullablePointer[GtkNotebookPageT]](notebook': NullablePointer[GtkNotebookT], child': NullablePointer[GObjectT])
+use @gtk_notebook_get_page[NullablePointer[GObjectT]](notebook': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

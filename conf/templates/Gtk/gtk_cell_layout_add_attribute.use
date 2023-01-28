@@ -1,1 +1,1 @@
-use @gtk_cell_layout_add_attribute[None](cell_layout': NullablePointer[GtkCellLayoutT], cell': NullablePointer[GtkCellRendererT], attribute': Pointer[U8] tag, column': I32)
+use @gtk_cell_layout_add_attribute[None](cell_layout': NullablePointer[GObjectT], cell': NullablePointer[GObjectT], attribute': Pointer[U8] tag, column': I32)

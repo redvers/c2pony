@@ -1,1 +1,1 @@
-use @gtk_spin_button_set_wrap[None](spin_button': NullablePointer[GtkSpinButtonT], wrap': I32)
+use @gtk_spin_button_set_wrap[None](spin_button': NullablePointer[GObjectT], wrap': I32)

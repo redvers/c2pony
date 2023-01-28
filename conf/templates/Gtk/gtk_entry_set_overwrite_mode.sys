@@ -1,2 +1,2 @@
-  fun set_overwrite_mode(entry': NullablePointer[GtkEntryT], overwrite': I32): None =>
-    @gtk_entry_set_overwrite_mode(entry', overwrite')
+  fun set_overwrite_mode(entry': GtkEntryI, overwrite': I32): None =>
+    @gtk_entry_set_overwrite_mode(entry'.getptr(), overwrite')

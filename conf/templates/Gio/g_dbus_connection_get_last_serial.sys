@@ -1,2 +1,2 @@
-  fun get_last_serial(connection': NullablePointer[GDBusConnectionT]): U32 =>
-    @g_dbus_connection_get_last_serial(connection')
+  fun get_last_serial(connection': GDBusConnectionI): U32 =>
+    @g_dbus_connection_get_last_serial(connection'.getptr())

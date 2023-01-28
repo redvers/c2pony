@@ -1,2 +1,2 @@
-  fun make_directory(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_file_make_directory(file', cancellable', error'.ptr)
+  fun make_directory(file': GFileI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_make_directory(file'.getptr(), cancellable'.getptr(), error')

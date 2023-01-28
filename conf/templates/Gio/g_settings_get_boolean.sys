@@ -1,2 +1,2 @@
-  fun get_boolean(settings': NullablePointer[GSettingsT], key': String): I32 =>
-    @g_settings_get_boolean(settings', key'.cstring())
+  fun get_boolean(settings': GSettingsI, key': String): I32 =>
+    @g_settings_get_boolean(settings'.getptr(), key'.cstring())

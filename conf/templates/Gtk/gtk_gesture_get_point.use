@@ -1,1 +1,1 @@
-use @gtk_gesture_get_point[I32](gesture': NullablePointer[GtkGestureT], sequence': NullablePointer[GdkEventSequenceT], x': Pointer[F64] tag, y': Pointer[F64] tag)
+use @gtk_gesture_get_point[I32](gesture': NullablePointer[GObjectT], sequence': NullablePointer[GdkEventSequenceT], x': Pointer[F64] tag, y': Pointer[F64] tag)

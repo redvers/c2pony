@@ -1,2 +1,2 @@
-  fun get_upper(adjustment': NullablePointer[GtkAdjustmentT]): F64 =>
-    @gtk_adjustment_get_upper(adjustment')
+  fun get_upper(adjustment': GtkAdjustmentI): F64 =>
+    @gtk_adjustment_get_upper(adjustment'.getptr())

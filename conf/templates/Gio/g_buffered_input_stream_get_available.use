@@ -1,1 +1,1 @@
-use @g_buffered_input_stream_get_available[U64](stream': NullablePointer[GBufferedInputStreamT])
+use @g_buffered_input_stream_get_available[U64](stream': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_text_view_move_mark_onscreen[I32](text_view': NullablePointer[GtkTextViewT], mark': NullablePointer[GtkTextMarkT])
+use @gtk_text_view_move_mark_onscreen[I32](text_view': NullablePointer[GObjectT], mark': NullablePointer[GObjectT])

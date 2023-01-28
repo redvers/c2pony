@@ -1,1 +1,1 @@
-use @g_buffered_input_stream_peek[U64](stream': NullablePointer[GBufferedInputStreamT], buffer': Pointer[None] tag, offset': U64, count': U64)
+use @g_buffered_input_stream_peek[U64](stream': NullablePointer[GObjectT], buffer': Pointer[None] tag, offset': U64, count': U64)

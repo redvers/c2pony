@@ -1,1 +1,1 @@
-use @g_output_stream_clear_pending[None](stream': NullablePointer[GOutputStreamT])
+use @g_output_stream_clear_pending[None](stream': NullablePointer[GObjectT])

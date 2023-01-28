@@ -1,2 +1,2 @@
-  fun ref render_frame(context': NullablePointer[GtkStyleContextT], x': F64, y': F64, width': F64, height': F64): None =>
+  fun ref render_frame(context': GtkStyleContextI, x': F64, y': F64, width': F64, height': F64): None =>
     P.render_frame(this, context', x', y', width', height')

@@ -1,1 +1,1 @@
-use @gtk_info_bar_get_show_close_button[I32](info_bar': NullablePointer[GtkInfoBarT])
+use @gtk_info_bar_get_show_close_button[I32](info_bar': NullablePointer[GObjectT])

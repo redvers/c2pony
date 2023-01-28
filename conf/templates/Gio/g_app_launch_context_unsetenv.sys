@@ -1,2 +1,2 @@
-  fun unsetenv(context': NullablePointer[GAppLaunchContextT], variable': String): None =>
-    @g_app_launch_context_unsetenv(context', variable'.cstring())
+  fun unsetenv(context': GAppLaunchContextI, variable': String): None =>
+    @g_app_launch_context_unsetenv(context'.getptr(), variable'.cstring())

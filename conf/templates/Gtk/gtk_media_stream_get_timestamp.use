@@ -1,1 +1,1 @@
-use @gtk_media_stream_get_timestamp[I64](self': NullablePointer[GtkMediaStreamT])
+use @gtk_media_stream_get_timestamp[I64](self': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_position(popover': NullablePointer[GtkPopoverT]): U32 =>
-    @gtk_popover_get_position(popover')
+  fun get_position(popover': GtkPopoverI): U32 =>
+    @gtk_popover_get_position(popover'.getptr())

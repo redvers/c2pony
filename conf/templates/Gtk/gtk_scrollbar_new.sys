@@ -1,2 +1,2 @@
-  new gnew(orientation': U32, adjustment': NullablePointer[GtkAdjustmentT]) =>
-    ptr = @gtk_scrollbar_new(orientation', adjustment')
+  new gnew(orientation': U32, adjustment': GtkAdjustmentI) =>
+    ptr = @gtk_scrollbar_new(orientation', adjustment'.getptr())

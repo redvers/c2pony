@@ -1,1 +1,1 @@
-use @g_settings_new_with_path[NullablePointer[GSettingsT]](schema_id': Pointer[U8] tag, path': Pointer[U8] tag)
+use @g_settings_new_with_path[NullablePointer[GObjectT]](schema_id': Pointer[U8] tag, path': Pointer[U8] tag)

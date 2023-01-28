@@ -1,2 +1,2 @@
-  fun ref send_fd(fd': I32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref send_fd(fd': I32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GUnixConnectionP.send_fd(this, fd', cancellable', error')

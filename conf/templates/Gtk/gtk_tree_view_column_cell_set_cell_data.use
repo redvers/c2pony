@@ -1,1 +1,1 @@
-use @gtk_tree_view_column_cell_set_cell_data[None](tree_column': NullablePointer[GtkTreeViewColumnT], tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], is_expander': I32, is_expanded': I32)
+use @gtk_tree_view_column_cell_set_cell_data[None](tree_column': NullablePointer[GObjectT], tree_model': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT], is_expander': I32, is_expanded': I32)

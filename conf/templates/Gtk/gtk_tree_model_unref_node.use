@@ -1,1 +1,1 @@
-use @gtk_tree_model_unref_node[None](tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT])
+use @gtk_tree_model_unref_node[None](tree_model': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT])

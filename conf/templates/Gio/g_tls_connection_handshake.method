@@ -1,2 +1,2 @@
-  fun ref handshake(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref handshake(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GTlsConnectionP.handshake(this, cancellable', error')

@@ -1,2 +1,2 @@
-  fun get_quality(settings': NullablePointer[GtkPrintSettingsT]): U32 =>
-    @gtk_print_settings_get_quality(settings')
+  fun get_quality(settings': GtkPrintSettingsI): U32 =>
+    @gtk_print_settings_get_quality(settings'.getptr())

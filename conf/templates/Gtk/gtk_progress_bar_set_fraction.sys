@@ -1,2 +1,2 @@
-  fun set_fraction(pbar': NullablePointer[GtkProgressBarT], fraction': F64): None =>
-    @gtk_progress_bar_set_fraction(pbar', fraction')
+  fun set_fraction(pbar': GtkProgressBarI, fraction': F64): None =>
+    @gtk_progress_bar_set_fraction(pbar'.getptr(), fraction')

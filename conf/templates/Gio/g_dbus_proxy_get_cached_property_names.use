@@ -1,1 +1,1 @@
-use @g_dbus_proxy_get_cached_property_names[Pointer[Pointer[U8]] tag](proxy': NullablePointer[GDBusProxyT])
+use @g_dbus_proxy_get_cached_property_names[Pointer[Pointer[U8]] tag](proxy': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_dialog_response[None](dialog': NullablePointer[GtkDialogT], response_id': I32)
+use @gtk_dialog_response[None](dialog': NullablePointer[GObjectT], response_id': I32)

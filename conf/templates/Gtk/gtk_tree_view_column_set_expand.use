@@ -1,1 +1,1 @@
-use @gtk_tree_view_column_set_expand[None](tree_column': NullablePointer[GtkTreeViewColumnT], expand': I32)
+use @gtk_tree_view_column_set_expand[None](tree_column': NullablePointer[GObjectT], expand': I32)

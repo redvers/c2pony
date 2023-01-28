@@ -1,2 +1,2 @@
-  fun get_etag(stream': NullablePointer[GFileIOStreamT]): String iso^ =>
-    String.from_cstring(@g_file_io_stream_get_etag(stream')).clone()
+  fun get_etag(stream': GFileIOStreamI): String iso^ =>
+    String.from_cstring(@g_file_io_stream_get_etag(stream'.getptr())).clone()

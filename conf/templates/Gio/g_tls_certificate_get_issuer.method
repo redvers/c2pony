@@ -1,2 +1,2 @@
-  fun ref get_issuer(): NullablePointer[GTlsCertificateT] =>
+  fun ref get_issuer(): NullablePointer[GObjectT] =>
     GTlsCertificateP.get_issuer(this)

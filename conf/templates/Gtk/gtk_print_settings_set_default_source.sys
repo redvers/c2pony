@@ -1,2 +1,2 @@
-  fun set_default_source(settings': NullablePointer[GtkPrintSettingsT], default_source': String): None =>
-    @gtk_print_settings_set_default_source(settings', default_source'.cstring())
+  fun set_default_source(settings': GtkPrintSettingsI, default_source': String): None =>
+    @gtk_print_settings_set_default_source(settings'.getptr(), default_source'.cstring())

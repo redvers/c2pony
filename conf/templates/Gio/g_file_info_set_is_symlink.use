@@ -1,1 +1,1 @@
-use @g_file_info_set_is_symlink[None](info': NullablePointer[GFileInfoT], is_symlink': I32)
+use @g_file_info_set_is_symlink[None](info': NullablePointer[GObjectT], is_symlink': I32)

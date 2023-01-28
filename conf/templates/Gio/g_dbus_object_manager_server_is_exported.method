@@ -1,2 +1,2 @@
-  fun ref is_exported(object': NullablePointer[GDBusObjectSkeletonT]): I32 =>
+  fun ref is_exported(object': GDBusObjectSkeletonI): I32 =>
     GDBusObjectManagerServerP.is_exported(this, object')

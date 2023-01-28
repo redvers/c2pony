@@ -1,1 +1,1 @@
-use @gtk_aspect_frame_set_xalign[None](self': NullablePointer[GtkAspectFrameT], xalign': F32)
+use @gtk_aspect_frame_set_xalign[None](self': NullablePointer[GObjectT], xalign': F32)

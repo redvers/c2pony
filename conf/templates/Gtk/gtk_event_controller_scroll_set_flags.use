@@ -1,1 +1,1 @@
-use @gtk_event_controller_scroll_set_flags[None](scroll': NullablePointer[GtkEventControllerScrollT], flags': U32)
+use @gtk_event_controller_scroll_set_flags[None](scroll': NullablePointer[GObjectT], flags': U32)

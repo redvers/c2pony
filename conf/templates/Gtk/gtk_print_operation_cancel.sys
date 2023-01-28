@@ -1,2 +1,2 @@
-  fun cancel(op': NullablePointer[GtkPrintOperationT]): None =>
-    @gtk_print_operation_cancel(op')
+  fun cancel(op': GtkPrintOperationI): None =>
+    @gtk_print_operation_cancel(op'.getptr())

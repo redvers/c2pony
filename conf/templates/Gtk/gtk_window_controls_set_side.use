@@ -1,1 +1,1 @@
-use @gtk_window_controls_set_side[None](self': NullablePointer[GtkWindowControlsT], side': U32)
+use @gtk_window_controls_set_side[None](self': NullablePointer[GObjectT], side': U32)

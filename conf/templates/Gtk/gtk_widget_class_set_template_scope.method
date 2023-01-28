@@ -1,2 +1,2 @@
-  fun ref set_template_scope(scope': NullablePointer[GtkBuilderScopeT]): None =>
+  fun ref set_template_scope(scope': GtkBuilderScopeI): None =>
     GtkWidgetClassP.set_template_scope(ptr, scope')

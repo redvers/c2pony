@@ -1,1 +1,1 @@
-use @gtk_range_get_adjustment[NullablePointer[GtkAdjustmentT]](range': NullablePointer[GtkRangeT])
+use @gtk_range_get_adjustment[NullablePointer[GObjectT]](range': NullablePointer[GObjectT])

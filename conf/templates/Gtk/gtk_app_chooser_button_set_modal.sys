@@ -1,2 +1,2 @@
-  fun set_modal(self': NullablePointer[GtkAppChooserButtonT], modal': I32): None =>
-    @gtk_app_chooser_button_set_modal(self', modal')
+  fun set_modal(self': GtkAppChooserButtonI, modal': I32): None =>
+    @gtk_app_chooser_button_set_modal(self'.getptr(), modal')

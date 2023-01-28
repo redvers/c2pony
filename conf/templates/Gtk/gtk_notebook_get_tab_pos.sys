@@ -1,2 +1,2 @@
-  fun get_tab_pos(notebook': NullablePointer[GtkNotebookT]): U32 =>
-    @gtk_notebook_get_tab_pos(notebook')
+  fun get_tab_pos(notebook': GtkNotebookI): U32 =>
+    @gtk_notebook_get_tab_pos(notebook'.getptr())

@@ -1,2 +1,2 @@
-  new gnew(stream': NullablePointer[GtkMediaStreamT]) =>
-    ptr = @gtk_media_controls_new(stream')
+  new gnew(stream': GtkMediaStreamI) =>
+    ptr = @gtk_media_controls_new(stream'.getptr())

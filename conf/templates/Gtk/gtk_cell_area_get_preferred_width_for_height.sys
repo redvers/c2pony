@@ -1,2 +1,2 @@
-  fun get_preferred_width_for_height(area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': GtkWidgetI, height': I32, minimum_width': Pointer[I32] tag, natural_width': Pointer[I32] tag): None =>
-    @gtk_cell_area_get_preferred_width_for_height(area', context', widget'.getptr(), height', minimum_width', natural_width')
+  fun get_preferred_width_for_height(area': GtkCellAreaI, context': GtkCellAreaContextI, widget': GtkWidgetI, height': I32, minimum_width': Pointer[I32] tag, natural_width': Pointer[I32] tag): None =>
+    @gtk_cell_area_get_preferred_width_for_height(area'.getptr(), context'.getptr(), widget'.getptr(), height', minimum_width', natural_width')

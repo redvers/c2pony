@@ -1,2 +1,2 @@
-  fun ref flush(cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref flush(cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GDBusConnectionP.flush(this, cancellable', callback', user_data')

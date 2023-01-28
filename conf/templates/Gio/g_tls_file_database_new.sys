@@ -1,2 +1,2 @@
-  fun gnew(anchors': String, error': GError): NullablePointer[GTlsDatabaseT] =>
-    @g_tls_file_database_new(anchors'.cstring(), error'.ptr)
+  fun gnew(anchors': String, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_tls_file_database_new(anchors'.cstring(), error')

@@ -1,1 +1,1 @@
-use @gtk_never_trigger_get[NullablePointer[GtkShortcutTriggerT]]()
+use @gtk_never_trigger_get[NullablePointer[GObjectT]]()

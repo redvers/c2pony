@@ -1,2 +1,2 @@
-  fun pack_end(action_bar': NullablePointer[GtkActionBarT], child': GtkWidgetI): None =>
-    @gtk_action_bar_pack_end(action_bar', child'.getptr())
+  fun pack_end(action_bar': GtkActionBarI, child': GtkWidgetI): None =>
+    @gtk_action_bar_pack_end(action_bar'.getptr(), child'.getptr())

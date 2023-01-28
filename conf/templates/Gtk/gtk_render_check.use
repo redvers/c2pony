@@ -1,1 +1,1 @@
-use @gtk_render_check[None](context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], x': F64, y': F64, width': F64, height': F64)
+use @gtk_render_check[None](context': NullablePointer[GObjectT], cr': NullablePointer[cairoT], x': F64, y': F64, width': F64, height': F64)

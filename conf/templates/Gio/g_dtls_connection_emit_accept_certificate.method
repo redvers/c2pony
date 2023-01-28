@@ -1,2 +1,2 @@
-  fun ref emit_accept_certificate(peer_cert': NullablePointer[GTlsCertificateT], errors': U32): I32 =>
+  fun ref emit_accept_certificate(peer_cert': GTlsCertificateI, errors': U32): I32 =>
     GDtlsConnectionP.emit_accept_certificate(this, peer_cert', errors')

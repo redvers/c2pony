@@ -1,2 +1,2 @@
-  fun is_loading(self': NullablePointer[GtkDirectoryListT]): I32 =>
-    @gtk_directory_list_is_loading(self')
+  fun is_loading(self': GtkDirectoryListI): I32 =>
+    @gtk_directory_list_is_loading(self'.getptr())

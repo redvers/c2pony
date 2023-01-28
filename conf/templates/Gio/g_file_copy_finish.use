@@ -1,1 +1,1 @@
-use @g_file_copy_finish[I32](file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_file_copy_finish[I32](file': NullablePointer[GObjectT], res': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

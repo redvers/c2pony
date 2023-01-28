@@ -1,2 +1,2 @@
-  fun get_item_link(model': NullablePointer[GMenuModelT], item_index': I32, link': String): NullablePointer[GMenuModelT] =>
-    @g_menu_model_get_item_link(model', item_index', link'.cstring())
+  fun get_item_link(model': GMenuModelI, item_index': I32, link': String): NullablePointer[GObjectT] =>
+@g_menu_model_get_item_link(model'.getptr(), item_index', link'.cstring())

@@ -1,2 +1,2 @@
-  fun set_max_threads(pool': NullablePointer[GThreadPoolT], max_threads': I32, error': GError): I32 =>
-    @g_thread_pool_set_max_threads(pool', max_threads', error'.ptr)
+  fun set_max_threads(pool': NullablePointer[GThreadPoolT], max_threads': I32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_thread_pool_set_max_threads(pool', max_threads', error')

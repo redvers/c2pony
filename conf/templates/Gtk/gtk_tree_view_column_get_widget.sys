@@ -1,2 +1,2 @@
-  fun get_widget(tree_column': NullablePointer[GtkTreeViewColumnT]): NullablePointer[GObjectT] =>
-@gtk_tree_view_column_get_widget(tree_column')
+  fun get_widget(tree_column': GtkTreeViewColumnI): NullablePointer[GObjectT] =>
+@gtk_tree_view_column_get_widget(tree_column'.getptr())

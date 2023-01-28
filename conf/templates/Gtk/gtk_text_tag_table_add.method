@@ -1,2 +1,2 @@
-  fun ref add(tag': NullablePointer[GtkTextTagT]): I32 =>
+  fun ref add(tag': GtkTextTagI): I32 =>
     GtkTextTagTableP.add(this, tag')

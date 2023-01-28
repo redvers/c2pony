@@ -1,2 +1,2 @@
-  fun set_match_mode(self': NullablePointer[GtkStringFilterT], mode': U32): None =>
-    @gtk_string_filter_set_match_mode(self', mode')
+  fun set_match_mode(self': GtkStringFilterI, mode': U32): None =>
+    @gtk_string_filter_set_match_mode(self'.getptr(), mode')

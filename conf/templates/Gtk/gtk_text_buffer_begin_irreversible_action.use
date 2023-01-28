@@ -1,1 +1,1 @@
-use @gtk_text_buffer_begin_irreversible_action[None](buffer': NullablePointer[GtkTextBufferT])
+use @gtk_text_buffer_begin_irreversible_action[None](buffer': NullablePointer[GObjectT])

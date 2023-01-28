@@ -1,2 +1,2 @@
-  fun set_extra_menu(self': NullablePointer[GtkTextT], model': NullablePointer[GMenuModelT]): None =>
-    @gtk_text_set_extra_menu(self', model')
+  fun set_extra_menu(self': GtkTextI, model': GMenuModelI): None =>
+    @gtk_text_set_extra_menu(self'.getptr(), model'.getptr())

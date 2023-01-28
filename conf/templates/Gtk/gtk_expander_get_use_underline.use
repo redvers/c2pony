@@ -1,1 +1,1 @@
-use @gtk_expander_get_use_underline[I32](expander': NullablePointer[GtkExpanderT])
+use @gtk_expander_get_use_underline[I32](expander': NullablePointer[GObjectT])

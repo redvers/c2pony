@@ -1,1 +1,1 @@
-use @gtk_video_new_for_media_stream[NullablePointer[GObjectT]](stream': NullablePointer[GtkMediaStreamT])
+use @gtk_video_new_for_media_stream[NullablePointer[GObjectT]](stream': NullablePointer[GObjectT])

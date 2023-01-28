@@ -1,2 +1,2 @@
-  fun set_child(bar': NullablePointer[GtkSearchBarT], child': GtkWidgetI): None =>
-    @gtk_search_bar_set_child(bar', child'.getptr())
+  fun set_child(bar': GtkSearchBarI, child': GtkWidgetI): None =>
+    @gtk_search_bar_set_child(bar'.getptr(), child'.getptr())

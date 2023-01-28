@@ -1,2 +1,2 @@
-  fun ref set_attributes_async(info': NullablePointer[GFileInfoT], flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref set_attributes_async(info': GFileInfoI, flags': U32, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GFileP.set_attributes_async(this, info', flags', io_priority', cancellable', callback', user_data')

@@ -1,1 +1,1 @@
-use @gtk_mount_operation_new[NullablePointer[GMountOperationT]](parent': NullablePointer[GObjectT])
+use @gtk_mount_operation_new[NullablePointer[GObjectT]](parent': NullablePointer[GObjectT])

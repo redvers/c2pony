@@ -1,2 +1,2 @@
-  fun set_kinetic_scrolling(scrolled_window': NullablePointer[GtkScrolledWindowT], kinetic_scrolling': I32): None =>
-    @gtk_scrolled_window_set_kinetic_scrolling(scrolled_window', kinetic_scrolling')
+  fun set_kinetic_scrolling(scrolled_window': GtkScrolledWindowI, kinetic_scrolling': I32): None =>
+    @gtk_scrolled_window_set_kinetic_scrolling(scrolled_window'.getptr(), kinetic_scrolling')

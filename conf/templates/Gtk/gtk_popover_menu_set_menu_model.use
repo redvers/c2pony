@@ -1,1 +1,1 @@
-use @gtk_popover_menu_set_menu_model[None](popover': NullablePointer[GtkPopoverMenuT], model': NullablePointer[GMenuModelT])
+use @gtk_popover_menu_set_menu_model[None](popover': NullablePointer[GObjectT], model': NullablePointer[GObjectT])

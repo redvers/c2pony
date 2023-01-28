@@ -1,2 +1,2 @@
-  fun get_baseline_row(grid': NullablePointer[GtkGridT]): I32 =>
-    @gtk_grid_get_baseline_row(grid')
+  fun get_baseline_row(grid': GtkGridI): I32 =>
+    @gtk_grid_get_baseline_row(grid'.getptr())

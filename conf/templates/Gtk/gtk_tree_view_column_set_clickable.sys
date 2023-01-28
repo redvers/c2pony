@@ -1,2 +1,2 @@
-  fun set_clickable(tree_column': NullablePointer[GtkTreeViewColumnT], clickable': I32): None =>
-    @gtk_tree_view_column_set_clickable(tree_column', clickable')
+  fun set_clickable(tree_column': GtkTreeViewColumnI, clickable': I32): None =>
+    @gtk_tree_view_column_set_clickable(tree_column'.getptr(), clickable')

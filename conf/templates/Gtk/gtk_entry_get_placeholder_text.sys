@@ -1,2 +1,2 @@
-  fun get_placeholder_text(entry': NullablePointer[GtkEntryT]): String iso^ =>
-    String.from_cstring(@gtk_entry_get_placeholder_text(entry')).clone()
+  fun get_placeholder_text(entry': GtkEntryI): String iso^ =>
+    String.from_cstring(@gtk_entry_get_placeholder_text(entry'.getptr())).clone()

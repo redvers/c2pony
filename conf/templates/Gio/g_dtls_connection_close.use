@@ -1,1 +1,1 @@
-use @g_dtls_connection_close[I32](conn': NullablePointer[GDtlsConnectionT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_dtls_connection_close[I32](conn': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

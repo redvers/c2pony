@@ -1,2 +1,2 @@
-  fun query_filesystem_info_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileInfoT] =>
-    @g_file_query_filesystem_info_finish(file', res', error'.ptr)
+  fun query_filesystem_info_finish(file': GFileI, res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_query_filesystem_info_finish(file'.getptr(), res'.getptr(), error')

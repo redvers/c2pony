@@ -1,2 +1,2 @@
-  new new_with_backend_and_path(schema_id': String, backend': NullablePointer[GSettingsBackendT], path': String) =>
-    ptr = @g_settings_new_with_backend_and_path(schema_id'.cstring(), backend', path'.cstring())
+  new new_with_backend_and_path(schema_id': String, backend': GSettingsBackendI, path': String) =>
+    ptr = @g_settings_new_with_backend_and_path(schema_id'.cstring(), backend'.getptr(), path'.cstring())

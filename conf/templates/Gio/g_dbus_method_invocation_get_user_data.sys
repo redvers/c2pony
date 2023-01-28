@@ -1,2 +1,2 @@
-  fun get_user_data(invocation': NullablePointer[GDBusMethodInvocationT]): Pointer[None] tag =>
-    @g_dbus_method_invocation_get_user_data(invocation')
+  fun get_user_data(invocation': GDBusMethodInvocationI): Pointer[None] tag =>
+    @g_dbus_method_invocation_get_user_data(invocation'.getptr())

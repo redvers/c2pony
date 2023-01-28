@@ -1,2 +1,2 @@
-  fun get_preferred_width(area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT], widget': GtkWidgetI, minimum_width': Pointer[I32] tag, natural_width': Pointer[I32] tag): None =>
-    @gtk_cell_area_get_preferred_width(area', context', widget'.getptr(), minimum_width', natural_width')
+  fun get_preferred_width(area': GtkCellAreaI, context': GtkCellAreaContextI, widget': GtkWidgetI, minimum_width': Pointer[I32] tag, natural_width': Pointer[I32] tag): None =>
+    @gtk_cell_area_get_preferred_width(area'.getptr(), context'.getptr(), widget'.getptr(), minimum_width', natural_width')

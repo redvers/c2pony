@@ -1,2 +1,2 @@
-  fun get_wrap_mode(text_view': NullablePointer[GtkTextViewT]): U32 =>
-    @gtk_text_view_get_wrap_mode(text_view')
+  fun get_wrap_mode(text_view': GtkTextViewI): U32 =>
+    @gtk_text_view_get_wrap_mode(text_view'.getptr())

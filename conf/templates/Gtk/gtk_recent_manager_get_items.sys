@@ -1,2 +1,2 @@
-  fun get_items(manager': NullablePointer[GtkRecentManagerT]): NullablePointer[GListT] =>
-    @gtk_recent_manager_get_items(manager')
+  fun get_items(manager': GtkRecentManagerI): NullablePointer[GListT] =>
+    @gtk_recent_manager_get_items(manager'.getptr())

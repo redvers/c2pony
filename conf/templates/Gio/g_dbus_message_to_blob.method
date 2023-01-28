@@ -1,2 +1,2 @@
-  fun ref to_blob(out_size': Pointer[U64] tag, capabilities': U32, error': GError): String iso^ =>
+  fun ref to_blob(out_size': Pointer[U64] tag, capabilities': U32, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
     GDBusMessageP.to_blob(this, out_size', capabilities', error')

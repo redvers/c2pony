@@ -1,2 +1,2 @@
-  fun pop(statusbar': NullablePointer[GtkStatusbarT], context_id': U32): None =>
-    @gtk_statusbar_pop(statusbar', context_id')
+  fun pop(statusbar': GtkStatusbarI, context_id': U32): None =>
+    @gtk_statusbar_pop(statusbar'.getptr(), context_id')

@@ -1,2 +1,2 @@
-  fun get_header(message': NullablePointer[GDBusMessageT], header_field': U32): NullablePointer[GVariantT] =>
-    @g_dbus_message_get_header(message', header_field')
+  fun get_header(message': GDBusMessageI, header_field': U32): NullablePointer[GVariantT] =>
+    @g_dbus_message_get_header(message'.getptr(), header_field')

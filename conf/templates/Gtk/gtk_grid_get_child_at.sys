@@ -1,2 +1,2 @@
-  fun get_child_at(grid': NullablePointer[GtkGridT], column': I32, row': I32): NullablePointer[GObjectT] =>
-@gtk_grid_get_child_at(grid', column', row')
+  fun get_child_at(grid': GtkGridI, column': I32, row': I32): NullablePointer[GObjectT] =>
+@gtk_grid_get_child_at(grid'.getptr(), column', row')

@@ -1,1 +1,1 @@
-use @gtk_about_dialog_add_credit_section[None](about': NullablePointer[GtkAboutDialogT], section_name': Pointer[U8] tag, people': Pointer[Pointer[U8]] tag)
+use @gtk_about_dialog_add_credit_section[None](about': NullablePointer[GObjectT], section_name': Pointer[U8] tag, people': Pointer[Pointer[U8]] tag)

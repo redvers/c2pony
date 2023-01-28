@@ -1,1 +1,1 @@
-use @g_settings_get_strv[Pointer[Pointer[U8]] tag](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag)
+use @g_settings_get_strv[Pointer[Pointer[U8]] tag](settings': NullablePointer[GObjectT], key': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun ref set_stack(stack': NullablePointer[GtkStackT]): None =>
+  fun ref set_stack(stack': GtkStackI): None =>
     GtkStackSidebarP.set_stack(this, stack')

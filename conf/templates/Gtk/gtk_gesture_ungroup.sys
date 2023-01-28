@@ -1,2 +1,2 @@
-  fun ungroup(gesture': NullablePointer[GtkGestureT]): None =>
-    @gtk_gesture_ungroup(gesture')
+  fun ungroup(gesture': GtkGestureI): None =>
+    @gtk_gesture_ungroup(gesture'.getptr())

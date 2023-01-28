@@ -1,2 +1,2 @@
-  fun get_use_color(settings': NullablePointer[GtkPrintSettingsT]): I32 =>
-    @gtk_print_settings_get_use_color(settings')
+  fun get_use_color(settings': GtkPrintSettingsI): I32 =>
+    @gtk_print_settings_get_use_color(settings'.getptr())

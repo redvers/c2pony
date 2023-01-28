@@ -1,1 +1,1 @@
-use @gtk_image_get_icon_name[Pointer[U8]](image': NullablePointer[GtkImageT])
+use @gtk_image_get_icon_name[Pointer[U8]](image': NullablePointer[GObjectT])

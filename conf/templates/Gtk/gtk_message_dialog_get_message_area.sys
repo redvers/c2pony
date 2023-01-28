@@ -1,2 +1,2 @@
-  fun get_message_area(message_dialog': NullablePointer[GtkMessageDialogT]): NullablePointer[GObjectT] =>
-@gtk_message_dialog_get_message_area(message_dialog')
+  fun get_message_area(message_dialog': GtkMessageDialogI): NullablePointer[GObjectT] =>
+@gtk_message_dialog_get_message_area(message_dialog'.getptr())

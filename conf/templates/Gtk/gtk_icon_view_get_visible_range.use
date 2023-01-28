@@ -1,1 +1,1 @@
-use @gtk_icon_view_get_visible_range[I32](icon_view': NullablePointer[GtkIconViewT], start_path': Pointer[NullablePointer[GtkTreePathT]], end_path': Pointer[NullablePointer[GtkTreePathT]])
+use @gtk_icon_view_get_visible_range[I32](icon_view': NullablePointer[GObjectT], start_path': Pointer[NullablePointer[GtkTreePathT]], end_path': Pointer[NullablePointer[GtkTreePathT]])

@@ -1,1 +1,1 @@
-use @gtk_media_stream_seek[None](self': NullablePointer[GtkMediaStreamT], timestamp': I64)
+use @gtk_media_stream_seek[None](self': NullablePointer[GObjectT], timestamp': I64)

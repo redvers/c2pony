@@ -1,1 +1,1 @@
-use @gtk_entry_buffer_get_length[U32](buffer': NullablePointer[GtkEntryBufferT])
+use @gtk_entry_buffer_get_length[U32](buffer': NullablePointer[GObjectT])

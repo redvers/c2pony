@@ -1,1 +1,1 @@
-use @gtk_gesture_single_set_touch_only[None](gesture': NullablePointer[GtkGestureSingleT], touch_only': I32)
+use @gtk_gesture_single_set_touch_only[None](gesture': NullablePointer[GObjectT], touch_only': I32)

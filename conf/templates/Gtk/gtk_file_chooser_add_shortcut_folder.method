@@ -1,2 +1,2 @@
-  fun ref add_shortcut_folder(folder': NullablePointer[GFileT], error': GError): I32 =>
+  fun ref add_shortcut_folder(folder': GFileI, error': GError): I32 =>
     GtkFileChooserP.add_shortcut_folder(this, folder', error')

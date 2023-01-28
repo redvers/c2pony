@@ -1,1 +1,1 @@
-use @gtk_popover_set_offset[None](popover': NullablePointer[GtkPopoverT], x_offset': I32, y_offset': I32)
+use @gtk_popover_set_offset[None](popover': NullablePointer[GObjectT], x_offset': I32, y_offset': I32)

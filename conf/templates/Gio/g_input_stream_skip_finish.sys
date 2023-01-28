@@ -1,2 +1,2 @@
-  fun skip_finish(stream': NullablePointer[GInputStreamT], result': NullablePointer[GAsyncResultT], error': GError): I64 =>
-    @g_input_stream_skip_finish(stream', result', error'.ptr)
+  fun skip_finish(stream': GInputStreamI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_input_stream_skip_finish(stream'.getptr(), result'.getptr(), error')

@@ -1,2 +1,2 @@
-  fun connect_to_uri(client': NullablePointer[GSocketClientT], uri': String, default_port': U16, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GSocketConnectionT] =>
-    @g_socket_client_connect_to_uri(client', uri'.cstring(), default_port', cancellable', error'.ptr)
+  fun connect_to_uri(client': GSocketClientI, uri': String, default_port': U16, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_socket_client_connect_to_uri(client'.getptr(), uri'.cstring(), default_port', cancellable'.getptr(), error')

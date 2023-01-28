@@ -1,1 +1,1 @@
-use @gtk_im_context_get_surrounding[I32](context': NullablePointer[GtkIMContextT], text': Pointer[Pointer[U8]] tag, cursor_index': Pointer[I32] tag)
+use @gtk_im_context_get_surrounding[I32](context': NullablePointer[GObjectT], text': Pointer[Pointer[U8]] tag, cursor_index': Pointer[I32] tag)

@@ -1,2 +1,2 @@
-  fun set_max_length(buffer': NullablePointer[GtkEntryBufferT], max_length': I32): None =>
-    @gtk_entry_buffer_set_max_length(buffer', max_length')
+  fun set_max_length(buffer': GtkEntryBufferI, max_length': I32): None =>
+    @gtk_entry_buffer_set_max_length(buffer'.getptr(), max_length')

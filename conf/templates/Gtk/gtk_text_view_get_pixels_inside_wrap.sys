@@ -1,2 +1,2 @@
-  fun get_pixels_inside_wrap(text_view': NullablePointer[GtkTextViewT]): I32 =>
-    @gtk_text_view_get_pixels_inside_wrap(text_view')
+  fun get_pixels_inside_wrap(text_view': GtkTextViewI): I32 =>
+    @gtk_text_view_get_pixels_inside_wrap(text_view'.getptr())

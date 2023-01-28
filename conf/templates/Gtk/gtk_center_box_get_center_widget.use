@@ -1,1 +1,1 @@
-use @gtk_center_box_get_center_widget[NullablePointer[GObjectT]](self': NullablePointer[GtkCenterBoxT])
+use @gtk_center_box_get_center_widget[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

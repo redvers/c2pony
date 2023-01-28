@@ -1,1 +1,1 @@
-use @g_dtls_connection_set_require_close_notify[None](conn': NullablePointer[GDtlsConnectionT], require_close_notify': I32)
+use @g_dtls_connection_set_require_close_notify[None](conn': NullablePointer[GObjectT], require_close_notify': I32)

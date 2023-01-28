@@ -1,2 +1,2 @@
-  fun get_border(scrollable': NullablePointer[GtkScrollableT], border': NullablePointer[GtkBorderT]): I32 =>
-    @gtk_scrollable_get_border(scrollable', border')
+  fun get_border(scrollable': GtkScrollableI, border': NullablePointer[GtkBorderT]): I32 =>
+    @gtk_scrollable_get_border(scrollable'.getptr(), border')

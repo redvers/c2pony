@@ -1,2 +1,2 @@
-  fun ref get_file_for_uri(uri': String): NullablePointer[GFileT] =>
+  fun ref get_file_for_uri(uri': String): NullablePointer[GObjectT] =>
     GVfsP.get_file_for_uri(this, uri')

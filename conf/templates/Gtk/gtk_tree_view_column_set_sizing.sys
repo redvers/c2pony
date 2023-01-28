@@ -1,2 +1,2 @@
-  fun set_sizing(tree_column': NullablePointer[GtkTreeViewColumnT], type': U32): None =>
-    @gtk_tree_view_column_set_sizing(tree_column', type')
+  fun set_sizing(tree_column': GtkTreeViewColumnI, type': U32): None =>
+    @gtk_tree_view_column_set_sizing(tree_column'.getptr(), type')

@@ -1,1 +1,1 @@
-use @g_file_make_directory_with_parents[I32](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_make_directory_with_parents[I32](file': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

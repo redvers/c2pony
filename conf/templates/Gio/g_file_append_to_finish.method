@@ -1,2 +1,2 @@
-  fun ref append_to_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileOutputStreamT] =>
+  fun ref append_to_finish(res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.append_to_finish(this, res', error')

@@ -1,2 +1,2 @@
-  fun get_file(self': NullablePointer[GtkPictureT]): NullablePointer[GFileT] =>
-    @gtk_picture_get_file(self')
+  fun get_file(self': GtkPictureI): NullablePointer[GObjectT] =>
+@gtk_picture_get_file(self'.getptr())

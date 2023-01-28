@@ -1,2 +1,2 @@
-  fun set_entry_text_column(combo_box': NullablePointer[GtkComboBoxT], text_column': I32): None =>
-    @gtk_combo_box_set_entry_text_column(combo_box', text_column')
+  fun set_entry_text_column(combo_box': GtkComboBoxI, text_column': I32): None =>
+    @gtk_combo_box_set_entry_text_column(combo_box'.getptr(), text_column')

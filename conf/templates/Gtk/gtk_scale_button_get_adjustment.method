@@ -1,2 +1,2 @@
-  fun ref get_adjustment(): NullablePointer[GtkAdjustmentT] =>
+  fun ref get_adjustment(): NullablePointer[GObjectT] =>
     GtkScaleButtonP.get_adjustment(this)

@@ -1,1 +1,1 @@
-use @gtk_shortcut_trigger_parse_string[NullablePointer[GtkShortcutTriggerT]](string': Pointer[U8] tag)
+use @gtk_shortcut_trigger_parse_string[NullablePointer[GObjectT]](string': Pointer[U8] tag)

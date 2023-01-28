@@ -1,2 +1,2 @@
-  fun launch_uris(appinfo': NullablePointer[GAppInfoT], uris': NullablePointer[GListT], context': NullablePointer[GAppLaunchContextT], error': GError): I32 =>
-    @g_app_info_launch_uris(appinfo', uris', context', error'.ptr)
+  fun launch_uris(appinfo': GAppInfoI, uris': NullablePointer[GListT], context': GAppLaunchContextI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_app_info_launch_uris(appinfo'.getptr(), uris', context'.getptr(), error')

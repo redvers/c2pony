@@ -1,2 +1,2 @@
-  fun prepend_page(assistant': NullablePointer[GtkAssistantT], page': GtkWidgetI): I32 =>
-    @gtk_assistant_prepend_page(assistant', page'.getptr())
+  fun prepend_page(assistant': GtkAssistantI, page': GtkWidgetI): I32 =>
+    @gtk_assistant_prepend_page(assistant'.getptr(), page'.getptr())

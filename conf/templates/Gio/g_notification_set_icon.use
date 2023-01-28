@@ -1,1 +1,1 @@
-use @g_notification_set_icon[None](notification': NullablePointer[GNotificationT], icon': NullablePointer[GIconT])
+use @g_notification_set_icon[None](notification': NullablePointer[GObjectT], icon': NullablePointer[GObjectT])

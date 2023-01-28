@@ -1,2 +1,2 @@
-  new gnew(icon': NullablePointer[GIconT]) =>
-    ptr = @g_emblem_new(icon')
+  new gnew(icon': GIconI) =>
+    ptr = @g_emblem_new(icon'.getptr())

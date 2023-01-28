@@ -1,2 +1,2 @@
-  fun get_policy(scrolled_window': NullablePointer[GtkScrolledWindowT], hscrollbar_policy': Pointer[U32] tag, vscrollbar_policy': Pointer[U32] tag): None =>
-    @gtk_scrolled_window_get_policy(scrolled_window', hscrollbar_policy', vscrollbar_policy')
+  fun get_policy(scrolled_window': GtkScrolledWindowI, hscrollbar_policy': Pointer[U32] tag, vscrollbar_policy': Pointer[U32] tag): None =>
+    @gtk_scrolled_window_get_policy(scrolled_window'.getptr(), hscrollbar_policy', vscrollbar_policy')

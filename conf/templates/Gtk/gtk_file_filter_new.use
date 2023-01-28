@@ -1,1 +1,1 @@
-use @gtk_file_filter_new[NullablePointer[GtkFileFilterT]]()
+use @gtk_file_filter_new[NullablePointer[GObjectT]]()

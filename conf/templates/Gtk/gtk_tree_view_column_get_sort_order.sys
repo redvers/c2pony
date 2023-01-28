@@ -1,2 +1,2 @@
-  fun get_sort_order(tree_column': NullablePointer[GtkTreeViewColumnT]): U32 =>
-    @gtk_tree_view_column_get_sort_order(tree_column')
+  fun get_sort_order(tree_column': GtkTreeViewColumnI): U32 =>
+    @gtk_tree_view_column_get_sort_order(tree_column'.getptr())

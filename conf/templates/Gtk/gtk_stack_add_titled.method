@@ -1,2 +1,2 @@
-  fun ref add_titled(child': GtkWidgetI, name': String, title': String): NullablePointer[GtkStackPageT] =>
+  fun ref add_titled(child': GtkWidgetI, name': String, title': String): NullablePointer[GObjectT] =>
     GtkStackP.add_titled(this, child', name', title')

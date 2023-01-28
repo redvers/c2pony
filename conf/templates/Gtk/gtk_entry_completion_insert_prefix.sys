@@ -1,2 +1,2 @@
-  fun insert_prefix(completion': NullablePointer[GtkEntryCompletionT]): None =>
-    @gtk_entry_completion_insert_prefix(completion')
+  fun insert_prefix(completion': GtkEntryCompletionI): None =>
+    @gtk_entry_completion_insert_prefix(completion'.getptr())

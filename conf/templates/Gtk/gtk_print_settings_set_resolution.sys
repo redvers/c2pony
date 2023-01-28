@@ -1,2 +1,2 @@
-  fun set_resolution(settings': NullablePointer[GtkPrintSettingsT], resolution': I32): None =>
-    @gtk_print_settings_set_resolution(settings', resolution')
+  fun set_resolution(settings': GtkPrintSettingsI, resolution': I32): None =>
+    @gtk_print_settings_set_resolution(settings'.getptr(), resolution')

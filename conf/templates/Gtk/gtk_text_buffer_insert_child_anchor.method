@@ -1,2 +1,2 @@
-  fun ref insert_child_anchor(iter': NullablePointer[GtkTextIterT], anchor': NullablePointer[GtkTextChildAnchorT]): None =>
+  fun ref insert_child_anchor(iter': NullablePointer[GtkTextIterT], anchor': GtkTextChildAnchorI): None =>
     GtkTextBufferP.insert_child_anchor(this, iter', anchor')

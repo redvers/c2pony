@@ -1,2 +1,2 @@
-  fun get_has_entry(combo_box': NullablePointer[GtkComboBoxT]): I32 =>
-    @gtk_combo_box_get_has_entry(combo_box')
+  fun get_has_entry(combo_box': GtkComboBoxI): I32 =>
+    @gtk_combo_box_get_has_entry(combo_box'.getptr())

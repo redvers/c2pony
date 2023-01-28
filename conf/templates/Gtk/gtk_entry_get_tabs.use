@@ -1,1 +1,1 @@
-use @gtk_entry_get_tabs[NullablePointer[PangoTabArrayT]](entry': NullablePointer[GtkEntryT])
+use @gtk_entry_get_tabs[NullablePointer[PangoTabArrayT]](entry': NullablePointer[GObjectT])

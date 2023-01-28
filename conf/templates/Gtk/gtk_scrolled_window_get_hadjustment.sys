@@ -1,2 +1,2 @@
-  fun get_hadjustment(scrolled_window': NullablePointer[GtkScrolledWindowT]): NullablePointer[GtkAdjustmentT] =>
-    @gtk_scrolled_window_get_hadjustment(scrolled_window')
+  fun get_hadjustment(scrolled_window': GtkScrolledWindowI): NullablePointer[GObjectT] =>
+@gtk_scrolled_window_get_hadjustment(scrolled_window'.getptr())

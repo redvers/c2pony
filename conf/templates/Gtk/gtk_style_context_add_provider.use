@@ -1,1 +1,1 @@
-use @gtk_style_context_add_provider[None](context': NullablePointer[GtkStyleContextT], provider': NullablePointer[GtkStyleProviderT], priority': U32)
+use @gtk_style_context_add_provider[None](context': NullablePointer[GObjectT], provider': NullablePointer[GObjectT], priority': U32)

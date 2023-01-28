@@ -1,1 +1,1 @@
-use @g_socket_set_timeout[None](socket': NullablePointer[GSocketT], timeout': U32)
+use @g_socket_set_timeout[None](socket': NullablePointer[GObjectT], timeout': U32)

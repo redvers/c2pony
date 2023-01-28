@@ -1,1 +1,1 @@
-use @g_data_input_stream_read_upto_async[None](stream': NullablePointer[GDataInputStreamT], stop_chars': Pointer[U8] tag, stop_chars_len': I64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_data_input_stream_read_upto_async[None](stream': NullablePointer[GObjectT], stop_chars': Pointer[U8] tag, stop_chars_len': I64, io_priority': I32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

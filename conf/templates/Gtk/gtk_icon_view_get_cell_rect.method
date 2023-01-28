@@ -1,2 +1,2 @@
-  fun ref get_cell_rect(path': NullablePointer[GtkTreePathT], cell': NullablePointer[GtkCellRendererT], rect': NullablePointer[cairorectangleintT]): I32 =>
+  fun ref get_cell_rect(path': NullablePointer[GtkTreePathT], cell': GtkCellRendererI, rect': NullablePointer[cairorectangleintT]): I32 =>
     GtkIconViewP.get_cell_rect(this, path', cell', rect')

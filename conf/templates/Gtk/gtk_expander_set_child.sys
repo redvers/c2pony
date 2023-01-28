@@ -1,2 +1,2 @@
-  fun set_child(expander': NullablePointer[GtkExpanderT], child': GtkWidgetI): None =>
-    @gtk_expander_set_child(expander', child'.getptr())
+  fun set_child(expander': GtkExpanderI, child': GtkWidgetI): None =>
+    @gtk_expander_set_child(expander'.getptr(), child'.getptr())

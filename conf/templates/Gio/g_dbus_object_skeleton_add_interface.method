@@ -1,2 +1,2 @@
-  fun ref add_interface(interface': NullablePointer[GDBusInterfaceSkeletonT]): None =>
+  fun ref add_interface(interface': GDBusInterfaceSkeletonI): None =>
     GDBusObjectSkeletonP.add_interface(this, interface')

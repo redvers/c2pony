@@ -1,2 +1,2 @@
-  fun get_mode(self': NullablePointer[GtkLevelBarT]): U32 =>
-    @gtk_level_bar_get_mode(self')
+  fun get_mode(self': GtkLevelBarI): U32 =>
+    @gtk_level_bar_get_mode(self'.getptr())

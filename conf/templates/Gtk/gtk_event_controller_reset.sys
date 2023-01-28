@@ -1,2 +1,2 @@
-  fun reset(controller': NullablePointer[GtkEventControllerT]): None =>
-    @gtk_event_controller_reset(controller')
+  fun reset(controller': GtkEventControllerI): None =>
+    @gtk_event_controller_reset(controller'.getptr())

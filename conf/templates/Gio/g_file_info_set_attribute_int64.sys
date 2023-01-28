@@ -1,2 +1,2 @@
-  fun set_attribute_int64(info': NullablePointer[GFileInfoT], attribute': String, attr_value': I64): None =>
-    @g_file_info_set_attribute_int64(info', attribute'.cstring(), attr_value')
+  fun set_attribute_int64(info': GFileInfoI, attribute': String, attr_value': I64): None =>
+    @g_file_info_set_attribute_int64(info'.getptr(), attribute'.cstring(), attr_value')

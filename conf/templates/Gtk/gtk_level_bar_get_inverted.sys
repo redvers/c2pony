@@ -1,2 +1,2 @@
-  fun get_inverted(self': NullablePointer[GtkLevelBarT]): I32 =>
-    @gtk_level_bar_get_inverted(self')
+  fun get_inverted(self': GtkLevelBarI): I32 =>
+    @gtk_level_bar_get_inverted(self'.getptr())

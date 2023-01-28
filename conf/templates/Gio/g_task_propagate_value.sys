@@ -1,2 +1,2 @@
-  fun propagate_value(task': NullablePointer[GTaskT], value': NullablePointer[GValueT], error': GError): I32 =>
-    @g_task_propagate_value(task', value', error'.ptr)
+  fun propagate_value(task': GTaskI, value': NullablePointer[GValueT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_task_propagate_value(task'.getptr(), value', error')

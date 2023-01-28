@@ -1,2 +1,2 @@
-  fun test_accessible_assertion_message_role(domain': String, file': String, line': I32, func': String, expr': String, accessible': NullablePointer[GtkAccessibleT], expected_role': U32, actual_role': U32): None =>
-    @gtk_test_accessible_assertion_message_role(domain'.cstring(), file'.cstring(), line', func'.cstring(), expr'.cstring(), accessible', expected_role', actual_role')
+  fun test_accessible_assertion_message_role(domain': String, file': String, line': I32, func': String, expr': String, accessible': GtkAccessibleI, expected_role': U32, actual_role': U32): None =>
+    @gtk_test_accessible_assertion_message_role(domain'.cstring(), file'.cstring(), line', func'.cstring(), expr'.cstring(), accessible'.getptr(), expected_role', actual_role')

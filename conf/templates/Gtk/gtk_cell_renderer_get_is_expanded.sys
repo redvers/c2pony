@@ -1,2 +1,2 @@
-  fun get_is_expanded(cell': NullablePointer[GtkCellRendererT]): I32 =>
-    @gtk_cell_renderer_get_is_expanded(cell')
+  fun get_is_expanded(cell': GtkCellRendererI): I32 =>
+    @gtk_cell_renderer_get_is_expanded(cell'.getptr())

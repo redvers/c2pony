@@ -1,2 +1,2 @@
-  fun set_from_paintable(image': NullablePointer[GtkImageT], paintable': NullablePointer[GdkPaintableT]): None =>
-    @gtk_image_set_from_paintable(image', paintable')
+  fun set_from_paintable(image': GtkImageI, paintable': NullablePointer[GdkPaintableT]): None =>
+    @gtk_image_set_from_paintable(image'.getptr(), paintable')

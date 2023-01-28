@@ -1,2 +1,2 @@
-  fun ref get_output_stream(): NullablePointer[GOutputStreamT] =>
+  fun ref get_output_stream(): NullablePointer[GObjectT] =>
     GIOStreamP.get_output_stream(this)

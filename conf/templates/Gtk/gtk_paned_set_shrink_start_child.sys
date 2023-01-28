@@ -1,2 +1,2 @@
-  fun set_shrink_start_child(paned': NullablePointer[GtkPanedT], resize': I32): None =>
-    @gtk_paned_set_shrink_start_child(paned', resize')
+  fun set_shrink_start_child(paned': GtkPanedI, resize': I32): None =>
+    @gtk_paned_set_shrink_start_child(paned'.getptr(), resize')

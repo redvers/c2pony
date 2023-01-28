@@ -1,1 +1,1 @@
-use @g_dtls_connection_get_database[NullablePointer[GTlsDatabaseT]](conn': NullablePointer[GDtlsConnectionT])
+use @g_dtls_connection_get_database[NullablePointer[GObjectT]](conn': NullablePointer[GObjectT])

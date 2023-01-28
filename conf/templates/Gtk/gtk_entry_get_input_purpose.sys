@@ -1,2 +1,2 @@
-  fun get_input_purpose(entry': NullablePointer[GtkEntryT]): U32 =>
-    @gtk_entry_get_input_purpose(entry')
+  fun get_input_purpose(entry': GtkEntryI): U32 =>
+    @gtk_entry_get_input_purpose(entry'.getptr())

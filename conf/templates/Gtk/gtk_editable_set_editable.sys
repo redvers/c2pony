@@ -1,2 +1,2 @@
-  fun set_editable(editable': NullablePointer[GtkEditableT], is_editable': I32): None =>
-    @gtk_editable_set_editable(editable', is_editable')
+  fun set_editable(editable': GtkEditableI, is_editable': I32): None =>
+    @gtk_editable_set_editable(editable'.getptr(), is_editable')

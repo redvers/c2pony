@@ -1,2 +1,2 @@
-  fun snapshot_symbolic(paintable': NullablePointer[GtkSymbolicPaintableT], snapshot': NullablePointer[GdkSnapshotT], width': F64, height': F64, colors': NullablePointer[GdkRGBAT], n_colors': U64): None =>
-    @gtk_symbolic_paintable_snapshot_symbolic(paintable', snapshot', width', height', colors', n_colors')
+  fun snapshot_symbolic(paintable': GtkSymbolicPaintableI, snapshot': NullablePointer[GdkSnapshotT], width': F64, height': F64, colors': NullablePointer[GdkRGBAT], n_colors': U64): None =>
+    @gtk_symbolic_paintable_snapshot_symbolic(paintable'.getptr(), snapshot', width', height', colors', n_colors')

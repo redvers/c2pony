@@ -1,2 +1,2 @@
-  fun return_gerror(invocation': NullablePointer[GDBusMethodInvocationT], error': NullablePointer[GErrorT]): None =>
-    @g_dbus_method_invocation_return_gerror(invocation', error')
+  fun return_gerror(invocation': GDBusMethodInvocationI, error': NullablePointer[GErrorT]): None =>
+    @g_dbus_method_invocation_return_gerror(invocation'.getptr(), error')

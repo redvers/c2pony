@@ -1,1 +1,1 @@
-use @gtk_filter_changed[None](self': NullablePointer[GtkFilterT], change': U32)
+use @gtk_filter_changed[None](self': NullablePointer[GObjectT], change': U32)

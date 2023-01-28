@@ -1,2 +1,2 @@
-  fun set_file(self': NullablePointer[GtkVideoT], file': NullablePointer[GFileT]): None =>
-    @gtk_video_set_file(self', file')
+  fun set_file(self': GtkVideoI, file': GFileI): None =>
+    @gtk_video_set_file(self'.getptr(), file'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_render_line[None](context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], x0': F64, y0': F64, x1': F64, y1': F64)
+use @gtk_render_line[None](context': NullablePointer[GObjectT], cr': NullablePointer[cairoT], x0': F64, y0': F64, x1': F64, y1': F64)

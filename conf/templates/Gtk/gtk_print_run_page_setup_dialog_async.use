@@ -1,1 +1,1 @@
-use @gtk_print_run_page_setup_dialog_async[None](parent': NullablePointer[GObjectT], page_setup': NullablePointer[GtkPageSetupT], settings': NullablePointer[GtkPrintSettingsT], done_cb': GtkPageSetupDoneFunc, data': Pointer[None] tag)
+use @gtk_print_run_page_setup_dialog_async[None](parent': NullablePointer[GObjectT], page_setup': NullablePointer[GObjectT], settings': NullablePointer[GObjectT], done_cb': GtkPageSetupDoneFunc, data': Pointer[None] tag)

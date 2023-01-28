@@ -1,1 +1,1 @@
-use @gtk_expression_unref[None](self': NullablePointer[GtkExpressionT])
+use @gtk_expression_unref[None](self': NullablePointer[GObjectT])

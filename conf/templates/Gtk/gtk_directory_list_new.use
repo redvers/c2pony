@@ -1,1 +1,1 @@
-use @gtk_directory_list_new[NullablePointer[GtkDirectoryListT]](attributes': Pointer[U8] tag, file': NullablePointer[GFileT])
+use @gtk_directory_list_new[NullablePointer[GObjectT]](attributes': Pointer[U8] tag, file': NullablePointer[GObjectT])

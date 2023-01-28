@@ -1,2 +1,2 @@
-  fun get_chars(editable': NullablePointer[GtkEditableT], start_pos': I32, end_pos': I32): String iso^ =>
-    String.from_cstring(@gtk_editable_get_chars(editable', start_pos', end_pos')).clone()
+  fun get_chars(editable': GtkEditableI, start_pos': I32, end_pos': I32): String iso^ =>
+    String.from_cstring(@gtk_editable_get_chars(editable'.getptr(), start_pos', end_pos')).clone()

@@ -1,1 +1,1 @@
-use @gtk_about_dialog_set_logo[None](about': NullablePointer[GtkAboutDialogT], logo': NullablePointer[GdkPaintableT])
+use @gtk_about_dialog_set_logo[None](about': NullablePointer[GObjectT], logo': NullablePointer[GdkPaintableT])

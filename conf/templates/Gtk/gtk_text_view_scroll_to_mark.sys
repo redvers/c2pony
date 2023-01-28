@@ -1,2 +1,2 @@
-  fun scroll_to_mark(text_view': NullablePointer[GtkTextViewT], mark': NullablePointer[GtkTextMarkT], within_margin': F64, use_align': I32, xalign': F64, yalign': F64): None =>
-    @gtk_text_view_scroll_to_mark(text_view', mark', within_margin', use_align', xalign', yalign')
+  fun scroll_to_mark(text_view': GtkTextViewI, mark': GtkTextMarkI, within_margin': F64, use_align': I32, xalign': F64, yalign': F64): None =>
+    @gtk_text_view_scroll_to_mark(text_view'.getptr(), mark'.getptr(), within_margin', use_align', xalign', yalign')

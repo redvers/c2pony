@@ -1,1 +1,1 @@
-use @gtk_gesture_set_state[I32](gesture': NullablePointer[GtkGestureT], state': U32)
+use @gtk_gesture_set_state[I32](gesture': NullablePointer[GObjectT], state': U32)

@@ -1,2 +1,2 @@
-  fun request_certificate_finish(interaction': NullablePointer[GTlsInteractionT], result': NullablePointer[GAsyncResultT], error': GError): U32 =>
-    @g_tls_interaction_request_certificate_finish(interaction', result', error'.ptr)
+  fun request_certificate_finish(interaction': GTlsInteractionI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): U32 =>
+    @g_tls_interaction_request_certificate_finish(interaction'.getptr(), result'.getptr(), error')

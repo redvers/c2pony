@@ -1,2 +1,2 @@
-  fun set_license_type(about': NullablePointer[GtkAboutDialogT], license_type': U32): None =>
-    @gtk_about_dialog_set_license_type(about', license_type')
+  fun set_license_type(about': GtkAboutDialogI, license_type': U32): None =>
+    @gtk_about_dialog_set_license_type(about'.getptr(), license_type')

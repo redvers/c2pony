@@ -1,2 +1,2 @@
-  fun get_day_is_marked(calendar': NullablePointer[GtkCalendarT], day': U32): I32 =>
-    @gtk_calendar_get_day_is_marked(calendar', day')
+  fun get_day_is_marked(calendar': GtkCalendarI, day': U32): I32 =>
+    @gtk_calendar_get_day_is_marked(calendar'.getptr(), day')

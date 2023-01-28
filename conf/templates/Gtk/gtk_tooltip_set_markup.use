@@ -1,1 +1,1 @@
-use @gtk_tooltip_set_markup[None](tooltip': NullablePointer[GtkTooltipT], markup': Pointer[U8] tag)
+use @gtk_tooltip_set_markup[None](tooltip': NullablePointer[GObjectT], markup': Pointer[U8] tag)

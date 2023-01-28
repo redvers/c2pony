@@ -1,1 +1,1 @@
-use @gtk_combo_box_text_remove[None](combo_box': NullablePointer[GtkComboBoxTextT], position': I32)
+use @gtk_combo_box_text_remove[None](combo_box': NullablePointer[GObjectT], position': I32)

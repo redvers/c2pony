@@ -1,2 +1,2 @@
-  fun show(self': NullablePointer[GtkNativeDialogT]): None =>
-    @gtk_native_dialog_show(self')
+  fun show(self': GtkNativeDialogI): None =>
+    @gtk_native_dialog_show(self'.getptr())

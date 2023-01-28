@@ -1,2 +1,2 @@
-  fun get_name(mark': NullablePointer[GtkTextMarkT]): String iso^ =>
-    String.from_cstring(@gtk_text_mark_get_name(mark')).clone()
+  fun get_name(mark': GtkTextMarkI): String iso^ =>
+    String.from_cstring(@gtk_text_mark_get_name(mark'.getptr())).clone()

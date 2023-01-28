@@ -1,1 +1,1 @@
-use @gtk_size_group_get_mode[U32](size_group': NullablePointer[GtkSizeGroupT])
+use @gtk_size_group_get_mode[U32](size_group': NullablePointer[GObjectT])

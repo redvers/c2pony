@@ -1,1 +1,1 @@
-use @gtk_entry_get_icon_gicon[NullablePointer[GIconT]](entry': NullablePointer[GtkEntryT], icon_pos': U32)
+use @gtk_entry_get_icon_gicon[NullablePointer[GObjectT]](entry': NullablePointer[GObjectT], icon_pos': U32)

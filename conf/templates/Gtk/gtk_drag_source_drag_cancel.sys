@@ -1,2 +1,2 @@
-  fun drag_cancel(source': NullablePointer[GtkDragSourceT]): None =>
-    @gtk_drag_source_drag_cancel(source')
+  fun drag_cancel(source': GtkDragSourceI): None =>
+    @gtk_drag_source_drag_cancel(source'.getptr())

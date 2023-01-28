@@ -1,1 +1,1 @@
-use @gtk_multi_sorter_remove[None](self': NullablePointer[GtkMultiSorterT], position': U32)
+use @gtk_multi_sorter_remove[None](self': NullablePointer[GObjectT], position': U32)

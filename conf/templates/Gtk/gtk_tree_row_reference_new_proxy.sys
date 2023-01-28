@@ -1,2 +1,2 @@
-  new new_proxy(proxy': NullablePointer[GObjectT], model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT]) =>
-    ptr = @gtk_tree_row_reference_new_proxy(proxy', model', path')
+  new new_proxy(proxy': GObjectI, model': GtkTreeModelI, path': NullablePointer[GtkTreePathT]) =>
+    ptr = @gtk_tree_row_reference_new_proxy(proxy'.getptr(), model'.getptr(), path')

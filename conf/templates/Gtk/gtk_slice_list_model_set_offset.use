@@ -1,1 +1,1 @@
-use @gtk_slice_list_model_set_offset[None](self': NullablePointer[GtkSliceListModelT], offset': U32)
+use @gtk_slice_list_model_set_offset[None](self': NullablePointer[GObjectT], offset': U32)

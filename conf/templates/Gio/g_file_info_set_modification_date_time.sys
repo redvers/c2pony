@@ -1,2 +1,2 @@
-  fun set_modification_date_time(info': NullablePointer[GFileInfoT], mtime': NullablePointer[GDateTimeT]): None =>
-    @g_file_info_set_modification_date_time(info', mtime')
+  fun set_modification_date_time(info': GFileInfoI, mtime': NullablePointer[GDateTimeT]): None =>
+    @g_file_info_set_modification_date_time(info'.getptr(), mtime')

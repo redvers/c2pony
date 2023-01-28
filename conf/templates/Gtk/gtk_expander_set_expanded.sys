@@ -1,2 +1,2 @@
-  fun set_expanded(expander': NullablePointer[GtkExpanderT], expanded': I32): None =>
-    @gtk_expander_set_expanded(expander', expanded')
+  fun set_expanded(expander': GtkExpanderI, expanded': I32): None =>
+    @gtk_expander_set_expanded(expander'.getptr(), expanded')

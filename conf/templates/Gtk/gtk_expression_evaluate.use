@@ -1,1 +1,1 @@
-use @gtk_expression_evaluate[I32](self': NullablePointer[GtkExpressionT], this': Pointer[None] tag, value': NullablePointer[GValueT])
+use @gtk_expression_evaluate[I32](self': NullablePointer[GObjectT], this': Pointer[None] tag, value': NullablePointer[GValueT])

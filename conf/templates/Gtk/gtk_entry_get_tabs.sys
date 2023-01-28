@@ -1,2 +1,2 @@
-  fun get_tabs(entry': NullablePointer[GtkEntryT]): NullablePointer[PangoTabArrayT] =>
-    @gtk_entry_get_tabs(entry')
+  fun get_tabs(entry': GtkEntryI): NullablePointer[PangoTabArrayT] =>
+    @gtk_entry_get_tabs(entry'.getptr())

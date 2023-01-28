@@ -1,2 +1,2 @@
-  fun get_formats(self': NullablePointer[GtkDropTargetAsyncT]): NullablePointer[GdkContentFormatsT] =>
-    @gtk_drop_target_async_get_formats(self')
+  fun get_formats(self': GtkDropTargetAsyncI): NullablePointer[GdkContentFormatsT] =>
+    @gtk_drop_target_async_get_formats(self'.getptr())

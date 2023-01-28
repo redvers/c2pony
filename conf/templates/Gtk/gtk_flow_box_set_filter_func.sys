@@ -1,2 +1,2 @@
-  fun set_filter_func(box': NullablePointer[GtkFlowBoxT], filter_func': GtkFlowBoxFilterFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
-    @gtk_flow_box_set_filter_func(box', filter_func', user_data', destroy')
+  fun set_filter_func(box': GtkFlowBoxI, filter_func': GtkFlowBoxFilterFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_flow_box_set_filter_func(box'.getptr(), filter_func', user_data', destroy')

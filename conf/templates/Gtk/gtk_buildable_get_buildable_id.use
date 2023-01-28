@@ -1,1 +1,1 @@
-use @gtk_buildable_get_buildable_id[Pointer[U8]](buildable': NullablePointer[GtkBuildableT])
+use @gtk_buildable_get_buildable_id[Pointer[U8]](buildable': NullablePointer[GObjectT])

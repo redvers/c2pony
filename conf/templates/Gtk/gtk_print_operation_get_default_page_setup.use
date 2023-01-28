@@ -1,1 +1,1 @@
-use @gtk_print_operation_get_default_page_setup[NullablePointer[GtkPageSetupT]](op': NullablePointer[GtkPrintOperationT])
+use @gtk_print_operation_get_default_page_setup[NullablePointer[GObjectT]](op': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_measure(child': NullablePointer[GtkOverlayLayoutChildT]): I32 =>
-    @gtk_overlay_layout_child_get_measure(child')
+  fun get_measure(child': GtkOverlayLayoutChildI): I32 =>
+    @gtk_overlay_layout_child_get_measure(child'.getptr())

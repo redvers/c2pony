@@ -1,2 +1,2 @@
-  fun add(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT]): None =>
-    @gtk_cell_area_add(area', renderer')
+  fun add(area': GtkCellAreaI, renderer': GtkCellRendererI): None =>
+    @gtk_cell_area_add(area'.getptr(), renderer'.getptr())

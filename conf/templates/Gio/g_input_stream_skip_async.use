@@ -1,1 +1,1 @@
-use @g_input_stream_skip_async[None](stream': NullablePointer[GInputStreamT], count': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_input_stream_skip_async[None](stream': NullablePointer[GObjectT], count': U64, io_priority': I32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

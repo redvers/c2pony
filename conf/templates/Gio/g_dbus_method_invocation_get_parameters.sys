@@ -1,2 +1,2 @@
-  fun get_parameters(invocation': NullablePointer[GDBusMethodInvocationT]): NullablePointer[GVariantT] =>
-    @g_dbus_method_invocation_get_parameters(invocation')
+  fun get_parameters(invocation': GDBusMethodInvocationI): NullablePointer[GVariantT] =>
+    @g_dbus_method_invocation_get_parameters(invocation'.getptr())

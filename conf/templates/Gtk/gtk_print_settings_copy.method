@@ -1,2 +1,2 @@
-  fun ref copy(): NullablePointer[GtkPrintSettingsT] =>
+  fun ref copy(): NullablePointer[GObjectT] =>
     GtkPrintSettingsP.copy(this)

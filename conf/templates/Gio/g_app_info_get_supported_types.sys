@@ -1,2 +1,2 @@
-  fun get_supported_types(appinfo': NullablePointer[GAppInfoT]): Pointer[Pointer[U8]] tag =>
-    @g_app_info_get_supported_types(appinfo')
+  fun get_supported_types(appinfo': GAppInfoI): Pointer[Pointer[U8]] tag =>
+    @g_app_info_get_supported_types(appinfo'.getptr())

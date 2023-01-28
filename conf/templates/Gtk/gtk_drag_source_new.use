@@ -1,1 +1,1 @@
-use @gtk_drag_source_new[NullablePointer[GtkDragSourceT]]()
+use @gtk_drag_source_new[NullablePointer[GObjectT]]()

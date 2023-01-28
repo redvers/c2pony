@@ -1,1 +1,1 @@
-use @g_file_get_parse_name[Pointer[U8]](file': NullablePointer[GFileT])
+use @g_file_get_parse_name[Pointer[U8]](file': NullablePointer[GObjectT])

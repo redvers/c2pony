@@ -1,2 +1,2 @@
-  fun set_name(guide': NullablePointer[GtkConstraintGuideT], name': String): None =>
-    @gtk_constraint_guide_set_name(guide', name'.cstring())
+  fun set_name(guide': GtkConstraintGuideI, name': String): None =>
+    @gtk_constraint_guide_set_name(guide'.getptr(), name'.cstring())

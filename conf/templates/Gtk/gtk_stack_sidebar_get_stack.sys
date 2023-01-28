@@ -1,2 +1,2 @@
-  fun get_stack(self': NullablePointer[GtkStackSidebarT]): NullablePointer[GtkStackT] =>
-    @gtk_stack_sidebar_get_stack(self')
+  fun get_stack(self': GtkStackSidebarI): NullablePointer[GObjectT] =>
+@gtk_stack_sidebar_get_stack(self'.getptr())

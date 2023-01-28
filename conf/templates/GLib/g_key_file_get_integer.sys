@@ -1,2 +1,2 @@
-  fun get_integer(key_file': NullablePointer[GKeyFileT], group_name': String, key': String, error': GError): I32 =>
-    @g_key_file_get_integer(key_file', group_name'.cstring(), key'.cstring(), error'.ptr)
+  fun get_integer(key_file': NullablePointer[GKeyFileT], group_name': String, key': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_key_file_get_integer(key_file', group_name'.cstring(), key'.cstring(), error')

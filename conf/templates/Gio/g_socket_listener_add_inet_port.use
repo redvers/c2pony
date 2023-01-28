@@ -1,1 +1,1 @@
-use @g_socket_listener_add_inet_port[I32](listener': NullablePointer[GSocketListenerT], port': U16, source_object': NullablePointer[GObjectT], error': NullablePointer[GErrorT])
+use @g_socket_listener_add_inet_port[I32](listener': NullablePointer[GObjectT], port': U16, source_object': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

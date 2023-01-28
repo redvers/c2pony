@@ -1,2 +1,2 @@
-  fun ref get_child_anchor(): NullablePointer[GtkTextChildAnchorT] =>
+  fun ref get_child_anchor(): NullablePointer[GObjectT] =>
     GtkTextIterP.get_child_anchor(ptr)

@@ -1,1 +1,1 @@
-use @g_menu_item_set_action_and_target_value[None](menu_item': NullablePointer[GMenuItemT], action': Pointer[U8] tag, target_value': NullablePointer[GVariantT])
+use @g_menu_item_set_action_and_target_value[None](menu_item': NullablePointer[GObjectT], action': Pointer[U8] tag, target_value': NullablePointer[GVariantT])

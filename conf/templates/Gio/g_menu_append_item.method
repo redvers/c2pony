@@ -1,2 +1,2 @@
-  fun ref append_item(item': NullablePointer[GMenuItemT]): None =>
+  fun ref append_item(item': GMenuItemI): None =>
     GMenuP.append_item(this, item')

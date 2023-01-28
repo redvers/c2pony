@@ -1,2 +1,2 @@
-  fun set_single_click_activate(self': NullablePointer[GtkColumnViewT], single_click_activate': I32): None =>
-    @gtk_column_view_set_single_click_activate(self', single_click_activate')
+  fun set_single_click_activate(self': GtkColumnViewI, single_click_activate': I32): None =>
+    @gtk_column_view_set_single_click_activate(self'.getptr(), single_click_activate')

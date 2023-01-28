@@ -1,2 +1,2 @@
-  fun set_is_tcrypt_hidden_volume(op': NullablePointer[GMountOperationT], hidden_volume': I32): None =>
-    @g_mount_operation_set_is_tcrypt_hidden_volume(op', hidden_volume')
+  fun set_is_tcrypt_hidden_volume(op': GMountOperationI, hidden_volume': I32): None =>
+    @g_mount_operation_set_is_tcrypt_hidden_volume(op'.getptr(), hidden_volume')

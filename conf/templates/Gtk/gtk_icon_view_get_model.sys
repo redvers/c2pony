@@ -1,2 +1,2 @@
-  fun get_model(icon_view': NullablePointer[GtkIconViewT]): NullablePointer[GtkTreeModelT] =>
-    @gtk_icon_view_get_model(icon_view')
+  fun get_model(icon_view': GtkIconViewI): NullablePointer[GObjectT] =>
+@gtk_icon_view_get_model(icon_view'.getptr())

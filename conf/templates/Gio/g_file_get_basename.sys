@@ -1,2 +1,2 @@
-  fun get_basename(file': NullablePointer[GFileT]): String iso^ =>
-    String.from_cstring(@g_file_get_basename(file')).clone()
+  fun get_basename(file': GFileI): String iso^ =>
+    String.from_cstring(@g_file_get_basename(file'.getptr())).clone()

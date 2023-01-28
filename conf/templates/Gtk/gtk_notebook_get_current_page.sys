@@ -1,2 +1,2 @@
-  fun get_current_page(notebook': NullablePointer[GtkNotebookT]): I32 =>
-    @gtk_notebook_get_current_page(notebook')
+  fun get_current_page(notebook': GtkNotebookI): I32 =>
+    @gtk_notebook_get_current_page(notebook'.getptr())

@@ -1,2 +1,2 @@
-  fun ref set_attributes(cell': NullablePointer[GtkCellRendererT], ...): None =>
+  fun ref set_attributes(cell': GtkCellRendererI, ...): None =>
     GtkCellLayoutP.set_attributes(this, cell', ...)

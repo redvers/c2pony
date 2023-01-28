@@ -1,2 +1,2 @@
-  fun get_autohide(popover': NullablePointer[GtkPopoverT]): I32 =>
-    @gtk_popover_get_autohide(popover')
+  fun get_autohide(popover': GtkPopoverI): I32 =>
+    @gtk_popover_get_autohide(popover'.getptr())

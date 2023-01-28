@@ -1,2 +1,2 @@
-  fun get_pages(assistant': NullablePointer[GtkAssistantT]): NullablePointer[GObjectT] =>
-@gtk_assistant_get_pages(assistant')
+  fun get_pages(assistant': GtkAssistantI): NullablePointer[GObjectT] =>
+@gtk_assistant_get_pages(assistant'.getptr())

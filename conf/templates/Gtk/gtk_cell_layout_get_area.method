@@ -1,2 +1,2 @@
-  fun ref get_area(): NullablePointer[GtkCellAreaT] =>
+  fun ref get_area(): NullablePointer[GObjectT] =>
     GtkCellLayoutP.get_area(this)

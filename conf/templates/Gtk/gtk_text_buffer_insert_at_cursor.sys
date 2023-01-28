@@ -1,2 +1,2 @@
-  fun insert_at_cursor(buffer': NullablePointer[GtkTextBufferT], text': String, len': I32): None =>
-    @gtk_text_buffer_insert_at_cursor(buffer', text'.cstring(), len')
+  fun insert_at_cursor(buffer': GtkTextBufferI, text': String, len': I32): None =>
+    @gtk_text_buffer_insert_at_cursor(buffer'.getptr(), text'.cstring(), len')

@@ -1,2 +1,2 @@
-  fun set_state_hint(simple': NullablePointer[GSimpleActionT], state_hint': NullablePointer[GVariantT]): None =>
-    @g_simple_action_set_state_hint(simple', state_hint')
+  fun set_state_hint(simple': GSimpleActionI, state_hint': NullablePointer[GVariantT]): None =>
+    @g_simple_action_set_state_hint(simple'.getptr(), state_hint')

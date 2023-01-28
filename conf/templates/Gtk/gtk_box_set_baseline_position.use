@@ -1,1 +1,1 @@
-use @gtk_box_set_baseline_position[None](box': NullablePointer[GtkBoxT], position': U32)
+use @gtk_box_set_baseline_position[None](box': NullablePointer[GObjectT], position': U32)

@@ -1,1 +1,1 @@
-use @gtk_native_dialog_get_transient_for[NullablePointer[GObjectT]](self': NullablePointer[GtkNativeDialogT])
+use @gtk_native_dialog_get_transient_for[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

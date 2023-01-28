@@ -1,2 +1,2 @@
-  fun set_child(scrolled_window': NullablePointer[GtkScrolledWindowT], child': GtkWidgetI): None =>
-    @gtk_scrolled_window_set_child(scrolled_window', child'.getptr())
+  fun set_child(scrolled_window': GtkScrolledWindowI, child': GtkWidgetI): None =>
+    @gtk_scrolled_window_set_child(scrolled_window'.getptr(), child'.getptr())

@@ -1,1 +1,1 @@
-use @g_emblem_new[NullablePointer[GEmblemT]](icon': NullablePointer[GIconT])
+use @g_emblem_new[NullablePointer[GObjectT]](icon': NullablePointer[GObjectT])

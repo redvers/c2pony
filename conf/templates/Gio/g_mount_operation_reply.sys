@@ -1,2 +1,2 @@
-  fun reply(op': NullablePointer[GMountOperationT], result': U32): None =>
-    @g_mount_operation_reply(op', result')
+  fun reply(op': GMountOperationI, result': U32): None =>
+    @g_mount_operation_reply(op'.getptr(), result')

@@ -1,2 +1,2 @@
-  fun check_connect_result(socket': NullablePointer[GSocketT], error': GError): I32 =>
-    @g_socket_check_connect_result(socket', error'.ptr)
+  fun check_connect_result(socket': GSocketI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_check_connect_result(socket'.getptr(), error')

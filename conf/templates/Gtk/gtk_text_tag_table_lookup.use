@@ -1,1 +1,1 @@
-use @gtk_text_tag_table_lookup[NullablePointer[GtkTextTagT]](table': NullablePointer[GtkTextTagTableT], name': Pointer[U8] tag)
+use @gtk_text_tag_table_lookup[NullablePointer[GObjectT]](table': NullablePointer[GObjectT], name': Pointer[U8] tag)

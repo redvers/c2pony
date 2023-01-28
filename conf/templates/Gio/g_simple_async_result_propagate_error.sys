@@ -1,2 +1,2 @@
-  fun propagate_error(simple': NullablePointer[GSimpleAsyncResultT], dest': GError): I32 =>
-    @g_simple_async_result_propagate_error(simple', dest'.ptr)
+  fun propagate_error(simple': GSimpleAsyncResultI, dest': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_simple_async_result_propagate_error(simple'.getptr(), dest')

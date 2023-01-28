@@ -1,2 +1,2 @@
-  fun set_muted(self': NullablePointer[GtkMediaStreamT], muted': I32): None =>
-    @gtk_media_stream_set_muted(self', muted')
+  fun set_muted(self': GtkMediaStreamI, muted': I32): None =>
+    @gtk_media_stream_set_muted(self'.getptr(), muted')

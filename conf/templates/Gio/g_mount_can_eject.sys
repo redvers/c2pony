@@ -1,2 +1,2 @@
-  fun can_eject(mount': NullablePointer[GMountT]): I32 =>
-    @g_mount_can_eject(mount')
+  fun can_eject(mount': GMountI): I32 =>
+    @g_mount_can_eject(mount'.getptr())

@@ -1,2 +1,2 @@
-  fun ref matches(address': NullablePointer[GInetAddressT]): I32 =>
+  fun ref matches(address': GInetAddressI): I32 =>
     GInetAddressMaskP.matches(this, address')

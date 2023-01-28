@@ -1,2 +1,2 @@
-  fun set_priority(tag': NullablePointer[GtkTextTagT], priority': I32): None =>
-    @gtk_text_tag_set_priority(tag', priority')
+  fun set_priority(tag': GtkTextTagI, priority': I32): None =>
+    @gtk_text_tag_set_priority(tag'.getptr(), priority')

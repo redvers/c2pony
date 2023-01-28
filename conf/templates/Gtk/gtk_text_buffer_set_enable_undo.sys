@@ -1,2 +1,2 @@
-  fun set_enable_undo(buffer': NullablePointer[GtkTextBufferT], enable_undo': I32): None =>
-    @gtk_text_buffer_set_enable_undo(buffer', enable_undo')
+  fun set_enable_undo(buffer': GtkTextBufferI, enable_undo': I32): None =>
+    @gtk_text_buffer_set_enable_undo(buffer'.getptr(), enable_undo')

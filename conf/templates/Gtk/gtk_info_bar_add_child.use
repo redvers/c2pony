@@ -1,1 +1,1 @@
-use @gtk_info_bar_add_child[None](info_bar': NullablePointer[GtkInfoBarT], widget': NullablePointer[GObjectT])
+use @gtk_info_bar_add_child[None](info_bar': NullablePointer[GObjectT], widget': NullablePointer[GObjectT])

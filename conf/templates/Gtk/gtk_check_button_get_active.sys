@@ -1,2 +1,2 @@
-  fun get_active(self': NullablePointer[GtkCheckButtonT]): I32 =>
-    @gtk_check_button_get_active(self')
+  fun get_active(self': GtkCheckButtonI): I32 =>
+    @gtk_check_button_get_active(self'.getptr())

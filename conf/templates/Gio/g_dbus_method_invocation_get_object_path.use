@@ -1,1 +1,1 @@
-use @g_dbus_method_invocation_get_object_path[Pointer[U8]](invocation': NullablePointer[GDBusMethodInvocationT])
+use @g_dbus_method_invocation_get_object_path[Pointer[U8]](invocation': NullablePointer[GObjectT])

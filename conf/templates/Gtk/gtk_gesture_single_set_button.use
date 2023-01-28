@@ -1,1 +1,1 @@
-use @gtk_gesture_single_set_button[None](gesture': NullablePointer[GtkGestureSingleT], button': U32)
+use @gtk_gesture_single_set_button[None](gesture': NullablePointer[GObjectT], button': U32)

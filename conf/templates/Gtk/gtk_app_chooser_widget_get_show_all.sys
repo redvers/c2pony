@@ -1,2 +1,2 @@
-  fun get_show_all(self': NullablePointer[GtkAppChooserWidgetT]): I32 =>
-    @gtk_app_chooser_widget_get_show_all(self')
+  fun get_show_all(self': GtkAppChooserWidgetI): I32 =>
+    @gtk_app_chooser_widget_get_show_all(self'.getptr())

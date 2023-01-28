@@ -1,2 +1,2 @@
-  fun insert(box': NullablePointer[GtkFlowBoxT], widget': GtkWidgetI, position': I32): None =>
-    @gtk_flow_box_insert(box', widget'.getptr(), position')
+  fun insert(box': GtkFlowBoxI, widget': GtkWidgetI, position': I32): None =>
+    @gtk_flow_box_insert(box'.getptr(), widget'.getptr(), position')

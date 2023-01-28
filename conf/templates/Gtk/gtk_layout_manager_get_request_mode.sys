@@ -1,2 +1,2 @@
-  fun get_request_mode(manager': NullablePointer[GtkLayoutManagerT]): U32 =>
-    @gtk_layout_manager_get_request_mode(manager')
+  fun get_request_mode(manager': GtkLayoutManagerI): U32 =>
+    @gtk_layout_manager_get_request_mode(manager'.getptr())

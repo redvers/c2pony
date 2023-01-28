@@ -1,1 +1,1 @@
-use @g_file_delete_async[None](file': NullablePointer[GFileT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_file_delete_async[None](file': NullablePointer[GObjectT], io_priority': I32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

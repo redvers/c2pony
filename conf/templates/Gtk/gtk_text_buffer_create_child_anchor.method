@@ -1,2 +1,2 @@
-  fun ref create_child_anchor(iter': NullablePointer[GtkTextIterT]): NullablePointer[GtkTextChildAnchorT] =>
+  fun ref create_child_anchor(iter': NullablePointer[GtkTextIterT]): NullablePointer[GObjectT] =>
     GtkTextBufferP.create_child_anchor(this, iter')

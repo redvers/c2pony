@@ -1,2 +1,2 @@
-  fun ref query_exists(cancellable': NullablePointer[GCancellableT]): I32 =>
+  fun ref query_exists(cancellable': GCancellableI): I32 =>
     GFileP.query_exists(this, cancellable')

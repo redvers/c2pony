@@ -1,1 +1,1 @@
-use @gtk_scale_button_get_value[F64](button': NullablePointer[GtkScaleButtonT])
+use @gtk_scale_button_get_value[F64](button': NullablePointer[GObjectT])

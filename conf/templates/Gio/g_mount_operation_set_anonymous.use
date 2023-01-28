@@ -1,1 +1,1 @@
-use @g_mount_operation_set_anonymous[None](op': NullablePointer[GMountOperationT], anonymous': I32)
+use @g_mount_operation_set_anonymous[None](op': NullablePointer[GObjectT], anonymous': I32)

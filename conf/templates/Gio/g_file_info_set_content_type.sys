@@ -1,2 +1,2 @@
-  fun set_content_type(info': NullablePointer[GFileInfoT], content_type': String): None =>
-    @g_file_info_set_content_type(info', content_type'.cstring())
+  fun set_content_type(info': GFileInfoI, content_type': String): None =>
+    @g_file_info_set_content_type(info'.getptr(), content_type'.cstring())

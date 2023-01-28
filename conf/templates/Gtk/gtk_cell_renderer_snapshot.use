@@ -1,1 +1,1 @@
-use @gtk_cell_renderer_snapshot[None](cell': NullablePointer[GtkCellRendererT], snapshot': NullablePointer[GdkSnapshotT], widget': NullablePointer[GObjectT], background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32)
+use @gtk_cell_renderer_snapshot[None](cell': NullablePointer[GObjectT], snapshot': NullablePointer[GdkSnapshotT], widget': NullablePointer[GObjectT], background_area': NullablePointer[cairorectangleintT], cell_area': NullablePointer[cairorectangleintT], flags': U32)

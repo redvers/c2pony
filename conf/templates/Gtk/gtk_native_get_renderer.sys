@@ -1,2 +1,2 @@
-  fun get_renderer(self': NullablePointer[GtkNativeT]): NullablePointer[GskRendererT] =>
-    @gtk_native_get_renderer(self')
+  fun get_renderer(self': GtkNativeI): NullablePointer[GskRendererT] =>
+    @gtk_native_get_renderer(self'.getptr())

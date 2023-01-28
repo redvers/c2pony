@@ -1,1 +1,1 @@
-use @g_proxy_connect_async[None](proxy': NullablePointer[GProxyT], connection': NullablePointer[GIOStreamT], proxy_address': NullablePointer[GProxyAddressT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_proxy_connect_async[None](proxy': NullablePointer[GObjectT], connection': NullablePointer[GObjectT], proxy_address': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

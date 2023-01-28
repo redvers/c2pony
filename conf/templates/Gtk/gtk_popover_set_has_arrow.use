@@ -1,1 +1,1 @@
-use @gtk_popover_set_has_arrow[None](popover': NullablePointer[GtkPopoverT], has_arrow': I32)
+use @gtk_popover_set_has_arrow[None](popover': NullablePointer[GObjectT], has_arrow': I32)

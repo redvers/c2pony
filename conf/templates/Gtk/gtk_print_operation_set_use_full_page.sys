@@ -1,2 +1,2 @@
-  fun set_use_full_page(op': NullablePointer[GtkPrintOperationT], full_page': I32): None =>
-    @gtk_print_operation_set_use_full_page(op', full_page')
+  fun set_use_full_page(op': GtkPrintOperationI, full_page': I32): None =>
+    @gtk_print_operation_set_use_full_page(op'.getptr(), full_page')

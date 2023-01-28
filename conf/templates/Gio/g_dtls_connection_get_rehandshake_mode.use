@@ -1,1 +1,1 @@
-use @g_dtls_connection_get_rehandshake_mode[U32](conn': NullablePointer[GDtlsConnectionT])
+use @g_dtls_connection_get_rehandshake_mode[U32](conn': NullablePointer[GObjectT])

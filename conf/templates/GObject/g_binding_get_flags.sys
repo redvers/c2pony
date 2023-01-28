@@ -1,2 +1,2 @@
-  fun get_flags(binding': NullablePointer[GBindingT]): U32 =>
-    @g_binding_get_flags(binding')
+  fun get_flags(binding': GBindingI): U32 =>
+    @g_binding_get_flags(binding'.getptr())

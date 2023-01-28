@@ -1,1 +1,1 @@
-use @gtk_flatten_list_model_get_model[NullablePointer[GObjectT]](self': NullablePointer[GtkFlattenListModelT])
+use @gtk_flatten_list_model_get_model[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

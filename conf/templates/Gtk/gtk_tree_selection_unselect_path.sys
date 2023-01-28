@@ -1,2 +1,2 @@
-  fun unselect_path(selection': NullablePointer[GtkTreeSelectionT], path': NullablePointer[GtkTreePathT]): None =>
-    @gtk_tree_selection_unselect_path(selection', path')
+  fun unselect_path(selection': GtkTreeSelectionI, path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_tree_selection_unselect_path(selection'.getptr(), path')

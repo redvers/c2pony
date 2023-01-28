@@ -1,2 +1,2 @@
-  fun get_factory(self': NullablePointer[GtkColumnViewColumnT]): NullablePointer[GObjectT] =>
-@gtk_column_view_column_get_factory(self')
+  fun get_factory(self': GtkColumnViewColumnI): NullablePointer[GObjectT] =>
+@gtk_column_view_column_get_factory(self'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_stack_set_vhomogeneous[None](stack': NullablePointer[GtkStackT], vhomogeneous': I32)
+use @gtk_stack_set_vhomogeneous[None](stack': NullablePointer[GObjectT], vhomogeneous': I32)

@@ -1,2 +1,2 @@
-  fun set_cancel_label(self': NullablePointer[GtkFileChooserNativeT], cancel_label': String): None =>
-    @gtk_file_chooser_native_set_cancel_label(self', cancel_label'.cstring())
+  fun set_cancel_label(self': GtkFileChooserNativeI, cancel_label': String): None =>
+    @gtk_file_chooser_native_set_cancel_label(self'.getptr(), cancel_label'.cstring())

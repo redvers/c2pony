@@ -1,2 +1,2 @@
-  fun ref can_reach(connectable': NullablePointer[GSocketConnectableT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref can_reach(connectable': GSocketConnectableI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GNetworkMonitorP.can_reach(this, connectable', cancellable', error')

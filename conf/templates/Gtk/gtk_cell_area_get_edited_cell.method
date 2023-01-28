@@ -1,2 +1,2 @@
-  fun ref get_edited_cell(): NullablePointer[GtkCellRendererT] =>
+  fun ref get_edited_cell(): NullablePointer[GObjectT] =>
     GtkCellAreaP.get_edited_cell(this)

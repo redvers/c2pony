@@ -1,1 +1,1 @@
-use @g_memory_input_stream_new_from_data[NullablePointer[GInputStreamT]](data': Pointer[None] tag, len': I64, destroy': Pointer[None])
+use @g_memory_input_stream_new_from_data[NullablePointer[GObjectT]](data': Pointer[None] tag, len': I64, destroy': Pointer[None])

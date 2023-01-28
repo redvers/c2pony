@@ -1,2 +1,2 @@
-  fun set_expression(self': NullablePointer[GtkStringSorterT], expression': NullablePointer[GtkExpressionT]): None =>
-    @gtk_string_sorter_set_expression(self', expression')
+  fun set_expression(self': GtkStringSorterI, expression': GtkExpressionI): None =>
+    @gtk_string_sorter_set_expression(self'.getptr(), expression'.getptr())

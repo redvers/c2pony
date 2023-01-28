@@ -1,1 +1,1 @@
-use @gtk_tree_sortable_set_default_sort_func[None](sortable': NullablePointer[GtkTreeSortableT], sort_func': GtkTreeIterCompareFunc, user_data': Pointer[None] tag, destroy': Pointer[None])
+use @gtk_tree_sortable_set_default_sort_func[None](sortable': NullablePointer[GObjectT], sort_func': GtkTreeIterCompareFunc, user_data': Pointer[None] tag, destroy': Pointer[None])

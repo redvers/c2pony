@@ -1,2 +1,2 @@
-  fun unmount_mountable_with_operation_finish(file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_file_unmount_mountable_with_operation_finish(file', result', error'.ptr)
+  fun unmount_mountable_with_operation_finish(file': GFileI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_unmount_mountable_with_operation_finish(file'.getptr(), result'.getptr(), error')

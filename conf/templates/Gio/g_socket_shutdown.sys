@@ -1,2 +1,2 @@
-  fun shutdown(socket': NullablePointer[GSocketT], shutdown_read': I32, shutdown_write': I32, error': GError): I32 =>
-    @g_socket_shutdown(socket', shutdown_read', shutdown_write', error'.ptr)
+  fun shutdown(socket': GSocketI, shutdown_read': I32, shutdown_write': I32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_shutdown(socket'.getptr(), shutdown_read', shutdown_write', error')

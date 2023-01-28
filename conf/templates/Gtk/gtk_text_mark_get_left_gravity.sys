@@ -1,2 +1,2 @@
-  fun get_left_gravity(mark': NullablePointer[GtkTextMarkT]): I32 =>
-    @gtk_text_mark_get_left_gravity(mark')
+  fun get_left_gravity(mark': GtkTextMarkI): I32 =>
+    @gtk_text_mark_get_left_gravity(mark'.getptr())

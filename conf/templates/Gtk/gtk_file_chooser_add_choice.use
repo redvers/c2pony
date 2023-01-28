@@ -1,1 +1,1 @@
-use @gtk_file_chooser_add_choice[None](chooser': NullablePointer[GtkFileChooserT], id': Pointer[U8] tag, label': Pointer[U8] tag, options': Pointer[Pointer[U8]] tag, option_labels': Pointer[Pointer[U8]] tag)
+use @gtk_file_chooser_add_choice[None](chooser': NullablePointer[GObjectT], id': Pointer[U8] tag, label': Pointer[U8] tag, options': Pointer[Pointer[U8]] tag, option_labels': Pointer[Pointer[U8]] tag)

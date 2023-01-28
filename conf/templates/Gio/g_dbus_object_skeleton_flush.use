@@ -1,1 +1,1 @@
-use @g_dbus_object_skeleton_flush[None](object': NullablePointer[GDBusObjectSkeletonT])
+use @g_dbus_object_skeleton_flush[None](object': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_adjustment_set_lower[None](adjustment': NullablePointer[GtkAdjustmentT], lower': F64)
+use @gtk_adjustment_set_lower[None](adjustment': NullablePointer[GObjectT], lower': F64)

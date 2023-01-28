@@ -1,2 +1,2 @@
-  fun ref add_emblem(emblem': NullablePointer[GEmblemT]): None =>
+  fun ref add_emblem(emblem': GEmblemI): None =>
     GEmblemedIconP.add_emblem(this, emblem')

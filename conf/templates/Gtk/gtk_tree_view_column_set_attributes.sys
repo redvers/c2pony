@@ -1,2 +1,2 @@
-  fun set_attributes(tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT], ...): None =>
-    @gtk_tree_view_column_set_attributes(tree_column', cell_renderer', ...)
+  fun set_attributes(tree_column': GtkTreeViewColumnI, cell_renderer': GtkCellRendererI, ...): None =>
+    @gtk_tree_view_column_set_attributes(tree_column'.getptr(), cell_renderer'.getptr(), ...)

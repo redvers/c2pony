@@ -1,2 +1,2 @@
-  fun get_input_hints(entry': NullablePointer[GtkEntryT]): U32 =>
-    @gtk_entry_get_input_hints(entry')
+  fun get_input_hints(entry': GtkEntryI): U32 =>
+    @gtk_entry_get_input_hints(entry'.getptr())

@@ -1,1 +1,1 @@
-use @g_app_info_get_supported_types[Pointer[Pointer[U8]] tag](appinfo': NullablePointer[GAppInfoT])
+use @g_app_info_get_supported_types[Pointer[Pointer[U8]] tag](appinfo': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_default(): NullablePointer[GProxyResolverT] =>
-    @g_proxy_resolver_get_default()
+  fun get_default(): NullablePointer[GObjectT] =>
+@g_proxy_resolver_get_default()

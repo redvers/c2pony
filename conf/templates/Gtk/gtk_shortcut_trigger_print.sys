@@ -1,2 +1,2 @@
-  fun print(self': NullablePointer[GtkShortcutTriggerT], string': NullablePointer[GStringT]): None =>
-    @gtk_shortcut_trigger_print(self', string')
+  fun print(self': GtkShortcutTriggerI, string': NullablePointer[GStringT]): None =>
+    @gtk_shortcut_trigger_print(self'.getptr(), string')

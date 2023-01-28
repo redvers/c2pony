@@ -1,2 +1,2 @@
-  fun set_heading(self': NullablePointer[GtkAppChooserDialogT], heading': String): None =>
-    @gtk_app_chooser_dialog_set_heading(self', heading'.cstring())
+  fun set_heading(self': GtkAppChooserDialogI, heading': String): None =>
+    @gtk_app_chooser_dialog_set_heading(self'.getptr(), heading'.cstring())

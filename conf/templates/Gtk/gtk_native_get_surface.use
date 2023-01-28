@@ -1,1 +1,1 @@
-use @gtk_native_get_surface[NullablePointer[GdkSurfaceT]](self': NullablePointer[GtkNativeT])
+use @gtk_native_get_surface[NullablePointer[GdkSurfaceT]](self': NullablePointer[GObjectT])

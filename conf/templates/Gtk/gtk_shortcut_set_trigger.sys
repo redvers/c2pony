@@ -1,2 +1,2 @@
-  fun set_trigger(self': NullablePointer[GtkShortcutT], trigger': NullablePointer[GtkShortcutTriggerT]): None =>
-    @gtk_shortcut_set_trigger(self', trigger')
+  fun set_trigger(self': GtkShortcutI, trigger': GtkShortcutTriggerI): None =>
+    @gtk_shortcut_set_trigger(self'.getptr(), trigger'.getptr())

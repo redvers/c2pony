@@ -1,1 +1,1 @@
-use @g_task_attach_source[None](task': NullablePointer[GTaskT], source': NullablePointer[GSourceT], callback': GSourceFunc)
+use @g_task_attach_source[None](task': NullablePointer[GObjectT], source': NullablePointer[GSourceT], callback': GSourceFunc)

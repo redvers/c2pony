@@ -1,2 +1,2 @@
-  fun ref apply_attributes(tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], is_expander': I32, is_expanded': I32): None =>
+  fun ref apply_attributes(tree_model': GtkTreeModelI, iter': NullablePointer[GtkTreeIterT], is_expander': I32, is_expanded': I32): None =>
     GtkCellAreaP.apply_attributes(this, tree_model', iter', is_expander', is_expanded')

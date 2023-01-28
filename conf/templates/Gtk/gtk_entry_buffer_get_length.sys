@@ -1,2 +1,2 @@
-  fun get_length(buffer': NullablePointer[GtkEntryBufferT]): U32 =>
-    @gtk_entry_buffer_get_length(buffer')
+  fun get_length(buffer': GtkEntryBufferI): U32 =>
+    @gtk_entry_buffer_get_length(buffer'.getptr())

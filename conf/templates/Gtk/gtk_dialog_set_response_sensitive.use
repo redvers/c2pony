@@ -1,1 +1,1 @@
-use @gtk_dialog_set_response_sensitive[None](dialog': NullablePointer[GtkDialogT], response_id': I32, setting': I32)
+use @gtk_dialog_set_response_sensitive[None](dialog': NullablePointer[GObjectT], response_id': I32, setting': I32)

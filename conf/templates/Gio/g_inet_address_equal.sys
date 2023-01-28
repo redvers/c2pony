@@ -1,2 +1,2 @@
-  fun equal(address': NullablePointer[GInetAddressT], other_address': NullablePointer[GInetAddressT]): I32 =>
-    @g_inet_address_equal(address', other_address')
+  fun equal(address': GInetAddressI, other_address': GInetAddressI): I32 =>
+    @g_inet_address_equal(address'.getptr(), other_address'.getptr())

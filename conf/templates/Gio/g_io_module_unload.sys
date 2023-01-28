@@ -1,2 +1,2 @@
-  fun unload(module': NullablePointer[GIOModuleT]): None =>
-    @g_io_module_unload(module')
+  fun unload(module': GIOModuleI): None =>
+    @g_io_module_unload(module'.getptr())

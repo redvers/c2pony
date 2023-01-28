@@ -1,2 +1,2 @@
-  fun set_connection(manager': NullablePointer[GDBusObjectManagerServerT], connection': NullablePointer[GDBusConnectionT]): None =>
-    @g_dbus_object_manager_server_set_connection(manager', connection')
+  fun set_connection(manager': GDBusObjectManagerServerI, connection': GDBusConnectionI): None =>
+    @g_dbus_object_manager_server_set_connection(manager'.getptr(), connection'.getptr())

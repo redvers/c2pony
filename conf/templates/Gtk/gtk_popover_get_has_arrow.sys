@@ -1,2 +1,2 @@
-  fun get_has_arrow(popover': NullablePointer[GtkPopoverT]): I32 =>
-    @gtk_popover_get_has_arrow(popover')
+  fun get_has_arrow(popover': GtkPopoverI): I32 =>
+    @gtk_popover_get_has_arrow(popover'.getptr())

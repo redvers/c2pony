@@ -1,2 +1,2 @@
-  fun ref get_filter(): NullablePointer[GtkFileFilterT] =>
+  fun ref get_filter(): NullablePointer[GObjectT] =>
     GtkFileChooserP.get_filter(this)

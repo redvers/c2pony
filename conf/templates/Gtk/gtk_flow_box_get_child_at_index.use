@@ -1,1 +1,1 @@
-use @gtk_flow_box_get_child_at_index[NullablePointer[GtkFlowBoxChildT]](box': NullablePointer[GtkFlowBoxT], idx': I32)
+use @gtk_flow_box_get_child_at_index[NullablePointer[GObjectT]](box': NullablePointer[GObjectT], idx': I32)

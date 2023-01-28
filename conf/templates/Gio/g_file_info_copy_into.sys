@@ -1,2 +1,2 @@
-  fun copy_into(src_info': NullablePointer[GFileInfoT], dest_info': NullablePointer[GFileInfoT]): None =>
-    @g_file_info_copy_into(src_info', dest_info')
+  fun copy_into(src_info': GFileInfoI, dest_info': GFileInfoI): None =>
+    @g_file_info_copy_into(src_info'.getptr(), dest_info'.getptr())

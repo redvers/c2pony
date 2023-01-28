@@ -1,1 +1,1 @@
-use @gtk_directory_list_get_monitored[I32](self': NullablePointer[GtkDirectoryListT])
+use @gtk_directory_list_get_monitored[I32](self': NullablePointer[GObjectT])

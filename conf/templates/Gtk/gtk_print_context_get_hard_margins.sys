@@ -1,2 +1,2 @@
-  fun get_hard_margins(context': NullablePointer[GtkPrintContextT], top': Pointer[F64] tag, bottom': Pointer[F64] tag, left': Pointer[F64] tag, right': Pointer[F64] tag): I32 =>
-    @gtk_print_context_get_hard_margins(context', top', bottom', left', right')
+  fun get_hard_margins(context': GtkPrintContextI, top': Pointer[F64] tag, bottom': Pointer[F64] tag, left': Pointer[F64] tag, right': Pointer[F64] tag): I32 =>
+    @gtk_print_context_get_hard_margins(context'.getptr(), top', bottom', left', right')

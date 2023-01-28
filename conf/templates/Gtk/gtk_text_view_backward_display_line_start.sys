@@ -1,2 +1,2 @@
-  fun backward_display_line_start(text_view': NullablePointer[GtkTextViewT], iter': NullablePointer[GtkTextIterT]): I32 =>
-    @gtk_text_view_backward_display_line_start(text_view', iter')
+  fun backward_display_line_start(text_view': GtkTextViewI, iter': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_view_backward_display_line_start(text_view'.getptr(), iter')

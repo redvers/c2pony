@@ -1,2 +1,2 @@
-  fun ref remove_constraint(constraint': NullablePointer[GtkConstraintT]): None =>
+  fun ref remove_constraint(constraint': GtkConstraintI): None =>
     GtkConstraintLayoutP.remove_constraint(this, constraint')

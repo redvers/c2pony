@@ -1,2 +1,2 @@
-  fun get_media_stream(controls': NullablePointer[GtkMediaControlsT]): NullablePointer[GtkMediaStreamT] =>
-    @gtk_media_controls_get_media_stream(controls')
+  fun get_media_stream(controls': GtkMediaControlsI): NullablePointer[GObjectT] =>
+@gtk_media_controls_get_media_stream(controls'.getptr())

@@ -1,2 +1,2 @@
-  fun set_scope(builder': GtkBuilderI, scope': NullablePointer[GtkBuilderScopeT]): None =>
-    @gtk_builder_set_scope(builder'.getptr(), scope')
+  fun set_scope(builder': GtkBuilderI, scope': GtkBuilderScopeI): None =>
+    @gtk_builder_set_scope(builder'.getptr(), scope'.getptr())

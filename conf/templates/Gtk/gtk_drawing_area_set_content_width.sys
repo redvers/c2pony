@@ -1,2 +1,2 @@
-  fun set_content_width(self': NullablePointer[GtkDrawingAreaT], width': I32): None =>
-    @gtk_drawing_area_set_content_width(self', width')
+  fun set_content_width(self': GtkDrawingAreaI, width': I32): None =>
+    @gtk_drawing_area_set_content_width(self'.getptr(), width')

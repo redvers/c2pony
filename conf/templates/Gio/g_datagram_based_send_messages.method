@@ -1,2 +1,2 @@
-  fun ref send_messages(messages': NullablePointer[GOutputMessageT], num_messages': U32, flags': I32, timeout': I64, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref send_messages(messages': NullablePointer[GOutputMessageT], num_messages': U32, flags': I32, timeout': I64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GDatagramBasedP.send_messages(this, messages', num_messages', flags', timeout', cancellable', error')

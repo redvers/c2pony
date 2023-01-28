@@ -1,1 +1,1 @@
-use @gtk_tree_view_convert_tree_to_widget_coords[None](tree_view': NullablePointer[GtkTreeViewT], tx': I32, ty': I32, wx': Pointer[I32] tag, wy': Pointer[I32] tag)
+use @gtk_tree_view_convert_tree_to_widget_coords[None](tree_view': NullablePointer[GObjectT], tx': I32, ty': I32, wx': Pointer[I32] tag, wy': Pointer[I32] tag)

@@ -1,1 +1,1 @@
-use @gtk_window_get_group[NullablePointer[GtkWindowGroupT]](window': NullablePointer[GObjectT])
+use @gtk_window_get_group[NullablePointer[GObjectT]](window': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun ref set_attributes_from_info(info': NullablePointer[GFileInfoT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref set_attributes_from_info(info': GFileInfoI, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.set_attributes_from_info(this, info', flags', cancellable', error')

@@ -1,2 +1,2 @@
-  fun ref delete_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+  fun ref delete_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.delete_finish(this, result', error')

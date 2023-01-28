@@ -1,1 +1,1 @@
-use @gtk_widget_get_native[NullablePointer[GtkNativeT]](widget': NullablePointer[GObjectT])
+use @gtk_widget_get_native[NullablePointer[GObjectT]](widget': NullablePointer[GObjectT])

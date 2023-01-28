@@ -1,2 +1,2 @@
-  fun set_icon_from_gicon(tooltip': NullablePointer[GtkTooltipT], gicon': NullablePointer[GIconT]): None =>
-    @gtk_tooltip_set_icon_from_gicon(tooltip', gicon')
+  fun set_icon_from_gicon(tooltip': GtkTooltipI, gicon': GIconI): None =>
+    @gtk_tooltip_set_icon_from_gicon(tooltip'.getptr(), gicon'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_print_settings_set_page_ranges[None](settings': NullablePointer[GtkPrintSettingsT], page_ranges': NullablePointer[GtkPageRangeT], num_ranges': I32)
+use @gtk_print_settings_set_page_ranges[None](settings': NullablePointer[GObjectT], page_ranges': NullablePointer[GtkPageRangeT], num_ranges': I32)

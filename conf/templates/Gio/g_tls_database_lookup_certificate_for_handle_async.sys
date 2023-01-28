@@ -1,2 +1,2 @@
-  fun lookup_certificate_for_handle_async(self': NullablePointer[GTlsDatabaseT], handle': String, interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_tls_database_lookup_certificate_for_handle_async(self', handle'.cstring(), interaction', flags', cancellable', callback', user_data')
+  fun lookup_certificate_for_handle_async(self': GTlsDatabaseI, handle': String, interaction': GTlsInteractionI, flags': U32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_tls_database_lookup_certificate_for_handle_async(self'.getptr(), handle'.cstring(), interaction'.getptr(), flags', cancellable'.getptr(), callback', user_data')

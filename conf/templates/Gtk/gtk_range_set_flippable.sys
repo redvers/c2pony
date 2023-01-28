@@ -1,2 +1,2 @@
-  fun set_flippable(range': NullablePointer[GtkRangeT], flippable': I32): None =>
-    @gtk_range_set_flippable(range', flippable')
+  fun set_flippable(range': GtkRangeI, flippable': I32): None =>
+    @gtk_range_set_flippable(range'.getptr(), flippable')

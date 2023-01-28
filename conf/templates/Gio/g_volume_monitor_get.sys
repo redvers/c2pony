@@ -1,2 +1,2 @@
-  fun get(): NullablePointer[GVolumeMonitorT] =>
-    @g_volume_monitor_get()
+  fun get(): NullablePointer[GObjectT] =>
+@g_volume_monitor_get()

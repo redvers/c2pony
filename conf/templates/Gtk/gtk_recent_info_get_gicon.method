@@ -1,2 +1,2 @@
-  fun ref get_gicon(): NullablePointer[GIconT] =>
+  fun ref get_gicon(): NullablePointer[GObjectT] =>
     GtkRecentInfoP.get_gicon(ptr)

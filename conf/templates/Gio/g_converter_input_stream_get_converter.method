@@ -1,2 +1,2 @@
-  fun ref get_converter(): NullablePointer[GConverterT] =>
+  fun ref get_converter(): NullablePointer[GObjectT] =>
     GConverterInputStreamP.get_converter(this)

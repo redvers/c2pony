@@ -1,2 +1,2 @@
-  fun delete_selection(editable': NullablePointer[GtkEditableT]): None =>
-    @gtk_editable_delete_selection(editable')
+  fun delete_selection(editable': GtkEditableI): None =>
+    @gtk_editable_delete_selection(editable'.getptr())

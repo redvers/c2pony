@@ -1,2 +1,2 @@
-  fun set_inline_completion(completion': NullablePointer[GtkEntryCompletionT], inline_completion': I32): None =>
-    @gtk_entry_completion_set_inline_completion(completion', inline_completion')
+  fun set_inline_completion(completion': GtkEntryCompletionI, inline_completion': I32): None =>
+    @gtk_entry_completion_set_inline_completion(completion'.getptr(), inline_completion')

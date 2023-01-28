@@ -1,2 +1,2 @@
-  fun mount_enclosing_volume_finish(location': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_file_mount_enclosing_volume_finish(location', result', error'.ptr)
+  fun mount_enclosing_volume_finish(location': GFileI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_mount_enclosing_volume_finish(location'.getptr(), result'.getptr(), error')

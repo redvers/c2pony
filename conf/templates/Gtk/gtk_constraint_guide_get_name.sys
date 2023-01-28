@@ -1,2 +1,2 @@
-  fun get_name(guide': NullablePointer[GtkConstraintGuideT]): String iso^ =>
-    String.from_cstring(@gtk_constraint_guide_get_name(guide')).clone()
+  fun get_name(guide': GtkConstraintGuideI): String iso^ =>
+    String.from_cstring(@gtk_constraint_guide_get_name(guide'.getptr())).clone()

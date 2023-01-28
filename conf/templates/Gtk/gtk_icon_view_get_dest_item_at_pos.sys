@@ -1,2 +1,2 @@
-  fun get_dest_item_at_pos(icon_view': NullablePointer[GtkIconViewT], drag_x': I32, drag_y': I32, path': Pointer[NullablePointer[GtkTreePathT]], pos': Pointer[U32] tag): I32 =>
-    @gtk_icon_view_get_dest_item_at_pos(icon_view', drag_x', drag_y', path', pos')
+  fun get_dest_item_at_pos(icon_view': GtkIconViewI, drag_x': I32, drag_y': I32, path': Pointer[NullablePointer[GtkTreePathT]], pos': Pointer[U32] tag): I32 =>
+    @gtk_icon_view_get_dest_item_at_pos(icon_view'.getptr(), drag_x', drag_y', path', pos')

@@ -1,1 +1,1 @@
-use @gtk_text_tag_table_new[NullablePointer[GtkTextTagTableT]]()
+use @gtk_text_tag_table_new[NullablePointer[GObjectT]]()

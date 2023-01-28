@@ -1,1 +1,1 @@
-use @gtk_progress_bar_set_pulse_step[None](pbar': NullablePointer[GtkProgressBarT], fraction': F64)
+use @gtk_progress_bar_set_pulse_step[None](pbar': NullablePointer[GObjectT], fraction': F64)

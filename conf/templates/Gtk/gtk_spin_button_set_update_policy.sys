@@ -1,2 +1,2 @@
-  fun set_update_policy(spin_button': NullablePointer[GtkSpinButtonT], policy': U32): None =>
-    @gtk_spin_button_set_update_policy(spin_button', policy')
+  fun set_update_policy(spin_button': GtkSpinButtonI, policy': U32): None =>
+    @gtk_spin_button_set_update_policy(spin_button'.getptr(), policy')

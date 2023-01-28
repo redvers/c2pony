@@ -1,2 +1,2 @@
-  fun send_to(socket': NullablePointer[GSocketT], address': NullablePointer[GSocketAddressT], buffer': String, size': U64, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
-    @g_socket_send_to(socket', address', buffer'.cstring(), size', cancellable', error'.ptr)
+  fun send_to(socket': GSocketI, address': GSocketAddressI, buffer': String, size': U64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_socket_send_to(socket'.getptr(), address'.getptr(), buffer'.cstring(), size', cancellable'.getptr(), error')

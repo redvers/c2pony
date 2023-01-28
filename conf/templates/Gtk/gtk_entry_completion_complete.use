@@ -1,1 +1,1 @@
-use @gtk_entry_completion_complete[None](completion': NullablePointer[GtkEntryCompletionT])
+use @gtk_entry_completion_complete[None](completion': NullablePointer[GObjectT])

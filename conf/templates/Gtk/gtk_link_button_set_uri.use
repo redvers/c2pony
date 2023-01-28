@@ -1,1 +1,1 @@
-use @gtk_link_button_set_uri[None](link_button': NullablePointer[GtkLinkButtonT], uri': Pointer[U8] tag)
+use @gtk_link_button_set_uri[None](link_button': NullablePointer[GObjectT], uri': Pointer[U8] tag)

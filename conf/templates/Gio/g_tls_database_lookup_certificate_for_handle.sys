@@ -1,2 +1,2 @@
-  fun lookup_certificate_for_handle(self': NullablePointer[GTlsDatabaseT], handle': String, interaction': NullablePointer[GTlsInteractionT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GTlsCertificateT] =>
-    @g_tls_database_lookup_certificate_for_handle(self', handle'.cstring(), interaction', flags', cancellable', error'.ptr)
+  fun lookup_certificate_for_handle(self': GTlsDatabaseI, handle': String, interaction': GTlsInteractionI, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_tls_database_lookup_certificate_for_handle(self'.getptr(), handle'.cstring(), interaction'.getptr(), flags', cancellable'.getptr(), error')

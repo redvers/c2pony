@@ -1,2 +1,2 @@
-  fun proxy_enumerate(connectable': NullablePointer[GSocketConnectableT]): NullablePointer[GSocketAddressEnumeratorT] =>
-    @g_socket_connectable_proxy_enumerate(connectable')
+  fun proxy_enumerate(connectable': GSocketConnectableI): NullablePointer[GObjectT] =>
+@g_socket_connectable_proxy_enumerate(connectable'.getptr())

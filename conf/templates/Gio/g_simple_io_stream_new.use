@@ -1,1 +1,1 @@
-use @g_simple_io_stream_new[NullablePointer[GIOStreamT]](input_stream': NullablePointer[GInputStreamT], output_stream': NullablePointer[GOutputStreamT])
+use @g_simple_io_stream_new[NullablePointer[GObjectT]](input_stream': NullablePointer[GObjectT], output_stream': NullablePointer[GObjectT])

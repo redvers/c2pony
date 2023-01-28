@@ -1,1 +1,1 @@
-use @gtk_accessible_reset_property[None](self': NullablePointer[GtkAccessibleT], property': U32)
+use @gtk_accessible_reset_property[None](self': NullablePointer[GObjectT], property': U32)

@@ -1,1 +1,1 @@
-use @g_tls_backend_get_dtls_server_connection_type[U64](backend': NullablePointer[GTlsBackendT])
+use @g_tls_backend_get_dtls_server_connection_type[U64](backend': NullablePointer[GObjectT])

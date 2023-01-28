@@ -1,2 +1,2 @@
-  fun get_child(overlay': NullablePointer[GtkOverlayT]): NullablePointer[GObjectT] =>
-@gtk_overlay_get_child(overlay')
+  fun get_child(overlay': GtkOverlayI): NullablePointer[GObjectT] =>
+@gtk_overlay_get_child(overlay'.getptr())

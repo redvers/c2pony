@@ -1,2 +1,2 @@
-  fun ref call_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GVariantT] =>
+  fun ref call_finish(res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GVariantT] =>
     GDBusConnectionP.call_finish(this, res', error')

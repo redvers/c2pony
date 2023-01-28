@@ -1,1 +1,1 @@
-use @g_property_action_new[NullablePointer[GPropertyActionT]](name': Pointer[U8] tag, object': Pointer[None] tag, property_name': Pointer[U8] tag)
+use @g_property_action_new[NullablePointer[GObjectT]](name': Pointer[U8] tag, object': Pointer[None] tag, property_name': Pointer[U8] tag)

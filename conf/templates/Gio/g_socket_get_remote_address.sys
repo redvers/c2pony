@@ -1,2 +1,2 @@
-  fun get_remote_address(socket': NullablePointer[GSocketT], error': GError): NullablePointer[GSocketAddressT] =>
-    @g_socket_get_remote_address(socket', error'.ptr)
+  fun get_remote_address(socket': GSocketI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_socket_get_remote_address(socket'.getptr(), error')

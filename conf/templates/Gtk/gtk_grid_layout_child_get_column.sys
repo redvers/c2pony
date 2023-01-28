@@ -1,2 +1,2 @@
-  fun get_column(child': NullablePointer[GtkGridLayoutChildT]): I32 =>
-    @gtk_grid_layout_child_get_column(child')
+  fun get_column(child': GtkGridLayoutChildI): I32 =>
+    @gtk_grid_layout_child_get_column(child'.getptr())

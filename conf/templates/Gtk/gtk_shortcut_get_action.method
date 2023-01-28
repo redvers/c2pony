@@ -1,2 +1,2 @@
-  fun ref get_action(): NullablePointer[GtkShortcutActionT] =>
+  fun ref get_action(): NullablePointer[GObjectT] =>
     GtkShortcutP.get_action(this)

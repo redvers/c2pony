@@ -1,2 +1,2 @@
-  fun get_tooltip_column(tree_view': NullablePointer[GtkTreeViewT]): I32 =>
-    @gtk_tree_view_get_tooltip_column(tree_view')
+  fun get_tooltip_column(tree_view': GtkTreeViewI): I32 =>
+    @gtk_tree_view_get_tooltip_column(tree_view'.getptr())

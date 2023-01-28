@@ -1,1 +1,1 @@
-use @gtk_entry_set_icon_drag_source[None](entry': NullablePointer[GtkEntryT], icon_pos': U32, provider': NullablePointer[GdkContentProviderT], actions': U32)
+use @gtk_entry_set_icon_drag_source[None](entry': NullablePointer[GObjectT], icon_pos': U32, provider': NullablePointer[GdkContentProviderT], actions': U32)

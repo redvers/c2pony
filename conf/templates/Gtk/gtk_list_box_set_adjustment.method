@@ -1,2 +1,2 @@
-  fun ref set_adjustment(adjustment': NullablePointer[GtkAdjustmentT]): None =>
+  fun ref set_adjustment(adjustment': GtkAdjustmentI): None =>
     GtkListBoxP.set_adjustment(this, adjustment')

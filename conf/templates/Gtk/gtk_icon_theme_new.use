@@ -1,1 +1,1 @@
-use @gtk_icon_theme_new[NullablePointer[GtkIconThemeT]]()
+use @gtk_icon_theme_new[NullablePointer[GObjectT]]()

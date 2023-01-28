@@ -1,2 +1,2 @@
-  fun get_model(combo_box': NullablePointer[GtkComboBoxT]): NullablePointer[GtkTreeModelT] =>
-    @gtk_combo_box_get_model(combo_box')
+  fun get_model(combo_box': GtkComboBoxI): NullablePointer[GObjectT] =>
+@gtk_combo_box_get_model(combo_box'.getptr())

@@ -1,1 +1,1 @@
-use @g_settings_set_uint[I32](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, value': U32)
+use @g_settings_set_uint[I32](settings': NullablePointer[GObjectT], key': Pointer[U8] tag, value': U32)

@@ -1,1 +1,1 @@
-use @gtk_im_multicontext_get_context_id[Pointer[U8]](context': NullablePointer[GtkIMMulticontextT])
+use @gtk_im_multicontext_get_context_id[Pointer[U8]](context': NullablePointer[GObjectT])

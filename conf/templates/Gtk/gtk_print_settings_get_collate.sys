@@ -1,2 +1,2 @@
-  fun get_collate(settings': NullablePointer[GtkPrintSettingsT]): I32 =>
-    @gtk_print_settings_get_collate(settings')
+  fun get_collate(settings': GtkPrintSettingsI): I32 =>
+    @gtk_print_settings_get_collate(settings'.getptr())

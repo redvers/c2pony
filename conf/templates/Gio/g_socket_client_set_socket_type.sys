@@ -1,2 +1,2 @@
-  fun set_socket_type(client': NullablePointer[GSocketClientT], type': U32): None =>
-    @g_socket_client_set_socket_type(client', type')
+  fun set_socket_type(client': GSocketClientI, type': U32): None =>
+    @g_socket_client_set_socket_type(client'.getptr(), type')

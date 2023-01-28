@@ -1,1 +1,1 @@
-use @gtk_print_operation_set_job_name[None](op': NullablePointer[GtkPrintOperationT], job_name': Pointer[U8] tag)
+use @gtk_print_operation_set_job_name[None](op': NullablePointer[GObjectT], job_name': Pointer[U8] tag)

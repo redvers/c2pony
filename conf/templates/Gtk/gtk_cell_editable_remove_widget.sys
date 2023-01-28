@@ -1,2 +1,2 @@
-  fun remove_widget(cell_editable': NullablePointer[GtkCellEditableT]): None =>
-    @gtk_cell_editable_remove_widget(cell_editable')
+  fun remove_widget(cell_editable': GtkCellEditableI): None =>
+    @gtk_cell_editable_remove_widget(cell_editable'.getptr())

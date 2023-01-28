@@ -1,2 +1,2 @@
-  fun has_pending(stream': NullablePointer[GOutputStreamT]): I32 =>
-    @g_output_stream_has_pending(stream')
+  fun has_pending(stream': GOutputStreamI): I32 =>
+    @g_output_stream_has_pending(stream'.getptr())

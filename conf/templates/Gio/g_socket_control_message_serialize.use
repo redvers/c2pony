@@ -1,1 +1,1 @@
-use @g_socket_control_message_serialize[None](message': NullablePointer[GSocketControlMessageT], data': Pointer[None] tag)
+use @g_socket_control_message_serialize[None](message': NullablePointer[GObjectT], data': Pointer[None] tag)

@@ -1,1 +1,1 @@
-use @gtk_tree_view_set_cursor[None](tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], focus_column': NullablePointer[GtkTreeViewColumnT], start_editing': I32)
+use @gtk_tree_view_set_cursor[None](tree_view': NullablePointer[GObjectT], path': NullablePointer[GtkTreePathT], focus_column': NullablePointer[GObjectT], start_editing': I32)

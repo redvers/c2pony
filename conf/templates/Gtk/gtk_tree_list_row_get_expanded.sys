@@ -1,2 +1,2 @@
-  fun get_expanded(self': NullablePointer[GtkTreeListRowT]): I32 =>
-    @gtk_tree_list_row_get_expanded(self')
+  fun get_expanded(self': GtkTreeListRowI): I32 =>
+    @gtk_tree_list_row_get_expanded(self'.getptr())

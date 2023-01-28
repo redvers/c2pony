@@ -1,1 +1,1 @@
-use @g_socket_connectable_enumerate[NullablePointer[GSocketAddressEnumeratorT]](connectable': NullablePointer[GSocketConnectableT])
+use @g_socket_connectable_enumerate[NullablePointer[GObjectT]](connectable': NullablePointer[GObjectT])

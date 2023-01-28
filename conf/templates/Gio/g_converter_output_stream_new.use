@@ -1,1 +1,1 @@
-use @g_converter_output_stream_new[NullablePointer[GOutputStreamT]](base_stream': NullablePointer[GOutputStreamT], converter': NullablePointer[GConverterT])
+use @g_converter_output_stream_new[NullablePointer[GObjectT]](base_stream': NullablePointer[GObjectT], converter': NullablePointer[GObjectT])

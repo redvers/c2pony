@@ -1,2 +1,2 @@
-  fun get_interaction(conn': NullablePointer[GTlsConnectionT]): NullablePointer[GTlsInteractionT] =>
-    @g_tls_connection_get_interaction(conn')
+  fun get_interaction(conn': GTlsConnectionI): NullablePointer[GObjectT] =>
+@g_tls_connection_get_interaction(conn'.getptr())

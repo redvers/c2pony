@@ -1,2 +1,2 @@
-  fun ref connect_to_host(host_and_port': String, default_port': U16, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GSocketConnectionT] =>
+  fun ref connect_to_host(host_and_port': String, default_port': U16, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GSocketClientP.connect_to_host(this, host_and_port', default_port', cancellable', error')

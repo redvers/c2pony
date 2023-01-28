@@ -1,1 +1,1 @@
-use @gtk_event_controller_key_forward[I32](controller': NullablePointer[GtkEventControllerKeyT], widget': NullablePointer[GObjectT])
+use @gtk_event_controller_key_forward[I32](controller': NullablePointer[GObjectT], widget': NullablePointer[GObjectT])

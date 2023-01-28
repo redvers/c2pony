@@ -1,2 +1,2 @@
-  fun get_column_spacing(box': NullablePointer[GtkFlowBoxT]): U32 =>
-    @gtk_flow_box_get_column_spacing(box')
+  fun get_column_spacing(box': GtkFlowBoxI): U32 =>
+    @gtk_flow_box_get_column_spacing(box'.getptr())

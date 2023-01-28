@@ -1,2 +1,2 @@
-  fun get_show_arrow(self': NullablePointer[GtkDropDownT]): I32 =>
-    @gtk_drop_down_get_show_arrow(self')
+  fun get_show_arrow(self': GtkDropDownI): I32 =>
+    @gtk_drop_down_get_show_arrow(self'.getptr())

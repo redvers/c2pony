@@ -1,1 +1,1 @@
-use @gtk_combo_box_get_model[NullablePointer[GtkTreeModelT]](combo_box': NullablePointer[GtkComboBoxT])
+use @gtk_combo_box_get_model[NullablePointer[GObjectT]](combo_box': NullablePointer[GObjectT])

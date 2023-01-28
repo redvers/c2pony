@@ -1,1 +1,1 @@
-use @gtk_entry_set_input_purpose[None](entry': NullablePointer[GtkEntryT], purpose': U32)
+use @gtk_entry_set_input_purpose[None](entry': NullablePointer[GObjectT], purpose': U32)

@@ -1,2 +1,2 @@
-  fun get_fill_level(range': NullablePointer[GtkRangeT]): F64 =>
-    @gtk_range_get_fill_level(range')
+  fun get_fill_level(range': GtkRangeI): F64 =>
+    @gtk_range_get_fill_level(range'.getptr())

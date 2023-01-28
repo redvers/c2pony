@@ -1,1 +1,1 @@
-use @g_file_query_filesystem_info[NullablePointer[GFileInfoT]](file': NullablePointer[GFileT], attributes': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_query_filesystem_info[NullablePointer[GObjectT]](file': NullablePointer[GObjectT], attributes': Pointer[U8] tag, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

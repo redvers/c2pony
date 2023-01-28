@@ -1,2 +1,2 @@
-  fun enumerate_children(file': NullablePointer[GFileT], attributes': String, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileEnumeratorT] =>
-    @g_file_enumerate_children(file', attributes'.cstring(), flags', cancellable', error'.ptr)
+  fun enumerate_children(file': GFileI, attributes': String, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_enumerate_children(file'.getptr(), attributes'.cstring(), flags', cancellable'.getptr(), error')

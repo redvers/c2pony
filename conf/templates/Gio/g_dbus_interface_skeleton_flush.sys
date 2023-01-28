@@ -1,2 +1,2 @@
-  fun flush(interface': NullablePointer[GDBusInterfaceSkeletonT]): None =>
-    @g_dbus_interface_skeleton_flush(interface')
+  fun flush(interface': GDBusInterfaceSkeletonI): None =>
+    @g_dbus_interface_skeleton_flush(interface'.getptr())

@@ -1,2 +1,2 @@
-  fun get_visible(self': NullablePointer[GtkColumnViewColumnT]): I32 =>
-    @gtk_column_view_column_get_visible(self')
+  fun get_visible(self': GtkColumnViewColumnI): I32 =>
+    @gtk_column_view_column_get_visible(self'.getptr())

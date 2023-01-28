@@ -1,2 +1,2 @@
-  fun ascii_string_to_unsigned(str': String, base': U32, min': U64, max': U64, out_num': Pointer[U64] tag, error': GError): I32 =>
-    @g_ascii_string_to_unsigned(str'.cstring(), base', min', max', out_num', error'.ptr)
+  fun ascii_string_to_unsigned(str': String, base': U32, min': U64, max': U64, out_num': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_ascii_string_to_unsigned(str'.cstring(), base', min', max', out_num', error')

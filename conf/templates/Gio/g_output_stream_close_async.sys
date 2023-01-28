@@ -1,2 +1,2 @@
-  fun close_async(stream': NullablePointer[GOutputStreamT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_output_stream_close_async(stream', io_priority', cancellable', callback', user_data')
+  fun close_async(stream': GOutputStreamI, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_output_stream_close_async(stream'.getptr(), io_priority', cancellable'.getptr(), callback', user_data')

@@ -1,2 +1,2 @@
-  fun get_double(settings': NullablePointer[GtkPrintSettingsT], key': String): F64 =>
-    @gtk_print_settings_get_double(settings', key'.cstring())
+  fun get_double(settings': GtkPrintSettingsI, key': String): F64 =>
+    @gtk_print_settings_get_double(settings'.getptr(), key'.cstring())

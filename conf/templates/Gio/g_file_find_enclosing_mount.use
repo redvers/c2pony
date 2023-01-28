@@ -1,1 +1,1 @@
-use @g_file_find_enclosing_mount[NullablePointer[GMountT]](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_find_enclosing_mount[NullablePointer[GObjectT]](file': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @gtk_button_set_use_underline[None](button': NullablePointer[GtkButtonT], use_underline': I32)
+use @gtk_button_set_use_underline[None](button': NullablePointer[GObjectT], use_underline': I32)

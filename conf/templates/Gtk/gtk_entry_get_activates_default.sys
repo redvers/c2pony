@@ -1,2 +1,2 @@
-  fun get_activates_default(entry': NullablePointer[GtkEntryT]): I32 =>
-    @gtk_entry_get_activates_default(entry')
+  fun get_activates_default(entry': GtkEntryI): I32 =>
+    @gtk_entry_get_activates_default(entry'.getptr())

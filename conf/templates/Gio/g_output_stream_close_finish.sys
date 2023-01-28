@@ -1,2 +1,2 @@
-  fun close_finish(stream': NullablePointer[GOutputStreamT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_output_stream_close_finish(stream', result', error'.ptr)
+  fun close_finish(stream': GOutputStreamI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_output_stream_close_finish(stream'.getptr(), result'.getptr(), error')

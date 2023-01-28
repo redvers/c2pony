@@ -1,2 +1,2 @@
-  fun get_stdin_pipe(subprocess': NullablePointer[GSubprocessT]): NullablePointer[GOutputStreamT] =>
-    @g_subprocess_get_stdin_pipe(subprocess')
+  fun get_stdin_pipe(subprocess': GSubprocessI): NullablePointer[GObjectT] =>
+@g_subprocess_get_stdin_pipe(subprocess'.getptr())

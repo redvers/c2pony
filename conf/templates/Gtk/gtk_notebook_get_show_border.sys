@@ -1,2 +1,2 @@
-  fun get_show_border(notebook': NullablePointer[GtkNotebookT]): I32 =>
-    @gtk_notebook_get_show_border(notebook')
+  fun get_show_border(notebook': GtkNotebookI): I32 =>
+    @gtk_notebook_get_show_border(notebook'.getptr())

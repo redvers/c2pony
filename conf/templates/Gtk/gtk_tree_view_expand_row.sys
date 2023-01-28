@@ -1,2 +1,2 @@
-  fun expand_row(tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], open_all': I32): I32 =>
-    @gtk_tree_view_expand_row(tree_view', path', open_all')
+  fun expand_row(tree_view': GtkTreeViewI, path': NullablePointer[GtkTreePathT], open_all': I32): I32 =>
+    @gtk_tree_view_expand_row(tree_view'.getptr(), path', open_all')

@@ -1,1 +1,1 @@
-use @g_async_result_legacy_propagate_error[I32](res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_async_result_legacy_propagate_error[I32](res': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

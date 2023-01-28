@@ -1,2 +1,2 @@
-  fun set_header(row': NullablePointer[GtkListBoxRowT], header': GtkWidgetI): None =>
-    @gtk_list_box_row_set_header(row', header'.getptr())
+  fun set_header(row': GtkListBoxRowI, header': GtkWidgetI): None =>
+    @gtk_list_box_row_set_header(row'.getptr(), header'.getptr())

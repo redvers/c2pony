@@ -1,2 +1,2 @@
-  fun set_overwrite(text_view': NullablePointer[GtkTextViewT], overwrite': I32): None =>
-    @gtk_text_view_set_overwrite(text_view', overwrite')
+  fun set_overwrite(text_view': GtkTextViewI, overwrite': I32): None =>
+    @gtk_text_view_set_overwrite(text_view'.getptr(), overwrite')

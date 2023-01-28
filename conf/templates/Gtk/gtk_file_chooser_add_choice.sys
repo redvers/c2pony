@@ -1,2 +1,2 @@
-  fun add_choice(chooser': NullablePointer[GtkFileChooserT], id': String, label': String, options': Pointer[Pointer[U8]] tag, option_labels': Pointer[Pointer[U8]] tag): None =>
-    @gtk_file_chooser_add_choice(chooser', id'.cstring(), label'.cstring(), options', option_labels')
+  fun add_choice(chooser': GtkFileChooserI, id': String, label': String, options': Pointer[Pointer[U8]] tag, option_labels': Pointer[Pointer[U8]] tag): None =>
+    @gtk_file_chooser_add_choice(chooser'.getptr(), id'.cstring(), label'.cstring(), options', option_labels')

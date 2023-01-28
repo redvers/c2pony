@@ -1,2 +1,2 @@
-  fun set_title_widget(bar': NullablePointer[GtkHeaderBarT], title_widget': GtkWidgetI): None =>
-    @gtk_header_bar_set_title_widget(bar', title_widget'.getptr())
+  fun set_title_widget(bar': GtkHeaderBarI, title_widget': GtkWidgetI): None =>
+    @gtk_header_bar_set_title_widget(bar'.getptr(), title_widget'.getptr())

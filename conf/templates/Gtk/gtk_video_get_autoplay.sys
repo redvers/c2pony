@@ -1,2 +1,2 @@
-  fun get_autoplay(self': NullablePointer[GtkVideoT]): I32 =>
-    @gtk_video_get_autoplay(self')
+  fun get_autoplay(self': GtkVideoI): I32 =>
+    @gtk_video_get_autoplay(self'.getptr())

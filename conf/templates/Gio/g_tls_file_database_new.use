@@ -1,1 +1,1 @@
-use @g_tls_file_database_new[NullablePointer[GTlsDatabaseT]](anchors': Pointer[U8] tag, error': NullablePointer[GErrorT])
+use @g_tls_file_database_new[NullablePointer[GObjectT]](anchors': Pointer[U8] tag, error': Pointer[NullablePointer[GErrorT]])

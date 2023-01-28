@@ -1,2 +1,2 @@
-  fun set_increments(range': NullablePointer[GtkRangeT], step': F64, page': F64): None =>
-    @gtk_range_set_increments(range', step', page')
+  fun set_increments(range': GtkRangeI, step': F64, page': F64): None =>
+    @gtk_range_set_increments(range'.getptr(), step', page')

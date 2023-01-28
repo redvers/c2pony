@@ -1,2 +1,2 @@
-  fun set_value(spin_button': NullablePointer[GtkSpinButtonT], value': F64): None =>
-    @gtk_spin_button_set_value(spin_button', value')
+  fun set_value(spin_button': GtkSpinButtonI, value': F64): None =>
+    @gtk_spin_button_set_value(spin_button'.getptr(), value')

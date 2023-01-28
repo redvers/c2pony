@@ -1,2 +1,2 @@
-  fun insert(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], text': String, len': I32): None =>
-    @gtk_text_buffer_insert(buffer', iter', text'.cstring(), len')
+  fun insert(buffer': GtkTextBufferI, iter': NullablePointer[GtkTextIterT], text': String, len': I32): None =>
+    @gtk_text_buffer_insert(buffer'.getptr(), iter', text'.cstring(), len')

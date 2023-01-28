@@ -1,1 +1,1 @@
-use @gtk_progress_bar_get_text[Pointer[U8]](pbar': NullablePointer[GtkProgressBarT])
+use @gtk_progress_bar_get_text[Pointer[U8]](pbar': NullablePointer[GObjectT])

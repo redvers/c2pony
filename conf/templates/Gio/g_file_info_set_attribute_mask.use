@@ -1,1 +1,1 @@
-use @g_file_info_set_attribute_mask[None](info': NullablePointer[GFileInfoT], mask': NullablePointer[GFileAttributeMatcherT])
+use @g_file_info_set_attribute_mask[None](info': NullablePointer[GObjectT], mask': NullablePointer[GFileAttributeMatcherT])

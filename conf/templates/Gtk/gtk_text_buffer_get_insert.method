@@ -1,2 +1,2 @@
-  fun ref get_insert(): NullablePointer[GtkTextMarkT] =>
+  fun ref get_insert(): NullablePointer[GObjectT] =>
     GtkTextBufferP.get_insert(this)

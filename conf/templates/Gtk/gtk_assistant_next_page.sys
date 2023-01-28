@@ -1,2 +1,2 @@
-  fun next_page(assistant': NullablePointer[GtkAssistantT]): None =>
-    @gtk_assistant_next_page(assistant')
+  fun next_page(assistant': GtkAssistantI): None =>
+    @gtk_assistant_next_page(assistant'.getptr())

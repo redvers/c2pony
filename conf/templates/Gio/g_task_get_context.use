@@ -1,1 +1,1 @@
-use @g_task_get_context[NullablePointer[GMainContextT]](task': NullablePointer[GTaskT])
+use @g_task_get_context[NullablePointer[GMainContextT]](task': NullablePointer[GObjectT])

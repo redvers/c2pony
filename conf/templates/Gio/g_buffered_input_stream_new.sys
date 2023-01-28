@@ -1,2 +1,2 @@
-  new gnew(base_stream': NullablePointer[GInputStreamT]) =>
-    ptr = @g_buffered_input_stream_new(base_stream')
+  new gnew(base_stream': GInputStreamI) =>
+    ptr = @g_buffered_input_stream_new(base_stream'.getptr())

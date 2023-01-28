@@ -1,2 +1,2 @@
-  fun ref set_tooltip_cell(tooltip': NullablePointer[GtkTooltipT], path': NullablePointer[GtkTreePathT], column': NullablePointer[GtkTreeViewColumnT], cell': NullablePointer[GtkCellRendererT]): None =>
+  fun ref set_tooltip_cell(tooltip': GtkTooltipI, path': NullablePointer[GtkTreePathT], column': GtkTreeViewColumnI, cell': GtkCellRendererI): None =>
     GtkTreeViewP.set_tooltip_cell(this, tooltip', path', column', cell')

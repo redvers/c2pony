@@ -1,1 +1,1 @@
-use @gtk_application_window_set_help_overlay[None](window': NullablePointer[GtkApplicationWindowT], help_overlay': NullablePointer[GtkShortcutsWindowT])
+use @gtk_application_window_set_help_overlay[None](window': NullablePointer[GObjectT], help_overlay': NullablePointer[GObjectT])

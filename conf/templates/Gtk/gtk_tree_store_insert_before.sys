@@ -1,2 +1,2 @@
-  fun insert_before(tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT], sibling': NullablePointer[GtkTreeIterT]): None =>
-    @gtk_tree_store_insert_before(tree_store', iter', parent', sibling')
+  fun insert_before(tree_store': GtkTreeStoreI, iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT], sibling': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_store_insert_before(tree_store'.getptr(), iter', parent', sibling')

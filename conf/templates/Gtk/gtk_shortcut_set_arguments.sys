@@ -1,2 +1,2 @@
-  fun set_arguments(self': NullablePointer[GtkShortcutT], args': NullablePointer[GVariantT]): None =>
-    @gtk_shortcut_set_arguments(self', args')
+  fun set_arguments(self': GtkShortcutI, args': NullablePointer[GVariantT]): None =>
+    @gtk_shortcut_set_arguments(self'.getptr(), args')

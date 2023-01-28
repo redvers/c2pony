@@ -1,2 +1,2 @@
-  fun get_connection(proxy': NullablePointer[GDBusObjectProxyT]): NullablePointer[GDBusConnectionT] =>
-    @g_dbus_object_proxy_get_connection(proxy')
+  fun get_connection(proxy': GDBusObjectProxyI): NullablePointer[GObjectT] =>
+@g_dbus_object_proxy_get_connection(proxy'.getptr())

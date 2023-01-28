@@ -1,2 +1,2 @@
-  fun set_editable(text_view': NullablePointer[GtkTextViewT], setting': I32): None =>
-    @gtk_text_view_set_editable(text_view', setting')
+  fun set_editable(text_view': GtkTextViewI, setting': I32): None =>
+    @gtk_text_view_set_editable(text_view'.getptr(), setting')

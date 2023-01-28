@@ -1,2 +1,2 @@
-  fun get_value(button': NullablePointer[GtkScaleButtonT]): F64 =>
-    @gtk_scale_button_get_value(button')
+  fun get_value(button': GtkScaleButtonI): F64 =>
+    @gtk_scale_button_get_value(button'.getptr())

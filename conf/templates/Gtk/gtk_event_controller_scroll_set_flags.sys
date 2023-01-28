@@ -1,2 +1,2 @@
-  fun set_flags(scroll': NullablePointer[GtkEventControllerScrollT], flags': U32): None =>
-    @gtk_event_controller_scroll_set_flags(scroll', flags')
+  fun set_flags(scroll': GtkEventControllerScrollI, flags': U32): None =>
+    @gtk_event_controller_scroll_set_flags(scroll'.getptr(), flags')

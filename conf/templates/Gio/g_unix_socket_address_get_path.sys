@@ -1,2 +1,2 @@
-  fun get_path(address': NullablePointer[GUnixSocketAddressT]): String iso^ =>
-    String.from_cstring(@g_unix_socket_address_get_path(address')).clone()
+  fun get_path(address': GUnixSocketAddressI): String iso^ =>
+    String.from_cstring(@g_unix_socket_address_get_path(address'.getptr())).clone()

@@ -1,1 +1,1 @@
-use @gtk_statusbar_pop[None](statusbar': NullablePointer[GtkStatusbarT], context_id': U32)
+use @gtk_statusbar_pop[None](statusbar': NullablePointer[GObjectT], context_id': U32)

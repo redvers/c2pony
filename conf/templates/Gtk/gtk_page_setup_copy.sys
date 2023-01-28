@@ -1,2 +1,2 @@
-  fun copy(other': NullablePointer[GtkPageSetupT]): NullablePointer[GtkPageSetupT] =>
-    @gtk_page_setup_copy(other')
+  fun copy(other': GtkPageSetupI): NullablePointer[GObjectT] =>
+@gtk_page_setup_copy(other'.getptr())

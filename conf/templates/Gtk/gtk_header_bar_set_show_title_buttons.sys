@@ -1,2 +1,2 @@
-  fun set_show_title_buttons(bar': NullablePointer[GtkHeaderBarT], setting': I32): None =>
-    @gtk_header_bar_set_show_title_buttons(bar', setting')
+  fun set_show_title_buttons(bar': GtkHeaderBarI, setting': I32): None =>
+    @gtk_header_bar_set_show_title_buttons(bar'.getptr(), setting')

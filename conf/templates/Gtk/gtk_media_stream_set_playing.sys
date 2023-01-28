@@ -1,2 +1,2 @@
-  fun set_playing(self': NullablePointer[GtkMediaStreamT], playing': I32): None =>
-    @gtk_media_stream_set_playing(self', playing')
+  fun set_playing(self': GtkMediaStreamI, playing': I32): None =>
+    @gtk_media_stream_set_playing(self'.getptr(), playing')

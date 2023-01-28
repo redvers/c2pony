@@ -1,2 +1,2 @@
-  fun invalidate_filter(box': NullablePointer[GtkListBoxT]): None =>
-    @gtk_list_box_invalidate_filter(box')
+  fun invalidate_filter(box': GtkListBoxI): None =>
+    @gtk_list_box_invalidate_filter(box'.getptr())

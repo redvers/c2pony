@@ -1,2 +1,2 @@
-  fun ref send_notification(id': String, notification': NullablePointer[GNotificationT]): None =>
+  fun ref send_notification(id': String, notification': GNotificationI): None =>
     GApplicationP.send_notification(this, id', notification')

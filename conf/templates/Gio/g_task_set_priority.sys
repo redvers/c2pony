@@ -1,2 +1,2 @@
-  fun set_priority(task': NullablePointer[GTaskT], priority': I32): None =>
-    @g_task_set_priority(task', priority')
+  fun set_priority(task': GTaskI, priority': I32): None =>
+    @g_task_set_priority(task'.getptr(), priority')

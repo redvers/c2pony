@@ -1,2 +1,2 @@
-  fun unmark_day(calendar': NullablePointer[GtkCalendarT], day': U32): None =>
-    @gtk_calendar_unmark_day(calendar', day')
+  fun unmark_day(calendar': GtkCalendarI, day': U32): None =>
+    @gtk_calendar_unmark_day(calendar'.getptr(), day')

@@ -1,2 +1,2 @@
-  fun has_namespace(info': NullablePointer[GFileInfoT], name_space': String): I32 =>
-    @g_file_info_has_namespace(info', name_space'.cstring())
+  fun has_namespace(info': GFileInfoI, name_space': String): I32 =>
+    @g_file_info_has_namespace(info'.getptr(), name_space'.cstring())

@@ -1,1 +1,1 @@
-use @gtk_native_get_renderer[NullablePointer[GskRendererT]](self': NullablePointer[GtkNativeT])
+use @gtk_native_get_renderer[NullablePointer[GskRendererT]](self': NullablePointer[GObjectT])

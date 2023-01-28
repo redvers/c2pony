@@ -1,2 +1,2 @@
-  fun get_side(self': NullablePointer[GtkWindowControlsT]): U32 =>
-    @gtk_window_controls_get_side(self')
+  fun get_side(self': GtkWindowControlsI): U32 =>
+    @gtk_window_controls_get_side(self'.getptr())

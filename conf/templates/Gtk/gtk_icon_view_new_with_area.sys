@@ -1,2 +1,2 @@
-  new new_with_area(area': NullablePointer[GtkCellAreaT]) =>
-    ptr = @gtk_icon_view_new_with_area(area')
+  new new_with_area(area': GtkCellAreaI) =>
+    ptr = @gtk_icon_view_new_with_area(area'.getptr())

@@ -1,2 +1,2 @@
-  fun ref join_multicast_group(group': NullablePointer[GInetAddressT], source_specific': I32, iface': String, error': GError): I32 =>
+  fun ref join_multicast_group(group': GInetAddressI, source_specific': I32, iface': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GSocketP.join_multicast_group(this, group', source_specific', iface', error')

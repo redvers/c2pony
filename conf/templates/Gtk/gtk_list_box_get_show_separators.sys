@@ -1,2 +1,2 @@
-  fun get_show_separators(box': NullablePointer[GtkListBoxT]): I32 =>
-    @gtk_list_box_get_show_separators(box')
+  fun get_show_separators(box': GtkListBoxI): I32 =>
+    @gtk_list_box_get_show_separators(box'.getptr())

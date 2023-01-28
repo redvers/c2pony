@@ -1,1 +1,1 @@
-use @g_dbus_proxy_set_cached_property[None](proxy': NullablePointer[GDBusProxyT], property_name': Pointer[U8] tag, value': NullablePointer[GVariantT])
+use @g_dbus_proxy_set_cached_property[None](proxy': NullablePointer[GObjectT], property_name': Pointer[U8] tag, value': NullablePointer[GVariantT])

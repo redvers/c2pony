@@ -1,2 +1,2 @@
-  fun get_member(message': NullablePointer[GDBusMessageT]): String iso^ =>
-    String.from_cstring(@g_dbus_message_get_member(message')).clone()
+  fun get_member(message': GDBusMessageI): String iso^ =>
+    String.from_cstring(@g_dbus_message_get_member(message'.getptr())).clone()

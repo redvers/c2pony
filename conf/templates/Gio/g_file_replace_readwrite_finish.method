@@ -1,2 +1,2 @@
-  fun ref replace_readwrite_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileIOStreamT] =>
+  fun ref replace_readwrite_finish(res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.replace_readwrite_finish(this, res', error')

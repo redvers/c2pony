@@ -1,1 +1,1 @@
-use @g_file_resolve_relative_path[NullablePointer[GFileT]](file': NullablePointer[GFileT], relative_path': Pointer[U8] tag)
+use @g_file_resolve_relative_path[NullablePointer[GObjectT]](file': NullablePointer[GObjectT], relative_path': Pointer[U8] tag)

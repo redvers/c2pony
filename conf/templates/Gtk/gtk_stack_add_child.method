@@ -1,2 +1,2 @@
-  fun ref add_child(child': GtkWidgetI): NullablePointer[GtkStackPageT] =>
+  fun ref add_child(child': GtkWidgetI): NullablePointer[GObjectT] =>
     GtkStackP.add_child(this, child')

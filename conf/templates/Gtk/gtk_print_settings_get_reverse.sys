@@ -1,2 +1,2 @@
-  fun get_reverse(settings': NullablePointer[GtkPrintSettingsT]): I32 =>
-    @gtk_print_settings_get_reverse(settings')
+  fun get_reverse(settings': GtkPrintSettingsI): I32 =>
+    @gtk_print_settings_get_reverse(settings'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_grid_layout_child_set_row[None](child': NullablePointer[GtkGridLayoutChildT], row': I32)
+use @gtk_grid_layout_child_set_row[None](child': NullablePointer[GObjectT], row': I32)

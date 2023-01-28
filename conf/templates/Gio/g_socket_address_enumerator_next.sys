@@ -1,2 +1,2 @@
-  fun next(enumerator': NullablePointer[GSocketAddressEnumeratorT], cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GSocketAddressT] =>
-    @g_socket_address_enumerator_next(enumerator', cancellable', error'.ptr)
+  fun next(enumerator': GSocketAddressEnumeratorI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_socket_address_enumerator_next(enumerator'.getptr(), cancellable'.getptr(), error')

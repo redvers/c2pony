@@ -1,2 +1,2 @@
-  fun return_boolean(task': NullablePointer[GTaskT], result': I32): None =>
-    @g_task_return_boolean(task', result')
+  fun return_boolean(task': GTaskI, result': I32): None =>
+    @g_task_return_boolean(task'.getptr(), result')

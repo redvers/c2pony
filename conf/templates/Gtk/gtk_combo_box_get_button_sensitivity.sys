@@ -1,2 +1,2 @@
-  fun get_button_sensitivity(combo_box': NullablePointer[GtkComboBoxT]): U32 =>
-    @gtk_combo_box_get_button_sensitivity(combo_box')
+  fun get_button_sensitivity(combo_box': GtkComboBoxI): U32 =>
+    @gtk_combo_box_get_button_sensitivity(combo_box'.getptr())

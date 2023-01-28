@@ -1,2 +1,2 @@
-  fun ref drag_highlight_row(row': NullablePointer[GtkListBoxRowT]): None =>
+  fun ref drag_highlight_row(row': GtkListBoxRowI): None =>
     GtkListBoxP.drag_highlight_row(this, row')

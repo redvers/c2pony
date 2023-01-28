@@ -1,1 +1,1 @@
-use @gtk_tree_list_model_get_passthrough[I32](self': NullablePointer[GtkTreeListModelT])
+use @gtk_tree_list_model_get_passthrough[I32](self': NullablePointer[GObjectT])

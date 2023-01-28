@@ -1,1 +1,1 @@
-use @gtk_text_set_tabs[None](self': NullablePointer[GtkTextT], tabs': NullablePointer[PangoTabArrayT])
+use @gtk_text_set_tabs[None](self': NullablePointer[GObjectT], tabs': NullablePointer[PangoTabArrayT])

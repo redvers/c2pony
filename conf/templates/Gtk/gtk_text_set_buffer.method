@@ -1,2 +1,2 @@
-  fun ref set_buffer(buffer': NullablePointer[GtkEntryBufferT]): None =>
+  fun ref set_buffer(buffer': GtkEntryBufferI): None =>
     GtkTextP.set_buffer(this, buffer')

@@ -1,2 +1,2 @@
-  fun get_model(filter': NullablePointer[GtkTreeModelFilterT]): NullablePointer[GtkTreeModelT] =>
-    @gtk_tree_model_filter_get_model(filter')
+  fun get_model(filter': GtkTreeModelFilterI): NullablePointer[GObjectT] =>
+@gtk_tree_model_filter_get_model(filter'.getptr())

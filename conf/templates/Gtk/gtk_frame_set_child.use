@@ -1,1 +1,1 @@
-use @gtk_frame_set_child[None](frame': NullablePointer[GtkFrameT], child': NullablePointer[GObjectT])
+use @gtk_frame_set_child[None](frame': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

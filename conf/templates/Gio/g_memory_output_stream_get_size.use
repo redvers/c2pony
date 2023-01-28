@@ -1,1 +1,1 @@
-use @g_memory_output_stream_get_size[U64](ostream': NullablePointer[GMemoryOutputStreamT])
+use @g_memory_output_stream_get_size[U64](ostream': NullablePointer[GObjectT])

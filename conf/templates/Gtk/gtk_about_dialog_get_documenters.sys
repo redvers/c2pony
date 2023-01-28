@@ -1,2 +1,2 @@
-  fun get_documenters(about': NullablePointer[GtkAboutDialogT]): Pointer[Pointer[U8]] tag =>
-    @gtk_about_dialog_get_documenters(about')
+  fun get_documenters(about': GtkAboutDialogI): Pointer[Pointer[U8]] tag =>
+    @gtk_about_dialog_get_documenters(about'.getptr())

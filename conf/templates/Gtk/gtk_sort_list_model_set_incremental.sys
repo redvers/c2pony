@@ -1,2 +1,2 @@
-  fun set_incremental(self': NullablePointer[GtkSortListModelT], incremental': I32): None =>
-    @gtk_sort_list_model_set_incremental(self', incremental')
+  fun set_incremental(self': GtkSortListModelI, incremental': I32): None =>
+    @gtk_sort_list_model_set_incremental(self'.getptr(), incremental')

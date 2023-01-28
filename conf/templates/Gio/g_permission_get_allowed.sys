@@ -1,2 +1,2 @@
-  fun get_allowed(permission': NullablePointer[GPermissionT]): I32 =>
-    @g_permission_get_allowed(permission')
+  fun get_allowed(permission': GPermissionI): I32 =>
+    @g_permission_get_allowed(permission'.getptr())

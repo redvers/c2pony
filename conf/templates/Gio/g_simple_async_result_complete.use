@@ -1,1 +1,1 @@
-use @g_simple_async_result_complete[None](simple': NullablePointer[GSimpleAsyncResultT])
+use @g_simple_async_result_complete[None](simple': NullablePointer[GObjectT])

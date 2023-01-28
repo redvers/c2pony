@@ -1,2 +1,2 @@
-  fun get_expand(self': NullablePointer[GtkColumnViewColumnT]): I32 =>
-    @gtk_column_view_column_get_expand(self')
+  fun get_expand(self': GtkColumnViewColumnI): I32 =>
+    @gtk_column_view_column_get_expand(self'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_print_settings_get_paper_height[F64](settings': NullablePointer[GtkPrintSettingsT], unit': U32)
+use @gtk_print_settings_get_paper_height[F64](settings': NullablePointer[GObjectT], unit': U32)

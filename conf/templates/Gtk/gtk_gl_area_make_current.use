@@ -1,1 +1,1 @@
-use @gtk_gl_area_make_current[None](area': NullablePointer[GtkGLAreaT])
+use @gtk_gl_area_make_current[None](area': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun can_eject(volume': NullablePointer[GVolumeT]): I32 =>
-    @g_volume_can_eject(volume')
+  fun can_eject(volume': GVolumeI): I32 =>
+    @g_volume_can_eject(volume'.getptr())

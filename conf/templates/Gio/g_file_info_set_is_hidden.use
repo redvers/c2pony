@@ -1,1 +1,1 @@
-use @g_file_info_set_is_hidden[None](info': NullablePointer[GFileInfoT], is_hidden': I32)
+use @g_file_info_set_is_hidden[None](info': NullablePointer[GObjectT], is_hidden': I32)

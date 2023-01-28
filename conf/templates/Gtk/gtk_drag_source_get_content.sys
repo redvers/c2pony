@@ -1,2 +1,2 @@
-  fun get_content(source': NullablePointer[GtkDragSourceT]): NullablePointer[GdkContentProviderT] =>
-    @gtk_drag_source_get_content(source')
+  fun get_content(source': GtkDragSourceI): NullablePointer[GdkContentProviderT] =>
+    @gtk_drag_source_get_content(source'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_spin_button_set_numeric[None](spin_button': NullablePointer[GtkSpinButtonT], numeric': I32)
+use @gtk_spin_button_set_numeric[None](spin_button': NullablePointer[GObjectT], numeric': I32)

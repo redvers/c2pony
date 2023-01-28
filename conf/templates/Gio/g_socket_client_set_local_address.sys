@@ -1,2 +1,2 @@
-  fun set_local_address(client': NullablePointer[GSocketClientT], address': NullablePointer[GSocketAddressT]): None =>
-    @g_socket_client_set_local_address(client', address')
+  fun set_local_address(client': GSocketClientI, address': GSocketAddressI): None =>
+    @g_socket_client_set_local_address(client'.getptr(), address'.getptr())

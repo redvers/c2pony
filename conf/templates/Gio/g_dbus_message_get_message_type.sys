@@ -1,2 +1,2 @@
-  fun get_message_type(message': NullablePointer[GDBusMessageT]): U32 =>
-    @g_dbus_message_get_message_type(message')
+  fun get_message_type(message': GDBusMessageI): U32 =>
+    @g_dbus_message_get_message_type(message'.getptr())

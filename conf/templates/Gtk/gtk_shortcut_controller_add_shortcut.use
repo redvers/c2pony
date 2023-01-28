@@ -1,1 +1,1 @@
-use @gtk_shortcut_controller_add_shortcut[None](self': NullablePointer[GtkShortcutControllerT], shortcut': NullablePointer[GtkShortcutT])
+use @gtk_shortcut_controller_add_shortcut[None](self': NullablePointer[GObjectT], shortcut': NullablePointer[GObjectT])

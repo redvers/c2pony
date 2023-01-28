@@ -1,1 +1,1 @@
-use @gtk_check_button_get_use_underline[I32](self': NullablePointer[GtkCheckButtonT])
+use @gtk_check_button_get_use_underline[I32](self': NullablePointer[GObjectT])

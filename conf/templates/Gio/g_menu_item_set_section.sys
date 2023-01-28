@@ -1,2 +1,2 @@
-  fun set_section(menu_item': NullablePointer[GMenuItemT], section': NullablePointer[GMenuModelT]): None =>
-    @g_menu_item_set_section(menu_item', section')
+  fun set_section(menu_item': GMenuItemI, section': GMenuModelI): None =>
+    @g_menu_item_set_section(menu_item'.getptr(), section'.getptr())

@@ -1,1 +1,1 @@
-use @g_dbus_message_new_method_reply[NullablePointer[GDBusMessageT]](method_call_message': NullablePointer[GDBusMessageT])
+use @g_dbus_message_new_method_reply[NullablePointer[GObjectT]](method_call_message': NullablePointer[GObjectT])

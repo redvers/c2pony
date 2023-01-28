@@ -1,1 +1,1 @@
-use @g_filename_completer_set_dirs_only[None](completer': NullablePointer[GFilenameCompleterT], dirs_only': I32)
+use @g_filename_completer_set_dirs_only[None](completer': NullablePointer[GObjectT], dirs_only': I32)

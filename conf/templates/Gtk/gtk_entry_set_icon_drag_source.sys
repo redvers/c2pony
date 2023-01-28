@@ -1,2 +1,2 @@
-  fun set_icon_drag_source(entry': NullablePointer[GtkEntryT], icon_pos': U32, provider': NullablePointer[GdkContentProviderT], actions': U32): None =>
-    @gtk_entry_set_icon_drag_source(entry', icon_pos', provider', actions')
+  fun set_icon_drag_source(entry': GtkEntryI, icon_pos': U32, provider': NullablePointer[GdkContentProviderT], actions': U32): None =>
+    @gtk_entry_set_icon_drag_source(entry'.getptr(), icon_pos', provider', actions')

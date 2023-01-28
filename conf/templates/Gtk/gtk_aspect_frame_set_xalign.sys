@@ -1,2 +1,2 @@
-  fun set_xalign(self': NullablePointer[GtkAspectFrameT], xalign': F32): None =>
-    @gtk_aspect_frame_set_xalign(self', xalign')
+  fun set_xalign(self': GtkAspectFrameI, xalign': F32): None =>
+    @gtk_aspect_frame_set_xalign(self'.getptr(), xalign')

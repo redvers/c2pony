@@ -1,2 +1,2 @@
-  new new_from_model(model': NullablePointer[GMenuModelT], item_index': I32) =>
-    ptr = @g_menu_item_new_from_model(model', item_index')
+  new new_from_model(model': GMenuModelI, item_index': I32) =>
+    ptr = @g_menu_item_new_from_model(model'.getptr(), item_index')

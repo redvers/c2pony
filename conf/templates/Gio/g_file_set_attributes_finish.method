@@ -1,2 +1,2 @@
-  fun ref set_attributes_finish(result': NullablePointer[GAsyncResultT], info': Pointer[NullablePointer[GFileInfoT]], error': GError): I32 =>
+  fun ref set_attributes_finish(result': GAsyncResultI, info': Pointer[NullablePointer[GFileInfoT]], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.set_attributes_finish(this, result', info', error')

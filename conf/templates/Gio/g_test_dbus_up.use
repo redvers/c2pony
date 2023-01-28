@@ -1,1 +1,1 @@
-use @g_test_dbus_up[None](self': NullablePointer[GTestDBusT])
+use @g_test_dbus_up[None](self': NullablePointer[GObjectT])

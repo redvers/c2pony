@@ -1,2 +1,2 @@
-  fun set_byte_order(stream': NullablePointer[GDataOutputStreamT], order': U32): None =>
-    @g_data_output_stream_set_byte_order(stream', order')
+  fun set_byte_order(stream': GDataOutputStreamI, order': U32): None =>
+    @g_data_output_stream_set_byte_order(stream'.getptr(), order')

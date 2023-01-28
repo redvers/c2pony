@@ -1,2 +1,2 @@
-  fun ref register_object_with_closures(object_path': String, interface_info': NullablePointer[GDBusInterfaceInfoT], method_call_closure': NullablePointer[GClosureT], get_property_closure': NullablePointer[GClosureT], set_property_closure': NullablePointer[GClosureT], error': GError): U32 =>
+  fun ref register_object_with_closures(object_path': String, interface_info': NullablePointer[GDBusInterfaceInfoT], method_call_closure': NullablePointer[GClosureT], get_property_closure': NullablePointer[GClosureT], set_property_closure': NullablePointer[GClosureT], error': Pointer[NullablePointer[GErrorT]]): U32 =>
     GDBusConnectionP.register_object_with_closures(this, object_path', interface_info', method_call_closure', get_property_closure', set_property_closure', error')

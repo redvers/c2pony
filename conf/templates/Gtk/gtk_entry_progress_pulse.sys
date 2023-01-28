@@ -1,2 +1,2 @@
-  fun progress_pulse(entry': NullablePointer[GtkEntryT]): None =>
-    @gtk_entry_progress_pulse(entry')
+  fun progress_pulse(entry': GtkEntryI): None =>
+    @gtk_entry_progress_pulse(entry'.getptr())

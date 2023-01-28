@@ -1,2 +1,2 @@
-  fun set_key_capture_widget(entry': NullablePointer[GtkSearchEntryT], widget': GtkWidgetI): None =>
-    @gtk_search_entry_set_key_capture_widget(entry', widget'.getptr())
+  fun set_key_capture_widget(entry': GtkSearchEntryI, widget': GtkWidgetI): None =>
+    @gtk_search_entry_set_key_capture_widget(entry'.getptr(), widget'.getptr())

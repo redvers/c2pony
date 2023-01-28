@@ -1,1 +1,1 @@
-use @gtk_grid_layout_get_row_baseline_position[U32](grid': NullablePointer[GtkGridLayoutT], row': I32)
+use @gtk_grid_layout_get_row_baseline_position[U32](grid': NullablePointer[GObjectT], row': I32)

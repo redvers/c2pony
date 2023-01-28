@@ -1,2 +1,2 @@
-  fun ref replace(string': String, string_len': I64, start_position': I32, replacement': String, match_options': U32, error': GError): String iso^ =>
+  fun ref replace(string': String, string_len': I64, start_position': I32, replacement': String, match_options': U32, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
     GRegexP.replace(ptr, string', string_len', start_position', replacement', match_options', error')

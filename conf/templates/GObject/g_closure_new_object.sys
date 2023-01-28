@@ -1,2 +1,2 @@
-  new new_object(sizeof_closure': U32, object': NullablePointer[GObjectT]) =>
-    ptr = @g_closure_new_object(sizeof_closure', object')
+  new new_object(sizeof_closure': U32, object': GObjectI) =>
+    ptr = @g_closure_new_object(sizeof_closure', object'.getptr())

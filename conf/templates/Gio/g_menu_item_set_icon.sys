@@ -1,2 +1,2 @@
-  fun set_icon(menu_item': NullablePointer[GMenuItemT], icon': NullablePointer[GIconT]): None =>
-    @g_menu_item_set_icon(menu_item', icon')
+  fun set_icon(menu_item': GMenuItemI, icon': GIconI): None =>
+    @g_menu_item_set_icon(menu_item'.getptr(), icon'.getptr())

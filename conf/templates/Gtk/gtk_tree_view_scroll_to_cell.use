@@ -1,1 +1,1 @@
-use @gtk_tree_view_scroll_to_cell[None](tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], column': NullablePointer[GtkTreeViewColumnT], use_align': I32, row_align': F32, col_align': F32)
+use @gtk_tree_view_scroll_to_cell[None](tree_view': NullablePointer[GObjectT], path': NullablePointer[GtkTreePathT], column': NullablePointer[GObjectT], use_align': I32, row_align': F32, col_align': F32)

@@ -1,2 +1,2 @@
-  fun can_stop(drive': NullablePointer[GDriveT]): I32 =>
-    @g_drive_can_stop(drive')
+  fun can_stop(drive': GDriveI): I32 =>
+    @g_drive_can_stop(drive'.getptr())

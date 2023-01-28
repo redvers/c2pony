@@ -1,1 +1,1 @@
-use @gtk_text_view_set_indent[None](text_view': NullablePointer[GtkTextViewT], indent': I32)
+use @gtk_text_view_set_indent[None](text_view': NullablePointer[GObjectT], indent': I32)

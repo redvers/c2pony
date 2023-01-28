@@ -1,2 +1,2 @@
-  fun ref set_interaction(interaction': NullablePointer[GTlsInteractionT]): None =>
+  fun ref set_interaction(interaction': GTlsInteractionI): None =>
     GDtlsConnectionP.set_interaction(this, interaction')

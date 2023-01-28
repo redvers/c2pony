@@ -1,2 +1,2 @@
-  new new_with_context(area': NullablePointer[GtkCellAreaT], context': NullablePointer[GtkCellAreaContextT]) =>
-    ptr = @gtk_cell_view_new_with_context(area', context')
+  new new_with_context(area': GtkCellAreaI, context': GtkCellAreaContextI) =>
+    ptr = @gtk_cell_view_new_with_context(area'.getptr(), context'.getptr())

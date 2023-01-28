@@ -1,2 +1,2 @@
-  fun has_gicon(self': NullablePointer[GtkIconThemeT], gicon': NullablePointer[GIconT]): I32 =>
-    @gtk_icon_theme_has_gicon(self', gicon')
+  fun has_gicon(self': GtkIconThemeI, gicon': GIconI): I32 =>
+    @gtk_icon_theme_has_gicon(self'.getptr(), gicon'.getptr())

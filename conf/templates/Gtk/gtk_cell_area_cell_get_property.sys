@@ -1,2 +1,2 @@
-  fun cell_get_property(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], property_name': String, value': NullablePointer[GValueT]): None =>
-    @gtk_cell_area_cell_get_property(area', renderer', property_name'.cstring(), value')
+  fun cell_get_property(area': GtkCellAreaI, renderer': GtkCellRendererI, property_name': String, value': NullablePointer[GValueT]): None =>
+    @gtk_cell_area_cell_get_property(area'.getptr(), renderer'.getptr(), property_name'.cstring(), value')

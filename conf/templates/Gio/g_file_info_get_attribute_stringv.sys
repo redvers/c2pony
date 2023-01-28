@@ -1,2 +1,2 @@
-  fun get_attribute_stringv(info': NullablePointer[GFileInfoT], attribute': String): Pointer[Pointer[U8]] tag =>
-    @g_file_info_get_attribute_stringv(info', attribute'.cstring())
+  fun get_attribute_stringv(info': GFileInfoI, attribute': String): Pointer[Pointer[U8]] tag =>
+    @g_file_info_get_attribute_stringv(info'.getptr(), attribute'.cstring())

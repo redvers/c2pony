@@ -1,2 +1,2 @@
-  fun set_use_size(font_button': NullablePointer[GtkFontButtonT], use_size': I32): None =>
-    @gtk_font_button_set_use_size(font_button', use_size')
+  fun set_use_size(font_button': GtkFontButtonI, use_size': I32): None =>
+    @gtk_font_button_set_use_size(font_button'.getptr(), use_size')

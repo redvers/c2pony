@@ -1,2 +1,2 @@
-  fun set_title(notification': NullablePointer[GNotificationT], title': String): None =>
-    @g_notification_set_title(notification', title'.cstring())
+  fun set_title(notification': GNotificationI, title': String): None =>
+    @g_notification_set_title(notification'.getptr(), title'.cstring())

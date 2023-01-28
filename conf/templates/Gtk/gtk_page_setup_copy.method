@@ -1,2 +1,2 @@
-  fun ref copy(): NullablePointer[GtkPageSetupT] =>
+  fun ref copy(): NullablePointer[GObjectT] =>
     GtkPageSetupP.copy(this)

@@ -1,1 +1,1 @@
-use @gtk_popover_get_pointing_to[I32](popover': NullablePointer[GtkPopoverT], rect': NullablePointer[cairorectangleintT])
+use @gtk_popover_get_pointing_to[I32](popover': NullablePointer[GObjectT], rect': NullablePointer[cairorectangleintT])

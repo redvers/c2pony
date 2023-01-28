@@ -1,2 +1,2 @@
-  fun ref set_attribute(attribute': String, type': U32, value_p': Pointer[None] tag, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref set_attribute(attribute': String, type': U32, value_p': Pointer[None] tag, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.set_attribute(this, attribute', type', value_p', flags', cancellable', error')

@@ -1,2 +1,2 @@
-  fun set_overwrite_mode(self': NullablePointer[GtkTextT], overwrite': I32): None =>
-    @gtk_text_set_overwrite_mode(self', overwrite')
+  fun set_overwrite_mode(self': GtkTextI, overwrite': I32): None =>
+    @gtk_text_set_overwrite_mode(self'.getptr(), overwrite')

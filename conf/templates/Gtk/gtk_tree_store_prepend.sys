@@ -1,2 +1,2 @@
-  fun prepend(tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT]): None =>
-    @gtk_tree_store_prepend(tree_store', iter', parent')
+  fun prepend(tree_store': GtkTreeStoreI, iter': NullablePointer[GtkTreeIterT], parent': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_store_prepend(tree_store'.getptr(), iter', parent')

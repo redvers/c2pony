@@ -1,2 +1,2 @@
-  fun configure(spin_button': NullablePointer[GtkSpinButtonT], adjustment': NullablePointer[GtkAdjustmentT], climb_rate': F64, digits': U32): None =>
-    @gtk_spin_button_configure(spin_button', adjustment', climb_rate', digits')
+  fun configure(spin_button': GtkSpinButtonI, adjustment': GtkAdjustmentI, climb_rate': F64, digits': U32): None =>
+    @gtk_spin_button_configure(spin_button'.getptr(), adjustment'.getptr(), climb_rate', digits')

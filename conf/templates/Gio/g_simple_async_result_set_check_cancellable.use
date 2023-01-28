@@ -1,1 +1,1 @@
-use @g_simple_async_result_set_check_cancellable[None](simple': NullablePointer[GSimpleAsyncResultT], check_cancellable': NullablePointer[GCancellableT])
+use @g_simple_async_result_set_check_cancellable[None](simple': NullablePointer[GObjectT], check_cancellable': NullablePointer[GObjectT])

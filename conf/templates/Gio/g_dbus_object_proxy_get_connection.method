@@ -1,2 +1,2 @@
-  fun ref get_connection(): NullablePointer[GDBusConnectionT] =>
+  fun ref get_connection(): NullablePointer[GObjectT] =>
     GDBusObjectProxyP.get_connection(this)

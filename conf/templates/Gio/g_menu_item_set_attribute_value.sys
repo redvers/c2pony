@@ -1,2 +1,2 @@
-  fun set_attribute_value(menu_item': NullablePointer[GMenuItemT], attribute': String, value': NullablePointer[GVariantT]): None =>
-    @g_menu_item_set_attribute_value(menu_item', attribute'.cstring(), value')
+  fun set_attribute_value(menu_item': GMenuItemI, attribute': String, value': NullablePointer[GVariantT]): None =>
+    @g_menu_item_set_attribute_value(menu_item'.getptr(), attribute'.cstring(), value')

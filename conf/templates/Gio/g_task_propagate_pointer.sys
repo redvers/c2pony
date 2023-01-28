@@ -1,2 +1,2 @@
-  fun propagate_pointer(task': NullablePointer[GTaskT], error': GError): Pointer[None] tag =>
-    @g_task_propagate_pointer(task', error'.ptr)
+  fun propagate_pointer(task': GTaskI, error': Pointer[NullablePointer[GErrorT]]): Pointer[None] tag =>
+    @g_task_propagate_pointer(task'.getptr(), error')

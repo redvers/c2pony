@@ -1,2 +1,2 @@
-  fun get_tag_table(buffer': NullablePointer[GtkTextBufferT]): NullablePointer[GtkTextTagTableT] =>
-    @gtk_text_buffer_get_tag_table(buffer')
+  fun get_tag_table(buffer': GtkTextBufferI): NullablePointer[GObjectT] =>
+@gtk_text_buffer_get_tag_table(buffer'.getptr())

@@ -1,2 +1,2 @@
-  fun remove(table': NullablePointer[GtkTextTagTableT], tag': NullablePointer[GtkTextTagT]): None =>
-    @gtk_text_tag_table_remove(table', tag')
+  fun remove(table': GtkTextTagTableI, tag': GtkTextTagI): None =>
+    @gtk_text_tag_table_remove(table'.getptr(), tag'.getptr())

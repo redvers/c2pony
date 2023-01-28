@@ -1,2 +1,2 @@
-  fun get_certificate(conn': NullablePointer[GDtlsConnectionT]): NullablePointer[GTlsCertificateT] =>
-    @g_dtls_connection_get_certificate(conn')
+  fun get_certificate(conn': GDtlsConnectionI): NullablePointer[GObjectT] =>
+@g_dtls_connection_get_certificate(conn'.getptr())

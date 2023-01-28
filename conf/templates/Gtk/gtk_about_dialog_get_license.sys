@@ -1,2 +1,2 @@
-  fun get_license(about': NullablePointer[GtkAboutDialogT]): String iso^ =>
-    String.from_cstring(@gtk_about_dialog_get_license(about')).clone()
+  fun get_license(about': GtkAboutDialogI): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_license(about'.getptr())).clone()

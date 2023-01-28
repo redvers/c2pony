@@ -1,2 +1,2 @@
-  fun set_propagation_phase(controller': NullablePointer[GtkEventControllerT], phase': U32): None =>
-    @gtk_event_controller_set_propagation_phase(controller', phase')
+  fun set_propagation_phase(controller': GtkEventControllerI, phase': U32): None =>
+    @gtk_event_controller_set_propagation_phase(controller'.getptr(), phase')

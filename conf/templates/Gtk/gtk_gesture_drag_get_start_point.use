@@ -1,1 +1,1 @@
-use @gtk_gesture_drag_get_start_point[I32](gesture': NullablePointer[GtkGestureDragT], x': Pointer[F64] tag, y': Pointer[F64] tag)
+use @gtk_gesture_drag_get_start_point[I32](gesture': NullablePointer[GObjectT], x': Pointer[F64] tag, y': Pointer[F64] tag)

@@ -1,2 +1,2 @@
-  fun get_range(spin_button': NullablePointer[GtkSpinButtonT], min': Pointer[F64] tag, max': Pointer[F64] tag): None =>
-    @gtk_spin_button_get_range(spin_button', min', max')
+  fun get_range(spin_button': GtkSpinButtonI, min': Pointer[F64] tag, max': Pointer[F64] tag): None =>
+    @gtk_spin_button_get_range(spin_button'.getptr(), min', max')

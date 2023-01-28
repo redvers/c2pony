@@ -1,2 +1,2 @@
-  fun ref set_group(group': NullablePointer[GtkCheckButtonT]): None =>
+  fun ref set_group(group': GtkCheckButtonI): None =>
     GtkCheckButtonP.set_group(this, group')

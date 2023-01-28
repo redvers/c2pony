@@ -1,1 +1,1 @@
-use @gtk_tree_sortable_get_sort_column_id[I32](sortable': NullablePointer[GtkTreeSortableT], sort_column_id': Pointer[I32] tag, order': Pointer[U32] tag)
+use @gtk_tree_sortable_get_sort_column_id[I32](sortable': NullablePointer[GObjectT], sort_column_id': Pointer[I32] tag, order': Pointer[U32] tag)

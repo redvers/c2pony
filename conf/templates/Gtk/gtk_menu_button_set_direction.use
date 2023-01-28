@@ -1,1 +1,1 @@
-use @gtk_menu_button_set_direction[None](menu_button': NullablePointer[GtkMenuButtonT], direction': U32)
+use @gtk_menu_button_set_direction[None](menu_button': NullablePointer[GObjectT], direction': U32)

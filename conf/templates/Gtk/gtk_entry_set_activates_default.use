@@ -1,1 +1,1 @@
-use @gtk_entry_set_activates_default[None](entry': NullablePointer[GtkEntryT], setting': I32)
+use @gtk_entry_set_activates_default[None](entry': NullablePointer[GObjectT], setting': I32)

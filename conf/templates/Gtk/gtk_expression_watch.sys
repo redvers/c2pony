@@ -1,2 +1,2 @@
-  fun watch(self': NullablePointer[GtkExpressionT], this': Pointer[None] tag, notify': GtkExpressionNotify, user_data': Pointer[None] tag, user_destroy': Pointer[None]): NullablePointer[GtkExpressionWatchT] =>
-    @gtk_expression_watch(self', this', notify', user_data', user_destroy')
+  fun watch(self': GtkExpressionI, this': Pointer[None] tag, notify': GtkExpressionNotify, user_data': Pointer[None] tag, user_destroy': Pointer[None]): NullablePointer[GtkExpressionWatchT] =>
+    @gtk_expression_watch(self'.getptr(), this', notify', user_data', user_destroy')

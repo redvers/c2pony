@@ -1,2 +1,2 @@
-  fun propagate_boolean(task': NullablePointer[GTaskT], error': GError): I32 =>
-    @g_task_propagate_boolean(task', error'.ptr)
+  fun propagate_boolean(task': GTaskI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_task_propagate_boolean(task'.getptr(), error')

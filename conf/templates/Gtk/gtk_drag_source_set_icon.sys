@@ -1,2 +1,2 @@
-  fun set_icon(source': NullablePointer[GtkDragSourceT], paintable': NullablePointer[GdkPaintableT], hot_x': I32, hot_y': I32): None =>
-    @gtk_drag_source_set_icon(source', paintable', hot_x', hot_y')
+  fun set_icon(source': GtkDragSourceI, paintable': NullablePointer[GdkPaintableT], hot_x': I32, hot_y': I32): None =>
+    @gtk_drag_source_set_icon(source'.getptr(), paintable', hot_x', hot_y')

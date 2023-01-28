@@ -1,1 +1,1 @@
-use @gtk_switch_set_active[None](self': NullablePointer[GtkSwitchT], is_active': I32)
+use @gtk_switch_set_active[None](self': NullablePointer[GObjectT], is_active': I32)

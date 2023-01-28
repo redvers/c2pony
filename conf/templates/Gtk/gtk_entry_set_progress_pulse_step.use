@@ -1,1 +1,1 @@
-use @gtk_entry_set_progress_pulse_step[None](entry': NullablePointer[GtkEntryT], fraction': F64)
+use @gtk_entry_set_progress_pulse_step[None](entry': NullablePointer[GObjectT], fraction': F64)

@@ -1,2 +1,2 @@
-  fun set_size(self': NullablePointer[GtkSliceListModelT], size': U32): None =>
-    @gtk_slice_list_model_set_size(self', size')
+  fun set_size(self': GtkSliceListModelI, size': U32): None =>
+    @gtk_slice_list_model_set_size(self'.getptr(), size')

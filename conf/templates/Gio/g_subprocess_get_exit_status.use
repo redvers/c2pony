@@ -1,1 +1,1 @@
-use @g_subprocess_get_exit_status[I32](subprocess': NullablePointer[GSubprocessT])
+use @g_subprocess_get_exit_status[I32](subprocess': NullablePointer[GObjectT])

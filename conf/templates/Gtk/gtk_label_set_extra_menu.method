@@ -1,2 +1,2 @@
-  fun ref set_extra_menu(model': NullablePointer[GMenuModelT]): None =>
+  fun ref set_extra_menu(model': GMenuModelI): None =>
     GtkLabelP.set_extra_menu(this, model')

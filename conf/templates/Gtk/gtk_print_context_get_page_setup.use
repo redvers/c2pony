@@ -1,1 +1,1 @@
-use @gtk_print_context_get_page_setup[NullablePointer[GtkPageSetupT]](context': NullablePointer[GtkPrintContextT])
+use @gtk_print_context_get_page_setup[NullablePointer[GObjectT]](context': NullablePointer[GObjectT])

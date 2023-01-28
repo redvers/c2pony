@@ -1,2 +1,2 @@
-  fun ref get_cell_allocation(context': NullablePointer[GtkCellAreaContextT], widget': GtkWidgetI, renderer': NullablePointer[GtkCellRendererT], cell_area': NullablePointer[cairorectangleintT], allocation': NullablePointer[cairorectangleintT]): None =>
+  fun ref get_cell_allocation(context': GtkCellAreaContextI, widget': GtkWidgetI, renderer': GtkCellRendererI, cell_area': NullablePointer[cairorectangleintT], allocation': NullablePointer[cairorectangleintT]): None =>
     GtkCellAreaP.get_cell_allocation(this, context', widget', renderer', cell_area', allocation')

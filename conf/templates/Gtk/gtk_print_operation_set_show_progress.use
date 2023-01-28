@@ -1,1 +1,1 @@
-use @gtk_print_operation_set_show_progress[None](op': NullablePointer[GtkPrintOperationT], show_progress': I32)
+use @gtk_print_operation_set_show_progress[None](op': NullablePointer[GObjectT], show_progress': I32)

@@ -1,1 +1,1 @@
-use @gtk_text_child_anchor_get_deleted[I32](anchor': NullablePointer[GtkTextChildAnchorT])
+use @gtk_text_child_anchor_get_deleted[I32](anchor': NullablePointer[GObjectT])

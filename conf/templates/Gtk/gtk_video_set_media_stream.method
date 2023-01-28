@@ -1,2 +1,2 @@
-  fun ref set_media_stream(stream': NullablePointer[GtkMediaStreamT]): None =>
+  fun ref set_media_stream(stream': GtkMediaStreamI): None =>
     GtkVideoP.set_media_stream(this, stream')

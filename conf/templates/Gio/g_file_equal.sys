@@ -1,2 +1,2 @@
-  fun equal(file1': NullablePointer[GFileT], file2': NullablePointer[GFileT]): I32 =>
-    @g_file_equal(file1', file2')
+  fun equal(file1': GFileI, file2': GFileI): I32 =>
+    @g_file_equal(file1'.getptr(), file2'.getptr())

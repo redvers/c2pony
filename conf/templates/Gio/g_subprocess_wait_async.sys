@@ -1,2 +1,2 @@
-  fun wait_async(subprocess': NullablePointer[GSubprocessT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_subprocess_wait_async(subprocess', cancellable', callback', user_data')
+  fun wait_async(subprocess': GSubprocessI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_subprocess_wait_async(subprocess'.getptr(), cancellable'.getptr(), callback', user_data')

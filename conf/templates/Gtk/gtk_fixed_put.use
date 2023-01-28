@@ -1,1 +1,1 @@
-use @gtk_fixed_put[None](fixed': NullablePointer[GtkFixedT], widget': NullablePointer[GObjectT], x': F64, y': F64)
+use @gtk_fixed_put[None](fixed': NullablePointer[GObjectT], widget': NullablePointer[GObjectT], x': F64, y': F64)

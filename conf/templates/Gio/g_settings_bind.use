@@ -1,1 +1,1 @@
-use @g_settings_bind[None](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, flags': U32)
+use @g_settings_bind[None](settings': NullablePointer[GObjectT], key': Pointer[U8] tag, object': Pointer[None] tag, property': Pointer[U8] tag, flags': U32)

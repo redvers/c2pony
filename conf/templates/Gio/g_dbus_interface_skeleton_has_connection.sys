@@ -1,2 +1,2 @@
-  fun has_connection(interface': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT]): I32 =>
-    @g_dbus_interface_skeleton_has_connection(interface', connection')
+  fun has_connection(interface': GDBusInterfaceSkeletonI, connection': GDBusConnectionI): I32 =>
+    @g_dbus_interface_skeleton_has_connection(interface'.getptr(), connection'.getptr())

@@ -1,2 +1,2 @@
-  fun set_int(settings': NullablePointer[GtkPrintSettingsT], key': String, value': I32): None =>
-    @gtk_print_settings_set_int(settings', key'.cstring(), value')
+  fun set_int(settings': GtkPrintSettingsI, key': String, value': I32): None =>
+    @gtk_print_settings_set_int(settings'.getptr(), key'.cstring(), value')

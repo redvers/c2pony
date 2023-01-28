@@ -1,2 +1,2 @@
-  fun set_theme_name(self': NullablePointer[GtkIconThemeT], theme_name': String): None =>
-    @gtk_icon_theme_set_theme_name(self', theme_name'.cstring())
+  fun set_theme_name(self': GtkIconThemeI, theme_name': String): None =>
+    @gtk_icon_theme_set_theme_name(self'.getptr(), theme_name'.cstring())

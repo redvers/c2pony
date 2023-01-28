@@ -1,1 +1,1 @@
-use @gtk_combo_box_get_active_iter[I32](combo_box': NullablePointer[GtkComboBoxT], iter': NullablePointer[GtkTreeIterT])
+use @gtk_combo_box_get_active_iter[I32](combo_box': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT])

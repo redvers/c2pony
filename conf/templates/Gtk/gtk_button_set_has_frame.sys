@@ -1,2 +1,2 @@
-  fun set_has_frame(button': NullablePointer[GtkButtonT], has_frame': I32): None =>
-    @gtk_button_set_has_frame(button', has_frame')
+  fun set_has_frame(button': GtkButtonI, has_frame': I32): None =>
+    @gtk_button_set_has_frame(button'.getptr(), has_frame')

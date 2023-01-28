@@ -1,2 +1,2 @@
-  fun set_fixed_width(tree_column': NullablePointer[GtkTreeViewColumnT], fixed_width': I32): None =>
-    @gtk_tree_view_column_set_fixed_width(tree_column', fixed_width')
+  fun set_fixed_width(tree_column': GtkTreeViewColumnI, fixed_width': I32): None =>
+    @gtk_tree_view_column_set_fixed_width(tree_column'.getptr(), fixed_width')

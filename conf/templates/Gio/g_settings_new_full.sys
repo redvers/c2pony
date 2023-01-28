@@ -1,2 +1,2 @@
-  new new_full(schema': NullablePointer[GSettingsSchemaT], backend': NullablePointer[GSettingsBackendT], path': String) =>
-    ptr = @g_settings_new_full(schema', backend', path'.cstring())
+  new new_full(schema': NullablePointer[GSettingsSchemaT], backend': GSettingsBackendI, path': String) =>
+    ptr = @g_settings_new_full(schema', backend'.getptr(), path'.cstring())

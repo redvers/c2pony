@@ -1,1 +1,1 @@
-use @g_file_enumerator_next_files_finish[NullablePointer[GListT]](enumerator': NullablePointer[GFileEnumeratorT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_file_enumerator_next_files_finish[NullablePointer[GListT]](enumerator': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @gtk_cell_renderer_get_aligned_area[None](cell': NullablePointer[GtkCellRendererT], widget': NullablePointer[GObjectT], flags': U32, cell_area': NullablePointer[cairorectangleintT], aligned_area': NullablePointer[cairorectangleintT])
+use @gtk_cell_renderer_get_aligned_area[None](cell': NullablePointer[GObjectT], widget': NullablePointer[GObjectT], flags': U32, cell_area': NullablePointer[cairorectangleintT], aligned_area': NullablePointer[cairorectangleintT])

@@ -1,2 +1,2 @@
-  fun get_default_for_protocol(protocol': String): NullablePointer[GProxyT] =>
-    @g_proxy_get_default_for_protocol(protocol'.cstring())
+  fun get_default_for_protocol(protocol': String): NullablePointer[GObjectT] =>
+@g_proxy_get_default_for_protocol(protocol'.cstring())

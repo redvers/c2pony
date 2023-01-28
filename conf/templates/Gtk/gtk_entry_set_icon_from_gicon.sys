@@ -1,2 +1,2 @@
-  fun set_icon_from_gicon(entry': NullablePointer[GtkEntryT], icon_pos': U32, icon': NullablePointer[GIconT]): None =>
-    @gtk_entry_set_icon_from_gicon(entry', icon_pos', icon')
+  fun set_icon_from_gicon(entry': GtkEntryI, icon_pos': U32, icon': GIconI): None =>
+    @gtk_entry_set_icon_from_gicon(entry'.getptr(), icon_pos', icon'.getptr())

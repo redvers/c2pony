@@ -1,2 +1,2 @@
-  fun get_model(reference': NullablePointer[GtkTreeRowReferenceT]): NullablePointer[GtkTreeModelT] =>
-    @gtk_tree_row_reference_get_model(reference')
+  fun get_model(reference': NullablePointer[GtkTreeRowReferenceT]): NullablePointer[GObjectT] =>
+@gtk_tree_row_reference_get_model(reference')

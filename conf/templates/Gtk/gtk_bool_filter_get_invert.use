@@ -1,1 +1,1 @@
-use @gtk_bool_filter_get_invert[I32](self': NullablePointer[GtkBoolFilterT])
+use @gtk_bool_filter_get_invert[I32](self': NullablePointer[GObjectT])

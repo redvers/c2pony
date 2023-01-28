@@ -1,2 +1,2 @@
-  fun get_port(addr': NullablePointer[GNetworkAddressT]): U16 =>
-    @g_network_address_get_port(addr')
+  fun get_port(addr': GNetworkAddressI): U16 =>
+    @g_network_address_get_port(addr'.getptr())

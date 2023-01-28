@@ -1,1 +1,1 @@
-use @g_async_initable_init_finish[I32](initable': NullablePointer[GAsyncInitableT], res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_async_initable_init_finish[I32](initable': NullablePointer[GObjectT], res': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

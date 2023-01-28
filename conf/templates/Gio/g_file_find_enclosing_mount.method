@@ -1,2 +1,2 @@
-  fun ref find_enclosing_mount(cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GMountT] =>
+  fun ref find_enclosing_mount(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.find_enclosing_mount(this, cancellable', error')

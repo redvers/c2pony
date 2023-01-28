@@ -1,2 +1,2 @@
-  fun set_homogeneous(box': NullablePointer[GtkBoxT], homogeneous': I32): None =>
-    @gtk_box_set_homogeneous(box', homogeneous')
+  fun set_homogeneous(box': GtkBoxI, homogeneous': I32): None =>
+    @gtk_box_set_homogeneous(box'.getptr(), homogeneous')

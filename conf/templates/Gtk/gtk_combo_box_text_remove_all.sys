@@ -1,2 +1,2 @@
-  fun remove_all(combo_box': NullablePointer[GtkComboBoxTextT]): None =>
-    @gtk_combo_box_text_remove_all(combo_box')
+  fun remove_all(combo_box': GtkComboBoxTextI): None =>
+    @gtk_combo_box_text_remove_all(combo_box'.getptr())

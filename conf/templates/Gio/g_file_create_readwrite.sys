@@ -1,2 +1,2 @@
-  fun create_readwrite(file': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileIOStreamT] =>
-    @g_file_create_readwrite(file', flags', cancellable', error'.ptr)
+  fun create_readwrite(file': GFileI, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_create_readwrite(file'.getptr(), flags', cancellable'.getptr(), error')

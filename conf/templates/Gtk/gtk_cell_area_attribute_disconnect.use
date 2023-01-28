@@ -1,1 +1,1 @@
-use @gtk_cell_area_attribute_disconnect[None](area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], attribute': Pointer[U8] tag)
+use @gtk_cell_area_attribute_disconnect[None](area': NullablePointer[GObjectT], renderer': NullablePointer[GObjectT], attribute': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun ref connect_entry(entry': NullablePointer[GtkEditableT]): None =>
+  fun ref connect_entry(entry': GtkEditableI): None =>
     GtkSearchBarP.connect_entry(this, entry')

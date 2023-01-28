@@ -1,2 +1,2 @@
-  fun has_icon(self': NullablePointer[GtkIconThemeT], icon_name': String): I32 =>
-    @gtk_icon_theme_has_icon(self', icon_name'.cstring())
+  fun has_icon(self': GtkIconThemeI, icon_name': String): I32 =>
+    @gtk_icon_theme_has_icon(self'.getptr(), icon_name'.cstring())

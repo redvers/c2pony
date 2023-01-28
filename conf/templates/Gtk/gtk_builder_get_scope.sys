@@ -1,2 +1,2 @@
-  fun get_scope(builder': GtkBuilderI): NullablePointer[GtkBuilderScopeT] =>
-    @gtk_builder_get_scope(builder'.getptr())
+  fun get_scope(builder': GtkBuilderI): NullablePointer[GObjectT] =>
+@gtk_builder_get_scope(builder'.getptr())

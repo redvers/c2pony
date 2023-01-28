@@ -1,2 +1,2 @@
-  fun insert_item(menu': NullablePointer[GMenuT], position': I32, item': NullablePointer[GMenuItemT]): None =>
-    @g_menu_insert_item(menu', position', item')
+  fun insert_item(menu': GMenuI, position': I32, item': GMenuItemI): None =>
+    @g_menu_insert_item(menu'.getptr(), position', item'.getptr())

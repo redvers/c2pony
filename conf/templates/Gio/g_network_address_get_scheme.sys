@@ -1,2 +1,2 @@
-  fun get_scheme(addr': NullablePointer[GNetworkAddressT]): String iso^ =>
-    String.from_cstring(@g_network_address_get_scheme(addr')).clone()
+  fun get_scheme(addr': GNetworkAddressI): String iso^ =>
+    String.from_cstring(@g_network_address_get_scheme(addr'.getptr())).clone()

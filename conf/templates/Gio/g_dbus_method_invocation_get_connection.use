@@ -1,1 +1,1 @@
-use @g_dbus_method_invocation_get_connection[NullablePointer[GDBusConnectionT]](invocation': NullablePointer[GDBusMethodInvocationT])
+use @g_dbus_method_invocation_get_connection[NullablePointer[GObjectT]](invocation': NullablePointer[GObjectT])

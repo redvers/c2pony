@@ -1,1 +1,1 @@
-use @gtk_expander_set_label_widget[None](expander': NullablePointer[GtkExpanderT], label_widget': NullablePointer[GObjectT])
+use @gtk_expander_set_label_widget[None](expander': NullablePointer[GObjectT], label_widget': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_tree_selection_select_iter[None](selection': NullablePointer[GtkTreeSelectionT], iter': NullablePointer[GtkTreeIterT])
+use @gtk_tree_selection_select_iter[None](selection': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT])

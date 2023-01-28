@@ -1,2 +1,2 @@
-  new gnew(base_stream': NullablePointer[GOutputStreamT]) =>
-    ptr = @g_buffered_output_stream_new(base_stream')
+  new gnew(base_stream': GOutputStreamI) =>
+    ptr = @g_buffered_output_stream_new(base_stream'.getptr())

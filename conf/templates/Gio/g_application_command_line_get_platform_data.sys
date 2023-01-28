@@ -1,2 +1,2 @@
-  fun get_platform_data(cmdline': NullablePointer[GApplicationCommandLineT]): NullablePointer[GVariantT] =>
-    @g_application_command_line_get_platform_data(cmdline')
+  fun get_platform_data(cmdline': GApplicationCommandLineI): NullablePointer[GVariantT] =>
+    @g_application_command_line_get_platform_data(cmdline'.getptr())

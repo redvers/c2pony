@@ -1,2 +1,2 @@
-  fun get_direction(menu_button': NullablePointer[GtkMenuButtonT]): U32 =>
-    @gtk_menu_button_get_direction(menu_button')
+  fun get_direction(menu_button': GtkMenuButtonI): U32 =>
+    @gtk_menu_button_get_direction(menu_button'.getptr())

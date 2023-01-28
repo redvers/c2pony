@@ -1,2 +1,2 @@
-  fun new_for_bus(bus_type': I32, flags': U32, info': NullablePointer[GDBusInterfaceInfoT], name': String, object_path': String, interface_name': String, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_dbus_proxy_new_for_bus(bus_type', flags', info', name'.cstring(), object_path'.cstring(), interface_name'.cstring(), cancellable', callback', user_data')
+  fun new_for_bus(bus_type': I32, flags': U32, info': NullablePointer[GDBusInterfaceInfoT], name': String, object_path': String, interface_name': String, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_proxy_new_for_bus(bus_type', flags', info', name'.cstring(), object_path'.cstring(), interface_name'.cstring(), cancellable'.getptr(), callback', user_data')

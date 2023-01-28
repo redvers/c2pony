@@ -1,2 +1,2 @@
-  fun get_task_data(task': NullablePointer[GTaskT]): Pointer[None] tag =>
-    @g_task_get_task_data(task')
+  fun get_task_data(task': GTaskI): Pointer[None] tag =>
+    @g_task_get_task_data(task'.getptr())

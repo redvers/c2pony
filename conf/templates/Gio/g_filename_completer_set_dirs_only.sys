@@ -1,2 +1,2 @@
-  fun set_dirs_only(completer': NullablePointer[GFilenameCompleterT], dirs_only': I32): None =>
-    @g_filename_completer_set_dirs_only(completer', dirs_only')
+  fun set_dirs_only(completer': GFilenameCompleterI, dirs_only': I32): None =>
+    @g_filename_completer_set_dirs_only(completer'.getptr(), dirs_only')

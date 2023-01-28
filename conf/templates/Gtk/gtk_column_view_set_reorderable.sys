@@ -1,2 +1,2 @@
-  fun set_reorderable(self': NullablePointer[GtkColumnViewT], reorderable': I32): None =>
-    @gtk_column_view_set_reorderable(self', reorderable')
+  fun set_reorderable(self': GtkColumnViewI, reorderable': I32): None =>
+    @gtk_column_view_set_reorderable(self'.getptr(), reorderable')

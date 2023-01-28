@@ -1,2 +1,2 @@
-  fun unset_invisible_char(entry': NullablePointer[GtkEntryT]): None =>
-    @gtk_entry_unset_invisible_char(entry')
+  fun unset_invisible_char(entry': GtkEntryI): None =>
+    @gtk_entry_unset_invisible_char(entry'.getptr())

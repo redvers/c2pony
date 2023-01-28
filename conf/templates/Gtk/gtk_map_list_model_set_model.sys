@@ -1,2 +1,2 @@
-  fun set_model(self': NullablePointer[GtkMapListModelT], model': GListModelI): None =>
-    @gtk_map_list_model_set_model(self', model'.getptr())
+  fun set_model(self': GtkMapListModelI, model': GListModelI): None =>
+    @gtk_map_list_model_set_model(self'.getptr(), model'.getptr())

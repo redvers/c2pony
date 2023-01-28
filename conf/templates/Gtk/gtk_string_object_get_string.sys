@@ -1,2 +1,2 @@
-  fun get_string(self': NullablePointer[GtkStringObjectT]): String iso^ =>
-    String.from_cstring(@gtk_string_object_get_string(self')).clone()
+  fun get_string(self': GtkStringObjectI): String iso^ =>
+    String.from_cstring(@gtk_string_object_get_string(self'.getptr())).clone()

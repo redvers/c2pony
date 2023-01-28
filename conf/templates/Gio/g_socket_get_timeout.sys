@@ -1,2 +1,2 @@
-  fun get_timeout(socket': NullablePointer[GSocketT]): U32 =>
-    @g_socket_get_timeout(socket')
+  fun get_timeout(socket': GSocketI): U32 =>
+    @g_socket_get_timeout(socket'.getptr())

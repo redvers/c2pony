@@ -1,2 +1,2 @@
-  fun set_snap_to_ticks(spin_button': NullablePointer[GtkSpinButtonT], snap_to_ticks': I32): None =>
-    @gtk_spin_button_set_snap_to_ticks(spin_button', snap_to_ticks')
+  fun set_snap_to_ticks(spin_button': GtkSpinButtonI, snap_to_ticks': I32): None =>
+    @gtk_spin_button_set_snap_to_ticks(spin_button'.getptr(), snap_to_ticks')

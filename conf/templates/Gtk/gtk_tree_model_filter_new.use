@@ -1,1 +1,1 @@
-use @gtk_tree_model_filter_new[NullablePointer[GtkTreeModelT]](child_model': NullablePointer[GtkTreeModelT], root': NullablePointer[GtkTreePathT])
+use @gtk_tree_model_filter_new[NullablePointer[GObjectT]](child_model': NullablePointer[GObjectT], root': NullablePointer[GtkTreePathT])

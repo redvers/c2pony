@@ -1,1 +1,1 @@
-use @gtk_tree_view_get_dest_row_at_pos[I32](tree_view': NullablePointer[GtkTreeViewT], drag_x': I32, drag_y': I32, path': Pointer[NullablePointer[GtkTreePathT]], pos': Pointer[U32] tag)
+use @gtk_tree_view_get_dest_row_at_pos[I32](tree_view': NullablePointer[GObjectT], drag_x': I32, drag_y': I32, path': Pointer[NullablePointer[GtkTreePathT]], pos': Pointer[U32] tag)

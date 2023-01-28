@@ -1,2 +1,2 @@
-  fun ref stop_mountable_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+  fun ref stop_mountable_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.stop_mountable_finish(this, result', error')

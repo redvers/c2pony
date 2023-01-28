@@ -1,2 +1,2 @@
-  fun ref parse_name(parse_name': String): NullablePointer[GFileT] =>
+  fun ref parse_name(parse_name': String): NullablePointer[GObjectT] =>
     GVfsP.parse_name(this, parse_name')

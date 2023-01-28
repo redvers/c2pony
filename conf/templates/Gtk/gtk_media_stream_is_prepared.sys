@@ -1,2 +1,2 @@
-  fun is_prepared(self': NullablePointer[GtkMediaStreamT]): I32 =>
-    @gtk_media_stream_is_prepared(self')
+  fun is_prepared(self': GtkMediaStreamI): I32 =>
+    @gtk_media_stream_is_prepared(self'.getptr())

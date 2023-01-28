@@ -1,1 +1,1 @@
-use @g_tls_client_connection_set_server_identity[None](conn': NullablePointer[GTlsClientConnectionT], identity': NullablePointer[GSocketConnectableT])
+use @g_tls_client_connection_set_server_identity[None](conn': NullablePointer[GObjectT], identity': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @g_network_address_parse_uri[NullablePointer[GSocketConnectableT]](uri': Pointer[U8] tag, default_port': U16, error': NullablePointer[GErrorT])
+use @g_network_address_parse_uri[NullablePointer[GObjectT]](uri': Pointer[U8] tag, default_port': U16, error': Pointer[NullablePointer[GErrorT]])

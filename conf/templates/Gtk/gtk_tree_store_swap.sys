@@ -1,2 +1,2 @@
-  fun swap(tree_store': NullablePointer[GtkTreeStoreT], a': NullablePointer[GtkTreeIterT], b': NullablePointer[GtkTreeIterT]): None =>
-    @gtk_tree_store_swap(tree_store', a', b')
+  fun swap(tree_store': GtkTreeStoreI, a': NullablePointer[GtkTreeIterT], b': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_store_swap(tree_store'.getptr(), a', b')

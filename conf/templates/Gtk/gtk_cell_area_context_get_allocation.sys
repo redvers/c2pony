@@ -1,2 +1,2 @@
-  fun get_allocation(context': NullablePointer[GtkCellAreaContextT], width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
-    @gtk_cell_area_context_get_allocation(context', width', height')
+  fun get_allocation(context': GtkCellAreaContextI, width': Pointer[I32] tag, height': Pointer[I32] tag): None =>
+    @gtk_cell_area_context_get_allocation(context'.getptr(), width', height')

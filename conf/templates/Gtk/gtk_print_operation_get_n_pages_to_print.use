@@ -1,1 +1,1 @@
-use @gtk_print_operation_get_n_pages_to_print[I32](op': NullablePointer[GtkPrintOperationT])
+use @gtk_print_operation_get_n_pages_to_print[I32](op': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun ref communicate_utf8_finish(result': NullablePointer[GAsyncResultT], stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': GError): I32 =>
+  fun ref communicate_utf8_finish(result': GAsyncResultI, stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GSubprocessP.communicate_utf8_finish(this, result', stdout_buf', stderr_buf', error')

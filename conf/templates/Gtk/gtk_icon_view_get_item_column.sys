@@ -1,2 +1,2 @@
-  fun get_item_column(icon_view': NullablePointer[GtkIconViewT], path': NullablePointer[GtkTreePathT]): I32 =>
-    @gtk_icon_view_get_item_column(icon_view', path')
+  fun get_item_column(icon_view': GtkIconViewI, path': NullablePointer[GtkTreePathT]): I32 =>
+    @gtk_icon_view_get_item_column(icon_view'.getptr(), path')

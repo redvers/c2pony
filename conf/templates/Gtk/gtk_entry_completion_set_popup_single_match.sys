@@ -1,2 +1,2 @@
-  fun set_popup_single_match(completion': NullablePointer[GtkEntryCompletionT], popup_single_match': I32): None =>
-    @gtk_entry_completion_set_popup_single_match(completion', popup_single_match')
+  fun set_popup_single_match(completion': GtkEntryCompletionI, popup_single_match': I32): None =>
+    @gtk_entry_completion_set_popup_single_match(completion'.getptr(), popup_single_match')

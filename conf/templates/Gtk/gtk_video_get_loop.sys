@@ -1,2 +1,2 @@
-  fun get_loop(self': NullablePointer[GtkVideoT]): I32 =>
-    @gtk_video_get_loop(self')
+  fun get_loop(self': GtkVideoI): I32 =>
+    @gtk_video_get_loop(self'.getptr())

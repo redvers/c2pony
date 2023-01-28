@@ -1,2 +1,2 @@
-  fun ref close_async(io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref close_async(io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GFileEnumeratorP.close_async(this, io_priority', cancellable', callback', user_data')

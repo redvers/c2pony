@@ -1,2 +1,2 @@
-  fun get_end_widget(self': NullablePointer[GtkCenterLayoutT]): NullablePointer[GObjectT] =>
-@gtk_center_layout_get_end_widget(self')
+  fun get_end_widget(self': GtkCenterLayoutI): NullablePointer[GObjectT] =>
+@gtk_center_layout_get_end_widget(self'.getptr())

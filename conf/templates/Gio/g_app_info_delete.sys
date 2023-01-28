@@ -1,2 +1,2 @@
-  fun delete(appinfo': NullablePointer[GAppInfoT]): I32 =>
-    @g_app_info_delete(appinfo')
+  fun delete(appinfo': GAppInfoI): I32 =>
+    @g_app_info_delete(appinfo'.getptr())

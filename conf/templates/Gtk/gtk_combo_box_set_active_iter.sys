@@ -1,2 +1,2 @@
-  fun set_active_iter(combo_box': NullablePointer[GtkComboBoxT], iter': NullablePointer[GtkTreeIterT]): None =>
-    @gtk_combo_box_set_active_iter(combo_box', iter')
+  fun set_active_iter(combo_box': GtkComboBoxI, iter': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_combo_box_set_active_iter(combo_box'.getptr(), iter')

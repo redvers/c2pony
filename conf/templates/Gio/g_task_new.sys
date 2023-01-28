@@ -1,2 +1,2 @@
-  new gnew(source_object': Pointer[None] tag, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, callback_data': Pointer[None] tag) =>
-    ptr = @g_task_new(source_object', cancellable', callback', callback_data')
+  new gnew(source_object': Pointer[None] tag, cancellable': GCancellableI, callback': GAsyncReadyCallback, callback_data': Pointer[None] tag) =>
+    ptr = @g_task_new(source_object', cancellable'.getptr(), callback', callback_data')

@@ -1,2 +1,2 @@
-  fun ref call_sync(method_name': String, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GVariantT] =>
+  fun ref call_sync(method_name': String, parameters': NullablePointer[GVariantT], flags': U32, timeout_msec': I32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GVariantT] =>
     GDBusProxyP.call_sync(this, method_name', parameters', flags', timeout_msec', cancellable', error')

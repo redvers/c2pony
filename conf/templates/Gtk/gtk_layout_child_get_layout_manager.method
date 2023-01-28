@@ -1,2 +1,2 @@
-  fun ref get_layout_manager(): NullablePointer[GtkLayoutManagerT] =>
+  fun ref get_layout_manager(): NullablePointer[GObjectT] =>
     GtkLayoutChildP.get_layout_manager(this)

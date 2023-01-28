@@ -1,2 +1,2 @@
-  fun get_user_data(res': NullablePointer[GAsyncResultT]): Pointer[None] tag =>
-    @g_async_result_get_user_data(res')
+  fun get_user_data(res': GAsyncResultI): Pointer[None] tag =>
+    @g_async_result_get_user_data(res'.getptr())

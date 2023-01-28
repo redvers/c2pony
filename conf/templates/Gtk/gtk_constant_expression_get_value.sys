@@ -1,2 +1,2 @@
-  fun get_value(expression': NullablePointer[GtkExpressionT]): NullablePointer[GValueT] =>
-    @gtk_constant_expression_get_value(expression')
+  fun get_value(expression': GtkExpressionI): NullablePointer[GValueT] =>
+    @gtk_constant_expression_get_value(expression'.getptr())

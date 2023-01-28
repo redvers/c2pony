@@ -1,2 +1,2 @@
-  fun set_permission(button': NullablePointer[GtkLockButtonT], permission': NullablePointer[GPermissionT]): None =>
-    @gtk_lock_button_set_permission(button', permission')
+  fun set_permission(button': GtkLockButtonI, permission': GPermissionI): None =>
+    @gtk_lock_button_set_permission(button'.getptr(), permission'.getptr())

@@ -1,2 +1,2 @@
-  fun ref connect_to_service(domain': String, service': String, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GSocketConnectionT] =>
+  fun ref connect_to_service(domain': String, service': String, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GSocketClientP.connect_to_service(this, domain', service', cancellable', error')

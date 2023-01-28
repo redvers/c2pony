@@ -1,1 +1,1 @@
-use @g_drive_enumerate_identifiers[Pointer[Pointer[U8]] tag](drive': NullablePointer[GDriveT])
+use @g_drive_enumerate_identifiers[Pointer[Pointer[U8]] tag](drive': NullablePointer[GObjectT])

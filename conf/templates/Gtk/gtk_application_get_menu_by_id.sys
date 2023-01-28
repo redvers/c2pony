@@ -1,2 +1,2 @@
-  fun get_menu_by_id(application': GtkApplicationI, id': String): NullablePointer[GMenuT] =>
-    @gtk_application_get_menu_by_id(application'.getptr(), id'.cstring())
+  fun get_menu_by_id(application': GtkApplicationI, id': String): NullablePointer[GObjectT] =>
+@gtk_application_get_menu_by_id(application'.getptr(), id'.cstring())

@@ -1,2 +1,2 @@
-  fun get_spacing(box': NullablePointer[GtkBoxT]): I32 =>
-    @gtk_box_get_spacing(box')
+  fun get_spacing(box': GtkBoxI): I32 =>
+    @gtk_box_get_spacing(box'.getptr())

@@ -1,1 +1,1 @@
-use @g_io_stream_is_closed[I32](stream': NullablePointer[GIOStreamT])
+use @g_io_stream_is_closed[I32](stream': NullablePointer[GObjectT])

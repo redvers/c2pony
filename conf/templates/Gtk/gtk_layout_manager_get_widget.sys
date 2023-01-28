@@ -1,2 +1,2 @@
-  fun get_widget(manager': NullablePointer[GtkLayoutManagerT]): NullablePointer[GObjectT] =>
-@gtk_layout_manager_get_widget(manager')
+  fun get_widget(manager': GtkLayoutManagerI): NullablePointer[GObjectT] =>
+@gtk_layout_manager_get_widget(manager'.getptr())

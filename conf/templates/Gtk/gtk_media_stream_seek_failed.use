@@ -1,1 +1,1 @@
-use @gtk_media_stream_seek_failed[None](self': NullablePointer[GtkMediaStreamT])
+use @gtk_media_stream_seek_failed[None](self': NullablePointer[GObjectT])

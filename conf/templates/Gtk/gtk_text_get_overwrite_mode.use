@@ -1,1 +1,1 @@
-use @gtk_text_get_overwrite_mode[I32](self': NullablePointer[GtkTextT])
+use @gtk_text_get_overwrite_mode[I32](self': NullablePointer[GObjectT])

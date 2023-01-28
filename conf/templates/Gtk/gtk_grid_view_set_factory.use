@@ -1,1 +1,1 @@
-use @gtk_grid_view_set_factory[None](self': NullablePointer[GtkGridViewT], factory': NullablePointer[GObjectT])
+use @gtk_grid_view_set_factory[None](self': NullablePointer[GObjectT], factory': NullablePointer[GObjectT])

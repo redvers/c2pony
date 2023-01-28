@@ -1,2 +1,2 @@
-  fun ref set_expression(expression': NullablePointer[GtkExpressionT]): None =>
+  fun ref set_expression(expression': GtkExpressionI): None =>
     GtkStringFilterP.set_expression(this, expression')

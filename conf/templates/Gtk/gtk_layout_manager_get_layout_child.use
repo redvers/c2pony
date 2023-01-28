@@ -1,1 +1,1 @@
-use @gtk_layout_manager_get_layout_child[NullablePointer[GtkLayoutChildT]](manager': NullablePointer[GtkLayoutManagerT], child': NullablePointer[GObjectT])
+use @gtk_layout_manager_get_layout_child[NullablePointer[GObjectT]](manager': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

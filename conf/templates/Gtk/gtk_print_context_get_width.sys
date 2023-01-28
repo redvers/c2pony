@@ -1,2 +1,2 @@
-  fun get_width(context': NullablePointer[GtkPrintContextT]): F64 =>
-    @gtk_print_context_get_width(context')
+  fun get_width(context': GtkPrintContextI): F64 =>
+    @gtk_print_context_get_width(context'.getptr())

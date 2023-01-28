@@ -1,1 +1,1 @@
-use @gtk_range_set_value[None](range': NullablePointer[GtkRangeT], value': F64)
+use @gtk_range_set_value[None](range': NullablePointer[GObjectT], value': F64)

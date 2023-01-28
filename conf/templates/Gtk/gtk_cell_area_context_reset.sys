@@ -1,2 +1,2 @@
-  fun reset(context': NullablePointer[GtkCellAreaContextT]): None =>
-    @gtk_cell_area_context_reset(context')
+  fun reset(context': GtkCellAreaContextI): None =>
+    @gtk_cell_area_context_reset(context'.getptr())

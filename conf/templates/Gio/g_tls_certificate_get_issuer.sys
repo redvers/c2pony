@@ -1,2 +1,2 @@
-  fun get_issuer(cert': NullablePointer[GTlsCertificateT]): NullablePointer[GTlsCertificateT] =>
-    @g_tls_certificate_get_issuer(cert')
+  fun get_issuer(cert': GTlsCertificateI): NullablePointer[GObjectT] =>
+@g_tls_certificate_get_issuer(cert'.getptr())

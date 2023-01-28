@@ -1,2 +1,2 @@
-  fun get_max_content_width(scrolled_window': NullablePointer[GtkScrolledWindowT]): I32 =>
-    @gtk_scrolled_window_get_max_content_width(scrolled_window')
+  fun get_max_content_width(scrolled_window': GtkScrolledWindowI): I32 =>
+    @gtk_scrolled_window_get_max_content_width(scrolled_window'.getptr())

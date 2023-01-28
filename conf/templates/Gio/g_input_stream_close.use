@@ -1,1 +1,1 @@
-use @g_input_stream_close[I32](stream': NullablePointer[GInputStreamT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_input_stream_close[I32](stream': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,2 @@
-  fun set_certificate(conn': NullablePointer[GTlsConnectionT], certificate': NullablePointer[GTlsCertificateT]): None =>
-    @g_tls_connection_set_certificate(conn', certificate')
+  fun set_certificate(conn': GTlsConnectionI, certificate': GTlsCertificateI): None =>
+    @g_tls_connection_set_certificate(conn'.getptr(), certificate'.getptr())

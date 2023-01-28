@@ -1,2 +1,2 @@
-  fun steal_as_bytes(ostream': NullablePointer[GMemoryOutputStreamT]): NullablePointer[GBytesT] =>
-    @g_memory_output_stream_steal_as_bytes(ostream')
+  fun steal_as_bytes(ostream': GMemoryOutputStreamI): NullablePointer[GBytesT] =>
+    @g_memory_output_stream_steal_as_bytes(ostream'.getptr())

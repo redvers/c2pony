@@ -1,2 +1,2 @@
-  fun ref set_im_context(im_context': NullablePointer[GtkIMContextT]): None =>
+  fun ref set_im_context(im_context': GtkIMContextI): None =>
     GtkEventControllerKeyP.set_im_context(this, im_context')

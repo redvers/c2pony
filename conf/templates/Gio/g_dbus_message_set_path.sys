@@ -1,2 +1,2 @@
-  fun set_path(message': NullablePointer[GDBusMessageT], value': String): None =>
-    @g_dbus_message_set_path(message', value'.cstring())
+  fun set_path(message': GDBusMessageI, value': String): None =>
+    @g_dbus_message_set_path(message'.getptr(), value'.cstring())

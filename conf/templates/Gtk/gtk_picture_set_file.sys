@@ -1,2 +1,2 @@
-  fun set_file(self': NullablePointer[GtkPictureT], file': NullablePointer[GFileT]): None =>
-    @gtk_picture_set_file(self', file')
+  fun set_file(self': GtkPictureI, file': GFileI): None =>
+    @gtk_picture_set_file(self'.getptr(), file'.getptr())

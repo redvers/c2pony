@@ -1,2 +1,2 @@
-  fun get_tls(client': NullablePointer[GSocketClientT]): I32 =>
-    @g_socket_client_get_tls(client')
+  fun get_tls(client': GSocketClientI): I32 =>
+    @g_socket_client_get_tls(client'.getptr())

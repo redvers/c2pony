@@ -1,1 +1,1 @@
-use @gtk_list_box_selected_foreach[None](box': NullablePointer[GtkListBoxT], func': GtkListBoxForeachFunc, data': Pointer[None] tag)
+use @gtk_list_box_selected_foreach[None](box': NullablePointer[GObjectT], func': GtkListBoxForeachFunc, data': Pointer[None] tag)

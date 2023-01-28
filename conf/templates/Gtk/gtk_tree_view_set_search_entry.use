@@ -1,1 +1,1 @@
-use @gtk_tree_view_set_search_entry[None](tree_view': NullablePointer[GtkTreeViewT], entry': NullablePointer[GtkEditableT])
+use @gtk_tree_view_set_search_entry[None](tree_view': NullablePointer[GObjectT], entry': NullablePointer[GObjectT])

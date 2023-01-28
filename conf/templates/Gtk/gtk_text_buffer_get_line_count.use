@@ -1,1 +1,1 @@
-use @gtk_text_buffer_get_line_count[I32](buffer': NullablePointer[GtkTextBufferT])
+use @gtk_text_buffer_get_line_count[I32](buffer': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @g_simple_async_result_new_take_error[NullablePointer[GSimpleAsyncResultT]](source_object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, error': NullablePointer[GErrorT])
+use @g_simple_async_result_new_take_error[NullablePointer[GObjectT]](source_object': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag, error': NullablePointer[GErrorT])

@@ -1,2 +1,2 @@
-  fun to_bytes(address': NullablePointer[GInetAddressT]): String iso^ =>
-    String.from_cstring(@g_inet_address_to_bytes(address')).clone()
+  fun to_bytes(address': GInetAddressI): String iso^ =>
+    String.from_cstring(@g_inet_address_to_bytes(address'.getptr())).clone()

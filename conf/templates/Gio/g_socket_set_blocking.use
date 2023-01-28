@@ -1,1 +1,1 @@
-use @g_socket_set_blocking[None](socket': NullablePointer[GSocketT], blocking': I32)
+use @g_socket_set_blocking[None](socket': NullablePointer[GObjectT], blocking': I32)

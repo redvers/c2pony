@@ -1,1 +1,1 @@
-use @gtk_text_buffer_backspace[I32](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], interactive': I32, default_editable': I32)
+use @gtk_text_buffer_backspace[I32](buffer': NullablePointer[GObjectT], iter': NullablePointer[GtkTextIterT], interactive': I32, default_editable': I32)

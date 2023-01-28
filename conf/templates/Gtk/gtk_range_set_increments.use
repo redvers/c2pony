@@ -1,1 +1,1 @@
-use @gtk_range_set_increments[None](range': NullablePointer[GtkRangeT], step': F64, page': F64)
+use @gtk_range_set_increments[None](range': NullablePointer[GObjectT], step': F64, page': F64)

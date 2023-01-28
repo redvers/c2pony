@@ -1,2 +1,2 @@
-  fun replace_contents(file': NullablePointer[GFileT], contents': String, length': U64, etag': String, make_backup': I32, flags': U32, new_etag': Pointer[Pointer[U8]] tag, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_file_replace_contents(file', contents'.cstring(), length', etag'.cstring(), make_backup', flags', new_etag', cancellable', error'.ptr)
+  fun replace_contents(file': GFileI, contents': String, length': U64, etag': String, make_backup': I32, flags': U32, new_etag': Pointer[Pointer[U8]] tag, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_replace_contents(file'.getptr(), contents'.cstring(), length', etag'.cstring(), make_backup', flags', new_etag', cancellable'.getptr(), error')

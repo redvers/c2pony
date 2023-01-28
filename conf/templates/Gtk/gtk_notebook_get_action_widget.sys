@@ -1,2 +1,2 @@
-  fun get_action_widget(notebook': NullablePointer[GtkNotebookT], pack_type': U32): NullablePointer[GObjectT] =>
-@gtk_notebook_get_action_widget(notebook', pack_type')
+  fun get_action_widget(notebook': GtkNotebookI, pack_type': U32): NullablePointer[GObjectT] =>
+@gtk_notebook_get_action_widget(notebook'.getptr(), pack_type')

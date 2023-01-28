@@ -1,2 +1,2 @@
-  fun list_windows(window_group': NullablePointer[GtkWindowGroupT]): NullablePointer[GListT] =>
-    @gtk_window_group_list_windows(window_group')
+  fun list_windows(window_group': GtkWindowGroupI): NullablePointer[GListT] =>
+    @gtk_window_group_list_windows(window_group'.getptr())

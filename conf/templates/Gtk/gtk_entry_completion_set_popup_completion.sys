@@ -1,2 +1,2 @@
-  fun set_popup_completion(completion': NullablePointer[GtkEntryCompletionT], popup_completion': I32): None =>
-    @gtk_entry_completion_set_popup_completion(completion', popup_completion')
+  fun set_popup_completion(completion': GtkEntryCompletionI, popup_completion': I32): None =>
+    @gtk_entry_completion_set_popup_completion(completion'.getptr(), popup_completion')

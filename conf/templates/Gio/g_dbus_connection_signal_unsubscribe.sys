@@ -1,2 +1,2 @@
-  fun signal_unsubscribe(connection': NullablePointer[GDBusConnectionT], subscription_id': U32): None =>
-    @g_dbus_connection_signal_unsubscribe(connection', subscription_id')
+  fun signal_unsubscribe(connection': GDBusConnectionI, subscription_id': U32): None =>
+    @g_dbus_connection_signal_unsubscribe(connection'.getptr(), subscription_id')

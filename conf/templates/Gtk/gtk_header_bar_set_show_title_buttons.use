@@ -1,1 +1,1 @@
-use @gtk_header_bar_set_show_title_buttons[None](bar': NullablePointer[GtkHeaderBarT], setting': I32)
+use @gtk_header_bar_set_show_title_buttons[None](bar': NullablePointer[GObjectT], setting': I32)

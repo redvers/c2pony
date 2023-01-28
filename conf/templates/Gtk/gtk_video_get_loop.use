@@ -1,1 +1,1 @@
-use @gtk_video_get_loop[I32](self': NullablePointer[GtkVideoT])
+use @gtk_video_get_loop[I32](self': NullablePointer[GObjectT])

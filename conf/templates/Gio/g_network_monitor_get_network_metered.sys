@@ -1,2 +1,2 @@
-  fun get_network_metered(monitor': NullablePointer[GNetworkMonitorT]): I32 =>
-    @g_network_monitor_get_network_metered(monitor')
+  fun get_network_metered(monitor': GNetworkMonitorI): I32 =>
+    @g_network_monitor_get_network_metered(monitor'.getptr())

@@ -1,2 +1,2 @@
-  fun set_title(self': NullablePointer[GtkStackPageT], setting': String): None =>
-    @gtk_stack_page_set_title(self', setting'.cstring())
+  fun set_title(self': GtkStackPageI, setting': String): None =>
+    @gtk_stack_page_set_title(self'.getptr(), setting'.cstring())

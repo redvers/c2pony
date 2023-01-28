@@ -1,1 +1,1 @@
-use @gtk_cell_layout_pack_start[None](cell_layout': NullablePointer[GtkCellLayoutT], cell': NullablePointer[GtkCellRendererT], expand': I32)
+use @gtk_cell_layout_pack_start[None](cell_layout': NullablePointer[GObjectT], cell': NullablePointer[GObjectT], expand': I32)

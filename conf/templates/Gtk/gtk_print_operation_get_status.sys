@@ -1,2 +1,2 @@
-  fun get_status(op': NullablePointer[GtkPrintOperationT]): U32 =>
-    @gtk_print_operation_get_status(op')
+  fun get_status(op': GtkPrintOperationI): U32 =>
+    @gtk_print_operation_get_status(op'.getptr())

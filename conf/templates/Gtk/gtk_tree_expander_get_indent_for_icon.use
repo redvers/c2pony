@@ -1,1 +1,1 @@
-use @gtk_tree_expander_get_indent_for_icon[I32](self': NullablePointer[GtkTreeExpanderT])
+use @gtk_tree_expander_get_indent_for_icon[I32](self': NullablePointer[GObjectT])

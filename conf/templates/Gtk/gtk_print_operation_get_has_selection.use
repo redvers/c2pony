@@ -1,1 +1,1 @@
-use @gtk_print_operation_get_has_selection[I32](op': NullablePointer[GtkPrintOperationT])
+use @gtk_print_operation_get_has_selection[I32](op': NullablePointer[GObjectT])

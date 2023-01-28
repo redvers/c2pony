@@ -1,1 +1,1 @@
-use @gtk_drop_down_get_list_factory[NullablePointer[GObjectT]](self': NullablePointer[GtkDropDownT])
+use @gtk_drop_down_get_list_factory[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

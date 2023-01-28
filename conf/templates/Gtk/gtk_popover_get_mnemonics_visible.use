@@ -1,1 +1,1 @@
-use @gtk_popover_get_mnemonics_visible[I32](popover': NullablePointer[GtkPopoverT])
+use @gtk_popover_get_mnemonics_visible[I32](popover': NullablePointer[GObjectT])

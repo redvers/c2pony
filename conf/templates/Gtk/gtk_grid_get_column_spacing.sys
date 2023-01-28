@@ -1,2 +1,2 @@
-  fun get_column_spacing(grid': NullablePointer[GtkGridT]): U32 =>
-    @gtk_grid_get_column_spacing(grid')
+  fun get_column_spacing(grid': GtkGridI): U32 =>
+    @gtk_grid_get_column_spacing(grid'.getptr())

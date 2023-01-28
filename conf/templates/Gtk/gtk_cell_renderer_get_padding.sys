@@ -1,2 +1,2 @@
-  fun get_padding(cell': NullablePointer[GtkCellRendererT], xpad': Pointer[I32] tag, ypad': Pointer[I32] tag): None =>
-    @gtk_cell_renderer_get_padding(cell', xpad', ypad')
+  fun get_padding(cell': GtkCellRendererI, xpad': Pointer[I32] tag, ypad': Pointer[I32] tag): None =>
+    @gtk_cell_renderer_get_padding(cell'.getptr(), xpad', ypad')

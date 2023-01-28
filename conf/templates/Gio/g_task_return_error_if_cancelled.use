@@ -1,1 +1,1 @@
-use @g_task_return_error_if_cancelled[I32](task': NullablePointer[GTaskT])
+use @g_task_return_error_if_cancelled[I32](task': NullablePointer[GObjectT])

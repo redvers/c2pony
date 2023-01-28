@@ -1,2 +1,2 @@
-  fun get_ended(self': NullablePointer[GtkMediaStreamT]): I32 =>
-    @gtk_media_stream_get_ended(self')
+  fun get_ended(self': GtkMediaStreamI): I32 =>
+    @gtk_media_stream_get_ended(self'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_style_context_get_color[None](context': NullablePointer[GtkStyleContextT], color': NullablePointer[GdkRGBAT])
+use @gtk_style_context_get_color[None](context': NullablePointer[GObjectT], color': NullablePointer[GdkRGBAT])

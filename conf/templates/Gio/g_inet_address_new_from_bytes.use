@@ -1,1 +1,1 @@
-use @g_inet_address_new_from_bytes[NullablePointer[GInetAddressT]](bytes': Pointer[U8] tag, family': U32)
+use @g_inet_address_new_from_bytes[NullablePointer[GObjectT]](bytes': Pointer[U8] tag, family': U32)

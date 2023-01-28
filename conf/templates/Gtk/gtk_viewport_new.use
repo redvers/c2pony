@@ -1,1 +1,1 @@
-use @gtk_viewport_new[NullablePointer[GObjectT]](hadjustment': NullablePointer[GtkAdjustmentT], vadjustment': NullablePointer[GtkAdjustmentT])
+use @gtk_viewport_new[NullablePointer[GObjectT]](hadjustment': NullablePointer[GObjectT], vadjustment': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_sorter(self': NullablePointer[GtkColumnViewT]): NullablePointer[GtkSorterT] =>
-    @gtk_column_view_get_sorter(self')
+  fun get_sorter(self': GtkColumnViewI): NullablePointer[GObjectT] =>
+@gtk_column_view_get_sorter(self'.getptr())

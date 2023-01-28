@@ -1,2 +1,2 @@
-  fun get_root(mount': NullablePointer[GMountT]): NullablePointer[GFileT] =>
-    @g_mount_get_root(mount')
+  fun get_root(mount': GMountI): NullablePointer[GObjectT] =>
+@g_mount_get_root(mount'.getptr())

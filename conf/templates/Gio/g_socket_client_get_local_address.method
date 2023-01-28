@@ -1,2 +1,2 @@
-  fun ref get_local_address(): NullablePointer[GSocketAddressT] =>
+  fun ref get_local_address(): NullablePointer[GObjectT] =>
     GSocketClientP.get_local_address(this)

@@ -1,1 +1,1 @@
-use @gtk_scrollable_get_hadjustment[NullablePointer[GtkAdjustmentT]](scrollable': NullablePointer[GtkScrollableT])
+use @gtk_scrollable_get_hadjustment[NullablePointer[GObjectT]](scrollable': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun request_renderer(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], orientation': U32, widget': GtkWidgetI, for_size': I32, minimum_size': Pointer[I32] tag, natural_size': Pointer[I32] tag): None =>
-    @gtk_cell_area_request_renderer(area', renderer', orientation', widget'.getptr(), for_size', minimum_size', natural_size')
+  fun request_renderer(area': GtkCellAreaI, renderer': GtkCellRendererI, orientation': U32, widget': GtkWidgetI, for_size': I32, minimum_size': Pointer[I32] tag, natural_size': Pointer[I32] tag): None =>
+    @gtk_cell_area_request_renderer(area'.getptr(), renderer'.getptr(), orientation', widget'.getptr(), for_size', minimum_size', natural_size')

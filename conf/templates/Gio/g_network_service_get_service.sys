@@ -1,2 +1,2 @@
-  fun get_service(srv': NullablePointer[GNetworkServiceT]): String iso^ =>
-    String.from_cstring(@g_network_service_get_service(srv')).clone()
+  fun get_service(srv': GNetworkServiceI): String iso^ =>
+    String.from_cstring(@g_network_service_get_service(srv'.getptr())).clone()

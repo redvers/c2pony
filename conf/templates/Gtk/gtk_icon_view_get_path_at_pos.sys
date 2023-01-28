@@ -1,2 +1,2 @@
-  fun get_path_at_pos(icon_view': NullablePointer[GtkIconViewT], x': I32, y': I32): NullablePointer[GtkTreePathT] =>
-    @gtk_icon_view_get_path_at_pos(icon_view', x', y')
+  fun get_path_at_pos(icon_view': GtkIconViewI, x': I32, y': I32): NullablePointer[GtkTreePathT] =>
+    @gtk_icon_view_get_path_at_pos(icon_view'.getptr(), x', y')

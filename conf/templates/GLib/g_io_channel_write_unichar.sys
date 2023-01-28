@@ -1,2 +1,2 @@
-  fun write_unichar(channel': NullablePointer[GIOChannelT], thechar': U32, error': GError): U32 =>
-    @g_io_channel_write_unichar(channel', thechar', error'.ptr)
+  fun write_unichar(channel': NullablePointer[GIOChannelT], thechar': U32, error': Pointer[NullablePointer[GErrorT]]): U32 =>
+    @g_io_channel_write_unichar(channel', thechar', error')

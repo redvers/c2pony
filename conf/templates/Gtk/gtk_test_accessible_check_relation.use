@@ -1,1 +1,1 @@
-use @gtk_test_accessible_check_relation[Pointer[U8]](accessible': NullablePointer[GtkAccessibleT], relation': U32, ...)
+use @gtk_test_accessible_check_relation[Pointer[U8]](accessible': NullablePointer[GObjectT], relation': U32, ...)

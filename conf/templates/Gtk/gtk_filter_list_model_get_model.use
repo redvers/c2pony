@@ -1,1 +1,1 @@
-use @gtk_filter_list_model_get_model[NullablePointer[GObjectT]](self': NullablePointer[GtkFilterListModelT])
+use @gtk_filter_list_model_get_model[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

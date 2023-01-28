@@ -1,1 +1,1 @@
-use @gtk_revealer_set_transition_type[None](revealer': NullablePointer[GtkRevealerT], transition': U32)
+use @gtk_revealer_set_transition_type[None](revealer': NullablePointer[GObjectT], transition': U32)

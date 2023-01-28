@@ -1,2 +1,2 @@
-  fun set_resize_toplevel(expander': NullablePointer[GtkExpanderT], resize_toplevel': I32): None =>
-    @gtk_expander_set_resize_toplevel(expander', resize_toplevel')
+  fun set_resize_toplevel(expander': GtkExpanderI, resize_toplevel': I32): None =>
+    @gtk_expander_set_resize_toplevel(expander'.getptr(), resize_toplevel')

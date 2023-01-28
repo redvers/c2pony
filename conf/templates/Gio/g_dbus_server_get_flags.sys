@@ -1,2 +1,2 @@
-  fun get_flags(server': NullablePointer[GDBusServerT]): U32 =>
-    @g_dbus_server_get_flags(server')
+  fun get_flags(server': GDBusServerI): U32 =>
+    @g_dbus_server_get_flags(server'.getptr())

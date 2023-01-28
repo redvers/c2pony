@@ -1,2 +1,2 @@
-  fun get_min_value(self': NullablePointer[GtkLevelBarT]): F64 =>
-    @gtk_level_bar_get_min_value(self')
+  fun get_min_value(self': GtkLevelBarI): F64 =>
+    @gtk_level_bar_get_min_value(self'.getptr())

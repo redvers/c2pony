@@ -1,2 +1,2 @@
-  fun set_nat_size(guide': NullablePointer[GtkConstraintGuideT], width': I32, height': I32): None =>
-    @gtk_constraint_guide_set_nat_size(guide', width', height')
+  fun set_nat_size(guide': GtkConstraintGuideI, width': I32, height': I32): None =>
+    @gtk_constraint_guide_set_nat_size(guide'.getptr(), width', height')

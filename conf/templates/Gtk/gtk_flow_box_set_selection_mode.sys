@@ -1,2 +1,2 @@
-  fun set_selection_mode(box': NullablePointer[GtkFlowBoxT], mode': U32): None =>
-    @gtk_flow_box_set_selection_mode(box', mode')
+  fun set_selection_mode(box': GtkFlowBoxI, mode': U32): None =>
+    @gtk_flow_box_set_selection_mode(box'.getptr(), mode')

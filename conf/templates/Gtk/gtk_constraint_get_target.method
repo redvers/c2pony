@@ -1,2 +1,2 @@
-  fun ref get_target(): NullablePointer[GtkConstraintTargetT] =>
+  fun ref get_target(): NullablePointer[GObjectT] =>
     GtkConstraintP.get_target(this)

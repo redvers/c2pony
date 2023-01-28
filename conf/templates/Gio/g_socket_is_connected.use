@@ -1,1 +1,1 @@
-use @g_socket_is_connected[I32](socket': NullablePointer[GSocketT])
+use @g_socket_is_connected[I32](socket': NullablePointer[GObjectT])

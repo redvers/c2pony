@@ -1,2 +1,2 @@
-  fun ref render_insertion_cursor(context': NullablePointer[GtkStyleContextT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT], index': I32, direction': U32): None =>
+  fun ref render_insertion_cursor(context': GtkStyleContextI, x': F64, y': F64, layout': NullablePointer[PangoLayoutT], index': I32, direction': U32): None =>
     P.render_insertion_cursor(this, context', x', y', layout', index', direction')

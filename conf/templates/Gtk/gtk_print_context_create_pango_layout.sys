@@ -1,2 +1,2 @@
-  fun create_pango_layout(context': NullablePointer[GtkPrintContextT]): NullablePointer[PangoLayoutT] =>
-    @gtk_print_context_create_pango_layout(context')
+  fun create_pango_layout(context': GtkPrintContextI): NullablePointer[PangoLayoutT] =>
+    @gtk_print_context_create_pango_layout(context'.getptr())

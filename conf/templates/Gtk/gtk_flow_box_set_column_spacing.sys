@@ -1,2 +1,2 @@
-  fun set_column_spacing(box': NullablePointer[GtkFlowBoxT], spacing': U32): None =>
-    @gtk_flow_box_set_column_spacing(box', spacing')
+  fun set_column_spacing(box': GtkFlowBoxI, spacing': U32): None =>
+    @gtk_flow_box_set_column_spacing(box'.getptr(), spacing')

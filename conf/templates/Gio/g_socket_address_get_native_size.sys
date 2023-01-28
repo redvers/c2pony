@@ -1,2 +1,2 @@
-  fun get_native_size(address': NullablePointer[GSocketAddressT]): I64 =>
-    @g_socket_address_get_native_size(address')
+  fun get_native_size(address': GSocketAddressI): I64 =>
+    @g_socket_address_get_native_size(address'.getptr())

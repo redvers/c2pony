@@ -1,2 +1,2 @@
-  fun get_entry(completion': NullablePointer[GtkEntryCompletionT]): NullablePointer[GObjectT] =>
-@gtk_entry_completion_get_entry(completion')
+  fun get_entry(completion': GtkEntryCompletionI): NullablePointer[GObjectT] =>
+@gtk_entry_completion_get_entry(completion'.getptr())

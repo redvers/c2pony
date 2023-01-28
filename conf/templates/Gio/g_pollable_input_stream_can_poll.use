@@ -1,1 +1,1 @@
-use @g_pollable_input_stream_can_poll[I32](stream': NullablePointer[GPollableInputStreamT])
+use @g_pollable_input_stream_can_poll[I32](stream': NullablePointer[GObjectT])

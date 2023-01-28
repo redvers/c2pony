@@ -1,2 +1,2 @@
-  fun get_show_preview_entry(fontchooser': NullablePointer[GtkFontChooserT]): I32 =>
-    @gtk_font_chooser_get_show_preview_entry(fontchooser')
+  fun get_show_preview_entry(fontchooser': GtkFontChooserI): I32 =>
+    @gtk_font_chooser_get_show_preview_entry(fontchooser'.getptr())

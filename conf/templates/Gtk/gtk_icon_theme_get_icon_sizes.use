@@ -1,1 +1,1 @@
-use @gtk_icon_theme_get_icon_sizes[Pointer[I32] tag](self': NullablePointer[GtkIconThemeT], icon_name': Pointer[U8] tag)
+use @gtk_icon_theme_get_icon_sizes[Pointer[I32] tag](self': NullablePointer[GObjectT], icon_name': Pointer[U8] tag)

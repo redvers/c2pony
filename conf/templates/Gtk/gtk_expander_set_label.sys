@@ -1,2 +1,2 @@
-  fun set_label(expander': NullablePointer[GtkExpanderT], label': String): None =>
-    @gtk_expander_set_label(expander', label'.cstring())
+  fun set_label(expander': GtkExpanderI, label': String): None =>
+    @gtk_expander_set_label(expander'.getptr(), label'.cstring())

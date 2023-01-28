@@ -1,2 +1,2 @@
-  fun get_options_dict(cmdline': NullablePointer[GApplicationCommandLineT]): NullablePointer[GVariantDictT] =>
-    @g_application_command_line_get_options_dict(cmdline')
+  fun get_options_dict(cmdline': GApplicationCommandLineI): NullablePointer[GVariantDictT] =>
+    @g_application_command_line_get_options_dict(cmdline'.getptr())

@@ -1,2 +1,2 @@
-  fun get_font_map(fontchooser': NullablePointer[GtkFontChooserT]): NullablePointer[PangoFontMapT] =>
-    @gtk_font_chooser_get_font_map(fontchooser')
+  fun get_font_map(fontchooser': GtkFontChooserI): NullablePointer[PangoFontMapT] =>
+    @gtk_font_chooser_get_font_map(fontchooser'.getptr())

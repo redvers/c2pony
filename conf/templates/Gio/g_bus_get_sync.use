@@ -1,1 +1,1 @@
-use @g_bus_get_sync[NullablePointer[GDBusConnectionT]](bus_type': I32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_bus_get_sync[NullablePointer[GObjectT]](bus_type': I32, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

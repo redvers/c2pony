@@ -1,2 +1,2 @@
-  fun set_attributes(self': NullablePointer[GtkDirectoryListT], attributes': String): None =>
-    @gtk_directory_list_set_attributes(self', attributes'.cstring())
+  fun set_attributes(self': GtkDirectoryListI, attributes': String): None =>
+    @gtk_directory_list_set_attributes(self'.getptr(), attributes'.cstring())

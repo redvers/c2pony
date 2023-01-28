@@ -1,2 +1,2 @@
-  fun set_inline_selection(completion': NullablePointer[GtkEntryCompletionT], inline_selection': I32): None =>
-    @gtk_entry_completion_set_inline_selection(completion', inline_selection')
+  fun set_inline_selection(completion': GtkEntryCompletionI, inline_selection': I32): None =>
+    @gtk_entry_completion_set_inline_selection(completion'.getptr(), inline_selection')

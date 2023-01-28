@@ -1,2 +1,2 @@
-  fun receive_from(socket': NullablePointer[GSocketT], address': Pointer[NullablePointer[GSocketAddressT]], buffer': String, size': U64, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
-    @g_socket_receive_from(socket', address', buffer'.cstring(), size', cancellable', error'.ptr)
+  fun receive_from(socket': GSocketI, address': Pointer[NullablePointer[GSocketAddressT]], buffer': String, size': U64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_socket_receive_from(socket'.getptr(), address', buffer'.cstring(), size', cancellable'.getptr(), error')

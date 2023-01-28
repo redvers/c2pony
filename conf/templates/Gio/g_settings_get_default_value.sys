@@ -1,2 +1,2 @@
-  fun get_default_value(settings': NullablePointer[GSettingsT], key': String): NullablePointer[GVariantT] =>
-    @g_settings_get_default_value(settings', key'.cstring())
+  fun get_default_value(settings': GSettingsI, key': String): NullablePointer[GVariantT] =>
+    @g_settings_get_default_value(settings'.getptr(), key'.cstring())

@@ -1,1 +1,1 @@
-use @g_file_copy_attributes[I32](source': NullablePointer[GFileT], destination': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_copy_attributes[I32](source': NullablePointer[GObjectT], destination': NullablePointer[GObjectT], flags': U32, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

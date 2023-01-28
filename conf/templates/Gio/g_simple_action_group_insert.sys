@@ -1,2 +1,2 @@
-  fun insert(simple': NullablePointer[GSimpleActionGroupT], action': GActionI): None =>
-    @g_simple_action_group_insert(simple', action'.getptr())
+  fun insert(simple': GSimpleActionGroupI, action': GActionI): None =>
+    @g_simple_action_group_insert(simple'.getptr(), action'.getptr())

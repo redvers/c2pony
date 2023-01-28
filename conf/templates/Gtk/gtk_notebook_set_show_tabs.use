@@ -1,1 +1,1 @@
-use @gtk_notebook_set_show_tabs[None](notebook': NullablePointer[GtkNotebookT], show_tabs': I32)
+use @gtk_notebook_set_show_tabs[None](notebook': NullablePointer[GObjectT], show_tabs': I32)

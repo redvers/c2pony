@@ -1,2 +1,2 @@
-  fun set_start_widget(self': NullablePointer[GtkCenterBoxT], child': GtkWidgetI): None =>
-    @gtk_center_box_set_start_widget(self', child'.getptr())
+  fun set_start_widget(self': GtkCenterBoxI, child': GtkWidgetI): None =>
+    @gtk_center_box_set_start_widget(self'.getptr(), child'.getptr())

@@ -1,2 +1,2 @@
-  fun ref add(renderer': NullablePointer[GtkCellRendererT]): None =>
+  fun ref add(renderer': GtkCellRendererI): None =>
     GtkCellAreaP.add(this, renderer')

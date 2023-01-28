@@ -1,1 +1,1 @@
-use @gtk_show_uri_full_finish[I32](parent': NullablePointer[GObjectT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @gtk_show_uri_full_finish[I32](parent': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': NullablePointer[GErrorT])

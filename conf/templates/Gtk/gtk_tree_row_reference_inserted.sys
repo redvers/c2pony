@@ -1,2 +1,2 @@
-  fun inserted(proxy': NullablePointer[GObjectT], path': NullablePointer[GtkTreePathT]): None =>
-    @gtk_tree_row_reference_inserted(proxy', path')
+  fun inserted(proxy': GObjectI, path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_tree_row_reference_inserted(proxy'.getptr(), path')

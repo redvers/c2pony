@@ -1,1 +1,1 @@
-use @g_app_launch_context_new[NullablePointer[GAppLaunchContextT]]()
+use @g_app_launch_context_new[NullablePointer[GObjectT]]()

@@ -1,2 +1,2 @@
-  fun send_message_with_reply_finish(connection': NullablePointer[GDBusConnectionT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GDBusMessageT] =>
-    @g_dbus_connection_send_message_with_reply_finish(connection', res', error'.ptr)
+  fun send_message_with_reply_finish(connection': GDBusConnectionI, res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_dbus_connection_send_message_with_reply_finish(connection'.getptr(), res'.getptr(), error')

@@ -1,2 +1,2 @@
-  fun get_return_on_cancel(task': NullablePointer[GTaskT]): I32 =>
-    @g_task_get_return_on_cancel(task')
+  fun get_return_on_cancel(task': GTaskI): I32 =>
+    @g_task_get_return_on_cancel(task'.getptr())

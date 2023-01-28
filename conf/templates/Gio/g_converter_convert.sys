@@ -1,2 +1,2 @@
-  fun convert(converter': NullablePointer[GConverterT], inbuf': Pointer[None] tag, inbuf_size': U64, outbuf': Pointer[None] tag, outbuf_size': U64, flags': U32, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': GError): U32 =>
-    @g_converter_convert(converter', inbuf', inbuf_size', outbuf', outbuf_size', flags', bytes_read', bytes_written', error'.ptr)
+  fun convert(converter': GConverterI, inbuf': Pointer[None] tag, inbuf_size': U64, outbuf': Pointer[None] tag, outbuf_size': U64, flags': U32, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): U32 =>
+    @g_converter_convert(converter'.getptr(), inbuf', inbuf_size', outbuf', outbuf_size', flags', bytes_read', bytes_written', error')

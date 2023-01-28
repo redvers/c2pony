@@ -1,2 +1,2 @@
-  fun ref load_from_file(file': NullablePointer[GFileT]): None =>
+  fun ref load_from_file(file': GFileI): None =>
     GtkCssProviderP.load_from_file(this, file')

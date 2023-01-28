@@ -1,2 +1,2 @@
-  fun set_signature(message': NullablePointer[GDBusMessageT], value': String): None =>
-    @g_dbus_message_set_signature(message', value'.cstring())
+  fun set_signature(message': GDBusMessageI, value': String): None =>
+    @g_dbus_message_set_signature(message'.getptr(), value'.cstring())

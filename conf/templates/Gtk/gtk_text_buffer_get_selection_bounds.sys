@@ -1,2 +1,2 @@
-  fun get_selection_bounds(buffer': NullablePointer[GtkTextBufferT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): I32 =>
-    @gtk_text_buffer_get_selection_bounds(buffer', start', end')
+  fun get_selection_bounds(buffer': GtkTextBufferI, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): I32 =>
+    @gtk_text_buffer_get_selection_bounds(buffer'.getptr(), start', end')

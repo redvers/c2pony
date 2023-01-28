@@ -1,2 +1,2 @@
-  fun set_child(combo_box': NullablePointer[GtkComboBoxT], child': GtkWidgetI): None =>
-    @gtk_combo_box_set_child(combo_box', child'.getptr())
+  fun set_child(combo_box': GtkComboBoxI, child': GtkWidgetI): None =>
+    @gtk_combo_box_set_child(combo_box'.getptr(), child'.getptr())

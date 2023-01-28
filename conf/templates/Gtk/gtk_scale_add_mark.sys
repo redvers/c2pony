@@ -1,2 +1,2 @@
-  fun add_mark(scale': NullablePointer[GtkScaleT], value': F64, position': U32, markup': String): None =>
-    @gtk_scale_add_mark(scale', value', position', markup'.cstring())
+  fun add_mark(scale': GtkScaleI, value': F64, position': U32, markup': String): None =>
+    @gtk_scale_add_mark(scale'.getptr(), value', position', markup'.cstring())

@@ -1,2 +1,2 @@
-  fun force_exit(subprocess': NullablePointer[GSubprocessT]): None =>
-    @g_subprocess_force_exit(subprocess')
+  fun force_exit(subprocess': GSubprocessI): None =>
+    @g_subprocess_force_exit(subprocess'.getptr())

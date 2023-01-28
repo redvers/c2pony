@@ -1,2 +1,2 @@
-  fun clear_pending(stream': NullablePointer[GOutputStreamT]): None =>
-    @g_output_stream_clear_pending(stream')
+  fun clear_pending(stream': GOutputStreamI): None =>
+    @g_output_stream_clear_pending(stream'.getptr())

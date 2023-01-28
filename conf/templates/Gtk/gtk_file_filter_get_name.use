@@ -1,1 +1,1 @@
-use @gtk_file_filter_get_name[Pointer[U8]](filter': NullablePointer[GtkFileFilterT])
+use @gtk_file_filter_get_name[Pointer[U8]](filter': NullablePointer[GObjectT])

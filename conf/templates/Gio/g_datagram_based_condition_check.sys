@@ -1,2 +1,2 @@
-  fun condition_check(datagram_based': NullablePointer[GDatagramBasedT], condition': U32): U32 =>
-    @g_datagram_based_condition_check(datagram_based', condition')
+  fun condition_check(datagram_based': GDatagramBasedI, condition': U32): U32 =>
+    @g_datagram_based_condition_check(datagram_based'.getptr(), condition')

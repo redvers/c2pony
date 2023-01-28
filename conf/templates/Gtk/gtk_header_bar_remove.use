@@ -1,1 +1,1 @@
-use @gtk_header_bar_remove[None](bar': NullablePointer[GtkHeaderBarT], child': NullablePointer[GObjectT])
+use @gtk_header_bar_remove[None](bar': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun lookup_by_name_async(resolver': NullablePointer[GResolverT], hostname': String, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_resolver_lookup_by_name_async(resolver', hostname'.cstring(), cancellable', callback', user_data')
+  fun lookup_by_name_async(resolver': GResolverI, hostname': String, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_resolver_lookup_by_name_async(resolver'.getptr(), hostname'.cstring(), cancellable'.getptr(), callback', user_data')

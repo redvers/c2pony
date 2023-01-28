@@ -1,1 +1,1 @@
-use @g_resolver_set_default[None](resolver': NullablePointer[GResolverT])
+use @g_resolver_set_default[None](resolver': NullablePointer[GObjectT])

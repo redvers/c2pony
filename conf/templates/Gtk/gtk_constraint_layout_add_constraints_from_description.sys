@@ -1,2 +1,2 @@
-  fun add_constraints_from_description(layout': NullablePointer[GtkConstraintLayoutT], lines': Pointer[Pointer[U8]] tag, n_lines': U64, hspacing': I32, vspacing': I32, error': GError, first_view': String, ...): NullablePointer[GListT] =>
-    @gtk_constraint_layout_add_constraints_from_description(layout', lines', n_lines', hspacing', vspacing', error'.ptr, first_view'.cstring(), ...)
+  fun add_constraints_from_description(layout': GtkConstraintLayoutI, lines': Pointer[Pointer[U8]] tag, n_lines': U64, hspacing': I32, vspacing': I32, error': GError, first_view': String, ...): NullablePointer[GListT] =>
+    @gtk_constraint_layout_add_constraints_from_description(layout'.getptr(), lines', n_lines', hspacing', vspacing', error'.ptr, first_view'.cstring(), ...)

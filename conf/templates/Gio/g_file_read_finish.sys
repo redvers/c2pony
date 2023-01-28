@@ -1,2 +1,2 @@
-  fun read_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GFileInputStreamT] =>
-    @g_file_read_finish(file', res', error'.ptr)
+  fun read_finish(file': GFileI, res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_read_finish(file'.getptr(), res'.getptr(), error')

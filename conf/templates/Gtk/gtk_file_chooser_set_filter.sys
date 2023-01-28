@@ -1,2 +1,2 @@
-  fun set_filter(chooser': NullablePointer[GtkFileChooserT], filter': NullablePointer[GtkFileFilterT]): None =>
-    @gtk_file_chooser_set_filter(chooser', filter')
+  fun set_filter(chooser': GtkFileChooserI, filter': GtkFileFilterI): None =>
+    @gtk_file_chooser_set_filter(chooser'.getptr(), filter'.getptr())

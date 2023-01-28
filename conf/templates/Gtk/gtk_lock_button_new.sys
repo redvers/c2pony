@@ -1,2 +1,2 @@
-  new gnew(permission': NullablePointer[GPermissionT]) =>
-    ptr = @gtk_lock_button_new(permission')
+  new gnew(permission': GPermissionI) =>
+    ptr = @gtk_lock_button_new(permission'.getptr())

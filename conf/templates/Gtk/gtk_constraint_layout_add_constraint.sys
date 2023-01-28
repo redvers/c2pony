@@ -1,2 +1,2 @@
-  fun add_constraint(layout': NullablePointer[GtkConstraintLayoutT], constraint': NullablePointer[GtkConstraintT]): None =>
-    @gtk_constraint_layout_add_constraint(layout', constraint')
+  fun add_constraint(layout': GtkConstraintLayoutI, constraint': GtkConstraintI): None =>
+    @gtk_constraint_layout_add_constraint(layout'.getptr(), constraint'.getptr())

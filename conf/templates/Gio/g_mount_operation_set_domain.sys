@@ -1,2 +1,2 @@
-  fun set_domain(op': NullablePointer[GMountOperationT], domain': String): None =>
-    @g_mount_operation_set_domain(op', domain'.cstring())
+  fun set_domain(op': GMountOperationI, domain': String): None =>
+    @g_mount_operation_set_domain(op'.getptr(), domain'.cstring())

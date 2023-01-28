@@ -1,1 +1,1 @@
-use @g_socket_address_enumerator_next_finish[NullablePointer[GSocketAddressT]](enumerator': NullablePointer[GSocketAddressEnumeratorT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_socket_address_enumerator_next_finish[NullablePointer[GObjectT]](enumerator': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

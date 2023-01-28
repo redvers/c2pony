@@ -1,2 +1,2 @@
-  fun ref get_print_settings(): NullablePointer[GtkPrintSettingsT] =>
+  fun ref get_print_settings(): NullablePointer[GObjectT] =>
     GtkPrintOperationP.get_print_settings(this)

@@ -1,2 +1,2 @@
-  fun clear_status(info': NullablePointer[GFileInfoT]): None =>
-    @g_file_info_clear_status(info')
+  fun clear_status(info': GFileInfoI): None =>
+    @g_file_info_clear_status(info'.getptr())

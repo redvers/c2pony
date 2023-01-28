@@ -1,1 +1,1 @@
-use @g_dbus_message_copy[NullablePointer[GDBusMessageT]](message': NullablePointer[GDBusMessageT], error': NullablePointer[GErrorT])
+use @g_dbus_message_copy[NullablePointer[GObjectT]](message': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,2 @@
-  fun render_frame(context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], x': F64, y': F64, width': F64, height': F64): None =>
-    @gtk_render_frame(context', cr', x', y', width', height')
+  fun render_frame(context': GtkStyleContextI, cr': NullablePointer[cairoT], x': F64, y': F64, width': F64, height': F64): None =>
+    @gtk_render_frame(context'.getptr(), cr', x', y', width', height')

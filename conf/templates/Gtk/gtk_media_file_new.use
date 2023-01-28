@@ -1,1 +1,1 @@
-use @gtk_media_file_new[NullablePointer[GtkMediaStreamT]]()
+use @gtk_media_file_new[NullablePointer[GObjectT]]()

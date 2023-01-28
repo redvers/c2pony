@@ -1,2 +1,2 @@
-  fun set_protocol(client': NullablePointer[GSocketClientT], protocol': I32): None =>
-    @g_socket_client_set_protocol(client', protocol')
+  fun set_protocol(client': GSocketClientI, protocol': I32): None =>
+    @g_socket_client_set_protocol(client'.getptr(), protocol')

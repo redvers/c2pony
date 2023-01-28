@@ -1,1 +1,1 @@
-use @g_bytes_icon_new[NullablePointer[GIconT]](bytes': NullablePointer[GBytesT])
+use @g_bytes_icon_new[NullablePointer[GObjectT]](bytes': NullablePointer[GBytesT])

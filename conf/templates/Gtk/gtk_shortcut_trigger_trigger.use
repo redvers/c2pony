@@ -1,1 +1,1 @@
-use @gtk_shortcut_trigger_trigger[U32](self': NullablePointer[GtkShortcutTriggerT], event': NullablePointer[GdkEventT], enable_mnemonics': I32)
+use @gtk_shortcut_trigger_trigger[U32](self': NullablePointer[GObjectT], event': NullablePointer[GdkEventT], enable_mnemonics': I32)

@@ -1,2 +1,2 @@
-  fun get_activates_default(self': NullablePointer[GtkTextT]): I32 =>
-    @gtk_text_get_activates_default(self')
+  fun get_activates_default(self': GtkTextI): I32 =>
+    @gtk_text_get_activates_default(self'.getptr())

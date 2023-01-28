@@ -1,1 +1,1 @@
-use @gtk_pad_controller_set_action_entries[None](controller': NullablePointer[GtkPadControllerT], entries': NullablePointer[GtkPadActionEntryT], n_entries': I32)
+use @gtk_pad_controller_set_action_entries[None](controller': NullablePointer[GObjectT], entries': NullablePointer[GtkPadActionEntryT], n_entries': I32)

@@ -1,2 +1,2 @@
-  fun get_homogeneous(box': NullablePointer[GtkFlowBoxT]): I32 =>
-    @gtk_flow_box_get_homogeneous(box')
+  fun get_homogeneous(box': GtkFlowBoxI): I32 =>
+    @gtk_flow_box_get_homogeneous(box'.getptr())

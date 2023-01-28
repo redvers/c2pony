@@ -1,1 +1,1 @@
-use @gtk_center_box_set_end_widget[None](self': NullablePointer[GtkCenterBoxT], child': NullablePointer[GObjectT])
+use @gtk_center_box_set_end_widget[None](self': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

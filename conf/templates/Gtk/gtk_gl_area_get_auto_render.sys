@@ -1,2 +1,2 @@
-  fun get_auto_render(area': NullablePointer[GtkGLAreaT]): I32 =>
-    @gtk_gl_area_get_auto_render(area')
+  fun get_auto_render(area': GtkGLAreaI): I32 =>
+    @gtk_gl_area_get_auto_render(area'.getptr())

@@ -1,2 +1,2 @@
-  fun get_activatable(row': NullablePointer[GtkListBoxRowT]): I32 =>
-    @gtk_list_box_row_get_activatable(row')
+  fun get_activatable(row': GtkListBoxRowI): I32 =>
+    @gtk_list_box_row_get_activatable(row'.getptr())

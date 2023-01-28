@@ -1,2 +1,2 @@
-  fun get_parse_name(file': NullablePointer[GFileT]): String iso^ =>
-    String.from_cstring(@g_file_get_parse_name(file')).clone()
+  fun get_parse_name(file': GFileI): String iso^ =>
+    String.from_cstring(@g_file_get_parse_name(file'.getptr())).clone()

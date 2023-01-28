@@ -1,1 +1,1 @@
-use @gtk_text_buffer_select_range[None](buffer': NullablePointer[GtkTextBufferT], ins': NullablePointer[GtkTextIterT], bound': NullablePointer[GtkTextIterT])
+use @gtk_text_buffer_select_range[None](buffer': NullablePointer[GObjectT], ins': NullablePointer[GtkTextIterT], bound': NullablePointer[GtkTextIterT])

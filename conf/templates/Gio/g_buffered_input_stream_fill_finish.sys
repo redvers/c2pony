@@ -1,2 +1,2 @@
-  fun fill_finish(stream': NullablePointer[GBufferedInputStreamT], result': NullablePointer[GAsyncResultT], error': GError): I64 =>
-    @g_buffered_input_stream_fill_finish(stream', result', error'.ptr)
+  fun fill_finish(stream': GBufferedInputStreamI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_buffered_input_stream_fill_finish(stream'.getptr(), result'.getptr(), error')

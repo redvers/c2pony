@@ -1,2 +1,2 @@
-  fun connect(proxy': NullablePointer[GProxyT], connection': NullablePointer[GIOStreamT], proxy_address': NullablePointer[GProxyAddressT], cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GIOStreamT] =>
-    @g_proxy_connect(proxy', connection', proxy_address', cancellable', error'.ptr)
+  fun connect(proxy': GProxyI, connection': GIOStreamI, proxy_address': GProxyAddressI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_proxy_connect(proxy'.getptr(), connection'.getptr(), proxy_address'.getptr(), cancellable'.getptr(), error')

@@ -1,1 +1,1 @@
-use @gtk_test_accessible_check_state[Pointer[U8]](accessible': NullablePointer[GtkAccessibleT], state': U32, ...)
+use @gtk_test_accessible_check_state[Pointer[U8]](accessible': NullablePointer[GObjectT], state': U32, ...)

@@ -1,2 +1,2 @@
-  fun remove_page(notebook': NullablePointer[GtkNotebookT], page_num': I32): None =>
-    @gtk_notebook_remove_page(notebook', page_num')
+  fun remove_page(notebook': GtkNotebookI, page_num': I32): None =>
+    @gtk_notebook_remove_page(notebook'.getptr(), page_num')

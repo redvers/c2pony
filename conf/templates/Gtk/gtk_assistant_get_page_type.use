@@ -1,1 +1,1 @@
-use @gtk_assistant_get_page_type[U32](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GObjectT])
+use @gtk_assistant_get_page_type[U32](assistant': NullablePointer[GObjectT], page': NullablePointer[GObjectT])

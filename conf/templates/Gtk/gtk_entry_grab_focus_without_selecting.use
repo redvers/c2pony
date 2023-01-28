@@ -1,1 +1,1 @@
-use @gtk_entry_grab_focus_without_selecting[I32](entry': NullablePointer[GtkEntryT])
+use @gtk_entry_grab_focus_without_selecting[I32](entry': NullablePointer[GObjectT])

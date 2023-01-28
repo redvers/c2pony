@@ -1,2 +1,2 @@
-  fun is_writable(stream': NullablePointer[GPollableOutputStreamT]): I32 =>
-    @g_pollable_output_stream_is_writable(stream')
+  fun is_writable(stream': GPollableOutputStreamI): I32 =>
+    @g_pollable_output_stream_is_writable(stream'.getptr())

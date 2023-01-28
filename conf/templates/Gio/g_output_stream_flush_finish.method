@@ -1,2 +1,2 @@
-  fun ref flush_finish(result': NullablePointer[GAsyncResultT], error': GError): I32 =>
+  fun ref flush_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GOutputStreamP.flush_finish(this, result', error')

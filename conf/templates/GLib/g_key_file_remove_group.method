@@ -1,2 +1,2 @@
-  fun ref remove_group(group_name': String, error': GError): I32 =>
+  fun ref remove_group(group_name': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GKeyFileP.remove_group(ptr, group_name', error')

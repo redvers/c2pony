@@ -1,2 +1,2 @@
-  fun ref get_mount_for_uuid(uuid': String): NullablePointer[GMountT] =>
+  fun ref get_mount_for_uuid(uuid': String): NullablePointer[GObjectT] =>
     GVolumeMonitorP.get_mount_for_uuid(this, uuid')

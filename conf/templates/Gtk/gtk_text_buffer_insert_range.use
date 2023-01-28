@@ -1,1 +1,1 @@
-use @gtk_text_buffer_insert_range[None](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT])
+use @gtk_text_buffer_insert_range[None](buffer': NullablePointer[GObjectT], iter': NullablePointer[GtkTextIterT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT])

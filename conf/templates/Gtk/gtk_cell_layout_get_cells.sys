@@ -1,2 +1,2 @@
-  fun get_cells(cell_layout': NullablePointer[GtkCellLayoutT]): NullablePointer[GListT] =>
-    @gtk_cell_layout_get_cells(cell_layout')
+  fun get_cells(cell_layout': GtkCellLayoutI): NullablePointer[GListT] =>
+    @gtk_cell_layout_get_cells(cell_layout'.getptr())

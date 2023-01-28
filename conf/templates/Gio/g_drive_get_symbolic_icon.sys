@@ -1,2 +1,2 @@
-  fun get_symbolic_icon(drive': NullablePointer[GDriveT]): NullablePointer[GIconT] =>
-    @g_drive_get_symbolic_icon(drive')
+  fun get_symbolic_icon(drive': GDriveI): NullablePointer[GObjectT] =>
+@g_drive_get_symbolic_icon(drive'.getptr())

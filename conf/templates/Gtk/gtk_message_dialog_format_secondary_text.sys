@@ -1,2 +1,2 @@
-  fun format_secondary_text(message_dialog': NullablePointer[GtkMessageDialogT], message_format': String, ...): None =>
-    @gtk_message_dialog_format_secondary_text(message_dialog', message_format'.cstring(), ...)
+  fun format_secondary_text(message_dialog': GtkMessageDialogI, message_format': String, ...): None =>
+    @gtk_message_dialog_format_secondary_text(message_dialog'.getptr(), message_format'.cstring(), ...)

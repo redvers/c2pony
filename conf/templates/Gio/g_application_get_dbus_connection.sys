@@ -1,2 +1,2 @@
-  fun get_dbus_connection(application': GApplicationI): NullablePointer[GDBusConnectionT] =>
-    @g_application_get_dbus_connection(application'.getptr())
+  fun get_dbus_connection(application': GApplicationI): NullablePointer[GObjectT] =>
+@g_application_get_dbus_connection(application'.getptr())

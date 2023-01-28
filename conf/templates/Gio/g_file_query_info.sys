@@ -1,2 +1,2 @@
-  fun query_info(file': NullablePointer[GFileT], attributes': String, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileInfoT] =>
-    @g_file_query_info(file', attributes'.cstring(), flags', cancellable', error'.ptr)
+  fun query_info(file': GFileI, attributes': String, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_file_query_info(file'.getptr(), attributes'.cstring(), flags', cancellable'.getptr(), error')

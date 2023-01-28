@@ -1,2 +1,2 @@
-  fun add_action_widget(info_bar': NullablePointer[GtkInfoBarT], child': GtkWidgetI, response_id': I32): None =>
-    @gtk_info_bar_add_action_widget(info_bar', child'.getptr(), response_id')
+  fun add_action_widget(info_bar': GtkInfoBarI, child': GtkWidgetI, response_id': I32): None =>
+    @gtk_info_bar_add_action_widget(info_bar'.getptr(), child'.getptr(), response_id')

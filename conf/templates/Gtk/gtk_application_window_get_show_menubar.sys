@@ -1,2 +1,2 @@
-  fun get_show_menubar(window': NullablePointer[GtkApplicationWindowT]): I32 =>
-    @gtk_application_window_get_show_menubar(window')
+  fun get_show_menubar(window': GtkApplicationWindowI): I32 =>
+    @gtk_application_window_get_show_menubar(window'.getptr())

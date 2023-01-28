@@ -1,1 +1,1 @@
-use @g_io_channel_read_chars[U32](channel': NullablePointer[GIOChannelT], buf': Pointer[U8] tag, count': U64, bytes_read': Pointer[U64] tag, error': NullablePointer[GErrorT])
+use @g_io_channel_read_chars[U32](channel': NullablePointer[GIOChannelT], buf': Pointer[U8] tag, count': U64, bytes_read': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]])

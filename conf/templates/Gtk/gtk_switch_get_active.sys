@@ -1,2 +1,2 @@
-  fun get_active(self': NullablePointer[GtkSwitchT]): I32 =>
-    @gtk_switch_get_active(self')
+  fun get_active(self': GtkSwitchI): I32 =>
+    @gtk_switch_get_active(self'.getptr())

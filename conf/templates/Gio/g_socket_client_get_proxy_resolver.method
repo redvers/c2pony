@@ -1,2 +1,2 @@
-  fun ref get_proxy_resolver(): NullablePointer[GProxyResolverT] =>
+  fun ref get_proxy_resolver(): NullablePointer[GObjectT] =>
     GSocketClientP.get_proxy_resolver(this)

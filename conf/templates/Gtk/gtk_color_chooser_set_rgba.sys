@@ -1,2 +1,2 @@
-  fun set_rgba(chooser': NullablePointer[GtkColorChooserT], color': NullablePointer[GdkRGBAT]): None =>
-    @gtk_color_chooser_set_rgba(chooser', color')
+  fun set_rgba(chooser': GtkColorChooserI, color': NullablePointer[GdkRGBAT]): None =>
+    @gtk_color_chooser_set_rgba(chooser'.getptr(), color')

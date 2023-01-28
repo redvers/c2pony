@@ -1,2 +1,2 @@
-  fun set_uri(link_button': NullablePointer[GtkLinkButtonT], uri': String): None =>
-    @gtk_link_button_set_uri(link_button', uri'.cstring())
+  fun set_uri(link_button': GtkLinkButtonI, uri': String): None =>
+    @gtk_link_button_set_uri(link_button'.getptr(), uri'.cstring())

@@ -1,2 +1,2 @@
-  fun get_address(address': NullablePointer[GInetSocketAddressT]): NullablePointer[GInetAddressT] =>
-    @g_inet_socket_address_get_address(address')
+  fun get_address(address': GInetSocketAddressI): NullablePointer[GObjectT] =>
+@g_inet_socket_address_get_address(address'.getptr())

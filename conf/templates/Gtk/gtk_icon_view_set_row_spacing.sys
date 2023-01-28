@@ -1,2 +1,2 @@
-  fun set_row_spacing(icon_view': NullablePointer[GtkIconViewT], row_spacing': I32): None =>
-    @gtk_icon_view_set_row_spacing(icon_view', row_spacing')
+  fun set_row_spacing(icon_view': GtkIconViewI, row_spacing': I32): None =>
+    @gtk_icon_view_set_row_spacing(icon_view'.getptr(), row_spacing')

@@ -1,1 +1,1 @@
-use @g_task_had_error[I32](task': NullablePointer[GTaskT])
+use @g_task_had_error[I32](task': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_tree_view_column_cell_get_position[I32](tree_column': NullablePointer[GtkTreeViewColumnT], cell_renderer': NullablePointer[GtkCellRendererT], x_offset': Pointer[I32] tag, width': Pointer[I32] tag)
+use @gtk_tree_view_column_cell_get_position[I32](tree_column': NullablePointer[GObjectT], cell_renderer': NullablePointer[GObjectT], x_offset': Pointer[I32] tag, width': Pointer[I32] tag)

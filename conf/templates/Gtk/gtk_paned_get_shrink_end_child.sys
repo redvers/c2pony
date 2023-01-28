@@ -1,2 +1,2 @@
-  fun get_shrink_end_child(paned': NullablePointer[GtkPanedT]): I32 =>
-    @gtk_paned_get_shrink_end_child(paned')
+  fun get_shrink_end_child(paned': GtkPanedI): I32 =>
+    @gtk_paned_get_shrink_end_child(paned'.getptr())

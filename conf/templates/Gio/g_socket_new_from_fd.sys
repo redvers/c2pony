@@ -1,2 +1,2 @@
-  new new_from_fd(fd': I32, error': GError) =>
-    ptr = @g_socket_new_from_fd(fd', error'.ptr)
+  new new_from_fd(fd': I32, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_socket_new_from_fd(fd', error')

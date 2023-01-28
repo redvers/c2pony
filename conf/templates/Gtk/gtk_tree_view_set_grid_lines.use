@@ -1,1 +1,1 @@
-use @gtk_tree_view_set_grid_lines[None](tree_view': NullablePointer[GtkTreeViewT], grid_lines': U32)
+use @gtk_tree_view_set_grid_lines[None](tree_view': NullablePointer[GObjectT], grid_lines': U32)

@@ -1,1 +1,1 @@
-use @g_socket_service_is_active[I32](service': NullablePointer[GSocketServiceT])
+use @g_socket_service_is_active[I32](service': NullablePointer[GObjectT])

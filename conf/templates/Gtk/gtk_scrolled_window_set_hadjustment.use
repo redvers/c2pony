@@ -1,1 +1,1 @@
-use @gtk_scrolled_window_set_hadjustment[None](scrolled_window': NullablePointer[GtkScrolledWindowT], hadjustment': NullablePointer[GtkAdjustmentT])
+use @gtk_scrolled_window_set_hadjustment[None](scrolled_window': NullablePointer[GObjectT], hadjustment': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun set_flags(self': NullablePointer[GSubprocessLauncherT], flags': U32): None =>
-    @g_subprocess_launcher_set_flags(self', flags')
+  fun set_flags(self': GSubprocessLauncherI, flags': U32): None =>
+    @g_subprocess_launcher_set_flags(self'.getptr(), flags')

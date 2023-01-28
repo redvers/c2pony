@@ -1,2 +1,2 @@
-  fun is_media_removable(drive': NullablePointer[GDriveT]): I32 =>
-    @g_drive_is_media_removable(drive')
+  fun is_media_removable(drive': GDriveI): I32 =>
+    @g_drive_is_media_removable(drive'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_popover_popdown[None](popover': NullablePointer[GtkPopoverT])
+use @gtk_popover_popdown[None](popover': NullablePointer[GObjectT])

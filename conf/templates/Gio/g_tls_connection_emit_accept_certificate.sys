@@ -1,2 +1,2 @@
-  fun emit_accept_certificate(conn': NullablePointer[GTlsConnectionT], peer_cert': NullablePointer[GTlsCertificateT], errors': U32): I32 =>
-    @g_tls_connection_emit_accept_certificate(conn', peer_cert', errors')
+  fun emit_accept_certificate(conn': GTlsConnectionI, peer_cert': GTlsCertificateI, errors': U32): I32 =>
+    @g_tls_connection_emit_accept_certificate(conn'.getptr(), peer_cert'.getptr(), errors')

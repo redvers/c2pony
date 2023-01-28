@@ -1,2 +1,2 @@
-  fun set_pending(stream': NullablePointer[GOutputStreamT], error': GError): I32 =>
-    @g_output_stream_set_pending(stream', error'.ptr)
+  fun set_pending(stream': GOutputStreamI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_output_stream_set_pending(stream'.getptr(), error')

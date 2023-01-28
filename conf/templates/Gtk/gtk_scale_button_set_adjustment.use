@@ -1,1 +1,1 @@
-use @gtk_scale_button_set_adjustment[None](button': NullablePointer[GtkScaleButtonT], adjustment': NullablePointer[GtkAdjustmentT])
+use @gtk_scale_button_set_adjustment[None](button': NullablePointer[GObjectT], adjustment': NullablePointer[GObjectT])

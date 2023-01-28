@@ -1,2 +1,2 @@
-  fun render_expander(context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], x': F64, y': F64, width': F64, height': F64): None =>
-    @gtk_render_expander(context', cr', x', y', width', height')
+  fun render_expander(context': GtkStyleContextI, cr': NullablePointer[cairoT], x': F64, y': F64, width': F64, height': F64): None =>
+    @gtk_render_expander(context'.getptr(), cr', x', y', width', height')

@@ -1,2 +1,2 @@
-  fun ref render_layout(context': NullablePointer[GtkStyleContextT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT]): None =>
+  fun ref render_layout(context': GtkStyleContextI, x': F64, y': F64, layout': NullablePointer[PangoLayoutT]): None =>
     P.render_layout(this, context', x', y', layout')

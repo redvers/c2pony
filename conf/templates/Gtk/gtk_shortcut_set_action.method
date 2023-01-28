@@ -1,2 +1,2 @@
-  fun ref set_action(action': NullablePointer[GtkShortcutActionT]): None =>
+  fun ref set_action(action': GtkShortcutActionI): None =>
     GtkShortcutP.set_action(this, action')

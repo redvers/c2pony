@@ -1,1 +1,1 @@
-use @gtk_message_dialog_get_message_area[NullablePointer[GObjectT]](message_dialog': NullablePointer[GtkMessageDialogT])
+use @gtk_message_dialog_get_message_area[NullablePointer[GObjectT]](message_dialog': NullablePointer[GObjectT])

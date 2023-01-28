@@ -1,1 +1,1 @@
-use @g_volume_monitor_get[NullablePointer[GVolumeMonitorT]]()
+use @g_volume_monitor_get[NullablePointer[GObjectT]]()

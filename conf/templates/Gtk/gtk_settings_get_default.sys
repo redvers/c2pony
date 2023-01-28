@@ -1,2 +1,2 @@
-  fun get_default(): NullablePointer[GtkSettingsT] =>
-    @gtk_settings_get_default()
+  fun get_default(): NullablePointer[GObjectT] =>
+@gtk_settings_get_default()

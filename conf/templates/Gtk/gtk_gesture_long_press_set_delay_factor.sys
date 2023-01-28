@@ -1,2 +1,2 @@
-  fun set_delay_factor(gesture': NullablePointer[GtkGestureLongPressT], delay_factor': F64): None =>
-    @gtk_gesture_long_press_set_delay_factor(gesture', delay_factor')
+  fun set_delay_factor(gesture': GtkGestureLongPressI, delay_factor': F64): None =>
+    @gtk_gesture_long_press_set_delay_factor(gesture'.getptr(), delay_factor')

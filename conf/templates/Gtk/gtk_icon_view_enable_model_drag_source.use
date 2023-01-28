@@ -1,1 +1,1 @@
-use @gtk_icon_view_enable_model_drag_source[None](icon_view': NullablePointer[GtkIconViewT], start_button_mask': U32, formats': NullablePointer[GdkContentFormatsT], actions': U32)
+use @gtk_icon_view_enable_model_drag_source[None](icon_view': NullablePointer[GObjectT], start_button_mask': U32, formats': NullablePointer[GdkContentFormatsT], actions': U32)

@@ -1,1 +1,1 @@
-use @g_file_info_has_namespace[I32](info': NullablePointer[GFileInfoT], name_space': Pointer[U8] tag)
+use @g_file_info_has_namespace[I32](info': NullablePointer[GObjectT], name_space': Pointer[U8] tag)

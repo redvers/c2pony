@@ -1,1 +1,1 @@
-use @gtk_picture_set_pixbuf[None](self': NullablePointer[GtkPictureT], pixbuf': NullablePointer[GdkPixbufT])
+use @gtk_picture_set_pixbuf[None](self': NullablePointer[GObjectT], pixbuf': NullablePointer[GdkPixbufT])

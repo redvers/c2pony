@@ -1,2 +1,2 @@
-  fun apply(settings': NullablePointer[GSettingsT]): None =>
-    @g_settings_apply(settings')
+  fun apply(settings': GSettingsI): None =>
+    @g_settings_apply(settings'.getptr())

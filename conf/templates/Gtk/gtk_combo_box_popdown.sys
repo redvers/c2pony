@@ -1,2 +1,2 @@
-  fun popdown(combo_box': NullablePointer[GtkComboBoxT]): None =>
-    @gtk_combo_box_popdown(combo_box')
+  fun popdown(combo_box': GtkComboBoxI): None =>
+    @gtk_combo_box_popdown(combo_box'.getptr())

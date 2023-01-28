@@ -1,2 +1,2 @@
-  fun get_popover(menu_button': NullablePointer[GtkMenuButtonT]): NullablePointer[GtkPopoverT] =>
-    @gtk_menu_button_get_popover(menu_button')
+  fun get_popover(menu_button': GtkMenuButtonI): NullablePointer[GObjectT] =>
+@gtk_menu_button_get_popover(menu_button'.getptr())

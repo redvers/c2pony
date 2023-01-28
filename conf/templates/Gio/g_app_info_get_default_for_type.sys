@@ -1,2 +1,2 @@
-  fun get_default_for_type(content_type': String, must_support_uris': I32): NullablePointer[GAppInfoT] =>
-    @g_app_info_get_default_for_type(content_type'.cstring(), must_support_uris')
+  fun get_default_for_type(content_type': String, must_support_uris': I32): NullablePointer[GObjectT] =>
+@g_app_info_get_default_for_type(content_type'.cstring(), must_support_uris')

@@ -1,2 +1,2 @@
-  fun get_ttl(socket': NullablePointer[GSocketT]): U32 =>
-    @g_socket_get_ttl(socket')
+  fun get_ttl(socket': GSocketI): U32 =>
+    @g_socket_get_ttl(socket'.getptr())

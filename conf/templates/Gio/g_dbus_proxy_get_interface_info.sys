@@ -1,2 +1,2 @@
-  fun get_interface_info(proxy': NullablePointer[GDBusProxyT]): NullablePointer[GDBusInterfaceInfoT] =>
-    @g_dbus_proxy_get_interface_info(proxy')
+  fun get_interface_info(proxy': GDBusProxyI): NullablePointer[GDBusInterfaceInfoT] =>
+    @g_dbus_proxy_get_interface_info(proxy'.getptr())

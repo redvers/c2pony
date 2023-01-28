@@ -1,2 +1,2 @@
-  fun ref propagate_boolean(error': GError): I32 =>
+  fun ref propagate_boolean(error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GTaskP.propagate_boolean(this, error')

@@ -1,2 +1,2 @@
-  fun get_markup_column(icon_view': NullablePointer[GtkIconViewT]): I32 =>
-    @gtk_icon_view_get_markup_column(icon_view')
+  fun get_markup_column(icon_view': GtkIconViewI): I32 =>
+    @gtk_icon_view_get_markup_column(icon_view'.getptr())

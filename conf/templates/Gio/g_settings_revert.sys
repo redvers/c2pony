@@ -1,2 +1,2 @@
-  fun revert(settings': NullablePointer[GSettingsT]): None =>
-    @g_settings_revert(settings')
+  fun revert(settings': GSettingsI): None =>
+    @g_settings_revert(settings'.getptr())

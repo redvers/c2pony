@@ -1,2 +1,2 @@
-  fun set_transition_duration(stack': NullablePointer[GtkStackT], duration': U32): None =>
-    @gtk_stack_set_transition_duration(stack', duration')
+  fun set_transition_duration(stack': GtkStackI, duration': U32): None =>
+    @gtk_stack_set_transition_duration(stack'.getptr(), duration')

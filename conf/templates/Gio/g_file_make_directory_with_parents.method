@@ -1,2 +1,2 @@
-  fun ref make_directory_with_parents(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref make_directory_with_parents(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.make_directory_with_parents(this, cancellable', error')

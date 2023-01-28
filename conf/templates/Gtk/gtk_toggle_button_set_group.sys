@@ -1,2 +1,2 @@
-  fun set_group(toggle_button': NullablePointer[GtkToggleButtonT], group': NullablePointer[GtkToggleButtonT]): None =>
-    @gtk_toggle_button_set_group(toggle_button', group')
+  fun set_group(toggle_button': GtkToggleButtonI, group': GtkToggleButtonI): None =>
+    @gtk_toggle_button_set_group(toggle_button'.getptr(), group'.getptr())

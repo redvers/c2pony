@@ -1,2 +1,2 @@
-  fun get_tabs(self': NullablePointer[GtkTextT]): NullablePointer[PangoTabArrayT] =>
-    @gtk_text_get_tabs(self')
+  fun get_tabs(self': GtkTextI): NullablePointer[PangoTabArrayT] =>
+    @gtk_text_get_tabs(self'.getptr())

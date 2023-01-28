@@ -1,2 +1,2 @@
-  fun set_adjustment(range': NullablePointer[GtkRangeT], adjustment': NullablePointer[GtkAdjustmentT]): None =>
-    @gtk_range_set_adjustment(range', adjustment')
+  fun set_adjustment(range': GtkRangeI, adjustment': GtkAdjustmentI): None =>
+    @gtk_range_set_adjustment(range'.getptr(), adjustment'.getptr())

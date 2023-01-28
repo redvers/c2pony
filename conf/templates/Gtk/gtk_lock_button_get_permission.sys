@@ -1,2 +1,2 @@
-  fun get_permission(button': NullablePointer[GtkLockButtonT]): NullablePointer[GPermissionT] =>
-    @gtk_lock_button_get_permission(button')
+  fun get_permission(button': GtkLockButtonI): NullablePointer[GObjectT] =>
+@gtk_lock_button_get_permission(button'.getptr())

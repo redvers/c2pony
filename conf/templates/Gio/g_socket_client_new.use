@@ -1,1 +1,1 @@
-use @g_socket_client_new[NullablePointer[GSocketClientT]]()
+use @g_socket_client_new[NullablePointer[GObjectT]]()

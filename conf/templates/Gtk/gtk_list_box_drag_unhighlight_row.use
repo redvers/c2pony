@@ -1,1 +1,1 @@
-use @gtk_list_box_drag_unhighlight_row[None](box': NullablePointer[GtkListBoxT])
+use @gtk_list_box_drag_unhighlight_row[None](box': NullablePointer[GObjectT])

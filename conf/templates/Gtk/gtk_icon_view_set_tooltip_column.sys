@@ -1,2 +1,2 @@
-  fun set_tooltip_column(icon_view': NullablePointer[GtkIconViewT], column': I32): None =>
-    @gtk_icon_view_set_tooltip_column(icon_view', column')
+  fun set_tooltip_column(icon_view': GtkIconViewI, column': I32): None =>
+    @gtk_icon_view_set_tooltip_column(icon_view'.getptr(), column')

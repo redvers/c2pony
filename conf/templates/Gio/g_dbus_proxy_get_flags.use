@@ -1,1 +1,1 @@
-use @g_dbus_proxy_get_flags[U32](proxy': NullablePointer[GDBusProxyT])
+use @g_dbus_proxy_get_flags[U32](proxy': NullablePointer[GObjectT])

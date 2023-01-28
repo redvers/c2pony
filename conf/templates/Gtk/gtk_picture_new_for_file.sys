@@ -1,2 +1,2 @@
-  new new_for_file(file': NullablePointer[GFileT]) =>
-    ptr = @gtk_picture_new_for_file(file')
+  new new_for_file(file': GFileI) =>
+    ptr = @gtk_picture_new_for_file(file'.getptr())

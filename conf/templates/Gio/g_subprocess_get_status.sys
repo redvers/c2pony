@@ -1,2 +1,2 @@
-  fun get_status(subprocess': NullablePointer[GSubprocessT]): I32 =>
-    @g_subprocess_get_status(subprocess')
+  fun get_status(subprocess': GSubprocessI): I32 =>
+    @g_subprocess_get_status(subprocess'.getptr())

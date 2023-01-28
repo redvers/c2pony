@@ -1,2 +1,2 @@
-  fun changed(row': NullablePointer[GtkListBoxRowT]): None =>
-    @gtk_list_box_row_changed(row')
+  fun changed(row': GtkListBoxRowI): None =>
+    @gtk_list_box_row_changed(row'.getptr())

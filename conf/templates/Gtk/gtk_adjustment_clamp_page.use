@@ -1,1 +1,1 @@
-use @gtk_adjustment_clamp_page[None](adjustment': NullablePointer[GtkAdjustmentT], lower': F64, upper': F64)
+use @gtk_adjustment_clamp_page[None](adjustment': NullablePointer[GObjectT], lower': F64, upper': F64)

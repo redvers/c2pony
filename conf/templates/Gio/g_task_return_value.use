@@ -1,1 +1,1 @@
-use @g_task_return_value[None](task': NullablePointer[GTaskT], result': NullablePointer[GValueT])
+use @g_task_return_value[None](task': NullablePointer[GObjectT], result': NullablePointer[GValueT])

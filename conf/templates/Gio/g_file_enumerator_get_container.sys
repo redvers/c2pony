@@ -1,2 +1,2 @@
-  fun get_container(enumerator': NullablePointer[GFileEnumeratorT]): NullablePointer[GFileT] =>
-    @g_file_enumerator_get_container(enumerator')
+  fun get_container(enumerator': GFileEnumeratorI): NullablePointer[GObjectT] =>
+@g_file_enumerator_get_container(enumerator'.getptr())

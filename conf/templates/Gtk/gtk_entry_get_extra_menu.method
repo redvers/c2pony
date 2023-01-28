@@ -1,2 +1,2 @@
-  fun ref get_extra_menu(): NullablePointer[GMenuModelT] =>
+  fun ref get_extra_menu(): NullablePointer[GObjectT] =>
     GtkEntryP.get_extra_menu(this)

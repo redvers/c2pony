@@ -1,1 +1,1 @@
-use @gtk_media_stream_realize[None](self': NullablePointer[GtkMediaStreamT], surface': NullablePointer[GdkSurfaceT])
+use @gtk_media_stream_realize[None](self': NullablePointer[GObjectT], surface': NullablePointer[GdkSurfaceT])

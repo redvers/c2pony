@@ -1,2 +1,2 @@
-  fun has_default_sort_func(sortable': NullablePointer[GtkTreeSortableT]): I32 =>
-    @gtk_tree_sortable_has_default_sort_func(sortable')
+  fun has_default_sort_func(sortable': GtkTreeSortableI): I32 =>
+    @gtk_tree_sortable_has_default_sort_func(sortable'.getptr())

@@ -1,2 +1,2 @@
-  fun handshake_finish(conn': NullablePointer[GDtlsConnectionT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_dtls_connection_handshake_finish(conn', result', error'.ptr)
+  fun handshake_finish(conn': GDtlsConnectionI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_dtls_connection_handshake_finish(conn'.getptr(), result'.getptr(), error')

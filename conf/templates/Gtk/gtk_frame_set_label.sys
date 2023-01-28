@@ -1,2 +1,2 @@
-  fun set_label(frame': NullablePointer[GtkFrameT], label': String): None =>
-    @gtk_frame_set_label(frame', label'.cstring())
+  fun set_label(frame': GtkFrameI, label': String): None =>
+    @gtk_frame_set_label(frame'.getptr(), label'.cstring())

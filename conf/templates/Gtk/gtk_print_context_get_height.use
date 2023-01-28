@@ -1,1 +1,1 @@
-use @gtk_print_context_get_height[F64](context': NullablePointer[GtkPrintContextT])
+use @gtk_print_context_get_height[F64](context': NullablePointer[GObjectT])

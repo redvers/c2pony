@@ -1,2 +1,2 @@
-  fun get_object_path(object': NullablePointer[GDBusObjectT]): String iso^ =>
-    String.from_cstring(@g_dbus_object_get_object_path(object')).clone()
+  fun get_object_path(object': GDBusObjectI): String iso^ =>
+    String.from_cstring(@g_dbus_object_get_object_path(object'.getptr())).clone()

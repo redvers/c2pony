@@ -1,1 +1,1 @@
-use @g_file_icon_get_file[NullablePointer[GFileT]](icon': NullablePointer[GFileIconT])
+use @g_file_icon_get_file[NullablePointer[GObjectT]](icon': NullablePointer[GObjectT])

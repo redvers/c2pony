@@ -1,2 +1,2 @@
-  fun set_source_tag(task': NullablePointer[GTaskT], source_tag': Pointer[None] tag): None =>
-    @g_task_set_source_tag(task', source_tag')
+  fun set_source_tag(task': GTaskI, source_tag': Pointer[None] tag): None =>
+    @g_task_set_source_tag(task'.getptr(), source_tag')

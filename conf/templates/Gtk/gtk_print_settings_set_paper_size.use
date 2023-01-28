@@ -1,1 +1,1 @@
-use @gtk_print_settings_set_paper_size[None](settings': NullablePointer[GtkPrintSettingsT], paper_size': NullablePointer[GtkPaperSizeT])
+use @gtk_print_settings_set_paper_size[None](settings': NullablePointer[GObjectT], paper_size': NullablePointer[GtkPaperSizeT])

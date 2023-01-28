@@ -1,2 +1,2 @@
-  fun set_has_origin(scale': NullablePointer[GtkScaleT], has_origin': I32): None =>
-    @gtk_scale_set_has_origin(scale', has_origin')
+  fun set_has_origin(scale': GtkScaleI, has_origin': I32): None =>
+    @gtk_scale_set_has_origin(scale'.getptr(), has_origin')

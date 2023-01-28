@@ -1,1 +1,1 @@
-use @gtk_font_button_get_use_font[I32](font_button': NullablePointer[GtkFontButtonT])
+use @gtk_font_button_get_use_font[I32](font_button': NullablePointer[GObjectT])

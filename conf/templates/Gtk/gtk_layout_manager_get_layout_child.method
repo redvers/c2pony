@@ -1,2 +1,2 @@
-  fun ref get_layout_child(child': GtkWidgetI): NullablePointer[GtkLayoutChildT] =>
+  fun ref get_layout_child(child': GtkWidgetI): NullablePointer[GObjectT] =>
     GtkLayoutManagerP.get_layout_child(this, child')

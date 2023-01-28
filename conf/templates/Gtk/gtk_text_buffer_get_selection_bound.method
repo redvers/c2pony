@@ -1,2 +1,2 @@
-  fun ref get_selection_bound(): NullablePointer[GtkTextMarkT] =>
+  fun ref get_selection_bound(): NullablePointer[GObjectT] =>
     GtkTextBufferP.get_selection_bound(this)

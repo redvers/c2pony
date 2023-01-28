@@ -1,2 +1,2 @@
-  fun get_negotiated_protocol(conn': NullablePointer[GDtlsConnectionT]): String iso^ =>
-    String.from_cstring(@g_dtls_connection_get_negotiated_protocol(conn')).clone()
+  fun get_negotiated_protocol(conn': GDtlsConnectionI): String iso^ =>
+    String.from_cstring(@g_dtls_connection_get_negotiated_protocol(conn'.getptr())).clone()

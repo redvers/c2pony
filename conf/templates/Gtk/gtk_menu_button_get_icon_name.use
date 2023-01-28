@@ -1,1 +1,1 @@
-use @gtk_menu_button_get_icon_name[Pointer[U8]](menu_button': NullablePointer[GtkMenuButtonT])
+use @gtk_menu_button_get_icon_name[Pointer[U8]](menu_button': NullablePointer[GObjectT])

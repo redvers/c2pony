@@ -1,2 +1,2 @@
-  fun cell_is_visible(tree_column': NullablePointer[GtkTreeViewColumnT]): I32 =>
-    @gtk_tree_view_column_cell_is_visible(tree_column')
+  fun cell_is_visible(tree_column': GtkTreeViewColumnI): I32 =>
+    @gtk_tree_view_column_cell_is_visible(tree_column'.getptr())

@@ -1,2 +1,2 @@
-  fun editing_done(cell_editable': NullablePointer[GtkCellEditableT]): None =>
-    @gtk_cell_editable_editing_done(cell_editable')
+  fun editing_done(cell_editable': GtkCellEditableI): None =>
+    @gtk_cell_editable_editing_done(cell_editable'.getptr())

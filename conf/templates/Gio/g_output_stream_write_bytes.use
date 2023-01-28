@@ -1,1 +1,1 @@
-use @g_output_stream_write_bytes[I64](stream': NullablePointer[GOutputStreamT], bytes': NullablePointer[GBytesT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_output_stream_write_bytes[I64](stream': NullablePointer[GObjectT], bytes': NullablePointer[GBytesT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

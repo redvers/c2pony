@@ -1,1 +1,1 @@
-use @gtk_entry_get_invisible_char[U32](entry': NullablePointer[GtkEntryT])
+use @gtk_entry_get_invisible_char[U32](entry': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun set_item_padding(icon_view': NullablePointer[GtkIconViewT], item_padding': I32): None =>
-    @gtk_icon_view_set_item_padding(icon_view', item_padding')
+  fun set_item_padding(icon_view': GtkIconViewI, item_padding': I32): None =>
+    @gtk_icon_view_set_item_padding(icon_view'.getptr(), item_padding')

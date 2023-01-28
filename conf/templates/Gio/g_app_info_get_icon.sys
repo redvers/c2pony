@@ -1,2 +1,2 @@
-  fun get_icon(appinfo': NullablePointer[GAppInfoT]): NullablePointer[GIconT] =>
-    @g_app_info_get_icon(appinfo')
+  fun get_icon(appinfo': GAppInfoI): NullablePointer[GObjectT] =>
+@g_app_info_get_icon(appinfo'.getptr())

@@ -1,2 +1,2 @@
-  fun set_filename(self': NullablePointer[GtkMediaFileT], filename': String): None =>
-    @gtk_media_file_set_filename(self', filename'.cstring())
+  fun set_filename(self': GtkMediaFileI, filename': String): None =>
+    @gtk_media_file_set_filename(self'.getptr(), filename'.cstring())

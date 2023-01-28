@@ -1,1 +1,1 @@
-use @gtk_scrolled_window_get_hscrollbar[NullablePointer[GObjectT]](scrolled_window': NullablePointer[GtkScrolledWindowT])
+use @gtk_scrolled_window_get_hscrollbar[NullablePointer[GObjectT]](scrolled_window': NullablePointer[GObjectT])

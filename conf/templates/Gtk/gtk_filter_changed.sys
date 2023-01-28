@@ -1,2 +1,2 @@
-  fun changed(self': NullablePointer[GtkFilterT], change': U32): None =>
-    @gtk_filter_changed(self', change')
+  fun changed(self': GtkFilterI, change': U32): None =>
+    @gtk_filter_changed(self'.getptr(), change')

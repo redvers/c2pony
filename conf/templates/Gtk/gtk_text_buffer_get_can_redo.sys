@@ -1,2 +1,2 @@
-  fun get_can_redo(buffer': NullablePointer[GtkTextBufferT]): I32 =>
-    @gtk_text_buffer_get_can_redo(buffer')
+  fun get_can_redo(buffer': GtkTextBufferI): I32 =>
+    @gtk_text_buffer_get_can_redo(buffer'.getptr())

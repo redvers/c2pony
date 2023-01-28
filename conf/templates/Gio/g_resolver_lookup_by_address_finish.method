@@ -1,2 +1,2 @@
-  fun ref lookup_by_address_finish(result': NullablePointer[GAsyncResultT], error': GError): String iso^ =>
+  fun ref lookup_by_address_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
     GResolverP.lookup_by_address_finish(this, result', error')

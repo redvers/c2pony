@@ -1,2 +1,2 @@
-  fun set_output_bin(settings': NullablePointer[GtkPrintSettingsT], output_bin': String): None =>
-    @gtk_print_settings_set_output_bin(settings', output_bin'.cstring())
+  fun set_output_bin(settings': GtkPrintSettingsI, output_bin': String): None =>
+    @gtk_print_settings_set_output_bin(settings'.getptr(), output_bin'.cstring())

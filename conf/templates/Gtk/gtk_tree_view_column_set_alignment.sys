@@ -1,2 +1,2 @@
-  fun set_alignment(tree_column': NullablePointer[GtkTreeViewColumnT], xalign': F32): None =>
-    @gtk_tree_view_column_set_alignment(tree_column', xalign')
+  fun set_alignment(tree_column': GtkTreeViewColumnI, xalign': F32): None =>
+    @gtk_tree_view_column_set_alignment(tree_column'.getptr(), xalign')

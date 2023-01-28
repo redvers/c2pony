@@ -1,1 +1,1 @@
-use @gtk_print_operation_draw_page_finish[None](op': NullablePointer[GtkPrintOperationT])
+use @gtk_print_operation_draw_page_finish[None](op': NullablePointer[GObjectT])

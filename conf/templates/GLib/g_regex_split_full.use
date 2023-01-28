@@ -1,1 +1,1 @@
-use @g_regex_split_full[Pointer[Pointer[U8]] tag](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, max_tokens': I32, error': NullablePointer[GErrorT])
+use @g_regex_split_full[Pointer[Pointer[U8]] tag](regex': NullablePointer[GRegexT], string': Pointer[U8] tag, string_len': I64, start_position': I32, match_options': U32, max_tokens': I32, error': Pointer[NullablePointer[GErrorT]])

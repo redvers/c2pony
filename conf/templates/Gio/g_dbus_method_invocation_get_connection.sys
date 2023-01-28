@@ -1,2 +1,2 @@
-  fun get_connection(invocation': NullablePointer[GDBusMethodInvocationT]): NullablePointer[GDBusConnectionT] =>
-    @g_dbus_method_invocation_get_connection(invocation')
+  fun get_connection(invocation': GDBusMethodInvocationI): NullablePointer[GObjectT] =>
+@g_dbus_method_invocation_get_connection(invocation'.getptr())

@@ -1,1 +1,1 @@
-use @g_vfs_get_file_for_uri[NullablePointer[GFileT]](vfs': NullablePointer[GVfsT], uri': Pointer[U8] tag)
+use @g_vfs_get_file_for_uri[NullablePointer[GObjectT]](vfs': NullablePointer[GObjectT], uri': Pointer[U8] tag)

@@ -1,1 +1,1 @@
-use @g_async_initable_newv_async[None](object_type': U64, n_parameters': U32, parameters': NullablePointer[GParameterT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_async_initable_newv_async[None](object_type': U64, n_parameters': U32, parameters': NullablePointer[GParameterT], io_priority': I32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

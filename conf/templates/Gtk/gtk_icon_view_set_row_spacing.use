@@ -1,1 +1,1 @@
-use @gtk_icon_view_set_row_spacing[None](icon_view': NullablePointer[GtkIconViewT], row_spacing': I32)
+use @gtk_icon_view_set_row_spacing[None](icon_view': NullablePointer[GObjectT], row_spacing': I32)

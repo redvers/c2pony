@@ -1,2 +1,2 @@
-  fun eject_mountable(file': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_file_eject_mountable(file', flags', cancellable', callback', user_data')
+  fun eject_mountable(file': GFileI, flags': U32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_eject_mountable(file'.getptr(), flags', cancellable'.getptr(), callback', user_data')

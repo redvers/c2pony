@@ -1,1 +1,1 @@
-use @g_mount_operation_reply[None](op': NullablePointer[GMountOperationT], result': U32)
+use @g_mount_operation_reply[None](op': NullablePointer[GObjectT], result': U32)

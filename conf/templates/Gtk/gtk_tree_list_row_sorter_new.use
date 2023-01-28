@@ -1,1 +1,1 @@
-use @gtk_tree_list_row_sorter_new[NullablePointer[GtkTreeListRowSorterT]](sorter': NullablePointer[GtkSorterT])
+use @gtk_tree_list_row_sorter_new[NullablePointer[GObjectT]](sorter': NullablePointer[GObjectT])

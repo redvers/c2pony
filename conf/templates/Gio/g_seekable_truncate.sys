@@ -1,2 +1,2 @@
-  fun truncate(seekable': NullablePointer[GSeekableT], offset': I64, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_seekable_truncate(seekable', offset', cancellable', error'.ptr)
+  fun truncate(seekable': GSeekableI, offset': I64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_seekable_truncate(seekable'.getptr(), offset', cancellable'.getptr(), error')

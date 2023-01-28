@@ -1,2 +1,2 @@
-  fun get_child(self': NullablePointer[GtkAspectFrameT]): NullablePointer[GObjectT] =>
-@gtk_aspect_frame_get_child(self')
+  fun get_child(self': GtkAspectFrameI): NullablePointer[GObjectT] =>
+@gtk_aspect_frame_get_child(self'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_multi_selection_get_model[NullablePointer[GObjectT]](self': NullablePointer[GtkMultiSelectionT])
+use @gtk_multi_selection_get_model[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

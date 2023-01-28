@@ -1,1 +1,1 @@
-use @gtk_shortcut_get_trigger[NullablePointer[GtkShortcutTriggerT]](self': NullablePointer[GtkShortcutT])
+use @gtk_shortcut_get_trigger[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

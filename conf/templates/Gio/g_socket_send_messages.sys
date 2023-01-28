@@ -1,2 +1,2 @@
-  fun send_messages(socket': NullablePointer[GSocketT], messages': NullablePointer[GOutputMessageT], num_messages': U32, flags': I32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_socket_send_messages(socket', messages', num_messages', flags', cancellable', error'.ptr)
+  fun send_messages(socket': GSocketI, messages': NullablePointer[GOutputMessageT], num_messages': U32, flags': I32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_send_messages(socket'.getptr(), messages', num_messages', flags', cancellable'.getptr(), error')

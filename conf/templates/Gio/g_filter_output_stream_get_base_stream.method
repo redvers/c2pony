@@ -1,2 +1,2 @@
-  fun ref get_base_stream(): NullablePointer[GOutputStreamT] =>
+  fun ref get_base_stream(): NullablePointer[GObjectT] =>
     GFilterOutputStreamP.get_base_stream(this)

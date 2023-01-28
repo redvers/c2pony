@@ -1,1 +1,1 @@
-use @gtk_drop_controller_motion_new[NullablePointer[GtkEventControllerT]]()
+use @gtk_drop_controller_motion_new[NullablePointer[GObjectT]]()

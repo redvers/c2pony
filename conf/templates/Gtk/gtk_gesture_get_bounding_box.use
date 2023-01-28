@@ -1,1 +1,1 @@
-use @gtk_gesture_get_bounding_box[I32](gesture': NullablePointer[GtkGestureT], rect': NullablePointer[cairorectangleintT])
+use @gtk_gesture_get_bounding_box[I32](gesture': NullablePointer[GObjectT], rect': NullablePointer[cairorectangleintT])

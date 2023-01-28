@@ -1,1 +1,1 @@
-use @gtk_gesture_handles_sequence[I32](gesture': NullablePointer[GtkGestureT], sequence': NullablePointer[GdkEventSequenceT])
+use @gtk_gesture_handles_sequence[I32](gesture': NullablePointer[GObjectT], sequence': NullablePointer[GdkEventSequenceT])

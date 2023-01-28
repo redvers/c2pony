@@ -1,2 +1,2 @@
-  fun test_accessible_has_state(accessible': NullablePointer[GtkAccessibleT], state': U32): I32 =>
-    @gtk_test_accessible_has_state(accessible', state')
+  fun test_accessible_has_state(accessible': GtkAccessibleI, state': U32): I32 =>
+    @gtk_test_accessible_has_state(accessible'.getptr(), state')

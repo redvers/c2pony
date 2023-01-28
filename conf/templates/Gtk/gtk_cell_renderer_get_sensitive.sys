@@ -1,2 +1,2 @@
-  fun get_sensitive(cell': NullablePointer[GtkCellRendererT]): I32 =>
-    @gtk_cell_renderer_get_sensitive(cell')
+  fun get_sensitive(cell': GtkCellRendererI): I32 =>
+    @gtk_cell_renderer_get_sensitive(cell'.getptr())

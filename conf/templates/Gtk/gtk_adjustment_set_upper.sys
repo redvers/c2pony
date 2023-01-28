@@ -1,2 +1,2 @@
-  fun set_upper(adjustment': NullablePointer[GtkAdjustmentT], upper': F64): None =>
-    @gtk_adjustment_set_upper(adjustment', upper')
+  fun set_upper(adjustment': GtkAdjustmentI, upper': F64): None =>
+    @gtk_adjustment_set_upper(adjustment'.getptr(), upper')

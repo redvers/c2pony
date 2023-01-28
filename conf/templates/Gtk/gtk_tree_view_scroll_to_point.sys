@@ -1,2 +1,2 @@
-  fun scroll_to_point(tree_view': NullablePointer[GtkTreeViewT], tree_x': I32, tree_y': I32): None =>
-    @gtk_tree_view_scroll_to_point(tree_view', tree_x', tree_y')
+  fun scroll_to_point(tree_view': GtkTreeViewI, tree_x': I32, tree_y': I32): None =>
+    @gtk_tree_view_scroll_to_point(tree_view'.getptr(), tree_x', tree_y')

@@ -1,2 +1,2 @@
-  fun get_name(info': NullablePointer[GFileInfoT]): String iso^ =>
-    String.from_cstring(@g_file_info_get_name(info')).clone()
+  fun get_name(info': GFileInfoI): String iso^ =>
+    String.from_cstring(@g_file_info_get_name(info'.getptr())).clone()

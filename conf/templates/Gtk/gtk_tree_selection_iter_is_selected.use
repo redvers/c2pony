@@ -1,1 +1,1 @@
-use @gtk_tree_selection_iter_is_selected[I32](selection': NullablePointer[GtkTreeSelectionT], iter': NullablePointer[GtkTreeIterT])
+use @gtk_tree_selection_iter_is_selected[I32](selection': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT])

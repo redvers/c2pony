@@ -1,1 +1,1 @@
-use @g_file_enumerate_children_finish[NullablePointer[GFileEnumeratorT]](file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_file_enumerate_children_finish[NullablePointer[GObjectT]](file': NullablePointer[GObjectT], res': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

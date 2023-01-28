@@ -1,1 +1,1 @@
-use @g_charset_converter_get_num_fallbacks[U32](converter': NullablePointer[GCharsetConverterT])
+use @g_charset_converter_get_num_fallbacks[U32](converter': NullablePointer[GObjectT])

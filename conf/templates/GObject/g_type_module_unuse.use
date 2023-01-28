@@ -1,1 +1,1 @@
-use @g_type_module_unuse[None](module': NullablePointer[GTypeModuleT])
+use @g_type_module_unuse[None](module': NullablePointer[GObjectT])

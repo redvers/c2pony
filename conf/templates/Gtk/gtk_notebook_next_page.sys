@@ -1,2 +1,2 @@
-  fun next_page(notebook': NullablePointer[GtkNotebookT]): None =>
-    @gtk_notebook_next_page(notebook')
+  fun next_page(notebook': GtkNotebookI): None =>
+    @gtk_notebook_next_page(notebook'.getptr())

@@ -1,2 +1,2 @@
-  fun get_truncate_multiline(self': NullablePointer[GtkTextT]): I32 =>
-    @gtk_text_get_truncate_multiline(self')
+  fun get_truncate_multiline(self': GtkTextI): I32 =>
+    @gtk_text_get_truncate_multiline(self'.getptr())

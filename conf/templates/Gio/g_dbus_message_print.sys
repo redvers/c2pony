@@ -1,2 +1,2 @@
-  fun print(message': NullablePointer[GDBusMessageT], indent': U32): String iso^ =>
-    String.from_cstring(@g_dbus_message_print(message', indent')).clone()
+  fun print(message': GDBusMessageI, indent': U32): String iso^ =>
+    String.from_cstring(@g_dbus_message_print(message'.getptr(), indent')).clone()

@@ -1,2 +1,2 @@
-  fun set_activate_on_single_click(tree_view': NullablePointer[GtkTreeViewT], single': I32): None =>
-    @gtk_tree_view_set_activate_on_single_click(tree_view', single')
+  fun set_activate_on_single_click(tree_view': GtkTreeViewI, single': I32): None =>
+    @gtk_tree_view_set_activate_on_single_click(tree_view'.getptr(), single')

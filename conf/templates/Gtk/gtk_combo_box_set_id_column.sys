@@ -1,2 +1,2 @@
-  fun set_id_column(combo_box': NullablePointer[GtkComboBoxT], id_column': I32): None =>
-    @gtk_combo_box_set_id_column(combo_box', id_column')
+  fun set_id_column(combo_box': GtkComboBoxI, id_column': I32): None =>
+    @gtk_combo_box_set_id_column(combo_box'.getptr(), id_column')

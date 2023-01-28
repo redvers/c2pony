@@ -1,2 +1,2 @@
-  fun get_min_columns(self': NullablePointer[GtkGridViewT]): U32 =>
-    @gtk_grid_view_get_min_columns(self')
+  fun get_min_columns(self': GtkGridViewI): U32 =>
+    @gtk_grid_view_get_min_columns(self'.getptr())

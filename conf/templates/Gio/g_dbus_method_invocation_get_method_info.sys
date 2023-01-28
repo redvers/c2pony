@@ -1,2 +1,2 @@
-  fun get_method_info(invocation': NullablePointer[GDBusMethodInvocationT]): NullablePointer[GDBusMethodInfoT] =>
-    @g_dbus_method_invocation_get_method_info(invocation')
+  fun get_method_info(invocation': GDBusMethodInvocationI): NullablePointer[GDBusMethodInfoT] =>
+    @g_dbus_method_invocation_get_method_info(invocation'.getptr())

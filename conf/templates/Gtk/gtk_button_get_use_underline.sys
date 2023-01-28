@@ -1,2 +1,2 @@
-  fun get_use_underline(button': NullablePointer[GtkButtonT]): I32 =>
-    @gtk_button_get_use_underline(button')
+  fun get_use_underline(button': GtkButtonI): I32 =>
+    @gtk_button_get_use_underline(button'.getptr())

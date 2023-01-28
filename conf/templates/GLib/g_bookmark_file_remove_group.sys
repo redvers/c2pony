@@ -1,2 +1,2 @@
-  fun remove_group(bookmark': NullablePointer[GBookmarkFileT], uri': String, group': String, error': GError): I32 =>
-    @g_bookmark_file_remove_group(bookmark', uri'.cstring(), group'.cstring(), error'.ptr)
+  fun remove_group(bookmark': NullablePointer[GBookmarkFileT], uri': String, group': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_bookmark_file_remove_group(bookmark', uri'.cstring(), group'.cstring(), error')

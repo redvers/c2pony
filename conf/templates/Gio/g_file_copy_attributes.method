@@ -1,2 +1,2 @@
-  fun ref copy_attributes(destination': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref copy_attributes(destination': GFileI, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.copy_attributes(this, destination', flags', cancellable', error')

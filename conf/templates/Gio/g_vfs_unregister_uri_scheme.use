@@ -1,1 +1,1 @@
-use @g_vfs_unregister_uri_scheme[I32](vfs': NullablePointer[GVfsT], scheme': Pointer[U8] tag)
+use @g_vfs_unregister_uri_scheme[I32](vfs': NullablePointer[GObjectT], scheme': Pointer[U8] tag)

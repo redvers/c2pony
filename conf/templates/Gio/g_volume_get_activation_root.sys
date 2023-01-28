@@ -1,2 +1,2 @@
-  fun get_activation_root(volume': NullablePointer[GVolumeT]): NullablePointer[GFileT] =>
-    @g_volume_get_activation_root(volume')
+  fun get_activation_root(volume': GVolumeI): NullablePointer[GObjectT] =>
+@g_volume_get_activation_root(volume'.getptr())

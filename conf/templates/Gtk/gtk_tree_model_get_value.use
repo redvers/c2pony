@@ -1,1 +1,1 @@
-use @gtk_tree_model_get_value[None](tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], column': I32, value': NullablePointer[GValueT])
+use @gtk_tree_model_get_value[None](tree_model': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT], column': I32, value': NullablePointer[GValueT])

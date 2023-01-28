@@ -1,2 +1,2 @@
-  fun create_source(stream': NullablePointer[GPollableInputStreamT], cancellable': NullablePointer[GCancellableT]): NullablePointer[GSourceT] =>
-    @g_pollable_input_stream_create_source(stream', cancellable')
+  fun create_source(stream': GPollableInputStreamI, cancellable': GCancellableI): NullablePointer[GSourceT] =>
+    @g_pollable_input_stream_create_source(stream'.getptr(), cancellable'.getptr())

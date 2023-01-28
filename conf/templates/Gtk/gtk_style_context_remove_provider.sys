@@ -1,2 +1,2 @@
-  fun remove_provider(context': NullablePointer[GtkStyleContextT], provider': NullablePointer[GtkStyleProviderT]): None =>
-    @gtk_style_context_remove_provider(context', provider')
+  fun remove_provider(context': GtkStyleContextI, provider': GtkStyleProviderI): None =>
+    @gtk_style_context_remove_provider(context'.getptr(), provider'.getptr())

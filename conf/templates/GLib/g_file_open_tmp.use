@@ -1,1 +1,1 @@
-use @g_file_open_tmp[I32](tmpl': Pointer[U8] tag, name_used': Pointer[Pointer[U8]] tag, error': NullablePointer[GErrorT])
+use @g_file_open_tmp[I32](tmpl': Pointer[U8] tag, name_used': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]])

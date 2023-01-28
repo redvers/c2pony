@@ -1,2 +1,2 @@
-  fun set_child(popover': NullablePointer[GtkPopoverT], child': GtkWidgetI): None =>
-    @gtk_popover_set_child(popover', child'.getptr())
+  fun set_child(popover': GtkPopoverI, child': GtkWidgetI): None =>
+    @gtk_popover_set_child(popover'.getptr(), child'.getptr())

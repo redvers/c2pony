@@ -1,2 +1,2 @@
-  fun get_duplex(settings': NullablePointer[GtkPrintSettingsT]): U32 =>
-    @gtk_print_settings_get_duplex(settings')
+  fun get_duplex(settings': GtkPrintSettingsI): U32 =>
+    @gtk_print_settings_get_duplex(settings'.getptr())

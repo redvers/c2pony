@@ -1,1 +1,1 @@
-use @gtk_scrollbar_new[NullablePointer[GObjectT]](orientation': U32, adjustment': NullablePointer[GtkAdjustmentT])
+use @gtk_scrollbar_new[NullablePointer[GObjectT]](orientation': U32, adjustment': NullablePointer[GObjectT])

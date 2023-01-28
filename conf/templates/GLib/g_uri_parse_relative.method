@@ -1,2 +1,2 @@
-  fun ref parse_relative(uri_ref': String, flags': U32, error': GError): NullablePointer[GUriT] =>
+  fun ref parse_relative(uri_ref': String, flags': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GUriT] =>
     GUriP.parse_relative(ptr, uri_ref', flags', error')

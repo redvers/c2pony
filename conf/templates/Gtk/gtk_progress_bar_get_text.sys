@@ -1,2 +1,2 @@
-  fun get_text(pbar': NullablePointer[GtkProgressBarT]): String iso^ =>
-    String.from_cstring(@gtk_progress_bar_get_text(pbar')).clone()
+  fun get_text(pbar': GtkProgressBarI): String iso^ =>
+    String.from_cstring(@gtk_progress_bar_get_text(pbar'.getptr())).clone()

@@ -1,2 +1,2 @@
-  fun new_for_path(path': String): NullablePointer[GFileT] =>
-    @g_file_new_for_path(path'.cstring())
+  fun new_for_path(path': String): NullablePointer[GObjectT] =>
+@g_file_new_for_path(path'.cstring())

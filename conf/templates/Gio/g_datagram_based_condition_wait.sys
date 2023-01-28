@@ -1,2 +1,2 @@
-  fun condition_wait(datagram_based': NullablePointer[GDatagramBasedT], condition': U32, timeout': I64, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_datagram_based_condition_wait(datagram_based', condition', timeout', cancellable', error'.ptr)
+  fun condition_wait(datagram_based': GDatagramBasedI, condition': U32, timeout': I64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_datagram_based_condition_wait(datagram_based'.getptr(), condition', timeout', cancellable'.getptr(), error')

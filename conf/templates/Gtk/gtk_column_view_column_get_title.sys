@@ -1,2 +1,2 @@
-  fun get_title(self': NullablePointer[GtkColumnViewColumnT]): String iso^ =>
-    String.from_cstring(@gtk_column_view_column_get_title(self')).clone()
+  fun get_title(self': GtkColumnViewColumnI): String iso^ =>
+    String.from_cstring(@gtk_column_view_column_get_title(self'.getptr())).clone()

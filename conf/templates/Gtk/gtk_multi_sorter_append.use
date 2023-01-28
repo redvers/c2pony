@@ -1,1 +1,1 @@
-use @gtk_multi_sorter_append[None](self': NullablePointer[GtkMultiSorterT], sorter': NullablePointer[GtkSorterT])
+use @gtk_multi_sorter_append[None](self': NullablePointer[GObjectT], sorter': NullablePointer[GObjectT])

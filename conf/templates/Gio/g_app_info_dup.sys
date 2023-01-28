@@ -1,2 +1,2 @@
-  fun dup(appinfo': NullablePointer[GAppInfoT]): NullablePointer[GAppInfoT] =>
-    @g_app_info_dup(appinfo')
+  fun dup(appinfo': GAppInfoI): NullablePointer[GObjectT] =>
+@g_app_info_dup(appinfo'.getptr())

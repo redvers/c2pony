@@ -1,2 +1,2 @@
-  fun has_media(drive': NullablePointer[GDriveT]): I32 =>
-    @g_drive_has_media(drive')
+  fun has_media(drive': GDriveI): I32 =>
+    @g_drive_has_media(drive'.getptr())

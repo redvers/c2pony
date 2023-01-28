@@ -1,1 +1,1 @@
-use @g_dbus_message_set_reply_serial[None](message': NullablePointer[GDBusMessageT], value': U32)
+use @g_dbus_message_set_reply_serial[None](message': NullablePointer[GObjectT], value': U32)

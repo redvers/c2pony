@@ -1,1 +1,1 @@
-use @gtk_entry_set_input_hints[None](entry': NullablePointer[GtkEntryT], hints': U32)
+use @gtk_entry_set_input_hints[None](entry': NullablePointer[GObjectT], hints': U32)

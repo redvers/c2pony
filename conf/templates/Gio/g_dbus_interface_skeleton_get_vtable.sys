@@ -1,2 +1,2 @@
-  fun get_vtable(interface': NullablePointer[GDBusInterfaceSkeletonT]): NullablePointer[GDBusInterfaceVTableT] =>
-    @g_dbus_interface_skeleton_get_vtable(interface')
+  fun get_vtable(interface': GDBusInterfaceSkeletonI): NullablePointer[GDBusInterfaceVTableT] =>
+    @g_dbus_interface_skeleton_get_vtable(interface'.getptr())

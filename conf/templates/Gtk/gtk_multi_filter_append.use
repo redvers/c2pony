@@ -1,1 +1,1 @@
-use @gtk_multi_filter_append[None](self': NullablePointer[GtkMultiFilterT], filter': NullablePointer[GtkFilterT])
+use @gtk_multi_filter_append[None](self': NullablePointer[GObjectT], filter': NullablePointer[GObjectT])

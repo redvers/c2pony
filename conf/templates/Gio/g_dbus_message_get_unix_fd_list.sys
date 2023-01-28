@@ -1,2 +1,2 @@
-  fun get_unix_fd_list(message': NullablePointer[GDBusMessageT]): NullablePointer[GUnixFDListT] =>
-    @g_dbus_message_get_unix_fd_list(message')
+  fun get_unix_fd_list(message': GDBusMessageI): NullablePointer[GObjectT] =>
+@g_dbus_message_get_unix_fd_list(message'.getptr())

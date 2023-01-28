@@ -1,2 +1,2 @@
-  fun set_end_child(paned': NullablePointer[GtkPanedT], child': GtkWidgetI): None =>
-    @gtk_paned_set_end_child(paned', child'.getptr())
+  fun set_end_child(paned': GtkPanedI, child': GtkWidgetI): None =>
+    @gtk_paned_set_end_child(paned'.getptr(), child'.getptr())

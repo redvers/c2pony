@@ -1,1 +1,1 @@
-use @gtk_list_box_row_get_header[NullablePointer[GObjectT]](row': NullablePointer[GtkListBoxRowT])
+use @gtk_list_box_row_get_header[NullablePointer[GObjectT]](row': NullablePointer[GObjectT])

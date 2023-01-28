@@ -1,1 +1,1 @@
-use @gtk_grid_view_set_min_columns[None](self': NullablePointer[GtkGridViewT], min_columns': U32)
+use @gtk_grid_view_set_min_columns[None](self': NullablePointer[GObjectT], min_columns': U32)

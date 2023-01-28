@@ -1,1 +1,1 @@
-use @gtk_cell_area_has_renderer[I32](area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT])
+use @gtk_cell_area_has_renderer[I32](area': NullablePointer[GObjectT], renderer': NullablePointer[GObjectT])

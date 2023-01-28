@@ -1,2 +1,2 @@
-  fun read_unichar(channel': NullablePointer[GIOChannelT], thechar': Pointer[U32] tag, error': GError): U32 =>
-    @g_io_channel_read_unichar(channel', thechar', error'.ptr)
+  fun read_unichar(channel': NullablePointer[GIOChannelT], thechar': Pointer[U32] tag, error': Pointer[NullablePointer[GErrorT]]): U32 =>
+    @g_io_channel_read_unichar(channel', thechar', error')

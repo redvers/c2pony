@@ -1,1 +1,1 @@
-use @gtk_style_context_remove_provider[None](context': NullablePointer[GtkStyleContextT], provider': NullablePointer[GtkStyleProviderT])
+use @gtk_style_context_remove_provider[None](context': NullablePointer[GObjectT], provider': NullablePointer[GObjectT])

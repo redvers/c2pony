@@ -1,1 +1,1 @@
-use @g_volume_monitor_get_connected_drives[NullablePointer[GListT]](volume_monitor': NullablePointer[GVolumeMonitorT])
+use @g_volume_monitor_get_connected_drives[NullablePointer[GListT]](volume_monitor': NullablePointer[GObjectT])

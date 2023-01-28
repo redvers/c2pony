@@ -1,2 +1,2 @@
-  fun setenv(context': NullablePointer[GAppLaunchContextT], variable': String, value': String): None =>
-    @g_app_launch_context_setenv(context', variable'.cstring(), value'.cstring())
+  fun setenv(context': GAppLaunchContextI, variable': String, value': String): None =>
+    @g_app_launch_context_setenv(context'.getptr(), variable'.cstring(), value'.cstring())

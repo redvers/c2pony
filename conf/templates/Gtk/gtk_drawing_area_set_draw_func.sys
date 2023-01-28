@@ -1,2 +1,2 @@
-  fun set_draw_func(self': NullablePointer[GtkDrawingAreaT], draw_func': GtkDrawingAreaDrawFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
-    @gtk_drawing_area_set_draw_func(self', draw_func', user_data', destroy')
+  fun set_draw_func(self': GtkDrawingAreaI, draw_func': GtkDrawingAreaDrawFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_drawing_area_set_draw_func(self'.getptr(), draw_func', user_data', destroy')

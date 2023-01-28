@@ -1,2 +1,2 @@
-  fun parse_params(params': String, length': I64, separators': String, flags': U32, error': GError): NullablePointer[GHashTableT] =>
-    @g_uri_parse_params(params'.cstring(), length', separators'.cstring(), flags', error'.ptr)
+  fun parse_params(params': String, length': I64, separators': String, flags': U32, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GHashTableT] =>
+    @g_uri_parse_params(params'.cstring(), length', separators'.cstring(), flags', error')

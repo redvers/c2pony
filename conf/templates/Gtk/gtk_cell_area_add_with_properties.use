@@ -1,1 +1,1 @@
-use @gtk_cell_area_add_with_properties[None](area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], first_prop_name': Pointer[U8] tag, ...)
+use @gtk_cell_area_add_with_properties[None](area': NullablePointer[GObjectT], renderer': NullablePointer[GObjectT], first_prop_name': Pointer[U8] tag, ...)

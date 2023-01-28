@@ -1,2 +1,2 @@
-  fun set_headers_visible(tree_view': NullablePointer[GtkTreeViewT], headers_visible': I32): None =>
-    @gtk_tree_view_set_headers_visible(tree_view', headers_visible')
+  fun set_headers_visible(tree_view': GtkTreeViewI, headers_visible': I32): None =>
+    @gtk_tree_view_set_headers_visible(tree_view'.getptr(), headers_visible')

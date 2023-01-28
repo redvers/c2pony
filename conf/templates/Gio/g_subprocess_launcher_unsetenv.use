@@ -1,1 +1,1 @@
-use @g_subprocess_launcher_unsetenv[None](self': NullablePointer[GSubprocessLauncherT], variable': Pointer[U8] tag)
+use @g_subprocess_launcher_unsetenv[None](self': NullablePointer[GObjectT], variable': Pointer[U8] tag)

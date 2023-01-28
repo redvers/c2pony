@@ -1,1 +1,1 @@
-use @gtk_application_window_get_show_menubar[I32](window': NullablePointer[GtkApplicationWindowT])
+use @gtk_application_window_get_show_menubar[I32](window': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun get_hover_selection(tree_view': NullablePointer[GtkTreeViewT]): I32 =>
-    @gtk_tree_view_get_hover_selection(tree_view')
+  fun get_hover_selection(tree_view': GtkTreeViewI): I32 =>
+    @gtk_tree_view_get_hover_selection(tree_view'.getptr())

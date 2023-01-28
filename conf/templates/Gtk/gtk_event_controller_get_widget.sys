@@ -1,2 +1,2 @@
-  fun get_widget(controller': NullablePointer[GtkEventControllerT]): NullablePointer[GObjectT] =>
-@gtk_event_controller_get_widget(controller')
+  fun get_widget(controller': GtkEventControllerI): NullablePointer[GObjectT] =>
+@gtk_event_controller_get_widget(controller'.getptr())

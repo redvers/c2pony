@@ -1,2 +1,2 @@
-  fun set_default_database(backend': NullablePointer[GTlsBackendT], database': NullablePointer[GTlsDatabaseT]): None =>
-    @g_tls_backend_set_default_database(backend', database')
+  fun set_default_database(backend': GTlsBackendI, database': GTlsDatabaseI): None =>
+    @g_tls_backend_set_default_database(backend'.getptr(), database'.getptr())

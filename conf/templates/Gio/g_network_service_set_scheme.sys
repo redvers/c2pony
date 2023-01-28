@@ -1,2 +1,2 @@
-  fun set_scheme(srv': NullablePointer[GNetworkServiceT], scheme': String): None =>
-    @g_network_service_set_scheme(srv', scheme'.cstring())
+  fun set_scheme(srv': GNetworkServiceI, scheme': String): None =>
+    @g_network_service_set_scheme(srv'.getptr(), scheme'.cstring())

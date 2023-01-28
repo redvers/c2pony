@@ -1,2 +1,2 @@
-  new new_with_buffer(buffer': NullablePointer[GtkEntryBufferT]) =>
-    ptr = @gtk_entry_new_with_buffer(buffer')
+  new new_with_buffer(buffer': GtkEntryBufferI) =>
+    ptr = @gtk_entry_new_with_buffer(buffer'.getptr())

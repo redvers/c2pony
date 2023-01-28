@@ -1,2 +1,2 @@
-  fun ref new_method_reply(): NullablePointer[GDBusMessageT] =>
+  fun ref new_method_reply(): NullablePointer[GObjectT] =>
     GDBusMessageP.new_method_reply(this)

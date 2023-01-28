@@ -1,2 +1,2 @@
-  fun get_family(client': NullablePointer[GSocketClientT]): U32 =>
-    @g_socket_client_get_family(client')
+  fun get_family(client': GSocketClientI): U32 =>
+    @g_socket_client_get_family(client'.getptr())

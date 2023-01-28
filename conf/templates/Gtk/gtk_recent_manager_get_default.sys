@@ -1,2 +1,2 @@
-  fun get_default(): NullablePointer[GtkRecentManagerT] =>
-    @gtk_recent_manager_get_default()
+  fun get_default(): NullablePointer[GObjectT] =>
+@gtk_recent_manager_get_default()

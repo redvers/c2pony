@@ -1,2 +1,2 @@
-  fun ref has_prefix(prefix': NullablePointer[GFileT]): I32 =>
+  fun ref has_prefix(prefix': GFileI): I32 =>
     GFileP.has_prefix(this, prefix')

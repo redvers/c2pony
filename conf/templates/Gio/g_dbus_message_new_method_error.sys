@@ -1,2 +1,2 @@
-  fun new_method_error(method_call_message': NullablePointer[GDBusMessageT], error_name': String, error_message_format': String, ...): NullablePointer[GDBusMessageT] =>
-    @g_dbus_message_new_method_error(method_call_message', error_name'.cstring(), error_message_format'.cstring(), ...)
+  fun new_method_error(method_call_message': GDBusMessageI, error_name': String, error_message_format': String, ...): NullablePointer[GObjectT] =>
+@g_dbus_message_new_method_error(method_call_message'.getptr(), error_name'.cstring(), error_message_format'.cstring(), ...)

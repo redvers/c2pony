@@ -1,1 +1,1 @@
-use @gtk_print_operation_get_error[None](op': NullablePointer[GtkPrintOperationT], error': NullablePointer[GErrorT])
+use @gtk_print_operation_get_error[None](op': NullablePointer[GObjectT], error': NullablePointer[GErrorT])

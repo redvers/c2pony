@@ -1,2 +1,2 @@
-  fun ref set_display_name(display_name': String, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileT] =>
+  fun ref set_display_name(display_name': String, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.set_display_name(this, display_name', cancellable', error')

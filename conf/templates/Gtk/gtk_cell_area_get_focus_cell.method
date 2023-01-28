@@ -1,2 +1,2 @@
-  fun ref get_focus_cell(): NullablePointer[GtkCellRendererT] =>
+  fun ref get_focus_cell(): NullablePointer[GObjectT] =>
     GtkCellAreaP.get_focus_cell(this)

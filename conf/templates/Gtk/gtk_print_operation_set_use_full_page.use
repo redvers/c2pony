@@ -1,1 +1,1 @@
-use @gtk_print_operation_set_use_full_page[None](op': NullablePointer[GtkPrintOperationT], full_page': I32)
+use @gtk_print_operation_set_use_full_page[None](op': NullablePointer[GObjectT], full_page': I32)

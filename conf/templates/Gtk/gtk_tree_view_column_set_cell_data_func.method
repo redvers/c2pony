@@ -1,2 +1,2 @@
-  fun ref set_cell_data_func(cell_renderer': NullablePointer[GtkCellRendererT], func': GtkTreeCellDataFunc, func_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+  fun ref set_cell_data_func(cell_renderer': GtkCellRendererI, func': GtkTreeCellDataFunc, func_data': Pointer[None] tag, destroy': Pointer[None]): None =>
     GtkTreeViewColumnP.set_cell_data_func(this, cell_renderer', func', func_data', destroy')

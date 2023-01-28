@@ -1,2 +1,2 @@
-  fun set_accepts_tab(text_view': NullablePointer[GtkTextViewT], accepts_tab': I32): None =>
-    @gtk_text_view_set_accepts_tab(text_view', accepts_tab')
+  fun set_accepts_tab(text_view': GtkTextViewI, accepts_tab': I32): None =>
+    @gtk_text_view_set_accepts_tab(text_view'.getptr(), accepts_tab')

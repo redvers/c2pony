@@ -1,1 +1,1 @@
-use @gtk_event_controller_key_get_group[U32](controller': NullablePointer[GtkEventControllerKeyT])
+use @gtk_event_controller_key_get_group[U32](controller': NullablePointer[GObjectT])

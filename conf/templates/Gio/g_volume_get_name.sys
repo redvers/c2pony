@@ -1,2 +1,2 @@
-  fun get_name(volume': NullablePointer[GVolumeT]): String iso^ =>
-    String.from_cstring(@g_volume_get_name(volume')).clone()
+  fun get_name(volume': GVolumeI): String iso^ =>
+    String.from_cstring(@g_volume_get_name(volume'.getptr())).clone()

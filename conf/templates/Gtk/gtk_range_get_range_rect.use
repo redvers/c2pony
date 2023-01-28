@@ -1,1 +1,1 @@
-use @gtk_range_get_range_rect[None](range': NullablePointer[GtkRangeT], range_rect': NullablePointer[cairorectangleintT])
+use @gtk_range_get_range_rect[None](range': NullablePointer[GObjectT], range_rect': NullablePointer[cairorectangleintT])

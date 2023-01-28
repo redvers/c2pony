@@ -1,2 +1,2 @@
-  fun get_n_copies(settings': NullablePointer[GtkPrintSettingsT]): I32 =>
-    @gtk_print_settings_get_n_copies(settings')
+  fun get_n_copies(settings': GtkPrintSettingsI): I32 =>
+    @gtk_print_settings_get_n_copies(settings'.getptr())

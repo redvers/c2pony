@@ -1,2 +1,2 @@
-  fun set_invisible_char(self': NullablePointer[GtkTextT], ch': U32): None =>
-    @gtk_text_set_invisible_char(self', ch')
+  fun set_invisible_char(self': GtkTextI, ch': U32): None =>
+    @gtk_text_set_invisible_char(self'.getptr(), ch')

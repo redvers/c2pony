@@ -1,1 +1,1 @@
-use @gtk_entry_buffer_emit_deleted_text[None](buffer': NullablePointer[GtkEntryBufferT], position': U32, n_chars': U32)
+use @gtk_entry_buffer_emit_deleted_text[None](buffer': NullablePointer[GObjectT], position': U32, n_chars': U32)

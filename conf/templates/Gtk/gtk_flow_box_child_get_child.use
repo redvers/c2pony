@@ -1,1 +1,1 @@
-use @gtk_flow_box_child_get_child[NullablePointer[GObjectT]](self': NullablePointer[GtkFlowBoxChildT])
+use @gtk_flow_box_child_get_child[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

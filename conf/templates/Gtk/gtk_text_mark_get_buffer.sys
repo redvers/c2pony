@@ -1,2 +1,2 @@
-  fun get_buffer(mark': NullablePointer[GtkTextMarkT]): NullablePointer[GtkTextBufferT] =>
-    @gtk_text_mark_get_buffer(mark')
+  fun get_buffer(mark': GtkTextMarkI): NullablePointer[GObjectT] =>
+@gtk_text_mark_get_buffer(mark'.getptr())

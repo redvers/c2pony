@@ -1,1 +1,1 @@
-use @g_mount_unshadow[None](mount': NullablePointer[GMountT])
+use @g_mount_unshadow[None](mount': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun set_logo_icon_name(about': NullablePointer[GtkAboutDialogT], icon_name': String): None =>
-    @gtk_about_dialog_set_logo_icon_name(about', icon_name'.cstring())
+  fun set_logo_icon_name(about': GtkAboutDialogI, icon_name': String): None =>
+    @gtk_about_dialog_set_logo_icon_name(about'.getptr(), icon_name'.cstring())

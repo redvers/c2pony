@@ -1,2 +1,2 @@
-  fun get_completions(completer': NullablePointer[GFilenameCompleterT], initial_text': String): Pointer[Pointer[U8]] tag =>
-    @g_filename_completer_get_completions(completer', initial_text'.cstring())
+  fun get_completions(completer': GFilenameCompleterI, initial_text': String): Pointer[Pointer[U8]] tag =>
+    @g_filename_completer_get_completions(completer'.getptr(), initial_text'.cstring())

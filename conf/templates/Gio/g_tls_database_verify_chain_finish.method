@@ -1,2 +1,2 @@
-  fun ref verify_chain_finish(result': NullablePointer[GAsyncResultT], error': GError): U32 =>
+  fun ref verify_chain_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): U32 =>
     GTlsDatabaseP.verify_chain_finish(this, result', error')

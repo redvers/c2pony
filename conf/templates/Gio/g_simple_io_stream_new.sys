@@ -1,2 +1,2 @@
-  new gnew(input_stream': NullablePointer[GInputStreamT], output_stream': NullablePointer[GOutputStreamT]) =>
-    ptr = @g_simple_io_stream_new(input_stream', output_stream')
+  new gnew(input_stream': GInputStreamI, output_stream': GOutputStreamI) =>
+    ptr = @g_simple_io_stream_new(input_stream'.getptr(), output_stream'.getptr())

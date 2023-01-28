@@ -1,2 +1,2 @@
-  fun get_child(self': NullablePointer[GtkTreeExpanderT]): NullablePointer[GObjectT] =>
-@gtk_tree_expander_get_child(self')
+  fun get_child(self': GtkTreeExpanderI): NullablePointer[GObjectT] =>
+@gtk_tree_expander_get_child(self'.getptr())

@@ -1,2 +1,2 @@
-  fun get_baseline_position(self': NullablePointer[GtkCenterBoxT]): U32 =>
-    @gtk_center_box_get_baseline_position(self')
+  fun get_baseline_position(self': GtkCenterBoxI): U32 =>
+    @gtk_center_box_get_baseline_position(self'.getptr())

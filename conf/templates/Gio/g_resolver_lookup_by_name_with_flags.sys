@@ -1,2 +1,2 @@
-  fun lookup_by_name_with_flags(resolver': NullablePointer[GResolverT], hostname': String, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GListT] =>
-    @g_resolver_lookup_by_name_with_flags(resolver', hostname'.cstring(), flags', cancellable', error'.ptr)
+  fun lookup_by_name_with_flags(resolver': GResolverI, hostname': String, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+    @g_resolver_lookup_by_name_with_flags(resolver'.getptr(), hostname'.cstring(), flags', cancellable'.getptr(), error')

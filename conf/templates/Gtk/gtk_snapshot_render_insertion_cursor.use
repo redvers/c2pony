@@ -1,1 +1,1 @@
-use @gtk_snapshot_render_insertion_cursor[None](snapshot': NullablePointer[GdkSnapshotT], context': NullablePointer[GtkStyleContextT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT], index': I32, direction': U32)
+use @gtk_snapshot_render_insertion_cursor[None](snapshot': NullablePointer[GdkSnapshotT], context': NullablePointer[GObjectT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT], index': I32, direction': U32)

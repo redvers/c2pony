@@ -1,2 +1,2 @@
-  fun stop_editing(cell': NullablePointer[GtkCellRendererT], canceled': I32): None =>
-    @gtk_cell_renderer_stop_editing(cell', canceled')
+  fun stop_editing(cell': GtkCellRendererI, canceled': I32): None =>
+    @gtk_cell_renderer_stop_editing(cell'.getptr(), canceled')

@@ -1,2 +1,2 @@
-  fun set_progress_fraction(entry': NullablePointer[GtkEntryT], fraction': F64): None =>
-    @gtk_entry_set_progress_fraction(entry', fraction')
+  fun set_progress_fraction(entry': GtkEntryI, fraction': F64): None =>
+    @gtk_entry_set_progress_fraction(entry'.getptr(), fraction')

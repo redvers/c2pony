@@ -1,1 +1,1 @@
-use @gtk_tree_view_get_enable_search[I32](tree_view': NullablePointer[GtkTreeViewT])
+use @gtk_tree_view_get_enable_search[I32](tree_view': NullablePointer[GObjectT])

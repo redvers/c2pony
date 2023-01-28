@@ -1,1 +1,1 @@
-use @g_file_new_for_commandline_arg[NullablePointer[GFileT]](arg': Pointer[U8] tag)
+use @g_file_new_for_commandline_arg[NullablePointer[GObjectT]](arg': Pointer[U8] tag)

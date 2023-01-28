@@ -1,1 +1,1 @@
-use @gtk_picture_get_paintable[NullablePointer[GdkPaintableT]](self': NullablePointer[GtkPictureT])
+use @gtk_picture_get_paintable[NullablePointer[GdkPaintableT]](self': NullablePointer[GObjectT])

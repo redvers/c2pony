@@ -1,2 +1,2 @@
-  fun set_value(adjustment': NullablePointer[GtkAdjustmentT], value': F64): None =>
-    @gtk_adjustment_set_value(adjustment', value')
+  fun set_value(adjustment': GtkAdjustmentI, value': F64): None =>
+    @gtk_adjustment_set_value(adjustment'.getptr(), value')

@@ -1,2 +1,2 @@
-  new gnew(table': NullablePointer[GtkTextTagTableT]) =>
-    ptr = @gtk_text_buffer_new(table')
+  new gnew(table': GtkTextTagTableI) =>
+    ptr = @gtk_text_buffer_new(table'.getptr())

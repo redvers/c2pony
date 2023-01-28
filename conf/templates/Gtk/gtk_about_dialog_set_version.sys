@@ -1,2 +1,2 @@
-  fun set_version(about': NullablePointer[GtkAboutDialogT], version': String): None =>
-    @gtk_about_dialog_set_version(about', version'.cstring())
+  fun set_version(about': GtkAboutDialogI, version': String): None =>
+    @gtk_about_dialog_set_version(about'.getptr(), version'.cstring())

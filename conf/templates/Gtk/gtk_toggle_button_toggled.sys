@@ -1,2 +1,2 @@
-  fun toggled(toggle_button': NullablePointer[GtkToggleButtonT]): None =>
-    @gtk_toggle_button_toggled(toggle_button')
+  fun toggled(toggle_button': GtkToggleButtonI): None =>
+    @gtk_toggle_button_toggled(toggle_button'.getptr())

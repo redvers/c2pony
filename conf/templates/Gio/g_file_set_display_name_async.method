@@ -1,2 +1,2 @@
-  fun ref set_display_name_async(display_name': String, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref set_display_name_async(display_name': String, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GFileP.set_display_name_async(this, display_name', io_priority', cancellable', callback', user_data')

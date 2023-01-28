@@ -1,2 +1,2 @@
-  fun activate(self': NullablePointer[GtkShortcutActionT], flags': U32, widget': GtkWidgetI, args': NullablePointer[GVariantT]): I32 =>
-    @gtk_shortcut_action_activate(self', flags', widget'.getptr(), args')
+  fun activate(self': GtkShortcutActionI, flags': U32, widget': GtkWidgetI, args': NullablePointer[GVariantT]): I32 =>
+    @gtk_shortcut_action_activate(self'.getptr(), flags', widget'.getptr(), args')

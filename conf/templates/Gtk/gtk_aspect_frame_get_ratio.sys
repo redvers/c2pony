@@ -1,2 +1,2 @@
-  fun get_ratio(self': NullablePointer[GtkAspectFrameT]): F32 =>
-    @gtk_aspect_frame_get_ratio(self')
+  fun get_ratio(self': GtkAspectFrameI): F32 =>
+    @gtk_aspect_frame_get_ratio(self'.getptr())

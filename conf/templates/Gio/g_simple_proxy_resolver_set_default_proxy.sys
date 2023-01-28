@@ -1,2 +1,2 @@
-  fun set_default_proxy(resolver': NullablePointer[GSimpleProxyResolverT], default_proxy': String): None =>
-    @g_simple_proxy_resolver_set_default_proxy(resolver', default_proxy'.cstring())
+  fun set_default_proxy(resolver': GSimpleProxyResolverI, default_proxy': String): None =>
+    @g_simple_proxy_resolver_set_default_proxy(resolver'.getptr(), default_proxy'.cstring())

@@ -1,1 +1,1 @@
-use @g_proxy_resolver_lookup_finish[Pointer[Pointer[U8]] tag](resolver': NullablePointer[GProxyResolverT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_proxy_resolver_lookup_finish[Pointer[Pointer[U8]] tag](resolver': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

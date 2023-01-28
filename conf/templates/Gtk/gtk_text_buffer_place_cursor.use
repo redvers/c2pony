@@ -1,1 +1,1 @@
-use @gtk_text_buffer_place_cursor[None](buffer': NullablePointer[GtkTextBufferT], where': NullablePointer[GtkTextIterT])
+use @gtk_text_buffer_place_cursor[None](buffer': NullablePointer[GObjectT], where': NullablePointer[GtkTextIterT])

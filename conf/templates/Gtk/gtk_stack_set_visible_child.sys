@@ -1,2 +1,2 @@
-  fun set_visible_child(stack': NullablePointer[GtkStackT], child': GtkWidgetI): None =>
-    @gtk_stack_set_visible_child(stack', child'.getptr())
+  fun set_visible_child(stack': GtkStackI, child': GtkWidgetI): None =>
+    @gtk_stack_set_visible_child(stack'.getptr(), child'.getptr())

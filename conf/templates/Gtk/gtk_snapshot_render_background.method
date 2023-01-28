@@ -1,2 +1,2 @@
-  fun ref render_background(context': NullablePointer[GtkStyleContextT], x': F64, y': F64, width': F64, height': F64): None =>
+  fun ref render_background(context': GtkStyleContextI, x': F64, y': F64, width': F64, height': F64): None =>
     P.render_background(this, context', x', y', width', height')

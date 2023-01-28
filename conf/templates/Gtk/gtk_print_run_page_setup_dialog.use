@@ -1,1 +1,1 @@
-use @gtk_print_run_page_setup_dialog[NullablePointer[GtkPageSetupT]](parent': NullablePointer[GObjectT], page_setup': NullablePointer[GtkPageSetupT], settings': NullablePointer[GtkPrintSettingsT])
+use @gtk_print_run_page_setup_dialog[NullablePointer[GObjectT]](parent': NullablePointer[GObjectT], page_setup': NullablePointer[GObjectT], settings': NullablePointer[GObjectT])

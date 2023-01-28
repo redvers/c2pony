@@ -1,1 +1,1 @@
-use @g_dbus_object_manager_server_get_connection[NullablePointer[GDBusConnectionT]](manager': NullablePointer[GDBusObjectManagerServerT])
+use @g_dbus_object_manager_server_get_connection[NullablePointer[GObjectT]](manager': NullablePointer[GObjectT])

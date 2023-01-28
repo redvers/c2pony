@@ -1,1 +1,1 @@
-use @g_file_info_set_sort_order[None](info': NullablePointer[GFileInfoT], sort_order': I32)
+use @g_file_info_set_sort_order[None](info': NullablePointer[GObjectT], sort_order': I32)

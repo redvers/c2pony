@@ -1,2 +1,2 @@
-  fun get_selected(self': NullablePointer[GtkDropDownT]): U32 =>
-    @gtk_drop_down_get_selected(self')
+  fun get_selected(self': GtkDropDownI): U32 =>
+    @gtk_drop_down_get_selected(self'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_list_box_invalidate_headers[None](box': NullablePointer[GtkListBoxT])
+use @gtk_list_box_invalidate_headers[None](box': NullablePointer[GObjectT])

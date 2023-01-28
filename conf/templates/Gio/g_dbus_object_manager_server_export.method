@@ -1,2 +1,2 @@
-  fun ref export(object': NullablePointer[GDBusObjectSkeletonT]): None =>
+  fun ref export(object': GDBusObjectSkeletonI): None =>
     GDBusObjectManagerServerP.export(this, object')

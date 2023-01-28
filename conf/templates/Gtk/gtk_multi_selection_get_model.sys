@@ -1,2 +1,2 @@
-  fun get_model(self': NullablePointer[GtkMultiSelectionT]): NullablePointer[GObjectT] =>
-@gtk_multi_selection_get_model(self')
+  fun get_model(self': GtkMultiSelectionI): NullablePointer[GObjectT] =>
+@gtk_multi_selection_get_model(self'.getptr())

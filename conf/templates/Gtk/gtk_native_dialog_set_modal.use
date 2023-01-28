@@ -1,1 +1,1 @@
-use @gtk_native_dialog_set_modal[None](self': NullablePointer[GtkNativeDialogT], modal': I32)
+use @gtk_native_dialog_set_modal[None](self': NullablePointer[GObjectT], modal': I32)

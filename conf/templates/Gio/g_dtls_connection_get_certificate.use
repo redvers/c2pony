@@ -1,1 +1,1 @@
-use @g_dtls_connection_get_certificate[NullablePointer[GTlsCertificateT]](conn': NullablePointer[GDtlsConnectionT])
+use @g_dtls_connection_get_certificate[NullablePointer[GObjectT]](conn': NullablePointer[GObjectT])

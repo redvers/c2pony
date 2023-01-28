@@ -1,2 +1,2 @@
-  fun get_interface(manager': NullablePointer[GDBusObjectManagerT], object_path': String, interface_name': String): NullablePointer[GDBusInterfaceT] =>
-    @g_dbus_object_manager_get_interface(manager', object_path'.cstring(), interface_name'.cstring())
+  fun get_interface(manager': GDBusObjectManagerI, object_path': String, interface_name': String): NullablePointer[GObjectT] =>
+@g_dbus_object_manager_get_interface(manager'.getptr(), object_path'.cstring(), interface_name'.cstring())

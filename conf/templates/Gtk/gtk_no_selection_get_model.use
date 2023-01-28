@@ -1,1 +1,1 @@
-use @gtk_no_selection_get_model[NullablePointer[GObjectT]](self': NullablePointer[GtkNoSelectionT])
+use @gtk_no_selection_get_model[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

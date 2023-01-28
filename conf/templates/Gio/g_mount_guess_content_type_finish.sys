@@ -1,2 +1,2 @@
-  fun guess_content_type_finish(mount': NullablePointer[GMountT], result': NullablePointer[GAsyncResultT], error': GError): Pointer[Pointer[U8]] tag =>
-    @g_mount_guess_content_type_finish(mount', result', error'.ptr)
+  fun guess_content_type_finish(mount': GMountI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
+    @g_mount_guess_content_type_finish(mount'.getptr(), result'.getptr(), error')

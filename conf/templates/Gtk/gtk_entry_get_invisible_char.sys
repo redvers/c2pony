@@ -1,2 +1,2 @@
-  fun get_invisible_char(entry': NullablePointer[GtkEntryT]): U32 =>
-    @gtk_entry_get_invisible_char(entry')
+  fun get_invisible_char(entry': GtkEntryI): U32 =>
+    @gtk_entry_get_invisible_char(entry'.getptr())

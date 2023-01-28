@@ -1,1 +1,1 @@
-use @gtk_list_box_row_set_child[None](row': NullablePointer[GtkListBoxRowT], child': NullablePointer[GObjectT])
+use @gtk_list_box_row_set_child[None](row': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

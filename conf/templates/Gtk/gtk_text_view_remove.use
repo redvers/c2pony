@@ -1,1 +1,1 @@
-use @gtk_text_view_remove[None](text_view': NullablePointer[GtkTextViewT], child': NullablePointer[GObjectT])
+use @gtk_text_view_remove[None](text_view': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

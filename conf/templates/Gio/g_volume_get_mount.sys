@@ -1,2 +1,2 @@
-  fun get_mount(volume': NullablePointer[GVolumeT]): NullablePointer[GMountT] =>
-    @g_volume_get_mount(volume')
+  fun get_mount(volume': GVolumeI): NullablePointer[GObjectT] =>
+@g_volume_get_mount(volume'.getptr())

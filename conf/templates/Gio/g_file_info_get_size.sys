@@ -1,2 +1,2 @@
-  fun get_size(info': NullablePointer[GFileInfoT]): I64 =>
-    @g_file_info_get_size(info')
+  fun get_size(info': GFileInfoI): I64 =>
+    @g_file_info_get_size(info'.getptr())

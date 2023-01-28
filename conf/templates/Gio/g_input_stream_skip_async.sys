@@ -1,2 +1,2 @@
-  fun skip_async(stream': NullablePointer[GInputStreamT], count': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_input_stream_skip_async(stream', count', io_priority', cancellable', callback', user_data')
+  fun skip_async(stream': GInputStreamI, count': U64, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_input_stream_skip_async(stream'.getptr(), count', io_priority', cancellable'.getptr(), callback', user_data')

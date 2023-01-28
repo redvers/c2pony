@@ -1,2 +1,2 @@
-  fun get_label(expander': NullablePointer[GtkExpanderT]): String iso^ =>
-    String.from_cstring(@gtk_expander_get_label(expander')).clone()
+  fun get_label(expander': GtkExpanderI): String iso^ =>
+    String.from_cstring(@gtk_expander_get_label(expander'.getptr())).clone()

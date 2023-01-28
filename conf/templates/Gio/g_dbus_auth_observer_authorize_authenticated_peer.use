@@ -1,1 +1,1 @@
-use @g_dbus_auth_observer_authorize_authenticated_peer[I32](observer': NullablePointer[GDBusAuthObserverT], stream': NullablePointer[GIOStreamT], credentials': NullablePointer[GCredentialsT])
+use @g_dbus_auth_observer_authorize_authenticated_peer[I32](observer': NullablePointer[GObjectT], stream': NullablePointer[GObjectT], credentials': NullablePointer[GObjectT])

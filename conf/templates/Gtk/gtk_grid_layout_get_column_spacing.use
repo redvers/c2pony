@@ -1,1 +1,1 @@
-use @gtk_grid_layout_get_column_spacing[U32](grid': NullablePointer[GtkGridLayoutT])
+use @gtk_grid_layout_get_column_spacing[U32](grid': NullablePointer[GObjectT])

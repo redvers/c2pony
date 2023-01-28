@@ -1,2 +1,2 @@
-  fun set_max_undo_levels(buffer': NullablePointer[GtkTextBufferT], max_undo_levels': U32): None =>
-    @gtk_text_buffer_set_max_undo_levels(buffer', max_undo_levels')
+  fun set_max_undo_levels(buffer': GtkTextBufferI, max_undo_levels': U32): None =>
+    @gtk_text_buffer_set_max_undo_levels(buffer'.getptr(), max_undo_levels')

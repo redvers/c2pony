@@ -1,1 +1,1 @@
-use @g_socket_connect[I32](socket': NullablePointer[GSocketT], address': NullablePointer[GSocketAddressT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_socket_connect[I32](socket': NullablePointer[GObjectT], address': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

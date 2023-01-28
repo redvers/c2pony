@@ -1,2 +1,2 @@
-  fun remove_choice(chooser': NullablePointer[GtkFileChooserT], id': String): None =>
-    @gtk_file_chooser_remove_choice(chooser', id'.cstring())
+  fun remove_choice(chooser': GtkFileChooserI, id': String): None =>
+    @gtk_file_chooser_remove_choice(chooser'.getptr(), id'.cstring())

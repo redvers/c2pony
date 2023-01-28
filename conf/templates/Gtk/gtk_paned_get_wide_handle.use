@@ -1,1 +1,1 @@
-use @gtk_paned_get_wide_handle[I32](paned': NullablePointer[GtkPanedT])
+use @gtk_paned_get_wide_handle[I32](paned': NullablePointer[GObjectT])

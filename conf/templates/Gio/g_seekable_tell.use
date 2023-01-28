@@ -1,1 +1,1 @@
-use @g_seekable_tell[I64](seekable': NullablePointer[GSeekableT])
+use @g_seekable_tell[I64](seekable': NullablePointer[GObjectT])

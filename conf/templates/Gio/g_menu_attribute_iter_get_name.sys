@@ -1,2 +1,2 @@
-  fun get_name(iter': NullablePointer[GMenuAttributeIterT]): String iso^ =>
-    String.from_cstring(@g_menu_attribute_iter_get_name(iter')).clone()
+  fun get_name(iter': GMenuAttributeIterI): String iso^ =>
+    String.from_cstring(@g_menu_attribute_iter_get_name(iter'.getptr())).clone()

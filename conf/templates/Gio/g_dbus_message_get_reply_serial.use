@@ -1,1 +1,1 @@
-use @g_dbus_message_get_reply_serial[U32](message': NullablePointer[GDBusMessageT])
+use @g_dbus_message_get_reply_serial[U32](message': NullablePointer[GObjectT])

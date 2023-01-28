@@ -1,2 +1,2 @@
-  fun to_string(address': NullablePointer[GInetAddressT]): String iso^ =>
-    String.from_cstring(@g_inet_address_to_string(address')).clone()
+  fun to_string(address': GInetAddressI): String iso^ =>
+    String.from_cstring(@g_inet_address_to_string(address'.getptr())).clone()

@@ -1,2 +1,2 @@
-  fun get_monospace(text_view': NullablePointer[GtkTextViewT]): I32 =>
-    @gtk_text_view_get_monospace(text_view')
+  fun get_monospace(text_view': GtkTextViewI): I32 =>
+    @gtk_text_view_get_monospace(text_view'.getptr())

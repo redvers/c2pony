@@ -1,2 +1,2 @@
-  fun freeze(menu': NullablePointer[GMenuT]): None =>
-    @g_menu_freeze(menu')
+  fun freeze(menu': GMenuI): None =>
+    @g_menu_freeze(menu'.getptr())

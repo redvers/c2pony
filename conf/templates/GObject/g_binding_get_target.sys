@@ -1,2 +1,2 @@
-  fun get_target(binding': NullablePointer[GBindingT]): NullablePointer[GObjectT] =>
-    @g_binding_get_target(binding')
+  fun get_target(binding': GBindingI): NullablePointer[GObjectT] =>
+@g_binding_get_target(binding'.getptr())

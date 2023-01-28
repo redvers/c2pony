@@ -1,1 +1,1 @@
-use @gtk_event_controller_reset[None](controller': NullablePointer[GtkEventControllerT])
+use @gtk_event_controller_reset[None](controller': NullablePointer[GObjectT])

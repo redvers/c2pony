@@ -1,2 +1,2 @@
-  fun ref get_description(uri': String, error': GError): String iso^ =>
+  fun ref get_description(uri': String, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
     GBookmarkFileP.get_description(ptr, uri', error')

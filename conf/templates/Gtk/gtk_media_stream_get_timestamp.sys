@@ -1,2 +1,2 @@
-  fun get_timestamp(self': NullablePointer[GtkMediaStreamT]): I64 =>
-    @gtk_media_stream_get_timestamp(self')
+  fun get_timestamp(self': GtkMediaStreamI): I64 =>
+    @gtk_media_stream_get_timestamp(self'.getptr())

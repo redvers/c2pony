@@ -1,2 +1,2 @@
-  fun get_buffer(entry': NullablePointer[GtkEntryT]): NullablePointer[GtkEntryBufferT] =>
-    @gtk_entry_get_buffer(entry')
+  fun get_buffer(entry': GtkEntryI): NullablePointer[GObjectT] =>
+@gtk_entry_get_buffer(entry'.getptr())

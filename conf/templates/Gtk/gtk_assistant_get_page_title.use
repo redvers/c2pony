@@ -1,1 +1,1 @@
-use @gtk_assistant_get_page_title[Pointer[U8]](assistant': NullablePointer[GtkAssistantT], page': NullablePointer[GObjectT])
+use @gtk_assistant_get_page_title[Pointer[U8]](assistant': NullablePointer[GObjectT], page': NullablePointer[GObjectT])

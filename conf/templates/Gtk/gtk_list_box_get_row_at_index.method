@@ -1,2 +1,2 @@
-  fun ref get_row_at_index(index': I32): NullablePointer[GtkListBoxRowT] =>
+  fun ref get_row_at_index(index': I32): NullablePointer[GObjectT] =>
     GtkListBoxP.get_row_at_index(this, index')

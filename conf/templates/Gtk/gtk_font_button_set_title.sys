@@ -1,2 +1,2 @@
-  fun set_title(font_button': NullablePointer[GtkFontButtonT], title': String): None =>
-    @gtk_font_button_set_title(font_button', title'.cstring())
+  fun set_title(font_button': GtkFontButtonI, title': String): None =>
+    @gtk_font_button_set_title(font_button'.getptr(), title'.cstring())

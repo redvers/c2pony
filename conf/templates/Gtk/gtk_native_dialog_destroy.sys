@@ -1,2 +1,2 @@
-  fun destroy(self': NullablePointer[GtkNativeDialogT]): None =>
-    @gtk_native_dialog_destroy(self')
+  fun destroy(self': GtkNativeDialogI): None =>
+    @gtk_native_dialog_destroy(self'.getptr())

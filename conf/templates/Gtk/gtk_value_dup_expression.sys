@@ -1,2 +1,2 @@
-  fun value_dup_expression(value': NullablePointer[GValueT]): NullablePointer[GtkExpressionT] =>
-    @gtk_value_dup_expression(value')
+  fun value_dup_expression(value': NullablePointer[GValueT]): NullablePointer[GObjectT] =>
+@gtk_value_dup_expression(value')

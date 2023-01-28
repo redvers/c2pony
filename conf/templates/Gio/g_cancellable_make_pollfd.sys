@@ -1,2 +1,2 @@
-  fun make_pollfd(cancellable': NullablePointer[GCancellableT], pollfd': NullablePointer[GPollFDT]): I32 =>
-    @g_cancellable_make_pollfd(cancellable', pollfd')
+  fun make_pollfd(cancellable': GCancellableI, pollfd': NullablePointer[GPollFDT]): I32 =>
+    @g_cancellable_make_pollfd(cancellable'.getptr(), pollfd')

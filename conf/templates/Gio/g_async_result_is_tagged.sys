@@ -1,2 +1,2 @@
-  fun is_tagged(res': NullablePointer[GAsyncResultT], source_tag': Pointer[None] tag): I32 =>
-    @g_async_result_is_tagged(res', source_tag')
+  fun is_tagged(res': GAsyncResultI, source_tag': Pointer[None] tag): I32 =>
+    @g_async_result_is_tagged(res'.getptr(), source_tag')

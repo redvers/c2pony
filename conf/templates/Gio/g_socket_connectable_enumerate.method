@@ -1,2 +1,2 @@
-  fun ref enumerate(): NullablePointer[GSocketAddressEnumeratorT] =>
+  fun ref enumerate(): NullablePointer[GObjectT] =>
     GSocketConnectableP.enumerate(this)

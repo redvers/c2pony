@@ -1,2 +1,2 @@
-  fun reorder(cell_layout': NullablePointer[GtkCellLayoutT], cell': NullablePointer[GtkCellRendererT], position': I32): None =>
-    @gtk_cell_layout_reorder(cell_layout', cell', position')
+  fun reorder(cell_layout': GtkCellLayoutI, cell': GtkCellRendererI, position': I32): None =>
+    @gtk_cell_layout_reorder(cell_layout'.getptr(), cell'.getptr(), position')

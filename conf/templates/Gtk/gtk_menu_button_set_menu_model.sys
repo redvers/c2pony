@@ -1,2 +1,2 @@
-  fun set_menu_model(menu_button': NullablePointer[GtkMenuButtonT], menu_model': NullablePointer[GMenuModelT]): None =>
-    @gtk_menu_button_set_menu_model(menu_button', menu_model')
+  fun set_menu_model(menu_button': GtkMenuButtonI, menu_model': GMenuModelI): None =>
+    @gtk_menu_button_set_menu_model(menu_button'.getptr(), menu_model'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_sort_list_model_set_incremental[None](self': NullablePointer[GtkSortListModelT], incremental': I32)
+use @gtk_sort_list_model_set_incremental[None](self': NullablePointer[GObjectT], incremental': I32)

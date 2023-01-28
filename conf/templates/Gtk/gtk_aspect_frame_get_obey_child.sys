@@ -1,2 +1,2 @@
-  fun get_obey_child(self': NullablePointer[GtkAspectFrameT]): I32 =>
-    @gtk_aspect_frame_get_obey_child(self')
+  fun get_obey_child(self': GtkAspectFrameI): I32 =>
+    @gtk_aspect_frame_get_obey_child(self'.getptr())

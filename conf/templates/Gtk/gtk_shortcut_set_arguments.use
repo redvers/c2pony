@@ -1,1 +1,1 @@
-use @gtk_shortcut_set_arguments[None](self': NullablePointer[GtkShortcutT], args': NullablePointer[GVariantT])
+use @gtk_shortcut_set_arguments[None](self': NullablePointer[GObjectT], args': NullablePointer[GVariantT])

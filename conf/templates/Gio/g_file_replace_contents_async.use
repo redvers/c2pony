@@ -1,1 +1,1 @@
-use @g_file_replace_contents_async[None](file': NullablePointer[GFileT], contents': Pointer[U8] tag, length': U64, etag': Pointer[U8] tag, make_backup': I32, flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_file_replace_contents_async[None](file': NullablePointer[GObjectT], contents': Pointer[U8] tag, length': U64, etag': Pointer[U8] tag, make_backup': I32, flags': U32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

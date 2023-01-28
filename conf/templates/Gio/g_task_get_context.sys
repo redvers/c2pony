@@ -1,2 +1,2 @@
-  fun get_context(task': NullablePointer[GTaskT]): NullablePointer[GMainContextT] =>
-    @g_task_get_context(task')
+  fun get_context(task': GTaskI): NullablePointer[GMainContextT] =>
+    @g_task_get_context(task'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_overlay_layout_child_set_clip_overlay[None](child': NullablePointer[GtkOverlayLayoutChildT], clip_overlay': I32)
+use @gtk_overlay_layout_child_set_clip_overlay[None](child': NullablePointer[GObjectT], clip_overlay': I32)

@@ -1,2 +1,2 @@
-  fun parse_name(vfs': NullablePointer[GVfsT], parse_name': String): NullablePointer[GFileT] =>
-    @g_vfs_parse_name(vfs', parse_name'.cstring())
+  fun parse_name(vfs': GVfsI, parse_name': String): NullablePointer[GObjectT] =>
+@g_vfs_parse_name(vfs'.getptr(), parse_name'.cstring())

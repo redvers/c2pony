@@ -1,1 +1,1 @@
-use @gtk_print_settings_set_media_type[None](settings': NullablePointer[GtkPrintSettingsT], media_type': Pointer[U8] tag)
+use @gtk_print_settings_set_media_type[None](settings': NullablePointer[GObjectT], media_type': Pointer[U8] tag)

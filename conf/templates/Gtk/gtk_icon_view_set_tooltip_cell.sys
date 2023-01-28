@@ -1,2 +1,2 @@
-  fun set_tooltip_cell(icon_view': NullablePointer[GtkIconViewT], tooltip': NullablePointer[GtkTooltipT], path': NullablePointer[GtkTreePathT], cell': NullablePointer[GtkCellRendererT]): None =>
-    @gtk_icon_view_set_tooltip_cell(icon_view', tooltip', path', cell')
+  fun set_tooltip_cell(icon_view': GtkIconViewI, tooltip': GtkTooltipI, path': NullablePointer[GtkTreePathT], cell': GtkCellRendererI): None =>
+    @gtk_icon_view_set_tooltip_cell(icon_view'.getptr(), tooltip'.getptr(), path', cell'.getptr())

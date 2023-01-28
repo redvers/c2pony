@@ -1,2 +1,2 @@
-  fun set_digits(scale': NullablePointer[GtkScaleT], digits': I32): None =>
-    @gtk_scale_set_digits(scale', digits')
+  fun set_digits(scale': GtkScaleI, digits': I32): None =>
+    @gtk_scale_set_digits(scale'.getptr(), digits')

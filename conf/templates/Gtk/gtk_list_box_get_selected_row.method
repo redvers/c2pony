@@ -1,2 +1,2 @@
-  fun ref get_selected_row(): NullablePointer[GtkListBoxRowT] =>
+  fun ref get_selected_row(): NullablePointer[GObjectT] =>
     GtkListBoxP.get_selected_row(this)

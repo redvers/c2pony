@@ -1,2 +1,2 @@
-  fun wait(subprocess': NullablePointer[GSubprocessT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_subprocess_wait(subprocess', cancellable', error'.ptr)
+  fun wait(subprocess': GSubprocessI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_subprocess_wait(subprocess'.getptr(), cancellable'.getptr(), error')

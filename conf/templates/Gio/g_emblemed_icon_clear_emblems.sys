@@ -1,2 +1,2 @@
-  fun clear_emblems(emblemed': NullablePointer[GEmblemedIconT]): None =>
-    @g_emblemed_icon_clear_emblems(emblemed')
+  fun clear_emblems(emblemed': GEmblemedIconI): None =>
+    @g_emblemed_icon_clear_emblems(emblemed'.getptr())

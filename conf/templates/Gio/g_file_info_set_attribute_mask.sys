@@ -1,2 +1,2 @@
-  fun set_attribute_mask(info': NullablePointer[GFileInfoT], mask': NullablePointer[GFileAttributeMatcherT]): None =>
-    @g_file_info_set_attribute_mask(info', mask')
+  fun set_attribute_mask(info': GFileInfoI, mask': NullablePointer[GFileAttributeMatcherT]): None =>
+    @g_file_info_set_attribute_mask(info'.getptr(), mask')

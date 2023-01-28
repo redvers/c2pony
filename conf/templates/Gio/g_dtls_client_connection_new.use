@@ -1,1 +1,1 @@
-use @g_dtls_client_connection_new[NullablePointer[GDatagramBasedT]](base_socket': NullablePointer[GDatagramBasedT], server_identity': NullablePointer[GSocketConnectableT], error': NullablePointer[GErrorT])
+use @g_dtls_client_connection_new[NullablePointer[GObjectT]](base_socket': NullablePointer[GObjectT], server_identity': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

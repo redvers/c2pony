@@ -1,1 +1,1 @@
-use @gtk_print_context_create_pango_context[NullablePointer[PangoContextT]](context': NullablePointer[GtkPrintContextT])
+use @gtk_print_context_create_pango_context[NullablePointer[PangoContextT]](context': NullablePointer[GObjectT])

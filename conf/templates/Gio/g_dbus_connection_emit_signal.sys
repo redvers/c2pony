@@ -1,2 +1,2 @@
-  fun emit_signal(connection': NullablePointer[GDBusConnectionT], destination_bus_name': String, object_path': String, interface_name': String, signal_name': String, parameters': NullablePointer[GVariantT], error': GError): I32 =>
-    @g_dbus_connection_emit_signal(connection', destination_bus_name'.cstring(), object_path'.cstring(), interface_name'.cstring(), signal_name'.cstring(), parameters', error'.ptr)
+  fun emit_signal(connection': GDBusConnectionI, destination_bus_name': String, object_path': String, interface_name': String, signal_name': String, parameters': NullablePointer[GVariantT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_dbus_connection_emit_signal(connection'.getptr(), destination_bus_name'.cstring(), object_path'.cstring(), interface_name'.cstring(), signal_name'.cstring(), parameters', error')

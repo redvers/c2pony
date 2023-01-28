@@ -1,2 +1,2 @@
-  fun get_require_close_notify(conn': NullablePointer[GDtlsConnectionT]): I32 =>
-    @g_dtls_connection_get_require_close_notify(conn')
+  fun get_require_close_notify(conn': GDtlsConnectionI): I32 =>
+    @g_dtls_connection_get_require_close_notify(conn'.getptr())

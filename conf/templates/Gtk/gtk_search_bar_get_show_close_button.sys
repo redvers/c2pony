@@ -1,2 +1,2 @@
-  fun get_show_close_button(bar': NullablePointer[GtkSearchBarT]): I32 =>
-    @gtk_search_bar_get_show_close_button(bar')
+  fun get_show_close_button(bar': GtkSearchBarI): I32 =>
+    @gtk_search_bar_get_show_close_button(bar'.getptr())

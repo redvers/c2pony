@@ -1,1 +1,1 @@
-use @gtk_text_buffer_copy_clipboard[None](buffer': NullablePointer[GtkTextBufferT], clipboard': NullablePointer[GdkClipboardT])
+use @gtk_text_buffer_copy_clipboard[None](buffer': NullablePointer[GObjectT], clipboard': NullablePointer[GdkClipboardT])

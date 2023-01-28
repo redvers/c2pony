@@ -1,2 +1,2 @@
-  fun return_value_with_unix_fd_list(invocation': NullablePointer[GDBusMethodInvocationT], parameters': NullablePointer[GVariantT], fd_list': NullablePointer[GUnixFDListT]): None =>
-    @g_dbus_method_invocation_return_value_with_unix_fd_list(invocation', parameters', fd_list')
+  fun return_value_with_unix_fd_list(invocation': GDBusMethodInvocationI, parameters': NullablePointer[GVariantT], fd_list': GUnixFDListI): None =>
+    @g_dbus_method_invocation_return_value_with_unix_fd_list(invocation'.getptr(), parameters', fd_list'.getptr())

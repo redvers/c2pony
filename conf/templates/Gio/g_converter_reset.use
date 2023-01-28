@@ -1,1 +1,1 @@
-use @g_converter_reset[None](converter': NullablePointer[GConverterT])
+use @g_converter_reset[None](converter': NullablePointer[GObjectT])

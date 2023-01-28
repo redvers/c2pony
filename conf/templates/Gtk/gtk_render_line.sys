@@ -1,2 +1,2 @@
-  fun render_line(context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], x0': F64, y0': F64, x1': F64, y1': F64): None =>
-    @gtk_render_line(context', cr', x0', y0', x1', y1')
+  fun render_line(context': GtkStyleContextI, cr': NullablePointer[cairoT], x0': F64, y0': F64, x1': F64, y1': F64): None =>
+    @gtk_render_line(context'.getptr(), cr', x0', y0', x1', y1')

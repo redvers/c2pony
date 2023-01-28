@@ -1,2 +1,2 @@
-  fun to_label(self': NullablePointer[GtkShortcutTriggerT], display': NullablePointer[GdkDisplayT]): String iso^ =>
-    String.from_cstring(@gtk_shortcut_trigger_to_label(self', display')).clone()
+  fun to_label(self': GtkShortcutTriggerI, display': NullablePointer[GdkDisplayT]): String iso^ =>
+    String.from_cstring(@gtk_shortcut_trigger_to_label(self'.getptr(), display')).clone()

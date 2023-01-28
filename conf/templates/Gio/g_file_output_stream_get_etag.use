@@ -1,1 +1,1 @@
-use @g_file_output_stream_get_etag[Pointer[U8]](stream': NullablePointer[GFileOutputStreamT])
+use @g_file_output_stream_get_etag[Pointer[U8]](stream': NullablePointer[GObjectT])

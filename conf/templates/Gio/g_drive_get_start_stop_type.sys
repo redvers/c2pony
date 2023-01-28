@@ -1,2 +1,2 @@
-  fun get_start_stop_type(drive': NullablePointer[GDriveT]): U32 =>
-    @g_drive_get_start_stop_type(drive')
+  fun get_start_stop_type(drive': GDriveI): U32 =>
+    @g_drive_get_start_stop_type(drive'.getptr())

@@ -1,2 +1,2 @@
-  fun observe_constraints(layout': NullablePointer[GtkConstraintLayoutT]): NullablePointer[GObjectT] =>
-@gtk_constraint_layout_observe_constraints(layout')
+  fun observe_constraints(layout': GtkConstraintLayoutI): NullablePointer[GObjectT] =>
+@gtk_constraint_layout_observe_constraints(layout'.getptr())

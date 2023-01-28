@@ -1,2 +1,2 @@
-  fun add_titled(stack': NullablePointer[GtkStackT], child': GtkWidgetI, name': String, title': String): NullablePointer[GtkStackPageT] =>
-    @gtk_stack_add_titled(stack', child'.getptr(), name'.cstring(), title'.cstring())
+  fun add_titled(stack': GtkStackI, child': GtkWidgetI, name': String, title': String): NullablePointer[GObjectT] =>
+@gtk_stack_add_titled(stack'.getptr(), child'.getptr(), name'.cstring(), title'.cstring())

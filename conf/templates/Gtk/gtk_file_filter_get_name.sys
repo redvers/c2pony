@@ -1,2 +1,2 @@
-  fun get_name(filter': NullablePointer[GtkFileFilterT]): String iso^ =>
-    String.from_cstring(@gtk_file_filter_get_name(filter')).clone()
+  fun get_name(filter': GtkFileFilterI): String iso^ =>
+    String.from_cstring(@gtk_file_filter_get_name(filter'.getptr())).clone()

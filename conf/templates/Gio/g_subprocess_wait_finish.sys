@@ -1,2 +1,2 @@
-  fun wait_finish(subprocess': NullablePointer[GSubprocessT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_subprocess_wait_finish(subprocess', result', error'.ptr)
+  fun wait_finish(subprocess': GSubprocessI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_subprocess_wait_finish(subprocess'.getptr(), result'.getptr(), error')

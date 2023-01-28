@@ -1,2 +1,2 @@
-  fun get_row_at_index(box': NullablePointer[GtkListBoxT], index': I32): NullablePointer[GtkListBoxRowT] =>
-    @gtk_list_box_get_row_at_index(box', index')
+  fun get_row_at_index(box': GtkListBoxI, index': I32): NullablePointer[GObjectT] =>
+@gtk_list_box_get_row_at_index(box'.getptr(), index')

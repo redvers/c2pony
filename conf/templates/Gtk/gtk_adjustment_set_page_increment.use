@@ -1,1 +1,1 @@
-use @gtk_adjustment_set_page_increment[None](adjustment': NullablePointer[GtkAdjustmentT], page_increment': F64)
+use @gtk_adjustment_set_page_increment[None](adjustment': NullablePointer[GObjectT], page_increment': F64)

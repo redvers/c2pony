@@ -1,2 +1,2 @@
-  fun set_model(self': NullablePointer[GtkMultiSelectionT], model': GListModelI): None =>
-    @gtk_multi_selection_set_model(self', model'.getptr())
+  fun set_model(self': GtkMultiSelectionI, model': GListModelI): None =>
+    @gtk_multi_selection_set_model(self'.getptr(), model'.getptr())

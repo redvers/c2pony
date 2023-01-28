@@ -1,2 +1,2 @@
-  fun flush(stream': NullablePointer[GOutputStreamT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_output_stream_flush(stream', cancellable', error'.ptr)
+  fun flush(stream': GOutputStreamI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_output_stream_flush(stream'.getptr(), cancellable'.getptr(), error')

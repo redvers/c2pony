@@ -1,2 +1,2 @@
-  fun ref condition_wait(condition': U32, timeout': I64, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref condition_wait(condition': U32, timeout': I64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GDatagramBasedP.condition_wait(this, condition', timeout', cancellable', error')

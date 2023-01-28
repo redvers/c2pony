@@ -1,2 +1,2 @@
-  fun insert_column(grid': NullablePointer[GtkGridT], position': I32): None =>
-    @gtk_grid_insert_column(grid', position')
+  fun insert_column(grid': GtkGridI, position': I32): None =>
+    @gtk_grid_insert_column(grid'.getptr(), position')

@@ -1,2 +1,2 @@
-  fun set_value(range': NullablePointer[GtkRangeT], value': F64): None =>
-    @gtk_range_set_value(range', value')
+  fun set_value(range': GtkRangeI, value': F64): None =>
+    @gtk_range_set_value(range'.getptr(), value')

@@ -1,2 +1,2 @@
-  fun set_interpolate_size(stack': NullablePointer[GtkStackT], interpolate_size': I32): None =>
-    @gtk_stack_set_interpolate_size(stack', interpolate_size')
+  fun set_interpolate_size(stack': GtkStackI, interpolate_size': I32): None =>
+    @gtk_stack_set_interpolate_size(stack'.getptr(), interpolate_size')

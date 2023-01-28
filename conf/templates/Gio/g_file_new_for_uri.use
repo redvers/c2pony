@@ -1,1 +1,1 @@
-use @g_file_new_for_uri[NullablePointer[GFileT]](uri': Pointer[U8] tag)
+use @g_file_new_for_uri[NullablePointer[GObjectT]](uri': Pointer[U8] tag)

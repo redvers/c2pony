@@ -1,1 +1,1 @@
-use @gtk_combo_box_set_entry_text_column[None](combo_box': NullablePointer[GtkComboBoxT], text_column': I32)
+use @gtk_combo_box_set_entry_text_column[None](combo_box': NullablePointer[GObjectT], text_column': I32)

@@ -1,1 +1,1 @@
-use @gtk_tree_view_insert_column[I32](tree_view': NullablePointer[GtkTreeViewT], column': NullablePointer[GtkTreeViewColumnT], position': I32)
+use @gtk_tree_view_insert_column[I32](tree_view': NullablePointer[GObjectT], column': NullablePointer[GObjectT], position': I32)

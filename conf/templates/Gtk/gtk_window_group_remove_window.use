@@ -1,1 +1,1 @@
-use @gtk_window_group_remove_window[None](window_group': NullablePointer[GtkWindowGroupT], window': NullablePointer[GObjectT])
+use @gtk_window_group_remove_window[None](window_group': NullablePointer[GObjectT], window': NullablePointer[GObjectT])

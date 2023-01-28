@@ -1,2 +1,2 @@
-  fun insert_interactive(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], text': String, len': I32, default_editable': I32): I32 =>
-    @gtk_text_buffer_insert_interactive(buffer', iter', text'.cstring(), len', default_editable')
+  fun insert_interactive(buffer': GtkTextBufferI, iter': NullablePointer[GtkTextIterT], text': String, len': I32, default_editable': I32): I32 =>
+    @gtk_text_buffer_insert_interactive(buffer'.getptr(), iter', text'.cstring(), len', default_editable')

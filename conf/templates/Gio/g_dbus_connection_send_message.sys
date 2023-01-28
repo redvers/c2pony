@@ -1,2 +1,2 @@
-  fun send_message(connection': NullablePointer[GDBusConnectionT], message': NullablePointer[GDBusMessageT], flags': U32, out_serial': Pointer[U32] tag, error': GError): I32 =>
-    @g_dbus_connection_send_message(connection', message', flags', out_serial', error'.ptr)
+  fun send_message(connection': GDBusConnectionI, message': GDBusMessageI, flags': U32, out_serial': Pointer[U32] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_dbus_connection_send_message(connection'.getptr(), message'.getptr(), flags', out_serial', error')

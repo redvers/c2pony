@@ -1,2 +1,2 @@
-  fun get_status_string(op': NullablePointer[GtkPrintOperationT]): String iso^ =>
-    String.from_cstring(@gtk_print_operation_get_status_string(op')).clone()
+  fun get_status_string(op': GtkPrintOperationI): String iso^ =>
+    String.from_cstring(@gtk_print_operation_get_status_string(op'.getptr())).clone()

@@ -1,2 +1,2 @@
-  fun scroll_mark_onscreen(text_view': NullablePointer[GtkTextViewT], mark': NullablePointer[GtkTextMarkT]): None =>
-    @gtk_text_view_scroll_mark_onscreen(text_view', mark')
+  fun scroll_mark_onscreen(text_view': GtkTextViewI, mark': GtkTextMarkI): None =>
+    @gtk_text_view_scroll_mark_onscreen(text_view'.getptr(), mark'.getptr())

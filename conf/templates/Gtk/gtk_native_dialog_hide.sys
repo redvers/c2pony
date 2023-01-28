@@ -1,2 +1,2 @@
-  fun hide(self': NullablePointer[GtkNativeDialogT]): None =>
-    @gtk_native_dialog_hide(self')
+  fun hide(self': GtkNativeDialogI): None =>
+    @gtk_native_dialog_hide(self'.getptr())

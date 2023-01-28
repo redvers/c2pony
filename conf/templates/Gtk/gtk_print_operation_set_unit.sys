@@ -1,2 +1,2 @@
-  fun set_unit(op': NullablePointer[GtkPrintOperationT], unit': U32): None =>
-    @gtk_print_operation_set_unit(op', unit')
+  fun set_unit(op': GtkPrintOperationI, unit': U32): None =>
+    @gtk_print_operation_set_unit(op'.getptr(), unit')

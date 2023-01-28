@@ -1,1 +1,1 @@
-use @gtk_font_chooser_get_show_preview_entry[I32](fontchooser': NullablePointer[GtkFontChooserT])
+use @gtk_font_chooser_get_show_preview_entry[I32](fontchooser': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun set_choice(op': NullablePointer[GMountOperationT], choice': I32): None =>
-    @g_mount_operation_set_choice(op', choice')
+  fun set_choice(op': GMountOperationI, choice': I32): None =>
+    @g_mount_operation_set_choice(op'.getptr(), choice')

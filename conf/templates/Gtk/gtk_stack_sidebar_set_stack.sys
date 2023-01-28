@@ -1,2 +1,2 @@
-  fun set_stack(self': NullablePointer[GtkStackSidebarT], stack': NullablePointer[GtkStackT]): None =>
-    @gtk_stack_sidebar_set_stack(self', stack')
+  fun set_stack(self': GtkStackSidebarI, stack': GtkStackI): None =>
+    @gtk_stack_sidebar_set_stack(self'.getptr(), stack'.getptr())

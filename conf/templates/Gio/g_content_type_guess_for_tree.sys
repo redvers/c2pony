@@ -1,2 +1,2 @@
-  fun content_type_guess_for_tree(root': NullablePointer[GFileT]): Pointer[Pointer[U8]] tag =>
-    @g_content_type_guess_for_tree(root')
+  fun content_type_guess_for_tree(root': GFileI): Pointer[Pointer[U8]] tag =>
+    @g_content_type_guess_for_tree(root'.getptr())

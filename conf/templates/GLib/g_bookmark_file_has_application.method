@@ -1,2 +1,2 @@
-  fun ref has_application(uri': String, name': String, error': GError): I32 =>
+  fun ref has_application(uri': String, name': String, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GBookmarkFileP.has_application(ptr, uri', name', error')

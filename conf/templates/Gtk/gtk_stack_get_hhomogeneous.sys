@@ -1,2 +1,2 @@
-  fun get_hhomogeneous(stack': NullablePointer[GtkStackT]): I32 =>
-    @gtk_stack_get_hhomogeneous(stack')
+  fun get_hhomogeneous(stack': GtkStackI): I32 =>
+    @gtk_stack_get_hhomogeneous(stack'.getptr())

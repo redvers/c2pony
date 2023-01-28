@@ -1,2 +1,2 @@
-  fun handshake_async(conn': NullablePointer[GTlsConnectionT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_tls_connection_handshake_async(conn', io_priority', cancellable', callback', user_data')
+  fun handshake_async(conn': GTlsConnectionI, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_tls_connection_handshake_async(conn'.getptr(), io_priority', cancellable'.getptr(), callback', user_data')

@@ -1,2 +1,2 @@
-  fun get_active(toggle': NullablePointer[GtkCellRendererToggleT]): I32 =>
-    @gtk_cell_renderer_toggle_get_active(toggle')
+  fun get_active(toggle': GtkCellRendererToggleI): I32 =>
+    @gtk_cell_renderer_toggle_get_active(toggle'.getptr())

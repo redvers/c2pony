@@ -1,2 +1,2 @@
-  fun get_item(self': NullablePointer[GtkTreeExpanderT]): Pointer[None] tag =>
-    @gtk_tree_expander_get_item(self')
+  fun get_item(self': GtkTreeExpanderI): Pointer[None] tag =>
+    @gtk_tree_expander_get_item(self'.getptr())

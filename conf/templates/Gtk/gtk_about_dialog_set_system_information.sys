@@ -1,2 +1,2 @@
-  fun set_system_information(about': NullablePointer[GtkAboutDialogT], system_information': String): None =>
-    @gtk_about_dialog_set_system_information(about', system_information'.cstring())
+  fun set_system_information(about': GtkAboutDialogI, system_information': String): None =>
+    @gtk_about_dialog_set_system_information(about'.getptr(), system_information'.cstring())

@@ -1,1 +1,1 @@
-use @gtk_text_buffer_insert_with_tags_by_name[None](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], text': Pointer[U8] tag, len': I32, first_tag_name': Pointer[U8] tag, ...)
+use @gtk_text_buffer_insert_with_tags_by_name[None](buffer': NullablePointer[GObjectT], iter': NullablePointer[GtkTextIterT], text': Pointer[U8] tag, len': I32, first_tag_name': Pointer[U8] tag, ...)

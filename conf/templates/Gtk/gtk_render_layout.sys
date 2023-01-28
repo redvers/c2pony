@@ -1,2 +1,2 @@
-  fun render_layout(context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT]): None =>
-    @gtk_render_layout(context', cr', x', y', layout')
+  fun render_layout(context': GtkStyleContextI, cr': NullablePointer[cairoT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT]): None =>
+    @gtk_render_layout(context'.getptr(), cr', x', y', layout')

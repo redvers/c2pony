@@ -1,2 +1,2 @@
-  fun communicate_utf8_async(subprocess': NullablePointer[GSubprocessT], stdin_buf': String, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_subprocess_communicate_utf8_async(subprocess', stdin_buf'.cstring(), cancellable', callback', user_data')
+  fun communicate_utf8_async(subprocess': GSubprocessI, stdin_buf': String, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_subprocess_communicate_utf8_async(subprocess'.getptr(), stdin_buf'.cstring(), cancellable'.getptr(), callback', user_data')

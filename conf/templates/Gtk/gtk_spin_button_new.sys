@@ -1,2 +1,2 @@
-  new gnew(adjustment': NullablePointer[GtkAdjustmentT], climb_rate': F64, digits': U32) =>
-    ptr = @gtk_spin_button_new(adjustment', climb_rate', digits')
+  new gnew(adjustment': GtkAdjustmentI, climb_rate': F64, digits': U32) =>
+    ptr = @gtk_spin_button_new(adjustment'.getptr(), climb_rate', digits')

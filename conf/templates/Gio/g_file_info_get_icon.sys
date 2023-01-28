@@ -1,2 +1,2 @@
-  fun get_icon(info': NullablePointer[GFileInfoT]): NullablePointer[GIconT] =>
-    @g_file_info_get_icon(info')
+  fun get_icon(info': GFileInfoI): NullablePointer[GObjectT] =>
+@g_file_info_get_icon(info'.getptr())

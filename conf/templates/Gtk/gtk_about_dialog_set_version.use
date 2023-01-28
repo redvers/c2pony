@@ -1,1 +1,1 @@
-use @gtk_about_dialog_set_version[None](about': NullablePointer[GtkAboutDialogT], version': Pointer[U8] tag)
+use @gtk_about_dialog_set_version[None](about': NullablePointer[GObjectT], version': Pointer[U8] tag)

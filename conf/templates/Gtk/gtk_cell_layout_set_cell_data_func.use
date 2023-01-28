@@ -1,1 +1,1 @@
-use @gtk_cell_layout_set_cell_data_func[None](cell_layout': NullablePointer[GtkCellLayoutT], cell': NullablePointer[GtkCellRendererT], func': GtkCellLayoutDataFunc, func_data': Pointer[None] tag, destroy': Pointer[None])
+use @gtk_cell_layout_set_cell_data_func[None](cell_layout': NullablePointer[GObjectT], cell': NullablePointer[GObjectT], func': GtkCellLayoutDataFunc, func_data': Pointer[None] tag, destroy': Pointer[None])

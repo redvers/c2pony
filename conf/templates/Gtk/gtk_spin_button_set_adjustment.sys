@@ -1,2 +1,2 @@
-  fun set_adjustment(spin_button': NullablePointer[GtkSpinButtonT], adjustment': NullablePointer[GtkAdjustmentT]): None =>
-    @gtk_spin_button_set_adjustment(spin_button', adjustment')
+  fun set_adjustment(spin_button': GtkSpinButtonI, adjustment': GtkAdjustmentI): None =>
+    @gtk_spin_button_set_adjustment(spin_button'.getptr(), adjustment'.getptr())

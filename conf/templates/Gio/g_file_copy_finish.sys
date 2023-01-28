@@ -1,2 +1,2 @@
-  fun copy_finish(file': NullablePointer[GFileT], res': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_file_copy_finish(file', res', error'.ptr)
+  fun copy_finish(file': GFileI, res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_copy_finish(file'.getptr(), res'.getptr(), error')

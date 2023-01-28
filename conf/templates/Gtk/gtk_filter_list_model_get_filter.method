@@ -1,2 +1,2 @@
-  fun ref get_filter(): NullablePointer[GtkFilterT] =>
+  fun ref get_filter(): NullablePointer[GObjectT] =>
     GtkFilterListModelP.get_filter(this)

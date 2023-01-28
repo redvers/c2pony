@@ -1,1 +1,1 @@
-use @gtk_mnemonic_trigger_get_keyval[U32](self': NullablePointer[GtkMnemonicTriggerT])
+use @gtk_mnemonic_trigger_get_keyval[U32](self': NullablePointer[GObjectT])

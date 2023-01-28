@@ -1,2 +1,2 @@
-  fun remove(menu': NullablePointer[GMenuT], position': I32): None =>
-    @g_menu_remove(menu', position')
+  fun remove(menu': GMenuI, position': I32): None =>
+    @g_menu_remove(menu'.getptr(), position')

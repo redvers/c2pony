@@ -1,1 +1,1 @@
-use @gtk_list_store_insert_before[None](list_store': NullablePointer[GtkListStoreT], iter': NullablePointer[GtkTreeIterT], sibling': NullablePointer[GtkTreeIterT])
+use @gtk_list_store_insert_before[None](list_store': NullablePointer[GObjectT], iter': NullablePointer[GtkTreeIterT], sibling': NullablePointer[GtkTreeIterT])

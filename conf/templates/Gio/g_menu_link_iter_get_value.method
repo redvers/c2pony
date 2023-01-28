@@ -1,2 +1,2 @@
-  fun ref get_value(): NullablePointer[GMenuModelT] =>
+  fun ref get_value(): NullablePointer[GObjectT] =>
     GMenuLinkIterP.get_value(this)

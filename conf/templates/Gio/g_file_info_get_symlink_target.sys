@@ -1,2 +1,2 @@
-  fun get_symlink_target(info': NullablePointer[GFileInfoT]): String iso^ =>
-    String.from_cstring(@g_file_info_get_symlink_target(info')).clone()
+  fun get_symlink_target(info': GFileInfoI): String iso^ =>
+    String.from_cstring(@g_file_info_get_symlink_target(info'.getptr())).clone()

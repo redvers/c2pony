@@ -1,1 +1,1 @@
-use @g_menu_attribute_iter_get_value[NullablePointer[GVariantT]](iter': NullablePointer[GMenuAttributeIterT])
+use @g_menu_attribute_iter_get_value[NullablePointer[GVariantT]](iter': NullablePointer[GObjectT])

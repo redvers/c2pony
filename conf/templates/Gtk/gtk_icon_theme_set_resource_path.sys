@@ -1,2 +1,2 @@
-  fun set_resource_path(self': NullablePointer[GtkIconThemeT], path': Pointer[Pointer[U8]] tag): None =>
-    @gtk_icon_theme_set_resource_path(self', path')
+  fun set_resource_path(self': GtkIconThemeI, path': Pointer[Pointer[U8]] tag): None =>
+    @gtk_icon_theme_set_resource_path(self'.getptr(), path')

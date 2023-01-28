@@ -1,1 +1,1 @@
-use @gtk_drop_down_new[NullablePointer[GObjectT]](model': NullablePointer[GObjectT], expression': NullablePointer[GtkExpressionT])
+use @gtk_drop_down_new[NullablePointer[GObjectT]](model': NullablePointer[GObjectT], expression': NullablePointer[GObjectT])

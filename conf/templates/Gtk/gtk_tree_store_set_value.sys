@@ -1,2 +1,2 @@
-  fun set_value(tree_store': NullablePointer[GtkTreeStoreT], iter': NullablePointer[GtkTreeIterT], column': I32, value': NullablePointer[GValueT]): None =>
-    @gtk_tree_store_set_value(tree_store', iter', column', value')
+  fun set_value(tree_store': GtkTreeStoreI, iter': NullablePointer[GtkTreeIterT], column': I32, value': NullablePointer[GValueT]): None =>
+    @gtk_tree_store_set_value(tree_store'.getptr(), iter', column', value')

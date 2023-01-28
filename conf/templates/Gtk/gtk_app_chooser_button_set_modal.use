@@ -1,1 +1,1 @@
-use @gtk_app_chooser_button_set_modal[None](self': NullablePointer[GtkAppChooserButtonT], modal': I32)
+use @gtk_app_chooser_button_set_modal[None](self': NullablePointer[GObjectT], modal': I32)

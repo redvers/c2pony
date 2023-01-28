@@ -1,2 +1,2 @@
-  fun add_mark(buffer': NullablePointer[GtkTextBufferT], mark': NullablePointer[GtkTextMarkT], where': NullablePointer[GtkTextIterT]): None =>
-    @gtk_text_buffer_add_mark(buffer', mark', where')
+  fun add_mark(buffer': GtkTextBufferI, mark': GtkTextMarkI, where': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_buffer_add_mark(buffer'.getptr(), mark'.getptr(), where')

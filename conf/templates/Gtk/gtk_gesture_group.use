@@ -1,1 +1,1 @@
-use @gtk_gesture_group[None](group_gesture': NullablePointer[GtkGestureT], gesture': NullablePointer[GtkGestureT])
+use @gtk_gesture_group[None](group_gesture': NullablePointer[GObjectT], gesture': NullablePointer[GObjectT])

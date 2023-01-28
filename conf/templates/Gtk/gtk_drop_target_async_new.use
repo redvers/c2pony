@@ -1,1 +1,1 @@
-use @gtk_drop_target_async_new[NullablePointer[GtkDropTargetAsyncT]](formats': NullablePointer[GdkContentFormatsT], actions': U32)
+use @gtk_drop_target_async_new[NullablePointer[GObjectT]](formats': NullablePointer[GdkContentFormatsT], actions': U32)

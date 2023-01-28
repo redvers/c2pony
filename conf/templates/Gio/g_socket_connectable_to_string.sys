@@ -1,2 +1,2 @@
-  fun to_string(connectable': NullablePointer[GSocketConnectableT]): String iso^ =>
-    String.from_cstring(@g_socket_connectable_to_string(connectable')).clone()
+  fun to_string(connectable': GSocketConnectableI): String iso^ =>
+    String.from_cstring(@g_socket_connectable_to_string(connectable'.getptr())).clone()

@@ -1,2 +1,2 @@
-  fun get_heading(self': NullablePointer[GtkAppChooserButtonT]): String iso^ =>
-    String.from_cstring(@gtk_app_chooser_button_get_heading(self')).clone()
+  fun get_heading(self': GtkAppChooserButtonI): String iso^ =>
+    String.from_cstring(@gtk_app_chooser_button_get_heading(self'.getptr())).clone()

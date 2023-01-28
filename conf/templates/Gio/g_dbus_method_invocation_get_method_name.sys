@@ -1,2 +1,2 @@
-  fun get_method_name(invocation': NullablePointer[GDBusMethodInvocationT]): String iso^ =>
-    String.from_cstring(@g_dbus_method_invocation_get_method_name(invocation')).clone()
+  fun get_method_name(invocation': GDBusMethodInvocationI): String iso^ =>
+    String.from_cstring(@g_dbus_method_invocation_get_method_name(invocation'.getptr())).clone()

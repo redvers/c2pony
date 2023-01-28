@@ -1,2 +1,2 @@
-  fun grab_focus_without_selecting(entry': NullablePointer[GtkEntryT]): I32 =>
-    @gtk_entry_grab_focus_without_selecting(entry')
+  fun grab_focus_without_selecting(entry': GtkEntryI): I32 =>
+    @gtk_entry_grab_focus_without_selecting(entry'.getptr())

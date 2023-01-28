@@ -1,2 +1,2 @@
-  fun get_protocol(srv': NullablePointer[GNetworkServiceT]): String iso^ =>
-    String.from_cstring(@g_network_service_get_protocol(srv')).clone()
+  fun get_protocol(srv': GNetworkServiceI): String iso^ =>
+    String.from_cstring(@g_network_service_get_protocol(srv'.getptr())).clone()

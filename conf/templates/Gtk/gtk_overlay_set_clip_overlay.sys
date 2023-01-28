@@ -1,2 +1,2 @@
-  fun set_clip_overlay(overlay': NullablePointer[GtkOverlayT], widget': GtkWidgetI, clip_overlay': I32): None =>
-    @gtk_overlay_set_clip_overlay(overlay', widget'.getptr(), clip_overlay')
+  fun set_clip_overlay(overlay': GtkOverlayI, widget': GtkWidgetI, clip_overlay': I32): None =>
+    @gtk_overlay_set_clip_overlay(overlay'.getptr(), widget'.getptr(), clip_overlay')

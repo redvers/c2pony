@@ -1,2 +1,2 @@
-  fun can_eject(drive': NullablePointer[GDriveT]): I32 =>
-    @g_drive_can_eject(drive')
+  fun can_eject(drive': GDriveI): I32 =>
+    @g_drive_can_eject(drive'.getptr())

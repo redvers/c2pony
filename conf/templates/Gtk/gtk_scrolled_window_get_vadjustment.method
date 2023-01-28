@@ -1,2 +1,2 @@
-  fun ref get_vadjustment(): NullablePointer[GtkAdjustmentT] =>
+  fun ref get_vadjustment(): NullablePointer[GObjectT] =>
     GtkScrolledWindowP.get_vadjustment(this)

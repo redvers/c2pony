@@ -1,2 +1,2 @@
-  fun ref reorder(cell': NullablePointer[GtkCellRendererT], position': I32): None =>
+  fun ref reorder(cell': GtkCellRendererI, position': I32): None =>
     GtkCellLayoutP.reorder(this, cell', position')

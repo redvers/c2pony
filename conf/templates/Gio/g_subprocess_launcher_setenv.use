@@ -1,1 +1,1 @@
-use @g_subprocess_launcher_setenv[None](self': NullablePointer[GSubprocessLauncherT], variable': Pointer[U8] tag, value': Pointer[U8] tag, overwrite': I32)
+use @g_subprocess_launcher_setenv[None](self': NullablePointer[GObjectT], variable': Pointer[U8] tag, value': Pointer[U8] tag, overwrite': I32)

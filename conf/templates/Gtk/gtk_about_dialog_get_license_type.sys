@@ -1,2 +1,2 @@
-  fun get_license_type(about': NullablePointer[GtkAboutDialogT]): U32 =>
-    @gtk_about_dialog_get_license_type(about')
+  fun get_license_type(about': GtkAboutDialogI): U32 =>
+    @gtk_about_dialog_get_license_type(about'.getptr())

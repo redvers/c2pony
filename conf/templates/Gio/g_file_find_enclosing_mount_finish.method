@@ -1,2 +1,2 @@
-  fun ref find_enclosing_mount_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GMountT] =>
+  fun ref find_enclosing_mount_finish(res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.find_enclosing_mount_finish(this, res', error')

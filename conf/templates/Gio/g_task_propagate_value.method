@@ -1,2 +1,2 @@
-  fun ref propagate_value(value': NullablePointer[GValueT], error': GError): I32 =>
+  fun ref propagate_value(value': NullablePointer[GValueT], error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GTaskP.propagate_value(this, value', error')

@@ -1,2 +1,2 @@
-  fun set_display_name(info': NullablePointer[GFileInfoT], display_name': String): None =>
-    @g_file_info_set_display_name(info', display_name'.cstring())
+  fun set_display_name(info': GFileInfoI, display_name': String): None =>
+    @g_file_info_set_display_name(info'.getptr(), display_name'.cstring())

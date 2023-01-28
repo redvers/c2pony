@@ -1,2 +1,2 @@
-  fun set_accept_label(self': NullablePointer[GtkFileChooserNativeT], accept_label': String): None =>
-    @gtk_file_chooser_native_set_accept_label(self', accept_label'.cstring())
+  fun set_accept_label(self': GtkFileChooserNativeI, accept_label': String): None =>
+    @gtk_file_chooser_native_set_accept_label(self'.getptr(), accept_label'.cstring())

@@ -1,2 +1,2 @@
-  fun add_overlay(overlay': NullablePointer[GtkOverlayT], widget': GtkWidgetI): None =>
-    @gtk_overlay_add_overlay(overlay', widget'.getptr())
+  fun add_overlay(overlay': GtkOverlayI, widget': GtkWidgetI): None =>
+    @gtk_overlay_add_overlay(overlay'.getptr(), widget'.getptr())

@@ -1,2 +1,2 @@
-  fun set_show_close_button(info_bar': NullablePointer[GtkInfoBarT], setting': I32): None =>
-    @gtk_info_bar_set_show_close_button(info_bar', setting')
+  fun set_show_close_button(info_bar': GtkInfoBarI, setting': I32): None =>
+    @gtk_info_bar_set_show_close_button(info_bar'.getptr(), setting')

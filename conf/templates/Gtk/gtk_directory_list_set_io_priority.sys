@@ -1,2 +1,2 @@
-  fun set_io_priority(self': NullablePointer[GtkDirectoryListT], io_priority': I32): None =>
-    @gtk_directory_list_set_io_priority(self', io_priority')
+  fun set_io_priority(self': GtkDirectoryListI, io_priority': I32): None =>
+    @gtk_directory_list_set_io_priority(self'.getptr(), io_priority')

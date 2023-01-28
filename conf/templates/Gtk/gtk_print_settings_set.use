@@ -1,1 +1,1 @@
-use @gtk_print_settings_set[None](settings': NullablePointer[GtkPrintSettingsT], key': Pointer[U8] tag, value': Pointer[U8] tag)
+use @gtk_print_settings_set[None](settings': NullablePointer[GObjectT], key': Pointer[U8] tag, value': Pointer[U8] tag)

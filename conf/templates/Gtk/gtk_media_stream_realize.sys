@@ -1,2 +1,2 @@
-  fun realize(self': NullablePointer[GtkMediaStreamT], surface': NullablePointer[GdkSurfaceT]): None =>
-    @gtk_media_stream_realize(self', surface')
+  fun realize(self': GtkMediaStreamI, surface': NullablePointer[GdkSurfaceT]): None =>
+    @gtk_media_stream_realize(self'.getptr(), surface')

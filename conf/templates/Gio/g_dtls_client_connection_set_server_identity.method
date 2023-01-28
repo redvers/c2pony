@@ -1,2 +1,2 @@
-  fun ref set_server_identity(identity': NullablePointer[GSocketConnectableT]): None =>
+  fun ref set_server_identity(identity': GSocketConnectableI): None =>
     GDtlsClientConnectionP.set_server_identity(this, identity')

@@ -1,1 +1,1 @@
-use @gtk_cell_area_focus[I32](area': NullablePointer[GtkCellAreaT], direction': U32)
+use @gtk_cell_area_focus[I32](area': NullablePointer[GObjectT], direction': U32)

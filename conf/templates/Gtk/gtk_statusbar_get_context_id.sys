@@ -1,2 +1,2 @@
-  fun get_context_id(statusbar': NullablePointer[GtkStatusbarT], context_description': String): U32 =>
-    @gtk_statusbar_get_context_id(statusbar', context_description'.cstring())
+  fun get_context_id(statusbar': GtkStatusbarI, context_description': String): U32 =>
+    @gtk_statusbar_get_context_id(statusbar'.getptr(), context_description'.cstring())

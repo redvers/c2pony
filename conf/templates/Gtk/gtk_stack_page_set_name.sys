@@ -1,2 +1,2 @@
-  fun set_name(self': NullablePointer[GtkStackPageT], setting': String): None =>
-    @gtk_stack_page_set_name(self', setting'.cstring())
+  fun set_name(self': GtkStackPageI, setting': String): None =>
+    @gtk_stack_page_set_name(self'.getptr(), setting'.cstring())

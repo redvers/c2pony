@@ -1,2 +1,2 @@
-  fun ref get_file(): NullablePointer[GFileT] =>
+  fun ref get_file(): NullablePointer[GObjectT] =>
     GtkIconPaintableP.get_file(this)

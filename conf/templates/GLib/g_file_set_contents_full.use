@@ -1,1 +1,1 @@
-use @g_file_set_contents_full[I32](filename': Pointer[U8] tag, contents': Pointer[U8] tag, length': I64, flags': U32, mode': I32, error': NullablePointer[GErrorT])
+use @g_file_set_contents_full[I32](filename': Pointer[U8] tag, contents': Pointer[U8] tag, length': I64, flags': U32, mode': I32, error': Pointer[NullablePointer[GErrorT]])

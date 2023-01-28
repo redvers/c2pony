@@ -1,2 +1,2 @@
-  fun get_content_area(dialog': NullablePointer[GtkDialogT]): NullablePointer[GObjectT] =>
-@gtk_dialog_get_content_area(dialog')
+  fun get_content_area(dialog': GtkDialogI): NullablePointer[GObjectT] =>
+@gtk_dialog_get_content_area(dialog'.getptr())

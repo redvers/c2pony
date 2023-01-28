@@ -1,2 +1,2 @@
-  fun set_input_purpose(entry': NullablePointer[GtkEntryT], purpose': U32): None =>
-    @gtk_entry_set_input_purpose(entry', purpose')
+  fun set_input_purpose(entry': GtkEntryI, purpose': U32): None =>
+    @gtk_entry_set_input_purpose(entry'.getptr(), purpose')

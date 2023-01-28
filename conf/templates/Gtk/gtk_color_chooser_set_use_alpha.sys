@@ -1,2 +1,2 @@
-  fun set_use_alpha(chooser': NullablePointer[GtkColorChooserT], use_alpha': I32): None =>
-    @gtk_color_chooser_set_use_alpha(chooser', use_alpha')
+  fun set_use_alpha(chooser': GtkColorChooserI, use_alpha': I32): None =>
+    @gtk_color_chooser_set_use_alpha(chooser'.getptr(), use_alpha')

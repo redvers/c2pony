@@ -1,2 +1,2 @@
-  fun get_popup_single_match(completion': NullablePointer[GtkEntryCompletionT]): I32 =>
-    @gtk_entry_completion_get_popup_single_match(completion')
+  fun get_popup_single_match(completion': GtkEntryCompletionI): I32 =>
+    @gtk_entry_completion_get_popup_single_match(completion'.getptr())

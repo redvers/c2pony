@@ -1,2 +1,2 @@
-  fun lookup(table': NullablePointer[GtkTextTagTableT], name': String): NullablePointer[GtkTextTagT] =>
-    @gtk_text_tag_table_lookup(table', name'.cstring())
+  fun lookup(table': GtkTextTagTableI, name': String): NullablePointer[GObjectT] =>
+@gtk_text_tag_table_lookup(table'.getptr(), name'.cstring())

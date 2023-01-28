@@ -1,1 +1,1 @@
-use @gtk_frame_get_label_widget[NullablePointer[GObjectT]](frame': NullablePointer[GtkFrameT])
+use @gtk_frame_get_label_widget[NullablePointer[GObjectT]](frame': NullablePointer[GObjectT])

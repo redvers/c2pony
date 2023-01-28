@@ -1,2 +1,2 @@
-  fun set_justification(text_view': NullablePointer[GtkTextViewT], justification': U32): None =>
-    @gtk_text_view_set_justification(text_view', justification')
+  fun set_justification(text_view': GtkTextViewI, justification': U32): None =>
+    @gtk_text_view_set_justification(text_view'.getptr(), justification')

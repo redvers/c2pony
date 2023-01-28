@@ -1,1 +1,1 @@
-use @gtk_image_get_storage_type[U32](image': NullablePointer[GtkImageT])
+use @gtk_image_get_storage_type[U32](image': NullablePointer[GObjectT])

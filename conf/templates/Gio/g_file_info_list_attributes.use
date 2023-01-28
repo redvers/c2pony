@@ -1,1 +1,1 @@
-use @g_file_info_list_attributes[Pointer[Pointer[U8]] tag](info': NullablePointer[GFileInfoT], name_space': Pointer[U8] tag)
+use @g_file_info_list_attributes[Pointer[Pointer[U8]] tag](info': NullablePointer[GObjectT], name_space': Pointer[U8] tag)

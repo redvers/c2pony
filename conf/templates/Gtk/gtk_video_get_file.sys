@@ -1,2 +1,2 @@
-  fun get_file(self': NullablePointer[GtkVideoT]): NullablePointer[GFileT] =>
-    @gtk_video_get_file(self')
+  fun get_file(self': GtkVideoI): NullablePointer[GObjectT] =>
+@gtk_video_get_file(self'.getptr())

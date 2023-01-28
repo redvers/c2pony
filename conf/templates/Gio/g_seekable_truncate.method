@@ -1,2 +1,2 @@
-  fun ref truncate(offset': I64, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref truncate(offset': I64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GSeekableP.truncate(this, offset', cancellable', error')

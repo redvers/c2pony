@@ -1,2 +1,2 @@
-  fun get_nth_page(notebook': NullablePointer[GtkNotebookT], page_num': I32): NullablePointer[GObjectT] =>
-@gtk_notebook_get_nth_page(notebook', page_num')
+  fun get_nth_page(notebook': GtkNotebookI, page_num': I32): NullablePointer[GObjectT] =>
+@gtk_notebook_get_nth_page(notebook'.getptr(), page_num')

@@ -1,2 +1,2 @@
-  fun filename_from_utf8(utf8string': String, len': I64, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': GError): String iso^ =>
-    String.from_cstring(@g_filename_from_utf8(utf8string'.cstring(), len', bytes_read', bytes_written', error'.ptr)).clone()
+  fun filename_from_utf8(utf8string': String, len': I64, bytes_read': Pointer[U64] tag, bytes_written': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_filename_from_utf8(utf8string'.cstring(), len', bytes_read', bytes_written', error')).clone()

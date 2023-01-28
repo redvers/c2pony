@@ -1,2 +1,2 @@
-  fun write_bytes_async(stream': NullablePointer[GOutputStreamT], bytes': NullablePointer[GBytesT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_output_stream_write_bytes_async(stream', bytes', io_priority', cancellable', callback', user_data')
+  fun write_bytes_async(stream': GOutputStreamI, bytes': NullablePointer[GBytesT], io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_output_stream_write_bytes_async(stream'.getptr(), bytes', io_priority', cancellable'.getptr(), callback', user_data')

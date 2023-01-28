@@ -1,2 +1,2 @@
-  fun gnew(base_socket': NullablePointer[GDatagramBasedT], certificate': NullablePointer[GTlsCertificateT], error': GError): NullablePointer[GDatagramBasedT] =>
-    @g_dtls_server_connection_new(base_socket', certificate', error'.ptr)
+  fun gnew(base_socket': GDatagramBasedI, certificate': GTlsCertificateI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_dtls_server_connection_new(base_socket'.getptr(), certificate'.getptr(), error')

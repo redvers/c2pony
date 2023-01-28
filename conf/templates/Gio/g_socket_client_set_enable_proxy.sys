@@ -1,2 +1,2 @@
-  fun set_enable_proxy(client': NullablePointer[GSocketClientT], enable': I32): None =>
-    @g_socket_client_set_enable_proxy(client', enable')
+  fun set_enable_proxy(client': GSocketClientI, enable': I32): None =>
+    @g_socket_client_set_enable_proxy(client'.getptr(), enable')

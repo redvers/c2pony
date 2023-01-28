@@ -1,2 +1,2 @@
-  fun ref get_message(): NullablePointer[GDBusMessageT] =>
+  fun ref get_message(): NullablePointer[GObjectT] =>
     GDBusMethodInvocationP.get_message(this)

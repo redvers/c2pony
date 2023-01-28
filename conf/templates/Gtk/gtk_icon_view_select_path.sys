@@ -1,2 +1,2 @@
-  fun select_path(icon_view': NullablePointer[GtkIconViewT], path': NullablePointer[GtkTreePathT]): None =>
-    @gtk_icon_view_select_path(icon_view', path')
+  fun select_path(icon_view': GtkIconViewI, path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_icon_view_select_path(icon_view'.getptr(), path')

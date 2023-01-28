@@ -1,2 +1,2 @@
-  fun set_header_func(box': NullablePointer[GtkListBoxT], update_header': GtkListBoxUpdateHeaderFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
-    @gtk_list_box_set_header_func(box', update_header', user_data', destroy')
+  fun set_header_func(box': GtkListBoxI, update_header': GtkListBoxUpdateHeaderFunc, user_data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_list_box_set_header_func(box'.getptr(), update_header', user_data', destroy')

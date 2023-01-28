@@ -1,2 +1,2 @@
-  fun get_uuid(volume': NullablePointer[GVolumeT]): String iso^ =>
-    String.from_cstring(@g_volume_get_uuid(volume')).clone()
+  fun get_uuid(volume': GVolumeI): String iso^ =>
+    String.from_cstring(@g_volume_get_uuid(volume'.getptr())).clone()

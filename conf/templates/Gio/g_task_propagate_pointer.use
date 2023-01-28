@@ -1,1 +1,1 @@
-use @g_task_propagate_pointer[Pointer[None] tag](task': NullablePointer[GTaskT], error': NullablePointer[GErrorT])
+use @g_task_propagate_pointer[Pointer[None] tag](task': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,2 +1,2 @@
-  fun ref close(cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref close(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GDtlsConnectionP.close(this, cancellable', error')

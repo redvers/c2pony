@@ -1,2 +1,2 @@
-  fun set_translator_credits(about': NullablePointer[GtkAboutDialogT], translator_credits': String): None =>
-    @gtk_about_dialog_set_translator_credits(about', translator_credits'.cstring())
+  fun set_translator_credits(about': GtkAboutDialogI, translator_credits': String): None =>
+    @gtk_about_dialog_set_translator_credits(about'.getptr(), translator_credits'.cstring())

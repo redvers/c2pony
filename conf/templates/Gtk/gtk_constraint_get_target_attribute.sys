@@ -1,2 +1,2 @@
-  fun get_target_attribute(constraint': NullablePointer[GtkConstraintT]): U32 =>
-    @gtk_constraint_get_target_attribute(constraint')
+  fun get_target_attribute(constraint': GtkConstraintI): U32 =>
+    @gtk_constraint_get_target_attribute(constraint'.getptr())

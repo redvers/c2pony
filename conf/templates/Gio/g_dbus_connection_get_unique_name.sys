@@ -1,2 +1,2 @@
-  fun get_unique_name(connection': NullablePointer[GDBusConnectionT]): String iso^ =>
-    String.from_cstring(@g_dbus_connection_get_unique_name(connection')).clone()
+  fun get_unique_name(connection': GDBusConnectionI): String iso^ =>
+    String.from_cstring(@g_dbus_connection_get_unique_name(connection'.getptr())).clone()

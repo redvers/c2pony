@@ -1,2 +1,2 @@
-  fun insert_column_with_attributes(tree_view': NullablePointer[GtkTreeViewT], position': I32, title': String, cell': NullablePointer[GtkCellRendererT], ...): I32 =>
-    @gtk_tree_view_insert_column_with_attributes(tree_view', position', title'.cstring(), cell', ...)
+  fun insert_column_with_attributes(tree_view': GtkTreeViewI, position': I32, title': String, cell': GtkCellRendererI, ...): I32 =>
+    @gtk_tree_view_insert_column_with_attributes(tree_view'.getptr(), position', title'.cstring(), cell'.getptr(), ...)

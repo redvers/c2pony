@@ -1,1 +1,1 @@
-use @gtk_tree_view_column_cell_get_size[None](tree_column': NullablePointer[GtkTreeViewColumnT], x_offset': Pointer[I32] tag, y_offset': Pointer[I32] tag, width': Pointer[I32] tag, height': Pointer[I32] tag)
+use @gtk_tree_view_column_cell_get_size[None](tree_column': NullablePointer[GObjectT], x_offset': Pointer[I32] tag, y_offset': Pointer[I32] tag, width': Pointer[I32] tag, height': Pointer[I32] tag)

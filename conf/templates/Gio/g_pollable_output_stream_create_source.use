@@ -1,1 +1,1 @@
-use @g_pollable_output_stream_create_source[NullablePointer[GSourceT]](stream': NullablePointer[GPollableOutputStreamT], cancellable': NullablePointer[GCancellableT])
+use @g_pollable_output_stream_create_source[NullablePointer[GSourceT]](stream': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT])

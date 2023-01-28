@@ -1,1 +1,1 @@
-use @g_settings_get_child[NullablePointer[GSettingsT]](settings': NullablePointer[GSettingsT], name': Pointer[U8] tag)
+use @g_settings_get_child[NullablePointer[GObjectT]](settings': NullablePointer[GObjectT], name': Pointer[U8] tag)

@@ -1,2 +1,2 @@
-  fun ref to_native(dest': Pointer[None] tag, destlen': U64, error': GError): I32 =>
+  fun ref to_native(dest': Pointer[None] tag, destlen': U64, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GSocketAddressP.to_native(this, dest', destlen', error')

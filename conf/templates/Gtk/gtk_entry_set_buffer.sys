@@ -1,2 +1,2 @@
-  fun set_buffer(entry': NullablePointer[GtkEntryT], buffer': NullablePointer[GtkEntryBufferT]): None =>
-    @gtk_entry_set_buffer(entry', buffer')
+  fun set_buffer(entry': GtkEntryI, buffer': GtkEntryBufferI): None =>
+    @gtk_entry_set_buffer(entry'.getptr(), buffer'.getptr())

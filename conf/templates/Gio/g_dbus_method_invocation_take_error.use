@@ -1,1 +1,1 @@
-use @g_dbus_method_invocation_take_error[None](invocation': NullablePointer[GDBusMethodInvocationT], error': NullablePointer[GErrorT])
+use @g_dbus_method_invocation_take_error[None](invocation': NullablePointer[GObjectT], error': NullablePointer[GErrorT])

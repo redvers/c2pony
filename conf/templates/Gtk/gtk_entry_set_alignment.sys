@@ -1,2 +1,2 @@
-  fun set_alignment(entry': NullablePointer[GtkEntryT], xalign': F32): None =>
-    @gtk_entry_set_alignment(entry', xalign')
+  fun set_alignment(entry': GtkEntryI, xalign': F32): None =>
+    @gtk_entry_set_alignment(entry'.getptr(), xalign')

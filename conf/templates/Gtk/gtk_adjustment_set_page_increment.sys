@@ -1,2 +1,2 @@
-  fun set_page_increment(adjustment': NullablePointer[GtkAdjustmentT], page_increment': F64): None =>
-    @gtk_adjustment_set_page_increment(adjustment', page_increment')
+  fun set_page_increment(adjustment': GtkAdjustmentI, page_increment': F64): None =>
+    @gtk_adjustment_set_page_increment(adjustment'.getptr(), page_increment')

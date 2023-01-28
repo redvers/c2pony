@@ -1,1 +1,1 @@
-use @g_task_propagate_value[I32](task': NullablePointer[GTaskT], value': NullablePointer[GValueT], error': NullablePointer[GErrorT])
+use @g_task_propagate_value[I32](task': NullablePointer[GObjectT], value': NullablePointer[GValueT], error': Pointer[NullablePointer[GErrorT]])

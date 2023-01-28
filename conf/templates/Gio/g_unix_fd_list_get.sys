@@ -1,2 +1,2 @@
-  fun get(list': NullablePointer[GUnixFDListT], index': I32, error': GError): I32 =>
-    @g_unix_fd_list_get(list', index', error'.ptr)
+  fun get(list': GUnixFDListI, index': I32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_unix_fd_list_get(list'.getptr(), index', error')

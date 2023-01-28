@@ -1,2 +1,2 @@
-  fun ref get_child(info': NullablePointer[GFileInfoT]): NullablePointer[GFileT] =>
+  fun ref get_child(info': GFileInfoI): NullablePointer[GObjectT] =>
     GFileEnumeratorP.get_child(this, info')

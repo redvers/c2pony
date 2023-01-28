@@ -1,1 +1,1 @@
-use @g_socket_address_get_family[U32](address': NullablePointer[GSocketAddressT])
+use @g_socket_address_get_family[U32](address': NullablePointer[GObjectT])

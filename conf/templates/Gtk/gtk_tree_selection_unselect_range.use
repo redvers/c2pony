@@ -1,1 +1,1 @@
-use @gtk_tree_selection_unselect_range[None](selection': NullablePointer[GtkTreeSelectionT], start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT])
+use @gtk_tree_selection_unselect_range[None](selection': NullablePointer[GObjectT], start_path': NullablePointer[GtkTreePathT], end_path': NullablePointer[GtkTreePathT])

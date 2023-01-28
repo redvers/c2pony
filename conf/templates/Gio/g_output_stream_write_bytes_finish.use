@@ -1,1 +1,1 @@
-use @g_output_stream_write_bytes_finish[I64](stream': NullablePointer[GOutputStreamT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_output_stream_write_bytes_finish[I64](stream': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

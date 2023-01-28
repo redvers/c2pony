@@ -1,1 +1,1 @@
-use @gtk_range_set_inverted[None](range': NullablePointer[GtkRangeT], setting': I32)
+use @gtk_range_set_inverted[None](range': NullablePointer[GObjectT], setting': I32)

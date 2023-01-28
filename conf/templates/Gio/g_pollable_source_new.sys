@@ -1,2 +1,2 @@
-  fun pollable_source_new(pollable_stream': NullablePointer[GObjectT]): NullablePointer[GSourceT] =>
-    @g_pollable_source_new(pollable_stream')
+  fun pollable_source_new(pollable_stream': GObjectI): NullablePointer[GSourceT] =>
+    @g_pollable_source_new(pollable_stream'.getptr())

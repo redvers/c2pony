@@ -1,1 +1,1 @@
-use @gtk_event_controller_get_current_event_state[U32](controller': NullablePointer[GtkEventControllerT])
+use @gtk_event_controller_get_current_event_state[U32](controller': NullablePointer[GObjectT])

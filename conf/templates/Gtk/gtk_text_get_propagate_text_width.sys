@@ -1,2 +1,2 @@
-  fun get_propagate_text_width(self': NullablePointer[GtkTextT]): I32 =>
-    @gtk_text_get_propagate_text_width(self')
+  fun get_propagate_text_width(self': GtkTextI): I32 =>
+    @gtk_text_get_propagate_text_width(self'.getptr())

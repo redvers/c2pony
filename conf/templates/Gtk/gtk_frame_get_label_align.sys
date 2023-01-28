@@ -1,2 +1,2 @@
-  fun get_label_align(frame': NullablePointer[GtkFrameT]): F32 =>
-    @gtk_frame_get_label_align(frame')
+  fun get_label_align(frame': GtkFrameI): F32 =>
+    @gtk_frame_get_label_align(frame'.getptr())

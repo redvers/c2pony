@@ -1,2 +1,2 @@
-  fun get_parent(op': NullablePointer[GtkMountOperationT]): NullablePointer[GObjectT] =>
-@gtk_mount_operation_get_parent(op')
+  fun get_parent(op': GtkMountOperationI): NullablePointer[GObjectT] =>
+@gtk_mount_operation_get_parent(op'.getptr())

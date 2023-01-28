@@ -1,2 +1,2 @@
-  fun read_upto(stream': NullablePointer[GDataInputStreamT], stop_chars': String, stop_chars_len': I64, length': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': GError): String iso^ =>
-    String.from_cstring(@g_data_input_stream_read_upto(stream', stop_chars'.cstring(), stop_chars_len', length', cancellable', error'.ptr)).clone()
+  fun read_upto(stream': GDataInputStreamI, stop_chars': String, stop_chars_len': I64, length': Pointer[U64] tag, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_data_input_stream_read_upto(stream'.getptr(), stop_chars'.cstring(), stop_chars_len', length', cancellable'.getptr(), error')).clone()

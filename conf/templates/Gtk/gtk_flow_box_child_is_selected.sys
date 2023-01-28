@@ -1,2 +1,2 @@
-  fun is_selected(child': NullablePointer[GtkFlowBoxChildT]): I32 =>
-    @gtk_flow_box_child_is_selected(child')
+  fun is_selected(child': GtkFlowBoxChildI): I32 =>
+    @gtk_flow_box_child_is_selected(child'.getptr())

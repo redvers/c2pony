@@ -1,2 +1,2 @@
-  new new_finish(res': NullablePointer[GAsyncResultT], error': GError) =>
-    ptr = @g_dbus_connection_new_finish(res', error'.ptr)
+  new new_finish(res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_dbus_connection_new_finish(res'.getptr(), error')

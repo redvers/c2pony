@@ -1,2 +1,2 @@
-  fun set_enable_search(tree_view': NullablePointer[GtkTreeViewT], enable_search': I32): None =>
-    @gtk_tree_view_set_enable_search(tree_view', enable_search')
+  fun set_enable_search(tree_view': GtkTreeViewI, enable_search': I32): None =>
+    @gtk_tree_view_set_enable_search(tree_view'.getptr(), enable_search')

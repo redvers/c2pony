@@ -1,2 +1,2 @@
-  fun reset(settings': NullablePointer[GSettingsT], key': String): None =>
-    @g_settings_reset(settings', key'.cstring())
+  fun reset(settings': GSettingsI, key': String): None =>
+    @g_settings_reset(settings'.getptr(), key'.cstring())

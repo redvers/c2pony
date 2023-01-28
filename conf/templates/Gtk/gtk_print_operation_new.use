@@ -1,1 +1,1 @@
-use @gtk_print_operation_new[NullablePointer[GtkPrintOperationT]]()
+use @gtk_print_operation_new[NullablePointer[GObjectT]]()

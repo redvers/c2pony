@@ -1,2 +1,2 @@
-  fun get_vadjustment(scrollable': NullablePointer[GtkScrollableT]): NullablePointer[GtkAdjustmentT] =>
-    @gtk_scrollable_get_vadjustment(scrollable')
+  fun get_vadjustment(scrollable': GtkScrollableI): NullablePointer[GObjectT] =>
+@gtk_scrollable_get_vadjustment(scrollable'.getptr())

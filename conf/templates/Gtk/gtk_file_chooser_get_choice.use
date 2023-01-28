@@ -1,1 +1,1 @@
-use @gtk_file_chooser_get_choice[Pointer[U8]](chooser': NullablePointer[GtkFileChooserT], id': Pointer[U8] tag)
+use @gtk_file_chooser_get_choice[Pointer[U8]](chooser': NullablePointer[GObjectT], id': Pointer[U8] tag)

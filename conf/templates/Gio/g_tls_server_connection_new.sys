@@ -1,2 +1,2 @@
-  fun gnew(base_io_stream': NullablePointer[GIOStreamT], certificate': NullablePointer[GTlsCertificateT], error': GError): NullablePointer[GIOStreamT] =>
-    @g_tls_server_connection_new(base_io_stream', certificate', error'.ptr)
+  fun gnew(base_io_stream': GIOStreamI, certificate': GTlsCertificateI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_tls_server_connection_new(base_io_stream'.getptr(), certificate'.getptr(), error')

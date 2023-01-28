@@ -1,2 +1,2 @@
-  fun render_focus(snapshot': NullablePointer[GdkSnapshotT], context': NullablePointer[GtkStyleContextT], x': F64, y': F64, width': F64, height': F64): None =>
-    @gtk_snapshot_render_focus(snapshot', context', x', y', width', height')
+  fun render_focus(snapshot': NullablePointer[GdkSnapshotT], context': GtkStyleContextI, x': F64, y': F64, width': F64, height': F64): None =>
+    @gtk_snapshot_render_focus(snapshot', context'.getptr(), x', y', width', height')

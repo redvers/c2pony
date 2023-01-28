@@ -1,1 +1,1 @@
-use @gtk_text_buffer_delete_interactive[I32](buffer': NullablePointer[GtkTextBufferT], start_iter': NullablePointer[GtkTextIterT], end_iter': NullablePointer[GtkTextIterT], default_editable': I32)
+use @gtk_text_buffer_delete_interactive[I32](buffer': NullablePointer[GObjectT], start_iter': NullablePointer[GtkTextIterT], end_iter': NullablePointer[GtkTextIterT], default_editable': I32)

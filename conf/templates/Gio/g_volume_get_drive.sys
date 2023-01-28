@@ -1,2 +1,2 @@
-  fun get_drive(volume': NullablePointer[GVolumeT]): NullablePointer[GDriveT] =>
-    @g_volume_get_drive(volume')
+  fun get_drive(volume': GVolumeI): NullablePointer[GObjectT] =>
+@g_volume_get_drive(volume'.getptr())

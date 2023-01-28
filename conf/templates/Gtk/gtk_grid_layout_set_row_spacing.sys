@@ -1,2 +1,2 @@
-  fun set_row_spacing(grid': NullablePointer[GtkGridLayoutT], spacing': U32): None =>
-    @gtk_grid_layout_set_row_spacing(grid', spacing')
+  fun set_row_spacing(grid': GtkGridLayoutI, spacing': U32): None =>
+    @gtk_grid_layout_set_row_spacing(grid'.getptr(), spacing')

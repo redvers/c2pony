@@ -1,2 +1,2 @@
-  fun selected_foreach(box': NullablePointer[GtkListBoxT], func': GtkListBoxForeachFunc, data': Pointer[None] tag): None =>
-    @gtk_list_box_selected_foreach(box', func', data')
+  fun selected_foreach(box': GtkListBoxI, func': GtkListBoxForeachFunc, data': Pointer[None] tag): None =>
+    @gtk_list_box_selected_foreach(box'.getptr(), func', data')

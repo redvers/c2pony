@@ -1,1 +1,1 @@
-use @g_file_make_symbolic_link[I32](file': NullablePointer[GFileT], symlink_value': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_make_symbolic_link[I32](file': NullablePointer[GObjectT], symlink_value': Pointer[U8] tag, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @gtk_cell_area_context_get_area[NullablePointer[GtkCellAreaT]](context': NullablePointer[GtkCellAreaContextT])
+use @gtk_cell_area_context_get_area[NullablePointer[GObjectT]](context': NullablePointer[GObjectT])

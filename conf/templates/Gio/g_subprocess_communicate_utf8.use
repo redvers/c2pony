@@ -1,1 +1,1 @@
-use @g_subprocess_communicate_utf8[I32](subprocess': NullablePointer[GSubprocessT], stdin_buf': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': NullablePointer[GErrorT])
+use @g_subprocess_communicate_utf8[I32](subprocess': NullablePointer[GObjectT], stdin_buf': Pointer[U8] tag, cancellable': NullablePointer[GObjectT], stdout_buf': Pointer[Pointer[U8]] tag, stderr_buf': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]])

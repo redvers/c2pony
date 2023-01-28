@@ -1,2 +1,2 @@
-  fun set_from_file(image': NullablePointer[GtkImageT], filename': String): None =>
-    @gtk_image_set_from_file(image', filename'.cstring())
+  fun set_from_file(image': GtkImageI, filename': String): None =>
+    @gtk_image_set_from_file(image'.getptr(), filename'.cstring())

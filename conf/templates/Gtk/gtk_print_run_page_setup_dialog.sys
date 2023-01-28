@@ -1,2 +1,2 @@
-  fun print_run_page_setup_dialog(parent': GtkWindowI, page_setup': NullablePointer[GtkPageSetupT], settings': NullablePointer[GtkPrintSettingsT]): NullablePointer[GtkPageSetupT] =>
-    @gtk_print_run_page_setup_dialog(parent'.getptr(), page_setup', settings')
+  fun print_run_page_setup_dialog(parent': GtkWindowI, page_setup': GtkPageSetupI, settings': GtkPrintSettingsI): NullablePointer[GObjectT] =>
+@gtk_print_run_page_setup_dialog(parent'.getptr(), page_setup'.getptr(), settings'.getptr())

@@ -1,2 +1,2 @@
-  fun set_placeholder(box': NullablePointer[GtkListBoxT], placeholder': GtkWidgetI): None =>
-    @gtk_list_box_set_placeholder(box', placeholder'.getptr())
+  fun set_placeholder(box': GtkListBoxI, placeholder': GtkWidgetI): None =>
+    @gtk_list_box_set_placeholder(box'.getptr(), placeholder'.getptr())

@@ -1,2 +1,2 @@
-  fun get_transition_type(revealer': NullablePointer[GtkRevealerT]): U32 =>
-    @gtk_revealer_get_transition_type(revealer')
+  fun get_transition_type(revealer': GtkRevealerI): U32 =>
+    @gtk_revealer_get_transition_type(revealer'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_window_group_list_windows[NullablePointer[GListT]](window_group': NullablePointer[GtkWindowGroupT])
+use @gtk_window_group_list_windows[NullablePointer[GListT]](window_group': NullablePointer[GObjectT])

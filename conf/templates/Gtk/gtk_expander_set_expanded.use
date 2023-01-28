@@ -1,1 +1,1 @@
-use @gtk_expander_set_expanded[None](expander': NullablePointer[GtkExpanderT], expanded': I32)
+use @gtk_expander_set_expanded[None](expander': NullablePointer[GObjectT], expanded': I32)

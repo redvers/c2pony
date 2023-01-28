@@ -1,1 +1,1 @@
-use @g_emblem_new_with_origin[NullablePointer[GEmblemT]](icon': NullablePointer[GIconT], origin': U32)
+use @g_emblem_new_with_origin[NullablePointer[GObjectT]](icon': NullablePointer[GObjectT], origin': U32)

@@ -1,1 +1,1 @@
-use @gtk_color_button_set_modal[None](button': NullablePointer[GtkColorButtonT], modal': I32)
+use @gtk_color_button_set_modal[None](button': NullablePointer[GObjectT], modal': I32)

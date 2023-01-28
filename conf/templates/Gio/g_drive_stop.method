@@ -1,2 +1,2 @@
-  fun ref stop(flags': U32, mount_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref stop(flags': U32, mount_operation': GMountOperationI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GDriveP.stop(this, flags', mount_operation', cancellable', callback', user_data')

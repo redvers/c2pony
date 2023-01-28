@@ -1,2 +1,2 @@
-  fun ref connect_to_uri(uri': String, default_port': U16, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GSocketConnectionT] =>
+  fun ref connect_to_uri(uri': String, default_port': U16, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GSocketClientP.connect_to_uri(this, uri', default_port', cancellable', error')

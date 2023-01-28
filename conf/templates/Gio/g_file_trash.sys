@@ -1,2 +1,2 @@
-  fun trash(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_file_trash(file', cancellable', error'.ptr)
+  fun trash(file': GFileI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_trash(file'.getptr(), cancellable'.getptr(), error')

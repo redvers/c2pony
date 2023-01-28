@@ -1,2 +1,2 @@
-  fun get_icon_name(button': NullablePointer[GtkButtonT]): String iso^ =>
-    String.from_cstring(@gtk_button_get_icon_name(button')).clone()
+  fun get_icon_name(button': GtkButtonI): String iso^ =>
+    String.from_cstring(@gtk_button_get_icon_name(button'.getptr())).clone()

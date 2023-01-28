@@ -1,2 +1,2 @@
-  fun get_active(toggle_button': NullablePointer[GtkToggleButtonT]): I32 =>
-    @gtk_toggle_button_get_active(toggle_button')
+  fun get_active(toggle_button': GtkToggleButtonI): I32 =>
+    @gtk_toggle_button_get_active(toggle_button'.getptr())

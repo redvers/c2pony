@@ -1,2 +1,2 @@
-  fun get_vscroll_policy(scrollable': NullablePointer[GtkScrollableT]): U32 =>
-    @gtk_scrollable_get_vscroll_policy(scrollable')
+  fun get_vscroll_policy(scrollable': GtkScrollableI): U32 =>
+    @gtk_scrollable_get_vscroll_policy(scrollable'.getptr())

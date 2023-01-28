@@ -1,1 +1,1 @@
-use @gtk_flow_box_append[None](self': NullablePointer[GtkFlowBoxT], child': NullablePointer[GObjectT])
+use @gtk_flow_box_append[None](self': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

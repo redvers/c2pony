@@ -1,2 +1,2 @@
-  fun get_aligned_area(cell': NullablePointer[GtkCellRendererT], widget': GtkWidgetI, flags': U32, cell_area': NullablePointer[cairorectangleintT], aligned_area': NullablePointer[cairorectangleintT]): None =>
-    @gtk_cell_renderer_get_aligned_area(cell', widget'.getptr(), flags', cell_area', aligned_area')
+  fun get_aligned_area(cell': GtkCellRendererI, widget': GtkWidgetI, flags': U32, cell_area': NullablePointer[cairorectangleintT], aligned_area': NullablePointer[cairorectangleintT]): None =>
+    @gtk_cell_renderer_get_aligned_area(cell'.getptr(), widget'.getptr(), flags', cell_area', aligned_area')

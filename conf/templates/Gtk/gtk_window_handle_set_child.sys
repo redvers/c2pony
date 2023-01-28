@@ -1,2 +1,2 @@
-  fun set_child(self': NullablePointer[GtkWindowHandleT], child': GtkWidgetI): None =>
-    @gtk_window_handle_set_child(self', child'.getptr())
+  fun set_child(self': GtkWindowHandleI, child': GtkWidgetI): None =>
+    @gtk_window_handle_set_child(self'.getptr(), child'.getptr())

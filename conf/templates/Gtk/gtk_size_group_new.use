@@ -1,1 +1,1 @@
-use @gtk_size_group_new[NullablePointer[GtkSizeGroupT]](mode': U32)
+use @gtk_size_group_new[NullablePointer[GObjectT]](mode': U32)

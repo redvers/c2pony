@@ -1,1 +1,1 @@
-use @g_network_monitor_can_reach_finish[I32](monitor': NullablePointer[GNetworkMonitorT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_network_monitor_can_reach_finish[I32](monitor': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @g_mount_operation_set_is_tcrypt_hidden_volume[None](op': NullablePointer[GMountOperationT], hidden_volume': I32)
+use @g_mount_operation_set_is_tcrypt_hidden_volume[None](op': NullablePointer[GObjectT], hidden_volume': I32)

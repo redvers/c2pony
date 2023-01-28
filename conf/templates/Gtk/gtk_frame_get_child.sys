@@ -1,2 +1,2 @@
-  fun get_child(frame': NullablePointer[GtkFrameT]): NullablePointer[GObjectT] =>
-@gtk_frame_get_child(frame')
+  fun get_child(frame': GtkFrameI): NullablePointer[GObjectT] =>
+@gtk_frame_get_child(frame'.getptr())

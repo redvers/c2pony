@@ -1,1 +1,1 @@
-use @gtk_search_bar_set_key_capture_widget[None](bar': NullablePointer[GtkSearchBarT], widget': NullablePointer[GObjectT])
+use @gtk_search_bar_set_key_capture_widget[None](bar': NullablePointer[GObjectT], widget': NullablePointer[GObjectT])

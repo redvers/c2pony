@@ -1,2 +1,2 @@
-  fun set_completion(entry': NullablePointer[GtkEntryT], completion': NullablePointer[GtkEntryCompletionT]): None =>
-    @gtk_entry_set_completion(entry', completion')
+  fun set_completion(entry': GtkEntryI, completion': GtkEntryCompletionI): None =>
+    @gtk_entry_set_completion(entry'.getptr(), completion'.getptr())

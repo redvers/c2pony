@@ -1,2 +1,2 @@
-  new new_from_model_full(model': NullablePointer[GMenuModelT], flags': U32) =>
-    ptr = @gtk_popover_menu_new_from_model_full(model', flags')
+  new new_from_model_full(model': GMenuModelI, flags': U32) =>
+    ptr = @gtk_popover_menu_new_from_model_full(model'.getptr(), flags')

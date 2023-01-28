@@ -1,2 +1,2 @@
-  fun get_paintable(image': NullablePointer[GtkImageT]): NullablePointer[GdkPaintableT] =>
-    @gtk_image_get_paintable(image')
+  fun get_paintable(image': GtkImageI): NullablePointer[GdkPaintableT] =>
+    @gtk_image_get_paintable(image'.getptr())

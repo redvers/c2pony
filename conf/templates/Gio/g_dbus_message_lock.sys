@@ -1,2 +1,2 @@
-  fun lock(message': NullablePointer[GDBusMessageT]): None =>
-    @g_dbus_message_lock(message')
+  fun lock(message': GDBusMessageI): None =>
+    @g_dbus_message_lock(message'.getptr())

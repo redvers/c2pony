@@ -1,2 +1,2 @@
-  fun bind_property(source': Pointer[None] tag, source_property': String, target': Pointer[None] tag, target_property': String, flags': U32): NullablePointer[GBindingT] =>
-    @g_object_bind_property(source', source_property'.cstring(), target', target_property'.cstring(), flags')
+  fun bind_property(source': Pointer[None] tag, source_property': String, target': Pointer[None] tag, target_property': String, flags': U32): NullablePointer[GObjectT] =>
+@g_object_bind_property(source', source_property'.cstring(), target', target_property'.cstring(), flags')

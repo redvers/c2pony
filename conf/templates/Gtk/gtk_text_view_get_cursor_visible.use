@@ -1,1 +1,1 @@
-use @gtk_text_view_get_cursor_visible[I32](text_view': NullablePointer[GtkTextViewT])
+use @gtk_text_view_get_cursor_visible[I32](text_view': NullablePointer[GObjectT])

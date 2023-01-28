@@ -1,1 +1,1 @@
-use @g_output_stream_splice[I64](stream': NullablePointer[GOutputStreamT], source': NullablePointer[GInputStreamT], flags': U32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_output_stream_splice[I64](stream': NullablePointer[GObjectT], source': NullablePointer[GObjectT], flags': U32, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

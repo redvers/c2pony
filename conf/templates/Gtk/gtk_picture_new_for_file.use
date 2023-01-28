@@ -1,1 +1,1 @@
-use @gtk_picture_new_for_file[NullablePointer[GObjectT]](file': NullablePointer[GFileT])
+use @gtk_picture_new_for_file[NullablePointer[GObjectT]](file': NullablePointer[GObjectT])

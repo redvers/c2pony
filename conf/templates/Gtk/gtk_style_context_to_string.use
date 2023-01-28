@@ -1,1 +1,1 @@
-use @gtk_style_context_to_string[Pointer[U8]](context': NullablePointer[GtkStyleContextT], flags': U32)
+use @gtk_style_context_to_string[Pointer[U8]](context': NullablePointer[GObjectT], flags': U32)

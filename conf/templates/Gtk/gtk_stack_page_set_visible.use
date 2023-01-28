@@ -1,1 +1,1 @@
-use @gtk_stack_page_set_visible[None](self': NullablePointer[GtkStackPageT], visible': I32)
+use @gtk_stack_page_set_visible[None](self': NullablePointer[GObjectT], visible': I32)

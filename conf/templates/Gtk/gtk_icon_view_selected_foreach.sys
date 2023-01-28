@@ -1,2 +1,2 @@
-  fun selected_foreach(icon_view': NullablePointer[GtkIconViewT], func': GtkIconViewForeachFunc, data': Pointer[None] tag): None =>
-    @gtk_icon_view_selected_foreach(icon_view', func', data')
+  fun selected_foreach(icon_view': GtkIconViewI, func': GtkIconViewForeachFunc, data': Pointer[None] tag): None =>
+    @gtk_icon_view_selected_foreach(icon_view'.getptr(), func', data')

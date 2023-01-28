@@ -1,2 +1,2 @@
-  fun delegate_set_property(object': NullablePointer[GObjectT], prop_id': U32, value': NullablePointer[GValueT], pspec': NullablePointer[GParamSpecT]): I32 =>
-    @gtk_editable_delegate_set_property(object', prop_id', value', pspec')
+  fun delegate_set_property(object': GObjectI, prop_id': U32, value': NullablePointer[GValueT], pspec': NullablePointer[GParamSpecT]): I32 =>
+    @gtk_editable_delegate_set_property(object'.getptr(), prop_id', value', pspec')

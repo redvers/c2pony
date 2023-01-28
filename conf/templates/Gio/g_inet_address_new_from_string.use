@@ -1,1 +1,1 @@
-use @g_inet_address_new_from_string[NullablePointer[GInetAddressT]](string': Pointer[U8] tag)
+use @g_inet_address_new_from_string[NullablePointer[GObjectT]](string': Pointer[U8] tag)

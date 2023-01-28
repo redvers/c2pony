@@ -1,2 +1,2 @@
-  fun ref query_info(attributes': String, flags': U32, cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileInfoT] =>
+  fun ref query_info(attributes': String, flags': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GFileP.query_info(this, attributes', flags', cancellable', error')

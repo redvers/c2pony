@@ -1,2 +1,2 @@
-  fun add_window(window_group': NullablePointer[GtkWindowGroupT], window': GtkWindowI): None =>
-    @gtk_window_group_add_window(window_group', window'.getptr())
+  fun add_window(window_group': GtkWindowGroupI, window': GtkWindowI): None =>
+    @gtk_window_group_add_window(window_group'.getptr(), window'.getptr())

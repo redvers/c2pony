@@ -1,2 +1,2 @@
-  fun get(settings': NullablePointer[GtkPrintSettingsT], key': String): String iso^ =>
-    String.from_cstring(@gtk_print_settings_get(settings', key'.cstring())).clone()
+  fun get(settings': GtkPrintSettingsI, key': String): String iso^ =>
+    String.from_cstring(@gtk_print_settings_get(settings'.getptr(), key'.cstring())).clone()

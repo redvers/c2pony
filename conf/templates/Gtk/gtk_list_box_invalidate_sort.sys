@@ -1,2 +1,2 @@
-  fun invalidate_sort(box': NullablePointer[GtkListBoxT]): None =>
-    @gtk_list_box_invalidate_sort(box')
+  fun invalidate_sort(box': GtkListBoxI): None =>
+    @gtk_list_box_invalidate_sort(box'.getptr())

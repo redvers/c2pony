@@ -1,2 +1,2 @@
-  fun read_line_finish(stream': NullablePointer[GDataInputStreamT], result': NullablePointer[GAsyncResultT], length': Pointer[U64] tag, error': GError): String iso^ =>
-    String.from_cstring(@g_data_input_stream_read_line_finish(stream', result', length', error'.ptr)).clone()
+  fun read_line_finish(stream': GDataInputStreamI, result': GAsyncResultI, length': Pointer[U64] tag, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_data_input_stream_read_line_finish(stream'.getptr(), result'.getptr(), length', error')).clone()

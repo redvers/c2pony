@@ -1,1 +1,1 @@
-use @gtk_menu_button_set_create_popup_func[None](menu_button': NullablePointer[GtkMenuButtonT], func': GtkMenuButtonCreatePopupFunc, user_data': Pointer[None] tag, destroy_notify': Pointer[None])
+use @gtk_menu_button_set_create_popup_func[None](menu_button': NullablePointer[GObjectT], func': GtkMenuButtonCreatePopupFunc, user_data': Pointer[None] tag, destroy_notify': Pointer[None])

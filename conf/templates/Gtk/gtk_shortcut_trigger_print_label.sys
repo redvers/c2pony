@@ -1,2 +1,2 @@
-  fun print_label(self': NullablePointer[GtkShortcutTriggerT], display': NullablePointer[GdkDisplayT], string': NullablePointer[GStringT]): I32 =>
-    @gtk_shortcut_trigger_print_label(self', display', string')
+  fun print_label(self': GtkShortcutTriggerI, display': NullablePointer[GdkDisplayT], string': NullablePointer[GStringT]): I32 =>
+    @gtk_shortcut_trigger_print_label(self'.getptr(), display', string')

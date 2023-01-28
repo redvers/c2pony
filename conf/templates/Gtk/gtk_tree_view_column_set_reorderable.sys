@@ -1,2 +1,2 @@
-  fun set_reorderable(tree_column': NullablePointer[GtkTreeViewColumnT], reorderable': I32): None =>
-    @gtk_tree_view_column_set_reorderable(tree_column', reorderable')
+  fun set_reorderable(tree_column': GtkTreeViewColumnI, reorderable': I32): None =>
+    @gtk_tree_view_column_set_reorderable(tree_column'.getptr(), reorderable')

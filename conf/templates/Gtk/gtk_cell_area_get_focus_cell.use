@@ -1,1 +1,1 @@
-use @gtk_cell_area_get_focus_cell[NullablePointer[GtkCellRendererT]](area': NullablePointer[GtkCellAreaT])
+use @gtk_cell_area_get_focus_cell[NullablePointer[GObjectT]](area': NullablePointer[GObjectT])

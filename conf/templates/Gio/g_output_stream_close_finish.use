@@ -1,1 +1,1 @@
-use @g_output_stream_close_finish[I32](stream': NullablePointer[GOutputStreamT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_output_stream_close_finish[I32](stream': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

@@ -1,1 +1,1 @@
-use @gtk_css_section_new[NullablePointer[GtkCssSectionT]](file': NullablePointer[GFileT], start': NullablePointer[GtkCssLocationT], end': NullablePointer[GtkCssLocationT])
+use @gtk_css_section_new[NullablePointer[GtkCssSectionT]](file': NullablePointer[GObjectT], start': NullablePointer[GtkCssLocationT], end': NullablePointer[GtkCssLocationT])

@@ -1,2 +1,2 @@
-  fun get_finishings(settings': NullablePointer[GtkPrintSettingsT]): String iso^ =>
-    String.from_cstring(@gtk_print_settings_get_finishings(settings')).clone()
+  fun get_finishings(settings': GtkPrintSettingsI): String iso^ =>
+    String.from_cstring(@gtk_print_settings_get_finishings(settings'.getptr())).clone()

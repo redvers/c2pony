@@ -1,2 +1,2 @@
-  fun get_attribute(menu_item': NullablePointer[GMenuItemT], attribute': String, format_string': String, ...): I32 =>
-    @g_menu_item_get_attribute(menu_item', attribute'.cstring(), format_string'.cstring(), ...)
+  fun get_attribute(menu_item': GMenuItemI, attribute': String, format_string': String, ...): I32 =>
+    @g_menu_item_get_attribute(menu_item'.getptr(), attribute'.cstring(), format_string'.cstring(), ...)

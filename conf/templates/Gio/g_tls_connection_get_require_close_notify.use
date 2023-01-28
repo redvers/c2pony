@@ -1,1 +1,1 @@
-use @g_tls_connection_get_require_close_notify[I32](conn': NullablePointer[GTlsConnectionT])
+use @g_tls_connection_get_require_close_notify[I32](conn': NullablePointer[GObjectT])

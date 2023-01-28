@@ -1,1 +1,1 @@
-use @g_app_info_launch_default_for_uri_async[None](uri': Pointer[U8] tag, context': NullablePointer[GAppLaunchContextT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_app_info_launch_default_for_uri_async[None](uri': Pointer[U8] tag, context': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

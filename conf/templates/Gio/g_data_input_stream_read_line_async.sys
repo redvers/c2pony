@@ -1,2 +1,2 @@
-  fun read_line_async(stream': NullablePointer[GDataInputStreamT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_data_input_stream_read_line_async(stream', io_priority', cancellable', callback', user_data')
+  fun read_line_async(stream': GDataInputStreamI, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_data_input_stream_read_line_async(stream'.getptr(), io_priority', cancellable'.getptr(), callback', user_data')

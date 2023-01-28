@@ -1,2 +1,2 @@
-  fun set_formats(self': NullablePointer[GtkDropTargetAsyncT], formats': NullablePointer[GdkContentFormatsT]): None =>
-    @gtk_drop_target_async_set_formats(self', formats')
+  fun set_formats(self': GtkDropTargetAsyncI, formats': NullablePointer[GdkContentFormatsT]): None =>
+    @gtk_drop_target_async_set_formats(self'.getptr(), formats')

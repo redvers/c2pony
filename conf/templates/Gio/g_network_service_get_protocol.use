@@ -1,1 +1,1 @@
-use @g_network_service_get_protocol[Pointer[U8]](srv': NullablePointer[GNetworkServiceT])
+use @g_network_service_get_protocol[Pointer[U8]](srv': NullablePointer[GObjectT])

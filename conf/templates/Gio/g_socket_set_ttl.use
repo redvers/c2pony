@@ -1,1 +1,1 @@
-use @g_socket_set_ttl[None](socket': NullablePointer[GSocketT], ttl': U32)
+use @g_socket_set_ttl[None](socket': NullablePointer[GObjectT], ttl': U32)

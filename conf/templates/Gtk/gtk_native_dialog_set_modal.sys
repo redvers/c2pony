@@ -1,2 +1,2 @@
-  fun set_modal(self': NullablePointer[GtkNativeDialogT], modal': I32): None =>
-    @gtk_native_dialog_set_modal(self', modal')
+  fun set_modal(self': GtkNativeDialogI, modal': I32): None =>
+    @gtk_native_dialog_set_modal(self'.getptr(), modal')

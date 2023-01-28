@@ -1,2 +1,2 @@
-  fun is_attached(constraint': NullablePointer[GtkConstraintT]): I32 =>
-    @gtk_constraint_is_attached(constraint')
+  fun is_attached(constraint': GtkConstraintI): I32 =>
+    @gtk_constraint_is_attached(constraint'.getptr())

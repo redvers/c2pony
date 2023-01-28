@@ -1,2 +1,2 @@
-  fun get_use_es(area': NullablePointer[GtkGLAreaT]): I32 =>
-    @gtk_gl_area_get_use_es(area')
+  fun get_use_es(area': GtkGLAreaI): I32 =>
+    @gtk_gl_area_get_use_es(area'.getptr())

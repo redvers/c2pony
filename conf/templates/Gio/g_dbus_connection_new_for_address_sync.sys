@@ -1,2 +1,2 @@
-  new new_for_address_sync(address': String, flags': U32, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], error': GError) =>
-    ptr = @g_dbus_connection_new_for_address_sync(address'.cstring(), flags', observer', cancellable', error'.ptr)
+  new new_for_address_sync(address': String, flags': U32, observer': GDBusAuthObserverI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_dbus_connection_new_for_address_sync(address'.cstring(), flags', observer'.getptr(), cancellable'.getptr(), error')

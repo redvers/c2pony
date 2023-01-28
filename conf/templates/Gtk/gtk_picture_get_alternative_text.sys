@@ -1,2 +1,2 @@
-  fun get_alternative_text(self': NullablePointer[GtkPictureT]): String iso^ =>
-    String.from_cstring(@gtk_picture_get_alternative_text(self')).clone()
+  fun get_alternative_text(self': GtkPictureI): String iso^ =>
+    String.from_cstring(@gtk_picture_get_alternative_text(self'.getptr())).clone()

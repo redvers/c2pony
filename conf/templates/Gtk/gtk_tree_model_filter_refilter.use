@@ -1,1 +1,1 @@
-use @gtk_tree_model_filter_refilter[None](filter': NullablePointer[GtkTreeModelFilterT])
+use @gtk_tree_model_filter_refilter[None](filter': NullablePointer[GObjectT])

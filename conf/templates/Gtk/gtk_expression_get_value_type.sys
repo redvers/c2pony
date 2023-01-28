@@ -1,2 +1,2 @@
-  fun get_value_type(self': NullablePointer[GtkExpressionT]): U64 =>
-    @gtk_expression_get_value_type(self')
+  fun get_value_type(self': GtkExpressionI): U64 =>
+    @gtk_expression_get_value_type(self'.getptr())

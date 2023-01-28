@@ -1,1 +1,1 @@
-use @g_icon_serialize[NullablePointer[GVariantT]](icon': NullablePointer[GIconT])
+use @g_icon_serialize[NullablePointer[GVariantT]](icon': NullablePointer[GObjectT])

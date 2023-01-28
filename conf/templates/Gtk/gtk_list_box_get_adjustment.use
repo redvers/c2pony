@@ -1,1 +1,1 @@
-use @gtk_list_box_get_adjustment[NullablePointer[GtkAdjustmentT]](box': NullablePointer[GtkListBoxT])
+use @gtk_list_box_get_adjustment[NullablePointer[GObjectT]](box': NullablePointer[GObjectT])

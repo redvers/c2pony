@@ -1,2 +1,2 @@
-  fun append_separator(self': NullablePointer[GtkAppChooserButtonT]): None =>
-    @gtk_app_chooser_button_append_separator(self')
+  fun append_separator(self': GtkAppChooserButtonI): None =>
+    @gtk_app_chooser_button_append_separator(self'.getptr())

@@ -1,2 +1,2 @@
-  fun set_use_fallback(converter': NullablePointer[GCharsetConverterT], use_fallback': I32): None =>
-    @g_charset_converter_set_use_fallback(converter', use_fallback')
+  fun set_use_fallback(converter': GCharsetConverterI, use_fallback': I32): None =>
+    @g_charset_converter_set_use_fallback(converter'.getptr(), use_fallback')

@@ -1,1 +1,1 @@
-use @gtk_icon_view_get_dest_item_at_pos[I32](icon_view': NullablePointer[GtkIconViewT], drag_x': I32, drag_y': I32, path': Pointer[NullablePointer[GtkTreePathT]], pos': Pointer[U32] tag)
+use @gtk_icon_view_get_dest_item_at_pos[I32](icon_view': NullablePointer[GObjectT], drag_x': I32, drag_y': I32, path': Pointer[NullablePointer[GtkTreePathT]], pos': Pointer[U32] tag)

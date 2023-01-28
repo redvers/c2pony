@@ -1,2 +1,2 @@
-  fun getenv(cmdline': NullablePointer[GApplicationCommandLineT], name': String): String iso^ =>
-    String.from_cstring(@g_application_command_line_getenv(cmdline', name'.cstring())).clone()
+  fun getenv(cmdline': GApplicationCommandLineI, name': String): String iso^ =>
+    String.from_cstring(@g_application_command_line_getenv(cmdline'.getptr(), name'.cstring())).clone()

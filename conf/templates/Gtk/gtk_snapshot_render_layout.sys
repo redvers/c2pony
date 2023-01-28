@@ -1,2 +1,2 @@
-  fun render_layout(snapshot': NullablePointer[GdkSnapshotT], context': NullablePointer[GtkStyleContextT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT]): None =>
-    @gtk_snapshot_render_layout(snapshot', context', x', y', layout')
+  fun render_layout(snapshot': NullablePointer[GdkSnapshotT], context': GtkStyleContextI, x': F64, y': F64, layout': NullablePointer[PangoLayoutT]): None =>
+    @gtk_snapshot_render_layout(snapshot', context'.getptr(), x', y', layout')

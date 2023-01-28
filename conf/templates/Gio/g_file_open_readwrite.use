@@ -1,1 +1,1 @@
-use @g_file_open_readwrite[NullablePointer[GFileIOStreamT]](file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_open_readwrite[NullablePointer[GObjectT]](file': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

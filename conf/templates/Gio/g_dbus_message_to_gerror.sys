@@ -1,2 +1,2 @@
-  fun to_gerror(message': NullablePointer[GDBusMessageT], error': GError): I32 =>
-    @g_dbus_message_to_gerror(message', error'.ptr)
+  fun to_gerror(message': GDBusMessageI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_dbus_message_to_gerror(message'.getptr(), error')

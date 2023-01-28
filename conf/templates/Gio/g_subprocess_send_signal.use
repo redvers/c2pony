@@ -1,1 +1,1 @@
-use @g_subprocess_send_signal[None](subprocess': NullablePointer[GSubprocessT], signal_num': I32)
+use @g_subprocess_send_signal[None](subprocess': NullablePointer[GObjectT], signal_num': I32)

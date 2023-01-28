@@ -1,1 +1,1 @@
-use @gtk_notebook_reorder_child[None](notebook': NullablePointer[GtkNotebookT], child': NullablePointer[GObjectT], position': I32)
+use @gtk_notebook_reorder_child[None](notebook': NullablePointer[GObjectT], child': NullablePointer[GObjectT], position': I32)

@@ -1,2 +1,2 @@
-  fun ref get_mount(): NullablePointer[GMountT] =>
+  fun ref get_mount(): NullablePointer[GObjectT] =>
     GVolumeP.get_mount(this)

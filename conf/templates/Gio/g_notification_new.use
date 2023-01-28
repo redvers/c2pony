@@ -1,1 +1,1 @@
-use @g_notification_new[NullablePointer[GNotificationT]](title': Pointer[U8] tag)
+use @g_notification_new[NullablePointer[GObjectT]](title': Pointer[U8] tag)

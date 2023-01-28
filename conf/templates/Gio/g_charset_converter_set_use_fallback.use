@@ -1,1 +1,1 @@
-use @g_charset_converter_set_use_fallback[None](converter': NullablePointer[GCharsetConverterT], use_fallback': I32)
+use @g_charset_converter_set_use_fallback[None](converter': NullablePointer[GObjectT], use_fallback': I32)

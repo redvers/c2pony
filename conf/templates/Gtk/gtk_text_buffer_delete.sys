@@ -1,2 +1,2 @@
-  fun delete(buffer': NullablePointer[GtkTextBufferT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
-    @gtk_text_buffer_delete(buffer', start', end')
+  fun delete(buffer': GtkTextBufferI, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+    @gtk_text_buffer_delete(buffer'.getptr(), start', end')

@@ -1,2 +1,2 @@
-  new new_with_attributes(title': String, cell': NullablePointer[GtkCellRendererT], ...) =>
-    ptr = @gtk_tree_view_column_new_with_attributes(title'.cstring(), cell', ...)
+  new new_with_attributes(title': String, cell': GtkCellRendererI, ...) =>
+    ptr = @gtk_tree_view_column_new_with_attributes(title'.cstring(), cell'.getptr(), ...)

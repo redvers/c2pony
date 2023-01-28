@@ -1,2 +1,2 @@
-  fun get_length(mask': NullablePointer[GInetAddressMaskT]): U32 =>
-    @g_inet_address_mask_get_length(mask')
+  fun get_length(mask': GInetAddressMaskI): U32 =>
+    @g_inet_address_mask_get_length(mask'.getptr())

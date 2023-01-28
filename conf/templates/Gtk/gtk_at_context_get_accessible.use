@@ -1,1 +1,1 @@
-use @gtk_at_context_get_accessible[NullablePointer[GtkAccessibleT]](self': NullablePointer[GtkATContextT])
+use @gtk_at_context_get_accessible[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

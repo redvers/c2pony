@@ -1,2 +1,2 @@
-  fun is_expandable(self': NullablePointer[GtkTreeListRowT]): I32 =>
-    @gtk_tree_list_row_is_expandable(self')
+  fun is_expandable(self': GtkTreeListRowI): I32 =>
+    @gtk_tree_list_row_is_expandable(self'.getptr())

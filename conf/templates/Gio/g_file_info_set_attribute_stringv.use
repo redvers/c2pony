@@ -1,1 +1,1 @@
-use @g_file_info_set_attribute_stringv[None](info': NullablePointer[GFileInfoT], attribute': Pointer[U8] tag, attr_value': Pointer[Pointer[U8]] tag)
+use @g_file_info_set_attribute_stringv[None](info': NullablePointer[GObjectT], attribute': Pointer[U8] tag, attr_value': Pointer[Pointer[U8]] tag)

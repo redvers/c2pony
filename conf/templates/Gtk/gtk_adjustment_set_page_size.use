@@ -1,1 +1,1 @@
-use @gtk_adjustment_set_page_size[None](adjustment': NullablePointer[GtkAdjustmentT], page_size': F64)
+use @gtk_adjustment_set_page_size[None](adjustment': NullablePointer[GObjectT], page_size': F64)

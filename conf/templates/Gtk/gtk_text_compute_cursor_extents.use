@@ -1,1 +1,1 @@
-use @gtk_text_compute_cursor_extents[None](self': NullablePointer[GtkTextT], position': U64, strong': NullablePointer[graphenerecttT], weak': NullablePointer[graphenerecttT])
+use @gtk_text_compute_cursor_extents[None](self': NullablePointer[GObjectT], position': U64, strong': NullablePointer[graphenerecttT], weak': NullablePointer[graphenerecttT])

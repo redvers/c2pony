@@ -1,2 +1,2 @@
-  fun file_open_tmp(tmpl': String, name_used': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    @g_file_open_tmp(tmpl'.cstring(), name_used', error'.ptr)
+  fun file_open_tmp(tmpl': String, name_used': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_open_tmp(tmpl'.cstring(), name_used', error')

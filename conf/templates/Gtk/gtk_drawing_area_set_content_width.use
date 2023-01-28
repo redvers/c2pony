@@ -1,1 +1,1 @@
-use @gtk_drawing_area_set_content_width[None](self': NullablePointer[GtkDrawingAreaT], width': I32)
+use @gtk_drawing_area_set_content_width[None](self': NullablePointer[GObjectT], width': I32)

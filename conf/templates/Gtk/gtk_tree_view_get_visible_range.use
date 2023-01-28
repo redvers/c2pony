@@ -1,1 +1,1 @@
-use @gtk_tree_view_get_visible_range[I32](tree_view': NullablePointer[GtkTreeViewT], start_path': Pointer[NullablePointer[GtkTreePathT]], end_path': Pointer[NullablePointer[GtkTreePathT]])
+use @gtk_tree_view_get_visible_range[I32](tree_view': NullablePointer[GObjectT], start_path': Pointer[NullablePointer[GtkTreePathT]], end_path': Pointer[NullablePointer[GtkTreePathT]])

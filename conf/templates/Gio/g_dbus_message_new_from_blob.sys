@@ -1,2 +1,2 @@
-  new new_from_blob(blob': String, blob_len': U64, capabilities': U32, error': GError) =>
-    ptr = @g_dbus_message_new_from_blob(blob'.cstring(), blob_len', capabilities', error'.ptr)
+  new new_from_blob(blob': String, blob_len': U64, capabilities': U32, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_dbus_message_new_from_blob(blob'.cstring(), blob_len', capabilities', error')

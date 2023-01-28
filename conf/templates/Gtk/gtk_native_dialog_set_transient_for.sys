@@ -1,2 +1,2 @@
-  fun set_transient_for(self': NullablePointer[GtkNativeDialogT], parent': GtkWindowI): None =>
-    @gtk_native_dialog_set_transient_for(self', parent'.getptr())
+  fun set_transient_for(self': GtkNativeDialogI, parent': GtkWindowI): None =>
+    @gtk_native_dialog_set_transient_for(self'.getptr(), parent'.getptr())

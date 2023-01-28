@@ -1,1 +1,1 @@
-use @gtk_im_multicontext_new[NullablePointer[GtkIMContextT]]()
+use @gtk_im_multicontext_new[NullablePointer[GObjectT]]()

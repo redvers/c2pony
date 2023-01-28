@@ -1,2 +1,2 @@
-  fun cancel(cancellable': NullablePointer[GCancellableT]): None =>
-    @g_cancellable_cancel(cancellable')
+  fun cancel(cancellable': GCancellableI): None =>
+    @g_cancellable_cancel(cancellable'.getptr())

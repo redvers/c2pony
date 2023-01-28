@@ -1,2 +1,2 @@
-  fun reorder_child_after(box': NullablePointer[GtkBoxT], child': GtkWidgetI, sibling': GtkWidgetI): None =>
-    @gtk_box_reorder_child_after(box', child'.getptr(), sibling'.getptr())
+  fun reorder_child_after(box': GtkBoxI, child': GtkWidgetI, sibling': GtkWidgetI): None =>
+    @gtk_box_reorder_child_after(box'.getptr(), child'.getptr(), sibling'.getptr())

@@ -1,2 +1,2 @@
-  fun push_current(cancellable': NullablePointer[GCancellableT]): None =>
-    @g_cancellable_push_current(cancellable')
+  fun push_current(cancellable': GCancellableI): None =>
+    @g_cancellable_push_current(cancellable'.getptr())

@@ -1,2 +1,2 @@
-  fun get_nth_page(assistant': NullablePointer[GtkAssistantT], page_num': I32): NullablePointer[GObjectT] =>
-@gtk_assistant_get_nth_page(assistant', page_num')
+  fun get_nth_page(assistant': GtkAssistantI, page_num': I32): NullablePointer[GObjectT] =>
+@gtk_assistant_get_nth_page(assistant'.getptr(), page_num')

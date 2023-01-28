@@ -1,2 +1,2 @@
-  fun get_selected_items(icon_view': NullablePointer[GtkIconViewT]): NullablePointer[GListT] =>
-    @gtk_icon_view_get_selected_items(icon_view')
+  fun get_selected_items(icon_view': GtkIconViewI): NullablePointer[GListT] =>
+    @gtk_icon_view_get_selected_items(icon_view'.getptr())

@@ -1,2 +1,2 @@
-  fun gnew(stream': NullablePointer[GIOStreamT], guid': String, flags': U32, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_dbus_connection_new(stream', guid'.cstring(), flags', observer', cancellable', callback', user_data')
+  fun gnew(stream': GIOStreamI, guid': String, flags': U32, observer': GDBusAuthObserverI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_dbus_connection_new(stream'.getptr(), guid'.cstring(), flags', observer'.getptr(), cancellable'.getptr(), callback', user_data')

@@ -1,2 +1,2 @@
-  fun pack_start(tree_column': NullablePointer[GtkTreeViewColumnT], cell': NullablePointer[GtkCellRendererT], expand': I32): None =>
-    @gtk_tree_view_column_pack_start(tree_column', cell', expand')
+  fun pack_start(tree_column': GtkTreeViewColumnI, cell': GtkCellRendererI, expand': I32): None =>
+    @gtk_tree_view_column_pack_start(tree_column'.getptr(), cell'.getptr(), expand')

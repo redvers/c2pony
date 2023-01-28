@@ -1,2 +1,2 @@
-  fun reset(converter': NullablePointer[GConverterT]): None =>
-    @g_converter_reset(converter')
+  fun reset(converter': GConverterI): None =>
+    @g_converter_reset(converter'.getptr())

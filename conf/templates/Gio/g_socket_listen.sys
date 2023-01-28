@@ -1,2 +1,2 @@
-  fun listen(socket': NullablePointer[GSocketT], error': GError): I32 =>
-    @g_socket_listen(socket', error'.ptr)
+  fun listen(socket': GSocketI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_listen(socket'.getptr(), error')

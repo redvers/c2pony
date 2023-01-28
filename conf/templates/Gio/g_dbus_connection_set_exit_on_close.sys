@@ -1,2 +1,2 @@
-  fun set_exit_on_close(connection': NullablePointer[GDBusConnectionT], exit_on_close': I32): None =>
-    @g_dbus_connection_set_exit_on_close(connection', exit_on_close')
+  fun set_exit_on_close(connection': GDBusConnectionI, exit_on_close': I32): None =>
+    @g_dbus_connection_set_exit_on_close(connection'.getptr(), exit_on_close')

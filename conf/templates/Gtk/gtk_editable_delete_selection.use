@@ -1,1 +1,1 @@
-use @gtk_editable_delete_selection[None](editable': NullablePointer[GtkEditableT])
+use @gtk_editable_delete_selection[None](editable': NullablePointer[GObjectT])

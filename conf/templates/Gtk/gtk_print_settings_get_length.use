@@ -1,1 +1,1 @@
-use @gtk_print_settings_get_length[F64](settings': NullablePointer[GtkPrintSettingsT], key': Pointer[U8] tag, unit': U32)
+use @gtk_print_settings_get_length[F64](settings': NullablePointer[GObjectT], key': Pointer[U8] tag, unit': U32)

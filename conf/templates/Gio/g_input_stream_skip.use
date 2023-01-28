@@ -1,1 +1,1 @@
-use @g_input_stream_skip[I64](stream': NullablePointer[GInputStreamT], count': U64, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_input_stream_skip[I64](stream': NullablePointer[GObjectT], count': U64, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

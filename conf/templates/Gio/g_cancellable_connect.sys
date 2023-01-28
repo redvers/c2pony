@@ -1,2 +1,2 @@
-  fun connect(cancellable': NullablePointer[GCancellableT], callback': GCallback, data': Pointer[None] tag, data_destroy_func': Pointer[None]): U64 =>
-    @g_cancellable_connect(cancellable', callback', data', data_destroy_func')
+  fun connect(cancellable': GCancellableI, callback': GCallback, data': Pointer[None] tag, data_destroy_func': Pointer[None]): U64 =>
+    @g_cancellable_connect(cancellable'.getptr(), callback', data', data_destroy_func')

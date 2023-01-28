@@ -1,2 +1,2 @@
-  fun ref set_cursor(path': NullablePointer[GtkTreePathT], cell': NullablePointer[GtkCellRendererT], start_editing': I32): None =>
+  fun ref set_cursor(path': NullablePointer[GtkTreePathT], cell': GtkCellRendererI, start_editing': I32): None =>
     GtkIconViewP.set_cursor(this, path', cell', start_editing')

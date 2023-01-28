@@ -1,1 +1,1 @@
-use @gtk_tree_model_get_column_type[U64](tree_model': NullablePointer[GtkTreeModelT], index': I32)
+use @gtk_tree_model_get_column_type[U64](tree_model': NullablePointer[GObjectT], index': I32)

@@ -1,2 +1,2 @@
-  fun get_child(bar': NullablePointer[GtkSearchBarT]): NullablePointer[GObjectT] =>
-@gtk_search_bar_get_child(bar')
+  fun get_child(bar': GtkSearchBarI): NullablePointer[GObjectT] =>
+@gtk_search_bar_get_child(bar'.getptr())

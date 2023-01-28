@@ -1,2 +1,2 @@
-  fun get_can_release(permission': NullablePointer[GPermissionT]): I32 =>
-    @g_permission_get_can_release(permission')
+  fun get_can_release(permission': GPermissionI): I32 =>
+    @g_permission_get_can_release(permission'.getptr())

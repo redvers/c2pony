@@ -1,1 +1,1 @@
-use @gtk_media_file_set_file[None](self': NullablePointer[GtkMediaFileT], file': NullablePointer[GFileT])
+use @gtk_media_file_set_file[None](self': NullablePointer[GObjectT], file': NullablePointer[GObjectT])

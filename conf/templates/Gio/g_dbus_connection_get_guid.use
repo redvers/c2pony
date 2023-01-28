@@ -1,1 +1,1 @@
-use @g_dbus_connection_get_guid[Pointer[U8]](connection': NullablePointer[GDBusConnectionT])
+use @g_dbus_connection_get_guid[Pointer[U8]](connection': NullablePointer[GObjectT])

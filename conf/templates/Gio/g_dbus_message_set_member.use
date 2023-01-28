@@ -1,1 +1,1 @@
-use @g_dbus_message_set_member[None](message': NullablePointer[GDBusMessageT], value': Pointer[U8] tag)
+use @g_dbus_message_set_member[None](message': NullablePointer[GObjectT], value': Pointer[U8] tag)

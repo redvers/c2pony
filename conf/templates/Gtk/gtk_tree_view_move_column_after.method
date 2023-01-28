@@ -1,2 +1,2 @@
-  fun ref move_column_after(column': NullablePointer[GtkTreeViewColumnT], base_column': NullablePointer[GtkTreeViewColumnT]): None =>
+  fun ref move_column_after(column': GtkTreeViewColumnI, base_column': GtkTreeViewColumnI): None =>
     GtkTreeViewP.move_column_after(this, column', base_column')

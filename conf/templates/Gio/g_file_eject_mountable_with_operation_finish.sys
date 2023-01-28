@@ -1,2 +1,2 @@
-  fun eject_mountable_with_operation_finish(file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_file_eject_mountable_with_operation_finish(file', result', error'.ptr)
+  fun eject_mountable_with_operation_finish(file': GFileI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_eject_mountable_with_operation_finish(file'.getptr(), result'.getptr(), error')

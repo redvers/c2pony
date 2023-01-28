@@ -1,1 +1,1 @@
-use @gtk_print_settings_get_int_with_default[I32](settings': NullablePointer[GtkPrintSettingsT], key': Pointer[U8] tag, def': I32)
+use @gtk_print_settings_get_int_with_default[I32](settings': NullablePointer[GObjectT], key': Pointer[U8] tag, def': I32)

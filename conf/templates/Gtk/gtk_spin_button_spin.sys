@@ -1,2 +1,2 @@
-  fun spin(spin_button': NullablePointer[GtkSpinButtonT], direction': U32, increment': F64): None =>
-    @gtk_spin_button_spin(spin_button', direction', increment')
+  fun spin(spin_button': GtkSpinButtonI, direction': U32, increment': F64): None =>
+    @gtk_spin_button_spin(spin_button'.getptr(), direction', increment')

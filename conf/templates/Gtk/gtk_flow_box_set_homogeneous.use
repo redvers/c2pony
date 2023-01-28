@@ -1,1 +1,1 @@
-use @gtk_flow_box_set_homogeneous[None](box': NullablePointer[GtkFlowBoxT], homogeneous': I32)
+use @gtk_flow_box_set_homogeneous[None](box': NullablePointer[GObjectT], homogeneous': I32)

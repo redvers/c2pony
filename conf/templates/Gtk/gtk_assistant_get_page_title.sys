@@ -1,2 +1,2 @@
-  fun get_page_title(assistant': NullablePointer[GtkAssistantT], page': GtkWidgetI): String iso^ =>
-    String.from_cstring(@gtk_assistant_get_page_title(assistant', page'.getptr())).clone()
+  fun get_page_title(assistant': GtkAssistantI, page': GtkWidgetI): String iso^ =>
+    String.from_cstring(@gtk_assistant_get_page_title(assistant'.getptr(), page'.getptr())).clone()

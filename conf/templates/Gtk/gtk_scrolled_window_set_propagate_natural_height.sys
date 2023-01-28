@@ -1,2 +1,2 @@
-  fun set_propagate_natural_height(scrolled_window': NullablePointer[GtkScrolledWindowT], propagate': I32): None =>
-    @gtk_scrolled_window_set_propagate_natural_height(scrolled_window', propagate')
+  fun set_propagate_natural_height(scrolled_window': GtkScrolledWindowI, propagate': I32): None =>
+    @gtk_scrolled_window_set_propagate_natural_height(scrolled_window'.getptr(), propagate')

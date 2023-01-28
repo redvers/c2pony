@@ -1,2 +1,2 @@
-  fun copy_async(source': NullablePointer[GFileT], destination': NullablePointer[GFileT], flags': U32, io_priority': I32, cancellable': NullablePointer[GCancellableT], progress_callback': GFileProgressCallback, progress_callback_data': Pointer[None] tag, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_file_copy_async(source', destination', flags', io_priority', cancellable', progress_callback', progress_callback_data', callback', user_data')
+  fun copy_async(source': GFileI, destination': GFileI, flags': U32, io_priority': I32, cancellable': GCancellableI, progress_callback': GFileProgressCallback, progress_callback_data': Pointer[None] tag, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_copy_async(source'.getptr(), destination'.getptr(), flags', io_priority', cancellable'.getptr(), progress_callback', progress_callback_data', callback', user_data')

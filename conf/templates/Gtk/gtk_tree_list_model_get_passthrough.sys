@@ -1,2 +1,2 @@
-  fun get_passthrough(self': NullablePointer[GtkTreeListModelT]): I32 =>
-    @gtk_tree_list_model_get_passthrough(self')
+  fun get_passthrough(self': GtkTreeListModelI): I32 =>
+    @gtk_tree_list_model_get_passthrough(self'.getptr())

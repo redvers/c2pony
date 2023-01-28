@@ -1,2 +1,2 @@
-  fun selected_foreach(selection': NullablePointer[GtkTreeSelectionT], func': GtkTreeSelectionForeachFunc, data': Pointer[None] tag): None =>
-    @gtk_tree_selection_selected_foreach(selection', func', data')
+  fun selected_foreach(selection': GtkTreeSelectionI, func': GtkTreeSelectionForeachFunc, data': Pointer[None] tag): None =>
+    @gtk_tree_selection_selected_foreach(selection'.getptr(), func', data')

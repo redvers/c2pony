@@ -1,1 +1,1 @@
-use @gtk_text_set_input_hints[None](self': NullablePointer[GtkTextT], hints': U32)
+use @gtk_text_set_input_hints[None](self': NullablePointer[GObjectT], hints': U32)

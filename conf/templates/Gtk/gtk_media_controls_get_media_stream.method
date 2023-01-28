@@ -1,2 +1,2 @@
-  fun ref get_media_stream(): NullablePointer[GtkMediaStreamT] =>
+  fun ref get_media_stream(): NullablePointer[GObjectT] =>
     GtkMediaControlsP.get_media_stream(this)

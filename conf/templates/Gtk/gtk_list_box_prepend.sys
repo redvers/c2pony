@@ -1,2 +1,2 @@
-  fun prepend(box': NullablePointer[GtkListBoxT], child': GtkWidgetI): None =>
-    @gtk_list_box_prepend(box', child'.getptr())
+  fun prepend(box': GtkListBoxI, child': GtkWidgetI): None =>
+    @gtk_list_box_prepend(box'.getptr(), child'.getptr())

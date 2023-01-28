@@ -1,1 +1,1 @@
-use @gtk_center_layout_set_center_widget[None](self': NullablePointer[GtkCenterLayoutT], widget': NullablePointer[GObjectT])
+use @gtk_center_layout_set_center_widget[None](self': NullablePointer[GObjectT], widget': NullablePointer[GObjectT])

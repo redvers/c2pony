@@ -1,1 +1,1 @@
-use @gtk_cell_area_cell_get_property[None](area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT], property_name': Pointer[U8] tag, value': NullablePointer[GValueT])
+use @gtk_cell_area_cell_get_property[None](area': NullablePointer[GObjectT], renderer': NullablePointer[GObjectT], property_name': Pointer[U8] tag, value': NullablePointer[GValueT])

@@ -1,1 +1,1 @@
-use @gtk_image_set_pixel_size[None](image': NullablePointer[GtkImageT], pixel_size': I32)
+use @gtk_image_set_pixel_size[None](image': NullablePointer[GObjectT], pixel_size': I32)

@@ -1,2 +1,2 @@
-  fun set_gutter(text_view': NullablePointer[GtkTextViewT], win': U32, widget': GtkWidgetI): None =>
-    @gtk_text_view_set_gutter(text_view', win', widget'.getptr())
+  fun set_gutter(text_view': GtkTextViewI, win': U32, widget': GtkWidgetI): None =>
+    @gtk_text_view_set_gutter(text_view'.getptr(), win', widget'.getptr())

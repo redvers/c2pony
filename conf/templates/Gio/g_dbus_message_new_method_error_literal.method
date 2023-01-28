@@ -1,2 +1,2 @@
-  fun ref new_method_error_literal(error_name': String, error_message': String): NullablePointer[GDBusMessageT] =>
+  fun ref new_method_error_literal(error_name': String, error_message': String): NullablePointer[GObjectT] =>
     GDBusMessageP.new_method_error_literal(this, error_name', error_message')

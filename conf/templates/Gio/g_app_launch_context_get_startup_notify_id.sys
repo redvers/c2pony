@@ -1,2 +1,2 @@
-  fun get_startup_notify_id(context': NullablePointer[GAppLaunchContextT], info': NullablePointer[GAppInfoT], files': NullablePointer[GListT]): String iso^ =>
-    String.from_cstring(@g_app_launch_context_get_startup_notify_id(context', info', files')).clone()
+  fun get_startup_notify_id(context': GAppLaunchContextI, info': GAppInfoI, files': NullablePointer[GListT]): String iso^ =>
+    String.from_cstring(@g_app_launch_context_get_startup_notify_id(context'.getptr(), info'.getptr(), files')).clone()

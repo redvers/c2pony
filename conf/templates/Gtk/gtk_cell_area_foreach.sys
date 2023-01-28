@@ -1,2 +1,2 @@
-  fun foreach(area': NullablePointer[GtkCellAreaT], callback': GtkCellCallback, callback_data': Pointer[None] tag): None =>
-    @gtk_cell_area_foreach(area', callback', callback_data')
+  fun foreach(area': GtkCellAreaI, callback': GtkCellCallback, callback_data': Pointer[None] tag): None =>
+    @gtk_cell_area_foreach(area'.getptr(), callback', callback_data')

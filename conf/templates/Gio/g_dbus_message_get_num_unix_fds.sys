@@ -1,2 +1,2 @@
-  fun get_num_unix_fds(message': NullablePointer[GDBusMessageT]): U32 =>
-    @g_dbus_message_get_num_unix_fds(message')
+  fun get_num_unix_fds(message': GDBusMessageI): U32 =>
+    @g_dbus_message_get_num_unix_fds(message'.getptr())

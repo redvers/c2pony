@@ -1,1 +1,1 @@
-use @g_proxy_connect[NullablePointer[GIOStreamT]](proxy': NullablePointer[GProxyT], connection': NullablePointer[GIOStreamT], proxy_address': NullablePointer[GProxyAddressT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_proxy_connect[NullablePointer[GObjectT]](proxy': NullablePointer[GObjectT], connection': NullablePointer[GObjectT], proxy_address': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

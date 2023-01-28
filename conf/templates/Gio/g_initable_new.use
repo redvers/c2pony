@@ -1,1 +1,1 @@
-use @g_initable_new[Pointer[None] tag](object_type': U64, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT], first_property_name': Pointer[U8] tag, ...)
+use @g_initable_new[Pointer[None] tag](object_type': U64, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]], first_property_name': Pointer[U8] tag, ...)

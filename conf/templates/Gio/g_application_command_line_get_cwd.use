@@ -1,1 +1,1 @@
-use @g_application_command_line_get_cwd[Pointer[U8]](cmdline': NullablePointer[GApplicationCommandLineT])
+use @g_application_command_line_get_cwd[Pointer[U8]](cmdline': NullablePointer[GObjectT])

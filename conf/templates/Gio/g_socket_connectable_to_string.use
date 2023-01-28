@@ -1,1 +1,1 @@
-use @g_socket_connectable_to_string[Pointer[U8]](connectable': NullablePointer[GSocketConnectableT])
+use @g_socket_connectable_to_string[Pointer[U8]](connectable': NullablePointer[GObjectT])

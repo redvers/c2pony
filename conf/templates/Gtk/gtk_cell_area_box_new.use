@@ -1,1 +1,1 @@
-use @gtk_cell_area_box_new[NullablePointer[GtkCellAreaT]]()
+use @gtk_cell_area_box_new[NullablePointer[GObjectT]]()

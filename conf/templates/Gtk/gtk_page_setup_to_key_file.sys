@@ -1,2 +1,2 @@
-  fun to_key_file(setup': NullablePointer[GtkPageSetupT], key_file': NullablePointer[GKeyFileT], group_name': String): None =>
-    @gtk_page_setup_to_key_file(setup', key_file', group_name'.cstring())
+  fun to_key_file(setup': GtkPageSetupI, key_file': NullablePointer[GKeyFileT], group_name': String): None =>
+    @gtk_page_setup_to_key_file(setup'.getptr(), key_file', group_name'.cstring())

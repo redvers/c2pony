@@ -1,2 +1,2 @@
-  fun get_wrap_license(about': NullablePointer[GtkAboutDialogT]): I32 =>
-    @gtk_about_dialog_get_wrap_license(about')
+  fun get_wrap_license(about': GtkAboutDialogI): I32 =>
+    @gtk_about_dialog_get_wrap_license(about'.getptr())

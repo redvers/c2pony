@@ -1,2 +1,2 @@
-  fun get_file_info(compressor': NullablePointer[GZlibCompressorT]): NullablePointer[GFileInfoT] =>
-    @g_zlib_compressor_get_file_info(compressor')
+  fun get_file_info(compressor': GZlibCompressorI): NullablePointer[GObjectT] =>
+@g_zlib_compressor_get_file_info(compressor'.getptr())

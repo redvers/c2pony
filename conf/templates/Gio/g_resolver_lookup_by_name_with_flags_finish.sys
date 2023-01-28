@@ -1,2 +1,2 @@
-  fun lookup_by_name_with_flags_finish(resolver': NullablePointer[GResolverT], result': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GListT] =>
-    @g_resolver_lookup_by_name_with_flags_finish(resolver', result', error'.ptr)
+  fun lookup_by_name_with_flags_finish(resolver': GResolverI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GListT] =>
+    @g_resolver_lookup_by_name_with_flags_finish(resolver'.getptr(), result'.getptr(), error')

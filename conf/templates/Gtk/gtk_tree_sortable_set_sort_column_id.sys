@@ -1,2 +1,2 @@
-  fun set_sort_column_id(sortable': NullablePointer[GtkTreeSortableT], sort_column_id': I32, order': U32): None =>
-    @gtk_tree_sortable_set_sort_column_id(sortable', sort_column_id', order')
+  fun set_sort_column_id(sortable': GtkTreeSortableI, sort_column_id': I32, order': U32): None =>
+    @gtk_tree_sortable_set_sort_column_id(sortable'.getptr(), sort_column_id', order')

@@ -1,1 +1,1 @@
-use @gtk_menu_button_set_has_frame[None](menu_button': NullablePointer[GtkMenuButtonT], has_frame': I32)
+use @gtk_menu_button_set_has_frame[None](menu_button': NullablePointer[GObjectT], has_frame': I32)

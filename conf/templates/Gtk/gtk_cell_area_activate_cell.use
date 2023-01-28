@@ -1,1 +1,1 @@
-use @gtk_cell_area_activate_cell[I32](area': NullablePointer[GtkCellAreaT], widget': NullablePointer[GObjectT], renderer': NullablePointer[GtkCellRendererT], event': NullablePointer[GdkEventT], cell_area': NullablePointer[cairorectangleintT], flags': U32)
+use @gtk_cell_area_activate_cell[I32](area': NullablePointer[GObjectT], widget': NullablePointer[GObjectT], renderer': NullablePointer[GObjectT], event': NullablePointer[GdkEventT], cell_area': NullablePointer[cairorectangleintT], flags': U32)

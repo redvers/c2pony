@@ -1,1 +1,1 @@
-use @g_file_monitor_set_rate_limit[None](monitor': NullablePointer[GFileMonitorT], limit_msecs': I32)
+use @g_file_monitor_set_rate_limit[None](monitor': NullablePointer[GObjectT], limit_msecs': I32)

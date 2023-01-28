@@ -1,1 +1,1 @@
-use @gtk_text_tag_get_priority[I32](tag': NullablePointer[GtkTextTagT])
+use @gtk_text_tag_get_priority[I32](tag': NullablePointer[GObjectT])

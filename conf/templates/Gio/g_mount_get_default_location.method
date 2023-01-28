@@ -1,2 +1,2 @@
-  fun ref get_default_location(): NullablePointer[GFileT] =>
+  fun ref get_default_location(): NullablePointer[GObjectT] =>
     GMountP.get_default_location(this)

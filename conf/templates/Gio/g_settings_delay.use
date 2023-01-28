@@ -1,1 +1,1 @@
-use @g_settings_delay[None](settings': NullablePointer[GSettingsT])
+use @g_settings_delay[None](settings': NullablePointer[GObjectT])

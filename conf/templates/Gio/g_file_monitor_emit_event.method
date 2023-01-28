@@ -1,2 +1,2 @@
-  fun ref emit_event(child': NullablePointer[GFileT], other_file': NullablePointer[GFileT], event_type': U32): None =>
+  fun ref emit_event(child': GFileI, other_file': GFileI, event_type': U32): None =>
     GFileMonitorP.emit_event(this, child', other_file', event_type')

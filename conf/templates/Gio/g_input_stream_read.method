@@ -1,2 +1,2 @@
-  fun ref read(buffer': Pointer[None] tag, count': U64, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
+  fun ref read(buffer': Pointer[None] tag, count': U64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
     GInputStreamP.read(this, buffer', count', cancellable', error')

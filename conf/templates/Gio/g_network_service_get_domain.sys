@@ -1,2 +1,2 @@
-  fun get_domain(srv': NullablePointer[GNetworkServiceT]): String iso^ =>
-    String.from_cstring(@g_network_service_get_domain(srv')).clone()
+  fun get_domain(srv': GNetworkServiceI): String iso^ =>
+    String.from_cstring(@g_network_service_get_domain(srv'.getptr())).clone()

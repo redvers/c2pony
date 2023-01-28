@@ -1,2 +1,2 @@
-  fun set_value(settings': NullablePointer[GSettingsT], key': String, value': NullablePointer[GVariantT]): I32 =>
-    @g_settings_set_value(settings', key'.cstring(), value')
+  fun set_value(settings': GSettingsI, key': String, value': NullablePointer[GVariantT]): I32 =>
+    @g_settings_set_value(settings'.getptr(), key'.cstring(), value')

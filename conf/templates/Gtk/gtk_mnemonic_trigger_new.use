@@ -1,1 +1,1 @@
-use @gtk_mnemonic_trigger_new[NullablePointer[GtkShortcutTriggerT]](keyval': U32)
+use @gtk_mnemonic_trigger_new[NullablePointer[GObjectT]](keyval': U32)

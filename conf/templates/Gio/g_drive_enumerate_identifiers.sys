@@ -1,2 +1,2 @@
-  fun enumerate_identifiers(drive': NullablePointer[GDriveT]): Pointer[Pointer[U8]] tag =>
-    @g_drive_enumerate_identifiers(drive')
+  fun enumerate_identifiers(drive': GDriveI): Pointer[Pointer[U8]] tag =>
+    @g_drive_enumerate_identifiers(drive'.getptr())

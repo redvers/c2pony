@@ -1,2 +1,2 @@
-  fun get_website(about': NullablePointer[GtkAboutDialogT]): String iso^ =>
-    String.from_cstring(@gtk_about_dialog_get_website(about')).clone()
+  fun get_website(about': GtkAboutDialogI): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_website(about'.getptr())).clone()

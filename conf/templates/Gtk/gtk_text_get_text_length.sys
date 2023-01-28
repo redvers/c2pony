@@ -1,2 +1,2 @@
-  fun get_text_length(self': NullablePointer[GtkTextT]): U16 =>
-    @gtk_text_get_text_length(self')
+  fun get_text_length(self': GtkTextI): U16 =>
+    @gtk_text_get_text_length(self'.getptr())

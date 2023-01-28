@@ -1,1 +1,1 @@
-use @g_socket_control_message_get_size[U64](message': NullablePointer[GSocketControlMessageT])
+use @g_socket_control_message_get_size[U64](message': NullablePointer[GObjectT])

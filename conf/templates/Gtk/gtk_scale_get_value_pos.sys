@@ -1,2 +1,2 @@
-  fun get_value_pos(scale': NullablePointer[GtkScaleT]): U32 =>
-    @gtk_scale_get_value_pos(scale')
+  fun get_value_pos(scale': GtkScaleI): U32 =>
+    @gtk_scale_get_value_pos(scale'.getptr())

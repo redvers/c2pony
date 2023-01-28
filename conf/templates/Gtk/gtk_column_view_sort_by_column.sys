@@ -1,2 +1,2 @@
-  fun sort_by_column(self': NullablePointer[GtkColumnViewT], column': NullablePointer[GtkColumnViewColumnT], direction': U32): None =>
-    @gtk_column_view_sort_by_column(self', column', direction')
+  fun sort_by_column(self': GtkColumnViewI, column': GtkColumnViewColumnI, direction': U32): None =>
+    @gtk_column_view_sort_by_column(self'.getptr(), column'.getptr(), direction')

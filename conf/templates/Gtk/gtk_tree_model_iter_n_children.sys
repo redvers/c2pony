@@ -1,2 +1,2 @@
-  fun iter_n_children(tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT]): I32 =>
-    @gtk_tree_model_iter_n_children(tree_model', iter')
+  fun iter_n_children(tree_model': GtkTreeModelI, iter': NullablePointer[GtkTreeIterT]): I32 =>
+    @gtk_tree_model_iter_n_children(tree_model'.getptr(), iter')

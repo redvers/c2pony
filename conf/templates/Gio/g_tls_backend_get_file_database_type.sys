@@ -1,2 +1,2 @@
-  fun get_file_database_type(backend': NullablePointer[GTlsBackendT]): U64 =>
-    @g_tls_backend_get_file_database_type(backend')
+  fun get_file_database_type(backend': GTlsBackendI): U64 =>
+    @g_tls_backend_get_file_database_type(backend'.getptr())

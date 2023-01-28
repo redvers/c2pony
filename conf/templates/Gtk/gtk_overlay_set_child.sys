@@ -1,2 +1,2 @@
-  fun set_child(overlay': NullablePointer[GtkOverlayT], child': GtkWidgetI): None =>
-    @gtk_overlay_set_child(overlay', child'.getptr())
+  fun set_child(overlay': GtkOverlayI, child': GtkWidgetI): None =>
+    @gtk_overlay_set_child(overlay'.getptr(), child'.getptr())

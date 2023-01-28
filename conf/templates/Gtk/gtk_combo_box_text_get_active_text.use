@@ -1,1 +1,1 @@
-use @gtk_combo_box_text_get_active_text[Pointer[U8]](combo_box': NullablePointer[GtkComboBoxTextT])
+use @gtk_combo_box_text_get_active_text[Pointer[U8]](combo_box': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_font_chooser_set_preview_text[None](fontchooser': NullablePointer[GtkFontChooserT], text': Pointer[U8] tag)
+use @gtk_font_chooser_set_preview_text[None](fontchooser': NullablePointer[GObjectT], text': Pointer[U8] tag)

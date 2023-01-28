@@ -1,1 +1,1 @@
-use @gtk_expression_get_value_type[U64](self': NullablePointer[GtkExpressionT])
+use @gtk_expression_get_value_type[U64](self': NullablePointer[GObjectT])

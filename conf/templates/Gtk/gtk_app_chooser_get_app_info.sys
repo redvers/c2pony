@@ -1,2 +1,2 @@
-  fun get_app_info(self': NullablePointer[GtkAppChooserT]): NullablePointer[GAppInfoT] =>
-    @gtk_app_chooser_get_app_info(self')
+  fun get_app_info(self': GtkAppChooserI): NullablePointer[GObjectT] =>
+@gtk_app_chooser_get_app_info(self'.getptr())

@@ -1,1 +1,1 @@
-use @g_notification_set_default_action_and_target_value[None](notification': NullablePointer[GNotificationT], action': Pointer[U8] tag, target': NullablePointer[GVariantT])
+use @g_notification_set_default_action_and_target_value[None](notification': NullablePointer[GObjectT], action': Pointer[U8] tag, target': NullablePointer[GVariantT])

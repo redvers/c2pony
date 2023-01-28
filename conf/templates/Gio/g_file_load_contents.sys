@@ -1,2 +1,2 @@
-  fun load_contents(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], contents': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, etag_out': Pointer[Pointer[U8]] tag, error': GError): I32 =>
-    @g_file_load_contents(file', cancellable', contents', length', etag_out', error'.ptr)
+  fun load_contents(file': GFileI, cancellable': GCancellableI, contents': Pointer[Pointer[U8]] tag, length': Pointer[U64] tag, etag_out': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_load_contents(file'.getptr(), cancellable'.getptr(), contents', length', etag_out', error')

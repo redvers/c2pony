@@ -1,1 +1,1 @@
-use @g_drive_stop_finish[I32](drive': NullablePointer[GDriveT], result': NullablePointer[GAsyncResultT], error': NullablePointer[GErrorT])
+use @g_drive_stop_finish[I32](drive': NullablePointer[GObjectT], result': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

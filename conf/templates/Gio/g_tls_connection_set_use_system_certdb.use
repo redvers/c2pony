@@ -1,1 +1,1 @@
-use @g_tls_connection_set_use_system_certdb[None](conn': NullablePointer[GTlsConnectionT], use_system_certdb': I32)
+use @g_tls_connection_set_use_system_certdb[None](conn': NullablePointer[GObjectT], use_system_certdb': I32)

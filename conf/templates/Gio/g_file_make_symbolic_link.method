@@ -1,2 +1,2 @@
-  fun ref make_symbolic_link(symlink_value': String, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref make_symbolic_link(symlink_value': String, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.make_symbolic_link(this, symlink_value', cancellable', error')

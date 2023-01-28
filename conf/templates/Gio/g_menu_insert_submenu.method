@@ -1,2 +1,2 @@
-  fun ref insert_submenu(position': I32, label': String, submenu': NullablePointer[GMenuModelT]): None =>
+  fun ref insert_submenu(position': I32, label': String, submenu': GMenuModelI): None =>
     GMenuP.insert_submenu(this, position', label', submenu')

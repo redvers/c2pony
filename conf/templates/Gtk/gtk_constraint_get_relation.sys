@@ -1,2 +1,2 @@
-  fun get_relation(constraint': NullablePointer[GtkConstraintT]): I32 =>
-    @gtk_constraint_get_relation(constraint')
+  fun get_relation(constraint': GtkConstraintI): I32 =>
+    @gtk_constraint_get_relation(constraint'.getptr())

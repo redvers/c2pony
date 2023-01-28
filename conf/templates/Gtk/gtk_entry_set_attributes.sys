@@ -1,2 +1,2 @@
-  fun set_attributes(entry': NullablePointer[GtkEntryT], attrs': NullablePointer[PangoAttrListT]): None =>
-    @gtk_entry_set_attributes(entry', attrs')
+  fun set_attributes(entry': GtkEntryI, attrs': NullablePointer[PangoAttrListT]): None =>
+    @gtk_entry_set_attributes(entry'.getptr(), attrs')

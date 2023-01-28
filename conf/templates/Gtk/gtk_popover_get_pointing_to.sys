@@ -1,2 +1,2 @@
-  fun get_pointing_to(popover': NullablePointer[GtkPopoverT], rect': NullablePointer[cairorectangleintT]): I32 =>
-    @gtk_popover_get_pointing_to(popover', rect')
+  fun get_pointing_to(popover': GtkPopoverI, rect': NullablePointer[cairorectangleintT]): I32 =>
+    @gtk_popover_get_pointing_to(popover'.getptr(), rect')

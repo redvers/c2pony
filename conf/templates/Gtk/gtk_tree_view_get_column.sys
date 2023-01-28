@@ -1,2 +1,2 @@
-  fun get_column(tree_view': NullablePointer[GtkTreeViewT], n': I32): NullablePointer[GtkTreeViewColumnT] =>
-    @gtk_tree_view_get_column(tree_view', n')
+  fun get_column(tree_view': GtkTreeViewI, n': I32): NullablePointer[GObjectT] =>
+@gtk_tree_view_get_column(tree_view'.getptr(), n')

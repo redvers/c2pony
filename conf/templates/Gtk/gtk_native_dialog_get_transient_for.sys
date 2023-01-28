@@ -1,2 +1,2 @@
-  fun get_transient_for(self': NullablePointer[GtkNativeDialogT]): NullablePointer[GObjectT] =>
-@gtk_native_dialog_get_transient_for(self')
+  fun get_transient_for(self': GtkNativeDialogI): NullablePointer[GObjectT] =>
+@gtk_native_dialog_get_transient_for(self'.getptr())

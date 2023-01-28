@@ -1,2 +1,2 @@
-  fun set_show_fill_level(range': NullablePointer[GtkRangeT], show_fill_level': I32): None =>
-    @gtk_range_set_show_fill_level(range', show_fill_level')
+  fun set_show_fill_level(range': GtkRangeI, show_fill_level': I32): None =>
+    @gtk_range_set_show_fill_level(range'.getptr(), show_fill_level')

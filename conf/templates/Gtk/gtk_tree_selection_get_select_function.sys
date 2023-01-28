@@ -1,2 +1,2 @@
-  fun get_select_function(selection': NullablePointer[GtkTreeSelectionT]): GtkTreeSelectionFunc =>
-    @gtk_tree_selection_get_select_function(selection')
+  fun get_select_function(selection': GtkTreeSelectionI): GtkTreeSelectionFunc =>
+    @gtk_tree_selection_get_select_function(selection'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_color_chooser_set_rgba[None](chooser': NullablePointer[GtkColorChooserT], color': NullablePointer[GdkRGBAT])
+use @gtk_color_chooser_set_rgba[None](chooser': NullablePointer[GObjectT], color': NullablePointer[GdkRGBAT])

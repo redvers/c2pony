@@ -1,1 +1,1 @@
-use @gtk_entry_get_icon_tooltip_text[Pointer[U8]](entry': NullablePointer[GtkEntryT], icon_pos': U32)
+use @gtk_entry_get_icon_tooltip_text[Pointer[U8]](entry': NullablePointer[GObjectT], icon_pos': U32)

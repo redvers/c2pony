@@ -1,2 +1,2 @@
-  fun get_if_signaled(subprocess': NullablePointer[GSubprocessT]): I32 =>
-    @g_subprocess_get_if_signaled(subprocess')
+  fun get_if_signaled(subprocess': GSubprocessI): I32 =>
+    @g_subprocess_get_if_signaled(subprocess'.getptr())

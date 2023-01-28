@@ -1,1 +1,1 @@
-use @gtk_cell_renderer_set_is_expander[None](cell': NullablePointer[GtkCellRendererT], is_expander': I32)
+use @gtk_cell_renderer_set_is_expander[None](cell': NullablePointer[GObjectT], is_expander': I32)

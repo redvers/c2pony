@@ -1,2 +1,2 @@
-  fun get_is_remote(cmdline': NullablePointer[GApplicationCommandLineT]): I32 =>
-    @g_application_command_line_get_is_remote(cmdline')
+  fun get_is_remote(cmdline': GApplicationCommandLineI): I32 =>
+    @g_application_command_line_get_is_remote(cmdline'.getptr())

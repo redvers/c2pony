@@ -1,2 +1,2 @@
-  fun ref get_stdin(): NullablePointer[GInputStreamT] =>
+  fun ref get_stdin(): NullablePointer[GObjectT] =>
     GApplicationCommandLineP.get_stdin(this)

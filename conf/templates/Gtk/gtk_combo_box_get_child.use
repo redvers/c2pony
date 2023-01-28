@@ -1,1 +1,1 @@
-use @gtk_combo_box_get_child[NullablePointer[GObjectT]](combo_box': NullablePointer[GtkComboBoxT])
+use @gtk_combo_box_get_child[NullablePointer[GObjectT]](combo_box': NullablePointer[GObjectT])

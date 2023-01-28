@@ -1,1 +1,1 @@
-use @gtk_check_button_set_group[None](self': NullablePointer[GtkCheckButtonT], group': NullablePointer[GtkCheckButtonT])
+use @gtk_check_button_set_group[None](self': NullablePointer[GObjectT], group': NullablePointer[GObjectT])

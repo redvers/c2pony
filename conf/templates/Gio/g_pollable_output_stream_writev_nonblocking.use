@@ -1,1 +1,1 @@
-use @g_pollable_output_stream_writev_nonblocking[I32](stream': NullablePointer[GPollableOutputStreamT], vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_pollable_output_stream_writev_nonblocking[I32](stream': NullablePointer[GObjectT], vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

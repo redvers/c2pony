@@ -1,2 +1,2 @@
-  fun get_column_spacing(icon_view': NullablePointer[GtkIconViewT]): I32 =>
-    @gtk_icon_view_get_column_spacing(icon_view')
+  fun get_column_spacing(icon_view': GtkIconViewI): I32 =>
+    @gtk_icon_view_get_column_spacing(icon_view'.getptr())

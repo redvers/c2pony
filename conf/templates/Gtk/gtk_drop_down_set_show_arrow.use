@@ -1,1 +1,1 @@
-use @gtk_drop_down_set_show_arrow[None](self': NullablePointer[GtkDropDownT], show_arrow': I32)
+use @gtk_drop_down_set_show_arrow[None](self': NullablePointer[GObjectT], show_arrow': I32)

@@ -1,1 +1,1 @@
-use @g_tls_interaction_request_certificate_async[None](interaction': NullablePointer[GTlsInteractionT], connection': NullablePointer[GTlsConnectionT], flags': U32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_tls_interaction_request_certificate_async[None](interaction': NullablePointer[GObjectT], connection': NullablePointer[GObjectT], flags': U32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

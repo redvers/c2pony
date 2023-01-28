@@ -1,2 +1,2 @@
-  fun get_page(stack': NullablePointer[GtkStackT], child': GtkWidgetI): NullablePointer[GtkStackPageT] =>
-    @gtk_stack_get_page(stack', child'.getptr())
+  fun get_page(stack': GtkStackI, child': GtkWidgetI): NullablePointer[GObjectT] =>
+@gtk_stack_get_page(stack'.getptr(), child'.getptr())

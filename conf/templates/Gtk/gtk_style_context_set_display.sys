@@ -1,2 +1,2 @@
-  fun set_display(context': NullablePointer[GtkStyleContextT], display': NullablePointer[GdkDisplayT]): None =>
-    @gtk_style_context_set_display(context', display')
+  fun set_display(context': GtkStyleContextI, display': NullablePointer[GdkDisplayT]): None =>
+    @gtk_style_context_set_display(context'.getptr(), display')

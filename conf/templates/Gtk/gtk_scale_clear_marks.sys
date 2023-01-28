@@ -1,2 +1,2 @@
-  fun clear_marks(scale': NullablePointer[GtkScaleT]): None =>
-    @gtk_scale_clear_marks(scale')
+  fun clear_marks(scale': GtkScaleI): None =>
+    @gtk_scale_clear_marks(scale'.getptr())

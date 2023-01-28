@@ -1,2 +1,2 @@
-  fun expand_to_path(tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT]): None =>
-    @gtk_tree_view_expand_to_path(tree_view', path')
+  fun expand_to_path(tree_view': GtkTreeViewI, path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_tree_view_expand_to_path(tree_view'.getptr(), path')

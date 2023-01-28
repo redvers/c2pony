@@ -1,1 +1,1 @@
-use @gtk_tree_selection_get_selected_rows[NullablePointer[GListT]](selection': NullablePointer[GtkTreeSelectionT], model': Pointer[NullablePointer[GtkTreeModelT]])
+use @gtk_tree_selection_get_selected_rows[NullablePointer[GListT]](selection': NullablePointer[GObjectT], model': Pointer[NullablePointer[GtkTreeModelT]])

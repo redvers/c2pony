@@ -1,2 +1,2 @@
-  fun ref get_page_setup(): NullablePointer[GtkPageSetupT] =>
+  fun ref get_page_setup(): NullablePointer[GObjectT] =>
     GtkPrintContextP.get_page_setup(this)

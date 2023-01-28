@@ -1,2 +1,2 @@
-  fun popdown(popover': NullablePointer[GtkPopoverT]): None =>
-    @gtk_popover_popdown(popover')
+  fun popdown(popover': GtkPopoverI): None =>
+    @gtk_popover_popdown(popover'.getptr())

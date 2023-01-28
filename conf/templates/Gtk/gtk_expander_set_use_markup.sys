@@ -1,2 +1,2 @@
-  fun set_use_markup(expander': NullablePointer[GtkExpanderT], use_markup': I32): None =>
-    @gtk_expander_set_use_markup(expander', use_markup')
+  fun set_use_markup(expander': GtkExpanderI, use_markup': I32): None =>
+    @gtk_expander_set_use_markup(expander'.getptr(), use_markup')

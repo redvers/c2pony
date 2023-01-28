@@ -1,1 +1,1 @@
-use @gtk_font_chooser_set_level[None](fontchooser': NullablePointer[GtkFontChooserT], level': U32)
+use @gtk_font_chooser_set_level[None](fontchooser': NullablePointer[GObjectT], level': U32)

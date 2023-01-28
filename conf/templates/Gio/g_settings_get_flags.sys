@@ -1,2 +1,2 @@
-  fun get_flags(settings': NullablePointer[GSettingsT], key': String): U32 =>
-    @g_settings_get_flags(settings', key'.cstring())
+  fun get_flags(settings': GSettingsI, key': String): U32 =>
+    @g_settings_get_flags(settings'.getptr(), key'.cstring())

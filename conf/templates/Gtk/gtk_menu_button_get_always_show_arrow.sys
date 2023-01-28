@@ -1,2 +1,2 @@
-  fun get_always_show_arrow(menu_button': NullablePointer[GtkMenuButtonT]): I32 =>
-    @gtk_menu_button_get_always_show_arrow(menu_button')
+  fun get_always_show_arrow(menu_button': GtkMenuButtonI): I32 =>
+    @gtk_menu_button_get_always_show_arrow(menu_button'.getptr())

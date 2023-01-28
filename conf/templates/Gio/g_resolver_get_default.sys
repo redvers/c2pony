@@ -1,2 +1,2 @@
-  fun get_default(): NullablePointer[GResolverT] =>
-    @g_resolver_get_default()
+  fun get_default(): NullablePointer[GObjectT] =>
+@g_resolver_get_default()

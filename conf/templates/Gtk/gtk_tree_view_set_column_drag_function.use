@@ -1,1 +1,1 @@
-use @gtk_tree_view_set_column_drag_function[None](tree_view': NullablePointer[GtkTreeViewT], func': GtkTreeViewColumnDropFunc, user_data': Pointer[None] tag, destroy': Pointer[None])
+use @gtk_tree_view_set_column_drag_function[None](tree_view': NullablePointer[GObjectT], func': GtkTreeViewColumnDropFunc, user_data': Pointer[None] tag, destroy': Pointer[None])

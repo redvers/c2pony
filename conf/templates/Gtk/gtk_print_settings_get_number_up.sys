@@ -1,2 +1,2 @@
-  fun get_number_up(settings': NullablePointer[GtkPrintSettingsT]): I32 =>
-    @gtk_print_settings_get_number_up(settings')
+  fun get_number_up(settings': GtkPrintSettingsI): I32 =>
+    @gtk_print_settings_get_number_up(settings'.getptr())

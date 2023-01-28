@@ -1,1 +1,1 @@
-use @g_dbus_connection_signal_unsubscribe[None](connection': NullablePointer[GDBusConnectionT], subscription_id': U32)
+use @g_dbus_connection_signal_unsubscribe[None](connection': NullablePointer[GObjectT], subscription_id': U32)

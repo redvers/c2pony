@@ -1,1 +1,1 @@
-use @gtk_dialog_add_action_widget[None](dialog': NullablePointer[GtkDialogT], child': NullablePointer[GObjectT], response_id': I32)
+use @gtk_dialog_add_action_widget[None](dialog': NullablePointer[GObjectT], child': NullablePointer[GObjectT], response_id': I32)

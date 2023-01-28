@@ -1,1 +1,1 @@
-use @gtk_text_buffer_get_tag_table[NullablePointer[GtkTextTagTableT]](buffer': NullablePointer[GtkTextBufferT])
+use @gtk_text_buffer_get_tag_table[NullablePointer[GObjectT]](buffer': NullablePointer[GObjectT])

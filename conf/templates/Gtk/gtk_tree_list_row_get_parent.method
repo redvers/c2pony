@@ -1,2 +1,2 @@
-  fun ref get_parent(): NullablePointer[GtkTreeListRowT] =>
+  fun ref get_parent(): NullablePointer[GObjectT] =>
     GtkTreeListRowP.get_parent(this)

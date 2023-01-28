@@ -1,1 +1,1 @@
-use @gtk_drop_down_set_expression[None](self': NullablePointer[GtkDropDownT], expression': NullablePointer[GtkExpressionT])
+use @gtk_drop_down_set_expression[None](self': NullablePointer[GObjectT], expression': NullablePointer[GObjectT])

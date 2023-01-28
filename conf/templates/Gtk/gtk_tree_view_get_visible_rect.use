@@ -1,1 +1,1 @@
-use @gtk_tree_view_get_visible_rect[None](tree_view': NullablePointer[GtkTreeViewT], visible_rect': NullablePointer[cairorectangleintT])
+use @gtk_tree_view_get_visible_rect[None](tree_view': NullablePointer[GObjectT], visible_rect': NullablePointer[cairorectangleintT])

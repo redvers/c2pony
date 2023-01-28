@@ -1,1 +1,1 @@
-use @g_initable_init[I32](initable': NullablePointer[GInitableT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_initable_init[I32](initable': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

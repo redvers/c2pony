@@ -1,2 +1,2 @@
-  fun ref add_provider(provider': NullablePointer[GtkStyleProviderT], priority': U32): None =>
+  fun ref add_provider(provider': GtkStyleProviderI, priority': U32): None =>
     GtkStyleContextP.add_provider(this, provider', priority')

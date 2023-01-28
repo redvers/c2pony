@@ -1,2 +1,2 @@
-  fun set_page_complete(assistant': NullablePointer[GtkAssistantT], page': GtkWidgetI, complete': I32): None =>
-    @gtk_assistant_set_page_complete(assistant', page'.getptr(), complete')
+  fun set_page_complete(assistant': GtkAssistantI, page': GtkWidgetI, complete': I32): None =>
+    @gtk_assistant_set_page_complete(assistant'.getptr(), page'.getptr(), complete')

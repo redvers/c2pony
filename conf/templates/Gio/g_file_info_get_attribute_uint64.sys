@@ -1,2 +1,2 @@
-  fun get_attribute_uint64(info': NullablePointer[GFileInfoT], attribute': String): U64 =>
-    @g_file_info_get_attribute_uint64(info', attribute'.cstring())
+  fun get_attribute_uint64(info': GFileInfoI, attribute': String): U64 =>
+    @g_file_info_get_attribute_uint64(info'.getptr(), attribute'.cstring())

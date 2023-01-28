@@ -1,2 +1,2 @@
-  fun set_width_chars(editable': NullablePointer[GtkEditableT], n_chars': I32): None =>
-    @gtk_editable_set_width_chars(editable', n_chars')
+  fun set_width_chars(editable': GtkEditableI, n_chars': I32): None =>
+    @gtk_editable_set_width_chars(editable'.getptr(), n_chars')

@@ -1,1 +1,1 @@
-use @gtk_gl_area_set_error[None](area': NullablePointer[GtkGLAreaT], error': NullablePointer[GErrorT])
+use @gtk_gl_area_set_error[None](area': NullablePointer[GObjectT], error': NullablePointer[GErrorT])

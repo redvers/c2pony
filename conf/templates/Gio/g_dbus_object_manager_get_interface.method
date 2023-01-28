@@ -1,2 +1,2 @@
-  fun ref get_interface(object_path': String, interface_name': String): NullablePointer[GDBusInterfaceT] =>
+  fun ref get_interface(object_path': String, interface_name': String): NullablePointer[GObjectT] =>
     GDBusObjectManagerP.get_interface(this, object_path', interface_name')

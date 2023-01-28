@@ -1,2 +1,2 @@
-  fun set_tooltip_row(tree_view': NullablePointer[GtkTreeViewT], tooltip': NullablePointer[GtkTooltipT], path': NullablePointer[GtkTreePathT]): None =>
-    @gtk_tree_view_set_tooltip_row(tree_view', tooltip', path')
+  fun set_tooltip_row(tree_view': GtkTreeViewI, tooltip': GtkTooltipI, path': NullablePointer[GtkTreePathT]): None =>
+    @gtk_tree_view_set_tooltip_row(tree_view'.getptr(), tooltip'.getptr(), path')

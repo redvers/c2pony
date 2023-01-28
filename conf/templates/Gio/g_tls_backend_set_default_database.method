@@ -1,2 +1,2 @@
-  fun ref set_default_database(database': NullablePointer[GTlsDatabaseT]): None =>
+  fun ref set_default_database(database': GTlsDatabaseI): None =>
     GTlsBackendP.set_default_database(this, database')

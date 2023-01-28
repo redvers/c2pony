@@ -1,2 +1,2 @@
-  fun set_active(self': NullablePointer[GtkCheckButtonT], setting': I32): None =>
-    @gtk_check_button_set_active(self', setting')
+  fun set_active(self': GtkCheckButtonI, setting': I32): None =>
+    @gtk_check_button_set_active(self'.getptr(), setting')

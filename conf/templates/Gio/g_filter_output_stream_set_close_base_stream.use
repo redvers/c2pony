@@ -1,1 +1,1 @@
-use @g_filter_output_stream_set_close_base_stream[None](stream': NullablePointer[GFilterOutputStreamT], close_base': I32)
+use @g_filter_output_stream_set_close_base_stream[None](stream': NullablePointer[GObjectT], close_base': I32)

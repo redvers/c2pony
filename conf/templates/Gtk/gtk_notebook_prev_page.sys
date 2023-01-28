@@ -1,2 +1,2 @@
-  fun prev_page(notebook': NullablePointer[GtkNotebookT]): None =>
-    @gtk_notebook_prev_page(notebook')
+  fun prev_page(notebook': GtkNotebookI): None =>
+    @gtk_notebook_prev_page(notebook'.getptr())

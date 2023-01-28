@@ -1,2 +1,2 @@
-  fun attach_buffers(area': NullablePointer[GtkGLAreaT]): None =>
-    @gtk_gl_area_attach_buffers(area')
+  fun attach_buffers(area': GtkGLAreaI): None =>
+    @gtk_gl_area_attach_buffers(area'.getptr())

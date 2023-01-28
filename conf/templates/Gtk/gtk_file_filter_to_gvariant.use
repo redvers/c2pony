@@ -1,1 +1,1 @@
-use @gtk_file_filter_to_gvariant[NullablePointer[GVariantT]](filter': NullablePointer[GtkFileFilterT])
+use @gtk_file_filter_to_gvariant[NullablePointer[GVariantT]](filter': NullablePointer[GObjectT])

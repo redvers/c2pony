@@ -1,1 +1,1 @@
-use @gtk_button_get_child[NullablePointer[GObjectT]](button': NullablePointer[GtkButtonT])
+use @gtk_button_get_child[NullablePointer[GObjectT]](button': NullablePointer[GObjectT])

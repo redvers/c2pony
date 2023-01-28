@@ -1,2 +1,2 @@
-  fun unselect_all(box': NullablePointer[GtkListBoxT]): None =>
-    @gtk_list_box_unselect_all(box')
+  fun unselect_all(box': GtkListBoxI): None =>
+    @gtk_list_box_unselect_all(box'.getptr())

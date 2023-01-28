@@ -1,1 +1,1 @@
-use @gtk_text_view_get_ltr_context[NullablePointer[PangoContextT]](text_view': NullablePointer[GtkTextViewT])
+use @gtk_text_view_get_ltr_context[NullablePointer[PangoContextT]](text_view': NullablePointer[GObjectT])

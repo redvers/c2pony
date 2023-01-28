@@ -1,1 +1,1 @@
-use @g_dbus_method_invocation_return_dbus_error[None](invocation': NullablePointer[GDBusMethodInvocationT], error_name': Pointer[U8] tag, error_message': Pointer[U8] tag)
+use @g_dbus_method_invocation_return_dbus_error[None](invocation': NullablePointer[GObjectT], error_name': Pointer[U8] tag, error_message': Pointer[U8] tag)

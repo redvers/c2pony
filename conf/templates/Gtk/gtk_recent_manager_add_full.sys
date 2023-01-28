@@ -1,2 +1,2 @@
-  fun add_full(manager': NullablePointer[GtkRecentManagerT], uri': String, recent_data': NullablePointer[GtkRecentDataT]): I32 =>
-    @gtk_recent_manager_add_full(manager', uri'.cstring(), recent_data')
+  fun add_full(manager': GtkRecentManagerI, uri': String, recent_data': NullablePointer[GtkRecentDataT]): I32 =>
+    @gtk_recent_manager_add_full(manager'.getptr(), uri'.cstring(), recent_data')

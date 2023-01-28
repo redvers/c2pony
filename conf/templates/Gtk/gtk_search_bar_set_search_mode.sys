@@ -1,2 +1,2 @@
-  fun set_search_mode(bar': NullablePointer[GtkSearchBarT], search_mode': I32): None =>
-    @gtk_search_bar_set_search_mode(bar', search_mode')
+  fun set_search_mode(bar': GtkSearchBarI, search_mode': I32): None =>
+    @gtk_search_bar_set_search_mode(bar'.getptr(), search_mode')

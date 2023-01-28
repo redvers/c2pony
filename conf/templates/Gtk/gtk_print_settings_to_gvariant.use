@@ -1,1 +1,1 @@
-use @gtk_print_settings_to_gvariant[NullablePointer[GVariantT]](settings': NullablePointer[GtkPrintSettingsT])
+use @gtk_print_settings_to_gvariant[NullablePointer[GVariantT]](settings': NullablePointer[GObjectT])

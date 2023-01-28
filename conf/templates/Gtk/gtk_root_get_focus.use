@@ -1,1 +1,1 @@
-use @gtk_root_get_focus[NullablePointer[GObjectT]](self': NullablePointer[GtkRootT])
+use @gtk_root_get_focus[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun set_enable_undo(editable': NullablePointer[GtkEditableT], enable_undo': I32): None =>
-    @gtk_editable_set_enable_undo(editable', enable_undo')
+  fun set_enable_undo(editable': GtkEditableI, enable_undo': I32): None =>
+    @gtk_editable_set_enable_undo(editable'.getptr(), enable_undo')

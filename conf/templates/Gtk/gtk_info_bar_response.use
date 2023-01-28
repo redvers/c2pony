@@ -1,1 +1,1 @@
-use @gtk_info_bar_response[None](info_bar': NullablePointer[GtkInfoBarT], response_id': I32)
+use @gtk_info_bar_response[None](info_bar': NullablePointer[GObjectT], response_id': I32)

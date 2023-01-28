@@ -1,2 +1,2 @@
-  fun clear_cache(filter': NullablePointer[GtkTreeModelFilterT]): None =>
-    @gtk_tree_model_filter_clear_cache(filter')
+  fun clear_cache(filter': GtkTreeModelFilterI): None =>
+    @gtk_tree_model_filter_clear_cache(filter'.getptr())

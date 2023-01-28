@@ -1,2 +1,2 @@
-  fun get_baseline_position(box': NullablePointer[GtkBoxT]): U32 =>
-    @gtk_box_get_baseline_position(box')
+  fun get_baseline_position(box': GtkBoxI): U32 =>
+    @gtk_box_get_baseline_position(box'.getptr())

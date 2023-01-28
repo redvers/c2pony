@@ -1,1 +1,1 @@
-use @gtk_cell_renderer_spin_new[NullablePointer[GtkCellRendererT]]()
+use @gtk_cell_renderer_spin_new[NullablePointer[GObjectT]]()

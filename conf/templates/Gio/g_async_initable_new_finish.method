@@ -1,2 +1,2 @@
-  fun ref new_finish(res': NullablePointer[GAsyncResultT], error': GError): NullablePointer[GObjectT] =>
+  fun ref new_finish(res': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
     GAsyncInitableP.new_finish(this, res', error')

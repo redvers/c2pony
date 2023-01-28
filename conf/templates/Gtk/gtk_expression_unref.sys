@@ -1,2 +1,2 @@
-  fun unref(self': NullablePointer[GtkExpressionT]): None =>
-    @gtk_expression_unref(self')
+  fun unref(self': GtkExpressionI): None =>
+    @gtk_expression_unref(self'.getptr())

@@ -1,2 +1,2 @@
-  fun set_body(message': NullablePointer[GDBusMessageT], body': NullablePointer[GVariantT]): None =>
-    @g_dbus_message_set_body(message', body')
+  fun set_body(message': GDBusMessageI, body': NullablePointer[GVariantT]): None =>
+    @g_dbus_message_set_body(message'.getptr(), body')

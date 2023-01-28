@@ -1,1 +1,1 @@
-use @gtk_print_operation_set_track_print_status[None](op': NullablePointer[GtkPrintOperationT], track_status': I32)
+use @gtk_print_operation_set_track_print_status[None](op': NullablePointer[GObjectT], track_status': I32)

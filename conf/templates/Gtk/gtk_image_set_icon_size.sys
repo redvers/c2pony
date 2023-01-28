@@ -1,2 +1,2 @@
-  fun set_icon_size(image': NullablePointer[GtkImageT], icon_size': U32): None =>
-    @gtk_image_set_icon_size(image', icon_size')
+  fun set_icon_size(image': GtkImageI, icon_size': U32): None =>
+    @gtk_image_set_icon_size(image'.getptr(), icon_size')

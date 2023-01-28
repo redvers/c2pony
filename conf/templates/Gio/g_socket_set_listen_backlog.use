@@ -1,1 +1,1 @@
-use @g_socket_set_listen_backlog[None](socket': NullablePointer[GSocketT], backlog': I32)
+use @g_socket_set_listen_backlog[None](socket': NullablePointer[GObjectT], backlog': I32)

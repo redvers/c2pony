@@ -1,2 +1,2 @@
-  fun load_bytes_async(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_file_load_bytes_async(file', cancellable', callback', user_data')
+  fun load_bytes_async(file': GFileI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_file_load_bytes_async(file'.getptr(), cancellable'.getptr(), callback', user_data')

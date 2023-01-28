@@ -1,2 +1,2 @@
-  fun add_interface(object': NullablePointer[GDBusObjectSkeletonT], interface': NullablePointer[GDBusInterfaceSkeletonT]): None =>
-    @g_dbus_object_skeleton_add_interface(object', interface')
+  fun add_interface(object': GDBusObjectSkeletonI, interface': GDBusInterfaceSkeletonI): None =>
+    @g_dbus_object_skeleton_add_interface(object'.getptr(), interface'.getptr())

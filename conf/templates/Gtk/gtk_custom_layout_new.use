@@ -1,1 +1,1 @@
-use @gtk_custom_layout_new[NullablePointer[GtkLayoutManagerT]](request_mode': GtkCustomRequestModeFunc, measure': GtkCustomMeasureFunc, allocate': GtkCustomAllocateFunc)
+use @gtk_custom_layout_new[NullablePointer[GObjectT]](request_mode': GtkCustomRequestModeFunc, measure': GtkCustomMeasureFunc, allocate': GtkCustomAllocateFunc)

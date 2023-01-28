@@ -1,2 +1,2 @@
-  fun dup_object(interface': NullablePointer[GDBusInterfaceT]): NullablePointer[GDBusObjectT] =>
-    @g_dbus_interface_dup_object(interface')
+  fun dup_object(interface': GDBusInterfaceI): NullablePointer[GObjectT] =>
+@g_dbus_interface_dup_object(interface'.getptr())

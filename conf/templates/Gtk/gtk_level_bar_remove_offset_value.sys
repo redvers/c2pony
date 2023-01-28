@@ -1,2 +1,2 @@
-  fun remove_offset_value(self': NullablePointer[GtkLevelBarT], name': String): None =>
-    @gtk_level_bar_remove_offset_value(self', name'.cstring())
+  fun remove_offset_value(self': GtkLevelBarI, name': String): None =>
+    @gtk_level_bar_remove_offset_value(self'.getptr(), name'.cstring())

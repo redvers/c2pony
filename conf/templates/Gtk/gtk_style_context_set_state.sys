@@ -1,2 +1,2 @@
-  fun set_state(context': NullablePointer[GtkStyleContextT], flags': U32): None =>
-    @gtk_style_context_set_state(context', flags')
+  fun set_state(context': GtkStyleContextI, flags': U32): None =>
+    @gtk_style_context_set_state(context'.getptr(), flags')

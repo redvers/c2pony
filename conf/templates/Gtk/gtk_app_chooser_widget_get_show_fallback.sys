@@ -1,2 +1,2 @@
-  fun get_show_fallback(self': NullablePointer[GtkAppChooserWidgetT]): I32 =>
-    @gtk_app_chooser_widget_get_show_fallback(self')
+  fun get_show_fallback(self': GtkAppChooserWidgetI): I32 =>
+    @gtk_app_chooser_widget_get_show_fallback(self'.getptr())

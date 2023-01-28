@@ -1,2 +1,2 @@
-  fun append_custom_item(self': NullablePointer[GtkAppChooserButtonT], name': String, label': String, icon': NullablePointer[GIconT]): None =>
-    @gtk_app_chooser_button_append_custom_item(self', name'.cstring(), label'.cstring(), icon')
+  fun append_custom_item(self': GtkAppChooserButtonI, name': String, label': String, icon': GIconI): None =>
+    @gtk_app_chooser_button_append_custom_item(self'.getptr(), name'.cstring(), label'.cstring(), icon'.getptr())

@@ -1,2 +1,2 @@
-  fun get_n_pages(assistant': NullablePointer[GtkAssistantT]): I32 =>
-    @gtk_assistant_get_n_pages(assistant')
+  fun get_n_pages(assistant': GtkAssistantI): I32 =>
+    @gtk_assistant_get_n_pages(assistant'.getptr())

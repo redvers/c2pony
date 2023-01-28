@@ -1,2 +1,2 @@
-  fun set_text_column(completion': NullablePointer[GtkEntryCompletionT], column': I32): None =>
-    @gtk_entry_completion_set_text_column(completion', column')
+  fun set_text_column(completion': GtkEntryCompletionI, column': I32): None =>
+    @gtk_entry_completion_set_text_column(completion'.getptr(), column')

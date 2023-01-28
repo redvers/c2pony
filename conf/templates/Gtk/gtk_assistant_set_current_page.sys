@@ -1,2 +1,2 @@
-  fun set_current_page(assistant': NullablePointer[GtkAssistantT], page_num': I32): None =>
-    @gtk_assistant_set_current_page(assistant', page_num')
+  fun set_current_page(assistant': GtkAssistantI, page_num': I32): None =>
+    @gtk_assistant_set_current_page(assistant'.getptr(), page_num')

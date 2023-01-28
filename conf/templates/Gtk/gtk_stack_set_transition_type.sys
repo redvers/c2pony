@@ -1,2 +1,2 @@
-  fun set_transition_type(stack': NullablePointer[GtkStackT], transition': U32): None =>
-    @gtk_stack_set_transition_type(stack', transition')
+  fun set_transition_type(stack': GtkStackI, transition': U32): None =>
+    @gtk_stack_set_transition_type(stack'.getptr(), transition')

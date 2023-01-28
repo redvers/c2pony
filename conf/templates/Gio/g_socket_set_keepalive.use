@@ -1,1 +1,1 @@
-use @g_socket_set_keepalive[None](socket': NullablePointer[GSocketT], keepalive': I32)
+use @g_socket_set_keepalive[None](socket': NullablePointer[GObjectT], keepalive': I32)

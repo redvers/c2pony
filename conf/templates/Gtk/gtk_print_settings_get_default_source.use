@@ -1,1 +1,1 @@
-use @gtk_print_settings_get_default_source[Pointer[U8]](settings': NullablePointer[GtkPrintSettingsT])
+use @gtk_print_settings_get_default_source[Pointer[U8]](settings': NullablePointer[GObjectT])

@@ -1,1 +1,1 @@
-use @gtk_entry_completion_set_inline_completion[None](completion': NullablePointer[GtkEntryCompletionT], inline_completion': I32)
+use @gtk_entry_completion_set_inline_completion[None](completion': NullablePointer[GObjectT], inline_completion': I32)

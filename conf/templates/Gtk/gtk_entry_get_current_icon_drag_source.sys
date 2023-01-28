@@ -1,2 +1,2 @@
-  fun get_current_icon_drag_source(entry': NullablePointer[GtkEntryT]): I32 =>
-    @gtk_entry_get_current_icon_drag_source(entry')
+  fun get_current_icon_drag_source(entry': GtkEntryI): I32 =>
+    @gtk_entry_get_current_icon_drag_source(entry'.getptr())

@@ -1,2 +1,2 @@
-  fun select_all(box': NullablePointer[GtkFlowBoxT]): None =>
-    @gtk_flow_box_select_all(box')
+  fun select_all(box': GtkFlowBoxI): None =>
+    @gtk_flow_box_select_all(box'.getptr())

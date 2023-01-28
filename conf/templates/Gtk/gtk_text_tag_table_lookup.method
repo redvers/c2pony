@@ -1,2 +1,2 @@
-  fun ref lookup(name': String): NullablePointer[GtkTextTagT] =>
+  fun ref lookup(name': String): NullablePointer[GObjectT] =>
     GtkTextTagTableP.lookup(this, name')

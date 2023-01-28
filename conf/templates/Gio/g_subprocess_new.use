@@ -1,1 +1,1 @@
-use @g_subprocess_new[NullablePointer[GSubprocessT]](flags': U32, error': NullablePointer[GErrorT], argv0': Pointer[U8] tag, ...)
+use @g_subprocess_new[NullablePointer[GObjectT]](flags': U32, error': Pointer[NullablePointer[GErrorT]], argv0': Pointer[U8] tag, ...)

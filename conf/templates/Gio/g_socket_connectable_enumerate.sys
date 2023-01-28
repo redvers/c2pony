@@ -1,2 +1,2 @@
-  fun enumerate(connectable': NullablePointer[GSocketConnectableT]): NullablePointer[GSocketAddressEnumeratorT] =>
-    @g_socket_connectable_enumerate(connectable')
+  fun enumerate(connectable': GSocketConnectableI): NullablePointer[GObjectT] =>
+@g_socket_connectable_enumerate(connectable'.getptr())

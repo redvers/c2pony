@@ -1,2 +1,2 @@
-  fun set_language(fontchooser': NullablePointer[GtkFontChooserT], language': String): None =>
-    @gtk_font_chooser_set_language(fontchooser', language'.cstring())
+  fun set_language(fontchooser': GtkFontChooserI, language': String): None =>
+    @gtk_font_chooser_set_language(fontchooser'.getptr(), language'.cstring())

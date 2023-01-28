@@ -1,2 +1,2 @@
-  fun test_accessible_has_property(accessible': NullablePointer[GtkAccessibleT], property': U32): I32 =>
-    @gtk_test_accessible_has_property(accessible', property')
+  fun test_accessible_has_property(accessible': GtkAccessibleI, property': U32): I32 =>
+    @gtk_test_accessible_has_property(accessible'.getptr(), property')

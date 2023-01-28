@@ -1,2 +1,2 @@
-  fun get_uint(settings': NullablePointer[GSettingsT], key': String): U32 =>
-    @g_settings_get_uint(settings', key'.cstring())
+  fun get_uint(settings': GSettingsI, key': String): U32 =>
+    @g_settings_get_uint(settings'.getptr(), key'.cstring())

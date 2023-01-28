@@ -1,2 +1,2 @@
-  fun ref ref(): NullablePointer[GtkExpressionT] =>
+  fun ref ref(): NullablePointer[GObjectT] =>
     GtkExpressionP.ref(this)

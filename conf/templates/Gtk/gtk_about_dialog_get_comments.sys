@@ -1,2 +1,2 @@
-  fun get_comments(about': NullablePointer[GtkAboutDialogT]): String iso^ =>
-    String.from_cstring(@gtk_about_dialog_get_comments(about')).clone()
+  fun get_comments(about': GtkAboutDialogI): String iso^ =>
+    String.from_cstring(@gtk_about_dialog_get_comments(about'.getptr())).clone()

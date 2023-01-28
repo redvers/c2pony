@@ -1,1 +1,1 @@
-use @g_file_info_get_name[Pointer[U8]](info': NullablePointer[GFileInfoT])
+use @g_file_info_get_name[Pointer[U8]](info': NullablePointer[GObjectT])

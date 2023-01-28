@@ -1,1 +1,1 @@
-use @gtk_popover_set_default_widget[None](popover': NullablePointer[GtkPopoverT], widget': NullablePointer[GObjectT])
+use @gtk_popover_set_default_widget[None](popover': NullablePointer[GObjectT], widget': NullablePointer[GObjectT])

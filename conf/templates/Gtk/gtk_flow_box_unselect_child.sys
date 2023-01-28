@@ -1,2 +1,2 @@
-  fun unselect_child(box': NullablePointer[GtkFlowBoxT], child': NullablePointer[GtkFlowBoxChildT]): None =>
-    @gtk_flow_box_unselect_child(box', child')
+  fun unselect_child(box': GtkFlowBoxI, child': GtkFlowBoxChildI): None =>
+    @gtk_flow_box_unselect_child(box'.getptr(), child'.getptr())

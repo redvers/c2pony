@@ -1,2 +1,2 @@
-  fun get_exit_status(cmdline': NullablePointer[GApplicationCommandLineT]): I32 =>
-    @g_application_command_line_get_exit_status(cmdline')
+  fun get_exit_status(cmdline': GApplicationCommandLineI): I32 =>
+    @g_application_command_line_get_exit_status(cmdline'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_list_box_set_activate_on_single_click[None](box': NullablePointer[GtkListBoxT], single': I32)
+use @gtk_list_box_set_activate_on_single_click[None](box': NullablePointer[GObjectT], single': I32)

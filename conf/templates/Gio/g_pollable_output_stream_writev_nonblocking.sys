@@ -1,2 +1,2 @@
-  fun writev_nonblocking(stream': NullablePointer[GPollableOutputStreamT], vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_pollable_output_stream_writev_nonblocking(stream', vectors', n_vectors', bytes_written', cancellable', error'.ptr)
+  fun writev_nonblocking(stream': GPollableOutputStreamI, vectors': NullablePointer[GOutputVectorT], n_vectors': U64, bytes_written': Pointer[U64] tag, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_pollable_output_stream_writev_nonblocking(stream'.getptr(), vectors', n_vectors', bytes_written', cancellable'.getptr(), error')

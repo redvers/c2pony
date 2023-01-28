@@ -1,2 +1,2 @@
-  fun focus(area': NullablePointer[GtkCellAreaT], direction': U32): I32 =>
-    @gtk_cell_area_focus(area', direction')
+  fun focus(area': GtkCellAreaI, direction': U32): I32 =>
+    @gtk_cell_area_focus(area'.getptr(), direction')

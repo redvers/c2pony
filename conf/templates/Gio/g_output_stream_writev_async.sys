@@ -1,2 +1,2 @@
-  fun writev_async(stream': NullablePointer[GOutputStreamT], vectors': NullablePointer[GOutputVectorT], n_vectors': U64, io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_output_stream_writev_async(stream', vectors', n_vectors', io_priority', cancellable', callback', user_data')
+  fun writev_async(stream': GOutputStreamI, vectors': NullablePointer[GOutputVectorT], n_vectors': U64, io_priority': I32, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_output_stream_writev_async(stream'.getptr(), vectors', n_vectors', io_priority', cancellable'.getptr(), callback', user_data')

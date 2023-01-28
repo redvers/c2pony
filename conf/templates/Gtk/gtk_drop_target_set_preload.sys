@@ -1,2 +1,2 @@
-  fun set_preload(self': NullablePointer[GtkDropTargetT], preload': I32): None =>
-    @gtk_drop_target_set_preload(self', preload')
+  fun set_preload(self': GtkDropTargetI, preload': I32): None =>
+    @gtk_drop_target_set_preload(self'.getptr(), preload')

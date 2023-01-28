@@ -1,1 +1,1 @@
-use @g_io_stream_close_async[None](stream': NullablePointer[GIOStreamT], io_priority': I32, cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_io_stream_close_async[None](stream': NullablePointer[GObjectT], io_priority': I32, cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

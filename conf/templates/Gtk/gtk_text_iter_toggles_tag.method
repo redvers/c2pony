@@ -1,2 +1,2 @@
-  fun ref toggles_tag(tag': NullablePointer[GtkTextTagT]): I32 =>
+  fun ref toggles_tag(tag': GtkTextTagI): I32 =>
     GtkTextIterP.toggles_tag(ptr, tag')

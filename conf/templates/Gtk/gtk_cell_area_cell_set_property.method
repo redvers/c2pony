@@ -1,2 +1,2 @@
-  fun ref cell_set_property(renderer': NullablePointer[GtkCellRendererT], property_name': String, value': NullablePointer[GValueT]): None =>
+  fun ref cell_set_property(renderer': GtkCellRendererI, property_name': String, value': NullablePointer[GValueT]): None =>
     GtkCellAreaP.cell_set_property(this, renderer', property_name', value')

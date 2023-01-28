@@ -1,2 +1,2 @@
-  fun set_modify_func(filter': NullablePointer[GtkTreeModelFilterT], n_columns': I32, types': Pointer[U64] tag, func': GtkTreeModelFilterModifyFunc, data': Pointer[None] tag, destroy': Pointer[None]): None =>
-    @gtk_tree_model_filter_set_modify_func(filter', n_columns', types', func', data', destroy')
+  fun set_modify_func(filter': GtkTreeModelFilterI, n_columns': I32, types': Pointer[U64] tag, func': GtkTreeModelFilterModifyFunc, data': Pointer[None] tag, destroy': Pointer[None]): None =>
+    @gtk_tree_model_filter_set_modify_func(filter'.getptr(), n_columns', types', func', data', destroy')

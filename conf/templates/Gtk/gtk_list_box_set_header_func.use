@@ -1,1 +1,1 @@
-use @gtk_list_box_set_header_func[None](box': NullablePointer[GtkListBoxT], update_header': GtkListBoxUpdateHeaderFunc, user_data': Pointer[None] tag, destroy': Pointer[None])
+use @gtk_list_box_set_header_func[None](box': NullablePointer[GObjectT], update_header': GtkListBoxUpdateHeaderFunc, user_data': Pointer[None] tag, destroy': Pointer[None])

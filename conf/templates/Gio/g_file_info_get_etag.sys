@@ -1,2 +1,2 @@
-  fun get_etag(info': NullablePointer[GFileInfoT]): String iso^ =>
-    String.from_cstring(@g_file_info_get_etag(info')).clone()
+  fun get_etag(info': GFileInfoI): String iso^ =>
+    String.from_cstring(@g_file_info_get_etag(info'.getptr())).clone()

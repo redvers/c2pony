@@ -1,2 +1,2 @@
-  fun trash_finish(file': NullablePointer[GFileT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_file_trash_finish(file', result', error'.ptr)
+  fun trash_finish(file': GFileI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_trash_finish(file'.getptr(), result'.getptr(), error')

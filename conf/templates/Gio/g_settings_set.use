@@ -1,1 +1,1 @@
-use @g_settings_set[I32](settings': NullablePointer[GSettingsT], key': Pointer[U8] tag, format': Pointer[U8] tag, ...)
+use @g_settings_set[I32](settings': NullablePointer[GObjectT], key': Pointer[U8] tag, format': Pointer[U8] tag, ...)

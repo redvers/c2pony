@@ -1,1 +1,1 @@
-use @gtk_gl_area_set_has_stencil_buffer[None](area': NullablePointer[GtkGLAreaT], has_stencil_buffer': I32)
+use @gtk_gl_area_set_has_stencil_buffer[None](area': NullablePointer[GObjectT], has_stencil_buffer': I32)

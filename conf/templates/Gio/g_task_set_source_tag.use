@@ -1,1 +1,1 @@
-use @g_task_set_source_tag[None](task': NullablePointer[GTaskT], source_tag': Pointer[None] tag)
+use @g_task_set_source_tag[None](task': NullablePointer[GObjectT], source_tag': Pointer[None] tag)

@@ -1,2 +1,2 @@
-  fun ref get_file(): NullablePointer[GFileT] =>
+  fun ref get_file(): NullablePointer[GObjectT] =>
     GtkDirectoryListP.get_file(this)

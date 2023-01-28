@@ -1,2 +1,2 @@
-  fun ref set_connection(connection': NullablePointer[GDBusConnectionT]): None =>
+  fun ref set_connection(connection': GDBusConnectionI): None =>
     GDBusObjectManagerServerP.set_connection(this, connection')

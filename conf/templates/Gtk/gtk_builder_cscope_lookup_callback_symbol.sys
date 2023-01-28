@@ -1,2 +1,2 @@
-  fun lookup_callback_symbol(self': NullablePointer[GtkBuilderCScopeT], callback_name': String): GCallback =>
-    @gtk_builder_cscope_lookup_callback_symbol(self', callback_name'.cstring())
+  fun lookup_callback_symbol(self': GtkBuilderCScopeI, callback_name': String): GCallback =>
+    @gtk_builder_cscope_lookup_callback_symbol(self'.getptr(), callback_name'.cstring())

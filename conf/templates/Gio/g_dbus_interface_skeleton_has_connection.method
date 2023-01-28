@@ -1,2 +1,2 @@
-  fun ref has_connection(connection': NullablePointer[GDBusConnectionT]): I32 =>
+  fun ref has_connection(connection': GDBusConnectionI): I32 =>
     GDBusInterfaceSkeletonP.has_connection(this, connection')

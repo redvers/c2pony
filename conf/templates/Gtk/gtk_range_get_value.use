@@ -1,1 +1,1 @@
-use @gtk_range_get_value[F64](range': NullablePointer[GtkRangeT])
+use @gtk_range_get_value[F64](range': NullablePointer[GObjectT])

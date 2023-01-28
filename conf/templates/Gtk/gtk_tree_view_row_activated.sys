@@ -1,2 +1,2 @@
-  fun row_activated(tree_view': NullablePointer[GtkTreeViewT], path': NullablePointer[GtkTreePathT], column': NullablePointer[GtkTreeViewColumnT]): None =>
-    @gtk_tree_view_row_activated(tree_view', path', column')
+  fun row_activated(tree_view': GtkTreeViewI, path': NullablePointer[GtkTreePathT], column': GtkTreeViewColumnI): None =>
+    @gtk_tree_view_row_activated(tree_view'.getptr(), path', column'.getptr())

@@ -1,2 +1,2 @@
-  fun set_show_day_names(self': NullablePointer[GtkCalendarT], value': I32): None =>
-    @gtk_calendar_set_show_day_names(self', value')
+  fun set_show_day_names(self': GtkCalendarI, value': I32): None =>
+    @gtk_calendar_set_show_day_names(self'.getptr(), value')

@@ -1,1 +1,1 @@
-use @g_tls_connection_emit_accept_certificate[I32](conn': NullablePointer[GTlsConnectionT], peer_cert': NullablePointer[GTlsCertificateT], errors': U32)
+use @g_tls_connection_emit_accept_certificate[I32](conn': NullablePointer[GObjectT], peer_cert': NullablePointer[GObjectT], errors': U32)

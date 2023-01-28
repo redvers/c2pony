@@ -1,2 +1,2 @@
-  fun clear_pending(stream': NullablePointer[GIOStreamT]): None =>
-    @g_io_stream_clear_pending(stream')
+  fun clear_pending(stream': GIOStreamI): None =>
+    @g_io_stream_clear_pending(stream'.getptr())

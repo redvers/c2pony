@@ -1,1 +1,1 @@
-use @gtk_file_chooser_set_action[None](chooser': NullablePointer[GtkFileChooserT], action': U32)
+use @gtk_file_chooser_set_action[None](chooser': NullablePointer[GObjectT], action': U32)

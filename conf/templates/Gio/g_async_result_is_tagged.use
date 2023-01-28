@@ -1,1 +1,1 @@
-use @g_async_result_is_tagged[I32](res': NullablePointer[GAsyncResultT], source_tag': Pointer[None] tag)
+use @g_async_result_is_tagged[I32](res': NullablePointer[GObjectT], source_tag': Pointer[None] tag)

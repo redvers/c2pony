@@ -1,2 +1,2 @@
-  fun insert_submenu(menu': NullablePointer[GMenuT], position': I32, label': String, submenu': NullablePointer[GMenuModelT]): None =>
-    @g_menu_insert_submenu(menu', position', label'.cstring(), submenu')
+  fun insert_submenu(menu': GMenuI, position': I32, label': String, submenu': GMenuModelI): None =>
+    @g_menu_insert_submenu(menu'.getptr(), position', label'.cstring(), submenu'.getptr())

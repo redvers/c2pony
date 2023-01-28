@@ -1,2 +1,2 @@
-  fun set_server_identity(conn': NullablePointer[GDtlsClientConnectionT], identity': NullablePointer[GSocketConnectableT]): None =>
-    @g_dtls_client_connection_set_server_identity(conn', identity')
+  fun set_server_identity(conn': GDtlsClientConnectionI, identity': GSocketConnectableI): None =>
+    @g_dtls_client_connection_set_server_identity(conn'.getptr(), identity'.getptr())

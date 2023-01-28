@@ -1,2 +1,2 @@
-  fun ref get_delegate(): NullablePointer[GtkEditableT] =>
+  fun ref get_delegate(): NullablePointer[GObjectT] =>
     GtkEditableP.get_delegate(this)

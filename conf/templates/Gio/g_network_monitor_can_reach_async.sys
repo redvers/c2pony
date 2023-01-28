@@ -1,2 +1,2 @@
-  fun can_reach_async(monitor': NullablePointer[GNetworkMonitorT], connectable': NullablePointer[GSocketConnectableT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
-    @g_network_monitor_can_reach_async(monitor', connectable', cancellable', callback', user_data')
+  fun can_reach_async(monitor': GNetworkMonitorI, connectable': GSocketConnectableI, cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+    @g_network_monitor_can_reach_async(monitor'.getptr(), connectable'.getptr(), cancellable'.getptr(), callback', user_data')

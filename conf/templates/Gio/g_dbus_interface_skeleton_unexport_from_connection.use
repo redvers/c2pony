@@ -1,1 +1,1 @@
-use @g_dbus_interface_skeleton_unexport_from_connection[None](interface': NullablePointer[GDBusInterfaceSkeletonT], connection': NullablePointer[GDBusConnectionT])
+use @g_dbus_interface_skeleton_unexport_from_connection[None](interface': NullablePointer[GObjectT], connection': NullablePointer[GObjectT])

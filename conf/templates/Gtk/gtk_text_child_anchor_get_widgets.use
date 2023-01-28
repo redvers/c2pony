@@ -1,1 +1,1 @@
-use @gtk_text_child_anchor_get_widgets[Pointer[NullablePointer[GtkWidgetT]]](anchor': NullablePointer[GtkTextChildAnchorT], out_len': Pointer[U32] tag)
+use @gtk_text_child_anchor_get_widgets[Pointer[NullablePointer[GtkWidgetT]]](anchor': NullablePointer[GObjectT], out_len': Pointer[U32] tag)

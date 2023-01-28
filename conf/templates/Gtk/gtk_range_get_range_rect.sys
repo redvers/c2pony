@@ -1,2 +1,2 @@
-  fun get_range_rect(range': NullablePointer[GtkRangeT], range_rect': NullablePointer[cairorectangleintT]): None =>
-    @gtk_range_get_range_rect(range', range_rect')
+  fun get_range_rect(range': GtkRangeI, range_rect': NullablePointer[cairorectangleintT]): None =>
+    @gtk_range_get_range_rect(range'.getptr(), range_rect')

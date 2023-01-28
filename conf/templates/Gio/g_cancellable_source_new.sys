@@ -1,2 +1,2 @@
-  fun source_new(cancellable': NullablePointer[GCancellableT]): NullablePointer[GSourceT] =>
-    @g_cancellable_source_new(cancellable')
+  fun source_new(cancellable': GCancellableI): NullablePointer[GSourceT] =>
+    @g_cancellable_source_new(cancellable'.getptr())

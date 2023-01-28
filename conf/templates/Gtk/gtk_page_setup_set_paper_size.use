@@ -1,1 +1,1 @@
-use @gtk_page_setup_set_paper_size[None](setup': NullablePointer[GtkPageSetupT], size': NullablePointer[GtkPaperSizeT])
+use @gtk_page_setup_set_paper_size[None](setup': NullablePointer[GObjectT], size': NullablePointer[GtkPaperSizeT])

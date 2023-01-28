@@ -1,2 +1,2 @@
-  fun utf16_to_utf8(str': Pointer[U16] tag, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': GError): String iso^ =>
-    String.from_cstring(@g_utf16_to_utf8(str', len', items_read', items_written', error'.ptr)).clone()
+  fun utf16_to_utf8(str': Pointer[U16] tag, len': I64, items_read': Pointer[I64] tag, items_written': Pointer[I64] tag, error': Pointer[NullablePointer[GErrorT]]): String iso^ =>
+    String.from_cstring(@g_utf16_to_utf8(str', len', items_read', items_written', error')).clone()

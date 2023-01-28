@@ -1,2 +1,2 @@
-  fun set_comments(about': NullablePointer[GtkAboutDialogT], comments': String): None =>
-    @gtk_about_dialog_set_comments(about', comments'.cstring())
+  fun set_comments(about': GtkAboutDialogI, comments': String): None =>
+    @gtk_about_dialog_set_comments(about'.getptr(), comments'.cstring())

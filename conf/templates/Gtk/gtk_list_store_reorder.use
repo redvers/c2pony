@@ -1,1 +1,1 @@
-use @gtk_list_store_reorder[None](store': NullablePointer[GtkListStoreT], new_order': Pointer[I32] tag)
+use @gtk_list_store_reorder[None](store': NullablePointer[GObjectT], new_order': Pointer[I32] tag)

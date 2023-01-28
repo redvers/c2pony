@@ -1,2 +1,2 @@
-  fun get_name(self': NullablePointer[GtkStackPageT]): String iso^ =>
-    String.from_cstring(@gtk_stack_page_get_name(self')).clone()
+  fun get_name(self': GtkStackPageI): String iso^ =>
+    String.from_cstring(@gtk_stack_page_get_name(self'.getptr())).clone()

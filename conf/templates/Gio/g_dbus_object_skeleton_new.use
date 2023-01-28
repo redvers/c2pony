@@ -1,1 +1,1 @@
-use @g_dbus_object_skeleton_new[NullablePointer[GDBusObjectSkeletonT]](object_path': Pointer[U8] tag)
+use @g_dbus_object_skeleton_new[NullablePointer[GObjectT]](object_path': Pointer[U8] tag)

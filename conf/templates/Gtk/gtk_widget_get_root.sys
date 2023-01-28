@@ -1,2 +1,2 @@
-  fun get_root(widget': GtkWidgetI): NullablePointer[GtkRootT] =>
-    @gtk_widget_get_root(widget'.getptr())
+  fun get_root(widget': GtkWidgetI): NullablePointer[GObjectT] =>
+@gtk_widget_get_root(widget'.getptr())

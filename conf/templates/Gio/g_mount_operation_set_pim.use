@@ -1,1 +1,1 @@
-use @g_mount_operation_set_pim[None](op': NullablePointer[GMountOperationT], pim': U32)
+use @g_mount_operation_set_pim[None](op': NullablePointer[GObjectT], pim': U32)

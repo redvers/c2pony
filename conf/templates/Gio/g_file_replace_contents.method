@@ -1,2 +1,2 @@
-  fun ref replace_contents(contents': String, length': U64, etag': String, make_backup': I32, flags': U32, new_etag': Pointer[Pointer[U8]] tag, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
+  fun ref replace_contents(contents': String, length': U64, etag': String, make_backup': I32, flags': U32, new_etag': Pointer[Pointer[U8]] tag, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
     GFileP.replace_contents(this, contents', length', etag', make_backup', flags', new_etag', cancellable', error')

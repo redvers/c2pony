@@ -1,2 +1,2 @@
-  fun clear(tree_store': NullablePointer[GtkTreeStoreT]): None =>
-    @gtk_tree_store_clear(tree_store')
+  fun clear(tree_store': GtkTreeStoreI): None =>
+    @gtk_tree_store_clear(tree_store'.getptr())

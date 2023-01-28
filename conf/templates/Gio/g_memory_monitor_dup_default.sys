@@ -1,2 +1,2 @@
-  fun dup_default(): NullablePointer[GMemoryMonitorT] =>
-    @g_memory_monitor_dup_default()
+  fun dup_default(): NullablePointer[GObjectT] =>
+@g_memory_monitor_dup_default()

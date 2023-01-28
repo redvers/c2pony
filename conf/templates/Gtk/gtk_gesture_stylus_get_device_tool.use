@@ -1,1 +1,1 @@
-use @gtk_gesture_stylus_get_device_tool[NullablePointer[GdkDeviceToolT]](gesture': NullablePointer[GtkGestureStylusT])
+use @gtk_gesture_stylus_get_device_tool[NullablePointer[GdkDeviceToolT]](gesture': NullablePointer[GObjectT])

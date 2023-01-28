@@ -1,2 +1,2 @@
-  fun printerr(cmdline': NullablePointer[GApplicationCommandLineT], format': String, ...): None =>
-    @g_application_command_line_printerr(cmdline', format'.cstring(), ...)
+  fun printerr(cmdline': GApplicationCommandLineI, format': String, ...): None =>
+    @g_application_command_line_printerr(cmdline'.getptr(), format'.cstring(), ...)

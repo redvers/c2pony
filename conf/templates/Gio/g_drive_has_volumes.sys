@@ -1,2 +1,2 @@
-  fun has_volumes(drive': NullablePointer[GDriveT]): I32 =>
-    @g_drive_has_volumes(drive')
+  fun has_volumes(drive': GDriveI): I32 =>
+    @g_drive_has_volumes(drive'.getptr())

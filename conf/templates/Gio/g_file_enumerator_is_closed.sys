@@ -1,2 +1,2 @@
-  fun is_closed(enumerator': NullablePointer[GFileEnumeratorT]): I32 =>
-    @g_file_enumerator_is_closed(enumerator')
+  fun is_closed(enumerator': GFileEnumeratorI): I32 =>
+    @g_file_enumerator_is_closed(enumerator'.getptr())

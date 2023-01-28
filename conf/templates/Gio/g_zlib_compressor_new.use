@@ -1,1 +1,1 @@
-use @g_zlib_compressor_new[NullablePointer[GZlibCompressorT]](format': U32, level': I32)
+use @g_zlib_compressor_new[NullablePointer[GObjectT]](format': U32, level': I32)

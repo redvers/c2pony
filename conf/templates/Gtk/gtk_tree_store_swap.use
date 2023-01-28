@@ -1,1 +1,1 @@
-use @gtk_tree_store_swap[None](tree_store': NullablePointer[GtkTreeStoreT], a': NullablePointer[GtkTreeIterT], b': NullablePointer[GtkTreeIterT])
+use @gtk_tree_store_swap[None](tree_store': NullablePointer[GObjectT], a': NullablePointer[GtkTreeIterT], b': NullablePointer[GtkTreeIterT])

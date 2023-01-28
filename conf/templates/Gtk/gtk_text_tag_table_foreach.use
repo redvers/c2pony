@@ -1,1 +1,1 @@
-use @gtk_text_tag_table_foreach[None](table': NullablePointer[GtkTextTagTableT], func': GtkTextTagTableForeach, data': Pointer[None] tag)
+use @gtk_text_tag_table_foreach[None](table': NullablePointer[GObjectT], func': GtkTextTagTableForeach, data': Pointer[None] tag)

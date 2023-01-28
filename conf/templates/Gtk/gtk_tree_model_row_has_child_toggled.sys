@@ -1,2 +1,2 @@
-  fun row_has_child_toggled(tree_model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT]): None =>
-    @gtk_tree_model_row_has_child_toggled(tree_model', path', iter')
+  fun row_has_child_toggled(tree_model': GtkTreeModelI, path': NullablePointer[GtkTreePathT], iter': NullablePointer[GtkTreeIterT]): None =>
+    @gtk_tree_model_row_has_child_toggled(tree_model'.getptr(), path', iter')

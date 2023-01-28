@@ -1,2 +1,2 @@
-  fun set_n_pages(op': NullablePointer[GtkPrintOperationT], n_pages': I32): None =>
-    @gtk_print_operation_set_n_pages(op', n_pages')
+  fun set_n_pages(op': GtkPrintOperationI, n_pages': I32): None =>
+    @gtk_print_operation_set_n_pages(op'.getptr(), n_pages')

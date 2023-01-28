@@ -1,2 +1,2 @@
-  fun set_link(menu_item': NullablePointer[GMenuItemT], link': String, model': NullablePointer[GMenuModelT]): None =>
-    @g_menu_item_set_link(menu_item', link'.cstring(), model')
+  fun set_link(menu_item': GMenuItemI, link': String, model': GMenuModelI): None =>
+    @g_menu_item_set_link(menu_item'.getptr(), link'.cstring(), model'.getptr())

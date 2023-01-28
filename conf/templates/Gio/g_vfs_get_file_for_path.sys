@@ -1,2 +1,2 @@
-  fun get_file_for_path(vfs': NullablePointer[GVfsT], path': String): NullablePointer[GFileT] =>
-    @g_vfs_get_file_for_path(vfs', path'.cstring())
+  fun get_file_for_path(vfs': GVfsI, path': String): NullablePointer[GObjectT] =>
+@g_vfs_get_file_for_path(vfs'.getptr(), path'.cstring())

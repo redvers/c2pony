@@ -1,2 +1,2 @@
-  fun get_area(context': NullablePointer[GtkCellAreaContextT]): NullablePointer[GtkCellAreaT] =>
-    @gtk_cell_area_context_get_area(context')
+  fun get_area(context': GtkCellAreaContextI): NullablePointer[GObjectT] =>
+@gtk_cell_area_context_get_area(context'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_scrollbar_set_adjustment[None](self': NullablePointer[GtkScrollbarT], adjustment': NullablePointer[GtkAdjustmentT])
+use @gtk_scrollbar_set_adjustment[None](self': NullablePointer[GObjectT], adjustment': NullablePointer[GObjectT])

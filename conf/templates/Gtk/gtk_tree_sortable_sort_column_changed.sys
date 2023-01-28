@@ -1,2 +1,2 @@
-  fun sort_column_changed(sortable': NullablePointer[GtkTreeSortableT]): None =>
-    @gtk_tree_sortable_sort_column_changed(sortable')
+  fun sort_column_changed(sortable': GtkTreeSortableI): None =>
+    @gtk_tree_sortable_sort_column_changed(sortable'.getptr())

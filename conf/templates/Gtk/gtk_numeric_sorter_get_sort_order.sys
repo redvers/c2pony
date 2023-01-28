@@ -1,2 +1,2 @@
-  fun get_sort_order(self': NullablePointer[GtkNumericSorterT]): U32 =>
-    @gtk_numeric_sorter_get_sort_order(self')
+  fun get_sort_order(self': GtkNumericSorterI): U32 =>
+    @gtk_numeric_sorter_get_sort_order(self'.getptr())

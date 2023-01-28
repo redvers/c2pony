@@ -1,2 +1,2 @@
-  fun start(spinner': NullablePointer[GtkSpinnerT]): None =>
-    @gtk_spinner_start(spinner')
+  fun start(spinner': GtkSpinnerI): None =>
+    @gtk_spinner_start(spinner'.getptr())

@@ -1,2 +1,2 @@
-  fun get_environ(cmdline': NullablePointer[GApplicationCommandLineT]): Pointer[Pointer[U8]] tag =>
-    @g_application_command_line_get_environ(cmdline')
+  fun get_environ(cmdline': GApplicationCommandLineI): Pointer[Pointer[U8]] tag =>
+    @g_application_command_line_get_environ(cmdline'.getptr())

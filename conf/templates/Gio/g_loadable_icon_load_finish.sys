@@ -1,2 +1,2 @@
-  fun load_finish(icon': NullablePointer[GLoadableIconT], res': NullablePointer[GAsyncResultT], type': Pointer[Pointer[U8]] tag, error': GError): NullablePointer[GInputStreamT] =>
-    @g_loadable_icon_load_finish(icon', res', type', error'.ptr)
+  fun load_finish(icon': GLoadableIconI, res': GAsyncResultI, type': Pointer[Pointer[U8]] tag, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GObjectT] =>
+@g_loadable_icon_load_finish(icon'.getptr(), res'.getptr(), type', error')

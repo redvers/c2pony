@@ -1,2 +1,2 @@
-  fun set_input_purpose(text_view': NullablePointer[GtkTextViewT], purpose': U32): None =>
-    @gtk_text_view_set_input_purpose(text_view', purpose')
+  fun set_input_purpose(text_view': GtkTextViewI, purpose': U32): None =>
+    @gtk_text_view_set_input_purpose(text_view'.getptr(), purpose')

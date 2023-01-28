@@ -1,1 +1,1 @@
-use @g_socket_get_multicast_ttl[U32](socket': NullablePointer[GSocketT])
+use @g_socket_get_multicast_ttl[U32](socket': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun set_ellipsize(pbar': NullablePointer[GtkProgressBarT], mode': U32): None =>
-    @gtk_progress_bar_set_ellipsize(pbar', mode')
+  fun set_ellipsize(pbar': GtkProgressBarI, mode': U32): None =>
+    @gtk_progress_bar_set_ellipsize(pbar'.getptr(), mode')

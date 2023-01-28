@@ -1,2 +1,2 @@
-  fun get(): NullablePointer[GtkShortcutActionT] =>
-    @gtk_nothing_action_get()
+  fun get(): NullablePointer[GObjectT] =>
+@gtk_nothing_action_get()

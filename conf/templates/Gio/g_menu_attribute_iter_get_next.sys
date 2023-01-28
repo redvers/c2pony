@@ -1,2 +1,2 @@
-  fun get_next(iter': NullablePointer[GMenuAttributeIterT], out_name': Pointer[Pointer[U8]] tag, value': Pointer[NullablePointer[GVariantT]]): I32 =>
-    @g_menu_attribute_iter_get_next(iter', out_name', value')
+  fun get_next(iter': GMenuAttributeIterI, out_name': Pointer[Pointer[U8]] tag, value': Pointer[NullablePointer[GVariantT]]): I32 =>
+    @g_menu_attribute_iter_get_next(iter'.getptr(), out_name', value')

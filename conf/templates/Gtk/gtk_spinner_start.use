@@ -1,1 +1,1 @@
-use @gtk_spinner_start[None](spinner': NullablePointer[GtkSpinnerT])
+use @gtk_spinner_start[None](spinner': NullablePointer[GObjectT])

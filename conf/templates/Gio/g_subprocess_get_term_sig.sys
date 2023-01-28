@@ -1,2 +1,2 @@
-  fun get_term_sig(subprocess': NullablePointer[GSubprocessT]): I32 =>
-    @g_subprocess_get_term_sig(subprocess')
+  fun get_term_sig(subprocess': GSubprocessI): I32 =>
+    @g_subprocess_get_term_sig(subprocess'.getptr())

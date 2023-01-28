@@ -1,1 +1,1 @@
-use @gtk_text_tag_new[NullablePointer[GtkTextTagT]](name': Pointer[U8] tag)
+use @gtk_text_tag_new[NullablePointer[GObjectT]](name': Pointer[U8] tag)

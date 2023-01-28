@@ -1,2 +1,2 @@
-  fun get_target_property(binding': NullablePointer[GBindingT]): String iso^ =>
-    String.from_cstring(@g_binding_get_target_property(binding')).clone()
+  fun get_target_property(binding': GBindingI): String iso^ =>
+    String.from_cstring(@g_binding_get_target_property(binding'.getptr())).clone()

@@ -1,1 +1,1 @@
-use @gtk_tree_expander_set_indent_for_icon[None](self': NullablePointer[GtkTreeExpanderT], indent_for_icon': I32)
+use @gtk_tree_expander_set_indent_for_icon[None](self': NullablePointer[GObjectT], indent_for_icon': I32)

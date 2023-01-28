@@ -1,2 +1,2 @@
-  fun is_native(file': NullablePointer[GFileT]): I32 =>
-    @g_file_is_native(file')
+  fun is_native(file': GFileI): I32 =>
+    @g_file_is_native(file'.getptr())

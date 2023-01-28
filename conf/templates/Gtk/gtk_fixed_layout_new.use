@@ -1,1 +1,1 @@
-use @gtk_fixed_layout_new[NullablePointer[GtkLayoutManagerT]]()
+use @gtk_fixed_layout_new[NullablePointer[GObjectT]]()

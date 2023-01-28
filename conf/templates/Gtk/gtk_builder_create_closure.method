@@ -1,2 +1,2 @@
-  fun ref create_closure(function_name': String, flags': U32, object': NullablePointer[GObjectT], error': GError): NullablePointer[GClosureT] =>
+  fun ref create_closure(function_name': String, flags': U32, object': GObjectI, error': GError): NullablePointer[GClosureT] =>
     GtkBuilderP.create_closure(this, function_name', flags', object', error')

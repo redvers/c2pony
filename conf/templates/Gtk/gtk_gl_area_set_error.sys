@@ -1,2 +1,2 @@
-  fun set_error(area': NullablePointer[GtkGLAreaT], error': NullablePointer[GErrorT]): None =>
-    @gtk_gl_area_set_error(area', error')
+  fun set_error(area': GtkGLAreaI, error': NullablePointer[GErrorT]): None =>
+    @gtk_gl_area_set_error(area'.getptr(), error')

@@ -1,1 +1,1 @@
-use @gtk_pad_controller_new[NullablePointer[GtkPadControllerT]](group': NullablePointer[GObjectT], pad': NullablePointer[GdkDeviceT])
+use @gtk_pad_controller_new[NullablePointer[GObjectT]](group': NullablePointer[GObjectT], pad': NullablePointer[GdkDeviceT])

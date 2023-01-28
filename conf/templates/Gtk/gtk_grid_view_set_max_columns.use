@@ -1,1 +1,1 @@
-use @gtk_grid_view_set_max_columns[None](self': NullablePointer[GtkGridViewT], max_columns': U32)
+use @gtk_grid_view_set_max_columns[None](self': NullablePointer[GObjectT], max_columns': U32)

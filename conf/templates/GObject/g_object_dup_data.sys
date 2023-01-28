@@ -1,2 +1,2 @@
-  fun dup_data(object': NullablePointer[GObjectT], key': String, dup_func': Pointer[None], user_data': Pointer[None] tag): Pointer[None] tag =>
-    @g_object_dup_data(object', key'.cstring(), dup_func', user_data')
+  fun dup_data(object': GObjectI, key': String, dup_func': Pointer[None], user_data': Pointer[None] tag): Pointer[None] tag =>
+    @g_object_dup_data(object'.getptr(), key'.cstring(), dup_func', user_data')

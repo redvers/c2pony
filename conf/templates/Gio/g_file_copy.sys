@@ -1,2 +1,2 @@
-  fun copy(source': NullablePointer[GFileT], destination': NullablePointer[GFileT], flags': U32, cancellable': NullablePointer[GCancellableT], progress_callback': GFileProgressCallback, progress_callback_data': Pointer[None] tag, error': GError): I32 =>
-    @g_file_copy(source', destination', flags', cancellable', progress_callback', progress_callback_data', error'.ptr)
+  fun copy(source': GFileI, destination': GFileI, flags': U32, cancellable': GCancellableI, progress_callback': GFileProgressCallback, progress_callback_data': Pointer[None] tag, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_file_copy(source'.getptr(), destination'.getptr(), flags', cancellable'.getptr(), progress_callback', progress_callback_data', error')

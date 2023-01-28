@@ -1,2 +1,2 @@
-  fun set_defer_drawing(op': NullablePointer[GtkPrintOperationT]): None =>
-    @gtk_print_operation_set_defer_drawing(op')
+  fun set_defer_drawing(op': GtkPrintOperationI): None =>
+    @gtk_print_operation_set_defer_drawing(op'.getptr())

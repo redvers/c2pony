@@ -1,1 +1,1 @@
-use @g_unix_connection_send_fd[I32](connection': NullablePointer[GUnixConnectionT], fd': I32, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_unix_connection_send_fd[I32](connection': NullablePointer[GObjectT], fd': I32, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

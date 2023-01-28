@@ -1,2 +1,2 @@
-  fun get_text(buffer': NullablePointer[GtkEntryBufferT]): String iso^ =>
-    String.from_cstring(@gtk_entry_buffer_get_text(buffer')).clone()
+  fun get_text(buffer': GtkEntryBufferI): String iso^ =>
+    String.from_cstring(@gtk_entry_buffer_get_text(buffer'.getptr())).clone()

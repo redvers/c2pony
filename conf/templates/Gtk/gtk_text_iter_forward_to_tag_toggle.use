@@ -1,1 +1,1 @@
-use @gtk_text_iter_forward_to_tag_toggle[I32](iter': NullablePointer[GtkTextIterT], tag': NullablePointer[GtkTextTagT])
+use @gtk_text_iter_forward_to_tag_toggle[I32](iter': NullablePointer[GtkTextIterT], tag': NullablePointer[GObjectT])

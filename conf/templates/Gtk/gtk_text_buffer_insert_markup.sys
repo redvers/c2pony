@@ -1,2 +1,2 @@
-  fun insert_markup(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], markup': String, len': I32): None =>
-    @gtk_text_buffer_insert_markup(buffer', iter', markup'.cstring(), len')
+  fun insert_markup(buffer': GtkTextBufferI, iter': NullablePointer[GtkTextIterT], markup': String, len': I32): None =>
+    @gtk_text_buffer_insert_markup(buffer'.getptr(), iter', markup'.cstring(), len')

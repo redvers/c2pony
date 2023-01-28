@@ -1,2 +1,2 @@
-  fun unbind(binding': NullablePointer[GBindingT]): None =>
-    @g_binding_unbind(binding')
+  fun unbind(binding': GBindingI): None =>
+    @g_binding_unbind(binding'.getptr())

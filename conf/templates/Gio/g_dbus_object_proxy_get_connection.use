@@ -1,1 +1,1 @@
-use @g_dbus_object_proxy_get_connection[NullablePointer[GDBusConnectionT]](proxy': NullablePointer[GDBusObjectProxyT])
+use @g_dbus_object_proxy_get_connection[NullablePointer[GObjectT]](proxy': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun set_resource(self': NullablePointer[GtkPictureT], resource_path': String): None =>
-    @gtk_picture_set_resource(self', resource_path'.cstring())
+  fun set_resource(self': GtkPictureI, resource_path': String): None =>
+    @gtk_picture_set_resource(self'.getptr(), resource_path'.cstring())

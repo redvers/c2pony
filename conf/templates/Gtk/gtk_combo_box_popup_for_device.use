@@ -1,1 +1,1 @@
-use @gtk_combo_box_popup_for_device[None](combo_box': NullablePointer[GtkComboBoxT], device': NullablePointer[GdkDeviceT])
+use @gtk_combo_box_popup_for_device[None](combo_box': NullablePointer[GObjectT], device': NullablePointer[GdkDeviceT])

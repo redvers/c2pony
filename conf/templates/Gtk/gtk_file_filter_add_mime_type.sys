@@ -1,2 +1,2 @@
-  fun add_mime_type(filter': NullablePointer[GtkFileFilterT], mime_type': String): None =>
-    @gtk_file_filter_add_mime_type(filter', mime_type'.cstring())
+  fun add_mime_type(filter': GtkFileFilterI, mime_type': String): None =>
+    @gtk_file_filter_add_mime_type(filter'.getptr(), mime_type'.cstring())

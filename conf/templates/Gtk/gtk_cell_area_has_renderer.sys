@@ -1,2 +1,2 @@
-  fun has_renderer(area': NullablePointer[GtkCellAreaT], renderer': NullablePointer[GtkCellRendererT]): I32 =>
-    @gtk_cell_area_has_renderer(area', renderer')
+  fun has_renderer(area': GtkCellAreaI, renderer': GtkCellRendererI): I32 =>
+    @gtk_cell_area_has_renderer(area'.getptr(), renderer'.getptr())

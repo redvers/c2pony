@@ -1,2 +1,2 @@
-  fun get_row_separator_func(combo_box': NullablePointer[GtkComboBoxT]): GtkTreeViewRowSeparatorFunc =>
-    @gtk_combo_box_get_row_separator_func(combo_box')
+  fun get_row_separator_func(combo_box': GtkComboBoxI): GtkTreeViewRowSeparatorFunc =>
+    @gtk_combo_box_get_row_separator_func(combo_box'.getptr())

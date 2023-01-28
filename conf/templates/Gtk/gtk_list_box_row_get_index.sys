@@ -1,2 +1,2 @@
-  fun get_index(row': NullablePointer[GtkListBoxRowT]): I32 =>
-    @gtk_list_box_row_get_index(row')
+  fun get_index(row': GtkListBoxRowI): I32 =>
+    @gtk_list_box_row_get_index(row'.getptr())

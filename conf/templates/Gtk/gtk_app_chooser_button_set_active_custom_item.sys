@@ -1,2 +1,2 @@
-  fun set_active_custom_item(self': NullablePointer[GtkAppChooserButtonT], name': String): None =>
-    @gtk_app_chooser_button_set_active_custom_item(self', name'.cstring())
+  fun set_active_custom_item(self': GtkAppChooserButtonI, name': String): None =>
+    @gtk_app_chooser_button_set_active_custom_item(self'.getptr(), name'.cstring())

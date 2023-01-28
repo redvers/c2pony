@@ -1,2 +1,2 @@
-  fun get_file(self': NullablePointer[GtkDirectoryListT]): NullablePointer[GFileT] =>
-    @gtk_directory_list_get_file(self')
+  fun get_file(self': GtkDirectoryListI): NullablePointer[GObjectT] =>
+@gtk_directory_list_get_file(self'.getptr())

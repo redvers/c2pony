@@ -1,2 +1,2 @@
-  fun unexport(interface': NullablePointer[GDBusInterfaceSkeletonT]): None =>
-    @g_dbus_interface_skeleton_unexport(interface')
+  fun unexport(interface': GDBusInterfaceSkeletonI): None =>
+    @g_dbus_interface_skeleton_unexport(interface'.getptr())

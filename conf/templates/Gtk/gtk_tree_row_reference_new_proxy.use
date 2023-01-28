@@ -1,1 +1,1 @@
-use @gtk_tree_row_reference_new_proxy[NullablePointer[GtkTreeRowReferenceT]](proxy': NullablePointer[GObjectT], model': NullablePointer[GtkTreeModelT], path': NullablePointer[GtkTreePathT])
+use @gtk_tree_row_reference_new_proxy[NullablePointer[GtkTreeRowReferenceT]](proxy': NullablePointer[GObjectT], model': NullablePointer[GObjectT], path': NullablePointer[GtkTreePathT])

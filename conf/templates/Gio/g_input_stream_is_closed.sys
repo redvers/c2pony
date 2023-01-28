@@ -1,2 +1,2 @@
-  fun is_closed(stream': NullablePointer[GInputStreamT]): I32 =>
-    @g_input_stream_is_closed(stream')
+  fun is_closed(stream': GInputStreamI): I32 =>
+    @g_input_stream_is_closed(stream'.getptr())

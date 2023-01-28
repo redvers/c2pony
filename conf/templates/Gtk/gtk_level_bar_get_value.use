@@ -1,1 +1,1 @@
-use @gtk_level_bar_get_value[F64](self': NullablePointer[GtkLevelBarT])
+use @gtk_level_bar_get_value[F64](self': NullablePointer[GObjectT])

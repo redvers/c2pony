@@ -1,1 +1,1 @@
-use @g_file_info_set_attribute_int32[None](info': NullablePointer[GFileInfoT], attribute': Pointer[U8] tag, attr_value': I32)
+use @g_file_info_set_attribute_int32[None](info': NullablePointer[GObjectT], attribute': Pointer[U8] tag, attr_value': I32)

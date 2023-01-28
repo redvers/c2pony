@@ -1,2 +1,2 @@
-  fun set_model(self': NullablePointer[GtkDropDownT], model': GListModelI): None =>
-    @gtk_drop_down_set_model(self', model'.getptr())
+  fun set_model(self': GtkDropDownI, model': GListModelI): None =>
+    @gtk_drop_down_set_model(self'.getptr(), model'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_statusbar_push[U32](statusbar': NullablePointer[GtkStatusbarT], context_id': U32, text': Pointer[U8] tag)
+use @gtk_statusbar_push[U32](statusbar': NullablePointer[GObjectT], context_id': U32, text': Pointer[U8] tag)

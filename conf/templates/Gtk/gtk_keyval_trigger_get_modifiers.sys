@@ -1,2 +1,2 @@
-  fun get_modifiers(self': NullablePointer[GtkKeyvalTriggerT]): U32 =>
-    @gtk_keyval_trigger_get_modifiers(self')
+  fun get_modifiers(self': GtkKeyvalTriggerI): U32 =>
+    @gtk_keyval_trigger_get_modifiers(self'.getptr())

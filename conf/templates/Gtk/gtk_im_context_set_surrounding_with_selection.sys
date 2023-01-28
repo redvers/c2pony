@@ -1,2 +1,2 @@
-  fun set_surrounding_with_selection(context': NullablePointer[GtkIMContextT], text': String, len': I32, cursor_index': I32, anchor_index': I32): None =>
-    @gtk_im_context_set_surrounding_with_selection(context', text'.cstring(), len', cursor_index', anchor_index')
+  fun set_surrounding_with_selection(context': GtkIMContextI, text': String, len': I32, cursor_index': I32, anchor_index': I32): None =>
+    @gtk_im_context_set_surrounding_with_selection(context'.getptr(), text'.cstring(), len', cursor_index', anchor_index')

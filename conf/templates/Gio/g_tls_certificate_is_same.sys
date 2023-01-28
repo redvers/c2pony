@@ -1,2 +1,2 @@
-  fun is_same(cert_one': NullablePointer[GTlsCertificateT], cert_two': NullablePointer[GTlsCertificateT]): I32 =>
-    @g_tls_certificate_is_same(cert_one', cert_two')
+  fun is_same(cert_one': GTlsCertificateI, cert_two': GTlsCertificateI): I32 =>
+    @g_tls_certificate_is_same(cert_one'.getptr(), cert_two'.getptr())

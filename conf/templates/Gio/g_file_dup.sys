@@ -1,2 +1,2 @@
-  fun dup(file': NullablePointer[GFileT]): NullablePointer[GFileT] =>
-    @g_file_dup(file')
+  fun dup(file': GFileI): NullablePointer[GObjectT] =>
+@g_file_dup(file'.getptr())

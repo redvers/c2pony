@@ -1,1 +1,1 @@
-use @gtk_editable_get_delegate[NullablePointer[GtkEditableT]](editable': NullablePointer[GtkEditableT])
+use @gtk_editable_get_delegate[NullablePointer[GObjectT]](editable': NullablePointer[GObjectT])

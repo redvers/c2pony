@@ -1,2 +1,2 @@
-  fun get_modal(self': NullablePointer[GtkNativeDialogT]): I32 =>
-    @gtk_native_dialog_get_modal(self')
+  fun get_modal(self': GtkNativeDialogI): I32 =>
+    @gtk_native_dialog_get_modal(self'.getptr())

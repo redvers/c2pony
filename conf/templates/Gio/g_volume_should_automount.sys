@@ -1,2 +1,2 @@
-  fun should_automount(volume': NullablePointer[GVolumeT]): I32 =>
-    @g_volume_should_automount(volume')
+  fun should_automount(volume': GVolumeI): I32 =>
+    @g_volume_should_automount(volume'.getptr())

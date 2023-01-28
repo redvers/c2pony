@@ -1,2 +1,2 @@
-  new new_sync(address': String, flags': U32, guid': String, observer': NullablePointer[GDBusAuthObserverT], cancellable': NullablePointer[GCancellableT], error': GError) =>
-    ptr = @g_dbus_server_new_sync(address'.cstring(), flags', guid'.cstring(), observer', cancellable', error'.ptr)
+  new new_sync(address': String, flags': U32, guid': String, observer': GDBusAuthObserverI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]) =>
+    ptr = @g_dbus_server_new_sync(address'.cstring(), flags', guid'.cstring(), observer'.getptr(), cancellable'.getptr(), error')

@@ -1,2 +1,2 @@
-  fun render_insertion_cursor(snapshot': NullablePointer[GdkSnapshotT], context': NullablePointer[GtkStyleContextT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT], index': I32, direction': U32): None =>
-    @gtk_snapshot_render_insertion_cursor(snapshot', context', x', y', layout', index', direction')
+  fun render_insertion_cursor(snapshot': NullablePointer[GdkSnapshotT], context': GtkStyleContextI, x': F64, y': F64, layout': NullablePointer[PangoLayoutT], index': I32, direction': U32): None =>
+    @gtk_snapshot_render_insertion_cursor(snapshot', context'.getptr(), x', y', layout', index', direction')

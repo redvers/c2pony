@@ -1,2 +1,2 @@
-  fun set_transition_type(revealer': NullablePointer[GtkRevealerT], transition': U32): None =>
-    @gtk_revealer_set_transition_type(revealer', transition')
+  fun set_transition_type(revealer': GtkRevealerI, transition': U32): None =>
+    @gtk_revealer_set_transition_type(revealer'.getptr(), transition')

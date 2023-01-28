@@ -1,1 +1,1 @@
-use @gtk_media_stream_set_playing[None](self': NullablePointer[GtkMediaStreamT], playing': I32)
+use @gtk_media_stream_set_playing[None](self': NullablePointer[GObjectT], playing': I32)

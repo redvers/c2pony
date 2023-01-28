@@ -1,1 +1,1 @@
-use @gtk_range_set_flippable[None](range': NullablePointer[GtkRangeT], flippable': I32)
+use @gtk_range_set_flippable[None](range': NullablePointer[GObjectT], flippable': I32)

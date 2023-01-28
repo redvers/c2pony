@@ -1,2 +1,2 @@
-  fun set_alignment(editable': NullablePointer[GtkEditableT], xalign': F32): None =>
-    @gtk_editable_set_alignment(editable', xalign')
+  fun set_alignment(editable': GtkEditableI, xalign': F32): None =>
+    @gtk_editable_set_alignment(editable'.getptr(), xalign')

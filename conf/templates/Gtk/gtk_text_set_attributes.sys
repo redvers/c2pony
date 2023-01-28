@@ -1,2 +1,2 @@
-  fun set_attributes(self': NullablePointer[GtkTextT], attrs': NullablePointer[PangoAttrListT]): None =>
-    @gtk_text_set_attributes(self', attrs')
+  fun set_attributes(self': GtkTextI, attrs': NullablePointer[PangoAttrListT]): None =>
+    @gtk_text_set_attributes(self'.getptr(), attrs')

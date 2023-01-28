@@ -1,2 +1,2 @@
-  fun emit_deleted_text(buffer': NullablePointer[GtkEntryBufferT], position': U32, n_chars': U32): None =>
-    @gtk_entry_buffer_emit_deleted_text(buffer', position', n_chars')
+  fun emit_deleted_text(buffer': GtkEntryBufferI, position': U32, n_chars': U32): None =>
+    @gtk_entry_buffer_emit_deleted_text(buffer'.getptr(), position', n_chars')

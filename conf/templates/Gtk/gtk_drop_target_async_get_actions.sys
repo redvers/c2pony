@@ -1,2 +1,2 @@
-  fun get_actions(self': NullablePointer[GtkDropTargetAsyncT]): U32 =>
-    @gtk_drop_target_async_get_actions(self')
+  fun get_actions(self': GtkDropTargetAsyncI): U32 =>
+    @gtk_drop_target_async_get_actions(self'.getptr())

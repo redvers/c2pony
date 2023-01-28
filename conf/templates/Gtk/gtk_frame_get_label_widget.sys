@@ -1,2 +1,2 @@
-  fun get_label_widget(frame': NullablePointer[GtkFrameT]): NullablePointer[GObjectT] =>
-@gtk_frame_get_label_widget(frame')
+  fun get_label_widget(frame': GtkFrameI): NullablePointer[GObjectT] =>
+@gtk_frame_get_label_widget(frame'.getptr())

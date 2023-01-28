@@ -1,2 +1,2 @@
-  fun get_user_data(selection': NullablePointer[GtkTreeSelectionT]): Pointer[None] tag =>
-    @gtk_tree_selection_get_user_data(selection')
+  fun get_user_data(selection': GtkTreeSelectionI): Pointer[None] tag =>
+    @gtk_tree_selection_get_user_data(selection'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_flow_box_select_child[None](box': NullablePointer[GtkFlowBoxT], child': NullablePointer[GtkFlowBoxChildT])
+use @gtk_flow_box_select_child[None](box': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

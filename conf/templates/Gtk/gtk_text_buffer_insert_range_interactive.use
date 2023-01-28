@@ -1,1 +1,1 @@
-use @gtk_text_buffer_insert_range_interactive[I32](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT], default_editable': I32)
+use @gtk_text_buffer_insert_range_interactive[I32](buffer': NullablePointer[GObjectT], iter': NullablePointer[GtkTextIterT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT], default_editable': I32)

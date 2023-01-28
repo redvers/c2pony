@@ -1,2 +1,2 @@
-  fun popdown(menu_button': NullablePointer[GtkMenuButtonT]): None =>
-    @gtk_menu_button_popdown(menu_button')
+  fun popdown(menu_button': GtkMenuButtonI): None =>
+    @gtk_menu_button_popdown(menu_button'.getptr())

@@ -1,2 +1,2 @@
-  fun get_digits(scale': NullablePointer[GtkScaleT]): I32 =>
-    @gtk_scale_get_digits(scale')
+  fun get_digits(scale': GtkScaleI): I32 =>
+    @gtk_scale_get_digits(scale'.getptr())

@@ -1,1 +1,1 @@
-use @gtk_search_bar_connect_entry[None](bar': NullablePointer[GtkSearchBarT], entry': NullablePointer[GtkEditableT])
+use @gtk_search_bar_connect_entry[None](bar': NullablePointer[GObjectT], entry': NullablePointer[GObjectT])

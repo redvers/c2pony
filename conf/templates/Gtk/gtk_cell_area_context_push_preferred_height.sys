@@ -1,2 +1,2 @@
-  fun push_preferred_height(context': NullablePointer[GtkCellAreaContextT], minimum_height': I32, natural_height': I32): None =>
-    @gtk_cell_area_context_push_preferred_height(context', minimum_height', natural_height')
+  fun push_preferred_height(context': GtkCellAreaContextI, minimum_height': I32, natural_height': I32): None =>
+    @gtk_cell_area_context_push_preferred_height(context'.getptr(), minimum_height', natural_height')

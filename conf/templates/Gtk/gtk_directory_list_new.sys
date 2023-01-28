@@ -1,2 +1,2 @@
-  new gnew(attributes': String, file': NullablePointer[GFileT]) =>
-    ptr = @gtk_directory_list_new(attributes'.cstring(), file')
+  new gnew(attributes': String, file': GFileI) =>
+    ptr = @gtk_directory_list_new(attributes'.cstring(), file'.getptr())

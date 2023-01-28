@@ -1,2 +1,2 @@
-  fun query_exists(file': NullablePointer[GFileT], cancellable': NullablePointer[GCancellableT]): I32 =>
-    @g_file_query_exists(file', cancellable')
+  fun query_exists(file': GFileI, cancellable': GCancellableI): I32 =>
+    @g_file_query_exists(file'.getptr(), cancellable'.getptr())

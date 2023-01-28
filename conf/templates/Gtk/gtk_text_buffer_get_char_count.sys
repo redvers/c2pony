@@ -1,2 +1,2 @@
-  fun get_char_count(buffer': NullablePointer[GtkTextBufferT]): I32 =>
-    @gtk_text_buffer_get_char_count(buffer')
+  fun get_char_count(buffer': GtkTextBufferI): I32 =>
+    @gtk_text_buffer_get_char_count(buffer'.getptr())

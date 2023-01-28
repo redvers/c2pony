@@ -1,2 +1,2 @@
-  fun ref write_finish(result': NullablePointer[GAsyncResultT], error': GError): I64 =>
+  fun ref write_finish(result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
     GOutputStreamP.write_finish(this, result', error')

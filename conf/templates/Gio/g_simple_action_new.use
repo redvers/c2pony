@@ -1,1 +1,1 @@
-use @g_simple_action_new[NullablePointer[GSimpleActionT]](name': Pointer[U8] tag, parameter_type': NullablePointer[GVariantTypeT])
+use @g_simple_action_new[NullablePointer[GObjectT]](name': Pointer[U8] tag, parameter_type': NullablePointer[GVariantTypeT])

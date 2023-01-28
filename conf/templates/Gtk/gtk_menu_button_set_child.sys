@@ -1,2 +1,2 @@
-  fun set_child(menu_button': NullablePointer[GtkMenuButtonT], child': GtkWidgetI): None =>
-    @gtk_menu_button_set_child(menu_button', child'.getptr())
+  fun set_child(menu_button': GtkMenuButtonI, child': GtkWidgetI): None =>
+    @gtk_menu_button_set_child(menu_button'.getptr(), child'.getptr())

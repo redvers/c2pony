@@ -1,2 +1,2 @@
-  new new_from_gicon(icon': NullablePointer[GIconT]) =>
-    ptr = @gtk_image_new_from_gicon(icon')
+  new new_from_gicon(icon': GIconI) =>
+    ptr = @gtk_image_new_from_gicon(icon'.getptr())

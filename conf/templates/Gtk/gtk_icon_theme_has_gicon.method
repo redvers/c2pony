@@ -1,2 +1,2 @@
-  fun ref has_gicon(gicon': NullablePointer[GIconT]): I32 =>
+  fun ref has_gicon(gicon': GIconI): I32 =>
     GtkIconThemeP.has_gicon(this, gicon')

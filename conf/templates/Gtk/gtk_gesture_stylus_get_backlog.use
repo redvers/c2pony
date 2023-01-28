@@ -1,1 +1,1 @@
-use @gtk_gesture_stylus_get_backlog[I32](gesture': NullablePointer[GtkGestureStylusT], backlog': Pointer[NullablePointer[GdkTimeCoordT]], n_elems': Pointer[U32] tag)
+use @gtk_gesture_stylus_get_backlog[I32](gesture': NullablePointer[GObjectT], backlog': Pointer[NullablePointer[GdkTimeCoordT]], n_elems': Pointer[U32] tag)

@@ -1,2 +1,2 @@
-  fun get_row_baseline_position(grid': NullablePointer[GtkGridT], row': I32): U32 =>
-    @gtk_grid_get_row_baseline_position(grid', row')
+  fun get_row_baseline_position(grid': GtkGridI, row': I32): U32 =>
+    @gtk_grid_get_row_baseline_position(grid'.getptr(), row')

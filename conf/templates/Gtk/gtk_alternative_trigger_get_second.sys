@@ -1,2 +1,2 @@
-  fun get_second(self': NullablePointer[GtkAlternativeTriggerT]): NullablePointer[GtkShortcutTriggerT] =>
-    @gtk_alternative_trigger_get_second(self')
+  fun get_second(self': GtkAlternativeTriggerI): NullablePointer[GObjectT] =>
+@gtk_alternative_trigger_get_second(self'.getptr())

@@ -1,2 +1,2 @@
-  fun get_visible_child_name(stack': NullablePointer[GtkStackT]): String iso^ =>
-    String.from_cstring(@gtk_stack_get_visible_child_name(stack')).clone()
+  fun get_visible_child_name(stack': GtkStackI): String iso^ =>
+    String.from_cstring(@gtk_stack_get_visible_child_name(stack'.getptr())).clone()

@@ -1,2 +1,2 @@
-  new gnew(expression': NullablePointer[GtkExpressionT]) =>
-    ptr = @gtk_numeric_sorter_new(expression')
+  new gnew(expression': GtkExpressionI) =>
+    ptr = @gtk_numeric_sorter_new(expression'.getptr())

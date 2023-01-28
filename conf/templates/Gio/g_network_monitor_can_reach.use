@@ -1,1 +1,1 @@
-use @g_network_monitor_can_reach[I32](monitor': NullablePointer[GNetworkMonitorT], connectable': NullablePointer[GSocketConnectableT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_network_monitor_can_reach[I32](monitor': NullablePointer[GObjectT], connectable': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

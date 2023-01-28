@@ -1,2 +1,2 @@
-  fun set_from_gicon(image': NullablePointer[GtkImageT], icon': NullablePointer[GIconT]): None =>
-    @gtk_image_set_from_gicon(image', icon')
+  fun set_from_gicon(image': GtkImageI, icon': GIconI): None =>
+    @gtk_image_set_from_gicon(image'.getptr(), icon'.getptr())

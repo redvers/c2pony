@@ -1,1 +1,1 @@
-use @g_inet_address_new_loopback[NullablePointer[GInetAddressT]](family': U32)
+use @g_inet_address_new_loopback[NullablePointer[GObjectT]](family': U32)

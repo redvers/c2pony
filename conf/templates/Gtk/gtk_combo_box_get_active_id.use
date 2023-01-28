@@ -1,1 +1,1 @@
-use @gtk_combo_box_get_active_id[Pointer[U8]](combo_box': NullablePointer[GtkComboBoxT])
+use @gtk_combo_box_get_active_id[Pointer[U8]](combo_box': NullablePointer[GObjectT])

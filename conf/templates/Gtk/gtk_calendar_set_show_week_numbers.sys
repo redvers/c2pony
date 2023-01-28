@@ -1,2 +1,2 @@
-  fun set_show_week_numbers(self': NullablePointer[GtkCalendarT], value': I32): None =>
-    @gtk_calendar_set_show_week_numbers(self', value')
+  fun set_show_week_numbers(self': GtkCalendarI, value': I32): None =>
+    @gtk_calendar_set_show_week_numbers(self'.getptr(), value')

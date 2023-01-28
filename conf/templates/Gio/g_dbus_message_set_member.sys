@@ -1,2 +1,2 @@
-  fun set_member(message': NullablePointer[GDBusMessageT], value': String): None =>
-    @g_dbus_message_set_member(message', value'.cstring())
+  fun set_member(message': GDBusMessageI, value': String): None =>
+    @g_dbus_message_set_member(message'.getptr(), value'.cstring())

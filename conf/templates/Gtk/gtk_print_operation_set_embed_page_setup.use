@@ -1,1 +1,1 @@
-use @gtk_print_operation_set_embed_page_setup[None](op': NullablePointer[GtkPrintOperationT], embed': I32)
+use @gtk_print_operation_set_embed_page_setup[None](op': NullablePointer[GObjectT], embed': I32)

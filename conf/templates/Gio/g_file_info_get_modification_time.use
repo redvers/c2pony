@@ -1,1 +1,1 @@
-use @g_file_info_get_modification_time[None](info': NullablePointer[GFileInfoT], result': NullablePointer[GTimeValT])
+use @g_file_info_get_modification_time[None](info': NullablePointer[GObjectT], result': NullablePointer[GTimeValT])

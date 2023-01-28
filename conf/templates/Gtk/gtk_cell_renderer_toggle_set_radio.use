@@ -1,1 +1,1 @@
-use @gtk_cell_renderer_toggle_set_radio[None](toggle': NullablePointer[GtkCellRendererToggleT], radio': I32)
+use @gtk_cell_renderer_toggle_set_radio[None](toggle': NullablePointer[GObjectT], radio': I32)

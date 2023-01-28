@@ -1,1 +1,1 @@
-use @gtk_render_layout[None](context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT])
+use @gtk_render_layout[None](context': NullablePointer[GObjectT], cr': NullablePointer[cairoT], x': F64, y': F64, layout': NullablePointer[PangoLayoutT])

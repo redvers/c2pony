@@ -1,1 +1,1 @@
-use @gtk_media_file_set_input_stream[None](self': NullablePointer[GtkMediaFileT], stream': NullablePointer[GInputStreamT])
+use @gtk_media_file_set_input_stream[None](self': NullablePointer[GObjectT], stream': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun set_urgent(notification': NullablePointer[GNotificationT], urgent': I32): None =>
-    @g_notification_set_urgent(notification', urgent')
+  fun set_urgent(notification': GNotificationI, urgent': I32): None =>
+    @g_notification_set_urgent(notification'.getptr(), urgent')

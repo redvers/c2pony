@@ -1,2 +1,2 @@
-  fun get_orientation(settings': NullablePointer[GtkPrintSettingsT]): U32 =>
-    @gtk_print_settings_get_orientation(settings')
+  fun get_orientation(settings': GtkPrintSettingsI): U32 =>
+    @gtk_print_settings_get_orientation(settings'.getptr())

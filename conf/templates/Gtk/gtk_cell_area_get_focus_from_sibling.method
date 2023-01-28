@@ -1,2 +1,2 @@
-  fun ref get_focus_from_sibling(renderer': NullablePointer[GtkCellRendererT]): NullablePointer[GtkCellRendererT] =>
+  fun ref get_focus_from_sibling(renderer': GtkCellRendererI): NullablePointer[GObjectT] =>
     GtkCellAreaP.get_focus_from_sibling(this, renderer')

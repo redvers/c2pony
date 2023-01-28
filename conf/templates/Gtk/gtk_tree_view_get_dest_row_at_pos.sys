@@ -1,2 +1,2 @@
-  fun get_dest_row_at_pos(tree_view': NullablePointer[GtkTreeViewT], drag_x': I32, drag_y': I32, path': Pointer[NullablePointer[GtkTreePathT]], pos': Pointer[U32] tag): I32 =>
-    @gtk_tree_view_get_dest_row_at_pos(tree_view', drag_x', drag_y', path', pos')
+  fun get_dest_row_at_pos(tree_view': GtkTreeViewI, drag_x': I32, drag_y': I32, path': Pointer[NullablePointer[GtkTreePathT]], pos': Pointer[U32] tag): I32 =>
+    @gtk_tree_view_get_dest_row_at_pos(tree_view'.getptr(), drag_x', drag_y', path', pos')

@@ -1,2 +1,2 @@
-  fun ref clear_attributes(cell': NullablePointer[GtkCellRendererT]): None =>
+  fun ref clear_attributes(cell': GtkCellRendererI): None =>
     GtkCellLayoutP.clear_attributes(this, cell')

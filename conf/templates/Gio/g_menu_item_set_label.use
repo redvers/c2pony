@@ -1,1 +1,1 @@
-use @g_menu_item_set_label[None](menu_item': NullablePointer[GMenuItemT], label': Pointer[U8] tag)
+use @g_menu_item_set_label[None](menu_item': NullablePointer[GObjectT], label': Pointer[U8] tag)

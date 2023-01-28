@@ -1,2 +1,2 @@
-  fun close(listener': NullablePointer[GSocketListenerT]): None =>
-    @g_socket_listener_close(listener')
+  fun close(listener': GSocketListenerI): None =>
+    @g_socket_listener_close(listener'.getptr())

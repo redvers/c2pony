@@ -1,2 +1,2 @@
-  fun set_action(controller': NullablePointer[GtkPadControllerT], type': U32, index': I32, mode': I32, label': String, action_name': String): None =>
-    @gtk_pad_controller_set_action(controller', type', index', mode', label'.cstring(), action_name'.cstring())
+  fun set_action(controller': GtkPadControllerI, type': U32, index': I32, mode': I32, label': String, action_name': String): None =>
+    @gtk_pad_controller_set_action(controller'.getptr(), type', index', mode', label'.cstring(), action_name'.cstring())

@@ -1,2 +1,2 @@
-  fun get_inverted(pbar': NullablePointer[GtkProgressBarT]): I32 =>
-    @gtk_progress_bar_get_inverted(pbar')
+  fun get_inverted(pbar': GtkProgressBarI): I32 =>
+    @gtk_progress_bar_get_inverted(pbar'.getptr())

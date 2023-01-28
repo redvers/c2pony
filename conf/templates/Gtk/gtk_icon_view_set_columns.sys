@@ -1,2 +1,2 @@
-  fun set_columns(icon_view': NullablePointer[GtkIconViewT], columns': I32): None =>
-    @gtk_icon_view_set_columns(icon_view', columns')
+  fun set_columns(icon_view': GtkIconViewI, columns': I32): None =>
+    @gtk_icon_view_set_columns(icon_view'.getptr(), columns')

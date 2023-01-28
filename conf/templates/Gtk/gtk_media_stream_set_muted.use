@@ -1,1 +1,1 @@
-use @gtk_media_stream_set_muted[None](self': NullablePointer[GtkMediaStreamT], muted': I32)
+use @gtk_media_stream_set_muted[None](self': NullablePointer[GObjectT], muted': I32)

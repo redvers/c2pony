@@ -1,2 +1,2 @@
-  fun read(stream': NullablePointer[GInputStreamT], buffer': Pointer[None] tag, count': U64, cancellable': NullablePointer[GCancellableT], error': GError): I64 =>
-    @g_input_stream_read(stream', buffer', count', cancellable', error'.ptr)
+  fun read(stream': GInputStreamI, buffer': Pointer[None] tag, count': U64, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I64 =>
+    @g_input_stream_read(stream'.getptr(), buffer', count', cancellable'.getptr(), error')

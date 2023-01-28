@@ -1,2 +1,2 @@
-  fun create_certificate_handle(self': NullablePointer[GTlsDatabaseT], certificate': NullablePointer[GTlsCertificateT]): String iso^ =>
-    String.from_cstring(@g_tls_database_create_certificate_handle(self', certificate')).clone()
+  fun create_certificate_handle(self': GTlsDatabaseI, certificate': GTlsCertificateI): String iso^ =>
+    String.from_cstring(@g_tls_database_create_certificate_handle(self'.getptr(), certificate'.getptr())).clone()

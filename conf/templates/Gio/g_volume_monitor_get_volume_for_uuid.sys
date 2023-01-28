@@ -1,2 +1,2 @@
-  fun get_volume_for_uuid(volume_monitor': NullablePointer[GVolumeMonitorT], uuid': String): NullablePointer[GVolumeT] =>
-    @g_volume_monitor_get_volume_for_uuid(volume_monitor', uuid'.cstring())
+  fun get_volume_for_uuid(volume_monitor': GVolumeMonitorI, uuid': String): NullablePointer[GObjectT] =>
+@g_volume_monitor_get_volume_for_uuid(volume_monitor'.getptr(), uuid'.cstring())

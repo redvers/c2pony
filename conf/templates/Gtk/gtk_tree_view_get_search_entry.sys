@@ -1,2 +1,2 @@
-  fun get_search_entry(tree_view': NullablePointer[GtkTreeViewT]): NullablePointer[GtkEditableT] =>
-    @gtk_tree_view_get_search_entry(tree_view')
+  fun get_search_entry(tree_view': GtkTreeViewI): NullablePointer[GObjectT] =>
+@gtk_tree_view_get_search_entry(tree_view'.getptr())

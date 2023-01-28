@@ -1,2 +1,2 @@
-  fun ref get_dbus_connection(): NullablePointer[GDBusConnectionT] =>
+  fun ref get_dbus_connection(): NullablePointer[GObjectT] =>
     GApplicationP.get_dbus_connection(this)

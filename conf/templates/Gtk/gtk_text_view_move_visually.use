@@ -1,1 +1,1 @@
-use @gtk_text_view_move_visually[I32](text_view': NullablePointer[GtkTextViewT], iter': NullablePointer[GtkTextIterT], count': I32)
+use @gtk_text_view_move_visually[I32](text_view': NullablePointer[GObjectT], iter': NullablePointer[GtkTextIterT], count': I32)

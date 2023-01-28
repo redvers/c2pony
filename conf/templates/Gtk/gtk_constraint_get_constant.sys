@@ -1,2 +1,2 @@
-  fun get_constant(constraint': NullablePointer[GtkConstraintT]): F64 =>
-    @gtk_constraint_get_constant(constraint')
+  fun get_constant(constraint': GtkConstraintI): F64 =>
+    @gtk_constraint_get_constant(constraint'.getptr())

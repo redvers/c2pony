@@ -1,1 +1,1 @@
-use @gtk_print_settings_new[NullablePointer[GtkPrintSettingsT]]()
+use @gtk_print_settings_new[NullablePointer[GObjectT]]()

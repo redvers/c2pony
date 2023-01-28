@@ -1,2 +1,2 @@
-  fun bind(socket': NullablePointer[GSocketT], address': NullablePointer[GSocketAddressT], allow_reuse': I32, error': GError): I32 =>
-    @g_socket_bind(socket', address', allow_reuse', error'.ptr)
+  fun bind(socket': GSocketI, address': GSocketAddressI, allow_reuse': I32, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_socket_bind(socket'.getptr(), address'.getptr(), allow_reuse', error')

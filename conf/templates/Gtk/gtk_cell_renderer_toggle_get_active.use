@@ -1,1 +1,1 @@
-use @gtk_cell_renderer_toggle_get_active[I32](toggle': NullablePointer[GtkCellRendererToggleT])
+use @gtk_cell_renderer_toggle_get_active[I32](toggle': NullablePointer[GObjectT])

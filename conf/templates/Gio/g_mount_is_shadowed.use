@@ -1,1 +1,1 @@
-use @g_mount_is_shadowed[I32](mount': NullablePointer[GMountT])
+use @g_mount_is_shadowed[I32](mount': NullablePointer[GObjectT])

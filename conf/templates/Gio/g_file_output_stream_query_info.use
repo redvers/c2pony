@@ -1,1 +1,1 @@
-use @g_file_output_stream_query_info[NullablePointer[GFileInfoT]](stream': NullablePointer[GFileOutputStreamT], attributes': Pointer[U8] tag, cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_file_output_stream_query_info[NullablePointer[GObjectT]](stream': NullablePointer[GObjectT], attributes': Pointer[U8] tag, cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

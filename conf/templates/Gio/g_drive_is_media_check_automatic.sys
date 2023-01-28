@@ -1,2 +1,2 @@
-  fun is_media_check_automatic(drive': NullablePointer[GDriveT]): I32 =>
-    @g_drive_is_media_check_automatic(drive')
+  fun is_media_check_automatic(drive': GDriveI): I32 =>
+    @g_drive_is_media_check_automatic(drive'.getptr())

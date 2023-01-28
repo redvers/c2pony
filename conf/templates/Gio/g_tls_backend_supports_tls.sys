@@ -1,2 +1,2 @@
-  fun supports_tls(backend': NullablePointer[GTlsBackendT]): I32 =>
-    @g_tls_backend_supports_tls(backend')
+  fun supports_tls(backend': GTlsBackendI): I32 =>
+    @g_tls_backend_supports_tls(backend'.getptr())

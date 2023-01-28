@@ -1,2 +1,2 @@
-  fun set_username(op': NullablePointer[GMountOperationT], username': String): None =>
-    @g_mount_operation_set_username(op', username'.cstring())
+  fun set_username(op': GMountOperationI, username': String): None =>
+    @g_mount_operation_set_username(op'.getptr(), username'.cstring())

@@ -1,2 +1,2 @@
-  fun ref remove(tag': NullablePointer[GtkTextTagT]): None =>
+  fun ref remove(tag': GtkTextTagI): None =>
     GtkTextTagTableP.remove(this, tag')

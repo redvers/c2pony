@@ -1,2 +1,2 @@
-  fun get_keep_aspect_ratio(self': NullablePointer[GtkPictureT]): I32 =>
-    @gtk_picture_get_keep_aspect_ratio(self')
+  fun get_keep_aspect_ratio(self': GtkPictureI): I32 =>
+    @gtk_picture_get_keep_aspect_ratio(self'.getptr())

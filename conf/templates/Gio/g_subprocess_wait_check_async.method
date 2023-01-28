@@ -1,2 +1,2 @@
-  fun ref wait_check_async(cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
+  fun ref wait_check_async(cancellable': GCancellableI, callback': GAsyncReadyCallback, user_data': Pointer[None] tag): None =>
     GSubprocessP.wait_check_async(this, cancellable', callback', user_data')

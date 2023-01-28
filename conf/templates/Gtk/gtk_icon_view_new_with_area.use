@@ -1,1 +1,1 @@
-use @gtk_icon_view_new_with_area[NullablePointer[GObjectT]](area': NullablePointer[GtkCellAreaT])
+use @gtk_icon_view_new_with_area[NullablePointer[GObjectT]](area': NullablePointer[GObjectT])

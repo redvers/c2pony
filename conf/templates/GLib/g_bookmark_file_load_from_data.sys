@@ -1,2 +1,2 @@
-  fun load_from_data(bookmark': NullablePointer[GBookmarkFileT], data': String, length': U64, error': GError): I32 =>
-    @g_bookmark_file_load_from_data(bookmark', data'.cstring(), length', error'.ptr)
+  fun load_from_data(bookmark': NullablePointer[GBookmarkFileT], data': String, length': U64, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_bookmark_file_load_from_data(bookmark', data'.cstring(), length', error')

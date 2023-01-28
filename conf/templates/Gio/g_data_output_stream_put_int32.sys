@@ -1,2 +1,2 @@
-  fun put_int32(stream': NullablePointer[GDataOutputStreamT], data': I32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_data_output_stream_put_int32(stream', data', cancellable', error'.ptr)
+  fun put_int32(stream': GDataOutputStreamI, data': I32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_data_output_stream_put_int32(stream'.getptr(), data', cancellable'.getptr(), error')

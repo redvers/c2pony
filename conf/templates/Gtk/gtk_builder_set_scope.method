@@ -1,2 +1,2 @@
-  fun ref set_scope(scope': NullablePointer[GtkBuilderScopeT]): None =>
+  fun ref set_scope(scope': GtkBuilderScopeI): None =>
     GtkBuilderP.set_scope(this, scope')

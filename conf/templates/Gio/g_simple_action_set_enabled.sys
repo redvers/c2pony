@@ -1,2 +1,2 @@
-  fun set_enabled(simple': NullablePointer[GSimpleActionT], enabled': I32): None =>
-    @g_simple_action_set_enabled(simple', enabled')
+  fun set_enabled(simple': GSimpleActionI, enabled': I32): None =>
+    @g_simple_action_set_enabled(simple'.getptr(), enabled')

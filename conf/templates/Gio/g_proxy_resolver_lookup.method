@@ -1,2 +1,2 @@
-  fun ref lookup(uri': String, cancellable': NullablePointer[GCancellableT], error': GError): Pointer[Pointer[U8]] tag =>
+  fun ref lookup(uri': String, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
     GProxyResolverP.lookup(this, uri', cancellable', error')

@@ -1,2 +1,2 @@
-  fun insert_column(tree_view': NullablePointer[GtkTreeViewT], column': NullablePointer[GtkTreeViewColumnT], position': I32): I32 =>
-    @gtk_tree_view_insert_column(tree_view', column', position')
+  fun insert_column(tree_view': GtkTreeViewI, column': GtkTreeViewColumnI, position': I32): I32 =>
+    @gtk_tree_view_insert_column(tree_view'.getptr(), column'.getptr(), position')

@@ -1,2 +1,2 @@
-  fun ref get_input_stream(): NullablePointer[GInputStreamT] =>
+  fun ref get_input_stream(): NullablePointer[GObjectT] =>
     GIOStreamP.get_input_stream(this)

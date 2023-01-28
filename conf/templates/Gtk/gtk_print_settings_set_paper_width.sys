@@ -1,2 +1,2 @@
-  fun set_paper_width(settings': NullablePointer[GtkPrintSettingsT], width': F64, unit': U32): None =>
-    @gtk_print_settings_set_paper_width(settings', width', unit')
+  fun set_paper_width(settings': GtkPrintSettingsI, width': F64, unit': U32): None =>
+    @gtk_print_settings_set_paper_width(settings'.getptr(), width', unit')

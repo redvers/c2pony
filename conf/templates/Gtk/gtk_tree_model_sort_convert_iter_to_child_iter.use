@@ -1,1 +1,1 @@
-use @gtk_tree_model_sort_convert_iter_to_child_iter[None](tree_model_sort': NullablePointer[GtkTreeModelSortT], child_iter': NullablePointer[GtkTreeIterT], sorted_iter': NullablePointer[GtkTreeIterT])
+use @gtk_tree_model_sort_convert_iter_to_child_iter[None](tree_model_sort': NullablePointer[GObjectT], child_iter': NullablePointer[GtkTreeIterT], sorted_iter': NullablePointer[GtkTreeIterT])

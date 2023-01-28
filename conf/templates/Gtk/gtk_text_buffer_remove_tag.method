@@ -1,2 +1,2 @@
-  fun ref remove_tag(tag': NullablePointer[GtkTextTagT], start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
+  fun ref remove_tag(tag': GtkTextTagI, start': NullablePointer[GtkTextIterT], end': NullablePointer[GtkTextIterT]): None =>
     GtkTextBufferP.remove_tag(this, tag', start', end')

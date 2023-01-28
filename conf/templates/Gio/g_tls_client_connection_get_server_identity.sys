@@ -1,2 +1,2 @@
-  fun get_server_identity(conn': NullablePointer[GTlsClientConnectionT]): NullablePointer[GSocketConnectableT] =>
-    @g_tls_client_connection_get_server_identity(conn')
+  fun get_server_identity(conn': GTlsClientConnectionI): NullablePointer[GObjectT] =>
+@g_tls_client_connection_get_server_identity(conn'.getptr())

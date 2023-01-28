@@ -1,1 +1,1 @@
-use @g_menu_link_iter_get_value[NullablePointer[GMenuModelT]](iter': NullablePointer[GMenuLinkIterT])
+use @g_menu_link_iter_get_value[NullablePointer[GObjectT]](iter': NullablePointer[GObjectT])

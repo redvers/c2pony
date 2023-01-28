@@ -1,2 +1,2 @@
-  fun is_loading(self': NullablePointer[GtkBookmarkListT]): I32 =>
-    @gtk_bookmark_list_is_loading(self')
+  fun is_loading(self': GtkBookmarkListI): I32 =>
+    @gtk_bookmark_list_is_loading(self'.getptr())

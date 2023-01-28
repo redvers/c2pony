@@ -1,2 +1,2 @@
-  fun poll_for_media_finish(drive': NullablePointer[GDriveT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_drive_poll_for_media_finish(drive', result', error'.ptr)
+  fun poll_for_media_finish(drive': GDriveI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_drive_poll_for_media_finish(drive'.getptr(), result'.getptr(), error')

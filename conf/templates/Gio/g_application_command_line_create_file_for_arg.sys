@@ -1,2 +1,2 @@
-  fun create_file_for_arg(cmdline': NullablePointer[GApplicationCommandLineT], arg': String): NullablePointer[GFileT] =>
-    @g_application_command_line_create_file_for_arg(cmdline', arg'.cstring())
+  fun create_file_for_arg(cmdline': GApplicationCommandLineI, arg': String): NullablePointer[GObjectT] =>
+@g_application_command_line_create_file_for_arg(cmdline'.getptr(), arg'.cstring())

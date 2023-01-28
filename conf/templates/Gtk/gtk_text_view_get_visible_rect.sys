@@ -1,2 +1,2 @@
-  fun get_visible_rect(text_view': NullablePointer[GtkTextViewT], visible_rect': NullablePointer[cairorectangleintT]): None =>
-    @gtk_text_view_get_visible_rect(text_view', visible_rect')
+  fun get_visible_rect(text_view': GtkTextViewI, visible_rect': NullablePointer[cairorectangleintT]): None =>
+    @gtk_text_view_get_visible_rect(text_view'.getptr(), visible_rect')

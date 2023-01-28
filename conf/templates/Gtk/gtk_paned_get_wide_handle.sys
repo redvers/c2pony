@@ -1,2 +1,2 @@
-  fun get_wide_handle(paned': NullablePointer[GtkPanedT]): I32 =>
-    @gtk_paned_get_wide_handle(paned')
+  fun get_wide_handle(paned': GtkPanedI): I32 =>
+    @gtk_paned_get_wide_handle(paned'.getptr())

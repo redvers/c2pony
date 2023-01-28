@@ -1,2 +1,2 @@
-  fun ref get_container(): NullablePointer[GFileT] =>
+  fun ref get_container(): NullablePointer[GObjectT] =>
     GFileEnumeratorP.get_container(this)

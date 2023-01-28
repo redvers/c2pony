@@ -1,1 +1,1 @@
-use @g_dbus_connection_unregister_object[I32](connection': NullablePointer[GDBusConnectionT], registration_id': U32)
+use @g_dbus_connection_unregister_object[I32](connection': NullablePointer[GObjectT], registration_id': U32)

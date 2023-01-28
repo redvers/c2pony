@@ -1,1 +1,1 @@
-use @gtk_spin_button_set_update_policy[None](spin_button': NullablePointer[GtkSpinButtonT], policy': U32)
+use @gtk_spin_button_set_update_policy[None](spin_button': NullablePointer[GObjectT], policy': U32)

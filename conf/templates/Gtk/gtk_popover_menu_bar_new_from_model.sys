@@ -1,2 +1,2 @@
-  new new_from_model(model': NullablePointer[GMenuModelT]) =>
-    ptr = @gtk_popover_menu_bar_new_from_model(model')
+  new new_from_model(model': GMenuModelI) =>
+    ptr = @gtk_popover_menu_bar_new_from_model(model'.getptr())

@@ -1,1 +1,1 @@
-use @g_dbus_message_get_body[NullablePointer[GVariantT]](message': NullablePointer[GDBusMessageT])
+use @g_dbus_message_get_body[NullablePointer[GVariantT]](message': NullablePointer[GObjectT])

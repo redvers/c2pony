@@ -1,2 +1,2 @@
-  fun set_uint64(settings': NullablePointer[GSettingsT], key': String, value': U64): I32 =>
-    @g_settings_set_uint64(settings', key'.cstring(), value')
+  fun set_uint64(settings': GSettingsI, key': String, value': U64): I32 =>
+    @g_settings_set_uint64(settings'.getptr(), key'.cstring(), value')

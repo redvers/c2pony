@@ -1,1 +1,1 @@
-use @g_file_info_get_is_backup[I32](info': NullablePointer[GFileInfoT])
+use @g_file_info_get_is_backup[I32](info': NullablePointer[GObjectT])

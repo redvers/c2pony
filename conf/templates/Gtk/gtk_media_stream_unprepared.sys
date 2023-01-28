@@ -1,2 +1,2 @@
-  fun unprepared(self': NullablePointer[GtkMediaStreamT]): None =>
-    @gtk_media_stream_unprepared(self')
+  fun unprepared(self': GtkMediaStreamI): None =>
+    @gtk_media_stream_unprepared(self'.getptr())

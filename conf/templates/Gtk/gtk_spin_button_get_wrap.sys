@@ -1,2 +1,2 @@
-  fun get_wrap(spin_button': NullablePointer[GtkSpinButtonT]): I32 =>
-    @gtk_spin_button_get_wrap(spin_button')
+  fun get_wrap(spin_button': GtkSpinButtonI): I32 =>
+    @gtk_spin_button_get_wrap(spin_button'.getptr())

@@ -1,2 +1,2 @@
-  fun get(): NullablePointer[GAppInfoMonitorT] =>
-    @g_app_info_monitor_get()
+  fun get(): NullablePointer[GObjectT] =>
+@g_app_info_monitor_get()

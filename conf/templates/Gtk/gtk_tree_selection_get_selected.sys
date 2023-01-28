@@ -1,2 +1,2 @@
-  fun get_selected(selection': NullablePointer[GtkTreeSelectionT], model': Pointer[NullablePointer[GtkTreeModelT]], iter': NullablePointer[GtkTreeIterT]): I32 =>
-    @gtk_tree_selection_get_selected(selection', model', iter')
+  fun get_selected(selection': GtkTreeSelectionI, model': Pointer[NullablePointer[GtkTreeModelT]], iter': NullablePointer[GtkTreeIterT]): I32 =>
+    @gtk_tree_selection_get_selected(selection'.getptr(), model', iter')

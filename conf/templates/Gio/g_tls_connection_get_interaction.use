@@ -1,1 +1,1 @@
-use @g_tls_connection_get_interaction[NullablePointer[GTlsInteractionT]](conn': NullablePointer[GTlsConnectionT])
+use @g_tls_connection_get_interaction[NullablePointer[GObjectT]](conn': NullablePointer[GObjectT])

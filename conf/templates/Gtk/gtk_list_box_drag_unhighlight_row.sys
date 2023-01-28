@@ -1,2 +1,2 @@
-  fun drag_unhighlight_row(box': NullablePointer[GtkListBoxT]): None =>
-    @gtk_list_box_drag_unhighlight_row(box')
+  fun drag_unhighlight_row(box': GtkListBoxI): None =>
+    @gtk_list_box_drag_unhighlight_row(box'.getptr())

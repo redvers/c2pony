@@ -1,2 +1,2 @@
-  fun set_input_hints(entry': NullablePointer[GtkEntryT], hints': U32): None =>
-    @gtk_entry_set_input_hints(entry', hints')
+  fun set_input_hints(entry': GtkEntryI, hints': U32): None =>
+    @gtk_entry_set_input_hints(entry'.getptr(), hints')

@@ -1,2 +1,2 @@
-  fun ref is_grouped_with(other': NullablePointer[GtkGestureT]): I32 =>
+  fun ref is_grouped_with(other': GtkGestureI): I32 =>
     GtkGestureP.is_grouped_with(this, other')

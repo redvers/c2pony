@@ -1,2 +1,2 @@
-  fun ref query_settable_attributes(cancellable': NullablePointer[GCancellableT], error': GError): NullablePointer[GFileAttributeInfoListT] =>
+  fun ref query_settable_attributes(cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): NullablePointer[GFileAttributeInfoListT] =>
     GFileP.query_settable_attributes(this, cancellable', error')

@@ -1,2 +1,2 @@
-  fun set_popup_fixed_width(combo_box': NullablePointer[GtkComboBoxT], fixed': I32): None =>
-    @gtk_combo_box_set_popup_fixed_width(combo_box', fixed')
+  fun set_popup_fixed_width(combo_box': GtkComboBoxI, fixed': I32): None =>
+    @gtk_combo_box_set_popup_fixed_width(combo_box'.getptr(), fixed')

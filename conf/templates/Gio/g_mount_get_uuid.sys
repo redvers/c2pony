@@ -1,2 +1,2 @@
-  fun get_uuid(mount': NullablePointer[GMountT]): String iso^ =>
-    String.from_cstring(@g_mount_get_uuid(mount')).clone()
+  fun get_uuid(mount': GMountI): String iso^ =>
+    String.from_cstring(@g_mount_get_uuid(mount'.getptr())).clone()

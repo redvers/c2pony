@@ -1,2 +1,2 @@
-  fun get_relative_path(parent': NullablePointer[GFileT], descendant': NullablePointer[GFileT]): String iso^ =>
-    String.from_cstring(@g_file_get_relative_path(parent', descendant')).clone()
+  fun get_relative_path(parent': GFileI, descendant': GFileI): String iso^ =>
+    String.from_cstring(@g_file_get_relative_path(parent'.getptr(), descendant'.getptr())).clone()

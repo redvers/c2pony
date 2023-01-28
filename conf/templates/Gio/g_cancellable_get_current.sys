@@ -1,2 +1,2 @@
-  fun get_current(): NullablePointer[GCancellableT] =>
-    @g_cancellable_get_current()
+  fun get_current(): NullablePointer[GObjectT] =>
+@g_cancellable_get_current()

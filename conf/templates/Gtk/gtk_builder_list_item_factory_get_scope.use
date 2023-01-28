@@ -1,1 +1,1 @@
-use @gtk_builder_list_item_factory_get_scope[NullablePointer[GtkBuilderScopeT]](self': NullablePointer[GObjectT])
+use @gtk_builder_list_item_factory_get_scope[NullablePointer[GObjectT]](self': NullablePointer[GObjectT])

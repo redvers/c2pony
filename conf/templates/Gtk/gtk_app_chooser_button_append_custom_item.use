@@ -1,1 +1,1 @@
-use @gtk_app_chooser_button_append_custom_item[None](self': NullablePointer[GtkAppChooserButtonT], name': Pointer[U8] tag, label': Pointer[U8] tag, icon': NullablePointer[GIconT])
+use @gtk_app_chooser_button_append_custom_item[None](self': NullablePointer[GObjectT], name': Pointer[U8] tag, label': Pointer[U8] tag, icon': NullablePointer[GObjectT])

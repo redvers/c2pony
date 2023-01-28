@@ -1,1 +1,1 @@
-use @g_buffered_output_stream_set_buffer_size[None](stream': NullablePointer[GBufferedOutputStreamT], size': U64)
+use @g_buffered_output_stream_set_buffer_size[None](stream': NullablePointer[GObjectT], size': U64)

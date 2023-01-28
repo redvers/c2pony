@@ -1,2 +1,2 @@
-  fun get_proxy_resolver(client': NullablePointer[GSocketClientT]): NullablePointer[GProxyResolverT] =>
-    @g_socket_client_get_proxy_resolver(client')
+  fun get_proxy_resolver(client': GSocketClientI): NullablePointer[GObjectT] =>
+@g_socket_client_get_proxy_resolver(client'.getptr())

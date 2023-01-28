@@ -1,1 +1,1 @@
-use @gtk_link_button_set_visited[None](link_button': NullablePointer[GtkLinkButtonT], visited': I32)
+use @gtk_link_button_set_visited[None](link_button': NullablePointer[GObjectT], visited': I32)

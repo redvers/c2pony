@@ -1,1 +1,1 @@
-use @gtk_text_set_max_length[None](self': NullablePointer[GtkTextT], length': I32)
+use @gtk_text_set_max_length[None](self': NullablePointer[GObjectT], length': I32)

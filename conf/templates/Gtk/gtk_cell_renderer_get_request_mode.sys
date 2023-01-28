@@ -1,2 +1,2 @@
-  fun get_request_mode(cell': NullablePointer[GtkCellRendererT]): U32 =>
-    @gtk_cell_renderer_get_request_mode(cell')
+  fun get_request_mode(cell': GtkCellRendererI): U32 =>
+    @gtk_cell_renderer_get_request_mode(cell'.getptr())

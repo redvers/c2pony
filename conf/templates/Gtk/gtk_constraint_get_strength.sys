@@ -1,2 +1,2 @@
-  fun get_strength(constraint': NullablePointer[GtkConstraintT]): I32 =>
-    @gtk_constraint_get_strength(constraint')
+  fun get_strength(constraint': GtkConstraintI): I32 =>
+    @gtk_constraint_get_strength(constraint'.getptr())

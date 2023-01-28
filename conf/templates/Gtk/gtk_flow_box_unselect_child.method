@@ -1,2 +1,2 @@
-  fun ref unselect_child(child': NullablePointer[GtkFlowBoxChildT]): None =>
+  fun ref unselect_child(child': GtkFlowBoxChildI): None =>
     GtkFlowBoxP.unselect_child(this, child')

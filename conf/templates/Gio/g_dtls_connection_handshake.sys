@@ -1,2 +1,2 @@
-  fun handshake(conn': NullablePointer[GDtlsConnectionT], cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_dtls_connection_handshake(conn', cancellable', error'.ptr)
+  fun handshake(conn': GDtlsConnectionI, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_dtls_connection_handshake(conn'.getptr(), cancellable'.getptr(), error')

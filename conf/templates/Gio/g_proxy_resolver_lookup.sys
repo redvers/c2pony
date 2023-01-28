@@ -1,2 +1,2 @@
-  fun lookup(resolver': NullablePointer[GProxyResolverT], uri': String, cancellable': NullablePointer[GCancellableT], error': GError): Pointer[Pointer[U8]] tag =>
-    @g_proxy_resolver_lookup(resolver', uri'.cstring(), cancellable', error'.ptr)
+  fun lookup(resolver': GProxyResolverI, uri': String, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): Pointer[Pointer[U8]] tag =>
+    @g_proxy_resolver_lookup(resolver'.getptr(), uri'.cstring(), cancellable'.getptr(), error')

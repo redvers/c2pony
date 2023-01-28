@@ -1,2 +1,2 @@
-  fun set_mnemonics_visible(popover': NullablePointer[GtkPopoverT], mnemonics_visible': I32): None =>
-    @gtk_popover_set_mnemonics_visible(popover', mnemonics_visible')
+  fun set_mnemonics_visible(popover': GtkPopoverI, mnemonics_visible': I32): None =>
+    @gtk_popover_set_mnemonics_visible(popover'.getptr(), mnemonics_visible')

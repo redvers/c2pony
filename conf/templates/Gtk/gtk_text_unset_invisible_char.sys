@@ -1,2 +1,2 @@
-  fun unset_invisible_char(self': NullablePointer[GtkTextT]): None =>
-    @gtk_text_unset_invisible_char(self')
+  fun unset_invisible_char(self': GtkTextI): None =>
+    @gtk_text_unset_invisible_char(self'.getptr())

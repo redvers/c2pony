@@ -1,2 +1,2 @@
-  fun set_interaction(conn': NullablePointer[GTlsConnectionT], interaction': NullablePointer[GTlsInteractionT]): None =>
-    @g_tls_connection_set_interaction(conn', interaction')
+  fun set_interaction(conn': GTlsConnectionI, interaction': GTlsInteractionI): None =>
+    @g_tls_connection_set_interaction(conn'.getptr(), interaction'.getptr())

@@ -1,2 +1,2 @@
-  fun seek(seekable': NullablePointer[GSeekableT], offset': I64, type': U32, cancellable': NullablePointer[GCancellableT], error': GError): I32 =>
-    @g_seekable_seek(seekable', offset', type', cancellable', error'.ptr)
+  fun seek(seekable': GSeekableI, offset': I64, type': U32, cancellable': GCancellableI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_seekable_seek(seekable'.getptr(), offset', type', cancellable'.getptr(), error')

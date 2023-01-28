@@ -1,2 +1,2 @@
-  fun get_deletion_date(info': NullablePointer[GFileInfoT]): NullablePointer[GDateTimeT] =>
-    @g_file_info_get_deletion_date(info')
+  fun get_deletion_date(info': GFileInfoI): NullablePointer[GDateTimeT] =>
+    @g_file_info_get_deletion_date(info'.getptr())

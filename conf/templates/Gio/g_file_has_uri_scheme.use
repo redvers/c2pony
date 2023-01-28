@@ -1,1 +1,1 @@
-use @g_file_has_uri_scheme[I32](file': NullablePointer[GFileT], uri_scheme': Pointer[U8] tag)
+use @g_file_has_uri_scheme[I32](file': NullablePointer[GObjectT], uri_scheme': Pointer[U8] tag)

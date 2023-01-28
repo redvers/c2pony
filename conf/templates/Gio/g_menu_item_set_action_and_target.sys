@@ -1,2 +1,2 @@
-  fun set_action_and_target(menu_item': NullablePointer[GMenuItemT], action': String, format_string': String, ...): None =>
-    @g_menu_item_set_action_and_target(menu_item', action'.cstring(), format_string'.cstring(), ...)
+  fun set_action_and_target(menu_item': GMenuItemI, action': String, format_string': String, ...): None =>
+    @g_menu_item_set_action_and_target(menu_item'.getptr(), action'.cstring(), format_string'.cstring(), ...)

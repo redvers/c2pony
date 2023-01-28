@@ -1,2 +1,2 @@
-  fun changed(child': NullablePointer[GtkFlowBoxChildT]): None =>
-    @gtk_flow_box_child_changed(child')
+  fun changed(child': GtkFlowBoxChildI): None =>
+    @gtk_flow_box_child_changed(child'.getptr())

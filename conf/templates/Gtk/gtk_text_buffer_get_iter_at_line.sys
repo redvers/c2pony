@@ -1,2 +1,2 @@
-  fun get_iter_at_line(buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], line_number': I32): I32 =>
-    @gtk_text_buffer_get_iter_at_line(buffer', iter', line_number')
+  fun get_iter_at_line(buffer': GtkTextBufferI, iter': NullablePointer[GtkTextIterT], line_number': I32): I32 =>
+    @gtk_text_buffer_get_iter_at_line(buffer'.getptr(), iter', line_number')

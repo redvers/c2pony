@@ -1,2 +1,2 @@
-  fun get_iter_from_string(tree_model': NullablePointer[GtkTreeModelT], iter': NullablePointer[GtkTreeIterT], path_string': String): I32 =>
-    @gtk_tree_model_get_iter_from_string(tree_model', iter', path_string'.cstring())
+  fun get_iter_from_string(tree_model': GtkTreeModelI, iter': NullablePointer[GtkTreeIterT], path_string': String): I32 =>
+    @gtk_tree_model_get_iter_from_string(tree_model'.getptr(), iter', path_string'.cstring())

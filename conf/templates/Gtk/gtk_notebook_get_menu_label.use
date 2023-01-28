@@ -1,1 +1,1 @@
-use @gtk_notebook_get_menu_label[NullablePointer[GObjectT]](notebook': NullablePointer[GtkNotebookT], child': NullablePointer[GObjectT])
+use @gtk_notebook_get_menu_label[NullablePointer[GObjectT]](notebook': NullablePointer[GObjectT], child': NullablePointer[GObjectT])

@@ -1,2 +1,2 @@
-  fun render_check(context': NullablePointer[GtkStyleContextT], cr': NullablePointer[cairoT], x': F64, y': F64, width': F64, height': F64): None =>
-    @gtk_render_check(context', cr', x', y', width', height')
+  fun render_check(context': GtkStyleContextI, cr': NullablePointer[cairoT], x': F64, y': F64, width': F64, height': F64): None =>
+    @gtk_render_check(context'.getptr(), cr', x', y', width', height')

@@ -1,2 +1,2 @@
-  fun get_show_expanders(tree_view': NullablePointer[GtkTreeViewT]): I32 =>
-    @gtk_tree_view_get_show_expanders(tree_view')
+  fun get_show_expanders(tree_view': GtkTreeViewI): I32 =>
+    @gtk_tree_view_get_show_expanders(tree_view'.getptr())

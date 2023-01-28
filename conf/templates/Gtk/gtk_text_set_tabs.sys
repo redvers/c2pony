@@ -1,2 +1,2 @@
-  fun set_tabs(self': NullablePointer[GtkTextT], tabs': NullablePointer[PangoTabArrayT]): None =>
-    @gtk_text_set_tabs(self', tabs')
+  fun set_tabs(self': GtkTextI, tabs': NullablePointer[PangoTabArrayT]): None =>
+    @gtk_text_set_tabs(self'.getptr(), tabs')

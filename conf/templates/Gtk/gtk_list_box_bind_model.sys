@@ -1,2 +1,2 @@
-  fun bind_model(box': NullablePointer[GtkListBoxT], model': GListModelI, create_widget_func': GtkListBoxCreateWidgetFunc, user_data': Pointer[None] tag, user_data_free_func': Pointer[None]): None =>
-    @gtk_list_box_bind_model(box', model'.getptr(), create_widget_func', user_data', user_data_free_func')
+  fun bind_model(box': GtkListBoxI, model': GListModelI, create_widget_func': GtkListBoxCreateWidgetFunc, user_data': Pointer[None] tag, user_data_free_func': Pointer[None]): None =>
+    @gtk_list_box_bind_model(box'.getptr(), model'.getptr(), create_widget_func', user_data', user_data_free_func')

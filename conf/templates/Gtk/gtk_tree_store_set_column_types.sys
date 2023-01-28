@@ -1,2 +1,2 @@
-  fun set_column_types(tree_store': NullablePointer[GtkTreeStoreT], n_columns': I32, types': Pointer[U64] tag): None =>
-    @gtk_tree_store_set_column_types(tree_store', n_columns', types')
+  fun set_column_types(tree_store': GtkTreeStoreI, n_columns': I32, types': Pointer[U64] tag): None =>
+    @gtk_tree_store_set_column_types(tree_store'.getptr(), n_columns', types')

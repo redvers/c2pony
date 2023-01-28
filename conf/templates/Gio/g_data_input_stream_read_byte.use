@@ -1,1 +1,1 @@
-use @g_data_input_stream_read_byte[U8](stream': NullablePointer[GDataInputStreamT], cancellable': NullablePointer[GCancellableT], error': NullablePointer[GErrorT])
+use @g_data_input_stream_read_byte[U8](stream': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], error': Pointer[NullablePointer[GErrorT]])

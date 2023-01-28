@@ -1,1 +1,1 @@
-use @g_socket_listener_accept_socket_async[None](listener': NullablePointer[GSocketListenerT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_socket_listener_accept_socket_async[None](listener': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

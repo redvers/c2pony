@@ -1,1 +1,1 @@
-use @gtk_text_tag_table_add[I32](table': NullablePointer[GtkTextTagTableT], tag': NullablePointer[GtkTextTagT])
+use @gtk_text_tag_table_add[I32](table': NullablePointer[GObjectT], tag': NullablePointer[GObjectT])

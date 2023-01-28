@@ -1,2 +1,2 @@
-  fun get_input_stream(stream': NullablePointer[GIOStreamT]): NullablePointer[GInputStreamT] =>
-    @g_io_stream_get_input_stream(stream')
+  fun get_input_stream(stream': GIOStreamI): NullablePointer[GObjectT] =>
+@g_io_stream_get_input_stream(stream'.getptr())

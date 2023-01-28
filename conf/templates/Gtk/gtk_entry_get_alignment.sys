@@ -1,2 +1,2 @@
-  fun get_alignment(entry': NullablePointer[GtkEntryT]): F32 =>
-    @gtk_entry_get_alignment(entry')
+  fun get_alignment(entry': GtkEntryI): F32 =>
+    @gtk_entry_get_alignment(entry'.getptr())

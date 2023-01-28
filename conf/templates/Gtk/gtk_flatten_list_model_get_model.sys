@@ -1,2 +1,2 @@
-  fun get_model(self': NullablePointer[GtkFlattenListModelT]): NullablePointer[GObjectT] =>
-@gtk_flatten_list_model_get_model(self')
+  fun get_model(self': GtkFlattenListModelI): NullablePointer[GObjectT] =>
+@gtk_flatten_list_model_get_model(self'.getptr())

@@ -1,2 +1,2 @@
-  fun remount_finish(mount': NullablePointer[GMountT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_mount_remount_finish(mount', result', error'.ptr)
+  fun remount_finish(mount': GMountI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_mount_remount_finish(mount'.getptr(), result'.getptr(), error')

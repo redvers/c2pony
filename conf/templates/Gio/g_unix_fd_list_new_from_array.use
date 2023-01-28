@@ -1,1 +1,1 @@
-use @g_unix_fd_list_new_from_array[NullablePointer[GUnixFDListT]](fds': Pointer[I32] tag, n_fds': I32)
+use @g_unix_fd_list_new_from_array[NullablePointer[GObjectT]](fds': Pointer[I32] tag, n_fds': I32)

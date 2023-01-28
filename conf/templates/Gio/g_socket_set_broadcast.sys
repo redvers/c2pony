@@ -1,2 +1,2 @@
-  fun set_broadcast(socket': NullablePointer[GSocketT], broadcast': I32): None =>
-    @g_socket_set_broadcast(socket', broadcast')
+  fun set_broadcast(socket': GSocketI, broadcast': I32): None =>
+    @g_socket_set_broadcast(socket'.getptr(), broadcast')

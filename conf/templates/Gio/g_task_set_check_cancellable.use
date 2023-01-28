@@ -1,1 +1,1 @@
-use @g_task_set_check_cancellable[None](task': NullablePointer[GTaskT], check_cancellable': I32)
+use @g_task_set_check_cancellable[None](task': NullablePointer[GObjectT], check_cancellable': I32)

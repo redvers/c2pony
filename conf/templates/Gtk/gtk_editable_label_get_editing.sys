@@ -1,2 +1,2 @@
-  fun get_editing(self': NullablePointer[GtkEditableLabelT]): I32 =>
-    @gtk_editable_label_get_editing(self')
+  fun get_editing(self': GtkEditableLabelI): I32 =>
+    @gtk_editable_label_get_editing(self'.getptr())

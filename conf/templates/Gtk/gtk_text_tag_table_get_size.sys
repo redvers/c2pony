@@ -1,2 +1,2 @@
-  fun get_size(table': NullablePointer[GtkTextTagTableT]): I32 =>
-    @gtk_text_tag_table_get_size(table')
+  fun get_size(table': GtkTextTagTableI): I32 =>
+    @gtk_text_tag_table_get_size(table'.getptr())

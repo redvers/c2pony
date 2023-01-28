@@ -1,2 +1,2 @@
-  fun can_reach_finish(monitor': NullablePointer[GNetworkMonitorT], result': NullablePointer[GAsyncResultT], error': GError): I32 =>
-    @g_network_monitor_can_reach_finish(monitor', result', error'.ptr)
+  fun can_reach_finish(monitor': GNetworkMonitorI, result': GAsyncResultI, error': Pointer[NullablePointer[GErrorT]]): I32 =>
+    @g_network_monitor_can_reach_finish(monitor'.getptr(), result'.getptr(), error')

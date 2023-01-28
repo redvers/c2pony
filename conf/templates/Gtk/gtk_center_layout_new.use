@@ -1,1 +1,1 @@
-use @gtk_center_layout_new[NullablePointer[GtkLayoutManagerT]]()
+use @gtk_center_layout_new[NullablePointer[GObjectT]]()

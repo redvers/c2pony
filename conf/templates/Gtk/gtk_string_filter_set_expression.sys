@@ -1,2 +1,2 @@
-  fun set_expression(self': NullablePointer[GtkStringFilterT], expression': NullablePointer[GtkExpressionT]): None =>
-    @gtk_string_filter_set_expression(self', expression')
+  fun set_expression(self': GtkStringFilterI, expression': GtkExpressionI): None =>
+    @gtk_string_filter_set_expression(self'.getptr(), expression'.getptr())

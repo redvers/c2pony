@@ -1,2 +1,2 @@
-  fun unselect_all(selection': NullablePointer[GtkTreeSelectionT]): None =>
-    @gtk_tree_selection_unselect_all(selection')
+  fun unselect_all(selection': GtkTreeSelectionI): None =>
+    @gtk_tree_selection_unselect_all(selection'.getptr())

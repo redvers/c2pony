@@ -1,1 +1,1 @@
-use @gtk_custom_filter_new[NullablePointer[GtkCustomFilterT]](match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None])
+use @gtk_custom_filter_new[NullablePointer[GObjectT]](match_func': GtkCustomFilterFunc, user_data': Pointer[None] tag, user_destroy': Pointer[None])

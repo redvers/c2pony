@@ -1,1 +1,1 @@
-use @g_spawn_check_exit_status[I32](wait_status': I32, error': NullablePointer[GErrorT])
+use @g_spawn_check_exit_status[I32](wait_status': I32, error': Pointer[NullablePointer[GErrorT]])

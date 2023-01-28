@@ -1,2 +1,2 @@
-  fun add_service_dir(self': NullablePointer[GTestDBusT], path': String): None =>
-    @g_test_dbus_add_service_dir(self', path'.cstring())
+  fun add_service_dir(self': GTestDBusI, path': String): None =>
+    @g_test_dbus_add_service_dir(self'.getptr(), path'.cstring())

@@ -1,2 +1,2 @@
-  fun set_object(interface': NullablePointer[GDBusInterfaceT], object': NullablePointer[GDBusObjectT]): None =>
-    @g_dbus_interface_set_object(interface', object')
+  fun set_object(interface': GDBusInterfaceI, object': GDBusObjectI): None =>
+    @g_dbus_interface_set_object(interface'.getptr(), object'.getptr())

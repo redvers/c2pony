@@ -1,1 +1,1 @@
-use @gtk_accessible_update_state_value[None](self': NullablePointer[GtkAccessibleT], n_states': I32, states': Pointer[U32] tag, values': NullablePointer[GValueT])
+use @gtk_accessible_update_state_value[None](self': NullablePointer[GObjectT], n_states': I32, states': Pointer[U32] tag, values': NullablePointer[GValueT])

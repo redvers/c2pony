@@ -1,2 +1,2 @@
-  new new_with_origin(icon': NullablePointer[GIconT], origin': U32) =>
-    ptr = @g_emblem_new_with_origin(icon', origin')
+  new new_with_origin(icon': GIconI, origin': U32) =>
+    ptr = @g_emblem_new_with_origin(icon'.getptr(), origin')

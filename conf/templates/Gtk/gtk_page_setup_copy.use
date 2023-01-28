@@ -1,1 +1,1 @@
-use @gtk_page_setup_copy[NullablePointer[GtkPageSetupT]](other': NullablePointer[GtkPageSetupT])
+use @gtk_page_setup_copy[NullablePointer[GObjectT]](other': NullablePointer[GObjectT])

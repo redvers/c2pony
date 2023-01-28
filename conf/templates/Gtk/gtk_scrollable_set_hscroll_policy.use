@@ -1,1 +1,1 @@
-use @gtk_scrollable_set_hscroll_policy[None](scrollable': NullablePointer[GtkScrollableT], policy': U32)
+use @gtk_scrollable_set_hscroll_policy[None](scrollable': NullablePointer[GObjectT], policy': U32)

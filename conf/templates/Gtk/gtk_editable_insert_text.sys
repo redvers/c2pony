@@ -1,2 +1,2 @@
-  fun insert_text(editable': NullablePointer[GtkEditableT], text': String, length': I32, position': Pointer[I32] tag): None =>
-    @gtk_editable_insert_text(editable', text'.cstring(), length', position')
+  fun insert_text(editable': GtkEditableI, text': String, length': I32, position': Pointer[I32] tag): None =>
+    @gtk_editable_insert_text(editable'.getptr(), text'.cstring(), length', position')

@@ -1,2 +1,2 @@
-  fun set_auto_render(area': NullablePointer[GtkGLAreaT], auto_render': I32): None =>
-    @gtk_gl_area_set_auto_render(area', auto_render')
+  fun set_auto_render(area': GtkGLAreaI, auto_render': I32): None =>
+    @gtk_gl_area_set_auto_render(area'.getptr(), auto_render')

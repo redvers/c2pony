@@ -1,1 +1,1 @@
-use @gtk_text_buffer_insert_paintable[None](buffer': NullablePointer[GtkTextBufferT], iter': NullablePointer[GtkTextIterT], paintable': NullablePointer[GdkPaintableT])
+use @gtk_text_buffer_insert_paintable[None](buffer': NullablePointer[GObjectT], iter': NullablePointer[GtkTextIterT], paintable': NullablePointer[GdkPaintableT])

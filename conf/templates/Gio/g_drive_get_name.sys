@@ -1,2 +1,2 @@
-  fun get_name(drive': NullablePointer[GDriveT]): String iso^ =>
-    String.from_cstring(@g_drive_get_name(drive')).clone()
+  fun get_name(drive': GDriveI): String iso^ =>
+    String.from_cstring(@g_drive_get_name(drive'.getptr())).clone()

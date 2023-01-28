@@ -1,2 +1,2 @@
-  fun set_baseline_row(grid': NullablePointer[GtkGridLayoutT], row': I32): None =>
-    @gtk_grid_layout_set_baseline_row(grid', row')
+  fun set_baseline_row(grid': GtkGridLayoutI, row': I32): None =>
+    @gtk_grid_layout_set_baseline_row(grid'.getptr(), row')

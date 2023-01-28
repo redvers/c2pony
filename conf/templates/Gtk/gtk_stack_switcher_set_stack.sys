@@ -1,2 +1,2 @@
-  fun set_stack(switcher': NullablePointer[GtkStackSwitcherT], stack': NullablePointer[GtkStackT]): None =>
-    @gtk_stack_switcher_set_stack(switcher', stack')
+  fun set_stack(switcher': GtkStackSwitcherI, stack': GtkStackI): None =>
+    @gtk_stack_switcher_set_stack(switcher'.getptr(), stack'.getptr())

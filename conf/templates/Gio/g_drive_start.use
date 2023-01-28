@@ -1,1 +1,1 @@
-use @g_drive_start[None](drive': NullablePointer[GDriveT], flags': U32, mount_operation': NullablePointer[GMountOperationT], cancellable': NullablePointer[GCancellableT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)
+use @g_drive_start[None](drive': NullablePointer[GObjectT], flags': U32, mount_operation': NullablePointer[GObjectT], cancellable': NullablePointer[GObjectT], callback': GAsyncReadyCallback, user_data': Pointer[None] tag)

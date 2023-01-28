@@ -1,2 +1,2 @@
-  fun set_create_folders(chooser': NullablePointer[GtkFileChooserT], create_folders': I32): None =>
-    @gtk_file_chooser_set_create_folders(chooser', create_folders')
+  fun set_create_folders(chooser': GtkFileChooserI, create_folders': I32): None =>
+    @gtk_file_chooser_set_create_folders(chooser'.getptr(), create_folders')

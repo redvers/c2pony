@@ -1,1 +1,1 @@
-use @gtk_statusbar_get_context_id[U32](statusbar': NullablePointer[GtkStatusbarT], context_description': Pointer[U8] tag)
+use @gtk_statusbar_get_context_id[U32](statusbar': NullablePointer[GObjectT], context_description': Pointer[U8] tag)
